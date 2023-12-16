@@ -1,0 +1,7808 @@
+"params.ml" 10 121 125 "params.ml" 10 121 133
+type(
+  Digest.t
+)
+ident(
+  def self_sum "params.ml" 14 264 264 "params.ml" 0 0 -1
+)
+"params.ml" 10 121 136 "params.ml" 10 121 147
+type(
+  string -> Digest.t
+)
+ident(
+  int_ref Stdlib.Digest.file "digest.mli" 66 2945 2945 "digest.mli" 66 2945 2967
+)
+"params.ml" 10 121 148 "params.ml" 10 121 167
+type(
+  string
+)
+ident(
+  int_ref Stdlib.Sys.executable_name "sys.mli" 29 1489 1489 "sys.mli" 29 1489 1517
+)
+"params.ml" 10 121 136 "params.ml" 10 121 167
+type(
+  Digest.t
+)
+"params.ml" 14 264 268 "params.ml" 14 264 278
+type(
+  unit -> string
+)
+ident(
+  def rawversion "params.ml" 18 349 349 "params.ml" 0 0 -1
+)
+"params.ml" 14 264 279 "params.ml" 14 264 281
+type(
+  unit
+)
+"params.ml" 15 284 286 "params.ml" 15 284 293
+type(
+  (int -> int -> int -> string, unit, string) format ->
+  int -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"params.ml" 15 284 294 "params.ml" 15 284 304
+type(
+  (int -> int -> int -> string, unit, string) format
+)
+"params.ml" 15 284 305 "params.ml" 15 284 318
+type(
+  int
+)
+ident(
+  int_ref Version.major "version.mli" 4 62 62 "version.mli" 4 62 76
+)
+"params.ml" 15 284 319 "params.ml" 15 284 332
+type(
+  int
+)
+ident(
+  int_ref Version.minor "version.mli" 5 77 77 "version.mli" 5 77 91
+)
+"params.ml" 15 284 333 "params.ml" 15 284 346
+type(
+  int
+)
+ident(
+  int_ref Version.micro "version.mli" 6 92 92 "version.mli" 6 92 106
+)
+"params.ml" 15 284 286 "params.ml" 15 284 346
+type(
+  string
+)
+"params.ml" 18 349 353 "params.ml" 18 349 364
+type(
+  (string, unit) Hashtbl.t
+)
+ident(
+  def debug_flags "params.ml" 19 411 411 "params.ml" 0 0 -1
+)
+"params.ml" 18 349 394 "params.ml" 18 349 408
+type(
+  ?random:bool -> int -> (string, unit) Hashtbl.t
+)
+ident(
+  int_ref Stdlib.Hashtbl.create "hashtbl.mli" 31 1451 1451 "hashtbl.mli" 32 1517 1547
+)
+"params.ml" 18 349 409 "params.ml" 18 349 410
+type(
+  int
+)
+"params.ml" 18 349 394 "params.ml" 18 349 410
+type(
+  (string, unit) Hashtbl.t
+)
+"params.ml" 19 411 415 "params.ml" 19 411 429
+type(
+  string -> unit
+)
+ident(
+  def add_debug_flag "params.ml" 20 467 467 "params.ml" 0 0 -1
+)
+"params.ml" 19 411 430 "params.ml" 19 411 433
+type(
+  string
+)
+ident(
+  def flg "params.ml" 19 411 436 "params.ml" 19 411 466
+)
+"params.ml" 19 411 436 "params.ml" 19 411 447
+type(
+  (string, unit) Hashtbl.t -> string -> unit -> unit
+)
+ident(
+  int_ref Stdlib.Hashtbl.add "hashtbl.mli" 82 3918 3918 "hashtbl.mli" 82 3918 3958
+)
+"params.ml" 19 411 448 "params.ml" 19 411 459
+type(
+  (string, unit) Hashtbl.t
+)
+ident(
+  int_ref debug_flags "params.ml" 18 349 353 "params.ml" 18 349 364
+)
+"params.ml" 19 411 460 "params.ml" 19 411 463
+type(
+  string
+)
+ident(
+  int_ref flg "params.ml" 19 411 430 "params.ml" 19 411 433
+)
+"params.ml" 19 411 464 "params.ml" 19 411 466
+type(
+  unit
+)
+"params.ml" 19 411 436 "params.ml" 19 411 466
+type(
+  unit
+)
+"params.ml" 20 467 471 "params.ml" 20 467 484
+type(
+  string -> unit
+)
+ident(
+  def rm_debug_flag "params.ml" 21 522 522 "params.ml" 0 0 -1
+)
+"params.ml" 20 467 485 "params.ml" 20 467 488
+type(
+  string
+)
+ident(
+  def flg "params.ml" 20 467 491 "params.ml" 20 467 521
+)
+"params.ml" 20 467 491 "params.ml" 20 467 505
+type(
+  (string, unit) Hashtbl.t -> string -> unit
+)
+ident(
+  int_ref Stdlib.Hashtbl.remove "hashtbl.mli" 108 4960 4960 "hashtbl.mli" 108 4960 4997
+)
+"params.ml" 20 467 506 "params.ml" 20 467 517
+type(
+  (string, unit) Hashtbl.t
+)
+ident(
+  int_ref debug_flags "params.ml" 18 349 353 "params.ml" 18 349 364
+)
+"params.ml" 20 467 518 "params.ml" 20 467 521
+type(
+  string
+)
+ident(
+  int_ref flg "params.ml" 20 467 485 "params.ml" 20 467 488
+)
+"params.ml" 20 467 491 "params.ml" 20 467 521
+type(
+  unit
+)
+"params.ml" 21 522 526 "params.ml" 21 522 535
+type(
+  string -> bool
+)
+ident(
+  def debugging "params.ml" 23 571 571 "params.ml" 0 0 -1
+)
+"params.ml" 21 522 536 "params.ml" 21 522 539
+type(
+  string
+)
+ident(
+  def flg "params.ml" 21 522 542 "params.ml" 21 522 569
+)
+"params.ml" 21 522 542 "params.ml" 21 522 553
+type(
+  (string, unit) Hashtbl.t -> string -> bool
+)
+ident(
+  int_ref Stdlib.Hashtbl.mem "hashtbl.mli" 105 4864 4864 "hashtbl.mli" 105 4864 4898
+)
+"params.ml" 21 522 554 "params.ml" 21 522 565
+type(
+  (string, unit) Hashtbl.t
+)
+ident(
+  int_ref debug_flags "params.ml" 18 349 353 "params.ml" 18 349 364
+)
+"params.ml" 21 522 566 "params.ml" 21 522 569
+type(
+  string
+)
+ident(
+  int_ref flg "params.ml" 21 522 536 "params.ml" 21 522 539
+)
+"params.ml" 21 522 542 "params.ml" 21 522 569
+type(
+  bool
+)
+"params.ml" 23 571 575 "params.ml" 23 571 581
+type(
+  int
+)
+ident(
+  def nprocs "params.ml" 25 603 603 "params.ml" 0 0 -1
+)
+"params.ml" 23 571 584 "params.ml" 23 571 598
+type(
+  ?default:int -> unit -> int
+)
+ident(
+  int_ref Sysconf.nprocs "sysconf.mli" 9 187 187 "sysconf.mli" 9 187 226
+)
+"params.ml" 23 571 599 "params.ml" 23 571 601
+type(
+  unit
+)
+"params.ml" 23 571 584 "params.ml" 23 571 601
+type(
+  int
+)
+"params.ml" 25 603 607 "params.ml" 25 603 622
+type(
+  float ref
+)
+ident(
+  def timeout_stretch "params.ml" 27 634 634 "params.ml" 0 0 -1
+)
+"params.ml" 25 603 625 "params.ml" 25 603 628
+type(
+  float -> float ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 25 603 629 "params.ml" 25 603 632
+type(
+  float
+)
+"params.ml" 25 603 625 "params.ml" 25 603 632
+type(
+  float ref
+)
+"params.ml" 27 634 638 "params.ml" 27 634 643
+type(
+  int ref
+)
+ident(
+  def tb_sl "params.ml" 28 677 677 "params.ml" 0 0 -1
+)
+"params.ml" 27 634 646 "params.ml" 27 634 649
+type(
+  int -> int ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 27 634 650 "params.ml" 27 634 651
+type(
+  int
+)
+"params.ml" 27 634 646 "params.ml" 27 634 651
+type(
+  int ref
+)
+"params.ml" 28 677 681 "params.ml" 28 677 686
+type(
+  int ref
+)
+ident(
+  def tb_el "params.ml" 29 724 724 "params.ml" 0 0 -1
+)
+"params.ml" 28 677 689 "params.ml" 28 677 692
+type(
+  int -> int ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 28 677 693 "params.ml" 28 677 700
+type(
+  int
+)
+ident(
+  int_ref Stdlib.max_int "stdlib.mli" 389 15137 15137 "stdlib.mli" 389 15137 15154
+)
+"params.ml" 28 677 689 "params.ml" 28 677 700
+type(
+  int ref
+)
+"params.ml" 29 724 728 "params.ml" 29 724 739
+type(
+  string list ref
+)
+ident(
+  def input_files "params.ml" 31 782 782 "params.ml" 0 0 -1
+)
+"params.ml" 29 724 742 "params.ml" 29 724 745
+type(
+  string list -> string list ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 29 724 746 "params.ml" 29 724 748
+type(
+  string list
+)
+"params.ml" 29 724 742 "params.ml" 29 724 748
+type(
+  string list ref
+)
+"params.ml" 31 782 786 "params.ml" 31 782 793
+type(
+  bool ref
+)
+ident(
+  def toolbox "params.ml" 33 838 838 "params.ml" 0 0 -1
+)
+"params.ml" 31 782 796 "params.ml" 31 782 799
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 31 782 800 "params.ml" 31 782 805
+type(
+  bool
+)
+"params.ml" 31 782 796 "params.ml" 31 782 805
+type(
+  bool ref
+)
+"params.ml" 33 838 842 "params.ml" 33 838 847
+type(
+  bool ref
+)
+ident(
+  def no_fp "params.ml" 36 933 933 "params.ml" 0 0 -1
+)
+"params.ml" 33 838 850 "params.ml" 33 838 853
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 33 838 854 "params.ml" 33 838 859
+type(
+  bool
+)
+"params.ml" 33 838 850 "params.ml" 33 838 859
+type(
+  bool ref
+)
+"params.ml" 36 933 937 "params.ml" 36 933 944
+type(
+  int ref
+)
+ident(
+  def nofp_sl "params.ml" 37 953 953 "params.ml" 0 0 -1
+)
+"params.ml" 36 933 947 "params.ml" 36 933 950
+type(
+  int -> int ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 36 933 951 "params.ml" 36 933 952
+type(
+  int
+)
+"params.ml" 36 933 947 "params.ml" 36 933 952
+type(
+  int ref
+)
+"params.ml" 37 953 957 "params.ml" 37 953 964
+type(
+  int ref
+)
+ident(
+  def nofp_el "params.ml" 41 1066 1066 "params.ml" 0 0 -1
+)
+"params.ml" 37 953 967 "params.ml" 37 953 970
+type(
+  int -> int ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 37 953 971 "params.ml" 37 953 972
+type(
+  int
+)
+"params.ml" 37 953 967 "params.ml" 37 953 972
+type(
+  int ref
+)
+"params.ml" 41 1066 1070 "params.ml" 41 1066 1077
+type(
+  bool ref
+)
+ident(
+  def cleanfp "params.ml" 43 1125 1125 "params.ml" 0 0 -1
+)
+"params.ml" 41 1066 1080 "params.ml" 41 1066 1083
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 41 1066 1084 "params.ml" 41 1066 1089
+type(
+  bool
+)
+"params.ml" 41 1066 1080 "params.ml" 41 1066 1089
+type(
+  bool ref
+)
+"params.ml" 43 1125 1129 "params.ml" 43 1125 1135
+type(
+  bool ref
+)
+ident(
+  def safefp "params.ml" 46 1220 1220 "params.ml" 0 0 -1
+)
+"params.ml" 43 1125 1138 "params.ml" 43 1125 1141
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 43 1125 1142 "params.ml" 43 1125 1147
+type(
+  bool
+)
+"params.ml" 43 1125 1138 "params.ml" 43 1125 1147
+type(
+  bool ref
+)
+"params.ml" 46 1220 1224 "params.ml" 46 1220 1228
+type(
+  int ref
+)
+ident(
+  def wait "params.ml" 49 1310 1310 "params.ml" 0 0 -1
+)
+"params.ml" 46 1220 1231 "params.ml" 46 1220 1234
+type(
+  int -> int ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 46 1220 1235 "params.ml" 46 1220 1236
+type(
+  int
+)
+"params.ml" 46 1220 1231 "params.ml" 46 1220 1236
+type(
+  int ref
+)
+"params.ml" 49 1310 1314 "params.ml" 49 1310 1323
+type(
+  bool ref
+)
+ident(
+  def noproving "params.ml" 51 1387 1387 "params.ml" 0 0 -1
+)
+"params.ml" 49 1310 1326 "params.ml" 49 1310 1329
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 49 1310 1330 "params.ml" 49 1310 1335
+type(
+  bool
+)
+"params.ml" 49 1310 1326 "params.ml" 49 1310 1335
+type(
+  bool ref
+)
+"params.ml" 51 1387 1391 "params.ml" 51 1387 1402
+type(
+  bool ref
+)
+ident(
+  def printallobs "params.ml" 55 1497 1497 "params.ml" 0 0 -1
+)
+"params.ml" 51 1387 1405 "params.ml" 51 1387 1408
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 51 1387 1409 "params.ml" 51 1387 1414
+type(
+  bool
+)
+"params.ml" 51 1387 1405 "params.ml" 51 1387 1414
+type(
+  bool ref
+)
+"params.ml" 55 1497 1501 "params.ml" 55 1497 1513
+type(
+  string
+)
+ident(
+  def library_path "params.ml" 62 1681 1681 "params.ml" 0 0 -1
+)
+"params.ml" 56 1516 1522 "params.ml" 56 1516 1523
+type(
+  string
+)
+ident(
+  def d "params.ml" 57 1549 1551 "params.ml" 60 1676 1679
+)
+"params.ml" 56 1516 1526 "params.ml" 56 1516 1545
+type(
+  string
+)
+ident(
+  int_ref Stdlib.Sys.executable_name "sys.mli" 29 1489 1489 "sys.mli" 29 1489 1517
+)
+"params.ml" 57 1549 1555 "params.ml" 57 1549 1556
+type(
+  string
+)
+ident(
+  def d "params.ml" 58 1600 1602 "params.ml" 60 1676 1679
+)
+"params.ml" 57 1549 1559 "params.ml" 57 1549 1575
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.Filename.dirname "filename.mli" 116 4610 4610 "filename.mli" 116 4610 4640
+)
+"params.ml" 57 1549 1577 "params.ml" 57 1549 1593
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.Filename.dirname "filename.mli" 116 4610 4610 "filename.mli" 116 4610 4640
+)
+"params.ml" 57 1549 1594 "params.ml" 57 1549 1595
+type(
+  string
+)
+ident(
+  int_ref d "params.ml" 56 1516 1522 "params.ml" 56 1516 1523
+)
+"params.ml" 57 1549 1576 "params.ml" 57 1549 1596
+type(
+  string
+)
+"params.ml" 57 1549 1559 "params.ml" 57 1549 1596
+type(
+  string
+)
+"params.ml" 58 1600 1606 "params.ml" 58 1600 1607
+type(
+  string
+)
+ident(
+  def d "params.ml" 59 1637 1639 "params.ml" 60 1676 1679
+)
+"params.ml" 58 1600 1610 "params.ml" 58 1600 1625
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Filename.concat "filename.mli" 28 1429 1429 "filename.mli" 28 1429 1468
+)
+"params.ml" 58 1600 1626 "params.ml" 58 1600 1627
+type(
+  string
+)
+ident(
+  int_ref d "params.ml" 57 1549 1555 "params.ml" 57 1549 1556
+)
+"params.ml" 58 1600 1628 "params.ml" 58 1600 1633
+type(
+  string
+)
+"params.ml" 58 1600 1610 "params.ml" 58 1600 1633
+type(
+  string
+)
+"params.ml" 59 1637 1643 "params.ml" 59 1637 1644
+type(
+  string
+)
+ident(
+  def d "params.ml" 60 1676 1678 "params.ml" 60 1676 1679
+)
+"params.ml" 59 1637 1647 "params.ml" 59 1637 1662
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Filename.concat "filename.mli" 28 1429 1429 "filename.mli" 28 1429 1468
+)
+"params.ml" 59 1637 1663 "params.ml" 59 1637 1664
+type(
+  string
+)
+ident(
+  int_ref d "params.ml" 58 1600 1606 "params.ml" 58 1600 1607
+)
+"params.ml" 59 1637 1665 "params.ml" 59 1637 1672
+type(
+  string
+)
+"params.ml" 59 1637 1647 "params.ml" 59 1637 1672
+type(
+  string
+)
+"params.ml" 60 1676 1678 "params.ml" 60 1676 1679
+type(
+  string
+)
+ident(
+  int_ref d "params.ml" 59 1637 1643 "params.ml" 59 1637 1644
+)
+"params.ml" 59 1637 1639 "params.ml" 60 1676 1679
+type(
+  string
+)
+"params.ml" 58 1600 1602 "params.ml" 60 1676 1679
+type(
+  string
+)
+"params.ml" 57 1549 1551 "params.ml" 60 1676 1679
+type(
+  string
+)
+"params.ml" 56 1516 1518 "params.ml" 60 1676 1679
+type(
+  string
+)
+"params.ml" 71 1952 1956 "params.ml" 71 1952 1961
+type(
+  string
+)
+ident(
+  def mydir "params.ml" 72 2001 2001 "params.ml" 0 0 -1
+)
+"params.ml" 71 1952 1964 "params.ml" 71 1952 1980
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.Filename.dirname "filename.mli" 116 4610 4610 "filename.mli" 116 4610 4640
+)
+"params.ml" 71 1952 1981 "params.ml" 71 1952 2000
+type(
+  string
+)
+ident(
+  int_ref Stdlib.Sys.executable_name "sys.mli" 29 1489 1489 "sys.mli" 29 1489 1517
+)
+"params.ml" 71 1952 1964 "params.ml" 71 1952 2000
+type(
+  string
+)
+"params.ml" 72 2001 2005 "params.ml" 72 2001 2011
+type(
+  string
+)
+ident(
+  def auxdir "params.ml" 73 2049 2049 "params.ml" 0 0 -1
+)
+"params.ml" 72 2001 2014 "params.ml" 72 2001 2029
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Filename.concat "filename.mli" 28 1429 1429 "filename.mli" 28 1429 1468
+)
+"params.ml" 72 2001 2030 "params.ml" 72 2001 2042
+type(
+  string
+)
+ident(
+  int_ref library_path "params.ml" 55 1497 1501 "params.ml" 55 1497 1513
+)
+"params.ml" 72 2001 2043 "params.ml" 72 2001 2048
+type(
+  string
+)
+"params.ml" 72 2001 2014 "params.ml" 72 2001 2048
+type(
+  string
+)
+"params.ml" 73 2049 2053 "params.ml" 73 2049 2062
+type(
+  string
+)
+ident(
+  def extrapath "params.ml" 74 2095 2095 "params.ml" 0 0 -1
+)
+"params.ml" 73 2049 2065 "params.ml" 73 2049 2072
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"params.ml" 73 2049 2073 "params.ml" 73 2049 2081
+type(
+  (string -> string -> string, unit, string) format
+)
+"params.ml" 73 2049 2082 "params.ml" 73 2049 2087
+type(
+  string
+)
+ident(
+  int_ref mydir "params.ml" 71 1952 1956 "params.ml" 71 1952 1961
+)
+"params.ml" 73 2049 2088 "params.ml" 73 2049 2094
+type(
+  string
+)
+ident(
+  int_ref auxdir "params.ml" 72 2001 2005 "params.ml" 72 2001 2011
+)
+"params.ml" 73 2049 2065 "params.ml" 73 2049 2094
+type(
+  string
+)
+"params.ml" 74 2095 2099 "params.ml" 74 2095 2110
+type(
+  string
+)
+ident(
+  def path_prefix "params.ml" 78 2188 2188 "params.ml" 0 0 -1
+)
+"params.ml" 75 2113 2119 "params.ml" 75 2113 2123
+type(
+  string
+)
+ident(
+  def path "params.ml" 76 2147 2149 "params.ml" 76 2147 2186
+)
+"params.ml" 75 2113 2126 "params.ml" 75 2113 2136
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.Sys.getenv "sys.mli" 58 2794 2794 "sys.mli" 58 2794 2848
+)
+"params.ml" 75 2113 2137 "params.ml" 75 2113 2143
+type(
+  string
+)
+"params.ml" 75 2113 2126 "params.ml" 75 2113 2143
+type(
+  string
+)
+"params.ml" 76 2147 2149 "params.ml" 76 2147 2156
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"params.ml" 76 2147 2157 "params.ml" 76 2147 2171
+type(
+  (string -> string -> string, unit, string) format
+)
+"params.ml" 76 2147 2172 "params.ml" 76 2147 2176
+type(
+  string
+)
+ident(
+  int_ref path "params.ml" 75 2113 2119 "params.ml" 75 2113 2123
+)
+"params.ml" 76 2147 2177 "params.ml" 76 2147 2186
+type(
+  string
+)
+ident(
+  int_ref extrapath "params.ml" 73 2049 2053 "params.ml" 73 2049 2062
+)
+"params.ml" 76 2147 2149 "params.ml" 76 2147 2186
+type(
+  string
+)
+"params.ml" 75 2113 2115 "params.ml" 76 2147 2186
+type(
+  string
+)
+"params.ml" 78 2188 2192 "params.ml" 78 2188 2200
+type(
+  executable ref -> string
+)
+ident(
+  def get_exec "params.ml" 118 3472 3472 "params.ml" 0 0 -1
+)
+"params.ml" 78 2188 2201 "params.ml" 78 2188 2202
+type(
+  executable ref
+)
+ident(
+  def e "params.ml" 79 2205 2207 "params.ml" 115 3437 3469
+)
+"params.ml" 79 2205 2213 "params.ml" 79 2205 2214
+type(
+  executable ref -> executable
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"params.ml" 79 2205 2214 "params.ml" 79 2205 2215
+type(
+  executable ref
+)
+ident(
+  int_ref e "params.ml" 78 2188 2201 "params.ml" 78 2188 2202
+)
+"params.ml" 79 2205 2213 "params.ml" 79 2205 2215
+type(
+  executable
+)
+"params.ml" 80 2221 2236 "params.ml" 80 2221 2240
+type(
+  string
+)
+ident(
+  def exec "params.ml" 90 2635 2640 "params.ml" 110 3340 3349
+)
+"params.ml" 80 2221 2242 "params.ml" 80 2221 2245
+type(
+  string
+)
+ident(
+  def cmd "params.ml" 90 2635 2640 "params.ml" 110 3340 3349
+)
+"params.ml" 80 2221 2247 "params.ml" 80 2221 2251
+type(
+  string
+)
+ident(
+  def vers "params.ml" 90 2635 2640 "params.ml" 110 3340 3349
+)
+"params.ml" 80 2221 2225 "params.ml" 80 2221 2252
+type(
+  executable
+)
+type(
+  executable
+)
+"params.ml" 90 2635 2644 "params.ml" 90 2635 2649
+type(
+  string
+)
+ident(
+  def check "params.ml" 92 2754 2759 "params.ml" 110 3340 3348
+)
+"params.ml" 90 2635 2652 "params.ml" 90 2635 2659
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"params.ml" 90 2635 2660 "params.ml" 90 2635 2683
+type(
+  (string -> string -> string, unit, string) format
+)
+"params.ml" 90 2635 2684 "params.ml" 90 2635 2695
+type(
+  string
+)
+ident(
+  int_ref path_prefix "params.ml" 74 2095 2099 "params.ml" 74 2095 2110
+)
+"params.ml" 90 2635 2696 "params.ml" 90 2635 2700
+type(
+  string
+)
+ident(
+  int_ref exec "params.ml" 80 2221 2236 "params.ml" 80 2221 2240
+)
+"params.ml" 90 2635 2652 "params.ml" 90 2635 2700
+type(
+  string
+)
+"params.ml" 92 2754 2771 "params.ml" 92 2754 2782
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.Sys.command "sys.mli" 69 3153 3153 "sys.mli" 69 3153 3213
+)
+"params.ml" 92 2754 2783 "params.ml" 92 2754 2788
+type(
+  string
+)
+ident(
+  int_ref check "params.ml" 90 2635 2644 "params.ml" 90 2635 2649
+)
+"params.ml" 92 2754 2771 "params.ml" 92 2754 2788
+type(
+  int
+)
+"params.ml" 93 2794 2801 "params.ml" 93 2794 2802
+type(
+  int
+)
+type(
+  int
+)
+"params.ml" 94 2806 2818 "params.ml" 94 2806 2819
+type(
+  in_channel
+)
+ident(
+  def p "params.ml" 95 2867 2875 "params.ml" 98 2983 2992
+)
+"params.ml" 94 2806 2822 "params.ml" 94 2806 2842
+type(
+  string -> in_channel
+)
+ident(
+  int_ref Unix.open_process_in "unix.mli" 861 35020 35020 "unix.mli" 861 35020 35062
+)
+"params.ml" 94 2806 2844 "params.ml" 94 2806 2855
+type(
+  string
+)
+ident(
+  int_ref path_prefix "params.ml" 74 2095 2099 "params.ml" 74 2095 2110
+)
+"params.ml" 94 2806 2856 "params.ml" 94 2806 2857
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"params.ml" 94 2806 2858 "params.ml" 94 2806 2862
+type(
+  string
+)
+ident(
+  int_ref vers "params.ml" 80 2221 2247 "params.ml" 80 2221 2251
+)
+"params.ml" 94 2806 2843 "params.ml" 94 2806 2863
+type(
+  string
+)
+"params.ml" 94 2806 2822 "params.ml" 94 2806 2863
+type(
+  in_channel
+)
+"params.ml" 95 2867 2879 "params.ml" 95 2867 2880
+type(
+  string list
+)
+ident(
+  def v "params.ml" 96 2903 2911 "params.ml" 98 2983 2992
+)
+"params.ml" 95 2867 2883 "params.ml" 95 2867 2897
+type(
+  in_channel -> string list
+)
+ident(
+  int_ref Ext.Std.input_list "ext.mli" 71 2956 2958 "ext.mli" 71 2956 3000
+)
+"params.ml" 95 2867 2898 "params.ml" 95 2867 2899
+type(
+  in_channel
+)
+ident(
+  int_ref p "params.ml" 94 2806 2818 "params.ml" 94 2806 2819
+)
+"params.ml" 95 2867 2883 "params.ml" 95 2867 2899
+type(
+  string list
+)
+"params.ml" 96 2903 2915 "params.ml" 96 2903 2916
+type(
+  string
+)
+ident(
+  def c "params.ml" 97 2954 2962 "params.ml" 98 2983 2992
+)
+"params.ml" 96 2903 2919 "params.ml" 96 2903 2926
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"params.ml" 96 2903 2927 "params.ml" 96 2903 2934
+type(
+  (string -> string -> string, unit, string) format
+)
+"params.ml" 96 2903 2935 "params.ml" 96 2903 2946
+type(
+  string
+)
+ident(
+  int_ref path_prefix "params.ml" 74 2095 2099 "params.ml" 74 2095 2110
+)
+"params.ml" 96 2903 2947 "params.ml" 96 2903 2950
+type(
+  string
+)
+ident(
+  int_ref cmd "params.ml" 80 2221 2242 "params.ml" 80 2221 2245
+)
+"params.ml" 96 2903 2919 "params.ml" 96 2903 2950
+type(
+  string
+)
+"params.ml" 97 2954 2962 "params.ml" 97 2954 2963
+type(
+  executable ref
+)
+ident(
+  int_ref e "params.ml" 78 2188 2201 "params.ml" 78 2188 2202
+)
+"params.ml" 97 2954 2964 "params.ml" 97 2954 2966
+type(
+  executable ref -> executable -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"params.ml" 97 2954 2976 "params.ml" 97 2954 2977
+type(
+  string
+)
+ident(
+  int_ref c "params.ml" 96 2903 2915 "params.ml" 96 2903 2916
+)
+"params.ml" 97 2954 2979 "params.ml" 97 2954 2980
+type(
+  string list
+)
+ident(
+  int_ref v "params.ml" 95 2867 2879 "params.ml" 95 2867 2880
+)
+"params.ml" 97 2954 2967 "params.ml" 97 2954 2981
+type(
+  executable
+)
+"params.ml" 97 2954 2962 "params.ml" 97 2954 2981
+type(
+  unit
+)
+"params.ml" 98 2983 2991 "params.ml" 98 2983 2992
+type(
+  string
+)
+ident(
+  int_ref c "params.ml" 96 2903 2915 "params.ml" 96 2903 2916
+)
+"params.ml" 97 2954 2962 "params.ml" 98 2983 2992
+type(
+  string
+)
+"params.ml" 96 2903 2911 "params.ml" 98 2983 2992
+type(
+  string
+)
+"params.ml" 95 2867 2875 "params.ml" 98 2983 2992
+type(
+  string
+)
+"params.ml" 94 2806 2814 "params.ml" 98 2983 2992
+type(
+  string
+)
+"params.ml" 99 2993 3000 "params.ml" 99 2993 3001
+type(
+  int
+)
+type(
+  int
+)
+"params.ml" 100 3005 3017 "params.ml" 100 3005 3021
+type(
+  string
+)
+ident(
+  def msg1 "params.ml" 101 3066 3074 "params.ml" 109 3318 3339
+)
+"params.ml" 100 3005 3024 "params.ml" 100 3005 3031
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"params.ml" 100 3005 3032 "params.ml" 100 3005 3057
+type(
+  (string -> string, unit, string) format
+)
+"params.ml" 100 3005 3058 "params.ml" 100 3005 3062
+type(
+  string
+)
+ident(
+  int_ref exec "params.ml" 80 2221 2236 "params.ml" 80 2221 2240
+)
+"params.ml" 100 3005 3024 "params.ml" 100 3005 3062
+type(
+  string
+)
+"params.ml" 101 3066 3078 "params.ml" 101 3066 3082
+type(
+  string
+)
+ident(
+  def msg2 "params.ml" 106 3232 3240 "params.ml" 109 3318 3339
+)
+"params.ml" 102 3085 3098 "params.ml" 102 3085 3118
+type(
+  string -> bool
+)
+ident(
+  int_ref Stdlib.Filename.is_relative "filename.mli" 32 1566 1566 "filename.mli" 32 1566 1598
+)
+"params.ml" 102 3085 3119 "params.ml" 102 3085 3123
+type(
+  string
+)
+ident(
+  int_ref exec "params.ml" 80 2221 2236 "params.ml" 80 2221 2240
+)
+"params.ml" 102 3085 3098 "params.ml" 102 3085 3123
+type(
+  bool
+)
+"params.ml" 103 3124 3139 "params.ml" 103 3124 3146
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"params.ml" 103 3124 3147 "params.ml" 103 3124 3171
+type(
+  (string -> string -> string, unit, string) format
+)
+"params.ml" 103 3124 3173 "params.ml" 103 3124 3183
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.Sys.getenv "sys.mli" 58 2794 2794 "sys.mli" 58 2794 2848
+)
+"params.ml" 103 3124 3184 "params.ml" 103 3124 3190
+type(
+  string
+)
+"params.ml" 103 3124 3172 "params.ml" 103 3124 3191
+type(
+  string
+)
+"params.ml" 103 3124 3192 "params.ml" 103 3124 3201
+type(
+  string
+)
+ident(
+  int_ref extrapath "params.ml" 73 2049 2053 "params.ml" 73 2049 2062
+)
+"params.ml" 103 3124 3139 "params.ml" 103 3124 3201
+type(
+  string
+)
+"params.ml" 104 3202 3217 "params.ml" 104 3202 3220
+type(
+  string
+)
+"params.ml" 102 3085 3095 "params.ml" 104 3202 3220
+type(
+  string
+)
+"params.ml" 106 3232 3244 "params.ml" 106 3232 3247
+type(
+  string
+)
+ident(
+  def msg "params.ml" 107 3265 3273 "params.ml" 109 3318 3339
+)
+"params.ml" 106 3232 3250 "params.ml" 106 3232 3254
+type(
+  string
+)
+ident(
+  int_ref msg1 "params.ml" 100 3005 3017 "params.ml" 100 3005 3021
+)
+"params.ml" 106 3232 3255 "params.ml" 106 3232 3256
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"params.ml" 106 3232 3257 "params.ml" 106 3232 3261
+type(
+  string
+)
+ident(
+  int_ref msg2 "params.ml" 101 3066 3078 "params.ml" 101 3066 3082
+)
+"params.ml" 106 3232 3250 "params.ml" 106 3232 3261
+type(
+  string
+)
+"params.ml" 107 3265 3273 "params.ml" 107 3265 3280
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.eprintf "printf.mli" 132 6998 6998 "printf.mli" 132 6998 7048
+)
+"params.ml" 107 3265 3281 "params.ml" 107 3265 3285
+type(
+  (string -> unit, out_channel, unit) format
+)
+"params.ml" 107 3265 3286 "params.ml" 107 3265 3289
+type(
+  string
+)
+ident(
+  int_ref msg "params.ml" 106 3232 3244 "params.ml" 106 3232 3247
+)
+"params.ml" 107 3265 3273 "params.ml" 107 3265 3289
+type(
+  unit
+)
+"params.ml" 108 3291 3299 "params.ml" 108 3291 3300
+type(
+  executable ref
+)
+ident(
+  int_ref e "params.ml" 78 2188 2201 "params.ml" 78 2188 2202
+)
+"params.ml" 108 3291 3301 "params.ml" 108 3291 3303
+type(
+  executable ref -> executable -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"params.ml" 108 3291 3313 "params.ml" 108 3291 3316
+type(
+  string
+)
+ident(
+  int_ref msg "params.ml" 106 3232 3244 "params.ml" 106 3232 3247
+)
+"params.ml" 108 3291 3304 "params.ml" 108 3291 3316
+type(
+  executable
+)
+"params.ml" 108 3291 3299 "params.ml" 108 3291 3316
+type(
+  unit
+)
+"params.ml" 109 3318 3326 "params.ml" 109 3318 3334
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"params.ml" 109 3318 3335 "params.ml" 109 3318 3338
+type(
+  string
+)
+ident(
+  int_ref msg "params.ml" 106 3232 3244 "params.ml" 106 3232 3247
+)
+"params.ml" 109 3318 3326 "params.ml" 109 3318 3338
+type(
+  string
+)
+"params.ml" 108 3291 3299 "params.ml" 109 3318 3339
+type(
+  string
+)
+"params.ml" 107 3265 3273 "params.ml" 109 3318 3339
+type(
+  string
+)
+"params.ml" 106 3232 3240 "params.ml" 109 3318 3339
+type(
+  string
+)
+"params.ml" 101 3066 3074 "params.ml" 109 3318 3339
+type(
+  string
+)
+"params.ml" 100 3005 3013 "params.ml" 109 3318 3339
+type(
+  string
+)
+"params.ml" 92 2754 2759 "params.ml" 110 3340 3348
+type(
+  string
+)
+"params.ml" 90 2635 2640 "params.ml" 110 3340 3349
+type(
+  string
+)
+"params.ml" 111 3350 3359 "params.ml" 111 3350 3364
+type(
+  string
+)
+ident(
+  def cmd "params.ml" 112 3368 3373 "params.ml" 113 3397 3405
+)
+"params.ml" 111 3350 3354 "params.ml" 111 3350 3364
+type(
+  executable
+)
+type(
+  executable
+)
+"params.ml" 112 3368 3373 "params.ml" 112 3368 3374
+type(
+  executable ref
+)
+ident(
+  int_ref e "params.ml" 78 2188 2201 "params.ml" 78 2188 2202
+)
+"params.ml" 112 3368 3375 "params.ml" 112 3368 3377
+type(
+  executable ref -> executable -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"params.ml" 112 3368 3387 "params.ml" 112 3368 3390
+type(
+  string
+)
+ident(
+  int_ref cmd "params.ml" 111 3350 3359 "params.ml" 111 3350 3364
+)
+"params.ml" 112 3368 3392 "params.ml" 112 3368 3394
+type(
+  string list
+)
+"params.ml" 112 3368 3378 "params.ml" 112 3368 3395
+type(
+  executable
+)
+"params.ml" 112 3368 3373 "params.ml" 112 3368 3395
+type(
+  unit
+)
+"params.ml" 113 3397 3402 "params.ml" 113 3397 3405
+type(
+  string
+)
+ident(
+  int_ref cmd "params.ml" 111 3350 3359 "params.ml" 111 3350 3364
+)
+"params.ml" 112 3368 3373 "params.ml" 113 3397 3405
+type(
+  string
+)
+"params.ml" 114 3406 3419 "params.ml" 114 3406 3422
+type(
+  string
+)
+ident(
+  def cmd "params.ml" 114 3406 3433 "params.ml" 114 3406 3436
+)
+"params.ml" 114 3406 3424 "params.ml" 114 3406 3428
+type(
+  string list
+)
+ident(
+  def vers "params.ml" 114 3406 3433 "params.ml" 114 3406 3436
+)
+"params.ml" 114 3406 3410 "params.ml" 114 3406 3429
+type(
+  executable
+)
+type(
+  executable
+)
+"params.ml" 114 3406 3433 "params.ml" 114 3406 3436
+type(
+  string
+)
+ident(
+  int_ref cmd "params.ml" 114 3406 3419 "params.ml" 114 3406 3422
+)
+"params.ml" 115 3437 3450 "params.ml" 115 3437 3453
+type(
+  string
+)
+ident(
+  def msg "params.ml" 115 3437 3457 "params.ml" 115 3437 3469
+)
+"params.ml" 115 3437 3441 "params.ml" 115 3437 3453
+type(
+  executable
+)
+type(
+  executable
+)
+"params.ml" 115 3437 3457 "params.ml" 115 3437 3465
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"params.ml" 115 3437 3466 "params.ml" 115 3437 3469
+type(
+  string
+)
+ident(
+  int_ref msg "params.ml" 115 3437 3450 "params.ml" 115 3437 3453
+)
+"params.ml" 115 3437 3457 "params.ml" 115 3437 3469
+type(
+  string
+)
+"params.ml" 79 2205 2207 "params.ml" 115 3437 3469
+type(
+  string
+)
+"params.ml" 118 3472 3476 "params.ml" 118 3472 3487
+type(
+  executable ref -> string list
+)
+ident(
+  def get_version "params.ml" 124 3554 3554 "params.ml" 0 0 -1
+)
+"params.ml" 118 3472 3488 "params.ml" 118 3472 3489
+type(
+  executable ref
+)
+ident(
+  def e "params.ml" 119 3492 3494 "params.ml" 121 3540 3551
+)
+"params.ml" 119 3492 3500 "params.ml" 119 3492 3501
+type(
+  executable ref -> executable
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"params.ml" 119 3492 3501 "params.ml" 119 3492 3502
+type(
+  executable ref
+)
+ident(
+  int_ref e "params.ml" 118 3472 3488 "params.ml" 118 3472 3489
+)
+"params.ml" 119 3492 3500 "params.ml" 119 3492 3502
+type(
+  executable
+)
+"params.ml" 120 3508 3521 "params.ml" 120 3508 3524
+type(
+  string
+)
+ident(
+  def cmd "params.ml" 120 3508 3535 "params.ml" 120 3508 3539
+)
+"params.ml" 120 3508 3526 "params.ml" 120 3508 3530
+type(
+  string list
+)
+ident(
+  def vers "params.ml" 120 3508 3535 "params.ml" 120 3508 3539
+)
+"params.ml" 120 3508 3512 "params.ml" 120 3508 3531
+type(
+  executable
+)
+type(
+  executable
+)
+"params.ml" 120 3508 3535 "params.ml" 120 3508 3539
+type(
+  string list
+)
+ident(
+  int_ref vers "params.ml" 120 3508 3526 "params.ml" 120 3508 3530
+)
+"params.ml" 121 3540 3544 "params.ml" 121 3540 3545
+type(
+  executable
+)
+type(
+  executable
+)
+"params.ml" 121 3540 3549 "params.ml" 121 3540 3551
+type(
+  string list
+)
+"params.ml" 119 3492 3494 "params.ml" 121 3540 3551
+type(
+  string list
+)
+"params.ml" 124 3554 3558 "params.ml" 124 3554 3567
+type(
+  string -> string -> string -> executable ref
+)
+ident(
+  def make_exec "params.ml" 126 3625 3625 "params.ml" 0 0 -1
+)
+"params.ml" 124 3554 3568 "params.ml" 124 3554 3571
+type(
+  string
+)
+ident(
+  def cmd "params.ml" 124 3554 3572 "params.ml" 124 3554 3623
+)
+"params.ml" 124 3554 3572 "params.ml" 124 3554 3576
+type(
+  string
+)
+ident(
+  def args "params.ml" 124 3554 3577 "params.ml" 124 3554 3623
+)
+"params.ml" 124 3554 3577 "params.ml" 124 3554 3584
+type(
+  string
+)
+ident(
+  def version "params.ml" 124 3554 3587 "params.ml" 124 3554 3623
+)
+"params.ml" 124 3554 3587 "params.ml" 124 3554 3590
+type(
+  executable -> executable ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 124 3554 3603 "params.ml" 124 3554 3606
+type(
+  string
+)
+ident(
+  int_ref cmd "params.ml" 124 3554 3568 "params.ml" 124 3554 3571
+)
+"params.ml" 124 3554 3608 "params.ml" 124 3554 3612
+type(
+  string
+)
+ident(
+  int_ref args "params.ml" 124 3554 3572 "params.ml" 124 3554 3576
+)
+"params.ml" 124 3554 3614 "params.ml" 124 3554 3621
+type(
+  string
+)
+ident(
+  int_ref version "params.ml" 124 3554 3577 "params.ml" 124 3554 3584
+)
+"params.ml" 124 3554 3591 "params.ml" 124 3554 3623
+type(
+  executable
+)
+"params.ml" 124 3554 3587 "params.ml" 124 3554 3623
+type(
+  executable ref
+)
+"params.ml" 126 3625 3629 "params.ml" 126 3625 3652
+type(
+  string
+)
+ident(
+  def isabelle_success_string "params.ml" 128 3676 3676 "params.ml" 0 0 -1
+)
+"params.ml" 126 3625 3655 "params.ml" 126 3625 3674
+type(
+  string
+)
+"params.ml" 128 3676 3680 "params.ml" 128 3676 3688
+type(
+  executable ref
+)
+ident(
+  def isabelle "params.ml" 137 3958 3958 "params.ml" 0 0 -1
+)
+"params.ml" 129 3691 3697 "params.ml" 129 3691 3700
+type(
+  string
+)
+ident(
+  def cmd "params.ml" 134 3902 3904 "params.ml" 134 3902 3955
+)
+"params.ml" 130 3703 3707 "params.ml" 130 3703 3721
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"params.ml" 130 3703 3722 "params.ml" 131 3777 3853
+type(
+  (string -> string, unit, string) format
+)
+"params.ml" 132 3854 3873 "params.ml" 132 3854 3896
+type(
+  string
+)
+ident(
+  int_ref isabelle_success_string "params.ml" 126 3625 3629 "params.ml" 126 3625 3652
+)
+"params.ml" 130 3703 3707 "params.ml" 132 3854 3896
+type(
+  string
+)
+"params.ml" 134 3902 3904 "params.ml" 134 3902 3913
+type(
+  string -> string -> string -> executable ref
+)
+ident(
+  int_ref make_exec "params.ml" 124 3554 3558 "params.ml" 124 3554 3567
+)
+"params.ml" 134 3902 3914 "params.ml" 134 3902 3932
+type(
+  string
+)
+"params.ml" 134 3902 3933 "params.ml" 134 3902 3936
+type(
+  string
+)
+ident(
+  int_ref cmd "params.ml" 129 3691 3697 "params.ml" 129 3691 3700
+)
+"params.ml" 134 3902 3937 "params.ml" 134 3902 3955
+type(
+  string
+)
+"params.ml" 134 3902 3904 "params.ml" 134 3902 3955
+type(
+  executable ref
+)
+"params.ml" 129 3691 3693 "params.ml" 134 3902 3955
+type(
+  executable ref
+)
+"params.ml" 137 3958 3962 "params.ml" 137 3958 3979
+type(
+  unit -> unit
+)
+ident(
+  def set_fast_isabelle "params.ml" 168 5113 5113 "params.ml" 0 0 -1
+)
+"params.ml" 137 3958 3980 "params.ml" 137 3958 3982
+type(
+  unit
+)
+"params.ml" 138 3985 3990 "params.ml" 138 3985 4001
+type(
+  string
+)
+ident(
+  int_ref Stdlib.Sys.os_type "sys.mli" 126 5510 5510 "sys.mli" 126 5510 5530
+)
+"params.ml" 138 3985 4002 "params.ml" 138 3985 4004
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 130 5559 5559 "stdlib.mli" 130 5559 5607
+)
+"params.ml" 138 3985 4005 "params.ml" 138 3985 4013
+type(
+  string
+)
+"params.ml" 138 3985 3990 "params.ml" 138 3985 4013
+type(
+  bool
+)
+"params.ml" 139 4019 4023 "params.ml" 139 4019 4030
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.eprintf "printf.mli" 132 6998 6998 "printf.mli" 132 6998 7048
+)
+"params.ml" 139 4019 4031 "params.ml" 140 4097 4124
+type(
+  (unit, out_channel, unit) format
+)
+"params.ml" 139 4019 4023 "params.ml" 140 4097 4124
+type(
+  unit
+)
+"params.ml" 142 4142 4150 "params.ml" 142 4142 4155
+type(
+  string
+)
+ident(
+  def echos "params.ml" 145 4243 4247 "params.ml" 163 4973 5031
+)
+"params.ml" 143 4158 4164 "params.ml" 143 4158 4235
+type(
+  string
+)
+"params.ml" 145 4243 4251 "params.ml" 145 4243 4257
+type(
+  string
+)
+ident(
+  def pr_cmd "params.ml" 148 4343 4347 "params.ml" 163 4973 5031
+)
+"params.ml" 146 4260 4266 "params.ml" 146 4260 4273
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"params.ml" 146 4260 4274 "params.ml" 146 4260 4300
+type(
+  (string -> string -> string, unit, string) format
+)
+"params.ml" 146 4260 4301 "params.ml" 146 4260 4312
+type(
+  string
+)
+ident(
+  int_ref path_prefix "params.ml" 74 2095 2099 "params.ml" 74 2095 2110
+)
+"params.ml" 146 4260 4314 "params.ml" 146 4260 4328
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.Filename.quote "filename.mli" 188 7755 7755 "filename.mli" 188 7755 7783
+)
+"params.ml" 146 4260 4329 "params.ml" 146 4260 4334
+type(
+  string
+)
+ident(
+  int_ref echos "params.ml" 142 4142 4150 "params.ml" 142 4142 4155
+)
+"params.ml" 146 4260 4313 "params.ml" 146 4260 4335
+type(
+  string
+)
+"params.ml" 146 4260 4266 "params.ml" 146 4260 4335
+type(
+  string
+)
+"params.ml" 148 4343 4351 "params.ml" 148 4343 4353
+type(
+  in_channel
+)
+ident(
+  def ic "params.ml" 149 4387 4391 "params.ml" 163 4973 5031
+)
+"params.ml" 148 4343 4356 "params.ml" 148 4343 4376
+type(
+  string -> in_channel
+)
+ident(
+  int_ref Unix.open_process_in "unix.mli" 861 35020 35020 "unix.mli" 861 35020 35062
+)
+"params.ml" 148 4343 4377 "params.ml" 148 4343 4383
+type(
+  string
+)
+ident(
+  int_ref pr_cmd "params.ml" 145 4243 4251 "params.ml" 145 4243 4257
+)
+"params.ml" 148 4343 4356 "params.ml" 148 4343 4383
+type(
+  in_channel
+)
+"params.ml" 149 4387 4395 "params.ml" 149 4387 4408
+type(
+  string
+)
+ident(
+  def isabelle_home "params.ml" 150 4428 4432 "params.ml" 163 4973 5031
+)
+"params.ml" 149 4387 4411 "params.ml" 149 4387 4421
+type(
+  in_channel -> string
+)
+ident(
+  int_ref Stdlib.input_line "stdlib.mli" 1089 40689 40689 "stdlib.mli" 1089 40689 40726
+)
+"params.ml" 149 4387 4422 "params.ml" 149 4387 4424
+type(
+  in_channel
+)
+ident(
+  int_ref ic "params.ml" 148 4343 4351 "params.ml" 148 4343 4353
+)
+"params.ml" 149 4387 4411 "params.ml" 149 4387 4424
+type(
+  string
+)
+"params.ml" 150 4428 4436 "params.ml" 150 4428 4443
+type(
+  string
+)
+ident(
+  def ml_home "params.ml" 151 4463 4467 "params.ml" 163 4973 5031
+)
+"params.ml" 150 4428 4446 "params.ml" 150 4428 4456
+type(
+  in_channel -> string
+)
+ident(
+  int_ref Stdlib.input_line "stdlib.mli" 1089 40689 40689 "stdlib.mli" 1089 40689 40726
+)
+"params.ml" 150 4428 4457 "params.ml" 150 4428 4459
+type(
+  in_channel
+)
+ident(
+  int_ref ic "params.ml" 148 4343 4351 "params.ml" 148 4343 4353
+)
+"params.ml" 150 4428 4446 "params.ml" 150 4428 4459
+type(
+  string
+)
+"params.ml" 151 4463 4471 "params.ml" 151 4463 4486
+type(
+  string
+)
+ident(
+  def isabelle_output "params.ml" 152 4506 4510 "params.ml" 163 4973 5031
+)
+"params.ml" 151 4463 4489 "params.ml" 151 4463 4499
+type(
+  in_channel -> string
+)
+ident(
+  int_ref Stdlib.input_line "stdlib.mli" 1089 40689 40689 "stdlib.mli" 1089 40689 40726
+)
+"params.ml" 151 4463 4500 "params.ml" 151 4463 4502
+type(
+  in_channel
+)
+ident(
+  int_ref ic "params.ml" 148 4343 4351 "params.ml" 148 4343 4353
+)
+"params.ml" 151 4463 4489 "params.ml" 151 4463 4502
+type(
+  string
+)
+"params.ml" 152 4506 4510 "params.ml" 152 4506 4518
+type(
+  in_channel -> unit
+)
+ident(
+  int_ref Stdlib.close_in "stdlib.mli" 1168 44452 44452 "stdlib.mli" 1168 44452 44485
+)
+"params.ml" 152 4506 4519 "params.ml" 152 4506 4521
+type(
+  in_channel
+)
+ident(
+  int_ref ic "params.ml" 148 4343 4351 "params.ml" 148 4343 4353
+)
+"params.ml" 152 4506 4510 "params.ml" 152 4506 4521
+type(
+  unit
+)
+"params.ml" 153 4523 4531 "params.ml" 153 4523 4535
+type(
+  string
+)
+ident(
+  def poly "params.ml" 154 4572 4576 "params.ml" 163 4973 5031
+)
+"params.ml" 153 4523 4538 "params.ml" 153 4523 4553
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Filename.concat "filename.mli" 28 1429 1429 "filename.mli" 28 1429 1468
+)
+"params.ml" 153 4523 4554 "params.ml" 153 4523 4561
+type(
+  string
+)
+ident(
+  int_ref ml_home "params.ml" 150 4428 4436 "params.ml" 150 4428 4443
+)
+"params.ml" 153 4523 4562 "params.ml" 153 4523 4568
+type(
+  string
+)
+"params.ml" 153 4523 4538 "params.ml" 153 4523 4568
+type(
+  string
+)
+"params.ml" 154 4572 4580 "params.ml" 154 4572 4583
+type(
+  string
+)
+ident(
+  def cmd "params.ml" 163 4973 4977 "params.ml" 163 4973 5030
+)
+"params.ml" 155 4586 4592 "params.ml" 155 4586 4606
+type(
+  (string -> string -> string -> string -> string -> string, unit, string)
+  format -> string -> string -> string -> string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"params.ml" 155 4586 4607 "params.ml" 159 4831 4856
+type(
+  (string -> string -> string -> string -> string -> string, unit, string)
+  format
+)
+"params.ml" 160 4857 4878 "params.ml" 160 4857 4891
+type(
+  string
+)
+ident(
+  int_ref isabelle_home "params.ml" 149 4387 4395 "params.ml" 149 4387 4408
+)
+"params.ml" 160 4857 4892 "params.ml" 160 4857 4899
+type(
+  string
+)
+ident(
+  int_ref ml_home "params.ml" 150 4428 4436 "params.ml" 150 4428 4443
+)
+"params.ml" 161 4900 4921 "params.ml" 161 4900 4936
+type(
+  string
+)
+ident(
+  int_ref isabelle_output "params.ml" 151 4463 4471 "params.ml" 151 4463 4486
+)
+"params.ml" 161 4900 4937 "params.ml" 161 4900 4960
+type(
+  string
+)
+ident(
+  int_ref isabelle_success_string "params.ml" 126 3625 3629 "params.ml" 126 3625 3652
+)
+"params.ml" 161 4900 4961 "params.ml" 161 4900 4965
+type(
+  string
+)
+ident(
+  int_ref poly "params.ml" 153 4523 4531 "params.ml" 153 4523 4535
+)
+"params.ml" 155 4586 4592 "params.ml" 161 4900 4965
+type(
+  string
+)
+"params.ml" 163 4973 4977 "params.ml" 163 4973 4985
+type(
+  executable ref
+)
+ident(
+  int_ref isabelle "params.ml" 128 3676 3680 "params.ml" 128 3676 3688
+)
+"params.ml" 163 4973 4986 "params.ml" 163 4973 4988
+type(
+  executable ref -> executable -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"params.ml" 163 4973 5000 "params.ml" 163 4973 5004
+type(
+  string
+)
+ident(
+  int_ref poly "params.ml" 153 4523 4531 "params.ml" 153 4523 4535
+)
+"params.ml" 163 4973 5006 "params.ml" 163 4973 5009
+type(
+  string
+)
+ident(
+  int_ref cmd "params.ml" 154 4572 4580 "params.ml" 154 4572 4583
+)
+"params.ml" 163 4973 5011 "params.ml" 163 4973 5029
+type(
+  string
+)
+"params.ml" 163 4973 4989 "params.ml" 163 4973 5030
+type(
+  executable
+)
+"params.ml" 163 4973 4977 "params.ml" 163 4973 5030
+type(
+  unit
+)
+"params.ml" 154 4572 4576 "params.ml" 163 4973 5031
+type(
+  unit
+)
+"params.ml" 153 4523 4527 "params.ml" 163 4973 5031
+type(
+  unit
+)
+"params.ml" 152 4506 4510 "params.ml" 163 4973 5031
+type(
+  unit
+)
+"params.ml" 151 4463 4467 "params.ml" 163 4973 5031
+type(
+  unit
+)
+"params.ml" 150 4428 4432 "params.ml" 163 4973 5031
+type(
+  unit
+)
+"params.ml" 149 4387 4391 "params.ml" 163 4973 5031
+type(
+  unit
+)
+"params.ml" 148 4343 4347 "params.ml" 163 4973 5031
+type(
+  unit
+)
+"params.ml" 145 4243 4247 "params.ml" 163 4973 5031
+type(
+  unit
+)
+"params.ml" 142 4142 4146 "params.ml" 163 4973 5031
+type(
+  unit
+)
+"params.ml" 164 5032 5039 "params.ml" 164 5032 5040
+type(
+  exn
+)
+"params.ml" 164 5032 5044 "params.ml" 164 5032 5051
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.eprintf "printf.mli" 132 6998 6998 "printf.mli" 132 6998 7048
+)
+"params.ml" 164 5032 5052 "params.ml" 164 5032 5103
+type(
+  (unit, out_channel, unit) format
+)
+"params.ml" 164 5032 5044 "params.ml" 164 5032 5103
+type(
+  unit
+)
+"params.ml" 141 4125 4132 "params.ml" 165 5105 5110
+type(
+  unit
+)
+"params.ml" 138 3985 3987 "params.ml" 165 5105 5110
+type(
+  unit
+)
+"params.ml" 168 5113 5117 "params.ml" 168 5113 5122
+type(
+  executable ref
+)
+ident(
+  def zenon "params.ml" 172 5207 5207 "params.ml" 0 0 -1
+)
+"params.ml" 169 5125 5127 "params.ml" 169 5125 5136
+type(
+  string -> string -> string -> executable ref
+)
+ident(
+  int_ref make_exec "params.ml" 124 3554 3558 "params.ml" 124 3554 3567
+)
+"params.ml" 169 5125 5137 "params.ml" 169 5125 5144
+type(
+  string
+)
+"params.ml" 169 5125 5145 "params.ml" 169 5125 5193
+type(
+  string
+)
+"params.ml" 169 5125 5194 "params.ml" 169 5125 5204
+type(
+  string
+)
+"params.ml" 169 5125 5127 "params.ml" 169 5125 5204
+type(
+  executable ref
+)
+"params.ml" 172 5207 5211 "params.ml" 172 5207 5215
+type(
+  executable ref
+)
+ident(
+  def cvc4 "params.ml" 179 5397 5397 "params.ml" 0 0 -1
+)
+"params.ml" 173 5218 5223 "params.ml" 173 5218 5234
+type(
+  string
+)
+ident(
+  int_ref Stdlib.Sys.os_type "sys.mli" 126 5510 5510 "sys.mli" 126 5510 5530
+)
+"params.ml" 173 5218 5235 "params.ml" 173 5218 5236
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"params.ml" 173 5218 5237 "params.ml" 173 5218 5245
+type(
+  string
+)
+"params.ml" 173 5218 5223 "params.ml" 173 5218 5245
+type(
+  bool
+)
+"params.ml" 174 5251 5255 "params.ml" 174 5251 5264
+type(
+  string -> string -> string -> executable ref
+)
+ident(
+  int_ref make_exec "params.ml" 124 3554 3558 "params.ml" 124 3554 3567
+)
+"params.ml" 174 5251 5265 "params.ml" 174 5251 5271
+type(
+  string
+)
+"params.ml" 174 5251 5272 "params.ml" 174 5251 5303
+type(
+  string
+)
+"params.ml" 174 5251 5304 "params.ml" 174 5251 5320
+type(
+  string
+)
+"params.ml" 174 5251 5255 "params.ml" 174 5251 5320
+type(
+  executable ref
+)
+"params.ml" 176 5328 5332 "params.ml" 176 5328 5341
+type(
+  string -> string -> string -> executable ref
+)
+ident(
+  int_ref make_exec "params.ml" 124 3554 3558 "params.ml" 124 3554 3567
+)
+"params.ml" 176 5328 5342 "params.ml" 176 5328 5348
+type(
+  string
+)
+"params.ml" 176 5328 5349 "params.ml" 176 5328 5377
+type(
+  string
+)
+"params.ml" 176 5328 5378 "params.ml" 176 5328 5394
+type(
+  string
+)
+"params.ml" 176 5328 5332 "params.ml" 176 5328 5394
+type(
+  executable ref
+)
+"params.ml" 173 5218 5220 "params.ml" 176 5328 5394
+type(
+  executable ref
+)
+"params.ml" 179 5397 5401 "params.ml" 179 5397 5406
+type(
+  executable ref
+)
+ident(
+  def yices "params.ml" 180 5467 5467 "params.ml" 0 0 -1
+)
+"params.ml" 179 5397 5409 "params.ml" 179 5397 5418
+type(
+  string -> string -> string -> executable ref
+)
+ident(
+  int_ref make_exec "params.ml" 124 3554 3558 "params.ml" 124 3554 3567
+)
+"params.ml" 179 5397 5419 "params.ml" 179 5397 5426
+type(
+  string
+)
+"params.ml" 179 5397 5427 "params.ml" 179 5397 5448
+type(
+  string
+)
+"params.ml" 179 5397 5449 "params.ml" 179 5397 5466
+type(
+  string
+)
+"params.ml" 179 5397 5409 "params.ml" 179 5397 5466
+type(
+  executable ref
+)
+"params.ml" 180 5467 5471 "params.ml" 180 5467 5473
+type(
+  executable ref
+)
+ident(
+  def z3 "params.ml" 192 6060 6060 "params.ml" 0 0 -1
+)
+"params.ml" 181 5476 5481 "params.ml" 181 5476 5492
+type(
+  string
+)
+ident(
+  int_ref Stdlib.Sys.os_type "sys.mli" 126 5510 5510 "sys.mli" 126 5510 5530
+)
+"params.ml" 181 5476 5493 "params.ml" 181 5476 5494
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"params.ml" 181 5476 5495 "params.ml" 181 5476 5503
+type(
+  string
+)
+"params.ml" 181 5476 5481 "params.ml" 181 5476 5503
+type(
+  bool
+)
+"params.ml" 182 5509 5513 "params.ml" 182 5509 5522
+type(
+  string -> string -> string -> executable ref
+)
+ident(
+  int_ref make_exec "params.ml" 124 3554 3558 "params.ml" 124 3554 3567
+)
+"params.ml" 182 5509 5523 "params.ml" 182 5509 5527
+type(
+  string
+)
+"params.ml" 184 5716 5730 "params.ml" 184 5716 5790
+type(
+  string
+)
+"params.ml" 185 5791 5805 "params.ml" 185 5791 5818
+type(
+  string
+)
+"params.ml" 182 5509 5513 "params.ml" 185 5791 5818
+type(
+  executable ref
+)
+"params.ml" 187 5826 5830 "params.ml" 187 5826 5839
+type(
+  string -> string -> string -> executable ref
+)
+ident(
+  int_ref make_exec "params.ml" 124 3554 3558 "params.ml" 124 3554 3567
+)
+"params.ml" 187 5826 5840 "params.ml" 187 5826 5844
+type(
+  string
+)
+"params.ml" 189 5959 5973 "params.ml" 189 5959 6030
+type(
+  string
+)
+"params.ml" 190 6031 6045 "params.ml" 190 6031 6058
+type(
+  string
+)
+"params.ml" 187 5826 5830 "params.ml" 190 6031 6058
+type(
+  executable ref
+)
+"params.ml" 181 5476 5478 "params.ml" 190 6031 6058
+type(
+  executable ref
+)
+"params.ml" 192 6060 6064 "params.ml" 192 6060 6069
+type(
+  executable ref
+)
+ident(
+  def metit "params.ml" 204 6590 6590 "params.ml" 0 0 -1
+)
+"params.ml" 193 6072 6077 "params.ml" 193 6072 6088
+type(
+  string
+)
+ident(
+  int_ref Stdlib.Sys.os_type "sys.mli" 126 5510 5510 "sys.mli" 126 5510 5530
+)
+"params.ml" 193 6072 6089 "params.ml" 193 6072 6090
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"params.ml" 193 6072 6091 "params.ml" 193 6072 6099
+type(
+  string
+)
+"params.ml" 193 6072 6077 "params.ml" 193 6072 6099
+type(
+  bool
+)
+"params.ml" 194 6105 6109 "params.ml" 194 6105 6118
+type(
+  string -> string -> string -> executable ref
+)
+ident(
+  int_ref make_exec "params.ml" 124 3554 3558 "params.ml" 124 3554 3567
+)
+"params.ml" 194 6105 6119 "params.ml" 194 6105 6126
+type(
+  string
+)
+"params.ml" 196 6315 6329 "params.ml" 196 6315 6349
+type(
+  string
+)
+"params.ml" 197 6350 6364 "params.ml" 197 6350 6381
+type(
+  string
+)
+"params.ml" 194 6105 6109 "params.ml" 197 6350 6381
+type(
+  executable ref
+)
+"params.ml" 199 6389 6393 "params.ml" 199 6389 6402
+type(
+  string -> string -> string -> executable ref
+)
+ident(
+  int_ref make_exec "params.ml" 124 3554 3558 "params.ml" 124 3554 3567
+)
+"params.ml" 199 6389 6403 "params.ml" 199 6389 6410
+type(
+  string
+)
+"params.ml" 201 6525 6539 "params.ml" 201 6525 6556
+type(
+  string
+)
+"params.ml" 202 6557 6571 "params.ml" 202 6557 6588
+type(
+  string
+)
+"params.ml" 199 6389 6393 "params.ml" 202 6557 6588
+type(
+  executable ref
+)
+"params.ml" 193 6072 6074 "params.ml" 202 6557 6588
+type(
+  executable ref
+)
+"params.ml" 204 6590 6594 "params.ml" 204 6590 6599
+type(
+  executable ref
+)
+ident(
+  def verit "params.ml" 211 6779 6779 "params.ml" 0 0 -1
+)
+"params.ml" 205 6602 6604 "params.ml" 205 6602 6613
+type(
+  string -> string -> string -> executable ref
+)
+ident(
+  int_ref make_exec "params.ml" 124 3554 3558 "params.ml" 124 3554 3567
+)
+"params.ml" 205 6602 6614 "params.ml" 205 6602 6621
+type(
+  string
+)
+"params.ml" 206 6622 6634 "params.ml" 207 6679 6749
+type(
+  string
+)
+"params.ml" 208 6750 6762 "params.ml" 208 6750 6776
+type(
+  string
+)
+"params.ml" 205 6602 6604 "params.ml" 208 6750 6776
+type(
+  executable ref
+)
+"params.ml" 211 6779 6783 "params.ml" 211 6779 6792
+type(
+  executable ref
+)
+ident(
+  def spass_dfg "params.ml" 215 6914 6914 "params.ml" 0 0 -1
+)
+"params.ml" 212 6795 6797 "params.ml" 212 6795 6806
+type(
+  string -> string -> string -> executable ref
+)
+ident(
+  int_ref make_exec "params.ml" 124 3554 3558 "params.ml" 124 3554 3567
+)
+"params.ml" 212 6795 6807 "params.ml" 212 6795 6814
+type(
+  string
+)
+"params.ml" 213 6815 6827 "params.ml" 213 6815 6886
+type(
+  string
+)
+"params.ml" 214 6887 6899 "params.ml" 214 6887 6913
+type(
+  string
+)
+"params.ml" 212 6795 6797 "params.ml" 214 6887 6913
+type(
+  executable ref
+)
+"params.ml" 215 6914 6918 "params.ml" 215 6914 6928
+type(
+  executable ref
+)
+ident(
+  def spass_tptp "params.ml" 221 7058 7058 "params.ml" 0 0 -1
+)
+"params.ml" 216 6931 6933 "params.ml" 216 6931 6942
+type(
+  string -> string -> string -> executable ref
+)
+ident(
+  int_ref make_exec "params.ml" 124 3554 3558 "params.ml" 124 3554 3567
+)
+"params.ml" 216 6931 6943 "params.ml" 216 6931 6950
+type(
+  string
+)
+"params.ml" 217 6951 6963 "params.ml" 217 6951 7028
+type(
+  string
+)
+"params.ml" 218 7029 7041 "params.ml" 218 7029 7055
+type(
+  string
+)
+"params.ml" 216 6931 6933 "params.ml" 218 7029 7055
+type(
+  executable ref
+)
+"params.ml" 221 7058 7062 "params.ml" 221 7058 7069
+type(
+  executable ref
+)
+ident(
+  def eprover "params.ml" 227 7190 7190 "params.ml" 0 0 -1
+)
+"params.ml" 222 7072 7074 "params.ml" 222 7072 7083
+type(
+  string -> string -> string -> executable ref
+)
+ident(
+  int_ref make_exec "params.ml" 124 3554 3558 "params.ml" 124 3554 3567
+)
+"params.ml" 222 7072 7084 "params.ml" 222 7072 7093
+type(
+  string
+)
+"params.ml" 223 7094 7106 "params.ml" 223 7094 7155
+type(
+  string
+)
+"params.ml" 224 7156 7168 "params.ml" 224 7156 7187
+type(
+  string
+)
+"params.ml" 222 7072 7074 "params.ml" 224 7156 7187
+type(
+  executable ref
+)
+"params.ml" 227 7190 7194 "params.ml" 227 7190 7197
+type(
+  executable ref
+)
+ident(
+  def ls4 "params.ml" 233 7287 7287 "params.ml" 0 0 -1
+)
+"params.ml" 228 7200 7202 "params.ml" 228 7200 7211
+type(
+  string -> string -> string -> executable ref
+)
+ident(
+  int_ref make_exec "params.ml" 124 3554 3558 "params.ml" 124 3554 3567
+)
+"params.ml" 228 7200 7212 "params.ml" 228 7200 7217
+type(
+  string
+)
+"params.ml" 229 7218 7230 "params.ml" 229 7218 7257
+type(
+  string
+)
+"params.ml" 230 7258 7270 "params.ml" 230 7258 7284
+type(
+  string
+)
+"params.ml" 228 7200 7202 "params.ml" 230 7258 7284
+type(
+  executable ref
+)
+"params.ml" 233 7287 7291 "params.ml" 233 7287 7300
+type(
+  string ref
+)
+ident(
+  def smt_logic "params.ml" 234 7315 7315 "params.ml" 0 0 -1
+)
+"params.ml" 233 7287 7303 "params.ml" 233 7287 7306
+type(
+  string -> string ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 233 7287 7307 "params.ml" 233 7287 7314
+type(
+  string
+)
+"params.ml" 233 7287 7303 "params.ml" 233 7287 7314
+type(
+  string ref
+)
+"params.ml" 234 7315 7319 "params.ml" 234 7315 7333
+type(
+  string ref
+)
+ident(
+  def smt_logic_real "params.ml" 241 7539 7539 "params.ml" 0 0 -1
+)
+"params.ml" 234 7315 7336 "params.ml" 234 7315 7339
+type(
+  string -> string ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 234 7315 7340 "params.ml" 234 7315 7345
+type(
+  string
+)
+"params.ml" 234 7315 7336 "params.ml" 234 7315 7345
+type(
+  string ref
+)
+"params.ml" 241 7539 7543 "params.ml" 241 7539 7546
+type(
+  executable ref
+)
+ident(
+  def smt "params.ml" 248 7824 7824 "params.ml" 0 0 -1
+)
+"params.ml" 242 7549 7555 "params.ml" 242 7549 7558
+type(
+  executable -> executable ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 242 7549 7566 "params.ml" 242 7549 7576
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.Sys.getenv "sys.mli" 58 2794 2794 "sys.mli" 58 2794 2848
+)
+"params.ml" 242 7549 7577 "params.ml" 242 7549 7595
+type(
+  string
+)
+"params.ml" 242 7549 7565 "params.ml" 242 7549 7596
+type(
+  string
+)
+"params.ml" 242 7549 7559 "params.ml" 242 7549 7597
+type(
+  executable
+)
+"params.ml" 242 7549 7555 "params.ml" 242 7549 7597
+type(
+  executable ref
+)
+"params.ml" 243 7598 7605 "params.ml" 243 7598 7614
+type(
+  exn
+)
+"params.ml" 243 7598 7618 "params.ml" 243 7598 7621
+type(
+  executable -> executable ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 243 7598 7622 "params.ml" 243 7598 7623
+type(
+  executable ref -> executable
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"params.ml" 243 7598 7623 "params.ml" 243 7598 7625
+type(
+  executable ref
+)
+ident(
+  int_ref z3 "params.ml" 180 5467 5471 "params.ml" 180 5467 5473
+)
+"params.ml" 243 7598 7622 "params.ml" 243 7598 7625
+type(
+  executable
+)
+"params.ml" 243 7598 7618 "params.ml" 243 7598 7625
+type(
+  executable ref
+)
+"params.ml" 242 7549 7551 "params.ml" 243 7598 7625
+type(
+  executable ref
+)
+"params.ml" 248 7824 7828 "params.ml" 248 7824 7842
+type(
+  string -> unit
+)
+ident(
+  def set_smt_solver "params.ml" 250 7866 7866 "params.ml" 0 0 -1
+)
+"params.ml" 248 7824 7843 "params.ml" 248 7824 7846
+type(
+  string
+)
+ident(
+  def slv "params.ml" 248 7824 7849 "params.ml" 248 7824 7864
+)
+"params.ml" 248 7824 7849 "params.ml" 248 7824 7852
+type(
+  executable ref
+)
+ident(
+  int_ref smt "params.ml" 241 7539 7543 "params.ml" 241 7539 7546
+)
+"params.ml" 248 7824 7853 "params.ml" 248 7824 7855
+type(
+  executable ref -> executable -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"params.ml" 248 7824 7861 "params.ml" 248 7824 7864
+type(
+  string
+)
+ident(
+  int_ref slv "params.ml" 248 7824 7843 "params.ml" 248 7824 7846
+)
+"params.ml" 248 7824 7856 "params.ml" 248 7824 7864
+type(
+  executable
+)
+"params.ml" 248 7824 7849 "params.ml" 248 7824 7864
+type(
+  unit
+)
+"params.ml" 250 7866 7870 "params.ml" 250 7866 7883
+type(
+  string -> unit
+)
+ident(
+  def set_smt_logic "params.ml" 253 7913 7913 "params.ml" 0 0 -1
+)
+"params.ml" 250 7866 7884 "params.ml" 250 7866 7889
+type(
+  string
+)
+ident(
+  def logic "params.ml" 250 7866 7892 "params.ml" 250 7866 7910
+)
+"params.ml" 250 7866 7892 "params.ml" 250 7866 7901
+type(
+  string ref
+)
+ident(
+  int_ref smt_logic "params.ml" 233 7287 7291 "params.ml" 233 7287 7300
+)
+"params.ml" 250 7866 7902 "params.ml" 250 7866 7904
+type(
+  string ref -> string -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"params.ml" 250 7866 7905 "params.ml" 250 7866 7910
+type(
+  string
+)
+ident(
+  int_ref logic "params.ml" 250 7866 7884 "params.ml" 250 7866 7889
+)
+"params.ml" 250 7866 7892 "params.ml" 250 7866 7910
+type(
+  unit
+)
+"params.ml" 253 7913 7917 "params.ml" 253 7913 7928
+type(
+  int ref
+)
+ident(
+  def max_threads "params.ml" 255 7943 7943 "params.ml" 0 0 -1
+)
+"params.ml" 253 7913 7931 "params.ml" 253 7913 7934
+type(
+  int -> int ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 253 7913 7935 "params.ml" 253 7913 7941
+type(
+  int
+)
+ident(
+  int_ref nprocs "params.ml" 23 571 575 "params.ml" 23 571 581
+)
+"params.ml" 253 7913 7931 "params.ml" 253 7913 7941
+type(
+  int ref
+)
+"params.ml" 255 7943 7947 "params.ml" 255 7943 7962
+type(
+  string list ref
+)
+ident(
+  def rev_search_path "params.ml" 256 7984 7984 "params.ml" 0 0 -1
+)
+"params.ml" 255 7943 7965 "params.ml" 255 7943 7968
+type(
+  string list -> string list ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 255 7943 7970 "params.ml" 255 7943 7982
+type(
+  string
+)
+ident(
+  int_ref library_path "params.ml" 55 1497 1501 "params.ml" 55 1497 1513
+)
+"params.ml" 255 7943 7969 "params.ml" 255 7943 7983
+type(
+  string list
+)
+"params.ml" 255 7943 7965 "params.ml" 255 7943 7983
+type(
+  string list ref
+)
+"params.ml" 256 7984 7988 "params.ml" 256 7984 8002
+type(
+  string -> unit
+)
+ident(
+  def add_search_dir "params.ml" 265 8275 8275 "params.ml" 0 0 -1
+)
+"params.ml" 256 7984 8003 "params.ml" 256 7984 8006
+type(
+  string
+)
+ident(
+  def dir "params.ml" 257 8009 8011 "params.ml" 263 8203 8273
+)
+"params.ml" 257 8009 8015 "params.ml" 257 8009 8018
+type(
+  string
+)
+ident(
+  def dir "params.ml" 262 8141 8143 "params.ml" 263 8203 8273
+)
+"params.ml" 258 8021 8028 "params.ml" 258 8021 8031
+type(
+  string
+)
+ident(
+  int_ref dir "params.ml" 256 7984 8003 "params.ml" 256 7984 8006
+)
+"params.ml" 258 8021 8033 "params.ml" 258 8021 8034
+type(
+  int
+)
+"params.ml" 258 8021 8028 "params.ml" 258 8021 8035
+type(
+  char
+)
+"params.ml" 258 8021 8036 "params.ml" 258 8021 8037
+type(
+  char -> char -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"params.ml" 258 8021 8038 "params.ml" 258 8021 8041
+type(
+  char
+)
+"params.ml" 258 8021 8028 "params.ml" 258 8021 8041
+type(
+  bool
+)
+"params.ml" 259 8042 8051 "params.ml" 259 8042 8066
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Filename.concat "filename.mli" 28 1429 1429 "filename.mli" 28 1429 1468
+)
+"params.ml" 259 8042 8067 "params.ml" 259 8042 8079
+type(
+  string
+)
+ident(
+  int_ref library_path "params.ml" 55 1497 1501 "params.ml" 55 1497 1513
+)
+"params.ml" 259 8042 8081 "params.ml" 259 8042 8091
+type(
+  string -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.String.sub "string.mli" 190 6894 6894 "string.mli" 190 6894 6934
+)
+"params.ml" 259 8042 8092 "params.ml" 259 8042 8095
+type(
+  string
+)
+ident(
+  int_ref dir "params.ml" 256 7984 8003 "params.ml" 256 7984 8006
+)
+"params.ml" 259 8042 8096 "params.ml" 259 8042 8097
+type(
+  int
+)
+"params.ml" 259 8042 8099 "params.ml" 259 8042 8112
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 118 4569 4569 "string.mli" 118 4569 4619
+)
+"params.ml" 259 8042 8113 "params.ml" 259 8042 8116
+type(
+  string
+)
+ident(
+  int_ref dir "params.ml" 256 7984 8003 "params.ml" 256 7984 8006
+)
+"params.ml" 259 8042 8099 "params.ml" 259 8042 8116
+type(
+  int
+)
+"params.ml" 259 8042 8117 "params.ml" 259 8042 8118
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"params.ml" 259 8042 8119 "params.ml" 259 8042 8120
+type(
+  int
+)
+"params.ml" 259 8042 8098 "params.ml" 259 8042 8121
+type(
+  int
+)
+"params.ml" 259 8042 8080 "params.ml" 259 8042 8122
+type(
+  string
+)
+"params.ml" 259 8042 8051 "params.ml" 259 8042 8122
+type(
+  string
+)
+"params.ml" 260 8123 8132 "params.ml" 260 8123 8135
+type(
+  string
+)
+ident(
+  int_ref dir "params.ml" 256 7984 8003 "params.ml" 256 7984 8006
+)
+"params.ml" 258 8021 8025 "params.ml" 260 8123 8135
+type(
+  string
+)
+"params.ml" 262 8141 8146 "params.ml" 262 8141 8158
+type(
+  (string -> bool) -> string list -> bool
+)
+ident(
+  int_ref Ext.List.for_all "ext.mli" 26 1026 1028 "ext.mli" 26 1026 1073
+)
+"params.ml" 262 8141 8164 "params.ml" 262 8141 8166
+type(
+  string
+)
+ident(
+  def lp "params.ml" 262 8141 8170 "params.ml" 262 8141 8179
+)
+"params.ml" 262 8141 8170 "params.ml" 262 8141 8172
+type(
+  string
+)
+ident(
+  int_ref lp "params.ml" 262 8141 8164 "params.ml" 262 8141 8166
+)
+"params.ml" 262 8141 8173 "params.ml" 262 8141 8175
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 130 5559 5559 "stdlib.mli" 130 5559 5607
+)
+"params.ml" 262 8141 8176 "params.ml" 262 8141 8179
+type(
+  string
+)
+ident(
+  int_ref dir "params.ml" 257 8009 8015 "params.ml" 257 8009 8018
+)
+"params.ml" 262 8141 8170 "params.ml" 262 8141 8179
+type(
+  bool
+)
+"params.ml" 262 8141 8159 "params.ml" 262 8141 8180
+type(
+  string -> bool
+)
+"params.ml" 262 8141 8181 "params.ml" 262 8141 8182
+type(
+  string list ref -> string list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"params.ml" 262 8141 8182 "params.ml" 262 8141 8197
+type(
+  string list ref
+)
+ident(
+  int_ref rev_search_path "params.ml" 255 7943 7947 "params.ml" 255 7943 7962
+)
+"params.ml" 262 8141 8181 "params.ml" 262 8141 8197
+type(
+  string list
+)
+"params.ml" 262 8141 8146 "params.ml" 262 8141 8197
+type(
+  bool
+)
+"params.ml" 263 8203 8207 "params.ml" 263 8203 8222
+type(
+  string list ref
+)
+ident(
+  int_ref rev_search_path "params.ml" 255 7943 7947 "params.ml" 255 7943 7962
+)
+"params.ml" 263 8203 8223 "params.ml" 263 8203 8225
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"params.ml" 263 8203 8226 "params.ml" 263 8203 8238
+type(
+  string
+)
+ident(
+  int_ref library_path "params.ml" 55 1497 1501 "params.ml" 55 1497 1513
+)
+"params.ml" 263 8203 8242 "params.ml" 263 8203 8245
+type(
+  string
+)
+ident(
+  int_ref dir "params.ml" 257 8009 8015 "params.ml" 257 8009 8018
+)
+"params.ml" 263 8203 8249 "params.ml" 263 8203 8256
+type(
+  string list -> string list
+)
+ident(
+  int_ref Ext.List.tl "ext.mli" 9 157 159 "ext.mli" 9 157 186
+)
+"params.ml" 263 8203 8257 "params.ml" 263 8203 8258
+type(
+  string list ref -> string list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"params.ml" 263 8203 8258 "params.ml" 263 8203 8273
+type(
+  string list ref
+)
+ident(
+  int_ref rev_search_path "params.ml" 255 7943 7947 "params.ml" 255 7943 7962
+)
+"params.ml" 263 8203 8257 "params.ml" 263 8203 8273
+type(
+  string list
+)
+"params.ml" 263 8203 8249 "params.ml" 263 8203 8273
+type(
+  string list
+)
+"params.ml" 263 8203 8242 "params.ml" 263 8203 8273
+type(
+  string list
+)
+"params.ml" 263 8203 8226 "params.ml" 263 8203 8273
+type(
+  string list
+)
+"params.ml" 263 8203 8207 "params.ml" 263 8203 8273
+type(
+  unit
+)
+"params.ml" 262 8141 8143 "params.ml" 263 8203 8273
+type(
+  unit
+)
+"params.ml" 257 8009 8011 "params.ml" 263 8203 8273
+type(
+  unit
+)
+"params.ml" 265 8275 8279 "params.ml" 265 8275 8289
+type(
+  string ref
+)
+ident(
+  def output_dir "params.ml" 267 8301 8301 "params.ml" 0 0 -1
+)
+"params.ml" 265 8275 8292 "params.ml" 265 8275 8295
+type(
+  string -> string ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 265 8275 8296 "params.ml" 265 8275 8299
+type(
+  string
+)
+"params.ml" 265 8275 8292 "params.ml" 265 8275 8299
+type(
+  string ref
+)
+"params.ml" 267 8301 8305 "params.ml" 267 8301 8319
+type(
+  Method.t list ref
+)
+ident(
+  def default_method "params.ml" 276 8536 8536 "params.ml" 0 0 -1
+)
+"params.ml" 268 8322 8324 "params.ml" 268 8322 8327
+type(
+  Method.t list -> Method.t list ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 269 8330 8346 "params.ml" 269 8330 8373
+type(
+  float
+)
+ident(
+  int_ref Method.default_smt2_timeout "method.mli" 55 1158 1158 "method.mli" 55 1158 1189
+)
+"params.ml" 269 8330 8334 "params.ml" 269 8330 8373
+type(
+  Method.t
+)
+"params.ml" 270 8375 8392 "params.ml" 270 8375 8420
+type(
+  float
+)
+ident(
+  int_ref Method.default_zenon_timeout "method.mli" 46 863 863 "method.mli" 46 863 895
+)
+"params.ml" 270 8375 8379 "params.ml" 270 8375 8420
+type(
+  Method.t
+)
+"params.ml" 271 8422 8443 "params.ml" 271 8422 8474
+type(
+  float
+)
+ident(
+  int_ref Method.default_isabelle_timeout "method.mli" 48 927 927 "method.mli" 48 927 962
+)
+"params.ml" 272 8476 8497 "params.ml" 272 8476 8527
+type(
+  string
+)
+ident(
+  int_ref Method.default_isabelle_tactic "method.mli" 49 963 963 "method.mli" 49 963 998
+)
+"params.ml" 271 8422 8426 "params.ml" 272 8476 8528
+type(
+  Method.t
+)
+"params.ml" 268 8322 8328 "params.ml" 273 8530 8533
+type(
+  Method.t list
+)
+"params.ml" 268 8322 8324 "params.ml" 273 8530 8533
+type(
+  Method.t list ref
+)
+"params.ml" 276 8536 8540 "params.ml" 276 8536 8547
+type(
+  string -> float option -> Method.t
+)
+ident(
+  def mk_meth "params.ml" 316 10002 10002 "params.ml" 0 0 -1
+)
+"params.ml" 276 8536 8548 "params.ml" 276 8536 8552
+type(
+  string
+)
+ident(
+  def name "params.ml" 276 8536 8553 "params.ml" 312 9883 9935
+)
+"params.ml" 276 8536 8553 "params.ml" 276 8536 8560
+type(
+  float option
+)
+ident(
+  def timeout "params.ml" 277 8563 8565 "params.ml" 312 9883 9935
+)
+"params.ml" 277 8563 8571 "params.ml" 277 8563 8575
+type(
+  string
+)
+ident(
+  int_ref name "params.ml" 276 8536 8548 "params.ml" 276 8536 8552
+)
+"params.ml" 278 8581 8585 "params.ml" 278 8581 8592
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 279 8596 8605 "params.ml" 279 8596 8612
+type(
+  float
+)
+ident(
+  def timeout "params.ml" 280 8670 8675 "params.ml" 280 8670 8695
+)
+"params.ml" 279 8596 8615 "params.ml" 279 8596 8629
+type(
+  float -> float option -> float
+)
+ident(
+  int_ref Ext.Option.default "ext.mli" 63 2752 2754 "ext.mli" 63 2752 2789
+)
+"params.ml" 279 8596 8630 "params.ml" 279 8596 8658
+type(
+  float
+)
+ident(
+  int_ref Method.default_zenon_timeout "method.mli" 46 863 863 "method.mli" 46 863 895
+)
+"params.ml" 279 8596 8659 "params.ml" 279 8596 8666
+type(
+  float option
+)
+ident(
+  int_ref timeout "params.ml" 276 8536 8553 "params.ml" 276 8536 8560
+)
+"params.ml" 279 8596 8615 "params.ml" 279 8596 8666
+type(
+  float
+)
+"params.ml" 280 8670 8688 "params.ml" 280 8670 8695
+type(
+  float
+)
+ident(
+  int_ref timeout "params.ml" 279 8596 8605 "params.ml" 279 8596 8612
+)
+"params.ml" 280 8670 8675 "params.ml" 280 8670 8695
+type(
+  Method.t
+)
+"params.ml" 279 8596 8601 "params.ml" 280 8670 8695
+type(
+  Method.t
+)
+"params.ml" 281 8696 8700 "params.ml" 281 8696 8706
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 281 8696 8709 "params.ml" 281 8696 8716
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 281 8696 8700 "params.ml" 281 8696 8716
+type(
+  string
+)
+"params.ml" 281 8696 8719 "params.ml" 281 8696 8726
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 281 8696 8700 "params.ml" 281 8696 8726
+type(
+  string
+)
+"params.ml" 282 8730 8739 "params.ml" 282 8730 8746
+type(
+  float
+)
+ident(
+  def timeout "params.ml" 283 8807 8812 "params.ml" 283 8807 8843
+)
+"params.ml" 282 8730 8749 "params.ml" 282 8730 8763
+type(
+  float -> float option -> float
+)
+ident(
+  int_ref Ext.Option.default "ext.mli" 63 2752 2754 "ext.mli" 63 2752 2789
+)
+"params.ml" 282 8730 8764 "params.ml" 282 8730 8795
+type(
+  float
+)
+ident(
+  int_ref Method.default_isabelle_timeout "method.mli" 48 927 927 "method.mli" 48 927 962
+)
+"params.ml" 282 8730 8796 "params.ml" 282 8730 8803
+type(
+  float option
+)
+ident(
+  int_ref timeout "params.ml" 276 8536 8553 "params.ml" 276 8536 8560
+)
+"params.ml" 282 8730 8749 "params.ml" 282 8730 8803
+type(
+  float
+)
+"params.ml" 283 8807 8829 "params.ml" 283 8807 8836
+type(
+  float
+)
+ident(
+  int_ref timeout "params.ml" 282 8730 8739 "params.ml" 282 8730 8746
+)
+"params.ml" 283 8807 8838 "params.ml" 283 8807 8842
+type(
+  string
+)
+ident(
+  int_ref name "params.ml" 276 8536 8548 "params.ml" 276 8536 8552
+)
+"params.ml" 283 8807 8812 "params.ml" 283 8807 8843
+type(
+  Method.t
+)
+"params.ml" 282 8730 8735 "params.ml" 283 8807 8843
+type(
+  Method.t
+)
+"params.ml" 284 8844 8848 "params.ml" 284 8844 8853
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 285 8857 8866 "params.ml" 285 8857 8873
+type(
+  float
+)
+ident(
+  def timeout "params.ml" 286 8930 8935 "params.ml" 286 8930 8954
+)
+"params.ml" 285 8857 8876 "params.ml" 285 8857 8890
+type(
+  float -> float option -> float
+)
+ident(
+  int_ref Ext.Option.default "ext.mli" 63 2752 2754 "ext.mli" 63 2752 2789
+)
+"params.ml" 285 8857 8891 "params.ml" 285 8857 8918
+type(
+  float
+)
+ident(
+  int_ref Method.default_smt2_timeout "method.mli" 55 1158 1158 "method.mli" 55 1158 1189
+)
+"params.ml" 285 8857 8919 "params.ml" 285 8857 8926
+type(
+  float option
+)
+ident(
+  int_ref timeout "params.ml" 276 8536 8553 "params.ml" 276 8536 8560
+)
+"params.ml" 285 8857 8876 "params.ml" 285 8857 8926
+type(
+  float
+)
+"params.ml" 286 8930 8947 "params.ml" 286 8930 8954
+type(
+  float
+)
+ident(
+  int_ref timeout "params.ml" 285 8857 8866 "params.ml" 285 8857 8873
+)
+"params.ml" 286 8930 8935 "params.ml" 286 8930 8954
+type(
+  Method.t
+)
+"params.ml" 285 8857 8862 "params.ml" 286 8930 8954
+type(
+  Method.t
+)
+"params.ml" 287 8955 8959 "params.ml" 287 8955 8963
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 288 8967 8976 "params.ml" 288 8967 8983
+type(
+  float
+)
+ident(
+  def timeout "params.ml" 289 9040 9045 "params.ml" 289 9040 9063
+)
+"params.ml" 288 8967 8986 "params.ml" 288 8967 9000
+type(
+  float -> float option -> float
+)
+ident(
+  int_ref Ext.Option.default "ext.mli" 63 2752 2754 "ext.mli" 63 2752 2789
+)
+"params.ml" 288 8967 9001 "params.ml" 288 8967 9028
+type(
+  float
+)
+ident(
+  int_ref Method.default_smt2_timeout "method.mli" 55 1158 1158 "method.mli" 55 1158 1189
+)
+"params.ml" 288 8967 9029 "params.ml" 288 8967 9036
+type(
+  float option
+)
+ident(
+  int_ref timeout "params.ml" 276 8536 8553 "params.ml" 276 8536 8560
+)
+"params.ml" 288 8967 8986 "params.ml" 288 8967 9036
+type(
+  float
+)
+"params.ml" 289 9040 9056 "params.ml" 289 9040 9063
+type(
+  float
+)
+ident(
+  int_ref timeout "params.ml" 288 8967 8976 "params.ml" 288 8967 8983
+)
+"params.ml" 289 9040 9045 "params.ml" 289 9040 9063
+type(
+  Method.t
+)
+"params.ml" 288 8967 8972 "params.ml" 289 9040 9063
+type(
+  Method.t
+)
+"params.ml" 290 9064 9068 "params.ml" 290 9064 9075
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 291 9079 9088 "params.ml" 291 9079 9095
+type(
+  float
+)
+ident(
+  def timeout "params.ml" 292 9153 9158 "params.ml" 292 9153 9178
+)
+"params.ml" 291 9079 9098 "params.ml" 291 9079 9112
+type(
+  float -> float option -> float
+)
+ident(
+  int_ref Ext.Option.default "ext.mli" 63 2752 2754 "ext.mli" 63 2752 2789
+)
+"params.ml" 291 9079 9113 "params.ml" 291 9079 9141
+type(
+  float
+)
+ident(
+  int_ref Method.default_metit_timeout "method.mli" 52 1062 1062 "method.mli" 52 1062 1094
+)
+"params.ml" 291 9079 9142 "params.ml" 291 9079 9149
+type(
+  float option
+)
+ident(
+  int_ref timeout "params.ml" 276 8536 8553 "params.ml" 276 8536 8560
+)
+"params.ml" 291 9079 9098 "params.ml" 291 9079 9149
+type(
+  float
+)
+"params.ml" 292 9153 9171 "params.ml" 292 9153 9178
+type(
+  float
+)
+ident(
+  int_ref timeout "params.ml" 291 9079 9088 "params.ml" 291 9079 9095
+)
+"params.ml" 292 9153 9158 "params.ml" 292 9153 9178
+type(
+  Method.t
+)
+"params.ml" 291 9079 9084 "params.ml" 292 9153 9178
+type(
+  Method.t
+)
+"params.ml" 293 9179 9183 "params.ml" 293 9179 9189
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 294 9193 9202 "params.ml" 294 9193 9209
+type(
+  float
+)
+ident(
+  def timeout "params.ml" 295 9266 9271 "params.ml" 295 9266 9291
+)
+"params.ml" 294 9193 9212 "params.ml" 294 9193 9226
+type(
+  float -> float option -> float
+)
+ident(
+  int_ref Ext.Option.default "ext.mli" 63 2752 2754 "ext.mli" 63 2752 2789
+)
+"params.ml" 294 9193 9227 "params.ml" 294 9193 9254
+type(
+  float
+)
+ident(
+  int_ref Method.default_smt2_timeout "method.mli" 55 1158 1158 "method.mli" 55 1158 1189
+)
+"params.ml" 294 9193 9255 "params.ml" 294 9193 9262
+type(
+  float option
+)
+ident(
+  int_ref timeout "params.ml" 276 8536 8553 "params.ml" 276 8536 8560
+)
+"params.ml" 294 9193 9212 "params.ml" 294 9193 9262
+type(
+  float
+)
+"params.ml" 295 9266 9284 "params.ml" 295 9266 9291
+type(
+  float
+)
+ident(
+  int_ref timeout "params.ml" 294 9193 9202 "params.ml" 294 9193 9209
+)
+"params.ml" 295 9266 9271 "params.ml" 295 9266 9291
+type(
+  Method.t
+)
+"params.ml" 294 9193 9198 "params.ml" 295 9266 9291
+type(
+  Method.t
+)
+"params.ml" 296 9292 9296 "params.ml" 296 9292 9303
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 297 9307 9316 "params.ml" 297 9307 9323
+type(
+  float
+)
+ident(
+  def timeout "params.ml" 298 9380 9385 "params.ml" 298 9380 9406
+)
+"params.ml" 297 9307 9326 "params.ml" 297 9307 9340
+type(
+  float -> float option -> float
+)
+ident(
+  int_ref Ext.Option.default "ext.mli" 63 2752 2754 "ext.mli" 63 2752 2789
+)
+"params.ml" 297 9307 9341 "params.ml" 297 9307 9368
+type(
+  float
+)
+ident(
+  int_ref Method.default_smt2_timeout "method.mli" 55 1158 1158 "method.mli" 55 1158 1189
+)
+"params.ml" 297 9307 9369 "params.ml" 297 9307 9376
+type(
+  float option
+)
+ident(
+  int_ref timeout "params.ml" 276 8536 8553 "params.ml" 276 8536 8560
+)
+"params.ml" 297 9307 9326 "params.ml" 297 9307 9376
+type(
+  float
+)
+"params.ml" 298 9380 9399 "params.ml" 298 9380 9406
+type(
+  float
+)
+ident(
+  int_ref timeout "params.ml" 297 9307 9316 "params.ml" 297 9307 9323
+)
+"params.ml" 298 9380 9385 "params.ml" 298 9380 9406
+type(
+  Method.t
+)
+"params.ml" 297 9307 9312 "params.ml" 298 9380 9406
+type(
+  Method.t
+)
+"params.ml" 299 9407 9411 "params.ml" 299 9407 9418
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 300 9422 9431 "params.ml" 300 9422 9438
+type(
+  float
+)
+ident(
+  def timeout "params.ml" 301 9495 9500 "params.ml" 301 9495 9520
+)
+"params.ml" 300 9422 9441 "params.ml" 300 9422 9455
+type(
+  float -> float option -> float
+)
+ident(
+  int_ref Ext.Option.default "ext.mli" 63 2752 2754 "ext.mli" 63 2752 2789
+)
+"params.ml" 300 9422 9456 "params.ml" 300 9422 9483
+type(
+  float
+)
+ident(
+  int_ref Method.default_smt2_timeout "method.mli" 55 1158 1158 "method.mli" 55 1158 1189
+)
+"params.ml" 300 9422 9484 "params.ml" 300 9422 9491
+type(
+  float option
+)
+ident(
+  int_ref timeout "params.ml" 276 8536 8553 "params.ml" 276 8536 8560
+)
+"params.ml" 300 9422 9441 "params.ml" 300 9422 9491
+type(
+  float
+)
+"params.ml" 301 9495 9513 "params.ml" 301 9495 9520
+type(
+  float
+)
+ident(
+  int_ref timeout "params.ml" 300 9422 9431 "params.ml" 300 9422 9438
+)
+"params.ml" 301 9495 9500 "params.ml" 301 9495 9520
+type(
+  Method.t
+)
+"params.ml" 300 9422 9427 "params.ml" 301 9495 9520
+type(
+  Method.t
+)
+"params.ml" 302 9521 9525 "params.ml" 302 9521 9532
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 303 9536 9545 "params.ml" 303 9536 9552
+type(
+  float
+)
+ident(
+  def timeout "params.ml" 304 9610 9615 "params.ml" 304 9610 9635
+)
+"params.ml" 303 9536 9555 "params.ml" 303 9536 9569
+type(
+  float -> float option -> float
+)
+ident(
+  int_ref Ext.Option.default "ext.mli" 63 2752 2754 "ext.mli" 63 2752 2789
+)
+"params.ml" 303 9536 9570 "params.ml" 303 9536 9598
+type(
+  float
+)
+ident(
+  int_ref Method.default_spass_timeout "method.mli" 56 1190 1190 "method.mli" 56 1190 1222
+)
+"params.ml" 303 9536 9599 "params.ml" 303 9536 9606
+type(
+  float option
+)
+ident(
+  int_ref timeout "params.ml" 276 8536 8553 "params.ml" 276 8536 8560
+)
+"params.ml" 303 9536 9555 "params.ml" 303 9536 9606
+type(
+  float
+)
+"params.ml" 304 9610 9628 "params.ml" 304 9610 9635
+type(
+  float
+)
+ident(
+  int_ref timeout "params.ml" 303 9536 9545 "params.ml" 303 9536 9552
+)
+"params.ml" 304 9610 9615 "params.ml" 304 9610 9635
+type(
+  Method.t
+)
+"params.ml" 303 9536 9541 "params.ml" 304 9610 9635
+type(
+  Method.t
+)
+"params.ml" 305 9636 9640 "params.ml" 305 9636 9646
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 306 9650 9659 "params.ml" 306 9650 9666
+type(
+  float
+)
+ident(
+  def timeout "params.ml" 307 9723 9728 "params.ml" 307 9723 9747
+)
+"params.ml" 306 9650 9669 "params.ml" 306 9650 9683
+type(
+  float -> float option -> float
+)
+ident(
+  int_ref Ext.Option.default "ext.mli" 63 2752 2754 "ext.mli" 63 2752 2789
+)
+"params.ml" 306 9650 9684 "params.ml" 306 9650 9711
+type(
+  float
+)
+ident(
+  int_ref Method.default_tptp_timeout "method.mli" 57 1223 1223 "method.mli" 57 1223 1254
+)
+"params.ml" 306 9650 9712 "params.ml" 306 9650 9719
+type(
+  float option
+)
+ident(
+  int_ref timeout "params.ml" 276 8536 8553 "params.ml" 276 8536 8560
+)
+"params.ml" 306 9650 9669 "params.ml" 306 9650 9719
+type(
+  float
+)
+"params.ml" 307 9723 9740 "params.ml" 307 9723 9747
+type(
+  float
+)
+ident(
+  int_ref timeout "params.ml" 306 9650 9659 "params.ml" 306 9650 9666
+)
+"params.ml" 307 9723 9728 "params.ml" 307 9723 9747
+type(
+  Method.t
+)
+"params.ml" 306 9650 9655 "params.ml" 307 9723 9747
+type(
+  Method.t
+)
+"params.ml" 308 9748 9752 "params.ml" 308 9748 9757
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 309 9761 9770 "params.ml" 309 9761 9777
+type(
+  float
+)
+ident(
+  def timeout "params.ml" 310 9833 9838 "params.ml" 310 9833 9856
+)
+"params.ml" 309 9761 9780 "params.ml" 309 9761 9794
+type(
+  float -> float option -> float
+)
+ident(
+  int_ref Ext.Option.default "ext.mli" 63 2752 2754 "ext.mli" 63 2752 2789
+)
+"params.ml" 309 9761 9795 "params.ml" 309 9761 9821
+type(
+  float
+)
+ident(
+  int_ref Method.default_ls4_timeout "method.mli" 47 896 896 "method.mli" 47 896 926
+)
+"params.ml" 309 9761 9822 "params.ml" 309 9761 9829
+type(
+  float option
+)
+ident(
+  int_ref timeout "params.ml" 276 8536 8553 "params.ml" 276 8536 8560
+)
+"params.ml" 309 9761 9780 "params.ml" 309 9761 9829
+type(
+  float
+)
+"params.ml" 310 9833 9849 "params.ml" 310 9833 9856
+type(
+  float
+)
+ident(
+  int_ref timeout "params.ml" 309 9761 9770 "params.ml" 309 9761 9777
+)
+"params.ml" 310 9833 9838 "params.ml" 310 9833 9856
+type(
+  Method.t
+)
+"params.ml" 309 9761 9766 "params.ml" 310 9833 9856
+type(
+  Method.t
+)
+"params.ml" 311 9857 9861 "params.ml" 311 9857 9867
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 311 9857 9871 "params.ml" 311 9857 9882
+type(
+  Method.t
+)
+"params.ml" 312 9883 9887 "params.ml" 312 9883 9888
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 312 9883 9892 "params.ml" 312 9883 9900
+type(
+  string -> Method.t
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"params.ml" 312 9883 9902 "params.ml" 312 9883 9909
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"params.ml" 312 9883 9910 "params.ml" 312 9883 9929
+type(
+  (string -> string, unit, string) format
+)
+"params.ml" 312 9883 9930 "params.ml" 312 9883 9934
+type(
+  string
+)
+ident(
+  int_ref name "params.ml" 276 8536 8548 "params.ml" 276 8536 8552
+)
+"params.ml" 312 9883 9901 "params.ml" 312 9883 9935
+type(
+  string
+)
+"params.ml" 312 9883 9892 "params.ml" 312 9883 9935
+type(
+  Method.t
+)
+"params.ml" 277 8563 8565 "params.ml" 312 9883 9935
+type(
+  Method.t
+)
+"params.ml" 316 10002 10006 "params.ml" 316 10002 10027
+type(
+  string -> Method.t list
+)
+ident(
+  def parse_default_methods "params.ml" 348 11031 11031 "params.ml" 0 0 -1
+)
+"params.ml" 316 10002 10028 "params.ml" 316 10002 10029
+type(
+  string
+)
+ident(
+  def s "params.ml" 317 10032 10034 "params.ml" 345 11023 11028
+)
+"params.ml" 317 10032 10037 "params.ml" 317 10032 10038
+type(
+  string
+)
+ident(
+  int_ref s "params.ml" 316 10002 10028 "params.ml" 316 10002 10029
+)
+"params.ml" 317 10032 10039 "params.ml" 317 10032 10040
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"params.ml" 317 10032 10041 "params.ml" 317 10032 10047
+type(
+  string
+)
+"params.ml" 317 10032 10037 "params.ml" 317 10032 10047
+type(
+  bool
+)
+"params.ml" 318 10059 10063 "params.ml" 318 10059 10069
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"params.ml" 318 10059 10070 "params.ml" 318 10059 10095
+type(
+  (unit, out_channel, unit) format
+)
+"params.ml" 318 10059 10063 "params.ml" 318 10059 10095
+type(
+  unit
+)
+"params.ml" 319 10098 10102 "params.ml" 319 10098 10108
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"params.ml" 319 10098 10109 "params.ml" 319 10098 10131
+type(
+  (unit, out_channel, unit) format
+)
+"params.ml" 319 10098 10102 "params.ml" 319 10098 10131
+type(
+  unit
+)
+"params.ml" 320 10133 10137 "params.ml" 320 10133 10143
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"params.ml" 320 10133 10144 "params.ml" 320 10133 10190
+type(
+  (unit, out_channel, unit) format
+)
+"params.ml" 320 10133 10137 "params.ml" 320 10133 10190
+type(
+  unit
+)
+"params.ml" 321 10192 10196 "params.ml" 321 10192 10202
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"params.ml" 321 10192 10203 "params.ml" 321 10192 10250
+type(
+  (unit, out_channel, unit) format
+)
+"params.ml" 321 10192 10196 "params.ml" 321 10192 10250
+type(
+  unit
+)
+"params.ml" 322 10252 10256 "params.ml" 322 10252 10262
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"params.ml" 322 10252 10263 "params.ml" 322 10252 10310
+type(
+  (unit, out_channel, unit) format
+)
+"params.ml" 322 10252 10256 "params.ml" 322 10252 10310
+type(
+  unit
+)
+"params.ml" 323 10312 10316 "params.ml" 323 10312 10322
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"params.ml" 323 10312 10323 "params.ml" 323 10312 10358
+type(
+  (unit, out_channel, unit) format
+)
+"params.ml" 323 10312 10316 "params.ml" 323 10312 10358
+type(
+  unit
+)
+"params.ml" 324 10360 10364 "params.ml" 324 10360 10370
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"params.ml" 324 10360 10371 "params.ml" 324 10360 10390
+type(
+  (unit, out_channel, unit) format
+)
+"params.ml" 324 10360 10364 "params.ml" 324 10360 10390
+type(
+  unit
+)
+"params.ml" 325 10392 10396 "params.ml" 325 10392 10402
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"params.ml" 325 10392 10403 "params.ml" 325 10392 10428
+type(
+  (unit, out_channel, unit) format
+)
+"params.ml" 325 10392 10396 "params.ml" 325 10392 10428
+type(
+  unit
+)
+"params.ml" 326 10430 10434 "params.ml" 326 10430 10440
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"params.ml" 326 10430 10441 "params.ml" 326 10430 10462
+type(
+  (unit, out_channel, unit) format
+)
+"params.ml" 326 10430 10434 "params.ml" 326 10430 10462
+type(
+  unit
+)
+"params.ml" 327 10464 10468 "params.ml" 327 10464 10474
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"params.ml" 327 10464 10475 "params.ml" 327 10464 10497
+type(
+  (unit, out_channel, unit) format
+)
+"params.ml" 327 10464 10468 "params.ml" 327 10464 10497
+type(
+  unit
+)
+"params.ml" 328 10499 10503 "params.ml" 328 10499 10509
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"params.ml" 328 10499 10510 "params.ml" 328 10499 10532
+type(
+  (unit, out_channel, unit) format
+)
+"params.ml" 328 10499 10503 "params.ml" 328 10499 10532
+type(
+  unit
+)
+"params.ml" 329 10534 10538 "params.ml" 329 10534 10544
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"params.ml" 329 10534 10545 "params.ml" 329 10534 10567
+type(
+  (unit, out_channel, unit) format
+)
+"params.ml" 329 10534 10538 "params.ml" 329 10534 10567
+type(
+  unit
+)
+"params.ml" 330 10569 10573 "params.ml" 330 10569 10579
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"params.ml" 330 10569 10580 "params.ml" 330 10569 10600
+type(
+  (unit, out_channel, unit) format
+)
+"params.ml" 330 10569 10573 "params.ml" 330 10569 10600
+type(
+  unit
+)
+"params.ml" 331 10602 10606 "params.ml" 331 10602 10612
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"params.ml" 331 10602 10613 "params.ml" 331 10602 10617
+type(
+  (unit, out_channel, unit) format
+)
+"params.ml" 331 10602 10606 "params.ml" 331 10602 10617
+type(
+  unit
+)
+"params.ml" 332 10620 10624 "params.ml" 332 10620 10630
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"params.ml" 332 10620 10631 "params.ml" 332 10620 10678
+type(
+  (unit, out_channel, unit) format
+)
+"params.ml" 332 10620 10624 "params.ml" 332 10620 10678
+type(
+  unit
+)
+"params.ml" 333 10681 10685 "params.ml" 333 10681 10689
+type(
+  int -> Method.t list
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1344 51645 51645 "stdlib.mli" 1344 51645 51665
+)
+"params.ml" 333 10681 10690 "params.ml" 333 10681 10691
+type(
+  int
+)
+"params.ml" 333 10681 10685 "params.ml" 333 10681 10691
+type(
+  Method.t list
+)
+"params.ml" 332 10620 10624 "params.ml" 333 10681 10691
+type(
+  Method.t list
+)
+"params.ml" 331 10602 10606 "params.ml" 333 10681 10691
+type(
+  Method.t list
+)
+"params.ml" 330 10569 10573 "params.ml" 333 10681 10691
+type(
+  Method.t list
+)
+"params.ml" 329 10534 10538 "params.ml" 333 10681 10691
+type(
+  Method.t list
+)
+"params.ml" 328 10499 10503 "params.ml" 333 10681 10691
+type(
+  Method.t list
+)
+"params.ml" 327 10464 10468 "params.ml" 333 10681 10691
+type(
+  Method.t list
+)
+"params.ml" 326 10430 10434 "params.ml" 333 10681 10691
+type(
+  Method.t list
+)
+"params.ml" 325 10392 10396 "params.ml" 333 10681 10691
+type(
+  Method.t list
+)
+"params.ml" 324 10360 10364 "params.ml" 333 10681 10691
+type(
+  Method.t list
+)
+"params.ml" 323 10312 10316 "params.ml" 333 10681 10691
+type(
+  Method.t list
+)
+"params.ml" 322 10252 10256 "params.ml" 333 10681 10691
+type(
+  Method.t list
+)
+"params.ml" 321 10192 10196 "params.ml" 333 10681 10691
+type(
+  Method.t list
+)
+"params.ml" 320 10133 10137 "params.ml" 333 10681 10691
+type(
+  Method.t list
+)
+"params.ml" 319 10098 10102 "params.ml" 333 10681 10691
+type(
+  Method.t list
+)
+"params.ml" 317 10032 10053 "params.ml" 334 10692 10697
+type(
+  Method.t list
+)
+"params.ml" 335 10709 10717 "params.ml" 335 10709 10718
+type(
+  string -> Method.t
+)
+ident(
+  def f "params.ml" 344 10990 10994 "params.ml" 344 10990 11022
+)
+"params.ml" 335 10709 10719 "params.ml" 335 10709 10720
+type(
+  string
+)
+ident(
+  def x "params.ml" 336 10723 10729 "params.ml" 342 10960 10982
+)
+"params.ml" 336 10723 10732 "params.ml" 336 10723 10747
+type(
+  string -> char -> bool
+)
+ident(
+  int_ref Stdlib.String.contains "string.mli" 185 6755 6755 "string.mli" 185 6755 6792
+)
+"params.ml" 336 10723 10748 "params.ml" 336 10723 10749
+type(
+  string
+)
+ident(
+  int_ref x "params.ml" 335 10709 10719 "params.ml" 335 10709 10720
+)
+"params.ml" 336 10723 10750 "params.ml" 336 10723 10753
+type(
+  char
+)
+"params.ml" 336 10723 10732 "params.ml" 336 10723 10753
+type(
+  bool
+)
+"params.ml" 338 10771 10781 "params.ml" 338 10771 10793
+type(
+  string ->
+  (string -> float -> Method.t, '_weak1,
+   (string -> float -> Method.t) -> Method.t, Method.t)
+  Scanf.scanner
+)
+ident(
+  int_ref Stdlib.Scanf.sscanf "scanf.mli" 469 21807 21807 "scanf.mli" 469 21807 21854
+)
+"params.ml" 338 10771 10794 "params.ml" 338 10771 10795
+type(
+  string
+)
+ident(
+  int_ref x "params.ml" 335 10709 10719 "params.ml" 335 10709 10720
+)
+"params.ml" 338 10771 10796 "params.ml" 338 10771 10806
+type(
+  (string -> float -> Method.t, Scanf.Scanning.in_channel, '_weak1,
+   (string -> float -> Method.t) -> Method.t,
+   (string -> float -> Method.t) -> Method.t, Method.t)
+  format6
+)
+"params.ml" 338 10771 10812 "params.ml" 338 10771 10816
+type(
+  string
+)
+ident(
+  def name "params.ml" 338 10771 10817 "params.ml" 338 10771 10849
+)
+"params.ml" 338 10771 10817 "params.ml" 338 10771 10821
+type(
+  float
+)
+ident(
+  def time "params.ml" 338 10771 10825 "params.ml" 338 10771 10849
+)
+"params.ml" 338 10771 10825 "params.ml" 338 10771 10832
+type(
+  string -> float option -> Method.t
+)
+ident(
+  int_ref mk_meth "params.ml" 276 8536 8540 "params.ml" 276 8536 8547
+)
+"params.ml" 338 10771 10833 "params.ml" 338 10771 10837
+type(
+  string
+)
+ident(
+  int_ref name "params.ml" 338 10771 10812 "params.ml" 338 10771 10816
+)
+"params.ml" 338 10771 10844 "params.ml" 338 10771 10848
+type(
+  float
+)
+ident(
+  int_ref time "params.ml" 338 10771 10817 "params.ml" 338 10771 10821
+)
+"params.ml" 338 10771 10838 "params.ml" 338 10771 10849
+type(
+  float option
+)
+"params.ml" 338 10771 10825 "params.ml" 338 10771 10849
+type(
+  Method.t
+)
+"params.ml" 338 10771 10807 "params.ml" 338 10771 10850
+type(
+  string -> float -> Method.t
+)
+"params.ml" 338 10771 10781 "params.ml" 338 10771 10850
+type(
+  Method.t
+)
+"params.ml" 339 10851 10883 "params.ml" 339 10851 10884
+type(
+  string
+)
+"params.ml" 339 10851 10864 "params.ml" 339 10851 10884
+type(
+  exn
+)
+"params.ml" 340 10888 10898 "params.ml" 340 10888 10906
+type(
+  string -> Method.t
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"params.ml" 340 10888 10907 "params.ml" 340 10888 10948
+type(
+  string
+)
+"params.ml" 340 10888 10898 "params.ml" 340 10888 10948
+type(
+  Method.t
+)
+"params.ml" 337 10759 10767 "params.ml" 340 10888 10948
+type(
+  Method.t
+)
+"params.ml" 342 10960 10968 "params.ml" 342 10960 10975
+type(
+  string -> float option -> Method.t
+)
+ident(
+  int_ref mk_meth "params.ml" 276 8536 8540 "params.ml" 276 8536 8547
+)
+"params.ml" 342 10960 10976 "params.ml" 342 10960 10977
+type(
+  string
+)
+ident(
+  int_ref x "params.ml" 335 10709 10719 "params.ml" 335 10709 10720
+)
+"params.ml" 342 10960 10978 "params.ml" 342 10960 10982
+type(
+  float option
+)
+"params.ml" 342 10960 10968 "params.ml" 342 10960 10982
+type(
+  Method.t
+)
+"params.ml" 336 10723 10729 "params.ml" 342 10960 10982
+type(
+  Method.t
+)
+"params.ml" 344 10990 10994 "params.ml" 344 10990 11002
+type(
+  (string -> Method.t) -> string list -> Method.t list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"params.ml" 344 10990 11003 "params.ml" 344 10990 11004
+type(
+  string -> Method.t
+)
+ident(
+  int_ref f "params.ml" 335 10709 10717 "params.ml" 335 10709 10718
+)
+"params.ml" 344 10990 11006 "params.ml" 344 10990 11015
+type(
+  string -> char -> string list
+)
+ident(
+  int_ref Ext.split "ext.mli" 82 3316 3316 "ext.mli" 82 3316 3357
+)
+"params.ml" 344 10990 11016 "params.ml" 344 10990 11017
+type(
+  string
+)
+ident(
+  int_ref s "params.ml" 316 10002 10028 "params.ml" 316 10002 10029
+)
+"params.ml" 344 10990 11018 "params.ml" 344 10990 11021
+type(
+  char
+)
+"params.ml" 344 10990 11005 "params.ml" 344 10990 11022
+type(
+  string list
+)
+"params.ml" 344 10990 10994 "params.ml" 344 10990 11022
+type(
+  Method.t list
+)
+"params.ml" 334 10692 10703 "params.ml" 345 11023 11028
+type(
+  Method.t list
+)
+"params.ml" 317 10032 10034 "params.ml" 345 11023 11028
+type(
+  Method.t list
+)
+"params.ml" 348 11031 11035 "params.ml" 348 11031 11053
+type(
+  string -> unit
+)
+ident(
+  def set_default_method "params.ml" 352 11112 11112 "params.ml" 0 0 -1
+)
+"params.ml" 348 11031 11054 "params.ml" 348 11031 11059
+type(
+  string
+)
+ident(
+  def meths "params.ml" 349 11062 11064 "params.ml" 349 11062 11109
+)
+"params.ml" 349 11062 11064 "params.ml" 349 11062 11078
+type(
+  Method.t list ref
+)
+ident(
+  int_ref default_method "params.ml" 267 8301 8305 "params.ml" 267 8301 8319
+)
+"params.ml" 349 11062 11079 "params.ml" 349 11062 11081
+type(
+  Method.t list ref -> Method.t list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"params.ml" 349 11062 11082 "params.ml" 349 11062 11103
+type(
+  string -> Method.t list
+)
+ident(
+  int_ref parse_default_methods "params.ml" 316 10002 10006 "params.ml" 316 10002 10027
+)
+"params.ml" 349 11062 11104 "params.ml" 349 11062 11109
+type(
+  string
+)
+ident(
+  int_ref meths "params.ml" 348 11031 11054 "params.ml" 348 11031 11059
+)
+"params.ml" 349 11062 11082 "params.ml" 349 11062 11109
+type(
+  Method.t list
+)
+"params.ml" 349 11062 11064 "params.ml" 349 11062 11109
+type(
+  unit
+)
+"params.ml" 352 11112 11116 "params.ml" 352 11112 11123
+type(
+  bool ref
+)
+ident(
+  def verbose "params.ml" 354 11137 11137 "params.ml" 0 0 -1
+)
+"params.ml" 352 11112 11126 "params.ml" 352 11112 11129
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 352 11112 11130 "params.ml" 352 11112 11135
+type(
+  bool
+)
+"params.ml" 352 11112 11126 "params.ml" 352 11112 11135
+type(
+  bool ref
+)
+"params.ml" 354 11137 11141 "params.ml" 354 11137 11151
+type(
+  bool ref
+)
+ident(
+  def ob_flatten "params.ml" 355 11163 11163 "params.ml" 0 0 -1
+)
+"params.ml" 354 11137 11154 "params.ml" 354 11137 11157
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 354 11137 11158 "params.ml" 354 11137 11162
+type(
+  bool
+)
+"params.ml" 354 11137 11154 "params.ml" 354 11137 11162
+type(
+  bool ref
+)
+"params.ml" 355 11163 11167 "params.ml" 355 11163 11169
+type(
+  unit
+)
+"params.ml" 356 11172 11184 "params.ml" 356 11172 11194
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.Sys.getenv "sys.mli" 58 2794 2794 "sys.mli" 58 2794 2848
+)
+"params.ml" 356 11172 11195 "params.ml" 356 11172 11210
+type(
+  string
+)
+"params.ml" 356 11172 11184 "params.ml" 356 11172 11210
+type(
+  string
+)
+"params.ml" 357 11216 11222 "params.ml" 357 11216 11227
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 357 11216 11230 "params.ml" 357 11216 11236
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 357 11216 11222 "params.ml" 357 11216 11236
+type(
+  string
+)
+"params.ml" 357 11216 11240 "params.ml" 357 11216 11250
+type(
+  bool ref
+)
+ident(
+  int_ref ob_flatten "params.ml" 354 11137 11141 "params.ml" 354 11137 11151
+)
+"params.ml" 357 11216 11251 "params.ml" 357 11216 11253
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"params.ml" 357 11216 11254 "params.ml" 357 11216 11258
+type(
+  bool
+)
+"params.ml" 357 11216 11240 "params.ml" 357 11216 11258
+type(
+  unit
+)
+"params.ml" 358 11259 11265 "params.ml" 358 11259 11266
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 358 11259 11270 "params.ml" 358 11259 11280
+type(
+  bool ref
+)
+ident(
+  int_ref ob_flatten "params.ml" 354 11137 11141 "params.ml" 354 11137 11151
+)
+"params.ml" 358 11259 11281 "params.ml" 358 11259 11283
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"params.ml" 358 11259 11284 "params.ml" 358 11259 11289
+type(
+  bool
+)
+"params.ml" 358 11259 11270 "params.ml" 358 11259 11289
+type(
+  unit
+)
+"params.ml" 356 11172 11178 "params.ml" 358 11259 11289
+type(
+  unit
+)
+"params.ml" 359 11290 11297 "params.ml" 359 11290 11306
+type(
+  exn
+)
+"params.ml" 359 11290 11310 "params.ml" 359 11290 11312
+type(
+  unit
+)
+"params.ml" 356 11172 11174 "params.ml" 359 11290 11312
+type(
+  unit
+)
+"params.ml" 361 11314 11318 "params.ml" 361 11314 11327
+type(
+  bool ref
+)
+ident(
+  def pr_normal "params.ml" 362 11339 11339 "params.ml" 0 0 -1
+)
+"params.ml" 361 11314 11330 "params.ml" 361 11314 11333
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 361 11314 11334 "params.ml" 361 11314 11338
+type(
+  bool
+)
+"params.ml" 361 11314 11330 "params.ml" 361 11314 11338
+type(
+  bool ref
+)
+"params.ml" 362 11339 11343 "params.ml" 362 11339 11345
+type(
+  unit
+)
+"params.ml" 363 11348 11360 "params.ml" 363 11348 11370
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.Sys.getenv "sys.mli" 58 2794 2794 "sys.mli" 58 2794 2848
+)
+"params.ml" 363 11348 11371 "params.ml" 363 11348 11388
+type(
+  string
+)
+"params.ml" 363 11348 11360 "params.ml" 363 11348 11388
+type(
+  string
+)
+"params.ml" 364 11394 11400 "params.ml" 364 11394 11405
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 364 11394 11408 "params.ml" 364 11394 11414
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 364 11394 11400 "params.ml" 364 11394 11414
+type(
+  string
+)
+"params.ml" 364 11394 11418 "params.ml" 364 11394 11427
+type(
+  bool ref
+)
+ident(
+  int_ref pr_normal "params.ml" 361 11314 11318 "params.ml" 361 11314 11327
+)
+"params.ml" 364 11394 11428 "params.ml" 364 11394 11430
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"params.ml" 364 11394 11431 "params.ml" 364 11394 11435
+type(
+  bool
+)
+"params.ml" 364 11394 11418 "params.ml" 364 11394 11435
+type(
+  unit
+)
+"params.ml" 365 11436 11442 "params.ml" 365 11436 11443
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 365 11436 11447 "params.ml" 365 11436 11456
+type(
+  bool ref
+)
+ident(
+  int_ref pr_normal "params.ml" 361 11314 11318 "params.ml" 361 11314 11327
+)
+"params.ml" 365 11436 11457 "params.ml" 365 11436 11459
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"params.ml" 365 11436 11460 "params.ml" 365 11436 11465
+type(
+  bool
+)
+"params.ml" 365 11436 11447 "params.ml" 365 11436 11465
+type(
+  unit
+)
+"params.ml" 363 11348 11354 "params.ml" 365 11436 11465
+type(
+  unit
+)
+"params.ml" 366 11466 11473 "params.ml" 366 11466 11482
+type(
+  exn
+)
+"params.ml" 366 11466 11486 "params.ml" 366 11466 11488
+type(
+  unit
+)
+"params.ml" 363 11348 11350 "params.ml" 366 11466 11488
+type(
+  unit
+)
+"params.ml" 368 11490 11494 "params.ml" 368 11490 11498
+type(
+  bool ref
+)
+ident(
+  def notl "params.ml" 369 11515 11515 "params.ml" 0 0 -1
+)
+"params.ml" 368 11490 11505 "params.ml" 368 11490 11508
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 368 11490 11509 "params.ml" 368 11490 11514
+type(
+  bool
+)
+"params.ml" 368 11490 11505 "params.ml" 368 11490 11514
+type(
+  bool ref
+)
+"params.ml" 369 11515 11519 "params.ml" 369 11515 11523
+type(
+  bool ref
+)
+ident(
+  def xtla "params.ml" 370 11540 11540 "params.ml" 0 0 -1
+)
+"params.ml" 369 11515 11530 "params.ml" 369 11515 11533
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 369 11515 11534 "params.ml" 369 11515 11539
+type(
+  bool
+)
+"params.ml" 369 11515 11530 "params.ml" 369 11515 11539
+type(
+  bool ref
+)
+"params.ml" 370 11540 11544 "params.ml" 370 11540 11552
+type(
+  bool ref
+)
+ident(
+  def use_xtla "params.ml" 371 11565 11565 "params.ml" 0 0 -1
+)
+"params.ml" 370 11540 11555 "params.ml" 370 11540 11558
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 370 11540 11559 "params.ml" 370 11540 11564
+type(
+  bool
+)
+"params.ml" 370 11540 11555 "params.ml" 370 11540 11564
+type(
+  bool ref
+)
+"params.ml" 371 11565 11569 "params.ml" 371 11565 11571
+type(
+  unit
+)
+"params.ml" 372 11574 11586 "params.ml" 372 11574 11596
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.Sys.getenv "sys.mli" 58 2794 2794 "sys.mli" 58 2794 2848
+)
+"params.ml" 372 11574 11597 "params.ml" 372 11574 11610
+type(
+  string
+)
+"params.ml" 372 11574 11586 "params.ml" 372 11574 11610
+type(
+  string
+)
+"params.ml" 373 11616 11622 "params.ml" 373 11616 11627
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 374 11631 11639 "params.ml" 374 11631 11643
+type(
+  bool ref
+)
+ident(
+  int_ref xtla "params.ml" 369 11515 11519 "params.ml" 369 11515 11523
+)
+"params.ml" 374 11631 11644 "params.ml" 374 11631 11646
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"params.ml" 374 11631 11647 "params.ml" 374 11631 11651
+type(
+  bool
+)
+"params.ml" 374 11631 11639 "params.ml" 374 11631 11651
+type(
+  unit
+)
+"params.ml" 375 11654 11662 "params.ml" 375 11654 11670
+type(
+  bool ref
+)
+ident(
+  int_ref use_xtla "params.ml" 370 11540 11544 "params.ml" 370 11540 11552
+)
+"params.ml" 375 11654 11671 "params.ml" 375 11654 11673
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"params.ml" 375 11654 11674 "params.ml" 375 11654 11679
+type(
+  bool
+)
+"params.ml" 375 11654 11662 "params.ml" 375 11654 11679
+type(
+  unit
+)
+"params.ml" 374 11631 11639 "params.ml" 375 11654 11679
+type(
+  unit
+)
+"params.ml" 376 11680 11686 "params.ml" 376 11680 11691
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 377 11695 11704 "params.ml" 377 11695 11708
+type(
+  bool ref
+)
+ident(
+  int_ref xtla "params.ml" 369 11515 11519 "params.ml" 369 11515 11523
+)
+"params.ml" 377 11695 11709 "params.ml" 377 11695 11711
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"params.ml" 377 11695 11712 "params.ml" 377 11695 11716
+type(
+  bool
+)
+"params.ml" 377 11695 11704 "params.ml" 377 11695 11716
+type(
+  unit
+)
+"params.ml" 378 11719 11727 "params.ml" 378 11719 11735
+type(
+  bool ref
+)
+ident(
+  int_ref use_xtla "params.ml" 370 11540 11544 "params.ml" 370 11540 11552
+)
+"params.ml" 378 11719 11735 "params.ml" 378 11719 11737
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"params.ml" 378 11719 11738 "params.ml" 378 11719 11742
+type(
+  bool
+)
+"params.ml" 378 11719 11727 "params.ml" 378 11719 11742
+type(
+  unit
+)
+"params.ml" 377 11695 11704 "params.ml" 378 11719 11742
+type(
+  unit
+)
+"params.ml" 379 11743 11749 "params.ml" 379 11743 11750
+type(
+  string
+)
+type(
+  string
+)
+"params.ml" 380 11754 11762 "params.ml" 380 11754 11766
+type(
+  bool ref
+)
+ident(
+  int_ref xtla "params.ml" 369 11515 11519 "params.ml" 369 11515 11523
+)
+"params.ml" 380 11754 11767 "params.ml" 380 11754 11769
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"params.ml" 380 11754 11770 "params.ml" 380 11754 11775
+type(
+  bool
+)
+"params.ml" 380 11754 11762 "params.ml" 380 11754 11775
+type(
+  unit
+)
+"params.ml" 381 11778 11786 "params.ml" 381 11778 11794
+type(
+  bool ref
+)
+ident(
+  int_ref use_xtla "params.ml" 370 11540 11544 "params.ml" 370 11540 11552
+)
+"params.ml" 381 11778 11795 "params.ml" 381 11778 11797
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"params.ml" 381 11778 11798 "params.ml" 381 11778 11803
+type(
+  bool
+)
+"params.ml" 381 11778 11786 "params.ml" 381 11778 11803
+type(
+  unit
+)
+"params.ml" 380 11754 11762 "params.ml" 381 11778 11803
+type(
+  unit
+)
+"params.ml" 372 11574 11580 "params.ml" 381 11778 11803
+type(
+  unit
+)
+"params.ml" 382 11804 11811 "params.ml" 382 11804 11820
+type(
+  exn
+)
+"params.ml" 382 11804 11824 "params.ml" 382 11804 11826
+type(
+  unit
+)
+"params.ml" 372 11574 11576 "params.ml" 382 11804 11826
+type(
+  unit
+)
+"params.ml" 392 12039 12043 "params.ml" 392 12039 12051
+type(
+  string ref
+)
+ident(
+  def cachedir "params.ml" 393 12061 12061 "params.ml" 0 0 -1
+)
+"params.ml" 392 12039 12054 "params.ml" 392 12039 12057
+type(
+  string -> string ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 392 12039 12058 "params.ml" 392 12039 12060
+type(
+  string
+)
+"params.ml" 392 12039 12054 "params.ml" 392 12039 12060
+type(
+  string ref
+)
+"params.ml" 393 12061 12065 "params.ml" 393 12061 12067
+type(
+  unit
+)
+"params.ml" 395 12078 12086 "params.ml" 395 12078 12094
+type(
+  string ref
+)
+ident(
+  int_ref cachedir "params.ml" 392 12039 12043 "params.ml" 392 12039 12051
+)
+"params.ml" 395 12078 12095 "params.ml" 395 12078 12097
+type(
+  string ref -> string -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"params.ml" 395 12078 12098 "params.ml" 395 12078 12108
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.Sys.getenv "sys.mli" 58 2794 2794 "sys.mli" 58 2794 2848
+)
+"params.ml" 395 12078 12109 "params.ml" 395 12078 12126
+type(
+  string
+)
+"params.ml" 395 12078 12098 "params.ml" 395 12078 12126
+type(
+  string
+)
+"params.ml" 395 12078 12086 "params.ml" 395 12078 12126
+type(
+  unit
+)
+"params.ml" 396 12128 12137 "params.ml" 396 12128 12146
+type(
+  exn
+)
+"params.ml" 397 12150 12158 "params.ml" 397 12150 12166
+type(
+  string ref
+)
+ident(
+  int_ref cachedir "params.ml" 392 12039 12043 "params.ml" 392 12039 12051
+)
+"params.ml" 397 12150 12167 "params.ml" 397 12150 12169
+type(
+  string ref -> string -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"params.ml" 397 12150 12170 "params.ml" 397 12150 12181
+type(
+  string
+)
+"params.ml" 397 12150 12158 "params.ml" 397 12150 12181
+type(
+  unit
+)
+"params.ml" 394 12070 12074 "params.ml" 397 12150 12181
+type(
+  unit
+)
+"params.ml" 398 12182 12186 "params.ml" 398 12182 12205
+type(
+  string -> unit
+)
+ident(
+  def set_tlapm_cache_dir "params.ml" 401 12230 12230 "params.ml" 0 0 -1
+)
+"params.ml" 398 12182 12206 "params.ml" 398 12182 12209
+type(
+  string
+)
+ident(
+  def dir "params.ml" 398 12182 12212 "params.ml" 398 12182 12227
+)
+"params.ml" 398 12182 12212 "params.ml" 398 12182 12220
+type(
+  string ref
+)
+ident(
+  int_ref cachedir "params.ml" 392 12039 12043 "params.ml" 392 12039 12051
+)
+"params.ml" 398 12182 12221 "params.ml" 398 12182 12223
+type(
+  string ref -> string -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"params.ml" 398 12182 12224 "params.ml" 398 12182 12227
+type(
+  string
+)
+ident(
+  int_ref dir "params.ml" 398 12182 12206 "params.ml" 398 12182 12209
+)
+"params.ml" 398 12182 12212 "params.ml" 398 12182 12227
+type(
+  unit
+)
+"params.ml" 401 12230 12234 "params.ml" 401 12230 12244
+type(
+  bool ref
+)
+ident(
+  def keep_going "params.ml" 402 12259 12259 "params.ml" 0 0 -1
+)
+"params.ml" 401 12230 12249 "params.ml" 401 12230 12252
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 401 12230 12253 "params.ml" 401 12230 12258
+type(
+  bool
+)
+"params.ml" 401 12230 12249 "params.ml" 401 12230 12258
+type(
+  bool ref
+)
+"params.ml" 402 12259 12263 "params.ml" 402 12259 12275
+type(
+  bool ref
+)
+ident(
+  def suppress_all "params.ml" 403 12288 12288 "params.ml" 0 0 -1
+)
+"params.ml" 402 12259 12278 "params.ml" 402 12259 12281
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 402 12259 12282 "params.ml" 402 12259 12287
+type(
+  bool
+)
+"params.ml" 402 12259 12278 "params.ml" 402 12259 12287
+type(
+  bool ref
+)
+"params.ml" 403 12288 12292 "params.ml" 403 12288 12297
+type(
+  bool ref
+)
+ident(
+  def check "params.ml" 404 12317 12317 "params.ml" 0 0 -1
+)
+"params.ml" 403 12288 12307 "params.ml" 403 12288 12310
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 403 12288 12311 "params.ml" 403 12288 12316
+type(
+  bool
+)
+"params.ml" 403 12288 12307 "params.ml" 403 12288 12316
+type(
+  bool ref
+)
+"params.ml" 404 12317 12321 "params.ml" 404 12317 12328
+type(
+  bool ref
+)
+ident(
+  def summary "params.ml" 405 12346 12346 "params.ml" 0 0 -1
+)
+"params.ml" 404 12317 12336 "params.ml" 404 12317 12339
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 404 12317 12340 "params.ml" 404 12317 12345
+type(
+  bool
+)
+"params.ml" 404 12317 12336 "params.ml" 404 12317 12345
+type(
+  bool ref
+)
+"params.ml" 405 12346 12350 "params.ml" 405 12346 12355
+type(
+  bool ref
+)
+ident(
+  def stats "params.ml" 407 12376 12376 "params.ml" 0 0 -1
+)
+"params.ml" 405 12346 12365 "params.ml" 405 12346 12368
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 405 12346 12369 "params.ml" 405 12346 12374
+type(
+  bool
+)
+"params.ml" 405 12346 12365 "params.ml" 405 12346 12374
+type(
+  bool ref
+)
+"params.ml" 407 12376 12380 "params.ml" 407 12376 12389
+type(
+  executable ref -> string -> string
+)
+ident(
+  def solve_cmd "params.ml" 414 12576 12576 "params.ml" 0 0 -1
+)
+"params.ml" 407 12376 12390 "params.ml" 407 12376 12393
+type(
+  executable ref
+)
+ident(
+  def cmd "params.ml" 407 12376 12394 "params.ml" 411 12528 12573
+)
+"params.ml" 407 12376 12394 "params.ml" 407 12376 12398
+type(
+  string
+)
+ident(
+  def file "params.ml" 408 12401 12403 "params.ml" 411 12528 12573
+)
+"params.ml" 408 12401 12406 "params.ml" 408 12401 12417
+type(
+  string
+)
+ident(
+  int_ref Stdlib.Sys.os_type "sys.mli" 126 5510 5510 "sys.mli" 126 5510 5530
+)
+"params.ml" 408 12401 12418 "params.ml" 408 12401 12419
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"params.ml" 408 12401 12420 "params.ml" 408 12401 12428
+type(
+  string
+)
+"params.ml" 408 12401 12406 "params.ml" 408 12401 12428
+type(
+  bool
+)
+"params.ml" 409 12434 12438 "params.ml" 409 12434 12445
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"params.ml" 409 12434 12446 "params.ml" 409 12434 12495
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"params.ml" 409 12434 12496 "params.ml" 409 12434 12500
+type(
+  string
+)
+ident(
+  int_ref file "params.ml" 407 12376 12394 "params.ml" 407 12376 12398
+)
+"params.ml" 409 12434 12501 "params.ml" 409 12434 12505
+type(
+  string
+)
+ident(
+  int_ref file "params.ml" 407 12376 12394 "params.ml" 407 12376 12398
+)
+"params.ml" 409 12434 12507 "params.ml" 409 12434 12515
+type(
+  executable ref -> string
+)
+ident(
+  int_ref get_exec "params.ml" 78 2188 2192 "params.ml" 78 2188 2200
+)
+"params.ml" 409 12434 12516 "params.ml" 409 12434 12519
+type(
+  executable ref
+)
+ident(
+  int_ref cmd "params.ml" 407 12376 12390 "params.ml" 407 12376 12393
+)
+"params.ml" 409 12434 12506 "params.ml" 409 12434 12520
+type(
+  string
+)
+"params.ml" 409 12434 12438 "params.ml" 409 12434 12520
+type(
+  string
+)
+"params.ml" 411 12528 12532 "params.ml" 411 12528 12539
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"params.ml" 411 12528 12540 "params.ml" 411 12528 12553
+type(
+  (string -> string -> string, unit, string) format
+)
+"params.ml" 411 12528 12554 "params.ml" 411 12528 12558
+type(
+  string
+)
+ident(
+  int_ref file "params.ml" 407 12376 12394 "params.ml" 407 12376 12398
+)
+"params.ml" 411 12528 12560 "params.ml" 411 12528 12568
+type(
+  executable ref -> string
+)
+ident(
+  int_ref get_exec "params.ml" 78 2188 2192 "params.ml" 78 2188 2200
+)
+"params.ml" 411 12528 12569 "params.ml" 411 12528 12572
+type(
+  executable ref
+)
+ident(
+  int_ref cmd "params.ml" 407 12376 12390 "params.ml" 407 12376 12393
+)
+"params.ml" 411 12528 12559 "params.ml" 411 12528 12573
+type(
+  string
+)
+"params.ml" 411 12528 12532 "params.ml" 411 12528 12573
+type(
+  string
+)
+"params.ml" 408 12401 12403 "params.ml" 411 12528 12573
+type(
+  string
+)
+"params.ml" 414 12576 12580 "params.ml" 414 12576 12600
+type(
+  bool -> string * executable ref -> string list
+)
+ident(
+  def external_tool_config "params.ml" 429 12934 12934 "params.ml" 0 0 -1
+)
+"params.ml" 414 12576 12601 "params.ml" 414 12576 12606
+type(
+  bool
+)
+ident(
+  def force "params.ml" 414 12576 12607 "params.ml" 426 12920 12931
+)
+"params.ml" 414 12576 12608 "params.ml" 414 12576 12612
+type(
+  string
+)
+ident(
+  def name "params.ml" 415 12622 12624 "params.ml" 426 12920 12931
+)
+"params.ml" 414 12576 12614 "params.ml" 414 12576 12618
+type(
+  executable ref
+)
+ident(
+  def tool "params.ml" 415 12622 12624 "params.ml" 426 12920 12931
+)
+"params.ml" 414 12576 12607 "params.ml" 414 12576 12619
+type(
+  string * executable ref
+)
+"params.ml" 415 12622 12627 "params.ml" 415 12622 12632
+type(
+  bool
+)
+ident(
+  int_ref force "params.ml" 414 12576 12601 "params.ml" 414 12576 12606
+)
+"params.ml" 416 12644 12652 "params.ml" 416 12644 12658
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.ignore "stdlib.mli" 723 27015 27015 "stdlib.mli" 723 27015 27055
+)
+"params.ml" 416 12644 12660 "params.ml" 416 12644 12668
+type(
+  executable ref -> string
+)
+ident(
+  int_ref get_exec "params.ml" 78 2188 2192 "params.ml" 78 2188 2200
+)
+"params.ml" 416 12644 12669 "params.ml" 416 12644 12673
+type(
+  executable ref
+)
+ident(
+  int_ref tool "params.ml" 414 12576 12614 "params.ml" 414 12576 12618
+)
+"params.ml" 416 12644 12659 "params.ml" 416 12644 12674
+type(
+  string
+)
+"params.ml" 416 12644 12652 "params.ml" 416 12644 12674
+type(
+  unit
+)
+"params.ml" 416 12644 12688 "params.ml" 416 12644 12689
+type(
+  string
+)
+"params.ml" 416 12644 12680 "params.ml" 416 12644 12689
+type(
+  exn
+)
+"params.ml" 416 12644 12693 "params.ml" 416 12644 12695
+type(
+  unit
+)
+"params.ml" 415 12622 12638 "params.ml" 417 12696 12701
+type(
+  unit
+)
+"params.ml" 415 12622 12624 "params.ml" 417 12696 12701
+type(
+  unit
+)
+"params.ml" 418 12703 12711 "params.ml" 418 12703 12712
+type(
+  executable ref -> executable
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"params.ml" 418 12703 12712 "params.ml" 418 12703 12716
+type(
+  executable ref
+)
+ident(
+  int_ref tool "params.ml" 414 12576 12614 "params.ml" 414 12576 12618
+)
+"params.ml" 418 12703 12711 "params.ml" 418 12703 12716
+type(
+  executable
+)
+"params.ml" 419 12722 12735 "params.ml" 419 12722 12738
+type(
+  string
+)
+ident(
+  def cmd "params.ml" 420 12747 12753 "params.ml" 420 12747 12782
+)
+"params.ml" 419 12722 12740 "params.ml" 419 12722 12742
+type(
+  string list
+)
+"params.ml" 419 12722 12726 "params.ml" 419 12722 12743
+type(
+  executable
+)
+type(
+  executable
+)
+"params.ml" 420 12747 12754 "params.ml" 420 12747 12761
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"params.ml" 420 12747 12762 "params.ml" 420 12747 12772
+type(
+  (string -> string -> string, unit, string) format
+)
+"params.ml" 420 12747 12773 "params.ml" 420 12747 12777
+type(
+  string
+)
+ident(
+  int_ref name "params.ml" 414 12576 12608 "params.ml" 414 12576 12612
+)
+"params.ml" 420 12747 12778 "params.ml" 420 12747 12781
+type(
+  string
+)
+ident(
+  int_ref cmd "params.ml" 419 12722 12735 "params.ml" 419 12722 12738
+)
+"params.ml" 420 12747 12754 "params.ml" 420 12747 12781
+type(
+  string
+)
+"params.ml" 420 12747 12753 "params.ml" 420 12747 12782
+type(
+  string list
+)
+"params.ml" 421 12783 12796 "params.ml" 421 12783 12799
+type(
+  string
+)
+ident(
+  def cmd "params.ml" 422 12810 12816 "params.ml" 423 12846 12887
+)
+"params.ml" 421 12783 12801 "params.ml" 421 12783 12802
+type(
+  string
+)
+ident(
+  def v "params.ml" 422 12810 12816 "params.ml" 423 12846 12887
+)
+"params.ml" 421 12783 12804 "params.ml" 421 12783 12805
+type(
+  string list
+)
+"params.ml" 421 12783 12801 "params.ml" 421 12783 12805
+type(
+  string list
+)
+"params.ml" 421 12783 12787 "params.ml" 421 12783 12806
+type(
+  executable
+)
+type(
+  executable
+)
+"params.ml" 422 12810 12817 "params.ml" 422 12810 12824
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"params.ml" 422 12810 12825 "params.ml" 422 12810 12835
+type(
+  (string -> string -> string, unit, string) format
+)
+"params.ml" 422 12810 12836 "params.ml" 422 12810 12840
+type(
+  string
+)
+ident(
+  int_ref name "params.ml" 414 12576 12608 "params.ml" 414 12576 12612
+)
+"params.ml" 422 12810 12841 "params.ml" 422 12810 12844
+type(
+  string
+)
+ident(
+  int_ref cmd "params.ml" 421 12783 12796 "params.ml" 421 12783 12799
+)
+"params.ml" 422 12810 12817 "params.ml" 422 12810 12844
+type(
+  string
+)
+"params.ml" 423 12846 12853 "params.ml" 423 12846 12860
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"params.ml" 423 12846 12861 "params.ml" 423 12846 12879
+type(
+  (string -> string -> string, unit, string) format
+)
+"params.ml" 423 12846 12880 "params.ml" 423 12846 12884
+type(
+  string
+)
+ident(
+  int_ref name "params.ml" 414 12576 12608 "params.ml" 414 12576 12612
+)
+"params.ml" 423 12846 12885 "params.ml" 423 12846 12886
+type(
+  string
+)
+ident(
+  int_ref v "params.ml" 421 12783 12801 "params.ml" 421 12783 12802
+)
+"params.ml" 423 12846 12853 "params.ml" 423 12846 12886
+type(
+  string
+)
+"params.ml" 422 12810 12816 "params.ml" 423 12846 12887
+type(
+  string list
+)
+"params.ml" 424 12888 12901 "params.ml" 424 12888 12904
+type(
+  string
+)
+ident(
+  def msg "params.ml" 425 12908 12914 "params.ml" 425 12908 12919
+)
+"params.ml" 424 12888 12892 "params.ml" 424 12888 12904
+type(
+  executable
+)
+type(
+  executable
+)
+"params.ml" 425 12908 12915 "params.ml" 425 12908 12918
+type(
+  string
+)
+ident(
+  int_ref msg "params.ml" 424 12888 12901 "params.ml" 424 12888 12904
+)
+"params.ml" 425 12908 12914 "params.ml" 425 12908 12919
+type(
+  string list
+)
+"params.ml" 426 12920 12924 "params.ml" 426 12920 12925
+type(
+  executable
+)
+type(
+  executable
+)
+"params.ml" 426 12920 12929 "params.ml" 426 12920 12931
+type(
+  string list
+)
+"params.ml" 418 12703 12705 "params.ml" 426 12920 12931
+type(
+  string list
+)
+"params.ml" 415 12622 12624 "params.ml" 426 12920 12931
+type(
+  string list
+)
+"params.ml" 429 12934 12938 "params.ml" 429 12934 12951
+type(
+  bool -> bool -> string list
+)
+ident(
+  def configuration "params.ml" 472 14739 14739 "params.ml" 0 0 -1
+)
+"params.ml" 429 12934 12952 "params.ml" 429 12934 12959
+type(
+  bool
+)
+ident(
+  def toolbox "params.ml" 429 12934 12960 "params.ml" 469 14711 14736
+)
+"params.ml" 429 12934 12960 "params.ml" 429 12934 12965
+type(
+  bool
+)
+ident(
+  def force "params.ml" 430 12968 12970 "params.ml" 469 14711 14736
+)
+"params.ml" 430 12968 12974 "params.ml" 430 12968 12979
+type(
+  string list
+)
+ident(
+  def lines "params.ml" 464 14517 14519 "params.ml" 469 14711 14736
+)
+"params.ml" 431 12982 12988 "params.ml" 431 12982 13003
+type(
+  string
+)
+"params.ml" 431 12982 13004 "params.ml" 431 12982 13005
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"params.ml" 431 12982 13006 "params.ml" 431 12982 13016
+type(
+  unit -> string
+)
+ident(
+  int_ref rawversion "params.ml" 14 264 268 "params.ml" 14 264 278
+)
+"params.ml" 431 12982 13017 "params.ml" 431 12982 13019
+type(
+  unit
+)
+"params.ml" 431 12982 13006 "params.ml" 431 12982 13019
+type(
+  string
+)
+"params.ml" 431 12982 13020 "params.ml" 431 12982 13021
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"params.ml" 431 12982 13022 "params.ml" 431 12982 13026
+type(
+  string
+)
+"params.ml" 431 12982 13006 "params.ml" 431 12982 13026
+type(
+  string
+)
+"params.ml" 431 12982 12988 "params.ml" 431 12982 13026
+type(
+  string
+)
+"params.ml" 432 13027 13033 "params.ml" 432 13027 13057
+type(
+  string
+)
+"params.ml" 432 13027 13058 "params.ml" 432 13027 13059
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"params.ml" 432 13027 13060 "params.ml" 432 13027 13080
+type(
+  string
+)
+ident(
+  int_ref Config.ocaml_version "config.mli" 2 58 58 "config.mli" 2 58 83
+)
+"params.ml" 432 13027 13081 "params.ml" 432 13027 13082
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"params.ml" 432 13027 13083 "params.ml" 432 13027 13087
+type(
+  string
+)
+"params.ml" 432 13027 13060 "params.ml" 432 13027 13087
+type(
+  string
+)
+"params.ml" 432 13027 13033 "params.ml" 432 13027 13087
+type(
+  string
+)
+"params.ml" 433 13088 13094 "params.ml" 433 13088 13118
+type(
+  string
+)
+"params.ml" 433 13088 13119 "params.ml" 433 13088 13120
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"params.ml" 433 13088 13121 "params.ml" 433 13088 13140
+type(
+  string
+)
+ident(
+  int_ref Stdlib.Sys.executable_name "sys.mli" 29 1489 1489 "sys.mli" 29 1489 1517
+)
+"params.ml" 433 13088 13141 "params.ml" 433 13088 13142
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"params.ml" 433 13088 13143 "params.ml" 433 13088 13147
+type(
+  string
+)
+"params.ml" 433 13088 13121 "params.ml" 433 13088 13147
+type(
+  string
+)
+"params.ml" 433 13088 13094 "params.ml" 433 13088 13147
+type(
+  string
+)
+"params.ml" 434 13148 13154 "params.ml" 434 13148 13171
+type(
+  string
+)
+"params.ml" 434 13148 13172 "params.ml" 434 13148 13173
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"params.ml" 434 13148 13174 "params.ml" 434 13148 13187
+type(
+  int -> string
+)
+ident(
+  int_ref Stdlib.string_of_int "stdlib.mli" 750 27897 27897 "stdlib.mli" 750 27897 27930
+)
+"params.ml" 434 13148 13188 "params.ml" 434 13148 13189
+type(
+  int ref -> int
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"params.ml" 434 13148 13189 "params.ml" 434 13148 13200
+type(
+  int ref
+)
+ident(
+  int_ref max_threads "params.ml" 253 7913 7917 "params.ml" 253 7913 7928
+)
+"params.ml" 434 13148 13188 "params.ml" 434 13148 13200
+type(
+  int
+)
+"params.ml" 434 13148 13174 "params.ml" 434 13148 13200
+type(
+  string
+)
+"params.ml" 434 13148 13154 "params.ml" 434 13148 13200
+type(
+  string
+)
+"params.ml" 435 13201 13207 "params.ml" 435 13201 13227
+type(
+  string
+)
+"params.ml" 435 13201 13228 "params.ml" 435 13201 13229
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"params.ml" 435 13201 13230 "params.ml" 435 13201 13244
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.String.escaped "string.mli" 251 9023 9023 "string.mli" 251 9023 9053
+)
+"params.ml" 435 13201 13245 "params.ml" 435 13201 13257
+type(
+  string
+)
+ident(
+  int_ref library_path "params.ml" 55 1497 1501 "params.ml" 55 1497 1513
+)
+"params.ml" 435 13201 13230 "params.ml" 435 13201 13257
+type(
+  string
+)
+"params.ml" 435 13201 13258 "params.ml" 435 13201 13259
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"params.ml" 435 13201 13260 "params.ml" 435 13201 13264
+type(
+  string
+)
+"params.ml" 435 13201 13230 "params.ml" 435 13201 13264
+type(
+  string
+)
+"params.ml" 435 13201 13207 "params.ml" 435 13201 13264
+type(
+  string
+)
+"params.ml" 431 12982 12986 "params.ml" 435 13201 13266
+type(
+  string list
+)
+"params.ml" 436 13267 13271 "params.ml" 436 13267 13272
+type(
+  string list -> string list -> string list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"params.ml" 436 13267 13285 "params.ml" 436 13267 13286
+type(
+  string list ref -> string list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"params.ml" 436 13267 13286 "params.ml" 436 13267 13301
+type(
+  string list ref
+)
+ident(
+  int_ref rev_search_path "params.ml" 255 7943 7947 "params.ml" 255 7943 7962
+)
+"params.ml" 436 13267 13285 "params.ml" 436 13267 13301
+type(
+  string list
+)
+"params.ml" 437 13307 13315 "params.ml" 437 13307 13317
+type(
+  string list
+)
+type(
+  string list
+)
+"params.ml" 437 13307 13322 "params.ml" 437 13307 13344
+type(
+  string
+)
+"params.ml" 437 13307 13321 "params.ml" 437 13307 13345
+type(
+  string list
+)
+"params.ml" 438 13346 13355 "params.ml" 438 13346 13356
+type(
+  string
+)
+ident(
+  def p "params.ml" 438 13346 13361 "params.ml" 438 13346 13399
+)
+"params.ml" 438 13346 13354 "params.ml" 438 13346 13357
+type(
+  string list
+)
+type(
+  string list
+)
+"params.ml" 438 13346 13362 "params.ml" 438 13346 13384
+type(
+  string
+)
+"params.ml" 438 13346 13385 "params.ml" 438 13346 13386
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"params.ml" 438 13346 13387 "params.ml" 438 13346 13388
+type(
+  string
+)
+ident(
+  int_ref p "params.ml" 438 13346 13355 "params.ml" 438 13346 13356
+)
+"params.ml" 438 13346 13389 "params.ml" 438 13346 13390
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"params.ml" 438 13346 13391 "params.ml" 438 13346 13398
+type(
+  string
+)
+"params.ml" 438 13346 13387 "params.ml" 438 13346 13398
+type(
+  string
+)
+"params.ml" 438 13346 13362 "params.ml" 438 13346 13398
+type(
+  string
+)
+"params.ml" 438 13346 13361 "params.ml" 438 13346 13399
+type(
+  string list
+)
+"params.ml" 439 13400 13408 "params.ml" 439 13400 13412
+type(
+  string
+)
+ident(
+  def last "params.ml" 439 13400 13422 "params.ml" 447 13778 13789
+)
+"params.ml" 439 13400 13416 "params.ml" 439 13400 13418
+type(
+  string list
+)
+ident(
+  def sp "params.ml" 439 13400 13422 "params.ml" 447 13778 13789
+)
+"params.ml" 439 13400 13408 "params.ml" 439 13400 13418
+type(
+  string list
+)
+type(
+  string list
+)
+"params.ml" 440 13428 13442 "params.ml" 440 13428 13444
+type(
+  string list
+)
+ident(
+  def sp "params.ml" 441 13462 13472 "params.ml" 446 13730 13777
+)
+"params.ml" 440 13428 13447 "params.ml" 440 13428 13455
+type(
+  string list -> string list
+)
+ident(
+  int_ref Ext.List.rev "ext.mli" 11 220 222 "ext.mli" 11 220 250
+)
+"params.ml" 440 13428 13456 "params.ml" 440 13428 13458
+type(
+  string list
+)
+ident(
+  int_ref sp "params.ml" 439 13400 13416 "params.ml" 439 13400 13418
+)
+"params.ml" 440 13428 13447 "params.ml" 440 13428 13458
+type(
+  string list
+)
+"params.ml" 441 13462 13476 "params.ml" 441 13462 13486
+type(
+  string
+)
+ident(
+  def first_line "params.ml" 442 13535 13545 "params.ml" 446 13730 13777
+)
+"params.ml" 441 13462 13489 "params.ml" 441 13462 13511
+type(
+  string
+)
+"params.ml" 441 13462 13512 "params.ml" 441 13462 13513
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"params.ml" 441 13462 13514 "params.ml" 441 13462 13521
+type(
+  string list -> string
+)
+ident(
+  int_ref Ext.List.hd "ext.mli" 8 132 134 "ext.mli" 8 132 156
+)
+"params.ml" 441 13462 13522 "params.ml" 441 13462 13524
+type(
+  string list
+)
+ident(
+  int_ref sp "params.ml" 440 13428 13442 "params.ml" 440 13428 13444
+)
+"params.ml" 441 13462 13514 "params.ml" 441 13462 13524
+type(
+  string
+)
+"params.ml" 441 13462 13525 "params.ml" 441 13462 13526
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"params.ml" 441 13462 13527 "params.ml" 441 13462 13531
+type(
+  string
+)
+"params.ml" 441 13462 13514 "params.ml" 441 13462 13531
+type(
+  string
+)
+"params.ml" 441 13462 13489 "params.ml" 441 13462 13531
+type(
+  string
+)
+"params.ml" 442 13535 13549 "params.ml" 442 13535 13558
+type(
+  string list
+)
+ident(
+  def mid_lines "params.ml" 445 13661 13671 "params.ml" 446 13730 13777
+)
+"params.ml" 442 13535 13561 "params.ml" 442 13535 13569
+type(
+  (string -> string) -> string list -> string list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"params.ml" 443 13576 13592 "params.ml" 443 13576 13593
+type(
+  string
+)
+ident(
+  def l "params.ml" 443 13576 13597 "params.ml" 443 13576 13630
+)
+"params.ml" 443 13576 13597 "params.ml" 443 13576 13619
+type(
+  string
+)
+"params.ml" 443 13576 13620 "params.ml" 443 13576 13621
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"params.ml" 443 13576 13622 "params.ml" 443 13576 13623
+type(
+  string
+)
+ident(
+  int_ref l "params.ml" 443 13576 13592 "params.ml" 443 13576 13593
+)
+"params.ml" 443 13576 13624 "params.ml" 443 13576 13625
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"params.ml" 443 13576 13626 "params.ml" 443 13576 13630
+type(
+  string
+)
+"params.ml" 443 13576 13622 "params.ml" 443 13576 13630
+type(
+  string
+)
+"params.ml" 443 13576 13597 "params.ml" 443 13576 13630
+type(
+  string
+)
+"params.ml" 442 13535 13570 "params.ml" 444 13631 13644
+type(
+  string -> string
+)
+"params.ml" 444 13631 13646 "params.ml" 444 13631 13653
+type(
+  string list -> string list
+)
+ident(
+  int_ref Ext.List.tl "ext.mli" 9 157 159 "ext.mli" 9 157 186
+)
+"params.ml" 444 13631 13654 "params.ml" 444 13631 13656
+type(
+  string list
+)
+ident(
+  int_ref sp "params.ml" 440 13428 13442 "params.ml" 440 13428 13444
+)
+"params.ml" 444 13631 13645 "params.ml" 444 13631 13657
+type(
+  string list
+)
+"params.ml" 442 13535 13561 "params.ml" 444 13631 13657
+type(
+  string list
+)
+"params.ml" 445 13661 13675 "params.ml" 445 13661 13684
+type(
+  string
+)
+ident(
+  def last_line "params.ml" 446 13730 13740 "params.ml" 446 13730 13777
+)
+"params.ml" 445 13661 13687 "params.ml" 445 13661 13709
+type(
+  string
+)
+"params.ml" 445 13661 13710 "params.ml" 445 13661 13711
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"params.ml" 445 13661 13712 "params.ml" 445 13661 13716
+type(
+  string
+)
+ident(
+  int_ref last "params.ml" 439 13400 13408 "params.ml" 439 13400 13412
+)
+"params.ml" 445 13661 13717 "params.ml" 445 13661 13718
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"params.ml" 445 13661 13719 "params.ml" 445 13661 13726
+type(
+  string
+)
+"params.ml" 445 13661 13712 "params.ml" 445 13661 13726
+type(
+  string
+)
+"params.ml" 445 13661 13687 "params.ml" 445 13661 13726
+type(
+  string
+)
+"params.ml" 446 13730 13740 "params.ml" 446 13730 13750
+type(
+  string
+)
+ident(
+  int_ref first_line "params.ml" 441 13462 13476 "params.ml" 441 13462 13486
+)
+"params.ml" 446 13730 13754 "params.ml" 446 13730 13763
+type(
+  string list
+)
+ident(
+  int_ref mid_lines "params.ml" 442 13535 13549 "params.ml" 442 13535 13558
+)
+"params.ml" 446 13730 13740 "params.ml" 446 13730 13763
+type(
+  string list
+)
+"params.ml" 446 13730 13764 "params.ml" 446 13730 13765
+type(
+  string list -> string list -> string list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"params.ml" 446 13730 13767 "params.ml" 446 13730 13776
+type(
+  string
+)
+ident(
+  int_ref last_line "params.ml" 445 13661 13675 "params.ml" 445 13661 13684
+)
+"params.ml" 446 13730 13766 "params.ml" 446 13730 13777
+type(
+  string list
+)
+"params.ml" 446 13730 13740 "params.ml" 446 13730 13777
+type(
+  string list
+)
+"params.ml" 445 13661 13671 "params.ml" 446 13730 13777
+type(
+  string list
+)
+"params.ml" 442 13535 13545 "params.ml" 446 13730 13777
+type(
+  string list
+)
+"params.ml" 441 13462 13472 "params.ml" 446 13730 13777
+type(
+  string list
+)
+"params.ml" 439 13400 13422 "params.ml" 447 13778 13789
+type(
+  string list
+)
+"params.ml" 436 13267 13273 "params.ml" 448 13790 13799
+type(
+  string list
+)
+"params.ml" 449 13800 13804 "params.ml" 449 13800 13805
+type(
+  string list -> string list -> string list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"params.ml" 449 13800 13806 "params.ml" 449 13800 13818
+type(
+  string list list -> string list
+)
+ident(
+  int_ref Ext.List.flatten "ext.mli" 15 384 386 "ext.mli" 15 384 423
+)
+"params.ml" 449 13800 13820 "params.ml" 449 13800 13828
+type(
+  (string * executable ref -> string list) ->
+  (string * executable ref) list -> string list list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"params.ml" 449 13800 13830 "params.ml" 449 13800 13850
+type(
+  bool -> string * executable ref -> string list
+)
+ident(
+  int_ref external_tool_config "params.ml" 414 12576 12580 "params.ml" 414 12576 12600
+)
+"params.ml" 449 13800 13851 "params.ml" 449 13800 13856
+type(
+  bool
+)
+ident(
+  int_ref force "params.ml" 429 12934 12960 "params.ml" 429 12934 12965
+)
+"params.ml" 449 13800 13829 "params.ml" 449 13800 13857
+type(
+  string * executable ref -> string list
+)
+"params.ml" 450 13858 13889 "params.ml" 450 13858 13899
+type(
+  string
+)
+"params.ml" 450 13858 13901 "params.ml" 450 13858 13909
+type(
+  executable ref
+)
+ident(
+  int_ref isabelle "params.ml" 128 3676 3680 "params.ml" 128 3676 3688
+)
+"params.ml" 450 13858 13888 "params.ml" 450 13858 13910
+type(
+  string * executable ref
+)
+"params.ml" 451 13912 13943 "params.ml" 451 13912 13950
+type(
+  string
+)
+"params.ml" 451 13912 13952 "params.ml" 451 13912 13957
+type(
+  executable ref
+)
+ident(
+  int_ref zenon "params.ml" 168 5113 5117 "params.ml" 168 5113 5122
+)
+"params.ml" 451 13912 13942 "params.ml" 451 13912 13958
+type(
+  string * executable ref
+)
+"params.ml" 452 13960 13991 "params.ml" 452 13960 13997
+type(
+  string
+)
+"params.ml" 452 13960 13999 "params.ml" 452 13960 14003
+type(
+  executable ref
+)
+ident(
+  int_ref cvc4 "params.ml" 172 5207 5211 "params.ml" 172 5207 5215
+)
+"params.ml" 452 13960 13990 "params.ml" 452 13960 14004
+type(
+  string * executable ref
+)
+"params.ml" 453 14006 14037 "params.ml" 453 14006 14044
+type(
+  string
+)
+"params.ml" 453 14006 14046 "params.ml" 453 14006 14051
+type(
+  executable ref
+)
+ident(
+  int_ref yices "params.ml" 179 5397 5401 "params.ml" 179 5397 5406
+)
+"params.ml" 453 14006 14036 "params.ml" 453 14006 14052
+type(
+  string * executable ref
+)
+"params.ml" 454 14054 14085 "params.ml" 454 14054 14089
+type(
+  string
+)
+"params.ml" 454 14054 14091 "params.ml" 454 14054 14093
+type(
+  executable ref
+)
+ident(
+  int_ref z3 "params.ml" 180 5467 5471 "params.ml" 180 5467 5473
+)
+"params.ml" 454 14054 14084 "params.ml" 454 14054 14094
+type(
+  string * executable ref
+)
+"params.ml" 455 14096 14127 "params.ml" 455 14096 14134
+type(
+  string
+)
+"params.ml" 455 14096 14136 "params.ml" 455 14096 14141
+type(
+  executable ref
+)
+ident(
+  int_ref metit "params.ml" 192 6060 6064 "params.ml" 192 6060 6069
+)
+"params.ml" 455 14096 14126 "params.ml" 455 14096 14142
+type(
+  string * executable ref
+)
+"params.ml" 456 14144 14175 "params.ml" 456 14144 14182
+type(
+  string
+)
+"params.ml" 456 14144 14184 "params.ml" 456 14144 14189
+type(
+  executable ref
+)
+ident(
+  int_ref verit "params.ml" 204 6590 6594 "params.ml" 204 6590 6599
+)
+"params.ml" 456 14144 14174 "params.ml" 456 14144 14190
+type(
+  string * executable ref
+)
+"params.ml" 457 14192 14223 "params.ml" 457 14192 14228
+type(
+  string
+)
+"params.ml" 457 14192 14230 "params.ml" 457 14192 14233
+type(
+  executable ref
+)
+ident(
+  int_ref smt "params.ml" 241 7539 7543 "params.ml" 241 7539 7546
+)
+"params.ml" 457 14192 14222 "params.ml" 457 14192 14234
+type(
+  string * executable ref
+)
+"params.ml" 458 14236 14267 "params.ml" 458 14236 14274
+type(
+  string
+)
+"params.ml" 458 14236 14276 "params.ml" 458 14236 14286
+type(
+  executable ref
+)
+ident(
+  int_ref spass_tptp "params.ml" 215 6914 6918 "params.ml" 215 6914 6928
+)
+"params.ml" 458 14236 14266 "params.ml" 458 14236 14287
+type(
+  string * executable ref
+)
+"params.ml" 459 14289 14320 "params.ml" 459 14289 14325
+type(
+  string
+)
+"params.ml" 459 14289 14327 "params.ml" 459 14289 14330
+type(
+  executable ref
+)
+ident(
+  int_ref ls4 "params.ml" 227 7190 7194 "params.ml" 227 7190 7197
+)
+"params.ml" 459 14289 14319 "params.ml" 459 14289 14331
+type(
+  string * executable ref
+)
+"params.ml" 450 13858 13887 "params.ml" 460 14333 14363
+type(
+  (string * executable ref) list
+)
+"params.ml" 449 13800 13819 "params.ml" 460 14333 14364
+type(
+  string list list
+)
+"params.ml" 449 13800 13806 "params.ml" 460 14333 14364
+type(
+  string list
+)
+"params.ml" 461 14365 14369 "params.ml" 461 14365 14370
+type(
+  string list -> string list -> string list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"params.ml" 461 14365 14373 "params.ml" 461 14365 14398
+type(
+  string
+)
+"params.ml" 461 14365 14399 "params.ml" 461 14365 14400
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"params.ml" 461 14365 14405 "params.ml" 461 14365 14406
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"params.ml" 461 14365 14406 "params.ml" 461 14365 14416
+type(
+  bool ref
+)
+ident(
+  int_ref ob_flatten "params.ml" 354 11137 11141 "params.ml" 354 11137 11151
+)
+"params.ml" 461 14365 14405 "params.ml" 461 14365 14416
+type(
+  bool
+)
+"params.ml" 461 14365 14422 "params.ml" 461 14365 14428
+type(
+  string
+)
+"params.ml" 461 14365 14434 "params.ml" 461 14365 14441
+type(
+  string
+)
+"params.ml" 461 14365 14401 "params.ml" 461 14365 14442
+type(
+  string
+)
+"params.ml" 461 14365 14373 "params.ml" 461 14365 14442
+type(
+  string
+)
+"params.ml" 462 14443 14451 "params.ml" 462 14443 14466
+type(
+  string
+)
+"params.ml" 462 14443 14467 "params.ml" 462 14443 14468
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"params.ml" 462 14443 14473 "params.ml" 462 14443 14474
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"params.ml" 462 14443 14474 "params.ml" 462 14443 14483
+type(
+  bool ref
+)
+ident(
+  int_ref pr_normal "params.ml" 361 11314 11318 "params.ml" 361 11314 11327
+)
+"params.ml" 462 14443 14473 "params.ml" 462 14443 14483
+type(
+  bool
+)
+"params.ml" 462 14443 14489 "params.ml" 462 14443 14495
+type(
+  string
+)
+"params.ml" 462 14443 14501 "params.ml" 462 14443 14508
+type(
+  string
+)
+"params.ml" 462 14443 14469 "params.ml" 462 14443 14509
+type(
+  string
+)
+"params.ml" 462 14443 14451 "params.ml" 462 14443 14509
+type(
+  string
+)
+"params.ml" 461 14365 14371 "params.ml" 462 14443 14511
+type(
+  string list
+)
+"params.ml" 449 13800 13806 "params.ml" 462 14443 14511
+type(
+  string list
+)
+"params.ml" 436 13267 13273 "params.ml" 462 14443 14511
+type(
+  string list
+)
+"params.ml" 431 12982 12986 "params.ml" 462 14443 14511
+type(
+  string list
+)
+"params.ml" 464 14517 14524 "params.ml" 464 14517 14530
+type(
+  string list
+)
+ident(
+  def header "params.ml" 469 14711 14713 "params.ml" 469 14711 14736
+)
+"params.ml" 464 14517 14532 "params.ml" 464 14517 14538
+type(
+  string list
+)
+ident(
+  def footer "params.ml" 469 14711 14713 "params.ml" 469 14711 14736
+)
+"params.ml" 464 14517 14523 "params.ml" 464 14517 14539
+type(
+  string list * string list
+)
+"params.ml" 465 14542 14549 "params.ml" 465 14542 14556
+type(
+  bool
+)
+ident(
+  int_ref toolbox "params.ml" 429 12934 12952 "params.ml" 429 12934 12959
+)
+"params.ml" 465 14542 14563 "params.ml" 465 14542 14565
+type(
+  string list
+)
+"params.ml" 465 14542 14567 "params.ml" 465 14542 14569
+type(
+  string list
+)
+"params.ml" 465 14542 14562 "params.ml" 465 14542 14570
+type(
+  string list * string list
+)
+"params.ml" 466 14576 14586 "params.ml" 466 14576 14587
+type(
+  string
+)
+ident(
+  def h "params.ml" 467 14657 14663 "params.ml" 467 14657 14705
+)
+"params.ml" 466 14576 14590 "params.ml" 466 14576 14653
+type(
+  string
+)
+"params.ml" 467 14657 14665 "params.ml" 467 14657 14666
+type(
+  string
+)
+ident(
+  int_ref h "params.ml" 466 14576 14586 "params.ml" 466 14576 14587
+)
+"params.ml" 467 14657 14664 "params.ml" 467 14657 14667
+type(
+  string list
+)
+"params.ml" 467 14657 14670 "params.ml" 467 14657 14681
+type(
+  int -> char -> string
+)
+ident(
+  int_ref Stdlib.String.make "string.mli" 85 3764 3764 "string.mli" 85 3764 3796
+)
+"params.ml" 467 14657 14683 "params.ml" 467 14657 14696
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 118 4569 4569 "string.mli" 118 4569 4619
+)
+"params.ml" 467 14657 14697 "params.ml" 467 14657 14698
+type(
+  string
+)
+ident(
+  int_ref h "params.ml" 466 14576 14586 "params.ml" 466 14576 14587
+)
+"params.ml" 467 14657 14682 "params.ml" 467 14657 14699
+type(
+  int
+)
+"params.ml" 467 14657 14700 "params.ml" 467 14657 14703
+type(
+  char
+)
+"params.ml" 467 14657 14670 "params.ml" 467 14657 14703
+type(
+  string
+)
+"params.ml" 467 14657 14669 "params.ml" 467 14657 14704
+type(
+  string list
+)
+"params.ml" 467 14657 14663 "params.ml" 467 14657 14705
+type(
+  string list * string list
+)
+"params.ml" 466 14576 14582 "params.ml" 467 14657 14705
+type(
+  string list * string list
+)
+"params.ml" 465 14542 14546 "params.ml" 467 14657 14705
+type(
+  string list * string list
+)
+"params.ml" 469 14711 14713 "params.ml" 469 14711 14719
+type(
+  string list
+)
+ident(
+  int_ref header "params.ml" 464 14517 14524 "params.ml" 464 14517 14530
+)
+"params.ml" 469 14711 14720 "params.ml" 469 14711 14721
+type(
+  string list -> string list -> string list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"params.ml" 469 14711 14722 "params.ml" 469 14711 14727
+type(
+  string list
+)
+ident(
+  int_ref lines "params.ml" 430 12968 12974 "params.ml" 430 12968 12979
+)
+"params.ml" 469 14711 14728 "params.ml" 469 14711 14729
+type(
+  string list -> string list -> string list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"params.ml" 469 14711 14730 "params.ml" 469 14711 14736
+type(
+  string list
+)
+ident(
+  int_ref footer "params.ml" 464 14517 14532 "params.ml" 464 14517 14538
+)
+"params.ml" 469 14711 14722 "params.ml" 469 14711 14736
+type(
+  string list
+)
+"params.ml" 469 14711 14713 "params.ml" 469 14711 14736
+type(
+  string list
+)
+"params.ml" 464 14517 14519 "params.ml" 469 14711 14736
+type(
+  string list
+)
+"params.ml" 430 12968 12970 "params.ml" 469 14711 14736
+type(
+  string list
+)
+"params.ml" 472 14739 14743 "params.ml" 472 14739 14754
+type(
+  bool -> string
+)
+ident(
+  def printconfig "params.ml" 475 14813 14813 "params.ml" 0 0 -1
+)
+"params.ml" 472 14739 14755 "params.ml" 472 14739 14760
+type(
+  bool
+)
+ident(
+  def force "params.ml" 473 14763 14765 "params.ml" 473 14763 14811
+)
+"params.ml" 473 14763 14765 "params.ml" 473 14763 14778
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref Stdlib.String.concat "string.mli" 132 5016 5016 "string.mli" 132 5016 5060
+)
+"params.ml" 473 14763 14779 "params.ml" 473 14763 14783
+type(
+  string
+)
+"params.ml" 473 14763 14785 "params.ml" 473 14763 14798
+type(
+  bool -> bool -> string list
+)
+ident(
+  int_ref configuration "params.ml" 429 12934 12938 "params.ml" 429 12934 12951
+)
+"params.ml" 473 14763 14799 "params.ml" 473 14763 14804
+type(
+  bool
+)
+"params.ml" 473 14763 14805 "params.ml" 473 14763 14810
+type(
+  bool
+)
+ident(
+  int_ref force "params.ml" 472 14739 14755 "params.ml" 472 14739 14760
+)
+"params.ml" 473 14763 14784 "params.ml" 473 14763 14811
+type(
+  string list
+)
+"params.ml" 473 14763 14765 "params.ml" 473 14763 14811
+type(
+  string
+)
+"params.ml" 475 14813 14817 "params.ml" 475 14813 14837
+type(
+  bool -> string
+)
+ident(
+  def print_config_toolbox "params.ml" 479 14896 14896 "params.ml" 0 0 -1
+)
+"params.ml" 475 14813 14838 "params.ml" 475 14813 14843
+type(
+  bool
+)
+ident(
+  def force "params.ml" 476 14846 14848 "params.ml" 476 14846 14893
+)
+"params.ml" 476 14846 14848 "params.ml" 476 14846 14861
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref Stdlib.String.concat "string.mli" 132 5016 5016 "string.mli" 132 5016 5060
+)
+"params.ml" 476 14846 14862 "params.ml" 476 14846 14866
+type(
+  string
+)
+"params.ml" 476 14846 14868 "params.ml" 476 14846 14881
+type(
+  bool -> bool -> string list
+)
+ident(
+  int_ref configuration "params.ml" 429 12934 12938 "params.ml" 429 12934 12951
+)
+"params.ml" 476 14846 14882 "params.ml" 476 14846 14886
+type(
+  bool
+)
+"params.ml" 476 14846 14887 "params.ml" 476 14846 14892
+type(
+  bool
+)
+ident(
+  int_ref force "params.ml" 475 14813 14838 "params.ml" 475 14813 14843
+)
+"params.ml" 476 14846 14867 "params.ml" 476 14846 14893
+type(
+  string list
+)
+"params.ml" 476 14846 14848 "params.ml" 476 14846 14893
+type(
+  string
+)
+"params.ml" 479 14896 14900 "params.ml" 479 14896 14913
+type(
+  (string * int * int) option ref
+)
+ident(
+  def zenon_version "params.ml" 481 14926 14926 "params.ml" 0 0 -1
+)
+"params.ml" 479 14896 14916 "params.ml" 479 14896 14919
+type(
+  (string * int * int) option -> (string * int * int) option ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 479 14896 14920 "params.ml" 479 14896 14924
+type(
+  (string * int * int) option
+)
+"params.ml" 479 14896 14916 "params.ml" 479 14896 14924
+type(
+  (string * int * int) option ref
+)
+"params.ml" 481 14926 14930 "params.ml" 481 14926 14945
+type(
+  unit -> unit
+)
+ident(
+  def check_zenon_ver "params.ml" 492 15242 15242 "params.ml" 0 0 -1
+)
+"params.ml" 481 14926 14946 "params.ml" 481 14926 14948
+type(
+  unit
+)
+"params.ml" 482 14951 14957 "params.ml" 482 14951 14960
+type(
+  string
+)
+ident(
+  def zen "params.ml" 483 14981 14983 "params.ml" 489 15160 15239
+)
+"params.ml" 482 14951 14963 "params.ml" 482 14951 14971
+type(
+  executable ref -> string
+)
+ident(
+  int_ref get_exec "params.ml" 78 2188 2192 "params.ml" 78 2188 2200
+)
+"params.ml" 482 14951 14972 "params.ml" 482 14951 14977
+type(
+  executable ref
+)
+ident(
+  int_ref zenon "params.ml" 168 5113 5117 "params.ml" 168 5113 5122
+)
+"params.ml" 482 14951 14963 "params.ml" 482 14951 14977
+type(
+  string
+)
+"params.ml" 483 14981 14989 "params.ml" 483 14981 15000
+type(
+  executable ref -> string list
+)
+ident(
+  int_ref get_version "params.ml" 118 3472 3476 "params.ml" 118 3472 3487
+)
+"params.ml" 483 14981 15001 "params.ml" 483 14981 15006
+type(
+  executable ref
+)
+ident(
+  int_ref zenon "params.ml" 168 5113 5117 "params.ml" 168 5113 5122
+)
+"params.ml" 483 14981 14989 "params.ml" 483 14981 15006
+type(
+  string list
+)
+"params.ml" 484 15012 15016 "params.ml" 484 15012 15018
+type(
+  string list
+)
+type(
+  string list
+)
+"params.ml" 484 15012 15022 "params.ml" 484 15012 15024
+type(
+  unit
+)
+"params.ml" 485 15025 15029 "params.ml" 485 15025 15032
+type(
+  string
+)
+ident(
+  def ret "params.ml" 486 15041 15046 "params.ml" 489 15160 15239
+)
+"params.ml" 485 15025 15036 "params.ml" 485 15025 15037
+type(
+  string list
+)
+"params.ml" 485 15025 15029 "params.ml" 485 15025 15037
+type(
+  string list
+)
+type(
+  string list
+)
+"params.ml" 486 15041 15046 "params.ml" 486 15041 15058
+type(
+  string ->
+  (int -> int -> int -> char -> int -> int -> int -> int -> unit, '_weak2,
+   (int -> int -> int -> char -> int -> int -> int -> int -> unit) -> unit,
+   unit)
+  Scanf.scanner
+)
+ident(
+  int_ref Stdlib.Scanf.sscanf "scanf.mli" 469 21807 21807 "scanf.mli" 469 21807 21854
+)
+"params.ml" 486 15041 15059 "params.ml" 486 15041 15062
+type(
+  string
+)
+ident(
+  int_ref ret "params.ml" 485 15025 15029 "params.ml" 485 15025 15032
+)
+"params.ml" 487 15063 15070 "params.ml" 487 15063 15115
+type(
+  (int -> int -> int -> char -> int -> int -> int -> int -> unit,
+   Scanf.Scanning.in_channel, '_weak2,
+   (int -> int -> int -> char -> int -> int -> int -> int -> unit) -> unit,
+   (int -> int -> int -> char -> int -> int -> int -> int -> unit) -> unit,
+   unit)
+  format6
+)
+"params.ml" 488 15116 15128 "params.ml" 488 15116 15129
+type(
+  int
+)
+"params.ml" 488 15116 15130 "params.ml" 488 15116 15131
+type(
+  int
+)
+"params.ml" 488 15116 15132 "params.ml" 488 15116 15133
+type(
+  int
+)
+"params.ml" 488 15116 15134 "params.ml" 488 15116 15135
+type(
+  char
+)
+"params.ml" 488 15116 15136 "params.ml" 488 15116 15140
+type(
+  int
+)
+ident(
+  def znum "params.ml" 488 15116 15141 "params.ml" 489 15160 15238
+)
+"params.ml" 488 15116 15141 "params.ml" 488 15116 15145
+type(
+  int
+)
+ident(
+  def year "params.ml" 488 15116 15146 "params.ml" 489 15160 15238
+)
+"params.ml" 488 15116 15146 "params.ml" 488 15116 15151
+type(
+  int
+)
+ident(
+  def month "params.ml" 488 15116 15152 "params.ml" 489 15160 15238
+)
+"params.ml" 488 15116 15152 "params.ml" 488 15116 15156
+type(
+  int
+)
+ident(
+  def date "params.ml" 489 15160 15170 "params.ml" 489 15160 15238
+)
+"params.ml" 489 15160 15170 "params.ml" 489 15160 15183
+type(
+  (string * int * int) option ref
+)
+ident(
+  int_ref zenon_version "params.ml" 479 14896 14900 "params.ml" 479 14896 14913
+)
+"params.ml" 489 15160 15184 "params.ml" 489 15160 15186
+type(
+  (string * int * int) option ref -> (string * int * int) option -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"params.ml" 489 15160 15193 "params.ml" 489 15160 15196
+type(
+  string
+)
+ident(
+  int_ref zen "params.ml" 482 14951 14957 "params.ml" 482 14951 14960
+)
+"params.ml" 489 15160 15198 "params.ml" 489 15160 15202
+type(
+  int
+)
+ident(
+  int_ref znum "params.ml" 488 15116 15136 "params.ml" 488 15116 15140
+)
+"params.ml" 489 15160 15204 "params.ml" 489 15160 15208
+type(
+  int
+)
+ident(
+  int_ref year "params.ml" 488 15116 15141 "params.ml" 488 15116 15145
+)
+"params.ml" 489 15160 15209 "params.ml" 489 15160 15210
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( * ) "stdlib.mli" 357 13929 13929 "stdlib.mli" 357 13929 13975
+)
+"params.ml" 489 15160 15211 "params.ml" 489 15160 15216
+type(
+  int
+)
+"params.ml" 489 15160 15204 "params.ml" 489 15160 15216
+type(
+  int
+)
+"params.ml" 489 15160 15217 "params.ml" 489 15160 15218
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"params.ml" 489 15160 15219 "params.ml" 489 15160 15224
+type(
+  int
+)
+ident(
+  int_ref month "params.ml" 488 15116 15146 "params.ml" 488 15116 15151
+)
+"params.ml" 489 15160 15225 "params.ml" 489 15160 15226
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( * ) "stdlib.mli" 357 13929 13929 "stdlib.mli" 357 13929 13975
+)
+"params.ml" 489 15160 15227 "params.ml" 489 15160 15230
+type(
+  int
+)
+"params.ml" 489 15160 15219 "params.ml" 489 15160 15230
+type(
+  int
+)
+"params.ml" 489 15160 15204 "params.ml" 489 15160 15230
+type(
+  int
+)
+"params.ml" 489 15160 15231 "params.ml" 489 15160 15232
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"params.ml" 489 15160 15233 "params.ml" 489 15160 15237
+type(
+  int
+)
+ident(
+  int_ref date "params.ml" 488 15116 15152 "params.ml" 488 15116 15156
+)
+"params.ml" 489 15160 15204 "params.ml" 489 15160 15237
+type(
+  int
+)
+"params.ml" 489 15160 15192 "params.ml" 489 15160 15238
+type(
+  string * int * int
+)
+"params.ml" 489 15160 15187 "params.ml" 489 15160 15238
+type(
+  (string * int * int) option
+)
+"params.ml" 489 15160 15170 "params.ml" 489 15160 15238
+type(
+  unit
+)
+"params.ml" 488 15116 15123 "params.ml" 489 15160 15239
+type(
+  int -> int -> int -> char -> int -> int -> int -> int -> unit
+)
+"params.ml" 486 15041 15046 "params.ml" 489 15160 15239
+type(
+  unit
+)
+"params.ml" 483 14981 14983 "params.ml" 489 15160 15239
+type(
+  unit
+)
+"params.ml" 482 14951 14953 "params.ml" 489 15160 15239
+type(
+  unit
+)
+"params.ml" 492 15242 15246 "params.ml" 492 15242 15261
+type(
+  unit -> string
+)
+ident(
+  def get_zenon_verfp "params.ml" 495 15409 15409 "params.ml" 0 0 -1
+)
+"params.ml" 492 15242 15262 "params.ml" 492 15242 15264
+type(
+  unit
+)
+"params.ml" 492 15242 15270 "params.ml" 492 15242 15271
+type(
+  (string * int * int) option ref -> (string * int * int) option
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"params.ml" 492 15242 15271 "params.ml" 492 15242 15284
+type(
+  (string * int * int) option ref
+)
+ident(
+  int_ref zenon_version "params.ml" 479 14896 14900 "params.ml" 479 14896 14913
+)
+"params.ml" 492 15242 15270 "params.ml" 492 15242 15284
+type(
+  (string * int * int) option
+)
+"params.ml" 492 15242 15285 "params.ml" 492 15242 15286
+type(
+  (string * int * int) option -> (string * int * int) option -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"params.ml" 492 15242 15287 "params.ml" 492 15242 15291
+type(
+  (string * int * int) option
+)
+"params.ml" 492 15242 15270 "params.ml" 492 15242 15291
+type(
+  bool
+)
+"params.ml" 492 15242 15297 "params.ml" 492 15242 15312
+type(
+  unit -> unit
+)
+ident(
+  int_ref check_zenon_ver "params.ml" 481 14926 14930 "params.ml" 481 14926 14945
+)
+"params.ml" 492 15242 15313 "params.ml" 492 15242 15315
+type(
+  unit
+)
+"params.ml" 492 15242 15297 "params.ml" 492 15242 15315
+type(
+  unit
+)
+"params.ml" 492 15242 15267 "params.ml" 492 15242 15315
+type(
+  unit
+)
+"params.ml" 493 15317 15319 "params.ml" 493 15317 15336
+type(
+  string
+)
+"params.ml" 493 15317 15336 "params.ml" 493 15317 15337
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"params.ml" 493 15317 15338 "params.ml" 493 15317 15351
+type(
+  int -> string
+)
+ident(
+  int_ref Stdlib.string_of_int "stdlib.mli" 750 27897 27897 "stdlib.mli" 750 27897 27930
+)
+"params.ml" 493 15317 15357 "params.ml" 493 15317 15358
+type(
+  string
+)
+"params.ml" 493 15317 15359 "params.ml" 493 15317 15363
+type(
+  int
+)
+ident(
+  def znum "params.ml" 493 15317 15397 "params.ml" 493 15317 15401
+)
+"params.ml" 493 15317 15364 "params.ml" 493 15317 15365
+type(
+  int
+)
+"params.ml" 493 15317 15357 "params.ml" 493 15317 15365
+type(
+  string * int * int
+)
+"params.ml" 493 15317 15368 "params.ml" 493 15317 15378
+type(
+  (string * int * int) option -> string * int * int
+)
+ident(
+  int_ref Ext.Option.get "ext.mli" 60 2628 2630 "ext.mli" 60 2628 2655
+)
+"params.ml" 493 15317 15379 "params.ml" 493 15317 15380
+type(
+  (string * int * int) option ref -> (string * int * int) option
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"params.ml" 493 15317 15380 "params.ml" 493 15317 15393
+type(
+  (string * int * int) option ref
+)
+ident(
+  int_ref zenon_version "params.ml" 479 14896 14900 "params.ml" 479 14896 14913
+)
+"params.ml" 493 15317 15379 "params.ml" 493 15317 15393
+type(
+  (string * int * int) option
+)
+"params.ml" 493 15317 15368 "params.ml" 493 15317 15393
+type(
+  string * int * int
+)
+"params.ml" 493 15317 15397 "params.ml" 493 15317 15401
+type(
+  int
+)
+ident(
+  int_ref znum "params.ml" 493 15317 15359 "params.ml" 493 15317 15363
+)
+"params.ml" 493 15317 15352 "params.ml" 493 15317 15402
+type(
+  int
+)
+"params.ml" 493 15317 15337 "params.ml" 493 15317 15403
+type(
+  string
+)
+"params.ml" 493 15317 15403 "params.ml" 493 15317 15404
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"params.ml" 493 15317 15404 "params.ml" 493 15317 15407
+type(
+  string
+)
+"params.ml" 493 15317 15337 "params.ml" 493 15317 15407
+type(
+  string
+)
+"params.ml" 493 15317 15319 "params.ml" 493 15317 15407
+type(
+  string
+)
+"params.ml" 492 15242 15267 "params.ml" 493 15317 15407
+type(
+  string
+)
+"params.ml" 495 15409 15413 "params.ml" 495 15409 15429
+type(
+  string option ref
+)
+ident(
+  def isabelle_version "params.ml" 497 15442 15442 "params.ml" 0 0 -1
+)
+"params.ml" 495 15409 15432 "params.ml" 495 15409 15435
+type(
+  string option -> string option ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 495 15409 15436 "params.ml" 495 15409 15440
+type(
+  string option
+)
+"params.ml" 495 15409 15432 "params.ml" 495 15409 15440
+type(
+  string option ref
+)
+"params.ml" 497 15442 15446 "params.ml" 497 15442 15464
+type(
+  unit -> unit
+)
+ident(
+  def check_isabelle_ver "params.ml" 504 15651 15651 "params.ml" 0 0 -1
+)
+"params.ml" 497 15442 15465 "params.ml" 497 15442 15467
+type(
+  unit
+)
+"params.ml" 498 15470 15477 "params.ml" 498 15470 15483
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.ignore "stdlib.mli" 723 27015 27015 "stdlib.mli" 723 27015 27055
+)
+"params.ml" 498 15470 15485 "params.ml" 498 15470 15493
+type(
+  executable ref -> string
+)
+ident(
+  int_ref get_exec "params.ml" 78 2188 2192 "params.ml" 78 2188 2200
+)
+"params.ml" 498 15470 15494 "params.ml" 498 15470 15502
+type(
+  executable ref
+)
+ident(
+  int_ref isabelle "params.ml" 128 3676 3680 "params.ml" 128 3676 3688
+)
+"params.ml" 498 15470 15484 "params.ml" 498 15470 15503
+type(
+  string
+)
+"params.ml" 498 15470 15477 "params.ml" 498 15470 15503
+type(
+  unit
+)
+"params.ml" 498 15470 15517 "params.ml" 498 15470 15518
+type(
+  string
+)
+"params.ml" 498 15470 15509 "params.ml" 498 15470 15518
+type(
+  exn
+)
+"params.ml" 498 15470 15522 "params.ml" 498 15470 15524
+type(
+  unit
+)
+"params.ml" 498 15470 15472 "params.ml" 498 15470 15525
+type(
+  unit
+)
+"params.ml" 499 15527 15535 "params.ml" 499 15527 15546
+type(
+  executable ref -> string list
+)
+ident(
+  int_ref get_version "params.ml" 118 3472 3476 "params.ml" 118 3472 3487
+)
+"params.ml" 499 15527 15547 "params.ml" 499 15527 15555
+type(
+  executable ref
+)
+ident(
+  int_ref isabelle "params.ml" 128 3676 3680 "params.ml" 128 3676 3688
+)
+"params.ml" 499 15527 15535 "params.ml" 499 15527 15555
+type(
+  string list
+)
+"params.ml" 500 15561 15565 "params.ml" 500 15561 15567
+type(
+  string list
+)
+type(
+  string list
+)
+"params.ml" 500 15561 15571 "params.ml" 500 15561 15573
+type(
+  unit
+)
+"params.ml" 501 15574 15578 "params.ml" 501 15574 15581
+type(
+  string
+)
+ident(
+  def ret "params.ml" 502 15590 15595 "params.ml" 502 15590 15649
+)
+"params.ml" 501 15574 15585 "params.ml" 501 15574 15586
+type(
+  string list
+)
+"params.ml" 501 15574 15578 "params.ml" 501 15574 15586
+type(
+  string list
+)
+type(
+  string list
+)
+"params.ml" 502 15590 15595 "params.ml" 502 15590 15611
+type(
+  string option ref
+)
+ident(
+  int_ref isabelle_version "params.ml" 495 15409 15413 "params.ml" 495 15409 15429
+)
+"params.ml" 502 15590 15612 "params.ml" 502 15590 15614
+type(
+  string option ref -> string option -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"params.ml" 502 15590 15621 "params.ml" 502 15590 15628
+type(
+  string list -> string
+)
+ident(
+  int_ref Ext.List.hd "ext.mli" 8 132 134 "ext.mli" 8 132 156
+)
+"params.ml" 502 15590 15630 "params.ml" 502 15590 15639
+type(
+  string -> char -> string list
+)
+ident(
+  int_ref Ext.split "ext.mli" 82 3316 3316 "ext.mli" 82 3316 3357
+)
+"params.ml" 502 15590 15640 "params.ml" 502 15590 15643
+type(
+  string
+)
+ident(
+  int_ref ret "params.ml" 501 15574 15578 "params.ml" 501 15574 15581
+)
+"params.ml" 502 15590 15644 "params.ml" 502 15590 15647
+type(
+  char
+)
+"params.ml" 502 15590 15629 "params.ml" 502 15590 15648
+type(
+  string list
+)
+"params.ml" 502 15590 15620 "params.ml" 502 15590 15649
+type(
+  string
+)
+"params.ml" 502 15590 15615 "params.ml" 502 15590 15649
+type(
+  string option
+)
+"params.ml" 502 15590 15595 "params.ml" 502 15590 15649
+type(
+  unit
+)
+"params.ml" 499 15527 15529 "params.ml" 502 15590 15649
+type(
+  unit
+)
+"params.ml" 498 15470 15472 "params.ml" 502 15590 15649
+type(
+  unit
+)
+"params.ml" 504 15651 15655 "params.ml" 504 15651 15675
+type(
+  unit -> string
+)
+ident(
+  def get_isabelle_version "params.ml" 511 15812 15812 "params.ml" 0 0 -1
+)
+"params.ml" 504 15651 15676 "params.ml" 504 15651 15678
+type(
+  unit
+)
+"params.ml" 505 15681 15686 "params.ml" 505 15681 15687
+type(
+  string option ref -> string option
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"params.ml" 505 15681 15687 "params.ml" 505 15681 15703
+type(
+  string option ref
+)
+ident(
+  int_ref isabelle_version "params.ml" 495 15409 15413 "params.ml" 495 15409 15429
+)
+"params.ml" 505 15681 15686 "params.ml" 505 15681 15703
+type(
+  string option
+)
+"params.ml" 505 15681 15704 "params.ml" 505 15681 15705
+type(
+  string option -> string option -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"params.ml" 505 15681 15706 "params.ml" 505 15681 15710
+type(
+  string option
+)
+"params.ml" 505 15681 15686 "params.ml" 505 15681 15710
+type(
+  bool
+)
+"params.ml" 505 15681 15716 "params.ml" 505 15681 15734
+type(
+  unit -> unit
+)
+ident(
+  int_ref check_isabelle_ver "params.ml" 497 15442 15446 "params.ml" 497 15442 15464
+)
+"params.ml" 505 15681 15735 "params.ml" 505 15681 15737
+type(
+  unit
+)
+"params.ml" 505 15681 15716 "params.ml" 505 15681 15737
+type(
+  unit
+)
+"params.ml" 505 15681 15683 "params.ml" 505 15681 15737
+type(
+  unit
+)
+"params.ml" 506 15739 15747 "params.ml" 506 15739 15748
+type(
+  string option ref -> string option
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"params.ml" 506 15739 15748 "params.ml" 506 15739 15764
+type(
+  string option ref
+)
+ident(
+  int_ref isabelle_version "params.ml" 495 15409 15413 "params.ml" 495 15409 15429
+)
+"params.ml" 506 15739 15747 "params.ml" 506 15739 15764
+type(
+  string option
+)
+"params.ml" 507 15770 15774 "params.ml" 507 15770 15778
+type(
+  string option
+)
+type(
+  string option
+)
+"params.ml" 507 15770 15782 "params.ml" 507 15770 15793
+type(
+  string
+)
+"params.ml" 508 15794 15803 "params.ml" 508 15794 15804
+type(
+  string
+)
+ident(
+  def s "params.ml" 508 15794 15808 "params.ml" 508 15794 15809
+)
+"params.ml" 508 15794 15798 "params.ml" 508 15794 15804
+type(
+  string option
+)
+type(
+  string option
+)
+"params.ml" 508 15794 15808 "params.ml" 508 15794 15809
+type(
+  string
+)
+ident(
+  int_ref s "params.ml" 508 15794 15803 "params.ml" 508 15794 15804
+)
+"params.ml" 506 15739 15741 "params.ml" 508 15794 15809
+type(
+  string
+)
+"params.ml" 505 15681 15683 "params.ml" 508 15794 15809
+type(
+  string
+)
+"params.ml" 511 15812 15816 "params.ml" 511 15812 15823
+type(
+  string option ref
+)
+ident(
+  def fpf_out "params.ml" 513 15855 15855 "params.ml" 0 0 -1
+)
+"params.ml" 511 15812 15845 "params.ml" 511 15812 15848
+type(
+  string option -> string option ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 511 15812 15849 "params.ml" 511 15812 15853
+type(
+  string option
+)
+"params.ml" 511 15812 15845 "params.ml" 511 15812 15853
+type(
+  string option ref
+)
+"params.ml" 513 15855 15859 "params.ml" 513 15855 15865
+type(
+  string option ref
+)
+ident(
+  def fpf_in "params.ml" 515 15897 15897 "params.ml" 0 0 -1
+)
+"params.ml" 513 15855 15887 "params.ml" 513 15855 15890
+type(
+  string option -> string option ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 513 15855 15891 "params.ml" 513 15855 15895
+type(
+  string option
+)
+"params.ml" 513 15855 15887 "params.ml" 513 15855 15895
+type(
+  string option ref
+)
+"params.ml" 515 15897 15901 "params.ml" 515 15897 15910
+type(
+  bool ref
+)
+ident(
+  def fp_loaded "params.ml" 517 15924 15924 "params.ml" 0 0 -1
+)
+"params.ml" 515 15897 15913 "params.ml" 515 15897 15916
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 515 15897 15917 "params.ml" 515 15897 15922
+type(
+  bool
+)
+"params.ml" 515 15897 15913 "params.ml" 515 15897 15922
+type(
+  bool ref
+)
+"params.ml" 517 15924 15928 "params.ml" 517 15924 15946
+type(
+  int ref
+)
+ident(
+  def fp_original_number "params.ml" 519 15959 15959 "params.ml" 0 0 -1
+)
+"params.ml" 517 15924 15949 "params.ml" 517 15924 15952
+type(
+  int -> int ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 517 15924 15953 "params.ml" 517 15924 15957
+type(
+  int
+)
+"params.ml" 517 15924 15949 "params.ml" 517 15924 15957
+type(
+  int ref
+)
+"params.ml" 519 15959 15963 "params.ml" 519 15959 15974
+type(
+  string ref
+)
+ident(
+  def fp_hist_dir "params.ml" 521 15985 15985 "params.ml" 0 0 -1
+)
+"params.ml" 519 15959 15977 "params.ml" 519 15959 15980
+type(
+  string -> string ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 519 15959 15981 "params.ml" 519 15959 15983
+type(
+  string
+)
+"params.ml" 519 15959 15977 "params.ml" 519 15959 15983
+type(
+  string ref
+)
+"params.ml" 521 15985 15989 "params.ml" 521 15985 15995
+type(
+  bool ref
+)
+ident(
+  def fp_deb "params.ml" 523 16009 16009 "params.ml" 0 0 -1
+)
+"params.ml" 521 15985 15998 "params.ml" 521 15985 16001
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 521 15985 16002 "params.ml" 521 15985 16007
+type(
+  bool
+)
+"params.ml" 521 15985 15998 "params.ml" 521 15985 16007
+type(
+  bool ref
+)
+"params.ml" 523 16009 16013 "params.ml" 523 16009 16028
+type(
+  float ref
+)
+ident(
+  def backend_timeout "params.ml" 523 16009 16037 "params.ml" 0 0 -1
+)
+"params.ml" 523 16009 16031 "params.ml" 523 16009 16034
+type(
+  float -> float ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"params.ml" 523 16009 16035 "params.ml" 523 16009 16037
+type(
+  float
+)
+"params.ml" 523 16009 16031 "params.ml" 523 16009 16037
+type(
+  float ref
+)

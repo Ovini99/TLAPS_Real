@@ -1,0 +1,5029 @@
+"typ_impgraph.ml" 17 215 222 "typ_impgraph.ml" 17 215 225
+ident(
+  def Smt "typ_impgraph.ml" 17 215 238 "typ_impgraph.ml" 0 0 -1
+)
+"typ_impgraph.ml" 18 239 246 "typ_impgraph.ml" 18 239 247
+ident(
+  def B "typ_impgraph.ml" 18 239 257 "typ_impgraph.ml" 0 0 -1
+)
+"typ_impgraph.ml" 25 321 325 "typ_impgraph.ml" 25 321 334
+type(
+  Expr.T.expr_ Property.wrapped -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  def simp_list "typ_impgraph.ml" 33 525 525 "typ_impgraph.ml" 0 0 -1
+)
+"typ_impgraph.ml" 25 321 335 "typ_impgraph.ml" 25 321 336
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def e "typ_impgraph.ml" 26 339 343 "typ_impgraph.ml" 31 511 523
+)
+"typ_impgraph.ml" 26 339 349 "typ_impgraph.ml" 26 339 350
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref e "typ_impgraph.ml" 25 321 335 "typ_impgraph.ml" 25 321 336
+)
+"typ_impgraph.ml" 26 339 349 "typ_impgraph.ml" 26 339 355
+type(
+  Expr.T.expr_
+)
+"typ_impgraph.ml" 27 361 373 "typ_impgraph.ml" 27 361 376
+type(
+  Expr.T.bullet
+)
+"typ_impgraph.ml" 27 361 378 "typ_impgraph.ml" 27 361 380
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "typ_impgraph.ml" 28 385 393 "typ_impgraph.ml" 28 385 436
+)
+"typ_impgraph.ml" 27 361 367 "typ_impgraph.ml" 27 361 381
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"typ_impgraph.ml" 28 385 399 "typ_impgraph.ml" 28 385 402
+type(
+  Expr.T.bullet
+)
+"typ_impgraph.ml" 28 385 404 "typ_impgraph.ml" 28 385 426
+type(
+  Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Smt.remove_repeated_ex "smtcommons.mli" 97 3213 3213 "smtcommons.mli" 97 3213 3260
+)
+"typ_impgraph.ml" 28 385 427 "typ_impgraph.ml" 28 385 429
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "typ_impgraph.ml" 27 361 378 "typ_impgraph.ml" 27 361 380
+)
+"typ_impgraph.ml" 28 385 404 "typ_impgraph.ml" 28 385 429
+type(
+  Expr.T.expr list
+)
+"typ_impgraph.ml" 28 385 393 "typ_impgraph.ml" 28 385 430
+type(
+  Expr.T.expr_
+)
+"typ_impgraph.ml" 28 385 431 "typ_impgraph.ml" 28 385 433
+type(
+  Expr.T.expr_ -> Property.props -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( %% ) "property.mli" 103 3412 3412 "property.mli" 103 3412 3450
+)
+"typ_impgraph.ml" 28 385 434 "typ_impgraph.ml" 28 385 436
+type(
+  Property.props
+)
+"typ_impgraph.ml" 28 385 393 "typ_impgraph.ml" 28 385 436
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"typ_impgraph.ml" 29 437 449 "typ_impgraph.ml" 29 437 451
+type(
+  Expr.T.bullet
+)
+"typ_impgraph.ml" 29 437 453 "typ_impgraph.ml" 29 437 455
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "typ_impgraph.ml" 30 460 468 "typ_impgraph.ml" 30 460 510
+)
+"typ_impgraph.ml" 29 437 443 "typ_impgraph.ml" 29 437 456
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"typ_impgraph.ml" 30 460 474 "typ_impgraph.ml" 30 460 476
+type(
+  Expr.T.bullet
+)
+"typ_impgraph.ml" 30 460 478 "typ_impgraph.ml" 30 460 500
+type(
+  Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Smt.remove_repeated_ex "smtcommons.mli" 97 3213 3213 "smtcommons.mli" 97 3213 3260
+)
+"typ_impgraph.ml" 30 460 501 "typ_impgraph.ml" 30 460 503
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "typ_impgraph.ml" 29 437 453 "typ_impgraph.ml" 29 437 455
+)
+"typ_impgraph.ml" 30 460 478 "typ_impgraph.ml" 30 460 503
+type(
+  Expr.T.expr list
+)
+"typ_impgraph.ml" 30 460 468 "typ_impgraph.ml" 30 460 504
+type(
+  Expr.T.expr_
+)
+"typ_impgraph.ml" 30 460 505 "typ_impgraph.ml" 30 460 507
+type(
+  Expr.T.expr_ -> Property.props -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( %% ) "property.mli" 103 3412 3412 "property.mli" 103 3412 3450
+)
+"typ_impgraph.ml" 30 460 508 "typ_impgraph.ml" 30 460 510
+type(
+  Property.props
+)
+"typ_impgraph.ml" 30 460 468 "typ_impgraph.ml" 30 460 510
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"typ_impgraph.ml" 31 511 517 "typ_impgraph.ml" 31 511 518
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"typ_impgraph.ml" 31 511 522 "typ_impgraph.ml" 31 511 523
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref e "typ_impgraph.ml" 25 321 335 "typ_impgraph.ml" 25 321 336
+)
+"typ_impgraph.ml" 26 339 343 "typ_impgraph.ml" 31 511 523
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"typ_impgraph.ml" 33 525 529 "typ_impgraph.ml" 33 525 536
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  def mk_list "typ_impgraph.ml" 46 779 779 "typ_impgraph.ml" 0 0 -1
+)
+"typ_impgraph.ml" 34 548 560 "typ_impgraph.ml" 34 548 563
+type(
+  Expr.T.bullet
+)
+"typ_impgraph.ml" 34 548 565 "typ_impgraph.ml" 34 548 567
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "typ_impgraph.ml" 35 572 580 "typ_impgraph.ml" 37 629 649
+)
+"typ_impgraph.ml" 34 548 554 "typ_impgraph.ml" 34 548 568
+type(
+  Expr.T.expr_
+)
+"typ_impgraph.ml" 35 572 586 "typ_impgraph.ml" 35 572 589
+type(
+  Expr.T.bullet
+)
+"typ_impgraph.ml" 35 572 591 "typ_impgraph.ml" 35 572 593
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "typ_impgraph.ml" 34 548 565 "typ_impgraph.ml" 34 548 567
+)
+"typ_impgraph.ml" 35 572 580 "typ_impgraph.ml" 35 572 594
+type(
+  Expr.T.expr_
+)
+"typ_impgraph.ml" 35 572 595 "typ_impgraph.ml" 35 572 597
+type(
+  Expr.T.expr_ -> Property.props -> Expr.T.expr
+)
+ident(
+  int_ref Property.( %% ) "property.mli" 103 3412 3412 "property.mli" 103 3412 3450
+)
+"typ_impgraph.ml" 35 572 598 "typ_impgraph.ml" 35 572 600
+type(
+  Property.props
+)
+"typ_impgraph.ml" 35 572 580 "typ_impgraph.ml" 35 572 600
+type(
+  Expr.T.expr
+)
+"typ_impgraph.ml" 36 601 612 "typ_impgraph.ml" 36 601 628
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Smt.flatten_conj "smtcommons.mli" 194 6052 6052 "smtcommons.mli" 194 6052 6083
+)
+"typ_impgraph.ml" 35 572 580 "typ_impgraph.ml" 36 601 628
+type(
+  Expr.T.expr
+)
+"typ_impgraph.ml" 37 629 640 "typ_impgraph.ml" 37 629 649
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref simp_list "typ_impgraph.ml" 25 321 325 "typ_impgraph.ml" 25 321 334
+)
+"typ_impgraph.ml" 35 572 580 "typ_impgraph.ml" 37 629 649
+type(
+  Expr.T.expr
+)
+"typ_impgraph.ml" 38 650 662 "typ_impgraph.ml" 38 650 664
+type(
+  Expr.T.bullet
+)
+"typ_impgraph.ml" 38 650 666 "typ_impgraph.ml" 38 650 668
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "typ_impgraph.ml" 39 673 681 "typ_impgraph.ml" 41 729 749
+)
+"typ_impgraph.ml" 38 650 656 "typ_impgraph.ml" 38 650 669
+type(
+  Expr.T.expr_
+)
+"typ_impgraph.ml" 39 673 687 "typ_impgraph.ml" 39 673 689
+type(
+  Expr.T.bullet
+)
+"typ_impgraph.ml" 39 673 691 "typ_impgraph.ml" 39 673 693
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "typ_impgraph.ml" 38 650 666 "typ_impgraph.ml" 38 650 668
+)
+"typ_impgraph.ml" 39 673 681 "typ_impgraph.ml" 39 673 694
+type(
+  Expr.T.expr_
+)
+"typ_impgraph.ml" 39 673 695 "typ_impgraph.ml" 39 673 697
+type(
+  Expr.T.expr_ -> Property.props -> Expr.T.expr
+)
+ident(
+  int_ref Property.( %% ) "property.mli" 103 3412 3412 "property.mli" 103 3412 3450
+)
+"typ_impgraph.ml" 39 673 698 "typ_impgraph.ml" 39 673 700
+type(
+  Property.props
+)
+"typ_impgraph.ml" 39 673 681 "typ_impgraph.ml" 39 673 700
+type(
+  Expr.T.expr
+)
+"typ_impgraph.ml" 40 701 712 "typ_impgraph.ml" 40 701 728
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Smt.flatten_disj "smtcommons.mli" 195 6084 6084 "smtcommons.mli" 195 6084 6115
+)
+"typ_impgraph.ml" 39 673 681 "typ_impgraph.ml" 40 701 728
+type(
+  Expr.T.expr
+)
+"typ_impgraph.ml" 41 729 740 "typ_impgraph.ml" 41 729 749
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref simp_list "typ_impgraph.ml" 25 321 325 "typ_impgraph.ml" 25 321 334
+)
+"typ_impgraph.ml" 39 673 681 "typ_impgraph.ml" 41 729 749
+type(
+  Expr.T.expr
+)
+"typ_impgraph.ml" 42 750 756 "typ_impgraph.ml" 42 750 757
+type(
+  Expr.T.expr_
+)
+ident(
+  def e "typ_impgraph.ml" 43 761 769 "typ_impgraph.ml" 43 761 776
+)
+"typ_impgraph.ml" 43 761 769 "typ_impgraph.ml" 43 761 770
+type(
+  Expr.T.expr_
+)
+ident(
+  int_ref e "typ_impgraph.ml" 42 750 756 "typ_impgraph.ml" 42 750 757
+)
+"typ_impgraph.ml" 43 761 771 "typ_impgraph.ml" 43 761 773
+type(
+  Expr.T.expr_ -> Property.props -> Expr.T.expr
+)
+ident(
+  int_ref Property.( %% ) "property.mli" 103 3412 3412 "property.mli" 103 3412 3450
+)
+"typ_impgraph.ml" 43 761 774 "typ_impgraph.ml" 43 761 776
+type(
+  Property.props
+)
+"typ_impgraph.ml" 43 761 769 "typ_impgraph.ml" 43 761 776
+type(
+  Expr.T.expr
+)
+"typ_impgraph.ml" 33 525 539 "typ_impgraph.ml" 43 761 776
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+"typ_impgraph.ml" 46 779 783 "typ_impgraph.ml" 46 779 788
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref
+)
+ident(
+  def in_fm "typ_impgraph.ml" 50 887 887 "typ_impgraph.ml" 0 0 -1
+)
+"typ_impgraph.ml" 46 779 791 "typ_impgraph.ml" 46 779 794
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ->
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"typ_impgraph.ml" 46 779 795 "typ_impgraph.ml" 46 779 805
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t
+)
+ident(
+  int_ref Typ_e.SMap.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"typ_impgraph.ml" 46 779 791 "typ_impgraph.ml" 46 779 805
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref
+)
+"typ_impgraph.ml" 50 887 891 "typ_impgraph.ml" 50 887 896
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref
+)
+ident(
+  def in_ph "typ_impgraph.ml" 54 999 999 "typ_impgraph.ml" 0 0 -1
+)
+"typ_impgraph.ml" 50 887 899 "typ_impgraph.ml" 50 887 902
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t -> Typ_e.SMap.key list Typ_e.SMap.t ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"typ_impgraph.ml" 50 887 903 "typ_impgraph.ml" 50 887 913
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t
+)
+ident(
+  int_ref Typ_e.SMap.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"typ_impgraph.ml" 50 887 899 "typ_impgraph.ml" 50 887 913
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref
+)
+"typ_impgraph.ml" 54 999 1003 "typ_impgraph.ml" 54 999 1009
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref
+)
+ident(
+  def out_fm "typ_impgraph.ml" 58 1112 1112 "typ_impgraph.ml" 0 0 -1
+)
+"typ_impgraph.ml" 54 999 1012 "typ_impgraph.ml" 54 999 1015
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ->
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"typ_impgraph.ml" 54 999 1016 "typ_impgraph.ml" 54 999 1026
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t
+)
+ident(
+  int_ref Typ_e.SMap.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"typ_impgraph.ml" 54 999 1012 "typ_impgraph.ml" 54 999 1026
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref
+)
+"typ_impgraph.ml" 58 1112 1116 "typ_impgraph.ml" 58 1112 1122
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref
+)
+ident(
+  def out_ph "typ_impgraph.ml" 62 1229 1229 "typ_impgraph.ml" 0 0 -1
+)
+"typ_impgraph.ml" 58 1112 1125 "typ_impgraph.ml" 58 1112 1128
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t -> Typ_e.SMap.key list Typ_e.SMap.t ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"typ_impgraph.ml" 58 1112 1129 "typ_impgraph.ml" 58 1112 1139
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t
+)
+ident(
+  int_ref Typ_e.SMap.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"typ_impgraph.ml" 58 1112 1125 "typ_impgraph.ml" 58 1112 1139
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref
+)
+"typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  def plhdrs "typ_impgraph.ml" 65 1259 1259 "typ_impgraph.ml" 0 0 -1
+)
+"typ_impgraph.ml" 62 1229 1242 "typ_impgraph.ml" 62 1229 1245
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"typ_impgraph.ml" 62 1229 1246 "typ_impgraph.ml" 62 1229 1256
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref Typ_e.SMap.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"typ_impgraph.ml" 62 1229 1242 "typ_impgraph.ml" 62 1229 1256
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+"typ_impgraph.ml" 65 1259 1263 "typ_impgraph.ml" 65 1259 1269
+type(
+  'a list Typ_e.SMap.t -> Typ_e.SMap.key -> 'a list
+)
+ident(
+  def @@ "typ_impgraph.ml" 71 1340 1340 "typ_impgraph.ml" 0 0 -1
+)
+"typ_impgraph.ml" 65 1259 1270 "typ_impgraph.ml" 65 1259 1271
+type(
+  'a list Typ_e.SMap.t
+)
+ident(
+  def m "typ_impgraph.ml" 65 1259 1272 "typ_impgraph.ml" 69 1328 1338
+)
+"typ_impgraph.ml" 65 1259 1272 "typ_impgraph.ml" 65 1259 1273
+type(
+  Typ_e.SMap.key
+)
+ident(
+  def k "typ_impgraph.ml" 66 1276 1280 "typ_impgraph.ml" 69 1328 1338
+)
+"typ_impgraph.ml" 67 1284 1292 "typ_impgraph.ml" 67 1284 1301
+type(
+  Typ_e.SMap.key -> 'a list Typ_e.SMap.t -> 'a list
+)
+ident(
+  int_ref Typ_e.SMap.find "map.mli" 278 11157 11161 "map.mli" 278 11157 11188
+)
+"typ_impgraph.ml" 67 1284 1302 "typ_impgraph.ml" 67 1284 1303
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref k "typ_impgraph.ml" 65 1259 1272 "typ_impgraph.ml" 65 1259 1273
+)
+"typ_impgraph.ml" 67 1284 1304 "typ_impgraph.ml" 67 1284 1305
+type(
+  'a list Typ_e.SMap.t
+)
+ident(
+  int_ref m "typ_impgraph.ml" 65 1259 1270 "typ_impgraph.ml" 65 1259 1271
+)
+"typ_impgraph.ml" 67 1284 1292 "typ_impgraph.ml" 67 1284 1305
+type(
+  'a list
+)
+"typ_impgraph.ml" 68 1306 1315 "typ_impgraph.ml" 68 1306 1324
+type(
+  exn
+)
+"typ_impgraph.ml" 69 1328 1336 "typ_impgraph.ml" 69 1328 1338
+type(
+  'a list
+)
+"typ_impgraph.ml" 66 1276 1280 "typ_impgraph.ml" 69 1328 1338
+type(
+  'a list
+)
+"typ_impgraph.ml" 71 1340 1344 "typ_impgraph.ml" 71 1340 1348
+type(
+  'a list Typ_e.SMap.t ref -> Typ_e.SMap.key -> 'a list -> unit
+)
+ident(
+  def madd "typ_impgraph.ml" 76 1439 1439 "typ_impgraph.ml" 0 0 -1
+)
+"typ_impgraph.ml" 71 1340 1349 "typ_impgraph.ml" 71 1340 1350
+type(
+  'a list Typ_e.SMap.t ref
+)
+ident(
+  def m "typ_impgraph.ml" 71 1340 1351 "typ_impgraph.ml" 74 1389 1437
+)
+"typ_impgraph.ml" 71 1340 1351 "typ_impgraph.ml" 71 1340 1352
+type(
+  Typ_e.SMap.key
+)
+ident(
+  def j "typ_impgraph.ml" 71 1340 1353 "typ_impgraph.ml" 74 1389 1437
+)
+"typ_impgraph.ml" 71 1340 1353 "typ_impgraph.ml" 71 1340 1355
+type(
+  'a list
+)
+ident(
+  def ps "typ_impgraph.ml" 72 1358 1362 "typ_impgraph.ml" 74 1389 1437
+)
+"typ_impgraph.ml" 72 1358 1365 "typ_impgraph.ml" 72 1358 1367
+type(
+  'a list
+)
+ident(
+  int_ref ps "typ_impgraph.ml" 71 1340 1353 "typ_impgraph.ml" 71 1340 1355
+)
+"typ_impgraph.ml" 72 1358 1368 "typ_impgraph.ml" 72 1358 1369
+type(
+  'a list -> 'a list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"typ_impgraph.ml" 72 1358 1370 "typ_impgraph.ml" 72 1358 1372
+type(
+  'a list
+)
+"typ_impgraph.ml" 72 1358 1365 "typ_impgraph.ml" 72 1358 1372
+type(
+  bool
+)
+"typ_impgraph.ml" 73 1373 1386 "typ_impgraph.ml" 73 1373 1388
+type(
+  unit
+)
+"typ_impgraph.ml" 74 1389 1402 "typ_impgraph.ml" 74 1389 1403
+type(
+  'a list Typ_e.SMap.t ref
+)
+ident(
+  int_ref m "typ_impgraph.ml" 71 1340 1349 "typ_impgraph.ml" 71 1340 1350
+)
+"typ_impgraph.ml" 74 1389 1404 "typ_impgraph.ml" 74 1389 1406
+type(
+  'a list Typ_e.SMap.t ref -> 'a list Typ_e.SMap.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"typ_impgraph.ml" 74 1389 1407 "typ_impgraph.ml" 74 1389 1415
+type(
+  Typ_e.SMap.key -> 'a list -> 'a list Typ_e.SMap.t -> 'a list Typ_e.SMap.t
+)
+ident(
+  int_ref Typ_e.SMap.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"typ_impgraph.ml" 74 1389 1416 "typ_impgraph.ml" 74 1389 1417
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref j "typ_impgraph.ml" 71 1340 1351 "typ_impgraph.ml" 71 1340 1352
+)
+"typ_impgraph.ml" 74 1389 1419 "typ_impgraph.ml" 74 1389 1421
+type(
+  'a list
+)
+ident(
+  int_ref ps "typ_impgraph.ml" 71 1340 1353 "typ_impgraph.ml" 71 1340 1355
+)
+"typ_impgraph.ml" 74 1389 1422 "typ_impgraph.ml" 74 1389 1423
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"typ_impgraph.ml" 74 1389 1425 "typ_impgraph.ml" 74 1389 1426
+type(
+  'a list Typ_e.SMap.t ref -> 'a list Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 74 1389 1426 "typ_impgraph.ml" 74 1389 1427
+type(
+  'a list Typ_e.SMap.t ref
+)
+ident(
+  int_ref m "typ_impgraph.ml" 71 1340 1349 "typ_impgraph.ml" 71 1340 1350
+)
+"typ_impgraph.ml" 74 1389 1425 "typ_impgraph.ml" 74 1389 1427
+type(
+  'a list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 74 1389 1428 "typ_impgraph.ml" 74 1389 1430
+type(
+  'a list Typ_e.SMap.t -> Typ_e.SMap.key -> 'a list
+)
+ident(
+  int_ref @@ "typ_impgraph.ml" 65 1259 1263 "typ_impgraph.ml" 65 1259 1269
+)
+"typ_impgraph.ml" 74 1389 1431 "typ_impgraph.ml" 74 1389 1432
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref j "typ_impgraph.ml" 71 1340 1351 "typ_impgraph.ml" 71 1340 1352
+)
+"typ_impgraph.ml" 74 1389 1424 "typ_impgraph.ml" 74 1389 1433
+type(
+  'a list
+)
+"typ_impgraph.ml" 74 1389 1418 "typ_impgraph.ml" 74 1389 1434
+type(
+  'a list
+)
+"typ_impgraph.ml" 74 1389 1435 "typ_impgraph.ml" 74 1389 1436
+type(
+  'a list Typ_e.SMap.t ref -> 'a list Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 74 1389 1436 "typ_impgraph.ml" 74 1389 1437
+type(
+  'a list Typ_e.SMap.t ref
+)
+ident(
+  int_ref m "typ_impgraph.ml" 71 1340 1349 "typ_impgraph.ml" 71 1340 1350
+)
+"typ_impgraph.ml" 74 1389 1435 "typ_impgraph.ml" 74 1389 1437
+type(
+  'a list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 74 1389 1407 "typ_impgraph.ml" 74 1389 1437
+type(
+  'a list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 74 1389 1402 "typ_impgraph.ml" 74 1389 1437
+type(
+  unit
+)
+"typ_impgraph.ml" 72 1358 1362 "typ_impgraph.ml" 74 1389 1437
+type(
+  unit
+)
+"typ_impgraph.ml" 76 1439 1443 "typ_impgraph.ml" 76 1439 1447
+type(
+  'a list Typ_e.SMap.t ref -> Typ_e.SMap.key -> 'a -> unit
+)
+ident(
+  def mdel "typ_impgraph.ml" 82 1578 1578 "typ_impgraph.ml" 0 0 -1
+)
+"typ_impgraph.ml" 76 1439 1448 "typ_impgraph.ml" 76 1439 1449
+type(
+  'a list Typ_e.SMap.t ref
+)
+ident(
+  def m "typ_impgraph.ml" 76 1439 1450 "typ_impgraph.ml" 80 1547 1576
+)
+"typ_impgraph.ml" 76 1439 1450 "typ_impgraph.ml" 76 1439 1451
+type(
+  Typ_e.SMap.key
+)
+ident(
+  def j "typ_impgraph.ml" 76 1439 1452 "typ_impgraph.ml" 80 1547 1576
+)
+"typ_impgraph.ml" 76 1439 1452 "typ_impgraph.ml" 76 1439 1453
+type(
+  'a
+)
+ident(
+  def x "typ_impgraph.ml" 77 1456 1460 "typ_impgraph.ml" 80 1547 1576
+)
+"typ_impgraph.ml" 77 1456 1464 "typ_impgraph.ml" 77 1456 1466
+type(
+  'a list
+)
+ident(
+  def xs "typ_impgraph.ml" 78 1497 1501 "typ_impgraph.ml" 80 1547 1576
+)
+"typ_impgraph.ml" 77 1456 1469 "typ_impgraph.ml" 77 1456 1481
+type(
+  'a list -> 'a -> 'a list
+)
+ident(
+  int_ref Smt.subtract "smtcommons.mli" 191 5964 5964 "smtcommons.mli" 191 5964 6003
+)
+"typ_impgraph.ml" 77 1456 1483 "typ_impgraph.ml" 77 1456 1484
+type(
+  'a list Typ_e.SMap.t ref -> 'a list Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 77 1456 1484 "typ_impgraph.ml" 77 1456 1485
+type(
+  'a list Typ_e.SMap.t ref
+)
+ident(
+  int_ref m "typ_impgraph.ml" 76 1439 1448 "typ_impgraph.ml" 76 1439 1449
+)
+"typ_impgraph.ml" 77 1456 1483 "typ_impgraph.ml" 77 1456 1485
+type(
+  'a list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 77 1456 1486 "typ_impgraph.ml" 77 1456 1488
+type(
+  'a list Typ_e.SMap.t -> Typ_e.SMap.key -> 'a list
+)
+ident(
+  int_ref @@ "typ_impgraph.ml" 65 1259 1263 "typ_impgraph.ml" 65 1259 1269
+)
+"typ_impgraph.ml" 77 1456 1489 "typ_impgraph.ml" 77 1456 1490
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref j "typ_impgraph.ml" 76 1439 1450 "typ_impgraph.ml" 76 1439 1451
+)
+"typ_impgraph.ml" 77 1456 1482 "typ_impgraph.ml" 77 1456 1491
+type(
+  'a list
+)
+"typ_impgraph.ml" 77 1456 1492 "typ_impgraph.ml" 77 1456 1493
+type(
+  'a
+)
+ident(
+  int_ref x "typ_impgraph.ml" 76 1439 1452 "typ_impgraph.ml" 76 1439 1453
+)
+"typ_impgraph.ml" 77 1456 1469 "typ_impgraph.ml" 77 1456 1493
+type(
+  'a list
+)
+"typ_impgraph.ml" 78 1497 1501 "typ_impgraph.ml" 78 1497 1502
+type(
+  'a list Typ_e.SMap.t ref
+)
+ident(
+  int_ref m "typ_impgraph.ml" 76 1439 1448 "typ_impgraph.ml" 76 1439 1449
+)
+"typ_impgraph.ml" 78 1497 1503 "typ_impgraph.ml" 78 1497 1505
+type(
+  'a list Typ_e.SMap.t ref -> 'a list Typ_e.SMap.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"typ_impgraph.ml" 78 1497 1509 "typ_impgraph.ml" 78 1497 1511
+type(
+  'a list
+)
+ident(
+  int_ref xs "typ_impgraph.ml" 77 1456 1464 "typ_impgraph.ml" 77 1456 1466
+)
+"typ_impgraph.ml" 78 1497 1512 "typ_impgraph.ml" 78 1497 1513
+type(
+  'a list -> 'a list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"typ_impgraph.ml" 78 1497 1514 "typ_impgraph.ml" 78 1497 1516
+type(
+  'a list
+)
+"typ_impgraph.ml" 78 1497 1509 "typ_impgraph.ml" 78 1497 1516
+type(
+  bool
+)
+"typ_impgraph.ml" 79 1517 1530 "typ_impgraph.ml" 79 1517 1541
+type(
+  Typ_e.SMap.key -> 'a list Typ_e.SMap.t -> 'a list Typ_e.SMap.t
+)
+ident(
+  int_ref Typ_e.SMap.remove "map.mli" 111 4538 4542 "map.mli" 111 4538 4573
+)
+"typ_impgraph.ml" 79 1517 1542 "typ_impgraph.ml" 79 1517 1543
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref j "typ_impgraph.ml" 76 1439 1450 "typ_impgraph.ml" 76 1439 1451
+)
+"typ_impgraph.ml" 79 1517 1544 "typ_impgraph.ml" 79 1517 1545
+type(
+  'a list Typ_e.SMap.t ref -> 'a list Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 79 1517 1545 "typ_impgraph.ml" 79 1517 1546
+type(
+  'a list Typ_e.SMap.t ref
+)
+ident(
+  int_ref m "typ_impgraph.ml" 76 1439 1448 "typ_impgraph.ml" 76 1439 1449
+)
+"typ_impgraph.ml" 79 1517 1544 "typ_impgraph.ml" 79 1517 1546
+type(
+  'a list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 79 1517 1530 "typ_impgraph.ml" 79 1517 1546
+type(
+  'a list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 80 1547 1560 "typ_impgraph.ml" 80 1547 1568
+type(
+  Typ_e.SMap.key -> 'a list -> 'a list Typ_e.SMap.t -> 'a list Typ_e.SMap.t
+)
+ident(
+  int_ref Typ_e.SMap.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"typ_impgraph.ml" 80 1547 1569 "typ_impgraph.ml" 80 1547 1570
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref j "typ_impgraph.ml" 76 1439 1450 "typ_impgraph.ml" 76 1439 1451
+)
+"typ_impgraph.ml" 80 1547 1571 "typ_impgraph.ml" 80 1547 1573
+type(
+  'a list
+)
+ident(
+  int_ref xs "typ_impgraph.ml" 77 1456 1464 "typ_impgraph.ml" 77 1456 1466
+)
+"typ_impgraph.ml" 80 1547 1574 "typ_impgraph.ml" 80 1547 1575
+type(
+  'a list Typ_e.SMap.t ref -> 'a list Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 80 1547 1575 "typ_impgraph.ml" 80 1547 1576
+type(
+  'a list Typ_e.SMap.t ref
+)
+ident(
+  int_ref m "typ_impgraph.ml" 76 1439 1448 "typ_impgraph.ml" 76 1439 1449
+)
+"typ_impgraph.ml" 80 1547 1574 "typ_impgraph.ml" 80 1547 1576
+type(
+  'a list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 80 1547 1560 "typ_impgraph.ml" 80 1547 1576
+type(
+  'a list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 78 1497 1506 "typ_impgraph.ml" 80 1547 1576
+type(
+  'a list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 78 1497 1501 "typ_impgraph.ml" 80 1547 1576
+type(
+  unit
+)
+"typ_impgraph.ml" 77 1456 1460 "typ_impgraph.ml" 80 1547 1576
+type(
+  unit
+)
+"typ_impgraph.ml" 82 1578 1582 "typ_impgraph.ml" 82 1578 1589
+type(
+  'a Typ_e.SMap.t ref -> Typ_e.SMap.key -> unit
+)
+ident(
+  def mremove "typ_impgraph.ml" 95 1806 1806 "typ_impgraph.ml" 0 0 -1
+)
+"typ_impgraph.ml" 82 1578 1590 "typ_impgraph.ml" 82 1578 1591
+type(
+  'a Typ_e.SMap.t ref
+)
+ident(
+  def m "typ_impgraph.ml" 82 1578 1592 "typ_impgraph.ml" 83 1596 1619
+)
+"typ_impgraph.ml" 82 1578 1592 "typ_impgraph.ml" 82 1578 1593
+type(
+  Typ_e.SMap.key
+)
+ident(
+  def j "typ_impgraph.ml" 83 1596 1598 "typ_impgraph.ml" 83 1596 1619
+)
+"typ_impgraph.ml" 83 1596 1598 "typ_impgraph.ml" 83 1596 1599
+type(
+  'a Typ_e.SMap.t ref
+)
+ident(
+  int_ref m "typ_impgraph.ml" 82 1578 1590 "typ_impgraph.ml" 82 1578 1591
+)
+"typ_impgraph.ml" 83 1596 1600 "typ_impgraph.ml" 83 1596 1602
+type(
+  'a Typ_e.SMap.t ref -> 'a Typ_e.SMap.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"typ_impgraph.ml" 83 1596 1603 "typ_impgraph.ml" 83 1596 1614
+type(
+  Typ_e.SMap.key -> 'a Typ_e.SMap.t -> 'a Typ_e.SMap.t
+)
+ident(
+  int_ref Typ_e.SMap.remove "map.mli" 111 4538 4542 "map.mli" 111 4538 4573
+)
+"typ_impgraph.ml" 83 1596 1615 "typ_impgraph.ml" 83 1596 1616
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref j "typ_impgraph.ml" 82 1578 1592 "typ_impgraph.ml" 82 1578 1593
+)
+"typ_impgraph.ml" 83 1596 1617 "typ_impgraph.ml" 83 1596 1618
+type(
+  'a Typ_e.SMap.t ref -> 'a Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 83 1596 1618 "typ_impgraph.ml" 83 1596 1619
+type(
+  'a Typ_e.SMap.t ref
+)
+ident(
+  int_ref m "typ_impgraph.ml" 82 1578 1590 "typ_impgraph.ml" 82 1578 1591
+)
+"typ_impgraph.ml" 83 1596 1617 "typ_impgraph.ml" 83 1596 1619
+type(
+  'a Typ_e.SMap.t
+)
+"typ_impgraph.ml" 83 1596 1603 "typ_impgraph.ml" 83 1596 1619
+type(
+  'a Typ_e.SMap.t
+)
+"typ_impgraph.ml" 83 1596 1598 "typ_impgraph.ml" 83 1596 1619
+type(
+  unit
+)
+"typ_impgraph.ml" 95 1806 1810 "typ_impgraph.ml" 95 1806 1822
+type(
+  (B.builtin * Typ_e.t * Typ_t.tref * Typ_t.tref) list -> unit
+)
+ident(
+  def mk_imp_graph "typ_impgraph.ml" 119 2335 2335 "typ_impgraph.ml" 0 0 -1
+)
+"typ_impgraph.ml" 95 1806 1823 "typ_impgraph.ml" 95 1806 1826
+type(
+  (B.builtin * Typ_e.t * Typ_t.tref * Typ_t.tref) list
+)
+ident(
+  def vcs "typ_impgraph.ml" 96 1829 1833 "typ_impgraph.ml" 115 2274 2291
+)
+"typ_impgraph.ml" 96 1829 1837 "typ_impgraph.ml" 96 1829 1841
+type(
+  B.builtin * Typ_e.t * Typ_t.tref * Typ_t.tref -> unit
+)
+ident(
+  def add1 "typ_impgraph.ml" 115 2274 2278 "typ_impgraph.ml" 115 2274 2291
+)
+"typ_impgraph.ml" 96 1829 1843 "typ_impgraph.ml" 96 1829 1845
+type(
+  B.builtin
+)
+ident(
+  def op "typ_impgraph.ml" 98 1897 1901 "typ_impgraph.ml" 113 2253 2266
+)
+"typ_impgraph.ml" 96 1829 1847 "typ_impgraph.ml" 96 1829 1850
+type(
+  Typ_e.t
+)
+ident(
+  def env "typ_impgraph.ml" 98 1897 1901 "typ_impgraph.ml" 113 2253 2266
+)
+"typ_impgraph.ml" 96 1829 1852 "typ_impgraph.ml" 96 1829 1854
+type(
+  Typ_t.tref
+)
+ident(
+  def r1 "typ_impgraph.ml" 98 1897 1901 "typ_impgraph.ml" 113 2253 2266
+)
+"typ_impgraph.ml" 96 1829 1856 "typ_impgraph.ml" 96 1829 1858
+type(
+  Typ_t.tref
+)
+ident(
+  def r2 "typ_impgraph.ml" 98 1897 1901 "typ_impgraph.ml" 113 2253 2266
+)
+"typ_impgraph.ml" 96 1829 1842 "typ_impgraph.ml" 96 1829 1859
+type(
+  B.builtin * Typ_e.t * Typ_t.tref * Typ_t.tref
+)
+"typ_impgraph.ml" 98 1897 1907 "typ_impgraph.ml" 98 1897 1909
+type(
+  B.builtin
+)
+ident(
+  int_ref op "typ_impgraph.ml" 96 1829 1843 "typ_impgraph.ml" 96 1829 1845
+)
+"typ_impgraph.ml" 98 1897 1911 "typ_impgraph.ml" 98 1897 1913
+type(
+  Typ_t.tref
+)
+ident(
+  int_ref r1 "typ_impgraph.ml" 96 1829 1852 "typ_impgraph.ml" 96 1829 1854
+)
+"typ_impgraph.ml" 98 1897 1915 "typ_impgraph.ml" 98 1897 1917
+type(
+  Typ_t.tref
+)
+ident(
+  int_ref r2 "typ_impgraph.ml" 96 1829 1856 "typ_impgraph.ml" 96 1829 1858
+)
+"typ_impgraph.ml" 98 1897 1907 "typ_impgraph.ml" 98 1897 1917
+type(
+  B.builtin * Typ_t.tref * Typ_t.tref
+)
+"typ_impgraph.ml" 99 1923 1929 "typ_impgraph.ml" 99 1923 1938
+type(
+  B.builtin
+)
+"typ_impgraph.ml" 100 1940 1950 "typ_impgraph.ml" 100 1940 1951
+type(
+  Typ_t.ty_subst list
+)
+"typ_impgraph.ml" 100 1940 1953 "typ_impgraph.ml" 100 1940 1955
+type(
+  Typ_t.plhdr
+)
+ident(
+  def p1 "typ_impgraph.ml" 102 1975 1992 "typ_impgraph.ml" 104 2033 2059
+)
+"typ_impgraph.ml" 100 1940 1949 "typ_impgraph.ml" 100 1940 1956
+type(
+  Typ_t.ty_subst list * Typ_t.plhdr
+)
+"typ_impgraph.ml" 100 1940 1946 "typ_impgraph.ml" 100 1940 1956
+type(
+  Typ_t.tref
+)
+"typ_impgraph.ml" 101 1958 1968 "typ_impgraph.ml" 101 1958 1969
+type(
+  Typ_t.ty_subst list
+)
+"typ_impgraph.ml" 101 1958 1971 "typ_impgraph.ml" 101 1958 1973
+type(
+  Typ_t.plhdr
+)
+ident(
+  def p2 "typ_impgraph.ml" 102 1975 1992 "typ_impgraph.ml" 104 2033 2059
+)
+"typ_impgraph.ml" 101 1958 1967 "typ_impgraph.ml" 101 1958 1974
+type(
+  Typ_t.ty_subst list * Typ_t.plhdr
+)
+"typ_impgraph.ml" 101 1958 1964 "typ_impgraph.ml" 101 1958 1974
+type(
+  Typ_t.tref
+)
+"typ_impgraph.ml" 99 1923 1929 "typ_impgraph.ml" 101 1958 1974
+type(
+  B.builtin * Typ_t.tref * Typ_t.tref
+)
+type(
+  B.builtin * Typ_t.tref * Typ_t.tref
+)
+"typ_impgraph.ml" 102 1975 1992 "typ_impgraph.ml" 102 1975 1994
+type(
+  Typ_t.plhdr
+)
+ident(
+  int_ref p1 "typ_impgraph.ml" 100 1940 1953 "typ_impgraph.ml" 100 1940 1955
+)
+"typ_impgraph.ml" 102 1975 1995 "typ_impgraph.ml" 102 1975 1997
+type(
+  Typ_t.plhdr -> Typ_t.plhdr -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 130 5559 5559 "stdlib.mli" 130 5559 5607
+)
+"typ_impgraph.ml" 102 1975 1998 "typ_impgraph.ml" 102 1975 2000
+type(
+  Typ_t.plhdr
+)
+ident(
+  int_ref p2 "typ_impgraph.ml" 101 1958 1971 "typ_impgraph.ml" 101 1958 1973
+)
+"typ_impgraph.ml" 102 1975 1992 "typ_impgraph.ml" 102 1975 2000
+type(
+  bool
+)
+"typ_impgraph.ml" 103 2004 2012 "typ_impgraph.ml" 103 2004 2016
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref ->
+  Typ_e.SMap.key -> Typ_t.plhdr list -> unit
+)
+ident(
+  int_ref madd "typ_impgraph.ml" 71 1340 1344 "typ_impgraph.ml" 71 1340 1348
+)
+"typ_impgraph.ml" 103 2004 2017 "typ_impgraph.ml" 103 2004 2023
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref
+)
+ident(
+  int_ref out_ph "typ_impgraph.ml" 58 1112 1116 "typ_impgraph.ml" 58 1112 1122
+)
+"typ_impgraph.ml" 103 2004 2024 "typ_impgraph.ml" 103 2004 2026
+type(
+  Typ_t.plhdr
+)
+ident(
+  int_ref p1 "typ_impgraph.ml" 100 1940 1953 "typ_impgraph.ml" 100 1940 1955
+)
+"typ_impgraph.ml" 103 2004 2028 "typ_impgraph.ml" 103 2004 2030
+type(
+  Typ_t.plhdr
+)
+ident(
+  int_ref p2 "typ_impgraph.ml" 101 1958 1971 "typ_impgraph.ml" 101 1958 1973
+)
+"typ_impgraph.ml" 103 2004 2027 "typ_impgraph.ml" 103 2004 2031
+type(
+  Typ_t.plhdr list
+)
+"typ_impgraph.ml" 103 2004 2012 "typ_impgraph.ml" 103 2004 2031
+type(
+  unit
+)
+"typ_impgraph.ml" 104 2033 2041 "typ_impgraph.ml" 104 2033 2045
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref ->
+  Typ_e.SMap.key -> Typ_t.plhdr list -> unit
+)
+ident(
+  int_ref madd "typ_impgraph.ml" 71 1340 1344 "typ_impgraph.ml" 71 1340 1348
+)
+"typ_impgraph.ml" 104 2033 2046 "typ_impgraph.ml" 104 2033 2051
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref
+)
+ident(
+  int_ref in_ph "typ_impgraph.ml" 50 887 891 "typ_impgraph.ml" 50 887 896
+)
+"typ_impgraph.ml" 104 2033 2052 "typ_impgraph.ml" 104 2033 2054
+type(
+  Typ_t.plhdr
+)
+ident(
+  int_ref p2 "typ_impgraph.ml" 101 1958 1971 "typ_impgraph.ml" 101 1958 1973
+)
+"typ_impgraph.ml" 104 2033 2056 "typ_impgraph.ml" 104 2033 2058
+type(
+  Typ_t.plhdr
+)
+ident(
+  int_ref p1 "typ_impgraph.ml" 100 1940 1953 "typ_impgraph.ml" 100 1940 1955
+)
+"typ_impgraph.ml" 104 2033 2055 "typ_impgraph.ml" 104 2033 2059
+type(
+  Typ_t.plhdr list
+)
+"typ_impgraph.ml" 104 2033 2041 "typ_impgraph.ml" 104 2033 2059
+type(
+  unit
+)
+"typ_impgraph.ml" 103 2004 2012 "typ_impgraph.ml" 104 2033 2059
+type(
+  unit
+)
+"typ_impgraph.ml" 105 2060 2066 "typ_impgraph.ml" 105 2060 2075
+type(
+  B.builtin
+)
+"typ_impgraph.ml" 106 2077 2087 "typ_impgraph.ml" 106 2077 2088
+type(
+  Typ_t.ty_subst list
+)
+"typ_impgraph.ml" 106 2077 2090 "typ_impgraph.ml" 106 2077 2091
+type(
+  Typ_t.plhdr
+)
+ident(
+  def p "typ_impgraph.ml" 108 2114 2122 "typ_impgraph.ml" 108 2114 2156
+)
+"typ_impgraph.ml" 106 2077 2086 "typ_impgraph.ml" 106 2077 2092
+type(
+  Typ_t.ty_subst list * Typ_t.plhdr
+)
+"typ_impgraph.ml" 106 2077 2083 "typ_impgraph.ml" 106 2077 2092
+type(
+  Typ_t.tref
+)
+"typ_impgraph.ml" 107 2094 2104 "typ_impgraph.ml" 107 2094 2106
+type(
+  Expr.T.hyp list
+)
+ident(
+  def cx "typ_impgraph.ml" 108 2114 2122 "typ_impgraph.ml" 108 2114 2156
+)
+"typ_impgraph.ml" 107 2094 2108 "typ_impgraph.ml" 107 2094 2109
+type(
+  Expr.T.expr
+)
+ident(
+  def e "typ_impgraph.ml" 108 2114 2122 "typ_impgraph.ml" 108 2114 2156
+)
+"typ_impgraph.ml" 107 2094 2100 "typ_impgraph.ml" 107 2094 2110
+type(
+  Typ_t.tref
+)
+"typ_impgraph.ml" 105 2060 2066 "typ_impgraph.ml" 107 2094 2110
+type(
+  B.builtin * Typ_t.tref * Typ_t.tref
+)
+type(
+  B.builtin * Typ_t.tref * Typ_t.tref
+)
+"typ_impgraph.ml" 108 2114 2122 "typ_impgraph.ml" 108 2114 2126
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref ->
+  Typ_e.SMap.key -> (Expr.T.hyp list * Expr.T.expr) list -> unit
+)
+ident(
+  int_ref madd "typ_impgraph.ml" 71 1340 1344 "typ_impgraph.ml" 71 1340 1348
+)
+"typ_impgraph.ml" 108 2114 2127 "typ_impgraph.ml" 108 2114 2133
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref
+)
+ident(
+  int_ref out_fm "typ_impgraph.ml" 54 999 1003 "typ_impgraph.ml" 54 999 1009
+)
+"typ_impgraph.ml" 108 2114 2134 "typ_impgraph.ml" 108 2114 2135
+type(
+  Typ_t.plhdr
+)
+ident(
+  int_ref p "typ_impgraph.ml" 106 2077 2090 "typ_impgraph.ml" 106 2077 2091
+)
+"typ_impgraph.ml" 108 2114 2137 "typ_impgraph.ml" 108 2114 2148
+type(
+  Typ_e.t -> Expr.T.hyp list
+)
+ident(
+  int_ref Typ_e.to_cx "typ_e.mli" 85 1709 1709 "typ_e.mli" 86 1720 1737
+)
+"typ_impgraph.ml" 108 2114 2149 "typ_impgraph.ml" 108 2114 2152
+type(
+  Typ_e.t
+)
+ident(
+  int_ref env "typ_impgraph.ml" 96 1829 1847 "typ_impgraph.ml" 96 1829 1850
+)
+"typ_impgraph.ml" 108 2114 2137 "typ_impgraph.ml" 108 2114 2152
+type(
+  Expr.T.hyp list
+)
+"typ_impgraph.ml" 108 2114 2154 "typ_impgraph.ml" 108 2114 2155
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "typ_impgraph.ml" 107 2094 2108 "typ_impgraph.ml" 107 2094 2109
+)
+"typ_impgraph.ml" 108 2114 2137 "typ_impgraph.ml" 108 2114 2155
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 108 2114 2136 "typ_impgraph.ml" 108 2114 2156
+type(
+  (Expr.T.hyp list * Expr.T.expr) list
+)
+"typ_impgraph.ml" 108 2114 2122 "typ_impgraph.ml" 108 2114 2156
+type(
+  unit
+)
+"typ_impgraph.ml" 109 2157 2163 "typ_impgraph.ml" 109 2157 2172
+type(
+  B.builtin
+)
+"typ_impgraph.ml" 110 2174 2184 "typ_impgraph.ml" 110 2174 2186
+type(
+  Expr.T.hyp list
+)
+ident(
+  def cx "typ_impgraph.ml" 112 2211 2219 "typ_impgraph.ml" 112 2211 2252
+)
+"typ_impgraph.ml" 110 2174 2188 "typ_impgraph.ml" 110 2174 2189
+type(
+  Expr.T.expr
+)
+ident(
+  def e "typ_impgraph.ml" 112 2211 2219 "typ_impgraph.ml" 112 2211 2252
+)
+"typ_impgraph.ml" 110 2174 2180 "typ_impgraph.ml" 110 2174 2190
+type(
+  Typ_t.tref
+)
+"typ_impgraph.ml" 111 2192 2202 "typ_impgraph.ml" 111 2192 2203
+type(
+  Typ_t.ty_subst list
+)
+"typ_impgraph.ml" 111 2192 2205 "typ_impgraph.ml" 111 2192 2206
+type(
+  Typ_t.plhdr
+)
+ident(
+  def p "typ_impgraph.ml" 112 2211 2219 "typ_impgraph.ml" 112 2211 2252
+)
+"typ_impgraph.ml" 111 2192 2201 "typ_impgraph.ml" 111 2192 2207
+type(
+  Typ_t.ty_subst list * Typ_t.plhdr
+)
+"typ_impgraph.ml" 111 2192 2198 "typ_impgraph.ml" 111 2192 2207
+type(
+  Typ_t.tref
+)
+"typ_impgraph.ml" 109 2157 2163 "typ_impgraph.ml" 111 2192 2207
+type(
+  B.builtin * Typ_t.tref * Typ_t.tref
+)
+type(
+  B.builtin * Typ_t.tref * Typ_t.tref
+)
+"typ_impgraph.ml" 112 2211 2219 "typ_impgraph.ml" 112 2211 2223
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref ->
+  Typ_e.SMap.key -> (Expr.T.hyp list * Expr.T.expr) list -> unit
+)
+ident(
+  int_ref madd "typ_impgraph.ml" 71 1340 1344 "typ_impgraph.ml" 71 1340 1348
+)
+"typ_impgraph.ml" 112 2211 2224 "typ_impgraph.ml" 112 2211 2229
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref
+)
+ident(
+  int_ref in_fm "typ_impgraph.ml" 46 779 783 "typ_impgraph.ml" 46 779 788
+)
+"typ_impgraph.ml" 112 2211 2230 "typ_impgraph.ml" 112 2211 2231
+type(
+  Typ_t.plhdr
+)
+ident(
+  int_ref p "typ_impgraph.ml" 111 2192 2205 "typ_impgraph.ml" 111 2192 2206
+)
+"typ_impgraph.ml" 112 2211 2233 "typ_impgraph.ml" 112 2211 2244
+type(
+  Typ_e.t -> Expr.T.hyp list
+)
+ident(
+  int_ref Typ_e.to_cx "typ_e.mli" 85 1709 1709 "typ_e.mli" 86 1720 1737
+)
+"typ_impgraph.ml" 112 2211 2245 "typ_impgraph.ml" 112 2211 2248
+type(
+  Typ_e.t
+)
+ident(
+  int_ref env "typ_impgraph.ml" 96 1829 1847 "typ_impgraph.ml" 96 1829 1850
+)
+"typ_impgraph.ml" 112 2211 2233 "typ_impgraph.ml" 112 2211 2248
+type(
+  Expr.T.hyp list
+)
+"typ_impgraph.ml" 112 2211 2250 "typ_impgraph.ml" 112 2211 2251
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "typ_impgraph.ml" 110 2174 2188 "typ_impgraph.ml" 110 2174 2189
+)
+"typ_impgraph.ml" 112 2211 2233 "typ_impgraph.ml" 112 2211 2251
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 112 2211 2232 "typ_impgraph.ml" 112 2211 2252
+type(
+  (Expr.T.hyp list * Expr.T.expr) list
+)
+"typ_impgraph.ml" 112 2211 2219 "typ_impgraph.ml" 112 2211 2252
+type(
+  unit
+)
+"typ_impgraph.ml" 113 2253 2259 "typ_impgraph.ml" 113 2253 2260
+type(
+  B.builtin * Typ_t.tref * Typ_t.tref
+)
+type(
+  B.builtin * Typ_t.tref * Typ_t.tref
+)
+"typ_impgraph.ml" 113 2253 2264 "typ_impgraph.ml" 113 2253 2266
+type(
+  unit
+)
+"typ_impgraph.ml" 98 1897 1901 "typ_impgraph.ml" 113 2253 2266
+type(
+  unit
+)
+"typ_impgraph.ml" 115 2274 2278 "typ_impgraph.ml" 115 2274 2282
+type(
+  (B.builtin * Typ_e.t * Typ_t.tref * Typ_t.tref -> unit) ->
+  (B.builtin * Typ_e.t * Typ_t.tref * Typ_t.tref) list -> unit
+)
+ident(
+  int_ref Ext.List.iter "ext.mli" 16 424 426 "ext.mli" 16 424 468
+)
+"typ_impgraph.ml" 115 2274 2283 "typ_impgraph.ml" 115 2274 2287
+type(
+  B.builtin * Typ_e.t * Typ_t.tref * Typ_t.tref -> unit
+)
+ident(
+  int_ref add1 "typ_impgraph.ml" 96 1829 1837 "typ_impgraph.ml" 96 1829 1841
+)
+"typ_impgraph.ml" 115 2274 2288 "typ_impgraph.ml" 115 2274 2291
+type(
+  (B.builtin * Typ_e.t * Typ_t.tref * Typ_t.tref) list
+)
+ident(
+  int_ref vcs "typ_impgraph.ml" 95 1806 1823 "typ_impgraph.ml" 95 1806 1826
+)
+"typ_impgraph.ml" 115 2274 2278 "typ_impgraph.ml" 115 2274 2291
+type(
+  unit
+)
+"typ_impgraph.ml" 96 1829 1833 "typ_impgraph.ml" 115 2274 2291
+type(
+  unit
+)
+"typ_impgraph.ml" 119 2335 2339 "typ_impgraph.ml" 119 2335 2345
+type(
+  string ->
+  string list Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref ->
+  Typ_e.SMap.key -> unit
+)
+ident(
+  def pp_imp "typ_impgraph.ml" 138 2767 2767 "typ_impgraph.ml" 0 0 -1
+)
+"typ_impgraph.ml" 119 2335 2346 "typ_impgraph.ml" 119 2335 2347
+type(
+  string
+)
+ident(
+  def b "typ_impgraph.ml" 119 2335 2348 "typ_impgraph.ml" 130 2585 2644
+)
+"typ_impgraph.ml" 119 2335 2348 "typ_impgraph.ml" 119 2335 2352
+type(
+  string list Typ_e.SMap.t ref
+)
+ident(
+  def f_ph "typ_impgraph.ml" 119 2335 2353 "typ_impgraph.ml" 130 2585 2644
+)
+"typ_impgraph.ml" 119 2335 2353 "typ_impgraph.ml" 119 2335 2357
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref
+)
+ident(
+  def f_fm "typ_impgraph.ml" 119 2335 2358 "typ_impgraph.ml" 130 2585 2644
+)
+"typ_impgraph.ml" 119 2335 2358 "typ_impgraph.ml" 119 2335 2359
+type(
+  Typ_e.SMap.key
+)
+ident(
+  def p "typ_impgraph.ml" 120 2362 2366 "typ_impgraph.ml" 130 2585 2644
+)
+"typ_impgraph.ml" 120 2362 2366 "typ_impgraph.ml" 120 2362 2378
+type(
+  ?debug:string ->
+  ?at:'_weak1 Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:unit ->
+  (Typ_e.SMap.key -> string -> string -> string -> unit, Format.formatter,
+   unit)
+  format -> Typ_e.SMap.key -> string -> string -> string -> unit
+)
+ident(
+  int_ref Util.eprintf "util.mli" 46 1132 1132 "util.mli" 48 1217 1267
+)
+"typ_impgraph.ml" 121 2379 2387 "typ_impgraph.ml" 121 2379 2416
+type(
+  (Typ_e.SMap.key -> string -> string -> string -> unit, Format.formatter,
+   unit)
+  format
+)
+"typ_impgraph.ml" 121 2379 2417 "typ_impgraph.ml" 121 2379 2418
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref p "typ_impgraph.ml" 119 2335 2358 "typ_impgraph.ml" 119 2335 2359
+)
+"typ_impgraph.ml" 121 2379 2419 "typ_impgraph.ml" 121 2379 2420
+type(
+  string
+)
+ident(
+  int_ref b "typ_impgraph.ml" 119 2335 2346 "typ_impgraph.ml" 119 2335 2347
+)
+"typ_impgraph.ml" 129 2547 2552 "typ_impgraph.ml" 129 2547 2565
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref Stdlib.String.concat "string.mli" 132 5016 5016 "string.mli" 132 5016 5060
+)
+"typ_impgraph.ml" 129 2547 2566 "typ_impgraph.ml" 129 2547 2570
+type(
+  string
+)
+"typ_impgraph.ml" 129 2547 2572 "typ_impgraph.ml" 129 2547 2573
+type(
+  string list Typ_e.SMap.t ref -> string list Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 129 2547 2573 "typ_impgraph.ml" 129 2547 2577
+type(
+  string list Typ_e.SMap.t ref
+)
+ident(
+  int_ref f_ph "typ_impgraph.ml" 119 2335 2348 "typ_impgraph.ml" 119 2335 2352
+)
+"typ_impgraph.ml" 129 2547 2572 "typ_impgraph.ml" 129 2547 2577
+type(
+  string list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 129 2547 2578 "typ_impgraph.ml" 129 2547 2580
+type(
+  string list Typ_e.SMap.t -> Typ_e.SMap.key -> string list
+)
+ident(
+  int_ref @@ "typ_impgraph.ml" 65 1259 1263 "typ_impgraph.ml" 65 1259 1269
+)
+"typ_impgraph.ml" 129 2547 2581 "typ_impgraph.ml" 129 2547 2582
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref p "typ_impgraph.ml" 119 2335 2358 "typ_impgraph.ml" 119 2335 2359
+)
+"typ_impgraph.ml" 129 2547 2571 "typ_impgraph.ml" 129 2547 2583
+type(
+  string list
+)
+"typ_impgraph.ml" 129 2547 2551 "typ_impgraph.ml" 129 2547 2584
+type(
+  string
+)
+"typ_impgraph.ml" 130 2585 2590 "typ_impgraph.ml" 130 2585 2603
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref Stdlib.String.concat "string.mli" 132 5016 5016 "string.mli" 132 5016 5060
+)
+"typ_impgraph.ml" 130 2585 2604 "typ_impgraph.ml" 130 2585 2608
+type(
+  string
+)
+"typ_impgraph.ml" 130 2585 2610 "typ_impgraph.ml" 130 2585 2618
+type(
+  (Expr.T.hyp list * Expr.T.expr -> string) ->
+  (Expr.T.hyp list * Expr.T.expr) list -> string list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"typ_impgraph.ml" 130 2585 2619 "typ_impgraph.ml" 130 2585 2629
+type(
+  Expr.T.hyp list * Expr.T.expr -> string
+)
+ident(
+  int_ref Smt.pps_ex "smtcommons.mli" 41 1196 1196 "smtcommons.mli" 41 1196 1236
+)
+"typ_impgraph.ml" 130 2585 2631 "typ_impgraph.ml" 130 2585 2632
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 130 2585 2632 "typ_impgraph.ml" 130 2585 2636
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref
+)
+ident(
+  int_ref f_fm "typ_impgraph.ml" 119 2335 2353 "typ_impgraph.ml" 119 2335 2357
+)
+"typ_impgraph.ml" 130 2585 2631 "typ_impgraph.ml" 130 2585 2636
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 130 2585 2637 "typ_impgraph.ml" 130 2585 2639
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ->
+  Typ_e.SMap.key -> (Expr.T.hyp list * Expr.T.expr) list
+)
+ident(
+  int_ref @@ "typ_impgraph.ml" 65 1259 1263 "typ_impgraph.ml" 65 1259 1269
+)
+"typ_impgraph.ml" 130 2585 2640 "typ_impgraph.ml" 130 2585 2641
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref p "typ_impgraph.ml" 119 2335 2358 "typ_impgraph.ml" 119 2335 2359
+)
+"typ_impgraph.ml" 130 2585 2630 "typ_impgraph.ml" 130 2585 2642
+type(
+  (Expr.T.hyp list * Expr.T.expr) list
+)
+"typ_impgraph.ml" 130 2585 2609 "typ_impgraph.ml" 130 2585 2643
+type(
+  string list
+)
+"typ_impgraph.ml" 130 2585 2589 "typ_impgraph.ml" 130 2585 2644
+type(
+  string
+)
+"typ_impgraph.ml" 120 2362 2366 "typ_impgraph.ml" 130 2585 2644
+type(
+  unit
+)
+"typ_impgraph.ml" 138 2767 2771 "typ_impgraph.ml" 138 2767 2776
+type(
+  Typ_e.SMap.key -> unit
+)
+ident(
+  def rule1 "typ_impgraph.ml" 170 3601 3601 "typ_impgraph.ml" 0 0 -1
+)
+"typ_impgraph.ml" 138 2767 2777 "typ_impgraph.ml" 138 2767 2778
+type(
+  Typ_e.SMap.key
+)
+ident(
+  def k "typ_impgraph.ml" 139 2781 2785 "typ_impgraph.ml" 163 3471 3486
+)
+"typ_impgraph.ml" 139 2781 2788 "typ_impgraph.ml" 139 2781 2789
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 139 2781 2789 "typ_impgraph.ml" 139 2781 2795
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref
+)
+ident(
+  int_ref out_fm "typ_impgraph.ml" 54 999 1003 "typ_impgraph.ml" 54 999 1009
+)
+"typ_impgraph.ml" 139 2781 2788 "typ_impgraph.ml" 139 2781 2795
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 139 2781 2796 "typ_impgraph.ml" 139 2781 2798
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ->
+  Typ_e.SMap.key -> (Expr.T.hyp list * Expr.T.expr) list
+)
+ident(
+  int_ref @@ "typ_impgraph.ml" 65 1259 1263 "typ_impgraph.ml" 65 1259 1269
+)
+"typ_impgraph.ml" 139 2781 2799 "typ_impgraph.ml" 139 2781 2800
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref k "typ_impgraph.ml" 138 2767 2777 "typ_impgraph.ml" 138 2767 2778
+)
+"typ_impgraph.ml" 139 2781 2788 "typ_impgraph.ml" 139 2781 2800
+type(
+  (Expr.T.hyp list * Expr.T.expr) list
+)
+"typ_impgraph.ml" 139 2781 2801 "typ_impgraph.ml" 139 2781 2803
+type(
+  (Expr.T.hyp list * Expr.T.expr) list ->
+  (Expr.T.hyp list * Expr.T.expr) list -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 130 5559 5559 "stdlib.mli" 130 5559 5607
+)
+"typ_impgraph.ml" 139 2781 2804 "typ_impgraph.ml" 139 2781 2806
+type(
+  (Expr.T.hyp list * Expr.T.expr) list
+)
+"typ_impgraph.ml" 139 2781 2788 "typ_impgraph.ml" 139 2781 2806
+type(
+  bool
+)
+"typ_impgraph.ml" 140 2818 2826 "typ_impgraph.ml" 140 2818 2828
+type(
+  Expr.T.hyp list
+)
+ident(
+  def cx "typ_impgraph.ml" 161 3406 3410 "typ_impgraph.ml" 162 3449 3470
+)
+"typ_impgraph.ml" 140 2818 2830 "typ_impgraph.ml" 140 2818 2832
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "typ_impgraph.ml" 161 3406 3410 "typ_impgraph.ml" 162 3449 3470
+)
+"typ_impgraph.ml" 140 2818 2826 "typ_impgraph.ml" 140 2818 2832
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 141 2835 2847 "typ_impgraph.ml" 141 2835 2849
+type(
+  Expr.T.hyp list
+)
+ident(
+  def cx "typ_impgraph.ml" 147 2980 2988 "typ_impgraph.ml" 160 3388 3402
+)
+"typ_impgraph.ml" 143 2868 2888 "typ_impgraph.ml" 143 2868 2890
+type(
+  Expr.T.hyp list
+)
+ident(
+  def cx "typ_impgraph.ml" 144 2917 2933 "typ_impgraph.ml" 144 2917 2935
+)
+"typ_impgraph.ml" 143 2868 2892 "typ_impgraph.ml" 143 2868 2893
+type(
+  Expr.T.expr
+)
+"typ_impgraph.ml" 143 2868 2888 "typ_impgraph.ml" 143 2868 2893
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 143 2868 2896 "typ_impgraph.ml" 143 2868 2898
+type(
+  (Expr.T.hyp list * Expr.T.expr) list -> Expr.T.hyp list * Expr.T.expr
+)
+ident(
+  int_ref Ext.List.hd "ext.mli" 8 132 134 "ext.mli" 8 132 156
+)
+"typ_impgraph.ml" 143 2868 2900 "typ_impgraph.ml" 143 2868 2901
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 143 2868 2901 "typ_impgraph.ml" 143 2868 2907
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref
+)
+ident(
+  int_ref out_fm "typ_impgraph.ml" 54 999 1003 "typ_impgraph.ml" 54 999 1009
+)
+"typ_impgraph.ml" 143 2868 2900 "typ_impgraph.ml" 143 2868 2907
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 143 2868 2908 "typ_impgraph.ml" 143 2868 2910
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ->
+  Typ_e.SMap.key -> (Expr.T.hyp list * Expr.T.expr) list
+)
+ident(
+  int_ref @@ "typ_impgraph.ml" 65 1259 1263 "typ_impgraph.ml" 65 1259 1269
+)
+"typ_impgraph.ml" 143 2868 2911 "typ_impgraph.ml" 143 2868 2912
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref k "typ_impgraph.ml" 138 2767 2777 "typ_impgraph.ml" 138 2767 2778
+)
+"typ_impgraph.ml" 143 2868 2899 "typ_impgraph.ml" 143 2868 2913
+type(
+  (Expr.T.hyp list * Expr.T.expr) list
+)
+"typ_impgraph.ml" 143 2868 2896 "typ_impgraph.ml" 143 2868 2913
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 144 2917 2933 "typ_impgraph.ml" 144 2917 2935
+type(
+  Expr.T.hyp list
+)
+ident(
+  int_ref cx "typ_impgraph.ml" 143 2868 2888 "typ_impgraph.ml" 143 2868 2890
+)
+"typ_impgraph.ml" 143 2868 2884 "typ_impgraph.ml" 144 2917 2935
+type(
+  Expr.T.hyp list
+)
+"typ_impgraph.ml" 145 2936 2953 "typ_impgraph.ml" 145 2936 2954
+type(
+  exn
+)
+"typ_impgraph.ml" 146 2958 2974 "typ_impgraph.ml" 146 2958 2976
+type(
+  Expr.T.hyp list
+)
+"typ_impgraph.ml" 142 2852 2864 "typ_impgraph.ml" 146 2958 2976
+type(
+  Expr.T.hyp list
+)
+"typ_impgraph.ml" 147 2980 2992 "typ_impgraph.ml" 147 2980 2994
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "typ_impgraph.ml" 151 3124 3132 "typ_impgraph.ml" 160 3388 3402
+)
+"typ_impgraph.ml" 147 2980 2997 "typ_impgraph.ml" 147 2980 3005
+type(
+  (Expr.T.hyp list * Expr.T.expr -> Expr.T.expr) ->
+  (Expr.T.hyp list * Expr.T.expr) list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"typ_impgraph.ml" 148 3006 3024 "typ_impgraph.ml" 148 3006 3026
+type(
+  Expr.T.hyp list
+)
+ident(
+  def cx "typ_impgraph.ml" 148 3006 3034 "typ_impgraph.ml" 148 3006 3035
+)
+"typ_impgraph.ml" 148 3006 3028 "typ_impgraph.ml" 148 3006 3029
+type(
+  Expr.T.expr
+)
+ident(
+  def e "typ_impgraph.ml" 148 3006 3034 "typ_impgraph.ml" 148 3006 3035
+)
+"typ_impgraph.ml" 148 3006 3023 "typ_impgraph.ml" 148 3006 3030
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 148 3006 3034 "typ_impgraph.ml" 148 3006 3035
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "typ_impgraph.ml" 148 3006 3028 "typ_impgraph.ml" 148 3006 3029
+)
+"typ_impgraph.ml" 148 3006 3018 "typ_impgraph.ml" 148 3006 3036
+type(
+  Expr.T.hyp list * Expr.T.expr -> Expr.T.expr
+)
+"typ_impgraph.ml" 149 3037 3050 "typ_impgraph.ml" 149 3037 3051
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 149 3037 3051 "typ_impgraph.ml" 149 3037 3057
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref
+)
+ident(
+  int_ref out_fm "typ_impgraph.ml" 54 999 1003 "typ_impgraph.ml" 54 999 1009
+)
+"typ_impgraph.ml" 149 3037 3050 "typ_impgraph.ml" 149 3037 3057
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 149 3037 3058 "typ_impgraph.ml" 149 3037 3060
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ->
+  Typ_e.SMap.key -> (Expr.T.hyp list * Expr.T.expr) list
+)
+ident(
+  int_ref @@ "typ_impgraph.ml" 65 1259 1263 "typ_impgraph.ml" 65 1259 1269
+)
+"typ_impgraph.ml" 149 3037 3061 "typ_impgraph.ml" 149 3037 3062
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref k "typ_impgraph.ml" 138 2767 2777 "typ_impgraph.ml" 138 2767 2778
+)
+"typ_impgraph.ml" 149 3037 3049 "typ_impgraph.ml" 149 3037 3063
+type(
+  (Expr.T.hyp list * Expr.T.expr) list
+)
+"typ_impgraph.ml" 147 2980 2997 "typ_impgraph.ml" 149 3037 3063
+type(
+  Expr.T.expr list
+)
+"typ_impgraph.ml" 151 3124 3136 "typ_impgraph.ml" 151 3124 3138
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "typ_impgraph.ml" 158 3330 3338 "typ_impgraph.ml" 160 3388 3402
+)
+"typ_impgraph.ml" 153 3157 3177 "typ_impgraph.ml" 153 3157 3179
+type(
+  Expr.T.hyp list
+)
+ident(
+  def cx "typ_impgraph.ml" 155 3229 3245 "typ_impgraph.ml" 155 3229 3253
+)
+"typ_impgraph.ml" 153 3157 3181 "typ_impgraph.ml" 153 3157 3183
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "typ_impgraph.ml" 155 3229 3245 "typ_impgraph.ml" 155 3229 3253
+)
+"typ_impgraph.ml" 153 3157 3177 "typ_impgraph.ml" 153 3157 3183
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 153 3157 3186 "typ_impgraph.ml" 153 3157 3195
+type(
+  Typ_e.SMap.key ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ->
+  Expr.T.hyp list * Expr.T.expr
+)
+ident(
+  int_ref Typ_e.SMap.find "map.mli" 278 11157 11161 "map.mli" 278 11157 11188
+)
+"typ_impgraph.ml" 154 3196 3216 "typ_impgraph.ml" 154 3196 3217
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref k "typ_impgraph.ml" 138 2767 2777 "typ_impgraph.ml" 138 2767 2778
+)
+"typ_impgraph.ml" 154 3196 3218 "typ_impgraph.ml" 154 3196 3219
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 154 3196 3219 "typ_impgraph.ml" 154 3196 3225
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref plhdrs "typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+)
+"typ_impgraph.ml" 154 3196 3218 "typ_impgraph.ml" 154 3196 3225
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 153 3157 3186 "typ_impgraph.ml" 154 3196 3225
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 155 3229 3245 "typ_impgraph.ml" 155 3229 3247
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "typ_impgraph.ml" 153 3157 3181 "typ_impgraph.ml" 153 3157 3183
+)
+"typ_impgraph.ml" 155 3229 3251 "typ_impgraph.ml" 155 3229 3253
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "typ_impgraph.ml" 147 2980 2992 "typ_impgraph.ml" 147 2980 2994
+)
+"typ_impgraph.ml" 155 3229 3245 "typ_impgraph.ml" 155 3229 3253
+type(
+  Expr.T.expr list
+)
+"typ_impgraph.ml" 153 3157 3173 "typ_impgraph.ml" 155 3229 3253
+type(
+  Expr.T.expr list
+)
+"typ_impgraph.ml" 156 3278 3295 "typ_impgraph.ml" 156 3278 3304
+type(
+  exn
+)
+"typ_impgraph.ml" 157 3308 3324 "typ_impgraph.ml" 157 3308 3326
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "typ_impgraph.ml" 147 2980 2992 "typ_impgraph.ml" 147 2980 2994
+)
+"typ_impgraph.ml" 152 3141 3153 "typ_impgraph.ml" 157 3308 3326
+type(
+  Expr.T.expr list
+)
+"typ_impgraph.ml" 158 3330 3342 "typ_impgraph.ml" 158 3330 3344
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "typ_impgraph.ml" 160 3388 3396 "typ_impgraph.ml" 160 3388 3402
+)
+"typ_impgraph.ml" 158 3330 3353 "typ_impgraph.ml" 158 3330 3356
+type(
+  Expr.T.bullet
+)
+"typ_impgraph.ml" 158 3330 3358 "typ_impgraph.ml" 158 3330 3360
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "typ_impgraph.ml" 151 3124 3136 "typ_impgraph.ml" 151 3124 3138
+)
+"typ_impgraph.ml" 158 3330 3347 "typ_impgraph.ml" 158 3330 3361
+type(
+  Expr.T.expr_
+)
+"typ_impgraph.ml" 159 3362 3377 "typ_impgraph.ml" 159 3362 3384
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk_list "typ_impgraph.ml" 33 525 529 "typ_impgraph.ml" 33 525 536
+)
+"typ_impgraph.ml" 158 3330 3347 "typ_impgraph.ml" 159 3362 3384
+type(
+  Expr.T.expr
+)
+"typ_impgraph.ml" 160 3388 3396 "typ_impgraph.ml" 160 3388 3398
+type(
+  Expr.T.hyp list
+)
+ident(
+  int_ref cx "typ_impgraph.ml" 141 2835 2847 "typ_impgraph.ml" 141 2835 2849
+)
+"typ_impgraph.ml" 160 3388 3400 "typ_impgraph.ml" 160 3388 3402
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "typ_impgraph.ml" 158 3330 3342 "typ_impgraph.ml" 158 3330 3344
+)
+"typ_impgraph.ml" 160 3388 3396 "typ_impgraph.ml" 160 3388 3402
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 158 3330 3338 "typ_impgraph.ml" 160 3388 3402
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 151 3124 3132 "typ_impgraph.ml" 160 3388 3402
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 147 2980 2988 "typ_impgraph.ml" 160 3388 3402
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 141 2835 2843 "typ_impgraph.ml" 160 3388 3402
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 161 3406 3410 "typ_impgraph.ml" 161 3406 3416
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref plhdrs "typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+)
+"typ_impgraph.ml" 161 3406 3417 "typ_impgraph.ml" 161 3406 3419
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"typ_impgraph.ml" 161 3406 3420 "typ_impgraph.ml" 161 3406 3428
+type(
+  Typ_e.SMap.key ->
+  Expr.T.hyp list * Expr.T.expr ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref Typ_e.SMap.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"typ_impgraph.ml" 161 3406 3429 "typ_impgraph.ml" 161 3406 3430
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref k "typ_impgraph.ml" 138 2767 2777 "typ_impgraph.ml" 138 2767 2778
+)
+"typ_impgraph.ml" 161 3406 3432 "typ_impgraph.ml" 161 3406 3434
+type(
+  Expr.T.hyp list
+)
+ident(
+  int_ref cx "typ_impgraph.ml" 140 2818 2826 "typ_impgraph.ml" 140 2818 2828
+)
+"typ_impgraph.ml" 161 3406 3436 "typ_impgraph.ml" 161 3406 3438
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "typ_impgraph.ml" 140 2818 2830 "typ_impgraph.ml" 140 2818 2832
+)
+"typ_impgraph.ml" 161 3406 3431 "typ_impgraph.ml" 161 3406 3439
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 161 3406 3440 "typ_impgraph.ml" 161 3406 3441
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 161 3406 3441 "typ_impgraph.ml" 161 3406 3447
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref plhdrs "typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+)
+"typ_impgraph.ml" 161 3406 3440 "typ_impgraph.ml" 161 3406 3447
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 161 3406 3420 "typ_impgraph.ml" 161 3406 3447
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 161 3406 3410 "typ_impgraph.ml" 161 3406 3447
+type(
+  unit
+)
+"typ_impgraph.ml" 162 3449 3453 "typ_impgraph.ml" 162 3449 3460
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref ->
+  Typ_e.SMap.key -> unit
+)
+ident(
+  int_ref mremove "typ_impgraph.ml" 82 1578 1582 "typ_impgraph.ml" 82 1578 1589
+)
+"typ_impgraph.ml" 162 3449 3461 "typ_impgraph.ml" 162 3449 3467
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref
+)
+ident(
+  int_ref out_fm "typ_impgraph.ml" 54 999 1003 "typ_impgraph.ml" 54 999 1009
+)
+"typ_impgraph.ml" 162 3449 3468 "typ_impgraph.ml" 162 3449 3469
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref k "typ_impgraph.ml" 138 2767 2777 "typ_impgraph.ml" 138 2767 2778
+)
+"typ_impgraph.ml" 162 3449 3453 "typ_impgraph.ml" 162 3449 3469
+type(
+  unit
+)
+"typ_impgraph.ml" 161 3406 3410 "typ_impgraph.ml" 162 3449 3470
+type(
+  unit
+)
+"typ_impgraph.ml" 139 2781 2812 "typ_impgraph.ml" 163 3471 3478
+type(
+  unit
+)
+"typ_impgraph.ml" 163 3471 3484 "typ_impgraph.ml" 163 3471 3486
+type(
+  unit
+)
+"typ_impgraph.ml" 139 2781 2785 "typ_impgraph.ml" 163 3471 3486
+type(
+  unit
+)
+"typ_impgraph.ml" 170 3601 3605 "typ_impgraph.ml" 170 3601 3610
+type(
+  Typ_e.SMap.key -> unit
+)
+ident(
+  def rule2 "typ_impgraph.ml" 197 4328 4328 "typ_impgraph.ml" 0 0 -1
+)
+"typ_impgraph.ml" 170 3601 3611 "typ_impgraph.ml" 170 3601 3612
+type(
+  Typ_e.SMap.key
+)
+ident(
+  def k "typ_impgraph.ml" 171 3615 3619 "typ_impgraph.ml" 195 4311 4326
+)
+"typ_impgraph.ml" 171 3615 3622 "typ_impgraph.ml" 171 3615 3623
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 171 3615 3623 "typ_impgraph.ml" 171 3615 3628
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref
+)
+ident(
+  int_ref in_fm "typ_impgraph.ml" 46 779 783 "typ_impgraph.ml" 46 779 788
+)
+"typ_impgraph.ml" 171 3615 3622 "typ_impgraph.ml" 171 3615 3628
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 171 3615 3629 "typ_impgraph.ml" 171 3615 3631
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ->
+  Typ_e.SMap.key -> (Expr.T.hyp list * Expr.T.expr) list
+)
+ident(
+  int_ref @@ "typ_impgraph.ml" 65 1259 1263 "typ_impgraph.ml" 65 1259 1269
+)
+"typ_impgraph.ml" 171 3615 3632 "typ_impgraph.ml" 171 3615 3633
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref k "typ_impgraph.ml" 170 3601 3611 "typ_impgraph.ml" 170 3601 3612
+)
+"typ_impgraph.ml" 171 3615 3622 "typ_impgraph.ml" 171 3615 3633
+type(
+  (Expr.T.hyp list * Expr.T.expr) list
+)
+"typ_impgraph.ml" 171 3615 3634 "typ_impgraph.ml" 171 3615 3636
+type(
+  (Expr.T.hyp list * Expr.T.expr) list ->
+  (Expr.T.hyp list * Expr.T.expr) list -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 130 5559 5559 "stdlib.mli" 130 5559 5607
+)
+"typ_impgraph.ml" 171 3615 3637 "typ_impgraph.ml" 171 3615 3639
+type(
+  (Expr.T.hyp list * Expr.T.expr) list
+)
+"typ_impgraph.ml" 171 3615 3622 "typ_impgraph.ml" 171 3615 3639
+type(
+  bool
+)
+"typ_impgraph.ml" 172 3651 3659 "typ_impgraph.ml" 172 3651 3661
+type(
+  Expr.T.hyp list
+)
+ident(
+  def cx "typ_impgraph.ml" 193 4247 4251 "typ_impgraph.ml" 194 4290 4310
+)
+"typ_impgraph.ml" 172 3651 3663 "typ_impgraph.ml" 172 3651 3665
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "typ_impgraph.ml" 193 4247 4251 "typ_impgraph.ml" 194 4290 4310
+)
+"typ_impgraph.ml" 172 3651 3659 "typ_impgraph.ml" 172 3651 3665
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 173 3668 3680 "typ_impgraph.ml" 173 3668 3682
+type(
+  Expr.T.hyp list
+)
+ident(
+  def cx "typ_impgraph.ml" 179 3812 3820 "typ_impgraph.ml" 192 4229 4243
+)
+"typ_impgraph.ml" 175 3701 3721 "typ_impgraph.ml" 175 3701 3723
+type(
+  Expr.T.hyp list
+)
+ident(
+  def cx "typ_impgraph.ml" 176 3749 3765 "typ_impgraph.ml" 176 3749 3767
+)
+"typ_impgraph.ml" 175 3701 3725 "typ_impgraph.ml" 175 3701 3726
+type(
+  Expr.T.expr
+)
+"typ_impgraph.ml" 175 3701 3721 "typ_impgraph.ml" 175 3701 3726
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 175 3701 3729 "typ_impgraph.ml" 175 3701 3731
+type(
+  (Expr.T.hyp list * Expr.T.expr) list -> Expr.T.hyp list * Expr.T.expr
+)
+ident(
+  int_ref Ext.List.hd "ext.mli" 8 132 134 "ext.mli" 8 132 156
+)
+"typ_impgraph.ml" 175 3701 3733 "typ_impgraph.ml" 175 3701 3734
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 175 3701 3734 "typ_impgraph.ml" 175 3701 3739
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref
+)
+ident(
+  int_ref in_fm "typ_impgraph.ml" 46 779 783 "typ_impgraph.ml" 46 779 788
+)
+"typ_impgraph.ml" 175 3701 3733 "typ_impgraph.ml" 175 3701 3739
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 175 3701 3740 "typ_impgraph.ml" 175 3701 3742
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ->
+  Typ_e.SMap.key -> (Expr.T.hyp list * Expr.T.expr) list
+)
+ident(
+  int_ref @@ "typ_impgraph.ml" 65 1259 1263 "typ_impgraph.ml" 65 1259 1269
+)
+"typ_impgraph.ml" 175 3701 3743 "typ_impgraph.ml" 175 3701 3744
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref k "typ_impgraph.ml" 170 3601 3611 "typ_impgraph.ml" 170 3601 3612
+)
+"typ_impgraph.ml" 175 3701 3732 "typ_impgraph.ml" 175 3701 3745
+type(
+  (Expr.T.hyp list * Expr.T.expr) list
+)
+"typ_impgraph.ml" 175 3701 3729 "typ_impgraph.ml" 175 3701 3745
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 176 3749 3765 "typ_impgraph.ml" 176 3749 3767
+type(
+  Expr.T.hyp list
+)
+ident(
+  int_ref cx "typ_impgraph.ml" 175 3701 3721 "typ_impgraph.ml" 175 3701 3723
+)
+"typ_impgraph.ml" 175 3701 3717 "typ_impgraph.ml" 176 3749 3767
+type(
+  Expr.T.hyp list
+)
+"typ_impgraph.ml" 177 3768 3785 "typ_impgraph.ml" 177 3768 3786
+type(
+  exn
+)
+"typ_impgraph.ml" 178 3790 3806 "typ_impgraph.ml" 178 3790 3808
+type(
+  Expr.T.hyp list
+)
+"typ_impgraph.ml" 174 3685 3697 "typ_impgraph.ml" 178 3790 3808
+type(
+  Expr.T.hyp list
+)
+"typ_impgraph.ml" 179 3812 3824 "typ_impgraph.ml" 179 3812 3826
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "typ_impgraph.ml" 184 3982 3990 "typ_impgraph.ml" 192 4229 4243
+)
+"typ_impgraph.ml" 179 3812 3829 "typ_impgraph.ml" 179 3812 3837
+type(
+  (Expr.T.hyp list * Expr.T.expr -> Expr.T.expr) ->
+  (Expr.T.hyp list * Expr.T.expr) list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"typ_impgraph.ml" 180 3838 3856 "typ_impgraph.ml" 180 3838 3858
+type(
+  Expr.T.hyp list
+)
+ident(
+  def cx "typ_impgraph.ml" 180 3838 3866 "typ_impgraph.ml" 180 3838 3867
+)
+"typ_impgraph.ml" 180 3838 3860 "typ_impgraph.ml" 180 3838 3861
+type(
+  Expr.T.expr
+)
+ident(
+  def e "typ_impgraph.ml" 180 3838 3866 "typ_impgraph.ml" 180 3838 3867
+)
+"typ_impgraph.ml" 180 3838 3855 "typ_impgraph.ml" 180 3838 3862
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 180 3838 3866 "typ_impgraph.ml" 180 3838 3867
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "typ_impgraph.ml" 180 3838 3860 "typ_impgraph.ml" 180 3838 3861
+)
+"typ_impgraph.ml" 180 3838 3850 "typ_impgraph.ml" 180 3838 3868
+type(
+  Expr.T.hyp list * Expr.T.expr -> Expr.T.expr
+)
+"typ_impgraph.ml" 181 3869 3882 "typ_impgraph.ml" 181 3869 3883
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 181 3869 3883 "typ_impgraph.ml" 181 3869 3888
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref
+)
+ident(
+  int_ref in_fm "typ_impgraph.ml" 46 779 783 "typ_impgraph.ml" 46 779 788
+)
+"typ_impgraph.ml" 181 3869 3882 "typ_impgraph.ml" 181 3869 3888
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 181 3869 3889 "typ_impgraph.ml" 181 3869 3891
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ->
+  Typ_e.SMap.key -> (Expr.T.hyp list * Expr.T.expr) list
+)
+ident(
+  int_ref @@ "typ_impgraph.ml" 65 1259 1263 "typ_impgraph.ml" 65 1259 1269
+)
+"typ_impgraph.ml" 181 3869 3892 "typ_impgraph.ml" 181 3869 3893
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref k "typ_impgraph.ml" 170 3601 3611 "typ_impgraph.ml" 170 3601 3612
+)
+"typ_impgraph.ml" 181 3869 3881 "typ_impgraph.ml" 181 3869 3894
+type(
+  (Expr.T.hyp list * Expr.T.expr) list
+)
+"typ_impgraph.ml" 179 3812 3829 "typ_impgraph.ml" 181 3869 3894
+type(
+  Expr.T.expr list
+)
+"typ_impgraph.ml" 184 3982 3994 "typ_impgraph.ml" 184 3982 3996
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "typ_impgraph.ml" 190 4172 4180 "typ_impgraph.ml" 192 4229 4243
+)
+"typ_impgraph.ml" 186 4015 4035 "typ_impgraph.ml" 186 4015 4037
+type(
+  Expr.T.hyp list
+)
+ident(
+  def cx "typ_impgraph.ml" 187 4054 4087 "typ_impgraph.ml" 187 4054 4095
+)
+"typ_impgraph.ml" 186 4015 4039 "typ_impgraph.ml" 186 4015 4041
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "typ_impgraph.ml" 187 4054 4087 "typ_impgraph.ml" 187 4054 4095
+)
+"typ_impgraph.ml" 186 4015 4035 "typ_impgraph.ml" 186 4015 4041
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 186 4015 4044 "typ_impgraph.ml" 186 4015 4053
+type(
+  Typ_e.SMap.key ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ->
+  Expr.T.hyp list * Expr.T.expr
+)
+ident(
+  int_ref Typ_e.SMap.find "map.mli" 278 11157 11161 "map.mli" 278 11157 11188
+)
+"typ_impgraph.ml" 187 4054 4074 "typ_impgraph.ml" 187 4054 4075
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref k "typ_impgraph.ml" 170 3601 3611 "typ_impgraph.ml" 170 3601 3612
+)
+"typ_impgraph.ml" 187 4054 4076 "typ_impgraph.ml" 187 4054 4077
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 187 4054 4077 "typ_impgraph.ml" 187 4054 4083
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref plhdrs "typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+)
+"typ_impgraph.ml" 187 4054 4076 "typ_impgraph.ml" 187 4054 4083
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 186 4015 4044 "typ_impgraph.ml" 187 4054 4083
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 187 4054 4087 "typ_impgraph.ml" 187 4054 4089
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "typ_impgraph.ml" 186 4015 4039 "typ_impgraph.ml" 186 4015 4041
+)
+"typ_impgraph.ml" 187 4054 4093 "typ_impgraph.ml" 187 4054 4095
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "typ_impgraph.ml" 179 3812 3824 "typ_impgraph.ml" 179 3812 3826
+)
+"typ_impgraph.ml" 187 4054 4087 "typ_impgraph.ml" 187 4054 4095
+type(
+  Expr.T.expr list
+)
+"typ_impgraph.ml" 186 4015 4031 "typ_impgraph.ml" 187 4054 4095
+type(
+  Expr.T.expr list
+)
+"typ_impgraph.ml" 188 4120 4137 "typ_impgraph.ml" 188 4120 4146
+type(
+  exn
+)
+"typ_impgraph.ml" 189 4150 4166 "typ_impgraph.ml" 189 4150 4168
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "typ_impgraph.ml" 179 3812 3824 "typ_impgraph.ml" 179 3812 3826
+)
+"typ_impgraph.ml" 185 3999 4011 "typ_impgraph.ml" 189 4150 4168
+type(
+  Expr.T.expr list
+)
+"typ_impgraph.ml" 190 4172 4184 "typ_impgraph.ml" 190 4172 4186
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "typ_impgraph.ml" 192 4229 4237 "typ_impgraph.ml" 192 4229 4243
+)
+"typ_impgraph.ml" 190 4172 4195 "typ_impgraph.ml" 190 4172 4197
+type(
+  Expr.T.bullet
+)
+"typ_impgraph.ml" 190 4172 4199 "typ_impgraph.ml" 190 4172 4201
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "typ_impgraph.ml" 184 3982 3994 "typ_impgraph.ml" 184 3982 3996
+)
+"typ_impgraph.ml" 190 4172 4189 "typ_impgraph.ml" 190 4172 4202
+type(
+  Expr.T.expr_
+)
+"typ_impgraph.ml" 191 4203 4218 "typ_impgraph.ml" 191 4203 4225
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk_list "typ_impgraph.ml" 33 525 529 "typ_impgraph.ml" 33 525 536
+)
+"typ_impgraph.ml" 190 4172 4189 "typ_impgraph.ml" 191 4203 4225
+type(
+  Expr.T.expr
+)
+"typ_impgraph.ml" 192 4229 4237 "typ_impgraph.ml" 192 4229 4239
+type(
+  Expr.T.hyp list
+)
+ident(
+  int_ref cx "typ_impgraph.ml" 173 3668 3680 "typ_impgraph.ml" 173 3668 3682
+)
+"typ_impgraph.ml" 192 4229 4241 "typ_impgraph.ml" 192 4229 4243
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "typ_impgraph.ml" 190 4172 4184 "typ_impgraph.ml" 190 4172 4186
+)
+"typ_impgraph.ml" 192 4229 4237 "typ_impgraph.ml" 192 4229 4243
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 190 4172 4180 "typ_impgraph.ml" 192 4229 4243
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 184 3982 3990 "typ_impgraph.ml" 192 4229 4243
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 179 3812 3820 "typ_impgraph.ml" 192 4229 4243
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 173 3668 3676 "typ_impgraph.ml" 192 4229 4243
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 193 4247 4251 "typ_impgraph.ml" 193 4247 4257
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref plhdrs "typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+)
+"typ_impgraph.ml" 193 4247 4258 "typ_impgraph.ml" 193 4247 4260
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"typ_impgraph.ml" 193 4247 4261 "typ_impgraph.ml" 193 4247 4269
+type(
+  Typ_e.SMap.key ->
+  Expr.T.hyp list * Expr.T.expr ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref Typ_e.SMap.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"typ_impgraph.ml" 193 4247 4270 "typ_impgraph.ml" 193 4247 4271
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref k "typ_impgraph.ml" 170 3601 3611 "typ_impgraph.ml" 170 3601 3612
+)
+"typ_impgraph.ml" 193 4247 4273 "typ_impgraph.ml" 193 4247 4275
+type(
+  Expr.T.hyp list
+)
+ident(
+  int_ref cx "typ_impgraph.ml" 172 3651 3659 "typ_impgraph.ml" 172 3651 3661
+)
+"typ_impgraph.ml" 193 4247 4277 "typ_impgraph.ml" 193 4247 4279
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "typ_impgraph.ml" 172 3651 3663 "typ_impgraph.ml" 172 3651 3665
+)
+"typ_impgraph.ml" 193 4247 4272 "typ_impgraph.ml" 193 4247 4280
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 193 4247 4281 "typ_impgraph.ml" 193 4247 4282
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 193 4247 4282 "typ_impgraph.ml" 193 4247 4288
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref plhdrs "typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+)
+"typ_impgraph.ml" 193 4247 4281 "typ_impgraph.ml" 193 4247 4288
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 193 4247 4261 "typ_impgraph.ml" 193 4247 4288
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 193 4247 4251 "typ_impgraph.ml" 193 4247 4288
+type(
+  unit
+)
+"typ_impgraph.ml" 194 4290 4294 "typ_impgraph.ml" 194 4290 4301
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref ->
+  Typ_e.SMap.key -> unit
+)
+ident(
+  int_ref mremove "typ_impgraph.ml" 82 1578 1582 "typ_impgraph.ml" 82 1578 1589
+)
+"typ_impgraph.ml" 194 4290 4302 "typ_impgraph.ml" 194 4290 4307
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref
+)
+ident(
+  int_ref in_fm "typ_impgraph.ml" 46 779 783 "typ_impgraph.ml" 46 779 788
+)
+"typ_impgraph.ml" 194 4290 4308 "typ_impgraph.ml" 194 4290 4309
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref k "typ_impgraph.ml" 170 3601 3611 "typ_impgraph.ml" 170 3601 3612
+)
+"typ_impgraph.ml" 194 4290 4294 "typ_impgraph.ml" 194 4290 4309
+type(
+  unit
+)
+"typ_impgraph.ml" 193 4247 4251 "typ_impgraph.ml" 194 4290 4310
+type(
+  unit
+)
+"typ_impgraph.ml" 171 3615 3645 "typ_impgraph.ml" 195 4311 4318
+type(
+  unit
+)
+"typ_impgraph.ml" 195 4311 4324 "typ_impgraph.ml" 195 4311 4326
+type(
+  unit
+)
+"typ_impgraph.ml" 171 3615 3619 "typ_impgraph.ml" 195 4311 4326
+type(
+  unit
+)
+"typ_impgraph.ml" 197 4328 4332 "typ_impgraph.ml" 197 4328 4337
+type(
+  Typ_e.SMap.key -> unit
+)
+ident(
+  def rule3 "typ_impgraph.ml" 242 5622 5622 "typ_impgraph.ml" 0 0 -1
+)
+"typ_impgraph.ml" 197 4328 4338 "typ_impgraph.ml" 197 4328 4339
+type(
+  Typ_e.SMap.key
+)
+ident(
+  def i "typ_impgraph.ml" 198 4342 4346 "typ_impgraph.ml" 240 5605 5620
+)
+"typ_impgraph.ml" 198 4342 4349 "typ_impgraph.ml" 198 4342 4350
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref -> Typ_e.SMap.key list Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 198 4342 4350 "typ_impgraph.ml" 198 4342 4356
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref
+)
+ident(
+  int_ref out_ph "typ_impgraph.ml" 58 1112 1116 "typ_impgraph.ml" 58 1112 1122
+)
+"typ_impgraph.ml" 198 4342 4349 "typ_impgraph.ml" 198 4342 4356
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 198 4342 4357 "typ_impgraph.ml" 198 4342 4359
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t -> Typ_e.SMap.key -> Typ_e.SMap.key list
+)
+ident(
+  int_ref @@ "typ_impgraph.ml" 65 1259 1263 "typ_impgraph.ml" 65 1259 1269
+)
+"typ_impgraph.ml" 198 4342 4360 "typ_impgraph.ml" 198 4342 4361
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref i "typ_impgraph.ml" 197 4328 4338 "typ_impgraph.ml" 197 4328 4339
+)
+"typ_impgraph.ml" 198 4342 4349 "typ_impgraph.ml" 198 4342 4361
+type(
+  Typ_e.SMap.key list
+)
+"typ_impgraph.ml" 198 4342 4362 "typ_impgraph.ml" 198 4342 4364
+type(
+  Typ_e.SMap.key list -> Typ_e.SMap.key list -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 130 5559 5559 "stdlib.mli" 130 5559 5607
+)
+"typ_impgraph.ml" 198 4342 4365 "typ_impgraph.ml" 198 4342 4367
+type(
+  Typ_e.SMap.key list
+)
+"typ_impgraph.ml" 198 4342 4349 "typ_impgraph.ml" 198 4342 4367
+type(
+  bool
+)
+"typ_impgraph.ml" 198 4342 4368 "typ_impgraph.ml" 198 4342 4370
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"typ_impgraph.ml" 199 4371 4379 "typ_impgraph.ml" 199 4371 4380
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 199 4371 4380 "typ_impgraph.ml" 199 4371 4386
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref
+)
+ident(
+  int_ref out_fm "typ_impgraph.ml" 54 999 1003 "typ_impgraph.ml" 54 999 1009
+)
+"typ_impgraph.ml" 199 4371 4379 "typ_impgraph.ml" 199 4371 4386
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 199 4371 4387 "typ_impgraph.ml" 199 4371 4389
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ->
+  Typ_e.SMap.key -> (Expr.T.hyp list * Expr.T.expr) list
+)
+ident(
+  int_ref @@ "typ_impgraph.ml" 65 1259 1263 "typ_impgraph.ml" 65 1259 1269
+)
+"typ_impgraph.ml" 199 4371 4390 "typ_impgraph.ml" 199 4371 4391
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref i "typ_impgraph.ml" 197 4328 4338 "typ_impgraph.ml" 197 4328 4339
+)
+"typ_impgraph.ml" 199 4371 4379 "typ_impgraph.ml" 199 4371 4391
+type(
+  (Expr.T.hyp list * Expr.T.expr) list
+)
+"typ_impgraph.ml" 199 4371 4392 "typ_impgraph.ml" 199 4371 4393
+type(
+  (Expr.T.hyp list * Expr.T.expr) list ->
+  (Expr.T.hyp list * Expr.T.expr) list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"typ_impgraph.ml" 199 4371 4394 "typ_impgraph.ml" 199 4371 4396
+type(
+  (Expr.T.hyp list * Expr.T.expr) list
+)
+"typ_impgraph.ml" 199 4371 4379 "typ_impgraph.ml" 199 4371 4396
+type(
+  bool
+)
+"typ_impgraph.ml" 199 4371 4397 "typ_impgraph.ml" 199 4371 4399
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"typ_impgraph.ml" 200 4400 4408 "typ_impgraph.ml" 200 4400 4409
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 200 4400 4409 "typ_impgraph.ml" 200 4400 4414
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref
+)
+ident(
+  int_ref in_fm "typ_impgraph.ml" 46 779 783 "typ_impgraph.ml" 46 779 788
+)
+"typ_impgraph.ml" 200 4400 4408 "typ_impgraph.ml" 200 4400 4414
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 200 4400 4415 "typ_impgraph.ml" 200 4400 4417
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ->
+  Typ_e.SMap.key -> (Expr.T.hyp list * Expr.T.expr) list
+)
+ident(
+  int_ref @@ "typ_impgraph.ml" 65 1259 1263 "typ_impgraph.ml" 65 1259 1269
+)
+"typ_impgraph.ml" 200 4400 4418 "typ_impgraph.ml" 200 4400 4419
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref i "typ_impgraph.ml" 197 4328 4338 "typ_impgraph.ml" 197 4328 4339
+)
+"typ_impgraph.ml" 200 4400 4408 "typ_impgraph.ml" 200 4400 4419
+type(
+  (Expr.T.hyp list * Expr.T.expr) list
+)
+"typ_impgraph.ml" 200 4400 4420 "typ_impgraph.ml" 200 4400 4421
+type(
+  (Expr.T.hyp list * Expr.T.expr) list ->
+  (Expr.T.hyp list * Expr.T.expr) list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"typ_impgraph.ml" 200 4400 4422 "typ_impgraph.ml" 200 4400 4424
+type(
+  (Expr.T.hyp list * Expr.T.expr) list
+)
+"typ_impgraph.ml" 200 4400 4408 "typ_impgraph.ml" 200 4400 4424
+type(
+  bool
+)
+"typ_impgraph.ml" 199 4371 4379 "typ_impgraph.ml" 200 4400 4424
+type(
+  bool
+)
+"typ_impgraph.ml" 198 4342 4349 "typ_impgraph.ml" 200 4400 4424
+type(
+  bool
+)
+"typ_impgraph.ml" 203 4482 4494 "typ_impgraph.ml" 203 4482 4496
+type(
+  Typ_e.SMap.key list
+)
+ident(
+  def ps "typ_impgraph.ml" 204 4515 4523 "typ_impgraph.ml" 239 5585 5604
+)
+"typ_impgraph.ml" 203 4482 4499 "typ_impgraph.ml" 203 4482 4500
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref -> Typ_e.SMap.key list Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 203 4482 4500 "typ_impgraph.ml" 203 4482 4506
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref
+)
+ident(
+  int_ref out_ph "typ_impgraph.ml" 58 1112 1116 "typ_impgraph.ml" 58 1112 1122
+)
+"typ_impgraph.ml" 203 4482 4499 "typ_impgraph.ml" 203 4482 4506
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 203 4482 4507 "typ_impgraph.ml" 203 4482 4509
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t -> Typ_e.SMap.key -> Typ_e.SMap.key list
+)
+ident(
+  int_ref @@ "typ_impgraph.ml" 65 1259 1263 "typ_impgraph.ml" 65 1259 1269
+)
+"typ_impgraph.ml" 203 4482 4510 "typ_impgraph.ml" 203 4482 4511
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref i "typ_impgraph.ml" 197 4328 4338 "typ_impgraph.ml" 197 4328 4339
+)
+"typ_impgraph.ml" 203 4482 4499 "typ_impgraph.ml" 203 4482 4511
+type(
+  Typ_e.SMap.key list
+)
+"typ_impgraph.ml" 204 4515 4527 "typ_impgraph.ml" 204 4515 4529
+type(
+  Typ_e.SMap.key -> (Expr.T.hyp list * Expr.T.expr) option
+)
+ident(
+  def ph "typ_impgraph.ml" 209 4639 4647 "typ_impgraph.ml" 239 5585 5604
+)
+"typ_impgraph.ml" 204 4515 4530 "typ_impgraph.ml" 204 4515 4531
+type(
+  Typ_e.SMap.key
+)
+ident(
+  def k "typ_impgraph.ml" 205 4534 4546 "typ_impgraph.ml" 208 4615 4635
+)
+"typ_impgraph.ml" 206 4550 4572 "typ_impgraph.ml" 206 4550 4581
+type(
+  Typ_e.SMap.key ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ->
+  Expr.T.hyp list * Expr.T.expr
+)
+ident(
+  int_ref Typ_e.SMap.find "map.mli" 278 11157 11161 "map.mli" 278 11157 11188
+)
+"typ_impgraph.ml" 206 4550 4582 "typ_impgraph.ml" 206 4550 4583
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref k "typ_impgraph.ml" 204 4515 4530 "typ_impgraph.ml" 204 4515 4531
+)
+"typ_impgraph.ml" 206 4550 4584 "typ_impgraph.ml" 206 4550 4585
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 206 4550 4585 "typ_impgraph.ml" 206 4550 4591
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref plhdrs "typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+)
+"typ_impgraph.ml" 206 4550 4584 "typ_impgraph.ml" 206 4550 4591
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 206 4550 4571 "typ_impgraph.ml" 206 4550 4592
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 206 4550 4566 "typ_impgraph.ml" 206 4550 4592
+type(
+  (Expr.T.hyp list * Expr.T.expr) option
+)
+"typ_impgraph.ml" 207 4593 4610 "typ_impgraph.ml" 207 4593 4611
+type(
+  exn
+)
+"typ_impgraph.ml" 208 4615 4631 "typ_impgraph.ml" 208 4615 4635
+type(
+  (Expr.T.hyp list * Expr.T.expr) option
+)
+"typ_impgraph.ml" 205 4534 4546 "typ_impgraph.ml" 208 4615 4635
+type(
+  (Expr.T.hyp list * Expr.T.expr) option
+)
+"typ_impgraph.ml" 209 4639 4651 "typ_impgraph.ml" 209 4639 4653
+type(
+  Typ_e.SMap.key -> unit
+)
+ident(
+  def ff "typ_impgraph.ml" 239 5585 5593 "typ_impgraph.ml" 239 5585 5603
+)
+"typ_impgraph.ml" 209 4639 4654 "typ_impgraph.ml" 209 4639 4655
+type(
+  Typ_e.SMap.key
+)
+ident(
+  def j "typ_impgraph.ml" 220 4942 4950 "typ_impgraph.ml" 237 5556 5573
+)
+"typ_impgraph.ml" 220 4942 4956 "typ_impgraph.ml" 220 4942 4958
+type(
+  Typ_e.SMap.key -> (Expr.T.hyp list * Expr.T.expr) option
+)
+ident(
+  int_ref ph "typ_impgraph.ml" 204 4515 4527 "typ_impgraph.ml" 204 4515 4529
+)
+"typ_impgraph.ml" 220 4942 4959 "typ_impgraph.ml" 220 4942 4960
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref i "typ_impgraph.ml" 197 4328 4338 "typ_impgraph.ml" 197 4328 4339
+)
+"typ_impgraph.ml" 220 4942 4956 "typ_impgraph.ml" 220 4942 4960
+type(
+  (Expr.T.hyp list * Expr.T.expr) option
+)
+"typ_impgraph.ml" 220 4942 4962 "typ_impgraph.ml" 220 4942 4964
+type(
+  Typ_e.SMap.key -> (Expr.T.hyp list * Expr.T.expr) option
+)
+ident(
+  int_ref ph "typ_impgraph.ml" 204 4515 4527 "typ_impgraph.ml" 204 4515 4529
+)
+"typ_impgraph.ml" 220 4942 4965 "typ_impgraph.ml" 220 4942 4966
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref j "typ_impgraph.ml" 209 4639 4654 "typ_impgraph.ml" 209 4639 4655
+)
+"typ_impgraph.ml" 220 4942 4962 "typ_impgraph.ml" 220 4942 4966
+type(
+  (Expr.T.hyp list * Expr.T.expr) option
+)
+"typ_impgraph.ml" 220 4942 4956 "typ_impgraph.ml" 220 4942 4966
+type(
+  (Expr.T.hyp list * Expr.T.expr) option *
+  (Expr.T.hyp list * Expr.T.expr) option
+)
+"typ_impgraph.ml" 221 4972 4988 "typ_impgraph.ml" 221 4972 4990
+type(
+  Expr.T.hyp list
+)
+ident(
+  def cx "typ_impgraph.ml" 222 5015 5027 "typ_impgraph.ml" 226 5166 5192
+)
+"typ_impgraph.ml" 221 4972 4992 "typ_impgraph.ml" 221 4972 4994
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "typ_impgraph.ml" 222 5015 5027 "typ_impgraph.ml" 226 5166 5192
+)
+"typ_impgraph.ml" 221 4972 4987 "typ_impgraph.ml" 221 4972 4995
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 221 4972 4982 "typ_impgraph.ml" 221 4972 4995
+type(
+  (Expr.T.hyp list * Expr.T.expr) option
+)
+"typ_impgraph.ml" 221 4972 5003 "typ_impgraph.ml" 221 4972 5006
+type(
+  Expr.T.hyp list
+)
+ident(
+  def cx' "typ_impgraph.ml" 222 5015 5027 "typ_impgraph.ml" 226 5166 5192
+)
+"typ_impgraph.ml" 221 4972 5008 "typ_impgraph.ml" 221 4972 5010
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "typ_impgraph.ml" 222 5015 5027 "typ_impgraph.ml" 226 5166 5192
+)
+"typ_impgraph.ml" 221 4972 5002 "typ_impgraph.ml" 221 4972 5011
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 221 4972 4997 "typ_impgraph.ml" 221 4972 5011
+type(
+  (Expr.T.hyp list * Expr.T.expr) option
+)
+"typ_impgraph.ml" 221 4972 4982 "typ_impgraph.ml" 221 4972 5011
+type(
+  (Expr.T.hyp list * Expr.T.expr) option *
+  (Expr.T.hyp list * Expr.T.expr) option
+)
+type(
+  (Expr.T.hyp list * Expr.T.expr) option *
+  (Expr.T.hyp list * Expr.T.expr) option
+)
+"typ_impgraph.ml" 222 5015 5031 "typ_impgraph.ml" 222 5015 5033
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "typ_impgraph.ml" 224 5086 5098 "typ_impgraph.ml" 226 5166 5192
+)
+"typ_impgraph.ml" 222 5015 5042 "typ_impgraph.ml" 222 5015 5044
+type(
+  Expr.T.bullet
+)
+"typ_impgraph.ml" 222 5015 5047 "typ_impgraph.ml" 222 5015 5049
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "typ_impgraph.ml" 221 4972 4992 "typ_impgraph.ml" 221 4972 4994
+)
+"typ_impgraph.ml" 222 5015 5051 "typ_impgraph.ml" 222 5015 5053
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "typ_impgraph.ml" 221 4972 5008 "typ_impgraph.ml" 221 4972 5010
+)
+"typ_impgraph.ml" 222 5015 5046 "typ_impgraph.ml" 222 5015 5054
+type(
+  Expr.T.expr list
+)
+"typ_impgraph.ml" 222 5015 5036 "typ_impgraph.ml" 222 5015 5055
+type(
+  Expr.T.expr_
+)
+"typ_impgraph.ml" 223 5056 5075 "typ_impgraph.ml" 223 5056 5082
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk_list "typ_impgraph.ml" 33 525 529 "typ_impgraph.ml" 33 525 536
+)
+"typ_impgraph.ml" 222 5015 5036 "typ_impgraph.ml" 223 5056 5082
+type(
+  Expr.T.expr
+)
+"typ_impgraph.ml" 224 5086 5098 "typ_impgraph.ml" 224 5086 5104
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref plhdrs "typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+)
+"typ_impgraph.ml" 224 5086 5105 "typ_impgraph.ml" 224 5086 5107
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"typ_impgraph.ml" 224 5086 5108 "typ_impgraph.ml" 224 5086 5116
+type(
+  Typ_e.SMap.key ->
+  Expr.T.hyp list * Expr.T.expr ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref Typ_e.SMap.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"typ_impgraph.ml" 224 5086 5117 "typ_impgraph.ml" 224 5086 5118
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref j "typ_impgraph.ml" 209 4639 4654 "typ_impgraph.ml" 209 4639 4655
+)
+"typ_impgraph.ml" 224 5086 5120 "typ_impgraph.ml" 224 5086 5122
+type(
+  Expr.T.hyp list
+)
+ident(
+  int_ref cx "typ_impgraph.ml" 221 4972 4988 "typ_impgraph.ml" 221 4972 4990
+)
+"typ_impgraph.ml" 224 5086 5124 "typ_impgraph.ml" 224 5086 5126
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "typ_impgraph.ml" 222 5015 5031 "typ_impgraph.ml" 222 5015 5033
+)
+"typ_impgraph.ml" 224 5086 5119 "typ_impgraph.ml" 224 5086 5127
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 224 5086 5128 "typ_impgraph.ml" 224 5086 5129
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 224 5086 5129 "typ_impgraph.ml" 224 5086 5135
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref plhdrs "typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+)
+"typ_impgraph.ml" 224 5086 5128 "typ_impgraph.ml" 224 5086 5135
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 224 5086 5108 "typ_impgraph.ml" 224 5086 5135
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 224 5086 5098 "typ_impgraph.ml" 224 5086 5135
+type(
+  unit
+)
+"typ_impgraph.ml" 225 5137 5149 "typ_impgraph.ml" 225 5137 5153
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref ->
+  Typ_e.SMap.key -> Typ_t.plhdr -> unit
+)
+ident(
+  int_ref mdel "typ_impgraph.ml" 76 1439 1443 "typ_impgraph.ml" 76 1439 1447
+)
+"typ_impgraph.ml" 225 5137 5154 "typ_impgraph.ml" 225 5137 5160
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref
+)
+ident(
+  int_ref out_ph "typ_impgraph.ml" 58 1112 1116 "typ_impgraph.ml" 58 1112 1122
+)
+"typ_impgraph.ml" 225 5137 5161 "typ_impgraph.ml" 225 5137 5162
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref i "typ_impgraph.ml" 197 4328 4338 "typ_impgraph.ml" 197 4328 4339
+)
+"typ_impgraph.ml" 225 5137 5163 "typ_impgraph.ml" 225 5137 5164
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref j "typ_impgraph.ml" 209 4639 4654 "typ_impgraph.ml" 209 4639 4655
+)
+"typ_impgraph.ml" 225 5137 5149 "typ_impgraph.ml" 225 5137 5164
+type(
+  unit
+)
+"typ_impgraph.ml" 226 5166 5178 "typ_impgraph.ml" 226 5166 5182
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref ->
+  Typ_e.SMap.key -> Typ_t.plhdr -> unit
+)
+ident(
+  int_ref mdel "typ_impgraph.ml" 76 1439 1443 "typ_impgraph.ml" 76 1439 1447
+)
+"typ_impgraph.ml" 226 5166 5183 "typ_impgraph.ml" 226 5166 5188
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref
+)
+ident(
+  int_ref in_ph "typ_impgraph.ml" 50 887 891 "typ_impgraph.ml" 50 887 896
+)
+"typ_impgraph.ml" 226 5166 5189 "typ_impgraph.ml" 226 5166 5190
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref j "typ_impgraph.ml" 209 4639 4654 "typ_impgraph.ml" 209 4639 4655
+)
+"typ_impgraph.ml" 226 5166 5191 "typ_impgraph.ml" 226 5166 5192
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref i "typ_impgraph.ml" 197 4328 4338 "typ_impgraph.ml" 197 4328 4339
+)
+"typ_impgraph.ml" 226 5166 5178 "typ_impgraph.ml" 226 5166 5192
+type(
+  unit
+)
+"typ_impgraph.ml" 225 5137 5149 "typ_impgraph.ml" 226 5166 5192
+type(
+  unit
+)
+"typ_impgraph.ml" 224 5086 5098 "typ_impgraph.ml" 226 5166 5192
+type(
+  unit
+)
+"typ_impgraph.ml" 222 5015 5027 "typ_impgraph.ml" 226 5166 5192
+type(
+  unit
+)
+"typ_impgraph.ml" 227 5193 5209 "typ_impgraph.ml" 227 5193 5211
+type(
+  Expr.T.hyp list
+)
+ident(
+  def cx "typ_impgraph.ml" 229 5271 5283 "typ_impgraph.ml" 231 5351 5377
+)
+"typ_impgraph.ml" 227 5193 5213 "typ_impgraph.ml" 227 5193 5215
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "typ_impgraph.ml" 229 5271 5283 "typ_impgraph.ml" 231 5351 5377
+)
+"typ_impgraph.ml" 227 5193 5208 "typ_impgraph.ml" 227 5193 5216
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 227 5193 5203 "typ_impgraph.ml" 227 5193 5216
+type(
+  (Expr.T.hyp list * Expr.T.expr) option
+)
+"typ_impgraph.ml" 227 5193 5218 "typ_impgraph.ml" 227 5193 5222
+type(
+  (Expr.T.hyp list * Expr.T.expr) option
+)
+"typ_impgraph.ml" 227 5193 5203 "typ_impgraph.ml" 227 5193 5222
+type(
+  (Expr.T.hyp list * Expr.T.expr) option *
+  (Expr.T.hyp list * Expr.T.expr) option
+)
+type(
+  (Expr.T.hyp list * Expr.T.expr) option *
+  (Expr.T.hyp list * Expr.T.expr) option
+)
+"typ_impgraph.ml" 229 5271 5283 "typ_impgraph.ml" 229 5271 5289
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref plhdrs "typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+)
+"typ_impgraph.ml" 229 5271 5290 "typ_impgraph.ml" 229 5271 5292
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"typ_impgraph.ml" 229 5271 5293 "typ_impgraph.ml" 229 5271 5301
+type(
+  Typ_e.SMap.key ->
+  Expr.T.hyp list * Expr.T.expr ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref Typ_e.SMap.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"typ_impgraph.ml" 229 5271 5302 "typ_impgraph.ml" 229 5271 5303
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref j "typ_impgraph.ml" 209 4639 4654 "typ_impgraph.ml" 209 4639 4655
+)
+"typ_impgraph.ml" 229 5271 5305 "typ_impgraph.ml" 229 5271 5307
+type(
+  Expr.T.hyp list
+)
+ident(
+  int_ref cx "typ_impgraph.ml" 227 5193 5209 "typ_impgraph.ml" 227 5193 5211
+)
+"typ_impgraph.ml" 229 5271 5309 "typ_impgraph.ml" 229 5271 5311
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "typ_impgraph.ml" 227 5193 5213 "typ_impgraph.ml" 227 5193 5215
+)
+"typ_impgraph.ml" 229 5271 5304 "typ_impgraph.ml" 229 5271 5312
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 229 5271 5313 "typ_impgraph.ml" 229 5271 5314
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 229 5271 5314 "typ_impgraph.ml" 229 5271 5320
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref plhdrs "typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+)
+"typ_impgraph.ml" 229 5271 5313 "typ_impgraph.ml" 229 5271 5320
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 229 5271 5293 "typ_impgraph.ml" 229 5271 5320
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 229 5271 5283 "typ_impgraph.ml" 229 5271 5320
+type(
+  unit
+)
+"typ_impgraph.ml" 230 5322 5334 "typ_impgraph.ml" 230 5322 5338
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref ->
+  Typ_e.SMap.key -> Typ_t.plhdr -> unit
+)
+ident(
+  int_ref mdel "typ_impgraph.ml" 76 1439 1443 "typ_impgraph.ml" 76 1439 1447
+)
+"typ_impgraph.ml" 230 5322 5339 "typ_impgraph.ml" 230 5322 5345
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref
+)
+ident(
+  int_ref out_ph "typ_impgraph.ml" 58 1112 1116 "typ_impgraph.ml" 58 1112 1122
+)
+"typ_impgraph.ml" 230 5322 5346 "typ_impgraph.ml" 230 5322 5347
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref i "typ_impgraph.ml" 197 4328 4338 "typ_impgraph.ml" 197 4328 4339
+)
+"typ_impgraph.ml" 230 5322 5348 "typ_impgraph.ml" 230 5322 5349
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref j "typ_impgraph.ml" 209 4639 4654 "typ_impgraph.ml" 209 4639 4655
+)
+"typ_impgraph.ml" 230 5322 5334 "typ_impgraph.ml" 230 5322 5349
+type(
+  unit
+)
+"typ_impgraph.ml" 231 5351 5363 "typ_impgraph.ml" 231 5351 5367
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref ->
+  Typ_e.SMap.key -> Typ_t.plhdr -> unit
+)
+ident(
+  int_ref mdel "typ_impgraph.ml" 76 1439 1443 "typ_impgraph.ml" 76 1439 1447
+)
+"typ_impgraph.ml" 231 5351 5368 "typ_impgraph.ml" 231 5351 5373
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref
+)
+ident(
+  int_ref in_ph "typ_impgraph.ml" 50 887 891 "typ_impgraph.ml" 50 887 896
+)
+"typ_impgraph.ml" 231 5351 5374 "typ_impgraph.ml" 231 5351 5375
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref j "typ_impgraph.ml" 209 4639 4654 "typ_impgraph.ml" 209 4639 4655
+)
+"typ_impgraph.ml" 231 5351 5376 "typ_impgraph.ml" 231 5351 5377
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref i "typ_impgraph.ml" 197 4328 4338 "typ_impgraph.ml" 197 4328 4339
+)
+"typ_impgraph.ml" 231 5351 5363 "typ_impgraph.ml" 231 5351 5377
+type(
+  unit
+)
+"typ_impgraph.ml" 230 5322 5334 "typ_impgraph.ml" 231 5351 5377
+type(
+  unit
+)
+"typ_impgraph.ml" 229 5271 5283 "typ_impgraph.ml" 231 5351 5377
+type(
+  unit
+)
+"typ_impgraph.ml" 232 5378 5388 "typ_impgraph.ml" 232 5378 5392
+type(
+  (Expr.T.hyp list * Expr.T.expr) option
+)
+"typ_impgraph.ml" 232 5378 5400 "typ_impgraph.ml" 232 5378 5402
+type(
+  Expr.T.hyp list
+)
+ident(
+  def cx "typ_impgraph.ml" 233 5408 5429 "typ_impgraph.ml" 236 5529 5555
+)
+"typ_impgraph.ml" 232 5378 5404 "typ_impgraph.ml" 232 5378 5406
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "typ_impgraph.ml" 233 5408 5429 "typ_impgraph.ml" 236 5529 5555
+)
+"typ_impgraph.ml" 232 5378 5399 "typ_impgraph.ml" 232 5378 5407
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 232 5378 5394 "typ_impgraph.ml" 232 5378 5407
+type(
+  (Expr.T.hyp list * Expr.T.expr) option
+)
+"typ_impgraph.ml" 232 5378 5388 "typ_impgraph.ml" 232 5378 5407
+type(
+  (Expr.T.hyp list * Expr.T.expr) option *
+  (Expr.T.hyp list * Expr.T.expr) option
+)
+type(
+  (Expr.T.hyp list * Expr.T.expr) option *
+  (Expr.T.hyp list * Expr.T.expr) option
+)
+"typ_impgraph.ml" 233 5408 5429 "typ_impgraph.ml" 233 5408 5430
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref -> Typ_e.SMap.key list Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 233 5408 5430 "typ_impgraph.ml" 233 5408 5435
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref
+)
+ident(
+  int_ref in_ph "typ_impgraph.ml" 50 887 891 "typ_impgraph.ml" 50 887 896
+)
+"typ_impgraph.ml" 233 5408 5429 "typ_impgraph.ml" 233 5408 5435
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 233 5408 5436 "typ_impgraph.ml" 233 5408 5438
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t -> Typ_e.SMap.key -> Typ_e.SMap.key list
+)
+ident(
+  int_ref @@ "typ_impgraph.ml" 65 1259 1263 "typ_impgraph.ml" 65 1259 1269
+)
+"typ_impgraph.ml" 233 5408 5439 "typ_impgraph.ml" 233 5408 5440
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref i "typ_impgraph.ml" 197 4328 4338 "typ_impgraph.ml" 197 4328 4339
+)
+"typ_impgraph.ml" 233 5408 5429 "typ_impgraph.ml" 233 5408 5440
+type(
+  Typ_e.SMap.key list
+)
+"typ_impgraph.ml" 233 5408 5441 "typ_impgraph.ml" 233 5408 5442
+type(
+  Typ_e.SMap.key list -> Typ_e.SMap.key list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"typ_impgraph.ml" 233 5408 5443 "typ_impgraph.ml" 233 5408 5445
+type(
+  Typ_e.SMap.key list
+)
+"typ_impgraph.ml" 233 5408 5429 "typ_impgraph.ml" 233 5408 5445
+type(
+  bool
+)
+"typ_impgraph.ml" 234 5449 5461 "typ_impgraph.ml" 234 5449 5467
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref plhdrs "typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+)
+"typ_impgraph.ml" 234 5449 5468 "typ_impgraph.ml" 234 5449 5470
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"typ_impgraph.ml" 234 5449 5471 "typ_impgraph.ml" 234 5449 5479
+type(
+  Typ_e.SMap.key ->
+  Expr.T.hyp list * Expr.T.expr ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref Typ_e.SMap.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"typ_impgraph.ml" 234 5449 5480 "typ_impgraph.ml" 234 5449 5481
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref i "typ_impgraph.ml" 197 4328 4338 "typ_impgraph.ml" 197 4328 4339
+)
+"typ_impgraph.ml" 234 5449 5483 "typ_impgraph.ml" 234 5449 5485
+type(
+  Expr.T.hyp list
+)
+ident(
+  int_ref cx "typ_impgraph.ml" 232 5378 5400 "typ_impgraph.ml" 232 5378 5402
+)
+"typ_impgraph.ml" 234 5449 5487 "typ_impgraph.ml" 234 5449 5489
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "typ_impgraph.ml" 232 5378 5404 "typ_impgraph.ml" 232 5378 5406
+)
+"typ_impgraph.ml" 234 5449 5482 "typ_impgraph.ml" 234 5449 5490
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+"typ_impgraph.ml" 234 5449 5491 "typ_impgraph.ml" 234 5449 5492
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 234 5449 5492 "typ_impgraph.ml" 234 5449 5498
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref plhdrs "typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+)
+"typ_impgraph.ml" 234 5449 5491 "typ_impgraph.ml" 234 5449 5498
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 234 5449 5471 "typ_impgraph.ml" 234 5449 5498
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 234 5449 5461 "typ_impgraph.ml" 234 5449 5498
+type(
+  unit
+)
+"typ_impgraph.ml" 235 5500 5512 "typ_impgraph.ml" 235 5500 5516
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref ->
+  Typ_e.SMap.key -> Typ_t.plhdr -> unit
+)
+ident(
+  int_ref mdel "typ_impgraph.ml" 76 1439 1443 "typ_impgraph.ml" 76 1439 1447
+)
+"typ_impgraph.ml" 235 5500 5517 "typ_impgraph.ml" 235 5500 5523
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref
+)
+ident(
+  int_ref out_ph "typ_impgraph.ml" 58 1112 1116 "typ_impgraph.ml" 58 1112 1122
+)
+"typ_impgraph.ml" 235 5500 5524 "typ_impgraph.ml" 235 5500 5525
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref i "typ_impgraph.ml" 197 4328 4338 "typ_impgraph.ml" 197 4328 4339
+)
+"typ_impgraph.ml" 235 5500 5526 "typ_impgraph.ml" 235 5500 5527
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref j "typ_impgraph.ml" 209 4639 4654 "typ_impgraph.ml" 209 4639 4655
+)
+"typ_impgraph.ml" 235 5500 5512 "typ_impgraph.ml" 235 5500 5527
+type(
+  unit
+)
+"typ_impgraph.ml" 236 5529 5541 "typ_impgraph.ml" 236 5529 5545
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref ->
+  Typ_e.SMap.key -> Typ_t.plhdr -> unit
+)
+ident(
+  int_ref mdel "typ_impgraph.ml" 76 1439 1443 "typ_impgraph.ml" 76 1439 1447
+)
+"typ_impgraph.ml" 236 5529 5546 "typ_impgraph.ml" 236 5529 5551
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref
+)
+ident(
+  int_ref in_ph "typ_impgraph.ml" 50 887 891 "typ_impgraph.ml" 50 887 896
+)
+"typ_impgraph.ml" 236 5529 5552 "typ_impgraph.ml" 236 5529 5553
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref j "typ_impgraph.ml" 209 4639 4654 "typ_impgraph.ml" 209 4639 4655
+)
+"typ_impgraph.ml" 236 5529 5554 "typ_impgraph.ml" 236 5529 5555
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref i "typ_impgraph.ml" 197 4328 4338 "typ_impgraph.ml" 197 4328 4339
+)
+"typ_impgraph.ml" 236 5529 5541 "typ_impgraph.ml" 236 5529 5555
+type(
+  unit
+)
+"typ_impgraph.ml" 235 5500 5512 "typ_impgraph.ml" 236 5529 5555
+type(
+  unit
+)
+"typ_impgraph.ml" 234 5449 5461 "typ_impgraph.ml" 236 5529 5555
+type(
+  unit
+)
+"typ_impgraph.ml" 237 5556 5566 "typ_impgraph.ml" 237 5556 5567
+type(
+  (Expr.T.hyp list * Expr.T.expr) option *
+  (Expr.T.hyp list * Expr.T.expr) option
+)
+type(
+  (Expr.T.hyp list * Expr.T.expr) option *
+  (Expr.T.hyp list * Expr.T.expr) option
+)
+"typ_impgraph.ml" 237 5556 5571 "typ_impgraph.ml" 237 5556 5573
+type(
+  unit
+)
+"typ_impgraph.ml" 220 4942 4950 "typ_impgraph.ml" 237 5556 5573
+type(
+  unit
+)
+"typ_impgraph.ml" 239 5585 5593 "typ_impgraph.ml" 239 5585 5597
+type(
+  (Typ_e.SMap.key -> unit) -> Typ_e.SMap.key list -> unit
+)
+ident(
+  int_ref Ext.List.iter "ext.mli" 16 424 426 "ext.mli" 16 424 468
+)
+"typ_impgraph.ml" 239 5585 5598 "typ_impgraph.ml" 239 5585 5600
+type(
+  Typ_e.SMap.key -> unit
+)
+ident(
+  int_ref ff "typ_impgraph.ml" 209 4639 4651 "typ_impgraph.ml" 209 4639 4653
+)
+"typ_impgraph.ml" 239 5585 5601 "typ_impgraph.ml" 239 5585 5603
+type(
+  Typ_e.SMap.key list
+)
+ident(
+  int_ref ps "typ_impgraph.ml" 203 4482 4494 "typ_impgraph.ml" 203 4482 4496
+)
+"typ_impgraph.ml" 239 5585 5593 "typ_impgraph.ml" 239 5585 5603
+type(
+  unit
+)
+"typ_impgraph.ml" 209 4639 4647 "typ_impgraph.ml" 239 5585 5604
+type(
+  unit
+)
+"typ_impgraph.ml" 204 4515 4523 "typ_impgraph.ml" 239 5585 5604
+type(
+  unit
+)
+"typ_impgraph.ml" 202 4467 4476 "typ_impgraph.ml" 240 5605 5612
+type(
+  unit
+)
+"typ_impgraph.ml" 240 5605 5618 "typ_impgraph.ml" 240 5605 5620
+type(
+  unit
+)
+"typ_impgraph.ml" 198 4342 4346 "typ_impgraph.ml" 240 5605 5620
+type(
+  unit
+)
+"typ_impgraph.ml" 242 5622 5630 "typ_impgraph.ml" 242 5622 5633
+type(
+  'a list ->
+  int -> ('a -> unit) -> (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t -> unit
+)
+ident(
+  def fix "typ_impgraph.ml" 242 5622 5622 "typ_impgraph.ml" 0 0 -1
+)
+"typ_impgraph.ml" 242 5622 5634 "typ_impgraph.ml" 242 5622 5636
+type(
+  'a list
+)
+ident(
+  def ns "typ_impgraph.ml" 242 5622 5637 "typ_impgraph.ml" 263 6155 6189
+)
+"typ_impgraph.ml" 242 5622 5637 "typ_impgraph.ml" 242 5622 5638
+type(
+  int
+)
+ident(
+  def c "typ_impgraph.ml" 242 5622 5639 "typ_impgraph.ml" 263 6155 6189
+)
+"typ_impgraph.ml" 242 5622 5639 "typ_impgraph.ml" 242 5622 5643
+type(
+  'a -> unit
+)
+ident(
+  def rule "typ_impgraph.ml" 242 5622 5644 "typ_impgraph.ml" 263 6155 6189
+)
+"typ_impgraph.ml" 242 5622 5644 "typ_impgraph.ml" 242 5622 5645
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  def x "typ_impgraph.ml" 243 5648 5652 "typ_impgraph.ml" 263 6155 6189
+)
+"typ_impgraph.ml" 243 5648 5656 "typ_impgraph.ml" 243 5648 5658
+type(
+  ('b * Expr.T.expr) Typ_e.SMap.t -> ('b * Expr.T.expr) Typ_e.SMap.t -> bool
+)
+ident(
+  def eq "typ_impgraph.ml" 246 5748 5752 "typ_impgraph.ml" 263 6155 6189
+)
+"typ_impgraph.ml" 243 5648 5659 "typ_impgraph.ml" 243 5648 5660
+type(
+  ('b * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  def p "typ_impgraph.ml" 243 5648 5661 "typ_impgraph.ml" 245 5710 5744
+)
+"typ_impgraph.ml" 243 5648 5661 "typ_impgraph.ml" 243 5648 5662
+type(
+  ('b * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  def q "typ_impgraph.ml" 243 5648 5665 "typ_impgraph.ml" 245 5710 5744
+)
+"typ_impgraph.ml" 243 5648 5665 "typ_impgraph.ml" 243 5648 5675
+type(
+  ('b * Expr.T.expr -> 'b * Expr.T.expr -> bool) ->
+  ('b * Expr.T.expr) Typ_e.SMap.t -> ('b * Expr.T.expr) Typ_e.SMap.t -> bool
+)
+ident(
+  int_ref Typ_e.SMap.equal "map.mli" 148 6232 6236 "map.mli" 148 6232 6289
+)
+"typ_impgraph.ml" 244 5676 5690 "typ_impgraph.ml" 244 5676 5692
+type(
+  'b
+)
+ident(
+  def cx "typ_impgraph.ml" 244 5676 5697 "typ_impgraph.ml" 245 5710 5739
+)
+"typ_impgraph.ml" 244 5676 5694 "typ_impgraph.ml" 244 5676 5695
+type(
+  Expr.T.expr
+)
+ident(
+  def e "typ_impgraph.ml" 244 5676 5697 "typ_impgraph.ml" 245 5710 5739
+)
+"typ_impgraph.ml" 244 5676 5689 "typ_impgraph.ml" 244 5676 5696
+type(
+  'b * Expr.T.expr
+)
+"typ_impgraph.ml" 244 5676 5698 "typ_impgraph.ml" 244 5676 5701
+type(
+  'b
+)
+ident(
+  def cx' "typ_impgraph.ml" 245 5710 5722 "typ_impgraph.ml" 245 5710 5739
+)
+"typ_impgraph.ml" 244 5676 5703 "typ_impgraph.ml" 244 5676 5705
+type(
+  Expr.T.expr
+)
+ident(
+  def e' "typ_impgraph.ml" 245 5710 5722 "typ_impgraph.ml" 245 5710 5739
+)
+"typ_impgraph.ml" 244 5676 5697 "typ_impgraph.ml" 244 5676 5706
+type(
+  'b * Expr.T.expr
+)
+"typ_impgraph.ml" 245 5710 5722 "typ_impgraph.ml" 245 5710 5734
+type(
+  Expr.T.expr -> Expr.T.expr -> bool
+)
+ident(
+  int_ref Expr.Eq.expr "expr.mli" 586 15497 15501 "expr.mli" 587 15511 15539
+)
+"typ_impgraph.ml" 245 5710 5735 "typ_impgraph.ml" 245 5710 5736
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "typ_impgraph.ml" 244 5676 5694 "typ_impgraph.ml" 244 5676 5695
+)
+"typ_impgraph.ml" 245 5710 5737 "typ_impgraph.ml" 245 5710 5739
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e' "typ_impgraph.ml" 244 5676 5703 "typ_impgraph.ml" 244 5676 5705
+)
+"typ_impgraph.ml" 245 5710 5722 "typ_impgraph.ml" 245 5710 5739
+type(
+  bool
+)
+"typ_impgraph.ml" 244 5676 5684 "typ_impgraph.ml" 245 5710 5740
+type(
+  'b * Expr.T.expr -> 'b * Expr.T.expr -> bool
+)
+"typ_impgraph.ml" 245 5710 5741 "typ_impgraph.ml" 245 5710 5742
+type(
+  ('b * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref p "typ_impgraph.ml" 243 5648 5659 "typ_impgraph.ml" 243 5648 5660
+)
+"typ_impgraph.ml" 245 5710 5743 "typ_impgraph.ml" 245 5710 5744
+type(
+  ('b * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref q "typ_impgraph.ml" 243 5648 5661 "typ_impgraph.ml" 243 5648 5662
+)
+"typ_impgraph.ml" 243 5648 5665 "typ_impgraph.ml" 245 5710 5744
+type(
+  bool
+)
+"typ_impgraph.ml" 246 5748 5755 "typ_impgraph.ml" 246 5748 5756
+type(
+  int
+)
+ident(
+  int_ref c "typ_impgraph.ml" 242 5622 5637 "typ_impgraph.ml" 242 5622 5638
+)
+"typ_impgraph.ml" 246 5748 5757 "typ_impgraph.ml" 246 5748 5758
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"typ_impgraph.ml" 246 5748 5759 "typ_impgraph.ml" 246 5748 5760
+type(
+  int
+)
+"typ_impgraph.ml" 246 5748 5755 "typ_impgraph.ml" 246 5748 5760
+type(
+  bool
+)
+"typ_impgraph.ml" 248 5774 5787 "typ_impgraph.ml" 248 5774 5795
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"typ_impgraph.ml" 249 5796 5812 "typ_impgraph.ml" 251 5886 5918
+type(
+  string
+)
+"typ_impgraph.ml" 248 5774 5786 "typ_impgraph.ml" 251 5886 5919
+type(
+  unit
+)
+"typ_impgraph.ml" 253 5933 5949 "typ_impgraph.ml" 253 5933 5950
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  def x "typ_impgraph.ml" 254 5964 5976 "typ_impgraph.ml" 263 6155 6189
+)
+"typ_impgraph.ml" 253 5933 5953 "typ_impgraph.ml" 253 5933 5954
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 253 5933 5954 "typ_impgraph.ml" 253 5933 5960
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref plhdrs "typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+)
+"typ_impgraph.ml" 253 5933 5953 "typ_impgraph.ml" 253 5933 5960
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 254 5964 5976 "typ_impgraph.ml" 254 5964 5980
+type(
+  ('a -> unit) -> 'a list -> unit
+)
+ident(
+  int_ref Ext.List.iter "ext.mli" 16 424 426 "ext.mli" 16 424 468
+)
+"typ_impgraph.ml" 254 5964 5981 "typ_impgraph.ml" 254 5964 5985
+type(
+  'a -> unit
+)
+ident(
+  int_ref rule "typ_impgraph.ml" 242 5622 5639 "typ_impgraph.ml" 242 5622 5643
+)
+"typ_impgraph.ml" 254 5964 5986 "typ_impgraph.ml" 254 5964 5988
+type(
+  'a list
+)
+ident(
+  int_ref ns "typ_impgraph.ml" 242 5622 5634 "typ_impgraph.ml" 242 5622 5636
+)
+"typ_impgraph.ml" 254 5964 5976 "typ_impgraph.ml" 254 5964 5988
+type(
+  unit
+)
+"typ_impgraph.ml" 255 5990 5998 "typ_impgraph.ml" 255 5990 6000
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  def x' "typ_impgraph.ml" 261 6124 6128 "typ_impgraph.ml" 263 6155 6189
+)
+"typ_impgraph.ml" 255 5990 6003 "typ_impgraph.ml" 255 5990 6004
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 255 5990 6004 "typ_impgraph.ml" 255 5990 6010
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref plhdrs "typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+)
+"typ_impgraph.ml" 255 5990 6003 "typ_impgraph.ml" 255 5990 6010
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 261 6124 6131 "typ_impgraph.ml" 261 6124 6133
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t -> bool
+)
+ident(
+  int_ref eq "typ_impgraph.ml" 243 5648 5656 "typ_impgraph.ml" 243 5648 5658
+)
+"typ_impgraph.ml" 261 6124 6134 "typ_impgraph.ml" 261 6124 6135
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref x "typ_impgraph.ml" 253 5933 5949 "typ_impgraph.ml" 253 5933 5950
+)
+"typ_impgraph.ml" 261 6124 6136 "typ_impgraph.ml" 261 6124 6138
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref x' "typ_impgraph.ml" 255 5990 5998 "typ_impgraph.ml" 255 5990 6000
+)
+"typ_impgraph.ml" 261 6124 6131 "typ_impgraph.ml" 261 6124 6138
+type(
+  bool
+)
+"typ_impgraph.ml" 262 6139 6152 "typ_impgraph.ml" 262 6139 6154
+type(
+  unit
+)
+"typ_impgraph.ml" 263 6155 6168 "typ_impgraph.ml" 263 6155 6171
+type(
+  'a list ->
+  int -> ('a -> unit) -> (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t -> unit
+)
+ident(
+  int_ref fix "typ_impgraph.ml" 242 5622 5630 "typ_impgraph.ml" 242 5622 5633
+)
+"typ_impgraph.ml" 263 6155 6172 "typ_impgraph.ml" 263 6155 6174
+type(
+  'a list
+)
+ident(
+  int_ref ns "typ_impgraph.ml" 242 5622 5634 "typ_impgraph.ml" 242 5622 5636
+)
+"typ_impgraph.ml" 263 6155 6176 "typ_impgraph.ml" 263 6155 6177
+type(
+  int
+)
+ident(
+  int_ref c "typ_impgraph.ml" 242 5622 5637 "typ_impgraph.ml" 242 5622 5638
+)
+"typ_impgraph.ml" 263 6155 6178 "typ_impgraph.ml" 263 6155 6179
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"typ_impgraph.ml" 263 6155 6180 "typ_impgraph.ml" 263 6155 6181
+type(
+  int
+)
+"typ_impgraph.ml" 263 6155 6175 "typ_impgraph.ml" 263 6155 6182
+type(
+  int
+)
+"typ_impgraph.ml" 263 6155 6183 "typ_impgraph.ml" 263 6155 6187
+type(
+  'a -> unit
+)
+ident(
+  int_ref rule "typ_impgraph.ml" 242 5622 5639 "typ_impgraph.ml" 242 5622 5643
+)
+"typ_impgraph.ml" 263 6155 6188 "typ_impgraph.ml" 263 6155 6189
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref x "typ_impgraph.ml" 253 5933 5949 "typ_impgraph.ml" 253 5933 5950
+)
+"typ_impgraph.ml" 263 6155 6168 "typ_impgraph.ml" 263 6155 6189
+type(
+  unit
+)
+"typ_impgraph.ml" 261 6124 6128 "typ_impgraph.ml" 263 6155 6189
+type(
+  unit
+)
+"typ_impgraph.ml" 255 5990 5994 "typ_impgraph.ml" 263 6155 6189
+type(
+  unit
+)
+"typ_impgraph.ml" 254 5964 5976 "typ_impgraph.ml" 263 6155 6189
+type(
+  unit
+)
+"typ_impgraph.ml" 253 5933 5945 "typ_impgraph.ml" 263 6155 6189
+type(
+  unit
+)
+"typ_impgraph.ml" 246 5748 5752 "typ_impgraph.ml" 263 6155 6189
+type(
+  unit
+)
+"typ_impgraph.ml" 243 5648 5652 "typ_impgraph.ml" 263 6155 6189
+type(
+  unit
+)
+"typ_impgraph.ml" 265 6191 6195 "typ_impgraph.ml" 265 6191 6203
+type(
+  Typ_e.SMap.key list -> unit
+)
+ident(
+  def solve_ph "typ_impgraph.ml" 271 6353 6353 "typ_impgraph.ml" 0 0 -1
+)
+"typ_impgraph.ml" 265 6191 6204 "typ_impgraph.ml" 265 6191 6206
+type(
+  Typ_e.SMap.key list
+)
+ident(
+  def ns "typ_impgraph.ml" 266 6209 6213 "typ_impgraph.ml" 268 6267 6294
+)
+"typ_impgraph.ml" 266 6209 6213 "typ_impgraph.ml" 266 6209 6216
+type(
+  Typ_e.SMap.key list ->
+  int ->
+  (Typ_e.SMap.key -> unit) ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t -> unit
+)
+ident(
+  int_ref fix "typ_impgraph.ml" 242 5622 5630 "typ_impgraph.ml" 242 5622 5633
+)
+"typ_impgraph.ml" 266 6209 6217 "typ_impgraph.ml" 266 6209 6219
+type(
+  Typ_e.SMap.key list
+)
+ident(
+  int_ref ns "typ_impgraph.ml" 265 6191 6204 "typ_impgraph.ml" 265 6191 6206
+)
+"typ_impgraph.ml" 266 6209 6220 "typ_impgraph.ml" 266 6209 6222
+type(
+  int
+)
+"typ_impgraph.ml" 266 6209 6223 "typ_impgraph.ml" 266 6209 6228
+type(
+  Typ_e.SMap.key -> unit
+)
+ident(
+  int_ref rule1 "typ_impgraph.ml" 138 2767 2771 "typ_impgraph.ml" 138 2767 2776
+)
+"typ_impgraph.ml" 266 6209 6229 "typ_impgraph.ml" 266 6209 6230
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 266 6209 6230 "typ_impgraph.ml" 266 6209 6236
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref plhdrs "typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+)
+"typ_impgraph.ml" 266 6209 6229 "typ_impgraph.ml" 266 6209 6236
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 266 6209 6213 "typ_impgraph.ml" 266 6209 6236
+type(
+  unit
+)
+"typ_impgraph.ml" 267 6238 6242 "typ_impgraph.ml" 267 6238 6245
+type(
+  Typ_e.SMap.key list ->
+  int ->
+  (Typ_e.SMap.key -> unit) ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t -> unit
+)
+ident(
+  int_ref fix "typ_impgraph.ml" 242 5622 5630 "typ_impgraph.ml" 242 5622 5633
+)
+"typ_impgraph.ml" 267 6238 6246 "typ_impgraph.ml" 267 6238 6248
+type(
+  Typ_e.SMap.key list
+)
+ident(
+  int_ref ns "typ_impgraph.ml" 265 6191 6204 "typ_impgraph.ml" 265 6191 6206
+)
+"typ_impgraph.ml" 267 6238 6249 "typ_impgraph.ml" 267 6238 6251
+type(
+  int
+)
+"typ_impgraph.ml" 267 6238 6252 "typ_impgraph.ml" 267 6238 6257
+type(
+  Typ_e.SMap.key -> unit
+)
+ident(
+  int_ref rule2 "typ_impgraph.ml" 170 3601 3605 "typ_impgraph.ml" 170 3601 3610
+)
+"typ_impgraph.ml" 267 6238 6258 "typ_impgraph.ml" 267 6238 6259
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 267 6238 6259 "typ_impgraph.ml" 267 6238 6265
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref plhdrs "typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+)
+"typ_impgraph.ml" 267 6238 6258 "typ_impgraph.ml" 267 6238 6265
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 267 6238 6242 "typ_impgraph.ml" 267 6238 6265
+type(
+  unit
+)
+"typ_impgraph.ml" 268 6267 6271 "typ_impgraph.ml" 268 6267 6274
+type(
+  Typ_e.SMap.key list ->
+  int ->
+  (Typ_e.SMap.key -> unit) ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t -> unit
+)
+ident(
+  int_ref fix "typ_impgraph.ml" 242 5622 5630 "typ_impgraph.ml" 242 5622 5633
+)
+"typ_impgraph.ml" 268 6267 6275 "typ_impgraph.ml" 268 6267 6277
+type(
+  Typ_e.SMap.key list
+)
+ident(
+  int_ref ns "typ_impgraph.ml" 265 6191 6204 "typ_impgraph.ml" 265 6191 6206
+)
+"typ_impgraph.ml" 268 6267 6278 "typ_impgraph.ml" 268 6267 6280
+type(
+  int
+)
+"typ_impgraph.ml" 268 6267 6281 "typ_impgraph.ml" 268 6267 6286
+type(
+  Typ_e.SMap.key -> unit
+)
+ident(
+  int_ref rule3 "typ_impgraph.ml" 197 4328 4332 "typ_impgraph.ml" 197 4328 4337
+)
+"typ_impgraph.ml" 268 6267 6287 "typ_impgraph.ml" 268 6267 6288
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 268 6267 6288 "typ_impgraph.ml" 268 6267 6294
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref plhdrs "typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+)
+"typ_impgraph.ml" 268 6267 6287 "typ_impgraph.ml" 268 6267 6294
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 268 6267 6271 "typ_impgraph.ml" 268 6267 6294
+type(
+  unit
+)
+"typ_impgraph.ml" 267 6238 6242 "typ_impgraph.ml" 268 6267 6294
+type(
+  unit
+)
+"typ_impgraph.ml" 266 6209 6213 "typ_impgraph.ml" 268 6267 6294
+type(
+  unit
+)
+"typ_impgraph.ml" 271 6353 6357 "typ_impgraph.ml" 271 6353 6366
+type(
+  Typ_e.SMap.key -> unit
+)
+ident(
+  def rule_true "typ_impgraph.ml" 288 6797 6797 "typ_impgraph.ml" 0 0 -1
+)
+"typ_impgraph.ml" 271 6353 6367 "typ_impgraph.ml" 271 6353 6368
+type(
+  Typ_e.SMap.key
+)
+ident(
+  def i "typ_impgraph.ml" 272 6371 6375 "typ_impgraph.ml" 278 6573 6588
+)
+"typ_impgraph.ml" 272 6371 6378 "typ_impgraph.ml" 272 6371 6379
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref -> Typ_e.SMap.key list Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 272 6371 6379 "typ_impgraph.ml" 272 6371 6384
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref
+)
+ident(
+  int_ref in_ph "typ_impgraph.ml" 50 887 891 "typ_impgraph.ml" 50 887 896
+)
+"typ_impgraph.ml" 272 6371 6378 "typ_impgraph.ml" 272 6371 6384
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 272 6371 6385 "typ_impgraph.ml" 272 6371 6387
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t -> Typ_e.SMap.key -> Typ_e.SMap.key list
+)
+ident(
+  int_ref @@ "typ_impgraph.ml" 65 1259 1263 "typ_impgraph.ml" 65 1259 1269
+)
+"typ_impgraph.ml" 272 6371 6388 "typ_impgraph.ml" 272 6371 6389
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref i "typ_impgraph.ml" 271 6353 6367 "typ_impgraph.ml" 271 6353 6368
+)
+"typ_impgraph.ml" 272 6371 6378 "typ_impgraph.ml" 272 6371 6389
+type(
+  Typ_e.SMap.key list
+)
+"typ_impgraph.ml" 272 6371 6390 "typ_impgraph.ml" 272 6371 6392
+type(
+  Typ_e.SMap.key list -> Typ_e.SMap.key list -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 130 5559 5559 "stdlib.mli" 130 5559 5607
+)
+"typ_impgraph.ml" 272 6371 6393 "typ_impgraph.ml" 272 6371 6395
+type(
+  Typ_e.SMap.key list
+)
+"typ_impgraph.ml" 272 6371 6378 "typ_impgraph.ml" 272 6371 6395
+type(
+  bool
+)
+"typ_impgraph.ml" 273 6407 6419 "typ_impgraph.ml" 273 6407 6421
+type(
+  Typ_e.SMap.key list
+)
+ident(
+  def ps "typ_impgraph.ml" 274 6439 6447 "typ_impgraph.ml" 277 6551 6572
+)
+"typ_impgraph.ml" 273 6407 6424 "typ_impgraph.ml" 273 6407 6425
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref -> Typ_e.SMap.key list Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 273 6407 6425 "typ_impgraph.ml" 273 6407 6430
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref
+)
+ident(
+  int_ref in_ph "typ_impgraph.ml" 50 887 891 "typ_impgraph.ml" 50 887 896
+)
+"typ_impgraph.ml" 273 6407 6424 "typ_impgraph.ml" 273 6407 6430
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t
+)
+"typ_impgraph.ml" 273 6407 6431 "typ_impgraph.ml" 273 6407 6433
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t -> Typ_e.SMap.key -> Typ_e.SMap.key list
+)
+ident(
+  int_ref @@ "typ_impgraph.ml" 65 1259 1263 "typ_impgraph.ml" 65 1259 1269
+)
+"typ_impgraph.ml" 273 6407 6434 "typ_impgraph.ml" 273 6407 6435
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref i "typ_impgraph.ml" 271 6353 6367 "typ_impgraph.ml" 271 6353 6368
+)
+"typ_impgraph.ml" 273 6407 6424 "typ_impgraph.ml" 273 6407 6435
+type(
+  Typ_e.SMap.key list
+)
+"typ_impgraph.ml" 274 6439 6451 "typ_impgraph.ml" 274 6439 6452
+type(
+  'a list * Expr.T.expr_ Property.wrapped
+)
+ident(
+  def e "typ_impgraph.ml" 275 6484 6492 "typ_impgraph.ml" 277 6551 6572
+)
+"typ_impgraph.ml" 274 6439 6455 "typ_impgraph.ml" 274 6439 6457
+type(
+  'a list
+)
+"typ_impgraph.ml" 274 6439 6468 "typ_impgraph.ml" 274 6439 6474
+type(
+  B.builtin
+)
+"typ_impgraph.ml" 274 6439 6459 "typ_impgraph.ml" 274 6439 6474
+type(
+  Expr.T.expr_
+)
+"typ_impgraph.ml" 274 6439 6475 "typ_impgraph.ml" 274 6439 6477
+type(
+  Expr.T.expr_ -> Property.props -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( %% ) "property.mli" 103 3412 3412 "property.mli" 103 3412 3450
+)
+"typ_impgraph.ml" 274 6439 6478 "typ_impgraph.ml" 274 6439 6480
+type(
+  Property.props
+)
+"typ_impgraph.ml" 274 6439 6459 "typ_impgraph.ml" 274 6439 6480
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"typ_impgraph.ml" 274 6439 6455 "typ_impgraph.ml" 274 6439 6480
+type(
+  'a list * Expr.T.expr_ Property.wrapped
+)
+"typ_impgraph.ml" 275 6484 6492 "typ_impgraph.ml" 275 6484 6496
+type(
+  (Typ_e.SMap.key -> unit) -> Typ_e.SMap.key list -> unit
+)
+ident(
+  int_ref Ext.List.iter "ext.mli" 16 424 426 "ext.mli" 16 424 468
+)
+"typ_impgraph.ml" 276 6497 6514 "typ_impgraph.ml" 276 6497 6515
+type(
+  Typ_e.SMap.key
+)
+ident(
+  def j "typ_impgraph.ml" 276 6497 6519 "typ_impgraph.ml" 276 6497 6549
+)
+"typ_impgraph.ml" 276 6497 6519 "typ_impgraph.ml" 276 6497 6525
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref plhdrs "typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+)
+"typ_impgraph.ml" 276 6497 6526 "typ_impgraph.ml" 276 6497 6528
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"typ_impgraph.ml" 276 6497 6529 "typ_impgraph.ml" 276 6497 6537
+type(
+  Typ_e.SMap.key ->
+  Expr.T.hyp list * Expr.T.expr ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref Typ_e.SMap.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"typ_impgraph.ml" 276 6497 6538 "typ_impgraph.ml" 276 6497 6539
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref j "typ_impgraph.ml" 276 6497 6514 "typ_impgraph.ml" 276 6497 6515
+)
+"typ_impgraph.ml" 276 6497 6540 "typ_impgraph.ml" 276 6497 6541
+type(
+  Expr.T.hyp list * Expr.T.expr
+)
+ident(
+  int_ref e "typ_impgraph.ml" 274 6439 6451 "typ_impgraph.ml" 274 6439 6452
+)
+"typ_impgraph.ml" 276 6497 6542 "typ_impgraph.ml" 276 6497 6543
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 276 6497 6543 "typ_impgraph.ml" 276 6497 6549
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref plhdrs "typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+)
+"typ_impgraph.ml" 276 6497 6542 "typ_impgraph.ml" 276 6497 6549
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 276 6497 6529 "typ_impgraph.ml" 276 6497 6549
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 276 6497 6519 "typ_impgraph.ml" 276 6497 6549
+type(
+  unit
+)
+"typ_impgraph.ml" 276 6497 6509 "typ_impgraph.ml" 276 6497 6550
+type(
+  Typ_e.SMap.key -> unit
+)
+"typ_impgraph.ml" 277 6551 6564 "typ_impgraph.ml" 277 6551 6565
+type(
+  Typ_e.SMap.key
+)
+ident(
+  int_ref i "typ_impgraph.ml" 271 6353 6367 "typ_impgraph.ml" 271 6353 6368
+)
+"typ_impgraph.ml" 277 6551 6569 "typ_impgraph.ml" 277 6551 6571
+type(
+  Typ_e.SMap.key list
+)
+ident(
+  int_ref ps "typ_impgraph.ml" 273 6407 6419 "typ_impgraph.ml" 273 6407 6421
+)
+"typ_impgraph.ml" 277 6551 6563 "typ_impgraph.ml" 277 6551 6572
+type(
+  Typ_e.SMap.key list
+)
+"typ_impgraph.ml" 275 6484 6492 "typ_impgraph.ml" 277 6551 6572
+type(
+  unit
+)
+"typ_impgraph.ml" 274 6439 6447 "typ_impgraph.ml" 277 6551 6572
+type(
+  unit
+)
+"typ_impgraph.ml" 272 6371 6401 "typ_impgraph.ml" 278 6573 6580
+type(
+  unit
+)
+"typ_impgraph.ml" 278 6573 6586 "typ_impgraph.ml" 278 6573 6588
+type(
+  unit
+)
+"typ_impgraph.ml" 272 6371 6375 "typ_impgraph.ml" 278 6573 6588
+type(
+  unit
+)
+"typ_impgraph.ml" 288 6797 6801 "typ_impgraph.ml" 288 6797 6806
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ->
+  (B.builtin * Typ_e.t * Typ_t.tref * Typ_t.tref) list ->
+  Typ_e.SMap.key list -> (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  def solve "typ_impgraph.ml" 332 7867 7878 "typ_impgraph.ml" 0 0 -1
+)
+"typ_impgraph.ml" 288 6797 6807 "typ_impgraph.ml" 288 6797 6815
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  def init_phs "typ_impgraph.ml" 288 6797 6816 "typ_impgraph.ml" 332 7867 7878
+)
+"typ_impgraph.ml" 288 6797 6816 "typ_impgraph.ml" 288 6797 6819
+type(
+  (B.builtin * Typ_e.t * Typ_t.tref * Typ_t.tref) list
+)
+ident(
+  def vcs "typ_impgraph.ml" 288 6797 6820 "typ_impgraph.ml" 332 7867 7878
+)
+"typ_impgraph.ml" 288 6797 6820 "typ_impgraph.ml" 288 6797 6822
+type(
+  Typ_e.SMap.key list
+)
+ident(
+  def ns "typ_impgraph.ml" 289 6825 6829 "typ_impgraph.ml" 332 7867 7878
+)
+"typ_impgraph.ml" 289 6825 6829 "typ_impgraph.ml" 289 6825 6834
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref
+)
+ident(
+  int_ref in_fm "typ_impgraph.ml" 46 779 783 "typ_impgraph.ml" 46 779 788
+)
+"typ_impgraph.ml" 289 6825 6835 "typ_impgraph.ml" 289 6825 6837
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"typ_impgraph.ml" 289 6825 6838 "typ_impgraph.ml" 289 6825 6848
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t
+)
+ident(
+  int_ref Typ_e.SMap.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"typ_impgraph.ml" 289 6825 6829 "typ_impgraph.ml" 289 6825 6848
+type(
+  unit
+)
+"typ_impgraph.ml" 290 6850 6854 "typ_impgraph.ml" 290 6850 6859
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref
+)
+ident(
+  int_ref in_ph "typ_impgraph.ml" 50 887 891 "typ_impgraph.ml" 50 887 896
+)
+"typ_impgraph.ml" 290 6850 6860 "typ_impgraph.ml" 290 6850 6862
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref ->
+  Typ_e.SMap.key list Typ_e.SMap.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"typ_impgraph.ml" 290 6850 6863 "typ_impgraph.ml" 290 6850 6873
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t
+)
+ident(
+  int_ref Typ_e.SMap.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"typ_impgraph.ml" 290 6850 6854 "typ_impgraph.ml" 290 6850 6873
+type(
+  unit
+)
+"typ_impgraph.ml" 291 6875 6879 "typ_impgraph.ml" 291 6875 6885
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref
+)
+ident(
+  int_ref out_fm "typ_impgraph.ml" 54 999 1003 "typ_impgraph.ml" 54 999 1009
+)
+"typ_impgraph.ml" 291 6875 6886 "typ_impgraph.ml" 291 6875 6888
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"typ_impgraph.ml" 291 6875 6889 "typ_impgraph.ml" 291 6875 6899
+type(
+  (Expr.T.hyp list * Expr.T.expr) list Typ_e.SMap.t
+)
+ident(
+  int_ref Typ_e.SMap.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"typ_impgraph.ml" 291 6875 6879 "typ_impgraph.ml" 291 6875 6899
+type(
+  unit
+)
+"typ_impgraph.ml" 292 6901 6905 "typ_impgraph.ml" 292 6901 6911
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref
+)
+ident(
+  int_ref out_ph "typ_impgraph.ml" 58 1112 1116 "typ_impgraph.ml" 58 1112 1122
+)
+"typ_impgraph.ml" 292 6901 6912 "typ_impgraph.ml" 292 6901 6914
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t ref ->
+  Typ_e.SMap.key list Typ_e.SMap.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"typ_impgraph.ml" 292 6901 6915 "typ_impgraph.ml" 292 6901 6925
+type(
+  Typ_e.SMap.key list Typ_e.SMap.t
+)
+ident(
+  int_ref Typ_e.SMap.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"typ_impgraph.ml" 292 6901 6905 "typ_impgraph.ml" 292 6901 6925
+type(
+  unit
+)
+"typ_impgraph.ml" 293 6927 6931 "typ_impgraph.ml" 293 6927 6937
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref plhdrs "typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+)
+"typ_impgraph.ml" 293 6927 6938 "typ_impgraph.ml" 293 6927 6940
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"typ_impgraph.ml" 293 6927 6941 "typ_impgraph.ml" 293 6927 6949
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref init_phs "typ_impgraph.ml" 288 6797 6807 "typ_impgraph.ml" 288 6797 6815
+)
+"typ_impgraph.ml" 293 6927 6931 "typ_impgraph.ml" 293 6927 6949
+type(
+  unit
+)
+"typ_impgraph.ml" 294 6951 6955 "typ_impgraph.ml" 294 6951 6967
+type(
+  (B.builtin * Typ_e.t * Typ_t.tref * Typ_t.tref) list -> unit
+)
+ident(
+  int_ref mk_imp_graph "typ_impgraph.ml" 95 1806 1810 "typ_impgraph.ml" 95 1806 1822
+)
+"typ_impgraph.ml" 294 6951 6968 "typ_impgraph.ml" 294 6951 6971
+type(
+  (B.builtin * Typ_e.t * Typ_t.tref * Typ_t.tref) list
+)
+ident(
+  int_ref vcs "typ_impgraph.ml" 288 6797 6816 "typ_impgraph.ml" 288 6797 6819
+)
+"typ_impgraph.ml" 294 6951 6955 "typ_impgraph.ml" 294 6951 6971
+type(
+  unit
+)
+"typ_impgraph.ml" 308 7265 7269 "typ_impgraph.ml" 308 7265 7277
+type(
+  Typ_e.SMap.key list -> unit
+)
+ident(
+  int_ref solve_ph "typ_impgraph.ml" 265 6191 6195 "typ_impgraph.ml" 265 6191 6203
+)
+"typ_impgraph.ml" 308 7265 7278 "typ_impgraph.ml" 308 7265 7280
+type(
+  Typ_e.SMap.key list
+)
+ident(
+  int_ref ns "typ_impgraph.ml" 288 6797 6820 "typ_impgraph.ml" 288 6797 6822
+)
+"typ_impgraph.ml" 308 7265 7269 "typ_impgraph.ml" 308 7265 7280
+type(
+  unit
+)
+"typ_impgraph.ml" 312 7330 7334 "typ_impgraph.ml" 312 7330 7338
+type(
+  (Typ_e.SMap.key -> unit) -> Typ_e.SMap.key list -> unit
+)
+ident(
+  int_ref Ext.List.iter "ext.mli" 16 424 426 "ext.mli" 16 424 468
+)
+"typ_impgraph.ml" 312 7330 7339 "typ_impgraph.ml" 312 7330 7348
+type(
+  Typ_e.SMap.key -> unit
+)
+ident(
+  int_ref rule_true "typ_impgraph.ml" 271 6353 6357 "typ_impgraph.ml" 271 6353 6366
+)
+"typ_impgraph.ml" 312 7330 7349 "typ_impgraph.ml" 312 7330 7351
+type(
+  Typ_e.SMap.key list
+)
+ident(
+  int_ref ns "typ_impgraph.ml" 288 6797 6820 "typ_impgraph.ml" 288 6797 6822
+)
+"typ_impgraph.ml" 312 7330 7334 "typ_impgraph.ml" 312 7330 7351
+type(
+  unit
+)
+"typ_impgraph.ml" 327 7730 7734 "typ_impgraph.ml" 327 7730 7745
+type(
+  int -> (unit, Format.formatter, unit, unit) format4 -> unit
+)
+ident(
+  int_ref Smt.ifprint "smtcommons.mli" 37 1059 1059 "smtcommons.mli" 37 1059 1128
+)
+"typ_impgraph.ml" 327 7730 7746 "typ_impgraph.ml" 327 7730 7747
+type(
+  int
+)
+"typ_impgraph.ml" 328 7748 7756 "typ_impgraph.ml" 329 7787 7829
+type(
+  (unit, Format.formatter, unit, unit) format4
+)
+"typ_impgraph.ml" 327 7730 7734 "typ_impgraph.ml" 329 7787 7829
+type(
+  unit
+)
+"typ_impgraph.ml" 330 7831 7835 "typ_impgraph.ml" 330 7831 7844
+type(
+  (Typ_e.SMap.key -> Expr.T.hyp list * Expr.T.expr -> unit) ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t -> unit
+)
+ident(
+  int_ref Typ_e.SMap.iter "map.mli" 154 6537 6541 "map.mli" 154 6537 6586
+)
+"typ_impgraph.ml" 330 7831 7845 "typ_impgraph.ml" 330 7831 7856
+type(
+  Typ_e.SMap.key -> Expr.T.hyp list * Expr.T.expr -> unit
+)
+ident(
+  int_ref Typ_c.pp_ph "typ_c.mli" 150 3264 3264 "typ_c.mli" 151 3285 3314
+)
+"typ_impgraph.ml" 330 7831 7857 "typ_impgraph.ml" 330 7831 7858
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 330 7831 7858 "typ_impgraph.ml" 330 7831 7864
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref plhdrs "typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+)
+"typ_impgraph.ml" 330 7831 7857 "typ_impgraph.ml" 330 7831 7864
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 330 7831 7835 "typ_impgraph.ml" 330 7831 7864
+type(
+  unit
+)
+"typ_impgraph.ml" 332 7867 7871 "typ_impgraph.ml" 332 7867 7872
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref ->
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"typ_impgraph.ml" 332 7867 7872 "typ_impgraph.ml" 332 7867 7878
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t ref
+)
+ident(
+  int_ref plhdrs "typ_impgraph.ml" 62 1229 1233 "typ_impgraph.ml" 62 1229 1239
+)
+"typ_impgraph.ml" 332 7867 7871 "typ_impgraph.ml" 332 7867 7878
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 330 7831 7835 "typ_impgraph.ml" 332 7867 7878
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 327 7730 7734 "typ_impgraph.ml" 332 7867 7878
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 312 7330 7334 "typ_impgraph.ml" 332 7867 7878
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 308 7265 7269 "typ_impgraph.ml" 332 7867 7878
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 294 6951 6955 "typ_impgraph.ml" 332 7867 7878
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 293 6927 6931 "typ_impgraph.ml" 332 7867 7878
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 292 6901 6905 "typ_impgraph.ml" 332 7867 7878
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 291 6875 6879 "typ_impgraph.ml" 332 7867 7878
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 290 6850 6854 "typ_impgraph.ml" 332 7867 7878
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)
+"typ_impgraph.ml" 289 6825 6829 "typ_impgraph.ml" 332 7867 7878
+type(
+  (Expr.T.hyp list * Expr.T.expr) Typ_e.SMap.t
+)

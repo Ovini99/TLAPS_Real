@@ -1,0 +1,3531 @@
+"ext.ml" 8 121 128 "ext.ml" 8 121 134
+ident(
+  def Option "ext.ml" 34 775 778 "ext.ml" 0 0 -1
+)
+"ext.ml" 9 144 150 "ext.ml" 9 144 154
+type(
+  ('a -> unit) -> 'a option -> unit
+)
+ident(
+  def iter "ext.ml" 13 258 260 "ext.ml" 34 775 778
+)
+"ext.ml" 10 193 201 "ext.ml" 10 193 203
+type(
+  'a -> unit
+)
+ident(
+  def fn "ext.ml" 10 193 207 "ext.ml" 12 239 257
+)
+"ext.ml" 11 216 229 "ext.ml" 11 216 230
+type(
+  'a
+)
+ident(
+  def x "ext.ml" 11 216 234 "ext.ml" 11 216 238
+)
+"ext.ml" 11 216 224 "ext.ml" 11 216 230
+type(
+  'a option
+)
+"ext.ml" 11 216 234 "ext.ml" 11 216 236
+type(
+  'a -> unit
+)
+ident(
+  int_ref fn "ext.ml" 10 193 201 "ext.ml" 10 193 203
+)
+"ext.ml" 11 216 237 "ext.ml" 11 216 238
+type(
+  'a
+)
+ident(
+  int_ref x "ext.ml" 11 216 229 "ext.ml" 11 216 230
+)
+"ext.ml" 11 216 234 "ext.ml" 11 216 238
+type(
+  unit
+)
+"ext.ml" 12 239 247 "ext.ml" 12 239 251
+type(
+  'a option
+)
+"ext.ml" 12 239 255 "ext.ml" 12 239 257
+type(
+  unit
+)
+"ext.ml" 10 193 207 "ext.ml" 12 239 257
+type(
+  'a option -> unit
+)
+"ext.ml" 10 193 197 "ext.ml" 12 239 257
+type(
+  ('a -> unit) -> 'a option -> unit
+)
+"ext.ml" 13 258 264 "ext.ml" 13 258 267
+type(
+  ('a0 -> 'b) -> 'a0 option -> 'b option
+)
+ident(
+  def map "ext.ml" 17 383 385 "ext.ml" 34 775 778
+)
+"ext.ml" 14 309 317 "ext.ml" 14 309 319
+type(
+  'a0 -> 'b
+)
+ident(
+  def fn "ext.ml" 14 309 323 "ext.ml" 16 362 382
+)
+"ext.ml" 15 332 345 "ext.ml" 15 332 346
+type(
+  'a0
+)
+ident(
+  def x "ext.ml" 15 332 350 "ext.ml" 15 332 361
+)
+"ext.ml" 15 332 340 "ext.ml" 15 332 346
+type(
+  'a0 option
+)
+"ext.ml" 15 332 356 "ext.ml" 15 332 358
+type(
+  'a0 -> 'b
+)
+ident(
+  int_ref fn "ext.ml" 14 309 317 "ext.ml" 14 309 319
+)
+"ext.ml" 15 332 359 "ext.ml" 15 332 360
+type(
+  'a0
+)
+ident(
+  int_ref x "ext.ml" 15 332 345 "ext.ml" 15 332 346
+)
+"ext.ml" 15 332 355 "ext.ml" 15 332 361
+type(
+  'b
+)
+"ext.ml" 15 332 350 "ext.ml" 15 332 361
+type(
+  'b option
+)
+"ext.ml" 16 362 370 "ext.ml" 16 362 374
+type(
+  'a0 option
+)
+"ext.ml" 16 362 378 "ext.ml" 16 362 382
+type(
+  'b option
+)
+"ext.ml" 14 309 323 "ext.ml" 16 362 382
+type(
+  'a0 option -> 'b option
+)
+"ext.ml" 14 309 313 "ext.ml" 16 362 382
+type(
+  ('a0 -> 'b) -> 'a0 option -> 'b option
+)
+"ext.ml" 17 383 389 "ext.ml" 17 383 396
+type(
+  'a1 -> 'a1 option -> 'a1
+)
+ident(
+  def default "ext.ml" 21 483 485 "ext.ml" 34 775 778
+)
+"ext.ml" 18 423 431 "ext.ml" 18 423 432
+type(
+  'a1
+)
+ident(
+  def x "ext.ml" 18 423 436 "ext.ml" 20 465 482
+)
+"ext.ml" 19 445 458 "ext.ml" 19 445 459
+type(
+  'a1
+)
+ident(
+  def y "ext.ml" 19 445 463 "ext.ml" 19 445 464
+)
+"ext.ml" 19 445 453 "ext.ml" 19 445 459
+type(
+  'a1 option
+)
+"ext.ml" 19 445 463 "ext.ml" 19 445 464
+type(
+  'a1
+)
+ident(
+  int_ref y "ext.ml" 19 445 458 "ext.ml" 19 445 459
+)
+"ext.ml" 20 465 473 "ext.ml" 20 465 477
+type(
+  'a1 option
+)
+"ext.ml" 20 465 481 "ext.ml" 20 465 482
+type(
+  'a1
+)
+ident(
+  int_ref x "ext.ml" 18 423 431 "ext.ml" 18 423 432
+)
+"ext.ml" 18 423 436 "ext.ml" 20 465 482
+type(
+  'a1 option -> 'a1
+)
+"ext.ml" 18 423 427 "ext.ml" 20 465 482
+type(
+  'a1 -> 'a1 option -> 'a1
+)
+"ext.ml" 21 483 489 "ext.ml" 21 483 496
+type(
+  'a2 option -> bool
+)
+ident(
+  def is_none "ext.ml" 25 572 574 "ext.ml" 34 775 778
+)
+"ext.ml" 23 532 540 "ext.ml" 23 532 544
+type(
+  'a2 option
+)
+"ext.ml" 23 532 548 "ext.ml" 23 532 552
+type(
+  bool
+)
+"ext.ml" 24 553 561 "ext.ml" 24 553 562
+type(
+  'a2 option
+)
+"ext.ml" 24 553 566 "ext.ml" 24 553 571
+type(
+  bool
+)
+"ext.ml" 22 519 523 "ext.ml" 24 553 571
+type(
+  'a2 option -> bool
+)
+"ext.ml" 25 572 578 "ext.ml" 25 572 585
+type(
+  'a3 option -> bool
+)
+ident(
+  def is_some "ext.ml" 29 663 665 "ext.ml" 34 775 778
+)
+"ext.ml" 27 621 634 "ext.ml" 27 621 635
+type(
+  'a3
+)
+"ext.ml" 27 621 629 "ext.ml" 27 621 635
+type(
+  'a3 option
+)
+"ext.ml" 27 621 639 "ext.ml" 27 621 643
+type(
+  bool
+)
+"ext.ml" 28 644 652 "ext.ml" 28 644 653
+type(
+  'a3 option
+)
+"ext.ml" 28 644 657 "ext.ml" 28 644 662
+type(
+  bool
+)
+"ext.ml" 26 608 612 "ext.ml" 28 644 662
+type(
+  'a3 option -> bool
+)
+"ext.ml" 30 684 690 "ext.ml" 30 684 693
+type(
+  'a4 option -> 'a4
+)
+ident(
+  def get "ext.ml" 33 747 774 "ext.ml" 34 775 778
+)
+"ext.ml" 32 727 740 "ext.ml" 32 727 741
+type(
+  'a4
+)
+ident(
+  def x "ext.ml" 32 727 745 "ext.ml" 32 727 746
+)
+"ext.ml" 32 727 735 "ext.ml" 32 727 741
+type(
+  'a4 option
+)
+"ext.ml" 32 727 745 "ext.ml" 32 727 746
+type(
+  'a4
+)
+ident(
+  int_ref x "ext.ml" 32 727 740 "ext.ml" 32 727 741
+)
+"ext.ml" 33 747 755 "ext.ml" 33 747 756
+type(
+  'a4 option
+)
+"ext.ml" 33 747 760 "ext.ml" 33 747 765
+type(
+  exn -> 'a4
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"ext.ml" 33 747 766 "ext.ml" 33 747 774
+type(
+  exn
+)
+"ext.ml" 33 747 760 "ext.ml" 33 747 774
+type(
+  'a4
+)
+"ext.ml" 31 714 718 "ext.ml" 33 747 774
+type(
+  'a4 option -> 'a4
+)
+"ext.ml" 36 780 787 "ext.ml" 36 780 791
+ident(
+  def List "ext.ml" 112 2577 2580 "ext.ml" 0 0 -1
+)
+"ext.ml" 44 964 970 "ext.ml" 44 964 973
+type(
+  ('a -> 'b) -> 'a list -> 'b list
+)
+ident(
+  def map "ext.ml" 46 1003 1005 "ext.ml" 112 2577 2580
+)
+"ext.ml" 44 964 974 "ext.ml" 44 964 976
+type(
+  'a -> 'b
+)
+ident(
+  def fn "ext.ml" 44 964 977 "ext.ml" 44 964 1001
+)
+"ext.ml" 44 964 977 "ext.ml" 44 964 979
+type(
+  'a list
+)
+ident(
+  def xs "ext.ml" 44 964 982 "ext.ml" 44 964 1001
+)
+"ext.ml" 44 964 982 "ext.ml" 44 964 985
+type(
+  'b list -> 'b list
+)
+ident(
+  int_ref rev "list.mli" 90 3519 3519 "list.mli" 90 3519 3547
+)
+"ext.ml" 44 964 987 "ext.ml" 44 964 994
+type(
+  ('a -> 'b) -> 'a list -> 'b list
+)
+ident(
+  int_ref rev_map "list.mli" 185 6592 6592 "list.mli" 185 6592 6638
+)
+"ext.ml" 44 964 995 "ext.ml" 44 964 997
+type(
+  'a -> 'b
+)
+ident(
+  int_ref fn "ext.ml" 44 964 974 "ext.ml" 44 964 976
+)
+"ext.ml" 44 964 998 "ext.ml" 44 964 1000
+type(
+  'a list
+)
+ident(
+  int_ref xs "ext.ml" 44 964 977 "ext.ml" 44 964 979
+)
+"ext.ml" 44 964 986 "ext.ml" 44 964 1001
+type(
+  'b list
+)
+"ext.ml" 44 964 982 "ext.ml" 44 964 1001
+type(
+  'b list
+)
+"ext.ml" 46 1003 1013 "ext.ml" 46 1003 1021
+type(
+  (int -> 'c -> 'd) -> 'c t -> int -> 'd t -> 'd t
+)
+ident(
+  def rev_mapi "ext.ml" 46 1003 1005 "ext.ml" 112 2577 2580
+)
+"ext.ml" 46 1003 1022 "ext.ml" 46 1003 1024
+type(
+  int -> 'c -> 'd
+)
+ident(
+  def fn "ext.ml" 46 1003 1025 "ext.ml" 49 1072 1126
+)
+"ext.ml" 46 1003 1025 "ext.ml" 46 1003 1027
+type(
+  'c t
+)
+ident(
+  def xs "ext.ml" 46 1003 1028 "ext.ml" 49 1072 1126
+)
+"ext.ml" 46 1003 1028 "ext.ml" 46 1003 1029
+type(
+  int
+)
+ident(
+  def i "ext.ml" 46 1003 1030 "ext.ml" 49 1072 1126
+)
+"ext.ml" 46 1003 1030 "ext.ml" 46 1003 1034
+type(
+  'd t
+)
+ident(
+  def accu "ext.ml" 47 1037 1041 "ext.ml" 49 1072 1126
+)
+"ext.ml" 47 1037 1047 "ext.ml" 47 1037 1049
+type(
+  'c t
+)
+ident(
+  int_ref xs "ext.ml" 46 1003 1025 "ext.ml" 46 1003 1027
+)
+"ext.ml" 48 1055 1061 "ext.ml" 48 1055 1063
+type(
+  'c t
+)
+type(
+  'c t
+)
+"ext.ml" 48 1055 1067 "ext.ml" 48 1055 1071
+type(
+  'd t
+)
+ident(
+  int_ref accu "ext.ml" 46 1003 1030 "ext.ml" 46 1003 1034
+)
+"ext.ml" 49 1072 1078 "ext.ml" 49 1072 1079
+type(
+  'c
+)
+ident(
+  def x "ext.ml" 49 1072 1089 "ext.ml" 49 1072 1126
+)
+"ext.ml" 49 1072 1083 "ext.ml" 49 1072 1085
+type(
+  'c list
+)
+ident(
+  def xs "ext.ml" 49 1072 1089 "ext.ml" 49 1072 1126
+)
+"ext.ml" 49 1072 1078 "ext.ml" 49 1072 1085
+type(
+  'c t
+)
+type(
+  'c t
+)
+"ext.ml" 49 1072 1089 "ext.ml" 49 1072 1097
+type(
+  (int -> 'c -> 'd) -> 'c t -> int -> 'd t -> 'd t
+)
+ident(
+  int_ref rev_mapi "ext.ml" 46 1003 1013 "ext.ml" 46 1003 1021
+)
+"ext.ml" 49 1072 1098 "ext.ml" 49 1072 1100
+type(
+  int -> 'c -> 'd
+)
+ident(
+  int_ref fn "ext.ml" 46 1003 1022 "ext.ml" 46 1003 1024
+)
+"ext.ml" 49 1072 1101 "ext.ml" 49 1072 1103
+type(
+  'c t
+)
+ident(
+  int_ref xs "ext.ml" 49 1072 1083 "ext.ml" 49 1072 1085
+)
+"ext.ml" 49 1072 1105 "ext.ml" 49 1072 1106
+type(
+  int
+)
+ident(
+  int_ref i "ext.ml" 46 1003 1028 "ext.ml" 46 1003 1029
+)
+"ext.ml" 49 1072 1106 "ext.ml" 49 1072 1107
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"ext.ml" 49 1072 1107 "ext.ml" 49 1072 1108
+type(
+  int
+)
+"ext.ml" 49 1072 1104 "ext.ml" 49 1072 1109
+type(
+  int
+)
+"ext.ml" 49 1072 1111 "ext.ml" 49 1072 1113
+type(
+  int -> 'c -> 'd
+)
+ident(
+  int_ref fn "ext.ml" 46 1003 1022 "ext.ml" 46 1003 1024
+)
+"ext.ml" 49 1072 1114 "ext.ml" 49 1072 1115
+type(
+  int
+)
+ident(
+  int_ref i "ext.ml" 46 1003 1028 "ext.ml" 46 1003 1029
+)
+"ext.ml" 49 1072 1116 "ext.ml" 49 1072 1117
+type(
+  'c
+)
+ident(
+  int_ref x "ext.ml" 49 1072 1078 "ext.ml" 49 1072 1079
+)
+"ext.ml" 49 1072 1111 "ext.ml" 49 1072 1117
+type(
+  'd
+)
+"ext.ml" 49 1072 1121 "ext.ml" 49 1072 1125
+type(
+  'd t
+)
+ident(
+  int_ref accu "ext.ml" 46 1003 1030 "ext.ml" 46 1003 1034
+)
+"ext.ml" 49 1072 1110 "ext.ml" 49 1072 1126
+type(
+  'd t
+)
+"ext.ml" 49 1072 1089 "ext.ml" 49 1072 1126
+type(
+  'd t
+)
+"ext.ml" 47 1037 1041 "ext.ml" 49 1072 1126
+type(
+  'd t
+)
+"ext.ml" 51 1128 1134 "ext.ml" 51 1128 1138
+type(
+  (int -> 'e -> 'f) -> 'e t -> 'f list
+)
+ident(
+  def mapi "ext.ml" 53 1174 1176 "ext.ml" 112 2577 2580
+)
+"ext.ml" 51 1128 1139 "ext.ml" 51 1128 1141
+type(
+  int -> 'e -> 'f
+)
+ident(
+  def fn "ext.ml" 51 1128 1142 "ext.ml" 51 1128 1172
+)
+"ext.ml" 51 1128 1142 "ext.ml" 51 1128 1144
+type(
+  'e t
+)
+ident(
+  def xs "ext.ml" 51 1128 1147 "ext.ml" 51 1128 1172
+)
+"ext.ml" 51 1128 1147 "ext.ml" 51 1128 1150
+type(
+  'f t -> 'f list
+)
+ident(
+  int_ref rev "list.mli" 90 3519 3519 "list.mli" 90 3519 3547
+)
+"ext.ml" 51 1128 1152 "ext.ml" 51 1128 1160
+type(
+  (int -> 'e -> 'f) -> 'e t -> int -> 'f t -> 'f t
+)
+ident(
+  int_ref rev_mapi "ext.ml" 46 1003 1013 "ext.ml" 46 1003 1021
+)
+"ext.ml" 51 1128 1161 "ext.ml" 51 1128 1163
+type(
+  int -> 'e -> 'f
+)
+ident(
+  int_ref fn "ext.ml" 51 1128 1139 "ext.ml" 51 1128 1141
+)
+"ext.ml" 51 1128 1164 "ext.ml" 51 1128 1166
+type(
+  'e t
+)
+ident(
+  int_ref xs "ext.ml" 51 1128 1142 "ext.ml" 51 1128 1144
+)
+"ext.ml" 51 1128 1167 "ext.ml" 51 1128 1168
+type(
+  int
+)
+"ext.ml" 51 1128 1169 "ext.ml" 51 1128 1171
+type(
+  'f t
+)
+"ext.ml" 51 1128 1151 "ext.ml" 51 1128 1172
+type(
+  'f t
+)
+"ext.ml" 51 1128 1147 "ext.ml" 51 1128 1172
+type(
+  'f list
+)
+"ext.ml" 53 1174 1184 "ext.ml" 53 1174 1198
+type(
+  ('g -> 'h option) -> 'g t -> 'h t -> 'h t
+)
+ident(
+  def rev_filter_map "ext.ml" 53 1174 1176 "ext.ml" 112 2577 2580
+)
+"ext.ml" 53 1174 1199 "ext.ml" 53 1174 1201
+type(
+  'g -> 'h option
+)
+ident(
+  def fn "ext.ml" 53 1174 1202 "ext.ml" 59 1330 1381
+)
+"ext.ml" 53 1174 1202 "ext.ml" 53 1174 1204
+type(
+  'g t
+)
+ident(
+  def xs "ext.ml" 53 1174 1205 "ext.ml" 59 1330 1381
+)
+"ext.ml" 53 1174 1205 "ext.ml" 53 1174 1209
+type(
+  'h t
+)
+ident(
+  def accu "ext.ml" 54 1212 1216 "ext.ml" 59 1330 1381
+)
+"ext.ml" 54 1212 1222 "ext.ml" 54 1212 1224
+type(
+  'g t
+)
+ident(
+  int_ref xs "ext.ml" 53 1174 1202 "ext.ml" 53 1174 1204
+)
+"ext.ml" 55 1230 1236 "ext.ml" 55 1230 1238
+type(
+  'g t
+)
+type(
+  'g t
+)
+"ext.ml" 55 1230 1242 "ext.ml" 55 1230 1246
+type(
+  'h t
+)
+ident(
+  int_ref accu "ext.ml" 53 1174 1205 "ext.ml" 53 1174 1209
+)
+"ext.ml" 56 1247 1253 "ext.ml" 56 1247 1254
+type(
+  'g
+)
+ident(
+  def x "ext.ml" 57 1264 1271 "ext.ml" 59 1330 1381
+)
+"ext.ml" 56 1247 1258 "ext.ml" 56 1247 1260
+type(
+  'g list
+)
+ident(
+  def xs "ext.ml" 57 1264 1271 "ext.ml" 59 1330 1381
+)
+"ext.ml" 56 1247 1253 "ext.ml" 56 1247 1260
+type(
+  'g t
+)
+type(
+  'g t
+)
+"ext.ml" 57 1264 1277 "ext.ml" 57 1264 1279
+type(
+  'g -> 'h option
+)
+ident(
+  int_ref fn "ext.ml" 53 1174 1199 "ext.ml" 53 1174 1201
+)
+"ext.ml" 57 1264 1280 "ext.ml" 57 1264 1281
+type(
+  'g
+)
+ident(
+  int_ref x "ext.ml" 56 1247 1253 "ext.ml" 56 1247 1254
+)
+"ext.ml" 57 1264 1277 "ext.ml" 57 1264 1281
+type(
+  'h option
+)
+"ext.ml" 58 1287 1296 "ext.ml" 58 1287 1300
+type(
+  'h option
+)
+type(
+  'h option
+)
+"ext.ml" 58 1287 1304 "ext.ml" 58 1287 1318
+type(
+  ('g -> 'h option) -> 'g t -> 'h t -> 'h t
+)
+ident(
+  int_ref rev_filter_map "ext.ml" 53 1174 1184 "ext.ml" 53 1174 1198
+)
+"ext.ml" 58 1287 1319 "ext.ml" 58 1287 1321
+type(
+  'g -> 'h option
+)
+ident(
+  int_ref fn "ext.ml" 53 1174 1199 "ext.ml" 53 1174 1201
+)
+"ext.ml" 58 1287 1322 "ext.ml" 58 1287 1324
+type(
+  'g t
+)
+ident(
+  int_ref xs "ext.ml" 56 1247 1258 "ext.ml" 56 1247 1260
+)
+"ext.ml" 58 1287 1325 "ext.ml" 58 1287 1329
+type(
+  'h t
+)
+ident(
+  int_ref accu "ext.ml" 53 1174 1205 "ext.ml" 53 1174 1209
+)
+"ext.ml" 58 1287 1304 "ext.ml" 58 1287 1329
+type(
+  'h t
+)
+"ext.ml" 59 1330 1344 "ext.ml" 59 1330 1345
+type(
+  'h
+)
+ident(
+  def y "ext.ml" 59 1330 1349 "ext.ml" 59 1330 1381
+)
+"ext.ml" 59 1330 1339 "ext.ml" 59 1330 1345
+type(
+  'h option
+)
+type(
+  'h option
+)
+"ext.ml" 59 1330 1349 "ext.ml" 59 1330 1363
+type(
+  ('g -> 'h option) -> 'g t -> 'h t -> 'h t
+)
+ident(
+  int_ref rev_filter_map "ext.ml" 53 1174 1184 "ext.ml" 53 1174 1198
+)
+"ext.ml" 59 1330 1364 "ext.ml" 59 1330 1366
+type(
+  'g -> 'h option
+)
+ident(
+  int_ref fn "ext.ml" 53 1174 1199 "ext.ml" 53 1174 1201
+)
+"ext.ml" 59 1330 1367 "ext.ml" 59 1330 1369
+type(
+  'g t
+)
+ident(
+  int_ref xs "ext.ml" 56 1247 1258 "ext.ml" 56 1247 1260
+)
+"ext.ml" 59 1330 1371 "ext.ml" 59 1330 1372
+type(
+  'h
+)
+ident(
+  int_ref y "ext.ml" 59 1330 1344 "ext.ml" 59 1330 1345
+)
+"ext.ml" 59 1330 1376 "ext.ml" 59 1330 1380
+type(
+  'h t
+)
+ident(
+  int_ref accu "ext.ml" 53 1174 1205 "ext.ml" 53 1174 1209
+)
+"ext.ml" 59 1330 1370 "ext.ml" 59 1330 1381
+type(
+  'h t
+)
+"ext.ml" 59 1330 1349 "ext.ml" 59 1330 1381
+type(
+  'h t
+)
+"ext.ml" 57 1264 1271 "ext.ml" 59 1330 1381
+type(
+  'h t
+)
+"ext.ml" 54 1212 1216 "ext.ml" 59 1330 1381
+type(
+  'h t
+)
+"ext.ml" 61 1383 1389 "ext.ml" 61 1383 1399
+type(
+  ('i -> 'j option) -> 'i t -> 'j list
+)
+ident(
+  def filter_map "ext.ml" 63 1439 1441 "ext.ml" 112 2577 2580
+)
+"ext.ml" 61 1383 1400 "ext.ml" 61 1383 1402
+type(
+  'i -> 'j option
+)
+ident(
+  def fn "ext.ml" 61 1383 1403 "ext.ml" 61 1383 1437
+)
+"ext.ml" 61 1383 1403 "ext.ml" 61 1383 1405
+type(
+  'i t
+)
+ident(
+  def xs "ext.ml" 61 1383 1408 "ext.ml" 61 1383 1437
+)
+"ext.ml" 61 1383 1408 "ext.ml" 61 1383 1411
+type(
+  'j t -> 'j list
+)
+ident(
+  int_ref rev "list.mli" 90 3519 3519 "list.mli" 90 3519 3547
+)
+"ext.ml" 61 1383 1413 "ext.ml" 61 1383 1427
+type(
+  ('i -> 'j option) -> 'i t -> 'j t -> 'j t
+)
+ident(
+  int_ref rev_filter_map "ext.ml" 53 1174 1184 "ext.ml" 53 1174 1198
+)
+"ext.ml" 61 1383 1428 "ext.ml" 61 1383 1430
+type(
+  'i -> 'j option
+)
+ident(
+  int_ref fn "ext.ml" 61 1383 1400 "ext.ml" 61 1383 1402
+)
+"ext.ml" 61 1383 1431 "ext.ml" 61 1383 1433
+type(
+  'i t
+)
+ident(
+  int_ref xs "ext.ml" 61 1383 1403 "ext.ml" 61 1383 1405
+)
+"ext.ml" 61 1383 1434 "ext.ml" 61 1383 1436
+type(
+  'j t
+)
+"ext.ml" 61 1383 1412 "ext.ml" 61 1383 1437
+type(
+  'j t
+)
+"ext.ml" 61 1383 1408 "ext.ml" 61 1383 1437
+type(
+  'j list
+)
+"ext.ml" 63 1439 1445 "ext.ml" 63 1439 1450
+type(
+  (int -> 'a0 -> unit) -> 'a0 list -> unit
+)
+ident(
+  def iteri "ext.ml" 73 1658 1660 "ext.ml" 112 2577 2580
+)
+"ext.ml" 64 1494 1502 "ext.ml" 64 1494 1504
+type(
+  int -> 'a0 -> unit
+)
+ident(
+  def fn "ext.ml" 64 1494 1505 "ext.ml" 71 1641 1656
+)
+"ext.ml" 64 1494 1505 "ext.ml" 64 1494 1507
+type(
+  'a0 t
+)
+ident(
+  def xs "ext.ml" 65 1511 1517 "ext.ml" 71 1641 1656
+)
+"ext.ml" 65 1511 1525 "ext.ml" 65 1511 1529
+type(
+  int -> 'a0 t -> unit
+)
+ident(
+  def loop "ext.ml" 65 1511 1517 "ext.ml" 71 1641 1656
+)
+"ext.ml" 65 1511 1530 "ext.ml" 65 1511 1531
+type(
+  int
+)
+ident(
+  def n "ext.ml" 65 1511 1534 "ext.ml" 69 1604 1631
+)
+"ext.ml" 66 1543 1553 "ext.ml" 66 1543 1555
+type(
+  'a0 t
+)
+"ext.ml" 66 1543 1559 "ext.ml" 66 1543 1561
+type(
+  unit
+)
+"ext.ml" 67 1562 1572 "ext.ml" 67 1562 1573
+type(
+  'a0
+)
+ident(
+  def x "ext.ml" 68 1583 1595 "ext.ml" 69 1604 1631
+)
+"ext.ml" 67 1562 1577 "ext.ml" 67 1562 1579
+type(
+  'a0 list
+)
+ident(
+  def xs "ext.ml" 68 1583 1595 "ext.ml" 69 1604 1631
+)
+"ext.ml" 67 1562 1572 "ext.ml" 67 1562 1579
+type(
+  'a0 t
+)
+"ext.ml" 68 1583 1595 "ext.ml" 68 1583 1597
+type(
+  int -> 'a0 -> unit
+)
+ident(
+  int_ref fn "ext.ml" 64 1494 1502 "ext.ml" 64 1494 1504
+)
+"ext.ml" 68 1583 1598 "ext.ml" 68 1583 1599
+type(
+  int
+)
+ident(
+  int_ref n "ext.ml" 65 1511 1530 "ext.ml" 65 1511 1531
+)
+"ext.ml" 68 1583 1600 "ext.ml" 68 1583 1601
+type(
+  'a0
+)
+ident(
+  int_ref x "ext.ml" 67 1562 1572 "ext.ml" 67 1562 1573
+)
+"ext.ml" 68 1583 1595 "ext.ml" 68 1583 1601
+type(
+  unit
+)
+"ext.ml" 69 1604 1616 "ext.ml" 69 1604 1620
+type(
+  int -> 'a0 t -> unit
+)
+ident(
+  int_ref loop "ext.ml" 65 1511 1525 "ext.ml" 65 1511 1529
+)
+"ext.ml" 69 1604 1622 "ext.ml" 69 1604 1623
+type(
+  int
+)
+ident(
+  int_ref n "ext.ml" 65 1511 1530 "ext.ml" 65 1511 1531
+)
+"ext.ml" 69 1604 1624 "ext.ml" 69 1604 1625
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"ext.ml" 69 1604 1626 "ext.ml" 69 1604 1627
+type(
+  int
+)
+"ext.ml" 69 1604 1621 "ext.ml" 69 1604 1628
+type(
+  int
+)
+"ext.ml" 69 1604 1629 "ext.ml" 69 1604 1631
+type(
+  'a0 t
+)
+ident(
+  int_ref xs "ext.ml" 67 1562 1577 "ext.ml" 67 1562 1579
+)
+"ext.ml" 69 1604 1616 "ext.ml" 69 1604 1631
+type(
+  unit
+)
+"ext.ml" 68 1583 1595 "ext.ml" 69 1604 1631
+type(
+  unit
+)
+"ext.ml" 65 1511 1534 "ext.ml" 69 1604 1631
+type(
+  'a0 t -> unit
+)
+"ext.ml" 71 1641 1647 "ext.ml" 71 1641 1651
+type(
+  int -> 'a0 t -> unit
+)
+ident(
+  int_ref loop "ext.ml" 65 1511 1525 "ext.ml" 65 1511 1529
+)
+"ext.ml" 71 1641 1652 "ext.ml" 71 1641 1653
+type(
+  int
+)
+"ext.ml" 71 1641 1654 "ext.ml" 71 1641 1656
+type(
+  'a0 t
+)
+ident(
+  int_ref xs "ext.ml" 64 1494 1505 "ext.ml" 64 1494 1507
+)
+"ext.ml" 71 1641 1647 "ext.ml" 71 1641 1656
+type(
+  unit
+)
+"ext.ml" 65 1511 1517 "ext.ml" 71 1641 1656
+type(
+  unit
+)
+"ext.ml" 64 1494 1498 "ext.ml" 71 1641 1656
+type(
+  (int -> 'a0 -> unit) -> 'a0 list -> unit
+)
+"ext.ml" 73 1658 1664 "ext.ml" 73 1658 1672
+type(
+  ('a1 -> bool) -> exn -> 'a1 list -> 'a1
+)
+ident(
+  def find_exc "ext.ml" 83 1888 1890 "ext.ml" 112 2577 2580
+)
+"ext.ml" 74 1714 1722 "ext.ml" 74 1714 1725
+type(
+  'a1 -> bool
+)
+ident(
+  def sel "ext.ml" 74 1714 1726 "ext.ml" 81 1873 1886
+)
+"ext.ml" 74 1714 1726 "ext.ml" 74 1714 1728
+type(
+  exn
+)
+ident(
+  def ex "ext.ml" 74 1714 1729 "ext.ml" 81 1873 1886
+)
+"ext.ml" 74 1714 1729 "ext.ml" 74 1714 1731
+type(
+  'a1 t
+)
+ident(
+  def xs "ext.ml" 75 1735 1741 "ext.ml" 81 1873 1886
+)
+"ext.ml" 75 1735 1749 "ext.ml" 75 1735 1753
+type(
+  'a1 t -> 'a1
+)
+ident(
+  def scan "ext.ml" 75 1735 1741 "ext.ml" 81 1873 1886
+)
+"ext.ml" 76 1765 1775 "ext.ml" 76 1765 1777
+type(
+  'a1 t
+)
+"ext.ml" 76 1765 1781 "ext.ml" 76 1765 1786
+type(
+  exn -> 'a1
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"ext.ml" 76 1765 1787 "ext.ml" 76 1765 1789
+type(
+  exn
+)
+ident(
+  int_ref ex "ext.ml" 74 1714 1726 "ext.ml" 74 1714 1728
+)
+"ext.ml" 76 1765 1781 "ext.ml" 76 1765 1789
+type(
+  'a1
+)
+"ext.ml" 77 1790 1800 "ext.ml" 77 1790 1801
+type(
+  'a1
+)
+ident(
+  def x "ext.ml" 78 1811 1823 "ext.ml" 79 1839 1863
+)
+"ext.ml" 77 1790 1805 "ext.ml" 77 1790 1807
+type(
+  'a1 list
+)
+ident(
+  def xs "ext.ml" 78 1811 1823 "ext.ml" 79 1839 1863
+)
+"ext.ml" 77 1790 1800 "ext.ml" 77 1790 1807
+type(
+  'a1 t
+)
+"ext.ml" 78 1811 1826 "ext.ml" 78 1811 1829
+type(
+  'a1 -> bool
+)
+ident(
+  int_ref sel "ext.ml" 74 1714 1722 "ext.ml" 74 1714 1725
+)
+"ext.ml" 78 1811 1830 "ext.ml" 78 1811 1831
+type(
+  'a1
+)
+ident(
+  int_ref x "ext.ml" 77 1790 1800 "ext.ml" 77 1790 1801
+)
+"ext.ml" 78 1811 1826 "ext.ml" 78 1811 1831
+type(
+  bool
+)
+"ext.ml" 78 1811 1837 "ext.ml" 78 1811 1838
+type(
+  'a1
+)
+ident(
+  int_ref x "ext.ml" 77 1790 1800 "ext.ml" 77 1790 1801
+)
+"ext.ml" 79 1839 1856 "ext.ml" 79 1839 1860
+type(
+  'a1 t -> 'a1
+)
+ident(
+  int_ref scan "ext.ml" 75 1735 1749 "ext.ml" 75 1735 1753
+)
+"ext.ml" 79 1839 1861 "ext.ml" 79 1839 1863
+type(
+  'a1 t
+)
+ident(
+  int_ref xs "ext.ml" 77 1790 1805 "ext.ml" 77 1790 1807
+)
+"ext.ml" 79 1839 1856 "ext.ml" 79 1839 1863
+type(
+  'a1
+)
+"ext.ml" 78 1811 1823 "ext.ml" 79 1839 1863
+type(
+  'a1
+)
+"ext.ml" 75 1735 1756 "ext.ml" 79 1839 1863
+type(
+  'a1 t -> 'a1
+)
+"ext.ml" 81 1873 1879 "ext.ml" 81 1873 1883
+type(
+  'a1 t -> 'a1
+)
+ident(
+  int_ref scan "ext.ml" 75 1735 1749 "ext.ml" 75 1735 1753
+)
+"ext.ml" 81 1873 1884 "ext.ml" 81 1873 1886
+type(
+  'a1 t
+)
+ident(
+  int_ref xs "ext.ml" 74 1714 1729 "ext.ml" 74 1714 1731
+)
+"ext.ml" 81 1873 1879 "ext.ml" 81 1873 1886
+type(
+  'a1
+)
+"ext.ml" 75 1735 1741 "ext.ml" 81 1873 1886
+type(
+  'a1
+)
+"ext.ml" 74 1714 1718 "ext.ml" 81 1873 1886
+type(
+  ('a1 -> bool) -> exn -> 'a1 list -> 'a1
+)
+"ext.ml" 83 1888 1898 "ext.ml" 83 1888 1906
+type(
+  int -> int -> (int -> 'k) -> 'k t -> 'k t
+)
+ident(
+  def rev_init "ext.ml" 83 1888 1890 "ext.ml" 112 2577 2580
+)
+"ext.ml" 83 1888 1907 "ext.ml" 83 1888 1908
+type(
+  int
+)
+ident(
+  def k "ext.ml" 83 1888 1909 "ext.ml" 84 1920 1981
+)
+"ext.ml" 83 1888 1909 "ext.ml" 83 1888 1910
+type(
+  int
+)
+ident(
+  def n "ext.ml" 83 1888 1911 "ext.ml" 84 1920 1981
+)
+"ext.ml" 83 1888 1911 "ext.ml" 83 1888 1912
+type(
+  int -> 'k
+)
+ident(
+  def f "ext.ml" 83 1888 1913 "ext.ml" 84 1920 1981
+)
+"ext.ml" 83 1888 1913 "ext.ml" 83 1888 1917
+type(
+  'k t
+)
+ident(
+  def accu "ext.ml" 84 1920 1924 "ext.ml" 84 1920 1981
+)
+"ext.ml" 84 1920 1927 "ext.ml" 84 1920 1928
+type(
+  int
+)
+ident(
+  int_ref k "ext.ml" 83 1888 1907 "ext.ml" 83 1888 1908
+)
+"ext.ml" 84 1920 1929 "ext.ml" 84 1920 1931
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 150 6190 6190 "stdlib.mli" 150 6190 6242
+)
+"ext.ml" 84 1920 1932 "ext.ml" 84 1920 1933
+type(
+  int
+)
+ident(
+  int_ref n "ext.ml" 83 1888 1909 "ext.ml" 83 1888 1910
+)
+"ext.ml" 84 1920 1927 "ext.ml" 84 1920 1933
+type(
+  bool
+)
+"ext.ml" 84 1920 1939 "ext.ml" 84 1920 1943
+type(
+  'k t
+)
+ident(
+  int_ref accu "ext.ml" 83 1888 1913 "ext.ml" 83 1888 1917
+)
+"ext.ml" 84 1920 1949 "ext.ml" 84 1920 1957
+type(
+  int -> int -> (int -> 'k) -> 'k t -> 'k t
+)
+ident(
+  int_ref rev_init "ext.ml" 83 1888 1898 "ext.ml" 83 1888 1906
+)
+"ext.ml" 84 1920 1959 "ext.ml" 84 1920 1960
+type(
+  int
+)
+ident(
+  int_ref k "ext.ml" 83 1888 1907 "ext.ml" 83 1888 1908
+)
+"ext.ml" 84 1920 1960 "ext.ml" 84 1920 1961
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"ext.ml" 84 1920 1961 "ext.ml" 84 1920 1962
+type(
+  int
+)
+"ext.ml" 84 1920 1958 "ext.ml" 84 1920 1963
+type(
+  int
+)
+"ext.ml" 84 1920 1964 "ext.ml" 84 1920 1965
+type(
+  int
+)
+ident(
+  int_ref n "ext.ml" 83 1888 1909 "ext.ml" 83 1888 1910
+)
+"ext.ml" 84 1920 1966 "ext.ml" 84 1920 1967
+type(
+  int -> 'k
+)
+ident(
+  int_ref f "ext.ml" 83 1888 1911 "ext.ml" 83 1888 1912
+)
+"ext.ml" 84 1920 1969 "ext.ml" 84 1920 1970
+type(
+  int -> 'k
+)
+ident(
+  int_ref f "ext.ml" 83 1888 1911 "ext.ml" 83 1888 1912
+)
+"ext.ml" 84 1920 1971 "ext.ml" 84 1920 1972
+type(
+  int
+)
+ident(
+  int_ref k "ext.ml" 83 1888 1907 "ext.ml" 83 1888 1908
+)
+"ext.ml" 84 1920 1969 "ext.ml" 84 1920 1972
+type(
+  'k
+)
+"ext.ml" 84 1920 1976 "ext.ml" 84 1920 1980
+type(
+  'k t
+)
+ident(
+  int_ref accu "ext.ml" 83 1888 1913 "ext.ml" 83 1888 1917
+)
+"ext.ml" 84 1920 1968 "ext.ml" 84 1920 1981
+type(
+  'k t
+)
+"ext.ml" 84 1920 1949 "ext.ml" 84 1920 1981
+type(
+  'k t
+)
+"ext.ml" 84 1920 1924 "ext.ml" 84 1920 1981
+type(
+  'k t
+)
+"ext.ml" 86 1983 1989 "ext.ml" 86 1983 1993
+type(
+  int -> (int -> 'l) -> 'l list
+)
+ident(
+  def init "ext.ml" 88 2025 2027 "ext.ml" 112 2577 2580
+)
+"ext.ml" 86 1983 1994 "ext.ml" 86 1983 1995
+type(
+  int
+)
+ident(
+  def n "ext.ml" 86 1983 1996 "ext.ml" 86 1983 2023
+)
+"ext.ml" 86 1983 1996 "ext.ml" 86 1983 1997
+type(
+  int -> 'l
+)
+ident(
+  def f "ext.ml" 86 1983 2000 "ext.ml" 86 1983 2023
+)
+"ext.ml" 86 1983 2000 "ext.ml" 86 1983 2003
+type(
+  'l t -> 'l list
+)
+ident(
+  int_ref rev "list.mli" 90 3519 3519 "list.mli" 90 3519 3547
+)
+"ext.ml" 86 1983 2005 "ext.ml" 86 1983 2013
+type(
+  int -> int -> (int -> 'l) -> 'l t -> 'l t
+)
+ident(
+  int_ref rev_init "ext.ml" 83 1888 1898 "ext.ml" 83 1888 1906
+)
+"ext.ml" 86 1983 2014 "ext.ml" 86 1983 2015
+type(
+  int
+)
+"ext.ml" 86 1983 2016 "ext.ml" 86 1983 2017
+type(
+  int
+)
+ident(
+  int_ref n "ext.ml" 86 1983 1994 "ext.ml" 86 1983 1995
+)
+"ext.ml" 86 1983 2018 "ext.ml" 86 1983 2019
+type(
+  int -> 'l
+)
+ident(
+  int_ref f "ext.ml" 86 1983 1996 "ext.ml" 86 1983 1997
+)
+"ext.ml" 86 1983 2020 "ext.ml" 86 1983 2022
+type(
+  'l t
+)
+"ext.ml" 86 1983 2004 "ext.ml" 86 1983 2023
+type(
+  'l t
+)
+"ext.ml" 86 1983 2000 "ext.ml" 86 1983 2023
+type(
+  'l list
+)
+"ext.ml" 88 2025 2035 "ext.ml" 88 2025 2045
+type(
+  ('m -> 'm -> bool) -> 'm t -> 'm t -> 'm t
+)
+ident(
+  def rev_unique "ext.ml" 88 2025 2027 "ext.ml" 112 2577 2580
+)
+"ext.ml" 88 2025 2046 "ext.ml" 88 2025 2049
+type(
+  'm -> 'm -> bool
+)
+ident(
+  def cmp "ext.ml" 88 2025 2050 "ext.ml" 94 2177 2218
+)
+"ext.ml" 88 2025 2050 "ext.ml" 88 2025 2052
+type(
+  'm t
+)
+ident(
+  def xs "ext.ml" 88 2025 2053 "ext.ml" 94 2177 2218
+)
+"ext.ml" 88 2025 2053 "ext.ml" 88 2025 2057
+type(
+  'm t
+)
+ident(
+  def accu "ext.ml" 89 2060 2064 "ext.ml" 94 2177 2218
+)
+"ext.ml" 89 2060 2070 "ext.ml" 89 2060 2072
+type(
+  'm t
+)
+ident(
+  int_ref xs "ext.ml" 88 2025 2050 "ext.ml" 88 2025 2052
+)
+"ext.ml" 90 2078 2084 "ext.ml" 90 2078 2086
+type(
+  'm t
+)
+type(
+  'm t
+)
+"ext.ml" 90 2078 2090 "ext.ml" 90 2078 2094
+type(
+  'm t
+)
+ident(
+  int_ref accu "ext.ml" 88 2025 2053 "ext.ml" 88 2025 2057
+)
+"ext.ml" 91 2095 2101 "ext.ml" 91 2095 2102
+type(
+  'm
+)
+ident(
+  def x "ext.ml" 92 2112 2119 "ext.ml" 94 2177 2218
+)
+"ext.ml" 91 2095 2106 "ext.ml" 91 2095 2108
+type(
+  'm list
+)
+ident(
+  def xs "ext.ml" 92 2112 2119 "ext.ml" 94 2177 2218
+)
+"ext.ml" 91 2095 2101 "ext.ml" 91 2095 2108
+type(
+  'm t
+)
+type(
+  'm t
+)
+"ext.ml" 92 2112 2122 "ext.ml" 92 2112 2128
+type(
+  ('m -> bool) -> 'm t -> bool
+)
+ident(
+  int_ref exists "list.mli" 272 9272 9272 "list.mli" 272 9272 9316
+)
+"ext.ml" 92 2112 2130 "ext.ml" 92 2112 2133
+type(
+  'm -> 'm -> bool
+)
+ident(
+  int_ref cmp "ext.ml" 88 2025 2046 "ext.ml" 88 2025 2049
+)
+"ext.ml" 92 2112 2134 "ext.ml" 92 2112 2135
+type(
+  'm
+)
+ident(
+  int_ref x "ext.ml" 91 2095 2101 "ext.ml" 91 2095 2102
+)
+"ext.ml" 92 2112 2129 "ext.ml" 92 2112 2136
+type(
+  'm -> bool
+)
+"ext.ml" 92 2112 2137 "ext.ml" 92 2112 2141
+type(
+  'm t
+)
+ident(
+  int_ref accu "ext.ml" 88 2025 2053 "ext.ml" 88 2025 2057
+)
+"ext.ml" 92 2112 2122 "ext.ml" 92 2112 2141
+type(
+  bool
+)
+"ext.ml" 93 2142 2154 "ext.ml" 93 2142 2164
+type(
+  ('m -> 'm -> bool) -> 'm t -> 'm t -> 'm t
+)
+ident(
+  int_ref rev_unique "ext.ml" 88 2025 2035 "ext.ml" 88 2025 2045
+)
+"ext.ml" 93 2142 2165 "ext.ml" 93 2142 2168
+type(
+  'm -> 'm -> bool
+)
+ident(
+  int_ref cmp "ext.ml" 88 2025 2046 "ext.ml" 88 2025 2049
+)
+"ext.ml" 93 2142 2169 "ext.ml" 93 2142 2171
+type(
+  'm t
+)
+ident(
+  int_ref xs "ext.ml" 91 2095 2106 "ext.ml" 91 2095 2108
+)
+"ext.ml" 93 2142 2172 "ext.ml" 93 2142 2176
+type(
+  'm t
+)
+ident(
+  int_ref accu "ext.ml" 88 2025 2053 "ext.ml" 88 2025 2057
+)
+"ext.ml" 93 2142 2154 "ext.ml" 93 2142 2176
+type(
+  'm t
+)
+"ext.ml" 94 2177 2189 "ext.ml" 94 2177 2199
+type(
+  ('m -> 'm -> bool) -> 'm t -> 'm t -> 'm t
+)
+ident(
+  int_ref rev_unique "ext.ml" 88 2025 2035 "ext.ml" 88 2025 2045
+)
+"ext.ml" 94 2177 2200 "ext.ml" 94 2177 2203
+type(
+  'm -> 'm -> bool
+)
+ident(
+  int_ref cmp "ext.ml" 88 2025 2046 "ext.ml" 88 2025 2049
+)
+"ext.ml" 94 2177 2204 "ext.ml" 94 2177 2206
+type(
+  'm t
+)
+ident(
+  int_ref xs "ext.ml" 91 2095 2106 "ext.ml" 91 2095 2108
+)
+"ext.ml" 94 2177 2208 "ext.ml" 94 2177 2209
+type(
+  'm
+)
+ident(
+  int_ref x "ext.ml" 91 2095 2101 "ext.ml" 91 2095 2102
+)
+"ext.ml" 94 2177 2213 "ext.ml" 94 2177 2217
+type(
+  'm t
+)
+ident(
+  int_ref accu "ext.ml" 88 2025 2053 "ext.ml" 88 2025 2057
+)
+"ext.ml" 94 2177 2207 "ext.ml" 94 2177 2218
+type(
+  'm t
+)
+"ext.ml" 94 2177 2189 "ext.ml" 94 2177 2218
+type(
+  'm t
+)
+"ext.ml" 92 2112 2119 "ext.ml" 94 2177 2218
+type(
+  'm t
+)
+"ext.ml" 89 2060 2064 "ext.ml" 94 2177 2218
+type(
+  'm t
+)
+"ext.ml" 96 2220 2226 "ext.ml" 96 2220 2232
+type(
+  ?cmp:('n -> 'n -> bool) -> 'n t -> 'n list
+)
+ident(
+  def unique "ext.ml" 98 2279 2281 "ext.ml" 112 2577 2580
+)
+"ext.ml" 96 2220 2235 "ext.ml" 96 2220 2238
+type(
+  'n -> 'n -> bool
+)
+ident(
+  def cmp "ext.ml" 96 2220 2246 "ext.ml" 96 2220 2277
+)
+"ext.ml" 96 2220 2241 "ext.ml" 96 2220 2244
+type(
+  'n -> 'n -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+type(
+  ('n -> 'n -> bool) option
+)
+type(
+  ('n -> 'n -> bool) option
+)
+type(
+  'n -> 'n -> bool
+)
+ident(
+  int_ref *sth* "ext.ml" 96 2220 2241 "ext.ml" 96 2220 2244
+)
+type(
+  'n -> 'n -> bool
+)
+type(
+  ('n -> 'n -> bool) option
+)
+type(
+  ('n -> 'n -> bool) option
+)
+ident(
+  def *sth* "ext.ml" 96 2220 2241 "ext.ml" 96 2220 2244
+)
+"ext.ml" 96 2220 2246 "ext.ml" 96 2220 2248
+type(
+  'n t
+)
+ident(
+  def xs "ext.ml" 96 2220 2251 "ext.ml" 96 2220 2277
+)
+"ext.ml" 96 2220 2251 "ext.ml" 96 2220 2254
+type(
+  'n t -> 'n list
+)
+ident(
+  int_ref rev "list.mli" 90 3519 3519 "list.mli" 90 3519 3547
+)
+"ext.ml" 96 2220 2256 "ext.ml" 96 2220 2266
+type(
+  ('n -> 'n -> bool) -> 'n t -> 'n t -> 'n t
+)
+ident(
+  int_ref rev_unique "ext.ml" 88 2025 2035 "ext.ml" 88 2025 2045
+)
+"ext.ml" 96 2220 2267 "ext.ml" 96 2220 2270
+type(
+  'n -> 'n -> bool
+)
+ident(
+  int_ref cmp "ext.ml" 96 2220 2235 "ext.ml" 96 2220 2238
+)
+"ext.ml" 96 2220 2271 "ext.ml" 96 2220 2273
+type(
+  'n t
+)
+ident(
+  int_ref xs "ext.ml" 96 2220 2246 "ext.ml" 96 2220 2248
+)
+"ext.ml" 96 2220 2274 "ext.ml" 96 2220 2276
+type(
+  'n t
+)
+"ext.ml" 96 2220 2255 "ext.ml" 96 2220 2277
+type(
+  'n t
+)
+"ext.ml" 96 2220 2251 "ext.ml" 96 2220 2277
+type(
+  'n list
+)
+"ext.ml" 98 2279 2285 "ext.ml" 98 2279 2289
+type(
+  ?cmp:('o -> 'o -> int) -> 'o list -> 'o list
+)
+ident(
+  def sort "ext.ml" 100 2331 2333 "ext.ml" 112 2577 2580
+)
+"ext.ml" 98 2279 2292 "ext.ml" 98 2279 2295
+type(
+  'o -> 'o -> int
+)
+ident(
+  def cmp "ext.ml" 98 2279 2316 "ext.ml" 98 2279 2329
+)
+"ext.ml" 98 2279 2298 "ext.ml" 98 2279 2312
+type(
+  'o -> 'o -> int
+)
+ident(
+  int_ref Stdlib.compare "stdlib.mli" 162 6792 6792 "stdlib.mli" 162 6792 6839
+)
+type(
+  ('o -> 'o -> int) option
+)
+type(
+  ('o -> 'o -> int) option
+)
+type(
+  'o -> 'o -> int
+)
+ident(
+  int_ref *sth* "ext.ml" 98 2279 2298 "ext.ml" 98 2279 2312
+)
+type(
+  'o -> 'o -> int
+)
+type(
+  ('o -> 'o -> int) option
+)
+type(
+  ('o -> 'o -> int) option
+)
+ident(
+  def *sth* "ext.ml" 98 2279 2298 "ext.ml" 98 2279 2312
+)
+"ext.ml" 98 2279 2316 "ext.ml" 98 2279 2325
+type(
+  ('o -> 'o -> int) -> 'o list -> 'o list
+)
+ident(
+  int_ref Stdlib.List.sort "list.mli" 444 14676 14676 "list.mli" 444 14676 14726
+)
+"ext.ml" 98 2279 2326 "ext.ml" 98 2279 2329
+type(
+  'o -> 'o -> int
+)
+ident(
+  int_ref cmp "ext.ml" 98 2279 2292 "ext.ml" 98 2279 2295
+)
+"ext.ml" 98 2279 2316 "ext.ml" 98 2279 2329
+type(
+  'o list -> 'o list
+)
+"ext.ml" 102 2358 2364 "ext.ml" 102 2358 2373
+type(
+  int -> 'p t -> 'p list * 'p t
+)
+ident(
+  def split_nth "ext.ml" 109 2558 2574 "ext.ml" 112 2577 2580
+)
+"ext.ml" 102 2358 2374 "ext.ml" 102 2358 2375
+type(
+  int
+)
+ident(
+  def n "ext.ml" 102 2358 2376 "ext.ml" 109 2558 2574
+)
+"ext.ml" 102 2358 2376 "ext.ml" 102 2358 2378
+type(
+  'p t
+)
+ident(
+  def xs "ext.ml" 103 2381 2385 "ext.ml" 109 2558 2574
+)
+"ext.ml" 103 2381 2393 "ext.ml" 103 2381 2397
+type(
+  int -> 'q t -> 'q t -> 'q list * 'q t
+)
+ident(
+  def loop "ext.ml" 103 2381 2385 "ext.ml" 109 2558 2574
+)
+"ext.ml" 103 2381 2398 "ext.ml" 103 2381 2399
+type(
+  int
+)
+ident(
+  def n "ext.ml" 103 2381 2400 "ext.ml" 107 2501 2550
+)
+"ext.ml" 103 2381 2400 "ext.ml" 103 2381 2402
+type(
+  'q t
+)
+ident(
+  def xs "ext.ml" 103 2381 2403 "ext.ml" 107 2501 2550
+)
+"ext.ml" 103 2381 2403 "ext.ml" 103 2381 2407
+type(
+  'q t
+)
+ident(
+  def accu "ext.ml" 104 2410 2416 "ext.ml" 107 2501 2550
+)
+"ext.ml" 104 2410 2422 "ext.ml" 104 2410 2423
+type(
+  int
+)
+ident(
+  int_ref n "ext.ml" 103 2381 2398 "ext.ml" 103 2381 2399
+)
+"ext.ml" 104 2410 2425 "ext.ml" 104 2410 2427
+type(
+  'q t
+)
+ident(
+  int_ref xs "ext.ml" 103 2381 2400 "ext.ml" 103 2381 2402
+)
+"ext.ml" 104 2410 2422 "ext.ml" 104 2410 2427
+type(
+  int * 'q t
+)
+"ext.ml" 105 2433 2441 "ext.ml" 105 2433 2442
+type(
+  int
+)
+"ext.ml" 105 2433 2444 "ext.ml" 105 2433 2445
+type(
+  'q t
+)
+"ext.ml" 105 2433 2441 "ext.ml" 105 2433 2445
+type(
+  int * 'q t
+)
+type(
+  int * 'q t
+)
+"ext.ml" 105 2433 2450 "ext.ml" 105 2433 2453
+type(
+  'q t -> 'q list
+)
+ident(
+  int_ref rev "list.mli" 90 3519 3519 "list.mli" 90 3519 3547
+)
+"ext.ml" 105 2433 2454 "ext.ml" 105 2433 2458
+type(
+  'q t
+)
+ident(
+  int_ref accu "ext.ml" 103 2381 2403 "ext.ml" 103 2381 2407
+)
+"ext.ml" 105 2433 2450 "ext.ml" 105 2433 2458
+type(
+  'q list
+)
+"ext.ml" 105 2433 2460 "ext.ml" 105 2433 2462
+type(
+  'q t
+)
+ident(
+  int_ref xs "ext.ml" 103 2381 2400 "ext.ml" 103 2381 2402
+)
+"ext.ml" 105 2433 2449 "ext.ml" 105 2433 2463
+type(
+  'q list * 'q t
+)
+"ext.ml" 106 2464 2472 "ext.ml" 106 2464 2473
+type(
+  int
+)
+"ext.ml" 106 2464 2475 "ext.ml" 106 2464 2477
+type(
+  'q t
+)
+"ext.ml" 106 2464 2472 "ext.ml" 106 2464 2477
+type(
+  int * 'q t
+)
+type(
+  int * 'q t
+)
+"ext.ml" 106 2464 2481 "ext.ml" 106 2464 2486
+type(
+  exn -> 'q list * 'q t
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"ext.ml" 106 2464 2487 "ext.ml" 106 2464 2500
+type(
+  exn
+)
+"ext.ml" 106 2464 2481 "ext.ml" 106 2464 2500
+type(
+  'q list * 'q t
+)
+"ext.ml" 107 2501 2509 "ext.ml" 107 2501 2510
+type(
+  int
+)
+"ext.ml" 107 2501 2512 "ext.ml" 107 2501 2513
+type(
+  'q
+)
+ident(
+  def x "ext.ml" 107 2501 2523 "ext.ml" 107 2501 2550
+)
+"ext.ml" 107 2501 2517 "ext.ml" 107 2501 2519
+type(
+  'q list
+)
+ident(
+  def xs "ext.ml" 107 2501 2523 "ext.ml" 107 2501 2550
+)
+"ext.ml" 107 2501 2512 "ext.ml" 107 2501 2519
+type(
+  'q t
+)
+"ext.ml" 107 2501 2509 "ext.ml" 107 2501 2519
+type(
+  int * 'q t
+)
+type(
+  int * 'q t
+)
+"ext.ml" 107 2501 2523 "ext.ml" 107 2501 2527
+type(
+  int -> 'q t -> 'q t -> 'q list * 'q t
+)
+ident(
+  int_ref loop "ext.ml" 103 2381 2393 "ext.ml" 103 2381 2397
+)
+"ext.ml" 107 2501 2529 "ext.ml" 107 2501 2530
+type(
+  int
+)
+ident(
+  int_ref n "ext.ml" 103 2381 2398 "ext.ml" 103 2381 2399
+)
+"ext.ml" 107 2501 2531 "ext.ml" 107 2501 2532
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"ext.ml" 107 2501 2533 "ext.ml" 107 2501 2534
+type(
+  int
+)
+"ext.ml" 107 2501 2528 "ext.ml" 107 2501 2535
+type(
+  int
+)
+"ext.ml" 107 2501 2536 "ext.ml" 107 2501 2538
+type(
+  'q t
+)
+ident(
+  int_ref xs "ext.ml" 107 2501 2517 "ext.ml" 107 2501 2519
+)
+"ext.ml" 107 2501 2540 "ext.ml" 107 2501 2541
+type(
+  'q
+)
+ident(
+  int_ref x "ext.ml" 107 2501 2512 "ext.ml" 107 2501 2513
+)
+"ext.ml" 107 2501 2545 "ext.ml" 107 2501 2549
+type(
+  'q t
+)
+ident(
+  int_ref accu "ext.ml" 103 2381 2403 "ext.ml" 103 2381 2407
+)
+"ext.ml" 107 2501 2539 "ext.ml" 107 2501 2550
+type(
+  'q t
+)
+"ext.ml" 107 2501 2523 "ext.ml" 107 2501 2550
+type(
+  'q list * 'q t
+)
+"ext.ml" 104 2410 2416 "ext.ml" 107 2501 2550
+type(
+  'q list * 'q t
+)
+"ext.ml" 109 2558 2562 "ext.ml" 109 2558 2566
+type(
+  int -> 'p t -> 'p t -> 'p list * 'p t
+)
+ident(
+  int_ref loop "ext.ml" 103 2381 2393 "ext.ml" 103 2381 2397
+)
+"ext.ml" 109 2558 2567 "ext.ml" 109 2558 2568
+type(
+  int
+)
+ident(
+  int_ref n "ext.ml" 102 2358 2374 "ext.ml" 102 2358 2375
+)
+"ext.ml" 109 2558 2569 "ext.ml" 109 2558 2571
+type(
+  'p t
+)
+ident(
+  int_ref xs "ext.ml" 102 2358 2376 "ext.ml" 102 2358 2378
+)
+"ext.ml" 109 2558 2572 "ext.ml" 109 2558 2574
+type(
+  'p t
+)
+"ext.ml" 109 2558 2562 "ext.ml" 109 2558 2574
+type(
+  'p list * 'p t
+)
+"ext.ml" 103 2381 2385 "ext.ml" 109 2558 2574
+type(
+  'p list * 'p t
+)
+"ext.ml" 114 2582 2589 "ext.ml" 114 2582 2592
+ident(
+  def Std "ext.ml" 167 3843 3846 "ext.ml" 0 0 -1
+)
+"ext.ml" 116 2603 2609 "ext.ml" 116 2603 2615
+type(
+  unit -> int
+)
+ident(
+  def unique "ext.ml" 122 2704 2706 "ext.ml" 167 3843 3846
+)
+"ext.ml" 117 2632 2640 "ext.ml" 117 2632 2645
+type(
+  int ref
+)
+ident(
+  def count "ext.ml" 118 2657 2661 "ext.ml" 120 2690 2702
+)
+"ext.ml" 117 2632 2648 "ext.ml" 117 2632 2651
+type(
+  int -> int ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"ext.ml" 117 2632 2652 "ext.ml" 117 2632 2653
+type(
+  int
+)
+"ext.ml" 117 2632 2648 "ext.ml" 117 2632 2653
+type(
+  int ref
+)
+"ext.ml" 118 2657 2665 "ext.ml" 118 2657 2667
+type(
+  unit
+)
+"ext.ml" 119 2671 2677 "ext.ml" 119 2671 2681
+type(
+  int ref -> unit
+)
+ident(
+  int_ref Stdlib.incr "stdlib.mli" 1227 46731 46731 "stdlib.mli" 1227 46731 46772
+)
+"ext.ml" 119 2671 2682 "ext.ml" 119 2671 2687
+type(
+  int ref
+)
+ident(
+  int_ref count "ext.ml" 117 2632 2640 "ext.ml" 117 2632 2645
+)
+"ext.ml" 119 2671 2677 "ext.ml" 119 2671 2687
+type(
+  unit
+)
+"ext.ml" 120 2690 2696 "ext.ml" 120 2690 2697
+type(
+  int ref -> int
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"ext.ml" 120 2690 2697 "ext.ml" 120 2690 2702
+type(
+  int ref
+)
+ident(
+  int_ref count "ext.ml" 117 2632 2640 "ext.ml" 117 2632 2645
+)
+"ext.ml" 120 2690 2696 "ext.ml" 120 2690 2702
+type(
+  int
+)
+"ext.ml" 119 2671 2677 "ext.ml" 120 2690 2702
+type(
+  int
+)
+"ext.ml" 118 2657 2661 "ext.ml" 120 2690 2702
+type(
+  unit -> int
+)
+"ext.ml" 117 2632 2636 "ext.ml" 120 2690 2702
+type(
+  unit -> int
+)
+"ext.ml" 122 2704 2710 "ext.ml" 122 2704 2717
+type(
+  (unit -> unit) -> ('a -> 'b) -> 'a -> 'b
+)
+ident(
+  def finally "ext.ml" 132 2908 2910 "ext.ml" 167 3843 3846
+)
+"ext.ml" 123 2763 2771 "ext.ml" 123 2763 2778
+type(
+  unit -> unit
+)
+ident(
+  def cleanup "ext.ml" 123 2763 2779 "ext.ml" 130 2890 2906
+)
+"ext.ml" 123 2763 2779 "ext.ml" 123 2763 2781
+type(
+  'a -> 'b
+)
+ident(
+  def fn "ext.ml" 123 2763 2782 "ext.ml" 130 2890 2906
+)
+"ext.ml" 123 2763 2782 "ext.ml" 123 2763 2783
+type(
+  'a
+)
+ident(
+  def x "ext.ml" 124 2787 2793 "ext.ml" 130 2890 2906
+)
+"ext.ml" 125 2797 2809 "ext.ml" 125 2797 2810
+type(
+  'b
+)
+ident(
+  def y "ext.ml" 126 2821 2829 "ext.ml" 127 2842 2851
+)
+"ext.ml" 125 2797 2813 "ext.ml" 125 2797 2815
+type(
+  'a -> 'b
+)
+ident(
+  int_ref fn "ext.ml" 123 2763 2779 "ext.ml" 123 2763 2781
+)
+"ext.ml" 125 2797 2816 "ext.ml" 125 2797 2817
+type(
+  'a
+)
+ident(
+  int_ref x "ext.ml" 123 2763 2782 "ext.ml" 123 2763 2783
+)
+"ext.ml" 125 2797 2813 "ext.ml" 125 2797 2817
+type(
+  'b
+)
+"ext.ml" 126 2821 2829 "ext.ml" 126 2821 2836
+type(
+  unit -> unit
+)
+ident(
+  int_ref cleanup "ext.ml" 123 2763 2771 "ext.ml" 123 2763 2778
+)
+"ext.ml" 126 2821 2837 "ext.ml" 126 2821 2839
+type(
+  unit
+)
+"ext.ml" 126 2821 2829 "ext.ml" 126 2821 2839
+type(
+  unit
+)
+"ext.ml" 127 2842 2850 "ext.ml" 127 2842 2851
+type(
+  'b
+)
+ident(
+  int_ref y "ext.ml" 125 2797 2809 "ext.ml" 125 2797 2810
+)
+"ext.ml" 126 2821 2829 "ext.ml" 127 2842 2851
+type(
+  'b
+)
+"ext.ml" 125 2797 2805 "ext.ml" 127 2842 2851
+type(
+  'b
+)
+"ext.ml" 128 2852 2863 "ext.ml" 128 2852 2865
+type(
+  exn
+)
+ident(
+  def ex "ext.ml" 129 2869 2877 "ext.ml" 130 2890 2906
+)
+"ext.ml" 129 2869 2877 "ext.ml" 129 2869 2884
+type(
+  unit -> unit
+)
+ident(
+  int_ref cleanup "ext.ml" 123 2763 2771 "ext.ml" 123 2763 2778
+)
+"ext.ml" 129 2869 2885 "ext.ml" 129 2869 2887
+type(
+  unit
+)
+"ext.ml" 129 2869 2877 "ext.ml" 129 2869 2887
+type(
+  unit
+)
+"ext.ml" 130 2890 2898 "ext.ml" 130 2890 2903
+type(
+  exn -> 'b
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"ext.ml" 130 2890 2904 "ext.ml" 130 2890 2906
+type(
+  exn
+)
+ident(
+  int_ref ex "ext.ml" 128 2852 2863 "ext.ml" 128 2852 2865
+)
+"ext.ml" 130 2890 2898 "ext.ml" 130 2890 2906
+type(
+  'b
+)
+"ext.ml" 129 2869 2877 "ext.ml" 130 2890 2906
+type(
+  'b
+)
+"ext.ml" 124 2787 2793 "ext.ml" 130 2890 2906
+type(
+  'b
+)
+"ext.ml" 123 2763 2767 "ext.ml" 130 2890 2906
+type(
+  (unit -> unit) -> ('a -> 'b) -> 'a -> 'b
+)
+"ext.ml" 132 2908 2914 "ext.ml" 132 2908 2923
+type(
+  ?bsize:int -> in_channel -> string
+)
+ident(
+  def input_all "ext.ml" 146 3299 3301 "ext.ml" 167 3843 3846
+)
+"ext.ml" 133 2963 2973 "ext.ml" 133 2963 2978
+type(
+  int
+)
+ident(
+  def bsize "ext.ml" 133 2963 2985 "ext.ml" 144 3272 3297
+)
+"ext.ml" 133 2963 2981 "ext.ml" 133 2963 2983
+type(
+  int
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "ext.ml" 133 2963 2981 "ext.ml" 133 2963 2983
+)
+type(
+  int
+)
+type(
+  int option
+)
+type(
+  int option
+)
+ident(
+  def *sth* "ext.ml" 133 2963 2981 "ext.ml" 133 2963 2983
+)
+"ext.ml" 133 2963 2985 "ext.ml" 133 2963 2987
+type(
+  in_channel
+)
+ident(
+  def ch "ext.ml" 134 2991 2997 "ext.ml" 144 3272 3297
+)
+"ext.ml" 134 2991 3001 "ext.ml" 134 2991 3004
+type(
+  Buffer.t
+)
+ident(
+  def buf "ext.ml" 135 3030 3036 "ext.ml" 144 3272 3297
+)
+"ext.ml" 134 2991 3007 "ext.ml" 134 2991 3020
+type(
+  int -> Buffer.t
+)
+ident(
+  int_ref Stdlib.Buffer.create "buffer.mli" 36 1534 1534 "buffer.mli" 36 1534 1555
+)
+"ext.ml" 134 2991 3021 "ext.ml" 134 2991 3026
+type(
+  int
+)
+ident(
+  int_ref bsize "ext.ml" 133 2963 2973 "ext.ml" 133 2963 2978
+)
+"ext.ml" 134 2991 3007 "ext.ml" 134 2991 3026
+type(
+  Buffer.t
+)
+"ext.ml" 135 3030 3040 "ext.ml" 135 3030 3043
+type(
+  bytes
+)
+ident(
+  def str "ext.ml" 136 3065 3071 "ext.ml" 144 3272 3297
+)
+"ext.ml" 135 3030 3046 "ext.ml" 135 3030 3058
+type(
+  int -> bytes
+)
+ident(
+  int_ref Stdlib.Bytes.create "bytes.mli" 70 3056 3056 "bytes.mli" 70 3056 3108
+)
+"ext.ml" 135 3030 3059 "ext.ml" 135 3030 3061
+type(
+  int
+)
+"ext.ml" 135 3030 3046 "ext.ml" 135 3030 3061
+type(
+  bytes
+)
+"ext.ml" 136 3065 3079 "ext.ml" 136 3065 3083
+type(
+  unit -> unit
+)
+ident(
+  def loop "ext.ml" 136 3065 3071 "ext.ml" 144 3272 3297
+)
+"ext.ml" 136 3065 3084 "ext.ml" 136 3065 3086
+type(
+  unit
+)
+"ext.ml" 137 3089 3101 "ext.ml" 137 3089 3106
+type(
+  int
+)
+ident(
+  def hmany "ext.ml" 138 3137 3145 "ext.ml" 141 3235 3246
+)
+"ext.ml" 137 3089 3109 "ext.ml" 137 3089 3121
+type(
+  in_channel -> bytes -> int -> int -> int
+)
+ident(
+  int_ref Stdlib.input "stdlib.mli" 1096 40998 40998 "stdlib.mli" 1096 40998 41050
+)
+"ext.ml" 137 3089 3122 "ext.ml" 137 3089 3124
+type(
+  in_channel
+)
+ident(
+  int_ref ch "ext.ml" 133 2963 2985 "ext.ml" 133 2963 2987
+)
+"ext.ml" 137 3089 3125 "ext.ml" 137 3089 3128
+type(
+  bytes
+)
+ident(
+  int_ref str "ext.ml" 135 3030 3040 "ext.ml" 135 3030 3043
+)
+"ext.ml" 137 3089 3129 "ext.ml" 137 3089 3130
+type(
+  int
+)
+"ext.ml" 137 3089 3131 "ext.ml" 137 3089 3133
+type(
+  int
+)
+"ext.ml" 137 3089 3109 "ext.ml" 137 3089 3133
+type(
+  int
+)
+"ext.ml" 138 3137 3148 "ext.ml" 138 3137 3153
+type(
+  int
+)
+ident(
+  int_ref hmany "ext.ml" 137 3089 3101 "ext.ml" 137 3089 3106
+)
+"ext.ml" 138 3137 3154 "ext.ml" 138 3137 3155
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 140 5875 5875 "stdlib.mli" 140 5875 5925
+)
+"ext.ml" 138 3137 3156 "ext.ml" 138 3137 3157
+type(
+  int
+)
+"ext.ml" 138 3137 3148 "ext.ml" 138 3137 3157
+type(
+  bool
+)
+"ext.ml" 139 3169 3179 "ext.ml" 139 3169 3198
+type(
+  Buffer.t -> bytes -> int -> int -> unit
+)
+ident(
+  int_ref Stdlib.Buffer.add_subbytes "buffer.mli" 146 5691 5691 "buffer.mli" 146 5691 5742
+)
+"ext.ml" 139 3169 3199 "ext.ml" 139 3169 3202
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "ext.ml" 134 2991 3001 "ext.ml" 134 2991 3004
+)
+"ext.ml" 139 3169 3203 "ext.ml" 139 3169 3206
+type(
+  bytes
+)
+ident(
+  int_ref str "ext.ml" 135 3030 3040 "ext.ml" 135 3030 3043
+)
+"ext.ml" 139 3169 3207 "ext.ml" 139 3169 3208
+type(
+  int
+)
+"ext.ml" 139 3169 3209 "ext.ml" 139 3169 3214
+type(
+  int
+)
+ident(
+  int_ref hmany "ext.ml" 137 3089 3101 "ext.ml" 137 3089 3106
+)
+"ext.ml" 139 3169 3179 "ext.ml" 139 3169 3214
+type(
+  unit
+)
+"ext.ml" 140 3217 3227 "ext.ml" 140 3217 3231
+type(
+  unit -> unit
+)
+ident(
+  int_ref loop "ext.ml" 136 3065 3079 "ext.ml" 136 3065 3083
+)
+"ext.ml" 140 3217 3232 "ext.ml" 140 3217 3234
+type(
+  unit
+)
+"ext.ml" 140 3217 3227 "ext.ml" 140 3217 3234
+type(
+  unit
+)
+"ext.ml" 138 3137 3163 "ext.ml" 141 3235 3246
+type(
+  unit
+)
+"ext.ml" 138 3137 3145 "ext.ml" 141 3235 3246
+type(
+  unit
+)
+"ext.ml" 137 3089 3097 "ext.ml" 141 3235 3246
+type(
+  unit
+)
+"ext.ml" 143 3256 3262 "ext.ml" 143 3256 3266
+type(
+  unit -> unit
+)
+ident(
+  int_ref loop "ext.ml" 136 3065 3079 "ext.ml" 136 3065 3083
+)
+"ext.ml" 143 3256 3267 "ext.ml" 143 3256 3269
+type(
+  unit
+)
+"ext.ml" 143 3256 3262 "ext.ml" 143 3256 3269
+type(
+  unit
+)
+"ext.ml" 144 3272 3278 "ext.ml" 144 3272 3293
+type(
+  Buffer.t -> string
+)
+ident(
+  int_ref Stdlib.Buffer.contents "buffer.mli" 50 2314 2314 "buffer.mli" 50 2314 2340
+)
+"ext.ml" 144 3272 3294 "ext.ml" 144 3272 3297
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "ext.ml" 134 2991 3001 "ext.ml" 134 2991 3004
+)
+"ext.ml" 144 3272 3278 "ext.ml" 144 3272 3297
+type(
+  string
+)
+"ext.ml" 143 3256 3262 "ext.ml" 144 3272 3297
+type(
+  string
+)
+"ext.ml" 136 3065 3071 "ext.ml" 144 3272 3297
+type(
+  string
+)
+"ext.ml" 135 3030 3036 "ext.ml" 144 3272 3297
+type(
+  string
+)
+"ext.ml" 134 2991 2997 "ext.ml" 144 3272 3297
+type(
+  string
+)
+"ext.ml" 133 2963 2967 "ext.ml" 144 3272 3297
+type(
+  int option
+)
+ident(
+  ext_ref *opt*
+)
+type(
+  in_channel -> string
+)
+type(
+  ?bsize:int -> in_channel -> string
+)
+"ext.ml" 146 3299 3305 "ext.ml" 146 3299 3315
+type(
+  ?bin:bool -> string -> string
+)
+ident(
+  def input_file "ext.ml" 156 3621 3623 "ext.ml" 167 3843 3846
+)
+"ext.ml" 147 3350 3360 "ext.ml" 147 3350 3363
+type(
+  bool
+)
+ident(
+  def bin "ext.ml" 147 3350 3373 "ext.ml" 154 3584 3619
+)
+"ext.ml" 147 3350 3366 "ext.ml" 147 3350 3371
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "ext.ml" 147 3350 3366 "ext.ml" 147 3350 3371
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+ident(
+  def *sth* "ext.ml" 147 3350 3366 "ext.ml" 147 3350 3371
+)
+"ext.ml" 147 3350 3373 "ext.ml" 147 3350 3378
+type(
+  string
+)
+ident(
+  def fname "ext.ml" 148 3382 3388 "ext.ml" 154 3584 3619
+)
+"ext.ml" 148 3382 3392 "ext.ml" 148 3382 3397
+type(
+  int
+)
+ident(
+  def fsize "ext.ml" 149 3434 3440 "ext.ml" 154 3584 3619
+)
+"ext.ml" 148 3382 3401 "ext.ml" 148 3382 3410
+type(
+  string -> Unix.stats
+)
+ident(
+  int_ref Unix.stat "unix.mli" 499 20981 20981 "unix.mli" 499 20981 21007
+)
+"ext.ml" 148 3382 3411 "ext.ml" 148 3382 3416
+type(
+  string
+)
+ident(
+  int_ref fname "ext.ml" 147 3350 3373 "ext.ml" 147 3350 3378
+)
+"ext.ml" 148 3382 3400 "ext.ml" 148 3382 3417
+type(
+  Unix.stats
+)
+"ext.ml" 148 3382 3400 "ext.ml" 148 3382 3430
+type(
+  int
+)
+"ext.ml" 149 3434 3444 "ext.ml" 149 3434 3446
+type(
+  in_channel
+)
+ident(
+  def ch "ext.ml" 152 3531 3537 "ext.ml" 154 3584 3619
+)
+"ext.ml" 150 3449 3460 "ext.ml" 150 3449 3463
+type(
+  bool
+)
+ident(
+  int_ref bin "ext.ml" 147 3350 3360 "ext.ml" 147 3350 3363
+)
+"ext.ml" 150 3449 3469 "ext.ml" 150 3449 3487
+type(
+  string -> in_channel
+)
+ident(
+  int_ref Stdlib.open_in_bin "stdlib.mli" 1072 39900 39900 "stdlib.mli" 1072 39900 39938
+)
+"ext.ml" 150 3449 3488 "ext.ml" 150 3449 3493
+type(
+  string
+)
+ident(
+  int_ref fname "ext.ml" 147 3350 3373 "ext.ml" 147 3350 3378
+)
+"ext.ml" 150 3449 3469 "ext.ml" 150 3449 3493
+type(
+  in_channel
+)
+"ext.ml" 151 3494 3507 "ext.ml" 151 3494 3521
+type(
+  string -> in_channel
+)
+ident(
+  int_ref Stdlib.open_in "stdlib.mli" 1068 39735 39735 "stdlib.mli" 1068 39735 39769
+)
+"ext.ml" 151 3494 3522 "ext.ml" 151 3494 3527
+type(
+  string
+)
+ident(
+  int_ref fname "ext.ml" 147 3350 3373 "ext.ml" 147 3350 3378
+)
+"ext.ml" 151 3494 3507 "ext.ml" 151 3494 3527
+type(
+  in_channel
+)
+"ext.ml" 150 3449 3457 "ext.ml" 151 3494 3527
+type(
+  in_channel
+)
+"ext.ml" 152 3531 3537 "ext.ml" 152 3531 3544
+type(
+  (unit -> unit) -> (in_channel -> string) -> in_channel -> string
+)
+ident(
+  int_ref finally "ext.ml" 122 2704 2710 "ext.ml" 122 2704 2717
+)
+"ext.ml" 153 3545 3558 "ext.ml" 153 3545 3560
+type(
+  unit
+)
+"ext.ml" 153 3545 3564 "ext.ml" 153 3545 3579
+type(
+  in_channel -> unit
+)
+ident(
+  int_ref Stdlib.close_in "stdlib.mli" 1168 44452 44452 "stdlib.mli" 1168 44452 44485
+)
+"ext.ml" 153 3545 3580 "ext.ml" 153 3545 3582
+type(
+  in_channel
+)
+ident(
+  int_ref ch "ext.ml" 149 3434 3444 "ext.ml" 149 3434 3446
+)
+"ext.ml" 153 3545 3564 "ext.ml" 153 3545 3582
+type(
+  unit
+)
+"ext.ml" 153 3545 3553 "ext.ml" 153 3545 3583
+type(
+  unit -> unit
+)
+"ext.ml" 154 3584 3593 "ext.ml" 154 3584 3602
+type(
+  ?bsize:int -> in_channel -> string
+)
+ident(
+  int_ref input_all "ext.ml" 132 2908 2914 "ext.ml" 132 2908 2923
+)
+"ext.ml" 154 3584 3610 "ext.ml" 154 3584 3615
+type(
+  int
+)
+ident(
+  int_ref fsize "ext.ml" 148 3382 3392 "ext.ml" 148 3382 3397
+)
+type(
+  int option
+)
+"ext.ml" 154 3584 3592 "ext.ml" 154 3584 3616
+type(
+  in_channel -> string
+)
+"ext.ml" 154 3584 3617 "ext.ml" 154 3584 3619
+type(
+  in_channel
+)
+ident(
+  int_ref ch "ext.ml" 149 3434 3444 "ext.ml" 149 3434 3446
+)
+"ext.ml" 152 3531 3537 "ext.ml" 154 3584 3619
+type(
+  string
+)
+"ext.ml" 149 3434 3440 "ext.ml" 154 3584 3619
+type(
+  string
+)
+"ext.ml" 148 3382 3388 "ext.ml" 154 3584 3619
+type(
+  string
+)
+"ext.ml" 147 3350 3354 "ext.ml" 154 3584 3619
+type(
+  bool option
+)
+ident(
+  ext_ref *opt*
+)
+type(
+  string -> string
+)
+type(
+  ?bin:bool -> string -> string
+)
+"ext.ml" 156 3621 3627 "ext.ml" 156 3621 3637
+type(
+  in_channel -> string list
+)
+ident(
+  def input_list "ext.ml" 164 3799 3801 "ext.ml" 167 3843 3846
+)
+"ext.ml" 156 3621 3638 "ext.ml" 156 3621 3640
+type(
+  in_channel
+)
+ident(
+  def ch "ext.ml" 157 3643 3647 "ext.ml" 161 3758 3796
+)
+"ext.ml" 157 3643 3651 "ext.ml" 157 3643 3655
+type(
+  string list ref
+)
+ident(
+  def accu "ext.ml" 158 3668 3672 "ext.ml" 161 3758 3796
+)
+"ext.ml" 157 3643 3658 "ext.ml" 157 3643 3661
+type(
+  string list -> string list ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"ext.ml" 157 3643 3662 "ext.ml" 157 3643 3664
+type(
+  string list
+)
+"ext.ml" 157 3643 3658 "ext.ml" 157 3643 3664
+type(
+  string list ref
+)
+"ext.ml" 158 3668 3682 "ext.ml" 158 3668 3686
+type(
+  bool
+)
+"ext.ml" 159 3690 3696 "ext.ml" 159 3690 3700
+type(
+  string list ref
+)
+ident(
+  int_ref accu "ext.ml" 157 3643 3651 "ext.ml" 157 3643 3655
+)
+"ext.ml" 159 3690 3701 "ext.ml" 159 3690 3703
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"ext.ml" 159 3690 3704 "ext.ml" 159 3690 3721
+type(
+  in_channel -> string
+)
+ident(
+  int_ref Stdlib.input_line "stdlib.mli" 1089 40689 40689 "stdlib.mli" 1089 40689 40726
+)
+"ext.ml" 159 3690 3722 "ext.ml" 159 3690 3724
+type(
+  in_channel
+)
+ident(
+  int_ref ch "ext.ml" 156 3621 3638 "ext.ml" 156 3621 3640
+)
+"ext.ml" 159 3690 3704 "ext.ml" 159 3690 3724
+type(
+  string
+)
+"ext.ml" 159 3690 3728 "ext.ml" 159 3690 3729
+type(
+  string list ref -> string list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"ext.ml" 159 3690 3729 "ext.ml" 159 3690 3733
+type(
+  string list ref
+)
+ident(
+  int_ref accu "ext.ml" 157 3643 3651 "ext.ml" 157 3643 3655
+)
+"ext.ml" 159 3690 3728 "ext.ml" 159 3690 3733
+type(
+  string list
+)
+"ext.ml" 159 3690 3704 "ext.ml" 159 3690 3733
+type(
+  string list
+)
+"ext.ml" 159 3690 3696 "ext.ml" 159 3690 3733
+type(
+  unit
+)
+"ext.ml" 158 3668 3676 "ext.ml" 160 3735 3743
+type(
+  unit
+)
+"ext.ml" 160 3735 3752 "ext.ml" 160 3735 3757
+type(
+  bool
+)
+"ext.ml" 160 3735 3745 "ext.ml" 160 3735 3757
+type(
+  string list
+)
+"ext.ml" 158 3668 3676 "ext.ml" 160 3735 3757
+type(
+  string list
+)
+"ext.ml" 161 3758 3767 "ext.ml" 161 3758 3778
+type(
+  exn
+)
+"ext.ml" 161 3758 3782 "ext.ml" 161 3758 3790
+type(
+  string list -> string list
+)
+ident(
+  int_ref List.rev "list.mli" 90 3519 3519 "list.mli" 90 3519 3547
+)
+"ext.ml" 161 3758 3791 "ext.ml" 161 3758 3792
+type(
+  string list ref -> string list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"ext.ml" 161 3758 3792 "ext.ml" 161 3758 3796
+type(
+  string list ref
+)
+ident(
+  int_ref accu "ext.ml" 157 3643 3651 "ext.ml" 157 3643 3655
+)
+"ext.ml" 161 3758 3791 "ext.ml" 161 3758 3796
+type(
+  string list
+)
+"ext.ml" 161 3758 3782 "ext.ml" 161 3758 3796
+type(
+  string list
+)
+"ext.ml" 158 3668 3672 "ext.ml" 161 3758 3796
+type(
+  string list
+)
+"ext.ml" 157 3643 3647 "ext.ml" 161 3758 3796
+type(
+  string list
+)
+"ext.ml" 164 3799 3805 "ext.ml" 164 3799 3813
+type(
+  'a0 -> 'a0
+)
+ident(
+  def identity "ext.ml" 165 3827 3841 "ext.ml" 167 3843 3846
+)
+"ext.ml" 165 3827 3835 "ext.ml" 165 3827 3836
+type(
+  'a0
+)
+ident(
+  def x "ext.ml" 165 3827 3840 "ext.ml" 165 3827 3841
+)
+"ext.ml" 165 3827 3840 "ext.ml" 165 3827 3841
+type(
+  'a0
+)
+ident(
+  int_ref x "ext.ml" 165 3827 3835 "ext.ml" 165 3827 3836
+)
+"ext.ml" 165 3827 3831 "ext.ml" 165 3827 3841
+type(
+  'a0 -> 'a0
+)
+"ext.ml" 169 3848 3854 "ext.ml" 169 3848 3869
+type(
+  string -> string -> bool
+)
+ident(
+  def string_contains "ext.ml" 174 3994 3994 "ext.ml" 0 0 -1
+)
+"ext.ml" 169 3848 3870 "ext.ml" 169 3848 3872
+type(
+  string
+)
+ident(
+  def s1 "ext.ml" 169 3848 3873 "ext.ml" 172 3965 3992
+)
+"ext.ml" 169 3848 3873 "ext.ml" 169 3848 3875
+type(
+  string
+)
+ident(
+  def s2 "ext.ml" 170 3878 3882 "ext.ml" 172 3965 3992
+)
+"ext.ml" 170 3878 3886 "ext.ml" 170 3878 3888
+type(
+  Str.regexp
+)
+ident(
+  def re "ext.ml" 171 3915 3919 "ext.ml" 172 3965 3992
+)
+"ext.ml" 170 3878 3891 "ext.ml" 170 3878 3908
+type(
+  string -> Str.regexp
+)
+ident(
+  int_ref Str.regexp_string "str.mli" 78 3796 3796 "str.mli" 78 3796 3832
+)
+"ext.ml" 170 3878 3909 "ext.ml" 170 3878 3911
+type(
+  string
+)
+ident(
+  int_ref s2 "ext.ml" 169 3848 3873 "ext.ml" 169 3848 3875
+)
+"ext.ml" 170 3878 3891 "ext.ml" 170 3878 3911
+type(
+  Str.regexp
+)
+"ext.ml" 171 3915 3923 "ext.ml" 171 3915 3929
+type(
+  int -> unit
+)
+ident(
+  int_ref Stdlib.ignore "stdlib.mli" 723 27015 27015 "stdlib.mli" 723 27015 27055
+)
+"ext.ml" 171 3915 3931 "ext.ml" 171 3915 3949
+type(
+  Str.regexp -> string -> int -> int
+)
+ident(
+  int_ref Str.search_forward "str.mli" 95 4406 4406 "str.mli" 95 4406 4457
+)
+"ext.ml" 171 3915 3950 "ext.ml" 171 3915 3952
+type(
+  Str.regexp
+)
+ident(
+  int_ref re "ext.ml" 170 3878 3886 "ext.ml" 170 3878 3888
+)
+"ext.ml" 171 3915 3953 "ext.ml" 171 3915 3955
+type(
+  string
+)
+ident(
+  int_ref s1 "ext.ml" 169 3848 3870 "ext.ml" 169 3848 3872
+)
+"ext.ml" 171 3915 3956 "ext.ml" 171 3915 3957
+type(
+  int
+)
+"ext.ml" 171 3915 3930 "ext.ml" 171 3915 3958
+type(
+  int
+)
+"ext.ml" 171 3915 3923 "ext.ml" 171 3915 3958
+type(
+  unit
+)
+"ext.ml" 171 3915 3960 "ext.ml" 171 3915 3964
+type(
+  bool
+)
+"ext.ml" 171 3915 3923 "ext.ml" 171 3915 3964
+type(
+  bool
+)
+"ext.ml" 172 3965 3974 "ext.ml" 172 3965 3983
+type(
+  exn
+)
+"ext.ml" 172 3965 3987 "ext.ml" 172 3965 3992
+type(
+  bool
+)
+"ext.ml" 171 3915 3919 "ext.ml" 172 3965 3992
+type(
+  bool
+)
+"ext.ml" 170 3878 3882 "ext.ml" 172 3965 3992
+type(
+  bool
+)
+"ext.ml" 174 3994 3998 "ext.ml" 174 3994 4007
+type(
+  string -> string -> bool
+)
+ident(
+  def is_prefix "ext.ml" 179 4113 4113 "ext.ml" 0 0 -1
+)
+"ext.ml" 174 3994 4008 "ext.ml" 174 3994 4012
+type(
+  string
+)
+ident(
+  def pref "ext.ml" 174 3994 4013 "ext.ml" 176 4061 4110
+)
+"ext.ml" 174 3994 4013 "ext.ml" 174 3994 4016
+type(
+  string
+)
+ident(
+  def txt "ext.ml" 175 4019 4021 "ext.ml" 176 4061 4110
+)
+"ext.ml" 175 4019 4021 "ext.ml" 175 4019 4034
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 118 4569 4569 "string.mli" 118 4569 4619
+)
+"ext.ml" 175 4019 4035 "ext.ml" 175 4019 4038
+type(
+  string
+)
+ident(
+  int_ref txt "ext.ml" 174 3994 4013 "ext.ml" 174 3994 4016
+)
+"ext.ml" 175 4019 4021 "ext.ml" 175 4019 4038
+type(
+  int
+)
+"ext.ml" 175 4019 4039 "ext.ml" 175 4019 4041
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 150 6190 6190 "stdlib.mli" 150 6190 6242
+)
+"ext.ml" 175 4019 4042 "ext.ml" 175 4019 4055
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 118 4569 4569 "string.mli" 118 4569 4619
+)
+"ext.ml" 175 4019 4056 "ext.ml" 175 4019 4060
+type(
+  string
+)
+ident(
+  int_ref pref "ext.ml" 174 3994 4008 "ext.ml" 174 3994 4012
+)
+"ext.ml" 175 4019 4042 "ext.ml" 175 4019 4060
+type(
+  int
+)
+"ext.ml" 175 4019 4021 "ext.ml" 175 4019 4060
+type(
+  bool
+)
+"ext.ml" 176 4061 4063 "ext.ml" 176 4061 4065
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"ext.ml" 176 4061 4066 "ext.ml" 176 4061 4076
+type(
+  string -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.String.sub "string.mli" 190 6894 6894 "string.mli" 190 6894 6934
+)
+"ext.ml" 176 4061 4077 "ext.ml" 176 4061 4080
+type(
+  string
+)
+ident(
+  int_ref txt "ext.ml" 174 3994 4013 "ext.ml" 174 3994 4016
+)
+"ext.ml" 176 4061 4081 "ext.ml" 176 4061 4082
+type(
+  int
+)
+"ext.ml" 176 4061 4084 "ext.ml" 176 4061 4097
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 118 4569 4569 "string.mli" 118 4569 4619
+)
+"ext.ml" 176 4061 4098 "ext.ml" 176 4061 4102
+type(
+  string
+)
+ident(
+  int_ref pref "ext.ml" 174 3994 4008 "ext.ml" 174 3994 4012
+)
+"ext.ml" 176 4061 4083 "ext.ml" 176 4061 4103
+type(
+  int
+)
+"ext.ml" 176 4061 4066 "ext.ml" 176 4061 4103
+type(
+  string
+)
+"ext.ml" 176 4061 4104 "ext.ml" 176 4061 4105
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"ext.ml" 176 4061 4106 "ext.ml" 176 4061 4110
+type(
+  string
+)
+ident(
+  int_ref pref "ext.ml" 174 3994 4008 "ext.ml" 174 3994 4012
+)
+"ext.ml" 176 4061 4066 "ext.ml" 176 4061 4110
+type(
+  bool
+)
+"ext.ml" 175 4019 4021 "ext.ml" 176 4061 4110
+type(
+  bool
+)
+"ext.ml" 179 4113 4117 "ext.ml" 179 4113 4122
+type(
+  string -> char -> string list
+)
+ident(
+  def split "ext.ml" 189 4410 4423 "ext.ml" 0 0 -1
+)
+"ext.ml" 179 4113 4123 "ext.ml" 179 4113 4124
+type(
+  string
+)
+ident(
+  def s "ext.ml" 179 4113 4125 "ext.ml" 189 4410 4423
+)
+"ext.ml" 179 4113 4125 "ext.ml" 179 4113 4126
+type(
+  char
+)
+ident(
+  def c "ext.ml" 180 4129 4131 "ext.ml" 189 4410 4423
+)
+"ext.ml" 180 4129 4135 "ext.ml" 180 4129 4138
+type(
+  int
+)
+ident(
+  def len "ext.ml" 181 4160 4162 "ext.ml" 189 4410 4423
+)
+"ext.ml" 180 4129 4141 "ext.ml" 180 4129 4154
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 118 4569 4569 "string.mli" 118 4569 4619
+)
+"ext.ml" 180 4129 4155 "ext.ml" 180 4129 4156
+type(
+  string
+)
+ident(
+  int_ref s "ext.ml" 179 4113 4123 "ext.ml" 179 4113 4124
+)
+"ext.ml" 180 4129 4141 "ext.ml" 180 4129 4156
+type(
+  int
+)
+"ext.ml" 181 4160 4170 "ext.ml" 181 4160 4174
+type(
+  int -> int -> string list -> string list
+)
+ident(
+  def spin "ext.ml" 181 4160 4162 "ext.ml" 189 4410 4423
+)
+"ext.ml" 181 4160 4175 "ext.ml" 181 4160 4179
+type(
+  int
+)
+ident(
+  def base "ext.ml" 181 4160 4180 "ext.ml" 187 4376 4404
+)
+"ext.ml" 181 4160 4180 "ext.ml" 181 4160 4183
+type(
+  int
+)
+ident(
+  def cur "ext.ml" 181 4160 4184 "ext.ml" 187 4376 4404
+)
+"ext.ml" 181 4160 4184 "ext.ml" 181 4160 4188
+type(
+  string list
+)
+ident(
+  def accu "ext.ml" 182 4191 4195 "ext.ml" 187 4376 4404
+)
+"ext.ml" 182 4191 4198 "ext.ml" 182 4191 4201
+type(
+  int
+)
+ident(
+  int_ref cur "ext.ml" 181 4160 4180 "ext.ml" 181 4160 4183
+)
+"ext.ml" 182 4191 4202 "ext.ml" 182 4191 4204
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 150 6190 6190 "stdlib.mli" 150 6190 6242
+)
+"ext.ml" 182 4191 4205 "ext.ml" 182 4191 4208
+type(
+  int
+)
+ident(
+  int_ref len "ext.ml" 180 4129 4135 "ext.ml" 180 4129 4138
+)
+"ext.ml" 182 4191 4198 "ext.ml" 182 4191 4208
+type(
+  bool
+)
+"ext.ml" 183 4214 4220 "ext.ml" 183 4214 4228
+type(
+  string list -> string list
+)
+ident(
+  int_ref List.rev "list.mli" 90 3519 3519 "list.mli" 90 3519 3547
+)
+"ext.ml" 183 4214 4230 "ext.ml" 183 4214 4240
+type(
+  string -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.String.sub "string.mli" 190 6894 6894 "string.mli" 190 6894 6934
+)
+"ext.ml" 183 4214 4241 "ext.ml" 183 4214 4242
+type(
+  string
+)
+ident(
+  int_ref s "ext.ml" 179 4113 4123 "ext.ml" 179 4113 4124
+)
+"ext.ml" 183 4214 4243 "ext.ml" 183 4214 4247
+type(
+  int
+)
+ident(
+  int_ref base "ext.ml" 181 4160 4175 "ext.ml" 181 4160 4179
+)
+"ext.ml" 183 4214 4249 "ext.ml" 183 4214 4252
+type(
+  int
+)
+ident(
+  int_ref cur "ext.ml" 181 4160 4180 "ext.ml" 181 4160 4183
+)
+"ext.ml" 183 4214 4253 "ext.ml" 183 4214 4254
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"ext.ml" 183 4214 4255 "ext.ml" 183 4214 4259
+type(
+  int
+)
+ident(
+  int_ref base "ext.ml" 181 4160 4175 "ext.ml" 181 4160 4179
+)
+"ext.ml" 183 4214 4248 "ext.ml" 183 4214 4260
+type(
+  int
+)
+"ext.ml" 183 4214 4230 "ext.ml" 183 4214 4260
+type(
+  string
+)
+"ext.ml" 183 4214 4264 "ext.ml" 183 4214 4268
+type(
+  string list
+)
+ident(
+  int_ref accu "ext.ml" 181 4160 4184 "ext.ml" 181 4160 4188
+)
+"ext.ml" 183 4214 4229 "ext.ml" 183 4214 4269
+type(
+  string list
+)
+"ext.ml" 183 4214 4220 "ext.ml" 183 4214 4269
+type(
+  string list
+)
+"ext.ml" 184 4270 4282 "ext.ml" 184 4270 4283
+type(
+  string
+)
+ident(
+  int_ref s "ext.ml" 179 4113 4123 "ext.ml" 179 4113 4124
+)
+"ext.ml" 184 4270 4285 "ext.ml" 184 4270 4288
+type(
+  int
+)
+ident(
+  int_ref cur "ext.ml" 181 4160 4180 "ext.ml" 181 4160 4183
+)
+"ext.ml" 184 4270 4282 "ext.ml" 184 4270 4289
+type(
+  char
+)
+"ext.ml" 184 4270 4290 "ext.ml" 184 4270 4291
+type(
+  char -> char -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"ext.ml" 184 4270 4292 "ext.ml" 184 4270 4293
+type(
+  char
+)
+ident(
+  int_ref c "ext.ml" 179 4113 4125 "ext.ml" 179 4113 4126
+)
+"ext.ml" 184 4270 4282 "ext.ml" 184 4270 4293
+type(
+  bool
+)
+"ext.ml" 185 4299 4305 "ext.ml" 185 4299 4309
+type(
+  int -> int -> string list -> string list
+)
+ident(
+  int_ref spin "ext.ml" 181 4160 4170 "ext.ml" 181 4160 4174
+)
+"ext.ml" 185 4299 4311 "ext.ml" 185 4299 4314
+type(
+  int
+)
+ident(
+  int_ref cur "ext.ml" 181 4160 4180 "ext.ml" 181 4160 4183
+)
+"ext.ml" 185 4299 4314 "ext.ml" 185 4299 4315
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"ext.ml" 185 4299 4315 "ext.ml" 185 4299 4316
+type(
+  int
+)
+"ext.ml" 185 4299 4310 "ext.ml" 185 4299 4317
+type(
+  int
+)
+"ext.ml" 185 4299 4319 "ext.ml" 185 4299 4322
+type(
+  int
+)
+ident(
+  int_ref cur "ext.ml" 181 4160 4180 "ext.ml" 181 4160 4183
+)
+"ext.ml" 185 4299 4322 "ext.ml" 185 4299 4323
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"ext.ml" 185 4299 4323 "ext.ml" 185 4299 4324
+type(
+  int
+)
+"ext.ml" 185 4299 4318 "ext.ml" 185 4299 4325
+type(
+  int
+)
+"ext.ml" 185 4299 4327 "ext.ml" 185 4299 4337
+type(
+  string -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.String.sub "string.mli" 190 6894 6894 "string.mli" 190 6894 6934
+)
+"ext.ml" 185 4299 4338 "ext.ml" 185 4299 4339
+type(
+  string
+)
+ident(
+  int_ref s "ext.ml" 179 4113 4123 "ext.ml" 179 4113 4124
+)
+"ext.ml" 185 4299 4340 "ext.ml" 185 4299 4344
+type(
+  int
+)
+ident(
+  int_ref base "ext.ml" 181 4160 4175 "ext.ml" 181 4160 4179
+)
+"ext.ml" 185 4299 4346 "ext.ml" 185 4299 4349
+type(
+  int
+)
+ident(
+  int_ref cur "ext.ml" 181 4160 4180 "ext.ml" 181 4160 4183
+)
+"ext.ml" 185 4299 4350 "ext.ml" 185 4299 4351
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"ext.ml" 185 4299 4352 "ext.ml" 185 4299 4356
+type(
+  int
+)
+ident(
+  int_ref base "ext.ml" 181 4160 4175 "ext.ml" 181 4160 4179
+)
+"ext.ml" 185 4299 4345 "ext.ml" 185 4299 4357
+type(
+  int
+)
+"ext.ml" 185 4299 4327 "ext.ml" 185 4299 4357
+type(
+  string
+)
+"ext.ml" 185 4299 4361 "ext.ml" 185 4299 4365
+type(
+  string list
+)
+ident(
+  int_ref accu "ext.ml" 181 4160 4184 "ext.ml" 181 4160 4188
+)
+"ext.ml" 185 4299 4326 "ext.ml" 185 4299 4366
+type(
+  string list
+)
+"ext.ml" 185 4299 4305 "ext.ml" 185 4299 4366
+type(
+  string list
+)
+"ext.ml" 187 4376 4382 "ext.ml" 187 4376 4386
+type(
+  int -> int -> string list -> string list
+)
+ident(
+  int_ref spin "ext.ml" 181 4160 4170 "ext.ml" 181 4160 4174
+)
+"ext.ml" 187 4376 4387 "ext.ml" 187 4376 4391
+type(
+  int
+)
+ident(
+  int_ref base "ext.ml" 181 4160 4175 "ext.ml" 181 4160 4179
+)
+"ext.ml" 187 4376 4393 "ext.ml" 187 4376 4396
+type(
+  int
+)
+ident(
+  int_ref cur "ext.ml" 181 4160 4180 "ext.ml" 181 4160 4183
+)
+"ext.ml" 187 4376 4396 "ext.ml" 187 4376 4397
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"ext.ml" 187 4376 4397 "ext.ml" 187 4376 4398
+type(
+  int
+)
+"ext.ml" 187 4376 4392 "ext.ml" 187 4376 4399
+type(
+  int
+)
+"ext.ml" 187 4376 4400 "ext.ml" 187 4376 4404
+type(
+  string list
+)
+ident(
+  int_ref accu "ext.ml" 181 4160 4184 "ext.ml" 181 4160 4188
+)
+"ext.ml" 187 4376 4382 "ext.ml" 187 4376 4404
+type(
+  string list
+)
+"ext.ml" 184 4270 4279 "ext.ml" 187 4376 4404
+type(
+  string list
+)
+"ext.ml" 182 4191 4195 "ext.ml" 187 4376 4404
+type(
+  string list
+)
+"ext.ml" 189 4410 4412 "ext.ml" 189 4410 4416
+type(
+  int -> int -> string list -> string list
+)
+ident(
+  int_ref spin "ext.ml" 181 4160 4170 "ext.ml" 181 4160 4174
+)
+"ext.ml" 189 4410 4417 "ext.ml" 189 4410 4418
+type(
+  int
+)
+"ext.ml" 189 4410 4419 "ext.ml" 189 4410 4420
+type(
+  int
+)
+"ext.ml" 189 4410 4421 "ext.ml" 189 4410 4423
+type(
+  string list
+)
+"ext.ml" 189 4410 4412 "ext.ml" 189 4410 4423
+type(
+  string list
+)
+"ext.ml" 181 4160 4162 "ext.ml" 189 4410 4423
+type(
+  string list
+)
+"ext.ml" 180 4129 4131 "ext.ml" 189 4410 4423
+type(
+  string list
+)

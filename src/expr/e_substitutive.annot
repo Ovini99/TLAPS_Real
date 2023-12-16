@@ -1,0 +1,6462 @@
+"e_substitutive.ml" 10 114 118 "e_substitutive.ml" 10 114 134
+type(
+  substitutive_args Property.pfuncs
+)
+ident(
+  def substitutive_arg "e_substitutive.ml" 12 218 218 "e_substitutive.ml" 0 0 -1
+)
+"e_substitutive.ml" 11 163 167 "e_substitutive.ml" 11 163 180
+type(
+  ?uuid:string -> string -> substitutive_args Property.pfuncs
+)
+ident(
+  int_ref Property.make "property.mli" 53 1729 1729 "property.mli" 53 1729 1775
+)
+"e_substitutive.ml" 11 163 181 "e_substitutive.ml" 11 163 217
+type(
+  string
+)
+"e_substitutive.ml" 11 163 167 "e_substitutive.ml" 11 163 217
+type(
+  substitutive_args Property.pfuncs
+)
+"e_substitutive.ml" 12 218 222 "e_substitutive.ml" 12 218 238
+type(
+  'a Property.wrapped -> bool
+)
+ident(
+  def has_substitutive "e_substitutive.ml" 13 275 275 "e_substitutive.ml" 0 0 -1
+)
+"e_substitutive.ml" 12 218 239 "e_substitutive.ml" 12 218 240
+type(
+  'a Property.wrapped
+)
+ident(
+  def x "e_substitutive.ml" 12 218 243 "e_substitutive.ml" 12 218 274
+)
+"e_substitutive.ml" 12 218 243 "e_substitutive.ml" 12 218 255
+type(
+  'a Property.wrapped -> substitutive_args Property.pfuncs -> bool
+)
+ident(
+  int_ref Property.has "property.mli" 67 2198 2198 "property.mli" 67 2198 2242
+)
+"e_substitutive.ml" 12 218 256 "e_substitutive.ml" 12 218 257
+type(
+  'a Property.wrapped
+)
+ident(
+  int_ref x "e_substitutive.ml" 12 218 239 "e_substitutive.ml" 12 218 240
+)
+"e_substitutive.ml" 12 218 258 "e_substitutive.ml" 12 218 274
+type(
+  substitutive_args Property.pfuncs
+)
+ident(
+  int_ref substitutive_arg "e_substitutive.ml" 10 114 118 "e_substitutive.ml" 10 114 134
+)
+"e_substitutive.ml" 12 218 243 "e_substitutive.ml" 12 218 274
+type(
+  bool
+)
+"e_substitutive.ml" 13 275 279 "e_substitutive.ml" 13 275 295
+type(
+  'a Property.wrapped -> substitutive_args
+)
+ident(
+  def get_substitutive "e_substitutive.ml" 14 332 332 "e_substitutive.ml" 0 0 -1
+)
+"e_substitutive.ml" 13 275 296 "e_substitutive.ml" 13 275 297
+type(
+  'a Property.wrapped
+)
+ident(
+  def x "e_substitutive.ml" 13 275 300 "e_substitutive.ml" 13 275 331
+)
+"e_substitutive.ml" 13 275 300 "e_substitutive.ml" 13 275 312
+type(
+  'a Property.wrapped ->
+  substitutive_args Property.pfuncs -> substitutive_args
+)
+ident(
+  int_ref Property.get "property.mli" 71 2383 2383 "property.mli" 71 2383 2425
+)
+"e_substitutive.ml" 13 275 313 "e_substitutive.ml" 13 275 314
+type(
+  'a Property.wrapped
+)
+ident(
+  int_ref x "e_substitutive.ml" 13 275 296 "e_substitutive.ml" 13 275 297
+)
+"e_substitutive.ml" 13 275 315 "e_substitutive.ml" 13 275 331
+type(
+  substitutive_args Property.pfuncs
+)
+ident(
+  int_ref substitutive_arg "e_substitutive.ml" 10 114 118 "e_substitutive.ml" 10 114 134
+)
+"e_substitutive.ml" 13 275 300 "e_substitutive.ml" 13 275 331
+type(
+  substitutive_args
+)
+"e_substitutive.ml" 14 332 336 "e_substitutive.ml" 14 332 356
+type(
+  'a Property.wrapped -> int -> bool
+)
+ident(
+  def get_substitutive_arg "e_substitutive.ml" 20 454 454 "e_substitutive.ml" 0 0 -1
+)
+"e_substitutive.ml" 14 332 357 "e_substitutive.ml" 14 332 358
+type(
+  'a Property.wrapped
+)
+ident(
+  def x "e_substitutive.ml" 14 332 359 "e_substitutive.ml" 17 432 451
+)
+"e_substitutive.ml" 14 332 359 "e_substitutive.ml" 14 332 360
+type(
+  int
+)
+ident(
+  def n "e_substitutive.ml" 15 363 367 "e_substitutive.ml" 17 432 451
+)
+"e_substitutive.ml" 15 363 375 "e_substitutive.ml" 15 363 391
+type(
+  'a Property.wrapped -> bool
+)
+ident(
+  int_ref has_substitutive "e_substitutive.ml" 12 218 222 "e_substitutive.ml" 12 218 238
+)
+"e_substitutive.ml" 15 363 392 "e_substitutive.ml" 15 363 393
+type(
+  'a Property.wrapped
+)
+ident(
+  int_ref x "e_substitutive.ml" 14 332 357 "e_substitutive.ml" 14 332 358
+)
+"e_substitutive.ml" 15 363 374 "e_substitutive.ml" 15 363 394
+type(
+  bool
+)
+"e_substitutive.ml" 15 363 367 "e_substitutive.ml" 15 363 394
+type(
+  unit
+)
+"e_substitutive.ml" 16 396 404 "e_substitutive.ml" 16 396 407
+type(
+  substitutive_args
+)
+ident(
+  def arr "e_substitutive.ml" 17 432 436 "e_substitutive.ml" 17 432 451
+)
+"e_substitutive.ml" 16 396 410 "e_substitutive.ml" 16 396 426
+type(
+  'a Property.wrapped -> substitutive_args
+)
+ident(
+  int_ref get_substitutive "e_substitutive.ml" 13 275 279 "e_substitutive.ml" 13 275 295
+)
+"e_substitutive.ml" 16 396 427 "e_substitutive.ml" 16 396 428
+type(
+  'a Property.wrapped
+)
+ident(
+  int_ref x "e_substitutive.ml" 14 332 357 "e_substitutive.ml" 14 332 358
+)
+"e_substitutive.ml" 16 396 410 "e_substitutive.ml" 16 396 428
+type(
+  substitutive_args
+)
+"e_substitutive.ml" 17 432 436 "e_substitutive.ml" 17 432 445
+type(
+  substitutive_args -> int -> bool
+)
+ident(
+  int_ref Stdlib.Array.get "array.mli" 36 1594 1594 "array.mli" 36 1594 1650
+)
+"e_substitutive.ml" 17 432 446 "e_substitutive.ml" 17 432 449
+type(
+  substitutive_args
+)
+ident(
+  int_ref arr "e_substitutive.ml" 16 396 404 "e_substitutive.ml" 16 396 407
+)
+"e_substitutive.ml" 17 432 450 "e_substitutive.ml" 17 432 451
+type(
+  int
+)
+ident(
+  int_ref n "e_substitutive.ml" 14 332 359 "e_substitutive.ml" 14 332 360
+)
+"e_substitutive.ml" 17 432 436 "e_substitutive.ml" 17 432 451
+type(
+  bool
+)
+"e_substitutive.ml" 16 396 400 "e_substitutive.ml" 17 432 451
+type(
+  bool
+)
+"e_substitutive.ml" 15 363 367 "e_substitutive.ml" 17 432 451
+type(
+  bool
+)
+"e_substitutive.ml" 20 454 458 "e_substitutive.ml" 20 454 474
+type(
+  (Util.hint * E_t.shape) list -> E_t.hyp_ Property.wrapped list
+)
+ident(
+  def make_lambda_hyps "e_substitutive.ml" 28 615 615 "e_substitutive.ml" 0 0 -1
+)
+"e_substitutive.ml" 20 454 475 "e_substitutive.ml" 20 454 481
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  def params "e_substitutive.ml" 21 484 488 "e_substitutive.ml" 25 604 612
+)
+"e_substitutive.ml" 21 484 492 "e_substitutive.ml" 21 484 496
+type(
+  E_t.hyp_ Property.wrapped list
+)
+ident(
+  def hyps "e_substitutive.ml" 25 604 608 "e_substitutive.ml" 25 604 612
+)
+"e_substitutive.ml" 21 484 499 "e_substitutive.ml" 21 484 507
+type(
+  (Util.hint * E_t.shape -> E_t.hyp_ Property.wrapped) ->
+  (Util.hint * E_t.shape) list -> E_t.hyp_ Property.wrapped list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"e_substitutive.ml" 22 508 522 "e_substitutive.ml" 22 508 523
+type(
+  Util.hint
+)
+ident(
+  def v "e_substitutive.ml" 23 533 545 "e_substitutive.ml" 23 533 584
+)
+"e_substitutive.ml" 22 508 525 "e_substitutive.ml" 22 508 528
+type(
+  E_t.shape
+)
+ident(
+  def shp "e_substitutive.ml" 23 533 545 "e_substitutive.ml" 23 533 584
+)
+"e_substitutive.ml" 22 508 521 "e_substitutive.ml" 22 508 529
+type(
+  Util.hint * E_t.shape
+)
+"e_substitutive.ml" 23 533 552 "e_substitutive.ml" 23 533 553
+type(
+  Util.hint
+)
+ident(
+  int_ref v "e_substitutive.ml" 22 508 522 "e_substitutive.ml" 22 508 523
+)
+"e_substitutive.ml" 23 533 555 "e_substitutive.ml" 23 533 558
+type(
+  E_t.shape
+)
+ident(
+  int_ref shp "e_substitutive.ml" 22 508 525 "e_substitutive.ml" 22 508 528
+)
+"e_substitutive.ml" 23 533 560 "e_substitutive.ml" 23 533 567
+type(
+  E_t.kind
+)
+"e_substitutive.ml" 23 533 569 "e_substitutive.ml" 23 533 578
+type(
+  E_t.hdom
+)
+"e_substitutive.ml" 23 533 545 "e_substitutive.ml" 23 533 579
+type(
+  E_t.hyp_
+)
+"e_substitutive.ml" 23 533 580 "e_substitutive.ml" 23 533 582
+type(
+  E_t.hyp_ -> Util.hint -> E_t.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_substitutive.ml" 23 533 583 "e_substitutive.ml" 23 533 584
+type(
+  Util.hint
+)
+ident(
+  int_ref v "e_substitutive.ml" 22 508 522 "e_substitutive.ml" 22 508 523
+)
+"e_substitutive.ml" 23 533 545 "e_substitutive.ml" 23 533 584
+type(
+  E_t.hyp_ Property.wrapped
+)
+"e_substitutive.ml" 22 508 516 "e_substitutive.ml" 23 533 585
+type(
+  Util.hint * E_t.shape -> E_t.hyp_ Property.wrapped
+)
+"e_substitutive.ml" 24 586 594 "e_substitutive.ml" 24 586 600
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  int_ref params "e_substitutive.ml" 20 454 475 "e_substitutive.ml" 20 454 481
+)
+"e_substitutive.ml" 21 484 499 "e_substitutive.ml" 24 586 600
+type(
+  E_t.hyp_ Property.wrapped list
+)
+"e_substitutive.ml" 25 604 608 "e_substitutive.ml" 25 604 612
+type(
+  E_t.hyp_ Property.wrapped list
+)
+ident(
+  int_ref hyps "e_substitutive.ml" 21 484 492 "e_substitutive.ml" 21 484 496
+)
+"e_substitutive.ml" 21 484 488 "e_substitutive.ml" 25 604 612
+type(
+  E_t.hyp_ Property.wrapped list
+)
+"e_substitutive.ml" 28 615 660 "e_substitutive.ml" 28 615 664
+type(
+  < bound : (bool * int * bool ref) E_visit.scx ->
+            E_t.bound -> (bool * int * bool ref) E_visit.scx;
+    bounds : (bool * int * bool ref) E_visit.scx ->
+             E_t.bounds -> (bool * int * bool ref) E_visit.scx;
+    compute : E_t.hyp Deque.dq -> E_t.expr_ Property.wrapped -> bool array;
+    defn : (bool * int * bool ref) E_visit.scx ->
+           E_t.defn -> (bool * int * bool ref) E_visit.scx;
+    defns : (bool * int * bool ref) E_visit.scx ->
+            E_t.defn list -> (bool * int * bool ref) E_visit.scx;
+    expr : (bool * int * bool ref) E_visit.scx -> E_t.expr -> unit;
+    exspec : (bool * int * bool ref) E_visit.scx -> E_t.exspec -> unit;
+    hyp : (bool * int * bool ref) E_visit.scx ->
+          E_t.hyp -> (bool * int * bool ref) E_visit.scx;
+    hyps : (bool * int * bool ref) E_visit.scx ->
+           E_t.hyp Deque.dq -> (bool * int * bool ref) E_visit.scx;
+    instance : (bool * int * bool ref) E_visit.scx -> E_t.instance -> unit;
+    pform : (bool * int * bool ref) E_visit.scx -> E_t.pform -> unit;
+    sel : (bool * int * bool ref) E_visit.scx -> E_t.sel -> unit;
+    sequent : (bool * int * bool ref) E_visit.scx ->
+              E_t.sequent -> (bool * int * bool ref) E_visit.scx;
+    .. >
+)
+type(
+  < bound : (bool * int * bool ref) E_visit.scx ->
+            E_t.bound -> (bool * int * bool ref) E_visit.scx;
+    bounds : (bool * int * bool ref) E_visit.scx ->
+             E_t.bounds -> (bool * int * bool ref) E_visit.scx;
+    compute : E_t.hyp Deque.dq -> E_t.expr_ Property.wrapped -> bool array;
+    defn : (bool * int * bool ref) E_visit.scx ->
+           E_t.defn -> (bool * int * bool ref) E_visit.scx;
+    defns : (bool * int * bool ref) E_visit.scx ->
+            E_t.defn list -> (bool * int * bool ref) E_visit.scx;
+    expr : (bool * int * bool ref) E_visit.scx -> E_t.expr -> unit;
+    exspec : (bool * int * bool ref) E_visit.scx -> E_t.exspec -> unit;
+    hyp : (bool * int * bool ref) E_visit.scx ->
+          E_t.hyp -> (bool * int * bool ref) E_visit.scx;
+    hyps : (bool * int * bool ref) E_visit.scx ->
+           E_t.hyp Deque.dq -> (bool * int * bool ref) E_visit.scx;
+    instance : (bool * int * bool ref) E_visit.scx -> E_t.instance -> unit;
+    pform : (bool * int * bool ref) E_visit.scx -> E_t.pform -> unit;
+    sel : (bool * int * bool ref) E_visit.scx -> E_t.sel -> unit;
+    sequent : (bool * int * bool ref) E_visit.scx ->
+              E_t.sequent -> (bool * int * bool ref) E_visit.scx;
+    .. >
+  as 'a
+)
+"e_substitutive.ml" 31 732 751 "e_substitutive.ml" 31 732 753
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def cx "e_substitutive.ml" 31 732 754 "e_substitutive.ml" 45 1243 1276
+)
+"e_substitutive.ml" 31 732 754 "e_substitutive.ml" 31 732 755
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def e "e_substitutive.ml" 32 758 766 "e_substitutive.ml" 45 1243 1276
+)
+"e_substitutive.ml" 32 758 772 "e_substitutive.ml" 32 758 773
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref e "e_substitutive.ml" 31 732 754 "e_substitutive.ml" 31 732 755
+)
+"e_substitutive.ml" 32 758 772 "e_substitutive.ml" 32 758 778
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 33 784 806 "e_substitutive.ml" 33 784 812
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  def params "e_substitutive.ml" 34 823 839 "e_substitutive.ml" 43 1193 1223
+)
+"e_substitutive.ml" 33 784 814 "e_substitutive.ml" 33 784 818
+type(
+  E_t.expr
+)
+ident(
+  def expr "e_substitutive.ml" 34 823 839 "e_substitutive.ml" 43 1193 1223
+)
+"e_substitutive.ml" 33 784 798 "e_substitutive.ml" 33 784 819
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 34 823 843 "e_substitutive.ml" 34 823 847
+type(
+  E_t.hyp_ Property.wrapped list
+)
+ident(
+  def hyps "e_substitutive.ml" 35 877 893 "e_substitutive.ml" 43 1193 1223
+)
+"e_substitutive.ml" 34 823 850 "e_substitutive.ml" 34 823 866
+type(
+  (Util.hint * E_t.shape) list -> E_t.hyp_ Property.wrapped list
+)
+ident(
+  int_ref make_lambda_hyps "e_substitutive.ml" 20 454 458 "e_substitutive.ml" 20 454 474
+)
+"e_substitutive.ml" 34 823 867 "e_substitutive.ml" 34 823 873
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  int_ref params "e_substitutive.ml" 33 784 806 "e_substitutive.ml" 33 784 812
+)
+"e_substitutive.ml" 34 823 850 "e_substitutive.ml" 34 823 873
+type(
+  E_t.hyp_ Property.wrapped list
+)
+"e_substitutive.ml" 35 877 897 "e_substitutive.ml" 35 877 899
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def cx "e_substitutive.ml" 36 931 947 "e_substitutive.ml" 43 1193 1223
+)
+"e_substitutive.ml" 35 877 902 "e_substitutive.ml" 35 877 919
+type(
+  E_t.hyp Deque.dq -> E_t.hyp list -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Deque.append_list "deque.mli" 31 892 892 "deque.mli" 31 892 936
+)
+"e_substitutive.ml" 35 877 920 "e_substitutive.ml" 35 877 922
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_substitutive.ml" 31 732 751 "e_substitutive.ml" 31 732 753
+)
+"e_substitutive.ml" 35 877 923 "e_substitutive.ml" 35 877 927
+type(
+  E_t.hyp list
+)
+ident(
+  int_ref hyps "e_substitutive.ml" 34 823 843 "e_substitutive.ml" 34 823 847
+)
+"e_substitutive.ml" 35 877 902 "e_substitutive.ml" 35 877 927
+type(
+  E_t.hyp Deque.dq
+)
+"e_substitutive.ml" 36 931 951 "e_substitutive.ml" 36 931 952
+type(
+  int
+)
+ident(
+  def n "e_substitutive.ml" 37 977 993 "e_substitutive.ml" 43 1193 1223
+)
+"e_substitutive.ml" 36 931 955 "e_substitutive.ml" 36 931 966
+type(
+  (Util.hint * E_t.shape) list -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"e_substitutive.ml" 36 931 967 "e_substitutive.ml" 36 931 973
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  int_ref params "e_substitutive.ml" 33 784 806 "e_substitutive.ml" 33 784 812
+)
+"e_substitutive.ml" 36 931 955 "e_substitutive.ml" 36 931 973
+type(
+  int
+)
+"e_substitutive.ml" 37 977 997 "e_substitutive.ml" 37 977 998
+type(
+  int -> bool
+)
+ident(
+  def f "e_substitutive.ml" 42 1161 1177 "e_substitutive.ml" 43 1193 1223
+)
+"e_substitutive.ml" 37 977 999 "e_substitutive.ml" 37 977 1000
+type(
+  int
+)
+ident(
+  def i "e_substitutive.ml" 38 1003 1023 "e_substitutive.ml" 41 1135 1157
+)
+"e_substitutive.ml" 38 1003 1027 "e_substitutive.ml" 38 1003 1028
+type(
+  bool ref
+)
+ident(
+  def r "e_substitutive.ml" 39 1043 1063 "e_substitutive.ml" 41 1135 1157
+)
+"e_substitutive.ml" 38 1003 1031 "e_substitutive.ml" 38 1003 1034
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"e_substitutive.ml" 38 1003 1035 "e_substitutive.ml" 38 1003 1039
+type(
+  bool
+)
+"e_substitutive.ml" 38 1003 1031 "e_substitutive.ml" 38 1003 1039
+type(
+  bool ref
+)
+"e_substitutive.ml" 39 1043 1067 "e_substitutive.ml" 39 1043 1068
+type(
+  bool * int * bool ref
+)
+ident(
+  def s "e_substitutive.ml" 40 1091 1111 "e_substitutive.ml" 41 1135 1157
+)
+"e_substitutive.ml" 39 1043 1072 "e_substitutive.ml" 39 1043 1076
+type(
+  bool
+)
+"e_substitutive.ml" 39 1043 1078 "e_substitutive.ml" 39 1043 1079
+type(
+  int
+)
+ident(
+  int_ref i "e_substitutive.ml" 37 977 999 "e_substitutive.ml" 37 977 1000
+)
+"e_substitutive.ml" 39 1043 1080 "e_substitutive.ml" 39 1043 1081
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"e_substitutive.ml" 39 1043 1082 "e_substitutive.ml" 39 1043 1083
+type(
+  int
+)
+"e_substitutive.ml" 39 1043 1078 "e_substitutive.ml" 39 1043 1083
+type(
+  int
+)
+"e_substitutive.ml" 39 1043 1085 "e_substitutive.ml" 39 1043 1086
+type(
+  bool ref
+)
+ident(
+  int_ref r "e_substitutive.ml" 38 1003 1027 "e_substitutive.ml" 38 1003 1028
+)
+"e_substitutive.ml" 39 1043 1071 "e_substitutive.ml" 39 1043 1087
+type(
+  bool * int * bool ref
+)
+"e_substitutive.ml" 40 1091 1111 "e_substitutive.ml" 40 1091 1115
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"e_substitutive.ml" 40 1091 1111 "e_substitutive.ml" 40 1091 1120
+type(
+  (bool * int * bool ref) E_visit.scx -> E_t.expr -> unit
+)
+"e_substitutive.ml" 40 1091 1122 "e_substitutive.ml" 40 1091 1123
+type(
+  bool * int * bool ref
+)
+ident(
+  int_ref s "e_substitutive.ml" 39 1043 1067 "e_substitutive.ml" 39 1043 1068
+)
+"e_substitutive.ml" 40 1091 1125 "e_substitutive.ml" 40 1091 1127
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_substitutive.ml" 35 877 897 "e_substitutive.ml" 35 877 899
+)
+"e_substitutive.ml" 40 1091 1121 "e_substitutive.ml" 40 1091 1128
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+"e_substitutive.ml" 40 1091 1129 "e_substitutive.ml" 40 1091 1133
+type(
+  E_t.expr
+)
+ident(
+  int_ref expr "e_substitutive.ml" 33 784 814 "e_substitutive.ml" 33 784 818
+)
+"e_substitutive.ml" 40 1091 1111 "e_substitutive.ml" 40 1091 1133
+type(
+  unit
+)
+"e_substitutive.ml" 41 1135 1155 "e_substitutive.ml" 41 1135 1156
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"e_substitutive.ml" 41 1135 1156 "e_substitutive.ml" 41 1135 1157
+type(
+  bool ref
+)
+ident(
+  int_ref r "e_substitutive.ml" 38 1003 1027 "e_substitutive.ml" 38 1003 1028
+)
+"e_substitutive.ml" 41 1135 1155 "e_substitutive.ml" 41 1135 1157
+type(
+  bool
+)
+"e_substitutive.ml" 40 1091 1111 "e_substitutive.ml" 41 1135 1157
+type(
+  bool
+)
+"e_substitutive.ml" 39 1043 1063 "e_substitutive.ml" 41 1135 1157
+type(
+  bool
+)
+"e_substitutive.ml" 38 1003 1023 "e_substitutive.ml" 41 1135 1157
+type(
+  bool
+)
+"e_substitutive.ml" 42 1161 1185 "e_substitutive.ml" 42 1161 1186
+type(
+  int
+)
+ident(
+  int_ref n "e_substitutive.ml" 36 931 951 "e_substitutive.ml" 36 931 952
+)
+"e_substitutive.ml" 42 1161 1187 "e_substitutive.ml" 42 1161 1188
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 140 5875 5875 "stdlib.mli" 140 5875 5925
+)
+"e_substitutive.ml" 42 1161 1189 "e_substitutive.ml" 42 1161 1190
+type(
+  int
+)
+"e_substitutive.ml" 42 1161 1184 "e_substitutive.ml" 42 1161 1191
+type(
+  bool
+)
+"e_substitutive.ml" 42 1161 1177 "e_substitutive.ml" 42 1161 1191
+type(
+  unit
+)
+"e_substitutive.ml" 43 1193 1209 "e_substitutive.ml" 43 1193 1219
+type(
+  int -> (int -> bool) -> bool array
+)
+ident(
+  int_ref Stdlib.Array.init "array.mli" 80 3394 3394 "array.mli" 80 3394 3435
+)
+"e_substitutive.ml" 43 1193 1220 "e_substitutive.ml" 43 1193 1221
+type(
+  int
+)
+ident(
+  int_ref n "e_substitutive.ml" 36 931 951 "e_substitutive.ml" 36 931 952
+)
+"e_substitutive.ml" 43 1193 1222 "e_substitutive.ml" 43 1193 1223
+type(
+  int -> bool
+)
+ident(
+  int_ref f "e_substitutive.ml" 37 977 997 "e_substitutive.ml" 37 977 998
+)
+"e_substitutive.ml" 43 1193 1209 "e_substitutive.ml" 43 1193 1223
+type(
+  bool array
+)
+"e_substitutive.ml" 42 1161 1177 "e_substitutive.ml" 43 1193 1223
+type(
+  bool array
+)
+"e_substitutive.ml" 37 977 993 "e_substitutive.ml" 43 1193 1223
+type(
+  bool array
+)
+"e_substitutive.ml" 36 931 947 "e_substitutive.ml" 43 1193 1223
+type(
+  bool array
+)
+"e_substitutive.ml" 35 877 893 "e_substitutive.ml" 43 1193 1223
+type(
+  bool array
+)
+"e_substitutive.ml" 34 823 839 "e_substitutive.ml" 43 1193 1223
+type(
+  bool array
+)
+"e_substitutive.ml" 44 1224 1238 "e_substitutive.ml" 44 1224 1239
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 45 1243 1259 "e_substitutive.ml" 45 1243 1269
+type(
+  int -> bool -> bool array
+)
+ident(
+  int_ref Stdlib.Array.make "array.mli" 53 2225 2225 "array.mli" 53 2225 2281
+)
+"e_substitutive.ml" 45 1243 1270 "e_substitutive.ml" 45 1243 1271
+type(
+  int
+)
+"e_substitutive.ml" 45 1243 1272 "e_substitutive.ml" 45 1243 1276
+type(
+  bool
+)
+"e_substitutive.ml" 45 1243 1259 "e_substitutive.ml" 45 1243 1276
+type(
+  bool array
+)
+"e_substitutive.ml" 32 758 766 "e_substitutive.ml" 45 1243 1276
+type(
+  bool array
+)
+"e_substitutive.ml" 47 1278 1297 "e_substitutive.ml" 47 1278 1302
+type(
+  bool
+)
+ident(
+  def scope "e_substitutive.ml" 47 1278 1327 "e_substitutive.ml" 108 3735 3766
+)
+"e_substitutive.ml" 47 1278 1304 "e_substitutive.ml" 47 1278 1309
+type(
+  int
+)
+ident(
+  def index "e_substitutive.ml" 47 1278 1327 "e_substitutive.ml" 108 3735 3766
+)
+"e_substitutive.ml" 47 1278 1311 "e_substitutive.ml" 47 1278 1312
+type(
+  bool ref
+)
+ident(
+  def r "e_substitutive.ml" 47 1278 1327 "e_substitutive.ml" 108 3735 3766
+)
+"e_substitutive.ml" 47 1278 1296 "e_substitutive.ml" 47 1278 1313
+type(
+  bool * int * bool ref
+)
+"e_substitutive.ml" 47 1278 1315 "e_substitutive.ml" 47 1278 1317
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def cx "e_substitutive.ml" 47 1278 1327 "e_substitutive.ml" 108 3735 3766
+)
+"e_substitutive.ml" 47 1278 1295 "e_substitutive.ml" 47 1278 1318
+type(
+  (bool * int * bool ref) * E_t.hyp Deque.dq
+)
+"e_substitutive.ml" 47 1278 1294 "e_substitutive.ml" 47 1278 1326
+type(
+  (bool * int * bool ref) * E_t.hyp Deque.dq
+)
+ident(
+  def scx "e_substitutive.ml" 47 1278 1327 "e_substitutive.ml" 108 3735 3766
+)
+"e_substitutive.ml" 47 1278 1327 "e_substitutive.ml" 47 1278 1328
+type(
+  E_t.expr
+)
+ident(
+  def e "e_substitutive.ml" 48 1331 1339 "e_substitutive.ml" 108 3735 3766
+)
+"e_substitutive.ml" 48 1331 1345 "e_substitutive.ml" 48 1331 1346
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_substitutive.ml" 47 1278 1327 "e_substitutive.ml" 47 1278 1328
+)
+"e_substitutive.ml" 48 1331 1345 "e_substitutive.ml" 48 1331 1351
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 49 1357 1370 "e_substitutive.ml" 49 1357 1371
+type(
+  int
+)
+ident(
+  def n "e_substitutive.ml" 49 1357 1377 "e_substitutive.ml" 50 1411 1433
+)
+"e_substitutive.ml" 49 1357 1367 "e_substitutive.ml" 49 1357 1371
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 49 1357 1378 "e_substitutive.ml" 49 1357 1379
+type(
+  int
+)
+ident(
+  int_ref n "e_substitutive.ml" 49 1357 1370 "e_substitutive.ml" 49 1357 1371
+)
+"e_substitutive.ml" 49 1357 1380 "e_substitutive.ml" 49 1357 1381
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_substitutive.ml" 49 1357 1382 "e_substitutive.ml" 49 1357 1387
+type(
+  int
+)
+ident(
+  int_ref index "e_substitutive.ml" 47 1278 1304 "e_substitutive.ml" 47 1278 1309
+)
+"e_substitutive.ml" 49 1357 1377 "e_substitutive.ml" 49 1357 1388
+type(
+  bool
+)
+"e_substitutive.ml" 49 1357 1389 "e_substitutive.ml" 49 1357 1391
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_substitutive.ml" 49 1357 1393 "e_substitutive.ml" 49 1357 1398
+type(
+  bool
+)
+ident(
+  int_ref scope "e_substitutive.ml" 47 1278 1297 "e_substitutive.ml" 47 1278 1302
+)
+"e_substitutive.ml" 49 1357 1399 "e_substitutive.ml" 49 1357 1400
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_substitutive.ml" 49 1357 1401 "e_substitutive.ml" 49 1357 1406
+type(
+  bool
+)
+"e_substitutive.ml" 49 1357 1392 "e_substitutive.ml" 49 1357 1407
+type(
+  bool
+)
+"e_substitutive.ml" 49 1357 1377 "e_substitutive.ml" 49 1357 1407
+type(
+  bool
+)
+"e_substitutive.ml" 50 1411 1423 "e_substitutive.ml" 50 1411 1424
+type(
+  bool ref
+)
+ident(
+  int_ref r "e_substitutive.ml" 47 1278 1311 "e_substitutive.ml" 47 1278 1312
+)
+"e_substitutive.ml" 50 1411 1425 "e_substitutive.ml" 50 1411 1427
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"e_substitutive.ml" 50 1411 1428 "e_substitutive.ml" 50 1411 1433
+type(
+  bool
+)
+"e_substitutive.ml" 50 1411 1423 "e_substitutive.ml" 50 1411 1433
+type(
+  unit
+)
+"e_substitutive.ml" 51 1434 1452 "e_substitutive.ml" 51 1434 1458
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  def params "e_substitutive.ml" 52 1469 1481 "e_substitutive.ml" 56 1664 1698
+)
+"e_substitutive.ml" 51 1434 1460 "e_substitutive.ml" 51 1434 1464
+type(
+  E_t.expr
+)
+ident(
+  def expr "e_substitutive.ml" 52 1469 1481 "e_substitutive.ml" 56 1664 1698
+)
+"e_substitutive.ml" 51 1434 1444 "e_substitutive.ml" 51 1434 1465
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 52 1469 1485 "e_substitutive.ml" 52 1469 1489
+type(
+  E_t.hyp_ Property.wrapped list
+)
+ident(
+  def hyps "e_substitutive.ml" 53 1519 1531 "e_substitutive.ml" 56 1664 1698
+)
+"e_substitutive.ml" 52 1469 1492 "e_substitutive.ml" 52 1469 1508
+type(
+  (Util.hint * E_t.shape) list -> E_t.hyp_ Property.wrapped list
+)
+ident(
+  int_ref make_lambda_hyps "e_substitutive.ml" 20 454 458 "e_substitutive.ml" 20 454 474
+)
+"e_substitutive.ml" 52 1469 1509 "e_substitutive.ml" 52 1469 1515
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  int_ref params "e_substitutive.ml" 51 1434 1452 "e_substitutive.ml" 51 1434 1458
+)
+"e_substitutive.ml" 52 1469 1492 "e_substitutive.ml" 52 1469 1515
+type(
+  E_t.hyp_ Property.wrapped list
+)
+"e_substitutive.ml" 53 1519 1535 "e_substitutive.ml" 53 1519 1537
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def cx "e_substitutive.ml" 54 1569 1581 "e_substitutive.ml" 56 1664 1698
+)
+"e_substitutive.ml" 53 1519 1540 "e_substitutive.ml" 53 1519 1557
+type(
+  E_t.hyp Deque.dq -> E_t.hyp list -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Deque.append_list "deque.mli" 31 892 892 "deque.mli" 31 892 936
+)
+"e_substitutive.ml" 53 1519 1558 "e_substitutive.ml" 53 1519 1560
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_substitutive.ml" 47 1278 1315 "e_substitutive.ml" 47 1278 1317
+)
+"e_substitutive.ml" 53 1519 1561 "e_substitutive.ml" 53 1519 1565
+type(
+  E_t.hyp list
+)
+ident(
+  int_ref hyps "e_substitutive.ml" 52 1469 1485 "e_substitutive.ml" 52 1469 1489
+)
+"e_substitutive.ml" 53 1519 1540 "e_substitutive.ml" 53 1519 1565
+type(
+  E_t.hyp Deque.dq
+)
+"e_substitutive.ml" 54 1569 1585 "e_substitutive.ml" 54 1569 1590
+type(
+  int
+)
+ident(
+  def index "e_substitutive.ml" 55 1623 1635 "e_substitutive.ml" 56 1664 1698
+)
+"e_substitutive.ml" 54 1569 1593 "e_substitutive.ml" 54 1569 1598
+type(
+  int
+)
+ident(
+  int_ref index "e_substitutive.ml" 47 1278 1304 "e_substitutive.ml" 47 1278 1309
+)
+"e_substitutive.ml" 54 1569 1599 "e_substitutive.ml" 54 1569 1600
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"e_substitutive.ml" 54 1569 1601 "e_substitutive.ml" 54 1569 1612
+type(
+  (Util.hint * E_t.shape) list -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"e_substitutive.ml" 54 1569 1613 "e_substitutive.ml" 54 1569 1619
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  int_ref params "e_substitutive.ml" 51 1434 1452 "e_substitutive.ml" 51 1434 1458
+)
+"e_substitutive.ml" 54 1569 1601 "e_substitutive.ml" 54 1569 1619
+type(
+  int
+)
+"e_substitutive.ml" 54 1569 1593 "e_substitutive.ml" 54 1569 1619
+type(
+  int
+)
+"e_substitutive.ml" 55 1623 1639 "e_substitutive.ml" 55 1623 1640
+type(
+  bool * int * bool ref
+)
+ident(
+  def s "e_substitutive.ml" 56 1664 1676 "e_substitutive.ml" 56 1664 1698
+)
+"e_substitutive.ml" 55 1623 1644 "e_substitutive.ml" 55 1623 1649
+type(
+  bool
+)
+ident(
+  int_ref scope "e_substitutive.ml" 47 1278 1297 "e_substitutive.ml" 47 1278 1302
+)
+"e_substitutive.ml" 55 1623 1651 "e_substitutive.ml" 55 1623 1656
+type(
+  int
+)
+ident(
+  int_ref index "e_substitutive.ml" 54 1569 1585 "e_substitutive.ml" 54 1569 1590
+)
+"e_substitutive.ml" 55 1623 1658 "e_substitutive.ml" 55 1623 1659
+type(
+  bool ref
+)
+ident(
+  int_ref r "e_substitutive.ml" 47 1278 1311 "e_substitutive.ml" 47 1278 1312
+)
+"e_substitutive.ml" 55 1623 1643 "e_substitutive.ml" 55 1623 1660
+type(
+  bool * int * bool ref
+)
+"e_substitutive.ml" 56 1664 1676 "e_substitutive.ml" 56 1664 1680
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"e_substitutive.ml" 56 1664 1676 "e_substitutive.ml" 56 1664 1685
+type(
+  (bool * int * bool ref) E_visit.scx -> E_t.expr -> unit
+)
+"e_substitutive.ml" 56 1664 1687 "e_substitutive.ml" 56 1664 1688
+type(
+  bool * int * bool ref
+)
+ident(
+  int_ref s "e_substitutive.ml" 55 1623 1639 "e_substitutive.ml" 55 1623 1640
+)
+"e_substitutive.ml" 56 1664 1690 "e_substitutive.ml" 56 1664 1692
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_substitutive.ml" 53 1519 1535 "e_substitutive.ml" 53 1519 1537
+)
+"e_substitutive.ml" 56 1664 1686 "e_substitutive.ml" 56 1664 1693
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+"e_substitutive.ml" 56 1664 1694 "e_substitutive.ml" 56 1664 1698
+type(
+  E_t.expr
+)
+ident(
+  int_ref expr "e_substitutive.ml" 51 1434 1460 "e_substitutive.ml" 51 1434 1464
+)
+"e_substitutive.ml" 56 1664 1676 "e_substitutive.ml" 56 1664 1698
+type(
+  unit
+)
+"e_substitutive.ml" 55 1623 1635 "e_substitutive.ml" 56 1664 1698
+type(
+  unit
+)
+"e_substitutive.ml" 54 1569 1581 "e_substitutive.ml" 56 1664 1698
+type(
+  unit
+)
+"e_substitutive.ml" 53 1519 1531 "e_substitutive.ml" 56 1664 1698
+type(
+  unit
+)
+"e_substitutive.ml" 52 1469 1481 "e_substitutive.ml" 56 1664 1698
+type(
+  unit
+)
+"e_substitutive.ml" 57 1699 1732 "e_substitutive.ml" 57 1699 1745
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 57 1699 1748 "e_substitutive.ml" 57 1699 1759
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 57 1699 1732 "e_substitutive.ml" 57 1699 1759
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 58 1760 1782 "e_substitutive.ml" 58 1760 1783
+type(
+  bool
+)
+"e_substitutive.ml" 58 1760 1778 "e_substitutive.ml" 58 1760 1783
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 57 1699 1732 "e_substitutive.ml" 58 1760 1783
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 58 1760 1786 "e_substitutive.ml" 58 1760 1793
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 57 1699 1732 "e_substitutive.ml" 58 1760 1793
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 58 1760 1796 "e_substitutive.ml" 58 1760 1803
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 57 1699 1732 "e_substitutive.ml" 58 1760 1803
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 58 1760 1806 "e_substitutive.ml" 58 1760 1815
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 57 1699 1731 "e_substitutive.ml" 58 1760 1816
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 57 1699 1722 "e_substitutive.ml" 58 1760 1816
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 57 1699 1716 "e_substitutive.ml" 58 1760 1817
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 59 1819 1836 "e_substitutive.ml" 59 1819 1840
+type(
+  E_t.expr
+)
+ident(
+  def expr "e_substitutive.ml" 60 1846 1858 "e_substitutive.ml" 62 1920 1954
+)
+"e_substitutive.ml" 59 1819 1835 "e_substitutive.ml" 59 1819 1841
+type(
+  E_t.expr list
+)
+"e_substitutive.ml" 57 1699 1709 "e_substitutive.ml" 59 1819 1842
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 60 1846 1862 "e_substitutive.ml" 60 1846 1867
+type(
+  bool
+)
+ident(
+  def scope "e_substitutive.ml" 61 1879 1891 "e_substitutive.ml" 62 1920 1954
+)
+"e_substitutive.ml" 60 1846 1870 "e_substitutive.ml" 60 1846 1875
+type(
+  bool
+)
+"e_substitutive.ml" 61 1879 1895 "e_substitutive.ml" 61 1879 1896
+type(
+  bool * int * bool ref
+)
+ident(
+  def s "e_substitutive.ml" 62 1920 1932 "e_substitutive.ml" 62 1920 1954
+)
+"e_substitutive.ml" 61 1879 1900 "e_substitutive.ml" 61 1879 1905
+type(
+  bool
+)
+ident(
+  int_ref scope "e_substitutive.ml" 60 1846 1862 "e_substitutive.ml" 60 1846 1867
+)
+"e_substitutive.ml" 61 1879 1907 "e_substitutive.ml" 61 1879 1912
+type(
+  int
+)
+ident(
+  int_ref index "e_substitutive.ml" 47 1278 1304 "e_substitutive.ml" 47 1278 1309
+)
+"e_substitutive.ml" 61 1879 1914 "e_substitutive.ml" 61 1879 1915
+type(
+  bool ref
+)
+ident(
+  int_ref r "e_substitutive.ml" 47 1278 1311 "e_substitutive.ml" 47 1278 1312
+)
+"e_substitutive.ml" 61 1879 1899 "e_substitutive.ml" 61 1879 1916
+type(
+  bool * int * bool ref
+)
+"e_substitutive.ml" 62 1920 1932 "e_substitutive.ml" 62 1920 1936
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"e_substitutive.ml" 62 1920 1932 "e_substitutive.ml" 62 1920 1941
+type(
+  (bool * int * bool ref) E_visit.scx -> E_t.expr -> unit
+)
+"e_substitutive.ml" 62 1920 1943 "e_substitutive.ml" 62 1920 1944
+type(
+  bool * int * bool ref
+)
+ident(
+  int_ref s "e_substitutive.ml" 61 1879 1895 "e_substitutive.ml" 61 1879 1896
+)
+"e_substitutive.ml" 62 1920 1946 "e_substitutive.ml" 62 1920 1948
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_substitutive.ml" 47 1278 1315 "e_substitutive.ml" 47 1278 1317
+)
+"e_substitutive.ml" 62 1920 1942 "e_substitutive.ml" 62 1920 1949
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+"e_substitutive.ml" 62 1920 1950 "e_substitutive.ml" 62 1920 1954
+type(
+  E_t.expr
+)
+ident(
+  int_ref expr "e_substitutive.ml" 59 1819 1836 "e_substitutive.ml" 59 1819 1840
+)
+"e_substitutive.ml" 62 1920 1932 "e_substitutive.ml" 62 1920 1954
+type(
+  unit
+)
+"e_substitutive.ml" 61 1879 1891 "e_substitutive.ml" 62 1920 1954
+type(
+  unit
+)
+"e_substitutive.ml" 60 1846 1858 "e_substitutive.ml" 62 1920 1954
+type(
+  unit
+)
+"e_substitutive.ml" 63 1955 1970 "e_substitutive.ml" 63 1955 1971
+type(
+  E_t.modal_op
+)
+"e_substitutive.ml" 63 1955 1973 "e_substitutive.ml" 63 1955 1975
+type(
+  E_t.expr
+)
+ident(
+  def e1 "e_substitutive.ml" 66 2079 2091 "e_substitutive.ml" 69 2187 2219
+)
+"e_substitutive.ml" 63 1955 1977 "e_substitutive.ml" 63 1955 1979
+type(
+  E_t.expr
+)
+ident(
+  def e2 "e_substitutive.ml" 66 2079 2091 "e_substitutive.ml" 69 2187 2219
+)
+"e_substitutive.ml" 63 1955 1965 "e_substitutive.ml" 63 1955 1980
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 64 1981 2014 "e_substitutive.ml" 64 1981 2029
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 64 1981 2032 "e_substitutive.ml" 64 1981 2039
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 64 1981 2014 "e_substitutive.ml" 64 1981 2039
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 64 1981 2042 "e_substitutive.ml" 64 1981 2046
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 64 1981 2013 "e_substitutive.ml" 64 1981 2047
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 64 1981 2004 "e_substitutive.ml" 64 1981 2047
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 64 1981 1998 "e_substitutive.ml" 64 1981 2048
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 65 2050 2067 "e_substitutive.ml" 65 2050 2069
+type(
+  E_t.expr
+)
+ident(
+  def e1 "e_substitutive.ml" 66 2079 2091 "e_substitutive.ml" 69 2187 2219
+)
+"e_substitutive.ml" 65 2050 2071 "e_substitutive.ml" 65 2050 2073
+type(
+  E_t.expr
+)
+ident(
+  def e2 "e_substitutive.ml" 66 2079 2091 "e_substitutive.ml" 69 2187 2219
+)
+"e_substitutive.ml" 65 2050 2066 "e_substitutive.ml" 65 2050 2074
+type(
+  E_t.expr list
+)
+"e_substitutive.ml" 64 1981 1991 "e_substitutive.ml" 65 2050 2075
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 63 1955 1965 "e_substitutive.ml" 65 2050 2075
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 66 2079 2095 "e_substitutive.ml" 66 2079 2100
+type(
+  bool
+)
+ident(
+  def scope "e_substitutive.ml" 67 2112 2124 "e_substitutive.ml" 69 2187 2219
+)
+"e_substitutive.ml" 66 2079 2103 "e_substitutive.ml" 66 2079 2108
+type(
+  bool
+)
+"e_substitutive.ml" 67 2112 2128 "e_substitutive.ml" 67 2112 2129
+type(
+  bool * int * bool ref
+)
+ident(
+  def s "e_substitutive.ml" 68 2153 2165 "e_substitutive.ml" 69 2187 2219
+)
+"e_substitutive.ml" 67 2112 2133 "e_substitutive.ml" 67 2112 2138
+type(
+  bool
+)
+ident(
+  int_ref scope "e_substitutive.ml" 66 2079 2095 "e_substitutive.ml" 66 2079 2100
+)
+"e_substitutive.ml" 67 2112 2140 "e_substitutive.ml" 67 2112 2145
+type(
+  int
+)
+ident(
+  int_ref index "e_substitutive.ml" 47 1278 1304 "e_substitutive.ml" 47 1278 1309
+)
+"e_substitutive.ml" 67 2112 2147 "e_substitutive.ml" 67 2112 2148
+type(
+  bool ref
+)
+ident(
+  int_ref r "e_substitutive.ml" 47 1278 1311 "e_substitutive.ml" 47 1278 1312
+)
+"e_substitutive.ml" 67 2112 2132 "e_substitutive.ml" 67 2112 2149
+type(
+  bool * int * bool ref
+)
+"e_substitutive.ml" 68 2153 2165 "e_substitutive.ml" 68 2153 2169
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"e_substitutive.ml" 68 2153 2165 "e_substitutive.ml" 68 2153 2174
+type(
+  (bool * int * bool ref) E_visit.scx -> E_t.expr -> unit
+)
+"e_substitutive.ml" 68 2153 2176 "e_substitutive.ml" 68 2153 2177
+type(
+  bool * int * bool ref
+)
+ident(
+  int_ref s "e_substitutive.ml" 67 2112 2128 "e_substitutive.ml" 67 2112 2129
+)
+"e_substitutive.ml" 68 2153 2179 "e_substitutive.ml" 68 2153 2181
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_substitutive.ml" 47 1278 1315 "e_substitutive.ml" 47 1278 1317
+)
+"e_substitutive.ml" 68 2153 2175 "e_substitutive.ml" 68 2153 2182
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+"e_substitutive.ml" 68 2153 2183 "e_substitutive.ml" 68 2153 2185
+type(
+  E_t.expr
+)
+ident(
+  int_ref e1 "e_substitutive.ml" 63 1955 1973 "e_substitutive.ml" 63 1955 1975
+)
+"e_substitutive.ml" 68 2153 2165 "e_substitutive.ml" 68 2153 2185
+type(
+  unit
+)
+"e_substitutive.ml" 69 2187 2199 "e_substitutive.ml" 69 2187 2203
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"e_substitutive.ml" 69 2187 2199 "e_substitutive.ml" 69 2187 2208
+type(
+  (bool * int * bool ref) E_visit.scx -> E_t.expr -> unit
+)
+"e_substitutive.ml" 69 2187 2210 "e_substitutive.ml" 69 2187 2211
+type(
+  bool * int * bool ref
+)
+ident(
+  int_ref s "e_substitutive.ml" 67 2112 2128 "e_substitutive.ml" 67 2112 2129
+)
+"e_substitutive.ml" 69 2187 2213 "e_substitutive.ml" 69 2187 2215
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_substitutive.ml" 47 1278 1315 "e_substitutive.ml" 47 1278 1317
+)
+"e_substitutive.ml" 69 2187 2209 "e_substitutive.ml" 69 2187 2216
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+"e_substitutive.ml" 69 2187 2217 "e_substitutive.ml" 69 2187 2219
+type(
+  E_t.expr
+)
+ident(
+  int_ref e2 "e_substitutive.ml" 63 1955 1977 "e_substitutive.ml" 63 1955 1979
+)
+"e_substitutive.ml" 69 2187 2199 "e_substitutive.ml" 69 2187 2219
+type(
+  unit
+)
+"e_substitutive.ml" 68 2153 2165 "e_substitutive.ml" 69 2187 2219
+type(
+  unit
+)
+"e_substitutive.ml" 67 2112 2124 "e_substitutive.ml" 69 2187 2219
+type(
+  unit
+)
+"e_substitutive.ml" 66 2079 2091 "e_substitutive.ml" 69 2187 2219
+type(
+  unit
+)
+"e_substitutive.ml" 70 2220 2246 "e_substitutive.ml" 70 2220 2247
+type(
+  int
+)
+ident(
+  def n "e_substitutive.ml" 71 2259 2271 "e_substitutive.ml" 81 2693 2708
+)
+"e_substitutive.ml" 70 2220 2243 "e_substitutive.ml" 70 2220 2247
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 70 2220 2237 "e_substitutive.ml" 70 2220 2248
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 70 2220 2250 "e_substitutive.ml" 70 2220 2254
+type(
+  E_t.expr list
+)
+ident(
+  def args "e_substitutive.ml" 71 2259 2271 "e_substitutive.ml" 81 2693 2708
+)
+"e_substitutive.ml" 70 2220 2230 "e_substitutive.ml" 70 2220 2255
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 71 2259 2275 "e_substitutive.ml" 71 2259 2278
+type(
+  E_t.hyp
+)
+ident(
+  def hyp "e_substitutive.ml" 72 2309 2321 "e_substitutive.ml" 81 2693 2708
+)
+"e_substitutive.ml" 71 2259 2281 "e_substitutive.ml" 71 2259 2300
+type(
+  E_t.hyp Deque.dq -> int -> E_t.hyp
+)
+ident(
+  int_ref E_t.get_val_from_id "e_t.mli" 359 7973 7973 "e_t.mli" 360 7994 8026
+)
+"e_substitutive.ml" 71 2259 2301 "e_substitutive.ml" 71 2259 2303
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_substitutive.ml" 47 1278 1315 "e_substitutive.ml" 47 1278 1317
+)
+"e_substitutive.ml" 71 2259 2304 "e_substitutive.ml" 71 2259 2305
+type(
+  int
+)
+ident(
+  int_ref n "e_substitutive.ml" 70 2220 2246 "e_substitutive.ml" 70 2220 2247
+)
+"e_substitutive.ml" 71 2259 2281 "e_substitutive.ml" 71 2259 2305
+type(
+  E_t.hyp
+)
+"e_substitutive.ml" 72 2309 2333 "e_substitutive.ml" 72 2309 2336
+type(
+  E_t.hyp
+)
+ident(
+  int_ref hyp "e_substitutive.ml" 71 2259 2275 "e_substitutive.ml" 71 2259 2278
+)
+"e_substitutive.ml" 72 2309 2333 "e_substitutive.ml" 72 2309 2341
+type(
+  E_t.hyp_
+)
+"e_substitutive.ml" 73 2347 2384 "e_substitutive.ml" 73 2347 2385
+type(
+  E_t.expr
+)
+type(
+  Util.hint
+)
+"e_substitutive.ml" 73 2347 2375 "e_substitutive.ml" 73 2347 2385
+type(
+  E_t.defn_
+)
+"e_substitutive.ml" 73 2347 2367 "e_substitutive.ml" 73 2347 2386
+type(
+  E_t.defn
+)
+"e_substitutive.ml" 73 2347 2367 "e_substitutive.ml" 73 2347 2392
+type(
+  E_t.defn
+)
+ident(
+  def op "e_substitutive.ml" 74 2406 2422 "e_substitutive.ml" 79 2632 2656
+)
+"e_substitutive.ml" 73 2347 2394 "e_substitutive.ml" 73 2347 2395
+type(
+  E_t.wheredef
+)
+"e_substitutive.ml" 73 2347 2397 "e_substitutive.ml" 73 2347 2398
+type(
+  E_t.visibility
+)
+"e_substitutive.ml" 73 2347 2400 "e_substitutive.ml" 73 2347 2401
+type(
+  E_t.export
+)
+"e_substitutive.ml" 73 2347 2361 "e_substitutive.ml" 73 2347 2402
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_substitutive.ml" 74 2406 2422 "e_substitutive.ml" 74 2406 2432
+type(
+  (int -> E_t.expr -> unit) -> E_t.expr list -> unit
+)
+ident(
+  int_ref Ext.List.iteri "ext.mli" 55 2496 2498 "ext.mli" 55 2496 2548
+)
+"e_substitutive.ml" 75 2433 2458 "e_substitutive.ml" 75 2433 2459
+type(
+  int
+)
+ident(
+  def i "e_substitutive.ml" 75 2433 2460 "e_substitutive.ml" 78 2585 2630
+)
+"e_substitutive.ml" 75 2433 2460 "e_substitutive.ml" 75 2433 2463
+type(
+  E_t.expr
+)
+ident(
+  def arg "e_substitutive.ml" 76 2467 2491 "e_substitutive.ml" 78 2585 2630
+)
+"e_substitutive.ml" 76 2467 2495 "e_substitutive.ml" 76 2467 2500
+type(
+  bool
+)
+ident(
+  def scope "e_substitutive.ml" 77 2532 2556 "e_substitutive.ml" 78 2585 2630
+)
+"e_substitutive.ml" 76 2467 2503 "e_substitutive.ml" 76 2467 2523
+type(
+  E_t.defn_ Property.wrapped -> int -> bool
+)
+ident(
+  int_ref get_substitutive_arg "e_substitutive.ml" 14 332 336 "e_substitutive.ml" 14 332 356
+)
+"e_substitutive.ml" 76 2467 2524 "e_substitutive.ml" 76 2467 2526
+type(
+  E_t.defn_ Property.wrapped
+)
+ident(
+  int_ref op "e_substitutive.ml" 73 2347 2367 "e_substitutive.ml" 73 2347 2392
+)
+"e_substitutive.ml" 76 2467 2527 "e_substitutive.ml" 76 2467 2528
+type(
+  int
+)
+ident(
+  int_ref i "e_substitutive.ml" 75 2433 2458 "e_substitutive.ml" 75 2433 2459
+)
+"e_substitutive.ml" 76 2467 2503 "e_substitutive.ml" 76 2467 2528
+type(
+  bool
+)
+"e_substitutive.ml" 77 2532 2560 "e_substitutive.ml" 77 2532 2561
+type(
+  bool * int * bool ref
+)
+ident(
+  def s "e_substitutive.ml" 78 2585 2609 "e_substitutive.ml" 78 2585 2630
+)
+"e_substitutive.ml" 77 2532 2565 "e_substitutive.ml" 77 2532 2570
+type(
+  bool
+)
+ident(
+  int_ref scope "e_substitutive.ml" 76 2467 2495 "e_substitutive.ml" 76 2467 2500
+)
+"e_substitutive.ml" 77 2532 2572 "e_substitutive.ml" 77 2532 2577
+type(
+  int
+)
+ident(
+  int_ref index "e_substitutive.ml" 47 1278 1304 "e_substitutive.ml" 47 1278 1309
+)
+"e_substitutive.ml" 77 2532 2579 "e_substitutive.ml" 77 2532 2580
+type(
+  bool ref
+)
+ident(
+  int_ref r "e_substitutive.ml" 47 1278 1311 "e_substitutive.ml" 47 1278 1312
+)
+"e_substitutive.ml" 77 2532 2564 "e_substitutive.ml" 77 2532 2581
+type(
+  bool * int * bool ref
+)
+"e_substitutive.ml" 78 2585 2609 "e_substitutive.ml" 78 2585 2613
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"e_substitutive.ml" 78 2585 2609 "e_substitutive.ml" 78 2585 2618
+type(
+  (bool * int * bool ref) E_visit.scx -> E_t.expr -> unit
+)
+"e_substitutive.ml" 78 2585 2620 "e_substitutive.ml" 78 2585 2621
+type(
+  bool * int * bool ref
+)
+ident(
+  int_ref s "e_substitutive.ml" 77 2532 2560 "e_substitutive.ml" 77 2532 2561
+)
+"e_substitutive.ml" 78 2585 2623 "e_substitutive.ml" 78 2585 2625
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_substitutive.ml" 47 1278 1315 "e_substitutive.ml" 47 1278 1317
+)
+"e_substitutive.ml" 78 2585 2619 "e_substitutive.ml" 78 2585 2626
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+"e_substitutive.ml" 78 2585 2627 "e_substitutive.ml" 78 2585 2630
+type(
+  E_t.expr
+)
+ident(
+  int_ref arg "e_substitutive.ml" 75 2433 2460 "e_substitutive.ml" 75 2433 2463
+)
+"e_substitutive.ml" 78 2585 2609 "e_substitutive.ml" 78 2585 2630
+type(
+  unit
+)
+"e_substitutive.ml" 77 2532 2556 "e_substitutive.ml" 78 2585 2630
+type(
+  unit
+)
+"e_substitutive.ml" 76 2467 2491 "e_substitutive.ml" 78 2585 2630
+type(
+  unit
+)
+"e_substitutive.ml" 75 2433 2453 "e_substitutive.ml" 78 2585 2631
+type(
+  int -> E_t.expr -> unit
+)
+"e_substitutive.ml" 79 2632 2652 "e_substitutive.ml" 79 2632 2656
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_substitutive.ml" 70 2220 2250 "e_substitutive.ml" 70 2220 2254
+)
+"e_substitutive.ml" 74 2406 2422 "e_substitutive.ml" 79 2632 2656
+type(
+  unit
+)
+"e_substitutive.ml" 80 2657 2671 "e_substitutive.ml" 80 2657 2672
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_substitutive.ml" 80 2657 2676 "e_substitutive.ml" 80 2657 2681
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_substitutive.ml" 29 673 685 "e_substitutive.ml" 29 673 721
+)
+"e_substitutive.ml" 80 2657 2676 "e_substitutive.ml" 80 2657 2686
+type(
+  'a -> (bool * int * bool ref) E_visit.scx -> E_t.expr -> unit
+)
+ident(
+  ext_ref expr
+)
+type(
+  (bool * int * bool ref) E_visit.scx -> E_t.expr -> unit
+)
+type(
+  (bool * int * bool ref) E_visit.scx -> E_t.expr -> unit
+)
+"e_substitutive.ml" 80 2657 2687 "e_substitutive.ml" 80 2657 2690
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 47 1278 1294 "e_substitutive.ml" 47 1278 1326
+)
+"e_substitutive.ml" 80 2657 2691 "e_substitutive.ml" 80 2657 2692
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_substitutive.ml" 47 1278 1327 "e_substitutive.ml" 47 1278 1328
+)
+"e_substitutive.ml" 80 2657 2676 "e_substitutive.ml" 80 2657 2692
+type(
+  unit
+)
+"e_substitutive.ml" 72 2309 2321 "e_substitutive.ml" 81 2693 2708
+type(
+  unit
+)
+"e_substitutive.ml" 71 2259 2271 "e_substitutive.ml" 81 2693 2708
+type(
+  unit
+)
+"e_substitutive.ml" 82 2709 2727 "e_substitutive.ml" 82 2709 2728
+type(
+  E_t.quantifier
+)
+"e_substitutive.ml" 82 2709 2730 "e_substitutive.ml" 82 2709 2732
+type(
+  Util.hints
+)
+ident(
+  def ls "e_substitutive.ml" 83 2740 2752 "e_substitutive.ml" 85 2833 2865
+)
+"e_substitutive.ml" 82 2709 2734 "e_substitutive.ml" 82 2709 2735
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 82 2709 2719 "e_substitutive.ml" 82 2709 2736
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 83 2740 2756 "e_substitutive.ml" 83 2740 2761
+type(
+  int
+)
+ident(
+  def index "e_substitutive.ml" 84 2792 2804 "e_substitutive.ml" 85 2833 2865
+)
+"e_substitutive.ml" 83 2740 2764 "e_substitutive.ml" 83 2740 2769
+type(
+  int
+)
+ident(
+  int_ref index "e_substitutive.ml" 47 1278 1304 "e_substitutive.ml" 47 1278 1309
+)
+"e_substitutive.ml" 83 2740 2770 "e_substitutive.ml" 83 2740 2771
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"e_substitutive.ml" 83 2740 2773 "e_substitutive.ml" 83 2740 2784
+type(
+  Util.hints -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"e_substitutive.ml" 83 2740 2785 "e_substitutive.ml" 83 2740 2787
+type(
+  Util.hints
+)
+ident(
+  int_ref ls "e_substitutive.ml" 82 2709 2730 "e_substitutive.ml" 82 2709 2732
+)
+"e_substitutive.ml" 83 2740 2772 "e_substitutive.ml" 83 2740 2788
+type(
+  int
+)
+"e_substitutive.ml" 83 2740 2764 "e_substitutive.ml" 83 2740 2788
+type(
+  int
+)
+"e_substitutive.ml" 84 2792 2808 "e_substitutive.ml" 84 2792 2809
+type(
+  bool * int * bool ref
+)
+ident(
+  def s "e_substitutive.ml" 85 2833 2845 "e_substitutive.ml" 85 2833 2865
+)
+"e_substitutive.ml" 84 2792 2813 "e_substitutive.ml" 84 2792 2818
+type(
+  bool
+)
+ident(
+  int_ref scope "e_substitutive.ml" 47 1278 1297 "e_substitutive.ml" 47 1278 1302
+)
+"e_substitutive.ml" 84 2792 2820 "e_substitutive.ml" 84 2792 2825
+type(
+  int
+)
+ident(
+  int_ref index "e_substitutive.ml" 83 2740 2756 "e_substitutive.ml" 83 2740 2761
+)
+"e_substitutive.ml" 84 2792 2827 "e_substitutive.ml" 84 2792 2828
+type(
+  bool ref
+)
+ident(
+  int_ref r "e_substitutive.ml" 47 1278 1311 "e_substitutive.ml" 47 1278 1312
+)
+"e_substitutive.ml" 84 2792 2812 "e_substitutive.ml" 84 2792 2829
+type(
+  bool * int * bool ref
+)
+"e_substitutive.ml" 85 2833 2845 "e_substitutive.ml" 85 2833 2850
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_substitutive.ml" 29 673 685 "e_substitutive.ml" 29 673 721
+)
+"e_substitutive.ml" 85 2833 2845 "e_substitutive.ml" 85 2833 2855
+type(
+  'a -> (bool * int * bool ref) E_visit.scx -> E_t.expr -> unit
+)
+ident(
+  ext_ref expr
+)
+type(
+  (bool * int * bool ref) E_visit.scx -> E_t.expr -> unit
+)
+type(
+  (bool * int * bool ref) E_visit.scx -> E_t.expr -> unit
+)
+"e_substitutive.ml" 85 2833 2857 "e_substitutive.ml" 85 2833 2858
+type(
+  bool * int * bool ref
+)
+ident(
+  int_ref s "e_substitutive.ml" 84 2792 2808 "e_substitutive.ml" 84 2792 2809
+)
+"e_substitutive.ml" 85 2833 2860 "e_substitutive.ml" 85 2833 2862
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_substitutive.ml" 47 1278 1315 "e_substitutive.ml" 47 1278 1317
+)
+"e_substitutive.ml" 85 2833 2856 "e_substitutive.ml" 85 2833 2863
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+"e_substitutive.ml" 85 2833 2864 "e_substitutive.ml" 85 2833 2865
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_substitutive.ml" 47 1278 1327 "e_substitutive.ml" 47 1278 1328
+)
+"e_substitutive.ml" 85 2833 2845 "e_substitutive.ml" 85 2833 2865
+type(
+  unit
+)
+"e_substitutive.ml" 84 2792 2804 "e_substitutive.ml" 85 2833 2865
+type(
+  unit
+)
+"e_substitutive.ml" 83 2740 2752 "e_substitutive.ml" 85 2833 2865
+type(
+  unit
+)
+"e_substitutive.ml" 86 2866 2884 "e_substitutive.ml" 86 2866 2885
+type(
+  Util.hint
+)
+ident(
+  def v "e_substitutive.ml" 87 2904 2916 "e_substitutive.ml" 98 3336 3366
+)
+"e_substitutive.ml" 86 2866 2887 "e_substitutive.ml" 86 2866 2893
+type(
+  E_t.expr option
+)
+ident(
+  def optdom "e_substitutive.ml" 87 2904 2916 "e_substitutive.ml" 98 3336 3366
+)
+"e_substitutive.ml" 86 2866 2895 "e_substitutive.ml" 86 2866 2899
+type(
+  E_t.expr
+)
+ident(
+  def expr "e_substitutive.ml" 87 2904 2916 "e_substitutive.ml" 98 3336 3366
+)
+"e_substitutive.ml" 86 2866 2876 "e_substitutive.ml" 86 2866 2900
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 87 2904 2920 "e_substitutive.ml" 87 2904 2925
+type(
+  E_t.hdom
+)
+ident(
+  def bound "e_substitutive.ml" 93 3114 3126 "e_substitutive.ml" 98 3336 3366
+)
+"e_substitutive.ml" 87 2904 2934 "e_substitutive.ml" 87 2904 2940
+type(
+  E_t.expr option
+)
+ident(
+  int_ref optdom "e_substitutive.ml" 86 2866 2887 "e_substitutive.ml" 86 2866 2893
+)
+"e_substitutive.ml" 88 2946 2964 "e_substitutive.ml" 88 2946 2968
+type(
+  E_t.expr option
+)
+type(
+  E_t.expr option
+)
+"e_substitutive.ml" 88 2946 2972 "e_substitutive.ml" 88 2946 2981
+type(
+  E_t.hdom
+)
+"e_substitutive.ml" 89 2982 3005 "e_substitutive.ml" 89 2982 3008
+type(
+  E_t.expr
+)
+ident(
+  def dom "e_substitutive.ml" 90 3012 3032 "e_substitutive.ml" 91 3052 3094
+)
+"e_substitutive.ml" 89 2982 3000 "e_substitutive.ml" 89 2982 3008
+type(
+  E_t.expr option
+)
+type(
+  E_t.expr option
+)
+"e_substitutive.ml" 90 3012 3032 "e_substitutive.ml" 90 3012 3036
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"e_substitutive.ml" 90 3012 3032 "e_substitutive.ml" 90 3012 3041
+type(
+  (bool * int * bool ref) E_visit.scx -> E_t.expr -> unit
+)
+"e_substitutive.ml" 90 3012 3042 "e_substitutive.ml" 90 3012 3045
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 47 1278 1294 "e_substitutive.ml" 47 1278 1326
+)
+"e_substitutive.ml" 90 3012 3046 "e_substitutive.ml" 90 3012 3049
+type(
+  E_t.expr
+)
+ident(
+  int_ref dom "e_substitutive.ml" 89 2982 3005 "e_substitutive.ml" 89 2982 3008
+)
+"e_substitutive.ml" 90 3012 3032 "e_substitutive.ml" 90 3012 3049
+type(
+  unit
+)
+"e_substitutive.ml" 91 3052 3081 "e_substitutive.ml" 91 3052 3084
+type(
+  E_t.expr
+)
+ident(
+  int_ref dom "e_substitutive.ml" 89 2982 3005 "e_substitutive.ml" 89 2982 3008
+)
+"e_substitutive.ml" 91 3052 3086 "e_substitutive.ml" 91 3052 3093
+type(
+  E_t.visibility
+)
+"e_substitutive.ml" 91 3052 3072 "e_substitutive.ml" 91 3052 3094
+type(
+  E_t.hdom
+)
+"e_substitutive.ml" 90 3012 3032 "e_substitutive.ml" 91 3052 3094
+type(
+  E_t.hdom
+)
+"e_substitutive.ml" 87 2904 2928 "e_substitutive.ml" 91 3052 3094
+type(
+  E_t.hdom
+)
+"e_substitutive.ml" 93 3114 3130 "e_substitutive.ml" 93 3114 3133
+type(
+  E_t.hyp_ Property.wrapped
+)
+ident(
+  def hyp "e_substitutive.ml" 94 3183 3195 "e_substitutive.ml" 98 3336 3366
+)
+"e_substitutive.ml" 93 3114 3143 "e_substitutive.ml" 93 3114 3144
+type(
+  Util.hint
+)
+ident(
+  int_ref v "e_substitutive.ml" 86 2866 2884 "e_substitutive.ml" 86 2866 2885
+)
+"e_substitutive.ml" 93 3114 3146 "e_substitutive.ml" 93 3114 3156
+type(
+  E_t.shape
+)
+"e_substitutive.ml" 93 3114 3158 "e_substitutive.ml" 93 3114 3166
+type(
+  E_t.kind
+)
+"e_substitutive.ml" 93 3114 3168 "e_substitutive.ml" 93 3114 3173
+type(
+  E_t.hdom
+)
+ident(
+  int_ref bound "e_substitutive.ml" 87 2904 2920 "e_substitutive.ml" 87 2904 2925
+)
+"e_substitutive.ml" 93 3114 3136 "e_substitutive.ml" 93 3114 3174
+type(
+  E_t.hyp_
+)
+"e_substitutive.ml" 93 3114 3175 "e_substitutive.ml" 93 3114 3177
+type(
+  E_t.hyp_ -> Util.hint -> E_t.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_substitutive.ml" 93 3114 3178 "e_substitutive.ml" 93 3114 3179
+type(
+  Util.hint
+)
+ident(
+  int_ref v "e_substitutive.ml" 86 2866 2884 "e_substitutive.ml" 86 2866 2885
+)
+"e_substitutive.ml" 93 3114 3136 "e_substitutive.ml" 93 3114 3179
+type(
+  E_t.hyp_ Property.wrapped
+)
+"e_substitutive.ml" 94 3183 3199 "e_substitutive.ml" 94 3183 3204
+type(
+  int
+)
+ident(
+  def index "e_substitutive.ml" 95 3220 3232 "e_substitutive.ml" 98 3336 3366
+)
+"e_substitutive.ml" 94 3183 3207 "e_substitutive.ml" 94 3183 3212
+type(
+  int
+)
+ident(
+  int_ref index "e_substitutive.ml" 47 1278 1304 "e_substitutive.ml" 47 1278 1309
+)
+"e_substitutive.ml" 94 3183 3213 "e_substitutive.ml" 94 3183 3214
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"e_substitutive.ml" 94 3183 3215 "e_substitutive.ml" 94 3183 3216
+type(
+  int
+)
+"e_substitutive.ml" 94 3183 3207 "e_substitutive.ml" 94 3183 3216
+type(
+  int
+)
+"e_substitutive.ml" 95 3220 3236 "e_substitutive.ml" 95 3220 3238
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def cx "e_substitutive.ml" 96 3262 3274 "e_substitutive.ml" 98 3336 3366
+)
+"e_substitutive.ml" 95 3220 3241 "e_substitutive.ml" 95 3220 3251
+type(
+  E_t.hyp Deque.dq -> E_t.hyp -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Deque.snoc "deque.mli" 13 220 220 "deque.mli" 13 220 252
+)
+"e_substitutive.ml" 95 3220 3252 "e_substitutive.ml" 95 3220 3254
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_substitutive.ml" 47 1278 1315 "e_substitutive.ml" 47 1278 1317
+)
+"e_substitutive.ml" 95 3220 3255 "e_substitutive.ml" 95 3220 3258
+type(
+  E_t.hyp
+)
+ident(
+  int_ref hyp "e_substitutive.ml" 93 3114 3130 "e_substitutive.ml" 93 3114 3133
+)
+"e_substitutive.ml" 95 3220 3241 "e_substitutive.ml" 95 3220 3258
+type(
+  E_t.hyp Deque.dq
+)
+"e_substitutive.ml" 96 3262 3278 "e_substitutive.ml" 96 3262 3279
+type(
+  bool * int * bool ref
+)
+ident(
+  def s "e_substitutive.ml" 97 3303 3315 "e_substitutive.ml" 98 3336 3366
+)
+"e_substitutive.ml" 96 3262 3283 "e_substitutive.ml" 96 3262 3288
+type(
+  bool
+)
+ident(
+  int_ref scope "e_substitutive.ml" 47 1278 1297 "e_substitutive.ml" 47 1278 1302
+)
+"e_substitutive.ml" 96 3262 3290 "e_substitutive.ml" 96 3262 3295
+type(
+  int
+)
+ident(
+  int_ref index "e_substitutive.ml" 94 3183 3199 "e_substitutive.ml" 94 3183 3204
+)
+"e_substitutive.ml" 96 3262 3297 "e_substitutive.ml" 96 3262 3298
+type(
+  bool ref
+)
+ident(
+  int_ref r "e_substitutive.ml" 47 1278 1311 "e_substitutive.ml" 47 1278 1312
+)
+"e_substitutive.ml" 96 3262 3282 "e_substitutive.ml" 96 3262 3299
+type(
+  bool * int * bool ref
+)
+"e_substitutive.ml" 97 3303 3319 "e_substitutive.ml" 97 3303 3322
+type(
+  (bool * int * bool ref) * E_t.hyp Deque.dq
+)
+ident(
+  def scx "e_substitutive.ml" 98 3336 3348 "e_substitutive.ml" 98 3336 3366
+)
+"e_substitutive.ml" 97 3303 3326 "e_substitutive.ml" 97 3303 3327
+type(
+  bool * int * bool ref
+)
+ident(
+  int_ref s "e_substitutive.ml" 96 3262 3278 "e_substitutive.ml" 96 3262 3279
+)
+"e_substitutive.ml" 97 3303 3329 "e_substitutive.ml" 97 3303 3331
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_substitutive.ml" 95 3220 3236 "e_substitutive.ml" 95 3220 3238
+)
+"e_substitutive.ml" 97 3303 3325 "e_substitutive.ml" 97 3303 3332
+type(
+  (bool * int * bool ref) * E_t.hyp Deque.dq
+)
+"e_substitutive.ml" 98 3336 3348 "e_substitutive.ml" 98 3336 3352
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"e_substitutive.ml" 98 3336 3348 "e_substitutive.ml" 98 3336 3357
+type(
+  (bool * int * bool ref) E_visit.scx -> E_t.expr -> unit
+)
+"e_substitutive.ml" 98 3336 3358 "e_substitutive.ml" 98 3336 3361
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 97 3303 3319 "e_substitutive.ml" 97 3303 3322
+)
+"e_substitutive.ml" 98 3336 3362 "e_substitutive.ml" 98 3336 3366
+type(
+  E_t.expr
+)
+ident(
+  int_ref expr "e_substitutive.ml" 86 2866 2895 "e_substitutive.ml" 86 2866 2899
+)
+"e_substitutive.ml" 98 3336 3348 "e_substitutive.ml" 98 3336 3366
+type(
+  unit
+)
+"e_substitutive.ml" 97 3303 3315 "e_substitutive.ml" 98 3336 3366
+type(
+  unit
+)
+"e_substitutive.ml" 96 3262 3274 "e_substitutive.ml" 98 3336 3366
+type(
+  unit
+)
+"e_substitutive.ml" 95 3220 3232 "e_substitutive.ml" 98 3336 3366
+type(
+  unit
+)
+"e_substitutive.ml" 94 3183 3195 "e_substitutive.ml" 98 3336 3366
+type(
+  unit
+)
+"e_substitutive.ml" 93 3114 3126 "e_substitutive.ml" 98 3336 3366
+type(
+  unit
+)
+"e_substitutive.ml" 87 2904 2916 "e_substitutive.ml" 98 3336 3366
+type(
+  unit
+)
+"e_substitutive.ml" 99 3367 3384 "e_substitutive.ml" 99 3367 3385
+type(
+  Util.hint
+)
+ident(
+  def v "e_substitutive.ml" 100 3401 3413 "e_substitutive.ml" 107 3704 3734
+)
+"e_substitutive.ml" 99 3367 3387 "e_substitutive.ml" 99 3367 3390
+type(
+  E_t.expr
+)
+ident(
+  def dom "e_substitutive.ml" 100 3401 3413 "e_substitutive.ml" 107 3704 3734
+)
+"e_substitutive.ml" 99 3367 3392 "e_substitutive.ml" 99 3367 3396
+type(
+  E_t.expr
+)
+ident(
+  def expr "e_substitutive.ml" 100 3401 3413 "e_substitutive.ml" 107 3704 3734
+)
+"e_substitutive.ml" 99 3367 3377 "e_substitutive.ml" 99 3367 3397
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 100 3401 3413 "e_substitutive.ml" 100 3401 3417
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"e_substitutive.ml" 100 3401 3413 "e_substitutive.ml" 100 3401 3422
+type(
+  (bool * int * bool ref) E_visit.scx -> E_t.expr -> unit
+)
+"e_substitutive.ml" 100 3401 3423 "e_substitutive.ml" 100 3401 3426
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 47 1278 1294 "e_substitutive.ml" 47 1278 1326
+)
+"e_substitutive.ml" 100 3401 3427 "e_substitutive.ml" 100 3401 3430
+type(
+  E_t.expr
+)
+ident(
+  int_ref dom "e_substitutive.ml" 99 3367 3387 "e_substitutive.ml" 99 3367 3390
+)
+"e_substitutive.ml" 100 3401 3413 "e_substitutive.ml" 100 3401 3430
+type(
+  unit
+)
+"e_substitutive.ml" 101 3432 3448 "e_substitutive.ml" 101 3432 3453
+type(
+  E_t.hdom
+)
+ident(
+  def bound "e_substitutive.ml" 102 3482 3494 "e_substitutive.ml" 107 3704 3734
+)
+"e_substitutive.ml" 101 3432 3465 "e_substitutive.ml" 101 3432 3468
+type(
+  E_t.expr
+)
+ident(
+  int_ref dom "e_substitutive.ml" 99 3367 3387 "e_substitutive.ml" 99 3367 3390
+)
+"e_substitutive.ml" 101 3432 3470 "e_substitutive.ml" 101 3432 3477
+type(
+  E_t.visibility
+)
+"e_substitutive.ml" 101 3432 3456 "e_substitutive.ml" 101 3432 3478
+type(
+  E_t.hdom
+)
+"e_substitutive.ml" 102 3482 3498 "e_substitutive.ml" 102 3482 3501
+type(
+  E_t.hyp_ Property.wrapped
+)
+ident(
+  def hyp "e_substitutive.ml" 103 3551 3563 "e_substitutive.ml" 107 3704 3734
+)
+"e_substitutive.ml" 102 3482 3511 "e_substitutive.ml" 102 3482 3512
+type(
+  Util.hint
+)
+ident(
+  int_ref v "e_substitutive.ml" 99 3367 3384 "e_substitutive.ml" 99 3367 3385
+)
+"e_substitutive.ml" 102 3482 3514 "e_substitutive.ml" 102 3482 3524
+type(
+  E_t.shape
+)
+"e_substitutive.ml" 102 3482 3526 "e_substitutive.ml" 102 3482 3534
+type(
+  E_t.kind
+)
+"e_substitutive.ml" 102 3482 3536 "e_substitutive.ml" 102 3482 3541
+type(
+  E_t.hdom
+)
+ident(
+  int_ref bound "e_substitutive.ml" 101 3432 3448 "e_substitutive.ml" 101 3432 3453
+)
+"e_substitutive.ml" 102 3482 3504 "e_substitutive.ml" 102 3482 3542
+type(
+  E_t.hyp_
+)
+"e_substitutive.ml" 102 3482 3543 "e_substitutive.ml" 102 3482 3545
+type(
+  E_t.hyp_ -> Util.hint -> E_t.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_substitutive.ml" 102 3482 3546 "e_substitutive.ml" 102 3482 3547
+type(
+  Util.hint
+)
+ident(
+  int_ref v "e_substitutive.ml" 99 3367 3384 "e_substitutive.ml" 99 3367 3385
+)
+"e_substitutive.ml" 102 3482 3504 "e_substitutive.ml" 102 3482 3547
+type(
+  E_t.hyp_ Property.wrapped
+)
+"e_substitutive.ml" 103 3551 3567 "e_substitutive.ml" 103 3551 3569
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def cx "e_substitutive.ml" 104 3593 3605 "e_substitutive.ml" 107 3704 3734
+)
+"e_substitutive.ml" 103 3551 3572 "e_substitutive.ml" 103 3551 3582
+type(
+  E_t.hyp Deque.dq -> E_t.hyp -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Deque.snoc "deque.mli" 13 220 220 "deque.mli" 13 220 252
+)
+"e_substitutive.ml" 103 3551 3583 "e_substitutive.ml" 103 3551 3585
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_substitutive.ml" 47 1278 1315 "e_substitutive.ml" 47 1278 1317
+)
+"e_substitutive.ml" 103 3551 3586 "e_substitutive.ml" 103 3551 3589
+type(
+  E_t.hyp
+)
+ident(
+  int_ref hyp "e_substitutive.ml" 102 3482 3498 "e_substitutive.ml" 102 3482 3501
+)
+"e_substitutive.ml" 103 3551 3572 "e_substitutive.ml" 103 3551 3589
+type(
+  E_t.hyp Deque.dq
+)
+"e_substitutive.ml" 104 3593 3609 "e_substitutive.ml" 104 3593 3614
+type(
+  int
+)
+ident(
+  def index "e_substitutive.ml" 105 3630 3642 "e_substitutive.ml" 107 3704 3734
+)
+"e_substitutive.ml" 104 3593 3617 "e_substitutive.ml" 104 3593 3622
+type(
+  int
+)
+ident(
+  int_ref index "e_substitutive.ml" 47 1278 1304 "e_substitutive.ml" 47 1278 1309
+)
+"e_substitutive.ml" 104 3593 3623 "e_substitutive.ml" 104 3593 3624
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"e_substitutive.ml" 104 3593 3625 "e_substitutive.ml" 104 3593 3626
+type(
+  int
+)
+"e_substitutive.ml" 104 3593 3617 "e_substitutive.ml" 104 3593 3626
+type(
+  int
+)
+"e_substitutive.ml" 105 3630 3646 "e_substitutive.ml" 105 3630 3647
+type(
+  bool * int * bool ref
+)
+ident(
+  def s "e_substitutive.ml" 106 3671 3683 "e_substitutive.ml" 107 3704 3734
+)
+"e_substitutive.ml" 105 3630 3651 "e_substitutive.ml" 105 3630 3656
+type(
+  bool
+)
+ident(
+  int_ref scope "e_substitutive.ml" 47 1278 1297 "e_substitutive.ml" 47 1278 1302
+)
+"e_substitutive.ml" 105 3630 3658 "e_substitutive.ml" 105 3630 3663
+type(
+  int
+)
+ident(
+  int_ref index "e_substitutive.ml" 104 3593 3609 "e_substitutive.ml" 104 3593 3614
+)
+"e_substitutive.ml" 105 3630 3665 "e_substitutive.ml" 105 3630 3666
+type(
+  bool ref
+)
+ident(
+  int_ref r "e_substitutive.ml" 47 1278 1311 "e_substitutive.ml" 47 1278 1312
+)
+"e_substitutive.ml" 105 3630 3650 "e_substitutive.ml" 105 3630 3667
+type(
+  bool * int * bool ref
+)
+"e_substitutive.ml" 106 3671 3687 "e_substitutive.ml" 106 3671 3690
+type(
+  (bool * int * bool ref) * E_t.hyp Deque.dq
+)
+ident(
+  def scx "e_substitutive.ml" 107 3704 3716 "e_substitutive.ml" 107 3704 3734
+)
+"e_substitutive.ml" 106 3671 3694 "e_substitutive.ml" 106 3671 3695
+type(
+  bool * int * bool ref
+)
+ident(
+  int_ref s "e_substitutive.ml" 105 3630 3646 "e_substitutive.ml" 105 3630 3647
+)
+"e_substitutive.ml" 106 3671 3697 "e_substitutive.ml" 106 3671 3699
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_substitutive.ml" 103 3551 3567 "e_substitutive.ml" 103 3551 3569
+)
+"e_substitutive.ml" 106 3671 3693 "e_substitutive.ml" 106 3671 3700
+type(
+  (bool * int * bool ref) * E_t.hyp Deque.dq
+)
+"e_substitutive.ml" 107 3704 3716 "e_substitutive.ml" 107 3704 3720
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"e_substitutive.ml" 107 3704 3716 "e_substitutive.ml" 107 3704 3725
+type(
+  (bool * int * bool ref) E_visit.scx -> E_t.expr -> unit
+)
+"e_substitutive.ml" 107 3704 3726 "e_substitutive.ml" 107 3704 3729
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 106 3671 3687 "e_substitutive.ml" 106 3671 3690
+)
+"e_substitutive.ml" 107 3704 3730 "e_substitutive.ml" 107 3704 3734
+type(
+  E_t.expr
+)
+ident(
+  int_ref expr "e_substitutive.ml" 99 3367 3392 "e_substitutive.ml" 99 3367 3396
+)
+"e_substitutive.ml" 107 3704 3716 "e_substitutive.ml" 107 3704 3734
+type(
+  unit
+)
+"e_substitutive.ml" 106 3671 3683 "e_substitutive.ml" 107 3704 3734
+type(
+  unit
+)
+"e_substitutive.ml" 105 3630 3642 "e_substitutive.ml" 107 3704 3734
+type(
+  unit
+)
+"e_substitutive.ml" 104 3593 3605 "e_substitutive.ml" 107 3704 3734
+type(
+  unit
+)
+"e_substitutive.ml" 103 3551 3563 "e_substitutive.ml" 107 3704 3734
+type(
+  unit
+)
+"e_substitutive.ml" 102 3482 3494 "e_substitutive.ml" 107 3704 3734
+type(
+  unit
+)
+"e_substitutive.ml" 101 3432 3444 "e_substitutive.ml" 107 3704 3734
+type(
+  unit
+)
+"e_substitutive.ml" 100 3401 3413 "e_substitutive.ml" 107 3704 3734
+type(
+  unit
+)
+"e_substitutive.ml" 108 3735 3745 "e_substitutive.ml" 108 3735 3746
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 108 3735 3750 "e_substitutive.ml" 108 3735 3755
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_substitutive.ml" 29 673 685 "e_substitutive.ml" 29 673 721
+)
+"e_substitutive.ml" 108 3735 3750 "e_substitutive.ml" 108 3735 3760
+type(
+  'a -> (bool * int * bool ref) E_visit.scx -> E_t.expr -> unit
+)
+ident(
+  ext_ref expr
+)
+type(
+  (bool * int * bool ref) E_visit.scx -> E_t.expr -> unit
+)
+type(
+  (bool * int * bool ref) E_visit.scx -> E_t.expr -> unit
+)
+"e_substitutive.ml" 108 3735 3761 "e_substitutive.ml" 108 3735 3764
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 47 1278 1294 "e_substitutive.ml" 47 1278 1326
+)
+"e_substitutive.ml" 108 3735 3765 "e_substitutive.ml" 108 3735 3766
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_substitutive.ml" 47 1278 1327 "e_substitutive.ml" 47 1278 1328
+)
+"e_substitutive.ml" 108 3735 3750 "e_substitutive.ml" 108 3735 3766
+type(
+  unit
+)
+"e_substitutive.ml" 48 1331 1339 "e_substitutive.ml" 108 3735 3766
+type(
+  unit
+)
+"e_substitutive.ml" 110 3768 3784 "e_substitutive.ml" 110 3768 3787
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+ident(
+  def scx "e_substitutive.ml" 110 3768 3788 "e_substitutive.ml" 114 3930 3941
+)
+"e_substitutive.ml" 110 3768 3788 "e_substitutive.ml" 110 3768 3790
+type(
+  E_t.defn
+)
+ident(
+  def df "e_substitutive.ml" 111 3793 3801 "e_substitutive.ml" 114 3930 3941
+)
+"e_substitutive.ml" 111 3793 3807 "e_substitutive.ml" 111 3793 3812
+type(
+  bool
+)
+ident(
+  def scope "e_substitutive.ml" 112 3852 3860 "e_substitutive.ml" 114 3930 3941
+)
+"e_substitutive.ml" 111 3793 3814 "e_substitutive.ml" 111 3793 3819
+type(
+  int
+)
+ident(
+  def index "e_substitutive.ml" 112 3852 3860 "e_substitutive.ml" 114 3930 3941
+)
+"e_substitutive.ml" 111 3793 3821 "e_substitutive.ml" 111 3793 3822
+type(
+  bool ref
+)
+ident(
+  def r "e_substitutive.ml" 112 3852 3860 "e_substitutive.ml" 114 3930 3941
+)
+"e_substitutive.ml" 111 3793 3806 "e_substitutive.ml" 111 3793 3823
+type(
+  bool * int * bool ref
+)
+"e_substitutive.ml" 111 3793 3825 "e_substitutive.ml" 111 3793 3827
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def cx "e_substitutive.ml" 112 3852 3860 "e_substitutive.ml" 114 3930 3941
+)
+"e_substitutive.ml" 111 3793 3805 "e_substitutive.ml" 111 3793 3828
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+"e_substitutive.ml" 111 3793 3831 "e_substitutive.ml" 111 3793 3836
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_substitutive.ml" 29 673 685 "e_substitutive.ml" 29 673 721
+)
+"e_substitutive.ml" 111 3793 3831 "e_substitutive.ml" 111 3793 3841
+type(
+  'a ->
+  (bool * int * bool ref) E_visit.scx ->
+  E_t.defn -> (bool * int * bool ref) E_visit.scx
+)
+ident(
+  ext_ref defn
+)
+type(
+  (bool * int * bool ref) E_visit.scx ->
+  E_t.defn -> (bool * int * bool ref) E_visit.scx
+)
+type(
+  (bool * int * bool ref) E_visit.scx ->
+  E_t.defn -> (bool * int * bool ref) E_visit.scx
+)
+"e_substitutive.ml" 111 3793 3842 "e_substitutive.ml" 111 3793 3845
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 110 3768 3784 "e_substitutive.ml" 110 3768 3787
+)
+"e_substitutive.ml" 111 3793 3846 "e_substitutive.ml" 111 3793 3848
+type(
+  E_t.defn
+)
+ident(
+  int_ref df "e_substitutive.ml" 110 3768 3788 "e_substitutive.ml" 110 3768 3790
+)
+"e_substitutive.ml" 111 3793 3831 "e_substitutive.ml" 111 3793 3848
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+"e_substitutive.ml" 112 3852 3864 "e_substitutive.ml" 112 3852 3869
+type(
+  int
+)
+ident(
+  def index "e_substitutive.ml" 113 3885 3893 "e_substitutive.ml" 114 3930 3941
+)
+"e_substitutive.ml" 112 3852 3872 "e_substitutive.ml" 112 3852 3877
+type(
+  int
+)
+ident(
+  int_ref index "e_substitutive.ml" 111 3793 3814 "e_substitutive.ml" 111 3793 3819
+)
+"e_substitutive.ml" 112 3852 3878 "e_substitutive.ml" 112 3852 3879
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"e_substitutive.ml" 112 3852 3880 "e_substitutive.ml" 112 3852 3881
+type(
+  int
+)
+"e_substitutive.ml" 112 3852 3872 "e_substitutive.ml" 112 3852 3881
+type(
+  int
+)
+"e_substitutive.ml" 113 3885 3897 "e_substitutive.ml" 113 3885 3900
+type(
+  (bool * int * bool ref) * E_t.hyp Deque.dq
+)
+ident(
+  def scx "e_substitutive.ml" 114 3930 3938 "e_substitutive.ml" 114 3930 3941
+)
+"e_substitutive.ml" 113 3885 3905 "e_substitutive.ml" 113 3885 3910
+type(
+  bool
+)
+ident(
+  int_ref scope "e_substitutive.ml" 111 3793 3807 "e_substitutive.ml" 111 3793 3812
+)
+"e_substitutive.ml" 113 3885 3912 "e_substitutive.ml" 113 3885 3917
+type(
+  int
+)
+ident(
+  int_ref index "e_substitutive.ml" 112 3852 3864 "e_substitutive.ml" 112 3852 3869
+)
+"e_substitutive.ml" 113 3885 3919 "e_substitutive.ml" 113 3885 3920
+type(
+  bool ref
+)
+ident(
+  int_ref r "e_substitutive.ml" 111 3793 3821 "e_substitutive.ml" 111 3793 3822
+)
+"e_substitutive.ml" 113 3885 3904 "e_substitutive.ml" 113 3885 3921
+type(
+  bool * int * bool ref
+)
+"e_substitutive.ml" 113 3885 3923 "e_substitutive.ml" 113 3885 3925
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_substitutive.ml" 111 3793 3825 "e_substitutive.ml" 111 3793 3827
+)
+"e_substitutive.ml" 113 3885 3903 "e_substitutive.ml" 113 3885 3926
+type(
+  (bool * int * bool ref) * E_t.hyp Deque.dq
+)
+"e_substitutive.ml" 114 3930 3938 "e_substitutive.ml" 114 3930 3941
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 113 3885 3897 "e_substitutive.ml" 113 3885 3900
+)
+"e_substitutive.ml" 113 3885 3893 "e_substitutive.ml" 114 3930 3941
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+"e_substitutive.ml" 112 3852 3860 "e_substitutive.ml" 114 3930 3941
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+"e_substitutive.ml" 111 3793 3801 "e_substitutive.ml" 114 3930 3941
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+"e_substitutive.ml" 116 3943 3961 "e_substitutive.ml" 116 3943 3964
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+ident(
+  def scx "e_substitutive.ml" 116 3943 3965 "e_substitutive.ml" 120 4124 4135
+)
+"e_substitutive.ml" 116 3943 3965 "e_substitutive.ml" 116 3943 3967
+type(
+  E_t.bounds
+)
+ident(
+  def bs "e_substitutive.ml" 117 3970 3978 "e_substitutive.ml" 120 4124 4135
+)
+"e_substitutive.ml" 117 3970 3984 "e_substitutive.ml" 117 3970 3989
+type(
+  bool
+)
+ident(
+  def scope "e_substitutive.ml" 118 4031 4039 "e_substitutive.ml" 120 4124 4135
+)
+"e_substitutive.ml" 117 3970 3991 "e_substitutive.ml" 117 3970 3996
+type(
+  int
+)
+ident(
+  def index "e_substitutive.ml" 118 4031 4039 "e_substitutive.ml" 120 4124 4135
+)
+"e_substitutive.ml" 117 3970 3998 "e_substitutive.ml" 117 3970 3999
+type(
+  bool ref
+)
+ident(
+  def r "e_substitutive.ml" 118 4031 4039 "e_substitutive.ml" 120 4124 4135
+)
+"e_substitutive.ml" 117 3970 3983 "e_substitutive.ml" 117 3970 4000
+type(
+  bool * int * bool ref
+)
+"e_substitutive.ml" 117 3970 4002 "e_substitutive.ml" 117 3970 4004
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def cx "e_substitutive.ml" 118 4031 4039 "e_substitutive.ml" 120 4124 4135
+)
+"e_substitutive.ml" 117 3970 3982 "e_substitutive.ml" 117 3970 4005
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+"e_substitutive.ml" 117 3970 4008 "e_substitutive.ml" 117 3970 4013
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_substitutive.ml" 29 673 685 "e_substitutive.ml" 29 673 721
+)
+"e_substitutive.ml" 117 3970 4008 "e_substitutive.ml" 117 3970 4020
+type(
+  'a ->
+  (bool * int * bool ref) E_visit.scx ->
+  E_t.bounds -> (bool * int * bool ref) E_visit.scx
+)
+ident(
+  ext_ref bounds
+)
+type(
+  (bool * int * bool ref) E_visit.scx ->
+  E_t.bounds -> (bool * int * bool ref) E_visit.scx
+)
+type(
+  (bool * int * bool ref) E_visit.scx ->
+  E_t.bounds -> (bool * int * bool ref) E_visit.scx
+)
+"e_substitutive.ml" 117 3970 4021 "e_substitutive.ml" 117 3970 4024
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 116 3943 3961 "e_substitutive.ml" 116 3943 3964
+)
+"e_substitutive.ml" 117 3970 4025 "e_substitutive.ml" 117 3970 4027
+type(
+  E_t.bounds
+)
+ident(
+  int_ref bs "e_substitutive.ml" 116 3943 3965 "e_substitutive.ml" 116 3943 3967
+)
+"e_substitutive.ml" 117 3970 4008 "e_substitutive.ml" 117 3970 4027
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+"e_substitutive.ml" 118 4031 4043 "e_substitutive.ml" 118 4031 4048
+type(
+  int
+)
+ident(
+  def index "e_substitutive.ml" 119 4079 4087 "e_substitutive.ml" 120 4124 4135
+)
+"e_substitutive.ml" 118 4031 4051 "e_substitutive.ml" 118 4031 4056
+type(
+  int
+)
+ident(
+  int_ref index "e_substitutive.ml" 117 3970 3991 "e_substitutive.ml" 117 3970 3996
+)
+"e_substitutive.ml" 118 4031 4057 "e_substitutive.ml" 118 4031 4058
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"e_substitutive.ml" 118 4031 4060 "e_substitutive.ml" 118 4031 4071
+type(
+  E_t.bounds -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"e_substitutive.ml" 118 4031 4072 "e_substitutive.ml" 118 4031 4074
+type(
+  E_t.bounds
+)
+ident(
+  int_ref bs "e_substitutive.ml" 116 3943 3965 "e_substitutive.ml" 116 3943 3967
+)
+"e_substitutive.ml" 118 4031 4059 "e_substitutive.ml" 118 4031 4075
+type(
+  int
+)
+"e_substitutive.ml" 118 4031 4051 "e_substitutive.ml" 118 4031 4075
+type(
+  int
+)
+"e_substitutive.ml" 119 4079 4091 "e_substitutive.ml" 119 4079 4094
+type(
+  (bool * int * bool ref) * E_t.hyp Deque.dq
+)
+ident(
+  def scx "e_substitutive.ml" 120 4124 4132 "e_substitutive.ml" 120 4124 4135
+)
+"e_substitutive.ml" 119 4079 4099 "e_substitutive.ml" 119 4079 4104
+type(
+  bool
+)
+ident(
+  int_ref scope "e_substitutive.ml" 117 3970 3984 "e_substitutive.ml" 117 3970 3989
+)
+"e_substitutive.ml" 119 4079 4106 "e_substitutive.ml" 119 4079 4111
+type(
+  int
+)
+ident(
+  int_ref index "e_substitutive.ml" 118 4031 4043 "e_substitutive.ml" 118 4031 4048
+)
+"e_substitutive.ml" 119 4079 4113 "e_substitutive.ml" 119 4079 4114
+type(
+  bool ref
+)
+ident(
+  int_ref r "e_substitutive.ml" 117 3970 3998 "e_substitutive.ml" 117 3970 3999
+)
+"e_substitutive.ml" 119 4079 4098 "e_substitutive.ml" 119 4079 4115
+type(
+  bool * int * bool ref
+)
+"e_substitutive.ml" 119 4079 4117 "e_substitutive.ml" 119 4079 4119
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_substitutive.ml" 117 3970 4002 "e_substitutive.ml" 117 3970 4004
+)
+"e_substitutive.ml" 119 4079 4097 "e_substitutive.ml" 119 4079 4120
+type(
+  (bool * int * bool ref) * E_t.hyp Deque.dq
+)
+"e_substitutive.ml" 120 4124 4132 "e_substitutive.ml" 120 4124 4135
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 119 4079 4091 "e_substitutive.ml" 119 4079 4094
+)
+"e_substitutive.ml" 119 4079 4087 "e_substitutive.ml" 120 4124 4135
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+"e_substitutive.ml" 118 4031 4039 "e_substitutive.ml" 120 4124 4135
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+"e_substitutive.ml" 117 3970 3978 "e_substitutive.ml" 120 4124 4135
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+"e_substitutive.ml" 122 4137 4157 "e_substitutive.ml" 122 4137 4160
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+ident(
+  def scx "e_substitutive.ml" 122 4137 4161 "e_substitutive.ml" 123 4168 4188
+)
+"e_substitutive.ml" 122 4137 4161 "e_substitutive.ml" 122 4137 4165
+type(
+  E_t.instance
+)
+ident(
+  def inst "e_substitutive.ml" 123 4168 4176 "e_substitutive.ml" 123 4168 4188
+)
+"e_substitutive.ml" 123 4168 4183 "e_substitutive.ml" 123 4168 4188
+type(
+  bool
+)
+"e_substitutive.ml" 123 4168 4176 "e_substitutive.ml" 123 4168 4188
+type(
+  unit
+)
+"e_substitutive.ml" 125 4238 4255 "e_substitutive.ml" 125 4238 4258
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+ident(
+  def scx "e_substitutive.ml" 125 4238 4259 "e_substitutive.ml" 126 4263 4283
+)
+"e_substitutive.ml" 125 4238 4259 "e_substitutive.ml" 125 4238 4260
+type(
+  E_t.bound
+)
+ident(
+  def b "e_substitutive.ml" 126 4263 4271 "e_substitutive.ml" 126 4263 4283
+)
+"e_substitutive.ml" 126 4263 4278 "e_substitutive.ml" 126 4263 4283
+type(
+  bool
+)
+"e_substitutive.ml" 126 4263 4271 "e_substitutive.ml" 126 4263 4283
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+"e_substitutive.ml" 128 4306 4321 "e_substitutive.ml" 128 4306 4324
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+ident(
+  def scx "e_substitutive.ml" 128 4306 4325 "e_substitutive.ml" 129 4329 4349
+)
+"e_substitutive.ml" 128 4306 4325 "e_substitutive.ml" 128 4306 4326
+type(
+  E_t.hyp
+)
+ident(
+  def h "e_substitutive.ml" 129 4329 4337 "e_substitutive.ml" 129 4329 4349
+)
+"e_substitutive.ml" 129 4329 4344 "e_substitutive.ml" 129 4329 4349
+type(
+  bool
+)
+"e_substitutive.ml" 129 4329 4337 "e_substitutive.ml" 129 4329 4349
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+"e_substitutive.ml" 131 4395 4411 "e_substitutive.ml" 131 4395 4414
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+ident(
+  def scx "e_substitutive.ml" 131 4395 4415 "e_substitutive.ml" 132 4420 4440
+)
+"e_substitutive.ml" 131 4395 4415 "e_substitutive.ml" 131 4395 4417
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def hs "e_substitutive.ml" 132 4420 4428 "e_substitutive.ml" 132 4420 4440
+)
+"e_substitutive.ml" 132 4420 4435 "e_substitutive.ml" 132 4420 4440
+type(
+  bool
+)
+"e_substitutive.ml" 132 4420 4428 "e_substitutive.ml" 132 4420 4440
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+"e_substitutive.ml" 136 4491 4495 "e_substitutive.ml" 136 4491 4505
+type(
+  E_t.hyp Deque.dq -> E_t.expr_ Property.wrapped -> bool array
+)
+ident(
+  def make_array "e_substitutive.ml" 141 4594 4594 "e_substitutive.ml" 0 0 -1
+)
+"e_substitutive.ml" 136 4491 4506 "e_substitutive.ml" 136 4491 4508
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def cx "e_substitutive.ml" 136 4491 4509 "e_substitutive.ml" 138 4567 4591
+)
+"e_substitutive.ml" 136 4491 4509 "e_substitutive.ml" 136 4491 4510
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def e "e_substitutive.ml" 137 4513 4517 "e_substitutive.ml" 138 4567 4591
+)
+"e_substitutive.ml" 137 4513 4521 "e_substitutive.ml" 137 4513 4528
+type(
+  compute_substitutivity_array
+)
+ident(
+  def visitor "e_substitutive.ml" 138 4567 4571 "e_substitutive.ml" 138 4567 4591
+)
+"e_substitutive.ml" 137 4513 4531 "e_substitutive.ml" 137 4513 4563
+type(
+  compute_substitutivity_array
+)
+"e_substitutive.ml" 138 4567 4571 "e_substitutive.ml" 138 4567 4578
+type(
+  compute_substitutivity_array
+)
+ident(
+  int_ref visitor "e_substitutive.ml" 137 4513 4521 "e_substitutive.ml" 137 4513 4528
+)
+"e_substitutive.ml" 138 4567 4571 "e_substitutive.ml" 138 4567 4586
+type(
+  E_t.hyp Deque.dq -> E_t.expr_ Property.wrapped -> bool array
+)
+"e_substitutive.ml" 138 4567 4587 "e_substitutive.ml" 138 4567 4589
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_substitutive.ml" 136 4491 4506 "e_substitutive.ml" 136 4491 4508
+)
+"e_substitutive.ml" 138 4567 4590 "e_substitutive.ml" 138 4567 4591
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref e "e_substitutive.ml" 136 4491 4509 "e_substitutive.ml" 136 4491 4510
+)
+"e_substitutive.ml" 138 4567 4571 "e_substitutive.ml" 138 4567 4591
+type(
+  bool array
+)
+"e_substitutive.ml" 137 4513 4517 "e_substitutive.ml" 138 4567 4591
+type(
+  bool array
+)
+"e_substitutive.ml" 141 4594 4598 "e_substitutive.ml" 141 4594 4612
+type(
+  E_t.shape -> int
+)
+ident(
+  def shape_to_arity "e_substitutive.ml" 147 4712 4712 "e_substitutive.ml" 0 0 -1
+)
+"e_substitutive.ml" 141 4594 4613 "e_substitutive.ml" 141 4594 4616
+type(
+  E_t.shape
+)
+ident(
+  def shp "e_substitutive.ml" 142 4619 4623 "e_substitutive.ml" 144 4671 4709
+)
+"e_substitutive.ml" 142 4619 4629 "e_substitutive.ml" 142 4619 4632
+type(
+  E_t.shape
+)
+ident(
+  int_ref shp "e_substitutive.ml" 141 4594 4613 "e_substitutive.ml" 141 4594 4616
+)
+"e_substitutive.ml" 143 4638 4644 "e_substitutive.ml" 143 4638 4654
+type(
+  E_t.shape
+)
+type(
+  E_t.shape
+)
+"e_substitutive.ml" 143 4638 4665 "e_substitutive.ml" 143 4638 4670
+type(
+  bool
+)
+"e_substitutive.ml" 143 4638 4658 "e_substitutive.ml" 143 4638 4670
+type(
+  int
+)
+"e_substitutive.ml" 144 4671 4686 "e_substitutive.ml" 144 4671 4687
+type(
+  int
+)
+ident(
+  def n "e_substitutive.ml" 144 4671 4691 "e_substitutive.ml" 144 4671 4709
+)
+"e_substitutive.ml" 144 4671 4677 "e_substitutive.ml" 144 4671 4687
+type(
+  E_t.shape
+)
+type(
+  E_t.shape
+)
+"e_substitutive.ml" 144 4671 4699 "e_substitutive.ml" 144 4671 4700
+type(
+  int
+)
+ident(
+  int_ref n "e_substitutive.ml" 144 4671 4686 "e_substitutive.ml" 144 4671 4687
+)
+"e_substitutive.ml" 144 4671 4701 "e_substitutive.ml" 144 4671 4703
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 150 6190 6190 "stdlib.mli" 150 6190 6242
+)
+"e_substitutive.ml" 144 4671 4704 "e_substitutive.ml" 144 4671 4705
+type(
+  int
+)
+"e_substitutive.ml" 144 4671 4698 "e_substitutive.ml" 144 4671 4706
+type(
+  bool
+)
+"e_substitutive.ml" 144 4671 4691 "e_substitutive.ml" 144 4671 4706
+type(
+  unit
+)
+"e_substitutive.ml" 144 4671 4708 "e_substitutive.ml" 144 4671 4709
+type(
+  int
+)
+ident(
+  int_ref n "e_substitutive.ml" 144 4671 4686 "e_substitutive.ml" 144 4671 4687
+)
+"e_substitutive.ml" 144 4671 4691 "e_substitutive.ml" 144 4671 4709
+type(
+  int
+)
+"e_substitutive.ml" 142 4619 4623 "e_substitutive.ml" 144 4671 4709
+type(
+  int
+)
+"e_substitutive.ml" 147 4712 4752 "e_substitutive.ml" 147 4712 4756
+type(
+  < adj : unit E_visit.scx -> E_t.hyp -> unit E_visit.scx;
+    adjs : unit E_visit.scx -> E_t.hyp list -> unit E_visit.scx;
+    bound : unit E_visit.scx -> E_t.bound -> unit E_visit.scx * E_t.bound;
+    bounds : unit E_visit.scx ->
+             E_t.bound list -> unit E_visit.scx * E_t.bound list;
+    defn : unit E_visit.scx -> E_t.defn -> E_t.defn;
+    defns : unit E_visit.scx ->
+            E_t.defn list -> unit E_visit.scx * E_t.defn list;
+    expr : unit E_visit.scx -> E_t.expr -> E_t.expr;
+    exspec : unit E_visit.scx -> E_t.exspec -> E_t.exspec;
+    hyp : unit E_visit.scx -> E_t.hyp -> unit E_visit.scx * E_t.hyp;
+    hyps : unit E_visit.scx ->
+           E_t.hyp Deque.dq -> unit E_visit.scx * E_t.hyp Deque.dq;
+    instance : unit E_visit.scx -> E_t.instance -> E_t.instance;
+    pform : unit E_visit.scx -> E_t.pform -> E_t.pform;
+    sel : unit E_visit.scx -> E_t.sel -> E_t.sel;
+    sequent : unit E_visit.scx ->
+              E_t.sequent -> unit E_visit.scx * E_t.sequent;
+    .. >
+)
+type(
+  < adj : unit E_visit.scx -> E_t.hyp -> unit E_visit.scx;
+    adjs : unit E_visit.scx -> E_t.hyp list -> unit E_visit.scx;
+    bound : unit E_visit.scx -> E_t.bound -> unit E_visit.scx * E_t.bound;
+    bounds : unit E_visit.scx ->
+             E_t.bound list -> unit E_visit.scx * E_t.bound list;
+    defn : unit E_visit.scx -> E_t.defn -> E_t.defn;
+    defns : unit E_visit.scx ->
+            E_t.defn list -> unit E_visit.scx * E_t.defn list;
+    expr : unit E_visit.scx -> E_t.expr -> E_t.expr;
+    exspec : unit E_visit.scx -> E_t.exspec -> E_t.exspec;
+    hyp : unit E_visit.scx -> E_t.hyp -> unit E_visit.scx * E_t.hyp;
+    hyps : unit E_visit.scx ->
+           E_t.hyp Deque.dq -> unit E_visit.scx * E_t.hyp Deque.dq;
+    instance : unit E_visit.scx -> E_t.instance -> E_t.instance;
+    pform : unit E_visit.scx -> E_t.pform -> E_t.pform;
+    sel : unit E_visit.scx -> E_t.sel -> E_t.sel;
+    sequent : unit E_visit.scx ->
+              E_t.sequent -> unit E_visit.scx * E_t.sequent;
+    .. >
+  as 'a
+)
+"e_substitutive.ml" 150 4818 4836 "e_substitutive.ml" 150 4818 4837
+type(
+  unit
+)
+ident(
+  def s "e_substitutive.ml" 150 4818 4851 "e_substitutive.ml" 232 8529 8540
+)
+"e_substitutive.ml" 150 4818 4839 "e_substitutive.ml" 150 4818 4841
+type(
+  E_t.ctx
+)
+ident(
+  def cx "e_substitutive.ml" 150 4818 4851 "e_substitutive.ml" 232 8529 8540
+)
+"e_substitutive.ml" 150 4818 4835 "e_substitutive.ml" 150 4818 4842
+type(
+  unit * E_t.ctx
+)
+"e_substitutive.ml" 150 4818 4834 "e_substitutive.ml" 150 4818 4850
+type(
+  unit * E_t.ctx
+)
+ident(
+  def scx "e_substitutive.ml" 150 4818 4851 "e_substitutive.ml" 232 8529 8540
+)
+"e_substitutive.ml" 150 4818 4851 "e_substitutive.ml" 150 4818 4852
+type(
+  E_t.expr
+)
+ident(
+  def e "e_substitutive.ml" 151 4855 4863 "e_substitutive.ml" 232 8529 8540
+)
+"e_substitutive.ml" 151 4855 4866 "e_substitutive.ml" 151 4855 4882
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref has_substitutive "e_substitutive.ml" 12 218 222 "e_substitutive.ml" 12 218 238
+)
+"e_substitutive.ml" 151 4855 4883 "e_substitutive.ml" 151 4855 4884
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_substitutive.ml" 150 4818 4851 "e_substitutive.ml" 150 4818 4852
+)
+"e_substitutive.ml" 151 4855 4866 "e_substitutive.ml" 151 4855 4884
+type(
+  bool
+)
+"e_substitutive.ml" 152 4890 4902 "e_substitutive.ml" 152 4890 4903
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_substitutive.ml" 150 4818 4851 "e_substitutive.ml" 150 4818 4852
+)
+"e_substitutive.ml" 154 4923 4937 "e_substitutive.ml" 154 4923 4938
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_substitutive.ml" 150 4818 4851 "e_substitutive.ml" 150 4818 4852
+)
+"e_substitutive.ml" 154 4923 4937 "e_substitutive.ml" 154 4923 4943
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 156 4981 4998 "e_substitutive.ml" 156 4981 5001
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 156 4981 5004 "e_substitutive.ml" 156 4981 5010
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 156 4981 4998 "e_substitutive.ml" 156 4981 5010
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 156 4981 5013 "e_substitutive.ml" 156 4981 5021
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 156 4981 4998 "e_substitutive.ml" 156 4981 5021
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 156 4981 5024 "e_substitutive.ml" 156 4981 5032
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 156 4981 4998 "e_substitutive.ml" 156 4981 5032
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 156 4981 5035 "e_substitutive.ml" 156 4981 5038
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 156 4981 4998 "e_substitutive.ml" 156 4981 5038
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 156 4981 5041 "e_substitutive.ml" 156 4981 5044
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 156 4981 4997 "e_substitutive.ml" 156 4981 5045
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 155 4949 4972 "e_substitutive.ml" 156 4981 5045
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 155 4949 4966 "e_substitutive.ml" 156 4981 5046
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 155 4949 4966 "e_substitutive.ml" 156 4981 5052
+type(
+  E_t.expr
+)
+ident(
+  def op "e_substitutive.ml" 158 5079 5091 "e_substitutive.ml" 168 5492 5535
+)
+"e_substitutive.ml" 157 5054 5070 "e_substitutive.ml" 157 5054 5074
+type(
+  E_t.expr list
+)
+ident(
+  def args "e_substitutive.ml" 158 5079 5091 "e_substitutive.ml" 168 5492 5535
+)
+"e_substitutive.ml" 155 4949 4959 "e_substitutive.ml" 157 5054 5075
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 158 5079 5095 "e_substitutive.ml" 158 5079 5096
+type(
+  int
+)
+ident(
+  def n "e_substitutive.ml" 159 5119 5131 "e_substitutive.ml" 168 5492 5535
+)
+"e_substitutive.ml" 158 5079 5099 "e_substitutive.ml" 158 5079 5110
+type(
+  E_t.expr list -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"e_substitutive.ml" 158 5079 5111 "e_substitutive.ml" 158 5079 5115
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_substitutive.ml" 157 5054 5070 "e_substitutive.ml" 157 5054 5074
+)
+"e_substitutive.ml" 158 5079 5099 "e_substitutive.ml" 158 5079 5115
+type(
+  int
+)
+"e_substitutive.ml" 159 5119 5139 "e_substitutive.ml" 159 5119 5140
+type(
+  int
+)
+ident(
+  int_ref n "e_substitutive.ml" 158 5079 5095 "e_substitutive.ml" 158 5079 5096
+)
+"e_substitutive.ml" 159 5119 5141 "e_substitutive.ml" 159 5119 5142
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_substitutive.ml" 159 5119 5143 "e_substitutive.ml" 159 5119 5144
+type(
+  int
+)
+"e_substitutive.ml" 159 5119 5138 "e_substitutive.ml" 159 5119 5145
+type(
+  bool
+)
+"e_substitutive.ml" 159 5119 5131 "e_substitutive.ml" 159 5119 5145
+type(
+  unit
+)
+"e_substitutive.ml" 160 5147 5163 "e_substitutive.ml" 160 5147 5167
+type(
+  E_t.expr list
+)
+ident(
+  def args "e_substitutive.ml" 161 5203 5215 "e_substitutive.ml" 168 5492 5535
+)
+"e_substitutive.ml" 160 5147 5170 "e_substitutive.ml" 160 5147 5178
+type(
+  (E_t.expr -> E_t.expr) -> E_t.expr list -> E_t.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"e_substitutive.ml" 160 5147 5180 "e_substitutive.ml" 160 5147 5184
+type(
+  'a
+)
+ident(
+  ext_ref self-2
+)
+"e_substitutive.ml" 160 5147 5180 "e_substitutive.ml" 160 5147 5189
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_substitutive.ml" 160 5147 5190 "e_substitutive.ml" 160 5147 5193
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 150 4818 4834 "e_substitutive.ml" 150 4818 4850
+)
+"e_substitutive.ml" 160 5147 5179 "e_substitutive.ml" 160 5147 5194
+type(
+  E_t.expr -> E_t.expr
+)
+"e_substitutive.ml" 160 5147 5195 "e_substitutive.ml" 160 5147 5199
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_substitutive.ml" 157 5054 5070 "e_substitutive.ml" 157 5054 5074
+)
+"e_substitutive.ml" 160 5147 5170 "e_substitutive.ml" 160 5147 5199
+type(
+  E_t.expr list
+)
+"e_substitutive.ml" 161 5203 5219 "e_substitutive.ml" 161 5203 5223
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def expr "e_substitutive.ml" 162 5251 5263 "e_substitutive.ml" 168 5492 5535
+)
+"e_substitutive.ml" 161 5203 5233 "e_substitutive.ml" 161 5203 5235
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_substitutive.ml" 155 4949 4966 "e_substitutive.ml" 156 4981 5052
+)
+"e_substitutive.ml" 161 5203 5237 "e_substitutive.ml" 161 5203 5241
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_substitutive.ml" 160 5147 5163 "e_substitutive.ml" 160 5147 5167
+)
+"e_substitutive.ml" 161 5203 5226 "e_substitutive.ml" 161 5203 5242
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 161 5203 5243 "e_substitutive.ml" 161 5203 5245
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_substitutive.ml" 161 5203 5246 "e_substitutive.ml" 161 5203 5247
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_substitutive.ml" 150 4818 4851 "e_substitutive.ml" 150 4818 4852
+)
+"e_substitutive.ml" 161 5203 5226 "e_substitutive.ml" 161 5203 5247
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_substitutive.ml" 162 5251 5267 "e_substitutive.ml" 162 5251 5269
+type(
+  E_t.expr
+)
+ident(
+  def e_ "e_substitutive.ml" 163 5303 5315 "e_substitutive.ml" 168 5492 5535
+)
+"e_substitutive.ml" 162 5251 5272 "e_substitutive.ml" 162 5251 5294
+type(
+  E_t.ctx -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref E_levels.compute_level "e_levels.mli" 28 722 722 "e_levels.mli" 28 722 760
+)
+"e_substitutive.ml" 162 5251 5295 "e_substitutive.ml" 162 5251 5297
+type(
+  E_t.ctx
+)
+ident(
+  int_ref cx "e_substitutive.ml" 150 4818 4839 "e_substitutive.ml" 150 4818 4841
+)
+"e_substitutive.ml" 162 5251 5298 "e_substitutive.ml" 162 5251 5299
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_substitutive.ml" 150 4818 4851 "e_substitutive.ml" 150 4818 4852
+)
+"e_substitutive.ml" 162 5251 5272 "e_substitutive.ml" 162 5251 5299
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 163 5303 5319 "e_substitutive.ml" 163 5303 5324
+type(
+  int
+)
+ident(
+  def level "e_substitutive.ml" 164 5352 5364 "e_substitutive.ml" 168 5492 5535
+)
+"e_substitutive.ml" 163 5303 5327 "e_substitutive.ml" 163 5303 5345
+type(
+  E_t.expr -> int
+)
+ident(
+  int_ref E_levels.get_level "e_levels.mli" 18 371 371 "e_levels.mli" 18 371 412
+)
+"e_substitutive.ml" 163 5303 5346 "e_substitutive.ml" 163 5303 5348
+type(
+  E_t.expr
+)
+ident(
+  int_ref e_ "e_substitutive.ml" 162 5251 5267 "e_substitutive.ml" 162 5251 5269
+)
+"e_substitutive.ml" 163 5303 5327 "e_substitutive.ml" 163 5303 5348
+type(
+  int
+)
+"e_substitutive.ml" 164 5352 5368 "e_substitutive.ml" 164 5352 5370
+type(
+  bool array
+)
+ident(
+  def ar "e_substitutive.ml" 168 5492 5504 "e_substitutive.ml" 168 5492 5535
+)
+"e_substitutive.ml" 164 5352 5376 "e_substitutive.ml" 164 5352 5381
+type(
+  int
+)
+ident(
+  int_ref level "e_substitutive.ml" 163 5303 5319 "e_substitutive.ml" 163 5303 5324
+)
+"e_substitutive.ml" 164 5352 5382 "e_substitutive.ml" 164 5352 5383
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_substitutive.ml" 164 5352 5384 "e_substitutive.ml" 164 5352 5385
+type(
+  int
+)
+"e_substitutive.ml" 164 5352 5376 "e_substitutive.ml" 164 5352 5385
+type(
+  bool
+)
+"e_substitutive.ml" 165 5391 5411 "e_substitutive.ml" 165 5391 5421
+type(
+  int -> bool -> bool array
+)
+ident(
+  int_ref Stdlib.Array.make "array.mli" 53 2225 2225 "array.mli" 53 2225 2281
+)
+"e_substitutive.ml" 165 5391 5422 "e_substitutive.ml" 165 5391 5423
+type(
+  int
+)
+ident(
+  int_ref n "e_substitutive.ml" 158 5079 5095 "e_substitutive.ml" 158 5079 5096
+)
+"e_substitutive.ml" 165 5391 5424 "e_substitutive.ml" 165 5391 5428
+type(
+  bool
+)
+"e_substitutive.ml" 165 5391 5411 "e_substitutive.ml" 165 5391 5428
+type(
+  bool array
+)
+"e_substitutive.ml" 167 5450 5470 "e_substitutive.ml" 167 5450 5480
+type(
+  int -> bool -> bool array
+)
+ident(
+  int_ref Stdlib.Array.make "array.mli" 53 2225 2225 "array.mli" 53 2225 2281
+)
+"e_substitutive.ml" 167 5450 5481 "e_substitutive.ml" 167 5450 5482
+type(
+  int
+)
+ident(
+  int_ref n "e_substitutive.ml" 158 5079 5095 "e_substitutive.ml" 158 5079 5096
+)
+"e_substitutive.ml" 167 5450 5483 "e_substitutive.ml" 167 5450 5488
+type(
+  bool
+)
+"e_substitutive.ml" 167 5450 5470 "e_substitutive.ml" 167 5450 5488
+type(
+  bool array
+)
+"e_substitutive.ml" 164 5352 5373 "e_substitutive.ml" 167 5450 5488
+type(
+  bool array
+)
+"e_substitutive.ml" 168 5492 5504 "e_substitutive.ml" 168 5492 5510
+type(
+  E_t.expr_ Property.wrapped ->
+  substitutive_args Property.pfuncs -> substitutive_args -> E_t.expr
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"e_substitutive.ml" 168 5492 5511 "e_substitutive.ml" 168 5492 5515
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref expr "e_substitutive.ml" 161 5203 5219 "e_substitutive.ml" 161 5203 5223
+)
+"e_substitutive.ml" 168 5492 5516 "e_substitutive.ml" 168 5492 5532
+type(
+  substitutive_args Property.pfuncs
+)
+ident(
+  int_ref substitutive_arg "e_substitutive.ml" 10 114 118 "e_substitutive.ml" 10 114 134
+)
+"e_substitutive.ml" 168 5492 5533 "e_substitutive.ml" 168 5492 5535
+type(
+  substitutive_args
+)
+ident(
+  int_ref ar "e_substitutive.ml" 164 5352 5368 "e_substitutive.ml" 164 5352 5370
+)
+"e_substitutive.ml" 168 5492 5504 "e_substitutive.ml" 168 5492 5535
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 164 5352 5364 "e_substitutive.ml" 168 5492 5535
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 163 5303 5315 "e_substitutive.ml" 168 5492 5535
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 162 5251 5263 "e_substitutive.ml" 168 5492 5535
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 161 5203 5215 "e_substitutive.ml" 168 5492 5535
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 160 5147 5159 "e_substitutive.ml" 168 5492 5535
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 159 5119 5131 "e_substitutive.ml" 168 5492 5535
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 158 5079 5091 "e_substitutive.ml" 168 5492 5535
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 170 5568 5585 "e_substitutive.ml" 170 5568 5590
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 170 5568 5593 "e_substitutive.ml" 170 5568 5604
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 170 5568 5585 "e_substitutive.ml" 170 5568 5604
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 170 5568 5607 "e_substitutive.ml" 170 5568 5614
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 170 5568 5585 "e_substitutive.ml" 170 5568 5614
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 170 5568 5617 "e_substitutive.ml" 170 5568 5621
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 170 5568 5585 "e_substitutive.ml" 170 5568 5621
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 170 5568 5624 "e_substitutive.ml" 170 5568 5633
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 170 5568 5585 "e_substitutive.ml" 170 5568 5633
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 171 5634 5660 "e_substitutive.ml" 171 5634 5661
+type(
+  bool
+)
+"e_substitutive.ml" 171 5634 5656 "e_substitutive.ml" 171 5634 5661
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 170 5568 5585 "e_substitutive.ml" 171 5634 5661
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 171 5634 5664 "e_substitutive.ml" 171 5634 5671
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 170 5568 5585 "e_substitutive.ml" 171 5634 5671
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 171 5634 5674 "e_substitutive.ml" 171 5634 5681
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 170 5568 5585 "e_substitutive.ml" 171 5634 5681
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 171 5634 5684 "e_substitutive.ml" 171 5634 5691
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 170 5568 5584 "e_substitutive.ml" 171 5634 5692
+type(
+  Builtin.builtin
+)
+"e_substitutive.ml" 169 5536 5559 "e_substitutive.ml" 171 5634 5692
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 169 5536 5553 "e_substitutive.ml" 171 5634 5693
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 169 5536 5553 "e_substitutive.ml" 171 5634 5699
+type(
+  E_t.expr
+)
+ident(
+  def op "e_substitutive.ml" 172 5710 5722 "e_substitutive.ml" 177 5926 5969
+)
+"e_substitutive.ml" 171 5634 5701 "e_substitutive.ml" 171 5634 5705
+type(
+  E_t.expr list
+)
+ident(
+  def args "e_substitutive.ml" 172 5710 5722 "e_substitutive.ml" 177 5926 5969
+)
+"e_substitutive.ml" 169 5536 5546 "e_substitutive.ml" 171 5634 5706
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 172 5710 5726 "e_substitutive.ml" 172 5710 5727
+type(
+  int
+)
+ident(
+  def n "e_substitutive.ml" 173 5750 5762 "e_substitutive.ml" 177 5926 5969
+)
+"e_substitutive.ml" 172 5710 5730 "e_substitutive.ml" 172 5710 5741
+type(
+  E_t.expr list -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"e_substitutive.ml" 172 5710 5742 "e_substitutive.ml" 172 5710 5746
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_substitutive.ml" 171 5634 5701 "e_substitutive.ml" 171 5634 5705
+)
+"e_substitutive.ml" 172 5710 5730 "e_substitutive.ml" 172 5710 5746
+type(
+  int
+)
+"e_substitutive.ml" 173 5750 5770 "e_substitutive.ml" 173 5750 5771
+type(
+  int
+)
+ident(
+  int_ref n "e_substitutive.ml" 172 5710 5726 "e_substitutive.ml" 172 5710 5727
+)
+"e_substitutive.ml" 173 5750 5772 "e_substitutive.ml" 173 5750 5774
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 150 6190 6190 "stdlib.mli" 150 6190 6242
+)
+"e_substitutive.ml" 173 5750 5775 "e_substitutive.ml" 173 5750 5776
+type(
+  int
+)
+"e_substitutive.ml" 173 5750 5769 "e_substitutive.ml" 173 5750 5777
+type(
+  bool
+)
+"e_substitutive.ml" 173 5750 5762 "e_substitutive.ml" 173 5750 5777
+type(
+  unit
+)
+"e_substitutive.ml" 174 5779 5795 "e_substitutive.ml" 174 5779 5799
+type(
+  E_t.expr list
+)
+ident(
+  def args "e_substitutive.ml" 175 5835 5847 "e_substitutive.ml" 177 5926 5969
+)
+"e_substitutive.ml" 174 5779 5802 "e_substitutive.ml" 174 5779 5810
+type(
+  (E_t.expr -> E_t.expr) -> E_t.expr list -> E_t.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"e_substitutive.ml" 174 5779 5812 "e_substitutive.ml" 174 5779 5816
+type(
+  'a
+)
+ident(
+  ext_ref self-2
+)
+"e_substitutive.ml" 174 5779 5812 "e_substitutive.ml" 174 5779 5821
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_substitutive.ml" 174 5779 5822 "e_substitutive.ml" 174 5779 5825
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 150 4818 4834 "e_substitutive.ml" 150 4818 4850
+)
+"e_substitutive.ml" 174 5779 5811 "e_substitutive.ml" 174 5779 5826
+type(
+  E_t.expr -> E_t.expr
+)
+"e_substitutive.ml" 174 5779 5827 "e_substitutive.ml" 174 5779 5831
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_substitutive.ml" 171 5634 5701 "e_substitutive.ml" 171 5634 5705
+)
+"e_substitutive.ml" 174 5779 5802 "e_substitutive.ml" 174 5779 5831
+type(
+  E_t.expr list
+)
+"e_substitutive.ml" 175 5835 5851 "e_substitutive.ml" 175 5835 5855
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def expr "e_substitutive.ml" 176 5883 5895 "e_substitutive.ml" 177 5926 5969
+)
+"e_substitutive.ml" 175 5835 5865 "e_substitutive.ml" 175 5835 5867
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_substitutive.ml" 169 5536 5553 "e_substitutive.ml" 171 5634 5699
+)
+"e_substitutive.ml" 175 5835 5869 "e_substitutive.ml" 175 5835 5873
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_substitutive.ml" 174 5779 5795 "e_substitutive.ml" 174 5779 5799
+)
+"e_substitutive.ml" 175 5835 5858 "e_substitutive.ml" 175 5835 5874
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 175 5835 5875 "e_substitutive.ml" 175 5835 5877
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_substitutive.ml" 175 5835 5878 "e_substitutive.ml" 175 5835 5879
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_substitutive.ml" 150 4818 4851 "e_substitutive.ml" 150 4818 4852
+)
+"e_substitutive.ml" 175 5835 5858 "e_substitutive.ml" 175 5835 5879
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_substitutive.ml" 176 5883 5899 "e_substitutive.ml" 176 5883 5901
+type(
+  bool array
+)
+ident(
+  def ar "e_substitutive.ml" 177 5926 5938 "e_substitutive.ml" 177 5926 5969
+)
+"e_substitutive.ml" 176 5883 5904 "e_substitutive.ml" 176 5883 5914
+type(
+  int -> bool -> bool array
+)
+ident(
+  int_ref Stdlib.Array.make "array.mli" 53 2225 2225 "array.mli" 53 2225 2281
+)
+"e_substitutive.ml" 176 5883 5915 "e_substitutive.ml" 176 5883 5916
+type(
+  int
+)
+ident(
+  int_ref n "e_substitutive.ml" 172 5710 5726 "e_substitutive.ml" 172 5710 5727
+)
+"e_substitutive.ml" 176 5883 5917 "e_substitutive.ml" 176 5883 5922
+type(
+  bool
+)
+"e_substitutive.ml" 176 5883 5904 "e_substitutive.ml" 176 5883 5922
+type(
+  bool array
+)
+"e_substitutive.ml" 177 5926 5938 "e_substitutive.ml" 177 5926 5944
+type(
+  E_t.expr_ Property.wrapped ->
+  substitutive_args Property.pfuncs -> substitutive_args -> E_t.expr
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"e_substitutive.ml" 177 5926 5945 "e_substitutive.ml" 177 5926 5949
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref expr "e_substitutive.ml" 175 5835 5851 "e_substitutive.ml" 175 5835 5855
+)
+"e_substitutive.ml" 177 5926 5950 "e_substitutive.ml" 177 5926 5966
+type(
+  substitutive_args Property.pfuncs
+)
+ident(
+  int_ref substitutive_arg "e_substitutive.ml" 10 114 118 "e_substitutive.ml" 10 114 134
+)
+"e_substitutive.ml" 177 5926 5967 "e_substitutive.ml" 177 5926 5969
+type(
+  substitutive_args
+)
+ident(
+  int_ref ar "e_substitutive.ml" 176 5883 5899 "e_substitutive.ml" 176 5883 5901
+)
+"e_substitutive.ml" 177 5926 5938 "e_substitutive.ml" 177 5926 5969
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 176 5883 5895 "e_substitutive.ml" 177 5926 5969
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 175 5835 5847 "e_substitutive.ml" 177 5926 5969
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 174 5779 5791 "e_substitutive.ml" 177 5926 5969
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 173 5750 5762 "e_substitutive.ml" 177 5926 5969
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 172 5710 5722 "e_substitutive.ml" 177 5926 5969
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 178 5970 5985 "e_substitutive.ml" 178 5970 5993
+type(
+  E_t.modal_op
+)
+ident(
+  def modal_op "e_substitutive.ml" 179 6017 6029 "e_substitutive.ml" 183 6229 6272
+)
+"e_substitutive.ml" 178 5970 5995 "e_substitutive.ml" 178 5970 6001
+type(
+  E_t.expr
+)
+ident(
+  def action "e_substitutive.ml" 179 6017 6029 "e_substitutive.ml" 183 6229 6272
+)
+"e_substitutive.ml" 178 5970 6003 "e_substitutive.ml" 178 5970 6012
+type(
+  E_t.expr
+)
+ident(
+  def subscript "e_substitutive.ml" 179 6017 6029 "e_substitutive.ml" 183 6229 6272
+)
+"e_substitutive.ml" 178 5970 5980 "e_substitutive.ml" 178 5970 6013
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 179 6017 6033 "e_substitutive.ml" 179 6017 6039
+type(
+  E_t.expr
+)
+ident(
+  def action "e_substitutive.ml" 180 6066 6078 "e_substitutive.ml" 183 6229 6272
+)
+"e_substitutive.ml" 179 6017 6042 "e_substitutive.ml" 179 6017 6046
+type(
+  'a
+)
+ident(
+  ext_ref self-2
+)
+"e_substitutive.ml" 179 6017 6042 "e_substitutive.ml" 179 6017 6051
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_substitutive.ml" 179 6017 6052 "e_substitutive.ml" 179 6017 6055
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 150 4818 4834 "e_substitutive.ml" 150 4818 4850
+)
+"e_substitutive.ml" 179 6017 6056 "e_substitutive.ml" 179 6017 6062
+type(
+  E_t.expr
+)
+ident(
+  int_ref action "e_substitutive.ml" 178 5970 5995 "e_substitutive.ml" 178 5970 6001
+)
+"e_substitutive.ml" 179 6017 6042 "e_substitutive.ml" 179 6017 6062
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 180 6066 6082 "e_substitutive.ml" 180 6066 6091
+type(
+  E_t.expr
+)
+ident(
+  def subscript "e_substitutive.ml" 181 6121 6133 "e_substitutive.ml" 183 6229 6272
+)
+"e_substitutive.ml" 180 6066 6094 "e_substitutive.ml" 180 6066 6098
+type(
+  'a
+)
+ident(
+  ext_ref self-2
+)
+"e_substitutive.ml" 180 6066 6094 "e_substitutive.ml" 180 6066 6103
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_substitutive.ml" 180 6066 6104 "e_substitutive.ml" 180 6066 6107
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 150 4818 4834 "e_substitutive.ml" 150 4818 4850
+)
+"e_substitutive.ml" 180 6066 6108 "e_substitutive.ml" 180 6066 6117
+type(
+  E_t.expr
+)
+ident(
+  int_ref subscript "e_substitutive.ml" 178 5970 6003 "e_substitutive.ml" 178 5970 6012
+)
+"e_substitutive.ml" 180 6066 6094 "e_substitutive.ml" 180 6066 6117
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 181 6121 6137 "e_substitutive.ml" 181 6121 6141
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def expr "e_substitutive.ml" 182 6186 6198 "e_substitutive.ml" 183 6229 6272
+)
+"e_substitutive.ml" 181 6121 6149 "e_substitutive.ml" 181 6121 6157
+type(
+  E_t.modal_op
+)
+ident(
+  int_ref modal_op "e_substitutive.ml" 178 5970 5985 "e_substitutive.ml" 178 5970 5993
+)
+"e_substitutive.ml" 181 6121 6159 "e_substitutive.ml" 181 6121 6165
+type(
+  E_t.expr
+)
+ident(
+  int_ref action "e_substitutive.ml" 179 6017 6033 "e_substitutive.ml" 179 6017 6039
+)
+"e_substitutive.ml" 181 6121 6167 "e_substitutive.ml" 181 6121 6176
+type(
+  E_t.expr
+)
+ident(
+  int_ref subscript "e_substitutive.ml" 180 6066 6082 "e_substitutive.ml" 180 6066 6091
+)
+"e_substitutive.ml" 181 6121 6144 "e_substitutive.ml" 181 6121 6177
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 181 6121 6178 "e_substitutive.ml" 181 6121 6180
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_substitutive.ml" 181 6121 6181 "e_substitutive.ml" 181 6121 6182
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_substitutive.ml" 150 4818 4851 "e_substitutive.ml" 150 4818 4852
+)
+"e_substitutive.ml" 181 6121 6144 "e_substitutive.ml" 181 6121 6182
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_substitutive.ml" 182 6186 6202 "e_substitutive.ml" 182 6186 6204
+type(
+  bool array
+)
+ident(
+  def ar "e_substitutive.ml" 183 6229 6241 "e_substitutive.ml" 183 6229 6272
+)
+"e_substitutive.ml" 182 6186 6207 "e_substitutive.ml" 182 6186 6217
+type(
+  int -> bool -> bool array
+)
+ident(
+  int_ref Stdlib.Array.make "array.mli" 53 2225 2225 "array.mli" 53 2225 2281
+)
+"e_substitutive.ml" 182 6186 6218 "e_substitutive.ml" 182 6186 6219
+type(
+  int
+)
+"e_substitutive.ml" 182 6186 6220 "e_substitutive.ml" 182 6186 6225
+type(
+  bool
+)
+"e_substitutive.ml" 182 6186 6207 "e_substitutive.ml" 182 6186 6225
+type(
+  bool array
+)
+"e_substitutive.ml" 183 6229 6241 "e_substitutive.ml" 183 6229 6247
+type(
+  E_t.expr_ Property.wrapped ->
+  substitutive_args Property.pfuncs -> substitutive_args -> E_t.expr
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"e_substitutive.ml" 183 6229 6248 "e_substitutive.ml" 183 6229 6252
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref expr "e_substitutive.ml" 181 6121 6137 "e_substitutive.ml" 181 6121 6141
+)
+"e_substitutive.ml" 183 6229 6253 "e_substitutive.ml" 183 6229 6269
+type(
+  substitutive_args Property.pfuncs
+)
+ident(
+  int_ref substitutive_arg "e_substitutive.ml" 10 114 118 "e_substitutive.ml" 10 114 134
+)
+"e_substitutive.ml" 183 6229 6270 "e_substitutive.ml" 183 6229 6272
+type(
+  substitutive_args
+)
+ident(
+  int_ref ar "e_substitutive.ml" 182 6186 6202 "e_substitutive.ml" 182 6186 6204
+)
+"e_substitutive.ml" 183 6229 6241 "e_substitutive.ml" 183 6229 6272
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 182 6186 6198 "e_substitutive.ml" 183 6229 6272
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 181 6121 6133 "e_substitutive.ml" 183 6229 6272
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 180 6066 6078 "e_substitutive.ml" 183 6229 6272
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 179 6017 6029 "e_substitutive.ml" 183 6229 6272
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 184 6273 6299 "e_substitutive.ml" 184 6273 6300
+type(
+  int
+)
+ident(
+  def n "e_substitutive.ml" 185 6324 6336 "e_substitutive.ml" 230 8481 8496
+)
+"e_substitutive.ml" 184 6273 6296 "e_substitutive.ml" 184 6273 6300
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 184 6273 6290 "e_substitutive.ml" 184 6273 6301
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 184 6273 6290 "e_substitutive.ml" 184 6273 6313
+type(
+  E_t.expr
+)
+ident(
+  def op_index "e_substitutive.ml" 185 6324 6336 "e_substitutive.ml" 230 8481 8496
+)
+"e_substitutive.ml" 184 6273 6315 "e_substitutive.ml" 184 6273 6319
+type(
+  E_t.expr list
+)
+ident(
+  def args "e_substitutive.ml" 185 6324 6336 "e_substitutive.ml" 230 8481 8496
+)
+"e_substitutive.ml" 184 6273 6283 "e_substitutive.ml" 184 6273 6320
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 185 6324 6340 "e_substitutive.ml" 185 6324 6346
+type(
+  int
+)
+ident(
+  def n_args "e_substitutive.ml" 186 6369 6381 "e_substitutive.ml" 230 8481 8496
+)
+"e_substitutive.ml" 185 6324 6349 "e_substitutive.ml" 185 6324 6360
+type(
+  E_t.expr list -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"e_substitutive.ml" 185 6324 6361 "e_substitutive.ml" 185 6324 6365
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_substitutive.ml" 184 6273 6315 "e_substitutive.ml" 184 6273 6319
+)
+"e_substitutive.ml" 185 6324 6349 "e_substitutive.ml" 185 6324 6365
+type(
+  int
+)
+"e_substitutive.ml" 186 6369 6389 "e_substitutive.ml" 186 6369 6395
+type(
+  int
+)
+ident(
+  int_ref n_args "e_substitutive.ml" 185 6324 6340 "e_substitutive.ml" 185 6324 6346
+)
+"e_substitutive.ml" 186 6369 6396 "e_substitutive.ml" 186 6369 6397
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 140 5875 5875 "stdlib.mli" 140 5875 5925
+)
+"e_substitutive.ml" 186 6369 6398 "e_substitutive.ml" 186 6369 6399
+type(
+  int
+)
+"e_substitutive.ml" 186 6369 6388 "e_substitutive.ml" 186 6369 6400
+type(
+  bool
+)
+"e_substitutive.ml" 186 6369 6381 "e_substitutive.ml" 186 6369 6400
+type(
+  unit
+)
+"e_substitutive.ml" 187 6402 6418 "e_substitutive.ml" 187 6402 6421
+type(
+  E_t.hyp
+)
+ident(
+  def hyp "e_substitutive.ml" 188 6452 6464 "e_substitutive.ml" 230 8481 8496
+)
+"e_substitutive.ml" 187 6402 6424 "e_substitutive.ml" 187 6402 6443
+type(
+  E_t.ctx -> int -> E_t.hyp
+)
+ident(
+  int_ref E_t.get_val_from_id "e_t.mli" 359 7973 7973 "e_t.mli" 360 7994 8026
+)
+"e_substitutive.ml" 187 6402 6444 "e_substitutive.ml" 187 6402 6446
+type(
+  E_t.ctx
+)
+ident(
+  int_ref cx "e_substitutive.ml" 150 4818 4839 "e_substitutive.ml" 150 4818 4841
+)
+"e_substitutive.ml" 187 6402 6447 "e_substitutive.ml" 187 6402 6448
+type(
+  int
+)
+ident(
+  int_ref n "e_substitutive.ml" 184 6273 6299 "e_substitutive.ml" 184 6273 6300
+)
+"e_substitutive.ml" 187 6402 6424 "e_substitutive.ml" 187 6402 6448
+type(
+  E_t.hyp
+)
+"e_substitutive.ml" 188 6452 6476 "e_substitutive.ml" 188 6452 6479
+type(
+  E_t.hyp
+)
+ident(
+  int_ref hyp "e_substitutive.ml" 187 6402 6418 "e_substitutive.ml" 187 6402 6421
+)
+"e_substitutive.ml" 188 6452 6476 "e_substitutive.ml" 188 6452 6484
+type(
+  E_t.hyp_
+)
+"e_substitutive.ml" 189 6490 6511 "e_substitutive.ml" 189 6490 6515
+type(
+  Util.hint
+)
+ident(
+  def name "e_substitutive.ml" 190 6534 6550 "e_substitutive.ml" 202 7121 7140
+)
+"e_substitutive.ml" 189 6490 6517 "e_substitutive.ml" 189 6490 6520
+type(
+  E_t.shape
+)
+ident(
+  def shp "e_substitutive.ml" 190 6534 6550 "e_substitutive.ml" 202 7121 7140
+)
+"e_substitutive.ml" 189 6490 6522 "e_substitutive.ml" 189 6490 6526
+type(
+  E_t.kind
+)
+ident(
+  def kind "e_substitutive.ml" 190 6534 6550 "e_substitutive.ml" 202 7121 7140
+)
+"e_substitutive.ml" 189 6490 6528 "e_substitutive.ml" 189 6490 6529
+type(
+  E_t.hdom
+)
+"e_substitutive.ml" 189 6490 6504 "e_substitutive.ml" 189 6490 6530
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_substitutive.ml" 191 6556 6576 "e_substitutive.ml" 191 6556 6581
+type(
+  int
+)
+ident(
+  def arity "e_substitutive.ml" 192 6606 6622 "e_substitutive.ml" 201 7073 7120
+)
+"e_substitutive.ml" 191 6556 6584 "e_substitutive.ml" 191 6556 6598
+type(
+  E_t.shape -> int
+)
+ident(
+  int_ref shape_to_arity "e_substitutive.ml" 141 4594 4598 "e_substitutive.ml" 141 4594 4612
+)
+"e_substitutive.ml" 191 6556 6599 "e_substitutive.ml" 191 6556 6602
+type(
+  E_t.shape
+)
+ident(
+  int_ref shp "e_substitutive.ml" 189 6490 6517 "e_substitutive.ml" 189 6490 6520
+)
+"e_substitutive.ml" 191 6556 6584 "e_substitutive.ml" 191 6556 6602
+type(
+  int
+)
+"e_substitutive.ml" 192 6606 6630 "e_substitutive.ml" 192 6606 6635
+type(
+  int
+)
+ident(
+  int_ref arity "e_substitutive.ml" 191 6556 6576 "e_substitutive.ml" 191 6556 6581
+)
+"e_substitutive.ml" 192 6606 6636 "e_substitutive.ml" 192 6606 6637
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_substitutive.ml" 192 6606 6638 "e_substitutive.ml" 192 6606 6644
+type(
+  int
+)
+ident(
+  int_ref n_args "e_substitutive.ml" 185 6324 6340 "e_substitutive.ml" 185 6324 6346
+)
+"e_substitutive.ml" 192 6606 6629 "e_substitutive.ml" 192 6606 6645
+type(
+  bool
+)
+"e_substitutive.ml" 192 6606 6622 "e_substitutive.ml" 192 6606 6645
+type(
+  unit
+)
+"e_substitutive.ml" 193 6647 6667 "e_substitutive.ml" 193 6647 6681
+type(
+  bool
+)
+ident(
+  def is_constant_op "e_substitutive.ml" 196 6775 6791 "e_substitutive.ml" 201 7073 7120
+)
+"e_substitutive.ml" 193 6647 6690 "e_substitutive.ml" 193 6647 6694
+type(
+  E_t.kind
+)
+ident(
+  int_ref kind "e_substitutive.ml" 189 6490 6522 "e_substitutive.ml" 189 6490 6526
+)
+"e_substitutive.ml" 194 6700 6722 "e_substitutive.ml" 194 6700 6730
+type(
+  E_t.kind
+)
+type(
+  E_t.kind
+)
+"e_substitutive.ml" 194 6700 6734 "e_substitutive.ml" 194 6700 6738
+type(
+  bool
+)
+"e_substitutive.ml" 195 6739 6761 "e_substitutive.ml" 195 6739 6762
+type(
+  E_t.kind
+)
+type(
+  E_t.kind
+)
+"e_substitutive.ml" 195 6739 6766 "e_substitutive.ml" 195 6739 6771
+type(
+  bool
+)
+"e_substitutive.ml" 193 6647 6684 "e_substitutive.ml" 195 6739 6771
+type(
+  bool
+)
+"e_substitutive.ml" 196 6775 6795 "e_substitutive.ml" 196 6775 6799
+type(
+  E_t.expr list
+)
+ident(
+  def args "e_substitutive.ml" 197 6835 6851 "e_substitutive.ml" 201 7073 7120
+)
+"e_substitutive.ml" 196 6775 6802 "e_substitutive.ml" 196 6775 6810
+type(
+  (E_t.expr -> E_t.expr) -> E_t.expr list -> E_t.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"e_substitutive.ml" 196 6775 6812 "e_substitutive.ml" 196 6775 6816
+type(
+  'a
+)
+ident(
+  ext_ref self-2
+)
+"e_substitutive.ml" 196 6775 6812 "e_substitutive.ml" 196 6775 6821
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_substitutive.ml" 196 6775 6822 "e_substitutive.ml" 196 6775 6825
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 150 4818 4834 "e_substitutive.ml" 150 4818 4850
+)
+"e_substitutive.ml" 196 6775 6811 "e_substitutive.ml" 196 6775 6826
+type(
+  E_t.expr -> E_t.expr
+)
+"e_substitutive.ml" 196 6775 6827 "e_substitutive.ml" 196 6775 6831
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_substitutive.ml" 184 6273 6315 "e_substitutive.ml" 184 6273 6319
+)
+"e_substitutive.ml" 196 6775 6802 "e_substitutive.ml" 196 6775 6831
+type(
+  E_t.expr list
+)
+"e_substitutive.ml" 197 6835 6855 "e_substitutive.ml" 197 6835 6857
+type(
+  bool array
+)
+ident(
+  def ar "e_substitutive.ml" 198 6896 6912 "e_substitutive.ml" 201 7073 7120
+)
+"e_substitutive.ml" 197 6835 6860 "e_substitutive.ml" 197 6835 6870
+type(
+  int -> bool -> bool array
+)
+ident(
+  int_ref Stdlib.Array.make "array.mli" 53 2225 2225 "array.mli" 53 2225 2281
+)
+"e_substitutive.ml" 197 6835 6871 "e_substitutive.ml" 197 6835 6877
+type(
+  int
+)
+ident(
+  int_ref n_args "e_substitutive.ml" 185 6324 6340 "e_substitutive.ml" 185 6324 6346
+)
+"e_substitutive.ml" 197 6835 6878 "e_substitutive.ml" 197 6835 6892
+type(
+  bool
+)
+ident(
+  int_ref is_constant_op "e_substitutive.ml" 193 6647 6667 "e_substitutive.ml" 193 6647 6681
+)
+"e_substitutive.ml" 197 6835 6860 "e_substitutive.ml" 197 6835 6892
+type(
+  bool array
+)
+"e_substitutive.ml" 198 6896 6916 "e_substitutive.ml" 198 6896 6918
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def op "e_substitutive.ml" 199 6960 6976 "e_substitutive.ml" 201 7073 7120
+)
+"e_substitutive.ml" 198 6896 6921 "e_substitutive.ml" 198 6896 6927
+type(
+  E_t.expr_ Property.wrapped ->
+  substitutive_args Property.pfuncs ->
+  substitutive_args -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"e_substitutive.ml" 198 6896 6928 "e_substitutive.ml" 198 6896 6936
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref op_index "e_substitutive.ml" 184 6273 6290 "e_substitutive.ml" 184 6273 6313
+)
+"e_substitutive.ml" 198 6896 6937 "e_substitutive.ml" 198 6896 6953
+type(
+  substitutive_args Property.pfuncs
+)
+ident(
+  int_ref substitutive_arg "e_substitutive.ml" 10 114 118 "e_substitutive.ml" 10 114 134
+)
+"e_substitutive.ml" 198 6896 6954 "e_substitutive.ml" 198 6896 6956
+type(
+  substitutive_args
+)
+ident(
+  int_ref ar "e_substitutive.ml" 197 6835 6855 "e_substitutive.ml" 197 6835 6857
+)
+"e_substitutive.ml" 198 6896 6921 "e_substitutive.ml" 198 6896 6956
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_substitutive.ml" 199 6960 6980 "e_substitutive.ml" 199 6960 6984
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def expr "e_substitutive.ml" 200 7012 7028 "e_substitutive.ml" 201 7073 7120
+)
+"e_substitutive.ml" 199 6960 6994 "e_substitutive.ml" 199 6960 6996
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_substitutive.ml" 198 6896 6916 "e_substitutive.ml" 198 6896 6918
+)
+"e_substitutive.ml" 199 6960 6998 "e_substitutive.ml" 199 6960 7002
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_substitutive.ml" 196 6775 6795 "e_substitutive.ml" 196 6775 6799
+)
+"e_substitutive.ml" 199 6960 6987 "e_substitutive.ml" 199 6960 7003
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 199 6960 7004 "e_substitutive.ml" 199 6960 7006
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_substitutive.ml" 199 6960 7007 "e_substitutive.ml" 199 6960 7008
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_substitutive.ml" 150 4818 4851 "e_substitutive.ml" 150 4818 4852
+)
+"e_substitutive.ml" 199 6960 6987 "e_substitutive.ml" 199 6960 7008
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_substitutive.ml" 200 7012 7032 "e_substitutive.ml" 200 7012 7034
+type(
+  bool array
+)
+ident(
+  def ar "e_substitutive.ml" 201 7073 7089 "e_substitutive.ml" 201 7073 7120
+)
+"e_substitutive.ml" 200 7012 7037 "e_substitutive.ml" 200 7012 7047
+type(
+  int -> bool -> bool array
+)
+ident(
+  int_ref Stdlib.Array.make "array.mli" 53 2225 2225 "array.mli" 53 2225 2281
+)
+"e_substitutive.ml" 200 7012 7048 "e_substitutive.ml" 200 7012 7054
+type(
+  int
+)
+ident(
+  int_ref n_args "e_substitutive.ml" 185 6324 6340 "e_substitutive.ml" 185 6324 6346
+)
+"e_substitutive.ml" 200 7012 7055 "e_substitutive.ml" 200 7012 7069
+type(
+  bool
+)
+ident(
+  int_ref is_constant_op "e_substitutive.ml" 193 6647 6667 "e_substitutive.ml" 193 6647 6681
+)
+"e_substitutive.ml" 200 7012 7037 "e_substitutive.ml" 200 7012 7069
+type(
+  bool array
+)
+"e_substitutive.ml" 201 7073 7089 "e_substitutive.ml" 201 7073 7095
+type(
+  E_t.expr_ Property.wrapped ->
+  substitutive_args Property.pfuncs -> substitutive_args -> E_t.expr
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"e_substitutive.ml" 201 7073 7096 "e_substitutive.ml" 201 7073 7100
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref expr "e_substitutive.ml" 199 6960 6980 "e_substitutive.ml" 199 6960 6984
+)
+"e_substitutive.ml" 201 7073 7101 "e_substitutive.ml" 201 7073 7117
+type(
+  substitutive_args Property.pfuncs
+)
+ident(
+  int_ref substitutive_arg "e_substitutive.ml" 10 114 118 "e_substitutive.ml" 10 114 134
+)
+"e_substitutive.ml" 201 7073 7118 "e_substitutive.ml" 201 7073 7120
+type(
+  substitutive_args
+)
+ident(
+  int_ref ar "e_substitutive.ml" 200 7012 7032 "e_substitutive.ml" 200 7012 7034
+)
+"e_substitutive.ml" 201 7073 7089 "e_substitutive.ml" 201 7073 7120
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 200 7012 7028 "e_substitutive.ml" 201 7073 7120
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 199 6960 6976 "e_substitutive.ml" 201 7073 7120
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 198 6896 6912 "e_substitutive.ml" 201 7073 7120
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 197 6835 6851 "e_substitutive.ml" 201 7073 7120
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 196 6775 6791 "e_substitutive.ml" 201 7073 7120
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 193 6647 6663 "e_substitutive.ml" 201 7073 7120
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 192 6606 6622 "e_substitutive.ml" 201 7073 7120
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 190 6534 6550 "e_substitutive.ml" 202 7121 7140
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 203 7141 7177 "e_substitutive.ml" 203 7141 7178
+type(
+  Util.hint
+)
+"e_substitutive.ml" 203 7141 7180 "e_substitutive.ml" 203 7141 7184
+type(
+  E_t.expr
+)
+ident(
+  def expr "e_substitutive.ml" 204 7200 7216 "e_substitutive.ml" 221 8050 8069
+)
+"e_substitutive.ml" 203 7141 7167 "e_substitutive.ml" 203 7141 7185
+type(
+  E_t.defn_
+)
+"e_substitutive.ml" 203 7141 7161 "e_substitutive.ml" 203 7141 7186
+type(
+  E_t.defn
+)
+"e_substitutive.ml" 203 7141 7188 "e_substitutive.ml" 203 7141 7189
+type(
+  E_t.wheredef
+)
+"e_substitutive.ml" 203 7141 7191 "e_substitutive.ml" 203 7141 7192
+type(
+  E_t.visibility
+)
+"e_substitutive.ml" 203 7141 7194 "e_substitutive.ml" 203 7141 7195
+type(
+  E_t.export
+)
+"e_substitutive.ml" 203 7141 7155 "e_substitutive.ml" 203 7141 7196
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_substitutive.ml" 204 7200 7228 "e_substitutive.ml" 204 7200 7232
+type(
+  E_t.expr
+)
+ident(
+  int_ref expr "e_substitutive.ml" 203 7141 7180 "e_substitutive.ml" 203 7141 7184
+)
+"e_substitutive.ml" 204 7200 7228 "e_substitutive.ml" 204 7200 7237
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 205 7243 7269 "e_substitutive.ml" 205 7243 7275
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  def params "e_substitutive.ml" 206 7283 7303 "e_substitutive.ml" 216 7823 7874
+)
+"e_substitutive.ml" 205 7243 7277 "e_substitutive.ml" 205 7243 7278
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 205 7243 7261 "e_substitutive.ml" 205 7243 7279
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 206 7283 7307 "e_substitutive.ml" 206 7283 7311
+type(
+  E_t.expr list
+)
+ident(
+  def args "e_substitutive.ml" 207 7347 7367 "e_substitutive.ml" 216 7823 7874
+)
+"e_substitutive.ml" 206 7283 7314 "e_substitutive.ml" 206 7283 7322
+type(
+  (E_t.expr -> E_t.expr) -> E_t.expr list -> E_t.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"e_substitutive.ml" 206 7283 7324 "e_substitutive.ml" 206 7283 7328
+type(
+  'a
+)
+ident(
+  ext_ref self-2
+)
+"e_substitutive.ml" 206 7283 7324 "e_substitutive.ml" 206 7283 7333
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_substitutive.ml" 206 7283 7334 "e_substitutive.ml" 206 7283 7337
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 150 4818 4834 "e_substitutive.ml" 150 4818 4850
+)
+"e_substitutive.ml" 206 7283 7323 "e_substitutive.ml" 206 7283 7338
+type(
+  E_t.expr -> E_t.expr
+)
+"e_substitutive.ml" 206 7283 7339 "e_substitutive.ml" 206 7283 7343
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_substitutive.ml" 184 6273 6315 "e_substitutive.ml" 184 6273 6319
+)
+"e_substitutive.ml" 206 7283 7314 "e_substitutive.ml" 206 7283 7343
+type(
+  E_t.expr list
+)
+"e_substitutive.ml" 207 7347 7371 "e_substitutive.ml" 207 7347 7379
+type(
+  bool
+)
+ident(
+  def is_subst "e_substitutive.ml" 212 7581 7601 "e_substitutive.ml" 216 7823 7874
+)
+"e_substitutive.ml" 207 7347 7382 "e_substitutive.ml" 207 7347 7385
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"e_substitutive.ml" 207 7347 7387 "e_substitutive.ml" 207 7347 7398
+type(
+  (Util.hint * E_t.shape -> bool) -> (Util.hint * E_t.shape) list -> bool
+)
+ident(
+  int_ref Ext.List.exists "ext.mli" 27 1074 1076 "ext.mli" 27 1074 1120
+)
+"e_substitutive.ml" 208 7399 7429 "e_substitutive.ml" 208 7399 7430
+type(
+  Util.hint
+)
+"e_substitutive.ml" 208 7399 7432 "e_substitutive.ml" 208 7399 7435
+type(
+  E_t.shape
+)
+ident(
+  def shp "e_substitutive.ml" 208 7399 7440 "e_substitutive.ml" 210 7504 7544
+)
+"e_substitutive.ml" 208 7399 7428 "e_substitutive.ml" 208 7399 7436
+type(
+  Util.hint * E_t.shape
+)
+"e_substitutive.ml" 208 7399 7446 "e_substitutive.ml" 208 7399 7449
+type(
+  E_t.shape
+)
+ident(
+  int_ref shp "e_substitutive.ml" 208 7399 7432 "e_substitutive.ml" 208 7399 7435
+)
+"e_substitutive.ml" 209 7455 7494 "e_substitutive.ml" 209 7455 7495
+type(
+  int
+)
+"e_substitutive.ml" 209 7455 7485 "e_substitutive.ml" 209 7455 7495
+type(
+  E_t.shape
+)
+type(
+  E_t.shape
+)
+"e_substitutive.ml" 209 7455 7499 "e_substitutive.ml" 209 7455 7503
+type(
+  bool
+)
+"e_substitutive.ml" 210 7504 7534 "e_substitutive.ml" 210 7504 7535
+type(
+  E_t.shape
+)
+type(
+  E_t.shape
+)
+"e_substitutive.ml" 210 7504 7539 "e_substitutive.ml" 210 7504 7544
+type(
+  bool
+)
+"e_substitutive.ml" 208 7399 7440 "e_substitutive.ml" 210 7504 7544
+type(
+  bool
+)
+"e_substitutive.ml" 208 7399 7423 "e_substitutive.ml" 210 7504 7545
+type(
+  Util.hint * E_t.shape -> bool
+)
+"e_substitutive.ml" 211 7546 7570 "e_substitutive.ml" 211 7546 7576
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  int_ref params "e_substitutive.ml" 205 7243 7269 "e_substitutive.ml" 205 7243 7275
+)
+"e_substitutive.ml" 207 7347 7386 "e_substitutive.ml" 211 7546 7577
+type(
+  bool
+)
+"e_substitutive.ml" 207 7347 7382 "e_substitutive.ml" 211 7546 7577
+type(
+  bool
+)
+"e_substitutive.ml" 212 7581 7605 "e_substitutive.ml" 212 7581 7607
+type(
+  bool array
+)
+ident(
+  def ar "e_substitutive.ml" 213 7640 7660 "e_substitutive.ml" 216 7823 7874
+)
+"e_substitutive.ml" 212 7581 7610 "e_substitutive.ml" 212 7581 7620
+type(
+  int -> bool -> bool array
+)
+ident(
+  int_ref Stdlib.Array.make "array.mli" 53 2225 2225 "array.mli" 53 2225 2281
+)
+"e_substitutive.ml" 212 7581 7621 "e_substitutive.ml" 212 7581 7627
+type(
+  int
+)
+ident(
+  int_ref n_args "e_substitutive.ml" 185 6324 6340 "e_substitutive.ml" 185 6324 6346
+)
+"e_substitutive.ml" 212 7581 7628 "e_substitutive.ml" 212 7581 7636
+type(
+  bool
+)
+ident(
+  int_ref is_subst "e_substitutive.ml" 207 7347 7371 "e_substitutive.ml" 207 7347 7379
+)
+"e_substitutive.ml" 212 7581 7610 "e_substitutive.ml" 212 7581 7636
+type(
+  bool array
+)
+"e_substitutive.ml" 213 7640 7664 "e_substitutive.ml" 213 7640 7666
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def op "e_substitutive.ml" 214 7708 7728 "e_substitutive.ml" 216 7823 7874
+)
+"e_substitutive.ml" 213 7640 7669 "e_substitutive.ml" 213 7640 7675
+type(
+  E_t.expr_ Property.wrapped ->
+  substitutive_args Property.pfuncs ->
+  substitutive_args -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"e_substitutive.ml" 213 7640 7676 "e_substitutive.ml" 213 7640 7684
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref op_index "e_substitutive.ml" 184 6273 6290 "e_substitutive.ml" 184 6273 6313
+)
+"e_substitutive.ml" 213 7640 7685 "e_substitutive.ml" 213 7640 7701
+type(
+  substitutive_args Property.pfuncs
+)
+ident(
+  int_ref substitutive_arg "e_substitutive.ml" 10 114 118 "e_substitutive.ml" 10 114 134
+)
+"e_substitutive.ml" 213 7640 7702 "e_substitutive.ml" 213 7640 7704
+type(
+  substitutive_args
+)
+ident(
+  int_ref ar "e_substitutive.ml" 212 7581 7605 "e_substitutive.ml" 212 7581 7607
+)
+"e_substitutive.ml" 213 7640 7669 "e_substitutive.ml" 213 7640 7704
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_substitutive.ml" 214 7708 7732 "e_substitutive.ml" 214 7708 7736
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def expr "e_substitutive.ml" 215 7764 7784 "e_substitutive.ml" 216 7823 7874
+)
+"e_substitutive.ml" 214 7708 7746 "e_substitutive.ml" 214 7708 7748
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_substitutive.ml" 213 7640 7664 "e_substitutive.ml" 213 7640 7666
+)
+"e_substitutive.ml" 214 7708 7750 "e_substitutive.ml" 214 7708 7754
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_substitutive.ml" 206 7283 7307 "e_substitutive.ml" 206 7283 7311
+)
+"e_substitutive.ml" 214 7708 7739 "e_substitutive.ml" 214 7708 7755
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 214 7708 7756 "e_substitutive.ml" 214 7708 7758
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_substitutive.ml" 214 7708 7759 "e_substitutive.ml" 214 7708 7760
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_substitutive.ml" 150 4818 4851 "e_substitutive.ml" 150 4818 4852
+)
+"e_substitutive.ml" 214 7708 7739 "e_substitutive.ml" 214 7708 7760
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_substitutive.ml" 215 7764 7788 "e_substitutive.ml" 215 7764 7790
+type(
+  bool array
+)
+ident(
+  def ar "e_substitutive.ml" 216 7823 7843 "e_substitutive.ml" 216 7823 7874
+)
+"e_substitutive.ml" 215 7764 7793 "e_substitutive.ml" 215 7764 7803
+type(
+  int -> bool -> bool array
+)
+ident(
+  int_ref Stdlib.Array.make "array.mli" 53 2225 2225 "array.mli" 53 2225 2281
+)
+"e_substitutive.ml" 215 7764 7804 "e_substitutive.ml" 215 7764 7810
+type(
+  int
+)
+ident(
+  int_ref n_args "e_substitutive.ml" 185 6324 6340 "e_substitutive.ml" 185 6324 6346
+)
+"e_substitutive.ml" 215 7764 7811 "e_substitutive.ml" 215 7764 7819
+type(
+  bool
+)
+ident(
+  int_ref is_subst "e_substitutive.ml" 207 7347 7371 "e_substitutive.ml" 207 7347 7379
+)
+"e_substitutive.ml" 215 7764 7793 "e_substitutive.ml" 215 7764 7819
+type(
+  bool array
+)
+"e_substitutive.ml" 216 7823 7843 "e_substitutive.ml" 216 7823 7849
+type(
+  E_t.expr_ Property.wrapped ->
+  substitutive_args Property.pfuncs -> substitutive_args -> E_t.expr
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"e_substitutive.ml" 216 7823 7850 "e_substitutive.ml" 216 7823 7854
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref expr "e_substitutive.ml" 214 7708 7732 "e_substitutive.ml" 214 7708 7736
+)
+"e_substitutive.ml" 216 7823 7855 "e_substitutive.ml" 216 7823 7871
+type(
+  substitutive_args Property.pfuncs
+)
+ident(
+  int_ref substitutive_arg "e_substitutive.ml" 10 114 118 "e_substitutive.ml" 10 114 134
+)
+"e_substitutive.ml" 216 7823 7872 "e_substitutive.ml" 216 7823 7874
+type(
+  substitutive_args
+)
+ident(
+  int_ref ar "e_substitutive.ml" 215 7764 7788 "e_substitutive.ml" 215 7764 7790
+)
+"e_substitutive.ml" 216 7823 7843 "e_substitutive.ml" 216 7823 7874
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 215 7764 7784 "e_substitutive.ml" 216 7823 7874
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 214 7708 7728 "e_substitutive.ml" 216 7823 7874
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 213 7640 7660 "e_substitutive.ml" 216 7823 7874
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 212 7581 7601 "e_substitutive.ml" 216 7823 7874
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 207 7347 7367 "e_substitutive.ml" 216 7823 7874
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 206 7283 7303 "e_substitutive.ml" 216 7823 7874
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 217 7875 7893 "e_substitutive.ml" 217 7875 7894
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 218 7898 7922 "e_substitutive.ml" 218 7898 7923
+type(
+  E_t.expr
+)
+ident(
+  def e "e_substitutive.ml" 219 7946 7966 "e_substitutive.ml" 220 8001 8049
+)
+"e_substitutive.ml" 218 7898 7926 "e_substitutive.ml" 218 7898 7931
+type(
+  'a
+)
+ident(
+  ext_ref self-2
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_substitutive.ml" 148 4765 4777 "e_substitutive.ml" 148 4765 4807
+)
+"e_substitutive.ml" 218 7898 7926 "e_substitutive.ml" 218 7898 7936
+type(
+  'a -> unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_substitutive.ml" 218 7898 7937 "e_substitutive.ml" 218 7898 7940
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 150 4818 4834 "e_substitutive.ml" 150 4818 4850
+)
+"e_substitutive.ml" 218 7898 7941 "e_substitutive.ml" 218 7898 7942
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_substitutive.ml" 150 4818 4851 "e_substitutive.ml" 150 4818 4852
+)
+"e_substitutive.ml" 218 7898 7926 "e_substitutive.ml" 218 7898 7942
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 219 7946 7970 "e_substitutive.ml" 219 7946 7972
+type(
+  bool array
+)
+ident(
+  def ar "e_substitutive.ml" 220 8001 8021 "e_substitutive.ml" 220 8001 8049
+)
+"e_substitutive.ml" 219 7946 7975 "e_substitutive.ml" 219 7946 7985
+type(
+  int -> bool -> bool array
+)
+ident(
+  int_ref Stdlib.Array.make "array.mli" 53 2225 2225 "array.mli" 53 2225 2281
+)
+"e_substitutive.ml" 219 7946 7986 "e_substitutive.ml" 219 7946 7992
+type(
+  int
+)
+ident(
+  int_ref n_args "e_substitutive.ml" 185 6324 6340 "e_substitutive.ml" 185 6324 6346
+)
+"e_substitutive.ml" 219 7946 7993 "e_substitutive.ml" 219 7946 7997
+type(
+  bool
+)
+"e_substitutive.ml" 219 7946 7975 "e_substitutive.ml" 219 7946 7997
+type(
+  bool array
+)
+"e_substitutive.ml" 220 8001 8021 "e_substitutive.ml" 220 8001 8027
+type(
+  E_t.expr ->
+  substitutive_args Property.pfuncs -> substitutive_args -> E_t.expr
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"e_substitutive.ml" 220 8001 8028 "e_substitutive.ml" 220 8001 8029
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_substitutive.ml" 218 7898 7922 "e_substitutive.ml" 218 7898 7923
+)
+"e_substitutive.ml" 220 8001 8030 "e_substitutive.ml" 220 8001 8046
+type(
+  substitutive_args Property.pfuncs
+)
+ident(
+  int_ref substitutive_arg "e_substitutive.ml" 10 114 118 "e_substitutive.ml" 10 114 134
+)
+"e_substitutive.ml" 220 8001 8047 "e_substitutive.ml" 220 8001 8049
+type(
+  substitutive_args
+)
+ident(
+  int_ref ar "e_substitutive.ml" 219 7946 7970 "e_substitutive.ml" 219 7946 7972
+)
+"e_substitutive.ml" 220 8001 8021 "e_substitutive.ml" 220 8001 8049
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 219 7946 7966 "e_substitutive.ml" 220 8001 8049
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 218 7898 7918 "e_substitutive.ml" 220 8001 8049
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 204 7200 7216 "e_substitutive.ml" 221 8050 8069
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 222 8070 8084 "e_substitutive.ml" 222 8070 8085
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_substitutive.ml" 224 8155 8175 "e_substitutive.ml" 224 8155 8179
+type(
+  E_t.expr list
+)
+ident(
+  def args "e_substitutive.ml" 225 8215 8231 "e_substitutive.ml" 229 8433 8480
+)
+"e_substitutive.ml" 224 8155 8182 "e_substitutive.ml" 224 8155 8190
+type(
+  (E_t.expr -> E_t.expr) -> E_t.expr list -> E_t.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"e_substitutive.ml" 224 8155 8192 "e_substitutive.ml" 224 8155 8196
+type(
+  'a
+)
+ident(
+  ext_ref self-2
+)
+"e_substitutive.ml" 224 8155 8192 "e_substitutive.ml" 224 8155 8201
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_substitutive.ml" 224 8155 8202 "e_substitutive.ml" 224 8155 8205
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 150 4818 4834 "e_substitutive.ml" 150 4818 4850
+)
+"e_substitutive.ml" 224 8155 8191 "e_substitutive.ml" 224 8155 8206
+type(
+  E_t.expr -> E_t.expr
+)
+"e_substitutive.ml" 224 8155 8207 "e_substitutive.ml" 224 8155 8211
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_substitutive.ml" 184 6273 6315 "e_substitutive.ml" 184 6273 6319
+)
+"e_substitutive.ml" 224 8155 8182 "e_substitutive.ml" 224 8155 8211
+type(
+  E_t.expr list
+)
+"e_substitutive.ml" 225 8215 8235 "e_substitutive.ml" 225 8215 8237
+type(
+  bool array
+)
+ident(
+  def ar "e_substitutive.ml" 226 8266 8282 "e_substitutive.ml" 229 8433 8480
+)
+"e_substitutive.ml" 225 8215 8240 "e_substitutive.ml" 225 8215 8250
+type(
+  int -> bool -> bool array
+)
+ident(
+  int_ref Stdlib.Array.make "array.mli" 53 2225 2225 "array.mli" 53 2225 2281
+)
+"e_substitutive.ml" 225 8215 8251 "e_substitutive.ml" 225 8215 8257
+type(
+  int
+)
+ident(
+  int_ref n_args "e_substitutive.ml" 185 6324 6340 "e_substitutive.ml" 185 6324 6346
+)
+"e_substitutive.ml" 225 8215 8258 "e_substitutive.ml" 225 8215 8262
+type(
+  bool
+)
+"e_substitutive.ml" 225 8215 8240 "e_substitutive.ml" 225 8215 8262
+type(
+  bool array
+)
+"e_substitutive.ml" 226 8266 8286 "e_substitutive.ml" 226 8266 8288
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def op "e_substitutive.ml" 227 8330 8346 "e_substitutive.ml" 229 8433 8480
+)
+"e_substitutive.ml" 226 8266 8291 "e_substitutive.ml" 226 8266 8297
+type(
+  E_t.expr_ Property.wrapped ->
+  substitutive_args Property.pfuncs ->
+  substitutive_args -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"e_substitutive.ml" 226 8266 8298 "e_substitutive.ml" 226 8266 8306
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref op_index "e_substitutive.ml" 184 6273 6290 "e_substitutive.ml" 184 6273 6313
+)
+"e_substitutive.ml" 226 8266 8307 "e_substitutive.ml" 226 8266 8323
+type(
+  substitutive_args Property.pfuncs
+)
+ident(
+  int_ref substitutive_arg "e_substitutive.ml" 10 114 118 "e_substitutive.ml" 10 114 134
+)
+"e_substitutive.ml" 226 8266 8324 "e_substitutive.ml" 226 8266 8326
+type(
+  substitutive_args
+)
+ident(
+  int_ref ar "e_substitutive.ml" 225 8215 8235 "e_substitutive.ml" 225 8215 8237
+)
+"e_substitutive.ml" 226 8266 8291 "e_substitutive.ml" 226 8266 8326
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_substitutive.ml" 227 8330 8350 "e_substitutive.ml" 227 8330 8354
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def expr "e_substitutive.ml" 228 8382 8398 "e_substitutive.ml" 229 8433 8480
+)
+"e_substitutive.ml" 227 8330 8364 "e_substitutive.ml" 227 8330 8366
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_substitutive.ml" 226 8266 8286 "e_substitutive.ml" 226 8266 8288
+)
+"e_substitutive.ml" 227 8330 8368 "e_substitutive.ml" 227 8330 8372
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_substitutive.ml" 224 8155 8175 "e_substitutive.ml" 224 8155 8179
+)
+"e_substitutive.ml" 227 8330 8357 "e_substitutive.ml" 227 8330 8373
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 227 8330 8374 "e_substitutive.ml" 227 8330 8376
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_substitutive.ml" 227 8330 8377 "e_substitutive.ml" 227 8330 8378
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_substitutive.ml" 150 4818 4851 "e_substitutive.ml" 150 4818 4852
+)
+"e_substitutive.ml" 227 8330 8357 "e_substitutive.ml" 227 8330 8378
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_substitutive.ml" 228 8382 8402 "e_substitutive.ml" 228 8382 8404
+type(
+  bool array
+)
+ident(
+  def ar "e_substitutive.ml" 229 8433 8449 "e_substitutive.ml" 229 8433 8480
+)
+"e_substitutive.ml" 228 8382 8407 "e_substitutive.ml" 228 8382 8417
+type(
+  int -> bool -> bool array
+)
+ident(
+  int_ref Stdlib.Array.make "array.mli" 53 2225 2225 "array.mli" 53 2225 2281
+)
+"e_substitutive.ml" 228 8382 8418 "e_substitutive.ml" 228 8382 8424
+type(
+  int
+)
+ident(
+  int_ref n_args "e_substitutive.ml" 185 6324 6340 "e_substitutive.ml" 185 6324 6346
+)
+"e_substitutive.ml" 228 8382 8425 "e_substitutive.ml" 228 8382 8429
+type(
+  bool
+)
+"e_substitutive.ml" 228 8382 8407 "e_substitutive.ml" 228 8382 8429
+type(
+  bool array
+)
+"e_substitutive.ml" 229 8433 8449 "e_substitutive.ml" 229 8433 8455
+type(
+  E_t.expr_ Property.wrapped ->
+  substitutive_args Property.pfuncs -> substitutive_args -> E_t.expr
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"e_substitutive.ml" 229 8433 8456 "e_substitutive.ml" 229 8433 8460
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref expr "e_substitutive.ml" 227 8330 8350 "e_substitutive.ml" 227 8330 8354
+)
+"e_substitutive.ml" 229 8433 8461 "e_substitutive.ml" 229 8433 8477
+type(
+  substitutive_args Property.pfuncs
+)
+ident(
+  int_ref substitutive_arg "e_substitutive.ml" 10 114 118 "e_substitutive.ml" 10 114 134
+)
+"e_substitutive.ml" 229 8433 8478 "e_substitutive.ml" 229 8433 8480
+type(
+  substitutive_args
+)
+ident(
+  int_ref ar "e_substitutive.ml" 228 8382 8402 "e_substitutive.ml" 228 8382 8404
+)
+"e_substitutive.ml" 229 8433 8449 "e_substitutive.ml" 229 8433 8480
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 228 8382 8398 "e_substitutive.ml" 229 8433 8480
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 227 8330 8346 "e_substitutive.ml" 229 8433 8480
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 226 8266 8282 "e_substitutive.ml" 229 8433 8480
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 225 8215 8231 "e_substitutive.ml" 229 8433 8480
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 224 8155 8171 "e_substitutive.ml" 229 8433 8480
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 188 6452 6464 "e_substitutive.ml" 230 8481 8496
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 187 6402 6414 "e_substitutive.ml" 230 8481 8496
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 186 6369 6381 "e_substitutive.ml" 230 8481 8496
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 185 6324 6336 "e_substitutive.ml" 230 8481 8496
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 231 8497 8507 "e_substitutive.ml" 231 8497 8508
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_substitutive.ml" 231 8497 8512 "e_substitutive.ml" 231 8497 8517
+type(
+  'a
+)
+ident(
+  ext_ref self-2
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_substitutive.ml" 148 4765 4777 "e_substitutive.ml" 148 4765 4807
+)
+"e_substitutive.ml" 231 8497 8512 "e_substitutive.ml" 231 8497 8522
+type(
+  'a -> unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_substitutive.ml" 231 8497 8523 "e_substitutive.ml" 231 8497 8526
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 150 4818 4834 "e_substitutive.ml" 150 4818 4850
+)
+"e_substitutive.ml" 231 8497 8527 "e_substitutive.ml" 231 8497 8528
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_substitutive.ml" 150 4818 4851 "e_substitutive.ml" 150 4818 4852
+)
+"e_substitutive.ml" 231 8497 8512 "e_substitutive.ml" 231 8497 8528
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 153 4904 4917 "e_substitutive.ml" 232 8529 8540
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 151 4855 4863 "e_substitutive.ml" 232 8529 8540
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 234 8542 8557 "e_substitutive.ml" 234 8542 8560
+type(
+  unit E_visit.scx
+)
+ident(
+  def scx "e_substitutive.ml" 234 8542 8561 "e_substitutive.ml" 247 9064 9075
+)
+"e_substitutive.ml" 234 8542 8561 "e_substitutive.ml" 234 8542 8562
+type(
+  E_t.hyp
+)
+ident(
+  def h "e_substitutive.ml" 235 8565 8573 "e_substitutive.ml" 247 9064 9075
+)
+"e_substitutive.ml" 235 8565 8576 "e_substitutive.ml" 235 8565 8592
+type(
+  E_t.hyp -> bool
+)
+ident(
+  int_ref has_substitutive "e_substitutive.ml" 12 218 222 "e_substitutive.ml" 12 218 238
+)
+"e_substitutive.ml" 235 8565 8593 "e_substitutive.ml" 235 8565 8594
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_substitutive.ml" 234 8542 8561 "e_substitutive.ml" 234 8542 8562
+)
+"e_substitutive.ml" 235 8565 8576 "e_substitutive.ml" 235 8565 8594
+type(
+  bool
+)
+"e_substitutive.ml" 236 8600 8613 "e_substitutive.ml" 236 8600 8616
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 234 8542 8557 "e_substitutive.ml" 234 8542 8560
+)
+"e_substitutive.ml" 236 8600 8618 "e_substitutive.ml" 236 8600 8619
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_substitutive.ml" 234 8542 8561 "e_substitutive.ml" 234 8542 8562
+)
+"e_substitutive.ml" 236 8600 8612 "e_substitutive.ml" 236 8600 8620
+type(
+  unit E_visit.scx * E_t.hyp
+)
+"e_substitutive.ml" 238 8640 8654 "e_substitutive.ml" 238 8640 8655
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_substitutive.ml" 234 8542 8561 "e_substitutive.ml" 234 8542 8562
+)
+"e_substitutive.ml" 238 8640 8654 "e_substitutive.ml" 238 8640 8660
+type(
+  E_t.hyp_
+)
+"e_substitutive.ml" 239 8666 8698 "e_substitutive.ml" 239 8666 8702
+type(
+  Util.hint
+)
+ident(
+  def name "e_substitutive.ml" 240 8740 8752 "e_substitutive.ml" 245 8998 9032
+)
+"e_substitutive.ml" 239 8666 8704 "e_substitutive.ml" 239 8666 8708
+type(
+  E_t.expr
+)
+ident(
+  def expr "e_substitutive.ml" 240 8740 8752 "e_substitutive.ml" 245 8998 9032
+)
+"e_substitutive.ml" 239 8666 8688 "e_substitutive.ml" 239 8666 8709
+type(
+  E_t.defn_
+)
+"e_substitutive.ml" 239 8666 8682 "e_substitutive.ml" 239 8666 8710
+type(
+  E_t.defn
+)
+"e_substitutive.ml" 239 8666 8682 "e_substitutive.ml" 239 8666 8716
+type(
+  E_t.defn
+)
+ident(
+  def op "e_substitutive.ml" 240 8740 8752 "e_substitutive.ml" 245 8998 9032
+)
+"e_substitutive.ml" 239 8666 8718 "e_substitutive.ml" 239 8666 8720
+type(
+  E_t.wheredef
+)
+ident(
+  def wd "e_substitutive.ml" 240 8740 8752 "e_substitutive.ml" 245 8998 9032
+)
+"e_substitutive.ml" 239 8666 8722 "e_substitutive.ml" 239 8666 8732
+type(
+  E_t.visibility
+)
+ident(
+  def visibility "e_substitutive.ml" 240 8740 8752 "e_substitutive.ml" 245 8998 9032
+)
+"e_substitutive.ml" 239 8666 8734 "e_substitutive.ml" 239 8666 8735
+type(
+  E_t.export
+)
+ident(
+  def e "e_substitutive.ml" 240 8740 8752 "e_substitutive.ml" 245 8998 9032
+)
+"e_substitutive.ml" 239 8666 8676 "e_substitutive.ml" 239 8666 8736
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_substitutive.ml" 240 8740 8756 "e_substitutive.ml" 240 8740 8760
+type(
+  E_t.expr
+)
+ident(
+  def expr "e_substitutive.ml" 241 8785 8797 "e_substitutive.ml" 245 8998 9032
+)
+"e_substitutive.ml" 240 8740 8763 "e_substitutive.ml" 240 8740 8767
+type(
+  'a
+)
+ident(
+  ext_ref self-2
+)
+"e_substitutive.ml" 240 8740 8763 "e_substitutive.ml" 240 8740 8772
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_substitutive.ml" 240 8740 8773 "e_substitutive.ml" 240 8740 8776
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 234 8542 8557 "e_substitutive.ml" 234 8542 8560
+)
+"e_substitutive.ml" 240 8740 8777 "e_substitutive.ml" 240 8740 8781
+type(
+  E_t.expr
+)
+ident(
+  int_ref expr "e_substitutive.ml" 239 8666 8704 "e_substitutive.ml" 239 8666 8708
+)
+"e_substitutive.ml" 240 8740 8763 "e_substitutive.ml" 240 8740 8781
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 241 8785 8801 "e_substitutive.ml" 241 8785 8803
+type(
+  bool array
+)
+ident(
+  def ar "e_substitutive.ml" 242 8835 8847 "e_substitutive.ml" 245 8998 9032
+)
+"e_substitutive.ml" 241 8785 8806 "e_substitutive.ml" 241 8785 8816
+type(
+  E_t.hyp Deque.dq -> E_t.expr -> bool array
+)
+ident(
+  int_ref make_array "e_substitutive.ml" 136 4491 4495 "e_substitutive.ml" 136 4491 4505
+)
+"e_substitutive.ml" 241 8785 8818 "e_substitutive.ml" 241 8785 8821
+type(
+  unit E_visit.scx -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"e_substitutive.ml" 241 8785 8822 "e_substitutive.ml" 241 8785 8825
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 234 8542 8557 "e_substitutive.ml" 234 8542 8560
+)
+"e_substitutive.ml" 241 8785 8817 "e_substitutive.ml" 241 8785 8826
+type(
+  E_t.hyp Deque.dq
+)
+"e_substitutive.ml" 241 8785 8827 "e_substitutive.ml" 241 8785 8831
+type(
+  E_t.expr
+)
+ident(
+  int_ref expr "e_substitutive.ml" 240 8740 8756 "e_substitutive.ml" 240 8740 8760
+)
+"e_substitutive.ml" 241 8785 8806 "e_substitutive.ml" 241 8785 8831
+type(
+  bool array
+)
+"e_substitutive.ml" 242 8835 8851 "e_substitutive.ml" 242 8835 8853
+type(
+  E_t.defn_ Property.wrapped
+)
+ident(
+  def op "e_substitutive.ml" 243 8887 8899 "e_substitutive.ml" 245 8998 9032
+)
+"e_substitutive.ml" 242 8835 8866 "e_substitutive.ml" 242 8835 8870
+type(
+  Util.hint
+)
+ident(
+  int_ref name "e_substitutive.ml" 239 8666 8698 "e_substitutive.ml" 239 8666 8702
+)
+"e_substitutive.ml" 242 8835 8872 "e_substitutive.ml" 242 8835 8876
+type(
+  E_t.expr
+)
+ident(
+  int_ref expr "e_substitutive.ml" 240 8740 8756 "e_substitutive.ml" 240 8740 8760
+)
+"e_substitutive.ml" 242 8835 8856 "e_substitutive.ml" 242 8835 8877
+type(
+  E_t.defn_
+)
+"e_substitutive.ml" 242 8835 8878 "e_substitutive.ml" 242 8835 8880
+type(
+  E_t.defn_ -> E_t.defn_ Property.wrapped -> E_t.defn_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_substitutive.ml" 242 8835 8881 "e_substitutive.ml" 242 8835 8883
+type(
+  E_t.defn_ Property.wrapped
+)
+ident(
+  int_ref op "e_substitutive.ml" 239 8666 8682 "e_substitutive.ml" 239 8666 8716
+)
+"e_substitutive.ml" 242 8835 8856 "e_substitutive.ml" 242 8835 8883
+type(
+  E_t.defn_ Property.wrapped
+)
+"e_substitutive.ml" 243 8887 8903 "e_substitutive.ml" 243 8887 8905
+type(
+  E_t.defn_ Property.wrapped
+)
+ident(
+  def op "e_substitutive.ml" 244 8941 8953 "e_substitutive.ml" 245 8998 9032
+)
+"e_substitutive.ml" 243 8887 8908 "e_substitutive.ml" 243 8887 8914
+type(
+  E_t.defn_ Property.wrapped ->
+  substitutive_args Property.pfuncs ->
+  substitutive_args -> E_t.defn_ Property.wrapped
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"e_substitutive.ml" 243 8887 8915 "e_substitutive.ml" 243 8887 8917
+type(
+  E_t.defn_ Property.wrapped
+)
+ident(
+  int_ref op "e_substitutive.ml" 242 8835 8851 "e_substitutive.ml" 242 8835 8853
+)
+"e_substitutive.ml" 243 8887 8918 "e_substitutive.ml" 243 8887 8934
+type(
+  substitutive_args Property.pfuncs
+)
+ident(
+  int_ref substitutive_arg "e_substitutive.ml" 10 114 118 "e_substitutive.ml" 10 114 134
+)
+"e_substitutive.ml" 243 8887 8935 "e_substitutive.ml" 243 8887 8937
+type(
+  substitutive_args
+)
+ident(
+  int_ref ar "e_substitutive.ml" 241 8785 8801 "e_substitutive.ml" 241 8785 8803
+)
+"e_substitutive.ml" 243 8887 8908 "e_substitutive.ml" 243 8887 8937
+type(
+  E_t.defn_ Property.wrapped
+)
+"e_substitutive.ml" 244 8941 8957 "e_substitutive.ml" 244 8941 8958
+type(
+  E_t.hyp_ Property.wrapped
+)
+ident(
+  def h "e_substitutive.ml" 245 8998 9010 "e_substitutive.ml" 245 8998 9032
+)
+"e_substitutive.ml" 244 8941 8967 "e_substitutive.ml" 244 8941 8969
+type(
+  E_t.defn
+)
+ident(
+  int_ref op "e_substitutive.ml" 243 8887 8903 "e_substitutive.ml" 243 8887 8905
+)
+"e_substitutive.ml" 244 8941 8971 "e_substitutive.ml" 244 8941 8973
+type(
+  E_t.wheredef
+)
+ident(
+  int_ref wd "e_substitutive.ml" 239 8666 8718 "e_substitutive.ml" 239 8666 8720
+)
+"e_substitutive.ml" 244 8941 8975 "e_substitutive.ml" 244 8941 8985
+type(
+  E_t.visibility
+)
+ident(
+  int_ref visibility "e_substitutive.ml" 239 8666 8722 "e_substitutive.ml" 239 8666 8732
+)
+"e_substitutive.ml" 244 8941 8987 "e_substitutive.ml" 244 8941 8988
+type(
+  E_t.export
+)
+ident(
+  int_ref e "e_substitutive.ml" 239 8666 8734 "e_substitutive.ml" 239 8666 8735
+)
+"e_substitutive.ml" 244 8941 8961 "e_substitutive.ml" 244 8941 8989
+type(
+  E_t.hyp_
+)
+"e_substitutive.ml" 244 8941 8990 "e_substitutive.ml" 244 8941 8992
+type(
+  E_t.hyp_ -> E_t.hyp -> E_t.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_substitutive.ml" 244 8941 8993 "e_substitutive.ml" 244 8941 8994
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_substitutive.ml" 234 8542 8561 "e_substitutive.ml" 234 8542 8562
+)
+"e_substitutive.ml" 244 8941 8961 "e_substitutive.ml" 244 8941 8994
+type(
+  E_t.hyp_ Property.wrapped
+)
+"e_substitutive.ml" 245 8998 9011 "e_substitutive.ml" 245 8998 9022
+type(
+  unit E_visit.scx -> E_t.hyp -> unit E_visit.scx
+)
+ident(
+  int_ref E_visit.adj "e_visit.mli" 23 632 632 "e_visit.mli" 23 632 666
+)
+"e_substitutive.ml" 245 8998 9023 "e_substitutive.ml" 245 8998 9026
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 234 8542 8557 "e_substitutive.ml" 234 8542 8560
+)
+"e_substitutive.ml" 245 8998 9027 "e_substitutive.ml" 245 8998 9028
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_substitutive.ml" 244 8941 8957 "e_substitutive.ml" 244 8941 8958
+)
+"e_substitutive.ml" 245 8998 9011 "e_substitutive.ml" 245 8998 9028
+type(
+  unit E_visit.scx
+)
+"e_substitutive.ml" 245 8998 9030 "e_substitutive.ml" 245 8998 9031
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_substitutive.ml" 244 8941 8957 "e_substitutive.ml" 244 8941 8958
+)
+"e_substitutive.ml" 245 8998 9010 "e_substitutive.ml" 245 8998 9032
+type(
+  unit E_visit.scx * E_t.hyp
+)
+"e_substitutive.ml" 244 8941 8953 "e_substitutive.ml" 245 8998 9032
+type(
+  unit E_visit.scx * E_t.hyp
+)
+"e_substitutive.ml" 243 8887 8899 "e_substitutive.ml" 245 8998 9032
+type(
+  unit E_visit.scx * E_t.hyp
+)
+"e_substitutive.ml" 242 8835 8847 "e_substitutive.ml" 245 8998 9032
+type(
+  unit E_visit.scx * E_t.hyp
+)
+"e_substitutive.ml" 241 8785 8797 "e_substitutive.ml" 245 8998 9032
+type(
+  unit E_visit.scx * E_t.hyp
+)
+"e_substitutive.ml" 240 8740 8752 "e_substitutive.ml" 245 8998 9032
+type(
+  unit E_visit.scx * E_t.hyp
+)
+"e_substitutive.ml" 246 9033 9043 "e_substitutive.ml" 246 9033 9044
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_substitutive.ml" 246 9033 9048 "e_substitutive.ml" 246 9033 9053
+type(
+  'a
+)
+ident(
+  ext_ref self-2
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_substitutive.ml" 148 4765 4777 "e_substitutive.ml" 148 4765 4807
+)
+"e_substitutive.ml" 246 9033 9048 "e_substitutive.ml" 246 9033 9057
+type(
+  'a -> unit E_visit.scx -> E_t.hyp -> unit E_visit.scx * E_t.hyp
+)
+ident(
+  ext_ref hyp
+)
+type(
+  unit E_visit.scx -> E_t.hyp -> unit E_visit.scx * E_t.hyp
+)
+type(
+  unit E_visit.scx -> E_t.hyp -> unit E_visit.scx * E_t.hyp
+)
+"e_substitutive.ml" 246 9033 9058 "e_substitutive.ml" 246 9033 9061
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 234 8542 8557 "e_substitutive.ml" 234 8542 8560
+)
+"e_substitutive.ml" 246 9033 9062 "e_substitutive.ml" 246 9033 9063
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_substitutive.ml" 234 8542 8561 "e_substitutive.ml" 234 8542 8562
+)
+"e_substitutive.ml" 246 9033 9048 "e_substitutive.ml" 246 9033 9063
+type(
+  unit E_visit.scx * E_t.hyp
+)
+"e_substitutive.ml" 237 8621 8634 "e_substitutive.ml" 247 9064 9075
+type(
+  unit E_visit.scx * E_t.hyp
+)
+"e_substitutive.ml" 235 8565 8573 "e_substitutive.ml" 247 9064 9075
+type(
+  unit E_visit.scx * E_t.hyp
+)
+"e_substitutive.ml" 249 9077 9094 "e_substitutive.ml" 249 9077 9097
+type(
+  unit E_visit.scx
+)
+ident(
+  def scx "e_substitutive.ml" 249 9077 9098 "e_substitutive.ml" 250 9102 9161
+)
+"e_substitutive.ml" 249 9077 9098 "e_substitutive.ml" 249 9077 9099
+type(
+  E_t.pform
+)
+ident(
+  def p "e_substitutive.ml" 250 9102 9110 "e_substitutive.ml" 250 9102 9161
+)
+"e_substitutive.ml" 250 9102 9113 "e_substitutive.ml" 250 9102 9129
+type(
+  E_t.pform -> bool
+)
+ident(
+  int_ref has_substitutive "e_substitutive.ml" 12 218 222 "e_substitutive.ml" 12 218 238
+)
+"e_substitutive.ml" 250 9102 9130 "e_substitutive.ml" 250 9102 9131
+type(
+  E_t.pform
+)
+ident(
+  int_ref p "e_substitutive.ml" 249 9077 9098 "e_substitutive.ml" 249 9077 9099
+)
+"e_substitutive.ml" 250 9102 9113 "e_substitutive.ml" 250 9102 9131
+type(
+  bool
+)
+"e_substitutive.ml" 250 9102 9137 "e_substitutive.ml" 250 9102 9138
+type(
+  E_t.pform
+)
+ident(
+  int_ref p "e_substitutive.ml" 249 9077 9098 "e_substitutive.ml" 249 9077 9099
+)
+"e_substitutive.ml" 250 9102 9144 "e_substitutive.ml" 250 9102 9149
+type(
+  'a
+)
+ident(
+  ext_ref self-2
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_substitutive.ml" 148 4765 4777 "e_substitutive.ml" 148 4765 4807
+)
+"e_substitutive.ml" 250 9102 9144 "e_substitutive.ml" 250 9102 9155
+type(
+  'a -> unit E_visit.scx -> E_t.pform -> E_t.pform
+)
+ident(
+  ext_ref pform
+)
+type(
+  unit E_visit.scx -> E_t.pform -> E_t.pform
+)
+type(
+  unit E_visit.scx -> E_t.pform -> E_t.pform
+)
+"e_substitutive.ml" 250 9102 9156 "e_substitutive.ml" 250 9102 9159
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 249 9077 9094 "e_substitutive.ml" 249 9077 9097
+)
+"e_substitutive.ml" 250 9102 9160 "e_substitutive.ml" 250 9102 9161
+type(
+  E_t.pform
+)
+ident(
+  int_ref p "e_substitutive.ml" 249 9077 9098 "e_substitutive.ml" 249 9077 9099
+)
+"e_substitutive.ml" 250 9102 9144 "e_substitutive.ml" 250 9102 9161
+type(
+  E_t.pform
+)
+"e_substitutive.ml" 250 9102 9110 "e_substitutive.ml" 250 9102 9161
+type(
+  E_t.pform
+)
+"e_substitutive.ml" 252 9163 9179 "e_substitutive.ml" 252 9163 9182
+type(
+  unit E_visit.scx
+)
+ident(
+  def scx "e_substitutive.ml" 252 9163 9183 "e_substitutive.ml" 253 9187 9245
+)
+"e_substitutive.ml" 252 9163 9183 "e_substitutive.ml" 252 9163 9184
+type(
+  E_t.defn
+)
+ident(
+  def p "e_substitutive.ml" 253 9187 9195 "e_substitutive.ml" 253 9187 9245
+)
+"e_substitutive.ml" 253 9187 9198 "e_substitutive.ml" 253 9187 9214
+type(
+  E_t.defn -> bool
+)
+ident(
+  int_ref has_substitutive "e_substitutive.ml" 12 218 222 "e_substitutive.ml" 12 218 238
+)
+"e_substitutive.ml" 253 9187 9215 "e_substitutive.ml" 253 9187 9216
+type(
+  E_t.defn
+)
+ident(
+  int_ref p "e_substitutive.ml" 252 9163 9183 "e_substitutive.ml" 252 9163 9184
+)
+"e_substitutive.ml" 253 9187 9198 "e_substitutive.ml" 253 9187 9216
+type(
+  bool
+)
+"e_substitutive.ml" 253 9187 9222 "e_substitutive.ml" 253 9187 9223
+type(
+  E_t.defn
+)
+ident(
+  int_ref p "e_substitutive.ml" 252 9163 9183 "e_substitutive.ml" 252 9163 9184
+)
+"e_substitutive.ml" 253 9187 9229 "e_substitutive.ml" 253 9187 9234
+type(
+  'a
+)
+ident(
+  ext_ref self-2
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_substitutive.ml" 148 4765 4777 "e_substitutive.ml" 148 4765 4807
+)
+"e_substitutive.ml" 253 9187 9229 "e_substitutive.ml" 253 9187 9239
+type(
+  'a -> unit E_visit.scx -> E_t.defn -> E_t.defn
+)
+ident(
+  ext_ref defn
+)
+type(
+  unit E_visit.scx -> E_t.defn -> E_t.defn
+)
+type(
+  unit E_visit.scx -> E_t.defn -> E_t.defn
+)
+"e_substitutive.ml" 253 9187 9240 "e_substitutive.ml" 253 9187 9243
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_substitutive.ml" 252 9163 9179 "e_substitutive.ml" 252 9163 9182
+)
+"e_substitutive.ml" 253 9187 9244 "e_substitutive.ml" 253 9187 9245
+type(
+  E_t.defn
+)
+ident(
+  int_ref p "e_substitutive.ml" 252 9163 9183 "e_substitutive.ml" 252 9163 9184
+)
+"e_substitutive.ml" 253 9187 9229 "e_substitutive.ml" 253 9187 9245
+type(
+  E_t.defn
+)
+"e_substitutive.ml" 253 9187 9195 "e_substitutive.ml" 253 9187 9245
+type(
+  E_t.defn
+)
+"e_substitutive.ml" 257 9252 9256 "e_substitutive.ml" 257 9252 9269
+type(
+  E_t.hyp Deque.dq -> E_t.expr -> E_t.expr
+)
+ident(
+  def compute_subst "e_substitutive.ml" 259 9326 9353 "e_substitutive.ml" 0 0 -1
+)
+"e_substitutive.ml" 257 9252 9270 "e_substitutive.ml" 257 9252 9272
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def cx "e_substitutive.ml" 257 9252 9273 "e_substitutive.ml" 259 9326 9353
+)
+"e_substitutive.ml" 257 9252 9273 "e_substitutive.ml" 257 9252 9274
+type(
+  E_t.expr
+)
+ident(
+  def e "e_substitutive.ml" 258 9277 9281 "e_substitutive.ml" 259 9326 9353
+)
+"e_substitutive.ml" 258 9277 9285 "e_substitutive.ml" 258 9277 9292
+type(
+  substitutive_op_visitor
+)
+ident(
+  def visitor "e_substitutive.ml" 259 9326 9330 "e_substitutive.ml" 259 9326 9353
+)
+"e_substitutive.ml" 258 9277 9295 "e_substitutive.ml" 258 9277 9322
+type(
+  substitutive_op_visitor
+)
+"e_substitutive.ml" 259 9326 9330 "e_substitutive.ml" 259 9326 9337
+type(
+  substitutive_op_visitor
+)
+ident(
+  int_ref visitor "e_substitutive.ml" 258 9277 9285 "e_substitutive.ml" 258 9277 9292
+)
+"e_substitutive.ml" 259 9326 9330 "e_substitutive.ml" 259 9326 9342
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_substitutive.ml" 259 9326 9344 "e_substitutive.ml" 259 9326 9346
+type(
+  unit
+)
+"e_substitutive.ml" 259 9326 9348 "e_substitutive.ml" 259 9326 9350
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_substitutive.ml" 257 9252 9270 "e_substitutive.ml" 257 9252 9272
+)
+"e_substitutive.ml" 259 9326 9343 "e_substitutive.ml" 259 9326 9351
+type(
+  unit E_visit.scx
+)
+"e_substitutive.ml" 259 9326 9352 "e_substitutive.ml" 259 9326 9353
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_substitutive.ml" 257 9252 9273 "e_substitutive.ml" 257 9252 9274
+)
+"e_substitutive.ml" 259 9326 9330 "e_substitutive.ml" 259 9326 9353
+type(
+  E_t.expr
+)
+"e_substitutive.ml" 258 9277 9281 "e_substitutive.ml" 259 9326 9353
+type(
+  E_t.expr
+)

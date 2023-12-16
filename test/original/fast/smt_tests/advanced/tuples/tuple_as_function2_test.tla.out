@@ -1,0 +1,751 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:29:31 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp tuple_as_function2_test.tla --stretch 5
+
+(* created new ".tlacache/TLAPS.tlaps/TLAPS.thy" *)
+(* fingerprints written in ".tlacache/TLAPS.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/tuple_as_function2_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+COMMAND-LINE ARGUMENT
+file=.tlacache/tuple_as_function2_test.tlaps/tlapm_a2b1e6.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/tuple_as_function2_test.tlaps/tlapm_a2b1e6.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #1
+;;   generated from file "./tuple_as_function2_test.tla", line 38, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun tla__in (u u) Bool)
+(declare-fun tla__isAFcn (u) Bool)
+(declare-fun tla__DOMAIN (u) u)
+(declare-fun tla__fcnapp (u u) u)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Aunde_a () u)
+(declare-fun a_CONSTANTunde_Bunde_a () u)
+(declare-fun a_aunde_unde_11a () u)
+
+(assert
+  (forall ((X_15 Int))
+  (! (= (u2int (int2u X_15)) X_15) :pattern ((int2u X_15)))))
+(assert
+  (forall ((S_18 u) (T_19 u))
+  (=>
+  (forall ((X_15 u)) (= (tla__in X_15 S_18) (tla__in X_15 T_19)))
+  (= S_18 T_19))))
+(assert
+  (forall ((F_21 u) (G_22 u))
+  (=>
+  (and
+  (tla__isAFcn F_21) (tla__isAFcn G_22)
+  (forall ((X_15 u))
+  (= (tla__in X_15 (tla__DOMAIN F_21)) (tla__in X_15 (tla__DOMAIN G_22)))))
+  (= (tla__DOMAIN F_21) (tla__DOMAIN G_22)))))
+(assert
+  (forall ((F_21 u) (G_22 u))
+  (=>
+  (and
+  (tla__isAFcn F_21) (tla__isAFcn G_22)
+  (= (tla__DOMAIN F_21) (tla__DOMAIN G_22))
+  (forall ((X_15 u))
+  (=>
+  (tla__in X_15 (tla__DOMAIN G_22))
+  (= (tla__fcnapp F_21 X_15) (tla__fcnapp G_22 X_15)))))
+  (= F_21 G_22))))
+
+;; Theorem to be Proved
+(assert (not
+  (not
+    (forall ((a_v9a u))
+      (=
+        (and
+          (tla__isAFcn a_v9a) (= (tla__DOMAIN a_v9a) a_aunde_unde_11a)
+          (tla__in (tla__fcnapp a_v9a (int2u 1)) a_CONSTANTunde_Aunde_a)
+          (tla__in (tla__fcnapp a_v9a (int2u 2)) a_CONSTANTunde_Bunde_a))
+        (and
+          (tla__isAFcn a_v9a) (= (tla__DOMAIN a_v9a) a_aunde_unde_11a)
+          (or
+            (tla__in (tla__fcnapp a_v9a (int2u 1)) a_CONSTANTunde_Aunde_a)
+            (tla__in (tla__fcnapp a_v9a (int2u 1)) a_CONSTANTunde_Bunde_a))
+          (or
+            (tla__in (tla__fcnapp a_v9a (int2u 2)) a_CONSTANTunde_Aunde_a)
+            (tla__in (tla__fcnapp a_v9a (int2u 2)) a_CONSTANTunde_Bunde_a))))))))
+(assert
+  (forall ((a_v12a u))
+    (! (=
+         (tla__in a_v12a a_aunde_unde_11a)
+         (or (= a_v12a (int2u 1)) (= a_v12a (int2u 2)))) :pattern ((tla__in
+                                                                    a_v12a
+                                                                    a_aunde_unde_11a)))))
+(assert
+  (=>
+    (and
+      (forall ((a_v1a u)) (not (tla__in a_v1a a_CONSTANTunde_Aunde_a)))
+      (forall ((a_v2a u)) (not (tla__in a_v2a a_CONSTANTunde_Bunde_a))))
+    (not
+      (forall ((a_v3a u))
+        (=
+          (and
+            (tla__isAFcn a_v3a) (= (tla__DOMAIN a_v3a) a_aunde_unde_11a)
+            (tla__in (tla__fcnapp a_v3a (int2u 1)) a_CONSTANTunde_Aunde_a)
+            (tla__in (tla__fcnapp a_v3a (int2u 2)) a_CONSTANTunde_Bunde_a))
+          (and
+            (tla__isAFcn a_v3a) (= (tla__DOMAIN a_v3a) a_aunde_unde_11a)
+            (or
+              (tla__in (tla__fcnapp a_v3a (int2u 1)) a_CONSTANTunde_Aunde_a)
+              (tla__in (tla__fcnapp a_v3a (int2u 1)) a_CONSTANTunde_Bunde_a))
+            (or
+              (tla__in (tla__fcnapp a_v3a (int2u 2)) a_CONSTANTunde_Aunde_a)
+              (tla__in (tla__fcnapp a_v3a (int2u 2)) a_CONSTANTunde_Bunde_a))))))))
+(assert
+  (=>
+    (or
+      (exists ((a_v5a u)) (tla__in a_v5a a_CONSTANTunde_Aunde_a))
+      (exists ((a_v6a u)) (tla__in a_v6a a_CONSTANTunde_Bunde_a)))
+    (not
+      (forall ((a_v7a u))
+        (=
+          (and
+            (tla__isAFcn a_v7a) (= (tla__DOMAIN a_v7a) a_aunde_unde_11a)
+            (tla__in (tla__fcnapp a_v7a (int2u 1)) a_CONSTANTunde_Aunde_a)
+            (tla__in (tla__fcnapp a_v7a (int2u 2)) a_CONSTANTunde_Bunde_a))
+          (and
+            (tla__isAFcn a_v7a) (= (tla__DOMAIN a_v7a) a_aunde_unde_11a)
+            (or
+              (tla__in (tla__fcnapp a_v7a (int2u 1)) a_CONSTANTunde_Aunde_a)
+              (tla__in (tla__fcnapp a_v7a (int2u 1)) a_CONSTANTunde_Bunde_a))
+            (or
+              (tla__in (tla__fcnapp a_v7a (int2u 2)) a_CONSTANTunde_Aunde_a)
+              (tla__in (tla__fcnapp a_v7a (int2u 2)) a_CONSTANTunde_Bunde_a))))))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/tuple_as_function2_test.tlaps/tlapm_c011c5.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/tuple_as_function2_test.tlaps/tlapm_c011c5.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #4
+;;   generated from file "./tuple_as_function2_test.tla", line 15, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Aunde_a () u)
+(declare-fun a_CONSTANTunde_Bunde_a () u)
+
+(assert
+  (forall ((S_10 u) (T_11 u))
+  (=>
+  (forall ((X_7 u)) (= (tla__in X_7 S_10) (tla__in X_7 T_11))) (= S_10 T_11))))
+
+;; Theorem to be Proved
+(assert (not false))
+(assert false)
+(assert (forall ((a_v1a u)) (not (tla__in a_v1a a_CONSTANTunde_Aunde_a))))
+(assert (forall ((a_v2a u)) (not (tla__in a_v2a a_CONSTANTunde_Bunde_a))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/tuple_as_function2_test.tlaps/tlapm_cba855.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/tuple_as_function2_test.tlaps/tlapm_cba855.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #6
+;;   generated from file "./tuple_as_function2_test.tla", line 36, characters 9-10
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun tla__in (u u) Bool)
+(declare-fun tla__isAFcn (u) Bool)
+(declare-fun tla__DOMAIN (u) u)
+(declare-fun tla__fcnapp (u u) u)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Aunde_a () u)
+(declare-fun a_CONSTANTunde_Bunde_a () u)
+(declare-fun a_CONSTANTunde_xunde_a () u)
+(declare-fun a_aunde_unde_5a () u)
+(declare-fun a_aunde_unde_6a () u)
+
+(assert
+  (forall ((X_10 Int))
+  (! (= (u2int (int2u X_10)) X_10) :pattern ((int2u X_10)))))
+(assert
+  (forall ((S_13 u) (T_14 u))
+  (=>
+  (forall ((X_10 u)) (= (tla__in X_10 S_13) (tla__in X_10 T_14)))
+  (= S_13 T_14))))
+(assert
+  (forall ((F_16 u) (G_17 u))
+  (=>
+  (and
+  (tla__isAFcn F_16) (tla__isAFcn G_17)
+  (forall ((X_10 u))
+  (= (tla__in X_10 (tla__DOMAIN F_16)) (tla__in X_10 (tla__DOMAIN G_17)))))
+  (= (tla__DOMAIN F_16) (tla__DOMAIN G_17)))))
+(assert
+  (forall ((F_16 u) (G_17 u))
+  (=>
+  (and
+  (tla__isAFcn F_16) (tla__isAFcn G_17)
+  (= (tla__DOMAIN F_16) (tla__DOMAIN G_17))
+  (forall ((X_10 u))
+  (=>
+  (tla__in X_10 (tla__DOMAIN G_17))
+  (= (tla__fcnapp F_16 X_10) (tla__fcnapp G_17 X_10)))))
+  (= F_16 G_17))))
+
+;; Theorem to be Proved
+(assert (not
+  (not
+    (forall ((a_v3a u))
+      (=
+        (and
+          (tla__isAFcn a_v3a) (= (tla__DOMAIN a_v3a) a_aunde_unde_5a)
+          (tla__in (tla__fcnapp a_v3a (int2u 1)) a_CONSTANTunde_Aunde_a)
+          (tla__in (tla__fcnapp a_v3a (int2u 2)) a_CONSTANTunde_Bunde_a))
+        (and
+          (tla__isAFcn a_v3a) (= (tla__DOMAIN a_v3a) a_aunde_unde_5a)
+          (or
+            (tla__in (tla__fcnapp a_v3a (int2u 1)) a_CONSTANTunde_Aunde_a)
+            (tla__in (tla__fcnapp a_v3a (int2u 1)) a_CONSTANTunde_Bunde_a))
+          (or
+            (tla__in (tla__fcnapp a_v3a (int2u 2)) a_CONSTANTunde_Aunde_a)
+            (tla__in (tla__fcnapp a_v3a (int2u 2)) a_CONSTANTunde_Bunde_a))))))))
+(assert
+  (forall ((a_v7a u))
+    (! (=
+         (tla__in a_v7a a_aunde_unde_5a)
+         (or (= a_v7a (int2u 1)) (= a_v7a (int2u 2)))) :pattern ((tla__in
+                                                                   a_v7a
+                                                                   a_aunde_unde_5a)))))
+(assert (tla__isAFcn a_aunde_unde_6a))
+(assert (= (tla__DOMAIN a_aunde_unde_6a) a_aunde_unde_5a))
+(assert (= (tla__fcnapp a_aunde_unde_6a (int2u 1)) a_CONSTANTunde_xunde_a))
+(assert (= (tla__fcnapp a_aunde_unde_6a (int2u 2)) a_CONSTANTunde_xunde_a))
+(assert
+  (or
+    (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Aunde_a)
+    (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Bunde_a)))
+(assert
+  (or
+    (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Aunde_a)
+    (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Bunde_a)))
+(assert
+  (or
+    (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Aunde_a)
+    (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Bunde_a)))
+(assert
+  (not
+    (and
+      (tla__in
+        (tla__fcnapp a_aunde_unde_6a (int2u 1)) a_CONSTANTunde_Aunde_a)
+      (tla__in
+        (tla__fcnapp a_aunde_unde_6a (int2u 2)) a_CONSTANTunde_Bunde_a))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/tuple_as_function2_test.tlaps/tlapm_6d624c.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/tuple_as_function2_test.tlaps/tlapm_6d624c.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #9
+;;   generated from file "./tuple_as_function2_test.tla", line 18, characters 9-10
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Aunde_a () u)
+(declare-fun a_CONSTANTunde_Bunde_a () u)
+
+(assert
+  (forall ((S_9 u) (T_10 u))
+  (=> (forall ((X_6 u)) (= (tla__in X_6 S_9) (tla__in X_6 T_10))) (= S_9 T_10))))
+
+;; Theorem to be Proved
+(assert (not false))
+(assert (not (= a_CONSTANTunde_Aunde_a a_CONSTANTunde_Bunde_a)))
+(assert
+  (or
+    (exists ((a_v2a u)) (tla__in a_v2a a_CONSTANTunde_Aunde_a))
+    (exists ((a_v3a u)) (tla__in a_v3a a_CONSTANTunde_Bunde_a))))
+(assert
+  (forall ((a_y1a u))
+    (not
+      (or
+        (tla__in a_y1a a_CONSTANTunde_Aunde_a)
+        (tla__in a_y1a a_CONSTANTunde_Bunde_a)))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/tuple_as_function2_test.tlaps/tlapm_97ee97.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/tuple_as_function2_test.tlaps/tlapm_97ee97.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #11
+;;   generated from file "./tuple_as_function2_test.tla", line 22, characters 9-10
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Aunde_a () u)
+(declare-fun a_CONSTANTunde_Bunde_a () u)
+
+(assert
+  (forall ((S_9 u) (T_10 u))
+  (=> (forall ((X_6 u)) (= (tla__in X_6 S_9) (tla__in X_6 T_10))) (= S_9 T_10))))
+
+;; Theorem to be Proved
+(assert (not
+  (exists ((a_CONSTANTunde_xunde_a u))
+    (and
+      (or
+        (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Aunde_a)
+        (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Bunde_a))
+      (or
+        (and
+          (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Aunde_a)
+          (not (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Bunde_a)))
+        (and
+          (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Bunde_a)
+          (not (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Aunde_a))))))))
+(assert (not (= a_CONSTANTunde_Aunde_a a_CONSTANTunde_Bunde_a)))
+(assert
+  (or
+    (exists ((a_v1a u)) (tla__in a_v1a a_CONSTANTunde_Aunde_a))
+    (exists ((a_v2a u)) (tla__in a_v2a a_CONSTANTunde_Bunde_a))))
+(assert
+  (exists ((a_v3a u))
+    (or
+      (tla__in a_v3a a_CONSTANTunde_Aunde_a)
+      (tla__in a_v3a a_CONSTANTunde_Bunde_a))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/tuple_as_function2_test.tlaps/tlapm_3b8aef.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/tuple_as_function2_test.tlaps/tlapm_3b8aef.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #14
+;;   generated from file "./tuple_as_function2_test.tla", line 25, characters 9-15
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Aunde_a () u)
+(declare-fun a_CONSTANTunde_Bunde_a () u)
+(declare-fun a_CONSTANTunde_xunde_a () u)
+
+(assert
+  (forall ((S_7 u) (T_8 u))
+  (=> (forall ((X_4 u)) (= (tla__in X_4 S_7) (tla__in X_4 T_8))) (= S_7 T_8))))
+
+;; Theorem to be Proved
+(assert (not
+  (and
+    (or
+      (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Aunde_a)
+      (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Bunde_a))
+    (or
+      (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Aunde_a)
+      (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Bunde_a)))))
+(assert (not (= a_CONSTANTunde_Aunde_a a_CONSTANTunde_Bunde_a)))
+(assert
+  (or
+    (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Aunde_a)
+    (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Bunde_a)))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/tuple_as_function2_test.tlaps/tlapm_fd77c6.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/tuple_as_function2_test.tlaps/tlapm_fd77c6.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #15
+;;   generated from file "./tuple_as_function2_test.tla", line 34, characters 13-14
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun tla__in (u u) Bool)
+(declare-fun tla__isAFcn (u) Bool)
+(declare-fun tla__DOMAIN (u) u)
+(declare-fun tla__fcnapp (u u) u)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Aunde_a () u)
+(declare-fun a_CONSTANTunde_Bunde_a () u)
+(declare-fun a_CONSTANTunde_xunde_a () u)
+(declare-fun a_aunde_unde_4a () u)
+(declare-fun a_aunde_unde_5a () u)
+
+(assert
+  (forall ((X_9 Int)) (! (= (u2int (int2u X_9)) X_9) :pattern ((int2u X_9)))))
+(assert
+  (forall ((S_12 u) (T_13 u))
+  (=>
+  (forall ((X_9 u)) (= (tla__in X_9 S_12) (tla__in X_9 T_13))) (= S_12 T_13))))
+(assert
+  (forall ((F_15 u) (G_16 u))
+  (=>
+  (and
+  (tla__isAFcn F_15) (tla__isAFcn G_16)
+  (forall ((X_9 u))
+  (= (tla__in X_9 (tla__DOMAIN F_15)) (tla__in X_9 (tla__DOMAIN G_16)))))
+  (= (tla__DOMAIN F_15) (tla__DOMAIN G_16)))))
+(assert
+  (forall ((F_15 u) (G_16 u))
+  (=>
+  (and
+  (tla__isAFcn F_15) (tla__isAFcn G_16)
+  (= (tla__DOMAIN F_15) (tla__DOMAIN G_16))
+  (forall ((X_9 u))
+  (=>
+  (tla__in X_9 (tla__DOMAIN G_16))
+  (= (tla__fcnapp F_15 X_9) (tla__fcnapp G_16 X_9)))))
+  (= F_15 G_16))))
+
+;; Theorem to be Proved
+(assert (not
+  (not
+    (and
+      (tla__in
+        (tla__fcnapp a_aunde_unde_4a (int2u 1)) a_CONSTANTunde_Aunde_a)
+      (tla__in
+        (tla__fcnapp a_aunde_unde_4a (int2u 2)) a_CONSTANTunde_Bunde_a)))))
+(assert
+  (forall ((a_v6a u))
+    (! (=
+         (tla__in a_v6a a_aunde_unde_5a)
+         (or (= a_v6a (int2u 1)) (= a_v6a (int2u 2)))) :pattern ((tla__in
+                                                                   a_v6a
+                                                                   a_aunde_unde_5a)))))
+(assert (tla__isAFcn a_aunde_unde_4a))
+(assert (= (tla__DOMAIN a_aunde_unde_4a) a_aunde_unde_5a))
+(assert (= (tla__fcnapp a_aunde_unde_4a (int2u 1)) a_CONSTANTunde_xunde_a))
+(assert (= (tla__fcnapp a_aunde_unde_4a (int2u 2)) a_CONSTANTunde_xunde_a))
+(assert
+  (or
+    (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Aunde_a)
+    (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Bunde_a)))
+(assert
+  (or
+    (and
+      (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Aunde_a)
+      (not (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Bunde_a)))
+    (and
+      (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Bunde_a)
+      (not (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Aunde_a)))))
+(assert
+  (=>
+    (and
+      (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Aunde_a)
+      (not (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Bunde_a)))
+    (not
+      (and
+        (tla__in
+          (tla__fcnapp a_aunde_unde_4a (int2u 1)) a_CONSTANTunde_Aunde_a)
+        (tla__in
+          (tla__fcnapp a_aunde_unde_4a (int2u 2)) a_CONSTANTunde_Bunde_a)))))
+(assert
+  (=>
+    (and
+      (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Aunde_a)
+      (not (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Bunde_a)))
+    (not
+      (and
+        (tla__in
+          (tla__fcnapp a_aunde_unde_4a (int2u 1)) a_CONSTANTunde_Aunde_a)
+        (tla__in
+          (tla__fcnapp a_aunde_unde_4a (int2u 2)) a_CONSTANTunde_Bunde_a)))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/tuple_as_function2_test.tlaps/tlapm_e38d82.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/tuple_as_function2_test.tlaps/tlapm_e38d82.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #19
+;;   generated from file "./tuple_as_function2_test.tla", line 29, characters 33-34
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun tla__in (u u) Bool)
+(declare-fun tla__isAFcn (u) Bool)
+(declare-fun tla__DOMAIN (u) u)
+(declare-fun tla__fcnapp (u u) u)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Aunde_a () u)
+(declare-fun a_CONSTANTunde_Bunde_a () u)
+(declare-fun a_CONSTANTunde_xunde_a () u)
+(declare-fun a_aunde_unde_2a () u)
+(declare-fun a_aunde_unde_3a () u)
+
+(assert
+  (forall ((X_7 Int)) (! (= (u2int (int2u X_7)) X_7) :pattern ((int2u X_7)))))
+(assert
+  (forall ((S_10 u) (T_11 u))
+  (=>
+  (forall ((X_7 u)) (= (tla__in X_7 S_10) (tla__in X_7 T_11))) (= S_10 T_11))))
+(assert
+  (forall ((F_13 u) (G_14 u))
+  (=>
+  (and
+  (tla__isAFcn F_13) (tla__isAFcn G_14)
+  (forall ((X_7 u))
+  (= (tla__in X_7 (tla__DOMAIN F_13)) (tla__in X_7 (tla__DOMAIN G_14)))))
+  (= (tla__DOMAIN F_13) (tla__DOMAIN G_14)))))
+(assert
+  (forall ((F_13 u) (G_14 u))
+  (=>
+  (and
+  (tla__isAFcn F_13) (tla__isAFcn G_14)
+  (= (tla__DOMAIN F_13) (tla__DOMAIN G_14))
+  (forall ((X_7 u))
+  (=>
+  (tla__in X_7 (tla__DOMAIN G_14))
+  (= (tla__fcnapp F_13 X_7) (tla__fcnapp G_14 X_7)))))
+  (= F_13 G_14))))
+
+;; Theorem to be Proved
+(assert (not
+  (not
+    (and
+      (tla__in
+        (tla__fcnapp a_aunde_unde_2a (int2u 1)) a_CONSTANTunde_Aunde_a)
+      (tla__in
+        (tla__fcnapp a_aunde_unde_2a (int2u 2)) a_CONSTANTunde_Bunde_a)))))
+(assert
+  (forall ((a_v4a u))
+    (! (=
+         (tla__in a_v4a a_aunde_unde_3a)
+         (or (= a_v4a (int2u 1)) (= a_v4a (int2u 2)))) :pattern ((tla__in
+                                                                   a_v4a
+                                                                   a_aunde_unde_3a)))))
+(assert (tla__isAFcn a_aunde_unde_2a))
+(assert (= (tla__DOMAIN a_aunde_unde_2a) a_aunde_unde_3a))
+(assert (= (tla__fcnapp a_aunde_unde_2a (int2u 1)) a_CONSTANTunde_xunde_a))
+(assert (= (tla__fcnapp a_aunde_unde_2a (int2u 2)) a_CONSTANTunde_xunde_a))
+(assert (not (= a_CONSTANTunde_Aunde_a a_CONSTANTunde_Bunde_a)))
+(assert
+  (or
+    (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Aunde_a)
+    (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Bunde_a)))
+(assert (not (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Bunde_a)))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/tuple_as_function2_test.tlaps/tlapm_746869.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/tuple_as_function2_test.tlaps/tlapm_746869.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #21
+;;   generated from file "./tuple_as_function2_test.tla", line 28, characters 33-34
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Aunde_a () u)
+(declare-fun a_CONSTANTunde_Bunde_a () u)
+(declare-fun a_CONSTANTunde_xunde_a () u)
+
+(assert
+  (forall ((S_6 u) (T_7 u))
+  (=> (forall ((X_3 u)) (= (tla__in X_3 S_6) (tla__in X_3 T_7))) (= S_6 T_7))))
+
+;; Theorem to be Proved
+(assert (not (not (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Bunde_a))))
+(assert (not (= a_CONSTANTunde_Aunde_a a_CONSTANTunde_Bunde_a)))
+(assert
+  (or
+    (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Aunde_a)
+    (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Bunde_a)))
+(assert (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Aunde_a))
+(assert (not (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Bunde_a)))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/tuple_as_function2_test.tlaps/tlapm_dd3c2f.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/tuple_as_function2_test.tlaps/tlapm_dd3c2f.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #23
+;;   generated from file "./tuple_as_function2_test.tla", line 32, characters 33-34
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun tla__in (u u) Bool)
+(declare-fun tla__isAFcn (u) Bool)
+(declare-fun tla__DOMAIN (u) u)
+(declare-fun tla__fcnapp (u u) u)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Aunde_a () u)
+(declare-fun a_CONSTANTunde_Bunde_a () u)
+(declare-fun a_CONSTANTunde_xunde_a () u)
+(declare-fun a_aunde_unde_2a () u)
+(declare-fun a_aunde_unde_3a () u)
+
+(assert
+  (forall ((X_7 Int)) (! (= (u2int (int2u X_7)) X_7) :pattern ((int2u X_7)))))
+(assert
+  (forall ((S_10 u) (T_11 u))
+  (=>
+  (forall ((X_7 u)) (= (tla__in X_7 S_10) (tla__in X_7 T_11))) (= S_10 T_11))))
+(assert
+  (forall ((F_13 u) (G_14 u))
+  (=>
+  (and
+  (tla__isAFcn F_13) (tla__isAFcn G_14)
+  (forall ((X_7 u))
+  (= (tla__in X_7 (tla__DOMAIN F_13)) (tla__in X_7 (tla__DOMAIN G_14)))))
+  (= (tla__DOMAIN F_13) (tla__DOMAIN G_14)))))
+(assert
+  (forall ((F_13 u) (G_14 u))
+  (=>
+  (and
+  (tla__isAFcn F_13) (tla__isAFcn G_14)
+  (= (tla__DOMAIN F_13) (tla__DOMAIN G_14))
+  (forall ((X_7 u))
+  (=>
+  (tla__in X_7 (tla__DOMAIN G_14))
+  (= (tla__fcnapp F_13 X_7) (tla__fcnapp G_14 X_7)))))
+  (= F_13 G_14))))
+
+;; Theorem to be Proved
+(assert (not
+  (not
+    (and
+      (tla__in
+        (tla__fcnapp a_aunde_unde_2a (int2u 1)) a_CONSTANTunde_Aunde_a)
+      (tla__in
+        (tla__fcnapp a_aunde_unde_2a (int2u 2)) a_CONSTANTunde_Bunde_a)))))
+(assert
+  (forall ((a_v4a u))
+    (! (=
+         (tla__in a_v4a a_aunde_unde_3a)
+         (or (= a_v4a (int2u 1)) (= a_v4a (int2u 2)))) :pattern ((tla__in
+                                                                   a_v4a
+                                                                   a_aunde_unde_3a)))))
+(assert (tla__isAFcn a_aunde_unde_2a))
+(assert (= (tla__DOMAIN a_aunde_unde_2a) a_aunde_unde_3a))
+(assert (= (tla__fcnapp a_aunde_unde_2a (int2u 1)) a_CONSTANTunde_xunde_a))
+(assert (= (tla__fcnapp a_aunde_unde_2a (int2u 2)) a_CONSTANTunde_xunde_a))
+(assert (not (= a_CONSTANTunde_Aunde_a a_CONSTANTunde_Bunde_a)))
+(assert
+  (or
+    (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Aunde_a)
+    (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Bunde_a)))
+(assert (not (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Aunde_a)))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/tuple_as_function2_test.tlaps/tlapm_9f9bb2.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/tuple_as_function2_test.tlaps/tlapm_9f9bb2.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #25
+;;   generated from file "./tuple_as_function2_test.tla", line 31, characters 33-34
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Aunde_a () u)
+(declare-fun a_CONSTANTunde_Bunde_a () u)
+(declare-fun a_CONSTANTunde_xunde_a () u)
+
+(assert
+  (forall ((S_6 u) (T_7 u))
+  (=> (forall ((X_3 u)) (= (tla__in X_3 S_6) (tla__in X_3 T_7))) (= S_6 T_7))))
+
+;; Theorem to be Proved
+(assert (not (not (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Aunde_a))))
+(assert (not (= a_CONSTANTunde_Aunde_a a_CONSTANTunde_Bunde_a)))
+(assert
+  (or
+    (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Aunde_a)
+    (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Bunde_a)))
+(assert (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Bunde_a))
+(assert (not (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Aunde_a)))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+(* created new ".tlacache/tuple_as_function2_test.tlaps/tuple_as_function2_test.thy" *)
+(* fingerprints written in ".tlacache/tuple_as_function2_test.tlaps/fingerprints" *)

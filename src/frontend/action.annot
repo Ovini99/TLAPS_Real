@@ -1,0 +1,3764 @@
+"action.ml" 32 911 918 "action.ml" 32 911 919
+ident(
+  def B "action.ml" 32 911 929 "action.ml" 0 0 -1
+)
+"action.ml" 35 954 958 "action.ml" 35 954 961
+type(
+  ctx
+)
+ident(
+  def dot "action.ml" 36 978 978 "action.ml" 0 0 -1
+)
+"action.ml" 35 954 970 "action.ml" 35 954 977
+type(
+  ctx
+)
+ident(
+  int_ref Ctx.dot "ctx.mli" 20 424 424 "ctx.mli" 20 424 439
+)
+"action.ml" 36 978 982 "action.ml" 36 978 986
+type(
+  ctx -> ctx
+)
+ident(
+  def bump "action.ml" 37 1011 1011 "action.ml" 0 0 -1
+)
+"action.ml" 36 978 1002 "action.ml" 36 978 1010
+type(
+  ctx -> ctx
+)
+ident(
+  int_ref Ctx.bump "ctx.mli" 27 559 559 "ctx.mli" 27 559 585
+)
+"action.ml" 37 1011 1015 "action.ml" 37 1011 1021
+type(
+  ctx -> int
+)
+ident(
+  def length "action.ml" 41 1051 1051 "action.ml" 0 0 -1
+)
+"action.ml" 37 1011 1037 "action.ml" 37 1011 1047
+type(
+  ctx -> int
+)
+ident(
+  int_ref Ctx.length "ctx.mli" 8 138 138 "ctx.mli" 8 138 163
+)
+"action.ml" 41 1051 1055 "action.ml" 41 1051 1059
+type(
+  string -> string
+)
+ident(
+  def cook "action.ml" 43 1081 1081 "action.ml" 0 0 -1
+)
+"action.ml" 41 1051 1060 "action.ml" 41 1051 1061
+type(
+  string
+)
+ident(
+  def x "action.ml" 41 1051 1064 "action.ml" 41 1051 1079
+)
+"action.ml" 41 1051 1064 "action.ml" 41 1051 1068
+type(
+  string
+)
+"action.ml" 41 1051 1069 "action.ml" 41 1051 1070
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"action.ml" 41 1051 1071 "action.ml" 41 1051 1077
+type(
+  string -> string
+)
+ident(
+  int_ref Tla_parser.pickle "tla_parser.mli" 105 2673 2673 "tla_parser.mli" 105 2673 2701
+)
+"action.ml" 41 1051 1078 "action.ml" 41 1051 1079
+type(
+  string
+)
+ident(
+  int_ref x "action.ml" 41 1051 1060 "action.ml" 41 1051 1061
+)
+"action.ml" 41 1051 1071 "action.ml" 41 1051 1079
+type(
+  string
+)
+"action.ml" 41 1051 1064 "action.ml" 41 1051 1079
+type(
+  string
+)
+"action.ml" 43 1081 1085 "action.ml" 43 1081 1088
+type(
+  int Ctx.ctx -> string Property.wrapped -> int Ctx.ctx * string
+)
+ident(
+  def adj "action.ml" 47 1195 1195 "action.ml" 0 0 -1
+)
+"action.ml" 43 1081 1089 "action.ml" 43 1081 1091
+type(
+  int Ctx.ctx
+)
+ident(
+  def cx "action.ml" 43 1081 1092 "action.ml" 45 1138 1193
+)
+"action.ml" 43 1081 1092 "action.ml" 43 1081 1093
+type(
+  string Property.wrapped
+)
+ident(
+  def v "action.ml" 44 1096 1098 "action.ml" 45 1138 1193
+)
+"action.ml" 44 1096 1102 "action.ml" 44 1096 1104
+type(
+  int Ctx.ctx
+)
+ident(
+  def cx "action.ml" 45 1138 1140 "action.ml" 45 1138 1193
+)
+"action.ml" 44 1096 1107 "action.ml" 44 1096 1115
+type(
+  int Ctx.ctx -> string -> int Ctx.ctx
+)
+ident(
+  int_ref Ctx.push "ctx.mli" 29 587 587 "ctx.mli" 29 587 625
+)
+"action.ml" 44 1096 1116 "action.ml" 44 1096 1118
+type(
+  int Ctx.ctx
+)
+ident(
+  int_ref cx "action.ml" 43 1081 1089 "action.ml" 43 1081 1091
+)
+"action.ml" 44 1096 1120 "action.ml" 44 1096 1126
+type(
+  string -> string
+)
+ident(
+  int_ref Tla_parser.pickle "tla_parser.mli" 105 2673 2673 "tla_parser.mli" 105 2673 2701
+)
+"action.ml" 44 1096 1127 "action.ml" 44 1096 1128
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref v "action.ml" 43 1081 1092 "action.ml" 43 1081 1093
+)
+"action.ml" 44 1096 1127 "action.ml" 44 1096 1133
+type(
+  string
+)
+"action.ml" 44 1096 1119 "action.ml" 44 1096 1134
+type(
+  string
+)
+"action.ml" 44 1096 1107 "action.ml" 44 1096 1134
+type(
+  int Ctx.ctx
+)
+"action.ml" 45 1138 1141 "action.ml" 45 1138 1143
+type(
+  int Ctx.ctx
+)
+ident(
+  int_ref cx "action.ml" 44 1096 1102 "action.ml" 44 1096 1104
+)
+"action.ml" 45 1138 1145 "action.ml" 45 1138 1151
+type(
+  string -> string
+)
+ident(
+  int_ref Tla_parser.pickle "tla_parser.mli" 105 2673 2673 "tla_parser.mli" 105 2673 2701
+)
+"action.ml" 45 1138 1153 "action.ml" 45 1138 1172
+type(
+  Ctx.ident -> string
+)
+ident(
+  int_ref Ctx.string_of_ident "ctx.mli" 39 813 813 "ctx.mli" 39 813 849
+)
+"action.ml" 45 1138 1174 "action.ml" 45 1138 1177
+type(
+  Ctx.ident * int option -> Ctx.ident
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"action.ml" 45 1138 1179 "action.ml" 45 1138 1186
+type(
+  int Ctx.ctx -> Ctx.ident * int option
+)
+ident(
+  int_ref Ctx.top "ctx.mli" 11 237 237 "ctx.mli" 11 237 273
+)
+"action.ml" 45 1138 1187 "action.ml" 45 1138 1189
+type(
+  int Ctx.ctx
+)
+ident(
+  int_ref cx "action.ml" 44 1096 1102 "action.ml" 44 1096 1104
+)
+"action.ml" 45 1138 1178 "action.ml" 45 1138 1190
+type(
+  Ctx.ident * int option
+)
+"action.ml" 45 1138 1173 "action.ml" 45 1138 1191
+type(
+  Ctx.ident
+)
+"action.ml" 45 1138 1152 "action.ml" 45 1138 1192
+type(
+  string
+)
+"action.ml" 45 1138 1145 "action.ml" 45 1138 1192
+type(
+  string
+)
+"action.ml" 45 1138 1140 "action.ml" 45 1138 1193
+type(
+  int Ctx.ctx * string
+)
+"action.ml" 44 1096 1098 "action.ml" 45 1138 1193
+type(
+  int Ctx.ctx * string
+)
+"action.ml" 47 1195 1203 "action.ml" 47 1195 1207
+type(
+  int Ctx.ctx -> string Property.wrapped list -> int Ctx.ctx * string list
+)
+ident(
+  def adjs "action.ml" 47 1195 1195 "action.ml" 0 0 -1
+)
+"action.ml" 47 1195 1208 "action.ml" 47 1195 1210
+type(
+  int Ctx.ctx
+)
+ident(
+  def cx "action.ml" 47 1195 1213 "action.ml" 52 1323 1342
+)
+"action.ml" 48 1222 1226 "action.ml" 48 1222 1228
+type(
+  string Property.wrapped list
+)
+"action.ml" 48 1222 1233 "action.ml" 48 1222 1235
+type(
+  int Ctx.ctx
+)
+ident(
+  int_ref cx "action.ml" 47 1195 1208 "action.ml" 47 1195 1210
+)
+"action.ml" 48 1222 1237 "action.ml" 48 1222 1239
+type(
+  string list
+)
+"action.ml" 48 1222 1232 "action.ml" 48 1222 1240
+type(
+  int Ctx.ctx * string list
+)
+"action.ml" 49 1241 1245 "action.ml" 49 1241 1246
+type(
+  string Property.wrapped
+)
+ident(
+  def v "action.ml" 50 1256 1262 "action.ml" 52 1323 1342
+)
+"action.ml" 49 1241 1250 "action.ml" 49 1241 1252
+type(
+  string Property.wrapped list
+)
+ident(
+  def vs "action.ml" 50 1256 1262 "action.ml" 52 1323 1342
+)
+"action.ml" 49 1241 1245 "action.ml" 49 1241 1252
+type(
+  string Property.wrapped list
+)
+"action.ml" 50 1256 1267 "action.ml" 50 1256 1269
+type(
+  int Ctx.ctx
+)
+ident(
+  def cx "action.ml" 51 1288 1294 "action.ml" 52 1323 1342
+)
+"action.ml" 50 1256 1271 "action.ml" 50 1256 1272
+type(
+  string
+)
+ident(
+  def v "action.ml" 51 1288 1294 "action.ml" 52 1323 1342
+)
+"action.ml" 50 1256 1266 "action.ml" 50 1256 1273
+type(
+  int Ctx.ctx * string
+)
+"action.ml" 50 1256 1276 "action.ml" 50 1256 1279
+type(
+  int Ctx.ctx -> string Property.wrapped -> int Ctx.ctx * string
+)
+ident(
+  int_ref adj "action.ml" 43 1081 1085 "action.ml" 43 1081 1088
+)
+"action.ml" 50 1256 1280 "action.ml" 50 1256 1282
+type(
+  int Ctx.ctx
+)
+ident(
+  int_ref cx "action.ml" 47 1195 1208 "action.ml" 47 1195 1210
+)
+"action.ml" 50 1256 1283 "action.ml" 50 1256 1284
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref v "action.ml" 49 1241 1245 "action.ml" 49 1241 1246
+)
+"action.ml" 50 1256 1276 "action.ml" 50 1256 1284
+type(
+  int Ctx.ctx * string
+)
+"action.ml" 51 1288 1299 "action.ml" 51 1288 1301
+type(
+  int Ctx.ctx
+)
+ident(
+  def cx "action.ml" 52 1323 1329 "action.ml" 52 1323 1342
+)
+"action.ml" 51 1288 1303 "action.ml" 51 1288 1305
+type(
+  string list
+)
+ident(
+  def vs "action.ml" 52 1323 1329 "action.ml" 52 1323 1342
+)
+"action.ml" 51 1288 1298 "action.ml" 51 1288 1306
+type(
+  int Ctx.ctx * string list
+)
+"action.ml" 51 1288 1309 "action.ml" 51 1288 1313
+type(
+  int Ctx.ctx -> string Property.wrapped list -> int Ctx.ctx * string list
+)
+ident(
+  int_ref adjs "action.ml" 47 1195 1203 "action.ml" 47 1195 1207
+)
+"action.ml" 51 1288 1314 "action.ml" 51 1288 1316
+type(
+  int Ctx.ctx
+)
+ident(
+  int_ref cx "action.ml" 50 1256 1267 "action.ml" 50 1256 1269
+)
+"action.ml" 51 1288 1317 "action.ml" 51 1288 1319
+type(
+  string Property.wrapped list
+)
+ident(
+  int_ref vs "action.ml" 49 1241 1250 "action.ml" 49 1241 1252
+)
+"action.ml" 51 1288 1309 "action.ml" 51 1288 1319
+type(
+  int Ctx.ctx * string list
+)
+"action.ml" 52 1323 1330 "action.ml" 52 1323 1332
+type(
+  int Ctx.ctx
+)
+ident(
+  int_ref cx "action.ml" 51 1288 1299 "action.ml" 51 1288 1301
+)
+"action.ml" 52 1323 1334 "action.ml" 52 1323 1335
+type(
+  string
+)
+ident(
+  int_ref v "action.ml" 50 1256 1271 "action.ml" 50 1256 1272
+)
+"action.ml" 52 1323 1339 "action.ml" 52 1323 1341
+type(
+  string list
+)
+ident(
+  int_ref vs "action.ml" 51 1288 1303 "action.ml" 51 1288 1305
+)
+"action.ml" 52 1323 1334 "action.ml" 52 1323 1341
+type(
+  string list
+)
+"action.ml" 52 1323 1329 "action.ml" 52 1323 1342
+type(
+  int Ctx.ctx * string list
+)
+"action.ml" 51 1288 1294 "action.ml" 52 1323 1342
+type(
+  int Ctx.ctx * string list
+)
+"action.ml" 50 1256 1262 "action.ml" 52 1323 1342
+type(
+  int Ctx.ctx * string list
+)
+"action.ml" 47 1195 1213 "action.ml" 52 1323 1342
+type(
+  string Property.wrapped list -> int Ctx.ctx * string list
+)
+"action.ml" 54 1344 1348 "action.ml" 54 1344 1357
+type(
+  'a Ctx.ctx -> int -> string
+)
+ident(
+  def lookup_id "action.ml" 59 1469 1469 "action.ml" 0 0 -1
+)
+"action.ml" 54 1344 1358 "action.ml" 54 1344 1360
+type(
+  'a Ctx.ctx
+)
+ident(
+  def cx "action.ml" 54 1344 1361 "action.ml" 57 1463 1467
+)
+"action.ml" 54 1344 1361 "action.ml" 54 1344 1362
+type(
+  int
+)
+ident(
+  def n "action.ml" 55 1365 1367 "action.ml" 57 1463 1467
+)
+"action.ml" 55 1365 1375 "action.ml" 55 1365 1376
+type(
+  int
+)
+ident(
+  int_ref n "action.ml" 54 1344 1361 "action.ml" 54 1344 1362
+)
+"action.ml" 55 1365 1377 "action.ml" 55 1365 1378
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 140 5875 5875 "stdlib.mli" 140 5875 5925
+)
+"action.ml" 55 1365 1379 "action.ml" 55 1365 1380
+type(
+  int
+)
+"action.ml" 55 1365 1375 "action.ml" 55 1365 1380
+type(
+  bool
+)
+"action.ml" 55 1365 1381 "action.ml" 55 1365 1383
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"action.ml" 55 1365 1384 "action.ml" 55 1365 1385
+type(
+  int
+)
+ident(
+  int_ref n "action.ml" 54 1344 1361 "action.ml" 54 1344 1362
+)
+"action.ml" 55 1365 1386 "action.ml" 55 1365 1388
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( <= ) "stdlib.mli" 145 6033 6033 "stdlib.mli" 145 6033 6082
+)
+"action.ml" 55 1365 1389 "action.ml" 55 1365 1399
+type(
+  'a Ctx.ctx -> int
+)
+ident(
+  int_ref Ctx.length "ctx.mli" 8 138 138 "ctx.mli" 8 138 163
+)
+"action.ml" 55 1365 1400 "action.ml" 55 1365 1402
+type(
+  'a Ctx.ctx
+)
+ident(
+  int_ref cx "action.ml" 54 1344 1358 "action.ml" 54 1344 1360
+)
+"action.ml" 55 1365 1389 "action.ml" 55 1365 1402
+type(
+  int
+)
+"action.ml" 55 1365 1384 "action.ml" 55 1365 1402
+type(
+  bool
+)
+"action.ml" 55 1365 1374 "action.ml" 55 1365 1403
+type(
+  bool
+)
+"action.ml" 55 1365 1367 "action.ml" 55 1365 1403
+type(
+  unit
+)
+"action.ml" 56 1406 1412 "action.ml" 56 1406 1414
+type(
+  string
+)
+ident(
+  def id "action.ml" 57 1463 1465 "action.ml" 57 1463 1467
+)
+"action.ml" 56 1406 1417 "action.ml" 56 1406 1436
+type(
+  Ctx.ident -> string
+)
+ident(
+  int_ref Ctx.string_of_ident "ctx.mli" 39 813 813 "ctx.mli" 39 813 849
+)
+"action.ml" 56 1406 1438 "action.ml" 56 1406 1441
+type(
+  Ctx.ident * 'a option -> Ctx.ident
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"action.ml" 56 1406 1443 "action.ml" 56 1406 1452
+type(
+  'a Ctx.ctx -> int -> Ctx.ident * 'a option
+)
+ident(
+  int_ref Ctx.index "ctx.mli" 9 164 164 "ctx.mli" 9 164 209
+)
+"action.ml" 56 1406 1453 "action.ml" 56 1406 1455
+type(
+  'a Ctx.ctx
+)
+ident(
+  int_ref cx "action.ml" 54 1344 1358 "action.ml" 54 1344 1360
+)
+"action.ml" 56 1406 1456 "action.ml" 56 1406 1457
+type(
+  int
+)
+ident(
+  int_ref n "action.ml" 54 1344 1361 "action.ml" 54 1344 1362
+)
+"action.ml" 56 1406 1442 "action.ml" 56 1406 1458
+type(
+  Ctx.ident * 'a option
+)
+"action.ml" 56 1406 1437 "action.ml" 56 1406 1459
+type(
+  Ctx.ident
+)
+"action.ml" 56 1406 1417 "action.ml" 56 1406 1459
+type(
+  string
+)
+"action.ml" 57 1463 1465 "action.ml" 57 1463 1467
+type(
+  string
+)
+ident(
+  int_ref id "action.ml" 56 1406 1412 "action.ml" 56 1406 1414
+)
+"action.ml" 56 1406 1408 "action.ml" 57 1463 1467
+type(
+  string
+)
+"action.ml" 55 1365 1367 "action.ml" 57 1463 1467
+type(
+  string
+)
+"action.ml" 59 1469 1473 "action.ml" 59 1469 1482
+type(
+  ctx -> Expr.T.expr -> string
+)
+ident(
+  def crypthash "action.ml" 73 1944 1944 "action.ml" 0 0 -1
+)
+"action.ml" 59 1469 1484 "action.ml" 59 1469 1486
+type(
+  ctx
+)
+type(
+  ctx
+)
+ident(
+  def cx "action.ml" 59 1469 1494 "action.ml" 67 1701 1744
+)
+"action.ml" 59 1469 1494 "action.ml" 59 1469 1495
+type(
+  Expr.T.expr
+)
+ident(
+  def e "action.ml" 60 1498 1500 "action.ml" 67 1701 1744
+)
+"action.ml" 60 1498 1504 "action.ml" 60 1498 1505
+type(
+  string
+)
+ident(
+  def s "action.ml" 67 1701 1703 "action.ml" 67 1701 1744
+)
+"action.ml" 61 1508 1516 "action.ml" 61 1508 1517
+type(
+  Buffer.t
+)
+ident(
+  def b "action.ml" 62 1540 1544 "action.ml" 65 1674 1695
+)
+"action.ml" 61 1508 1520 "action.ml" 61 1508 1533
+type(
+  int -> Buffer.t
+)
+ident(
+  int_ref Stdlib.Buffer.create "buffer.mli" 36 1534 1534 "buffer.mli" 36 1534 1555
+)
+"action.ml" 61 1508 1534 "action.ml" 61 1508 1536
+type(
+  int
+)
+"action.ml" 61 1508 1520 "action.ml" 61 1508 1536
+type(
+  Buffer.t
+)
+"action.ml" 62 1540 1548 "action.ml" 62 1540 1551
+type(
+  Format.formatter
+)
+ident(
+  def fmt "action.ml" 63 1586 1590 "action.ml" 65 1674 1695
+)
+"action.ml" 62 1540 1554 "action.ml" 62 1540 1580
+type(
+  Buffer.t -> Format.formatter
+)
+ident(
+  int_ref Stdlib.Format.formatter_of_buffer "format.mli" 962 37557 37557 "format.mli" 962 37557 37604
+)
+"action.ml" 62 1540 1581 "action.ml" 62 1540 1582
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "action.ml" 61 1508 1516 "action.ml" 61 1508 1517
+)
+"action.ml" 62 1540 1554 "action.ml" 62 1540 1582
+type(
+  Format.formatter
+)
+"action.ml" 63 1586 1590 "action.ml" 63 1586 1612
+type(
+  ?temp:bool -> Expr.Fmt.ctx -> Format.formatter -> Expr.T.expr -> unit
+)
+ident(
+  int_ref Expr.Fmt.pp_print_expr "expr.mli" 393 10055 10059 "expr.mli" 396 10143 10159
+)
+"action.ml" 63 1586 1614 "action.ml" 63 1586 1625
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"action.ml" 63 1586 1627 "action.ml" 63 1586 1629
+type(
+  ctx
+)
+ident(
+  int_ref cx "action.ml" 59 1469 1484 "action.ml" 59 1469 1486
+)
+"action.ml" 63 1586 1613 "action.ml" 63 1586 1630
+type(
+  Expr.Fmt.ctx
+)
+"action.ml" 63 1586 1631 "action.ml" 63 1586 1634
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "action.ml" 62 1540 1548 "action.ml" 62 1540 1551
+)
+"action.ml" 63 1586 1635 "action.ml" 63 1586 1636
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 59 1469 1494 "action.ml" 59 1469 1495
+)
+"action.ml" 63 1586 1590 "action.ml" 63 1586 1636
+type(
+  unit
+)
+"action.ml" 64 1639 1643 "action.ml" 64 1639 1664
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref Stdlib.Format.pp_print_flush "format.mli" 364 13972 13972 "format.mli" 364 13972 14018
+)
+"action.ml" 64 1639 1665 "action.ml" 64 1639 1668
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "action.ml" 62 1540 1548 "action.ml" 62 1540 1551
+)
+"action.ml" 64 1639 1669 "action.ml" 64 1639 1671
+type(
+  unit
+)
+"action.ml" 64 1639 1643 "action.ml" 64 1639 1671
+type(
+  unit
+)
+"action.ml" 65 1674 1678 "action.ml" 65 1674 1693
+type(
+  Buffer.t -> string
+)
+ident(
+  int_ref Stdlib.Buffer.contents "buffer.mli" 50 2314 2314 "buffer.mli" 50 2314 2340
+)
+"action.ml" 65 1674 1694 "action.ml" 65 1674 1695
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "action.ml" 61 1508 1516 "action.ml" 61 1508 1517
+)
+"action.ml" 65 1674 1678 "action.ml" 65 1674 1695
+type(
+  string
+)
+"action.ml" 64 1639 1643 "action.ml" 65 1674 1695
+type(
+  string
+)
+"action.ml" 63 1586 1590 "action.ml" 65 1674 1695
+type(
+  string
+)
+"action.ml" 62 1540 1544 "action.ml" 65 1674 1695
+type(
+  string
+)
+"action.ml" 61 1508 1512 "action.ml" 65 1674 1695
+type(
+  string
+)
+"action.ml" 67 1701 1703 "action.ml" 67 1701 1710
+type(
+  string
+)
+"action.ml" 67 1701 1711 "action.ml" 67 1701 1712
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"action.ml" 67 1701 1713 "action.ml" 67 1701 1726
+type(
+  Digest.t -> string
+)
+ident(
+  int_ref Stdlib.Digest.to_hex "digest.mli" 75 3197 3197 "digest.mli" 75 3197 3221
+)
+"action.ml" 67 1701 1728 "action.ml" 67 1701 1741
+type(
+  string -> Digest.t
+)
+ident(
+  int_ref Stdlib.Digest.string "digest.mli" 42 1986 1986 "digest.mli" 42 1986 2010
+)
+"action.ml" 67 1701 1742 "action.ml" 67 1701 1743
+type(
+  string
+)
+ident(
+  int_ref s "action.ml" 60 1498 1504 "action.ml" 60 1498 1505
+)
+"action.ml" 67 1701 1727 "action.ml" 67 1701 1744
+type(
+  Digest.t
+)
+"action.ml" 67 1701 1713 "action.ml" 67 1701 1744
+type(
+  string
+)
+"action.ml" 67 1701 1703 "action.ml" 67 1701 1744
+type(
+  string
+)
+"action.ml" 60 1498 1500 "action.ml" 67 1701 1744
+type(
+  string
+)
+"action.ml" 73 1944 1948 "action.ml" 73 1944 1961
+type(
+  string -> Expr.T.expr_
+)
+ident(
+  def prime_replace "action.ml" 75 1993 1993 "action.ml" 0 0 -1
+)
+"action.ml" 73 1944 1962 "action.ml" 73 1944 1965
+type(
+  string
+)
+ident(
+  def str "action.ml" 73 1944 1968 "action.ml" 73 1944 1991
+)
+"action.ml" 73 1944 1976 "action.ml" 73 1944 1979
+type(
+  string
+)
+ident(
+  int_ref str "action.ml" 73 1944 1962 "action.ml" 73 1944 1965
+)
+"action.ml" 73 1944 1980 "action.ml" 73 1944 1981
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"action.ml" 73 1944 1982 "action.ml" 73 1944 1990
+type(
+  string
+)
+"action.ml" 73 1944 1975 "action.ml" 73 1944 1991
+type(
+  string
+)
+"action.ml" 73 1944 1968 "action.ml" 73 1944 1991
+type(
+  Expr.T.expr_
+)
+"action.ml" 75 1993 1997 "action.ml" 75 1993 2013
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  def eliminate_primes "action.ml" 117 3872 3872 "action.ml" 0 0 -1
+)
+"action.ml" 76 2016 2022 "action.ml" 76 2016 2029
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  def visitor "action.ml" 106 3560 3562 "action.ml" 115 3863 3870
+)
+"action.ml" 76 2016 2040 "action.ml" 76 2016 2044
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+"action.ml" 78 2109 2125 "action.ml" 78 2109 2128
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "action.ml" 78 2109 2129 "action.ml" 103 3520 3549
+)
+"action.ml" 78 2109 2129 "action.ml" 78 2109 2130
+type(
+  Expr.T.expr
+)
+ident(
+  def e "action.ml" 78 2109 2133 "action.ml" 103 3520 3549
+)
+"action.ml" 78 2109 2139 "action.ml" 78 2109 2140
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 78 2109 2129 "action.ml" 78 2109 2130
+)
+"action.ml" 78 2109 2139 "action.ml" 78 2109 2145
+type(
+  Expr.T.expr_
+)
+"action.ml" 79 2151 2185 "action.ml" 79 2151 2192
+type(
+  Builtin.builtin
+)
+"action.ml" 79 2151 2176 "action.ml" 79 2151 2192
+type(
+  Expr.T.expr_
+)
+"action.ml" 79 2151 2204 "action.ml" 79 2151 2217
+type(
+  Builtin.builtin
+)
+"action.ml" 79 2151 2195 "action.ml" 79 2151 2217
+type(
+  Expr.T.expr_
+)
+"action.ml" 79 2151 2175 "action.ml" 79 2151 2218
+type(
+  Expr.T.expr_
+)
+"action.ml" 79 2151 2166 "action.ml" 79 2151 2220
+type(
+  Expr.T.expr
+)
+"action.ml" 79 2151 2222 "action.ml" 79 2151 2226
+type(
+  Expr.T.expr list
+)
+ident(
+  def args "action.ml" 80 2231 2241 "action.ml" 102 3510 3519
+)
+"action.ml" 79 2151 2159 "action.ml" 79 2151 2227
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"action.ml" 80 2231 2245 "action.ml" 80 2231 2247
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "action.ml" 80 2231 2266 "action.ml" 102 3510 3519
+)
+"action.ml" 80 2231 2250 "action.ml" 80 2231 2257
+type(
+  Expr.T.expr list -> Expr.T.expr
+)
+ident(
+  int_ref Ext.List.hd "ext.mli" 8 132 134 "ext.mli" 8 132 156
+)
+"action.ml" 80 2231 2258 "action.ml" 80 2231 2262
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref args "action.ml" 79 2151 2222 "action.ml" 79 2151 2226
+)
+"action.ml" 80 2231 2250 "action.ml" 80 2231 2262
+type(
+  Expr.T.expr
+)
+"action.ml" 81 2272 2286 "action.ml" 81 2272 2290
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref args "action.ml" 79 2151 2222 "action.ml" 79 2151 2226
+)
+"action.ml" 82 2296 2320 "action.ml" 82 2296 2321
+type(
+  int
+)
+ident(
+  def n "action.ml" 82 2296 2327 "action.ml" 90 2793 2806
+)
+"action.ml" 82 2296 2317 "action.ml" 82 2296 2321
+type(
+  Expr.T.expr_
+)
+"action.ml" 82 2296 2309 "action.ml" 82 2296 2322
+type(
+  Expr.T.expr
+)
+"action.ml" 82 2296 2308 "action.ml" 82 2296 2323
+type(
+  Expr.T.expr list
+)
+type(
+  Expr.T.expr list
+)
+"action.ml" 83 2333 2351 "action.ml" 83 2333 2360
+type(
+  ?backwards:bool -> Expr.T.hyp Deque.dq -> int -> Expr.T.hyp option
+)
+ident(
+  int_ref Deque.nth "deque.mli" 18 388 388 "deque.mli" 18 388 444
+)
+"action.ml" 83 2333 2372 "action.ml" 83 2333 2376
+type(
+  bool
+)
+type(
+  bool option
+)
+"action.ml" 83 2333 2378 "action.ml" 83 2333 2381
+type(
+  unit Expr.Visit.scx -> Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"action.ml" 83 2333 2382 "action.ml" 83 2333 2385
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "action.ml" 78 2109 2125 "action.ml" 78 2109 2128
+)
+"action.ml" 83 2333 2377 "action.ml" 83 2333 2386
+type(
+  Expr.T.hyp Deque.dq
+)
+"action.ml" 83 2333 2388 "action.ml" 83 2333 2389
+type(
+  int
+)
+ident(
+  int_ref n "action.ml" 82 2296 2320 "action.ml" 82 2296 2321
+)
+"action.ml" 83 2333 2390 "action.ml" 83 2333 2391
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"action.ml" 83 2333 2392 "action.ml" 83 2333 2393
+type(
+  int
+)
+"action.ml" 83 2333 2387 "action.ml" 83 2333 2394
+type(
+  int
+)
+"action.ml" 83 2333 2351 "action.ml" 83 2333 2394
+type(
+  Expr.T.hyp option
+)
+"action.ml" 84 2400 2434 "action.ml" 84 2400 2438
+type(
+  Util.hint
+)
+ident(
+  def name "action.ml" 84 2400 2450 "action.ml" 85 2480 2502
+)
+"action.ml" 84 2400 2439 "action.ml" 84 2400 2440
+type(
+  Expr.T.shape
+)
+"action.ml" 84 2400 2441 "action.ml" 84 2400 2442
+type(
+  Expr.T.kind
+)
+"action.ml" 84 2400 2443 "action.ml" 84 2400 2444
+type(
+  Expr.T.hdom
+)
+"action.ml" 84 2400 2427 "action.ml" 84 2400 2445
+type(
+  Expr.T.hyp_
+)
+"action.ml" 84 2400 2419 "action.ml" 84 2400 2446
+type(
+  Expr.T.hyp
+)
+"action.ml" 84 2400 2414 "action.ml" 84 2400 2446
+type(
+  Expr.T.hyp option
+)
+type(
+  Expr.T.hyp option
+)
+"action.ml" 84 2400 2451 "action.ml" 84 2400 2453
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "action.ml" 80 2231 2245 "action.ml" 80 2231 2247
+)
+"action.ml" 84 2400 2466 "action.ml" 84 2400 2479
+type(
+  string -> Expr.T.expr_
+)
+ident(
+  int_ref prime_replace "action.ml" 73 1944 1948 "action.ml" 73 1944 1961
+)
+"action.ml" 85 2480 2492 "action.ml" 85 2480 2496
+type(
+  Util.hint
+)
+ident(
+  int_ref name "action.ml" 84 2400 2434 "action.ml" 84 2400 2438
+)
+"action.ml" 85 2480 2492 "action.ml" 85 2480 2501
+type(
+  string
+)
+"action.ml" 84 2400 2466 "action.ml" 85 2480 2501
+type(
+  Expr.T.expr_
+)
+"action.ml" 84 2400 2450 "action.ml" 85 2480 2502
+type(
+  Expr.T.expr
+)
+"action.ml" 86 2503 2543 "action.ml" 86 2503 2547
+type(
+  string
+)
+ident(
+  def name "action.ml" 86 2503 2553 "action.ml" 86 2503 2589
+)
+"action.ml" 86 2503 2535 "action.ml" 86 2503 2548
+type(
+  Util.hint
+)
+"action.ml" 86 2503 2530 "action.ml" 86 2503 2548
+type(
+  Expr.T.hyp_
+)
+"action.ml" 86 2503 2522 "action.ml" 86 2503 2549
+type(
+  Expr.T.hyp
+)
+"action.ml" 86 2503 2517 "action.ml" 86 2503 2549
+type(
+  Expr.T.hyp option
+)
+type(
+  Expr.T.hyp option
+)
+"action.ml" 86 2503 2554 "action.ml" 86 2503 2556
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "action.ml" 80 2231 2245 "action.ml" 80 2231 2247
+)
+"action.ml" 86 2503 2569 "action.ml" 86 2503 2582
+type(
+  string -> Expr.T.expr_
+)
+ident(
+  int_ref prime_replace "action.ml" 73 1944 1948 "action.ml" 73 1944 1961
+)
+"action.ml" 86 2503 2584 "action.ml" 86 2503 2588
+type(
+  string
+)
+ident(
+  int_ref name "action.ml" 86 2503 2543 "action.ml" 86 2503 2547
+)
+"action.ml" 86 2503 2569 "action.ml" 86 2503 2588
+type(
+  Expr.T.expr_
+)
+"action.ml" 86 2503 2553 "action.ml" 86 2503 2589
+type(
+  Expr.T.expr
+)
+"action.ml" 87 2590 2641 "action.ml" 87 2590 2645
+type(
+  Util.hint
+)
+ident(
+  def name "action.ml" 87 2590 2661 "action.ml" 88 2677 2716
+)
+"action.ml" 87 2590 2646 "action.ml" 87 2590 2647
+type(
+  Expr.T.expr
+)
+"action.ml" 87 2590 2631 "action.ml" 87 2590 2648
+type(
+  Expr.T.defn_
+)
+"action.ml" 87 2590 2623 "action.ml" 87 2590 2649
+type(
+  Expr.T.defn
+)
+"action.ml" 87 2590 2650 "action.ml" 87 2590 2651
+type(
+  Expr.T.wheredef
+)
+"action.ml" 87 2590 2652 "action.ml" 87 2590 2653
+type(
+  Expr.T.visibility
+)
+"action.ml" 87 2590 2654 "action.ml" 87 2590 2655
+type(
+  Expr.T.export
+)
+"action.ml" 87 2590 2617 "action.ml" 87 2590 2656
+type(
+  Expr.T.hyp_
+)
+"action.ml" 87 2590 2609 "action.ml" 87 2590 2657
+type(
+  Expr.T.hyp
+)
+"action.ml" 87 2590 2604 "action.ml" 87 2590 2657
+type(
+  Expr.T.hyp option
+)
+type(
+  Expr.T.hyp option
+)
+"action.ml" 87 2590 2662 "action.ml" 87 2590 2664
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "action.ml" 80 2231 2245 "action.ml" 80 2231 2247
+)
+"action.ml" 88 2677 2691 "action.ml" 88 2677 2704
+type(
+  string -> Expr.T.expr_
+)
+ident(
+  int_ref prime_replace "action.ml" 73 1944 1948 "action.ml" 73 1944 1961
+)
+"action.ml" 88 2677 2705 "action.ml" 88 2677 2709
+type(
+  Util.hint
+)
+ident(
+  int_ref name "action.ml" 87 2590 2641 "action.ml" 87 2590 2645
+)
+"action.ml" 88 2677 2705 "action.ml" 88 2677 2714
+type(
+  string
+)
+"action.ml" 88 2677 2691 "action.ml" 88 2677 2714
+type(
+  Expr.T.expr_
+)
+"action.ml" 87 2590 2661 "action.ml" 88 2677 2716
+type(
+  Expr.T.expr
+)
+"action.ml" 89 2717 2731 "action.ml" 89 2717 2732
+type(
+  Expr.T.hyp option
+)
+type(
+  Expr.T.hyp option
+)
+"action.ml" 89 2717 2736 "action.ml" 89 2717 2744
+type(
+  string -> Expr.T.expr
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"action.ml" 89 2717 2745 "action.ml" 89 2717 2792
+type(
+  string
+)
+"action.ml" 89 2717 2736 "action.ml" 89 2717 2792
+type(
+  Expr.T.expr
+)
+"action.ml" 82 2296 2327 "action.ml" 90 2793 2806
+type(
+  Expr.T.expr
+)
+"action.ml" 99 3285 3314 "action.ml" 99 3285 3316
+type(
+  Expr.T.expr
+)
+ident(
+  def op "action.ml" 99 3285 3329 "action.ml" 100 3366 3428
+)
+"action.ml" 99 3285 3318 "action.ml" 99 3285 3322
+type(
+  Expr.T.expr list
+)
+ident(
+  def args "action.ml" 99 3285 3329 "action.ml" 100 3366 3428
+)
+"action.ml" 99 3285 3307 "action.ml" 99 3285 3323
+type(
+  Expr.T.expr_
+)
+"action.ml" 99 3285 3298 "action.ml" 99 3285 3324
+type(
+  Expr.T.expr
+)
+"action.ml" 99 3285 3297 "action.ml" 99 3285 3325
+type(
+  Expr.T.expr list
+)
+type(
+  Expr.T.expr list
+)
+"action.ml" 99 3285 3329 "action.ml" 99 3285 3337
+type(
+  string -> Expr.T.expr
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"action.ml" 99 3285 3338 "action.ml" 100 3366 3428
+type(
+  string
+)
+"action.ml" 99 3285 3329 "action.ml" 100 3366 3428
+type(
+  Expr.T.expr
+)
+"action.ml" 101 3429 3441 "action.ml" 101 3429 3442
+type(
+  Expr.T.expr list
+)
+type(
+  Expr.T.expr list
+)
+"action.ml" 101 3429 3446 "action.ml" 101 3429 3454
+type(
+  string -> Expr.T.expr
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"action.ml" 101 3429 3455 "action.ml" 101 3429 3509
+type(
+  string
+)
+"action.ml" 101 3429 3446 "action.ml" 101 3429 3509
+type(
+  Expr.T.expr
+)
+"action.ml" 80 2231 2266 "action.ml" 102 3510 3519
+type(
+  Expr.T.expr
+)
+"action.ml" 80 2231 2241 "action.ml" 102 3510 3519
+type(
+  Expr.T.expr
+)
+"action.ml" 103 3520 3528 "action.ml" 103 3520 3529
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"action.ml" 103 3520 3533 "action.ml" 103 3520 3538
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  ext_ref self-1
+)
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  int_ref super "action.ml" 77 2054 2066 "action.ml" 77 2054 2099
+)
+"action.ml" 103 3520 3533 "action.ml" 103 3520 3543
+type(
+  unit Expr.Visit.map_visible_hyp ->
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"action.ml" 103 3520 3544 "action.ml" 103 3520 3547
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "action.ml" 78 2109 2125 "action.ml" 78 2109 2128
+)
+"action.ml" 103 3520 3548 "action.ml" 103 3520 3549
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 78 2109 2129 "action.ml" 78 2109 2130
+)
+"action.ml" 103 3520 3533 "action.ml" 103 3520 3549
+type(
+  Expr.T.expr
+)
+"action.ml" 78 2109 2133 "action.ml" 103 3520 3549
+type(
+  Expr.T.expr
+)
+"action.ml" 76 2016 2032 "action.ml" 105 3551 3556
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+"action.ml" 106 3560 3566 "action.ml" 106 3560 3569
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "action.ml" 106 3560 3570 "action.ml" 115 3863 3870
+)
+"action.ml" 106 3560 3570 "action.ml" 106 3560 3571
+type(
+  Expr.T.expr
+)
+ident(
+  def e "action.ml" 107 3575 3579 "action.ml" 115 3863 3870
+)
+"action.ml" 107 3575 3583 "action.ml" 107 3575 3586
+type(
+  Expr.T.expr
+)
+ident(
+  def ret "action.ml" 115 3863 3867 "action.ml" 115 3863 3870
+)
+"action.ml" 107 3575 3593 "action.ml" 107 3575 3600
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  int_ref visitor "action.ml" 76 2016 2022 "action.ml" 76 2016 2029
+)
+"action.ml" 107 3575 3593 "action.ml" 107 3575 3605
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"action.ml" 107 3575 3606 "action.ml" 107 3575 3609
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "action.ml" 106 3560 3566 "action.ml" 106 3560 3569
+)
+"action.ml" 107 3575 3610 "action.ml" 107 3575 3611
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 106 3560 3570 "action.ml" 106 3560 3571
+)
+"action.ml" 107 3575 3593 "action.ml" 107 3575 3611
+type(
+  Expr.T.expr
+)
+"action.ml" 108 3617 3631 "action.ml" 108 3617 3634
+type(
+  string
+)
+ident(
+  def msg "action.ml" 109 3638 3646 "action.ml" 113 3835 3855
+)
+"action.ml" 108 3617 3623 "action.ml" 108 3617 3634
+type(
+  exn
+)
+"action.ml" 109 3638 3646 "action.ml" 109 3638 3658
+type(
+  ?debug:string ->
+  ?at:Expr.T.expr ->
+  ?prefix:string ->
+  ?nonl:unit ->
+  ((Format.formatter -> unit) -> unit, Format.formatter, unit) format ->
+  (Format.formatter -> unit) -> unit
+)
+ident(
+  int_ref Util.eprintf "util.mli" 46 1132 1132 "util.mli" 48 1217 1267
+)
+"action.ml" 109 3638 3663 "action.ml" 109 3638 3664
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 106 3560 3570 "action.ml" 106 3560 3571
+)
+type(
+  Expr.T.expr option
+)
+"action.ml" 110 3665 3675 "action.ml" 110 3665 3707
+type(
+  ((Format.formatter -> unit) -> unit, Format.formatter, unit) format
+)
+"action.ml" 111 3708 3723 "action.ml" 111 3708 3725
+type(
+  Format.formatter
+)
+ident(
+  def ff "action.ml" 111 3708 3729 "action.ml" 111 3708 3777
+)
+"action.ml" 111 3708 3729 "action.ml" 111 3708 3751
+type(
+  ?temp:bool -> Expr.Fmt.ctx -> Format.formatter -> Expr.T.expr -> unit
+)
+ident(
+  int_ref Expr.Fmt.pp_print_expr "expr.mli" 393 10055 10059 "expr.mli" 396 10143 10159
+)
+"action.ml" 111 3708 3754 "action.ml" 111 3708 3757
+type(
+  unit Expr.Visit.scx -> Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"action.ml" 111 3708 3758 "action.ml" 111 3708 3761
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "action.ml" 106 3560 3566 "action.ml" 106 3560 3569
+)
+"action.ml" 111 3708 3753 "action.ml" 111 3708 3762
+type(
+  Expr.T.hyp Deque.dq
+)
+"action.ml" 111 3708 3764 "action.ml" 111 3708 3771
+type(
+  int Ctx.ctx
+)
+ident(
+  int_ref Ctx.dot "ctx.mli" 20 424 424 "ctx.mli" 20 424 439
+)
+"action.ml" 111 3708 3752 "action.ml" 111 3708 3772
+type(
+  Expr.Fmt.ctx
+)
+"action.ml" 111 3708 3773 "action.ml" 111 3708 3775
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "action.ml" 111 3708 3723 "action.ml" 111 3708 3725
+)
+"action.ml" 111 3708 3776 "action.ml" 111 3708 3777
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 106 3560 3570 "action.ml" 106 3560 3571
+)
+"action.ml" 111 3708 3729 "action.ml" 111 3708 3777
+type(
+  unit
+)
+"action.ml" 111 3708 3718 "action.ml" 111 3708 3778
+type(
+  Format.formatter -> unit
+)
+"action.ml" 109 3638 3646 "action.ml" 111 3708 3778
+type(
+  unit
+)
+"action.ml" 112 3781 3791 "action.ml" 112 3781 3803
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.prerr_string "stdlib.mli" 881 32063 32063 "stdlib.mli" 881 32063 32096
+)
+"action.ml" 112 3781 3804 "action.ml" 112 3781 3815
+type(
+  string
+)
+"action.ml" 112 3781 3791 "action.ml" 112 3781 3815
+type(
+  unit
+)
+"action.ml" 112 3781 3817 "action.ml" 112 3781 3829
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.prerr_string "stdlib.mli" 881 32063 32063 "stdlib.mli" 881 32063 32096
+)
+"action.ml" 112 3781 3830 "action.ml" 112 3781 3833
+type(
+  string
+)
+ident(
+  int_ref msg "action.ml" 108 3617 3631 "action.ml" 108 3617 3634
+)
+"action.ml" 112 3781 3817 "action.ml" 112 3781 3833
+type(
+  unit
+)
+"action.ml" 113 3835 3843 "action.ml" 113 3835 3851
+type(
+  string -> Expr.T.expr
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"action.ml" 113 3835 3852 "action.ml" 113 3835 3855
+type(
+  string
+)
+ident(
+  int_ref msg "action.ml" 108 3617 3631 "action.ml" 108 3617 3634
+)
+"action.ml" 113 3835 3843 "action.ml" 113 3835 3855
+type(
+  Expr.T.expr
+)
+"action.ml" 112 3781 3817 "action.ml" 113 3835 3855
+type(
+  Expr.T.expr
+)
+"action.ml" 112 3781 3791 "action.ml" 113 3835 3855
+type(
+  Expr.T.expr
+)
+"action.ml" 109 3638 3646 "action.ml" 113 3835 3855
+type(
+  Expr.T.expr
+)
+"action.ml" 107 3575 3589 "action.ml" 113 3835 3855
+type(
+  Expr.T.expr
+)
+"action.ml" 115 3863 3867 "action.ml" 115 3863 3870
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ret "action.ml" 107 3575 3583 "action.ml" 107 3575 3586
+)
+"action.ml" 107 3575 3579 "action.ml" 115 3863 3870
+type(
+  Expr.T.expr
+)
+"action.ml" 106 3560 3562 "action.ml" 115 3863 3870
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"action.ml" 76 2016 2018 "action.ml" 115 3863 3870
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"action.ml" 117 3872 3876 "action.ml" 117 3872 3893
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  def expand_prime_defs "action.ml" 122 4010 4010 "action.ml" 0 0 -1
+)
+"action.ml" 117 3872 3894 "action.ml" 117 3872 3897
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "action.ml" 117 3872 3898 "action.ml" 120 4004 4008
+)
+"action.ml" 117 3872 3898 "action.ml" 117 3872 3900
+type(
+  Expr.T.expr
+)
+ident(
+  def ob "action.ml" 118 3903 3905 "action.ml" 120 4004 4008
+)
+"action.ml" 118 3903 3909 "action.ml" 118 3903 3911
+type(
+  Expr.T.expr
+)
+ident(
+  def ob "action.ml" 119 3952 3954 "action.ml" 120 4004 4008
+)
+"action.ml" 118 3903 3914 "action.ml" 118 3903 3941
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Tla_norm.expand_action "expr.mli" 627 16201 16205 "expr.mli" 628 16224 16266
+)
+"action.ml" 118 3903 3942 "action.ml" 118 3903 3945
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "action.ml" 117 3872 3894 "action.ml" 117 3872 3897
+)
+"action.ml" 118 3903 3946 "action.ml" 118 3903 3948
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ob "action.ml" 117 3872 3898 "action.ml" 117 3872 3900
+)
+"action.ml" 118 3903 3914 "action.ml" 118 3903 3948
+type(
+  Expr.T.expr
+)
+"action.ml" 119 3952 3958 "action.ml" 119 3952 3960
+type(
+  Expr.T.expr
+)
+ident(
+  def ob "action.ml" 120 4004 4006 "action.ml" 120 4004 4008
+)
+"action.ml" 119 3952 3963 "action.ml" 119 3952 3993
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Tla_norm.expand_unchanged "expr.mli" 625 16132 16136 "expr.mli" 626 16158 16200
+)
+"action.ml" 119 3952 3994 "action.ml" 119 3952 3997
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "action.ml" 117 3872 3894 "action.ml" 117 3872 3897
+)
+"action.ml" 119 3952 3998 "action.ml" 119 3952 4000
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ob "action.ml" 118 3903 3909 "action.ml" 118 3903 3911
+)
+"action.ml" 119 3952 3963 "action.ml" 119 3952 4000
+type(
+  Expr.T.expr
+)
+"action.ml" 120 4004 4006 "action.ml" 120 4004 4008
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ob "action.ml" 119 3952 3958 "action.ml" 119 3952 3960
+)
+"action.ml" 119 3952 3954 "action.ml" 120 4004 4008
+type(
+  Expr.T.expr
+)
+"action.ml" 118 3903 3905 "action.ml" 120 4004 4008
+type(
+  Expr.T.expr
+)
+"action.ml" 122 4010 4014 "action.ml" 122 4010 4034
+type(
+  'a -> 'a
+)
+ident(
+  def coalesce_non_leibniz "action.ml" 124 4044 4044 "action.ml" 0 0 -1
+)
+"action.ml" 122 4010 4035 "action.ml" 122 4010 4037
+type(
+  'a
+)
+ident(
+  def ob "action.ml" 122 4010 4040 "action.ml" 122 4010 4042
+)
+"action.ml" 122 4010 4040 "action.ml" 122 4010 4042
+type(
+  'a
+)
+ident(
+  int_ref ob "action.ml" 122 4010 4035 "action.ml" 122 4010 4037
+)
+"action.ml" 135 4475 4479 "action.ml" 135 4475 4493
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  def prime_commuter "action.ml" 175 6067 6067 "action.ml" 0 0 -1
+)
+"action.ml" 136 4496 4502 "action.ml" 136 4496 4507
+type(
+  Expr.T.expr -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  def prime "action.ml" 137 4561 4563 "action.ml" 169 5927 5932
+)
+"action.ml" 136 4496 4508 "action.ml" 136 4496 4509
+type(
+  Expr.T.expr
+)
+ident(
+  def e "action.ml" 136 4496 4512 "action.ml" 136 4496 4557
+)
+"action.ml" 136 4496 4528 "action.ml" 136 4496 4541
+type(
+  Builtin.builtin
+)
+"action.ml" 136 4496 4519 "action.ml" 136 4496 4541
+type(
+  Expr.T.expr_
+)
+"action.ml" 136 4496 4542 "action.ml" 136 4496 4544
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"action.ml" 136 4496 4545 "action.ml" 136 4496 4546
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 136 4496 4508 "action.ml" 136 4496 4509
+)
+"action.ml" 136 4496 4519 "action.ml" 136 4496 4546
+type(
+  Expr.T.expr
+)
+"action.ml" 136 4496 4549 "action.ml" 136 4496 4550
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 136 4496 4508 "action.ml" 136 4496 4509
+)
+"action.ml" 136 4496 4548 "action.ml" 136 4496 4551
+type(
+  Expr.T.expr list
+)
+"action.ml" 136 4496 4512 "action.ml" 136 4496 4552
+type(
+  Expr.T.expr_
+)
+"action.ml" 136 4496 4553 "action.ml" 136 4496 4555
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"action.ml" 136 4496 4556 "action.ml" 136 4496 4557
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 136 4496 4508 "action.ml" 136 4496 4509
+)
+"action.ml" 136 4496 4512 "action.ml" 136 4496 4557
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"action.ml" 137 4561 4570 "action.ml" 137 4561 4576
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+"action.ml" 152 5250 5266 "action.ml" 152 5250 5269
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "action.ml" 152 5250 5270 "action.ml" 168 5894 5926
+)
+"action.ml" 152 5250 5270 "action.ml" 152 5250 5271
+type(
+  Expr.T.expr
+)
+ident(
+  def e "action.ml" 152 5250 5274 "action.ml" 168 5894 5926
+)
+"action.ml" 152 5250 5280 "action.ml" 152 5250 5281
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 152 5250 5270 "action.ml" 152 5250 5271
+)
+"action.ml" 152 5250 5280 "action.ml" 152 5250 5286
+type(
+  Expr.T.expr_
+)
+"action.ml" 153 5292 5306 "action.ml" 153 5292 5307
+type(
+  int
+)
+ident(
+  def n "action.ml" 153 5292 5311 "action.ml" 159 5562 5576
+)
+"action.ml" 153 5292 5303 "action.ml" 153 5292 5307
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"action.ml" 154 5317 5337 "action.ml" 154 5317 5352
+type(
+  Expr.T.hyp Deque.dq -> int -> Expr.T.hyp
+)
+ident(
+  int_ref Expr.T.get_val_from_id "expr.mli" 332 8512 8514 "expr.mli" 332 8512 8563
+)
+"action.ml" 154 5317 5354 "action.ml" 154 5317 5357
+type(
+  unit Expr.Visit.scx -> Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"action.ml" 154 5317 5358 "action.ml" 154 5317 5361
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "action.ml" 152 5250 5266 "action.ml" 152 5250 5269
+)
+"action.ml" 154 5317 5353 "action.ml" 154 5317 5362
+type(
+  Expr.T.hyp Deque.dq
+)
+"action.ml" 154 5317 5363 "action.ml" 154 5317 5364
+type(
+  int
+)
+ident(
+  int_ref n "action.ml" 153 5292 5306 "action.ml" 153 5292 5307
+)
+"action.ml" 154 5317 5336 "action.ml" 154 5317 5365
+type(
+  Expr.T.hyp
+)
+"action.ml" 154 5317 5336 "action.ml" 154 5317 5370
+type(
+  Expr.T.hyp_
+)
+"action.ml" 155 5376 5398 "action.ml" 155 5376 5399
+type(
+  Util.hint
+)
+"action.ml" 155 5376 5401 "action.ml" 155 5376 5402
+type(
+  Expr.T.shape
+)
+"action.ml" 155 5376 5404 "action.ml" 155 5376 5412
+type(
+  Expr.T.kind
+)
+"action.ml" 155 5376 5414 "action.ml" 155 5376 5415
+type(
+  Expr.T.hdom
+)
+"action.ml" 155 5376 5391 "action.ml" 155 5376 5416
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"action.ml" 155 5376 5420 "action.ml" 155 5376 5421
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 152 5250 5270 "action.ml" 152 5250 5271
+)
+"action.ml" 156 5422 5461 "action.ml" 156 5422 5462
+type(
+  Util.hint
+)
+"action.ml" 156 5422 5463 "action.ml" 156 5422 5465
+type(
+  Expr.T.expr
+)
+ident(
+  def op "action.ml" 157 5483 5496 "action.ml" 157 5483 5533
+)
+"action.ml" 156 5422 5451 "action.ml" 156 5422 5466
+type(
+  Expr.T.defn_
+)
+"action.ml" 156 5422 5443 "action.ml" 156 5422 5467
+type(
+  Expr.T.defn
+)
+"action.ml" 156 5422 5469 "action.ml" 156 5422 5470
+type(
+  Expr.T.wheredef
+)
+"action.ml" 156 5422 5472 "action.ml" 156 5422 5473
+type(
+  Expr.T.visibility
+)
+"action.ml" 156 5422 5475 "action.ml" 156 5422 5476
+type(
+  Expr.T.export
+)
+"action.ml" 156 5422 5437 "action.ml" 156 5422 5477
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"action.ml" 157 5483 5498 "action.ml" 157 5483 5519
+type(
+  Expr.T.expr -> int
+)
+ident(
+  int_ref Expr.Levels.get_level "expr.mli" 696 17732 17736 "expr.mli" 697 17751 17785
+)
+"action.ml" 157 5483 5520 "action.ml" 157 5483 5522
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref op "action.ml" 156 5422 5463 "action.ml" 156 5422 5465
+)
+"action.ml" 157 5483 5497 "action.ml" 157 5483 5523
+type(
+  int
+)
+"action.ml" 157 5483 5524 "action.ml" 157 5483 5525
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"action.ml" 157 5483 5526 "action.ml" 157 5483 5527
+type(
+  int
+)
+"action.ml" 157 5483 5496 "action.ml" 157 5483 5528
+type(
+  bool
+)
+"action.ml" 157 5483 5532 "action.ml" 157 5483 5533
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 152 5250 5270 "action.ml" 152 5250 5271
+)
+"action.ml" 158 5534 5549 "action.ml" 158 5534 5550
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"action.ml" 158 5534 5554 "action.ml" 158 5534 5559
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref prime "action.ml" 136 4496 4502 "action.ml" 136 4496 4507
+)
+"action.ml" 158 5534 5560 "action.ml" 158 5534 5561
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 152 5250 5270 "action.ml" 152 5250 5271
+)
+"action.ml" 158 5534 5554 "action.ml" 158 5534 5561
+type(
+  Expr.T.expr
+)
+"action.ml" 153 5292 5311 "action.ml" 159 5562 5576
+type(
+  Expr.T.expr
+)
+"action.ml" 160 5577 5610 "action.ml" 160 5577 5617
+type(
+  Builtin.builtin
+)
+"action.ml" 160 5577 5601 "action.ml" 160 5577 5617
+type(
+  Expr.T.expr_
+)
+"action.ml" 160 5577 5595 "action.ml" 160 5577 5621
+type(
+  Expr.T.expr
+)
+"action.ml" 160 5577 5623 "action.ml" 160 5577 5624
+type(
+  Expr.T.expr list
+)
+"action.ml" 160 5577 5588 "action.ml" 160 5577 5625
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"action.ml" 161 5626 5644 "action.ml" 161 5626 5645
+type(
+  string
+)
+"action.ml" 161 5626 5637 "action.ml" 161 5626 5645
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"action.ml" 160 5577 5588 "action.ml" 161 5626 5645
+type(
+  Expr.T.expr_
+)
+"action.ml" 161 5626 5656 "action.ml" 161 5626 5657
+type(
+  Expr.T.sequent
+)
+"action.ml" 161 5626 5648 "action.ml" 161 5626 5657
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"action.ml" 160 5577 5588 "action.ml" 161 5626 5657
+type(
+  Expr.T.expr_
+)
+"action.ml" 161 5626 5664 "action.ml" 161 5626 5665
+type(
+  Expr.T.expr
+)
+type(
+  Expr.T.defn list
+)
+"action.ml" 161 5626 5660 "action.ml" 161 5626 5665
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"action.ml" 160 5577 5588 "action.ml" 161 5626 5665
+type(
+  Expr.T.expr_
+)
+"action.ml" 162 5669 5681 "action.ml" 162 5669 5686
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref prime "action.ml" 136 4496 4502 "action.ml" 136 4496 4507
+)
+"action.ml" 162 5669 5687 "action.ml" 162 5669 5688
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 152 5250 5270 "action.ml" 152 5250 5271
+)
+"action.ml" 162 5669 5681 "action.ml" 162 5669 5688
+type(
+  Expr.T.expr
+)
+"action.ml" 164 5722 5739 "action.ml" 164 5722 5748
+type(
+  Builtin.builtin
+)
+"action.ml" 164 5722 5751 "action.ml" 164 5722 5755
+type(
+  Builtin.builtin
+)
+"action.ml" 164 5722 5739 "action.ml" 164 5722 5755
+type(
+  Builtin.builtin
+)
+"action.ml" 165 5758 5775 "action.ml" 165 5758 5782
+type(
+  Builtin.builtin
+)
+"action.ml" 164 5722 5739 "action.ml" 165 5758 5782
+type(
+  Builtin.builtin
+)
+"action.ml" 165 5758 5785 "action.ml" 165 5758 5792
+type(
+  Builtin.builtin
+)
+"action.ml" 164 5722 5739 "action.ml" 165 5758 5792
+type(
+  Builtin.builtin
+)
+"action.ml" 165 5758 5799 "action.ml" 165 5758 5800
+type(
+  bool
+)
+"action.ml" 165 5758 5795 "action.ml" 165 5758 5800
+type(
+  Builtin.builtin
+)
+"action.ml" 164 5722 5739 "action.ml" 165 5758 5800
+type(
+  Builtin.builtin
+)
+"action.ml" 165 5758 5803 "action.ml" 165 5758 5810
+type(
+  Builtin.builtin
+)
+"action.ml" 164 5722 5738 "action.ml" 165 5758 5811
+type(
+  Builtin.builtin
+)
+"action.ml" 163 5689 5713 "action.ml" 165 5758 5811
+type(
+  Expr.T.expr_
+)
+"action.ml" 163 5689 5707 "action.ml" 165 5758 5815
+type(
+  Expr.T.expr
+)
+"action.ml" 165 5758 5817 "action.ml" 165 5758 5818
+type(
+  Expr.T.expr list
+)
+"action.ml" 163 5689 5700 "action.ml" 165 5758 5819
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"action.ml" 166 5820 5838 "action.ml" 166 5820 5839
+type(
+  Expr.T.expr
+)
+type(
+  Util.hints
+)
+type(
+  Expr.T.quantifier
+)
+"action.ml" 166 5820 5831 "action.ml" 166 5820 5839
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"action.ml" 163 5689 5700 "action.ml" 166 5820 5839
+type(
+  Expr.T.expr_
+)
+"action.ml" 166 5820 5846 "action.ml" 166 5820 5847
+type(
+  Expr.T.expr
+)
+type(
+  Expr.T.expr
+)
+type(
+  Expr.T.modal_op
+)
+"action.ml" 166 5820 5842 "action.ml" 166 5820 5847
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"action.ml" 163 5689 5700 "action.ml" 166 5820 5847
+type(
+  Expr.T.expr_
+)
+"action.ml" 166 5820 5855 "action.ml" 166 5820 5856
+type(
+  Expr.T.expr
+)
+type(
+  Expr.T.expr
+)
+type(
+  Expr.T.modal_op
+)
+"action.ml" 166 5820 5850 "action.ml" 166 5820 5856
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"action.ml" 163 5689 5700 "action.ml" 166 5820 5856
+type(
+  Expr.T.expr_
+)
+"action.ml" 166 5820 5864 "action.ml" 166 5820 5865
+type(
+  Expr.T.expr
+)
+type(
+  Expr.T.expr
+)
+type(
+  Expr.T.fairness_op
+)
+"action.ml" 166 5820 5859 "action.ml" 166 5820 5865
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"action.ml" 163 5689 5700 "action.ml" 166 5820 5865
+type(
+  Expr.T.expr_
+)
+"action.ml" 167 5869 5888 "action.ml" 167 5869 5893
+type(
+  bool
+)
+"action.ml" 167 5869 5881 "action.ml" 167 5869 5893
+type(
+  Expr.T.expr
+)
+"action.ml" 168 5894 5905 "action.ml" 168 5894 5906
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"action.ml" 168 5894 5910 "action.ml" 168 5894 5915
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  ext_ref self-2
+)
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  int_ref super "action.ml" 138 4577 4589 "action.ml" 138 4577 4622
+)
+"action.ml" 168 5894 5910 "action.ml" 168 5894 5920
+type(
+  unit Expr.Visit.map_visible_hyp ->
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"action.ml" 168 5894 5921 "action.ml" 168 5894 5924
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "action.ml" 152 5250 5266 "action.ml" 152 5250 5269
+)
+"action.ml" 168 5894 5925 "action.ml" 168 5894 5926
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 152 5250 5270 "action.ml" 152 5250 5271
+)
+"action.ml" 168 5894 5910 "action.ml" 168 5894 5926
+type(
+  Expr.T.expr
+)
+"action.ml" 152 5250 5274 "action.ml" 168 5894 5926
+type(
+  Expr.T.expr
+)
+"action.ml" 137 4561 4563 "action.ml" 169 5927 5932
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+"action.ml" 136 4496 4498 "action.ml" 169 5927 5932
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+"action.ml" 175 6067 6071 "action.ml" 175 6067 6083
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  def box_commuter "action.ml" 196 6740 6740 "action.ml" 0 0 -1
+)
+"action.ml" 176 6086 6092 "action.ml" 176 6086 6095
+type(
+  Expr.T.expr -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  def box "action.ml" 177 6154 6156 "action.ml" 190 6597 6602
+)
+"action.ml" 176 6086 6096 "action.ml" 176 6086 6097
+type(
+  Expr.T.expr
+)
+ident(
+  def e "action.ml" 176 6086 6100 "action.ml" 176 6086 6150
+)
+"action.ml" 176 6086 6129 "action.ml" 176 6086 6133
+type(
+  bool
+)
+"action.ml" 176 6086 6116 "action.ml" 176 6086 6134
+type(
+  Builtin.builtin
+)
+"action.ml" 176 6086 6107 "action.ml" 176 6086 6134
+type(
+  Expr.T.expr_
+)
+"action.ml" 176 6086 6135 "action.ml" 176 6086 6137
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"action.ml" 176 6086 6138 "action.ml" 176 6086 6139
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 176 6086 6096 "action.ml" 176 6086 6097
+)
+"action.ml" 176 6086 6107 "action.ml" 176 6086 6139
+type(
+  Expr.T.expr
+)
+"action.ml" 176 6086 6142 "action.ml" 176 6086 6143
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 176 6086 6096 "action.ml" 176 6086 6097
+)
+"action.ml" 176 6086 6141 "action.ml" 176 6086 6144
+type(
+  Expr.T.expr list
+)
+"action.ml" 176 6086 6100 "action.ml" 176 6086 6145
+type(
+  Expr.T.expr_
+)
+"action.ml" 176 6086 6146 "action.ml" 176 6086 6148
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"action.ml" 176 6086 6149 "action.ml" 176 6086 6150
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 176 6086 6096 "action.ml" 176 6086 6097
+)
+"action.ml" 176 6086 6100 "action.ml" 176 6086 6150
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"action.ml" 177 6154 6163 "action.ml" 177 6154 6169
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+"action.ml" 179 6225 6241 "action.ml" 179 6225 6244
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "action.ml" 179 6225 6245 "action.ml" 189 6578 6596
+)
+"action.ml" 179 6225 6245 "action.ml" 179 6225 6246
+type(
+  Expr.T.expr
+)
+ident(
+  def e "action.ml" 181 6305 6311 "action.ml" 189 6578 6596
+)
+"action.ml" 181 6305 6316 "action.ml" 181 6305 6337
+type(
+  Expr.T.expr -> int
+)
+ident(
+  int_ref Expr.Levels.get_level "expr.mli" 696 17732 17736 "expr.mli" 697 17751 17785
+)
+"action.ml" 181 6305 6338 "action.ml" 181 6305 6339
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 179 6225 6245 "action.ml" 179 6225 6246
+)
+"action.ml" 181 6305 6315 "action.ml" 181 6305 6340
+type(
+  int
+)
+"action.ml" 181 6305 6341 "action.ml" 181 6305 6342
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"action.ml" 181 6305 6343 "action.ml" 181 6305 6344
+type(
+  int
+)
+"action.ml" 181 6305 6314 "action.ml" 181 6305 6345
+type(
+  bool
+)
+"action.ml" 181 6305 6351 "action.ml" 181 6305 6352
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 179 6225 6245 "action.ml" 179 6225 6246
+)
+"action.ml" 182 6353 6370 "action.ml" 182 6353 6371
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 179 6225 6245 "action.ml" 179 6225 6246
+)
+"action.ml" 182 6353 6370 "action.ml" 182 6353 6376
+type(
+  Expr.T.expr_
+)
+"action.ml" 184 6407 6439 "action.ml" 184 6407 6451
+type(
+  Builtin.builtin
+)
+"action.ml" 184 6407 6430 "action.ml" 184 6407 6451
+type(
+  Expr.T.expr_
+)
+"action.ml" 184 6407 6422 "action.ml" 184 6407 6452
+type(
+  Expr.T.expr
+)
+"action.ml" 184 6407 6454 "action.ml" 184 6407 6455
+type(
+  Expr.T.expr list
+)
+"action.ml" 184 6407 6415 "action.ml" 184 6407 6456
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"action.ml" 186 6491 6506 "action.ml" 186 6491 6512
+type(
+  Expr.T.quantifier
+)
+"action.ml" 186 6491 6514 "action.ml" 186 6491 6515
+type(
+  Expr.T.bounds
+)
+"action.ml" 186 6491 6516 "action.ml" 186 6491 6517
+type(
+  Expr.T.expr
+)
+"action.ml" 186 6491 6499 "action.ml" 186 6491 6518
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"action.ml" 184 6407 6415 "action.ml" 186 6491 6518
+type(
+  Expr.T.expr_
+)
+"action.ml" 187 6519 6535 "action.ml" 187 6519 6541
+type(
+  Expr.T.quantifier
+)
+"action.ml" 187 6519 6543 "action.ml" 187 6519 6544
+type(
+  Util.hints
+)
+"action.ml" 187 6519 6545 "action.ml" 187 6519 6546
+type(
+  Expr.T.expr
+)
+"action.ml" 187 6519 6527 "action.ml" 187 6519 6547
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"action.ml" 184 6407 6415 "action.ml" 187 6519 6547
+type(
+  Expr.T.expr_
+)
+"action.ml" 188 6551 6561 "action.ml" 188 6551 6566
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  ext_ref self-3
+)
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  int_ref super "action.ml" 178 6170 6182 "action.ml" 178 6170 6215
+)
+"action.ml" 188 6551 6561 "action.ml" 188 6551 6571
+type(
+  unit Expr.Visit.map_visible_hyp ->
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"action.ml" 188 6551 6572 "action.ml" 188 6551 6575
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "action.ml" 179 6225 6241 "action.ml" 179 6225 6244
+)
+"action.ml" 188 6551 6576 "action.ml" 188 6551 6577
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 179 6225 6245 "action.ml" 179 6225 6246
+)
+"action.ml" 188 6551 6561 "action.ml" 188 6551 6577
+type(
+  Expr.T.expr
+)
+"action.ml" 189 6578 6586 "action.ml" 189 6578 6587
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"action.ml" 189 6578 6591 "action.ml" 189 6578 6594
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref box "action.ml" 176 6086 6092 "action.ml" 176 6086 6095
+)
+"action.ml" 189 6578 6595 "action.ml" 189 6578 6596
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 179 6225 6245 "action.ml" 179 6225 6246
+)
+"action.ml" 189 6578 6591 "action.ml" 189 6578 6596
+type(
+  Expr.T.expr
+)
+"action.ml" 182 6353 6364 "action.ml" 189 6578 6596
+type(
+  Expr.T.expr
+)
+"action.ml" 181 6305 6311 "action.ml" 189 6578 6596
+type(
+  Expr.T.expr
+)
+"action.ml" 177 6154 6156 "action.ml" 190 6597 6602
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+"action.ml" 176 6086 6088 "action.ml" 190 6597 6602
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+"action.ml" 196 6740 6744 "action.ml" 196 6740 6756
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  def dia_commuter "action.ml" 215 7325 7325 "action.ml" 0 0 -1
+)
+"action.ml" 197 6759 6765 "action.ml" 197 6759 6768
+type(
+  Expr.T.expr -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  def dia "action.ml" 198 6824 6826 "action.ml" 211 7269 7274
+)
+"action.ml" 197 6759 6769 "action.ml" 197 6759 6770
+type(
+  Expr.T.expr
+)
+ident(
+  def e "action.ml" 197 6759 6773 "action.ml" 197 6759 6820
+)
+"action.ml" 197 6759 6789 "action.ml" 197 6759 6804
+type(
+  Builtin.builtin
+)
+"action.ml" 197 6759 6780 "action.ml" 197 6759 6804
+type(
+  Expr.T.expr_
+)
+"action.ml" 197 6759 6805 "action.ml" 197 6759 6807
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"action.ml" 197 6759 6808 "action.ml" 197 6759 6809
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 197 6759 6769 "action.ml" 197 6759 6770
+)
+"action.ml" 197 6759 6780 "action.ml" 197 6759 6809
+type(
+  Expr.T.expr
+)
+"action.ml" 197 6759 6812 "action.ml" 197 6759 6813
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 197 6759 6769 "action.ml" 197 6759 6770
+)
+"action.ml" 197 6759 6811 "action.ml" 197 6759 6814
+type(
+  Expr.T.expr list
+)
+"action.ml" 197 6759 6773 "action.ml" 197 6759 6815
+type(
+  Expr.T.expr_
+)
+"action.ml" 197 6759 6816 "action.ml" 197 6759 6818
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"action.ml" 197 6759 6819 "action.ml" 197 6759 6820
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 197 6759 6769 "action.ml" 197 6759 6770
+)
+"action.ml" 197 6759 6773 "action.ml" 197 6759 6820
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"action.ml" 198 6824 6833 "action.ml" 198 6824 6839
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+"action.ml" 200 6895 6911 "action.ml" 200 6895 6914
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "action.ml" 200 6895 6915 "action.ml" 210 7250 7268
+)
+"action.ml" 200 6895 6915 "action.ml" 200 6895 6916
+type(
+  Expr.T.expr
+)
+ident(
+  def e "action.ml" 202 6975 6981 "action.ml" 210 7250 7268
+)
+"action.ml" 202 6975 6986 "action.ml" 202 6975 7007
+type(
+  Expr.T.expr -> int
+)
+ident(
+  int_ref Expr.Levels.get_level "expr.mli" 696 17732 17736 "expr.mli" 697 17751 17785
+)
+"action.ml" 202 6975 7008 "action.ml" 202 6975 7009
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 200 6895 6915 "action.ml" 200 6895 6916
+)
+"action.ml" 202 6975 6985 "action.ml" 202 6975 7010
+type(
+  int
+)
+"action.ml" 202 6975 7011 "action.ml" 202 6975 7012
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"action.ml" 202 6975 7013 "action.ml" 202 6975 7014
+type(
+  int
+)
+"action.ml" 202 6975 6984 "action.ml" 202 6975 7015
+type(
+  bool
+)
+"action.ml" 202 6975 7021 "action.ml" 202 6975 7022
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 200 6895 6915 "action.ml" 200 6895 6916
+)
+"action.ml" 203 7023 7040 "action.ml" 203 7023 7041
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 200 6895 6915 "action.ml" 200 6895 6916
+)
+"action.ml" 203 7023 7040 "action.ml" 203 7023 7046
+type(
+  Expr.T.expr_
+)
+"action.ml" 205 7077 7109 "action.ml" 205 7077 7121
+type(
+  Builtin.builtin
+)
+"action.ml" 205 7077 7100 "action.ml" 205 7077 7121
+type(
+  Expr.T.expr_
+)
+"action.ml" 205 7077 7092 "action.ml" 205 7077 7122
+type(
+  Expr.T.expr
+)
+"action.ml" 205 7077 7124 "action.ml" 205 7077 7125
+type(
+  Expr.T.expr list
+)
+"action.ml" 205 7077 7085 "action.ml" 205 7077 7126
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"action.ml" 207 7163 7178 "action.ml" 207 7163 7184
+type(
+  Expr.T.quantifier
+)
+"action.ml" 207 7163 7186 "action.ml" 207 7163 7187
+type(
+  Expr.T.bounds
+)
+"action.ml" 207 7163 7188 "action.ml" 207 7163 7189
+type(
+  Expr.T.expr
+)
+"action.ml" 207 7163 7171 "action.ml" 207 7163 7190
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"action.ml" 205 7077 7085 "action.ml" 207 7163 7190
+type(
+  Expr.T.expr_
+)
+"action.ml" 208 7191 7207 "action.ml" 208 7191 7213
+type(
+  Expr.T.quantifier
+)
+"action.ml" 208 7191 7215 "action.ml" 208 7191 7216
+type(
+  Util.hints
+)
+"action.ml" 208 7191 7217 "action.ml" 208 7191 7218
+type(
+  Expr.T.expr
+)
+"action.ml" 208 7191 7199 "action.ml" 208 7191 7219
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"action.ml" 205 7077 7085 "action.ml" 208 7191 7219
+type(
+  Expr.T.expr_
+)
+"action.ml" 209 7223 7233 "action.ml" 209 7223 7238
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  ext_ref self-4
+)
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  int_ref super "action.ml" 199 6840 6852 "action.ml" 199 6840 6885
+)
+"action.ml" 209 7223 7233 "action.ml" 209 7223 7243
+type(
+  unit Expr.Visit.map_visible_hyp ->
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"action.ml" 209 7223 7244 "action.ml" 209 7223 7247
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "action.ml" 200 6895 6911 "action.ml" 200 6895 6914
+)
+"action.ml" 209 7223 7248 "action.ml" 209 7223 7249
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 200 6895 6915 "action.ml" 200 6895 6916
+)
+"action.ml" 209 7223 7233 "action.ml" 209 7223 7249
+type(
+  Expr.T.expr
+)
+"action.ml" 210 7250 7258 "action.ml" 210 7250 7259
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"action.ml" 210 7250 7263 "action.ml" 210 7250 7266
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref dia "action.ml" 197 6759 6765 "action.ml" 197 6759 6768
+)
+"action.ml" 210 7250 7267 "action.ml" 210 7250 7268
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 200 6895 6915 "action.ml" 200 6895 6916
+)
+"action.ml" 210 7250 7263 "action.ml" 210 7250 7268
+type(
+  Expr.T.expr
+)
+"action.ml" 203 7023 7034 "action.ml" 210 7250 7268
+type(
+  Expr.T.expr
+)
+"action.ml" 202 6975 6981 "action.ml" 210 7250 7268
+type(
+  Expr.T.expr
+)
+"action.ml" 198 6824 6826 "action.ml" 211 7269 7274
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+"action.ml" 197 6759 6761 "action.ml" 211 7269 7274
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+"action.ml" 215 7325 7329 "action.ml" 215 7325 7343
+type(
+  Expr.T.expr_ Property.wrapped -> Expr.T.expr
+)
+ident(
+  def apply_stripper "action.ml" 220 7467 7467 "action.ml" 0 0 -1
+)
+"action.ml" 216 7355 7373 "action.ml" 216 7355 7374
+type(
+  Expr.T.expr
+)
+"action.ml" 216 7355 7376 "action.ml" 216 7355 7377
+type(
+  Expr.T.expr
+)
+ident(
+  def e "action.ml" 216 7355 7384 "action.ml" 216 7355 7385
+)
+"action.ml" 216 7355 7375 "action.ml" 216 7355 7378
+type(
+  Expr.T.expr list
+)
+"action.ml" 216 7355 7367 "action.ml" 216 7355 7379
+type(
+  Expr.T.expr_
+)
+"action.ml" 216 7355 7359 "action.ml" 216 7355 7380
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"action.ml" 216 7355 7384 "action.ml" 216 7355 7385
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "action.ml" 216 7355 7376 "action.ml" 216 7355 7377
+)
+"action.ml" 217 7386 7390 "action.ml" 217 7386 7391
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"action.ml" 217 7386 7395 "action.ml" 217 7386 7403
+type(
+  string -> Expr.T.expr
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"action.ml" 217 7386 7404 "action.ml" 217 7386 7464
+type(
+  string
+)
+"action.ml" 217 7386 7395 "action.ml" 217 7386 7464
+type(
+  Expr.T.expr
+)
+"action.ml" 215 7325 7346 "action.ml" 217 7386 7464
+type(
+  Expr.T.expr_ Property.wrapped -> Expr.T.expr
+)
+"action.ml" 220 7467 7471 "action.ml" 220 7467 7476
+type(
+  (unit Expr.Visit.map_visible_hyp *
+   (Expr.T.expr_ Property.wrapped -> Expr.T.expr))
+  Symbol_commute.SymbolMap.t
+)
+ident(
+  def mymap "action.ml" 233 7916 7916 "action.ml" 0 0 -1
+)
+"action.ml" 221 7479 7485 "action.ml" 221 7479 7486
+type(
+  'a Symbol_commute.SymbolMap.t
+)
+ident(
+  def m "action.ml" 222 7508 7510 "action.ml" 228 7874 7877
+)
+"action.ml" 221 7479 7489 "action.ml" 221 7479 7504
+type(
+  'a Symbol_commute.SymbolMap.t
+)
+ident(
+  int_ref Symbol_commute.SymbolMap.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"action.ml" 222 7508 7514 "action.ml" 222 7508 7515
+type(
+  (unit Expr.Visit.map_visible_hyp *
+   (Expr.T.expr_ Property.wrapped -> Expr.T.expr))
+  Symbol_commute.SymbolMap.t
+)
+ident(
+  def m "action.ml" 224 7629 7631 "action.ml" 228 7874 7877
+)
+"action.ml" 222 7508 7518 "action.ml" 222 7508 7531
+type(
+  Symbol_commute.SymbolMap.key ->
+  unit Expr.Visit.map_visible_hyp *
+  (Expr.T.expr_ Property.wrapped -> Expr.T.expr) ->
+  (unit Expr.Visit.map_visible_hyp *
+   (Expr.T.expr_ Property.wrapped -> Expr.T.expr))
+  Symbol_commute.SymbolMap.t ->
+  (unit Expr.Visit.map_visible_hyp *
+   (Expr.T.expr_ Property.wrapped -> Expr.T.expr))
+  Symbol_commute.SymbolMap.t
+)
+ident(
+  int_ref Symbol_commute.SymbolMap.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"action.ml" 222 7508 7533 "action.ml" 222 7508 7540
+type(
+  Expr.T.expr_ -> Symbol_commute.SymbolMap.key
+)
+ident(
+  int_ref Property.noprops "property.mli" 92 3086 3086 "property.mli" 92 3086 3116
+)
+"action.ml" 222 7508 7549 "action.ml" 222 7508 7556
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref Property.noprops "property.mli" 92 3086 3086 "property.mli" 92 3086 3116
+)
+"action.ml" 222 7508 7567 "action.ml" 222 7508 7580
+type(
+  Builtin.builtin
+)
+"action.ml" 222 7508 7557 "action.ml" 222 7508 7581
+type(
+  Expr.T.expr_
+)
+"action.ml" 222 7508 7549 "action.ml" 222 7508 7581
+type(
+  Expr.T.expr
+)
+"action.ml" 222 7508 7583 "action.ml" 222 7508 7585
+type(
+  Expr.T.expr list
+)
+"action.ml" 222 7508 7541 "action.ml" 222 7508 7587
+type(
+  Expr.T.expr_
+)
+"action.ml" 222 7508 7532 "action.ml" 222 7508 7588
+type(
+  Symbol_commute.SymbolMap.key
+)
+"action.ml" 223 7589 7592 "action.ml" 223 7589 7606
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  int_ref prime_commuter "action.ml" 135 4475 4479 "action.ml" 135 4475 4493
+)
+"action.ml" 223 7589 7608 "action.ml" 223 7589 7622
+type(
+  Expr.T.expr_ Property.wrapped -> Expr.T.expr
+)
+ident(
+  int_ref apply_stripper "action.ml" 215 7325 7329 "action.ml" 215 7325 7343
+)
+"action.ml" 223 7589 7591 "action.ml" 223 7589 7623
+type(
+  unit Expr.Visit.map_visible_hyp *
+  (Expr.T.expr_ Property.wrapped -> Expr.T.expr)
+)
+"action.ml" 223 7589 7624 "action.ml" 223 7589 7625
+type(
+  (unit Expr.Visit.map_visible_hyp *
+   (Expr.T.expr_ Property.wrapped -> Expr.T.expr))
+  Symbol_commute.SymbolMap.t
+)
+ident(
+  int_ref m "action.ml" 221 7479 7485 "action.ml" 221 7479 7486
+)
+"action.ml" 222 7508 7518 "action.ml" 223 7589 7625
+type(
+  (unit Expr.Visit.map_visible_hyp *
+   (Expr.T.expr_ Property.wrapped -> Expr.T.expr))
+  Symbol_commute.SymbolMap.t
+)
+"action.ml" 224 7629 7635 "action.ml" 224 7629 7636
+type(
+  (unit Expr.Visit.map_visible_hyp *
+   (Expr.T.expr_ Property.wrapped -> Expr.T.expr))
+  Symbol_commute.SymbolMap.t
+)
+ident(
+  def m "action.ml" 226 7753 7755 "action.ml" 228 7874 7877
+)
+"action.ml" 224 7629 7639 "action.ml" 224 7629 7652
+type(
+  Symbol_commute.SymbolMap.key ->
+  unit Expr.Visit.map_visible_hyp *
+  (Expr.T.expr_ Property.wrapped -> Expr.T.expr) ->
+  (unit Expr.Visit.map_visible_hyp *
+   (Expr.T.expr_ Property.wrapped -> Expr.T.expr))
+  Symbol_commute.SymbolMap.t ->
+  (unit Expr.Visit.map_visible_hyp *
+   (Expr.T.expr_ Property.wrapped -> Expr.T.expr))
+  Symbol_commute.SymbolMap.t
+)
+ident(
+  int_ref Symbol_commute.SymbolMap.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"action.ml" 224 7629 7654 "action.ml" 224 7629 7661
+type(
+  Expr.T.expr_ -> Symbol_commute.SymbolMap.key
+)
+ident(
+  int_ref Property.noprops "property.mli" 92 3086 3086 "property.mli" 92 3086 3116
+)
+"action.ml" 224 7629 7670 "action.ml" 224 7629 7677
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref Property.noprops "property.mli" 92 3086 3086 "property.mli" 92 3086 3116
+)
+"action.ml" 224 7629 7701 "action.ml" 224 7629 7705
+type(
+  bool
+)
+"action.ml" 224 7629 7688 "action.ml" 224 7629 7706
+type(
+  Builtin.builtin
+)
+"action.ml" 224 7629 7678 "action.ml" 224 7629 7707
+type(
+  Expr.T.expr_
+)
+"action.ml" 224 7629 7670 "action.ml" 224 7629 7707
+type(
+  Expr.T.expr
+)
+"action.ml" 224 7629 7709 "action.ml" 224 7629 7711
+type(
+  Expr.T.expr list
+)
+"action.ml" 224 7629 7662 "action.ml" 224 7629 7713
+type(
+  Expr.T.expr_
+)
+"action.ml" 224 7629 7653 "action.ml" 224 7629 7714
+type(
+  Symbol_commute.SymbolMap.key
+)
+"action.ml" 225 7715 7718 "action.ml" 225 7715 7730
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  int_ref box_commuter "action.ml" 175 6067 6071 "action.ml" 175 6067 6083
+)
+"action.ml" 225 7715 7732 "action.ml" 225 7715 7746
+type(
+  Expr.T.expr_ Property.wrapped -> Expr.T.expr
+)
+ident(
+  int_ref apply_stripper "action.ml" 215 7325 7329 "action.ml" 215 7325 7343
+)
+"action.ml" 225 7715 7717 "action.ml" 225 7715 7747
+type(
+  unit Expr.Visit.map_visible_hyp *
+  (Expr.T.expr_ Property.wrapped -> Expr.T.expr)
+)
+"action.ml" 225 7715 7748 "action.ml" 225 7715 7749
+type(
+  (unit Expr.Visit.map_visible_hyp *
+   (Expr.T.expr_ Property.wrapped -> Expr.T.expr))
+  Symbol_commute.SymbolMap.t
+)
+ident(
+  int_ref m "action.ml" 222 7508 7514 "action.ml" 222 7508 7515
+)
+"action.ml" 224 7629 7639 "action.ml" 225 7715 7749
+type(
+  (unit Expr.Visit.map_visible_hyp *
+   (Expr.T.expr_ Property.wrapped -> Expr.T.expr))
+  Symbol_commute.SymbolMap.t
+)
+"action.ml" 226 7753 7759 "action.ml" 226 7753 7760
+type(
+  (unit Expr.Visit.map_visible_hyp *
+   (Expr.T.expr_ Property.wrapped -> Expr.T.expr))
+  Symbol_commute.SymbolMap.t
+)
+ident(
+  def m "action.ml" 228 7874 7876 "action.ml" 228 7874 7877
+)
+"action.ml" 226 7753 7763 "action.ml" 226 7753 7776
+type(
+  Symbol_commute.SymbolMap.key ->
+  unit Expr.Visit.map_visible_hyp *
+  (Expr.T.expr_ Property.wrapped -> Expr.T.expr) ->
+  (unit Expr.Visit.map_visible_hyp *
+   (Expr.T.expr_ Property.wrapped -> Expr.T.expr))
+  Symbol_commute.SymbolMap.t ->
+  (unit Expr.Visit.map_visible_hyp *
+   (Expr.T.expr_ Property.wrapped -> Expr.T.expr))
+  Symbol_commute.SymbolMap.t
+)
+ident(
+  int_ref Symbol_commute.SymbolMap.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"action.ml" 226 7753 7778 "action.ml" 226 7753 7785
+type(
+  Expr.T.expr_ -> Symbol_commute.SymbolMap.key
+)
+ident(
+  int_ref Property.noprops "property.mli" 92 3086 3086 "property.mli" 92 3086 3116
+)
+"action.ml" 226 7753 7794 "action.ml" 226 7753 7801
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref Property.noprops "property.mli" 92 3086 3086 "property.mli" 92 3086 3116
+)
+"action.ml" 226 7753 7812 "action.ml" 226 7753 7827
+type(
+  Builtin.builtin
+)
+"action.ml" 226 7753 7802 "action.ml" 226 7753 7828
+type(
+  Expr.T.expr_
+)
+"action.ml" 226 7753 7794 "action.ml" 226 7753 7828
+type(
+  Expr.T.expr
+)
+"action.ml" 226 7753 7830 "action.ml" 226 7753 7832
+type(
+  Expr.T.expr list
+)
+"action.ml" 226 7753 7786 "action.ml" 226 7753 7834
+type(
+  Expr.T.expr_
+)
+"action.ml" 226 7753 7777 "action.ml" 226 7753 7835
+type(
+  Symbol_commute.SymbolMap.key
+)
+"action.ml" 227 7836 7839 "action.ml" 227 7836 7851
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  int_ref dia_commuter "action.ml" 196 6740 6744 "action.ml" 196 6740 6756
+)
+"action.ml" 227 7836 7853 "action.ml" 227 7836 7867
+type(
+  Expr.T.expr_ Property.wrapped -> Expr.T.expr
+)
+ident(
+  int_ref apply_stripper "action.ml" 215 7325 7329 "action.ml" 215 7325 7343
+)
+"action.ml" 227 7836 7838 "action.ml" 227 7836 7868
+type(
+  unit Expr.Visit.map_visible_hyp *
+  (Expr.T.expr_ Property.wrapped -> Expr.T.expr)
+)
+"action.ml" 227 7836 7869 "action.ml" 227 7836 7870
+type(
+  (unit Expr.Visit.map_visible_hyp *
+   (Expr.T.expr_ Property.wrapped -> Expr.T.expr))
+  Symbol_commute.SymbolMap.t
+)
+ident(
+  int_ref m "action.ml" 224 7629 7635 "action.ml" 224 7629 7636
+)
+"action.ml" 226 7753 7763 "action.ml" 227 7836 7870
+type(
+  (unit Expr.Visit.map_visible_hyp *
+   (Expr.T.expr_ Property.wrapped -> Expr.T.expr))
+  Symbol_commute.SymbolMap.t
+)
+"action.ml" 228 7874 7876 "action.ml" 228 7874 7877
+type(
+  (unit Expr.Visit.map_visible_hyp *
+   (Expr.T.expr_ Property.wrapped -> Expr.T.expr))
+  Symbol_commute.SymbolMap.t
+)
+ident(
+  int_ref m "action.ml" 226 7753 7759 "action.ml" 226 7753 7760
+)
+"action.ml" 226 7753 7755 "action.ml" 228 7874 7877
+type(
+  (unit Expr.Visit.map_visible_hyp *
+   (Expr.T.expr_ Property.wrapped -> Expr.T.expr))
+  Symbol_commute.SymbolMap.t
+)
+"action.ml" 224 7629 7631 "action.ml" 228 7874 7877
+type(
+  (unit Expr.Visit.map_visible_hyp *
+   (Expr.T.expr_ Property.wrapped -> Expr.T.expr))
+  Symbol_commute.SymbolMap.t
+)
+"action.ml" 222 7508 7510 "action.ml" 228 7874 7877
+type(
+  (unit Expr.Visit.map_visible_hyp *
+   (Expr.T.expr_ Property.wrapped -> Expr.T.expr))
+  Symbol_commute.SymbolMap.t
+)
+"action.ml" 221 7479 7481 "action.ml" 228 7874 7877
+type(
+  (unit Expr.Visit.map_visible_hyp *
+   (Expr.T.expr_ Property.wrapped -> Expr.T.expr))
+  Symbol_commute.SymbolMap.t
+)
+"action.ml" 233 7916 7920 "action.ml" 233 7916 7931
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  def process_eob "action.ml" 243 8198 8198 "action.ml" 0 0 -1
+)
+"action.ml" 233 7916 7932 "action.ml" 233 7916 7934
+type(
+  Expr.T.expr
+)
+ident(
+  def ob "action.ml" 234 7937 7939 "action.ml" 241 8192 8196
+)
+"action.ml" 234 7937 7943 "action.ml" 234 7937 7945
+type(
+  'a Deque.dq
+)
+ident(
+  def cx "action.ml" 235 7963 7965 "action.ml" 241 8192 8196
+)
+"action.ml" 234 7937 7948 "action.ml" 234 7937 7959
+type(
+  'a Deque.dq
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"action.ml" 235 7963 7969 "action.ml" 235 7963 7972
+type(
+  unit * 'b Deque.dq
+)
+ident(
+  def scx "action.ml" 236 7987 7989 "action.ml" 241 8192 8196
+)
+"action.ml" 235 7963 7976 "action.ml" 235 7963 7978
+type(
+  unit
+)
+"action.ml" 235 7963 7980 "action.ml" 235 7963 7982
+type(
+  'b Deque.dq
+)
+ident(
+  int_ref cx "action.ml" 234 7937 7943 "action.ml" 234 7937 7945
+)
+"action.ml" 235 7963 7975 "action.ml" 235 7963 7983
+type(
+  unit * 'b Deque.dq
+)
+"action.ml" 236 7987 7993 "action.ml" 236 7987 7995
+type(
+  Expr.T.expr
+)
+ident(
+  def ob "action.ml" 237 8033 8035 "action.ml" 241 8192 8196
+)
+"action.ml" 236 7987 7998 "action.ml" 236 7987 8023
+type(
+  Expr.T.ctx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Levels.compute_level "expr.mli" 712 18148 18152 "expr.mli" 713 18171 18198
+)
+"action.ml" 236 7987 8024 "action.ml" 236 7987 8026
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "action.ml" 234 7937 7943 "action.ml" 234 7937 7945
+)
+"action.ml" 236 7987 8027 "action.ml" 236 7987 8029
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ob "action.ml" 233 7916 7932 "action.ml" 233 7916 7934
+)
+"action.ml" 236 7987 7998 "action.ml" 236 7987 8029
+type(
+  Expr.T.expr
+)
+"action.ml" 237 8033 8039 "action.ml" 237 8033 8041
+type(
+  Expr.T.expr
+)
+ident(
+  def ob "action.ml" 238 8080 8082 "action.ml" 241 8192 8196
+)
+"action.ml" 237 8033 8044 "action.ml" 237 8033 8070
+type(
+  Expr.T.ctx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.SubstOp.compute_subst "expr.mli" 761 19207 19211 "expr.mli" 762 19230 19257
+)
+"action.ml" 237 8033 8071 "action.ml" 237 8033 8073
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "action.ml" 234 7937 7943 "action.ml" 234 7937 7945
+)
+"action.ml" 237 8033 8074 "action.ml" 237 8033 8076
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ob "action.ml" 236 7987 7993 "action.ml" 236 7987 7995
+)
+"action.ml" 237 8033 8044 "action.ml" 237 8033 8076
+type(
+  Expr.T.expr
+)
+"action.ml" 238 8080 8086 "action.ml" 238 8080 8088
+type(
+  Expr.T.expr
+)
+ident(
+  def ob "action.ml" 239 8119 8121 "action.ml" 241 8192 8196
+)
+"action.ml" 238 8080 8091 "action.ml" 238 8080 8108
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref expand_prime_defs "action.ml" 117 3872 3876 "action.ml" 117 3872 3893
+)
+"action.ml" 238 8080 8109 "action.ml" 238 8080 8112
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "action.ml" 235 7963 7969 "action.ml" 235 7963 7972
+)
+"action.ml" 238 8080 8113 "action.ml" 238 8080 8115
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ob "action.ml" 237 8033 8039 "action.ml" 237 8033 8041
+)
+"action.ml" 238 8080 8091 "action.ml" 238 8080 8115
+type(
+  Expr.T.expr
+)
+"action.ml" 239 8119 8125 "action.ml" 239 8119 8127
+type(
+  Expr.T.expr
+)
+ident(
+  def ob "action.ml" 240 8157 8159 "action.ml" 241 8192 8196
+)
+"action.ml" 239 8119 8130 "action.ml" 239 8119 8144
+type(
+  (unit Expr.Visit.map * (Expr.T.expr -> Expr.T.expr))
+  Symbol_commute.SymbolMap.t -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Symbol_commute.symbol_commute "symbol_commute.mli" 14 232 232 "symbol_commute.mli" 14 232 319
+)
+"action.ml" 239 8119 8145 "action.ml" 239 8119 8150
+type(
+  (unit Expr.Visit.map * (Expr.T.expr -> Expr.T.expr))
+  Symbol_commute.SymbolMap.t
+)
+ident(
+  int_ref mymap "action.ml" 220 7467 7471 "action.ml" 220 7467 7476
+)
+"action.ml" 239 8119 8151 "action.ml" 239 8119 8153
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ob "action.ml" 238 8080 8086 "action.ml" 238 8080 8088
+)
+"action.ml" 239 8119 8130 "action.ml" 239 8119 8153
+type(
+  Expr.T.expr
+)
+"action.ml" 240 8157 8163 "action.ml" 240 8157 8165
+type(
+  Expr.T.expr
+)
+ident(
+  def ob "action.ml" 241 8192 8194 "action.ml" 241 8192 8196
+)
+"action.ml" 240 8157 8168 "action.ml" 240 8157 8182
+type(
+  Expr.T.ctx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Coalesce.coalesce_modal "coalesce.mli" 16 327 327 "coalesce.mli" 16 327 366
+)
+"action.ml" 240 8157 8183 "action.ml" 240 8157 8185
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "action.ml" 234 7937 7943 "action.ml" 234 7937 7945
+)
+"action.ml" 240 8157 8186 "action.ml" 240 8157 8188
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ob "action.ml" 239 8119 8125 "action.ml" 239 8119 8127
+)
+"action.ml" 240 8157 8168 "action.ml" 240 8157 8188
+type(
+  Expr.T.expr
+)
+"action.ml" 241 8192 8194 "action.ml" 241 8192 8196
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ob "action.ml" 240 8157 8163 "action.ml" 240 8157 8165
+)
+"action.ml" 240 8157 8159 "action.ml" 241 8192 8196
+type(
+  Expr.T.expr
+)
+"action.ml" 239 8119 8121 "action.ml" 241 8192 8196
+type(
+  Expr.T.expr
+)
+"action.ml" 238 8080 8082 "action.ml" 241 8192 8196
+type(
+  Expr.T.expr
+)
+"action.ml" 237 8033 8035 "action.ml" 241 8192 8196
+type(
+  Expr.T.expr
+)
+"action.ml" 236 7987 7989 "action.ml" 241 8192 8196
+type(
+  Expr.T.expr
+)
+"action.ml" 235 7963 7965 "action.ml" 241 8192 8196
+type(
+  Expr.T.expr
+)
+"action.ml" 234 7937 7939 "action.ml" 241 8192 8196
+type(
+  Expr.T.expr
+)
+"action.ml" 243 8198 8202 "action.ml" 243 8198 8220
+type(
+  Proof.T.obligation -> Proof.T.obligation
+)
+ident(
+  def process_obligation "action.ml" 247 8354 8394 "action.ml" 0 0 -1
+)
+"action.ml" 243 8198 8221 "action.ml" 243 8198 8223
+type(
+  Proof.T.obligation
+)
+ident(
+  def ob "action.ml" 244 8226 8228 "action.ml" 247 8354 8394
+)
+"action.ml" 244 8226 8235 "action.ml" 244 8226 8246
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref process_eob "action.ml" 233 7916 7920 "action.ml" 233 7916 7931
+)
+"action.ml" 244 8226 8248 "action.ml" 244 8226 8255
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref Property.noprops "property.mli" 92 3086 3086 "property.mli" 92 3086 3116
+)
+"action.ml" 244 8226 8265 "action.ml" 244 8226 8267
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "action.ml" 243 8198 8221 "action.ml" 243 8198 8223
+)
+"action.ml" 244 8226 8265 "action.ml" 244 8226 8271
+type(
+  Expr.T.sequent Property.wrapped
+)
+"action.ml" 244 8226 8265 "action.ml" 244 8226 8276
+type(
+  Expr.T.sequent
+)
+"action.ml" 244 8226 8256 "action.ml" 244 8226 8277
+type(
+  Expr.T.expr_
+)
+"action.ml" 244 8226 8247 "action.ml" 244 8226 8278
+type(
+  Expr.T.expr
+)
+"action.ml" 244 8226 8234 "action.ml" 244 8226 8279
+type(
+  Expr.T.expr
+)
+"action.ml" 244 8226 8234 "action.ml" 244 8226 8284
+type(
+  Expr.T.expr_
+)
+"action.ml" 246 8292 8304 "action.ml" 246 8292 8306
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "action.ml" 246 8292 8310 "action.ml" 246 8292 8353
+)
+"action.ml" 246 8292 8296 "action.ml" 246 8292 8306
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"action.ml" 246 8292 8312 "action.ml" 246 8292 8314
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "action.ml" 243 8198 8221 "action.ml" 243 8198 8223
+)
+"action.ml" 246 8292 8328 "action.ml" 246 8292 8330
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "action.ml" 243 8198 8221 "action.ml" 243 8198 8223
+)
+"action.ml" 246 8292 8328 "action.ml" 246 8292 8334
+type(
+  Expr.T.sequent Property.wrapped
+)
+"action.ml" 246 8292 8347 "action.ml" 246 8292 8349
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "action.ml" 246 8292 8304 "action.ml" 246 8292 8306
+)
+"action.ml" 246 8292 8326 "action.ml" 246 8292 8351
+type(
+  Expr.T.sequent Property.wrapped
+)
+"action.ml" 246 8292 8310 "action.ml" 246 8292 8353
+type(
+  Proof.T.obligation
+)
+"action.ml" 247 8354 8358 "action.ml" 247 8354 8359
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"action.ml" 247 8354 8363 "action.ml" 247 8354 8371
+type(
+  string -> Proof.T.obligation
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"action.ml" 247 8354 8372 "action.ml" 247 8354 8394
+type(
+  string
+)
+"action.ml" 247 8354 8363 "action.ml" 247 8354 8394
+type(
+  Proof.T.obligation
+)
+"action.ml" 244 8226 8228 "action.ml" 247 8354 8394
+type(
+  Proof.T.obligation
+)

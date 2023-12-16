@@ -1,0 +1,685 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:14:22 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp Enabled_test.tla --stretch 5
+
+(* created new ".tlacache/TLAPS.tlaps/TLAPS.thy" *)
+(* fingerprints written in ".tlacache/TLAPS.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/Enabled_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+COMMAND-LINE ARGUMENT
+file=.tlacache/Enabled_test.tlaps/tlapm_5b4479.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/Enabled_test.tlaps/tlapm_5b4479.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #1
+;;   generated from file "./Enabled_test.tla", line 21, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_VARIABLEunde_xunde_a () u)
+
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (boolify a_VARIABLEunde_xunde_a))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/Enabled_test.tlaps/tlapm_aa8237.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/Enabled_test.tlaps/tlapm_aa8237.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #3
+;;   generated from file "./Enabled_test.tla", line 30, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+
+
+;; Theorem to be Proved
+(assert (not
+  (exists ((a_CONSTANTunde_xhash_enabledhash_prime1unde_a u))
+    (boolify a_CONSTANTunde_xhash_enabledhash_prime1unde_a))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/Enabled_test.tlaps/tlapm_4ee76a.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/Enabled_test.tlaps/tlapm_4ee76a.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #5
+;;   generated from file "./Enabled_test.tla", line 43, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+
+
+;; Theorem to be Proved
+(assert (not
+  (exists ((a_CONSTANTunde_xhash_enabledhash_prime1unde_a u))
+    (boolify a_CONSTANTunde_xhash_enabledhash_prime1unde_a))))
+
+(check-sat)
+(exit)
+
+File "./Enabled_test.tla", line 53, character 13:
+[INFO]: Auto-expanding the definition of operator:  R
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/Enabled_test.tlaps/tlapm_de666d.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/Enabled_test.tlaps/tlapm_de666d.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #7
+;;   generated from file "./Enabled_test.tla", line 55, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+
+
+;; Theorem to be Proved
+(assert (not
+  (exists ((a_CONSTANTunde_xhash_enabledhash_prime1unde_a u))
+    (boolify a_CONSTANTunde_xhash_enabledhash_prime1unde_a))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/Enabled_test.tlaps/tlapm_70d8bc.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/Enabled_test.tlaps/tlapm_70d8bc.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #10
+;;   generated from file "./Enabled_test.tla", line 67, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+
+
+;; Theorem to be Proved
+(assert (not
+  (exists ((a_CONSTANTunde_xhash_enabledhash_prime1unde_a u))
+    (boolify a_CONSTANTunde_xhash_enabledhash_prime1unde_a))))
+
+(check-sat)
+(exit)
+
+File "./Enabled_test.tla", line 76, characters 13-16:
+[INFO]: Auto-expanding the definition of operator:  P
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/Enabled_test.tlaps/tlapm_014145.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/Enabled_test.tlaps/tlapm_014145.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #12
+;;   generated from file "./Enabled_test.tla", line 78, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+
+
+;; Theorem to be Proved
+(assert (not
+  (exists ((a_CONSTANTunde_xhash_enabledhash_prime1unde_a u))
+    (boolify a_CONSTANTunde_xhash_enabledhash_prime1unde_a))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/Enabled_test.tlaps/tlapm_5a3d3d.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/Enabled_test.tlaps/tlapm_5a3d3d.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #15
+;;   generated from file "./Enabled_test.tla", line 92, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_STATEunde_Qunde_a () u)
+
+
+;; Theorem to be Proved
+(assert (not
+  (or
+    (exists ((a_CONSTANTunde_xhash_enabledhash_prime1unde_a u))
+      (boolify a_CONSTANTunde_xhash_enabledhash_prime1unde_a))
+    (exists ((a_CONSTANTunde_xhash_enabledhash_prime1unde_a u))
+      (boolify a_STATEunde_Qunde_a)))))
+
+(check-sat)
+(exit)
+
+File "./Enabled_test.tla", line 102, characters 14-17:
+[INFO]: Auto-expanding the definition of operator:  P
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/Enabled_test.tlaps/tlapm_5a67bf.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/Enabled_test.tlaps/tlapm_5a67bf.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #17
+;;   generated from file "./Enabled_test.tla", line 104, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_STATEunde_Qunde_a () u)
+
+
+;; Theorem to be Proved
+(assert (not
+  (or
+    (exists ((a_CONSTANTunde_xhash_enabledhash_prime1unde_a u))
+      (boolify a_CONSTANTunde_xhash_enabledhash_prime1unde_a))
+    (exists ((a_CONSTANTunde_xhash_enabledhash_prime1unde_a u))
+      (boolify a_STATEunde_Qunde_a)))))
+
+(check-sat)
+(exit)
+
+RESULT
+sat
+
+RESULT
+sat
+
+RESULT
+unsat
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/Enabled_test.tlaps/tlapm_09f771.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/Enabled_test.tlaps/tlapm_09f771.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #20
+;;   generated from file "./Enabled_test.tla", line 120, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_VARIABLEunde_yunde_a () u)
+
+
+;; Theorem to be Proved
+(assert (not
+  (=
+    (exists ((a_CONSTANTunde_zhash_enabledhash_prime1unde_a u))
+      (and
+        (boolify a_CONSTANTunde_zhash_enabledhash_prime1unde_a)
+        (boolify a_VARIABLEunde_yunde_a)))
+    (and
+      (boolify a_VARIABLEunde_yunde_a)
+      (exists ((a_CONSTANTunde_zprimeunde_a u))
+        (boolify a_CONSTANTunde_zprimeunde_a))))))
+
+(check-sat)
+(exit)
+
+RESULT
+sat
+
+RESULT
+sat
+
+RESULT
+sat
+
+RESULT
+sat
+
+RESULT
+sat
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/Enabled_test.tlaps/tlapm_841aa5.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/Enabled_test.tlaps/tlapm_841aa5.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #22
+;;   generated from file "./Enabled_test.tla", line 132, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_STATEunde_Yunprimedunde_a () u)
+
+
+;; Theorem to be Proved
+(assert (not
+  (=
+    (exists ((a_CONSTANTunde_zhash_enabledhash_prime1unde_a u))
+      (and
+        (boolify a_CONSTANTunde_zhash_enabledhash_prime1unde_a)
+        (boolify a_STATEunde_Yunprimedunde_a)))
+    (and
+      (boolify a_STATEunde_Yunprimedunde_a)
+      (exists ((a_CONSTANTunde_zprimeunde_a u))
+        (boolify a_CONSTANTunde_zprimeunde_a))))))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/Enabled_test.tlaps/tlapm_21db2c.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/Enabled_test.tlaps/tlapm_21db2c.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #24
+;;   generated from file "./Enabled_test.tla", line 148, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Aunde_a () u)
+(declare-fun a_VARIABLEunde_yunde_a () u)
+
+
+;; Theorem to be Proved
+(assert (not
+  (=
+    (boolify a_CONSTANTunde_Aunde_a)
+    (exists ((a_CONSTANTunde_zhash_enabledhash_prime1unde_a u))
+      (and
+        (boolify a_CONSTANTunde_zhash_enabledhash_prime1unde_a)
+        (boolify a_VARIABLEunde_yunde_a))))))
+(assert
+  (=
+    (boolify a_CONSTANTunde_Aunde_a)
+    (exists ((a_CONSTANTunde_rhash_0unde_a u))
+      (boolify a_VARIABLEunde_yunde_a))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/Enabled_test.tlaps/tlapm_cf3d79.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/Enabled_test.tlaps/tlapm_cf3d79.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #26
+;;   generated from file "./Enabled_test.tla", line 167, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun bool2u (Bool) u)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__BOOLEAN () u)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_VARIABLEunde_xunde_a () u)
+(declare-fun a_VARIABLEunde_xunde_hash_primea () u)
+
+(assert
+  (forall ((X_3 Bool) (Y_4 Bool))
+  (=> (= (bool2u X_3) (bool2u Y_4)) (= X_3 Y_4))))
+(assert
+  (forall ((X_3 u))
+  (! (=> (tla__in X_3 tla__BOOLEAN) (= (bool2u (boolify X_3)) X_3)) :pattern ((tla__in X_3 tla__BOOLEAN)))))
+(assert
+  (forall ((S_6 u) (T_7 u))
+  (=> (forall ((X_3 u)) (= (tla__in X_3 S_6) (tla__in X_3 T_7))) (= S_6 T_7))))
+
+;; Theorem to be Proved
+(assert (not
+  (exists ((a_CONSTANTunde_xhash_enabledhash_prime1unde_a u))
+    (and
+      (tla__in a_VARIABLEunde_xunde_a tla__BOOLEAN)
+      (tla__in a_VARIABLEunde_xunde_a tla__BOOLEAN)
+      (=
+        a_CONSTANTunde_xhash_enabledhash_prime1unde_a
+        (bool2u (not (boolify a_VARIABLEunde_xunde_a))))
+      (not
+        (=
+          a_CONSTANTunde_xhash_enabledhash_prime1unde_a
+          a_VARIABLEunde_xunde_a))))))
+(assert (tla__in a_VARIABLEunde_xunde_a tla__BOOLEAN))
+(assert
+  (=
+    a_VARIABLEunde_xunde_hash_primea
+    (bool2u (not (boolify a_VARIABLEunde_xunde_a)))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/Enabled_test.tlaps/tlapm_9536e0.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/Enabled_test.tlaps/tlapm_9536e0.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #28
+;;   generated from file "./Enabled_test.tla", line 185, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun bool2u (Bool) u)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__BOOLEAN () u)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_VARIABLEunde_xunde_a () u)
+(declare-fun a_VARIABLEunde_xunde_hash_primea () u)
+
+(assert
+  (forall ((X_3 Bool) (Y_4 Bool))
+  (=> (= (bool2u X_3) (bool2u Y_4)) (= X_3 Y_4))))
+(assert
+  (forall ((X_3 u))
+  (! (=> (tla__in X_3 tla__BOOLEAN) (= (bool2u (boolify X_3)) X_3)) :pattern ((tla__in X_3 tla__BOOLEAN)))))
+(assert
+  (forall ((S_6 u) (T_7 u))
+  (=> (forall ((X_3 u)) (= (tla__in X_3 S_6) (tla__in X_3 T_7))) (= S_6 T_7))))
+
+;; Theorem to be Proved
+(assert (not
+  (exists ((a_CONSTANTunde_xhash_enabledhash_prime1unde_a u))
+    (and
+      (tla__in a_VARIABLEunde_xunde_a tla__BOOLEAN)
+      (tla__in a_VARIABLEunde_xunde_a tla__BOOLEAN)
+      (=
+        a_CONSTANTunde_xhash_enabledhash_prime1unde_a
+        (bool2u (not (boolify a_VARIABLEunde_xunde_a))))
+      (not
+        (=
+          a_CONSTANTunde_xhash_enabledhash_prime1unde_a
+          a_VARIABLEunde_xunde_a))))))
+(assert (tla__in a_VARIABLEunde_xunde_a tla__BOOLEAN))
+(assert
+  (=
+    a_VARIABLEunde_xunde_hash_primea
+    (bool2u (not (boolify a_VARIABLEunde_xunde_a)))))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/Enabled_test.tlaps/tlapm_c093ae.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/Enabled_test.tlaps/tlapm_c093ae.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #31
+;;   generated from file "./Enabled_test.tla", line 196, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun bool2u (Bool) u)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__BOOLEAN () u)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_VARIABLEunde_xunde_a () u)
+
+(assert
+  (forall ((X_3 Bool) (Y_4 Bool))
+  (=> (= (bool2u X_3) (bool2u Y_4)) (= X_3 Y_4))))
+(assert
+  (forall ((X_3 u))
+  (! (=> (tla__in X_3 tla__BOOLEAN) (= (bool2u (boolify X_3)) X_3)) :pattern ((tla__in X_3 tla__BOOLEAN)))))
+(assert
+  (forall ((S_6 u) (T_7 u))
+  (=> (forall ((X_3 u)) (= (tla__in X_3 S_6) (tla__in X_3 T_7))) (= S_6 T_7))))
+
+;; Theorem to be Proved
+(assert (not
+  (=
+    (exists ((a_CONSTANTunde_xhash_enabledhash_prime1unde_a u))
+      (and
+        (tla__in a_VARIABLEunde_xunde_a tla__BOOLEAN)
+        (tla__in a_VARIABLEunde_xunde_a tla__BOOLEAN)
+        (=
+          a_CONSTANTunde_xhash_enabledhash_prime1unde_a
+          (bool2u (not (boolify a_VARIABLEunde_xunde_a))))
+        (not
+          (=
+            a_CONSTANTunde_xhash_enabledhash_prime1unde_a
+            a_VARIABLEunde_xunde_a))))
+    (exists ((a_CONSTANTunde_xhash_enabledhash_prime1unde_a u))
+      (and
+        (tla__in a_VARIABLEunde_xunde_a tla__BOOLEAN)
+        (=
+          a_CONSTANTunde_xhash_enabledhash_prime1unde_a
+          (bool2u (not (boolify a_VARIABLEunde_xunde_a))))
+        (not
+          (=
+            a_CONSTANTunde_xhash_enabledhash_prime1unde_a
+            a_VARIABLEunde_xunde_a)))))))
+
+(check-sat)
+(exit)
+
+File "./Enabled_test.tla", line 153, character 35:
+[INFO]: Auto-expanding the definition of operator:  A
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/Enabled_test.tlaps/tlapm_215eef.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/Enabled_test.tlaps/tlapm_215eef.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #33
+;;   generated from file "./Enabled_test.tla", line 208, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun bool2u (Bool) u)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__BOOLEAN () u)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_VARIABLEunde_xunde_a () u)
+
+(assert
+  (forall ((X_3 Bool) (Y_4 Bool))
+  (=> (= (bool2u X_3) (bool2u Y_4)) (= X_3 Y_4))))
+(assert
+  (forall ((X_3 u))
+  (! (=> (tla__in X_3 tla__BOOLEAN) (= (bool2u (boolify X_3)) X_3)) :pattern ((tla__in X_3 tla__BOOLEAN)))))
+(assert
+  (forall ((S_6 u) (T_7 u))
+  (=> (forall ((X_3 u)) (= (tla__in X_3 S_6) (tla__in X_3 T_7))) (= S_6 T_7))))
+
+;; Theorem to be Proved
+(assert (not
+  (=
+    (exists ((a_CONSTANTunde_xhash_enabledhash_prime1unde_a u))
+      (and
+        (tla__in a_VARIABLEunde_xunde_a tla__BOOLEAN)
+        (tla__in a_VARIABLEunde_xunde_a tla__BOOLEAN)
+        (=
+          a_CONSTANTunde_xhash_enabledhash_prime1unde_a
+          (bool2u (not (boolify a_VARIABLEunde_xunde_a))))
+        (not
+          (=
+            a_CONSTANTunde_xhash_enabledhash_prime1unde_a
+            a_VARIABLEunde_xunde_a))))
+    (exists ((a_CONSTANTunde_xhash_enabledhash_prime1unde_a u))
+      (and
+        (tla__in a_VARIABLEunde_xunde_a tla__BOOLEAN)
+        (=
+          a_CONSTANTunde_xhash_enabledhash_prime1unde_a
+          (bool2u (not (boolify a_VARIABLEunde_xunde_a))))
+        (not
+          (=
+            a_CONSTANTunde_xhash_enabledhash_prime1unde_a
+            a_VARIABLEunde_xunde_a)))))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/Enabled_test.tlaps/tlapm_e3a23c.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/Enabled_test.tlaps/tlapm_e3a23c.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #36
+;;   generated from file "./Enabled_test.tla", line 218, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_VARIABLEunde_yunde_a () u)
+
+
+;; Theorem to be Proved
+(assert (not
+  (=
+    (exists ((a_CONSTANTunde_xhash_enabledhash_prime1unde_a u))
+      (and
+        (boolify a_VARIABLEunde_yunde_a)
+        (boolify a_CONSTANTunde_xhash_enabledhash_prime1unde_a)))
+    (exists ((a_CONSTANTunde_xhash_enabledhash_prime1unde_a u))
+      (and
+        (boolify a_CONSTANTunde_xhash_enabledhash_prime1unde_a)
+        (boolify a_VARIABLEunde_yunde_a))))))
+
+(check-sat)
+(exit)
+
+File "./Enabled_test.tla", line 223, character 14:
+[INFO]: Auto-expanding the definition of operator:  C
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/Enabled_test.tlaps/tlapm_60932c.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/Enabled_test.tlaps/tlapm_60932c.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #38
+;;   generated from file "./Enabled_test.tla", line 238, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+
+;; Terms, predicates and strings
+(declare-fun a_VARIABLEunde_xunde_a () u)
+
+
+;; Theorem to be Proved
+(assert (not
+  (exists ((a_CONSTANTunde_xhash_enabledhash_prime1unde_a u))
+    (= a_CONSTANTunde_xhash_enabledhash_prime1unde_a a_VARIABLEunde_xunde_a))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/Enabled_test.tlaps/tlapm_d0c566.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/Enabled_test.tlaps/tlapm_d0c566.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #41
+;;   generated from file "./Enabled_test.tla", line 250, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_VARIABLEunde_xunde_hash_primea () u)
+(declare-fun a_VARIABLEunde_yunde_a () u)
+
+
+;; Theorem to be Proved
+(assert (not
+  (exists ((a_CONSTANTunde_xhash_enabledhash_prime1unde_a u))
+    (boolify a_CONSTANTunde_xhash_enabledhash_prime1unde_a))))
+(assert (boolify a_VARIABLEunde_yunde_a))
+(assert (boolify a_VARIABLEunde_xunde_hash_primea))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/Enabled_test.tlaps/tlapm_71a7c3.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/Enabled_test.tlaps/tlapm_71a7c3.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #43
+;;   generated from file "./Enabled_test.tla", line 261, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+
+;; Terms, predicates and strings
+
+
+;; Theorem to be Proved
+(assert (not true))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+(* created new ".tlacache/Enabled_test.tlaps/Enabled_test.thy" *)
+(* fingerprints written in ".tlacache/Enabled_test.tlaps/fingerprints" *)

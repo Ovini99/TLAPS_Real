@@ -1,0 +1,194 @@
+@!!BEGIN
+@!!type:warning
+@!!msg:File "./firstorder5_wproof_test.tla", line 1, character 1 to line 24, character 4 :
+Warning: module name "firstorder5_test" does not match file name "firstorder5_wproof_test.tla".
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:0
+@!!END
+
+File "/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library/TLAPS.tla", line 1, character 1 to line 363, character 77:
+[INFO]: All 0 obligation proved.
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:22:5:22:7
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:22:13:22:17
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:22:19:22:23
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:4
+@!!loc:22:25:22:29
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:5
+@!!loc:16:5:16:7
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:6
+@!!loc:16:8:16:12
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:7
+@!!loc:18:5:18:7
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:8
+@!!loc:18:8:18:12
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:9
+@!!loc:20:5:20:7
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:10
+@!!loc:20:8:20:12
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:10
+@!!END
+
+** Unexpanded symbols: ---
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:22:13:22:17
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:22:19:22:23
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:4
+@!!loc:22:25:22:29
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+** Unexpanded symbols: ---
+
+@!!BEGIN
+@!!type:obligation
+@!!id:6
+@!!loc:16:8:16:12
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+** Unexpanded symbols: ---
+
+@!!BEGIN
+@!!type:obligation
+@!!id:8
+@!!loc:18:8:18:12
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+** Unexpanded symbols: ---
+
+@!!BEGIN
+@!!type:obligation
+@!!id:10
+@!!loc:20:8:20:12
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:22:5:22:7
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:5
+@!!loc:16:5:16:7
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:7
+@!!loc:18:5:18:7
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:9
+@!!loc:20:5:20:7
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+File "./firstorder5_wproof_test.tla", line 1, character 1 to line 24, character 4:
+[INFO]: All 10 obligations proved.

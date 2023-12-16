@@ -1,0 +1,228 @@
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:0
+@!!END
+
+File "/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library/TLAPS.tla", line 1, character 1 to line 363, character 77:
+[INFO]: All 0 obligation proved.
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:31:5:31:7
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:31:13:31:17
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:31:19:31:23
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:4
+@!!loc:20:5:20:7
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:5
+@!!loc:23:5:23:12
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:6
+@!!loc:25:5:25:7
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:7
+@!!loc:25:8:25:12
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:8
+@!!loc:27:5:27:7
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:9
+@!!loc:27:8:27:12
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:10
+@!!loc:29:5:29:12
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:10
+@!!END
+
+** Unexpanded symbols: ---
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:31:13:31:17
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:31:19:31:23
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+** Unexpanded symbols: ---
+
+** Unexpanded symbols: ---
+
+** Unexpanded symbols: ---
+
+@!!BEGIN
+@!!type:obligation
+@!!id:7
+@!!loc:25:8:25:12
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+** Unexpanded symbols: ---
+
+@!!BEGIN
+@!!type:obligation
+@!!id:9
+@!!loc:27:8:27:12
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+** Unexpanded symbols: ---
+
+@!!BEGIN
+@!!type:obligation
+@!!id:5
+@!!loc:23:5:23:12
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.1 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:4
+@!!loc:20:5:20:7
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.1 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:31:5:31:7
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.1 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:8
+@!!loc:27:5:27:7
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:10
+@!!loc:29:5:29:12
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:6
+@!!loc:25:5:25:7
+@!!status:being proved
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!obl:
+ASSUME NEW CONSTANT E,
+       NEW CONSTANT f \in [E -> SUBSET E],
+       {x \in E : x \notin f[x]} \in SUBSET E ,
+       \A P \in SUBSET E : \E x \in E : f[x] = P 
+PROVE  \E d \in E : f[d] = {x \in E : x \notin f[x]}
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:6
+@!!loc:25:5:25:7
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 25.0 (100%)
+@!!reason:timeout
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT E,
+       NEW CONSTANT f \in [E -> SUBSET E],
+       {x \in E : x \notin f[x]} \in SUBSET E ,
+       \A P \in SUBSET E : \E x \in E : f[x] = P 
+PROVE  \E d \in E : f[d] = {x \in E : x \notin f[x]}
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:6
+@!!loc:25:5:25:7
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+File "./cantor1_test.tla", line 1, character 1 to line 33, character 4:
+[INFO]: All 10 obligations proved.

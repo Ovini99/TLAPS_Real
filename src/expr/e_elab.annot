@@ -1,0 +1,4298 @@
+"e_elab.ml" 7 102 109 "e_elab.ml" 7 102 110
+ident(
+  def B "e_elab.ml" 7 102 120 "e_elab.ml" 0 0 -1
+)
+"e_elab.ml" 12 145 152 "e_elab.ml" 12 145 157
+ident(
+  def Visit "e_elab.ml" 12 145 167 "e_elab.ml" 0 0 -1
+)
+"e_elab.ml" 13 168 175 "e_elab.ml" 13 168 184
+ident(
+  def Constness "e_elab.ml" 13 168 198 "e_elab.ml" 0 0 -1
+)
+"e_elab.ml" 14 199 206 "e_elab.ml" 14 199 209
+ident(
+  def Fmt "e_elab.ml" 14 199 217 "e_elab.ml" 0 0 -1
+)
+"e_elab.ml" 17 220 224 "e_elab.ml" 17 220 231
+type(
+  E_t.expr -> E_t.expr
+)
+ident(
+  def desugar "e_elab.ml" 57 1636 1636 "e_elab.ml" 0 0 -1
+)
+"e_elab.ml" 18 234 240 "e_elab.ml" 18 234 250
+type(
+  (E_t.expr * int) option ref
+)
+ident(
+  def current_at "e_elab.ml" 19 265 267 "e_elab.ml" 55 1596 1634
+)
+"e_elab.ml" 18 234 253 "e_elab.ml" 18 234 256
+type(
+  (E_t.expr * int) option -> (E_t.expr * int) option ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"e_elab.ml" 18 234 257 "e_elab.ml" 18 234 261
+type(
+  (E_t.expr * int) option
+)
+"e_elab.ml" 18 234 253 "e_elab.ml" 18 234 261
+type(
+  (E_t.expr * int) option ref
+)
+"e_elab.ml" 19 265 271 "e_elab.ml" 19 265 280
+type(
+  unit Visit.map
+)
+ident(
+  def at_expand "e_elab.ml" 53 1560 1562 "e_elab.ml" 55 1596 1634
+)
+"e_elab.ml" 19 265 291 "e_elab.ml" 19 265 295
+type(
+  unit Visit.map
+)
+type(
+  unit Visit.map
+)
+"e_elab.ml" 22 344 360 "e_elab.ml" 22 344 363
+type(
+  unit Visit.scx
+)
+ident(
+  def scx "e_elab.ml" 22 344 364 "e_elab.ml" 51 1524 1550
+)
+"e_elab.ml" 22 344 364 "e_elab.ml" 22 344 365
+type(
+  E_t.expr
+)
+ident(
+  def e "e_elab.ml" 22 344 368 "e_elab.ml" 51 1524 1550
+)
+"e_elab.ml" 22 344 374 "e_elab.ml" 22 344 375
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 22 344 364 "e_elab.ml" 22 344 365
+)
+"e_elab.ml" 22 344 374 "e_elab.ml" 22 344 380
+type(
+  E_t.expr_
+)
+"e_elab.ml" 23 386 397 "e_elab.ml" 23 386 401
+type(
+  bool
+)
+"e_elab.ml" 23 386 394 "e_elab.ml" 23 386 401
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_elab.ml" 24 411 427 "e_elab.ml" 24 411 428
+type(
+  (E_t.expr * int) option ref -> (E_t.expr * int) option
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"e_elab.ml" 24 411 428 "e_elab.ml" 24 411 438
+type(
+  (E_t.expr * int) option ref
+)
+ident(
+  int_ref current_at "e_elab.ml" 18 234 240 "e_elab.ml" 18 234 250
+)
+"e_elab.ml" 24 411 427 "e_elab.ml" 24 411 438
+type(
+  (E_t.expr * int) option
+)
+"e_elab.ml" 25 444 464 "e_elab.ml" 25 444 465
+type(
+  E_t.expr
+)
+ident(
+  def e "e_elab.ml" 26 475 491 "e_elab.ml" 27 531 592
+)
+"e_elab.ml" 25 444 467 "e_elab.ml" 25 444 470
+type(
+  int
+)
+ident(
+  def dep "e_elab.ml" 26 475 491 "e_elab.ml" 27 531 592
+)
+"e_elab.ml" 25 444 463 "e_elab.ml" 25 444 471
+type(
+  E_t.expr * int
+)
+"e_elab.ml" 25 444 458 "e_elab.ml" 25 444 471
+type(
+  (E_t.expr * int) option
+)
+type(
+  (E_t.expr * int) option
+)
+"e_elab.ml" 26 475 495 "e_elab.ml" 26 475 498
+type(
+  int
+)
+ident(
+  def shf "e_elab.ml" 27 531 547 "e_elab.ml" 27 531 592
+)
+"e_elab.ml" 26 475 501 "e_elab.ml" 26 475 511
+type(
+  E_t.hyp Deque.dq -> int
+)
+ident(
+  int_ref Deque.size "deque.mli" 11 162 162 "deque.mli" 11 162 186
+)
+"e_elab.ml" 26 475 513 "e_elab.ml" 26 475 516
+type(
+  unit Visit.scx -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"e_elab.ml" 26 475 517 "e_elab.ml" 26 475 520
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 22 344 360 "e_elab.ml" 22 344 363
+)
+"e_elab.ml" 26 475 512 "e_elab.ml" 26 475 521
+type(
+  E_t.hyp Deque.dq
+)
+"e_elab.ml" 26 475 501 "e_elab.ml" 26 475 521
+type(
+  int
+)
+"e_elab.ml" 26 475 522 "e_elab.ml" 26 475 523
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"e_elab.ml" 26 475 524 "e_elab.ml" 26 475 527
+type(
+  int
+)
+ident(
+  int_ref dep "e_elab.ml" 25 444 467 "e_elab.ml" 25 444 470
+)
+"e_elab.ml" 26 475 501 "e_elab.ml" 26 475 527
+type(
+  int
+)
+"e_elab.ml" 27 531 550 "e_elab.ml" 27 531 553
+type(
+  int
+)
+ident(
+  int_ref shf "e_elab.ml" 26 475 495 "e_elab.ml" 26 475 498
+)
+"e_elab.ml" 27 531 554 "e_elab.ml" 27 531 555
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_elab.ml" 27 531 556 "e_elab.ml" 27 531 557
+type(
+  int
+)
+"e_elab.ml" 27 531 550 "e_elab.ml" 27 531 557
+type(
+  bool
+)
+"e_elab.ml" 27 531 563 "e_elab.ml" 27 531 564
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 25 444 464 "e_elab.ml" 25 444 465
+)
+"e_elab.ml" 27 531 570 "e_elab.ml" 27 531 578
+type(
+  E_subst.sub -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref E_subst.app_expr "e_subst.mli" 20 405 405 "e_subst.mli" 20 405 439
+)
+"e_elab.ml" 27 531 580 "e_elab.ml" 27 531 585
+type(
+  int -> E_subst.sub
+)
+ident(
+  int_ref E_subst.shift "e_subst.mli" 11 132 132 "e_subst.mli" 11 132 154
+)
+"e_elab.ml" 27 531 586 "e_elab.ml" 27 531 589
+type(
+  int
+)
+ident(
+  int_ref shf "e_elab.ml" 26 475 495 "e_elab.ml" 26 475 498
+)
+"e_elab.ml" 27 531 579 "e_elab.ml" 27 531 590
+type(
+  E_subst.sub
+)
+"e_elab.ml" 27 531 591 "e_elab.ml" 27 531 592
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 25 444 464 "e_elab.ml" 25 444 465
+)
+"e_elab.ml" 27 531 570 "e_elab.ml" 27 531 592
+type(
+  E_t.expr
+)
+"e_elab.ml" 27 531 547 "e_elab.ml" 27 531 592
+type(
+  E_t.expr
+)
+"e_elab.ml" 26 475 491 "e_elab.ml" 27 531 592
+type(
+  E_t.expr
+)
+"e_elab.ml" 28 593 607 "e_elab.ml" 28 593 611
+type(
+  (E_t.expr * int) option
+)
+type(
+  (E_t.expr * int) option
+)
+"e_elab.ml" 29 615 631 "e_elab.ml" 29 615 632
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 22 344 364 "e_elab.ml" 22 344 365
+)
+"e_elab.ml" 23 386 405 "e_elab.ml" 30 633 644
+type(
+  E_t.expr
+)
+"e_elab.ml" 31 645 661 "e_elab.ml" 31 645 662
+type(
+  E_t.expr
+)
+ident(
+  def f "e_elab.ml" 32 671 681 "e_elab.ml" 49 1499 1510
+)
+"e_elab.ml" 31 645 664 "e_elab.ml" 31 645 666
+type(
+  E_t.exspec list
+)
+ident(
+  def xs "e_elab.ml" 32 671 681 "e_elab.ml" 49 1499 1510
+)
+"e_elab.ml" 31 645 653 "e_elab.ml" 31 645 667
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_elab.ml" 32 671 685 "e_elab.ml" 32 671 692
+type(
+  (E_t.expr * int) option
+)
+ident(
+  def at_save "e_elab.ml" 33 710 720 "e_elab.ml" 49 1499 1510
+)
+"e_elab.ml" 32 671 695 "e_elab.ml" 32 671 696
+type(
+  (E_t.expr * int) option ref -> (E_t.expr * int) option
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"e_elab.ml" 32 671 696 "e_elab.ml" 32 671 706
+type(
+  (E_t.expr * int) option ref
+)
+ident(
+  int_ref current_at "e_elab.ml" 18 234 240 "e_elab.ml" 18 234 250
+)
+"e_elab.ml" 32 671 695 "e_elab.ml" 32 671 706
+type(
+  (E_t.expr * int) option
+)
+"e_elab.ml" 33 710 724 "e_elab.ml" 33 710 725
+type(
+  E_t.expr
+)
+ident(
+  def f "e_elab.ml" 34 747 757 "e_elab.ml" 49 1499 1510
+)
+"e_elab.ml" 33 710 728 "e_elab.ml" 33 710 732
+type(
+  unit Visit.map
+)
+ident(
+  ext_ref self-1
+)
+"e_elab.ml" 33 710 728 "e_elab.ml" 33 710 737
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 33 710 738 "e_elab.ml" 33 710 741
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 22 344 360 "e_elab.ml" 22 344 363
+)
+"e_elab.ml" 33 710 742 "e_elab.ml" 33 710 743
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_elab.ml" 31 645 661 "e_elab.ml" 31 645 662
+)
+"e_elab.ml" 33 710 728 "e_elab.ml" 33 710 743
+type(
+  E_t.expr
+)
+"e_elab.ml" 34 747 761 "e_elab.ml" 34 747 762
+type(
+  E_t.expr
+)
+ident(
+  def f "e_elab.ml" 49 1499 1509 "e_elab.ml" 49 1499 1510
+)
+"e_elab.ml" 34 747 765 "e_elab.ml" 34 747 779
+type(
+  (E_t.expr -> E_t.exspec -> E_t.expr) ->
+  E_t.expr -> E_t.exspec list -> E_t.expr
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 211 7387 7387 "list.mli" 211 7387 7442
+)
+"e_elab.ml" 35 786 802 "e_elab.ml" 35 786 803
+type(
+  E_t.expr
+)
+ident(
+  def f "e_elab.ml" 35 786 804 "e_elab.ml" 47 1420 1476
+)
+"e_elab.ml" 35 786 805 "e_elab.ml" 35 786 810
+type(
+  E_t.expoint list
+)
+ident(
+  def trail "e_elab.ml" 36 820 834 "e_elab.ml" 47 1420 1476
+)
+"e_elab.ml" 35 786 812 "e_elab.ml" 35 786 815
+type(
+  E_t.expr
+)
+ident(
+  def bod "e_elab.ml" 36 820 834 "e_elab.ml" 47 1420 1476
+)
+"e_elab.ml" 35 786 804 "e_elab.ml" 35 786 816
+type(
+  E_t.expoint list * E_t.expr
+)
+"e_elab.ml" 36 820 839 "e_elab.ml" 36 820 844
+type(
+  E_t.expoint list
+)
+ident(
+  def trail "e_elab.ml" 43 1211 1225 "e_elab.ml" 47 1420 1476
+)
+"e_elab.ml" 36 820 846 "e_elab.ml" 36 820 848
+type(
+  E_t.expr
+)
+ident(
+  def at "e_elab.ml" 43 1211 1225 "e_elab.ml" 47 1420 1476
+)
+"e_elab.ml" 36 820 838 "e_elab.ml" 36 820 849
+type(
+  E_t.expoint list * E_t.expr
+)
+"e_elab.ml" 36 820 852 "e_elab.ml" 36 820 866
+type(
+  (E_t.expoint list * E_t.expr -> E_t.expoint -> E_t.expoint list * E_t.expr) ->
+  E_t.expoint list * E_t.expr ->
+  E_t.expoint list -> E_t.expoint list * E_t.expr
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 211 7387 7387 "list.mli" 211 7387 7442
+)
+"e_elab.ml" 37 873 894 "e_elab.ml" 37 873 899
+type(
+  E_t.expoint list
+)
+ident(
+  def trail "e_elab.ml" 37 873 907 "e_elab.ml" 41 1093 1175
+)
+"e_elab.ml" 37 873 901 "e_elab.ml" 37 873 902
+type(
+  E_t.expr
+)
+ident(
+  def f "e_elab.ml" 37 873 907 "e_elab.ml" 41 1093 1175
+)
+"e_elab.ml" 37 873 893 "e_elab.ml" 37 873 903
+type(
+  E_t.expoint list * E_t.expr
+)
+"e_elab.ml" 38 916 947 "e_elab.ml" 38 916 948
+type(
+  string
+)
+ident(
+  def x "e_elab.ml" 38 916 952 "e_elab.ml" 38 916 1005
+)
+"e_elab.ml" 38 916 936 "e_elab.ml" 38 916 948
+type(
+  E_t.expoint
+)
+"e_elab.ml" 38 916 964 "e_elab.ml" 38 916 965
+type(
+  string
+)
+ident(
+  int_ref x "e_elab.ml" 38 916 947 "e_elab.ml" 38 916 948
+)
+"e_elab.ml" 38 916 953 "e_elab.ml" 38 916 965
+type(
+  E_t.expoint
+)
+"e_elab.ml" 38 916 969 "e_elab.ml" 38 916 974
+type(
+  E_t.expoint list
+)
+ident(
+  int_ref trail "e_elab.ml" 37 873 894 "e_elab.ml" 37 873 899
+)
+"e_elab.ml" 38 916 953 "e_elab.ml" 38 916 974
+type(
+  E_t.expoint list
+)
+"e_elab.ml" 38 916 978 "e_elab.ml" 38 916 979
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_elab.ml" 37 873 901 "e_elab.ml" 37 873 902
+)
+"e_elab.ml" 38 916 997 "e_elab.ml" 38 916 998
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_elab.ml" 37 873 901 "e_elab.ml" 37 873 902
+)
+"e_elab.ml" 38 916 1000 "e_elab.ml" 38 916 1001
+type(
+  string
+)
+ident(
+  int_ref x "e_elab.ml" 38 916 947 "e_elab.ml" 38 916 948
+)
+"e_elab.ml" 38 916 992 "e_elab.ml" 38 916 1002
+type(
+  E_t.expr_
+)
+"e_elab.ml" 38 916 976 "e_elab.ml" 38 916 1004
+type(
+  E_t.expr
+)
+"e_elab.ml" 38 916 952 "e_elab.ml" 38 916 1005
+type(
+  E_t.expoint list * E_t.expr
+)
+"e_elab.ml" 39 1006 1039 "e_elab.ml" 39 1006 1040
+type(
+  E_t.expr
+)
+ident(
+  def k "e_elab.ml" 40 1044 1066 "e_elab.ml" 41 1093 1175
+)
+"e_elab.ml" 39 1006 1026 "e_elab.ml" 39 1006 1040
+type(
+  E_t.expoint
+)
+"e_elab.ml" 40 1044 1070 "e_elab.ml" 40 1044 1071
+type(
+  E_t.expr
+)
+ident(
+  def k "e_elab.ml" 41 1093 1115 "e_elab.ml" 41 1093 1175
+)
+"e_elab.ml" 40 1044 1074 "e_elab.ml" 40 1044 1078
+type(
+  unit Visit.map
+)
+ident(
+  ext_ref self-1
+)
+"e_elab.ml" 40 1044 1074 "e_elab.ml" 40 1044 1083
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 40 1044 1084 "e_elab.ml" 40 1044 1087
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 22 344 360 "e_elab.ml" 22 344 363
+)
+"e_elab.ml" 40 1044 1088 "e_elab.ml" 40 1044 1089
+type(
+  E_t.expr
+)
+ident(
+  int_ref k "e_elab.ml" 39 1006 1039 "e_elab.ml" 39 1006 1040
+)
+"e_elab.ml" 40 1044 1074 "e_elab.ml" 40 1044 1089
+type(
+  E_t.expr
+)
+"e_elab.ml" 41 1093 1129 "e_elab.ml" 41 1093 1130
+type(
+  E_t.expr
+)
+ident(
+  int_ref k "e_elab.ml" 40 1044 1070 "e_elab.ml" 40 1044 1071
+)
+"e_elab.ml" 41 1093 1116 "e_elab.ml" 41 1093 1130
+type(
+  E_t.expoint
+)
+"e_elab.ml" 41 1093 1134 "e_elab.ml" 41 1093 1139
+type(
+  E_t.expoint list
+)
+ident(
+  int_ref trail "e_elab.ml" 37 873 894 "e_elab.ml" 37 873 899
+)
+"e_elab.ml" 41 1093 1116 "e_elab.ml" 41 1093 1139
+type(
+  E_t.expoint list
+)
+"e_elab.ml" 41 1093 1143 "e_elab.ml" 41 1093 1144
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_elab.ml" 37 873 901 "e_elab.ml" 37 873 902
+)
+"e_elab.ml" 41 1093 1165 "e_elab.ml" 41 1093 1166
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_elab.ml" 37 873 901 "e_elab.ml" 37 873 902
+)
+"e_elab.ml" 41 1093 1169 "e_elab.ml" 41 1093 1170
+type(
+  E_t.expr
+)
+ident(
+  int_ref k "e_elab.ml" 40 1044 1070 "e_elab.ml" 40 1044 1071
+)
+"e_elab.ml" 41 1093 1168 "e_elab.ml" 41 1093 1171
+type(
+  E_t.expr list
+)
+"e_elab.ml" 41 1093 1157 "e_elab.ml" 41 1093 1172
+type(
+  E_t.expr_
+)
+"e_elab.ml" 41 1093 1141 "e_elab.ml" 41 1093 1174
+type(
+  E_t.expr
+)
+"e_elab.ml" 41 1093 1115 "e_elab.ml" 41 1093 1175
+type(
+  E_t.expoint list * E_t.expr
+)
+"e_elab.ml" 40 1044 1066 "e_elab.ml" 41 1093 1175
+type(
+  E_t.expoint list * E_t.expr
+)
+"e_elab.ml" 37 873 907 "e_elab.ml" 41 1093 1175
+type(
+  E_t.expoint -> E_t.expoint list * E_t.expr
+)
+"e_elab.ml" 36 820 867 "e_elab.ml" 42 1176 1193
+type(
+  E_t.expoint list * E_t.expr -> E_t.expoint -> E_t.expoint list * E_t.expr
+)
+"e_elab.ml" 42 1176 1195 "e_elab.ml" 42 1176 1197
+type(
+  E_t.expoint list
+)
+"e_elab.ml" 42 1176 1199 "e_elab.ml" 42 1176 1200
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_elab.ml" 35 786 802 "e_elab.ml" 35 786 803
+)
+"e_elab.ml" 42 1176 1194 "e_elab.ml" 42 1176 1201
+type(
+  E_t.expoint list * E_t.expr
+)
+"e_elab.ml" 42 1176 1202 "e_elab.ml" 42 1176 1207
+type(
+  E_t.expoint list
+)
+ident(
+  int_ref trail "e_elab.ml" 35 786 805 "e_elab.ml" 35 786 810
+)
+"e_elab.ml" 36 820 852 "e_elab.ml" 42 1176 1207
+type(
+  E_t.expoint list * E_t.expr
+)
+"e_elab.ml" 43 1211 1229 "e_elab.ml" 43 1211 1234
+type(
+  E_t.expoint list
+)
+ident(
+  def trail "e_elab.ml" 44 1255 1269 "e_elab.ml" 47 1420 1476
+)
+"e_elab.ml" 43 1211 1237 "e_elab.ml" 43 1211 1245
+type(
+  E_t.expoint list -> E_t.expoint list
+)
+ident(
+  int_ref Stdlib.List.rev "list.mli" 90 3519 3519 "list.mli" 90 3519 3547
+)
+"e_elab.ml" 43 1211 1246 "e_elab.ml" 43 1211 1251
+type(
+  E_t.expoint list
+)
+ident(
+  int_ref trail "e_elab.ml" 36 820 839 "e_elab.ml" 36 820 844
+)
+"e_elab.ml" 43 1211 1237 "e_elab.ml" 43 1211 1251
+type(
+  E_t.expoint list
+)
+"e_elab.ml" 44 1255 1273 "e_elab.ml" 44 1255 1275
+type(
+  unit
+)
+type(
+  unit
+)
+"e_elab.ml" 44 1255 1278 "e_elab.ml" 44 1255 1288
+type(
+  (E_t.expr * int) option ref
+)
+ident(
+  int_ref current_at "e_elab.ml" 18 234 240 "e_elab.ml" 18 234 250
+)
+"e_elab.ml" 44 1255 1289 "e_elab.ml" 44 1255 1291
+type(
+  (E_t.expr * int) option ref -> (E_t.expr * int) option -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"e_elab.ml" 44 1255 1298 "e_elab.ml" 44 1255 1300
+type(
+  E_t.expr
+)
+ident(
+  int_ref at "e_elab.ml" 36 820 846 "e_elab.ml" 36 820 848
+)
+"e_elab.ml" 44 1255 1302 "e_elab.ml" 44 1255 1312
+type(
+  E_t.hyp Deque.dq -> int
+)
+ident(
+  int_ref Deque.size "deque.mli" 11 162 162 "deque.mli" 11 162 186
+)
+"e_elab.ml" 44 1255 1314 "e_elab.ml" 44 1255 1317
+type(
+  unit Visit.scx -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"e_elab.ml" 44 1255 1318 "e_elab.ml" 44 1255 1321
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 22 344 360 "e_elab.ml" 22 344 363
+)
+"e_elab.ml" 44 1255 1313 "e_elab.ml" 44 1255 1322
+type(
+  E_t.hyp Deque.dq
+)
+"e_elab.ml" 44 1255 1302 "e_elab.ml" 44 1255 1322
+type(
+  int
+)
+"e_elab.ml" 44 1255 1297 "e_elab.ml" 44 1255 1323
+type(
+  E_t.expr * int
+)
+"e_elab.ml" 44 1255 1292 "e_elab.ml" 44 1255 1323
+type(
+  (E_t.expr * int) option
+)
+"e_elab.ml" 44 1255 1278 "e_elab.ml" 44 1255 1323
+type(
+  unit
+)
+"e_elab.ml" 45 1327 1345 "e_elab.ml" 45 1327 1348
+type(
+  E_t.expr
+)
+ident(
+  def bod "e_elab.ml" 46 1372 1386 "e_elab.ml" 47 1420 1476
+)
+"e_elab.ml" 45 1327 1351 "e_elab.ml" 45 1327 1355
+type(
+  unit Visit.map
+)
+ident(
+  ext_ref self-1
+)
+"e_elab.ml" 45 1327 1351 "e_elab.ml" 45 1327 1360
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 45 1327 1361 "e_elab.ml" 45 1327 1364
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 22 344 360 "e_elab.ml" 22 344 363
+)
+"e_elab.ml" 45 1327 1365 "e_elab.ml" 45 1327 1368
+type(
+  E_t.expr
+)
+ident(
+  int_ref bod "e_elab.ml" 35 786 812 "e_elab.ml" 35 786 815
+)
+"e_elab.ml" 45 1327 1351 "e_elab.ml" 45 1327 1368
+type(
+  E_t.expr
+)
+"e_elab.ml" 46 1372 1390 "e_elab.ml" 46 1372 1392
+type(
+  unit
+)
+type(
+  unit
+)
+"e_elab.ml" 46 1372 1395 "e_elab.ml" 46 1372 1405
+type(
+  (E_t.expr * int) option ref
+)
+ident(
+  int_ref current_at "e_elab.ml" 18 234 240 "e_elab.ml" 18 234 250
+)
+"e_elab.ml" 46 1372 1406 "e_elab.ml" 46 1372 1408
+type(
+  (E_t.expr * int) option ref -> (E_t.expr * int) option -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"e_elab.ml" 46 1372 1409 "e_elab.ml" 46 1372 1416
+type(
+  (E_t.expr * int) option
+)
+ident(
+  int_ref at_save "e_elab.ml" 32 671 685 "e_elab.ml" 32 671 692
+)
+"e_elab.ml" 46 1372 1395 "e_elab.ml" 46 1372 1416
+type(
+  unit
+)
+"e_elab.ml" 47 1420 1435 "e_elab.ml" 47 1420 1436
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 22 344 364 "e_elab.ml" 22 344 365
+)
+"e_elab.ml" 47 1420 1457 "e_elab.ml" 47 1420 1458
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_elab.ml" 35 786 802 "e_elab.ml" 35 786 803
+)
+"e_elab.ml" 47 1420 1462 "e_elab.ml" 47 1420 1467
+type(
+  E_t.expoint list
+)
+ident(
+  int_ref trail "e_elab.ml" 43 1211 1229 "e_elab.ml" 43 1211 1234
+)
+"e_elab.ml" 47 1420 1469 "e_elab.ml" 47 1420 1472
+type(
+  E_t.expr
+)
+ident(
+  int_ref bod "e_elab.ml" 45 1327 1345 "e_elab.ml" 45 1327 1348
+)
+"e_elab.ml" 47 1420 1461 "e_elab.ml" 47 1420 1473
+type(
+  E_t.exspec
+)
+"e_elab.ml" 47 1420 1460 "e_elab.ml" 47 1420 1474
+type(
+  E_t.exspec list
+)
+"e_elab.ml" 47 1420 1449 "e_elab.ml" 47 1420 1475
+type(
+  E_t.expr_
+)
+"e_elab.ml" 47 1420 1434 "e_elab.ml" 47 1420 1476
+type(
+  E_t.expr
+)
+"e_elab.ml" 46 1372 1386 "e_elab.ml" 47 1420 1476
+type(
+  E_t.expr
+)
+"e_elab.ml" 45 1327 1341 "e_elab.ml" 47 1420 1476
+type(
+  E_t.expr
+)
+"e_elab.ml" 44 1255 1269 "e_elab.ml" 47 1420 1476
+type(
+  E_t.expr
+)
+"e_elab.ml" 43 1211 1225 "e_elab.ml" 47 1420 1476
+type(
+  E_t.expr
+)
+"e_elab.ml" 36 820 834 "e_elab.ml" 47 1420 1476
+type(
+  E_t.expr
+)
+"e_elab.ml" 34 747 780 "e_elab.ml" 48 1477 1490
+type(
+  E_t.expr -> E_t.exspec -> E_t.expr
+)
+"e_elab.ml" 48 1477 1491 "e_elab.ml" 48 1477 1492
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_elab.ml" 33 710 724 "e_elab.ml" 33 710 725
+)
+"e_elab.ml" 48 1477 1493 "e_elab.ml" 48 1477 1495
+type(
+  E_t.exspec list
+)
+ident(
+  int_ref xs "e_elab.ml" 31 645 664 "e_elab.ml" 31 645 666
+)
+"e_elab.ml" 34 747 765 "e_elab.ml" 48 1477 1495
+type(
+  E_t.expr
+)
+"e_elab.ml" 49 1499 1509 "e_elab.ml" 49 1499 1510
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_elab.ml" 34 747 761 "e_elab.ml" 34 747 762
+)
+"e_elab.ml" 34 747 757 "e_elab.ml" 49 1499 1510
+type(
+  E_t.expr
+)
+"e_elab.ml" 33 710 720 "e_elab.ml" 49 1499 1510
+type(
+  E_t.expr
+)
+"e_elab.ml" 32 671 681 "e_elab.ml" 49 1499 1510
+type(
+  E_t.expr
+)
+"e_elab.ml" 50 1511 1519 "e_elab.ml" 50 1511 1520
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_elab.ml" 51 1524 1534 "e_elab.ml" 51 1524 1539
+type(
+  unit Visit.map
+)
+ident(
+  ext_ref self-1
+)
+type(
+  unit Visit.map
+)
+ident(
+  int_ref super "e_elab.ml" 20 305 317 "e_elab.ml" 20 305 333
+)
+"e_elab.ml" 51 1524 1534 "e_elab.ml" 51 1524 1544
+type(
+  unit Visit.map -> unit Visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 51 1524 1545 "e_elab.ml" 51 1524 1548
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 22 344 360 "e_elab.ml" 22 344 363
+)
+"e_elab.ml" 51 1524 1549 "e_elab.ml" 51 1524 1550
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 22 344 364 "e_elab.ml" 22 344 365
+)
+"e_elab.ml" 51 1524 1534 "e_elab.ml" 51 1524 1550
+type(
+  E_t.expr
+)
+"e_elab.ml" 22 344 368 "e_elab.ml" 51 1524 1550
+type(
+  E_t.expr
+)
+"e_elab.ml" 19 265 283 "e_elab.ml" 52 1551 1556
+type(
+  unit Visit.map
+)
+"e_elab.ml" 53 1560 1566 "e_elab.ml" 53 1560 1567
+type(
+  E_t.expr
+)
+ident(
+  def e "e_elab.ml" 54 1571 1575 "e_elab.ml" 55 1596 1634
+)
+"e_elab.ml" 54 1571 1575 "e_elab.ml" 54 1571 1585
+type(
+  (E_t.expr * int) option ref
+)
+ident(
+  int_ref current_at "e_elab.ml" 18 234 240 "e_elab.ml" 18 234 250
+)
+"e_elab.ml" 54 1571 1586 "e_elab.ml" 54 1571 1588
+type(
+  (E_t.expr * int) option ref -> (E_t.expr * int) option -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"e_elab.ml" 54 1571 1589 "e_elab.ml" 54 1571 1593
+type(
+  (E_t.expr * int) option
+)
+"e_elab.ml" 54 1571 1575 "e_elab.ml" 54 1571 1593
+type(
+  unit
+)
+"e_elab.ml" 55 1596 1600 "e_elab.ml" 55 1596 1609
+type(
+  unit Visit.map
+)
+ident(
+  int_ref at_expand "e_elab.ml" 19 265 271 "e_elab.ml" 19 265 280
+)
+"e_elab.ml" 55 1596 1600 "e_elab.ml" 55 1596 1614
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 55 1596 1616 "e_elab.ml" 55 1596 1618
+type(
+  unit
+)
+"e_elab.ml" 55 1596 1620 "e_elab.ml" 55 1596 1631
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"e_elab.ml" 55 1596 1615 "e_elab.ml" 55 1596 1632
+type(
+  unit Visit.scx
+)
+"e_elab.ml" 55 1596 1633 "e_elab.ml" 55 1596 1634
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 53 1560 1566 "e_elab.ml" 53 1560 1567
+)
+"e_elab.ml" 55 1596 1600 "e_elab.ml" 55 1596 1634
+type(
+  E_t.expr
+)
+"e_elab.ml" 54 1571 1575 "e_elab.ml" 55 1596 1634
+type(
+  E_t.expr
+)
+"e_elab.ml" 53 1560 1562 "e_elab.ml" 55 1596 1634
+type(
+  E_t.expr -> E_t.expr
+)
+"e_elab.ml" 19 265 267 "e_elab.ml" 55 1596 1634
+type(
+  E_t.expr -> E_t.expr
+)
+"e_elab.ml" 18 234 236 "e_elab.ml" 55 1596 1634
+type(
+  E_t.expr -> E_t.expr
+)
+"e_elab.ml" 57 1636 1640 "e_elab.ml" 57 1636 1652
+type(
+  E_t.expr -> bool
+)
+ident(
+  def non_temporal "e_elab.ml" 79 2263 2263 "e_elab.ml" 0 0 -1
+)
+"e_elab.ml" 58 1655 1661 "e_elab.ml" 58 1655 1668
+type(
+  bool ref Visit.iter
+)
+ident(
+  def visitor "e_elab.ml" 74 2173 2175 "e_elab.ml" 77 2252 2261
+)
+"e_elab.ml" 58 1655 1679 "e_elab.ml" 58 1655 1683
+type(
+  bool ref Visit.iter
+)
+type(
+  bool ref Visit.iter
+)
+"e_elab.ml" 60 1736 1752 "e_elab.ml" 60 1736 1756
+type(
+  bool ref
+)
+ident(
+  def good "e_elab.ml" 60 1736 1768 "e_elab.ml" 63 1855 1883
+)
+"e_elab.ml" 60 1736 1758 "e_elab.ml" 60 1736 1759
+type(
+  E_t.hyp Deque.dq
+)
+"e_elab.ml" 60 1736 1752 "e_elab.ml" 60 1736 1759
+type(
+  bool ref * E_t.hyp Deque.dq
+)
+"e_elab.ml" 60 1736 1751 "e_elab.ml" 60 1736 1767
+type(
+  bool ref * E_t.hyp Deque.dq
+)
+ident(
+  def scx "e_elab.ml" 60 1736 1768 "e_elab.ml" 63 1855 1883
+)
+"e_elab.ml" 60 1736 1768 "e_elab.ml" 60 1736 1769
+type(
+  E_t.hyp
+)
+ident(
+  def h "e_elab.ml" 60 1736 1772 "e_elab.ml" 63 1855 1883
+)
+"e_elab.ml" 60 1736 1778 "e_elab.ml" 60 1736 1779
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_elab.ml" 60 1736 1768 "e_elab.ml" 60 1736 1769
+)
+"e_elab.ml" 60 1736 1778 "e_elab.ml" 60 1736 1784
+type(
+  E_t.hyp_
+)
+"e_elab.ml" 61 1790 1804 "e_elab.ml" 61 1790 1805
+type(
+  E_t.defn
+)
+"e_elab.ml" 61 1790 1807 "e_elab.ml" 61 1790 1808
+type(
+  E_t.wheredef
+)
+"e_elab.ml" 61 1790 1810 "e_elab.ml" 61 1790 1816
+type(
+  E_t.visibility
+)
+"e_elab.ml" 61 1790 1818 "e_elab.ml" 61 1790 1819
+type(
+  E_t.export
+)
+"e_elab.ml" 61 1790 1798 "e_elab.ml" 61 1790 1820
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_elab.ml" 62 1821 1835 "e_elab.ml" 62 1821 1836
+type(
+  E_t.expr
+)
+"e_elab.ml" 62 1821 1838 "e_elab.ml" 62 1821 1844
+type(
+  E_t.visibility
+)
+"e_elab.ml" 62 1821 1845 "e_elab.ml" 62 1821 1846
+type(
+  E_t.time
+)
+"e_elab.ml" 62 1821 1829 "e_elab.ml" 62 1821 1847
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_elab.ml" 61 1790 1798 "e_elab.ml" 62 1821 1847
+type(
+  E_t.hyp_
+)
+"e_elab.ml" 62 1821 1851 "e_elab.ml" 62 1821 1854
+type(
+  bool ref Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 60 1736 1751 "e_elab.ml" 60 1736 1767
+)
+"e_elab.ml" 63 1855 1863 "e_elab.ml" 63 1855 1864
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_elab.ml" 63 1855 1868 "e_elab.ml" 63 1855 1873
+type(
+  bool ref Visit.iter
+)
+ident(
+  ext_ref self-2
+)
+type(
+  bool ref Visit.iter
+)
+ident(
+  int_ref super "e_elab.ml" 59 1693 1705 "e_elab.ml" 59 1693 1726
+)
+"e_elab.ml" 63 1855 1868 "e_elab.ml" 63 1855 1877
+type(
+  bool ref Visit.iter -> bool ref Visit.scx -> E_t.hyp -> bool ref Visit.scx
+)
+ident(
+  ext_ref hyp
+)
+type(
+  bool ref Visit.scx -> E_t.hyp -> bool ref Visit.scx
+)
+type(
+  bool ref Visit.scx -> E_t.hyp -> bool ref Visit.scx
+)
+"e_elab.ml" 63 1855 1878 "e_elab.ml" 63 1855 1881
+type(
+  bool ref Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 60 1736 1751 "e_elab.ml" 60 1736 1767
+)
+"e_elab.ml" 63 1855 1882 "e_elab.ml" 63 1855 1883
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_elab.ml" 60 1736 1768 "e_elab.ml" 60 1736 1769
+)
+"e_elab.ml" 63 1855 1868 "e_elab.ml" 63 1855 1883
+type(
+  bool ref Visit.scx
+)
+"e_elab.ml" 60 1736 1772 "e_elab.ml" 63 1855 1883
+type(
+  bool ref Visit.scx
+)
+"e_elab.ml" 64 1884 1901 "e_elab.ml" 64 1884 1905
+type(
+  bool ref
+)
+ident(
+  def good "e_elab.ml" 64 1884 1917 "e_elab.ml" 72 2136 2163
+)
+"e_elab.ml" 64 1884 1907 "e_elab.ml" 64 1884 1908
+type(
+  E_t.hyp Deque.dq
+)
+"e_elab.ml" 64 1884 1901 "e_elab.ml" 64 1884 1908
+type(
+  bool ref * E_t.hyp Deque.dq
+)
+"e_elab.ml" 64 1884 1900 "e_elab.ml" 64 1884 1916
+type(
+  bool ref * E_t.hyp Deque.dq
+)
+ident(
+  def scx "e_elab.ml" 64 1884 1917 "e_elab.ml" 72 2136 2163
+)
+"e_elab.ml" 64 1884 1917 "e_elab.ml" 64 1884 1919
+type(
+  E_t.expr
+)
+ident(
+  def oe "e_elab.ml" 64 1884 1922 "e_elab.ml" 72 2136 2163
+)
+"e_elab.ml" 64 1884 1928 "e_elab.ml" 64 1884 1930
+type(
+  E_t.expr
+)
+ident(
+  int_ref oe "e_elab.ml" 64 1884 1917 "e_elab.ml" 64 1884 1919
+)
+"e_elab.ml" 64 1884 1928 "e_elab.ml" 64 1884 1935
+type(
+  E_t.expr_
+)
+"e_elab.ml" 65 1941 1982 "e_elab.ml" 65 1941 1983
+type(
+  bool
+)
+"e_elab.ml" 65 1941 1976 "e_elab.ml" 65 1941 1983
+type(
+  Builtin.builtin
+)
+"e_elab.ml" 65 1941 1986 "e_elab.ml" 65 1941 1995
+type(
+  Builtin.builtin
+)
+"e_elab.ml" 65 1941 1976 "e_elab.ml" 65 1941 1995
+type(
+  Builtin.builtin
+)
+"e_elab.ml" 65 1941 1998 "e_elab.ml" 65 1941 2007
+type(
+  Builtin.builtin
+)
+"e_elab.ml" 65 1941 1976 "e_elab.ml" 65 1941 2007
+type(
+  Builtin.builtin
+)
+"e_elab.ml" 66 2010 2022 "e_elab.ml" 66 2010 2031
+type(
+  Builtin.builtin
+)
+"e_elab.ml" 65 1941 1976 "e_elab.ml" 66 2010 2031
+type(
+  Builtin.builtin
+)
+"e_elab.ml" 66 2010 2034 "e_elab.ml" 66 2010 2040
+type(
+  Builtin.builtin
+)
+"e_elab.ml" 65 1941 1975 "e_elab.ml" 67 2041 2054
+type(
+  Builtin.builtin
+)
+"e_elab.ml" 65 1941 1966 "e_elab.ml" 67 2041 2054
+type(
+  E_t.expr_
+)
+"e_elab.ml" 65 1941 1958 "e_elab.ml" 67 2041 2055
+type(
+  E_t.expr
+)
+"e_elab.ml" 67 2041 2057 "e_elab.ml" 67 2041 2058
+type(
+  E_t.expr list
+)
+"e_elab.ml" 65 1941 1951 "e_elab.ml" 67 2041 2059
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_elab.ml" 68 2060 2075 "e_elab.ml" 68 2060 2076
+type(
+  E_t.expr
+)
+type(
+  E_t.expr
+)
+type(
+  E_t.modal_op
+)
+"e_elab.ml" 68 2060 2070 "e_elab.ml" 68 2060 2076
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_elab.ml" 65 1941 1951 "e_elab.ml" 68 2060 2076
+type(
+  E_t.expr_
+)
+"e_elab.ml" 68 2060 2084 "e_elab.ml" 68 2060 2085
+type(
+  E_t.expr
+)
+type(
+  E_t.expr
+)
+type(
+  E_t.fairness_op
+)
+"e_elab.ml" 68 2060 2079 "e_elab.ml" 68 2060 2085
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_elab.ml" 65 1941 1949 "e_elab.ml" 69 2086 2095
+type(
+  E_t.expr_
+)
+"e_elab.ml" 70 2099 2109 "e_elab.ml" 70 2099 2113
+type(
+  bool ref
+)
+ident(
+  int_ref good "e_elab.ml" 64 1884 1901 "e_elab.ml" 64 1884 1905
+)
+"e_elab.ml" 70 2099 2114 "e_elab.ml" 70 2099 2116
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"e_elab.ml" 70 2099 2117 "e_elab.ml" 70 2099 2122
+type(
+  bool
+)
+"e_elab.ml" 70 2099 2109 "e_elab.ml" 70 2099 2122
+type(
+  unit
+)
+"e_elab.ml" 71 2123 2131 "e_elab.ml" 71 2123 2132
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_elab.ml" 72 2136 2146 "e_elab.ml" 72 2136 2151
+type(
+  bool ref Visit.iter
+)
+ident(
+  ext_ref self-2
+)
+type(
+  bool ref Visit.iter
+)
+ident(
+  int_ref super "e_elab.ml" 59 1693 1705 "e_elab.ml" 59 1693 1726
+)
+"e_elab.ml" 72 2136 2146 "e_elab.ml" 72 2136 2156
+type(
+  bool ref Visit.iter -> bool ref Visit.scx -> E_t.expr -> unit
+)
+ident(
+  ext_ref expr
+)
+type(
+  bool ref Visit.scx -> E_t.expr -> unit
+)
+type(
+  bool ref Visit.scx -> E_t.expr -> unit
+)
+"e_elab.ml" 72 2136 2157 "e_elab.ml" 72 2136 2160
+type(
+  bool ref Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 64 1884 1900 "e_elab.ml" 64 1884 1916
+)
+"e_elab.ml" 72 2136 2161 "e_elab.ml" 72 2136 2163
+type(
+  E_t.expr
+)
+ident(
+  int_ref oe "e_elab.ml" 64 1884 1917 "e_elab.ml" 64 1884 1919
+)
+"e_elab.ml" 72 2136 2146 "e_elab.ml" 72 2136 2163
+type(
+  unit
+)
+"e_elab.ml" 64 1884 1922 "e_elab.ml" 72 2136 2163
+type(
+  unit
+)
+"e_elab.ml" 58 1655 1671 "e_elab.ml" 73 2164 2169
+type(
+  bool ref Visit.iter
+)
+"e_elab.ml" 74 2173 2179 "e_elab.ml" 74 2173 2180
+type(
+  E_t.expr
+)
+ident(
+  def e "e_elab.ml" 75 2184 2188 "e_elab.ml" 77 2252 2261
+)
+"e_elab.ml" 75 2184 2192 "e_elab.ml" 75 2184 2196
+type(
+  bool ref
+)
+ident(
+  def good "e_elab.ml" 76 2211 2215 "e_elab.ml" 77 2252 2261
+)
+"e_elab.ml" 75 2184 2199 "e_elab.ml" 75 2184 2202
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"e_elab.ml" 75 2184 2203 "e_elab.ml" 75 2184 2207
+type(
+  bool
+)
+"e_elab.ml" 75 2184 2199 "e_elab.ml" 75 2184 2207
+type(
+  bool ref
+)
+"e_elab.ml" 76 2211 2215 "e_elab.ml" 76 2211 2222
+type(
+  bool ref Visit.iter
+)
+ident(
+  int_ref visitor "e_elab.ml" 58 1655 1661 "e_elab.ml" 58 1655 1668
+)
+"e_elab.ml" 76 2211 2215 "e_elab.ml" 76 2211 2227
+type(
+  bool ref Visit.scx -> E_t.expr -> unit
+)
+"e_elab.ml" 76 2211 2229 "e_elab.ml" 76 2211 2233
+type(
+  bool ref
+)
+ident(
+  int_ref good "e_elab.ml" 75 2184 2192 "e_elab.ml" 75 2184 2196
+)
+"e_elab.ml" 76 2211 2235 "e_elab.ml" 76 2211 2246
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"e_elab.ml" 76 2211 2228 "e_elab.ml" 76 2211 2247
+type(
+  bool ref Visit.scx
+)
+"e_elab.ml" 76 2211 2248 "e_elab.ml" 76 2211 2249
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 74 2173 2179 "e_elab.ml" 74 2173 2180
+)
+"e_elab.ml" 76 2211 2215 "e_elab.ml" 76 2211 2249
+type(
+  unit
+)
+"e_elab.ml" 77 2252 2256 "e_elab.ml" 77 2252 2257
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"e_elab.ml" 77 2252 2257 "e_elab.ml" 77 2252 2261
+type(
+  bool ref
+)
+ident(
+  int_ref good "e_elab.ml" 75 2184 2192 "e_elab.ml" 75 2184 2196
+)
+"e_elab.ml" 77 2252 2256 "e_elab.ml" 77 2252 2261
+type(
+  bool
+)
+"e_elab.ml" 76 2211 2215 "e_elab.ml" 77 2252 2261
+type(
+  bool
+)
+"e_elab.ml" 75 2184 2188 "e_elab.ml" 77 2252 2261
+type(
+  bool
+)
+"e_elab.ml" 74 2173 2175 "e_elab.ml" 77 2252 2261
+type(
+  E_t.expr -> bool
+)
+"e_elab.ml" 58 1655 1657 "e_elab.ml" 77 2252 2261
+type(
+  E_t.expr -> bool
+)
+"e_elab.ml" 79 2263 2271 "e_elab.ml" 79 2263 2274
+type(
+  E_t.expr -> E_t.expr
+)
+ident(
+  def box "e_elab.ml" 79 2263 2263 "e_elab.ml" 0 0 -1
+)
+"e_elab.ml" 79 2263 2275 "e_elab.ml" 79 2263 2276
+type(
+  E_t.expr
+)
+ident(
+  def e "e_elab.ml" 79 2263 2279 "e_elab.ml" 85 2467 2479
+)
+"e_elab.ml" 79 2263 2285 "e_elab.ml" 79 2263 2286
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 79 2263 2275 "e_elab.ml" 79 2263 2276
+)
+"e_elab.ml" 79 2263 2285 "e_elab.ml" 79 2263 2291
+type(
+  E_t.expr_
+)
+"e_elab.ml" 80 2297 2309 "e_elab.ml" 80 2297 2311
+type(
+  E_t.sequent
+)
+ident(
+  def sq "e_elab.ml" 81 2315 2321 "e_elab.ml" 81 2315 2368
+)
+"e_elab.ml" 80 2297 2301 "e_elab.ml" 80 2297 2311
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_elab.ml" 81 2315 2331 "e_elab.ml" 81 2315 2333
+type(
+  E_t.sequent
+)
+ident(
+  int_ref sq "e_elab.ml" 80 2297 2309 "e_elab.ml" 80 2297 2311
+)
+"e_elab.ml" 81 2315 2348 "e_elab.ml" 81 2315 2351
+type(
+  E_t.expr -> E_t.expr
+)
+ident(
+  int_ref box "e_elab.ml" 79 2263 2271 "e_elab.ml" 79 2263 2274
+)
+"e_elab.ml" 81 2315 2352 "e_elab.ml" 81 2315 2354
+type(
+  E_t.sequent
+)
+ident(
+  int_ref sq "e_elab.ml" 80 2297 2309 "e_elab.ml" 80 2297 2311
+)
+"e_elab.ml" 81 2315 2352 "e_elab.ml" 81 2315 2361
+type(
+  E_t.expr
+)
+"e_elab.ml" 81 2315 2348 "e_elab.ml" 81 2315 2361
+type(
+  E_t.expr
+)
+"e_elab.ml" 81 2315 2329 "e_elab.ml" 81 2315 2363
+type(
+  E_t.sequent
+)
+"e_elab.ml" 81 2315 2321 "e_elab.ml" 81 2315 2363
+type(
+  E_t.expr_
+)
+"e_elab.ml" 81 2315 2364 "e_elab.ml" 81 2315 2366
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_elab.ml" 81 2315 2367 "e_elab.ml" 81 2315 2368
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 79 2263 2275 "e_elab.ml" 79 2263 2276
+)
+"e_elab.ml" 81 2315 2321 "e_elab.ml" 81 2315 2368
+type(
+  E_t.expr
+)
+"e_elab.ml" 82 2369 2373 "e_elab.ml" 82 2369 2374
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_elab.ml" 83 2378 2387 "e_elab.ml" 83 2378 2399
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref non_temporal "e_elab.ml" 57 1636 1640 "e_elab.ml" 57 1636 1652
+)
+"e_elab.ml" 83 2378 2400 "e_elab.ml" 83 2378 2401
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 79 2263 2275 "e_elab.ml" 79 2263 2276
+)
+"e_elab.ml" 83 2378 2387 "e_elab.ml" 83 2378 2401
+type(
+  bool
+)
+"e_elab.ml" 84 2407 2444 "e_elab.ml" 84 2407 2449
+type(
+  bool
+)
+"e_elab.ml" 84 2407 2431 "e_elab.ml" 84 2407 2450
+type(
+  Builtin.builtin
+)
+"e_elab.ml" 84 2407 2422 "e_elab.ml" 84 2407 2450
+type(
+  E_t.expr_
+)
+"e_elab.ml" 84 2407 2451 "e_elab.ml" 84 2407 2453
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_elab.ml" 84 2407 2454 "e_elab.ml" 84 2407 2455
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 79 2263 2275 "e_elab.ml" 79 2263 2276
+)
+"e_elab.ml" 84 2407 2422 "e_elab.ml" 84 2407 2455
+type(
+  E_t.expr
+)
+"e_elab.ml" 84 2407 2458 "e_elab.ml" 84 2407 2459
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 79 2263 2275 "e_elab.ml" 79 2263 2276
+)
+"e_elab.ml" 84 2407 2457 "e_elab.ml" 84 2407 2460
+type(
+  E_t.expr list
+)
+"e_elab.ml" 84 2407 2415 "e_elab.ml" 84 2407 2461
+type(
+  E_t.expr_
+)
+"e_elab.ml" 84 2407 2462 "e_elab.ml" 84 2407 2464
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_elab.ml" 84 2407 2465 "e_elab.ml" 84 2407 2466
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 79 2263 2275 "e_elab.ml" 79 2263 2276
+)
+"e_elab.ml" 84 2407 2415 "e_elab.ml" 84 2407 2466
+type(
+  E_t.expr
+)
+"e_elab.ml" 85 2467 2478 "e_elab.ml" 85 2467 2479
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 79 2263 2275 "e_elab.ml" 79 2263 2276
+)
+"e_elab.ml" 83 2378 2384 "e_elab.ml" 85 2467 2479
+type(
+  E_t.expr
+)
+"e_elab.ml" 79 2263 2279 "e_elab.ml" 85 2467 2479
+type(
+  E_t.expr
+)
+"e_elab.ml" 87 2481 2485 "e_elab.ml" 87 2481 2493
+type(
+  E_t.expr -> E_t.expr
+)
+ident(
+  def fake_box "e_elab.ml" 105 3116 3116 "e_elab.ml" 0 0 -1
+)
+"e_elab.ml" 88 2496 2502 "e_elab.ml" 88 2496 2509
+type(
+  unit Visit.map
+)
+ident(
+  def visitor "e_elab.ml" 103 3071 3073 "e_elab.ml" 103 3071 3114
+)
+"e_elab.ml" 88 2496 2520 "e_elab.ml" 88 2496 2524
+type(
+  unit Visit.map
+)
+type(
+  unit Visit.map
+)
+"e_elab.ml" 90 2572 2591 "e_elab.ml" 90 2572 2594
+type(
+  unit Visit.scx
+)
+ident(
+  def scx "e_elab.ml" 90 2572 2595 "e_elab.ml" 101 3007 3061
+)
+"e_elab.ml" 90 2572 2595 "e_elab.ml" 90 2572 2597
+type(
+  E_t.sequent
+)
+ident(
+  def sq "e_elab.ml" 91 2600 2606 "e_elab.ml" 101 3007 3061
+)
+"e_elab.ml" 91 2600 2609 "e_elab.ml" 91 2600 2621
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref non_temporal "e_elab.ml" 57 1636 1640 "e_elab.ml" 57 1636 1652
+)
+"e_elab.ml" 91 2600 2622 "e_elab.ml" 91 2600 2624
+type(
+  E_t.sequent
+)
+ident(
+  int_ref sq "e_elab.ml" 90 2572 2595 "e_elab.ml" 90 2572 2597
+)
+"e_elab.ml" 91 2600 2622 "e_elab.ml" 91 2600 2631
+type(
+  E_t.expr
+)
+"e_elab.ml" 91 2600 2609 "e_elab.ml" 91 2600 2631
+type(
+  bool
+)
+"e_elab.ml" 92 2637 2645 "e_elab.ml" 92 2637 2650
+type(
+  unit Visit.map
+)
+ident(
+  ext_ref self-3
+)
+type(
+  unit Visit.map
+)
+ident(
+  int_ref super "e_elab.ml" 89 2534 2546 "e_elab.ml" 89 2534 2562
+)
+"e_elab.ml" 92 2637 2645 "e_elab.ml" 92 2637 2658
+type(
+  unit Visit.map ->
+  unit Visit.scx -> E_t.sequent -> unit Visit.scx * E_t.sequent
+)
+ident(
+  ext_ref sequent
+)
+type(
+  unit Visit.scx -> E_t.sequent -> unit Visit.scx * E_t.sequent
+)
+type(
+  unit Visit.scx -> E_t.sequent -> unit Visit.scx * E_t.sequent
+)
+"e_elab.ml" 92 2637 2659 "e_elab.ml" 92 2637 2662
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 90 2572 2591 "e_elab.ml" 90 2572 2594
+)
+"e_elab.ml" 92 2637 2663 "e_elab.ml" 92 2637 2665
+type(
+  E_t.sequent
+)
+ident(
+  int_ref sq "e_elab.ml" 90 2572 2595 "e_elab.ml" 90 2572 2597
+)
+"e_elab.ml" 92 2637 2645 "e_elab.ml" 92 2637 2665
+type(
+  unit Visit.scx * E_t.sequent
+)
+"e_elab.ml" 94 2784 2796 "e_elab.ml" 94 2784 2800
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def sqcx "e_elab.ml" 101 3007 3017 "e_elab.ml" 101 3007 3061
+)
+"e_elab.ml" 94 2784 2803 "e_elab.ml" 94 2784 2812
+type(
+  (int -> E_t.hyp -> E_t.hyp) -> E_t.hyp Deque.dq -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Deque.map "deque.mli" 20 481 481 "deque.mli" 20 481 528
+)
+"e_elab.ml" 95 2819 2833 "e_elab.ml" 95 2819 2834
+type(
+  int
+)
+"e_elab.ml" 95 2819 2835 "e_elab.ml" 95 2819 2836
+type(
+  E_t.hyp
+)
+ident(
+  def h "e_elab.ml" 95 2819 2840 "e_elab.ml" 99 2963 2980
+)
+"e_elab.ml" 95 2819 2846 "e_elab.ml" 95 2819 2847
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_elab.ml" 95 2819 2835 "e_elab.ml" 95 2819 2836
+)
+"e_elab.ml" 95 2819 2846 "e_elab.ml" 95 2819 2852
+type(
+  E_t.hyp_
+)
+"e_elab.ml" 96 2858 2878 "e_elab.ml" 96 2858 2879
+type(
+  E_t.expr
+)
+ident(
+  def f "e_elab.ml" 97 2897 2913 "e_elab.ml" 97 2897 2943
+)
+"e_elab.ml" 96 2858 2881 "e_elab.ml" 96 2858 2888
+type(
+  E_t.visibility
+)
+"e_elab.ml" 96 2858 2890 "e_elab.ml" 96 2858 2892
+type(
+  E_t.time
+)
+ident(
+  def tm "e_elab.ml" 97 2897 2913 "e_elab.ml" 97 2897 2943
+)
+"e_elab.ml" 96 2858 2872 "e_elab.ml" 96 2858 2893
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_elab.ml" 97 2897 2919 "e_elab.ml" 97 2897 2922
+type(
+  E_t.expr -> E_t.expr
+)
+ident(
+  int_ref box "e_elab.ml" 79 2263 2271 "e_elab.ml" 79 2263 2274
+)
+"e_elab.ml" 97 2897 2923 "e_elab.ml" 97 2897 2924
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_elab.ml" 96 2858 2878 "e_elab.ml" 96 2858 2879
+)
+"e_elab.ml" 97 2897 2919 "e_elab.ml" 97 2897 2924
+type(
+  E_t.expr
+)
+"e_elab.ml" 97 2897 2926 "e_elab.ml" 97 2897 2933
+type(
+  E_t.visibility
+)
+"e_elab.ml" 97 2897 2935 "e_elab.ml" 97 2897 2937
+type(
+  E_t.time
+)
+ident(
+  int_ref tm "e_elab.ml" 96 2858 2890 "e_elab.ml" 96 2858 2892
+)
+"e_elab.ml" 97 2897 2913 "e_elab.ml" 97 2897 2938
+type(
+  E_t.hyp_
+)
+"e_elab.ml" 97 2897 2939 "e_elab.ml" 97 2897 2941
+type(
+  E_t.hyp_ -> E_t.expr -> E_t.hyp
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_elab.ml" 97 2897 2942 "e_elab.ml" 97 2897 2943
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_elab.ml" 96 2858 2878 "e_elab.ml" 96 2858 2879
+)
+"e_elab.ml" 97 2897 2913 "e_elab.ml" 97 2897 2943
+type(
+  E_t.hyp
+)
+"e_elab.ml" 98 2944 2958 "e_elab.ml" 98 2944 2959
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_elab.ml" 99 2963 2979 "e_elab.ml" 99 2963 2980
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_elab.ml" 95 2819 2835 "e_elab.ml" 95 2819 2836
+)
+"e_elab.ml" 95 2819 2840 "e_elab.ml" 99 2963 2980
+type(
+  E_t.hyp
+)
+"e_elab.ml" 94 2784 2813 "e_elab.ml" 100 2981 2992
+type(
+  int -> E_t.hyp -> E_t.hyp
+)
+"e_elab.ml" 100 2981 2993 "e_elab.ml" 100 2981 2995
+type(
+  E_t.sequent
+)
+ident(
+  int_ref sq "e_elab.ml" 90 2572 2595 "e_elab.ml" 90 2572 2597
+)
+"e_elab.ml" 100 2981 2993 "e_elab.ml" 100 2981 3003
+type(
+  E_t.hyp Deque.dq
+)
+"e_elab.ml" 94 2784 2803 "e_elab.ml" 100 2981 3003
+type(
+  E_t.hyp Deque.dq
+)
+"e_elab.ml" 101 3007 3017 "e_elab.ml" 101 3007 3022
+type(
+  unit Visit.map
+)
+ident(
+  ext_ref self-3
+)
+type(
+  unit Visit.map
+)
+ident(
+  int_ref super "e_elab.ml" 89 2534 2546 "e_elab.ml" 89 2534 2562
+)
+"e_elab.ml" 101 3007 3017 "e_elab.ml" 101 3007 3030
+type(
+  unit Visit.map ->
+  unit Visit.scx -> E_t.sequent -> unit Visit.scx * E_t.sequent
+)
+ident(
+  ext_ref sequent
+)
+type(
+  unit Visit.scx -> E_t.sequent -> unit Visit.scx * E_t.sequent
+)
+type(
+  unit Visit.scx -> E_t.sequent -> unit Visit.scx * E_t.sequent
+)
+"e_elab.ml" 101 3007 3031 "e_elab.ml" 101 3007 3034
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 90 2572 2591 "e_elab.ml" 90 2572 2594
+)
+"e_elab.ml" 101 3007 3037 "e_elab.ml" 101 3007 3039
+type(
+  E_t.sequent
+)
+ident(
+  int_ref sq "e_elab.ml" 90 2572 2595 "e_elab.ml" 90 2572 2597
+)
+"e_elab.ml" 101 3007 3055 "e_elab.ml" 101 3007 3059
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref sqcx "e_elab.ml" 94 2784 2796 "e_elab.ml" 94 2784 2800
+)
+"e_elab.ml" 101 3007 3035 "e_elab.ml" 101 3007 3061
+type(
+  E_t.sequent
+)
+"e_elab.ml" 101 3007 3017 "e_elab.ml" 101 3007 3061
+type(
+  unit Visit.scx * E_t.sequent
+)
+"e_elab.ml" 94 2784 2792 "e_elab.ml" 101 3007 3061
+type(
+  unit Visit.scx * E_t.sequent
+)
+"e_elab.ml" 91 2600 2606 "e_elab.ml" 101 3007 3061
+type(
+  unit Visit.scx * E_t.sequent
+)
+"e_elab.ml" 88 2496 2512 "e_elab.ml" 102 3062 3067
+type(
+  unit Visit.map
+)
+"e_elab.ml" 103 3071 3077 "e_elab.ml" 103 3071 3078
+type(
+  E_t.expr
+)
+ident(
+  def e "e_elab.ml" 103 3071 3082 "e_elab.ml" 103 3071 3114
+)
+"e_elab.ml" 103 3071 3082 "e_elab.ml" 103 3071 3089
+type(
+  unit Visit.map
+)
+ident(
+  int_ref visitor "e_elab.ml" 88 2496 2502 "e_elab.ml" 88 2496 2509
+)
+"e_elab.ml" 103 3071 3082 "e_elab.ml" 103 3071 3094
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 103 3071 3096 "e_elab.ml" 103 3071 3098
+type(
+  unit
+)
+"e_elab.ml" 103 3071 3100 "e_elab.ml" 103 3071 3111
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"e_elab.ml" 103 3071 3095 "e_elab.ml" 103 3071 3112
+type(
+  unit Visit.scx
+)
+"e_elab.ml" 103 3071 3113 "e_elab.ml" 103 3071 3114
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 103 3071 3077 "e_elab.ml" 103 3071 3078
+)
+"e_elab.ml" 103 3071 3082 "e_elab.ml" 103 3071 3114
+type(
+  E_t.expr
+)
+"e_elab.ml" 103 3071 3073 "e_elab.ml" 103 3071 3114
+type(
+  E_t.expr -> E_t.expr
+)
+"e_elab.ml" 88 2496 2498 "e_elab.ml" 103 3071 3114
+type(
+  E_t.expr -> E_t.expr
+)
+"e_elab.ml" 105 3116 3120 "e_elab.ml" 105 3116 3136
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  def except_normalize "e_elab.ml" 142 4459 4459 "e_elab.ml" 0 0 -1
+)
+"e_elab.ml" 106 3139 3145 "e_elab.ml" 106 3139 3152
+type(
+  unit Visit.map
+)
+ident(
+  def visitor "e_elab.ml" 140 4424 4426 "e_elab.ml" 140 4424 4457
+)
+"e_elab.ml" 106 3139 3163 "e_elab.ml" 106 3139 3167
+type(
+  unit Visit.map
+)
+type(
+  unit Visit.map
+)
+"e_elab.ml" 109 3216 3232 "e_elab.ml" 109 3216 3235
+type(
+  unit Visit.scx
+)
+ident(
+  def scx "e_elab.ml" 109 3216 3236 "e_elab.ml" 138 4385 4414
+)
+"e_elab.ml" 109 3216 3236 "e_elab.ml" 109 3216 3237
+type(
+  E_t.expr
+)
+ident(
+  def e "e_elab.ml" 109 3216 3240 "e_elab.ml" 138 4385 4414
+)
+"e_elab.ml" 109 3216 3246 "e_elab.ml" 109 3216 3247
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 109 3216 3236 "e_elab.ml" 109 3216 3237
+)
+"e_elab.ml" 109 3216 3246 "e_elab.ml" 109 3216 3252
+type(
+  E_t.expr_
+)
+"e_elab.ml" 110 3258 3274 "e_elab.ml" 110 3258 3275
+type(
+  E_t.expr
+)
+ident(
+  def f "e_elab.ml" 111 3284 3294 "e_elab.ml" 137 4361 4384
+)
+"e_elab.ml" 110 3258 3277 "e_elab.ml" 110 3258 3279
+type(
+  E_t.exspec list
+)
+ident(
+  def xs "e_elab.ml" 111 3284 3294 "e_elab.ml" 137 4361 4384
+)
+"e_elab.ml" 110 3258 3266 "e_elab.ml" 110 3258 3280
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_elab.ml" 111 3284 3302 "e_elab.ml" 111 3284 3310
+type(
+  E_t.expr -> (E_t.expoint list * E_t.expr) list -> E_t.expr
+)
+ident(
+  def simplify "e_elab.ml" 111 3284 3294 "e_elab.ml" 137 4361 4384
+)
+"e_elab.ml" 111 3284 3311 "e_elab.ml" 111 3284 3312
+type(
+  E_t.expr
+)
+ident(
+  def f "e_elab.ml" 111 3284 3313 "e_elab.ml" 133 4187 4258
+)
+"e_elab.ml" 111 3284 3313 "e_elab.ml" 111 3284 3314
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+ident(
+  def x "e_elab.ml" 112 3317 3329 "e_elab.ml" 133 4187 4258
+)
+"e_elab.ml" 112 3317 3335 "e_elab.ml" 112 3317 3336
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+ident(
+  int_ref x "e_elab.ml" 111 3284 3313 "e_elab.ml" 111 3284 3314
+)
+"e_elab.ml" 113 3342 3358 "e_elab.ml" 113 3342 3360
+type(
+  E_t.expoint
+)
+ident(
+  def tr "e_elab.ml" 113 3342 3371 "e_elab.ml" 113 3342 3426
+)
+"e_elab.ml" 113 3342 3357 "e_elab.ml" 113 3342 3361
+type(
+  E_t.expoint list
+)
+"e_elab.ml" 113 3342 3363 "e_elab.ml" 113 3342 3366
+type(
+  E_t.expr
+)
+ident(
+  def bod "e_elab.ml" 113 3342 3371 "e_elab.ml" 113 3342 3426
+)
+"e_elab.ml" 113 3342 3357 "e_elab.ml" 113 3342 3366
+type(
+  E_t.expoint list * E_t.expr
+)
+"e_elab.ml" 113 3342 3356 "e_elab.ml" 113 3342 3367
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+"e_elab.ml" 113 3342 3373 "e_elab.ml" 113 3342 3374
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 109 3216 3236 "e_elab.ml" 109 3216 3237
+)
+"e_elab.ml" 113 3342 3395 "e_elab.ml" 113 3342 3396
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_elab.ml" 111 3284 3311 "e_elab.ml" 111 3284 3312
+)
+"e_elab.ml" 113 3342 3400 "e_elab.ml" 113 3342 3402
+type(
+  E_t.expoint
+)
+ident(
+  int_ref tr "e_elab.ml" 113 3342 3358 "e_elab.ml" 113 3342 3360
+)
+"e_elab.ml" 113 3342 3399 "e_elab.ml" 113 3342 3403
+type(
+  E_t.expoint list
+)
+"e_elab.ml" 113 3342 3405 "e_elab.ml" 113 3342 3409
+type(
+  unit Visit.map
+)
+ident(
+  ext_ref self-4
+)
+"e_elab.ml" 113 3342 3405 "e_elab.ml" 113 3342 3414
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 113 3342 3415 "e_elab.ml" 113 3342 3418
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 109 3216 3232 "e_elab.ml" 109 3216 3235
+)
+"e_elab.ml" 113 3342 3419 "e_elab.ml" 113 3342 3422
+type(
+  E_t.expr
+)
+ident(
+  int_ref bod "e_elab.ml" 113 3342 3363 "e_elab.ml" 113 3342 3366
+)
+"e_elab.ml" 113 3342 3405 "e_elab.ml" 113 3342 3422
+type(
+  E_t.expr
+)
+"e_elab.ml" 113 3342 3399 "e_elab.ml" 113 3342 3422
+type(
+  E_t.exspec
+)
+"e_elab.ml" 113 3342 3398 "e_elab.ml" 113 3342 3423
+type(
+  E_t.exspec list
+)
+"e_elab.ml" 113 3342 3387 "e_elab.ml" 113 3342 3424
+type(
+  E_t.expr_
+)
+"e_elab.ml" 113 3342 3371 "e_elab.ml" 113 3342 3426
+type(
+  E_t.expr
+)
+"e_elab.ml" 114 3427 3442 "e_elab.ml" 114 3427 3444
+type(
+  E_t.expoint
+)
+ident(
+  def tr "e_elab.ml" 115 3461 3477 "e_elab.ml" 119 3669 3758
+)
+"e_elab.ml" 114 3427 3448 "e_elab.ml" 114 3427 3451
+type(
+  E_t.expoint list
+)
+ident(
+  def trs "e_elab.ml" 115 3461 3477 "e_elab.ml" 119 3669 3758
+)
+"e_elab.ml" 114 3427 3442 "e_elab.ml" 114 3427 3451
+type(
+  E_t.expoint list
+)
+"e_elab.ml" 114 3427 3453 "e_elab.ml" 114 3427 3456
+type(
+  E_t.expr
+)
+ident(
+  def bod "e_elab.ml" 115 3461 3477 "e_elab.ml" 119 3669 3758
+)
+"e_elab.ml" 114 3427 3442 "e_elab.ml" 114 3427 3456
+type(
+  E_t.expoint list * E_t.expr
+)
+"e_elab.ml" 114 3427 3441 "e_elab.ml" 114 3427 3457
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+"e_elab.ml" 115 3461 3481 "e_elab.ml" 115 3461 3482
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def g "e_elab.ml" 119 3669 3685 "e_elab.ml" 119 3669 3758
+)
+"e_elab.ml" 115 3461 3491 "e_elab.ml" 115 3461 3493
+type(
+  E_t.expoint
+)
+ident(
+  int_ref tr "e_elab.ml" 114 3427 3442 "e_elab.ml" 114 3427 3444
+)
+"e_elab.ml" 116 3499 3530 "e_elab.ml" 116 3499 3531
+type(
+  string
+)
+ident(
+  def x "e_elab.ml" 116 3499 3535 "e_elab.ml" 116 3499 3563
+)
+"e_elab.ml" 116 3499 3519 "e_elab.ml" 116 3499 3531
+type(
+  E_t.expoint
+)
+type(
+  E_t.expoint
+)
+"e_elab.ml" 116 3499 3537 "e_elab.ml" 116 3499 3538
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_elab.ml" 111 3284 3311 "e_elab.ml" 111 3284 3312
+)
+"e_elab.ml" 116 3499 3556 "e_elab.ml" 116 3499 3557
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_elab.ml" 111 3284 3311 "e_elab.ml" 111 3284 3312
+)
+"e_elab.ml" 116 3499 3559 "e_elab.ml" 116 3499 3560
+type(
+  string
+)
+ident(
+  int_ref x "e_elab.ml" 116 3499 3530 "e_elab.ml" 116 3499 3531
+)
+"e_elab.ml" 116 3499 3551 "e_elab.ml" 116 3499 3561
+type(
+  E_t.expr_
+)
+"e_elab.ml" 116 3499 3535 "e_elab.ml" 116 3499 3563
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_elab.ml" 117 3564 3597 "e_elab.ml" 117 3564 3598
+type(
+  E_t.expr
+)
+ident(
+  def e "e_elab.ml" 117 3564 3602 "e_elab.ml" 117 3564 3649
+)
+"e_elab.ml" 117 3564 3584 "e_elab.ml" 117 3564 3598
+type(
+  E_t.expoint
+)
+type(
+  E_t.expoint
+)
+"e_elab.ml" 117 3564 3604 "e_elab.ml" 117 3564 3605
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_elab.ml" 111 3284 3311 "e_elab.ml" 111 3284 3312
+)
+"e_elab.ml" 117 3564 3626 "e_elab.ml" 117 3564 3627
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_elab.ml" 111 3284 3311 "e_elab.ml" 111 3284 3312
+)
+"e_elab.ml" 117 3564 3630 "e_elab.ml" 117 3564 3634
+type(
+  unit Visit.map
+)
+ident(
+  ext_ref self-4
+)
+"e_elab.ml" 117 3564 3630 "e_elab.ml" 117 3564 3639
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 117 3564 3640 "e_elab.ml" 117 3564 3643
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 109 3216 3232 "e_elab.ml" 109 3216 3235
+)
+"e_elab.ml" 117 3564 3644 "e_elab.ml" 117 3564 3645
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 117 3564 3597 "e_elab.ml" 117 3564 3598
+)
+"e_elab.ml" 117 3564 3630 "e_elab.ml" 117 3564 3645
+type(
+  E_t.expr
+)
+"e_elab.ml" 117 3564 3629 "e_elab.ml" 117 3564 3646
+type(
+  E_t.expr list
+)
+"e_elab.ml" 117 3564 3618 "e_elab.ml" 117 3564 3647
+type(
+  E_t.expr_
+)
+"e_elab.ml" 117 3564 3602 "e_elab.ml" 117 3564 3649
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_elab.ml" 115 3461 3485 "e_elab.ml" 117 3564 3649
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_elab.ml" 119 3669 3687 "e_elab.ml" 119 3669 3688
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 109 3216 3236 "e_elab.ml" 109 3216 3237
+)
+"e_elab.ml" 119 3669 3709 "e_elab.ml" 119 3669 3710
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_elab.ml" 111 3284 3311 "e_elab.ml" 111 3284 3312
+)
+"e_elab.ml" 119 3669 3714 "e_elab.ml" 119 3669 3716
+type(
+  E_t.expoint
+)
+ident(
+  int_ref tr "e_elab.ml" 114 3427 3442 "e_elab.ml" 114 3427 3444
+)
+"e_elab.ml" 119 3669 3713 "e_elab.ml" 119 3669 3717
+type(
+  E_t.expoint list
+)
+"e_elab.ml" 119 3669 3719 "e_elab.ml" 119 3669 3727
+type(
+  E_t.expr -> (E_t.expoint list * E_t.expr) list -> E_t.expr
+)
+ident(
+  int_ref simplify "e_elab.ml" 111 3284 3302 "e_elab.ml" 111 3284 3310
+)
+"e_elab.ml" 119 3669 3728 "e_elab.ml" 119 3669 3729
+type(
+  E_t.expr
+)
+ident(
+  int_ref g "e_elab.ml" 115 3461 3481 "e_elab.ml" 115 3461 3482
+)
+"e_elab.ml" 119 3669 3731 "e_elab.ml" 119 3669 3734
+type(
+  E_t.expoint list
+)
+ident(
+  int_ref trs "e_elab.ml" 114 3427 3448 "e_elab.ml" 114 3427 3451
+)
+"e_elab.ml" 119 3669 3736 "e_elab.ml" 119 3669 3740
+type(
+  unit Visit.map
+)
+ident(
+  ext_ref self-4
+)
+"e_elab.ml" 119 3669 3736 "e_elab.ml" 119 3669 3745
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 119 3669 3746 "e_elab.ml" 119 3669 3749
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 109 3216 3232 "e_elab.ml" 109 3216 3235
+)
+"e_elab.ml" 119 3669 3750 "e_elab.ml" 119 3669 3753
+type(
+  E_t.expr
+)
+ident(
+  int_ref bod "e_elab.ml" 114 3427 3453 "e_elab.ml" 114 3427 3456
+)
+"e_elab.ml" 119 3669 3736 "e_elab.ml" 119 3669 3753
+type(
+  E_t.expr
+)
+"e_elab.ml" 119 3669 3731 "e_elab.ml" 119 3669 3753
+type(
+  E_t.expoint list * E_t.expr
+)
+"e_elab.ml" 119 3669 3730 "e_elab.ml" 119 3669 3754
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+"e_elab.ml" 119 3669 3719 "e_elab.ml" 119 3669 3754
+type(
+  E_t.expr
+)
+"e_elab.ml" 119 3669 3713 "e_elab.ml" 119 3669 3754
+type(
+  E_t.exspec
+)
+"e_elab.ml" 119 3669 3712 "e_elab.ml" 119 3669 3755
+type(
+  E_t.exspec list
+)
+"e_elab.ml" 119 3669 3701 "e_elab.ml" 119 3669 3756
+type(
+  E_t.expr_
+)
+"e_elab.ml" 119 3669 3685 "e_elab.ml" 119 3669 3758
+type(
+  E_t.expr
+)
+"e_elab.ml" 115 3461 3477 "e_elab.ml" 119 3669 3758
+type(
+  E_t.expr
+)
+"e_elab.ml" 120 3759 3773 "e_elab.ml" 120 3759 3774
+type(
+  E_t.expoint list * E_t.expr
+)
+ident(
+  def x "e_elab.ml" 121 3784 3800 "e_elab.ml" 122 3827 3857
+)
+"e_elab.ml" 120 3759 3778 "e_elab.ml" 120 3759 3780
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+ident(
+  def xs "e_elab.ml" 121 3784 3800 "e_elab.ml" 122 3827 3857
+)
+"e_elab.ml" 120 3759 3773 "e_elab.ml" 120 3759 3780
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+"e_elab.ml" 121 3784 3804 "e_elab.ml" 121 3784 3806
+type(
+  E_t.expr
+)
+ident(
+  def ex "e_elab.ml" 122 3827 3843 "e_elab.ml" 122 3827 3857
+)
+"e_elab.ml" 121 3784 3809 "e_elab.ml" 121 3784 3817
+type(
+  E_t.expr -> (E_t.expoint list * E_t.expr) list -> E_t.expr
+)
+ident(
+  int_ref simplify "e_elab.ml" 111 3284 3302 "e_elab.ml" 111 3284 3310
+)
+"e_elab.ml" 121 3784 3818 "e_elab.ml" 121 3784 3819
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_elab.ml" 111 3284 3311 "e_elab.ml" 111 3284 3312
+)
+"e_elab.ml" 121 3784 3821 "e_elab.ml" 121 3784 3822
+type(
+  E_t.expoint list * E_t.expr
+)
+ident(
+  int_ref x "e_elab.ml" 120 3759 3773 "e_elab.ml" 120 3759 3774
+)
+"e_elab.ml" 121 3784 3820 "e_elab.ml" 121 3784 3823
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+"e_elab.ml" 121 3784 3809 "e_elab.ml" 121 3784 3823
+type(
+  E_t.expr
+)
+"e_elab.ml" 122 3827 3843 "e_elab.ml" 122 3827 3851
+type(
+  E_t.expr -> (E_t.expoint list * E_t.expr) list -> E_t.expr
+)
+ident(
+  int_ref simplify "e_elab.ml" 111 3284 3302 "e_elab.ml" 111 3284 3310
+)
+"e_elab.ml" 122 3827 3852 "e_elab.ml" 122 3827 3854
+type(
+  E_t.expr
+)
+ident(
+  int_ref ex "e_elab.ml" 121 3784 3804 "e_elab.ml" 121 3784 3806
+)
+"e_elab.ml" 122 3827 3855 "e_elab.ml" 122 3827 3857
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+ident(
+  int_ref xs "e_elab.ml" 120 3759 3778 "e_elab.ml" 120 3759 3780
+)
+"e_elab.ml" 122 3827 3843 "e_elab.ml" 122 3827 3857
+type(
+  E_t.expr
+)
+"e_elab.ml" 121 3784 3800 "e_elab.ml" 122 3827 3857
+type(
+  E_t.expr
+)
+"e_elab.ml" 132 4168 4182 "e_elab.ml" 132 4168 4183
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+"e_elab.ml" 133 4187 4203 "e_elab.ml" 133 4187 4213
+type(
+  ?at:E_t.expr -> string -> E_t.expr
+)
+ident(
+  int_ref Errors.bug "errors.mli" 41 941 941 "errors.mli" 41 941 982
+)
+"e_elab.ml" 133 4187 4218 "e_elab.ml" 133 4187 4219
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_elab.ml" 111 3284 3311 "e_elab.ml" 111 3284 3312
+)
+type(
+  E_t.expr option
+)
+"e_elab.ml" 133 4187 4220 "e_elab.ml" 133 4187 4258
+type(
+  string
+)
+"e_elab.ml" 133 4187 4203 "e_elab.ml" 133 4187 4258
+type(
+  E_t.expr
+)
+"e_elab.ml" 112 3317 3329 "e_elab.ml" 133 4187 4258
+type(
+  E_t.expr
+)
+"e_elab.ml" 135 4272 4286 "e_elab.ml" 135 4272 4287
+type(
+  E_t.expr
+)
+ident(
+  def f "e_elab.ml" 136 4309 4319 "e_elab.ml" 137 4361 4384
+)
+"e_elab.ml" 135 4272 4290 "e_elab.ml" 135 4272 4294
+type(
+  unit Visit.map
+)
+ident(
+  ext_ref self-4
+)
+"e_elab.ml" 135 4272 4290 "e_elab.ml" 135 4272 4299
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 135 4272 4300 "e_elab.ml" 135 4272 4303
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 109 3216 3232 "e_elab.ml" 109 3216 3235
+)
+"e_elab.ml" 135 4272 4304 "e_elab.ml" 135 4272 4305
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_elab.ml" 110 3258 3274 "e_elab.ml" 110 3258 3275
+)
+"e_elab.ml" 135 4272 4290 "e_elab.ml" 135 4272 4305
+type(
+  E_t.expr
+)
+"e_elab.ml" 136 4309 4323 "e_elab.ml" 136 4309 4325
+type(
+  E_t.exspec list
+)
+ident(
+  def xs "e_elab.ml" 137 4361 4371 "e_elab.ml" 137 4361 4384
+)
+"e_elab.ml" 136 4309 4328 "e_elab.ml" 136 4309 4336
+type(
+  (E_t.exspec -> E_t.exspec) -> E_t.exspec list -> E_t.exspec list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"e_elab.ml" 136 4309 4338 "e_elab.ml" 136 4309 4342
+type(
+  unit Visit.map
+)
+ident(
+  ext_ref self-4
+)
+"e_elab.ml" 136 4309 4338 "e_elab.ml" 136 4309 4349
+type(
+  unit Visit.scx -> E_t.exspec -> E_t.exspec
+)
+"e_elab.ml" 136 4309 4350 "e_elab.ml" 136 4309 4353
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 109 3216 3232 "e_elab.ml" 109 3216 3235
+)
+"e_elab.ml" 136 4309 4337 "e_elab.ml" 136 4309 4354
+type(
+  E_t.exspec -> E_t.exspec
+)
+"e_elab.ml" 136 4309 4355 "e_elab.ml" 136 4309 4357
+type(
+  E_t.exspec list
+)
+ident(
+  int_ref xs "e_elab.ml" 110 3258 3277 "e_elab.ml" 110 3258 3279
+)
+"e_elab.ml" 136 4309 4328 "e_elab.ml" 136 4309 4357
+type(
+  E_t.exspec list
+)
+"e_elab.ml" 137 4361 4371 "e_elab.ml" 137 4361 4379
+type(
+  E_t.expr -> E_t.exspec list -> E_t.expr
+)
+ident(
+  int_ref simplify "e_elab.ml" 111 3284 3302 "e_elab.ml" 111 3284 3310
+)
+"e_elab.ml" 137 4361 4380 "e_elab.ml" 137 4361 4381
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_elab.ml" 135 4272 4286 "e_elab.ml" 135 4272 4287
+)
+"e_elab.ml" 137 4361 4382 "e_elab.ml" 137 4361 4384
+type(
+  E_t.exspec list
+)
+ident(
+  int_ref xs "e_elab.ml" 136 4309 4323 "e_elab.ml" 136 4309 4325
+)
+"e_elab.ml" 137 4361 4371 "e_elab.ml" 137 4361 4384
+type(
+  E_t.expr
+)
+"e_elab.ml" 136 4309 4319 "e_elab.ml" 137 4361 4384
+type(
+  E_t.expr
+)
+"e_elab.ml" 135 4272 4282 "e_elab.ml" 137 4361 4384
+type(
+  E_t.expr
+)
+"e_elab.ml" 111 3284 3294 "e_elab.ml" 137 4361 4384
+type(
+  E_t.expr
+)
+"e_elab.ml" 138 4385 4393 "e_elab.ml" 138 4385 4394
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_elab.ml" 138 4385 4398 "e_elab.ml" 138 4385 4403
+type(
+  unit Visit.map
+)
+ident(
+  ext_ref self-4
+)
+type(
+  unit Visit.map
+)
+ident(
+  int_ref super "e_elab.ml" 107 3177 3189 "e_elab.ml" 107 3177 3205
+)
+"e_elab.ml" 138 4385 4398 "e_elab.ml" 138 4385 4408
+type(
+  unit Visit.map -> unit Visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 138 4385 4409 "e_elab.ml" 138 4385 4412
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 109 3216 3232 "e_elab.ml" 109 3216 3235
+)
+"e_elab.ml" 138 4385 4413 "e_elab.ml" 138 4385 4414
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 109 3216 3236 "e_elab.ml" 109 3216 3237
+)
+"e_elab.ml" 138 4385 4398 "e_elab.ml" 138 4385 4414
+type(
+  E_t.expr
+)
+"e_elab.ml" 109 3216 3240 "e_elab.ml" 138 4385 4414
+type(
+  E_t.expr
+)
+"e_elab.ml" 106 3139 3155 "e_elab.ml" 139 4415 4420
+type(
+  unit Visit.map
+)
+"e_elab.ml" 140 4424 4430 "e_elab.ml" 140 4424 4433
+type(
+  unit Visit.scx
+)
+ident(
+  def scx "e_elab.ml" 140 4424 4434 "e_elab.ml" 140 4424 4457
+)
+"e_elab.ml" 140 4424 4434 "e_elab.ml" 140 4424 4435
+type(
+  E_t.expr
+)
+ident(
+  def e "e_elab.ml" 140 4424 4439 "e_elab.ml" 140 4424 4457
+)
+"e_elab.ml" 140 4424 4439 "e_elab.ml" 140 4424 4446
+type(
+  unit Visit.map
+)
+ident(
+  int_ref visitor "e_elab.ml" 106 3139 3145 "e_elab.ml" 106 3139 3152
+)
+"e_elab.ml" 140 4424 4439 "e_elab.ml" 140 4424 4451
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 140 4424 4452 "e_elab.ml" 140 4424 4455
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 140 4424 4430 "e_elab.ml" 140 4424 4433
+)
+"e_elab.ml" 140 4424 4456 "e_elab.ml" 140 4424 4457
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 140 4424 4434 "e_elab.ml" 140 4424 4435
+)
+"e_elab.ml" 140 4424 4439 "e_elab.ml" 140 4424 4457
+type(
+  E_t.expr
+)
+"e_elab.ml" 140 4424 4426 "e_elab.ml" 140 4424 4457
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 106 3139 3141 "e_elab.ml" 140 4424 4457
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 142 4459 4463 "e_elab.ml" 142 4459 4476
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  def let_normalize "e_elab.ml" 169 5445 5445 "e_elab.ml" 0 0 -1
+)
+"e_elab.ml" 143 4479 4485 "e_elab.ml" 143 4479 4492
+type(
+  unit Visit.map
+)
+ident(
+  def visitor "e_elab.ml" 167 5410 5412 "e_elab.ml" 167 5410 5443
+)
+"e_elab.ml" 143 4479 4503 "e_elab.ml" 143 4479 4507
+type(
+  unit Visit.map
+)
+type(
+  unit Visit.map
+)
+"e_elab.ml" 145 4555 4571 "e_elab.ml" 145 4555 4574
+type(
+  unit Visit.scx
+)
+ident(
+  def scx "e_elab.ml" 145 4555 4575 "e_elab.ml" 165 5369 5400
+)
+"e_elab.ml" 145 4555 4575 "e_elab.ml" 145 4555 4576
+type(
+  E_t.expr
+)
+ident(
+  def e "e_elab.ml" 146 4579 4585 "e_elab.ml" 165 5369 5400
+)
+"e_elab.ml" 146 4579 4589 "e_elab.ml" 146 4579 4593
+type(
+  E_t.expr
+)
+ident(
+  def dest "e_elab.ml" 147 4601 4607 "e_elab.ml" 165 5369 5400
+)
+"e_elab.ml" 146 4579 4596 "e_elab.ml" 146 4579 4597
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 145 4555 4575 "e_elab.ml" 145 4555 4576
+)
+"e_elab.ml" 147 4601 4613 "e_elab.ml" 147 4601 4614
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 145 4555 4575 "e_elab.ml" 145 4555 4576
+)
+"e_elab.ml" 147 4601 4613 "e_elab.ml" 147 4601 4619
+type(
+  E_t.expr_
+)
+"e_elab.ml" 148 4625 4640 "e_elab.ml" 148 4625 4642
+type(
+  E_t.defn list
+)
+"e_elab.ml" 148 4625 4644 "e_elab.ml" 148 4625 4645
+type(
+  E_t.expr
+)
+ident(
+  def e "e_elab.ml" 148 4625 4650 "e_elab.ml" 148 4625 4665
+)
+"e_elab.ml" 148 4625 4635 "e_elab.ml" 148 4625 4646
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_elab.ml" 148 4625 4650 "e_elab.ml" 148 4625 4654
+type(
+  unit Visit.map
+)
+ident(
+  ext_ref self-5
+)
+"e_elab.ml" 148 4625 4650 "e_elab.ml" 148 4625 4659
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 148 4625 4660 "e_elab.ml" 148 4625 4663
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 145 4555 4571 "e_elab.ml" 145 4555 4574
+)
+"e_elab.ml" 148 4625 4664 "e_elab.ml" 148 4625 4665
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 148 4625 4644 "e_elab.ml" 148 4625 4645
+)
+"e_elab.ml" 148 4625 4650 "e_elab.ml" 148 4625 4665
+type(
+  E_t.expr
+)
+"e_elab.ml" 149 4666 4681 "e_elab.ml" 149 4666 4682
+type(
+  E_t.defn
+)
+ident(
+  def d "e_elab.ml" 149 4666 4696 "e_elab.ml" 164 5355 5368
+)
+"e_elab.ml" 149 4666 4686 "e_elab.ml" 149 4666 4688
+type(
+  E_t.defn list
+)
+ident(
+  def ds "e_elab.ml" 149 4666 4696 "e_elab.ml" 164 5355 5368
+)
+"e_elab.ml" 149 4666 4681 "e_elab.ml" 149 4666 4688
+type(
+  E_t.defn list
+)
+"e_elab.ml" 149 4666 4690 "e_elab.ml" 149 4666 4691
+type(
+  E_t.expr
+)
+ident(
+  def e "e_elab.ml" 149 4666 4696 "e_elab.ml" 164 5355 5368
+)
+"e_elab.ml" 149 4666 4676 "e_elab.ml" 149 4666 4692
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_elab.ml" 150 4702 4720 "e_elab.ml" 150 4702 4721
+type(
+  E_t.defn
+)
+ident(
+  int_ref d "e_elab.ml" 149 4666 4681 "e_elab.ml" 149 4666 4682
+)
+"e_elab.ml" 150 4702 4720 "e_elab.ml" 150 4702 4726
+type(
+  E_t.defn_
+)
+"e_elab.ml" 151 4732 4758 "e_elab.ml" 151 4732 4759
+type(
+  Util.hint
+)
+ident(
+  def n "e_elab.ml" 153 4807 4825 "e_elab.ml" 156 4966 4999
+)
+"e_elab.ml" 151 4732 4761 "e_elab.ml" 151 4732 4765
+type(
+  E_t.expr
+)
+ident(
+  def nexp "e_elab.ml" 153 4807 4825 "e_elab.ml" 156 4966 4999
+)
+"e_elab.ml" 151 4732 4748 "e_elab.ml" 151 4732 4766
+type(
+  E_t.defn_
+)
+type(
+  E_t.defn_
+)
+"e_elab.ml" 152 4767 4792 "e_elab.ml" 152 4767 4793
+type(
+  Util.hint
+)
+ident(
+  def n "e_elab.ml" 153 4807 4825 "e_elab.ml" 156 4966 4999
+)
+"e_elab.ml" 152 4767 4795 "e_elab.ml" 152 4767 4799
+type(
+  E_t.expr
+)
+ident(
+  def nexp "e_elab.ml" 153 4807 4825 "e_elab.ml" 156 4966 4999
+)
+"e_elab.ml" 152 4767 4801 "e_elab.ml" 152 4767 4802
+type(
+  (Util.hint * E_t.backend_args) list list
+)
+"e_elab.ml" 152 4767 4783 "e_elab.ml" 152 4767 4803
+type(
+  E_t.defn_
+)
+type(
+  E_t.defn_
+)
+"e_elab.ml" 151 4732 4748 "e_elab.ml" 152 4767 4803
+type(
+  E_t.defn_
+)
+"e_elab.ml" 153 4807 4829 "e_elab.ml" 153 4807 4831
+type(
+  E_t.expr
+)
+ident(
+  def op "e_elab.ml" 154 4856 4874 "e_elab.ml" 156 4966 4999
+)
+"e_elab.ml" 153 4807 4834 "e_elab.ml" 153 4807 4838
+type(
+  unit Visit.map
+)
+ident(
+  ext_ref self-5
+)
+"e_elab.ml" 153 4807 4834 "e_elab.ml" 153 4807 4843
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 153 4807 4844 "e_elab.ml" 153 4807 4847
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 145 4555 4571 "e_elab.ml" 145 4555 4574
+)
+"e_elab.ml" 153 4807 4848 "e_elab.ml" 153 4807 4852
+type(
+  E_t.expr
+)
+ident(
+  int_ref nexp "e_elab.ml" 151 4732 4761 "e_elab.ml" 151 4732 4765
+)
+"e_elab.ml" 153 4807 4834 "e_elab.ml" 153 4807 4852
+type(
+  E_t.expr
+)
+"e_elab.ml" 154 4856 4878 "e_elab.ml" 154 4856 4879
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def e "e_elab.ml" 155 4905 4923 "e_elab.ml" 156 4966 4999
+)
+"e_elab.ml" 154 4856 4887 "e_elab.ml" 154 4856 4889
+type(
+  E_t.defn list
+)
+ident(
+  int_ref ds "e_elab.ml" 149 4666 4686 "e_elab.ml" 149 4666 4688
+)
+"e_elab.ml" 154 4856 4891 "e_elab.ml" 154 4856 4892
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 149 4666 4690 "e_elab.ml" 149 4666 4691
+)
+"e_elab.ml" 154 4856 4882 "e_elab.ml" 154 4856 4893
+type(
+  E_t.expr_
+)
+"e_elab.ml" 154 4856 4894 "e_elab.ml" 154 4856 4896
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_elab.ml" 154 4856 4897 "e_elab.ml" 154 4856 4901
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_elab.ml" 146 4579 4589 "e_elab.ml" 146 4579 4593
+)
+"e_elab.ml" 154 4856 4882 "e_elab.ml" 154 4856 4901
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_elab.ml" 155 4905 4927 "e_elab.ml" 155 4905 4928
+type(
+  E_t.expr
+)
+ident(
+  def e "e_elab.ml" 156 4966 4984 "e_elab.ml" 156 4966 4999
+)
+"e_elab.ml" 155 4905 4931 "e_elab.ml" 155 4905 4939
+type(
+  E_subst.sub -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref E_subst.app_expr "e_subst.mli" 20 405 405 "e_subst.mli" 20 405 439
+)
+"e_elab.ml" 155 4905 4941 "e_elab.ml" 155 4905 4946
+type(
+  E_t.expr -> E_subst.sub -> E_subst.sub
+)
+ident(
+  int_ref E_subst.scons "e_subst.mli" 12 155 155 "e_subst.mli" 12 155 185
+)
+"e_elab.ml" 155 4905 4947 "e_elab.ml" 155 4905 4949
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_elab.ml" 153 4807 4829 "e_elab.ml" 153 4807 4831
+)
+"e_elab.ml" 155 4905 4951 "e_elab.ml" 155 4905 4956
+type(
+  int -> E_subst.sub
+)
+ident(
+  int_ref E_subst.shift "e_subst.mli" 11 132 132 "e_subst.mli" 11 132 154
+)
+"e_elab.ml" 155 4905 4957 "e_elab.ml" 155 4905 4958
+type(
+  int
+)
+"e_elab.ml" 155 4905 4950 "e_elab.ml" 155 4905 4959
+type(
+  E_subst.sub
+)
+"e_elab.ml" 155 4905 4940 "e_elab.ml" 155 4905 4960
+type(
+  E_subst.sub
+)
+"e_elab.ml" 155 4905 4961 "e_elab.ml" 155 4905 4962
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 154 4856 4878 "e_elab.ml" 154 4856 4879
+)
+"e_elab.ml" 155 4905 4931 "e_elab.ml" 155 4905 4962
+type(
+  E_t.expr
+)
+"e_elab.ml" 156 4966 4984 "e_elab.ml" 156 4966 4988
+type(
+  unit Visit.map
+)
+ident(
+  ext_ref self-5
+)
+"e_elab.ml" 156 4966 4984 "e_elab.ml" 156 4966 4993
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 156 4966 4994 "e_elab.ml" 156 4966 4997
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 145 4555 4571 "e_elab.ml" 145 4555 4574
+)
+"e_elab.ml" 156 4966 4998 "e_elab.ml" 156 4966 4999
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 155 4905 4927 "e_elab.ml" 155 4905 4928
+)
+"e_elab.ml" 156 4966 4984 "e_elab.ml" 156 4966 4999
+type(
+  E_t.expr
+)
+"e_elab.ml" 155 4905 4923 "e_elab.ml" 156 4966 4999
+type(
+  E_t.expr
+)
+"e_elab.ml" 154 4856 4874 "e_elab.ml" 156 4966 4999
+type(
+  E_t.expr
+)
+"e_elab.ml" 153 4807 4825 "e_elab.ml" 156 4966 4999
+type(
+  E_t.expr
+)
+"e_elab.ml" 157 5000 5026 "e_elab.ml" 157 5000 5030
+type(
+  Util.hint
+)
+ident(
+  def name "e_elab.ml" 158 5038 5056 "e_elab.ml" 161 5215 5272
+)
+"e_elab.ml" 157 5000 5032 "e_elab.ml" 157 5000 5033
+type(
+  E_t.instance
+)
+"e_elab.ml" 157 5000 5016 "e_elab.ml" 157 5000 5034
+type(
+  E_t.defn_
+)
+type(
+  E_t.defn_
+)
+"e_elab.ml" 158 5038 5056 "e_elab.ml" 158 5038 5066
+type(
+  ?at:E_t.defn -> string -> E_t.expr
+)
+ident(
+  int_ref Errors.bug "errors.mli" 41 941 941 "errors.mli" 41 941 982
+)
+"e_elab.ml" 158 5038 5071 "e_elab.ml" 158 5038 5072
+type(
+  E_t.defn
+)
+ident(
+  int_ref d "e_elab.ml" 149 4666 4681 "e_elab.ml" 149 4666 4682
+)
+type(
+  E_t.defn option
+)
+"e_elab.ml" 159 5075 5097 "e_elab.ml" 159 5075 5142
+type(
+  string
+)
+"e_elab.ml" 159 5075 5143 "e_elab.ml" 159 5075 5144
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"e_elab.ml" 160 5145 5167 "e_elab.ml" 160 5145 5212
+type(
+  string
+)
+"e_elab.ml" 160 5145 5213 "e_elab.ml" 160 5145 5214
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"e_elab.ml" 161 5215 5237 "e_elab.ml" 161 5215 5271
+type(
+  string
+)
+"e_elab.ml" 160 5145 5167 "e_elab.ml" 161 5215 5271
+type(
+  string
+)
+"e_elab.ml" 158 5038 5073 "e_elab.ml" 161 5215 5272
+type(
+  string
+)
+"e_elab.ml" 158 5038 5056 "e_elab.ml" 161 5215 5272
+type(
+  E_t.expr
+)
+"e_elab.ml" 162 5273 5289 "e_elab.ml" 162 5273 5290
+type(
+  E_t.defn_
+)
+type(
+  E_t.defn_
+)
+"e_elab.ml" 163 5294 5312 "e_elab.ml" 163 5294 5322
+type(
+  ?at:E_t.defn -> string -> E_t.expr
+)
+ident(
+  int_ref Errors.bug "errors.mli" 41 941 941 "errors.mli" 41 941 982
+)
+"e_elab.ml" 163 5294 5327 "e_elab.ml" 163 5294 5328
+type(
+  E_t.defn
+)
+ident(
+  int_ref d "e_elab.ml" 149 4666 4681 "e_elab.ml" 149 4666 4682
+)
+type(
+  E_t.defn option
+)
+"e_elab.ml" 163 5294 5329 "e_elab.ml" 163 5294 5354
+type(
+  string
+)
+"e_elab.ml" 163 5294 5312 "e_elab.ml" 163 5294 5354
+type(
+  E_t.expr
+)
+"e_elab.ml" 149 4666 4696 "e_elab.ml" 164 5355 5368
+type(
+  E_t.expr
+)
+"e_elab.ml" 165 5369 5379 "e_elab.ml" 165 5369 5380
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_elab.ml" 165 5369 5384 "e_elab.ml" 165 5369 5389
+type(
+  unit Visit.map
+)
+ident(
+  ext_ref self-5
+)
+type(
+  unit Visit.map
+)
+ident(
+  int_ref super "e_elab.ml" 144 4517 4529 "e_elab.ml" 144 4517 4545
+)
+"e_elab.ml" 165 5369 5384 "e_elab.ml" 165 5369 5394
+type(
+  unit Visit.map -> unit Visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 165 5369 5395 "e_elab.ml" 165 5369 5398
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 145 4555 4571 "e_elab.ml" 145 4555 4574
+)
+"e_elab.ml" 165 5369 5399 "e_elab.ml" 165 5369 5400
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 145 4555 4575 "e_elab.ml" 145 4555 4576
+)
+"e_elab.ml" 165 5369 5384 "e_elab.ml" 165 5369 5400
+type(
+  E_t.expr
+)
+"e_elab.ml" 147 4601 4607 "e_elab.ml" 165 5369 5400
+type(
+  E_t.expr
+)
+"e_elab.ml" 146 4579 4585 "e_elab.ml" 165 5369 5400
+type(
+  E_t.expr
+)
+"e_elab.ml" 143 4479 4495 "e_elab.ml" 166 5401 5406
+type(
+  unit Visit.map
+)
+"e_elab.ml" 167 5410 5416 "e_elab.ml" 167 5410 5419
+type(
+  unit Visit.scx
+)
+ident(
+  def scx "e_elab.ml" 167 5410 5420 "e_elab.ml" 167 5410 5443
+)
+"e_elab.ml" 167 5410 5420 "e_elab.ml" 167 5410 5421
+type(
+  E_t.expr
+)
+ident(
+  def e "e_elab.ml" 167 5410 5425 "e_elab.ml" 167 5410 5443
+)
+"e_elab.ml" 167 5410 5425 "e_elab.ml" 167 5410 5432
+type(
+  unit Visit.map
+)
+ident(
+  int_ref visitor "e_elab.ml" 143 4479 4485 "e_elab.ml" 143 4479 4492
+)
+"e_elab.ml" 167 5410 5425 "e_elab.ml" 167 5410 5437
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 167 5410 5438 "e_elab.ml" 167 5410 5441
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 167 5410 5416 "e_elab.ml" 167 5410 5419
+)
+"e_elab.ml" 167 5410 5442 "e_elab.ml" 167 5410 5443
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 167 5410 5420 "e_elab.ml" 167 5410 5421
+)
+"e_elab.ml" 167 5410 5425 "e_elab.ml" 167 5410 5443
+type(
+  E_t.expr
+)
+"e_elab.ml" 167 5410 5412 "e_elab.ml" 167 5410 5443
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 143 4479 4481 "e_elab.ml" 167 5410 5443
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 169 5445 5449 "e_elab.ml" 169 5445 5458
+type(
+  E_t.hyp Deque.dq -> E_t.expr -> E_t.expr
+)
+ident(
+  def normalize "e_elab.ml" 183 5909 5909 "e_elab.ml" 0 0 -1
+)
+"e_elab.ml" 169 5445 5459 "e_elab.ml" 169 5445 5461
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def cx "e_elab.ml" 169 5445 5462 "e_elab.ml" 181 5904 5907
+)
+"e_elab.ml" 169 5445 5462 "e_elab.ml" 169 5445 5463
+type(
+  E_t.expr
+)
+ident(
+  def e "e_elab.ml" 170 5466 5468 "e_elab.ml" 181 5904 5907
+)
+"e_elab.ml" 170 5466 5472 "e_elab.ml" 170 5466 5475
+type(
+  unit * E_t.hyp Deque.dq
+)
+ident(
+  def scx "e_elab.ml" 171 5490 5492 "e_elab.ml" 181 5904 5907
+)
+"e_elab.ml" 170 5466 5479 "e_elab.ml" 170 5466 5481
+type(
+  unit
+)
+"e_elab.ml" 170 5466 5483 "e_elab.ml" 170 5466 5485
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_elab.ml" 169 5445 5459 "e_elab.ml" 169 5445 5461
+)
+"e_elab.ml" 170 5466 5478 "e_elab.ml" 170 5466 5486
+type(
+  unit * E_t.hyp Deque.dq
+)
+"e_elab.ml" 171 5490 5496 "e_elab.ml" 171 5490 5499
+type(
+  bool
+)
+ident(
+  def nte "e_elab.ml" 174 5614 5616 "e_elab.ml" 181 5904 5907
+)
+"e_elab.ml" 171 5490 5502 "e_elab.ml" 171 5490 5514
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref non_temporal "e_elab.ml" 57 1636 1640 "e_elab.ml" 57 1636 1652
+)
+"e_elab.ml" 171 5490 5515 "e_elab.ml" 171 5490 5516
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 169 5445 5462 "e_elab.ml" 169 5445 5463
+)
+"e_elab.ml" 171 5490 5502 "e_elab.ml" 171 5490 5516
+type(
+  bool
+)
+"e_elab.ml" 174 5614 5620 "e_elab.ml" 174 5614 5621
+type(
+  E_t.expr
+)
+ident(
+  def e "e_elab.ml" 175 5669 5671 "e_elab.ml" 181 5904 5907
+)
+"e_elab.ml" 174 5614 5627 "e_elab.ml" 174 5614 5630
+type(
+  bool
+)
+ident(
+  int_ref nte "e_elab.ml" 171 5490 5496 "e_elab.ml" 171 5490 5499
+)
+"e_elab.ml" 174 5614 5636 "e_elab.ml" 174 5614 5652
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref except_normalize "e_elab.ml" 105 3116 3120 "e_elab.ml" 105 3116 3136
+)
+"e_elab.ml" 174 5614 5653 "e_elab.ml" 174 5614 5656
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 170 5466 5472 "e_elab.ml" 170 5466 5475
+)
+"e_elab.ml" 174 5614 5657 "e_elab.ml" 174 5614 5658
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 169 5445 5462 "e_elab.ml" 169 5445 5463
+)
+"e_elab.ml" 174 5614 5636 "e_elab.ml" 174 5614 5658
+type(
+  E_t.expr
+)
+"e_elab.ml" 174 5614 5664 "e_elab.ml" 174 5614 5665
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 169 5445 5462 "e_elab.ml" 169 5445 5463
+)
+"e_elab.ml" 174 5614 5624 "e_elab.ml" 174 5614 5665
+type(
+  E_t.expr
+)
+"e_elab.ml" 175 5669 5675 "e_elab.ml" 175 5669 5676
+type(
+  E_t.expr
+)
+ident(
+  def e "e_elab.ml" 181 5904 5906 "e_elab.ml" 181 5904 5907
+)
+"e_elab.ml" 175 5669 5679 "e_elab.ml" 175 5669 5692
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref let_normalize "e_elab.ml" 142 4459 4463 "e_elab.ml" 142 4459 4476
+)
+"e_elab.ml" 175 5669 5693 "e_elab.ml" 175 5669 5696
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 170 5466 5472 "e_elab.ml" 170 5466 5475
+)
+"e_elab.ml" 175 5669 5697 "e_elab.ml" 175 5669 5698
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 174 5614 5620 "e_elab.ml" 174 5614 5621
+)
+"e_elab.ml" 175 5669 5679 "e_elab.ml" 175 5669 5698
+type(
+  E_t.expr
+)
+"e_elab.ml" 181 5904 5906 "e_elab.ml" 181 5904 5907
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 175 5669 5675 "e_elab.ml" 175 5669 5676
+)
+"e_elab.ml" 175 5669 5671 "e_elab.ml" 181 5904 5907
+type(
+  E_t.expr
+)
+"e_elab.ml" 174 5614 5616 "e_elab.ml" 181 5904 5907
+type(
+  E_t.expr
+)
+"e_elab.ml" 171 5490 5492 "e_elab.ml" 181 5904 5907
+type(
+  E_t.expr
+)
+"e_elab.ml" 170 5466 5468 "e_elab.ml" 181 5904 5907
+type(
+  E_t.expr
+)
+"e_elab.ml" 183 5909 5913 "e_elab.ml" 183 5909 5919
+type(
+  E_t.expr_ Property.wrapped -> E_t.expr
+)
+ident(
+  def get_at "e_elab.ml" 197 6407 6407 "e_elab.ml" 0 0 -1
+)
+"e_elab.ml" 183 5909 5920 "e_elab.ml" 183 5909 5921
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def e "e_elab.ml" 184 5924 5924 "e_elab.ml" 194 6387 6404
+)
+"e_elab.ml" 184 5924 5928 "e_elab.ml" 184 5924 5933
+type(
+  unit -> 'a
+)
+ident(
+  def error "e_elab.ml" 189 6268 6270 "e_elab.ml" 194 6387 6404
+)
+"e_elab.ml" 184 5924 5934 "e_elab.ml" 184 5924 5936
+type(
+  unit
+)
+"e_elab.ml" 187 6235 6237 "e_elab.ml" 187 6235 6245
+type(
+  string -> 'a
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"e_elab.ml" 187 6235 6246 "e_elab.ml" 187 6235 6264
+type(
+  string
+)
+"e_elab.ml" 187 6235 6237 "e_elab.ml" 187 6235 6264
+type(
+  'a
+)
+"e_elab.ml" 189 6268 6276 "e_elab.ml" 189 6268 6277
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref e "e_elab.ml" 183 5909 5920 "e_elab.ml" 183 5909 5921
+)
+"e_elab.ml" 189 6268 6276 "e_elab.ml" 189 6268 6282
+type(
+  E_t.expr_
+)
+"e_elab.ml" 190 6288 6301 "e_elab.ml" 190 6288 6302
+type(
+  E_t.expr
+)
+ident(
+  def e "e_elab.ml" 191 6309 6317 "e_elab.ml" 193 6361 6386
+)
+"e_elab.ml" 190 6288 6303 "e_elab.ml" 190 6288 6304
+type(
+  E_t.expr list
+)
+ident(
+  def l "e_elab.ml" 191 6309 6317 "e_elab.ml" 193 6361 6386
+)
+"e_elab.ml" 190 6288 6294 "e_elab.ml" 190 6288 6305
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_elab.ml" 191 6309 6320 "e_elab.ml" 191 6309 6331
+type(
+  E_t.expr list -> int
+)
+ident(
+  int_ref Stdlib.List.length "list.mli" 43 2033 2033 "list.mli" 43 2033 2060
+)
+"e_elab.ml" 191 6309 6332 "e_elab.ml" 191 6309 6333
+type(
+  E_t.expr list
+)
+ident(
+  int_ref l "e_elab.ml" 190 6288 6303 "e_elab.ml" 190 6288 6304
+)
+"e_elab.ml" 191 6309 6320 "e_elab.ml" 191 6309 6333
+type(
+  int
+)
+"e_elab.ml" 191 6309 6334 "e_elab.ml" 191 6309 6336
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 130 5559 5559 "stdlib.mli" 130 5559 5607
+)
+"e_elab.ml" 191 6309 6337 "e_elab.ml" 191 6309 6338
+type(
+  int
+)
+"e_elab.ml" 191 6309 6320 "e_elab.ml" 191 6309 6338
+type(
+  bool
+)
+"e_elab.ml" 192 6339 6352 "e_elab.ml" 192 6339 6357
+type(
+  unit -> E_t.expr
+)
+ident(
+  int_ref error "e_elab.ml" 184 5924 5928 "e_elab.ml" 184 5924 5933
+)
+"e_elab.ml" 192 6339 6358 "e_elab.ml" 192 6339 6360
+type(
+  unit
+)
+"e_elab.ml" 192 6339 6352 "e_elab.ml" 192 6339 6360
+type(
+  E_t.expr
+)
+"e_elab.ml" 193 6361 6374 "e_elab.ml" 193 6361 6382
+type(
+  E_t.expr list -> int -> E_t.expr
+)
+ident(
+  int_ref Stdlib.List.nth "list.mli" 75 3022 3022 "list.mli" 75 3022 3052
+)
+"e_elab.ml" 193 6361 6383 "e_elab.ml" 193 6361 6384
+type(
+  E_t.expr list
+)
+ident(
+  int_ref l "e_elab.ml" 190 6288 6303 "e_elab.ml" 190 6288 6304
+)
+"e_elab.ml" 193 6361 6385 "e_elab.ml" 193 6361 6386
+type(
+  int
+)
+"e_elab.ml" 193 6361 6374 "e_elab.ml" 193 6361 6386
+type(
+  E_t.expr
+)
+"e_elab.ml" 191 6309 6317 "e_elab.ml" 193 6361 6386
+type(
+  E_t.expr
+)
+"e_elab.ml" 194 6387 6391 "e_elab.ml" 194 6387 6392
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_elab.ml" 194 6387 6396 "e_elab.ml" 194 6387 6401
+type(
+  unit -> E_t.expr
+)
+ident(
+  int_ref error "e_elab.ml" 184 5924 5928 "e_elab.ml" 184 5924 5933
+)
+"e_elab.ml" 194 6387 6402 "e_elab.ml" 194 6387 6404
+type(
+  unit
+)
+"e_elab.ml" 194 6387 6396 "e_elab.ml" 194 6387 6404
+type(
+  E_t.expr
+)
+"e_elab.ml" 189 6268 6270 "e_elab.ml" 194 6387 6404
+type(
+  E_t.expr
+)
+"e_elab.ml" 184 5924 5924 "e_elab.ml" 194 6387 6404
+type(
+  E_t.expr
+)
+"e_elab.ml" 197 6407 6411 "e_elab.ml" 197 6407 6423
+type(
+  E_t.expr_ option ref
+)
+ident(
+  def will_replace "e_elab.ml" 199 6455 6455 "e_elab.ml" 0 0 -1
+)
+"e_elab.ml" 197 6407 6445 "e_elab.ml" 197 6407 6448
+type(
+  E_t.expr_ option -> E_t.expr_ option ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"e_elab.ml" 197 6407 6449 "e_elab.ml" 197 6407 6453
+type(
+  E_t.expr_ option
+)
+"e_elab.ml" 197 6407 6445 "e_elab.ml" 197 6407 6453
+type(
+  E_t.expr_ option ref
+)
+"e_elab.ml" 199 6455 6459 "e_elab.ml" 199 6455 6473
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  def replace_at_aux "e_elab.ml" 209 6763 6763 "e_elab.ml" 0 0 -1
+)
+"e_elab.ml" 200 6476 6483 "e_elab.ml" 200 6476 6490
+type(
+  unit Visit.map
+)
+ident(
+  def visitor "e_elab.ml" 207 6728 6730 "e_elab.ml" 207 6728 6761
+)
+"e_elab.ml" 200 6476 6501 "e_elab.ml" 200 6476 6505
+type(
+  unit Visit.map
+)
+type(
+  unit Visit.map
+)
+"e_elab.ml" 202 6553 6569 "e_elab.ml" 202 6553 6572
+type(
+  unit Visit.scx
+)
+ident(
+  def scx "e_elab.ml" 202 6553 6573 "e_elab.ml" 205 6687 6718
+)
+"e_elab.ml" 202 6553 6573 "e_elab.ml" 202 6553 6574
+type(
+  E_t.expr
+)
+ident(
+  def e "e_elab.ml" 203 6577 6583 "e_elab.ml" 205 6687 6718
+)
+"e_elab.ml" 203 6577 6589 "e_elab.ml" 203 6577 6590
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 202 6553 6573 "e_elab.ml" 202 6553 6574
+)
+"e_elab.ml" 203 6577 6589 "e_elab.ml" 203 6577 6595
+type(
+  E_t.expr_
+)
+"e_elab.ml" 204 6601 6614 "e_elab.ml" 204 6601 6619
+type(
+  bool
+)
+"e_elab.ml" 204 6601 6611 "e_elab.ml" 204 6601 6619
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_elab.ml" 204 6601 6630 "e_elab.ml" 204 6601 6631
+type(
+  E_t.expr_ option ref -> E_t.expr_ option
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"e_elab.ml" 204 6601 6631 "e_elab.ml" 204 6601 6643
+type(
+  E_t.expr_ option ref
+)
+ident(
+  int_ref will_replace "e_elab.ml" 197 6407 6411 "e_elab.ml" 197 6407 6423
+)
+"e_elab.ml" 204 6601 6630 "e_elab.ml" 204 6601 6643
+type(
+  E_t.expr_ option
+)
+"e_elab.ml" 204 6601 6654 "e_elab.ml" 204 6601 6655
+type(
+  E_t.expr_
+)
+ident(
+  def c "e_elab.ml" 204 6601 6659 "e_elab.ml" 204 6601 6660
+)
+"e_elab.ml" 204 6601 6649 "e_elab.ml" 204 6601 6655
+type(
+  E_t.expr_ option
+)
+type(
+  E_t.expr_ option
+)
+"e_elab.ml" 204 6601 6659 "e_elab.ml" 204 6601 6660
+type(
+  E_t.expr_
+)
+ident(
+  int_ref c "e_elab.ml" 204 6601 6654 "e_elab.ml" 204 6601 6655
+)
+"e_elab.ml" 204 6601 6663 "e_elab.ml" 204 6601 6664
+type(
+  E_t.expr_ option
+)
+type(
+  E_t.expr_ option
+)
+"e_elab.ml" 204 6601 6675 "e_elab.ml" 204 6601 6680
+type(
+  bool
+)
+"e_elab.ml" 204 6601 6668 "e_elab.ml" 204 6601 6680
+type(
+  E_t.expr_
+)
+"e_elab.ml" 204 6601 6623 "e_elab.ml" 204 6601 6681
+type(
+  E_t.expr_
+)
+"e_elab.ml" 204 6601 6682 "e_elab.ml" 204 6601 6684
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_elab.ml" 204 6601 6685 "e_elab.ml" 204 6601 6686
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 202 6553 6573 "e_elab.ml" 202 6553 6574
+)
+"e_elab.ml" 204 6601 6623 "e_elab.ml" 204 6601 6686
+type(
+  E_t.expr
+)
+"e_elab.ml" 205 6687 6697 "e_elab.ml" 205 6687 6698
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_elab.ml" 205 6687 6702 "e_elab.ml" 205 6687 6707
+type(
+  unit Visit.map
+)
+ident(
+  ext_ref self-6
+)
+type(
+  unit Visit.map
+)
+ident(
+  int_ref super "e_elab.ml" 201 6515 6527 "e_elab.ml" 201 6515 6543
+)
+"e_elab.ml" 205 6687 6702 "e_elab.ml" 205 6687 6712
+type(
+  unit Visit.map -> unit Visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 205 6687 6713 "e_elab.ml" 205 6687 6716
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 202 6553 6569 "e_elab.ml" 202 6553 6572
+)
+"e_elab.ml" 205 6687 6717 "e_elab.ml" 205 6687 6718
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 202 6553 6573 "e_elab.ml" 202 6553 6574
+)
+"e_elab.ml" 205 6687 6702 "e_elab.ml" 205 6687 6718
+type(
+  E_t.expr
+)
+"e_elab.ml" 203 6577 6583 "e_elab.ml" 205 6687 6718
+type(
+  E_t.expr
+)
+"e_elab.ml" 200 6476 6493 "e_elab.ml" 206 6719 6724
+type(
+  unit Visit.map
+)
+"e_elab.ml" 207 6728 6734 "e_elab.ml" 207 6728 6737
+type(
+  unit Visit.scx
+)
+ident(
+  def scx "e_elab.ml" 207 6728 6738 "e_elab.ml" 207 6728 6761
+)
+"e_elab.ml" 207 6728 6738 "e_elab.ml" 207 6728 6739
+type(
+  E_t.expr
+)
+ident(
+  def e "e_elab.ml" 207 6728 6743 "e_elab.ml" 207 6728 6761
+)
+"e_elab.ml" 207 6728 6743 "e_elab.ml" 207 6728 6750
+type(
+  unit Visit.map
+)
+ident(
+  int_ref visitor "e_elab.ml" 200 6476 6483 "e_elab.ml" 200 6476 6490
+)
+"e_elab.ml" 207 6728 6743 "e_elab.ml" 207 6728 6755
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 207 6728 6756 "e_elab.ml" 207 6728 6759
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 207 6728 6734 "e_elab.ml" 207 6728 6737
+)
+"e_elab.ml" 207 6728 6760 "e_elab.ml" 207 6728 6761
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 207 6728 6738 "e_elab.ml" 207 6728 6739
+)
+"e_elab.ml" 207 6728 6743 "e_elab.ml" 207 6728 6761
+type(
+  E_t.expr
+)
+"e_elab.ml" 207 6728 6730 "e_elab.ml" 207 6728 6761
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 200 6476 6479 "e_elab.ml" 207 6728 6761
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_elab.ml" 209 6763 6767 "e_elab.ml" 209 6763 6777
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr_ Property.wrapped -> E_t.expr
+)
+ident(
+  def replace_at "e_elab.ml" 212 6855 6882 "e_elab.ml" 0 0 -1
+)
+"e_elab.ml" 209 6763 6778 "e_elab.ml" 209 6763 6781
+type(
+  unit Visit.scx
+)
+ident(
+  def scx "e_elab.ml" 209 6763 6782 "e_elab.ml" 212 6855 6882
+)
+"e_elab.ml" 209 6763 6782 "e_elab.ml" 209 6763 6783
+type(
+  E_t.expr
+)
+ident(
+  def e "e_elab.ml" 209 6763 6784 "e_elab.ml" 212 6855 6882
+)
+"e_elab.ml" 209 6763 6784 "e_elab.ml" 209 6763 6785
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def r "e_elab.ml" 210 6788 6790 "e_elab.ml" 212 6855 6882
+)
+"e_elab.ml" 210 6788 6790 "e_elab.ml" 210 6788 6802
+type(
+  E_t.expr_ option ref
+)
+ident(
+  int_ref will_replace "e_elab.ml" 197 6407 6411 "e_elab.ml" 197 6407 6423
+)
+"e_elab.ml" 210 6788 6803 "e_elab.ml" 210 6788 6805
+type(
+  E_t.expr_ option ref -> E_t.expr_ option -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"e_elab.ml" 210 6788 6811 "e_elab.ml" 210 6788 6812
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref r "e_elab.ml" 209 6763 6784 "e_elab.ml" 209 6763 6785
+)
+"e_elab.ml" 210 6788 6811 "e_elab.ml" 210 6788 6817
+type(
+  E_t.expr_
+)
+"e_elab.ml" 210 6788 6806 "e_elab.ml" 210 6788 6817
+type(
+  E_t.expr_ option
+)
+"e_elab.ml" 210 6788 6790 "e_elab.ml" 210 6788 6817
+type(
+  unit
+)
+"e_elab.ml" 211 6819 6825 "e_elab.ml" 211 6819 6828
+type(
+  E_t.expr
+)
+ident(
+  def res "e_elab.ml" 212 6855 6857 "e_elab.ml" 212 6855 6882
+)
+"e_elab.ml" 211 6819 6831 "e_elab.ml" 211 6819 6845
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref replace_at_aux "e_elab.ml" 199 6455 6459 "e_elab.ml" 199 6455 6473
+)
+"e_elab.ml" 211 6819 6846 "e_elab.ml" 211 6819 6849
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_elab.ml" 209 6763 6778 "e_elab.ml" 209 6763 6781
+)
+"e_elab.ml" 211 6819 6850 "e_elab.ml" 211 6819 6851
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_elab.ml" 209 6763 6782 "e_elab.ml" 209 6763 6783
+)
+"e_elab.ml" 211 6819 6831 "e_elab.ml" 211 6819 6851
+type(
+  E_t.expr
+)
+"e_elab.ml" 212 6855 6857 "e_elab.ml" 212 6855 6869
+type(
+  E_t.expr_ option ref
+)
+ident(
+  int_ref will_replace "e_elab.ml" 197 6407 6411 "e_elab.ml" 197 6407 6423
+)
+"e_elab.ml" 212 6855 6870 "e_elab.ml" 212 6855 6872
+type(
+  E_t.expr_ option ref -> E_t.expr_ option -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"e_elab.ml" 212 6855 6873 "e_elab.ml" 212 6855 6877
+type(
+  E_t.expr_ option
+)
+"e_elab.ml" 212 6855 6857 "e_elab.ml" 212 6855 6877
+type(
+  unit
+)
+"e_elab.ml" 212 6855 6879 "e_elab.ml" 212 6855 6882
+type(
+  E_t.expr
+)
+ident(
+  int_ref res "e_elab.ml" 211 6819 6825 "e_elab.ml" 211 6819 6828
+)
+"e_elab.ml" 212 6855 6857 "e_elab.ml" 212 6855 6882
+type(
+  E_t.expr
+)
+"e_elab.ml" 211 6819 6821 "e_elab.ml" 212 6855 6882
+type(
+  E_t.expr
+)
+"e_elab.ml" 210 6788 6790 "e_elab.ml" 212 6855 6882
+type(
+  E_t.expr
+)

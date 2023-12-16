@@ -1,0 +1,2861 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:27:47 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp setEuclid_test.tla --stretch 5
+
+(* created new ".tlacache/FiniteSets.tlaps/FiniteSets.thy" *)
+(* fingerprints written in ".tlacache/FiniteSets.tlaps/fingerprints" *)
+(* created new ".tlacache/TLAPS.tlaps/TLAPS.thy" *)
+(* fingerprints written in ".tlacache/TLAPS.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/setEuclid_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_c18978.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_c18978.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #1
+;;   generated from file "./setEuclid_test.tla", line 226, characters 1-2
+
+(set-logic UFNIA)
+(declare-sort u 0)
+(declare-sort str 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun str2u (str) u)
+(declare-fun u2str (u) str)
+(declare-fun tla__le (u u) Bool)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Inputunde_a () u)
+(declare-fun a_CONSTANTunde_IsFiniteSetunde_a (u) u)
+(declare-fun a_CONSTANTunde_defaultInitValueunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_a () u)
+(declare-fun a_VARIABLEunde_gcdunde_a () u)
+(declare-fun a_VARIABLEunde_pcunde_a () str)
+(declare-fun string__lbl () str)
+
+(assert
+  (forall ((X_7 Int)) (! (= (u2int (int2u X_7)) X_7) :pattern ((int2u X_7)))))
+(assert
+  (forall ((X_7 str)) (! (= (u2str (str2u X_7)) X_7) :pattern ((str2u X_7)))))
+(assert
+  (forall ((M_5 Int) (N_6 Int))
+  (! (= (tla__le (int2u M_5) (int2u N_6)) (<= M_5 N_6)) :pattern ((tla__le (int2u M_5) (int2u N_6))))))
+(assert
+  (forall ((S_10 u) (T_11 u))
+  (=>
+  (forall ((X_7 u)) (= (tla__in X_7 S_10) (tla__in X_7 T_11))) (= S_10 T_11))))
+
+;; Theorem to be Proved
+(assert (not
+  (and
+    (forall ((a_v3a Int))
+      (=>
+        (tla__in (int2u a_v3a) a_CONSTANTunde_Inputunde_a)
+        (and (<= 0 a_v3a) (not (= a_v3a 0)))))
+    (exists ((a_v4a u)) (tla__in a_v4a a_CONSTANTunde_Inputunde_a)))))
+(assert
+  (forall ((a_v1a Int))
+    (=>
+      (tla__in (int2u a_v1a) a_CONSTANTunde_Inputunde_a)
+      (and (<= 0 a_v1a) (not (= a_v1a 0))))))
+(assert (exists ((a_v2a u)) (tla__in a_v2a a_CONSTANTunde_Inputunde_a)))
+(assert
+  (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Inputunde_a)))
+(assert (= a_VARIABLEunde_Sunde_a a_CONSTANTunde_Inputunde_a))
+(assert (= a_VARIABLEunde_gcdunde_a a_CONSTANTunde_defaultInitValueunde_a))
+(assert (= a_VARIABLEunde_pcunde_a string__lbl))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_43b3b8.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_43b3b8.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #3
+;;   generated from file "./setEuclid_test.tla", line 229, characters 1-2
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_GCDunde_a (u) u)
+(declare-fun a_CONSTANTunde_Inputunde_a () u)
+(declare-fun a_STATEunde_CorrectTerminationunde_a () u)
+(declare-fun a_STATEunde_TypeOKunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_a () u)
+
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (boolify a_STATEunde_TypeOKunde_a))
+(assert
+  (=
+    (a_CONSTANTunde_GCDunde_a a_VARIABLEunde_Sunde_a)
+    (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a)))
+(assert (boolify a_STATEunde_CorrectTerminationunde_a))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_4d350d.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_4d350d.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #4
+;;   generated from file "./setEuclid_test.tla", line 378, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+(declare-sort str 0)
+;; Standard TLA+ operators
+(declare-fun str2u (str) u)
+(declare-fun u2str (u) str)
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_ACTIONunde_lblunde_a () u)
+(declare-fun a_STATEunde_Invunde_a () u)
+(declare-fun a_STATEunde_varsunde_a () u)
+(declare-fun a_VARIABLEunde_pcunde_a () u)
+(declare-fun h6fbaa () u)
+(declare-fun hdb2fe () u)
+(declare-fun string__Done () str)
+
+(assert
+  (forall ((X_3 str)) (! (= (u2str (str2u X_3)) X_3) :pattern ((str2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not (boolify hdb2fe)))
+(assert (boolify a_STATEunde_Invunde_a))
+(assert
+  (or
+    (boolify a_ACTIONunde_lblunde_a)
+    (and
+      (= a_VARIABLEunde_pcunde_a (str2u string__Done))
+      (= h6fbaa a_STATEunde_varsunde_a))))
+(assert (=> (boolify a_ACTIONunde_lblunde_a) (boolify hdb2fe)))
+(assert
+  (=>
+    (and
+      (= a_VARIABLEunde_pcunde_a (str2u string__Done))
+      (= h6fbaa a_STATEunde_varsunde_a)) (boolify hdb2fe)))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_de5506.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_de5506.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #7
+;;   generated from file "./setEuclid_test.tla", line 313, characters 5-11
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_ACTIONunde_Nextunde_a () u)
+(declare-fun a_STATEunde_Invunde_a () u)
+(declare-fun hdb2fe () u)
+
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (boolify hdb2fe))
+(assert (boolify a_STATEunde_Invunde_a))
+(assert (boolify a_ACTIONunde_Nextunde_a))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_13a116.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_13a116.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #8
+;;   generated from file "./setEuclid_test.tla", line 371, characters 7-8
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_ACTIONunde_Nextunde_a () u)
+(declare-fun a_CONSTANTunde_GCDunde_a (u) u)
+(declare-fun a_CONSTANTunde_Inputunde_a () u)
+(declare-fun a_STATEunde_CorrectTerminationunde_a () u)
+(declare-fun a_STATEunde_TypeOKunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_hash_primea () u)
+(declare-fun a_h15bf9a () u)
+(declare-fun a_hb7e61a () u)
+
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (boolify a_STATEunde_TypeOKunde_a))
+(assert (boolify a_STATEunde_CorrectTerminationunde_a))
+(assert
+  (=
+    (a_CONSTANTunde_GCDunde_a a_VARIABLEunde_Sunde_a)
+    (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a)))
+(assert (boolify a_ACTIONunde_Nextunde_a))
+(assert (boolify a_h15bf9a))
+(assert
+  (=
+    (a_CONSTANTunde_GCDunde_a a_VARIABLEunde_Sunde_hash_primea)
+    (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a)))
+(assert (boolify a_hb7e61a))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_6c2ee8.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_6c2ee8.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #12
+;;   generated from file "./setEuclid_test.tla", line 344, characters 9-10
+
+(set-logic UFNIA)
+(declare-sort u 0)
+(declare-sort str 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun str2u (str) u)
+(declare-fun u2str (u) str)
+(declare-fun tla__Int () u)
+(declare-fun tla__le (u u) Bool)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_ACTIONunde_Nextunde_a () u)
+(declare-fun a_CONSTANTunde_IsFiniteSetunde_a (u) u)
+(declare-fun a_STATEunde_Invunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_hash_primea () u)
+(declare-fun a_VARIABLEunde_gcdunde_hash_primea () u)
+(declare-fun a_VARIABLEunde_pcunde_hash_primea () str)
+(declare-fun string__Done () str)
+(declare-fun string__lbl () str)
+
+(assert
+  (forall ((X_7 Int)) (! (= (u2int (int2u X_7)) X_7) :pattern ((int2u X_7)))))
+(assert
+  (forall ((X_7 str)) (! (= (u2str (str2u X_7)) X_7) :pattern ((str2u X_7)))))
+(assert
+  (forall ((X_7 u))
+  (! (= (tla__in X_7 tla__Int) (exists ((N_6 Int)) (= X_7 (int2u N_6)))) :pattern ((tla__in X_7 tla__Int)))))
+(assert
+  (forall ((M_5 Int) (N_6 Int))
+  (! (= (tla__le (int2u M_5) (int2u N_6)) (<= M_5 N_6)) :pattern ((tla__le (int2u M_5) (int2u N_6))))))
+(assert
+  (forall ((S_10 u) (T_11 u))
+  (=>
+  (forall ((X_7 u)) (= (tla__in X_7 S_10) (tla__in X_7 T_11))) (= S_10 T_11))))
+(assert (distinct string__Done string__lbl))
+
+
+;; Theorem to be Proved
+(assert (not
+  (and
+    (forall ((a_v3a Int))
+      (=>
+        (tla__in (int2u a_v3a) a_VARIABLEunde_Sunde_hash_primea)
+        (and (<= 0 a_v3a) (not (= a_v3a 0)))))
+    (exists ((a_v4a u)) (tla__in a_v4a a_VARIABLEunde_Sunde_hash_primea))
+    (=>
+      (= a_VARIABLEunde_pcunde_hash_primea string__Done)
+      (and
+        (tla__in a_VARIABLEunde_gcdunde_hash_primea tla__Int)
+        (tla__le (int2u 0) a_VARIABLEunde_gcdunde_hash_primea)
+        (not (= a_VARIABLEunde_gcdunde_hash_primea (int2u 0)))))
+    (or
+      (= a_VARIABLEunde_pcunde_hash_primea string__Done)
+      (= a_VARIABLEunde_pcunde_hash_primea string__lbl)))))
+(assert (boolify a_STATEunde_Invunde_a))
+(assert (boolify a_ACTIONunde_Nextunde_a))
+(assert
+  (forall ((a_v1a Int))
+    (=>
+      (tla__in (int2u a_v1a) a_VARIABLEunde_Sunde_hash_primea)
+      (and (<= 0 a_v1a) (not (= a_v1a 0))))))
+(assert
+  (exists ((a_v2a u)) (tla__in a_v2a a_VARIABLEunde_Sunde_hash_primea)))
+(assert
+  (boolify
+    (a_CONSTANTunde_IsFiniteSetunde_a a_VARIABLEunde_Sunde_hash_primea)))
+(assert
+  (=>
+    (= a_VARIABLEunde_pcunde_hash_primea string__Done)
+    (and
+      (tla__in a_VARIABLEunde_gcdunde_hash_primea tla__Int)
+      (tla__le (int2u 0) a_VARIABLEunde_gcdunde_hash_primea)
+      (not (= a_VARIABLEunde_gcdunde_hash_primea (int2u 0))))))
+(assert
+  (or
+    (= a_VARIABLEunde_pcunde_hash_primea string__Done)
+    (= a_VARIABLEunde_pcunde_hash_primea string__lbl)))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_f59a3b.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_f59a3b.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #16
+;;   generated from file "./setEuclid_test.tla", line 335, characters 11-12
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun tla__le (u u) Bool)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_ACTIONunde_Nextunde_a () u)
+(declare-fun a_CONSTANTunde_IsFiniteSetunde_a (u) u)
+(declare-fun a_STATEunde_Invunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_hash_primea () u)
+
+(assert
+  (forall ((X_7 Int)) (! (= (u2int (int2u X_7)) X_7) :pattern ((int2u X_7)))))
+(assert
+  (forall ((M_5 Int) (N_6 Int))
+  (! (= (tla__le (int2u M_5) (int2u N_6)) (<= M_5 N_6)) :pattern ((tla__le (int2u M_5) (int2u N_6))))))
+(assert
+  (forall ((S_10 u) (T_11 u))
+  (=>
+  (forall ((X_7 u)) (= (tla__in X_7 S_10) (tla__in X_7 T_11))) (= S_10 T_11))))
+
+;; Theorem to be Proved
+(assert (not
+  (and
+    (forall ((a_v3a Int))
+      (=>
+        (tla__in (int2u a_v3a) a_VARIABLEunde_Sunde_hash_primea)
+        (and (<= 0 a_v3a) (not (= a_v3a 0)))))
+    (exists ((a_v4a u)) (tla__in a_v4a a_VARIABLEunde_Sunde_hash_primea)))))
+(assert (boolify a_STATEunde_Invunde_a))
+(assert (boolify a_ACTIONunde_Nextunde_a))
+(assert
+  (forall ((a_v1a Int))
+    (=>
+      (tla__in (int2u a_v1a) a_VARIABLEunde_Sunde_hash_primea)
+      (and (<= 0 a_v1a) (not (= a_v1a 0))))))
+(assert
+  (exists ((a_v2a u)) (tla__in a_v2a a_VARIABLEunde_Sunde_hash_primea)))
+(assert
+  (boolify
+    (a_CONSTANTunde_IsFiniteSetunde_a a_VARIABLEunde_Sunde_hash_primea)))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_c1e9be.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_c1e9be.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #20
+;;   generated from file "./setEuclid_test.tla", line 322, characters 11-12
+
+(set-logic UFNIA)
+(declare-sort u 0)
+(declare-sort str 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun str2u (str) u)
+(declare-fun u2str (u) str)
+(declare-fun tla__Int () u)
+(declare-fun tla__minus (u u) u)
+(declare-fun tla__lt (u u) Bool)
+(declare-fun tla__le (u u) Bool)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_ACTIONunde_Nextunde_a () u)
+(declare-fun a_CONSTANTunde_Cardinalityunde_a (u) u)
+(declare-fun a_CONSTANTunde_GCDunde_a (u) u)
+(declare-fun a_CONSTANTunde_Inputunde_a () u)
+(declare-fun a_CONSTANTunde_IsFiniteSetunde_a (u) u)
+(declare-fun a_STATEunde_CorrectTerminationunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_hash_primea () u)
+(declare-fun a_VARIABLEunde_gcdunde_a () u)
+(declare-fun a_VARIABLEunde_gcdunde_hash_primea () u)
+(declare-fun a_VARIABLEunde_pcunde_a () u)
+(declare-fun a_VARIABLEunde_pcunde_hash_primea () u)
+(declare-fun string__Done () str)
+(declare-fun string__lbl () str)
+
+(assert
+  (forall ((X_7 Int)) (! (= (u2int (int2u X_7)) X_7) :pattern ((int2u X_7)))))
+(assert
+  (forall ((X_7 str)) (! (= (u2str (str2u X_7)) X_7) :pattern ((str2u X_7)))))
+(assert
+  (forall ((X_7 u))
+  (! (= (tla__in X_7 tla__Int) (exists ((N_6 Int)) (= X_7 (int2u N_6)))) :pattern ((tla__in X_7 tla__Int)))))
+(assert
+  (forall ((M_5 Int) (N_6 Int))
+  (! (= (tla__minus (int2u M_5) (int2u N_6)) (int2u (- M_5 N_6))) :pattern ((tla__minus (int2u M_5) (int2u N_6))))))
+(assert
+  (forall ((M_5 Int) (N_6 Int))
+  (! (= (tla__lt (int2u M_5) (int2u N_6)) (< M_5 N_6)) :pattern ((tla__lt (int2u M_5) (int2u N_6))))))
+(assert
+  (forall ((M_5 Int) (N_6 Int))
+  (! (= (tla__le (int2u M_5) (int2u N_6)) (<= M_5 N_6)) :pattern ((tla__le (int2u M_5) (int2u N_6))))))
+(assert
+  (forall ((S_10 u) (T_11 u))
+  (=>
+  (forall ((X_7 u)) (= (tla__in X_7 S_10) (tla__in X_7 T_11))) (= S_10 T_11))))
+(assert (distinct string__Done string__lbl))
+
+
+;; Theorem to be Proved
+(assert (not
+  (forall ((a_v4a u))
+    (=>
+      (tla__in a_v4a a_VARIABLEunde_Sunde_hash_primea)
+      (and
+        (tla__in a_v4a tla__Int) (tla__le (int2u 0) a_v4a)
+        (not (= a_v4a (int2u 0))))))))
+(assert
+  (forall ((a_v1a u))
+    (=>
+      (tla__in a_v1a a_VARIABLEunde_Sunde_a)
+      (and
+        (tla__in a_v1a tla__Int) (tla__le (int2u 0) a_v1a)
+        (not (= a_v1a (int2u 0)))))))
+(assert (exists ((a_v2a u)) (tla__in a_v2a a_VARIABLEunde_Sunde_a)))
+(assert (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_VARIABLEunde_Sunde_a)))
+(assert (boolify a_STATEunde_CorrectTerminationunde_a))
+(assert
+  (=
+    (a_CONSTANTunde_GCDunde_a a_VARIABLEunde_Sunde_a)
+    (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a)))
+(assert (boolify a_ACTIONunde_Nextunde_a))
+(assert
+  (forall ((a_CONSTANTunde_iunde_a u))
+    (=>
+      (tla__in a_CONSTANTunde_iunde_a a_VARIABLEunde_Sunde_a)
+      (forall ((a_CONSTANTunde_junde_a u))
+        (=>
+          (and
+            (tla__in a_CONSTANTunde_junde_a a_VARIABLEunde_Sunde_a)
+            (tla__lt a_CONSTANTunde_iunde_a a_CONSTANTunde_junde_a))
+          (and
+            (tla__in
+              (tla__minus a_CONSTANTunde_junde_a a_CONSTANTunde_iunde_a)
+              tla__Int)
+            (tla__le
+              (int2u 0)
+              (tla__minus a_CONSTANTunde_junde_a a_CONSTANTunde_iunde_a))
+            (not
+              (=
+                (tla__minus a_CONSTANTunde_junde_a a_CONSTANTunde_iunde_a)
+                (int2u 0)))))))))
+(assert
+  (ite
+    (tla__lt
+      (int2u 1) (a_CONSTANTunde_Cardinalityunde_a a_VARIABLEunde_Sunde_a))
+    (and
+      (exists ((a_CONSTANTunde_iunde_a u))
+        (and
+          (tla__in a_CONSTANTunde_iunde_a a_VARIABLEunde_Sunde_a)
+          (exists ((a_CONSTANTunde_junde_a u))
+            (and
+              (tla__in a_CONSTANTunde_junde_a a_VARIABLEunde_Sunde_a)
+              (tla__lt a_CONSTANTunde_iunde_a a_CONSTANTunde_junde_a)
+              (forall ((a_v3a u))
+                (=
+                  (tla__in a_v3a a_VARIABLEunde_Sunde_hash_primea)
+                  (or
+                    (and
+                      (tla__in a_v3a a_VARIABLEunde_Sunde_a)
+                      (not (= a_v3a a_CONSTANTunde_junde_a)))
+                    (=
+                      a_v3a
+                      (tla__minus
+                        a_CONSTANTunde_junde_a a_CONSTANTunde_iunde_a)))))))))
+      (= a_VARIABLEunde_pcunde_hash_primea (str2u string__lbl))
+      (= a_VARIABLEunde_gcdunde_hash_primea a_VARIABLEunde_gcdunde_a))
+    (and
+      (=>
+        (exists ((a_CONSTANTunde_tunde_a u))
+          (tla__in a_CONSTANTunde_tunde_a a_VARIABLEunde_Sunde_a))
+        (tla__in a_VARIABLEunde_gcdunde_hash_primea a_VARIABLEunde_Sunde_a))
+      (= a_VARIABLEunde_pcunde_hash_primea (str2u string__Done))
+      (= a_VARIABLEunde_Sunde_hash_primea a_VARIABLEunde_Sunde_a))))
+(assert (= a_VARIABLEunde_pcunde_a (str2u string__lbl)))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_b6d734.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_b6d734.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #21
+;;   generated from file "./setEuclid_test.tla", line 322, characters 14-57
+
+(set-logic UFNIA)
+(declare-sort u 0)
+(declare-sort str 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun str2u (str) u)
+(declare-fun u2str (u) str)
+(declare-fun tla__Int () u)
+(declare-fun tla__minus (u u) u)
+(declare-fun tla__lt (u u) Bool)
+(declare-fun tla__le (u u) Bool)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_ACTIONunde_Nextunde_a () u)
+(declare-fun a_CONSTANTunde_GCDunde_a (u) u)
+(declare-fun a_CONSTANTunde_Inputunde_a () u)
+(declare-fun a_CONSTANTunde_IsFiniteSetunde_a (u) u)
+(declare-fun a_CONSTANTunde_iunde_a () u)
+(declare-fun a_CONSTANTunde_junde_a () u)
+(declare-fun a_STATEunde_CorrectTerminationunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_a () u)
+(declare-fun a_VARIABLEunde_gcdunde_a () u)
+(declare-fun a_VARIABLEunde_pcunde_a () u)
+(declare-fun string__Done () str)
+(declare-fun string__lbl () str)
+
+(assert
+  (forall ((X_5 Int)) (! (= (u2int (int2u X_5)) X_5) :pattern ((int2u X_5)))))
+(assert
+  (forall ((X_5 str)) (! (= (u2str (str2u X_5)) X_5) :pattern ((str2u X_5)))))
+(assert
+  (forall ((X_5 u))
+  (! (= (tla__in X_5 tla__Int) (exists ((N_4 Int)) (= X_5 (int2u N_4)))) :pattern ((tla__in X_5 tla__Int)))))
+(assert
+  (forall ((M_3 Int) (N_4 Int))
+  (! (= (tla__minus (int2u M_3) (int2u N_4)) (int2u (- M_3 N_4))) :pattern ((tla__minus (int2u M_3) (int2u N_4))))))
+(assert
+  (forall ((M_3 Int) (N_4 Int))
+  (! (= (tla__lt (int2u M_3) (int2u N_4)) (< M_3 N_4)) :pattern ((tla__lt (int2u M_3) (int2u N_4))))))
+(assert
+  (forall ((M_3 Int) (N_4 Int))
+  (! (= (tla__le (int2u M_3) (int2u N_4)) (<= M_3 N_4)) :pattern ((tla__le (int2u M_3) (int2u N_4))))))
+(assert
+  (forall ((S_8 u) (T_9 u))
+  (=> (forall ((X_5 u)) (= (tla__in X_5 S_8) (tla__in X_5 T_9))) (= S_8 T_9))))
+(assert (distinct string__Done string__lbl))
+
+
+;; Theorem to be Proved
+(assert (not
+  (and
+    (tla__in
+      (tla__minus a_CONSTANTunde_junde_a a_CONSTANTunde_iunde_a) tla__Int)
+    (tla__le
+      (int2u 0) (tla__minus a_CONSTANTunde_junde_a a_CONSTANTunde_iunde_a))
+    (not
+      (=
+        (tla__minus a_CONSTANTunde_junde_a a_CONSTANTunde_iunde_a) (int2u 0))))))
+(assert
+  (forall ((a_v1a u))
+    (=>
+      (tla__in a_v1a a_VARIABLEunde_Sunde_a)
+      (and
+        (tla__in a_v1a tla__Int) (tla__le (int2u 0) a_v1a)
+        (not (= a_v1a (int2u 0)))))))
+(assert (exists ((a_v2a u)) (tla__in a_v2a a_VARIABLEunde_Sunde_a)))
+(assert (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_VARIABLEunde_Sunde_a)))
+(assert
+  (=>
+    (= a_VARIABLEunde_pcunde_a (str2u string__Done))
+    (and
+      (tla__in a_VARIABLEunde_gcdunde_a tla__Int)
+      (tla__le (int2u 0) a_VARIABLEunde_gcdunde_a)
+      (not (= a_VARIABLEunde_gcdunde_a (int2u 0))))))
+(assert
+  (or
+    (= a_VARIABLEunde_pcunde_a (str2u string__Done))
+    (= a_VARIABLEunde_pcunde_a (str2u string__lbl))))
+(assert (boolify a_STATEunde_CorrectTerminationunde_a))
+(assert
+  (=
+    (a_CONSTANTunde_GCDunde_a a_VARIABLEunde_Sunde_a)
+    (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a)))
+(assert (boolify a_ACTIONunde_Nextunde_a))
+(assert (tla__in a_CONSTANTunde_iunde_a a_VARIABLEunde_Sunde_a))
+(assert (tla__in a_CONSTANTunde_junde_a a_VARIABLEunde_Sunde_a))
+(assert (tla__lt a_CONSTANTunde_iunde_a a_CONSTANTunde_junde_a))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_76cf3f.smt2; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_76cf3f.smt2.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #23
+;;   generated from file "./setEuclid_test.tla", line 325, characters 11-12
+
+(set-logic UFNIA)
+(declare-sort u 0)
+(declare-sort str 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun str2u (str) u)
+(declare-fun u2str (u) str)
+(declare-fun tla__Int () u)
+(declare-fun tla__minus (u u) u)
+(declare-fun tla__lt (u u) Bool)
+(declare-fun tla__le (u u) Bool)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_ACTIONunde_Nextunde_a () u)
+(declare-fun a_CONSTANTunde_Cardinalityunde_a (u) u)
+(declare-fun a_CONSTANTunde_GCDunde_a (u) u)
+(declare-fun a_CONSTANTunde_Inputunde_a () u)
+(declare-fun a_CONSTANTunde_IsFiniteSetunde_a (u) u)
+(declare-fun a_VARIABLEunde_Sunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_hash_primea () u)
+(declare-fun a_VARIABLEunde_gcdunde_a () u)
+(declare-fun a_VARIABLEunde_gcdunde_hash_primea () u)
+(declare-fun a_VARIABLEunde_pcunde_a () u)
+(declare-fun a_VARIABLEunde_pcunde_hash_primea () u)
+(declare-fun a_aunde_unde_12a () u)
+(declare-fun a_aunde_unde_13a () u)
+(declare-fun a_aunde_unde_14a () u)
+(declare-fun a_aunde_unde_15a () u)
+(declare-fun string__Done () str)
+(declare-fun string__lbl () str)
+
+(assert
+  (forall ((X_22 Int))
+  (! (= (u2int (int2u X_22)) X_22) :pattern ((int2u X_22)))))
+(assert
+  (forall ((X_22 str))
+  (! (= (u2str (str2u X_22)) X_22) :pattern ((str2u X_22)))))
+(assert
+  (forall ((X_22 u))
+  (! (= (tla__in X_22 tla__Int) (exists ((N_21 Int)) (= X_22 (int2u N_21)))) :pattern ((tla__in X_22 tla__Int)))))
+(assert
+  (forall ((M_20 Int) (N_21 Int))
+  (! (= (tla__minus (int2u M_20) (int2u N_21)) (int2u (- M_20 N_21))) :pattern ((tla__minus (int2u M_20) (int2u N_21))))))
+(assert
+  (forall ((M_20 Int) (N_21 Int))
+  (! (= (tla__lt (int2u M_20) (int2u N_21)) (< M_20 N_21)) :pattern ((tla__lt (int2u M_20) (int2u N_21))))))
+(assert
+  (forall ((M_20 Int) (N_21 Int))
+  (! (= (tla__le (int2u M_20) (int2u N_21)) (<= M_20 N_21)) :pattern ((tla__le (int2u M_20) (int2u N_21))))))
+(assert
+  (forall ((S_25 u) (T_26 u))
+  (=>
+  (forall ((X_22 u)) (= (tla__in X_22 S_25) (tla__in X_22 T_26)))
+  (= S_25 T_26))))
+(assert (distinct string__Done string__lbl))
+
+
+;; Theorem to be Proved
+(assert (not false))
+(assert
+  (forall ((a_v2a u))
+    (=>
+      (tla__in a_v2a a_VARIABLEunde_Sunde_a)
+      (and
+        (tla__in a_v2a tla__Int) (tla__le (int2u 0) a_v2a)
+        (not (= a_v2a (int2u 0)))))))
+(assert (exists ((a_v3a u)) (tla__in a_v3a a_VARIABLEunde_Sunde_a)))
+(assert (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_VARIABLEunde_Sunde_a)))
+(assert
+  (=
+    (a_CONSTANTunde_GCDunde_a a_VARIABLEunde_Sunde_a)
+    (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a)))
+(assert (boolify a_ACTIONunde_Nextunde_a))
+(assert
+  (ite
+    (tla__lt
+      (int2u 1) (a_CONSTANTunde_Cardinalityunde_a a_VARIABLEunde_Sunde_a))
+    (and
+      (exists ((a_CONSTANTunde_iunde_a u))
+        (and
+          (tla__in a_CONSTANTunde_iunde_a a_VARIABLEunde_Sunde_a)
+          (exists ((a_CONSTANTunde_junde_a u))
+            (and
+              (tla__in a_CONSTANTunde_junde_a a_VARIABLEunde_Sunde_a)
+              (tla__lt a_CONSTANTunde_iunde_a a_CONSTANTunde_junde_a)
+              (forall ((a_v4a u))
+                (=
+                  (tla__in a_v4a a_VARIABLEunde_Sunde_hash_primea)
+                  (or
+                    (and
+                      (tla__in a_v4a a_VARIABLEunde_Sunde_a)
+                      (not (= a_v4a a_CONSTANTunde_junde_a)))
+                    (=
+                      a_v4a
+                      (tla__minus
+                        a_CONSTANTunde_junde_a a_CONSTANTunde_iunde_a)))))))))
+      (= a_VARIABLEunde_pcunde_hash_primea (str2u string__lbl))
+      (= a_VARIABLEunde_gcdunde_hash_primea a_VARIABLEunde_gcdunde_a))
+    (and
+      (=>
+        (exists ((a_CONSTANTunde_tunde_a u))
+          (tla__in a_CONSTANTunde_tunde_a a_VARIABLEunde_Sunde_a))
+        (tla__in a_VARIABLEunde_gcdunde_hash_primea a_VARIABLEunde_Sunde_a))
+      (= a_VARIABLEunde_pcunde_hash_primea (str2u string__Done))
+      (= a_VARIABLEunde_Sunde_hash_primea a_VARIABLEunde_Sunde_a))))
+(assert (= a_VARIABLEunde_pcunde_a (str2u string__lbl)))
+(assert
+  (forall ((a_v5a u))
+    (=>
+      (tla__in a_v5a a_CONSTANTunde_Inputunde_a)
+      (and
+        (tla__in a_v5a tla__Int) (tla__le (int2u 0) a_v5a)
+        (not (= a_v5a (int2u 0)))))))
+(assert (exists ((a_v6a u)) (tla__in a_v6a a_CONSTANTunde_Inputunde_a)))
+(assert
+  (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Inputunde_a)))
+(assert
+  (forall ((a_CONSTANTunde_Tunde_a u))
+    (=>
+      (and
+        (forall ((a_v7a u))
+          (=>
+            (tla__in a_v7a a_CONSTANTunde_Tunde_a)
+            (and
+              (tla__in a_v7a tla__Int) (tla__le (int2u 0) a_v7a)
+              (not (= a_v7a (int2u 0))))))
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Tunde_a)))
+      (forall ((a_CONSTANTunde_xunde_a u))
+        (=>
+          (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Tunde_a)
+          (forall ((a_CONSTANTunde_yunde_a u) (a_aunde_unde_12a u))
+            (=>
+              (and
+                (forall ((a_v16a u))
+                  (=
+                    (tla__in a_v16a a_aunde_unde_12a)
+                    (or
+                      (and
+                        (tla__in a_v16a a_CONSTANTunde_Tunde_a)
+                        (not (= a_v16a a_CONSTANTunde_xunde_a)))
+                      (=
+                        a_v16a
+                        (tla__minus
+                          a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))))
+                (tla__in a_CONSTANTunde_yunde_a a_CONSTANTunde_Tunde_a)
+                (tla__lt a_CONSTANTunde_yunde_a a_CONSTANTunde_xunde_a))
+              (=
+                (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Tunde_a)
+                (a_CONSTANTunde_GCDunde_a a_aunde_unde_12a)))))))))
+(assert
+  (forall ((a_CONSTANTunde_xunde_a u) (a_aunde_unde_13a u))
+    (=>
+      (and
+        (forall ((a_v17a u))
+          (=
+            (tla__in a_v17a a_aunde_unde_13a)
+            (= a_v17a a_CONSTANTunde_xunde_a)))
+        (tla__in a_CONSTANTunde_xunde_a tla__Int)
+        (tla__le (int2u 0) a_CONSTANTunde_xunde_a)
+        (not (= a_CONSTANTunde_xunde_a (int2u 0))))
+      (= (a_CONSTANTunde_GCDunde_a a_aunde_unde_13a) a_CONSTANTunde_xunde_a))))
+(assert
+  (forall ((a_CONSTANTunde_Tunde_a u))
+    (=>
+      (and
+        (forall ((a_v8a u))
+          (=>
+            (tla__in a_v8a a_CONSTANTunde_Tunde_a)
+            (and
+              (tla__in a_v8a tla__Int) (tla__le (int2u 0) a_v8a)
+              (not (= a_v8a (int2u 0))))))
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Tunde_a))
+        (exists ((a_v9a u)) (tla__in a_v9a a_CONSTANTunde_Tunde_a)))
+      (and
+        (tla__in (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Tunde_a) tla__Int)
+        (tla__le (int2u 0) (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Tunde_a))
+        (not (= (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Tunde_a) (int2u 0)))))))
+(assert
+  (forall ((a_CONSTANTunde_Tunde_a u))
+    (=>
+      (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Tunde_a))
+      (and
+        (tla__in
+          (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a) tla__Int)
+        (tla__le
+          (int2u 0) (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a))
+        (=
+          (=
+            (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a)
+            (int2u 0))
+          (forall ((a_v10a u)) (not (tla__in a_v10a a_CONSTANTunde_Tunde_a))))
+        (=
+          (=
+            (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a)
+            (int2u 1))
+          (exists ((a_CONSTANTunde_xunde_a u))
+            (and
+              (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Tunde_a)
+              (forall ((a_v11a u))
+                (=
+                  (tla__in a_v11a a_CONSTANTunde_Tunde_a)
+                  (= a_v11a a_CONSTANTunde_xunde_a))))))))))
+(assert
+  (forall
+    ((a_CONSTANTunde_Tunde_a u) (a_CONSTANTunde_xunde_a u) (a_aunde_unde_14a u) (a_aunde_unde_15a u))
+    (=>
+      (and
+        (forall ((a_v18a u))
+          (=
+            (tla__in a_v18a a_aunde_unde_15a)
+            (and
+              (tla__in a_v18a a_CONSTANTunde_Tunde_a)
+              (not (= a_v18a a_CONSTANTunde_xunde_a)))))
+        (forall ((a_v19a u))
+          (=
+            (tla__in a_v19a a_aunde_unde_14a)
+            (or
+              (tla__in a_v19a a_CONSTANTunde_Tunde_a)
+              (= a_v19a a_CONSTANTunde_xunde_a))))
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Tunde_a)))
+      (and
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_aunde_unde_14a))
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_aunde_unde_15a))))))
+(assert
+  (forall ((a_y1a u)) (not (tla__in a_y1a a_VARIABLEunde_Sunde_hash_primea))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_db9886.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_db9886.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #32
+;;   generated from file "./setEuclid_test.tla", line 333, characters 13-14
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun tla__lt (u u) Bool)
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_ACTIONunde_Nextunde_a () u)
+(declare-fun a_CONSTANTunde_Cardinalityunde_a (u) u)
+(declare-fun a_CONSTANTunde_IsFiniteSetunde_a (u) u)
+(declare-fun a_STATEunde_Invunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_hash_primea () u)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+(assert
+  (forall ((M_1 Int) (N_2 Int))
+  (! (= (tla__lt (int2u M_1) (int2u N_2)) (< M_1 N_2)) :pattern ((tla__lt (int2u M_1) (int2u N_2))))))
+
+;; Theorem to be Proved
+(assert (not
+  (boolify
+    (a_CONSTANTunde_IsFiniteSetunde_a a_VARIABLEunde_Sunde_hash_primea))))
+(assert (boolify a_STATEunde_Invunde_a))
+(assert (boolify a_ACTIONunde_Nextunde_a))
+(assert
+  (=>
+    (tla__lt
+      (int2u 1) (a_CONSTANTunde_Cardinalityunde_a a_VARIABLEunde_Sunde_a))
+    (boolify
+      (a_CONSTANTunde_IsFiniteSetunde_a a_VARIABLEunde_Sunde_hash_primea))))
+(assert
+  (=>
+    (not
+      (tla__lt
+        (int2u 1) (a_CONSTANTunde_Cardinalityunde_a a_VARIABLEunde_Sunde_a)))
+    (boolify
+      (a_CONSTANTunde_IsFiniteSetunde_a a_VARIABLEunde_Sunde_hash_primea))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_ba4834.smt2; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_ba4834.smt2.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #40
+;;   generated from file "./setEuclid_test.tla", line 331, characters 13-14
+
+(set-logic UFNIA)
+(declare-sort u 0)
+(declare-sort str 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun str2u (str) u)
+(declare-fun u2str (u) str)
+(declare-fun tla__Int () u)
+(declare-fun tla__lt (u u) Bool)
+(declare-fun tla__le (u u) Bool)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_ACTIONunde_Nextunde_a () u)
+(declare-fun a_CONSTANTunde_Cardinalityunde_a (u) u)
+(declare-fun a_CONSTANTunde_GCDunde_a (u) u)
+(declare-fun a_CONSTANTunde_Inputunde_a () u)
+(declare-fun a_CONSTANTunde_IsFiniteSetunde_a (u) u)
+(declare-fun a_STATEunde_CorrectTerminationunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_hash_primea () u)
+(declare-fun a_VARIABLEunde_gcdunde_hash_primea () u)
+(declare-fun a_VARIABLEunde_pcunde_a () u)
+(declare-fun a_VARIABLEunde_pcunde_hash_primea () u)
+(declare-fun a_aunde_unde_4a () u)
+(declare-fun a_aunde_unde_5a () u)
+(declare-fun string__Done () str)
+(declare-fun string__lbl () str)
+
+(assert
+  (forall ((X_10 Int))
+  (! (= (u2int (int2u X_10)) X_10) :pattern ((int2u X_10)))))
+(assert
+  (forall ((X_10 str))
+  (! (= (u2str (str2u X_10)) X_10) :pattern ((str2u X_10)))))
+(assert
+  (forall ((X_10 u))
+  (! (= (tla__in X_10 tla__Int) (exists ((N_9 Int)) (= X_10 (int2u N_9)))) :pattern ((tla__in X_10 tla__Int)))))
+(assert
+  (forall ((M_8 Int) (N_9 Int))
+  (! (= (tla__lt (int2u M_8) (int2u N_9)) (< M_8 N_9)) :pattern ((tla__lt (int2u M_8) (int2u N_9))))))
+(assert
+  (forall ((M_8 Int) (N_9 Int))
+  (! (= (tla__le (int2u M_8) (int2u N_9)) (<= M_8 N_9)) :pattern ((tla__le (int2u M_8) (int2u N_9))))))
+(assert
+  (forall ((S_13 u) (T_14 u))
+  (=>
+  (forall ((X_10 u)) (= (tla__in X_10 S_13) (tla__in X_10 T_14)))
+  (= S_13 T_14))))
+(assert (distinct string__Done string__lbl))
+
+
+;; Theorem to be Proved
+(assert (not true))
+(assert
+  (forall ((a_v1a u))
+    (=>
+      (tla__in a_v1a a_VARIABLEunde_Sunde_a)
+      (and
+        (tla__in a_v1a tla__Int) (tla__le (int2u 0) a_v1a)
+        (not (= a_v1a (int2u 0)))))))
+(assert (exists ((a_v2a u)) (tla__in a_v2a a_VARIABLEunde_Sunde_a)))
+(assert (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_VARIABLEunde_Sunde_a)))
+(assert (boolify a_STATEunde_CorrectTerminationunde_a))
+(assert
+  (=
+    (a_CONSTANTunde_GCDunde_a a_VARIABLEunde_Sunde_a)
+    (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a)))
+(assert (boolify a_ACTIONunde_Nextunde_a))
+(assert
+  (not
+    (tla__lt
+      (int2u 1) (a_CONSTANTunde_Cardinalityunde_a a_VARIABLEunde_Sunde_a))))
+(assert
+  (=>
+    (exists ((a_CONSTANTunde_tunde_a u))
+      (tla__in a_CONSTANTunde_tunde_a a_VARIABLEunde_Sunde_a))
+    (tla__in a_VARIABLEunde_gcdunde_hash_primea a_VARIABLEunde_Sunde_a)))
+(assert (= a_VARIABLEunde_pcunde_hash_primea (str2u string__Done)))
+(assert (= a_VARIABLEunde_Sunde_hash_primea a_VARIABLEunde_Sunde_a))
+(assert (= a_VARIABLEunde_pcunde_a (str2u string__lbl)))
+(assert
+  (forall
+    ((a_CONSTANTunde_Tunde_a u) (a_CONSTANTunde_xunde_a u) (a_aunde_unde_5a u) (a_aunde_unde_4a u))
+    (=>
+      (and
+        (forall ((a_v6a u))
+          (=
+            (tla__in a_v6a a_aunde_unde_4a)
+            (or
+              (tla__in a_v6a a_CONSTANTunde_Tunde_a)
+              (= a_v6a a_CONSTANTunde_xunde_a))))
+        (forall ((a_v7a u))
+          (=
+            (tla__in a_v7a a_aunde_unde_5a)
+            (and
+              (tla__in a_v7a a_CONSTANTunde_Tunde_a)
+              (not (= a_v7a a_CONSTANTunde_xunde_a)))))
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Tunde_a)))
+      (and
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_aunde_unde_4a))
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_aunde_unde_5a))))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_a73df8.smt2; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_a73df8.smt2.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #45
+;;   generated from file "./setEuclid_test.tla", line 337, characters 9-10
+
+(set-logic UFNIA)
+(declare-sort u 0)
+(declare-sort str 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun str2u (str) u)
+(declare-fun u2str (u) str)
+(declare-fun tla__Int () u)
+(declare-fun tla__minus (u u) u)
+(declare-fun tla__lt (u u) Bool)
+(declare-fun tla__le (u u) Bool)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_ACTIONunde_Nextunde_a () u)
+(declare-fun a_CONSTANTunde_Cardinalityunde_a (u) u)
+(declare-fun a_CONSTANTunde_GCDunde_a (u) u)
+(declare-fun a_CONSTANTunde_Inputunde_a () u)
+(declare-fun a_CONSTANTunde_IsFiniteSetunde_a (u) u)
+(declare-fun a_VARIABLEunde_Sunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_hash_primea () u)
+(declare-fun a_VARIABLEunde_gcdunde_hash_primea () u)
+(declare-fun a_VARIABLEunde_pcunde_a () u)
+(declare-fun a_VARIABLEunde_pcunde_hash_primea () u)
+(declare-fun a_aunde_unde_10a () u)
+(declare-fun a_aunde_unde_11a () u)
+(declare-fun a_aunde_unde_12a () u)
+(declare-fun a_aunde_unde_13a () u)
+(declare-fun a_aunde_unde_14a () u)
+(declare-fun string__Done () str)
+(declare-fun string__lbl () str)
+
+(assert
+  (forall ((X_21 Int))
+  (! (= (u2int (int2u X_21)) X_21) :pattern ((int2u X_21)))))
+(assert
+  (forall ((X_21 str))
+  (! (= (u2str (str2u X_21)) X_21) :pattern ((str2u X_21)))))
+(assert
+  (forall ((X_21 u))
+  (! (= (tla__in X_21 tla__Int) (exists ((N_20 Int)) (= X_21 (int2u N_20)))) :pattern ((tla__in X_21 tla__Int)))))
+(assert
+  (forall ((M_19 Int) (N_20 Int))
+  (! (= (tla__minus (int2u M_19) (int2u N_20)) (int2u (- M_19 N_20))) :pattern ((tla__minus (int2u M_19) (int2u N_20))))))
+(assert
+  (forall ((M_19 Int) (N_20 Int))
+  (! (= (tla__lt (int2u M_19) (int2u N_20)) (< M_19 N_20)) :pattern ((tla__lt (int2u M_19) (int2u N_20))))))
+(assert
+  (forall ((M_19 Int) (N_20 Int))
+  (! (= (tla__le (int2u M_19) (int2u N_20)) (<= M_19 N_20)) :pattern ((tla__le (int2u M_19) (int2u N_20))))))
+(assert
+  (forall ((S_24 u) (T_25 u))
+  (=>
+  (forall ((X_21 u)) (= (tla__in X_21 S_24) (tla__in X_21 T_25)))
+  (= S_24 T_25))))
+(assert (distinct string__Done string__lbl))
+
+
+;; Theorem to be Proved
+(assert (not
+  (and
+    (tla__in a_VARIABLEunde_gcdunde_hash_primea tla__Int)
+    (tla__le (int2u 0) a_VARIABLEunde_gcdunde_hash_primea)
+    (not (= a_VARIABLEunde_gcdunde_hash_primea (int2u 0))))))
+(assert
+  (=>
+    (exists ((a_CONSTANTunde_tunde_a u))
+      (tla__in a_CONSTANTunde_tunde_a a_VARIABLEunde_Sunde_a))
+    (tla__in a_aunde_unde_10a a_VARIABLEunde_Sunde_a)))
+(assert
+  (forall ((a_v1a u))
+    (=>
+      (tla__in a_v1a a_VARIABLEunde_Sunde_a)
+      (and
+        (tla__in a_v1a tla__Int) (tla__le (int2u 0) a_v1a)
+        (not (= a_v1a (int2u 0)))))))
+(assert (exists ((a_v2a u)) (tla__in a_v2a a_VARIABLEunde_Sunde_a)))
+(assert (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_VARIABLEunde_Sunde_a)))
+(assert
+  (=
+    (a_CONSTANTunde_GCDunde_a a_VARIABLEunde_Sunde_a)
+    (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a)))
+(assert (boolify a_ACTIONunde_Nextunde_a))
+(assert (tla__in a_aunde_unde_10a tla__Int))
+(assert (tla__le (int2u 0) a_aunde_unde_10a))
+(assert
+  (not
+    (=>
+      (exists ((a_CONSTANTunde_tunde_a u))
+        (tla__in a_CONSTANTunde_tunde_a a_VARIABLEunde_Sunde_a))
+      (tla__in (int2u 0) a_VARIABLEunde_Sunde_a))))
+(assert
+  (ite
+    (tla__lt
+      (int2u 1) (a_CONSTANTunde_Cardinalityunde_a a_VARIABLEunde_Sunde_a))
+    false
+    (and
+      (=>
+        (exists ((a_CONSTANTunde_tunde_a u))
+          (tla__in a_CONSTANTunde_tunde_a a_VARIABLEunde_Sunde_a))
+        (tla__in a_VARIABLEunde_gcdunde_hash_primea a_VARIABLEunde_Sunde_a))
+      (= a_VARIABLEunde_Sunde_hash_primea a_VARIABLEunde_Sunde_a))))
+(assert (= a_VARIABLEunde_pcunde_a (str2u string__lbl)))
+(assert
+  (forall ((a_v3a u))
+    (=>
+      (tla__in a_v3a a_CONSTANTunde_Inputunde_a)
+      (and
+        (tla__in a_v3a tla__Int) (tla__le (int2u 0) a_v3a)
+        (not (= a_v3a (int2u 0)))))))
+(assert (exists ((a_v4a u)) (tla__in a_v4a a_CONSTANTunde_Inputunde_a)))
+(assert
+  (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Inputunde_a)))
+(assert
+  (forall ((a_CONSTANTunde_Tunde_a u))
+    (=>
+      (and
+        (forall ((a_v5a u))
+          (=>
+            (tla__in a_v5a a_CONSTANTunde_Tunde_a)
+            (and
+              (tla__in a_v5a tla__Int) (tla__le (int2u 0) a_v5a)
+              (not (= a_v5a (int2u 0))))))
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Tunde_a)))
+      (forall ((a_CONSTANTunde_xunde_a u))
+        (=>
+          (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Tunde_a)
+          (forall ((a_CONSTANTunde_yunde_a u) (a_aunde_unde_11a u))
+            (=>
+              (and
+                (forall ((a_v15a u))
+                  (=
+                    (tla__in a_v15a a_aunde_unde_11a)
+                    (or
+                      (and
+                        (tla__in a_v15a a_CONSTANTunde_Tunde_a)
+                        (not (= a_v15a a_CONSTANTunde_xunde_a)))
+                      (=
+                        a_v15a
+                        (tla__minus
+                          a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))))
+                (tla__in a_CONSTANTunde_yunde_a a_CONSTANTunde_Tunde_a)
+                (tla__lt a_CONSTANTunde_yunde_a a_CONSTANTunde_xunde_a))
+              (=
+                (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Tunde_a)
+                (a_CONSTANTunde_GCDunde_a a_aunde_unde_11a)))))))))
+(assert
+  (forall ((a_CONSTANTunde_xunde_a u) (a_aunde_unde_12a u))
+    (=>
+      (and
+        (forall ((a_v16a u))
+          (=
+            (tla__in a_v16a a_aunde_unde_12a)
+            (= a_v16a a_CONSTANTunde_xunde_a)))
+        (tla__in a_CONSTANTunde_xunde_a tla__Int)
+        (tla__le (int2u 0) a_CONSTANTunde_xunde_a)
+        (not (= a_CONSTANTunde_xunde_a (int2u 0))))
+      (= (a_CONSTANTunde_GCDunde_a a_aunde_unde_12a) a_CONSTANTunde_xunde_a))))
+(assert
+  (forall ((a_CONSTANTunde_Tunde_a u))
+    (=>
+      (and
+        (forall ((a_v6a u))
+          (=>
+            (tla__in a_v6a a_CONSTANTunde_Tunde_a)
+            (and
+              (tla__in a_v6a tla__Int) (tla__le (int2u 0) a_v6a)
+              (not (= a_v6a (int2u 0))))))
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Tunde_a))
+        (exists ((a_v7a u)) (tla__in a_v7a a_CONSTANTunde_Tunde_a)))
+      (and
+        (tla__in (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Tunde_a) tla__Int)
+        (tla__le (int2u 0) (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Tunde_a))
+        (not (= (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Tunde_a) (int2u 0)))))))
+(assert
+  (forall ((a_CONSTANTunde_Tunde_a u))
+    (=>
+      (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Tunde_a))
+      (and
+        (tla__in
+          (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a) tla__Int)
+        (tla__le
+          (int2u 0) (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a))
+        (=
+          (=
+            (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a)
+            (int2u 0))
+          (forall ((a_v8a u)) (not (tla__in a_v8a a_CONSTANTunde_Tunde_a))))
+        (=
+          (=
+            (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a)
+            (int2u 1))
+          (exists ((a_CONSTANTunde_xunde_a u))
+            (and
+              (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Tunde_a)
+              (forall ((a_v9a u))
+                (=
+                  (tla__in a_v9a a_CONSTANTunde_Tunde_a)
+                  (= a_v9a a_CONSTANTunde_xunde_a))))))))))
+(assert
+  (forall
+    ((a_CONSTANTunde_Tunde_a u) (a_CONSTANTunde_xunde_a u) (a_aunde_unde_14a u) (a_aunde_unde_13a u))
+    (=>
+      (and
+        (forall ((a_v17a u))
+          (=
+            (tla__in a_v17a a_aunde_unde_13a)
+            (or
+              (tla__in a_v17a a_CONSTANTunde_Tunde_a)
+              (= a_v17a a_CONSTANTunde_xunde_a))))
+        (forall ((a_v18a u))
+          (=
+            (tla__in a_v18a a_aunde_unde_14a)
+            (and
+              (tla__in a_v18a a_CONSTANTunde_Tunde_a)
+              (not (= a_v18a a_CONSTANTunde_xunde_a)))))
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Tunde_a)))
+      (and
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_aunde_unde_13a))
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_aunde_unde_14a))))))
+(assert (= a_VARIABLEunde_pcunde_hash_primea (str2u string__Done)))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_725a02.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_725a02.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #46
+;;   generated from file "./setEuclid_test.tla", line 337, characters 13-47
+
+(set-logic UFNIA)
+(declare-sort u 0)
+(declare-sort str 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun str2u (str) u)
+(declare-fun u2str (u) str)
+(declare-fun tla__Int () u)
+(declare-fun tla__le (u u) Bool)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_ACTIONunde_Nextunde_a () u)
+(declare-fun a_CONSTANTunde_GCDunde_a (u) u)
+(declare-fun a_CONSTANTunde_Inputunde_a () u)
+(declare-fun a_CONSTANTunde_IsFiniteSetunde_a (u) u)
+(declare-fun a_VARIABLEunde_Sunde_a () u)
+(declare-fun a_VARIABLEunde_gcdunde_a () u)
+(declare-fun a_VARIABLEunde_pcunde_a () str)
+(declare-fun a_aunde_unde_3a () u)
+(declare-fun string__Done () str)
+(declare-fun string__lbl () str)
+
+(assert
+  (forall ((X_6 Int)) (! (= (u2int (int2u X_6)) X_6) :pattern ((int2u X_6)))))
+(assert
+  (forall ((X_6 str)) (! (= (u2str (str2u X_6)) X_6) :pattern ((str2u X_6)))))
+(assert
+  (forall ((X_6 u))
+  (! (= (tla__in X_6 tla__Int) (exists ((N_5 Int)) (= X_6 (int2u N_5)))) :pattern ((tla__in X_6 tla__Int)))))
+(assert
+  (forall ((M_4 Int) (N_5 Int))
+  (! (= (tla__le (int2u M_4) (int2u N_5)) (<= M_4 N_5)) :pattern ((tla__le (int2u M_4) (int2u N_5))))))
+(assert
+  (forall ((S_9 u) (T_10 u))
+  (=> (forall ((X_6 u)) (= (tla__in X_6 S_9) (tla__in X_6 T_10))) (= S_9 T_10))))
+(assert (distinct string__Done string__lbl))
+
+
+;; Theorem to be Proved
+(assert (not
+  (and
+    (tla__in a_aunde_unde_3a tla__Int) (tla__le (int2u 0) a_aunde_unde_3a)
+    (not
+      (=>
+        (exists ((a_CONSTANTunde_tunde_a u))
+          (tla__in a_CONSTANTunde_tunde_a a_VARIABLEunde_Sunde_a))
+        (tla__in (int2u 0) a_VARIABLEunde_Sunde_a))))))
+(assert
+  (=>
+    (exists ((a_CONSTANTunde_tunde_a u))
+      (tla__in a_CONSTANTunde_tunde_a a_VARIABLEunde_Sunde_a))
+    (tla__in a_aunde_unde_3a a_VARIABLEunde_Sunde_a)))
+(assert
+  (forall ((a_v1a Int))
+    (=>
+      (tla__in (int2u a_v1a) a_VARIABLEunde_Sunde_a)
+      (and (<= 0 a_v1a) (not (= a_v1a 0))))))
+(assert (exists ((a_v2a u)) (tla__in a_v2a a_VARIABLEunde_Sunde_a)))
+(assert (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_VARIABLEunde_Sunde_a)))
+(assert
+  (=>
+    (= a_VARIABLEunde_pcunde_a string__Done)
+    (and
+      (tla__in a_VARIABLEunde_gcdunde_a tla__Int)
+      (tla__le (int2u 0) a_VARIABLEunde_gcdunde_a)
+      (not (= a_VARIABLEunde_gcdunde_a (int2u 0))))))
+(assert
+  (or
+    (= a_VARIABLEunde_pcunde_a string__Done)
+    (= a_VARIABLEunde_pcunde_a string__lbl)))
+(assert
+  (=>
+    (= a_VARIABLEunde_pcunde_a string__Done)
+    (=
+      a_VARIABLEunde_gcdunde_a
+      (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a))))
+(assert
+  (=
+    (a_CONSTANTunde_GCDunde_a a_VARIABLEunde_Sunde_a)
+    (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a)))
+(assert (boolify a_ACTIONunde_Nextunde_a))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_6fb01d.smt2; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_6fb01d.smt2.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #55
+;;   generated from file "./setEuclid_test.tla", line 341, characters 9-10
+
+(set-logic UFNIA)
+(declare-sort u 0)
+(declare-sort str 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun str2u (str) u)
+(declare-fun u2str (u) str)
+(declare-fun tla__Int () u)
+(declare-fun tla__minus (u u) u)
+(declare-fun tla__lt (u u) Bool)
+(declare-fun tla__le (u u) Bool)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_ACTIONunde_Nextunde_a () u)
+(declare-fun a_CONSTANTunde_Cardinalityunde_a (u) u)
+(declare-fun a_CONSTANTunde_GCDunde_a (u) u)
+(declare-fun a_CONSTANTunde_Inputunde_a () u)
+(declare-fun a_CONSTANTunde_IsFiniteSetunde_a (u) u)
+(declare-fun a_VARIABLEunde_Sunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_hash_primea () u)
+(declare-fun a_VARIABLEunde_gcdunde_a () u)
+(declare-fun a_VARIABLEunde_gcdunde_hash_primea () u)
+(declare-fun a_VARIABLEunde_pcunde_a () u)
+(declare-fun a_VARIABLEunde_pcunde_hash_primea () u)
+(declare-fun a_aunde_unde_11a () u)
+(declare-fun a_aunde_unde_12a () u)
+(declare-fun a_aunde_unde_13a () u)
+(declare-fun a_aunde_unde_14a () u)
+(declare-fun string__Done () str)
+(declare-fun string__lbl () str)
+
+(assert
+  (forall ((X_21 Int))
+  (! (= (u2int (int2u X_21)) X_21) :pattern ((int2u X_21)))))
+(assert
+  (forall ((X_21 str))
+  (! (= (u2str (str2u X_21)) X_21) :pattern ((str2u X_21)))))
+(assert
+  (forall ((X_21 u))
+  (! (= (tla__in X_21 tla__Int) (exists ((N_20 Int)) (= X_21 (int2u N_20)))) :pattern ((tla__in X_21 tla__Int)))))
+(assert
+  (forall ((M_19 Int) (N_20 Int))
+  (! (= (tla__minus (int2u M_19) (int2u N_20)) (int2u (- M_19 N_20))) :pattern ((tla__minus (int2u M_19) (int2u N_20))))))
+(assert
+  (forall ((M_19 Int) (N_20 Int))
+  (! (= (tla__lt (int2u M_19) (int2u N_20)) (< M_19 N_20)) :pattern ((tla__lt (int2u M_19) (int2u N_20))))))
+(assert
+  (forall ((M_19 Int) (N_20 Int))
+  (! (= (tla__le (int2u M_19) (int2u N_20)) (<= M_19 N_20)) :pattern ((tla__le (int2u M_19) (int2u N_20))))))
+(assert
+  (forall ((S_24 u) (T_25 u))
+  (=>
+  (forall ((X_21 u)) (= (tla__in X_21 S_24) (tla__in X_21 T_25)))
+  (= S_24 T_25))))
+(assert (distinct string__Done string__lbl))
+
+
+;; Theorem to be Proved
+(assert (not
+  (or
+    (= a_VARIABLEunde_pcunde_hash_primea (str2u string__Done))
+    (= a_VARIABLEunde_pcunde_hash_primea (str2u string__lbl)))))
+(assert
+  (forall ((a_v1a u))
+    (=>
+      (tla__in a_v1a a_VARIABLEunde_Sunde_a)
+      (and
+        (tla__in a_v1a tla__Int) (tla__le (int2u 0) a_v1a)
+        (not (= a_v1a (int2u 0)))))))
+(assert (exists ((a_v2a u)) (tla__in a_v2a a_VARIABLEunde_Sunde_a)))
+(assert (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_VARIABLEunde_Sunde_a)))
+(assert
+  (=
+    (a_CONSTANTunde_GCDunde_a a_VARIABLEunde_Sunde_a)
+    (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a)))
+(assert (boolify a_ACTIONunde_Nextunde_a))
+(assert
+  (ite
+    (tla__lt
+      (int2u 1) (a_CONSTANTunde_Cardinalityunde_a a_VARIABLEunde_Sunde_a))
+    (and
+      (exists ((a_CONSTANTunde_iunde_a u))
+        (and
+          (tla__in a_CONSTANTunde_iunde_a a_VARIABLEunde_Sunde_a)
+          (exists ((a_CONSTANTunde_junde_a u))
+            (and
+              (tla__in a_CONSTANTunde_junde_a a_VARIABLEunde_Sunde_a)
+              (tla__lt a_CONSTANTunde_iunde_a a_CONSTANTunde_junde_a)
+              (forall ((a_v3a u))
+                (=
+                  (tla__in a_v3a a_VARIABLEunde_Sunde_hash_primea)
+                  (or
+                    (and
+                      (tla__in a_v3a a_VARIABLEunde_Sunde_a)
+                      (not (= a_v3a a_CONSTANTunde_junde_a)))
+                    (=
+                      a_v3a
+                      (tla__minus
+                        a_CONSTANTunde_junde_a a_CONSTANTunde_iunde_a)))))))))
+      (= a_VARIABLEunde_pcunde_hash_primea (str2u string__lbl))
+      (= a_VARIABLEunde_gcdunde_hash_primea a_VARIABLEunde_gcdunde_a))
+    (and
+      (=>
+        (exists ((a_CONSTANTunde_tunde_a u))
+          (tla__in a_CONSTANTunde_tunde_a a_VARIABLEunde_Sunde_a))
+        (tla__in a_VARIABLEunde_gcdunde_hash_primea a_VARIABLEunde_Sunde_a))
+      (= a_VARIABLEunde_pcunde_hash_primea (str2u string__Done))
+      (= a_VARIABLEunde_Sunde_hash_primea a_VARIABLEunde_Sunde_a))))
+(assert (= a_VARIABLEunde_pcunde_a (str2u string__lbl)))
+(assert
+  (forall ((a_v4a u))
+    (=>
+      (tla__in a_v4a a_CONSTANTunde_Inputunde_a)
+      (and
+        (tla__in a_v4a tla__Int) (tla__le (int2u 0) a_v4a)
+        (not (= a_v4a (int2u 0)))))))
+(assert (exists ((a_v5a u)) (tla__in a_v5a a_CONSTANTunde_Inputunde_a)))
+(assert
+  (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Inputunde_a)))
+(assert
+  (forall ((a_CONSTANTunde_Tunde_a u))
+    (=>
+      (and
+        (forall ((a_v6a u))
+          (=>
+            (tla__in a_v6a a_CONSTANTunde_Tunde_a)
+            (and
+              (tla__in a_v6a tla__Int) (tla__le (int2u 0) a_v6a)
+              (not (= a_v6a (int2u 0))))))
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Tunde_a)))
+      (forall ((a_CONSTANTunde_xunde_a u))
+        (=>
+          (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Tunde_a)
+          (forall ((a_CONSTANTunde_yunde_a u) (a_aunde_unde_11a u))
+            (=>
+              (and
+                (forall ((a_v15a u))
+                  (=
+                    (tla__in a_v15a a_aunde_unde_11a)
+                    (or
+                      (and
+                        (tla__in a_v15a a_CONSTANTunde_Tunde_a)
+                        (not (= a_v15a a_CONSTANTunde_xunde_a)))
+                      (=
+                        a_v15a
+                        (tla__minus
+                          a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))))
+                (tla__in a_CONSTANTunde_yunde_a a_CONSTANTunde_Tunde_a)
+                (tla__lt a_CONSTANTunde_yunde_a a_CONSTANTunde_xunde_a))
+              (=
+                (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Tunde_a)
+                (a_CONSTANTunde_GCDunde_a a_aunde_unde_11a)))))))))
+(assert
+  (forall ((a_CONSTANTunde_xunde_a u) (a_aunde_unde_12a u))
+    (=>
+      (and
+        (forall ((a_v16a u))
+          (=
+            (tla__in a_v16a a_aunde_unde_12a)
+            (= a_v16a a_CONSTANTunde_xunde_a)))
+        (tla__in a_CONSTANTunde_xunde_a tla__Int)
+        (tla__le (int2u 0) a_CONSTANTunde_xunde_a)
+        (not (= a_CONSTANTunde_xunde_a (int2u 0))))
+      (= (a_CONSTANTunde_GCDunde_a a_aunde_unde_12a) a_CONSTANTunde_xunde_a))))
+(assert
+  (forall ((a_CONSTANTunde_Tunde_a u))
+    (=>
+      (and
+        (forall ((a_v7a u))
+          (=>
+            (tla__in a_v7a a_CONSTANTunde_Tunde_a)
+            (and
+              (tla__in a_v7a tla__Int) (tla__le (int2u 0) a_v7a)
+              (not (= a_v7a (int2u 0))))))
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Tunde_a))
+        (exists ((a_v8a u)) (tla__in a_v8a a_CONSTANTunde_Tunde_a)))
+      (and
+        (tla__in (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Tunde_a) tla__Int)
+        (tla__le (int2u 0) (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Tunde_a))
+        (not (= (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Tunde_a) (int2u 0)))))))
+(assert
+  (forall ((a_CONSTANTunde_Tunde_a u))
+    (=>
+      (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Tunde_a))
+      (and
+        (tla__in
+          (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a) tla__Int)
+        (tla__le
+          (int2u 0) (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a))
+        (=
+          (=
+            (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a)
+            (int2u 0))
+          (forall ((a_v9a u)) (not (tla__in a_v9a a_CONSTANTunde_Tunde_a))))
+        (=
+          (=
+            (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a)
+            (int2u 1))
+          (exists ((a_CONSTANTunde_xunde_a u))
+            (and
+              (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Tunde_a)
+              (forall ((a_v10a u))
+                (=
+                  (tla__in a_v10a a_CONSTANTunde_Tunde_a)
+                  (= a_v10a a_CONSTANTunde_xunde_a))))))))))
+(assert
+  (forall
+    ((a_CONSTANTunde_Tunde_a u) (a_CONSTANTunde_xunde_a u) (a_aunde_unde_14a u) (a_aunde_unde_13a u))
+    (=>
+      (and
+        (forall ((a_v17a u))
+          (=
+            (tla__in a_v17a a_aunde_unde_13a)
+            (or
+              (tla__in a_v17a a_CONSTANTunde_Tunde_a)
+              (= a_v17a a_CONSTANTunde_xunde_a))))
+        (forall ((a_v18a u))
+          (=
+            (tla__in a_v18a a_aunde_unde_14a)
+            (and
+              (tla__in a_v18a a_CONSTANTunde_Tunde_a)
+              (not (= a_v18a a_CONSTANTunde_xunde_a)))))
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Tunde_a)))
+      (and
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_aunde_unde_13a))
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_aunde_unde_14a))))))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_878574.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_878574.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #64
+;;   generated from file "./setEuclid_test.tla", line 361, characters 9-10
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun tla__lt (u u) Bool)
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_ACTIONunde_Nextunde_a () u)
+(declare-fun a_CONSTANTunde_Cardinalityunde_a (u) u)
+(declare-fun a_CONSTANTunde_GCDunde_a (u) u)
+(declare-fun a_CONSTANTunde_Inputunde_a () u)
+(declare-fun a_STATEunde_Invunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_hash_primea () u)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+(assert
+  (forall ((M_1 Int) (N_2 Int))
+  (! (= (tla__lt (int2u M_1) (int2u N_2)) (< M_1 N_2)) :pattern ((tla__lt (int2u M_1) (int2u N_2))))))
+
+;; Theorem to be Proved
+(assert (not
+  (=
+    (a_CONSTANTunde_GCDunde_a a_VARIABLEunde_Sunde_hash_primea)
+    (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a))))
+(assert (boolify a_STATEunde_Invunde_a))
+(assert (boolify a_ACTIONunde_Nextunde_a))
+(assert
+  (=>
+    (tla__lt
+      (int2u 1) (a_CONSTANTunde_Cardinalityunde_a a_VARIABLEunde_Sunde_a))
+    (=
+      (a_CONSTANTunde_GCDunde_a a_VARIABLEunde_Sunde_hash_primea)
+      (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a))))
+(assert
+  (=>
+    (not
+      (tla__lt
+        (int2u 1) (a_CONSTANTunde_Cardinalityunde_a a_VARIABLEunde_Sunde_a)))
+    (=
+      (a_CONSTANTunde_GCDunde_a a_VARIABLEunde_Sunde_hash_primea)
+      (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_40c30f.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_40c30f.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #67
+;;   generated from file "./setEuclid_test.tla", line 356, characters 11-12
+
+(set-logic UFNIA)
+(declare-sort u 0)
+(declare-sort str 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun str2u (str) u)
+(declare-fun u2str (u) str)
+(declare-fun tla__Int () u)
+(declare-fun tla__minus (u u) u)
+(declare-fun tla__lt (u u) Bool)
+(declare-fun tla__le (u u) Bool)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_ACTIONunde_Nextunde_a () u)
+(declare-fun a_CONSTANTunde_GCDunde_a (u) u)
+(declare-fun a_CONSTANTunde_Inputunde_a () u)
+(declare-fun a_CONSTANTunde_IsFiniteSetunde_a (u) u)
+(declare-fun a_CONSTANTunde_iunde_a () u)
+(declare-fun a_CONSTANTunde_junde_a () u)
+(declare-fun a_STATEunde_CorrectTerminationunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_hash_primea () u)
+(declare-fun a_VARIABLEunde_gcdunde_a () u)
+(declare-fun a_VARIABLEunde_pcunde_a () u)
+(declare-fun a_aunde_unde_5a () u)
+(declare-fun a_aunde_unde_6a () u)
+(declare-fun string__Done () str)
+(declare-fun string__lbl () str)
+
+(assert
+  (forall ((X_11 Int))
+  (! (= (u2int (int2u X_11)) X_11) :pattern ((int2u X_11)))))
+(assert
+  (forall ((X_11 str))
+  (! (= (u2str (str2u X_11)) X_11) :pattern ((str2u X_11)))))
+(assert
+  (forall ((X_11 u))
+  (! (= (tla__in X_11 tla__Int) (exists ((N_10 Int)) (= X_11 (int2u N_10)))) :pattern ((tla__in X_11 tla__Int)))))
+(assert
+  (forall ((M_9 Int) (N_10 Int))
+  (! (= (tla__minus (int2u M_9) (int2u N_10)) (int2u (- M_9 N_10))) :pattern ((tla__minus (int2u M_9) (int2u N_10))))))
+(assert
+  (forall ((M_9 Int) (N_10 Int))
+  (! (= (tla__lt (int2u M_9) (int2u N_10)) (< M_9 N_10)) :pattern ((tla__lt (int2u M_9) (int2u N_10))))))
+(assert
+  (forall ((M_9 Int) (N_10 Int))
+  (! (= (tla__le (int2u M_9) (int2u N_10)) (<= M_9 N_10)) :pattern ((tla__le (int2u M_9) (int2u N_10))))))
+(assert
+  (forall ((S_14 u) (T_15 u))
+  (=>
+  (forall ((X_11 u)) (= (tla__in X_11 S_14) (tla__in X_11 T_15)))
+  (= S_14 T_15))))
+(assert (distinct string__Done string__lbl))
+
+
+;; Theorem to be Proved
+(assert (not
+  (=
+    (a_CONSTANTunde_GCDunde_a a_aunde_unde_5a)
+    (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a))))
+(assert
+  (forall ((a_v7a u))
+    (! (=
+         (tla__in a_v7a a_aunde_unde_5a)
+         (or
+           (and
+             (tla__in a_v7a a_VARIABLEunde_Sunde_a)
+             (not (= a_v7a a_CONSTANTunde_junde_a)))
+           (=
+             a_v7a (tla__minus a_CONSTANTunde_junde_a a_CONSTANTunde_iunde_a)))) :pattern (
+    (tla__in a_v7a a_aunde_unde_5a)))))
+(assert
+  (forall ((a_v1a u))
+    (=>
+      (tla__in a_v1a a_VARIABLEunde_Sunde_a)
+      (and
+        (tla__in a_v1a tla__Int) (tla__le (int2u 0) a_v1a)
+        (not (= a_v1a (int2u 0)))))))
+(assert (exists ((a_v2a u)) (tla__in a_v2a a_VARIABLEunde_Sunde_a)))
+(assert (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_VARIABLEunde_Sunde_a)))
+(assert
+  (=>
+    (= a_VARIABLEunde_pcunde_a (str2u string__Done))
+    (and
+      (tla__in a_VARIABLEunde_gcdunde_a tla__Int)
+      (tla__le (int2u 0) a_VARIABLEunde_gcdunde_a)
+      (not (= a_VARIABLEunde_gcdunde_a (int2u 0))))))
+(assert
+  (or
+    (= a_VARIABLEunde_pcunde_a (str2u string__Done))
+    (= a_VARIABLEunde_pcunde_a (str2u string__lbl))))
+(assert (boolify a_STATEunde_CorrectTerminationunde_a))
+(assert
+  (=
+    (a_CONSTANTunde_GCDunde_a a_VARIABLEunde_Sunde_a)
+    (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a)))
+(assert (boolify a_ACTIONunde_Nextunde_a))
+(assert (tla__in a_CONSTANTunde_iunde_a a_VARIABLEunde_Sunde_a))
+(assert (tla__in a_CONSTANTunde_junde_a a_VARIABLEunde_Sunde_a))
+(assert (tla__lt a_CONSTANTunde_iunde_a a_CONSTANTunde_junde_a))
+(assert
+  (forall ((a_v3a u))
+    (=
+      (tla__in a_v3a a_VARIABLEunde_Sunde_hash_primea)
+      (or
+        (and
+          (tla__in a_v3a a_VARIABLEunde_Sunde_a)
+          (not (= a_v3a a_CONSTANTunde_junde_a)))
+        (= a_v3a (tla__minus a_CONSTANTunde_junde_a a_CONSTANTunde_iunde_a))))))
+(assert (tla__in a_CONSTANTunde_junde_a a_VARIABLEunde_Sunde_a))
+(assert (tla__lt a_CONSTANTunde_iunde_a a_CONSTANTunde_junde_a))
+(assert
+  (forall ((a_CONSTANTunde_Tunde_a u))
+    (=>
+      (and
+        (forall ((a_v4a u))
+          (=>
+            (tla__in a_v4a a_CONSTANTunde_Tunde_a)
+            (and
+              (tla__in a_v4a tla__Int) (tla__le (int2u 0) a_v4a)
+              (not (= a_v4a (int2u 0))))))
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Tunde_a)))
+      (forall ((a_CONSTANTunde_xunde_a u))
+        (=>
+          (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Tunde_a)
+          (forall ((a_CONSTANTunde_yunde_a u) (a_aunde_unde_6a u))
+            (=>
+              (and
+                (forall ((a_v8a u))
+                  (=
+                    (tla__in a_v8a a_aunde_unde_6a)
+                    (or
+                      (and
+                        (tla__in a_v8a a_CONSTANTunde_Tunde_a)
+                        (not (= a_v8a a_CONSTANTunde_xunde_a)))
+                      (=
+                        a_v8a
+                        (tla__minus
+                          a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))))
+                (tla__in a_CONSTANTunde_yunde_a a_CONSTANTunde_Tunde_a)
+                (tla__lt a_CONSTANTunde_yunde_a a_CONSTANTunde_xunde_a))
+              (=
+                (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Tunde_a)
+                (a_CONSTANTunde_GCDunde_a a_aunde_unde_6a)))))))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_5fbf02.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_5fbf02.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #71
+;;   generated from file "./setEuclid_test.tla", line 349, characters 11-12
+
+(set-logic UFNIA)
+(declare-sort u 0)
+(declare-sort str 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun str2u (str) u)
+(declare-fun u2str (u) str)
+(declare-fun tla__minus (u u) u)
+(declare-fun tla__lt (u u) Bool)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_ACTIONunde_Nextunde_a () u)
+(declare-fun a_CONSTANTunde_Cardinalityunde_a (u) u)
+(declare-fun a_STATEunde_Invunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_hash_primea () u)
+(declare-fun a_VARIABLEunde_gcdunde_a () u)
+(declare-fun a_VARIABLEunde_gcdunde_hash_primea () u)
+(declare-fun a_VARIABLEunde_pcunde_a () u)
+(declare-fun a_VARIABLEunde_pcunde_hash_primea () u)
+(declare-fun string__lbl () str)
+
+(assert
+  (forall ((X_5 Int)) (! (= (u2int (int2u X_5)) X_5) :pattern ((int2u X_5)))))
+(assert
+  (forall ((X_5 str)) (! (= (u2str (str2u X_5)) X_5) :pattern ((str2u X_5)))))
+(assert
+  (forall ((M_3 Int) (N_4 Int))
+  (! (= (tla__minus (int2u M_3) (int2u N_4)) (int2u (- M_3 N_4))) :pattern ((tla__minus (int2u M_3) (int2u N_4))))))
+(assert
+  (forall ((M_3 Int) (N_4 Int))
+  (! (= (tla__lt (int2u M_3) (int2u N_4)) (< M_3 N_4)) :pattern ((tla__lt (int2u M_3) (int2u N_4))))))
+(assert
+  (forall ((S_8 u) (T_9 u))
+  (=> (forall ((X_5 u)) (= (tla__in X_5 S_8) (tla__in X_5 T_9))) (= S_8 T_9))))
+
+;; Theorem to be Proved
+(assert (not
+  (exists ((a_CONSTANTunde_iunde_a u))
+    (and
+      (tla__in a_CONSTANTunde_iunde_a a_VARIABLEunde_Sunde_a)
+      (exists ((a_CONSTANTunde_junde_a u))
+        (and
+          (tla__in a_CONSTANTunde_junde_a a_VARIABLEunde_Sunde_a)
+          (tla__lt a_CONSTANTunde_iunde_a a_CONSTANTunde_junde_a)
+          (forall ((a_v2a u))
+            (=
+              (tla__in a_v2a a_VARIABLEunde_Sunde_hash_primea)
+              (or
+                (and
+                  (tla__in a_v2a a_VARIABLEunde_Sunde_a)
+                  (not (= a_v2a a_CONSTANTunde_junde_a)))
+                (=
+                  a_v2a
+                  (tla__minus a_CONSTANTunde_junde_a a_CONSTANTunde_iunde_a)))))))))))
+(assert (boolify a_STATEunde_Invunde_a))
+(assert (boolify a_ACTIONunde_Nextunde_a))
+(assert
+  (exists ((a_CONSTANTunde_iunde_a u))
+    (and
+      (tla__in a_CONSTANTunde_iunde_a a_VARIABLEunde_Sunde_a)
+      (exists ((a_CONSTANTunde_junde_a u))
+        (and
+          (tla__in a_CONSTANTunde_junde_a a_VARIABLEunde_Sunde_a)
+          (tla__lt a_CONSTANTunde_iunde_a a_CONSTANTunde_junde_a)
+          (forall ((a_v1a u))
+            (=
+              (tla__in a_v1a a_VARIABLEunde_Sunde_hash_primea)
+              (or
+                (and
+                  (tla__in a_v1a a_VARIABLEunde_Sunde_a)
+                  (not (= a_v1a a_CONSTANTunde_junde_a)))
+                (=
+                  a_v1a
+                  (tla__minus a_CONSTANTunde_junde_a a_CONSTANTunde_iunde_a))))))))))
+(assert (= a_VARIABLEunde_pcunde_hash_primea (str2u string__lbl)))
+(assert (= a_VARIABLEunde_gcdunde_hash_primea a_VARIABLEunde_gcdunde_a))
+(assert (= a_VARIABLEunde_pcunde_a (str2u string__lbl)))
+(assert
+  (tla__lt
+    (int2u 1) (a_CONSTANTunde_Cardinalityunde_a a_VARIABLEunde_Sunde_a)))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_59d431.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_59d431.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #74
+;;   generated from file "./setEuclid_test.tla", line 352, characters 11-12
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun tla__minus (u u) u)
+(declare-fun tla__lt (u u) Bool)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_ACTIONunde_Nextunde_a () u)
+(declare-fun a_CONSTANTunde_iunde_a () u)
+(declare-fun a_CONSTANTunde_junde_a () u)
+(declare-fun a_STATEunde_Invunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_hash_primea () u)
+
+(assert
+  (forall ((X_5 Int)) (! (= (u2int (int2u X_5)) X_5) :pattern ((int2u X_5)))))
+(assert
+  (forall ((M_3 Int) (N_4 Int))
+  (! (= (tla__minus (int2u M_3) (int2u N_4)) (int2u (- M_3 N_4))) :pattern ((tla__minus (int2u M_3) (int2u N_4))))))
+(assert
+  (forall ((M_3 Int) (N_4 Int))
+  (! (= (tla__lt (int2u M_3) (int2u N_4)) (< M_3 N_4)) :pattern ((tla__lt (int2u M_3) (int2u N_4))))))
+(assert
+  (forall ((S_8 u) (T_9 u))
+  (=> (forall ((X_5 u)) (= (tla__in X_5 S_8) (tla__in X_5 T_9))) (= S_8 T_9))))
+
+;; Theorem to be Proved
+(assert (not
+  (exists ((a_CONSTANTunde_junde_unde_1a u))
+    (and
+      (tla__in a_CONSTANTunde_junde_unde_1a a_VARIABLEunde_Sunde_a)
+      (tla__lt a_CONSTANTunde_iunde_a a_CONSTANTunde_junde_unde_1a)
+      (forall ((a_v2a u))
+        (=
+          (or
+            (and
+              (tla__in a_v2a a_VARIABLEunde_Sunde_a)
+              (not (= a_v2a a_CONSTANTunde_junde_a)))
+            (=
+              a_v2a
+              (tla__minus a_CONSTANTunde_junde_a a_CONSTANTunde_iunde_a)))
+          (or
+            (and
+              (tla__in a_v2a a_VARIABLEunde_Sunde_a)
+              (not (= a_v2a a_CONSTANTunde_junde_unde_1a)))
+            (=
+              a_v2a
+              (tla__minus
+                a_CONSTANTunde_junde_unde_1a a_CONSTANTunde_iunde_a)))))))))
+(assert (boolify a_STATEunde_Invunde_a))
+(assert (boolify a_ACTIONunde_Nextunde_a))
+(assert (tla__in a_CONSTANTunde_iunde_a a_VARIABLEunde_Sunde_a))
+(assert (tla__in a_CONSTANTunde_junde_a a_VARIABLEunde_Sunde_a))
+(assert (tla__lt a_CONSTANTunde_iunde_a a_CONSTANTunde_junde_a))
+(assert
+  (forall ((a_v1a u))
+    (=
+      (tla__in a_v1a a_VARIABLEunde_Sunde_hash_primea)
+      (or
+        (and
+          (tla__in a_v1a a_VARIABLEunde_Sunde_a)
+          (not (= a_v1a a_CONSTANTunde_junde_a)))
+        (= a_v1a (tla__minus a_CONSTANTunde_junde_a a_CONSTANTunde_iunde_a))))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_542af1.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_542af1.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #76
+;;   generated from file "./setEuclid_test.tla", line 354, characters 11-12
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun tla__minus (u u) u)
+(declare-fun tla__lt (u u) Bool)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_ACTIONunde_Nextunde_a () u)
+(declare-fun a_CONSTANTunde_iunde_a () u)
+(declare-fun a_CONSTANTunde_junde_a () u)
+(declare-fun a_STATEunde_Invunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_hash_primea () u)
+
+(assert
+  (forall ((X_4 Int)) (! (= (u2int (int2u X_4)) X_4) :pattern ((int2u X_4)))))
+(assert
+  (forall ((M_2 Int) (N_3 Int))
+  (! (= (tla__minus (int2u M_2) (int2u N_3)) (int2u (- M_2 N_3))) :pattern ((tla__minus (int2u M_2) (int2u N_3))))))
+(assert
+  (forall ((M_2 Int) (N_3 Int))
+  (! (= (tla__lt (int2u M_2) (int2u N_3)) (< M_2 N_3)) :pattern ((tla__lt (int2u M_2) (int2u N_3))))))
+(assert
+  (forall ((S_7 u) (T_8 u))
+  (=> (forall ((X_4 u)) (= (tla__in X_4 S_7) (tla__in X_4 T_8))) (= S_7 T_8))))
+
+;; Theorem to be Proved
+(assert (not
+  (and
+    (tla__in a_CONSTANTunde_junde_a a_VARIABLEunde_Sunde_a)
+    (tla__lt a_CONSTANTunde_iunde_a a_CONSTANTunde_junde_a))))
+(assert (boolify a_STATEunde_Invunde_a))
+(assert (boolify a_ACTIONunde_Nextunde_a))
+(assert (tla__in a_CONSTANTunde_iunde_a a_VARIABLEunde_Sunde_a))
+(assert (tla__in a_CONSTANTunde_junde_a a_VARIABLEunde_Sunde_a))
+(assert (tla__lt a_CONSTANTunde_iunde_a a_CONSTANTunde_junde_a))
+(assert
+  (forall ((a_v1a u))
+    (=
+      (tla__in a_v1a a_VARIABLEunde_Sunde_hash_primea)
+      (or
+        (and
+          (tla__in a_v1a a_VARIABLEunde_Sunde_a)
+          (not (= a_v1a a_CONSTANTunde_junde_a)))
+        (= a_v1a (tla__minus a_CONSTANTunde_junde_a a_CONSTANTunde_iunde_a))))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_e1b0b9.smt2; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_e1b0b9.smt2.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #78
+;;   generated from file "./setEuclid_test.tla", line 358, characters 9-10
+
+(set-logic UFNIA)
+(declare-sort u 0)
+(declare-sort str 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun str2u (str) u)
+(declare-fun u2str (u) str)
+(declare-fun tla__Int () u)
+(declare-fun tla__minus (u u) u)
+(declare-fun tla__lt (u u) Bool)
+(declare-fun tla__le (u u) Bool)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_ACTIONunde_Nextunde_a () u)
+(declare-fun a_CONSTANTunde_Cardinalityunde_a (u) u)
+(declare-fun a_CONSTANTunde_GCDunde_a (u) u)
+(declare-fun a_CONSTANTunde_Inputunde_a () u)
+(declare-fun a_CONSTANTunde_IsFiniteSetunde_a (u) u)
+(declare-fun a_VARIABLEunde_Sunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_hash_primea () u)
+(declare-fun a_VARIABLEunde_gcdunde_hash_primea () u)
+(declare-fun a_VARIABLEunde_pcunde_a () u)
+(declare-fun a_VARIABLEunde_pcunde_hash_primea () u)
+(declare-fun a_aunde_unde_11a () u)
+(declare-fun a_aunde_unde_12a () u)
+(declare-fun a_aunde_unde_13a () u)
+(declare-fun a_aunde_unde_14a () u)
+(declare-fun string__Done () str)
+(declare-fun string__lbl () str)
+
+(assert
+  (forall ((X_21 Int))
+  (! (= (u2int (int2u X_21)) X_21) :pattern ((int2u X_21)))))
+(assert
+  (forall ((X_21 str))
+  (! (= (u2str (str2u X_21)) X_21) :pattern ((str2u X_21)))))
+(assert
+  (forall ((X_21 u))
+  (! (= (tla__in X_21 tla__Int) (exists ((N_20 Int)) (= X_21 (int2u N_20)))) :pattern ((tla__in X_21 tla__Int)))))
+(assert
+  (forall ((M_19 Int) (N_20 Int))
+  (! (= (tla__minus (int2u M_19) (int2u N_20)) (int2u (- M_19 N_20))) :pattern ((tla__minus (int2u M_19) (int2u N_20))))))
+(assert
+  (forall ((M_19 Int) (N_20 Int))
+  (! (= (tla__lt (int2u M_19) (int2u N_20)) (< M_19 N_20)) :pattern ((tla__lt (int2u M_19) (int2u N_20))))))
+(assert
+  (forall ((M_19 Int) (N_20 Int))
+  (! (= (tla__le (int2u M_19) (int2u N_20)) (<= M_19 N_20)) :pattern ((tla__le (int2u M_19) (int2u N_20))))))
+(assert
+  (forall ((S_24 u) (T_25 u))
+  (=>
+  (forall ((X_21 u)) (= (tla__in X_21 S_24) (tla__in X_21 T_25)))
+  (= S_24 T_25))))
+(assert (distinct string__Done string__lbl))
+
+
+;; Theorem to be Proved
+(assert (not true))
+(assert
+  (forall ((a_v1a u))
+    (=>
+      (tla__in a_v1a a_VARIABLEunde_Sunde_a)
+      (and
+        (tla__in a_v1a tla__Int) (tla__le (int2u 0) a_v1a)
+        (not (= a_v1a (int2u 0)))))))
+(assert (exists ((a_v2a u)) (tla__in a_v2a a_VARIABLEunde_Sunde_a)))
+(assert (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_VARIABLEunde_Sunde_a)))
+(assert
+  (=
+    (a_CONSTANTunde_GCDunde_a a_VARIABLEunde_Sunde_a)
+    (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a)))
+(assert (boolify a_ACTIONunde_Nextunde_a))
+(assert
+  (not
+    (tla__lt
+      (int2u 1) (a_CONSTANTunde_Cardinalityunde_a a_VARIABLEunde_Sunde_a))))
+(assert
+  (=>
+    (exists ((a_CONSTANTunde_tunde_a u))
+      (tla__in a_CONSTANTunde_tunde_a a_VARIABLEunde_Sunde_a))
+    (tla__in a_VARIABLEunde_gcdunde_hash_primea a_VARIABLEunde_Sunde_a)))
+(assert (= a_VARIABLEunde_pcunde_hash_primea (str2u string__Done)))
+(assert (= a_VARIABLEunde_Sunde_hash_primea a_VARIABLEunde_Sunde_a))
+(assert (= a_VARIABLEunde_pcunde_a (str2u string__lbl)))
+(assert
+  (forall ((a_v4a u))
+    (=>
+      (tla__in a_v4a a_CONSTANTunde_Inputunde_a)
+      (and
+        (tla__in a_v4a tla__Int) (tla__le (int2u 0) a_v4a)
+        (not (= a_v4a (int2u 0)))))))
+(assert (exists ((a_v5a u)) (tla__in a_v5a a_CONSTANTunde_Inputunde_a)))
+(assert
+  (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Inputunde_a)))
+(assert
+  (forall ((a_CONSTANTunde_Tunde_a u))
+    (=>
+      (and
+        (forall ((a_v6a u))
+          (=>
+            (tla__in a_v6a a_CONSTANTunde_Tunde_a)
+            (and
+              (tla__in a_v6a tla__Int) (tla__le (int2u 0) a_v6a)
+              (not (= a_v6a (int2u 0))))))
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Tunde_a)))
+      (forall ((a_CONSTANTunde_xunde_a u))
+        (=>
+          (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Tunde_a)
+          (forall ((a_CONSTANTunde_yunde_a u) (a_aunde_unde_11a u))
+            (=>
+              (and
+                (forall ((a_v15a u))
+                  (=
+                    (tla__in a_v15a a_aunde_unde_11a)
+                    (or
+                      (and
+                        (tla__in a_v15a a_CONSTANTunde_Tunde_a)
+                        (not (= a_v15a a_CONSTANTunde_xunde_a)))
+                      (=
+                        a_v15a
+                        (tla__minus
+                          a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))))
+                (tla__in a_CONSTANTunde_yunde_a a_CONSTANTunde_Tunde_a)
+                (tla__lt a_CONSTANTunde_yunde_a a_CONSTANTunde_xunde_a))
+              (=
+                (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Tunde_a)
+                (a_CONSTANTunde_GCDunde_a a_aunde_unde_11a)))))))))
+(assert
+  (forall ((a_CONSTANTunde_xunde_a u) (a_aunde_unde_12a u))
+    (=>
+      (and
+        (forall ((a_v16a u))
+          (=
+            (tla__in a_v16a a_aunde_unde_12a)
+            (= a_v16a a_CONSTANTunde_xunde_a)))
+        (tla__in a_CONSTANTunde_xunde_a tla__Int)
+        (tla__le (int2u 0) a_CONSTANTunde_xunde_a)
+        (not (= a_CONSTANTunde_xunde_a (int2u 0))))
+      (= (a_CONSTANTunde_GCDunde_a a_aunde_unde_12a) a_CONSTANTunde_xunde_a))))
+(assert
+  (forall ((a_CONSTANTunde_Tunde_a u))
+    (=>
+      (and
+        (forall ((a_v7a u))
+          (=>
+            (tla__in a_v7a a_CONSTANTunde_Tunde_a)
+            (and
+              (tla__in a_v7a tla__Int) (tla__le (int2u 0) a_v7a)
+              (not (= a_v7a (int2u 0))))))
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Tunde_a))
+        (exists ((a_v8a u)) (tla__in a_v8a a_CONSTANTunde_Tunde_a)))
+      (and
+        (tla__in (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Tunde_a) tla__Int)
+        (tla__le (int2u 0) (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Tunde_a))
+        (not (= (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Tunde_a) (int2u 0)))))))
+(assert
+  (forall ((a_CONSTANTunde_Tunde_a u))
+    (=>
+      (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Tunde_a))
+      (and
+        (tla__in
+          (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a) tla__Int)
+        (tla__le
+          (int2u 0) (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a))
+        (=
+          (=
+            (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a)
+            (int2u 0))
+          (forall ((a_v9a u)) (not (tla__in a_v9a a_CONSTANTunde_Tunde_a))))
+        (=
+          (=
+            (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a)
+            (int2u 1))
+          (exists ((a_CONSTANTunde_xunde_a u))
+            (and
+              (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Tunde_a)
+              (forall ((a_v10a u))
+                (=
+                  (tla__in a_v10a a_CONSTANTunde_Tunde_a)
+                  (= a_v10a a_CONSTANTunde_xunde_a))))))))))
+(assert
+  (forall
+    ((a_CONSTANTunde_Tunde_a u) (a_CONSTANTunde_xunde_a u) (a_aunde_unde_14a u) (a_aunde_unde_13a u))
+    (=>
+      (and
+        (forall ((a_v17a u))
+          (=
+            (tla__in a_v17a a_aunde_unde_13a)
+            (or
+              (tla__in a_v17a a_CONSTANTunde_Tunde_a)
+              (= a_v17a a_CONSTANTunde_xunde_a))))
+        (forall ((a_v18a u))
+          (=
+            (tla__in a_v18a a_aunde_unde_14a)
+            (and
+              (tla__in a_v18a a_CONSTANTunde_Tunde_a)
+              (not (= a_v18a a_CONSTANTunde_xunde_a)))))
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Tunde_a)))
+      (and
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_aunde_unde_13a))
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_aunde_unde_14a))))))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_a686d7.smt2; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_a686d7.smt2.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #88
+;;   generated from file "./setEuclid_test.tla", line 368, characters 9-10
+
+(set-logic UFNIA)
+(declare-sort u 0)
+(declare-sort str 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun str2u (str) u)
+(declare-fun u2str (u) str)
+(declare-fun tla__Int () u)
+(declare-fun tla__minus (u u) u)
+(declare-fun tla__lt (u u) Bool)
+(declare-fun tla__le (u u) Bool)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_ACTIONunde_Nextunde_a () u)
+(declare-fun a_CONSTANTunde_Cardinalityunde_a (u) u)
+(declare-fun a_CONSTANTunde_GCDunde_a (u) u)
+(declare-fun a_CONSTANTunde_Inputunde_a () u)
+(declare-fun a_CONSTANTunde_IsFiniteSetunde_a (u) u)
+(declare-fun a_VARIABLEunde_Sunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_hash_primea () u)
+(declare-fun a_VARIABLEunde_gcdunde_hash_primea () u)
+(declare-fun a_VARIABLEunde_pcunde_a () u)
+(declare-fun a_VARIABLEunde_pcunde_hash_primea () u)
+(declare-fun a_aunde_unde_10a () u)
+(declare-fun a_aunde_unde_11a () u)
+(declare-fun a_aunde_unde_12a () u)
+(declare-fun a_aunde_unde_13a () u)
+(declare-fun string__Done () str)
+(declare-fun string__lbl () str)
+
+(assert
+  (forall ((X_20 Int))
+  (! (= (u2int (int2u X_20)) X_20) :pattern ((int2u X_20)))))
+(assert
+  (forall ((X_20 str))
+  (! (= (u2str (str2u X_20)) X_20) :pattern ((str2u X_20)))))
+(assert
+  (forall ((X_20 u))
+  (! (= (tla__in X_20 tla__Int) (exists ((N_19 Int)) (= X_20 (int2u N_19)))) :pattern ((tla__in X_20 tla__Int)))))
+(assert
+  (forall ((M_18 Int) (N_19 Int))
+  (! (= (tla__minus (int2u M_18) (int2u N_19)) (int2u (- M_18 N_19))) :pattern ((tla__minus (int2u M_18) (int2u N_19))))))
+(assert
+  (forall ((M_18 Int) (N_19 Int))
+  (! (= (tla__lt (int2u M_18) (int2u N_19)) (< M_18 N_19)) :pattern ((tla__lt (int2u M_18) (int2u N_19))))))
+(assert
+  (forall ((M_18 Int) (N_19 Int))
+  (! (= (tla__le (int2u M_18) (int2u N_19)) (<= M_18 N_19)) :pattern ((tla__le (int2u M_18) (int2u N_19))))))
+(assert
+  (forall ((S_23 u) (T_24 u))
+  (=>
+  (forall ((X_20 u)) (= (tla__in X_20 S_23) (tla__in X_20 T_24)))
+  (= S_23 T_24))))
+(assert (distinct string__Done string__lbl))
+
+
+;; Theorem to be Proved
+(assert (not
+  (=
+    a_VARIABLEunde_gcdunde_hash_primea
+    (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a))))
+(assert
+  (forall ((a_v1a u))
+    (=>
+      (tla__in a_v1a a_VARIABLEunde_Sunde_a)
+      (and
+        (tla__in a_v1a tla__Int) (tla__le (int2u 0) a_v1a)
+        (not (= a_v1a (int2u 0)))))))
+(assert (exists ((a_v2a u)) (tla__in a_v2a a_VARIABLEunde_Sunde_a)))
+(assert (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_VARIABLEunde_Sunde_a)))
+(assert
+  (=
+    (a_CONSTANTunde_GCDunde_a a_VARIABLEunde_Sunde_a)
+    (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a)))
+(assert (boolify a_ACTIONunde_Nextunde_a))
+(assert
+  (ite
+    (tla__lt
+      (int2u 1) (a_CONSTANTunde_Cardinalityunde_a a_VARIABLEunde_Sunde_a))
+    false
+    (and
+      (=>
+        (exists ((a_CONSTANTunde_tunde_a u))
+          (tla__in a_CONSTANTunde_tunde_a a_VARIABLEunde_Sunde_a))
+        (tla__in a_VARIABLEunde_gcdunde_hash_primea a_VARIABLEunde_Sunde_a))
+      (= a_VARIABLEunde_Sunde_hash_primea a_VARIABLEunde_Sunde_a))))
+(assert (= a_VARIABLEunde_pcunde_a (str2u string__lbl)))
+(assert
+  (=>
+    (= (a_CONSTANTunde_Cardinalityunde_a a_VARIABLEunde_Sunde_a) (int2u 1))
+    (=>
+      (exists ((a_CONSTANTunde_tunde_a u))
+        (tla__in a_CONSTANTunde_tunde_a a_VARIABLEunde_Sunde_a))
+      (tla__in
+        (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a)
+        a_VARIABLEunde_Sunde_a))))
+(assert
+  (forall ((a_v3a u))
+    (=>
+      (tla__in a_v3a a_CONSTANTunde_Inputunde_a)
+      (and
+        (tla__in a_v3a tla__Int) (tla__le (int2u 0) a_v3a)
+        (not (= a_v3a (int2u 0)))))))
+(assert (exists ((a_v4a u)) (tla__in a_v4a a_CONSTANTunde_Inputunde_a)))
+(assert
+  (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Inputunde_a)))
+(assert
+  (forall ((a_CONSTANTunde_Tunde_a u))
+    (=>
+      (and
+        (forall ((a_v5a u))
+          (=>
+            (tla__in a_v5a a_CONSTANTunde_Tunde_a)
+            (and
+              (tla__in a_v5a tla__Int) (tla__le (int2u 0) a_v5a)
+              (not (= a_v5a (int2u 0))))))
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Tunde_a)))
+      (forall ((a_CONSTANTunde_xunde_a u))
+        (=>
+          (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Tunde_a)
+          (forall ((a_CONSTANTunde_yunde_a u) (a_aunde_unde_10a u))
+            (=>
+              (and
+                (forall ((a_v14a u))
+                  (=
+                    (tla__in a_v14a a_aunde_unde_10a)
+                    (or
+                      (and
+                        (tla__in a_v14a a_CONSTANTunde_Tunde_a)
+                        (not (= a_v14a a_CONSTANTunde_xunde_a)))
+                      (=
+                        a_v14a
+                        (tla__minus
+                          a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))))
+                (tla__in a_CONSTANTunde_yunde_a a_CONSTANTunde_Tunde_a)
+                (tla__lt a_CONSTANTunde_yunde_a a_CONSTANTunde_xunde_a))
+              (=
+                (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Tunde_a)
+                (a_CONSTANTunde_GCDunde_a a_aunde_unde_10a)))))))))
+(assert
+  (forall ((a_CONSTANTunde_xunde_a u) (a_aunde_unde_11a u))
+    (=>
+      (and
+        (forall ((a_v15a u))
+          (=
+            (tla__in a_v15a a_aunde_unde_11a)
+            (= a_v15a a_CONSTANTunde_xunde_a)))
+        (tla__in a_CONSTANTunde_xunde_a tla__Int)
+        (tla__le (int2u 0) a_CONSTANTunde_xunde_a)
+        (not (= a_CONSTANTunde_xunde_a (int2u 0))))
+      (= (a_CONSTANTunde_GCDunde_a a_aunde_unde_11a) a_CONSTANTunde_xunde_a))))
+(assert
+  (forall ((a_CONSTANTunde_Tunde_a u))
+    (=>
+      (and
+        (forall ((a_v6a u))
+          (=>
+            (tla__in a_v6a a_CONSTANTunde_Tunde_a)
+            (and
+              (tla__in a_v6a tla__Int) (tla__le (int2u 0) a_v6a)
+              (not (= a_v6a (int2u 0))))))
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Tunde_a))
+        (exists ((a_v7a u)) (tla__in a_v7a a_CONSTANTunde_Tunde_a)))
+      (and
+        (tla__in (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Tunde_a) tla__Int)
+        (tla__le (int2u 0) (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Tunde_a))
+        (not (= (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Tunde_a) (int2u 0)))))))
+(assert
+  (forall ((a_CONSTANTunde_Tunde_a u))
+    (=>
+      (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Tunde_a))
+      (and
+        (tla__in
+          (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a) tla__Int)
+        (tla__le
+          (int2u 0) (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a))
+        (=
+          (=
+            (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a)
+            (int2u 0))
+          (forall ((a_v8a u)) (not (tla__in a_v8a a_CONSTANTunde_Tunde_a))))
+        (=
+          (=
+            (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a)
+            (int2u 1))
+          (exists ((a_CONSTANTunde_xunde_a u))
+            (and
+              (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Tunde_a)
+              (forall ((a_v9a u))
+                (=
+                  (tla__in a_v9a a_CONSTANTunde_Tunde_a)
+                  (= a_v9a a_CONSTANTunde_xunde_a))))))))))
+(assert
+  (forall
+    ((a_CONSTANTunde_Tunde_a u) (a_CONSTANTunde_xunde_a u) (a_aunde_unde_13a u) (a_aunde_unde_12a u))
+    (=>
+      (and
+        (forall ((a_v16a u))
+          (=
+            (tla__in a_v16a a_aunde_unde_12a)
+            (or
+              (tla__in a_v16a a_CONSTANTunde_Tunde_a)
+              (= a_v16a a_CONSTANTunde_xunde_a))))
+        (forall ((a_v17a u))
+          (=
+            (tla__in a_v17a a_aunde_unde_13a)
+            (and
+              (tla__in a_v17a a_CONSTANTunde_Tunde_a)
+              (not (= a_v17a a_CONSTANTunde_xunde_a)))))
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Tunde_a)))
+      (and
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_aunde_unde_12a))
+        (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_aunde_unde_13a))))))
+(assert (= a_VARIABLEunde_pcunde_hash_primea (str2u string__Done)))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_186439.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_186439.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #98
+;;   generated from file "./setEuclid_test.tla", line 364, characters 9-10
+
+(set-logic UFNIA)
+(declare-sort u 0)
+(declare-sort str 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun str2u (str) u)
+(declare-fun u2str (u) str)
+(declare-fun tla__Int () u)
+(declare-fun tla__le (u u) Bool)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_ACTIONunde_Nextunde_a () u)
+(declare-fun a_CONSTANTunde_Cardinalityunde_a (u) u)
+(declare-fun a_CONSTANTunde_GCDunde_a (u) u)
+(declare-fun a_CONSTANTunde_Inputunde_a () u)
+(declare-fun a_CONSTANTunde_IsFiniteSetunde_a (u) u)
+(declare-fun a_STATEunde_CorrectTerminationunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_a () u)
+(declare-fun a_VARIABLEunde_gcdunde_a () u)
+(declare-fun a_VARIABLEunde_pcunde_a () str)
+(declare-fun string__Done () str)
+(declare-fun string__lbl () str)
+
+(assert
+  (forall ((X_8 Int)) (! (= (u2int (int2u X_8)) X_8) :pattern ((int2u X_8)))))
+(assert
+  (forall ((X_8 str)) (! (= (u2str (str2u X_8)) X_8) :pattern ((str2u X_8)))))
+(assert
+  (forall ((X_8 u))
+  (! (= (tla__in X_8 tla__Int) (exists ((N_7 Int)) (= X_8 (int2u N_7)))) :pattern ((tla__in X_8 tla__Int)))))
+(assert
+  (forall ((M_6 Int) (N_7 Int))
+  (! (= (tla__le (int2u M_6) (int2u N_7)) (<= M_6 N_7)) :pattern ((tla__le (int2u M_6) (int2u N_7))))))
+(assert
+  (forall ((S_11 u) (T_12 u))
+  (=>
+  (forall ((X_8 u)) (= (tla__in X_8 S_11) (tla__in X_8 T_12))) (= S_11 T_12))))
+(assert (distinct string__Done string__lbl))
+
+
+;; Theorem to be Proved
+(assert (not
+  (forall ((a_v5a u))
+    (=
+      (tla__in a_v5a a_VARIABLEunde_Sunde_a)
+      (=>
+        (exists ((a_CONSTANTunde_tunde_a u))
+          (tla__in a_CONSTANTunde_tunde_a a_VARIABLEunde_Sunde_a))
+        (tla__in a_v5a a_VARIABLEunde_Sunde_a))))))
+(assert
+  (forall ((a_v1a Int))
+    (=>
+      (tla__in (int2u a_v1a) a_VARIABLEunde_Sunde_a)
+      (and (<= 0 a_v1a) (not (= a_v1a 0))))))
+(assert (exists ((a_v2a u)) (tla__in a_v2a a_VARIABLEunde_Sunde_a)))
+(assert (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_VARIABLEunde_Sunde_a)))
+(assert
+  (=>
+    (= a_VARIABLEunde_pcunde_a string__Done)
+    (and
+      (tla__in a_VARIABLEunde_gcdunde_a tla__Int)
+      (tla__le (int2u 0) a_VARIABLEunde_gcdunde_a)
+      (not (= a_VARIABLEunde_gcdunde_a (int2u 0))))))
+(assert
+  (or
+    (= a_VARIABLEunde_pcunde_a string__Done)
+    (= a_VARIABLEunde_pcunde_a string__lbl)))
+(assert (boolify a_STATEunde_CorrectTerminationunde_a))
+(assert
+  (=
+    (a_CONSTANTunde_GCDunde_a a_VARIABLEunde_Sunde_a)
+    (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a)))
+(assert (boolify a_ACTIONunde_Nextunde_a))
+(assert
+  (forall ((a_CONSTANTunde_Tunde_a u))
+    (=>
+      (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Tunde_a))
+      (and
+        (tla__in
+          (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a) tla__Int)
+        (tla__le
+          (int2u 0) (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a))
+        (=
+          (=
+            (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a)
+            (int2u 0))
+          (forall ((a_v3a u)) (not (tla__in a_v3a a_CONSTANTunde_Tunde_a))))
+        (=
+          (=
+            (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Tunde_a)
+            (int2u 1))
+          (exists ((a_CONSTANTunde_xunde_a u))
+            (and
+              (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Tunde_a)
+              (forall ((a_v4a u))
+                (=
+                  (tla__in a_v4a a_CONSTANTunde_Tunde_a)
+                  (= a_v4a a_CONSTANTunde_xunde_a))))))))))
+(assert
+  (= (a_CONSTANTunde_Cardinalityunde_a a_VARIABLEunde_Sunde_a) (int2u 1)))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_3bf3d9.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_3bf3d9.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #100
+;;   generated from file "./setEuclid_test.tla", line 366, characters 9-10
+
+(set-logic UFNIA)
+(declare-sort u 0)
+(declare-sort str 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun str2u (str) u)
+(declare-fun u2str (u) str)
+(declare-fun tla__Int () u)
+(declare-fun tla__le (u u) Bool)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_ACTIONunde_Nextunde_a () u)
+(declare-fun a_CONSTANTunde_Cardinalityunde_a (u) u)
+(declare-fun a_CONSTANTunde_GCDunde_a (u) u)
+(declare-fun a_CONSTANTunde_Inputunde_a () u)
+(declare-fun a_CONSTANTunde_IsFiniteSetunde_a (u) u)
+(declare-fun a_STATEunde_CorrectTerminationunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_a () u)
+(declare-fun a_VARIABLEunde_gcdunde_a () u)
+(declare-fun a_VARIABLEunde_pcunde_a () str)
+(declare-fun a_aunde_unde_4a () u)
+(declare-fun string__Done () str)
+(declare-fun string__lbl () str)
+
+(assert
+  (forall ((X_8 Int)) (! (= (u2int (int2u X_8)) X_8) :pattern ((int2u X_8)))))
+(assert
+  (forall ((X_8 str)) (! (= (u2str (str2u X_8)) X_8) :pattern ((str2u X_8)))))
+(assert
+  (forall ((X_8 u))
+  (! (= (tla__in X_8 tla__Int) (exists ((N_7 Int)) (= X_8 (int2u N_7)))) :pattern ((tla__in X_8 tla__Int)))))
+(assert
+  (forall ((M_6 Int) (N_7 Int))
+  (! (= (tla__le (int2u M_6) (int2u N_7)) (<= M_6 N_7)) :pattern ((tla__le (int2u M_6) (int2u N_7))))))
+(assert
+  (forall ((S_11 u) (T_12 u))
+  (=>
+  (forall ((X_8 u)) (= (tla__in X_8 S_11) (tla__in X_8 T_12))) (= S_11 T_12))))
+(assert (distinct string__Done string__lbl))
+
+
+;; Theorem to be Proved
+(assert (not
+  (=>
+    (exists ((a_CONSTANTunde_tunde_a u))
+      (tla__in a_CONSTANTunde_tunde_a a_VARIABLEunde_Sunde_a))
+    (tla__in
+      (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a)
+      a_VARIABLEunde_Sunde_a))))
+(assert
+  (forall ((a_v1a Int))
+    (=>
+      (tla__in (int2u a_v1a) a_VARIABLEunde_Sunde_a)
+      (and (<= 0 a_v1a) (not (= a_v1a 0))))))
+(assert (exists ((a_v2a u)) (tla__in a_v2a a_VARIABLEunde_Sunde_a)))
+(assert (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_VARIABLEunde_Sunde_a)))
+(assert
+  (=>
+    (= a_VARIABLEunde_pcunde_a string__Done)
+    (and
+      (tla__in a_VARIABLEunde_gcdunde_a tla__Int)
+      (tla__le (int2u 0) a_VARIABLEunde_gcdunde_a)
+      (not (= a_VARIABLEunde_gcdunde_a (int2u 0))))))
+(assert
+  (or
+    (= a_VARIABLEunde_pcunde_a string__Done)
+    (= a_VARIABLEunde_pcunde_a string__lbl)))
+(assert (boolify a_STATEunde_CorrectTerminationunde_a))
+(assert
+  (=
+    (a_CONSTANTunde_GCDunde_a a_VARIABLEunde_Sunde_a)
+    (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a)))
+(assert (boolify a_ACTIONunde_Nextunde_a))
+(assert
+  (forall ((a_v3a u))
+    (=
+      (tla__in a_v3a a_VARIABLEunde_Sunde_a)
+      (=>
+        (exists ((a_CONSTANTunde_tunde_a u))
+          (tla__in a_CONSTANTunde_tunde_a a_VARIABLEunde_Sunde_a))
+        (tla__in a_v3a a_VARIABLEunde_Sunde_a)))))
+(assert
+  (forall ((a_CONSTANTunde_xunde_a Int) (a_aunde_unde_4a u))
+    (=>
+      (and
+        (forall ((a_v5a u))
+          (=
+            (tla__in a_v5a a_aunde_unde_4a)
+            (= a_v5a (int2u a_CONSTANTunde_xunde_a))))
+        (<= 0 a_CONSTANTunde_xunde_a) (not (= a_CONSTANTunde_xunde_a 0)))
+      (=
+        (a_CONSTANTunde_GCDunde_a a_aunde_unde_4a)
+        (int2u a_CONSTANTunde_xunde_a)))))
+(assert
+  (= (a_CONSTANTunde_Cardinalityunde_a a_VARIABLEunde_Sunde_a) (int2u 1)))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/setEuclid_test.tlaps/tlapm_b259f2.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/setEuclid_test.tlaps/tlapm_b259f2.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #103
+;;   generated from file "./setEuclid_test.tla", line 375, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+(declare-sort str 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun str2u (str) u)
+(declare-fun u2str (u) str)
+(declare-fun tla__Int () u)
+(declare-fun tla__le (u u) Bool)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_ACTIONunde_Nextunde_a () u)
+(declare-fun a_CONSTANTunde_GCDunde_a (u) u)
+(declare-fun a_CONSTANTunde_Inputunde_a () u)
+(declare-fun a_CONSTANTunde_IsFiniteSetunde_a (u) u)
+(declare-fun a_VARIABLEunde_Sunde_a () u)
+(declare-fun a_VARIABLEunde_Sunde_hash_primea () u)
+(declare-fun a_VARIABLEunde_gcdunde_a () u)
+(declare-fun a_VARIABLEunde_gcdunde_hash_primea () u)
+(declare-fun a_VARIABLEunde_pcunde_a () str)
+(declare-fun a_VARIABLEunde_pcunde_hash_primea () str)
+(declare-fun string__Done () str)
+
+(assert
+  (forall ((X_7 Int)) (! (= (u2int (int2u X_7)) X_7) :pattern ((int2u X_7)))))
+(assert
+  (forall ((X_7 str)) (! (= (u2str (str2u X_7)) X_7) :pattern ((str2u X_7)))))
+(assert
+  (forall ((X_7 u))
+  (! (= (tla__in X_7 tla__Int) (exists ((N_6 Int)) (= X_7 (int2u N_6)))) :pattern ((tla__in X_7 tla__Int)))))
+(assert
+  (forall ((M_5 Int) (N_6 Int))
+  (! (= (tla__le (int2u M_5) (int2u N_6)) (<= M_5 N_6)) :pattern ((tla__le (int2u M_5) (int2u N_6))))))
+(assert
+  (forall ((S_10 u) (T_11 u))
+  (=>
+  (forall ((X_7 u)) (= (tla__in X_7 S_10) (tla__in X_7 T_11))) (= S_10 T_11))))
+
+;; Theorem to be Proved
+(assert (not
+  (and
+    (forall ((a_v3a Int))
+      (=>
+        (tla__in (int2u a_v3a) a_VARIABLEunde_Sunde_a)
+        (and (<= 0 a_v3a) (not (= a_v3a 0)))))
+    (exists ((a_v4a u)) (tla__in a_v4a a_VARIABLEunde_Sunde_a))
+    (tla__in (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a) tla__Int)
+    (tla__le (int2u 0) (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a))
+    (not (= (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a) (int2u 0))))))
+(assert
+  (forall ((a_v1a Int))
+    (=>
+      (tla__in (int2u a_v1a) a_VARIABLEunde_Sunde_a)
+      (and (<= 0 a_v1a) (not (= a_v1a 0))))))
+(assert (exists ((a_v2a u)) (tla__in a_v2a a_VARIABLEunde_Sunde_a)))
+(assert (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_VARIABLEunde_Sunde_a)))
+(assert
+  (tla__in (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a) tla__Int))
+(assert
+  (tla__le (int2u 0) (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a)))
+(assert
+  (not (= (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a) (int2u 0))))
+(assert
+  (=
+    a_VARIABLEunde_gcdunde_a
+    (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a)))
+(assert
+  (=
+    (a_CONSTANTunde_GCDunde_a a_VARIABLEunde_Sunde_a)
+    (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a)))
+(assert (boolify a_ACTIONunde_Nextunde_a))
+(assert (= a_VARIABLEunde_pcunde_a string__Done))
+(assert (= a_VARIABLEunde_Sunde_hash_primea a_VARIABLEunde_Sunde_a))
+(assert
+  (=
+    a_VARIABLEunde_gcdunde_hash_primea
+    (a_CONSTANTunde_GCDunde_a a_CONSTANTunde_Inputunde_a)))
+(assert (= a_VARIABLEunde_pcunde_hash_primea string__Done))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+(* created new ".tlacache/setEuclid_test.tlaps/setEuclid_test.thy" *)
+(* fingerprints written in ".tlacache/setEuclid_test.tlaps/fingerprints" *)

@@ -1,0 +1,148 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:18:50 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp nonempty_integer_test.tla --stretch 5
+
+(* created new ".tlacache/TLAPS.tlaps/TLAPS.thy" *)
+(* fingerprints written in ".tlacache/TLAPS.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/nonempty_integer_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+COMMAND-LINE ARGUMENT
+file=.tlacache/nonempty_integer_test.tlaps/tlapm_cdb263.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/nonempty_integer_test.tlaps/tlapm_cdb263.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #1
+;;   generated from file "./nonempty_integer_test.tla", line 20, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+
+(assert
+  (forall ((X_5 Int)) (! (= (u2int (int2u X_5)) X_5) :pattern ((int2u X_5)))))
+(assert
+  (forall ((S_8 u) (T_9 u))
+  (=> (forall ((X_5 u)) (= (tla__in X_5 S_8) (tla__in X_5 T_9))) (= S_8 T_9))))
+
+;; Theorem to be Proved
+(assert (not false))
+(assert (forall ((a_v1a u)) (not (tla__in a_v1a (int2u 0)))))
+(assert (forall ((a_v2a u)) (not (tla__in a_v2a (int2u 1)))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/nonempty_integer_test.tlaps/tlapm_7dfdc5.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/nonempty_integer_test.tlaps/tlapm_7dfdc5.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #4
+;;   generated from file "./nonempty_integer_test.tla", line 14, characters 5-11
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+
+(assert
+  (forall ((X_4 Int)) (! (= (u2int (int2u X_4)) X_4) :pattern ((int2u X_4)))))
+(assert
+  (forall ((S_7 u) (T_8 u))
+  (=> (forall ((X_4 u)) (= (tla__in X_4 S_7) (tla__in X_4 T_8))) (= S_7 T_8))))
+
+;; Theorem to be Proved
+(assert (not
+  (exists ((a_CONSTANTunde_zunde_a Int) (a_CONSTANTunde_xunde_a u))
+    (tla__in a_CONSTANTunde_xunde_a (int2u a_CONSTANTunde_zunde_a)))))
+(assert
+  (=>
+    (forall ((a_CONSTANTunde_zunde_a Int) (a_v1a u))
+      (not (tla__in a_v1a (int2u a_CONSTANTunde_zunde_a)))) false))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/nonempty_integer_test.tlaps/tlapm_4fb157.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/nonempty_integer_test.tlaps/tlapm_4fb157.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #5
+;;   generated from file "./nonempty_integer_test.tla", line 16, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+
+(assert
+  (forall ((X_5 Int)) (! (= (u2int (int2u X_5)) X_5) :pattern ((int2u X_5)))))
+(assert
+  (forall ((S_8 u) (T_9 u))
+  (=> (forall ((X_5 u)) (= (tla__in X_5 S_8) (tla__in X_5 T_9))) (= S_8 T_9))))
+
+;; Theorem to be Proved
+(assert (not (forall ((a_v2a u)) (not (tla__in a_v2a (int2u 0))))))
+(assert
+  (forall ((a_CONSTANTunde_zunde_a Int) (a_v1a u))
+    (not (tla__in a_v1a (int2u a_CONSTANTunde_zunde_a)))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/nonempty_integer_test.tlaps/tlapm_a98438.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/nonempty_integer_test.tlaps/tlapm_a98438.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #7
+;;   generated from file "./nonempty_integer_test.tla", line 18, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+
+(assert
+  (forall ((X_5 Int)) (! (= (u2int (int2u X_5)) X_5) :pattern ((int2u X_5)))))
+(assert
+  (forall ((S_8 u) (T_9 u))
+  (=> (forall ((X_5 u)) (= (tla__in X_5 S_8) (tla__in X_5 T_9))) (= S_8 T_9))))
+
+;; Theorem to be Proved
+(assert (not (forall ((a_v2a u)) (not (tla__in a_v2a (int2u 1))))))
+(assert
+  (forall ((a_CONSTANTunde_zunde_a Int) (a_v1a u))
+    (not (tla__in a_v1a (int2u a_CONSTANTunde_zunde_a)))))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+(* created new ".tlacache/nonempty_integer_test.tlaps/nonempty_integer_test.thy" *)
+(* fingerprints written in ".tlacache/nonempty_integer_test.tlaps/fingerprints" *)

@@ -1,0 +1,59 @@
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:13:1:13:8
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:1
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:13:1:13:8
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 5
+@!!reason:false
+@!!already:true
+@!!obl:FALSE
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:13:1:13:8
+@!!status:failed
+@!!prover:zenon
+@!!meth:time-limit: 10
+@!!reason:false
+@!!already:true
+@!!obl:FALSE
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:13:1:13:8
+@!!status:failed
+@!!prover:isabelle
+@!!meth:auto; time-limit: 30
+@!!reason:Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real/tlapm-main/lib/tlaps/bin
+
+@!!already:true
+@!!obl:FALSE
+
+@!!END
+
+File "./nonexistent_test.tla", line 13, characters 1-7:
+[ERROR]: Could not prove or check:
+           FALSE
+File "./nonexistent_test.tla", line 1, character 1 to line 14, character 33:
+[ERROR]: 1/1 obligation failed.
+There were backend errors processing module `"nonexistent_test"`.

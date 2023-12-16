@@ -1,0 +1,1936 @@
+"m_visit.ml" 15 164 171 "m_visit.ml" 15 164 173
+ident(
+  def Dq "m_visit.ml" 15 164 181 "m_visit.ml" 0 0 -1
+)
+"m_visit.ml" 18 184 188 "m_visit.ml" 18 184 197
+type(
+  Expr.T.ctx -> M_t.modunit_ -> Expr.T.hyp Dq.dq
+)
+ident(
+  def update_cx "m_visit.ml" 23 293 293 "m_visit.ml" 0 0 -1
+)
+"m_visit.ml" 18 184 199 "m_visit.ml" 18 184 201
+type(
+  Expr.T.ctx
+)
+type(
+  Expr.T.ctx
+)
+ident(
+  def cx "m_visit.ml" 18 184 208 "m_visit.ml" 20 264 290
+)
+"m_visit.ml" 18 184 208 "m_visit.ml" 18 184 210
+type(
+  M_t.modunit_
+)
+ident(
+  def mu "m_visit.ml" 19 213 217 "m_visit.ml" 20 264 290
+)
+"m_visit.ml" 19 213 221 "m_visit.ml" 19 213 225
+type(
+  Expr.T.hyp_ Property.wrapped list
+)
+ident(
+  def hyps "m_visit.ml" 20 264 268 "m_visit.ml" 20 264 290
+)
+"m_visit.ml" 19 213 228 "m_visit.ml" 19 213 247
+type(
+  M_t.modunit -> Expr.T.hyp_ Property.wrapped list
+)
+ident(
+  int_ref M_t.hyps_of_modunit "m_t.mli" 67 1637 1637 "m_t.mli" 69 1673 1714
+)
+"m_visit.ml" 19 213 249 "m_visit.ml" 19 213 256
+type(
+  M_t.modunit_ -> M_t.modunit
+)
+ident(
+  int_ref Property.noprops "property.mli" 92 3086 3086 "property.mli" 92 3086 3116
+)
+"m_visit.ml" 19 213 257 "m_visit.ml" 19 213 259
+type(
+  M_t.modunit_
+)
+ident(
+  int_ref mu "m_visit.ml" 18 184 208 "m_visit.ml" 18 184 210
+)
+"m_visit.ml" 19 213 248 "m_visit.ml" 19 213 260
+type(
+  M_t.modunit
+)
+"m_visit.ml" 19 213 228 "m_visit.ml" 19 213 260
+type(
+  Expr.T.hyp_ Property.wrapped list
+)
+"m_visit.ml" 20 264 268 "m_visit.ml" 20 264 282
+type(
+  Expr.T.hyp Dq.dq -> Expr.T.hyp list -> Expr.T.hyp Dq.dq
+)
+ident(
+  int_ref Dq.append_list "deque.mli" 31 892 892 "deque.mli" 31 892 936
+)
+"m_visit.ml" 20 264 283 "m_visit.ml" 20 264 285
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 18 184 199 "m_visit.ml" 18 184 201
+)
+"m_visit.ml" 20 264 286 "m_visit.ml" 20 264 290
+type(
+  Expr.T.hyp list
+)
+ident(
+  int_ref hyps "m_visit.ml" 19 213 221 "m_visit.ml" 19 213 225
+)
+"m_visit.ml" 20 264 268 "m_visit.ml" 20 264 290
+type(
+  Expr.T.hyp Dq.dq
+)
+"m_visit.ml" 19 213 217 "m_visit.ml" 20 264 290
+type(
+  Expr.T.hyp Dq.dq
+)
+"m_visit.ml" 24 305 317 "m_visit.ml" 24 305 321
+type(
+  < anoninst : Expr.T.ctx ->
+               Expr.T.instance -> Expr.T.export -> Expr.T.ctx * M_t.modunit_;
+    axiom : Expr.T.ctx ->
+            Util.hint option -> Expr.T.expr -> Expr.T.ctx * M_t.modunit_;
+    constants : Expr.T.ctx ->
+                (Util.hint * Expr.T.shape) list -> Expr.T.ctx * M_t.modunit_;
+    definition : Expr.T.ctx ->
+                 Expr.T.defn ->
+                 Expr.T.wheredef ->
+                 Expr.T.visibility ->
+                 Expr.T.export -> Expr.T.ctx * M_t.modunit_;
+    module_unit : Expr.T.ctx ->
+                  M_t.modunit -> Expr.T.ctx * M_t.modunit_ Property.wrapped;
+    module_units : Expr.T.ctx ->
+                   M_t.modunit list ->
+                   Expr.T.ctx * M_t.modunit_ Property.wrapped list;
+    mutate : Expr.T.ctx ->
+             [ `Hide | `Use of bool ] ->
+             Proof.T.usable -> Expr.T.ctx * M_t.modunit_;
+    recursives : Expr.T.ctx ->
+                 (Util.hint * Expr.T.shape) list -> Expr.T.ctx * M_t.modunit_;
+    submod : Expr.T.ctx -> M_t.mule -> Expr.T.ctx * M_t.modunit_;
+    theorem : Expr.T.ctx ->
+              Util.hint option ->
+              Expr.T.sequent ->
+              int ->
+              Proof.T.proof ->
+              Proof.T.proof -> M_t.summary -> Expr.T.ctx * M_t.modunit_;
+    variables : Expr.T.ctx -> Util.hints -> Expr.T.ctx * M_t.modunit_; .. >
+)
+type(
+  < anoninst : Expr.T.ctx ->
+               Expr.T.instance -> Expr.T.export -> Expr.T.ctx * M_t.modunit_;
+    axiom : Expr.T.ctx ->
+            Util.hint option -> Expr.T.expr -> Expr.T.ctx * M_t.modunit_;
+    constants : Expr.T.ctx ->
+                (Util.hint * Expr.T.shape) list -> Expr.T.ctx * M_t.modunit_;
+    definition : Expr.T.ctx ->
+                 Expr.T.defn ->
+                 Expr.T.wheredef ->
+                 Expr.T.visibility ->
+                 Expr.T.export -> Expr.T.ctx * M_t.modunit_;
+    module_unit : Expr.T.ctx ->
+                  M_t.modunit -> Expr.T.ctx * M_t.modunit_ Property.wrapped;
+    module_units : Expr.T.ctx ->
+                   M_t.modunit list ->
+                   Expr.T.ctx * M_t.modunit_ Property.wrapped list;
+    mutate : Expr.T.ctx ->
+             [ `Hide | `Use of bool ] ->
+             Proof.T.usable -> Expr.T.ctx * M_t.modunit_;
+    recursives : Expr.T.ctx ->
+                 (Util.hint * Expr.T.shape) list -> Expr.T.ctx * M_t.modunit_;
+    submod : Expr.T.ctx -> M_t.mule -> Expr.T.ctx * M_t.modunit_;
+    theorem : Expr.T.ctx ->
+              Util.hint option ->
+              Expr.T.sequent ->
+              int ->
+              Proof.T.proof ->
+              Proof.T.proof -> M_t.summary -> Expr.T.ctx * M_t.modunit_;
+    variables : Expr.T.ctx -> Util.hints -> Expr.T.ctx * M_t.modunit_; .. >
+  as 'a
+)
+"m_visit.ml" 26 331 355 "m_visit.ml" 26 331 357
+type(
+  Expr.T.ctx
+)
+ident(
+  def cx "m_visit.ml" 26 331 358 "m_visit.ml" 39 825 849
+)
+"m_visit.ml" 26 331 358 "m_visit.ml" 26 331 368
+type(
+  M_t.modunit list
+)
+ident(
+  def tla_module "m_visit.ml" 31 495 503 "m_visit.ml" 39 825 849
+)
+"m_visit.ml" 31 495 507 "m_visit.ml" 31 495 517
+type(
+  'b list
+)
+ident(
+  def new_module "m_visit.ml" 32 526 534 "m_visit.ml" 39 825 849
+)
+"m_visit.ml" 31 495 520 "m_visit.ml" 31 495 522
+type(
+  'b list
+)
+"m_visit.ml" 32 526 538 "m_visit.ml" 32 526 542
+type(
+  Expr.T.ctx * 'c list
+)
+ident(
+  def init "m_visit.ml" 33 565 573 "m_visit.ml" 39 825 849
+)
+"m_visit.ml" 32 526 546 "m_visit.ml" 32 526 548
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 26 331 355 "m_visit.ml" 26 331 357
+)
+"m_visit.ml" 32 526 550 "m_visit.ml" 32 526 560
+type(
+  'c list
+)
+ident(
+  int_ref new_module "m_visit.ml" 31 495 507 "m_visit.ml" 31 495 517
+)
+"m_visit.ml" 32 526 545 "m_visit.ml" 32 526 561
+type(
+  Expr.T.ctx * 'c list
+)
+"m_visit.ml" 33 565 577 "m_visit.ml" 33 565 578
+type(
+  Expr.T.ctx * M_t.modunit_ Property.wrapped list ->
+  M_t.modunit -> Expr.T.ctx * M_t.modunit_ Property.wrapped list
+)
+ident(
+  def f "m_visit.ml" 37 746 754 "m_visit.ml" 39 825 849
+)
+"m_visit.ml" 33 565 580 "m_visit.ml" 33 565 582
+type(
+  Expr.T.ctx
+)
+ident(
+  def cx "m_visit.ml" 33 565 596 "m_visit.ml" 36 714 742
+)
+"m_visit.ml" 33 565 584 "m_visit.ml" 33 565 594
+type(
+  M_t.modunit_ Property.wrapped list
+)
+ident(
+  def new_module "m_visit.ml" 33 565 596 "m_visit.ml" 36 714 742
+)
+"m_visit.ml" 33 565 579 "m_visit.ml" 33 565 595
+type(
+  Expr.T.ctx * M_t.modunit_ Property.wrapped list
+)
+"m_visit.ml" 33 565 596 "m_visit.ml" 33 565 598
+type(
+  M_t.modunit
+)
+ident(
+  def mu "m_visit.ml" 34 601 613 "m_visit.ml" 36 714 742
+)
+"m_visit.ml" 34 601 618 "m_visit.ml" 34 601 620
+type(
+  Expr.T.ctx
+)
+ident(
+  def cx "m_visit.ml" 35 654 666 "m_visit.ml" 36 714 742
+)
+"m_visit.ml" 34 601 622 "m_visit.ml" 34 601 624
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  def mu "m_visit.ml" 35 654 666 "m_visit.ml" 36 714 742
+)
+"m_visit.ml" 34 601 617 "m_visit.ml" 34 601 625
+type(
+  Expr.T.ctx * M_t.modunit_ Property.wrapped
+)
+"m_visit.ml" 34 601 628 "m_visit.ml" 34 601 632
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"m_visit.ml" 34 601 628 "m_visit.ml" 34 601 644
+type(
+  Expr.T.ctx -> M_t.modunit -> Expr.T.ctx * M_t.modunit_ Property.wrapped
+)
+"m_visit.ml" 34 601 645 "m_visit.ml" 34 601 647
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 33 565 580 "m_visit.ml" 33 565 582
+)
+"m_visit.ml" 34 601 648 "m_visit.ml" 34 601 650
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_visit.ml" 33 565 596 "m_visit.ml" 33 565 598
+)
+"m_visit.ml" 34 601 628 "m_visit.ml" 34 601 650
+type(
+  Expr.T.ctx * M_t.modunit_ Property.wrapped
+)
+"m_visit.ml" 35 654 670 "m_visit.ml" 35 654 680
+type(
+  M_t.modunit_ Property.wrapped list
+)
+ident(
+  def new_module "m_visit.ml" 36 714 726 "m_visit.ml" 36 714 742
+)
+"m_visit.ml" 35 654 683 "m_visit.ml" 35 654 694
+type(
+  M_t.modunit_ Property.wrapped list ->
+  M_t.modunit_ Property.wrapped list -> M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref Stdlib.List.append "list.mli" 99 3750 3750 "list.mli" 99 3750 3792
+)
+"m_visit.ml" 35 654 695 "m_visit.ml" 35 654 705
+type(
+  M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref new_module "m_visit.ml" 33 565 584 "m_visit.ml" 33 565 594
+)
+"m_visit.ml" 35 654 707 "m_visit.ml" 35 654 709
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref mu "m_visit.ml" 34 601 622 "m_visit.ml" 34 601 624
+)
+"m_visit.ml" 35 654 706 "m_visit.ml" 35 654 710
+type(
+  M_t.modunit_ Property.wrapped list
+)
+"m_visit.ml" 35 654 683 "m_visit.ml" 35 654 710
+type(
+  M_t.modunit_ Property.wrapped list
+)
+"m_visit.ml" 36 714 727 "m_visit.ml" 36 714 729
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 34 601 618 "m_visit.ml" 34 601 620
+)
+"m_visit.ml" 36 714 731 "m_visit.ml" 36 714 741
+type(
+  M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref new_module "m_visit.ml" 35 654 670 "m_visit.ml" 35 654 680
+)
+"m_visit.ml" 36 714 726 "m_visit.ml" 36 714 742
+type(
+  Expr.T.ctx * M_t.modunit_ Property.wrapped list
+)
+"m_visit.ml" 35 654 666 "m_visit.ml" 36 714 742
+type(
+  Expr.T.ctx * M_t.modunit_ Property.wrapped list
+)
+"m_visit.ml" 34 601 613 "m_visit.ml" 36 714 742
+type(
+  Expr.T.ctx * M_t.modunit_ Property.wrapped list
+)
+"m_visit.ml" 37 746 759 "m_visit.ml" 37 746 761
+type(
+  Expr.T.ctx
+)
+ident(
+  def cx "m_visit.ml" 39 825 833 "m_visit.ml" 39 825 849
+)
+"m_visit.ml" 37 746 763 "m_visit.ml" 37 746 773
+type(
+  M_t.modunit_ Property.wrapped list
+)
+ident(
+  def new_module "m_visit.ml" 39 825 833 "m_visit.ml" 39 825 849
+)
+"m_visit.ml" 37 746 758 "m_visit.ml" 37 746 774
+type(
+  Expr.T.ctx * M_t.modunit_ Property.wrapped list
+)
+"m_visit.ml" 37 746 777 "m_visit.ml" 37 746 791
+type(
+  (Expr.T.ctx * M_t.modunit_ Property.wrapped list ->
+   M_t.modunit -> Expr.T.ctx * M_t.modunit_ Property.wrapped list) ->
+  Expr.T.ctx * M_t.modunit_ Property.wrapped list ->
+  M_t.modunit list -> Expr.T.ctx * M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 211 7387 7387 "list.mli" 211 7387 7442
+)
+"m_visit.ml" 38 792 804 "m_visit.ml" 38 792 805
+type(
+  Expr.T.ctx * M_t.modunit_ Property.wrapped list ->
+  M_t.modunit -> Expr.T.ctx * M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref f "m_visit.ml" 33 565 577 "m_visit.ml" 33 565 578
+)
+"m_visit.ml" 38 792 806 "m_visit.ml" 38 792 810
+type(
+  Expr.T.ctx * M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref init "m_visit.ml" 32 526 538 "m_visit.ml" 32 526 542
+)
+"m_visit.ml" 38 792 811 "m_visit.ml" 38 792 821
+type(
+  M_t.modunit list
+)
+ident(
+  int_ref tla_module "m_visit.ml" 26 331 358 "m_visit.ml" 26 331 368
+)
+"m_visit.ml" 37 746 777 "m_visit.ml" 38 792 821
+type(
+  Expr.T.ctx * M_t.modunit_ Property.wrapped list
+)
+"m_visit.ml" 39 825 834 "m_visit.ml" 39 825 836
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 37 746 759 "m_visit.ml" 37 746 761
+)
+"m_visit.ml" 39 825 838 "m_visit.ml" 39 825 848
+type(
+  M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref new_module "m_visit.ml" 37 746 763 "m_visit.ml" 37 746 773
+)
+"m_visit.ml" 39 825 833 "m_visit.ml" 39 825 849
+type(
+  Expr.T.ctx * M_t.modunit_ Property.wrapped list
+)
+"m_visit.ml" 37 746 754 "m_visit.ml" 39 825 849
+type(
+  Expr.T.ctx * M_t.modunit_ Property.wrapped list
+)
+"m_visit.ml" 33 565 573 "m_visit.ml" 39 825 849
+type(
+  Expr.T.ctx * M_t.modunit_ Property.wrapped list
+)
+"m_visit.ml" 32 526 534 "m_visit.ml" 39 825 849
+type(
+  Expr.T.ctx * M_t.modunit_ Property.wrapped list
+)
+"m_visit.ml" 31 495 503 "m_visit.ml" 39 825 849
+type(
+  Expr.T.ctx * M_t.modunit_ Property.wrapped list
+)
+"m_visit.ml" 41 851 875 "m_visit.ml" 41 851 877
+type(
+  Expr.T.ctx
+)
+type(
+  Expr.T.ctx
+)
+ident(
+  def cx "m_visit.ml" 41 851 884 "m_visit.ml" 59 1694 1718
+)
+"m_visit.ml" 41 851 885 "m_visit.ml" 41 851 887
+type(
+  M_t.modunit
+)
+type(
+  M_t.modunit
+)
+ident(
+  def mu "m_visit.ml" 42 904 912 "m_visit.ml" 59 1694 1718
+)
+"m_visit.ml" 42 904 917 "m_visit.ml" 42 904 919
+type(
+  Expr.T.ctx
+)
+ident(
+  def cx "m_visit.ml" 59 1694 1702 "m_visit.ml" 59 1694 1718
+)
+"m_visit.ml" 42 904 921 "m_visit.ml" 42 904 925
+type(
+  M_t.modunit_
+)
+ident(
+  def core "m_visit.ml" 59 1694 1702 "m_visit.ml" 59 1694 1718
+)
+"m_visit.ml" 42 904 916 "m_visit.ml" 42 904 926
+type(
+  Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 42 904 935 "m_visit.ml" 42 904 937
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_visit.ml" 41 851 885 "m_visit.ml" 41 851 887
+)
+"m_visit.ml" 42 904 935 "m_visit.ml" 42 904 942
+type(
+  M_t.modunit_
+)
+"m_visit.ml" 44 975 995 "m_visit.ml" 44 975 1000
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  def decls "m_visit.ml" 44 975 1004 "m_visit.ml" 44 975 1027
+)
+"m_visit.ml" 44 975 985 "m_visit.ml" 44 975 1000
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_visit.ml" 44 975 1004 "m_visit.ml" 44 975 1008
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"m_visit.ml" 44 975 1004 "m_visit.ml" 44 975 1018
+type(
+  Expr.T.ctx -> (Util.hint * Expr.T.shape) list -> Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 44 975 1019 "m_visit.ml" 44 975 1021
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 41 851 875 "m_visit.ml" 41 851 877
+)
+"m_visit.ml" 44 975 1022 "m_visit.ml" 44 975 1027
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  int_ref decls "m_visit.ml" 44 975 995 "m_visit.ml" 44 975 1000
+)
+"m_visit.ml" 44 975 1004 "m_visit.ml" 44 975 1027
+type(
+  Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 45 1028 1048 "m_visit.ml" 45 1028 1053
+type(
+  Util.hints
+)
+ident(
+  def names "m_visit.ml" 45 1028 1057 "m_visit.ml" 45 1028 1080
+)
+"m_visit.ml" 45 1028 1038 "m_visit.ml" 45 1028 1053
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_visit.ml" 45 1028 1057 "m_visit.ml" 45 1028 1061
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"m_visit.ml" 45 1028 1057 "m_visit.ml" 45 1028 1071
+type(
+  Expr.T.ctx -> Util.hints -> Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 45 1028 1072 "m_visit.ml" 45 1028 1074
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 41 851 875 "m_visit.ml" 41 851 877
+)
+"m_visit.ml" 45 1028 1075 "m_visit.ml" 45 1028 1080
+type(
+  Util.hints
+)
+ident(
+  int_ref names "m_visit.ml" 45 1028 1048 "m_visit.ml" 45 1028 1053
+)
+"m_visit.ml" 45 1028 1057 "m_visit.ml" 45 1028 1080
+type(
+  Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 46 1081 1102 "m_visit.ml" 46 1081 1107
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  def decls "m_visit.ml" 46 1081 1111 "m_visit.ml" 46 1081 1135
+)
+"m_visit.ml" 46 1081 1091 "m_visit.ml" 46 1081 1107
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_visit.ml" 46 1081 1111 "m_visit.ml" 46 1081 1115
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"m_visit.ml" 46 1081 1111 "m_visit.ml" 46 1081 1126
+type(
+  Expr.T.ctx -> (Util.hint * Expr.T.shape) list -> Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 46 1081 1127 "m_visit.ml" 46 1081 1129
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 41 851 875 "m_visit.ml" 41 851 877
+)
+"m_visit.ml" 46 1081 1130 "m_visit.ml" 46 1081 1135
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  int_ref decls "m_visit.ml" 46 1081 1102 "m_visit.ml" 46 1081 1107
+)
+"m_visit.ml" 46 1081 1111 "m_visit.ml" 46 1081 1135
+type(
+  Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 48 1162 1184 "m_visit.ml" 48 1162 1186
+type(
+  Expr.T.defn
+)
+ident(
+  def df "m_visit.ml" 49 1208 1220 "m_visit.ml" 49 1208 1255
+)
+"m_visit.ml" 48 1162 1188 "m_visit.ml" 48 1162 1190
+type(
+  Expr.T.wheredef
+)
+ident(
+  def wd "m_visit.ml" 49 1208 1220 "m_visit.ml" 49 1208 1255
+)
+"m_visit.ml" 48 1162 1192 "m_visit.ml" 48 1162 1196
+type(
+  Expr.T.visibility
+)
+ident(
+  def vsbl "m_visit.ml" 49 1208 1220 "m_visit.ml" 49 1208 1255
+)
+"m_visit.ml" 48 1162 1198 "m_visit.ml" 48 1162 1203
+type(
+  Expr.T.export
+)
+ident(
+  def local "m_visit.ml" 49 1208 1220 "m_visit.ml" 49 1208 1255
+)
+"m_visit.ml" 48 1162 1172 "m_visit.ml" 48 1162 1204
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_visit.ml" 49 1208 1220 "m_visit.ml" 49 1208 1224
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"m_visit.ml" 49 1208 1220 "m_visit.ml" 49 1208 1235
+type(
+  Expr.T.ctx ->
+  Expr.T.defn ->
+  Expr.T.wheredef ->
+  Expr.T.visibility -> Expr.T.export -> Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 49 1208 1236 "m_visit.ml" 49 1208 1238
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 41 851 875 "m_visit.ml" 41 851 877
+)
+"m_visit.ml" 49 1208 1239 "m_visit.ml" 49 1208 1241
+type(
+  Expr.T.defn
+)
+ident(
+  int_ref df "m_visit.ml" 48 1162 1184 "m_visit.ml" 48 1162 1186
+)
+"m_visit.ml" 49 1208 1242 "m_visit.ml" 49 1208 1244
+type(
+  Expr.T.wheredef
+)
+ident(
+  int_ref wd "m_visit.ml" 48 1162 1188 "m_visit.ml" 48 1162 1190
+)
+"m_visit.ml" 49 1208 1245 "m_visit.ml" 49 1208 1249
+type(
+  Expr.T.visibility
+)
+ident(
+  int_ref vsbl "m_visit.ml" 48 1162 1192 "m_visit.ml" 48 1162 1196
+)
+"m_visit.ml" 49 1208 1250 "m_visit.ml" 49 1208 1255
+type(
+  Expr.T.export
+)
+ident(
+  int_ref local "m_visit.ml" 48 1162 1198 "m_visit.ml" 48 1162 1203
+)
+"m_visit.ml" 49 1208 1220 "m_visit.ml" 49 1208 1255
+type(
+  Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 51 1290 1307 "m_visit.ml" 51 1290 1311
+type(
+  Util.hint option
+)
+ident(
+  def name "m_visit.ml" 51 1290 1322 "m_visit.ml" 51 1290 1345
+)
+"m_visit.ml" 51 1290 1313 "m_visit.ml" 51 1290 1317
+type(
+  Expr.T.expr
+)
+ident(
+  def expr "m_visit.ml" 51 1290 1322 "m_visit.ml" 51 1290 1345
+)
+"m_visit.ml" 51 1290 1300 "m_visit.ml" 51 1290 1318
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_visit.ml" 51 1290 1322 "m_visit.ml" 51 1290 1326
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"m_visit.ml" 51 1290 1322 "m_visit.ml" 51 1290 1332
+type(
+  Expr.T.ctx -> Util.hint option -> Expr.T.expr -> Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 51 1290 1333 "m_visit.ml" 51 1290 1335
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 41 851 875 "m_visit.ml" 41 851 877
+)
+"m_visit.ml" 51 1290 1336 "m_visit.ml" 51 1290 1340
+type(
+  Util.hint option
+)
+ident(
+  int_ref name "m_visit.ml" 51 1290 1307 "m_visit.ml" 51 1290 1311
+)
+"m_visit.ml" 51 1290 1341 "m_visit.ml" 51 1290 1345
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref expr "m_visit.ml" 51 1290 1313 "m_visit.ml" 51 1290 1317
+)
+"m_visit.ml" 51 1290 1322 "m_visit.ml" 51 1290 1345
+type(
+  Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 52 1346 1365 "m_visit.ml" 52 1346 1369
+type(
+  Util.hint option
+)
+ident(
+  def name "m_visit.ml" 53 1403 1415 "m_visit.ml" 53 1403 1459
+)
+"m_visit.ml" 52 1346 1371 "m_visit.ml" 52 1346 1373
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "m_visit.ml" 53 1403 1415 "m_visit.ml" 53 1403 1459
+)
+"m_visit.ml" 52 1346 1375 "m_visit.ml" 52 1346 1379
+type(
+  int
+)
+ident(
+  def naxs "m_visit.ml" 53 1403 1415 "m_visit.ml" 53 1403 1459
+)
+"m_visit.ml" 52 1346 1381 "m_visit.ml" 52 1346 1383
+type(
+  Proof.T.proof
+)
+ident(
+  def pf "m_visit.ml" 53 1403 1415 "m_visit.ml" 53 1403 1459
+)
+"m_visit.ml" 52 1346 1385 "m_visit.ml" 52 1346 1392
+type(
+  Proof.T.proof
+)
+ident(
+  def orig_pf "m_visit.ml" 53 1403 1415 "m_visit.ml" 53 1403 1459
+)
+"m_visit.ml" 52 1346 1394 "m_visit.ml" 52 1346 1398
+type(
+  M_t.summary
+)
+ident(
+  def summ "m_visit.ml" 53 1403 1415 "m_visit.ml" 53 1403 1459
+)
+"m_visit.ml" 52 1346 1356 "m_visit.ml" 52 1346 1399
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_visit.ml" 53 1403 1415 "m_visit.ml" 53 1403 1419
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"m_visit.ml" 53 1403 1415 "m_visit.ml" 53 1403 1427
+type(
+  Expr.T.ctx ->
+  Util.hint option ->
+  Expr.T.sequent ->
+  int ->
+  Proof.T.proof -> Proof.T.proof -> M_t.summary -> Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 53 1403 1428 "m_visit.ml" 53 1403 1430
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 41 851 875 "m_visit.ml" 41 851 877
+)
+"m_visit.ml" 53 1403 1431 "m_visit.ml" 53 1403 1435
+type(
+  Util.hint option
+)
+ident(
+  int_ref name "m_visit.ml" 52 1346 1365 "m_visit.ml" 52 1346 1369
+)
+"m_visit.ml" 53 1403 1436 "m_visit.ml" 53 1403 1438
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "m_visit.ml" 52 1346 1371 "m_visit.ml" 52 1346 1373
+)
+"m_visit.ml" 53 1403 1439 "m_visit.ml" 53 1403 1443
+type(
+  int
+)
+ident(
+  int_ref naxs "m_visit.ml" 52 1346 1375 "m_visit.ml" 52 1346 1379
+)
+"m_visit.ml" 53 1403 1444 "m_visit.ml" 53 1403 1446
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref pf "m_visit.ml" 52 1346 1381 "m_visit.ml" 52 1346 1383
+)
+"m_visit.ml" 53 1403 1447 "m_visit.ml" 53 1403 1454
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref orig_pf "m_visit.ml" 52 1346 1385 "m_visit.ml" 52 1346 1392
+)
+"m_visit.ml" 53 1403 1455 "m_visit.ml" 53 1403 1459
+type(
+  M_t.summary
+)
+ident(
+  int_ref summ "m_visit.ml" 52 1346 1394 "m_visit.ml" 52 1346 1398
+)
+"m_visit.ml" 53 1403 1415 "m_visit.ml" 53 1403 1459
+type(
+  Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 54 1460 1478 "m_visit.ml" 54 1460 1484
+type(
+  [ `Hide | `Use of bool ]
+)
+ident(
+  def change "m_visit.ml" 54 1460 1497 "m_visit.ml" 54 1460 1525
+)
+"m_visit.ml" 54 1460 1486 "m_visit.ml" 54 1460 1492
+type(
+  Proof.T.usable
+)
+ident(
+  def usable "m_visit.ml" 54 1460 1497 "m_visit.ml" 54 1460 1525
+)
+"m_visit.ml" 54 1460 1470 "m_visit.ml" 54 1460 1493
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_visit.ml" 54 1460 1497 "m_visit.ml" 54 1460 1501
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"m_visit.ml" 54 1460 1497 "m_visit.ml" 54 1460 1508
+type(
+  Expr.T.ctx ->
+  [ `Hide | `Use of bool ] -> Proof.T.usable -> Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 54 1460 1509 "m_visit.ml" 54 1460 1511
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 41 851 875 "m_visit.ml" 41 851 877
+)
+"m_visit.ml" 54 1460 1512 "m_visit.ml" 54 1460 1518
+type(
+  [ `Hide | `Use of bool ]
+)
+ident(
+  int_ref change "m_visit.ml" 54 1460 1478 "m_visit.ml" 54 1460 1484
+)
+"m_visit.ml" 54 1460 1519 "m_visit.ml" 54 1460 1525
+type(
+  Proof.T.usable
+)
+ident(
+  int_ref usable "m_visit.ml" 54 1460 1486 "m_visit.ml" 54 1460 1492
+)
+"m_visit.ml" 54 1460 1497 "m_visit.ml" 54 1460 1525
+type(
+  Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 56 1562 1579 "m_visit.ml" 56 1562 1589
+type(
+  M_t.mule
+)
+ident(
+  def tla_module "m_visit.ml" 56 1562 1593 "m_visit.ml" 56 1562 1618
+)
+"m_visit.ml" 56 1562 1572 "m_visit.ml" 56 1562 1589
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_visit.ml" 56 1562 1593 "m_visit.ml" 56 1562 1597
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"m_visit.ml" 56 1562 1593 "m_visit.ml" 56 1562 1604
+type(
+  Expr.T.ctx -> M_t.mule -> Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 56 1562 1605 "m_visit.ml" 56 1562 1607
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 41 851 875 "m_visit.ml" 41 851 877
+)
+"m_visit.ml" 56 1562 1608 "m_visit.ml" 56 1562 1618
+type(
+  M_t.mule
+)
+ident(
+  int_ref tla_module "m_visit.ml" 56 1562 1579 "m_visit.ml" 56 1562 1589
+)
+"m_visit.ml" 56 1562 1593 "m_visit.ml" 56 1562 1618
+type(
+  Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 57 1619 1639 "m_visit.ml" 57 1619 1643
+type(
+  Expr.T.instance
+)
+ident(
+  def inst "m_visit.ml" 57 1619 1655 "m_visit.ml" 57 1619 1682
+)
+"m_visit.ml" 57 1619 1645 "m_visit.ml" 57 1619 1650
+type(
+  Expr.T.export
+)
+ident(
+  def local "m_visit.ml" 57 1619 1655 "m_visit.ml" 57 1619 1682
+)
+"m_visit.ml" 57 1619 1629 "m_visit.ml" 57 1619 1651
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_visit.ml" 57 1619 1655 "m_visit.ml" 57 1619 1659
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"m_visit.ml" 57 1619 1655 "m_visit.ml" 57 1619 1668
+type(
+  Expr.T.ctx -> Expr.T.instance -> Expr.T.export -> Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 57 1619 1669 "m_visit.ml" 57 1619 1671
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 41 851 875 "m_visit.ml" 41 851 877
+)
+"m_visit.ml" 57 1619 1672 "m_visit.ml" 57 1619 1676
+type(
+  Expr.T.instance
+)
+ident(
+  int_ref inst "m_visit.ml" 57 1619 1639 "m_visit.ml" 57 1619 1643
+)
+"m_visit.ml" 57 1619 1677 "m_visit.ml" 57 1619 1682
+type(
+  Expr.T.export
+)
+ident(
+  int_ref local "m_visit.ml" 57 1619 1645 "m_visit.ml" 57 1619 1650
+)
+"m_visit.ml" 57 1619 1655 "m_visit.ml" 57 1619 1682
+type(
+  Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 42 904 929 "m_visit.ml" 57 1619 1682
+type(
+  Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 59 1694 1703 "m_visit.ml" 59 1694 1705
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 42 904 917 "m_visit.ml" 42 904 919
+)
+"m_visit.ml" 59 1694 1707 "m_visit.ml" 59 1694 1711
+type(
+  M_t.modunit_
+)
+ident(
+  int_ref core "m_visit.ml" 42 904 921 "m_visit.ml" 42 904 925
+)
+"m_visit.ml" 59 1694 1712 "m_visit.ml" 59 1694 1714
+type(
+  M_t.modunit_ -> M_t.modunit -> M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_visit.ml" 59 1694 1715 "m_visit.ml" 59 1694 1717
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_visit.ml" 41 851 885 "m_visit.ml" 41 851 887
+)
+"m_visit.ml" 59 1694 1707 "m_visit.ml" 59 1694 1717
+type(
+  M_t.modunit_ Property.wrapped
+)
+"m_visit.ml" 59 1694 1702 "m_visit.ml" 59 1694 1718
+type(
+  Expr.T.ctx * M_t.modunit_ Property.wrapped
+)
+"m_visit.ml" 42 904 912 "m_visit.ml" 59 1694 1718
+type(
+  Expr.T.ctx * M_t.modunit_ Property.wrapped
+)
+"m_visit.ml" 61 1720 1741 "m_visit.ml" 61 1720 1743
+type(
+  Expr.T.ctx
+)
+ident(
+  def cx "m_visit.ml" 61 1720 1744 "m_visit.ml" 64 1824 1840
+)
+"m_visit.ml" 61 1720 1744 "m_visit.ml" 61 1720 1749
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  def decls "m_visit.ml" 62 1752 1760 "m_visit.ml" 64 1824 1840
+)
+"m_visit.ml" 62 1752 1764 "m_visit.ml" 62 1752 1766
+type(
+  M_t.modunit_
+)
+ident(
+  def mu "m_visit.ml" 63 1788 1796 "m_visit.ml" 64 1824 1840
+)
+"m_visit.ml" 62 1752 1779 "m_visit.ml" 62 1752 1784
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  int_ref decls "m_visit.ml" 61 1720 1744 "m_visit.ml" 61 1720 1749
+)
+"m_visit.ml" 62 1752 1769 "m_visit.ml" 62 1752 1784
+type(
+  M_t.modunit_
+)
+"m_visit.ml" 63 1788 1800 "m_visit.ml" 63 1788 1802
+type(
+  Expr.T.hyp Dq.dq
+)
+ident(
+  def cx "m_visit.ml" 64 1824 1832 "m_visit.ml" 64 1824 1840
+)
+"m_visit.ml" 63 1788 1805 "m_visit.ml" 63 1788 1814
+type(
+  Expr.T.ctx -> M_t.modunit_ -> Expr.T.hyp Dq.dq
+)
+ident(
+  int_ref update_cx "m_visit.ml" 18 184 188 "m_visit.ml" 18 184 197
+)
+"m_visit.ml" 63 1788 1815 "m_visit.ml" 63 1788 1817
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 61 1720 1741 "m_visit.ml" 61 1720 1743
+)
+"m_visit.ml" 63 1788 1818 "m_visit.ml" 63 1788 1820
+type(
+  M_t.modunit_
+)
+ident(
+  int_ref mu "m_visit.ml" 62 1752 1764 "m_visit.ml" 62 1752 1766
+)
+"m_visit.ml" 63 1788 1805 "m_visit.ml" 63 1788 1820
+type(
+  Expr.T.hyp Dq.dq
+)
+"m_visit.ml" 64 1824 1833 "m_visit.ml" 64 1824 1835
+type(
+  Expr.T.hyp Dq.dq
+)
+ident(
+  int_ref cx "m_visit.ml" 63 1788 1800 "m_visit.ml" 63 1788 1802
+)
+"m_visit.ml" 64 1824 1837 "m_visit.ml" 64 1824 1839
+type(
+  M_t.modunit_
+)
+ident(
+  int_ref mu "m_visit.ml" 62 1752 1764 "m_visit.ml" 62 1752 1766
+)
+"m_visit.ml" 64 1824 1832 "m_visit.ml" 64 1824 1840
+type(
+  Expr.T.hyp Dq.dq * M_t.modunit_
+)
+"m_visit.ml" 63 1788 1796 "m_visit.ml" 64 1824 1840
+type(
+  Expr.T.hyp Dq.dq * M_t.modunit_
+)
+"m_visit.ml" 62 1752 1760 "m_visit.ml" 64 1824 1840
+type(
+  Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 66 1842 1863 "m_visit.ml" 66 1842 1865
+type(
+  Expr.T.ctx
+)
+ident(
+  def cx "m_visit.ml" 66 1842 1866 "m_visit.ml" 69 1946 1962
+)
+"m_visit.ml" 66 1842 1866 "m_visit.ml" 66 1842 1871
+type(
+  Util.hints
+)
+ident(
+  def names "m_visit.ml" 67 1874 1882 "m_visit.ml" 69 1946 1962
+)
+"m_visit.ml" 67 1874 1886 "m_visit.ml" 67 1874 1888
+type(
+  M_t.modunit_
+)
+ident(
+  def mu "m_visit.ml" 68 1910 1918 "m_visit.ml" 69 1946 1962
+)
+"m_visit.ml" 67 1874 1901 "m_visit.ml" 67 1874 1906
+type(
+  Util.hints
+)
+ident(
+  int_ref names "m_visit.ml" 66 1842 1866 "m_visit.ml" 66 1842 1871
+)
+"m_visit.ml" 67 1874 1891 "m_visit.ml" 67 1874 1906
+type(
+  M_t.modunit_
+)
+"m_visit.ml" 68 1910 1922 "m_visit.ml" 68 1910 1924
+type(
+  Expr.T.hyp Dq.dq
+)
+ident(
+  def cx "m_visit.ml" 69 1946 1954 "m_visit.ml" 69 1946 1962
+)
+"m_visit.ml" 68 1910 1927 "m_visit.ml" 68 1910 1936
+type(
+  Expr.T.ctx -> M_t.modunit_ -> Expr.T.hyp Dq.dq
+)
+ident(
+  int_ref update_cx "m_visit.ml" 18 184 188 "m_visit.ml" 18 184 197
+)
+"m_visit.ml" 68 1910 1937 "m_visit.ml" 68 1910 1939
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 66 1842 1863 "m_visit.ml" 66 1842 1865
+)
+"m_visit.ml" 68 1910 1940 "m_visit.ml" 68 1910 1942
+type(
+  M_t.modunit_
+)
+ident(
+  int_ref mu "m_visit.ml" 67 1874 1886 "m_visit.ml" 67 1874 1888
+)
+"m_visit.ml" 68 1910 1927 "m_visit.ml" 68 1910 1942
+type(
+  Expr.T.hyp Dq.dq
+)
+"m_visit.ml" 69 1946 1955 "m_visit.ml" 69 1946 1957
+type(
+  Expr.T.hyp Dq.dq
+)
+ident(
+  int_ref cx "m_visit.ml" 68 1910 1922 "m_visit.ml" 68 1910 1924
+)
+"m_visit.ml" 69 1946 1959 "m_visit.ml" 69 1946 1961
+type(
+  M_t.modunit_
+)
+ident(
+  int_ref mu "m_visit.ml" 67 1874 1886 "m_visit.ml" 67 1874 1888
+)
+"m_visit.ml" 69 1946 1954 "m_visit.ml" 69 1946 1962
+type(
+  Expr.T.hyp Dq.dq * M_t.modunit_
+)
+"m_visit.ml" 68 1910 1918 "m_visit.ml" 69 1946 1962
+type(
+  Expr.T.hyp Dq.dq * M_t.modunit_
+)
+"m_visit.ml" 67 1874 1882 "m_visit.ml" 69 1946 1962
+type(
+  Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 71 1964 1986 "m_visit.ml" 71 1964 1988
+type(
+  Expr.T.ctx
+)
+ident(
+  def cx "m_visit.ml" 71 1964 1989 "m_visit.ml" 74 2070 2086
+)
+"m_visit.ml" 71 1964 1989 "m_visit.ml" 71 1964 1994
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  def decls "m_visit.ml" 72 1997 2005 "m_visit.ml" 74 2070 2086
+)
+"m_visit.ml" 72 1997 2009 "m_visit.ml" 72 1997 2011
+type(
+  M_t.modunit_
+)
+ident(
+  def mu "m_visit.ml" 73 2034 2042 "m_visit.ml" 74 2070 2086
+)
+"m_visit.ml" 72 1997 2025 "m_visit.ml" 72 1997 2030
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  int_ref decls "m_visit.ml" 71 1964 1989 "m_visit.ml" 71 1964 1994
+)
+"m_visit.ml" 72 1997 2014 "m_visit.ml" 72 1997 2030
+type(
+  M_t.modunit_
+)
+"m_visit.ml" 73 2034 2046 "m_visit.ml" 73 2034 2048
+type(
+  Expr.T.hyp Dq.dq
+)
+ident(
+  def cx "m_visit.ml" 74 2070 2078 "m_visit.ml" 74 2070 2086
+)
+"m_visit.ml" 73 2034 2051 "m_visit.ml" 73 2034 2060
+type(
+  Expr.T.ctx -> M_t.modunit_ -> Expr.T.hyp Dq.dq
+)
+ident(
+  int_ref update_cx "m_visit.ml" 18 184 188 "m_visit.ml" 18 184 197
+)
+"m_visit.ml" 73 2034 2061 "m_visit.ml" 73 2034 2063
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 71 1964 1986 "m_visit.ml" 71 1964 1988
+)
+"m_visit.ml" 73 2034 2064 "m_visit.ml" 73 2034 2066
+type(
+  M_t.modunit_
+)
+ident(
+  int_ref mu "m_visit.ml" 72 1997 2009 "m_visit.ml" 72 1997 2011
+)
+"m_visit.ml" 73 2034 2051 "m_visit.ml" 73 2034 2066
+type(
+  Expr.T.hyp Dq.dq
+)
+"m_visit.ml" 74 2070 2079 "m_visit.ml" 74 2070 2081
+type(
+  Expr.T.hyp Dq.dq
+)
+ident(
+  int_ref cx "m_visit.ml" 73 2034 2046 "m_visit.ml" 73 2034 2048
+)
+"m_visit.ml" 74 2070 2083 "m_visit.ml" 74 2070 2085
+type(
+  M_t.modunit_
+)
+ident(
+  int_ref mu "m_visit.ml" 72 1997 2009 "m_visit.ml" 72 1997 2011
+)
+"m_visit.ml" 74 2070 2078 "m_visit.ml" 74 2070 2086
+type(
+  Expr.T.hyp Dq.dq * M_t.modunit_
+)
+"m_visit.ml" 73 2034 2042 "m_visit.ml" 74 2070 2086
+type(
+  Expr.T.hyp Dq.dq * M_t.modunit_
+)
+"m_visit.ml" 72 1997 2005 "m_visit.ml" 74 2070 2086
+type(
+  Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 76 2088 2110 "m_visit.ml" 76 2088 2112
+type(
+  Expr.T.ctx
+)
+ident(
+  def cx "m_visit.ml" 76 2088 2113 "m_visit.ml" 81 2303 2319
+)
+"m_visit.ml" 76 2088 2113 "m_visit.ml" 76 2088 2115
+type(
+  Expr.T.defn
+)
+ident(
+  def df "m_visit.ml" 76 2088 2116 "m_visit.ml" 81 2303 2319
+)
+"m_visit.ml" 76 2088 2116 "m_visit.ml" 76 2088 2118
+type(
+  Expr.T.wheredef
+)
+ident(
+  def wd "m_visit.ml" 76 2088 2119 "m_visit.ml" 81 2303 2319
+)
+"m_visit.ml" 76 2088 2119 "m_visit.ml" 76 2088 2123
+type(
+  Expr.T.visibility
+)
+ident(
+  def vsbl "m_visit.ml" 76 2088 2124 "m_visit.ml" 81 2303 2319
+)
+"m_visit.ml" 76 2088 2124 "m_visit.ml" 76 2088 2129
+type(
+  Expr.T.export
+)
+ident(
+  def local "m_visit.ml" 79 2214 2222 "m_visit.ml" 81 2303 2319
+)
+"m_visit.ml" 79 2214 2226 "m_visit.ml" 79 2214 2228
+type(
+  M_t.modunit_
+)
+ident(
+  def mu "m_visit.ml" 80 2267 2275 "m_visit.ml" 81 2303 2319
+)
+"m_visit.ml" 79 2214 2243 "m_visit.ml" 79 2214 2245
+type(
+  Expr.T.defn
+)
+ident(
+  int_ref df "m_visit.ml" 76 2088 2113 "m_visit.ml" 76 2088 2115
+)
+"m_visit.ml" 79 2214 2247 "m_visit.ml" 79 2214 2249
+type(
+  Expr.T.wheredef
+)
+ident(
+  int_ref wd "m_visit.ml" 76 2088 2116 "m_visit.ml" 76 2088 2118
+)
+"m_visit.ml" 79 2214 2251 "m_visit.ml" 79 2214 2255
+type(
+  Expr.T.visibility
+)
+ident(
+  int_ref vsbl "m_visit.ml" 76 2088 2119 "m_visit.ml" 76 2088 2123
+)
+"m_visit.ml" 79 2214 2257 "m_visit.ml" 79 2214 2262
+type(
+  Expr.T.export
+)
+ident(
+  int_ref local "m_visit.ml" 76 2088 2124 "m_visit.ml" 76 2088 2129
+)
+"m_visit.ml" 79 2214 2231 "m_visit.ml" 79 2214 2263
+type(
+  M_t.modunit_
+)
+"m_visit.ml" 80 2267 2279 "m_visit.ml" 80 2267 2281
+type(
+  Expr.T.hyp Dq.dq
+)
+ident(
+  def cx "m_visit.ml" 81 2303 2311 "m_visit.ml" 81 2303 2319
+)
+"m_visit.ml" 80 2267 2284 "m_visit.ml" 80 2267 2293
+type(
+  Expr.T.ctx -> M_t.modunit_ -> Expr.T.hyp Dq.dq
+)
+ident(
+  int_ref update_cx "m_visit.ml" 18 184 188 "m_visit.ml" 18 184 197
+)
+"m_visit.ml" 80 2267 2294 "m_visit.ml" 80 2267 2296
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 76 2088 2110 "m_visit.ml" 76 2088 2112
+)
+"m_visit.ml" 80 2267 2297 "m_visit.ml" 80 2267 2299
+type(
+  M_t.modunit_
+)
+ident(
+  int_ref mu "m_visit.ml" 79 2214 2226 "m_visit.ml" 79 2214 2228
+)
+"m_visit.ml" 80 2267 2284 "m_visit.ml" 80 2267 2299
+type(
+  Expr.T.hyp Dq.dq
+)
+"m_visit.ml" 81 2303 2312 "m_visit.ml" 81 2303 2314
+type(
+  Expr.T.hyp Dq.dq
+)
+ident(
+  int_ref cx "m_visit.ml" 80 2267 2279 "m_visit.ml" 80 2267 2281
+)
+"m_visit.ml" 81 2303 2316 "m_visit.ml" 81 2303 2318
+type(
+  M_t.modunit_
+)
+ident(
+  int_ref mu "m_visit.ml" 79 2214 2226 "m_visit.ml" 79 2214 2228
+)
+"m_visit.ml" 81 2303 2311 "m_visit.ml" 81 2303 2319
+type(
+  Expr.T.hyp Dq.dq * M_t.modunit_
+)
+"m_visit.ml" 80 2267 2275 "m_visit.ml" 81 2303 2319
+type(
+  Expr.T.hyp Dq.dq * M_t.modunit_
+)
+"m_visit.ml" 79 2214 2222 "m_visit.ml" 81 2303 2319
+type(
+  Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 83 2321 2338 "m_visit.ml" 83 2321 2340
+type(
+  Expr.T.ctx
+)
+ident(
+  def cx "m_visit.ml" 83 2321 2341 "m_visit.ml" 90 2551 2567
+)
+"m_visit.ml" 83 2321 2341 "m_visit.ml" 83 2321 2345
+type(
+  Util.hint option
+)
+ident(
+  def name "m_visit.ml" 83 2321 2346 "m_visit.ml" 90 2551 2567
+)
+"m_visit.ml" 83 2321 2346 "m_visit.ml" 83 2321 2350
+type(
+  Expr.T.expr
+)
+ident(
+  def expr "m_visit.ml" 84 2353 2361 "m_visit.ml" 90 2551 2567
+)
+"m_visit.ml" 84 2353 2365 "m_visit.ml" 84 2353 2367
+type(
+  M_t.modunit_
+)
+ident(
+  def mu "m_visit.ml" 89 2515 2523 "m_visit.ml" 90 2551 2567
+)
+"m_visit.ml" 84 2353 2377 "m_visit.ml" 84 2353 2381
+type(
+  Util.hint option
+)
+ident(
+  int_ref name "m_visit.ml" 83 2321 2341 "m_visit.ml" 83 2321 2345
+)
+"m_visit.ml" 84 2353 2383 "m_visit.ml" 84 2353 2387
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref expr "m_visit.ml" 83 2321 2346 "m_visit.ml" 83 2321 2350
+)
+"m_visit.ml" 84 2353 2370 "m_visit.ml" 84 2353 2388
+type(
+  M_t.modunit_
+)
+"m_visit.ml" 89 2515 2527 "m_visit.ml" 89 2515 2529
+type(
+  Expr.T.hyp Dq.dq
+)
+ident(
+  def cx "m_visit.ml" 90 2551 2559 "m_visit.ml" 90 2551 2567
+)
+"m_visit.ml" 89 2515 2532 "m_visit.ml" 89 2515 2541
+type(
+  Expr.T.ctx -> M_t.modunit_ -> Expr.T.hyp Dq.dq
+)
+ident(
+  int_ref update_cx "m_visit.ml" 18 184 188 "m_visit.ml" 18 184 197
+)
+"m_visit.ml" 89 2515 2542 "m_visit.ml" 89 2515 2544
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 83 2321 2338 "m_visit.ml" 83 2321 2340
+)
+"m_visit.ml" 89 2515 2545 "m_visit.ml" 89 2515 2547
+type(
+  M_t.modunit_
+)
+ident(
+  int_ref mu "m_visit.ml" 84 2353 2365 "m_visit.ml" 84 2353 2367
+)
+"m_visit.ml" 89 2515 2532 "m_visit.ml" 89 2515 2547
+type(
+  Expr.T.hyp Dq.dq
+)
+"m_visit.ml" 90 2551 2560 "m_visit.ml" 90 2551 2562
+type(
+  Expr.T.hyp Dq.dq
+)
+ident(
+  int_ref cx "m_visit.ml" 89 2515 2527 "m_visit.ml" 89 2515 2529
+)
+"m_visit.ml" 90 2551 2564 "m_visit.ml" 90 2551 2566
+type(
+  M_t.modunit_
+)
+ident(
+  int_ref mu "m_visit.ml" 84 2353 2365 "m_visit.ml" 84 2353 2367
+)
+"m_visit.ml" 90 2551 2559 "m_visit.ml" 90 2551 2567
+type(
+  Expr.T.hyp Dq.dq * M_t.modunit_
+)
+"m_visit.ml" 89 2515 2523 "m_visit.ml" 90 2551 2567
+type(
+  Expr.T.hyp Dq.dq * M_t.modunit_
+)
+"m_visit.ml" 84 2353 2361 "m_visit.ml" 90 2551 2567
+type(
+  Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 92 2569 2588 "m_visit.ml" 92 2569 2590
+type(
+  Expr.T.ctx
+)
+ident(
+  def cx "m_visit.ml" 92 2569 2591 "m_visit.ml" 101 2923 2939
+)
+"m_visit.ml" 92 2569 2591 "m_visit.ml" 92 2569 2595
+type(
+  Util.hint option
+)
+ident(
+  def name "m_visit.ml" 92 2569 2596 "m_visit.ml" 101 2923 2939
+)
+"m_visit.ml" 92 2569 2596 "m_visit.ml" 92 2569 2598
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "m_visit.ml" 92 2569 2599 "m_visit.ml" 101 2923 2939
+)
+"m_visit.ml" 92 2569 2599 "m_visit.ml" 92 2569 2603
+type(
+  int
+)
+ident(
+  def naxs "m_visit.ml" 92 2569 2604 "m_visit.ml" 101 2923 2939
+)
+"m_visit.ml" 92 2569 2604 "m_visit.ml" 92 2569 2606
+type(
+  Proof.T.proof
+)
+ident(
+  def pf "m_visit.ml" 92 2569 2607 "m_visit.ml" 101 2923 2939
+)
+"m_visit.ml" 92 2569 2607 "m_visit.ml" 92 2569 2614
+type(
+  Proof.T.proof
+)
+ident(
+  def orig_pf "m_visit.ml" 92 2569 2615 "m_visit.ml" 101 2923 2939
+)
+"m_visit.ml" 92 2569 2615 "m_visit.ml" 92 2569 2619
+type(
+  M_t.summary
+)
+ident(
+  def summ "m_visit.ml" 95 2698 2706 "m_visit.ml" 101 2923 2939
+)
+"m_visit.ml" 95 2698 2710 "m_visit.ml" 95 2698 2712
+type(
+  M_t.modunit_
+)
+ident(
+  def mu "m_visit.ml" 100 2887 2895 "m_visit.ml" 101 2923 2939
+)
+"m_visit.ml" 95 2698 2724 "m_visit.ml" 95 2698 2728
+type(
+  Util.hint option
+)
+ident(
+  int_ref name "m_visit.ml" 92 2569 2591 "m_visit.ml" 92 2569 2595
+)
+"m_visit.ml" 95 2698 2730 "m_visit.ml" 95 2698 2732
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "m_visit.ml" 92 2569 2596 "m_visit.ml" 92 2569 2598
+)
+"m_visit.ml" 95 2698 2734 "m_visit.ml" 95 2698 2738
+type(
+  int
+)
+ident(
+  int_ref naxs "m_visit.ml" 92 2569 2599 "m_visit.ml" 92 2569 2603
+)
+"m_visit.ml" 95 2698 2740 "m_visit.ml" 95 2698 2742
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref pf "m_visit.ml" 92 2569 2604 "m_visit.ml" 92 2569 2606
+)
+"m_visit.ml" 95 2698 2744 "m_visit.ml" 95 2698 2751
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref orig_pf "m_visit.ml" 92 2569 2607 "m_visit.ml" 92 2569 2614
+)
+"m_visit.ml" 95 2698 2753 "m_visit.ml" 95 2698 2757
+type(
+  M_t.summary
+)
+ident(
+  int_ref summ "m_visit.ml" 92 2569 2615 "m_visit.ml" 92 2569 2619
+)
+"m_visit.ml" 95 2698 2715 "m_visit.ml" 95 2698 2758
+type(
+  M_t.modunit_
+)
+"m_visit.ml" 100 2887 2899 "m_visit.ml" 100 2887 2901
+type(
+  Expr.T.hyp Dq.dq
+)
+ident(
+  def cx "m_visit.ml" 101 2923 2931 "m_visit.ml" 101 2923 2939
+)
+"m_visit.ml" 100 2887 2904 "m_visit.ml" 100 2887 2913
+type(
+  Expr.T.ctx -> M_t.modunit_ -> Expr.T.hyp Dq.dq
+)
+ident(
+  int_ref update_cx "m_visit.ml" 18 184 188 "m_visit.ml" 18 184 197
+)
+"m_visit.ml" 100 2887 2914 "m_visit.ml" 100 2887 2916
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 92 2569 2588 "m_visit.ml" 92 2569 2590
+)
+"m_visit.ml" 100 2887 2917 "m_visit.ml" 100 2887 2919
+type(
+  M_t.modunit_
+)
+ident(
+  int_ref mu "m_visit.ml" 95 2698 2710 "m_visit.ml" 95 2698 2712
+)
+"m_visit.ml" 100 2887 2904 "m_visit.ml" 100 2887 2919
+type(
+  Expr.T.hyp Dq.dq
+)
+"m_visit.ml" 101 2923 2932 "m_visit.ml" 101 2923 2934
+type(
+  Expr.T.hyp Dq.dq
+)
+ident(
+  int_ref cx "m_visit.ml" 100 2887 2899 "m_visit.ml" 100 2887 2901
+)
+"m_visit.ml" 101 2923 2936 "m_visit.ml" 101 2923 2938
+type(
+  M_t.modunit_
+)
+ident(
+  int_ref mu "m_visit.ml" 95 2698 2710 "m_visit.ml" 95 2698 2712
+)
+"m_visit.ml" 101 2923 2931 "m_visit.ml" 101 2923 2939
+type(
+  Expr.T.hyp Dq.dq * M_t.modunit_
+)
+"m_visit.ml" 100 2887 2895 "m_visit.ml" 101 2923 2939
+type(
+  Expr.T.hyp Dq.dq * M_t.modunit_
+)
+"m_visit.ml" 95 2698 2706 "m_visit.ml" 101 2923 2939
+type(
+  Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 103 2941 2959 "m_visit.ml" 103 2941 2961
+type(
+  Expr.T.ctx
+)
+ident(
+  def cx "m_visit.ml" 103 2941 2962 "m_visit.ml" 109 3138 3154
+)
+"m_visit.ml" 103 2941 2962 "m_visit.ml" 103 2941 2968
+type(
+  [ `Hide | `Use of bool ]
+)
+ident(
+  def change "m_visit.ml" 103 2941 2969 "m_visit.ml" 109 3138 3154
+)
+"m_visit.ml" 103 2941 2969 "m_visit.ml" 103 2941 2975
+type(
+  Proof.T.usable
+)
+ident(
+  def usable "m_visit.ml" 104 2978 2986 "m_visit.ml" 109 3138 3154
+)
+"m_visit.ml" 104 2978 2990 "m_visit.ml" 104 2978 2992
+type(
+  M_t.modunit_
+)
+ident(
+  def mu "m_visit.ml" 109 3138 3146 "m_visit.ml" 109 3138 3154
+)
+"m_visit.ml" 104 2978 3003 "m_visit.ml" 104 2978 3009
+type(
+  [ `Hide | `Use of bool ]
+)
+ident(
+  int_ref change "m_visit.ml" 103 2941 2962 "m_visit.ml" 103 2941 2968
+)
+"m_visit.ml" 104 2978 3011 "m_visit.ml" 104 2978 3017
+type(
+  Proof.T.usable
+)
+ident(
+  int_ref usable "m_visit.ml" 103 2941 2969 "m_visit.ml" 103 2941 2975
+)
+"m_visit.ml" 104 2978 2995 "m_visit.ml" 104 2978 3018
+type(
+  M_t.modunit_
+)
+"m_visit.ml" 109 3138 3147 "m_visit.ml" 109 3138 3149
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 103 2941 2959 "m_visit.ml" 103 2941 2961
+)
+"m_visit.ml" 109 3138 3151 "m_visit.ml" 109 3138 3153
+type(
+  M_t.modunit_
+)
+ident(
+  int_ref mu "m_visit.ml" 104 2978 2990 "m_visit.ml" 104 2978 2992
+)
+"m_visit.ml" 109 3138 3146 "m_visit.ml" 109 3138 3154
+type(
+  Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 104 2978 2986 "m_visit.ml" 109 3138 3154
+type(
+  Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 111 3156 3174 "m_visit.ml" 111 3156 3176
+type(
+  Expr.T.ctx
+)
+ident(
+  def cx "m_visit.ml" 111 3156 3177 "m_visit.ml" 113 3228 3244
+)
+"m_visit.ml" 111 3156 3177 "m_visit.ml" 111 3156 3187
+type(
+  M_t.mule
+)
+ident(
+  def tla_module "m_visit.ml" 112 3190 3198 "m_visit.ml" 113 3228 3244
+)
+"m_visit.ml" 112 3190 3202 "m_visit.ml" 112 3190 3204
+type(
+  M_t.modunit_
+)
+ident(
+  def mu "m_visit.ml" 113 3228 3236 "m_visit.ml" 113 3228 3244
+)
+"m_visit.ml" 112 3190 3214 "m_visit.ml" 112 3190 3224
+type(
+  M_t.mule
+)
+ident(
+  int_ref tla_module "m_visit.ml" 111 3156 3177 "m_visit.ml" 111 3156 3187
+)
+"m_visit.ml" 112 3190 3207 "m_visit.ml" 112 3190 3224
+type(
+  M_t.modunit_
+)
+"m_visit.ml" 113 3228 3237 "m_visit.ml" 113 3228 3239
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 111 3156 3174 "m_visit.ml" 111 3156 3176
+)
+"m_visit.ml" 113 3228 3241 "m_visit.ml" 113 3228 3243
+type(
+  M_t.modunit_
+)
+ident(
+  int_ref mu "m_visit.ml" 112 3190 3202 "m_visit.ml" 112 3190 3204
+)
+"m_visit.ml" 113 3228 3236 "m_visit.ml" 113 3228 3244
+type(
+  Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 112 3190 3198 "m_visit.ml" 113 3228 3244
+type(
+  Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 115 3246 3266 "m_visit.ml" 115 3246 3268
+type(
+  Expr.T.ctx
+)
+ident(
+  def cx "m_visit.ml" 115 3246 3269 "m_visit.ml" 118 3379 3395
+)
+"m_visit.ml" 115 3246 3269 "m_visit.ml" 115 3246 3273
+type(
+  Expr.T.instance
+)
+ident(
+  def inst "m_visit.ml" 115 3246 3274 "m_visit.ml" 118 3379 3395
+)
+"m_visit.ml" 115 3246 3274 "m_visit.ml" 115 3246 3279
+type(
+  Expr.T.export
+)
+ident(
+  def local "m_visit.ml" 117 3336 3344 "m_visit.ml" 118 3379 3395
+)
+"m_visit.ml" 117 3336 3348 "m_visit.ml" 117 3336 3350
+type(
+  M_t.modunit_
+)
+ident(
+  def mu "m_visit.ml" 118 3379 3387 "m_visit.ml" 118 3379 3395
+)
+"m_visit.ml" 117 3336 3363 "m_visit.ml" 117 3336 3367
+type(
+  Expr.T.instance
+)
+ident(
+  int_ref inst "m_visit.ml" 115 3246 3269 "m_visit.ml" 115 3246 3273
+)
+"m_visit.ml" 117 3336 3369 "m_visit.ml" 117 3336 3374
+type(
+  Expr.T.export
+)
+ident(
+  int_ref local "m_visit.ml" 115 3246 3274 "m_visit.ml" 115 3246 3279
+)
+"m_visit.ml" 117 3336 3353 "m_visit.ml" 117 3336 3375
+type(
+  M_t.modunit_
+)
+"m_visit.ml" 118 3379 3388 "m_visit.ml" 118 3379 3390
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "m_visit.ml" 115 3246 3266 "m_visit.ml" 115 3246 3268
+)
+"m_visit.ml" 118 3379 3392 "m_visit.ml" 118 3379 3394
+type(
+  M_t.modunit_
+)
+ident(
+  int_ref mu "m_visit.ml" 117 3336 3348 "m_visit.ml" 117 3336 3350
+)
+"m_visit.ml" 118 3379 3387 "m_visit.ml" 118 3379 3395
+type(
+  Expr.T.ctx * M_t.modunit_
+)
+"m_visit.ml" 117 3336 3344 "m_visit.ml" 118 3379 3395
+type(
+  Expr.T.ctx * M_t.modunit_
+)

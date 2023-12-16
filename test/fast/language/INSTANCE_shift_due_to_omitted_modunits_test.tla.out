@@ -1,0 +1,12 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:14:24 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 INSTANCE_shift_due_to_omitted_modunits_test.tla
+
+(* created new ".tlacache/TLAPS.tlaps/TLAPS.thy" *)
+(* fingerprints written in ".tlacache/TLAPS.tlaps/fingerprints" *)
+(* loading fingerprints in ".tlacache/INSTANCE_shift_due_to_omitted_modunits_test.tlaps/fingerprints" *)
+(* created new ".tlacache/INSTANCE_shift_due_to_omitted_modunits_test.tlaps/INSTANCE_shift_due_to_omitted_modunits_test.thy" *)
+(* fingerprints written in ".tlacache/INSTANCE_shift_due_to_omitted_modunits_test.tlaps/fingerprints" *)
+(* created new ".tlacache/Inner.tlaps/Inner.thy" *)
+(* fingerprints written in ".tlacache/Inner.tlaps/fingerprints" *)

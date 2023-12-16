@@ -1,0 +1,4509 @@
+"m_fmt.ml" 17 189 193 "m_fmt.ml" 17 189 208
+type(
+  Format.formatter -> string * Expr.T.shape -> unit
+)
+ident(
+  def pp_print_shaped "m_fmt.ml" 20 265 265 "m_fmt.ml" 0 0 -1
+)
+"m_fmt.ml" 17 189 209 "m_fmt.ml" 17 189 211
+type(
+  Format.formatter
+)
+ident(
+  def ff "m_fmt.ml" 17 189 212 "m_fmt.ml" 18 223 263
+)
+"m_fmt.ml" 17 189 213 "m_fmt.ml" 17 189 214
+type(
+  string
+)
+ident(
+  def n "m_fmt.ml" 18 223 225 "m_fmt.ml" 18 223 263
+)
+"m_fmt.ml" 17 189 216 "m_fmt.ml" 17 189 219
+type(
+  Expr.T.shape
+)
+ident(
+  def shp "m_fmt.ml" 18 223 225 "m_fmt.ml" 18 223 263
+)
+"m_fmt.ml" 17 189 212 "m_fmt.ml" 17 189 220
+type(
+  string * Expr.T.shape
+)
+"m_fmt.ml" 18 223 225 "m_fmt.ml" 18 223 232
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> Expr.T.shape -> unit) -> Expr.T.shape -> unit,
+   Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Expr.T.shape -> unit) -> Expr.T.shape -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"m_fmt.ml" 18 223 233 "m_fmt.ml" 18 223 235
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 17 189 209 "m_fmt.ml" 17 189 211
+)
+"m_fmt.ml" 18 223 236 "m_fmt.ml" 18 223 242
+type(
+  (string ->
+   (Format.formatter -> Expr.T.shape -> unit) -> Expr.T.shape -> unit,
+   Format.formatter, unit)
+  format
+)
+"m_fmt.ml" 18 223 243 "m_fmt.ml" 18 223 244
+type(
+  string
+)
+ident(
+  int_ref n "m_fmt.ml" 17 189 213 "m_fmt.ml" 17 189 214
+)
+"m_fmt.ml" 18 223 245 "m_fmt.ml" 18 223 259
+type(
+  Format.formatter -> Expr.T.shape -> unit
+)
+ident(
+  int_ref Expr.Fmt.pp_print_shape "expr.mli" 379 9696 9700 "expr.mli" 381 9757 9773
+)
+"m_fmt.ml" 18 223 260 "m_fmt.ml" 18 223 263
+type(
+  Expr.T.shape
+)
+ident(
+  int_ref shp "m_fmt.ml" 17 189 216 "m_fmt.ml" 17 189 219
+)
+"m_fmt.ml" 18 223 225 "m_fmt.ml" 18 223 263
+type(
+  unit
+)
+"m_fmt.ml" 20 265 273 "m_fmt.ml" 20 265 289
+type(
+  ?force:bool ->
+  Expr.Fmt.ctx -> Format.formatter -> M_t.modunit -> Expr.Fmt.ctx
+)
+ident(
+  def pp_print_modunit "m_fmt.ml" 20 265 265 "m_fmt.ml" 0 0 -1
+)
+"m_fmt.ml" 20 265 292 "m_fmt.ml" 20 265 297
+type(
+  bool
+)
+ident(
+  def force "m_fmt.ml" 20 265 305 "m_fmt.ml" 102 3230 3238
+)
+"m_fmt.ml" 20 265 298 "m_fmt.ml" 20 265 303
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "m_fmt.ml" 20 265 298 "m_fmt.ml" 20 265 303
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+ident(
+  def *sth* "m_fmt.ml" 20 265 298 "m_fmt.ml" 20 265 303
+)
+"m_fmt.ml" 20 265 305 "m_fmt.ml" 20 265 307
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  def cx "m_fmt.ml" 20 265 308 "m_fmt.ml" 102 3230 3238
+)
+"m_fmt.ml" 20 265 308 "m_fmt.ml" 20 265 310
+type(
+  Format.formatter
+)
+ident(
+  def ff "m_fmt.ml" 20 265 311 "m_fmt.ml" 102 3230 3238
+)
+"m_fmt.ml" 20 265 311 "m_fmt.ml" 20 265 313
+type(
+  M_t.modunit
+)
+ident(
+  def mu "m_fmt.ml" 20 265 316 "m_fmt.ml" 102 3230 3238
+)
+"m_fmt.ml" 20 265 322 "m_fmt.ml" 20 265 324
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_fmt.ml" 20 265 311 "m_fmt.ml" 20 265 313
+)
+"m_fmt.ml" 20 265 322 "m_fmt.ml" 20 265 329
+type(
+  M_t.modunit_
+)
+"m_fmt.ml" 21 335 350 "m_fmt.ml" 21 335 351
+type(
+  Util.hint
+)
+ident(
+  def c "m_fmt.ml" 22 361 367 "m_fmt.ml" 25 469 478
+)
+"m_fmt.ml" 21 335 353 "m_fmt.ml" 21 335 356
+type(
+  Expr.T.shape
+)
+ident(
+  def shp "m_fmt.ml" 22 361 367 "m_fmt.ml" 25 469 478
+)
+"m_fmt.ml" 21 335 350 "m_fmt.ml" 21 335 356
+type(
+  Util.hint * Expr.T.shape
+)
+"m_fmt.ml" 21 335 349 "m_fmt.ml" 21 335 357
+type(
+  (Util.hint * Expr.T.shape) list
+)
+"m_fmt.ml" 21 335 339 "m_fmt.ml" 21 335 357
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_fmt.ml" 22 361 372 "m_fmt.ml" 22 361 375
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  def ncx "m_fmt.ml" 23 394 400 "m_fmt.ml" 25 469 478
+)
+"m_fmt.ml" 22 361 377 "m_fmt.ml" 22 361 378
+type(
+  string
+)
+ident(
+  def c "m_fmt.ml" 23 394 400 "m_fmt.ml" 25 469 478
+)
+"m_fmt.ml" 22 361 371 "m_fmt.ml" 22 361 379
+type(
+  Expr.Fmt.ctx * string
+)
+"m_fmt.ml" 22 361 382 "m_fmt.ml" 22 361 385
+type(
+  Expr.Fmt.ctx -> Util.hint -> Expr.Fmt.ctx * string
+)
+ident(
+  int_ref Expr.Fmt.adj "expr.mli" 360 9219 9223 "expr.mli" 362 9260 9284
+)
+"m_fmt.ml" 22 361 386 "m_fmt.ml" 22 361 388
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 20 265 305 "m_fmt.ml" 20 265 307
+)
+"m_fmt.ml" 22 361 389 "m_fmt.ml" 22 361 390
+type(
+  Util.hint
+)
+ident(
+  int_ref c "m_fmt.ml" 21 335 350 "m_fmt.ml" 21 335 351
+)
+"m_fmt.ml" 22 361 382 "m_fmt.ml" 22 361 390
+type(
+  Expr.Fmt.ctx * string
+)
+"m_fmt.ml" 23 394 400 "m_fmt.ml" 23 394 407
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> Expr.T.shape -> unit) -> Expr.T.shape -> unit,
+   Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Expr.T.shape -> unit) -> Expr.T.shape -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"m_fmt.ml" 23 394 408 "m_fmt.ml" 23 394 410
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 20 265 308 "m_fmt.ml" 20 265 310
+)
+"m_fmt.ml" 23 394 411 "m_fmt.ml" 23 394 437
+type(
+  (string ->
+   (Format.formatter -> Expr.T.shape -> unit) -> Expr.T.shape -> unit,
+   Format.formatter, unit)
+  format
+)
+"m_fmt.ml" 24 438 446 "m_fmt.ml" 24 438 447
+type(
+  string
+)
+ident(
+  int_ref c "m_fmt.ml" 22 361 377 "m_fmt.ml" 22 361 378
+)
+"m_fmt.ml" 24 438 448 "m_fmt.ml" 24 438 462
+type(
+  Format.formatter -> Expr.T.shape -> unit
+)
+ident(
+  int_ref Expr.Fmt.pp_print_shape "expr.mli" 379 9696 9700 "expr.mli" 381 9757 9773
+)
+"m_fmt.ml" 24 438 463 "m_fmt.ml" 24 438 466
+type(
+  Expr.T.shape
+)
+ident(
+  int_ref shp "m_fmt.ml" 21 335 353 "m_fmt.ml" 21 335 356
+)
+"m_fmt.ml" 23 394 400 "m_fmt.ml" 24 438 466
+type(
+  unit
+)
+"m_fmt.ml" 25 469 475 "m_fmt.ml" 25 469 478
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref ncx "m_fmt.ml" 22 361 372 "m_fmt.ml" 22 361 375
+)
+"m_fmt.ml" 23 394 400 "m_fmt.ml" 25 469 478
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 22 361 367 "m_fmt.ml" 25 469 478
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 26 479 493 "m_fmt.ml" 26 479 495
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  def cs "m_fmt.ml" 27 499 505 "m_fmt.ml" 32 725 734
+)
+"m_fmt.ml" 26 479 483 "m_fmt.ml" 26 479 495
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_fmt.ml" 27 499 509 "m_fmt.ml" 27 499 511
+type(
+  Util.hint list
+)
+ident(
+  def ns "m_fmt.ml" 28 533 539 "m_fmt.ml" 32 725 734
+)
+"m_fmt.ml" 27 499 514 "m_fmt.ml" 27 499 522
+type(
+  (Util.hint * Expr.T.shape -> Util.hint) ->
+  (Util.hint * Expr.T.shape) list -> Util.hint list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"m_fmt.ml" 27 499 523 "m_fmt.ml" 27 499 526
+type(
+  Util.hint * Expr.T.shape -> Util.hint
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"m_fmt.ml" 27 499 527 "m_fmt.ml" 27 499 529
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  int_ref cs "m_fmt.ml" 26 479 493 "m_fmt.ml" 26 479 495
+)
+"m_fmt.ml" 27 499 514 "m_fmt.ml" 27 499 529
+type(
+  Util.hint list
+)
+"m_fmt.ml" 28 533 544 "m_fmt.ml" 28 533 547
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  def ncx "m_fmt.ml" 29 569 575 "m_fmt.ml" 32 725 734
+)
+"m_fmt.ml" 28 533 549 "m_fmt.ml" 28 533 551
+type(
+  string list
+)
+ident(
+  def ns "m_fmt.ml" 29 569 575 "m_fmt.ml" 32 725 734
+)
+"m_fmt.ml" 28 533 543 "m_fmt.ml" 28 533 552
+type(
+  Expr.Fmt.ctx * string list
+)
+"m_fmt.ml" 28 533 555 "m_fmt.ml" 28 533 559
+type(
+  Expr.Fmt.ctx -> Util.hints -> Expr.Fmt.ctx * string list
+)
+ident(
+  int_ref Expr.Fmt.adjs "expr.mli" 363 9285 9289 "expr.mli" 365 9328 9357
+)
+"m_fmt.ml" 28 533 560 "m_fmt.ml" 28 533 562
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 20 265 305 "m_fmt.ml" 20 265 307
+)
+"m_fmt.ml" 28 533 563 "m_fmt.ml" 28 533 565
+type(
+  Util.hints
+)
+ident(
+  int_ref ns "m_fmt.ml" 27 499 509 "m_fmt.ml" 27 499 511
+)
+"m_fmt.ml" 28 533 555 "m_fmt.ml" 28 533 565
+type(
+  Expr.Fmt.ctx * string list
+)
+"m_fmt.ml" 29 569 579 "m_fmt.ml" 29 569 581
+type(
+  (string * Expr.T.shape) list
+)
+ident(
+  def cs "m_fmt.ml" 30 632 638 "m_fmt.ml" 32 725 734
+)
+"m_fmt.ml" 29 569 584 "m_fmt.ml" 29 569 593
+type(
+  (string -> Util.hint * Expr.T.shape -> string * Expr.T.shape) ->
+  string list ->
+  (Util.hint * Expr.T.shape) list -> (string * Expr.T.shape) list
+)
+ident(
+  int_ref Ext.List.map2 "ext.mli" 22 743 745 "ext.mli" 22 743 805
+)
+"m_fmt.ml" 29 569 599 "m_fmt.ml" 29 569 600
+type(
+  string
+)
+ident(
+  def n "m_fmt.ml" 29 569 601 "m_fmt.ml" 29 569 621
+)
+"m_fmt.ml" 29 569 602 "m_fmt.ml" 29 569 603
+type(
+  Util.hint
+)
+"m_fmt.ml" 29 569 605 "m_fmt.ml" 29 569 608
+type(
+  Expr.T.shape
+)
+ident(
+  def shp "m_fmt.ml" 29 569 613 "m_fmt.ml" 29 569 621
+)
+"m_fmt.ml" 29 569 601 "m_fmt.ml" 29 569 609
+type(
+  Util.hint * Expr.T.shape
+)
+"m_fmt.ml" 29 569 614 "m_fmt.ml" 29 569 615
+type(
+  string
+)
+ident(
+  int_ref n "m_fmt.ml" 29 569 599 "m_fmt.ml" 29 569 600
+)
+"m_fmt.ml" 29 569 617 "m_fmt.ml" 29 569 620
+type(
+  Expr.T.shape
+)
+ident(
+  int_ref shp "m_fmt.ml" 29 569 605 "m_fmt.ml" 29 569 608
+)
+"m_fmt.ml" 29 569 613 "m_fmt.ml" 29 569 621
+type(
+  string * Expr.T.shape
+)
+"m_fmt.ml" 29 569 594 "m_fmt.ml" 29 569 622
+type(
+  string -> Util.hint * Expr.T.shape -> string * Expr.T.shape
+)
+"m_fmt.ml" 29 569 623 "m_fmt.ml" 29 569 625
+type(
+  string list
+)
+ident(
+  int_ref ns "m_fmt.ml" 28 533 549 "m_fmt.ml" 28 533 551
+)
+"m_fmt.ml" 29 569 626 "m_fmt.ml" 29 569 628
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  int_ref cs "m_fmt.ml" 26 479 493 "m_fmt.ml" 26 479 495
+)
+"m_fmt.ml" 29 569 584 "m_fmt.ml" 29 569 628
+type(
+  (string * Expr.T.shape) list
+)
+"m_fmt.ml" 30 632 638 "m_fmt.ml" 30 632 645
+type(
+  Format.formatter ->
+  ((Format.formatter -> (string * Expr.T.shape) list -> unit) ->
+   (string * Expr.T.shape) list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> (string * Expr.T.shape) list -> unit) ->
+  (string * Expr.T.shape) list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"m_fmt.ml" 30 632 646 "m_fmt.ml" 30 632 648
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 20 265 308 "m_fmt.ml" 20 265 310
+)
+"m_fmt.ml" 30 632 649 "m_fmt.ml" 30 632 674
+type(
+  ((Format.formatter -> (string * Expr.T.shape) list -> unit) ->
+   (string * Expr.T.shape) list -> unit, Format.formatter, unit)
+  format
+)
+"m_fmt.ml" 31 675 684 "m_fmt.ml" 31 675 702
+type(
+  ?sep:(Format.formatter -> unit -> unit) ->
+  (Format.formatter -> string * Expr.T.shape -> unit) ->
+  Format.formatter -> (string * Expr.T.shape) list -> unit
+)
+ident(
+  int_ref Fmtutil.pp_print_delimited "fmtutil.mli" 21 493 493 "fmtutil.mli" 24 587 617
+)
+"m_fmt.ml" 31 675 703 "m_fmt.ml" 31 675 718
+type(
+  Format.formatter -> string * Expr.T.shape -> unit
+)
+ident(
+  int_ref pp_print_shaped "m_fmt.ml" 17 189 193 "m_fmt.ml" 17 189 208
+)
+"m_fmt.ml" 31 675 683 "m_fmt.ml" 31 675 719
+type(
+  Format.formatter -> (string * Expr.T.shape) list -> unit
+)
+"m_fmt.ml" 31 675 720 "m_fmt.ml" 31 675 722
+type(
+  (string * Expr.T.shape) list
+)
+ident(
+  int_ref cs "m_fmt.ml" 29 569 579 "m_fmt.ml" 29 569 581
+)
+"m_fmt.ml" 30 632 638 "m_fmt.ml" 31 675 722
+type(
+  unit
+)
+"m_fmt.ml" 32 725 731 "m_fmt.ml" 32 725 734
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref ncx "m_fmt.ml" 28 533 544 "m_fmt.ml" 28 533 547
+)
+"m_fmt.ml" 30 632 638 "m_fmt.ml" 32 725 734
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 29 569 575 "m_fmt.ml" 32 725 734
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 28 533 539 "m_fmt.ml" 32 725 734
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 27 499 505 "m_fmt.ml" 32 725 734
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 33 735 750 "m_fmt.ml" 33 735 752
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  def cs "m_fmt.ml" 34 756 762 "m_fmt.ml" 39 982 991
+)
+"m_fmt.ml" 33 735 739 "m_fmt.ml" 33 735 752
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_fmt.ml" 34 756 766 "m_fmt.ml" 34 756 768
+type(
+  Util.hint list
+)
+ident(
+  def ns "m_fmt.ml" 35 790 796 "m_fmt.ml" 39 982 991
+)
+"m_fmt.ml" 34 756 771 "m_fmt.ml" 34 756 779
+type(
+  (Util.hint * Expr.T.shape -> Util.hint) ->
+  (Util.hint * Expr.T.shape) list -> Util.hint list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"m_fmt.ml" 34 756 780 "m_fmt.ml" 34 756 783
+type(
+  Util.hint * Expr.T.shape -> Util.hint
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"m_fmt.ml" 34 756 784 "m_fmt.ml" 34 756 786
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  int_ref cs "m_fmt.ml" 33 735 750 "m_fmt.ml" 33 735 752
+)
+"m_fmt.ml" 34 756 771 "m_fmt.ml" 34 756 786
+type(
+  Util.hint list
+)
+"m_fmt.ml" 35 790 801 "m_fmt.ml" 35 790 804
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  def ncx "m_fmt.ml" 36 826 832 "m_fmt.ml" 39 982 991
+)
+"m_fmt.ml" 35 790 806 "m_fmt.ml" 35 790 808
+type(
+  string list
+)
+ident(
+  def ns "m_fmt.ml" 36 826 832 "m_fmt.ml" 39 982 991
+)
+"m_fmt.ml" 35 790 800 "m_fmt.ml" 35 790 809
+type(
+  Expr.Fmt.ctx * string list
+)
+"m_fmt.ml" 35 790 812 "m_fmt.ml" 35 790 816
+type(
+  Expr.Fmt.ctx -> Util.hints -> Expr.Fmt.ctx * string list
+)
+ident(
+  int_ref Expr.Fmt.adjs "expr.mli" 363 9285 9289 "expr.mli" 365 9328 9357
+)
+"m_fmt.ml" 35 790 817 "m_fmt.ml" 35 790 819
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 20 265 305 "m_fmt.ml" 20 265 307
+)
+"m_fmt.ml" 35 790 820 "m_fmt.ml" 35 790 822
+type(
+  Util.hints
+)
+ident(
+  int_ref ns "m_fmt.ml" 34 756 766 "m_fmt.ml" 34 756 768
+)
+"m_fmt.ml" 35 790 812 "m_fmt.ml" 35 790 822
+type(
+  Expr.Fmt.ctx * string list
+)
+"m_fmt.ml" 36 826 836 "m_fmt.ml" 36 826 838
+type(
+  (string * Expr.T.shape) list
+)
+ident(
+  def cs "m_fmt.ml" 37 889 895 "m_fmt.ml" 39 982 991
+)
+"m_fmt.ml" 36 826 841 "m_fmt.ml" 36 826 850
+type(
+  (string -> Util.hint * Expr.T.shape -> string * Expr.T.shape) ->
+  string list ->
+  (Util.hint * Expr.T.shape) list -> (string * Expr.T.shape) list
+)
+ident(
+  int_ref Ext.List.map2 "ext.mli" 22 743 745 "ext.mli" 22 743 805
+)
+"m_fmt.ml" 36 826 856 "m_fmt.ml" 36 826 857
+type(
+  string
+)
+ident(
+  def n "m_fmt.ml" 36 826 858 "m_fmt.ml" 36 826 878
+)
+"m_fmt.ml" 36 826 859 "m_fmt.ml" 36 826 860
+type(
+  Util.hint
+)
+"m_fmt.ml" 36 826 862 "m_fmt.ml" 36 826 865
+type(
+  Expr.T.shape
+)
+ident(
+  def shp "m_fmt.ml" 36 826 870 "m_fmt.ml" 36 826 878
+)
+"m_fmt.ml" 36 826 858 "m_fmt.ml" 36 826 866
+type(
+  Util.hint * Expr.T.shape
+)
+"m_fmt.ml" 36 826 871 "m_fmt.ml" 36 826 872
+type(
+  string
+)
+ident(
+  int_ref n "m_fmt.ml" 36 826 856 "m_fmt.ml" 36 826 857
+)
+"m_fmt.ml" 36 826 874 "m_fmt.ml" 36 826 877
+type(
+  Expr.T.shape
+)
+ident(
+  int_ref shp "m_fmt.ml" 36 826 862 "m_fmt.ml" 36 826 865
+)
+"m_fmt.ml" 36 826 870 "m_fmt.ml" 36 826 878
+type(
+  string * Expr.T.shape
+)
+"m_fmt.ml" 36 826 851 "m_fmt.ml" 36 826 879
+type(
+  string -> Util.hint * Expr.T.shape -> string * Expr.T.shape
+)
+"m_fmt.ml" 36 826 880 "m_fmt.ml" 36 826 882
+type(
+  string list
+)
+ident(
+  int_ref ns "m_fmt.ml" 35 790 806 "m_fmt.ml" 35 790 808
+)
+"m_fmt.ml" 36 826 883 "m_fmt.ml" 36 826 885
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  int_ref cs "m_fmt.ml" 33 735 750 "m_fmt.ml" 33 735 752
+)
+"m_fmt.ml" 36 826 841 "m_fmt.ml" 36 826 885
+type(
+  (string * Expr.T.shape) list
+)
+"m_fmt.ml" 37 889 895 "m_fmt.ml" 37 889 902
+type(
+  Format.formatter ->
+  ((Format.formatter -> (string * Expr.T.shape) list -> unit) ->
+   (string * Expr.T.shape) list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> (string * Expr.T.shape) list -> unit) ->
+  (string * Expr.T.shape) list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"m_fmt.ml" 37 889 903 "m_fmt.ml" 37 889 905
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 20 265 308 "m_fmt.ml" 20 265 310
+)
+"m_fmt.ml" 37 889 906 "m_fmt.ml" 37 889 931
+type(
+  ((Format.formatter -> (string * Expr.T.shape) list -> unit) ->
+   (string * Expr.T.shape) list -> unit, Format.formatter, unit)
+  format
+)
+"m_fmt.ml" 38 932 941 "m_fmt.ml" 38 932 959
+type(
+  ?sep:(Format.formatter -> unit -> unit) ->
+  (Format.formatter -> string * Expr.T.shape -> unit) ->
+  Format.formatter -> (string * Expr.T.shape) list -> unit
+)
+ident(
+  int_ref Fmtutil.pp_print_delimited "fmtutil.mli" 21 493 493 "fmtutil.mli" 24 587 617
+)
+"m_fmt.ml" 38 932 960 "m_fmt.ml" 38 932 975
+type(
+  Format.formatter -> string * Expr.T.shape -> unit
+)
+ident(
+  int_ref pp_print_shaped "m_fmt.ml" 17 189 193 "m_fmt.ml" 17 189 208
+)
+"m_fmt.ml" 38 932 940 "m_fmt.ml" 38 932 976
+type(
+  Format.formatter -> (string * Expr.T.shape) list -> unit
+)
+"m_fmt.ml" 38 932 977 "m_fmt.ml" 38 932 979
+type(
+  (string * Expr.T.shape) list
+)
+ident(
+  int_ref cs "m_fmt.ml" 36 826 836 "m_fmt.ml" 36 826 838
+)
+"m_fmt.ml" 37 889 895 "m_fmt.ml" 38 932 979
+type(
+  unit
+)
+"m_fmt.ml" 39 982 988 "m_fmt.ml" 39 982 991
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref ncx "m_fmt.ml" 35 790 801 "m_fmt.ml" 35 790 804
+)
+"m_fmt.ml" 37 889 895 "m_fmt.ml" 39 982 991
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 36 826 832 "m_fmt.ml" 39 982 991
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 35 790 796 "m_fmt.ml" 39 982 991
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 34 756 762 "m_fmt.ml" 39 982 991
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 40 992 1006 "m_fmt.ml" 40 992 1008
+type(
+  Util.hints
+)
+ident(
+  def vs "m_fmt.ml" 41 1012 1018 "m_fmt.ml" 45 1195 1204
+)
+"m_fmt.ml" 40 992 996 "m_fmt.ml" 40 992 1008
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_fmt.ml" 41 1012 1023 "m_fmt.ml" 41 1012 1026
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  def ncx "m_fmt.ml" 42 1048 1054 "m_fmt.ml" 45 1195 1204
+)
+"m_fmt.ml" 41 1012 1028 "m_fmt.ml" 41 1012 1030
+type(
+  string list
+)
+ident(
+  def vs "m_fmt.ml" 42 1048 1054 "m_fmt.ml" 45 1195 1204
+)
+"m_fmt.ml" 41 1012 1022 "m_fmt.ml" 41 1012 1031
+type(
+  Expr.Fmt.ctx * string list
+)
+"m_fmt.ml" 41 1012 1034 "m_fmt.ml" 41 1012 1038
+type(
+  Expr.Fmt.ctx -> Util.hints -> Expr.Fmt.ctx * string list
+)
+ident(
+  int_ref Expr.Fmt.adjs "expr.mli" 363 9285 9289 "expr.mli" 365 9328 9357
+)
+"m_fmt.ml" 41 1012 1039 "m_fmt.ml" 41 1012 1041
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 20 265 305 "m_fmt.ml" 20 265 307
+)
+"m_fmt.ml" 41 1012 1042 "m_fmt.ml" 41 1012 1044
+type(
+  Util.hints
+)
+ident(
+  int_ref vs "m_fmt.ml" 40 992 1006 "m_fmt.ml" 40 992 1008
+)
+"m_fmt.ml" 41 1012 1034 "m_fmt.ml" 41 1012 1044
+type(
+  Expr.Fmt.ctx * string list
+)
+"m_fmt.ml" 42 1048 1054 "m_fmt.ml" 42 1048 1061
+type(
+  Format.formatter ->
+  (string -> (Format.formatter -> string list -> unit) -> string list -> unit,
+   Format.formatter, unit)
+  format ->
+  string -> (Format.formatter -> string list -> unit) -> string list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"m_fmt.ml" 42 1048 1062 "m_fmt.ml" 42 1048 1064
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 20 265 308 "m_fmt.ml" 20 265 310
+)
+"m_fmt.ml" 42 1048 1065 "m_fmt.ml" 42 1048 1091
+type(
+  (string -> (Format.formatter -> string list -> unit) -> string list -> unit,
+   Format.formatter, unit)
+  format
+)
+"m_fmt.ml" 43 1092 1106 "m_fmt.ml" 43 1092 1117
+type(
+  string list -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"m_fmt.ml" 43 1092 1118 "m_fmt.ml" 43 1092 1120
+type(
+  string list
+)
+ident(
+  int_ref vs "m_fmt.ml" 41 1012 1028 "m_fmt.ml" 41 1012 1030
+)
+"m_fmt.ml" 43 1092 1105 "m_fmt.ml" 43 1092 1121
+type(
+  int
+)
+"m_fmt.ml" 43 1092 1122 "m_fmt.ml" 43 1092 1123
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_fmt.ml" 43 1092 1124 "m_fmt.ml" 43 1092 1125
+type(
+  int
+)
+"m_fmt.ml" 43 1092 1104 "m_fmt.ml" 43 1092 1126
+type(
+  bool
+)
+"m_fmt.ml" 43 1092 1132 "m_fmt.ml" 43 1092 1134
+type(
+  string
+)
+"m_fmt.ml" 43 1092 1140 "m_fmt.ml" 43 1092 1143
+type(
+  string
+)
+"m_fmt.ml" 43 1092 1100 "m_fmt.ml" 43 1092 1144
+type(
+  string
+)
+"m_fmt.ml" 44 1145 1154 "m_fmt.ml" 44 1145 1172
+type(
+  ?sep:(Format.formatter -> unit -> unit) ->
+  (Format.formatter -> string -> unit) ->
+  Format.formatter -> string list -> unit
+)
+ident(
+  int_ref Fmtutil.pp_print_delimited "fmtutil.mli" 21 493 493 "fmtutil.mli" 24 587 617
+)
+"m_fmt.ml" 44 1145 1173 "m_fmt.ml" 44 1145 1188
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.pp_print_string "format.mli" 220 9080 9080 "format.mli" 220 9080 9129
+)
+"m_fmt.ml" 44 1145 1153 "m_fmt.ml" 44 1145 1189
+type(
+  Format.formatter -> string list -> unit
+)
+"m_fmt.ml" 44 1145 1190 "m_fmt.ml" 44 1145 1192
+type(
+  string list
+)
+ident(
+  int_ref vs "m_fmt.ml" 41 1012 1028 "m_fmt.ml" 41 1012 1030
+)
+"m_fmt.ml" 42 1048 1054 "m_fmt.ml" 44 1145 1192
+type(
+  unit
+)
+"m_fmt.ml" 45 1195 1201 "m_fmt.ml" 45 1195 1204
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref ncx "m_fmt.ml" 41 1012 1023 "m_fmt.ml" 41 1012 1026
+)
+"m_fmt.ml" 42 1048 1054 "m_fmt.ml" 45 1195 1204
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 41 1012 1018 "m_fmt.ml" 45 1195 1204
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 46 1205 1221 "m_fmt.ml" 46 1205 1223
+type(
+  Expr.T.defn
+)
+ident(
+  def df "m_fmt.ml" 47 1239 1245 "m_fmt.ml" 59 1733 1742
+)
+"m_fmt.ml" 46 1205 1225 "m_fmt.ml" 46 1205 1227
+type(
+  Expr.T.wheredef
+)
+ident(
+  def wd "m_fmt.ml" 47 1239 1245 "m_fmt.ml" 59 1733 1742
+)
+"m_fmt.ml" 46 1205 1229 "m_fmt.ml" 46 1205 1230
+type(
+  Expr.T.visibility
+)
+"m_fmt.ml" 46 1205 1232 "m_fmt.ml" 46 1205 1234
+type(
+  Expr.T.export
+)
+ident(
+  def ex "m_fmt.ml" 47 1239 1245 "m_fmt.ml" 59 1733 1742
+)
+"m_fmt.ml" 46 1205 1209 "m_fmt.ml" 46 1205 1235
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_fmt.ml" 47 1239 1249 "m_fmt.ml" 47 1239 1251
+type(
+  Util.hint
+)
+ident(
+  def nm "m_fmt.ml" 52 1391 1397 "m_fmt.ml" 59 1733 1742
+)
+"m_fmt.ml" 47 1239 1260 "m_fmt.ml" 47 1239 1262
+type(
+  Expr.T.defn
+)
+ident(
+  int_ref df "m_fmt.ml" 46 1205 1221 "m_fmt.ml" 46 1205 1223
+)
+"m_fmt.ml" 47 1239 1260 "m_fmt.ml" 47 1239 1267
+type(
+  Expr.T.defn_
+)
+"m_fmt.ml" 48 1273 1293 "m_fmt.ml" 48 1273 1295
+type(
+  Util.hint
+)
+ident(
+  def nm "m_fmt.ml" 50 1368 1379 "m_fmt.ml" 50 1368 1381
+)
+"m_fmt.ml" 48 1273 1297 "m_fmt.ml" 48 1273 1298
+type(
+  Expr.T.expr
+)
+"m_fmt.ml" 48 1273 1283 "m_fmt.ml" 48 1273 1299
+type(
+  Expr.T.defn_
+)
+type(
+  Expr.T.defn_
+)
+"m_fmt.ml" 48 1273 1312 "m_fmt.ml" 48 1273 1314
+type(
+  Util.hint
+)
+ident(
+  def nm "m_fmt.ml" 50 1368 1379 "m_fmt.ml" 50 1368 1381
+)
+"m_fmt.ml" 48 1273 1316 "m_fmt.ml" 48 1273 1317
+type(
+  Expr.T.instance
+)
+"m_fmt.ml" 48 1273 1302 "m_fmt.ml" 48 1273 1318
+type(
+  Expr.T.defn_
+)
+type(
+  Expr.T.defn_
+)
+"m_fmt.ml" 48 1273 1283 "m_fmt.ml" 48 1273 1318
+type(
+  Expr.T.defn_
+)
+"m_fmt.ml" 48 1273 1330 "m_fmt.ml" 48 1273 1332
+type(
+  Util.hint
+)
+ident(
+  def nm "m_fmt.ml" 50 1368 1379 "m_fmt.ml" 50 1368 1381
+)
+"m_fmt.ml" 48 1273 1334 "m_fmt.ml" 48 1273 1335
+type(
+  Expr.T.expr
+)
+"m_fmt.ml" 48 1273 1337 "m_fmt.ml" 48 1273 1338
+type(
+  (Util.hint * Expr.T.backend_args) list list
+)
+"m_fmt.ml" 48 1273 1321 "m_fmt.ml" 48 1273 1339
+type(
+  Expr.T.defn_
+)
+type(
+  Expr.T.defn_
+)
+"m_fmt.ml" 48 1273 1283 "m_fmt.ml" 48 1273 1339
+type(
+  Expr.T.defn_
+)
+"m_fmt.ml" 49 1340 1361 "m_fmt.ml" 49 1340 1363
+type(
+  Util.hint
+)
+ident(
+  def nm "m_fmt.ml" 50 1368 1379 "m_fmt.ml" 50 1368 1381
+)
+"m_fmt.ml" 49 1340 1365 "m_fmt.ml" 49 1340 1366
+type(
+  Expr.T.shape
+)
+"m_fmt.ml" 49 1340 1350 "m_fmt.ml" 49 1340 1367
+type(
+  Expr.T.defn_
+)
+type(
+  Expr.T.defn_
+)
+"m_fmt.ml" 48 1273 1283 "m_fmt.ml" 49 1340 1367
+type(
+  Expr.T.defn_
+)
+"m_fmt.ml" 50 1368 1379 "m_fmt.ml" 50 1368 1381
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "m_fmt.ml" 48 1273 1293 "m_fmt.ml" 48 1273 1295
+)
+"m_fmt.ml" 47 1239 1254 "m_fmt.ml" 50 1368 1381
+type(
+  Util.hint
+)
+"m_fmt.ml" 52 1391 1402 "m_fmt.ml" 52 1391 1405
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  def ncx "m_fmt.ml" 53 1426 1432 "m_fmt.ml" 59 1733 1742
+)
+"m_fmt.ml" 52 1391 1407 "m_fmt.ml" 52 1391 1409
+type(
+  string
+)
+ident(
+  def nm "m_fmt.ml" 53 1426 1432 "m_fmt.ml" 59 1733 1742
+)
+"m_fmt.ml" 52 1391 1401 "m_fmt.ml" 52 1391 1410
+type(
+  Expr.Fmt.ctx * string
+)
+"m_fmt.ml" 52 1391 1413 "m_fmt.ml" 52 1391 1416
+type(
+  Expr.Fmt.ctx -> Util.hint -> Expr.Fmt.ctx * string
+)
+ident(
+  int_ref Expr.Fmt.adj "expr.mli" 360 9219 9223 "expr.mli" 362 9260 9284
+)
+"m_fmt.ml" 52 1391 1417 "m_fmt.ml" 52 1391 1419
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 20 265 305 "m_fmt.ml" 20 265 307
+)
+"m_fmt.ml" 52 1391 1420 "m_fmt.ml" 52 1391 1422
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "m_fmt.ml" 47 1239 1249 "m_fmt.ml" 47 1239 1251
+)
+"m_fmt.ml" 52 1391 1413 "m_fmt.ml" 52 1391 1422
+type(
+  Expr.Fmt.ctx * string
+)
+"m_fmt.ml" 53 1426 1435 "m_fmt.ml" 53 1426 1440
+type(
+  bool
+)
+ident(
+  int_ref force "m_fmt.ml" 20 265 292 "m_fmt.ml" 20 265 297
+)
+"m_fmt.ml" 53 1426 1441 "m_fmt.ml" 53 1426 1443
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 227 9492 9492 "stdlib.mli" 227 9492 9542
+)
+"m_fmt.ml" 53 1426 1444 "m_fmt.ml" 53 1426 1460
+type(
+  string -> bool
+)
+ident(
+  int_ref Params.debugging "params.mli" 9 124 124 "params.mli" 9 124 153
+)
+"m_fmt.ml" 53 1426 1461 "m_fmt.ml" 53 1426 1470
+type(
+  string
+)
+"m_fmt.ml" 53 1426 1444 "m_fmt.ml" 53 1426 1470
+type(
+  bool
+)
+"m_fmt.ml" 53 1426 1471 "m_fmt.ml" 53 1426 1473
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 227 9492 9492 "stdlib.mli" 227 9492 9542
+)
+"m_fmt.ml" 53 1426 1474 "m_fmt.ml" 53 1426 1476
+type(
+  Expr.T.wheredef
+)
+ident(
+  int_ref wd "m_fmt.ml" 46 1205 1225 "m_fmt.ml" 46 1205 1227
+)
+"m_fmt.ml" 53 1426 1477 "m_fmt.ml" 53 1426 1479
+type(
+  Expr.T.wheredef -> Expr.T.wheredef -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 130 5559 5559 "stdlib.mli" 130 5559 5607
+)
+"m_fmt.ml" 53 1426 1480 "m_fmt.ml" 53 1426 1487
+type(
+  Expr.T.wheredef
+)
+"m_fmt.ml" 53 1426 1474 "m_fmt.ml" 53 1426 1487
+type(
+  bool
+)
+"m_fmt.ml" 53 1426 1444 "m_fmt.ml" 53 1426 1487
+type(
+  bool
+)
+"m_fmt.ml" 53 1426 1435 "m_fmt.ml" 53 1426 1487
+type(
+  bool
+)
+"m_fmt.ml" 54 1493 1501 "m_fmt.ml" 54 1493 1508
+type(
+  Format.formatter ->
+  ((Format.formatter -> unit) -> string -> (Format.formatter -> unit) -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> unit) -> string -> (Format.formatter -> unit) -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"m_fmt.ml" 54 1493 1509 "m_fmt.ml" 54 1493 1511
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 20 265 308 "m_fmt.ml" 20 265 310
+)
+"m_fmt.ml" 55 1512 1522 "m_fmt.ml" 55 1512 1540
+type(
+  ((Format.formatter -> unit) -> string -> (Format.formatter -> unit) -> unit,
+   Format.formatter, unit)
+  format
+)
+"m_fmt.ml" 56 1541 1556 "m_fmt.ml" 56 1541 1558
+type(
+  Format.formatter
+)
+ident(
+  def ff "m_fmt.ml" 56 1541 1562 "m_fmt.ml" 56 1541 1608
+)
+"m_fmt.ml" 56 1541 1565 "m_fmt.ml" 56 1541 1567
+type(
+  Expr.T.export
+)
+ident(
+  int_ref ex "m_fmt.ml" 46 1205 1232 "m_fmt.ml" 46 1205 1234
+)
+"m_fmt.ml" 56 1541 1568 "m_fmt.ml" 56 1541 1569
+type(
+  Expr.T.export -> Expr.T.export -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_fmt.ml" 56 1541 1570 "m_fmt.ml" 56 1541 1575
+type(
+  Expr.T.export
+)
+"m_fmt.ml" 56 1541 1565 "m_fmt.ml" 56 1541 1575
+type(
+  bool
+)
+"m_fmt.ml" 56 1541 1581 "m_fmt.ml" 56 1541 1596
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.pp_print_string "format.mli" 220 9080 9080 "format.mli" 220 9080 9129
+)
+"m_fmt.ml" 56 1541 1597 "m_fmt.ml" 56 1541 1599
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 56 1541 1556 "m_fmt.ml" 56 1541 1558
+)
+"m_fmt.ml" 56 1541 1600 "m_fmt.ml" 56 1541 1608
+type(
+  string
+)
+"m_fmt.ml" 56 1541 1581 "m_fmt.ml" 56 1541 1608
+type(
+  unit
+)
+"m_fmt.ml" 56 1541 1562 "m_fmt.ml" 56 1541 1608
+type(
+  unit
+)
+"m_fmt.ml" 56 1541 1551 "m_fmt.ml" 56 1541 1609
+type(
+  Format.formatter -> unit
+)
+"m_fmt.ml" 57 1610 1624 "m_fmt.ml" 57 1610 1626
+type(
+  Expr.T.wheredef
+)
+ident(
+  int_ref wd "m_fmt.ml" 46 1205 1225 "m_fmt.ml" 46 1205 1227
+)
+"m_fmt.ml" 57 1610 1627 "m_fmt.ml" 57 1610 1628
+type(
+  Expr.T.wheredef -> Expr.T.wheredef -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_fmt.ml" 57 1610 1629 "m_fmt.ml" 57 1610 1636
+type(
+  Expr.T.wheredef
+)
+"m_fmt.ml" 57 1610 1624 "m_fmt.ml" 57 1610 1636
+type(
+  bool
+)
+"m_fmt.ml" 57 1610 1642 "m_fmt.ml" 57 1610 1658
+type(
+  string
+)
+"m_fmt.ml" 57 1610 1664 "m_fmt.ml" 57 1610 1666
+type(
+  string
+)
+"m_fmt.ml" 57 1610 1620 "m_fmt.ml" 57 1610 1667
+type(
+  string
+)
+"m_fmt.ml" 58 1668 1683 "m_fmt.ml" 58 1668 1685
+type(
+  Format.formatter
+)
+ident(
+  def ff "m_fmt.ml" 58 1668 1689 "m_fmt.ml" 58 1668 1729
+)
+"m_fmt.ml" 58 1668 1689 "m_fmt.ml" 58 1668 1695
+type(
+  Expr.Fmt.ctx -> unit
+)
+ident(
+  int_ref Stdlib.ignore "stdlib.mli" 723 27015 27015 "stdlib.mli" 723 27015 27055
+)
+"m_fmt.ml" 58 1668 1697 "m_fmt.ml" 58 1668 1719
+type(
+  Expr.Fmt.ctx -> Format.formatter -> Expr.T.defn -> Expr.Fmt.ctx
+)
+ident(
+  int_ref Expr.Fmt.pp_print_defn "expr.mli" 397 10160 10164 "expr.mli" 400 10234 10249
+)
+"m_fmt.ml" 58 1668 1720 "m_fmt.ml" 58 1668 1722
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 20 265 305 "m_fmt.ml" 20 265 307
+)
+"m_fmt.ml" 58 1668 1723 "m_fmt.ml" 58 1668 1725
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 58 1668 1683 "m_fmt.ml" 58 1668 1685
+)
+"m_fmt.ml" 58 1668 1726 "m_fmt.ml" 58 1668 1728
+type(
+  Expr.T.defn
+)
+ident(
+  int_ref df "m_fmt.ml" 46 1205 1221 "m_fmt.ml" 46 1205 1223
+)
+"m_fmt.ml" 58 1668 1696 "m_fmt.ml" 58 1668 1729
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 58 1668 1689 "m_fmt.ml" 58 1668 1729
+type(
+  unit
+)
+"m_fmt.ml" 58 1668 1678 "m_fmt.ml" 58 1668 1730
+type(
+  Format.formatter -> unit
+)
+"m_fmt.ml" 54 1493 1501 "m_fmt.ml" 58 1668 1730
+type(
+  unit
+)
+"m_fmt.ml" 53 1426 1432 "m_fmt.ml" 58 1668 1730
+type(
+  unit
+)
+"m_fmt.ml" 59 1733 1739 "m_fmt.ml" 59 1733 1742
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref ncx "m_fmt.ml" 52 1391 1402 "m_fmt.ml" 52 1391 1405
+)
+"m_fmt.ml" 53 1426 1432 "m_fmt.ml" 59 1733 1742
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 52 1391 1397 "m_fmt.ml" 59 1733 1742
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 47 1239 1245 "m_fmt.ml" 59 1733 1742
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 60 1743 1754 "m_fmt.ml" 60 1743 1758
+type(
+  Util.hint option
+)
+"m_fmt.ml" 60 1743 1760 "m_fmt.ml" 60 1743 1761
+type(
+  Expr.T.expr
+)
+ident(
+  def e "m_fmt.ml" 61 1766 1772 "m_fmt.ml" 62 1828 1841
+)
+"m_fmt.ml" 60 1743 1747 "m_fmt.ml" 60 1743 1762
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_fmt.ml" 61 1766 1772 "m_fmt.ml" 61 1766 1779
+type(
+  Format.formatter ->
+  ((Format.formatter -> Expr.T.expr -> unit) -> Expr.T.expr -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Expr.T.expr -> unit) -> Expr.T.expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"m_fmt.ml" 61 1766 1780 "m_fmt.ml" 61 1766 1782
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 20 265 308 "m_fmt.ml" 20 265 310
+)
+"m_fmt.ml" 61 1766 1783 "m_fmt.ml" 61 1766 1804
+type(
+  ((Format.formatter -> Expr.T.expr -> unit) -> Expr.T.expr -> unit,
+   Format.formatter, unit)
+  format
+)
+"m_fmt.ml" 61 1766 1806 "m_fmt.ml" 61 1766 1819
+type(
+  ?temp:bool -> Expr.Fmt.ctx -> Format.formatter -> Expr.T.expr -> unit
+)
+ident(
+  int_ref Expr.Fmt.pp_print_expr "expr.mli" 393 10055 10059 "expr.mli" 396 10143 10159
+)
+"m_fmt.ml" 61 1766 1820 "m_fmt.ml" 61 1766 1822
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 20 265 305 "m_fmt.ml" 20 265 307
+)
+"m_fmt.ml" 61 1766 1805 "m_fmt.ml" 61 1766 1823
+type(
+  Format.formatter -> Expr.T.expr -> unit
+)
+"m_fmt.ml" 61 1766 1824 "m_fmt.ml" 61 1766 1825
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "m_fmt.ml" 60 1743 1760 "m_fmt.ml" 60 1743 1761
+)
+"m_fmt.ml" 61 1766 1772 "m_fmt.ml" 61 1766 1825
+type(
+  unit
+)
+"m_fmt.ml" 62 1828 1834 "m_fmt.ml" 62 1828 1838
+type(
+  Expr.Fmt.ctx -> Expr.Fmt.ctx
+)
+ident(
+  int_ref Expr.Fmt.bump "expr.mli" 358 9186 9190 "expr.mli" 359 9200 9218
+)
+"m_fmt.ml" 62 1828 1839 "m_fmt.ml" 62 1828 1841
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 20 265 305 "m_fmt.ml" 20 265 307
+)
+"m_fmt.ml" 62 1828 1834 "m_fmt.ml" 62 1828 1841
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 61 1766 1772 "m_fmt.ml" 62 1828 1841
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 63 1842 1858 "m_fmt.ml" 63 1842 1860
+type(
+  Util.hint
+)
+ident(
+  def nm "m_fmt.ml" 64 1868 1874 "m_fmt.ml" 67 1983 1997
+)
+"m_fmt.ml" 63 1842 1853 "m_fmt.ml" 63 1842 1860
+type(
+  Util.hint option
+)
+"m_fmt.ml" 63 1842 1862 "m_fmt.ml" 63 1842 1863
+type(
+  Expr.T.expr
+)
+ident(
+  def e "m_fmt.ml" 64 1868 1874 "m_fmt.ml" 67 1983 1997
+)
+"m_fmt.ml" 63 1842 1846 "m_fmt.ml" 63 1842 1864
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_fmt.ml" 64 1868 1879 "m_fmt.ml" 64 1868 1882
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  def ncx "m_fmt.ml" 65 1903 1909 "m_fmt.ml" 67 1983 1997
+)
+"m_fmt.ml" 64 1868 1884 "m_fmt.ml" 64 1868 1886
+type(
+  string
+)
+ident(
+  def nm "m_fmt.ml" 65 1903 1909 "m_fmt.ml" 67 1983 1997
+)
+"m_fmt.ml" 64 1868 1878 "m_fmt.ml" 64 1868 1887
+type(
+  Expr.Fmt.ctx * string
+)
+"m_fmt.ml" 64 1868 1890 "m_fmt.ml" 64 1868 1893
+type(
+  Expr.Fmt.ctx -> Util.hint -> Expr.Fmt.ctx * string
+)
+ident(
+  int_ref Expr.Fmt.adj "expr.mli" 360 9219 9223 "expr.mli" 362 9260 9284
+)
+"m_fmt.ml" 64 1868 1894 "m_fmt.ml" 64 1868 1896
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 20 265 305 "m_fmt.ml" 20 265 307
+)
+"m_fmt.ml" 64 1868 1897 "m_fmt.ml" 64 1868 1899
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "m_fmt.ml" 63 1842 1858 "m_fmt.ml" 63 1842 1860
+)
+"m_fmt.ml" 64 1868 1890 "m_fmt.ml" 64 1868 1899
+type(
+  Expr.Fmt.ctx * string
+)
+"m_fmt.ml" 65 1903 1909 "m_fmt.ml" 65 1903 1916
+type(
+  Format.formatter ->
+  (string -> (Format.formatter -> Expr.T.expr -> unit) -> Expr.T.expr -> unit,
+   Format.formatter, unit)
+  format ->
+  string -> (Format.formatter -> Expr.T.expr -> unit) -> Expr.T.expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"m_fmt.ml" 65 1903 1917 "m_fmt.ml" 65 1903 1919
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 20 265 308 "m_fmt.ml" 20 265 310
+)
+"m_fmt.ml" 65 1903 1920 "m_fmt.ml" 65 1903 1948
+type(
+  (string -> (Format.formatter -> Expr.T.expr -> unit) -> Expr.T.expr -> unit,
+   Format.formatter, unit)
+  format
+)
+"m_fmt.ml" 66 1949 1957 "m_fmt.ml" 66 1949 1959
+type(
+  string
+)
+ident(
+  int_ref nm "m_fmt.ml" 64 1868 1884 "m_fmt.ml" 64 1868 1886
+)
+"m_fmt.ml" 66 1949 1961 "m_fmt.ml" 66 1949 1974
+type(
+  ?temp:bool -> Expr.Fmt.ctx -> Format.formatter -> Expr.T.expr -> unit
+)
+ident(
+  int_ref Expr.Fmt.pp_print_expr "expr.mli" 393 10055 10059 "expr.mli" 396 10143 10159
+)
+"m_fmt.ml" 66 1949 1975 "m_fmt.ml" 66 1949 1977
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 20 265 305 "m_fmt.ml" 20 265 307
+)
+"m_fmt.ml" 66 1949 1960 "m_fmt.ml" 66 1949 1978
+type(
+  Format.formatter -> Expr.T.expr -> unit
+)
+"m_fmt.ml" 66 1949 1979 "m_fmt.ml" 66 1949 1980
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "m_fmt.ml" 63 1842 1862 "m_fmt.ml" 63 1842 1863
+)
+"m_fmt.ml" 65 1903 1909 "m_fmt.ml" 66 1949 1980
+type(
+  unit
+)
+"m_fmt.ml" 67 1983 1989 "m_fmt.ml" 67 1983 1993
+type(
+  Expr.Fmt.ctx -> Expr.Fmt.ctx
+)
+ident(
+  int_ref Expr.Fmt.bump "expr.mli" 358 9186 9190 "expr.mli" 359 9200 9218
+)
+"m_fmt.ml" 67 1983 1994 "m_fmt.ml" 67 1983 1997
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref ncx "m_fmt.ml" 64 1868 1879 "m_fmt.ml" 64 1868 1882
+)
+"m_fmt.ml" 67 1983 1989 "m_fmt.ml" 67 1983 1997
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 65 1903 1909 "m_fmt.ml" 67 1983 1997
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 64 1868 1874 "m_fmt.ml" 67 1983 1997
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 68 1998 2011 "m_fmt.ml" 68 1998 2015
+type(
+  Util.hint option
+)
+"m_fmt.ml" 68 1998 2017 "m_fmt.ml" 68 1998 2019
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "m_fmt.ml" 69 2048 2054 "m_fmt.ml" 73 2223 2238
+)
+"m_fmt.ml" 68 1998 2021 "m_fmt.ml" 68 1998 2022
+type(
+  int
+)
+"m_fmt.ml" 68 1998 2024 "m_fmt.ml" 68 1998 2027
+type(
+  Proof.T.proof
+)
+ident(
+  def prf "m_fmt.ml" 69 2048 2054 "m_fmt.ml" 73 2223 2238
+)
+"m_fmt.ml" 68 1998 2029 "m_fmt.ml" 68 1998 2037
+type(
+  Proof.T.proof
+)
+ident(
+  def prf_orig "m_fmt.ml" 69 2048 2054 "m_fmt.ml" 73 2223 2238
+)
+"m_fmt.ml" 68 1998 2039 "m_fmt.ml" 68 1998 2043
+type(
+  M_t.summary
+)
+ident(
+  def summ "m_fmt.ml" 69 2048 2054 "m_fmt.ml" 73 2223 2238
+)
+"m_fmt.ml" 68 1998 2002 "m_fmt.ml" 68 1998 2044
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_fmt.ml" 69 2048 2054 "m_fmt.ml" 69 2048 2061
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"m_fmt.ml" 69 2048 2062 "m_fmt.ml" 69 2048 2064
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 20 265 308 "m_fmt.ml" 20 265 310
+)
+"m_fmt.ml" 69 2048 2065 "m_fmt.ml" 69 2048 2088
+type(
+  (unit, Format.formatter, unit) format
+)
+"m_fmt.ml" 69 2048 2054 "m_fmt.ml" 69 2048 2088
+type(
+  unit
+)
+"m_fmt.ml" 70 2091 2101 "m_fmt.ml" 70 2091 2104
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  def pcx "m_fmt.ml" 71 2136 2144 "m_fmt.ml" 73 2223 2238
+)
+"m_fmt.ml" 70 2091 2107 "m_fmt.ml" 70 2091 2123
+type(
+  ?temp:bool ->
+  Expr.Fmt.ctx -> Format.formatter -> Expr.T.sequent -> Expr.Fmt.ctx
+)
+ident(
+  int_ref Expr.Fmt.pp_print_sequent "expr.mli" 405 10346 10350 "expr.mli" 408 10440 10455
+)
+"m_fmt.ml" 70 2091 2124 "m_fmt.ml" 70 2091 2126
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 20 265 305 "m_fmt.ml" 20 265 307
+)
+"m_fmt.ml" 70 2091 2127 "m_fmt.ml" 70 2091 2129
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 20 265 308 "m_fmt.ml" 20 265 310
+)
+"m_fmt.ml" 70 2091 2130 "m_fmt.ml" 70 2091 2132
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "m_fmt.ml" 68 1998 2017 "m_fmt.ml" 68 1998 2019
+)
+"m_fmt.ml" 70 2091 2107 "m_fmt.ml" 70 2091 2132
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 71 2136 2144 "m_fmt.ml" 71 2136 2151
+type(
+  Format.formatter ->
+  ((Format.formatter -> Proof.T.proof -> unit) -> Proof.T.proof -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Proof.T.proof -> unit) -> Proof.T.proof -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"m_fmt.ml" 71 2136 2152 "m_fmt.ml" 71 2136 2154
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 20 265 308 "m_fmt.ml" 20 265 310
+)
+"m_fmt.ml" 71 2136 2155 "m_fmt.ml" 71 2136 2175
+type(
+  ((Format.formatter -> Proof.T.proof -> unit) -> Proof.T.proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"m_fmt.ml" 72 2176 2187 "m_fmt.ml" 72 2176 2211
+type(
+  Expr.Fmt.ctx -> Format.formatter -> Proof.T.proof -> unit
+)
+ident(
+  int_ref Proof.Fmt.pp_print_proof "proof.mli" 68 1810 1812 "proof.mli" 68 1810 1882
+)
+"m_fmt.ml" 72 2176 2212 "m_fmt.ml" 72 2176 2215
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref pcx "m_fmt.ml" 70 2091 2101 "m_fmt.ml" 70 2091 2104
+)
+"m_fmt.ml" 72 2176 2186 "m_fmt.ml" 72 2176 2216
+type(
+  Format.formatter -> Proof.T.proof -> unit
+)
+"m_fmt.ml" 72 2176 2217 "m_fmt.ml" 72 2176 2220
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref prf "m_fmt.ml" 68 1998 2024 "m_fmt.ml" 68 1998 2027
+)
+"m_fmt.ml" 71 2136 2144 "m_fmt.ml" 72 2176 2220
+type(
+  unit
+)
+"m_fmt.ml" 73 2223 2231 "m_fmt.ml" 73 2223 2235
+type(
+  Expr.Fmt.ctx -> Expr.Fmt.ctx
+)
+ident(
+  int_ref Expr.Fmt.bump "expr.mli" 358 9186 9190 "expr.mli" 359 9200 9218
+)
+"m_fmt.ml" 73 2223 2236 "m_fmt.ml" 73 2223 2238
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 20 265 305 "m_fmt.ml" 20 265 307
+)
+"m_fmt.ml" 73 2223 2231 "m_fmt.ml" 73 2223 2238
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 71 2136 2144 "m_fmt.ml" 73 2223 2238
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 70 2091 2097 "m_fmt.ml" 73 2223 2238
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 69 2048 2054 "m_fmt.ml" 73 2223 2238
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 74 2239 2257 "m_fmt.ml" 74 2239 2259
+type(
+  Util.hint
+)
+ident(
+  def nm "m_fmt.ml" 75 2292 2298 "m_fmt.ml" 83 2623 2637
+)
+"m_fmt.ml" 74 2239 2252 "m_fmt.ml" 74 2239 2259
+type(
+  Util.hint option
+)
+"m_fmt.ml" 74 2239 2261 "m_fmt.ml" 74 2239 2263
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "m_fmt.ml" 75 2292 2298 "m_fmt.ml" 83 2623 2637
+)
+"m_fmt.ml" 74 2239 2265 "m_fmt.ml" 74 2239 2266
+type(
+  int
+)
+"m_fmt.ml" 74 2239 2268 "m_fmt.ml" 74 2239 2271
+type(
+  Proof.T.proof
+)
+ident(
+  def prf "m_fmt.ml" 75 2292 2298 "m_fmt.ml" 83 2623 2637
+)
+"m_fmt.ml" 74 2239 2273 "m_fmt.ml" 74 2239 2281
+type(
+  Proof.T.proof
+)
+ident(
+  def prf_orig "m_fmt.ml" 75 2292 2298 "m_fmt.ml" 83 2623 2637
+)
+"m_fmt.ml" 74 2239 2283 "m_fmt.ml" 74 2239 2287
+type(
+  M_t.summary
+)
+ident(
+  def summ "m_fmt.ml" 75 2292 2298 "m_fmt.ml" 83 2623 2637
+)
+"m_fmt.ml" 74 2239 2243 "m_fmt.ml" 74 2239 2288
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_fmt.ml" 75 2292 2303 "m_fmt.ml" 75 2292 2306
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  def ncx "m_fmt.ml" 76 2327 2333 "m_fmt.ml" 83 2623 2637
+)
+"m_fmt.ml" 75 2292 2308 "m_fmt.ml" 75 2292 2310
+type(
+  string
+)
+ident(
+  def nm "m_fmt.ml" 76 2327 2333 "m_fmt.ml" 83 2623 2637
+)
+"m_fmt.ml" 75 2292 2302 "m_fmt.ml" 75 2292 2311
+type(
+  Expr.Fmt.ctx * string
+)
+"m_fmt.ml" 75 2292 2314 "m_fmt.ml" 75 2292 2317
+type(
+  Expr.Fmt.ctx -> Util.hint -> Expr.Fmt.ctx * string
+)
+ident(
+  int_ref Expr.Fmt.adj "expr.mli" 360 9219 9223 "expr.mli" 362 9260 9284
+)
+"m_fmt.ml" 75 2292 2318 "m_fmt.ml" 75 2292 2320
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 20 265 305 "m_fmt.ml" 20 265 307
+)
+"m_fmt.ml" 75 2292 2321 "m_fmt.ml" 75 2292 2323
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "m_fmt.ml" 74 2239 2257 "m_fmt.ml" 74 2239 2259
+)
+"m_fmt.ml" 75 2292 2314 "m_fmt.ml" 75 2292 2323
+type(
+  Expr.Fmt.ctx * string
+)
+"m_fmt.ml" 76 2327 2333 "m_fmt.ml" 76 2327 2340
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"m_fmt.ml" 76 2327 2341 "m_fmt.ml" 76 2327 2343
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 20 265 308 "m_fmt.ml" 20 265 310
+)
+"m_fmt.ml" 76 2327 2344 "m_fmt.ml" 76 2327 2374
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"m_fmt.ml" 76 2327 2375 "m_fmt.ml" 76 2327 2377
+type(
+  string
+)
+ident(
+  int_ref nm "m_fmt.ml" 75 2292 2308 "m_fmt.ml" 75 2292 2310
+)
+"m_fmt.ml" 76 2327 2333 "m_fmt.ml" 76 2327 2377
+type(
+  unit
+)
+"m_fmt.ml" 77 2380 2390 "m_fmt.ml" 77 2380 2391
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 77 2380 2394 "m_fmt.ml" 77 2380 2410
+type(
+  ?temp:bool ->
+  Expr.Fmt.ctx -> Format.formatter -> Expr.T.sequent -> Expr.Fmt.ctx
+)
+ident(
+  int_ref Expr.Fmt.pp_print_sequent "expr.mli" 405 10346 10350 "expr.mli" 408 10440 10455
+)
+"m_fmt.ml" 77 2380 2411 "m_fmt.ml" 77 2380 2413
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 20 265 305 "m_fmt.ml" 20 265 307
+)
+"m_fmt.ml" 77 2380 2414 "m_fmt.ml" 77 2380 2416
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 20 265 308 "m_fmt.ml" 20 265 310
+)
+"m_fmt.ml" 77 2380 2417 "m_fmt.ml" 77 2380 2419
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "m_fmt.ml" 74 2239 2261 "m_fmt.ml" 74 2239 2263
+)
+"m_fmt.ml" 77 2380 2394 "m_fmt.ml" 77 2380 2419
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 78 2423 2433 "m_fmt.ml" 78 2423 2436
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  def pcx "m_fmt.ml" 81 2540 2546 "m_fmt.ml" 83 2623 2637
+)
+"m_fmt.ml" 78 2423 2439 "m_fmt.ml" 78 2423 2454
+type(
+  (Expr.Fmt.ctx -> Expr.T.hyp -> Expr.Fmt.ctx) ->
+  Expr.Fmt.ctx -> Expr.T.hyp Deque.dq -> Expr.Fmt.ctx
+)
+ident(
+  int_ref Deque.fold_left "deque.mli" 27 722 722 "deque.mli" 27 722 784
+)
+"m_fmt.ml" 79 2461 2473 "m_fmt.ml" 79 2461 2475
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  def cx "m_fmt.ml" 79 2461 2476 "m_fmt.ml" 79 2461 2511
+)
+"m_fmt.ml" 79 2461 2476 "m_fmt.ml" 79 2461 2477
+type(
+  Expr.T.hyp
+)
+ident(
+  def h "m_fmt.ml" 79 2461 2481 "m_fmt.ml" 79 2461 2511
+)
+"m_fmt.ml" 79 2461 2481 "m_fmt.ml" 79 2461 2484
+type(
+  Expr.Fmt.ctx * string -> Expr.Fmt.ctx
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"m_fmt.ml" 79 2461 2486 "m_fmt.ml" 79 2461 2489
+type(
+  Expr.Fmt.ctx -> Util.hint -> Expr.Fmt.ctx * string
+)
+ident(
+  int_ref Expr.Fmt.adj "expr.mli" 360 9219 9223 "expr.mli" 362 9260 9284
+)
+"m_fmt.ml" 79 2461 2490 "m_fmt.ml" 79 2461 2492
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 79 2461 2473 "m_fmt.ml" 79 2461 2475
+)
+"m_fmt.ml" 79 2461 2494 "m_fmt.ml" 79 2461 2502
+type(
+  Expr.T.hyp -> string
+)
+ident(
+  int_ref Expr.T.hyp_name "expr.mli" 335 8607 8609 "expr.mli" 335 8607 8636
+)
+"m_fmt.ml" 79 2461 2503 "m_fmt.ml" 79 2461 2504
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "m_fmt.ml" 79 2461 2476 "m_fmt.ml" 79 2461 2477
+)
+"m_fmt.ml" 79 2461 2494 "m_fmt.ml" 79 2461 2504
+type(
+  string
+)
+"m_fmt.ml" 79 2461 2505 "m_fmt.ml" 79 2461 2507
+type(
+  string -> Expr.T.hyp -> Util.hint
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_fmt.ml" 79 2461 2508 "m_fmt.ml" 79 2461 2509
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "m_fmt.ml" 79 2461 2476 "m_fmt.ml" 79 2461 2477
+)
+"m_fmt.ml" 79 2461 2493 "m_fmt.ml" 79 2461 2510
+type(
+  Util.hint
+)
+"m_fmt.ml" 79 2461 2485 "m_fmt.ml" 79 2461 2511
+type(
+  Expr.Fmt.ctx * string
+)
+"m_fmt.ml" 79 2461 2481 "m_fmt.ml" 79 2461 2511
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 78 2423 2455 "m_fmt.ml" 80 2512 2521
+type(
+  Expr.Fmt.ctx -> Expr.T.hyp -> Expr.Fmt.ctx
+)
+"m_fmt.ml" 80 2512 2522 "m_fmt.ml" 80 2512 2525
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref ncx "m_fmt.ml" 75 2292 2303 "m_fmt.ml" 75 2292 2306
+)
+"m_fmt.ml" 80 2512 2526 "m_fmt.ml" 80 2512 2528
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "m_fmt.ml" 74 2239 2261 "m_fmt.ml" 74 2239 2263
+)
+"m_fmt.ml" 80 2512 2526 "m_fmt.ml" 80 2512 2536
+type(
+  Expr.T.hyp Deque.dq
+)
+"m_fmt.ml" 78 2423 2439 "m_fmt.ml" 80 2512 2536
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 81 2540 2546 "m_fmt.ml" 81 2540 2553
+type(
+  Format.formatter ->
+  ((Format.formatter -> Proof.T.proof -> unit) -> Proof.T.proof -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Proof.T.proof -> unit) -> Proof.T.proof -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"m_fmt.ml" 81 2540 2554 "m_fmt.ml" 81 2540 2556
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 20 265 308 "m_fmt.ml" 20 265 310
+)
+"m_fmt.ml" 81 2540 2557 "m_fmt.ml" 81 2540 2577
+type(
+  ((Format.formatter -> Proof.T.proof -> unit) -> Proof.T.proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"m_fmt.ml" 82 2578 2587 "m_fmt.ml" 82 2578 2611
+type(
+  Expr.Fmt.ctx -> Format.formatter -> Proof.T.proof -> unit
+)
+ident(
+  int_ref Proof.Fmt.pp_print_proof "proof.mli" 68 1810 1812 "proof.mli" 68 1810 1882
+)
+"m_fmt.ml" 82 2578 2612 "m_fmt.ml" 82 2578 2615
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref pcx "m_fmt.ml" 78 2423 2433 "m_fmt.ml" 78 2423 2436
+)
+"m_fmt.ml" 82 2578 2586 "m_fmt.ml" 82 2578 2616
+type(
+  Format.formatter -> Proof.T.proof -> unit
+)
+"m_fmt.ml" 82 2578 2617 "m_fmt.ml" 82 2578 2620
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref prf "m_fmt.ml" 74 2239 2268 "m_fmt.ml" 74 2239 2271
+)
+"m_fmt.ml" 81 2540 2546 "m_fmt.ml" 82 2578 2620
+type(
+  unit
+)
+"m_fmt.ml" 83 2623 2629 "m_fmt.ml" 83 2623 2633
+type(
+  Expr.Fmt.ctx -> Expr.Fmt.ctx
+)
+ident(
+  int_ref Expr.Fmt.bump "expr.mli" 358 9186 9190 "expr.mli" 359 9200 9218
+)
+"m_fmt.ml" 83 2623 2634 "m_fmt.ml" 83 2623 2637
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref ncx "m_fmt.ml" 75 2292 2303 "m_fmt.ml" 75 2292 2306
+)
+"m_fmt.ml" 83 2623 2629 "m_fmt.ml" 83 2623 2637
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 81 2540 2546 "m_fmt.ml" 83 2623 2637
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 78 2423 2429 "m_fmt.ml" 83 2623 2637
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 77 2380 2386 "m_fmt.ml" 83 2623 2637
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 76 2327 2333 "m_fmt.ml" 83 2623 2637
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 75 2292 2298 "m_fmt.ml" 83 2623 2637
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 84 2638 2649 "m_fmt.ml" 84 2638 2650
+type(
+  M_t.mule
+)
+ident(
+  def m "m_fmt.ml" 85 2654 2660 "m_fmt.ml" 86 2713 2721
+)
+"m_fmt.ml" 84 2638 2642 "m_fmt.ml" 84 2638 2650
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_fmt.ml" 85 2654 2660 "m_fmt.ml" 85 2654 2667
+type(
+  Format.formatter ->
+  ((Format.formatter -> M_t.mule -> unit) -> M_t.mule -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> M_t.mule -> unit) -> M_t.mule -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"m_fmt.ml" 85 2654 2668 "m_fmt.ml" 85 2654 2670
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 20 265 308 "m_fmt.ml" 20 265 310
+)
+"m_fmt.ml" 85 2654 2671 "m_fmt.ml" 85 2654 2687
+type(
+  ((Format.formatter -> M_t.mule -> unit) -> M_t.mule -> unit,
+   Format.formatter, unit)
+  format
+)
+"m_fmt.ml" 85 2654 2689 "m_fmt.ml" 85 2654 2704
+type(
+  ?force:bool -> Expr.Fmt.ctx -> Format.formatter -> M_t.mule -> unit
+)
+ident(
+  int_ref pp_print_module "m_fmt.ml" 104 3240 3244 "m_fmt.ml" 104 3240 3259
+)
+"m_fmt.ml" 85 2654 2705 "m_fmt.ml" 85 2654 2707
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 20 265 305 "m_fmt.ml" 20 265 307
+)
+"m_fmt.ml" 85 2654 2688 "m_fmt.ml" 85 2654 2708
+type(
+  Format.formatter -> M_t.mule -> unit
+)
+"m_fmt.ml" 85 2654 2709 "m_fmt.ml" 85 2654 2710
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_fmt.ml" 84 2638 2649 "m_fmt.ml" 84 2638 2650
+)
+"m_fmt.ml" 85 2654 2660 "m_fmt.ml" 85 2654 2710
+type(
+  unit
+)
+"m_fmt.ml" 86 2713 2719 "m_fmt.ml" 86 2713 2721
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 20 265 305 "m_fmt.ml" 20 265 307
+)
+"m_fmt.ml" 85 2654 2660 "m_fmt.ml" 86 2713 2721
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 87 2722 2734 "m_fmt.ml" 87 2722 2736
+type(
+  [ `Hide | `Use of bool ]
+)
+ident(
+  def uh "m_fmt.ml" 88 2745 2751 "m_fmt.ml" 97 3036 3067
+)
+"m_fmt.ml" 87 2722 2738 "m_fmt.ml" 87 2722 2740
+type(
+  Proof.T.usable
+)
+ident(
+  def us "m_fmt.ml" 88 2745 2751 "m_fmt.ml" 97 3036 3067
+)
+"m_fmt.ml" 87 2722 2726 "m_fmt.ml" 87 2722 2741
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_fmt.ml" 88 2745 2751 "m_fmt.ml" 88 2745 2758
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> Proof.T.usable -> unit) -> Proof.T.usable -> unit,
+   Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Proof.T.usable -> unit) -> Proof.T.usable -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"m_fmt.ml" 88 2745 2759 "m_fmt.ml" 88 2745 2761
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 20 265 308 "m_fmt.ml" 20 265 310
+)
+"m_fmt.ml" 88 2745 2762 "m_fmt.ml" 88 2745 2778
+type(
+  (string ->
+   (Format.formatter -> Proof.T.usable -> unit) -> Proof.T.usable -> unit,
+   Format.formatter, unit)
+  format
+)
+"m_fmt.ml" 89 2779 2794 "m_fmt.ml" 89 2779 2796
+type(
+  [ `Hide | `Use of bool ]
+)
+ident(
+  int_ref uh "m_fmt.ml" 87 2722 2734 "m_fmt.ml" 87 2722 2736
+)
+"m_fmt.ml" 90 2802 2820 "m_fmt.ml" 90 2802 2825
+type(
+  bool
+)
+"m_fmt.ml" 90 2802 2815 "m_fmt.ml" 90 2802 2825
+type(
+  [ `Hide | `Use of bool ]
+)
+type(
+  [ `Hide | `Use of bool ]
+)
+"m_fmt.ml" 90 2802 2829 "m_fmt.ml" 90 2802 2834
+type(
+  string
+)
+"m_fmt.ml" 91 2835 2853 "m_fmt.ml" 91 2835 2857
+type(
+  bool
+)
+"m_fmt.ml" 91 2835 2848 "m_fmt.ml" 91 2835 2857
+type(
+  [ `Hide | `Use of bool ]
+)
+type(
+  [ `Hide | `Use of bool ]
+)
+"m_fmt.ml" 91 2835 2861 "m_fmt.ml" 91 2835 2873
+type(
+  string
+)
+"m_fmt.ml" 92 2874 2887 "m_fmt.ml" 92 2874 2888
+type(
+  [ `Hide | `Use of bool ]
+)
+type(
+  [ `Hide | `Use of bool ]
+)
+"m_fmt.ml" 92 2874 2892 "m_fmt.ml" 92 2874 2898
+type(
+  string
+)
+"m_fmt.ml" 89 2779 2787 "m_fmt.ml" 92 2874 2899
+type(
+  string
+)
+"m_fmt.ml" 93 2900 2909 "m_fmt.ml" 93 2900 2934
+type(
+  Expr.Fmt.ctx -> Format.formatter -> Proof.T.usable -> unit
+)
+ident(
+  int_ref Proof.Fmt.pp_print_usable "proof.mli" 70 1962 1964 "proof.mli" 70 1962 2036
+)
+"m_fmt.ml" 93 2900 2935 "m_fmt.ml" 93 2900 2937
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 20 265 305 "m_fmt.ml" 20 265 307
+)
+"m_fmt.ml" 93 2900 2908 "m_fmt.ml" 93 2900 2938
+type(
+  Format.formatter -> Proof.T.usable -> unit
+)
+"m_fmt.ml" 93 2900 2939 "m_fmt.ml" 93 2900 2941
+type(
+  Proof.T.usable
+)
+ident(
+  int_ref us "m_fmt.ml" 87 2722 2738 "m_fmt.ml" 87 2722 2740
+)
+"m_fmt.ml" 88 2745 2751 "m_fmt.ml" 93 2900 2941
+type(
+  unit
+)
+"m_fmt.ml" 94 2944 2953 "m_fmt.ml" 94 2944 2955
+type(
+  [ `Hide | `Use of bool ]
+)
+ident(
+  int_ref uh "m_fmt.ml" 87 2722 2734 "m_fmt.ml" 87 2722 2736
+)
+"m_fmt.ml" 94 2944 2956 "m_fmt.ml" 94 2944 2957
+type(
+  [ `Hide | `Use of bool ] -> [ `Hide | `Use of bool ] -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_fmt.ml" 94 2944 2958 "m_fmt.ml" 94 2944 2963
+type(
+  [ `Hide | `Use of bool ]
+)
+"m_fmt.ml" 94 2944 2953 "m_fmt.ml" 94 2944 2963
+type(
+  bool
+)
+"m_fmt.ml" 94 2944 2969 "m_fmt.ml" 94 2944 2971
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 20 265 305 "m_fmt.ml" 20 265 307
+)
+"m_fmt.ml" 95 2977 2985 "m_fmt.ml" 95 2977 2999
+type(
+  (Expr.Fmt.ctx -> Expr.T.expr -> Expr.Fmt.ctx) ->
+  Expr.Fmt.ctx -> Expr.T.expr list -> Expr.Fmt.ctx
+)
+ident(
+  int_ref Ext.List.fold_left "ext.mli" 19 563 565 "ext.mli" 19 563 620
+)
+"m_fmt.ml" 96 3006 3020 "m_fmt.ml" 96 3006 3022
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  def cx "m_fmt.ml" 96 3006 3023 "m_fmt.ml" 96 3006 3035
+)
+"m_fmt.ml" 96 3006 3023 "m_fmt.ml" 96 3006 3024
+type(
+  Expr.T.expr
+)
+"m_fmt.ml" 96 3006 3028 "m_fmt.ml" 96 3006 3032
+type(
+  Expr.Fmt.ctx -> Expr.Fmt.ctx
+)
+ident(
+  int_ref Expr.Fmt.bump "expr.mli" 358 9186 9190 "expr.mli" 359 9200 9218
+)
+"m_fmt.ml" 96 3006 3033 "m_fmt.ml" 96 3006 3035
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 96 3006 3020 "m_fmt.ml" 96 3006 3022
+)
+"m_fmt.ml" 96 3006 3028 "m_fmt.ml" 96 3006 3035
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 95 2977 3000 "m_fmt.ml" 97 3036 3047
+type(
+  Expr.Fmt.ctx -> Expr.T.expr -> Expr.Fmt.ctx
+)
+"m_fmt.ml" 97 3036 3048 "m_fmt.ml" 97 3036 3050
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 20 265 305 "m_fmt.ml" 20 265 307
+)
+"m_fmt.ml" 97 3036 3051 "m_fmt.ml" 97 3036 3053
+type(
+  Proof.T.usable
+)
+ident(
+  int_ref us "m_fmt.ml" 87 2722 2738 "m_fmt.ml" 87 2722 2740
+)
+"m_fmt.ml" 97 3036 3051 "m_fmt.ml" 97 3036 3067
+type(
+  Expr.T.expr list
+)
+"m_fmt.ml" 95 2977 2985 "m_fmt.ml" 97 3036 3067
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 94 2944 2950 "m_fmt.ml" 97 3036 3067
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 88 2745 2751 "m_fmt.ml" 97 3036 3067
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 98 3068 3082 "m_fmt.ml" 98 3068 3085
+type(
+  Expr.T.instance
+)
+ident(
+  def ins "m_fmt.ml" 99 3095 3101 "m_fmt.ml" 102 3230 3238
+)
+"m_fmt.ml" 98 3068 3087 "m_fmt.ml" 98 3068 3090
+type(
+  Expr.T.export
+)
+ident(
+  def loc "m_fmt.ml" 99 3095 3101 "m_fmt.ml" 102 3230 3238
+)
+"m_fmt.ml" 98 3068 3072 "m_fmt.ml" 98 3068 3091
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_fmt.ml" 99 3095 3101 "m_fmt.ml" 99 3095 3108
+type(
+  Format.formatter ->
+  ((Format.formatter -> unit) ->
+   (Format.formatter -> Expr.T.instance -> unit) -> Expr.T.instance -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> unit) ->
+  (Format.formatter -> Expr.T.instance -> unit) -> Expr.T.instance -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"m_fmt.ml" 99 3095 3109 "m_fmt.ml" 99 3095 3111
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 20 265 308 "m_fmt.ml" 20 265 310
+)
+"m_fmt.ml" 99 3095 3112 "m_fmt.ml" 99 3095 3124
+type(
+  ((Format.formatter -> unit) ->
+   (Format.formatter -> Expr.T.instance -> unit) -> Expr.T.instance -> unit,
+   Format.formatter, unit)
+  format
+)
+"m_fmt.ml" 100 3125 3138 "m_fmt.ml" 100 3125 3140
+type(
+  Format.formatter
+)
+ident(
+  def ff "m_fmt.ml" 100 3125 3144 "m_fmt.ml" 100 3125 3191
+)
+"m_fmt.ml" 100 3125 3147 "m_fmt.ml" 100 3125 3150
+type(
+  Expr.T.export
+)
+ident(
+  int_ref loc "m_fmt.ml" 98 3068 3087 "m_fmt.ml" 98 3068 3090
+)
+"m_fmt.ml" 100 3125 3151 "m_fmt.ml" 100 3125 3152
+type(
+  Expr.T.export -> Expr.T.export -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_fmt.ml" 100 3125 3153 "m_fmt.ml" 100 3125 3158
+type(
+  Expr.T.export
+)
+"m_fmt.ml" 100 3125 3147 "m_fmt.ml" 100 3125 3158
+type(
+  bool
+)
+"m_fmt.ml" 100 3125 3164 "m_fmt.ml" 100 3125 3171
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"m_fmt.ml" 100 3125 3172 "m_fmt.ml" 100 3125 3174
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 100 3125 3138 "m_fmt.ml" 100 3125 3140
+)
+"m_fmt.ml" 100 3125 3175 "m_fmt.ml" 100 3125 3183
+type(
+  (unit, Format.formatter, unit) format
+)
+"m_fmt.ml" 100 3125 3164 "m_fmt.ml" 100 3125 3183
+type(
+  unit
+)
+"m_fmt.ml" 100 3125 3189 "m_fmt.ml" 100 3125 3191
+type(
+  unit
+)
+"m_fmt.ml" 100 3125 3144 "m_fmt.ml" 100 3125 3191
+type(
+  unit
+)
+"m_fmt.ml" 100 3125 3133 "m_fmt.ml" 100 3125 3192
+type(
+  Format.formatter -> unit
+)
+"m_fmt.ml" 101 3193 3202 "m_fmt.ml" 101 3193 3219
+type(
+  Expr.Fmt.ctx -> Format.formatter -> Expr.T.instance -> unit
+)
+ident(
+  int_ref Expr.Fmt.pp_print_instance "expr.mli" 413 10558 10562 "expr.mli" 416 10640 10656
+)
+"m_fmt.ml" 101 3193 3220 "m_fmt.ml" 101 3193 3222
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 20 265 305 "m_fmt.ml" 20 265 307
+)
+"m_fmt.ml" 101 3193 3201 "m_fmt.ml" 101 3193 3223
+type(
+  Format.formatter -> Expr.T.instance -> unit
+)
+"m_fmt.ml" 101 3193 3224 "m_fmt.ml" 101 3193 3227
+type(
+  Expr.T.instance
+)
+ident(
+  int_ref ins "m_fmt.ml" 98 3068 3082 "m_fmt.ml" 98 3068 3085
+)
+"m_fmt.ml" 99 3095 3101 "m_fmt.ml" 101 3193 3227
+type(
+  unit
+)
+"m_fmt.ml" 102 3230 3236 "m_fmt.ml" 102 3230 3238
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 20 265 305 "m_fmt.ml" 20 265 307
+)
+"m_fmt.ml" 99 3095 3101 "m_fmt.ml" 102 3230 3238
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 20 265 316 "m_fmt.ml" 102 3230 3238
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 104 3240 3244 "m_fmt.ml" 104 3240 3259
+type(
+  ?force:bool -> Expr.Fmt.ctx -> Format.formatter -> M_t.mule -> unit
+)
+ident(
+  def pp_print_module "m_fmt.ml" 20 265 265 "m_fmt.ml" 0 0 -1
+)
+"m_fmt.ml" 104 3240 3262 "m_fmt.ml" 104 3240 3267
+type(
+  bool
+)
+ident(
+  def force "m_fmt.ml" 104 3240 3275 "m_fmt.ml" 130 4059 4084
+)
+"m_fmt.ml" 104 3240 3268 "m_fmt.ml" 104 3240 3273
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "m_fmt.ml" 104 3240 3268 "m_fmt.ml" 104 3240 3273
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+ident(
+  def *sth* "m_fmt.ml" 104 3240 3268 "m_fmt.ml" 104 3240 3273
+)
+"m_fmt.ml" 104 3240 3275 "m_fmt.ml" 104 3240 3277
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  def cx "m_fmt.ml" 104 3240 3278 "m_fmt.ml" 130 4059 4084
+)
+"m_fmt.ml" 104 3240 3278 "m_fmt.ml" 104 3240 3280
+type(
+  Format.formatter
+)
+ident(
+  def ff "m_fmt.ml" 104 3240 3281 "m_fmt.ml" 130 4059 4084
+)
+"m_fmt.ml" 104 3240 3281 "m_fmt.ml" 104 3240 3282
+type(
+  M_t.mule
+)
+ident(
+  def m "m_fmt.ml" 105 3285 3287 "m_fmt.ml" 130 4059 4084
+)
+"m_fmt.ml" 105 3285 3287 "m_fmt.ml" 105 3285 3294
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"m_fmt.ml" 105 3285 3295 "m_fmt.ml" 105 3285 3297
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 104 3240 3278 "m_fmt.ml" 104 3240 3280
+)
+"m_fmt.ml" 105 3285 3298 "m_fmt.ml" 105 3285 3327
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"m_fmt.ml" 105 3285 3328 "m_fmt.ml" 105 3285 3329
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_fmt.ml" 104 3240 3281 "m_fmt.ml" 104 3240 3282
+)
+"m_fmt.ml" 105 3285 3328 "m_fmt.ml" 105 3285 3334
+type(
+  M_t.mule_
+)
+"m_fmt.ml" 105 3285 3328 "m_fmt.ml" 105 3285 3339
+type(
+  Util.hint
+)
+"m_fmt.ml" 105 3285 3328 "m_fmt.ml" 105 3285 3344
+type(
+  string
+)
+"m_fmt.ml" 105 3285 3287 "m_fmt.ml" 105 3285 3344
+type(
+  unit
+)
+"m_fmt.ml" 106 3347 3361 "m_fmt.ml" 106 3347 3362
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_fmt.ml" 104 3240 3281 "m_fmt.ml" 104 3240 3282
+)
+"m_fmt.ml" 106 3347 3361 "m_fmt.ml" 106 3347 3367
+type(
+  M_t.mule_
+)
+"m_fmt.ml" 106 3347 3361 "m_fmt.ml" 106 3347 3373
+type(
+  M_t.stage
+)
+"m_fmt.ml" 107 3379 3385 "m_fmt.ml" 107 3379 3391
+type(
+  M_t.stage
+)
+type(
+  M_t.stage
+)
+"m_fmt.ml" 107 3379 3397 "m_fmt.ml" 107 3379 3398
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_fmt.ml" 104 3240 3281 "m_fmt.ml" 104 3240 3282
+)
+"m_fmt.ml" 107 3379 3397 "m_fmt.ml" 107 3379 3403
+type(
+  M_t.mule_
+)
+"m_fmt.ml" 107 3379 3397 "m_fmt.ml" 107 3379 3413
+type(
+  Util.hints
+)
+"m_fmt.ml" 107 3379 3414 "m_fmt.ml" 107 3379 3416
+type(
+  Util.hints -> Util.hints -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 130 5559 5559 "stdlib.mli" 130 5559 5607
+)
+"m_fmt.ml" 107 3379 3417 "m_fmt.ml" 107 3379 3419
+type(
+  Util.hints
+)
+"m_fmt.ml" 107 3379 3397 "m_fmt.ml" 107 3379 3419
+type(
+  bool
+)
+"m_fmt.ml" 108 3423 3431 "m_fmt.ml" 108 3423 3438
+type(
+  Format.formatter ->
+  ((Format.formatter -> Util.hints -> unit) -> Util.hints -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Util.hints -> unit) -> Util.hints -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"m_fmt.ml" 108 3423 3439 "m_fmt.ml" 108 3423 3441
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 104 3240 3278 "m_fmt.ml" 104 3240 3280
+)
+"m_fmt.ml" 108 3423 3442 "m_fmt.ml" 108 3423 3464
+type(
+  ((Format.formatter -> Util.hints -> unit) -> Util.hints -> unit,
+   Format.formatter, unit)
+  format
+)
+"m_fmt.ml" 109 3465 3476 "m_fmt.ml" 109 3465 3494
+type(
+  ?sep:(Format.formatter -> unit -> unit) ->
+  (Format.formatter -> Util.hint -> unit) ->
+  Format.formatter -> Util.hints -> unit
+)
+ident(
+  int_ref Fmtutil.pp_print_delimited "fmtutil.mli" 21 493 493 "fmtutil.mli" 24 587 617
+)
+"m_fmt.ml" 109 3465 3495 "m_fmt.ml" 109 3465 3513
+type(
+  Format.formatter -> Util.hint -> unit
+)
+ident(
+  int_ref Util.pp_print_hint "util.mli" 26 523 523 "util.mli" 26 523 575
+)
+"m_fmt.ml" 109 3465 3475 "m_fmt.ml" 109 3465 3514
+type(
+  Format.formatter -> Util.hints -> unit
+)
+"m_fmt.ml" 109 3465 3515 "m_fmt.ml" 109 3465 3516
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_fmt.ml" 104 3240 3281 "m_fmt.ml" 104 3240 3282
+)
+"m_fmt.ml" 109 3465 3515 "m_fmt.ml" 109 3465 3521
+type(
+  M_t.mule_
+)
+"m_fmt.ml" 109 3465 3515 "m_fmt.ml" 109 3465 3531
+type(
+  Util.hints
+)
+"m_fmt.ml" 108 3423 3431 "m_fmt.ml" 109 3465 3531
+type(
+  unit
+)
+"m_fmt.ml" 110 3532 3538 "m_fmt.ml" 110 3532 3542
+type(
+  M_t.stage
+)
+type(
+  M_t.stage
+)
+"m_fmt.ml" 110 3532 3546 "m_fmt.ml" 110 3532 3553
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"m_fmt.ml" 110 3532 3554 "m_fmt.ml" 110 3532 3556
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 104 3240 3278 "m_fmt.ml" 104 3240 3280
+)
+"m_fmt.ml" 110 3532 3557 "m_fmt.ml" 110 3532 3569
+type(
+  (unit, Format.formatter, unit) format
+)
+"m_fmt.ml" 110 3532 3546 "m_fmt.ml" 110 3532 3569
+type(
+  unit
+)
+"m_fmt.ml" 111 3570 3576 "m_fmt.ml" 111 3570 3583
+type(
+  M_t.stage
+)
+type(
+  M_t.stage
+)
+"m_fmt.ml" 111 3570 3587 "m_fmt.ml" 111 3570 3594
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"m_fmt.ml" 111 3570 3595 "m_fmt.ml" 111 3570 3597
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 104 3240 3278 "m_fmt.ml" 104 3240 3280
+)
+"m_fmt.ml" 111 3570 3598 "m_fmt.ml" 111 3570 3613
+type(
+  (unit, Format.formatter, unit) format
+)
+"m_fmt.ml" 111 3570 3587 "m_fmt.ml" 111 3570 3613
+type(
+  unit
+)
+"m_fmt.ml" 112 3614 3620 "m_fmt.ml" 112 3614 3626
+type(
+  M_t.stage
+)
+type(
+  M_t.stage
+)
+"m_fmt.ml" 112 3614 3630 "m_fmt.ml" 112 3614 3637
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"m_fmt.ml" 112 3614 3638 "m_fmt.ml" 112 3614 3640
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 104 3240 3278 "m_fmt.ml" 104 3240 3280
+)
+"m_fmt.ml" 112 3614 3641 "m_fmt.ml" 112 3614 3673
+type(
+  (unit, Format.formatter, unit) format
+)
+"m_fmt.ml" 112 3614 3630 "m_fmt.ml" 112 3614 3673
+type(
+  unit
+)
+"m_fmt.ml" 113 3674 3680 "m_fmt.ml" 113 3674 3681
+type(
+  M_t.stage
+)
+type(
+  M_t.stage
+)
+"m_fmt.ml" 113 3674 3685 "m_fmt.ml" 113 3674 3687
+type(
+  unit
+)
+"m_fmt.ml" 106 3347 3349 "m_fmt.ml" 114 3688 3693
+type(
+  unit
+)
+"m_fmt.ml" 115 3696 3698 "m_fmt.ml" 115 3696 3704
+type(
+  Expr.Fmt.ctx -> unit
+)
+ident(
+  int_ref Stdlib.ignore "stdlib.mli" 723 27015 27015 "stdlib.mli" 723 27015 27055
+)
+"m_fmt.ml" 116 3711 3715 "m_fmt.ml" 116 3711 3729
+type(
+  (Expr.Fmt.ctx -> M_t.modunit -> Expr.Fmt.ctx) ->
+  Expr.Fmt.ctx -> M_t.modunit list -> Expr.Fmt.ctx
+)
+ident(
+  int_ref Ext.List.fold_left "ext.mli" 19 563 565 "ext.mli" 19 563 620
+)
+"m_fmt.ml" 117 3736 3746 "m_fmt.ml" 117 3736 3748
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  def cx "m_fmt.ml" 117 3736 3749 "m_fmt.ml" 118 3755 3801
+)
+"m_fmt.ml" 117 3736 3749 "m_fmt.ml" 117 3736 3751
+type(
+  M_t.modunit
+)
+ident(
+  def mu "m_fmt.ml" 118 3755 3763 "m_fmt.ml" 118 3755 3801
+)
+"m_fmt.ml" 118 3755 3763 "m_fmt.ml" 118 3755 3779
+type(
+  ?force:bool ->
+  Expr.Fmt.ctx -> Format.formatter -> M_t.modunit -> Expr.Fmt.ctx
+)
+ident(
+  int_ref pp_print_modunit "m_fmt.ml" 20 265 273 "m_fmt.ml" 20 265 289
+)
+"m_fmt.ml" 118 3755 3787 "m_fmt.ml" 118 3755 3792
+type(
+  bool
+)
+ident(
+  int_ref force "m_fmt.ml" 104 3240 3262 "m_fmt.ml" 104 3240 3267
+)
+type(
+  bool option
+)
+"m_fmt.ml" 118 3755 3793 "m_fmt.ml" 118 3755 3795
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 117 3736 3746 "m_fmt.ml" 117 3736 3748
+)
+"m_fmt.ml" 118 3755 3796 "m_fmt.ml" 118 3755 3798
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 104 3240 3278 "m_fmt.ml" 104 3240 3280
+)
+"m_fmt.ml" 118 3755 3799 "m_fmt.ml" 118 3755 3801
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_fmt.ml" 117 3736 3749 "m_fmt.ml" 117 3736 3751
+)
+"m_fmt.ml" 118 3755 3763 "m_fmt.ml" 118 3755 3801
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 116 3711 3730 "m_fmt.ml" 119 3802 3809
+type(
+  Expr.Fmt.ctx -> M_t.modunit -> Expr.Fmt.ctx
+)
+"m_fmt.ml" 119 3802 3810 "m_fmt.ml" 119 3802 3812
+type(
+  Expr.Fmt.ctx
+)
+ident(
+  int_ref cx "m_fmt.ml" 104 3240 3275 "m_fmt.ml" 104 3240 3277
+)
+"m_fmt.ml" 119 3802 3813 "m_fmt.ml" 119 3802 3814
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_fmt.ml" 104 3240 3281 "m_fmt.ml" 104 3240 3282
+)
+"m_fmt.ml" 119 3802 3813 "m_fmt.ml" 119 3802 3819
+type(
+  M_t.mule_
+)
+"m_fmt.ml" 119 3802 3813 "m_fmt.ml" 119 3802 3824
+type(
+  M_t.modunit list
+)
+"m_fmt.ml" 115 3696 3705 "m_fmt.ml" 120 3825 3830
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 115 3696 3698 "m_fmt.ml" 120 3825 3830
+type(
+  unit
+)
+"m_fmt.ml" 130 4059 4061 "m_fmt.ml" 130 4059 4068
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"m_fmt.ml" 130 4059 4069 "m_fmt.ml" 130 4059 4071
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 104 3240 3278 "m_fmt.ml" 104 3240 3280
+)
+"m_fmt.ml" 130 4059 4072 "m_fmt.ml" 130 4059 4084
+type(
+  (unit, Format.formatter, unit) format
+)
+"m_fmt.ml" 130 4059 4061 "m_fmt.ml" 130 4059 4084
+type(
+  unit
+)
+"m_fmt.ml" 115 3696 3698 "m_fmt.ml" 130 4059 4084
+type(
+  unit
+)
+"m_fmt.ml" 106 3347 3349 "m_fmt.ml" 130 4059 4084
+type(
+  unit
+)
+"m_fmt.ml" 105 3285 3287 "m_fmt.ml" 130 4059 4084
+type(
+  unit
+)
+"m_fmt.ml" 132 4086 4090 "m_fmt.ml" 132 4086 4105
+type(
+  Format.formatter -> M_t.mule Util.Coll.Sm.t -> unit
+)
+ident(
+  def pp_print_modctx "m_fmt.ml" 140 4271 4271 "m_fmt.ml" 0 0 -1
+)
+"m_fmt.ml" 132 4086 4106 "m_fmt.ml" 132 4086 4108
+type(
+  Format.formatter
+)
+ident(
+  def ff "m_fmt.ml" 132 4086 4109 "m_fmt.ml" 138 4249 4269
+)
+"m_fmt.ml" 132 4086 4109 "m_fmt.ml" 132 4086 4112
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  def mcx "m_fmt.ml" 133 4115 4117 "m_fmt.ml" 138 4249 4269
+)
+"m_fmt.ml" 133 4115 4117 "m_fmt.ml" 133 4115 4129
+type(
+  Format.formatter -> int -> unit
+)
+ident(
+  int_ref Stdlib.Format.pp_open_vbox "format.mli" 179 7828 7828 "format.mli" 179 7828 7871
+)
+"m_fmt.ml" 133 4115 4130 "m_fmt.ml" 133 4115 4132
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 132 4086 4106 "m_fmt.ml" 132 4086 4108
+)
+"m_fmt.ml" 133 4115 4133 "m_fmt.ml" 133 4115 4134
+type(
+  int
+)
+"m_fmt.ml" 133 4115 4117 "m_fmt.ml" 133 4115 4134
+type(
+  unit
+)
+"m_fmt.ml" 134 4137 4139 "m_fmt.ml" 134 4137 4146
+type(
+  (Util.Coll.Sm.key -> M_t.mule -> unit) -> M_t.mule Util.Coll.Sm.t -> unit
+)
+ident(
+  int_ref Util.Coll.Sm.iter "map.mli" 154 6537 6541 "map.mli" 154 6537 6586
+)
+"m_fmt.ml" 135 4147 4156 "m_fmt.ml" 135 4147 4157
+type(
+  Util.Coll.Sm.key
+)
+"m_fmt.ml" 135 4147 4158 "m_fmt.ml" 135 4147 4159
+type(
+  M_t.mule
+)
+ident(
+  def m "m_fmt.ml" 136 4163 4170 "m_fmt.ml" 137 4216 4241
+)
+"m_fmt.ml" 136 4163 4170 "m_fmt.ml" 136 4163 4185
+type(
+  ?force:bool -> Expr.Fmt.ctx -> Format.formatter -> M_t.mule -> unit
+)
+ident(
+  int_ref pp_print_module "m_fmt.ml" 104 3240 3244 "m_fmt.ml" 104 3240 3259
+)
+"m_fmt.ml" 136 4163 4187 "m_fmt.ml" 136 4163 4198
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"m_fmt.ml" 136 4163 4200 "m_fmt.ml" 136 4163 4207
+type(
+  int Ctx.ctx
+)
+ident(
+  int_ref Ctx.dot "ctx.mli" 20 424 424 "ctx.mli" 20 424 439
+)
+"m_fmt.ml" 136 4163 4186 "m_fmt.ml" 136 4163 4208
+type(
+  Expr.Fmt.ctx
+)
+"m_fmt.ml" 136 4163 4209 "m_fmt.ml" 136 4163 4211
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 132 4086 4106 "m_fmt.ml" 132 4086 4108
+)
+"m_fmt.ml" 136 4163 4212 "m_fmt.ml" 136 4163 4213
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_fmt.ml" 135 4147 4158 "m_fmt.ml" 135 4147 4159
+)
+"m_fmt.ml" 136 4163 4170 "m_fmt.ml" 136 4163 4213
+type(
+  unit
+)
+"m_fmt.ml" 137 4216 4223 "m_fmt.ml" 137 4216 4235
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref Stdlib.Format.pp_print_cut "format.mli" 282 11362 11362 "format.mli" 282 11362 11406
+)
+"m_fmt.ml" 137 4216 4236 "m_fmt.ml" 137 4216 4238
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 132 4086 4106 "m_fmt.ml" 132 4086 4108
+)
+"m_fmt.ml" 137 4216 4239 "m_fmt.ml" 137 4216 4241
+type(
+  unit
+)
+"m_fmt.ml" 137 4216 4223 "m_fmt.ml" 137 4216 4241
+type(
+  unit
+)
+"m_fmt.ml" 136 4163 4170 "m_fmt.ml" 137 4216 4241
+type(
+  unit
+)
+"m_fmt.ml" 135 4147 4151 "m_fmt.ml" 137 4216 4242
+type(
+  Util.Coll.Sm.key -> M_t.mule -> unit
+)
+"m_fmt.ml" 137 4216 4243 "m_fmt.ml" 137 4216 4246
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref mcx "m_fmt.ml" 132 4086 4109 "m_fmt.ml" 132 4086 4112
+)
+"m_fmt.ml" 134 4137 4139 "m_fmt.ml" 137 4216 4246
+type(
+  unit
+)
+"m_fmt.ml" 138 4249 4251 "m_fmt.ml" 138 4249 4263
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref Stdlib.Format.pp_close_box "format.mli" 165 7379 7379 "format.mli" 165 7379 7423
+)
+"m_fmt.ml" 138 4249 4264 "m_fmt.ml" 138 4249 4266
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "m_fmt.ml" 132 4086 4106 "m_fmt.ml" 132 4086 4108
+)
+"m_fmt.ml" 138 4249 4267 "m_fmt.ml" 138 4249 4269
+type(
+  unit
+)
+"m_fmt.ml" 138 4249 4251 "m_fmt.ml" 138 4249 4269
+type(
+  unit
+)
+"m_fmt.ml" 134 4137 4139 "m_fmt.ml" 138 4249 4269
+type(
+  unit
+)
+"m_fmt.ml" 133 4115 4117 "m_fmt.ml" 138 4249 4269
+type(
+  unit
+)
+"m_fmt.ml" 140 4271 4275 "m_fmt.ml" 140 4271 4282
+type(
+  M_t.mule_ Property.wrapped -> unit
+)
+ident(
+  def summary "m_fmt.ml" 184 6457 6468 "m_fmt.ml" 0 0 -1
+)
+"m_fmt.ml" 140 4271 4283 "m_fmt.ml" 140 4271 4287
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  def mule "m_fmt.ml" 140 4271 4290 "m_fmt.ml" 184 6457 6468
+)
+"m_fmt.ml" 140 4271 4296 "m_fmt.ml" 140 4271 4300
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  int_ref mule "m_fmt.ml" 140 4271 4283 "m_fmt.ml" 140 4271 4287
+)
+"m_fmt.ml" 140 4271 4296 "m_fmt.ml" 140 4271 4305
+type(
+  M_t.mule_
+)
+"m_fmt.ml" 140 4271 4296 "m_fmt.ml" 140 4271 4311
+type(
+  M_t.stage
+)
+"m_fmt.ml" 141 4317 4345 "m_fmt.ml" 141 4317 4349
+type(
+  M_t.status
+)
+ident(
+  def stat "m_fmt.ml" 142 4362 4368 "m_fmt.ml" 183 6433 6456
+)
+"m_fmt.ml" 141 4317 4351 "m_fmt.ml" 141 4317 4355
+type(
+  M_t.summary
+)
+ident(
+  def summ "m_fmt.ml" 142 4362 4368 "m_fmt.ml" 183 6433 6456
+)
+"m_fmt.ml" 141 4317 4344 "m_fmt.ml" 141 4317 4356
+type(
+  M_t.status * M_t.summary
+)
+"m_fmt.ml" 141 4317 4327 "m_fmt.ml" 141 4317 4358
+type(
+  M_t.final
+)
+"m_fmt.ml" 141 4317 4321 "m_fmt.ml" 141 4317 4358
+type(
+  M_t.stage
+)
+type(
+  M_t.stage
+)
+"m_fmt.ml" 142 4362 4368 "m_fmt.ml" 142 4362 4374
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1239 47846 47846 "format.mli" 1239 47846 47893
+)
+"m_fmt.ml" 142 4362 4375 "m_fmt.ml" 142 4362 4415
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"m_fmt.ml" 142 4362 4416 "m_fmt.ml" 142 4362 4420
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  int_ref mule "m_fmt.ml" 140 4271 4283 "m_fmt.ml" 140 4271 4287
+)
+"m_fmt.ml" 142 4362 4416 "m_fmt.ml" 142 4362 4425
+type(
+  M_t.mule_
+)
+"m_fmt.ml" 142 4362 4416 "m_fmt.ml" 142 4362 4430
+type(
+  Util.hint
+)
+"m_fmt.ml" 142 4362 4416 "m_fmt.ml" 142 4362 4435
+type(
+  string
+)
+"m_fmt.ml" 142 4362 4368 "m_fmt.ml" 142 4362 4435
+type(
+  unit
+)
+"m_fmt.ml" 143 4438 4444 "m_fmt.ml" 143 4438 4450
+type(
+  (int -> unit, Format.formatter, unit) format -> int -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1239 47846 47846 "format.mli" 1239 47846 47893
+)
+"m_fmt.ml" 143 4438 4451 "m_fmt.ml" 143 4438 4479
+type(
+  (int -> unit, Format.formatter, unit) format
+)
+"m_fmt.ml" 143 4438 4480 "m_fmt.ml" 143 4438 4484
+type(
+  M_t.summary
+)
+ident(
+  int_ref summ "m_fmt.ml" 141 4317 4351 "m_fmt.ml" 141 4317 4355
+)
+"m_fmt.ml" 143 4438 4480 "m_fmt.ml" 143 4438 4494
+type(
+  int
+)
+"m_fmt.ml" 143 4438 4444 "m_fmt.ml" 143 4438 4494
+type(
+  unit
+)
+"m_fmt.ml" 144 4497 4506 "m_fmt.ml" 144 4497 4509
+type(
+  int * Loc.locus list -> int
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"m_fmt.ml" 144 4497 4510 "m_fmt.ml" 144 4497 4514
+type(
+  M_t.summary
+)
+ident(
+  int_ref summ "m_fmt.ml" 141 4317 4351 "m_fmt.ml" 141 4317 4355
+)
+"m_fmt.ml" 144 4497 4510 "m_fmt.ml" 144 4497 4529
+type(
+  int * Loc.locus list
+)
+"m_fmt.ml" 144 4497 4506 "m_fmt.ml" 144 4497 4529
+type(
+  int
+)
+"m_fmt.ml" 144 4497 4530 "m_fmt.ml" 144 4497 4532
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 130 5559 5559 "stdlib.mli" 130 5559 5607
+)
+"m_fmt.ml" 144 4497 4533 "m_fmt.ml" 144 4497 4534
+type(
+  int
+)
+"m_fmt.ml" 144 4497 4506 "m_fmt.ml" 144 4497 4534
+type(
+  bool
+)
+"m_fmt.ml" 144 4497 4535 "m_fmt.ml" 144 4497 4537
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"m_fmt.ml" 144 4497 4538 "m_fmt.ml" 144 4497 4539
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_fmt.ml" 144 4497 4539 "m_fmt.ml" 144 4497 4553
+type(
+  bool ref
+)
+ident(
+  int_ref Params.verbose "params.mli" 13 193 193 "params.mli" 13 193 215
+)
+"m_fmt.ml" 144 4497 4538 "m_fmt.ml" 144 4497 4553
+type(
+  bool
+)
+"m_fmt.ml" 144 4497 4506 "m_fmt.ml" 144 4497 4553
+type(
+  bool
+)
+"m_fmt.ml" 145 4559 4567 "m_fmt.ml" 145 4559 4573
+type(
+  (int -> unit, Format.formatter, unit) format -> int -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1239 47846 47846 "format.mli" 1239 47846 47893
+)
+"m_fmt.ml" 145 4559 4574 "m_fmt.ml" 145 4559 4613
+type(
+  (int -> unit, Format.formatter, unit) format
+)
+"m_fmt.ml" 145 4559 4615 "m_fmt.ml" 145 4559 4618
+type(
+  int * Loc.locus list -> int
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"m_fmt.ml" 145 4559 4619 "m_fmt.ml" 145 4559 4623
+type(
+  M_t.summary
+)
+ident(
+  int_ref summ "m_fmt.ml" 141 4317 4351 "m_fmt.ml" 141 4317 4355
+)
+"m_fmt.ml" 145 4559 4619 "m_fmt.ml" 145 4559 4638
+type(
+  int * Loc.locus list
+)
+"m_fmt.ml" 145 4559 4614 "m_fmt.ml" 145 4559 4639
+type(
+  int
+)
+"m_fmt.ml" 145 4559 4567 "m_fmt.ml" 145 4559 4639
+type(
+  unit
+)
+"m_fmt.ml" 144 4497 4503 "m_fmt.ml" 145 4559 4639
+type(
+  unit
+)
+"m_fmt.ml" 146 4642 4651 "m_fmt.ml" 146 4642 4654
+type(
+  int * Loc.locus list -> int
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"m_fmt.ml" 146 4642 4655 "m_fmt.ml" 146 4642 4659
+type(
+  M_t.summary
+)
+ident(
+  int_ref summ "m_fmt.ml" 141 4317 4351 "m_fmt.ml" 141 4317 4355
+)
+"m_fmt.ml" 146 4642 4655 "m_fmt.ml" 146 4642 4670
+type(
+  int * Loc.locus list
+)
+"m_fmt.ml" 146 4642 4651 "m_fmt.ml" 146 4642 4670
+type(
+  int
+)
+"m_fmt.ml" 146 4642 4671 "m_fmt.ml" 146 4642 4673
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 130 5559 5559 "stdlib.mli" 130 5559 5607
+)
+"m_fmt.ml" 146 4642 4674 "m_fmt.ml" 146 4642 4675
+type(
+  int
+)
+"m_fmt.ml" 146 4642 4651 "m_fmt.ml" 146 4642 4675
+type(
+  bool
+)
+"m_fmt.ml" 147 4681 4689 "m_fmt.ml" 147 4681 4695
+type(
+  (int -> unit, Format.formatter, unit) format -> int -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1239 47846 47846 "format.mli" 1239 47846 47893
+)
+"m_fmt.ml" 147 4681 4696 "m_fmt.ml" 147 4681 4727
+type(
+  (int -> unit, Format.formatter, unit) format
+)
+"m_fmt.ml" 147 4681 4729 "m_fmt.ml" 147 4681 4732
+type(
+  int * Loc.locus list -> int
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"m_fmt.ml" 147 4681 4733 "m_fmt.ml" 147 4681 4737
+type(
+  M_t.summary
+)
+ident(
+  int_ref summ "m_fmt.ml" 141 4317 4351 "m_fmt.ml" 141 4317 4355
+)
+"m_fmt.ml" 147 4681 4733 "m_fmt.ml" 147 4681 4748
+type(
+  int * Loc.locus list
+)
+"m_fmt.ml" 147 4681 4728 "m_fmt.ml" 147 4681 4749
+type(
+  int
+)
+"m_fmt.ml" 147 4681 4689 "m_fmt.ml" 147 4681 4749
+type(
+  unit
+)
+"m_fmt.ml" 146 4642 4648 "m_fmt.ml" 147 4681 4749
+type(
+  unit
+)
+"m_fmt.ml" 148 4752 4761 "m_fmt.ml" 148 4752 4764
+type(
+  int * Loc.locus list -> int
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"m_fmt.ml" 148 4752 4765 "m_fmt.ml" 148 4752 4769
+type(
+  M_t.summary
+)
+ident(
+  int_ref summ "m_fmt.ml" 141 4317 4351 "m_fmt.ml" 141 4317 4355
+)
+"m_fmt.ml" 148 4752 4765 "m_fmt.ml" 148 4752 4781
+type(
+  int * Loc.locus list
+)
+"m_fmt.ml" 148 4752 4761 "m_fmt.ml" 148 4752 4781
+type(
+  int
+)
+"m_fmt.ml" 148 4752 4782 "m_fmt.ml" 148 4752 4784
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 130 5559 5559 "stdlib.mli" 130 5559 5607
+)
+"m_fmt.ml" 148 4752 4785 "m_fmt.ml" 148 4752 4786
+type(
+  int
+)
+"m_fmt.ml" 148 4752 4761 "m_fmt.ml" 148 4752 4786
+type(
+  bool
+)
+"m_fmt.ml" 149 4792 4800 "m_fmt.ml" 149 4792 4806
+type(
+  (int -> unit, Format.formatter, unit) format -> int -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1239 47846 47846 "format.mli" 1239 47846 47893
+)
+"m_fmt.ml" 149 4792 4807 "m_fmt.ml" 149 4792 4838
+type(
+  (int -> unit, Format.formatter, unit) format
+)
+"m_fmt.ml" 149 4792 4840 "m_fmt.ml" 149 4792 4843
+type(
+  int * Loc.locus list -> int
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"m_fmt.ml" 149 4792 4844 "m_fmt.ml" 149 4792 4848
+type(
+  M_t.summary
+)
+ident(
+  int_ref summ "m_fmt.ml" 141 4317 4351 "m_fmt.ml" 141 4317 4355
+)
+"m_fmt.ml" 149 4792 4844 "m_fmt.ml" 149 4792 4860
+type(
+  int * Loc.locus list
+)
+"m_fmt.ml" 149 4792 4839 "m_fmt.ml" 149 4792 4861
+type(
+  int
+)
+"m_fmt.ml" 149 4792 4800 "m_fmt.ml" 149 4792 4861
+type(
+  unit
+)
+"m_fmt.ml" 148 4752 4758 "m_fmt.ml" 149 4792 4861
+type(
+  unit
+)
+"m_fmt.ml" 150 4864 4874 "m_fmt.ml" 150 4864 4881
+type(
+  int ref
+)
+ident(
+  def no_miss "m_fmt.ml" 151 4893 4899 "m_fmt.ml" 183 6433 6456
+)
+"m_fmt.ml" 150 4864 4884 "m_fmt.ml" 150 4864 4887
+type(
+  int -> int ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"m_fmt.ml" 150 4864 4888 "m_fmt.ml" 150 4864 4889
+type(
+  int
+)
+"m_fmt.ml" 150 4864 4884 "m_fmt.ml" 150 4864 4889
+type(
+  int ref
+)
+"m_fmt.ml" 151 4893 4903 "m_fmt.ml" 151 4893 4908
+type(
+  int ref
+)
+ident(
+  def no_om "m_fmt.ml" 152 4920 4926 "m_fmt.ml" 183 6433 6456
+)
+"m_fmt.ml" 151 4893 4911 "m_fmt.ml" 151 4893 4914
+type(
+  int -> int ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"m_fmt.ml" 151 4893 4915 "m_fmt.ml" 151 4893 4916
+type(
+  int
+)
+"m_fmt.ml" 151 4893 4911 "m_fmt.ml" 151 4893 4916
+type(
+  int ref
+)
+"m_fmt.ml" 152 4920 4926 "m_fmt.ml" 152 4920 4935
+type(
+  (M_t.modunit -> unit) -> M_t.modunit list -> unit
+)
+ident(
+  int_ref Ext.List.iter "ext.mli" 16 424 426 "ext.mli" 16 424 468
+)
+"m_fmt.ml" 153 4942 4954 "m_fmt.ml" 153 4942 4956
+type(
+  M_t.modunit
+)
+ident(
+  def mu "m_fmt.ml" 153 4942 4960 "m_fmt.ml" 181 6386 6405
+)
+"m_fmt.ml" 153 4942 4966 "m_fmt.ml" 153 4942 4968
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_fmt.ml" 153 4942 4954 "m_fmt.ml" 153 4942 4956
+)
+"m_fmt.ml" 153 4942 4966 "m_fmt.ml" 153 4942 4973
+type(
+  M_t.modunit_
+)
+"m_fmt.ml" 154 4979 5000 "m_fmt.ml" 154 4979 5001
+type(
+  Util.hint option
+)
+"m_fmt.ml" 154 4979 5003 "m_fmt.ml" 154 4979 5004
+type(
+  Expr.T.sequent
+)
+"m_fmt.ml" 154 4979 5006 "m_fmt.ml" 154 4979 5007
+type(
+  int
+)
+"m_fmt.ml" 154 4979 5009 "m_fmt.ml" 154 4979 5011
+type(
+  Proof.T.proof
+)
+ident(
+  def pf "m_fmt.ml" 154 4979 5031 "m_fmt.ml" 180 6370 6385
+)
+"m_fmt.ml" 154 4979 5013 "m_fmt.ml" 154 4979 5020
+type(
+  Proof.T.proof
+)
+ident(
+  def pf_orig "m_fmt.ml" 154 4979 5031 "m_fmt.ml" 180 6370 6385
+)
+"m_fmt.ml" 154 4979 5022 "m_fmt.ml" 154 4979 5026
+type(
+  M_t.summary
+)
+ident(
+  def summ "m_fmt.ml" 154 4979 5031 "m_fmt.ml" 180 6370 6385
+)
+"m_fmt.ml" 154 4979 4991 "m_fmt.ml" 154 4979 5027
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_fmt.ml" 154 4979 5043 "m_fmt.ml" 154 4979 5045
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref pf "m_fmt.ml" 154 4979 5009 "m_fmt.ml" 154 4979 5011
+)
+"m_fmt.ml" 154 4979 5043 "m_fmt.ml" 154 4979 5050
+type(
+  Proof.T.proof_
+)
+"m_fmt.ml" 155 5056 5107 "m_fmt.ml" 155 5056 5108
+type(
+  Loc.locus
+)
+"m_fmt.ml" 155 5056 5088 "m_fmt.ml" 155 5056 5109
+type(
+  Proof.T.omission
+)
+"m_fmt.ml" 155 5056 5072 "m_fmt.ml" 155 5056 5109
+type(
+  Proof.T.proof_
+)
+type(
+  Proof.T.proof_
+)
+"m_fmt.ml" 155 5056 5113 "m_fmt.ml" 155 5056 5115
+type(
+  unit
+)
+"m_fmt.ml" 156 5116 5132 "m_fmt.ml" 156 5116 5133
+type(
+  Proof.T.proof_
+)
+type(
+  Proof.T.proof_
+)
+"m_fmt.ml" 157 5137 5158 "m_fmt.ml" 157 5137 5161
+type(
+  int * Loc.locus list -> int
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"m_fmt.ml" 157 5137 5162 "m_fmt.ml" 157 5137 5166
+type(
+  M_t.summary
+)
+ident(
+  int_ref summ "m_fmt.ml" 154 4979 5022 "m_fmt.ml" 154 4979 5026
+)
+"m_fmt.ml" 157 5137 5162 "m_fmt.ml" 157 5137 5177
+type(
+  int * Loc.locus list
+)
+"m_fmt.ml" 157 5137 5158 "m_fmt.ml" 157 5137 5177
+type(
+  int
+)
+"m_fmt.ml" 157 5137 5178 "m_fmt.ml" 157 5137 5179
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"m_fmt.ml" 157 5137 5180 "m_fmt.ml" 157 5137 5183
+type(
+  int * Loc.locus list -> int
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"m_fmt.ml" 157 5137 5184 "m_fmt.ml" 157 5137 5188
+type(
+  M_t.summary
+)
+ident(
+  int_ref summ "m_fmt.ml" 154 4979 5022 "m_fmt.ml" 154 4979 5026
+)
+"m_fmt.ml" 157 5137 5184 "m_fmt.ml" 157 5137 5200
+type(
+  int * Loc.locus list
+)
+"m_fmt.ml" 157 5137 5180 "m_fmt.ml" 157 5137 5200
+type(
+  int
+)
+"m_fmt.ml" 157 5137 5158 "m_fmt.ml" 157 5137 5200
+type(
+  int
+)
+"m_fmt.ml" 157 5137 5201 "m_fmt.ml" 157 5137 5202
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 140 5875 5875 "stdlib.mli" 140 5875 5925
+)
+"m_fmt.ml" 157 5137 5203 "m_fmt.ml" 157 5137 5204
+type(
+  int
+)
+"m_fmt.ml" 157 5137 5158 "m_fmt.ml" 157 5137 5204
+type(
+  bool
+)
+"m_fmt.ml" 158 5216 5236 "m_fmt.ml" 158 5216 5242
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1239 47846 47846 "format.mli" 1239 47846 47893
+)
+"m_fmt.ml" 158 5216 5243 "m_fmt.ml" 158 5216 5298
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"m_fmt.ml" 159 5299 5322 "m_fmt.ml" 159 5299 5348
+type(
+  Loc.locus -> string
+)
+ident(
+  int_ref Loc.string_of_locus_nofile "loc.mli" 67 1887 1887 "loc.mli" 67 1887 1931
+)
+"m_fmt.ml" 159 5299 5350 "m_fmt.ml" 159 5299 5361
+type(
+  Loc.locus -> Loc.locus
+)
+ident(
+  int_ref Loc.left_of "loc.mli" 47 1299 1299 "loc.mli" 47 1299 1327
+)
+"m_fmt.ml" 159 5299 5363 "m_fmt.ml" 159 5299 5377
+type(
+  M_t.modunit -> Loc.locus
+)
+ident(
+  int_ref Util.get_locus "util.mli" 17 279 279 "util.mli" 17 279 320
+)
+"m_fmt.ml" 159 5299 5378 "m_fmt.ml" 159 5299 5380
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_fmt.ml" 153 4942 4954 "m_fmt.ml" 153 4942 4956
+)
+"m_fmt.ml" 159 5299 5362 "m_fmt.ml" 159 5299 5381
+type(
+  Loc.locus
+)
+"m_fmt.ml" 159 5299 5349 "m_fmt.ml" 159 5299 5382
+type(
+  Loc.locus
+)
+"m_fmt.ml" 159 5299 5321 "m_fmt.ml" 159 5299 5383
+type(
+  string
+)
+"m_fmt.ml" 158 5216 5236 "m_fmt.ml" 159 5299 5383
+type(
+  unit
+)
+"m_fmt.ml" 160 5386 5409 "m_fmt.ml" 160 5386 5412
+type(
+  int * Loc.locus list -> int
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"m_fmt.ml" 160 5386 5413 "m_fmt.ml" 160 5386 5417
+type(
+  M_t.summary
+)
+ident(
+  int_ref summ "m_fmt.ml" 154 4979 5022 "m_fmt.ml" 154 4979 5026
+)
+"m_fmt.ml" 160 5386 5413 "m_fmt.ml" 160 5386 5428
+type(
+  int * Loc.locus list
+)
+"m_fmt.ml" 160 5386 5409 "m_fmt.ml" 160 5386 5428
+type(
+  int
+)
+"m_fmt.ml" 160 5386 5429 "m_fmt.ml" 160 5386 5430
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 140 5875 5875 "stdlib.mli" 140 5875 5925
+)
+"m_fmt.ml" 160 5386 5431 "m_fmt.ml" 160 5386 5432
+type(
+  int
+)
+"m_fmt.ml" 160 5386 5409 "m_fmt.ml" 160 5386 5432
+type(
+  bool
+)
+"m_fmt.ml" 161 5444 5466 "m_fmt.ml" 161 5444 5472
+type(
+  (int -> unit, Format.formatter, unit) format -> int -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1239 47846 47846 "format.mli" 1239 47846 47893
+)
+"m_fmt.ml" 161 5444 5473 "m_fmt.ml" 161 5444 5504
+type(
+  (int -> unit, Format.formatter, unit) format
+)
+"m_fmt.ml" 161 5444 5506 "m_fmt.ml" 161 5444 5509
+type(
+  int * Loc.locus list -> int
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"m_fmt.ml" 161 5444 5510 "m_fmt.ml" 161 5444 5514
+type(
+  M_t.summary
+)
+ident(
+  int_ref summ "m_fmt.ml" 154 4979 5022 "m_fmt.ml" 154 4979 5026
+)
+"m_fmt.ml" 161 5444 5510 "m_fmt.ml" 161 5444 5525
+type(
+  int * Loc.locus list
+)
+"m_fmt.ml" 161 5444 5505 "m_fmt.ml" 161 5444 5526
+type(
+  int
+)
+"m_fmt.ml" 161 5444 5466 "m_fmt.ml" 161 5444 5526
+type(
+  unit
+)
+"m_fmt.ml" 162 5529 5551 "m_fmt.ml" 162 5529 5560
+type(
+  (Loc.locus -> unit) -> Loc.locus list -> unit
+)
+ident(
+  int_ref Ext.List.iter "ext.mli" 16 424 426 "ext.mli" 16 424 468
+)
+"m_fmt.ml" 163 5567 5595 "m_fmt.ml" 163 5567 5598
+type(
+  Loc.locus
+)
+ident(
+  def loc "m_fmt.ml" 164 5602 5628 "m_fmt.ml" 166 5704 5773
+)
+"m_fmt.ml" 164 5602 5628 "m_fmt.ml" 164 5602 5632
+type(
+  int ref -> unit
+)
+ident(
+  int_ref Stdlib.incr "stdlib.mli" 1227 46731 46731 "stdlib.mli" 1227 46731 46772
+)
+"m_fmt.ml" 164 5602 5633 "m_fmt.ml" 164 5602 5640
+type(
+  int ref
+)
+ident(
+  int_ref no_miss "m_fmt.ml" 150 4864 4874 "m_fmt.ml" 150 4864 4881
+)
+"m_fmt.ml" 164 5602 5628 "m_fmt.ml" 164 5602 5640
+type(
+  unit
+)
+"m_fmt.ml" 165 5642 5668 "m_fmt.ml" 165 5642 5674
+type(
+  (int -> string -> unit, Format.formatter, unit) format ->
+  int -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1239 47846 47846 "format.mli" 1239 47846 47893
+)
+"m_fmt.ml" 165 5642 5675 "m_fmt.ml" 165 5642 5703
+type(
+  (int -> string -> unit, Format.formatter, unit) format
+)
+"m_fmt.ml" 166 5704 5732 "m_fmt.ml" 166 5704 5733
+type(
+  int ref -> int
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_fmt.ml" 166 5704 5733 "m_fmt.ml" 166 5704 5740
+type(
+  int ref
+)
+ident(
+  int_ref no_miss "m_fmt.ml" 150 4864 4874 "m_fmt.ml" 150 4864 4881
+)
+"m_fmt.ml" 166 5704 5732 "m_fmt.ml" 166 5704 5740
+type(
+  int
+)
+"m_fmt.ml" 166 5704 5742 "m_fmt.ml" 166 5704 5768
+type(
+  Loc.locus -> string
+)
+ident(
+  int_ref Loc.string_of_locus_nofile "loc.mli" 67 1887 1887 "loc.mli" 67 1887 1931
+)
+"m_fmt.ml" 166 5704 5769 "m_fmt.ml" 166 5704 5772
+type(
+  Loc.locus
+)
+ident(
+  int_ref loc "m_fmt.ml" 163 5567 5595 "m_fmt.ml" 163 5567 5598
+)
+"m_fmt.ml" 166 5704 5741 "m_fmt.ml" 166 5704 5773
+type(
+  string
+)
+"m_fmt.ml" 165 5642 5668 "m_fmt.ml" 166 5704 5773
+type(
+  unit
+)
+"m_fmt.ml" 164 5602 5628 "m_fmt.ml" 166 5704 5773
+type(
+  unit
+)
+"m_fmt.ml" 162 5529 5561 "m_fmt.ml" 167 5774 5799
+type(
+  Loc.locus -> unit
+)
+"m_fmt.ml" 167 5774 5801 "m_fmt.ml" 167 5774 5804
+type(
+  int * Loc.locus list -> Loc.locus list
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"m_fmt.ml" 167 5774 5805 "m_fmt.ml" 167 5774 5809
+type(
+  M_t.summary
+)
+ident(
+  int_ref summ "m_fmt.ml" 154 4979 5022 "m_fmt.ml" 154 4979 5026
+)
+"m_fmt.ml" 167 5774 5805 "m_fmt.ml" 167 5774 5820
+type(
+  int * Loc.locus list
+)
+"m_fmt.ml" 167 5774 5800 "m_fmt.ml" 167 5774 5821
+type(
+  Loc.locus list
+)
+"m_fmt.ml" 162 5529 5551 "m_fmt.ml" 167 5774 5821
+type(
+  unit
+)
+"m_fmt.ml" 160 5386 5438 "m_fmt.ml" 168 5822 5845
+type(
+  unit
+)
+"m_fmt.ml" 160 5386 5406 "m_fmt.ml" 168 5822 5845
+type(
+  unit
+)
+"m_fmt.ml" 169 5848 5871 "m_fmt.ml" 169 5848 5874
+type(
+  int * Loc.locus list -> int
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"m_fmt.ml" 169 5848 5875 "m_fmt.ml" 169 5848 5879
+type(
+  M_t.summary
+)
+ident(
+  int_ref summ "m_fmt.ml" 154 4979 5022 "m_fmt.ml" 154 4979 5026
+)
+"m_fmt.ml" 169 5848 5875 "m_fmt.ml" 169 5848 5891
+type(
+  int * Loc.locus list
+)
+"m_fmt.ml" 169 5848 5871 "m_fmt.ml" 169 5848 5891
+type(
+  int
+)
+"m_fmt.ml" 169 5848 5892 "m_fmt.ml" 169 5848 5893
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 140 5875 5875 "stdlib.mli" 140 5875 5925
+)
+"m_fmt.ml" 169 5848 5894 "m_fmt.ml" 169 5848 5895
+type(
+  int
+)
+"m_fmt.ml" 169 5848 5871 "m_fmt.ml" 169 5848 5895
+type(
+  bool
+)
+"m_fmt.ml" 170 5907 5929 "m_fmt.ml" 170 5907 5935
+type(
+  (int -> unit, Format.formatter, unit) format -> int -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1239 47846 47846 "format.mli" 1239 47846 47893
+)
+"m_fmt.ml" 170 5907 5936 "m_fmt.ml" 170 5907 5967
+type(
+  (int -> unit, Format.formatter, unit) format
+)
+"m_fmt.ml" 170 5907 5969 "m_fmt.ml" 170 5907 5972
+type(
+  int * Loc.locus list -> int
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"m_fmt.ml" 170 5907 5973 "m_fmt.ml" 170 5907 5977
+type(
+  M_t.summary
+)
+ident(
+  int_ref summ "m_fmt.ml" 154 4979 5022 "m_fmt.ml" 154 4979 5026
+)
+"m_fmt.ml" 170 5907 5973 "m_fmt.ml" 170 5907 5989
+type(
+  int * Loc.locus list
+)
+"m_fmt.ml" 170 5907 5968 "m_fmt.ml" 170 5907 5990
+type(
+  int
+)
+"m_fmt.ml" 170 5907 5929 "m_fmt.ml" 170 5907 5990
+type(
+  unit
+)
+"m_fmt.ml" 171 5993 6015 "m_fmt.ml" 171 5993 6024
+type(
+  (Loc.locus -> unit) -> Loc.locus list -> unit
+)
+ident(
+  int_ref Ext.List.iter "ext.mli" 16 424 426 "ext.mli" 16 424 468
+)
+"m_fmt.ml" 172 6031 6059 "m_fmt.ml" 172 6031 6062
+type(
+  Loc.locus
+)
+ident(
+  def loc "m_fmt.ml" 173 6066 6092 "m_fmt.ml" 175 6167 6234
+)
+"m_fmt.ml" 173 6066 6092 "m_fmt.ml" 173 6066 6096
+type(
+  int ref -> unit
+)
+ident(
+  int_ref Stdlib.incr "stdlib.mli" 1227 46731 46731 "stdlib.mli" 1227 46731 46772
+)
+"m_fmt.ml" 173 6066 6097 "m_fmt.ml" 173 6066 6102
+type(
+  int ref
+)
+ident(
+  int_ref no_om "m_fmt.ml" 151 4893 4903 "m_fmt.ml" 151 4893 4908
+)
+"m_fmt.ml" 173 6066 6092 "m_fmt.ml" 173 6066 6102
+type(
+  unit
+)
+"m_fmt.ml" 174 6105 6131 "m_fmt.ml" 174 6105 6137
+type(
+  (int -> string -> unit, Format.formatter, unit) format ->
+  int -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1239 47846 47846 "format.mli" 1239 47846 47893
+)
+"m_fmt.ml" 174 6105 6138 "m_fmt.ml" 174 6105 6166
+type(
+  (int -> string -> unit, Format.formatter, unit) format
+)
+"m_fmt.ml" 175 6167 6195 "m_fmt.ml" 175 6167 6196
+type(
+  int ref -> int
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_fmt.ml" 175 6167 6196 "m_fmt.ml" 175 6167 6201
+type(
+  int ref
+)
+ident(
+  int_ref no_om "m_fmt.ml" 151 4893 4903 "m_fmt.ml" 151 4893 4908
+)
+"m_fmt.ml" 175 6167 6195 "m_fmt.ml" 175 6167 6201
+type(
+  int
+)
+"m_fmt.ml" 175 6167 6203 "m_fmt.ml" 175 6167 6229
+type(
+  Loc.locus -> string
+)
+ident(
+  int_ref Loc.string_of_locus_nofile "loc.mli" 67 1887 1887 "loc.mli" 67 1887 1931
+)
+"m_fmt.ml" 175 6167 6230 "m_fmt.ml" 175 6167 6233
+type(
+  Loc.locus
+)
+ident(
+  int_ref loc "m_fmt.ml" 172 6031 6059 "m_fmt.ml" 172 6031 6062
+)
+"m_fmt.ml" 175 6167 6202 "m_fmt.ml" 175 6167 6234
+type(
+  string
+)
+"m_fmt.ml" 174 6105 6131 "m_fmt.ml" 175 6167 6234
+type(
+  unit
+)
+"m_fmt.ml" 173 6066 6092 "m_fmt.ml" 175 6167 6234
+type(
+  unit
+)
+"m_fmt.ml" 171 5993 6025 "m_fmt.ml" 176 6235 6260
+type(
+  Loc.locus -> unit
+)
+"m_fmt.ml" 176 6235 6262 "m_fmt.ml" 176 6235 6265
+type(
+  int * Loc.locus list -> Loc.locus list
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"m_fmt.ml" 176 6235 6266 "m_fmt.ml" 176 6235 6270
+type(
+  M_t.summary
+)
+ident(
+  int_ref summ "m_fmt.ml" 154 4979 5022 "m_fmt.ml" 154 4979 5026
+)
+"m_fmt.ml" 176 6235 6266 "m_fmt.ml" 176 6235 6282
+type(
+  int * Loc.locus list
+)
+"m_fmt.ml" 176 6235 6261 "m_fmt.ml" 176 6235 6283
+type(
+  Loc.locus list
+)
+"m_fmt.ml" 171 5993 6015 "m_fmt.ml" 176 6235 6283
+type(
+  unit
+)
+"m_fmt.ml" 169 5848 5901 "m_fmt.ml" 177 6284 6307
+type(
+  unit
+)
+"m_fmt.ml" 169 5848 5868 "m_fmt.ml" 177 6284 6307
+type(
+  unit
+)
+"m_fmt.ml" 178 6310 6330 "m_fmt.ml" 178 6310 6336
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1239 47846 47846 "format.mli" 1239 47846 47893
+)
+"m_fmt.ml" 178 6310 6337 "m_fmt.ml" 178 6310 6347
+type(
+  (unit, Format.formatter, unit) format
+)
+"m_fmt.ml" 178 6310 6330 "m_fmt.ml" 178 6310 6347
+type(
+  unit
+)
+"m_fmt.ml" 169 5848 5868 "m_fmt.ml" 178 6310 6347
+type(
+  unit
+)
+"m_fmt.ml" 160 5386 5406 "m_fmt.ml" 178 6310 6347
+type(
+  unit
+)
+"m_fmt.ml" 157 5137 5210 "m_fmt.ml" 179 6348 6369
+type(
+  unit
+)
+"m_fmt.ml" 157 5137 5155 "m_fmt.ml" 179 6348 6369
+type(
+  unit
+)
+"m_fmt.ml" 154 4979 5031 "m_fmt.ml" 180 6370 6385
+type(
+  unit
+)
+"m_fmt.ml" 181 6386 6398 "m_fmt.ml" 181 6386 6399
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_fmt.ml" 181 6386 6403 "m_fmt.ml" 181 6386 6405
+type(
+  unit
+)
+"m_fmt.ml" 153 4942 4960 "m_fmt.ml" 181 6386 6405
+type(
+  unit
+)
+"m_fmt.ml" 152 4920 4936 "m_fmt.ml" 182 6406 6415
+type(
+  M_t.modunit -> unit
+)
+"m_fmt.ml" 182 6406 6416 "m_fmt.ml" 182 6406 6420
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  int_ref mule "m_fmt.ml" 140 4271 4283 "m_fmt.ml" 140 4271 4287
+)
+"m_fmt.ml" 182 6406 6416 "m_fmt.ml" 182 6406 6425
+type(
+  M_t.mule_
+)
+"m_fmt.ml" 182 6406 6416 "m_fmt.ml" 182 6406 6430
+type(
+  M_t.modunit list
+)
+"m_fmt.ml" 152 4920 4926 "m_fmt.ml" 182 6406 6430
+type(
+  unit
+)
+"m_fmt.ml" 183 6433 6439 "m_fmt.ml" 183 6433 6445
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1239 47846 47846 "format.mli" 1239 47846 47893
+)
+"m_fmt.ml" 183 6433 6446 "m_fmt.ml" 183 6433 6456
+type(
+  (unit, Format.formatter, unit) format
+)
+"m_fmt.ml" 183 6433 6439 "m_fmt.ml" 183 6433 6456
+type(
+  unit
+)
+"m_fmt.ml" 152 4920 4926 "m_fmt.ml" 183 6433 6456
+type(
+  unit
+)
+"m_fmt.ml" 151 4893 4899 "m_fmt.ml" 183 6433 6456
+type(
+  unit
+)
+"m_fmt.ml" 150 4864 4870 "m_fmt.ml" 183 6433 6456
+type(
+  unit
+)
+"m_fmt.ml" 148 4752 4758 "m_fmt.ml" 183 6433 6456
+type(
+  unit
+)
+"m_fmt.ml" 146 4642 4648 "m_fmt.ml" 183 6433 6456
+type(
+  unit
+)
+"m_fmt.ml" 144 4497 4503 "m_fmt.ml" 183 6433 6456
+type(
+  unit
+)
+"m_fmt.ml" 143 4438 4444 "m_fmt.ml" 183 6433 6456
+type(
+  unit
+)
+"m_fmt.ml" 142 4362 4368 "m_fmt.ml" 183 6433 6456
+type(
+  unit
+)
+"m_fmt.ml" 184 6457 6461 "m_fmt.ml" 184 6457 6462
+type(
+  M_t.stage
+)
+type(
+  M_t.stage
+)
+"m_fmt.ml" 184 6457 6466 "m_fmt.ml" 184 6457 6468
+type(
+  unit
+)
+"m_fmt.ml" 140 4271 4290 "m_fmt.ml" 184 6457 6468
+type(
+  unit
+)

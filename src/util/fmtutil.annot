@@ -1,0 +1,2050 @@
+"fmtutil.ml" 10 122 126 "fmtutil.ml" 10 122 142
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  def pp_print_commasp "fmtutil.ml" 14 202 202 "fmtutil.ml" 0 0 -1
+)
+"fmtutil.ml" 10 122 143 "fmtutil.ml" 10 122 145
+type(
+  Format.formatter
+)
+ident(
+  def ff "fmtutil.ml" 10 122 146 "fmtutil.ml" 12 178 200
+)
+"fmtutil.ml" 10 122 146 "fmtutil.ml" 10 122 148
+type(
+  unit
+)
+"fmtutil.ml" 11 151 153 "fmtutil.ml" 11 151 168
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.pp_print_string "format.mli" 220 9080 9080 "format.mli" 220 9080 9129
+)
+"fmtutil.ml" 11 151 169 "fmtutil.ml" 11 151 171
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 10 122 143 "fmtutil.ml" 10 122 145
+)
+"fmtutil.ml" 11 151 172 "fmtutil.ml" 11 151 175
+type(
+  string
+)
+"fmtutil.ml" 11 151 153 "fmtutil.ml" 11 151 175
+type(
+  unit
+)
+"fmtutil.ml" 12 178 180 "fmtutil.ml" 12 178 194
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref Stdlib.Format.pp_print_space "format.mli" 273 11066 11066 "format.mli" 273 11066 11112
+)
+"fmtutil.ml" 12 178 195 "fmtutil.ml" 12 178 197
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 10 122 143 "fmtutil.ml" 10 122 145
+)
+"fmtutil.ml" 12 178 198 "fmtutil.ml" 12 178 200
+type(
+  unit
+)
+"fmtutil.ml" 12 178 180 "fmtutil.ml" 12 178 200
+type(
+  unit
+)
+"fmtutil.ml" 11 151 153 "fmtutil.ml" 12 178 200
+type(
+  unit
+)
+"fmtutil.ml" 14 202 210 "fmtutil.ml" 14 202 228
+type(
+  ?sep:(Format.formatter -> unit -> unit) ->
+  (Format.formatter -> 'a -> unit) -> Format.formatter -> 'a list -> unit
+)
+ident(
+  def pp_print_delimited "fmtutil.ml" 14 202 202 "fmtutil.ml" 0 0 -1
+)
+"fmtutil.ml" 14 202 231 "fmtutil.ml" 14 202 234
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  def sep "fmtutil.ml" 14 202 253 "fmtutil.ml" 20 354 397
+)
+"fmtutil.ml" 14 202 235 "fmtutil.ml" 14 202 251
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref pp_print_commasp "fmtutil.ml" 10 122 126 "fmtutil.ml" 10 122 142
+)
+type(
+  (Format.formatter -> unit -> unit) option
+)
+type(
+  (Format.formatter -> unit -> unit) option
+)
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref *sth* "fmtutil.ml" 14 202 235 "fmtutil.ml" 14 202 251
+)
+type(
+  Format.formatter -> unit -> unit
+)
+type(
+  (Format.formatter -> unit -> unit) option
+)
+type(
+  (Format.formatter -> unit -> unit) option
+)
+ident(
+  def *sth* "fmtutil.ml" 14 202 235 "fmtutil.ml" 14 202 251
+)
+"fmtutil.ml" 14 202 253 "fmtutil.ml" 14 202 256
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  def fmt "fmtutil.ml" 14 202 257 "fmtutil.ml" 20 354 397
+)
+"fmtutil.ml" 14 202 257 "fmtutil.ml" 14 202 259
+type(
+  Format.formatter
+)
+ident(
+  def ff "fmtutil.ml" 14 202 262 "fmtutil.ml" 20 354 397
+)
+"fmtutil.ml" 15 271 275 "fmtutil.ml" 15 271 277
+type(
+  'a list
+)
+"fmtutil.ml" 15 271 281 "fmtutil.ml" 15 271 283
+type(
+  unit
+)
+"fmtutil.ml" 16 284 289 "fmtutil.ml" 16 284 290
+type(
+  'a
+)
+ident(
+  def x "fmtutil.ml" 16 284 295 "fmtutil.ml" 16 284 303
+)
+"fmtutil.ml" 16 284 288 "fmtutil.ml" 16 284 291
+type(
+  'a list
+)
+"fmtutil.ml" 16 284 295 "fmtutil.ml" 16 284 298
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref fmt "fmtutil.ml" 14 202 253 "fmtutil.ml" 14 202 256
+)
+"fmtutil.ml" 16 284 299 "fmtutil.ml" 16 284 301
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 14 202 257 "fmtutil.ml" 14 202 259
+)
+"fmtutil.ml" 16 284 302 "fmtutil.ml" 16 284 303
+type(
+  'a
+)
+ident(
+  int_ref x "fmtutil.ml" 16 284 289 "fmtutil.ml" 16 284 290
+)
+"fmtutil.ml" 16 284 295 "fmtutil.ml" 16 284 303
+type(
+  unit
+)
+"fmtutil.ml" 17 304 308 "fmtutil.ml" 17 304 309
+type(
+  'a
+)
+ident(
+  def x "fmtutil.ml" 18 319 325 "fmtutil.ml" 20 354 397
+)
+"fmtutil.ml" 17 304 313 "fmtutil.ml" 17 304 315
+type(
+  'a list
+)
+ident(
+  def xs "fmtutil.ml" 18 319 325 "fmtutil.ml" 20 354 397
+)
+"fmtutil.ml" 17 304 308 "fmtutil.ml" 17 304 315
+type(
+  'a list
+)
+"fmtutil.ml" 18 319 325 "fmtutil.ml" 18 319 328
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref fmt "fmtutil.ml" 14 202 253 "fmtutil.ml" 14 202 256
+)
+"fmtutil.ml" 18 319 329 "fmtutil.ml" 18 319 331
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 14 202 257 "fmtutil.ml" 14 202 259
+)
+"fmtutil.ml" 18 319 332 "fmtutil.ml" 18 319 333
+type(
+  'a
+)
+ident(
+  int_ref x "fmtutil.ml" 17 304 308 "fmtutil.ml" 17 304 309
+)
+"fmtutil.ml" 18 319 325 "fmtutil.ml" 18 319 333
+type(
+  unit
+)
+"fmtutil.ml" 19 336 342 "fmtutil.ml" 19 336 345
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref sep "fmtutil.ml" 14 202 231 "fmtutil.ml" 14 202 234
+)
+"fmtutil.ml" 19 336 346 "fmtutil.ml" 19 336 348
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 14 202 257 "fmtutil.ml" 14 202 259
+)
+"fmtutil.ml" 19 336 349 "fmtutil.ml" 19 336 351
+type(
+  unit
+)
+"fmtutil.ml" 19 336 342 "fmtutil.ml" 19 336 351
+type(
+  unit
+)
+"fmtutil.ml" 20 354 360 "fmtutil.ml" 20 354 378
+type(
+  ?sep:(Format.formatter -> unit -> unit) ->
+  (Format.formatter -> 'a -> unit) -> Format.formatter -> 'a list -> unit
+)
+ident(
+  int_ref pp_print_delimited "fmtutil.ml" 14 202 210 "fmtutil.ml" 14 202 228
+)
+"fmtutil.ml" 20 354 384 "fmtutil.ml" 20 354 387
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref sep "fmtutil.ml" 14 202 231 "fmtutil.ml" 14 202 234
+)
+type(
+  (Format.formatter -> unit -> unit) option
+)
+"fmtutil.ml" 20 354 388 "fmtutil.ml" 20 354 391
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref fmt "fmtutil.ml" 14 202 253 "fmtutil.ml" 14 202 256
+)
+"fmtutil.ml" 20 354 392 "fmtutil.ml" 20 354 394
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 14 202 257 "fmtutil.ml" 14 202 259
+)
+"fmtutil.ml" 20 354 395 "fmtutil.ml" 20 354 397
+type(
+  'a list
+)
+ident(
+  int_ref xs "fmtutil.ml" 17 304 313 "fmtutil.ml" 17 304 315
+)
+"fmtutil.ml" 20 354 360 "fmtutil.ml" 20 354 397
+type(
+  unit
+)
+"fmtutil.ml" 19 336 342 "fmtutil.ml" 20 354 397
+type(
+  unit
+)
+"fmtutil.ml" 18 319 325 "fmtutil.ml" 20 354 397
+type(
+  unit
+)
+"fmtutil.ml" 14 202 262 "fmtutil.ml" 20 354 397
+type(
+  'a list -> unit
+)
+"fmtutil.ml" 22 399 407 "fmtutil.ml" 22 399 430
+type(
+  ?sep:(Format.formatter -> unit -> unit) ->
+  ('a -> Format.formatter -> 'b -> 'a) ->
+  'a -> Format.formatter -> 'b list -> 'a
+)
+ident(
+  def pp_print_delimited_fold "fmtutil.ml" 22 399 399 "fmtutil.ml" 0 0 -1
+)
+"fmtutil.ml" 22 399 433 "fmtutil.ml" 22 399 436
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  def sep "fmtutil.ml" 22 399 455 "fmtutil.ml" 28 572 624
+)
+"fmtutil.ml" 22 399 437 "fmtutil.ml" 22 399 453
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref pp_print_commasp "fmtutil.ml" 10 122 126 "fmtutil.ml" 10 122 142
+)
+type(
+  (Format.formatter -> unit -> unit) option
+)
+type(
+  (Format.formatter -> unit -> unit) option
+)
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref *sth* "fmtutil.ml" 22 399 437 "fmtutil.ml" 22 399 453
+)
+type(
+  Format.formatter -> unit -> unit
+)
+type(
+  (Format.formatter -> unit -> unit) option
+)
+type(
+  (Format.formatter -> unit -> unit) option
+)
+ident(
+  def *sth* "fmtutil.ml" 22 399 437 "fmtutil.ml" 22 399 453
+)
+"fmtutil.ml" 22 399 455 "fmtutil.ml" 22 399 458
+type(
+  'a -> Format.formatter -> 'b -> 'a
+)
+ident(
+  def fmt "fmtutil.ml" 22 399 459 "fmtutil.ml" 28 572 624
+)
+"fmtutil.ml" 22 399 459 "fmtutil.ml" 22 399 460
+type(
+  'a
+)
+ident(
+  def v "fmtutil.ml" 22 399 461 "fmtutil.ml" 28 572 624
+)
+"fmtutil.ml" 22 399 461 "fmtutil.ml" 22 399 463
+type(
+  Format.formatter
+)
+ident(
+  def ff "fmtutil.ml" 22 399 466 "fmtutil.ml" 28 572 624
+)
+"fmtutil.ml" 23 475 479 "fmtutil.ml" 23 475 481
+type(
+  'b list
+)
+"fmtutil.ml" 23 475 485 "fmtutil.ml" 23 475 486
+type(
+  'a
+)
+ident(
+  int_ref v "fmtutil.ml" 22 399 459 "fmtutil.ml" 22 399 460
+)
+"fmtutil.ml" 24 487 492 "fmtutil.ml" 24 487 493
+type(
+  'b
+)
+ident(
+  def x "fmtutil.ml" 24 487 498 "fmtutil.ml" 24 487 508
+)
+"fmtutil.ml" 24 487 491 "fmtutil.ml" 24 487 494
+type(
+  'b list
+)
+"fmtutil.ml" 24 487 498 "fmtutil.ml" 24 487 501
+type(
+  'a -> Format.formatter -> 'b -> 'a
+)
+ident(
+  int_ref fmt "fmtutil.ml" 22 399 455 "fmtutil.ml" 22 399 458
+)
+"fmtutil.ml" 24 487 502 "fmtutil.ml" 24 487 503
+type(
+  'a
+)
+ident(
+  int_ref v "fmtutil.ml" 22 399 459 "fmtutil.ml" 22 399 460
+)
+"fmtutil.ml" 24 487 504 "fmtutil.ml" 24 487 506
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 22 399 461 "fmtutil.ml" 22 399 463
+)
+"fmtutil.ml" 24 487 507 "fmtutil.ml" 24 487 508
+type(
+  'b
+)
+ident(
+  int_ref x "fmtutil.ml" 24 487 492 "fmtutil.ml" 24 487 493
+)
+"fmtutil.ml" 24 487 498 "fmtutil.ml" 24 487 508
+type(
+  'a
+)
+"fmtutil.ml" 25 509 513 "fmtutil.ml" 25 509 514
+type(
+  'b
+)
+ident(
+  def x "fmtutil.ml" 26 524 530 "fmtutil.ml" 28 572 624
+)
+"fmtutil.ml" 25 509 518 "fmtutil.ml" 25 509 520
+type(
+  'b list
+)
+ident(
+  def xs "fmtutil.ml" 26 524 530 "fmtutil.ml" 28 572 624
+)
+"fmtutil.ml" 25 509 513 "fmtutil.ml" 25 509 520
+type(
+  'b list
+)
+"fmtutil.ml" 26 524 534 "fmtutil.ml" 26 524 535
+type(
+  'a
+)
+ident(
+  def v "fmtutil.ml" 27 552 560 "fmtutil.ml" 28 572 624
+)
+"fmtutil.ml" 26 524 538 "fmtutil.ml" 26 524 541
+type(
+  'a -> Format.formatter -> 'b -> 'a
+)
+ident(
+  int_ref fmt "fmtutil.ml" 22 399 455 "fmtutil.ml" 22 399 458
+)
+"fmtutil.ml" 26 524 542 "fmtutil.ml" 26 524 543
+type(
+  'a
+)
+ident(
+  int_ref v "fmtutil.ml" 22 399 459 "fmtutil.ml" 22 399 460
+)
+"fmtutil.ml" 26 524 544 "fmtutil.ml" 26 524 546
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 22 399 461 "fmtutil.ml" 22 399 463
+)
+"fmtutil.ml" 26 524 547 "fmtutil.ml" 26 524 548
+type(
+  'b
+)
+ident(
+  int_ref x "fmtutil.ml" 25 509 513 "fmtutil.ml" 25 509 514
+)
+"fmtutil.ml" 26 524 538 "fmtutil.ml" 26 524 548
+type(
+  'a
+)
+"fmtutil.ml" 27 552 560 "fmtutil.ml" 27 552 563
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref sep "fmtutil.ml" 22 399 433 "fmtutil.ml" 22 399 436
+)
+"fmtutil.ml" 27 552 564 "fmtutil.ml" 27 552 566
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 22 399 461 "fmtutil.ml" 22 399 463
+)
+"fmtutil.ml" 27 552 567 "fmtutil.ml" 27 552 569
+type(
+  unit
+)
+"fmtutil.ml" 27 552 560 "fmtutil.ml" 27 552 569
+type(
+  unit
+)
+"fmtutil.ml" 28 572 580 "fmtutil.ml" 28 572 603
+type(
+  ?sep:(Format.formatter -> unit -> unit) ->
+  ('a -> Format.formatter -> 'b -> 'a) ->
+  'a -> Format.formatter -> 'b list -> 'a
+)
+ident(
+  int_ref pp_print_delimited_fold "fmtutil.ml" 22 399 407 "fmtutil.ml" 22 399 430
+)
+"fmtutil.ml" 28 572 609 "fmtutil.ml" 28 572 612
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref sep "fmtutil.ml" 22 399 433 "fmtutil.ml" 22 399 436
+)
+type(
+  (Format.formatter -> unit -> unit) option
+)
+"fmtutil.ml" 28 572 613 "fmtutil.ml" 28 572 616
+type(
+  'a -> Format.formatter -> 'b -> 'a
+)
+ident(
+  int_ref fmt "fmtutil.ml" 22 399 455 "fmtutil.ml" 22 399 458
+)
+"fmtutil.ml" 28 572 617 "fmtutil.ml" 28 572 618
+type(
+  'a
+)
+ident(
+  int_ref v "fmtutil.ml" 26 524 534 "fmtutil.ml" 26 524 535
+)
+"fmtutil.ml" 28 572 619 "fmtutil.ml" 28 572 621
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 22 399 461 "fmtutil.ml" 22 399 463
+)
+"fmtutil.ml" 28 572 622 "fmtutil.ml" 28 572 624
+type(
+  'b list
+)
+ident(
+  int_ref xs "fmtutil.ml" 25 509 518 "fmtutil.ml" 25 509 520
+)
+"fmtutil.ml" 28 572 580 "fmtutil.ml" 28 572 624
+type(
+  'a
+)
+"fmtutil.ml" 27 552 560 "fmtutil.ml" 28 572 624
+type(
+  'a
+)
+"fmtutil.ml" 26 524 530 "fmtutil.ml" 28 572 624
+type(
+  'a
+)
+"fmtutil.ml" 22 399 466 "fmtutil.ml" 28 572 624
+type(
+  'b list -> 'a
+)
+"fmtutil.ml" 30 626 630 "fmtutil.ml" 30 626 650
+type(
+  (Format.formatter -> 'a -> 'b) -> Format.formatter -> 'a -> unit
+)
+ident(
+  def pp_print_with_parens "fmtutil.ml" 35 726 726 "fmtutil.ml" 0 0 -1
+)
+"fmtutil.ml" 30 626 651 "fmtutil.ml" 30 626 653
+type(
+  Format.formatter -> 'a -> 'b
+)
+ident(
+  def af "fmtutil.ml" 30 626 654 "fmtutil.ml" 33 700 724
+)
+"fmtutil.ml" 30 626 654 "fmtutil.ml" 30 626 656
+type(
+  Format.formatter
+)
+ident(
+  def ff "fmtutil.ml" 30 626 657 "fmtutil.ml" 33 700 724
+)
+"fmtutil.ml" 30 626 657 "fmtutil.ml" 30 626 658
+type(
+  'a
+)
+ident(
+  def a "fmtutil.ml" 31 661 663 "fmtutil.ml" 33 700 724
+)
+"fmtutil.ml" 31 661 663 "fmtutil.ml" 31 661 678
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.pp_print_string "format.mli" 220 9080 9080 "format.mli" 220 9080 9129
+)
+"fmtutil.ml" 31 661 679 "fmtutil.ml" 31 661 681
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 30 626 654 "fmtutil.ml" 30 626 656
+)
+"fmtutil.ml" 31 661 682 "fmtutil.ml" 31 661 685
+type(
+  string
+)
+"fmtutil.ml" 31 661 663 "fmtutil.ml" 31 661 685
+type(
+  unit
+)
+"fmtutil.ml" 32 688 690 "fmtutil.ml" 32 688 692
+type(
+  Format.formatter -> 'a -> 'b
+)
+ident(
+  int_ref af "fmtutil.ml" 30 626 651 "fmtutil.ml" 30 626 653
+)
+"fmtutil.ml" 32 688 693 "fmtutil.ml" 32 688 695
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 30 626 654 "fmtutil.ml" 30 626 656
+)
+"fmtutil.ml" 32 688 696 "fmtutil.ml" 32 688 697
+type(
+  'a
+)
+ident(
+  int_ref a "fmtutil.ml" 30 626 657 "fmtutil.ml" 30 626 658
+)
+"fmtutil.ml" 32 688 690 "fmtutil.ml" 32 688 697
+type(
+  'b
+)
+"fmtutil.ml" 33 700 702 "fmtutil.ml" 33 700 717
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.pp_print_string "format.mli" 220 9080 9080 "format.mli" 220 9080 9129
+)
+"fmtutil.ml" 33 700 718 "fmtutil.ml" 33 700 720
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 30 626 654 "fmtutil.ml" 30 626 656
+)
+"fmtutil.ml" 33 700 721 "fmtutil.ml" 33 700 724
+type(
+  string
+)
+"fmtutil.ml" 33 700 702 "fmtutil.ml" 33 700 724
+type(
+  unit
+)
+"fmtutil.ml" 32 688 690 "fmtutil.ml" 33 700 724
+type(
+  unit
+)
+"fmtutil.ml" 31 661 663 "fmtutil.ml" 33 700 724
+type(
+  unit
+)
+"fmtutil.ml" 64 1568 1576 "fmtutil.ml" 64 1568 1583
+ident(
+  def Minimal "fmtutil.ml" 157 4072 4075 "fmtutil.ml" 0 0 -1
+)
+"fmtutil.ml" 66 1618 1627 "fmtutil.ml" 66 1618 1631
+ident(
+  def Prec "fmtutil.ml" 66 1618 1638 "fmtutil.ml" 157 4072 4075
+)
+"fmtutil.ml" 84 1890 1896 "fmtutil.ml" 84 1890 1901
+type(
+  Prec.prec -> exp -> bool
+)
+ident(
+  def below "fmtutil.ml" 89 1997 1999 "fmtutil.ml" 157 4072 4075
+)
+"fmtutil.ml" 84 1890 1902 "fmtutil.ml" 84 1890 1903
+type(
+  Prec.prec
+)
+ident(
+  def p "fmtutil.ml" 84 1890 1906 "fmtutil.ml" 87 1976 1995
+)
+"fmtutil.ml" 85 1915 1925 "fmtutil.ml" 85 1915 1926
+type(
+  string
+)
+"fmtutil.ml" 85 1915 1928 "fmtutil.ml" 85 1915 1929
+type(
+  fmt
+)
+"fmtutil.ml" 85 1915 1931 "fmtutil.ml" 85 1915 1932
+type(
+  Prec.prec
+)
+ident(
+  def q "fmtutil.ml" 85 1915 1940 "fmtutil.ml" 85 1915 1954
+)
+"fmtutil.ml" 85 1915 1934 "fmtutil.ml" 85 1915 1935
+type(
+  op
+)
+"fmtutil.ml" 85 1915 1921 "fmtutil.ml" 85 1915 1936
+type(
+  exp
+)
+"fmtutil.ml" 85 1915 1940 "fmtutil.ml" 85 1915 1950
+type(
+  Prec.prec -> Prec.prec -> bool
+)
+ident(
+  int_ref Prec.below "pars.mli" 30 885 889 "pars.mli" 30 885 921
+)
+"fmtutil.ml" 85 1915 1951 "fmtutil.ml" 85 1915 1952
+type(
+  Prec.prec
+)
+ident(
+  int_ref p "fmtutil.ml" 84 1890 1902 "fmtutil.ml" 84 1890 1903
+)
+"fmtutil.ml" 85 1915 1953 "fmtutil.ml" 85 1915 1954
+type(
+  Prec.prec
+)
+ident(
+  int_ref q "fmtutil.ml" 85 1915 1931 "fmtutil.ml" 85 1915 1932
+)
+"fmtutil.ml" 85 1915 1940 "fmtutil.ml" 85 1915 1954
+type(
+  bool
+)
+"fmtutil.ml" 86 1955 1965 "fmtutil.ml" 86 1955 1966
+type(
+  fmt
+)
+"fmtutil.ml" 86 1955 1961 "fmtutil.ml" 86 1955 1966
+type(
+  exp
+)
+"fmtutil.ml" 86 1955 1970 "fmtutil.ml" 86 1955 1975
+type(
+  bool
+)
+"fmtutil.ml" 87 1976 1986 "fmtutil.ml" 87 1976 1987
+type(
+  fmt
+)
+"fmtutil.ml" 87 1976 1982 "fmtutil.ml" 87 1976 1987
+type(
+  exp
+)
+"fmtutil.ml" 87 1976 1991 "fmtutil.ml" 87 1976 1995
+type(
+  bool
+)
+"fmtutil.ml" 84 1890 1906 "fmtutil.ml" 87 1976 1995
+type(
+  exp -> bool
+)
+"fmtutil.ml" 89 1997 2003 "fmtutil.ml" 89 1997 2011
+type(
+  exp -> assoc
+)
+ident(
+  def assoc_of "fmtutil.ml" 93 2080 2082 "fmtutil.ml" 157 4072 4075
+)
+"fmtutil.ml" 90 2023 2033 "fmtutil.ml" 90 2023 2034
+type(
+  string
+)
+"fmtutil.ml" 90 2023 2036 "fmtutil.ml" 90 2023 2037
+type(
+  fmt
+)
+"fmtutil.ml" 90 2023 2039 "fmtutil.ml" 90 2023 2040
+type(
+  Prec.prec
+)
+"fmtutil.ml" 90 2023 2049 "fmtutil.ml" 90 2023 2050
+type(
+  assoc
+)
+ident(
+  def a "fmtutil.ml" 90 2023 2062 "fmtutil.ml" 90 2023 2063
+)
+"fmtutil.ml" 90 2023 2052 "fmtutil.ml" 90 2023 2053
+type(
+  exp
+)
+"fmtutil.ml" 90 2023 2055 "fmtutil.ml" 90 2023 2056
+type(
+  exp
+)
+"fmtutil.ml" 90 2023 2042 "fmtutil.ml" 90 2023 2057
+type(
+  op
+)
+"fmtutil.ml" 90 2023 2029 "fmtutil.ml" 90 2023 2058
+type(
+  exp
+)
+"fmtutil.ml" 90 2023 2062 "fmtutil.ml" 90 2023 2063
+type(
+  assoc
+)
+ident(
+  int_ref a "fmtutil.ml" 90 2023 2049 "fmtutil.ml" 90 2023 2050
+)
+"fmtutil.ml" 91 2064 2070 "fmtutil.ml" 91 2064 2071
+type(
+  exp
+)
+"fmtutil.ml" 91 2064 2075 "fmtutil.ml" 91 2064 2078
+type(
+  assoc
+)
+"fmtutil.ml" 89 1997 2014 "fmtutil.ml" 91 2064 2078
+type(
+  exp -> assoc
+)
+"fmtutil.ml" 93 2080 2086 "fmtutil.ml" 93 2080 2093
+type(
+  exp -> string
+)
+ident(
+  def name_of "fmtutil.ml" 97 2147 2149 "fmtutil.ml" 157 4072 4075
+)
+"fmtutil.ml" 94 2105 2115 "fmtutil.ml" 94 2105 2116
+type(
+  string
+)
+ident(
+  def n "fmtutil.ml" 94 2105 2130 "fmtutil.ml" 94 2105 2131
+)
+"fmtutil.ml" 94 2105 2118 "fmtutil.ml" 94 2105 2119
+type(
+  fmt
+)
+"fmtutil.ml" 94 2105 2121 "fmtutil.ml" 94 2105 2122
+type(
+  Prec.prec
+)
+"fmtutil.ml" 94 2105 2124 "fmtutil.ml" 94 2105 2125
+type(
+  op
+)
+"fmtutil.ml" 94 2105 2111 "fmtutil.ml" 94 2105 2126
+type(
+  exp
+)
+"fmtutil.ml" 94 2105 2130 "fmtutil.ml" 94 2105 2131
+type(
+  string
+)
+ident(
+  int_ref n "fmtutil.ml" 94 2105 2115 "fmtutil.ml" 94 2105 2116
+)
+"fmtutil.ml" 95 2132 2138 "fmtutil.ml" 95 2132 2139
+type(
+  exp
+)
+"fmtutil.ml" 95 2132 2143 "fmtutil.ml" 95 2132 2145
+type(
+  string
+)
+"fmtutil.ml" 93 2080 2096 "fmtutil.ml" 95 2132 2145
+type(
+  exp -> string
+)
+"fmtutil.ml" 97 2147 2153 "fmtutil.ml" 97 2147 2162
+type(
+  exp -> bool
+)
+ident(
+  def is_prefix "fmtutil.ml" 101 2229 2231 "fmtutil.ml" 157 4072 4075
+)
+"fmtutil.ml" 98 2174 2184 "fmtutil.ml" 98 2174 2185
+type(
+  string
+)
+"fmtutil.ml" 98 2174 2187 "fmtutil.ml" 98 2174 2188
+type(
+  fmt
+)
+"fmtutil.ml" 98 2174 2190 "fmtutil.ml" 98 2174 2191
+type(
+  Prec.prec
+)
+"fmtutil.ml" 98 2174 2200 "fmtutil.ml" 98 2174 2201
+type(
+  exp
+)
+"fmtutil.ml" 98 2174 2193 "fmtutil.ml" 98 2174 2201
+type(
+  op
+)
+"fmtutil.ml" 98 2174 2180 "fmtutil.ml" 98 2174 2202
+type(
+  exp
+)
+"fmtutil.ml" 98 2174 2206 "fmtutil.ml" 98 2174 2210
+type(
+  bool
+)
+"fmtutil.ml" 99 2211 2217 "fmtutil.ml" 99 2211 2218
+type(
+  exp
+)
+"fmtutil.ml" 99 2211 2222 "fmtutil.ml" 99 2211 2227
+type(
+  bool
+)
+"fmtutil.ml" 97 2147 2165 "fmtutil.ml" 99 2211 2227
+type(
+  exp -> bool
+)
+"fmtutil.ml" 101 2229 2235 "fmtutil.ml" 101 2229 2245
+type(
+  exp -> bool
+)
+ident(
+  def is_postfix "fmtutil.ml" 105 2313 2315 "fmtutil.ml" 157 4072 4075
+)
+"fmtutil.ml" 102 2257 2267 "fmtutil.ml" 102 2257 2268
+type(
+  string
+)
+"fmtutil.ml" 102 2257 2270 "fmtutil.ml" 102 2257 2271
+type(
+  fmt
+)
+"fmtutil.ml" 102 2257 2273 "fmtutil.ml" 102 2257 2274
+type(
+  Prec.prec
+)
+"fmtutil.ml" 102 2257 2284 "fmtutil.ml" 102 2257 2285
+type(
+  exp
+)
+"fmtutil.ml" 102 2257 2276 "fmtutil.ml" 102 2257 2285
+type(
+  op
+)
+"fmtutil.ml" 102 2257 2263 "fmtutil.ml" 102 2257 2286
+type(
+  exp
+)
+"fmtutil.ml" 102 2257 2290 "fmtutil.ml" 102 2257 2294
+type(
+  bool
+)
+"fmtutil.ml" 103 2295 2301 "fmtutil.ml" 103 2295 2302
+type(
+  exp
+)
+"fmtutil.ml" 103 2295 2306 "fmtutil.ml" 103 2295 2311
+type(
+  bool
+)
+"fmtutil.ml" 101 2229 2248 "fmtutil.ml" 103 2295 2311
+type(
+  exp -> bool
+)
+"fmtutil.ml" 105 2313 2319 "fmtutil.ml" 105 2313 2326
+type(
+  assoc -> bool
+)
+ident(
+  def is_left "fmtutil.ml" 110 2395 2397 "fmtutil.ml" 157 4072 4075
+)
+"fmtutil.ml" 105 2313 2327 "fmtutil.ml" 105 2313 2328
+type(
+  assoc
+)
+ident(
+  def a "fmtutil.ml" 106 2331 2335 "fmtutil.ml" 108 2367 2393
+)
+"fmtutil.ml" 106 2331 2341 "fmtutil.ml" 106 2331 2342
+type(
+  assoc
+)
+ident(
+  int_ref a "fmtutil.ml" 105 2313 2327 "fmtutil.ml" 105 2313 2328
+)
+"fmtutil.ml" 107 2348 2354 "fmtutil.ml" 107 2348 2358
+type(
+  assoc
+)
+type(
+  assoc
+)
+"fmtutil.ml" 107 2348 2362 "fmtutil.ml" 107 2348 2366
+type(
+  bool
+)
+"fmtutil.ml" 108 2367 2373 "fmtutil.ml" 108 2367 2376
+type(
+  assoc
+)
+type(
+  assoc
+)
+"fmtutil.ml" 108 2367 2379 "fmtutil.ml" 108 2367 2384
+type(
+  assoc
+)
+type(
+  assoc
+)
+"fmtutil.ml" 108 2367 2373 "fmtutil.ml" 108 2367 2384
+type(
+  assoc
+)
+"fmtutil.ml" 108 2367 2388 "fmtutil.ml" 108 2367 2393
+type(
+  bool
+)
+"fmtutil.ml" 106 2331 2335 "fmtutil.ml" 108 2367 2393
+type(
+  bool
+)
+"fmtutil.ml" 110 2395 2401 "fmtutil.ml" 110 2395 2409
+type(
+  assoc -> bool
+)
+ident(
+  def is_right "fmtutil.ml" 115 2478 2480 "fmtutil.ml" 157 4072 4075
+)
+"fmtutil.ml" 110 2395 2410 "fmtutil.ml" 110 2395 2411
+type(
+  assoc
+)
+ident(
+  def a "fmtutil.ml" 111 2414 2418 "fmtutil.ml" 113 2451 2476
+)
+"fmtutil.ml" 111 2414 2424 "fmtutil.ml" 111 2414 2425
+type(
+  assoc
+)
+ident(
+  int_ref a "fmtutil.ml" 110 2395 2410 "fmtutil.ml" 110 2395 2411
+)
+"fmtutil.ml" 112 2431 2437 "fmtutil.ml" 112 2431 2442
+type(
+  assoc
+)
+type(
+  assoc
+)
+"fmtutil.ml" 112 2431 2446 "fmtutil.ml" 112 2431 2450
+type(
+  bool
+)
+"fmtutil.ml" 113 2451 2457 "fmtutil.ml" 113 2451 2460
+type(
+  assoc
+)
+type(
+  assoc
+)
+"fmtutil.ml" 113 2451 2463 "fmtutil.ml" 113 2451 2467
+type(
+  assoc
+)
+type(
+  assoc
+)
+"fmtutil.ml" 113 2451 2457 "fmtutil.ml" 113 2451 2467
+type(
+  assoc
+)
+"fmtutil.ml" 113 2451 2471 "fmtutil.ml" 113 2451 2476
+type(
+  bool
+)
+"fmtutil.ml" 111 2414 2418 "fmtutil.ml" 113 2451 2476
+type(
+  bool
+)
+"fmtutil.ml" 115 2478 2488 "fmtutil.ml" 115 2478 2504
+type(
+  Format.formatter -> exp -> unit
+)
+ident(
+  def pp_print_minimal "fmtutil.ml" 115 2478 2480 "fmtutil.ml" 157 4072 4075
+)
+"fmtutil.ml" 115 2478 2505 "fmtutil.ml" 115 2478 2507
+type(
+  Format.formatter
+)
+ident(
+  def ff "fmtutil.ml" 116 2524 2528 "fmtutil.ml" 156 4065 4071
+)
+"fmtutil.ml" 116 2524 2532 "fmtutil.ml" 116 2524 2534
+type(
+  exp -> unit
+)
+ident(
+  def go "fmtutil.ml" 156 4065 4069 "fmtutil.ml" 156 4065 4071
+)
+"fmtutil.ml" 117 2546 2558 "fmtutil.ml" 117 2546 2560
+type(
+  fmt
+)
+ident(
+  def af "fmtutil.ml" 117 2546 2564 "fmtutil.ml" 117 2546 2569
+)
+"fmtutil.ml" 117 2546 2554 "fmtutil.ml" 117 2546 2560
+type(
+  exp
+)
+"fmtutil.ml" 117 2546 2564 "fmtutil.ml" 117 2546 2566
+type(
+  fmt
+)
+ident(
+  int_ref af "fmtutil.ml" 117 2546 2558 "fmtutil.ml" 117 2546 2560
+)
+"fmtutil.ml" 117 2546 2567 "fmtutil.ml" 117 2546 2569
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 115 2478 2505 "fmtutil.ml" 115 2478 2507
+)
+"fmtutil.ml" 117 2546 2564 "fmtutil.ml" 117 2546 2569
+type(
+  unit
+)
+"fmtutil.ml" 118 2570 2582 "fmtutil.ml" 118 2570 2584
+type(
+  fmt
+)
+ident(
+  def af "fmtutil.ml" 118 2570 2588 "fmtutil.ml" 118 2570 2593
+)
+"fmtutil.ml" 118 2570 2578 "fmtutil.ml" 118 2570 2584
+type(
+  exp
+)
+"fmtutil.ml" 118 2570 2588 "fmtutil.ml" 118 2570 2590
+type(
+  fmt
+)
+ident(
+  int_ref af "fmtutil.ml" 118 2570 2582 "fmtutil.ml" 118 2570 2584
+)
+"fmtutil.ml" 118 2570 2591 "fmtutil.ml" 118 2570 2593
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 115 2478 2505 "fmtutil.ml" 115 2478 2507
+)
+"fmtutil.ml" 118 2570 2588 "fmtutil.ml" 118 2570 2593
+type(
+  unit
+)
+"fmtutil.ml" 119 2594 2606 "fmtutil.ml" 119 2594 2610
+type(
+  string
+)
+ident(
+  def name "fmtutil.ml" 119 2594 2629 "fmtutil.ml" 154 4046 4057
+)
+"fmtutil.ml" 119 2594 2612 "fmtutil.ml" 119 2594 2614
+type(
+  fmt
+)
+ident(
+  def af "fmtutil.ml" 119 2594 2629 "fmtutil.ml" 154 4046 4057
+)
+"fmtutil.ml" 119 2594 2616 "fmtutil.ml" 119 2594 2618
+type(
+  Prec.prec
+)
+ident(
+  def ap "fmtutil.ml" 119 2594 2629 "fmtutil.ml" 154 4046 4057
+)
+"fmtutil.ml" 119 2594 2620 "fmtutil.ml" 119 2594 2624
+type(
+  op
+)
+ident(
+  def skel "fmtutil.ml" 119 2594 2629 "fmtutil.ml" 154 4046 4057
+)
+"fmtutil.ml" 119 2594 2602 "fmtutil.ml" 119 2594 2625
+type(
+  exp
+)
+"fmtutil.ml" 120 2635 2651 "fmtutil.ml" 120 2635 2655
+type(
+  op
+)
+ident(
+  int_ref skel "fmtutil.ml" 119 2594 2620 "fmtutil.ml" 119 2594 2624
+)
+"fmtutil.ml" 121 2661 2682 "fmtutil.ml" 121 2661 2683
+type(
+  exp
+)
+ident(
+  def b "fmtutil.ml" 122 2687 2703 "fmtutil.ml" 128 2920 2955
+)
+"fmtutil.ml" 121 2661 2675 "fmtutil.ml" 121 2661 2683
+type(
+  op
+)
+type(
+  op
+)
+"fmtutil.ml" 122 2687 2703 "fmtutil.ml" 122 2687 2715
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref Stdlib.Format.pp_open_hbox "format.mli" 169 7512 7512 "format.mli" 169 7512 7556
+)
+"fmtutil.ml" 122 2687 2716 "fmtutil.ml" 122 2687 2718
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 115 2478 2505 "fmtutil.ml" 115 2478 2507
+)
+"fmtutil.ml" 122 2687 2719 "fmtutil.ml" 122 2687 2721
+type(
+  unit
+)
+"fmtutil.ml" 122 2687 2703 "fmtutil.ml" 122 2687 2721
+type(
+  unit
+)
+"fmtutil.ml" 123 2723 2739 "fmtutil.ml" 123 2723 2741
+type(
+  fmt
+)
+ident(
+  int_ref af "fmtutil.ml" 119 2594 2612 "fmtutil.ml" 119 2594 2614
+)
+"fmtutil.ml" 123 2723 2742 "fmtutil.ml" 123 2723 2744
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 115 2478 2505 "fmtutil.ml" 115 2478 2507
+)
+"fmtutil.ml" 123 2723 2739 "fmtutil.ml" 123 2723 2744
+type(
+  unit
+)
+"fmtutil.ml" 124 2747 2766 "fmtutil.ml" 124 2747 2771
+type(
+  Prec.prec -> exp -> bool
+)
+ident(
+  int_ref below "fmtutil.ml" 84 1890 1896 "fmtutil.ml" 84 1890 1901
+)
+"fmtutil.ml" 124 2747 2772 "fmtutil.ml" 124 2747 2774
+type(
+  Prec.prec
+)
+ident(
+  int_ref ap "fmtutil.ml" 119 2594 2616 "fmtutil.ml" 119 2594 2618
+)
+"fmtutil.ml" 124 2747 2775 "fmtutil.ml" 124 2747 2776
+type(
+  exp
+)
+ident(
+  int_ref b "fmtutil.ml" 121 2661 2682 "fmtutil.ml" 121 2661 2683
+)
+"fmtutil.ml" 124 2747 2766 "fmtutil.ml" 124 2747 2776
+type(
+  bool
+)
+"fmtutil.ml" 124 2747 2777 "fmtutil.ml" 124 2747 2779
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 227 9492 9492 "stdlib.mli" 227 9492 9542
+)
+"fmtutil.ml" 124 2747 2780 "fmtutil.ml" 124 2747 2789
+type(
+  exp -> bool
+)
+ident(
+  int_ref is_prefix "fmtutil.ml" 97 2147 2153 "fmtutil.ml" 97 2147 2162
+)
+"fmtutil.ml" 124 2747 2790 "fmtutil.ml" 124 2747 2791
+type(
+  exp
+)
+ident(
+  int_ref b "fmtutil.ml" 121 2661 2682 "fmtutil.ml" 121 2661 2683
+)
+"fmtutil.ml" 124 2747 2780 "fmtutil.ml" 124 2747 2791
+type(
+  bool
+)
+"fmtutil.ml" 124 2747 2766 "fmtutil.ml" 124 2747 2791
+type(
+  bool
+)
+"fmtutil.ml" 125 2797 2815 "fmtutil.ml" 125 2797 2831
+type(
+  Format.formatter -> exp -> unit
+)
+ident(
+  int_ref pp_print_minimal "fmtutil.ml" 115 2478 2488 "fmtutil.ml" 115 2478 2504
+)
+"fmtutil.ml" 125 2797 2832 "fmtutil.ml" 125 2797 2834
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 115 2478 2505 "fmtutil.ml" 115 2478 2507
+)
+"fmtutil.ml" 125 2797 2835 "fmtutil.ml" 125 2797 2836
+type(
+  exp
+)
+ident(
+  int_ref b "fmtutil.ml" 121 2661 2682 "fmtutil.ml" 121 2661 2683
+)
+"fmtutil.ml" 125 2797 2815 "fmtutil.ml" 125 2797 2836
+type(
+  unit
+)
+"fmtutil.ml" 127 2858 2876 "fmtutil.ml" 127 2858 2896
+type(
+  (Format.formatter -> exp -> unit) -> Format.formatter -> exp -> unit
+)
+ident(
+  int_ref pp_print_with_parens "fmtutil.ml" 30 626 630 "fmtutil.ml" 30 626 650
+)
+"fmtutil.ml" 127 2858 2897 "fmtutil.ml" 127 2858 2913
+type(
+  Format.formatter -> exp -> unit
+)
+ident(
+  int_ref pp_print_minimal "fmtutil.ml" 115 2478 2488 "fmtutil.ml" 115 2478 2504
+)
+"fmtutil.ml" 127 2858 2914 "fmtutil.ml" 127 2858 2916
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 115 2478 2505 "fmtutil.ml" 115 2478 2507
+)
+"fmtutil.ml" 127 2858 2917 "fmtutil.ml" 127 2858 2918
+type(
+  exp
+)
+ident(
+  int_ref b "fmtutil.ml" 121 2661 2682 "fmtutil.ml" 121 2661 2683
+)
+"fmtutil.ml" 127 2858 2876 "fmtutil.ml" 127 2858 2918
+type(
+  unit
+)
+"fmtutil.ml" 124 2747 2763 "fmtutil.ml" 127 2858 2918
+type(
+  unit
+)
+"fmtutil.ml" 128 2920 2936 "fmtutil.ml" 128 2920 2948
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref Stdlib.Format.pp_close_box "format.mli" 165 7379 7379 "format.mli" 165 7379 7423
+)
+"fmtutil.ml" 128 2920 2949 "fmtutil.ml" 128 2920 2951
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 115 2478 2505 "fmtutil.ml" 115 2478 2507
+)
+"fmtutil.ml" 128 2920 2952 "fmtutil.ml" 128 2920 2954
+type(
+  unit
+)
+"fmtutil.ml" 128 2920 2936 "fmtutil.ml" 128 2920 2954
+type(
+  unit
+)
+"fmtutil.ml" 124 2747 2763 "fmtutil.ml" 128 2920 2955
+type(
+  unit
+)
+"fmtutil.ml" 123 2723 2739 "fmtutil.ml" 128 2920 2955
+type(
+  unit
+)
+"fmtutil.ml" 122 2687 2703 "fmtutil.ml" 128 2920 2955
+type(
+  unit
+)
+"fmtutil.ml" 129 2956 2977 "fmtutil.ml" 129 2956 2980
+type(
+  assoc
+)
+ident(
+  def ass "fmtutil.ml" 130 2991 3007 "fmtutil.ml" 145 3713 3748
+)
+"fmtutil.ml" 129 2956 2982 "fmtutil.ml" 129 2956 2983
+type(
+  exp
+)
+ident(
+  def b "fmtutil.ml" 130 2991 3007 "fmtutil.ml" 145 3713 3748
+)
+"fmtutil.ml" 129 2956 2985 "fmtutil.ml" 129 2956 2986
+type(
+  exp
+)
+ident(
+  def c "fmtutil.ml" 130 2991 3007 "fmtutil.ml" 145 3713 3748
+)
+"fmtutil.ml" 129 2956 2970 "fmtutil.ml" 129 2956 2987
+type(
+  op
+)
+type(
+  op
+)
+"fmtutil.ml" 130 2991 3007 "fmtutil.ml" 130 2991 3018
+type(
+  Format.formatter -> int -> unit
+)
+ident(
+  int_ref Stdlib.Format.pp_open_box "format.mli" 141 6535 6535 "format.mli" 141 6535 6577
+)
+"fmtutil.ml" 130 2991 3019 "fmtutil.ml" 130 2991 3021
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 115 2478 2505 "fmtutil.ml" 115 2478 2507
+)
+"fmtutil.ml" 130 2991 3022 "fmtutil.ml" 130 2991 3023
+type(
+  int
+)
+"fmtutil.ml" 130 2991 3007 "fmtutil.ml" 130 2991 3023
+type(
+  unit
+)
+"fmtutil.ml" 134 3220 3239 "fmtutil.ml" 134 3220 3244
+type(
+  Prec.prec -> exp -> bool
+)
+ident(
+  int_ref below "fmtutil.ml" 84 1890 1896 "fmtutil.ml" 84 1890 1901
+)
+"fmtutil.ml" 134 3220 3245 "fmtutil.ml" 134 3220 3247
+type(
+  Prec.prec
+)
+ident(
+  int_ref ap "fmtutil.ml" 119 2594 2616 "fmtutil.ml" 119 2594 2618
+)
+"fmtutil.ml" 134 3220 3248 "fmtutil.ml" 134 3220 3249
+type(
+  exp
+)
+ident(
+  int_ref b "fmtutil.ml" 129 2956 2982 "fmtutil.ml" 129 2956 2983
+)
+"fmtutil.ml" 134 3220 3239 "fmtutil.ml" 134 3220 3249
+type(
+  bool
+)
+"fmtutil.ml" 134 3220 3250 "fmtutil.ml" 134 3220 3252
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 227 9492 9492 "stdlib.mli" 227 9492 9542
+)
+"fmtutil.ml" 134 3220 3253 "fmtutil.ml" 134 3220 3260
+type(
+  exp -> string
+)
+ident(
+  int_ref name_of "fmtutil.ml" 93 2080 2086 "fmtutil.ml" 93 2080 2093
+)
+"fmtutil.ml" 134 3220 3261 "fmtutil.ml" 134 3220 3262
+type(
+  exp
+)
+ident(
+  int_ref b "fmtutil.ml" 129 2956 2982 "fmtutil.ml" 129 2956 2983
+)
+"fmtutil.ml" 134 3220 3253 "fmtutil.ml" 134 3220 3262
+type(
+  string
+)
+"fmtutil.ml" 134 3220 3263 "fmtutil.ml" 134 3220 3264
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"fmtutil.ml" 134 3220 3265 "fmtutil.ml" 134 3220 3269
+type(
+  string
+)
+ident(
+  int_ref name "fmtutil.ml" 119 2594 2606 "fmtutil.ml" 119 2594 2610
+)
+"fmtutil.ml" 134 3220 3253 "fmtutil.ml" 134 3220 3269
+type(
+  bool
+)
+"fmtutil.ml" 134 3220 3270 "fmtutil.ml" 134 3220 3272
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"fmtutil.ml" 134 3220 3273 "fmtutil.ml" 134 3220 3280
+type(
+  assoc -> bool
+)
+ident(
+  int_ref is_left "fmtutil.ml" 105 2313 2319 "fmtutil.ml" 105 2313 2326
+)
+"fmtutil.ml" 134 3220 3281 "fmtutil.ml" 134 3220 3284
+type(
+  assoc
+)
+ident(
+  int_ref ass "fmtutil.ml" 129 2956 2977 "fmtutil.ml" 129 2956 2980
+)
+"fmtutil.ml" 134 3220 3273 "fmtutil.ml" 134 3220 3284
+type(
+  bool
+)
+"fmtutil.ml" 134 3220 3253 "fmtutil.ml" 134 3220 3284
+type(
+  bool
+)
+"fmtutil.ml" 134 3220 3239 "fmtutil.ml" 134 3220 3284
+type(
+  bool
+)
+"fmtutil.ml" 136 3306 3324 "fmtutil.ml" 136 3306 3340
+type(
+  Format.formatter -> exp -> unit
+)
+ident(
+  int_ref pp_print_minimal "fmtutil.ml" 115 2478 2488 "fmtutil.ml" 115 2478 2504
+)
+"fmtutil.ml" 136 3306 3341 "fmtutil.ml" 136 3306 3343
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 115 2478 2505 "fmtutil.ml" 115 2478 2507
+)
+"fmtutil.ml" 136 3306 3344 "fmtutil.ml" 136 3306 3345
+type(
+  exp
+)
+ident(
+  int_ref b "fmtutil.ml" 129 2956 2982 "fmtutil.ml" 129 2956 2983
+)
+"fmtutil.ml" 136 3306 3324 "fmtutil.ml" 136 3306 3345
+type(
+  unit
+)
+"fmtutil.ml" 138 3367 3385 "fmtutil.ml" 138 3367 3405
+type(
+  (Format.formatter -> exp -> unit) -> Format.formatter -> exp -> unit
+)
+ident(
+  int_ref pp_print_with_parens "fmtutil.ml" 30 626 630 "fmtutil.ml" 30 626 650
+)
+"fmtutil.ml" 138 3367 3406 "fmtutil.ml" 138 3367 3422
+type(
+  Format.formatter -> exp -> unit
+)
+ident(
+  int_ref pp_print_minimal "fmtutil.ml" 115 2478 2488 "fmtutil.ml" 115 2478 2504
+)
+"fmtutil.ml" 138 3367 3423 "fmtutil.ml" 138 3367 3425
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 115 2478 2505 "fmtutil.ml" 115 2478 2507
+)
+"fmtutil.ml" 138 3367 3426 "fmtutil.ml" 138 3367 3427
+type(
+  exp
+)
+ident(
+  int_ref b "fmtutil.ml" 129 2956 2982 "fmtutil.ml" 129 2956 2983
+)
+"fmtutil.ml" 138 3367 3385 "fmtutil.ml" 138 3367 3427
+type(
+  unit
+)
+"fmtutil.ml" 134 3220 3236 "fmtutil.ml" 138 3367 3427
+type(
+  unit
+)
+"fmtutil.ml" 139 3429 3445 "fmtutil.ml" 139 3429 3447
+type(
+  fmt
+)
+ident(
+  int_ref af "fmtutil.ml" 119 2594 2612 "fmtutil.ml" 119 2594 2614
+)
+"fmtutil.ml" 139 3429 3448 "fmtutil.ml" 139 3429 3450
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 115 2478 2505 "fmtutil.ml" 115 2478 2507
+)
+"fmtutil.ml" 139 3429 3445 "fmtutil.ml" 139 3429 3450
+type(
+  unit
+)
+"fmtutil.ml" 141 3519 3538 "fmtutil.ml" 141 3519 3543
+type(
+  Prec.prec -> exp -> bool
+)
+ident(
+  int_ref below "fmtutil.ml" 84 1890 1896 "fmtutil.ml" 84 1890 1901
+)
+"fmtutil.ml" 141 3519 3544 "fmtutil.ml" 141 3519 3546
+type(
+  Prec.prec
+)
+ident(
+  int_ref ap "fmtutil.ml" 119 2594 2616 "fmtutil.ml" 119 2594 2618
+)
+"fmtutil.ml" 141 3519 3547 "fmtutil.ml" 141 3519 3548
+type(
+  exp
+)
+ident(
+  int_ref c "fmtutil.ml" 129 2956 2985 "fmtutil.ml" 129 2956 2986
+)
+"fmtutil.ml" 141 3519 3538 "fmtutil.ml" 141 3519 3548
+type(
+  bool
+)
+"fmtutil.ml" 141 3519 3549 "fmtutil.ml" 141 3519 3551
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 227 9492 9492 "stdlib.mli" 227 9492 9542
+)
+"fmtutil.ml" 141 3519 3552 "fmtutil.ml" 141 3519 3560
+type(
+  exp -> assoc
+)
+ident(
+  int_ref assoc_of "fmtutil.ml" 89 1997 2003 "fmtutil.ml" 89 1997 2011
+)
+"fmtutil.ml" 141 3519 3561 "fmtutil.ml" 141 3519 3562
+type(
+  exp
+)
+ident(
+  int_ref c "fmtutil.ml" 129 2956 2985 "fmtutil.ml" 129 2956 2986
+)
+"fmtutil.ml" 141 3519 3552 "fmtutil.ml" 141 3519 3562
+type(
+  assoc
+)
+"fmtutil.ml" 141 3519 3563 "fmtutil.ml" 141 3519 3564
+type(
+  assoc -> assoc -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"fmtutil.ml" 141 3519 3565 "fmtutil.ml" 141 3519 3568
+type(
+  assoc
+)
+ident(
+  int_ref ass "fmtutil.ml" 129 2956 2977 "fmtutil.ml" 129 2956 2980
+)
+"fmtutil.ml" 141 3519 3552 "fmtutil.ml" 141 3519 3568
+type(
+  bool
+)
+"fmtutil.ml" 141 3519 3569 "fmtutil.ml" 141 3519 3571
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"fmtutil.ml" 141 3519 3572 "fmtutil.ml" 141 3519 3580
+type(
+  assoc -> bool
+)
+ident(
+  int_ref is_right "fmtutil.ml" 110 2395 2401 "fmtutil.ml" 110 2395 2409
+)
+"fmtutil.ml" 141 3519 3581 "fmtutil.ml" 141 3519 3584
+type(
+  assoc
+)
+ident(
+  int_ref ass "fmtutil.ml" 129 2956 2977 "fmtutil.ml" 129 2956 2980
+)
+"fmtutil.ml" 141 3519 3572 "fmtutil.ml" 141 3519 3584
+type(
+  bool
+)
+"fmtutil.ml" 141 3519 3552 "fmtutil.ml" 141 3519 3584
+type(
+  bool
+)
+"fmtutil.ml" 141 3519 3538 "fmtutil.ml" 141 3519 3584
+type(
+  bool
+)
+"fmtutil.ml" 142 3590 3608 "fmtutil.ml" 142 3590 3624
+type(
+  Format.formatter -> exp -> unit
+)
+ident(
+  int_ref pp_print_minimal "fmtutil.ml" 115 2478 2488 "fmtutil.ml" 115 2478 2504
+)
+"fmtutil.ml" 142 3590 3625 "fmtutil.ml" 142 3590 3627
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 115 2478 2505 "fmtutil.ml" 115 2478 2507
+)
+"fmtutil.ml" 142 3590 3628 "fmtutil.ml" 142 3590 3629
+type(
+  exp
+)
+ident(
+  int_ref c "fmtutil.ml" 129 2956 2985 "fmtutil.ml" 129 2956 2986
+)
+"fmtutil.ml" 142 3590 3608 "fmtutil.ml" 142 3590 3629
+type(
+  unit
+)
+"fmtutil.ml" 144 3651 3669 "fmtutil.ml" 144 3651 3689
+type(
+  (Format.formatter -> exp -> unit) -> Format.formatter -> exp -> unit
+)
+ident(
+  int_ref pp_print_with_parens "fmtutil.ml" 30 626 630 "fmtutil.ml" 30 626 650
+)
+"fmtutil.ml" 144 3651 3690 "fmtutil.ml" 144 3651 3706
+type(
+  Format.formatter -> exp -> unit
+)
+ident(
+  int_ref pp_print_minimal "fmtutil.ml" 115 2478 2488 "fmtutil.ml" 115 2478 2504
+)
+"fmtutil.ml" 144 3651 3707 "fmtutil.ml" 144 3651 3709
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 115 2478 2505 "fmtutil.ml" 115 2478 2507
+)
+"fmtutil.ml" 144 3651 3710 "fmtutil.ml" 144 3651 3711
+type(
+  exp
+)
+ident(
+  int_ref c "fmtutil.ml" 129 2956 2985 "fmtutil.ml" 129 2956 2986
+)
+"fmtutil.ml" 144 3651 3669 "fmtutil.ml" 144 3651 3711
+type(
+  unit
+)
+"fmtutil.ml" 141 3519 3535 "fmtutil.ml" 144 3651 3711
+type(
+  unit
+)
+"fmtutil.ml" 145 3713 3729 "fmtutil.ml" 145 3713 3741
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref Stdlib.Format.pp_close_box "format.mli" 165 7379 7379 "format.mli" 165 7379 7423
+)
+"fmtutil.ml" 145 3713 3742 "fmtutil.ml" 145 3713 3744
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 115 2478 2505 "fmtutil.ml" 115 2478 2507
+)
+"fmtutil.ml" 145 3713 3745 "fmtutil.ml" 145 3713 3747
+type(
+  unit
+)
+"fmtutil.ml" 145 3713 3729 "fmtutil.ml" 145 3713 3747
+type(
+  unit
+)
+"fmtutil.ml" 141 3519 3535 "fmtutil.ml" 145 3713 3748
+type(
+  unit
+)
+"fmtutil.ml" 139 3429 3445 "fmtutil.ml" 145 3713 3748
+type(
+  unit
+)
+"fmtutil.ml" 134 3220 3236 "fmtutil.ml" 145 3713 3748
+type(
+  unit
+)
+"fmtutil.ml" 130 2991 3007 "fmtutil.ml" 145 3713 3748
+type(
+  unit
+)
+"fmtutil.ml" 146 3749 3771 "fmtutil.ml" 146 3749 3772
+type(
+  exp
+)
+ident(
+  def b "fmtutil.ml" 147 3776 3792 "fmtutil.ml" 153 4010 4045
+)
+"fmtutil.ml" 146 3749 3763 "fmtutil.ml" 146 3749 3772
+type(
+  op
+)
+type(
+  op
+)
+"fmtutil.ml" 147 3776 3792 "fmtutil.ml" 147 3776 3804
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref Stdlib.Format.pp_open_hbox "format.mli" 169 7512 7512 "format.mli" 169 7512 7556
+)
+"fmtutil.ml" 147 3776 3805 "fmtutil.ml" 147 3776 3807
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 115 2478 2505 "fmtutil.ml" 115 2478 2507
+)
+"fmtutil.ml" 147 3776 3808 "fmtutil.ml" 147 3776 3810
+type(
+  unit
+)
+"fmtutil.ml" 147 3776 3792 "fmtutil.ml" 147 3776 3810
+type(
+  unit
+)
+"fmtutil.ml" 148 3813 3832 "fmtutil.ml" 148 3813 3837
+type(
+  Prec.prec -> exp -> bool
+)
+ident(
+  int_ref below "fmtutil.ml" 84 1890 1896 "fmtutil.ml" 84 1890 1901
+)
+"fmtutil.ml" 148 3813 3838 "fmtutil.ml" 148 3813 3840
+type(
+  Prec.prec
+)
+ident(
+  int_ref ap "fmtutil.ml" 119 2594 2616 "fmtutil.ml" 119 2594 2618
+)
+"fmtutil.ml" 148 3813 3841 "fmtutil.ml" 148 3813 3842
+type(
+  exp
+)
+ident(
+  int_ref b "fmtutil.ml" 146 3749 3771 "fmtutil.ml" 146 3749 3772
+)
+"fmtutil.ml" 148 3813 3832 "fmtutil.ml" 148 3813 3842
+type(
+  bool
+)
+"fmtutil.ml" 148 3813 3843 "fmtutil.ml" 148 3813 3845
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 227 9492 9492 "stdlib.mli" 227 9492 9542
+)
+"fmtutil.ml" 148 3813 3846 "fmtutil.ml" 148 3813 3856
+type(
+  exp -> bool
+)
+ident(
+  int_ref is_postfix "fmtutil.ml" 101 2229 2235 "fmtutil.ml" 101 2229 2245
+)
+"fmtutil.ml" 148 3813 3857 "fmtutil.ml" 148 3813 3858
+type(
+  exp
+)
+ident(
+  int_ref b "fmtutil.ml" 146 3749 3771 "fmtutil.ml" 146 3749 3772
+)
+"fmtutil.ml" 148 3813 3846 "fmtutil.ml" 148 3813 3858
+type(
+  bool
+)
+"fmtutil.ml" 148 3813 3832 "fmtutil.ml" 148 3813 3858
+type(
+  bool
+)
+"fmtutil.ml" 149 3864 3882 "fmtutil.ml" 149 3864 3898
+type(
+  Format.formatter -> exp -> unit
+)
+ident(
+  int_ref pp_print_minimal "fmtutil.ml" 115 2478 2488 "fmtutil.ml" 115 2478 2504
+)
+"fmtutil.ml" 149 3864 3899 "fmtutil.ml" 149 3864 3901
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 115 2478 2505 "fmtutil.ml" 115 2478 2507
+)
+"fmtutil.ml" 149 3864 3902 "fmtutil.ml" 149 3864 3903
+type(
+  exp
+)
+ident(
+  int_ref b "fmtutil.ml" 146 3749 3771 "fmtutil.ml" 146 3749 3772
+)
+"fmtutil.ml" 149 3864 3882 "fmtutil.ml" 149 3864 3903
+type(
+  unit
+)
+"fmtutil.ml" 151 3925 3943 "fmtutil.ml" 151 3925 3963
+type(
+  (Format.formatter -> exp -> unit) -> Format.formatter -> exp -> unit
+)
+ident(
+  int_ref pp_print_with_parens "fmtutil.ml" 30 626 630 "fmtutil.ml" 30 626 650
+)
+"fmtutil.ml" 151 3925 3964 "fmtutil.ml" 151 3925 3980
+type(
+  Format.formatter -> exp -> unit
+)
+ident(
+  int_ref pp_print_minimal "fmtutil.ml" 115 2478 2488 "fmtutil.ml" 115 2478 2504
+)
+"fmtutil.ml" 151 3925 3981 "fmtutil.ml" 151 3925 3983
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 115 2478 2505 "fmtutil.ml" 115 2478 2507
+)
+"fmtutil.ml" 151 3925 3984 "fmtutil.ml" 151 3925 3985
+type(
+  exp
+)
+ident(
+  int_ref b "fmtutil.ml" 146 3749 3771 "fmtutil.ml" 146 3749 3772
+)
+"fmtutil.ml" 151 3925 3943 "fmtutil.ml" 151 3925 3985
+type(
+  unit
+)
+"fmtutil.ml" 148 3813 3829 "fmtutil.ml" 151 3925 3985
+type(
+  unit
+)
+"fmtutil.ml" 152 3987 4003 "fmtutil.ml" 152 3987 4005
+type(
+  fmt
+)
+ident(
+  int_ref af "fmtutil.ml" 119 2594 2612 "fmtutil.ml" 119 2594 2614
+)
+"fmtutil.ml" 152 3987 4006 "fmtutil.ml" 152 3987 4008
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 115 2478 2505 "fmtutil.ml" 115 2478 2507
+)
+"fmtutil.ml" 152 3987 4003 "fmtutil.ml" 152 3987 4008
+type(
+  unit
+)
+"fmtutil.ml" 153 4010 4026 "fmtutil.ml" 153 4010 4038
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref Stdlib.Format.pp_close_box "format.mli" 165 7379 7379 "format.mli" 165 7379 7423
+)
+"fmtutil.ml" 153 4010 4039 "fmtutil.ml" 153 4010 4041
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "fmtutil.ml" 115 2478 2505 "fmtutil.ml" 115 2478 2507
+)
+"fmtutil.ml" 153 4010 4042 "fmtutil.ml" 153 4010 4044
+type(
+  unit
+)
+"fmtutil.ml" 153 4010 4026 "fmtutil.ml" 153 4010 4044
+type(
+  unit
+)
+"fmtutil.ml" 152 3987 4003 "fmtutil.ml" 153 4010 4045
+type(
+  unit
+)
+"fmtutil.ml" 148 3813 3829 "fmtutil.ml" 153 4010 4045
+type(
+  unit
+)
+"fmtutil.ml" 147 3776 3792 "fmtutil.ml" 153 4010 4045
+type(
+  unit
+)
+"fmtutil.ml" 119 2594 2629 "fmtutil.ml" 154 4046 4057
+type(
+  unit
+)
+"fmtutil.ml" 116 2524 2537 "fmtutil.ml" 154 4046 4057
+type(
+  exp -> unit
+)
+"fmtutil.ml" 156 4065 4069 "fmtutil.ml" 156 4065 4071
+type(
+  exp -> unit
+)
+ident(
+  int_ref go "fmtutil.ml" 116 2524 2532 "fmtutil.ml" 116 2524 2534
+)
+"fmtutil.ml" 116 2524 2528 "fmtutil.ml" 156 4065 4071
+type(
+  exp -> unit
+)

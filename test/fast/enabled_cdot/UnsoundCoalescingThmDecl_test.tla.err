@@ -1,0 +1,240 @@
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:0
+@!!END
+
+File "/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library/TLAPS.tla", line 1, character 1 to line 363, character 77:
+[INFO]: All 0 obligation proved.
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:27:5:27:7
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:27:8:27:12
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:27:14:27:16
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:4
+@!!loc:27:18:27:31
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:5
+@!!loc:18:5:18:7
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:6
+@!!loc:18:8:18:21
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:7
+@!!loc:22:5:22:7
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:8
+@!!loc:22:8:22:12
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:8
+@!!END
+
+** Unexpanded symbols: ---
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:27:8:27:12
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:27:14:27:16
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:4
+@!!loc:27:18:27:31
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:5
+@!!loc:18:5:18:7
+@!!status:failed
+@!!prover:enabledaxioms
+@!!meth:time-limit: inf
+@!!reason:ENABLEDaxioms proof directive did not succeed.
+
+@!!already:false
+@!!obl:ENABLEDaxioms proof directive did not succeed.
+
+Obligation:
+
+ASSUME NEW VARIABLE x,
+       NEW STATE P,
+       TRUE 
+PROVE  ENABLED (P /\ ~x') <=> P /\ ENABLED ~x'
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:6
+@!!loc:18:8:18:21
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+** Unexpanded symbols: ACTION_P_
+
+@!!BEGIN
+@!!type:obligation
+@!!id:8
+@!!loc:22:8:22:12
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:27:5:27:7
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!reason:false
+@!!already:false
+@!!obl:
+(* SMT failed with status = sat
+ *)
+ASSUME NEW VARIABLE x,
+       (\E x#enabled#prime1 : ~~x#enabled#prime1 /\ ~x#enabled#prime1)
+       <=> ~~x' /\ (\E x#enabled#prime1 : ~x#enabled#prime1) ,
+       x' ,
+       TRUE 
+PROVE  FALSE
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:7
+@!!loc:22:5:22:7
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!reason:false
+@!!already:false
+@!!obl:
+(* SMT failed with status = sat
+ *)
+ASSUME NEW VARIABLE x,
+       ASSUME NEW STATE P_1
+       PROVE  ENABLED (P_1 /\ ~x') <=> P_1 /\ ENABLED ~x' 
+PROVE  ENABLED (P /\ ~x') <=> P /\ ENABLED ~x'
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:27:5:27:7
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:7
+@!!loc:22:5:22:7
+@!!status:failed
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.0 (0%)
+@!!reason:false
+@!!already:false
+@!!obl:
+ASSUME NEW VARIABLE x,
+       ASSUME NEW STATE P_1
+       PROVE  ENABLED (P_1 /\ ~x') <=> P_1 /\ ENABLED ~x' 
+PROVE  ENABLED (P /\ ~x') <=> P /\ ENABLED ~x'
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:7
+@!!loc:22:5:22:7
+@!!status:failed
+@!!prover:isabelle
+@!!meth:auto; time-limit: 150
+@!!reason:Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+
+@!!already:false
+@!!obl:
+ASSUME NEW VARIABLE x,
+       ASSUME NEW STATE P_1
+       PROVE  ENABLED (P_1 /\ ~x') <=> P_1 /\ ENABLED ~x' 
+PROVE  ENABLED (P /\ ~x') <=> P /\ ENABLED ~x'
+
+@!!END
+
+File "./UnsoundCoalescingThmDecl_test.tla", line 22, characters 5-6:
+[ERROR]: Could not prove or check:
+           ASSUME NEW VARIABLE x,
+                  <1>1 
+           PROVE  ENABLED (P /\ ~x') <=> P /\ ENABLED ~x'
+File "./UnsoundCoalescingThmDecl_test.tla", line 18, characters 5-6:
+[ERROR]: Could not prove or check:
+           ASSUME NEW VARIABLE x,
+                  NEW STATE P,
+                  ENABLEDaxioms 
+           PROVE  ENABLED (P /\ ~x') <=> P /\ ENABLED ~x'
+File "./UnsoundCoalescingThmDecl_test.tla", line 1, character 1 to line 29, character 80:
+[ERROR]: 2/8 obligations failed.
+There were backend errors processing module `"UnsoundCoalescingThmDecl_test"`.

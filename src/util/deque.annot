@@ -1,0 +1,4322 @@
+"deque.ml" 13 235 239 "deque.ml" 13 235 244
+type(
+  'a dq
+)
+ident(
+  def empty "deque.ml" 16 314 314 "deque.ml" 0 0 -1
+)
+"deque.ml" 13 235 257 "deque.ml" 13 235 260
+type(
+  'a list
+)
+"deque.ml" 13 235 270 "deque.ml" 13 235 271
+type(
+  int
+)
+"deque.ml" 14 274 296 "deque.ml" 14 274 299
+type(
+  'a list
+)
+"deque.ml" 14 274 309 "deque.ml" 14 274 310
+type(
+  int
+)
+"deque.ml" 13 235 247 "deque.ml" 14 274 312
+type(
+  'a dq
+)
+"deque.ml" 16 314 318 "deque.ml" 16 314 322
+type(
+  'a dq -> int
+)
+ident(
+  def size "deque.ml" 19 346 346 "deque.ml" 0 0 -1
+)
+"deque.ml" 16 314 323 "deque.ml" 16 314 324
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 17 327 329 "deque.ml" 17 327 344
+)
+"deque.ml" 17 327 329 "deque.ml" 17 327 330
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 16 314 323 "deque.ml" 16 314 324
+)
+"deque.ml" 17 327 329 "deque.ml" 17 327 335
+type(
+  int
+)
+"deque.ml" 17 327 336 "deque.ml" 17 327 337
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"deque.ml" 17 327 338 "deque.ml" 17 327 339
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 16 314 323 "deque.ml" 16 314 324
+)
+"deque.ml" 17 327 338 "deque.ml" 17 327 344
+type(
+  int
+)
+"deque.ml" 17 327 329 "deque.ml" 17 327 344
+type(
+  int
+)
+"deque.ml" 19 346 350 "deque.ml" 19 346 354
+type(
+  'a -> 'a dq -> 'a dq
+)
+ident(
+  def cons "deque.ml" 22 416 416 "deque.ml" 0 0 -1
+)
+"deque.ml" 19 346 355 "deque.ml" 19 346 356
+type(
+  'a
+)
+ident(
+  def x "deque.ml" 19 346 357 "deque.ml" 20 361 414
+)
+"deque.ml" 19 346 357 "deque.ml" 19 346 358
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 20 361 363 "deque.ml" 20 361 414
+)
+"deque.ml" 20 361 365 "deque.ml" 20 361 366
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 19 346 357 "deque.ml" 19 346 358
+)
+"deque.ml" 20 361 380 "deque.ml" 20 361 381
+type(
+  'a
+)
+ident(
+  int_ref x "deque.ml" 19 346 355 "deque.ml" 19 346 356
+)
+"deque.ml" 20 361 385 "deque.ml" 20 361 386
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 19 346 357 "deque.ml" 19 346 358
+)
+"deque.ml" 20 361 385 "deque.ml" 20 361 392
+type(
+  'a list
+)
+"deque.ml" 20 361 380 "deque.ml" 20 361 392
+type(
+  'a list
+)
+"deque.ml" 20 361 402 "deque.ml" 20 361 403
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 19 346 357 "deque.ml" 19 346 358
+)
+"deque.ml" 20 361 402 "deque.ml" 20 361 408
+type(
+  int
+)
+"deque.ml" 20 361 409 "deque.ml" 20 361 410
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"deque.ml" 20 361 411 "deque.ml" 20 361 412
+type(
+  int
+)
+"deque.ml" 20 361 402 "deque.ml" 20 361 412
+type(
+  int
+)
+"deque.ml" 20 361 363 "deque.ml" 20 361 414
+type(
+  'a dq
+)
+"deque.ml" 22 416 420 "deque.ml" 22 416 424
+type(
+  'a dq -> 'a -> 'a dq
+)
+ident(
+  def snoc "deque.ml" 25 484 484 "deque.ml" 0 0 -1
+)
+"deque.ml" 22 416 425 "deque.ml" 22 416 426
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 22 416 427 "deque.ml" 23 431 482
+)
+"deque.ml" 22 416 427 "deque.ml" 22 416 428
+type(
+  'a
+)
+ident(
+  def x "deque.ml" 23 431 433 "deque.ml" 23 431 482
+)
+"deque.ml" 23 431 435 "deque.ml" 23 431 436
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 22 416 425 "deque.ml" 22 416 426
+)
+"deque.ml" 23 431 449 "deque.ml" 23 431 450
+type(
+  'a
+)
+ident(
+  int_ref x "deque.ml" 22 416 427 "deque.ml" 22 416 428
+)
+"deque.ml" 23 431 454 "deque.ml" 23 431 455
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 22 416 425 "deque.ml" 22 416 426
+)
+"deque.ml" 23 431 454 "deque.ml" 23 431 460
+type(
+  'a list
+)
+"deque.ml" 23 431 449 "deque.ml" 23 431 460
+type(
+  'a list
+)
+"deque.ml" 23 431 470 "deque.ml" 23 431 471
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 22 416 425 "deque.ml" 22 416 426
+)
+"deque.ml" 23 431 470 "deque.ml" 23 431 476
+type(
+  int
+)
+"deque.ml" 23 431 477 "deque.ml" 23 431 478
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"deque.ml" 23 431 479 "deque.ml" 23 431 480
+type(
+  int
+)
+"deque.ml" 23 431 470 "deque.ml" 23 431 480
+type(
+  int
+)
+"deque.ml" 23 431 433 "deque.ml" 23 431 482
+type(
+  'a dq
+)
+"deque.ml" 25 484 488 "deque.ml" 25 484 493
+type(
+  'a dq -> ('a * 'a dq) option
+)
+ident(
+  def front "deque.ml" 38 933 933 "deque.ml" 0 0 -1
+)
+"deque.ml" 25 484 494 "deque.ml" 25 484 495
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 26 498 500 "deque.ml" 36 883 931
+)
+"deque.ml" 26 498 506 "deque.ml" 26 498 507
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 25 484 494 "deque.ml" 25 484 495
+)
+"deque.ml" 26 498 506 "deque.ml" 26 498 513
+type(
+  'a list
+)
+"deque.ml" 27 519 525 "deque.ml" 27 519 526
+type(
+  'a
+)
+ident(
+  def h "deque.ml" 27 519 539 "deque.ml" 27 519 593
+)
+"deque.ml" 27 519 530 "deque.ml" 27 519 535
+type(
+  'a list
+)
+ident(
+  def front "deque.ml" 27 519 539 "deque.ml" 27 519 593
+)
+"deque.ml" 27 519 525 "deque.ml" 27 519 535
+type(
+  'a list
+)
+type(
+  'a list
+)
+"deque.ml" 27 519 545 "deque.ml" 27 519 546
+type(
+  'a
+)
+ident(
+  int_ref h "deque.ml" 27 519 525 "deque.ml" 27 519 526
+)
+"deque.ml" 27 519 550 "deque.ml" 27 519 551
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 25 484 494 "deque.ml" 25 484 495
+)
+"deque.ml" 27 519 565 "deque.ml" 27 519 570
+type(
+  'a list
+)
+ident(
+  int_ref front "deque.ml" 27 519 530 "deque.ml" 27 519 535
+)
+"deque.ml" 27 519 580 "deque.ml" 27 519 581
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 25 484 494 "deque.ml" 25 484 495
+)
+"deque.ml" 27 519 580 "deque.ml" 27 519 586
+type(
+  int
+)
+"deque.ml" 27 519 587 "deque.ml" 27 519 588
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"deque.ml" 27 519 589 "deque.ml" 27 519 590
+type(
+  int
+)
+"deque.ml" 27 519 580 "deque.ml" 27 519 590
+type(
+  int
+)
+"deque.ml" 27 519 548 "deque.ml" 27 519 592
+type(
+  'a dq
+)
+"deque.ml" 27 519 544 "deque.ml" 27 519 593
+type(
+  'a * 'a dq
+)
+"deque.ml" 27 519 539 "deque.ml" 27 519 593
+type(
+  ('a * 'a dq) option
+)
+"deque.ml" 28 594 600 "deque.ml" 28 594 601
+type(
+  'a list
+)
+type(
+  'a list
+)
+"deque.ml" 29 605 619 "deque.ml" 29 605 620
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 25 484 494 "deque.ml" 25 484 495
+)
+"deque.ml" 29 605 619 "deque.ml" 29 605 625
+type(
+  'a list
+)
+"deque.ml" 30 631 643 "deque.ml" 30 631 645
+type(
+  'a list
+)
+type(
+  'a list
+)
+"deque.ml" 30 631 649 "deque.ml" 30 631 653
+type(
+  ('a * 'a dq) option
+)
+"deque.ml" 31 654 666 "deque.ml" 31 654 667
+type(
+  'a list
+)
+type(
+  'a list
+)
+"deque.ml" 32 671 689 "deque.ml" 32 671 694
+type(
+  'a list
+)
+ident(
+  def front "deque.ml" 33 716 730 "deque.ml" 36 883 931
+)
+"deque.ml" 32 671 697 "deque.ml" 32 671 705
+type(
+  'a list -> 'a list
+)
+ident(
+  int_ref Ext.List.rev "ext.mli" 11 220 222 "ext.mli" 11 220 250
+)
+"deque.ml" 32 671 706 "deque.ml" 32 671 707
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 25 484 494 "deque.ml" 25 484 495
+)
+"deque.ml" 32 671 706 "deque.ml" 32 671 712
+type(
+  'a list
+)
+"deque.ml" 32 671 697 "deque.ml" 32 671 712
+type(
+  'a list
+)
+"deque.ml" 33 716 736 "deque.ml" 33 716 743
+type(
+  'a list -> 'a
+)
+ident(
+  int_ref Ext.List.hd "ext.mli" 8 132 134 "ext.mli" 8 132 156
+)
+"deque.ml" 33 716 744 "deque.ml" 33 716 749
+type(
+  'a list
+)
+ident(
+  int_ref front "deque.ml" 32 671 689 "deque.ml" 32 671 694
+)
+"deque.ml" 33 716 736 "deque.ml" 33 716 749
+type(
+  'a
+)
+"deque.ml" 33 716 761 "deque.ml" 33 716 768
+type(
+  'a list -> 'a list
+)
+ident(
+  int_ref Ext.List.tl "ext.mli" 9 157 159 "ext.mli" 9 157 186
+)
+"deque.ml" 33 716 769 "deque.ml" 33 716 774
+type(
+  'a list
+)
+ident(
+  int_ref front "deque.ml" 32 671 689 "deque.ml" 32 671 694
+)
+"deque.ml" 33 716 761 "deque.ml" 33 716 774
+type(
+  'a list
+)
+"deque.ml" 34 777 821 "deque.ml" 34 777 822
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 25 484 494 "deque.ml" 25 484 495
+)
+"deque.ml" 34 777 821 "deque.ml" 34 777 827
+type(
+  int
+)
+"deque.ml" 34 777 828 "deque.ml" 34 777 829
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"deque.ml" 34 777 830 "deque.ml" 34 777 831
+type(
+  int
+)
+"deque.ml" 34 777 821 "deque.ml" 34 777 831
+type(
+  int
+)
+"deque.ml" 35 834 878 "deque.ml" 35 834 880
+type(
+  'a list
+)
+"deque.ml" 36 883 927 "deque.ml" 36 883 928
+type(
+  int
+)
+"deque.ml" 33 716 751 "deque.ml" 36 883 930
+type(
+  'a dq
+)
+"deque.ml" 33 716 735 "deque.ml" 36 883 931
+type(
+  'a * 'a dq
+)
+"deque.ml" 33 716 730 "deque.ml" 36 883 931
+type(
+  ('a * 'a dq) option
+)
+"deque.ml" 32 671 685 "deque.ml" 36 883 931
+type(
+  ('a * 'a dq) option
+)
+"deque.ml" 29 605 613 "deque.ml" 36 883 931
+type(
+  ('a * 'a dq) option
+)
+"deque.ml" 26 498 500 "deque.ml" 36 883 931
+type(
+  ('a * 'a dq) option
+)
+"deque.ml" 38 933 937 "deque.ml" 38 933 941
+type(
+  'a dq -> ('a dq * 'a) option
+)
+ident(
+  def rear "deque.ml" 50 1307 1307 "deque.ml" 0 0 -1
+)
+"deque.ml" 38 933 942 "deque.ml" 38 933 943
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 39 946 948 "deque.ml" 48 1272 1305
+)
+"deque.ml" 39 946 954 "deque.ml" 39 946 955
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 38 933 942 "deque.ml" 38 933 943
+)
+"deque.ml" 39 946 954 "deque.ml" 39 946 960
+type(
+  'a list
+)
+"deque.ml" 40 966 972 "deque.ml" 40 966 973
+type(
+  'a
+)
+ident(
+  def t "deque.ml" 40 966 985 "deque.ml" 40 966 1037
+)
+"deque.ml" 40 966 977 "deque.ml" 40 966 981
+type(
+  'a list
+)
+ident(
+  def rear "deque.ml" 40 966 985 "deque.ml" 40 966 1037
+)
+"deque.ml" 40 966 972 "deque.ml" 40 966 981
+type(
+  'a list
+)
+type(
+  'a list
+)
+"deque.ml" 40 966 993 "deque.ml" 40 966 994
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 38 933 942 "deque.ml" 38 933 943
+)
+"deque.ml" 40 966 1007 "deque.ml" 40 966 1011
+type(
+  'a list
+)
+ident(
+  int_ref rear "deque.ml" 40 966 977 "deque.ml" 40 966 981
+)
+"deque.ml" 40 966 1021 "deque.ml" 40 966 1022
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 38 933 942 "deque.ml" 38 933 943
+)
+"deque.ml" 40 966 1021 "deque.ml" 40 966 1027
+type(
+  int
+)
+"deque.ml" 40 966 1028 "deque.ml" 40 966 1029
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"deque.ml" 40 966 1030 "deque.ml" 40 966 1031
+type(
+  int
+)
+"deque.ml" 40 966 1021 "deque.ml" 40 966 1031
+type(
+  int
+)
+"deque.ml" 40 966 991 "deque.ml" 40 966 1033
+type(
+  'a dq
+)
+"deque.ml" 40 966 1035 "deque.ml" 40 966 1036
+type(
+  'a
+)
+ident(
+  int_ref t "deque.ml" 40 966 972 "deque.ml" 40 966 973
+)
+"deque.ml" 40 966 990 "deque.ml" 40 966 1037
+type(
+  'a dq * 'a
+)
+"deque.ml" 40 966 985 "deque.ml" 40 966 1037
+type(
+  ('a dq * 'a) option
+)
+"deque.ml" 41 1038 1044 "deque.ml" 41 1038 1045
+type(
+  'a list
+)
+type(
+  'a list
+)
+"deque.ml" 42 1049 1063 "deque.ml" 42 1049 1064
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 38 933 942 "deque.ml" 38 933 943
+)
+"deque.ml" 42 1049 1063 "deque.ml" 42 1049 1070
+type(
+  'a list
+)
+"deque.ml" 43 1076 1088 "deque.ml" 43 1076 1090
+type(
+  'a list
+)
+type(
+  'a list
+)
+"deque.ml" 43 1076 1094 "deque.ml" 43 1076 1098
+type(
+  ('a dq * 'a) option
+)
+"deque.ml" 44 1099 1111 "deque.ml" 44 1099 1112
+type(
+  'a list
+)
+type(
+  'a list
+)
+"deque.ml" 45 1116 1134 "deque.ml" 45 1116 1138
+type(
+  'a list
+)
+ident(
+  def rear "deque.ml" 46 1161 1175 "deque.ml" 48 1272 1305
+)
+"deque.ml" 45 1116 1141 "deque.ml" 45 1116 1149
+type(
+  'a list -> 'a list
+)
+ident(
+  int_ref Ext.List.rev "ext.mli" 11 220 222 "ext.mli" 11 220 250
+)
+"deque.ml" 45 1116 1150 "deque.ml" 45 1116 1151
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 38 933 942 "deque.ml" 38 933 943
+)
+"deque.ml" 45 1116 1150 "deque.ml" 45 1116 1157
+type(
+  'a list
+)
+"deque.ml" 45 1116 1141 "deque.ml" 45 1116 1157
+type(
+  'a list
+)
+"deque.ml" 46 1161 1191 "deque.ml" 46 1161 1193
+type(
+  'a list
+)
+"deque.ml" 46 1161 1203 "deque.ml" 46 1161 1204
+type(
+  int
+)
+"deque.ml" 47 1207 1236 "deque.ml" 47 1207 1243
+type(
+  'a list -> 'a list
+)
+ident(
+  int_ref Ext.List.tl "ext.mli" 9 157 159 "ext.mli" 9 157 186
+)
+"deque.ml" 47 1207 1244 "deque.ml" 47 1207 1248
+type(
+  'a list
+)
+ident(
+  int_ref rear "deque.ml" 45 1116 1134 "deque.ml" 45 1116 1138
+)
+"deque.ml" 47 1207 1236 "deque.ml" 47 1207 1248
+type(
+  'a list
+)
+"deque.ml" 47 1207 1258 "deque.ml" 47 1207 1259
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 38 933 942 "deque.ml" 38 933 943
+)
+"deque.ml" 47 1207 1258 "deque.ml" 47 1207 1264
+type(
+  int
+)
+"deque.ml" 47 1207 1265 "deque.ml" 47 1207 1266
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"deque.ml" 47 1207 1267 "deque.ml" 47 1207 1268
+type(
+  int
+)
+"deque.ml" 47 1207 1258 "deque.ml" 47 1207 1268
+type(
+  int
+)
+"deque.ml" 46 1161 1181 "deque.ml" 47 1207 1270
+type(
+  'a dq
+)
+"deque.ml" 48 1272 1292 "deque.ml" 48 1272 1299
+type(
+  'a list -> 'a
+)
+ident(
+  int_ref Ext.List.hd "ext.mli" 8 132 134 "ext.mli" 8 132 156
+)
+"deque.ml" 48 1272 1300 "deque.ml" 48 1272 1304
+type(
+  'a list
+)
+ident(
+  int_ref rear "deque.ml" 45 1116 1134 "deque.ml" 45 1116 1138
+)
+"deque.ml" 48 1272 1292 "deque.ml" 48 1272 1304
+type(
+  'a
+)
+"deque.ml" 46 1161 1180 "deque.ml" 48 1272 1305
+type(
+  'a dq * 'a
+)
+"deque.ml" 46 1161 1175 "deque.ml" 48 1272 1305
+type(
+  ('a dq * 'a) option
+)
+"deque.ml" 45 1116 1130 "deque.ml" 48 1272 1305
+type(
+  ('a dq * 'a) option
+)
+"deque.ml" 42 1049 1057 "deque.ml" 48 1272 1305
+type(
+  ('a dq * 'a) option
+)
+"deque.ml" 39 946 948 "deque.ml" 48 1272 1305
+type(
+  ('a dq * 'a) option
+)
+"deque.ml" 50 1307 1311 "deque.ml" 50 1307 1314
+type(
+  'a dq -> 'a dq
+)
+ident(
+  def rev "deque.ml" 53 1402 1402 "deque.ml" 0 0 -1
+)
+"deque.ml" 50 1307 1315 "deque.ml" 50 1307 1316
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 50 1307 1319 "deque.ml" 51 1354 1400
+)
+"deque.ml" 50 1307 1329 "deque.ml" 50 1307 1330
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 50 1307 1315 "deque.ml" 50 1307 1316
+)
+"deque.ml" 50 1307 1329 "deque.ml" 50 1307 1335
+type(
+  'a list
+)
+"deque.ml" 50 1307 1345 "deque.ml" 50 1307 1346
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 50 1307 1315 "deque.ml" 50 1307 1316
+)
+"deque.ml" 50 1307 1345 "deque.ml" 50 1307 1351
+type(
+  int
+)
+"deque.ml" 51 1354 1375 "deque.ml" 51 1354 1376
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 50 1307 1315 "deque.ml" 50 1307 1316
+)
+"deque.ml" 51 1354 1375 "deque.ml" 51 1354 1382
+type(
+  'a list
+)
+"deque.ml" 51 1354 1392 "deque.ml" 51 1354 1393
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 50 1307 1315 "deque.ml" 50 1307 1316
+)
+"deque.ml" 51 1354 1392 "deque.ml" 51 1354 1398
+type(
+  int
+)
+"deque.ml" 50 1307 1319 "deque.ml" 51 1354 1400
+type(
+  'a dq
+)
+"deque.ml" 53 1402 1406 "deque.ml" 53 1402 1413
+type(
+  'a list -> 'a dq
+)
+ident(
+  def of_list "deque.ml" 56 1497 1497 "deque.ml" 0 0 -1
+)
+"deque.ml" 53 1402 1414 "deque.ml" 53 1402 1415
+type(
+  'a list
+)
+ident(
+  def l "deque.ml" 53 1402 1418 "deque.ml" 54 1455 1495
+)
+"deque.ml" 53 1402 1428 "deque.ml" 53 1402 1429
+type(
+  'a list
+)
+ident(
+  int_ref l "deque.ml" 53 1402 1414 "deque.ml" 53 1402 1415
+)
+"deque.ml" 53 1402 1439 "deque.ml" 53 1402 1450
+type(
+  'a list -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"deque.ml" 53 1402 1451 "deque.ml" 53 1402 1452
+type(
+  'a list
+)
+ident(
+  int_ref l "deque.ml" 53 1402 1414 "deque.ml" 53 1402 1415
+)
+"deque.ml" 53 1402 1439 "deque.ml" 53 1402 1452
+type(
+  int
+)
+"deque.ml" 54 1455 1480 "deque.ml" 54 1455 1482
+type(
+  'a list
+)
+"deque.ml" 54 1455 1492 "deque.ml" 54 1455 1493
+type(
+  int
+)
+"deque.ml" 53 1402 1418 "deque.ml" 54 1455 1495
+type(
+  'a dq
+)
+"deque.ml" 56 1497 1501 "deque.ml" 56 1497 1505
+type(
+  'a dq -> bool
+)
+ident(
+  def null "deque.ml" 58 1522 1522 "deque.ml" 0 0 -1
+)
+"deque.ml" 56 1497 1506 "deque.ml" 56 1497 1507
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 56 1497 1510 "deque.ml" 56 1497 1520
+)
+"deque.ml" 56 1497 1510 "deque.ml" 56 1497 1514
+type(
+  'a dq -> int
+)
+ident(
+  int_ref size "deque.ml" 16 314 318 "deque.ml" 16 314 322
+)
+"deque.ml" 56 1497 1515 "deque.ml" 56 1497 1516
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 56 1497 1506 "deque.ml" 56 1497 1507
+)
+"deque.ml" 56 1497 1510 "deque.ml" 56 1497 1516
+type(
+  int
+)
+"deque.ml" 56 1497 1517 "deque.ml" 56 1497 1518
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"deque.ml" 56 1497 1519 "deque.ml" 56 1497 1520
+type(
+  int
+)
+"deque.ml" 56 1497 1510 "deque.ml" 56 1497 1520
+type(
+  bool
+)
+"deque.ml" 58 1522 1526 "deque.ml" 58 1522 1535
+type(
+  'a dq -> 'a dq -> 'a dq
+)
+ident(
+  def append_rl "deque.ml" 67 1739 1739 "deque.ml" 0 0 -1
+)
+"deque.ml" 58 1522 1536 "deque.ml" 58 1522 1537
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 58 1522 1538 "deque.ml" 65 1700 1737
+)
+"deque.ml" 58 1522 1538 "deque.ml" 58 1522 1539
+type(
+  'a dq
+)
+ident(
+  def r "deque.ml" 59 1542 1544 "deque.ml" 65 1700 1737
+)
+"deque.ml" 59 1542 1552 "deque.ml" 59 1542 1556
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  def spin "deque.ml" 59 1542 1544 "deque.ml" 65 1700 1737
+)
+"deque.ml" 59 1542 1557 "deque.ml" 59 1542 1561
+type(
+  'a list
+)
+ident(
+  def rear "deque.ml" 59 1542 1564 "deque.ml" 62 1620 1651
+)
+"deque.ml" 60 1573 1579 "deque.ml" 60 1573 1581
+type(
+  'a list
+)
+"deque.ml" 60 1573 1585 "deque.ml" 60 1573 1586
+type(
+  'a dq
+)
+ident(
+  int_ref r "deque.ml" 58 1522 1538 "deque.ml" 58 1522 1539
+)
+"deque.ml" 60 1573 1585 "deque.ml" 60 1573 1591
+type(
+  'a list
+)
+"deque.ml" 60 1573 1592 "deque.ml" 60 1573 1593
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"deque.ml" 60 1573 1594 "deque.ml" 60 1573 1598
+type(
+  'a list
+)
+ident(
+  int_ref rear "deque.ml" 59 1542 1557 "deque.ml" 59 1542 1561
+)
+"deque.ml" 60 1573 1585 "deque.ml" 60 1573 1598
+type(
+  'a list
+)
+"deque.ml" 61 1599 1605 "deque.ml" 61 1599 1606
+type(
+  'a
+)
+ident(
+  def x "deque.ml" 62 1620 1628 "deque.ml" 62 1620 1651
+)
+"deque.ml" 61 1599 1610 "deque.ml" 61 1599 1616
+type(
+  'a list
+)
+ident(
+  def rfront "deque.ml" 62 1620 1628 "deque.ml" 62 1620 1651
+)
+"deque.ml" 61 1599 1605 "deque.ml" 61 1599 1616
+type(
+  'a list
+)
+"deque.ml" 62 1620 1628 "deque.ml" 62 1620 1632
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref spin "deque.ml" 59 1542 1552 "deque.ml" 59 1542 1556
+)
+"deque.ml" 62 1620 1634 "deque.ml" 62 1620 1635
+type(
+  'a
+)
+ident(
+  int_ref x "deque.ml" 61 1599 1605 "deque.ml" 61 1599 1606
+)
+"deque.ml" 62 1620 1639 "deque.ml" 62 1620 1643
+type(
+  'a list
+)
+ident(
+  int_ref rear "deque.ml" 59 1542 1557 "deque.ml" 59 1542 1561
+)
+"deque.ml" 62 1620 1633 "deque.ml" 62 1620 1644
+type(
+  'a list
+)
+"deque.ml" 62 1620 1645 "deque.ml" 62 1620 1651
+type(
+  'a list
+)
+ident(
+  int_ref rfront "deque.ml" 61 1599 1610 "deque.ml" 61 1599 1616
+)
+"deque.ml" 62 1620 1628 "deque.ml" 62 1620 1651
+type(
+  'a list
+)
+"deque.ml" 59 1542 1564 "deque.ml" 62 1620 1651
+type(
+  'a list -> 'a list
+)
+"deque.ml" 63 1652 1659 "deque.ml" 63 1652 1660
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 58 1522 1536 "deque.ml" 58 1522 1537
+)
+"deque.ml" 64 1666 1682 "deque.ml" 64 1666 1683
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 58 1522 1536 "deque.ml" 58 1522 1537
+)
+"deque.ml" 64 1666 1682 "deque.ml" 64 1666 1688
+type(
+  int
+)
+"deque.ml" 64 1666 1689 "deque.ml" 64 1666 1690
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"deque.ml" 64 1666 1691 "deque.ml" 64 1666 1695
+type(
+  'a dq -> int
+)
+ident(
+  int_ref size "deque.ml" 16 314 318 "deque.ml" 16 314 322
+)
+"deque.ml" 64 1666 1696 "deque.ml" 64 1666 1697
+type(
+  'a dq
+)
+ident(
+  int_ref r "deque.ml" 58 1522 1538 "deque.ml" 58 1522 1539
+)
+"deque.ml" 64 1666 1691 "deque.ml" 64 1666 1697
+type(
+  int
+)
+"deque.ml" 64 1666 1682 "deque.ml" 64 1666 1697
+type(
+  int
+)
+"deque.ml" 65 1700 1716 "deque.ml" 65 1700 1720
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref spin "deque.ml" 59 1542 1552 "deque.ml" 59 1542 1556
+)
+"deque.ml" 65 1700 1721 "deque.ml" 65 1700 1722
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 58 1522 1536 "deque.ml" 58 1522 1537
+)
+"deque.ml" 65 1700 1721 "deque.ml" 65 1700 1727
+type(
+  'a list
+)
+"deque.ml" 65 1700 1728 "deque.ml" 65 1700 1729
+type(
+  'a dq
+)
+ident(
+  int_ref r "deque.ml" 58 1522 1538 "deque.ml" 58 1522 1539
+)
+"deque.ml" 65 1700 1728 "deque.ml" 65 1700 1735
+type(
+  'a list
+)
+"deque.ml" 65 1700 1716 "deque.ml" 65 1700 1735
+type(
+  'a list
+)
+"deque.ml" 63 1652 1657 "deque.ml" 65 1700 1737
+type(
+  'a dq
+)
+"deque.ml" 59 1542 1544 "deque.ml" 65 1700 1737
+type(
+  'a dq
+)
+"deque.ml" 67 1739 1743 "deque.ml" 67 1739 1752
+type(
+  'a dq -> 'a dq -> 'a dq
+)
+ident(
+  def append_lr "deque.ml" 76 1959 1959 "deque.ml" 0 0 -1
+)
+"deque.ml" 67 1739 1753 "deque.ml" 67 1739 1754
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 67 1739 1755 "deque.ml" 74 1919 1957
+)
+"deque.ml" 67 1739 1755 "deque.ml" 67 1739 1756
+type(
+  'a dq
+)
+ident(
+  def r "deque.ml" 68 1759 1761 "deque.ml" 74 1919 1957
+)
+"deque.ml" 68 1759 1769 "deque.ml" 68 1759 1773
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  def spin "deque.ml" 68 1759 1761 "deque.ml" 74 1919 1957
+)
+"deque.ml" 68 1759 1774 "deque.ml" 68 1759 1779
+type(
+  'a list
+)
+ident(
+  def front "deque.ml" 68 1759 1782 "deque.ml" 71 1839 1870
+)
+"deque.ml" 69 1791 1797 "deque.ml" 69 1791 1799
+type(
+  'a list
+)
+"deque.ml" 69 1791 1803 "deque.ml" 69 1791 1804
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 67 1739 1753 "deque.ml" 67 1739 1754
+)
+"deque.ml" 69 1791 1803 "deque.ml" 69 1791 1810
+type(
+  'a list
+)
+"deque.ml" 69 1791 1811 "deque.ml" 69 1791 1812
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"deque.ml" 69 1791 1813 "deque.ml" 69 1791 1818
+type(
+  'a list
+)
+ident(
+  int_ref front "deque.ml" 68 1759 1774 "deque.ml" 68 1759 1779
+)
+"deque.ml" 69 1791 1803 "deque.ml" 69 1791 1818
+type(
+  'a list
+)
+"deque.ml" 70 1819 1825 "deque.ml" 70 1819 1826
+type(
+  'a
+)
+ident(
+  def x "deque.ml" 71 1839 1847 "deque.ml" 71 1839 1870
+)
+"deque.ml" 70 1819 1830 "deque.ml" 70 1819 1835
+type(
+  'a list
+)
+ident(
+  def qrear "deque.ml" 71 1839 1847 "deque.ml" 71 1839 1870
+)
+"deque.ml" 70 1819 1825 "deque.ml" 70 1819 1835
+type(
+  'a list
+)
+"deque.ml" 71 1839 1847 "deque.ml" 71 1839 1851
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref spin "deque.ml" 68 1759 1769 "deque.ml" 68 1759 1773
+)
+"deque.ml" 71 1839 1853 "deque.ml" 71 1839 1854
+type(
+  'a
+)
+ident(
+  int_ref x "deque.ml" 70 1819 1825 "deque.ml" 70 1819 1826
+)
+"deque.ml" 71 1839 1858 "deque.ml" 71 1839 1863
+type(
+  'a list
+)
+ident(
+  int_ref front "deque.ml" 68 1759 1774 "deque.ml" 68 1759 1779
+)
+"deque.ml" 71 1839 1852 "deque.ml" 71 1839 1864
+type(
+  'a list
+)
+"deque.ml" 71 1839 1865 "deque.ml" 71 1839 1870
+type(
+  'a list
+)
+ident(
+  int_ref qrear "deque.ml" 70 1819 1830 "deque.ml" 70 1819 1835
+)
+"deque.ml" 71 1839 1847 "deque.ml" 71 1839 1870
+type(
+  'a list
+)
+"deque.ml" 68 1759 1782 "deque.ml" 71 1839 1870
+type(
+  'a list -> 'a list
+)
+"deque.ml" 72 1871 1878 "deque.ml" 72 1871 1879
+type(
+  'a dq
+)
+ident(
+  int_ref r "deque.ml" 67 1739 1755 "deque.ml" 67 1739 1756
+)
+"deque.ml" 73 1885 1901 "deque.ml" 73 1885 1902
+type(
+  'a dq
+)
+ident(
+  int_ref r "deque.ml" 67 1739 1755 "deque.ml" 67 1739 1756
+)
+"deque.ml" 73 1885 1901 "deque.ml" 73 1885 1907
+type(
+  int
+)
+"deque.ml" 73 1885 1908 "deque.ml" 73 1885 1909
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"deque.ml" 73 1885 1910 "deque.ml" 73 1885 1914
+type(
+  'a dq -> int
+)
+ident(
+  int_ref size "deque.ml" 16 314 318 "deque.ml" 16 314 322
+)
+"deque.ml" 73 1885 1915 "deque.ml" 73 1885 1916
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 67 1739 1753 "deque.ml" 67 1739 1754
+)
+"deque.ml" 73 1885 1910 "deque.ml" 73 1885 1916
+type(
+  int
+)
+"deque.ml" 73 1885 1901 "deque.ml" 73 1885 1916
+type(
+  int
+)
+"deque.ml" 74 1919 1936 "deque.ml" 74 1919 1940
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref spin "deque.ml" 68 1759 1769 "deque.ml" 68 1759 1773
+)
+"deque.ml" 74 1919 1941 "deque.ml" 74 1919 1942
+type(
+  'a dq
+)
+ident(
+  int_ref r "deque.ml" 67 1739 1755 "deque.ml" 67 1739 1756
+)
+"deque.ml" 74 1919 1941 "deque.ml" 74 1919 1948
+type(
+  'a list
+)
+"deque.ml" 74 1919 1949 "deque.ml" 74 1919 1950
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 67 1739 1753 "deque.ml" 67 1739 1754
+)
+"deque.ml" 74 1919 1949 "deque.ml" 74 1919 1955
+type(
+  'a list
+)
+"deque.ml" 74 1919 1936 "deque.ml" 74 1919 1955
+type(
+  'a list
+)
+"deque.ml" 72 1871 1876 "deque.ml" 74 1919 1957
+type(
+  'a dq
+)
+"deque.ml" 68 1759 1761 "deque.ml" 74 1919 1957
+type(
+  'a dq
+)
+"deque.ml" 76 1959 1963 "deque.ml" 76 1959 1969
+type(
+  'a dq -> 'a dq -> 'a dq
+)
+ident(
+  def append "deque.ml" 82 2046 2046 "deque.ml" 0 0 -1
+)
+"deque.ml" 76 1959 1970 "deque.ml" 76 1959 1971
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 76 1959 1972 "deque.ml" 80 2027 2044
+)
+"deque.ml" 76 1959 1972 "deque.ml" 76 1959 1973
+type(
+  'a dq
+)
+ident(
+  def r "deque.ml" 77 1976 1978 "deque.ml" 80 2027 2044
+)
+"deque.ml" 77 1976 1981 "deque.ml" 77 1976 1985
+type(
+  'a dq -> int
+)
+ident(
+  int_ref size "deque.ml" 16 314 318 "deque.ml" 16 314 322
+)
+"deque.ml" 77 1976 1986 "deque.ml" 77 1976 1987
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 76 1959 1970 "deque.ml" 76 1959 1971
+)
+"deque.ml" 77 1976 1981 "deque.ml" 77 1976 1987
+type(
+  int
+)
+"deque.ml" 77 1976 1988 "deque.ml" 77 1976 1989
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 140 5875 5875 "stdlib.mli" 140 5875 5925
+)
+"deque.ml" 77 1976 1990 "deque.ml" 77 1976 1994
+type(
+  'a dq -> int
+)
+ident(
+  int_ref size "deque.ml" 16 314 318 "deque.ml" 16 314 322
+)
+"deque.ml" 77 1976 1995 "deque.ml" 77 1976 1996
+type(
+  'a dq
+)
+ident(
+  int_ref r "deque.ml" 76 1959 1972 "deque.ml" 76 1959 1973
+)
+"deque.ml" 77 1976 1990 "deque.ml" 77 1976 1996
+type(
+  int
+)
+"deque.ml" 77 1976 1981 "deque.ml" 77 1976 1996
+type(
+  bool
+)
+"deque.ml" 78 2002 2006 "deque.ml" 78 2002 2015
+type(
+  'a dq -> 'a dq -> 'a dq
+)
+ident(
+  int_ref append_rl "deque.ml" 58 1522 1526 "deque.ml" 58 1522 1535
+)
+"deque.ml" 78 2002 2016 "deque.ml" 78 2002 2017
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 76 1959 1970 "deque.ml" 76 1959 1971
+)
+"deque.ml" 78 2002 2018 "deque.ml" 78 2002 2019
+type(
+  'a dq
+)
+ident(
+  int_ref r "deque.ml" 76 1959 1972 "deque.ml" 76 1959 1973
+)
+"deque.ml" 78 2002 2006 "deque.ml" 78 2002 2019
+type(
+  'a dq
+)
+"deque.ml" 80 2027 2031 "deque.ml" 80 2027 2040
+type(
+  'a dq -> 'a dq -> 'a dq
+)
+ident(
+  int_ref append_lr "deque.ml" 67 1739 1743 "deque.ml" 67 1739 1752
+)
+"deque.ml" 80 2027 2041 "deque.ml" 80 2027 2042
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 76 1959 1970 "deque.ml" 76 1959 1971
+)
+"deque.ml" 80 2027 2043 "deque.ml" 80 2027 2044
+type(
+  'a dq
+)
+ident(
+  int_ref r "deque.ml" 76 1959 1972 "deque.ml" 76 1959 1973
+)
+"deque.ml" 80 2027 2031 "deque.ml" 80 2027 2044
+type(
+  'a dq
+)
+"deque.ml" 77 1976 1978 "deque.ml" 80 2027 2044
+type(
+  'a dq
+)
+"deque.ml" 82 2046 2050 "deque.ml" 82 2046 2061
+type(
+  'a dq -> 'a list -> 'a dq
+)
+ident(
+  def append_list "deque.ml" 91 2254 2254 "deque.ml" 0 0 -1
+)
+"deque.ml" 82 2046 2062 "deque.ml" 82 2046 2063
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 82 2046 2064 "deque.ml" 89 2224 2252
+)
+"deque.ml" 82 2046 2064 "deque.ml" 82 2046 2065
+type(
+  'a list
+)
+ident(
+  def l "deque.ml" 83 2068 2070 "deque.ml" 89 2224 2252
+)
+"deque.ml" 83 2068 2074 "deque.ml" 83 2068 2075
+type(
+  int
+)
+ident(
+  def n "deque.ml" 84 2095 2097 "deque.ml" 89 2224 2252
+)
+"deque.ml" 83 2068 2078 "deque.ml" 83 2068 2089
+type(
+  'a list -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"deque.ml" 83 2068 2090 "deque.ml" 83 2068 2091
+type(
+  'a list
+)
+ident(
+  int_ref l "deque.ml" 82 2046 2064 "deque.ml" 82 2046 2065
+)
+"deque.ml" 83 2068 2078 "deque.ml" 83 2068 2091
+type(
+  int
+)
+"deque.ml" 84 2095 2105 "deque.ml" 84 2095 2109
+type(
+  'b list -> 'b list -> 'b list
+)
+ident(
+  def spin "deque.ml" 84 2095 2097 "deque.ml" 89 2224 2252
+)
+"deque.ml" 84 2095 2110 "deque.ml" 84 2095 2114
+type(
+  'b list
+)
+ident(
+  def rear "deque.ml" 84 2095 2117 "deque.ml" 86 2143 2177
+)
+"deque.ml" 85 2126 2132 "deque.ml" 85 2126 2134
+type(
+  'b list
+)
+"deque.ml" 85 2126 2138 "deque.ml" 85 2126 2142
+type(
+  'b list
+)
+ident(
+  int_ref rear "deque.ml" 84 2095 2110 "deque.ml" 84 2095 2114
+)
+"deque.ml" 86 2143 2149 "deque.ml" 86 2143 2150
+type(
+  'b
+)
+ident(
+  def x "deque.ml" 86 2143 2159 "deque.ml" 86 2143 2177
+)
+"deque.ml" 86 2143 2154 "deque.ml" 86 2143 2155
+type(
+  'b list
+)
+ident(
+  def l "deque.ml" 86 2143 2159 "deque.ml" 86 2143 2177
+)
+"deque.ml" 86 2143 2149 "deque.ml" 86 2143 2155
+type(
+  'b list
+)
+"deque.ml" 86 2143 2159 "deque.ml" 86 2143 2163
+type(
+  'b list -> 'b list -> 'b list
+)
+ident(
+  int_ref spin "deque.ml" 84 2095 2105 "deque.ml" 84 2095 2109
+)
+"deque.ml" 86 2143 2165 "deque.ml" 86 2143 2166
+type(
+  'b
+)
+ident(
+  int_ref x "deque.ml" 86 2143 2149 "deque.ml" 86 2143 2150
+)
+"deque.ml" 86 2143 2170 "deque.ml" 86 2143 2174
+type(
+  'b list
+)
+ident(
+  int_ref rear "deque.ml" 84 2095 2110 "deque.ml" 84 2095 2114
+)
+"deque.ml" 86 2143 2164 "deque.ml" 86 2143 2175
+type(
+  'b list
+)
+"deque.ml" 86 2143 2176 "deque.ml" 86 2143 2177
+type(
+  'b list
+)
+ident(
+  int_ref l "deque.ml" 86 2143 2154 "deque.ml" 86 2143 2155
+)
+"deque.ml" 86 2143 2159 "deque.ml" 86 2143 2177
+type(
+  'b list
+)
+"deque.ml" 84 2095 2117 "deque.ml" 86 2143 2177
+type(
+  'b list -> 'b list
+)
+"deque.ml" 87 2178 2185 "deque.ml" 87 2178 2186
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 82 2046 2062 "deque.ml" 82 2046 2063
+)
+"deque.ml" 88 2192 2208 "deque.ml" 88 2192 2212
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref spin "deque.ml" 84 2095 2105 "deque.ml" 84 2095 2109
+)
+"deque.ml" 88 2192 2213 "deque.ml" 88 2192 2214
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 82 2046 2062 "deque.ml" 82 2046 2063
+)
+"deque.ml" 88 2192 2213 "deque.ml" 88 2192 2219
+type(
+  'a list
+)
+"deque.ml" 88 2192 2220 "deque.ml" 88 2192 2221
+type(
+  'a list
+)
+ident(
+  int_ref l "deque.ml" 82 2046 2064 "deque.ml" 82 2046 2065
+)
+"deque.ml" 88 2192 2208 "deque.ml" 88 2192 2221
+type(
+  'a list
+)
+"deque.ml" 89 2224 2240 "deque.ml" 89 2224 2241
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 82 2046 2062 "deque.ml" 82 2046 2063
+)
+"deque.ml" 89 2224 2240 "deque.ml" 89 2224 2246
+type(
+  int
+)
+"deque.ml" 89 2224 2247 "deque.ml" 89 2224 2248
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"deque.ml" 89 2224 2249 "deque.ml" 89 2224 2250
+type(
+  int
+)
+ident(
+  int_ref n "deque.ml" 83 2068 2074 "deque.ml" 83 2068 2075
+)
+"deque.ml" 89 2224 2240 "deque.ml" 89 2224 2250
+type(
+  int
+)
+"deque.ml" 87 2178 2183 "deque.ml" 89 2224 2252
+type(
+  'a dq
+)
+"deque.ml" 84 2095 2097 "deque.ml" 89 2224 2252
+type(
+  'a dq
+)
+"deque.ml" 83 2068 2070 "deque.ml" 89 2224 2252
+type(
+  'a dq
+)
+"deque.ml" 91 2254 2258 "deque.ml" 91 2254 2270
+type(
+  'a list -> 'a dq -> 'a dq
+)
+ident(
+  def prepend_list "deque.ml" 97 2370 2370 "deque.ml" 0 0 -1
+)
+"deque.ml" 91 2254 2271 "deque.ml" 91 2254 2272
+type(
+  'a list
+)
+ident(
+  def l "deque.ml" 91 2254 2273 "deque.ml" 95 2343 2368
+)
+"deque.ml" 91 2254 2273 "deque.ml" 91 2254 2274
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 92 2277 2279 "deque.ml" 95 2343 2368
+)
+"deque.ml" 92 2277 2283 "deque.ml" 92 2277 2284
+type(
+  int
+)
+ident(
+  def n "deque.ml" 93 2304 2306 "deque.ml" 95 2343 2368
+)
+"deque.ml" 92 2277 2287 "deque.ml" 92 2277 2298
+type(
+  'a list -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"deque.ml" 92 2277 2299 "deque.ml" 92 2277 2300
+type(
+  'a list
+)
+ident(
+  int_ref l "deque.ml" 91 2254 2271 "deque.ml" 91 2254 2272
+)
+"deque.ml" 92 2277 2287 "deque.ml" 92 2277 2300
+type(
+  int
+)
+"deque.ml" 93 2304 2308 "deque.ml" 93 2304 2309
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 91 2254 2273 "deque.ml" 91 2254 2274
+)
+"deque.ml" 94 2315 2329 "deque.ml" 94 2315 2330
+type(
+  'a list
+)
+ident(
+  int_ref l "deque.ml" 91 2254 2271 "deque.ml" 91 2254 2272
+)
+"deque.ml" 94 2315 2331 "deque.ml" 94 2315 2332
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"deque.ml" 94 2315 2333 "deque.ml" 94 2315 2334
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 91 2254 2273 "deque.ml" 91 2254 2274
+)
+"deque.ml" 94 2315 2333 "deque.ml" 94 2315 2340
+type(
+  'a list
+)
+"deque.ml" 94 2315 2329 "deque.ml" 94 2315 2340
+type(
+  'a list
+)
+"deque.ml" 95 2343 2356 "deque.ml" 95 2343 2357
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 91 2254 2273 "deque.ml" 91 2254 2274
+)
+"deque.ml" 95 2343 2356 "deque.ml" 95 2343 2362
+type(
+  int
+)
+"deque.ml" 95 2343 2363 "deque.ml" 95 2343 2364
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"deque.ml" 95 2343 2365 "deque.ml" 95 2343 2366
+type(
+  int
+)
+ident(
+  int_ref n "deque.ml" 92 2277 2283 "deque.ml" 92 2277 2284
+)
+"deque.ml" 95 2343 2356 "deque.ml" 95 2343 2366
+type(
+  int
+)
+"deque.ml" 93 2304 2306 "deque.ml" 95 2343 2368
+type(
+  'a dq
+)
+"deque.ml" 92 2277 2279 "deque.ml" 95 2343 2368
+type(
+  'a dq
+)
+"deque.ml" 97 2370 2378 "deque.ml" 97 2370 2381
+type(
+  ?backwards:bool -> 'a dq -> int -> 'a option
+)
+ident(
+  def nth "deque.ml" 97 2370 2370 "deque.ml" 0 0 -1
+)
+"deque.ml" 97 2370 2384 "deque.ml" 97 2370 2393
+type(
+  bool
+)
+ident(
+  def backwards "deque.ml" 97 2370 2401 "deque.ml" 122 2931 2942
+)
+"deque.ml" 97 2370 2394 "deque.ml" 97 2370 2399
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "deque.ml" 97 2370 2394 "deque.ml" 97 2370 2399
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+ident(
+  def *sth* "deque.ml" 97 2370 2394 "deque.ml" 97 2370 2399
+)
+"deque.ml" 97 2370 2401 "deque.ml" 97 2370 2402
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 97 2370 2403 "deque.ml" 122 2931 2942
+)
+"deque.ml" 97 2370 2403 "deque.ml" 97 2370 2404
+type(
+  int
+)
+ident(
+  def n "deque.ml" 112 2660 2662 "deque.ml" 122 2931 2942
+)
+"deque.ml" 112 2660 2665 "deque.ml" 112 2660 2674
+type(
+  bool
+)
+ident(
+  int_ref backwards "deque.ml" 97 2370 2384 "deque.ml" 97 2370 2393
+)
+"deque.ml" 112 2660 2680 "deque.ml" 112 2660 2683
+type(
+  ?backwards:bool -> 'a dq -> int -> 'a option
+)
+ident(
+  int_ref nth "deque.ml" 97 2370 2378 "deque.ml" 97 2370 2381
+)
+"deque.ml" 112 2660 2685 "deque.ml" 112 2660 2688
+type(
+  'a dq -> 'a dq
+)
+ident(
+  int_ref rev "deque.ml" 50 1307 1311 "deque.ml" 50 1307 1314
+)
+"deque.ml" 112 2660 2689 "deque.ml" 112 2660 2690
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 97 2370 2401 "deque.ml" 97 2370 2402
+)
+"deque.ml" 112 2660 2684 "deque.ml" 112 2660 2691
+type(
+  'a dq
+)
+"deque.ml" 112 2660 2692 "deque.ml" 112 2660 2693
+type(
+  int
+)
+ident(
+  int_ref n "deque.ml" 97 2370 2403 "deque.ml" 97 2370 2404
+)
+"deque.ml" 112 2660 2680 "deque.ml" 112 2660 2693
+type(
+  'a option
+)
+"deque.ml" 113 2694 2704 "deque.ml" 113 2694 2705
+type(
+  int
+)
+ident(
+  int_ref n "deque.ml" 97 2370 2403 "deque.ml" 97 2370 2404
+)
+"deque.ml" 113 2694 2706 "deque.ml" 113 2694 2708
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 150 6190 6190 "stdlib.mli" 150 6190 6242
+)
+"deque.ml" 113 2694 2709 "deque.ml" 113 2694 2713
+type(
+  'a dq -> int
+)
+ident(
+  int_ref size "deque.ml" 16 314 318 "deque.ml" 16 314 322
+)
+"deque.ml" 113 2694 2714 "deque.ml" 113 2694 2715
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 97 2370 2401 "deque.ml" 97 2370 2402
+)
+"deque.ml" 113 2694 2709 "deque.ml" 113 2694 2715
+type(
+  int
+)
+"deque.ml" 113 2694 2704 "deque.ml" 113 2694 2715
+type(
+  bool
+)
+"deque.ml" 113 2694 2721 "deque.ml" 113 2694 2725
+type(
+  'a option
+)
+"deque.ml" 115 2733 2745 "deque.ml" 115 2733 2748
+type(
+  'b dq -> int -> 'b option
+)
+ident(
+  def git "deque.ml" 115 2733 2737 "deque.ml" 122 2931 2942
+)
+"deque.ml" 115 2733 2749 "deque.ml" 115 2733 2750
+type(
+  'b dq
+)
+ident(
+  def q "deque.ml" 115 2733 2751 "deque.ml" 120 2875 2923
+)
+"deque.ml" 115 2733 2751 "deque.ml" 115 2733 2752
+type(
+  int
+)
+ident(
+  def n "deque.ml" 116 2755 2761 "deque.ml" 120 2875 2923
+)
+"deque.ml" 116 2755 2767 "deque.ml" 116 2755 2772
+type(
+  'b dq -> ('b * 'b dq) option
+)
+ident(
+  int_ref front "deque.ml" 25 484 488 "deque.ml" 25 484 493
+)
+"deque.ml" 116 2755 2773 "deque.ml" 116 2755 2774
+type(
+  'b dq
+)
+ident(
+  int_ref q "deque.ml" 115 2733 2749 "deque.ml" 115 2733 2750
+)
+"deque.ml" 116 2755 2767 "deque.ml" 116 2755 2774
+type(
+  ('b * 'b dq) option
+)
+"deque.ml" 117 2780 2796 "deque.ml" 117 2780 2797
+type(
+  'b
+)
+ident(
+  def x "deque.ml" 118 2805 2817 "deque.ml" 118 2805 2856
+)
+"deque.ml" 117 2780 2799 "deque.ml" 117 2780 2800
+type(
+  'b dq
+)
+ident(
+  def q "deque.ml" 118 2805 2817 "deque.ml" 118 2805 2856
+)
+"deque.ml" 117 2780 2795 "deque.ml" 117 2780 2801
+type(
+  'b * 'b dq
+)
+"deque.ml" 117 2780 2790 "deque.ml" 117 2780 2801
+type(
+  ('b * 'b dq) option
+)
+type(
+  ('b * 'b dq) option
+)
+"deque.ml" 118 2805 2820 "deque.ml" 118 2805 2821
+type(
+  int
+)
+ident(
+  int_ref n "deque.ml" 115 2733 2751 "deque.ml" 115 2733 2752
+)
+"deque.ml" 118 2805 2822 "deque.ml" 118 2805 2823
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"deque.ml" 118 2805 2824 "deque.ml" 118 2805 2825
+type(
+  int
+)
+"deque.ml" 118 2805 2820 "deque.ml" 118 2805 2825
+type(
+  bool
+)
+"deque.ml" 118 2805 2836 "deque.ml" 118 2805 2837
+type(
+  'b
+)
+ident(
+  int_ref x "deque.ml" 117 2780 2796 "deque.ml" 117 2780 2797
+)
+"deque.ml" 118 2805 2831 "deque.ml" 118 2805 2837
+type(
+  'b option
+)
+"deque.ml" 118 2805 2843 "deque.ml" 118 2805 2846
+type(
+  'b dq -> int -> 'b option
+)
+ident(
+  int_ref git "deque.ml" 115 2733 2745 "deque.ml" 115 2733 2748
+)
+"deque.ml" 118 2805 2847 "deque.ml" 118 2805 2848
+type(
+  'b dq
+)
+ident(
+  int_ref q "deque.ml" 117 2780 2799 "deque.ml" 117 2780 2800
+)
+"deque.ml" 118 2805 2850 "deque.ml" 118 2805 2851
+type(
+  int
+)
+ident(
+  int_ref n "deque.ml" 115 2733 2751 "deque.ml" 115 2733 2752
+)
+"deque.ml" 118 2805 2852 "deque.ml" 118 2805 2853
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"deque.ml" 118 2805 2854 "deque.ml" 118 2805 2855
+type(
+  int
+)
+"deque.ml" 118 2805 2849 "deque.ml" 118 2805 2856
+type(
+  int
+)
+"deque.ml" 118 2805 2843 "deque.ml" 118 2805 2856
+type(
+  'b option
+)
+"deque.ml" 118 2805 2817 "deque.ml" 118 2805 2856
+type(
+  'b option
+)
+"deque.ml" 119 2857 2867 "deque.ml" 119 2857 2871
+type(
+  ('b * 'b dq) option
+)
+type(
+  ('b * 'b dq) option
+)
+"deque.ml" 120 2875 2887 "deque.ml" 120 2875 2895
+type(
+  string -> 'b option
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"deque.ml" 120 2875 2896 "deque.ml" 120 2875 2923
+type(
+  string
+)
+"deque.ml" 120 2875 2887 "deque.ml" 120 2875 2923
+type(
+  'b option
+)
+"deque.ml" 116 2755 2761 "deque.ml" 120 2875 2923
+type(
+  'b option
+)
+"deque.ml" 122 2931 2935 "deque.ml" 122 2931 2938
+type(
+  'a dq -> int -> 'a option
+)
+ident(
+  int_ref git "deque.ml" 115 2733 2745 "deque.ml" 115 2733 2748
+)
+"deque.ml" 122 2931 2939 "deque.ml" 122 2931 2940
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 97 2370 2401 "deque.ml" 97 2370 2402
+)
+"deque.ml" 122 2931 2941 "deque.ml" 122 2931 2942
+type(
+  int
+)
+ident(
+  int_ref n "deque.ml" 97 2370 2403 "deque.ml" 97 2370 2404
+)
+"deque.ml" 122 2931 2935 "deque.ml" 122 2931 2942
+type(
+  'a option
+)
+"deque.ml" 115 2733 2737 "deque.ml" 122 2931 2942
+type(
+  'a option
+)
+"deque.ml" 113 2694 2701 "deque.ml" 122 2931 2942
+type(
+  'a option
+)
+"deque.ml" 112 2660 2662 "deque.ml" 122 2931 2942
+type(
+  'a option
+)
+"deque.ml" 124 2944 2952 "deque.ml" 124 2944 2959
+type(
+  'a dq -> int -> 'a dq
+)
+ident(
+  def first_n "deque.ml" 124 2944 2944 "deque.ml" 0 0 -1
+)
+"deque.ml" 124 2944 2960 "deque.ml" 124 2944 2961
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 124 2944 2962 "deque.ml" 144 3610 3619
+)
+"deque.ml" 124 2944 2962 "deque.ml" 124 2944 2963
+type(
+  int
+)
+ident(
+  def n "deque.ml" 126 3024 3028 "deque.ml" 144 3610 3619
+)
+"deque.ml" 126 3024 3032 "deque.ml" 126 3024 3033
+type(
+  int
+)
+ident(
+  int_ref n "deque.ml" 124 2944 2962 "deque.ml" 124 2944 2963
+)
+"deque.ml" 126 3024 3034 "deque.ml" 126 3024 3035
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 135 5721 5721 "stdlib.mli" 135 5721 5768
+)
+"deque.ml" 126 3024 3036 "deque.ml" 126 3024 3037
+type(
+  int
+)
+"deque.ml" 126 3024 3031 "deque.ml" 126 3024 3038
+type(
+  bool
+)
+"deque.ml" 127 3044 3052 "deque.ml" 127 3044 3060
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"deque.ml" 127 3044 3062 "deque.ml" 127 3044 3076
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"deque.ml" 127 3044 3077 "deque.ml" 127 3044 3105
+type(
+  (int -> string, unit, string) format
+)
+"deque.ml" 127 3044 3106 "deque.ml" 127 3044 3107
+type(
+  int
+)
+ident(
+  int_ref n "deque.ml" 124 2944 2962 "deque.ml" 124 2944 2963
+)
+"deque.ml" 127 3044 3061 "deque.ml" 127 3044 3108
+type(
+  string
+)
+"deque.ml" 127 3044 3052 "deque.ml" 127 3044 3108
+type(
+  unit
+)
+"deque.ml" 126 3024 3028 "deque.ml" 127 3044 3108
+type(
+  unit
+)
+"deque.ml" 128 3110 3118 "deque.ml" 128 3110 3119
+type(
+  int
+)
+ident(
+  int_ref n "deque.ml" 124 2944 2962 "deque.ml" 124 2944 2963
+)
+"deque.ml" 128 3110 3120 "deque.ml" 128 3110 3121
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 140 5875 5875 "stdlib.mli" 140 5875 5925
+)
+"deque.ml" 128 3110 3123 "deque.ml" 128 3110 3127
+type(
+  'a dq -> int
+)
+ident(
+  int_ref size "deque.ml" 16 314 318 "deque.ml" 16 314 322
+)
+"deque.ml" 128 3110 3128 "deque.ml" 128 3110 3129
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 124 2944 2960 "deque.ml" 124 2944 2961
+)
+"deque.ml" 128 3110 3122 "deque.ml" 128 3110 3130
+type(
+  int
+)
+"deque.ml" 128 3110 3117 "deque.ml" 128 3110 3131
+type(
+  bool
+)
+"deque.ml" 129 3137 3145 "deque.ml" 129 3137 3153
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"deque.ml" 129 3137 3155 "deque.ml" 129 3137 3169
+type(
+  (int -> int -> string, unit, string) format -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"deque.ml" 129 3137 3170 "deque.ml" 129 3137 3208
+type(
+  (int -> int -> string, unit, string) format
+)
+"deque.ml" 129 3137 3209 "deque.ml" 129 3137 3210
+type(
+  int
+)
+ident(
+  int_ref n "deque.ml" 124 2944 2962 "deque.ml" 124 2944 2963
+)
+"deque.ml" 129 3137 3212 "deque.ml" 129 3137 3216
+type(
+  'a dq -> int
+)
+ident(
+  int_ref size "deque.ml" 16 314 318 "deque.ml" 16 314 322
+)
+"deque.ml" 129 3137 3217 "deque.ml" 129 3137 3218
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 124 2944 2960 "deque.ml" 124 2944 2961
+)
+"deque.ml" 129 3137 3211 "deque.ml" 129 3137 3219
+type(
+  int
+)
+"deque.ml" 129 3137 3154 "deque.ml" 129 3137 3220
+type(
+  string
+)
+"deque.ml" 129 3137 3145 "deque.ml" 129 3137 3220
+type(
+  unit
+)
+"deque.ml" 128 3110 3114 "deque.ml" 129 3137 3220
+type(
+  unit
+)
+"deque.ml" 130 3222 3234 "deque.ml" 130 3222 3235
+type(
+  'b dq -> int -> 'b dq
+)
+ident(
+  def f "deque.ml" 130 3222 3226 "deque.ml" 144 3610 3619
+)
+"deque.ml" 130 3222 3236 "deque.ml" 130 3222 3237
+type(
+  'b dq
+)
+ident(
+  def q "deque.ml" 130 3222 3238 "deque.ml" 140 3507 3522
+)
+"deque.ml" 130 3222 3238 "deque.ml" 130 3222 3239
+type(
+  int
+)
+ident(
+  def n "deque.ml" 131 3242 3250 "deque.ml" 140 3507 3522
+)
+"deque.ml" 131 3242 3258 "deque.ml" 131 3242 3259
+type(
+  int
+)
+ident(
+  int_ref n "deque.ml" 130 3222 3238 "deque.ml" 130 3222 3239
+)
+"deque.ml" 131 3242 3260 "deque.ml" 131 3242 3262
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( <= ) "stdlib.mli" 145 6033 6033 "stdlib.mli" 145 6033 6082
+)
+"deque.ml" 131 3242 3263 "deque.ml" 131 3242 3267
+type(
+  'b dq -> int
+)
+ident(
+  int_ref size "deque.ml" 16 314 318 "deque.ml" 16 314 322
+)
+"deque.ml" 131 3242 3268 "deque.ml" 131 3242 3269
+type(
+  'b dq
+)
+ident(
+  int_ref q "deque.ml" 130 3222 3236 "deque.ml" 130 3222 3237
+)
+"deque.ml" 131 3242 3263 "deque.ml" 131 3242 3269
+type(
+  int
+)
+"deque.ml" 131 3242 3257 "deque.ml" 131 3242 3270
+type(
+  bool
+)
+"deque.ml" 131 3242 3250 "deque.ml" 131 3242 3270
+type(
+  unit
+)
+"deque.ml" 132 3272 3288 "deque.ml" 132 3272 3289
+type(
+  int
+)
+ident(
+  int_ref n "deque.ml" 130 3222 3238 "deque.ml" 130 3222 3239
+)
+"deque.ml" 132 3272 3290 "deque.ml" 132 3272 3292
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 150 6190 6190 "stdlib.mli" 150 6190 6242
+)
+"deque.ml" 132 3272 3293 "deque.ml" 132 3272 3294
+type(
+  int
+)
+"deque.ml" 132 3272 3287 "deque.ml" 132 3272 3295
+type(
+  bool
+)
+"deque.ml" 132 3272 3280 "deque.ml" 132 3272 3295
+type(
+  unit
+)
+"deque.ml" 133 3297 3311 "deque.ml" 133 3297 3312
+type(
+  int
+)
+ident(
+  int_ref n "deque.ml" 130 3222 3238 "deque.ml" 130 3222 3239
+)
+"deque.ml" 134 3318 3328 "deque.ml" 134 3318 3329
+type(
+  int
+)
+type(
+  int
+)
+"deque.ml" 134 3318 3333 "deque.ml" 134 3318 3338
+type(
+  'b dq
+)
+ident(
+  int_ref empty "deque.ml" 13 235 239 "deque.ml" 13 235 244
+)
+"deque.ml" 135 3339 3349 "deque.ml" 135 3339 3350
+type(
+  int
+)
+type(
+  int
+)
+"deque.ml" 135 3339 3366 "deque.ml" 135 3339 3371
+type(
+  'b dq -> ('b * 'b dq) option
+)
+ident(
+  int_ref front "deque.ml" 25 484 488 "deque.ml" 25 484 493
+)
+"deque.ml" 135 3339 3372 "deque.ml" 135 3339 3373
+type(
+  'b dq
+)
+ident(
+  int_ref q "deque.ml" 130 3222 3236 "deque.ml" 130 3222 3237
+)
+"deque.ml" 135 3339 3366 "deque.ml" 135 3339 3373
+type(
+  ('b * 'b dq) option
+)
+"deque.ml" 136 3379 3393 "deque.ml" 136 3379 3397
+type(
+  ('b * 'b dq) option
+)
+type(
+  ('b * 'b dq) option
+)
+"deque.ml" 136 3379 3408 "deque.ml" 136 3379 3413
+type(
+  bool
+)
+"deque.ml" 136 3379 3401 "deque.ml" 136 3379 3413
+type(
+  'b dq
+)
+"deque.ml" 137 3414 3434 "deque.ml" 137 3414 3435
+type(
+  'b
+)
+ident(
+  def x "deque.ml" 138 3443 3459 "deque.ml" 139 3482 3506
+)
+"deque.ml" 137 3414 3437 "deque.ml" 137 3414 3438
+type(
+  'b dq
+)
+ident(
+  def q "deque.ml" 138 3443 3459 "deque.ml" 139 3482 3506
+)
+"deque.ml" 137 3414 3433 "deque.ml" 137 3414 3439
+type(
+  'b * 'b dq
+)
+"deque.ml" 137 3414 3428 "deque.ml" 137 3414 3439
+type(
+  ('b * 'b dq) option
+)
+type(
+  ('b * 'b dq) option
+)
+"deque.ml" 138 3443 3463 "deque.ml" 138 3443 3464
+type(
+  'b dq
+)
+ident(
+  def r "deque.ml" 139 3482 3498 "deque.ml" 139 3482 3506
+)
+"deque.ml" 138 3443 3467 "deque.ml" 138 3443 3468
+type(
+  'b dq -> int -> 'b dq
+)
+ident(
+  int_ref f "deque.ml" 130 3222 3234 "deque.ml" 130 3222 3235
+)
+"deque.ml" 138 3443 3469 "deque.ml" 138 3443 3470
+type(
+  'b dq
+)
+ident(
+  int_ref q "deque.ml" 137 3414 3437 "deque.ml" 137 3414 3438
+)
+"deque.ml" 138 3443 3472 "deque.ml" 138 3443 3473
+type(
+  int
+)
+ident(
+  int_ref n "deque.ml" 130 3222 3238 "deque.ml" 130 3222 3239
+)
+"deque.ml" 138 3443 3474 "deque.ml" 138 3443 3475
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"deque.ml" 138 3443 3476 "deque.ml" 138 3443 3477
+type(
+  int
+)
+"deque.ml" 138 3443 3471 "deque.ml" 138 3443 3478
+type(
+  int
+)
+"deque.ml" 138 3443 3467 "deque.ml" 138 3443 3478
+type(
+  'b dq
+)
+"deque.ml" 139 3482 3498 "deque.ml" 139 3482 3502
+type(
+  'b -> 'b dq -> 'b dq
+)
+ident(
+  int_ref cons "deque.ml" 19 346 350 "deque.ml" 19 346 354
+)
+"deque.ml" 139 3482 3503 "deque.ml" 139 3482 3504
+type(
+  'b
+)
+ident(
+  int_ref x "deque.ml" 137 3414 3434 "deque.ml" 137 3414 3435
+)
+"deque.ml" 139 3482 3505 "deque.ml" 139 3482 3506
+type(
+  'b dq
+)
+ident(
+  int_ref r "deque.ml" 138 3443 3463 "deque.ml" 138 3443 3464
+)
+"deque.ml" 139 3482 3498 "deque.ml" 139 3482 3506
+type(
+  'b dq
+)
+"deque.ml" 138 3443 3459 "deque.ml" 139 3482 3506
+type(
+  'b dq
+)
+"deque.ml" 135 3339 3354 "deque.ml" 140 3507 3522
+type(
+  'b dq
+)
+"deque.ml" 133 3297 3305 "deque.ml" 140 3507 3522
+type(
+  'b dq
+)
+"deque.ml" 132 3272 3280 "deque.ml" 140 3507 3522
+type(
+  'b dq
+)
+"deque.ml" 131 3242 3250 "deque.ml" 140 3507 3522
+type(
+  'b dq
+)
+"deque.ml" 144 3610 3614 "deque.ml" 144 3610 3615
+type(
+  'a dq -> int -> 'a dq
+)
+ident(
+  int_ref f "deque.ml" 130 3222 3234 "deque.ml" 130 3222 3235
+)
+"deque.ml" 144 3610 3616 "deque.ml" 144 3610 3617
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 124 2944 2960 "deque.ml" 124 2944 2961
+)
+"deque.ml" 144 3610 3618 "deque.ml" 144 3610 3619
+type(
+  int
+)
+ident(
+  int_ref n "deque.ml" 124 2944 2962 "deque.ml" 124 2944 2963
+)
+"deque.ml" 144 3610 3614 "deque.ml" 144 3610 3619
+type(
+  'a dq
+)
+"deque.ml" 130 3222 3226 "deque.ml" 144 3610 3619
+type(
+  'a dq
+)
+"deque.ml" 128 3110 3114 "deque.ml" 144 3610 3619
+type(
+  'a dq
+)
+"deque.ml" 126 3024 3028 "deque.ml" 144 3610 3619
+type(
+  'a dq
+)
+"deque.ml" 147 3622 3626 "deque.ml" 147 3622 3629
+type(
+  (int -> 'a -> 'b) -> 'a dq -> 'b dq
+)
+ident(
+  def map "deque.ml" 155 3772 3772 "deque.ml" 0 0 -1
+)
+"deque.ml" 147 3622 3630 "deque.ml" 147 3622 3631
+type(
+  int -> 'a -> 'b
+)
+ident(
+  def f "deque.ml" 147 3622 3632 "deque.ml" 153 3756 3770
+)
+"deque.ml" 147 3622 3632 "deque.ml" 147 3622 3633
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 148 3636 3638 "deque.ml" 153 3756 3770
+)
+"deque.ml" 148 3636 3646 "deque.ml" 148 3636 3648
+type(
+  int -> 'a dq -> 'b dq -> 'b dq
+)
+ident(
+  def go "deque.ml" 148 3636 3638 "deque.ml" 153 3756 3770
+)
+"deque.ml" 148 3636 3649 "deque.ml" 148 3636 3650
+type(
+  int
+)
+ident(
+  def n "deque.ml" 148 3636 3651 "deque.ml" 151 3713 3750
+)
+"deque.ml" 148 3636 3651 "deque.ml" 148 3636 3652
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 148 3636 3653 "deque.ml" 151 3713 3750
+)
+"deque.ml" 148 3636 3653 "deque.ml" 148 3636 3654
+type(
+  'b dq
+)
+ident(
+  def r "deque.ml" 148 3636 3657 "deque.ml" 151 3713 3750
+)
+"deque.ml" 148 3636 3663 "deque.ml" 148 3636 3668
+type(
+  'a dq -> ('a * 'a dq) option
+)
+ident(
+  int_ref front "deque.ml" 25 484 488 "deque.ml" 25 484 493
+)
+"deque.ml" 148 3636 3669 "deque.ml" 148 3636 3670
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 148 3636 3651 "deque.ml" 148 3636 3652
+)
+"deque.ml" 148 3636 3663 "deque.ml" 148 3636 3670
+type(
+  ('a * 'a dq) option
+)
+"deque.ml" 149 3676 3682 "deque.ml" 149 3676 3686
+type(
+  ('a * 'a dq) option
+)
+type(
+  ('a * 'a dq) option
+)
+"deque.ml" 149 3676 3690 "deque.ml" 149 3676 3691
+type(
+  'b dq
+)
+ident(
+  int_ref r "deque.ml" 148 3636 3653 "deque.ml" 148 3636 3654
+)
+"deque.ml" 150 3692 3704 "deque.ml" 150 3692 3705
+type(
+  'a
+)
+ident(
+  def x "deque.ml" 151 3713 3721 "deque.ml" 151 3713 3750
+)
+"deque.ml" 150 3692 3707 "deque.ml" 150 3692 3708
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 151 3713 3721 "deque.ml" 151 3713 3750
+)
+"deque.ml" 150 3692 3703 "deque.ml" 150 3692 3709
+type(
+  'a * 'a dq
+)
+"deque.ml" 150 3692 3698 "deque.ml" 150 3692 3709
+type(
+  ('a * 'a dq) option
+)
+type(
+  ('a * 'a dq) option
+)
+"deque.ml" 151 3713 3721 "deque.ml" 151 3713 3723
+type(
+  int -> 'a dq -> 'b dq -> 'b dq
+)
+ident(
+  int_ref go "deque.ml" 148 3636 3646 "deque.ml" 148 3636 3648
+)
+"deque.ml" 151 3713 3725 "deque.ml" 151 3713 3726
+type(
+  int
+)
+ident(
+  int_ref n "deque.ml" 148 3636 3649 "deque.ml" 148 3636 3650
+)
+"deque.ml" 151 3713 3727 "deque.ml" 151 3713 3728
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"deque.ml" 151 3713 3729 "deque.ml" 151 3713 3730
+type(
+  int
+)
+"deque.ml" 151 3713 3724 "deque.ml" 151 3713 3731
+type(
+  int
+)
+"deque.ml" 151 3713 3732 "deque.ml" 151 3713 3733
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 150 3692 3707 "deque.ml" 150 3692 3708
+)
+"deque.ml" 151 3713 3735 "deque.ml" 151 3713 3739
+type(
+  'b dq -> 'b -> 'b dq
+)
+ident(
+  int_ref snoc "deque.ml" 22 416 420 "deque.ml" 22 416 424
+)
+"deque.ml" 151 3713 3740 "deque.ml" 151 3713 3741
+type(
+  'b dq
+)
+ident(
+  int_ref r "deque.ml" 148 3636 3653 "deque.ml" 148 3636 3654
+)
+"deque.ml" 151 3713 3743 "deque.ml" 151 3713 3744
+type(
+  int -> 'a -> 'b
+)
+ident(
+  int_ref f "deque.ml" 147 3622 3630 "deque.ml" 147 3622 3631
+)
+"deque.ml" 151 3713 3745 "deque.ml" 151 3713 3746
+type(
+  int
+)
+ident(
+  int_ref n "deque.ml" 148 3636 3649 "deque.ml" 148 3636 3650
+)
+"deque.ml" 151 3713 3747 "deque.ml" 151 3713 3748
+type(
+  'a
+)
+ident(
+  int_ref x "deque.ml" 150 3692 3704 "deque.ml" 150 3692 3705
+)
+"deque.ml" 151 3713 3742 "deque.ml" 151 3713 3749
+type(
+  'b
+)
+"deque.ml" 151 3713 3734 "deque.ml" 151 3713 3750
+type(
+  'b dq
+)
+"deque.ml" 151 3713 3721 "deque.ml" 151 3713 3750
+type(
+  'b dq
+)
+"deque.ml" 148 3636 3657 "deque.ml" 151 3713 3750
+type(
+  'b dq
+)
+"deque.ml" 153 3756 3758 "deque.ml" 153 3756 3760
+type(
+  int -> 'a dq -> 'b dq -> 'b dq
+)
+ident(
+  int_ref go "deque.ml" 148 3636 3646 "deque.ml" 148 3636 3648
+)
+"deque.ml" 153 3756 3761 "deque.ml" 153 3756 3762
+type(
+  int
+)
+"deque.ml" 153 3756 3763 "deque.ml" 153 3756 3764
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 147 3622 3632 "deque.ml" 147 3622 3633
+)
+"deque.ml" 153 3756 3765 "deque.ml" 153 3756 3770
+type(
+  'b dq
+)
+ident(
+  int_ref empty "deque.ml" 13 235 239 "deque.ml" 13 235 244
+)
+"deque.ml" 153 3756 3758 "deque.ml" 153 3756 3770
+type(
+  'b dq
+)
+"deque.ml" 148 3636 3638 "deque.ml" 153 3756 3770
+type(
+  'b dq
+)
+"deque.ml" 155 3772 3776 "deque.ml" 155 3772 3780
+type(
+  (int -> 'a -> 'b) -> 'a dq -> unit
+)
+ident(
+  def iter "deque.ml" 164 3915 3915 "deque.ml" 0 0 -1
+)
+"deque.ml" 155 3772 3781 "deque.ml" 155 3772 3782
+type(
+  int -> 'a -> 'b
+)
+ident(
+  def f "deque.ml" 155 3772 3783 "deque.ml" 162 3905 3913
+)
+"deque.ml" 155 3772 3783 "deque.ml" 155 3772 3784
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 156 3787 3789 "deque.ml" 162 3905 3913
+)
+"deque.ml" 156 3787 3797 "deque.ml" 156 3787 3799
+type(
+  int -> 'a dq -> unit
+)
+ident(
+  def go "deque.ml" 156 3787 3789 "deque.ml" 162 3905 3913
+)
+"deque.ml" 156 3787 3800 "deque.ml" 156 3787 3801
+type(
+  int
+)
+ident(
+  def n "deque.ml" 156 3787 3802 "deque.ml" 160 3879 3899
+)
+"deque.ml" 156 3787 3802 "deque.ml" 156 3787 3803
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 156 3787 3806 "deque.ml" 160 3879 3899
+)
+"deque.ml" 156 3787 3812 "deque.ml" 156 3787 3817
+type(
+  'a dq -> ('a * 'a dq) option
+)
+ident(
+  int_ref front "deque.ml" 25 484 488 "deque.ml" 25 484 493
+)
+"deque.ml" 156 3787 3818 "deque.ml" 156 3787 3819
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 156 3787 3802 "deque.ml" 156 3787 3803
+)
+"deque.ml" 156 3787 3812 "deque.ml" 156 3787 3819
+type(
+  ('a * 'a dq) option
+)
+"deque.ml" 157 3825 3831 "deque.ml" 157 3825 3835
+type(
+  ('a * 'a dq) option
+)
+type(
+  ('a * 'a dq) option
+)
+"deque.ml" 157 3825 3839 "deque.ml" 157 3825 3841
+type(
+  unit
+)
+"deque.ml" 158 3842 3854 "deque.ml" 158 3842 3855
+type(
+  'a
+)
+ident(
+  def x "deque.ml" 159 3863 3871 "deque.ml" 160 3879 3899
+)
+"deque.ml" 158 3842 3857 "deque.ml" 158 3842 3858
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 159 3863 3871 "deque.ml" 160 3879 3899
+)
+"deque.ml" 158 3842 3853 "deque.ml" 158 3842 3859
+type(
+  'a * 'a dq
+)
+"deque.ml" 158 3842 3848 "deque.ml" 158 3842 3859
+type(
+  ('a * 'a dq) option
+)
+type(
+  ('a * 'a dq) option
+)
+"deque.ml" 159 3863 3871 "deque.ml" 159 3863 3872
+type(
+  int -> 'a -> 'b
+)
+ident(
+  int_ref f "deque.ml" 155 3772 3781 "deque.ml" 155 3772 3782
+)
+"deque.ml" 159 3863 3873 "deque.ml" 159 3863 3874
+type(
+  int
+)
+ident(
+  int_ref n "deque.ml" 156 3787 3800 "deque.ml" 156 3787 3801
+)
+"deque.ml" 159 3863 3875 "deque.ml" 159 3863 3876
+type(
+  'a
+)
+ident(
+  int_ref x "deque.ml" 158 3842 3854 "deque.ml" 158 3842 3855
+)
+"deque.ml" 159 3863 3871 "deque.ml" 159 3863 3876
+type(
+  'b
+)
+"deque.ml" 160 3879 3887 "deque.ml" 160 3879 3889
+type(
+  int -> 'a dq -> unit
+)
+ident(
+  int_ref go "deque.ml" 156 3787 3797 "deque.ml" 156 3787 3799
+)
+"deque.ml" 160 3879 3891 "deque.ml" 160 3879 3892
+type(
+  int
+)
+ident(
+  int_ref n "deque.ml" 156 3787 3800 "deque.ml" 156 3787 3801
+)
+"deque.ml" 160 3879 3893 "deque.ml" 160 3879 3894
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"deque.ml" 160 3879 3895 "deque.ml" 160 3879 3896
+type(
+  int
+)
+"deque.ml" 160 3879 3890 "deque.ml" 160 3879 3897
+type(
+  int
+)
+"deque.ml" 160 3879 3898 "deque.ml" 160 3879 3899
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 158 3842 3857 "deque.ml" 158 3842 3858
+)
+"deque.ml" 160 3879 3887 "deque.ml" 160 3879 3899
+type(
+  unit
+)
+"deque.ml" 159 3863 3871 "deque.ml" 160 3879 3899
+type(
+  unit
+)
+"deque.ml" 156 3787 3806 "deque.ml" 160 3879 3899
+type(
+  unit
+)
+"deque.ml" 162 3905 3907 "deque.ml" 162 3905 3909
+type(
+  int -> 'a dq -> unit
+)
+ident(
+  int_ref go "deque.ml" 156 3787 3797 "deque.ml" 156 3787 3799
+)
+"deque.ml" 162 3905 3910 "deque.ml" 162 3905 3911
+type(
+  int
+)
+"deque.ml" 162 3905 3912 "deque.ml" 162 3905 3913
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 155 3772 3783 "deque.ml" 155 3772 3784
+)
+"deque.ml" 162 3905 3907 "deque.ml" 162 3905 3913
+type(
+  unit
+)
+"deque.ml" 156 3787 3789 "deque.ml" 162 3905 3913
+type(
+  unit
+)
+"deque.ml" 164 3915 3923 "deque.ml" 164 3915 3932
+type(
+  ('a -> 'b -> 'a) -> 'a -> 'b dq -> 'a
+)
+ident(
+  def fold_left "deque.ml" 164 3915 3915 "deque.ml" 0 0 -1
+)
+"deque.ml" 164 3915 3933 "deque.ml" 164 3915 3935
+type(
+  'a -> 'b -> 'a
+)
+ident(
+  def fn "deque.ml" 164 3915 3936 "deque.ml" 166 3979 4023
+)
+"deque.ml" 164 3915 3936 "deque.ml" 164 3915 3939
+type(
+  'a
+)
+ident(
+  def acc "deque.ml" 164 3915 3940 "deque.ml" 166 3979 4023
+)
+"deque.ml" 164 3915 3940 "deque.ml" 164 3915 3941
+type(
+  'b dq
+)
+ident(
+  def q "deque.ml" 164 3915 3944 "deque.ml" 166 3979 4023
+)
+"deque.ml" 164 3915 3950 "deque.ml" 164 3915 3955
+type(
+  'b dq -> ('b * 'b dq) option
+)
+ident(
+  int_ref front "deque.ml" 25 484 488 "deque.ml" 25 484 493
+)
+"deque.ml" 164 3915 3956 "deque.ml" 164 3915 3957
+type(
+  'b dq
+)
+ident(
+  int_ref q "deque.ml" 164 3915 3940 "deque.ml" 164 3915 3941
+)
+"deque.ml" 164 3915 3950 "deque.ml" 164 3915 3957
+type(
+  ('b * 'b dq) option
+)
+"deque.ml" 165 3963 3967 "deque.ml" 165 3963 3971
+type(
+  ('b * 'b dq) option
+)
+type(
+  ('b * 'b dq) option
+)
+"deque.ml" 165 3963 3975 "deque.ml" 165 3963 3978
+type(
+  'a
+)
+ident(
+  int_ref acc "deque.ml" 164 3915 3936 "deque.ml" 164 3915 3939
+)
+"deque.ml" 166 3979 3989 "deque.ml" 166 3979 3990
+type(
+  'b
+)
+ident(
+  def f "deque.ml" 166 3979 3998 "deque.ml" 166 3979 4023
+)
+"deque.ml" 166 3979 3992 "deque.ml" 166 3979 3993
+type(
+  'b dq
+)
+ident(
+  def q "deque.ml" 166 3979 3998 "deque.ml" 166 3979 4023
+)
+"deque.ml" 166 3979 3988 "deque.ml" 166 3979 3994
+type(
+  'b * 'b dq
+)
+"deque.ml" 166 3979 3983 "deque.ml" 166 3979 3994
+type(
+  ('b * 'b dq) option
+)
+type(
+  ('b * 'b dq) option
+)
+"deque.ml" 166 3979 3998 "deque.ml" 166 3979 4007
+type(
+  ('a -> 'b -> 'a) -> 'a -> 'b dq -> 'a
+)
+ident(
+  int_ref fold_left "deque.ml" 164 3915 3923 "deque.ml" 164 3915 3932
+)
+"deque.ml" 166 3979 4008 "deque.ml" 166 3979 4010
+type(
+  'a -> 'b -> 'a
+)
+ident(
+  int_ref fn "deque.ml" 164 3915 3933 "deque.ml" 164 3915 3935
+)
+"deque.ml" 166 3979 4012 "deque.ml" 166 3979 4014
+type(
+  'a -> 'b -> 'a
+)
+ident(
+  int_ref fn "deque.ml" 164 3915 3933 "deque.ml" 164 3915 3935
+)
+"deque.ml" 166 3979 4015 "deque.ml" 166 3979 4018
+type(
+  'a
+)
+ident(
+  int_ref acc "deque.ml" 164 3915 3936 "deque.ml" 164 3915 3939
+)
+"deque.ml" 166 3979 4019 "deque.ml" 166 3979 4020
+type(
+  'b
+)
+ident(
+  int_ref f "deque.ml" 166 3979 3989 "deque.ml" 166 3979 3990
+)
+"deque.ml" 166 3979 4011 "deque.ml" 166 3979 4021
+type(
+  'a
+)
+"deque.ml" 166 3979 4022 "deque.ml" 166 3979 4023
+type(
+  'b dq
+)
+ident(
+  int_ref q "deque.ml" 166 3979 3992 "deque.ml" 166 3979 3993
+)
+"deque.ml" 166 3979 3998 "deque.ml" 166 3979 4023
+type(
+  'a
+)
+"deque.ml" 164 3915 3944 "deque.ml" 166 3979 4023
+type(
+  'a
+)
+"deque.ml" 168 4025 4033 "deque.ml" 168 4025 4043
+type(
+  ('a -> 'b -> 'b) -> 'a dq -> 'b -> 'b
+)
+ident(
+  def fold_right "deque.ml" 168 4025 4025 "deque.ml" 0 0 -1
+)
+"deque.ml" 168 4025 4044 "deque.ml" 168 4025 4046
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  def fn "deque.ml" 168 4025 4047 "deque.ml" 170 4089 4134
+)
+"deque.ml" 168 4025 4047 "deque.ml" 168 4025 4048
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 168 4025 4049 "deque.ml" 170 4089 4134
+)
+"deque.ml" 168 4025 4049 "deque.ml" 168 4025 4052
+type(
+  'b
+)
+ident(
+  def acc "deque.ml" 168 4025 4055 "deque.ml" 170 4089 4134
+)
+"deque.ml" 168 4025 4061 "deque.ml" 168 4025 4065
+type(
+  'a dq -> ('a dq * 'a) option
+)
+ident(
+  int_ref rear "deque.ml" 38 933 937 "deque.ml" 38 933 941
+)
+"deque.ml" 168 4025 4066 "deque.ml" 168 4025 4067
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 168 4025 4047 "deque.ml" 168 4025 4048
+)
+"deque.ml" 168 4025 4061 "deque.ml" 168 4025 4067
+type(
+  ('a dq * 'a) option
+)
+"deque.ml" 169 4073 4077 "deque.ml" 169 4073 4081
+type(
+  ('a dq * 'a) option
+)
+type(
+  ('a dq * 'a) option
+)
+"deque.ml" 169 4073 4085 "deque.ml" 169 4073 4088
+type(
+  'b
+)
+ident(
+  int_ref acc "deque.ml" 168 4025 4049 "deque.ml" 168 4025 4052
+)
+"deque.ml" 170 4089 4099 "deque.ml" 170 4089 4100
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 170 4089 4108 "deque.ml" 170 4089 4134
+)
+"deque.ml" 170 4089 4102 "deque.ml" 170 4089 4103
+type(
+  'a
+)
+ident(
+  def r "deque.ml" 170 4089 4108 "deque.ml" 170 4089 4134
+)
+"deque.ml" 170 4089 4098 "deque.ml" 170 4089 4104
+type(
+  'a dq * 'a
+)
+"deque.ml" 170 4089 4093 "deque.ml" 170 4089 4104
+type(
+  ('a dq * 'a) option
+)
+type(
+  ('a dq * 'a) option
+)
+"deque.ml" 170 4089 4108 "deque.ml" 170 4089 4118
+type(
+  ('a -> 'b -> 'b) -> 'a dq -> 'b -> 'b
+)
+ident(
+  int_ref fold_right "deque.ml" 168 4025 4033 "deque.ml" 168 4025 4043
+)
+"deque.ml" 170 4089 4119 "deque.ml" 170 4089 4121
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  int_ref fn "deque.ml" 168 4025 4044 "deque.ml" 168 4025 4046
+)
+"deque.ml" 170 4089 4122 "deque.ml" 170 4089 4123
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 170 4089 4099 "deque.ml" 170 4089 4100
+)
+"deque.ml" 170 4089 4125 "deque.ml" 170 4089 4127
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  int_ref fn "deque.ml" 168 4025 4044 "deque.ml" 168 4025 4046
+)
+"deque.ml" 170 4089 4128 "deque.ml" 170 4089 4129
+type(
+  'a
+)
+ident(
+  int_ref r "deque.ml" 170 4089 4102 "deque.ml" 170 4089 4103
+)
+"deque.ml" 170 4089 4130 "deque.ml" 170 4089 4133
+type(
+  'b
+)
+ident(
+  int_ref acc "deque.ml" 168 4025 4049 "deque.ml" 168 4025 4052
+)
+"deque.ml" 170 4089 4124 "deque.ml" 170 4089 4134
+type(
+  'b
+)
+"deque.ml" 170 4089 4108 "deque.ml" 170 4089 4134
+type(
+  'b
+)
+"deque.ml" 168 4025 4055 "deque.ml" 170 4089 4134
+type(
+  'b
+)
+"deque.ml" 172 4136 4140 "deque.ml" 172 4136 4147
+type(
+  'a dq -> 'a list
+)
+ident(
+  def to_list "deque.ml" 180 4264 4264 "deque.ml" 0 0 -1
+)
+"deque.ml" 172 4136 4148 "deque.ml" 172 4136 4149
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 173 4152 4154 "deque.ml" 178 4253 4262
+)
+"deque.ml" 173 4152 4162 "deque.ml" 173 4152 4164
+type(
+  'b list -> 'b dq -> 'b list
+)
+ident(
+  def go "deque.ml" 173 4152 4154 "deque.ml" 178 4253 4262
+)
+"deque.ml" 173 4152 4165 "deque.ml" 173 4152 4166
+type(
+  'b list
+)
+ident(
+  def l "deque.ml" 173 4152 4167 "deque.ml" 176 4226 4247
+)
+"deque.ml" 173 4152 4167 "deque.ml" 173 4152 4168
+type(
+  'b dq
+)
+ident(
+  def q "deque.ml" 173 4152 4171 "deque.ml" 176 4226 4247
+)
+"deque.ml" 173 4152 4177 "deque.ml" 173 4152 4181
+type(
+  'b dq -> ('b dq * 'b) option
+)
+ident(
+  int_ref rear "deque.ml" 38 933 937 "deque.ml" 38 933 941
+)
+"deque.ml" 173 4152 4182 "deque.ml" 173 4152 4183
+type(
+  'b dq
+)
+ident(
+  int_ref q "deque.ml" 173 4152 4167 "deque.ml" 173 4152 4168
+)
+"deque.ml" 173 4152 4177 "deque.ml" 173 4152 4183
+type(
+  ('b dq * 'b) option
+)
+"deque.ml" 174 4189 4195 "deque.ml" 174 4189 4199
+type(
+  ('b dq * 'b) option
+)
+type(
+  ('b dq * 'b) option
+)
+"deque.ml" 174 4189 4203 "deque.ml" 174 4189 4204
+type(
+  'b list
+)
+ident(
+  int_ref l "deque.ml" 173 4152 4165 "deque.ml" 173 4152 4166
+)
+"deque.ml" 175 4205 4217 "deque.ml" 175 4205 4218
+type(
+  'b dq
+)
+ident(
+  def q "deque.ml" 176 4226 4234 "deque.ml" 176 4226 4247
+)
+"deque.ml" 175 4205 4220 "deque.ml" 175 4205 4221
+type(
+  'b
+)
+ident(
+  def x "deque.ml" 176 4226 4234 "deque.ml" 176 4226 4247
+)
+"deque.ml" 175 4205 4216 "deque.ml" 175 4205 4222
+type(
+  'b dq * 'b
+)
+"deque.ml" 175 4205 4211 "deque.ml" 175 4205 4222
+type(
+  ('b dq * 'b) option
+)
+type(
+  ('b dq * 'b) option
+)
+"deque.ml" 176 4226 4234 "deque.ml" 176 4226 4236
+type(
+  'b list -> 'b dq -> 'b list
+)
+ident(
+  int_ref go "deque.ml" 173 4152 4162 "deque.ml" 173 4152 4164
+)
+"deque.ml" 176 4226 4238 "deque.ml" 176 4226 4239
+type(
+  'b
+)
+ident(
+  int_ref x "deque.ml" 175 4205 4220 "deque.ml" 175 4205 4221
+)
+"deque.ml" 176 4226 4243 "deque.ml" 176 4226 4244
+type(
+  'b list
+)
+ident(
+  int_ref l "deque.ml" 173 4152 4165 "deque.ml" 173 4152 4166
+)
+"deque.ml" 176 4226 4237 "deque.ml" 176 4226 4245
+type(
+  'b list
+)
+"deque.ml" 176 4226 4246 "deque.ml" 176 4226 4247
+type(
+  'b dq
+)
+ident(
+  int_ref q "deque.ml" 175 4205 4217 "deque.ml" 175 4205 4218
+)
+"deque.ml" 176 4226 4234 "deque.ml" 176 4226 4247
+type(
+  'b list
+)
+"deque.ml" 173 4152 4171 "deque.ml" 176 4226 4247
+type(
+  'b list
+)
+"deque.ml" 178 4253 4255 "deque.ml" 178 4253 4257
+type(
+  'a list -> 'a dq -> 'a list
+)
+ident(
+  int_ref go "deque.ml" 173 4152 4162 "deque.ml" 173 4152 4164
+)
+"deque.ml" 178 4253 4258 "deque.ml" 178 4253 4260
+type(
+  'a list
+)
+"deque.ml" 178 4253 4261 "deque.ml" 178 4253 4262
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 172 4136 4148 "deque.ml" 172 4136 4149
+)
+"deque.ml" 178 4253 4255 "deque.ml" 178 4253 4262
+type(
+  'a list
+)
+"deque.ml" 173 4152 4154 "deque.ml" 178 4253 4262
+type(
+  'a list
+)
+"deque.ml" 180 4264 4268 "deque.ml" 180 4264 4272
+type(
+  ?backwards:bool -> 'a dq -> ('a -> bool) -> (int * 'a) option
+)
+ident(
+  def find "deque.ml" 195 4603 4603 "deque.ml" 0 0 -1
+)
+"deque.ml" 180 4264 4275 "deque.ml" 180 4264 4284
+type(
+  bool
+)
+ident(
+  def backwards "deque.ml" 180 4264 4292 "deque.ml" 193 4576 4601
+)
+"deque.ml" 180 4264 4285 "deque.ml" 180 4264 4290
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "deque.ml" 180 4264 4285 "deque.ml" 180 4264 4290
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+ident(
+  def *sth* "deque.ml" 180 4264 4285 "deque.ml" 180 4264 4290
+)
+"deque.ml" 180 4264 4292 "deque.ml" 180 4264 4293
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 180 4264 4294 "deque.ml" 193 4576 4601
+)
+"deque.ml" 180 4264 4294 "deque.ml" 180 4264 4298
+type(
+  'a -> bool
+)
+ident(
+  def test "deque.ml" 181 4301 4303 "deque.ml" 193 4576 4601
+)
+"deque.ml" 181 4301 4311 "deque.ml" 181 4301 4315
+type(
+  int -> 'a list -> 'a list -> (int * 'a) option
+)
+ident(
+  def spin "deque.ml" 181 4301 4303 "deque.ml" 193 4576 4601
+)
+"deque.ml" 181 4301 4316 "deque.ml" 181 4301 4317
+type(
+  int
+)
+ident(
+  def k "deque.ml" 181 4301 4318 "deque.ml" 188 4488 4517
+)
+"deque.ml" 181 4301 4318 "deque.ml" 181 4301 4319
+type(
+  'a list
+)
+ident(
+  def f "deque.ml" 181 4301 4320 "deque.ml" 188 4488 4517
+)
+"deque.ml" 181 4301 4320 "deque.ml" 181 4301 4321
+type(
+  'a list
+)
+ident(
+  def r "deque.ml" 181 4301 4324 "deque.ml" 188 4488 4517
+)
+"deque.ml" 181 4301 4330 "deque.ml" 181 4301 4331
+type(
+  'a list
+)
+ident(
+  int_ref f "deque.ml" 181 4301 4318 "deque.ml" 181 4301 4319
+)
+"deque.ml" 182 4337 4343 "deque.ml" 182 4337 4345
+type(
+  'a list
+)
+type(
+  'a list
+)
+"deque.ml" 182 4337 4361 "deque.ml" 182 4337 4362
+type(
+  'a list
+)
+ident(
+  int_ref r "deque.ml" 181 4301 4320 "deque.ml" 181 4301 4321
+)
+"deque.ml" 183 4368 4378 "deque.ml" 183 4368 4380
+type(
+  'a list
+)
+type(
+  'a list
+)
+"deque.ml" 183 4368 4384 "deque.ml" 183 4368 4388
+type(
+  (int * 'a) option
+)
+"deque.ml" 184 4389 4399 "deque.ml" 184 4389 4400
+type(
+  'a list
+)
+type(
+  'a list
+)
+"deque.ml" 184 4389 4404 "deque.ml" 184 4389 4408
+type(
+  int -> 'a list -> 'a list -> (int * 'a) option
+)
+ident(
+  int_ref spin "deque.ml" 181 4301 4311 "deque.ml" 181 4301 4315
+)
+"deque.ml" 184 4389 4409 "deque.ml" 184 4389 4410
+type(
+  int
+)
+ident(
+  int_ref k "deque.ml" 181 4301 4316 "deque.ml" 181 4301 4317
+)
+"deque.ml" 184 4389 4412 "deque.ml" 184 4389 4420
+type(
+  'a list -> 'a list
+)
+ident(
+  int_ref Ext.List.rev "ext.mli" 11 220 222 "ext.mli" 11 220 250
+)
+"deque.ml" 184 4389 4421 "deque.ml" 184 4389 4422
+type(
+  'a list
+)
+ident(
+  int_ref r "deque.ml" 181 4301 4320 "deque.ml" 181 4301 4321
+)
+"deque.ml" 184 4389 4411 "deque.ml" 184 4389 4423
+type(
+  'a list
+)
+"deque.ml" 184 4389 4424 "deque.ml" 184 4389 4426
+type(
+  'a list
+)
+"deque.ml" 184 4389 4404 "deque.ml" 184 4389 4426
+type(
+  (int * 'a) option
+)
+"deque.ml" 182 4337 4349 "deque.ml" 185 4427 4436
+type(
+  (int * 'a) option
+)
+"deque.ml" 186 4437 4443 "deque.ml" 186 4437 4444
+type(
+  'a
+)
+ident(
+  def x "deque.ml" 187 4453 4461 "deque.ml" 188 4488 4517
+)
+"deque.ml" 186 4437 4448 "deque.ml" 186 4437 4449
+type(
+  'a list
+)
+ident(
+  def f "deque.ml" 187 4453 4461 "deque.ml" 188 4488 4517
+)
+"deque.ml" 186 4437 4443 "deque.ml" 186 4437 4449
+type(
+  'a list
+)
+type(
+  'a list
+)
+"deque.ml" 187 4453 4464 "deque.ml" 187 4453 4468
+type(
+  'a -> bool
+)
+ident(
+  int_ref test "deque.ml" 180 4264 4294 "deque.ml" 180 4264 4298
+)
+"deque.ml" 187 4453 4469 "deque.ml" 187 4453 4470
+type(
+  'a
+)
+ident(
+  int_ref x "deque.ml" 186 4437 4443 "deque.ml" 186 4437 4444
+)
+"deque.ml" 187 4453 4464 "deque.ml" 187 4453 4470
+type(
+  bool
+)
+"deque.ml" 187 4453 4482 "deque.ml" 187 4453 4483
+type(
+  int
+)
+ident(
+  int_ref k "deque.ml" 181 4301 4316 "deque.ml" 181 4301 4317
+)
+"deque.ml" 187 4453 4485 "deque.ml" 187 4453 4486
+type(
+  'a
+)
+ident(
+  int_ref x "deque.ml" 186 4437 4443 "deque.ml" 186 4437 4444
+)
+"deque.ml" 187 4453 4481 "deque.ml" 187 4453 4487
+type(
+  int * 'a
+)
+"deque.ml" 187 4453 4476 "deque.ml" 187 4453 4487
+type(
+  (int * 'a) option
+)
+"deque.ml" 188 4488 4501 "deque.ml" 188 4488 4505
+type(
+  int -> 'a list -> 'a list -> (int * 'a) option
+)
+ident(
+  int_ref spin "deque.ml" 181 4301 4311 "deque.ml" 181 4301 4315
+)
+"deque.ml" 188 4488 4507 "deque.ml" 188 4488 4508
+type(
+  int
+)
+ident(
+  int_ref k "deque.ml" 181 4301 4316 "deque.ml" 181 4301 4317
+)
+"deque.ml" 188 4488 4509 "deque.ml" 188 4488 4510
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"deque.ml" 188 4488 4511 "deque.ml" 188 4488 4512
+type(
+  int
+)
+"deque.ml" 188 4488 4506 "deque.ml" 188 4488 4513
+type(
+  int
+)
+"deque.ml" 188 4488 4514 "deque.ml" 188 4488 4515
+type(
+  'a list
+)
+ident(
+  int_ref f "deque.ml" 186 4437 4448 "deque.ml" 186 4437 4449
+)
+"deque.ml" 188 4488 4516 "deque.ml" 188 4488 4517
+type(
+  'a list
+)
+ident(
+  int_ref r "deque.ml" 181 4301 4320 "deque.ml" 181 4301 4321
+)
+"deque.ml" 188 4488 4501 "deque.ml" 188 4488 4517
+type(
+  (int * 'a) option
+)
+"deque.ml" 187 4453 4461 "deque.ml" 188 4488 4517
+type(
+  (int * 'a) option
+)
+"deque.ml" 181 4301 4324 "deque.ml" 188 4488 4517
+type(
+  (int * 'a) option
+)
+"deque.ml" 190 4523 4528 "deque.ml" 190 4523 4537
+type(
+  bool
+)
+ident(
+  int_ref backwards "deque.ml" 180 4264 4275 "deque.ml" 180 4264 4284
+)
+"deque.ml" 191 4543 4547 "deque.ml" 191 4543 4551
+type(
+  int -> 'a list -> 'a list -> (int * 'a) option
+)
+ident(
+  int_ref spin "deque.ml" 181 4301 4311 "deque.ml" 181 4301 4315
+)
+"deque.ml" 191 4543 4552 "deque.ml" 191 4543 4553
+type(
+  int
+)
+"deque.ml" 191 4543 4554 "deque.ml" 191 4543 4555
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 180 4264 4292 "deque.ml" 180 4264 4293
+)
+"deque.ml" 191 4543 4554 "deque.ml" 191 4543 4560
+type(
+  'a list
+)
+"deque.ml" 191 4543 4561 "deque.ml" 191 4543 4562
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 180 4264 4292 "deque.ml" 180 4264 4293
+)
+"deque.ml" 191 4543 4561 "deque.ml" 191 4543 4568
+type(
+  'a list
+)
+"deque.ml" 191 4543 4547 "deque.ml" 191 4543 4568
+type(
+  (int * 'a) option
+)
+"deque.ml" 193 4576 4580 "deque.ml" 193 4576 4584
+type(
+  int -> 'a list -> 'a list -> (int * 'a) option
+)
+ident(
+  int_ref spin "deque.ml" 181 4301 4311 "deque.ml" 181 4301 4315
+)
+"deque.ml" 193 4576 4585 "deque.ml" 193 4576 4586
+type(
+  int
+)
+"deque.ml" 193 4576 4587 "deque.ml" 193 4576 4588
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 180 4264 4292 "deque.ml" 180 4264 4293
+)
+"deque.ml" 193 4576 4587 "deque.ml" 193 4576 4594
+type(
+  'a list
+)
+"deque.ml" 193 4576 4595 "deque.ml" 193 4576 4596
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 180 4264 4292 "deque.ml" 180 4264 4293
+)
+"deque.ml" 193 4576 4595 "deque.ml" 193 4576 4601
+type(
+  'a list
+)
+"deque.ml" 193 4576 4580 "deque.ml" 193 4576 4601
+type(
+  (int * 'a) option
+)
+"deque.ml" 190 4523 4525 "deque.ml" 193 4576 4601
+type(
+  (int * 'a) option
+)
+"deque.ml" 181 4301 4303 "deque.ml" 193 4576 4601
+type(
+  (int * 'a) option
+)
+"deque.ml" 195 4603 4607 "deque.ml" 195 4603 4612
+type(
+  ?backwards:bool -> 'a dq -> int -> ('a -> 'a) -> 'a dq
+)
+ident(
+  def alter "deque.ml" 208 4978 4988 "deque.ml" 0 0 -1
+)
+"deque.ml" 195 4603 4615 "deque.ml" 195 4603 4624
+type(
+  bool
+)
+ident(
+  def backwards "deque.ml" 195 4603 4632 "deque.ml" 208 4978 4988
+)
+"deque.ml" 195 4603 4625 "deque.ml" 195 4603 4630
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "deque.ml" 195 4603 4625 "deque.ml" 195 4603 4630
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+ident(
+  def *sth* "deque.ml" 195 4603 4625 "deque.ml" 195 4603 4630
+)
+"deque.ml" 195 4603 4632 "deque.ml" 195 4603 4633
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 195 4603 4634 "deque.ml" 208 4978 4988
+)
+"deque.ml" 195 4603 4634 "deque.ml" 195 4603 4635
+type(
+  int
+)
+ident(
+  def n "deque.ml" 195 4603 4636 "deque.ml" 208 4978 4988
+)
+"deque.ml" 195 4603 4636 "deque.ml" 195 4603 4642
+type(
+  'a -> 'a
+)
+ident(
+  def alt_fn "deque.ml" 196 4645 4647 "deque.ml" 208 4978 4988
+)
+"deque.ml" 196 4645 4651 "deque.ml" 196 4645 4652
+type(
+  int
+)
+ident(
+  def n "deque.ml" 197 4698 4700 "deque.ml" 208 4978 4988
+)
+"deque.ml" 196 4645 4658 "deque.ml" 196 4645 4667
+type(
+  bool
+)
+ident(
+  int_ref backwards "deque.ml" 195 4603 4615 "deque.ml" 195 4603 4624
+)
+"deque.ml" 196 4645 4673 "deque.ml" 196 4645 4677
+type(
+  'a dq -> int
+)
+ident(
+  int_ref size "deque.ml" 16 314 318 "deque.ml" 16 314 322
+)
+"deque.ml" 196 4645 4678 "deque.ml" 196 4645 4679
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 195 4603 4632 "deque.ml" 195 4603 4633
+)
+"deque.ml" 196 4645 4673 "deque.ml" 196 4645 4679
+type(
+  int
+)
+"deque.ml" 196 4645 4680 "deque.ml" 196 4645 4681
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"deque.ml" 196 4645 4682 "deque.ml" 196 4645 4683
+type(
+  int
+)
+ident(
+  int_ref n "deque.ml" 195 4603 4634 "deque.ml" 195 4603 4635
+)
+"deque.ml" 196 4645 4673 "deque.ml" 196 4645 4683
+type(
+  int
+)
+"deque.ml" 196 4645 4684 "deque.ml" 196 4645 4685
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"deque.ml" 196 4645 4686 "deque.ml" 196 4645 4687
+type(
+  int
+)
+"deque.ml" 196 4645 4673 "deque.ml" 196 4645 4687
+type(
+  int
+)
+"deque.ml" 196 4645 4693 "deque.ml" 196 4645 4694
+type(
+  int
+)
+ident(
+  int_ref n "deque.ml" 195 4603 4634 "deque.ml" 195 4603 4635
+)
+"deque.ml" 196 4645 4655 "deque.ml" 196 4645 4694
+type(
+  int
+)
+"deque.ml" 197 4698 4704 "deque.ml" 197 4698 4708
+type(
+  'a dq ref
+)
+ident(
+  def newq "deque.ml" 198 4724 4726 "deque.ml" 208 4978 4988
+)
+"deque.ml" 197 4698 4711 "deque.ml" 197 4698 4714
+type(
+  'a dq -> 'a dq ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"deque.ml" 197 4698 4715 "deque.ml" 197 4698 4720
+type(
+  'a dq
+)
+ident(
+  int_ref empty "deque.ml" 13 235 239 "deque.ml" 13 235 244
+)
+"deque.ml" 197 4698 4711 "deque.ml" 197 4698 4720
+type(
+  'a dq ref
+)
+"deque.ml" 198 4724 4734 "deque.ml" 198 4724 4738
+type(
+  int -> 'a dq -> 'a dq
+)
+ident(
+  def spin "deque.ml" 198 4724 4726 "deque.ml" 208 4978 4988
+)
+"deque.ml" 198 4724 4739 "deque.ml" 198 4724 4740
+type(
+  int
+)
+ident(
+  def k "deque.ml" 198 4724 4741 "deque.ml" 206 4961 4972
+)
+"deque.ml" 198 4724 4741 "deque.ml" 198 4724 4742
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 198 4724 4745 "deque.ml" 206 4961 4972
+)
+"deque.ml" 198 4724 4751 "deque.ml" 198 4724 4756
+type(
+  'a dq -> ('a * 'a dq) option
+)
+ident(
+  int_ref front "deque.ml" 25 484 488 "deque.ml" 25 484 493
+)
+"deque.ml" 198 4724 4757 "deque.ml" 198 4724 4758
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 198 4724 4741 "deque.ml" 198 4724 4742
+)
+"deque.ml" 198 4724 4751 "deque.ml" 198 4724 4758
+type(
+  ('a * 'a dq) option
+)
+"deque.ml" 199 4764 4770 "deque.ml" 199 4764 4774
+type(
+  ('a * 'a dq) option
+)
+type(
+  ('a * 'a dq) option
+)
+"deque.ml" 199 4764 4778 "deque.ml" 199 4764 4789
+type(
+  string -> 'a dq
+)
+ident(
+  int_ref Stdlib.invalid_arg "stdlib.mli" 38 1822 1822 "stdlib.mli" 38 1822 1852
+)
+"deque.ml" 199 4764 4790 "deque.ml" 199 4764 4797
+type(
+  string
+)
+"deque.ml" 199 4764 4778 "deque.ml" 199 4764 4797
+type(
+  'a dq
+)
+"deque.ml" 200 4798 4810 "deque.ml" 200 4798 4811
+type(
+  'a
+)
+ident(
+  def x "deque.ml" 201 4819 4827 "deque.ml" 206 4961 4972
+)
+"deque.ml" 200 4798 4813 "deque.ml" 200 4798 4814
+type(
+  'a dq
+)
+ident(
+  def q "deque.ml" 201 4819 4827 "deque.ml" 206 4961 4972
+)
+"deque.ml" 200 4798 4809 "deque.ml" 200 4798 4815
+type(
+  'a * 'a dq
+)
+"deque.ml" 200 4798 4804 "deque.ml" 200 4798 4815
+type(
+  ('a * 'a dq) option
+)
+type(
+  ('a * 'a dq) option
+)
+"deque.ml" 201 4819 4830 "deque.ml" 201 4819 4831
+type(
+  int
+)
+ident(
+  int_ref k "deque.ml" 198 4724 4739 "deque.ml" 198 4724 4740
+)
+"deque.ml" 201 4819 4832 "deque.ml" 201 4819 4833
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"deque.ml" 201 4819 4834 "deque.ml" 201 4819 4835
+type(
+  int
+)
+ident(
+  int_ref n "deque.ml" 196 4645 4651 "deque.ml" 196 4645 4652
+)
+"deque.ml" 201 4819 4830 "deque.ml" 201 4819 4835
+type(
+  bool
+)
+"deque.ml" 202 4841 4851 "deque.ml" 202 4841 4857
+type(
+  'a dq -> 'a dq -> 'a dq
+)
+ident(
+  int_ref append "deque.ml" 76 1959 1963 "deque.ml" 76 1959 1969
+)
+"deque.ml" 202 4841 4858 "deque.ml" 202 4841 4859
+type(
+  'a dq ref -> 'a dq
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"deque.ml" 202 4841 4859 "deque.ml" 202 4841 4863
+type(
+  'a dq ref
+)
+ident(
+  int_ref newq "deque.ml" 197 4698 4704 "deque.ml" 197 4698 4708
+)
+"deque.ml" 202 4841 4858 "deque.ml" 202 4841 4863
+type(
+  'a dq
+)
+"deque.ml" 202 4841 4865 "deque.ml" 202 4841 4869
+type(
+  'a -> 'a dq -> 'a dq
+)
+ident(
+  int_ref cons "deque.ml" 19 346 350 "deque.ml" 19 346 354
+)
+"deque.ml" 202 4841 4871 "deque.ml" 202 4841 4877
+type(
+  'a -> 'a
+)
+ident(
+  int_ref alt_fn "deque.ml" 195 4603 4636 "deque.ml" 195 4603 4642
+)
+"deque.ml" 202 4841 4878 "deque.ml" 202 4841 4879
+type(
+  'a
+)
+ident(
+  int_ref x "deque.ml" 200 4798 4810 "deque.ml" 200 4798 4811
+)
+"deque.ml" 202 4841 4870 "deque.ml" 202 4841 4880
+type(
+  'a
+)
+"deque.ml" 202 4841 4881 "deque.ml" 202 4841 4882
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 200 4798 4813 "deque.ml" 200 4798 4814
+)
+"deque.ml" 202 4841 4864 "deque.ml" 202 4841 4883
+type(
+  'a dq
+)
+"deque.ml" 202 4841 4851 "deque.ml" 202 4841 4883
+type(
+  'a dq
+)
+"deque.ml" 204 4903 4913 "deque.ml" 204 4903 4917
+type(
+  'a dq ref
+)
+ident(
+  int_ref newq "deque.ml" 197 4698 4704 "deque.ml" 197 4698 4708
+)
+"deque.ml" 204 4903 4918 "deque.ml" 204 4903 4920
+type(
+  'a dq ref -> 'a dq -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"deque.ml" 204 4903 4921 "deque.ml" 204 4903 4925
+type(
+  'a dq -> 'a -> 'a dq
+)
+ident(
+  int_ref snoc "deque.ml" 22 416 420 "deque.ml" 22 416 424
+)
+"deque.ml" 204 4903 4926 "deque.ml" 204 4903 4927
+type(
+  'a dq ref -> 'a dq
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"deque.ml" 204 4903 4927 "deque.ml" 204 4903 4931
+type(
+  'a dq ref
+)
+ident(
+  int_ref newq "deque.ml" 197 4698 4704 "deque.ml" 197 4698 4708
+)
+"deque.ml" 204 4903 4926 "deque.ml" 204 4903 4931
+type(
+  'a dq
+)
+"deque.ml" 204 4903 4932 "deque.ml" 204 4903 4933
+type(
+  'a
+)
+ident(
+  int_ref x "deque.ml" 200 4798 4810 "deque.ml" 200 4798 4811
+)
+"deque.ml" 204 4903 4921 "deque.ml" 204 4903 4933
+type(
+  'a dq
+)
+"deque.ml" 204 4903 4913 "deque.ml" 204 4903 4933
+type(
+  unit
+)
+"deque.ml" 205 4936 4946 "deque.ml" 205 4936 4950
+type(
+  int -> 'a dq -> 'a dq
+)
+ident(
+  int_ref spin "deque.ml" 198 4724 4734 "deque.ml" 198 4724 4738
+)
+"deque.ml" 205 4936 4952 "deque.ml" 205 4936 4953
+type(
+  int
+)
+ident(
+  int_ref k "deque.ml" 198 4724 4739 "deque.ml" 198 4724 4740
+)
+"deque.ml" 205 4936 4954 "deque.ml" 205 4936 4955
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"deque.ml" 205 4936 4956 "deque.ml" 205 4936 4957
+type(
+  int
+)
+"deque.ml" 205 4936 4951 "deque.ml" 205 4936 4958
+type(
+  int
+)
+"deque.ml" 205 4936 4959 "deque.ml" 205 4936 4960
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 200 4798 4813 "deque.ml" 200 4798 4814
+)
+"deque.ml" 205 4936 4946 "deque.ml" 205 4936 4960
+type(
+  'a dq
+)
+"deque.ml" 203 4884 4897 "deque.ml" 206 4961 4972
+type(
+  'a dq
+)
+"deque.ml" 201 4819 4827 "deque.ml" 206 4961 4972
+type(
+  'a dq
+)
+"deque.ml" 198 4724 4745 "deque.ml" 206 4961 4972
+type(
+  'a dq
+)
+"deque.ml" 208 4978 4980 "deque.ml" 208 4978 4984
+type(
+  int -> 'a dq -> 'a dq
+)
+ident(
+  int_ref spin "deque.ml" 198 4724 4734 "deque.ml" 198 4724 4738
+)
+"deque.ml" 208 4978 4985 "deque.ml" 208 4978 4986
+type(
+  int
+)
+"deque.ml" 208 4978 4987 "deque.ml" 208 4978 4988
+type(
+  'a dq
+)
+ident(
+  int_ref q "deque.ml" 195 4603 4632 "deque.ml" 195 4603 4633
+)
+"deque.ml" 208 4978 4980 "deque.ml" 208 4978 4988
+type(
+  'a dq
+)
+"deque.ml" 198 4724 4726 "deque.ml" 208 4978 4988
+type(
+  'a dq
+)
+"deque.ml" 197 4698 4700 "deque.ml" 208 4978 4988
+type(
+  'a dq
+)
+"deque.ml" 196 4645 4647 "deque.ml" 208 4978 4988
+type(
+  'a dq
+)

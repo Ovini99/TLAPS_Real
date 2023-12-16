@@ -1,0 +1,1651 @@
+"m_subst.ml" 10 125 133 "m_subst.ml" 10 125 145
+type(
+  Expr.Subst.sub -> M_t.modunit list -> Expr.Subst.sub * M_t.modunit list
+)
+ident(
+  def app_modunits "m_subst.ml" 10 125 125 "m_subst.ml" 0 0 -1
+)
+"m_subst.ml" 10 125 147 "m_subst.ml" 10 125 148
+type(
+  Expr.Subst.sub
+)
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "m_subst.ml" 10 125 155 "m_subst.ml" 16 367 389
+)
+"m_subst.ml" 10 125 156 "m_subst.ml" 10 125 159
+type(
+  M_t.modunit list
+)
+type(
+  M_t.modunit list
+)
+ident(
+  def mus "m_subst.ml" 11 200 204 "m_subst.ml" 16 367 389
+)
+"m_subst.ml" 11 200 210 "m_subst.ml" 11 200 213
+type(
+  M_t.modunit list
+)
+ident(
+  int_ref mus "m_subst.ml" 10 125 156 "m_subst.ml" 10 125 159
+)
+"m_subst.ml" 12 219 225 "m_subst.ml" 12 219 227
+type(
+  M_t.modunit list
+)
+type(
+  M_t.modunit list
+)
+"m_subst.ml" 12 219 232 "m_subst.ml" 12 219 233
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 10 125 147 "m_subst.ml" 10 125 148
+)
+"m_subst.ml" 12 219 235 "m_subst.ml" 12 219 237
+type(
+  M_t.modunit list
+)
+"m_subst.ml" 12 219 231 "m_subst.ml" 12 219 238
+type(
+  Expr.Subst.sub * M_t.modunit list
+)
+"m_subst.ml" 13 239 246 "m_subst.ml" 13 239 248
+type(
+  M_t.modunit
+)
+type(
+  M_t.modunit
+)
+ident(
+  def mu "m_subst.ml" 14 269 277 "m_subst.ml" 16 367 389
+)
+"m_subst.ml" 13 239 262 "m_subst.ml" 13 239 265
+type(
+  M_t.modunit list
+)
+ident(
+  def mus "m_subst.ml" 14 269 277 "m_subst.ml" 16 367 389
+)
+"m_subst.ml" 13 239 245 "m_subst.ml" 13 239 265
+type(
+  M_t.modunit list
+)
+type(
+  M_t.modunit list
+)
+"m_subst.ml" 14 269 282 "m_subst.ml" 14 269 283
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "m_subst.ml" 15 322 330 "m_subst.ml" 16 367 389
+)
+"m_subst.ml" 14 269 286 "m_subst.ml" 14 269 288
+type(
+  M_t.modunit
+)
+type(
+  M_t.modunit
+)
+ident(
+  def mu "m_subst.ml" 15 322 330 "m_subst.ml" 16 367 389
+)
+"m_subst.ml" 14 269 281 "m_subst.ml" 14 269 299
+type(
+  Expr.Subst.sub * M_t.modunit
+)
+"m_subst.ml" 14 269 302 "m_subst.ml" 14 269 313
+type(
+  Expr.Subst.sub -> M_t.modunit -> Expr.Subst.sub * M_t.modunit
+)
+ident(
+  int_ref app_modunit "m_subst.ml" 19 392 396 "m_subst.ml" 19 392 407
+)
+"m_subst.ml" 14 269 314 "m_subst.ml" 14 269 315
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 10 125 147 "m_subst.ml" 10 125 148
+)
+"m_subst.ml" 14 269 316 "m_subst.ml" 14 269 318
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_subst.ml" 13 239 246 "m_subst.ml" 13 239 248
+)
+"m_subst.ml" 14 269 302 "m_subst.ml" 14 269 318
+type(
+  Expr.Subst.sub * M_t.modunit
+)
+"m_subst.ml" 15 322 335 "m_subst.ml" 15 322 336
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "m_subst.ml" 16 367 375 "m_subst.ml" 16 367 389
+)
+"m_subst.ml" 15 322 338 "m_subst.ml" 15 322 341
+type(
+  M_t.modunit list
+)
+ident(
+  def mus "m_subst.ml" 16 367 375 "m_subst.ml" 16 367 389
+)
+"m_subst.ml" 15 322 334 "m_subst.ml" 15 322 342
+type(
+  Expr.Subst.sub * M_t.modunit list
+)
+"m_subst.ml" 15 322 345 "m_subst.ml" 15 322 357
+type(
+  Expr.Subst.sub -> M_t.modunit list -> Expr.Subst.sub * M_t.modunit list
+)
+ident(
+  int_ref app_modunits "m_subst.ml" 10 125 133 "m_subst.ml" 10 125 145
+)
+"m_subst.ml" 15 322 358 "m_subst.ml" 15 322 359
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 14 269 282 "m_subst.ml" 14 269 283
+)
+"m_subst.ml" 15 322 360 "m_subst.ml" 15 322 363
+type(
+  M_t.modunit list
+)
+ident(
+  int_ref mus "m_subst.ml" 13 239 262 "m_subst.ml" 13 239 265
+)
+"m_subst.ml" 15 322 345 "m_subst.ml" 15 322 363
+type(
+  Expr.Subst.sub * M_t.modunit list
+)
+"m_subst.ml" 16 367 376 "m_subst.ml" 16 367 377
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 15 322 335 "m_subst.ml" 15 322 336
+)
+"m_subst.ml" 16 367 379 "m_subst.ml" 16 367 381
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_subst.ml" 14 269 286 "m_subst.ml" 14 269 288
+)
+"m_subst.ml" 16 367 385 "m_subst.ml" 16 367 388
+type(
+  M_t.modunit list
+)
+ident(
+  int_ref mus "m_subst.ml" 15 322 338 "m_subst.ml" 15 322 341
+)
+"m_subst.ml" 16 367 379 "m_subst.ml" 16 367 388
+type(
+  M_t.modunit list
+)
+"m_subst.ml" 16 367 375 "m_subst.ml" 16 367 389
+type(
+  Expr.Subst.sub * M_t.modunit list
+)
+"m_subst.ml" 15 322 330 "m_subst.ml" 16 367 389
+type(
+  Expr.Subst.sub * M_t.modunit list
+)
+"m_subst.ml" 14 269 277 "m_subst.ml" 16 367 389
+type(
+  Expr.Subst.sub * M_t.modunit list
+)
+"m_subst.ml" 11 200 204 "m_subst.ml" 16 367 389
+type(
+  Expr.Subst.sub * M_t.modunit list
+)
+"m_subst.ml" 19 392 396 "m_subst.ml" 19 392 407
+type(
+  Expr.Subst.sub -> M_t.modunit -> Expr.Subst.sub * M_t.modunit
+)
+ident(
+  def app_modunit "m_subst.ml" 10 125 125 "m_subst.ml" 0 0 -1
+)
+"m_subst.ml" 19 392 409 "m_subst.ml" 19 392 410
+type(
+  Expr.Subst.sub
+)
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "m_subst.ml" 19 392 417 "m_subst.ml" 57 1723 1785
+)
+"m_subst.ml" 19 392 418 "m_subst.ml" 19 392 420
+type(
+  M_t.modunit
+)
+type(
+  M_t.modunit
+)
+ident(
+  def mu "m_subst.ml" 20 451 455 "m_subst.ml" 57 1723 1785
+)
+"m_subst.ml" 20 451 461 "m_subst.ml" 20 451 463
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_subst.ml" 19 392 418 "m_subst.ml" 19 392 420
+)
+"m_subst.ml" 20 451 461 "m_subst.ml" 20 451 468
+type(
+  M_t.modunit_
+)
+"m_subst.ml" 21 474 490 "m_subst.ml" 21 474 492
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  def cs "m_subst.ml" 22 496 504 "m_subst.ml" 22 496 534
+)
+"m_subst.ml" 21 474 480 "m_subst.ml" 21 474 492
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_subst.ml" 22 496 505 "m_subst.ml" 22 496 510
+type(
+  int -> Expr.Subst.sub -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.bumpn "expr.mli" 432 10886 10890 "expr.mli" 434 10923 10938
+)
+"m_subst.ml" 22 496 512 "m_subst.ml" 22 496 523
+type(
+  (Util.hint * Expr.T.shape) list -> int
+)
+ident(
+  int_ref Stdlib.List.length "list.mli" 43 2033 2033 "list.mli" 43 2033 2060
+)
+"m_subst.ml" 22 496 524 "m_subst.ml" 22 496 526
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  int_ref cs "m_subst.ml" 21 474 490 "m_subst.ml" 21 474 492
+)
+"m_subst.ml" 22 496 511 "m_subst.ml" 22 496 527
+type(
+  int
+)
+"m_subst.ml" 22 496 528 "m_subst.ml" 22 496 529
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 19 392 409 "m_subst.ml" 19 392 410
+)
+"m_subst.ml" 22 496 505 "m_subst.ml" 22 496 529
+type(
+  Expr.Subst.sub
+)
+"m_subst.ml" 22 496 531 "m_subst.ml" 22 496 533
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_subst.ml" 19 392 418 "m_subst.ml" 19 392 420
+)
+"m_subst.ml" 22 496 504 "m_subst.ml" 22 496 534
+type(
+  Expr.Subst.sub * M_t.modunit
+)
+"m_subst.ml" 23 535 552 "m_subst.ml" 23 535 554
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  def cs "m_subst.ml" 24 558 566 "m_subst.ml" 24 558 596
+)
+"m_subst.ml" 23 535 541 "m_subst.ml" 23 535 554
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_subst.ml" 24 558 567 "m_subst.ml" 24 558 572
+type(
+  int -> Expr.Subst.sub -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.bumpn "expr.mli" 432 10886 10890 "expr.mli" 434 10923 10938
+)
+"m_subst.ml" 24 558 574 "m_subst.ml" 24 558 585
+type(
+  (Util.hint * Expr.T.shape) list -> int
+)
+ident(
+  int_ref Stdlib.List.length "list.mli" 43 2033 2033 "list.mli" 43 2033 2060
+)
+"m_subst.ml" 24 558 586 "m_subst.ml" 24 558 588
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  int_ref cs "m_subst.ml" 23 535 552 "m_subst.ml" 23 535 554
+)
+"m_subst.ml" 24 558 573 "m_subst.ml" 24 558 589
+type(
+  int
+)
+"m_subst.ml" 24 558 590 "m_subst.ml" 24 558 591
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 19 392 409 "m_subst.ml" 19 392 410
+)
+"m_subst.ml" 24 558 567 "m_subst.ml" 24 558 591
+type(
+  Expr.Subst.sub
+)
+"m_subst.ml" 24 558 593 "m_subst.ml" 24 558 595
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_subst.ml" 19 392 418 "m_subst.ml" 19 392 420
+)
+"m_subst.ml" 24 558 566 "m_subst.ml" 24 558 596
+type(
+  Expr.Subst.sub * M_t.modunit
+)
+"m_subst.ml" 25 597 613 "m_subst.ml" 25 597 615
+type(
+  Util.hints
+)
+ident(
+  def vs "m_subst.ml" 26 619 627 "m_subst.ml" 26 619 657
+)
+"m_subst.ml" 25 597 603 "m_subst.ml" 25 597 615
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_subst.ml" 26 619 628 "m_subst.ml" 26 619 633
+type(
+  int -> Expr.Subst.sub -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.bumpn "expr.mli" 432 10886 10890 "expr.mli" 434 10923 10938
+)
+"m_subst.ml" 26 619 635 "m_subst.ml" 26 619 646
+type(
+  Util.hints -> int
+)
+ident(
+  int_ref Stdlib.List.length "list.mli" 43 2033 2033 "list.mli" 43 2033 2060
+)
+"m_subst.ml" 26 619 647 "m_subst.ml" 26 619 649
+type(
+  Util.hints
+)
+ident(
+  int_ref vs "m_subst.ml" 25 597 613 "m_subst.ml" 25 597 615
+)
+"m_subst.ml" 26 619 634 "m_subst.ml" 26 619 650
+type(
+  int
+)
+"m_subst.ml" 26 619 651 "m_subst.ml" 26 619 652
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 19 392 409 "m_subst.ml" 19 392 410
+)
+"m_subst.ml" 26 619 628 "m_subst.ml" 26 619 652
+type(
+  Expr.Subst.sub
+)
+"m_subst.ml" 26 619 654 "m_subst.ml" 26 619 656
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_subst.ml" 19 392 418 "m_subst.ml" 19 392 420
+)
+"m_subst.ml" 26 619 627 "m_subst.ml" 26 619 657
+type(
+  Expr.Subst.sub * M_t.modunit
+)
+"m_subst.ml" 27 658 676 "m_subst.ml" 27 658 678
+type(
+  Expr.T.defn
+)
+ident(
+  def df "m_subst.ml" 28 696 704 "m_subst.ml" 29 730 782
+)
+"m_subst.ml" 27 658 680 "m_subst.ml" 27 658 682
+type(
+  Expr.T.wheredef
+)
+ident(
+  def wd "m_subst.ml" 28 696 704 "m_subst.ml" 29 730 782
+)
+"m_subst.ml" 27 658 684 "m_subst.ml" 27 658 687
+type(
+  Expr.T.visibility
+)
+ident(
+  def vis "m_subst.ml" 28 696 704 "m_subst.ml" 29 730 782
+)
+"m_subst.ml" 27 658 689 "m_subst.ml" 27 658 691
+type(
+  Expr.T.export
+)
+ident(
+  def ex "m_subst.ml" 28 696 704 "m_subst.ml" 29 730 782
+)
+"m_subst.ml" 27 658 664 "m_subst.ml" 27 658 692
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_subst.ml" 28 696 708 "m_subst.ml" 28 696 710
+type(
+  Expr.T.defn
+)
+ident(
+  def df "m_subst.ml" 29 730 738 "m_subst.ml" 29 730 782
+)
+"m_subst.ml" 28 696 713 "m_subst.ml" 28 696 721
+type(
+  Expr.Subst.sub -> Expr.T.defn -> Expr.T.defn
+)
+ident(
+  int_ref Expr.Subst.app_defn "expr.mli" 459 11461 11465 "expr.mli" 461 11502 11518
+)
+"m_subst.ml" 28 696 722 "m_subst.ml" 28 696 723
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 19 392 409 "m_subst.ml" 19 392 410
+)
+"m_subst.ml" 28 696 724 "m_subst.ml" 28 696 726
+type(
+  Expr.T.defn
+)
+ident(
+  int_ref df "m_subst.ml" 27 658 676 "m_subst.ml" 27 658 678
+)
+"m_subst.ml" 28 696 713 "m_subst.ml" 28 696 726
+type(
+  Expr.T.defn
+)
+"m_subst.ml" 29 730 739 "m_subst.ml" 29 730 743
+type(
+  Expr.Subst.sub -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.bump "expr.mli" 435 10939 10943 "expr.mli" 436 10953 10971
+)
+"m_subst.ml" 29 730 744 "m_subst.ml" 29 730 745
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 19 392 409 "m_subst.ml" 19 392 410
+)
+"m_subst.ml" 29 730 739 "m_subst.ml" 29 730 745
+type(
+  Expr.Subst.sub
+)
+"m_subst.ml" 29 730 759 "m_subst.ml" 29 730 761
+type(
+  Expr.T.defn
+)
+ident(
+  int_ref df "m_subst.ml" 28 696 708 "m_subst.ml" 28 696 710
+)
+"m_subst.ml" 29 730 763 "m_subst.ml" 29 730 765
+type(
+  Expr.T.wheredef
+)
+ident(
+  int_ref wd "m_subst.ml" 27 658 680 "m_subst.ml" 27 658 682
+)
+"m_subst.ml" 29 730 767 "m_subst.ml" 29 730 770
+type(
+  Expr.T.visibility
+)
+ident(
+  int_ref vis "m_subst.ml" 27 658 684 "m_subst.ml" 27 658 687
+)
+"m_subst.ml" 29 730 772 "m_subst.ml" 29 730 774
+type(
+  Expr.T.export
+)
+ident(
+  int_ref ex "m_subst.ml" 27 658 689 "m_subst.ml" 27 658 691
+)
+"m_subst.ml" 29 730 747 "m_subst.ml" 29 730 775
+type(
+  M_t.modunit_
+)
+"m_subst.ml" 29 730 776 "m_subst.ml" 29 730 778
+type(
+  M_t.modunit_ -> M_t.modunit -> M_t.modunit
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_subst.ml" 29 730 779 "m_subst.ml" 29 730 781
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_subst.ml" 19 392 418 "m_subst.ml" 19 392 420
+)
+"m_subst.ml" 29 730 747 "m_subst.ml" 29 730 781
+type(
+  M_t.modunit
+)
+"m_subst.ml" 29 730 738 "m_subst.ml" 29 730 782
+type(
+  Expr.Subst.sub * M_t.modunit
+)
+"m_subst.ml" 28 696 704 "m_subst.ml" 29 730 782
+type(
+  Expr.Subst.sub * M_t.modunit
+)
+"m_subst.ml" 30 783 796 "m_subst.ml" 30 783 798
+type(
+  Util.hint option
+)
+ident(
+  def nm "m_subst.ml" 31 806 814 "m_subst.ml" 33 894 926
+)
+"m_subst.ml" 30 783 800 "m_subst.ml" 30 783 801
+type(
+  Expr.T.expr
+)
+ident(
+  def e "m_subst.ml" 31 806 814 "m_subst.ml" 33 894 926
+)
+"m_subst.ml" 30 783 789 "m_subst.ml" 30 783 802
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_subst.ml" 31 806 818 "m_subst.ml" 31 806 819
+type(
+  Expr.T.expr
+)
+ident(
+  def e "m_subst.ml" 32 838 846 "m_subst.ml" 33 894 926
+)
+"m_subst.ml" 31 806 822 "m_subst.ml" 31 806 830
+type(
+  Expr.Subst.sub -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Subst.app_expr "expr.mli" 447 11184 11188 "expr.mli" 449 11225 11241
+)
+"m_subst.ml" 31 806 831 "m_subst.ml" 31 806 832
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 19 392 409 "m_subst.ml" 19 392 410
+)
+"m_subst.ml" 31 806 833 "m_subst.ml" 31 806 834
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "m_subst.ml" 30 783 800 "m_subst.ml" 30 783 801
+)
+"m_subst.ml" 31 806 822 "m_subst.ml" 31 806 834
+type(
+  Expr.T.expr
+)
+"m_subst.ml" 32 838 850 "m_subst.ml" 32 838 851
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "m_subst.ml" 33 894 902 "m_subst.ml" 33 894 926
+)
+"m_subst.ml" 32 838 854 "m_subst.ml" 32 838 859
+type(
+  int -> Expr.Subst.sub -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.bumpn "expr.mli" 432 10886 10890 "expr.mli" 434 10923 10938
+)
+"m_subst.ml" 32 838 864 "m_subst.ml" 32 838 866
+type(
+  Util.hint option
+)
+ident(
+  int_ref nm "m_subst.ml" 30 783 796 "m_subst.ml" 30 783 798
+)
+"m_subst.ml" 32 838 867 "m_subst.ml" 32 838 868
+type(
+  Util.hint option -> Util.hint option -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_subst.ml" 32 838 869 "m_subst.ml" 32 838 873
+type(
+  Util.hint option
+)
+"m_subst.ml" 32 838 864 "m_subst.ml" 32 838 873
+type(
+  bool
+)
+"m_subst.ml" 32 838 879 "m_subst.ml" 32 838 880
+type(
+  int
+)
+"m_subst.ml" 32 838 886 "m_subst.ml" 32 838 887
+type(
+  int
+)
+"m_subst.ml" 32 838 860 "m_subst.ml" 32 838 888
+type(
+  int
+)
+"m_subst.ml" 32 838 889 "m_subst.ml" 32 838 890
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 19 392 409 "m_subst.ml" 19 392 410
+)
+"m_subst.ml" 32 838 854 "m_subst.ml" 32 838 890
+type(
+  Expr.Subst.sub
+)
+"m_subst.ml" 33 894 903 "m_subst.ml" 33 894 904
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 32 838 850 "m_subst.ml" 32 838 851
+)
+"m_subst.ml" 33 894 913 "m_subst.ml" 33 894 915
+type(
+  Util.hint option
+)
+ident(
+  int_ref nm "m_subst.ml" 30 783 796 "m_subst.ml" 30 783 798
+)
+"m_subst.ml" 33 894 917 "m_subst.ml" 33 894 918
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "m_subst.ml" 31 806 818 "m_subst.ml" 31 806 819
+)
+"m_subst.ml" 33 894 906 "m_subst.ml" 33 894 919
+type(
+  M_t.modunit_
+)
+"m_subst.ml" 33 894 920 "m_subst.ml" 33 894 922
+type(
+  M_t.modunit_ -> M_t.modunit -> M_t.modunit
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_subst.ml" 33 894 923 "m_subst.ml" 33 894 925
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_subst.ml" 19 392 418 "m_subst.ml" 19 392 420
+)
+"m_subst.ml" 33 894 906 "m_subst.ml" 33 894 925
+type(
+  M_t.modunit
+)
+"m_subst.ml" 33 894 902 "m_subst.ml" 33 894 926
+type(
+  Expr.Subst.sub * M_t.modunit
+)
+"m_subst.ml" 32 838 846 "m_subst.ml" 33 894 926
+type(
+  Expr.Subst.sub * M_t.modunit
+)
+"m_subst.ml" 31 806 814 "m_subst.ml" 33 894 926
+type(
+  Expr.Subst.sub * M_t.modunit
+)
+"m_subst.ml" 34 927 942 "m_subst.ml" 34 927 944
+type(
+  Util.hint option
+)
+ident(
+  def nm "m_subst.ml" 35 979 987 "m_subst.ml" 45 1261 1327
+)
+"m_subst.ml" 34 927 946 "m_subst.ml" 34 927 948
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "m_subst.ml" 35 979 987 "m_subst.ml" 45 1261 1327
+)
+"m_subst.ml" 34 927 950 "m_subst.ml" 34 927 954
+type(
+  int
+)
+ident(
+  def naxs "m_subst.ml" 35 979 987 "m_subst.ml" 45 1261 1327
+)
+"m_subst.ml" 34 927 956 "m_subst.ml" 34 927 959
+type(
+  Proof.T.proof
+)
+ident(
+  def prf "m_subst.ml" 35 979 987 "m_subst.ml" 45 1261 1327
+)
+"m_subst.ml" 34 927 961 "m_subst.ml" 34 927 969
+type(
+  Proof.T.proof
+)
+ident(
+  def prf_orig "m_subst.ml" 35 979 987 "m_subst.ml" 45 1261 1327
+)
+"m_subst.ml" 34 927 970 "m_subst.ml" 34 927 974
+type(
+  M_t.summary
+)
+ident(
+  def summ "m_subst.ml" 35 979 987 "m_subst.ml" 45 1261 1327
+)
+"m_subst.ml" 34 927 933 "m_subst.ml" 34 927 975
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_subst.ml" 35 979 991 "m_subst.ml" 35 979 993
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "m_subst.ml" 36 1016 1024 "m_subst.ml" 45 1261 1327
+)
+"m_subst.ml" 35 979 996 "m_subst.ml" 35 979 1007
+type(
+  Expr.Subst.sub -> Expr.T.sequent -> Expr.T.sequent
+)
+ident(
+  int_ref Expr.Subst.app_sequent "expr.mli" 465 11594 11598 "expr.mli" 467 11641 11660
+)
+"m_subst.ml" 35 979 1008 "m_subst.ml" 35 979 1009
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 19 392 409 "m_subst.ml" 19 392 410
+)
+"m_subst.ml" 35 979 1010 "m_subst.ml" 35 979 1012
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "m_subst.ml" 34 927 946 "m_subst.ml" 34 927 948
+)
+"m_subst.ml" 35 979 996 "m_subst.ml" 35 979 1012
+type(
+  Expr.T.sequent
+)
+"m_subst.ml" 36 1016 1028 "m_subst.ml" 36 1016 1029
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "m_subst.ml" 37 1042 1050 "m_subst.ml" 45 1261 1327
+)
+"m_subst.ml" 36 1016 1032 "m_subst.ml" 36 1016 1036
+type(
+  Expr.Subst.sub -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.bump "expr.mli" 435 10939 10943 "expr.mli" 436 10953 10971
+)
+"m_subst.ml" 36 1016 1037 "m_subst.ml" 36 1016 1038
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 19 392 409 "m_subst.ml" 19 392 410
+)
+"m_subst.ml" 36 1016 1032 "m_subst.ml" 36 1016 1038
+type(
+  Expr.Subst.sub
+)
+"m_subst.ml" 37 1042 1054 "m_subst.ml" 37 1042 1057
+type(
+  Proof.T.proof
+)
+ident(
+  def prf "m_subst.ml" 41 1166 1174 "m_subst.ml" 45 1261 1327
+)
+"m_subst.ml" 38 1060 1076 "m_subst.ml" 38 1060 1077
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "m_subst.ml" 39 1115 1127 "m_subst.ml" 39 1115 1154
+)
+"m_subst.ml" 38 1060 1080 "m_subst.ml" 38 1060 1085
+type(
+  int -> Expr.Subst.sub -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.bumpn "expr.mli" 432 10886 10890 "expr.mli" 434 10923 10938
+)
+"m_subst.ml" 38 1060 1087 "m_subst.ml" 38 1060 1097
+type(
+  Expr.T.hyp Deque.dq -> int
+)
+ident(
+  int_ref Deque.size "deque.mli" 11 162 162 "deque.mli" 11 162 186
+)
+"m_subst.ml" 38 1060 1098 "m_subst.ml" 38 1060 1100
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "m_subst.ml" 35 979 991 "m_subst.ml" 35 979 993
+)
+"m_subst.ml" 38 1060 1098 "m_subst.ml" 38 1060 1108
+type(
+  Expr.T.hyp Deque.dq
+)
+"m_subst.ml" 38 1060 1086 "m_subst.ml" 38 1060 1109
+type(
+  int
+)
+"m_subst.ml" 38 1060 1110 "m_subst.ml" 38 1060 1111
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 36 1016 1028 "m_subst.ml" 36 1016 1029
+)
+"m_subst.ml" 38 1060 1080 "m_subst.ml" 38 1060 1111
+type(
+  Expr.Subst.sub
+)
+"m_subst.ml" 39 1115 1127 "m_subst.ml" 39 1115 1148
+type(
+  Expr.Subst.sub -> Proof.T.proof -> Proof.T.proof
+)
+ident(
+  int_ref Proof.Subst.app_proof "proof.mli" 77 2150 2152 "proof.mli" 77 2150 2189
+)
+"m_subst.ml" 39 1115 1149 "m_subst.ml" 39 1115 1150
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 38 1060 1076 "m_subst.ml" 38 1060 1077
+)
+"m_subst.ml" 39 1115 1151 "m_subst.ml" 39 1115 1154
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref prf "m_subst.ml" 34 927 956 "m_subst.ml" 34 927 959
+)
+"m_subst.ml" 39 1115 1127 "m_subst.ml" 39 1115 1154
+type(
+  Proof.T.proof
+)
+"m_subst.ml" 38 1060 1072 "m_subst.ml" 39 1115 1154
+type(
+  Proof.T.proof
+)
+"m_subst.ml" 41 1166 1178 "m_subst.ml" 41 1166 1179
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "m_subst.ml" 45 1261 1273 "m_subst.ml" 45 1261 1327
+)
+"m_subst.ml" 41 1166 1185 "m_subst.ml" 41 1166 1187
+type(
+  Util.hint option
+)
+ident(
+  int_ref nm "m_subst.ml" 34 927 942 "m_subst.ml" 34 927 944
+)
+"m_subst.ml" 41 1166 1188 "m_subst.ml" 41 1166 1189
+type(
+  Util.hint option -> Util.hint option -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_subst.ml" 41 1166 1190 "m_subst.ml" 41 1166 1194
+type(
+  Util.hint option
+)
+"m_subst.ml" 41 1166 1185 "m_subst.ml" 41 1166 1194
+type(
+  bool
+)
+"m_subst.ml" 42 1200 1216 "m_subst.ml" 42 1200 1217
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 36 1016 1028 "m_subst.ml" 36 1016 1029
+)
+"m_subst.ml" 44 1235 1251 "m_subst.ml" 44 1235 1255
+type(
+  Expr.Subst.sub -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.bump "expr.mli" 435 10939 10943 "expr.mli" 436 10953 10971
+)
+"m_subst.ml" 44 1235 1256 "m_subst.ml" 44 1235 1257
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 36 1016 1028 "m_subst.ml" 36 1016 1029
+)
+"m_subst.ml" 44 1235 1251 "m_subst.ml" 44 1235 1257
+type(
+  Expr.Subst.sub
+)
+"m_subst.ml" 41 1166 1182 "m_subst.ml" 44 1235 1257
+type(
+  Expr.Subst.sub
+)
+"m_subst.ml" 45 1261 1274 "m_subst.ml" 45 1261 1275
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 41 1166 1178 "m_subst.ml" 41 1166 1179
+)
+"m_subst.ml" 45 1261 1286 "m_subst.ml" 45 1261 1288
+type(
+  Util.hint option
+)
+ident(
+  int_ref nm "m_subst.ml" 34 927 942 "m_subst.ml" 34 927 944
+)
+"m_subst.ml" 45 1261 1290 "m_subst.ml" 45 1261 1292
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "m_subst.ml" 35 979 991 "m_subst.ml" 35 979 993
+)
+"m_subst.ml" 45 1261 1294 "m_subst.ml" 45 1261 1298
+type(
+  int
+)
+ident(
+  int_ref naxs "m_subst.ml" 34 927 950 "m_subst.ml" 34 927 954
+)
+"m_subst.ml" 45 1261 1300 "m_subst.ml" 45 1261 1303
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref prf "m_subst.ml" 37 1042 1054 "m_subst.ml" 37 1042 1057
+)
+"m_subst.ml" 45 1261 1305 "m_subst.ml" 45 1261 1313
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref prf_orig "m_subst.ml" 34 927 961 "m_subst.ml" 34 927 969
+)
+"m_subst.ml" 45 1261 1315 "m_subst.ml" 45 1261 1319
+type(
+  M_t.summary
+)
+ident(
+  int_ref summ "m_subst.ml" 34 927 970 "m_subst.ml" 34 927 974
+)
+"m_subst.ml" 45 1261 1277 "m_subst.ml" 45 1261 1320
+type(
+  M_t.modunit_
+)
+"m_subst.ml" 45 1261 1321 "m_subst.ml" 45 1261 1323
+type(
+  M_t.modunit_ -> M_t.modunit -> M_t.modunit
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_subst.ml" 45 1261 1324 "m_subst.ml" 45 1261 1326
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_subst.ml" 19 392 418 "m_subst.ml" 19 392 420
+)
+"m_subst.ml" 45 1261 1277 "m_subst.ml" 45 1261 1326
+type(
+  M_t.modunit
+)
+"m_subst.ml" 45 1261 1273 "m_subst.ml" 45 1261 1327
+type(
+  Expr.Subst.sub * M_t.modunit
+)
+"m_subst.ml" 41 1166 1174 "m_subst.ml" 45 1261 1327
+type(
+  Expr.Subst.sub * M_t.modunit
+)
+"m_subst.ml" 37 1042 1050 "m_subst.ml" 45 1261 1327
+type(
+  Expr.Subst.sub * M_t.modunit
+)
+"m_subst.ml" 36 1016 1024 "m_subst.ml" 45 1261 1327
+type(
+  Expr.Subst.sub * M_t.modunit
+)
+"m_subst.ml" 35 979 987 "m_subst.ml" 45 1261 1327
+type(
+  Expr.Subst.sub * M_t.modunit
+)
+"m_subst.ml" 46 1328 1341 "m_subst.ml" 46 1328 1342
+type(
+  M_t.mule
+)
+ident(
+  def m "m_subst.ml" 47 1346 1354 "m_subst.ml" 48 1378 1405
+)
+"m_subst.ml" 46 1328 1334 "m_subst.ml" 46 1328 1342
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_subst.ml" 47 1346 1358 "m_subst.ml" 47 1346 1359
+type(
+  M_t.mule
+)
+ident(
+  def m "m_subst.ml" 48 1378 1386 "m_subst.ml" 48 1378 1405
+)
+"m_subst.ml" 47 1346 1362 "m_subst.ml" 47 1346 1370
+type(
+  Expr.Subst.sub -> M_t.mule -> M_t.mule
+)
+ident(
+  int_ref app_mule "m_subst.ml" 60 1788 1792 "m_subst.ml" 60 1788 1800
+)
+"m_subst.ml" 47 1346 1371 "m_subst.ml" 47 1346 1372
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 19 392 409 "m_subst.ml" 19 392 410
+)
+"m_subst.ml" 47 1346 1373 "m_subst.ml" 47 1346 1374
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_subst.ml" 46 1328 1341 "m_subst.ml" 46 1328 1342
+)
+"m_subst.ml" 47 1346 1362 "m_subst.ml" 47 1346 1374
+type(
+  M_t.mule
+)
+"m_subst.ml" 48 1378 1387 "m_subst.ml" 48 1378 1388
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 19 392 409 "m_subst.ml" 19 392 410
+)
+"m_subst.ml" 48 1378 1397 "m_subst.ml" 48 1378 1398
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_subst.ml" 47 1346 1358 "m_subst.ml" 47 1346 1359
+)
+"m_subst.ml" 48 1378 1390 "m_subst.ml" 48 1378 1398
+type(
+  M_t.modunit_
+)
+"m_subst.ml" 48 1378 1399 "m_subst.ml" 48 1378 1401
+type(
+  M_t.modunit_ -> M_t.modunit -> M_t.modunit
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_subst.ml" 48 1378 1402 "m_subst.ml" 48 1378 1404
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_subst.ml" 19 392 418 "m_subst.ml" 19 392 420
+)
+"m_subst.ml" 48 1378 1390 "m_subst.ml" 48 1378 1404
+type(
+  M_t.modunit
+)
+"m_subst.ml" 48 1378 1386 "m_subst.ml" 48 1378 1405
+type(
+  Expr.Subst.sub * M_t.modunit
+)
+"m_subst.ml" 47 1346 1354 "m_subst.ml" 48 1378 1405
+type(
+  Expr.Subst.sub * M_t.modunit
+)
+"m_subst.ml" 49 1406 1420 "m_subst.ml" 49 1406 1422
+type(
+  [ `Hide | `Use of bool ]
+)
+ident(
+  def uh "m_subst.ml" 50 1431 1439 "m_subst.ml" 52 1555 1589
+)
+"m_subst.ml" 49 1406 1424 "m_subst.ml" 49 1406 1426
+type(
+  Proof.T.usable
+)
+ident(
+  def us "m_subst.ml" 50 1431 1439 "m_subst.ml" 52 1555 1589
+)
+"m_subst.ml" 49 1406 1412 "m_subst.ml" 49 1406 1427
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_subst.ml" 50 1431 1443 "m_subst.ml" 50 1431 1445
+type(
+  Proof.T.usable
+)
+ident(
+  def us "m_subst.ml" 51 1479 1487 "m_subst.ml" 52 1555 1589
+)
+"m_subst.ml" 50 1431 1448 "m_subst.ml" 50 1431 1470
+type(
+  Expr.Subst.sub -> Proof.T.usable -> Proof.T.usable
+)
+ident(
+  int_ref Proof.Subst.app_usable "proof.mli" 80 2287 2289 "proof.mli" 80 2287 2329
+)
+"m_subst.ml" 50 1431 1471 "m_subst.ml" 50 1431 1472
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 19 392 409 "m_subst.ml" 19 392 410
+)
+"m_subst.ml" 50 1431 1473 "m_subst.ml" 50 1431 1475
+type(
+  Proof.T.usable
+)
+ident(
+  int_ref us "m_subst.ml" 49 1406 1424 "m_subst.ml" 49 1406 1426
+)
+"m_subst.ml" 50 1431 1448 "m_subst.ml" 50 1431 1475
+type(
+  Proof.T.usable
+)
+"m_subst.ml" 51 1479 1491 "m_subst.ml" 51 1479 1492
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "m_subst.ml" 52 1555 1563 "m_subst.ml" 52 1555 1589
+)
+"m_subst.ml" 51 1479 1498 "m_subst.ml" 51 1479 1500
+type(
+  [ `Hide | `Use of bool ]
+)
+ident(
+  int_ref uh "m_subst.ml" 49 1406 1420 "m_subst.ml" 49 1406 1422
+)
+"m_subst.ml" 51 1479 1501 "m_subst.ml" 51 1479 1502
+type(
+  [ `Hide | `Use of bool ] -> [ `Hide | `Use of bool ] -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_subst.ml" 51 1479 1503 "m_subst.ml" 51 1479 1508
+type(
+  [ `Hide | `Use of bool ]
+)
+"m_subst.ml" 51 1479 1498 "m_subst.ml" 51 1479 1508
+type(
+  bool
+)
+"m_subst.ml" 51 1479 1514 "m_subst.ml" 51 1479 1515
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 19 392 409 "m_subst.ml" 19 392 410
+)
+"m_subst.ml" 51 1479 1521 "m_subst.ml" 51 1479 1526
+type(
+  int -> Expr.Subst.sub -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.bumpn "expr.mli" 432 10886 10890 "expr.mli" 434 10923 10938
+)
+"m_subst.ml" 51 1479 1528 "m_subst.ml" 51 1479 1539
+type(
+  Expr.T.expr list -> int
+)
+ident(
+  int_ref Stdlib.List.length "list.mli" 43 2033 2033 "list.mli" 43 2033 2060
+)
+"m_subst.ml" 51 1479 1540 "m_subst.ml" 51 1479 1542
+type(
+  Proof.T.usable
+)
+ident(
+  int_ref us "m_subst.ml" 50 1431 1443 "m_subst.ml" 50 1431 1445
+)
+"m_subst.ml" 51 1479 1540 "m_subst.ml" 51 1479 1548
+type(
+  Expr.T.expr list
+)
+"m_subst.ml" 51 1479 1527 "m_subst.ml" 51 1479 1549
+type(
+  int
+)
+"m_subst.ml" 51 1479 1550 "m_subst.ml" 51 1479 1551
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 19 392 409 "m_subst.ml" 19 392 410
+)
+"m_subst.ml" 51 1479 1521 "m_subst.ml" 51 1479 1551
+type(
+  Expr.Subst.sub
+)
+"m_subst.ml" 51 1479 1495 "m_subst.ml" 51 1479 1551
+type(
+  Expr.Subst.sub
+)
+"m_subst.ml" 52 1555 1564 "m_subst.ml" 52 1555 1565
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 51 1479 1491 "m_subst.ml" 51 1479 1492
+)
+"m_subst.ml" 52 1555 1575 "m_subst.ml" 52 1555 1577
+type(
+  [ `Hide | `Use of bool ]
+)
+ident(
+  int_ref uh "m_subst.ml" 49 1406 1420 "m_subst.ml" 49 1406 1422
+)
+"m_subst.ml" 52 1555 1579 "m_subst.ml" 52 1555 1581
+type(
+  Proof.T.usable
+)
+ident(
+  int_ref us "m_subst.ml" 50 1431 1443 "m_subst.ml" 50 1431 1445
+)
+"m_subst.ml" 52 1555 1567 "m_subst.ml" 52 1555 1582
+type(
+  M_t.modunit_
+)
+"m_subst.ml" 52 1555 1583 "m_subst.ml" 52 1555 1585
+type(
+  M_t.modunit_ -> M_t.modunit -> M_t.modunit
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_subst.ml" 52 1555 1586 "m_subst.ml" 52 1555 1588
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_subst.ml" 19 392 418 "m_subst.ml" 19 392 420
+)
+"m_subst.ml" 52 1555 1567 "m_subst.ml" 52 1555 1588
+type(
+  M_t.modunit
+)
+"m_subst.ml" 52 1555 1563 "m_subst.ml" 52 1555 1589
+type(
+  Expr.Subst.sub * M_t.modunit
+)
+"m_subst.ml" 51 1479 1487 "m_subst.ml" 52 1555 1589
+type(
+  Expr.Subst.sub * M_t.modunit
+)
+"m_subst.ml" 50 1431 1439 "m_subst.ml" 52 1555 1589
+type(
+  Expr.Subst.sub * M_t.modunit
+)
+"m_subst.ml" 53 1590 1606 "m_subst.ml" 53 1590 1610
+type(
+  Expr.T.instance
+)
+ident(
+  def inst "m_subst.ml" 54 1620 1628 "m_subst.ml" 57 1723 1785
+)
+"m_subst.ml" 53 1590 1612 "m_subst.ml" 53 1590 1615
+type(
+  Expr.T.export
+)
+ident(
+  def loc "m_subst.ml" 54 1620 1628 "m_subst.ml" 57 1723 1785
+)
+"m_subst.ml" 53 1590 1596 "m_subst.ml" 53 1590 1616
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_subst.ml" 54 1620 1632 "m_subst.ml" 54 1620 1636
+type(
+  (Util.hint * Expr.T.expr) list
+)
+ident(
+  def isub "m_subst.ml" 57 1723 1731 "m_subst.ml" 57 1723 1785
+)
+"m_subst.ml" 54 1620 1639 "m_subst.ml" 54 1620 1647
+type(
+  (Util.hint * Expr.T.expr -> Util.hint * Expr.T.expr) ->
+  (Util.hint * Expr.T.expr) list -> (Util.hint * Expr.T.expr) list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"m_subst.ml" 55 1648 1666 "m_subst.ml" 55 1648 1667
+type(
+  Util.hint
+)
+ident(
+  def v "m_subst.ml" 55 1648 1675 "m_subst.ml" 55 1648 1692
+)
+"m_subst.ml" 55 1648 1669 "m_subst.ml" 55 1648 1670
+type(
+  Expr.T.expr
+)
+ident(
+  def e "m_subst.ml" 55 1648 1675 "m_subst.ml" 55 1648 1692
+)
+"m_subst.ml" 55 1648 1665 "m_subst.ml" 55 1648 1671
+type(
+  Util.hint * Expr.T.expr
+)
+"m_subst.ml" 55 1648 1676 "m_subst.ml" 55 1648 1677
+type(
+  Util.hint
+)
+ident(
+  int_ref v "m_subst.ml" 55 1648 1666 "m_subst.ml" 55 1648 1667
+)
+"m_subst.ml" 55 1648 1679 "m_subst.ml" 55 1648 1687
+type(
+  Expr.Subst.sub -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Subst.app_expr "expr.mli" 447 11184 11188 "expr.mli" 449 11225 11241
+)
+"m_subst.ml" 55 1648 1688 "m_subst.ml" 55 1648 1689
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 19 392 409 "m_subst.ml" 19 392 410
+)
+"m_subst.ml" 55 1648 1690 "m_subst.ml" 55 1648 1691
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "m_subst.ml" 55 1648 1669 "m_subst.ml" 55 1648 1670
+)
+"m_subst.ml" 55 1648 1679 "m_subst.ml" 55 1648 1691
+type(
+  Expr.T.expr
+)
+"m_subst.ml" 55 1648 1675 "m_subst.ml" 55 1648 1692
+type(
+  Util.hint * Expr.T.expr
+)
+"m_subst.ml" 55 1648 1660 "m_subst.ml" 55 1648 1693
+type(
+  Util.hint * Expr.T.expr -> Util.hint * Expr.T.expr
+)
+"m_subst.ml" 56 1694 1706 "m_subst.ml" 56 1694 1710
+type(
+  Expr.T.instance
+)
+ident(
+  int_ref inst "m_subst.ml" 53 1590 1606 "m_subst.ml" 53 1590 1610
+)
+"m_subst.ml" 56 1694 1706 "m_subst.ml" 56 1694 1719
+type(
+  (Util.hint * Expr.T.expr) list
+)
+"m_subst.ml" 54 1620 1639 "m_subst.ml" 56 1694 1719
+type(
+  (Util.hint * Expr.T.expr) list
+)
+"m_subst.ml" 57 1723 1732 "m_subst.ml" 57 1723 1733
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 19 392 409 "m_subst.ml" 19 392 410
+)
+"m_subst.ml" 57 1723 1746 "m_subst.ml" 57 1723 1750
+type(
+  Expr.T.instance
+)
+ident(
+  int_ref inst "m_subst.ml" 53 1590 1606 "m_subst.ml" 53 1590 1610
+)
+"m_subst.ml" 57 1723 1767 "m_subst.ml" 57 1723 1771
+type(
+  (Util.hint * Expr.T.expr) list
+)
+ident(
+  int_ref isub "m_subst.ml" 54 1620 1632 "m_subst.ml" 54 1620 1636
+)
+"m_subst.ml" 57 1723 1745 "m_subst.ml" 57 1723 1772
+type(
+  Expr.T.instance
+)
+"m_subst.ml" 57 1723 1774 "m_subst.ml" 57 1723 1777
+type(
+  Expr.T.export
+)
+ident(
+  int_ref loc "m_subst.ml" 53 1590 1612 "m_subst.ml" 53 1590 1615
+)
+"m_subst.ml" 57 1723 1735 "m_subst.ml" 57 1723 1778
+type(
+  M_t.modunit_
+)
+"m_subst.ml" 57 1723 1779 "m_subst.ml" 57 1723 1781
+type(
+  M_t.modunit_ -> M_t.modunit -> M_t.modunit
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_subst.ml" 57 1723 1782 "m_subst.ml" 57 1723 1784
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_subst.ml" 19 392 418 "m_subst.ml" 19 392 420
+)
+"m_subst.ml" 57 1723 1735 "m_subst.ml" 57 1723 1784
+type(
+  M_t.modunit
+)
+"m_subst.ml" 57 1723 1731 "m_subst.ml" 57 1723 1785
+type(
+  Expr.Subst.sub * M_t.modunit
+)
+"m_subst.ml" 54 1620 1628 "m_subst.ml" 57 1723 1785
+type(
+  Expr.Subst.sub * M_t.modunit
+)
+"m_subst.ml" 20 451 455 "m_subst.ml" 57 1723 1785
+type(
+  Expr.Subst.sub * M_t.modunit
+)
+"m_subst.ml" 60 1788 1792 "m_subst.ml" 60 1788 1800
+type(
+  Expr.Subst.sub -> M_t.mule -> M_t.mule
+)
+ident(
+  def app_mule "m_subst.ml" 10 125 125 "m_subst.ml" 0 0 -1
+)
+"m_subst.ml" 60 1788 1802 "m_subst.ml" 60 1788 1803
+type(
+  Expr.Subst.sub
+)
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "m_subst.ml" 60 1788 1810 "m_subst.ml" 62 1869 1902
+)
+"m_subst.ml" 60 1788 1811 "m_subst.ml" 60 1788 1812
+type(
+  M_t.mule
+)
+type(
+  M_t.mule
+)
+ident(
+  def m "m_subst.ml" 61 1822 1824 "m_subst.ml" 62 1869 1902
+)
+"m_subst.ml" 61 1822 1829 "m_subst.ml" 61 1822 1830
+type(
+  Expr.Subst.sub
+)
+"m_subst.ml" 61 1822 1832 "m_subst.ml" 61 1822 1835
+type(
+  M_t.modunit list
+)
+ident(
+  def bod "m_subst.ml" 62 1869 1871 "m_subst.ml" 62 1869 1902
+)
+"m_subst.ml" 61 1822 1828 "m_subst.ml" 61 1822 1836
+type(
+  Expr.Subst.sub * M_t.modunit list
+)
+"m_subst.ml" 61 1822 1839 "m_subst.ml" 61 1822 1851
+type(
+  Expr.Subst.sub -> M_t.modunit list -> Expr.Subst.sub * M_t.modunit list
+)
+ident(
+  int_ref app_modunits "m_subst.ml" 10 125 133 "m_subst.ml" 10 125 145
+)
+"m_subst.ml" 61 1822 1852 "m_subst.ml" 61 1822 1853
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "m_subst.ml" 60 1788 1802 "m_subst.ml" 60 1788 1803
+)
+"m_subst.ml" 61 1822 1854 "m_subst.ml" 61 1822 1855
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_subst.ml" 60 1788 1811 "m_subst.ml" 60 1788 1812
+)
+"m_subst.ml" 61 1822 1854 "m_subst.ml" 61 1822 1860
+type(
+  M_t.mule_
+)
+"m_subst.ml" 61 1822 1854 "m_subst.ml" 61 1822 1865
+type(
+  M_t.modunit list
+)
+"m_subst.ml" 61 1822 1839 "m_subst.ml" 61 1822 1865
+type(
+  Expr.Subst.sub * M_t.modunit list
+)
+"m_subst.ml" 62 1869 1873 "m_subst.ml" 62 1869 1874
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_subst.ml" 60 1788 1811 "m_subst.ml" 60 1788 1812
+)
+"m_subst.ml" 62 1869 1873 "m_subst.ml" 62 1869 1879
+type(
+  M_t.mule_
+)
+"m_subst.ml" 62 1869 1892 "m_subst.ml" 62 1869 1895
+type(
+  M_t.modunit list
+)
+ident(
+  int_ref bod "m_subst.ml" 61 1822 1832 "m_subst.ml" 61 1822 1835
+)
+"m_subst.ml" 62 1869 1871 "m_subst.ml" 62 1869 1897
+type(
+  M_t.mule_
+)
+"m_subst.ml" 62 1869 1898 "m_subst.ml" 62 1869 1900
+type(
+  M_t.mule_ -> M_t.mule -> M_t.mule
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_subst.ml" 62 1869 1901 "m_subst.ml" 62 1869 1902
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_subst.ml" 60 1788 1811 "m_subst.ml" 60 1788 1812
+)
+"m_subst.ml" 62 1869 1871 "m_subst.ml" 62 1869 1902
+type(
+  M_t.mule
+)
+"m_subst.ml" 61 1822 1824 "m_subst.ml" 62 1869 1902
+type(
+  M_t.mule
+)

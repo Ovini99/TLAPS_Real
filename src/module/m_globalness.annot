@@ -1,0 +1,670 @@
+"m_globalness.ml" 10 127 131 "m_globalness.ml" 10 127 139
+type(
+  unit Property.pfuncs
+)
+ident(
+  def isglobal "m_globalness.ml" 13 201 201 "m_globalness.ml" 0 0 -1
+)
+"m_globalness.ml" 11 155 157 "m_globalness.ml" 11 155 170
+type(
+  ?uuid:string -> string -> unit Property.pfuncs
+)
+ident(
+  int_ref Property.make "property.mli" 53 1729 1729 "property.mli" 53 1729 1775
+)
+"m_globalness.ml" 11 155 171 "m_globalness.ml" 11 155 199
+type(
+  string
+)
+"m_globalness.ml" 11 155 157 "m_globalness.ml" 11 155 199
+type(
+  unit Property.pfuncs
+)
+"m_globalness.ml" 13 201 205 "m_globalness.ml" 13 201 214
+type(
+  'a Property.wrapped -> bool
+)
+ident(
+  def is_global "m_globalness.ml" 15 244 244 "m_globalness.ml" 0 0 -1
+)
+"m_globalness.ml" 13 201 215 "m_globalness.ml" 13 201 216
+type(
+  'a Property.wrapped
+)
+ident(
+  def x "m_globalness.ml" 13 201 219 "m_globalness.ml" 13 201 242
+)
+"m_globalness.ml" 13 201 219 "m_globalness.ml" 13 201 231
+type(
+  'a Property.wrapped -> unit Property.pfuncs -> bool
+)
+ident(
+  int_ref Property.has "property.mli" 67 2198 2198 "property.mli" 67 2198 2242
+)
+"m_globalness.ml" 13 201 232 "m_globalness.ml" 13 201 233
+type(
+  'a Property.wrapped
+)
+ident(
+  int_ref x "m_globalness.ml" 13 201 215 "m_globalness.ml" 13 201 216
+)
+"m_globalness.ml" 13 201 234 "m_globalness.ml" 13 201 242
+type(
+  unit Property.pfuncs
+)
+ident(
+  int_ref isglobal "m_globalness.ml" 10 127 131 "m_globalness.ml" 10 127 139
+)
+"m_globalness.ml" 13 201 219 "m_globalness.ml" 13 201 242
+type(
+  bool
+)
+"m_globalness.ml" 15 244 248 "m_globalness.ml" 15 244 257
+type(
+  unit Proof.Visit.map
+)
+ident(
+  def globalize "m_globalness.ml" 21 446 446 "m_globalness.ml" 0 0 -1
+)
+"m_globalness.ml" 15 244 268 "m_globalness.ml" 15 244 272
+type(
+  unit Proof.Visit.map
+)
+type(
+  unit Proof.Visit.map
+)
+"m_globalness.ml" 17 323 337 "m_globalness.ml" 17 323 340
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "m_globalness.ml" 17 323 341 "m_globalness.ml" 17 323 382
+)
+"m_globalness.ml" 17 323 341 "m_globalness.ml" 17 323 342
+type(
+  Expr.T.expr
+)
+ident(
+  def e "m_globalness.ml" 17 323 345 "m_globalness.ml" 17 323 382
+)
+"m_globalness.ml" 17 323 345 "m_globalness.ml" 17 323 350
+type(
+  unit Proof.Visit.map
+)
+ident(
+  ext_ref self-1
+)
+type(
+  unit Proof.Visit.map
+)
+ident(
+  int_ref super "m_globalness.ml" 16 281 291 "m_globalness.ml" 16 281 313
+)
+"m_globalness.ml" 17 323 345 "m_globalness.ml" 17 323 355
+type(
+  unit Proof.Visit.map -> unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"m_globalness.ml" 17 323 356 "m_globalness.ml" 17 323 359
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "m_globalness.ml" 17 323 337 "m_globalness.ml" 17 323 340
+)
+"m_globalness.ml" 17 323 361 "m_globalness.ml" 17 323 367
+type(
+  Expr.T.expr -> unit Property.pfuncs -> unit -> Expr.T.expr
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"m_globalness.ml" 17 323 368 "m_globalness.ml" 17 323 369
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "m_globalness.ml" 17 323 341 "m_globalness.ml" 17 323 342
+)
+"m_globalness.ml" 17 323 370 "m_globalness.ml" 17 323 378
+type(
+  unit Property.pfuncs
+)
+ident(
+  int_ref isglobal "m_globalness.ml" 10 127 131 "m_globalness.ml" 10 127 139
+)
+"m_globalness.ml" 17 323 379 "m_globalness.ml" 17 323 381
+type(
+  unit
+)
+"m_globalness.ml" 17 323 360 "m_globalness.ml" 17 323 382
+type(
+  Expr.T.expr
+)
+"m_globalness.ml" 17 323 345 "m_globalness.ml" 17 323 382
+type(
+  Expr.T.expr
+)
+"m_globalness.ml" 18 383 396 "m_globalness.ml" 18 383 399
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "m_globalness.ml" 18 383 400 "m_globalness.ml" 18 383 440
+)
+"m_globalness.ml" 18 383 400 "m_globalness.ml" 18 383 401
+type(
+  Expr.T.hyp
+)
+ident(
+  def h "m_globalness.ml" 18 383 404 "m_globalness.ml" 18 383 440
+)
+"m_globalness.ml" 18 383 404 "m_globalness.ml" 18 383 409
+type(
+  unit Proof.Visit.map
+)
+ident(
+  ext_ref self-1
+)
+type(
+  unit Proof.Visit.map
+)
+ident(
+  int_ref super "m_globalness.ml" 16 281 291 "m_globalness.ml" 16 281 313
+)
+"m_globalness.ml" 18 383 404 "m_globalness.ml" 18 383 413
+type(
+  unit Proof.Visit.map ->
+  unit Expr.Visit.scx -> Expr.T.hyp -> unit Expr.Visit.scx * Expr.T.hyp
+)
+ident(
+  ext_ref hyp
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.hyp -> unit Expr.Visit.scx * Expr.T.hyp
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.hyp -> unit Expr.Visit.scx * Expr.T.hyp
+)
+"m_globalness.ml" 18 383 414 "m_globalness.ml" 18 383 417
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "m_globalness.ml" 18 383 396 "m_globalness.ml" 18 383 399
+)
+"m_globalness.ml" 18 383 419 "m_globalness.ml" 18 383 425
+type(
+  Expr.T.hyp -> unit Property.pfuncs -> unit -> Expr.T.hyp
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"m_globalness.ml" 18 383 426 "m_globalness.ml" 18 383 427
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "m_globalness.ml" 18 383 400 "m_globalness.ml" 18 383 401
+)
+"m_globalness.ml" 18 383 428 "m_globalness.ml" 18 383 436
+type(
+  unit Property.pfuncs
+)
+ident(
+  int_ref isglobal "m_globalness.ml" 10 127 131 "m_globalness.ml" 10 127 139
+)
+"m_globalness.ml" 18 383 437 "m_globalness.ml" 18 383 439
+type(
+  unit
+)
+"m_globalness.ml" 18 383 418 "m_globalness.ml" 18 383 440
+type(
+  Expr.T.hyp
+)
+"m_globalness.ml" 18 383 404 "m_globalness.ml" 18 383 440
+type(
+  unit Expr.Visit.scx * Expr.T.hyp
+)
+"m_globalness.ml" 15 244 260 "m_globalness.ml" 19 441 444
+type(
+  unit Proof.Visit.map
+)
+"m_globalness.ml" 21 446 450 "m_globalness.ml" 21 446 460
+type(
+  M_t.mule_ Property.wrapped -> M_t.mule_ Property.wrapped
+)
+ident(
+  def globalness "m_globalness.ml" 30 808 872 "m_globalness.ml" 0 0 -1
+)
+"m_globalness.ml" 21 446 461 "m_globalness.ml" 21 446 463
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  def md "m_globalness.ml" 22 466 468 "m_globalness.ml" 30 808 872
+)
+"m_globalness.ml" 22 466 472 "m_globalness.ml" 22 466 479
+type(
+  M_t.modunit_ Property.wrapped -> M_t.modunit_ Property.wrapped
+)
+ident(
+  def iterfun "m_globalness.ml" 30 808 813 "m_globalness.ml" 30 808 872
+)
+"m_globalness.ml" 23 491 512 "m_globalness.ml" 23 491 514
+type(
+  Util.hint option
+)
+ident(
+  def nm "m_globalness.ml" 23 491 529 "m_globalness.ml" 24 564 608
+)
+"m_globalness.ml" 23 491 516 "m_globalness.ml" 23 491 517
+type(
+  Expr.T.expr
+)
+ident(
+  def e "m_globalness.ml" 23 491 529 "m_globalness.ml" 24 564 608
+)
+"m_globalness.ml" 23 491 505 "m_globalness.ml" 23 491 518
+type(
+  M_t.modunit_
+)
+"m_globalness.ml" 23 491 497 "m_globalness.ml" 23 491 519
+type(
+  M_t.modunit_ Property.wrapped
+)
+"m_globalness.ml" 23 491 497 "m_globalness.ml" 23 491 525
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  def mu "m_globalness.ml" 23 491 529 "m_globalness.ml" 24 564 608
+)
+"m_globalness.ml" 23 491 529 "m_globalness.ml" 23 491 535
+type(
+  M_t.modunit_ Property.wrapped ->
+  unit Property.pfuncs -> unit -> M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"m_globalness.ml" 23 491 545 "m_globalness.ml" 23 491 547
+type(
+  Util.hint option
+)
+ident(
+  int_ref nm "m_globalness.ml" 23 491 512 "m_globalness.ml" 23 491 514
+)
+"m_globalness.ml" 23 491 549 "m_globalness.ml" 23 491 558
+type(
+  unit Proof.Visit.map
+)
+ident(
+  int_ref globalize "m_globalness.ml" 15 244 248 "m_globalness.ml" 15 244 257
+)
+"m_globalness.ml" 23 491 549 "m_globalness.ml" 23 491 563
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"m_globalness.ml" 24 564 569 "m_globalness.ml" 24 564 571
+type(
+  unit
+)
+"m_globalness.ml" 24 564 573 "m_globalness.ml" 24 564 584
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"m_globalness.ml" 24 564 568 "m_globalness.ml" 24 564 585
+type(
+  unit Expr.Visit.scx
+)
+"m_globalness.ml" 24 564 586 "m_globalness.ml" 24 564 587
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "m_globalness.ml" 23 491 516 "m_globalness.ml" 23 491 517
+)
+"m_globalness.ml" 23 491 549 "m_globalness.ml" 24 564 587
+type(
+  Expr.T.expr
+)
+"m_globalness.ml" 23 491 537 "m_globalness.ml" 24 564 589
+type(
+  M_t.modunit_
+)
+"m_globalness.ml" 24 564 590 "m_globalness.ml" 24 564 592
+type(
+  M_t.modunit_ ->
+  M_t.modunit_ Property.wrapped -> M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_globalness.ml" 24 564 593 "m_globalness.ml" 24 564 595
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref mu "m_globalness.ml" 23 491 497 "m_globalness.ml" 23 491 525
+)
+"m_globalness.ml" 23 491 536 "m_globalness.ml" 24 564 596
+type(
+  M_t.modunit_ Property.wrapped
+)
+"m_globalness.ml" 24 564 597 "m_globalness.ml" 24 564 605
+type(
+  unit Property.pfuncs
+)
+ident(
+  int_ref isglobal "m_globalness.ml" 10 127 131 "m_globalness.ml" 10 127 139
+)
+"m_globalness.ml" 24 564 606 "m_globalness.ml" 24 564 608
+type(
+  unit
+)
+"m_globalness.ml" 23 491 529 "m_globalness.ml" 24 564 608
+type(
+  M_t.modunit_ Property.wrapped
+)
+"m_globalness.ml" 25 609 632 "m_globalness.ml" 25 609 634
+type(
+  Util.hint option
+)
+ident(
+  def nm "m_globalness.ml" 26 662 669 "m_globalness.ml" 28 770 792
+)
+"m_globalness.ml" 25 609 636 "m_globalness.ml" 25 609 638
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "m_globalness.ml" 26 662 669 "m_globalness.ml" 28 770 792
+)
+"m_globalness.ml" 25 609 640 "m_globalness.ml" 25 609 641
+type(
+  int
+)
+ident(
+  def a "m_globalness.ml" 26 662 669 "m_globalness.ml" 28 770 792
+)
+"m_globalness.ml" 25 609 643 "m_globalness.ml" 25 609 644
+type(
+  Proof.T.proof
+)
+ident(
+  def p "m_globalness.ml" 26 662 669 "m_globalness.ml" 28 770 792
+)
+"m_globalness.ml" 25 609 646 "m_globalness.ml" 25 609 647
+type(
+  Proof.T.proof
+)
+ident(
+  def b "m_globalness.ml" 26 662 669 "m_globalness.ml" 28 770 792
+)
+"m_globalness.ml" 25 609 649 "m_globalness.ml" 25 609 650
+type(
+  M_t.summary
+)
+ident(
+  def c "m_globalness.ml" 26 662 669 "m_globalness.ml" 28 770 792
+)
+"m_globalness.ml" 25 609 623 "m_globalness.ml" 25 609 651
+type(
+  M_t.modunit_
+)
+"m_globalness.ml" 25 609 615 "m_globalness.ml" 25 609 652
+type(
+  M_t.modunit_ Property.wrapped
+)
+"m_globalness.ml" 25 609 615 "m_globalness.ml" 25 609 658
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  def mu "m_globalness.ml" 26 662 669 "m_globalness.ml" 28 770 792
+)
+"m_globalness.ml" 26 662 674 "m_globalness.ml" 26 662 675
+type(
+  unit Expr.Visit.scx
+)
+"m_globalness.ml" 26 662 677 "m_globalness.ml" 26 662 679
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "m_globalness.ml" 27 725 732 "m_globalness.ml" 28 770 792
+)
+"m_globalness.ml" 26 662 673 "m_globalness.ml" 26 662 680
+type(
+  unit Expr.Visit.scx * Expr.T.sequent
+)
+"m_globalness.ml" 26 662 683 "m_globalness.ml" 26 662 692
+type(
+  unit Proof.Visit.map
+)
+ident(
+  int_ref globalize "m_globalness.ml" 15 244 248 "m_globalness.ml" 15 244 257
+)
+"m_globalness.ml" 26 662 683 "m_globalness.ml" 26 662 700
+type(
+  unit Expr.Visit.scx ->
+  Expr.T.sequent -> unit Expr.Visit.scx * Expr.T.sequent
+)
+"m_globalness.ml" 26 662 702 "m_globalness.ml" 26 662 704
+type(
+  unit
+)
+"m_globalness.ml" 26 662 706 "m_globalness.ml" 26 662 717
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"m_globalness.ml" 26 662 701 "m_globalness.ml" 26 662 718
+type(
+  unit Expr.Visit.scx
+)
+"m_globalness.ml" 26 662 719 "m_globalness.ml" 26 662 721
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "m_globalness.ml" 25 609 636 "m_globalness.ml" 25 609 638
+)
+"m_globalness.ml" 26 662 683 "m_globalness.ml" 26 662 721
+type(
+  unit Expr.Visit.scx * Expr.T.sequent
+)
+"m_globalness.ml" 27 725 732 "m_globalness.ml" 27 725 738
+type(
+  M_t.modunit_ Property.wrapped ->
+  unit Property.pfuncs -> unit -> M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"m_globalness.ml" 27 725 749 "m_globalness.ml" 27 725 751
+type(
+  Util.hint option
+)
+ident(
+  int_ref nm "m_globalness.ml" 25 609 632 "m_globalness.ml" 25 609 634
+)
+"m_globalness.ml" 27 725 752 "m_globalness.ml" 27 725 754
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "m_globalness.ml" 26 662 677 "m_globalness.ml" 26 662 679
+)
+"m_globalness.ml" 27 725 755 "m_globalness.ml" 27 725 756
+type(
+  int
+)
+ident(
+  int_ref a "m_globalness.ml" 25 609 640 "m_globalness.ml" 25 609 641
+)
+"m_globalness.ml" 27 725 758 "m_globalness.ml" 27 725 759
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref p "m_globalness.ml" 25 609 643 "m_globalness.ml" 25 609 644
+)
+"m_globalness.ml" 27 725 761 "m_globalness.ml" 27 725 762
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref b "m_globalness.ml" 25 609 646 "m_globalness.ml" 25 609 647
+)
+"m_globalness.ml" 27 725 764 "m_globalness.ml" 27 725 765
+type(
+  M_t.summary
+)
+ident(
+  int_ref c "m_globalness.ml" 25 609 649 "m_globalness.ml" 25 609 650
+)
+"m_globalness.ml" 27 725 740 "m_globalness.ml" 27 725 766
+type(
+  M_t.modunit_
+)
+"m_globalness.ml" 27 725 767 "m_globalness.ml" 27 725 769
+type(
+  M_t.modunit_ ->
+  M_t.modunit_ Property.wrapped -> M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_globalness.ml" 28 770 777 "m_globalness.ml" 28 770 779
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref mu "m_globalness.ml" 25 609 615 "m_globalness.ml" 25 609 658
+)
+"m_globalness.ml" 27 725 739 "m_globalness.ml" 28 770 780
+type(
+  M_t.modunit_ Property.wrapped
+)
+"m_globalness.ml" 28 770 781 "m_globalness.ml" 28 770 789
+type(
+  unit Property.pfuncs
+)
+ident(
+  int_ref isglobal "m_globalness.ml" 10 127 131 "m_globalness.ml" 10 127 139
+)
+"m_globalness.ml" 28 770 790 "m_globalness.ml" 28 770 792
+type(
+  unit
+)
+"m_globalness.ml" 27 725 732 "m_globalness.ml" 28 770 792
+type(
+  M_t.modunit_ Property.wrapped
+)
+"m_globalness.ml" 26 662 669 "m_globalness.ml" 28 770 792
+type(
+  M_t.modunit_ Property.wrapped
+)
+"m_globalness.ml" 29 793 799 "m_globalness.ml" 29 793 801
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  def mu "m_globalness.ml" 29 793 805 "m_globalness.ml" 29 793 807
+)
+"m_globalness.ml" 29 793 805 "m_globalness.ml" 29 793 807
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref mu "m_globalness.ml" 29 793 799 "m_globalness.ml" 29 793 801
+)
+"m_globalness.ml" 22 466 482 "m_globalness.ml" 29 793 807
+type(
+  M_t.modunit_ Property.wrapped -> M_t.modunit_ Property.wrapped
+)
+"m_globalness.ml" 30 808 814 "m_globalness.ml" 30 808 816
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  int_ref md "m_globalness.ml" 21 446 461 "m_globalness.ml" 21 446 463
+)
+"m_globalness.ml" 30 808 814 "m_globalness.ml" 30 808 821
+type(
+  M_t.mule_
+)
+"m_globalness.ml" 30 808 835 "m_globalness.ml" 30 808 843
+type(
+  (M_t.modunit -> M_t.modunit) -> M_t.modunit list -> M_t.modunit list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"m_globalness.ml" 30 808 844 "m_globalness.ml" 30 808 851
+type(
+  M_t.modunit -> M_t.modunit
+)
+ident(
+  int_ref iterfun "m_globalness.ml" 22 466 472 "m_globalness.ml" 22 466 479
+)
+"m_globalness.ml" 30 808 852 "m_globalness.ml" 30 808 854
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  int_ref md "m_globalness.ml" 21 446 461 "m_globalness.ml" 21 446 463
+)
+"m_globalness.ml" 30 808 852 "m_globalness.ml" 30 808 859
+type(
+  M_t.mule_
+)
+"m_globalness.ml" 30 808 852 "m_globalness.ml" 30 808 864
+type(
+  M_t.modunit list
+)
+"m_globalness.ml" 30 808 834 "m_globalness.ml" 30 808 865
+type(
+  M_t.modunit list
+)
+"m_globalness.ml" 30 808 813 "m_globalness.ml" 30 808 866
+type(
+  M_t.mule_
+)
+"m_globalness.ml" 30 808 867 "m_globalness.ml" 30 808 869
+type(
+  M_t.mule_ -> M_t.mule_ Property.wrapped -> M_t.mule_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_globalness.ml" 30 808 870 "m_globalness.ml" 30 808 872
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  int_ref md "m_globalness.ml" 21 446 461 "m_globalness.ml" 21 446 463
+)
+"m_globalness.ml" 30 808 813 "m_globalness.ml" 30 808 872
+type(
+  M_t.mule_ Property.wrapped
+)
+"m_globalness.ml" 22 466 468 "m_globalness.ml" 30 808 872
+type(
+  M_t.mule_ Property.wrapped
+)

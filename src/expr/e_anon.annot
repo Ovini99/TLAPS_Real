@@ -1,0 +1,6012 @@
+"e_anon.ml" 9 149 156 "e_anon.ml" 9 149 160
+ident(
+  def Elab "e_anon.ml" 9 149 169 "e_anon.ml" 0 0 -1
+)
+"e_anon.ml" 10 170 177 "e_anon.ml" 10 170 182
+ident(
+  def Visit "e_anon.ml" 10 170 192 "e_anon.ml" 0 0 -1
+)
+"e_anon.ml" 11 193 200 "e_anon.ml" 11 193 205
+ident(
+  def Deref "e_anon.ml" 11 193 215 "e_anon.ml" 0 0 -1
+)
+"e_anon.ml" 12 216 223 "e_anon.ml" 12 216 225
+ident(
+  def Eq "e_anon.ml" 12 216 232 "e_anon.ml" 0 0 -1
+)
+"e_anon.ml" 15 235 239 "e_anon.ml" 15 235 245
+type(
+  'a -> ('a -> 'b) -> 'b
+)
+ident(
+  def |> "e_anon.ml" 19 291 291 "e_anon.ml" 0 0 -1
+)
+"e_anon.ml" 15 235 246 "e_anon.ml" 15 235 247
+type(
+  'a
+)
+ident(
+  def x "e_anon.ml" 15 235 248 "e_anon.ml" 15 235 255
+)
+"e_anon.ml" 15 235 248 "e_anon.ml" 15 235 249
+type(
+  'a -> 'b
+)
+ident(
+  def f "e_anon.ml" 15 235 252 "e_anon.ml" 15 235 255
+)
+"e_anon.ml" 15 235 252 "e_anon.ml" 15 235 253
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "e_anon.ml" 15 235 248 "e_anon.ml" 15 235 249
+)
+"e_anon.ml" 15 235 254 "e_anon.ml" 15 235 255
+type(
+  'a
+)
+ident(
+  int_ref x "e_anon.ml" 15 235 246 "e_anon.ml" 15 235 247
+)
+"e_anon.ml" 15 235 252 "e_anon.ml" 15 235 255
+type(
+  'b
+)
+"e_anon.ml" 19 291 295 "e_anon.ml" 19 291 307
+type(
+  string -> E_t.hyp_ Property.wrapped -> bool
+)
+ident(
+  def hyp_is_named "e_anon.ml" 32 600 600 "e_anon.ml" 0 0 -1
+)
+"e_anon.ml" 19 291 308 "e_anon.ml" 19 291 312
+type(
+  string
+)
+ident(
+  def what "e_anon.ml" 19 291 313 "e_anon.ml" 29 568 597
+)
+"e_anon.ml" 19 291 313 "e_anon.ml" 19 291 314
+type(
+  E_t.hyp_ Property.wrapped
+)
+ident(
+  def h "e_anon.ml" 19 291 317 "e_anon.ml" 29 568 597
+)
+"e_anon.ml" 19 291 323 "e_anon.ml" 19 291 324
+type(
+  E_t.hyp_ Property.wrapped
+)
+ident(
+  int_ref h "e_anon.ml" 19 291 313 "e_anon.ml" 19 291 314
+)
+"e_anon.ml" 19 291 323 "e_anon.ml" 19 291 329
+type(
+  E_t.hyp_
+)
+"e_anon.ml" 20 335 348 "e_anon.ml" 20 335 350
+type(
+  Util.hint
+)
+ident(
+  def nm "e_anon.ml" 28 545 553 "e_anon.ml" 28 545 567
+)
+"e_anon.ml" 20 335 352 "e_anon.ml" 20 335 353
+type(
+  E_t.shape
+)
+"e_anon.ml" 20 335 355 "e_anon.ml" 20 335 356
+type(
+  E_t.kind
+)
+"e_anon.ml" 20 335 358 "e_anon.ml" 20 335 359
+type(
+  E_t.hdom
+)
+"e_anon.ml" 20 335 341 "e_anon.ml" 20 335 360
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_anon.ml" 21 361 372 "e_anon.ml" 21 361 374
+type(
+  Util.hint
+)
+ident(
+  def nm "e_anon.ml" 28 545 553 "e_anon.ml" 28 545 567
+)
+"e_anon.ml" 21 361 367 "e_anon.ml" 21 361 374
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_anon.ml" 20 335 341 "e_anon.ml" 21 361 374
+type(
+  E_t.hyp_
+)
+"e_anon.ml" 23 395 419 "e_anon.ml" 23 395 421
+type(
+  Util.hint
+)
+ident(
+  def nm "e_anon.ml" 28 545 553 "e_anon.ml" 28 545 567
+)
+"e_anon.ml" 23 395 423 "e_anon.ml" 23 395 424
+type(
+  E_t.expr
+)
+"e_anon.ml" 23 395 409 "e_anon.ml" 23 395 425
+type(
+  E_t.defn_
+)
+"e_anon.ml" 24 426 450 "e_anon.ml" 24 426 452
+type(
+  Util.hint
+)
+ident(
+  def nm "e_anon.ml" 28 545 553 "e_anon.ml" 28 545 567
+)
+"e_anon.ml" 24 426 454 "e_anon.ml" 24 426 455
+type(
+  E_t.instance
+)
+"e_anon.ml" 24 426 440 "e_anon.ml" 24 426 456
+type(
+  E_t.defn_
+)
+"e_anon.ml" 23 395 409 "e_anon.ml" 24 426 456
+type(
+  E_t.defn_
+)
+"e_anon.ml" 25 457 479 "e_anon.ml" 25 457 481
+type(
+  Util.hint
+)
+ident(
+  def nm "e_anon.ml" 28 545 553 "e_anon.ml" 28 545 567
+)
+"e_anon.ml" 25 457 482 "e_anon.ml" 25 457 483
+type(
+  E_t.expr
+)
+"e_anon.ml" 25 457 484 "e_anon.ml" 25 457 485
+type(
+  (Util.hint * E_t.backend_args) list list
+)
+"e_anon.ml" 25 457 471 "e_anon.ml" 25 457 486
+type(
+  E_t.defn_
+)
+"e_anon.ml" 23 395 409 "e_anon.ml" 25 457 486
+type(
+  E_t.defn_
+)
+"e_anon.ml" 26 487 512 "e_anon.ml" 26 487 514
+type(
+  Util.hint
+)
+ident(
+  def nm "e_anon.ml" 28 545 553 "e_anon.ml" 28 545 567
+)
+"e_anon.ml" 26 487 516 "e_anon.ml" 26 487 517
+type(
+  E_t.shape
+)
+"e_anon.ml" 26 487 501 "e_anon.ml" 26 487 518
+type(
+  E_t.defn_
+)
+"e_anon.ml" 23 395 409 "e_anon.ml" 26 487 518
+type(
+  E_t.defn_
+)
+"e_anon.ml" 22 375 387 "e_anon.ml" 26 487 519
+type(
+  E_t.defn
+)
+"e_anon.ml" 27 521 533 "e_anon.ml" 27 521 534
+type(
+  E_t.wheredef
+)
+"e_anon.ml" 27 521 536 "e_anon.ml" 27 521 537
+type(
+  E_t.visibility
+)
+"e_anon.ml" 27 521 539 "e_anon.ml" 27 521 540
+type(
+  E_t.export
+)
+"e_anon.ml" 22 375 381 "e_anon.ml" 27 521 541
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_anon.ml" 20 335 341 "e_anon.ml" 27 521 541
+type(
+  E_t.hyp_
+)
+"e_anon.ml" 28 545 553 "e_anon.ml" 28 545 555
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "e_anon.ml" 20 335 348 "e_anon.ml" 20 335 350
+)
+"e_anon.ml" 28 545 553 "e_anon.ml" 28 545 560
+type(
+  string
+)
+"e_anon.ml" 28 545 561 "e_anon.ml" 28 545 562
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_anon.ml" 28 545 563 "e_anon.ml" 28 545 567
+type(
+  string
+)
+ident(
+  int_ref what "e_anon.ml" 19 291 308 "e_anon.ml" 19 291 312
+)
+"e_anon.ml" 28 545 553 "e_anon.ml" 28 545 567
+type(
+  bool
+)
+"e_anon.ml" 29 568 580 "e_anon.ml" 29 568 581
+type(
+  E_t.expr
+)
+"e_anon.ml" 29 568 583 "e_anon.ml" 29 568 584
+type(
+  E_t.visibility
+)
+"e_anon.ml" 29 568 586 "e_anon.ml" 29 568 587
+type(
+  E_t.time
+)
+"e_anon.ml" 29 568 574 "e_anon.ml" 29 568 588
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_anon.ml" 29 568 592 "e_anon.ml" 29 568 597
+type(
+  bool
+)
+"e_anon.ml" 19 291 317 "e_anon.ml" 29 568 597
+type(
+  bool
+)
+"e_anon.ml" 32 600 604 "e_anon.ml" 32 600 614
+type(
+  int -> 'a Property.wrapped -> E_t.expr list -> E_t.expr_ Property.wrapped
+)
+ident(
+  def anon_apply "e_anon.ml" 39 733 733 "e_anon.ml" 0 0 -1
+)
+"e_anon.ml" 32 600 615 "e_anon.ml" 32 600 620
+type(
+  int
+)
+ident(
+  def index "e_anon.ml" 32 600 621 "e_anon.ml" 36 697 730
+)
+"e_anon.ml" 32 600 621 "e_anon.ml" 32 600 623
+type(
+  'a Property.wrapped
+)
+ident(
+  def op "e_anon.ml" 32 600 624 "e_anon.ml" 36 697 730
+)
+"e_anon.ml" 32 600 624 "e_anon.ml" 32 600 628
+type(
+  E_t.expr list
+)
+ident(
+  def args "e_anon.ml" 33 631 635 "e_anon.ml" 36 697 730
+)
+"e_anon.ml" 33 631 639 "e_anon.ml" 33 631 641
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def ix "e_anon.ml" 34 662 666 "e_anon.ml" 36 697 730
+)
+"e_anon.ml" 33 631 647 "e_anon.ml" 33 631 652
+type(
+  int
+)
+ident(
+  int_ref index "e_anon.ml" 32 600 615 "e_anon.ml" 32 600 620
+)
+"e_anon.ml" 33 631 644 "e_anon.ml" 33 631 652
+type(
+  E_t.expr_
+)
+"e_anon.ml" 33 631 653 "e_anon.ml" 33 631 655
+type(
+  E_t.expr_ -> 'a Property.wrapped -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_anon.ml" 33 631 656 "e_anon.ml" 33 631 658
+type(
+  'a Property.wrapped
+)
+ident(
+  int_ref op "e_anon.ml" 32 600 621 "e_anon.ml" 32 600 623
+)
+"e_anon.ml" 33 631 644 "e_anon.ml" 33 631 658
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 34 662 672 "e_anon.ml" 34 662 676
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_anon.ml" 32 600 624 "e_anon.ml" 32 600 628
+)
+"e_anon.ml" 35 682 688 "e_anon.ml" 35 682 690
+type(
+  E_t.expr list
+)
+type(
+  E_t.expr list
+)
+"e_anon.ml" 35 682 694 "e_anon.ml" 35 682 696
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref ix "e_anon.ml" 33 631 639 "e_anon.ml" 33 631 641
+)
+"e_anon.ml" 36 697 703 "e_anon.ml" 36 697 704
+type(
+  E_t.expr list
+)
+type(
+  E_t.expr list
+)
+"e_anon.ml" 36 697 715 "e_anon.ml" 36 697 717
+type(
+  E_t.expr
+)
+ident(
+  int_ref ix "e_anon.ml" 33 631 639 "e_anon.ml" 33 631 641
+)
+"e_anon.ml" 36 697 719 "e_anon.ml" 36 697 723
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_anon.ml" 32 600 624 "e_anon.ml" 32 600 628
+)
+"e_anon.ml" 36 697 708 "e_anon.ml" 36 697 724
+type(
+  E_t.expr_
+)
+"e_anon.ml" 36 697 725 "e_anon.ml" 36 697 727
+type(
+  E_t.expr_ -> 'a Property.wrapped -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_anon.ml" 36 697 728 "e_anon.ml" 36 697 730
+type(
+  'a Property.wrapped
+)
+ident(
+  int_ref op "e_anon.ml" 32 600 621 "e_anon.ml" 32 600 623
+)
+"e_anon.ml" 36 697 708 "e_anon.ml" 36 697 730
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 34 662 666 "e_anon.ml" 36 697 730
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 33 631 635 "e_anon.ml" 36 697 730
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 39 733 737 "e_anon.ml" 39 733 750
+type(
+  cx:E_t.hyp Deque.dq ->
+  index:int ->
+  wd:E_t.wheredef -> E_t.expr -> E_t.expr list -> E_t.expr_ Property.wrapped
+)
+ident(
+  def standard_form "e_anon.ml" 56 1094 1094 "e_anon.ml" 0 0 -1
+)
+"e_anon.ml" 40 751 760 "e_anon.ml" 40 751 762
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def cx "e_anon.ml" 40 751 763 "e_anon.ml" 53 1059 1091
+)
+"e_anon.ml" 40 751 764 "e_anon.ml" 40 751 769
+type(
+  int
+)
+ident(
+  def index "e_anon.ml" 40 751 770 "e_anon.ml" 53 1059 1091
+)
+"e_anon.ml" 40 751 771 "e_anon.ml" 40 751 773
+type(
+  E_t.wheredef
+)
+ident(
+  def wd "e_anon.ml" 40 751 774 "e_anon.ml" 53 1059 1091
+)
+"e_anon.ml" 40 751 774 "e_anon.ml" 40 751 776
+type(
+  E_t.expr
+)
+ident(
+  def op "e_anon.ml" 40 751 777 "e_anon.ml" 53 1059 1091
+)
+"e_anon.ml" 40 751 777 "e_anon.ml" 40 751 781
+type(
+  E_t.expr list
+)
+ident(
+  def args "e_anon.ml" 41 784 788 "e_anon.ml" 53 1059 1091
+)
+"e_anon.ml" 41 784 794 "e_anon.ml" 41 784 796
+type(
+  E_t.wheredef
+)
+ident(
+  int_ref wd "e_anon.ml" 40 751 771 "e_anon.ml" 40 751 773
+)
+"e_anon.ml" 42 802 808 "e_anon.ml" 42 802 815
+type(
+  E_t.wheredef
+)
+type(
+  E_t.wheredef
+)
+"e_anon.ml" 43 825 837 "e_anon.ml" 43 825 839
+type(
+  E_t.expr
+)
+ident(
+  def ix "e_anon.ml" 45 883 891 "e_anon.ml" 50 1016 1035
+)
+"e_anon.ml" 43 825 842 "e_anon.ml" 43 825 850
+type(
+  E_subst.sub -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref E_subst.app_expr "e_subst.mli" 20 405 405 "e_subst.mli" 20 405 439
+)
+"e_anon.ml" 44 851 864 "e_anon.ml" 44 851 869
+type(
+  int -> E_subst.sub
+)
+ident(
+  int_ref E_subst.shift "e_subst.mli" 11 132 132 "e_subst.mli" 11 132 154
+)
+"e_anon.ml" 44 851 870 "e_anon.ml" 44 851 875
+type(
+  int
+)
+ident(
+  int_ref index "e_anon.ml" 40 751 764 "e_anon.ml" 40 751 769
+)
+"e_anon.ml" 44 851 863 "e_anon.ml" 44 851 876
+type(
+  E_subst.sub
+)
+"e_anon.ml" 44 851 877 "e_anon.ml" 44 851 879
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_anon.ml" 40 751 774 "e_anon.ml" 40 751 776
+)
+"e_anon.ml" 43 825 842 "e_anon.ml" 44 851 879
+type(
+  E_t.expr
+)
+"e_anon.ml" 45 883 897 "e_anon.ml" 45 883 901
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_anon.ml" 40 751 777 "e_anon.ml" 40 751 781
+)
+"e_anon.ml" 46 907 917 "e_anon.ml" 46 907 919
+type(
+  E_t.expr list
+)
+type(
+  E_t.expr list
+)
+"e_anon.ml" 46 907 923 "e_anon.ml" 46 907 925
+type(
+  E_t.expr
+)
+ident(
+  int_ref ix "e_anon.ml" 43 825 837 "e_anon.ml" 43 825 839
+)
+"e_anon.ml" 46 907 923 "e_anon.ml" 46 907 930
+type(
+  E_t.expr_
+)
+"e_anon.ml" 46 907 931 "e_anon.ml" 46 907 933
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_anon.ml" 46 907 934 "e_anon.ml" 46 907 936
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_anon.ml" 40 751 774 "e_anon.ml" 40 751 776
+)
+"e_anon.ml" 46 907 923 "e_anon.ml" 46 907 936
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 47 937 947 "e_anon.ml" 47 937 948
+type(
+  E_t.expr list
+)
+type(
+  E_t.expr list
+)
+"e_anon.ml" 48 952 968 "e_anon.ml" 48 952 969
+type(
+  E_t.expr_
+)
+ident(
+  def e "e_anon.ml" 50 1016 1028 "e_anon.ml" 50 1016 1035
+)
+"e_anon.ml" 48 952 972 "e_anon.ml" 48 952 981
+type(
+  ?cx:E_t.hyp Deque.dq -> E_t.expr -> E_t.expr list -> E_t.expr_
+)
+ident(
+  int_ref E_subst.normalize "e_subst.mli" 19 342 342 "e_subst.mli" 19 342 404
+)
+"e_anon.ml" 49 982 1002 "e_anon.ml" 49 982 1004
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_anon.ml" 40 751 760 "e_anon.ml" 40 751 762
+)
+type(
+  E_t.hyp Deque.dq option
+)
+"e_anon.ml" 49 982 1005 "e_anon.ml" 49 982 1007
+type(
+  E_t.expr
+)
+ident(
+  int_ref ix "e_anon.ml" 43 825 837 "e_anon.ml" 43 825 839
+)
+"e_anon.ml" 49 982 1008 "e_anon.ml" 49 982 1012
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_anon.ml" 40 751 777 "e_anon.ml" 40 751 781
+)
+"e_anon.ml" 48 952 972 "e_anon.ml" 49 982 1012
+type(
+  E_t.expr_
+)
+"e_anon.ml" 50 1016 1028 "e_anon.ml" 50 1016 1029
+type(
+  E_t.expr_
+)
+ident(
+  int_ref e "e_anon.ml" 48 952 968 "e_anon.ml" 48 952 969
+)
+"e_anon.ml" 50 1016 1030 "e_anon.ml" 50 1016 1032
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_anon.ml" 50 1016 1033 "e_anon.ml" 50 1016 1035
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_anon.ml" 40 751 774 "e_anon.ml" 40 751 776
+)
+"e_anon.ml" 50 1016 1028 "e_anon.ml" 50 1016 1035
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 48 952 964 "e_anon.ml" 50 1016 1035
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 45 883 891 "e_anon.ml" 50 1016 1035
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 42 802 819 "e_anon.ml" 51 1036 1047
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 52 1048 1054 "e_anon.ml" 52 1048 1055
+type(
+  E_t.wheredef
+)
+type(
+  E_t.wheredef
+)
+"e_anon.ml" 53 1059 1067 "e_anon.ml" 53 1059 1077
+type(
+  int -> E_t.expr -> E_t.expr list -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref anon_apply "e_anon.ml" 32 600 604 "e_anon.ml" 32 600 614
+)
+"e_anon.ml" 53 1059 1078 "e_anon.ml" 53 1059 1083
+type(
+  int
+)
+ident(
+  int_ref index "e_anon.ml" 40 751 764 "e_anon.ml" 40 751 769
+)
+"e_anon.ml" 53 1059 1084 "e_anon.ml" 53 1059 1086
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_anon.ml" 40 751 774 "e_anon.ml" 40 751 776
+)
+"e_anon.ml" 53 1059 1087 "e_anon.ml" 53 1059 1091
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_anon.ml" 40 751 777 "e_anon.ml" 40 751 781
+)
+"e_anon.ml" 53 1059 1067 "e_anon.ml" 53 1059 1091
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 41 784 788 "e_anon.ml" 53 1059 1091
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 56 1094 1118 "e_anon.ml" 56 1094 1122
+type(
+  < adj : string list Visit.scx -> E_t.hyp -> string list Visit.scx;
+    adjs : string list Visit.scx -> E_t.hyp list -> string list Visit.scx;
+    bound : string list Visit.scx ->
+            E_t.bound -> string list Visit.scx * E_t.bound;
+    bounds : string list Visit.scx ->
+             E_t.bound list -> string list Visit.scx * E_t.bound list;
+    defn : string list Visit.scx -> E_t.defn -> E_t.defn;
+    defns : string list Visit.scx ->
+            E_t.defn list -> string list Visit.scx * E_t.defn list;
+    expr : string list Visit.scx -> E_t.expr -> E_t.expr;
+    exspec : string list Visit.scx -> E_t.exspec -> E_t.exspec;
+    hyp : string list Visit.scx -> E_t.hyp -> string list Visit.scx * E_t.hyp;
+    hyps : string list Visit.scx ->
+           E_t.hyp Deque.dq -> string list Visit.scx * E_t.hyp Deque.dq;
+    instance : string list Visit.scx -> E_t.instance -> E_t.instance;
+    pform : string list Visit.scx -> E_t.pform -> E_t.pform;
+    sel : string list Visit.scx -> E_t.sel -> E_t.sel;
+    sequent : string list Visit.scx ->
+              E_t.sequent -> string list Visit.scx * E_t.sequent;
+    .. >
+)
+type(
+  < adj : string list Visit.scx -> E_t.hyp -> string list Visit.scx;
+    adjs : string list Visit.scx -> E_t.hyp list -> string list Visit.scx;
+    bound : string list Visit.scx ->
+            E_t.bound -> string list Visit.scx * E_t.bound;
+    bounds : string list Visit.scx ->
+             E_t.bound list -> string list Visit.scx * E_t.bound list;
+    defn : string list Visit.scx -> E_t.defn -> E_t.defn;
+    defns : string list Visit.scx ->
+            E_t.defn list -> string list Visit.scx * E_t.defn list;
+    expr : string list Visit.scx -> E_t.expr -> E_t.expr;
+    exspec : string list Visit.scx -> E_t.exspec -> E_t.exspec;
+    hyp : string list Visit.scx -> E_t.hyp -> string list Visit.scx * E_t.hyp;
+    hyps : string list Visit.scx ->
+           E_t.hyp Deque.dq -> string list Visit.scx * E_t.hyp Deque.dq;
+    instance : string list Visit.scx -> E_t.instance -> E_t.instance;
+    pform : string list Visit.scx -> E_t.pform -> E_t.pform;
+    sel : string list Visit.scx -> E_t.sel -> E_t.sel;
+    sequent : string list Visit.scx ->
+              E_t.sequent -> string list Visit.scx * E_t.sequent;
+    .. >
+  as 'a
+)
+"e_anon.ml" 60 1183 1197 "e_anon.ml" 60 1183 1200
+type(
+  string list Visit.scx
+)
+ident(
+  def scx "e_anon.ml" 60 1183 1201 "e_anon.ml" 238 8947 8974
+)
+"e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+type(
+  E_t.expr
+)
+ident(
+  def e "e_anon.ml" 61 1205 1209 "e_anon.ml" 238 8947 8974
+)
+"e_anon.ml" 61 1205 1215 "e_anon.ml" 61 1205 1216
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 61 1205 1215 "e_anon.ml" 61 1205 1221
+type(
+  E_t.expr_
+)
+"e_anon.ml" 64 1266 1297 "e_anon.ml" 64 1266 1299
+type(
+  string
+)
+ident(
+  def op "e_anon.ml" 66 1326 1347 "e_anon.ml" 170 5711 5720
+)
+"e_anon.ml" 64 1266 1290 "e_anon.ml" 64 1266 1299
+type(
+  E_t.expr_
+)
+"e_anon.ml" 64 1266 1282 "e_anon.ml" 64 1266 1300
+type(
+  E_t.expr
+)
+"e_anon.ml" 65 1302 1318 "e_anon.ml" 65 1302 1322
+type(
+  E_t.expr list
+)
+ident(
+  def args "e_anon.ml" 66 1326 1347 "e_anon.ml" 170 5711 5720
+)
+"e_anon.ml" 63 1240 1258 "e_anon.ml" 65 1302 1323
+type(
+  E_t.expr_
+)
+"e_anon.ml" 63 1240 1252 "e_anon.ml" 65 1302 1324
+type(
+  E_t.expr
+)
+"e_anon.ml" 66 1326 1338 "e_anon.ml" 66 1326 1342
+type(
+  E_t.sel list
+)
+ident(
+  def sels "e_anon.ml" 66 1326 1347 "e_anon.ml" 170 5711 5720
+)
+"e_anon.ml" 62 1227 1233 "e_anon.ml" 66 1326 1343
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_anon.ml" 67 1353 1365 "e_anon.ml" 67 1353 1369
+type(
+  E_t.sel list
+)
+ident(
+  def sels "e_anon.ml" 69 1416 1424 "e_anon.ml" 169 5675 5710
+)
+"e_anon.ml" 67 1353 1372 "e_anon.ml" 67 1353 1380
+type(
+  (E_t.sel -> E_t.sel) -> E_t.sel list -> E_t.sel list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"e_anon.ml" 68 1381 1394 "e_anon.ml" 68 1381 1398
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"e_anon.ml" 68 1381 1394 "e_anon.ml" 68 1381 1402
+type(
+  string list Visit.scx -> E_t.sel -> E_t.sel
+)
+"e_anon.ml" 68 1381 1403 "e_anon.ml" 68 1381 1406
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 60 1183 1197 "e_anon.ml" 60 1183 1200
+)
+"e_anon.ml" 68 1381 1393 "e_anon.ml" 68 1381 1407
+type(
+  E_t.sel -> E_t.sel
+)
+"e_anon.ml" 68 1381 1408 "e_anon.ml" 68 1381 1412
+type(
+  E_t.sel list
+)
+ident(
+  int_ref sels "e_anon.ml" 66 1326 1338 "e_anon.ml" 66 1326 1342
+)
+"e_anon.ml" 67 1353 1372 "e_anon.ml" 68 1381 1412
+type(
+  E_t.sel list
+)
+"e_anon.ml" 69 1416 1428 "e_anon.ml" 69 1416 1432
+type(
+  E_t.expr list
+)
+ident(
+  def args "e_anon.ml" 71 1480 1488 "e_anon.ml" 169 5675 5710
+)
+"e_anon.ml" 69 1416 1435 "e_anon.ml" 69 1416 1443
+type(
+  (E_t.expr -> E_t.expr) -> E_t.expr list -> E_t.expr list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"e_anon.ml" 70 1444 1457 "e_anon.ml" 70 1444 1461
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"e_anon.ml" 70 1444 1457 "e_anon.ml" 70 1444 1466
+type(
+  string list Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_anon.ml" 70 1444 1467 "e_anon.ml" 70 1444 1470
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 60 1183 1197 "e_anon.ml" 60 1183 1200
+)
+"e_anon.ml" 70 1444 1456 "e_anon.ml" 70 1444 1471
+type(
+  E_t.expr -> E_t.expr
+)
+"e_anon.ml" 70 1444 1472 "e_anon.ml" 70 1444 1476
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_anon.ml" 65 1302 1318 "e_anon.ml" 65 1302 1322
+)
+"e_anon.ml" 69 1416 1435 "e_anon.ml" 70 1444 1476
+type(
+  E_t.expr list
+)
+"e_anon.ml" 71 1480 1492 "e_anon.ml" 71 1480 1495
+type(
+  'b list * E_t.hyp Deque.dq
+)
+ident(
+  def scx "e_anon.ml" 74 1604 1612 "e_anon.ml" 169 5675 5710
+)
+"e_anon.ml" 71 1480 1499 "e_anon.ml" 71 1480 1501
+type(
+  'b list
+)
+"e_anon.ml" 71 1480 1503 "e_anon.ml" 71 1480 1506
+type(
+  string list Visit.scx -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"e_anon.ml" 71 1480 1507 "e_anon.ml" 71 1480 1510
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 60 1183 1197 "e_anon.ml" 60 1183 1200
+)
+"e_anon.ml" 71 1480 1503 "e_anon.ml" 71 1480 1510
+type(
+  E_t.hyp Deque.dq
+)
+"e_anon.ml" 71 1480 1498 "e_anon.ml" 71 1480 1511
+type(
+  'b list * E_t.hyp Deque.dq
+)
+"e_anon.ml" 74 1604 1620 "e_anon.ml" 74 1604 1625
+type(
+  string * E_t.expr list ->
+  E_t.sel list -> bool -> E_t.expr_ Property.wrapped
+)
+ident(
+  def check "e_anon.ml" 74 1604 1612 "e_anon.ml" 169 5675 5710
+)
+"e_anon.ml" 75 1626 1643 "e_anon.ml" 75 1626 1646
+type(
+  string
+)
+ident(
+  def pfx "e_anon.ml" 76 1655 1671 "e_anon.ml" 168 5660 5671
+)
+"e_anon.ml" 75 1626 1648 "e_anon.ml" 75 1626 1653
+type(
+  E_t.expr list
+)
+ident(
+  def pargs "e_anon.ml" 76 1655 1671 "e_anon.ml" 168 5660 5671
+)
+"e_anon.ml" 75 1626 1642 "e_anon.ml" 75 1626 1654
+type(
+  string * E_t.expr list
+)
+"e_anon.ml" 76 1655 1671 "e_anon.ml" 76 1655 1675
+type(
+  E_t.sel list
+)
+ident(
+  def sels "e_anon.ml" 77 1676 1692 "e_anon.ml" 168 5660 5671
+)
+"e_anon.ml" 77 1676 1692 "e_anon.ml" 77 1676 1699
+type(
+  bool
+)
+ident(
+  def is_inst "e_anon.ml" 78 1702 1714 "e_anon.ml" 168 5660 5671
+)
+"e_anon.ml" 79 1720 1736 "e_anon.ml" 79 1720 1739
+type(
+  (int * E_t.hyp) option
+)
+ident(
+  def hyp "e_anon.ml" 83 1849 1861 "e_anon.ml" 167 5619 5659
+)
+"e_anon.ml" 79 1720 1742 "e_anon.ml" 79 1720 1752
+type(
+  ?backwards:bool ->
+  E_t.hyp Deque.dq -> (E_t.hyp -> bool) -> (int * E_t.hyp) option
+)
+ident(
+  int_ref Deque.find "deque.mli" 23 579 579 "deque.mli" 23 579 652
+)
+"e_anon.ml" 80 1753 1780 "e_anon.ml" 80 1753 1784
+type(
+  bool
+)
+type(
+  bool option
+)
+"e_anon.ml" 81 1785 1802 "e_anon.ml" 81 1785 1805
+type(
+  '_weak1 list * E_t.hyp Deque.dq -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"e_anon.ml" 81 1785 1806 "e_anon.ml" 81 1785 1809
+type(
+  '_weak1 list * E_t.hyp Deque.dq
+)
+ident(
+  int_ref scx "e_anon.ml" 71 1480 1492 "e_anon.ml" 71 1480 1495
+)
+"e_anon.ml" 81 1785 1801 "e_anon.ml" 81 1785 1810
+type(
+  E_t.hyp Deque.dq
+)
+"e_anon.ml" 82 1811 1828 "e_anon.ml" 82 1811 1840
+type(
+  string -> E_t.hyp -> bool
+)
+ident(
+  int_ref hyp_is_named "e_anon.ml" 19 291 295 "e_anon.ml" 19 291 307
+)
+"e_anon.ml" 82 1811 1841 "e_anon.ml" 82 1811 1844
+type(
+  string
+)
+ident(
+  int_ref pfx "e_anon.ml" 75 1626 1643 "e_anon.ml" 75 1626 1646
+)
+"e_anon.ml" 82 1811 1827 "e_anon.ml" 82 1811 1845
+type(
+  E_t.hyp -> bool
+)
+"e_anon.ml" 79 1720 1742 "e_anon.ml" 82 1811 1845
+type(
+  (int * E_t.hyp) option
+)
+"e_anon.ml" 83 1849 1867 "e_anon.ml" 83 1849 1870
+type(
+  (int * E_t.hyp) option
+)
+ident(
+  int_ref hyp "e_anon.ml" 79 1720 1736 "e_anon.ml" 79 1720 1739
+)
+"e_anon.ml" 84 1876 1890 "e_anon.ml" 84 1876 1894
+type(
+  (int * E_t.hyp) option
+)
+type(
+  (int * E_t.hyp) option
+)
+"e_anon.ml" 85 1904 1926 "e_anon.ml" 85 1904 1930
+type(
+  E_t.sel list
+)
+ident(
+  int_ref sels "e_anon.ml" 76 1655 1671 "e_anon.ml" 76 1655 1675
+)
+"e_anon.ml" 86 1936 1963 "e_anon.ml" 86 1936 1966
+type(
+  string
+)
+ident(
+  def sfx "e_anon.ml" 87 1986 2006 "e_anon.ml" 92 2184 2217
+)
+"e_anon.ml" 86 1936 1968 "e_anon.ml" 86 1936 1973
+type(
+  E_t.expr list
+)
+ident(
+  def sargs "e_anon.ml" 87 1986 2006 "e_anon.ml" 92 2184 2217
+)
+"e_anon.ml" 86 1936 1954 "e_anon.ml" 86 1936 1974
+type(
+  E_t.sel
+)
+"e_anon.ml" 86 1936 1978 "e_anon.ml" 86 1936 1982
+type(
+  E_t.sel list
+)
+ident(
+  def sels "e_anon.ml" 87 1986 2006 "e_anon.ml" 92 2184 2217
+)
+"e_anon.ml" 86 1936 1954 "e_anon.ml" 86 1936 1982
+type(
+  E_t.sel list
+)
+type(
+  E_t.sel list
+)
+"e_anon.ml" 87 1986 2010 "e_anon.ml" 87 1986 2015
+type(
+  E_t.expr list
+)
+ident(
+  def sargs "e_anon.ml" 89 2076 2096 "e_anon.ml" 92 2184 2217
+)
+"e_anon.ml" 87 1986 2018 "e_anon.ml" 87 1986 2026
+type(
+  (E_t.expr -> E_t.expr) -> E_t.expr list -> E_t.expr list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"e_anon.ml" 88 2027 2052 "e_anon.ml" 88 2027 2056
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"e_anon.ml" 88 2027 2052 "e_anon.ml" 88 2027 2061
+type(
+  string list Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_anon.ml" 88 2027 2062 "e_anon.ml" 88 2027 2065
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 71 1480 1492 "e_anon.ml" 71 1480 1495
+)
+"e_anon.ml" 88 2027 2051 "e_anon.ml" 88 2027 2066
+type(
+  E_t.expr -> E_t.expr
+)
+"e_anon.ml" 88 2027 2067 "e_anon.ml" 88 2027 2072
+type(
+  E_t.expr list
+)
+ident(
+  int_ref sargs "e_anon.ml" 86 1936 1968 "e_anon.ml" 86 1936 1973
+)
+"e_anon.ml" 87 1986 2018 "e_anon.ml" 88 2027 2072
+type(
+  E_t.expr list
+)
+"e_anon.ml" 89 2076 2096 "e_anon.ml" 89 2076 2101
+type(
+  string * E_t.expr list ->
+  E_t.sel list -> bool -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref check "e_anon.ml" 74 1604 1620 "e_anon.ml" 74 1604 1625
+)
+"e_anon.ml" 90 2102 2127 "e_anon.ml" 90 2102 2130
+type(
+  string
+)
+ident(
+  int_ref pfx "e_anon.ml" 75 1626 1643 "e_anon.ml" 75 1626 1646
+)
+"e_anon.ml" 90 2102 2131 "e_anon.ml" 90 2102 2132
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"e_anon.ml" 90 2102 2133 "e_anon.ml" 90 2102 2136
+type(
+  string
+)
+"e_anon.ml" 90 2102 2137 "e_anon.ml" 90 2102 2138
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"e_anon.ml" 90 2102 2139 "e_anon.ml" 90 2102 2142
+type(
+  string
+)
+ident(
+  int_ref sfx "e_anon.ml" 86 1936 1963 "e_anon.ml" 86 1936 1966
+)
+"e_anon.ml" 90 2102 2133 "e_anon.ml" 90 2102 2142
+type(
+  string
+)
+"e_anon.ml" 90 2102 2127 "e_anon.ml" 90 2102 2142
+type(
+  string
+)
+"e_anon.ml" 91 2144 2169 "e_anon.ml" 91 2144 2174
+type(
+  E_t.expr list
+)
+ident(
+  int_ref pargs "e_anon.ml" 75 1626 1648 "e_anon.ml" 75 1626 1653
+)
+"e_anon.ml" 91 2144 2175 "e_anon.ml" 91 2144 2176
+type(
+  E_t.expr list -> E_t.expr list -> E_t.expr list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"e_anon.ml" 91 2144 2177 "e_anon.ml" 91 2144 2182
+type(
+  E_t.expr list
+)
+ident(
+  int_ref sargs "e_anon.ml" 87 1986 2010 "e_anon.ml" 87 1986 2015
+)
+"e_anon.ml" 91 2144 2169 "e_anon.ml" 91 2144 2182
+type(
+  E_t.expr list
+)
+"e_anon.ml" 90 2102 2126 "e_anon.ml" 91 2144 2183
+type(
+  string * E_t.expr list
+)
+"e_anon.ml" 92 2184 2208 "e_anon.ml" 92 2184 2212
+type(
+  E_t.sel list
+)
+ident(
+  int_ref sels "e_anon.ml" 86 1936 1978 "e_anon.ml" 86 1936 1982
+)
+"e_anon.ml" 92 2184 2213 "e_anon.ml" 92 2184 2217
+type(
+  bool
+)
+"e_anon.ml" 89 2076 2096 "e_anon.ml" 92 2184 2217
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 87 1986 2006 "e_anon.ml" 92 2184 2217
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 94 2250 2277 "e_anon.ml" 94 2250 2278
+type(
+  int
+)
+ident(
+  def n "e_anon.ml" 95 2291 2311 "e_anon.ml" 100 2522 2568
+)
+"e_anon.ml" 94 2250 2268 "e_anon.ml" 94 2250 2279
+type(
+  E_t.sel
+)
+"e_anon.ml" 94 2250 2283 "e_anon.ml" 94 2250 2287
+type(
+  E_t.sel list
+)
+ident(
+  def sels "e_anon.ml" 95 2291 2311 "e_anon.ml" 100 2522 2568
+)
+"e_anon.ml" 94 2250 2268 "e_anon.ml" 94 2250 2287
+type(
+  E_t.sel list
+)
+type(
+  E_t.sel list
+)
+"e_anon.ml" 95 2291 2311 "e_anon.ml" 95 2291 2323
+type(
+  ?debug:string ->
+  ?at:E_t.expr ->
+  ?prefix:string ->
+  ?nonl:unit ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Util.eprintf "util.mli" 46 1132 1132 "util.mli" 48 1217 1267
+)
+"e_anon.ml" 95 2291 2328 "e_anon.ml" 95 2291 2329
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+type(
+  E_t.expr option
+)
+"e_anon.ml" 96 2330 2354 "e_anon.ml" 96 2330 2381
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"e_anon.ml" 96 2330 2382 "e_anon.ml" 96 2330 2385
+type(
+  string
+)
+ident(
+  int_ref pfx "e_anon.ml" 75 1626 1643 "e_anon.ml" 75 1626 1646
+)
+"e_anon.ml" 95 2291 2311 "e_anon.ml" 96 2330 2385
+type(
+  unit
+)
+"e_anon.ml" 97 2387 2407 "e_anon.ml" 97 2387 2417
+type(
+  E_t.expr -> string -> unit
+)
+ident(
+  int_ref Errors.set "errors.mli" 53 1273 1273 "errors.mli" 53 1273 1319
+)
+"e_anon.ml" 98 2418 2442 "e_anon.ml" 98 2418 2443
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 98 2418 2445 "e_anon.ml" 98 2418 2459
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"e_anon.ml" 99 2460 2488 "e_anon.ml" 99 2460 2515
+type(
+  (string -> string, unit, string) format
+)
+"e_anon.ml" 99 2460 2516 "e_anon.ml" 99 2460 2519
+type(
+  string
+)
+ident(
+  int_ref pfx "e_anon.ml" 75 1626 1643 "e_anon.ml" 75 1626 1646
+)
+"e_anon.ml" 98 2418 2444 "e_anon.ml" 99 2460 2520
+type(
+  string
+)
+"e_anon.ml" 97 2387 2407 "e_anon.ml" 99 2460 2520
+type(
+  unit
+)
+"e_anon.ml" 100 2522 2542 "e_anon.ml" 100 2522 2550
+type(
+  string -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"e_anon.ml" 100 2522 2551 "e_anon.ml" 100 2522 2568
+type(
+  string
+)
+"e_anon.ml" 100 2522 2542 "e_anon.ml" 100 2522 2568
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 97 2387 2407 "e_anon.ml" 100 2522 2568
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 95 2291 2311 "e_anon.ml" 100 2522 2568
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 101 2569 2587 "e_anon.ml" 101 2569 2597
+type(
+  E_t.sel
+)
+"e_anon.ml" 101 2569 2601 "e_anon.ml" 101 2569 2605
+type(
+  E_t.sel list
+)
+ident(
+  def sels "e_anon.ml" 102 2609 2629 "e_anon.ml" 107 2840 2887
+)
+"e_anon.ml" 101 2569 2587 "e_anon.ml" 101 2569 2605
+type(
+  E_t.sel list
+)
+type(
+  E_t.sel list
+)
+"e_anon.ml" 102 2609 2629 "e_anon.ml" 102 2609 2641
+type(
+  ?debug:string ->
+  ?at:E_t.expr ->
+  ?prefix:string ->
+  ?nonl:unit ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Util.eprintf "util.mli" 46 1132 1132 "util.mli" 48 1217 1267
+)
+"e_anon.ml" 102 2609 2646 "e_anon.ml" 102 2609 2647
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+type(
+  E_t.expr option
+)
+"e_anon.ml" 103 2648 2672 "e_anon.ml" 103 2648 2699
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"e_anon.ml" 103 2648 2700 "e_anon.ml" 103 2648 2703
+type(
+  string
+)
+ident(
+  int_ref pfx "e_anon.ml" 75 1626 1643 "e_anon.ml" 75 1626 1646
+)
+"e_anon.ml" 102 2609 2629 "e_anon.ml" 103 2648 2703
+type(
+  unit
+)
+"e_anon.ml" 104 2705 2725 "e_anon.ml" 104 2705 2735
+type(
+  E_t.expr -> string -> unit
+)
+ident(
+  int_ref Errors.set "errors.mli" 53 1273 1273 "errors.mli" 53 1273 1319
+)
+"e_anon.ml" 105 2736 2760 "e_anon.ml" 105 2736 2761
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 105 2736 2763 "e_anon.ml" 105 2736 2777
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"e_anon.ml" 106 2778 2806 "e_anon.ml" 106 2778 2833
+type(
+  (string -> string, unit, string) format
+)
+"e_anon.ml" 106 2778 2834 "e_anon.ml" 106 2778 2837
+type(
+  string
+)
+ident(
+  int_ref pfx "e_anon.ml" 75 1626 1643 "e_anon.ml" 75 1626 1646
+)
+"e_anon.ml" 105 2736 2762 "e_anon.ml" 106 2778 2838
+type(
+  string
+)
+"e_anon.ml" 104 2705 2725 "e_anon.ml" 106 2778 2838
+type(
+  unit
+)
+"e_anon.ml" 107 2840 2860 "e_anon.ml" 107 2840 2868
+type(
+  string -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"e_anon.ml" 107 2840 2869 "e_anon.ml" 107 2840 2887
+type(
+  string
+)
+"e_anon.ml" 107 2840 2860 "e_anon.ml" 107 2840 2887
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 104 2705 2725 "e_anon.ml" 107 2840 2887
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 102 2609 2629 "e_anon.ml" 107 2840 2887
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 108 2888 2906 "e_anon.ml" 108 2888 2914
+type(
+  E_t.sel
+)
+"e_anon.ml" 108 2888 2918 "e_anon.ml" 108 2888 2922
+type(
+  E_t.sel list
+)
+ident(
+  def sels "e_anon.ml" 109 2926 2946 "e_anon.ml" 114 3157 3202
+)
+"e_anon.ml" 108 2888 2906 "e_anon.ml" 108 2888 2922
+type(
+  E_t.sel list
+)
+type(
+  E_t.sel list
+)
+"e_anon.ml" 109 2926 2946 "e_anon.ml" 109 2926 2958
+type(
+  ?debug:string ->
+  ?at:E_t.expr ->
+  ?prefix:string ->
+  ?nonl:unit ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Util.eprintf "util.mli" 46 1132 1132 "util.mli" 48 1217 1267
+)
+"e_anon.ml" 109 2926 2963 "e_anon.ml" 109 2926 2964
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+type(
+  E_t.expr option
+)
+"e_anon.ml" 110 2965 2989 "e_anon.ml" 110 2965 3016
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"e_anon.ml" 110 2965 3017 "e_anon.ml" 110 2965 3020
+type(
+  string
+)
+ident(
+  int_ref pfx "e_anon.ml" 75 1626 1643 "e_anon.ml" 75 1626 1646
+)
+"e_anon.ml" 109 2926 2946 "e_anon.ml" 110 2965 3020
+type(
+  unit
+)
+"e_anon.ml" 111 3022 3042 "e_anon.ml" 111 3022 3052
+type(
+  E_t.expr -> string -> unit
+)
+ident(
+  int_ref Errors.set "errors.mli" 53 1273 1273 "errors.mli" 53 1273 1319
+)
+"e_anon.ml" 112 3053 3077 "e_anon.ml" 112 3053 3078
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 112 3053 3080 "e_anon.ml" 112 3053 3094
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"e_anon.ml" 113 3095 3123 "e_anon.ml" 113 3095 3150
+type(
+  (string -> string, unit, string) format
+)
+"e_anon.ml" 113 3095 3151 "e_anon.ml" 113 3095 3154
+type(
+  string
+)
+ident(
+  int_ref pfx "e_anon.ml" 75 1626 1643 "e_anon.ml" 75 1626 1646
+)
+"e_anon.ml" 112 3053 3079 "e_anon.ml" 113 3095 3155
+type(
+  string
+)
+"e_anon.ml" 111 3022 3042 "e_anon.ml" 113 3095 3155
+type(
+  unit
+)
+"e_anon.ml" 114 3157 3177 "e_anon.ml" 114 3157 3185
+type(
+  string -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"e_anon.ml" 114 3157 3186 "e_anon.ml" 114 3157 3202
+type(
+  string
+)
+"e_anon.ml" 114 3157 3177 "e_anon.ml" 114 3157 3202
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 111 3022 3042 "e_anon.ml" 114 3157 3202
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 109 2926 2946 "e_anon.ml" 114 3157 3202
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 115 3203 3231 "e_anon.ml" 115 3203 3232
+type(
+  E_t.expr list
+)
+"e_anon.ml" 115 3203 3221 "e_anon.ml" 115 3203 3233
+type(
+  E_t.sel
+)
+"e_anon.ml" 115 3203 3237 "e_anon.ml" 115 3203 3241
+type(
+  E_t.sel list
+)
+ident(
+  def sels "e_anon.ml" 116 3245 3265 "e_anon.ml" 121 3476 3523
+)
+"e_anon.ml" 115 3203 3221 "e_anon.ml" 115 3203 3241
+type(
+  E_t.sel list
+)
+type(
+  E_t.sel list
+)
+"e_anon.ml" 116 3245 3265 "e_anon.ml" 116 3245 3277
+type(
+  ?debug:string ->
+  ?at:E_t.expr ->
+  ?prefix:string ->
+  ?nonl:unit ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Util.eprintf "util.mli" 46 1132 1132 "util.mli" 48 1217 1267
+)
+"e_anon.ml" 116 3245 3282 "e_anon.ml" 116 3245 3283
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+type(
+  E_t.expr option
+)
+"e_anon.ml" 117 3284 3308 "e_anon.ml" 117 3284 3335
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"e_anon.ml" 117 3284 3336 "e_anon.ml" 117 3284 3339
+type(
+  string
+)
+ident(
+  int_ref pfx "e_anon.ml" 75 1626 1643 "e_anon.ml" 75 1626 1646
+)
+"e_anon.ml" 116 3245 3265 "e_anon.ml" 117 3284 3339
+type(
+  unit
+)
+"e_anon.ml" 118 3341 3361 "e_anon.ml" 118 3341 3371
+type(
+  E_t.expr -> string -> unit
+)
+ident(
+  int_ref Errors.set "errors.mli" 53 1273 1273 "errors.mli" 53 1273 1319
+)
+"e_anon.ml" 119 3372 3396 "e_anon.ml" 119 3372 3397
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 119 3372 3399 "e_anon.ml" 119 3372 3413
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"e_anon.ml" 120 3414 3442 "e_anon.ml" 120 3414 3469
+type(
+  (string -> string, unit, string) format
+)
+"e_anon.ml" 120 3414 3470 "e_anon.ml" 120 3414 3473
+type(
+  string
+)
+ident(
+  int_ref pfx "e_anon.ml" 75 1626 1643 "e_anon.ml" 75 1626 1646
+)
+"e_anon.ml" 119 3372 3398 "e_anon.ml" 120 3414 3474
+type(
+  string
+)
+"e_anon.ml" 118 3341 3361 "e_anon.ml" 120 3414 3474
+type(
+  unit
+)
+"e_anon.ml" 121 3476 3496 "e_anon.ml" 121 3476 3504
+type(
+  string -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"e_anon.ml" 121 3476 3505 "e_anon.ml" 121 3476 3523
+type(
+  string
+)
+"e_anon.ml" 121 3476 3496 "e_anon.ml" 121 3476 3523
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 118 3341 3361 "e_anon.ml" 121 3476 3523
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 116 3245 3265 "e_anon.ml" 121 3476 3523
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 122 3524 3542 "e_anon.ml" 122 3524 3544
+type(
+  E_t.sel list
+)
+type(
+  E_t.sel list
+)
+"e_anon.ml" 123 3548 3568 "e_anon.ml" 123 3548 3578
+type(
+  E_t.expr -> string -> unit
+)
+ident(
+  int_ref Errors.set "errors.mli" 53 1273 1273 "errors.mli" 53 1273 1319
+)
+"e_anon.ml" 124 3579 3603 "e_anon.ml" 124 3579 3604
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 124 3579 3606 "e_anon.ml" 124 3579 3620
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"e_anon.ml" 125 3621 3649 "e_anon.ml" 125 3621 3676
+type(
+  (string -> string, unit, string) format
+)
+"e_anon.ml" 125 3621 3677 "e_anon.ml" 125 3621 3680
+type(
+  string
+)
+ident(
+  int_ref pfx "e_anon.ml" 75 1626 1643 "e_anon.ml" 75 1626 1646
+)
+"e_anon.ml" 124 3579 3605 "e_anon.ml" 125 3621 3681
+type(
+  string
+)
+"e_anon.ml" 123 3548 3568 "e_anon.ml" 125 3621 3681
+type(
+  unit
+)
+"e_anon.ml" 126 3683 3703 "e_anon.ml" 126 3683 3711
+type(
+  string -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"e_anon.ml" 126 3683 3712 "e_anon.ml" 126 3683 3731
+type(
+  string
+)
+"e_anon.ml" 126 3683 3703 "e_anon.ml" 126 3683 3731
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 123 3548 3568 "e_anon.ml" 126 3683 3731
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 127 3732 3750 "e_anon.ml" 127 3732 3751
+type(
+  E_t.sel list
+)
+type(
+  E_t.sel list
+)
+"e_anon.ml" 128 3755 3775 "e_anon.ml" 128 3755 3787
+type(
+  ?debug:string ->
+  ?at:E_t.expr ->
+  ?prefix:string ->
+  ?nonl:unit ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Util.eprintf "util.mli" 46 1132 1132 "util.mli" 48 1217 1267
+)
+"e_anon.ml" 128 3755 3792 "e_anon.ml" 128 3755 3793
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+type(
+  E_t.expr option
+)
+"e_anon.ml" 129 3794 3818 "e_anon.ml" 129 3794 3845
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"e_anon.ml" 129 3794 3846 "e_anon.ml" 129 3794 3849
+type(
+  string
+)
+ident(
+  int_ref pfx "e_anon.ml" 75 1626 1643 "e_anon.ml" 75 1626 1646
+)
+"e_anon.ml" 128 3755 3775 "e_anon.ml" 129 3794 3849
+type(
+  unit
+)
+"e_anon.ml" 130 3851 3871 "e_anon.ml" 130 3851 3881
+type(
+  E_t.expr -> string -> unit
+)
+ident(
+  int_ref Errors.set "errors.mli" 53 1273 1273 "errors.mli" 53 1273 1319
+)
+"e_anon.ml" 131 3882 3906 "e_anon.ml" 131 3882 3907
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 131 3882 3909 "e_anon.ml" 131 3882 3923
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"e_anon.ml" 132 3924 3952 "e_anon.ml" 132 3924 3979
+type(
+  (string -> string, unit, string) format
+)
+"e_anon.ml" 132 3924 3980 "e_anon.ml" 132 3924 3983
+type(
+  string
+)
+ident(
+  int_ref pfx "e_anon.ml" 75 1626 1643 "e_anon.ml" 75 1626 1646
+)
+"e_anon.ml" 131 3882 3908 "e_anon.ml" 132 3924 3984
+type(
+  string
+)
+"e_anon.ml" 130 3851 3871 "e_anon.ml" 132 3924 3984
+type(
+  unit
+)
+"e_anon.ml" 133 3986 4006 "e_anon.ml" 133 3986 4014
+type(
+  string -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"e_anon.ml" 133 3986 4015 "e_anon.ml" 133 3986 4029
+type(
+  string
+)
+"e_anon.ml" 133 3986 4006 "e_anon.ml" 133 3986 4029
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 130 3851 3871 "e_anon.ml" 133 3986 4029
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 128 3755 3775 "e_anon.ml" 133 3986 4029
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 84 1876 1898 "e_anon.ml" 134 4030 4047
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 135 4048 4068 "e_anon.ml" 135 4048 4071
+type(
+  int
+)
+ident(
+  def dep "e_anon.ml" 140 4238 4254 "e_anon.ml" 160 5282 5301
+)
+"e_anon.ml" 137 4113 4147 "e_anon.ml" 137 4113 4148
+type(
+  Util.hint
+)
+"e_anon.ml" 137 4113 4150 "e_anon.ml" 137 4113 4152
+type(
+  E_t.expr
+)
+ident(
+  def op "e_anon.ml" 140 4238 4254 "e_anon.ml" 160 5282 5301
+)
+"e_anon.ml" 137 4113 4137 "e_anon.ml" 137 4113 4153
+type(
+  E_t.defn_
+)
+"e_anon.ml" 138 4154 4189 "e_anon.ml" 138 4154 4190
+type(
+  Util.hint
+)
+"e_anon.ml" 138 4154 4192 "e_anon.ml" 138 4154 4194
+type(
+  E_t.expr
+)
+ident(
+  def op "e_anon.ml" 140 4238 4254 "e_anon.ml" 160 5282 5301
+)
+"e_anon.ml" 138 4154 4196 "e_anon.ml" 138 4154 4197
+type(
+  (Util.hint * E_t.backend_args) list list
+)
+"e_anon.ml" 138 4154 4180 "e_anon.ml" 138 4154 4198
+type(
+  E_t.defn_
+)
+"e_anon.ml" 136 4073 4111 "e_anon.ml" 139 4199 4220
+type(
+  E_t.defn_
+)
+"e_anon.ml" 136 4073 4105 "e_anon.ml" 139 4199 4221
+type(
+  E_t.defn
+)
+"e_anon.ml" 139 4199 4223 "e_anon.ml" 139 4199 4225
+type(
+  E_t.wheredef
+)
+ident(
+  def wd "e_anon.ml" 140 4238 4254 "e_anon.ml" 160 5282 5301
+)
+"e_anon.ml" 139 4199 4227 "e_anon.ml" 139 4199 4228
+type(
+  E_t.visibility
+)
+"e_anon.ml" 139 4199 4230 "e_anon.ml" 139 4199 4231
+type(
+  E_t.export
+)
+"e_anon.ml" 136 4073 4099 "e_anon.ml" 139 4199 4232
+type(
+  E_t.hyp_
+)
+"e_anon.ml" 136 4073 4093 "e_anon.ml" 139 4199 4233
+type(
+  E_t.hyp
+)
+"e_anon.ml" 135 4048 4067 "e_anon.ml" 139 4199 4234
+type(
+  int * E_t.hyp
+)
+"e_anon.ml" 135 4048 4062 "e_anon.ml" 139 4199 4234
+type(
+  (int * E_t.hyp) option
+)
+type(
+  (int * E_t.hyp) option
+)
+"e_anon.ml" 140 4238 4266 "e_anon.ml" 140 4238 4270
+type(
+  E_t.sel list
+)
+ident(
+  int_ref sels "e_anon.ml" 76 1655 1671 "e_anon.ml" 76 1655 1675
+)
+"e_anon.ml" 141 4276 4296 "e_anon.ml" 141 4276 4298
+type(
+  E_t.sel list
+)
+type(
+  E_t.sel list
+)
+"e_anon.ml" 141 4276 4304 "e_anon.ml" 141 4276 4311
+type(
+  bool
+)
+ident(
+  int_ref is_inst "e_anon.ml" 77 1676 1692 "e_anon.ml" 77 1676 1699
+)
+"e_anon.ml" 142 4321 4347 "e_anon.ml" 142 4321 4349
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def ix "e_anon.ml" 143 4373 4395 "e_anon.ml" 147 4562 4612
+)
+"e_anon.ml" 142 4321 4356 "e_anon.ml" 142 4321 4359
+type(
+  int
+)
+ident(
+  int_ref dep "e_anon.ml" 135 4048 4068 "e_anon.ml" 135 4048 4071
+)
+"e_anon.ml" 142 4321 4360 "e_anon.ml" 142 4321 4361
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"e_anon.ml" 142 4321 4362 "e_anon.ml" 142 4321 4363
+type(
+  int
+)
+"e_anon.ml" 142 4321 4355 "e_anon.ml" 142 4321 4364
+type(
+  int
+)
+"e_anon.ml" 142 4321 4352 "e_anon.ml" 142 4321 4364
+type(
+  E_t.expr_
+)
+"e_anon.ml" 142 4321 4365 "e_anon.ml" 142 4321 4367
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_anon.ml" 142 4321 4368 "e_anon.ml" 142 4321 4369
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 142 4321 4352 "e_anon.ml" 142 4321 4369
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 143 4373 4401 "e_anon.ml" 143 4373 4406
+type(
+  E_t.expr list
+)
+ident(
+  int_ref pargs "e_anon.ml" 75 1626 1648 "e_anon.ml" 75 1626 1653
+)
+"e_anon.ml" 144 4412 4438 "e_anon.ml" 144 4412 4440
+type(
+  E_t.expr list
+)
+type(
+  E_t.expr list
+)
+"e_anon.ml" 144 4412 4444 "e_anon.ml" 144 4412 4446
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref ix "e_anon.ml" 142 4321 4347 "e_anon.ml" 142 4321 4349
+)
+"e_anon.ml" 145 4447 4473 "e_anon.ml" 145 4447 4478
+type(
+  E_t.expr list
+)
+type(
+  E_t.expr list
+)
+ident(
+  def pargs "e_anon.ml" 146 4482 4510 "e_anon.ml" 147 4562 4612
+)
+"e_anon.ml" 146 4482 4510 "e_anon.ml" 146 4482 4523
+type(
+  cx:E_t.hyp Deque.dq ->
+  index:int ->
+  wd:E_t.wheredef -> E_t.expr -> E_t.expr list -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref standard_form "e_anon.ml" 39 733 737 "e_anon.ml" 39 733 750
+)
+"e_anon.ml" 146 4482 4529 "e_anon.ml" 146 4482 4532
+type(
+  '_weak2 list * E_t.hyp Deque.dq -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"e_anon.ml" 146 4482 4533 "e_anon.ml" 146 4482 4536
+type(
+  '_weak2 list * E_t.hyp Deque.dq
+)
+ident(
+  int_ref scx "e_anon.ml" 71 1480 1492 "e_anon.ml" 71 1480 1495
+)
+"e_anon.ml" 146 4482 4528 "e_anon.ml" 146 4482 4537
+type(
+  E_t.hyp Deque.dq
+)
+"e_anon.ml" 146 4482 4546 "e_anon.ml" 146 4482 4549
+type(
+  int
+)
+ident(
+  int_ref dep "e_anon.ml" 135 4048 4068 "e_anon.ml" 135 4048 4071
+)
+"e_anon.ml" 146 4482 4550 "e_anon.ml" 146 4482 4551
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"e_anon.ml" 146 4482 4552 "e_anon.ml" 146 4482 4553
+type(
+  int
+)
+"e_anon.ml" 146 4482 4545 "e_anon.ml" 146 4482 4554
+type(
+  int
+)
+"e_anon.ml" 146 4482 4559 "e_anon.ml" 146 4482 4561
+type(
+  E_t.wheredef
+)
+ident(
+  int_ref wd "e_anon.ml" 139 4199 4223 "e_anon.ml" 139 4199 4225
+)
+"e_anon.ml" 147 4562 4593 "e_anon.ml" 147 4562 4595
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_anon.ml" 137 4113 4150 "e_anon.ml" 137 4113 4152
+)
+"e_anon.ml" 147 4562 4593 "e_anon.ml" 147 4562 4600
+type(
+  E_t.expr_
+)
+"e_anon.ml" 147 4562 4601 "e_anon.ml" 147 4562 4603
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_anon.ml" 147 4562 4604 "e_anon.ml" 147 4562 4605
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 147 4562 4592 "e_anon.ml" 147 4562 4606
+type(
+  E_t.expr
+)
+"e_anon.ml" 147 4562 4607 "e_anon.ml" 147 4562 4612
+type(
+  E_t.expr list
+)
+ident(
+  int_ref pargs "e_anon.ml" 145 4447 4473 "e_anon.ml" 145 4447 4478
+)
+"e_anon.ml" 146 4482 4510 "e_anon.ml" 147 4562 4612
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 143 4373 4395 "e_anon.ml" 147 4562 4612
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 141 4276 4315 "e_anon.ml" 148 4613 4636
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 149 4637 4657 "e_anon.ml" 149 4637 4658
+type(
+  E_t.sel list
+)
+type(
+  E_t.sel list
+)
+"e_anon.ml" 150 4668 4694 "e_anon.ml" 150 4668 4696
+type(
+  E_t.expr
+)
+ident(
+  def op "e_anon.ml" 151 4732 4754 "e_anon.ml" 158 5199 5257
+)
+"e_anon.ml" 150 4668 4699 "e_anon.ml" 150 4668 4707
+type(
+  E_subst.sub -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref E_subst.app_expr "e_subst.mli" 20 405 405 "e_subst.mli" 20 405 439
+)
+"e_anon.ml" 150 4668 4709 "e_anon.ml" 150 4668 4714
+type(
+  int -> E_subst.sub
+)
+ident(
+  int_ref E_subst.shift "e_subst.mli" 11 132 132 "e_subst.mli" 11 132 154
+)
+"e_anon.ml" 150 4668 4716 "e_anon.ml" 150 4668 4719
+type(
+  int
+)
+ident(
+  int_ref dep "e_anon.ml" 135 4048 4068 "e_anon.ml" 135 4048 4071
+)
+"e_anon.ml" 150 4668 4720 "e_anon.ml" 150 4668 4721
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"e_anon.ml" 150 4668 4722 "e_anon.ml" 150 4668 4723
+type(
+  int
+)
+"e_anon.ml" 150 4668 4715 "e_anon.ml" 150 4668 4724
+type(
+  int
+)
+"e_anon.ml" 150 4668 4708 "e_anon.ml" 150 4668 4725
+type(
+  E_subst.sub
+)
+"e_anon.ml" 150 4668 4726 "e_anon.ml" 150 4668 4728
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_anon.ml" 137 4113 4150 "e_anon.ml" 137 4113 4152
+)
+"e_anon.ml" 150 4668 4699 "e_anon.ml" 150 4668 4728
+type(
+  E_t.expr
+)
+"e_anon.ml" 151 4732 4758 "e_anon.ml" 151 4732 4760
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def op "e_anon.ml" 152 4803 4825 "e_anon.ml" 158 5199 5257
+)
+"e_anon.ml" 151 4732 4763 "e_anon.ml" 151 4732 4777
+type(
+  E_t.expr -> Loc.locus -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Util.set_locus "util.mli" 19 370 370 "util.mli" 19 370 425
+)
+"e_anon.ml" 151 4732 4778 "e_anon.ml" 151 4732 4780
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_anon.ml" 150 4668 4694 "e_anon.ml" 150 4668 4696
+)
+"e_anon.ml" 151 4732 4782 "e_anon.ml" 151 4732 4796
+type(
+  E_t.expr -> Loc.locus
+)
+ident(
+  int_ref Util.get_locus "util.mli" 17 279 279 "util.mli" 17 279 320
+)
+"e_anon.ml" 151 4732 4797 "e_anon.ml" 151 4732 4798
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 151 4732 4781 "e_anon.ml" 151 4732 4799
+type(
+  Loc.locus
+)
+"e_anon.ml" 151 4732 4763 "e_anon.ml" 151 4732 4799
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 152 4803 4829 "e_anon.ml" 152 4803 4831
+type(
+  E_t.expr
+)
+ident(
+  def se "e_anon.ml" 153 4880 4902 "e_anon.ml" 158 5199 5257
+)
+"e_anon.ml" 152 4803 4834 "e_anon.ml" 152 4803 4852
+type(
+  E_t.hyp Deque.dq -> E_t.expr -> E_t.expr list -> E_t.sel list -> E_t.expr
+)
+ident(
+  int_ref Deref.resolve_bang "e_deref.mli" 8 110 110 "e_deref.mli" 10 156 189
+)
+"e_anon.ml" 152 4803 4854 "e_anon.ml" 152 4803 4857
+type(
+  '_weak3 list * E_t.hyp Deque.dq -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"e_anon.ml" 152 4803 4858 "e_anon.ml" 152 4803 4861
+type(
+  '_weak3 list * E_t.hyp Deque.dq
+)
+ident(
+  int_ref scx "e_anon.ml" 71 1480 1492 "e_anon.ml" 71 1480 1495
+)
+"e_anon.ml" 152 4803 4853 "e_anon.ml" 152 4803 4862
+type(
+  E_t.hyp Deque.dq
+)
+"e_anon.ml" 152 4803 4863 "e_anon.ml" 152 4803 4865
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_anon.ml" 151 4732 4758 "e_anon.ml" 151 4732 4760
+)
+"e_anon.ml" 152 4803 4866 "e_anon.ml" 152 4803 4871
+type(
+  E_t.expr list
+)
+ident(
+  int_ref pargs "e_anon.ml" 75 1626 1648 "e_anon.ml" 75 1626 1653
+)
+"e_anon.ml" 152 4803 4872 "e_anon.ml" 152 4803 4876
+type(
+  E_t.sel list
+)
+ident(
+  int_ref sels "e_anon.ml" 76 1655 1671 "e_anon.ml" 76 1655 1675
+)
+"e_anon.ml" 152 4803 4834 "e_anon.ml" 152 4803 4876
+type(
+  E_t.expr
+)
+"e_anon.ml" 153 4880 4905 "e_anon.ml" 153 4880 4920
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref Deref.is_badexp "e_deref.mli" 11 190 190 "e_deref.mli" 11 190 217
+)
+"e_anon.ml" 153 4880 4921 "e_anon.ml" 153 4880 4923
+type(
+  E_t.expr
+)
+ident(
+  int_ref se "e_anon.ml" 152 4803 4829 "e_anon.ml" 152 4803 4831
+)
+"e_anon.ml" 153 4880 4905 "e_anon.ml" 153 4880 4923
+type(
+  bool
+)
+"e_anon.ml" 154 4935 4959 "e_anon.ml" 154 4935 4971
+type(
+  ?debug:string ->
+  ?at:E_t.expr ->
+  ?prefix:string ->
+  ?nonl:unit -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Util.eprintf "util.mli" 46 1132 1132 "util.mli" 48 1217 1267
+)
+"e_anon.ml" 154 4935 4976 "e_anon.ml" 154 4935 4977
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+type(
+  E_t.expr option
+)
+"e_anon.ml" 154 4935 4978 "e_anon.ml" 154 4935 5021
+type(
+  (unit, Format.formatter, unit) format
+)
+"e_anon.ml" 154 4935 4959 "e_anon.ml" 154 4935 5021
+type(
+  unit
+)
+"e_anon.ml" 155 5024 5048 "e_anon.ml" 155 5024 5058
+type(
+  E_t.expr -> string -> unit
+)
+ident(
+  int_ref Errors.set "errors.mli" 53 1273 1273 "errors.mli" 53 1273 1319
+)
+"e_anon.ml" 155 5024 5059 "e_anon.ml" 155 5024 5060
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 155 5024 5062 "e_anon.ml" 155 5024 5076
+type(
+  (string, unit, string) format -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"e_anon.ml" 155 5024 5077 "e_anon.ml" 155 5024 5120
+type(
+  (string, unit, string) format
+)
+"e_anon.ml" 155 5024 5061 "e_anon.ml" 155 5024 5121
+type(
+  string
+)
+"e_anon.ml" 155 5024 5048 "e_anon.ml" 155 5024 5121
+type(
+  unit
+)
+"e_anon.ml" 156 5123 5147 "e_anon.ml" 156 5123 5155
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"e_anon.ml" 156 5123 5156 "e_anon.ml" 156 5123 5170
+type(
+  string
+)
+"e_anon.ml" 156 5123 5147 "e_anon.ml" 156 5123 5170
+type(
+  unit
+)
+"e_anon.ml" 155 5024 5048 "e_anon.ml" 156 5123 5170
+type(
+  unit
+)
+"e_anon.ml" 153 4880 4929 "e_anon.ml" 157 5171 5196
+type(
+  unit
+)
+"e_anon.ml" 153 4880 4902 "e_anon.ml" 157 5171 5196
+type(
+  unit
+)
+"e_anon.ml" 158 5199 5221 "e_anon.ml" 158 5199 5235
+type(
+  E_t.expr -> Loc.locus -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Util.set_locus "util.mli" 19 370 370 "util.mli" 19 370 425
+)
+"e_anon.ml" 158 5199 5236 "e_anon.ml" 158 5199 5238
+type(
+  E_t.expr
+)
+ident(
+  int_ref se "e_anon.ml" 152 4803 4829 "e_anon.ml" 152 4803 4831
+)
+"e_anon.ml" 158 5199 5240 "e_anon.ml" 158 5199 5254
+type(
+  E_t.expr -> Loc.locus
+)
+ident(
+  int_ref Util.get_locus "util.mli" 17 279 279 "util.mli" 17 279 320
+)
+"e_anon.ml" 158 5199 5255 "e_anon.ml" 158 5199 5256
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 158 5199 5239 "e_anon.ml" 158 5199 5257
+type(
+  Loc.locus
+)
+"e_anon.ml" 158 5199 5221 "e_anon.ml" 158 5199 5257
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 153 4880 4902 "e_anon.ml" 158 5199 5257
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 152 4803 4825 "e_anon.ml" 158 5199 5257
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 151 4732 4754 "e_anon.ml" 158 5199 5257
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 149 4637 4662 "e_anon.ml" 159 5258 5281
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 140 4238 4254 "e_anon.ml" 160 5282 5301
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 161 5302 5321 "e_anon.ml" 161 5302 5322
+type(
+  int * E_t.hyp
+)
+"e_anon.ml" 161 5302 5316 "e_anon.ml" 161 5302 5322
+type(
+  (int * E_t.hyp) option
+)
+type(
+  (int * E_t.hyp) option
+)
+"e_anon.ml" 162 5326 5346 "e_anon.ml" 162 5326 5348
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def cx "e_anon.ml" 163 5362 5378 "e_anon.ml" 167 5619 5659
+)
+"e_anon.ml" 162 5326 5351 "e_anon.ml" 162 5326 5354
+type(
+  '_weak4 list * E_t.hyp Deque.dq -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"e_anon.ml" 162 5326 5355 "e_anon.ml" 162 5326 5358
+type(
+  '_weak4 list * E_t.hyp Deque.dq
+)
+ident(
+  int_ref scx "e_anon.ml" 71 1480 1492 "e_anon.ml" 71 1480 1495
+)
+"e_anon.ml" 162 5326 5351 "e_anon.ml" 162 5326 5358
+type(
+  E_t.hyp Deque.dq
+)
+"e_anon.ml" 163 5362 5382 "e_anon.ml" 163 5362 5390
+type(
+  string
+)
+ident(
+  def expr_str "e_anon.ml" 164 5422 5438 "e_anon.ml" 167 5619 5659
+)
+"e_anon.ml" 163 5362 5393 "e_anon.ml" 163 5362 5413
+type(
+  E_t.hyp Deque.dq -> E_t.expr -> string
+)
+ident(
+  int_ref E_fmt.string_of_expr "e_fmt.mli" 44 1349 1349 "e_fmt.mli" 44 1349 1401
+)
+"e_anon.ml" 163 5362 5414 "e_anon.ml" 163 5362 5416
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_anon.ml" 162 5326 5346 "e_anon.ml" 162 5326 5348
+)
+"e_anon.ml" 163 5362 5417 "e_anon.ml" 163 5362 5418
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 163 5362 5393 "e_anon.ml" 163 5362 5418
+type(
+  string
+)
+"e_anon.ml" 164 5422 5438 "e_anon.ml" 164 5422 5450
+type(
+  ?debug:string ->
+  ?at:E_t.expr ->
+  ?prefix:string ->
+  ?nonl:unit ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Util.eprintf "util.mli" 46 1132 1132 "util.mli" 48 1217 1267
+)
+"e_anon.ml" 164 5422 5455 "e_anon.ml" 164 5422 5456
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+type(
+  E_t.expr option
+)
+"e_anon.ml" 164 5422 5457 "e_anon.ml" 164 5422 5461
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"e_anon.ml" 165 5462 5483 "e_anon.ml" 165 5462 5522
+type(
+  string
+)
+"e_anon.ml" 165 5462 5523 "e_anon.ml" 165 5462 5524
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"e_anon.ml" 165 5462 5525 "e_anon.ml" 165 5462 5533
+type(
+  string
+)
+ident(
+  int_ref expr_str "e_anon.ml" 163 5362 5382 "e_anon.ml" 163 5362 5390
+)
+"e_anon.ml" 165 5462 5482 "e_anon.ml" 165 5462 5534
+type(
+  string
+)
+"e_anon.ml" 164 5422 5438 "e_anon.ml" 165 5462 5534
+type(
+  unit
+)
+"e_anon.ml" 166 5537 5554 "e_anon.ml" 166 5537 5564
+type(
+  E_t.expr -> string -> unit
+)
+ident(
+  int_ref Errors.set "errors.mli" 53 1273 1273 "errors.mli" 53 1273 1319
+)
+"e_anon.ml" 166 5537 5565 "e_anon.ml" 166 5537 5566
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 166 5537 5568 "e_anon.ml" 166 5537 5582
+type(
+  (string, unit, string) format -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"e_anon.ml" 166 5537 5583 "e_anon.ml" 166 5537 5616
+type(
+  (string, unit, string) format
+)
+"e_anon.ml" 166 5537 5567 "e_anon.ml" 166 5537 5617
+type(
+  string
+)
+"e_anon.ml" 166 5537 5554 "e_anon.ml" 166 5537 5617
+type(
+  unit
+)
+"e_anon.ml" 167 5619 5636 "e_anon.ml" 167 5619 5644
+type(
+  string -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"e_anon.ml" 167 5619 5645 "e_anon.ml" 167 5619 5659
+type(
+  string
+)
+"e_anon.ml" 167 5619 5636 "e_anon.ml" 167 5619 5659
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 166 5537 5554 "e_anon.ml" 167 5619 5659
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 164 5422 5438 "e_anon.ml" 167 5619 5659
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 163 5362 5378 "e_anon.ml" 167 5619 5659
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 162 5326 5342 "e_anon.ml" 167 5619 5659
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 83 1849 1861 "e_anon.ml" 167 5619 5659
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 78 1702 1714 "e_anon.ml" 168 5660 5671
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 169 5675 5683 "e_anon.ml" 169 5675 5688
+type(
+  string * E_t.expr list -> E_t.sel list -> bool -> E_t.expr
+)
+ident(
+  int_ref check "e_anon.ml" 74 1604 1620 "e_anon.ml" 74 1604 1625
+)
+"e_anon.ml" 169 5675 5690 "e_anon.ml" 169 5675 5692
+type(
+  string
+)
+ident(
+  int_ref op "e_anon.ml" 64 1266 1297 "e_anon.ml" 64 1266 1299
+)
+"e_anon.ml" 169 5675 5694 "e_anon.ml" 169 5675 5698
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_anon.ml" 69 1416 1428 "e_anon.ml" 69 1416 1432
+)
+"e_anon.ml" 169 5675 5689 "e_anon.ml" 169 5675 5699
+type(
+  string * E_t.expr list
+)
+"e_anon.ml" 169 5675 5700 "e_anon.ml" 169 5675 5704
+type(
+  E_t.sel list
+)
+ident(
+  int_ref sels "e_anon.ml" 67 1353 1365 "e_anon.ml" 67 1353 1369
+)
+"e_anon.ml" 169 5675 5705 "e_anon.ml" 169 5675 5710
+type(
+  bool
+)
+"e_anon.ml" 169 5675 5683 "e_anon.ml" 169 5675 5710
+type(
+  E_t.expr
+)
+"e_anon.ml" 74 1604 1612 "e_anon.ml" 169 5675 5710
+type(
+  E_t.expr
+)
+"e_anon.ml" 71 1480 1488 "e_anon.ml" 169 5675 5710
+type(
+  E_t.expr
+)
+"e_anon.ml" 69 1416 1424 "e_anon.ml" 169 5675 5710
+type(
+  E_t.expr
+)
+"e_anon.ml" 66 1326 1347 "e_anon.ml" 170 5711 5720
+type(
+  E_t.expr
+)
+"e_anon.ml" 171 5721 5733 "e_anon.ml" 171 5721 5734
+type(
+  E_t.expr
+)
+ident(
+  def b "e_anon.ml" 172 5745 5753 "e_anon.ml" 172 5745 5805
+)
+"e_anon.ml" 171 5721 5736 "e_anon.ml" 171 5721 5740
+type(
+  E_t.sel list
+)
+ident(
+  def sels "e_anon.ml" 172 5745 5753 "e_anon.ml" 172 5745 5805
+)
+"e_anon.ml" 171 5721 5727 "e_anon.ml" 171 5721 5741
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_anon.ml" 172 5745 5753 "e_anon.ml" 172 5745 5757
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"e_anon.ml" 172 5745 5753 "e_anon.ml" 172 5745 5762
+type(
+  string list Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_anon.ml" 172 5745 5763 "e_anon.ml" 172 5745 5766
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 60 1183 1197 "e_anon.ml" 60 1183 1200
+)
+"e_anon.ml" 172 5745 5781 "e_anon.ml" 172 5745 5782
+type(
+  E_t.expr
+)
+ident(
+  int_ref b "e_anon.ml" 171 5721 5733 "e_anon.ml" 171 5721 5734
+)
+"e_anon.ml" 172 5745 5784 "e_anon.ml" 172 5745 5786
+type(
+  E_t.expr list
+)
+"e_anon.ml" 172 5745 5774 "e_anon.ml" 172 5745 5787
+type(
+  E_t.expr_
+)
+"e_anon.ml" 172 5745 5788 "e_anon.ml" 172 5745 5790
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_anon.ml" 172 5745 5791 "e_anon.ml" 172 5745 5792
+type(
+  E_t.expr
+)
+ident(
+  int_ref b "e_anon.ml" 171 5721 5733 "e_anon.ml" 171 5721 5734
+)
+"e_anon.ml" 172 5745 5774 "e_anon.ml" 172 5745 5792
+type(
+  E_t.expr
+)
+"e_anon.ml" 172 5745 5794 "e_anon.ml" 172 5745 5798
+type(
+  E_t.sel list
+)
+ident(
+  int_ref sels "e_anon.ml" 171 5721 5736 "e_anon.ml" 171 5721 5740
+)
+"e_anon.ml" 172 5745 5768 "e_anon.ml" 172 5745 5799
+type(
+  E_t.expr_
+)
+"e_anon.ml" 172 5745 5800 "e_anon.ml" 172 5745 5802
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_anon.ml" 172 5745 5803 "e_anon.ml" 172 5745 5804
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 172 5745 5767 "e_anon.ml" 172 5745 5805
+type(
+  E_t.expr
+)
+"e_anon.ml" 172 5745 5753 "e_anon.ml" 172 5745 5805
+type(
+  E_t.expr
+)
+"e_anon.ml" 173 5806 5834 "e_anon.ml" 173 5806 5838
+type(
+  string
+)
+ident(
+  def name "e_anon.ml" 174 5850 5856 "e_anon.ml" 234 8767 8776
+)
+"e_anon.ml" 173 5806 5827 "e_anon.ml" 173 5806 5838
+type(
+  E_t.expr_
+)
+"e_anon.ml" 173 5806 5819 "e_anon.ml" 173 5806 5839
+type(
+  E_t.expr
+)
+"e_anon.ml" 173 5806 5841 "e_anon.ml" 173 5806 5845
+type(
+  E_t.expr list
+)
+ident(
+  def args "e_anon.ml" 174 5850 5856 "e_anon.ml" 234 8767 8776
+)
+"e_anon.ml" 173 5806 5812 "e_anon.ml" 173 5806 5846
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_anon.ml" 175 5862 5873 "e_anon.ml" 175 5862 5881
+type(
+  string -> string list -> bool
+)
+ident(
+  int_ref Stdlib.List.mem "list.mli" 291 9973 9973 "list.mli" 291 9973 10004
+)
+"e_anon.ml" 175 5862 5882 "e_anon.ml" 175 5862 5886
+type(
+  string
+)
+ident(
+  int_ref name "e_anon.ml" 173 5806 5834 "e_anon.ml" 173 5806 5838
+)
+"e_anon.ml" 175 5862 5888 "e_anon.ml" 175 5862 5891
+type(
+  string list Visit.scx -> string list
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"e_anon.ml" 175 5862 5892 "e_anon.ml" 175 5862 5895
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 60 1183 1197 "e_anon.ml" 60 1183 1200
+)
+"e_anon.ml" 175 5862 5887 "e_anon.ml" 175 5862 5896
+type(
+  string list
+)
+"e_anon.ml" 175 5862 5873 "e_anon.ml" 175 5862 5896
+type(
+  bool
+)
+"e_anon.ml" 177 5920 5936 "e_anon.ml" 177 5920 5946
+type(
+  ?at:E_t.expr ->
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  int_ref Errors.err "errors.mli" 28 640 640 "errors.mli" 30 673 715
+)
+"e_anon.ml" 177 5920 5951 "e_anon.ml" 177 5920 5952
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+type(
+  E_t.expr option
+)
+"e_anon.ml" 178 5953 5973 "e_anon.ml" 179 6024 6086
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"e_anon.ml" 179 6024 6087 "e_anon.ml" 179 6024 6091
+type(
+  string
+)
+ident(
+  int_ref name "e_anon.ml" 173 5806 5834 "e_anon.ml" 173 5806 5838
+)
+"e_anon.ml" 177 5920 5936 "e_anon.ml" 179 6024 6091
+type(
+  unit
+)
+"e_anon.ml" 180 6093 6118 "e_anon.ml" 180 6093 6132
+type(
+  Builtin.builtin
+)
+"e_anon.ml" 180 6093 6109 "e_anon.ml" 180 6093 6132
+type(
+  E_t.expr_
+)
+"e_anon.ml" 180 6093 6133 "e_anon.ml" 180 6093 6135
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_anon.ml" 180 6093 6136 "e_anon.ml" 180 6093 6137
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 180 6093 6109 "e_anon.ml" 180 6093 6137
+type(
+  E_t.expr
+)
+"e_anon.ml" 176 5902 5914 "e_anon.ml" 181 6138 6153
+type(
+  E_t.expr
+)
+"e_anon.ml" 184 6185 6205 "e_anon.ml" 184 6185 6209
+type(
+  E_t.expr list
+)
+ident(
+  def args "e_anon.ml" 185 6245 6261 "e_anon.ml" 232 8702 8750
+)
+"e_anon.ml" 184 6185 6212 "e_anon.ml" 184 6185 6220
+type(
+  (E_t.expr -> E_t.expr) -> E_t.expr list -> E_t.expr list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"e_anon.ml" 184 6185 6222 "e_anon.ml" 184 6185 6226
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"e_anon.ml" 184 6185 6222 "e_anon.ml" 184 6185 6231
+type(
+  string list Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_anon.ml" 184 6185 6232 "e_anon.ml" 184 6185 6235
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 60 1183 1197 "e_anon.ml" 60 1183 1200
+)
+"e_anon.ml" 184 6185 6221 "e_anon.ml" 184 6185 6236
+type(
+  E_t.expr -> E_t.expr
+)
+"e_anon.ml" 184 6185 6237 "e_anon.ml" 184 6185 6241
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_anon.ml" 173 5806 5841 "e_anon.ml" 173 5806 5845
+)
+"e_anon.ml" 184 6185 6212 "e_anon.ml" 184 6185 6241
+type(
+  E_t.expr list
+)
+"e_anon.ml" 185 6245 6265 "e_anon.ml" 185 6245 6267
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def cx "e_anon.ml" 186 6281 6297 "e_anon.ml" 232 8702 8750
+)
+"e_anon.ml" 185 6245 6270 "e_anon.ml" 185 6245 6273
+type(
+  string list Visit.scx -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"e_anon.ml" 185 6245 6274 "e_anon.ml" 185 6245 6277
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 60 1183 1197 "e_anon.ml" 60 1183 1200
+)
+"e_anon.ml" 185 6245 6270 "e_anon.ml" 185 6245 6277
+type(
+  E_t.hyp Deque.dq
+)
+"e_anon.ml" 186 6281 6301 "e_anon.ml" 186 6281 6310
+type(
+  E_t.hyp_ Property.wrapped -> bool
+)
+ident(
+  def name_test "e_anon.ml" 187 6334 6350 "e_anon.ml" 232 8702 8750
+)
+"e_anon.ml" 186 6281 6313 "e_anon.ml" 186 6281 6325
+type(
+  string -> E_t.hyp_ Property.wrapped -> bool
+)
+ident(
+  int_ref hyp_is_named "e_anon.ml" 19 291 295 "e_anon.ml" 19 291 307
+)
+"e_anon.ml" 186 6281 6326 "e_anon.ml" 186 6281 6330
+type(
+  string
+)
+ident(
+  int_ref name "e_anon.ml" 173 5806 5834 "e_anon.ml" 173 5806 5838
+)
+"e_anon.ml" 186 6281 6313 "e_anon.ml" 186 6281 6330
+type(
+  E_t.hyp_ Property.wrapped -> bool
+)
+"e_anon.ml" 187 6334 6354 "e_anon.ml" 187 6334 6358
+type(
+  (int * E_t.hyp) option
+)
+ident(
+  def pair "e_anon.ml" 188 6404 6420 "e_anon.ml" 232 8702 8750
+)
+"e_anon.ml" 187 6334 6361 "e_anon.ml" 187 6334 6371
+type(
+  ?backwards:bool ->
+  E_t.hyp Deque.dq -> (E_t.hyp -> bool) -> (int * E_t.hyp) option
+)
+ident(
+  int_ref Deque.find "deque.mli" 23 579 579 "deque.mli" 23 579 652
+)
+"e_anon.ml" 187 6334 6383 "e_anon.ml" 187 6334 6387
+type(
+  bool
+)
+type(
+  bool option
+)
+"e_anon.ml" 187 6334 6388 "e_anon.ml" 187 6334 6390
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_anon.ml" 185 6245 6265 "e_anon.ml" 185 6245 6267
+)
+"e_anon.ml" 187 6334 6391 "e_anon.ml" 187 6334 6400
+type(
+  E_t.hyp -> bool
+)
+ident(
+  int_ref name_test "e_anon.ml" 186 6281 6301 "e_anon.ml" 186 6281 6310
+)
+"e_anon.ml" 187 6334 6361 "e_anon.ml" 187 6334 6400
+type(
+  (int * E_t.hyp) option
+)
+"e_anon.ml" 188 6404 6426 "e_anon.ml" 188 6404 6430
+type(
+  (int * E_t.hyp) option
+)
+ident(
+  int_ref pair "e_anon.ml" 187 6334 6354 "e_anon.ml" 187 6334 6358
+)
+"e_anon.ml" 193 6645 6673 "e_anon.ml" 193 6645 6678
+type(
+  int
+)
+ident(
+  def depth "e_anon.ml" 194 6713 6737 "e_anon.ml" 213 7664 7691
+)
+"e_anon.ml" 193 6645 6692 "e_anon.ml" 193 6645 6696
+type(
+  E_t.defn
+)
+ident(
+  def defn "e_anon.ml" 194 6713 6737 "e_anon.ml" 213 7664 7691
+)
+"e_anon.ml" 193 6645 6698 "e_anon.ml" 193 6645 6700
+type(
+  E_t.wheredef
+)
+ident(
+  def wd "e_anon.ml" 194 6713 6737 "e_anon.ml" 213 7664 7691
+)
+"e_anon.ml" 193 6645 6702 "e_anon.ml" 193 6645 6703
+type(
+  E_t.visibility
+)
+"e_anon.ml" 193 6645 6705 "e_anon.ml" 193 6645 6706
+type(
+  E_t.export
+)
+"e_anon.ml" 193 6645 6686 "e_anon.ml" 193 6645 6707
+type(
+  E_t.hyp_
+)
+"e_anon.ml" 193 6645 6680 "e_anon.ml" 193 6645 6708
+type(
+  E_t.hyp
+)
+"e_anon.ml" 193 6645 6672 "e_anon.ml" 193 6645 6709
+type(
+  int * E_t.hyp
+)
+"e_anon.ml" 193 6645 6667 "e_anon.ml" 193 6645 6709
+type(
+  (int * E_t.hyp) option
+)
+type(
+  (int * E_t.hyp) option
+)
+"e_anon.ml" 195 6743 6773 "e_anon.ml" 195 6743 6777
+type(
+  E_t.defn
+)
+ident(
+  int_ref defn "e_anon.ml" 193 6645 6692 "e_anon.ml" 193 6645 6696
+)
+"e_anon.ml" 195 6743 6773 "e_anon.ml" 195 6743 6782
+type(
+  E_t.defn_
+)
+"e_anon.ml" 196 6788 6824 "e_anon.ml" 196 6788 6825
+type(
+  Util.hint
+)
+"e_anon.ml" 196 6788 6827 "e_anon.ml" 196 6788 6829
+type(
+  E_t.expr
+)
+ident(
+  def op "e_anon.ml" 197 6834 6862 "e_anon.ml" 206 7311 7377
+)
+"e_anon.ml" 196 6788 6814 "e_anon.ml" 196 6788 6830
+type(
+  E_t.defn_
+)
+type(
+  E_t.defn_
+)
+"e_anon.ml" 197 6834 6866 "e_anon.ml" 197 6834 6868
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def cx "e_anon.ml" 202 7087 7115 "e_anon.ml" 206 7311 7377
+)
+"e_anon.ml" 197 6834 6871 "e_anon.ml" 197 6834 6874
+type(
+  string list Visit.scx -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"e_anon.ml" 197 6834 6875 "e_anon.ml" 197 6834 6878
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 60 1183 1197 "e_anon.ml" 60 1183 1200
+)
+"e_anon.ml" 197 6834 6871 "e_anon.ml" 197 6834 6878
+type(
+  E_t.hyp Deque.dq
+)
+"e_anon.ml" 202 7087 7119 "e_anon.ml" 202 7087 7124
+type(
+  int
+)
+ident(
+  def index "e_anon.ml" 203 7140 7168 "e_anon.ml" 206 7311 7377
+)
+"e_anon.ml" 202 7087 7127 "e_anon.ml" 202 7087 7132
+type(
+  int
+)
+ident(
+  int_ref depth "e_anon.ml" 193 6645 6673 "e_anon.ml" 193 6645 6678
+)
+"e_anon.ml" 202 7087 7133 "e_anon.ml" 202 7087 7134
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"e_anon.ml" 202 7087 7135 "e_anon.ml" 202 7087 7136
+type(
+  int
+)
+"e_anon.ml" 202 7087 7127 "e_anon.ml" 202 7087 7136
+type(
+  int
+)
+"e_anon.ml" 203 7140 7172 "e_anon.ml" 203 7140 7174
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def op "e_anon.ml" 205 7269 7297 "e_anon.ml" 206 7311 7377
+)
+"e_anon.ml" 203 7140 7177 "e_anon.ml" 203 7140 7179
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_anon.ml" 196 6788 6827 "e_anon.ml" 196 6788 6829
+)
+"e_anon.ml" 203 7140 7177 "e_anon.ml" 203 7140 7184
+type(
+  E_t.expr_
+)
+"e_anon.ml" 203 7140 7185 "e_anon.ml" 203 7140 7187
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_anon.ml" 203 7140 7188 "e_anon.ml" 203 7140 7189
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 203 7140 7177 "e_anon.ml" 203 7140 7189
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 203 7140 7190 "e_anon.ml" 203 7140 7192
+type(
+  E_t.expr_ Property.wrapped -> E_t.defn -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( $$ ) "property.mli" 98 3261 3261 "property.mli" 98 3261 3312
+)
+"e_anon.ml" 203 7140 7193 "e_anon.ml" 203 7140 7197
+type(
+  E_t.defn
+)
+ident(
+  int_ref defn "e_anon.ml" 193 6645 6692 "e_anon.ml" 193 6645 6696
+)
+"e_anon.ml" 203 7140 7177 "e_anon.ml" 203 7140 7197
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 205 7269 7297 "e_anon.ml" 205 7269 7310
+type(
+  cx:E_t.hyp Deque.dq ->
+  index:int -> wd:E_t.wheredef -> E_t.expr -> E_t.expr list -> E_t.expr
+)
+ident(
+  int_ref standard_form "e_anon.ml" 39 733 737 "e_anon.ml" 39 733 750
+)
+"e_anon.ml" 206 7311 7347 "e_anon.ml" 206 7311 7349
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_anon.ml" 197 6834 6866 "e_anon.ml" 197 6834 6868
+)
+"e_anon.ml" 206 7311 7357 "e_anon.ml" 206 7311 7362
+type(
+  int
+)
+ident(
+  int_ref index "e_anon.ml" 202 7087 7119 "e_anon.ml" 202 7087 7124
+)
+"e_anon.ml" 206 7311 7367 "e_anon.ml" 206 7311 7369
+type(
+  E_t.wheredef
+)
+ident(
+  int_ref wd "e_anon.ml" 193 6645 6698 "e_anon.ml" 193 6645 6700
+)
+"e_anon.ml" 206 7311 7370 "e_anon.ml" 206 7311 7372
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_anon.ml" 203 7140 7172 "e_anon.ml" 203 7140 7174
+)
+"e_anon.ml" 206 7311 7373 "e_anon.ml" 206 7311 7377
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_anon.ml" 184 6185 6205 "e_anon.ml" 184 6185 6209
+)
+"e_anon.ml" 205 7269 7297 "e_anon.ml" 206 7311 7377
+type(
+  E_t.expr
+)
+"e_anon.ml" 203 7140 7168 "e_anon.ml" 206 7311 7377
+type(
+  E_t.expr
+)
+"e_anon.ml" 202 7087 7115 "e_anon.ml" 206 7311 7377
+type(
+  E_t.expr
+)
+"e_anon.ml" 197 6834 6862 "e_anon.ml" 206 7311 7377
+type(
+  E_t.expr
+)
+"e_anon.ml" 207 7378 7413 "e_anon.ml" 207 7378 7414
+type(
+  E_t.instance
+)
+type(
+  Util.hint
+)
+"e_anon.ml" 207 7378 7404 "e_anon.ml" 207 7378 7414
+type(
+  E_t.defn_
+)
+type(
+  E_t.defn_
+)
+"e_anon.ml" 208 7415 7449 "e_anon.ml" 208 7415 7450
+type(
+  (Util.hint * E_t.backend_args) list list
+)
+type(
+  E_t.expr
+)
+type(
+  Util.hint
+)
+"e_anon.ml" 208 7415 7441 "e_anon.ml" 208 7415 7450
+type(
+  E_t.defn_
+)
+type(
+  E_t.defn_
+)
+"e_anon.ml" 207 7378 7404 "e_anon.ml" 208 7415 7450
+type(
+  E_t.defn_
+)
+"e_anon.ml" 209 7454 7486 "e_anon.ml" 209 7454 7491
+type(
+  int
+)
+ident(
+  def index "e_anon.ml" 210 7507 7535 "e_anon.ml" 211 7557 7609
+)
+"e_anon.ml" 209 7454 7494 "e_anon.ml" 209 7454 7499
+type(
+  int
+)
+ident(
+  int_ref depth "e_anon.ml" 193 6645 6673 "e_anon.ml" 193 6645 6678
+)
+"e_anon.ml" 209 7454 7500 "e_anon.ml" 209 7454 7501
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"e_anon.ml" 209 7454 7502 "e_anon.ml" 209 7454 7503
+type(
+  int
+)
+"e_anon.ml" 209 7454 7494 "e_anon.ml" 209 7454 7503
+type(
+  int
+)
+"e_anon.ml" 210 7507 7539 "e_anon.ml" 210 7507 7541
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def op "e_anon.ml" 211 7557 7585 "e_anon.ml" 211 7557 7609
+)
+"e_anon.ml" 210 7507 7544 "e_anon.ml" 210 7507 7545
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 210 7507 7546 "e_anon.ml" 210 7507 7548
+type(
+  E_t.expr -> E_t.defn -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( $$ ) "property.mli" 98 3261 3261 "property.mli" 98 3261 3312
+)
+"e_anon.ml" 210 7507 7549 "e_anon.ml" 210 7507 7553
+type(
+  E_t.defn
+)
+ident(
+  int_ref defn "e_anon.ml" 193 6645 6692 "e_anon.ml" 193 6645 6696
+)
+"e_anon.ml" 210 7507 7544 "e_anon.ml" 210 7507 7553
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 211 7557 7585 "e_anon.ml" 211 7557 7595
+type(
+  int -> E_t.expr_ Property.wrapped -> E_t.expr list -> E_t.expr
+)
+ident(
+  int_ref anon_apply "e_anon.ml" 32 600 604 "e_anon.ml" 32 600 614
+)
+"e_anon.ml" 211 7557 7596 "e_anon.ml" 211 7557 7601
+type(
+  int
+)
+ident(
+  int_ref index "e_anon.ml" 209 7454 7486 "e_anon.ml" 209 7454 7491
+)
+"e_anon.ml" 211 7557 7602 "e_anon.ml" 211 7557 7604
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref op "e_anon.ml" 210 7507 7539 "e_anon.ml" 210 7507 7541
+)
+"e_anon.ml" 211 7557 7605 "e_anon.ml" 211 7557 7609
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_anon.ml" 184 6185 6205 "e_anon.ml" 184 6185 6209
+)
+"e_anon.ml" 211 7557 7585 "e_anon.ml" 211 7557 7609
+type(
+  E_t.expr
+)
+"e_anon.ml" 210 7507 7535 "e_anon.ml" 211 7557 7609
+type(
+  E_t.expr
+)
+"e_anon.ml" 209 7454 7482 "e_anon.ml" 211 7557 7609
+type(
+  E_t.expr
+)
+"e_anon.ml" 212 7610 7646 "e_anon.ml" 212 7610 7647
+type(
+  E_t.shape
+)
+type(
+  Util.hint
+)
+"e_anon.ml" 212 7610 7636 "e_anon.ml" 212 7610 7647
+type(
+  E_t.defn_
+)
+type(
+  E_t.defn_
+)
+"e_anon.ml" 212 7610 7658 "e_anon.ml" 212 7610 7663
+type(
+  bool
+)
+"e_anon.ml" 212 7610 7651 "e_anon.ml" 212 7610 7663
+type(
+  E_t.expr
+)
+"e_anon.ml" 194 6713 6737 "e_anon.ml" 213 7664 7691
+type(
+  E_t.expr
+)
+"e_anon.ml" 215 7736 7764 "e_anon.ml" 215 7736 7769
+type(
+  int
+)
+ident(
+  def depth "e_anon.ml" 216 7800 7824 "e_anon.ml" 218 7895 7943
+)
+"e_anon.ml" 215 7736 7784 "e_anon.ml" 215 7736 7785
+type(
+  E_t.hdom
+)
+type(
+  E_t.kind
+)
+type(
+  E_t.shape
+)
+type(
+  Util.hint
+)
+"e_anon.ml" 215 7736 7778 "e_anon.ml" 215 7736 7785
+type(
+  E_t.hyp_
+)
+"e_anon.ml" 215 7736 7772 "e_anon.ml" 215 7736 7786
+type(
+  E_t.hyp
+)
+"e_anon.ml" 215 7736 7771 "e_anon.ml" 215 7736 7795
+type(
+  E_t.hyp
+)
+ident(
+  def decl "e_anon.ml" 216 7800 7824 "e_anon.ml" 218 7895 7943
+)
+"e_anon.ml" 215 7736 7763 "e_anon.ml" 215 7736 7796
+type(
+  int * E_t.hyp
+)
+"e_anon.ml" 215 7736 7758 "e_anon.ml" 215 7736 7796
+type(
+  (int * E_t.hyp) option
+)
+type(
+  (int * E_t.hyp) option
+)
+"e_anon.ml" 216 7800 7828 "e_anon.ml" 216 7800 7833
+type(
+  int
+)
+ident(
+  def index "e_anon.ml" 217 7849 7873 "e_anon.ml" 218 7895 7943
+)
+"e_anon.ml" 216 7800 7836 "e_anon.ml" 216 7800 7841
+type(
+  int
+)
+ident(
+  int_ref depth "e_anon.ml" 215 7736 7764 "e_anon.ml" 215 7736 7769
+)
+"e_anon.ml" 216 7800 7842 "e_anon.ml" 216 7800 7843
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"e_anon.ml" 216 7800 7844 "e_anon.ml" 216 7800 7845
+type(
+  int
+)
+"e_anon.ml" 216 7800 7836 "e_anon.ml" 216 7800 7845
+type(
+  int
+)
+"e_anon.ml" 217 7849 7877 "e_anon.ml" 217 7849 7879
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def op "e_anon.ml" 218 7895 7919 "e_anon.ml" 218 7895 7943
+)
+"e_anon.ml" 217 7849 7882 "e_anon.ml" 217 7849 7883
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 217 7849 7884 "e_anon.ml" 217 7849 7886
+type(
+  E_t.expr -> E_t.hyp_ Property.wrapped -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( $$ ) "property.mli" 98 3261 3261 "property.mli" 98 3261 3312
+)
+"e_anon.ml" 217 7849 7887 "e_anon.ml" 217 7849 7891
+type(
+  E_t.hyp_ Property.wrapped
+)
+ident(
+  int_ref decl "e_anon.ml" 215 7736 7771 "e_anon.ml" 215 7736 7795
+)
+"e_anon.ml" 217 7849 7882 "e_anon.ml" 217 7849 7891
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 218 7895 7919 "e_anon.ml" 218 7895 7929
+type(
+  int -> E_t.expr_ Property.wrapped -> E_t.expr list -> E_t.expr
+)
+ident(
+  int_ref anon_apply "e_anon.ml" 32 600 604 "e_anon.ml" 32 600 614
+)
+"e_anon.ml" 218 7895 7930 "e_anon.ml" 218 7895 7935
+type(
+  int
+)
+ident(
+  int_ref index "e_anon.ml" 216 7800 7828 "e_anon.ml" 216 7800 7833
+)
+"e_anon.ml" 218 7895 7936 "e_anon.ml" 218 7895 7938
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref op "e_anon.ml" 217 7849 7877 "e_anon.ml" 217 7849 7879
+)
+"e_anon.ml" 218 7895 7939 "e_anon.ml" 218 7895 7943
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_anon.ml" 184 6185 6205 "e_anon.ml" 184 6185 6209
+)
+"e_anon.ml" 218 7895 7919 "e_anon.ml" 218 7895 7943
+type(
+  E_t.expr
+)
+"e_anon.ml" 217 7849 7873 "e_anon.ml" 218 7895 7943
+type(
+  E_t.expr
+)
+"e_anon.ml" 216 7800 7824 "e_anon.ml" 218 7895 7943
+type(
+  E_t.expr
+)
+"e_anon.ml" 219 7944 7972 "e_anon.ml" 219 7944 7977
+type(
+  int
+)
+ident(
+  def depth "e_anon.ml" 220 8007 8031 "e_anon.ml" 223 8159 8197
+)
+"e_anon.ml" 219 7944 7991 "e_anon.ml" 219 7944 7992
+type(
+  Util.hint
+)
+"e_anon.ml" 219 7944 7986 "e_anon.ml" 219 7944 7992
+type(
+  E_t.hyp_
+)
+"e_anon.ml" 219 7944 7980 "e_anon.ml" 219 7944 7993
+type(
+  E_t.hyp
+)
+"e_anon.ml" 219 7944 7979 "e_anon.ml" 219 7944 8002
+type(
+  E_t.hyp
+)
+ident(
+  def decl "e_anon.ml" 220 8007 8031 "e_anon.ml" 223 8159 8197
+)
+"e_anon.ml" 219 7944 7971 "e_anon.ml" 219 7944 8003
+type(
+  int * E_t.hyp
+)
+"e_anon.ml" 219 7944 7966 "e_anon.ml" 219 7944 8003
+type(
+  (int * E_t.hyp) option
+)
+type(
+  (int * E_t.hyp) option
+)
+"e_anon.ml" 220 8007 8040 "e_anon.ml" 220 8007 8051
+type(
+  E_t.expr list -> int
+)
+ident(
+  int_ref Stdlib.List.length "list.mli" 43 2033 2033 "list.mli" 43 2033 2060
+)
+"e_anon.ml" 220 8007 8052 "e_anon.ml" 220 8007 8056
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_anon.ml" 184 6185 6205 "e_anon.ml" 184 6185 6209
+)
+"e_anon.ml" 220 8007 8039 "e_anon.ml" 220 8007 8057
+type(
+  int
+)
+"e_anon.ml" 220 8007 8058 "e_anon.ml" 220 8007 8059
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_anon.ml" 220 8007 8060 "e_anon.ml" 220 8007 8061
+type(
+  int
+)
+"e_anon.ml" 220 8007 8038 "e_anon.ml" 220 8007 8062
+type(
+  bool
+)
+"e_anon.ml" 220 8007 8031 "e_anon.ml" 220 8007 8062
+type(
+  unit
+)
+"e_anon.ml" 221 8064 8092 "e_anon.ml" 221 8064 8097
+type(
+  int
+)
+ident(
+  def index "e_anon.ml" 222 8113 8137 "e_anon.ml" 223 8159 8197
+)
+"e_anon.ml" 221 8064 8100 "e_anon.ml" 221 8064 8105
+type(
+  int
+)
+ident(
+  int_ref depth "e_anon.ml" 219 7944 7972 "e_anon.ml" 219 7944 7977
+)
+"e_anon.ml" 221 8064 8106 "e_anon.ml" 221 8064 8107
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"e_anon.ml" 221 8064 8108 "e_anon.ml" 221 8064 8109
+type(
+  int
+)
+"e_anon.ml" 221 8064 8100 "e_anon.ml" 221 8064 8109
+type(
+  int
+)
+"e_anon.ml" 222 8113 8141 "e_anon.ml" 222 8113 8143
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def op "e_anon.ml" 223 8159 8183 "e_anon.ml" 223 8159 8197
+)
+"e_anon.ml" 222 8113 8146 "e_anon.ml" 222 8113 8147
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 222 8113 8148 "e_anon.ml" 222 8113 8150
+type(
+  E_t.expr -> E_t.hyp_ Property.wrapped -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( $$ ) "property.mli" 98 3261 3261 "property.mli" 98 3261 3312
+)
+"e_anon.ml" 222 8113 8151 "e_anon.ml" 222 8113 8155
+type(
+  E_t.hyp_ Property.wrapped
+)
+ident(
+  int_ref decl "e_anon.ml" 219 7944 7979 "e_anon.ml" 219 7944 8002
+)
+"e_anon.ml" 222 8113 8146 "e_anon.ml" 222 8113 8155
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 223 8159 8186 "e_anon.ml" 223 8159 8191
+type(
+  int
+)
+ident(
+  int_ref index "e_anon.ml" 221 8064 8092 "e_anon.ml" 221 8064 8097
+)
+"e_anon.ml" 223 8159 8183 "e_anon.ml" 223 8159 8191
+type(
+  E_t.expr_
+)
+"e_anon.ml" 223 8159 8192 "e_anon.ml" 223 8159 8194
+type(
+  E_t.expr_ -> E_t.expr_ Property.wrapped -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_anon.ml" 223 8159 8195 "e_anon.ml" 223 8159 8197
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref op "e_anon.ml" 222 8113 8141 "e_anon.ml" 222 8113 8143
+)
+"e_anon.ml" 223 8159 8183 "e_anon.ml" 223 8159 8197
+type(
+  E_t.expr
+)
+"e_anon.ml" 222 8113 8137 "e_anon.ml" 223 8159 8197
+type(
+  E_t.expr
+)
+"e_anon.ml" 221 8064 8088 "e_anon.ml" 223 8159 8197
+type(
+  E_t.expr
+)
+"e_anon.ml" 220 8007 8031 "e_anon.ml" 223 8159 8197
+type(
+  E_t.expr
+)
+"e_anon.ml" 225 8241 8269 "e_anon.ml" 225 8241 8270
+type(
+  int
+)
+"e_anon.ml" 225 8241 8283 "e_anon.ml" 225 8241 8284
+type(
+  E_t.time
+)
+type(
+  E_t.visibility
+)
+type(
+  E_t.expr
+)
+"e_anon.ml" 225 8241 8278 "e_anon.ml" 225 8241 8284
+type(
+  E_t.hyp_
+)
+"e_anon.ml" 225 8241 8272 "e_anon.ml" 225 8241 8285
+type(
+  E_t.hyp
+)
+"e_anon.ml" 225 8241 8268 "e_anon.ml" 225 8241 8286
+type(
+  int * E_t.hyp
+)
+"e_anon.ml" 225 8241 8263 "e_anon.ml" 225 8241 8286
+type(
+  (int * E_t.hyp) option
+)
+type(
+  (int * E_t.hyp) option
+)
+"e_anon.ml" 225 8241 8297 "e_anon.ml" 225 8241 8302
+type(
+  bool
+)
+"e_anon.ml" 225 8241 8290 "e_anon.ml" 225 8241 8302
+type(
+  E_t.expr
+)
+"e_anon.ml" 226 8303 8325 "e_anon.ml" 226 8303 8329
+type(
+  (int * E_t.hyp) option
+)
+type(
+  (int * E_t.hyp) option
+)
+"e_anon.ml" 230 8534 8559 "e_anon.ml" 230 8534 8571
+type(
+  ?debug:string ->
+  ?at:E_t.expr ->
+  ?prefix:string ->
+  ?nonl:unit ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Util.eprintf "util.mli" 46 1132 1132 "util.mli" 48 1217 1267
+)
+"e_anon.ml" 230 8534 8576 "e_anon.ml" 230 8534 8577
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+type(
+  E_t.expr option
+)
+"e_anon.ml" 230 8534 8578 "e_anon.ml" 230 8534 8605
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"e_anon.ml" 230 8534 8606 "e_anon.ml" 230 8534 8610
+type(
+  string
+)
+ident(
+  int_ref name "e_anon.ml" 173 5806 5834 "e_anon.ml" 173 5806 5838
+)
+"e_anon.ml" 230 8534 8559 "e_anon.ml" 230 8534 8610
+type(
+  unit
+)
+"e_anon.ml" 231 8613 8638 "e_anon.ml" 231 8613 8648
+type(
+  E_t.expr -> string -> unit
+)
+ident(
+  int_ref Errors.set "errors.mli" 53 1273 1273 "errors.mli" 53 1273 1319
+)
+"e_anon.ml" 231 8613 8649 "e_anon.ml" 231 8613 8650
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 231 8613 8652 "e_anon.ml" 231 8613 8666
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"e_anon.ml" 231 8613 8667 "e_anon.ml" 231 8613 8694
+type(
+  (string -> string, unit, string) format
+)
+"e_anon.ml" 231 8613 8695 "e_anon.ml" 231 8613 8699
+type(
+  string
+)
+ident(
+  int_ref name "e_anon.ml" 173 5806 5834 "e_anon.ml" 173 5806 5838
+)
+"e_anon.ml" 231 8613 8651 "e_anon.ml" 231 8613 8700
+type(
+  string
+)
+"e_anon.ml" 231 8613 8638 "e_anon.ml" 231 8613 8700
+type(
+  unit
+)
+"e_anon.ml" 232 8702 8727 "e_anon.ml" 232 8702 8735
+type(
+  string -> E_t.expr
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"e_anon.ml" 232 8702 8736 "e_anon.ml" 232 8702 8750
+type(
+  string
+)
+"e_anon.ml" 232 8702 8727 "e_anon.ml" 232 8702 8750
+type(
+  E_t.expr
+)
+"e_anon.ml" 231 8613 8638 "e_anon.ml" 232 8702 8750
+type(
+  E_t.expr
+)
+"e_anon.ml" 230 8534 8559 "e_anon.ml" 232 8702 8750
+type(
+  E_t.expr
+)
+"e_anon.ml" 188 6404 6420 "e_anon.ml" 232 8702 8750
+type(
+  E_t.expr
+)
+"e_anon.ml" 187 6334 6350 "e_anon.ml" 232 8702 8750
+type(
+  E_t.expr
+)
+"e_anon.ml" 186 6281 6297 "e_anon.ml" 232 8702 8750
+type(
+  E_t.expr
+)
+"e_anon.ml" 185 6245 6261 "e_anon.ml" 232 8702 8750
+type(
+  E_t.expr
+)
+"e_anon.ml" 183 6167 6179 "e_anon.ml" 233 8751 8766
+type(
+  E_t.expr
+)
+"e_anon.ml" 174 5850 5856 "e_anon.ml" 234 8767 8776
+type(
+  E_t.expr
+)
+"e_anon.ml" 235 8777 8790 "e_anon.ml" 235 8777 8791
+type(
+  string
+)
+"e_anon.ml" 235 8777 8783 "e_anon.ml" 235 8777 8791
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_anon.ml" 235 8777 8795 "e_anon.ml" 235 8777 8799
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"e_anon.ml" 235 8777 8795 "e_anon.ml" 235 8777 8804
+type(
+  string list Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_anon.ml" 235 8777 8805 "e_anon.ml" 235 8777 8808
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 60 1183 1197 "e_anon.ml" 60 1183 1200
+)
+"e_anon.ml" 235 8777 8817 "e_anon.ml" 235 8777 8818
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 235 8777 8820 "e_anon.ml" 235 8777 8822
+type(
+  E_t.expr list
+)
+"e_anon.ml" 235 8777 8810 "e_anon.ml" 235 8777 8823
+type(
+  E_t.expr_
+)
+"e_anon.ml" 235 8777 8824 "e_anon.ml" 235 8777 8826
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_anon.ml" 235 8777 8827 "e_anon.ml" 235 8777 8828
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 235 8777 8809 "e_anon.ml" 235 8777 8829
+type(
+  E_t.expr
+)
+"e_anon.ml" 235 8777 8795 "e_anon.ml" 235 8777 8829
+type(
+  E_t.expr
+)
+"e_anon.ml" 237 8894 8908 "e_anon.ml" 237 8894 8909
+type(
+  E_t.expr
+)
+ident(
+  def e "e_anon.ml" 237 8894 8931 "e_anon.ml" 237 8894 8946
+)
+"e_anon.ml" 237 8894 8919 "e_anon.ml" 237 8894 8925
+type(
+  E_t.pform_
+)
+"e_anon.ml" 237 8894 8911 "e_anon.ml" 237 8894 8926
+type(
+  E_t.pform
+)
+"e_anon.ml" 237 8894 8900 "e_anon.ml" 237 8894 8927
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_anon.ml" 237 8894 8931 "e_anon.ml" 237 8894 8935
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"e_anon.ml" 237 8894 8931 "e_anon.ml" 237 8894 8940
+type(
+  string list Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_anon.ml" 237 8894 8941 "e_anon.ml" 237 8894 8944
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 60 1183 1197 "e_anon.ml" 60 1183 1200
+)
+"e_anon.ml" 237 8894 8945 "e_anon.ml" 237 8894 8946
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 237 8894 8908 "e_anon.ml" 237 8894 8909
+)
+"e_anon.ml" 237 8894 8931 "e_anon.ml" 237 8894 8946
+type(
+  E_t.expr
+)
+"e_anon.ml" 238 8947 8953 "e_anon.ml" 238 8947 8954
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_anon.ml" 238 8947 8958 "e_anon.ml" 238 8947 8963
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_anon.ml" 57 1131 1141 "e_anon.ml" 57 1131 1164
+)
+"e_anon.ml" 238 8947 8958 "e_anon.ml" 238 8947 8968
+type(
+  'a -> string list Visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  string list Visit.scx -> E_t.expr -> E_t.expr
+)
+type(
+  string list Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_anon.ml" 238 8947 8969 "e_anon.ml" 238 8947 8972
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 60 1183 1197 "e_anon.ml" 60 1183 1200
+)
+"e_anon.ml" 238 8947 8973 "e_anon.ml" 238 8947 8974
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 60 1183 1201 "e_anon.ml" 60 1183 1202
+)
+"e_anon.ml" 238 8947 8958 "e_anon.ml" 238 8947 8974
+type(
+  E_t.expr
+)
+"e_anon.ml" 61 1205 1209 "e_anon.ml" 238 8947 8974
+type(
+  E_t.expr
+)
+"e_anon.ml" 240 8976 8989 "e_anon.ml" 240 8976 8992
+type(
+  string list Visit.scx
+)
+ident(
+  def scx "e_anon.ml" 240 8976 8993 "e_anon.ml" 253 9428 9454
+)
+"e_anon.ml" 240 8976 8993 "e_anon.ml" 240 8976 8994
+type(
+  E_t.hyp
+)
+ident(
+  def h "e_anon.ml" 240 8976 8997 "e_anon.ml" 253 9428 9454
+)
+"e_anon.ml" 240 8976 9003 "e_anon.ml" 240 8976 9004
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_anon.ml" 240 8976 8993 "e_anon.ml" 240 8976 8994
+)
+"e_anon.ml" 240 8976 9003 "e_anon.ml" 240 8976 9009
+type(
+  E_t.hyp_
+)
+"e_anon.ml" 241 9015 9027 "e_anon.ml" 241 9015 9028
+type(
+  E_t.expr
+)
+ident(
+  def e "e_anon.ml" 242 9046 9052 "e_anon.ml" 246 9220 9242
+)
+"e_anon.ml" 241 9015 9030 "e_anon.ml" 241 9015 9033
+type(
+  E_t.visibility
+)
+ident(
+  def vis "e_anon.ml" 242 9046 9052 "e_anon.ml" 246 9220 9242
+)
+"e_anon.ml" 241 9015 9035 "e_anon.ml" 241 9015 9041
+type(
+  E_t.time
+)
+"e_anon.ml" 241 9015 9021 "e_anon.ml" 241 9015 9042
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_anon.ml" 242 9046 9056 "e_anon.ml" 242 9046 9059
+type(
+  'c * 'd Deque.dq -> 'd -> 'c * 'd Deque.dq
+)
+ident(
+  def adj "e_anon.ml" 244 9104 9112 "e_anon.ml" 246 9220 9242
+)
+"e_anon.ml" 242 9046 9061 "e_anon.ml" 242 9046 9062
+type(
+  'c
+)
+ident(
+  def s "e_anon.ml" 242 9046 9068 "e_anon.ml" 243 9072 9100
+)
+"e_anon.ml" 242 9046 9064 "e_anon.ml" 242 9046 9066
+type(
+  'd Deque.dq
+)
+ident(
+  def cx "e_anon.ml" 242 9046 9068 "e_anon.ml" 243 9072 9100
+)
+"e_anon.ml" 242 9046 9060 "e_anon.ml" 242 9046 9067
+type(
+  'c * 'd Deque.dq
+)
+"e_anon.ml" 242 9046 9068 "e_anon.ml" 242 9046 9069
+type(
+  'd
+)
+ident(
+  def h "e_anon.ml" 243 9072 9080 "e_anon.ml" 243 9072 9100
+)
+"e_anon.ml" 243 9072 9081 "e_anon.ml" 243 9072 9082
+type(
+  'c
+)
+ident(
+  int_ref s "e_anon.ml" 242 9046 9061 "e_anon.ml" 242 9046 9062
+)
+"e_anon.ml" 243 9072 9084 "e_anon.ml" 243 9072 9094
+type(
+  'd Deque.dq -> 'd -> 'd Deque.dq
+)
+ident(
+  int_ref Deque.snoc "deque.mli" 13 220 220 "deque.mli" 13 220 252
+)
+"e_anon.ml" 243 9072 9095 "e_anon.ml" 243 9072 9097
+type(
+  'd Deque.dq
+)
+ident(
+  int_ref cx "e_anon.ml" 242 9046 9064 "e_anon.ml" 242 9046 9066
+)
+"e_anon.ml" 243 9072 9098 "e_anon.ml" 243 9072 9099
+type(
+  'd
+)
+ident(
+  int_ref h "e_anon.ml" 242 9046 9068 "e_anon.ml" 242 9046 9069
+)
+"e_anon.ml" 243 9072 9084 "e_anon.ml" 243 9072 9099
+type(
+  'd Deque.dq
+)
+"e_anon.ml" 243 9072 9080 "e_anon.ml" 243 9072 9100
+type(
+  'c * 'd Deque.dq
+)
+"e_anon.ml" 244 9104 9116 "e_anon.ml" 244 9104 9117
+type(
+  E_t.expr
+)
+ident(
+  def e "e_anon.ml" 245 9139 9147 "e_anon.ml" 246 9220 9242
+)
+"e_anon.ml" 244 9104 9120 "e_anon.ml" 244 9104 9124
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"e_anon.ml" 244 9104 9120 "e_anon.ml" 244 9104 9129
+type(
+  string list Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_anon.ml" 244 9104 9130 "e_anon.ml" 244 9104 9133
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 240 8976 8989 "e_anon.ml" 240 8976 8992
+)
+"e_anon.ml" 244 9104 9134 "e_anon.ml" 244 9104 9135
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 241 9015 9027 "e_anon.ml" 241 9015 9028
+)
+"e_anon.ml" 244 9104 9120 "e_anon.ml" 244 9104 9135
+type(
+  E_t.expr
+)
+"e_anon.ml" 245 9139 9151 "e_anon.ml" 245 9139 9152
+type(
+  E_t.hyp_ Property.wrapped
+)
+ident(
+  def h "e_anon.ml" 246 9220 9228 "e_anon.ml" 246 9220 9242
+)
+"e_anon.ml" 245 9139 9161 "e_anon.ml" 245 9139 9162
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 244 9104 9116 "e_anon.ml" 244 9104 9117
+)
+"e_anon.ml" 245 9139 9164 "e_anon.ml" 245 9139 9167
+type(
+  E_t.visibility
+)
+ident(
+  int_ref vis "e_anon.ml" 241 9015 9030 "e_anon.ml" 241 9015 9033
+)
+"e_anon.ml" 245 9139 9169 "e_anon.ml" 245 9139 9198
+type(
+  E_t.hyp Deque.dq -> E_t.expr -> E_t.time
+)
+ident(
+  int_ref E_temporal_props.compute_time "e_temporal_props.mli" 7 217 217 "e_temporal_props.mli" 7 217 276
+)
+"e_anon.ml" 245 9139 9200 "e_anon.ml" 245 9139 9203
+type(
+  string list Visit.scx -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"e_anon.ml" 245 9139 9204 "e_anon.ml" 245 9139 9207
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 240 8976 8989 "e_anon.ml" 240 8976 8992
+)
+"e_anon.ml" 245 9139 9199 "e_anon.ml" 245 9139 9208
+type(
+  E_t.hyp Deque.dq
+)
+"e_anon.ml" 245 9139 9209 "e_anon.ml" 245 9139 9210
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 244 9104 9116 "e_anon.ml" 244 9104 9117
+)
+"e_anon.ml" 245 9139 9169 "e_anon.ml" 245 9139 9210
+type(
+  E_t.time
+)
+"e_anon.ml" 245 9139 9155 "e_anon.ml" 245 9139 9211
+type(
+  E_t.hyp_
+)
+"e_anon.ml" 245 9139 9212 "e_anon.ml" 245 9139 9214
+type(
+  E_t.hyp_ -> E_t.hyp -> E_t.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_anon.ml" 245 9139 9215 "e_anon.ml" 245 9139 9216
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_anon.ml" 240 8976 8993 "e_anon.ml" 240 8976 8994
+)
+"e_anon.ml" 245 9139 9155 "e_anon.ml" 245 9139 9216
+type(
+  E_t.hyp_ Property.wrapped
+)
+"e_anon.ml" 246 9220 9229 "e_anon.ml" 246 9220 9232
+type(
+  string list Visit.scx -> E_t.hyp -> string list Visit.scx
+)
+ident(
+  int_ref adj "e_anon.ml" 242 9046 9056 "e_anon.ml" 242 9046 9059
+)
+"e_anon.ml" 246 9220 9233 "e_anon.ml" 246 9220 9236
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 240 8976 8989 "e_anon.ml" 240 8976 8992
+)
+"e_anon.ml" 246 9220 9237 "e_anon.ml" 246 9220 9238
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_anon.ml" 245 9139 9151 "e_anon.ml" 245 9139 9152
+)
+"e_anon.ml" 246 9220 9229 "e_anon.ml" 246 9220 9238
+type(
+  string list Visit.scx
+)
+"e_anon.ml" 246 9220 9240 "e_anon.ml" 246 9220 9241
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_anon.ml" 245 9139 9151 "e_anon.ml" 245 9139 9152
+)
+"e_anon.ml" 246 9220 9228 "e_anon.ml" 246 9220 9242
+type(
+  string list Visit.scx * E_t.hyp
+)
+"e_anon.ml" 245 9139 9147 "e_anon.ml" 246 9220 9242
+type(
+  string list Visit.scx * E_t.hyp
+)
+"e_anon.ml" 244 9104 9112 "e_anon.ml" 246 9220 9242
+type(
+  string list Visit.scx * E_t.hyp
+)
+"e_anon.ml" 242 9046 9052 "e_anon.ml" 246 9220 9242
+type(
+  string list Visit.scx * E_t.hyp
+)
+"e_anon.ml" 247 9243 9255 "e_anon.ml" 247 9243 9256
+type(
+  E_t.expr
+)
+ident(
+  def e "e_anon.ml" 248 9270 9276 "e_anon.ml" 252 9405 9427
+)
+"e_anon.ml" 247 9243 9258 "e_anon.ml" 247 9243 9261
+type(
+  E_t.visibility
+)
+ident(
+  def vis "e_anon.ml" 248 9270 9276 "e_anon.ml" 252 9405 9427
+)
+"e_anon.ml" 247 9243 9263 "e_anon.ml" 247 9243 9265
+type(
+  E_t.time
+)
+ident(
+  def ts "e_anon.ml" 248 9270 9276 "e_anon.ml" 252 9405 9427
+)
+"e_anon.ml" 247 9243 9249 "e_anon.ml" 247 9243 9266
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_anon.ml" 248 9270 9280 "e_anon.ml" 248 9270 9283
+type(
+  'e * 'f Deque.dq -> 'f -> 'e * 'f Deque.dq
+)
+ident(
+  def adj "e_anon.ml" 250 9328 9336 "e_anon.ml" 252 9405 9427
+)
+"e_anon.ml" 248 9270 9285 "e_anon.ml" 248 9270 9286
+type(
+  'e
+)
+ident(
+  def s "e_anon.ml" 248 9270 9292 "e_anon.ml" 249 9296 9324
+)
+"e_anon.ml" 248 9270 9288 "e_anon.ml" 248 9270 9290
+type(
+  'f Deque.dq
+)
+ident(
+  def cx "e_anon.ml" 248 9270 9292 "e_anon.ml" 249 9296 9324
+)
+"e_anon.ml" 248 9270 9284 "e_anon.ml" 248 9270 9291
+type(
+  'e * 'f Deque.dq
+)
+"e_anon.ml" 248 9270 9292 "e_anon.ml" 248 9270 9293
+type(
+  'f
+)
+ident(
+  def h "e_anon.ml" 249 9296 9304 "e_anon.ml" 249 9296 9324
+)
+"e_anon.ml" 249 9296 9305 "e_anon.ml" 249 9296 9306
+type(
+  'e
+)
+ident(
+  int_ref s "e_anon.ml" 248 9270 9285 "e_anon.ml" 248 9270 9286
+)
+"e_anon.ml" 249 9296 9308 "e_anon.ml" 249 9296 9318
+type(
+  'f Deque.dq -> 'f -> 'f Deque.dq
+)
+ident(
+  int_ref Deque.snoc "deque.mli" 13 220 220 "deque.mli" 13 220 252
+)
+"e_anon.ml" 249 9296 9319 "e_anon.ml" 249 9296 9321
+type(
+  'f Deque.dq
+)
+ident(
+  int_ref cx "e_anon.ml" 248 9270 9288 "e_anon.ml" 248 9270 9290
+)
+"e_anon.ml" 249 9296 9322 "e_anon.ml" 249 9296 9323
+type(
+  'f
+)
+ident(
+  int_ref h "e_anon.ml" 248 9270 9292 "e_anon.ml" 248 9270 9293
+)
+"e_anon.ml" 249 9296 9308 "e_anon.ml" 249 9296 9323
+type(
+  'f Deque.dq
+)
+"e_anon.ml" 249 9296 9304 "e_anon.ml" 249 9296 9324
+type(
+  'e * 'f Deque.dq
+)
+"e_anon.ml" 250 9328 9340 "e_anon.ml" 250 9328 9341
+type(
+  E_t.expr
+)
+ident(
+  def e "e_anon.ml" 251 9363 9371 "e_anon.ml" 252 9405 9427
+)
+"e_anon.ml" 250 9328 9344 "e_anon.ml" 250 9328 9348
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"e_anon.ml" 250 9328 9344 "e_anon.ml" 250 9328 9353
+type(
+  string list Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_anon.ml" 250 9328 9354 "e_anon.ml" 250 9328 9357
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 240 8976 8989 "e_anon.ml" 240 8976 8992
+)
+"e_anon.ml" 250 9328 9358 "e_anon.ml" 250 9328 9359
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 247 9243 9255 "e_anon.ml" 247 9243 9256
+)
+"e_anon.ml" 250 9328 9344 "e_anon.ml" 250 9328 9359
+type(
+  E_t.expr
+)
+"e_anon.ml" 251 9363 9375 "e_anon.ml" 251 9363 9376
+type(
+  E_t.hyp_ Property.wrapped
+)
+ident(
+  def h "e_anon.ml" 252 9405 9413 "e_anon.ml" 252 9405 9427
+)
+"e_anon.ml" 251 9363 9385 "e_anon.ml" 251 9363 9386
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 250 9328 9340 "e_anon.ml" 250 9328 9341
+)
+"e_anon.ml" 251 9363 9388 "e_anon.ml" 251 9363 9391
+type(
+  E_t.visibility
+)
+ident(
+  int_ref vis "e_anon.ml" 247 9243 9258 "e_anon.ml" 247 9243 9261
+)
+"e_anon.ml" 251 9363 9393 "e_anon.ml" 251 9363 9395
+type(
+  E_t.time
+)
+ident(
+  int_ref ts "e_anon.ml" 247 9243 9263 "e_anon.ml" 247 9243 9265
+)
+"e_anon.ml" 251 9363 9379 "e_anon.ml" 251 9363 9396
+type(
+  E_t.hyp_
+)
+"e_anon.ml" 251 9363 9397 "e_anon.ml" 251 9363 9399
+type(
+  E_t.hyp_ -> E_t.hyp -> E_t.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_anon.ml" 251 9363 9400 "e_anon.ml" 251 9363 9401
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_anon.ml" 240 8976 8993 "e_anon.ml" 240 8976 8994
+)
+"e_anon.ml" 251 9363 9379 "e_anon.ml" 251 9363 9401
+type(
+  E_t.hyp_ Property.wrapped
+)
+"e_anon.ml" 252 9405 9414 "e_anon.ml" 252 9405 9417
+type(
+  string list Visit.scx -> E_t.hyp -> string list Visit.scx
+)
+ident(
+  int_ref adj "e_anon.ml" 248 9270 9280 "e_anon.ml" 248 9270 9283
+)
+"e_anon.ml" 252 9405 9418 "e_anon.ml" 252 9405 9421
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 240 8976 8989 "e_anon.ml" 240 8976 8992
+)
+"e_anon.ml" 252 9405 9422 "e_anon.ml" 252 9405 9423
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_anon.ml" 251 9363 9375 "e_anon.ml" 251 9363 9376
+)
+"e_anon.ml" 252 9405 9414 "e_anon.ml" 252 9405 9423
+type(
+  string list Visit.scx
+)
+"e_anon.ml" 252 9405 9425 "e_anon.ml" 252 9405 9426
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_anon.ml" 251 9363 9375 "e_anon.ml" 251 9363 9376
+)
+"e_anon.ml" 252 9405 9413 "e_anon.ml" 252 9405 9427
+type(
+  string list Visit.scx * E_t.hyp
+)
+"e_anon.ml" 251 9363 9371 "e_anon.ml" 252 9405 9427
+type(
+  string list Visit.scx * E_t.hyp
+)
+"e_anon.ml" 250 9328 9336 "e_anon.ml" 252 9405 9427
+type(
+  string list Visit.scx * E_t.hyp
+)
+"e_anon.ml" 248 9270 9276 "e_anon.ml" 252 9405 9427
+type(
+  string list Visit.scx * E_t.hyp
+)
+"e_anon.ml" 253 9428 9434 "e_anon.ml" 253 9428 9435
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_anon.ml" 253 9428 9439 "e_anon.ml" 253 9428 9444
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_anon.ml" 57 1131 1141 "e_anon.ml" 57 1131 1164
+)
+"e_anon.ml" 253 9428 9439 "e_anon.ml" 253 9428 9448
+type(
+  'a -> string list Visit.scx -> E_t.hyp -> string list Visit.scx * E_t.hyp
+)
+ident(
+  ext_ref hyp
+)
+type(
+  string list Visit.scx -> E_t.hyp -> string list Visit.scx * E_t.hyp
+)
+type(
+  string list Visit.scx -> E_t.hyp -> string list Visit.scx * E_t.hyp
+)
+"e_anon.ml" 253 9428 9449 "e_anon.ml" 253 9428 9452
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 240 8976 8989 "e_anon.ml" 240 8976 8992
+)
+"e_anon.ml" 253 9428 9453 "e_anon.ml" 253 9428 9454
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_anon.ml" 240 8976 8993 "e_anon.ml" 240 8976 8994
+)
+"e_anon.ml" 253 9428 9439 "e_anon.ml" 253 9428 9454
+type(
+  string list Visit.scx * E_t.hyp
+)
+"e_anon.ml" 240 8976 8997 "e_anon.ml" 253 9428 9454
+type(
+  string list Visit.scx * E_t.hyp
+)
+"e_anon.ml" 255 9456 9471 "e_anon.ml" 255 9456 9474
+type(
+  string list Visit.scx
+)
+ident(
+  def scx "e_anon.ml" 255 9456 9475 "e_anon.ml" 267 10008 10037
+)
+"e_anon.ml" 255 9456 9475 "e_anon.ml" 255 9456 9477
+type(
+  E_t.pform
+)
+ident(
+  def pf "e_anon.ml" 255 9456 9480 "e_anon.ml" 267 10008 10037
+)
+"e_anon.ml" 255 9456 9486 "e_anon.ml" 255 9456 9488
+type(
+  E_t.pform
+)
+ident(
+  int_ref pf "e_anon.ml" 255 9456 9475 "e_anon.ml" 255 9456 9477
+)
+"e_anon.ml" 255 9456 9486 "e_anon.ml" 255 9456 9493
+type(
+  E_t.pform_
+)
+"e_anon.ml" 256 9499 9513 "e_anon.ml" 256 9499 9514
+type(
+  string
+)
+ident(
+  def l "e_anon.ml" 257 9523 9531 "e_anon.ml" 266 9979 10007
+)
+"e_anon.ml" 256 9499 9516 "e_anon.ml" 256 9499 9518
+type(
+  Util.hints
+)
+ident(
+  def ns "e_anon.ml" 257 9523 9531 "e_anon.ml" 266 9979 10007
+)
+"e_anon.ml" 256 9499 9505 "e_anon.ml" 256 9499 9519
+type(
+  E_t.pform_
+)
+type(
+  E_t.pform_
+)
+"e_anon.ml" 257 9523 9535 "e_anon.ml" 257 9523 9537
+type(
+  (Util.hint * int) list
+)
+ident(
+  def xs "e_anon.ml" 266 9979 9987 "e_anon.ml" 266 9979 10007
+)
+"e_anon.ml" 257 9523 9540 "e_anon.ml" 257 9523 9548
+type(
+  (Util.hint -> Util.hint * int) -> Util.hints -> (Util.hint * int) list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"e_anon.ml" 258 9555 9569 "e_anon.ml" 258 9555 9570
+type(
+  Util.hint
+)
+ident(
+  def n "e_anon.ml" 258 9555 9574 "e_anon.ml" 264 9932 9960
+)
+"e_anon.ml" 258 9555 9580 "e_anon.ml" 258 9555 9590
+type(
+  ?backwards:bool ->
+  E_t.hyp Deque.dq -> (E_t.hyp -> bool) -> (int * E_t.hyp) option
+)
+ident(
+  int_ref Deque.find "deque.mli" 23 579 579 "deque.mli" 23 579 652
+)
+"e_anon.ml" 258 9555 9602 "e_anon.ml" 258 9555 9606
+type(
+  bool
+)
+type(
+  bool option
+)
+"e_anon.ml" 258 9555 9608 "e_anon.ml" 258 9555 9611
+type(
+  string list Visit.scx -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"e_anon.ml" 258 9555 9612 "e_anon.ml" 258 9555 9615
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 255 9456 9471 "e_anon.ml" 255 9456 9474
+)
+"e_anon.ml" 258 9555 9607 "e_anon.ml" 258 9555 9616
+type(
+  E_t.hyp Deque.dq
+)
+"e_anon.ml" 258 9555 9618 "e_anon.ml" 258 9555 9630
+type(
+  string -> E_t.hyp -> bool
+)
+ident(
+  int_ref hyp_is_named "e_anon.ml" 19 291 295 "e_anon.ml" 19 291 307
+)
+"e_anon.ml" 258 9555 9631 "e_anon.ml" 258 9555 9632
+type(
+  Util.hint
+)
+ident(
+  int_ref n "e_anon.ml" 258 9555 9569 "e_anon.ml" 258 9555 9570
+)
+"e_anon.ml" 258 9555 9631 "e_anon.ml" 258 9555 9637
+type(
+  string
+)
+"e_anon.ml" 258 9555 9617 "e_anon.ml" 258 9555 9638
+type(
+  E_t.hyp -> bool
+)
+"e_anon.ml" 258 9555 9580 "e_anon.ml" 258 9555 9638
+type(
+  (int * E_t.hyp) option
+)
+"e_anon.ml" 259 9644 9658 "e_anon.ml" 259 9644 9662
+type(
+  (int * E_t.hyp) option
+)
+type(
+  (int * E_t.hyp) option
+)
+"e_anon.ml" 260 9666 9682 "e_anon.ml" 260 9666 9694
+type(
+  ?debug:string ->
+  ?at:E_t.pform ->
+  ?prefix:string ->
+  ?nonl:unit ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Util.eprintf "util.mli" 46 1132 1132 "util.mli" 48 1217 1267
+)
+"e_anon.ml" 260 9666 9699 "e_anon.ml" 260 9666 9701
+type(
+  E_t.pform
+)
+ident(
+  int_ref pf "e_anon.ml" 255 9456 9475 "e_anon.ml" 255 9456 9477
+)
+type(
+  E_t.pform option
+)
+"e_anon.ml" 260 9666 9702 "e_anon.ml" 260 9666 9751
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"e_anon.ml" 260 9666 9752 "e_anon.ml" 260 9666 9753
+type(
+  Util.hint
+)
+ident(
+  int_ref n "e_anon.ml" 258 9555 9569 "e_anon.ml" 258 9555 9570
+)
+"e_anon.ml" 260 9666 9752 "e_anon.ml" 260 9666 9758
+type(
+  string
+)
+"e_anon.ml" 260 9666 9682 "e_anon.ml" 260 9666 9758
+type(
+  unit
+)
+"e_anon.ml" 261 9761 9777 "e_anon.ml" 261 9761 9787
+type(
+  E_t.pform -> string -> unit
+)
+ident(
+  int_ref Errors.set "errors.mli" 53 1273 1273 "errors.mli" 53 1273 1319
+)
+"e_anon.ml" 261 9761 9788 "e_anon.ml" 261 9761 9790
+type(
+  E_t.pform
+)
+ident(
+  int_ref pf "e_anon.ml" 255 9456 9475 "e_anon.ml" 255 9456 9477
+)
+"e_anon.ml" 261 9761 9792 "e_anon.ml" 261 9761 9806
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"e_anon.ml" 261 9761 9807 "e_anon.ml" 261 9761 9856
+type(
+  (string -> string, unit, string) format
+)
+"e_anon.ml" 261 9761 9857 "e_anon.ml" 261 9761 9858
+type(
+  Util.hint
+)
+ident(
+  int_ref n "e_anon.ml" 258 9555 9569 "e_anon.ml" 258 9555 9570
+)
+"e_anon.ml" 261 9761 9857 "e_anon.ml" 261 9761 9863
+type(
+  string
+)
+"e_anon.ml" 261 9761 9791 "e_anon.ml" 261 9761 9864
+type(
+  string
+)
+"e_anon.ml" 261 9761 9777 "e_anon.ml" 261 9761 9864
+type(
+  unit
+)
+"e_anon.ml" 262 9866 9880 "e_anon.ml" 262 9866 9888
+type(
+  string -> Util.hint * int
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"e_anon.ml" 262 9866 9889 "e_anon.ml" 262 9866 9900
+type(
+  string
+)
+"e_anon.ml" 262 9866 9880 "e_anon.ml" 262 9866 9900
+type(
+  Util.hint * int
+)
+"e_anon.ml" 261 9761 9777 "e_anon.ml" 262 9866 9900
+type(
+  Util.hint * int
+)
+"e_anon.ml" 260 9666 9682 "e_anon.ml" 262 9866 9900
+type(
+  Util.hint * int
+)
+"e_anon.ml" 263 9901 9921 "e_anon.ml" 263 9901 9924
+type(
+  int
+)
+ident(
+  def dep "e_anon.ml" 264 9932 9948 "e_anon.ml" 264 9932 9960
+)
+"e_anon.ml" 263 9901 9926 "e_anon.ml" 263 9901 9927
+type(
+  E_t.hyp
+)
+"e_anon.ml" 263 9901 9920 "e_anon.ml" 263 9901 9928
+type(
+  int * E_t.hyp
+)
+"e_anon.ml" 263 9901 9915 "e_anon.ml" 263 9901 9928
+type(
+  (int * E_t.hyp) option
+)
+type(
+  (int * E_t.hyp) option
+)
+"e_anon.ml" 264 9932 9949 "e_anon.ml" 264 9932 9950
+type(
+  Util.hint
+)
+ident(
+  int_ref n "e_anon.ml" 258 9555 9569 "e_anon.ml" 258 9555 9570
+)
+"e_anon.ml" 264 9932 9952 "e_anon.ml" 264 9932 9955
+type(
+  int
+)
+ident(
+  int_ref dep "e_anon.ml" 263 9901 9921 "e_anon.ml" 263 9901 9924
+)
+"e_anon.ml" 264 9932 9956 "e_anon.ml" 264 9932 9957
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"e_anon.ml" 264 9932 9958 "e_anon.ml" 264 9932 9959
+type(
+  int
+)
+"e_anon.ml" 264 9932 9952 "e_anon.ml" 264 9932 9959
+type(
+  int
+)
+"e_anon.ml" 264 9932 9948 "e_anon.ml" 264 9932 9960
+type(
+  Util.hint * int
+)
+"e_anon.ml" 258 9555 9574 "e_anon.ml" 264 9932 9960
+type(
+  Util.hint * int
+)
+"e_anon.ml" 257 9523 9549 "e_anon.ml" 265 9961 9972
+type(
+  Util.hint -> Util.hint * int
+)
+"e_anon.ml" 265 9961 9973 "e_anon.ml" 265 9961 9975
+type(
+  Util.hints
+)
+ident(
+  int_ref ns "e_anon.ml" 256 9499 9516 "e_anon.ml" 256 9499 9518
+)
+"e_anon.ml" 257 9523 9540 "e_anon.ml" 265 9961 9975
+type(
+  (Util.hint * int) list
+)
+"e_anon.ml" 266 9979 9995 "e_anon.ml" 266 9979 9996
+type(
+  string
+)
+ident(
+  int_ref l "e_anon.ml" 256 9499 9513 "e_anon.ml" 256 9499 9514
+)
+"e_anon.ml" 266 9979 9998 "e_anon.ml" 266 9979 10000
+type(
+  (Util.hint * int) list
+)
+ident(
+  int_ref xs "e_anon.ml" 257 9523 9535 "e_anon.ml" 257 9523 9537
+)
+"e_anon.ml" 266 9979 9987 "e_anon.ml" 266 9979 10001
+type(
+  E_t.pform_
+)
+"e_anon.ml" 266 9979 10002 "e_anon.ml" 266 9979 10004
+type(
+  E_t.pform_ -> E_t.pform -> E_t.pform
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_anon.ml" 266 9979 10005 "e_anon.ml" 266 9979 10007
+type(
+  E_t.pform
+)
+ident(
+  int_ref pf "e_anon.ml" 255 9456 9475 "e_anon.ml" 255 9456 9477
+)
+"e_anon.ml" 266 9979 9987 "e_anon.ml" 266 9979 10007
+type(
+  E_t.pform
+)
+"e_anon.ml" 257 9523 9531 "e_anon.ml" 266 9979 10007
+type(
+  E_t.pform
+)
+"e_anon.ml" 267 10008 10014 "e_anon.ml" 267 10008 10015
+type(
+  E_t.pform_
+)
+type(
+  E_t.pform_
+)
+"e_anon.ml" 267 10008 10019 "e_anon.ml" 267 10008 10024
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_anon.ml" 57 1131 1141 "e_anon.ml" 57 1131 1164
+)
+"e_anon.ml" 267 10008 10019 "e_anon.ml" 267 10008 10030
+type(
+  'a -> string list Visit.scx -> E_t.pform -> E_t.pform
+)
+ident(
+  ext_ref pform
+)
+type(
+  string list Visit.scx -> E_t.pform -> E_t.pform
+)
+type(
+  string list Visit.scx -> E_t.pform -> E_t.pform
+)
+"e_anon.ml" 267 10008 10031 "e_anon.ml" 267 10008 10034
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 255 9456 9471 "e_anon.ml" 255 9456 9474
+)
+"e_anon.ml" 267 10008 10035 "e_anon.ml" 267 10008 10037
+type(
+  E_t.pform
+)
+ident(
+  int_ref pf "e_anon.ml" 255 9456 9475 "e_anon.ml" 255 9456 9477
+)
+"e_anon.ml" 267 10008 10019 "e_anon.ml" 267 10008 10037
+type(
+  E_t.pform
+)
+"e_anon.ml" 255 9456 9480 "e_anon.ml" 267 10008 10037
+type(
+  E_t.pform
+)
+"e_anon.ml" 269 10039 10053 "e_anon.ml" 269 10039 10056
+type(
+  string list Visit.scx
+)
+ident(
+  def scx "e_anon.ml" 269 10039 10057 "e_anon.ml" 296 11031 11056
+)
+"e_anon.ml" 269 10039 10057 "e_anon.ml" 269 10039 10059
+type(
+  E_t.defn
+)
+ident(
+  def df "e_anon.ml" 269 10039 10062 "e_anon.ml" 296 11031 11056
+)
+"e_anon.ml" 269 10039 10068 "e_anon.ml" 269 10039 10070
+type(
+  E_t.defn
+)
+ident(
+  int_ref df "e_anon.ml" 269 10039 10057 "e_anon.ml" 269 10039 10059
+)
+"e_anon.ml" 269 10039 10068 "e_anon.ml" 269 10039 10075
+type(
+  E_t.defn_
+)
+"e_anon.ml" 270 10081 10097 "e_anon.ml" 270 10081 10099
+type(
+  Util.hint
+)
+ident(
+  def nm "e_anon.ml" 271 10108 10116 "e_anon.ml" 294 10988 11019
+)
+"e_anon.ml" 270 10081 10101 "e_anon.ml" 270 10081 10103
+type(
+  E_t.expr
+)
+ident(
+  def op "e_anon.ml" 271 10108 10116 "e_anon.ml" 294 10988 11019
+)
+"e_anon.ml" 270 10081 10087 "e_anon.ml" 270 10081 10104
+type(
+  E_t.defn_
+)
+type(
+  E_t.defn_
+)
+"e_anon.ml" 271 10108 10120 "e_anon.ml" 271 10108 10122
+type(
+  E_t.expr
+)
+ident(
+  def op "e_anon.ml" 294 10988 10996 "e_anon.ml" 294 10988 11019
+)
+"e_anon.ml" 271 10108 10131 "e_anon.ml" 271 10108 10133
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_anon.ml" 270 10081 10101 "e_anon.ml" 270 10081 10103
+)
+"e_anon.ml" 271 10108 10131 "e_anon.ml" 271 10108 10138
+type(
+  E_t.expr_
+)
+"e_anon.ml" 272 10144 10160 "e_anon.ml" 272 10144 10161
+type(
+  E_t.expr
+)
+type(
+  E_t.bounds
+)
+"e_anon.ml" 272 10144 10156 "e_anon.ml" 272 10144 10161
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_anon.ml" 273 10165 10183 "e_anon.ml" 273 10165 10187
+type(
+  string list Visit.scx
+)
+ident(
+  def nscx "e_anon.ml" 274 10259 10273 "e_anon.ml" 289 10885 10927
+)
+"e_anon.ml" 273 10165 10190 "e_anon.ml" 273 10165 10199
+type(
+  string list Visit.scx -> E_t.hyp -> string list Visit.scx
+)
+ident(
+  int_ref Visit.adj "e_visit.mli" 23 632 632 "e_visit.mli" 23 632 666
+)
+"e_anon.ml" 273 10165 10200 "e_anon.ml" 273 10165 10203
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 269 10039 10053 "e_anon.ml" 269 10039 10056
+)
+"e_anon.ml" 273 10165 10212 "e_anon.ml" 273 10165 10214
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "e_anon.ml" 270 10081 10097 "e_anon.ml" 270 10081 10099
+)
+"e_anon.ml" 273 10165 10216 "e_anon.ml" 273 10165 10226
+type(
+  E_t.shape
+)
+"e_anon.ml" 273 10165 10228 "e_anon.ml" 273 10165 10236
+type(
+  E_t.kind
+)
+"e_anon.ml" 273 10165 10238 "e_anon.ml" 273 10165 10247
+type(
+  E_t.hdom
+)
+"e_anon.ml" 273 10165 10205 "e_anon.ml" 273 10165 10248
+type(
+  E_t.hyp_
+)
+"e_anon.ml" 273 10165 10249 "e_anon.ml" 273 10165 10251
+type(
+  E_t.hyp_ -> Util.hint -> E_t.hyp
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_anon.ml" 273 10165 10252 "e_anon.ml" 273 10165 10254
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "e_anon.ml" 270 10081 10097 "e_anon.ml" 270 10081 10099
+)
+"e_anon.ml" 273 10165 10204 "e_anon.ml" 273 10165 10255
+type(
+  E_t.hyp
+)
+"e_anon.ml" 273 10165 10190 "e_anon.ml" 273 10165 10255
+type(
+  string list Visit.scx
+)
+"e_anon.ml" 274 10259 10277 "e_anon.ml" 274 10259 10279
+type(
+  E_t.expr
+)
+ident(
+  def op "e_anon.ml" 275 10303 10317 "e_anon.ml" 289 10885 10927
+)
+"e_anon.ml" 274 10259 10282 "e_anon.ml" 274 10259 10286
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"e_anon.ml" 274 10259 10282 "e_anon.ml" 274 10259 10291
+type(
+  string list Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_anon.ml" 274 10259 10292 "e_anon.ml" 274 10259 10296
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref nscx "e_anon.ml" 273 10165 10183 "e_anon.ml" 273 10165 10187
+)
+"e_anon.ml" 274 10259 10297 "e_anon.ml" 274 10259 10299
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_anon.ml" 270 10081 10101 "e_anon.ml" 270 10081 10103
+)
+"e_anon.ml" 274 10259 10282 "e_anon.ml" 274 10259 10299
+type(
+  E_t.expr
+)
+"e_anon.ml" 275 10303 10321 "e_anon.ml" 275 10303 10323
+type(
+  'g -> 'g Property.wrapped
+)
+ident(
+  def mk "e_anon.ml" 276 10352 10366 "e_anon.ml" 289 10885 10927
+)
+"e_anon.ml" 275 10303 10324 "e_anon.ml" 275 10303 10325
+type(
+  'g
+)
+ident(
+  def x "e_anon.ml" 275 10303 10328 "e_anon.ml" 275 10303 10348
+)
+"e_anon.ml" 275 10303 10330 "e_anon.ml" 275 10303 10332
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_anon.ml" 274 10259 10277 "e_anon.ml" 274 10259 10279
+)
+"e_anon.ml" 275 10303 10345 "e_anon.ml" 275 10303 10346
+type(
+  'g
+)
+ident(
+  int_ref x "e_anon.ml" 275 10303 10324 "e_anon.ml" 275 10303 10325
+)
+"e_anon.ml" 275 10303 10328 "e_anon.ml" 275 10303 10348
+type(
+  'g Property.wrapped
+)
+"e_anon.ml" 276 10352 10370 "e_anon.ml" 276 10352 10376
+type(
+  E_t.expr -> bool
+)
+ident(
+  def occurs "e_anon.ml" 280 10518 10534 "e_anon.ml" 289 10885 10927
+)
+"e_anon.ml" 276 10352 10377 "e_anon.ml" 276 10352 10379
+type(
+  E_t.expr
+)
+ident(
+  def op "e_anon.ml" 277 10382 10398 "e_anon.ml" 278 10464 10500
+)
+"e_anon.ml" 277 10382 10402 "e_anon.ml" 277 10382 10405
+type(
+  E_t.expr
+)
+ident(
+  def op' "e_anon.ml" 278 10464 10480 "e_anon.ml" 278 10464 10500
+)
+"e_anon.ml" 277 10382 10409 "e_anon.ml" 277 10382 10417
+type(
+  E_subst.sub -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref E_subst.app_expr "e_subst.mli" 20 405 405 "e_subst.mli" 20 405 439
+)
+"e_anon.ml" 277 10382 10419 "e_anon.ml" 277 10382 10424
+type(
+  E_t.expr -> E_subst.sub -> E_subst.sub
+)
+ident(
+  int_ref E_subst.scons "e_subst.mli" 12 155 155 "e_subst.mli" 12 155 185
+)
+"e_anon.ml" 277 10382 10433 "e_anon.ml" 277 10382 10438
+type(
+  string
+)
+"e_anon.ml" 277 10382 10426 "e_anon.ml" 277 10382 10438
+type(
+  E_t.expr_
+)
+"e_anon.ml" 277 10382 10439 "e_anon.ml" 277 10382 10441
+type(
+  E_t.expr_ -> (E_t.expr_ -> E_t.expr) -> E_t.expr
+)
+ident(
+  int_ref |> "e_anon.ml" 15 235 239 "e_anon.ml" 15 235 245
+)
+"e_anon.ml" 277 10382 10442 "e_anon.ml" 277 10382 10444
+type(
+  E_t.expr_ -> E_t.expr
+)
+ident(
+  int_ref mk "e_anon.ml" 275 10303 10321 "e_anon.ml" 275 10303 10323
+)
+"e_anon.ml" 277 10382 10425 "e_anon.ml" 277 10382 10445
+type(
+  E_t.expr
+)
+"e_anon.ml" 277 10382 10447 "e_anon.ml" 277 10382 10452
+type(
+  int -> E_subst.sub
+)
+ident(
+  int_ref E_subst.shift "e_subst.mli" 11 132 132 "e_subst.mli" 11 132 154
+)
+"e_anon.ml" 277 10382 10453 "e_anon.ml" 277 10382 10454
+type(
+  int
+)
+"e_anon.ml" 277 10382 10446 "e_anon.ml" 277 10382 10455
+type(
+  E_subst.sub
+)
+"e_anon.ml" 277 10382 10418 "e_anon.ml" 277 10382 10456
+type(
+  E_subst.sub
+)
+"e_anon.ml" 277 10382 10457 "e_anon.ml" 277 10382 10459
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_anon.ml" 276 10352 10377 "e_anon.ml" 276 10352 10379
+)
+"e_anon.ml" 277 10382 10408 "e_anon.ml" 277 10382 10460
+type(
+  E_t.expr
+)
+"e_anon.ml" 278 10464 10480 "e_anon.ml" 278 10464 10483
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"e_anon.ml" 278 10464 10485 "e_anon.ml" 278 10464 10492
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref Eq.expr "e_eq.mli" 12 234 234 "e_eq.mli" 12 234 265
+)
+"e_anon.ml" 278 10464 10493 "e_anon.ml" 278 10464 10496
+type(
+  E_t.expr
+)
+ident(
+  int_ref op' "e_anon.ml" 277 10382 10402 "e_anon.ml" 277 10382 10405
+)
+"e_anon.ml" 278 10464 10497 "e_anon.ml" 278 10464 10499
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_anon.ml" 276 10352 10377 "e_anon.ml" 276 10352 10379
+)
+"e_anon.ml" 278 10464 10484 "e_anon.ml" 278 10464 10500
+type(
+  bool
+)
+"e_anon.ml" 278 10464 10480 "e_anon.ml" 278 10464 10500
+type(
+  bool
+)
+"e_anon.ml" 277 10382 10398 "e_anon.ml" 278 10464 10500
+type(
+  bool
+)
+"e_anon.ml" 280 10518 10537 "e_anon.ml" 280 10518 10543
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref occurs "e_anon.ml" 276 10352 10370 "e_anon.ml" 276 10352 10376
+)
+"e_anon.ml" 280 10518 10544 "e_anon.ml" 280 10518 10546
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_anon.ml" 274 10259 10277 "e_anon.ml" 274 10259 10279
+)
+"e_anon.ml" 280 10518 10537 "e_anon.ml" 280 10518 10546
+type(
+  bool
+)
+"e_anon.ml" 281 10558 10582 "e_anon.ml" 281 10558 10583
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def e "e_anon.ml" 285 10735 10755 "e_anon.ml" 286 10802 10839
+)
+"e_anon.ml" 281 10558 10602 "e_anon.ml" 281 10558 10612
+type(
+  Builtin.builtin
+)
+"e_anon.ml" 281 10558 10593 "e_anon.ml" 281 10558 10612
+type(
+  E_t.expr_
+)
+"e_anon.ml" 281 10558 10613 "e_anon.ml" 281 10558 10615
+type(
+  E_t.expr_ -> (E_t.expr_ -> E_t.expr) -> E_t.expr
+)
+ident(
+  int_ref |> "e_anon.ml" 15 235 239 "e_anon.ml" 15 235 245
+)
+"e_anon.ml" 281 10558 10616 "e_anon.ml" 281 10558 10618
+type(
+  E_t.expr_ -> E_t.expr
+)
+ident(
+  int_ref mk "e_anon.ml" 275 10303 10321 "e_anon.ml" 275 10303 10323
+)
+"e_anon.ml" 281 10558 10593 "e_anon.ml" 281 10558 10618
+type(
+  E_t.expr
+)
+"e_anon.ml" 282 10622 10654 "e_anon.ml" 282 10622 10655
+type(
+  int
+)
+"e_anon.ml" 282 10622 10651 "e_anon.ml" 282 10622 10655
+type(
+  E_t.expr_
+)
+"e_anon.ml" 282 10622 10656 "e_anon.ml" 282 10622 10658
+type(
+  E_t.expr_ -> (E_t.expr_ -> E_t.expr) -> E_t.expr
+)
+ident(
+  int_ref |> "e_anon.ml" 15 235 239 "e_anon.ml" 15 235 245
+)
+"e_anon.ml" 282 10622 10659 "e_anon.ml" 282 10622 10661
+type(
+  E_t.expr_ -> E_t.expr
+)
+ident(
+  int_ref mk "e_anon.ml" 275 10303 10321 "e_anon.ml" 275 10303 10323
+)
+"e_anon.ml" 282 10622 10651 "e_anon.ml" 282 10622 10661
+type(
+  E_t.expr
+)
+"e_anon.ml" 283 10664 10693 "e_anon.ml" 283 10664 10695
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_anon.ml" 274 10259 10277 "e_anon.ml" 274 10259 10279
+)
+"e_anon.ml" 281 10558 10620 "e_anon.ml" 284 10696 10724
+type(
+  E_t.expr list
+)
+"e_anon.ml" 281 10558 10586 "e_anon.ml" 284 10696 10725
+type(
+  E_t.expr_
+)
+"e_anon.ml" 284 10696 10726 "e_anon.ml" 284 10696 10728
+type(
+  E_t.expr_ ->
+  (E_t.expr_ -> E_t.expr_ Property.wrapped) -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref |> "e_anon.ml" 15 235 239 "e_anon.ml" 15 235 245
+)
+"e_anon.ml" 284 10696 10729 "e_anon.ml" 284 10696 10731
+type(
+  E_t.expr_ -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref mk "e_anon.ml" 275 10303 10321 "e_anon.ml" 275 10303 10323
+)
+"e_anon.ml" 281 10558 10586 "e_anon.ml" 284 10696 10731
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_anon.ml" 285 10735 10759 "e_anon.ml" 285 10735 10765
+type(
+  E_t.expr
+)
+ident(
+  def choose "e_anon.ml" 286 10802 10822 "e_anon.ml" 286 10802 10839
+)
+"e_anon.ml" 285 10735 10768 "e_anon.ml" 285 10735 10793
+type(
+  E_t.From_hint.t -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref E_t.From_hint.make_choose "e_t.mli" 267 5798 5802 "e_t.mli" 268 5819 5844
+)
+"e_anon.ml" 285 10735 10794 "e_anon.ml" 285 10735 10796
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "e_anon.ml" 270 10081 10097 "e_anon.ml" 270 10081 10099
+)
+"e_anon.ml" 285 10735 10797 "e_anon.ml" 285 10735 10798
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 281 10558 10582 "e_anon.ml" 281 10558 10583
+)
+"e_anon.ml" 285 10735 10768 "e_anon.ml" 285 10735 10798
+type(
+  E_t.expr
+)
+"e_anon.ml" 286 10802 10822 "e_anon.ml" 286 10802 10828
+type(
+  E_t.expr
+)
+ident(
+  int_ref choose "e_anon.ml" 285 10735 10759 "e_anon.ml" 285 10735 10765
+)
+"e_anon.ml" 286 10802 10822 "e_anon.ml" 286 10802 10833
+type(
+  E_t.expr_
+)
+"e_anon.ml" 286 10802 10834 "e_anon.ml" 286 10802 10836
+type(
+  E_t.expr_ -> (E_t.expr_ -> E_t.expr) -> E_t.expr
+)
+ident(
+  int_ref |> "e_anon.ml" 15 235 239 "e_anon.ml" 15 235 245
+)
+"e_anon.ml" 286 10802 10837 "e_anon.ml" 286 10802 10839
+type(
+  E_t.expr_ -> E_t.expr
+)
+ident(
+  int_ref mk "e_anon.ml" 275 10303 10321 "e_anon.ml" 275 10303 10323
+)
+"e_anon.ml" 286 10802 10822 "e_anon.ml" 286 10802 10839
+type(
+  E_t.expr
+)
+"e_anon.ml" 285 10735 10755 "e_anon.ml" 286 10802 10839
+type(
+  E_t.expr
+)
+"e_anon.ml" 280 10518 10552 "e_anon.ml" 287 10840 10863
+type(
+  E_t.expr
+)
+"e_anon.ml" 289 10885 10903 "e_anon.ml" 289 10885 10911
+type(
+  E_subst.sub -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref E_subst.app_expr "e_subst.mli" 20 405 405 "e_subst.mli" 20 405 439
+)
+"e_anon.ml" 289 10885 10913 "e_anon.ml" 289 10885 10918
+type(
+  int -> E_subst.sub
+)
+ident(
+  int_ref E_subst.shift "e_subst.mli" 11 132 132 "e_subst.mli" 11 132 154
+)
+"e_anon.ml" 289 10885 10919 "e_anon.ml" 289 10885 10923
+type(
+  int
+)
+"e_anon.ml" 289 10885 10912 "e_anon.ml" 289 10885 10924
+type(
+  E_subst.sub
+)
+"e_anon.ml" 289 10885 10925 "e_anon.ml" 289 10885 10927
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_anon.ml" 274 10259 10277 "e_anon.ml" 274 10259 10279
+)
+"e_anon.ml" 289 10885 10903 "e_anon.ml" 289 10885 10927
+type(
+  E_t.expr
+)
+"e_anon.ml" 280 10518 10534 "e_anon.ml" 289 10885 10927
+type(
+  E_t.expr
+)
+"e_anon.ml" 276 10352 10366 "e_anon.ml" 289 10885 10927
+type(
+  E_t.expr
+)
+"e_anon.ml" 275 10303 10317 "e_anon.ml" 289 10885 10927
+type(
+  E_t.expr
+)
+"e_anon.ml" 274 10259 10273 "e_anon.ml" 289 10885 10927
+type(
+  E_t.expr
+)
+"e_anon.ml" 273 10165 10179 "e_anon.ml" 289 10885 10927
+type(
+  E_t.expr
+)
+"e_anon.ml" 291 10929 10941 "e_anon.ml" 291 10929 10942
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_anon.ml" 292 10946 10960 "e_anon.ml" 292 10946 10964
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"e_anon.ml" 292 10946 10960 "e_anon.ml" 292 10946 10969
+type(
+  string list Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_anon.ml" 292 10946 10970 "e_anon.ml" 292 10946 10973
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 269 10039 10053 "e_anon.ml" 269 10039 10056
+)
+"e_anon.ml" 292 10946 10974 "e_anon.ml" 292 10946 10976
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_anon.ml" 270 10081 10101 "e_anon.ml" 270 10081 10103
+)
+"e_anon.ml" 292 10946 10960 "e_anon.ml" 292 10946 10976
+type(
+  E_t.expr
+)
+"e_anon.ml" 271 10108 10125 "e_anon.ml" 292 10946 10976
+type(
+  E_t.expr
+)
+"e_anon.ml" 294 10988 11006 "e_anon.ml" 294 10988 11008
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "e_anon.ml" 270 10081 10097 "e_anon.ml" 270 10081 10099
+)
+"e_anon.ml" 294 10988 11010 "e_anon.ml" 294 10988 11012
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_anon.ml" 271 10108 10120 "e_anon.ml" 271 10108 10122
+)
+"e_anon.ml" 294 10988 10996 "e_anon.ml" 294 10988 11013
+type(
+  E_t.defn_
+)
+"e_anon.ml" 294 10988 11014 "e_anon.ml" 294 10988 11016
+type(
+  E_t.defn_ -> E_t.defn -> E_t.defn
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_anon.ml" 294 10988 11017 "e_anon.ml" 294 10988 11019
+type(
+  E_t.defn
+)
+ident(
+  int_ref df "e_anon.ml" 269 10039 10057 "e_anon.ml" 269 10039 10059
+)
+"e_anon.ml" 294 10988 10996 "e_anon.ml" 294 10988 11019
+type(
+  E_t.defn
+)
+"e_anon.ml" 271 10108 10116 "e_anon.ml" 294 10988 11019
+type(
+  E_t.defn
+)
+"e_anon.ml" 295 11020 11026 "e_anon.ml" 295 11020 11027
+type(
+  E_t.defn_
+)
+type(
+  E_t.defn_
+)
+"e_anon.ml" 296 11031 11039 "e_anon.ml" 296 11031 11044
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_anon.ml" 57 1131 1141 "e_anon.ml" 57 1131 1164
+)
+"e_anon.ml" 296 11031 11039 "e_anon.ml" 296 11031 11049
+type(
+  'a -> string list Visit.scx -> E_t.defn -> E_t.defn
+)
+ident(
+  ext_ref defn
+)
+type(
+  string list Visit.scx -> E_t.defn -> E_t.defn
+)
+type(
+  string list Visit.scx -> E_t.defn -> E_t.defn
+)
+"e_anon.ml" 296 11031 11050 "e_anon.ml" 296 11031 11053
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 269 10039 10053 "e_anon.ml" 269 10039 10056
+)
+"e_anon.ml" 296 11031 11054 "e_anon.ml" 296 11031 11056
+type(
+  E_t.defn
+)
+ident(
+  int_ref df "e_anon.ml" 269 10039 10057 "e_anon.ml" 269 10039 10059
+)
+"e_anon.ml" 296 11031 11039 "e_anon.ml" 296 11031 11056
+type(
+  E_t.defn
+)
+"e_anon.ml" 269 10039 10062 "e_anon.ml" 296 11031 11056
+type(
+  E_t.defn
+)
+"e_anon.ml" 303 11113 11129 "e_anon.ml" 303 11113 11132
+type(
+  string list Visit.scx
+)
+ident(
+  def scx "e_anon.ml" 303 11113 11133 "e_anon.ml" 304 11137 11176
+)
+"e_anon.ml" 303 11113 11133 "e_anon.ml" 303 11113 11134
+type(
+  E_t.expr
+)
+ident(
+  def e "e_anon.ml" 304 11137 11145 "e_anon.ml" 304 11137 11176
+)
+"e_anon.ml" 304 11137 11145 "e_anon.ml" 304 11137 11157
+type(
+  E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Elab.desugar "e_elab.mli" 9 108 108 "e_elab.mli" 9 108 134
+)
+"e_anon.ml" 304 11137 11159 "e_anon.ml" 304 11137 11164
+type(
+  < adj : string list Visit.scx -> E_t.hyp -> string list Visit.scx;
+    adjs : string list Visit.scx -> E_t.hyp list -> string list Visit.scx;
+    bound : string list Visit.scx ->
+            E_t.bound -> string list Visit.scx * E_t.bound;
+    bounds : string list Visit.scx ->
+             E_t.bound list -> string list Visit.scx * E_t.bound list;
+    defn : string list Visit.scx -> E_t.defn -> E_t.defn;
+    defns : string list Visit.scx ->
+            E_t.defn list -> string list Visit.scx * E_t.defn list;
+    expr : string list Visit.scx -> E_t.expr -> E_t.expr;
+    exspec : string list Visit.scx -> E_t.exspec -> E_t.exspec;
+    hyp : string list Visit.scx -> E_t.hyp -> string list Visit.scx * E_t.hyp;
+    hyps : string list Visit.scx ->
+           E_t.hyp Deque.dq -> string list Visit.scx * E_t.hyp Deque.dq;
+    instance : string list Visit.scx -> E_t.instance -> E_t.instance;
+    pform : string list Visit.scx -> E_t.pform -> E_t.pform;
+    sel : string list Visit.scx -> E_t.sel -> E_t.sel;
+    sequent : string list Visit.scx ->
+              E_t.sequent -> string list Visit.scx * E_t.sequent;
+    .. >
+)
+ident(
+  ext_ref self-2
+)
+type(
+  < adj : string list Visit.scx -> E_t.hyp -> string list Visit.scx;
+    adjs : string list Visit.scx -> E_t.hyp list -> string list Visit.scx;
+    bound : string list Visit.scx ->
+            E_t.bound -> string list Visit.scx * E_t.bound;
+    bounds : string list Visit.scx ->
+             E_t.bound list -> string list Visit.scx * E_t.bound list;
+    defn : string list Visit.scx -> E_t.defn -> E_t.defn;
+    defns : string list Visit.scx ->
+            E_t.defn list -> string list Visit.scx * E_t.defn list;
+    expr : string list Visit.scx -> E_t.expr -> E_t.expr;
+    exspec : string list Visit.scx -> E_t.exspec -> E_t.exspec;
+    hyp : string list Visit.scx -> E_t.hyp -> string list Visit.scx * E_t.hyp;
+    hyps : string list Visit.scx ->
+           E_t.hyp Deque.dq -> string list Visit.scx * E_t.hyp Deque.dq;
+    instance : string list Visit.scx -> E_t.instance -> E_t.instance;
+    pform : string list Visit.scx -> E_t.pform -> E_t.pform;
+    sel : string list Visit.scx -> E_t.sel -> E_t.sel;
+    sequent : string list Visit.scx ->
+              E_t.sequent -> string list Visit.scx * E_t.sequent;
+    .. >
+  as 'a
+)
+ident(
+  int_ref super "e_anon.ml" 301 11083 11095 "e_anon.ml" 301 11083 11102
+)
+"e_anon.ml" 304 11137 11159 "e_anon.ml" 304 11137 11169
+type(
+  'a -> string list Visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  string list Visit.scx -> E_t.expr -> E_t.expr
+)
+type(
+  string list Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_anon.ml" 304 11137 11170 "e_anon.ml" 304 11137 11173
+type(
+  string list Visit.scx
+)
+ident(
+  int_ref scx "e_anon.ml" 303 11113 11129 "e_anon.ml" 303 11113 11132
+)
+"e_anon.ml" 304 11137 11174 "e_anon.ml" 304 11137 11175
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_anon.ml" 303 11113 11133 "e_anon.ml" 303 11113 11134
+)
+"e_anon.ml" 304 11137 11158 "e_anon.ml" 304 11137 11176
+type(
+  E_t.expr
+)
+"e_anon.ml" 304 11137 11145 "e_anon.ml" 304 11137 11176
+type(
+  E_t.expr
+)
+"e_anon.ml" 308 11183 11187 "e_anon.ml" 308 11183 11191
+type(
+  anon
+)
+ident(
+  def anon "e_anon.ml" 308 11183 11202 "e_anon.ml" 0 0 -1
+)
+"e_anon.ml" 308 11183 11194 "e_anon.ml" 308 11183 11202
+type(
+  anon
+)

@@ -1,0 +1,41 @@
+"version.ml" 2 68 73 "version.ml" 2 68 78
+type(
+  int
+)
+ident(
+  def major "version.ml" 2 68 101 "version.ml" 0 0 -1
+)
+"version.ml" 2 68 79 "version.ml" 2 68 84
+type(
+  int
+)
+ident(
+  def minor "version.ml" 2 68 101 "version.ml" 0 0 -1
+)
+"version.ml" 2 68 85 "version.ml" 2 68 90
+type(
+  int
+)
+ident(
+  def micro "version.ml" 2 68 101 "version.ml" 0 0 -1
+)
+"version.ml" 2 68 72 "version.ml" 2 68 91
+type(
+  int * int * int
+)
+"version.ml" 2 68 95 "version.ml" 2 68 96
+type(
+  int
+)
+"version.ml" 2 68 97 "version.ml" 2 68 98
+type(
+  int
+)
+"version.ml" 2 68 99 "version.ml" 2 68 100
+type(
+  int
+)
+"version.ml" 2 68 94 "version.ml" 2 68 101
+type(
+  int * int * int
+)

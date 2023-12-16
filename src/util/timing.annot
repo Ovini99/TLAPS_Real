@@ -1,0 +1,629 @@
+"timing.ml" 13 195 199 "timing.ml" 13 195 210
+type(
+  unit -> float
+)
+ident(
+  def start_timer "timing.ml" 15 238 238 "timing.ml" 0 0 -1
+)
+"timing.ml" 13 195 211 "timing.ml" 13 195 213
+type(
+  unit
+)
+"timing.ml" 13 195 216 "timing.ml" 13 195 233
+type(
+  unit -> float
+)
+ident(
+  int_ref Unix.gettimeofday "unix.mli" 1177 48558 48558 "unix.mli" 1177 48558 48590
+)
+"timing.ml" 13 195 234 "timing.ml" 13 195 236
+type(
+  unit
+)
+"timing.ml" 13 195 216 "timing.ml" 13 195 236
+type(
+  float
+)
+"timing.ml" 15 238 242 "timing.ml" 15 238 251
+type(
+  float -> float
+)
+ident(
+  def get_timer "timing.ml" 20 365 365 "timing.ml" 0 0 -1
+)
+"timing.ml" 15 238 252 "timing.ml" 15 238 253
+type(
+  float
+)
+ident(
+  def t "timing.ml" 15 238 256 "timing.ml" 15 238 281
+)
+"timing.ml" 15 238 256 "timing.ml" 15 238 273
+type(
+  unit -> float
+)
+ident(
+  int_ref Unix.gettimeofday "unix.mli" 1177 48558 48558 "unix.mli" 1177 48558 48590
+)
+"timing.ml" 15 238 274 "timing.ml" 15 238 276
+type(
+  unit
+)
+"timing.ml" 15 238 256 "timing.ml" 15 238 276
+type(
+  float
+)
+"timing.ml" 15 238 277 "timing.ml" 15 238 279
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( -. ) "stdlib.mli" 467 17929 17929 "stdlib.mli" 467 17929 17984
+)
+"timing.ml" 15 238 280 "timing.ml" 15 238 281
+type(
+  float
+)
+ident(
+  int_ref t "timing.ml" 15 238 252 "timing.ml" 15 238 253
+)
+"timing.ml" 15 238 256 "timing.ml" 15 238 281
+type(
+  float
+)
+"timing.ml" 24 472 476 "timing.ml" 24 472 485
+type(
+  string -> clock
+)
+ident(
+  def new_clock "timing.ml" 28 581 581 "timing.ml" 0 0 -1
+)
+"timing.ml" 24 472 486 "timing.ml" 24 472 490
+type(
+  string
+)
+ident(
+  def desc "timing.ml" 24 472 493 "timing.ml" 26 545 579
+)
+"timing.ml" 24 472 502 "timing.ml" 24 472 506
+type(
+  string
+)
+ident(
+  int_ref desc "timing.ml" 24 472 486 "timing.ml" 24 472 490
+)
+"timing.ml" 25 509 539 "timing.ml" 25 509 542
+type(
+  float
+)
+"timing.ml" 26 545 576 "timing.ml" 26 545 577
+type(
+  int
+)
+"timing.ml" 24 472 493 "timing.ml" 26 545 579
+type(
+  clock
+)
+"timing.ml" 28 581 585 "timing.ml" 28 581 592
+type(
+  clock
+)
+ident(
+  def ambient "timing.ml" 30 614 614 "timing.ml" 0 0 -1
+)
+"timing.ml" 28 581 595 "timing.ml" 28 581 604
+type(
+  string -> clock
+)
+ident(
+  int_ref new_clock "timing.ml" 24 472 476 "timing.ml" 24 472 485
+)
+"timing.ml" 28 581 605 "timing.ml" 28 581 612
+type(
+  string
+)
+"timing.ml" 28 581 595 "timing.ml" 28 581 612
+type(
+  clock
+)
+"timing.ml" 30 614 618 "timing.ml" 30 614 640
+type(
+  float
+)
+ident(
+  def beginning_of_the_world "timing.ml" 32 665 665 "timing.ml" 0 0 -1
+)
+"timing.ml" 30 614 643 "timing.ml" 30 614 660
+type(
+  unit -> float
+)
+ident(
+  int_ref Unix.gettimeofday "unix.mli" 1177 48558 48558 "unix.mli" 1177 48558 48590
+)
+"timing.ml" 30 614 661 "timing.ml" 30 614 663
+type(
+  unit
+)
+"timing.ml" 30 614 643 "timing.ml" 30 614 663
+type(
+  float
+)
+"timing.ml" 32 665 669 "timing.ml" 32 665 679
+type(
+  (clock * float) ref
+)
+ident(
+  def last_start "timing.ml" 34 721 721 "timing.ml" 0 0 -1
+)
+"timing.ml" 32 665 682 "timing.ml" 32 665 685
+type(
+  clock * float -> (clock * float) ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"timing.ml" 32 665 687 "timing.ml" 32 665 694
+type(
+  clock
+)
+ident(
+  int_ref ambient "timing.ml" 28 581 585 "timing.ml" 28 581 592
+)
+"timing.ml" 32 665 696 "timing.ml" 32 665 718
+type(
+  float
+)
+ident(
+  int_ref beginning_of_the_world "timing.ml" 30 614 618 "timing.ml" 30 614 640
+)
+"timing.ml" 32 665 686 "timing.ml" 32 665 719
+type(
+  clock * float
+)
+"timing.ml" 32 665 682 "timing.ml" 32 665 719
+type(
+  (clock * float) ref
+)
+"timing.ml" 34 721 725 "timing.ml" 34 721 730
+type(
+  clock -> unit
+)
+ident(
+  def start "timing.ml" 41 905 905 "timing.ml" 0 0 -1
+)
+"timing.ml" 34 721 731 "timing.ml" 34 721 733
+type(
+  clock
+)
+ident(
+  def cl "timing.ml" 35 736 738 "timing.ml" 39 878 903
+)
+"timing.ml" 35 736 742 "timing.ml" 35 736 745
+type(
+  float
+)
+ident(
+  def now "timing.ml" 36 772 774 "timing.ml" 39 878 903
+)
+"timing.ml" 35 736 748 "timing.ml" 35 736 765
+type(
+  unit -> float
+)
+ident(
+  int_ref Unix.gettimeofday "unix.mli" 1177 48558 48558 "unix.mli" 1177 48558 48590
+)
+"timing.ml" 35 736 766 "timing.ml" 35 736 768
+type(
+  unit
+)
+"timing.ml" 35 736 748 "timing.ml" 35 736 768
+type(
+  float
+)
+"timing.ml" 36 772 774 "timing.ml" 36 772 776
+type(
+  clock
+)
+ident(
+  int_ref cl "timing.ml" 34 721 731 "timing.ml" 34 721 733
+)
+"timing.ml" 36 772 786 "timing.ml" 36 772 788
+type(
+  clock
+)
+ident(
+  int_ref cl "timing.ml" 34 721 731 "timing.ml" 34 721 733
+)
+"timing.ml" 36 772 786 "timing.ml" 36 772 794
+type(
+  int
+)
+"timing.ml" 36 772 795 "timing.ml" 36 772 796
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"timing.ml" 36 772 797 "timing.ml" 36 772 798
+type(
+  int
+)
+"timing.ml" 36 772 786 "timing.ml" 36 772 798
+type(
+  int
+)
+"timing.ml" 36 772 774 "timing.ml" 36 772 798
+type(
+  unit
+)
+"timing.ml" 37 800 807 "timing.ml" 37 800 810
+type(
+  clock
+)
+ident(
+  def ocl "timing.ml" 38 837 839 "timing.ml" 39 878 903
+)
+"timing.ml" 37 800 812 "timing.ml" 37 800 818
+type(
+  float
+)
+ident(
+  def before "timing.ml" 38 837 839 "timing.ml" 39 878 903
+)
+"timing.ml" 37 800 806 "timing.ml" 37 800 819
+type(
+  clock * float
+)
+"timing.ml" 37 800 822 "timing.ml" 37 800 823
+type(
+  (clock * float) ref -> clock * float
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"timing.ml" 37 800 823 "timing.ml" 37 800 833
+type(
+  (clock * float) ref
+)
+ident(
+  int_ref last_start "timing.ml" 32 665 669 "timing.ml" 32 665 679
+)
+"timing.ml" 37 800 822 "timing.ml" 37 800 833
+type(
+  clock * float
+)
+"timing.ml" 38 837 839 "timing.ml" 38 837 842
+type(
+  clock
+)
+ident(
+  int_ref ocl "timing.ml" 37 800 807 "timing.ml" 37 800 810
+)
+"timing.ml" 38 837 851 "timing.ml" 38 837 854
+type(
+  clock
+)
+ident(
+  int_ref ocl "timing.ml" 37 800 807 "timing.ml" 37 800 810
+)
+"timing.ml" 38 837 851 "timing.ml" 38 837 859
+type(
+  float
+)
+"timing.ml" 38 837 860 "timing.ml" 38 837 862
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( +. ) "stdlib.mli" 462 17764 17764 "stdlib.mli" 462 17764 17819
+)
+"timing.ml" 38 837 863 "timing.ml" 38 837 866
+type(
+  float
+)
+ident(
+  int_ref now "timing.ml" 35 736 742 "timing.ml" 35 736 745
+)
+"timing.ml" 38 837 851 "timing.ml" 38 837 866
+type(
+  float
+)
+"timing.ml" 38 837 867 "timing.ml" 38 837 869
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( -. ) "stdlib.mli" 467 17929 17929 "stdlib.mli" 467 17929 17984
+)
+"timing.ml" 38 837 870 "timing.ml" 38 837 876
+type(
+  float
+)
+ident(
+  int_ref before "timing.ml" 37 800 812 "timing.ml" 37 800 818
+)
+"timing.ml" 38 837 851 "timing.ml" 38 837 876
+type(
+  float
+)
+"timing.ml" 38 837 839 "timing.ml" 38 837 876
+type(
+  unit
+)
+"timing.ml" 39 878 880 "timing.ml" 39 878 890
+type(
+  (clock * float) ref
+)
+ident(
+  int_ref last_start "timing.ml" 32 665 669 "timing.ml" 32 665 679
+)
+"timing.ml" 39 878 891 "timing.ml" 39 878 893
+type(
+  (clock * float) ref -> clock * float -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"timing.ml" 39 878 895 "timing.ml" 39 878 897
+type(
+  clock
+)
+ident(
+  int_ref cl "timing.ml" 34 721 731 "timing.ml" 34 721 733
+)
+"timing.ml" 39 878 899 "timing.ml" 39 878 902
+type(
+  float
+)
+ident(
+  int_ref now "timing.ml" 35 736 742 "timing.ml" 35 736 745
+)
+"timing.ml" 39 878 894 "timing.ml" 39 878 903
+type(
+  clock * float
+)
+"timing.ml" 39 878 880 "timing.ml" 39 878 903
+type(
+  unit
+)
+"timing.ml" 38 837 839 "timing.ml" 39 878 903
+type(
+  unit
+)
+"timing.ml" 37 800 802 "timing.ml" 39 878 903
+type(
+  unit
+)
+"timing.ml" 36 772 774 "timing.ml" 39 878 903
+type(
+  unit
+)
+"timing.ml" 35 736 738 "timing.ml" 39 878 903
+type(
+  unit
+)
+"timing.ml" 41 905 909 "timing.ml" 41 905 913
+type(
+  unit -> unit
+)
+ident(
+  def stop "timing.ml" 43 934 934 "timing.ml" 0 0 -1
+)
+"timing.ml" 41 905 914 "timing.ml" 41 905 916
+type(
+  unit
+)
+"timing.ml" 41 905 919 "timing.ml" 41 905 924
+type(
+  clock -> unit
+)
+ident(
+  int_ref start "timing.ml" 34 721 725 "timing.ml" 34 721 730
+)
+"timing.ml" 41 905 925 "timing.ml" 41 905 932
+type(
+  clock
+)
+ident(
+  int_ref ambient "timing.ml" 28 581 585 "timing.ml" 28 581 592
+)
+"timing.ml" 41 905 919 "timing.ml" 41 905 932
+type(
+  unit
+)
+"timing.ml" 43 934 938 "timing.ml" 43 934 943
+type(
+  string -> clock
+)
+ident(
+  def total "timing.ml" 49 1049 1049 "timing.ml" 0 0 -1
+)
+"timing.ml" 43 934 944 "timing.ml" 43 934 948
+type(
+  string
+)
+ident(
+  def desc "timing.ml" 43 934 951 "timing.ml" 47 1044 1047
+)
+"timing.ml" 44 953 964 "timing.ml" 44 953 968
+type(
+  string
+)
+ident(
+  int_ref desc "timing.ml" 43 934 944 "timing.ml" 43 934 948
+)
+"timing.ml" 45 970 981 "timing.ml" 45 970 998
+type(
+  unit -> float
+)
+ident(
+  int_ref Unix.gettimeofday "unix.mli" 1177 48558 48558 "unix.mli" 1177 48558 48590
+)
+"timing.ml" 45 970 999 "timing.ml" 45 970 1001
+type(
+  unit
+)
+"timing.ml" 45 970 981 "timing.ml" 45 970 1001
+type(
+  float
+)
+"timing.ml" 45 970 1002 "timing.ml" 45 970 1004
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( -. ) "stdlib.mli" 467 17929 17929 "stdlib.mli" 467 17929 17984
+)
+"timing.ml" 45 970 1005 "timing.ml" 45 970 1027
+type(
+  float
+)
+ident(
+  int_ref beginning_of_the_world "timing.ml" 30 614 618 "timing.ml" 30 614 640
+)
+"timing.ml" 45 970 981 "timing.ml" 45 970 1027
+type(
+  float
+)
+"timing.ml" 46 1029 1041 "timing.ml" 46 1029 1042
+type(
+  int
+)
+"timing.ml" 43 934 951 "timing.ml" 47 1044 1047
+type(
+  clock
+)
+"timing.ml" 49 1049 1053 "timing.ml" 49 1049 1068
+type(
+  clock -> string
+)
+ident(
+  def string_of_clock "timing.ml" 51 1129 1176 "timing.ml" 0 0 -1
+)
+"timing.ml" 49 1049 1069 "timing.ml" 49 1049 1071
+type(
+  clock
+)
+ident(
+  def cl "timing.ml" 50 1074 1076 "timing.ml" 51 1129 1176
+)
+"timing.ml" 50 1074 1080 "timing.ml" 50 1074 1083
+type(
+  clock * float -> clock
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"timing.ml" 50 1074 1084 "timing.ml" 50 1074 1085
+type(
+  (clock * float) ref -> clock * float
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"timing.ml" 50 1074 1085 "timing.ml" 50 1074 1095
+type(
+  (clock * float) ref
+)
+ident(
+  int_ref last_start "timing.ml" 32 665 669 "timing.ml" 32 665 679
+)
+"timing.ml" 50 1074 1084 "timing.ml" 50 1074 1095
+type(
+  clock * float
+)
+"timing.ml" 50 1074 1079 "timing.ml" 50 1074 1096
+type(
+  clock
+)
+"timing.ml" 50 1074 1079 "timing.ml" 50 1074 1101
+type(
+  string
+)
+"timing.ml" 50 1074 1102 "timing.ml" 50 1074 1104
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( == ) "stdlib.mli" 191 8127 8127 "stdlib.mli" 191 8127 8169
+)
+"timing.ml" 50 1074 1105 "timing.ml" 50 1074 1107
+type(
+  clock
+)
+ident(
+  int_ref cl "timing.ml" 49 1049 1069 "timing.ml" 49 1049 1071
+)
+"timing.ml" 50 1074 1105 "timing.ml" 50 1074 1112
+type(
+  string
+)
+"timing.ml" 50 1074 1079 "timing.ml" 50 1074 1112
+type(
+  bool
+)
+"timing.ml" 50 1074 1118 "timing.ml" 50 1074 1123
+type(
+  clock -> unit
+)
+ident(
+  int_ref start "timing.ml" 34 721 725 "timing.ml" 34 721 730
+)
+"timing.ml" 50 1074 1124 "timing.ml" 50 1074 1126
+type(
+  clock
+)
+ident(
+  int_ref cl "timing.ml" 49 1049 1069 "timing.ml" 49 1049 1071
+)
+"timing.ml" 50 1074 1118 "timing.ml" 50 1074 1126
+type(
+  unit
+)
+"timing.ml" 50 1074 1076 "timing.ml" 50 1074 1126
+type(
+  unit
+)
+"timing.ml" 51 1129 1131 "timing.ml" 51 1129 1145
+type(
+  (string -> float -> string, unit, string) format ->
+  string -> float -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"timing.ml" 51 1129 1146 "timing.ml" 51 1129 1160
+type(
+  (string -> float -> string, unit, string) format
+)
+"timing.ml" 51 1129 1161 "timing.ml" 51 1129 1163
+type(
+  clock
+)
+ident(
+  int_ref cl "timing.ml" 49 1049 1069 "timing.ml" 49 1049 1071
+)
+"timing.ml" 51 1129 1161 "timing.ml" 51 1129 1168
+type(
+  string
+)
+"timing.ml" 51 1129 1169 "timing.ml" 51 1129 1171
+type(
+  clock
+)
+ident(
+  int_ref cl "timing.ml" 49 1049 1069 "timing.ml" 49 1049 1071
+)
+"timing.ml" 51 1129 1169 "timing.ml" 51 1129 1176
+type(
+  float
+)
+"timing.ml" 51 1129 1131 "timing.ml" 51 1129 1176
+type(
+  string
+)
+"timing.ml" 50 1074 1076 "timing.ml" 51 1129 1176
+type(
+  string
+)

@@ -1,0 +1,382 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:18:39 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp user_ops_test.tla --stretch 5
+
+(* created new ".tlacache/TLAPS.tlaps/TLAPS.thy" *)
+(* fingerprints written in ".tlacache/TLAPS.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/user_ops_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+COMMAND-LINE ARGUMENT
+file=.tlacache/user_ops_test.tlaps/tlapm_fc5c7a.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/user_ops_test.tlaps/tlapm_fc5c7a.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #1
+;;   generated from file "./user_ops_test.tla", line 168, characters 5-11
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_ampe_ampe_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_ampe_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_atsi_atsi_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_approxunde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_asympunde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_bigcircunde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_bulletunde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_congunde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_divunde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_dotequnde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_ggunde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_llunde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_ounde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_precequnde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_precunde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_proptounde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_simequnde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_simunde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_sqcapunde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_sqcupunde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_sqsubsetequnde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_sqsubsetunde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_sqsupsetequnde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_sqsupsetunde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_starunde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_subsetunde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_succequnde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_succunde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_supsetequnde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_supsetunde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_uplusunde_a (u u) u)
+(declare-fun a_CONSTANTunde_bksl_wrunde_a (u u) u)
+(declare-fun a_CONSTANTunde_care_care_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_care_hash_unde_a (u) u)
+(declare-fun a_CONSTANTunde_care_plus_unde_a (u) u)
+(declare-fun a_CONSTANTunde_care_star_unde_a (u) u)
+(declare-fun a_CONSTANTunde_care_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_colo_colo_equa_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_colo_more_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_dash_dash_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_dash_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_dash_vert_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_doll_doll_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_doll_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_equa_less_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_equa_vert_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_excl_excl_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_hash_hash_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_less_colo_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_less_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_lpar_bksl_Xrpar_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_lpar_dash_rpar_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_lpar_peri_rpar_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_lpar_plus_rpar_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_lpar_slas_rpar_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_more_equa_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_more_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_perc_perc_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_perc_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_peri_peri_peri_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_peri_peri_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_plus_plus_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_plus_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_ques_ques_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_slas_slas_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_slas_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_star_star_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_star_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_vert_dash_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_vert_equa_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_vert_unde_a (u u) u)
+(declare-fun a_CONSTANTunde_xunde_a () u)
+(declare-fun a_CONSTANTunde_yunde_a () u)
+
+
+;; Theorem to be Proved
+(assert (not true))
+(assert
+  (boolify
+    (a_CONSTANTunde_plus_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_dash_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_star_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_slas_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_ounde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_divunde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_perc_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_care_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_peri_peri_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_peri_peri_peri_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_lpar_plus_rpar_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_lpar_dash_rpar_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_lpar_bksl_Xrpar_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_lpar_slas_rpar_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_lpar_peri_rpar_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_less_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_more_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_equa_less_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_more_equa_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_sqcapunde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_sqcupunde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_sqsubsetunde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_sqsubsetequnde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_sqsupsetunde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_sqsupsetequnde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_precunde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_succunde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_precequnde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_succequnde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_llunde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_ggunde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_less_colo_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_colo_more_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_plus_plus_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_dash_dash_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_star_star_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_slas_slas_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_care_care_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_ampe_ampe_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_perc_perc_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_atsi_atsi_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_hash_hash_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_doll_doll_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_ques_ques_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_excl_excl_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_subsetunde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_supsetunde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_supsetequnde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_uplusunde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_simunde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_simequnde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_asympunde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_approxunde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_congunde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_dotequnde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_wrunde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_proptounde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_colo_colo_equa_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_vert_dash_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_dash_vert_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_vert_equa_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_equa_vert_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_starunde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_bulletunde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_bksl_bigcircunde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_ampe_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_doll_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert
+  (boolify
+    (a_CONSTANTunde_vert_unde_a
+      a_CONSTANTunde_xunde_a a_CONSTANTunde_yunde_a)))
+(assert (boolify (a_CONSTANTunde_care_plus_unde_a a_CONSTANTunde_xunde_a)))
+(assert (boolify (a_CONSTANTunde_care_star_unde_a a_CONSTANTunde_xunde_a)))
+(assert (boolify (a_CONSTANTunde_care_hash_unde_a a_CONSTANTunde_xunde_a)))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+(* created new ".tlacache/user_ops_test.tlaps/user_ops_test.thy" *)
+(* fingerprints written in ".tlacache/user_ops_test.tlaps/fingerprints" *)

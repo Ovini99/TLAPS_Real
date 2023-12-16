@@ -1,0 +1,181 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:26:02 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp consensus_test.tla --stretch 5
+
+(* created new ".tlacache/FiniteSets.tlaps/FiniteSets.thy" *)
+(* fingerprints written in ".tlacache/FiniteSets.tlaps/fingerprints" *)
+(* created new ".tlacache/Functions.tlaps/Functions.thy" *)
+(* fingerprints written in ".tlacache/Functions.tlaps/fingerprints" *)
+(* created new ".tlacache/NaturalsInduction.tlaps/NaturalsInduction.thy" *)
+(* fingerprints written in ".tlacache/NaturalsInduction.tlaps/fingerprints" *)
+(* created new ".tlacache/WellFoundedInduction.tlaps/WellFoundedInduction.thy" *)
+(* fingerprints written in ".tlacache/WellFoundedInduction.tlaps/fingerprints" *)
+(* created new ".tlacache/FiniteSetTheorems.tlaps/FiniteSetTheorems.thy" *)
+(* fingerprints written in ".tlacache/FiniteSetTheorems.tlaps/fingerprints" *)
+(* created new ".tlacache/TLAPS.tlaps/TLAPS.thy" *)
+(* fingerprints written in ".tlacache/TLAPS.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/consensus_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+COMMAND-LINE ARGUMENT
+file=.tlacache/consensus_test.tlaps/tlapm_3af02f.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/consensus_test.tlaps/tlapm_3af02f.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #1
+;;   generated from file "./consensus_test.tla", line 23, characters 3-4
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun tla__le (u u) Bool)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__in (u u) Bool)
+(declare-fun tla__emptyset () u)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cardinalityunde_a (u) u)
+(declare-fun a_CONSTANTunde_IsFiniteSetunde_a (u) u)
+(declare-fun a_VARIABLEunde_chosenunde_a () u)
+
+(assert
+  (forall ((X_5 Int)) (! (= (u2int (int2u X_5)) X_5) :pattern ((int2u X_5)))))
+(assert
+  (forall ((M_3 Int) (N_4 Int))
+  (! (= (tla__le (int2u M_3) (int2u N_4)) (<= M_3 N_4)) :pattern ((tla__le (int2u M_3) (int2u N_4))))))
+(assert
+  (forall ((S_8 u) (T_9 u))
+  (=> (forall ((X_5 u)) (= (tla__in X_5 S_8) (tla__in X_5 T_9))) (= S_8 T_9))))
+(assert
+  (forall ((X_5 u))
+  (! (= (tla__in X_5 tla__emptyset) false) :pattern ((tla__in X_5 tla__emptyset)))))
+
+;; Theorem to be Proved
+(assert (not
+  (and
+    (boolify (a_CONSTANTunde_IsFiniteSetunde_a tla__emptyset))
+    (tla__le (a_CONSTANTunde_Cardinalityunde_a tla__emptyset) (int2u 1)))))
+(assert (boolify (a_CONSTANTunde_IsFiniteSetunde_a tla__emptyset)))
+(assert
+  (forall ((a_CONSTANTunde_Sunde_a u))
+    (=>
+      (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Sunde_a))
+      (=
+        (=
+          (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Sunde_a) (int2u 0))
+        (forall ((a_v1a u)) (not (tla__in a_v1a a_CONSTANTunde_Sunde_a)))))))
+(assert (= (a_CONSTANTunde_Cardinalityunde_a tla__emptyset) (int2u 0)))
+(assert
+  (forall ((a_v2a u)) (not (tla__in a_v2a a_VARIABLEunde_chosenunde_a))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/consensus_test.tlaps/tlapm_bff47d.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/consensus_test.tlaps/tlapm_bff47d.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #4
+;;   generated from file "./consensus_test.tla", line 25, characters 3-4
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun tla__le (u u) Bool)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cardinalityunde_a (u) u)
+(declare-fun a_CONSTANTunde_IsFiniteSetunde_a (u) u)
+(declare-fun a_CONSTANTunde_Valueunde_a () u)
+(declare-fun a_VARIABLEunde_chosenunde_a () u)
+(declare-fun a_VARIABLEunde_chosenunde_hash_primea () u)
+(declare-fun a_aunde_unde_6a () u)
+(declare-fun a_aunde_unde_7a () u)
+
+(assert
+  (forall ((X_12 Int))
+  (! (= (u2int (int2u X_12)) X_12) :pattern ((int2u X_12)))))
+(assert
+  (forall ((M_10 Int) (N_11 Int))
+  (! (= (tla__le (int2u M_10) (int2u N_11)) (<= M_10 N_11)) :pattern ((tla__le (int2u M_10) (int2u N_11))))))
+(assert
+  (forall ((S_15 u) (T_16 u))
+  (=>
+  (forall ((X_12 u)) (= (tla__in X_12 S_15) (tla__in X_12 T_16)))
+  (= S_15 T_16))))
+
+;; Theorem to be Proved
+(assert (not
+  (and
+    (forall ((a_v5a u))
+      (=>
+        (tla__in a_v5a a_VARIABLEunde_chosenunde_hash_primea)
+        (tla__in a_v5a a_CONSTANTunde_Valueunde_a)))
+    (boolify
+      (a_CONSTANTunde_IsFiniteSetunde_a
+        a_VARIABLEunde_chosenunde_hash_primea))
+    (tla__le
+      (a_CONSTANTunde_Cardinalityunde_a
+        a_VARIABLEunde_chosenunde_hash_primea) (int2u 1)))))
+(assert
+  (forall ((a_CONSTANTunde_xunde_a u) (a_aunde_unde_6a u))
+    (=>
+      (forall ((a_v8a u))
+        (= (tla__in a_v8a a_aunde_unde_6a) (= a_v8a a_CONSTANTunde_xunde_a)))
+      (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_aunde_unde_6a)))))
+(assert
+  (forall ((a_CONSTANTunde_Sunde_a u))
+    (=>
+      (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_CONSTANTunde_Sunde_a))
+      (=
+        (=
+          (a_CONSTANTunde_Cardinalityunde_a a_CONSTANTunde_Sunde_a) (int2u 1))
+        (exists ((a_CONSTANTunde_xunde_a u))
+          (forall ((a_v1a u))
+            (=
+              (tla__in a_v1a a_CONSTANTunde_Sunde_a)
+              (= a_v1a a_CONSTANTunde_xunde_a))))))))
+(assert
+  (forall ((a_CONSTANTunde_xunde_a u) (a_aunde_unde_7a u))
+    (=>
+      (forall ((a_v9a u))
+        (= (tla__in a_v9a a_aunde_unde_7a) (= a_v9a a_CONSTANTunde_xunde_a)))
+      (= (a_CONSTANTunde_Cardinalityunde_a a_aunde_unde_7a) (int2u 1)))))
+(assert
+  (forall ((a_v2a u))
+    (=>
+      (tla__in a_v2a a_VARIABLEunde_chosenunde_a)
+      (tla__in a_v2a a_CONSTANTunde_Valueunde_a))))
+(assert
+  (boolify (a_CONSTANTunde_IsFiniteSetunde_a a_VARIABLEunde_chosenunde_a)))
+(assert
+  (tla__le
+    (a_CONSTANTunde_Cardinalityunde_a a_VARIABLEunde_chosenunde_a) (int2u 1)))
+(assert
+  (or
+    (and
+      (forall ((a_v3a u)) (not (tla__in a_v3a a_VARIABLEunde_chosenunde_a)))
+      (exists ((a_CONSTANTunde_vunde_a u))
+        (and
+          (tla__in a_CONSTANTunde_vunde_a a_CONSTANTunde_Valueunde_a)
+          (forall ((a_v4a u))
+            (=
+              (tla__in a_v4a a_VARIABLEunde_chosenunde_hash_primea)
+              (= a_v4a a_CONSTANTunde_vunde_a))))))
+    (= a_VARIABLEunde_chosenunde_hash_primea a_VARIABLEunde_chosenunde_a)))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+(* created new ".tlacache/consensus_test.tlaps/consensus_test.thy" *)
+(* fingerprints written in ".tlacache/consensus_test.tlaps/fingerprints" *)

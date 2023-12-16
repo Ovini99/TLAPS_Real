@@ -1,0 +1,5428 @@
+"p_anon.ml" 16 267 271 "p_anon.ml" 16 267 275
+type(
+  'a Expr.Visit.scx -> int -> 'a Expr.Visit.scx
+)
+ident(
+  def bump "p_anon.ml" 17 291 291 "p_anon.ml" 0 0 -1
+)
+"p_anon.ml" 16 267 278 "p_anon.ml" 16 267 290
+type(
+  'a Expr.Visit.scx -> int -> 'a Expr.Visit.scx
+)
+ident(
+  int_ref P_visit.bump "p_visit.mli" 12 135 135 "p_visit.mli" 12 135 168
+)
+"p_anon.ml" 17 291 295 "p_anon.ml" 17 291 301
+type(
+  Expr.T.expr
+)
+ident(
+  def badexp "p_anon.ml" 19 323 323 "p_anon.ml" 0 0 -1
+)
+"p_anon.ml" 17 291 304 "p_anon.ml" 17 291 321
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref Expr.Deref.badexp "expr.mli" 596 15656 15660 "expr.mli" 596 15656 15678
+)
+"p_anon.ml" 19 323 327 "p_anon.ml" 19 323 337
+type(
+  Expr.T.sequent -> Expr.T.expr_
+)
+ident(
+  def tuple_form "p_anon.ml" 50 1289 1289 "p_anon.ml" 0 0 -1
+)
+"p_anon.ml" 19 323 338 "p_anon.ml" 19 323 340
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "p_anon.ml" 20 343 345 "p_anon.ml" 47 1262 1286
+)
+"p_anon.ml" 20 343 349 "p_anon.ml" 20 343 354
+type(
+  int
+)
+ident(
+  def nhyps "p_anon.ml" 21 382 384 "p_anon.ml" 47 1262 1286
+)
+"p_anon.ml" 20 343 357 "p_anon.ml" 20 343 367
+type(
+  Expr.T.hyp Deque.dq -> int
+)
+ident(
+  int_ref Deque.size "deque.mli" 11 162 162 "deque.mli" 11 162 186
+)
+"p_anon.ml" 20 343 368 "p_anon.ml" 20 343 370
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "p_anon.ml" 19 323 338 "p_anon.ml" 19 323 340
+)
+"p_anon.ml" 20 343 368 "p_anon.ml" 20 343 378
+type(
+  Expr.T.hyp Deque.dq
+)
+"p_anon.ml" 20 343 357 "p_anon.ml" 20 343 378
+type(
+  int
+)
+"p_anon.ml" 21 382 388 "p_anon.ml" 21 382 392
+type(
+  Expr.T.expr Deque.dq ref
+)
+ident(
+  def facs "p_anon.ml" 22 414 416 "p_anon.ml" 47 1262 1286
+)
+"p_anon.ml" 21 382 395 "p_anon.ml" 21 382 398
+type(
+  Expr.T.expr Deque.dq -> Expr.T.expr Deque.dq ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"p_anon.ml" 21 382 399 "p_anon.ml" 21 382 410
+type(
+  Expr.T.expr Deque.dq
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"p_anon.ml" 21 382 395 "p_anon.ml" 21 382 410
+type(
+  Expr.T.expr Deque.dq ref
+)
+"p_anon.ml" 22 414 424 "p_anon.ml" 22 414 428
+type(
+  Expr.T.hyp_ Property.wrapped Deque.dq -> unit
+)
+ident(
+  def spin "p_anon.ml" 22 414 416 "p_anon.ml" 47 1262 1286
+)
+"p_anon.ml" 22 414 429 "p_anon.ml" 22 414 431
+type(
+  Expr.T.hyp_ Property.wrapped Deque.dq
+)
+ident(
+  def cx "p_anon.ml" 22 414 434 "p_anon.ml" 42 1174 1183
+)
+"p_anon.ml" 22 414 440 "p_anon.ml" 22 414 451
+type(
+  Expr.T.hyp_ Property.wrapped Deque.dq ->
+  (Expr.T.hyp_ Property.wrapped * Expr.T.hyp_ Property.wrapped Deque.dq)
+  option
+)
+ident(
+  int_ref Deque.front "deque.mli" 14 253 253 "deque.mli" 14 253 293
+)
+"p_anon.ml" 22 414 452 "p_anon.ml" 22 414 454
+type(
+  Expr.T.hyp_ Property.wrapped Deque.dq
+)
+ident(
+  int_ref cx "p_anon.ml" 22 414 429 "p_anon.ml" 22 414 431
+)
+"p_anon.ml" 22 414 440 "p_anon.ml" 22 414 454
+type(
+  (Expr.T.hyp_ Property.wrapped * Expr.T.hyp_ Property.wrapped Deque.dq)
+  option
+)
+"p_anon.ml" 23 460 466 "p_anon.ml" 23 460 470
+type(
+  (Expr.T.hyp_ Property.wrapped * Expr.T.hyp_ Property.wrapped Deque.dq)
+  option
+)
+type(
+  (Expr.T.hyp_ Property.wrapped * Expr.T.hyp_ Property.wrapped Deque.dq)
+  option
+)
+"p_anon.ml" 24 474 482 "p_anon.ml" 24 474 486
+type(
+  Expr.T.expr Deque.dq ref
+)
+ident(
+  int_ref facs "p_anon.ml" 21 382 388 "p_anon.ml" 21 382 392
+)
+"p_anon.ml" 24 474 487 "p_anon.ml" 24 474 489
+type(
+  Expr.T.expr Deque.dq ref -> Expr.T.expr Deque.dq -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"p_anon.ml" 24 474 490 "p_anon.ml" 24 474 500
+type(
+  Expr.T.expr Deque.dq -> Expr.T.expr -> Expr.T.expr Deque.dq
+)
+ident(
+  int_ref Deque.snoc "deque.mli" 13 220 220 "deque.mli" 13 220 252
+)
+"p_anon.ml" 24 474 501 "p_anon.ml" 24 474 502
+type(
+  Expr.T.expr Deque.dq ref -> Expr.T.expr Deque.dq
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"p_anon.ml" 24 474 502 "p_anon.ml" 24 474 506
+type(
+  Expr.T.expr Deque.dq ref
+)
+ident(
+  int_ref facs "p_anon.ml" 21 382 388 "p_anon.ml" 21 382 392
+)
+"p_anon.ml" 24 474 501 "p_anon.ml" 24 474 506
+type(
+  Expr.T.expr Deque.dq
+)
+"p_anon.ml" 24 474 508 "p_anon.ml" 24 474 516
+type(
+  Expr.Subst.sub -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Subst.app_expr "expr.mli" 447 11184 11188 "expr.mli" 449 11225 11241
+)
+"p_anon.ml" 24 474 518 "p_anon.ml" 24 474 523
+type(
+  int -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.shift "expr.mli" 427 10798 10802 "expr.mli" 428 10813 10831
+)
+"p_anon.ml" 24 474 524 "p_anon.ml" 24 474 525
+type(
+  int
+)
+"p_anon.ml" 24 474 517 "p_anon.ml" 24 474 526
+type(
+  Expr.Subst.sub
+)
+"p_anon.ml" 24 474 527 "p_anon.ml" 24 474 529
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "p_anon.ml" 19 323 338 "p_anon.ml" 19 323 340
+)
+"p_anon.ml" 24 474 527 "p_anon.ml" 24 474 536
+type(
+  Expr.T.expr
+)
+"p_anon.ml" 24 474 507 "p_anon.ml" 24 474 537
+type(
+  Expr.T.expr
+)
+"p_anon.ml" 24 474 490 "p_anon.ml" 24 474 537
+type(
+  Expr.T.expr Deque.dq
+)
+"p_anon.ml" 24 474 482 "p_anon.ml" 24 474 537
+type(
+  unit
+)
+"p_anon.ml" 25 538 550 "p_anon.ml" 25 538 551
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  def h "p_anon.ml" 25 538 560 "p_anon.ml" 42 1174 1183
+)
+"p_anon.ml" 25 538 553 "p_anon.ml" 25 538 555
+type(
+  Expr.T.hyp_ Property.wrapped Deque.dq
+)
+ident(
+  def cx "p_anon.ml" 25 538 560 "p_anon.ml" 42 1174 1183
+)
+"p_anon.ml" 25 538 549 "p_anon.ml" 25 538 556
+type(
+  Expr.T.hyp_ Property.wrapped * Expr.T.hyp_ Property.wrapped Deque.dq
+)
+"p_anon.ml" 25 538 544 "p_anon.ml" 25 538 556
+type(
+  (Expr.T.hyp_ Property.wrapped * Expr.T.hyp_ Property.wrapped Deque.dq)
+  option
+)
+type(
+  (Expr.T.hyp_ Property.wrapped * Expr.T.hyp_ Property.wrapped Deque.dq)
+  option
+)
+"p_anon.ml" 26 566 578 "p_anon.ml" 26 566 581
+type(
+  Expr.Subst.sub
+)
+ident(
+  def shf "p_anon.ml" 27 624 632 "p_anon.ml" 41 1152 1173
+)
+"p_anon.ml" 26 566 584 "p_anon.ml" 26 566 589
+type(
+  int -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.shift "expr.mli" 427 10798 10802 "expr.mli" 428 10813 10831
+)
+"p_anon.ml" 26 566 591 "p_anon.ml" 26 566 596
+type(
+  int
+)
+ident(
+  int_ref nhyps "p_anon.ml" 20 343 349 "p_anon.ml" 20 343 354
+)
+"p_anon.ml" 26 566 597 "p_anon.ml" 26 566 598
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"p_anon.ml" 26 566 599 "p_anon.ml" 26 566 609
+type(
+  Expr.T.expr Deque.dq -> int
+)
+ident(
+  int_ref Deque.size "deque.mli" 11 162 162 "deque.mli" 11 162 186
+)
+"p_anon.ml" 26 566 610 "p_anon.ml" 26 566 611
+type(
+  Expr.T.expr Deque.dq ref -> Expr.T.expr Deque.dq
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"p_anon.ml" 26 566 611 "p_anon.ml" 26 566 615
+type(
+  Expr.T.expr Deque.dq ref
+)
+ident(
+  int_ref facs "p_anon.ml" 21 382 388 "p_anon.ml" 21 382 392
+)
+"p_anon.ml" 26 566 610 "p_anon.ml" 26 566 615
+type(
+  Expr.T.expr Deque.dq
+)
+"p_anon.ml" 26 566 599 "p_anon.ml" 26 566 615
+type(
+  int
+)
+"p_anon.ml" 26 566 591 "p_anon.ml" 26 566 615
+type(
+  int
+)
+"p_anon.ml" 26 566 616 "p_anon.ml" 26 566 617
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"p_anon.ml" 26 566 618 "p_anon.ml" 26 566 619
+type(
+  int
+)
+"p_anon.ml" 26 566 590 "p_anon.ml" 26 566 620
+type(
+  int
+)
+"p_anon.ml" 26 566 584 "p_anon.ml" 26 566 620
+type(
+  Expr.Subst.sub
+)
+"p_anon.ml" 27 624 638 "p_anon.ml" 27 624 639
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref h "p_anon.ml" 25 538 550 "p_anon.ml" 25 538 551
+)
+"p_anon.ml" 27 624 638 "p_anon.ml" 27 624 644
+type(
+  Expr.T.hyp_
+)
+"p_anon.ml" 28 650 668 "p_anon.ml" 28 650 669
+type(
+  Expr.T.expr
+)
+ident(
+  def f "p_anon.ml" 29 680 694 "p_anon.ml" 30 738 759
+)
+"p_anon.ml" 28 650 671 "p_anon.ml" 28 650 672
+type(
+  Expr.T.visibility
+)
+"p_anon.ml" 28 650 674 "p_anon.ml" 28 650 675
+type(
+  Expr.T.time
+)
+"p_anon.ml" 28 650 662 "p_anon.ml" 28 650 676
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"p_anon.ml" 29 680 694 "p_anon.ml" 29 680 698
+type(
+  Expr.T.expr Deque.dq ref
+)
+ident(
+  int_ref facs "p_anon.ml" 21 382 388 "p_anon.ml" 21 382 392
+)
+"p_anon.ml" 29 680 699 "p_anon.ml" 29 680 701
+type(
+  Expr.T.expr Deque.dq ref -> Expr.T.expr Deque.dq -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"p_anon.ml" 29 680 702 "p_anon.ml" 29 680 712
+type(
+  Expr.T.expr Deque.dq -> Expr.T.expr -> Expr.T.expr Deque.dq
+)
+ident(
+  int_ref Deque.snoc "deque.mli" 13 220 220 "deque.mli" 13 220 252
+)
+"p_anon.ml" 29 680 713 "p_anon.ml" 29 680 714
+type(
+  Expr.T.expr Deque.dq ref -> Expr.T.expr Deque.dq
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"p_anon.ml" 29 680 714 "p_anon.ml" 29 680 718
+type(
+  Expr.T.expr Deque.dq ref
+)
+ident(
+  int_ref facs "p_anon.ml" 21 382 388 "p_anon.ml" 21 382 392
+)
+"p_anon.ml" 29 680 713 "p_anon.ml" 29 680 718
+type(
+  Expr.T.expr Deque.dq
+)
+"p_anon.ml" 29 680 720 "p_anon.ml" 29 680 728
+type(
+  Expr.Subst.sub -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Subst.app_expr "expr.mli" 447 11184 11188 "expr.mli" 449 11225 11241
+)
+"p_anon.ml" 29 680 729 "p_anon.ml" 29 680 732
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref shf "p_anon.ml" 26 566 578 "p_anon.ml" 26 566 581
+)
+"p_anon.ml" 29 680 733 "p_anon.ml" 29 680 734
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f "p_anon.ml" 28 650 668 "p_anon.ml" 28 650 669
+)
+"p_anon.ml" 29 680 719 "p_anon.ml" 29 680 735
+type(
+  Expr.T.expr
+)
+"p_anon.ml" 29 680 702 "p_anon.ml" 29 680 735
+type(
+  Expr.T.expr Deque.dq
+)
+"p_anon.ml" 29 680 694 "p_anon.ml" 29 680 735
+type(
+  unit
+)
+"p_anon.ml" 30 738 752 "p_anon.ml" 30 738 756
+type(
+  Expr.T.hyp_ Property.wrapped Deque.dq -> unit
+)
+ident(
+  int_ref spin "p_anon.ml" 22 414 424 "p_anon.ml" 22 414 428
+)
+"p_anon.ml" 30 738 757 "p_anon.ml" 30 738 759
+type(
+  Expr.T.hyp_ Property.wrapped Deque.dq
+)
+ident(
+  int_ref cx "p_anon.ml" 25 538 553 "p_anon.ml" 25 538 555
+)
+"p_anon.ml" 30 738 752 "p_anon.ml" 30 738 759
+type(
+  unit
+)
+"p_anon.ml" 29 680 694 "p_anon.ml" 30 738 759
+type(
+  unit
+)
+"p_anon.ml" 31 760 779 "p_anon.ml" 31 760 780
+type(
+  Util.hint
+)
+"p_anon.ml" 31 760 782 "p_anon.ml" 31 760 783
+type(
+  Expr.T.shape
+)
+"p_anon.ml" 31 760 785 "p_anon.ml" 31 760 786
+type(
+  Expr.T.kind
+)
+"p_anon.ml" 31 760 797 "p_anon.ml" 31 760 800
+type(
+  Expr.T.expr
+)
+ident(
+  def ran "p_anon.ml" 32 809 823 "p_anon.ml" 38 1065 1086
+)
+"p_anon.ml" 31 760 802 "p_anon.ml" 31 760 803
+type(
+  Expr.T.visibility
+)
+"p_anon.ml" 31 760 788 "p_anon.ml" 31 760 804
+type(
+  Expr.T.hdom
+)
+"p_anon.ml" 31 760 772 "p_anon.ml" 31 760 805
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"p_anon.ml" 32 809 827 "p_anon.ml" 32 809 828
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def f "p_anon.ml" 37 1007 1021 "p_anon.ml" 38 1065 1086
+)
+"p_anon.ml" 32 809 847 "p_anon.ml" 32 809 858
+type(
+  Builtin.builtin
+)
+"p_anon.ml" 32 809 838 "p_anon.ml" 32 809 858
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 32 809 859 "p_anon.ml" 32 809 861
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 32 809 862 "p_anon.ml" 32 809 865
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ran "p_anon.ml" 31 760 797 "p_anon.ml" 31 760 800
+)
+"p_anon.ml" 32 809 838 "p_anon.ml" 32 809 865
+type(
+  Expr.T.expr
+)
+"p_anon.ml" 33 869 903 "p_anon.ml" 33 869 904
+type(
+  int
+)
+"p_anon.ml" 33 869 900 "p_anon.ml" 33 869 904
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 33 869 905 "p_anon.ml" 33 869 907
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 33 869 908 "p_anon.ml" 33 869 911
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ran "p_anon.ml" 31 760 797 "p_anon.ml" 31 760 800
+)
+"p_anon.ml" 33 869 900 "p_anon.ml" 33 869 911
+type(
+  Expr.T.expr
+)
+"p_anon.ml" 34 914 945 "p_anon.ml" 34 914 948
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ran "p_anon.ml" 31 760 797 "p_anon.ml" 31 760 800
+)
+"p_anon.ml" 32 809 867 "p_anon.ml" 35 951 981
+type(
+  Expr.T.expr list
+)
+"p_anon.ml" 32 809 831 "p_anon.ml" 35 951 982
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 35 951 983 "p_anon.ml" 35 951 985
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 35 951 986 "p_anon.ml" 35 951 989
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ran "p_anon.ml" 31 760 797 "p_anon.ml" 31 760 800
+)
+"p_anon.ml" 32 809 831 "p_anon.ml" 35 951 989
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"p_anon.ml" 37 1007 1021 "p_anon.ml" 37 1007 1025
+type(
+  Expr.T.expr Deque.dq ref
+)
+ident(
+  int_ref facs "p_anon.ml" 21 382 388 "p_anon.ml" 21 382 392
+)
+"p_anon.ml" 37 1007 1026 "p_anon.ml" 37 1007 1028
+type(
+  Expr.T.expr Deque.dq ref -> Expr.T.expr Deque.dq -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"p_anon.ml" 37 1007 1029 "p_anon.ml" 37 1007 1039
+type(
+  Expr.T.expr Deque.dq -> Expr.T.expr -> Expr.T.expr Deque.dq
+)
+ident(
+  int_ref Deque.snoc "deque.mli" 13 220 220 "deque.mli" 13 220 252
+)
+"p_anon.ml" 37 1007 1040 "p_anon.ml" 37 1007 1041
+type(
+  Expr.T.expr Deque.dq ref -> Expr.T.expr Deque.dq
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"p_anon.ml" 37 1007 1041 "p_anon.ml" 37 1007 1045
+type(
+  Expr.T.expr Deque.dq ref
+)
+ident(
+  int_ref facs "p_anon.ml" 21 382 388 "p_anon.ml" 21 382 392
+)
+"p_anon.ml" 37 1007 1040 "p_anon.ml" 37 1007 1045
+type(
+  Expr.T.expr Deque.dq
+)
+"p_anon.ml" 37 1007 1047 "p_anon.ml" 37 1007 1055
+type(
+  Expr.Subst.sub -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Subst.app_expr "expr.mli" 447 11184 11188 "expr.mli" 449 11225 11241
+)
+"p_anon.ml" 37 1007 1056 "p_anon.ml" 37 1007 1059
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref shf "p_anon.ml" 26 566 578 "p_anon.ml" 26 566 581
+)
+"p_anon.ml" 37 1007 1060 "p_anon.ml" 37 1007 1061
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f "p_anon.ml" 32 809 827 "p_anon.ml" 32 809 828
+)
+"p_anon.ml" 37 1007 1046 "p_anon.ml" 37 1007 1062
+type(
+  Expr.T.expr
+)
+"p_anon.ml" 37 1007 1029 "p_anon.ml" 37 1007 1062
+type(
+  Expr.T.expr Deque.dq
+)
+"p_anon.ml" 37 1007 1021 "p_anon.ml" 37 1007 1062
+type(
+  unit
+)
+"p_anon.ml" 38 1065 1079 "p_anon.ml" 38 1065 1083
+type(
+  Expr.T.hyp_ Property.wrapped Deque.dq -> unit
+)
+ident(
+  int_ref spin "p_anon.ml" 22 414 424 "p_anon.ml" 22 414 428
+)
+"p_anon.ml" 38 1065 1084 "p_anon.ml" 38 1065 1086
+type(
+  Expr.T.hyp_ Property.wrapped Deque.dq
+)
+ident(
+  int_ref cx "p_anon.ml" 25 538 553 "p_anon.ml" 25 538 555
+)
+"p_anon.ml" 38 1065 1079 "p_anon.ml" 38 1065 1086
+type(
+  unit
+)
+"p_anon.ml" 37 1007 1021 "p_anon.ml" 38 1065 1086
+type(
+  unit
+)
+"p_anon.ml" 32 809 823 "p_anon.ml" 38 1065 1086
+type(
+  unit
+)
+"p_anon.ml" 39 1087 1099 "p_anon.ml" 39 1087 1100
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"p_anon.ml" 40 1104 1118 "p_anon.ml" 40 1104 1122
+type(
+  Expr.T.expr Deque.dq ref
+)
+ident(
+  int_ref facs "p_anon.ml" 21 382 388 "p_anon.ml" 21 382 392
+)
+"p_anon.ml" 40 1104 1123 "p_anon.ml" 40 1104 1125
+type(
+  Expr.T.expr Deque.dq ref -> Expr.T.expr Deque.dq -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"p_anon.ml" 40 1104 1126 "p_anon.ml" 40 1104 1136
+type(
+  Expr.T.expr Deque.dq -> Expr.T.expr -> Expr.T.expr Deque.dq
+)
+ident(
+  int_ref Deque.snoc "deque.mli" 13 220 220 "deque.mli" 13 220 252
+)
+"p_anon.ml" 40 1104 1137 "p_anon.ml" 40 1104 1138
+type(
+  Expr.T.expr Deque.dq ref -> Expr.T.expr Deque.dq
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"p_anon.ml" 40 1104 1138 "p_anon.ml" 40 1104 1142
+type(
+  Expr.T.expr Deque.dq ref
+)
+ident(
+  int_ref facs "p_anon.ml" 21 382 388 "p_anon.ml" 21 382 392
+)
+"p_anon.ml" 40 1104 1137 "p_anon.ml" 40 1104 1142
+type(
+  Expr.T.expr Deque.dq
+)
+"p_anon.ml" 40 1104 1143 "p_anon.ml" 40 1104 1149
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref badexp "p_anon.ml" 17 291 295 "p_anon.ml" 17 291 301
+)
+"p_anon.ml" 40 1104 1126 "p_anon.ml" 40 1104 1149
+type(
+  Expr.T.expr Deque.dq
+)
+"p_anon.ml" 40 1104 1118 "p_anon.ml" 40 1104 1149
+type(
+  unit
+)
+"p_anon.ml" 41 1152 1166 "p_anon.ml" 41 1152 1170
+type(
+  Expr.T.hyp_ Property.wrapped Deque.dq -> unit
+)
+ident(
+  int_ref spin "p_anon.ml" 22 414 424 "p_anon.ml" 22 414 428
+)
+"p_anon.ml" 41 1152 1171 "p_anon.ml" 41 1152 1173
+type(
+  Expr.T.hyp_ Property.wrapped Deque.dq
+)
+ident(
+  int_ref cx "p_anon.ml" 25 538 553 "p_anon.ml" 25 538 555
+)
+"p_anon.ml" 41 1152 1166 "p_anon.ml" 41 1152 1173
+type(
+  unit
+)
+"p_anon.ml" 40 1104 1118 "p_anon.ml" 41 1152 1173
+type(
+  unit
+)
+"p_anon.ml" 27 624 632 "p_anon.ml" 41 1152 1173
+type(
+  unit
+)
+"p_anon.ml" 25 538 560 "p_anon.ml" 42 1174 1183
+type(
+  unit
+)
+"p_anon.ml" 22 414 434 "p_anon.ml" 42 1174 1183
+type(
+  unit
+)
+"p_anon.ml" 44 1189 1191 "p_anon.ml" 44 1189 1195
+type(
+  Expr.T.hyp Deque.dq -> unit
+)
+ident(
+  int_ref spin "p_anon.ml" 22 414 424 "p_anon.ml" 22 414 428
+)
+"p_anon.ml" 44 1189 1196 "p_anon.ml" 44 1189 1198
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "p_anon.ml" 19 323 338 "p_anon.ml" 19 323 340
+)
+"p_anon.ml" 44 1189 1196 "p_anon.ml" 44 1189 1206
+type(
+  Expr.T.hyp Deque.dq
+)
+"p_anon.ml" 44 1189 1191 "p_anon.ml" 44 1189 1206
+type(
+  unit
+)
+"p_anon.ml" 45 1209 1217 "p_anon.ml" 45 1209 1230
+type(
+  Expr.T.expr Deque.dq -> Expr.T.expr list
+)
+ident(
+  int_ref Deque.to_list "deque.mli" 35 1014 1014 "deque.mli" 35 1014 1044
+)
+"p_anon.ml" 45 1209 1231 "p_anon.ml" 45 1209 1232
+type(
+  Expr.T.expr Deque.dq ref -> Expr.T.expr Deque.dq
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"p_anon.ml" 45 1209 1232 "p_anon.ml" 45 1209 1236
+type(
+  Expr.T.expr Deque.dq ref
+)
+ident(
+  int_ref facs "p_anon.ml" 21 382 388 "p_anon.ml" 21 382 392
+)
+"p_anon.ml" 45 1209 1231 "p_anon.ml" 45 1209 1236
+type(
+  Expr.T.expr Deque.dq
+)
+"p_anon.ml" 45 1209 1217 "p_anon.ml" 45 1209 1236
+type(
+  Expr.T.expr list
+)
+"p_anon.ml" 46 1242 1249 "p_anon.ml" 46 1242 1250
+type(
+  Expr.T.expr
+)
+ident(
+  def f "p_anon.ml" 46 1242 1255 "p_anon.ml" 46 1242 1261
+)
+"p_anon.ml" 46 1242 1248 "p_anon.ml" 46 1242 1251
+type(
+  Expr.T.expr list
+)
+type(
+  Expr.T.expr list
+)
+"p_anon.ml" 46 1242 1255 "p_anon.ml" 46 1242 1256
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f "p_anon.ml" 46 1242 1249 "p_anon.ml" 46 1242 1250
+)
+"p_anon.ml" 46 1242 1255 "p_anon.ml" 46 1242 1261
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 47 1262 1268 "p_anon.ml" 47 1262 1272
+type(
+  Expr.T.expr list
+)
+type(
+  Expr.T.expr list
+)
+ident(
+  def facs "p_anon.ml" 47 1262 1276 "p_anon.ml" 47 1262 1286
+)
+"p_anon.ml" 47 1262 1282 "p_anon.ml" 47 1262 1286
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref facs "p_anon.ml" 47 1262 1268 "p_anon.ml" 47 1262 1272
+)
+"p_anon.ml" 47 1262 1276 "p_anon.ml" 47 1262 1286
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 45 1209 1211 "p_anon.ml" 47 1262 1286
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 44 1189 1191 "p_anon.ml" 47 1262 1286
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 22 414 416 "p_anon.ml" 47 1262 1286
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 21 382 384 "p_anon.ml" 47 1262 1286
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 20 343 345 "p_anon.ml" 47 1262 1286
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 50 1289 1293 "p_anon.ml" 50 1289 1300
+type(
+  P_t.step_ Property.wrapped -> bool
+)
+ident(
+  def citable "p_anon.ml" 55 1380 1380 "p_anon.ml" 0 0 -1
+)
+"p_anon.ml" 50 1289 1301 "p_anon.ml" 50 1289 1303
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  def st "p_anon.ml" 50 1289 1306 "p_anon.ml" 52 1364 1377
+)
+"p_anon.ml" 50 1289 1312 "p_anon.ml" 50 1289 1314
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 50 1289 1301 "p_anon.ml" 50 1289 1303
+)
+"p_anon.ml" 50 1289 1312 "p_anon.ml" 50 1289 1319
+type(
+  P_t.step_
+)
+"p_anon.ml" 51 1325 1333 "p_anon.ml" 51 1325 1334
+type(
+  bool
+)
+type(
+  P_t.usable
+)
+"p_anon.ml" 51 1325 1329 "p_anon.ml" 51 1325 1334
+type(
+  P_t.step_
+)
+type(
+  P_t.step_
+)
+"p_anon.ml" 51 1325 1342 "p_anon.ml" 51 1325 1343
+type(
+  P_t.usable
+)
+"p_anon.ml" 51 1325 1337 "p_anon.ml" 51 1325 1343
+type(
+  P_t.step_
+)
+type(
+  P_t.step_
+)
+"p_anon.ml" 51 1325 1329 "p_anon.ml" 51 1325 1343
+type(
+  P_t.step_
+)
+"p_anon.ml" 51 1325 1353 "p_anon.ml" 51 1325 1354
+type(
+  Expr.T.defn list
+)
+"p_anon.ml" 51 1325 1346 "p_anon.ml" 51 1325 1354
+type(
+  P_t.step_
+)
+type(
+  P_t.step_
+)
+"p_anon.ml" 51 1325 1329 "p_anon.ml" 51 1325 1354
+type(
+  P_t.step_
+)
+"p_anon.ml" 51 1325 1358 "p_anon.ml" 51 1325 1363
+type(
+  bool
+)
+"p_anon.ml" 52 1364 1368 "p_anon.ml" 52 1364 1369
+type(
+  P_t.step_
+)
+type(
+  P_t.step_
+)
+"p_anon.ml" 52 1364 1373 "p_anon.ml" 52 1364 1377
+type(
+  bool
+)
+"p_anon.ml" 50 1289 1306 "p_anon.ml" 52 1364 1377
+type(
+  bool
+)
+"p_anon.ml" 55 1380 1384 "p_anon.ml" 55 1380 1393
+type(
+  P_t.stepno -> string list * 'a -> string list * 'a
+)
+ident(
+  def push_name "p_anon.ml" 57 1449 1449 "p_anon.ml" 0 0 -1
+)
+"p_anon.ml" 55 1380 1394 "p_anon.ml" 55 1380 1396
+type(
+  P_t.stepno
+)
+ident(
+  def sn "p_anon.ml" 55 1380 1397 "p_anon.ml" 55 1380 1447
+)
+"p_anon.ml" 55 1380 1398 "p_anon.ml" 55 1380 1403
+type(
+  string list
+)
+ident(
+  def stack "p_anon.ml" 55 1380 1411 "p_anon.ml" 55 1380 1447
+)
+"p_anon.ml" 55 1380 1405 "p_anon.ml" 55 1380 1407
+type(
+  'a
+)
+ident(
+  def cx "p_anon.ml" 55 1380 1411 "p_anon.ml" 55 1380 1447
+)
+"p_anon.ml" 55 1380 1397 "p_anon.ml" 55 1380 1408
+type(
+  string list * 'a
+)
+"p_anon.ml" 55 1380 1413 "p_anon.ml" 55 1380 1429
+type(
+  ?anonid:bool -> P_t.stepno -> string
+)
+ident(
+  int_ref P_t.string_of_stepno "p_t.mli" 92 1869 1869 "p_t.mli" 93 1891 1927
+)
+"p_anon.ml" 55 1380 1430 "p_anon.ml" 55 1380 1432
+type(
+  P_t.stepno
+)
+ident(
+  int_ref sn "p_anon.ml" 55 1380 1394 "p_anon.ml" 55 1380 1396
+)
+"p_anon.ml" 55 1380 1412 "p_anon.ml" 55 1380 1433
+type(
+  string
+)
+"p_anon.ml" 55 1380 1437 "p_anon.ml" 55 1380 1442
+type(
+  string list
+)
+ident(
+  int_ref stack "p_anon.ml" 55 1380 1398 "p_anon.ml" 55 1380 1403
+)
+"p_anon.ml" 55 1380 1412 "p_anon.ml" 55 1380 1442
+type(
+  string list
+)
+"p_anon.ml" 55 1380 1444 "p_anon.ml" 55 1380 1446
+type(
+  'a
+)
+ident(
+  int_ref cx "p_anon.ml" 55 1380 1405 "p_anon.ml" 55 1380 1407
+)
+"p_anon.ml" 55 1380 1411 "p_anon.ml" 55 1380 1447
+type(
+  string list * 'a
+)
+"p_anon.ml" 57 1449 1470 "p_anon.ml" 57 1449 1474
+type(
+  < adj : string list Expr.Visit.scx ->
+          Expr.T.hyp -> string list Expr.Visit.scx;
+    adjs : string list Expr.Visit.scx ->
+           Expr.T.hyp list -> string list Expr.Visit.scx;
+    bound : string list Expr.Visit.scx ->
+            Expr.T.bound -> string list Expr.Visit.scx * Expr.T.bound;
+    bounds : string list Expr.Visit.scx ->
+             Expr.T.bound list ->
+             string list Expr.Visit.scx * Expr.T.bound list;
+    defn : string list Expr.Visit.scx -> Expr.T.defn -> Expr.T.defn;
+    defns : string list Expr.Visit.scx ->
+            Expr.T.defn list -> string list Expr.Visit.scx * Expr.T.defn list;
+    expr : string list Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr;
+    exspec : string list Expr.Visit.scx -> Expr.T.exspec -> Expr.T.exspec;
+    hyp : string list Expr.Visit.scx ->
+          Expr.T.hyp -> string list Expr.Visit.scx * Expr.T.hyp;
+    hyps : string list Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq ->
+           string list Expr.Visit.scx * Expr.T.hyp Deque.dq;
+    instance : string list Expr.Visit.scx ->
+               Expr.T.instance -> Expr.T.instance;
+    pform : string list Expr.Visit.scx -> Expr.T.pform -> Expr.T.pform;
+    proof : string list Expr.Visit.scx -> P_t.proof -> P_t.proof;
+    sel : string list Expr.Visit.scx -> Expr.T.sel -> Expr.T.sel;
+    sequent : string list Expr.Visit.scx ->
+              Expr.T.sequent -> string list Expr.Visit.scx * Expr.T.sequent;
+    step : string list Expr.Visit.scx ->
+           P_t.step -> string list Expr.Visit.scx * P_t.step;
+    steps : string list Expr.Visit.scx ->
+            P_t.step list -> string list Expr.Visit.scx * P_t.step list;
+    usable : string list Expr.Visit.scx -> P_t.usable -> P_t.usable; .. >
+)
+type(
+  < adj : string list Expr.Visit.scx ->
+          Expr.T.hyp -> string list Expr.Visit.scx;
+    adjs : string list Expr.Visit.scx ->
+           Expr.T.hyp list -> string list Expr.Visit.scx;
+    bound : string list Expr.Visit.scx ->
+            Expr.T.bound -> string list Expr.Visit.scx * Expr.T.bound;
+    bounds : string list Expr.Visit.scx ->
+             Expr.T.bound list ->
+             string list Expr.Visit.scx * Expr.T.bound list;
+    defn : string list Expr.Visit.scx -> Expr.T.defn -> Expr.T.defn;
+    defns : string list Expr.Visit.scx ->
+            Expr.T.defn list -> string list Expr.Visit.scx * Expr.T.defn list;
+    expr : string list Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr;
+    exspec : string list Expr.Visit.scx -> Expr.T.exspec -> Expr.T.exspec;
+    hyp : string list Expr.Visit.scx ->
+          Expr.T.hyp -> string list Expr.Visit.scx * Expr.T.hyp;
+    hyps : string list Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq ->
+           string list Expr.Visit.scx * Expr.T.hyp Deque.dq;
+    instance : string list Expr.Visit.scx ->
+               Expr.T.instance -> Expr.T.instance;
+    pform : string list Expr.Visit.scx -> Expr.T.pform -> Expr.T.pform;
+    proof : string list Expr.Visit.scx -> P_t.proof -> P_t.proof;
+    sel : string list Expr.Visit.scx -> Expr.T.sel -> Expr.T.sel;
+    sequent : string list Expr.Visit.scx ->
+              Expr.T.sequent -> string list Expr.Visit.scx * Expr.T.sequent;
+    step : string list Expr.Visit.scx ->
+           P_t.step -> string list Expr.Visit.scx * P_t.step;
+    steps : string list Expr.Visit.scx ->
+            P_t.step list -> string list Expr.Visit.scx * P_t.step list;
+    usable : string list Expr.Visit.scx -> P_t.usable -> P_t.usable; .. >
+  as 'a
+)
+"p_anon.ml" 61 1555 1570 "p_anon.ml" 61 1555 1573
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 61 1555 1574 "p_anon.ml" 71 1985 2012
+)
+"p_anon.ml" 61 1555 1574 "p_anon.ml" 61 1555 1577
+type(
+  P_t.proof
+)
+ident(
+  def prf "p_anon.ml" 61 1555 1580 "p_anon.ml" 71 1985 2012
+)
+"p_anon.ml" 61 1555 1586 "p_anon.ml" 61 1555 1589
+type(
+  P_t.proof
+)
+ident(
+  int_ref prf "p_anon.ml" 61 1555 1574 "p_anon.ml" 61 1555 1577
+)
+"p_anon.ml" 61 1555 1586 "p_anon.ml" 61 1555 1594
+type(
+  P_t.proof_
+)
+"p_anon.ml" 62 1600 1613 "p_anon.ml" 62 1600 1618
+type(
+  P_t.step list
+)
+ident(
+  def inits "p_anon.ml" 63 1628 1636 "p_anon.ml" 69 1914 1973
+)
+"p_anon.ml" 62 1600 1620 "p_anon.ml" 62 1600 1623
+type(
+  P_t.qed_step
+)
+ident(
+  def qed "p_anon.ml" 63 1628 1636 "p_anon.ml" 69 1914 1973
+)
+"p_anon.ml" 62 1600 1606 "p_anon.ml" 62 1600 1624
+type(
+  P_t.proof_
+)
+type(
+  P_t.proof_
+)
+"p_anon.ml" 63 1628 1641 "p_anon.ml" 63 1628 1644
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 64 1679 1687 "p_anon.ml" 69 1914 1973
+)
+"p_anon.ml" 63 1628 1646 "p_anon.ml" 63 1628 1651
+type(
+  P_t.step list
+)
+ident(
+  def inits "p_anon.ml" 64 1679 1687 "p_anon.ml" 69 1914 1973
+)
+"p_anon.ml" 63 1628 1640 "p_anon.ml" 63 1628 1652
+type(
+  string list Expr.Visit.scx * P_t.step list
+)
+"p_anon.ml" 63 1628 1655 "p_anon.ml" 63 1628 1659
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"p_anon.ml" 63 1628 1655 "p_anon.ml" 63 1628 1665
+type(
+  string list Expr.Visit.scx ->
+  P_t.step list -> string list Expr.Visit.scx * P_t.step list
+)
+"p_anon.ml" 63 1628 1666 "p_anon.ml" 63 1628 1669
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 61 1555 1570 "p_anon.ml" 61 1555 1573
+)
+"p_anon.ml" 63 1628 1670 "p_anon.ml" 63 1628 1675
+type(
+  P_t.step list
+)
+ident(
+  int_ref inits "p_anon.ml" 62 1600 1613 "p_anon.ml" 62 1600 1618
+)
+"p_anon.ml" 63 1628 1655 "p_anon.ml" 63 1628 1675
+type(
+  string list Expr.Visit.scx * P_t.step list
+)
+"p_anon.ml" 64 1679 1691 "p_anon.ml" 64 1679 1693
+type(
+  P_t.stepno
+)
+ident(
+  def sn "p_anon.ml" 67 1816 1824 "p_anon.ml" 69 1914 1973
+)
+"p_anon.ml" 64 1679 1696 "p_anon.ml" 64 1679 1699
+type(
+  P_t.proof -> P_t.stepno Property.pfuncs -> P_t.stepno
+)
+ident(
+  int_ref Property.get "property.mli" 71 2383 2383 "property.mli" 71 2383 2425
+)
+"p_anon.ml" 64 1679 1700 "p_anon.ml" 64 1679 1703
+type(
+  P_t.proof
+)
+ident(
+  int_ref prf "p_anon.ml" 61 1555 1574 "p_anon.ml" 61 1555 1577
+)
+"p_anon.ml" 64 1679 1704 "p_anon.ml" 64 1679 1714
+type(
+  P_t.stepno Property.pfuncs
+)
+ident(
+  int_ref P_t.Props.step "p_t.mli" 81 1606 1610 "p_t.mli" 81 1606 1633
+)
+"p_anon.ml" 64 1679 1696 "p_anon.ml" 64 1679 1714
+type(
+  P_t.stepno
+)
+"p_anon.ml" 67 1816 1828 "p_anon.ml" 67 1816 1831
+type(
+  string list * Expr.T.hyp Deque.dq
+)
+ident(
+  def scx "p_anon.ml" 68 1854 1862 "p_anon.ml" 69 1914 1973
+)
+"p_anon.ml" 67 1816 1834 "p_anon.ml" 67 1816 1843
+type(
+  P_t.stepno ->
+  string list Expr.Visit.scx -> string list * Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref push_name "p_anon.ml" 55 1380 1384 "p_anon.ml" 55 1380 1393
+)
+"p_anon.ml" 67 1816 1844 "p_anon.ml" 67 1816 1846
+type(
+  P_t.stepno
+)
+ident(
+  int_ref sn "p_anon.ml" 64 1679 1691 "p_anon.ml" 64 1679 1693
+)
+"p_anon.ml" 67 1816 1847 "p_anon.ml" 67 1816 1850
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 63 1628 1641 "p_anon.ml" 63 1628 1644
+)
+"p_anon.ml" 67 1816 1834 "p_anon.ml" 67 1816 1850
+type(
+  string list * Expr.T.hyp Deque.dq
+)
+"p_anon.ml" 68 1854 1866 "p_anon.ml" 68 1854 1873
+type(
+  P_t.proof
+)
+ident(
+  def qed_prf "p_anon.ml" 69 1914 1922 "p_anon.ml" 69 1914 1973
+)
+"p_anon.ml" 68 1854 1876 "p_anon.ml" 68 1854 1880
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"p_anon.ml" 68 1854 1876 "p_anon.ml" 68 1854 1886
+type(
+  string list Expr.Visit.scx -> P_t.proof -> P_t.proof
+)
+"p_anon.ml" 68 1854 1887 "p_anon.ml" 68 1854 1890
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 67 1816 1828 "p_anon.ml" 67 1816 1831
+)
+"p_anon.ml" 68 1854 1892 "p_anon.ml" 68 1854 1905
+type(
+  P_t.qed_step -> P_t.proof
+)
+ident(
+  int_ref P_t.get_qed_proof "p_t.mli" 95 1953 1953 "p_t.mli" 96 1972 2011
+)
+"p_anon.ml" 68 1854 1906 "p_anon.ml" 68 1854 1909
+type(
+  P_t.qed_step
+)
+ident(
+  int_ref qed "p_anon.ml" 62 1600 1620 "p_anon.ml" 62 1600 1623
+)
+"p_anon.ml" 68 1854 1891 "p_anon.ml" 68 1854 1910
+type(
+  P_t.proof
+)
+"p_anon.ml" 68 1854 1876 "p_anon.ml" 68 1854 1910
+type(
+  P_t.proof
+)
+"p_anon.ml" 69 1914 1929 "p_anon.ml" 69 1914 1934
+type(
+  P_t.step list
+)
+ident(
+  int_ref inits "p_anon.ml" 63 1628 1646 "p_anon.ml" 63 1628 1651
+)
+"p_anon.ml" 69 1914 1937 "p_anon.ml" 69 1914 1940
+type(
+  P_t.qed_step
+)
+ident(
+  int_ref qed "p_anon.ml" 62 1600 1620 "p_anon.ml" 62 1600 1623
+)
+"p_anon.ml" 69 1914 1957 "p_anon.ml" 69 1914 1964
+type(
+  P_t.proof
+)
+ident(
+  int_ref qed_prf "p_anon.ml" 68 1854 1866 "p_anon.ml" 68 1854 1873
+)
+"p_anon.ml" 69 1914 1953 "p_anon.ml" 69 1914 1964
+type(
+  P_t.qed_step_
+)
+"p_anon.ml" 69 1914 1936 "p_anon.ml" 69 1914 1965
+type(
+  P_t.qed_step
+)
+"p_anon.ml" 69 1914 1922 "p_anon.ml" 69 1914 1966
+type(
+  P_t.proof_
+)
+"p_anon.ml" 69 1914 1967 "p_anon.ml" 69 1914 1969
+type(
+  P_t.proof_ -> P_t.proof -> P_t.proof
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 69 1914 1970 "p_anon.ml" 69 1914 1973
+type(
+  P_t.proof
+)
+ident(
+  int_ref prf "p_anon.ml" 61 1555 1574 "p_anon.ml" 61 1555 1577
+)
+"p_anon.ml" 69 1914 1922 "p_anon.ml" 69 1914 1973
+type(
+  P_t.proof
+)
+"p_anon.ml" 68 1854 1862 "p_anon.ml" 69 1914 1973
+type(
+  P_t.proof
+)
+"p_anon.ml" 67 1816 1824 "p_anon.ml" 69 1914 1973
+type(
+  P_t.proof
+)
+"p_anon.ml" 64 1679 1687 "p_anon.ml" 69 1914 1973
+type(
+  P_t.proof
+)
+"p_anon.ml" 63 1628 1636 "p_anon.ml" 69 1914 1973
+type(
+  P_t.proof
+)
+"p_anon.ml" 70 1974 1980 "p_anon.ml" 70 1974 1981
+type(
+  P_t.proof_
+)
+type(
+  P_t.proof_
+)
+"p_anon.ml" 71 1985 1993 "p_anon.ml" 71 1985 1998
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+type(
+  'a
+)
+ident(
+  int_ref super "p_anon.ml" 58 1484 1494 "p_anon.ml" 58 1484 1519
+)
+"p_anon.ml" 71 1985 1993 "p_anon.ml" 71 1985 2004
+type(
+  'a -> string list Expr.Visit.scx -> P_t.proof -> P_t.proof
+)
+ident(
+  ext_ref proof
+)
+type(
+  string list Expr.Visit.scx -> P_t.proof -> P_t.proof
+)
+type(
+  string list Expr.Visit.scx -> P_t.proof -> P_t.proof
+)
+"p_anon.ml" 71 1985 2005 "p_anon.ml" 71 1985 2008
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 61 1555 1570 "p_anon.ml" 61 1555 1573
+)
+"p_anon.ml" 71 1985 2009 "p_anon.ml" 71 1985 2012
+type(
+  P_t.proof
+)
+ident(
+  int_ref prf "p_anon.ml" 61 1555 1574 "p_anon.ml" 61 1555 1577
+)
+"p_anon.ml" 71 1985 1993 "p_anon.ml" 71 1985 2012
+type(
+  P_t.proof
+)
+"p_anon.ml" 61 1555 1580 "p_anon.ml" 71 1985 2012
+type(
+  P_t.proof
+)
+"p_anon.ml" 73 2014 2028 "p_anon.ml" 73 2014 2031
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 73 2014 2032 "p_anon.ml" 215 7688 7715
+)
+"p_anon.ml" 73 2014 2032 "p_anon.ml" 73 2014 2034
+type(
+  P_t.step
+)
+ident(
+  def st "p_anon.ml" 75 2091 2095 "p_anon.ml" 215 7688 7715
+)
+"p_anon.ml" 75 2091 2099 "p_anon.ml" 75 2091 2101
+type(
+  P_t.stepno
+)
+ident(
+  def sn "p_anon.ml" 79 2259 2263 "p_anon.ml" 215 7688 7715
+)
+"p_anon.ml" 75 2091 2110 "p_anon.ml" 75 2091 2113
+type(
+  P_t.step -> P_t.stepno Property.pfuncs -> P_t.stepno
+)
+ident(
+  int_ref Property.get "property.mli" 71 2383 2383 "property.mli" 71 2383 2425
+)
+"p_anon.ml" 75 2091 2114 "p_anon.ml" 75 2091 2116
+type(
+  P_t.step
+)
+ident(
+  int_ref st "p_anon.ml" 73 2014 2032 "p_anon.ml" 73 2014 2034
+)
+"p_anon.ml" 75 2091 2117 "p_anon.ml" 75 2091 2127
+type(
+  P_t.stepno Property.pfuncs
+)
+ident(
+  int_ref P_t.Props.step "p_t.mli" 81 1606 1610 "p_t.mli" 81 1606 1633
+)
+"p_anon.ml" 75 2091 2110 "p_anon.ml" 75 2091 2127
+type(
+  P_t.stepno
+)
+"p_anon.ml" 76 2133 2150 "p_anon.ml" 76 2133 2151
+type(
+  int
+)
+ident(
+  def n "p_anon.ml" 76 2133 2161 "p_anon.ml" 77 2175 2238
+)
+"p_anon.ml" 76 2133 2153 "p_anon.ml" 76 2133 2154
+type(
+  int
+)
+"p_anon.ml" 76 2133 2141 "p_anon.ml" 76 2133 2155
+type(
+  P_t.stepno
+)
+type(
+  P_t.stepno
+)
+"p_anon.ml" 76 2133 2161 "p_anon.ml" 76 2133 2168
+type(
+  P_t.step -> bool
+)
+ident(
+  int_ref citable "p_anon.ml" 50 1289 1293 "p_anon.ml" 50 1289 1300
+)
+"p_anon.ml" 76 2133 2169 "p_anon.ml" 76 2133 2171
+type(
+  P_t.step
+)
+ident(
+  int_ref st "p_anon.ml" 73 2014 2032 "p_anon.ml" 73 2014 2034
+)
+"p_anon.ml" 76 2133 2161 "p_anon.ml" 76 2133 2171
+type(
+  bool
+)
+"p_anon.ml" 77 2175 2192 "p_anon.ml" 77 2175 2193
+type(
+  int
+)
+ident(
+  int_ref n "p_anon.ml" 76 2133 2150 "p_anon.ml" 76 2133 2151
+)
+"p_anon.ml" 77 2175 2195 "p_anon.ml" 77 2175 2199
+type(
+  string
+)
+"p_anon.ml" 77 2175 2200 "p_anon.ml" 77 2175 2201
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"p_anon.ml" 77 2175 2202 "p_anon.ml" 77 2175 2215
+type(
+  int -> string
+)
+ident(
+  int_ref Stdlib.string_of_int "stdlib.mli" 750 27897 27897 "stdlib.mli" 750 27897 27930
+)
+"p_anon.ml" 77 2175 2217 "p_anon.ml" 77 2175 2227
+type(
+  unit -> int
+)
+ident(
+  int_ref Ext.Std.unique "ext.mli" 69 2880 2882 "ext.mli" 69 2880 2906
+)
+"p_anon.ml" 77 2175 2228 "p_anon.ml" 77 2175 2230
+type(
+  unit
+)
+"p_anon.ml" 77 2175 2216 "p_anon.ml" 77 2175 2231
+type(
+  int
+)
+"p_anon.ml" 77 2175 2202 "p_anon.ml" 77 2175 2231
+type(
+  string
+)
+"p_anon.ml" 77 2175 2195 "p_anon.ml" 77 2175 2231
+type(
+  string
+)
+"p_anon.ml" 77 2175 2233 "p_anon.ml" 77 2175 2237
+type(
+  bool
+)
+"p_anon.ml" 77 2175 2185 "p_anon.ml" 77 2175 2238
+type(
+  P_t.stepno
+)
+"p_anon.ml" 78 2239 2247 "p_anon.ml" 78 2239 2249
+type(
+  P_t.stepno
+)
+type(
+  P_t.stepno
+)
+ident(
+  def sn "p_anon.ml" 78 2239 2253 "p_anon.ml" 78 2239 2255
+)
+"p_anon.ml" 78 2239 2253 "p_anon.ml" 78 2239 2255
+type(
+  P_t.stepno
+)
+ident(
+  int_ref sn "p_anon.ml" 78 2239 2247 "p_anon.ml" 78 2239 2249
+)
+"p_anon.ml" 75 2091 2104 "p_anon.ml" 78 2239 2255
+type(
+  P_t.stepno
+)
+"p_anon.ml" 79 2259 2267 "p_anon.ml" 79 2259 2269
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  def st "p_anon.ml" 80 2299 2303 "p_anon.ml" 215 7688 7715
+)
+"p_anon.ml" 79 2259 2272 "p_anon.ml" 79 2259 2278
+type(
+  P_t.step ->
+  P_t.stepno Property.pfuncs -> P_t.stepno -> P_t.step_ Property.wrapped
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"p_anon.ml" 79 2259 2279 "p_anon.ml" 79 2259 2281
+type(
+  P_t.step
+)
+ident(
+  int_ref st "p_anon.ml" 73 2014 2032 "p_anon.ml" 73 2014 2034
+)
+"p_anon.ml" 79 2259 2282 "p_anon.ml" 79 2259 2292
+type(
+  P_t.stepno Property.pfuncs
+)
+ident(
+  int_ref P_t.Props.step "p_t.mli" 81 1606 1610 "p_t.mli" 81 1606 1633
+)
+"p_anon.ml" 79 2259 2293 "p_anon.ml" 79 2259 2295
+type(
+  P_t.stepno
+)
+ident(
+  int_ref sn "p_anon.ml" 75 2091 2099 "p_anon.ml" 75 2091 2101
+)
+"p_anon.ml" 79 2259 2272 "p_anon.ml" 79 2259 2295
+type(
+  P_t.step_ Property.wrapped
+)
+"p_anon.ml" 80 2299 2307 "p_anon.ml" 80 2299 2315
+type(
+  'b Expr.Visit.scx -> Expr.T.expr -> 'b Expr.Visit.scx
+)
+ident(
+  def adj_step "p_anon.ml" 84 2481 2485 "p_anon.ml" 215 7688 7715
+)
+"p_anon.ml" 80 2299 2316 "p_anon.ml" 80 2299 2319
+type(
+  'b Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 80 2299 2320 "p_anon.ml" 82 2405 2473
+)
+"p_anon.ml" 80 2299 2320 "p_anon.ml" 80 2299 2322
+type(
+  Expr.T.expr
+)
+ident(
+  def df "p_anon.ml" 81 2325 2331 "p_anon.ml" 82 2405 2473
+)
+"p_anon.ml" 81 2325 2331 "p_anon.ml" 81 2325 2345
+type(
+  'b Expr.Visit.scx -> Expr.T.hyp -> 'b Expr.Visit.scx
+)
+ident(
+  int_ref Expr.Visit.adj "expr.mli" 541 13601 13603 "expr.mli" 541 13601 13637
+)
+"p_anon.ml" 81 2325 2346 "p_anon.ml" 81 2325 2349
+type(
+  'b Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 80 2299 2316 "p_anon.ml" 80 2299 2319
+)
+"p_anon.ml" 81 2325 2367 "p_anon.ml" 81 2325 2383
+type(
+  ?anonid:bool -> P_t.stepno -> string
+)
+ident(
+  int_ref P_t.string_of_stepno "p_t.mli" 92 1869 1869 "p_t.mli" 93 1891 1927
+)
+"p_anon.ml" 81 2325 2384 "p_anon.ml" 81 2325 2386
+type(
+  P_t.stepno
+)
+ident(
+  int_ref sn "p_anon.ml" 75 2091 2099 "p_anon.ml" 75 2091 2101
+)
+"p_anon.ml" 81 2325 2367 "p_anon.ml" 81 2325 2386
+type(
+  string
+)
+"p_anon.ml" 81 2325 2387 "p_anon.ml" 81 2325 2389
+type(
+  string -> P_t.step_ Property.wrapped -> Util.hint
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 81 2325 2390 "p_anon.ml" 81 2325 2392
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 79 2259 2267 "p_anon.ml" 79 2259 2269
+)
+"p_anon.ml" 81 2325 2367 "p_anon.ml" 81 2325 2392
+type(
+  Util.hint
+)
+"p_anon.ml" 81 2325 2394 "p_anon.ml" 81 2325 2396
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref df "p_anon.ml" 80 2299 2320 "p_anon.ml" 80 2299 2322
+)
+"p_anon.ml" 81 2325 2357 "p_anon.ml" 81 2325 2397
+type(
+  Expr.T.defn_
+)
+"p_anon.ml" 81 2325 2398 "p_anon.ml" 81 2325 2400
+type(
+  Expr.T.defn_ -> P_t.step_ Property.wrapped -> Expr.T.defn
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 81 2325 2401 "p_anon.ml" 81 2325 2403
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 79 2259 2267 "p_anon.ml" 79 2259 2269
+)
+"p_anon.ml" 81 2325 2357 "p_anon.ml" 81 2325 2403
+type(
+  Expr.T.defn
+)
+"p_anon.ml" 82 2405 2443 "p_anon.ml" 82 2405 2449
+type(
+  Expr.T.time
+)
+"p_anon.ml" 82 2405 2437 "p_anon.ml" 82 2405 2449
+type(
+  Expr.T.wheredef
+)
+"p_anon.ml" 82 2405 2451 "p_anon.ml" 82 2405 2458
+type(
+  Expr.T.visibility
+)
+"p_anon.ml" 82 2405 2460 "p_anon.ml" 82 2405 2465
+type(
+  Expr.T.export
+)
+"p_anon.ml" 81 2325 2351 "p_anon.ml" 82 2405 2466
+type(
+  Expr.T.hyp_
+)
+"p_anon.ml" 82 2405 2467 "p_anon.ml" 82 2405 2469
+type(
+  Expr.T.hyp_ -> P_t.step_ Property.wrapped -> Expr.T.hyp
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 82 2405 2470 "p_anon.ml" 82 2405 2472
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 79 2259 2267 "p_anon.ml" 79 2259 2269
+)
+"p_anon.ml" 81 2325 2350 "p_anon.ml" 82 2405 2473
+type(
+  Expr.T.hyp
+)
+"p_anon.ml" 81 2325 2331 "p_anon.ml" 82 2405 2473
+type(
+  'b Expr.Visit.scx
+)
+"p_anon.ml" 84 2481 2491 "p_anon.ml" 84 2481 2493
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 79 2259 2267 "p_anon.ml" 79 2259 2269
+)
+"p_anon.ml" 84 2481 2491 "p_anon.ml" 84 2481 2498
+type(
+  P_t.step_
+)
+"p_anon.ml" 85 2504 2520 "p_anon.ml" 85 2504 2522
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "p_anon.ml" 86 2532 2542 "p_anon.ml" 108 3434 3453
+)
+"p_anon.ml" 85 2504 2524 "p_anon.ml" 85 2504 2527
+type(
+  P_t.proof
+)
+ident(
+  def prf "p_anon.ml" 86 2532 2542 "p_anon.ml" 108 3434 3453
+)
+"p_anon.ml" 85 2504 2512 "p_anon.ml" 85 2504 2528
+type(
+  P_t.step_
+)
+type(
+  P_t.step_
+)
+"p_anon.ml" 86 2532 2547 "p_anon.ml" 86 2532 2548
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 86 2532 2550 "p_anon.ml" 86 2532 2552
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "p_anon.ml" 87 2579 2589 "p_anon.ml" 108 3434 3453
+)
+"p_anon.ml" 86 2532 2546 "p_anon.ml" 86 2532 2553
+type(
+  string list Expr.Visit.scx * Expr.T.sequent
+)
+"p_anon.ml" 86 2532 2556 "p_anon.ml" 86 2532 2560
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"p_anon.ml" 86 2532 2556 "p_anon.ml" 86 2532 2568
+type(
+  string list Expr.Visit.scx ->
+  Expr.T.sequent -> string list Expr.Visit.scx * Expr.T.sequent
+)
+"p_anon.ml" 86 2532 2569 "p_anon.ml" 86 2532 2572
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 73 2014 2028 "p_anon.ml" 73 2014 2031
+)
+"p_anon.ml" 86 2532 2573 "p_anon.ml" 86 2532 2575
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "p_anon.ml" 85 2504 2520 "p_anon.ml" 85 2504 2522
+)
+"p_anon.ml" 86 2532 2556 "p_anon.ml" 86 2532 2575
+type(
+  string list Expr.Visit.scx * Expr.T.sequent
+)
+"p_anon.ml" 87 2579 2593 "p_anon.ml" 87 2579 2596
+type(
+  P_t.proof
+)
+ident(
+  def prf "p_anon.ml" 103 3223 3233 "p_anon.ml" 108 3434 3453
+)
+"p_anon.ml" 89 2629 2645 "p_anon.ml" 89 2629 2648
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 91 2740 2752 "p_anon.ml" 101 3179 3209
+)
+"p_anon.ml" 89 2629 2651 "p_anon.ml" 89 2629 2666
+type(
+  string list Expr.Visit.scx -> Expr.T.hyp list -> string list Expr.Visit.scx
+)
+ident(
+  int_ref Expr.Visit.adjs "expr.mli" 542 13638 13640 "expr.mli" 542 13638 13679
+)
+"p_anon.ml" 89 2629 2667 "p_anon.ml" 89 2629 2670
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 73 2014 2028 "p_anon.ml" 73 2014 2031
+)
+"p_anon.ml" 89 2629 2672 "p_anon.ml" 89 2629 2685
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.hyp list
+)
+ident(
+  int_ref Deque.to_list "deque.mli" 35 1014 1014 "deque.mli" 35 1014 1044
+)
+"p_anon.ml" 89 2629 2686 "p_anon.ml" 89 2629 2688
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "p_anon.ml" 86 2532 2550 "p_anon.ml" 86 2532 2552
+)
+"p_anon.ml" 89 2629 2686 "p_anon.ml" 89 2629 2696
+type(
+  Expr.T.hyp Deque.dq
+)
+"p_anon.ml" 89 2629 2671 "p_anon.ml" 89 2629 2697
+type(
+  Expr.T.hyp list
+)
+"p_anon.ml" 89 2629 2651 "p_anon.ml" 89 2629 2697
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 91 2740 2756 "p_anon.ml" 91 2740 2759
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 93 2822 2834 "p_anon.ml" 101 3179 3209
+)
+"p_anon.ml" 91 2740 2762 "p_anon.ml" 91 2740 2766
+type(
+  string list Expr.Visit.scx -> int -> string list Expr.Visit.scx
+)
+ident(
+  int_ref bump "p_anon.ml" 16 267 271 "p_anon.ml" 16 267 275
+)
+"p_anon.ml" 91 2740 2767 "p_anon.ml" 91 2740 2770
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 89 2629 2645 "p_anon.ml" 89 2629 2648
+)
+"p_anon.ml" 91 2740 2771 "p_anon.ml" 91 2740 2772
+type(
+  int
+)
+"p_anon.ml" 91 2740 2762 "p_anon.ml" 91 2740 2772
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 93 2822 2838 "p_anon.ml" 93 2822 2841
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def tup "p_anon.ml" 94 2867 2879 "p_anon.ml" 101 3179 3209
+)
+"p_anon.ml" 93 2822 2844 "p_anon.ml" 93 2822 2854
+type(
+  Expr.T.sequent -> Expr.T.expr_
+)
+ident(
+  int_ref tuple_form "p_anon.ml" 19 323 327 "p_anon.ml" 19 323 337
+)
+"p_anon.ml" 93 2822 2855 "p_anon.ml" 93 2822 2857
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "p_anon.ml" 86 2532 2550 "p_anon.ml" 86 2532 2552
+)
+"p_anon.ml" 93 2822 2844 "p_anon.ml" 93 2822 2857
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 93 2822 2858 "p_anon.ml" 93 2822 2860
+type(
+  Expr.T.expr_ -> P_t.step_ Property.wrapped -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 93 2822 2861 "p_anon.ml" 93 2822 2863
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 79 2259 2267 "p_anon.ml" 79 2259 2269
+)
+"p_anon.ml" 93 2822 2844 "p_anon.ml" 93 2822 2863
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"p_anon.ml" 94 2867 2883 "p_anon.ml" 94 2867 2886
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 96 2967 2979 "p_anon.ml" 101 3179 3209
+)
+"p_anon.ml" 94 2867 2889 "p_anon.ml" 94 2867 2897
+type(
+  string list Expr.Visit.scx -> Expr.T.expr -> string list Expr.Visit.scx
+)
+ident(
+  int_ref adj_step "p_anon.ml" 80 2299 2307 "p_anon.ml" 80 2299 2315
+)
+"p_anon.ml" 94 2867 2898 "p_anon.ml" 94 2867 2901
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 91 2740 2756 "p_anon.ml" 91 2740 2759
+)
+"p_anon.ml" 94 2867 2902 "p_anon.ml" 94 2867 2905
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref tup "p_anon.ml" 93 2822 2838 "p_anon.ml" 93 2822 2841
+)
+"p_anon.ml" 94 2867 2889 "p_anon.ml" 94 2867 2905
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 96 2967 2983 "p_anon.ml" 96 2967 2986
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 98 3068 3080 "p_anon.ml" 101 3179 3209
+)
+"p_anon.ml" 96 2967 2989 "p_anon.ml" 96 2967 2993
+type(
+  string list Expr.Visit.scx -> int -> string list Expr.Visit.scx
+)
+ident(
+  int_ref bump "p_anon.ml" 16 267 271 "p_anon.ml" 16 267 275
+)
+"p_anon.ml" 96 2967 2994 "p_anon.ml" 96 2967 2997
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 94 2867 2883 "p_anon.ml" 94 2867 2886
+)
+"p_anon.ml" 96 2967 2998 "p_anon.ml" 96 2967 2999
+type(
+  int
+)
+"p_anon.ml" 96 2967 2989 "p_anon.ml" 96 2967 2999
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 98 3068 3084 "p_anon.ml" 98 3068 3087
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 101 3179 3191 "p_anon.ml" 101 3179 3209
+)
+"p_anon.ml" 99 3090 3107 "p_anon.ml" 99 3090 3117
+type(
+  Expr.T.hyp Deque.dq -> int
+)
+ident(
+  int_ref Deque.size "deque.mli" 11 162 162 "deque.mli" 11 162 186
+)
+"p_anon.ml" 99 3090 3118 "p_anon.ml" 99 3090 3120
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "p_anon.ml" 86 2532 2550 "p_anon.ml" 86 2532 2552
+)
+"p_anon.ml" 99 3090 3118 "p_anon.ml" 99 3090 3128
+type(
+  Expr.T.hyp Deque.dq
+)
+"p_anon.ml" 99 3090 3107 "p_anon.ml" 99 3090 3128
+type(
+  int
+)
+"p_anon.ml" 99 3090 3129 "p_anon.ml" 99 3090 3130
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"p_anon.ml" 99 3090 3131 "p_anon.ml" 99 3090 3132
+type(
+  int
+)
+"p_anon.ml" 99 3090 3107 "p_anon.ml" 99 3090 3132
+type(
+  bool
+)
+"p_anon.ml" 99 3090 3138 "p_anon.ml" 99 3090 3147
+type(
+  P_t.stepno -> string list Expr.Visit.scx -> string list Expr.Visit.scx
+)
+ident(
+  int_ref push_name "p_anon.ml" 55 1380 1384 "p_anon.ml" 55 1380 1393
+)
+"p_anon.ml" 99 3090 3148 "p_anon.ml" 99 3090 3150
+type(
+  P_t.stepno
+)
+ident(
+  int_ref sn "p_anon.ml" 75 2091 2099 "p_anon.ml" 75 2091 2101
+)
+"p_anon.ml" 99 3090 3151 "p_anon.ml" 99 3090 3154
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 96 2967 2983 "p_anon.ml" 96 2967 2986
+)
+"p_anon.ml" 99 3090 3138 "p_anon.ml" 99 3090 3154
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 99 3090 3160 "p_anon.ml" 99 3090 3163
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 96 2967 2983 "p_anon.ml" 96 2967 2986
+)
+"p_anon.ml" 99 3090 3104 "p_anon.ml" 99 3090 3163
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 101 3179 3191 "p_anon.ml" 101 3179 3195
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"p_anon.ml" 101 3179 3191 "p_anon.ml" 101 3179 3201
+type(
+  string list Expr.Visit.scx -> P_t.proof -> P_t.proof
+)
+"p_anon.ml" 101 3179 3202 "p_anon.ml" 101 3179 3205
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 98 3068 3084 "p_anon.ml" 98 3068 3087
+)
+"p_anon.ml" 101 3179 3206 "p_anon.ml" 101 3179 3209
+type(
+  P_t.proof
+)
+ident(
+  int_ref prf "p_anon.ml" 85 2504 2524 "p_anon.ml" 85 2504 2527
+)
+"p_anon.ml" 101 3179 3191 "p_anon.ml" 101 3179 3209
+type(
+  P_t.proof
+)
+"p_anon.ml" 98 3068 3080 "p_anon.ml" 101 3179 3209
+type(
+  P_t.proof
+)
+"p_anon.ml" 96 2967 2979 "p_anon.ml" 101 3179 3209
+type(
+  P_t.proof
+)
+"p_anon.ml" 94 2867 2879 "p_anon.ml" 101 3179 3209
+type(
+  P_t.proof
+)
+"p_anon.ml" 93 2822 2834 "p_anon.ml" 101 3179 3209
+type(
+  P_t.proof
+)
+"p_anon.ml" 91 2740 2752 "p_anon.ml" 101 3179 3209
+type(
+  P_t.proof
+)
+"p_anon.ml" 89 2629 2641 "p_anon.ml" 101 3179 3209
+type(
+  P_t.proof
+)
+"p_anon.ml" 103 3223 3237 "p_anon.ml" 103 3223 3239
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  def st "p_anon.ml" 105 3300 3310 "p_anon.ml" 108 3434 3453
+)
+"p_anon.ml" 103 3223 3250 "p_anon.ml" 103 3223 3252
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "p_anon.ml" 86 2532 2550 "p_anon.ml" 86 2532 2552
+)
+"p_anon.ml" 103 3223 3254 "p_anon.ml" 103 3223 3257
+type(
+  P_t.proof
+)
+ident(
+  int_ref prf "p_anon.ml" 87 2579 2593 "p_anon.ml" 87 2579 2596
+)
+"p_anon.ml" 103 3223 3242 "p_anon.ml" 103 3223 3258
+type(
+  P_t.step_
+)
+"p_anon.ml" 103 3223 3259 "p_anon.ml" 103 3223 3261
+type(
+  P_t.step_ -> P_t.step_ Property.wrapped -> P_t.step_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 103 3223 3262 "p_anon.ml" 103 3223 3264
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 79 2259 2267 "p_anon.ml" 79 2259 2269
+)
+"p_anon.ml" 103 3223 3242 "p_anon.ml" 103 3223 3264
+type(
+  P_t.step_ Property.wrapped
+)
+"p_anon.ml" 105 3300 3314 "p_anon.ml" 105 3300 3317
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 107 3400 3410 "p_anon.ml" 108 3434 3453
+)
+"p_anon.ml" 105 3300 3320 "p_anon.ml" 105 3300 3328
+type(
+  string list Expr.Visit.scx -> Expr.T.expr -> string list Expr.Visit.scx
+)
+ident(
+  int_ref adj_step "p_anon.ml" 80 2299 2307 "p_anon.ml" 80 2299 2315
+)
+"p_anon.ml" 105 3300 3329 "p_anon.ml" 105 3300 3332
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 73 2014 2028 "p_anon.ml" 73 2014 2031
+)
+"p_anon.ml" 105 3300 3334 "p_anon.ml" 105 3300 3349
+type(
+  Expr.T.sequent -> Expr.T.expr_
+)
+ident(
+  int_ref Expr.T.exprify_sequent "expr.mli" 344 8876 8878 "expr.mli" 344 8876 8916
+)
+"p_anon.ml" 105 3300 3350 "p_anon.ml" 105 3300 3352
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "p_anon.ml" 86 2532 2550 "p_anon.ml" 86 2532 2552
+)
+"p_anon.ml" 105 3300 3334 "p_anon.ml" 105 3300 3352
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 105 3300 3353 "p_anon.ml" 105 3300 3355
+type(
+  Expr.T.expr_ -> P_t.step_ Property.wrapped -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 105 3300 3356 "p_anon.ml" 105 3300 3358
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 103 3223 3237 "p_anon.ml" 103 3223 3239
+)
+"p_anon.ml" 105 3300 3333 "p_anon.ml" 105 3300 3359
+type(
+  Expr.T.expr
+)
+"p_anon.ml" 105 3300 3320 "p_anon.ml" 105 3300 3359
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 107 3400 3414 "p_anon.ml" 107 3400 3417
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 108 3434 3444 "p_anon.ml" 108 3434 3453
+)
+"p_anon.ml" 107 3400 3420 "p_anon.ml" 107 3400 3424
+type(
+  string list Expr.Visit.scx -> int -> string list Expr.Visit.scx
+)
+ident(
+  int_ref bump "p_anon.ml" 16 267 271 "p_anon.ml" 16 267 275
+)
+"p_anon.ml" 107 3400 3425 "p_anon.ml" 107 3400 3428
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 105 3300 3314 "p_anon.ml" 105 3300 3317
+)
+"p_anon.ml" 107 3400 3429 "p_anon.ml" 107 3400 3430
+type(
+  int
+)
+"p_anon.ml" 107 3400 3420 "p_anon.ml" 107 3400 3430
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 108 3434 3445 "p_anon.ml" 108 3434 3448
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 107 3400 3414 "p_anon.ml" 107 3400 3417
+)
+"p_anon.ml" 108 3434 3450 "p_anon.ml" 108 3434 3452
+type(
+  P_t.step
+)
+ident(
+  int_ref st "p_anon.ml" 103 3223 3237 "p_anon.ml" 103 3223 3239
+)
+"p_anon.ml" 108 3434 3444 "p_anon.ml" 108 3434 3453
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 107 3400 3410 "p_anon.ml" 108 3434 3453
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 105 3300 3310 "p_anon.ml" 108 3434 3453
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 103 3223 3233 "p_anon.ml" 108 3434 3453
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 87 2579 2589 "p_anon.ml" 108 3434 3453
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 86 2532 2542 "p_anon.ml" 108 3434 3453
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 109 3454 3469 "p_anon.ml" 109 3454 3470
+type(
+  Expr.T.expr
+)
+ident(
+  def e "p_anon.ml" 110 3480 3490 "p_anon.ml" 126 4096 4115
+)
+"p_anon.ml" 109 3454 3472 "p_anon.ml" 109 3454 3475
+type(
+  P_t.proof
+)
+ident(
+  def prf "p_anon.ml" 110 3480 3490 "p_anon.ml" 126 4096 4115
+)
+"p_anon.ml" 109 3454 3462 "p_anon.ml" 109 3454 3476
+type(
+  P_t.step_
+)
+type(
+  P_t.step_
+)
+"p_anon.ml" 110 3480 3494 "p_anon.ml" 110 3480 3495
+type(
+  Expr.T.expr
+)
+ident(
+  def e "p_anon.ml" 111 3517 3527 "p_anon.ml" 126 4096 4115
+)
+"p_anon.ml" 110 3480 3498 "p_anon.ml" 110 3480 3502
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"p_anon.ml" 110 3480 3498 "p_anon.ml" 110 3480 3507
+type(
+  string list Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"p_anon.ml" 110 3480 3508 "p_anon.ml" 110 3480 3511
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 73 2014 2028 "p_anon.ml" 73 2014 2031
+)
+"p_anon.ml" 110 3480 3512 "p_anon.ml" 110 3480 3513
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "p_anon.ml" 109 3454 3469 "p_anon.ml" 109 3454 3470
+)
+"p_anon.ml" 110 3480 3498 "p_anon.ml" 110 3480 3513
+type(
+  Expr.T.expr
+)
+"p_anon.ml" 111 3517 3531 "p_anon.ml" 111 3517 3534
+type(
+  P_t.proof
+)
+ident(
+  def prf "p_anon.ml" 121 3897 3907 "p_anon.ml" 126 4096 4115
+)
+"p_anon.ml" 113 3593 3609 "p_anon.ml" 113 3593 3612
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 115 3657 3669 "p_anon.ml" 119 3853 3883
+)
+"p_anon.ml" 113 3593 3615 "p_anon.ml" 113 3593 3619
+type(
+  string list Expr.Visit.scx -> int -> string list Expr.Visit.scx
+)
+ident(
+  int_ref bump "p_anon.ml" 16 267 271 "p_anon.ml" 16 267 275
+)
+"p_anon.ml" 113 3593 3620 "p_anon.ml" 113 3593 3623
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 73 2014 2028 "p_anon.ml" 73 2014 2031
+)
+"p_anon.ml" 113 3593 3624 "p_anon.ml" 113 3593 3625
+type(
+  int
+)
+"p_anon.ml" 113 3593 3615 "p_anon.ml" 113 3593 3625
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 115 3657 3673 "p_anon.ml" 115 3657 3676
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def tup "p_anon.ml" 116 3717 3729 "p_anon.ml" 119 3853 3883
+)
+"p_anon.ml" 115 3657 3686 "p_anon.ml" 115 3657 3694
+type(
+  Expr.Subst.sub -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Subst.app_expr "expr.mli" 447 11184 11188 "expr.mli" 449 11225 11241
+)
+"p_anon.ml" 115 3657 3696 "p_anon.ml" 115 3657 3701
+type(
+  int -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.shift "expr.mli" 427 10798 10802 "expr.mli" 428 10813 10831
+)
+"p_anon.ml" 115 3657 3702 "p_anon.ml" 115 3657 3703
+type(
+  int
+)
+"p_anon.ml" 115 3657 3695 "p_anon.ml" 115 3657 3704
+type(
+  Expr.Subst.sub
+)
+"p_anon.ml" 115 3657 3705 "p_anon.ml" 115 3657 3706
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "p_anon.ml" 110 3480 3494 "p_anon.ml" 110 3480 3495
+)
+"p_anon.ml" 115 3657 3686 "p_anon.ml" 115 3657 3706
+type(
+  Expr.T.expr
+)
+"p_anon.ml" 115 3657 3685 "p_anon.ml" 115 3657 3707
+type(
+  Expr.T.expr list
+)
+"p_anon.ml" 115 3657 3679 "p_anon.ml" 115 3657 3707
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 115 3657 3708 "p_anon.ml" 115 3657 3710
+type(
+  Expr.T.expr_ -> P_t.step_ Property.wrapped -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 115 3657 3711 "p_anon.ml" 115 3657 3713
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 79 2259 2267 "p_anon.ml" 79 2259 2269
+)
+"p_anon.ml" 115 3657 3679 "p_anon.ml" 115 3657 3713
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"p_anon.ml" 116 3717 3733 "p_anon.ml" 116 3717 3736
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 118 3817 3829 "p_anon.ml" 119 3853 3883
+)
+"p_anon.ml" 116 3717 3739 "p_anon.ml" 116 3717 3747
+type(
+  string list Expr.Visit.scx -> Expr.T.expr -> string list Expr.Visit.scx
+)
+ident(
+  int_ref adj_step "p_anon.ml" 80 2299 2307 "p_anon.ml" 80 2299 2315
+)
+"p_anon.ml" 116 3717 3748 "p_anon.ml" 116 3717 3751
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 113 3593 3609 "p_anon.ml" 113 3593 3612
+)
+"p_anon.ml" 116 3717 3752 "p_anon.ml" 116 3717 3755
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref tup "p_anon.ml" 115 3657 3673 "p_anon.ml" 115 3657 3676
+)
+"p_anon.ml" 116 3717 3739 "p_anon.ml" 116 3717 3755
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 118 3817 3833 "p_anon.ml" 118 3817 3836
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 119 3853 3865 "p_anon.ml" 119 3853 3883
+)
+"p_anon.ml" 118 3817 3839 "p_anon.ml" 118 3817 3843
+type(
+  string list Expr.Visit.scx -> int -> string list Expr.Visit.scx
+)
+ident(
+  int_ref bump "p_anon.ml" 16 267 271 "p_anon.ml" 16 267 275
+)
+"p_anon.ml" 118 3817 3844 "p_anon.ml" 118 3817 3847
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 116 3717 3733 "p_anon.ml" 116 3717 3736
+)
+"p_anon.ml" 118 3817 3848 "p_anon.ml" 118 3817 3849
+type(
+  int
+)
+"p_anon.ml" 118 3817 3839 "p_anon.ml" 118 3817 3849
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 119 3853 3865 "p_anon.ml" 119 3853 3869
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"p_anon.ml" 119 3853 3865 "p_anon.ml" 119 3853 3875
+type(
+  string list Expr.Visit.scx -> P_t.proof -> P_t.proof
+)
+"p_anon.ml" 119 3853 3876 "p_anon.ml" 119 3853 3879
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 118 3817 3833 "p_anon.ml" 118 3817 3836
+)
+"p_anon.ml" 119 3853 3880 "p_anon.ml" 119 3853 3883
+type(
+  P_t.proof
+)
+ident(
+  int_ref prf "p_anon.ml" 109 3454 3472 "p_anon.ml" 109 3454 3475
+)
+"p_anon.ml" 119 3853 3865 "p_anon.ml" 119 3853 3883
+type(
+  P_t.proof
+)
+"p_anon.ml" 118 3817 3829 "p_anon.ml" 119 3853 3883
+type(
+  P_t.proof
+)
+"p_anon.ml" 116 3717 3729 "p_anon.ml" 119 3853 3883
+type(
+  P_t.proof
+)
+"p_anon.ml" 115 3657 3669 "p_anon.ml" 119 3853 3883
+type(
+  P_t.proof
+)
+"p_anon.ml" 113 3593 3605 "p_anon.ml" 119 3853 3883
+type(
+  P_t.proof
+)
+"p_anon.ml" 121 3897 3911 "p_anon.ml" 121 3897 3913
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  def st "p_anon.ml" 123 3971 3981 "p_anon.ml" 126 4096 4115
+)
+"p_anon.ml" 121 3897 3923 "p_anon.ml" 121 3897 3924
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "p_anon.ml" 110 3480 3494 "p_anon.ml" 110 3480 3495
+)
+"p_anon.ml" 121 3897 3926 "p_anon.ml" 121 3897 3929
+type(
+  P_t.proof
+)
+ident(
+  int_ref prf "p_anon.ml" 111 3517 3531 "p_anon.ml" 111 3517 3534
+)
+"p_anon.ml" 121 3897 3916 "p_anon.ml" 121 3897 3930
+type(
+  P_t.step_
+)
+"p_anon.ml" 121 3897 3931 "p_anon.ml" 121 3897 3933
+type(
+  P_t.step_ -> P_t.step_ Property.wrapped -> P_t.step_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 121 3897 3934 "p_anon.ml" 121 3897 3936
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 79 2259 2267 "p_anon.ml" 79 2259 2269
+)
+"p_anon.ml" 121 3897 3916 "p_anon.ml" 121 3897 3936
+type(
+  P_t.step_ Property.wrapped
+)
+"p_anon.ml" 123 3971 3985 "p_anon.ml" 123 3971 3988
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 125 4062 4072 "p_anon.ml" 126 4096 4115
+)
+"p_anon.ml" 123 3971 3991 "p_anon.ml" 123 3971 3999
+type(
+  string list Expr.Visit.scx -> Expr.T.expr -> string list Expr.Visit.scx
+)
+ident(
+  int_ref adj_step "p_anon.ml" 80 2299 2307 "p_anon.ml" 80 2299 2315
+)
+"p_anon.ml" 123 3971 4000 "p_anon.ml" 123 3971 4003
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 73 2014 2028 "p_anon.ml" 73 2014 2031
+)
+"p_anon.ml" 123 3971 4012 "p_anon.ml" 123 3971 4013
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "p_anon.ml" 110 3480 3494 "p_anon.ml" 110 3480 3495
+)
+"p_anon.ml" 123 3971 4011 "p_anon.ml" 123 3971 4014
+type(
+  Expr.T.expr list
+)
+"p_anon.ml" 123 3971 4005 "p_anon.ml" 123 3971 4014
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 123 3971 4015 "p_anon.ml" 123 3971 4017
+type(
+  Expr.T.expr_ -> P_t.step_ Property.wrapped -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 123 3971 4018 "p_anon.ml" 123 3971 4020
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 121 3897 3911 "p_anon.ml" 121 3897 3913
+)
+"p_anon.ml" 123 3971 4004 "p_anon.ml" 123 3971 4021
+type(
+  Expr.T.expr
+)
+"p_anon.ml" 123 3971 3991 "p_anon.ml" 123 3971 4021
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 125 4062 4076 "p_anon.ml" 125 4062 4079
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 126 4096 4106 "p_anon.ml" 126 4096 4115
+)
+"p_anon.ml" 125 4062 4082 "p_anon.ml" 125 4062 4086
+type(
+  string list Expr.Visit.scx -> int -> string list Expr.Visit.scx
+)
+ident(
+  int_ref bump "p_anon.ml" 16 267 271 "p_anon.ml" 16 267 275
+)
+"p_anon.ml" 125 4062 4087 "p_anon.ml" 125 4062 4090
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 123 3971 3985 "p_anon.ml" 123 3971 3988
+)
+"p_anon.ml" 125 4062 4091 "p_anon.ml" 125 4062 4092
+type(
+  int
+)
+"p_anon.ml" 125 4062 4082 "p_anon.ml" 125 4062 4092
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 126 4096 4107 "p_anon.ml" 126 4096 4110
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 125 4062 4076 "p_anon.ml" 125 4062 4079
+)
+"p_anon.ml" 126 4096 4112 "p_anon.ml" 126 4096 4114
+type(
+  P_t.step
+)
+ident(
+  int_ref st "p_anon.ml" 121 3897 3911 "p_anon.ml" 121 3897 3913
+)
+"p_anon.ml" 126 4096 4106 "p_anon.ml" 126 4096 4115
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 125 4062 4072 "p_anon.ml" 126 4096 4115
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 123 3971 3981 "p_anon.ml" 126 4096 4115
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 121 3897 3907 "p_anon.ml" 126 4096 4115
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 111 3517 3527 "p_anon.ml" 126 4096 4115
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 110 3480 3490 "p_anon.ml" 126 4096 4115
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 127 4116 4134 "p_anon.ml" 127 4116 4136
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "p_anon.ml" 128 4146 4156 "p_anon.ml" 146 4908 4927
+)
+"p_anon.ml" 127 4116 4138 "p_anon.ml" 127 4116 4141
+type(
+  P_t.proof
+)
+ident(
+  def prf "p_anon.ml" 128 4146 4156 "p_anon.ml" 146 4908 4927
+)
+"p_anon.ml" 127 4116 4124 "p_anon.ml" 127 4116 4142
+type(
+  P_t.step_
+)
+type(
+  P_t.step_
+)
+"p_anon.ml" 128 4146 4161 "p_anon.ml" 128 4146 4162
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 128 4146 4164 "p_anon.ml" 128 4146 4166
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "p_anon.ml" 129 4193 4203 "p_anon.ml" 146 4908 4927
+)
+"p_anon.ml" 128 4146 4160 "p_anon.ml" 128 4146 4167
+type(
+  string list Expr.Visit.scx * Expr.T.sequent
+)
+"p_anon.ml" 128 4146 4170 "p_anon.ml" 128 4146 4174
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"p_anon.ml" 128 4146 4170 "p_anon.ml" 128 4146 4182
+type(
+  string list Expr.Visit.scx ->
+  Expr.T.sequent -> string list Expr.Visit.scx * Expr.T.sequent
+)
+"p_anon.ml" 128 4146 4183 "p_anon.ml" 128 4146 4186
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 73 2014 2028 "p_anon.ml" 73 2014 2031
+)
+"p_anon.ml" 128 4146 4187 "p_anon.ml" 128 4146 4189
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "p_anon.ml" 127 4116 4134 "p_anon.ml" 127 4116 4136
+)
+"p_anon.ml" 128 4146 4170 "p_anon.ml" 128 4146 4189
+type(
+  string list Expr.Visit.scx * Expr.T.sequent
+)
+"p_anon.ml" 129 4193 4207 "p_anon.ml" 129 4193 4210
+type(
+  P_t.proof
+)
+ident(
+  def prf "p_anon.ml" 136 4461 4471 "p_anon.ml" 146 4908 4927
+)
+"p_anon.ml" 131 4252 4268 "p_anon.ml" 131 4252 4271
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def fac "p_anon.ml" 132 4316 4328 "p_anon.ml" 135 4427 4457
+)
+"p_anon.ml" 131 4252 4281 "p_anon.ml" 131 4252 4296
+type(
+  Expr.T.sequent -> Expr.T.expr_
+)
+ident(
+  int_ref Expr.T.exprify_sequent "expr.mli" 344 8876 8878 "expr.mli" 344 8876 8916
+)
+"p_anon.ml" 131 4252 4297 "p_anon.ml" 131 4252 4299
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "p_anon.ml" 128 4146 4164 "p_anon.ml" 128 4146 4166
+)
+"p_anon.ml" 131 4252 4281 "p_anon.ml" 131 4252 4299
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 131 4252 4300 "p_anon.ml" 131 4252 4302
+type(
+  Expr.T.expr_ -> P_t.step_ Property.wrapped -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 131 4252 4303 "p_anon.ml" 131 4252 4305
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 79 2259 2267 "p_anon.ml" 79 2259 2269
+)
+"p_anon.ml" 131 4252 4281 "p_anon.ml" 131 4252 4305
+type(
+  Expr.T.expr
+)
+"p_anon.ml" 131 4252 4280 "p_anon.ml" 131 4252 4306
+type(
+  Expr.T.expr list
+)
+"p_anon.ml" 131 4252 4274 "p_anon.ml" 131 4252 4306
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 131 4252 4307 "p_anon.ml" 131 4252 4309
+type(
+  Expr.T.expr_ -> P_t.step_ Property.wrapped -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 131 4252 4310 "p_anon.ml" 131 4252 4312
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 79 2259 2267 "p_anon.ml" 79 2259 2269
+)
+"p_anon.ml" 131 4252 4274 "p_anon.ml" 131 4252 4312
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"p_anon.ml" 132 4316 4332 "p_anon.ml" 132 4316 4335
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 134 4391 4403 "p_anon.ml" 135 4427 4457
+)
+"p_anon.ml" 132 4316 4338 "p_anon.ml" 132 4316 4346
+type(
+  string list Expr.Visit.scx -> Expr.T.expr -> string list Expr.Visit.scx
+)
+ident(
+  int_ref adj_step "p_anon.ml" 80 2299 2307 "p_anon.ml" 80 2299 2315
+)
+"p_anon.ml" 132 4316 4347 "p_anon.ml" 132 4316 4350
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 73 2014 2028 "p_anon.ml" 73 2014 2031
+)
+"p_anon.ml" 132 4316 4351 "p_anon.ml" 132 4316 4354
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref fac "p_anon.ml" 131 4252 4268 "p_anon.ml" 131 4252 4271
+)
+"p_anon.ml" 132 4316 4338 "p_anon.ml" 132 4316 4354
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 134 4391 4407 "p_anon.ml" 134 4391 4410
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 135 4427 4439 "p_anon.ml" 135 4427 4457
+)
+"p_anon.ml" 134 4391 4413 "p_anon.ml" 134 4391 4417
+type(
+  string list Expr.Visit.scx -> int -> string list Expr.Visit.scx
+)
+ident(
+  int_ref bump "p_anon.ml" 16 267 271 "p_anon.ml" 16 267 275
+)
+"p_anon.ml" 134 4391 4418 "p_anon.ml" 134 4391 4421
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 132 4316 4332 "p_anon.ml" 132 4316 4335
+)
+"p_anon.ml" 134 4391 4422 "p_anon.ml" 134 4391 4423
+type(
+  int
+)
+"p_anon.ml" 134 4391 4413 "p_anon.ml" 134 4391 4423
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 135 4427 4439 "p_anon.ml" 135 4427 4443
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"p_anon.ml" 135 4427 4439 "p_anon.ml" 135 4427 4449
+type(
+  string list Expr.Visit.scx -> P_t.proof -> P_t.proof
+)
+"p_anon.ml" 135 4427 4450 "p_anon.ml" 135 4427 4453
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 134 4391 4407 "p_anon.ml" 134 4391 4410
+)
+"p_anon.ml" 135 4427 4454 "p_anon.ml" 135 4427 4457
+type(
+  P_t.proof
+)
+ident(
+  int_ref prf "p_anon.ml" 127 4116 4138 "p_anon.ml" 127 4116 4141
+)
+"p_anon.ml" 135 4427 4439 "p_anon.ml" 135 4427 4457
+type(
+  P_t.proof
+)
+"p_anon.ml" 134 4391 4403 "p_anon.ml" 135 4427 4457
+type(
+  P_t.proof
+)
+"p_anon.ml" 132 4316 4328 "p_anon.ml" 135 4427 4457
+type(
+  P_t.proof
+)
+"p_anon.ml" 131 4252 4264 "p_anon.ml" 135 4427 4457
+type(
+  P_t.proof
+)
+"p_anon.ml" 136 4461 4475 "p_anon.ml" 136 4461 4477
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  def st "p_anon.ml" 138 4536 4546 "p_anon.ml" 146 4908 4927
+)
+"p_anon.ml" 136 4461 4490 "p_anon.ml" 136 4461 4492
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "p_anon.ml" 128 4146 4164 "p_anon.ml" 128 4146 4166
+)
+"p_anon.ml" 136 4461 4494 "p_anon.ml" 136 4461 4497
+type(
+  P_t.proof
+)
+ident(
+  int_ref prf "p_anon.ml" 129 4193 4207 "p_anon.ml" 129 4193 4210
+)
+"p_anon.ml" 136 4461 4480 "p_anon.ml" 136 4461 4498
+type(
+  P_t.step_
+)
+"p_anon.ml" 136 4461 4499 "p_anon.ml" 136 4461 4501
+type(
+  P_t.step_ -> P_t.step_ Property.wrapped -> P_t.step_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 136 4461 4502 "p_anon.ml" 136 4461 4504
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 79 2259 2267 "p_anon.ml" 79 2259 2269
+)
+"p_anon.ml" 136 4461 4480 "p_anon.ml" 136 4461 4504
+type(
+  P_t.step_ Property.wrapped
+)
+"p_anon.ml" 138 4536 4550 "p_anon.ml" 138 4536 4553
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 140 4643 4653 "p_anon.ml" 146 4908 4927
+)
+"p_anon.ml" 138 4536 4556 "p_anon.ml" 138 4536 4571
+type(
+  string list Expr.Visit.scx -> Expr.T.hyp list -> string list Expr.Visit.scx
+)
+ident(
+  int_ref Expr.Visit.adjs "expr.mli" 542 13638 13640 "expr.mli" 542 13638 13679
+)
+"p_anon.ml" 138 4536 4572 "p_anon.ml" 138 4536 4575
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 73 2014 2028 "p_anon.ml" 73 2014 2031
+)
+"p_anon.ml" 138 4536 4577 "p_anon.ml" 138 4536 4590
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.hyp list
+)
+ident(
+  int_ref Deque.to_list "deque.mli" 35 1014 1014 "deque.mli" 35 1014 1044
+)
+"p_anon.ml" 138 4536 4591 "p_anon.ml" 138 4536 4593
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "p_anon.ml" 128 4146 4164 "p_anon.ml" 128 4146 4166
+)
+"p_anon.ml" 138 4536 4591 "p_anon.ml" 138 4536 4601
+type(
+  Expr.T.hyp Deque.dq
+)
+"p_anon.ml" 138 4536 4576 "p_anon.ml" 138 4536 4602
+type(
+  Expr.T.hyp list
+)
+"p_anon.ml" 138 4536 4556 "p_anon.ml" 138 4536 4602
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 140 4643 4657 "p_anon.ml" 140 4643 4660
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 142 4721 4731 "p_anon.ml" 146 4908 4927
+)
+"p_anon.ml" 140 4643 4663 "p_anon.ml" 140 4643 4667
+type(
+  string list Expr.Visit.scx -> int -> string list Expr.Visit.scx
+)
+ident(
+  int_ref bump "p_anon.ml" 16 267 271 "p_anon.ml" 16 267 275
+)
+"p_anon.ml" 140 4643 4668 "p_anon.ml" 140 4643 4671
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 138 4536 4550 "p_anon.ml" 138 4536 4553
+)
+"p_anon.ml" 140 4643 4672 "p_anon.ml" 140 4643 4673
+type(
+  int
+)
+"p_anon.ml" 140 4643 4663 "p_anon.ml" 140 4643 4673
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 142 4721 4735 "p_anon.ml" 142 4721 4738
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def tup "p_anon.ml" 143 4778 4788 "p_anon.ml" 146 4908 4927
+)
+"p_anon.ml" 142 4721 4748 "p_anon.ml" 142 4721 4758
+type(
+  Expr.T.sequent -> Expr.T.expr_
+)
+ident(
+  int_ref tuple_form "p_anon.ml" 19 323 327 "p_anon.ml" 19 323 337
+)
+"p_anon.ml" 142 4721 4759 "p_anon.ml" 142 4721 4761
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "p_anon.ml" 128 4146 4164 "p_anon.ml" 128 4146 4166
+)
+"p_anon.ml" 142 4721 4748 "p_anon.ml" 142 4721 4761
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 142 4721 4762 "p_anon.ml" 142 4721 4764
+type(
+  Expr.T.expr_ -> P_t.step_ Property.wrapped -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 142 4721 4765 "p_anon.ml" 142 4721 4767
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 136 4461 4475 "p_anon.ml" 136 4461 4477
+)
+"p_anon.ml" 142 4721 4748 "p_anon.ml" 142 4721 4767
+type(
+  Expr.T.expr
+)
+"p_anon.ml" 142 4721 4747 "p_anon.ml" 142 4721 4768
+type(
+  Expr.T.expr list
+)
+"p_anon.ml" 142 4721 4741 "p_anon.ml" 142 4721 4768
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 142 4721 4769 "p_anon.ml" 142 4721 4771
+type(
+  Expr.T.expr_ -> P_t.step_ Property.wrapped -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 142 4721 4772 "p_anon.ml" 142 4721 4774
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 136 4461 4475 "p_anon.ml" 136 4461 4477
+)
+"p_anon.ml" 142 4721 4741 "p_anon.ml" 142 4721 4774
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"p_anon.ml" 143 4778 4792 "p_anon.ml" 143 4778 4795
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 145 4874 4884 "p_anon.ml" 146 4908 4927
+)
+"p_anon.ml" 143 4778 4798 "p_anon.ml" 143 4778 4806
+type(
+  string list Expr.Visit.scx -> Expr.T.expr -> string list Expr.Visit.scx
+)
+ident(
+  int_ref adj_step "p_anon.ml" 80 2299 2307 "p_anon.ml" 80 2299 2315
+)
+"p_anon.ml" 143 4778 4807 "p_anon.ml" 143 4778 4810
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 140 4643 4657 "p_anon.ml" 140 4643 4660
+)
+"p_anon.ml" 143 4778 4811 "p_anon.ml" 143 4778 4814
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref tup "p_anon.ml" 142 4721 4735 "p_anon.ml" 142 4721 4738
+)
+"p_anon.ml" 143 4778 4798 "p_anon.ml" 143 4778 4814
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 145 4874 4888 "p_anon.ml" 145 4874 4891
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 146 4908 4918 "p_anon.ml" 146 4908 4927
+)
+"p_anon.ml" 145 4874 4894 "p_anon.ml" 145 4874 4898
+type(
+  string list Expr.Visit.scx -> int -> string list Expr.Visit.scx
+)
+ident(
+  int_ref bump "p_anon.ml" 16 267 271 "p_anon.ml" 16 267 275
+)
+"p_anon.ml" 145 4874 4899 "p_anon.ml" 145 4874 4902
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 143 4778 4792 "p_anon.ml" 143 4778 4795
+)
+"p_anon.ml" 145 4874 4903 "p_anon.ml" 145 4874 4904
+type(
+  int
+)
+"p_anon.ml" 145 4874 4894 "p_anon.ml" 145 4874 4904
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 146 4908 4919 "p_anon.ml" 146 4908 4922
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 145 4874 4888 "p_anon.ml" 145 4874 4891
+)
+"p_anon.ml" 146 4908 4924 "p_anon.ml" 146 4908 4926
+type(
+  P_t.step
+)
+ident(
+  int_ref st "p_anon.ml" 136 4461 4475 "p_anon.ml" 136 4461 4477
+)
+"p_anon.ml" 146 4908 4918 "p_anon.ml" 146 4908 4927
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 145 4874 4884 "p_anon.ml" 146 4908 4927
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 143 4778 4788 "p_anon.ml" 146 4908 4927
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 142 4721 4731 "p_anon.ml" 146 4908 4927
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 140 4643 4653 "p_anon.ml" 146 4908 4927
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 138 4536 4546 "p_anon.ml" 146 4908 4927
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 136 4461 4471 "p_anon.ml" 146 4908 4927
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 129 4193 4203 "p_anon.ml" 146 4908 4927
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 128 4146 4156 "p_anon.ml" 146 4908 4927
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 147 4928 4941 "p_anon.ml" 147 4928 4942
+type(
+  Expr.T.expr
+)
+ident(
+  def e "p_anon.ml" 148 4946 4956 "p_anon.ml" 157 5338 5357
+)
+"p_anon.ml" 147 4928 4936 "p_anon.ml" 147 4928 4942
+type(
+  P_t.step_
+)
+type(
+  P_t.step_
+)
+"p_anon.ml" 148 4946 4960 "p_anon.ml" 148 4946 4961
+type(
+  Expr.T.expr
+)
+ident(
+  def e "p_anon.ml" 149 4983 4993 "p_anon.ml" 157 5338 5357
+)
+"p_anon.ml" 148 4946 4964 "p_anon.ml" 148 4946 4968
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"p_anon.ml" 148 4946 4964 "p_anon.ml" 148 4946 4973
+type(
+  string list Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"p_anon.ml" 148 4946 4974 "p_anon.ml" 148 4946 4977
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 73 2014 2028 "p_anon.ml" 73 2014 2031
+)
+"p_anon.ml" 148 4946 4978 "p_anon.ml" 148 4946 4979
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "p_anon.ml" 147 4928 4941 "p_anon.ml" 147 4928 4942
+)
+"p_anon.ml" 148 4946 4964 "p_anon.ml" 148 4946 4979
+type(
+  Expr.T.expr
+)
+"p_anon.ml" 149 4983 4997 "p_anon.ml" 149 4983 4999
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  def st "p_anon.ml" 151 5072 5082 "p_anon.ml" 157 5338 5357
+)
+"p_anon.ml" 149 4983 5007 "p_anon.ml" 149 4983 5008
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "p_anon.ml" 148 4946 4960 "p_anon.ml" 148 4946 4961
+)
+"p_anon.ml" 149 4983 5002 "p_anon.ml" 149 4983 5008
+type(
+  P_t.step_
+)
+"p_anon.ml" 149 4983 5009 "p_anon.ml" 149 4983 5011
+type(
+  P_t.step_ -> P_t.step_ Property.wrapped -> P_t.step_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 149 4983 5012 "p_anon.ml" 149 4983 5014
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 79 2259 2267 "p_anon.ml" 79 2259 2269
+)
+"p_anon.ml" 149 4983 5002 "p_anon.ml" 149 4983 5014
+type(
+  P_t.step_ Property.wrapped
+)
+"p_anon.ml" 151 5072 5086 "p_anon.ml" 151 5072 5089
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 153 5150 5160 "p_anon.ml" 157 5338 5357
+)
+"p_anon.ml" 151 5072 5092 "p_anon.ml" 151 5072 5096
+type(
+  string list Expr.Visit.scx -> int -> string list Expr.Visit.scx
+)
+ident(
+  int_ref bump "p_anon.ml" 16 267 271 "p_anon.ml" 16 267 275
+)
+"p_anon.ml" 151 5072 5097 "p_anon.ml" 151 5072 5100
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 73 2014 2028 "p_anon.ml" 73 2014 2031
+)
+"p_anon.ml" 151 5072 5101 "p_anon.ml" 151 5072 5102
+type(
+  int
+)
+"p_anon.ml" 151 5072 5092 "p_anon.ml" 151 5072 5102
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 153 5150 5164 "p_anon.ml" 153 5150 5167
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def tup "p_anon.ml" 154 5208 5218 "p_anon.ml" 157 5338 5357
+)
+"p_anon.ml" 153 5150 5177 "p_anon.ml" 153 5150 5185
+type(
+  Expr.Subst.sub -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Subst.app_expr "expr.mli" 447 11184 11188 "expr.mli" 449 11225 11241
+)
+"p_anon.ml" 153 5150 5187 "p_anon.ml" 153 5150 5192
+type(
+  int -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.shift "expr.mli" 427 10798 10802 "expr.mli" 428 10813 10831
+)
+"p_anon.ml" 153 5150 5193 "p_anon.ml" 153 5150 5194
+type(
+  int
+)
+"p_anon.ml" 153 5150 5186 "p_anon.ml" 153 5150 5195
+type(
+  Expr.Subst.sub
+)
+"p_anon.ml" 153 5150 5196 "p_anon.ml" 153 5150 5197
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "p_anon.ml" 148 4946 4960 "p_anon.ml" 148 4946 4961
+)
+"p_anon.ml" 153 5150 5177 "p_anon.ml" 153 5150 5197
+type(
+  Expr.T.expr
+)
+"p_anon.ml" 153 5150 5176 "p_anon.ml" 153 5150 5198
+type(
+  Expr.T.expr list
+)
+"p_anon.ml" 153 5150 5170 "p_anon.ml" 153 5150 5198
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 153 5150 5199 "p_anon.ml" 153 5150 5201
+type(
+  Expr.T.expr_ -> P_t.step_ Property.wrapped -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 153 5150 5202 "p_anon.ml" 153 5150 5204
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 149 4983 4997 "p_anon.ml" 149 4983 4999
+)
+"p_anon.ml" 153 5150 5170 "p_anon.ml" 153 5150 5204
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"p_anon.ml" 154 5208 5222 "p_anon.ml" 154 5208 5225
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 156 5304 5314 "p_anon.ml" 157 5338 5357
+)
+"p_anon.ml" 154 5208 5228 "p_anon.ml" 154 5208 5236
+type(
+  string list Expr.Visit.scx -> Expr.T.expr -> string list Expr.Visit.scx
+)
+ident(
+  int_ref adj_step "p_anon.ml" 80 2299 2307 "p_anon.ml" 80 2299 2315
+)
+"p_anon.ml" 154 5208 5237 "p_anon.ml" 154 5208 5240
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 151 5072 5086 "p_anon.ml" 151 5072 5089
+)
+"p_anon.ml" 154 5208 5241 "p_anon.ml" 154 5208 5244
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref tup "p_anon.ml" 153 5150 5164 "p_anon.ml" 153 5150 5167
+)
+"p_anon.ml" 154 5208 5228 "p_anon.ml" 154 5208 5244
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 156 5304 5318 "p_anon.ml" 156 5304 5321
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 157 5338 5348 "p_anon.ml" 157 5338 5357
+)
+"p_anon.ml" 156 5304 5324 "p_anon.ml" 156 5304 5328
+type(
+  string list Expr.Visit.scx -> int -> string list Expr.Visit.scx
+)
+ident(
+  int_ref bump "p_anon.ml" 16 267 271 "p_anon.ml" 16 267 275
+)
+"p_anon.ml" 156 5304 5329 "p_anon.ml" 156 5304 5332
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 154 5208 5222 "p_anon.ml" 154 5208 5225
+)
+"p_anon.ml" 156 5304 5333 "p_anon.ml" 156 5304 5334
+type(
+  int
+)
+"p_anon.ml" 156 5304 5324 "p_anon.ml" 156 5304 5334
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 157 5338 5349 "p_anon.ml" 157 5338 5352
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 156 5304 5318 "p_anon.ml" 156 5304 5321
+)
+"p_anon.ml" 157 5338 5354 "p_anon.ml" 157 5338 5356
+type(
+  P_t.step
+)
+ident(
+  int_ref st "p_anon.ml" 149 4983 4997 "p_anon.ml" 149 4983 4999
+)
+"p_anon.ml" 157 5338 5348 "p_anon.ml" 157 5338 5357
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 156 5304 5314 "p_anon.ml" 157 5338 5357
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 154 5208 5218 "p_anon.ml" 157 5338 5357
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 153 5150 5160 "p_anon.ml" 157 5338 5357
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 151 5072 5082 "p_anon.ml" 157 5338 5357
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 149 4983 4993 "p_anon.ml" 157 5338 5357
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 148 4946 4956 "p_anon.ml" 157 5338 5357
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 158 5358 5371 "p_anon.ml" 158 5358 5373
+type(
+  Expr.T.bound list
+)
+ident(
+  def bs "p_anon.ml" 160 5410 5420 "p_anon.ml" 169 5799 5818
+)
+"p_anon.ml" 158 5358 5366 "p_anon.ml" 158 5358 5373
+type(
+  P_t.step_
+)
+type(
+  P_t.step_
+)
+"p_anon.ml" 160 5410 5425 "p_anon.ml" 160 5410 5428
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 161 5458 5468 "p_anon.ml" 169 5799 5818
+)
+"p_anon.ml" 160 5410 5430 "p_anon.ml" 160 5410 5432
+type(
+  Expr.T.bound list
+)
+ident(
+  def bs "p_anon.ml" 161 5458 5468 "p_anon.ml" 169 5799 5818
+)
+"p_anon.ml" 160 5410 5424 "p_anon.ml" 160 5410 5433
+type(
+  string list Expr.Visit.scx * Expr.T.bound list
+)
+"p_anon.ml" 160 5410 5436 "p_anon.ml" 160 5410 5440
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"p_anon.ml" 160 5410 5436 "p_anon.ml" 160 5410 5447
+type(
+  string list Expr.Visit.scx ->
+  Expr.T.bound list -> string list Expr.Visit.scx * Expr.T.bound list
+)
+"p_anon.ml" 160 5410 5448 "p_anon.ml" 160 5410 5451
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 73 2014 2028 "p_anon.ml" 73 2014 2031
+)
+"p_anon.ml" 160 5410 5452 "p_anon.ml" 160 5410 5454
+type(
+  Expr.T.bound list
+)
+ident(
+  int_ref bs "p_anon.ml" 158 5358 5371 "p_anon.ml" 158 5358 5373
+)
+"p_anon.ml" 160 5410 5436 "p_anon.ml" 160 5410 5454
+type(
+  string list Expr.Visit.scx * Expr.T.bound list
+)
+"p_anon.ml" 161 5458 5472 "p_anon.ml" 161 5458 5474
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  def st "p_anon.ml" 163 5531 5541 "p_anon.ml" 169 5799 5818
+)
+"p_anon.ml" 161 5458 5482 "p_anon.ml" 161 5458 5484
+type(
+  Expr.T.bound list
+)
+ident(
+  int_ref bs "p_anon.ml" 160 5410 5430 "p_anon.ml" 160 5410 5432
+)
+"p_anon.ml" 161 5458 5477 "p_anon.ml" 161 5458 5484
+type(
+  P_t.step_
+)
+"p_anon.ml" 161 5458 5485 "p_anon.ml" 161 5458 5487
+type(
+  P_t.step_ -> P_t.step_ Property.wrapped -> P_t.step_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 161 5458 5488 "p_anon.ml" 161 5458 5490
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 79 2259 2267 "p_anon.ml" 79 2259 2269
+)
+"p_anon.ml" 161 5458 5477 "p_anon.ml" 161 5458 5490
+type(
+  P_t.step_ Property.wrapped
+)
+"p_anon.ml" 163 5531 5545 "p_anon.ml" 163 5531 5548
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 165 5613 5623 "p_anon.ml" 169 5799 5818
+)
+"p_anon.ml" 163 5531 5551 "p_anon.ml" 163 5531 5555
+type(
+  string list Expr.Visit.scx -> int -> string list Expr.Visit.scx
+)
+ident(
+  int_ref bump "p_anon.ml" 16 267 271 "p_anon.ml" 16 267 275
+)
+"p_anon.ml" 163 5531 5556 "p_anon.ml" 163 5531 5559
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 160 5410 5425 "p_anon.ml" 160 5410 5428
+)
+"p_anon.ml" 163 5531 5560 "p_anon.ml" 163 5531 5561
+type(
+  int
+)
+"p_anon.ml" 163 5531 5551 "p_anon.ml" 163 5531 5561
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 165 5613 5627 "p_anon.ml" 165 5613 5630
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def unv "p_anon.ml" 166 5669 5679 "p_anon.ml" 169 5799 5818
+)
+"p_anon.ml" 165 5613 5640 "p_anon.ml" 165 5613 5646
+type(
+  Expr.T.quantifier
+)
+"p_anon.ml" 165 5613 5648 "p_anon.ml" 165 5613 5650
+type(
+  Expr.T.bounds
+)
+ident(
+  int_ref bs "p_anon.ml" 160 5410 5430 "p_anon.ml" 160 5410 5432
+)
+"p_anon.ml" 165 5613 5652 "p_anon.ml" 165 5613 5658
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref badexp "p_anon.ml" 17 291 295 "p_anon.ml" 17 291 301
+)
+"p_anon.ml" 165 5613 5633 "p_anon.ml" 165 5613 5659
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 165 5613 5660 "p_anon.ml" 165 5613 5662
+type(
+  Expr.T.expr_ -> P_t.step_ Property.wrapped -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 165 5613 5663 "p_anon.ml" 165 5613 5665
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 161 5458 5472 "p_anon.ml" 161 5458 5474
+)
+"p_anon.ml" 165 5613 5633 "p_anon.ml" 165 5613 5665
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"p_anon.ml" 166 5669 5683 "p_anon.ml" 166 5669 5686
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 168 5765 5775 "p_anon.ml" 169 5799 5818
+)
+"p_anon.ml" 166 5669 5689 "p_anon.ml" 166 5669 5697
+type(
+  string list Expr.Visit.scx -> Expr.T.expr -> string list Expr.Visit.scx
+)
+ident(
+  int_ref adj_step "p_anon.ml" 80 2299 2307 "p_anon.ml" 80 2299 2315
+)
+"p_anon.ml" 166 5669 5698 "p_anon.ml" 166 5669 5701
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 163 5531 5545 "p_anon.ml" 163 5531 5548
+)
+"p_anon.ml" 166 5669 5702 "p_anon.ml" 166 5669 5705
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref unv "p_anon.ml" 165 5613 5627 "p_anon.ml" 165 5613 5630
+)
+"p_anon.ml" 166 5669 5689 "p_anon.ml" 166 5669 5705
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 168 5765 5779 "p_anon.ml" 168 5765 5782
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 169 5799 5809 "p_anon.ml" 169 5799 5818
+)
+"p_anon.ml" 168 5765 5785 "p_anon.ml" 168 5765 5789
+type(
+  string list Expr.Visit.scx -> int -> string list Expr.Visit.scx
+)
+ident(
+  int_ref bump "p_anon.ml" 16 267 271 "p_anon.ml" 16 267 275
+)
+"p_anon.ml" 168 5765 5790 "p_anon.ml" 168 5765 5793
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 166 5669 5683 "p_anon.ml" 166 5669 5686
+)
+"p_anon.ml" 168 5765 5794 "p_anon.ml" 168 5765 5795
+type(
+  int
+)
+"p_anon.ml" 168 5765 5785 "p_anon.ml" 168 5765 5795
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 169 5799 5810 "p_anon.ml" 169 5799 5813
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 168 5765 5779 "p_anon.ml" 168 5765 5782
+)
+"p_anon.ml" 169 5799 5815 "p_anon.ml" 169 5799 5817
+type(
+  P_t.step
+)
+ident(
+  int_ref st "p_anon.ml" 161 5458 5472 "p_anon.ml" 161 5458 5474
+)
+"p_anon.ml" 169 5799 5809 "p_anon.ml" 169 5799 5818
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 168 5765 5775 "p_anon.ml" 169 5799 5818
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 166 5669 5679 "p_anon.ml" 169 5799 5818
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 165 5613 5623 "p_anon.ml" 169 5799 5818
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 163 5531 5541 "p_anon.ml" 169 5799 5818
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 161 5458 5468 "p_anon.ml" 169 5799 5818
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 160 5410 5420 "p_anon.ml" 169 5799 5818
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 170 5819 5835 "p_anon.ml" 170 5819 5837
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "p_anon.ml" 171 5841 5851 "p_anon.ml" 181 6249 6268
+)
+"p_anon.ml" 170 5819 5827 "p_anon.ml" 170 5819 5837
+type(
+  P_t.step_
+)
+type(
+  P_t.step_
+)
+"p_anon.ml" 171 5841 5855 "p_anon.ml" 171 5841 5857
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "p_anon.ml" 172 5891 5901 "p_anon.ml" 181 6249 6268
+)
+"p_anon.ml" 171 5841 5860 "p_anon.ml" 171 5841 5868
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"p_anon.ml" 171 5841 5870 "p_anon.ml" 171 5841 5874
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"p_anon.ml" 171 5841 5870 "p_anon.ml" 171 5841 5879
+type(
+  string list Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"p_anon.ml" 171 5841 5880 "p_anon.ml" 171 5841 5883
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 73 2014 2028 "p_anon.ml" 73 2014 2031
+)
+"p_anon.ml" 171 5841 5869 "p_anon.ml" 171 5841 5884
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+"p_anon.ml" 171 5841 5885 "p_anon.ml" 171 5841 5887
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "p_anon.ml" 170 5819 5835 "p_anon.ml" 170 5819 5837
+)
+"p_anon.ml" 171 5841 5860 "p_anon.ml" 171 5841 5887
+type(
+  Expr.T.expr list
+)
+"p_anon.ml" 172 5891 5905 "p_anon.ml" 172 5891 5907
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  def st "p_anon.ml" 175 6002 6012 "p_anon.ml" 181 6249 6268
+)
+"p_anon.ml" 172 5891 5918 "p_anon.ml" 172 5891 5920
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "p_anon.ml" 171 5841 5855 "p_anon.ml" 171 5841 5857
+)
+"p_anon.ml" 172 5891 5910 "p_anon.ml" 172 5891 5920
+type(
+  P_t.step_
+)
+"p_anon.ml" 172 5891 5921 "p_anon.ml" 172 5891 5923
+type(
+  P_t.step_ -> P_t.step_ Property.wrapped -> P_t.step_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 172 5891 5924 "p_anon.ml" 172 5891 5926
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 79 2259 2267 "p_anon.ml" 79 2259 2269
+)
+"p_anon.ml" 172 5891 5910 "p_anon.ml" 172 5891 5926
+type(
+  P_t.step_ Property.wrapped
+)
+"p_anon.ml" 175 6002 6016 "p_anon.ml" 175 6002 6019
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 177 6081 6091 "p_anon.ml" 181 6249 6268
+)
+"p_anon.ml" 175 6002 6022 "p_anon.ml" 175 6002 6026
+type(
+  string list Expr.Visit.scx -> int -> string list Expr.Visit.scx
+)
+ident(
+  int_ref bump "p_anon.ml" 16 267 271 "p_anon.ml" 16 267 275
+)
+"p_anon.ml" 175 6002 6027 "p_anon.ml" 175 6002 6030
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 73 2014 2028 "p_anon.ml" 73 2014 2031
+)
+"p_anon.ml" 175 6002 6031 "p_anon.ml" 175 6002 6032
+type(
+  int
+)
+"p_anon.ml" 175 6002 6022 "p_anon.ml" 175 6002 6032
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 177 6081 6095 "p_anon.ml" 177 6081 6098
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def tup "p_anon.ml" 178 6119 6129 "p_anon.ml" 181 6249 6268
+)
+"p_anon.ml" 177 6081 6107 "p_anon.ml" 177 6081 6109
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "p_anon.ml" 171 5841 5855 "p_anon.ml" 171 5841 5857
+)
+"p_anon.ml" 177 6081 6101 "p_anon.ml" 177 6081 6109
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 177 6081 6110 "p_anon.ml" 177 6081 6112
+type(
+  Expr.T.expr_ -> P_t.step_ Property.wrapped -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 177 6081 6113 "p_anon.ml" 177 6081 6115
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 172 5891 5905 "p_anon.ml" 172 5891 5907
+)
+"p_anon.ml" 177 6081 6101 "p_anon.ml" 177 6081 6115
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"p_anon.ml" 178 6119 6133 "p_anon.ml" 178 6119 6136
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 180 6215 6225 "p_anon.ml" 181 6249 6268
+)
+"p_anon.ml" 178 6119 6139 "p_anon.ml" 178 6119 6147
+type(
+  string list Expr.Visit.scx -> Expr.T.expr -> string list Expr.Visit.scx
+)
+ident(
+  int_ref adj_step "p_anon.ml" 80 2299 2307 "p_anon.ml" 80 2299 2315
+)
+"p_anon.ml" 178 6119 6148 "p_anon.ml" 178 6119 6151
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 175 6002 6016 "p_anon.ml" 175 6002 6019
+)
+"p_anon.ml" 178 6119 6152 "p_anon.ml" 178 6119 6155
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref tup "p_anon.ml" 177 6081 6095 "p_anon.ml" 177 6081 6098
+)
+"p_anon.ml" 178 6119 6139 "p_anon.ml" 178 6119 6155
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 180 6215 6229 "p_anon.ml" 180 6215 6232
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 181 6249 6259 "p_anon.ml" 181 6249 6268
+)
+"p_anon.ml" 180 6215 6235 "p_anon.ml" 180 6215 6239
+type(
+  string list Expr.Visit.scx -> int -> string list Expr.Visit.scx
+)
+ident(
+  int_ref bump "p_anon.ml" 16 267 271 "p_anon.ml" 16 267 275
+)
+"p_anon.ml" 180 6215 6240 "p_anon.ml" 180 6215 6243
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 178 6119 6133 "p_anon.ml" 178 6119 6136
+)
+"p_anon.ml" 180 6215 6244 "p_anon.ml" 180 6215 6245
+type(
+  int
+)
+"p_anon.ml" 180 6215 6235 "p_anon.ml" 180 6215 6245
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 181 6249 6260 "p_anon.ml" 181 6249 6263
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 180 6215 6229 "p_anon.ml" 180 6215 6232
+)
+"p_anon.ml" 181 6249 6265 "p_anon.ml" 181 6249 6267
+type(
+  P_t.step
+)
+ident(
+  int_ref st "p_anon.ml" 172 5891 5905 "p_anon.ml" 172 5891 5907
+)
+"p_anon.ml" 181 6249 6259 "p_anon.ml" 181 6249 6268
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 180 6215 6225 "p_anon.ml" 181 6249 6268
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 178 6119 6129 "p_anon.ml" 181 6249 6268
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 177 6081 6091 "p_anon.ml" 181 6249 6268
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 175 6002 6012 "p_anon.ml" 181 6249 6268
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 172 5891 5901 "p_anon.ml" 181 6249 6268
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 171 5841 5851 "p_anon.ml" 181 6249 6268
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 182 6269 6283 "p_anon.ml" 182 6269 6285
+type(
+  Expr.T.bound list
+)
+ident(
+  def bs "p_anon.ml" 183 6298 6308 "p_anon.ml" 213 7655 7674
+)
+"p_anon.ml" 182 6269 6287 "p_anon.ml" 182 6269 6288
+type(
+  Expr.T.expr
+)
+ident(
+  def e "p_anon.ml" 183 6298 6308 "p_anon.ml" 213 7655 7674
+)
+"p_anon.ml" 182 6269 6290 "p_anon.ml" 182 6269 6293
+type(
+  P_t.proof
+)
+ident(
+  def prf "p_anon.ml" 183 6298 6308 "p_anon.ml" 213 7655 7674
+)
+"p_anon.ml" 182 6269 6277 "p_anon.ml" 182 6269 6294
+type(
+  P_t.step_
+)
+type(
+  P_t.step_
+)
+"p_anon.ml" 183 6298 6313 "p_anon.ml" 183 6298 6315
+type(
+  Expr.T.bound list
+)
+ident(
+  def bs "p_anon.ml" 188 6444 6454 "p_anon.ml" 213 7655 7674
+)
+"p_anon.ml" 183 6298 6317 "p_anon.ml" 183 6298 6318
+type(
+  Expr.T.expr
+)
+ident(
+  def e "p_anon.ml" 188 6444 6454 "p_anon.ml" 213 7655 7674
+)
+"p_anon.ml" 183 6298 6312 "p_anon.ml" 183 6298 6319
+type(
+  Expr.T.bound list * Expr.T.expr
+)
+"p_anon.ml" 184 6322 6339 "p_anon.ml" 184 6322 6342
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 185 6372 6384 "p_anon.ml" 186 6411 6430
+)
+"p_anon.ml" 184 6322 6344 "p_anon.ml" 184 6322 6346
+type(
+  Expr.T.bound list
+)
+ident(
+  def bs "p_anon.ml" 185 6372 6384 "p_anon.ml" 186 6411 6430
+)
+"p_anon.ml" 184 6322 6338 "p_anon.ml" 184 6322 6347
+type(
+  string list Expr.Visit.scx * Expr.T.bound list
+)
+"p_anon.ml" 184 6322 6350 "p_anon.ml" 184 6322 6354
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"p_anon.ml" 184 6322 6350 "p_anon.ml" 184 6322 6361
+type(
+  string list Expr.Visit.scx ->
+  Expr.T.bound list -> string list Expr.Visit.scx * Expr.T.bound list
+)
+"p_anon.ml" 184 6322 6362 "p_anon.ml" 184 6322 6365
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 73 2014 2028 "p_anon.ml" 73 2014 2031
+)
+"p_anon.ml" 184 6322 6366 "p_anon.ml" 184 6322 6368
+type(
+  Expr.T.bound list
+)
+ident(
+  int_ref bs "p_anon.ml" 182 6269 6283 "p_anon.ml" 182 6269 6285
+)
+"p_anon.ml" 184 6322 6350 "p_anon.ml" 184 6322 6368
+type(
+  string list Expr.Visit.scx * Expr.T.bound list
+)
+"p_anon.ml" 185 6372 6388 "p_anon.ml" 185 6372 6389
+type(
+  Expr.T.expr
+)
+ident(
+  def e "p_anon.ml" 186 6411 6423 "p_anon.ml" 186 6411 6430
+)
+"p_anon.ml" 185 6372 6392 "p_anon.ml" 185 6372 6396
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"p_anon.ml" 185 6372 6392 "p_anon.ml" 185 6372 6401
+type(
+  string list Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"p_anon.ml" 185 6372 6402 "p_anon.ml" 185 6372 6405
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 184 6322 6339 "p_anon.ml" 184 6322 6342
+)
+"p_anon.ml" 185 6372 6406 "p_anon.ml" 185 6372 6407
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "p_anon.ml" 182 6269 6287 "p_anon.ml" 182 6269 6288
+)
+"p_anon.ml" 185 6372 6392 "p_anon.ml" 185 6372 6407
+type(
+  Expr.T.expr
+)
+"p_anon.ml" 186 6411 6424 "p_anon.ml" 186 6411 6426
+type(
+  Expr.T.bound list
+)
+ident(
+  int_ref bs "p_anon.ml" 184 6322 6344 "p_anon.ml" 184 6322 6346
+)
+"p_anon.ml" 186 6411 6428 "p_anon.ml" 186 6411 6429
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "p_anon.ml" 185 6372 6388 "p_anon.ml" 185 6372 6389
+)
+"p_anon.ml" 186 6411 6423 "p_anon.ml" 186 6411 6430
+type(
+  Expr.T.bound list * Expr.T.expr
+)
+"p_anon.ml" 185 6372 6384 "p_anon.ml" 186 6411 6430
+type(
+  Expr.T.bound list * Expr.T.expr
+)
+"p_anon.ml" 184 6322 6334 "p_anon.ml" 186 6411 6430
+type(
+  Expr.T.bound list * Expr.T.expr
+)
+"p_anon.ml" 188 6444 6458 "p_anon.ml" 188 6444 6461
+type(
+  P_t.proof
+)
+ident(
+  def prf "p_anon.ml" 197 6791 6801 "p_anon.ml" 213 7655 7674
+)
+"p_anon.ml" 190 6540 6556 "p_anon.ml" 190 6540 6559
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 191 6576 6588 "p_anon.ml" 195 6747 6777
+)
+"p_anon.ml" 190 6540 6562 "p_anon.ml" 190 6540 6566
+type(
+  string list Expr.Visit.scx -> int -> string list Expr.Visit.scx
+)
+ident(
+  int_ref bump "p_anon.ml" 16 267 271 "p_anon.ml" 16 267 275
+)
+"p_anon.ml" 190 6540 6567 "p_anon.ml" 190 6540 6570
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 73 2014 2028 "p_anon.ml" 73 2014 2031
+)
+"p_anon.ml" 190 6540 6571 "p_anon.ml" 190 6540 6572
+type(
+  int
+)
+"p_anon.ml" 190 6540 6562 "p_anon.ml" 190 6540 6572
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 191 6576 6592 "p_anon.ml" 191 6576 6594
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def ex "p_anon.ml" 192 6628 6640 "p_anon.ml" 195 6747 6777
+)
+"p_anon.ml" 191 6576 6604 "p_anon.ml" 191 6576 6610
+type(
+  Expr.T.quantifier
+)
+"p_anon.ml" 191 6576 6612 "p_anon.ml" 191 6576 6614
+type(
+  Expr.T.bounds
+)
+ident(
+  int_ref bs "p_anon.ml" 183 6298 6313 "p_anon.ml" 183 6298 6315
+)
+"p_anon.ml" 191 6576 6616 "p_anon.ml" 191 6576 6617
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "p_anon.ml" 183 6298 6317 "p_anon.ml" 183 6298 6318
+)
+"p_anon.ml" 191 6576 6597 "p_anon.ml" 191 6576 6618
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 191 6576 6619 "p_anon.ml" 191 6576 6621
+type(
+  Expr.T.expr_ -> P_t.step_ Property.wrapped -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 191 6576 6622 "p_anon.ml" 191 6576 6624
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 79 2259 2267 "p_anon.ml" 79 2259 2269
+)
+"p_anon.ml" 191 6576 6597 "p_anon.ml" 191 6576 6624
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"p_anon.ml" 192 6628 6644 "p_anon.ml" 192 6628 6647
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 193 6669 6681 "p_anon.ml" 195 6747 6777
+)
+"p_anon.ml" 192 6628 6650 "p_anon.ml" 192 6628 6658
+type(
+  string list Expr.Visit.scx -> Expr.T.expr -> string list Expr.Visit.scx
+)
+ident(
+  int_ref adj_step "p_anon.ml" 80 2299 2307 "p_anon.ml" 80 2299 2315
+)
+"p_anon.ml" 192 6628 6659 "p_anon.ml" 192 6628 6662
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 190 6540 6556 "p_anon.ml" 190 6540 6559
+)
+"p_anon.ml" 192 6628 6663 "p_anon.ml" 192 6628 6665
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "p_anon.ml" 191 6576 6592 "p_anon.ml" 191 6576 6594
+)
+"p_anon.ml" 192 6628 6650 "p_anon.ml" 192 6628 6665
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 193 6669 6685 "p_anon.ml" 193 6669 6688
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 194 6705 6717 "p_anon.ml" 195 6747 6777
+)
+"p_anon.ml" 193 6669 6691 "p_anon.ml" 193 6669 6695
+type(
+  string list Expr.Visit.scx -> int -> string list Expr.Visit.scx
+)
+ident(
+  int_ref bump "p_anon.ml" 16 267 271 "p_anon.ml" 16 267 275
+)
+"p_anon.ml" 193 6669 6696 "p_anon.ml" 193 6669 6699
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 192 6628 6644 "p_anon.ml" 192 6628 6647
+)
+"p_anon.ml" 193 6669 6700 "p_anon.ml" 193 6669 6701
+type(
+  int
+)
+"p_anon.ml" 193 6669 6691 "p_anon.ml" 193 6669 6701
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 194 6705 6721 "p_anon.ml" 194 6705 6724
+type(
+  string list * Expr.T.hyp Deque.dq
+)
+ident(
+  def scx "p_anon.ml" 195 6747 6759 "p_anon.ml" 195 6747 6777
+)
+"p_anon.ml" 194 6705 6727 "p_anon.ml" 194 6705 6736
+type(
+  P_t.stepno ->
+  string list Expr.Visit.scx -> string list * Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref push_name "p_anon.ml" 55 1380 1384 "p_anon.ml" 55 1380 1393
+)
+"p_anon.ml" 194 6705 6737 "p_anon.ml" 194 6705 6739
+type(
+  P_t.stepno
+)
+ident(
+  int_ref sn "p_anon.ml" 75 2091 2099 "p_anon.ml" 75 2091 2101
+)
+"p_anon.ml" 194 6705 6740 "p_anon.ml" 194 6705 6743
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 193 6669 6685 "p_anon.ml" 193 6669 6688
+)
+"p_anon.ml" 194 6705 6727 "p_anon.ml" 194 6705 6743
+type(
+  string list * Expr.T.hyp Deque.dq
+)
+"p_anon.ml" 195 6747 6759 "p_anon.ml" 195 6747 6763
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"p_anon.ml" 195 6747 6759 "p_anon.ml" 195 6747 6769
+type(
+  string list Expr.Visit.scx -> P_t.proof -> P_t.proof
+)
+"p_anon.ml" 195 6747 6770 "p_anon.ml" 195 6747 6773
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 194 6705 6721 "p_anon.ml" 194 6705 6724
+)
+"p_anon.ml" 195 6747 6774 "p_anon.ml" 195 6747 6777
+type(
+  P_t.proof
+)
+ident(
+  int_ref prf "p_anon.ml" 182 6269 6290 "p_anon.ml" 182 6269 6293
+)
+"p_anon.ml" 195 6747 6759 "p_anon.ml" 195 6747 6777
+type(
+  P_t.proof
+)
+"p_anon.ml" 194 6705 6717 "p_anon.ml" 195 6747 6777
+type(
+  P_t.proof
+)
+"p_anon.ml" 193 6669 6681 "p_anon.ml" 195 6747 6777
+type(
+  P_t.proof
+)
+"p_anon.ml" 192 6628 6640 "p_anon.ml" 195 6747 6777
+type(
+  P_t.proof
+)
+"p_anon.ml" 191 6576 6588 "p_anon.ml" 195 6747 6777
+type(
+  P_t.proof
+)
+"p_anon.ml" 190 6540 6552 "p_anon.ml" 195 6747 6777
+type(
+  P_t.proof
+)
+"p_anon.ml" 197 6791 6805 "p_anon.ml" 197 6791 6807
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  def st "p_anon.ml" 199 6886 6896 "p_anon.ml" 213 7655 7674
+)
+"p_anon.ml" 197 6791 6816 "p_anon.ml" 197 6791 6818
+type(
+  Expr.T.bound list
+)
+ident(
+  int_ref bs "p_anon.ml" 183 6298 6313 "p_anon.ml" 183 6298 6315
+)
+"p_anon.ml" 197 6791 6820 "p_anon.ml" 197 6791 6821
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "p_anon.ml" 183 6298 6317 "p_anon.ml" 183 6298 6318
+)
+"p_anon.ml" 197 6791 6823 "p_anon.ml" 197 6791 6826
+type(
+  P_t.proof
+)
+ident(
+  int_ref prf "p_anon.ml" 188 6444 6458 "p_anon.ml" 188 6444 6461
+)
+"p_anon.ml" 197 6791 6810 "p_anon.ml" 197 6791 6827
+type(
+  P_t.step_
+)
+"p_anon.ml" 197 6791 6828 "p_anon.ml" 197 6791 6830
+type(
+  P_t.step_ -> P_t.step_ Property.wrapped -> P_t.step_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 197 6791 6831 "p_anon.ml" 197 6791 6833
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 79 2259 2267 "p_anon.ml" 79 2259 2269
+)
+"p_anon.ml" 197 6791 6810 "p_anon.ml" 197 6791 6833
+type(
+  P_t.step_ Property.wrapped
+)
+"p_anon.ml" 199 6886 6900 "p_anon.ml" 199 6886 6903
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 202 7027 7037 "p_anon.ml" 213 7655 7674
+)
+"p_anon.ml" 199 6886 6906 "p_anon.ml" 199 6886 6910
+type(
+  string list Expr.Visit.scx -> int -> string list Expr.Visit.scx
+)
+ident(
+  int_ref bump "p_anon.ml" 16 267 271 "p_anon.ml" 16 267 275
+)
+"p_anon.ml" 199 6886 6911 "p_anon.ml" 199 6886 6914
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 73 2014 2028 "p_anon.ml" 73 2014 2031
+)
+"p_anon.ml" 199 6886 6915 "p_anon.ml" 199 6886 6916
+type(
+  int
+)
+"p_anon.ml" 199 6886 6906 "p_anon.ml" 199 6886 6916
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 202 7027 7041 "p_anon.ml" 202 7027 7045
+type(
+  Expr.T.hyp list
+)
+ident(
+  def hyps "p_anon.ml" 203 7080 7090 "p_anon.ml" 213 7655 7674
+)
+"p_anon.ml" 202 7027 7048 "p_anon.ml" 202 7027 7073
+type(
+  Expr.T.bounds -> Expr.T.hyp list
+)
+ident(
+  int_ref Expr.Visit.hyps_of_bounds "expr.mli" 530 13126 13128 "expr.mli" 530 13126 13166
+)
+"p_anon.ml" 202 7027 7074 "p_anon.ml" 202 7027 7076
+type(
+  Expr.T.bounds
+)
+ident(
+  int_ref bs "p_anon.ml" 183 6298 6313 "p_anon.ml" 183 6298 6315
+)
+"p_anon.ml" 202 7027 7048 "p_anon.ml" 202 7027 7076
+type(
+  Expr.T.hyp list
+)
+"p_anon.ml" 203 7080 7094 "p_anon.ml" 203 7080 7097
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 206 7259 7269 "p_anon.ml" 213 7655 7674
+)
+"p_anon.ml" 203 7080 7100 "p_anon.ml" 203 7080 7115
+type(
+  string list Expr.Visit.scx -> Expr.T.hyp list -> string list Expr.Visit.scx
+)
+ident(
+  int_ref Expr.Visit.adjs "expr.mli" 542 13638 13640 "expr.mli" 542 13638 13679
+)
+"p_anon.ml" 203 7080 7116 "p_anon.ml" 203 7080 7119
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 199 6886 6900 "p_anon.ml" 199 6886 6903
+)
+"p_anon.ml" 203 7080 7120 "p_anon.ml" 203 7080 7124
+type(
+  Expr.T.hyp list
+)
+ident(
+  int_ref hyps "p_anon.ml" 202 7027 7041 "p_anon.ml" 202 7027 7045
+)
+"p_anon.ml" 203 7080 7100 "p_anon.ml" 203 7080 7124
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 206 7259 7273 "p_anon.ml" 206 7259 7276
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 208 7363 7373 "p_anon.ml" 213 7655 7674
+)
+"p_anon.ml" 206 7259 7279 "p_anon.ml" 206 7259 7283
+type(
+  string list Expr.Visit.scx -> int -> string list Expr.Visit.scx
+)
+ident(
+  int_ref bump "p_anon.ml" 16 267 271 "p_anon.ml" 16 267 275
+)
+"p_anon.ml" 206 7259 7284 "p_anon.ml" 206 7259 7287
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 203 7080 7094 "p_anon.ml" 203 7080 7097
+)
+"p_anon.ml" 206 7259 7288 "p_anon.ml" 206 7259 7289
+type(
+  int
+)
+"p_anon.ml" 206 7259 7279 "p_anon.ml" 206 7259 7289
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 208 7363 7377 "p_anon.ml" 208 7363 7379
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "p_anon.ml" 209 7453 7463 "p_anon.ml" 213 7655 7674
+)
+"p_anon.ml" 208 7363 7382 "p_anon.ml" 208 7363 7390
+type(
+  Expr.Subst.sub -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Subst.app_expr "expr.mli" 447 11184 11188 "expr.mli" 449 11225 11241
+)
+"p_anon.ml" 208 7363 7392 "p_anon.ml" 208 7363 7397
+type(
+  int -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.shift "expr.mli" 427 10798 10802 "expr.mli" 428 10813 10831
+)
+"p_anon.ml" 208 7363 7399 "p_anon.ml" 208 7363 7400
+type(
+  int
+)
+"p_anon.ml" 208 7363 7401 "p_anon.ml" 208 7363 7402
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"p_anon.ml" 208 7363 7403 "p_anon.ml" 208 7363 7414
+type(
+  Expr.T.bound list -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"p_anon.ml" 208 7363 7415 "p_anon.ml" 208 7363 7417
+type(
+  Expr.T.bound list
+)
+ident(
+  int_ref bs "p_anon.ml" 183 6298 6313 "p_anon.ml" 183 6298 6315
+)
+"p_anon.ml" 208 7363 7403 "p_anon.ml" 208 7363 7417
+type(
+  int
+)
+"p_anon.ml" 208 7363 7398 "p_anon.ml" 208 7363 7418
+type(
+  int
+)
+"p_anon.ml" 208 7363 7391 "p_anon.ml" 208 7363 7419
+type(
+  Expr.Subst.sub
+)
+"p_anon.ml" 208 7363 7428 "p_anon.ml" 208 7363 7434
+type(
+  Expr.T.quantifier
+)
+"p_anon.ml" 208 7363 7436 "p_anon.ml" 208 7363 7438
+type(
+  Expr.T.bounds
+)
+ident(
+  int_ref bs "p_anon.ml" 183 6298 6313 "p_anon.ml" 183 6298 6315
+)
+"p_anon.ml" 208 7363 7440 "p_anon.ml" 208 7363 7441
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "p_anon.ml" 183 6298 6317 "p_anon.ml" 183 6298 6318
+)
+"p_anon.ml" 208 7363 7421 "p_anon.ml" 208 7363 7442
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 208 7363 7443 "p_anon.ml" 208 7363 7445
+type(
+  Expr.T.expr_ -> P_t.step_ Property.wrapped -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 208 7363 7446 "p_anon.ml" 208 7363 7448
+type(
+  P_t.step_ Property.wrapped
+)
+ident(
+  int_ref st "p_anon.ml" 197 6791 6805 "p_anon.ml" 197 6791 6807
+)
+"p_anon.ml" 208 7363 7420 "p_anon.ml" 208 7363 7449
+type(
+  Expr.T.expr
+)
+"p_anon.ml" 208 7363 7382 "p_anon.ml" 208 7363 7449
+type(
+  Expr.T.expr
+)
+"p_anon.ml" 209 7453 7467 "p_anon.ml" 209 7453 7470
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 211 7572 7582 "p_anon.ml" 213 7655 7674
+)
+"p_anon.ml" 209 7453 7473 "p_anon.ml" 209 7453 7481
+type(
+  string list Expr.Visit.scx -> Expr.T.expr -> string list Expr.Visit.scx
+)
+ident(
+  int_ref adj_step "p_anon.ml" 80 2299 2307 "p_anon.ml" 80 2299 2315
+)
+"p_anon.ml" 209 7453 7482 "p_anon.ml" 209 7453 7485
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 206 7259 7273 "p_anon.ml" 206 7259 7276
+)
+"p_anon.ml" 209 7453 7486 "p_anon.ml" 209 7453 7488
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "p_anon.ml" 208 7363 7377 "p_anon.ml" 208 7363 7379
+)
+"p_anon.ml" 209 7453 7473 "p_anon.ml" 209 7453 7488
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 211 7572 7586 "p_anon.ml" 211 7572 7589
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 213 7655 7665 "p_anon.ml" 213 7655 7674
+)
+"p_anon.ml" 211 7572 7592 "p_anon.ml" 211 7572 7596
+type(
+  string list Expr.Visit.scx -> int -> string list Expr.Visit.scx
+)
+ident(
+  int_ref bump "p_anon.ml" 16 267 271 "p_anon.ml" 16 267 275
+)
+"p_anon.ml" 211 7572 7597 "p_anon.ml" 211 7572 7600
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 209 7453 7467 "p_anon.ml" 209 7453 7470
+)
+"p_anon.ml" 211 7572 7601 "p_anon.ml" 211 7572 7602
+type(
+  int
+)
+"p_anon.ml" 211 7572 7592 "p_anon.ml" 211 7572 7602
+type(
+  string list Expr.Visit.scx
+)
+"p_anon.ml" 213 7655 7666 "p_anon.ml" 213 7655 7669
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 211 7572 7586 "p_anon.ml" 211 7572 7589
+)
+"p_anon.ml" 213 7655 7671 "p_anon.ml" 213 7655 7673
+type(
+  P_t.step
+)
+ident(
+  int_ref st "p_anon.ml" 197 6791 6805 "p_anon.ml" 197 6791 6807
+)
+"p_anon.ml" 213 7655 7665 "p_anon.ml" 213 7655 7674
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 211 7572 7582 "p_anon.ml" 213 7655 7674
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 209 7453 7463 "p_anon.ml" 213 7655 7674
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 208 7363 7373 "p_anon.ml" 213 7655 7674
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 206 7259 7269 "p_anon.ml" 213 7655 7674
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 203 7080 7090 "p_anon.ml" 213 7655 7674
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 202 7027 7037 "p_anon.ml" 213 7655 7674
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 199 6886 6896 "p_anon.ml" 213 7655 7674
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 197 6791 6801 "p_anon.ml" 213 7655 7674
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 188 6444 6454 "p_anon.ml" 213 7655 7674
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 183 6298 6308 "p_anon.ml" 213 7655 7674
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 214 7675 7683 "p_anon.ml" 214 7675 7684
+type(
+  P_t.step_
+)
+type(
+  P_t.step_
+)
+"p_anon.ml" 215 7688 7698 "p_anon.ml" 215 7688 7703
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+type(
+  'a
+)
+ident(
+  int_ref super "p_anon.ml" 58 1484 1494 "p_anon.ml" 58 1484 1519
+)
+"p_anon.ml" 215 7688 7698 "p_anon.ml" 215 7688 7708
+type(
+  'a ->
+  string list Expr.Visit.scx ->
+  P_t.step -> string list Expr.Visit.scx * P_t.step
+)
+ident(
+  ext_ref step
+)
+type(
+  string list Expr.Visit.scx ->
+  P_t.step -> string list Expr.Visit.scx * P_t.step
+)
+type(
+  string list Expr.Visit.scx ->
+  P_t.step -> string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 215 7688 7709 "p_anon.ml" 215 7688 7712
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 73 2014 2028 "p_anon.ml" 73 2014 2031
+)
+"p_anon.ml" 215 7688 7713 "p_anon.ml" 215 7688 7715
+type(
+  P_t.step
+)
+ident(
+  int_ref st "p_anon.ml" 79 2259 2267 "p_anon.ml" 79 2259 2269
+)
+"p_anon.ml" 215 7688 7698 "p_anon.ml" 215 7688 7715
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 84 2481 2485 "p_anon.ml" 215 7688 7715
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 80 2299 2303 "p_anon.ml" 215 7688 7715
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 79 2259 2263 "p_anon.ml" 215 7688 7715
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 75 2091 2095 "p_anon.ml" 215 7688 7715
+type(
+  string list Expr.Visit.scx * P_t.step
+)
+"p_anon.ml" 217 7717 7735 "p_anon.ml" 217 7717 7738
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  def scx "p_anon.ml" 217 7717 7739 "p_anon.ml" 238 8462 8494
+)
+"p_anon.ml" 217 7717 7739 "p_anon.ml" 217 7717 7746
+type(
+  P_t.usable
+)
+ident(
+  def usables "p_anon.ml" 218 7749 7757 "p_anon.ml" 238 8462 8494
+)
+"p_anon.ml" 218 7749 7761 "p_anon.ml" 218 7749 7766
+type(
+  P_t.use_def Property.wrapped -> P_t.use_def Property.wrapped list
+)
+ident(
+  def usdef "p_anon.ml" 234 8310 8318 "p_anon.ml" 238 8462 8494
+)
+"p_anon.ml" 218 7749 7767 "p_anon.ml" 218 7749 7769
+type(
+  P_t.use_def Property.wrapped
+)
+ident(
+  def dw "p_anon.ml" 218 7749 7772 "p_anon.ml" 233 8267 8306
+)
+"p_anon.ml" 218 7749 7778 "p_anon.ml" 218 7749 7780
+type(
+  P_t.use_def Property.wrapped
+)
+ident(
+  int_ref dw "p_anon.ml" 218 7749 7767 "p_anon.ml" 218 7749 7769
+)
+"p_anon.ml" 218 7749 7778 "p_anon.ml" 218 7749 7785
+type(
+  P_t.use_def
+)
+"p_anon.ml" 219 7791 7810 "p_anon.ml" 219 7791 7811
+type(
+  string
+)
+ident(
+  def v "p_anon.ml" 220 7815 7831 "p_anon.ml" 231 8225 8244
+)
+"p_anon.ml" 219 7791 7805 "p_anon.ml" 219 7791 7811
+type(
+  P_t.use_def
+)
+type(
+  P_t.use_def
+)
+"p_anon.ml" 221 7837 7857 "p_anon.ml" 221 7837 7863
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def opaque "p_anon.ml" 222 7884 7900 "p_anon.ml" 230 8202 8224
+)
+"p_anon.ml" 221 7837 7873 "p_anon.ml" 221 7837 7874
+type(
+  string
+)
+ident(
+  int_ref v "p_anon.ml" 219 7791 7810 "p_anon.ml" 219 7791 7811
+)
+"p_anon.ml" 221 7837 7866 "p_anon.ml" 221 7837 7874
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 221 7837 7875 "p_anon.ml" 221 7837 7877
+type(
+  Expr.T.expr_ ->
+  P_t.use_def Property.wrapped -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 221 7837 7878 "p_anon.ml" 221 7837 7880
+type(
+  P_t.use_def Property.wrapped
+)
+ident(
+  int_ref dw "p_anon.ml" 218 7749 7767 "p_anon.ml" 218 7749 7769
+)
+"p_anon.ml" 221 7837 7866 "p_anon.ml" 221 7837 7880
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"p_anon.ml" 222 7884 7904 "p_anon.ml" 222 7884 7910
+type(
+  Expr.T.expr
+)
+ident(
+  def opaque "p_anon.ml" 223 7937 7953 "p_anon.ml" 230 8202 8224
+)
+"p_anon.ml" 222 7884 7913 "p_anon.ml" 222 7884 7917
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"p_anon.ml" 222 7884 7913 "p_anon.ml" 222 7884 7922
+type(
+  string list Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"p_anon.ml" 222 7884 7923 "p_anon.ml" 222 7884 7926
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 217 7717 7735 "p_anon.ml" 217 7717 7738
+)
+"p_anon.ml" 222 7884 7927 "p_anon.ml" 222 7884 7933
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref opaque "p_anon.ml" 221 7837 7857 "p_anon.ml" 221 7837 7863
+)
+"p_anon.ml" 222 7884 7913 "p_anon.ml" 222 7884 7933
+type(
+  Expr.T.expr
+)
+"p_anon.ml" 223 7937 7959 "p_anon.ml" 223 7937 7965
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref opaque "p_anon.ml" 222 7884 7904 "p_anon.ml" 222 7884 7910
+)
+"p_anon.ml" 223 7937 7959 "p_anon.ml" 223 7937 7970
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 224 7976 7997 "p_anon.ml" 224 7976 7998
+type(
+  int
+)
+ident(
+  def n "p_anon.ml" 224 7976 8002 "p_anon.ml" 224 7976 8014
+)
+"p_anon.ml" 224 7976 7994 "p_anon.ml" 224 7976 7998
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 224 7976 8006 "p_anon.ml" 224 7976 8007
+type(
+  int
+)
+ident(
+  int_ref n "p_anon.ml" 224 7976 7997 "p_anon.ml" 224 7976 7998
+)
+"p_anon.ml" 224 7976 8003 "p_anon.ml" 224 7976 8007
+type(
+  P_t.use_def
+)
+"p_anon.ml" 224 7976 8008 "p_anon.ml" 224 7976 8010
+type(
+  P_t.use_def -> P_t.use_def Property.wrapped -> P_t.use_def Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_anon.ml" 224 7976 8011 "p_anon.ml" 224 7976 8013
+type(
+  P_t.use_def Property.wrapped
+)
+ident(
+  int_ref dw "p_anon.ml" 218 7749 7767 "p_anon.ml" 218 7749 7769
+)
+"p_anon.ml" 224 7976 8003 "p_anon.ml" 224 7976 8013
+type(
+  P_t.use_def Property.wrapped
+)
+"p_anon.ml" 224 7976 8002 "p_anon.ml" 224 7976 8014
+type(
+  P_t.use_def Property.wrapped list
+)
+"p_anon.ml" 225 8015 8033 "p_anon.ml" 225 8015 8034
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"p_anon.ml" 226 8038 8058 "p_anon.ml" 226 8038 8069
+type(
+  ?at:P_t.use_def Property.wrapped ->
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  int_ref Errors.warn "errors.mli" 14 256 256 "errors.mli" 16 290 332
+)
+"p_anon.ml" 226 8038 8074 "p_anon.ml" 226 8038 8076
+type(
+  P_t.use_def Property.wrapped
+)
+ident(
+  int_ref dw "p_anon.ml" 218 7749 7767 "p_anon.ml" 218 7749 7769
+)
+type(
+  P_t.use_def Property.wrapped option
+)
+"p_anon.ml" 227 8077 8101 "p_anon.ml" 228 8125 8174
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"p_anon.ml" 229 8175 8199 "p_anon.ml" 229 8175 8200
+type(
+  string
+)
+ident(
+  int_ref v "p_anon.ml" 219 7791 7810 "p_anon.ml" 219 7791 7811
+)
+"p_anon.ml" 226 8038 8058 "p_anon.ml" 229 8175 8200
+type(
+  unit
+)
+"p_anon.ml" 230 8202 8222 "p_anon.ml" 230 8202 8224
+type(
+  P_t.use_def Property.wrapped list
+)
+"p_anon.ml" 226 8038 8058 "p_anon.ml" 230 8202 8224
+type(
+  P_t.use_def Property.wrapped list
+)
+"p_anon.ml" 223 7937 7953 "p_anon.ml" 230 8202 8224
+type(
+  P_t.use_def Property.wrapped list
+)
+"p_anon.ml" 222 7884 7900 "p_anon.ml" 230 8202 8224
+type(
+  P_t.use_def Property.wrapped list
+)
+"p_anon.ml" 220 7815 7831 "p_anon.ml" 231 8225 8244
+type(
+  P_t.use_def Property.wrapped list
+)
+"p_anon.ml" 232 8245 8262 "p_anon.ml" 232 8245 8263
+type(
+  int
+)
+ident(
+  def n "p_anon.ml" 233 8267 8283 "p_anon.ml" 233 8267 8306
+)
+"p_anon.ml" 232 8245 8259 "p_anon.ml" 232 8245 8263
+type(
+  P_t.use_def
+)
+type(
+  P_t.use_def
+)
+"p_anon.ml" 233 8267 8285 "p_anon.ml" 233 8267 8287
+type(
+  P_t.use_def Property.wrapped
+)
+ident(
+  int_ref dw "p_anon.ml" 218 7749 7767 "p_anon.ml" 218 7749 7769
+)
+"p_anon.ml" 233 8267 8303 "p_anon.ml" 233 8267 8304
+type(
+  int
+)
+ident(
+  int_ref n "p_anon.ml" 232 8245 8262 "p_anon.ml" 232 8245 8263
+)
+"p_anon.ml" 233 8267 8300 "p_anon.ml" 233 8267 8304
+type(
+  P_t.use_def
+)
+"p_anon.ml" 233 8267 8284 "p_anon.ml" 233 8267 8305
+type(
+  P_t.use_def Property.wrapped
+)
+"p_anon.ml" 233 8267 8283 "p_anon.ml" 233 8267 8306
+type(
+  P_t.use_def Property.wrapped list
+)
+"p_anon.ml" 218 7749 7772 "p_anon.ml" 233 8267 8306
+type(
+  P_t.use_def Property.wrapped list
+)
+"p_anon.ml" 234 8310 8322 "p_anon.ml" 234 8310 8327
+type(
+  Expr.T.expr list
+)
+ident(
+  def facts "p_anon.ml" 236 8384 8392 "p_anon.ml" 238 8462 8494
+)
+"p_anon.ml" 234 8310 8330 "p_anon.ml" 234 8310 8338
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"p_anon.ml" 235 8339 8352 "p_anon.ml" 235 8339 8356
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"p_anon.ml" 235 8339 8352 "p_anon.ml" 235 8339 8361
+type(
+  string list Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"p_anon.ml" 235 8339 8362 "p_anon.ml" 235 8339 8365
+type(
+  string list Expr.Visit.scx
+)
+ident(
+  int_ref scx "p_anon.ml" 217 7717 7735 "p_anon.ml" 217 7717 7738
+)
+"p_anon.ml" 235 8339 8351 "p_anon.ml" 235 8339 8366
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+"p_anon.ml" 235 8339 8367 "p_anon.ml" 235 8339 8374
+type(
+  P_t.usable
+)
+ident(
+  int_ref usables "p_anon.ml" 217 7717 7739 "p_anon.ml" 217 7717 7746
+)
+"p_anon.ml" 235 8339 8367 "p_anon.ml" 235 8339 8380
+type(
+  Expr.T.expr list
+)
+"p_anon.ml" 234 8310 8330 "p_anon.ml" 235 8339 8380
+type(
+  Expr.T.expr list
+)
+"p_anon.ml" 236 8384 8396 "p_anon.ml" 236 8384 8400
+type(
+  P_t.use_def Property.wrapped list
+)
+ident(
+  def defs "p_anon.ml" 238 8462 8470 "p_anon.ml" 238 8462 8494
+)
+"p_anon.ml" 236 8384 8403 "p_anon.ml" 236 8384 8415
+type(
+  P_t.use_def Property.wrapped list list -> P_t.use_def Property.wrapped list
+)
+ident(
+  int_ref Ext.List.flatten "ext.mli" 15 384 386 "ext.mli" 15 384 423
+)
+"p_anon.ml" 237 8418 8430 "p_anon.ml" 237 8418 8438
+type(
+  (P_t.use_def Property.wrapped -> P_t.use_def Property.wrapped list) ->
+  P_t.use_def Property.wrapped list -> P_t.use_def Property.wrapped list list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"p_anon.ml" 237 8418 8439 "p_anon.ml" 237 8418 8444
+type(
+  P_t.use_def Property.wrapped -> P_t.use_def Property.wrapped list
+)
+ident(
+  int_ref usdef "p_anon.ml" 218 7749 7761 "p_anon.ml" 218 7749 7766
+)
+"p_anon.ml" 237 8418 8445 "p_anon.ml" 237 8418 8452
+type(
+  P_t.usable
+)
+ident(
+  int_ref usables "p_anon.ml" 217 7717 7739 "p_anon.ml" 217 7717 7746
+)
+"p_anon.ml" 237 8418 8445 "p_anon.ml" 237 8418 8457
+type(
+  P_t.use_def Property.wrapped list
+)
+"p_anon.ml" 236 8384 8416 "p_anon.ml" 237 8418 8458
+type(
+  P_t.use_def Property.wrapped list list
+)
+"p_anon.ml" 236 8384 8403 "p_anon.ml" 237 8418 8458
+type(
+  P_t.use_def Property.wrapped list
+)
+"p_anon.ml" 238 8462 8477 "p_anon.ml" 238 8462 8482
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref facts "p_anon.ml" 234 8310 8322 "p_anon.ml" 234 8310 8327
+)
+"p_anon.ml" 238 8462 8489 "p_anon.ml" 238 8462 8493
+type(
+  P_t.use_def Property.wrapped list
+)
+ident(
+  int_ref defs "p_anon.ml" 236 8384 8396 "p_anon.ml" 236 8384 8400
+)
+"p_anon.ml" 238 8462 8470 "p_anon.ml" 238 8462 8494
+type(
+  P_t.usable
+)
+"p_anon.ml" 236 8384 8392 "p_anon.ml" 238 8462 8494
+type(
+  P_t.usable
+)
+"p_anon.ml" 234 8310 8318 "p_anon.ml" 238 8462 8494
+type(
+  P_t.usable
+)
+"p_anon.ml" 218 7749 7757 "p_anon.ml" 238 8462 8494
+type(
+  P_t.usable
+)
+"p_anon.ml" 241 8500 8504 "p_anon.ml" 241 8500 8508
+type(
+  anon
+)
+ident(
+  def anon "p_anon.ml" 241 8500 8519 "p_anon.ml" 0 0 -1
+)
+"p_anon.ml" 241 8500 8511 "p_anon.ml" 241 8500 8519
+type(
+  anon
+)

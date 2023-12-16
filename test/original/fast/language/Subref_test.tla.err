@@ -1,0 +1,1278 @@
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:14:7:14:14
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:16:7:16:14
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:23:7:23:14
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:4
+@!!loc:31:7:31:14
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:5
+@!!loc:33:7:33:14
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:6
+@!!loc:35:7:35:14
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:7
+@!!loc:37:7:37:14
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:8
+@!!loc:39:7:39:14
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:9
+@!!loc:41:7:41:14
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:10
+@!!loc:46:7:46:14
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:11
+@!!loc:48:7:48:14
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:12
+@!!loc:50:7:50:14
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:13
+@!!loc:52:7:52:14
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:14
+@!!loc:61:7:61:14
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:15
+@!!loc:63:7:63:14
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:16
+@!!loc:65:7:65:14
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:17
+@!!loc:67:7:67:14
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:18
+@!!loc:75:7:75:14
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:19
+@!!loc:77:7:77:14
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:20
+@!!loc:79:7:79:14
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:21
+@!!loc:82:7:82:14
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:22
+@!!loc:95:7:95:14
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:23
+@!!loc:101:7:101:14
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:24
+@!!loc:109:9:109:16
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:25
+@!!loc:117:9:117:16
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:25
+@!!END
+
+** Unexpanded symbols: ---
+
+** Unexpanded symbols: ---
+
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:23:7:23:14
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT +(_, _),
+       NEW CONSTANT -(_, _),
+       NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT C,
+       NEW CONSTANT P(_),
+       NEW CONSTANT Q(_, _),
+       NEW CONSTANT R(_, _, _),
+       NEW CONSTANT S,
+       NEW CONSTANT T,
+       NEW CONSTANT U,
+       NEW CONSTANT x \in S,
+       NEW CONSTANT y \in S,
+       NEW CONSTANT z \in S,
+       NEW CONSTANT j,
+       NEW CONSTANT k,
+       NEW CONSTANT l,
+       "ordinary TLA+ operators" 
+PROVE  /\ j = j
+       /\ k = k
+       /\ l = l
+
+@!!END
+
+Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+@!!BEGIN
+@!!type:obligation
+@!!id:4
+@!!loc:31:7:31:14
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT +(_, _),
+       NEW CONSTANT -(_, _),
+       NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT C,
+       NEW CONSTANT P(_),
+       NEW CONSTANT Q(_, _),
+       NEW CONSTANT R(_, _, _),
+       NEW CONSTANT S,
+       NEW CONSTANT T,
+       NEW CONSTANT U,
+       NEW CONSTANT x \in S,
+       NEW CONSTANT y \in S,
+       NEW CONSTANT z \in S,
+       NEW CONSTANT j,
+       NEW CONSTANT k,
+       NEW CONSTANT l,
+       "ordinary TLA+ operators" ,
+       "if/then/else" 
+PROVE  S = S /\ T = T /\ U = U /\ 1 = 1
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:5
+@!!loc:33:7:33:14
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT +(_, _),
+       NEW CONSTANT -(_, _),
+       NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT C,
+       NEW CONSTANT P(_),
+       NEW CONSTANT Q(_, _),
+       NEW CONSTANT R(_, _, _),
+       NEW CONSTANT S,
+       NEW CONSTANT T,
+       NEW CONSTANT U,
+       NEW CONSTANT x \in S,
+       NEW CONSTANT y \in S,
+       NEW CONSTANT z \in S,
+       NEW CONSTANT j,
+       NEW CONSTANT k,
+       NEW CONSTANT l,
+       "ordinary TLA+ operators" ,
+       "if/then/else" ,
+       S = S /\ T = T /\ U = U /\ 1 = 1 
+PROVE  S = S /\ T = T /\ 2 = 2
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:6
+@!!loc:35:7:35:14
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT +(_, _),
+       NEW CONSTANT -(_, _),
+       NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT C,
+       NEW CONSTANT P(_),
+       NEW CONSTANT Q(_, _),
+       NEW CONSTANT R(_, _, _),
+       NEW CONSTANT S,
+       NEW CONSTANT T,
+       NEW CONSTANT U,
+       NEW CONSTANT x \in S,
+       NEW CONSTANT y \in S,
+       NEW CONSTANT z \in S,
+       NEW CONSTANT j,
+       NEW CONSTANT k,
+       NEW CONSTANT l,
+       "ordinary TLA+ operators" ,
+       "if/then/else" ,
+       S = S /\ T = T /\ U = U /\ 1 = 1 ,
+       S = S /\ T = T /\ 2 = 2 
+PROVE  S = S /\ T = T /\ 3 = 3
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:7
+@!!loc:37:7:37:14
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT +(_, _),
+       NEW CONSTANT -(_, _),
+       NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT C,
+       NEW CONSTANT P(_),
+       NEW CONSTANT Q(_, _),
+       NEW CONSTANT R(_, _, _),
+       NEW CONSTANT S,
+       NEW CONSTANT T,
+       NEW CONSTANT U,
+       NEW CONSTANT x \in S,
+       NEW CONSTANT y \in S,
+       NEW CONSTANT z \in S,
+       NEW CONSTANT j,
+       NEW CONSTANT k,
+       NEW CONSTANT l,
+       "ordinary TLA+ operators" ,
+       "if/then/else" ,
+       S = S /\ T = T /\ U = U /\ 1 = 1 ,
+       S = S /\ T = T /\ 2 = 2 ,
+       S = S /\ T = T /\ 3 = 3 
+PROVE  (P(x) /\ Q(y, z) /\ R(j, k, l)) = (P(x) /\ Q(y, z) /\ R(j, k, l))
+       /\ 4 = 4
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:8
+@!!loc:39:7:39:14
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT +(_, _),
+       NEW CONSTANT -(_, _),
+       NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT C,
+       NEW CONSTANT P(_),
+       NEW CONSTANT Q(_, _),
+       NEW CONSTANT R(_, _, _),
+       NEW CONSTANT S,
+       NEW CONSTANT T,
+       NEW CONSTANT U,
+       NEW CONSTANT x \in S,
+       NEW CONSTANT y \in S,
+       NEW CONSTANT z \in S,
+       NEW CONSTANT j,
+       NEW CONSTANT k,
+       NEW CONSTANT l,
+       "ordinary TLA+ operators" ,
+       "if/then/else" ,
+       S = S /\ T = T /\ U = U /\ 1 = 1 ,
+       S = S /\ T = T /\ 2 = 2 ,
+       S = S /\ T = T /\ 3 = 3 ,
+       (P(x) /\ Q(y, z) /\ R(j, k, l)) = (P(x) /\ Q(y, z) /\ R(j, k, l))
+       /\ 4 = 4 
+PROVE  (P(x) /\ Q(y, z)) = (P(x) /\ Q(y, z)) /\ 5 = 5
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:16:7:16:14
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:14:7:14:14
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:9
+@!!loc:41:7:41:14
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT +(_, _),
+       NEW CONSTANT -(_, _),
+       NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT C,
+       NEW CONSTANT P(_),
+       NEW CONSTANT Q(_, _),
+       NEW CONSTANT R(_, _, _),
+       NEW CONSTANT S,
+       NEW CONSTANT T,
+       NEW CONSTANT U,
+       NEW CONSTANT x \in S,
+       NEW CONSTANT y \in S,
+       NEW CONSTANT z \in S,
+       NEW CONSTANT j,
+       NEW CONSTANT k,
+       NEW CONSTANT l,
+       "ordinary TLA+ operators" ,
+       "if/then/else" ,
+       S = S /\ T = T /\ U = U /\ 1 = 1 ,
+       S = S /\ T = T /\ 2 = 2 ,
+       S = S /\ T = T /\ 3 = 3 ,
+       (P(x) /\ Q(y, z) /\ R(j, k, l)) = (P(x) /\ Q(y, z) /\ R(j, k, l))
+       /\ 4 = 4 ,
+       (P(x) /\ Q(y, z)) = (P(x) /\ Q(y, z)) /\ 5 = 5 
+PROVE  (P(x) /\ R(y, z, j)) = (P(x) /\ R(y, z, j)) /\ 6 = 6
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:10
+@!!loc:46:7:46:14
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT +(_, _),
+       NEW CONSTANT -(_, _),
+       NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT C,
+       NEW CONSTANT P(_),
+       NEW CONSTANT Q(_, _),
+       NEW CONSTANT R(_, _, _),
+       NEW CONSTANT S,
+       NEW CONSTANT T,
+       NEW CONSTANT U,
+       NEW CONSTANT x \in S,
+       NEW CONSTANT y \in S,
+       NEW CONSTANT z \in S,
+       NEW CONSTANT j,
+       NEW CONSTANT k,
+       NEW CONSTANT l,
+       "ordinary TLA+ operators" ,
+       "if/then/else" ,
+       S = S /\ T = T /\ U = U /\ 1 = 1 ,
+       S = S /\ T = T /\ 2 = 2 ,
+       S = S /\ T = T /\ 3 = 3 ,
+       (P(x) /\ Q(y, z) /\ R(j, k, l)) = (P(x) /\ Q(y, z) /\ R(j, k, l))
+       /\ 4 = 4 ,
+       (P(x) /\ Q(y, z)) = (P(x) /\ Q(y, z)) /\ 5 = 5 ,
+       (P(x) /\ R(y, z, j)) = (P(x) /\ R(y, z, j)) /\ 6 = 6 
+PROVE  S = S /\ 7 = 7
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:6
+@!!loc:35:7:35:14
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:11
+@!!loc:48:7:48:14
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT +(_, _),
+       NEW CONSTANT -(_, _),
+       NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT C,
+       NEW CONSTANT P(_),
+       NEW CONSTANT Q(_, _),
+       NEW CONSTANT R(_, _, _),
+       NEW CONSTANT S,
+       NEW CONSTANT T,
+       NEW CONSTANT U,
+       NEW CONSTANT x \in S,
+       NEW CONSTANT y \in S,
+       NEW CONSTANT z \in S,
+       NEW CONSTANT j,
+       NEW CONSTANT k,
+       NEW CONSTANT l,
+       "ordinary TLA+ operators" ,
+       "if/then/else" ,
+       S = S /\ T = T /\ U = U /\ 1 = 1 ,
+       S = S /\ T = T /\ 2 = 2 ,
+       S = S /\ T = T /\ 3 = 3 ,
+       (P(x) /\ Q(y, z) /\ R(j, k, l)) = (P(x) /\ Q(y, z) /\ R(j, k, l))
+       /\ 4 = 4 ,
+       (P(x) /\ Q(y, z)) = (P(x) /\ Q(y, z)) /\ 5 = 5 ,
+       (P(x) /\ R(y, z, j)) = (P(x) /\ R(y, z, j)) /\ 6 = 6 ,
+       S = S /\ 7 = 7 
+PROVE  S = S /\ 8 = 8
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:5
+@!!loc:33:7:33:14
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:4
+@!!loc:31:7:31:14
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.1 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:12
+@!!loc:50:7:50:14
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT +(_, _),
+       NEW CONSTANT -(_, _),
+       NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT C,
+       NEW CONSTANT P(_),
+       NEW CONSTANT Q(_, _),
+       NEW CONSTANT R(_, _, _),
+       NEW CONSTANT S,
+       NEW CONSTANT T,
+       NEW CONSTANT U,
+       NEW CONSTANT x \in S,
+       NEW CONSTANT y \in S,
+       NEW CONSTANT z \in S,
+       NEW CONSTANT j,
+       NEW CONSTANT k,
+       NEW CONSTANT l,
+       "ordinary TLA+ operators" ,
+       "if/then/else" ,
+       S = S /\ T = T /\ U = U /\ 1 = 1 ,
+       S = S /\ T = T /\ 2 = 2 ,
+       S = S /\ T = T /\ 3 = 3 ,
+       (P(x) /\ Q(y, z) /\ R(j, k, l)) = (P(x) /\ Q(y, z) /\ R(j, k, l))
+       /\ 4 = 4 ,
+       (P(x) /\ Q(y, z)) = (P(x) /\ Q(y, z)) /\ 5 = 5 ,
+       (P(x) /\ R(y, z, j)) = (P(x) /\ R(y, z, j)) /\ 6 = 6 ,
+       S = S /\ 7 = 7 ,
+       S = S /\ 8 = 8 
+PROVE  P(10) = P(10) /\ 9 = 9
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:13
+@!!loc:52:7:52:14
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT +(_, _),
+       NEW CONSTANT -(_, _),
+       NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT C,
+       NEW CONSTANT P(_),
+       NEW CONSTANT Q(_, _),
+       NEW CONSTANT R(_, _, _),
+       NEW CONSTANT S,
+       NEW CONSTANT T,
+       NEW CONSTANT U,
+       NEW CONSTANT x \in S,
+       NEW CONSTANT y \in S,
+       NEW CONSTANT z \in S,
+       NEW CONSTANT j,
+       NEW CONSTANT k,
+       NEW CONSTANT l,
+       "ordinary TLA+ operators" ,
+       "if/then/else" ,
+       S = S /\ T = T /\ U = U /\ 1 = 1 ,
+       S = S /\ T = T /\ 2 = 2 ,
+       S = S /\ T = T /\ 3 = 3 ,
+       (P(x) /\ Q(y, z) /\ R(j, k, l)) = (P(x) /\ Q(y, z) /\ R(j, k, l))
+       /\ 4 = 4 ,
+       (P(x) /\ Q(y, z)) = (P(x) /\ Q(y, z)) /\ 5 = 5 ,
+       (P(x) /\ R(y, z, j)) = (P(x) /\ R(y, z, j)) /\ 6 = 6 ,
+       S = S /\ 7 = 7 ,
+       S = S /\ 8 = 8 ,
+       P(10) = P(10) /\ 9 = 9 
+PROVE  P(10) = P(10) /\ 10 = 10
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:7
+@!!loc:37:7:37:14
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.1 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:23:7:23:14
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.1 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:14
+@!!loc:61:7:61:14
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT +(_, _),
+       NEW CONSTANT -(_, _),
+       NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT C,
+       NEW CONSTANT P(_),
+       NEW CONSTANT Q(_, _),
+       NEW CONSTANT R(_, _, _),
+       NEW CONSTANT S,
+       NEW CONSTANT T,
+       NEW CONSTANT U,
+       NEW CONSTANT x \in S,
+       NEW CONSTANT y \in S,
+       NEW CONSTANT z \in S,
+       NEW CONSTANT j,
+       NEW CONSTANT k,
+       NEW CONSTANT l,
+       "ordinary TLA+ operators" ,
+       "if/then/else" ,
+       "expressions that introduce binders" 
+PROVE  x = x /\ y = y /\ z = z /\ j = j /\ k = k /\ l = l /\ 0 = 0
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:15
+@!!loc:63:7:63:14
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT +(_, _),
+       NEW CONSTANT -(_, _),
+       NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT C,
+       NEW CONSTANT P(_),
+       NEW CONSTANT Q(_, _),
+       NEW CONSTANT R(_, _, _),
+       NEW CONSTANT S,
+       NEW CONSTANT T,
+       NEW CONSTANT U,
+       NEW CONSTANT x \in S,
+       NEW CONSTANT y \in S,
+       NEW CONSTANT z \in S,
+       NEW CONSTANT j,
+       NEW CONSTANT k,
+       NEW CONSTANT l,
+       "ordinary TLA+ operators" ,
+       "if/then/else" ,
+       "expressions that introduce binders" ,
+       x = x /\ y = y /\ z = z /\ j = j /\ k = k /\ l = l /\ 0 = 0 
+PROVE  x = x /\ y = y /\ z = z /\ j = j /\ k = k /\ l = l /\ 1 = 1
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:8
+@!!loc:39:7:39:14
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.1 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:16
+@!!loc:65:7:65:14
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT +(_, _),
+       NEW CONSTANT -(_, _),
+       NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT C,
+       NEW CONSTANT P(_),
+       NEW CONSTANT Q(_, _),
+       NEW CONSTANT R(_, _, _),
+       NEW CONSTANT S,
+       NEW CONSTANT T,
+       NEW CONSTANT U,
+       NEW CONSTANT x \in S,
+       NEW CONSTANT y \in S,
+       NEW CONSTANT z \in S,
+       NEW CONSTANT j,
+       NEW CONSTANT k,
+       NEW CONSTANT l,
+       "ordinary TLA+ operators" ,
+       "if/then/else" ,
+       "expressions that introduce binders" ,
+       x = x /\ y = y /\ z = z /\ j = j /\ k = k /\ l = l /\ 0 = 0 ,
+       x = x /\ y = y /\ z = z /\ j = j /\ k = k /\ l = l /\ 1 = 1 
+PROVE  x = x /\ y = y /\ z = z /\ j = j /\ k = k /\ l = l /\ 2 = 2
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:10
+@!!loc:46:7:46:14
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.1 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:17
+@!!loc:67:7:67:14
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT +(_, _),
+       NEW CONSTANT -(_, _),
+       NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT C,
+       NEW CONSTANT P(_),
+       NEW CONSTANT Q(_, _),
+       NEW CONSTANT R(_, _, _),
+       NEW CONSTANT S,
+       NEW CONSTANT T,
+       NEW CONSTANT U,
+       NEW CONSTANT x \in S,
+       NEW CONSTANT y \in S,
+       NEW CONSTANT z \in S,
+       NEW CONSTANT j,
+       NEW CONSTANT k,
+       NEW CONSTANT l,
+       "ordinary TLA+ operators" ,
+       "if/then/else" ,
+       "expressions that introduce binders" ,
+       x = x /\ y = y /\ z = z /\ j = j /\ k = k /\ l = l /\ 0 = 0 ,
+       x = x /\ y = y /\ z = z /\ j = j /\ k = k /\ l = l /\ 1 = 1 ,
+       x = x /\ y = y /\ z = z /\ j = j /\ k = k /\ l = l /\ 2 = 2 
+PROVE  x = x /\ y = y /\ z = z /\ j = j /\ k = k /\ l = l /\ 3 = 3
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:11
+@!!loc:48:7:48:14
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.1 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:9
+@!!loc:41:7:41:14
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.1 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:18
+@!!loc:75:7:75:14
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT +(_, _),
+       NEW CONSTANT -(_, _),
+       NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT C,
+       NEW CONSTANT P(_),
+       NEW CONSTANT Q(_, _),
+       NEW CONSTANT R(_, _, _),
+       NEW CONSTANT S,
+       NEW CONSTANT T,
+       NEW CONSTANT U,
+       NEW CONSTANT x \in S,
+       NEW CONSTANT y \in S,
+       NEW CONSTANT z \in S,
+       NEW CONSTANT j,
+       NEW CONSTANT k,
+       NEW CONSTANT l,
+       "ordinary TLA+ operators" ,
+       "if/then/else" ,
+       "expressions that introduce binders" ,
+       "set enums, tuples, records, record sets" 
+PROVE  (x + y + 10) - (x + y) = (x + y + 10) - (x + y) /\ 1 = 1
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:19
+@!!loc:77:7:77:14
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT +(_, _),
+       NEW CONSTANT -(_, _),
+       NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT C,
+       NEW CONSTANT P(_),
+       NEW CONSTANT Q(_, _),
+       NEW CONSTANT R(_, _, _),
+       NEW CONSTANT S,
+       NEW CONSTANT T,
+       NEW CONSTANT U,
+       NEW CONSTANT x \in S,
+       NEW CONSTANT y \in S,
+       NEW CONSTANT z \in S,
+       NEW CONSTANT j,
+       NEW CONSTANT k,
+       NEW CONSTANT l,
+       "ordinary TLA+ operators" ,
+       "if/then/else" ,
+       "expressions that introduce binders" ,
+       "set enums, tuples, records, record sets" ,
+       (x + y + 10) - (x + y) = (x + y + 10) - (x + y) /\ 1 = 1 
+PROVE  (x + y + 10) - (x + y) = (x + y + 10) - (x + y) /\ 2 = 2
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:12
+@!!loc:50:7:50:14
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.1 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:20
+@!!loc:79:7:79:14
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT +(_, _),
+       NEW CONSTANT -(_, _),
+       NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT C,
+       NEW CONSTANT P(_),
+       NEW CONSTANT Q(_, _),
+       NEW CONSTANT R(_, _, _),
+       NEW CONSTANT S,
+       NEW CONSTANT T,
+       NEW CONSTANT U,
+       NEW CONSTANT x \in S,
+       NEW CONSTANT y \in S,
+       NEW CONSTANT z \in S,
+       NEW CONSTANT j,
+       NEW CONSTANT k,
+       NEW CONSTANT l,
+       "ordinary TLA+ operators" ,
+       "if/then/else" ,
+       "expressions that introduce binders" ,
+       "set enums, tuples, records, record sets" ,
+       (x + y + 10) - (x + y) = (x + y + 10) - (x + y) /\ 1 = 1 ,
+       (x + y + 10) - (x + y) = (x + y + 10) - (x + y) /\ 2 = 2 
+PROVE  x + y = x + y /\ 2 = 2
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:13
+@!!loc:52:7:52:14
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.1 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:21
+@!!loc:82:7:82:14
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT +(_, _),
+       NEW CONSTANT -(_, _),
+       NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT C,
+       NEW CONSTANT P(_),
+       NEW CONSTANT Q(_, _),
+       NEW CONSTANT R(_, _, _),
+       NEW CONSTANT S,
+       NEW CONSTANT T,
+       NEW CONSTANT U,
+       NEW CONSTANT x \in S,
+       NEW CONSTANT y \in S,
+       NEW CONSTANT z \in S,
+       NEW CONSTANT j,
+       NEW CONSTANT k,
+       NEW CONSTANT l,
+       "ordinary TLA+ operators" ,
+       "if/then/else" ,
+       "expressions that introduce binders" ,
+       "set enums, tuples, records, record sets" ,
+       (x + y + 10) - (x + y) = (x + y + 10) - (x + y) /\ 1 = 1 ,
+       (x + y + 10) - (x + y) = (x + y + 10) - (x + y) /\ 2 = 2 ,
+       x + y = x + y /\ 2 = 2 
+PROVE  x + y + 10 = x + y + 10 /\ 3 = 3
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:15
+@!!loc:63:7:63:14
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.1 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:22
+@!!loc:95:7:95:14
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT +(_, _),
+       NEW CONSTANT -(_, _),
+       NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT C,
+       NEW CONSTANT P(_),
+       NEW CONSTANT Q(_, _),
+       NEW CONSTANT R(_, _, _),
+       NEW CONSTANT S,
+       NEW CONSTANT T,
+       NEW CONSTANT U,
+       NEW CONSTANT x \in S,
+       NEW CONSTANT y \in S,
+       NEW CONSTANT z \in S,
+       NEW CONSTANT j,
+       NEW CONSTANT k,
+       NEW CONSTANT l,
+       "simple positional references" ,
+       "positional selectors for ASSUME/PROVE" 
+PROVE  Q(x - y, z - j) = Q(x - y, z - j)
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:16
+@!!loc:65:7:65:14
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.1 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:23
+@!!loc:101:7:101:14
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT +(_, _),
+       NEW CONSTANT -(_, _),
+       NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT C,
+       NEW CONSTANT P(_),
+       NEW CONSTANT Q(_, _),
+       NEW CONSTANT R(_, _, _),
+       NEW CONSTANT S,
+       NEW CONSTANT T,
+       NEW CONSTANT U,
+       NEW CONSTANT x \in S,
+       NEW CONSTANT y \in S,
+       NEW CONSTANT z \in S,
+       NEW CONSTANT j,
+       NEW CONSTANT k,
+       NEW CONSTANT l,
+       "simple positional references" ,
+       "positional selectors for ASSUME/PROVE" ,
+       Q(x - y, z - j) = Q(x - y, z - j) 
+PROVE  Q(x - y, j - z) = Q(x - y, j - z)
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:14
+@!!loc:61:7:61:14
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.1 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:24
+@!!loc:109:9:109:16
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT +(_, _),
+       NEW CONSTANT -(_, _),
+       NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT C,
+       NEW CONSTANT P(_),
+       NEW CONSTANT Q(_, _),
+       NEW CONSTANT R(_, _, _),
+       NEW CONSTANT S,
+       NEW CONSTANT T,
+       NEW CONSTANT U,
+       NEW CONSTANT x \in S,
+       NEW CONSTANT y \in S,
+       NEW CONSTANT z \in S,
+       NEW CONSTANT j,
+       NEW CONSTANT k,
+       NEW CONSTANT l,
+       "simple positional references" ,
+       "positional selectors for ASSUME/PROVE" ,
+       "example from page 9 of tla2.pdf of October 14, 2009" 
+PROVE  (10 + 20) - 10 = (10 + 20) - 10
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:17
+@!!loc:67:7:67:14
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:25
+@!!loc:117:9:117:16
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT +(_, _),
+       NEW CONSTANT -(_, _),
+       NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT C,
+       NEW CONSTANT P(_),
+       NEW CONSTANT Q(_, _),
+       NEW CONSTANT R(_, _, _),
+       NEW CONSTANT S,
+       NEW CONSTANT T,
+       NEW CONSTANT U,
+       NEW CONSTANT x \in S,
+       NEW CONSTANT y \in S,
+       NEW CONSTANT z \in S,
+       NEW CONSTANT j,
+       NEW CONSTANT k,
+       NEW CONSTANT l,
+       "simple positional references" ,
+       "positional selectors for ASSUME/PROVE" ,
+       "example from page 9 of tla2.pdf of October 14, 2009" ,
+       "labelled subexpr. in scope of definitions" 
+PROVE  (20 + 10) - 10 = (20 + 10) - 10
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:19
+@!!loc:77:7:77:14
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.1 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:18
+@!!loc:75:7:75:14
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.1 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:20
+@!!loc:79:7:79:14
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.1 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:21
+@!!loc:82:7:82:14
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.1 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:22
+@!!loc:95:7:95:14
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.1 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:24
+@!!loc:109:9:109:16
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:23
+@!!loc:101:7:101:14
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.1 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:25
+@!!loc:117:9:117:16
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.1 (0%)
+@!!already:false
+@!!END
+
+File "./Subref_test.tla", line 1, character 1 to line 123, character 4:
+[INFO]: All 25 obligations proved.

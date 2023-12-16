@@ -1,0 +1,47 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:18:40 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp one_div_zero_test.tla --stretch 1
+
+(* created new ".tlacache/TLAPS.tlaps/TLAPS.thy" *)
+(* fingerprints written in ".tlacache/TLAPS.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/one_div_zero_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+COMMAND-LINE ARGUMENT
+file=.tlacache/one_div_zero_test.tlaps/tlapm_31704a.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/one_div_zero_test.tlaps/tlapm_31704a.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #1
+;;   generated from file "./one_div_zero_test.tla", line 12, characters 5-11
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun tla__Int () u)
+(declare-fun tla__div (u u) u)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+(assert
+  (forall ((X_3 u))
+  (! (= (tla__in X_3 tla__Int) (exists ((N_2 Int)) (= X_3 (int2u N_2)))) :pattern ((tla__in X_3 tla__Int)))))
+(assert
+  (forall ((M_1 Int) (N_2 Int))
+  (! (=> (< 0 N_2) (= (tla__div (int2u M_1) (int2u N_2)) (int2u (div M_1 N_2)))) :pattern ((tla__div (int2u M_1) (int2u N_2))))))
+(assert
+  (forall ((S_6 u) (T_7 u))
+  (=> (forall ((X_3 u)) (= (tla__in X_3 S_6) (tla__in X_3 T_7))) (= S_6 T_7))))
+
+;; Theorem to be Proved
+(assert (not (tla__in (tla__div (int2u 1) (int2u 0)) tla__Int)))
+
+(check-sat)
+(exit)
+
+Zenon error: exhausted search space without finding a proof
+(* created new ".tlacache/one_div_zero_test.tlaps/one_div_zero_test.thy" *)
+(* fingerprints written in ".tlacache/one_div_zero_test.tlaps/fingerprints" *)

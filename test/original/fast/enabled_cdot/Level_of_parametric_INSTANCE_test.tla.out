@@ -1,0 +1,40 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:25:58 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --nofp --toolbox 0 0 Level_of_parametric_INSTANCE_test.tla
+
+(* created new ".tlacache/Inner.tlaps/Inner.thy" *)
+(* fingerprints written in ".tlacache/Inner.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/Level_of_parametric_INSTANCE_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+COMMAND-LINE ARGUMENT
+file=.tlacache/Level_of_parametric_INSTANCE_test.tlaps/tlapm_77bfb6.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/Level_of_parametric_INSTANCE_test.tlaps/tlapm_77bfb6.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #1
+;;   generated from file "./Level_of_parametric_INSTANCE_test.tla", line 26, characters 5-11
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Mexcl_Foounde_a (u) u)
+
+
+;; Theorem to be Proved
+(assert (not (boolify (a_CONSTANTunde_Mexcl_Foounde_a true))))
+(assert (boolify (a_CONSTANTunde_Mexcl_Foounde_a true)))
+
+(check-sat)
+(exit)
+
+RESULT
+(error "line 17 column 59: unknown constant a_CONSTANTunde_Mexcl_Foounde_a (Bool) 
+declared: (declare-fun a_CONSTANTunde_Mexcl_Foounde_a (u) u) ")
+(error "line 18 column 53: unknown constant a_CONSTANTunde_Mexcl_Foounde_a (Bool) 
+declared: (declare-fun a_CONSTANTunde_Mexcl_Foounde_a (u) u) ")
+sat
+
+(* created new ".tlacache/Level_of_parametric_INSTANCE_test.tlaps/Level_of_parametric_INSTANCE_test.thy" *)
+(* fingerprints written in ".tlacache/Level_of_parametric_INSTANCE_test.tlaps/fingerprints" *)

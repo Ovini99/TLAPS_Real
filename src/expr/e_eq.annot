@@ -1,0 +1,7155 @@
+"e_eq.ml" 9 123 130 "e_eq.ml" 9 123 131
+ident(
+  def M "e_eq.ml" 9 123 151 "e_eq.ml" 0 0 -1
+)
+"e_eq.ml" 12 154 158 "e_eq.ml" 12 154 164
+type(
+  (M.key * 'a) list -> 'a M.t
+)
+ident(
+  def digest "e_eq.ml" 15 228 228 "e_eq.ml" 0 0 -1
+)
+"e_eq.ml" 12 154 165 "e_eq.ml" 12 154 166
+type(
+  (M.key * 'a) list
+)
+ident(
+  def l "e_eq.ml" 13 169 171 "e_eq.ml" 13 169 226
+)
+"e_eq.ml" 13 169 171 "e_eq.ml" 13 169 186
+type(
+  (M.key * 'a -> 'a M.t -> 'a M.t) -> (M.key * 'a) list -> 'a M.t -> 'a M.t
+)
+ident(
+  int_ref Stdlib.List.fold_right "list.mli" 216 7528 7528 "list.mli" 216 7528 7584
+)
+"e_eq.ml" 13 169 193 "e_eq.ml" 13 169 194
+type(
+  M.key
+)
+ident(
+  def v "e_eq.ml" 13 169 199 "e_eq.ml" 13 169 215
+)
+"e_eq.ml" 13 169 196 "e_eq.ml" 13 169 197
+type(
+  'a
+)
+ident(
+  def t "e_eq.ml" 13 169 199 "e_eq.ml" 13 169 215
+)
+"e_eq.ml" 13 169 192 "e_eq.ml" 13 169 198
+type(
+  M.key * 'a
+)
+"e_eq.ml" 13 169 199 "e_eq.ml" 13 169 200
+type(
+  'a M.t
+)
+ident(
+  def m "e_eq.ml" 13 169 204 "e_eq.ml" 13 169 215
+)
+"e_eq.ml" 13 169 204 "e_eq.ml" 13 169 209
+type(
+  M.key -> 'a -> 'a M.t -> 'a M.t
+)
+ident(
+  int_ref M.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"e_eq.ml" 13 169 210 "e_eq.ml" 13 169 211
+type(
+  M.key
+)
+ident(
+  int_ref v "e_eq.ml" 13 169 193 "e_eq.ml" 13 169 194
+)
+"e_eq.ml" 13 169 212 "e_eq.ml" 13 169 213
+type(
+  'a
+)
+ident(
+  int_ref t "e_eq.ml" 13 169 196 "e_eq.ml" 13 169 197
+)
+"e_eq.ml" 13 169 214 "e_eq.ml" 13 169 215
+type(
+  'a M.t
+)
+ident(
+  int_ref m "e_eq.ml" 13 169 199 "e_eq.ml" 13 169 200
+)
+"e_eq.ml" 13 169 204 "e_eq.ml" 13 169 215
+type(
+  'a M.t
+)
+"e_eq.ml" 13 169 187 "e_eq.ml" 13 169 216
+type(
+  M.key * 'a -> 'a M.t -> 'a M.t
+)
+"e_eq.ml" 13 169 217 "e_eq.ml" 13 169 218
+type(
+  (M.key * 'a) list
+)
+ident(
+  int_ref l "e_eq.ml" 12 154 165 "e_eq.ml" 12 154 166
+)
+"e_eq.ml" 13 169 219 "e_eq.ml" 13 169 226
+type(
+  'a M.t
+)
+ident(
+  int_ref M.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"e_eq.ml" 13 169 171 "e_eq.ml" 13 169 226
+type(
+  'a M.t
+)
+"e_eq.ml" 15 228 232 "e_eq.ml" 15 228 239
+type(
+  (M.key Property.wrapped * 'a) list -> 'a M.t
+)
+ident(
+  def digestv "e_eq.ml" 18 308 308 "e_eq.ml" 0 0 -1
+)
+"e_eq.ml" 15 228 240 "e_eq.ml" 15 228 241
+type(
+  (M.key Property.wrapped * 'a) list
+)
+ident(
+  def l "e_eq.ml" 16 244 246 "e_eq.ml" 16 244 306
+)
+"e_eq.ml" 16 244 246 "e_eq.ml" 16 244 261
+type(
+  (M.key Property.wrapped * 'a -> 'a M.t -> 'a M.t) ->
+  (M.key Property.wrapped * 'a) list -> 'a M.t -> 'a M.t
+)
+ident(
+  int_ref Stdlib.List.fold_right "list.mli" 216 7528 7528 "list.mli" 216 7528 7584
+)
+"e_eq.ml" 16 244 268 "e_eq.ml" 16 244 269
+type(
+  M.key Property.wrapped
+)
+ident(
+  def v "e_eq.ml" 16 244 274 "e_eq.ml" 16 244 295
+)
+"e_eq.ml" 16 244 271 "e_eq.ml" 16 244 272
+type(
+  'a
+)
+ident(
+  def t "e_eq.ml" 16 244 274 "e_eq.ml" 16 244 295
+)
+"e_eq.ml" 16 244 267 "e_eq.ml" 16 244 273
+type(
+  M.key Property.wrapped * 'a
+)
+"e_eq.ml" 16 244 274 "e_eq.ml" 16 244 275
+type(
+  'a M.t
+)
+ident(
+  def m "e_eq.ml" 16 244 279 "e_eq.ml" 16 244 295
+)
+"e_eq.ml" 16 244 279 "e_eq.ml" 16 244 284
+type(
+  M.key -> 'a -> 'a M.t -> 'a M.t
+)
+ident(
+  int_ref M.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"e_eq.ml" 16 244 285 "e_eq.ml" 16 244 286
+type(
+  M.key Property.wrapped
+)
+ident(
+  int_ref v "e_eq.ml" 16 244 268 "e_eq.ml" 16 244 269
+)
+"e_eq.ml" 16 244 285 "e_eq.ml" 16 244 291
+type(
+  M.key
+)
+"e_eq.ml" 16 244 292 "e_eq.ml" 16 244 293
+type(
+  'a
+)
+ident(
+  int_ref t "e_eq.ml" 16 244 271 "e_eq.ml" 16 244 272
+)
+"e_eq.ml" 16 244 294 "e_eq.ml" 16 244 295
+type(
+  'a M.t
+)
+ident(
+  int_ref m "e_eq.ml" 16 244 274 "e_eq.ml" 16 244 275
+)
+"e_eq.ml" 16 244 279 "e_eq.ml" 16 244 295
+type(
+  'a M.t
+)
+"e_eq.ml" 16 244 262 "e_eq.ml" 16 244 296
+type(
+  M.key Property.wrapped * 'a -> 'a M.t -> 'a M.t
+)
+"e_eq.ml" 16 244 297 "e_eq.ml" 16 244 298
+type(
+  (M.key Property.wrapped * 'a) list
+)
+ident(
+  int_ref l "e_eq.ml" 15 228 240 "e_eq.ml" 15 228 241
+)
+"e_eq.ml" 16 244 299 "e_eq.ml" 16 244 306
+type(
+  'a M.t
+)
+ident(
+  int_ref M.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"e_eq.ml" 16 244 246 "e_eq.ml" 16 244 306
+type(
+  'a M.t
+)
+"e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  def expr "e_eq.ml" 18 308 308 "e_eq.ml" 0 0 -1
+)
+"e_eq.ml" 18 308 321 "e_eq.ml" 18 308 322
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 18 308 323 "e_eq.ml" 113 3285 3296
+)
+"e_eq.ml" 18 308 323 "e_eq.ml" 18 308 324
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 18 308 327 "e_eq.ml" 113 3285 3296
+)
+"e_eq.ml" 18 308 333 "e_eq.ml" 18 308 334
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 18 308 321 "e_eq.ml" 18 308 322
+)
+"e_eq.ml" 18 308 333 "e_eq.ml" 18 308 339
+type(
+  E_t.expr_
+)
+"e_eq.ml" 18 308 341 "e_eq.ml" 18 308 342
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 18 308 323 "e_eq.ml" 18 308 324
+)
+"e_eq.ml" 18 308 341 "e_eq.ml" 18 308 347
+type(
+  E_t.expr_
+)
+"e_eq.ml" 18 308 333 "e_eq.ml" 18 308 347
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 19 353 365 "e_eq.ml" 19 353 366
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 19 353 377 "e_eq.ml" 19 353 385
+)
+"e_eq.ml" 19 353 368 "e_eq.ml" 19 353 369
+type(
+  E_t.pform
+)
+"e_eq.ml" 19 353 357 "e_eq.ml" 19 353 370
+type(
+  E_t.expr_
+)
+"e_eq.ml" 19 353 372 "e_eq.ml" 19 353 373
+type(
+  E_t.expr_
+)
+"e_eq.ml" 19 353 357 "e_eq.ml" 19 353 373
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 19 353 377 "e_eq.ml" 19 353 381
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 19 353 382 "e_eq.ml" 19 353 383
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 19 353 365 "e_eq.ml" 19 353 366
+)
+"e_eq.ml" 19 353 384 "e_eq.ml" 19 353 385
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 18 308 323 "e_eq.ml" 18 308 324
+)
+"e_eq.ml" 19 353 377 "e_eq.ml" 19 353 385
+type(
+  bool
+)
+"e_eq.ml" 20 386 390 "e_eq.ml" 20 386 391
+type(
+  E_t.expr_
+)
+"e_eq.ml" 20 386 401 "e_eq.ml" 20 386 402
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 20 386 410 "e_eq.ml" 20 386 418
+)
+"e_eq.ml" 20 386 404 "e_eq.ml" 20 386 405
+type(
+  E_t.pform
+)
+"e_eq.ml" 20 386 393 "e_eq.ml" 20 386 406
+type(
+  E_t.expr_
+)
+"e_eq.ml" 20 386 390 "e_eq.ml" 20 386 406
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 20 386 410 "e_eq.ml" 20 386 414
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 20 386 415 "e_eq.ml" 20 386 416
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 18 308 321 "e_eq.ml" 18 308 322
+)
+"e_eq.ml" 20 386 417 "e_eq.ml" 20 386 418
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 20 386 401 "e_eq.ml" 20 386 402
+)
+"e_eq.ml" 20 386 410 "e_eq.ml" 20 386 418
+type(
+  bool
+)
+"e_eq.ml" 21 419 426 "e_eq.ml" 21 419 427
+type(
+  int
+)
+ident(
+  def m "e_eq.ml" 22 437 443 "e_eq.ml" 22 437 448
+)
+"e_eq.ml" 21 419 423 "e_eq.ml" 21 419 427
+type(
+  E_t.expr_
+)
+"e_eq.ml" 21 419 432 "e_eq.ml" 21 419 433
+type(
+  int
+)
+ident(
+  def n "e_eq.ml" 22 437 443 "e_eq.ml" 22 437 448
+)
+"e_eq.ml" 21 419 429 "e_eq.ml" 21 419 433
+type(
+  E_t.expr_
+)
+"e_eq.ml" 21 419 423 "e_eq.ml" 21 419 433
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 22 437 443 "e_eq.ml" 22 437 444
+type(
+  int
+)
+ident(
+  int_ref m "e_eq.ml" 21 419 426 "e_eq.ml" 21 419 427
+)
+"e_eq.ml" 22 437 445 "e_eq.ml" 22 437 446
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 22 437 447 "e_eq.ml" 22 437 448
+type(
+  int
+)
+ident(
+  int_ref n "e_eq.ml" 21 419 432 "e_eq.ml" 21 419 433
+)
+"e_eq.ml" 22 437 443 "e_eq.ml" 22 437 448
+type(
+  bool
+)
+"e_eq.ml" 23 449 460 "e_eq.ml" 23 449 461
+type(
+  string
+)
+ident(
+  def p "e_eq.ml" 24 475 481 "e_eq.ml" 24 475 486
+)
+"e_eq.ml" 23 449 453 "e_eq.ml" 23 449 461
+type(
+  E_t.expr_
+)
+"e_eq.ml" 23 449 470 "e_eq.ml" 23 449 471
+type(
+  string
+)
+ident(
+  def q "e_eq.ml" 24 475 481 "e_eq.ml" 24 475 486
+)
+"e_eq.ml" 23 449 463 "e_eq.ml" 23 449 471
+type(
+  E_t.expr_
+)
+"e_eq.ml" 23 449 453 "e_eq.ml" 23 449 471
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 24 475 481 "e_eq.ml" 24 475 482
+type(
+  string
+)
+ident(
+  int_ref p "e_eq.ml" 23 449 460 "e_eq.ml" 23 449 461
+)
+"e_eq.ml" 24 475 483 "e_eq.ml" 24 475 484
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 24 475 485 "e_eq.ml" 24 475 486
+type(
+  string
+)
+ident(
+  int_ref q "e_eq.ml" 23 449 470 "e_eq.ml" 23 449 471
+)
+"e_eq.ml" 24 475 481 "e_eq.ml" 24 475 486
+type(
+  bool
+)
+"e_eq.ml" 25 487 500 "e_eq.ml" 25 487 501
+type(
+  Builtin.builtin
+)
+ident(
+  def b "e_eq.ml" 26 517 523 "e_eq.ml" 26 517 528
+)
+"e_eq.ml" 25 487 491 "e_eq.ml" 25 487 501
+type(
+  E_t.expr_
+)
+"e_eq.ml" 25 487 512 "e_eq.ml" 25 487 513
+type(
+  Builtin.builtin
+)
+ident(
+  def c "e_eq.ml" 26 517 523 "e_eq.ml" 26 517 528
+)
+"e_eq.ml" 25 487 503 "e_eq.ml" 25 487 513
+type(
+  E_t.expr_
+)
+"e_eq.ml" 25 487 491 "e_eq.ml" 25 487 513
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 26 517 523 "e_eq.ml" 26 517 524
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref b "e_eq.ml" 25 487 500 "e_eq.ml" 25 487 501
+)
+"e_eq.ml" 26 517 525 "e_eq.ml" 26 517 526
+type(
+  Builtin.builtin -> Builtin.builtin -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 26 517 527 "e_eq.ml" 26 517 528
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref c "e_eq.ml" 25 487 512 "e_eq.ml" 25 487 513
+)
+"e_eq.ml" 26 517 523 "e_eq.ml" 26 517 528
+type(
+  bool
+)
+"e_eq.ml" 27 529 541 "e_eq.ml" 27 529 543
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  def us "e_eq.ml" 28 567 573 "e_eq.ml" 28 567 616
+)
+"e_eq.ml" 27 529 545 "e_eq.ml" 27 529 546
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 28 567 573 "e_eq.ml" 28 567 616
+)
+"e_eq.ml" 27 529 533 "e_eq.ml" 27 529 547
+type(
+  E_t.expr_
+)
+"e_eq.ml" 27 529 557 "e_eq.ml" 27 529 559
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  def vs "e_eq.ml" 28 567 573 "e_eq.ml" 28 567 616
+)
+"e_eq.ml" 27 529 561 "e_eq.ml" 27 529 562
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 28 567 573 "e_eq.ml" 28 567 616
+)
+"e_eq.ml" 27 529 549 "e_eq.ml" 27 529 563
+type(
+  E_t.expr_
+)
+"e_eq.ml" 27 529 533 "e_eq.ml" 27 529 563
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 28 567 573 "e_eq.ml" 28 567 584
+type(
+  (Util.hint * E_t.shape) list -> int
+)
+ident(
+  int_ref Stdlib.List.length "list.mli" 43 2033 2033 "list.mli" 43 2033 2060
+)
+"e_eq.ml" 28 567 585 "e_eq.ml" 28 567 587
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  int_ref us "e_eq.ml" 27 529 541 "e_eq.ml" 27 529 543
+)
+"e_eq.ml" 28 567 573 "e_eq.ml" 28 567 587
+type(
+  int
+)
+"e_eq.ml" 28 567 588 "e_eq.ml" 28 567 589
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 28 567 590 "e_eq.ml" 28 567 601
+type(
+  (Util.hint * E_t.shape) list -> int
+)
+ident(
+  int_ref Stdlib.List.length "list.mli" 43 2033 2033 "list.mli" 43 2033 2060
+)
+"e_eq.ml" 28 567 602 "e_eq.ml" 28 567 604
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  int_ref vs "e_eq.ml" 27 529 557 "e_eq.ml" 27 529 559
+)
+"e_eq.ml" 28 567 590 "e_eq.ml" 28 567 604
+type(
+  int
+)
+"e_eq.ml" 28 567 573 "e_eq.ml" 28 567 604
+type(
+  bool
+)
+"e_eq.ml" 28 567 605 "e_eq.ml" 28 567 607
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 28 567 608 "e_eq.ml" 28 567 612
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 28 567 613 "e_eq.ml" 28 567 614
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 27 529 545 "e_eq.ml" 27 529 546
+)
+"e_eq.ml" 28 567 615 "e_eq.ml" 28 567 616
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 27 529 561 "e_eq.ml" 27 529 562
+)
+"e_eq.ml" 28 567 608 "e_eq.ml" 28 567 616
+type(
+  bool
+)
+"e_eq.ml" 28 567 573 "e_eq.ml" 28 567 616
+type(
+  bool
+)
+"e_eq.ml" 29 617 628 "e_eq.ml" 29 617 629
+type(
+  E_t.expr
+)
+ident(
+  def p "e_eq.ml" 30 653 659 "e_eq.ml" 30 653 682
+)
+"e_eq.ml" 29 617 631 "e_eq.ml" 29 617 633
+type(
+  E_t.expr list
+)
+ident(
+  def es "e_eq.ml" 30 653 659 "e_eq.ml" 30 653 682
+)
+"e_eq.ml" 29 617 621 "e_eq.ml" 29 617 634
+type(
+  E_t.expr_
+)
+"e_eq.ml" 29 617 643 "e_eq.ml" 29 617 644
+type(
+  E_t.expr
+)
+ident(
+  def q "e_eq.ml" 30 653 659 "e_eq.ml" 30 653 682
+)
+"e_eq.ml" 29 617 646 "e_eq.ml" 29 617 648
+type(
+  E_t.expr list
+)
+ident(
+  def fs "e_eq.ml" 30 653 659 "e_eq.ml" 30 653 682
+)
+"e_eq.ml" 29 617 636 "e_eq.ml" 29 617 649
+type(
+  E_t.expr_
+)
+"e_eq.ml" 29 617 621 "e_eq.ml" 29 617 649
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 30 653 659 "e_eq.ml" 30 653 663
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 30 653 664 "e_eq.ml" 30 653 665
+type(
+  E_t.expr
+)
+ident(
+  int_ref p "e_eq.ml" 29 617 628 "e_eq.ml" 29 617 629
+)
+"e_eq.ml" 30 653 666 "e_eq.ml" 30 653 667
+type(
+  E_t.expr
+)
+ident(
+  int_ref q "e_eq.ml" 29 617 643 "e_eq.ml" 29 617 644
+)
+"e_eq.ml" 30 653 659 "e_eq.ml" 30 653 667
+type(
+  bool
+)
+"e_eq.ml" 30 653 668 "e_eq.ml" 30 653 670
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 30 653 671 "e_eq.ml" 30 653 676
+type(
+  E_t.expr list -> E_t.expr list -> bool
+)
+ident(
+  int_ref exprs "e_eq.ml" 115 3298 3302 "e_eq.ml" 115 3298 3307
+)
+"e_eq.ml" 30 653 677 "e_eq.ml" 30 653 679
+type(
+  E_t.expr list
+)
+ident(
+  int_ref es "e_eq.ml" 29 617 631 "e_eq.ml" 29 617 633
+)
+"e_eq.ml" 30 653 680 "e_eq.ml" 30 653 682
+type(
+  E_t.expr list
+)
+ident(
+  int_ref fs "e_eq.ml" 29 617 646 "e_eq.ml" 29 617 648
+)
+"e_eq.ml" 30 653 671 "e_eq.ml" 30 653 682
+type(
+  bool
+)
+"e_eq.ml" 30 653 659 "e_eq.ml" 30 653 682
+type(
+  bool
+)
+"e_eq.ml" 31 683 695 "e_eq.ml" 31 683 696
+type(
+  E_t.sequent
+)
+ident(
+  def s "e_eq.ml" 32 711 717 "e_eq.ml" 32 711 728
+)
+"e_eq.ml" 31 683 687 "e_eq.ml" 31 683 696
+type(
+  E_t.expr_
+)
+"e_eq.ml" 31 683 706 "e_eq.ml" 31 683 707
+type(
+  E_t.sequent
+)
+ident(
+  def t "e_eq.ml" 32 711 717 "e_eq.ml" 32 711 728
+)
+"e_eq.ml" 31 683 698 "e_eq.ml" 31 683 707
+type(
+  E_t.expr_
+)
+"e_eq.ml" 31 683 687 "e_eq.ml" 31 683 707
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 32 711 717 "e_eq.ml" 32 711 724
+type(
+  E_t.sequent -> E_t.sequent -> bool
+)
+ident(
+  int_ref sequent "e_eq.ml" 156 4212 4216 "e_eq.ml" 156 4212 4223
+)
+"e_eq.ml" 32 711 725 "e_eq.ml" 32 711 726
+type(
+  E_t.sequent
+)
+ident(
+  int_ref s "e_eq.ml" 31 683 695 "e_eq.ml" 31 683 696
+)
+"e_eq.ml" 32 711 727 "e_eq.ml" 32 711 728
+type(
+  E_t.sequent
+)
+ident(
+  int_ref t "e_eq.ml" 31 683 706 "e_eq.ml" 31 683 707
+)
+"e_eq.ml" 32 711 717 "e_eq.ml" 32 711 728
+type(
+  bool
+)
+"e_eq.ml" 33 729 739 "e_eq.ml" 33 729 740
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 34 761 767 "e_eq.ml" 34 761 802
+)
+"e_eq.ml" 33 729 741 "e_eq.ml" 33 729 743
+type(
+  E_t.sel list
+)
+ident(
+  def ss "e_eq.ml" 34 761 767 "e_eq.ml" 34 761 802
+)
+"e_eq.ml" 33 729 733 "e_eq.ml" 33 729 744
+type(
+  E_t.expr_
+)
+"e_eq.ml" 33 729 752 "e_eq.ml" 33 729 753
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 34 761 767 "e_eq.ml" 34 761 802
+)
+"e_eq.ml" 33 729 754 "e_eq.ml" 33 729 756
+type(
+  E_t.sel list
+)
+ident(
+  def tt "e_eq.ml" 34 761 767 "e_eq.ml" 34 761 802
+)
+"e_eq.ml" 33 729 746 "e_eq.ml" 33 729 757
+type(
+  E_t.expr_
+)
+"e_eq.ml" 33 729 733 "e_eq.ml" 33 729 757
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 34 761 767 "e_eq.ml" 34 761 771
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 34 761 772 "e_eq.ml" 34 761 773
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 33 729 739 "e_eq.ml" 33 729 740
+)
+"e_eq.ml" 34 761 774 "e_eq.ml" 34 761 775
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 33 729 752 "e_eq.ml" 33 729 753
+)
+"e_eq.ml" 34 761 767 "e_eq.ml" 34 761 775
+type(
+  bool
+)
+"e_eq.ml" 34 761 776 "e_eq.ml" 34 761 778
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 34 761 779 "e_eq.ml" 34 761 792
+type(
+  (E_t.sel -> E_t.sel -> bool) -> E_t.sel list -> E_t.sel list -> bool
+)
+ident(
+  int_ref Stdlib.List.for_all2 "list.mli" 279 9543 9543 "list.mli" 279 9543 9606
+)
+"e_eq.ml" 34 761 793 "e_eq.ml" 34 761 796
+type(
+  E_t.sel -> E_t.sel -> bool
+)
+ident(
+  int_ref sel "e_eq.ml" 190 5104 5108 "e_eq.ml" 190 5104 5111
+)
+"e_eq.ml" 34 761 797 "e_eq.ml" 34 761 799
+type(
+  E_t.sel list
+)
+ident(
+  int_ref ss "e_eq.ml" 33 729 741 "e_eq.ml" 33 729 743
+)
+"e_eq.ml" 34 761 800 "e_eq.ml" 34 761 802
+type(
+  E_t.sel list
+)
+ident(
+  int_ref tt "e_eq.ml" 33 729 754 "e_eq.ml" 33 729 756
+)
+"e_eq.ml" 34 761 779 "e_eq.ml" 34 761 802
+type(
+  bool
+)
+"e_eq.ml" 34 761 767 "e_eq.ml" 34 761 802
+type(
+  bool
+)
+"e_eq.ml" 35 803 813 "e_eq.ml" 35 803 814
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 36 833 839 "e_eq.ml" 36 833 847
+)
+"e_eq.ml" 35 803 815 "e_eq.ml" 35 803 816
+type(
+  Method.t
+)
+"e_eq.ml" 35 803 807 "e_eq.ml" 35 803 817
+type(
+  E_t.expr_
+)
+"e_eq.ml" 35 803 825 "e_eq.ml" 35 803 826
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 36 833 839 "e_eq.ml" 36 833 847
+)
+"e_eq.ml" 35 803 827 "e_eq.ml" 35 803 828
+type(
+  Method.t
+)
+"e_eq.ml" 35 803 819 "e_eq.ml" 35 803 829
+type(
+  E_t.expr_
+)
+"e_eq.ml" 35 803 807 "e_eq.ml" 35 803 829
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 36 833 839 "e_eq.ml" 36 833 843
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 36 833 844 "e_eq.ml" 36 833 845
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 35 803 813 "e_eq.ml" 35 803 814
+)
+"e_eq.ml" 36 833 846 "e_eq.ml" 36 833 847
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 35 803 825 "e_eq.ml" 35 803 826
+)
+"e_eq.ml" 36 833 839 "e_eq.ml" 36 833 847
+type(
+  bool
+)
+"e_eq.ml" 37 848 857 "e_eq.ml" 37 848 859
+type(
+  E_t.defn list
+)
+ident(
+  def xi "e_eq.ml" 38 881 887 "e_eq.ml" 38 881 911
+)
+"e_eq.ml" 37 848 861 "e_eq.ml" 37 848 862
+type(
+  E_t.expr
+)
+ident(
+  def a "e_eq.ml" 38 881 887 "e_eq.ml" 38 881 911
+)
+"e_eq.ml" 37 848 852 "e_eq.ml" 37 848 863
+type(
+  E_t.expr_
+)
+"e_eq.ml" 37 848 870 "e_eq.ml" 37 848 873
+type(
+  E_t.defn list
+)
+ident(
+  def phi "e_eq.ml" 38 881 887 "e_eq.ml" 38 881 911
+)
+"e_eq.ml" 37 848 875 "e_eq.ml" 37 848 876
+type(
+  E_t.expr
+)
+ident(
+  def b "e_eq.ml" 38 881 887 "e_eq.ml" 38 881 911
+)
+"e_eq.ml" 37 848 865 "e_eq.ml" 37 848 877
+type(
+  E_t.expr_
+)
+"e_eq.ml" 37 848 852 "e_eq.ml" 37 848 877
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 38 881 887 "e_eq.ml" 38 881 892
+type(
+  E_t.defn list -> E_t.defn list -> bool
+)
+ident(
+  int_ref defns "e_eq.ml" 141 3857 3861 "e_eq.ml" 141 3857 3866
+)
+"e_eq.ml" 38 881 893 "e_eq.ml" 38 881 895
+type(
+  E_t.defn list
+)
+ident(
+  int_ref xi "e_eq.ml" 37 848 857 "e_eq.ml" 37 848 859
+)
+"e_eq.ml" 38 881 896 "e_eq.ml" 38 881 899
+type(
+  E_t.defn list
+)
+ident(
+  int_ref phi "e_eq.ml" 37 848 870 "e_eq.ml" 37 848 873
+)
+"e_eq.ml" 38 881 887 "e_eq.ml" 38 881 899
+type(
+  bool
+)
+"e_eq.ml" 38 881 900 "e_eq.ml" 38 881 902
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 38 881 903 "e_eq.ml" 38 881 907
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 38 881 908 "e_eq.ml" 38 881 909
+type(
+  E_t.expr
+)
+ident(
+  int_ref a "e_eq.ml" 37 848 861 "e_eq.ml" 37 848 862
+)
+"e_eq.ml" 38 881 910 "e_eq.ml" 38 881 911
+type(
+  E_t.expr
+)
+ident(
+  int_ref b "e_eq.ml" 37 848 875 "e_eq.ml" 37 848 876
+)
+"e_eq.ml" 38 881 903 "e_eq.ml" 38 881 911
+type(
+  bool
+)
+"e_eq.ml" 38 881 887 "e_eq.ml" 38 881 911
+type(
+  bool
+)
+"e_eq.ml" 39 912 920 "e_eq.ml" 39 912 922
+type(
+  E_t.expr
+)
+ident(
+  def c1 "e_eq.ml" 40 952 958 "e_eq.ml" 40 952 996
+)
+"e_eq.ml" 39 912 924 "e_eq.ml" 39 912 926
+type(
+  E_t.expr
+)
+ident(
+  def t1 "e_eq.ml" 40 952 958 "e_eq.ml" 40 952 996
+)
+"e_eq.ml" 39 912 928 "e_eq.ml" 39 912 930
+type(
+  E_t.expr
+)
+ident(
+  def e1 "e_eq.ml" 40 952 958 "e_eq.ml" 40 952 996
+)
+"e_eq.ml" 39 912 916 "e_eq.ml" 39 912 931
+type(
+  E_t.expr_
+)
+"e_eq.ml" 39 912 937 "e_eq.ml" 39 912 939
+type(
+  E_t.expr
+)
+ident(
+  def c2 "e_eq.ml" 40 952 958 "e_eq.ml" 40 952 996
+)
+"e_eq.ml" 39 912 941 "e_eq.ml" 39 912 943
+type(
+  E_t.expr
+)
+ident(
+  def t2 "e_eq.ml" 40 952 958 "e_eq.ml" 40 952 996
+)
+"e_eq.ml" 39 912 945 "e_eq.ml" 39 912 947
+type(
+  E_t.expr
+)
+ident(
+  def e2 "e_eq.ml" 40 952 958 "e_eq.ml" 40 952 996
+)
+"e_eq.ml" 39 912 933 "e_eq.ml" 39 912 948
+type(
+  E_t.expr_
+)
+"e_eq.ml" 39 912 916 "e_eq.ml" 39 912 948
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 40 952 958 "e_eq.ml" 40 952 962
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 40 952 963 "e_eq.ml" 40 952 965
+type(
+  E_t.expr
+)
+ident(
+  int_ref c1 "e_eq.ml" 39 912 920 "e_eq.ml" 39 912 922
+)
+"e_eq.ml" 40 952 966 "e_eq.ml" 40 952 968
+type(
+  E_t.expr
+)
+ident(
+  int_ref c2 "e_eq.ml" 39 912 937 "e_eq.ml" 39 912 939
+)
+"e_eq.ml" 40 952 958 "e_eq.ml" 40 952 968
+type(
+  bool
+)
+"e_eq.ml" 40 952 969 "e_eq.ml" 40 952 971
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 40 952 972 "e_eq.ml" 40 952 976
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 40 952 977 "e_eq.ml" 40 952 979
+type(
+  E_t.expr
+)
+ident(
+  int_ref t1 "e_eq.ml" 39 912 924 "e_eq.ml" 39 912 926
+)
+"e_eq.ml" 40 952 980 "e_eq.ml" 40 952 982
+type(
+  E_t.expr
+)
+ident(
+  int_ref t2 "e_eq.ml" 39 912 941 "e_eq.ml" 39 912 943
+)
+"e_eq.ml" 40 952 972 "e_eq.ml" 40 952 982
+type(
+  bool
+)
+"e_eq.ml" 40 952 983 "e_eq.ml" 40 952 985
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 40 952 986 "e_eq.ml" 40 952 990
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 40 952 991 "e_eq.ml" 40 952 993
+type(
+  E_t.expr
+)
+ident(
+  int_ref e1 "e_eq.ml" 39 912 928 "e_eq.ml" 39 912 930
+)
+"e_eq.ml" 40 952 994 "e_eq.ml" 40 952 996
+type(
+  E_t.expr
+)
+ident(
+  int_ref e2 "e_eq.ml" 39 912 945 "e_eq.ml" 39 912 947
+)
+"e_eq.ml" 40 952 986 "e_eq.ml" 40 952 996
+type(
+  bool
+)
+"e_eq.ml" 40 952 972 "e_eq.ml" 40 952 996
+type(
+  bool
+)
+"e_eq.ml" 40 952 958 "e_eq.ml" 40 952 996
+type(
+  bool
+)
+"e_eq.ml" 41 997 1007 "e_eq.ml" 41 997 1008
+type(
+  E_t.bullet
+)
+ident(
+  def q "e_eq.ml" 42 1031 1037 "e_eq.ml" 42 1031 1057
+)
+"e_eq.ml" 41 997 1010 "e_eq.ml" 41 997 1012
+type(
+  E_t.expr list
+)
+ident(
+  def es "e_eq.ml" 42 1031 1037 "e_eq.ml" 42 1031 1057
+)
+"e_eq.ml" 41 997 1001 "e_eq.ml" 41 997 1013
+type(
+  E_t.expr_
+)
+"e_eq.ml" 41 997 1021 "e_eq.ml" 41 997 1022
+type(
+  E_t.bullet
+)
+ident(
+  def r "e_eq.ml" 42 1031 1037 "e_eq.ml" 42 1031 1057
+)
+"e_eq.ml" 41 997 1024 "e_eq.ml" 41 997 1026
+type(
+  E_t.expr list
+)
+ident(
+  def fs "e_eq.ml" 42 1031 1037 "e_eq.ml" 42 1031 1057
+)
+"e_eq.ml" 41 997 1015 "e_eq.ml" 41 997 1027
+type(
+  E_t.expr_
+)
+"e_eq.ml" 41 997 1001 "e_eq.ml" 41 997 1027
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 42 1031 1037 "e_eq.ml" 42 1031 1038
+type(
+  E_t.bullet
+)
+ident(
+  int_ref q "e_eq.ml" 41 997 1007 "e_eq.ml" 41 997 1008
+)
+"e_eq.ml" 42 1031 1039 "e_eq.ml" 42 1031 1040
+type(
+  E_t.bullet -> E_t.bullet -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 42 1031 1041 "e_eq.ml" 42 1031 1042
+type(
+  E_t.bullet
+)
+ident(
+  int_ref r "e_eq.ml" 41 997 1021 "e_eq.ml" 41 997 1022
+)
+"e_eq.ml" 42 1031 1037 "e_eq.ml" 42 1031 1042
+type(
+  bool
+)
+"e_eq.ml" 42 1031 1043 "e_eq.ml" 42 1031 1045
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 42 1031 1046 "e_eq.ml" 42 1031 1051
+type(
+  E_t.expr list -> E_t.expr list -> bool
+)
+ident(
+  int_ref exprs "e_eq.ml" 115 3298 3302 "e_eq.ml" 115 3298 3307
+)
+"e_eq.ml" 42 1031 1052 "e_eq.ml" 42 1031 1054
+type(
+  E_t.expr list
+)
+ident(
+  int_ref es "e_eq.ml" 41 997 1010 "e_eq.ml" 41 997 1012
+)
+"e_eq.ml" 42 1031 1055 "e_eq.ml" 42 1031 1057
+type(
+  E_t.expr list
+)
+ident(
+  int_ref fs "e_eq.ml" 41 997 1024 "e_eq.ml" 41 997 1026
+)
+"e_eq.ml" 42 1031 1046 "e_eq.ml" 42 1031 1057
+type(
+  bool
+)
+"e_eq.ml" 42 1031 1037 "e_eq.ml" 42 1031 1057
+type(
+  bool
+)
+"e_eq.ml" 43 1058 1069 "e_eq.ml" 43 1058 1070
+type(
+  E_t.quantifier
+)
+ident(
+  def q "e_eq.ml" 44 1100 1106 "e_eq.ml" 44 1100 1139
+)
+"e_eq.ml" 43 1058 1072 "e_eq.ml" 43 1058 1074
+type(
+  E_t.bounds
+)
+ident(
+  def bs "e_eq.ml" 44 1100 1106 "e_eq.ml" 44 1100 1139
+)
+"e_eq.ml" 43 1058 1076 "e_eq.ml" 43 1058 1077
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 44 1100 1106 "e_eq.ml" 44 1100 1139
+)
+"e_eq.ml" 43 1058 1062 "e_eq.ml" 43 1058 1078
+type(
+  E_t.expr_
+)
+"e_eq.ml" 43 1058 1087 "e_eq.ml" 43 1058 1088
+type(
+  E_t.quantifier
+)
+ident(
+  def r "e_eq.ml" 44 1100 1106 "e_eq.ml" 44 1100 1139
+)
+"e_eq.ml" 43 1058 1090 "e_eq.ml" 43 1058 1092
+type(
+  E_t.bounds
+)
+ident(
+  def cs "e_eq.ml" 44 1100 1106 "e_eq.ml" 44 1100 1139
+)
+"e_eq.ml" 43 1058 1094 "e_eq.ml" 43 1058 1095
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 44 1100 1106 "e_eq.ml" 44 1100 1139
+)
+"e_eq.ml" 43 1058 1080 "e_eq.ml" 43 1058 1096
+type(
+  E_t.expr_
+)
+"e_eq.ml" 43 1058 1062 "e_eq.ml" 43 1058 1096
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 44 1100 1106 "e_eq.ml" 44 1100 1107
+type(
+  E_t.quantifier
+)
+ident(
+  int_ref q "e_eq.ml" 43 1058 1069 "e_eq.ml" 43 1058 1070
+)
+"e_eq.ml" 44 1100 1108 "e_eq.ml" 44 1100 1109
+type(
+  E_t.quantifier -> E_t.quantifier -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 44 1100 1110 "e_eq.ml" 44 1100 1111
+type(
+  E_t.quantifier
+)
+ident(
+  int_ref r "e_eq.ml" 43 1058 1087 "e_eq.ml" 43 1058 1088
+)
+"e_eq.ml" 44 1100 1106 "e_eq.ml" 44 1100 1111
+type(
+  bool
+)
+"e_eq.ml" 44 1100 1112 "e_eq.ml" 44 1100 1114
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 44 1100 1115 "e_eq.ml" 44 1100 1121
+type(
+  E_t.bounds -> E_t.bounds -> bool
+)
+ident(
+  int_ref bounds "e_eq.ml" 121 3423 3427 "e_eq.ml" 121 3423 3433
+)
+"e_eq.ml" 44 1100 1122 "e_eq.ml" 44 1100 1124
+type(
+  E_t.bounds
+)
+ident(
+  int_ref bs "e_eq.ml" 43 1058 1072 "e_eq.ml" 43 1058 1074
+)
+"e_eq.ml" 44 1100 1125 "e_eq.ml" 44 1100 1127
+type(
+  E_t.bounds
+)
+ident(
+  int_ref cs "e_eq.ml" 43 1058 1090 "e_eq.ml" 43 1058 1092
+)
+"e_eq.ml" 44 1100 1115 "e_eq.ml" 44 1100 1127
+type(
+  bool
+)
+"e_eq.ml" 44 1100 1128 "e_eq.ml" 44 1100 1130
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 44 1100 1131 "e_eq.ml" 44 1100 1135
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 44 1100 1136 "e_eq.ml" 44 1100 1137
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 43 1058 1076 "e_eq.ml" 43 1058 1077
+)
+"e_eq.ml" 44 1100 1138 "e_eq.ml" 44 1100 1139
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 43 1058 1094 "e_eq.ml" 43 1058 1095
+)
+"e_eq.ml" 44 1100 1131 "e_eq.ml" 44 1100 1139
+type(
+  bool
+)
+"e_eq.ml" 44 1100 1115 "e_eq.ml" 44 1100 1139
+type(
+  bool
+)
+"e_eq.ml" 44 1100 1106 "e_eq.ml" 44 1100 1139
+type(
+  bool
+)
+"e_eq.ml" 45 1140 1152 "e_eq.ml" 45 1140 1153
+type(
+  E_t.quantifier
+)
+ident(
+  def q "e_eq.ml" 46 1184 1190 "e_eq.ml" 46 1184 1218
+)
+"e_eq.ml" 45 1140 1155 "e_eq.ml" 45 1140 1157
+type(
+  Util.hints
+)
+ident(
+  def us "e_eq.ml" 46 1184 1190 "e_eq.ml" 46 1184 1218
+)
+"e_eq.ml" 45 1140 1159 "e_eq.ml" 45 1140 1160
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 46 1184 1190 "e_eq.ml" 46 1184 1218
+)
+"e_eq.ml" 45 1140 1144 "e_eq.ml" 45 1140 1161
+type(
+  E_t.expr_
+)
+"e_eq.ml" 45 1140 1171 "e_eq.ml" 45 1140 1172
+type(
+  E_t.quantifier
+)
+ident(
+  def r "e_eq.ml" 46 1184 1190 "e_eq.ml" 46 1184 1218
+)
+"e_eq.ml" 45 1140 1174 "e_eq.ml" 45 1140 1176
+type(
+  Util.hints
+)
+ident(
+  def vs "e_eq.ml" 46 1184 1190 "e_eq.ml" 46 1184 1218
+)
+"e_eq.ml" 45 1140 1178 "e_eq.ml" 45 1140 1179
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 46 1184 1190 "e_eq.ml" 46 1184 1218
+)
+"e_eq.ml" 45 1140 1163 "e_eq.ml" 45 1140 1180
+type(
+  E_t.expr_
+)
+"e_eq.ml" 45 1140 1144 "e_eq.ml" 45 1140 1180
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 46 1184 1190 "e_eq.ml" 46 1184 1191
+type(
+  E_t.quantifier
+)
+ident(
+  int_ref q "e_eq.ml" 45 1140 1152 "e_eq.ml" 45 1140 1153
+)
+"e_eq.ml" 46 1184 1192 "e_eq.ml" 46 1184 1193
+type(
+  E_t.quantifier -> E_t.quantifier -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 46 1184 1194 "e_eq.ml" 46 1184 1195
+type(
+  E_t.quantifier
+)
+ident(
+  int_ref r "e_eq.ml" 45 1140 1171 "e_eq.ml" 45 1140 1172
+)
+"e_eq.ml" 46 1184 1190 "e_eq.ml" 46 1184 1195
+type(
+  bool
+)
+"e_eq.ml" 46 1184 1196 "e_eq.ml" 46 1184 1198
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 46 1184 1199 "e_eq.ml" 46 1184 1201
+type(
+  Util.hints
+)
+ident(
+  int_ref us "e_eq.ml" 45 1140 1155 "e_eq.ml" 45 1140 1157
+)
+"e_eq.ml" 46 1184 1202 "e_eq.ml" 46 1184 1203
+type(
+  Util.hints -> Util.hints -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 46 1184 1204 "e_eq.ml" 46 1184 1206
+type(
+  Util.hints
+)
+ident(
+  int_ref vs "e_eq.ml" 45 1140 1174 "e_eq.ml" 45 1140 1176
+)
+"e_eq.ml" 46 1184 1199 "e_eq.ml" 46 1184 1206
+type(
+  bool
+)
+"e_eq.ml" 46 1184 1207 "e_eq.ml" 46 1184 1209
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 46 1184 1210 "e_eq.ml" 46 1184 1214
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 46 1184 1215 "e_eq.ml" 46 1184 1216
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 45 1140 1159 "e_eq.ml" 45 1140 1160
+)
+"e_eq.ml" 46 1184 1217 "e_eq.ml" 46 1184 1218
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 45 1140 1178 "e_eq.ml" 45 1140 1179
+)
+"e_eq.ml" 46 1184 1210 "e_eq.ml" 46 1184 1218
+type(
+  bool
+)
+"e_eq.ml" 46 1184 1199 "e_eq.ml" 46 1184 1218
+type(
+  bool
+)
+"e_eq.ml" 46 1184 1190 "e_eq.ml" 46 1184 1218
+type(
+  bool
+)
+"e_eq.ml" 47 1219 1231 "e_eq.ml" 47 1219 1232
+type(
+  Util.hint
+)
+"e_eq.ml" 47 1219 1239 "e_eq.ml" 47 1219 1243
+type(
+  E_t.expr
+)
+ident(
+  def edom "e_eq.ml" 48 1277 1283 "e_eq.ml" 48 1277 1309
+)
+"e_eq.ml" 47 1219 1234 "e_eq.ml" 47 1219 1243
+type(
+  E_t.expr option
+)
+"e_eq.ml" 47 1219 1245 "e_eq.ml" 47 1219 1246
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 48 1277 1283 "e_eq.ml" 48 1277 1309
+)
+"e_eq.ml" 47 1219 1223 "e_eq.ml" 47 1219 1247
+type(
+  E_t.expr_
+)
+"e_eq.ml" 47 1219 1257 "e_eq.ml" 47 1219 1258
+type(
+  Util.hint
+)
+"e_eq.ml" 47 1219 1265 "e_eq.ml" 47 1219 1269
+type(
+  E_t.expr
+)
+ident(
+  def fdom "e_eq.ml" 48 1277 1283 "e_eq.ml" 48 1277 1309
+)
+"e_eq.ml" 47 1219 1260 "e_eq.ml" 47 1219 1269
+type(
+  E_t.expr option
+)
+"e_eq.ml" 47 1219 1271 "e_eq.ml" 47 1219 1272
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 48 1277 1283 "e_eq.ml" 48 1277 1309
+)
+"e_eq.ml" 47 1219 1249 "e_eq.ml" 47 1219 1273
+type(
+  E_t.expr_
+)
+"e_eq.ml" 47 1219 1223 "e_eq.ml" 47 1219 1273
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 48 1277 1283 "e_eq.ml" 48 1277 1287
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 48 1277 1288 "e_eq.ml" 48 1277 1292
+type(
+  E_t.expr
+)
+ident(
+  int_ref edom "e_eq.ml" 47 1219 1239 "e_eq.ml" 47 1219 1243
+)
+"e_eq.ml" 48 1277 1293 "e_eq.ml" 48 1277 1297
+type(
+  E_t.expr
+)
+ident(
+  int_ref fdom "e_eq.ml" 47 1219 1265 "e_eq.ml" 47 1219 1269
+)
+"e_eq.ml" 48 1277 1283 "e_eq.ml" 48 1277 1297
+type(
+  bool
+)
+"e_eq.ml" 48 1277 1298 "e_eq.ml" 48 1277 1300
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 48 1277 1301 "e_eq.ml" 48 1277 1305
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 48 1277 1306 "e_eq.ml" 48 1277 1307
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 47 1219 1245 "e_eq.ml" 47 1219 1246
+)
+"e_eq.ml" 48 1277 1308 "e_eq.ml" 48 1277 1309
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 47 1219 1271 "e_eq.ml" 47 1219 1272
+)
+"e_eq.ml" 48 1277 1301 "e_eq.ml" 48 1277 1309
+type(
+  bool
+)
+"e_eq.ml" 48 1277 1283 "e_eq.ml" 48 1277 1309
+type(
+  bool
+)
+"e_eq.ml" 49 1310 1322 "e_eq.ml" 49 1310 1323
+type(
+  Util.hint
+)
+"e_eq.ml" 49 1310 1325 "e_eq.ml" 49 1310 1329
+type(
+  E_t.expr option
+)
+"e_eq.ml" 49 1310 1331 "e_eq.ml" 49 1310 1332
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 50 1358 1364 "e_eq.ml" 50 1358 1372
+)
+"e_eq.ml" 49 1310 1314 "e_eq.ml" 49 1310 1333
+type(
+  E_t.expr_
+)
+"e_eq.ml" 49 1310 1343 "e_eq.ml" 49 1310 1344
+type(
+  Util.hint
+)
+"e_eq.ml" 49 1310 1346 "e_eq.ml" 49 1310 1350
+type(
+  E_t.expr option
+)
+"e_eq.ml" 49 1310 1352 "e_eq.ml" 49 1310 1353
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 50 1358 1364 "e_eq.ml" 50 1358 1372
+)
+"e_eq.ml" 49 1310 1335 "e_eq.ml" 49 1310 1354
+type(
+  E_t.expr_
+)
+"e_eq.ml" 49 1310 1314 "e_eq.ml" 49 1310 1354
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 50 1358 1364 "e_eq.ml" 50 1358 1368
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 50 1358 1369 "e_eq.ml" 50 1358 1370
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 49 1310 1331 "e_eq.ml" 49 1310 1332
+)
+"e_eq.ml" 50 1358 1371 "e_eq.ml" 50 1358 1372
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 49 1310 1352 "e_eq.ml" 49 1310 1353
+)
+"e_eq.ml" 50 1358 1364 "e_eq.ml" 50 1358 1372
+type(
+  bool
+)
+"e_eq.ml" 51 1373 1384 "e_eq.ml" 51 1373 1385
+type(
+  Util.hint
+)
+"e_eq.ml" 51 1373 1387 "e_eq.ml" 51 1373 1388
+type(
+  E_t.expr
+)
+ident(
+  def r "e_eq.ml" 52 1413 1419 "e_eq.ml" 52 1413 1439
+)
+"e_eq.ml" 51 1373 1390 "e_eq.ml" 51 1373 1391
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 52 1413 1419 "e_eq.ml" 52 1413 1439
+)
+"e_eq.ml" 51 1373 1377 "e_eq.ml" 51 1373 1392
+type(
+  E_t.expr_
+)
+"e_eq.ml" 51 1373 1401 "e_eq.ml" 51 1373 1402
+type(
+  Util.hint
+)
+"e_eq.ml" 51 1373 1404 "e_eq.ml" 51 1373 1405
+type(
+  E_t.expr
+)
+ident(
+  def s "e_eq.ml" 52 1413 1419 "e_eq.ml" 52 1413 1439
+)
+"e_eq.ml" 51 1373 1407 "e_eq.ml" 51 1373 1408
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 52 1413 1419 "e_eq.ml" 52 1413 1439
+)
+"e_eq.ml" 51 1373 1394 "e_eq.ml" 51 1373 1409
+type(
+  E_t.expr_
+)
+"e_eq.ml" 51 1373 1377 "e_eq.ml" 51 1373 1409
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 52 1413 1419 "e_eq.ml" 52 1413 1423
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 52 1413 1424 "e_eq.ml" 52 1413 1425
+type(
+  E_t.expr
+)
+ident(
+  int_ref r "e_eq.ml" 51 1373 1387 "e_eq.ml" 51 1373 1388
+)
+"e_eq.ml" 52 1413 1426 "e_eq.ml" 52 1413 1427
+type(
+  E_t.expr
+)
+ident(
+  int_ref s "e_eq.ml" 51 1373 1404 "e_eq.ml" 51 1373 1405
+)
+"e_eq.ml" 52 1413 1419 "e_eq.ml" 52 1413 1427
+type(
+  bool
+)
+"e_eq.ml" 52 1413 1428 "e_eq.ml" 52 1413 1430
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 52 1413 1431 "e_eq.ml" 52 1413 1435
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 52 1413 1436 "e_eq.ml" 52 1413 1437
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 51 1373 1390 "e_eq.ml" 51 1373 1391
+)
+"e_eq.ml" 52 1413 1438 "e_eq.ml" 52 1413 1439
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 51 1373 1407 "e_eq.ml" 51 1373 1408
+)
+"e_eq.ml" 52 1413 1431 "e_eq.ml" 52 1413 1439
+type(
+  bool
+)
+"e_eq.ml" 52 1413 1419 "e_eq.ml" 52 1413 1439
+type(
+  bool
+)
+"e_eq.ml" 53 1440 1451 "e_eq.ml" 53 1440 1452
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 54 1476 1482 "e_eq.ml" 54 1476 1506
+)
+"e_eq.ml" 53 1440 1454 "e_eq.ml" 53 1440 1456
+type(
+  E_t.bounds
+)
+ident(
+  def bs "e_eq.ml" 54 1476 1482 "e_eq.ml" 54 1476 1506
+)
+"e_eq.ml" 53 1440 1444 "e_eq.ml" 53 1440 1457
+type(
+  E_t.expr_
+)
+"e_eq.ml" 53 1440 1466 "e_eq.ml" 53 1440 1467
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 54 1476 1482 "e_eq.ml" 54 1476 1506
+)
+"e_eq.ml" 53 1440 1469 "e_eq.ml" 53 1440 1471
+type(
+  E_t.bounds
+)
+ident(
+  def cs "e_eq.ml" 54 1476 1482 "e_eq.ml" 54 1476 1506
+)
+"e_eq.ml" 53 1440 1459 "e_eq.ml" 53 1440 1472
+type(
+  E_t.expr_
+)
+"e_eq.ml" 53 1440 1444 "e_eq.ml" 53 1440 1472
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 54 1476 1482 "e_eq.ml" 54 1476 1486
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 54 1476 1487 "e_eq.ml" 54 1476 1488
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 53 1440 1451 "e_eq.ml" 53 1440 1452
+)
+"e_eq.ml" 54 1476 1489 "e_eq.ml" 54 1476 1490
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 53 1440 1466 "e_eq.ml" 53 1440 1467
+)
+"e_eq.ml" 54 1476 1482 "e_eq.ml" 54 1476 1490
+type(
+  bool
+)
+"e_eq.ml" 54 1476 1491 "e_eq.ml" 54 1476 1493
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 54 1476 1494 "e_eq.ml" 54 1476 1500
+type(
+  E_t.bounds -> E_t.bounds -> bool
+)
+ident(
+  int_ref bounds "e_eq.ml" 121 3423 3427 "e_eq.ml" 121 3423 3433
+)
+"e_eq.ml" 54 1476 1501 "e_eq.ml" 54 1476 1503
+type(
+  E_t.bounds
+)
+ident(
+  int_ref bs "e_eq.ml" 53 1440 1454 "e_eq.ml" 53 1440 1456
+)
+"e_eq.ml" 54 1476 1504 "e_eq.ml" 54 1476 1506
+type(
+  E_t.bounds
+)
+ident(
+  int_ref cs "e_eq.ml" 53 1440 1469 "e_eq.ml" 53 1440 1471
+)
+"e_eq.ml" 54 1476 1494 "e_eq.ml" 54 1476 1506
+type(
+  bool
+)
+"e_eq.ml" 54 1476 1482 "e_eq.ml" 54 1476 1506
+type(
+  bool
+)
+"e_eq.ml" 55 1507 1519 "e_eq.ml" 55 1507 1521
+type(
+  E_t.expr list
+)
+ident(
+  def es "e_eq.ml" 56 1537 1543 "e_eq.ml" 56 1537 1554
+)
+"e_eq.ml" 55 1507 1511 "e_eq.ml" 55 1507 1521
+type(
+  E_t.expr_
+)
+"e_eq.ml" 55 1507 1531 "e_eq.ml" 55 1507 1533
+type(
+  E_t.expr list
+)
+ident(
+  def fs "e_eq.ml" 56 1537 1543 "e_eq.ml" 56 1537 1554
+)
+"e_eq.ml" 55 1507 1523 "e_eq.ml" 55 1507 1533
+type(
+  E_t.expr_
+)
+"e_eq.ml" 55 1507 1511 "e_eq.ml" 55 1507 1533
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 56 1537 1543 "e_eq.ml" 56 1537 1548
+type(
+  E_t.expr list -> E_t.expr list -> bool
+)
+ident(
+  int_ref exprs "e_eq.ml" 115 3298 3302 "e_eq.ml" 115 3298 3307
+)
+"e_eq.ml" 56 1537 1549 "e_eq.ml" 56 1537 1551
+type(
+  E_t.expr list
+)
+ident(
+  int_ref es "e_eq.ml" 55 1507 1519 "e_eq.ml" 55 1507 1521
+)
+"e_eq.ml" 56 1537 1552 "e_eq.ml" 56 1537 1554
+type(
+  E_t.expr list
+)
+ident(
+  int_ref fs "e_eq.ml" 55 1507 1531 "e_eq.ml" 55 1507 1533
+)
+"e_eq.ml" 56 1537 1543 "e_eq.ml" 56 1537 1554
+type(
+  bool
+)
+"e_eq.ml" 57 1555 1566 "e_eq.ml" 57 1555 1567
+type(
+  E_t.expr
+)
+ident(
+  def a "e_eq.ml" 58 1589 1595 "e_eq.ml" 58 1589 1615
+)
+"e_eq.ml" 57 1555 1569 "e_eq.ml" 57 1555 1570
+type(
+  E_t.expr
+)
+ident(
+  def b "e_eq.ml" 58 1589 1595 "e_eq.ml" 58 1589 1615
+)
+"e_eq.ml" 57 1555 1559 "e_eq.ml" 57 1555 1571
+type(
+  E_t.expr_
+)
+"e_eq.ml" 57 1555 1580 "e_eq.ml" 57 1555 1581
+type(
+  E_t.expr
+)
+ident(
+  def c "e_eq.ml" 58 1589 1595 "e_eq.ml" 58 1589 1615
+)
+"e_eq.ml" 57 1555 1583 "e_eq.ml" 57 1555 1584
+type(
+  E_t.expr
+)
+ident(
+  def d "e_eq.ml" 58 1589 1595 "e_eq.ml" 58 1589 1615
+)
+"e_eq.ml" 57 1555 1573 "e_eq.ml" 57 1555 1585
+type(
+  E_t.expr_
+)
+"e_eq.ml" 57 1555 1559 "e_eq.ml" 57 1555 1585
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 58 1589 1595 "e_eq.ml" 58 1589 1599
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 58 1589 1600 "e_eq.ml" 58 1589 1601
+type(
+  E_t.expr
+)
+ident(
+  int_ref a "e_eq.ml" 57 1555 1566 "e_eq.ml" 57 1555 1567
+)
+"e_eq.ml" 58 1589 1602 "e_eq.ml" 58 1589 1603
+type(
+  E_t.expr
+)
+ident(
+  int_ref c "e_eq.ml" 57 1555 1580 "e_eq.ml" 57 1555 1581
+)
+"e_eq.ml" 58 1589 1595 "e_eq.ml" 58 1589 1603
+type(
+  bool
+)
+"e_eq.ml" 58 1589 1604 "e_eq.ml" 58 1589 1606
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 58 1589 1607 "e_eq.ml" 58 1589 1611
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 58 1589 1612 "e_eq.ml" 58 1589 1613
+type(
+  E_t.expr
+)
+ident(
+  int_ref b "e_eq.ml" 57 1555 1569 "e_eq.ml" 57 1555 1570
+)
+"e_eq.ml" 58 1589 1614 "e_eq.ml" 58 1589 1615
+type(
+  E_t.expr
+)
+ident(
+  int_ref d "e_eq.ml" 57 1555 1583 "e_eq.ml" 57 1555 1584
+)
+"e_eq.ml" 58 1589 1607 "e_eq.ml" 58 1589 1615
+type(
+  bool
+)
+"e_eq.ml" 58 1589 1595 "e_eq.ml" 58 1589 1615
+type(
+  bool
+)
+"e_eq.ml" 59 1616 1625 "e_eq.ml" 59 1616 1627
+type(
+  E_t.bounds
+)
+ident(
+  def bs "e_eq.ml" 60 1648 1654 "e_eq.ml" 60 1648 1678
+)
+"e_eq.ml" 59 1616 1629 "e_eq.ml" 59 1616 1630
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 60 1648 1654 "e_eq.ml" 60 1648 1678
+)
+"e_eq.ml" 59 1616 1620 "e_eq.ml" 59 1616 1631
+type(
+  E_t.expr_
+)
+"e_eq.ml" 59 1616 1638 "e_eq.ml" 59 1616 1640
+type(
+  E_t.bounds
+)
+ident(
+  def cs "e_eq.ml" 60 1648 1654 "e_eq.ml" 60 1648 1678
+)
+"e_eq.ml" 59 1616 1642 "e_eq.ml" 59 1616 1643
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 60 1648 1654 "e_eq.ml" 60 1648 1678
+)
+"e_eq.ml" 59 1616 1633 "e_eq.ml" 59 1616 1644
+type(
+  E_t.expr_
+)
+"e_eq.ml" 59 1616 1620 "e_eq.ml" 59 1616 1644
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 60 1648 1654 "e_eq.ml" 60 1648 1660
+type(
+  E_t.bounds -> E_t.bounds -> bool
+)
+ident(
+  int_ref bounds "e_eq.ml" 121 3423 3427 "e_eq.ml" 121 3423 3433
+)
+"e_eq.ml" 60 1648 1661 "e_eq.ml" 60 1648 1663
+type(
+  E_t.bounds
+)
+ident(
+  int_ref bs "e_eq.ml" 59 1616 1625 "e_eq.ml" 59 1616 1627
+)
+"e_eq.ml" 60 1648 1664 "e_eq.ml" 60 1648 1666
+type(
+  E_t.bounds
+)
+ident(
+  int_ref cs "e_eq.ml" 59 1616 1638 "e_eq.ml" 59 1616 1640
+)
+"e_eq.ml" 60 1648 1654 "e_eq.ml" 60 1648 1666
+type(
+  bool
+)
+"e_eq.ml" 60 1648 1667 "e_eq.ml" 60 1648 1669
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 60 1648 1670 "e_eq.ml" 60 1648 1674
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 60 1648 1675 "e_eq.ml" 60 1648 1676
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 59 1616 1629 "e_eq.ml" 59 1616 1630
+)
+"e_eq.ml" 60 1648 1677 "e_eq.ml" 60 1648 1678
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 59 1616 1642 "e_eq.ml" 59 1616 1643
+)
+"e_eq.ml" 60 1648 1670 "e_eq.ml" 60 1648 1678
+type(
+  bool
+)
+"e_eq.ml" 60 1648 1654 "e_eq.ml" 60 1648 1678
+type(
+  bool
+)
+"e_eq.ml" 61 1679 1691 "e_eq.ml" 61 1679 1692
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 62 1717 1723 "e_eq.ml" 62 1717 1748
+)
+"e_eq.ml" 61 1679 1694 "e_eq.ml" 61 1679 1696
+type(
+  E_t.expr list
+)
+ident(
+  def es "e_eq.ml" 62 1717 1723 "e_eq.ml" 62 1717 1748
+)
+"e_eq.ml" 61 1679 1683 "e_eq.ml" 61 1679 1697
+type(
+  E_t.expr_
+)
+"e_eq.ml" 61 1679 1707 "e_eq.ml" 61 1679 1708
+type(
+  E_t.expr
+)
+ident(
+  def g "e_eq.ml" 62 1717 1723 "e_eq.ml" 62 1717 1748
+)
+"e_eq.ml" 61 1679 1710 "e_eq.ml" 61 1679 1712
+type(
+  E_t.expr list
+)
+ident(
+  def fs "e_eq.ml" 62 1717 1723 "e_eq.ml" 62 1717 1748
+)
+"e_eq.ml" 61 1679 1699 "e_eq.ml" 61 1679 1713
+type(
+  E_t.expr_
+)
+"e_eq.ml" 61 1679 1683 "e_eq.ml" 61 1679 1713
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 62 1717 1723 "e_eq.ml" 62 1717 1728
+type(
+  E_t.expr list -> E_t.expr list -> bool
+)
+ident(
+  int_ref exprs "e_eq.ml" 115 3298 3302 "e_eq.ml" 115 3298 3307
+)
+"e_eq.ml" 62 1717 1730 "e_eq.ml" 62 1717 1731
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 61 1679 1691 "e_eq.ml" 61 1679 1692
+)
+"e_eq.ml" 62 1717 1735 "e_eq.ml" 62 1717 1737
+type(
+  E_t.expr list
+)
+ident(
+  int_ref es "e_eq.ml" 61 1679 1694 "e_eq.ml" 61 1679 1696
+)
+"e_eq.ml" 62 1717 1729 "e_eq.ml" 62 1717 1738
+type(
+  E_t.expr list
+)
+"e_eq.ml" 62 1717 1740 "e_eq.ml" 62 1717 1741
+type(
+  E_t.expr
+)
+ident(
+  int_ref g "e_eq.ml" 61 1679 1707 "e_eq.ml" 61 1679 1708
+)
+"e_eq.ml" 62 1717 1745 "e_eq.ml" 62 1717 1747
+type(
+  E_t.expr list
+)
+ident(
+  int_ref fs "e_eq.ml" 61 1679 1710 "e_eq.ml" 61 1679 1712
+)
+"e_eq.ml" 62 1717 1739 "e_eq.ml" 62 1717 1748
+type(
+  E_t.expr list
+)
+"e_eq.ml" 62 1717 1723 "e_eq.ml" 62 1717 1748
+type(
+  bool
+)
+"e_eq.ml" 63 1749 1759 "e_eq.ml" 63 1749 1761
+type(
+  E_t.expr list
+)
+ident(
+  def es "e_eq.ml" 64 1775 1781 "e_eq.ml" 64 1775 1792
+)
+"e_eq.ml" 63 1749 1753 "e_eq.ml" 63 1749 1761
+type(
+  E_t.expr_
+)
+"e_eq.ml" 63 1749 1769 "e_eq.ml" 63 1749 1771
+type(
+  E_t.expr list
+)
+ident(
+  def fs "e_eq.ml" 64 1775 1781 "e_eq.ml" 64 1775 1792
+)
+"e_eq.ml" 63 1749 1763 "e_eq.ml" 63 1749 1771
+type(
+  E_t.expr_
+)
+"e_eq.ml" 63 1749 1753 "e_eq.ml" 63 1749 1771
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 64 1775 1781 "e_eq.ml" 64 1775 1786
+type(
+  E_t.expr list -> E_t.expr list -> bool
+)
+ident(
+  int_ref exprs "e_eq.ml" 115 3298 3302 "e_eq.ml" 115 3298 3307
+)
+"e_eq.ml" 64 1775 1787 "e_eq.ml" 64 1775 1789
+type(
+  E_t.expr list
+)
+ident(
+  int_ref es "e_eq.ml" 63 1749 1759 "e_eq.ml" 63 1749 1761
+)
+"e_eq.ml" 64 1775 1790 "e_eq.ml" 64 1775 1792
+type(
+  E_t.expr list
+)
+ident(
+  int_ref fs "e_eq.ml" 63 1749 1769 "e_eq.ml" 63 1749 1771
+)
+"e_eq.ml" 64 1775 1781 "e_eq.ml" 64 1775 1792
+type(
+  bool
+)
+"e_eq.ml" 65 1793 1805 "e_eq.ml" 65 1793 1807
+type(
+  E_t.expr list
+)
+ident(
+  def es "e_eq.ml" 66 1823 1829 "e_eq.ml" 66 1823 1840
+)
+"e_eq.ml" 65 1793 1797 "e_eq.ml" 65 1793 1807
+type(
+  E_t.expr_
+)
+"e_eq.ml" 65 1793 1817 "e_eq.ml" 65 1793 1819
+type(
+  E_t.expr list
+)
+ident(
+  def fs "e_eq.ml" 66 1823 1829 "e_eq.ml" 66 1823 1840
+)
+"e_eq.ml" 65 1793 1809 "e_eq.ml" 65 1793 1819
+type(
+  E_t.expr_
+)
+"e_eq.ml" 65 1793 1797 "e_eq.ml" 65 1793 1819
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 66 1823 1829 "e_eq.ml" 66 1823 1834
+type(
+  E_t.expr list -> E_t.expr list -> bool
+)
+ident(
+  int_ref exprs "e_eq.ml" 115 3298 3302 "e_eq.ml" 115 3298 3307
+)
+"e_eq.ml" 66 1823 1835 "e_eq.ml" 66 1823 1837
+type(
+  E_t.expr list
+)
+ident(
+  int_ref es "e_eq.ml" 65 1793 1805 "e_eq.ml" 65 1793 1807
+)
+"e_eq.ml" 66 1823 1838 "e_eq.ml" 66 1823 1840
+type(
+  E_t.expr list
+)
+ident(
+  int_ref fs "e_eq.ml" 65 1793 1817 "e_eq.ml" 65 1793 1819
+)
+"e_eq.ml" 66 1823 1829 "e_eq.ml" 66 1823 1840
+type(
+  bool
+)
+"e_eq.ml" 67 1841 1850 "e_eq.ml" 67 1841 1852
+type(
+  (string * E_t.expr) list
+)
+ident(
+  def fs "e_eq.ml" 68 1865 1871 "e_eq.ml" 70 1925 1955
+)
+"e_eq.ml" 67 1841 1845 "e_eq.ml" 67 1841 1852
+type(
+  E_t.expr_
+)
+"e_eq.ml" 67 1841 1859 "e_eq.ml" 67 1841 1861
+type(
+  (string * E_t.expr) list
+)
+ident(
+  def gs "e_eq.ml" 68 1865 1871 "e_eq.ml" 70 1925 1955
+)
+"e_eq.ml" 67 1841 1854 "e_eq.ml" 67 1841 1861
+type(
+  E_t.expr_
+)
+"e_eq.ml" 67 1841 1845 "e_eq.ml" 67 1841 1861
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 68 1865 1875 "e_eq.ml" 68 1865 1879
+type(
+  E_t.expr M.t
+)
+ident(
+  def fmap "e_eq.ml" 69 1895 1901 "e_eq.ml" 70 1925 1955
+)
+"e_eq.ml" 68 1865 1882 "e_eq.ml" 68 1865 1888
+type(
+  (M.key * E_t.expr) list -> E_t.expr M.t
+)
+ident(
+  int_ref digest "e_eq.ml" 12 154 158 "e_eq.ml" 12 154 164
+)
+"e_eq.ml" 68 1865 1889 "e_eq.ml" 68 1865 1891
+type(
+  (M.key * E_t.expr) list
+)
+ident(
+  int_ref fs "e_eq.ml" 67 1841 1850 "e_eq.ml" 67 1841 1852
+)
+"e_eq.ml" 68 1865 1882 "e_eq.ml" 68 1865 1891
+type(
+  E_t.expr M.t
+)
+"e_eq.ml" 69 1895 1905 "e_eq.ml" 69 1895 1909
+type(
+  E_t.expr M.t
+)
+ident(
+  def gmap "e_eq.ml" 70 1925 1933 "e_eq.ml" 70 1925 1955
+)
+"e_eq.ml" 69 1895 1912 "e_eq.ml" 69 1895 1918
+type(
+  (M.key * E_t.expr) list -> E_t.expr M.t
+)
+ident(
+  int_ref digest "e_eq.ml" 12 154 158 "e_eq.ml" 12 154 164
+)
+"e_eq.ml" 69 1895 1919 "e_eq.ml" 69 1895 1921
+type(
+  (M.key * E_t.expr) list
+)
+ident(
+  int_ref gs "e_eq.ml" 67 1841 1859 "e_eq.ml" 67 1841 1861
+)
+"e_eq.ml" 69 1895 1912 "e_eq.ml" 69 1895 1921
+type(
+  E_t.expr M.t
+)
+"e_eq.ml" 70 1925 1933 "e_eq.ml" 70 1925 1940
+type(
+  (E_t.expr -> E_t.expr -> bool) -> E_t.expr M.t -> E_t.expr M.t -> bool
+)
+ident(
+  int_ref M.equal "map.mli" 148 6232 6236 "map.mli" 148 6232 6289
+)
+"e_eq.ml" 70 1925 1941 "e_eq.ml" 70 1925 1945
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 70 1925 1946 "e_eq.ml" 70 1925 1950
+type(
+  E_t.expr M.t
+)
+ident(
+  int_ref fmap "e_eq.ml" 68 1865 1875 "e_eq.ml" 68 1865 1879
+)
+"e_eq.ml" 70 1925 1951 "e_eq.ml" 70 1925 1955
+type(
+  E_t.expr M.t
+)
+ident(
+  int_ref gmap "e_eq.ml" 69 1895 1905 "e_eq.ml" 69 1895 1909
+)
+"e_eq.ml" 70 1925 1933 "e_eq.ml" 70 1925 1955
+type(
+  bool
+)
+"e_eq.ml" 69 1895 1901 "e_eq.ml" 70 1925 1955
+type(
+  bool
+)
+"e_eq.ml" 68 1865 1871 "e_eq.ml" 70 1925 1955
+type(
+  bool
+)
+"e_eq.ml" 71 1956 1967 "e_eq.ml" 71 1956 1969
+type(
+  (string * E_t.expr) list
+)
+ident(
+  def fs "e_eq.ml" 72 1984 1990 "e_eq.ml" 74 2044 2074
+)
+"e_eq.ml" 71 1956 1960 "e_eq.ml" 71 1956 1969
+type(
+  E_t.expr_
+)
+"e_eq.ml" 71 1956 1978 "e_eq.ml" 71 1956 1980
+type(
+  (string * E_t.expr) list
+)
+ident(
+  def gs "e_eq.ml" 72 1984 1990 "e_eq.ml" 74 2044 2074
+)
+"e_eq.ml" 71 1956 1971 "e_eq.ml" 71 1956 1980
+type(
+  E_t.expr_
+)
+"e_eq.ml" 71 1956 1960 "e_eq.ml" 71 1956 1980
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 72 1984 1994 "e_eq.ml" 72 1984 1998
+type(
+  E_t.expr M.t
+)
+ident(
+  def fmap "e_eq.ml" 73 2014 2020 "e_eq.ml" 74 2044 2074
+)
+"e_eq.ml" 72 1984 2001 "e_eq.ml" 72 1984 2007
+type(
+  (M.key * E_t.expr) list -> E_t.expr M.t
+)
+ident(
+  int_ref digest "e_eq.ml" 12 154 158 "e_eq.ml" 12 154 164
+)
+"e_eq.ml" 72 1984 2008 "e_eq.ml" 72 1984 2010
+type(
+  (M.key * E_t.expr) list
+)
+ident(
+  int_ref fs "e_eq.ml" 71 1956 1967 "e_eq.ml" 71 1956 1969
+)
+"e_eq.ml" 72 1984 2001 "e_eq.ml" 72 1984 2010
+type(
+  E_t.expr M.t
+)
+"e_eq.ml" 73 2014 2024 "e_eq.ml" 73 2014 2028
+type(
+  E_t.expr M.t
+)
+ident(
+  def gmap "e_eq.ml" 74 2044 2052 "e_eq.ml" 74 2044 2074
+)
+"e_eq.ml" 73 2014 2031 "e_eq.ml" 73 2014 2037
+type(
+  (M.key * E_t.expr) list -> E_t.expr M.t
+)
+ident(
+  int_ref digest "e_eq.ml" 12 154 158 "e_eq.ml" 12 154 164
+)
+"e_eq.ml" 73 2014 2038 "e_eq.ml" 73 2014 2040
+type(
+  (M.key * E_t.expr) list
+)
+ident(
+  int_ref gs "e_eq.ml" 71 1956 1978 "e_eq.ml" 71 1956 1980
+)
+"e_eq.ml" 73 2014 2031 "e_eq.ml" 73 2014 2040
+type(
+  E_t.expr M.t
+)
+"e_eq.ml" 74 2044 2052 "e_eq.ml" 74 2044 2059
+type(
+  (E_t.expr -> E_t.expr -> bool) -> E_t.expr M.t -> E_t.expr M.t -> bool
+)
+ident(
+  int_ref M.equal "map.mli" 148 6232 6236 "map.mli" 148 6232 6289
+)
+"e_eq.ml" 74 2044 2060 "e_eq.ml" 74 2044 2064
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 74 2044 2065 "e_eq.ml" 74 2044 2069
+type(
+  E_t.expr M.t
+)
+ident(
+  int_ref fmap "e_eq.ml" 72 1984 1994 "e_eq.ml" 72 1984 1998
+)
+"e_eq.ml" 74 2044 2070 "e_eq.ml" 74 2044 2074
+type(
+  E_t.expr M.t
+)
+ident(
+  int_ref gmap "e_eq.ml" 73 2014 2024 "e_eq.ml" 73 2014 2028
+)
+"e_eq.ml" 74 2044 2052 "e_eq.ml" 74 2044 2074
+type(
+  bool
+)
+"e_eq.ml" 73 2014 2020 "e_eq.ml" 74 2044 2074
+type(
+  bool
+)
+"e_eq.ml" 72 1984 1990 "e_eq.ml" 74 2044 2074
+type(
+  bool
+)
+"e_eq.ml" 75 2075 2087 "e_eq.ml" 75 2075 2088
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 76 2113 2119 "e_eq.ml" 91 2618 2651
+)
+"e_eq.ml" 75 2075 2090 "e_eq.ml" 75 2075 2092
+type(
+  E_t.exspec list
+)
+ident(
+  def xs "e_eq.ml" 76 2113 2119 "e_eq.ml" 91 2618 2651
+)
+"e_eq.ml" 75 2075 2079 "e_eq.ml" 75 2075 2093
+type(
+  E_t.expr_
+)
+"e_eq.ml" 75 2075 2103 "e_eq.ml" 75 2075 2104
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 76 2113 2119 "e_eq.ml" 91 2618 2651
+)
+"e_eq.ml" 75 2075 2106 "e_eq.ml" 75 2075 2108
+type(
+  E_t.exspec list
+)
+ident(
+  def ys "e_eq.ml" 76 2113 2119 "e_eq.ml" 91 2618 2651
+)
+"e_eq.ml" 75 2075 2095 "e_eq.ml" 75 2075 2109
+type(
+  E_t.expr_
+)
+"e_eq.ml" 75 2075 2079 "e_eq.ml" 75 2075 2109
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 76 2113 2127 "e_eq.ml" 76 2113 2134
+type(
+  (E_t.expoint list * E_t.expr) list ->
+  (E_t.expoint list * E_t.expr) list -> bool
+)
+ident(
+  def exspecs "e_eq.ml" 76 2113 2119 "e_eq.ml" 91 2618 2651
+)
+"e_eq.ml" 76 2113 2135 "e_eq.ml" 76 2113 2137
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+ident(
+  def xs "e_eq.ml" 76 2113 2138 "e_eq.ml" 80 2256 2276
+)
+"e_eq.ml" 76 2113 2138 "e_eq.ml" 76 2113 2140
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+ident(
+  def ys "e_eq.ml" 76 2113 2143 "e_eq.ml" 80 2256 2276
+)
+"e_eq.ml" 76 2113 2149 "e_eq.ml" 76 2113 2151
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+ident(
+  int_ref xs "e_eq.ml" 76 2113 2135 "e_eq.ml" 76 2113 2137
+)
+"e_eq.ml" 76 2113 2153 "e_eq.ml" 76 2113 2155
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+ident(
+  int_ref ys "e_eq.ml" 76 2113 2138 "e_eq.ml" 76 2113 2140
+)
+"e_eq.ml" 76 2113 2149 "e_eq.ml" 76 2113 2155
+type(
+  (E_t.expoint list * E_t.expr) list * (E_t.expoint list * E_t.expr) list
+)
+"e_eq.ml" 77 2161 2171 "e_eq.ml" 77 2161 2173
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+"e_eq.ml" 77 2161 2175 "e_eq.ml" 77 2161 2177
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+"e_eq.ml" 77 2161 2171 "e_eq.ml" 77 2161 2177
+type(
+  (E_t.expoint list * E_t.expr) list * (E_t.expoint list * E_t.expr) list
+)
+type(
+  (E_t.expoint list * E_t.expr) list * (E_t.expoint list * E_t.expr) list
+)
+"e_eq.ml" 77 2161 2181 "e_eq.ml" 77 2161 2185
+type(
+  bool
+)
+"e_eq.ml" 78 2186 2196 "e_eq.ml" 78 2186 2197
+type(
+  E_t.expoint list * E_t.expr
+)
+ident(
+  def x "e_eq.ml" 79 2216 2228 "e_eq.ml" 79 2216 2255
+)
+"e_eq.ml" 78 2186 2201 "e_eq.ml" 78 2186 2203
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+ident(
+  def xs "e_eq.ml" 79 2216 2228 "e_eq.ml" 79 2216 2255
+)
+"e_eq.ml" 78 2186 2196 "e_eq.ml" 78 2186 2203
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+"e_eq.ml" 78 2186 2205 "e_eq.ml" 78 2186 2206
+type(
+  E_t.expoint list * E_t.expr
+)
+ident(
+  def y "e_eq.ml" 79 2216 2228 "e_eq.ml" 79 2216 2255
+)
+"e_eq.ml" 78 2186 2210 "e_eq.ml" 78 2186 2212
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+ident(
+  def ys "e_eq.ml" 79 2216 2228 "e_eq.ml" 79 2216 2255
+)
+"e_eq.ml" 78 2186 2205 "e_eq.ml" 78 2186 2212
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+"e_eq.ml" 78 2186 2196 "e_eq.ml" 78 2186 2212
+type(
+  (E_t.expoint list * E_t.expr) list * (E_t.expoint list * E_t.expr) list
+)
+type(
+  (E_t.expoint list * E_t.expr) list * (E_t.expoint list * E_t.expr) list
+)
+"e_eq.ml" 79 2216 2228 "e_eq.ml" 79 2216 2234
+type(
+  E_t.expoint list * E_t.expr -> E_t.expoint list * E_t.expr -> bool
+)
+ident(
+  int_ref exspec "e_eq.ml" 81 2277 2287 "e_eq.ml" 81 2277 2293
+)
+"e_eq.ml" 79 2216 2235 "e_eq.ml" 79 2216 2236
+type(
+  E_t.expoint list * E_t.expr
+)
+ident(
+  int_ref x "e_eq.ml" 78 2186 2196 "e_eq.ml" 78 2186 2197
+)
+"e_eq.ml" 79 2216 2237 "e_eq.ml" 79 2216 2238
+type(
+  E_t.expoint list * E_t.expr
+)
+ident(
+  int_ref y "e_eq.ml" 78 2186 2205 "e_eq.ml" 78 2186 2206
+)
+"e_eq.ml" 79 2216 2228 "e_eq.ml" 79 2216 2238
+type(
+  bool
+)
+"e_eq.ml" 79 2216 2239 "e_eq.ml" 79 2216 2241
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 79 2216 2242 "e_eq.ml" 79 2216 2249
+type(
+  (E_t.expoint list * E_t.expr) list ->
+  (E_t.expoint list * E_t.expr) list -> bool
+)
+ident(
+  int_ref exspecs "e_eq.ml" 76 2113 2127 "e_eq.ml" 76 2113 2134
+)
+"e_eq.ml" 79 2216 2250 "e_eq.ml" 79 2216 2252
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+ident(
+  int_ref xs "e_eq.ml" 78 2186 2201 "e_eq.ml" 78 2186 2203
+)
+"e_eq.ml" 79 2216 2253 "e_eq.ml" 79 2216 2255
+type(
+  (E_t.expoint list * E_t.expr) list
+)
+ident(
+  int_ref ys "e_eq.ml" 78 2186 2210 "e_eq.ml" 78 2186 2212
+)
+"e_eq.ml" 79 2216 2242 "e_eq.ml" 79 2216 2255
+type(
+  bool
+)
+"e_eq.ml" 79 2216 2228 "e_eq.ml" 79 2216 2255
+type(
+  bool
+)
+"e_eq.ml" 80 2256 2266 "e_eq.ml" 80 2256 2267
+type(
+  (E_t.expoint list * E_t.expr) list * (E_t.expoint list * E_t.expr) list
+)
+type(
+  (E_t.expoint list * E_t.expr) list * (E_t.expoint list * E_t.expr) list
+)
+"e_eq.ml" 80 2256 2271 "e_eq.ml" 80 2256 2276
+type(
+  bool
+)
+"e_eq.ml" 76 2113 2143 "e_eq.ml" 80 2256 2276
+type(
+  bool
+)
+"e_eq.ml" 81 2277 2287 "e_eq.ml" 81 2277 2293
+type(
+  E_t.expoint list * E_t.expr -> E_t.expoint list * E_t.expr -> bool
+)
+ident(
+  def exspec "e_eq.ml" 76 2113 2119 "e_eq.ml" 91 2618 2651
+)
+"e_eq.ml" 81 2277 2295 "e_eq.ml" 81 2277 2297
+type(
+  E_t.expoint list
+)
+ident(
+  def tr "e_eq.ml" 81 2277 2302 "e_eq.ml" 82 2312 2343
+)
+"e_eq.ml" 81 2277 2299 "e_eq.ml" 81 2277 2300
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 81 2277 2302 "e_eq.ml" 82 2312 2343
+)
+"e_eq.ml" 81 2277 2294 "e_eq.ml" 81 2277 2301
+type(
+  E_t.expoint list * E_t.expr
+)
+"e_eq.ml" 81 2277 2303 "e_eq.ml" 81 2277 2305
+type(
+  E_t.expoint list
+)
+ident(
+  def ur "e_eq.ml" 82 2312 2320 "e_eq.ml" 82 2312 2343
+)
+"e_eq.ml" 81 2277 2307 "e_eq.ml" 81 2277 2308
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 82 2312 2320 "e_eq.ml" 82 2312 2343
+)
+"e_eq.ml" 81 2277 2302 "e_eq.ml" 81 2277 2309
+type(
+  E_t.expoint list * E_t.expr
+)
+"e_eq.ml" 82 2312 2320 "e_eq.ml" 82 2312 2325
+type(
+  E_t.expoint list -> E_t.expoint list -> bool
+)
+ident(
+  int_ref trail "e_eq.ml" 83 2344 2354 "e_eq.ml" 83 2344 2359
+)
+"e_eq.ml" 82 2312 2326 "e_eq.ml" 82 2312 2328
+type(
+  E_t.expoint list
+)
+ident(
+  int_ref tr "e_eq.ml" 81 2277 2295 "e_eq.ml" 81 2277 2297
+)
+"e_eq.ml" 82 2312 2329 "e_eq.ml" 82 2312 2331
+type(
+  E_t.expoint list
+)
+ident(
+  int_ref ur "e_eq.ml" 81 2277 2303 "e_eq.ml" 81 2277 2305
+)
+"e_eq.ml" 82 2312 2320 "e_eq.ml" 82 2312 2331
+type(
+  bool
+)
+"e_eq.ml" 82 2312 2332 "e_eq.ml" 82 2312 2334
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 82 2312 2335 "e_eq.ml" 82 2312 2339
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 82 2312 2340 "e_eq.ml" 82 2312 2341
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 81 2277 2299 "e_eq.ml" 81 2277 2300
+)
+"e_eq.ml" 82 2312 2342 "e_eq.ml" 82 2312 2343
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 81 2277 2307 "e_eq.ml" 81 2277 2308
+)
+"e_eq.ml" 82 2312 2335 "e_eq.ml" 82 2312 2343
+type(
+  bool
+)
+"e_eq.ml" 82 2312 2320 "e_eq.ml" 82 2312 2343
+type(
+  bool
+)
+"e_eq.ml" 83 2344 2354 "e_eq.ml" 83 2344 2359
+type(
+  E_t.expoint list -> E_t.expoint list -> bool
+)
+ident(
+  def trail "e_eq.ml" 76 2113 2119 "e_eq.ml" 91 2618 2651
+)
+"e_eq.ml" 83 2344 2360 "e_eq.ml" 83 2344 2362
+type(
+  E_t.expoint list
+)
+ident(
+  def tr "e_eq.ml" 83 2344 2363 "e_eq.ml" 89 2588 2608
+)
+"e_eq.ml" 83 2344 2363 "e_eq.ml" 83 2344 2365
+type(
+  E_t.expoint list
+)
+ident(
+  def ur "e_eq.ml" 83 2344 2368 "e_eq.ml" 89 2588 2608
+)
+"e_eq.ml" 83 2344 2374 "e_eq.ml" 83 2344 2376
+type(
+  E_t.expoint list
+)
+ident(
+  int_ref tr "e_eq.ml" 83 2344 2360 "e_eq.ml" 83 2344 2362
+)
+"e_eq.ml" 83 2344 2378 "e_eq.ml" 83 2344 2380
+type(
+  E_t.expoint list
+)
+ident(
+  int_ref ur "e_eq.ml" 83 2344 2363 "e_eq.ml" 83 2344 2365
+)
+"e_eq.ml" 83 2344 2374 "e_eq.ml" 83 2344 2380
+type(
+  E_t.expoint list * E_t.expoint list
+)
+"e_eq.ml" 84 2386 2396 "e_eq.ml" 84 2386 2398
+type(
+  E_t.expoint list
+)
+"e_eq.ml" 84 2386 2400 "e_eq.ml" 84 2386 2402
+type(
+  E_t.expoint list
+)
+"e_eq.ml" 84 2386 2396 "e_eq.ml" 84 2386 2402
+type(
+  E_t.expoint list * E_t.expoint list
+)
+type(
+  E_t.expoint list * E_t.expoint list
+)
+"e_eq.ml" 84 2386 2406 "e_eq.ml" 84 2386 2410
+type(
+  bool
+)
+"e_eq.ml" 85 2411 2432 "e_eq.ml" 85 2411 2433
+type(
+  string
+)
+ident(
+  def x "e_eq.ml" 86 2463 2475 "e_eq.ml" 86 2463 2495
+)
+"e_eq.ml" 85 2411 2421 "e_eq.ml" 85 2411 2433
+type(
+  E_t.expoint
+)
+"e_eq.ml" 85 2411 2437 "e_eq.ml" 85 2411 2439
+type(
+  E_t.expoint list
+)
+ident(
+  def tr "e_eq.ml" 86 2463 2475 "e_eq.ml" 86 2463 2495
+)
+"e_eq.ml" 85 2411 2421 "e_eq.ml" 85 2411 2439
+type(
+  E_t.expoint list
+)
+"e_eq.ml" 85 2411 2452 "e_eq.ml" 85 2411 2453
+type(
+  string
+)
+ident(
+  def y "e_eq.ml" 86 2463 2475 "e_eq.ml" 86 2463 2495
+)
+"e_eq.ml" 85 2411 2441 "e_eq.ml" 85 2411 2453
+type(
+  E_t.expoint
+)
+"e_eq.ml" 85 2411 2457 "e_eq.ml" 85 2411 2459
+type(
+  E_t.expoint list
+)
+ident(
+  def ur "e_eq.ml" 86 2463 2475 "e_eq.ml" 86 2463 2495
+)
+"e_eq.ml" 85 2411 2441 "e_eq.ml" 85 2411 2459
+type(
+  E_t.expoint list
+)
+"e_eq.ml" 85 2411 2421 "e_eq.ml" 85 2411 2459
+type(
+  E_t.expoint list * E_t.expoint list
+)
+type(
+  E_t.expoint list * E_t.expoint list
+)
+"e_eq.ml" 86 2463 2475 "e_eq.ml" 86 2463 2476
+type(
+  string
+)
+ident(
+  int_ref x "e_eq.ml" 85 2411 2432 "e_eq.ml" 85 2411 2433
+)
+"e_eq.ml" 86 2463 2477 "e_eq.ml" 86 2463 2478
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 86 2463 2479 "e_eq.ml" 86 2463 2480
+type(
+  string
+)
+ident(
+  int_ref y "e_eq.ml" 85 2411 2452 "e_eq.ml" 85 2411 2453
+)
+"e_eq.ml" 86 2463 2475 "e_eq.ml" 86 2463 2480
+type(
+  bool
+)
+"e_eq.ml" 86 2463 2481 "e_eq.ml" 86 2463 2483
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 86 2463 2484 "e_eq.ml" 86 2463 2489
+type(
+  E_t.expoint list -> E_t.expoint list -> bool
+)
+ident(
+  int_ref trail "e_eq.ml" 83 2344 2354 "e_eq.ml" 83 2344 2359
+)
+"e_eq.ml" 86 2463 2490 "e_eq.ml" 86 2463 2492
+type(
+  E_t.expoint list
+)
+ident(
+  int_ref tr "e_eq.ml" 85 2411 2437 "e_eq.ml" 85 2411 2439
+)
+"e_eq.ml" 86 2463 2493 "e_eq.ml" 86 2463 2495
+type(
+  E_t.expoint list
+)
+ident(
+  int_ref ur "e_eq.ml" 85 2411 2457 "e_eq.ml" 85 2411 2459
+)
+"e_eq.ml" 86 2463 2484 "e_eq.ml" 86 2463 2495
+type(
+  bool
+)
+"e_eq.ml" 86 2463 2475 "e_eq.ml" 86 2463 2495
+type(
+  bool
+)
+"e_eq.ml" 87 2496 2519 "e_eq.ml" 87 2496 2520
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 88 2552 2564 "e_eq.ml" 88 2552 2587
+)
+"e_eq.ml" 87 2496 2506 "e_eq.ml" 87 2496 2520
+type(
+  E_t.expoint
+)
+"e_eq.ml" 87 2496 2524 "e_eq.ml" 87 2496 2526
+type(
+  E_t.expoint list
+)
+ident(
+  def tr "e_eq.ml" 88 2552 2564 "e_eq.ml" 88 2552 2587
+)
+"e_eq.ml" 87 2496 2506 "e_eq.ml" 87 2496 2526
+type(
+  E_t.expoint list
+)
+"e_eq.ml" 87 2496 2541 "e_eq.ml" 87 2496 2542
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 88 2552 2564 "e_eq.ml" 88 2552 2587
+)
+"e_eq.ml" 87 2496 2528 "e_eq.ml" 87 2496 2542
+type(
+  E_t.expoint
+)
+"e_eq.ml" 87 2496 2546 "e_eq.ml" 87 2496 2548
+type(
+  E_t.expoint list
+)
+ident(
+  def ur "e_eq.ml" 88 2552 2564 "e_eq.ml" 88 2552 2587
+)
+"e_eq.ml" 87 2496 2528 "e_eq.ml" 87 2496 2548
+type(
+  E_t.expoint list
+)
+"e_eq.ml" 87 2496 2506 "e_eq.ml" 87 2496 2548
+type(
+  E_t.expoint list * E_t.expoint list
+)
+type(
+  E_t.expoint list * E_t.expoint list
+)
+"e_eq.ml" 88 2552 2564 "e_eq.ml" 88 2552 2568
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 88 2552 2569 "e_eq.ml" 88 2552 2570
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 87 2496 2519 "e_eq.ml" 87 2496 2520
+)
+"e_eq.ml" 88 2552 2571 "e_eq.ml" 88 2552 2572
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 87 2496 2541 "e_eq.ml" 87 2496 2542
+)
+"e_eq.ml" 88 2552 2564 "e_eq.ml" 88 2552 2572
+type(
+  bool
+)
+"e_eq.ml" 88 2552 2573 "e_eq.ml" 88 2552 2575
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 88 2552 2576 "e_eq.ml" 88 2552 2581
+type(
+  E_t.expoint list -> E_t.expoint list -> bool
+)
+ident(
+  int_ref trail "e_eq.ml" 83 2344 2354 "e_eq.ml" 83 2344 2359
+)
+"e_eq.ml" 88 2552 2582 "e_eq.ml" 88 2552 2584
+type(
+  E_t.expoint list
+)
+ident(
+  int_ref tr "e_eq.ml" 87 2496 2524 "e_eq.ml" 87 2496 2526
+)
+"e_eq.ml" 88 2552 2585 "e_eq.ml" 88 2552 2587
+type(
+  E_t.expoint list
+)
+ident(
+  int_ref ur "e_eq.ml" 87 2496 2546 "e_eq.ml" 87 2496 2548
+)
+"e_eq.ml" 88 2552 2576 "e_eq.ml" 88 2552 2587
+type(
+  bool
+)
+"e_eq.ml" 88 2552 2564 "e_eq.ml" 88 2552 2587
+type(
+  bool
+)
+"e_eq.ml" 89 2588 2598 "e_eq.ml" 89 2588 2599
+type(
+  E_t.expoint list * E_t.expoint list
+)
+type(
+  E_t.expoint list * E_t.expoint list
+)
+"e_eq.ml" 89 2588 2603 "e_eq.ml" 89 2588 2608
+type(
+  bool
+)
+"e_eq.ml" 83 2344 2368 "e_eq.ml" 89 2588 2608
+type(
+  bool
+)
+"e_eq.ml" 91 2618 2626 "e_eq.ml" 91 2618 2630
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 91 2618 2631 "e_eq.ml" 91 2618 2632
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 75 2075 2087 "e_eq.ml" 75 2075 2088
+)
+"e_eq.ml" 91 2618 2633 "e_eq.ml" 91 2618 2634
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 75 2075 2103 "e_eq.ml" 75 2075 2104
+)
+"e_eq.ml" 91 2618 2626 "e_eq.ml" 91 2618 2634
+type(
+  bool
+)
+"e_eq.ml" 91 2618 2635 "e_eq.ml" 91 2618 2637
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 91 2618 2638 "e_eq.ml" 91 2618 2645
+type(
+  E_t.exspec list -> E_t.exspec list -> bool
+)
+ident(
+  int_ref exspecs "e_eq.ml" 76 2113 2127 "e_eq.ml" 76 2113 2134
+)
+"e_eq.ml" 91 2618 2646 "e_eq.ml" 91 2618 2648
+type(
+  E_t.exspec list
+)
+ident(
+  int_ref xs "e_eq.ml" 75 2075 2090 "e_eq.ml" 75 2075 2092
+)
+"e_eq.ml" 91 2618 2649 "e_eq.ml" 91 2618 2651
+type(
+  E_t.exspec list
+)
+ident(
+  int_ref ys "e_eq.ml" 75 2075 2106 "e_eq.ml" 75 2075 2108
+)
+"e_eq.ml" 91 2618 2638 "e_eq.ml" 91 2618 2651
+type(
+  bool
+)
+"e_eq.ml" 91 2618 2626 "e_eq.ml" 91 2618 2651
+type(
+  bool
+)
+"e_eq.ml" 76 2113 2119 "e_eq.ml" 91 2618 2651
+type(
+  bool
+)
+"e_eq.ml" 92 2652 2661 "e_eq.ml" 92 2652 2662
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 93 2682 2688 "e_eq.ml" 93 2682 2705
+)
+"e_eq.ml" 92 2652 2664 "e_eq.ml" 92 2652 2665
+type(
+  string
+)
+ident(
+  def x "e_eq.ml" 93 2682 2688 "e_eq.ml" 93 2682 2705
+)
+"e_eq.ml" 92 2652 2656 "e_eq.ml" 92 2652 2666
+type(
+  E_t.expr_
+)
+"e_eq.ml" 92 2652 2673 "e_eq.ml" 92 2652 2674
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 93 2682 2688 "e_eq.ml" 93 2682 2705
+)
+"e_eq.ml" 92 2652 2676 "e_eq.ml" 92 2652 2677
+type(
+  string
+)
+ident(
+  def y "e_eq.ml" 93 2682 2688 "e_eq.ml" 93 2682 2705
+)
+"e_eq.ml" 92 2652 2668 "e_eq.ml" 92 2652 2678
+type(
+  E_t.expr_
+)
+"e_eq.ml" 92 2652 2656 "e_eq.ml" 92 2652 2678
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 93 2682 2688 "e_eq.ml" 93 2682 2692
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 93 2682 2693 "e_eq.ml" 93 2682 2694
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 92 2652 2661 "e_eq.ml" 92 2652 2662
+)
+"e_eq.ml" 93 2682 2695 "e_eq.ml" 93 2682 2696
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 92 2652 2673 "e_eq.ml" 92 2652 2674
+)
+"e_eq.ml" 93 2682 2688 "e_eq.ml" 93 2682 2696
+type(
+  bool
+)
+"e_eq.ml" 93 2682 2697 "e_eq.ml" 93 2682 2699
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 93 2682 2700 "e_eq.ml" 93 2682 2701
+type(
+  string
+)
+ident(
+  int_ref x "e_eq.ml" 92 2652 2664 "e_eq.ml" 92 2652 2665
+)
+"e_eq.ml" 93 2682 2702 "e_eq.ml" 93 2682 2703
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 93 2682 2704 "e_eq.ml" 93 2682 2705
+type(
+  string
+)
+ident(
+  int_ref y "e_eq.ml" 92 2652 2676 "e_eq.ml" 92 2652 2677
+)
+"e_eq.ml" 93 2682 2700 "e_eq.ml" 93 2682 2705
+type(
+  bool
+)
+"e_eq.ml" 93 2682 2688 "e_eq.ml" 93 2682 2705
+type(
+  bool
+)
+"e_eq.ml" 94 2706 2715 "e_eq.ml" 94 2706 2716
+type(
+  E_t.modal_op
+)
+ident(
+  def m "e_eq.ml" 95 2742 2748 "e_eq.ml" 95 2742 2777
+)
+"e_eq.ml" 94 2706 2718 "e_eq.ml" 94 2706 2719
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 95 2742 2748 "e_eq.ml" 95 2742 2777
+)
+"e_eq.ml" 94 2706 2721 "e_eq.ml" 94 2706 2722
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 95 2742 2748 "e_eq.ml" 95 2742 2777
+)
+"e_eq.ml" 94 2706 2710 "e_eq.ml" 94 2706 2723
+type(
+  E_t.expr_
+)
+"e_eq.ml" 94 2706 2730 "e_eq.ml" 94 2706 2731
+type(
+  E_t.modal_op
+)
+ident(
+  def n "e_eq.ml" 95 2742 2748 "e_eq.ml" 95 2742 2777
+)
+"e_eq.ml" 94 2706 2733 "e_eq.ml" 94 2706 2734
+type(
+  E_t.expr
+)
+ident(
+  def g "e_eq.ml" 95 2742 2748 "e_eq.ml" 95 2742 2777
+)
+"e_eq.ml" 94 2706 2736 "e_eq.ml" 94 2706 2737
+type(
+  E_t.expr
+)
+ident(
+  def h "e_eq.ml" 95 2742 2748 "e_eq.ml" 95 2742 2777
+)
+"e_eq.ml" 94 2706 2725 "e_eq.ml" 94 2706 2738
+type(
+  E_t.expr_
+)
+"e_eq.ml" 94 2706 2710 "e_eq.ml" 94 2706 2738
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 95 2742 2748 "e_eq.ml" 95 2742 2749
+type(
+  E_t.modal_op
+)
+ident(
+  int_ref m "e_eq.ml" 94 2706 2715 "e_eq.ml" 94 2706 2716
+)
+"e_eq.ml" 95 2742 2750 "e_eq.ml" 95 2742 2751
+type(
+  E_t.modal_op -> E_t.modal_op -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 95 2742 2752 "e_eq.ml" 95 2742 2753
+type(
+  E_t.modal_op
+)
+ident(
+  int_ref n "e_eq.ml" 94 2706 2730 "e_eq.ml" 94 2706 2731
+)
+"e_eq.ml" 95 2742 2748 "e_eq.ml" 95 2742 2753
+type(
+  bool
+)
+"e_eq.ml" 95 2742 2754 "e_eq.ml" 95 2742 2756
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 95 2742 2757 "e_eq.ml" 95 2742 2761
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 95 2742 2762 "e_eq.ml" 95 2742 2763
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 94 2706 2718 "e_eq.ml" 94 2706 2719
+)
+"e_eq.ml" 95 2742 2764 "e_eq.ml" 95 2742 2765
+type(
+  E_t.expr
+)
+ident(
+  int_ref g "e_eq.ml" 94 2706 2733 "e_eq.ml" 94 2706 2734
+)
+"e_eq.ml" 95 2742 2757 "e_eq.ml" 95 2742 2765
+type(
+  bool
+)
+"e_eq.ml" 95 2742 2766 "e_eq.ml" 95 2742 2768
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 95 2742 2769 "e_eq.ml" 95 2742 2773
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 95 2742 2774 "e_eq.ml" 95 2742 2775
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 94 2706 2721 "e_eq.ml" 94 2706 2722
+)
+"e_eq.ml" 95 2742 2776 "e_eq.ml" 95 2742 2777
+type(
+  E_t.expr
+)
+ident(
+  int_ref h "e_eq.ml" 94 2706 2736 "e_eq.ml" 94 2706 2737
+)
+"e_eq.ml" 95 2742 2769 "e_eq.ml" 95 2742 2777
+type(
+  bool
+)
+"e_eq.ml" 95 2742 2757 "e_eq.ml" 95 2742 2777
+type(
+  bool
+)
+"e_eq.ml" 95 2742 2748 "e_eq.ml" 95 2742 2777
+type(
+  bool
+)
+"e_eq.ml" 96 2778 2788 "e_eq.ml" 96 2778 2789
+type(
+  E_t.modal_op
+)
+ident(
+  def m "e_eq.ml" 97 2816 2822 "e_eq.ml" 97 2816 2851
+)
+"e_eq.ml" 96 2778 2791 "e_eq.ml" 96 2778 2792
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 97 2816 2822 "e_eq.ml" 97 2816 2851
+)
+"e_eq.ml" 96 2778 2794 "e_eq.ml" 96 2778 2795
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 97 2816 2822 "e_eq.ml" 97 2816 2851
+)
+"e_eq.ml" 96 2778 2782 "e_eq.ml" 96 2778 2796
+type(
+  E_t.expr_
+)
+"e_eq.ml" 96 2778 2804 "e_eq.ml" 96 2778 2805
+type(
+  E_t.modal_op
+)
+ident(
+  def n "e_eq.ml" 97 2816 2822 "e_eq.ml" 97 2816 2851
+)
+"e_eq.ml" 96 2778 2807 "e_eq.ml" 96 2778 2808
+type(
+  E_t.expr
+)
+ident(
+  def g "e_eq.ml" 97 2816 2822 "e_eq.ml" 97 2816 2851
+)
+"e_eq.ml" 96 2778 2810 "e_eq.ml" 96 2778 2811
+type(
+  E_t.expr
+)
+ident(
+  def h "e_eq.ml" 97 2816 2822 "e_eq.ml" 97 2816 2851
+)
+"e_eq.ml" 96 2778 2798 "e_eq.ml" 96 2778 2812
+type(
+  E_t.expr_
+)
+"e_eq.ml" 96 2778 2782 "e_eq.ml" 96 2778 2812
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 97 2816 2822 "e_eq.ml" 97 2816 2823
+type(
+  E_t.modal_op
+)
+ident(
+  int_ref m "e_eq.ml" 96 2778 2788 "e_eq.ml" 96 2778 2789
+)
+"e_eq.ml" 97 2816 2824 "e_eq.ml" 97 2816 2825
+type(
+  E_t.modal_op -> E_t.modal_op -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 97 2816 2826 "e_eq.ml" 97 2816 2827
+type(
+  E_t.modal_op
+)
+ident(
+  int_ref n "e_eq.ml" 96 2778 2804 "e_eq.ml" 96 2778 2805
+)
+"e_eq.ml" 97 2816 2822 "e_eq.ml" 97 2816 2827
+type(
+  bool
+)
+"e_eq.ml" 97 2816 2828 "e_eq.ml" 97 2816 2830
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 97 2816 2831 "e_eq.ml" 97 2816 2835
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 97 2816 2836 "e_eq.ml" 97 2816 2837
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 96 2778 2791 "e_eq.ml" 96 2778 2792
+)
+"e_eq.ml" 97 2816 2838 "e_eq.ml" 97 2816 2839
+type(
+  E_t.expr
+)
+ident(
+  int_ref g "e_eq.ml" 96 2778 2807 "e_eq.ml" 96 2778 2808
+)
+"e_eq.ml" 97 2816 2831 "e_eq.ml" 97 2816 2839
+type(
+  bool
+)
+"e_eq.ml" 97 2816 2840 "e_eq.ml" 97 2816 2842
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 97 2816 2843 "e_eq.ml" 97 2816 2847
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 97 2816 2848 "e_eq.ml" 97 2816 2849
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 96 2778 2794 "e_eq.ml" 96 2778 2795
+)
+"e_eq.ml" 97 2816 2850 "e_eq.ml" 97 2816 2851
+type(
+  E_t.expr
+)
+ident(
+  int_ref h "e_eq.ml" 96 2778 2810 "e_eq.ml" 96 2778 2811
+)
+"e_eq.ml" 97 2816 2843 "e_eq.ml" 97 2816 2851
+type(
+  bool
+)
+"e_eq.ml" 97 2816 2831 "e_eq.ml" 97 2816 2851
+type(
+  bool
+)
+"e_eq.ml" 97 2816 2822 "e_eq.ml" 97 2816 2851
+type(
+  bool
+)
+"e_eq.ml" 98 2852 2862 "e_eq.ml" 98 2852 2863
+type(
+  E_t.fairness_op
+)
+ident(
+  def m "e_eq.ml" 99 2890 2896 "e_eq.ml" 99 2890 2925
+)
+"e_eq.ml" 98 2852 2865 "e_eq.ml" 98 2852 2866
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 99 2890 2896 "e_eq.ml" 99 2890 2925
+)
+"e_eq.ml" 98 2852 2868 "e_eq.ml" 98 2852 2869
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 99 2890 2896 "e_eq.ml" 99 2890 2925
+)
+"e_eq.ml" 98 2852 2856 "e_eq.ml" 98 2852 2870
+type(
+  E_t.expr_
+)
+"e_eq.ml" 98 2852 2878 "e_eq.ml" 98 2852 2879
+type(
+  E_t.fairness_op
+)
+ident(
+  def n "e_eq.ml" 99 2890 2896 "e_eq.ml" 99 2890 2925
+)
+"e_eq.ml" 98 2852 2881 "e_eq.ml" 98 2852 2882
+type(
+  E_t.expr
+)
+ident(
+  def g "e_eq.ml" 99 2890 2896 "e_eq.ml" 99 2890 2925
+)
+"e_eq.ml" 98 2852 2884 "e_eq.ml" 98 2852 2885
+type(
+  E_t.expr
+)
+ident(
+  def h "e_eq.ml" 99 2890 2896 "e_eq.ml" 99 2890 2925
+)
+"e_eq.ml" 98 2852 2872 "e_eq.ml" 98 2852 2886
+type(
+  E_t.expr_
+)
+"e_eq.ml" 98 2852 2856 "e_eq.ml" 98 2852 2886
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 99 2890 2896 "e_eq.ml" 99 2890 2897
+type(
+  E_t.fairness_op
+)
+ident(
+  int_ref m "e_eq.ml" 98 2852 2862 "e_eq.ml" 98 2852 2863
+)
+"e_eq.ml" 99 2890 2898 "e_eq.ml" 99 2890 2899
+type(
+  E_t.fairness_op -> E_t.fairness_op -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 99 2890 2900 "e_eq.ml" 99 2890 2901
+type(
+  E_t.fairness_op
+)
+ident(
+  int_ref n "e_eq.ml" 98 2852 2878 "e_eq.ml" 98 2852 2879
+)
+"e_eq.ml" 99 2890 2896 "e_eq.ml" 99 2890 2901
+type(
+  bool
+)
+"e_eq.ml" 99 2890 2902 "e_eq.ml" 99 2890 2904
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 99 2890 2905 "e_eq.ml" 99 2890 2909
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 99 2890 2910 "e_eq.ml" 99 2890 2911
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 98 2852 2865 "e_eq.ml" 98 2852 2866
+)
+"e_eq.ml" 99 2890 2912 "e_eq.ml" 99 2890 2913
+type(
+  E_t.expr
+)
+ident(
+  int_ref g "e_eq.ml" 98 2852 2881 "e_eq.ml" 98 2852 2882
+)
+"e_eq.ml" 99 2890 2905 "e_eq.ml" 99 2890 2913
+type(
+  bool
+)
+"e_eq.ml" 99 2890 2914 "e_eq.ml" 99 2890 2916
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 99 2890 2917 "e_eq.ml" 99 2890 2921
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 99 2890 2922 "e_eq.ml" 99 2890 2923
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 98 2852 2868 "e_eq.ml" 98 2852 2869
+)
+"e_eq.ml" 99 2890 2924 "e_eq.ml" 99 2890 2925
+type(
+  E_t.expr
+)
+ident(
+  int_ref h "e_eq.ml" 98 2852 2884 "e_eq.ml" 98 2852 2885
+)
+"e_eq.ml" 99 2890 2917 "e_eq.ml" 99 2890 2925
+type(
+  bool
+)
+"e_eq.ml" 99 2890 2905 "e_eq.ml" 99 2890 2925
+type(
+  bool
+)
+"e_eq.ml" 99 2890 2896 "e_eq.ml" 99 2890 2925
+type(
+  bool
+)
+"e_eq.ml" 100 2926 2936 "e_eq.ml" 100 2926 2938
+type(
+  (E_t.expr * E_t.expr) list
+)
+ident(
+  def is "e_eq.ml" 101 2960 2966 "e_eq.ml" 107 3129 3163
+)
+"e_eq.ml" 100 2926 2940 "e_eq.ml" 100 2926 2941
+type(
+  E_t.expr option
+)
+ident(
+  def o "e_eq.ml" 101 2960 2966 "e_eq.ml" 107 3129 3163
+)
+"e_eq.ml" 100 2926 2930 "e_eq.ml" 100 2926 2942
+type(
+  E_t.expr_
+)
+"e_eq.ml" 100 2926 2950 "e_eq.ml" 100 2926 2952
+type(
+  (E_t.expr * E_t.expr) list
+)
+ident(
+  def js "e_eq.ml" 101 2960 2966 "e_eq.ml" 107 3129 3163
+)
+"e_eq.ml" 100 2926 2954 "e_eq.ml" 100 2926 2955
+type(
+  E_t.expr option
+)
+ident(
+  def p "e_eq.ml" 101 2960 2966 "e_eq.ml" 107 3129 3163
+)
+"e_eq.ml" 100 2926 2944 "e_eq.ml" 100 2926 2956
+type(
+  E_t.expr_
+)
+"e_eq.ml" 100 2926 2930 "e_eq.ml" 100 2926 2956
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 101 2960 2970 "e_eq.ml" 101 2960 2974
+type(
+  (E_t.expr * E_t.expr) list -> (E_t.expr * E_t.expr) list -> bool
+)
+ident(
+  def arms "e_eq.ml" 107 3129 3137 "e_eq.ml" 107 3129 3163
+)
+"e_eq.ml" 101 2960 2975 "e_eq.ml" 101 2960 2977
+type(
+  (E_t.expr * E_t.expr) list
+)
+ident(
+  def is "e_eq.ml" 101 2960 2978 "e_eq.ml" 105 3099 3119
+)
+"e_eq.ml" 101 2960 2978 "e_eq.ml" 101 2960 2980
+type(
+  (E_t.expr * E_t.expr) list
+)
+ident(
+  def js "e_eq.ml" 101 2960 2983 "e_eq.ml" 105 3099 3119
+)
+"e_eq.ml" 101 2960 2989 "e_eq.ml" 101 2960 2991
+type(
+  (E_t.expr * E_t.expr) list
+)
+ident(
+  int_ref is "e_eq.ml" 101 2960 2975 "e_eq.ml" 101 2960 2977
+)
+"e_eq.ml" 101 2960 2993 "e_eq.ml" 101 2960 2995
+type(
+  (E_t.expr * E_t.expr) list
+)
+ident(
+  int_ref js "e_eq.ml" 101 2960 2978 "e_eq.ml" 101 2960 2980
+)
+"e_eq.ml" 101 2960 2989 "e_eq.ml" 101 2960 2995
+type(
+  (E_t.expr * E_t.expr) list * (E_t.expr * E_t.expr) list
+)
+"e_eq.ml" 102 3001 3011 "e_eq.ml" 102 3001 3013
+type(
+  (E_t.expr * E_t.expr) list
+)
+"e_eq.ml" 102 3001 3015 "e_eq.ml" 102 3001 3017
+type(
+  (E_t.expr * E_t.expr) list
+)
+"e_eq.ml" 102 3001 3011 "e_eq.ml" 102 3001 3017
+type(
+  (E_t.expr * E_t.expr) list * (E_t.expr * E_t.expr) list
+)
+type(
+  (E_t.expr * E_t.expr) list * (E_t.expr * E_t.expr) list
+)
+"e_eq.ml" 102 3001 3021 "e_eq.ml" 102 3001 3025
+type(
+  bool
+)
+"e_eq.ml" 103 3026 3037 "e_eq.ml" 103 3026 3038
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 104 3066 3078 "e_eq.ml" 104 3066 3098
+)
+"e_eq.ml" 103 3026 3040 "e_eq.ml" 103 3026 3041
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 104 3066 3078 "e_eq.ml" 104 3066 3098
+)
+"e_eq.ml" 103 3026 3036 "e_eq.ml" 103 3026 3042
+type(
+  E_t.expr * E_t.expr
+)
+"e_eq.ml" 103 3026 3046 "e_eq.ml" 103 3026 3048
+type(
+  (E_t.expr * E_t.expr) list
+)
+ident(
+  def is "e_eq.ml" 104 3066 3078 "e_eq.ml" 104 3066 3098
+)
+"e_eq.ml" 103 3026 3036 "e_eq.ml" 103 3026 3048
+type(
+  (E_t.expr * E_t.expr) list
+)
+"e_eq.ml" 103 3026 3051 "e_eq.ml" 103 3026 3052
+type(
+  E_t.expr
+)
+ident(
+  def g "e_eq.ml" 104 3066 3078 "e_eq.ml" 104 3066 3098
+)
+"e_eq.ml" 103 3026 3054 "e_eq.ml" 103 3026 3055
+type(
+  E_t.expr
+)
+ident(
+  def h "e_eq.ml" 104 3066 3078 "e_eq.ml" 104 3066 3098
+)
+"e_eq.ml" 103 3026 3050 "e_eq.ml" 103 3026 3056
+type(
+  E_t.expr * E_t.expr
+)
+"e_eq.ml" 103 3026 3060 "e_eq.ml" 103 3026 3062
+type(
+  (E_t.expr * E_t.expr) list
+)
+ident(
+  def js "e_eq.ml" 104 3066 3078 "e_eq.ml" 104 3066 3098
+)
+"e_eq.ml" 103 3026 3050 "e_eq.ml" 103 3026 3062
+type(
+  (E_t.expr * E_t.expr) list
+)
+"e_eq.ml" 103 3026 3036 "e_eq.ml" 103 3026 3062
+type(
+  (E_t.expr * E_t.expr) list * (E_t.expr * E_t.expr) list
+)
+type(
+  (E_t.expr * E_t.expr) list * (E_t.expr * E_t.expr) list
+)
+"e_eq.ml" 104 3066 3078 "e_eq.ml" 104 3066 3082
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 104 3066 3083 "e_eq.ml" 104 3066 3084
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 103 3026 3037 "e_eq.ml" 103 3026 3038
+)
+"e_eq.ml" 104 3066 3085 "e_eq.ml" 104 3066 3086
+type(
+  E_t.expr
+)
+ident(
+  int_ref g "e_eq.ml" 103 3026 3051 "e_eq.ml" 103 3026 3052
+)
+"e_eq.ml" 104 3066 3078 "e_eq.ml" 104 3066 3086
+type(
+  bool
+)
+"e_eq.ml" 104 3066 3087 "e_eq.ml" 104 3066 3089
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 104 3066 3090 "e_eq.ml" 104 3066 3094
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 104 3066 3095 "e_eq.ml" 104 3066 3096
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 103 3026 3040 "e_eq.ml" 103 3026 3041
+)
+"e_eq.ml" 104 3066 3097 "e_eq.ml" 104 3066 3098
+type(
+  E_t.expr
+)
+ident(
+  int_ref h "e_eq.ml" 103 3026 3054 "e_eq.ml" 103 3026 3055
+)
+"e_eq.ml" 104 3066 3090 "e_eq.ml" 104 3066 3098
+type(
+  bool
+)
+"e_eq.ml" 104 3066 3078 "e_eq.ml" 104 3066 3098
+type(
+  bool
+)
+"e_eq.ml" 105 3099 3109 "e_eq.ml" 105 3099 3110
+type(
+  (E_t.expr * E_t.expr) list * (E_t.expr * E_t.expr) list
+)
+type(
+  (E_t.expr * E_t.expr) list * (E_t.expr * E_t.expr) list
+)
+"e_eq.ml" 105 3099 3114 "e_eq.ml" 105 3099 3119
+type(
+  bool
+)
+"e_eq.ml" 101 2960 2983 "e_eq.ml" 105 3099 3119
+type(
+  bool
+)
+"e_eq.ml" 107 3129 3137 "e_eq.ml" 107 3129 3141
+type(
+  (E_t.expr * E_t.expr) list -> (E_t.expr * E_t.expr) list -> bool
+)
+ident(
+  int_ref arms "e_eq.ml" 101 2960 2970 "e_eq.ml" 101 2960 2974
+)
+"e_eq.ml" 107 3129 3142 "e_eq.ml" 107 3129 3144
+type(
+  (E_t.expr * E_t.expr) list
+)
+ident(
+  int_ref is "e_eq.ml" 100 2926 2936 "e_eq.ml" 100 2926 2938
+)
+"e_eq.ml" 107 3129 3145 "e_eq.ml" 107 3129 3147
+type(
+  (E_t.expr * E_t.expr) list
+)
+ident(
+  int_ref js "e_eq.ml" 100 2926 2950 "e_eq.ml" 100 2926 2952
+)
+"e_eq.ml" 107 3129 3137 "e_eq.ml" 107 3129 3147
+type(
+  bool
+)
+"e_eq.ml" 107 3129 3148 "e_eq.ml" 107 3129 3150
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 107 3129 3151 "e_eq.ml" 107 3129 3159
+type(
+  E_t.expr option -> E_t.expr option -> bool
+)
+ident(
+  int_ref opt_expr "e_eq.ml" 136 3748 3752 "e_eq.ml" 136 3748 3760
+)
+"e_eq.ml" 107 3129 3160 "e_eq.ml" 107 3129 3161
+type(
+  E_t.expr option
+)
+ident(
+  int_ref o "e_eq.ml" 100 2926 2940 "e_eq.ml" 100 2926 2941
+)
+"e_eq.ml" 107 3129 3162 "e_eq.ml" 107 3129 3163
+type(
+  E_t.expr option
+)
+ident(
+  int_ref p "e_eq.ml" 100 2926 2954 "e_eq.ml" 100 2926 2955
+)
+"e_eq.ml" 107 3129 3151 "e_eq.ml" 107 3129 3163
+type(
+  bool
+)
+"e_eq.ml" 107 3129 3137 "e_eq.ml" 107 3129 3163
+type(
+  bool
+)
+"e_eq.ml" 101 2960 2966 "e_eq.ml" 107 3129 3163
+type(
+  bool
+)
+"e_eq.ml" 108 3164 3175 "e_eq.ml" 108 3164 3176
+type(
+  string
+)
+ident(
+  def x "e_eq.ml" 108 3164 3190 "e_eq.ml" 108 3164 3195
+)
+"e_eq.ml" 108 3164 3168 "e_eq.ml" 108 3164 3176
+type(
+  E_t.expr_
+)
+"e_eq.ml" 108 3164 3185 "e_eq.ml" 108 3164 3186
+type(
+  string
+)
+ident(
+  def y "e_eq.ml" 108 3164 3190 "e_eq.ml" 108 3164 3195
+)
+"e_eq.ml" 108 3164 3178 "e_eq.ml" 108 3164 3186
+type(
+  E_t.expr_
+)
+"e_eq.ml" 108 3164 3168 "e_eq.ml" 108 3164 3186
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 108 3164 3190 "e_eq.ml" 108 3164 3191
+type(
+  string
+)
+ident(
+  int_ref x "e_eq.ml" 108 3164 3175 "e_eq.ml" 108 3164 3176
+)
+"e_eq.ml" 108 3164 3192 "e_eq.ml" 108 3164 3193
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 108 3164 3194 "e_eq.ml" 108 3164 3195
+type(
+  string
+)
+ident(
+  int_ref y "e_eq.ml" 108 3164 3185 "e_eq.ml" 108 3164 3186
+)
+"e_eq.ml" 108 3164 3190 "e_eq.ml" 108 3164 3195
+type(
+  bool
+)
+"e_eq.ml" 109 3196 3205 "e_eq.ml" 109 3196 3206
+type(
+  string
+)
+ident(
+  def i "e_eq.ml" 110 3226 3232 "e_eq.ml" 110 3226 3246
+)
+"e_eq.ml" 109 3196 3208 "e_eq.ml" 109 3196 3209
+type(
+  string
+)
+ident(
+  def j "e_eq.ml" 110 3226 3232 "e_eq.ml" 110 3226 3246
+)
+"e_eq.ml" 109 3196 3200 "e_eq.ml" 109 3196 3210
+type(
+  E_t.expr_
+)
+"e_eq.ml" 109 3196 3217 "e_eq.ml" 109 3196 3218
+type(
+  string
+)
+ident(
+  def k "e_eq.ml" 110 3226 3232 "e_eq.ml" 110 3226 3246
+)
+"e_eq.ml" 109 3196 3220 "e_eq.ml" 109 3196 3221
+type(
+  string
+)
+ident(
+  def l "e_eq.ml" 110 3226 3232 "e_eq.ml" 110 3226 3246
+)
+"e_eq.ml" 109 3196 3212 "e_eq.ml" 109 3196 3222
+type(
+  E_t.expr_
+)
+"e_eq.ml" 109 3196 3200 "e_eq.ml" 109 3196 3222
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 110 3226 3232 "e_eq.ml" 110 3226 3233
+type(
+  string
+)
+ident(
+  int_ref i "e_eq.ml" 109 3196 3205 "e_eq.ml" 109 3196 3206
+)
+"e_eq.ml" 110 3226 3234 "e_eq.ml" 110 3226 3235
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 110 3226 3236 "e_eq.ml" 110 3226 3237
+type(
+  string
+)
+ident(
+  int_ref k "e_eq.ml" 109 3196 3217 "e_eq.ml" 109 3196 3218
+)
+"e_eq.ml" 110 3226 3232 "e_eq.ml" 110 3226 3237
+type(
+  bool
+)
+"e_eq.ml" 110 3226 3238 "e_eq.ml" 110 3226 3240
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 110 3226 3241 "e_eq.ml" 110 3226 3242
+type(
+  string
+)
+ident(
+  int_ref j "e_eq.ml" 109 3196 3208 "e_eq.ml" 109 3196 3209
+)
+"e_eq.ml" 110 3226 3243 "e_eq.ml" 110 3226 3244
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 110 3226 3245 "e_eq.ml" 110 3226 3246
+type(
+  string
+)
+ident(
+  int_ref l "e_eq.ml" 109 3196 3220 "e_eq.ml" 109 3196 3221
+)
+"e_eq.ml" 110 3226 3241 "e_eq.ml" 110 3226 3246
+type(
+  bool
+)
+"e_eq.ml" 110 3226 3232 "e_eq.ml" 110 3226 3246
+type(
+  bool
+)
+"e_eq.ml" 111 3247 3254 "e_eq.ml" 111 3247 3255
+type(
+  bool
+)
+ident(
+  def b "e_eq.ml" 111 3247 3265 "e_eq.ml" 111 3247 3270
+)
+"e_eq.ml" 111 3247 3251 "e_eq.ml" 111 3247 3255
+type(
+  E_t.expr_
+)
+"e_eq.ml" 111 3247 3260 "e_eq.ml" 111 3247 3261
+type(
+  bool
+)
+ident(
+  def c "e_eq.ml" 111 3247 3265 "e_eq.ml" 111 3247 3270
+)
+"e_eq.ml" 111 3247 3257 "e_eq.ml" 111 3247 3261
+type(
+  E_t.expr_
+)
+"e_eq.ml" 111 3247 3251 "e_eq.ml" 111 3247 3261
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 111 3247 3265 "e_eq.ml" 111 3247 3266
+type(
+  bool
+)
+ident(
+  int_ref b "e_eq.ml" 111 3247 3254 "e_eq.ml" 111 3247 3255
+)
+"e_eq.ml" 111 3247 3267 "e_eq.ml" 111 3247 3268
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 111 3247 3269 "e_eq.ml" 111 3247 3270
+type(
+  bool
+)
+ident(
+  int_ref c "e_eq.ml" 111 3247 3260 "e_eq.ml" 111 3247 3261
+)
+"e_eq.ml" 111 3247 3265 "e_eq.ml" 111 3247 3270
+type(
+  bool
+)
+"e_eq.ml" 112 3271 3275 "e_eq.ml" 112 3271 3277
+type(
+  E_t.expr_
+)
+ident(
+  def ec "e_eq.ml" 113 3285 3291 "e_eq.ml" 113 3285 3296
+)
+"e_eq.ml" 112 3271 3279 "e_eq.ml" 112 3271 3281
+type(
+  E_t.expr_
+)
+ident(
+  def fc "e_eq.ml" 113 3285 3291 "e_eq.ml" 113 3285 3296
+)
+"e_eq.ml" 112 3271 3275 "e_eq.ml" 112 3271 3281
+type(
+  E_t.expr_ * E_t.expr_
+)
+type(
+  E_t.expr_ * E_t.expr_
+)
+"e_eq.ml" 113 3285 3291 "e_eq.ml" 113 3285 3296
+type(
+  bool
+)
+"e_eq.ml" 18 308 327 "e_eq.ml" 113 3285 3296
+type(
+  bool
+)
+"e_eq.ml" 115 3298 3302 "e_eq.ml" 115 3298 3307
+type(
+  E_t.expr list -> E_t.expr list -> bool
+)
+ident(
+  def exprs "e_eq.ml" 18 308 308 "e_eq.ml" 0 0 -1
+)
+"e_eq.ml" 115 3298 3308 "e_eq.ml" 115 3298 3310
+type(
+  E_t.expr list
+)
+ident(
+  def es "e_eq.ml" 115 3298 3311 "e_eq.ml" 119 3407 3421
+)
+"e_eq.ml" 115 3298 3311 "e_eq.ml" 115 3298 3313
+type(
+  E_t.expr list
+)
+ident(
+  def fs "e_eq.ml" 115 3298 3316 "e_eq.ml" 119 3407 3421
+)
+"e_eq.ml" 115 3298 3322 "e_eq.ml" 115 3298 3324
+type(
+  E_t.expr list
+)
+ident(
+  int_ref es "e_eq.ml" 115 3298 3308 "e_eq.ml" 115 3298 3310
+)
+"e_eq.ml" 115 3298 3326 "e_eq.ml" 115 3298 3328
+type(
+  E_t.expr list
+)
+ident(
+  int_ref fs "e_eq.ml" 115 3298 3311 "e_eq.ml" 115 3298 3313
+)
+"e_eq.ml" 115 3298 3322 "e_eq.ml" 115 3298 3328
+type(
+  E_t.expr list * E_t.expr list
+)
+"e_eq.ml" 116 3334 3338 "e_eq.ml" 116 3334 3340
+type(
+  E_t.expr list
+)
+"e_eq.ml" 116 3334 3342 "e_eq.ml" 116 3334 3344
+type(
+  E_t.expr list
+)
+"e_eq.ml" 116 3334 3338 "e_eq.ml" 116 3334 3344
+type(
+  E_t.expr list * E_t.expr list
+)
+type(
+  E_t.expr list * E_t.expr list
+)
+"e_eq.ml" 116 3334 3348 "e_eq.ml" 116 3334 3352
+type(
+  bool
+)
+"e_eq.ml" 117 3353 3357 "e_eq.ml" 117 3353 3358
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 118 3377 3383 "e_eq.ml" 118 3377 3406
+)
+"e_eq.ml" 117 3353 3362 "e_eq.ml" 117 3353 3364
+type(
+  E_t.expr list
+)
+ident(
+  def es "e_eq.ml" 118 3377 3383 "e_eq.ml" 118 3377 3406
+)
+"e_eq.ml" 117 3353 3357 "e_eq.ml" 117 3353 3364
+type(
+  E_t.expr list
+)
+"e_eq.ml" 117 3353 3366 "e_eq.ml" 117 3353 3367
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 118 3377 3383 "e_eq.ml" 118 3377 3406
+)
+"e_eq.ml" 117 3353 3371 "e_eq.ml" 117 3353 3373
+type(
+  E_t.expr list
+)
+ident(
+  def fs "e_eq.ml" 118 3377 3383 "e_eq.ml" 118 3377 3406
+)
+"e_eq.ml" 117 3353 3366 "e_eq.ml" 117 3353 3373
+type(
+  E_t.expr list
+)
+"e_eq.ml" 117 3353 3357 "e_eq.ml" 117 3353 3373
+type(
+  E_t.expr list * E_t.expr list
+)
+type(
+  E_t.expr list * E_t.expr list
+)
+"e_eq.ml" 118 3377 3383 "e_eq.ml" 118 3377 3387
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 118 3377 3388 "e_eq.ml" 118 3377 3389
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 117 3353 3357 "e_eq.ml" 117 3353 3358
+)
+"e_eq.ml" 118 3377 3390 "e_eq.ml" 118 3377 3391
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 117 3353 3366 "e_eq.ml" 117 3353 3367
+)
+"e_eq.ml" 118 3377 3383 "e_eq.ml" 118 3377 3391
+type(
+  bool
+)
+"e_eq.ml" 118 3377 3392 "e_eq.ml" 118 3377 3394
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 118 3377 3395 "e_eq.ml" 118 3377 3400
+type(
+  E_t.expr list -> E_t.expr list -> bool
+)
+ident(
+  int_ref exprs "e_eq.ml" 115 3298 3302 "e_eq.ml" 115 3298 3307
+)
+"e_eq.ml" 118 3377 3401 "e_eq.ml" 118 3377 3403
+type(
+  E_t.expr list
+)
+ident(
+  int_ref es "e_eq.ml" 117 3353 3362 "e_eq.ml" 117 3353 3364
+)
+"e_eq.ml" 118 3377 3404 "e_eq.ml" 118 3377 3406
+type(
+  E_t.expr list
+)
+ident(
+  int_ref fs "e_eq.ml" 117 3353 3371 "e_eq.ml" 117 3353 3373
+)
+"e_eq.ml" 118 3377 3395 "e_eq.ml" 118 3377 3406
+type(
+  bool
+)
+"e_eq.ml" 118 3377 3383 "e_eq.ml" 118 3377 3406
+type(
+  bool
+)
+"e_eq.ml" 119 3407 3411 "e_eq.ml" 119 3407 3412
+type(
+  E_t.expr list * E_t.expr list
+)
+type(
+  E_t.expr list * E_t.expr list
+)
+"e_eq.ml" 119 3407 3416 "e_eq.ml" 119 3407 3421
+type(
+  bool
+)
+"e_eq.ml" 115 3298 3316 "e_eq.ml" 119 3407 3421
+type(
+  bool
+)
+"e_eq.ml" 121 3423 3427 "e_eq.ml" 121 3423 3433
+type(
+  E_t.bounds -> E_t.bounds -> bool
+)
+ident(
+  def bounds "e_eq.ml" 18 308 308 "e_eq.ml" 0 0 -1
+)
+"e_eq.ml" 121 3423 3434 "e_eq.ml" 121 3423 3436
+type(
+  E_t.bounds
+)
+ident(
+  def bs "e_eq.ml" 121 3423 3437 "e_eq.ml" 125 3535 3549
+)
+"e_eq.ml" 121 3423 3437 "e_eq.ml" 121 3423 3439
+type(
+  E_t.bounds
+)
+ident(
+  def cs "e_eq.ml" 121 3423 3442 "e_eq.ml" 125 3535 3549
+)
+"e_eq.ml" 121 3423 3448 "e_eq.ml" 121 3423 3450
+type(
+  E_t.bounds
+)
+ident(
+  int_ref bs "e_eq.ml" 121 3423 3434 "e_eq.ml" 121 3423 3436
+)
+"e_eq.ml" 121 3423 3452 "e_eq.ml" 121 3423 3454
+type(
+  E_t.bounds
+)
+ident(
+  int_ref cs "e_eq.ml" 121 3423 3437 "e_eq.ml" 121 3423 3439
+)
+"e_eq.ml" 121 3423 3448 "e_eq.ml" 121 3423 3454
+type(
+  E_t.bounds * E_t.bounds
+)
+"e_eq.ml" 122 3460 3464 "e_eq.ml" 122 3460 3466
+type(
+  E_t.bounds
+)
+"e_eq.ml" 122 3460 3468 "e_eq.ml" 122 3460 3470
+type(
+  E_t.bounds
+)
+"e_eq.ml" 122 3460 3464 "e_eq.ml" 122 3460 3470
+type(
+  E_t.bounds * E_t.bounds
+)
+type(
+  E_t.bounds * E_t.bounds
+)
+"e_eq.ml" 122 3460 3474 "e_eq.ml" 122 3460 3478
+type(
+  bool
+)
+"e_eq.ml" 123 3479 3483 "e_eq.ml" 123 3479 3484
+type(
+  E_t.bound
+)
+ident(
+  def b "e_eq.ml" 124 3503 3509 "e_eq.ml" 124 3503 3534
+)
+"e_eq.ml" 123 3479 3488 "e_eq.ml" 123 3479 3490
+type(
+  E_t.bound list
+)
+ident(
+  def bs "e_eq.ml" 124 3503 3509 "e_eq.ml" 124 3503 3534
+)
+"e_eq.ml" 123 3479 3483 "e_eq.ml" 123 3479 3490
+type(
+  E_t.bounds
+)
+"e_eq.ml" 123 3479 3492 "e_eq.ml" 123 3479 3493
+type(
+  E_t.bound
+)
+ident(
+  def c "e_eq.ml" 124 3503 3509 "e_eq.ml" 124 3503 3534
+)
+"e_eq.ml" 123 3479 3497 "e_eq.ml" 123 3479 3499
+type(
+  E_t.bound list
+)
+ident(
+  def cs "e_eq.ml" 124 3503 3509 "e_eq.ml" 124 3503 3534
+)
+"e_eq.ml" 123 3479 3492 "e_eq.ml" 123 3479 3499
+type(
+  E_t.bounds
+)
+"e_eq.ml" 123 3479 3483 "e_eq.ml" 123 3479 3499
+type(
+  E_t.bounds * E_t.bounds
+)
+type(
+  E_t.bounds * E_t.bounds
+)
+"e_eq.ml" 124 3503 3509 "e_eq.ml" 124 3503 3514
+type(
+  E_t.bound -> E_t.bound -> bool
+)
+ident(
+  int_ref bound "e_eq.ml" 127 3551 3555 "e_eq.ml" 127 3551 3560
+)
+"e_eq.ml" 124 3503 3515 "e_eq.ml" 124 3503 3516
+type(
+  E_t.bound
+)
+ident(
+  int_ref b "e_eq.ml" 123 3479 3483 "e_eq.ml" 123 3479 3484
+)
+"e_eq.ml" 124 3503 3517 "e_eq.ml" 124 3503 3518
+type(
+  E_t.bound
+)
+ident(
+  int_ref c "e_eq.ml" 123 3479 3492 "e_eq.ml" 123 3479 3493
+)
+"e_eq.ml" 124 3503 3509 "e_eq.ml" 124 3503 3518
+type(
+  bool
+)
+"e_eq.ml" 124 3503 3519 "e_eq.ml" 124 3503 3521
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 124 3503 3522 "e_eq.ml" 124 3503 3528
+type(
+  E_t.bounds -> E_t.bounds -> bool
+)
+ident(
+  int_ref bounds "e_eq.ml" 121 3423 3427 "e_eq.ml" 121 3423 3433
+)
+"e_eq.ml" 124 3503 3529 "e_eq.ml" 124 3503 3531
+type(
+  E_t.bounds
+)
+ident(
+  int_ref bs "e_eq.ml" 123 3479 3488 "e_eq.ml" 123 3479 3490
+)
+"e_eq.ml" 124 3503 3532 "e_eq.ml" 124 3503 3534
+type(
+  E_t.bounds
+)
+ident(
+  int_ref cs "e_eq.ml" 123 3479 3497 "e_eq.ml" 123 3479 3499
+)
+"e_eq.ml" 124 3503 3522 "e_eq.ml" 124 3503 3534
+type(
+  bool
+)
+"e_eq.ml" 124 3503 3509 "e_eq.ml" 124 3503 3534
+type(
+  bool
+)
+"e_eq.ml" 125 3535 3539 "e_eq.ml" 125 3535 3540
+type(
+  E_t.bounds * E_t.bounds
+)
+type(
+  E_t.bounds * E_t.bounds
+)
+"e_eq.ml" 125 3535 3544 "e_eq.ml" 125 3535 3549
+type(
+  bool
+)
+"e_eq.ml" 121 3423 3442 "e_eq.ml" 125 3535 3549
+type(
+  bool
+)
+"e_eq.ml" 127 3551 3555 "e_eq.ml" 127 3551 3560
+type(
+  E_t.bound -> E_t.bound -> bool
+)
+ident(
+  def bound "e_eq.ml" 18 308 308 "e_eq.ml" 0 0 -1
+)
+"e_eq.ml" 127 3551 3562 "e_eq.ml" 127 3551 3563
+type(
+  Util.hint
+)
+"e_eq.ml" 127 3551 3565 "e_eq.ml" 127 3551 3566
+type(
+  E_t.kind
+)
+ident(
+  def j "e_eq.ml" 127 3551 3572 "e_eq.ml" 128 3585 3606
+)
+"e_eq.ml" 127 3551 3568 "e_eq.ml" 127 3551 3570
+type(
+  E_t.bound_domain
+)
+ident(
+  def jd "e_eq.ml" 127 3551 3572 "e_eq.ml" 128 3585 3606
+)
+"e_eq.ml" 127 3551 3561 "e_eq.ml" 127 3551 3571
+type(
+  Util.hint * E_t.kind * E_t.bound_domain
+)
+"e_eq.ml" 127 3551 3573 "e_eq.ml" 127 3551 3574
+type(
+  Util.hint
+)
+"e_eq.ml" 127 3551 3576 "e_eq.ml" 127 3551 3577
+type(
+  E_t.kind
+)
+ident(
+  def k "e_eq.ml" 128 3585 3587 "e_eq.ml" 128 3585 3606
+)
+"e_eq.ml" 127 3551 3579 "e_eq.ml" 127 3551 3581
+type(
+  E_t.bound_domain
+)
+ident(
+  def kd "e_eq.ml" 128 3585 3587 "e_eq.ml" 128 3585 3606
+)
+"e_eq.ml" 127 3551 3572 "e_eq.ml" 127 3551 3582
+type(
+  Util.hint * E_t.kind * E_t.bound_domain
+)
+"e_eq.ml" 128 3585 3587 "e_eq.ml" 128 3585 3588
+type(
+  E_t.kind
+)
+ident(
+  int_ref j "e_eq.ml" 127 3551 3565 "e_eq.ml" 127 3551 3566
+)
+"e_eq.ml" 128 3585 3589 "e_eq.ml" 128 3585 3590
+type(
+  E_t.kind -> E_t.kind -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 128 3585 3591 "e_eq.ml" 128 3585 3592
+type(
+  E_t.kind
+)
+ident(
+  int_ref k "e_eq.ml" 127 3551 3576 "e_eq.ml" 127 3551 3577
+)
+"e_eq.ml" 128 3585 3587 "e_eq.ml" 128 3585 3592
+type(
+  bool
+)
+"e_eq.ml" 128 3585 3593 "e_eq.ml" 128 3585 3595
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 128 3585 3596 "e_eq.ml" 128 3585 3600
+type(
+  E_t.bound_domain -> E_t.bound_domain -> bool
+)
+ident(
+  int_ref bdom "e_eq.ml" 130 3608 3612 "e_eq.ml" 130 3608 3616
+)
+"e_eq.ml" 128 3585 3601 "e_eq.ml" 128 3585 3603
+type(
+  E_t.bound_domain
+)
+ident(
+  int_ref jd "e_eq.ml" 127 3551 3568 "e_eq.ml" 127 3551 3570
+)
+"e_eq.ml" 128 3585 3604 "e_eq.ml" 128 3585 3606
+type(
+  E_t.bound_domain
+)
+ident(
+  int_ref kd "e_eq.ml" 127 3551 3579 "e_eq.ml" 127 3551 3581
+)
+"e_eq.ml" 128 3585 3596 "e_eq.ml" 128 3585 3606
+type(
+  bool
+)
+"e_eq.ml" 128 3585 3587 "e_eq.ml" 128 3585 3606
+type(
+  bool
+)
+"e_eq.ml" 130 3608 3612 "e_eq.ml" 130 3608 3616
+type(
+  E_t.bound_domain -> E_t.bound_domain -> bool
+)
+ident(
+  def bdom "e_eq.ml" 18 308 308 "e_eq.ml" 0 0 -1
+)
+"e_eq.ml" 130 3608 3617 "e_eq.ml" 130 3608 3618
+type(
+  E_t.bound_domain
+)
+ident(
+  def d "e_eq.ml" 130 3608 3619 "e_eq.ml" 134 3732 3746
+)
+"e_eq.ml" 130 3608 3619 "e_eq.ml" 130 3608 3620
+type(
+  E_t.bound_domain
+)
+ident(
+  def e "e_eq.ml" 130 3608 3623 "e_eq.ml" 134 3732 3746
+)
+"e_eq.ml" 130 3608 3629 "e_eq.ml" 130 3608 3630
+type(
+  E_t.bound_domain
+)
+ident(
+  int_ref d "e_eq.ml" 130 3608 3617 "e_eq.ml" 130 3608 3618
+)
+"e_eq.ml" 130 3608 3632 "e_eq.ml" 130 3608 3633
+type(
+  E_t.bound_domain
+)
+ident(
+  int_ref e "e_eq.ml" 130 3608 3619 "e_eq.ml" 130 3608 3620
+)
+"e_eq.ml" 130 3608 3629 "e_eq.ml" 130 3608 3633
+type(
+  E_t.bound_domain * E_t.bound_domain
+)
+"e_eq.ml" 131 3639 3643 "e_eq.ml" 131 3639 3652
+type(
+  E_t.bound_domain
+)
+"e_eq.ml" 131 3639 3654 "e_eq.ml" 131 3639 3663
+type(
+  E_t.bound_domain
+)
+"e_eq.ml" 131 3639 3643 "e_eq.ml" 131 3639 3663
+type(
+  E_t.bound_domain * E_t.bound_domain
+)
+type(
+  E_t.bound_domain * E_t.bound_domain
+)
+"e_eq.ml" 131 3639 3667 "e_eq.ml" 131 3639 3671
+type(
+  bool
+)
+"e_eq.ml" 132 3672 3683 "e_eq.ml" 132 3672 3684
+type(
+  E_t.expr
+)
+ident(
+  def d "e_eq.ml" 132 3672 3698 "e_eq.ml" 132 3672 3706
+)
+"e_eq.ml" 132 3672 3676 "e_eq.ml" 132 3672 3684
+type(
+  E_t.bound_domain
+)
+"e_eq.ml" 132 3672 3693 "e_eq.ml" 132 3672 3694
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 132 3672 3698 "e_eq.ml" 132 3672 3706
+)
+"e_eq.ml" 132 3672 3686 "e_eq.ml" 132 3672 3694
+type(
+  E_t.bound_domain
+)
+"e_eq.ml" 132 3672 3676 "e_eq.ml" 132 3672 3694
+type(
+  E_t.bound_domain * E_t.bound_domain
+)
+type(
+  E_t.bound_domain * E_t.bound_domain
+)
+"e_eq.ml" 132 3672 3698 "e_eq.ml" 132 3672 3702
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 132 3672 3703 "e_eq.ml" 132 3672 3704
+type(
+  E_t.expr
+)
+ident(
+  int_ref d "e_eq.ml" 132 3672 3683 "e_eq.ml" 132 3672 3684
+)
+"e_eq.ml" 132 3672 3705 "e_eq.ml" 132 3672 3706
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 132 3672 3693 "e_eq.ml" 132 3672 3694
+)
+"e_eq.ml" 132 3672 3698 "e_eq.ml" 132 3672 3706
+type(
+  bool
+)
+"e_eq.ml" 133 3707 3711 "e_eq.ml" 133 3707 3716
+type(
+  E_t.bound_domain
+)
+"e_eq.ml" 133 3707 3718 "e_eq.ml" 133 3707 3723
+type(
+  E_t.bound_domain
+)
+"e_eq.ml" 133 3707 3711 "e_eq.ml" 133 3707 3723
+type(
+  E_t.bound_domain * E_t.bound_domain
+)
+type(
+  E_t.bound_domain * E_t.bound_domain
+)
+"e_eq.ml" 133 3707 3727 "e_eq.ml" 133 3707 3731
+type(
+  bool
+)
+"e_eq.ml" 134 3732 3736 "e_eq.ml" 134 3732 3737
+type(
+  E_t.bound_domain * E_t.bound_domain
+)
+type(
+  E_t.bound_domain * E_t.bound_domain
+)
+"e_eq.ml" 134 3732 3741 "e_eq.ml" 134 3732 3746
+type(
+  bool
+)
+"e_eq.ml" 130 3608 3623 "e_eq.ml" 134 3732 3746
+type(
+  bool
+)
+"e_eq.ml" 136 3748 3752 "e_eq.ml" 136 3748 3760
+type(
+  E_t.expr option -> E_t.expr option -> bool
+)
+ident(
+  def opt_expr "e_eq.ml" 18 308 308 "e_eq.ml" 0 0 -1
+)
+"e_eq.ml" 136 3748 3761 "e_eq.ml" 136 3748 3763
+type(
+  E_t.expr option
+)
+ident(
+  def eo "e_eq.ml" 136 3748 3764 "e_eq.ml" 139 3841 3855
+)
+"e_eq.ml" 136 3748 3764 "e_eq.ml" 136 3748 3766
+type(
+  E_t.expr option
+)
+ident(
+  def fo "e_eq.ml" 136 3748 3769 "e_eq.ml" 139 3841 3855
+)
+"e_eq.ml" 136 3748 3775 "e_eq.ml" 136 3748 3777
+type(
+  E_t.expr option
+)
+ident(
+  int_ref eo "e_eq.ml" 136 3748 3761 "e_eq.ml" 136 3748 3763
+)
+"e_eq.ml" 136 3748 3779 "e_eq.ml" 136 3748 3781
+type(
+  E_t.expr option
+)
+ident(
+  int_ref fo "e_eq.ml" 136 3748 3764 "e_eq.ml" 136 3748 3766
+)
+"e_eq.ml" 136 3748 3775 "e_eq.ml" 136 3748 3781
+type(
+  E_t.expr option * E_t.expr option
+)
+"e_eq.ml" 137 3787 3791 "e_eq.ml" 137 3787 3795
+type(
+  E_t.expr option
+)
+"e_eq.ml" 137 3787 3797 "e_eq.ml" 137 3787 3801
+type(
+  E_t.expr option
+)
+"e_eq.ml" 137 3787 3791 "e_eq.ml" 137 3787 3801
+type(
+  E_t.expr option * E_t.expr option
+)
+type(
+  E_t.expr option * E_t.expr option
+)
+"e_eq.ml" 137 3787 3805 "e_eq.ml" 137 3787 3809
+type(
+  bool
+)
+"e_eq.ml" 138 3810 3819 "e_eq.ml" 138 3810 3820
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 138 3810 3832 "e_eq.ml" 138 3810 3840
+)
+"e_eq.ml" 138 3810 3814 "e_eq.ml" 138 3810 3820
+type(
+  E_t.expr option
+)
+"e_eq.ml" 138 3810 3827 "e_eq.ml" 138 3810 3828
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 138 3810 3832 "e_eq.ml" 138 3810 3840
+)
+"e_eq.ml" 138 3810 3822 "e_eq.ml" 138 3810 3828
+type(
+  E_t.expr option
+)
+"e_eq.ml" 138 3810 3814 "e_eq.ml" 138 3810 3828
+type(
+  E_t.expr option * E_t.expr option
+)
+type(
+  E_t.expr option * E_t.expr option
+)
+"e_eq.ml" 138 3810 3832 "e_eq.ml" 138 3810 3836
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 138 3810 3837 "e_eq.ml" 138 3810 3838
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 138 3810 3819 "e_eq.ml" 138 3810 3820
+)
+"e_eq.ml" 138 3810 3839 "e_eq.ml" 138 3810 3840
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 138 3810 3827 "e_eq.ml" 138 3810 3828
+)
+"e_eq.ml" 138 3810 3832 "e_eq.ml" 138 3810 3840
+type(
+  bool
+)
+"e_eq.ml" 139 3841 3845 "e_eq.ml" 139 3841 3846
+type(
+  E_t.expr option * E_t.expr option
+)
+type(
+  E_t.expr option * E_t.expr option
+)
+"e_eq.ml" 139 3841 3850 "e_eq.ml" 139 3841 3855
+type(
+  bool
+)
+"e_eq.ml" 136 3748 3769 "e_eq.ml" 139 3841 3855
+type(
+  bool
+)
+"e_eq.ml" 141 3857 3861 "e_eq.ml" 141 3857 3866
+type(
+  E_t.defn list -> E_t.defn list -> bool
+)
+ident(
+  def defns "e_eq.ml" 18 308 308 "e_eq.ml" 0 0 -1
+)
+"e_eq.ml" 141 3857 3867 "e_eq.ml" 141 3857 3869
+type(
+  E_t.defn list
+)
+ident(
+  def ds "e_eq.ml" 141 3857 3870 "e_eq.ml" 145 3966 3980
+)
+"e_eq.ml" 141 3857 3870 "e_eq.ml" 141 3857 3872
+type(
+  E_t.defn list
+)
+ident(
+  def es "e_eq.ml" 141 3857 3875 "e_eq.ml" 145 3966 3980
+)
+"e_eq.ml" 141 3857 3881 "e_eq.ml" 141 3857 3883
+type(
+  E_t.defn list
+)
+ident(
+  int_ref ds "e_eq.ml" 141 3857 3867 "e_eq.ml" 141 3857 3869
+)
+"e_eq.ml" 141 3857 3885 "e_eq.ml" 141 3857 3887
+type(
+  E_t.defn list
+)
+ident(
+  int_ref es "e_eq.ml" 141 3857 3870 "e_eq.ml" 141 3857 3872
+)
+"e_eq.ml" 141 3857 3881 "e_eq.ml" 141 3857 3887
+type(
+  E_t.defn list * E_t.defn list
+)
+"e_eq.ml" 142 3893 3897 "e_eq.ml" 142 3893 3899
+type(
+  E_t.defn list
+)
+"e_eq.ml" 142 3893 3901 "e_eq.ml" 142 3893 3903
+type(
+  E_t.defn list
+)
+"e_eq.ml" 142 3893 3897 "e_eq.ml" 142 3893 3903
+type(
+  E_t.defn list * E_t.defn list
+)
+type(
+  E_t.defn list * E_t.defn list
+)
+"e_eq.ml" 142 3893 3907 "e_eq.ml" 142 3893 3911
+type(
+  bool
+)
+"e_eq.ml" 143 3912 3916 "e_eq.ml" 143 3912 3917
+type(
+  E_t.defn
+)
+ident(
+  def d "e_eq.ml" 144 3936 3942 "e_eq.ml" 144 3936 3965
+)
+"e_eq.ml" 143 3912 3921 "e_eq.ml" 143 3912 3923
+type(
+  E_t.defn list
+)
+ident(
+  def ds "e_eq.ml" 144 3936 3942 "e_eq.ml" 144 3936 3965
+)
+"e_eq.ml" 143 3912 3916 "e_eq.ml" 143 3912 3923
+type(
+  E_t.defn list
+)
+"e_eq.ml" 143 3912 3925 "e_eq.ml" 143 3912 3926
+type(
+  E_t.defn
+)
+ident(
+  def e "e_eq.ml" 144 3936 3942 "e_eq.ml" 144 3936 3965
+)
+"e_eq.ml" 143 3912 3930 "e_eq.ml" 143 3912 3932
+type(
+  E_t.defn list
+)
+ident(
+  def es "e_eq.ml" 144 3936 3942 "e_eq.ml" 144 3936 3965
+)
+"e_eq.ml" 143 3912 3925 "e_eq.ml" 143 3912 3932
+type(
+  E_t.defn list
+)
+"e_eq.ml" 143 3912 3916 "e_eq.ml" 143 3912 3932
+type(
+  E_t.defn list * E_t.defn list
+)
+type(
+  E_t.defn list * E_t.defn list
+)
+"e_eq.ml" 144 3936 3942 "e_eq.ml" 144 3936 3946
+type(
+  E_t.defn -> E_t.defn -> bool
+)
+ident(
+  int_ref defn "e_eq.ml" 147 3982 3986 "e_eq.ml" 147 3982 3990
+)
+"e_eq.ml" 144 3936 3947 "e_eq.ml" 144 3936 3948
+type(
+  E_t.defn
+)
+ident(
+  int_ref d "e_eq.ml" 143 3912 3916 "e_eq.ml" 143 3912 3917
+)
+"e_eq.ml" 144 3936 3949 "e_eq.ml" 144 3936 3950
+type(
+  E_t.defn
+)
+ident(
+  int_ref e "e_eq.ml" 143 3912 3925 "e_eq.ml" 143 3912 3926
+)
+"e_eq.ml" 144 3936 3942 "e_eq.ml" 144 3936 3950
+type(
+  bool
+)
+"e_eq.ml" 144 3936 3951 "e_eq.ml" 144 3936 3953
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 144 3936 3954 "e_eq.ml" 144 3936 3959
+type(
+  E_t.defn list -> E_t.defn list -> bool
+)
+ident(
+  int_ref defns "e_eq.ml" 141 3857 3861 "e_eq.ml" 141 3857 3866
+)
+"e_eq.ml" 144 3936 3960 "e_eq.ml" 144 3936 3962
+type(
+  E_t.defn list
+)
+ident(
+  int_ref ds "e_eq.ml" 143 3912 3921 "e_eq.ml" 143 3912 3923
+)
+"e_eq.ml" 144 3936 3963 "e_eq.ml" 144 3936 3965
+type(
+  E_t.defn list
+)
+ident(
+  int_ref es "e_eq.ml" 143 3912 3930 "e_eq.ml" 143 3912 3932
+)
+"e_eq.ml" 144 3936 3954 "e_eq.ml" 144 3936 3965
+type(
+  bool
+)
+"e_eq.ml" 144 3936 3942 "e_eq.ml" 144 3936 3965
+type(
+  bool
+)
+"e_eq.ml" 145 3966 3970 "e_eq.ml" 145 3966 3971
+type(
+  E_t.defn list * E_t.defn list
+)
+type(
+  E_t.defn list * E_t.defn list
+)
+"e_eq.ml" 145 3966 3975 "e_eq.ml" 145 3966 3980
+type(
+  bool
+)
+"e_eq.ml" 141 3857 3875 "e_eq.ml" 145 3966 3980
+type(
+  bool
+)
+"e_eq.ml" 147 3982 3986 "e_eq.ml" 147 3982 3990
+type(
+  E_t.defn -> E_t.defn -> bool
+)
+ident(
+  def defn "e_eq.ml" 18 308 308 "e_eq.ml" 0 0 -1
+)
+"e_eq.ml" 147 3982 3991 "e_eq.ml" 147 3982 3992
+type(
+  E_t.defn
+)
+ident(
+  def d "e_eq.ml" 147 3982 3993 "e_eq.ml" 154 4196 4210
+)
+"e_eq.ml" 147 3982 3993 "e_eq.ml" 147 3982 3994
+type(
+  E_t.defn
+)
+ident(
+  def e "e_eq.ml" 147 3982 3997 "e_eq.ml" 154 4196 4210
+)
+"e_eq.ml" 147 3982 4003 "e_eq.ml" 147 3982 4004
+type(
+  E_t.defn
+)
+ident(
+  int_ref d "e_eq.ml" 147 3982 3991 "e_eq.ml" 147 3982 3992
+)
+"e_eq.ml" 147 3982 4003 "e_eq.ml" 147 3982 4009
+type(
+  E_t.defn_
+)
+"e_eq.ml" 147 3982 4011 "e_eq.ml" 147 3982 4012
+type(
+  E_t.defn
+)
+ident(
+  int_ref e "e_eq.ml" 147 3982 3993 "e_eq.ml" 147 3982 3994
+)
+"e_eq.ml" 147 3982 4011 "e_eq.ml" 147 3982 4017
+type(
+  E_t.defn_
+)
+"e_eq.ml" 147 3982 4003 "e_eq.ml" 147 3982 4017
+type(
+  E_t.defn_ * E_t.defn_
+)
+"e_eq.ml" 148 4023 4037 "e_eq.ml" 148 4023 4038
+type(
+  Util.hint
+)
+"e_eq.ml" 148 4023 4040 "e_eq.ml" 148 4023 4041
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 149 4063 4069 "e_eq.ml" 149 4063 4077
+)
+"e_eq.ml" 148 4023 4027 "e_eq.ml" 148 4023 4042
+type(
+  E_t.defn_
+)
+"e_eq.ml" 148 4023 4054 "e_eq.ml" 148 4023 4055
+type(
+  Util.hint
+)
+"e_eq.ml" 148 4023 4057 "e_eq.ml" 148 4023 4058
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 149 4063 4069 "e_eq.ml" 149 4063 4077
+)
+"e_eq.ml" 148 4023 4044 "e_eq.ml" 148 4023 4059
+type(
+  E_t.defn_
+)
+"e_eq.ml" 148 4023 4027 "e_eq.ml" 148 4023 4059
+type(
+  E_t.defn_ * E_t.defn_
+)
+type(
+  E_t.defn_ * E_t.defn_
+)
+"e_eq.ml" 149 4063 4069 "e_eq.ml" 149 4063 4073
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 149 4063 4074 "e_eq.ml" 149 4063 4075
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 148 4023 4040 "e_eq.ml" 148 4023 4041
+)
+"e_eq.ml" 149 4063 4076 "e_eq.ml" 149 4063 4077
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 148 4023 4057 "e_eq.ml" 148 4023 4058
+)
+"e_eq.ml" 149 4063 4069 "e_eq.ml" 149 4063 4077
+type(
+  bool
+)
+"e_eq.ml" 150 4078 4092 "e_eq.ml" 150 4078 4093
+type(
+  Util.hint
+)
+"e_eq.ml" 150 4078 4095 "e_eq.ml" 150 4078 4096
+type(
+  E_t.instance
+)
+ident(
+  def i "e_eq.ml" 151 4118 4124 "e_eq.ml" 151 4118 4136
+)
+"e_eq.ml" 150 4078 4082 "e_eq.ml" 150 4078 4097
+type(
+  E_t.defn_
+)
+"e_eq.ml" 150 4078 4109 "e_eq.ml" 150 4078 4110
+type(
+  Util.hint
+)
+"e_eq.ml" 150 4078 4112 "e_eq.ml" 150 4078 4113
+type(
+  E_t.instance
+)
+ident(
+  def j "e_eq.ml" 151 4118 4124 "e_eq.ml" 151 4118 4136
+)
+"e_eq.ml" 150 4078 4099 "e_eq.ml" 150 4078 4114
+type(
+  E_t.defn_
+)
+"e_eq.ml" 150 4078 4082 "e_eq.ml" 150 4078 4114
+type(
+  E_t.defn_ * E_t.defn_
+)
+type(
+  E_t.defn_ * E_t.defn_
+)
+"e_eq.ml" 151 4118 4124 "e_eq.ml" 151 4118 4132
+type(
+  E_t.instance -> E_t.instance -> bool
+)
+ident(
+  int_ref instance "e_eq.ml" 180 4898 4902 "e_eq.ml" 180 4898 4910
+)
+"e_eq.ml" 151 4118 4133 "e_eq.ml" 151 4118 4134
+type(
+  E_t.instance
+)
+ident(
+  int_ref i "e_eq.ml" 150 4078 4095 "e_eq.ml" 150 4078 4096
+)
+"e_eq.ml" 151 4118 4135 "e_eq.ml" 151 4118 4136
+type(
+  E_t.instance
+)
+ident(
+  int_ref j "e_eq.ml" 150 4078 4112 "e_eq.ml" 150 4078 4113
+)
+"e_eq.ml" 151 4118 4124 "e_eq.ml" 151 4118 4136
+type(
+  bool
+)
+"e_eq.ml" 152 4137 4150 "e_eq.ml" 152 4137 4151
+type(
+  Util.hint
+)
+"e_eq.ml" 152 4137 4153 "e_eq.ml" 152 4137 4154
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 153 4181 4187 "e_eq.ml" 153 4181 4195
+)
+"e_eq.ml" 152 4137 4156 "e_eq.ml" 152 4137 4157
+type(
+  (Util.hint * E_t.backend_args) list list
+)
+"e_eq.ml" 152 4137 4141 "e_eq.ml" 152 4137 4158
+type(
+  E_t.defn_
+)
+"e_eq.ml" 152 4137 4169 "e_eq.ml" 152 4137 4170
+type(
+  Util.hint
+)
+"e_eq.ml" 152 4137 4172 "e_eq.ml" 152 4137 4173
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 153 4181 4187 "e_eq.ml" 153 4181 4195
+)
+"e_eq.ml" 152 4137 4175 "e_eq.ml" 152 4137 4176
+type(
+  (Util.hint * E_t.backend_args) list list
+)
+"e_eq.ml" 152 4137 4160 "e_eq.ml" 152 4137 4177
+type(
+  E_t.defn_
+)
+"e_eq.ml" 152 4137 4141 "e_eq.ml" 152 4137 4177
+type(
+  E_t.defn_ * E_t.defn_
+)
+type(
+  E_t.defn_ * E_t.defn_
+)
+"e_eq.ml" 153 4181 4187 "e_eq.ml" 153 4181 4191
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 153 4181 4192 "e_eq.ml" 153 4181 4193
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 152 4137 4153 "e_eq.ml" 152 4137 4154
+)
+"e_eq.ml" 153 4181 4194 "e_eq.ml" 153 4181 4195
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 152 4137 4172 "e_eq.ml" 152 4137 4173
+)
+"e_eq.ml" 153 4181 4187 "e_eq.ml" 153 4181 4195
+type(
+  bool
+)
+"e_eq.ml" 154 4196 4200 "e_eq.ml" 154 4196 4201
+type(
+  E_t.defn_ * E_t.defn_
+)
+type(
+  E_t.defn_ * E_t.defn_
+)
+"e_eq.ml" 154 4196 4205 "e_eq.ml" 154 4196 4210
+type(
+  bool
+)
+"e_eq.ml" 147 3982 3997 "e_eq.ml" 154 4196 4210
+type(
+  bool
+)
+"e_eq.ml" 156 4212 4216 "e_eq.ml" 156 4212 4223
+type(
+  E_t.sequent -> E_t.sequent -> bool
+)
+ident(
+  def sequent "e_eq.ml" 18 308 308 "e_eq.ml" 0 0 -1
+)
+"e_eq.ml" 156 4212 4224 "e_eq.ml" 156 4212 4225
+type(
+  E_t.sequent
+)
+ident(
+  def s "e_eq.ml" 156 4212 4226 "e_eq.ml" 157 4230 4285
+)
+"e_eq.ml" 156 4212 4226 "e_eq.ml" 156 4212 4227
+type(
+  E_t.sequent
+)
+ident(
+  def t "e_eq.ml" 157 4230 4232 "e_eq.ml" 157 4230 4285
+)
+"e_eq.ml" 157 4230 4232 "e_eq.ml" 157 4230 4239
+type(
+  E_t.hyp Deque.dq -> E_t.hyp Deque.dq -> bool
+)
+ident(
+  int_ref context "e_eq.ml" 159 4287 4291 "e_eq.ml" 159 4287 4298
+)
+"e_eq.ml" 157 4230 4240 "e_eq.ml" 157 4230 4241
+type(
+  E_t.sequent
+)
+ident(
+  int_ref s "e_eq.ml" 156 4212 4224 "e_eq.ml" 156 4212 4225
+)
+"e_eq.ml" 157 4230 4240 "e_eq.ml" 157 4230 4249
+type(
+  E_t.hyp Deque.dq
+)
+"e_eq.ml" 157 4230 4250 "e_eq.ml" 157 4230 4251
+type(
+  E_t.sequent
+)
+ident(
+  int_ref t "e_eq.ml" 156 4212 4226 "e_eq.ml" 156 4212 4227
+)
+"e_eq.ml" 157 4230 4250 "e_eq.ml" 157 4230 4259
+type(
+  E_t.hyp Deque.dq
+)
+"e_eq.ml" 157 4230 4232 "e_eq.ml" 157 4230 4259
+type(
+  bool
+)
+"e_eq.ml" 157 4230 4260 "e_eq.ml" 157 4230 4262
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 157 4230 4263 "e_eq.ml" 157 4230 4267
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 157 4230 4268 "e_eq.ml" 157 4230 4269
+type(
+  E_t.sequent
+)
+ident(
+  int_ref s "e_eq.ml" 156 4212 4224 "e_eq.ml" 156 4212 4225
+)
+"e_eq.ml" 157 4230 4268 "e_eq.ml" 157 4230 4276
+type(
+  E_t.expr
+)
+"e_eq.ml" 157 4230 4277 "e_eq.ml" 157 4230 4278
+type(
+  E_t.sequent
+)
+ident(
+  int_ref t "e_eq.ml" 156 4212 4226 "e_eq.ml" 156 4212 4227
+)
+"e_eq.ml" 157 4230 4277 "e_eq.ml" 157 4230 4285
+type(
+  E_t.expr
+)
+"e_eq.ml" 157 4230 4263 "e_eq.ml" 157 4230 4285
+type(
+  bool
+)
+"e_eq.ml" 157 4230 4232 "e_eq.ml" 157 4230 4285
+type(
+  bool
+)
+"e_eq.ml" 159 4287 4291 "e_eq.ml" 159 4287 4298
+type(
+  E_t.hyp Deque.dq -> E_t.hyp Deque.dq -> bool
+)
+ident(
+  def context "e_eq.ml" 18 308 308 "e_eq.ml" 0 0 -1
+)
+"e_eq.ml" 159 4287 4299 "e_eq.ml" 159 4287 4301
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def cx "e_eq.ml" 159 4287 4302 "e_eq.ml" 163 4437 4451
+)
+"e_eq.ml" 159 4287 4302 "e_eq.ml" 159 4287 4304
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def dx "e_eq.ml" 159 4287 4307 "e_eq.ml" 163 4437 4451
+)
+"e_eq.ml" 159 4287 4313 "e_eq.ml" 159 4287 4324
+type(
+  E_t.hyp Deque.dq -> (E_t.hyp * E_t.hyp Deque.dq) option
+)
+ident(
+  int_ref Deque.front "deque.mli" 14 253 253 "deque.mli" 14 253 293
+)
+"e_eq.ml" 159 4287 4325 "e_eq.ml" 159 4287 4327
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_eq.ml" 159 4287 4299 "e_eq.ml" 159 4287 4301
+)
+"e_eq.ml" 159 4287 4313 "e_eq.ml" 159 4287 4327
+type(
+  (E_t.hyp * E_t.hyp Deque.dq) option
+)
+"e_eq.ml" 159 4287 4329 "e_eq.ml" 159 4287 4340
+type(
+  E_t.hyp Deque.dq -> (E_t.hyp * E_t.hyp Deque.dq) option
+)
+ident(
+  int_ref Deque.front "deque.mli" 14 253 253 "deque.mli" 14 253 293
+)
+"e_eq.ml" 159 4287 4341 "e_eq.ml" 159 4287 4343
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref dx "e_eq.ml" 159 4287 4302 "e_eq.ml" 159 4287 4304
+)
+"e_eq.ml" 159 4287 4329 "e_eq.ml" 159 4287 4343
+type(
+  (E_t.hyp * E_t.hyp Deque.dq) option
+)
+"e_eq.ml" 159 4287 4313 "e_eq.ml" 159 4287 4343
+type(
+  (E_t.hyp * E_t.hyp Deque.dq) option * (E_t.hyp * E_t.hyp Deque.dq) option
+)
+"e_eq.ml" 160 4349 4353 "e_eq.ml" 160 4349 4357
+type(
+  (E_t.hyp * E_t.hyp Deque.dq) option
+)
+"e_eq.ml" 160 4349 4359 "e_eq.ml" 160 4349 4363
+type(
+  (E_t.hyp * E_t.hyp Deque.dq) option
+)
+"e_eq.ml" 160 4349 4353 "e_eq.ml" 160 4349 4363
+type(
+  (E_t.hyp * E_t.hyp Deque.dq) option * (E_t.hyp * E_t.hyp Deque.dq) option
+)
+type(
+  (E_t.hyp * E_t.hyp Deque.dq) option * (E_t.hyp * E_t.hyp Deque.dq) option
+)
+"e_eq.ml" 160 4349 4367 "e_eq.ml" 160 4349 4371
+type(
+  bool
+)
+"e_eq.ml" 161 4372 4382 "e_eq.ml" 161 4372 4383
+type(
+  E_t.hyp
+)
+ident(
+  def h "e_eq.ml" 162 4406 4412 "e_eq.ml" 162 4406 4436
+)
+"e_eq.ml" 161 4372 4385 "e_eq.ml" 161 4372 4387
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def cx "e_eq.ml" 162 4406 4412 "e_eq.ml" 162 4406 4436
+)
+"e_eq.ml" 161 4372 4381 "e_eq.ml" 161 4372 4388
+type(
+  E_t.hyp * E_t.hyp Deque.dq
+)
+"e_eq.ml" 161 4372 4376 "e_eq.ml" 161 4372 4388
+type(
+  (E_t.hyp * E_t.hyp Deque.dq) option
+)
+"e_eq.ml" 161 4372 4396 "e_eq.ml" 161 4372 4397
+type(
+  E_t.hyp
+)
+ident(
+  def g "e_eq.ml" 162 4406 4412 "e_eq.ml" 162 4406 4436
+)
+"e_eq.ml" 161 4372 4399 "e_eq.ml" 161 4372 4401
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def dx "e_eq.ml" 162 4406 4412 "e_eq.ml" 162 4406 4436
+)
+"e_eq.ml" 161 4372 4395 "e_eq.ml" 161 4372 4402
+type(
+  E_t.hyp * E_t.hyp Deque.dq
+)
+"e_eq.ml" 161 4372 4390 "e_eq.ml" 161 4372 4402
+type(
+  (E_t.hyp * E_t.hyp Deque.dq) option
+)
+"e_eq.ml" 161 4372 4376 "e_eq.ml" 161 4372 4402
+type(
+  (E_t.hyp * E_t.hyp Deque.dq) option * (E_t.hyp * E_t.hyp Deque.dq) option
+)
+type(
+  (E_t.hyp * E_t.hyp Deque.dq) option * (E_t.hyp * E_t.hyp Deque.dq) option
+)
+"e_eq.ml" 162 4406 4412 "e_eq.ml" 162 4406 4415
+type(
+  E_t.hyp -> E_t.hyp -> bool
+)
+ident(
+  int_ref hyp "e_eq.ml" 165 4453 4457 "e_eq.ml" 165 4453 4460
+)
+"e_eq.ml" 162 4406 4416 "e_eq.ml" 162 4406 4417
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_eq.ml" 161 4372 4382 "e_eq.ml" 161 4372 4383
+)
+"e_eq.ml" 162 4406 4418 "e_eq.ml" 162 4406 4419
+type(
+  E_t.hyp
+)
+ident(
+  int_ref g "e_eq.ml" 161 4372 4396 "e_eq.ml" 161 4372 4397
+)
+"e_eq.ml" 162 4406 4412 "e_eq.ml" 162 4406 4419
+type(
+  bool
+)
+"e_eq.ml" 162 4406 4420 "e_eq.ml" 162 4406 4422
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 162 4406 4423 "e_eq.ml" 162 4406 4430
+type(
+  E_t.hyp Deque.dq -> E_t.hyp Deque.dq -> bool
+)
+ident(
+  int_ref context "e_eq.ml" 159 4287 4291 "e_eq.ml" 159 4287 4298
+)
+"e_eq.ml" 162 4406 4431 "e_eq.ml" 162 4406 4433
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_eq.ml" 161 4372 4385 "e_eq.ml" 161 4372 4387
+)
+"e_eq.ml" 162 4406 4434 "e_eq.ml" 162 4406 4436
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref dx "e_eq.ml" 161 4372 4399 "e_eq.ml" 161 4372 4401
+)
+"e_eq.ml" 162 4406 4423 "e_eq.ml" 162 4406 4436
+type(
+  bool
+)
+"e_eq.ml" 162 4406 4412 "e_eq.ml" 162 4406 4436
+type(
+  bool
+)
+"e_eq.ml" 163 4437 4441 "e_eq.ml" 163 4437 4442
+type(
+  (E_t.hyp * E_t.hyp Deque.dq) option * (E_t.hyp * E_t.hyp Deque.dq) option
+)
+type(
+  (E_t.hyp * E_t.hyp Deque.dq) option * (E_t.hyp * E_t.hyp Deque.dq) option
+)
+"e_eq.ml" 163 4437 4446 "e_eq.ml" 163 4437 4451
+type(
+  bool
+)
+"e_eq.ml" 159 4287 4307 "e_eq.ml" 163 4437 4451
+type(
+  bool
+)
+"e_eq.ml" 165 4453 4457 "e_eq.ml" 165 4453 4460
+type(
+  E_t.hyp -> E_t.hyp -> bool
+)
+ident(
+  def hyp "e_eq.ml" 18 308 308 "e_eq.ml" 0 0 -1
+)
+"e_eq.ml" 165 4453 4461 "e_eq.ml" 165 4453 4462
+type(
+  E_t.hyp
+)
+ident(
+  def h "e_eq.ml" 165 4453 4463 "e_eq.ml" 178 4882 4896
+)
+"e_eq.ml" 165 4453 4463 "e_eq.ml" 165 4453 4464
+type(
+  E_t.hyp
+)
+ident(
+  def g "e_eq.ml" 165 4453 4467 "e_eq.ml" 178 4882 4896
+)
+"e_eq.ml" 165 4453 4473 "e_eq.ml" 165 4453 4474
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_eq.ml" 165 4453 4461 "e_eq.ml" 165 4453 4462
+)
+"e_eq.ml" 165 4453 4473 "e_eq.ml" 165 4453 4479
+type(
+  E_t.hyp_
+)
+"e_eq.ml" 165 4453 4481 "e_eq.ml" 165 4453 4482
+type(
+  E_t.hyp
+)
+ident(
+  int_ref g "e_eq.ml" 165 4453 4463 "e_eq.ml" 165 4453 4464
+)
+"e_eq.ml" 165 4453 4481 "e_eq.ml" 165 4453 4487
+type(
+  E_t.hyp_
+)
+"e_eq.ml" 165 4453 4473 "e_eq.ml" 165 4453 4487
+type(
+  E_t.hyp_ * E_t.hyp_
+)
+"e_eq.ml" 166 4493 4504 "e_eq.ml" 166 4493 4505
+type(
+  Util.hint
+)
+"e_eq.ml" 166 4493 4507 "e_eq.ml" 166 4493 4510
+type(
+  E_t.shape
+)
+ident(
+  def hsh "e_eq.ml" 167 4543 4549 "e_eq.ml" 172 4720 4729
+)
+"e_eq.ml" 166 4493 4512 "e_eq.ml" 166 4493 4513
+type(
+  E_t.kind
+)
+ident(
+  def l "e_eq.ml" 167 4543 4549 "e_eq.ml" 172 4720 4729
+)
+"e_eq.ml" 166 4493 4515 "e_eq.ml" 166 4493 4516
+type(
+  E_t.hdom
+)
+ident(
+  def b "e_eq.ml" 167 4543 4549 "e_eq.ml" 172 4720 4729
+)
+"e_eq.ml" 166 4493 4497 "e_eq.ml" 166 4493 4517
+type(
+  E_t.hyp_
+)
+"e_eq.ml" 166 4493 4526 "e_eq.ml" 166 4493 4527
+type(
+  Util.hint
+)
+"e_eq.ml" 166 4493 4529 "e_eq.ml" 166 4493 4532
+type(
+  E_t.shape
+)
+ident(
+  def gsh "e_eq.ml" 167 4543 4549 "e_eq.ml" 172 4720 4729
+)
+"e_eq.ml" 166 4493 4534 "e_eq.ml" 166 4493 4535
+type(
+  E_t.kind
+)
+ident(
+  def m "e_eq.ml" 167 4543 4549 "e_eq.ml" 172 4720 4729
+)
+"e_eq.ml" 166 4493 4537 "e_eq.ml" 166 4493 4538
+type(
+  E_t.hdom
+)
+ident(
+  def c "e_eq.ml" 167 4543 4549 "e_eq.ml" 172 4720 4729
+)
+"e_eq.ml" 166 4493 4519 "e_eq.ml" 166 4493 4539
+type(
+  E_t.hyp_
+)
+"e_eq.ml" 166 4493 4497 "e_eq.ml" 166 4493 4539
+type(
+  E_t.hyp_ * E_t.hyp_
+)
+type(
+  E_t.hyp_ * E_t.hyp_
+)
+"e_eq.ml" 167 4543 4549 "e_eq.ml" 167 4543 4550
+type(
+  E_t.kind
+)
+ident(
+  int_ref l "e_eq.ml" 166 4493 4512 "e_eq.ml" 166 4493 4513
+)
+"e_eq.ml" 167 4543 4551 "e_eq.ml" 167 4543 4552
+type(
+  E_t.kind -> E_t.kind -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 167 4543 4553 "e_eq.ml" 167 4543 4554
+type(
+  E_t.kind
+)
+ident(
+  int_ref m "e_eq.ml" 166 4493 4534 "e_eq.ml" 166 4493 4535
+)
+"e_eq.ml" 167 4543 4549 "e_eq.ml" 167 4543 4554
+type(
+  bool
+)
+"e_eq.ml" 167 4543 4555 "e_eq.ml" 167 4543 4557
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 167 4543 4558 "e_eq.ml" 167 4543 4561
+type(
+  E_t.shape
+)
+ident(
+  int_ref hsh "e_eq.ml" 166 4493 4507 "e_eq.ml" 166 4493 4510
+)
+"e_eq.ml" 167 4543 4562 "e_eq.ml" 167 4543 4563
+type(
+  E_t.shape -> E_t.shape -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 167 4543 4564 "e_eq.ml" 167 4543 4567
+type(
+  E_t.shape
+)
+ident(
+  int_ref gsh "e_eq.ml" 166 4493 4529 "e_eq.ml" 166 4493 4532
+)
+"e_eq.ml" 167 4543 4558 "e_eq.ml" 167 4543 4567
+type(
+  bool
+)
+"e_eq.ml" 167 4543 4568 "e_eq.ml" 167 4543 4570
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 168 4577 4591 "e_eq.ml" 168 4577 4592
+type(
+  E_t.hdom
+)
+ident(
+  int_ref b "e_eq.ml" 166 4493 4515 "e_eq.ml" 166 4493 4516
+)
+"e_eq.ml" 168 4577 4594 "e_eq.ml" 168 4577 4595
+type(
+  E_t.hdom
+)
+ident(
+  int_ref c "e_eq.ml" 166 4493 4537 "e_eq.ml" 166 4493 4538
+)
+"e_eq.ml" 168 4577 4591 "e_eq.ml" 168 4577 4595
+type(
+  E_t.hdom * E_t.hdom
+)
+"e_eq.ml" 169 4601 4613 "e_eq.ml" 169 4601 4622
+type(
+  E_t.hdom
+)
+"e_eq.ml" 169 4601 4624 "e_eq.ml" 169 4601 4633
+type(
+  E_t.hdom
+)
+"e_eq.ml" 169 4601 4613 "e_eq.ml" 169 4601 4633
+type(
+  E_t.hdom * E_t.hdom
+)
+type(
+  E_t.hdom * E_t.hdom
+)
+"e_eq.ml" 169 4601 4637 "e_eq.ml" 169 4601 4641
+type(
+  bool
+)
+"e_eq.ml" 170 4642 4663 "e_eq.ml" 170 4642 4664
+type(
+  E_t.expr
+)
+ident(
+  def b "e_eq.ml" 170 4642 4688 "e_eq.ml" 170 4642 4696
+)
+"e_eq.ml" 170 4642 4666 "e_eq.ml" 170 4642 4667
+type(
+  E_t.visibility
+)
+"e_eq.ml" 170 4642 4654 "e_eq.ml" 170 4642 4668
+type(
+  E_t.hdom
+)
+"e_eq.ml" 170 4642 4679 "e_eq.ml" 170 4642 4680
+type(
+  E_t.expr
+)
+ident(
+  def c "e_eq.ml" 170 4642 4688 "e_eq.ml" 170 4642 4696
+)
+"e_eq.ml" 170 4642 4682 "e_eq.ml" 170 4642 4683
+type(
+  E_t.visibility
+)
+"e_eq.ml" 170 4642 4670 "e_eq.ml" 170 4642 4684
+type(
+  E_t.hdom
+)
+"e_eq.ml" 170 4642 4654 "e_eq.ml" 170 4642 4684
+type(
+  E_t.hdom * E_t.hdom
+)
+type(
+  E_t.hdom * E_t.hdom
+)
+"e_eq.ml" 170 4642 4688 "e_eq.ml" 170 4642 4692
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 170 4642 4693 "e_eq.ml" 170 4642 4694
+type(
+  E_t.expr
+)
+ident(
+  int_ref b "e_eq.ml" 170 4642 4663 "e_eq.ml" 170 4642 4664
+)
+"e_eq.ml" 170 4642 4695 "e_eq.ml" 170 4642 4696
+type(
+  E_t.expr
+)
+ident(
+  int_ref c "e_eq.ml" 170 4642 4679 "e_eq.ml" 170 4642 4680
+)
+"e_eq.ml" 170 4642 4688 "e_eq.ml" 170 4642 4696
+type(
+  bool
+)
+"e_eq.ml" 171 4697 4709 "e_eq.ml" 171 4697 4710
+type(
+  E_t.hdom * E_t.hdom
+)
+type(
+  E_t.hdom * E_t.hdom
+)
+"e_eq.ml" 171 4697 4714 "e_eq.ml" 171 4697 4719
+type(
+  bool
+)
+"e_eq.ml" 167 4543 4571 "e_eq.ml" 172 4720 4729
+type(
+  bool
+)
+"e_eq.ml" 167 4543 4558 "e_eq.ml" 172 4720 4729
+type(
+  bool
+)
+"e_eq.ml" 167 4543 4549 "e_eq.ml" 172 4720 4729
+type(
+  bool
+)
+"e_eq.ml" 173 4730 4739 "e_eq.ml" 173 4730 4740
+type(
+  Util.hint
+)
+"e_eq.ml" 173 4730 4734 "e_eq.ml" 173 4730 4740
+type(
+  E_t.hyp_
+)
+"e_eq.ml" 173 4730 4747 "e_eq.ml" 173 4730 4748
+type(
+  Util.hint
+)
+"e_eq.ml" 173 4730 4742 "e_eq.ml" 173 4730 4748
+type(
+  E_t.hyp_
+)
+"e_eq.ml" 173 4730 4734 "e_eq.ml" 173 4730 4748
+type(
+  E_t.hyp_ * E_t.hyp_
+)
+type(
+  E_t.hyp_ * E_t.hyp_
+)
+"e_eq.ml" 173 4730 4752 "e_eq.ml" 173 4730 4756
+type(
+  bool
+)
+"e_eq.ml" 174 4757 4767 "e_eq.ml" 174 4757 4768
+type(
+  E_t.defn
+)
+ident(
+  def d "e_eq.ml" 175 4803 4809 "e_eq.ml" 175 4803 4828
+)
+"e_eq.ml" 174 4757 4770 "e_eq.ml" 174 4757 4771
+type(
+  E_t.wheredef
+)
+"e_eq.ml" 174 4757 4773 "e_eq.ml" 174 4757 4774
+type(
+  E_t.visibility
+)
+"e_eq.ml" 174 4757 4776 "e_eq.ml" 174 4757 4778
+type(
+  E_t.export
+)
+ident(
+  def dx "e_eq.ml" 175 4803 4809 "e_eq.ml" 175 4803 4828
+)
+"e_eq.ml" 174 4757 4761 "e_eq.ml" 174 4757 4779
+type(
+  E_t.hyp_
+)
+"e_eq.ml" 174 4757 4787 "e_eq.ml" 174 4757 4788
+type(
+  E_t.defn
+)
+ident(
+  def e "e_eq.ml" 175 4803 4809 "e_eq.ml" 175 4803 4828
+)
+"e_eq.ml" 174 4757 4790 "e_eq.ml" 174 4757 4791
+type(
+  E_t.wheredef
+)
+"e_eq.ml" 174 4757 4793 "e_eq.ml" 174 4757 4794
+type(
+  E_t.visibility
+)
+"e_eq.ml" 174 4757 4796 "e_eq.ml" 174 4757 4798
+type(
+  E_t.export
+)
+ident(
+  def ex "e_eq.ml" 175 4803 4809 "e_eq.ml" 175 4803 4828
+)
+"e_eq.ml" 174 4757 4781 "e_eq.ml" 174 4757 4799
+type(
+  E_t.hyp_
+)
+"e_eq.ml" 174 4757 4761 "e_eq.ml" 174 4757 4799
+type(
+  E_t.hyp_ * E_t.hyp_
+)
+type(
+  E_t.hyp_ * E_t.hyp_
+)
+"e_eq.ml" 175 4803 4809 "e_eq.ml" 175 4803 4813
+type(
+  E_t.defn -> E_t.defn -> bool
+)
+ident(
+  int_ref defn "e_eq.ml" 147 3982 3986 "e_eq.ml" 147 3982 3990
+)
+"e_eq.ml" 175 4803 4814 "e_eq.ml" 175 4803 4815
+type(
+  E_t.defn
+)
+ident(
+  int_ref d "e_eq.ml" 174 4757 4767 "e_eq.ml" 174 4757 4768
+)
+"e_eq.ml" 175 4803 4816 "e_eq.ml" 175 4803 4817
+type(
+  E_t.defn
+)
+ident(
+  int_ref e "e_eq.ml" 174 4757 4787 "e_eq.ml" 174 4757 4788
+)
+"e_eq.ml" 175 4803 4809 "e_eq.ml" 175 4803 4817
+type(
+  bool
+)
+"e_eq.ml" 175 4803 4818 "e_eq.ml" 175 4803 4820
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 175 4803 4821 "e_eq.ml" 175 4803 4823
+type(
+  E_t.export
+)
+ident(
+  int_ref dx "e_eq.ml" 174 4757 4776 "e_eq.ml" 174 4757 4778
+)
+"e_eq.ml" 175 4803 4824 "e_eq.ml" 175 4803 4825
+type(
+  E_t.export -> E_t.export -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 175 4803 4826 "e_eq.ml" 175 4803 4828
+type(
+  E_t.export
+)
+ident(
+  int_ref ex "e_eq.ml" 174 4757 4796 "e_eq.ml" 174 4757 4798
+)
+"e_eq.ml" 175 4803 4821 "e_eq.ml" 175 4803 4828
+type(
+  bool
+)
+"e_eq.ml" 175 4803 4809 "e_eq.ml" 175 4803 4828
+type(
+  bool
+)
+"e_eq.ml" 176 4829 4839 "e_eq.ml" 176 4829 4840
+type(
+  E_t.expr
+)
+ident(
+  def e "e_eq.ml" 177 4867 4873 "e_eq.ml" 177 4867 4881
+)
+"e_eq.ml" 176 4829 4842 "e_eq.ml" 176 4829 4843
+type(
+  E_t.visibility
+)
+"e_eq.ml" 176 4829 4845 "e_eq.ml" 176 4829 4846
+type(
+  E_t.time
+)
+"e_eq.ml" 176 4829 4833 "e_eq.ml" 176 4829 4847
+type(
+  E_t.hyp_
+)
+"e_eq.ml" 176 4829 4855 "e_eq.ml" 176 4829 4856
+type(
+  E_t.expr
+)
+ident(
+  def f "e_eq.ml" 177 4867 4873 "e_eq.ml" 177 4867 4881
+)
+"e_eq.ml" 176 4829 4858 "e_eq.ml" 176 4829 4859
+type(
+  E_t.visibility
+)
+"e_eq.ml" 176 4829 4861 "e_eq.ml" 176 4829 4862
+type(
+  E_t.time
+)
+"e_eq.ml" 176 4829 4849 "e_eq.ml" 176 4829 4863
+type(
+  E_t.hyp_
+)
+"e_eq.ml" 176 4829 4833 "e_eq.ml" 176 4829 4863
+type(
+  E_t.hyp_ * E_t.hyp_
+)
+type(
+  E_t.hyp_ * E_t.hyp_
+)
+"e_eq.ml" 177 4867 4873 "e_eq.ml" 177 4867 4877
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 177 4867 4878 "e_eq.ml" 177 4867 4879
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_eq.ml" 176 4829 4839 "e_eq.ml" 176 4829 4840
+)
+"e_eq.ml" 177 4867 4880 "e_eq.ml" 177 4867 4881
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_eq.ml" 176 4829 4855 "e_eq.ml" 176 4829 4856
+)
+"e_eq.ml" 177 4867 4873 "e_eq.ml" 177 4867 4881
+type(
+  bool
+)
+"e_eq.ml" 178 4882 4886 "e_eq.ml" 178 4882 4887
+type(
+  E_t.hyp_ * E_t.hyp_
+)
+type(
+  E_t.hyp_ * E_t.hyp_
+)
+"e_eq.ml" 178 4882 4891 "e_eq.ml" 178 4882 4896
+type(
+  bool
+)
+"e_eq.ml" 165 4453 4467 "e_eq.ml" 178 4882 4896
+type(
+  bool
+)
+"e_eq.ml" 180 4898 4902 "e_eq.ml" 180 4898 4910
+type(
+  E_t.instance -> E_t.instance -> bool
+)
+ident(
+  def instance "e_eq.ml" 18 308 308 "e_eq.ml" 0 0 -1
+)
+"e_eq.ml" 180 4898 4911 "e_eq.ml" 180 4898 4912
+type(
+  E_t.instance
+)
+ident(
+  def i "e_eq.ml" 180 4898 4913 "e_eq.ml" 183 4974 5004
+)
+"e_eq.ml" 180 4898 4913 "e_eq.ml" 180 4898 4914
+type(
+  E_t.instance
+)
+ident(
+  def j "e_eq.ml" 181 4917 4919 "e_eq.ml" 183 4974 5004
+)
+"e_eq.ml" 181 4917 4919 "e_eq.ml" 181 4917 4920
+type(
+  E_t.instance
+)
+ident(
+  int_ref i "e_eq.ml" 180 4898 4911 "e_eq.ml" 180 4898 4912
+)
+"e_eq.ml" 181 4917 4919 "e_eq.ml" 181 4917 4930
+type(
+  Util.hints
+)
+"e_eq.ml" 181 4917 4931 "e_eq.ml" 181 4917 4932
+type(
+  Util.hints -> Util.hints -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 181 4917 4933 "e_eq.ml" 181 4917 4934
+type(
+  E_t.instance
+)
+ident(
+  int_ref j "e_eq.ml" 180 4898 4913 "e_eq.ml" 180 4898 4914
+)
+"e_eq.ml" 181 4917 4933 "e_eq.ml" 181 4917 4944
+type(
+  Util.hints
+)
+"e_eq.ml" 181 4917 4919 "e_eq.ml" 181 4917 4944
+type(
+  bool
+)
+"e_eq.ml" 182 4945 4947 "e_eq.ml" 182 4945 4949
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 182 4945 4950 "e_eq.ml" 182 4945 4951
+type(
+  E_t.instance
+)
+ident(
+  int_ref i "e_eq.ml" 180 4898 4911 "e_eq.ml" 180 4898 4912
+)
+"e_eq.ml" 182 4945 4950 "e_eq.ml" 182 4945 4960
+type(
+  string
+)
+"e_eq.ml" 182 4945 4961 "e_eq.ml" 182 4945 4962
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 182 4945 4963 "e_eq.ml" 182 4945 4964
+type(
+  E_t.instance
+)
+ident(
+  int_ref j "e_eq.ml" 180 4898 4913 "e_eq.ml" 180 4898 4914
+)
+"e_eq.ml" 182 4945 4963 "e_eq.ml" 182 4945 4973
+type(
+  string
+)
+"e_eq.ml" 182 4945 4950 "e_eq.ml" 182 4945 4973
+type(
+  bool
+)
+"e_eq.ml" 183 4974 4976 "e_eq.ml" 183 4974 4978
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 183 4974 4979 "e_eq.ml" 183 4974 4982
+type(
+  (Util.hint * E_t.expr) list -> (Util.hint * E_t.expr) list -> bool
+)
+ident(
+  int_ref sub "e_eq.ml" 185 5006 5010 "e_eq.ml" 185 5006 5013
+)
+"e_eq.ml" 183 4974 4983 "e_eq.ml" 183 4974 4984
+type(
+  E_t.instance
+)
+ident(
+  int_ref i "e_eq.ml" 180 4898 4911 "e_eq.ml" 180 4898 4912
+)
+"e_eq.ml" 183 4974 4983 "e_eq.ml" 183 4974 4993
+type(
+  (Util.hint * E_t.expr) list
+)
+"e_eq.ml" 183 4974 4994 "e_eq.ml" 183 4974 4995
+type(
+  E_t.instance
+)
+ident(
+  int_ref j "e_eq.ml" 180 4898 4913 "e_eq.ml" 180 4898 4914
+)
+"e_eq.ml" 183 4974 4994 "e_eq.ml" 183 4974 5004
+type(
+  (Util.hint * E_t.expr) list
+)
+"e_eq.ml" 183 4974 4979 "e_eq.ml" 183 4974 5004
+type(
+  bool
+)
+"e_eq.ml" 182 4945 4950 "e_eq.ml" 183 4974 5004
+type(
+  bool
+)
+"e_eq.ml" 181 4917 4919 "e_eq.ml" 183 4974 5004
+type(
+  bool
+)
+"e_eq.ml" 185 5006 5010 "e_eq.ml" 185 5006 5013
+type(
+  (Util.hint * E_t.expr) list -> (Util.hint * E_t.expr) list -> bool
+)
+ident(
+  def sub "e_eq.ml" 18 308 308 "e_eq.ml" 0 0 -1
+)
+"e_eq.ml" 185 5006 5014 "e_eq.ml" 185 5006 5016
+type(
+  (Util.hint * E_t.expr) list
+)
+ident(
+  def ss "e_eq.ml" 185 5006 5017 "e_eq.ml" 188 5076 5102
+)
+"e_eq.ml" 185 5006 5017 "e_eq.ml" 185 5006 5019
+type(
+  (Util.hint * E_t.expr) list
+)
+ident(
+  def tt "e_eq.ml" 186 5022 5024 "e_eq.ml" 188 5076 5102
+)
+"e_eq.ml" 186 5022 5028 "e_eq.ml" 186 5022 5032
+type(
+  E_t.expr M.t
+)
+ident(
+  def umap "e_eq.ml" 187 5049 5051 "e_eq.ml" 188 5076 5102
+)
+"e_eq.ml" 186 5022 5035 "e_eq.ml" 186 5022 5042
+type(
+  (Util.hint * E_t.expr) list -> E_t.expr M.t
+)
+ident(
+  int_ref digestv "e_eq.ml" 15 228 232 "e_eq.ml" 15 228 239
+)
+"e_eq.ml" 186 5022 5043 "e_eq.ml" 186 5022 5045
+type(
+  (Util.hint * E_t.expr) list
+)
+ident(
+  int_ref ss "e_eq.ml" 185 5006 5014 "e_eq.ml" 185 5006 5016
+)
+"e_eq.ml" 186 5022 5035 "e_eq.ml" 186 5022 5045
+type(
+  E_t.expr M.t
+)
+"e_eq.ml" 187 5049 5055 "e_eq.ml" 187 5049 5059
+type(
+  E_t.expr M.t
+)
+ident(
+  def tmap "e_eq.ml" 188 5076 5080 "e_eq.ml" 188 5076 5102
+)
+"e_eq.ml" 187 5049 5062 "e_eq.ml" 187 5049 5069
+type(
+  (Util.hint * E_t.expr) list -> E_t.expr M.t
+)
+ident(
+  int_ref digestv "e_eq.ml" 15 228 232 "e_eq.ml" 15 228 239
+)
+"e_eq.ml" 187 5049 5070 "e_eq.ml" 187 5049 5072
+type(
+  (Util.hint * E_t.expr) list
+)
+ident(
+  int_ref tt "e_eq.ml" 185 5006 5017 "e_eq.ml" 185 5006 5019
+)
+"e_eq.ml" 187 5049 5062 "e_eq.ml" 187 5049 5072
+type(
+  E_t.expr M.t
+)
+"e_eq.ml" 188 5076 5080 "e_eq.ml" 188 5076 5087
+type(
+  (E_t.expr -> E_t.expr -> bool) -> E_t.expr M.t -> E_t.expr M.t -> bool
+)
+ident(
+  int_ref M.equal "map.mli" 148 6232 6236 "map.mli" 148 6232 6289
+)
+"e_eq.ml" 188 5076 5088 "e_eq.ml" 188 5076 5092
+type(
+  E_t.expr -> E_t.expr -> bool
+)
+ident(
+  int_ref expr "e_eq.ml" 18 308 316 "e_eq.ml" 18 308 320
+)
+"e_eq.ml" 188 5076 5093 "e_eq.ml" 188 5076 5097
+type(
+  E_t.expr M.t
+)
+ident(
+  int_ref umap "e_eq.ml" 186 5022 5028 "e_eq.ml" 186 5022 5032
+)
+"e_eq.ml" 188 5076 5098 "e_eq.ml" 188 5076 5102
+type(
+  E_t.expr M.t
+)
+ident(
+  int_ref tmap "e_eq.ml" 187 5049 5055 "e_eq.ml" 187 5049 5059
+)
+"e_eq.ml" 188 5076 5080 "e_eq.ml" 188 5076 5102
+type(
+  bool
+)
+"e_eq.ml" 187 5049 5051 "e_eq.ml" 188 5076 5102
+type(
+  bool
+)
+"e_eq.ml" 186 5022 5024 "e_eq.ml" 188 5076 5102
+type(
+  bool
+)
+"e_eq.ml" 190 5104 5108 "e_eq.ml" 190 5104 5111
+type(
+  E_t.sel -> E_t.sel -> bool
+)
+ident(
+  def sel "e_eq.ml" 18 308 308 "e_eq.ml" 0 0 -1
+)
+"e_eq.ml" 190 5104 5112 "e_eq.ml" 190 5104 5113
+type(
+  E_t.sel
+)
+ident(
+  def s "e_eq.ml" 190 5104 5114 "e_eq.ml" 198 5393 5409
+)
+"e_eq.ml" 190 5104 5114 "e_eq.ml" 190 5104 5115
+type(
+  E_t.sel
+)
+ident(
+  def t "e_eq.ml" 190 5104 5118 "e_eq.ml" 198 5393 5409
+)
+"e_eq.ml" 190 5104 5124 "e_eq.ml" 190 5104 5125
+type(
+  E_t.sel
+)
+ident(
+  int_ref s "e_eq.ml" 190 5104 5112 "e_eq.ml" 190 5104 5113
+)
+"e_eq.ml" 190 5104 5127 "e_eq.ml" 190 5104 5128
+type(
+  E_t.sel
+)
+ident(
+  int_ref t "e_eq.ml" 190 5104 5114 "e_eq.ml" 190 5104 5115
+)
+"e_eq.ml" 190 5104 5124 "e_eq.ml" 190 5104 5128
+type(
+  E_t.sel * E_t.sel
+)
+"e_eq.ml" 191 5134 5140 "e_eq.ml" 191 5134 5148
+type(
+  E_t.sel
+)
+"e_eq.ml" 191 5134 5150 "e_eq.ml" 191 5134 5158
+type(
+  E_t.sel
+)
+"e_eq.ml" 191 5134 5140 "e_eq.ml" 191 5134 5158
+type(
+  E_t.sel * E_t.sel
+)
+type(
+  E_t.sel * E_t.sel
+)
+"e_eq.ml" 191 5134 5162 "e_eq.ml" 191 5134 5166
+type(
+  bool
+)
+"e_eq.ml" 192 5167 5181 "e_eq.ml" 192 5167 5182
+type(
+  int
+)
+ident(
+  def n "e_eq.ml" 192 5167 5197 "e_eq.ml" 192 5167 5202
+)
+"e_eq.ml" 192 5167 5173 "e_eq.ml" 192 5167 5182
+type(
+  E_t.sel
+)
+"e_eq.ml" 192 5167 5192 "e_eq.ml" 192 5167 5193
+type(
+  int
+)
+ident(
+  def m "e_eq.ml" 192 5167 5197 "e_eq.ml" 192 5167 5202
+)
+"e_eq.ml" 192 5167 5184 "e_eq.ml" 192 5167 5193
+type(
+  E_t.sel
+)
+"e_eq.ml" 192 5167 5173 "e_eq.ml" 192 5167 5193
+type(
+  E_t.sel * E_t.sel
+)
+type(
+  E_t.sel * E_t.sel
+)
+"e_eq.ml" 192 5167 5197 "e_eq.ml" 192 5167 5198
+type(
+  int
+)
+ident(
+  int_ref n "e_eq.ml" 192 5167 5181 "e_eq.ml" 192 5167 5182
+)
+"e_eq.ml" 192 5167 5199 "e_eq.ml" 192 5167 5200
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 192 5167 5201 "e_eq.ml" 192 5167 5202
+type(
+  int
+)
+ident(
+  int_ref m "e_eq.ml" 192 5167 5192 "e_eq.ml" 192 5167 5193
+)
+"e_eq.ml" 192 5167 5197 "e_eq.ml" 192 5167 5202
+type(
+  bool
+)
+"e_eq.ml" 193 5203 5209 "e_eq.ml" 193 5203 5217
+type(
+  E_t.sel
+)
+"e_eq.ml" 193 5203 5219 "e_eq.ml" 193 5203 5227
+type(
+  E_t.sel
+)
+"e_eq.ml" 193 5203 5209 "e_eq.ml" 193 5203 5227
+type(
+  E_t.sel * E_t.sel
+)
+type(
+  E_t.sel * E_t.sel
+)
+"e_eq.ml" 194 5228 5234 "e_eq.ml" 194 5228 5243
+type(
+  E_t.sel
+)
+"e_eq.ml" 194 5228 5245 "e_eq.ml" 194 5228 5254
+type(
+  E_t.sel
+)
+"e_eq.ml" 194 5228 5234 "e_eq.ml" 194 5228 5254
+type(
+  E_t.sel * E_t.sel
+)
+type(
+  E_t.sel * E_t.sel
+)
+"e_eq.ml" 193 5203 5209 "e_eq.ml" 194 5228 5254
+type(
+  E_t.sel * E_t.sel
+)
+"e_eq.ml" 195 5255 5261 "e_eq.ml" 195 5255 5267
+type(
+  E_t.sel
+)
+"e_eq.ml" 195 5255 5269 "e_eq.ml" 195 5255 5275
+type(
+  E_t.sel
+)
+"e_eq.ml" 195 5255 5261 "e_eq.ml" 195 5255 5275
+type(
+  E_t.sel * E_t.sel
+)
+type(
+  E_t.sel * E_t.sel
+)
+"e_eq.ml" 193 5203 5209 "e_eq.ml" 195 5255 5275
+type(
+  E_t.sel * E_t.sel
+)
+"e_eq.ml" 195 5255 5279 "e_eq.ml" 195 5255 5283
+type(
+  bool
+)
+"e_eq.ml" 196 5284 5299 "e_eq.ml" 196 5284 5301
+type(
+  E_t.expr list
+)
+ident(
+  def es "e_eq.ml" 196 5284 5318 "e_eq.ml" 196 5284 5329
+)
+"e_eq.ml" 196 5284 5290 "e_eq.ml" 196 5284 5301
+type(
+  E_t.sel
+)
+"e_eq.ml" 196 5284 5312 "e_eq.ml" 196 5284 5314
+type(
+  E_t.expr list
+)
+ident(
+  def fs "e_eq.ml" 196 5284 5318 "e_eq.ml" 196 5284 5329
+)
+"e_eq.ml" 196 5284 5303 "e_eq.ml" 196 5284 5314
+type(
+  E_t.sel
+)
+"e_eq.ml" 196 5284 5290 "e_eq.ml" 196 5284 5314
+type(
+  E_t.sel * E_t.sel
+)
+type(
+  E_t.sel * E_t.sel
+)
+"e_eq.ml" 196 5284 5318 "e_eq.ml" 196 5284 5323
+type(
+  E_t.expr list -> E_t.expr list -> bool
+)
+ident(
+  int_ref exprs "e_eq.ml" 115 3298 3302 "e_eq.ml" 115 3298 3307
+)
+"e_eq.ml" 196 5284 5324 "e_eq.ml" 196 5284 5326
+type(
+  E_t.expr list
+)
+ident(
+  int_ref es "e_eq.ml" 196 5284 5299 "e_eq.ml" 196 5284 5301
+)
+"e_eq.ml" 196 5284 5327 "e_eq.ml" 196 5284 5329
+type(
+  E_t.expr list
+)
+ident(
+  int_ref fs "e_eq.ml" 196 5284 5312 "e_eq.ml" 196 5284 5314
+)
+"e_eq.ml" 196 5284 5318 "e_eq.ml" 196 5284 5329
+type(
+  bool
+)
+"e_eq.ml" 197 5330 5345 "e_eq.ml" 197 5330 5346
+type(
+  string
+)
+ident(
+  def s "e_eq.ml" 197 5330 5372 "e_eq.ml" 197 5330 5392
+)
+"e_eq.ml" 197 5330 5348 "e_eq.ml" 197 5330 5350
+type(
+  E_t.expr list
+)
+ident(
+  def es "e_eq.ml" 197 5330 5372 "e_eq.ml" 197 5330 5392
+)
+"e_eq.ml" 197 5330 5336 "e_eq.ml" 197 5330 5351
+type(
+  E_t.sel
+)
+"e_eq.ml" 197 5330 5362 "e_eq.ml" 197 5330 5363
+type(
+  string
+)
+ident(
+  def t "e_eq.ml" 197 5330 5372 "e_eq.ml" 197 5330 5392
+)
+"e_eq.ml" 197 5330 5365 "e_eq.ml" 197 5330 5367
+type(
+  E_t.expr list
+)
+ident(
+  def fs "e_eq.ml" 197 5330 5372 "e_eq.ml" 197 5330 5392
+)
+"e_eq.ml" 197 5330 5353 "e_eq.ml" 197 5330 5368
+type(
+  E_t.sel
+)
+"e_eq.ml" 197 5330 5336 "e_eq.ml" 197 5330 5368
+type(
+  E_t.sel * E_t.sel
+)
+type(
+  E_t.sel * E_t.sel
+)
+"e_eq.ml" 197 5330 5372 "e_eq.ml" 197 5330 5373
+type(
+  string
+)
+ident(
+  int_ref s "e_eq.ml" 197 5330 5345 "e_eq.ml" 197 5330 5346
+)
+"e_eq.ml" 197 5330 5374 "e_eq.ml" 197 5330 5375
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_eq.ml" 197 5330 5376 "e_eq.ml" 197 5330 5377
+type(
+  string
+)
+ident(
+  int_ref t "e_eq.ml" 197 5330 5362 "e_eq.ml" 197 5330 5363
+)
+"e_eq.ml" 197 5330 5372 "e_eq.ml" 197 5330 5377
+type(
+  bool
+)
+"e_eq.ml" 197 5330 5378 "e_eq.ml" 197 5330 5380
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_eq.ml" 197 5330 5381 "e_eq.ml" 197 5330 5386
+type(
+  E_t.expr list -> E_t.expr list -> bool
+)
+ident(
+  int_ref exprs "e_eq.ml" 115 3298 3302 "e_eq.ml" 115 3298 3307
+)
+"e_eq.ml" 197 5330 5387 "e_eq.ml" 197 5330 5389
+type(
+  E_t.expr list
+)
+ident(
+  int_ref es "e_eq.ml" 197 5330 5348 "e_eq.ml" 197 5330 5350
+)
+"e_eq.ml" 197 5330 5390 "e_eq.ml" 197 5330 5392
+type(
+  E_t.expr list
+)
+ident(
+  int_ref fs "e_eq.ml" 197 5330 5365 "e_eq.ml" 197 5330 5367
+)
+"e_eq.ml" 197 5330 5381 "e_eq.ml" 197 5330 5392
+type(
+  bool
+)
+"e_eq.ml" 197 5330 5372 "e_eq.ml" 197 5330 5392
+type(
+  bool
+)
+"e_eq.ml" 198 5393 5399 "e_eq.ml" 198 5393 5400
+type(
+  E_t.sel * E_t.sel
+)
+type(
+  E_t.sel * E_t.sel
+)
+"e_eq.ml" 198 5393 5404 "e_eq.ml" 198 5393 5409
+type(
+  bool
+)
+"e_eq.ml" 190 5104 5118 "e_eq.ml" 198 5393 5409
+type(
+  bool
+)

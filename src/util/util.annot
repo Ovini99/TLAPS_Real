@@ -1,0 +1,4066 @@
+"util.ml" 15 190 194 "util.ml" 15 190 207
+type(
+  Format.formatter -> string Property.wrapped -> unit
+)
+ident(
+  def pp_print_hint "util.ml" 17 249 249 "util.ml" 0 0 -1
+)
+"util.ml" 15 190 208 "util.ml" 15 190 210
+type(
+  Format.formatter
+)
+ident(
+  def ff "util.ml" 15 190 211 "util.ml" 15 190 247
+)
+"util.ml" 15 190 211 "util.ml" 15 190 212
+type(
+  string Property.wrapped
+)
+ident(
+  def h "util.ml" 15 190 215 "util.ml" 15 190 247
+)
+"util.ml" 15 190 215 "util.ml" 15 190 237
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.pp_print_string "format.mli" 220 9080 9080 "format.mli" 220 9080 9129
+)
+"util.ml" 15 190 238 "util.ml" 15 190 240
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "util.ml" 15 190 208 "util.ml" 15 190 210
+)
+"util.ml" 15 190 241 "util.ml" 15 190 242
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref h "util.ml" 15 190 211 "util.ml" 15 190 212
+)
+"util.ml" 15 190 241 "util.ml" 15 190 247
+type(
+  string
+)
+"util.ml" 15 190 215 "util.ml" 15 190 247
+type(
+  unit
+)
+"util.ml" 17 249 256 "util.ml" 17 249 258
+ident(
+  def HC "util.ml" 20 333 336 "util.ml" 0 0 -1
+)
+"util.ml" 19 284 290 "util.ml" 19 284 297
+type(
+  'a Property.wrapped -> 'a Property.wrapped -> int
+)
+ident(
+  def compare "util.ml" 19 284 332 "util.ml" 20 333 336
+)
+"util.ml" 19 284 298 "util.ml" 19 284 299
+type(
+  'a Property.wrapped
+)
+ident(
+  def x "util.ml" 19 284 300 "util.ml" 19 284 332
+)
+"util.ml" 19 284 300 "util.ml" 19 284 301
+type(
+  'a Property.wrapped
+)
+ident(
+  def y "util.ml" 19 284 304 "util.ml" 19 284 332
+)
+"util.ml" 19 284 304 "util.ml" 19 284 318
+type(
+  'a -> 'a -> int
+)
+ident(
+  int_ref Stdlib.compare "stdlib.mli" 162 6792 6792 "stdlib.mli" 162 6792 6839
+)
+"util.ml" 19 284 319 "util.ml" 19 284 320
+type(
+  'a Property.wrapped
+)
+ident(
+  int_ref x "util.ml" 19 284 298 "util.ml" 19 284 299
+)
+"util.ml" 19 284 319 "util.ml" 19 284 325
+type(
+  'a
+)
+"util.ml" 19 284 326 "util.ml" 19 284 327
+type(
+  'a Property.wrapped
+)
+ident(
+  int_ref y "util.ml" 19 284 300 "util.ml" 19 284 301
+)
+"util.ml" 19 284 326 "util.ml" 19 284 332
+type(
+  'a
+)
+"util.ml" 19 284 304 "util.ml" 19 284 332
+type(
+  int
+)
+"util.ml" 22 338 345 "util.ml" 22 338 349
+ident(
+  def Coll "util.ml" 32 678 681 "util.ml" 0 0 -1
+)
+"util.ml" 23 359 368 "util.ml" 23 359 370
+ident(
+  def Sm "util.ml" 23 359 390 "util.ml" 32 678 681
+)
+"util.ml" 24 391 400 "util.ml" 24 391 402
+ident(
+  def Ss "util.ml" 24 391 422 "util.ml" 32 678 681
+)
+"util.ml" 25 423 432 "util.ml" 25 423 434
+ident(
+  def Sh "util.ml" 29 592 621 "util.ml" 32 678 681
+)
+"util.ml" 27 498 529 "util.ml" 27 498 533
+type(
+  'a -> int
+)
+ident(
+  def hash "util.ml" 28 549 576 "util.ml" 29 592 620
+)
+"util.ml" 27 498 536 "util.ml" 27 498 548
+type(
+  'a -> int
+)
+ident(
+  int_ref Stdlib.Hashtbl.hash "hashtbl.mli" 474 18320 18320 "hashtbl.mli" 474 18320 18340
+)
+"util.ml" 28 549 580 "util.ml" 28 549 585
+type(
+  'b -> 'b -> bool
+)
+ident(
+  def equal "util.ml" 28 549 591 "util.ml" 29 592 620
+)
+"util.ml" 28 549 588 "util.ml" 28 549 591
+type(
+  'b -> 'b -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"util.ml" 30 622 631 "util.ml" 30 622 633
+ident(
+  def Hm "util.ml" 30 622 649 "util.ml" 32 678 681
+)
+"util.ml" 31 650 659 "util.ml" 31 650 661
+ident(
+  def Hs "util.ml" 31 650 677 "util.ml" 32 678 681
+)
+"util.ml" 34 683 687 "util.ml" 34 683 691
+type(
+  Loc.locus Property.pfuncs
+)
+ident(
+  def prop "util.ml" 36 772 772 "util.ml" 0 0 -1
+)
+"util.ml" 34 683 709 "util.ml" 34 683 713
+type(
+  ?uuid:string -> string -> Loc.locus Property.pfuncs
+)
+ident(
+  int_ref Property.make "property.mli" 53 1729 1729 "property.mli" 53 1729 1775
+)
+"util.ml" 34 683 720 "util.ml" 34 683 758
+type(
+  string
+)
+type(
+  string option
+)
+"util.ml" 34 683 759 "util.ml" 34 683 770
+type(
+  string
+)
+"util.ml" 34 683 709 "util.ml" 34 683 770
+type(
+  Loc.locus Property.pfuncs
+)
+"util.ml" 36 772 776 "util.ml" 36 772 785
+type(
+  'a Property.wrapped -> Loc.locus
+)
+ident(
+  def get_locus "util.ml" 37 803 803 "util.ml" 0 0 -1
+)
+"util.ml" 36 772 786 "util.ml" 36 772 788
+type(
+  'a Property.wrapped
+)
+ident(
+  def lw "util.ml" 36 772 791 "util.ml" 36 772 802
+)
+"util.ml" 36 772 791 "util.ml" 36 772 794
+type(
+  'a Property.wrapped -> Loc.locus Property.pfuncs -> Loc.locus
+)
+ident(
+  int_ref Property.get "property.mli" 71 2383 2383 "property.mli" 71 2383 2425
+)
+"util.ml" 36 772 795 "util.ml" 36 772 797
+type(
+  'a Property.wrapped
+)
+ident(
+  int_ref lw "util.ml" 36 772 786 "util.ml" 36 772 788
+)
+"util.ml" 36 772 798 "util.ml" 36 772 802
+type(
+  Loc.locus Property.pfuncs
+)
+ident(
+  int_ref prop "util.ml" 34 683 687 "util.ml" 34 683 691
+)
+"util.ml" 36 772 791 "util.ml" 36 772 802
+type(
+  Loc.locus
+)
+"util.ml" 37 803 807 "util.ml" 37 803 816
+type(
+  'a Property.wrapped -> Loc.locus -> 'a Property.wrapped
+)
+ident(
+  def set_locus "util.ml" 38 841 841 "util.ml" 0 0 -1
+)
+"util.ml" 37 803 817 "util.ml" 37 803 819
+type(
+  'a Property.wrapped
+)
+ident(
+  def lw "util.ml" 37 803 820 "util.ml" 37 803 840
+)
+"util.ml" 37 803 820 "util.ml" 37 803 821
+type(
+  Loc.locus
+)
+ident(
+  def l "util.ml" 37 803 824 "util.ml" 37 803 840
+)
+"util.ml" 37 803 824 "util.ml" 37 803 830
+type(
+  'a Property.wrapped ->
+  Loc.locus Property.pfuncs -> Loc.locus -> 'a Property.wrapped
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"util.ml" 37 803 831 "util.ml" 37 803 833
+type(
+  'a Property.wrapped
+)
+ident(
+  int_ref lw "util.ml" 37 803 817 "util.ml" 37 803 819
+)
+"util.ml" 37 803 834 "util.ml" 37 803 838
+type(
+  Loc.locus Property.pfuncs
+)
+ident(
+  int_ref prop "util.ml" 34 683 687 "util.ml" 34 683 691
+)
+"util.ml" 37 803 839 "util.ml" 37 803 840
+type(
+  Loc.locus
+)
+ident(
+  int_ref l "util.ml" 37 803 820 "util.ml" 37 803 821
+)
+"util.ml" 37 803 824 "util.ml" 37 803 840
+type(
+  'a Property.wrapped
+)
+"util.ml" 38 841 845 "util.ml" 38 841 856
+type(
+  'a Property.wrapped -> Loc.locus option
+)
+ident(
+  def query_locus "util.ml" 39 876 876 "util.ml" 0 0 -1
+)
+"util.ml" 38 841 857 "util.ml" 38 841 859
+type(
+  'a Property.wrapped
+)
+ident(
+  def lw "util.ml" 38 841 862 "util.ml" 38 841 875
+)
+"util.ml" 38 841 862 "util.ml" 38 841 867
+type(
+  'a Property.wrapped -> Loc.locus Property.pfuncs -> Loc.locus option
+)
+ident(
+  int_ref Property.query "property.mli" 75 2530 2530 "property.mli" 75 2530 2579
+)
+"util.ml" 38 841 868 "util.ml" 38 841 870
+type(
+  'a Property.wrapped
+)
+ident(
+  int_ref lw "util.ml" 38 841 857 "util.ml" 38 841 859
+)
+"util.ml" 38 841 871 "util.ml" 38 841 875
+type(
+  Loc.locus Property.pfuncs
+)
+ident(
+  int_ref prop "util.ml" 34 683 687 "util.ml" 34 683 691
+)
+"util.ml" 38 841 862 "util.ml" 38 841 875
+type(
+  Loc.locus option
+)
+"util.ml" 39 876 880 "util.ml" 39 876 886
+type(
+  'a -> Loc.locus -> 'a Property.wrapped
+)
+ident(
+  def locate "util.ml" 40 917 917 "util.ml" 0 0 -1
+)
+"util.ml" 39 876 887 "util.ml" 39 876 888
+type(
+  'a
+)
+ident(
+  def x "util.ml" 39 876 889 "util.ml" 39 876 916
+)
+"util.ml" 39 876 889 "util.ml" 39 876 890
+type(
+  Loc.locus
+)
+ident(
+  def l "util.ml" 39 876 893 "util.ml" 39 876 916
+)
+"util.ml" 39 876 893 "util.ml" 39 876 902
+type(
+  'a Property.wrapped -> Loc.locus -> 'a Property.wrapped
+)
+ident(
+  int_ref set_locus "util.ml" 37 803 807 "util.ml" 37 803 816
+)
+"util.ml" 39 876 904 "util.ml" 39 876 911
+type(
+  'a -> 'a Property.wrapped
+)
+ident(
+  int_ref Property.noprops "property.mli" 92 3086 3086 "property.mli" 92 3086 3116
+)
+"util.ml" 39 876 912 "util.ml" 39 876 913
+type(
+  'a
+)
+ident(
+  int_ref x "util.ml" 39 876 887 "util.ml" 39 876 888
+)
+"util.ml" 39 876 903 "util.ml" 39 876 914
+type(
+  'a Property.wrapped
+)
+"util.ml" 39 876 915 "util.ml" 39 876 916
+type(
+  Loc.locus
+)
+ident(
+  int_ref l "util.ml" 39 876 889 "util.ml" 39 876 890
+)
+"util.ml" 39 876 893 "util.ml" 39 876 916
+type(
+  'a Property.wrapped
+)
+"util.ml" 40 917 921 "util.ml" 40 917 929
+type(
+  ?cap:bool -> 'a Property.wrapped -> string
+)
+ident(
+  def location "util.ml" 45 1080 1080 "util.ml" 0 0 -1
+)
+"util.ml" 40 917 932 "util.ml" 40 917 935
+type(
+  bool
+)
+ident(
+  def cap "util.ml" 40 917 942 "util.ml" 42 1006 1050
+)
+"util.ml" 40 917 936 "util.ml" 40 917 940
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "util.ml" 40 917 936 "util.ml" 40 917 940
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+ident(
+  def *sth* "util.ml" 40 917 936 "util.ml" 40 917 940
+)
+"util.ml" 40 917 942 "util.ml" 40 917 944
+type(
+  'a Property.wrapped
+)
+ident(
+  def lw "util.ml" 40 917 947 "util.ml" 42 1006 1050
+)
+"util.ml" 40 917 953 "util.ml" 40 917 964
+type(
+  'a Property.wrapped -> Loc.locus option
+)
+ident(
+  int_ref query_locus "util.ml" 38 841 845 "util.ml" 38 841 856
+)
+"util.ml" 40 917 965 "util.ml" 40 917 967
+type(
+  'a Property.wrapped
+)
+ident(
+  int_ref lw "util.ml" 40 917 942 "util.ml" 40 917 944
+)
+"util.ml" 40 917 953 "util.ml" 40 917 967
+type(
+  Loc.locus option
+)
+"util.ml" 41 973 977 "util.ml" 41 973 981
+type(
+  Loc.locus option
+)
+type(
+  Loc.locus option
+)
+"util.ml" 41 973 985 "util.ml" 41 973 1005
+type(
+  string
+)
+"util.ml" 42 1006 1015 "util.ml" 42 1006 1018
+type(
+  Loc.locus
+)
+ident(
+  def loc "util.ml" 42 1006 1022 "util.ml" 42 1006 1050
+)
+"util.ml" 42 1006 1010 "util.ml" 42 1006 1018
+type(
+  Loc.locus option
+)
+type(
+  Loc.locus option
+)
+"util.ml" 42 1006 1022 "util.ml" 42 1006 1037
+type(
+  ?cap:bool -> Loc.locus -> string
+)
+ident(
+  int_ref Loc.string_of_locus "loc.mli" 64 1777 1777 "loc.mli" 64 1777 1827
+)
+"util.ml" 42 1006 1043 "util.ml" 42 1006 1046
+type(
+  bool
+)
+ident(
+  int_ref cap "util.ml" 40 917 932 "util.ml" 40 917 935
+)
+type(
+  bool option
+)
+"util.ml" 42 1006 1047 "util.ml" 42 1006 1050
+type(
+  Loc.locus
+)
+ident(
+  int_ref loc "util.ml" 42 1006 1015 "util.ml" 42 1006 1018
+)
+"util.ml" 42 1006 1022 "util.ml" 42 1006 1050
+type(
+  string
+)
+"util.ml" 40 917 947 "util.ml" 42 1006 1050
+type(
+  string
+)
+"util.ml" 45 1080 1084 "util.ml" 45 1080 1092
+type(
+  ?debug:string ->
+  ?at:'a Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:'b ->
+  (Format.formatter -> 'c) ->
+  Format.formatter -> ('d, Format.formatter, unit, 'c) format4 -> 'd
+)
+ident(
+  def kfprintf "util.ml" 78 2123 2123 "util.ml" 0 0 -1
+)
+"util.ml" 45 1080 1094 "util.ml" 45 1080 1099
+type(
+  string option
+)
+ident(
+  def debug "util.ml" 45 1080 1100 "util.ml" 75 2088 2120
+)
+"util.ml" 45 1080 1101 "util.ml" 45 1080 1103
+type(
+  'a Property.wrapped option
+)
+ident(
+  def at "util.ml" 45 1080 1104 "util.ml" 75 2088 2120
+)
+"util.ml" 45 1080 1105 "util.ml" 45 1080 1111
+type(
+  string option
+)
+ident(
+  def prefix "util.ml" 45 1080 1112 "util.ml" 75 2088 2120
+)
+"util.ml" 45 1080 1113 "util.ml" 45 1080 1117
+type(
+  'b option
+)
+ident(
+  def nonl "util.ml" 45 1080 1118 "util.ml" 75 2088 2120
+)
+"util.ml" 45 1080 1118 "util.ml" 45 1080 1122
+type(
+  Format.formatter -> 'c
+)
+ident(
+  def cont "util.ml" 45 1080 1123 "util.ml" 75 2088 2120
+)
+"util.ml" 45 1080 1123 "util.ml" 45 1080 1125
+type(
+  Format.formatter
+)
+ident(
+  def ff "util.ml" 45 1080 1126 "util.ml" 75 2088 2120
+)
+"util.ml" 45 1080 1126 "util.ml" 45 1080 1129
+type(
+  ('d, Format.formatter, unit, 'c) format4
+)
+ident(
+  def fmt "util.ml" 47 1183 1185 "util.ml" 75 2088 2120
+)
+"util.ml" 47 1183 1191 "util.ml" 47 1183 1196
+type(
+  string option
+)
+ident(
+  int_ref debug "util.ml" 45 1080 1094 "util.ml" 45 1080 1099
+)
+"util.ml" 48 1202 1211 "util.ml" 48 1202 1214
+type(
+  string
+)
+ident(
+  def dbg "util.ml" 48 1202 1220 "util.ml" 49 1250 1284
+)
+"util.ml" 48 1202 1206 "util.ml" 48 1202 1214
+type(
+  string option
+)
+type(
+  string option
+)
+"util.ml" 48 1202 1220 "util.ml" 48 1202 1223
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"util.ml" 48 1202 1225 "util.ml" 48 1202 1241
+type(
+  string -> bool
+)
+ident(
+  int_ref Params.debugging "params.mli" 9 124 124 "params.mli" 9 124 153
+)
+"util.ml" 48 1202 1242 "util.ml" 48 1202 1245
+type(
+  string
+)
+ident(
+  int_ref dbg "util.ml" 48 1202 1211 "util.ml" 48 1202 1214
+)
+"util.ml" 48 1202 1224 "util.ml" 48 1202 1246
+type(
+  bool
+)
+"util.ml" 48 1202 1220 "util.ml" 48 1202 1246
+type(
+  bool
+)
+"util.ml" 49 1250 1256 "util.ml" 49 1250 1272
+type(
+  (Format.formatter -> 'c) ->
+  Format.formatter -> ('d, Format.formatter, unit, 'c) format4 -> 'd
+)
+ident(
+  int_ref Stdlib.Format.ikfprintf "format.mli" 1317 50574 50574 "format.mli" 1319 50626 50667
+)
+"util.ml" 49 1250 1273 "util.ml" 49 1250 1277
+type(
+  Format.formatter -> 'c
+)
+ident(
+  int_ref cont "util.ml" 45 1080 1118 "util.ml" 45 1080 1122
+)
+"util.ml" 49 1250 1278 "util.ml" 49 1250 1280
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "util.ml" 45 1080 1123 "util.ml" 45 1080 1125
+)
+"util.ml" 49 1250 1281 "util.ml" 49 1250 1284
+type(
+  ('d, Format.formatter, unit, 'c) format4
+)
+ident(
+  int_ref fmt "util.ml" 45 1080 1126 "util.ml" 45 1080 1129
+)
+"util.ml" 49 1250 1256 "util.ml" 49 1250 1284
+type(
+  'd
+)
+"util.ml" 50 1285 1289 "util.ml" 50 1285 1290
+type(
+  string option
+)
+type(
+  string option
+)
+"util.ml" 51 1294 1311 "util.ml" 51 1294 1313
+type(
+  'a Property.wrapped option
+)
+ident(
+  int_ref at "util.ml" 45 1080 1101 "util.ml" 45 1080 1103
+)
+"util.ml" 52 1319 1326 "util.ml" 52 1319 1330
+type(
+  'a Property.wrapped option
+)
+type(
+  'a Property.wrapped option
+)
+"util.ml" 52 1319 1334 "util.ml" 52 1319 1336
+type(
+  unit
+)
+"util.ml" 53 1337 1349 "util.ml" 53 1337 1354
+type(
+  'a Property.wrapped
+)
+ident(
+  def thing "util.ml" 54 1358 1366 "util.ml" 58 1533 1575
+)
+"util.ml" 53 1337 1344 "util.ml" 53 1337 1354
+type(
+  'a Property.wrapped option
+)
+type(
+  'a Property.wrapped option
+)
+"util.ml" 54 1358 1372 "util.ml" 54 1358 1383
+type(
+  'a Property.wrapped -> Loc.locus option
+)
+ident(
+  int_ref query_locus "util.ml" 38 841 845 "util.ml" 38 841 856
+)
+"util.ml" 54 1358 1384 "util.ml" 54 1358 1389
+type(
+  'a Property.wrapped
+)
+ident(
+  int_ref thing "util.ml" 53 1337 1349 "util.ml" 53 1337 1354
+)
+"util.ml" 54 1358 1372 "util.ml" 54 1358 1389
+type(
+  Loc.locus option
+)
+"util.ml" 55 1395 1405 "util.ml" 55 1395 1409
+type(
+  Loc.locus option
+)
+type(
+  Loc.locus option
+)
+"util.ml" 55 1395 1413 "util.ml" 55 1395 1427
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"util.ml" 55 1395 1428 "util.ml" 55 1395 1430
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "util.ml" 45 1080 1123 "util.ml" 45 1080 1125
+)
+"util.ml" 55 1395 1431 "util.ml" 55 1395 1455
+type(
+  (unit, Format.formatter, unit) format
+)
+"util.ml" 55 1395 1413 "util.ml" 55 1395 1455
+type(
+  unit
+)
+"util.ml" 56 1457 1472 "util.ml" 56 1457 1475
+type(
+  Loc.locus
+)
+ident(
+  def loc "util.ml" 57 1479 1490 "util.ml" 58 1533 1575
+)
+"util.ml" 56 1457 1467 "util.ml" 56 1457 1475
+type(
+  Loc.locus option
+)
+type(
+  Loc.locus option
+)
+"util.ml" 57 1479 1494 "util.ml" 57 1479 1497
+type(
+  string
+)
+ident(
+  def str "util.ml" 58 1533 1544 "util.ml" 58 1533 1574
+)
+"util.ml" 57 1479 1500 "util.ml" 57 1479 1515
+type(
+  ?cap:bool -> Loc.locus -> string
+)
+ident(
+  int_ref Loc.string_of_locus "loc.mli" 64 1777 1777 "loc.mli" 64 1777 1827
+)
+"util.ml" 57 1479 1521 "util.ml" 57 1479 1525
+type(
+  bool
+)
+type(
+  bool option
+)
+"util.ml" 57 1479 1526 "util.ml" 57 1479 1529
+type(
+  Loc.locus
+)
+ident(
+  int_ref loc "util.ml" 56 1457 1472 "util.ml" 56 1457 1475
+)
+"util.ml" 57 1479 1500 "util.ml" 57 1479 1529
+type(
+  string
+)
+"util.ml" 58 1533 1544 "util.ml" 58 1533 1558
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"util.ml" 58 1533 1559 "util.ml" 58 1533 1561
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "util.ml" 45 1080 1123 "util.ml" 45 1080 1125
+)
+"util.ml" 58 1533 1562 "util.ml" 58 1533 1570
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"util.ml" 58 1533 1571 "util.ml" 58 1533 1574
+type(
+  string
+)
+ident(
+  int_ref str "util.ml" 57 1479 1494 "util.ml" 57 1479 1497
+)
+"util.ml" 58 1533 1544 "util.ml" 58 1533 1574
+type(
+  unit
+)
+"util.ml" 57 1479 1490 "util.ml" 58 1533 1575
+type(
+  unit
+)
+"util.ml" 54 1358 1366 "util.ml" 58 1533 1575
+type(
+  unit
+)
+"util.ml" 51 1294 1299 "util.ml" 59 1576 1584
+type(
+  unit
+)
+"util.ml" 60 1586 1595 "util.ml" 60 1586 1601
+type(
+  string
+)
+ident(
+  def prefix "util.ml" 64 1723 1728 "util.ml" 75 2088 2120
+)
+"util.ml" 60 1586 1610 "util.ml" 60 1586 1615
+type(
+  string option
+)
+ident(
+  int_ref debug "util.ml" 45 1080 1094 "util.ml" 45 1080 1099
+)
+"util.ml" 61 1621 1630 "util.ml" 61 1621 1634
+type(
+  string option
+)
+type(
+  string option
+)
+"util.ml" 61 1621 1638 "util.ml" 61 1621 1652
+type(
+  string -> string option -> string
+)
+ident(
+  int_ref Ext.Option.default "ext.mli" 63 2752 2754 "ext.mli" 63 2752 2789
+)
+"util.ml" 61 1621 1653 "util.ml" 61 1621 1662
+type(
+  string
+)
+"util.ml" 61 1621 1663 "util.ml" 61 1621 1669
+type(
+  string option
+)
+ident(
+  int_ref prefix "util.ml" 45 1080 1105 "util.ml" 45 1080 1111
+)
+"util.ml" 61 1621 1638 "util.ml" 61 1621 1669
+type(
+  string
+)
+"util.ml" 62 1670 1684 "util.ml" 62 1670 1687
+type(
+  string
+)
+ident(
+  def dbg "util.ml" 62 1670 1691 "util.ml" 62 1670 1714
+)
+"util.ml" 62 1670 1679 "util.ml" 62 1670 1687
+type(
+  string option
+)
+type(
+  string option
+)
+"util.ml" 62 1670 1691 "util.ml" 62 1670 1700
+type(
+  string
+)
+"util.ml" 62 1670 1701 "util.ml" 62 1670 1702
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"util.ml" 62 1670 1703 "util.ml" 62 1670 1706
+type(
+  string
+)
+ident(
+  int_ref dbg "util.ml" 62 1670 1684 "util.ml" 62 1670 1687
+)
+"util.ml" 62 1670 1707 "util.ml" 62 1670 1708
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"util.ml" 62 1670 1709 "util.ml" 62 1670 1714
+type(
+  string
+)
+"util.ml" 62 1670 1703 "util.ml" 62 1670 1714
+type(
+  string
+)
+"util.ml" 62 1670 1691 "util.ml" 62 1670 1714
+type(
+  string
+)
+"util.ml" 60 1586 1604 "util.ml" 62 1670 1714
+type(
+  string
+)
+"util.ml" 64 1723 1731 "util.ml" 64 1723 1733
+type(
+  'a Property.wrapped option
+)
+ident(
+  int_ref at "util.ml" 45 1080 1101 "util.ml" 45 1080 1103
+)
+"util.ml" 64 1723 1734 "util.ml" 64 1723 1736
+type(
+  'a Property.wrapped option -> 'a Property.wrapped option -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 130 5559 5559 "stdlib.mli" 130 5559 5607
+)
+"util.ml" 64 1723 1737 "util.ml" 64 1723 1741
+type(
+  'a Property.wrapped option
+)
+"util.ml" 64 1723 1731 "util.ml" 64 1723 1741
+type(
+  bool
+)
+"util.ml" 64 1723 1747 "util.ml" 64 1723 1761
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"util.ml" 64 1723 1762 "util.ml" 64 1723 1764
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "util.ml" 45 1080 1123 "util.ml" 45 1080 1125
+)
+"util.ml" 64 1723 1765 "util.ml" 64 1723 1769
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"util.ml" 64 1723 1770 "util.ml" 64 1723 1776
+type(
+  string
+)
+ident(
+  int_ref prefix "util.ml" 60 1586 1595 "util.ml" 60 1586 1601
+)
+"util.ml" 64 1723 1747 "util.ml" 64 1723 1776
+type(
+  unit
+)
+"util.ml" 64 1723 1728 "util.ml" 64 1723 1776
+type(
+  unit
+)
+"util.ml" 65 1778 1787 "util.ml" 65 1778 1793
+type(
+  bool
+)
+ident(
+  def has_nl "util.ml" 71 1969 1974 "util.ml" 75 2088 2120
+)
+"util.ml" 66 1796 1807 "util.ml" 66 1796 1811
+type(
+  string
+)
+ident(
+  def fmts "util.ml" 67 1838 1845 "util.ml" 69 1915 1960
+)
+"util.ml" 66 1796 1814 "util.ml" 66 1796 1830
+type(
+  ('d, Format.formatter, unit, unit, unit, 'c) format6 -> string
+)
+ident(
+  int_ref Stdlib.string_of_format "stdlib.mli" 1317 50576 50576 "stdlib.mli" 1317 50576 50641
+)
+"util.ml" 66 1796 1831 "util.ml" 66 1796 1834
+type(
+  ('d, Format.formatter, unit, 'c) format4
+)
+ident(
+  int_ref fmt "util.ml" 45 1080 1126 "util.ml" 45 1080 1129
+)
+"util.ml" 66 1796 1814 "util.ml" 66 1796 1834
+type(
+  string
+)
+"util.ml" 67 1838 1845 "util.ml" 67 1838 1858
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 118 4569 4569 "string.mli" 118 4569 4619
+)
+"util.ml" 67 1838 1859 "util.ml" 67 1838 1863
+type(
+  string
+)
+ident(
+  int_ref fmts "util.ml" 66 1796 1807 "util.ml" 66 1796 1811
+)
+"util.ml" 67 1838 1845 "util.ml" 67 1838 1863
+type(
+  int
+)
+"util.ml" 67 1838 1864 "util.ml" 67 1838 1866
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 150 6190 6190 "stdlib.mli" 150 6190 6242
+)
+"util.ml" 67 1838 1867 "util.ml" 67 1838 1868
+type(
+  int
+)
+"util.ml" 67 1838 1845 "util.ml" 67 1838 1868
+type(
+  bool
+)
+"util.ml" 68 1869 1876 "util.ml" 68 1869 1878
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"util.ml" 68 1869 1879 "util.ml" 68 1869 1883
+type(
+  string
+)
+ident(
+  int_ref fmts "util.ml" 66 1796 1807 "util.ml" 66 1796 1811
+)
+"util.ml" 68 1869 1885 "util.ml" 68 1869 1898
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 118 4569 4569 "string.mli" 118 4569 4619
+)
+"util.ml" 68 1869 1899 "util.ml" 68 1869 1903
+type(
+  string
+)
+ident(
+  int_ref fmts "util.ml" 66 1796 1807 "util.ml" 66 1796 1811
+)
+"util.ml" 68 1869 1885 "util.ml" 68 1869 1903
+type(
+  int
+)
+"util.ml" 68 1869 1904 "util.ml" 68 1869 1905
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"util.ml" 68 1869 1906 "util.ml" 68 1869 1907
+type(
+  int
+)
+"util.ml" 68 1869 1885 "util.ml" 68 1869 1907
+type(
+  int
+)
+"util.ml" 68 1869 1879 "util.ml" 68 1869 1908
+type(
+  char
+)
+"util.ml" 68 1869 1909 "util.ml" 68 1869 1910
+type(
+  char -> char -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"util.ml" 68 1869 1911 "util.ml" 68 1869 1914
+type(
+  char
+)
+"util.ml" 68 1869 1879 "util.ml" 68 1869 1914
+type(
+  bool
+)
+"util.ml" 69 1915 1922 "util.ml" 69 1915 1924
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"util.ml" 69 1915 1925 "util.ml" 69 1915 1929
+type(
+  string
+)
+ident(
+  int_ref fmts "util.ml" 66 1796 1807 "util.ml" 66 1796 1811
+)
+"util.ml" 69 1915 1931 "util.ml" 69 1915 1944
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 118 4569 4569 "string.mli" 118 4569 4619
+)
+"util.ml" 69 1915 1945 "util.ml" 69 1915 1949
+type(
+  string
+)
+ident(
+  int_ref fmts "util.ml" 66 1796 1807 "util.ml" 66 1796 1811
+)
+"util.ml" 69 1915 1931 "util.ml" 69 1915 1949
+type(
+  int
+)
+"util.ml" 69 1915 1950 "util.ml" 69 1915 1951
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"util.ml" 69 1915 1952 "util.ml" 69 1915 1953
+type(
+  int
+)
+"util.ml" 69 1915 1931 "util.ml" 69 1915 1953
+type(
+  int
+)
+"util.ml" 69 1915 1925 "util.ml" 69 1915 1954
+type(
+  char
+)
+"util.ml" 69 1915 1955 "util.ml" 69 1915 1956
+type(
+  char -> char -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"util.ml" 69 1915 1957 "util.ml" 69 1915 1960
+type(
+  char
+)
+"util.ml" 69 1915 1925 "util.ml" 69 1915 1960
+type(
+  bool
+)
+"util.ml" 68 1869 1879 "util.ml" 69 1915 1960
+type(
+  bool
+)
+"util.ml" 67 1838 1845 "util.ml" 69 1915 1960
+type(
+  bool
+)
+"util.ml" 66 1796 1803 "util.ml" 69 1915 1960
+type(
+  bool
+)
+"util.ml" 71 1969 1978 "util.ml" 71 1969 1981
+type(
+  ('d, Format.formatter, unit, unit, unit, 'c) format6
+)
+ident(
+  def fmt "util.ml" 75 2088 2093 "util.ml" 75 2088 2120
+)
+"util.ml" 71 1969 1990 "util.ml" 71 1969 1994
+type(
+  'b option
+)
+ident(
+  int_ref nonl "util.ml" 45 1080 1113 "util.ml" 45 1080 1117
+)
+"util.ml" 72 2000 2009 "util.ml" 72 2000 2013
+type(
+  'b option
+)
+type(
+  'b option
+)
+"util.ml" 72 2000 2019 "util.ml" 72 2000 2022
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"util.ml" 72 2000 2023 "util.ml" 72 2000 2029
+type(
+  bool
+)
+ident(
+  int_ref has_nl "util.ml" 65 1778 1787 "util.ml" 65 1778 1793
+)
+"util.ml" 72 2000 2019 "util.ml" 72 2000 2029
+type(
+  bool
+)
+"util.ml" 72 2000 2033 "util.ml" 72 2000 2036
+type(
+  ('d, Format.formatter, unit, 'c) format4
+)
+ident(
+  int_ref fmt "util.ml" 45 1080 1126 "util.ml" 45 1080 1129
+)
+"util.ml" 72 2000 2037 "util.ml" 72 2000 2039
+type(
+  ('d, Format.formatter, unit, unit, unit, 'c) format6 ->
+  ('c, Format.formatter, unit, unit, unit, 'c) format6 ->
+  ('d, Format.formatter, unit, unit, unit, 'c) format6
+)
+ident(
+  int_ref Stdlib.( ^^ ) "stdlib.mli" 1330 51081 51081 "stdlib.mli" 1333 51170 51204
+)
+"util.ml" 72 2000 2040 "util.ml" 72 2000 2056
+type(
+  ('c, Format.formatter, unit, unit, unit, 'c) format6 ->
+  ('c, Format.formatter, unit, unit, unit, 'c) format6
+)
+ident(
+  int_ref Stdlib.format_of_string "stdlib.mli" 1320 50690 50690 "stdlib.mli" 1322 50756 50804
+)
+"util.ml" 72 2000 2057 "util.ml" 72 2000 2061
+type(
+  ('c, Format.formatter, unit, unit, unit, 'c) format6
+)
+"util.ml" 72 2000 2040 "util.ml" 72 2000 2061
+type(
+  ('c, Format.formatter, unit, unit, unit, 'c) format6
+)
+"util.ml" 72 2000 2033 "util.ml" 72 2000 2061
+type(
+  ('d, Format.formatter, unit, unit, unit, 'c) format6
+)
+"util.ml" 73 2062 2071 "util.ml" 73 2062 2072
+type(
+  'b option
+)
+type(
+  'b option
+)
+"util.ml" 73 2062 2076 "util.ml" 73 2062 2079
+type(
+  ('d, Format.formatter, unit, unit, unit, 'c) format6
+)
+ident(
+  int_ref fmt "util.ml" 45 1080 1126 "util.ml" 45 1080 1129
+)
+"util.ml" 71 1969 1984 "util.ml" 73 2062 2079
+type(
+  ('d, Format.formatter, unit, unit, unit, 'c) format6
+)
+"util.ml" 75 2088 2093 "util.ml" 75 2088 2108
+type(
+  (Format.formatter -> 'c) ->
+  Format.formatter -> ('d, Format.formatter, unit, 'c) format4 -> 'd
+)
+ident(
+  int_ref Stdlib.Format.kfprintf "format.mli" 1302 50085 50085 "format.mli" 1304 50136 50177
+)
+"util.ml" 75 2088 2109 "util.ml" 75 2088 2113
+type(
+  Format.formatter -> 'c
+)
+ident(
+  int_ref cont "util.ml" 45 1080 1118 "util.ml" 45 1080 1122
+)
+"util.ml" 75 2088 2114 "util.ml" 75 2088 2116
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "util.ml" 45 1080 1123 "util.ml" 45 1080 1125
+)
+"util.ml" 75 2088 2117 "util.ml" 75 2088 2120
+type(
+  ('d, Format.formatter, unit, unit, unit, 'c) format6
+)
+ident(
+  int_ref fmt "util.ml" 71 1969 1978 "util.ml" 71 1969 1981
+)
+"util.ml" 75 2088 2093 "util.ml" 75 2088 2120
+type(
+  'd
+)
+"util.ml" 71 1969 1974 "util.ml" 75 2088 2120
+type(
+  'd
+)
+"util.ml" 65 1778 1783 "util.ml" 75 2088 2120
+type(
+  'd
+)
+"util.ml" 64 1723 1728 "util.ml" 75 2088 2120
+type(
+  'd
+)
+"util.ml" 60 1586 1591 "util.ml" 75 2088 2120
+type(
+  'd
+)
+"util.ml" 51 1294 1299 "util.ml" 75 2088 2120
+type(
+  'd
+)
+"util.ml" 47 1183 1185 "util.ml" 75 2088 2120
+type(
+  'd
+)
+"util.ml" 78 2123 2127 "util.ml" 78 2123 2134
+type(
+  ?debug:string ->
+  ?at:'a Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:'b -> ('c, Format.formatter, unit, string) format4 -> 'c
+)
+ident(
+  def sprintf "util.ml" 84 2316 2316 "util.ml" 0 0 -1
+)
+"util.ml" 78 2123 2136 "util.ml" 78 2123 2141
+type(
+  string option
+)
+ident(
+  def debug "util.ml" 78 2123 2142 "util.ml" 81 2244 2313
+)
+"util.ml" 78 2123 2143 "util.ml" 78 2123 2145
+type(
+  'a Property.wrapped option
+)
+ident(
+  def at "util.ml" 78 2123 2146 "util.ml" 81 2244 2313
+)
+"util.ml" 78 2123 2147 "util.ml" 78 2123 2153
+type(
+  string option
+)
+ident(
+  def prefix "util.ml" 78 2123 2154 "util.ml" 81 2244 2313
+)
+"util.ml" 78 2123 2155 "util.ml" 78 2123 2159
+type(
+  'b option
+)
+ident(
+  def nonl "util.ml" 78 2123 2160 "util.ml" 81 2244 2313
+)
+"util.ml" 78 2123 2160 "util.ml" 78 2123 2163
+type(
+  ('c, Format.formatter, unit, string) format4
+)
+ident(
+  def fmt "util.ml" 79 2166 2168 "util.ml" 81 2244 2313
+)
+"util.ml" 79 2166 2168 "util.ml" 79 2166 2174
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.ignore "stdlib.mli" 723 27015 27015 "stdlib.mli" 723 27015 27055
+)
+"util.ml" 79 2166 2176 "util.ml" 79 2166 2202
+type(
+  unit -> string
+)
+ident(
+  int_ref Stdlib.Format.flush_str_formatter "format.mli" 978 38090 38090 "format.mli" 978 38090 38130
+)
+"util.ml" 79 2166 2203 "util.ml" 79 2166 2205
+type(
+  unit
+)
+"util.ml" 79 2166 2175 "util.ml" 79 2166 2206
+type(
+  string
+)
+"util.ml" 79 2166 2168 "util.ml" 79 2166 2206
+type(
+  unit
+)
+"util.ml" 80 2208 2210 "util.ml" 80 2208 2218
+type(
+  ?debug:string ->
+  ?at:'a Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:'b ->
+  (Format.formatter -> string) ->
+  Format.formatter -> ('c, Format.formatter, unit, string) format4 -> 'c
+)
+ident(
+  int_ref kfprintf "util.ml" 45 1080 1084 "util.ml" 45 1080 1092
+)
+"util.ml" 80 2208 2220 "util.ml" 80 2208 2225
+type(
+  string option
+)
+ident(
+  int_ref debug "util.ml" 78 2123 2136 "util.ml" 78 2123 2141
+)
+"util.ml" 80 2208 2227 "util.ml" 80 2208 2229
+type(
+  'a Property.wrapped option
+)
+ident(
+  int_ref at "util.ml" 78 2123 2143 "util.ml" 78 2123 2145
+)
+"util.ml" 80 2208 2231 "util.ml" 80 2208 2237
+type(
+  string option
+)
+ident(
+  int_ref prefix "util.ml" 78 2123 2147 "util.ml" 78 2123 2153
+)
+"util.ml" 80 2208 2239 "util.ml" 80 2208 2243
+type(
+  'b option
+)
+ident(
+  int_ref nonl "util.ml" 78 2123 2155 "util.ml" 78 2123 2159
+)
+"util.ml" 81 2244 2253 "util.ml" 81 2244 2254
+type(
+  Format.formatter
+)
+"util.ml" 81 2244 2258 "util.ml" 81 2244 2284
+type(
+  unit -> string
+)
+ident(
+  int_ref Stdlib.Format.flush_str_formatter "format.mli" 978 38090 38090 "format.mli" 978 38090 38130
+)
+"util.ml" 81 2244 2285 "util.ml" 81 2244 2287
+type(
+  unit
+)
+"util.ml" 81 2244 2258 "util.ml" 81 2244 2287
+type(
+  string
+)
+"util.ml" 81 2244 2248 "util.ml" 81 2244 2288
+type(
+  Format.formatter -> string
+)
+"util.ml" 81 2244 2289 "util.ml" 81 2244 2309
+type(
+  Format.formatter
+)
+ident(
+  int_ref Stdlib.Format.str_formatter "format.mli" 972 37931 37931 "format.mli" 972 37931 37960
+)
+"util.ml" 81 2244 2310 "util.ml" 81 2244 2313
+type(
+  ('c, Format.formatter, unit, string) format4
+)
+ident(
+  int_ref fmt "util.ml" 78 2123 2160 "util.ml" 78 2123 2163
+)
+"util.ml" 80 2208 2210 "util.ml" 81 2244 2313
+type(
+  'c
+)
+"util.ml" 79 2166 2168 "util.ml" 81 2244 2313
+type(
+  'c
+)
+"util.ml" 84 2316 2320 "util.ml" 84 2316 2327
+type(
+  ?debug:string ->
+  ?at:'a Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:'b ->
+  Format.formatter -> ('c, Format.formatter, unit, unit) format4 -> 'c
+)
+ident(
+  def fprintf "util.ml" 88 2421 2421 "util.ml" 0 0 -1
+)
+"util.ml" 84 2316 2329 "util.ml" 84 2316 2334
+type(
+  string option
+)
+ident(
+  def debug "util.ml" 84 2316 2335 "util.ml" 85 2362 2418
+)
+"util.ml" 84 2316 2336 "util.ml" 84 2316 2338
+type(
+  'a Property.wrapped option
+)
+ident(
+  def at "util.ml" 84 2316 2339 "util.ml" 85 2362 2418
+)
+"util.ml" 84 2316 2340 "util.ml" 84 2316 2346
+type(
+  string option
+)
+ident(
+  def prefix "util.ml" 84 2316 2347 "util.ml" 85 2362 2418
+)
+"util.ml" 84 2316 2348 "util.ml" 84 2316 2352
+type(
+  'b option
+)
+ident(
+  def nonl "util.ml" 84 2316 2353 "util.ml" 85 2362 2418
+)
+"util.ml" 84 2316 2353 "util.ml" 84 2316 2355
+type(
+  Format.formatter
+)
+ident(
+  def ff "util.ml" 84 2316 2356 "util.ml" 85 2362 2418
+)
+"util.ml" 84 2316 2356 "util.ml" 84 2316 2359
+type(
+  ('c, Format.formatter, unit, unit) format4
+)
+ident(
+  def fmt "util.ml" 85 2362 2364 "util.ml" 85 2362 2418
+)
+"util.ml" 85 2362 2364 "util.ml" 85 2362 2372
+type(
+  ?debug:string ->
+  ?at:'a Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:'b ->
+  (Format.formatter -> unit) ->
+  Format.formatter -> ('c, Format.formatter, unit, unit) format4 -> 'c
+)
+ident(
+  int_ref kfprintf "util.ml" 45 1080 1084 "util.ml" 45 1080 1092
+)
+"util.ml" 85 2362 2374 "util.ml" 85 2362 2379
+type(
+  string option
+)
+ident(
+  int_ref debug "util.ml" 84 2316 2329 "util.ml" 84 2316 2334
+)
+"util.ml" 85 2362 2381 "util.ml" 85 2362 2383
+type(
+  'a Property.wrapped option
+)
+ident(
+  int_ref at "util.ml" 84 2316 2336 "util.ml" 84 2316 2338
+)
+"util.ml" 85 2362 2385 "util.ml" 85 2362 2391
+type(
+  string option
+)
+ident(
+  int_ref prefix "util.ml" 84 2316 2340 "util.ml" 84 2316 2346
+)
+"util.ml" 85 2362 2393 "util.ml" 85 2362 2397
+type(
+  'b option
+)
+ident(
+  int_ref nonl "util.ml" 84 2316 2348 "util.ml" 84 2316 2352
+)
+"util.ml" 85 2362 2403 "util.ml" 85 2362 2404
+type(
+  Format.formatter
+)
+"util.ml" 85 2362 2408 "util.ml" 85 2362 2410
+type(
+  unit
+)
+"util.ml" 85 2362 2398 "util.ml" 85 2362 2411
+type(
+  Format.formatter -> unit
+)
+"util.ml" 85 2362 2412 "util.ml" 85 2362 2414
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "util.ml" 84 2316 2353 "util.ml" 84 2316 2355
+)
+"util.ml" 85 2362 2415 "util.ml" 85 2362 2418
+type(
+  ('c, Format.formatter, unit, unit) format4
+)
+ident(
+  int_ref fmt "util.ml" 84 2316 2356 "util.ml" 84 2316 2359
+)
+"util.ml" 85 2362 2364 "util.ml" 85 2362 2418
+type(
+  'c
+)
+"util.ml" 88 2421 2425 "util.ml" 88 2421 2432
+type(
+  ?debug:string ->
+  ?at:'a Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:'b -> ('c, Format.formatter, unit, unit) format4 -> 'c
+)
+ident(
+  def eprintf "util.ml" 91 2525 2525 "util.ml" 0 0 -1
+)
+"util.ml" 88 2421 2434 "util.ml" 88 2421 2439
+type(
+  string option
+)
+ident(
+  def debug "util.ml" 88 2421 2440 "util.ml" 89 2464 2523
+)
+"util.ml" 88 2421 2441 "util.ml" 88 2421 2443
+type(
+  'a Property.wrapped option
+)
+ident(
+  def at "util.ml" 88 2421 2444 "util.ml" 89 2464 2523
+)
+"util.ml" 88 2421 2445 "util.ml" 88 2421 2451
+type(
+  string option
+)
+ident(
+  def prefix "util.ml" 88 2421 2452 "util.ml" 89 2464 2523
+)
+"util.ml" 88 2421 2453 "util.ml" 88 2421 2457
+type(
+  'b option
+)
+ident(
+  def nonl "util.ml" 88 2421 2458 "util.ml" 89 2464 2523
+)
+"util.ml" 88 2421 2458 "util.ml" 88 2421 2461
+type(
+  ('c, Format.formatter, unit, unit) format4
+)
+ident(
+  def fmt "util.ml" 89 2464 2466 "util.ml" 89 2464 2523
+)
+"util.ml" 89 2464 2466 "util.ml" 89 2464 2473
+type(
+  ?debug:string ->
+  ?at:'a Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:'b ->
+  Format.formatter -> ('c, Format.formatter, unit, unit) format4 -> 'c
+)
+ident(
+  int_ref fprintf "util.ml" 84 2316 2320 "util.ml" 84 2316 2327
+)
+"util.ml" 89 2464 2475 "util.ml" 89 2464 2480
+type(
+  string option
+)
+ident(
+  int_ref debug "util.ml" 88 2421 2434 "util.ml" 88 2421 2439
+)
+"util.ml" 89 2464 2482 "util.ml" 89 2464 2484
+type(
+  'a Property.wrapped option
+)
+ident(
+  int_ref at "util.ml" 88 2421 2441 "util.ml" 88 2421 2443
+)
+"util.ml" 89 2464 2486 "util.ml" 89 2464 2492
+type(
+  string option
+)
+ident(
+  int_ref prefix "util.ml" 88 2421 2445 "util.ml" 88 2421 2451
+)
+"util.ml" 89 2464 2494 "util.ml" 89 2464 2498
+type(
+  'b option
+)
+ident(
+  int_ref nonl "util.ml" 88 2421 2453 "util.ml" 88 2421 2457
+)
+"util.ml" 89 2464 2499 "util.ml" 89 2464 2519
+type(
+  Format.formatter
+)
+ident(
+  int_ref Stdlib.Format.err_formatter "format.mli" 956 37413 37413 "format.mli" 956 37413 37442
+)
+"util.ml" 89 2464 2520 "util.ml" 89 2464 2523
+type(
+  ('c, Format.formatter, unit, unit) format4
+)
+ident(
+  int_ref fmt "util.ml" 88 2421 2458 "util.ml" 88 2421 2461
+)
+"util.ml" 89 2464 2466 "util.ml" 89 2464 2523
+type(
+  'c
+)
+"util.ml" 91 2525 2529 "util.ml" 91 2525 2535
+type(
+  ?debug:string ->
+  ?at:'a Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:'b -> ('c, Format.formatter, unit, unit) format4 -> 'c
+)
+ident(
+  def printf "util.ml" 96 2675 2675 "util.ml" 0 0 -1
+)
+"util.ml" 91 2525 2537 "util.ml" 91 2525 2542
+type(
+  string option
+)
+ident(
+  def debug "util.ml" 91 2525 2543 "util.ml" 92 2567 2626
+)
+"util.ml" 91 2525 2544 "util.ml" 91 2525 2546
+type(
+  'a Property.wrapped option
+)
+ident(
+  def at "util.ml" 91 2525 2547 "util.ml" 92 2567 2626
+)
+"util.ml" 91 2525 2548 "util.ml" 91 2525 2554
+type(
+  string option
+)
+ident(
+  def prefix "util.ml" 91 2525 2555 "util.ml" 92 2567 2626
+)
+"util.ml" 91 2525 2556 "util.ml" 91 2525 2560
+type(
+  'b option
+)
+ident(
+  def nonl "util.ml" 91 2525 2561 "util.ml" 92 2567 2626
+)
+"util.ml" 91 2525 2561 "util.ml" 91 2525 2564
+type(
+  ('c, Format.formatter, unit, unit) format4
+)
+ident(
+  def fmt "util.ml" 92 2567 2569 "util.ml" 92 2567 2626
+)
+"util.ml" 92 2567 2569 "util.ml" 92 2567 2576
+type(
+  ?debug:string ->
+  ?at:'a Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:'b ->
+  Format.formatter -> ('c, Format.formatter, unit, unit) format4 -> 'c
+)
+ident(
+  int_ref fprintf "util.ml" 84 2316 2320 "util.ml" 84 2316 2327
+)
+"util.ml" 92 2567 2578 "util.ml" 92 2567 2583
+type(
+  string option
+)
+ident(
+  int_ref debug "util.ml" 91 2525 2537 "util.ml" 91 2525 2542
+)
+"util.ml" 92 2567 2585 "util.ml" 92 2567 2587
+type(
+  'a Property.wrapped option
+)
+ident(
+  int_ref at "util.ml" 91 2525 2544 "util.ml" 91 2525 2546
+)
+"util.ml" 92 2567 2589 "util.ml" 92 2567 2595
+type(
+  string option
+)
+ident(
+  int_ref prefix "util.ml" 91 2525 2548 "util.ml" 91 2525 2554
+)
+"util.ml" 92 2567 2597 "util.ml" 92 2567 2601
+type(
+  'b option
+)
+ident(
+  int_ref nonl "util.ml" 91 2525 2556 "util.ml" 91 2525 2560
+)
+"util.ml" 92 2567 2602 "util.ml" 92 2567 2622
+type(
+  Format.formatter
+)
+ident(
+  int_ref Stdlib.Format.std_formatter "format.mli" 950 37257 37257 "format.mli" 950 37257 37286
+)
+"util.ml" 92 2567 2623 "util.ml" 92 2567 2626
+type(
+  ('c, Format.formatter, unit, unit) format4
+)
+ident(
+  int_ref fmt "util.ml" 91 2525 2561 "util.ml" 91 2525 2564
+)
+"util.ml" 92 2567 2569 "util.ml" 92 2567 2626
+type(
+  'c
+)
+"util.ml" 99 2736 2740 "util.ml" 99 2736 2743
+type(
+  ?at:'a Property.wrapped -> string -> 'b
+)
+ident(
+  def bug "util.ml" 115 3222 3222 "util.ml" 0 0 -1
+)
+"util.ml" 99 2736 2745 "util.ml" 99 2736 2747
+type(
+  'a Property.wrapped option
+)
+ident(
+  def at "util.ml" 99 2736 2748 "util.ml" 113 3209 3220
+)
+"util.ml" 99 2736 2748 "util.ml" 99 2736 2751
+type(
+  string
+)
+ident(
+  def msg "util.ml" 100 2754 2756 "util.ml" 113 3209 3220
+)
+"util.ml" 100 2754 2760 "util.ml" 100 2754 2766
+type(
+  string
+)
+ident(
+  def bugmsg "util.ml" 112 3155 3157 "util.ml" 113 3209 3220
+)
+"util.ml" 101 2769 2777 "util.ml" 101 2769 2782
+type(
+  string list
+)
+ident(
+  def lines "util.ml" 109 3052 3056 "util.ml" 109 3052 3087
+)
+"util.ml" 102 2787 2793 "util.ml" 102 2787 2852
+type(
+  string
+)
+"util.ml" 103 2855 2861 "util.ml" 103 2855 2863
+type(
+  string
+)
+"util.ml" 104 2866 2872 "util.ml" 104 2866 2929
+type(
+  string
+)
+"util.ml" 105 2932 2938 "util.ml" 105 2932 2990
+type(
+  string
+)
+"util.ml" 106 2993 2999 "util.ml" 106 2993 3001
+type(
+  string
+)
+"util.ml" 101 2769 2785 "util.ml" 106 2993 3003
+type(
+  string list
+)
+"util.ml" 107 3004 3010 "util.ml" 107 3004 3011
+type(
+  string list -> string list -> string list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"util.ml" 107 3004 3012 "util.ml" 107 3004 3032
+type(
+  bool -> bool -> string list
+)
+ident(
+  int_ref Params.configuration "params.mli" 67 1341 1341 "params.mli" 67 1341 1387
+)
+"util.ml" 107 3004 3033 "util.ml" 107 3004 3038
+type(
+  bool
+)
+"util.ml" 107 3004 3039 "util.ml" 107 3004 3044
+type(
+  bool
+)
+"util.ml" 107 3004 3012 "util.ml" 107 3004 3044
+type(
+  string list
+)
+"util.ml" 101 2769 2785 "util.ml" 107 3004 3044
+type(
+  string list
+)
+"util.ml" 109 3052 3056 "util.ml" 109 3052 3069
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref Stdlib.String.concat "string.mli" 132 5016 5016 "string.mli" 132 5016 5060
+)
+"util.ml" 109 3052 3070 "util.ml" 109 3052 3074
+type(
+  string
+)
+"util.ml" 109 3052 3075 "util.ml" 109 3052 3080
+type(
+  string list
+)
+ident(
+  int_ref lines "util.ml" 101 2769 2777 "util.ml" 101 2769 2782
+)
+"util.ml" 109 3052 3056 "util.ml" 109 3052 3080
+type(
+  string
+)
+"util.ml" 109 3052 3081 "util.ml" 109 3052 3082
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"util.ml" 109 3052 3083 "util.ml" 109 3052 3087
+type(
+  string
+)
+"util.ml" 109 3052 3056 "util.ml" 109 3052 3087
+type(
+  string
+)
+"util.ml" 101 2769 2773 "util.ml" 109 3052 3087
+type(
+  string
+)
+"util.ml" 112 3155 3157 "util.ml" 112 3155 3164
+type(
+  ?debug:string ->
+  ?at:'a Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:'_weak1 ->
+  (string -> string -> unit, Format.formatter, unit, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  int_ref eprintf "util.ml" 88 2421 2425 "util.ml" 88 2421 2432
+)
+"util.ml" 112 3155 3166 "util.ml" 112 3155 3168
+type(
+  'a Property.wrapped option
+)
+ident(
+  int_ref at "util.ml" 99 2736 2745 "util.ml" 99 2736 2747
+)
+"util.ml" 112 3155 3177 "util.ml" 112 3155 3184
+type(
+  string
+)
+type(
+  string option
+)
+"util.ml" 112 3155 3185 "util.ml" 112 3155 3195
+type(
+  (string -> string -> unit, Format.formatter, unit, unit) format4
+)
+"util.ml" 112 3155 3196 "util.ml" 112 3155 3199
+type(
+  string
+)
+ident(
+  int_ref msg "util.ml" 99 2736 2748 "util.ml" 99 2736 2751
+)
+"util.ml" 112 3155 3200 "util.ml" 112 3155 3206
+type(
+  string
+)
+ident(
+  int_ref bugmsg "util.ml" 100 2754 2760 "util.ml" 100 2754 2766
+)
+"util.ml" 112 3155 3157 "util.ml" 112 3155 3206
+type(
+  unit
+)
+"util.ml" 113 3209 3211 "util.ml" 113 3209 3216
+type(
+  exn -> 'b
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"util.ml" 113 3209 3217 "util.ml" 113 3209 3220
+type(
+  exn
+)
+"util.ml" 113 3209 3211 "util.ml" 113 3209 3220
+type(
+  'b
+)
+"util.ml" 112 3155 3157 "util.ml" 113 3209 3220
+type(
+  'b
+)
+"util.ml" 100 2754 2756 "util.ml" 113 3209 3220
+type(
+  'b
+)
+"util.ml" 117 3249 3253 "util.ml" 117 3249 3268
+type(
+  ?at:'a Property.wrapped -> string -> 'b
+)
+ident(
+  def not_implemented "util.ml" 121 3357 3357 "util.ml" 0 0 -1
+)
+"util.ml" 117 3249 3270 "util.ml" 117 3249 3272
+type(
+  'a Property.wrapped option
+)
+ident(
+  def at "util.ml" 117 3249 3273 "util.ml" 119 3332 3355
+)
+"util.ml" 117 3249 3273 "util.ml" 117 3249 3276
+type(
+  string
+)
+ident(
+  def msg "util.ml" 118 3279 3281 "util.ml" 119 3332 3355
+)
+"util.ml" 118 3279 3281 "util.ml" 118 3279 3288
+type(
+  ?debug:string ->
+  ?at:'a Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:'_weak2 ->
+  (string -> unit, Format.formatter, unit, unit) format4 -> string -> unit
+)
+ident(
+  int_ref eprintf "util.ml" 88 2421 2425 "util.ml" 88 2421 2432
+)
+"util.ml" 118 3279 3290 "util.ml" 118 3279 3292
+type(
+  'a Property.wrapped option
+)
+ident(
+  int_ref at "util.ml" 117 3249 3270 "util.ml" 117 3249 3272
+)
+"util.ml" 118 3279 3301 "util.ml" 118 3279 3320
+type(
+  string
+)
+type(
+  string option
+)
+"util.ml" 118 3279 3321 "util.ml" 118 3279 3325
+type(
+  (string -> unit, Format.formatter, unit, unit) format4
+)
+"util.ml" 118 3279 3326 "util.ml" 118 3279 3329
+type(
+  string
+)
+ident(
+  int_ref msg "util.ml" 117 3249 3273 "util.ml" 117 3249 3276
+)
+"util.ml" 118 3279 3281 "util.ml" 118 3279 3329
+type(
+  unit
+)
+"util.ml" 119 3332 3334 "util.ml" 119 3332 3339
+type(
+  exn -> 'b
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"util.ml" 119 3332 3340 "util.ml" 119 3332 3355
+type(
+  exn
+)
+"util.ml" 119 3332 3334 "util.ml" 119 3332 3355
+type(
+  'b
+)
+"util.ml" 118 3279 3281 "util.ml" 119 3332 3355
+type(
+  'b
+)
+"util.ml" 123 3380 3384 "util.ml" 123 3380 3392
+type(
+  string -> int * int
+)
+ident(
+  def checksum "util.ml" 130 3602 3602 "util.ml" 0 0 -1
+)
+"util.ml" 123 3380 3393 "util.ml" 123 3380 3394
+type(
+  string
+)
+ident(
+  def f "util.ml" 124 3397 3399 "util.ml" 128 3553 3600
+)
+"util.ml" 124 3397 3403 "util.ml" 124 3397 3407
+type(
+  string
+)
+ident(
+  def scmd "util.ml" 125 3439 3441 "util.ml" 128 3553 3600
+)
+"util.ml" 124 3397 3410 "util.ml" 124 3397 3424
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"util.ml" 124 3397 3425 "util.ml" 124 3397 3433
+type(
+  (string -> string, unit, string) format
+)
+"util.ml" 124 3397 3434 "util.ml" 124 3397 3435
+type(
+  string
+)
+ident(
+  int_ref f "util.ml" 123 3380 3393 "util.ml" 123 3380 3394
+)
+"util.ml" 124 3397 3410 "util.ml" 124 3397 3435
+type(
+  string
+)
+"util.ml" 125 3439 3445 "util.ml" 125 3439 3448
+type(
+  in_channel
+)
+ident(
+  def sin "util.ml" 126 3480 3482 "util.ml" 128 3553 3600
+)
+"util.ml" 125 3439 3451 "util.ml" 125 3439 3471
+type(
+  string -> in_channel
+)
+ident(
+  int_ref Unix.open_process_in "unix.mli" 861 35020 35020 "unix.mli" 861 35020 35062
+)
+"util.ml" 125 3439 3472 "util.ml" 125 3439 3476
+type(
+  string
+)
+ident(
+  int_ref scmd "util.ml" 124 3397 3403 "util.ml" 124 3397 3407
+)
+"util.ml" 125 3439 3451 "util.ml" 125 3439 3476
+type(
+  in_channel
+)
+"util.ml" 126 3480 3486 "util.ml" 126 3480 3490
+type(
+  string
+)
+ident(
+  def hash "util.ml" 127 3514 3516 "util.ml" 128 3553 3600
+)
+"util.ml" 126 3480 3493 "util.ml" 126 3480 3506
+type(
+  ?bsize:int -> in_channel -> string
+)
+ident(
+  int_ref Ext.Std.input_all "ext.mli" 72 3001 3003 "ext.mli" 72 3001 3053
+)
+"util.ml" 126 3480 3507 "util.ml" 126 3480 3510
+type(
+  in_channel
+)
+ident(
+  int_ref sin "util.ml" 125 3439 3445 "util.ml" 125 3439 3448
+)
+"util.ml" 126 3480 3493 "util.ml" 126 3480 3510
+type(
+  string
+)
+"util.ml" 127 3514 3516 "util.ml" 127 3514 3522
+type(
+  Unix.process_status -> unit
+)
+ident(
+  int_ref Stdlib.ignore "stdlib.mli" 723 27015 27015 "stdlib.mli" 723 27015 27055
+)
+"util.ml" 127 3514 3524 "util.ml" 127 3514 3545
+type(
+  in_channel -> Unix.process_status
+)
+ident(
+  int_ref Unix.close_process_in "unix.mli" 968 39743 39743 "unix.mli" 968 39743 39794
+)
+"util.ml" 127 3514 3546 "util.ml" 127 3514 3549
+type(
+  in_channel
+)
+ident(
+  int_ref sin "util.ml" 125 3439 3445 "util.ml" 125 3439 3448
+)
+"util.ml" 127 3514 3523 "util.ml" 127 3514 3550
+type(
+  Unix.process_status
+)
+"util.ml" 127 3514 3516 "util.ml" 127 3514 3550
+type(
+  unit
+)
+"util.ml" 128 3553 3555 "util.ml" 128 3553 3567
+type(
+  string ->
+  (int -> int -> int * int, '_weak3, (int -> int -> int * int) -> int * int,
+   int * int)
+  Scanf.scanner
+)
+ident(
+  int_ref Stdlib.Scanf.sscanf "scanf.mli" 469 21807 21807 "scanf.mli" 469 21807 21854
+)
+"util.ml" 128 3553 3568 "util.ml" 128 3553 3572
+type(
+  string
+)
+ident(
+  int_ref hash "util.ml" 126 3480 3486 "util.ml" 126 3480 3490
+)
+"util.ml" 128 3553 3573 "util.ml" 128 3553 3580
+type(
+  (int -> int -> int * int, Scanf.Scanning.in_channel, '_weak3,
+   (int -> int -> int * int) -> int * int,
+   (int -> int -> int * int) -> int * int, int * int)
+  format6
+)
+"util.ml" 128 3553 3586 "util.ml" 128 3553 3587
+type(
+  int
+)
+ident(
+  def j "util.ml" 128 3553 3588 "util.ml" 128 3553 3599
+)
+"util.ml" 128 3553 3588 "util.ml" 128 3553 3589
+type(
+  int
+)
+ident(
+  def k "util.ml" 128 3553 3593 "util.ml" 128 3553 3599
+)
+"util.ml" 128 3553 3594 "util.ml" 128 3553 3595
+type(
+  int
+)
+ident(
+  int_ref j "util.ml" 128 3553 3586 "util.ml" 128 3553 3587
+)
+"util.ml" 128 3553 3597 "util.ml" 128 3553 3598
+type(
+  int
+)
+ident(
+  int_ref k "util.ml" 128 3553 3588 "util.ml" 128 3553 3589
+)
+"util.ml" 128 3553 3593 "util.ml" 128 3553 3599
+type(
+  int * int
+)
+"util.ml" 128 3553 3581 "util.ml" 128 3553 3600
+type(
+  int -> int -> int * int
+)
+"util.ml" 128 3553 3555 "util.ml" 128 3553 3600
+type(
+  int * int
+)
+"util.ml" 127 3514 3516 "util.ml" 128 3553 3600
+type(
+  int * int
+)
+"util.ml" 126 3480 3482 "util.ml" 128 3553 3600
+type(
+  int * int
+)
+"util.ml" 125 3439 3441 "util.ml" 128 3553 3600
+type(
+  int * int
+)
+"util.ml" 124 3397 3399 "util.ml" 128 3553 3600
+type(
+  int * int
+)
+"util.ml" 130 3602 3606 "util.ml" 130 3602 3619
+type(
+  Format.formatter -> int * int -> unit
+)
+ident(
+  def pp_print_csum "util.ml" 133 3667 3667 "util.ml" 0 0 -1
+)
+"util.ml" 130 3602 3620 "util.ml" 130 3602 3622
+type(
+  Format.formatter
+)
+ident(
+  def ff "util.ml" 130 3602 3623 "util.ml" 131 3632 3665
+)
+"util.ml" 130 3602 3624 "util.ml" 130 3602 3625
+type(
+  int
+)
+ident(
+  def j "util.ml" 131 3632 3634 "util.ml" 131 3632 3665
+)
+"util.ml" 130 3602 3627 "util.ml" 130 3602 3628
+type(
+  int
+)
+ident(
+  def k "util.ml" 131 3632 3634 "util.ml" 131 3632 3665
+)
+"util.ml" 130 3602 3623 "util.ml" 130 3602 3629
+type(
+  int * int
+)
+"util.ml" 131 3632 3634 "util.ml" 131 3632 3648
+type(
+  Format.formatter ->
+  (int -> int -> unit, Format.formatter, unit) format -> int -> int -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"util.ml" 131 3632 3649 "util.ml" 131 3632 3651
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "util.ml" 130 3602 3620 "util.ml" 130 3602 3622
+)
+"util.ml" 131 3632 3652 "util.ml" 131 3632 3661
+type(
+  (int -> int -> unit, Format.formatter, unit) format
+)
+"util.ml" 131 3632 3662 "util.ml" 131 3632 3663
+type(
+  int
+)
+ident(
+  int_ref j "util.ml" 130 3602 3624 "util.ml" 130 3602 3625
+)
+"util.ml" 131 3632 3664 "util.ml" 131 3632 3665
+type(
+  int
+)
+ident(
+  int_ref k "util.ml" 130 3602 3627 "util.ml" 130 3602 3628
+)
+"util.ml" 131 3632 3634 "util.ml" 131 3632 3665
+type(
+  unit
+)
+"util.ml" 133 3667 3671 "util.ml" 133 3667 3677
+type(
+  ?ending:string -> int -> string -> string
+)
+ident(
+  def plural "util.ml" 136 3742 3742 "util.ml" 0 0 -1
+)
+"util.ml" 133 3667 3680 "util.ml" 133 3667 3686
+type(
+  string
+)
+ident(
+  def ending "util.ml" 133 3667 3692 "util.ml" 134 3702 3740
+)
+"util.ml" 133 3667 3687 "util.ml" 133 3667 3690
+type(
+  string
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "util.ml" 133 3667 3687 "util.ml" 133 3667 3690
+)
+type(
+  string
+)
+type(
+  string option
+)
+type(
+  string option
+)
+ident(
+  def *sth* "util.ml" 133 3667 3687 "util.ml" 133 3667 3690
+)
+"util.ml" 133 3667 3692 "util.ml" 133 3667 3697
+type(
+  int
+)
+ident(
+  def count "util.ml" 133 3667 3698 "util.ml" 134 3702 3740
+)
+"util.ml" 133 3667 3698 "util.ml" 133 3667 3699
+type(
+  string
+)
+ident(
+  def s "util.ml" 134 3702 3704 "util.ml" 134 3702 3740
+)
+"util.ml" 134 3702 3707 "util.ml" 134 3702 3712
+type(
+  int
+)
+ident(
+  int_ref count "util.ml" 133 3667 3692 "util.ml" 133 3667 3697
+)
+"util.ml" 134 3702 3713 "util.ml" 134 3702 3715
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 130 5559 5559 "stdlib.mli" 130 5559 5607
+)
+"util.ml" 134 3702 3716 "util.ml" 134 3702 3717
+type(
+  int
+)
+"util.ml" 134 3702 3707 "util.ml" 134 3702 3717
+type(
+  bool
+)
+"util.ml" 134 3702 3723 "util.ml" 134 3702 3724
+type(
+  string
+)
+ident(
+  int_ref s "util.ml" 133 3667 3698 "util.ml" 133 3667 3699
+)
+"util.ml" 134 3702 3725 "util.ml" 134 3702 3726
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"util.ml" 134 3702 3727 "util.ml" 134 3702 3733
+type(
+  string
+)
+ident(
+  int_ref ending "util.ml" 133 3667 3680 "util.ml" 133 3667 3686
+)
+"util.ml" 134 3702 3723 "util.ml" 134 3702 3733
+type(
+  string
+)
+"util.ml" 134 3702 3739 "util.ml" 134 3702 3740
+type(
+  string
+)
+ident(
+  int_ref s "util.ml" 133 3667 3698 "util.ml" 133 3667 3699
+)
+"util.ml" 134 3702 3704 "util.ml" 134 3702 3740
+type(
+  string
+)
+"util.ml" 136 3742 3746 "util.ml" 136 3742 3755
+type(
+  ?cols:int -> string -> string
+)
+ident(
+  def line_wrap "util.ml" 163 4445 4445 "util.ml" 0 0 -1
+)
+"util.ml" 136 3742 3758 "util.ml" 136 3742 3762
+type(
+  int
+)
+ident(
+  def cols "util.ml" 136 3742 3767 "util.ml" 161 4422 4443
+)
+"util.ml" 136 3742 3763 "util.ml" 136 3742 3765
+type(
+  int
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "util.ml" 136 3742 3763 "util.ml" 136 3742 3765
+)
+type(
+  int
+)
+type(
+  int option
+)
+type(
+  int option
+)
+ident(
+  def *sth* "util.ml" 136 3742 3763 "util.ml" 136 3742 3765
+)
+"util.ml" 136 3742 3767 "util.ml" 136 3742 3768
+type(
+  string
+)
+ident(
+  def s "util.ml" 137 3771 3773 "util.ml" 161 4422 4443
+)
+"util.ml" 137 3771 3777 "util.ml" 137 3771 3781
+type(
+  int
+)
+ident(
+  def slen "util.ml" 138 3803 3805 "util.ml" 161 4422 4443
+)
+"util.ml" 137 3771 3784 "util.ml" 137 3771 3797
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 118 4569 4569 "string.mli" 118 4569 4619
+)
+"util.ml" 137 3771 3798 "util.ml" 137 3771 3799
+type(
+  string
+)
+ident(
+  int_ref s "util.ml" 136 3742 3767 "util.ml" 136 3742 3768
+)
+"util.ml" 137 3771 3784 "util.ml" 137 3771 3799
+type(
+  int
+)
+"util.ml" 138 3803 3809 "util.ml" 138 3803 3812
+type(
+  Buffer.t
+)
+ident(
+  def buf "util.ml" 139 3837 3839 "util.ml" 161 4422 4443
+)
+"util.ml" 138 3803 3815 "util.ml" 138 3803 3828
+type(
+  int -> Buffer.t
+)
+ident(
+  int_ref Stdlib.Buffer.create "buffer.mli" 36 1534 1534 "buffer.mli" 36 1534 1555
+)
+"util.ml" 138 3803 3829 "util.ml" 138 3803 3833
+type(
+  int
+)
+ident(
+  int_ref slen "util.ml" 137 3771 3777 "util.ml" 137 3771 3781
+)
+"util.ml" 138 3803 3815 "util.ml" 138 3803 3833
+type(
+  Buffer.t
+)
+"util.ml" 139 3837 3847 "util.ml" 139 3837 3857
+type(
+  int -> int
+)
+ident(
+  def next_space "util.ml" 139 3837 3839 "util.ml" 161 4422 4443
+)
+"util.ml" 139 3837 3858 "util.ml" 139 3837 3859
+type(
+  int
+)
+ident(
+  def x "util.ml" 140 3862 3866 "util.ml" 142 3920 3947
+)
+"util.ml" 140 3862 3869 "util.ml" 140 3862 3870
+type(
+  int
+)
+ident(
+  int_ref x "util.ml" 139 3837 3858 "util.ml" 139 3837 3859
+)
+"util.ml" 140 3862 3871 "util.ml" 140 3862 3873
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 150 6190 6190 "stdlib.mli" 150 6190 6242
+)
+"util.ml" 140 3862 3874 "util.ml" 140 3862 3878
+type(
+  int
+)
+ident(
+  int_ref slen "util.ml" 137 3771 3777 "util.ml" 137 3771 3781
+)
+"util.ml" 140 3862 3869 "util.ml" 140 3862 3878
+type(
+  bool
+)
+"util.ml" 140 3862 3884 "util.ml" 140 3862 3888
+type(
+  int
+)
+ident(
+  int_ref slen "util.ml" 137 3771 3777 "util.ml" 137 3771 3781
+)
+"util.ml" 141 3889 3901 "util.ml" 141 3889 3902
+type(
+  string
+)
+ident(
+  int_ref s "util.ml" 136 3742 3767 "util.ml" 136 3742 3768
+)
+"util.ml" 141 3889 3904 "util.ml" 141 3889 3905
+type(
+  int
+)
+ident(
+  int_ref x "util.ml" 139 3837 3858 "util.ml" 139 3837 3859
+)
+"util.ml" 141 3889 3901 "util.ml" 141 3889 3906
+type(
+  char
+)
+"util.ml" 141 3889 3907 "util.ml" 141 3889 3908
+type(
+  char -> char -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"util.ml" 141 3889 3909 "util.ml" 141 3889 3912
+type(
+  char
+)
+"util.ml" 141 3889 3901 "util.ml" 141 3889 3912
+type(
+  bool
+)
+"util.ml" 141 3889 3918 "util.ml" 141 3889 3919
+type(
+  int
+)
+ident(
+  int_ref x "util.ml" 139 3837 3858 "util.ml" 139 3837 3859
+)
+"util.ml" 142 3920 3929 "util.ml" 142 3920 3939
+type(
+  int -> int
+)
+ident(
+  int_ref next_space "util.ml" 139 3837 3847 "util.ml" 139 3837 3857
+)
+"util.ml" 142 3920 3941 "util.ml" 142 3920 3942
+type(
+  int
+)
+ident(
+  int_ref x "util.ml" 139 3837 3858 "util.ml" 139 3837 3859
+)
+"util.ml" 142 3920 3943 "util.ml" 142 3920 3944
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"util.ml" 142 3920 3945 "util.ml" 142 3920 3946
+type(
+  int
+)
+"util.ml" 142 3920 3940 "util.ml" 142 3920 3947
+type(
+  int
+)
+"util.ml" 142 3920 3929 "util.ml" 142 3920 3947
+type(
+  int
+)
+"util.ml" 141 3889 3898 "util.ml" 142 3920 3947
+type(
+  int
+)
+"util.ml" 140 3862 3866 "util.ml" 142 3920 3947
+type(
+  int
+)
+"util.ml" 144 3953 3963 "util.ml" 144 3953 3974
+type(
+  int -> int
+)
+ident(
+  def drop_spaces "util.ml" 144 3953 3955 "util.ml" 161 4422 4443
+)
+"util.ml" 144 3953 3975 "util.ml" 144 3953 3976
+type(
+  int
+)
+ident(
+  def x "util.ml" 145 3979 3983 "util.ml" 147 4076 4086
+)
+"util.ml" 145 3979 3986 "util.ml" 145 3979 3987
+type(
+  int
+)
+ident(
+  int_ref x "util.ml" 144 3953 3975 "util.ml" 144 3953 3976
+)
+"util.ml" 145 3979 3988 "util.ml" 145 3979 3990
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 150 6190 6190 "stdlib.mli" 150 6190 6242
+)
+"util.ml" 145 3979 3991 "util.ml" 145 3979 3995
+type(
+  int
+)
+ident(
+  int_ref slen "util.ml" 137 3771 3777 "util.ml" 137 3771 3781
+)
+"util.ml" 145 3979 3986 "util.ml" 145 3979 3995
+type(
+  bool
+)
+"util.ml" 145 3979 4001 "util.ml" 145 3979 4012
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.invalid_arg "stdlib.mli" 38 1822 1822 "stdlib.mli" 38 1822 1852
+)
+"util.ml" 145 3979 4013 "util.ml" 145 3979 4026
+type(
+  string
+)
+"util.ml" 145 3979 4001 "util.ml" 145 3979 4026
+type(
+  int
+)
+"util.ml" 146 4027 4039 "util.ml" 146 4027 4040
+type(
+  string
+)
+ident(
+  int_ref s "util.ml" 136 3742 3767 "util.ml" 136 3742 3768
+)
+"util.ml" 146 4027 4042 "util.ml" 146 4027 4043
+type(
+  int
+)
+ident(
+  int_ref x "util.ml" 144 3953 3975 "util.ml" 144 3953 3976
+)
+"util.ml" 146 4027 4039 "util.ml" 146 4027 4044
+type(
+  char
+)
+"util.ml" 146 4027 4045 "util.ml" 146 4027 4046
+type(
+  char -> char -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"util.ml" 146 4027 4047 "util.ml" 146 4027 4050
+type(
+  char
+)
+"util.ml" 146 4027 4039 "util.ml" 146 4027 4050
+type(
+  bool
+)
+"util.ml" 146 4027 4056 "util.ml" 146 4027 4067
+type(
+  int -> int
+)
+ident(
+  int_ref drop_spaces "util.ml" 144 3953 3963 "util.ml" 144 3953 3974
+)
+"util.ml" 146 4027 4069 "util.ml" 146 4027 4070
+type(
+  int
+)
+ident(
+  int_ref x "util.ml" 144 3953 3975 "util.ml" 144 3953 3976
+)
+"util.ml" 146 4027 4071 "util.ml" 146 4027 4072
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"util.ml" 146 4027 4073 "util.ml" 146 4027 4074
+type(
+  int
+)
+"util.ml" 146 4027 4068 "util.ml" 146 4027 4075
+type(
+  int
+)
+"util.ml" 146 4027 4056 "util.ml" 146 4027 4075
+type(
+  int
+)
+"util.ml" 147 4076 4085 "util.ml" 147 4076 4086
+type(
+  int
+)
+ident(
+  int_ref x "util.ml" 144 3953 3975 "util.ml" 144 3953 3976
+)
+"util.ml" 146 4027 4036 "util.ml" 147 4076 4086
+type(
+  int
+)
+"util.ml" 145 3979 3983 "util.ml" 147 4076 4086
+type(
+  int
+)
+"util.ml" 149 4092 4102 "util.ml" 149 4092 4106
+type(
+  int -> int -> unit
+)
+ident(
+  def spin "util.ml" 149 4092 4094 "util.ml" 161 4422 4443
+)
+"util.ml" 149 4092 4107 "util.ml" 149 4092 4108
+type(
+  int
+)
+ident(
+  def x "util.ml" 149 4092 4109 "util.ml" 158 4394 4403
+)
+"util.ml" 149 4092 4109 "util.ml" 149 4092 4113
+type(
+  int
+)
+ident(
+  def ccol "util.ml" 150 4116 4120 "util.ml" 158 4394 4403
+)
+"util.ml" 150 4116 4123 "util.ml" 150 4116 4124
+type(
+  int
+)
+ident(
+  int_ref x "util.ml" 149 4092 4107 "util.ml" 149 4092 4108
+)
+"util.ml" 150 4116 4125 "util.ml" 150 4116 4127
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 150 6190 6190 "stdlib.mli" 150 6190 6242
+)
+"util.ml" 150 4116 4128 "util.ml" 150 4116 4132
+type(
+  int
+)
+ident(
+  int_ref slen "util.ml" 137 3771 3777 "util.ml" 137 3771 3781
+)
+"util.ml" 150 4116 4123 "util.ml" 150 4116 4132
+type(
+  bool
+)
+"util.ml" 150 4116 4138 "util.ml" 150 4116 4140
+type(
+  unit
+)
+"util.ml" 151 4146 4156 "util.ml" 151 4146 4158
+type(
+  int
+)
+ident(
+  def nx "util.ml" 152 4183 4189 "util.ml" 158 4394 4403
+)
+"util.ml" 151 4146 4161 "util.ml" 151 4146 4171
+type(
+  int -> int
+)
+ident(
+  int_ref next_space "util.ml" 139 3837 3847 "util.ml" 139 3837 3857
+)
+"util.ml" 151 4146 4173 "util.ml" 151 4146 4174
+type(
+  int
+)
+ident(
+  int_ref x "util.ml" 149 4092 4107 "util.ml" 149 4092 4108
+)
+"util.ml" 151 4146 4175 "util.ml" 151 4146 4176
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"util.ml" 151 4146 4177 "util.ml" 151 4146 4178
+type(
+  int
+)
+"util.ml" 151 4146 4172 "util.ml" 151 4146 4179
+type(
+  int
+)
+"util.ml" 151 4146 4161 "util.ml" 151 4146 4179
+type(
+  int
+)
+"util.ml" 152 4183 4192 "util.ml" 152 4183 4194
+type(
+  int
+)
+ident(
+  int_ref nx "util.ml" 151 4146 4156 "util.ml" 151 4146 4158
+)
+"util.ml" 152 4183 4195 "util.ml" 152 4183 4196
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"util.ml" 152 4183 4197 "util.ml" 152 4183 4198
+type(
+  int
+)
+ident(
+  int_ref x "util.ml" 149 4092 4107 "util.ml" 149 4092 4108
+)
+"util.ml" 152 4183 4192 "util.ml" 152 4183 4198
+type(
+  int
+)
+"util.ml" 152 4183 4199 "util.ml" 152 4183 4200
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"util.ml" 152 4183 4201 "util.ml" 152 4183 4205
+type(
+  int
+)
+ident(
+  int_ref ccol "util.ml" 149 4092 4109 "util.ml" 149 4092 4113
+)
+"util.ml" 152 4183 4192 "util.ml" 152 4183 4205
+type(
+  int
+)
+"util.ml" 152 4183 4206 "util.ml" 152 4183 4208
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 150 6190 6190 "stdlib.mli" 150 6190 6242
+)
+"util.ml" 152 4183 4209 "util.ml" 152 4183 4213
+type(
+  int
+)
+ident(
+  int_ref cols "util.ml" 136 3742 3758 "util.ml" 136 3742 3762
+)
+"util.ml" 152 4183 4192 "util.ml" 152 4183 4213
+type(
+  bool
+)
+"util.ml" 153 4225 4233 "util.ml" 153 4225 4250
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  int_ref Stdlib.Buffer.add_string "buffer.mli" 132 5167 5167 "buffer.mli" 132 5167 5203
+)
+"util.ml" 153 4225 4251 "util.ml" 153 4225 4254
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "util.ml" 138 3803 3809 "util.ml" 138 3803 3812
+)
+"util.ml" 153 4225 4255 "util.ml" 153 4225 4259
+type(
+  string
+)
+"util.ml" 153 4225 4233 "util.ml" 153 4225 4259
+type(
+  unit
+)
+"util.ml" 154 4262 4270 "util.ml" 154 4262 4274
+type(
+  int -> int -> unit
+)
+ident(
+  int_ref spin "util.ml" 149 4092 4102 "util.ml" 149 4092 4106
+)
+"util.ml" 154 4262 4276 "util.ml" 154 4262 4287
+type(
+  int -> int
+)
+ident(
+  int_ref drop_spaces "util.ml" 144 3953 3963 "util.ml" 144 3953 3974
+)
+"util.ml" 154 4262 4288 "util.ml" 154 4262 4289
+type(
+  int
+)
+ident(
+  int_ref x "util.ml" 149 4092 4107 "util.ml" 149 4092 4108
+)
+"util.ml" 154 4262 4275 "util.ml" 154 4262 4290
+type(
+  int
+)
+"util.ml" 154 4262 4291 "util.ml" 154 4262 4292
+type(
+  int
+)
+"util.ml" 154 4262 4270 "util.ml" 154 4262 4292
+type(
+  unit
+)
+"util.ml" 152 4183 4219 "util.ml" 155 4293 4302
+type(
+  unit
+)
+"util.ml" 156 4314 4322 "util.ml" 156 4314 4342
+type(
+  Buffer.t -> string -> int -> int -> unit
+)
+ident(
+  int_ref Stdlib.Buffer.add_substring "buffer.mli" 139 5409 5409 "buffer.mli" 139 5409 5462
+)
+"util.ml" 156 4314 4343 "util.ml" 156 4314 4346
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "util.ml" 138 3803 3809 "util.ml" 138 3803 3812
+)
+"util.ml" 156 4314 4347 "util.ml" 156 4314 4348
+type(
+  string
+)
+ident(
+  int_ref s "util.ml" 136 3742 3767 "util.ml" 136 3742 3768
+)
+"util.ml" 156 4314 4349 "util.ml" 156 4314 4350
+type(
+  int
+)
+ident(
+  int_ref x "util.ml" 149 4092 4107 "util.ml" 149 4092 4108
+)
+"util.ml" 156 4314 4352 "util.ml" 156 4314 4354
+type(
+  int
+)
+ident(
+  int_ref nx "util.ml" 151 4146 4156 "util.ml" 151 4146 4158
+)
+"util.ml" 156 4314 4355 "util.ml" 156 4314 4356
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"util.ml" 156 4314 4357 "util.ml" 156 4314 4358
+type(
+  int
+)
+ident(
+  int_ref x "util.ml" 149 4092 4107 "util.ml" 149 4092 4108
+)
+"util.ml" 156 4314 4351 "util.ml" 156 4314 4359
+type(
+  int
+)
+"util.ml" 156 4314 4322 "util.ml" 156 4314 4359
+type(
+  unit
+)
+"util.ml" 157 4362 4370 "util.ml" 157 4362 4374
+type(
+  int -> int -> unit
+)
+ident(
+  int_ref spin "util.ml" 149 4092 4102 "util.ml" 149 4092 4106
+)
+"util.ml" 157 4362 4375 "util.ml" 157 4362 4377
+type(
+  int
+)
+ident(
+  int_ref nx "util.ml" 151 4146 4156 "util.ml" 151 4146 4158
+)
+"util.ml" 157 4362 4379 "util.ml" 157 4362 4383
+type(
+  int
+)
+ident(
+  int_ref ccol "util.ml" 149 4092 4109 "util.ml" 149 4092 4113
+)
+"util.ml" 157 4362 4384 "util.ml" 157 4362 4385
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"util.ml" 157 4362 4386 "util.ml" 157 4362 4388
+type(
+  int
+)
+ident(
+  int_ref nx "util.ml" 151 4146 4156 "util.ml" 151 4146 4158
+)
+"util.ml" 157 4362 4379 "util.ml" 157 4362 4388
+type(
+  int
+)
+"util.ml" 157 4362 4389 "util.ml" 157 4362 4390
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"util.ml" 157 4362 4391 "util.ml" 157 4362 4392
+type(
+  int
+)
+ident(
+  int_ref x "util.ml" 149 4092 4107 "util.ml" 149 4092 4108
+)
+"util.ml" 157 4362 4378 "util.ml" 157 4362 4393
+type(
+  int
+)
+"util.ml" 157 4362 4370 "util.ml" 157 4362 4393
+type(
+  unit
+)
+"util.ml" 155 4293 4308 "util.ml" 158 4394 4403
+type(
+  unit
+)
+"util.ml" 152 4183 4189 "util.ml" 158 4394 4403
+type(
+  unit
+)
+"util.ml" 151 4146 4152 "util.ml" 158 4394 4403
+type(
+  unit
+)
+"util.ml" 150 4116 4120 "util.ml" 158 4394 4403
+type(
+  unit
+)
+"util.ml" 160 4409 4411 "util.ml" 160 4409 4415
+type(
+  int -> int -> unit
+)
+ident(
+  int_ref spin "util.ml" 149 4092 4102 "util.ml" 149 4092 4106
+)
+"util.ml" 160 4409 4416 "util.ml" 160 4409 4417
+type(
+  int
+)
+"util.ml" 160 4409 4418 "util.ml" 160 4409 4419
+type(
+  int
+)
+"util.ml" 160 4409 4411 "util.ml" 160 4409 4419
+type(
+  unit
+)
+"util.ml" 161 4422 4424 "util.ml" 161 4422 4439
+type(
+  Buffer.t -> string
+)
+ident(
+  int_ref Stdlib.Buffer.contents "buffer.mli" 50 2314 2314 "buffer.mli" 50 2314 2340
+)
+"util.ml" 161 4422 4440 "util.ml" 161 4422 4443
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "util.ml" 138 3803 3809 "util.ml" 138 3803 3812
+)
+"util.ml" 161 4422 4424 "util.ml" 161 4422 4443
+type(
+  string
+)
+"util.ml" 160 4409 4411 "util.ml" 161 4422 4443
+type(
+  string
+)
+"util.ml" 149 4092 4094 "util.ml" 161 4422 4443
+type(
+  string
+)
+"util.ml" 144 3953 3955 "util.ml" 161 4422 4443
+type(
+  string
+)
+"util.ml" 139 3837 3839 "util.ml" 161 4422 4443
+type(
+  string
+)
+"util.ml" 138 3803 3805 "util.ml" 161 4422 4443
+type(
+  string
+)
+"util.ml" 137 3771 3773 "util.ml" 161 4422 4443
+type(
+  string
+)
+"util.ml" 163 4445 4449 "util.ml" 163 4445 4459
+type(
+  unit -> unit
+)
+ident(
+  def heap_stats "util.ml" 168 4590 4590 "util.ml" 0 0 -1
+)
+"util.ml" 163 4445 4460 "util.ml" 163 4445 4462
+type(
+  unit
+)
+"util.ml" 164 4465 4467 "util.ml" 164 4465 4480
+type(
+  unit -> unit
+)
+ident(
+  int_ref Stdlib.Gc.full_major "gc.mli" 278 12082 12082 "gc.mli" 278 12082 12139
+)
+"util.ml" 164 4465 4481 "util.ml" 164 4465 4483
+type(
+  unit
+)
+"util.ml" 164 4465 4467 "util.ml" 164 4465 4483
+type(
+  unit
+)
+"util.ml" 165 4486 4492 "util.ml" 165 4486 4494
+type(
+  Gc.stat
+)
+ident(
+  def st "util.ml" 166 4511 4513 "util.ml" 166 4511 4588
+)
+"util.ml" 165 4486 4497 "util.ml" 165 4486 4504
+type(
+  unit -> Gc.stat
+)
+ident(
+  int_ref Stdlib.Gc.stat "gc.mli" 232 10066 10066 "gc.mli" 232 10066 10111
+)
+"util.ml" 165 4486 4505 "util.ml" 165 4486 4507
+type(
+  unit
+)
+"util.ml" 165 4486 4497 "util.ml" 165 4486 4507
+type(
+  Gc.stat
+)
+"util.ml" 166 4511 4513 "util.ml" 166 4511 4520
+type(
+  ?debug:string ->
+  ?at:'_weak4 Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:'_weak5 ->
+  (int -> unit, Format.formatter, unit, unit) format4 -> int -> unit
+)
+ident(
+  int_ref eprintf "util.ml" 88 2421 2425 "util.ml" 88 2421 2432
+)
+"util.ml" 166 4511 4521 "util.ml" 166 4511 4571
+type(
+  (int -> unit, Format.formatter, unit, unit) format4
+)
+"util.ml" 166 4511 4572 "util.ml" 166 4511 4574
+type(
+  Gc.stat
+)
+ident(
+  int_ref st "util.ml" 165 4486 4492 "util.ml" 165 4486 4494
+)
+"util.ml" 166 4511 4572 "util.ml" 166 4511 4588
+type(
+  int
+)
+"util.ml" 166 4511 4513 "util.ml" 166 4511 4588
+type(
+  unit
+)
+"util.ml" 165 4486 4488 "util.ml" 166 4511 4588
+type(
+  unit
+)
+"util.ml" 164 4465 4467 "util.ml" 166 4511 4588
+type(
+  unit
+)
+"util.ml" 168 4590 4594 "util.ml" 168 4590 4602
+type(
+  (unit -> 'a) ref -> ('b -> 'c) -> 'b -> unit
+)
+ident(
+  def add_hook "util.ml" 173 4662 4662 "util.ml" 0 0 -1
+)
+"util.ml" 168 4590 4603 "util.ml" 168 4590 4604
+type(
+  (unit -> 'a) ref
+)
+ident(
+  def h "util.ml" 168 4590 4605 "util.ml" 170 4629 4659
+)
+"util.ml" 168 4590 4605 "util.ml" 168 4590 4606
+type(
+  'b -> 'c
+)
+ident(
+  def f "util.ml" 168 4590 4607 "util.ml" 170 4629 4659
+)
+"util.ml" 168 4590 4607 "util.ml" 168 4590 4608
+type(
+  'b
+)
+ident(
+  def x "util.ml" 169 4611 4613 "util.ml" 170 4629 4659
+)
+"util.ml" 169 4611 4617 "util.ml" 169 4611 4620
+type(
+  unit -> 'a
+)
+ident(
+  def old "util.ml" 170 4629 4631 "util.ml" 170 4629 4659
+)
+"util.ml" 169 4611 4623 "util.ml" 169 4611 4624
+type(
+  (unit -> 'a) ref -> unit -> 'a
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"util.ml" 169 4611 4624 "util.ml" 169 4611 4625
+type(
+  (unit -> 'a) ref
+)
+ident(
+  int_ref h "util.ml" 168 4590 4603 "util.ml" 168 4590 4604
+)
+"util.ml" 169 4611 4623 "util.ml" 169 4611 4625
+type(
+  unit -> 'a
+)
+"util.ml" 170 4629 4631 "util.ml" 170 4629 4632
+type(
+  (unit -> 'a) ref
+)
+ident(
+  int_ref h "util.ml" 168 4590 4603 "util.ml" 168 4590 4604
+)
+"util.ml" 170 4629 4633 "util.ml" 170 4629 4635
+type(
+  (unit -> 'a) ref -> (unit -> 'a) -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"util.ml" 170 4629 4641 "util.ml" 170 4629 4643
+type(
+  unit
+)
+"util.ml" 170 4629 4647 "util.ml" 170 4629 4648
+type(
+  'b -> 'c
+)
+ident(
+  int_ref f "util.ml" 168 4590 4605 "util.ml" 168 4590 4606
+)
+"util.ml" 170 4629 4649 "util.ml" 170 4629 4650
+type(
+  'b
+)
+ident(
+  int_ref x "util.ml" 168 4590 4607 "util.ml" 168 4590 4608
+)
+"util.ml" 170 4629 4647 "util.ml" 170 4629 4650
+type(
+  'c
+)
+"util.ml" 170 4629 4652 "util.ml" 170 4629 4655
+type(
+  unit -> 'a
+)
+ident(
+  int_ref old "util.ml" 169 4611 4617 "util.ml" 169 4611 4620
+)
+"util.ml" 170 4629 4656 "util.ml" 170 4629 4658
+type(
+  unit
+)
+"util.ml" 170 4629 4652 "util.ml" 170 4629 4658
+type(
+  'a
+)
+"util.ml" 170 4629 4647 "util.ml" 170 4629 4658
+type(
+  'a
+)
+"util.ml" 170 4629 4636 "util.ml" 170 4629 4659
+type(
+  unit -> 'a
+)
+"util.ml" 170 4629 4631 "util.ml" 170 4629 4659
+type(
+  unit
+)
+"util.ml" 169 4611 4613 "util.ml" 170 4629 4659
+type(
+  unit
+)
+"util.ml" 173 4662 4666 "util.ml" 173 4662 4678
+type(
+  string -> unit
+)
+ident(
+  def rm_temp_file "util.ml" 179 4784 4784 "util.ml" 0 0 -1
+)
+"util.ml" 173 4662 4679 "util.ml" 173 4662 4684
+type(
+  string
+)
+ident(
+  def fname "util.ml" 174 4687 4689 "util.ml" 176 4776 4781
+)
+"util.ml" 174 4687 4692 "util.ml" 174 4687 4695
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"util.ml" 174 4687 4697 "util.ml" 174 4687 4713
+type(
+  string -> bool
+)
+ident(
+  int_ref Params.debugging "params.mli" 9 124 124 "params.mli" 9 124 153
+)
+"util.ml" 174 4687 4714 "util.ml" 174 4687 4725
+type(
+  string
+)
+"util.ml" 174 4687 4696 "util.ml" 174 4687 4726
+type(
+  bool
+)
+"util.ml" 174 4687 4692 "util.ml" 174 4687 4726
+type(
+  bool
+)
+"util.ml" 175 4738 4746 "util.ml" 175 4738 4756
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Sys.remove "sys.mli" 45 2138 2138 "sys.mli" 45 2138 2190
+)
+"util.ml" 175 4738 4757 "util.ml" 175 4738 4762
+type(
+  string
+)
+ident(
+  int_ref fname "util.ml" 173 4662 4679 "util.ml" 173 4662 4684
+)
+"util.ml" 175 4738 4746 "util.ml" 175 4738 4762
+type(
+  unit
+)
+"util.ml" 175 4738 4768 "util.ml" 175 4738 4769
+type(
+  exn
+)
+"util.ml" 175 4738 4773 "util.ml" 175 4738 4775
+type(
+  unit
+)
+"util.ml" 174 4687 4732 "util.ml" 176 4776 4781
+type(
+  unit
+)
+"util.ml" 174 4687 4689 "util.ml" 176 4776 4781
+type(
+  unit
+)
+"util.ml" 179 4784 4788 "util.ml" 179 4784 4797
+type(
+  (unit -> unit) ref -> string -> string * out_channel
+)
+ident(
+  def temp_file "util.ml" 194 5142 5142 "util.ml" 0 0 -1
+)
+"util.ml" 179 4784 4799 "util.ml" 179 4784 4809
+type(
+  (unit -> unit) ref
+)
+type(
+  (unit -> unit) ref
+)
+ident(
+  def clean_hook "util.ml" 179 4784 4832 "util.ml" 189 5079 5094
+)
+"util.ml" 179 4784 4832 "util.ml" 179 4784 4838
+type(
+  string
+)
+ident(
+  def suffix "util.ml" 180 4841 4843 "util.ml" 189 5079 5094
+)
+"util.ml" 180 4841 4848 "util.ml" 180 4841 4853
+type(
+  string
+)
+ident(
+  def fname "util.ml" 184 4989 4991 "util.ml" 189 5079 5094
+)
+"util.ml" 180 4841 4855 "util.ml" 180 4841 4859
+type(
+  out_channel
+)
+ident(
+  def chan "util.ml" 184 4989 4991 "util.ml" 189 5079 5094
+)
+"util.ml" 180 4841 4847 "util.ml" 180 4841 4860
+type(
+  string * out_channel
+)
+"util.ml" 181 4863 4867 "util.ml" 181 4863 4890
+type(
+  ?mode:open_flag list ->
+  ?perms:int -> ?temp_dir:string -> string -> string -> string * out_channel
+)
+ident(
+  int_ref Stdlib.Filename.open_temp_file "filename.mli" 142 5744 5744 "filename.mli" 144 5842 5878
+)
+"util.ml" 181 4863 4901 "util.ml" 181 4863 4902
+type(
+  string ref -> string
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"util.ml" 181 4863 4902 "util.ml" 181 4863 4919
+type(
+  string ref
+)
+ident(
+  int_ref Params.output_dir "params.mli" 18 273 273 "params.mli" 18 273 299
+)
+"util.ml" 181 4863 4901 "util.ml" 181 4863 4919
+type(
+  string
+)
+type(
+  string option
+)
+"util.ml" 181 4863 4927 "util.ml" 181 4863 4938
+type(
+  open_flag
+)
+"util.ml" 181 4863 4926 "util.ml" 181 4863 4939
+type(
+  open_flag list
+)
+type(
+  open_flag list option
+)
+"util.ml" 182 4940 4968 "util.ml" 182 4940 4976
+type(
+  string
+)
+"util.ml" 182 4940 4977 "util.ml" 182 4940 4983
+type(
+  string
+)
+ident(
+  int_ref suffix "util.ml" 179 4784 4832 "util.ml" 179 4784 4838
+)
+"util.ml" 181 4863 4867 "util.ml" 182 4940 4983
+type(
+  string * out_channel
+)
+"util.ml" 184 4989 4995 "util.ml" 184 4989 4996
+type(
+  unit -> unit
+)
+ident(
+  def f "util.ml" 188 5051 5053 "util.ml" 189 5079 5094
+)
+"util.ml" 184 4989 4997 "util.ml" 184 4989 4999
+type(
+  unit
+)
+"util.ml" 185 5002 5006 "util.ml" 185 5002 5015
+type(
+  out_channel -> unit
+)
+ident(
+  int_ref Stdlib.close_out "stdlib.mli" 1044 38643 38643 "stdlib.mli" 1044 38643 38678
+)
+"util.ml" 185 5002 5016 "util.ml" 185 5002 5020
+type(
+  out_channel
+)
+ident(
+  int_ref chan "util.ml" 180 4841 4855 "util.ml" 180 4841 4859
+)
+"util.ml" 185 5002 5006 "util.ml" 185 5002 5020
+type(
+  unit
+)
+"util.ml" 186 5022 5026 "util.ml" 186 5022 5038
+type(
+  string -> unit
+)
+ident(
+  int_ref rm_temp_file "util.ml" 173 4662 4666 "util.ml" 173 4662 4678
+)
+"util.ml" 186 5022 5039 "util.ml" 186 5022 5044
+type(
+  string
+)
+ident(
+  int_ref fname "util.ml" 180 4841 4848 "util.ml" 180 4841 4853
+)
+"util.ml" 186 5022 5026 "util.ml" 186 5022 5044
+type(
+  unit
+)
+"util.ml" 185 5002 5006 "util.ml" 186 5022 5045
+type(
+  unit
+)
+"util.ml" 188 5051 5053 "util.ml" 188 5051 5061
+type(
+  (unit -> unit) ref -> (unit -> unit) -> unit -> unit
+)
+ident(
+  int_ref add_hook "util.ml" 168 4590 4594 "util.ml" 168 4590 4602
+)
+"util.ml" 188 5051 5062 "util.ml" 188 5051 5072
+type(
+  (unit -> unit) ref
+)
+ident(
+  int_ref clean_hook "util.ml" 179 4784 4799 "util.ml" 179 4784 4809
+)
+"util.ml" 188 5051 5073 "util.ml" 188 5051 5074
+type(
+  unit -> unit
+)
+ident(
+  int_ref f "util.ml" 184 4989 4995 "util.ml" 184 4989 4996
+)
+"util.ml" 188 5051 5075 "util.ml" 188 5051 5077
+type(
+  unit
+)
+"util.ml" 188 5051 5053 "util.ml" 188 5051 5077
+type(
+  unit
+)
+"util.ml" 189 5079 5082 "util.ml" 189 5079 5087
+type(
+  string
+)
+ident(
+  int_ref fname "util.ml" 180 4841 4848 "util.ml" 180 4841 4853
+)
+"util.ml" 189 5079 5089 "util.ml" 189 5079 5093
+type(
+  out_channel
+)
+ident(
+  int_ref chan "util.ml" 180 4841 4855 "util.ml" 180 4841 4859
+)
+"util.ml" 189 5079 5081 "util.ml" 189 5079 5094
+type(
+  string * out_channel
+)
+"util.ml" 188 5051 5053 "util.ml" 189 5079 5094
+type(
+  string * out_channel
+)
+"util.ml" 184 4989 4991 "util.ml" 189 5079 5094
+type(
+  string * out_channel
+)
+"util.ml" 180 4841 4843 "util.ml" 189 5079 5094
+type(
+  string * out_channel
+)
+"util.ml" 196 5170 5174 "util.ml" 196 5170 5181
+type(
+  'a -> 'b
+)
+ident(
+  def handler "util.ml" 201 5358 5358 "util.ml" 0 0 -1
+)
+"util.ml" 196 5170 5182 "util.ml" 196 5170 5183
+type(
+  'a
+)
+"util.ml" 196 5170 5186 "util.ml" 196 5170 5191
+type(
+  exn -> 'b
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"util.ml" 196 5170 5192 "util.ml" 196 5170 5208
+type(
+  exn
+)
+"util.ml" 196 5170 5186 "util.ml" 196 5170 5208
+type(
+  'b
+)
+"util.ml" 201 5358 5362 "util.ml" 201 5358 5371
+type(
+  float -> unit
+)
+ident(
+  def set_timer "util.ml" 207 5528 5528 "util.ml" 0 0 -1
+)
+"util.ml" 201 5358 5372 "util.ml" 201 5358 5373
+type(
+  float
+)
+ident(
+  def t "util.ml" 202 5376 5378 "util.ml" 204 5476 5525
+)
+"util.ml" 202 5376 5378 "util.ml" 202 5376 5392
+type(
+  int -> Sys.signal_behavior -> unit
+)
+ident(
+  int_ref Stdlib.Sys.set_signal "sys.mli" 223 8792 8792 "sys.mli" 223 8792 8839
+)
+"util.ml" 202 5376 5393 "util.ml" 202 5376 5404
+type(
+  int
+)
+ident(
+  int_ref Stdlib.Sys.sigalrm "sys.mli" 232 9006 9006 "sys.mli" 232 9006 9023
+)
+"util.ml" 202 5376 5424 "util.ml" 202 5376 5431
+type(
+  int -> unit
+)
+ident(
+  int_ref handler "util.ml" 196 5170 5174 "util.ml" 196 5170 5181
+)
+"util.ml" 202 5376 5405 "util.ml" 202 5376 5432
+type(
+  Sys.signal_behavior
+)
+"util.ml" 202 5376 5378 "util.ml" 202 5376 5432
+type(
+  unit
+)
+"util.ml" 203 5434 5436 "util.ml" 203 5434 5442
+type(
+  Unix.interval_timer_status -> unit
+)
+ident(
+  int_ref Stdlib.ignore "stdlib.mli" 723 27015 27015 "stdlib.mli" 723 27015 27055
+)
+"util.ml" 203 5434 5444 "util.ml" 203 5434 5458
+type(
+  Unix.interval_timer ->
+  Unix.interval_timer_status -> Unix.interval_timer_status
+)
+ident(
+  int_ref Unix.setitimer "unix.mli" 1251 51423 51423 "unix.mli" 1252 51439 51505
+)
+"util.ml" 203 5434 5459 "util.ml" 203 5434 5475
+type(
+  Unix.interval_timer
+)
+"util.ml" 204 5476 5500 "util.ml" 204 5476 5504
+type(
+  float
+)
+"util.ml" 204 5476 5522 "util.ml" 204 5476 5523
+type(
+  float
+)
+ident(
+  int_ref t "util.ml" 201 5358 5372 "util.ml" 201 5358 5373
+)
+"util.ml" 204 5476 5480 "util.ml" 204 5476 5524
+type(
+  Unix.interval_timer_status
+)
+"util.ml" 203 5434 5443 "util.ml" 204 5476 5525
+type(
+  Unix.interval_timer_status
+)
+"util.ml" 203 5434 5436 "util.ml" 204 5476 5525
+type(
+  unit
+)
+"util.ml" 202 5376 5378 "util.ml" 204 5476 5525
+type(
+  unit
+)
+"util.ml" 207 5528 5532 "util.ml" 207 5528 5543
+type(
+  unit -> unit
+)
+ident(
+  def clear_timer "util.ml" 213 5690 5690 "util.ml" 0 0 -1
+)
+"util.ml" 207 5528 5544 "util.ml" 207 5528 5546
+type(
+  unit
+)
+"util.ml" 208 5549 5551 "util.ml" 208 5549 5565
+type(
+  int -> Sys.signal_behavior -> unit
+)
+ident(
+  int_ref Stdlib.Sys.set_signal "sys.mli" 223 8792 8792 "sys.mli" 223 8792 8839
+)
+"util.ml" 208 5549 5566 "util.ml" 208 5549 5577
+type(
+  int
+)
+ident(
+  int_ref Stdlib.Sys.sigalrm "sys.mli" 232 9006 9006 "sys.mli" 232 9006 9023
+)
+"util.ml" 208 5549 5578 "util.ml" 208 5549 5595
+type(
+  Sys.signal_behavior
+)
+"util.ml" 208 5549 5551 "util.ml" 208 5549 5595
+type(
+  unit
+)
+"util.ml" 209 5597 5599 "util.ml" 209 5597 5605
+type(
+  Unix.interval_timer_status -> unit
+)
+ident(
+  int_ref Stdlib.ignore "stdlib.mli" 723 27015 27015 "stdlib.mli" 723 27015 27055
+)
+"util.ml" 209 5597 5607 "util.ml" 209 5597 5621
+type(
+  Unix.interval_timer ->
+  Unix.interval_timer_status -> Unix.interval_timer_status
+)
+ident(
+  int_ref Unix.setitimer "unix.mli" 1251 51423 51423 "unix.mli" 1252 51439 51505
+)
+"util.ml" 209 5597 5622 "util.ml" 209 5597 5638
+type(
+  Unix.interval_timer
+)
+"util.ml" 210 5639 5663 "util.ml" 210 5639 5665
+type(
+  float
+)
+"util.ml" 210 5639 5683 "util.ml" 210 5639 5685
+type(
+  float
+)
+"util.ml" 210 5639 5643 "util.ml" 210 5639 5686
+type(
+  Unix.interval_timer_status
+)
+"util.ml" 209 5597 5606 "util.ml" 210 5639 5687
+type(
+  Unix.interval_timer_status
+)
+"util.ml" 209 5597 5599 "util.ml" 210 5639 5687
+type(
+  unit
+)
+"util.ml" 208 5549 5551 "util.ml" 210 5639 5687
+type(
+  unit
+)
+"util.ml" 213 5690 5694 "util.ml" 213 5690 5710
+type(
+  float -> ('a -> 'b) -> 'a -> 'b option
+)
+ident(
+  def run_with_timeout "util.ml" 219 5806 5853 "util.ml" 0 0 -1
+)
+"util.ml" 213 5690 5711 "util.ml" 213 5690 5714
+type(
+  float
+)
+ident(
+  def tmo "util.ml" 213 5690 5715 "util.ml" 219 5806 5853
+)
+"util.ml" 213 5690 5715 "util.ml" 213 5690 5716
+type(
+  'a -> 'b
+)
+ident(
+  def f "util.ml" 213 5690 5717 "util.ml" 219 5806 5853
+)
+"util.ml" 213 5690 5717 "util.ml" 213 5690 5718
+type(
+  'a
+)
+ident(
+  def x "util.ml" 214 5721 5723 "util.ml" 219 5806 5853
+)
+"util.ml" 215 5727 5731 "util.ml" 215 5727 5740
+type(
+  float -> unit
+)
+ident(
+  int_ref set_timer "util.ml" 201 5358 5362 "util.ml" 201 5358 5371
+)
+"util.ml" 215 5727 5741 "util.ml" 215 5727 5744
+type(
+  float
+)
+ident(
+  int_ref tmo "util.ml" 213 5690 5711 "util.ml" 213 5690 5714
+)
+"util.ml" 215 5727 5731 "util.ml" 215 5727 5744
+type(
+  unit
+)
+"util.ml" 216 5746 5754 "util.ml" 216 5746 5760
+type(
+  'b
+)
+ident(
+  def result "util.ml" 217 5770 5774 "util.ml" 218 5790 5805
+)
+"util.ml" 216 5746 5763 "util.ml" 216 5746 5764
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "util.ml" 213 5690 5715 "util.ml" 213 5690 5716
+)
+"util.ml" 216 5746 5765 "util.ml" 216 5746 5766
+type(
+  'a
+)
+ident(
+  int_ref x "util.ml" 213 5690 5717 "util.ml" 213 5690 5718
+)
+"util.ml" 216 5746 5763 "util.ml" 216 5746 5766
+type(
+  'b
+)
+"util.ml" 217 5770 5774 "util.ml" 217 5770 5785
+type(
+  unit -> unit
+)
+ident(
+  int_ref clear_timer "util.ml" 207 5528 5532 "util.ml" 207 5528 5543
+)
+"util.ml" 217 5770 5786 "util.ml" 217 5770 5788
+type(
+  unit
+)
+"util.ml" 217 5770 5774 "util.ml" 217 5770 5788
+type(
+  unit
+)
+"util.ml" 218 5790 5799 "util.ml" 218 5790 5805
+type(
+  'b
+)
+ident(
+  int_ref result "util.ml" 216 5746 5754 "util.ml" 216 5746 5760
+)
+"util.ml" 218 5790 5794 "util.ml" 218 5790 5805
+type(
+  'b option
+)
+"util.ml" 217 5770 5774 "util.ml" 218 5790 5805
+type(
+  'b option
+)
+"util.ml" 216 5746 5750 "util.ml" 218 5790 5805
+type(
+  'b option
+)
+"util.ml" 215 5727 5731 "util.ml" 218 5790 5805
+type(
+  'b option
+)
+"util.ml" 219 5806 5813 "util.ml" 219 5806 5829
+type(
+  exn
+)
+"util.ml" 219 5806 5833 "util.ml" 219 5806 5844
+type(
+  unit -> unit
+)
+ident(
+  int_ref clear_timer "util.ml" 207 5528 5532 "util.ml" 207 5528 5543
+)
+"util.ml" 219 5806 5845 "util.ml" 219 5806 5847
+type(
+  unit
+)
+"util.ml" 219 5806 5833 "util.ml" 219 5806 5847
+type(
+  unit
+)
+"util.ml" 219 5806 5849 "util.ml" 219 5806 5853
+type(
+  'b option
+)
+"util.ml" 219 5806 5833 "util.ml" 219 5806 5853
+type(
+  'b option
+)
+"util.ml" 214 5721 5723 "util.ml" 219 5806 5853
+type(
+  'b option
+)

@@ -1,0 +1,361 @@
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:0
+@!!END
+
+File "/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library/TLAPS.tla", line 1, character 1 to line 363, character 77:
+[INFO]: All 0 obligation proved.
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:15:1:15:8
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:35:1:35:3
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:35:4:35:15
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:4
+@!!loc:35:17:35:32
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:5
+@!!loc:49:1:49:3
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:6
+@!!loc:49:4:49:7
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:7
+@!!loc:62:1:62:3
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:8
+@!!loc:62:4:62:17
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:9
+@!!loc:62:19:62:34
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:10
+@!!loc:75:1:75:3
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:11
+@!!loc:75:4:75:17
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:12
+@!!loc:75:19:75:34
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:13
+@!!loc:88:1:88:3
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:14
+@!!loc:88:4:88:17
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:15
+@!!loc:88:19:88:34
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:16
+@!!loc:99:1:99:3
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:17
+@!!loc:99:4:99:19
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:18
+@!!loc:109:5:109:7
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:19
+@!!loc:109:8:109:23
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:19
+@!!END
+
+** Unexpanded symbols: ---
+
+** Unexpanded symbols: ---
+
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:35:4:35:15
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+@!!BEGIN
+@!!type:obligation
+@!!id:4
+@!!loc:35:17:35:32
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+Executable "ls4" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+@!!BEGIN
+@!!type:obligation
+@!!id:5
+@!!loc:49:1:49:3
+@!!status:failed
+@!!prover:ls4
+@!!meth:time-limit: 50
+@!!reason:Executable "ls4" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+
+@!!already:false
+@!!obl:
+ASSUME NEW VARIABLE x,
+       NEW TEMPORAL P,
+       TRUE 
+PROVE  []P => <>[]P
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:6
+@!!loc:49:4:49:7
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+** Unexpanded symbols: ---
+
+@!!BEGIN
+@!!type:obligation
+@!!id:8
+@!!loc:62:4:62:17
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:9
+@!!loc:62:19:62:34
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+** Unexpanded symbols: ---
+
+@!!BEGIN
+@!!type:obligation
+@!!id:11
+@!!loc:75:4:75:17
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:12
+@!!loc:75:19:75:34
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+** Unexpanded symbols: ---
+
+@!!BEGIN
+@!!type:obligation
+@!!id:14
+@!!loc:88:4:88:17
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:15
+@!!loc:88:19:88:34
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+** Unexpanded symbols: ---
+
+@!!BEGIN
+@!!type:obligation
+@!!id:17
+@!!loc:99:4:99:19
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+** Unexpanded symbols: ---
+
+@!!BEGIN
+@!!type:obligation
+@!!id:19
+@!!loc:109:8:109:23
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:10
+@!!loc:75:1:75:3
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:7
+@!!loc:62:1:62:3
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:35:1:35:3
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:15:1:15:8
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:13
+@!!loc:88:1:88:3
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:16
+@!!loc:99:1:99:3
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:18
+@!!loc:109:5:109:7
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+File "./LevelComparison_test.tla", line 49, characters 1-2:
+[ERROR]: Could not prove or check:
+           ASSUME NEW VARIABLE x,
+                  Prop(u) == []u => <>[]u,
+                  NEW TEMPORAL P,
+                  PTL 
+           PROVE  Prop(P)
+File "./LevelComparison_test.tla", line 1, character 1 to line 112, character 80:
+[ERROR]: 1/19 obligations failed.
+There were backend errors processing module `"LevelComparison_test"`.

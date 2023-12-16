@@ -1,0 +1,48 @@
+"module.ml" 4 62 69 "module.ml" 4 62 70
+ident(
+  def T "module.ml" 4 62 76 "module.ml" 0 0 -1
+)
+"module.ml" 5 77 84 "module.ml" 5 77 87
+ident(
+  def Fmt "module.ml" 5 77 95 "module.ml" 0 0 -1
+)
+"module.ml" 6 96 103 "module.ml" 6 96 106
+ident(
+  def Gen "module.ml" 6 96 114 "module.ml" 0 0 -1
+)
+"module.ml" 7 115 122 "module.ml" 7 115 126
+ident(
+  def Elab "module.ml" 7 115 135 "module.ml" 0 0 -1
+)
+"module.ml" 8 136 143 "module.ml" 8 136 151
+ident(
+  def Standard "module.ml" 8 136 164 "module.ml" 0 0 -1
+)
+"module.ml" 9 165 172 "module.ml" 9 165 179
+ident(
+  def Flatten "module.ml" 9 165 191 "module.ml" 0 0 -1
+)
+"module.ml" 10 192 199 "module.ml" 10 192 202
+ident(
+  def Dep "module.ml" 10 192 210 "module.ml" 0 0 -1
+)
+"module.ml" 11 211 218 "module.ml" 11 211 224
+ident(
+  def Parser "module.ml" 11 211 235 "module.ml" 0 0 -1
+)
+"module.ml" 12 236 243 "module.ml" 12 236 247
+ident(
+  def Save "module.ml" 12 236 256 "module.ml" 0 0 -1
+)
+"module.ml" 13 257 264 "module.ml" 13 257 274
+ident(
+  def Globalness "module.ml" 13 257 289 "module.ml" 0 0 -1
+)
+"module.ml" 14 290 297 "module.ml" 14 290 302
+ident(
+  def Subst "module.ml" 14 290 312 "module.ml" 0 0 -1
+)
+"module.ml" 15 313 320 "module.ml" 15 313 325
+ident(
+  def Visit "module.ml" 15 313 335 "module.ml" 0 0 -1
+)

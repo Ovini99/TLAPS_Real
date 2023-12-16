@@ -1,0 +1,49 @@
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:0
+@!!END
+
+File "./Level_of_parametric_INSTANCE_test.tla", line 10, character 1 to line 14, character 22:
+[INFO]: All 0 obligation proved.
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:26:5:26:12
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:1
+@!!END
+
+** Unexpanded symbols: CONSTANT_M!Foo_
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:26:5:26:12
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 5; time-used: 0.0 (0%)
+@!!reason:false
+@!!already:false
+@!!obl:
+M!Foo(TRUE) => M!Foo(TRUE)
+
+@!!END
+
+Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:26:5:26:12
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 10; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+File "./Level_of_parametric_INSTANCE_test.tla", line 1, character 1 to line 29, character 50:
+[INFO]: All 1 obligation proved.

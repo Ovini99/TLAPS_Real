@@ -1,0 +1,3138 @@
+"e_leibniz.ml" 15 234 241 "e_leibniz.ml" 15 234 246
+ident(
+  def Visit "e_leibniz.ml" 15 234 256 "e_leibniz.ml" 0 0 -1
+)
+"e_leibniz.ml" 17 258 262 "e_leibniz.ml" 17 258 271
+type(
+  bool array Property.pfuncs
+)
+ident(
+  def isleibniz "e_leibniz.ml" 20 336 336 "e_leibniz.ml" 0 0 -1
+)
+"e_leibniz.ml" 18 294 296 "e_leibniz.ml" 18 294 309
+type(
+  ?uuid:string -> string -> bool array Property.pfuncs
+)
+ident(
+  int_ref Property.make "property.mli" 53 1729 1729 "property.mli" 53 1729 1775
+)
+"e_leibniz.ml" 18 294 310 "e_leibniz.ml" 18 294 334
+type(
+  string
+)
+"e_leibniz.ml" 18 294 296 "e_leibniz.ml" 18 294 334
+type(
+  bool array Property.pfuncs
+)
+"e_leibniz.ml" 20 336 340 "e_leibniz.ml" 20 336 350
+type(
+  'a Property.wrapped -> int -> bool
+)
+ident(
+  def is_leibniz "e_leibniz.ml" 21 396 396 "e_leibniz.ml" 0 0 -1
+)
+"e_leibniz.ml" 20 336 351 "e_leibniz.ml" 20 336 352
+type(
+  'a Property.wrapped
+)
+ident(
+  def x "e_leibniz.ml" 20 336 353 "e_leibniz.ml" 20 336 395
+)
+"e_leibniz.ml" 20 336 353 "e_leibniz.ml" 20 336 354
+type(
+  int
+)
+ident(
+  def n "e_leibniz.ml" 20 336 357 "e_leibniz.ml" 20 336 395
+)
+"e_leibniz.ml" 20 336 357 "e_leibniz.ml" 20 336 366
+type(
+  bool array -> int -> bool
+)
+ident(
+  int_ref Stdlib.Array.get "array.mli" 36 1594 1594 "array.mli" 36 1594 1650
+)
+"e_leibniz.ml" 20 336 368 "e_leibniz.ml" 20 336 380
+type(
+  'a Property.wrapped -> bool array Property.pfuncs -> bool array
+)
+ident(
+  int_ref Property.get "property.mli" 71 2383 2383 "property.mli" 71 2383 2425
+)
+"e_leibniz.ml" 20 336 381 "e_leibniz.ml" 20 336 382
+type(
+  'a Property.wrapped
+)
+ident(
+  int_ref x "e_leibniz.ml" 20 336 351 "e_leibniz.ml" 20 336 352
+)
+"e_leibniz.ml" 20 336 383 "e_leibniz.ml" 20 336 392
+type(
+  bool array Property.pfuncs
+)
+ident(
+  int_ref isleibniz "e_leibniz.ml" 17 258 262 "e_leibniz.ml" 17 258 271
+)
+"e_leibniz.ml" 20 336 367 "e_leibniz.ml" 20 336 393
+type(
+  bool array
+)
+"e_leibniz.ml" 20 336 394 "e_leibniz.ml" 20 336 395
+type(
+  int
+)
+ident(
+  int_ref n "e_leibniz.ml" 20 336 353 "e_leibniz.ml" 20 336 354
+)
+"e_leibniz.ml" 20 336 357 "e_leibniz.ml" 20 336 395
+type(
+  bool
+)
+"e_leibniz.ml" 21 396 400 "e_leibniz.ml" 21 396 411
+type(
+  'a Property.wrapped -> bool
+)
+ident(
+  def has_leibniz "e_leibniz.ml" 23 442 442 "e_leibniz.ml" 0 0 -1
+)
+"e_leibniz.ml" 21 396 412 "e_leibniz.ml" 21 396 413
+type(
+  'a Property.wrapped
+)
+ident(
+  def x "e_leibniz.ml" 21 396 416 "e_leibniz.ml" 21 396 440
+)
+"e_leibniz.ml" 21 396 416 "e_leibniz.ml" 21 396 428
+type(
+  'a Property.wrapped -> bool array Property.pfuncs -> bool
+)
+ident(
+  int_ref Property.has "property.mli" 67 2198 2198 "property.mli" 67 2198 2242
+)
+"e_leibniz.ml" 21 396 429 "e_leibniz.ml" 21 396 430
+type(
+  'a Property.wrapped
+)
+ident(
+  int_ref x "e_leibniz.ml" 21 396 412 "e_leibniz.ml" 21 396 413
+)
+"e_leibniz.ml" 21 396 431 "e_leibniz.ml" 21 396 440
+type(
+  bool array Property.pfuncs
+)
+ident(
+  int_ref isleibniz "e_leibniz.ml" 17 258 262 "e_leibniz.ml" 17 258 271
+)
+"e_leibniz.ml" 21 396 416 "e_leibniz.ml" 21 396 440
+type(
+  bool
+)
+"e_leibniz.ml" 23 442 446 "e_leibniz.ml" 23 442 459
+type(
+  'a E_visit.scx -> E_t.expr_ Property.wrapped -> bool array
+)
+ident(
+  def compute_array "e_leibniz.ml" 73 2740 2740 "e_leibniz.ml" 0 0 -1
+)
+"e_leibniz.ml" 23 442 460 "e_leibniz.ml" 23 442 463
+type(
+  'a E_visit.scx
+)
+ident(
+  def scx "e_leibniz.ml" 23 442 464 "e_leibniz.ml" 71 2710 2738
+)
+"e_leibniz.ml" 23 442 464 "e_leibniz.ml" 23 442 465
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def e "e_leibniz.ml" 37 1107 1109 "e_leibniz.ml" 71 2710 2738
+)
+"e_leibniz.ml" 37 1107 1113 "e_leibniz.ml" 37 1107 1123
+type(
+  (bool * int * bool ref) Visit.iter
+)
+ident(
+  def leibnizier "e_leibniz.ml" 65 2406 2411 "e_leibniz.ml" 71 2710 2738
+)
+"e_leibniz.ml" 37 1107 1134 "e_leibniz.ml" 37 1107 1138
+type(
+  (bool * int * bool ref) Visit.iter
+)
+type(
+  (bool * int * bool ref) Visit.iter
+)
+"e_leibniz.ml" 40 1207 1223 "e_leibniz.ml" 40 1207 1226
+type(
+  (bool * int * bool ref) Visit.scx
+)
+ident(
+  def scx "e_leibniz.ml" 40 1207 1227 "e_leibniz.ml" 62 2369 2398
+)
+"e_leibniz.ml" 40 1207 1227 "e_leibniz.ml" 40 1207 1228
+type(
+  E_t.expr
+)
+ident(
+  def e "e_leibniz.ml" 41 1231 1237 "e_leibniz.ml" 62 2369 2398
+)
+"e_leibniz.ml" 41 1231 1243 "e_leibniz.ml" 41 1231 1246
+type(
+  bool
+)
+ident(
+  def scp "e_leibniz.ml" 41 1231 1268 "e_leibniz.ml" 62 2369 2398
+)
+"e_leibniz.ml" 41 1231 1247 "e_leibniz.ml" 41 1231 1250
+type(
+  int
+)
+ident(
+  def ind "e_leibniz.ml" 41 1231 1268 "e_leibniz.ml" 62 2369 2398
+)
+"e_leibniz.ml" 41 1231 1251 "e_leibniz.ml" 41 1231 1253
+type(
+  bool ref
+)
+ident(
+  def rf "e_leibniz.ml" 41 1231 1268 "e_leibniz.ml" 62 2369 2398
+)
+"e_leibniz.ml" 41 1231 1242 "e_leibniz.ml" 41 1231 1254
+type(
+  bool * int * bool ref
+)
+"e_leibniz.ml" 41 1231 1255 "e_leibniz.ml" 41 1231 1257
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def cx "e_leibniz.ml" 41 1231 1268 "e_leibniz.ml" 62 2369 2398
+)
+"e_leibniz.ml" 41 1231 1241 "e_leibniz.ml" 41 1231 1258
+type(
+  (bool * int * bool ref) Visit.scx
+)
+"e_leibniz.ml" 41 1231 1261 "e_leibniz.ml" 41 1231 1264
+type(
+  (bool * int * bool ref) Visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 40 1207 1223 "e_leibniz.ml" 40 1207 1226
+)
+"e_leibniz.ml" 41 1231 1274 "e_leibniz.ml" 41 1231 1275
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_leibniz.ml" 40 1207 1227 "e_leibniz.ml" 40 1207 1228
+)
+"e_leibniz.ml" 41 1231 1274 "e_leibniz.ml" 41 1231 1280
+type(
+  E_t.expr_
+)
+"e_leibniz.ml" 42 1286 1297 "e_leibniz.ml" 42 1286 1298
+type(
+  int
+)
+ident(
+  def n "e_leibniz.ml" 42 1286 1304 "e_leibniz.ml" 42 1286 1341
+)
+"e_leibniz.ml" 42 1286 1294 "e_leibniz.ml" 42 1286 1298
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_leibniz.ml" 42 1286 1304 "e_leibniz.ml" 42 1286 1307
+type(
+  int
+)
+ident(
+  int_ref ind "e_leibniz.ml" 41 1231 1247 "e_leibniz.ml" 41 1231 1250
+)
+"e_leibniz.ml" 42 1286 1308 "e_leibniz.ml" 42 1286 1309
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_leibniz.ml" 42 1286 1310 "e_leibniz.ml" 42 1286 1311
+type(
+  int
+)
+ident(
+  int_ref n "e_leibniz.ml" 42 1286 1297 "e_leibniz.ml" 42 1286 1298
+)
+"e_leibniz.ml" 42 1286 1304 "e_leibniz.ml" 42 1286 1311
+type(
+  bool
+)
+"e_leibniz.ml" 42 1286 1312 "e_leibniz.ml" 42 1286 1314
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_leibniz.ml" 42 1286 1315 "e_leibniz.ml" 42 1286 1318
+type(
+  bool
+)
+ident(
+  int_ref scp "e_leibniz.ml" 41 1231 1243 "e_leibniz.ml" 41 1231 1246
+)
+"e_leibniz.ml" 42 1286 1319 "e_leibniz.ml" 42 1286 1320
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_leibniz.ml" 42 1286 1321 "e_leibniz.ml" 42 1286 1326
+type(
+  bool
+)
+"e_leibniz.ml" 42 1286 1315 "e_leibniz.ml" 42 1286 1326
+type(
+  bool
+)
+"e_leibniz.ml" 42 1286 1304 "e_leibniz.ml" 42 1286 1326
+type(
+  bool
+)
+"e_leibniz.ml" 42 1286 1330 "e_leibniz.ml" 42 1286 1332
+type(
+  bool ref
+)
+ident(
+  int_ref rf "e_leibniz.ml" 41 1231 1251 "e_leibniz.ml" 41 1231 1253
+)
+"e_leibniz.ml" 42 1286 1333 "e_leibniz.ml" 42 1286 1335
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"e_leibniz.ml" 42 1286 1336 "e_leibniz.ml" 42 1286 1341
+type(
+  bool
+)
+"e_leibniz.ml" 42 1286 1330 "e_leibniz.ml" 42 1286 1341
+type(
+  unit
+)
+"e_leibniz.ml" 43 1348 1364 "e_leibniz.ml" 43 1348 1366
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  def vs "e_leibniz.ml" 44 1380 1390 "e_leibniz.ml" 45 1492 1553
+)
+"e_leibniz.ml" 43 1348 1368 "e_leibniz.ml" 43 1348 1369
+type(
+  E_t.expr
+)
+ident(
+  def e "e_leibniz.ml" 44 1380 1390 "e_leibniz.ml" 45 1492 1553
+)
+"e_leibniz.ml" 43 1348 1356 "e_leibniz.ml" 43 1348 1370
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_leibniz.ml" 44 1380 1394 "e_leibniz.ml" 44 1380 1397
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+ident(
+  def scx "e_leibniz.ml" 45 1492 1502 "e_leibniz.ml" 45 1492 1553
+)
+"e_leibniz.ml" 44 1380 1400 "e_leibniz.ml" 44 1380 1412
+type(
+  (bool * int * bool ref) E_visit.scx ->
+  E_t.hyp list -> (bool * int * bool ref) E_visit.scx
+)
+ident(
+  int_ref E_visit.adjs "e_visit.mli" 24 667 667 "e_visit.mli" 24 667 706
+)
+"e_leibniz.ml" 44 1380 1413 "e_leibniz.ml" 44 1380 1416
+type(
+  (bool * int * bool ref) Visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 40 1207 1223 "e_leibniz.ml" 40 1207 1226
+)
+"e_leibniz.ml" 44 1380 1418 "e_leibniz.ml" 44 1380 1426
+type(
+  (Util.hint * E_t.shape -> E_t.hyp) ->
+  (Util.hint * E_t.shape) list -> E_t.hyp list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"e_leibniz.ml" 44 1380 1433 "e_leibniz.ml" 44 1380 1434
+type(
+  Util.hint
+)
+ident(
+  def v "e_leibniz.ml" 44 1380 1444 "e_leibniz.ml" 44 1380 1483
+)
+"e_leibniz.ml" 44 1380 1436 "e_leibniz.ml" 44 1380 1439
+type(
+  E_t.shape
+)
+ident(
+  def shp "e_leibniz.ml" 44 1380 1444 "e_leibniz.ml" 44 1380 1483
+)
+"e_leibniz.ml" 44 1380 1432 "e_leibniz.ml" 44 1380 1440
+type(
+  Util.hint * E_t.shape
+)
+"e_leibniz.ml" 44 1380 1451 "e_leibniz.ml" 44 1380 1452
+type(
+  Util.hint
+)
+ident(
+  int_ref v "e_leibniz.ml" 44 1380 1433 "e_leibniz.ml" 44 1380 1434
+)
+"e_leibniz.ml" 44 1380 1454 "e_leibniz.ml" 44 1380 1457
+type(
+  E_t.shape
+)
+ident(
+  int_ref shp "e_leibniz.ml" 44 1380 1436 "e_leibniz.ml" 44 1380 1439
+)
+"e_leibniz.ml" 44 1380 1459 "e_leibniz.ml" 44 1380 1466
+type(
+  E_t.kind
+)
+"e_leibniz.ml" 44 1380 1468 "e_leibniz.ml" 44 1380 1477
+type(
+  E_t.hdom
+)
+"e_leibniz.ml" 44 1380 1444 "e_leibniz.ml" 44 1380 1478
+type(
+  E_t.hyp_
+)
+"e_leibniz.ml" 44 1380 1479 "e_leibniz.ml" 44 1380 1481
+type(
+  E_t.hyp_ -> Util.hint -> E_t.hyp
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_leibniz.ml" 44 1380 1482 "e_leibniz.ml" 44 1380 1483
+type(
+  Util.hint
+)
+ident(
+  int_ref v "e_leibniz.ml" 44 1380 1433 "e_leibniz.ml" 44 1380 1434
+)
+"e_leibniz.ml" 44 1380 1444 "e_leibniz.ml" 44 1380 1483
+type(
+  E_t.hyp
+)
+"e_leibniz.ml" 44 1380 1427 "e_leibniz.ml" 44 1380 1484
+type(
+  Util.hint * E_t.shape -> E_t.hyp
+)
+"e_leibniz.ml" 44 1380 1485 "e_leibniz.ml" 44 1380 1487
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  int_ref vs "e_leibniz.ml" 43 1348 1364 "e_leibniz.ml" 43 1348 1366
+)
+"e_leibniz.ml" 44 1380 1417 "e_leibniz.ml" 44 1380 1488
+type(
+  E_t.hyp list
+)
+"e_leibniz.ml" 44 1380 1400 "e_leibniz.ml" 44 1380 1488
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+"e_leibniz.ml" 45 1492 1502 "e_leibniz.ml" 45 1492 1506
+type(
+  (bool * int * bool ref) Visit.iter
+)
+ident(
+  ext_ref self-1
+)
+"e_leibniz.ml" 45 1492 1502 "e_leibniz.ml" 45 1492 1511
+type(
+  (bool * int * bool ref) Visit.scx -> E_t.expr -> unit
+)
+"e_leibniz.ml" 45 1492 1514 "e_leibniz.ml" 45 1492 1517
+type(
+  bool
+)
+ident(
+  int_ref scp "e_leibniz.ml" 41 1231 1243 "e_leibniz.ml" 41 1231 1246
+)
+"e_leibniz.ml" 45 1492 1518 "e_leibniz.ml" 45 1492 1521
+type(
+  int
+)
+ident(
+  int_ref ind "e_leibniz.ml" 41 1231 1247 "e_leibniz.ml" 41 1231 1250
+)
+"e_leibniz.ml" 45 1492 1521 "e_leibniz.ml" 45 1492 1522
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"e_leibniz.ml" 45 1492 1523 "e_leibniz.ml" 45 1492 1534
+type(
+  (Util.hint * E_t.shape) list -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"e_leibniz.ml" 45 1492 1535 "e_leibniz.ml" 45 1492 1537
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  int_ref vs "e_leibniz.ml" 43 1348 1364 "e_leibniz.ml" 43 1348 1366
+)
+"e_leibniz.ml" 45 1492 1522 "e_leibniz.ml" 45 1492 1538
+type(
+  int
+)
+"e_leibniz.ml" 45 1492 1518 "e_leibniz.ml" 45 1492 1538
+type(
+  int
+)
+"e_leibniz.ml" 45 1492 1539 "e_leibniz.ml" 45 1492 1541
+type(
+  bool ref
+)
+ident(
+  int_ref rf "e_leibniz.ml" 41 1231 1251 "e_leibniz.ml" 41 1231 1253
+)
+"e_leibniz.ml" 45 1492 1513 "e_leibniz.ml" 45 1492 1542
+type(
+  bool * int * bool ref
+)
+"e_leibniz.ml" 45 1492 1543 "e_leibniz.ml" 45 1492 1546
+type(
+  (bool * int * bool ref) E_visit.scx -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"e_leibniz.ml" 45 1492 1547 "e_leibniz.ml" 45 1492 1550
+type(
+  (bool * int * bool ref) E_visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 44 1380 1394 "e_leibniz.ml" 44 1380 1397
+)
+"e_leibniz.ml" 45 1492 1543 "e_leibniz.ml" 45 1492 1550
+type(
+  E_t.hyp Deque.dq
+)
+"e_leibniz.ml" 45 1492 1512 "e_leibniz.ml" 45 1492 1551
+type(
+  (bool * int * bool ref) Visit.scx
+)
+"e_leibniz.ml" 45 1492 1552 "e_leibniz.ml" 45 1492 1553
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_leibniz.ml" 43 1348 1368 "e_leibniz.ml" 43 1348 1369
+)
+"e_leibniz.ml" 45 1492 1502 "e_leibniz.ml" 45 1492 1553
+type(
+  unit
+)
+"e_leibniz.ml" 44 1380 1390 "e_leibniz.ml" 45 1492 1553
+type(
+  unit
+)
+"e_leibniz.ml" 47 1566 1599 "e_leibniz.ml" 47 1566 1612
+type(
+  Builtin.builtin
+)
+"e_leibniz.ml" 47 1566 1627 "e_leibniz.ml" 47 1566 1628
+type(
+  bool
+)
+"e_leibniz.ml" 47 1566 1615 "e_leibniz.ml" 47 1566 1628
+type(
+  Builtin.builtin
+)
+"e_leibniz.ml" 47 1566 1599 "e_leibniz.ml" 47 1566 1628
+type(
+  Builtin.builtin
+)
+"e_leibniz.ml" 47 1566 1631 "e_leibniz.ml" 47 1566 1646
+type(
+  Builtin.builtin
+)
+"e_leibniz.ml" 47 1566 1598 "e_leibniz.ml" 47 1566 1647
+type(
+  Builtin.builtin
+)
+"e_leibniz.ml" 47 1566 1589 "e_leibniz.ml" 47 1566 1647
+type(
+  E_t.expr_
+)
+"e_leibniz.ml" 47 1566 1581 "e_leibniz.ml" 47 1566 1648
+type(
+  E_t.expr
+)
+"e_leibniz.ml" 47 1566 1651 "e_leibniz.ml" 47 1566 1652
+type(
+  E_t.expr
+)
+ident(
+  def e "e_leibniz.ml" 48 1658 1668 "e_leibniz.ml" 48 1658 1704
+)
+"e_leibniz.ml" 47 1566 1650 "e_leibniz.ml" 47 1566 1653
+type(
+  E_t.expr list
+)
+"e_leibniz.ml" 47 1566 1574 "e_leibniz.ml" 47 1566 1654
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_leibniz.ml" 48 1658 1668 "e_leibniz.ml" 48 1658 1672
+type(
+  (bool * int * bool ref) Visit.iter
+)
+ident(
+  ext_ref self-1
+)
+"e_leibniz.ml" 48 1658 1668 "e_leibniz.ml" 48 1658 1677
+type(
+  (bool * int * bool ref) Visit.scx -> E_t.expr -> unit
+)
+"e_leibniz.ml" 48 1658 1680 "e_leibniz.ml" 48 1658 1685
+type(
+  bool
+)
+"e_leibniz.ml" 48 1658 1686 "e_leibniz.ml" 48 1658 1689
+type(
+  int
+)
+ident(
+  int_ref ind "e_leibniz.ml" 41 1231 1247 "e_leibniz.ml" 41 1231 1250
+)
+"e_leibniz.ml" 48 1658 1690 "e_leibniz.ml" 48 1658 1692
+type(
+  bool ref
+)
+ident(
+  int_ref rf "e_leibniz.ml" 41 1231 1251 "e_leibniz.ml" 41 1231 1253
+)
+"e_leibniz.ml" 48 1658 1679 "e_leibniz.ml" 48 1658 1693
+type(
+  bool * int * bool ref
+)
+"e_leibniz.ml" 48 1658 1694 "e_leibniz.ml" 48 1658 1697
+type(
+  (bool * int * bool ref) Visit.scx -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"e_leibniz.ml" 48 1658 1698 "e_leibniz.ml" 48 1658 1701
+type(
+  (bool * int * bool ref) Visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 40 1207 1223 "e_leibniz.ml" 40 1207 1226
+)
+"e_leibniz.ml" 48 1658 1694 "e_leibniz.ml" 48 1658 1701
+type(
+  E_t.hyp Deque.dq
+)
+"e_leibniz.ml" 48 1658 1678 "e_leibniz.ml" 48 1658 1702
+type(
+  (bool * int * bool ref) Visit.scx
+)
+"e_leibniz.ml" 48 1658 1703 "e_leibniz.ml" 48 1658 1704
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_leibniz.ml" 47 1566 1651 "e_leibniz.ml" 47 1566 1652
+)
+"e_leibniz.ml" 48 1658 1668 "e_leibniz.ml" 48 1658 1704
+type(
+  unit
+)
+"e_leibniz.ml" 49 1705 1738 "e_leibniz.ml" 49 1705 1753
+type(
+  Builtin.builtin
+)
+"e_leibniz.ml" 49 1705 1756 "e_leibniz.ml" 49 1705 1771
+type(
+  Builtin.builtin
+)
+"e_leibniz.ml" 49 1705 1737 "e_leibniz.ml" 49 1705 1772
+type(
+  Builtin.builtin
+)
+"e_leibniz.ml" 49 1705 1728 "e_leibniz.ml" 49 1705 1772
+type(
+  E_t.expr_
+)
+"e_leibniz.ml" 49 1705 1720 "e_leibniz.ml" 49 1705 1773
+type(
+  E_t.expr
+)
+"e_leibniz.ml" 49 1705 1776 "e_leibniz.ml" 49 1705 1778
+type(
+  E_t.expr
+)
+ident(
+  def e1 "e_leibniz.ml" 50 1787 1797 "e_leibniz.ml" 51 1866 1883
+)
+"e_leibniz.ml" 49 1705 1779 "e_leibniz.ml" 49 1705 1781
+type(
+  E_t.expr
+)
+ident(
+  def e2 "e_leibniz.ml" 50 1787 1797 "e_leibniz.ml" 51 1866 1883
+)
+"e_leibniz.ml" 49 1705 1775 "e_leibniz.ml" 49 1705 1782
+type(
+  E_t.expr list
+)
+"e_leibniz.ml" 49 1705 1713 "e_leibniz.ml" 49 1705 1783
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_leibniz.ml" 50 1787 1797 "e_leibniz.ml" 50 1787 1801
+type(
+  (bool * int * bool ref) Visit.iter
+)
+ident(
+  ext_ref self-1
+)
+"e_leibniz.ml" 50 1787 1797 "e_leibniz.ml" 50 1787 1806
+type(
+  (bool * int * bool ref) Visit.scx -> E_t.expr -> unit
+)
+"e_leibniz.ml" 50 1787 1809 "e_leibniz.ml" 50 1787 1814
+type(
+  bool
+)
+"e_leibniz.ml" 50 1787 1815 "e_leibniz.ml" 50 1787 1818
+type(
+  int
+)
+ident(
+  int_ref ind "e_leibniz.ml" 41 1231 1247 "e_leibniz.ml" 41 1231 1250
+)
+"e_leibniz.ml" 50 1787 1819 "e_leibniz.ml" 50 1787 1821
+type(
+  bool ref
+)
+ident(
+  int_ref rf "e_leibniz.ml" 41 1231 1251 "e_leibniz.ml" 41 1231 1253
+)
+"e_leibniz.ml" 50 1787 1808 "e_leibniz.ml" 50 1787 1822
+type(
+  bool * int * bool ref
+)
+"e_leibniz.ml" 50 1787 1823 "e_leibniz.ml" 50 1787 1826
+type(
+  (bool * int * bool ref) Visit.scx -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"e_leibniz.ml" 50 1787 1827 "e_leibniz.ml" 50 1787 1830
+type(
+  (bool * int * bool ref) Visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 40 1207 1223 "e_leibniz.ml" 40 1207 1226
+)
+"e_leibniz.ml" 50 1787 1823 "e_leibniz.ml" 50 1787 1830
+type(
+  E_t.hyp Deque.dq
+)
+"e_leibniz.ml" 50 1787 1807 "e_leibniz.ml" 50 1787 1831
+type(
+  (bool * int * bool ref) Visit.scx
+)
+"e_leibniz.ml" 50 1787 1832 "e_leibniz.ml" 50 1787 1834
+type(
+  E_t.expr
+)
+ident(
+  int_ref e1 "e_leibniz.ml" 49 1705 1776 "e_leibniz.ml" 49 1705 1778
+)
+"e_leibniz.ml" 50 1787 1797 "e_leibniz.ml" 50 1787 1834
+type(
+  unit
+)
+"e_leibniz.ml" 50 1787 1836 "e_leibniz.ml" 50 1787 1840
+type(
+  (bool * int * bool ref) Visit.iter
+)
+ident(
+  ext_ref self-1
+)
+"e_leibniz.ml" 50 1787 1836 "e_leibniz.ml" 50 1787 1845
+type(
+  (bool * int * bool ref) Visit.scx -> E_t.expr -> unit
+)
+"e_leibniz.ml" 50 1787 1848 "e_leibniz.ml" 50 1787 1853
+type(
+  bool
+)
+"e_leibniz.ml" 50 1787 1854 "e_leibniz.ml" 50 1787 1857
+type(
+  int
+)
+ident(
+  int_ref ind "e_leibniz.ml" 41 1231 1247 "e_leibniz.ml" 41 1231 1250
+)
+"e_leibniz.ml" 50 1787 1858 "e_leibniz.ml" 50 1787 1860
+type(
+  bool ref
+)
+ident(
+  int_ref rf "e_leibniz.ml" 41 1231 1251 "e_leibniz.ml" 41 1231 1253
+)
+"e_leibniz.ml" 50 1787 1847 "e_leibniz.ml" 50 1787 1861
+type(
+  bool * int * bool ref
+)
+"e_leibniz.ml" 50 1787 1862 "e_leibniz.ml" 50 1787 1865
+type(
+  (bool * int * bool ref) Visit.scx -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"e_leibniz.ml" 51 1866 1876 "e_leibniz.ml" 51 1866 1879
+type(
+  (bool * int * bool ref) Visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 40 1207 1223 "e_leibniz.ml" 40 1207 1226
+)
+"e_leibniz.ml" 50 1787 1862 "e_leibniz.ml" 51 1866 1879
+type(
+  E_t.hyp Deque.dq
+)
+"e_leibniz.ml" 50 1787 1846 "e_leibniz.ml" 51 1866 1880
+type(
+  (bool * int * bool ref) Visit.scx
+)
+"e_leibniz.ml" 51 1866 1881 "e_leibniz.ml" 51 1866 1883
+type(
+  E_t.expr
+)
+ident(
+  int_ref e2 "e_leibniz.ml" 49 1705 1779 "e_leibniz.ml" 49 1705 1781
+)
+"e_leibniz.ml" 50 1787 1836 "e_leibniz.ml" 51 1866 1883
+type(
+  unit
+)
+"e_leibniz.ml" 50 1787 1797 "e_leibniz.ml" 51 1866 1883
+type(
+  unit
+)
+"e_leibniz.ml" 52 1884 1910 "e_leibniz.ml" 52 1884 1911
+type(
+  int
+)
+ident(
+  def n "e_leibniz.ml" 52 1884 1923 "e_leibniz.ml" 61 2357 2368
+)
+"e_leibniz.ml" 52 1884 1907 "e_leibniz.ml" 52 1884 1911
+type(
+  E_t.expr_
+)
+"e_leibniz.ml" 52 1884 1899 "e_leibniz.ml" 52 1884 1912
+type(
+  E_t.expr
+)
+"e_leibniz.ml" 52 1884 1914 "e_leibniz.ml" 52 1884 1918
+type(
+  E_t.expr list
+)
+ident(
+  def args "e_leibniz.ml" 52 1884 1923 "e_leibniz.ml" 61 2357 2368
+)
+"e_leibniz.ml" 52 1884 1892 "e_leibniz.ml" 52 1884 1919
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_leibniz.ml" 53 1929 1942 "e_leibniz.ml" 53 1929 1943
+type(
+  int
+)
+ident(
+  int_ref n "e_leibniz.ml" 52 1884 1910 "e_leibniz.ml" 52 1884 1911
+)
+"e_leibniz.ml" 53 1929 1944 "e_leibniz.ml" 53 1929 1945
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 140 5875 5875 "stdlib.mli" 140 5875 5925
+)
+"e_leibniz.ml" 53 1929 1946 "e_leibniz.ml" 53 1929 1956
+type(
+  E_t.hyp Deque.dq -> int
+)
+ident(
+  int_ref Deque.size "deque.mli" 11 162 162 "deque.mli" 11 162 186
+)
+"e_leibniz.ml" 53 1929 1958 "e_leibniz.ml" 53 1929 1961
+type(
+  (bool * int * bool ref) Visit.scx -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"e_leibniz.ml" 53 1929 1962 "e_leibniz.ml" 53 1929 1965
+type(
+  (bool * int * bool ref) Visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 40 1207 1223 "e_leibniz.ml" 40 1207 1226
+)
+"e_leibniz.ml" 53 1929 1957 "e_leibniz.ml" 53 1929 1966
+type(
+  E_t.hyp Deque.dq
+)
+"e_leibniz.ml" 53 1929 1946 "e_leibniz.ml" 53 1929 1966
+type(
+  int
+)
+"e_leibniz.ml" 53 1929 1942 "e_leibniz.ml" 53 1929 1966
+type(
+  bool
+)
+"e_leibniz.ml" 54 1972 1984 "e_leibniz.ml" 54 1972 1994
+type(
+  ?at:E_t.expr -> string -> unit
+)
+ident(
+  int_ref Errors.bug "errors.mli" 41 941 941 "errors.mli" 41 941 982
+)
+"e_leibniz.ml" 54 1972 1999 "e_leibniz.ml" 54 1972 2000
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_leibniz.ml" 40 1207 1227 "e_leibniz.ml" 40 1207 1228
+)
+type(
+  E_t.expr option
+)
+"e_leibniz.ml" 54 1972 2001 "e_leibniz.ml" 54 1972 2039
+type(
+  string
+)
+"e_leibniz.ml" 54 1972 1984 "e_leibniz.ml" 54 1972 2039
+type(
+  unit
+)
+"e_leibniz.ml" 55 2040 2061 "e_leibniz.ml" 55 2040 2070
+type(
+  ?backwards:bool -> E_t.hyp Deque.dq -> int -> E_t.hyp option
+)
+ident(
+  int_ref Deque.nth "deque.mli" 18 388 388 "deque.mli" 18 388 444
+)
+"e_leibniz.ml" 55 2040 2082 "e_leibniz.ml" 55 2040 2086
+type(
+  bool
+)
+type(
+  bool option
+)
+"e_leibniz.ml" 55 2040 2088 "e_leibniz.ml" 55 2040 2091
+type(
+  (bool * int * bool ref) Visit.scx -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"e_leibniz.ml" 55 2040 2092 "e_leibniz.ml" 55 2040 2095
+type(
+  (bool * int * bool ref) Visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 40 1207 1223 "e_leibniz.ml" 40 1207 1226
+)
+"e_leibniz.ml" 55 2040 2087 "e_leibniz.ml" 55 2040 2096
+type(
+  E_t.hyp Deque.dq
+)
+"e_leibniz.ml" 55 2040 2098 "e_leibniz.ml" 55 2040 2099
+type(
+  int
+)
+ident(
+  int_ref n "e_leibniz.ml" 52 1884 1910 "e_leibniz.ml" 52 1884 1911
+)
+"e_leibniz.ml" 55 2040 2100 "e_leibniz.ml" 55 2040 2101
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"e_leibniz.ml" 55 2040 2102 "e_leibniz.ml" 55 2040 2103
+type(
+  int
+)
+"e_leibniz.ml" 55 2040 2097 "e_leibniz.ml" 55 2040 2104
+type(
+  int
+)
+"e_leibniz.ml" 55 2040 2061 "e_leibniz.ml" 55 2040 2104
+type(
+  E_t.hyp option
+)
+"e_leibniz.ml" 56 2110 2162 "e_leibniz.ml" 56 2110 2163
+type(
+  Util.hint
+)
+"e_leibniz.ml" 56 2110 2164 "e_leibniz.ml" 56 2110 2165
+type(
+  E_t.expr
+)
+"e_leibniz.ml" 56 2110 2153 "e_leibniz.ml" 56 2110 2166
+type(
+  E_t.defn_
+)
+"e_leibniz.ml" 56 2110 2145 "e_leibniz.ml" 56 2110 2167
+type(
+  E_t.defn
+)
+"e_leibniz.ml" 56 2110 2145 "e_leibniz.ml" 56 2110 2173
+type(
+  E_t.defn
+)
+ident(
+  def op "e_leibniz.ml" 57 2188 2204 "e_leibniz.ml" 59 2296 2318
+)
+"e_leibniz.ml" 56 2110 2175 "e_leibniz.ml" 56 2110 2176
+type(
+  E_t.wheredef
+)
+"e_leibniz.ml" 56 2110 2178 "e_leibniz.ml" 56 2110 2179
+type(
+  E_t.visibility
+)
+"e_leibniz.ml" 56 2110 2181 "e_leibniz.ml" 56 2110 2182
+type(
+  E_t.export
+)
+"e_leibniz.ml" 56 2110 2139 "e_leibniz.ml" 56 2110 2183
+type(
+  E_t.hyp_
+)
+"e_leibniz.ml" 56 2110 2131 "e_leibniz.ml" 56 2110 2184
+type(
+  E_t.hyp
+)
+"e_leibniz.ml" 56 2110 2126 "e_leibniz.ml" 56 2110 2184
+type(
+  E_t.hyp option
+)
+type(
+  E_t.hyp option
+)
+"e_leibniz.ml" 57 2188 2204 "e_leibniz.ml" 57 2188 2214
+type(
+  (int -> E_t.expr -> unit) -> E_t.expr list -> unit
+)
+ident(
+  int_ref Ext.List.iteri "ext.mli" 55 2496 2498 "ext.mli" 55 2496 2548
+)
+"e_leibniz.ml" 57 2188 2220 "e_leibniz.ml" 57 2188 2221
+type(
+  int
+)
+ident(
+  def i "e_leibniz.ml" 57 2188 2222 "e_leibniz.ml" 58 2229 2295
+)
+"e_leibniz.ml" 57 2188 2222 "e_leibniz.ml" 57 2188 2225
+type(
+  E_t.expr
+)
+ident(
+  def arg "e_leibniz.ml" 58 2229 2247 "e_leibniz.ml" 58 2229 2295
+)
+"e_leibniz.ml" 58 2229 2247 "e_leibniz.ml" 58 2229 2251
+type(
+  (bool * int * bool ref) Visit.iter
+)
+ident(
+  ext_ref self-1
+)
+"e_leibniz.ml" 58 2229 2247 "e_leibniz.ml" 58 2229 2256
+type(
+  (bool * int * bool ref) Visit.scx -> E_t.expr -> unit
+)
+"e_leibniz.ml" 58 2229 2259 "e_leibniz.ml" 58 2229 2269
+type(
+  E_t.defn_ Property.wrapped -> int -> bool
+)
+ident(
+  int_ref is_leibniz "e_leibniz.ml" 20 336 340 "e_leibniz.ml" 20 336 350
+)
+"e_leibniz.ml" 58 2229 2270 "e_leibniz.ml" 58 2229 2272
+type(
+  E_t.defn_ Property.wrapped
+)
+ident(
+  int_ref op "e_leibniz.ml" 56 2110 2145 "e_leibniz.ml" 56 2110 2173
+)
+"e_leibniz.ml" 58 2229 2273 "e_leibniz.ml" 58 2229 2274
+type(
+  int
+)
+ident(
+  int_ref i "e_leibniz.ml" 57 2188 2220 "e_leibniz.ml" 57 2188 2221
+)
+"e_leibniz.ml" 58 2229 2259 "e_leibniz.ml" 58 2229 2274
+type(
+  bool
+)
+"e_leibniz.ml" 58 2229 2275 "e_leibniz.ml" 58 2229 2278
+type(
+  int
+)
+ident(
+  int_ref ind "e_leibniz.ml" 41 1231 1247 "e_leibniz.ml" 41 1231 1250
+)
+"e_leibniz.ml" 58 2229 2279 "e_leibniz.ml" 58 2229 2281
+type(
+  bool ref
+)
+ident(
+  int_ref rf "e_leibniz.ml" 41 1231 1251 "e_leibniz.ml" 41 1231 1253
+)
+"e_leibniz.ml" 58 2229 2258 "e_leibniz.ml" 58 2229 2282
+type(
+  bool * int * bool ref
+)
+"e_leibniz.ml" 58 2229 2283 "e_leibniz.ml" 58 2229 2286
+type(
+  (bool * int * bool ref) Visit.scx -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"e_leibniz.ml" 58 2229 2287 "e_leibniz.ml" 58 2229 2290
+type(
+  (bool * int * bool ref) Visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 40 1207 1223 "e_leibniz.ml" 40 1207 1226
+)
+"e_leibniz.ml" 58 2229 2283 "e_leibniz.ml" 58 2229 2290
+type(
+  E_t.hyp Deque.dq
+)
+"e_leibniz.ml" 58 2229 2257 "e_leibniz.ml" 58 2229 2291
+type(
+  (bool * int * bool ref) Visit.scx
+)
+"e_leibniz.ml" 58 2229 2292 "e_leibniz.ml" 58 2229 2295
+type(
+  E_t.expr
+)
+ident(
+  int_ref arg "e_leibniz.ml" 57 2188 2222 "e_leibniz.ml" 57 2188 2225
+)
+"e_leibniz.ml" 58 2229 2247 "e_leibniz.ml" 58 2229 2295
+type(
+  unit
+)
+"e_leibniz.ml" 57 2188 2215 "e_leibniz.ml" 59 2296 2313
+type(
+  int -> E_t.expr -> unit
+)
+"e_leibniz.ml" 59 2296 2314 "e_leibniz.ml" 59 2296 2318
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_leibniz.ml" 52 1884 1914 "e_leibniz.ml" 52 1884 1918
+)
+"e_leibniz.ml" 57 2188 2204 "e_leibniz.ml" 59 2296 2318
+type(
+  unit
+)
+"e_leibniz.ml" 60 2319 2335 "e_leibniz.ml" 60 2319 2336
+type(
+  E_t.hyp option
+)
+type(
+  E_t.hyp option
+)
+"e_leibniz.ml" 60 2319 2340 "e_leibniz.ml" 60 2319 2345
+type(
+  (bool * int * bool ref) Visit.iter
+)
+ident(
+  ext_ref self-1
+)
+type(
+  (bool * int * bool ref) Visit.iter
+)
+ident(
+  int_ref super "e_leibniz.ml" 38 1148 1160 "e_leibniz.ml" 38 1148 1196
+)
+"e_leibniz.ml" 60 2319 2340 "e_leibniz.ml" 60 2319 2350
+type(
+  (bool * int * bool ref) Visit.iter ->
+  (bool * int * bool ref) Visit.scx -> E_t.expr -> unit
+)
+ident(
+  ext_ref expr
+)
+type(
+  (bool * int * bool ref) Visit.scx -> E_t.expr -> unit
+)
+type(
+  (bool * int * bool ref) Visit.scx -> E_t.expr -> unit
+)
+"e_leibniz.ml" 60 2319 2351 "e_leibniz.ml" 60 2319 2354
+type(
+  (bool * int * bool ref) Visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 40 1207 1223 "e_leibniz.ml" 40 1207 1226
+)
+"e_leibniz.ml" 60 2319 2355 "e_leibniz.ml" 60 2319 2356
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_leibniz.ml" 40 1207 1227 "e_leibniz.ml" 40 1207 1228
+)
+"e_leibniz.ml" 60 2319 2340 "e_leibniz.ml" 60 2319 2356
+type(
+  unit
+)
+"e_leibniz.ml" 55 2040 2055 "e_leibniz.ml" 60 2319 2356
+type(
+  unit
+)
+"e_leibniz.ml" 52 1884 1923 "e_leibniz.ml" 61 2357 2368
+type(
+  unit
+)
+"e_leibniz.ml" 62 2369 2377 "e_leibniz.ml" 62 2369 2378
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_leibniz.ml" 62 2369 2382 "e_leibniz.ml" 62 2369 2387
+type(
+  (bool * int * bool ref) Visit.iter
+)
+ident(
+  ext_ref self-1
+)
+type(
+  (bool * int * bool ref) Visit.iter
+)
+ident(
+  int_ref super "e_leibniz.ml" 38 1148 1160 "e_leibniz.ml" 38 1148 1196
+)
+"e_leibniz.ml" 62 2369 2382 "e_leibniz.ml" 62 2369 2392
+type(
+  (bool * int * bool ref) Visit.iter ->
+  (bool * int * bool ref) Visit.scx -> E_t.expr -> unit
+)
+ident(
+  ext_ref expr
+)
+type(
+  (bool * int * bool ref) Visit.scx -> E_t.expr -> unit
+)
+type(
+  (bool * int * bool ref) Visit.scx -> E_t.expr -> unit
+)
+"e_leibniz.ml" 62 2369 2393 "e_leibniz.ml" 62 2369 2396
+type(
+  (bool * int * bool ref) Visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 40 1207 1223 "e_leibniz.ml" 40 1207 1226
+)
+"e_leibniz.ml" 62 2369 2397 "e_leibniz.ml" 62 2369 2398
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_leibniz.ml" 40 1207 1227 "e_leibniz.ml" 40 1207 1228
+)
+"e_leibniz.ml" 62 2369 2382 "e_leibniz.ml" 62 2369 2398
+type(
+  unit
+)
+"e_leibniz.ml" 41 1231 1268 "e_leibniz.ml" 62 2369 2398
+type(
+  unit
+)
+"e_leibniz.ml" 41 1231 1237 "e_leibniz.ml" 62 2369 2398
+type(
+  unit
+)
+"e_leibniz.ml" 37 1107 1126 "e_leibniz.ml" 63 2399 2404
+type(
+  (bool * int * bool ref) Visit.iter
+)
+"e_leibniz.ml" 65 2406 2417 "e_leibniz.ml" 65 2406 2418
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref e "e_leibniz.ml" 23 442 464 "e_leibniz.ml" 23 442 465
+)
+"e_leibniz.ml" 65 2406 2417 "e_leibniz.ml" 65 2406 2423
+type(
+  E_t.expr_
+)
+"e_leibniz.ml" 66 2429 2443 "e_leibniz.ml" 66 2429 2447
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  def vars "e_leibniz.ml" 66 2429 2455 "e_leibniz.ml" 70 2643 2709
+)
+"e_leibniz.ml" 66 2429 2449 "e_leibniz.ml" 66 2429 2450
+type(
+  E_t.expr
+)
+ident(
+  def e "e_leibniz.ml" 66 2429 2455 "e_leibniz.ml" 70 2643 2709
+)
+"e_leibniz.ml" 66 2429 2435 "e_leibniz.ml" 66 2429 2451
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_leibniz.ml" 66 2429 2455 "e_leibniz.ml" 66 2429 2465
+type(
+  int -> (int -> bool) -> bool array
+)
+ident(
+  int_ref Stdlib.Array.init "array.mli" 80 3394 3394 "array.mli" 80 3394 3435
+)
+"e_leibniz.ml" 66 2429 2467 "e_leibniz.ml" 66 2429 2478
+type(
+  (Util.hint * E_t.shape) list -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"e_leibniz.ml" 66 2429 2479 "e_leibniz.ml" 66 2429 2483
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  int_ref vars "e_leibniz.ml" 66 2429 2443 "e_leibniz.ml" 66 2429 2447
+)
+"e_leibniz.ml" 66 2429 2466 "e_leibniz.ml" 66 2429 2484
+type(
+  int
+)
+"e_leibniz.ml" 66 2429 2490 "e_leibniz.ml" 66 2429 2491
+type(
+  int
+)
+ident(
+  def i "e_leibniz.ml" 67 2495 2503 "e_leibniz.ml" 70 2643 2708
+)
+"e_leibniz.ml" 67 2495 2507 "e_leibniz.ml" 67 2495 2508
+type(
+  bool ref
+)
+ident(
+  def r "e_leibniz.ml" 68 2523 2531 "e_leibniz.ml" 70 2643 2708
+)
+"e_leibniz.ml" 67 2495 2511 "e_leibniz.ml" 67 2495 2514
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"e_leibniz.ml" 67 2495 2515 "e_leibniz.ml" 67 2495 2519
+type(
+  bool
+)
+"e_leibniz.ml" 67 2495 2511 "e_leibniz.ml" 67 2495 2519
+type(
+  bool ref
+)
+"e_leibniz.ml" 68 2523 2535 "e_leibniz.ml" 68 2523 2538
+type(
+  'a E_visit.scx
+)
+ident(
+  def scx "e_leibniz.ml" 70 2643 2651 "e_leibniz.ml" 70 2643 2708
+)
+"e_leibniz.ml" 68 2523 2541 "e_leibniz.ml" 68 2523 2553
+type(
+  'a E_visit.scx -> E_t.hyp list -> 'a E_visit.scx
+)
+ident(
+  int_ref E_visit.adjs "e_visit.mli" 24 667 667 "e_visit.mli" 24 667 706
+)
+"e_leibniz.ml" 68 2523 2554 "e_leibniz.ml" 68 2523 2557
+type(
+  'a E_visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 23 442 460 "e_leibniz.ml" 23 442 463
+)
+"e_leibniz.ml" 68 2523 2559 "e_leibniz.ml" 68 2523 2567
+type(
+  (Util.hint * E_t.shape -> E_t.hyp) ->
+  (Util.hint * E_t.shape) list -> E_t.hyp list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"e_leibniz.ml" 68 2523 2574 "e_leibniz.ml" 68 2523 2575
+type(
+  Util.hint
+)
+ident(
+  def v "e_leibniz.ml" 68 2523 2585 "e_leibniz.ml" 69 2609 2632
+)
+"e_leibniz.ml" 68 2523 2577 "e_leibniz.ml" 68 2523 2580
+type(
+  E_t.shape
+)
+ident(
+  def shp "e_leibniz.ml" 68 2523 2585 "e_leibniz.ml" 69 2609 2632
+)
+"e_leibniz.ml" 68 2523 2573 "e_leibniz.ml" 68 2523 2581
+type(
+  Util.hint * E_t.shape
+)
+"e_leibniz.ml" 68 2523 2592 "e_leibniz.ml" 68 2523 2593
+type(
+  Util.hint
+)
+ident(
+  int_ref v "e_leibniz.ml" 68 2523 2574 "e_leibniz.ml" 68 2523 2575
+)
+"e_leibniz.ml" 68 2523 2595 "e_leibniz.ml" 68 2523 2598
+type(
+  E_t.shape
+)
+ident(
+  int_ref shp "e_leibniz.ml" 68 2523 2577 "e_leibniz.ml" 68 2523 2580
+)
+"e_leibniz.ml" 68 2523 2600 "e_leibniz.ml" 68 2523 2607
+type(
+  E_t.kind
+)
+"e_leibniz.ml" 69 2609 2617 "e_leibniz.ml" 69 2609 2626
+type(
+  E_t.hdom
+)
+"e_leibniz.ml" 68 2523 2585 "e_leibniz.ml" 69 2609 2627
+type(
+  E_t.hyp_
+)
+"e_leibniz.ml" 69 2609 2628 "e_leibniz.ml" 69 2609 2630
+type(
+  E_t.hyp_ -> Util.hint -> E_t.hyp
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_leibniz.ml" 69 2609 2631 "e_leibniz.ml" 69 2609 2632
+type(
+  Util.hint
+)
+ident(
+  int_ref v "e_leibniz.ml" 68 2523 2574 "e_leibniz.ml" 68 2523 2575
+)
+"e_leibniz.ml" 68 2523 2585 "e_leibniz.ml" 69 2609 2632
+type(
+  E_t.hyp
+)
+"e_leibniz.ml" 68 2523 2568 "e_leibniz.ml" 69 2609 2633
+type(
+  Util.hint * E_t.shape -> E_t.hyp
+)
+"e_leibniz.ml" 69 2609 2634 "e_leibniz.ml" 69 2609 2638
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  int_ref vars "e_leibniz.ml" 66 2429 2443 "e_leibniz.ml" 66 2429 2447
+)
+"e_leibniz.ml" 68 2523 2558 "e_leibniz.ml" 69 2609 2639
+type(
+  E_t.hyp list
+)
+"e_leibniz.ml" 68 2523 2541 "e_leibniz.ml" 69 2609 2639
+type(
+  'a E_visit.scx
+)
+"e_leibniz.ml" 70 2643 2655 "e_leibniz.ml" 70 2643 2657
+type(
+  unit
+)
+type(
+  unit
+)
+"e_leibniz.ml" 70 2643 2660 "e_leibniz.ml" 70 2643 2670
+type(
+  (bool * int * bool ref) Visit.iter
+)
+ident(
+  int_ref leibnizier "e_leibniz.ml" 37 1107 1113 "e_leibniz.ml" 37 1107 1123
+)
+"e_leibniz.ml" 70 2643 2660 "e_leibniz.ml" 70 2643 2675
+type(
+  (bool * int * bool ref) Visit.scx -> E_t.expr -> unit
+)
+"e_leibniz.ml" 70 2643 2678 "e_leibniz.ml" 70 2643 2682
+type(
+  bool
+)
+"e_leibniz.ml" 70 2643 2683 "e_leibniz.ml" 70 2643 2684
+type(
+  int
+)
+ident(
+  int_ref i "e_leibniz.ml" 66 2429 2490 "e_leibniz.ml" 66 2429 2491
+)
+"e_leibniz.ml" 70 2643 2684 "e_leibniz.ml" 70 2643 2685
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"e_leibniz.ml" 70 2643 2685 "e_leibniz.ml" 70 2643 2686
+type(
+  int
+)
+"e_leibniz.ml" 70 2643 2683 "e_leibniz.ml" 70 2643 2686
+type(
+  int
+)
+"e_leibniz.ml" 70 2643 2687 "e_leibniz.ml" 70 2643 2688
+type(
+  bool ref
+)
+ident(
+  int_ref r "e_leibniz.ml" 67 2495 2507 "e_leibniz.ml" 67 2495 2508
+)
+"e_leibniz.ml" 70 2643 2677 "e_leibniz.ml" 70 2643 2689
+type(
+  bool * int * bool ref
+)
+"e_leibniz.ml" 70 2643 2691 "e_leibniz.ml" 70 2643 2694
+type(
+  'a E_visit.scx -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"e_leibniz.ml" 70 2643 2695 "e_leibniz.ml" 70 2643 2698
+type(
+  'a E_visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 68 2523 2535 "e_leibniz.ml" 68 2523 2538
+)
+"e_leibniz.ml" 70 2643 2690 "e_leibniz.ml" 70 2643 2699
+type(
+  E_t.hyp Deque.dq
+)
+"e_leibniz.ml" 70 2643 2676 "e_leibniz.ml" 70 2643 2700
+type(
+  (bool * int * bool ref) Visit.scx
+)
+"e_leibniz.ml" 70 2643 2701 "e_leibniz.ml" 70 2643 2702
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_leibniz.ml" 66 2429 2449 "e_leibniz.ml" 66 2429 2450
+)
+"e_leibniz.ml" 70 2643 2660 "e_leibniz.ml" 70 2643 2702
+type(
+  unit
+)
+"e_leibniz.ml" 70 2643 2706 "e_leibniz.ml" 70 2643 2707
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"e_leibniz.ml" 70 2643 2707 "e_leibniz.ml" 70 2643 2708
+type(
+  bool ref
+)
+ident(
+  int_ref r "e_leibniz.ml" 67 2495 2507 "e_leibniz.ml" 67 2495 2508
+)
+"e_leibniz.ml" 70 2643 2706 "e_leibniz.ml" 70 2643 2708
+type(
+  bool
+)
+"e_leibniz.ml" 70 2643 2651 "e_leibniz.ml" 70 2643 2708
+type(
+  bool
+)
+"e_leibniz.ml" 68 2523 2531 "e_leibniz.ml" 70 2643 2708
+type(
+  bool
+)
+"e_leibniz.ml" 67 2495 2503 "e_leibniz.ml" 70 2643 2708
+type(
+  bool
+)
+"e_leibniz.ml" 66 2429 2485 "e_leibniz.ml" 70 2643 2709
+type(
+  int -> bool
+)
+"e_leibniz.ml" 66 2429 2455 "e_leibniz.ml" 70 2643 2709
+type(
+  bool array
+)
+"e_leibniz.ml" 71 2710 2716 "e_leibniz.ml" 71 2710 2717
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_leibniz.ml" 71 2710 2721 "e_leibniz.ml" 71 2710 2731
+type(
+  int -> bool -> bool array
+)
+ident(
+  int_ref Stdlib.Array.make "array.mli" 53 2225 2225 "array.mli" 53 2225 2281
+)
+"e_leibniz.ml" 71 2710 2732 "e_leibniz.ml" 71 2710 2733
+type(
+  int
+)
+"e_leibniz.ml" 71 2710 2734 "e_leibniz.ml" 71 2710 2738
+type(
+  bool
+)
+"e_leibniz.ml" 71 2710 2721 "e_leibniz.ml" 71 2710 2738
+type(
+  bool array
+)
+"e_leibniz.ml" 65 2406 2411 "e_leibniz.ml" 71 2710 2738
+type(
+  bool array
+)
+"e_leibniz.ml" 37 1107 1109 "e_leibniz.ml" 71 2710 2738
+type(
+  bool array
+)
+"e_leibniz.ml" 73 2740 2780 "e_leibniz.ml" 73 2740 2784
+type(
+  < adj : unit Visit.scx -> E_t.hyp -> unit Visit.scx;
+    adjs : unit Visit.scx -> E_t.hyp list -> unit Visit.scx;
+    bound : unit Visit.scx -> E_t.bound -> unit Visit.scx * E_t.bound;
+    bounds : unit Visit.scx ->
+             E_t.bound list -> unit Visit.scx * E_t.bound list;
+    defn : unit Visit.scx -> E_t.defn -> E_t.defn;
+    defns : unit Visit.scx -> E_t.defn list -> unit Visit.scx * E_t.defn list;
+    expr : unit Visit.scx -> E_t.expr -> E_t.expr;
+    exspec : unit Visit.scx -> E_t.exspec -> E_t.exspec;
+    hyp : unit Visit.scx -> E_t.hyp -> unit Visit.scx * E_t.hyp;
+    hyps : unit Visit.scx ->
+           E_t.hyp Deque.dq -> unit Visit.scx * E_t.hyp Deque.dq;
+    instance : unit Visit.scx -> E_t.instance -> E_t.instance;
+    pform : unit Visit.scx -> E_t.pform -> E_t.pform;
+    sel : unit Visit.scx -> E_t.sel -> E_t.sel;
+    sequent : unit Visit.scx -> E_t.sequent -> unit Visit.scx * E_t.sequent;
+    .. >
+)
+type(
+  < adj : unit Visit.scx -> E_t.hyp -> unit Visit.scx;
+    adjs : unit Visit.scx -> E_t.hyp list -> unit Visit.scx;
+    bound : unit Visit.scx -> E_t.bound -> unit Visit.scx * E_t.bound;
+    bounds : unit Visit.scx ->
+             E_t.bound list -> unit Visit.scx * E_t.bound list;
+    defn : unit Visit.scx -> E_t.defn -> E_t.defn;
+    defns : unit Visit.scx -> E_t.defn list -> unit Visit.scx * E_t.defn list;
+    expr : unit Visit.scx -> E_t.expr -> E_t.expr;
+    exspec : unit Visit.scx -> E_t.exspec -> E_t.exspec;
+    hyp : unit Visit.scx -> E_t.hyp -> unit Visit.scx * E_t.hyp;
+    hyps : unit Visit.scx ->
+           E_t.hyp Deque.dq -> unit Visit.scx * E_t.hyp Deque.dq;
+    instance : unit Visit.scx -> E_t.instance -> E_t.instance;
+    pform : unit Visit.scx -> E_t.pform -> E_t.pform;
+    sel : unit Visit.scx -> E_t.sel -> E_t.sel;
+    sequent : unit Visit.scx -> E_t.sequent -> unit Visit.scx * E_t.sequent;
+    .. >
+  as 'a
+)
+"e_leibniz.ml" 76 2831 2845 "e_leibniz.ml" 76 2831 2848
+type(
+  unit Visit.scx
+)
+ident(
+  def scx "e_leibniz.ml" 76 2831 2849 "e_leibniz.ml" 130 5371 5399
+)
+"e_leibniz.ml" 76 2831 2849 "e_leibniz.ml" 76 2831 2851
+type(
+  E_t.expr
+)
+ident(
+  def ex "e_leibniz.ml" 76 2831 2854 "e_leibniz.ml" 130 5371 5399
+)
+"e_leibniz.ml" 76 2831 2858 "e_leibniz.ml" 76 2831 2869
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref has_leibniz "e_leibniz.ml" 21 396 400 "e_leibniz.ml" 21 396 411
+)
+"e_leibniz.ml" 76 2831 2870 "e_leibniz.ml" 76 2831 2872
+type(
+  E_t.expr
+)
+ident(
+  int_ref ex "e_leibniz.ml" 76 2831 2849 "e_leibniz.ml" 76 2831 2851
+)
+"e_leibniz.ml" 76 2831 2857 "e_leibniz.ml" 76 2831 2873
+type(
+  bool
+)
+"e_leibniz.ml" 76 2831 2879 "e_leibniz.ml" 76 2831 2881
+type(
+  E_t.expr
+)
+ident(
+  int_ref ex "e_leibniz.ml" 76 2831 2849 "e_leibniz.ml" 76 2831 2851
+)
+"e_leibniz.ml" 77 2882 2903 "e_leibniz.ml" 77 2882 2905
+type(
+  E_t.expr
+)
+ident(
+  int_ref ex "e_leibniz.ml" 76 2831 2849 "e_leibniz.ml" 76 2831 2851
+)
+"e_leibniz.ml" 77 2882 2903 "e_leibniz.ml" 77 2882 2910
+type(
+  E_t.expr_
+)
+"e_leibniz.ml" 94 3758 3782 "e_leibniz.ml" 94 3758 3783
+type(
+  int
+)
+ident(
+  def n "e_leibniz.ml" 94 3758 3802 "e_leibniz.ml" 129 5361 5370
+)
+"e_leibniz.ml" 94 3758 3779 "e_leibniz.ml" 94 3758 3783
+type(
+  E_t.expr_
+)
+"e_leibniz.ml" 94 3758 3771 "e_leibniz.ml" 94 3758 3784
+type(
+  E_t.expr
+)
+"e_leibniz.ml" 94 3758 3771 "e_leibniz.ml" 94 3758 3791
+type(
+  E_t.expr
+)
+ident(
+  def ixa "e_leibniz.ml" 94 3758 3802 "e_leibniz.ml" 129 5361 5370
+)
+"e_leibniz.ml" 94 3758 3793 "e_leibniz.ml" 94 3758 3797
+type(
+  E_t.expr list
+)
+ident(
+  def args "e_leibniz.ml" 94 3758 3802 "e_leibniz.ml" 129 5361 5370
+)
+"e_leibniz.ml" 94 3758 3764 "e_leibniz.ml" 94 3758 3798
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_leibniz.ml" 95 3808 3819 "e_leibniz.ml" 95 3808 3820
+type(
+  int
+)
+ident(
+  int_ref n "e_leibniz.ml" 94 3758 3782 "e_leibniz.ml" 94 3758 3783
+)
+"e_leibniz.ml" 95 3808 3821 "e_leibniz.ml" 95 3808 3822
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 140 5875 5875 "stdlib.mli" 140 5875 5925
+)
+"e_leibniz.ml" 95 3808 3823 "e_leibniz.ml" 95 3808 3833
+type(
+  E_t.hyp Deque.dq -> int
+)
+ident(
+  int_ref Deque.size "deque.mli" 11 162 162 "deque.mli" 11 162 186
+)
+"e_leibniz.ml" 95 3808 3835 "e_leibniz.ml" 95 3808 3838
+type(
+  unit Visit.scx -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"e_leibniz.ml" 95 3808 3839 "e_leibniz.ml" 95 3808 3842
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 76 2831 2845 "e_leibniz.ml" 76 2831 2848
+)
+"e_leibniz.ml" 95 3808 3834 "e_leibniz.ml" 95 3808 3843
+type(
+  E_t.hyp Deque.dq
+)
+"e_leibniz.ml" 95 3808 3823 "e_leibniz.ml" 95 3808 3843
+type(
+  int
+)
+"e_leibniz.ml" 95 3808 3819 "e_leibniz.ml" 95 3808 3843
+type(
+  bool
+)
+"e_leibniz.ml" 96 3849 3859 "e_leibniz.ml" 96 3849 3869
+type(
+  ?at:E_t.expr -> string -> E_t.expr
+)
+ident(
+  int_ref Errors.bug "errors.mli" 41 941 941 "errors.mli" 41 941 982
+)
+"e_leibniz.ml" 96 3849 3874 "e_leibniz.ml" 96 3849 3876
+type(
+  E_t.expr
+)
+ident(
+  int_ref ex "e_leibniz.ml" 76 2831 2849 "e_leibniz.ml" 76 2831 2851
+)
+type(
+  E_t.expr option
+)
+"e_leibniz.ml" 96 3849 3877 "e_leibniz.ml" 96 3849 3915
+type(
+  string
+)
+"e_leibniz.ml" 96 3849 3859 "e_leibniz.ml" 96 3849 3915
+type(
+  E_t.expr
+)
+"e_leibniz.ml" 97 3916 3935 "e_leibniz.ml" 97 3916 3944
+type(
+  ?backwards:bool -> E_t.hyp Deque.dq -> int -> E_t.hyp option
+)
+ident(
+  int_ref Deque.nth "deque.mli" 18 388 388 "deque.mli" 18 388 444
+)
+"e_leibniz.ml" 97 3916 3956 "e_leibniz.ml" 97 3916 3960
+type(
+  bool
+)
+type(
+  bool option
+)
+"e_leibniz.ml" 97 3916 3962 "e_leibniz.ml" 97 3916 3965
+type(
+  unit Visit.scx -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"e_leibniz.ml" 97 3916 3966 "e_leibniz.ml" 97 3916 3969
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 76 2831 2845 "e_leibniz.ml" 76 2831 2848
+)
+"e_leibniz.ml" 97 3916 3961 "e_leibniz.ml" 97 3916 3970
+type(
+  E_t.hyp Deque.dq
+)
+"e_leibniz.ml" 97 3916 3972 "e_leibniz.ml" 97 3916 3973
+type(
+  int
+)
+ident(
+  int_ref n "e_leibniz.ml" 94 3758 3782 "e_leibniz.ml" 94 3758 3783
+)
+"e_leibniz.ml" 97 3916 3974 "e_leibniz.ml" 97 3916 3975
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"e_leibniz.ml" 97 3916 3976 "e_leibniz.ml" 97 3916 3977
+type(
+  int
+)
+"e_leibniz.ml" 97 3916 3971 "e_leibniz.ml" 97 3916 3978
+type(
+  int
+)
+"e_leibniz.ml" 97 3916 3935 "e_leibniz.ml" 97 3916 3978
+type(
+  E_t.hyp option
+)
+"e_leibniz.ml" 98 3984 4034 "e_leibniz.ml" 98 3984 4035
+type(
+  Util.hint
+)
+"e_leibniz.ml" 98 3984 4036 "e_leibniz.ml" 98 3984 4037
+type(
+  E_t.expr
+)
+ident(
+  def e "e_leibniz.ml" 99 4054 4066 "e_leibniz.ml" 127 5308 5323
+)
+"e_leibniz.ml" 98 3984 4025 "e_leibniz.ml" 98 3984 4038
+type(
+  E_t.defn_
+)
+"e_leibniz.ml" 98 3984 4017 "e_leibniz.ml" 98 3984 4039
+type(
+  E_t.defn
+)
+"e_leibniz.ml" 98 3984 4041 "e_leibniz.ml" 98 3984 4042
+type(
+  E_t.wheredef
+)
+"e_leibniz.ml" 98 3984 4044 "e_leibniz.ml" 98 3984 4045
+type(
+  E_t.visibility
+)
+"e_leibniz.ml" 98 3984 4047 "e_leibniz.ml" 98 3984 4048
+type(
+  E_t.export
+)
+"e_leibniz.ml" 98 3984 4011 "e_leibniz.ml" 98 3984 4049
+type(
+  E_t.hyp_
+)
+"e_leibniz.ml" 98 3984 4003 "e_leibniz.ml" 98 3984 4050
+type(
+  E_t.hyp
+)
+"e_leibniz.ml" 98 3984 3998 "e_leibniz.ml" 98 3984 4050
+type(
+  E_t.hyp option
+)
+type(
+  E_t.hyp option
+)
+"e_leibniz.ml" 100 4072 4090 "e_leibniz.ml" 100 4072 4104
+type(
+  'b Property.wrapped -> bool array -> 'b Property.wrapped
+)
+ident(
+  def assign_to_expr "e_leibniz.ml" 107 4456 4470 "e_leibniz.ml" 126 5235 5307
+)
+"e_leibniz.ml" 100 4072 4105 "e_leibniz.ml" 100 4072 4106
+type(
+  'b Property.wrapped
+)
+ident(
+  def e "e_leibniz.ml" 100 4072 4107 "e_leibniz.ml" 100 4072 4133
+)
+"e_leibniz.ml" 100 4072 4107 "e_leibniz.ml" 100 4072 4109
+type(
+  bool array
+)
+ident(
+  def ar "e_leibniz.ml" 100 4072 4112 "e_leibniz.ml" 100 4072 4133
+)
+"e_leibniz.ml" 100 4072 4112 "e_leibniz.ml" 100 4072 4118
+type(
+  'b Property.wrapped ->
+  bool array Property.pfuncs -> bool array -> 'b Property.wrapped
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"e_leibniz.ml" 100 4072 4119 "e_leibniz.ml" 100 4072 4120
+type(
+  'b Property.wrapped
+)
+ident(
+  int_ref e "e_leibniz.ml" 100 4072 4105 "e_leibniz.ml" 100 4072 4106
+)
+"e_leibniz.ml" 100 4072 4121 "e_leibniz.ml" 100 4072 4130
+type(
+  bool array Property.pfuncs
+)
+ident(
+  int_ref isleibniz "e_leibniz.ml" 17 258 262 "e_leibniz.ml" 17 258 271
+)
+"e_leibniz.ml" 100 4072 4131 "e_leibniz.ml" 100 4072 4133
+type(
+  bool array
+)
+ident(
+  int_ref ar "e_leibniz.ml" 100 4072 4107 "e_leibniz.ml" 100 4072 4109
+)
+"e_leibniz.ml" 100 4072 4112 "e_leibniz.ml" 100 4072 4133
+type(
+  'b Property.wrapped
+)
+"e_leibniz.ml" 107 4456 4476 "e_leibniz.ml" 107 4456 4477
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_leibniz.ml" 98 3984 4036 "e_leibniz.ml" 98 3984 4037
+)
+"e_leibniz.ml" 107 4456 4476 "e_leibniz.ml" 107 4456 4482
+type(
+  E_t.expr_
+)
+"e_leibniz.ml" 108 4488 4512 "e_leibniz.ml" 108 4488 4514
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  def vs "e_leibniz.ml" 109 4521 4539 "e_leibniz.ml" 123 5125 5165
+)
+"e_leibniz.ml" 108 4488 4515 "e_leibniz.ml" 108 4488 4516
+type(
+  E_t.expr
+)
+"e_leibniz.ml" 108 4488 4504 "e_leibniz.ml" 108 4488 4517
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_leibniz.ml" 109 4521 4543 "e_leibniz.ml" 109 4521 4547
+type(
+  E_t.expr list
+)
+ident(
+  def args "e_leibniz.ml" 117 4856 4874 "e_leibniz.ml" 123 5125 5165
+)
+"e_leibniz.ml" 109 4521 4550 "e_leibniz.ml" 109 4521 4558
+type(
+  (E_t.expr -> E_t.expr) -> E_t.expr list -> E_t.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"e_leibniz.ml" 110 4561 4585 "e_leibniz.ml" 110 4561 4586
+type(
+  E_t.expr
+)
+ident(
+  def e "e_leibniz.ml" 110 4561 4590 "e_leibniz.ml" 110 4561 4605
+)
+"e_leibniz.ml" 110 4561 4590 "e_leibniz.ml" 110 4561 4594
+type(
+  'a
+)
+ident(
+  ext_ref self-2
+)
+"e_leibniz.ml" 110 4561 4590 "e_leibniz.ml" 110 4561 4599
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_leibniz.ml" 110 4561 4600 "e_leibniz.ml" 110 4561 4603
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 76 2831 2845 "e_leibniz.ml" 76 2831 2848
+)
+"e_leibniz.ml" 110 4561 4604 "e_leibniz.ml" 110 4561 4605
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_leibniz.ml" 110 4561 4585 "e_leibniz.ml" 110 4561 4586
+)
+"e_leibniz.ml" 110 4561 4590 "e_leibniz.ml" 110 4561 4605
+type(
+  E_t.expr
+)
+"e_leibniz.ml" 109 4521 4559 "e_leibniz.ml" 111 4606 4625
+type(
+  E_t.expr -> E_t.expr
+)
+"e_leibniz.ml" 111 4606 4626 "e_leibniz.ml" 111 4606 4630
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_leibniz.ml" 94 3758 3793 "e_leibniz.ml" 94 3758 3797
+)
+"e_leibniz.ml" 109 4521 4550 "e_leibniz.ml" 111 4606 4630
+type(
+  E_t.expr list
+)
+"e_leibniz.ml" 117 4856 4878 "e_leibniz.ml" 117 4856 4880
+type(
+  bool
+)
+ident(
+  def vl "e_leibniz.ml" 122 5054 5072 "e_leibniz.ml" 123 5125 5165
+)
+"e_leibniz.ml" 117 4856 4884 "e_leibniz.ml" 117 4856 4887
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"e_leibniz.ml" 117 4856 4889 "e_leibniz.ml" 117 4856 4900
+type(
+  (Util.hint * E_t.shape -> bool) -> (Util.hint * E_t.shape) list -> bool
+)
+ident(
+  int_ref Ext.List.exists "ext.mli" 27 1074 1076 "ext.mli" 27 1074 1120
+)
+"e_leibniz.ml" 118 4903 4928 "e_leibniz.ml" 118 4903 4929
+type(
+  Util.hint
+)
+"e_leibniz.ml" 118 4903 4930 "e_leibniz.ml" 118 4903 4933
+type(
+  E_t.shape
+)
+ident(
+  def shp "e_leibniz.ml" 118 4903 4938 "e_leibniz.ml" 120 4994 5026
+)
+"e_leibniz.ml" 118 4903 4927 "e_leibniz.ml" 118 4903 4934
+type(
+  Util.hint * E_t.shape
+)
+"e_leibniz.ml" 118 4903 4944 "e_leibniz.ml" 118 4903 4947
+type(
+  E_t.shape
+)
+ident(
+  int_ref shp "e_leibniz.ml" 118 4903 4930 "e_leibniz.ml" 118 4903 4933
+)
+"e_leibniz.ml" 119 4953 4984 "e_leibniz.ml" 119 4953 4985
+type(
+  int
+)
+"e_leibniz.ml" 119 4953 4975 "e_leibniz.ml" 119 4953 4985
+type(
+  E_t.shape
+)
+type(
+  E_t.shape
+)
+"e_leibniz.ml" 119 4953 4989 "e_leibniz.ml" 119 4953 4993
+type(
+  bool
+)
+"e_leibniz.ml" 120 4994 5016 "e_leibniz.ml" 120 4994 5017
+type(
+  E_t.shape
+)
+type(
+  E_t.shape
+)
+"e_leibniz.ml" 120 4994 5021 "e_leibniz.ml" 120 4994 5026
+type(
+  bool
+)
+"e_leibniz.ml" 118 4903 4938 "e_leibniz.ml" 120 4994 5026
+type(
+  bool
+)
+"e_leibniz.ml" 117 4856 4901 "e_leibniz.ml" 121 5027 5046
+type(
+  Util.hint * E_t.shape -> bool
+)
+"e_leibniz.ml" 121 5027 5047 "e_leibniz.ml" 121 5027 5049
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  int_ref vs "e_leibniz.ml" 108 4488 4512 "e_leibniz.ml" 108 4488 4514
+)
+"e_leibniz.ml" 117 4856 4888 "e_leibniz.ml" 121 5027 5050
+type(
+  bool
+)
+"e_leibniz.ml" 117 4856 4884 "e_leibniz.ml" 121 5027 5050
+type(
+  bool
+)
+"e_leibniz.ml" 122 5054 5072 "e_leibniz.ml" 122 5054 5086
+type(
+  E_t.expr_ Property.wrapped -> bool array -> E_t.expr
+)
+ident(
+  int_ref assign_to_expr "e_leibniz.ml" 100 4072 4090 "e_leibniz.ml" 100 4072 4104
+)
+"e_leibniz.ml" 122 5054 5095 "e_leibniz.ml" 122 5054 5098
+type(
+  E_t.expr
+)
+ident(
+  int_ref ixa "e_leibniz.ml" 94 3758 3771 "e_leibniz.ml" 94 3758 3791
+)
+"e_leibniz.ml" 122 5054 5100 "e_leibniz.ml" 122 5054 5104
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_leibniz.ml" 109 4521 4543 "e_leibniz.ml" 109 4521 4547
+)
+"e_leibniz.ml" 122 5054 5088 "e_leibniz.ml" 122 5054 5105
+type(
+  E_t.expr_
+)
+"e_leibniz.ml" 122 5054 5106 "e_leibniz.ml" 122 5054 5108
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_leibniz.ml" 122 5054 5109 "e_leibniz.ml" 122 5054 5111
+type(
+  E_t.expr
+)
+ident(
+  int_ref ex "e_leibniz.ml" 76 2831 2849 "e_leibniz.ml" 76 2831 2851
+)
+"e_leibniz.ml" 122 5054 5087 "e_leibniz.ml" 122 5054 5112
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_leibniz.ml" 122 5054 5114 "e_leibniz.ml" 122 5054 5124
+type(
+  int -> bool -> bool array
+)
+ident(
+  int_ref Stdlib.Array.make "array.mli" 53 2225 2225 "array.mli" 53 2225 2281
+)
+"e_leibniz.ml" 123 5125 5144 "e_leibniz.ml" 123 5125 5155
+type(
+  E_t.expr list -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"e_leibniz.ml" 123 5125 5156 "e_leibniz.ml" 123 5125 5160
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_leibniz.ml" 109 4521 4543 "e_leibniz.ml" 109 4521 4547
+)
+"e_leibniz.ml" 123 5125 5143 "e_leibniz.ml" 123 5125 5161
+type(
+  int
+)
+"e_leibniz.ml" 123 5125 5162 "e_leibniz.ml" 123 5125 5164
+type(
+  bool
+)
+ident(
+  int_ref vl "e_leibniz.ml" 117 4856 4878 "e_leibniz.ml" 117 4856 4880
+)
+"e_leibniz.ml" 122 5054 5113 "e_leibniz.ml" 123 5125 5165
+type(
+  bool array
+)
+"e_leibniz.ml" 122 5054 5072 "e_leibniz.ml" 123 5125 5165
+type(
+  E_t.expr
+)
+"e_leibniz.ml" 117 4856 4874 "e_leibniz.ml" 123 5125 5165
+type(
+  E_t.expr
+)
+"e_leibniz.ml" 109 4521 4539 "e_leibniz.ml" 123 5125 5165
+type(
+  E_t.expr
+)
+"e_leibniz.ml" 124 5166 5182 "e_leibniz.ml" 124 5166 5183
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_leibniz.ml" 125 5187 5209 "e_leibniz.ml" 125 5187 5211
+type(
+  E_t.expr
+)
+ident(
+  def ex "e_leibniz.ml" 126 5235 5253 "e_leibniz.ml" 126 5235 5307
+)
+"e_leibniz.ml" 125 5187 5214 "e_leibniz.ml" 125 5187 5219
+type(
+  'a
+)
+ident(
+  ext_ref self-2
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_leibniz.ml" 74 2794 2804 "e_leibniz.ml" 74 2794 2820
+)
+"e_leibniz.ml" 125 5187 5214 "e_leibniz.ml" 125 5187 5224
+type(
+  'a -> unit Visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_leibniz.ml" 125 5187 5225 "e_leibniz.ml" 125 5187 5228
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 76 2831 2845 "e_leibniz.ml" 76 2831 2848
+)
+"e_leibniz.ml" 125 5187 5229 "e_leibniz.ml" 125 5187 5231
+type(
+  E_t.expr
+)
+ident(
+  int_ref ex "e_leibniz.ml" 76 2831 2849 "e_leibniz.ml" 76 2831 2851
+)
+"e_leibniz.ml" 125 5187 5214 "e_leibniz.ml" 125 5187 5231
+type(
+  E_t.expr
+)
+"e_leibniz.ml" 126 5235 5253 "e_leibniz.ml" 126 5235 5267
+type(
+  E_t.expr -> bool array -> E_t.expr
+)
+ident(
+  int_ref assign_to_expr "e_leibniz.ml" 100 4072 4090 "e_leibniz.ml" 100 4072 4104
+)
+"e_leibniz.ml" 126 5235 5268 "e_leibniz.ml" 126 5235 5270
+type(
+  E_t.expr
+)
+ident(
+  int_ref ex "e_leibniz.ml" 125 5187 5209 "e_leibniz.ml" 125 5187 5211
+)
+"e_leibniz.ml" 126 5235 5272 "e_leibniz.ml" 126 5235 5282
+type(
+  int -> bool -> bool array
+)
+ident(
+  int_ref Stdlib.Array.make "array.mli" 53 2225 2225 "array.mli" 53 2225 2281
+)
+"e_leibniz.ml" 126 5235 5284 "e_leibniz.ml" 126 5235 5295
+type(
+  E_t.expr list -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"e_leibniz.ml" 126 5235 5296 "e_leibniz.ml" 126 5235 5300
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_leibniz.ml" 94 3758 3793 "e_leibniz.ml" 94 3758 3797
+)
+"e_leibniz.ml" 126 5235 5283 "e_leibniz.ml" 126 5235 5301
+type(
+  int
+)
+"e_leibniz.ml" 126 5235 5302 "e_leibniz.ml" 126 5235 5306
+type(
+  bool
+)
+"e_leibniz.ml" 126 5235 5271 "e_leibniz.ml" 126 5235 5307
+type(
+  bool array
+)
+"e_leibniz.ml" 126 5235 5253 "e_leibniz.ml" 126 5235 5307
+type(
+  E_t.expr
+)
+"e_leibniz.ml" 125 5187 5205 "e_leibniz.ml" 126 5235 5307
+type(
+  E_t.expr
+)
+"e_leibniz.ml" 107 4456 4470 "e_leibniz.ml" 126 5235 5307
+type(
+  E_t.expr
+)
+"e_leibniz.ml" 99 4054 4066 "e_leibniz.ml" 127 5308 5323
+type(
+  E_t.expr
+)
+"e_leibniz.ml" 128 5324 5338 "e_leibniz.ml" 128 5324 5339
+type(
+  E_t.hyp option
+)
+type(
+  E_t.hyp option
+)
+"e_leibniz.ml" 128 5324 5343 "e_leibniz.ml" 128 5324 5348
+type(
+  'a
+)
+ident(
+  ext_ref self-2
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_leibniz.ml" 74 2794 2804 "e_leibniz.ml" 74 2794 2820
+)
+"e_leibniz.ml" 128 5324 5343 "e_leibniz.ml" 128 5324 5353
+type(
+  'a -> unit Visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_leibniz.ml" 128 5324 5354 "e_leibniz.ml" 128 5324 5357
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 76 2831 2845 "e_leibniz.ml" 76 2831 2848
+)
+"e_leibniz.ml" 128 5324 5358 "e_leibniz.ml" 128 5324 5360
+type(
+  E_t.expr
+)
+ident(
+  int_ref ex "e_leibniz.ml" 76 2831 2849 "e_leibniz.ml" 76 2831 2851
+)
+"e_leibniz.ml" 128 5324 5343 "e_leibniz.ml" 128 5324 5360
+type(
+  E_t.expr
+)
+"e_leibniz.ml" 97 3916 3929 "e_leibniz.ml" 128 5324 5360
+type(
+  E_t.expr
+)
+"e_leibniz.ml" 94 3758 3802 "e_leibniz.ml" 129 5361 5370
+type(
+  E_t.expr
+)
+"e_leibniz.ml" 130 5371 5377 "e_leibniz.ml" 130 5371 5378
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_leibniz.ml" 130 5371 5382 "e_leibniz.ml" 130 5371 5387
+type(
+  'a
+)
+ident(
+  ext_ref self-2
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_leibniz.ml" 74 2794 2804 "e_leibniz.ml" 74 2794 2820
+)
+"e_leibniz.ml" 130 5371 5382 "e_leibniz.ml" 130 5371 5392
+type(
+  'a -> unit Visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_leibniz.ml" 130 5371 5393 "e_leibniz.ml" 130 5371 5396
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 76 2831 2845 "e_leibniz.ml" 76 2831 2848
+)
+"e_leibniz.ml" 130 5371 5397 "e_leibniz.ml" 130 5371 5399
+type(
+  E_t.expr
+)
+ident(
+  int_ref ex "e_leibniz.ml" 76 2831 2849 "e_leibniz.ml" 76 2831 2851
+)
+"e_leibniz.ml" 130 5371 5382 "e_leibniz.ml" 130 5371 5399
+type(
+  E_t.expr
+)
+"e_leibniz.ml" 77 2882 2897 "e_leibniz.ml" 130 5371 5399
+type(
+  E_t.expr
+)
+"e_leibniz.ml" 76 2831 2854 "e_leibniz.ml" 130 5371 5399
+type(
+  E_t.expr
+)
+"e_leibniz.ml" 132 5401 5414 "e_leibniz.ml" 132 5401 5417
+type(
+  unit Visit.scx
+)
+ident(
+  def scx "e_leibniz.ml" 132 5401 5418 "e_leibniz.ml" 142 5826 5852
+)
+"e_leibniz.ml" 132 5401 5418 "e_leibniz.ml" 132 5401 5419
+type(
+  E_t.hyp
+)
+ident(
+  def h "e_leibniz.ml" 132 5401 5422 "e_leibniz.ml" 142 5826 5852
+)
+"e_leibniz.ml" 132 5401 5426 "e_leibniz.ml" 132 5401 5437
+type(
+  E_t.hyp -> bool
+)
+ident(
+  int_ref has_leibniz "e_leibniz.ml" 21 396 400 "e_leibniz.ml" 21 396 411
+)
+"e_leibniz.ml" 132 5401 5438 "e_leibniz.ml" 132 5401 5439
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_leibniz.ml" 132 5401 5418 "e_leibniz.ml" 132 5401 5419
+)
+"e_leibniz.ml" 132 5401 5425 "e_leibniz.ml" 132 5401 5440
+type(
+  bool
+)
+"e_leibniz.ml" 132 5401 5447 "e_leibniz.ml" 132 5401 5450
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 132 5401 5414 "e_leibniz.ml" 132 5401 5417
+)
+"e_leibniz.ml" 132 5401 5451 "e_leibniz.ml" 132 5401 5452
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_leibniz.ml" 132 5401 5418 "e_leibniz.ml" 132 5401 5419
+)
+"e_leibniz.ml" 132 5401 5446 "e_leibniz.ml" 132 5401 5453
+type(
+  unit Visit.scx * E_t.hyp
+)
+"e_leibniz.ml" 132 5401 5465 "e_leibniz.ml" 132 5401 5466
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_leibniz.ml" 132 5401 5418 "e_leibniz.ml" 132 5401 5419
+)
+"e_leibniz.ml" 132 5401 5465 "e_leibniz.ml" 132 5401 5471
+type(
+  E_t.hyp_
+)
+"e_leibniz.ml" 136 5559 5587 "e_leibniz.ml" 136 5559 5589
+type(
+  Util.hint
+)
+ident(
+  def nm "e_leibniz.ml" 137 5618 5624 "e_leibniz.ml" 141 5797 5825
+)
+"e_leibniz.ml" 136 5559 5591 "e_leibniz.ml" 136 5559 5592
+type(
+  E_t.expr
+)
+ident(
+  def e "e_leibniz.ml" 137 5618 5624 "e_leibniz.ml" 141 5797 5825
+)
+"e_leibniz.ml" 136 5559 5577 "e_leibniz.ml" 136 5559 5593
+type(
+  E_t.defn_
+)
+"e_leibniz.ml" 136 5559 5571 "e_leibniz.ml" 136 5559 5594
+type(
+  E_t.defn
+)
+"e_leibniz.ml" 136 5559 5571 "e_leibniz.ml" 136 5559 5600
+type(
+  E_t.defn
+)
+ident(
+  def op "e_leibniz.ml" 137 5618 5624 "e_leibniz.ml" 141 5797 5825
+)
+"e_leibniz.ml" 136 5559 5602 "e_leibniz.ml" 136 5559 5604
+type(
+  E_t.wheredef
+)
+ident(
+  def wd "e_leibniz.ml" 137 5618 5624 "e_leibniz.ml" 141 5797 5825
+)
+"e_leibniz.ml" 136 5559 5606 "e_leibniz.ml" 136 5559 5609
+type(
+  E_t.visibility
+)
+ident(
+  def vis "e_leibniz.ml" 137 5618 5624 "e_leibniz.ml" 141 5797 5825
+)
+"e_leibniz.ml" 136 5559 5611 "e_leibniz.ml" 136 5559 5613
+type(
+  E_t.export
+)
+ident(
+  def ex "e_leibniz.ml" 137 5618 5624 "e_leibniz.ml" 141 5797 5825
+)
+"e_leibniz.ml" 136 5559 5565 "e_leibniz.ml" 136 5559 5614
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_leibniz.ml" 137 5618 5628 "e_leibniz.ml" 137 5618 5629
+type(
+  E_t.expr
+)
+ident(
+  def e "e_leibniz.ml" 138 5651 5657 "e_leibniz.ml" 141 5797 5825
+)
+"e_leibniz.ml" 137 5618 5632 "e_leibniz.ml" 137 5618 5636
+type(
+  'a
+)
+ident(
+  ext_ref self-2
+)
+"e_leibniz.ml" 137 5618 5632 "e_leibniz.ml" 137 5618 5641
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_leibniz.ml" 137 5618 5642 "e_leibniz.ml" 137 5618 5645
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 132 5401 5414 "e_leibniz.ml" 132 5401 5417
+)
+"e_leibniz.ml" 137 5618 5646 "e_leibniz.ml" 137 5618 5647
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_leibniz.ml" 136 5559 5591 "e_leibniz.ml" 136 5559 5592
+)
+"e_leibniz.ml" 137 5618 5632 "e_leibniz.ml" 137 5618 5647
+type(
+  E_t.expr
+)
+"e_leibniz.ml" 138 5651 5661 "e_leibniz.ml" 138 5651 5663
+type(
+  bool array
+)
+ident(
+  def ar "e_leibniz.ml" 139 5689 5695 "e_leibniz.ml" 141 5797 5825
+)
+"e_leibniz.ml" 138 5651 5666 "e_leibniz.ml" 138 5651 5679
+type(
+  unit E_visit.scx -> E_t.expr -> bool array
+)
+ident(
+  int_ref compute_array "e_leibniz.ml" 23 442 446 "e_leibniz.ml" 23 442 459
+)
+"e_leibniz.ml" 138 5651 5680 "e_leibniz.ml" 138 5651 5683
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 132 5401 5414 "e_leibniz.ml" 132 5401 5417
+)
+"e_leibniz.ml" 138 5651 5684 "e_leibniz.ml" 138 5651 5685
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_leibniz.ml" 137 5618 5628 "e_leibniz.ml" 137 5618 5629
+)
+"e_leibniz.ml" 138 5651 5666 "e_leibniz.ml" 138 5651 5685
+type(
+  bool array
+)
+"e_leibniz.ml" 139 5689 5699 "e_leibniz.ml" 139 5689 5701
+type(
+  E_t.defn_ Property.wrapped
+)
+ident(
+  def op "e_leibniz.ml" 140 5752 5758 "e_leibniz.ml" 141 5797 5825
+)
+"e_leibniz.ml" 139 5689 5704 "e_leibniz.ml" 139 5689 5710
+type(
+  E_t.defn_ Property.wrapped ->
+  bool array Property.pfuncs -> bool array -> E_t.defn_ Property.wrapped
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"e_leibniz.ml" 139 5689 5722 "e_leibniz.ml" 139 5689 5724
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "e_leibniz.ml" 136 5559 5587 "e_leibniz.ml" 136 5559 5589
+)
+"e_leibniz.ml" 139 5689 5726 "e_leibniz.ml" 139 5689 5727
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_leibniz.ml" 137 5618 5628 "e_leibniz.ml" 137 5618 5629
+)
+"e_leibniz.ml" 139 5689 5712 "e_leibniz.ml" 139 5689 5728
+type(
+  E_t.defn_
+)
+"e_leibniz.ml" 139 5689 5729 "e_leibniz.ml" 139 5689 5731
+type(
+  E_t.defn_ -> E_t.defn_ Property.wrapped -> E_t.defn_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_leibniz.ml" 139 5689 5732 "e_leibniz.ml" 139 5689 5734
+type(
+  E_t.defn_ Property.wrapped
+)
+ident(
+  int_ref op "e_leibniz.ml" 136 5559 5571 "e_leibniz.ml" 136 5559 5600
+)
+"e_leibniz.ml" 139 5689 5711 "e_leibniz.ml" 139 5689 5735
+type(
+  E_t.defn_ Property.wrapped
+)
+"e_leibniz.ml" 139 5689 5736 "e_leibniz.ml" 139 5689 5745
+type(
+  bool array Property.pfuncs
+)
+ident(
+  int_ref isleibniz "e_leibniz.ml" 17 258 262 "e_leibniz.ml" 17 258 271
+)
+"e_leibniz.ml" 139 5689 5746 "e_leibniz.ml" 139 5689 5748
+type(
+  bool array
+)
+ident(
+  int_ref ar "e_leibniz.ml" 138 5651 5661 "e_leibniz.ml" 138 5651 5663
+)
+"e_leibniz.ml" 139 5689 5704 "e_leibniz.ml" 139 5689 5748
+type(
+  E_t.defn_ Property.wrapped
+)
+"e_leibniz.ml" 140 5752 5762 "e_leibniz.ml" 140 5752 5763
+type(
+  E_t.hyp_ Property.wrapped
+)
+ident(
+  def h "e_leibniz.ml" 141 5797 5803 "e_leibniz.ml" 141 5797 5825
+)
+"e_leibniz.ml" 140 5752 5772 "e_leibniz.ml" 140 5752 5774
+type(
+  E_t.defn
+)
+ident(
+  int_ref op "e_leibniz.ml" 139 5689 5699 "e_leibniz.ml" 139 5689 5701
+)
+"e_leibniz.ml" 140 5752 5776 "e_leibniz.ml" 140 5752 5778
+type(
+  E_t.wheredef
+)
+ident(
+  int_ref wd "e_leibniz.ml" 136 5559 5602 "e_leibniz.ml" 136 5559 5604
+)
+"e_leibniz.ml" 140 5752 5780 "e_leibniz.ml" 140 5752 5783
+type(
+  E_t.visibility
+)
+ident(
+  int_ref vis "e_leibniz.ml" 136 5559 5606 "e_leibniz.ml" 136 5559 5609
+)
+"e_leibniz.ml" 140 5752 5785 "e_leibniz.ml" 140 5752 5787
+type(
+  E_t.export
+)
+ident(
+  int_ref ex "e_leibniz.ml" 136 5559 5611 "e_leibniz.ml" 136 5559 5613
+)
+"e_leibniz.ml" 140 5752 5766 "e_leibniz.ml" 140 5752 5788
+type(
+  E_t.hyp_
+)
+"e_leibniz.ml" 140 5752 5789 "e_leibniz.ml" 140 5752 5791
+type(
+  E_t.hyp_ -> E_t.hyp -> E_t.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_leibniz.ml" 140 5752 5792 "e_leibniz.ml" 140 5752 5793
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_leibniz.ml" 132 5401 5418 "e_leibniz.ml" 132 5401 5419
+)
+"e_leibniz.ml" 140 5752 5766 "e_leibniz.ml" 140 5752 5793
+type(
+  E_t.hyp_ Property.wrapped
+)
+"e_leibniz.ml" 141 5797 5804 "e_leibniz.ml" 141 5797 5815
+type(
+  unit E_visit.scx -> E_t.hyp -> unit E_visit.scx
+)
+ident(
+  int_ref E_visit.adj "e_visit.mli" 23 632 632 "e_visit.mli" 23 632 666
+)
+"e_leibniz.ml" 141 5797 5816 "e_leibniz.ml" 141 5797 5819
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 132 5401 5414 "e_leibniz.ml" 132 5401 5417
+)
+"e_leibniz.ml" 141 5797 5820 "e_leibniz.ml" 141 5797 5821
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_leibniz.ml" 140 5752 5762 "e_leibniz.ml" 140 5752 5763
+)
+"e_leibniz.ml" 141 5797 5804 "e_leibniz.ml" 141 5797 5821
+type(
+  unit E_visit.scx
+)
+"e_leibniz.ml" 141 5797 5823 "e_leibniz.ml" 141 5797 5824
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_leibniz.ml" 140 5752 5762 "e_leibniz.ml" 140 5752 5763
+)
+"e_leibniz.ml" 141 5797 5803 "e_leibniz.ml" 141 5797 5825
+type(
+  unit E_visit.scx * E_t.hyp
+)
+"e_leibniz.ml" 140 5752 5758 "e_leibniz.ml" 141 5797 5825
+type(
+  unit E_visit.scx * E_t.hyp
+)
+"e_leibniz.ml" 139 5689 5695 "e_leibniz.ml" 141 5797 5825
+type(
+  unit E_visit.scx * E_t.hyp
+)
+"e_leibniz.ml" 138 5651 5657 "e_leibniz.ml" 141 5797 5825
+type(
+  unit E_visit.scx * E_t.hyp
+)
+"e_leibniz.ml" 137 5618 5624 "e_leibniz.ml" 141 5797 5825
+type(
+  unit Visit.scx * E_t.hyp
+)
+"e_leibniz.ml" 142 5826 5832 "e_leibniz.ml" 142 5826 5833
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_leibniz.ml" 142 5826 5837 "e_leibniz.ml" 142 5826 5842
+type(
+  'a
+)
+ident(
+  ext_ref self-2
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_leibniz.ml" 74 2794 2804 "e_leibniz.ml" 74 2794 2820
+)
+"e_leibniz.ml" 142 5826 5837 "e_leibniz.ml" 142 5826 5846
+type(
+  'a -> unit Visit.scx -> E_t.hyp -> unit Visit.scx * E_t.hyp
+)
+ident(
+  ext_ref hyp
+)
+type(
+  unit Visit.scx -> E_t.hyp -> unit Visit.scx * E_t.hyp
+)
+type(
+  unit Visit.scx -> E_t.hyp -> unit Visit.scx * E_t.hyp
+)
+"e_leibniz.ml" 142 5826 5847 "e_leibniz.ml" 142 5826 5850
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 132 5401 5414 "e_leibniz.ml" 132 5401 5417
+)
+"e_leibniz.ml" 142 5826 5851 "e_leibniz.ml" 142 5826 5852
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_leibniz.ml" 132 5401 5418 "e_leibniz.ml" 132 5401 5419
+)
+"e_leibniz.ml" 142 5826 5837 "e_leibniz.ml" 142 5826 5852
+type(
+  unit Visit.scx * E_t.hyp
+)
+"e_leibniz.ml" 132 5401 5459 "e_leibniz.ml" 142 5826 5852
+type(
+  unit Visit.scx * E_t.hyp
+)
+"e_leibniz.ml" 132 5401 5422 "e_leibniz.ml" 142 5826 5852
+type(
+  unit Visit.scx * E_t.hyp
+)
+"e_leibniz.ml" 144 5854 5869 "e_leibniz.ml" 144 5854 5872
+type(
+  unit Visit.scx
+)
+ident(
+  def scx "e_leibniz.ml" 144 5854 5873 "e_leibniz.ml" 144 5854 5925
+)
+"e_leibniz.ml" 144 5854 5873 "e_leibniz.ml" 144 5854 5874
+type(
+  E_t.pform
+)
+ident(
+  def p "e_leibniz.ml" 144 5854 5877 "e_leibniz.ml" 144 5854 5925
+)
+"e_leibniz.ml" 144 5854 5881 "e_leibniz.ml" 144 5854 5892
+type(
+  E_t.pform -> bool
+)
+ident(
+  int_ref has_leibniz "e_leibniz.ml" 21 396 400 "e_leibniz.ml" 21 396 411
+)
+"e_leibniz.ml" 144 5854 5893 "e_leibniz.ml" 144 5854 5894
+type(
+  E_t.pform
+)
+ident(
+  int_ref p "e_leibniz.ml" 144 5854 5873 "e_leibniz.ml" 144 5854 5874
+)
+"e_leibniz.ml" 144 5854 5880 "e_leibniz.ml" 144 5854 5895
+type(
+  bool
+)
+"e_leibniz.ml" 144 5854 5901 "e_leibniz.ml" 144 5854 5902
+type(
+  E_t.pform
+)
+ident(
+  int_ref p "e_leibniz.ml" 144 5854 5873 "e_leibniz.ml" 144 5854 5874
+)
+"e_leibniz.ml" 144 5854 5908 "e_leibniz.ml" 144 5854 5913
+type(
+  'a
+)
+ident(
+  ext_ref self-2
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_leibniz.ml" 74 2794 2804 "e_leibniz.ml" 74 2794 2820
+)
+"e_leibniz.ml" 144 5854 5908 "e_leibniz.ml" 144 5854 5919
+type(
+  'a -> unit Visit.scx -> E_t.pform -> E_t.pform
+)
+ident(
+  ext_ref pform
+)
+type(
+  unit Visit.scx -> E_t.pform -> E_t.pform
+)
+type(
+  unit Visit.scx -> E_t.pform -> E_t.pform
+)
+"e_leibniz.ml" 144 5854 5920 "e_leibniz.ml" 144 5854 5923
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 144 5854 5869 "e_leibniz.ml" 144 5854 5872
+)
+"e_leibniz.ml" 144 5854 5924 "e_leibniz.ml" 144 5854 5925
+type(
+  E_t.pform
+)
+ident(
+  int_ref p "e_leibniz.ml" 144 5854 5873 "e_leibniz.ml" 144 5854 5874
+)
+"e_leibniz.ml" 144 5854 5908 "e_leibniz.ml" 144 5854 5925
+type(
+  E_t.pform
+)
+"e_leibniz.ml" 144 5854 5877 "e_leibniz.ml" 144 5854 5925
+type(
+  E_t.pform
+)
+"e_leibniz.ml" 145 5926 5940 "e_leibniz.ml" 145 5926 5943
+type(
+  unit Visit.scx
+)
+ident(
+  def scx "e_leibniz.ml" 145 5926 5944 "e_leibniz.ml" 145 5926 5995
+)
+"e_leibniz.ml" 145 5926 5944 "e_leibniz.ml" 145 5926 5945
+type(
+  E_t.defn
+)
+ident(
+  def p "e_leibniz.ml" 145 5926 5948 "e_leibniz.ml" 145 5926 5995
+)
+"e_leibniz.ml" 145 5926 5952 "e_leibniz.ml" 145 5926 5963
+type(
+  E_t.defn -> bool
+)
+ident(
+  int_ref has_leibniz "e_leibniz.ml" 21 396 400 "e_leibniz.ml" 21 396 411
+)
+"e_leibniz.ml" 145 5926 5964 "e_leibniz.ml" 145 5926 5965
+type(
+  E_t.defn
+)
+ident(
+  int_ref p "e_leibniz.ml" 145 5926 5944 "e_leibniz.ml" 145 5926 5945
+)
+"e_leibniz.ml" 145 5926 5951 "e_leibniz.ml" 145 5926 5966
+type(
+  bool
+)
+"e_leibniz.ml" 145 5926 5972 "e_leibniz.ml" 145 5926 5973
+type(
+  E_t.defn
+)
+ident(
+  int_ref p "e_leibniz.ml" 145 5926 5944 "e_leibniz.ml" 145 5926 5945
+)
+"e_leibniz.ml" 145 5926 5979 "e_leibniz.ml" 145 5926 5984
+type(
+  'a
+)
+ident(
+  ext_ref self-2
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_leibniz.ml" 74 2794 2804 "e_leibniz.ml" 74 2794 2820
+)
+"e_leibniz.ml" 145 5926 5979 "e_leibniz.ml" 145 5926 5989
+type(
+  'a -> unit Visit.scx -> E_t.defn -> E_t.defn
+)
+ident(
+  ext_ref defn
+)
+type(
+  unit Visit.scx -> E_t.defn -> E_t.defn
+)
+type(
+  unit Visit.scx -> E_t.defn -> E_t.defn
+)
+"e_leibniz.ml" 145 5926 5990 "e_leibniz.ml" 145 5926 5993
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_leibniz.ml" 145 5926 5940 "e_leibniz.ml" 145 5926 5943
+)
+"e_leibniz.ml" 145 5926 5994 "e_leibniz.ml" 145 5926 5995
+type(
+  E_t.defn
+)
+ident(
+  int_ref p "e_leibniz.ml" 145 5926 5944 "e_leibniz.ml" 145 5926 5945
+)
+"e_leibniz.ml" 145 5926 5979 "e_leibniz.ml" 145 5926 5995
+type(
+  E_t.defn
+)
+"e_leibniz.ml" 145 5926 5948 "e_leibniz.ml" 145 5926 5995
+type(
+  E_t.defn
+)

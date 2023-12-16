@@ -1,0 +1,2326 @@
+"m_dep.ml" 19 214 218 "m_dep.ml" 19 214 231
+type(
+  M_t.mule_ Property.wrapped ->
+  Util.Coll.Hs.t * Util.Coll.Hs.t * M_t.mule Util.Coll.Sm.t
+)
+ident(
+  def external_deps "m_dep.ml" 62 1672 1672 "m_dep.ml" 0 0 -1
+)
+"m_dep.ml" 19 214 232 "m_dep.ml" 19 214 233
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  def m "m_dep.ml" 20 236 238 "m_dep.ml" 58 1590 1619
+)
+"m_dep.ml" 20 236 242 "m_dep.ml" 20 236 246
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  def deps "m_dep.ml" 21 265 267 "m_dep.ml" 58 1590 1619
+)
+"m_dep.ml" 20 236 249 "m_dep.ml" 20 236 252
+type(
+  Util.Coll.Hs.t -> Util.Coll.Hs.t ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"m_dep.ml" 20 236 253 "m_dep.ml" 20 236 261
+type(
+  Util.Coll.Hs.t
+)
+ident(
+  int_ref Util.Coll.Hs.empty "set.mli" 74 2915 2919 "set.mli" 74 2915 2931
+)
+"m_dep.ml" 20 236 249 "m_dep.ml" 20 236 261
+type(
+  Util.Coll.Hs.t ref
+)
+"m_dep.ml" 21 265 271 "m_dep.ml" 21 265 280
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  def instances "m_dep.ml" 22 299 301 "m_dep.ml" 58 1590 1619
+)
+"m_dep.ml" 21 265 283 "m_dep.ml" 21 265 286
+type(
+  Util.Coll.Hs.t -> Util.Coll.Hs.t ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"m_dep.ml" 21 265 287 "m_dep.ml" 21 265 295
+type(
+  Util.Coll.Hs.t
+)
+ident(
+  int_ref Util.Coll.Hs.empty "set.mli" 74 2915 2919 "set.mli" 74 2915 2931
+)
+"m_dep.ml" 21 265 283 "m_dep.ml" 21 265 295
+type(
+  Util.Coll.Hs.t ref
+)
+"m_dep.ml" 22 299 305 "m_dep.ml" 22 299 311
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  def locals "m_dep.ml" 23 330 332 "m_dep.ml" 58 1590 1619
+)
+"m_dep.ml" 22 299 314 "m_dep.ml" 22 299 317
+type(
+  Util.Coll.Hs.t -> Util.Coll.Hs.t ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"m_dep.ml" 22 299 318 "m_dep.ml" 22 299 326
+type(
+  Util.Coll.Hs.t
+)
+ident(
+  int_ref Util.Coll.Hs.empty "set.mli" 74 2915 2919 "set.mli" 74 2915 2931
+)
+"m_dep.ml" 22 299 314 "m_dep.ml" 22 299 326
+type(
+  Util.Coll.Hs.t ref
+)
+"m_dep.ml" 23 330 336 "m_dep.ml" 23 330 346
+type(
+  M_t.mule Util.Coll.Sm.t ref
+)
+ident(
+  def submodules "m_dep.ml" 24 365 367 "m_dep.ml" 58 1590 1619
+)
+"m_dep.ml" 23 330 349 "m_dep.ml" 23 330 352
+type(
+  M_t.mule Util.Coll.Sm.t -> M_t.mule Util.Coll.Sm.t ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"m_dep.ml" 23 330 353 "m_dep.ml" 23 330 361
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref Util.Coll.Sm.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"m_dep.ml" 23 330 349 "m_dep.ml" 23 330 361
+type(
+  M_t.mule Util.Coll.Sm.t ref
+)
+"m_dep.ml" 24 365 371 "m_dep.ml" 24 365 377
+type(
+  unit Proof.Visit.iter
+)
+ident(
+  def mapper "m_dep.ml" 40 910 912 "m_dep.ml" 58 1590 1619
+)
+"m_dep.ml" 24 365 388 "m_dep.ml" 24 365 392
+type(
+  unit Proof.Visit.iter
+)
+type(
+  unit Proof.Visit.iter
+)
+"m_dep.ml" 26 447 463 "m_dep.ml" 26 447 466
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "m_dep.ml" 26 447 467 "m_dep.ml" 38 874 900
+)
+"m_dep.ml" 26 447 467 "m_dep.ml" 26 447 469
+type(
+  Expr.T.defn
+)
+ident(
+  def df "m_dep.ml" 26 447 472 "m_dep.ml" 38 874 900
+)
+"m_dep.ml" 26 447 484 "m_dep.ml" 26 447 486
+type(
+  Expr.T.defn
+)
+ident(
+  int_ref df "m_dep.ml" 26 447 467 "m_dep.ml" 26 447 469
+)
+"m_dep.ml" 26 447 484 "m_dep.ml" 26 447 491
+type(
+  Expr.T.defn_
+)
+"m_dep.ml" 27 497 516 "m_dep.ml" 27 497 517
+type(
+  Util.hint
+)
+"m_dep.ml" 27 497 519 "m_dep.ml" 27 497 520
+type(
+  Expr.T.shape
+)
+"m_dep.ml" 27 497 505 "m_dep.ml" 27 497 521
+type(
+  Expr.T.defn_
+)
+type(
+  Expr.T.defn_
+)
+"m_dep.ml" 27 497 525 "m_dep.ml" 27 497 527
+type(
+  unit
+)
+"m_dep.ml" 28 528 546 "m_dep.ml" 28 528 547
+type(
+  Util.hint
+)
+"m_dep.ml" 28 528 549 "m_dep.ml" 28 528 550
+type(
+  Expr.T.expr
+)
+ident(
+  def e "m_dep.ml" 29 555 565 "m_dep.ml" 29 555 580
+)
+"m_dep.ml" 28 528 536 "m_dep.ml" 28 528 551
+type(
+  Expr.T.defn_
+)
+type(
+  Expr.T.defn_
+)
+"m_dep.ml" 29 555 565 "m_dep.ml" 29 555 569
+type(
+  unit Proof.Visit.iter
+)
+ident(
+  ext_ref self-1
+)
+"m_dep.ml" 29 555 565 "m_dep.ml" 29 555 574
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"m_dep.ml" 29 555 575 "m_dep.ml" 29 555 578
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "m_dep.ml" 26 447 463 "m_dep.ml" 26 447 466
+)
+"m_dep.ml" 29 555 579 "m_dep.ml" 29 555 580
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "m_dep.ml" 28 528 549 "m_dep.ml" 28 528 550
+)
+"m_dep.ml" 29 555 565 "m_dep.ml" 29 555 580
+type(
+  unit
+)
+"m_dep.ml" 30 581 598 "m_dep.ml" 30 581 599
+type(
+  Util.hint
+)
+"m_dep.ml" 30 581 600 "m_dep.ml" 30 581 601
+type(
+  Expr.T.expr
+)
+ident(
+  def e "m_dep.ml" 31 608 618 "m_dep.ml" 31 608 633
+)
+"m_dep.ml" 30 581 602 "m_dep.ml" 30 581 603
+type(
+  (Util.hint * Expr.T.backend_args) list list
+)
+ident(
+  def l "m_dep.ml" 31 608 618 "m_dep.ml" 31 608 633
+)
+"m_dep.ml" 30 581 589 "m_dep.ml" 30 581 604
+type(
+  Expr.T.defn_
+)
+type(
+  Expr.T.defn_
+)
+"m_dep.ml" 31 608 618 "m_dep.ml" 31 608 622
+type(
+  unit Proof.Visit.iter
+)
+ident(
+  ext_ref self-1
+)
+"m_dep.ml" 31 608 618 "m_dep.ml" 31 608 627
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"m_dep.ml" 31 608 628 "m_dep.ml" 31 608 631
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "m_dep.ml" 26 447 463 "m_dep.ml" 26 447 466
+)
+"m_dep.ml" 31 608 632 "m_dep.ml" 31 608 633
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "m_dep.ml" 30 581 600 "m_dep.ml" 30 581 601
+)
+"m_dep.ml" 31 608 618 "m_dep.ml" 31 608 633
+type(
+  unit
+)
+"m_dep.ml" 32 634 652 "m_dep.ml" 32 634 653
+type(
+  Util.hint
+)
+"m_dep.ml" 32 634 655 "m_dep.ml" 32 634 658
+type(
+  Expr.T.instance
+)
+ident(
+  def ins "m_dep.ml" 33 663 673 "m_dep.ml" 37 847 873
+)
+"m_dep.ml" 32 634 642 "m_dep.ml" 32 634 659
+type(
+  Expr.T.defn_
+)
+type(
+  Expr.T.defn_
+)
+"m_dep.ml" 33 663 673 "m_dep.ml" 33 663 677
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref deps "m_dep.ml" 20 236 242 "m_dep.ml" 20 236 246
+)
+"m_dep.ml" 33 663 678 "m_dep.ml" 33 663 680
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"m_dep.ml" 33 663 681 "m_dep.ml" 33 663 687
+type(
+  Util.Coll.Hs.elt -> Util.Coll.Hs.t -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Util.Coll.Hs.add "set.mli" 83 3129 3133 "set.mli" 83 3129 3155
+)
+"m_dep.ml" 33 663 689 "m_dep.ml" 33 663 692
+type(
+  Expr.T.instance
+)
+ident(
+  int_ref ins "m_dep.ml" 32 634 655 "m_dep.ml" 32 634 658
+)
+"m_dep.ml" 33 663 689 "m_dep.ml" 33 663 701
+type(
+  string
+)
+"m_dep.ml" 33 663 702 "m_dep.ml" 33 663 704
+type(
+  string -> Expr.T.defn -> Util.Coll.Hs.elt
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_dep.ml" 33 663 705 "m_dep.ml" 33 663 707
+type(
+  Expr.T.defn
+)
+ident(
+  int_ref df "m_dep.ml" 26 447 467 "m_dep.ml" 26 447 469
+)
+"m_dep.ml" 33 663 688 "m_dep.ml" 33 663 708
+type(
+  Util.Coll.Hs.elt
+)
+"m_dep.ml" 33 663 709 "m_dep.ml" 33 663 710
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_dep.ml" 33 663 710 "m_dep.ml" 33 663 714
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref deps "m_dep.ml" 20 236 242 "m_dep.ml" 20 236 246
+)
+"m_dep.ml" 33 663 709 "m_dep.ml" 33 663 714
+type(
+  Util.Coll.Hs.t
+)
+"m_dep.ml" 33 663 681 "m_dep.ml" 33 663 714
+type(
+  Util.Coll.Hs.t
+)
+"m_dep.ml" 33 663 673 "m_dep.ml" 33 663 714
+type(
+  unit
+)
+"m_dep.ml" 34 716 726 "m_dep.ml" 34 716 735
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref instances "m_dep.ml" 21 265 271 "m_dep.ml" 21 265 280
+)
+"m_dep.ml" 34 716 736 "m_dep.ml" 34 716 738
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"m_dep.ml" 34 716 739 "m_dep.ml" 34 716 745
+type(
+  Util.Coll.Hs.elt -> Util.Coll.Hs.t -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Util.Coll.Hs.add "set.mli" 83 3129 3133 "set.mli" 83 3129 3155
+)
+"m_dep.ml" 34 716 747 "m_dep.ml" 34 716 750
+type(
+  Expr.T.instance
+)
+ident(
+  int_ref ins "m_dep.ml" 32 634 655 "m_dep.ml" 32 634 658
+)
+"m_dep.ml" 34 716 747 "m_dep.ml" 34 716 759
+type(
+  string
+)
+"m_dep.ml" 34 716 760 "m_dep.ml" 34 716 762
+type(
+  string -> Expr.T.defn -> Util.Coll.Hs.elt
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_dep.ml" 34 716 763 "m_dep.ml" 34 716 765
+type(
+  Expr.T.defn
+)
+ident(
+  int_ref df "m_dep.ml" 26 447 467 "m_dep.ml" 26 447 469
+)
+"m_dep.ml" 34 716 746 "m_dep.ml" 34 716 766
+type(
+  Util.Coll.Hs.elt
+)
+"m_dep.ml" 34 716 767 "m_dep.ml" 34 716 768
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_dep.ml" 34 716 768 "m_dep.ml" 34 716 777
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref instances "m_dep.ml" 21 265 271 "m_dep.ml" 21 265 280
+)
+"m_dep.ml" 34 716 767 "m_dep.ml" 34 716 777
+type(
+  Util.Coll.Hs.t
+)
+"m_dep.ml" 34 716 739 "m_dep.ml" 34 716 777
+type(
+  Util.Coll.Hs.t
+)
+"m_dep.ml" 34 716 726 "m_dep.ml" 34 716 777
+type(
+  unit
+)
+"m_dep.ml" 35 779 789 "m_dep.ml" 35 779 798
+type(
+  (Util.hint * Expr.T.expr -> unit) -> (Util.hint * Expr.T.expr) list -> unit
+)
+ident(
+  int_ref Ext.List.iter "ext.mli" 16 424 426 "ext.mli" 16 424 468
+)
+"m_dep.ml" 36 805 822 "m_dep.ml" 36 805 823
+type(
+  Util.hint
+)
+"m_dep.ml" 36 805 825 "m_dep.ml" 36 805 826
+type(
+  Expr.T.expr
+)
+ident(
+  def e "m_dep.ml" 36 805 831 "m_dep.ml" 36 805 846
+)
+"m_dep.ml" 36 805 821 "m_dep.ml" 36 805 827
+type(
+  Util.hint * Expr.T.expr
+)
+"m_dep.ml" 36 805 831 "m_dep.ml" 36 805 835
+type(
+  unit Proof.Visit.iter
+)
+ident(
+  ext_ref self-1
+)
+"m_dep.ml" 36 805 831 "m_dep.ml" 36 805 840
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"m_dep.ml" 36 805 841 "m_dep.ml" 36 805 844
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "m_dep.ml" 26 447 463 "m_dep.ml" 26 447 466
+)
+"m_dep.ml" 36 805 845 "m_dep.ml" 36 805 846
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "m_dep.ml" 36 805 825 "m_dep.ml" 36 805 826
+)
+"m_dep.ml" 36 805 831 "m_dep.ml" 36 805 846
+type(
+  unit
+)
+"m_dep.ml" 35 779 799 "m_dep.ml" 37 847 860
+type(
+  Util.hint * Expr.T.expr -> unit
+)
+"m_dep.ml" 37 847 861 "m_dep.ml" 37 847 864
+type(
+  Expr.T.instance
+)
+ident(
+  int_ref ins "m_dep.ml" 32 634 655 "m_dep.ml" 32 634 658
+)
+"m_dep.ml" 37 847 861 "m_dep.ml" 37 847 873
+type(
+  (Util.hint * Expr.T.expr) list
+)
+"m_dep.ml" 35 779 789 "m_dep.ml" 37 847 873
+type(
+  unit
+)
+"m_dep.ml" 34 716 726 "m_dep.ml" 37 847 873
+type(
+  unit
+)
+"m_dep.ml" 33 663 673 "m_dep.ml" 37 847 873
+type(
+  unit
+)
+"m_dep.ml" 26 447 472 "m_dep.ml" 38 874 881
+type(
+  unit
+)
+"m_dep.ml" 38 874 883 "m_dep.ml" 38 874 888
+type(
+  unit Proof.Visit.iter
+)
+ident(
+  ext_ref self-1
+)
+type(
+  unit Proof.Visit.iter
+)
+ident(
+  int_ref super "m_dep.ml" 25 402 414 "m_dep.ml" 25 402 437
+)
+"m_dep.ml" 38 874 883 "m_dep.ml" 38 874 893
+type(
+  unit Proof.Visit.iter ->
+  unit Expr.Visit.scx -> Expr.T.defn -> unit Expr.Visit.scx
+)
+ident(
+  ext_ref defn
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.defn -> unit Expr.Visit.scx
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.defn -> unit Expr.Visit.scx
+)
+"m_dep.ml" 38 874 894 "m_dep.ml" 38 874 897
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "m_dep.ml" 26 447 463 "m_dep.ml" 26 447 466
+)
+"m_dep.ml" 38 874 898 "m_dep.ml" 38 874 900
+type(
+  Expr.T.defn
+)
+ident(
+  int_ref df "m_dep.ml" 26 447 467 "m_dep.ml" 26 447 469
+)
+"m_dep.ml" 38 874 883 "m_dep.ml" 38 874 900
+type(
+  unit Expr.Visit.scx
+)
+"m_dep.ml" 26 447 472 "m_dep.ml" 38 874 900
+type(
+  unit Expr.Visit.scx
+)
+"m_dep.ml" 24 365 380 "m_dep.ml" 39 901 906
+type(
+  unit Proof.Visit.iter
+)
+"m_dep.ml" 40 910 920 "m_dep.ml" 40 910 925
+type(
+  M_t.modunit -> unit
+)
+ident(
+  def visit "m_dep.ml" 40 910 912 "m_dep.ml" 58 1590 1619
+)
+"m_dep.ml" 40 910 926 "m_dep.ml" 40 910 928
+type(
+  M_t.modunit
+)
+ident(
+  def mu "m_dep.ml" 40 910 931 "m_dep.ml" 53 1424 1456
+)
+"m_dep.ml" 40 910 937 "m_dep.ml" 40 910 939
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_dep.ml" 40 910 926 "m_dep.ml" 40 910 928
+)
+"m_dep.ml" 40 910 937 "m_dep.ml" 40 910 944
+type(
+  M_t.modunit_
+)
+"m_dep.ml" 41 950 963 "m_dep.ml" 41 950 967
+type(
+  M_t.mule
+)
+ident(
+  def subm "m_dep.ml" 42 971 979 "m_dep.ml" 46 1173 1203
+)
+"m_dep.ml" 41 950 956 "m_dep.ml" 41 950 967
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_dep.ml" 42 971 983 "m_dep.ml" 42 971 984
+type(
+  M_t.mule_
+)
+ident(
+  def m "m_dep.ml" 43 1000 1008 "m_dep.ml" 46 1173 1203
+)
+"m_dep.ml" 42 971 987 "m_dep.ml" 42 971 991
+type(
+  M_t.mule
+)
+ident(
+  int_ref subm "m_dep.ml" 41 950 963 "m_dep.ml" 41 950 967
+)
+"m_dep.ml" 42 971 987 "m_dep.ml" 42 971 996
+type(
+  M_t.mule_
+)
+"m_dep.ml" 43 1000 1008 "m_dep.ml" 43 1000 1014
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref locals "m_dep.ml" 22 299 305 "m_dep.ml" 22 299 311
+)
+"m_dep.ml" 43 1000 1015 "m_dep.ml" 43 1000 1017
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"m_dep.ml" 43 1000 1018 "m_dep.ml" 43 1000 1024
+type(
+  Util.Coll.Hs.elt -> Util.Coll.Hs.t -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Util.Coll.Hs.add "set.mli" 83 3129 3133 "set.mli" 83 3129 3155
+)
+"m_dep.ml" 43 1000 1025 "m_dep.ml" 43 1000 1026
+type(
+  M_t.mule_
+)
+ident(
+  int_ref m "m_dep.ml" 42 971 983 "m_dep.ml" 42 971 984
+)
+"m_dep.ml" 43 1000 1025 "m_dep.ml" 43 1000 1031
+type(
+  Util.hint
+)
+"m_dep.ml" 43 1000 1032 "m_dep.ml" 43 1000 1033
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_dep.ml" 43 1000 1033 "m_dep.ml" 43 1000 1039
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref locals "m_dep.ml" 22 299 305 "m_dep.ml" 22 299 311
+)
+"m_dep.ml" 43 1000 1032 "m_dep.ml" 43 1000 1039
+type(
+  Util.Coll.Hs.t
+)
+"m_dep.ml" 43 1000 1018 "m_dep.ml" 43 1000 1039
+type(
+  Util.Coll.Hs.t
+)
+"m_dep.ml" 43 1000 1008 "m_dep.ml" 43 1000 1039
+type(
+  unit
+)
+"m_dep.ml" 44 1041 1049 "m_dep.ml" 44 1041 1059
+type(
+  M_t.mule Util.Coll.Sm.t ref
+)
+ident(
+  int_ref submodules "m_dep.ml" 23 330 336 "m_dep.ml" 23 330 346
+)
+"m_dep.ml" 44 1041 1060 "m_dep.ml" 44 1041 1062
+type(
+  M_t.mule Util.Coll.Sm.t ref -> M_t.mule Util.Coll.Sm.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"m_dep.ml" 44 1041 1063 "m_dep.ml" 44 1041 1069
+type(
+  Util.Coll.Sm.key ->
+  M_t.mule -> M_t.mule Util.Coll.Sm.t -> M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref Util.Coll.Sm.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"m_dep.ml" 44 1041 1070 "m_dep.ml" 44 1041 1071
+type(
+  M_t.mule_
+)
+ident(
+  int_ref m "m_dep.ml" 42 971 983 "m_dep.ml" 42 971 984
+)
+"m_dep.ml" 44 1041 1070 "m_dep.ml" 44 1041 1076
+type(
+  Util.hint
+)
+"m_dep.ml" 44 1041 1070 "m_dep.ml" 44 1041 1081
+type(
+  Util.Coll.Sm.key
+)
+"m_dep.ml" 44 1041 1082 "m_dep.ml" 44 1041 1086
+type(
+  M_t.mule
+)
+ident(
+  int_ref subm "m_dep.ml" 41 950 963 "m_dep.ml" 41 950 967
+)
+"m_dep.ml" 44 1041 1087 "m_dep.ml" 44 1041 1088
+type(
+  M_t.mule Util.Coll.Sm.t ref -> M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_dep.ml" 44 1041 1088 "m_dep.ml" 44 1041 1098
+type(
+  M_t.mule Util.Coll.Sm.t ref
+)
+ident(
+  int_ref submodules "m_dep.ml" 23 330 336 "m_dep.ml" 23 330 346
+)
+"m_dep.ml" 44 1041 1087 "m_dep.ml" 44 1041 1098
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_dep.ml" 44 1041 1063 "m_dep.ml" 44 1041 1098
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_dep.ml" 44 1041 1049 "m_dep.ml" 44 1041 1098
+type(
+  unit
+)
+"m_dep.ml" 45 1100 1108 "m_dep.ml" 45 1100 1117
+type(
+  (Util.Coll.Hs.elt -> unit) -> Util.hints -> unit
+)
+ident(
+  int_ref Ext.List.iter "ext.mli" 16 424 426 "ext.mli" 16 424 468
+)
+"m_dep.ml" 45 1100 1123 "m_dep.ml" 45 1100 1124
+type(
+  Util.Coll.Hs.elt
+)
+ident(
+  def s "m_dep.ml" 45 1100 1128 "m_dep.ml" 45 1100 1150
+)
+"m_dep.ml" 45 1100 1128 "m_dep.ml" 45 1100 1132
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref deps "m_dep.ml" 20 236 242 "m_dep.ml" 20 236 246
+)
+"m_dep.ml" 45 1100 1133 "m_dep.ml" 45 1100 1135
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"m_dep.ml" 45 1100 1136 "m_dep.ml" 45 1100 1142
+type(
+  Util.Coll.Hs.elt -> Util.Coll.Hs.t -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Util.Coll.Hs.add "set.mli" 83 3129 3133 "set.mli" 83 3129 3155
+)
+"m_dep.ml" 45 1100 1143 "m_dep.ml" 45 1100 1144
+type(
+  Util.Coll.Hs.elt
+)
+ident(
+  int_ref s "m_dep.ml" 45 1100 1123 "m_dep.ml" 45 1100 1124
+)
+"m_dep.ml" 45 1100 1145 "m_dep.ml" 45 1100 1146
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_dep.ml" 45 1100 1146 "m_dep.ml" 45 1100 1150
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref deps "m_dep.ml" 20 236 242 "m_dep.ml" 20 236 246
+)
+"m_dep.ml" 45 1100 1145 "m_dep.ml" 45 1100 1150
+type(
+  Util.Coll.Hs.t
+)
+"m_dep.ml" 45 1100 1136 "m_dep.ml" 45 1100 1150
+type(
+  Util.Coll.Hs.t
+)
+"m_dep.ml" 45 1100 1128 "m_dep.ml" 45 1100 1150
+type(
+  unit
+)
+"m_dep.ml" 45 1100 1118 "m_dep.ml" 45 1100 1151
+type(
+  Util.Coll.Hs.elt -> unit
+)
+"m_dep.ml" 45 1100 1152 "m_dep.ml" 45 1100 1156
+type(
+  M_t.mule
+)
+ident(
+  int_ref subm "m_dep.ml" 41 950 963 "m_dep.ml" 41 950 967
+)
+"m_dep.ml" 45 1100 1152 "m_dep.ml" 45 1100 1161
+type(
+  M_t.mule_
+)
+"m_dep.ml" 45 1100 1152 "m_dep.ml" 45 1100 1171
+type(
+  Util.hints
+)
+"m_dep.ml" 45 1100 1108 "m_dep.ml" 45 1100 1171
+type(
+  unit
+)
+"m_dep.ml" 46 1173 1181 "m_dep.ml" 46 1173 1190
+type(
+  (M_t.modunit -> unit) -> M_t.modunit list -> unit
+)
+ident(
+  int_ref Ext.List.iter "ext.mli" 16 424 426 "ext.mli" 16 424 468
+)
+"m_dep.ml" 46 1173 1191 "m_dep.ml" 46 1173 1196
+type(
+  M_t.modunit -> unit
+)
+ident(
+  int_ref visit "m_dep.ml" 40 910 920 "m_dep.ml" 40 910 925
+)
+"m_dep.ml" 46 1173 1197 "m_dep.ml" 46 1173 1198
+type(
+  M_t.mule_
+)
+ident(
+  int_ref m "m_dep.ml" 42 971 983 "m_dep.ml" 42 971 984
+)
+"m_dep.ml" 46 1173 1197 "m_dep.ml" 46 1173 1203
+type(
+  M_t.modunit list
+)
+"m_dep.ml" 46 1173 1181 "m_dep.ml" 46 1173 1203
+type(
+  unit
+)
+"m_dep.ml" 45 1100 1108 "m_dep.ml" 46 1173 1203
+type(
+  unit
+)
+"m_dep.ml" 44 1041 1049 "m_dep.ml" 46 1173 1203
+type(
+  unit
+)
+"m_dep.ml" 43 1000 1008 "m_dep.ml" 46 1173 1203
+type(
+  unit
+)
+"m_dep.ml" 42 971 979 "m_dep.ml" 46 1173 1203
+type(
+  unit
+)
+"m_dep.ml" 47 1204 1220 "m_dep.ml" 47 1204 1223
+type(
+  Expr.T.instance
+)
+ident(
+  def ins "m_dep.ml" 48 1231 1239 "m_dep.ml" 49 1277 1329
+)
+"m_dep.ml" 47 1204 1225 "m_dep.ml" 47 1204 1226
+type(
+  Expr.T.export
+)
+"m_dep.ml" 47 1204 1210 "m_dep.ml" 47 1204 1227
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_dep.ml" 48 1231 1239 "m_dep.ml" 48 1231 1245
+type(
+  unit Expr.Visit.scx -> unit
+)
+ident(
+  int_ref Stdlib.ignore "stdlib.mli" 723 27015 27015 "stdlib.mli" 723 27015 27055
+)
+"m_dep.ml" 48 1231 1247 "m_dep.ml" 48 1231 1253
+type(
+  unit Proof.Visit.iter
+)
+ident(
+  int_ref mapper "m_dep.ml" 24 365 371 "m_dep.ml" 24 365 377
+)
+"m_dep.ml" 48 1231 1247 "m_dep.ml" 48 1231 1258
+type(
+  unit Expr.Visit.scx -> Expr.T.defn -> unit Expr.Visit.scx
+)
+"m_dep.ml" 48 1231 1260 "m_dep.ml" 48 1231 1262
+type(
+  unit
+)
+"m_dep.ml" 48 1231 1264 "m_dep.ml" 48 1231 1275
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"m_dep.ml" 48 1231 1259 "m_dep.ml" 48 1231 1276
+type(
+  unit Expr.Visit.scx
+)
+"m_dep.ml" 49 1277 1306 "m_dep.ml" 49 1277 1309
+type(
+  string
+)
+"m_dep.ml" 49 1277 1310 "m_dep.ml" 49 1277 1312
+type(
+  string -> M_t.modunit -> Util.hint
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_dep.ml" 49 1277 1313 "m_dep.ml" 49 1277 1315
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_dep.ml" 40 910 926 "m_dep.ml" 40 910 928
+)
+"m_dep.ml" 49 1277 1306 "m_dep.ml" 49 1277 1315
+type(
+  Util.hint
+)
+"m_dep.ml" 49 1277 1317 "m_dep.ml" 49 1277 1320
+type(
+  Expr.T.instance
+)
+ident(
+  int_ref ins "m_dep.ml" 47 1204 1220 "m_dep.ml" 47 1204 1223
+)
+"m_dep.ml" 49 1277 1296 "m_dep.ml" 49 1277 1321
+type(
+  Expr.T.defn_
+)
+"m_dep.ml" 49 1277 1322 "m_dep.ml" 49 1277 1324
+type(
+  Expr.T.defn_ -> M_t.modunit -> Expr.T.defn
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_dep.ml" 49 1277 1325 "m_dep.ml" 49 1277 1327
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_dep.ml" 40 910 926 "m_dep.ml" 40 910 928
+)
+"m_dep.ml" 49 1277 1295 "m_dep.ml" 49 1277 1328
+type(
+  Expr.T.defn
+)
+"m_dep.ml" 48 1231 1246 "m_dep.ml" 49 1277 1329
+type(
+  unit Expr.Visit.scx
+)
+"m_dep.ml" 48 1231 1239 "m_dep.ml" 49 1277 1329
+type(
+  unit
+)
+"m_dep.ml" 50 1330 1336 "m_dep.ml" 50 1330 1337
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_dep.ml" 51 1341 1349 "m_dep.ml" 51 1341 1358
+type(
+  (Expr.T.hyp -> unit) -> Expr.T.hyp list -> unit
+)
+ident(
+  int_ref Ext.List.iter "ext.mli" 16 424 426 "ext.mli" 16 424 468
+)
+"m_dep.ml" 52 1365 1379 "m_dep.ml" 52 1365 1380
+type(
+  Expr.T.hyp
+)
+ident(
+  def h "m_dep.ml" 52 1365 1384 "m_dep.ml" 52 1365 1423
+)
+"m_dep.ml" 52 1365 1384 "m_dep.ml" 52 1365 1390
+type(
+  unit Expr.Visit.scx -> unit
+)
+ident(
+  int_ref Stdlib.ignore "stdlib.mli" 723 27015 27015 "stdlib.mli" 723 27015 27055
+)
+"m_dep.ml" 52 1365 1392 "m_dep.ml" 52 1365 1398
+type(
+  unit Proof.Visit.iter
+)
+ident(
+  int_ref mapper "m_dep.ml" 24 365 371 "m_dep.ml" 24 365 377
+)
+"m_dep.ml" 52 1365 1392 "m_dep.ml" 52 1365 1402
+type(
+  unit Expr.Visit.scx -> Expr.T.hyp -> unit Expr.Visit.scx
+)
+"m_dep.ml" 52 1365 1404 "m_dep.ml" 52 1365 1406
+type(
+  unit
+)
+"m_dep.ml" 52 1365 1408 "m_dep.ml" 52 1365 1419
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"m_dep.ml" 52 1365 1403 "m_dep.ml" 52 1365 1420
+type(
+  unit Expr.Visit.scx
+)
+"m_dep.ml" 52 1365 1421 "m_dep.ml" 52 1365 1422
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "m_dep.ml" 52 1365 1379 "m_dep.ml" 52 1365 1380
+)
+"m_dep.ml" 52 1365 1391 "m_dep.ml" 52 1365 1423
+type(
+  unit Expr.Visit.scx
+)
+"m_dep.ml" 52 1365 1384 "m_dep.ml" 52 1365 1423
+type(
+  unit
+)
+"m_dep.ml" 51 1341 1359 "m_dep.ml" 53 1424 1435
+type(
+  Expr.T.hyp -> unit
+)
+"m_dep.ml" 53 1424 1437 "m_dep.ml" 53 1424 1452
+type(
+  M_t.modunit -> Expr.T.hyp list
+)
+ident(
+  int_ref M_t.hyps_of_modunit "m_t.mli" 67 1637 1637 "m_t.mli" 69 1673 1714
+)
+"m_dep.ml" 53 1424 1453 "m_dep.ml" 53 1424 1455
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_dep.ml" 40 910 926 "m_dep.ml" 40 910 928
+)
+"m_dep.ml" 53 1424 1436 "m_dep.ml" 53 1424 1456
+type(
+  Expr.T.hyp list
+)
+"m_dep.ml" 51 1341 1349 "m_dep.ml" 53 1424 1456
+type(
+  unit
+)
+"m_dep.ml" 40 910 931 "m_dep.ml" 53 1424 1456
+type(
+  unit
+)
+"m_dep.ml" 55 1462 1464 "m_dep.ml" 55 1462 1473
+type(
+  (M_t.modunit -> unit) -> M_t.modunit list -> unit
+)
+ident(
+  int_ref Ext.List.iter "ext.mli" 16 424 426 "ext.mli" 16 424 468
+)
+"m_dep.ml" 55 1462 1474 "m_dep.ml" 55 1462 1479
+type(
+  M_t.modunit -> unit
+)
+ident(
+  int_ref visit "m_dep.ml" 40 910 920 "m_dep.ml" 40 910 925
+)
+"m_dep.ml" 55 1462 1480 "m_dep.ml" 55 1462 1481
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  int_ref m "m_dep.ml" 19 214 232 "m_dep.ml" 19 214 233
+)
+"m_dep.ml" 55 1462 1480 "m_dep.ml" 55 1462 1486
+type(
+  M_t.mule_
+)
+"m_dep.ml" 55 1462 1480 "m_dep.ml" 55 1462 1491
+type(
+  M_t.modunit list
+)
+"m_dep.ml" 55 1462 1464 "m_dep.ml" 55 1462 1491
+type(
+  unit
+)
+"m_dep.ml" 56 1493 1495 "m_dep.ml" 56 1493 1499
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref deps "m_dep.ml" 20 236 242 "m_dep.ml" 20 236 246
+)
+"m_dep.ml" 56 1493 1500 "m_dep.ml" 56 1493 1502
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"m_dep.ml" 56 1493 1503 "m_dep.ml" 56 1493 1510
+type(
+  Util.Coll.Hs.t -> Util.Coll.Hs.t -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Util.Coll.Hs.diff "set.mli" 108 4019 4023 "set.mli" 108 4019 4044
+)
+"m_dep.ml" 56 1493 1511 "m_dep.ml" 56 1493 1512
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_dep.ml" 56 1493 1512 "m_dep.ml" 56 1493 1516
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref deps "m_dep.ml" 20 236 242 "m_dep.ml" 20 236 246
+)
+"m_dep.ml" 56 1493 1511 "m_dep.ml" 56 1493 1516
+type(
+  Util.Coll.Hs.t
+)
+"m_dep.ml" 56 1493 1517 "m_dep.ml" 56 1493 1518
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_dep.ml" 56 1493 1518 "m_dep.ml" 56 1493 1524
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref locals "m_dep.ml" 22 299 305 "m_dep.ml" 22 299 311
+)
+"m_dep.ml" 56 1493 1517 "m_dep.ml" 56 1493 1524
+type(
+  Util.Coll.Hs.t
+)
+"m_dep.ml" 56 1493 1503 "m_dep.ml" 56 1493 1524
+type(
+  Util.Coll.Hs.t
+)
+"m_dep.ml" 56 1493 1495 "m_dep.ml" 56 1493 1524
+type(
+  unit
+)
+"m_dep.ml" 57 1526 1528 "m_dep.ml" 57 1526 1537
+type(
+  (Util.Coll.Hs.elt -> unit) -> Util.hints -> unit
+)
+ident(
+  int_ref Ext.List.iter "ext.mli" 16 424 426 "ext.mli" 16 424 468
+)
+"m_dep.ml" 57 1526 1543 "m_dep.ml" 57 1526 1544
+type(
+  Util.Coll.Hs.elt
+)
+ident(
+  def s "m_dep.ml" 57 1526 1548 "m_dep.ml" 57 1526 1570
+)
+"m_dep.ml" 57 1526 1548 "m_dep.ml" 57 1526 1552
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref deps "m_dep.ml" 20 236 242 "m_dep.ml" 20 236 246
+)
+"m_dep.ml" 57 1526 1553 "m_dep.ml" 57 1526 1555
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"m_dep.ml" 57 1526 1556 "m_dep.ml" 57 1526 1562
+type(
+  Util.Coll.Hs.elt -> Util.Coll.Hs.t -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Util.Coll.Hs.add "set.mli" 83 3129 3133 "set.mli" 83 3129 3155
+)
+"m_dep.ml" 57 1526 1563 "m_dep.ml" 57 1526 1564
+type(
+  Util.Coll.Hs.elt
+)
+ident(
+  int_ref s "m_dep.ml" 57 1526 1543 "m_dep.ml" 57 1526 1544
+)
+"m_dep.ml" 57 1526 1565 "m_dep.ml" 57 1526 1566
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_dep.ml" 57 1526 1566 "m_dep.ml" 57 1526 1570
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref deps "m_dep.ml" 20 236 242 "m_dep.ml" 20 236 246
+)
+"m_dep.ml" 57 1526 1565 "m_dep.ml" 57 1526 1570
+type(
+  Util.Coll.Hs.t
+)
+"m_dep.ml" 57 1526 1556 "m_dep.ml" 57 1526 1570
+type(
+  Util.Coll.Hs.t
+)
+"m_dep.ml" 57 1526 1548 "m_dep.ml" 57 1526 1570
+type(
+  unit
+)
+"m_dep.ml" 57 1526 1538 "m_dep.ml" 57 1526 1571
+type(
+  Util.Coll.Hs.elt -> unit
+)
+"m_dep.ml" 57 1526 1572 "m_dep.ml" 57 1526 1573
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  int_ref m "m_dep.ml" 19 214 232 "m_dep.ml" 19 214 233
+)
+"m_dep.ml" 57 1526 1572 "m_dep.ml" 57 1526 1578
+type(
+  M_t.mule_
+)
+"m_dep.ml" 57 1526 1572 "m_dep.ml" 57 1526 1588
+type(
+  Util.hints
+)
+"m_dep.ml" 57 1526 1528 "m_dep.ml" 57 1526 1588
+type(
+  unit
+)
+"m_dep.ml" 58 1590 1592 "m_dep.ml" 58 1590 1593
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_dep.ml" 58 1590 1593 "m_dep.ml" 58 1590 1597
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref deps "m_dep.ml" 20 236 242 "m_dep.ml" 20 236 246
+)
+"m_dep.ml" 58 1590 1592 "m_dep.ml" 58 1590 1597
+type(
+  Util.Coll.Hs.t
+)
+"m_dep.ml" 58 1590 1599 "m_dep.ml" 58 1590 1600
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_dep.ml" 58 1590 1600 "m_dep.ml" 58 1590 1606
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref locals "m_dep.ml" 22 299 305 "m_dep.ml" 22 299 311
+)
+"m_dep.ml" 58 1590 1599 "m_dep.ml" 58 1590 1606
+type(
+  Util.Coll.Hs.t
+)
+"m_dep.ml" 58 1590 1608 "m_dep.ml" 58 1590 1609
+type(
+  M_t.mule Util.Coll.Sm.t ref -> M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_dep.ml" 58 1590 1609 "m_dep.ml" 58 1590 1619
+type(
+  M_t.mule Util.Coll.Sm.t ref
+)
+ident(
+  int_ref submodules "m_dep.ml" 23 330 336 "m_dep.ml" 23 330 346
+)
+"m_dep.ml" 58 1590 1608 "m_dep.ml" 58 1590 1619
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_dep.ml" 58 1590 1592 "m_dep.ml" 58 1590 1619
+type(
+  Util.Coll.Hs.t * Util.Coll.Hs.t * M_t.mule Util.Coll.Sm.t
+)
+"m_dep.ml" 57 1526 1528 "m_dep.ml" 58 1590 1619
+type(
+  Util.Coll.Hs.t * Util.Coll.Hs.t * M_t.mule Util.Coll.Sm.t
+)
+"m_dep.ml" 56 1493 1495 "m_dep.ml" 58 1590 1619
+type(
+  Util.Coll.Hs.t * Util.Coll.Hs.t * M_t.mule Util.Coll.Sm.t
+)
+"m_dep.ml" 55 1462 1464 "m_dep.ml" 58 1590 1619
+type(
+  Util.Coll.Hs.t * Util.Coll.Hs.t * M_t.mule Util.Coll.Sm.t
+)
+"m_dep.ml" 40 910 912 "m_dep.ml" 58 1590 1619
+type(
+  Util.Coll.Hs.t * Util.Coll.Hs.t * M_t.mule Util.Coll.Sm.t
+)
+"m_dep.ml" 24 365 367 "m_dep.ml" 58 1590 1619
+type(
+  Util.Coll.Hs.t * Util.Coll.Hs.t * M_t.mule Util.Coll.Sm.t
+)
+"m_dep.ml" 23 330 332 "m_dep.ml" 58 1590 1619
+type(
+  Util.Coll.Hs.t * Util.Coll.Hs.t * M_t.mule Util.Coll.Sm.t
+)
+"m_dep.ml" 22 299 301 "m_dep.ml" 58 1590 1619
+type(
+  Util.Coll.Hs.t * Util.Coll.Hs.t * M_t.mule Util.Coll.Sm.t
+)
+"m_dep.ml" 21 265 267 "m_dep.ml" 58 1590 1619
+type(
+  Util.Coll.Hs.t * Util.Coll.Hs.t * M_t.mule Util.Coll.Sm.t
+)
+"m_dep.ml" 20 236 238 "m_dep.ml" 58 1590 1619
+type(
+  Util.Coll.Hs.t * Util.Coll.Hs.t * M_t.mule Util.Coll.Sm.t
+)
+"m_dep.ml" 62 1672 1676 "m_dep.ml" 62 1672 1684
+type(
+  M_t.modctx -> M_t.mule Util.Coll.Sm.t * M_t.mule list
+)
+ident(
+  def schedule "m_dep.ml" 94 2625 2638 "m_dep.ml" 0 0 -1
+)
+"m_dep.ml" 62 1672 1685 "m_dep.ml" 62 1672 1688
+type(
+  M_t.modctx
+)
+ident(
+  def mcx "m_dep.ml" 65 1745 1747 "m_dep.ml" 94 2625 2638
+)
+"m_dep.ml" 65 1745 1751 "m_dep.ml" 65 1745 1758
+type(
+  Util.Coll.Hs.t Util.Coll.Sm.t
+)
+ident(
+  def moddeps "m_dep.ml" 69 1892 1894 "m_dep.ml" 94 2625 2638
+)
+"m_dep.ml" 65 1745 1761 "m_dep.ml" 65 1745 1768
+type(
+  (Util.Coll.Sm.key ->
+   M_t.mule -> Util.Coll.Hs.t Util.Coll.Sm.t -> Util.Coll.Hs.t Util.Coll.Sm.t) ->
+  M_t.modctx ->
+  Util.Coll.Hs.t Util.Coll.Sm.t -> Util.Coll.Hs.t Util.Coll.Sm.t
+)
+ident(
+  int_ref Util.Coll.Sm.fold "map.mli" 160 6864 6868 "map.mli" 160 6864 6921
+)
+"m_dep.ml" 66 1775 1783 "m_dep.ml" 66 1775 1786
+type(
+  Util.Coll.Sm.key
+)
+ident(
+  def key "m_dep.ml" 66 1775 1787 "m_dep.ml" 67 1802 1869
+)
+"m_dep.ml" 66 1775 1787 "m_dep.ml" 66 1775 1792
+type(
+  M_t.mule
+)
+ident(
+  def modul "m_dep.ml" 66 1775 1793 "m_dep.ml" 67 1802 1869
+)
+"m_dep.ml" 66 1775 1793 "m_dep.ml" 66 1775 1798
+type(
+  Util.Coll.Hs.t Util.Coll.Sm.t
+)
+ident(
+  def accum "m_dep.ml" 67 1802 1808 "m_dep.ml" 67 1802 1869
+)
+"m_dep.ml" 67 1802 1808 "m_dep.ml" 67 1802 1814
+type(
+  Util.Coll.Sm.key ->
+  Util.Coll.Hs.t ->
+  Util.Coll.Hs.t Util.Coll.Sm.t -> Util.Coll.Hs.t Util.Coll.Sm.t
+)
+ident(
+  int_ref Util.Coll.Sm.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"m_dep.ml" 67 1802 1815 "m_dep.ml" 67 1802 1818
+type(
+  Util.Coll.Sm.key
+)
+ident(
+  int_ref key "m_dep.ml" 66 1775 1783 "m_dep.ml" 66 1775 1786
+)
+"m_dep.ml" 67 1802 1825 "m_dep.ml" 67 1802 1826
+type(
+  Util.Coll.Hs.t
+)
+ident(
+  def e "m_dep.ml" 67 1802 1861 "m_dep.ml" 67 1802 1862
+)
+"m_dep.ml" 67 1802 1828 "m_dep.ml" 67 1802 1829
+type(
+  Util.Coll.Hs.t
+)
+"m_dep.ml" 67 1802 1831 "m_dep.ml" 67 1802 1832
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_dep.ml" 67 1802 1824 "m_dep.ml" 67 1802 1833
+type(
+  Util.Coll.Hs.t * Util.Coll.Hs.t * M_t.mule Util.Coll.Sm.t
+)
+"m_dep.ml" 67 1802 1837 "m_dep.ml" 67 1802 1850
+type(
+  M_t.mule -> Util.Coll.Hs.t * Util.Coll.Hs.t * M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref external_deps "m_dep.ml" 19 214 218 "m_dep.ml" 19 214 231
+)
+"m_dep.ml" 67 1802 1851 "m_dep.ml" 67 1802 1856
+type(
+  M_t.mule
+)
+ident(
+  int_ref modul "m_dep.ml" 66 1775 1787 "m_dep.ml" 66 1775 1792
+)
+"m_dep.ml" 67 1802 1836 "m_dep.ml" 67 1802 1857
+type(
+  Util.Coll.Hs.t * Util.Coll.Hs.t * M_t.mule Util.Coll.Sm.t
+)
+"m_dep.ml" 67 1802 1861 "m_dep.ml" 67 1802 1862
+type(
+  Util.Coll.Hs.t
+)
+ident(
+  int_ref e "m_dep.ml" 67 1802 1825 "m_dep.ml" 67 1802 1826
+)
+"m_dep.ml" 67 1802 1819 "m_dep.ml" 67 1802 1863
+type(
+  Util.Coll.Hs.t
+)
+"m_dep.ml" 67 1802 1864 "m_dep.ml" 67 1802 1869
+type(
+  Util.Coll.Hs.t Util.Coll.Sm.t
+)
+ident(
+  int_ref accum "m_dep.ml" 66 1775 1793 "m_dep.ml" 66 1775 1798
+)
+"m_dep.ml" 67 1802 1808 "m_dep.ml" 67 1802 1869
+type(
+  Util.Coll.Hs.t Util.Coll.Sm.t
+)
+"m_dep.ml" 65 1745 1769 "m_dep.ml" 68 1870 1875
+type(
+  Util.Coll.Sm.key ->
+  M_t.mule -> Util.Coll.Hs.t Util.Coll.Sm.t -> Util.Coll.Hs.t Util.Coll.Sm.t
+)
+"m_dep.ml" 68 1870 1876 "m_dep.ml" 68 1870 1879
+type(
+  M_t.modctx
+)
+ident(
+  int_ref mcx "m_dep.ml" 62 1672 1685 "m_dep.ml" 62 1672 1688
+)
+"m_dep.ml" 68 1870 1880 "m_dep.ml" 68 1870 1888
+type(
+  Util.Coll.Hs.t Util.Coll.Sm.t
+)
+ident(
+  int_ref Util.Coll.Sm.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"m_dep.ml" 65 1745 1761 "m_dep.ml" 68 1870 1888
+type(
+  Util.Coll.Hs.t Util.Coll.Sm.t
+)
+"m_dep.ml" 69 1892 1898 "m_dep.ml" 69 1892 1902
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  def seen "m_dep.ml" 70 1921 1923 "m_dep.ml" 94 2625 2638
+)
+"m_dep.ml" 69 1892 1905 "m_dep.ml" 69 1892 1908
+type(
+  Util.Coll.Hs.t -> Util.Coll.Hs.t ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"m_dep.ml" 69 1892 1909 "m_dep.ml" 69 1892 1917
+type(
+  Util.Coll.Hs.t
+)
+ident(
+  int_ref Util.Coll.Hs.empty "set.mli" 74 2915 2919 "set.mli" 74 2915 2931
+)
+"m_dep.ml" 69 1892 1905 "m_dep.ml" 69 1892 1917
+type(
+  Util.Coll.Hs.t ref
+)
+"m_dep.ml" 70 1921 1927 "m_dep.ml" 70 1921 1932
+type(
+  M_t.mule list ref
+)
+ident(
+  def order "m_dep.ml" 71 1945 1947 "m_dep.ml" 94 2625 2638
+)
+"m_dep.ml" 70 1921 1935 "m_dep.ml" 70 1921 1938
+type(
+  M_t.mule list -> M_t.mule list ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"m_dep.ml" 70 1921 1939 "m_dep.ml" 70 1921 1941
+type(
+  M_t.mule list
+)
+"m_dep.ml" 70 1921 1935 "m_dep.ml" 70 1921 1941
+type(
+  M_t.mule list ref
+)
+"m_dep.ml" 71 1945 1955 "m_dep.ml" 71 1945 1959
+type(
+  Util.Coll.Sm.key -> M_t.mule -> unit
+)
+ident(
+  def spin "m_dep.ml" 71 1945 1947 "m_dep.ml" 94 2625 2638
+)
+"m_dep.ml" 71 1945 1960 "m_dep.ml" 71 1945 1962
+type(
+  Util.Coll.Sm.key
+)
+ident(
+  def mn "m_dep.ml" 71 1945 1963 "m_dep.ml" 80 2215 2222
+)
+"m_dep.ml" 71 1945 1963 "m_dep.ml" 71 1945 1964
+type(
+  M_t.mule
+)
+ident(
+  def m "m_dep.ml" 72 1967 1971 "m_dep.ml" 80 2215 2222
+)
+"m_dep.ml" 72 1967 1975 "m_dep.ml" 72 1967 1977
+type(
+  Util.Coll.Sm.key Property.wrapped
+)
+ident(
+  def mn "m_dep.ml" 73 1991 1995 "m_dep.ml" 80 2215 2222
+)
+"m_dep.ml" 72 1967 1980 "m_dep.ml" 72 1967 1982
+type(
+  Util.Coll.Sm.key
+)
+ident(
+  int_ref mn "m_dep.ml" 71 1945 1960 "m_dep.ml" 71 1945 1962
+)
+"m_dep.ml" 72 1967 1983 "m_dep.ml" 72 1967 1985
+type(
+  Util.Coll.Sm.key -> M_t.mule -> Util.Coll.Sm.key Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_dep.ml" 72 1967 1986 "m_dep.ml" 72 1967 1987
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_dep.ml" 71 1945 1963 "m_dep.ml" 71 1945 1964
+)
+"m_dep.ml" 72 1967 1980 "m_dep.ml" 72 1967 1987
+type(
+  Util.Coll.Sm.key Property.wrapped
+)
+"m_dep.ml" 73 1991 1998 "m_dep.ml" 73 1991 2004
+type(
+  Util.Coll.Hs.elt -> Util.Coll.Hs.t -> bool
+)
+ident(
+  int_ref Util.Coll.Hs.mem "set.mli" 80 3035 3039 "set.mli" 80 3035 3064
+)
+"m_dep.ml" 73 1991 2005 "m_dep.ml" 73 1991 2007
+type(
+  Util.Coll.Hs.elt
+)
+ident(
+  int_ref mn "m_dep.ml" 72 1967 1975 "m_dep.ml" 72 1967 1977
+)
+"m_dep.ml" 73 1991 2008 "m_dep.ml" 73 1991 2009
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_dep.ml" 73 1991 2009 "m_dep.ml" 73 1991 2013
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref seen "m_dep.ml" 69 1892 1898 "m_dep.ml" 69 1892 1902
+)
+"m_dep.ml" 73 1991 2008 "m_dep.ml" 73 1991 2013
+type(
+  Util.Coll.Hs.t
+)
+"m_dep.ml" 73 1991 1998 "m_dep.ml" 73 1991 2013
+type(
+  bool
+)
+"m_dep.ml" 73 1991 2019 "m_dep.ml" 73 1991 2021
+type(
+  unit
+)
+"m_dep.ml" 74 2033 2039 "m_dep.ml" 74 2033 2043
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref seen "m_dep.ml" 69 1892 1898 "m_dep.ml" 69 1892 1902
+)
+"m_dep.ml" 74 2033 2044 "m_dep.ml" 74 2033 2046
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"m_dep.ml" 74 2033 2047 "m_dep.ml" 74 2033 2053
+type(
+  Util.Coll.Hs.elt -> Util.Coll.Hs.t -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Util.Coll.Hs.add "set.mli" 83 3129 3133 "set.mli" 83 3129 3155
+)
+"m_dep.ml" 74 2033 2054 "m_dep.ml" 74 2033 2056
+type(
+  Util.Coll.Hs.elt
+)
+ident(
+  int_ref mn "m_dep.ml" 72 1967 1975 "m_dep.ml" 72 1967 1977
+)
+"m_dep.ml" 74 2033 2057 "m_dep.ml" 74 2033 2058
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_dep.ml" 74 2033 2058 "m_dep.ml" 74 2033 2062
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref seen "m_dep.ml" 69 1892 1898 "m_dep.ml" 69 1892 1902
+)
+"m_dep.ml" 74 2033 2057 "m_dep.ml" 74 2033 2062
+type(
+  Util.Coll.Hs.t
+)
+"m_dep.ml" 74 2033 2047 "m_dep.ml" 74 2033 2062
+type(
+  Util.Coll.Hs.t
+)
+"m_dep.ml" 74 2033 2039 "m_dep.ml" 74 2033 2062
+type(
+  unit
+)
+"m_dep.ml" 75 2064 2070 "m_dep.ml" 75 2064 2077
+type(
+  (Util.Coll.Hs.elt -> unit) -> Util.Coll.Hs.t -> unit
+)
+ident(
+  int_ref Util.Coll.Hs.iter "set.mli" 124 4550 4554 "set.mli" 124 4550 4590
+)
+"m_dep.ml" 76 2084 2096 "m_dep.ml" 76 2084 2099
+type(
+  Util.Coll.Hs.elt
+)
+ident(
+  def dep "m_dep.ml" 77 2103 2113 "m_dep.ml" 77 2103 2149
+)
+"m_dep.ml" 77 2103 2113 "m_dep.ml" 77 2103 2117
+type(
+  Util.Coll.Sm.key -> M_t.mule -> unit
+)
+ident(
+  int_ref spin "m_dep.ml" 71 1945 1955 "m_dep.ml" 71 1945 1959
+)
+"m_dep.ml" 77 2103 2118 "m_dep.ml" 77 2103 2121
+type(
+  Util.Coll.Hs.elt
+)
+ident(
+  int_ref dep "m_dep.ml" 76 2084 2096 "m_dep.ml" 76 2084 2099
+)
+"m_dep.ml" 77 2103 2118 "m_dep.ml" 77 2103 2126
+type(
+  Util.Coll.Sm.key
+)
+"m_dep.ml" 77 2103 2128 "m_dep.ml" 77 2103 2135
+type(
+  Util.Coll.Sm.key -> M_t.modctx -> M_t.mule
+)
+ident(
+  int_ref Util.Coll.Sm.find "map.mli" 278 11157 11161 "map.mli" 278 11157 11188
+)
+"m_dep.ml" 77 2103 2136 "m_dep.ml" 77 2103 2139
+type(
+  Util.Coll.Hs.elt
+)
+ident(
+  int_ref dep "m_dep.ml" 76 2084 2096 "m_dep.ml" 76 2084 2099
+)
+"m_dep.ml" 77 2103 2136 "m_dep.ml" 77 2103 2144
+type(
+  Util.Coll.Sm.key
+)
+"m_dep.ml" 77 2103 2145 "m_dep.ml" 77 2103 2148
+type(
+  M_t.modctx
+)
+ident(
+  int_ref mcx "m_dep.ml" 62 1672 1685 "m_dep.ml" 62 1672 1688
+)
+"m_dep.ml" 77 2103 2127 "m_dep.ml" 77 2103 2149
+type(
+  M_t.mule
+)
+"m_dep.ml" 77 2103 2113 "m_dep.ml" 77 2103 2149
+type(
+  unit
+)
+"m_dep.ml" 75 2064 2078 "m_dep.ml" 78 2151 2160
+type(
+  Util.Coll.Hs.elt -> unit
+)
+"m_dep.ml" 78 2151 2162 "m_dep.ml" 78 2151 2169
+type(
+  Util.Coll.Sm.key -> Util.Coll.Hs.t Util.Coll.Sm.t -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Util.Coll.Sm.find "map.mli" 278 11157 11161 "map.mli" 278 11157 11188
+)
+"m_dep.ml" 78 2151 2170 "m_dep.ml" 78 2151 2172
+type(
+  Util.Coll.Sm.key Property.wrapped
+)
+ident(
+  int_ref mn "m_dep.ml" 72 1967 1975 "m_dep.ml" 72 1967 1977
+)
+"m_dep.ml" 78 2151 2170 "m_dep.ml" 78 2151 2177
+type(
+  Util.Coll.Sm.key
+)
+"m_dep.ml" 78 2151 2178 "m_dep.ml" 78 2151 2185
+type(
+  Util.Coll.Hs.t Util.Coll.Sm.t
+)
+ident(
+  int_ref moddeps "m_dep.ml" 65 1745 1751 "m_dep.ml" 65 1745 1758
+)
+"m_dep.ml" 78 2151 2161 "m_dep.ml" 78 2151 2186
+type(
+  Util.Coll.Hs.t
+)
+"m_dep.ml" 75 2064 2070 "m_dep.ml" 78 2151 2186
+type(
+  unit
+)
+"m_dep.ml" 79 2188 2194 "m_dep.ml" 79 2188 2199
+type(
+  M_t.mule list ref
+)
+ident(
+  int_ref order "m_dep.ml" 70 1921 1927 "m_dep.ml" 70 1921 1932
+)
+"m_dep.ml" 79 2188 2200 "m_dep.ml" 79 2188 2202
+type(
+  M_t.mule list ref -> M_t.mule list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"m_dep.ml" 79 2188 2203 "m_dep.ml" 79 2188 2204
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_dep.ml" 71 1945 1963 "m_dep.ml" 71 1945 1964
+)
+"m_dep.ml" 79 2188 2208 "m_dep.ml" 79 2188 2209
+type(
+  M_t.mule list ref -> M_t.mule list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_dep.ml" 79 2188 2209 "m_dep.ml" 79 2188 2214
+type(
+  M_t.mule list ref
+)
+ident(
+  int_ref order "m_dep.ml" 70 1921 1927 "m_dep.ml" 70 1921 1932
+)
+"m_dep.ml" 79 2188 2208 "m_dep.ml" 79 2188 2214
+type(
+  M_t.mule list
+)
+"m_dep.ml" 79 2188 2203 "m_dep.ml" 79 2188 2214
+type(
+  M_t.mule list
+)
+"m_dep.ml" 79 2188 2194 "m_dep.ml" 79 2188 2214
+type(
+  unit
+)
+"m_dep.ml" 75 2064 2070 "m_dep.ml" 79 2188 2214
+type(
+  unit
+)
+"m_dep.ml" 73 1991 2027 "m_dep.ml" 80 2215 2222
+type(
+  unit
+)
+"m_dep.ml" 73 1991 1995 "m_dep.ml" 80 2215 2222
+type(
+  unit
+)
+"m_dep.ml" 72 1967 1971 "m_dep.ml" 80 2215 2222
+type(
+  unit
+)
+"m_dep.ml" 82 2228 2230 "m_dep.ml" 82 2228 2237
+type(
+  (Util.Coll.Sm.key -> M_t.mule -> unit) -> M_t.modctx -> unit
+)
+ident(
+  int_ref Util.Coll.Sm.iter "map.mli" 154 6537 6541 "map.mli" 154 6537 6586
+)
+"m_dep.ml" 82 2228 2238 "m_dep.ml" 82 2228 2242
+type(
+  Util.Coll.Sm.key -> M_t.mule -> unit
+)
+ident(
+  int_ref spin "m_dep.ml" 71 1945 1955 "m_dep.ml" 71 1945 1959
+)
+"m_dep.ml" 82 2228 2243 "m_dep.ml" 82 2228 2246
+type(
+  M_t.modctx
+)
+ident(
+  int_ref mcx "m_dep.ml" 62 1672 1685 "m_dep.ml" 62 1672 1688
+)
+"m_dep.ml" 82 2228 2230 "m_dep.ml" 82 2228 2246
+type(
+  unit
+)
+"m_dep.ml" 83 2248 2254 "m_dep.ml" 83 2248 2259
+type(
+  M_t.mule list
+)
+ident(
+  def order "m_dep.ml" 84 2281 2283 "m_dep.ml" 94 2625 2638
+)
+"m_dep.ml" 83 2248 2262 "m_dep.ml" 83 2248 2270
+type(
+  M_t.mule list -> M_t.mule list
+)
+ident(
+  int_ref Ext.List.rev "ext.mli" 11 220 222 "ext.mli" 11 220 250
+)
+"m_dep.ml" 83 2248 2271 "m_dep.ml" 83 2248 2272
+type(
+  M_t.mule list ref -> M_t.mule list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_dep.ml" 83 2248 2272 "m_dep.ml" 83 2248 2277
+type(
+  M_t.mule list ref
+)
+ident(
+  int_ref order "m_dep.ml" 70 1921 1927 "m_dep.ml" 70 1921 1932
+)
+"m_dep.ml" 83 2248 2271 "m_dep.ml" 83 2248 2277
+type(
+  M_t.mule list
+)
+"m_dep.ml" 83 2248 2262 "m_dep.ml" 83 2248 2277
+type(
+  M_t.mule list
+)
+"m_dep.ml" 84 2281 2288 "m_dep.ml" 84 2281 2290
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  def mc "m_dep.ml" 93 2593 2595 "m_dep.ml" 94 2625 2638
+)
+"m_dep.ml" 84 2281 2292 "m_dep.ml" 84 2281 2297
+type(
+  M_t.mule list
+)
+ident(
+  def order "m_dep.ml" 93 2593 2595 "m_dep.ml" 94 2625 2638
+)
+"m_dep.ml" 84 2281 2287 "m_dep.ml" 84 2281 2298
+type(
+  M_t.mule Util.Coll.Sm.t * M_t.mule list
+)
+"m_dep.ml" 84 2281 2301 "m_dep.ml" 84 2281 2315
+type(
+  (M_t.mule Util.Coll.Sm.t * M_t.mule list ->
+   M_t.mule -> M_t.mule Util.Coll.Sm.t * M_t.mule list) ->
+  M_t.mule Util.Coll.Sm.t * M_t.mule list ->
+  M_t.mule list -> M_t.mule Util.Coll.Sm.t * M_t.mule list
+)
+ident(
+  int_ref Ext.List.fold_left "ext.mli" 19 563 565 "ext.mli" 19 563 620
+)
+"m_dep.ml" 85 2322 2331 "m_dep.ml" 85 2322 2333
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  def mc "m_dep.ml" 85 2322 2342 "m_dep.ml" 91 2540 2562
+)
+"m_dep.ml" 85 2322 2335 "m_dep.ml" 85 2322 2340
+type(
+  M_t.mule list
+)
+ident(
+  def order "m_dep.ml" 85 2322 2342 "m_dep.ml" 91 2540 2562
+)
+"m_dep.ml" 85 2322 2330 "m_dep.ml" 85 2322 2341
+type(
+  M_t.mule Util.Coll.Sm.t * M_t.mule list
+)
+"m_dep.ml" 85 2322 2342 "m_dep.ml" 85 2322 2343
+type(
+  M_t.mule
+)
+ident(
+  def m "m_dep.ml" 86 2347 2353 "m_dep.ml" 91 2540 2562
+)
+"m_dep.ml" 86 2347 2357 "m_dep.ml" 86 2347 2358
+type(
+  M_t.mule
+)
+ident(
+  def m "m_dep.ml" 90 2493 2499 "m_dep.ml" 91 2540 2562
+)
+"m_dep.ml" 86 2347 2367 "m_dep.ml" 86 2347 2368
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_dep.ml" 85 2322 2342 "m_dep.ml" 85 2322 2343
+)
+"m_dep.ml" 86 2347 2367 "m_dep.ml" 86 2347 2373
+type(
+  M_t.mule_
+)
+"m_dep.ml" 86 2347 2367 "m_dep.ml" 86 2347 2379
+type(
+  M_t.stage
+)
+"m_dep.ml" 87 2385 2395 "m_dep.ml" 87 2385 2402
+type(
+  M_t.stage
+)
+type(
+  M_t.stage
+)
+"m_dep.ml" 87 2385 2405 "m_dep.ml" 87 2385 2409
+type(
+  M_t.stage
+)
+type(
+  M_t.stage
+)
+"m_dep.ml" 87 2385 2395 "m_dep.ml" 87 2385 2409
+type(
+  M_t.stage
+)
+"m_dep.ml" 87 2385 2418 "m_dep.ml" 87 2385 2419
+type(
+  M_t.final
+)
+"m_dep.ml" 87 2385 2412 "m_dep.ml" 87 2385 2419
+type(
+  M_t.stage
+)
+type(
+  M_t.stage
+)
+"m_dep.ml" 87 2385 2395 "m_dep.ml" 87 2385 2419
+type(
+  M_t.stage
+)
+"m_dep.ml" 87 2385 2423 "m_dep.ml" 87 2385 2424
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_dep.ml" 85 2322 2342 "m_dep.ml" 85 2322 2343
+)
+"m_dep.ml" 88 2425 2435 "m_dep.ml" 88 2425 2441
+type(
+  M_t.stage
+)
+type(
+  M_t.stage
+)
+"m_dep.ml" 88 2425 2445 "m_dep.ml" 88 2425 2448
+type(
+  M_t.mule * Util.Coll.Ss.t -> M_t.mule
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"m_dep.ml" 88 2425 2450 "m_dep.ml" 88 2425 2467
+type(
+  M_t.modctx -> M_t.mule -> Util.Coll.Ss.t -> M_t.mule * Util.Coll.Ss.t
+)
+ident(
+  int_ref M_flatten.flatten "m_flatten.mli" 8 123 123 "m_flatten.mli" 10 174 219
+)
+"m_dep.ml" 88 2425 2468 "m_dep.ml" 88 2425 2471
+type(
+  M_t.modctx
+)
+ident(
+  int_ref mcx "m_dep.ml" 62 1672 1685 "m_dep.ml" 62 1672 1688
+)
+"m_dep.ml" 88 2425 2472 "m_dep.ml" 88 2425 2473
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_dep.ml" 85 2322 2342 "m_dep.ml" 85 2322 2343
+)
+"m_dep.ml" 88 2425 2474 "m_dep.ml" 88 2425 2482
+type(
+  Util.Coll.Ss.t
+)
+ident(
+  int_ref Util.Coll.Ss.empty "set.mli" 74 2915 2919 "set.mli" 74 2915 2931
+)
+"m_dep.ml" 88 2425 2449 "m_dep.ml" 88 2425 2483
+type(
+  M_t.mule * Util.Coll.Ss.t
+)
+"m_dep.ml" 88 2425 2445 "m_dep.ml" 88 2425 2483
+type(
+  M_t.mule
+)
+"m_dep.ml" 86 2347 2361 "m_dep.ml" 88 2425 2483
+type(
+  M_t.mule
+)
+"m_dep.ml" 90 2493 2503 "m_dep.ml" 90 2493 2505
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  def mc "m_dep.ml" 91 2540 2546 "m_dep.ml" 91 2540 2562
+)
+"m_dep.ml" 90 2493 2508 "m_dep.ml" 90 2493 2514
+type(
+  Util.Coll.Sm.key ->
+  M_t.mule -> M_t.mule Util.Coll.Sm.t -> M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref Util.Coll.Sm.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"m_dep.ml" 90 2493 2515 "m_dep.ml" 90 2493 2516
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_dep.ml" 86 2347 2357 "m_dep.ml" 86 2347 2358
+)
+"m_dep.ml" 90 2493 2515 "m_dep.ml" 90 2493 2521
+type(
+  M_t.mule_
+)
+"m_dep.ml" 90 2493 2515 "m_dep.ml" 90 2493 2526
+type(
+  Util.hint
+)
+"m_dep.ml" 90 2493 2515 "m_dep.ml" 90 2493 2531
+type(
+  Util.Coll.Sm.key
+)
+"m_dep.ml" 90 2493 2532 "m_dep.ml" 90 2493 2533
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_dep.ml" 86 2347 2357 "m_dep.ml" 86 2347 2358
+)
+"m_dep.ml" 90 2493 2534 "m_dep.ml" 90 2493 2536
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref mc "m_dep.ml" 85 2322 2331 "m_dep.ml" 85 2322 2333
+)
+"m_dep.ml" 90 2493 2508 "m_dep.ml" 90 2493 2536
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_dep.ml" 91 2540 2547 "m_dep.ml" 91 2540 2549
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref mc "m_dep.ml" 90 2493 2503 "m_dep.ml" 90 2493 2505
+)
+"m_dep.ml" 91 2540 2551 "m_dep.ml" 91 2540 2552
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_dep.ml" 86 2347 2357 "m_dep.ml" 86 2347 2358
+)
+"m_dep.ml" 91 2540 2556 "m_dep.ml" 91 2540 2561
+type(
+  M_t.mule list
+)
+ident(
+  int_ref order "m_dep.ml" 85 2322 2335 "m_dep.ml" 85 2322 2340
+)
+"m_dep.ml" 91 2540 2551 "m_dep.ml" 91 2540 2561
+type(
+  M_t.mule list
+)
+"m_dep.ml" 91 2540 2546 "m_dep.ml" 91 2540 2562
+type(
+  M_t.mule Util.Coll.Sm.t * M_t.mule list
+)
+"m_dep.ml" 90 2493 2499 "m_dep.ml" 91 2540 2562
+type(
+  M_t.mule Util.Coll.Sm.t * M_t.mule list
+)
+"m_dep.ml" 86 2347 2353 "m_dep.ml" 91 2540 2562
+type(
+  M_t.mule Util.Coll.Sm.t * M_t.mule list
+)
+"m_dep.ml" 84 2281 2316 "m_dep.ml" 92 2563 2568
+type(
+  M_t.mule Util.Coll.Sm.t * M_t.mule list ->
+  M_t.mule -> M_t.mule Util.Coll.Sm.t * M_t.mule list
+)
+"m_dep.ml" 92 2563 2570 "m_dep.ml" 92 2563 2578
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref Util.Coll.Sm.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"m_dep.ml" 92 2563 2580 "m_dep.ml" 92 2563 2582
+type(
+  M_t.mule list
+)
+"m_dep.ml" 92 2563 2569 "m_dep.ml" 92 2563 2583
+type(
+  M_t.mule Util.Coll.Sm.t * M_t.mule list
+)
+"m_dep.ml" 92 2563 2584 "m_dep.ml" 92 2563 2589
+type(
+  M_t.mule list
+)
+ident(
+  int_ref order "m_dep.ml" 83 2248 2254 "m_dep.ml" 83 2248 2259
+)
+"m_dep.ml" 84 2281 2301 "m_dep.ml" 92 2563 2589
+type(
+  M_t.mule Util.Coll.Sm.t * M_t.mule list
+)
+"m_dep.ml" 93 2593 2599 "m_dep.ml" 93 2593 2604
+type(
+  M_t.mule list
+)
+ident(
+  def order "m_dep.ml" 94 2625 2627 "m_dep.ml" 94 2625 2638
+)
+"m_dep.ml" 93 2593 2607 "m_dep.ml" 93 2593 2615
+type(
+  M_t.mule list -> M_t.mule list
+)
+ident(
+  int_ref Ext.List.rev "ext.mli" 11 220 222 "ext.mli" 11 220 250
+)
+"m_dep.ml" 93 2593 2616 "m_dep.ml" 93 2593 2621
+type(
+  M_t.mule list
+)
+ident(
+  int_ref order "m_dep.ml" 84 2281 2292 "m_dep.ml" 84 2281 2297
+)
+"m_dep.ml" 93 2593 2607 "m_dep.ml" 93 2593 2621
+type(
+  M_t.mule list
+)
+"m_dep.ml" 94 2625 2628 "m_dep.ml" 94 2625 2630
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref mc "m_dep.ml" 84 2281 2288 "m_dep.ml" 84 2281 2290
+)
+"m_dep.ml" 94 2625 2632 "m_dep.ml" 94 2625 2637
+type(
+  M_t.mule list
+)
+ident(
+  int_ref order "m_dep.ml" 93 2593 2599 "m_dep.ml" 93 2593 2604
+)
+"m_dep.ml" 94 2625 2627 "m_dep.ml" 94 2625 2638
+type(
+  M_t.mule Util.Coll.Sm.t * M_t.mule list
+)
+"m_dep.ml" 93 2593 2595 "m_dep.ml" 94 2625 2638
+type(
+  M_t.mule Util.Coll.Sm.t * M_t.mule list
+)
+"m_dep.ml" 84 2281 2283 "m_dep.ml" 94 2625 2638
+type(
+  M_t.mule Util.Coll.Sm.t * M_t.mule list
+)
+"m_dep.ml" 83 2248 2250 "m_dep.ml" 94 2625 2638
+type(
+  M_t.mule Util.Coll.Sm.t * M_t.mule list
+)
+"m_dep.ml" 82 2228 2230 "m_dep.ml" 94 2625 2638
+type(
+  M_t.mule Util.Coll.Sm.t * M_t.mule list
+)
+"m_dep.ml" 71 1945 1947 "m_dep.ml" 94 2625 2638
+type(
+  M_t.mule Util.Coll.Sm.t * M_t.mule list
+)
+"m_dep.ml" 70 1921 1923 "m_dep.ml" 94 2625 2638
+type(
+  M_t.mule Util.Coll.Sm.t * M_t.mule list
+)
+"m_dep.ml" 69 1892 1894 "m_dep.ml" 94 2625 2638
+type(
+  M_t.mule Util.Coll.Sm.t * M_t.mule list
+)
+"m_dep.ml" 65 1745 1747 "m_dep.ml" 94 2625 2638
+type(
+  M_t.mule Util.Coll.Sm.t * M_t.mule list
+)

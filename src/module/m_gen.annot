@@ -1,0 +1,5026 @@
+"m_gen.ml" 18 209 217 "m_gen.ml" 18 209 225
+type(
+  Expr.T.hyp Deque.dq ->
+  M_t.mule -> M_t.mule * Proof.T.obligation list * M_t.summary
+)
+ident(
+  def generate "m_gen.ml" 18 209 209 "m_gen.ml" 0 0 -1
+)
+"m_gen.ml" 18 209 226 "m_gen.ml" 18 209 228
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def cx "m_gen.ml" 18 209 229 "m_gen.ml" 94 3883 3959
+)
+"m_gen.ml" 18 209 229 "m_gen.ml" 18 209 230
+type(
+  M_t.mule
+)
+ident(
+  def m "m_gen.ml" 19 233 235 "m_gen.ml" 94 3883 3959
+)
+"m_gen.ml" 19 233 239 "m_gen.ml" 19 233 242
+type(
+  Proof.T.obligation list ref
+)
+ident(
+  def obs "m_gen.ml" 20 277 279 "m_gen.ml" 94 3883 3959
+)
+"m_gen.ml" 19 233 267 "m_gen.ml" 19 233 270
+type(
+  Proof.T.obligation list -> Proof.T.obligation list ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"m_gen.ml" 19 233 271 "m_gen.ml" 19 233 273
+type(
+  Proof.T.obligation list
+)
+"m_gen.ml" 19 233 267 "m_gen.ml" 19 233 273
+type(
+  Proof.T.obligation list ref
+)
+"m_gen.ml" 20 277 283 "m_gen.ml" 20 277 287
+type(
+  Proof.T.obligation -> unit
+)
+ident(
+  def emit "m_gen.ml" 21 314 316 "m_gen.ml" 94 3883 3959
+)
+"m_gen.ml" 20 277 288 "m_gen.ml" 20 277 290
+type(
+  Proof.T.obligation
+)
+ident(
+  def ob "m_gen.ml" 20 277 293 "m_gen.ml" 20 277 310
+)
+"m_gen.ml" 20 277 293 "m_gen.ml" 20 277 296
+type(
+  Proof.T.obligation list ref
+)
+ident(
+  int_ref obs "m_gen.ml" 19 233 239 "m_gen.ml" 19 233 242
+)
+"m_gen.ml" 20 277 297 "m_gen.ml" 20 277 299
+type(
+  Proof.T.obligation list ref -> Proof.T.obligation list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"m_gen.ml" 20 277 300 "m_gen.ml" 20 277 302
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "m_gen.ml" 20 277 288 "m_gen.ml" 20 277 290
+)
+"m_gen.ml" 20 277 306 "m_gen.ml" 20 277 307
+type(
+  Proof.T.obligation list ref -> Proof.T.obligation list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_gen.ml" 20 277 307 "m_gen.ml" 20 277 310
+type(
+  Proof.T.obligation list ref
+)
+ident(
+  int_ref obs "m_gen.ml" 19 233 239 "m_gen.ml" 19 233 242
+)
+"m_gen.ml" 20 277 306 "m_gen.ml" 20 277 310
+type(
+  Proof.T.obligation list
+)
+"m_gen.ml" 20 277 300 "m_gen.ml" 20 277 310
+type(
+  Proof.T.obligation list
+)
+"m_gen.ml" 20 277 293 "m_gen.ml" 20 277 310
+type(
+  unit
+)
+"m_gen.ml" 21 314 320 "m_gen.ml" 21 314 325
+type(
+  M_t.summary ref
+)
+ident(
+  def rsumm "m_gen.ml" 22 363 365 "m_gen.ml" 94 3883 3959
+)
+"m_gen.ml" 21 314 342 "m_gen.ml" 21 314 345
+type(
+  M_t.summary -> M_t.summary ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"m_gen.ml" 21 314 346 "m_gen.ml" 21 314 359
+type(
+  M_t.summary
+)
+ident(
+  int_ref M_t.empty_summary "m_t.mli" 64 1559 1559 "m_t.mli" 64 1559 1585
+)
+"m_gen.ml" 21 314 342 "m_gen.ml" 21 314 359
+type(
+  M_t.summary ref
+)
+"m_gen.ml" 22 363 369 "m_gen.ml" 22 363 374
+type(
+  Expr.T.hyp Deque.dq ref
+)
+ident(
+  def fincx "m_gen.ml" 23 396 398 "m_gen.ml" 94 3883 3959
+)
+"m_gen.ml" 22 363 377 "m_gen.ml" 22 363 380
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.hyp Deque.dq ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"m_gen.ml" 22 363 381 "m_gen.ml" 22 363 392
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"m_gen.ml" 22 363 377 "m_gen.ml" 22 363 392
+type(
+  Expr.T.hyp Deque.dq ref
+)
+"m_gen.ml" 23 396 406 "m_gen.ml" 23 396 411
+type(
+  Expr.T.hyp Deque.dq -> M_t.modunit list -> M_t.modunit list
+)
+ident(
+  def visit "m_gen.ml" 23 396 398 "m_gen.ml" 94 3883 3959
+)
+"m_gen.ml" 23 396 412 "m_gen.ml" 23 396 414
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def cx "m_gen.ml" 23 396 415 "m_gen.ml" 91 3831 3840
+)
+"m_gen.ml" 23 396 415 "m_gen.ml" 23 396 418
+type(
+  M_t.modunit list
+)
+ident(
+  def mus "m_gen.ml" 23 396 421 "m_gen.ml" 91 3831 3840
+)
+"m_gen.ml" 23 396 427 "m_gen.ml" 23 396 430
+type(
+  M_t.modunit list
+)
+ident(
+  int_ref mus "m_gen.ml" 23 396 415 "m_gen.ml" 23 396 418
+)
+"m_gen.ml" 24 436 442 "m_gen.ml" 24 436 444
+type(
+  M_t.modunit list
+)
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 25 448 456 "m_gen.ml" 25 448 461
+type(
+  Expr.T.hyp Deque.dq ref
+)
+ident(
+  int_ref fincx "m_gen.ml" 22 363 369 "m_gen.ml" 22 363 374
+)
+"m_gen.ml" 25 448 462 "m_gen.ml" 25 448 464
+type(
+  Expr.T.hyp Deque.dq ref -> Expr.T.hyp Deque.dq -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"m_gen.ml" 25 448 465 "m_gen.ml" 25 448 467
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "m_gen.ml" 23 396 412 "m_gen.ml" 23 396 414
+)
+"m_gen.ml" 25 448 456 "m_gen.ml" 25 448 467
+type(
+  unit
+)
+"m_gen.ml" 25 448 470 "m_gen.ml" 25 448 472
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 25 448 456 "m_gen.ml" 25 448 472
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 26 473 479 "m_gen.ml" 26 473 481
+type(
+  M_t.modunit
+)
+ident(
+  def mu "m_gen.ml" 26 473 492 "m_gen.ml" 91 3831 3840
+)
+"m_gen.ml" 26 473 485 "m_gen.ml" 26 473 488
+type(
+  M_t.modunit list
+)
+ident(
+  def mus "m_gen.ml" 26 473 492 "m_gen.ml" 91 3831 3840
+)
+"m_gen.ml" 26 473 479 "m_gen.ml" 26 473 488
+type(
+  M_t.modunit list
+)
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 27 498 512 "m_gen.ml" 27 498 514
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_gen.ml" 26 473 479 "m_gen.ml" 26 473 481
+)
+"m_gen.ml" 27 498 512 "m_gen.ml" 27 498 519
+type(
+  M_t.modunit_
+)
+"m_gen.ml" 28 525 546 "m_gen.ml" 28 525 548
+type(
+  Util.hint option
+)
+ident(
+  def nm "m_gen.ml" 29 581 594 "m_gen.ml" 76 3186 3222
+)
+"m_gen.ml" 28 525 550 "m_gen.ml" 28 525 552
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "m_gen.ml" 29 581 594 "m_gen.ml" 76 3186 3222
+)
+"m_gen.ml" 28 525 554 "m_gen.ml" 28 525 558
+type(
+  int
+)
+ident(
+  def naxs "m_gen.ml" 29 581 594 "m_gen.ml" 76 3186 3222
+)
+"m_gen.ml" 28 525 560 "m_gen.ml" 28 525 563
+type(
+  Proof.T.proof
+)
+ident(
+  def prf "m_gen.ml" 29 581 594 "m_gen.ml" 76 3186 3222
+)
+"m_gen.ml" 28 525 565 "m_gen.ml" 28 525 573
+type(
+  Proof.T.proof
+)
+ident(
+  def prf_orig "m_gen.ml" 29 581 594 "m_gen.ml" 76 3186 3222
+)
+"m_gen.ml" 28 525 575 "m_gen.ml" 28 525 576
+type(
+  M_t.summary
+)
+"m_gen.ml" 28 525 537 "m_gen.ml" 28 525 577
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_gen.ml" 29 581 598 "m_gen.ml" 29 581 600
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def cx "m_gen.ml" 36 856 870 "m_gen.ml" 76 3186 3222
+)
+"m_gen.ml" 29 581 609 "m_gen.ml" 29 581 611
+type(
+  Util.hint option
+)
+ident(
+  int_ref nm "m_gen.ml" 28 525 546 "m_gen.ml" 28 525 548
+)
+"m_gen.ml" 30 617 640 "m_gen.ml" 30 617 642
+type(
+  Util.hint
+)
+ident(
+  def nm "m_gen.ml" 31 646 666 "m_gen.ml" 32 727 792
+)
+"m_gen.ml" 30 617 635 "m_gen.ml" 30 617 642
+type(
+  Util.hint option
+)
+type(
+  Util.hint option
+)
+"m_gen.ml" 31 646 666 "m_gen.ml" 31 646 676
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.hyp -> Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.snoc "deque.mli" 13 220 220 "deque.mli" 13 220 252
+)
+"m_gen.ml" 31 646 677 "m_gen.ml" 31 646 679
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "m_gen.ml" 23 396 412 "m_gen.ml" 23 396 414
+)
+"m_gen.ml" 31 646 697 "m_gen.ml" 31 646 699
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "m_gen.ml" 30 617 640 "m_gen.ml" 30 617 642
+)
+"m_gen.ml" 31 646 701 "m_gen.ml" 31 646 716
+type(
+  Expr.T.sequent -> Expr.T.expr_
+)
+ident(
+  int_ref Expr.T.exprify_sequent "expr.mli" 344 8876 8878 "expr.mli" 344 8876 8916
+)
+"m_gen.ml" 31 646 717 "m_gen.ml" 31 646 719
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "m_gen.ml" 28 525 550 "m_gen.ml" 28 525 552
+)
+"m_gen.ml" 31 646 701 "m_gen.ml" 31 646 719
+type(
+  Expr.T.expr_
+)
+"m_gen.ml" 31 646 720 "m_gen.ml" 31 646 722
+type(
+  Expr.T.expr_ -> Util.hint -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_gen.ml" 31 646 723 "m_gen.ml" 31 646 725
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "m_gen.ml" 30 617 640 "m_gen.ml" 30 617 642
+)
+"m_gen.ml" 31 646 701 "m_gen.ml" 31 646 725
+type(
+  Expr.T.expr
+)
+"m_gen.ml" 31 646 687 "m_gen.ml" 31 646 726
+type(
+  Expr.T.defn_
+)
+"m_gen.ml" 32 727 747 "m_gen.ml" 32 727 749
+type(
+  Expr.T.defn_ -> M_t.modunit -> Expr.T.defn
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_gen.ml" 32 727 750 "m_gen.ml" 32 727 752
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_gen.ml" 26 473 479 "m_gen.ml" 26 473 481
+)
+"m_gen.ml" 31 646 687 "m_gen.ml" 32 727 752
+type(
+  Expr.T.defn
+)
+"m_gen.ml" 32 727 760 "m_gen.ml" 32 727 766
+type(
+  Expr.T.time
+)
+"m_gen.ml" 32 727 754 "m_gen.ml" 32 727 766
+type(
+  Expr.T.wheredef
+)
+"m_gen.ml" 32 727 769 "m_gen.ml" 32 727 776
+type(
+  Expr.T.visibility
+)
+"m_gen.ml" 32 727 778 "m_gen.ml" 32 727 784
+type(
+  Expr.T.export
+)
+"m_gen.ml" 31 646 681 "m_gen.ml" 32 727 785
+type(
+  Expr.T.hyp_
+)
+"m_gen.ml" 32 727 786 "m_gen.ml" 32 727 788
+type(
+  Expr.T.hyp_ -> M_t.modunit -> Expr.T.hyp
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_gen.ml" 32 727 789 "m_gen.ml" 32 727 791
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_gen.ml" 26 473 479 "m_gen.ml" 26 473 481
+)
+"m_gen.ml" 31 646 680 "m_gen.ml" 32 727 792
+type(
+  Expr.T.hyp
+)
+"m_gen.ml" 31 646 666 "m_gen.ml" 32 727 792
+type(
+  Expr.T.hyp Deque.dq
+)
+"m_gen.ml" 33 793 811 "m_gen.ml" 33 793 812
+type(
+  Util.hint option
+)
+type(
+  Util.hint option
+)
+"m_gen.ml" 34 816 836 "m_gen.ml" 34 816 838
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "m_gen.ml" 23 396 412 "m_gen.ml" 23 396 414
+)
+"m_gen.ml" 29 581 603 "m_gen.ml" 34 816 838
+type(
+  Expr.T.hyp Deque.dq
+)
+"m_gen.ml" 36 856 874 "m_gen.ml" 36 856 877
+type(
+  Proof.T.proof
+)
+ident(
+  def prf "m_gen.ml" 72 2887 2903 "m_gen.ml" 76 3186 3222
+)
+"m_gen.ml" 36 856 879 "m_gen.ml" 36 856 883
+type(
+  M_t.summary
+)
+ident(
+  def summ "m_gen.ml" 72 2887 2903 "m_gen.ml" 76 3186 3222
+)
+"m_gen.ml" 36 856 874 "m_gen.ml" 36 856 883
+type(
+  Proof.T.proof * M_t.summary
+)
+"m_gen.ml" 37 886 906 "m_gen.ml" 37 886 909
+type(
+  Expr.T.sequent
+)
+ident(
+  def psq "m_gen.ml" 42 1233 1249 "m_gen.ml" 71 2856 2883
+)
+"m_gen.ml" 37 886 915 "m_gen.ml" 37 886 917
+type(
+  Util.hint option
+)
+ident(
+  int_ref nm "m_gen.ml" 28 525 546 "m_gen.ml" 28 525 548
+)
+"m_gen.ml" 37 886 918 "m_gen.ml" 37 886 919
+type(
+  Util.hint option -> Util.hint option -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_gen.ml" 37 886 920 "m_gen.ml" 37 886 924
+type(
+  Util.hint option
+)
+"m_gen.ml" 37 886 915 "m_gen.ml" 37 886 924
+type(
+  bool
+)
+"m_gen.ml" 37 886 930 "m_gen.ml" 37 886 932
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "m_gen.ml" 28 525 550 "m_gen.ml" 28 525 552
+)
+"m_gen.ml" 37 886 938 "m_gen.ml" 37 886 949
+type(
+  Expr.Subst.sub -> Expr.T.sequent -> Expr.T.sequent
+)
+ident(
+  int_ref Expr.Subst.app_sequent "expr.mli" 465 11594 11598 "expr.mli" 467 11641 11660
+)
+"m_gen.ml" 37 886 951 "m_gen.ml" 37 886 956
+type(
+  int -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.shift "expr.mli" 427 10798 10802 "expr.mli" 428 10813 10831
+)
+"m_gen.ml" 37 886 957 "m_gen.ml" 37 886 958
+type(
+  int
+)
+"m_gen.ml" 37 886 950 "m_gen.ml" 37 886 959
+type(
+  Expr.Subst.sub
+)
+"m_gen.ml" 37 886 960 "m_gen.ml" 37 886 962
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "m_gen.ml" 28 525 550 "m_gen.ml" 28 525 552
+)
+"m_gen.ml" 37 886 938 "m_gen.ml" 37 886 962
+type(
+  Expr.T.sequent
+)
+"m_gen.ml" 37 886 912 "m_gen.ml" 37 886 962
+type(
+  Expr.T.sequent
+)
+"m_gen.ml" 42 1233 1253 "m_gen.ml" 42 1233 1256
+type(
+  Expr.T.sequent
+)
+ident(
+  def psq "m_gen.ml" 43 1313 1329 "m_gen.ml" 71 2856 2883
+)
+"m_gen.ml" 42 1233 1261 "m_gen.ml" 42 1233 1264
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref psq "m_gen.ml" 37 886 906 "m_gen.ml" 37 886 909
+)
+"m_gen.ml" 42 1233 1280 "m_gen.ml" 42 1233 1292
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.hyp Deque.dq -> Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.append "deque.mli" 30 849 849 "deque.mli" 30 849 891
+)
+"m_gen.ml" 42 1233 1293 "m_gen.ml" 42 1233 1295
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "m_gen.ml" 29 581 598 "m_gen.ml" 29 581 600
+)
+"m_gen.ml" 42 1233 1296 "m_gen.ml" 42 1233 1299
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref psq "m_gen.ml" 37 886 906 "m_gen.ml" 37 886 909
+)
+"m_gen.ml" 42 1233 1296 "m_gen.ml" 42 1233 1307
+type(
+  Expr.T.hyp Deque.dq
+)
+"m_gen.ml" 42 1233 1280 "m_gen.ml" 42 1233 1307
+type(
+  Expr.T.hyp Deque.dq
+)
+"m_gen.ml" 42 1233 1259 "m_gen.ml" 42 1233 1309
+type(
+  Expr.T.sequent
+)
+"m_gen.ml" 43 1313 1333 "m_gen.ml" 43 1313 1342
+type(
+  Expr.T.time
+)
+ident(
+  def time_flag "m_gen.ml" 45 1421 1437 "m_gen.ml" 71 2856 2883
+)
+"m_gen.ml" 43 1313 1345 "m_gen.ml" 43 1313 1382
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.time -> Expr.T.time
+)
+ident(
+  int_ref Expr.Temporal_props.check_time_change "expr.mli" 639 16500 16504 "expr.mli" 640 16527 16569
+)
+"m_gen.ml" 44 1383 1399 "m_gen.ml" 44 1383 1402
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref psq "m_gen.ml" 42 1233 1253 "m_gen.ml" 42 1233 1256
+)
+"m_gen.ml" 44 1383 1399 "m_gen.ml" 44 1383 1410
+type(
+  Expr.T.hyp Deque.dq
+)
+"m_gen.ml" 44 1383 1411 "m_gen.ml" 44 1383 1417
+type(
+  Expr.T.time
+)
+"m_gen.ml" 43 1313 1345 "m_gen.ml" 44 1383 1417
+type(
+  Expr.T.time
+)
+"m_gen.ml" 45 1421 1437 "m_gen.ml" 45 1421 1458
+type(
+  unit -> unit
+)
+ident(
+  int_ref Proof.Gen.reset_stats "proof.mli" 142 3958 3960 "proof.mli" 142 3958 3990
+)
+"m_gen.ml" 45 1421 1459 "m_gen.ml" 45 1421 1461
+type(
+  unit
+)
+"m_gen.ml" 45 1421 1437 "m_gen.ml" 45 1421 1461
+type(
+  unit
+)
+"m_gen.ml" 46 1464 1484 "m_gen.ml" 46 1464 1487
+type(
+  Proof.T.proof
+)
+ident(
+  def prf "m_gen.ml" 47 1530 1546 "m_gen.ml" 71 2856 2883
+)
+"m_gen.ml" 46 1464 1490 "m_gen.ml" 46 1464 1508
+type(
+  Expr.T.sequent -> Proof.T.proof -> Expr.T.time -> Proof.T.proof
+)
+ident(
+  int_ref Proof.Gen.generate "proof.mli" 130 3536 3538 "proof.mli" 130 3536 3586
+)
+"m_gen.ml" 46 1464 1509 "m_gen.ml" 46 1464 1512
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref psq "m_gen.ml" 42 1233 1253 "m_gen.ml" 42 1233 1256
+)
+"m_gen.ml" 46 1464 1513 "m_gen.ml" 46 1464 1516
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref prf "m_gen.ml" 28 525 560 "m_gen.ml" 28 525 563
+)
+"m_gen.ml" 46 1464 1517 "m_gen.ml" 46 1464 1526
+type(
+  Expr.T.time
+)
+ident(
+  int_ref time_flag "m_gen.ml" 43 1313 1333 "m_gen.ml" 43 1313 1342
+)
+"m_gen.ml" 46 1464 1490 "m_gen.ml" 46 1464 1526
+type(
+  Proof.T.proof
+)
+"m_gen.ml" 47 1530 1551 "m_gen.ml" 47 1530 1554
+type(
+  Proof.T.obligation list
+)
+ident(
+  def obs "m_gen.ml" 64 2360 2376 "m_gen.ml" 71 2856 2883
+)
+"m_gen.ml" 47 1530 1556 "m_gen.ml" 47 1530 1559
+type(
+  Proof.T.proof
+)
+ident(
+  def prf "m_gen.ml" 64 2360 2376 "m_gen.ml" 71 2856 2883
+)
+"m_gen.ml" 47 1530 1550 "m_gen.ml" 47 1530 1560
+type(
+  Proof.T.obligation list * Proof.T.proof
+)
+"m_gen.ml" 47 1530 1563 "m_gen.ml" 47 1530 1580
+type(
+  Proof.T.proof -> Proof.T.obligation list * Proof.T.proof
+)
+ident(
+  int_ref Proof.Gen.collect "proof.mli" 131 3587 3589 "proof.mli" 131 3587 3636
+)
+"m_gen.ml" 47 1530 1581 "m_gen.ml" 47 1530 1584
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref prf "m_gen.ml" 46 1464 1484 "m_gen.ml" 46 1464 1487
+)
+"m_gen.ml" 47 1530 1563 "m_gen.ml" 47 1530 1584
+type(
+  Proof.T.obligation list * Proof.T.proof
+)
+"m_gen.ml" 64 2360 2380 "m_gen.ml" 64 2360 2383
+type(
+  Proof.Gen.stats
+)
+ident(
+  def sts "m_gen.ml" 65 2412 2428 "m_gen.ml" 71 2856 2883
+)
+"m_gen.ml" 64 2360 2386 "m_gen.ml" 64 2360 2405
+type(
+  unit -> Proof.Gen.stats
+)
+ident(
+  int_ref Proof.Gen.get_stats "proof.mli" 141 3924 3926 "proof.mli" 141 3924 3957
+)
+"m_gen.ml" 64 2360 2406 "m_gen.ml" 64 2360 2408
+type(
+  unit
+)
+"m_gen.ml" 64 2360 2386 "m_gen.ml" 64 2360 2408
+type(
+  Proof.Gen.stats
+)
+"m_gen.ml" 65 2412 2432 "m_gen.ml" 65 2412 2436
+type(
+  M_t.summary
+)
+ident(
+  def summ "m_gen.ml" 70 2817 2835 "m_gen.ml" 71 2856 2883
+)
+"m_gen.ml" 65 2412 2453 "m_gen.ml" 65 2412 2456
+type(
+  Proof.Gen.stats
+)
+ident(
+  int_ref sts "m_gen.ml" 64 2360 2380 "m_gen.ml" 64 2360 2383
+)
+"m_gen.ml" 65 2412 2453 "m_gen.ml" 65 2412 2472
+type(
+  int
+)
+"m_gen.ml" 66 2473 2516 "m_gen.ml" 66 2473 2527
+type(
+  Loc.locus list -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"m_gen.ml" 66 2473 2528 "m_gen.ml" 66 2473 2531
+type(
+  Proof.Gen.stats
+)
+ident(
+  int_ref sts "m_gen.ml" 64 2360 2380 "m_gen.ml" 64 2360 2383
+)
+"m_gen.ml" 66 2473 2528 "m_gen.ml" 66 2473 2548
+type(
+  Loc.locus list
+)
+"m_gen.ml" 66 2473 2516 "m_gen.ml" 66 2473 2548
+type(
+  int
+)
+"m_gen.ml" 66 2473 2550 "m_gen.ml" 66 2473 2553
+type(
+  Proof.Gen.stats
+)
+ident(
+  int_ref sts "m_gen.ml" 64 2360 2380 "m_gen.ml" 64 2360 2383
+)
+"m_gen.ml" 66 2473 2550 "m_gen.ml" 66 2473 2570
+type(
+  Loc.locus list
+)
+"m_gen.ml" 66 2473 2515 "m_gen.ml" 66 2473 2571
+type(
+  int * Loc.locus list
+)
+"m_gen.ml" 67 2572 2616 "m_gen.ml" 67 2572 2627
+type(
+  Loc.locus list -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"m_gen.ml" 67 2572 2628 "m_gen.ml" 67 2572 2631
+type(
+  Proof.Gen.stats
+)
+ident(
+  int_ref sts "m_gen.ml" 64 2360 2380 "m_gen.ml" 64 2360 2383
+)
+"m_gen.ml" 67 2572 2628 "m_gen.ml" 67 2572 2649
+type(
+  Loc.locus list
+)
+"m_gen.ml" 67 2572 2616 "m_gen.ml" 67 2572 2649
+type(
+  int
+)
+"m_gen.ml" 67 2572 2651 "m_gen.ml" 67 2572 2654
+type(
+  Proof.Gen.stats
+)
+ident(
+  int_ref sts "m_gen.ml" 64 2360 2380 "m_gen.ml" 64 2360 2383
+)
+"m_gen.ml" 67 2572 2651 "m_gen.ml" 67 2572 2672
+type(
+  Loc.locus list
+)
+"m_gen.ml" 67 2572 2615 "m_gen.ml" 67 2572 2673
+type(
+  int * Loc.locus list
+)
+"m_gen.ml" 68 2674 2721 "m_gen.ml" 68 2674 2732
+type(
+  Loc.locus list -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"m_gen.ml" 68 2674 2733 "m_gen.ml" 68 2674 2736
+type(
+  Proof.Gen.stats
+)
+ident(
+  int_ref sts "m_gen.ml" 64 2360 2380 "m_gen.ml" 64 2360 2383
+)
+"m_gen.ml" 68 2674 2733 "m_gen.ml" 68 2674 2757
+type(
+  Loc.locus list
+)
+"m_gen.ml" 68 2674 2721 "m_gen.ml" 68 2674 2757
+type(
+  int
+)
+"m_gen.ml" 68 2674 2759 "m_gen.ml" 68 2674 2762
+type(
+  Proof.Gen.stats
+)
+ident(
+  int_ref sts "m_gen.ml" 64 2360 2380 "m_gen.ml" 64 2360 2383
+)
+"m_gen.ml" 68 2674 2759 "m_gen.ml" 68 2674 2783
+type(
+  Loc.locus list
+)
+"m_gen.ml" 68 2674 2720 "m_gen.ml" 68 2674 2784
+type(
+  int * Loc.locus list
+)
+"m_gen.ml" 65 2412 2439 "m_gen.ml" 69 2785 2813
+type(
+  M_t.summary
+)
+"m_gen.ml" 70 2817 2835 "m_gen.ml" 70 2817 2844
+type(
+  (Proof.T.obligation -> unit) -> Proof.T.obligation list -> unit
+)
+ident(
+  int_ref Ext.List.iter "ext.mli" 16 424 426 "ext.mli" 16 424 468
+)
+"m_gen.ml" 70 2817 2845 "m_gen.ml" 70 2817 2849
+type(
+  Proof.T.obligation -> unit
+)
+ident(
+  int_ref emit "m_gen.ml" 20 277 283 "m_gen.ml" 20 277 287
+)
+"m_gen.ml" 70 2817 2850 "m_gen.ml" 70 2817 2853
+type(
+  Proof.T.obligation list
+)
+ident(
+  int_ref obs "m_gen.ml" 47 1530 1551 "m_gen.ml" 47 1530 1554
+)
+"m_gen.ml" 70 2817 2835 "m_gen.ml" 70 2817 2853
+type(
+  unit
+)
+"m_gen.ml" 71 2856 2874 "m_gen.ml" 71 2856 2877
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref prf "m_gen.ml" 47 1530 1556 "m_gen.ml" 47 1530 1559
+)
+"m_gen.ml" 71 2856 2879 "m_gen.ml" 71 2856 2883
+type(
+  M_t.summary
+)
+ident(
+  int_ref summ "m_gen.ml" 65 2412 2432 "m_gen.ml" 65 2412 2436
+)
+"m_gen.ml" 71 2856 2874 "m_gen.ml" 71 2856 2883
+type(
+  Proof.T.proof * M_t.summary
+)
+"m_gen.ml" 70 2817 2835 "m_gen.ml" 71 2856 2883
+type(
+  Proof.T.proof * M_t.summary
+)
+"m_gen.ml" 65 2412 2428 "m_gen.ml" 71 2856 2883
+type(
+  Proof.T.proof * M_t.summary
+)
+"m_gen.ml" 64 2360 2376 "m_gen.ml" 71 2856 2883
+type(
+  Proof.T.proof * M_t.summary
+)
+"m_gen.ml" 47 1530 1546 "m_gen.ml" 71 2856 2883
+type(
+  Proof.T.proof * M_t.summary
+)
+"m_gen.ml" 46 1464 1480 "m_gen.ml" 71 2856 2883
+type(
+  Proof.T.proof * M_t.summary
+)
+"m_gen.ml" 45 1421 1437 "m_gen.ml" 71 2856 2883
+type(
+  Proof.T.proof * M_t.summary
+)
+"m_gen.ml" 43 1313 1329 "m_gen.ml" 71 2856 2883
+type(
+  Proof.T.proof * M_t.summary
+)
+"m_gen.ml" 42 1233 1249 "m_gen.ml" 71 2856 2883
+type(
+  Proof.T.proof * M_t.summary
+)
+"m_gen.ml" 37 886 902 "m_gen.ml" 71 2856 2883
+type(
+  Proof.T.proof * M_t.summary
+)
+"m_gen.ml" 72 2887 2903 "m_gen.ml" 72 2887 2908
+type(
+  M_t.summary ref
+)
+ident(
+  int_ref rsumm "m_gen.ml" 21 314 320 "m_gen.ml" 21 314 325
+)
+"m_gen.ml" 72 2887 2909 "m_gen.ml" 72 2887 2911
+type(
+  M_t.summary ref -> M_t.summary -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"m_gen.ml" 72 2887 2912 "m_gen.ml" 72 2887 2923
+type(
+  M_t.summary -> M_t.summary -> M_t.summary
+)
+ident(
+  int_ref M_t.cat_summary "m_t.mli" 65 1586 1586 "m_t.mli" 66 1603 1636
+)
+"m_gen.ml" 72 2887 2924 "m_gen.ml" 72 2887 2925
+type(
+  M_t.summary ref -> M_t.summary
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_gen.ml" 72 2887 2925 "m_gen.ml" 72 2887 2930
+type(
+  M_t.summary ref
+)
+ident(
+  int_ref rsumm "m_gen.ml" 21 314 320 "m_gen.ml" 21 314 325
+)
+"m_gen.ml" 72 2887 2924 "m_gen.ml" 72 2887 2930
+type(
+  M_t.summary
+)
+"m_gen.ml" 72 2887 2931 "m_gen.ml" 72 2887 2935
+type(
+  M_t.summary
+)
+ident(
+  int_ref summ "m_gen.ml" 36 856 879 "m_gen.ml" 36 856 883
+)
+"m_gen.ml" 72 2887 2912 "m_gen.ml" 72 2887 2935
+type(
+  M_t.summary
+)
+"m_gen.ml" 72 2887 2903 "m_gen.ml" 72 2887 2935
+type(
+  unit
+)
+"m_gen.ml" 73 2938 2958 "m_gen.ml" 73 2938 2960
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  def mu "m_gen.ml" 74 3029 3045 "m_gen.ml" 76 3186 3222
+)
+"m_gen.ml" 73 2938 2965 "m_gen.ml" 73 2938 2967
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_gen.ml" 26 473 479 "m_gen.ml" 26 473 481
+)
+"m_gen.ml" 73 2938 2989 "m_gen.ml" 73 2938 2991
+type(
+  Util.hint option
+)
+ident(
+  int_ref nm "m_gen.ml" 28 525 546 "m_gen.ml" 28 525 548
+)
+"m_gen.ml" 73 2938 2993 "m_gen.ml" 73 2938 2995
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "m_gen.ml" 28 525 550 "m_gen.ml" 28 525 552
+)
+"m_gen.ml" 73 2938 2997 "m_gen.ml" 73 2938 3001
+type(
+  int
+)
+ident(
+  int_ref naxs "m_gen.ml" 28 525 554 "m_gen.ml" 28 525 558
+)
+"m_gen.ml" 73 2938 3003 "m_gen.ml" 73 2938 3006
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref prf "m_gen.ml" 36 856 874 "m_gen.ml" 36 856 877
+)
+"m_gen.ml" 73 2938 3008 "m_gen.ml" 73 2938 3016
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref prf_orig "m_gen.ml" 28 525 565 "m_gen.ml" 28 525 573
+)
+"m_gen.ml" 73 2938 3018 "m_gen.ml" 73 2938 3022
+type(
+  M_t.summary
+)
+ident(
+  int_ref summ "m_gen.ml" 36 856 879 "m_gen.ml" 36 856 883
+)
+"m_gen.ml" 73 2938 2980 "m_gen.ml" 73 2938 3023
+type(
+  M_t.modunit_
+)
+"m_gen.ml" 73 2938 2963 "m_gen.ml" 73 2938 3025
+type(
+  M_t.modunit_ Property.wrapped
+)
+"m_gen.ml" 74 3029 3049 "m_gen.ml" 74 3029 3051
+type(
+  Expr.T.expr_
+)
+ident(
+  def he "m_gen.ml" 75 3104 3120 "m_gen.ml" 76 3186 3222
+)
+"m_gen.ml" 74 3029 3057 "m_gen.ml" 74 3029 3059
+type(
+  Util.hint option
+)
+ident(
+  int_ref nm "m_gen.ml" 28 525 546 "m_gen.ml" 28 525 548
+)
+"m_gen.ml" 74 3029 3060 "m_gen.ml" 74 3029 3061
+type(
+  Util.hint option -> Util.hint option -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_gen.ml" 74 3029 3062 "m_gen.ml" 74 3029 3066
+type(
+  Util.hint option
+)
+"m_gen.ml" 74 3029 3057 "m_gen.ml" 74 3029 3066
+type(
+  bool
+)
+"m_gen.ml" 74 3029 3072 "m_gen.ml" 74 3029 3087
+type(
+  Expr.T.sequent -> Expr.T.expr_
+)
+ident(
+  int_ref Expr.T.exprify_sequent "expr.mli" 344 8876 8878 "expr.mli" 344 8876 8916
+)
+"m_gen.ml" 74 3029 3088 "m_gen.ml" 74 3029 3090
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "m_gen.ml" 28 525 550 "m_gen.ml" 28 525 552
+)
+"m_gen.ml" 74 3029 3072 "m_gen.ml" 74 3029 3090
+type(
+  Expr.T.expr_
+)
+"m_gen.ml" 74 3029 3099 "m_gen.ml" 74 3029 3100
+type(
+  int
+)
+"m_gen.ml" 74 3029 3096 "m_gen.ml" 74 3029 3100
+type(
+  Expr.T.expr_
+)
+"m_gen.ml" 74 3029 3054 "m_gen.ml" 74 3029 3100
+type(
+  Expr.T.expr_
+)
+"m_gen.ml" 75 3104 3124 "m_gen.ml" 75 3104 3126
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def cx "m_gen.ml" 76 3186 3204 "m_gen.ml" 76 3186 3222
+)
+"m_gen.ml" 75 3104 3129 "m_gen.ml" 75 3104 3139
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.hyp -> Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.snoc "deque.mli" 13 220 220 "deque.mli" 13 220 252
+)
+"m_gen.ml" 75 3104 3140 "m_gen.ml" 75 3104 3142
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "m_gen.ml" 29 581 598 "m_gen.ml" 29 581 600
+)
+"m_gen.ml" 75 3104 3150 "m_gen.ml" 75 3104 3152
+type(
+  Expr.T.expr_
+)
+ident(
+  int_ref he "m_gen.ml" 74 3029 3049 "m_gen.ml" 74 3029 3051
+)
+"m_gen.ml" 75 3104 3153 "m_gen.ml" 75 3104 3155
+type(
+  Expr.T.expr_ -> M_t.modunit_ Property.wrapped -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_gen.ml" 75 3104 3156 "m_gen.ml" 75 3104 3158
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref mu "m_gen.ml" 73 2938 2958 "m_gen.ml" 73 2938 2960
+)
+"m_gen.ml" 75 3104 3150 "m_gen.ml" 75 3104 3158
+type(
+  Expr.T.expr
+)
+"m_gen.ml" 75 3104 3160 "m_gen.ml" 75 3104 3166
+type(
+  Expr.T.visibility
+)
+"m_gen.ml" 75 3104 3168 "m_gen.ml" 75 3104 3174
+type(
+  Expr.T.time
+)
+"m_gen.ml" 75 3104 3144 "m_gen.ml" 75 3104 3175
+type(
+  Expr.T.hyp_
+)
+"m_gen.ml" 75 3104 3176 "m_gen.ml" 75 3104 3178
+type(
+  Expr.T.hyp_ -> M_t.modunit_ Property.wrapped -> Expr.T.hyp
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_gen.ml" 75 3104 3179 "m_gen.ml" 75 3104 3181
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref mu "m_gen.ml" 73 2938 2958 "m_gen.ml" 73 2938 2960
+)
+"m_gen.ml" 75 3104 3143 "m_gen.ml" 75 3104 3182
+type(
+  Expr.T.hyp
+)
+"m_gen.ml" 75 3104 3129 "m_gen.ml" 75 3104 3182
+type(
+  Expr.T.hyp Deque.dq
+)
+"m_gen.ml" 76 3186 3204 "m_gen.ml" 76 3186 3206
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_gen.ml" 73 2938 2958 "m_gen.ml" 73 2938 2960
+)
+"m_gen.ml" 76 3186 3210 "m_gen.ml" 76 3186 3215
+type(
+  Expr.T.hyp Deque.dq -> M_t.modunit list -> M_t.modunit list
+)
+ident(
+  int_ref visit "m_gen.ml" 23 396 406 "m_gen.ml" 23 396 411
+)
+"m_gen.ml" 76 3186 3216 "m_gen.ml" 76 3186 3218
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "m_gen.ml" 75 3104 3124 "m_gen.ml" 75 3104 3126
+)
+"m_gen.ml" 76 3186 3219 "m_gen.ml" 76 3186 3222
+type(
+  M_t.modunit list
+)
+ident(
+  int_ref mus "m_gen.ml" 26 473 485 "m_gen.ml" 26 473 488
+)
+"m_gen.ml" 76 3186 3210 "m_gen.ml" 76 3186 3222
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 76 3186 3204 "m_gen.ml" 76 3186 3222
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 75 3104 3120 "m_gen.ml" 76 3186 3222
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 74 3029 3045 "m_gen.ml" 76 3186 3222
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 73 2938 2954 "m_gen.ml" 76 3186 3222
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 72 2887 2903 "m_gen.ml" 76 3186 3222
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 36 856 870 "m_gen.ml" 76 3186 3222
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 29 581 594 "m_gen.ml" 76 3186 3222
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 77 3223 3242 "m_gen.ml" 77 3223 3243
+type(
+  M_t.mule
+)
+ident(
+  def m "m_gen.ml" 78 3247 3261 "m_gen.ml" 81 3387 3435
+)
+"m_gen.ml" 77 3223 3235 "m_gen.ml" 77 3223 3243
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_gen.ml" 78 3247 3266 "m_gen.ml" 78 3247 3267
+type(
+  M_t.mule
+)
+ident(
+  def m "m_gen.ml" 79 3299 3315 "m_gen.ml" 81 3387 3435
+)
+"m_gen.ml" 78 3247 3269 "m_gen.ml" 78 3247 3272
+type(
+  Proof.T.obligation list
+)
+ident(
+  def obs "m_gen.ml" 79 3299 3315 "m_gen.ml" 81 3387 3435
+)
+"m_gen.ml" 78 3247 3274 "m_gen.ml" 78 3247 3278
+type(
+  M_t.summary
+)
+ident(
+  def summ "m_gen.ml" 79 3299 3315 "m_gen.ml" 81 3387 3435
+)
+"m_gen.ml" 78 3247 3265 "m_gen.ml" 78 3247 3279
+type(
+  M_t.mule * Proof.T.obligation list * M_t.summary
+)
+"m_gen.ml" 78 3247 3282 "m_gen.ml" 78 3247 3290
+type(
+  Expr.T.hyp Deque.dq ->
+  M_t.mule -> M_t.mule * Proof.T.obligation list * M_t.summary
+)
+ident(
+  int_ref generate "m_gen.ml" 18 209 217 "m_gen.ml" 18 209 225
+)
+"m_gen.ml" 78 3247 3291 "m_gen.ml" 78 3247 3293
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "m_gen.ml" 23 396 412 "m_gen.ml" 23 396 414
+)
+"m_gen.ml" 78 3247 3294 "m_gen.ml" 78 3247 3295
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_gen.ml" 77 3223 3242 "m_gen.ml" 77 3223 3243
+)
+"m_gen.ml" 78 3247 3282 "m_gen.ml" 78 3247 3295
+type(
+  M_t.mule * Proof.T.obligation list * M_t.summary
+)
+"m_gen.ml" 79 3299 3315 "m_gen.ml" 79 3299 3324
+type(
+  (Proof.T.obligation -> unit) -> Proof.T.obligation list -> unit
+)
+ident(
+  int_ref Ext.List.iter "ext.mli" 16 424 426 "ext.mli" 16 424 468
+)
+"m_gen.ml" 79 3299 3325 "m_gen.ml" 79 3299 3329
+type(
+  Proof.T.obligation -> unit
+)
+ident(
+  int_ref emit "m_gen.ml" 20 277 283 "m_gen.ml" 20 277 287
+)
+"m_gen.ml" 79 3299 3330 "m_gen.ml" 79 3299 3333
+type(
+  Proof.T.obligation list
+)
+ident(
+  int_ref obs "m_gen.ml" 78 3247 3269 "m_gen.ml" 78 3247 3272
+)
+"m_gen.ml" 79 3299 3315 "m_gen.ml" 79 3299 3333
+type(
+  unit
+)
+"m_gen.ml" 80 3336 3352 "m_gen.ml" 80 3336 3357
+type(
+  M_t.summary ref
+)
+ident(
+  int_ref rsumm "m_gen.ml" 21 314 320 "m_gen.ml" 21 314 325
+)
+"m_gen.ml" 80 3336 3358 "m_gen.ml" 80 3336 3360
+type(
+  M_t.summary ref -> M_t.summary -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"m_gen.ml" 80 3336 3361 "m_gen.ml" 80 3336 3372
+type(
+  M_t.summary -> M_t.summary -> M_t.summary
+)
+ident(
+  int_ref M_t.cat_summary "m_t.mli" 65 1586 1586 "m_t.mli" 66 1603 1636
+)
+"m_gen.ml" 80 3336 3373 "m_gen.ml" 80 3336 3374
+type(
+  M_t.summary ref -> M_t.summary
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_gen.ml" 80 3336 3374 "m_gen.ml" 80 3336 3379
+type(
+  M_t.summary ref
+)
+ident(
+  int_ref rsumm "m_gen.ml" 21 314 320 "m_gen.ml" 21 314 325
+)
+"m_gen.ml" 80 3336 3373 "m_gen.ml" 80 3336 3379
+type(
+  M_t.summary
+)
+"m_gen.ml" 80 3336 3380 "m_gen.ml" 80 3336 3384
+type(
+  M_t.summary
+)
+ident(
+  int_ref summ "m_gen.ml" 78 3247 3274 "m_gen.ml" 78 3247 3278
+)
+"m_gen.ml" 80 3336 3361 "m_gen.ml" 80 3336 3384
+type(
+  M_t.summary
+)
+"m_gen.ml" 80 3336 3352 "m_gen.ml" 80 3336 3384
+type(
+  unit
+)
+"m_gen.ml" 81 3387 3411 "m_gen.ml" 81 3387 3412
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_gen.ml" 78 3247 3266 "m_gen.ml" 78 3247 3267
+)
+"m_gen.ml" 81 3387 3404 "m_gen.ml" 81 3387 3412
+type(
+  M_t.modunit_
+)
+"m_gen.ml" 81 3387 3413 "m_gen.ml" 81 3387 3415
+type(
+  M_t.modunit_ -> M_t.modunit -> M_t.modunit
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_gen.ml" 81 3387 3416 "m_gen.ml" 81 3387 3418
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_gen.ml" 26 473 479 "m_gen.ml" 26 473 481
+)
+"m_gen.ml" 81 3387 3403 "m_gen.ml" 81 3387 3419
+type(
+  M_t.modunit
+)
+"m_gen.ml" 81 3387 3423 "m_gen.ml" 81 3387 3428
+type(
+  Expr.T.hyp Deque.dq -> M_t.modunit list -> M_t.modunit list
+)
+ident(
+  int_ref visit "m_gen.ml" 23 396 406 "m_gen.ml" 23 396 411
+)
+"m_gen.ml" 81 3387 3429 "m_gen.ml" 81 3387 3431
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "m_gen.ml" 23 396 412 "m_gen.ml" 23 396 414
+)
+"m_gen.ml" 81 3387 3432 "m_gen.ml" 81 3387 3435
+type(
+  M_t.modunit list
+)
+ident(
+  int_ref mus "m_gen.ml" 26 473 485 "m_gen.ml" 26 473 488
+)
+"m_gen.ml" 81 3387 3423 "m_gen.ml" 81 3387 3435
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 81 3387 3403 "m_gen.ml" 81 3387 3435
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 80 3336 3352 "m_gen.ml" 81 3387 3435
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 79 3299 3315 "m_gen.ml" 81 3387 3435
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 78 3247 3261 "m_gen.ml" 81 3387 3435
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 82 3436 3456 "m_gen.ml" 82 3436 3458
+type(
+  [ `Hide | `Use of bool ]
+)
+ident(
+  def uh "m_gen.ml" 83 3467 3481 "m_gen.ml" 85 3578 3612
+)
+"m_gen.ml" 82 3436 3460 "m_gen.ml" 82 3436 3462
+type(
+  Proof.T.usable
+)
+ident(
+  def us "m_gen.ml" 83 3467 3481 "m_gen.ml" 85 3578 3612
+)
+"m_gen.ml" 82 3436 3448 "m_gen.ml" 82 3436 3463
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_gen.ml" 83 3467 3486 "m_gen.ml" 83 3467 3488
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def cx "m_gen.ml" 84 3541 3557 "m_gen.ml" 85 3578 3612
+)
+"m_gen.ml" 83 3467 3490 "m_gen.ml" 83 3467 3493
+type(
+  Proof.T.obligation list
+)
+ident(
+  def obs "m_gen.ml" 84 3541 3557 "m_gen.ml" 85 3578 3612
+)
+"m_gen.ml" 83 3467 3485 "m_gen.ml" 83 3467 3494
+type(
+  Expr.T.hyp Deque.dq * Proof.T.obligation list
+)
+"m_gen.ml" 83 3467 3497 "m_gen.ml" 83 3467 3513
+type(
+  Expr.T.hyp Deque.dq ->
+  [ `Hide | `Use of bool ] ->
+  Proof.T.usable Property.wrapped ->
+  Expr.T.time -> Expr.T.hyp Deque.dq * Proof.T.obligation list
+)
+ident(
+  int_ref Proof.Gen.mutate "proof.mli" 132 3637 3639 "proof.mli" 133 3668 3754
+)
+"m_gen.ml" 83 3467 3514 "m_gen.ml" 83 3467 3516
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "m_gen.ml" 23 396 412 "m_gen.ml" 23 396 414
+)
+"m_gen.ml" 83 3467 3517 "m_gen.ml" 83 3467 3519
+type(
+  [ `Hide | `Use of bool ]
+)
+ident(
+  int_ref uh "m_gen.ml" 82 3436 3456 "m_gen.ml" 82 3436 3458
+)
+"m_gen.ml" 83 3467 3521 "m_gen.ml" 83 3467 3523
+type(
+  Proof.T.usable
+)
+ident(
+  int_ref us "m_gen.ml" 82 3436 3460 "m_gen.ml" 82 3436 3462
+)
+"m_gen.ml" 83 3467 3524 "m_gen.ml" 83 3467 3526
+type(
+  Proof.T.usable -> M_t.modunit -> Proof.T.usable Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_gen.ml" 83 3467 3527 "m_gen.ml" 83 3467 3529
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_gen.ml" 26 473 479 "m_gen.ml" 26 473 481
+)
+"m_gen.ml" 83 3467 3520 "m_gen.ml" 83 3467 3530
+type(
+  Proof.T.usable Property.wrapped
+)
+"m_gen.ml" 83 3467 3531 "m_gen.ml" 83 3467 3537
+type(
+  Expr.T.time
+)
+"m_gen.ml" 83 3467 3497 "m_gen.ml" 83 3467 3537
+type(
+  Expr.T.hyp Deque.dq * Proof.T.obligation list
+)
+"m_gen.ml" 84 3541 3557 "m_gen.ml" 84 3541 3566
+type(
+  (Proof.T.obligation -> unit) -> Proof.T.obligation list -> unit
+)
+ident(
+  int_ref Ext.List.iter "ext.mli" 16 424 426 "ext.mli" 16 424 468
+)
+"m_gen.ml" 84 3541 3567 "m_gen.ml" 84 3541 3571
+type(
+  Proof.T.obligation -> unit
+)
+ident(
+  int_ref emit "m_gen.ml" 20 277 283 "m_gen.ml" 20 277 287
+)
+"m_gen.ml" 84 3541 3572 "m_gen.ml" 84 3541 3575
+type(
+  Proof.T.obligation list
+)
+ident(
+  int_ref obs "m_gen.ml" 83 3467 3490 "m_gen.ml" 83 3467 3493
+)
+"m_gen.ml" 84 3541 3557 "m_gen.ml" 84 3541 3575
+type(
+  unit
+)
+"m_gen.ml" 85 3578 3594 "m_gen.ml" 85 3578 3596
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_gen.ml" 26 473 479 "m_gen.ml" 26 473 481
+)
+"m_gen.ml" 85 3578 3600 "m_gen.ml" 85 3578 3605
+type(
+  Expr.T.hyp Deque.dq -> M_t.modunit list -> M_t.modunit list
+)
+ident(
+  int_ref visit "m_gen.ml" 23 396 406 "m_gen.ml" 23 396 411
+)
+"m_gen.ml" 85 3578 3606 "m_gen.ml" 85 3578 3608
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "m_gen.ml" 83 3467 3486 "m_gen.ml" 83 3467 3488
+)
+"m_gen.ml" 85 3578 3609 "m_gen.ml" 85 3578 3612
+type(
+  M_t.modunit list
+)
+ident(
+  int_ref mus "m_gen.ml" 26 473 485 "m_gen.ml" 26 473 488
+)
+"m_gen.ml" 85 3578 3600 "m_gen.ml" 85 3578 3612
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 85 3578 3594 "m_gen.ml" 85 3578 3612
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 84 3541 3557 "m_gen.ml" 85 3578 3612
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 83 3467 3481 "m_gen.ml" 85 3578 3612
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 86 3613 3634 "m_gen.ml" 86 3613 3635
+type(
+  Expr.T.export
+)
+type(
+  Expr.T.instance
+)
+"m_gen.ml" 86 3613 3625 "m_gen.ml" 86 3613 3635
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_gen.ml" 87 3639 3653 "m_gen.ml" 87 3639 3663
+type(
+  ?at:M_t.modunit -> string -> M_t.modunit list
+)
+ident(
+  int_ref Errors.bug "errors.mli" 41 941 941 "errors.mli" 41 941 982
+)
+"m_gen.ml" 87 3639 3668 "m_gen.ml" 87 3639 3670
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_gen.ml" 26 473 479 "m_gen.ml" 26 473 481
+)
+type(
+  M_t.modunit option
+)
+"m_gen.ml" 87 3639 3671 "m_gen.ml" 87 3639 3710
+type(
+  string
+)
+"m_gen.ml" 87 3639 3653 "m_gen.ml" 87 3639 3710
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 88 3711 3723 "m_gen.ml" 88 3711 3724
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_gen.ml" 89 3728 3746 "m_gen.ml" 89 3728 3748
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def cx "m_gen.ml" 90 3796 3812 "m_gen.ml" 90 3796 3830
+)
+"m_gen.ml" 89 3728 3751 "m_gen.ml" 89 3728 3768
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.hyp list -> Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.append_list "deque.mli" 31 892 892 "deque.mli" 31 892 936
+)
+"m_gen.ml" 89 3728 3769 "m_gen.ml" 89 3728 3771
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "m_gen.ml" 23 396 412 "m_gen.ml" 23 396 414
+)
+"m_gen.ml" 89 3728 3773 "m_gen.ml" 89 3728 3788
+type(
+  M_t.modunit -> Expr.T.hyp list
+)
+ident(
+  int_ref M_t.hyps_of_modunit "m_t.mli" 67 1637 1637 "m_t.mli" 69 1673 1714
+)
+"m_gen.ml" 89 3728 3789 "m_gen.ml" 89 3728 3791
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_gen.ml" 26 473 479 "m_gen.ml" 26 473 481
+)
+"m_gen.ml" 89 3728 3772 "m_gen.ml" 89 3728 3792
+type(
+  Expr.T.hyp list
+)
+"m_gen.ml" 89 3728 3751 "m_gen.ml" 89 3728 3792
+type(
+  Expr.T.hyp Deque.dq
+)
+"m_gen.ml" 90 3796 3812 "m_gen.ml" 90 3796 3814
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_gen.ml" 26 473 479 "m_gen.ml" 26 473 481
+)
+"m_gen.ml" 90 3796 3818 "m_gen.ml" 90 3796 3823
+type(
+  Expr.T.hyp Deque.dq -> M_t.modunit list -> M_t.modunit list
+)
+ident(
+  int_ref visit "m_gen.ml" 23 396 406 "m_gen.ml" 23 396 411
+)
+"m_gen.ml" 90 3796 3824 "m_gen.ml" 90 3796 3826
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "m_gen.ml" 89 3728 3746 "m_gen.ml" 89 3728 3748
+)
+"m_gen.ml" 90 3796 3827 "m_gen.ml" 90 3796 3830
+type(
+  M_t.modunit list
+)
+ident(
+  int_ref mus "m_gen.ml" 26 473 485 "m_gen.ml" 26 473 488
+)
+"m_gen.ml" 90 3796 3818 "m_gen.ml" 90 3796 3830
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 90 3796 3812 "m_gen.ml" 90 3796 3830
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 89 3728 3742 "m_gen.ml" 90 3796 3830
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 26 473 492 "m_gen.ml" 91 3831 3840
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 23 396 421 "m_gen.ml" 91 3831 3840
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 93 3846 3852 "m_gen.ml" 93 3846 3856
+type(
+  M_t.modunit list
+)
+ident(
+  def body "m_gen.ml" 94 3883 3887 "m_gen.ml" 94 3883 3959
+)
+"m_gen.ml" 93 3846 3859 "m_gen.ml" 93 3846 3864
+type(
+  Expr.T.hyp Deque.dq -> M_t.modunit list -> M_t.modunit list
+)
+ident(
+  int_ref visit "m_gen.ml" 23 396 406 "m_gen.ml" 23 396 411
+)
+"m_gen.ml" 93 3846 3865 "m_gen.ml" 93 3846 3867
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "m_gen.ml" 18 209 226 "m_gen.ml" 18 209 228
+)
+"m_gen.ml" 93 3846 3868 "m_gen.ml" 93 3846 3869
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_gen.ml" 18 209 229 "m_gen.ml" 18 209 230
+)
+"m_gen.ml" 93 3846 3868 "m_gen.ml" 93 3846 3874
+type(
+  M_t.mule_
+)
+"m_gen.ml" 93 3846 3868 "m_gen.ml" 93 3846 3879
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 93 3846 3859 "m_gen.ml" 93 3846 3879
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 94 3883 3890 "m_gen.ml" 94 3883 3891
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_gen.ml" 18 209 229 "m_gen.ml" 18 209 230
+)
+"m_gen.ml" 94 3883 3906 "m_gen.ml" 94 3883 3907
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_gen.ml" 18 209 229 "m_gen.ml" 18 209 230
+)
+"m_gen.ml" 94 3883 3906 "m_gen.ml" 94 3883 3912
+type(
+  M_t.mule_
+)
+"m_gen.ml" 94 3883 3925 "m_gen.ml" 94 3883 3929
+type(
+  M_t.modunit list
+)
+ident(
+  int_ref body "m_gen.ml" 93 3846 3852 "m_gen.ml" 93 3846 3856
+)
+"m_gen.ml" 94 3883 3904 "m_gen.ml" 94 3883 3931
+type(
+  M_t.mule_
+)
+"m_gen.ml" 94 3883 3888 "m_gen.ml" 94 3883 3933
+type(
+  M_t.mule
+)
+"m_gen.ml" 94 3883 3935 "m_gen.ml" 94 3883 3943
+type(
+  Proof.T.obligation list -> Proof.T.obligation list
+)
+ident(
+  int_ref Ext.List.rev "ext.mli" 11 220 222 "ext.mli" 11 220 250
+)
+"m_gen.ml" 94 3883 3945 "m_gen.ml" 94 3883 3946
+type(
+  Proof.T.obligation list ref -> Proof.T.obligation list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_gen.ml" 94 3883 3946 "m_gen.ml" 94 3883 3949
+type(
+  Proof.T.obligation list ref
+)
+ident(
+  int_ref obs "m_gen.ml" 19 233 239 "m_gen.ml" 19 233 242
+)
+"m_gen.ml" 94 3883 3944 "m_gen.ml" 94 3883 3950
+type(
+  Proof.T.obligation list
+)
+"m_gen.ml" 94 3883 3935 "m_gen.ml" 94 3883 3950
+type(
+  Proof.T.obligation list
+)
+"m_gen.ml" 94 3883 3952 "m_gen.ml" 94 3883 3953
+type(
+  M_t.summary ref -> M_t.summary
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_gen.ml" 94 3883 3953 "m_gen.ml" 94 3883 3958
+type(
+  M_t.summary ref
+)
+ident(
+  int_ref rsumm "m_gen.ml" 21 314 320 "m_gen.ml" 21 314 325
+)
+"m_gen.ml" 94 3883 3952 "m_gen.ml" 94 3883 3958
+type(
+  M_t.summary
+)
+"m_gen.ml" 94 3883 3887 "m_gen.ml" 94 3883 3959
+type(
+  M_t.mule * Proof.T.obligation list * M_t.summary
+)
+"m_gen.ml" 93 3846 3848 "m_gen.ml" 94 3883 3959
+type(
+  M_t.mule * Proof.T.obligation list * M_t.summary
+)
+"m_gen.ml" 23 396 398 "m_gen.ml" 94 3883 3959
+type(
+  M_t.mule * Proof.T.obligation list * M_t.summary
+)
+"m_gen.ml" 22 363 365 "m_gen.ml" 94 3883 3959
+type(
+  M_t.mule * Proof.T.obligation list * M_t.summary
+)
+"m_gen.ml" 21 314 316 "m_gen.ml" 94 3883 3959
+type(
+  M_t.mule * Proof.T.obligation list * M_t.summary
+)
+"m_gen.ml" 20 277 279 "m_gen.ml" 94 3883 3959
+type(
+  M_t.mule * Proof.T.obligation list * M_t.summary
+)
+"m_gen.ml" 19 233 235 "m_gen.ml" 94 3883 3959
+type(
+  M_t.mule * Proof.T.obligation list * M_t.summary
+)
+"m_gen.ml" 98 4041 4045 "m_gen.ml" 98 4041 4054
+type(
+  'a Property.wrapped -> int * string
+)
+ident(
+  def step_name "m_gen.ml" 103 4196 4196 "m_gen.ml" 0 0 -1
+)
+"m_gen.ml" 98 4041 4055 "m_gen.ml" 98 4041 4056
+type(
+  'a Property.wrapped
+)
+ident(
+  def x "m_gen.ml" 98 4041 4059 "m_gen.ml" 101 4155 4194
+)
+"m_gen.ml" 98 4041 4065 "m_gen.ml" 98 4041 4079
+type(
+  'a Property.wrapped ->
+  Proof.T.stepno Property.pfuncs -> Proof.T.stepno option
+)
+ident(
+  int_ref Property.query "property.mli" 75 2530 2530 "property.mli" 75 2530 2579
+)
+"m_gen.ml" 98 4041 4080 "m_gen.ml" 98 4041 4081
+type(
+  'a Property.wrapped
+)
+ident(
+  int_ref x "m_gen.ml" 98 4041 4055 "m_gen.ml" 98 4041 4056
+)
+"m_gen.ml" 98 4041 4082 "m_gen.ml" 98 4041 4092
+type(
+  Proof.T.stepno Property.pfuncs
+)
+ident(
+  int_ref Proof.T.Props.step "proof.mli" 50 1247 1251 "proof.mli" 50 1247 1284
+)
+"m_gen.ml" 98 4041 4065 "m_gen.ml" 98 4041 4092
+type(
+  Proof.T.stepno option
+)
+"m_gen.ml" 99 4098 4102 "m_gen.ml" 99 4098 4106
+type(
+  Proof.T.stepno option
+)
+type(
+  Proof.T.stepno option
+)
+"m_gen.ml" 99 4098 4110 "m_gen.ml" 99 4098 4111
+type(
+  int
+)
+"m_gen.ml" 99 4098 4112 "m_gen.ml" 99 4098 4114
+type(
+  string
+)
+"m_gen.ml" 99 4098 4110 "m_gen.ml" 99 4098 4114
+type(
+  int * string
+)
+"m_gen.ml" 100 4115 4132 "m_gen.ml" 100 4115 4134
+type(
+  int
+)
+ident(
+  def sn "m_gen.ml" 100 4115 4147 "m_gen.ml" 100 4115 4154
+)
+"m_gen.ml" 100 4115 4136 "m_gen.ml" 100 4115 4138
+type(
+  string
+)
+ident(
+  def sl "m_gen.ml" 100 4115 4147 "m_gen.ml" 100 4115 4154
+)
+"m_gen.ml" 100 4115 4140 "m_gen.ml" 100 4115 4141
+type(
+  bool
+)
+"m_gen.ml" 100 4115 4124 "m_gen.ml" 100 4115 4143
+type(
+  Proof.T.stepno
+)
+"m_gen.ml" 100 4115 4119 "m_gen.ml" 100 4115 4143
+type(
+  Proof.T.stepno option
+)
+type(
+  Proof.T.stepno option
+)
+"m_gen.ml" 100 4115 4148 "m_gen.ml" 100 4115 4150
+type(
+  int
+)
+ident(
+  int_ref sn "m_gen.ml" 100 4115 4132 "m_gen.ml" 100 4115 4134
+)
+"m_gen.ml" 100 4115 4151 "m_gen.ml" 100 4115 4153
+type(
+  string
+)
+ident(
+  int_ref sl "m_gen.ml" 100 4115 4136 "m_gen.ml" 100 4115 4138
+)
+"m_gen.ml" 100 4115 4147 "m_gen.ml" 100 4115 4154
+type(
+  int * string
+)
+"m_gen.ml" 101 4155 4174 "m_gen.ml" 101 4155 4176
+type(
+  int
+)
+ident(
+  def sn "m_gen.ml" 101 4155 4187 "m_gen.ml" 101 4155 4194
+)
+"m_gen.ml" 101 4155 4178 "m_gen.ml" 101 4155 4181
+type(
+  int
+)
+ident(
+  def sid "m_gen.ml" 101 4155 4187 "m_gen.ml" 101 4155 4194
+)
+"m_gen.ml" 101 4155 4164 "m_gen.ml" 101 4155 4183
+type(
+  Proof.T.stepno
+)
+"m_gen.ml" 101 4155 4159 "m_gen.ml" 101 4155 4183
+type(
+  Proof.T.stepno option
+)
+type(
+  Proof.T.stepno option
+)
+"m_gen.ml" 101 4155 4188 "m_gen.ml" 101 4155 4190
+type(
+  int
+)
+ident(
+  int_ref sn "m_gen.ml" 101 4155 4174 "m_gen.ml" 101 4155 4176
+)
+"m_gen.ml" 101 4155 4191 "m_gen.ml" 101 4155 4193
+type(
+  string
+)
+"m_gen.ml" 101 4155 4187 "m_gen.ml" 101 4155 4194
+type(
+  int * string
+)
+"m_gen.ml" 98 4041 4059 "m_gen.ml" 101 4155 4194
+type(
+  int * string
+)
+"m_gen.ml" 103 4196 4200 "m_gen.ml" 103 4196 4216
+type(
+  'a Property.wrapped -> bool
+)
+ident(
+  def toolbox_consider "m_gen.ml" 108 4371 4371 "m_gen.ml" 0 0 -1
+)
+"m_gen.ml" 103 4196 4217 "m_gen.ml" 103 4196 4220
+type(
+  'a Property.wrapped
+)
+ident(
+  def prf "m_gen.ml" 104 4223 4225 "m_gen.ml" 106 4321 4369
+)
+"m_gen.ml" 104 4223 4229 "m_gen.ml" 104 4223 4232
+type(
+  Loc.locus
+)
+ident(
+  def loc "m_gen.ml" 105 4272 4276 "m_gen.ml" 106 4321 4369
+)
+"m_gen.ml" 104 4223 4235 "m_gen.ml" 104 4223 4245
+type(
+  Loc.locus option -> Loc.locus
+)
+ident(
+  int_ref Ext.Option.get "ext.mli" 60 2628 2630 "ext.mli" 60 2628 2655
+)
+"m_gen.ml" 104 4223 4247 "m_gen.ml" 104 4223 4263
+type(
+  'a Property.wrapped -> Loc.locus option
+)
+ident(
+  int_ref Util.query_locus "util.mli" 18 321 321 "util.mli" 18 321 369
+)
+"m_gen.ml" 104 4223 4264 "m_gen.ml" 104 4223 4267
+type(
+  'a Property.wrapped
+)
+ident(
+  int_ref prf "m_gen.ml" 103 4196 4217 "m_gen.ml" 103 4196 4220
+)
+"m_gen.ml" 104 4223 4246 "m_gen.ml" 104 4223 4268
+type(
+  Loc.locus option
+)
+"m_gen.ml" 104 4223 4235 "m_gen.ml" 104 4223 4268
+type(
+  Loc.locus
+)
+"m_gen.ml" 105 4272 4277 "m_gen.ml" 105 4272 4278
+type(
+  int ref -> int
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_gen.ml" 105 4272 4278 "m_gen.ml" 105 4272 4290
+type(
+  int ref
+)
+ident(
+  int_ref Params.tb_sl "params.mli" 81 1643 1643 "params.mli" 81 1643 1661
+)
+"m_gen.ml" 105 4272 4277 "m_gen.ml" 105 4272 4290
+type(
+  int
+)
+"m_gen.ml" 105 4272 4290 "m_gen.ml" 105 4272 4291
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"m_gen.ml" 105 4272 4291 "m_gen.ml" 105 4272 4292
+type(
+  int
+)
+"m_gen.ml" 105 4272 4277 "m_gen.ml" 105 4272 4292
+type(
+  int
+)
+"m_gen.ml" 105 4272 4293 "m_gen.ml" 105 4272 4294
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 135 5721 5721 "stdlib.mli" 135 5721 5768
+)
+"m_gen.ml" 105 4272 4296 "m_gen.ml" 105 4272 4304
+type(
+  Loc.pt -> int
+)
+ident(
+  int_ref Loc.line "loc.mli" 24 683 683 "loc.mli" 24 683 703
+)
+"m_gen.ml" 105 4272 4305 "m_gen.ml" 105 4272 4308
+type(
+  Loc.locus
+)
+ident(
+  int_ref loc "m_gen.ml" 104 4223 4229 "m_gen.ml" 104 4223 4232
+)
+"m_gen.ml" 105 4272 4305 "m_gen.ml" 105 4272 4318
+type(
+  Loc.pt
+)
+"m_gen.ml" 105 4272 4295 "m_gen.ml" 105 4272 4319
+type(
+  int
+)
+"m_gen.ml" 105 4272 4276 "m_gen.ml" 105 4272 4320
+type(
+  bool
+)
+"m_gen.ml" 106 4321 4323 "m_gen.ml" 106 4321 4325
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"m_gen.ml" 106 4321 4328 "m_gen.ml" 106 4321 4336
+type(
+  Loc.pt -> int
+)
+ident(
+  int_ref Loc.line "loc.mli" 24 683 683 "loc.mli" 24 683 703
+)
+"m_gen.ml" 106 4321 4337 "m_gen.ml" 106 4321 4340
+type(
+  Loc.locus
+)
+ident(
+  int_ref loc "m_gen.ml" 104 4223 4229 "m_gen.ml" 104 4223 4232
+)
+"m_gen.ml" 106 4321 4337 "m_gen.ml" 106 4321 4349
+type(
+  Loc.pt
+)
+"m_gen.ml" 106 4321 4327 "m_gen.ml" 106 4321 4350
+type(
+  int
+)
+"m_gen.ml" 106 4321 4351 "m_gen.ml" 106 4321 4352
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 135 5721 5721 "stdlib.mli" 135 5721 5768
+)
+"m_gen.ml" 106 4321 4353 "m_gen.ml" 106 4321 4354
+type(
+  int ref -> int
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_gen.ml" 106 4321 4354 "m_gen.ml" 106 4321 4366
+type(
+  int ref
+)
+ident(
+  int_ref Params.tb_el "params.mli" 82 1662 1662 "params.mli" 82 1662 1680
+)
+"m_gen.ml" 106 4321 4353 "m_gen.ml" 106 4321 4366
+type(
+  int
+)
+"m_gen.ml" 106 4321 4366 "m_gen.ml" 106 4321 4367
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"m_gen.ml" 106 4321 4367 "m_gen.ml" 106 4321 4368
+type(
+  int
+)
+"m_gen.ml" 106 4321 4353 "m_gen.ml" 106 4321 4368
+type(
+  int
+)
+"m_gen.ml" 106 4321 4326 "m_gen.ml" 106 4321 4369
+type(
+  bool
+)
+"m_gen.ml" 105 4272 4276 "m_gen.ml" 106 4321 4369
+type(
+  bool
+)
+"m_gen.ml" 104 4223 4225 "m_gen.ml" 106 4321 4369
+type(
+  bool
+)
+"m_gen.ml" 108 4371 4375 "m_gen.ml" 108 4371 4392
+type(
+  Proof.T.proof -> Proof.T.usable list
+)
+ident(
+  def p_collect_usables "m_gen.ml" 149 6018 6018 "m_gen.ml" 0 0 -1
+)
+"m_gen.ml" 108 4371 4393 "m_gen.ml" 108 4371 4396
+type(
+  Proof.T.proof
+)
+ident(
+  def prf "m_gen.ml" 109 4421 4423 "m_gen.ml" 147 6000 6016
+)
+"m_gen.ml" 109 4421 4427 "m_gen.ml" 109 4421 4431
+type(
+  Proof.T.usable list ref
+)
+ident(
+  def coll "m_gen.ml" 110 4444 4446 "m_gen.ml" 147 6000 6016
+)
+"m_gen.ml" 109 4421 4434 "m_gen.ml" 109 4421 4437
+type(
+  Proof.T.usable list -> Proof.T.usable list ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"m_gen.ml" 109 4421 4438 "m_gen.ml" 109 4421 4440
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 109 4421 4434 "m_gen.ml" 109 4421 4440
+type(
+  Proof.T.usable list ref
+)
+"m_gen.ml" 110 4444 4450 "m_gen.ml" 110 4444 4459
+type(
+  (int * string) ref
+)
+ident(
+  def main_step "m_gen.ml" 111 4476 4478 "m_gen.ml" 147 6000 6016
+)
+"m_gen.ml" 110 4444 4462 "m_gen.ml" 110 4444 4465
+type(
+  int * string -> (int * string) ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"m_gen.ml" 110 4444 4467 "m_gen.ml" 110 4444 4468
+type(
+  int
+)
+"m_gen.ml" 110 4444 4469 "m_gen.ml" 110 4444 4471
+type(
+  string
+)
+"m_gen.ml" 110 4444 4466 "m_gen.ml" 110 4444 4472
+type(
+  int * string
+)
+"m_gen.ml" 110 4444 4462 "m_gen.ml" 110 4444 4472
+type(
+  (int * string) ref
+)
+"m_gen.ml" 111 4476 4482 "m_gen.ml" 111 4476 4494
+type(
+  int -> bool
+)
+ident(
+  def toolbox_main "m_gen.ml" 112 4522 4524 "m_gen.ml" 147 6000 6016
+)
+"m_gen.ml" 111 4476 4495 "m_gen.ml" 111 4476 4496
+type(
+  int
+)
+ident(
+  def n "m_gen.ml" 111 4476 4499 "m_gen.ml" 111 4476 4518
+)
+"m_gen.ml" 111 4476 4500 "m_gen.ml" 111 4476 4501
+type(
+  int ref -> int
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_gen.ml" 111 4476 4501 "m_gen.ml" 111 4476 4513
+type(
+  int ref
+)
+ident(
+  int_ref Params.tb_sl "params.mli" 81 1643 1643 "params.mli" 81 1643 1661
+)
+"m_gen.ml" 111 4476 4500 "m_gen.ml" 111 4476 4513
+type(
+  int
+)
+"m_gen.ml" 111 4476 4514 "m_gen.ml" 111 4476 4515
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_gen.ml" 111 4476 4516 "m_gen.ml" 111 4476 4517
+type(
+  int
+)
+ident(
+  int_ref n "m_gen.ml" 111 4476 4495 "m_gen.ml" 111 4476 4496
+)
+"m_gen.ml" 111 4476 4499 "m_gen.ml" 111 4476 4518
+type(
+  bool
+)
+"m_gen.ml" 112 4522 4528 "m_gen.ml" 112 4522 4535
+type(
+  unit Proof.Visit.iter
+)
+ident(
+  def visitor "m_gen.ml" 146 5961 5963 "m_gen.ml" 147 6000 6016
+)
+"m_gen.ml" 112 4522 4546 "m_gen.ml" 112 4522 4550
+type(
+  unit Proof.Visit.iter
+)
+type(
+  unit Proof.Visit.iter
+)
+"m_gen.ml" 114 4605 4621 "m_gen.ml" 114 4605 4624
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "m_gen.ml" 114 4605 4625 "m_gen.ml" 118 4779 4802
+)
+"m_gen.ml" 114 4605 4625 "m_gen.ml" 114 4605 4627
+type(
+  Proof.T.step
+)
+ident(
+  def st "m_gen.ml" 115 4630 4636 "m_gen.ml" 118 4779 4802
+)
+"m_gen.ml" 115 4630 4640 "m_gen.ml" 115 4630 4643
+type(
+  Loc.locus
+)
+ident(
+  def loc "m_gen.ml" 116 4682 4688 "m_gen.ml" 118 4779 4802
+)
+"m_gen.ml" 115 4630 4646 "m_gen.ml" 115 4630 4656
+type(
+  Loc.locus option -> Loc.locus
+)
+ident(
+  int_ref Ext.Option.get "ext.mli" 60 2628 2630 "ext.mli" 60 2628 2655
+)
+"m_gen.ml" 115 4630 4658 "m_gen.ml" 115 4630 4674
+type(
+  Proof.T.step -> Loc.locus option
+)
+ident(
+  int_ref Util.query_locus "util.mli" 18 321 321 "util.mli" 18 321 369
+)
+"m_gen.ml" 115 4630 4675 "m_gen.ml" 115 4630 4677
+type(
+  Proof.T.step
+)
+ident(
+  int_ref st "m_gen.ml" 114 4605 4625 "m_gen.ml" 114 4605 4627
+)
+"m_gen.ml" 115 4630 4657 "m_gen.ml" 115 4630 4678
+type(
+  Loc.locus option
+)
+"m_gen.ml" 115 4630 4646 "m_gen.ml" 115 4630 4678
+type(
+  Loc.locus
+)
+"m_gen.ml" 116 4682 4691 "m_gen.ml" 116 4682 4703
+type(
+  int -> bool
+)
+ident(
+  int_ref toolbox_main "m_gen.ml" 111 4476 4482 "m_gen.ml" 111 4476 4494
+)
+"m_gen.ml" 116 4682 4705 "m_gen.ml" 116 4682 4713
+type(
+  Loc.pt -> int
+)
+ident(
+  int_ref Loc.line "loc.mli" 24 683 683 "loc.mli" 24 683 703
+)
+"m_gen.ml" 116 4682 4714 "m_gen.ml" 116 4682 4717
+type(
+  Loc.locus
+)
+ident(
+  int_ref loc "m_gen.ml" 115 4630 4640 "m_gen.ml" 115 4630 4643
+)
+"m_gen.ml" 116 4682 4714 "m_gen.ml" 116 4682 4727
+type(
+  Loc.pt
+)
+"m_gen.ml" 116 4682 4704 "m_gen.ml" 116 4682 4728
+type(
+  int
+)
+"m_gen.ml" 116 4682 4691 "m_gen.ml" 116 4682 4728
+type(
+  bool
+)
+"m_gen.ml" 117 4729 4742 "m_gen.ml" 117 4729 4751
+type(
+  (int * string) ref
+)
+ident(
+  int_ref main_step "m_gen.ml" 110 4444 4450 "m_gen.ml" 110 4444 4459
+)
+"m_gen.ml" 117 4729 4752 "m_gen.ml" 117 4729 4754
+type(
+  (int * string) ref -> int * string -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"m_gen.ml" 117 4729 4756 "m_gen.ml" 117 4729 4765
+type(
+  Proof.T.step -> int * string
+)
+ident(
+  int_ref step_name "m_gen.ml" 98 4041 4045 "m_gen.ml" 98 4041 4054
+)
+"m_gen.ml" 117 4729 4766 "m_gen.ml" 117 4729 4768
+type(
+  Proof.T.step
+)
+ident(
+  int_ref st "m_gen.ml" 114 4605 4625 "m_gen.ml" 114 4605 4627
+)
+"m_gen.ml" 117 4729 4755 "m_gen.ml" 117 4729 4769
+type(
+  int * string
+)
+"m_gen.ml" 117 4729 4742 "m_gen.ml" 117 4729 4769
+type(
+  unit
+)
+"m_gen.ml" 117 4729 4775 "m_gen.ml" 117 4729 4777
+type(
+  unit
+)
+"m_gen.ml" 116 4682 4688 "m_gen.ml" 117 4729 4777
+type(
+  unit
+)
+"m_gen.ml" 118 4779 4785 "m_gen.ml" 118 4779 4790
+type(
+  unit Proof.Visit.iter
+)
+ident(
+  ext_ref self-1
+)
+type(
+  unit Proof.Visit.iter
+)
+ident(
+  int_ref super "m_gen.ml" 113 4560 4572 "m_gen.ml" 113 4560 4595
+)
+"m_gen.ml" 118 4779 4785 "m_gen.ml" 118 4779 4795
+type(
+  unit Proof.Visit.iter ->
+  unit Expr.Visit.scx -> Proof.T.step -> unit Expr.Visit.scx
+)
+ident(
+  ext_ref step
+)
+type(
+  unit Expr.Visit.scx -> Proof.T.step -> unit Expr.Visit.scx
+)
+type(
+  unit Expr.Visit.scx -> Proof.T.step -> unit Expr.Visit.scx
+)
+"m_gen.ml" 118 4779 4796 "m_gen.ml" 118 4779 4799
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "m_gen.ml" 114 4605 4621 "m_gen.ml" 114 4605 4624
+)
+"m_gen.ml" 118 4779 4800 "m_gen.ml" 118 4779 4802
+type(
+  Proof.T.step
+)
+ident(
+  int_ref st "m_gen.ml" 114 4605 4625 "m_gen.ml" 114 4605 4627
+)
+"m_gen.ml" 118 4779 4785 "m_gen.ml" 118 4779 4802
+type(
+  unit Expr.Visit.scx
+)
+"m_gen.ml" 116 4682 4688 "m_gen.ml" 118 4779 4802
+type(
+  unit Expr.Visit.scx
+)
+"m_gen.ml" 115 4630 4636 "m_gen.ml" 118 4779 4802
+type(
+  unit Expr.Visit.scx
+)
+"m_gen.ml" 119 4803 4820 "m_gen.ml" 119 4803 4823
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "m_gen.ml" 119 4803 4824 "m_gen.ml" 144 5922 5951
+)
+"m_gen.ml" 119 4803 4824 "m_gen.ml" 119 4803 4827
+type(
+  Proof.T.proof
+)
+ident(
+  def prf "m_gen.ml" 120 4830 4836 "m_gen.ml" 144 5922 5951
+)
+"m_gen.ml" 120 4830 4842 "m_gen.ml" 120 4830 4845
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref prf "m_gen.ml" 119 4803 4824 "m_gen.ml" 119 4803 4827
+)
+"m_gen.ml" 120 4830 4842 "m_gen.ml" 120 4830 4850
+type(
+  Proof.T.proof_
+)
+"m_gen.ml" 121 4856 4868 "m_gen.ml" 121 4856 4869
+type(
+  Proof.T.usable
+)
+ident(
+  def u "m_gen.ml" 121 4856 4878 "m_gen.ml" 136 5549 5621
+)
+"m_gen.ml" 121 4856 4870 "m_gen.ml" 121 4856 4871
+type(
+  bool
+)
+"m_gen.ml" 121 4856 4864 "m_gen.ml" 121 4856 4872
+type(
+  Proof.T.proof_
+)
+type(
+  Proof.T.proof_
+)
+"m_gen.ml" 121 4856 4878 "m_gen.ml" 121 4856 4894
+type(
+  Proof.T.proof -> bool
+)
+ident(
+  int_ref toolbox_consider "m_gen.ml" 103 4196 4200 "m_gen.ml" 103 4196 4216
+)
+"m_gen.ml" 121 4856 4895 "m_gen.ml" 121 4856 4898
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref prf "m_gen.ml" 119 4803 4824 "m_gen.ml" 119 4803 4827
+)
+"m_gen.ml" 121 4856 4878 "m_gen.ml" 121 4856 4898
+type(
+  bool
+)
+"m_gen.ml" 122 4902 4916 "m_gen.ml" 122 4902 4918
+type(
+  Expr.T.expr list
+)
+ident(
+  def ff "m_gen.ml" 135 5508 5518 "m_gen.ml" 136 5549 5621
+)
+"m_gen.ml" 122 4902 4921 "m_gen.ml" 122 4902 4932
+type(
+  (Expr.T.expr -> bool) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.filter "ext.mli" 33 1364 1366 "ext.mli" 33 1364 1413
+)
+"m_gen.ml" 122 4902 4938 "m_gen.ml" 122 4902 4939
+type(
+  Expr.T.expr
+)
+ident(
+  def e "m_gen.ml" 123 4943 4955 "m_gen.ml" 133 5459 5482
+)
+"m_gen.ml" 123 4943 4961 "m_gen.ml" 123 4943 4962
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "m_gen.ml" 122 4902 4938 "m_gen.ml" 122 4902 4939
+)
+"m_gen.ml" 123 4943 4961 "m_gen.ml" 123 4943 4967
+type(
+  Expr.T.expr_
+)
+"m_gen.ml" 124 4973 4994 "m_gen.ml" 124 4973 4995
+type(
+  string
+)
+ident(
+  def s "m_gen.ml" 124 4973 5001 "m_gen.ml" 132 5375 5458
+)
+"m_gen.ml" 124 4973 4987 "m_gen.ml" 124 4973 4995
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"m_gen.ml" 124 4973 5001 "m_gen.ml" 124 4973 5002
+type(
+  string
+)
+ident(
+  int_ref s "m_gen.ml" 124 4973 4994 "m_gen.ml" 124 4973 4995
+)
+"m_gen.ml" 124 4973 5004 "m_gen.ml" 124 4973 5005
+type(
+  int
+)
+"m_gen.ml" 124 4973 5001 "m_gen.ml" 124 4973 5006
+type(
+  char
+)
+"m_gen.ml" 124 4973 5007 "m_gen.ml" 124 4973 5008
+type(
+  char -> char -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_gen.ml" 124 4973 5009 "m_gen.ml" 124 4973 5012
+type(
+  char
+)
+"m_gen.ml" 124 4973 5001 "m_gen.ml" 124 4973 5012
+type(
+  bool
+)
+"m_gen.ml" 125 5016 5036 "m_gen.ml" 125 5016 5046
+type(
+  string -> int * string
+)
+ident(
+  def parse_step "m_gen.ml" 130 5275 5291 "m_gen.ml" 132 5375 5458
+)
+"m_gen.ml" 125 5016 5047 "m_gen.ml" 125 5016 5048
+type(
+  string
+)
+ident(
+  def s "m_gen.ml" 126 5051 5071 "m_gen.ml" 128 5220 5251
+)
+"m_gen.ml" 126 5051 5074 "m_gen.ml" 126 5051 5090
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  int_ref Str.string_match "str.mli" 90 4155 4155 "str.mli" 90 4155 4205
+)
+"m_gen.ml" 126 5051 5092 "m_gen.ml" 126 5051 5102
+type(
+  string -> Str.regexp
+)
+ident(
+  int_ref Str.regexp "str.mli" 26 1237 1237 "str.mli" 26 1237 1266
+)
+"m_gen.ml" 126 5051 5103 "m_gen.ml" 126 5051 5128
+type(
+  string
+)
+"m_gen.ml" 126 5051 5091 "m_gen.ml" 126 5051 5129
+type(
+  Str.regexp
+)
+"m_gen.ml" 126 5051 5130 "m_gen.ml" 126 5051 5131
+type(
+  string
+)
+ident(
+  int_ref s "m_gen.ml" 125 5016 5047 "m_gen.ml" 125 5016 5048
+)
+"m_gen.ml" 126 5051 5132 "m_gen.ml" 126 5051 5133
+type(
+  int
+)
+"m_gen.ml" 126 5051 5074 "m_gen.ml" 126 5051 5133
+type(
+  bool
+)
+"m_gen.ml" 127 5139 5158 "m_gen.ml" 127 5139 5171
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.int_of_string "stdlib.mli" 774 28807 28807 "stdlib.mli" 774 28807 28868
+)
+"m_gen.ml" 127 5139 5173 "m_gen.ml" 127 5139 5190
+type(
+  int -> string -> string
+)
+ident(
+  int_ref Str.matched_group "str.mli" 155 6886 6886 "str.mli" 155 6886 6929
+)
+"m_gen.ml" 127 5139 5191 "m_gen.ml" 127 5139 5192
+type(
+  int
+)
+"m_gen.ml" 127 5139 5193 "m_gen.ml" 127 5139 5194
+type(
+  string
+)
+ident(
+  int_ref s "m_gen.ml" 125 5016 5047 "m_gen.ml" 125 5016 5048
+)
+"m_gen.ml" 127 5139 5172 "m_gen.ml" 127 5139 5195
+type(
+  string
+)
+"m_gen.ml" 127 5139 5158 "m_gen.ml" 127 5139 5195
+type(
+  int
+)
+"m_gen.ml" 127 5139 5197 "m_gen.ml" 127 5139 5214
+type(
+  int -> string -> string
+)
+ident(
+  int_ref Str.matched_group "str.mli" 155 6886 6886 "str.mli" 155 6886 6929
+)
+"m_gen.ml" 127 5139 5215 "m_gen.ml" 127 5139 5216
+type(
+  int
+)
+"m_gen.ml" 127 5139 5217 "m_gen.ml" 127 5139 5218
+type(
+  string
+)
+ident(
+  int_ref s "m_gen.ml" 125 5016 5047 "m_gen.ml" 125 5016 5048
+)
+"m_gen.ml" 127 5139 5197 "m_gen.ml" 127 5139 5218
+type(
+  string
+)
+"m_gen.ml" 127 5139 5157 "m_gen.ml" 127 5139 5219
+type(
+  int * string
+)
+"m_gen.ml" 128 5220 5246 "m_gen.ml" 128 5220 5247
+type(
+  int
+)
+"m_gen.ml" 128 5220 5248 "m_gen.ml" 128 5220 5250
+type(
+  string
+)
+"m_gen.ml" 128 5220 5245 "m_gen.ml" 128 5220 5251
+type(
+  int * string
+)
+"m_gen.ml" 126 5051 5071 "m_gen.ml" 128 5220 5251
+type(
+  int * string
+)
+"m_gen.ml" 130 5275 5295 "m_gen.ml" 130 5275 5297
+type(
+  int
+)
+ident(
+  def sn "m_gen.ml" 131 5319 5335 "m_gen.ml" 132 5375 5458
+)
+"m_gen.ml" 130 5275 5298 "m_gen.ml" 130 5275 5300
+type(
+  string
+)
+ident(
+  def sl "m_gen.ml" 131 5319 5335 "m_gen.ml" 132 5375 5458
+)
+"m_gen.ml" 130 5275 5295 "m_gen.ml" 130 5275 5300
+type(
+  int * string
+)
+"m_gen.ml" 130 5275 5303 "m_gen.ml" 130 5275 5313
+type(
+  string -> int * string
+)
+ident(
+  int_ref parse_step "m_gen.ml" 125 5016 5036 "m_gen.ml" 125 5016 5046
+)
+"m_gen.ml" 130 5275 5314 "m_gen.ml" 130 5275 5315
+type(
+  string
+)
+ident(
+  int_ref s "m_gen.ml" 124 4973 4994 "m_gen.ml" 124 4973 4995
+)
+"m_gen.ml" 130 5275 5303 "m_gen.ml" 130 5275 5315
+type(
+  int * string
+)
+"m_gen.ml" 131 5319 5338 "m_gen.ml" 131 5319 5340
+type(
+  int
+)
+ident(
+  int_ref sn "m_gen.ml" 130 5275 5295 "m_gen.ml" 130 5275 5297
+)
+"m_gen.ml" 131 5319 5341 "m_gen.ml" 131 5319 5342
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 135 5721 5721 "stdlib.mli" 135 5721 5768
+)
+"m_gen.ml" 131 5319 5344 "m_gen.ml" 131 5319 5347
+type(
+  int * string -> int
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"m_gen.ml" 131 5319 5348 "m_gen.ml" 131 5319 5349
+type(
+  (int * string) ref -> int * string
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_gen.ml" 131 5319 5349 "m_gen.ml" 131 5319 5358
+type(
+  (int * string) ref
+)
+ident(
+  int_ref main_step "m_gen.ml" 110 4444 4450 "m_gen.ml" 110 4444 4459
+)
+"m_gen.ml" 131 5319 5348 "m_gen.ml" 131 5319 5358
+type(
+  int * string
+)
+"m_gen.ml" 131 5319 5343 "m_gen.ml" 131 5319 5359
+type(
+  int
+)
+"m_gen.ml" 131 5319 5338 "m_gen.ml" 131 5319 5359
+type(
+  bool
+)
+"m_gen.ml" 131 5319 5365 "m_gen.ml" 131 5319 5369
+type(
+  bool
+)
+"m_gen.ml" 132 5375 5394 "m_gen.ml" 132 5375 5396
+type(
+  int
+)
+ident(
+  int_ref sn "m_gen.ml" 130 5275 5295 "m_gen.ml" 130 5275 5297
+)
+"m_gen.ml" 132 5375 5397 "m_gen.ml" 132 5375 5398
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_gen.ml" 132 5375 5400 "m_gen.ml" 132 5375 5403
+type(
+  int * string -> int
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"m_gen.ml" 132 5375 5404 "m_gen.ml" 132 5375 5405
+type(
+  (int * string) ref -> int * string
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_gen.ml" 132 5375 5405 "m_gen.ml" 132 5375 5414
+type(
+  (int * string) ref
+)
+ident(
+  int_ref main_step "m_gen.ml" 110 4444 4450 "m_gen.ml" 110 4444 4459
+)
+"m_gen.ml" 132 5375 5404 "m_gen.ml" 132 5375 5414
+type(
+  int * string
+)
+"m_gen.ml" 132 5375 5399 "m_gen.ml" 132 5375 5415
+type(
+  int
+)
+"m_gen.ml" 132 5375 5394 "m_gen.ml" 132 5375 5415
+type(
+  bool
+)
+"m_gen.ml" 132 5375 5416 "m_gen.ml" 132 5375 5418
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"m_gen.ml" 132 5375 5419 "m_gen.ml" 132 5375 5433
+type(
+  String.t -> String.t -> int
+)
+ident(
+  int_ref Stdlib.String.compare "string.mli" 155 5695 5695 "string.mli" 155 5695 5722
+)
+"m_gen.ml" 132 5375 5434 "m_gen.ml" 132 5375 5436
+type(
+  String.t
+)
+ident(
+  int_ref sl "m_gen.ml" 130 5275 5298 "m_gen.ml" 130 5275 5300
+)
+"m_gen.ml" 132 5375 5438 "m_gen.ml" 132 5375 5441
+type(
+  int * String.t -> String.t
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"m_gen.ml" 132 5375 5442 "m_gen.ml" 132 5375 5443
+type(
+  (int * String.t) ref -> int * String.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_gen.ml" 132 5375 5443 "m_gen.ml" 132 5375 5452
+type(
+  (int * String.t) ref
+)
+ident(
+  int_ref main_step "m_gen.ml" 110 4444 4450 "m_gen.ml" 110 4444 4459
+)
+"m_gen.ml" 132 5375 5442 "m_gen.ml" 132 5375 5452
+type(
+  int * String.t
+)
+"m_gen.ml" 132 5375 5437 "m_gen.ml" 132 5375 5453
+type(
+  String.t
+)
+"m_gen.ml" 132 5375 5419 "m_gen.ml" 132 5375 5453
+type(
+  int
+)
+"m_gen.ml" 132 5375 5454 "m_gen.ml" 132 5375 5456
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( <= ) "stdlib.mli" 145 6033 6033 "stdlib.mli" 145 6033 6082
+)
+"m_gen.ml" 132 5375 5457 "m_gen.ml" 132 5375 5458
+type(
+  int
+)
+"m_gen.ml" 132 5375 5419 "m_gen.ml" 132 5375 5458
+type(
+  bool
+)
+"m_gen.ml" 132 5375 5394 "m_gen.ml" 132 5375 5458
+type(
+  bool
+)
+"m_gen.ml" 131 5319 5335 "m_gen.ml" 132 5375 5458
+type(
+  bool
+)
+"m_gen.ml" 130 5275 5291 "m_gen.ml" 132 5375 5458
+type(
+  bool
+)
+"m_gen.ml" 125 5016 5032 "m_gen.ml" 132 5375 5458
+type(
+  bool
+)
+"m_gen.ml" 133 5459 5473 "m_gen.ml" 133 5459 5474
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"m_gen.ml" 133 5459 5478 "m_gen.ml" 133 5459 5482
+type(
+  bool
+)
+"m_gen.ml" 123 4943 4955 "m_gen.ml" 133 5459 5482
+type(
+  bool
+)
+"m_gen.ml" 122 4902 4933 "m_gen.ml" 134 5483 5496
+type(
+  Expr.T.expr -> bool
+)
+"m_gen.ml" 134 5483 5497 "m_gen.ml" 134 5483 5498
+type(
+  Proof.T.usable
+)
+ident(
+  int_ref u "m_gen.ml" 121 4856 4868 "m_gen.ml" 121 4856 4869
+)
+"m_gen.ml" 134 5483 5497 "m_gen.ml" 134 5483 5504
+type(
+  Expr.T.expr list
+)
+"m_gen.ml" 122 4902 4921 "m_gen.ml" 134 5483 5504
+type(
+  Expr.T.expr list
+)
+"m_gen.ml" 135 5508 5522 "m_gen.ml" 135 5508 5523
+type(
+  Proof.T.usable
+)
+ident(
+  def u "m_gen.ml" 136 5549 5559 "m_gen.ml" 136 5549 5621
+)
+"m_gen.ml" 135 5508 5527 "m_gen.ml" 135 5508 5528
+type(
+  Proof.T.usable
+)
+ident(
+  int_ref u "m_gen.ml" 121 4856 4868 "m_gen.ml" 121 4856 4869
+)
+"m_gen.ml" 135 5508 5542 "m_gen.ml" 135 5508 5544
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref ff "m_gen.ml" 122 4902 4916 "m_gen.ml" 122 4902 4918
+)
+"m_gen.ml" 135 5508 5526 "m_gen.ml" 135 5508 5545
+type(
+  Proof.T.usable
+)
+"m_gen.ml" 136 5549 5562 "m_gen.ml" 136 5549 5563
+type(
+  Proof.T.usable
+)
+ident(
+  int_ref u "m_gen.ml" 135 5508 5522 "m_gen.ml" 135 5508 5523
+)
+"m_gen.ml" 136 5549 5562 "m_gen.ml" 136 5549 5569
+type(
+  Expr.T.expr list
+)
+"m_gen.ml" 136 5549 5570 "m_gen.ml" 136 5549 5571
+type(
+  Expr.T.expr list -> Expr.T.expr list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_gen.ml" 136 5549 5572 "m_gen.ml" 136 5549 5574
+type(
+  Expr.T.expr list
+)
+"m_gen.ml" 136 5549 5562 "m_gen.ml" 136 5549 5574
+type(
+  bool
+)
+"m_gen.ml" 136 5549 5575 "m_gen.ml" 136 5549 5577
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"m_gen.ml" 136 5549 5578 "m_gen.ml" 136 5549 5579
+type(
+  Proof.T.usable
+)
+ident(
+  int_ref u "m_gen.ml" 135 5508 5522 "m_gen.ml" 135 5508 5523
+)
+"m_gen.ml" 136 5549 5578 "m_gen.ml" 136 5549 5584
+type(
+  Proof.T.use_def Property.wrapped list
+)
+"m_gen.ml" 136 5549 5585 "m_gen.ml" 136 5549 5586
+type(
+  Proof.T.use_def Property.wrapped list ->
+  Proof.T.use_def Property.wrapped list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_gen.ml" 136 5549 5587 "m_gen.ml" 136 5549 5589
+type(
+  Proof.T.use_def Property.wrapped list
+)
+"m_gen.ml" 136 5549 5578 "m_gen.ml" 136 5549 5589
+type(
+  bool
+)
+"m_gen.ml" 136 5549 5562 "m_gen.ml" 136 5549 5589
+type(
+  bool
+)
+"m_gen.ml" 136 5549 5595 "m_gen.ml" 136 5549 5597
+type(
+  unit
+)
+"m_gen.ml" 136 5549 5603 "m_gen.ml" 136 5549 5607
+type(
+  Proof.T.usable list ref
+)
+ident(
+  int_ref coll "m_gen.ml" 109 4421 4427 "m_gen.ml" 109 4421 4431
+)
+"m_gen.ml" 136 5549 5608 "m_gen.ml" 136 5549 5610
+type(
+  Proof.T.usable list ref -> Proof.T.usable list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"m_gen.ml" 136 5549 5611 "m_gen.ml" 136 5549 5612
+type(
+  Proof.T.usable
+)
+ident(
+  int_ref u "m_gen.ml" 135 5508 5522 "m_gen.ml" 135 5508 5523
+)
+"m_gen.ml" 136 5549 5616 "m_gen.ml" 136 5549 5617
+type(
+  Proof.T.usable list ref -> Proof.T.usable list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_gen.ml" 136 5549 5617 "m_gen.ml" 136 5549 5621
+type(
+  Proof.T.usable list ref
+)
+ident(
+  int_ref coll "m_gen.ml" 109 4421 4427 "m_gen.ml" 109 4421 4431
+)
+"m_gen.ml" 136 5549 5616 "m_gen.ml" 136 5549 5621
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 136 5549 5611 "m_gen.ml" 136 5549 5621
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 136 5549 5603 "m_gen.ml" 136 5549 5621
+type(
+  unit
+)
+"m_gen.ml" 136 5549 5559 "m_gen.ml" 136 5549 5621
+type(
+  unit
+)
+"m_gen.ml" 135 5508 5518 "m_gen.ml" 136 5549 5621
+type(
+  unit
+)
+"m_gen.ml" 122 4902 4912 "m_gen.ml" 136 5549 5621
+type(
+  unit
+)
+"m_gen.ml" 137 5622 5637 "m_gen.ml" 137 5622 5642
+type(
+  Proof.T.step list
+)
+ident(
+  def inits "m_gen.ml" 138 5671 5681 "m_gen.ml" 142 5881 5908
+)
+"m_gen.ml" 137 5622 5657 "m_gen.ml" 137 5622 5659
+type(
+  Proof.T.proof
+)
+ident(
+  def pq "m_gen.ml" 138 5671 5681 "m_gen.ml" 142 5881 5908
+)
+"m_gen.ml" 137 5622 5653 "m_gen.ml" 137 5622 5659
+type(
+  Proof.T.qed_step_
+)
+"m_gen.ml" 137 5622 5645 "m_gen.ml" 137 5622 5660
+type(
+  Proof.T.qed_step
+)
+"m_gen.ml" 137 5622 5644 "m_gen.ml" 137 5622 5666
+type(
+  Proof.T.qed_step
+)
+ident(
+  def q "m_gen.ml" 138 5671 5681 "m_gen.ml" 142 5881 5908
+)
+"m_gen.ml" 137 5622 5630 "m_gen.ml" 137 5622 5667
+type(
+  Proof.T.proof_
+)
+type(
+  Proof.T.proof_
+)
+"m_gen.ml" 138 5671 5685 "m_gen.ml" 138 5671 5688
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "m_gen.ml" 139 5715 5725 "m_gen.ml" 142 5881 5908
+)
+"m_gen.ml" 138 5671 5691 "m_gen.ml" 138 5671 5695
+type(
+  unit Proof.Visit.iter
+)
+ident(
+  ext_ref self-1
+)
+"m_gen.ml" 138 5671 5691 "m_gen.ml" 138 5671 5701
+type(
+  unit Expr.Visit.scx -> Proof.T.step list -> unit Expr.Visit.scx
+)
+"m_gen.ml" 138 5671 5702 "m_gen.ml" 138 5671 5705
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "m_gen.ml" 119 4803 4820 "m_gen.ml" 119 4803 4823
+)
+"m_gen.ml" 138 5671 5706 "m_gen.ml" 138 5671 5711
+type(
+  Proof.T.step list
+)
+ident(
+  int_ref inits "m_gen.ml" 137 5622 5637 "m_gen.ml" 137 5622 5642
+)
+"m_gen.ml" 138 5671 5691 "m_gen.ml" 138 5671 5711
+type(
+  unit Expr.Visit.scx
+)
+"m_gen.ml" 139 5715 5729 "m_gen.ml" 139 5715 5732
+type(
+  Loc.locus
+)
+ident(
+  def loc "m_gen.ml" 140 5771 5781 "m_gen.ml" 142 5881 5908
+)
+"m_gen.ml" 139 5715 5735 "m_gen.ml" 139 5715 5745
+type(
+  Loc.locus option -> Loc.locus
+)
+ident(
+  int_ref Ext.Option.get "ext.mli" 60 2628 2630 "ext.mli" 60 2628 2655
+)
+"m_gen.ml" 139 5715 5747 "m_gen.ml" 139 5715 5763
+type(
+  Proof.T.proof -> Loc.locus option
+)
+ident(
+  int_ref Util.query_locus "util.mli" 18 321 321 "util.mli" 18 321 369
+)
+"m_gen.ml" 139 5715 5764 "m_gen.ml" 139 5715 5766
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref pq "m_gen.ml" 137 5622 5657 "m_gen.ml" 137 5622 5659
+)
+"m_gen.ml" 139 5715 5746 "m_gen.ml" 139 5715 5767
+type(
+  Loc.locus option
+)
+"m_gen.ml" 139 5715 5735 "m_gen.ml" 139 5715 5767
+type(
+  Loc.locus
+)
+"m_gen.ml" 140 5771 5784 "m_gen.ml" 140 5771 5796
+type(
+  int -> bool
+)
+ident(
+  int_ref toolbox_main "m_gen.ml" 111 4476 4482 "m_gen.ml" 111 4476 4494
+)
+"m_gen.ml" 140 5771 5799 "m_gen.ml" 140 5771 5807
+type(
+  Loc.pt -> int
+)
+ident(
+  int_ref Loc.line "loc.mli" 24 683 683 "loc.mli" 24 683 703
+)
+"m_gen.ml" 140 5771 5808 "m_gen.ml" 140 5771 5811
+type(
+  Loc.locus
+)
+ident(
+  int_ref loc "m_gen.ml" 139 5715 5729 "m_gen.ml" 139 5715 5732
+)
+"m_gen.ml" 140 5771 5808 "m_gen.ml" 140 5771 5821
+type(
+  Loc.pt
+)
+"m_gen.ml" 140 5771 5798 "m_gen.ml" 140 5771 5822
+type(
+  int
+)
+"m_gen.ml" 140 5771 5823 "m_gen.ml" 140 5771 5824
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"m_gen.ml" 140 5771 5825 "m_gen.ml" 140 5771 5826
+type(
+  int
+)
+"m_gen.ml" 140 5771 5797 "m_gen.ml" 140 5771 5827
+type(
+  int
+)
+"m_gen.ml" 140 5771 5784 "m_gen.ml" 140 5771 5827
+type(
+  bool
+)
+"m_gen.ml" 141 5828 5845 "m_gen.ml" 141 5828 5854
+type(
+  (int * string) ref
+)
+ident(
+  int_ref main_step "m_gen.ml" 110 4444 4450 "m_gen.ml" 110 4444 4459
+)
+"m_gen.ml" 141 5828 5855 "m_gen.ml" 141 5828 5857
+type(
+  (int * string) ref -> int * string -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"m_gen.ml" 141 5828 5859 "m_gen.ml" 141 5828 5868
+type(
+  Proof.T.qed_step_ Property.wrapped -> int * string
+)
+ident(
+  int_ref step_name "m_gen.ml" 98 4041 4045 "m_gen.ml" 98 4041 4054
+)
+"m_gen.ml" 141 5828 5869 "m_gen.ml" 141 5828 5870
+type(
+  Proof.T.qed_step_ Property.wrapped
+)
+ident(
+  int_ref q "m_gen.ml" 137 5622 5644 "m_gen.ml" 137 5622 5666
+)
+"m_gen.ml" 141 5828 5858 "m_gen.ml" 141 5828 5871
+type(
+  int * string
+)
+"m_gen.ml" 141 5828 5845 "m_gen.ml" 141 5828 5871
+type(
+  unit
+)
+"m_gen.ml" 141 5828 5877 "m_gen.ml" 141 5828 5879
+type(
+  unit
+)
+"m_gen.ml" 140 5771 5781 "m_gen.ml" 141 5828 5879
+type(
+  unit
+)
+"m_gen.ml" 142 5881 5891 "m_gen.ml" 142 5881 5895
+type(
+  unit Proof.Visit.iter
+)
+ident(
+  ext_ref self-1
+)
+"m_gen.ml" 142 5881 5891 "m_gen.ml" 142 5881 5901
+type(
+  unit Expr.Visit.scx -> Proof.T.proof -> unit
+)
+"m_gen.ml" 142 5881 5902 "m_gen.ml" 142 5881 5905
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "m_gen.ml" 138 5671 5685 "m_gen.ml" 138 5671 5688
+)
+"m_gen.ml" 142 5881 5906 "m_gen.ml" 142 5881 5908
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref pq "m_gen.ml" 137 5622 5657 "m_gen.ml" 137 5622 5659
+)
+"m_gen.ml" 142 5881 5891 "m_gen.ml" 142 5881 5908
+type(
+  unit
+)
+"m_gen.ml" 140 5771 5781 "m_gen.ml" 142 5881 5908
+type(
+  unit
+)
+"m_gen.ml" 139 5715 5725 "m_gen.ml" 142 5881 5908
+type(
+  unit
+)
+"m_gen.ml" 138 5671 5681 "m_gen.ml" 142 5881 5908
+type(
+  unit
+)
+"m_gen.ml" 143 5909 5917 "m_gen.ml" 143 5909 5918
+type(
+  Proof.T.proof_
+)
+type(
+  Proof.T.proof_
+)
+"m_gen.ml" 144 5922 5932 "m_gen.ml" 144 5922 5937
+type(
+  unit Proof.Visit.iter
+)
+ident(
+  ext_ref self-1
+)
+type(
+  unit Proof.Visit.iter
+)
+ident(
+  int_ref super "m_gen.ml" 113 4560 4572 "m_gen.ml" 113 4560 4595
+)
+"m_gen.ml" 144 5922 5932 "m_gen.ml" 144 5922 5943
+type(
+  unit Proof.Visit.iter -> unit Expr.Visit.scx -> Proof.T.proof -> unit
+)
+ident(
+  ext_ref proof
+)
+type(
+  unit Expr.Visit.scx -> Proof.T.proof -> unit
+)
+type(
+  unit Expr.Visit.scx -> Proof.T.proof -> unit
+)
+"m_gen.ml" 144 5922 5944 "m_gen.ml" 144 5922 5947
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "m_gen.ml" 119 4803 4820 "m_gen.ml" 119 4803 4823
+)
+"m_gen.ml" 144 5922 5948 "m_gen.ml" 144 5922 5951
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref prf "m_gen.ml" 119 4803 4824 "m_gen.ml" 119 4803 4827
+)
+"m_gen.ml" 144 5922 5932 "m_gen.ml" 144 5922 5951
+type(
+  unit
+)
+"m_gen.ml" 120 4830 4836 "m_gen.ml" 144 5922 5951
+type(
+  unit
+)
+"m_gen.ml" 112 4522 4538 "m_gen.ml" 145 5952 5957
+type(
+  unit Proof.Visit.iter
+)
+"m_gen.ml" 146 5961 5963 "m_gen.ml" 146 5961 5970
+type(
+  unit Proof.Visit.iter
+)
+ident(
+  int_ref visitor "m_gen.ml" 112 4522 4528 "m_gen.ml" 112 4522 4535
+)
+"m_gen.ml" 146 5961 5963 "m_gen.ml" 146 5961 5976
+type(
+  unit Expr.Visit.scx -> Proof.T.proof -> unit
+)
+"m_gen.ml" 146 5961 5978 "m_gen.ml" 146 5961 5980
+type(
+  unit
+)
+"m_gen.ml" 146 5961 5982 "m_gen.ml" 146 5961 5993
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"m_gen.ml" 146 5961 5977 "m_gen.ml" 146 5961 5994
+type(
+  unit Expr.Visit.scx
+)
+"m_gen.ml" 146 5961 5995 "m_gen.ml" 146 5961 5998
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref prf "m_gen.ml" 108 4371 4393 "m_gen.ml" 108 4371 4396
+)
+"m_gen.ml" 146 5961 5963 "m_gen.ml" 146 5961 5998
+type(
+  unit
+)
+"m_gen.ml" 147 6000 6002 "m_gen.ml" 147 6000 6010
+type(
+  Proof.T.usable list -> Proof.T.usable list
+)
+ident(
+  int_ref Ext.List.rev "ext.mli" 11 220 222 "ext.mli" 11 220 250
+)
+"m_gen.ml" 147 6000 6011 "m_gen.ml" 147 6000 6012
+type(
+  Proof.T.usable list ref -> Proof.T.usable list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_gen.ml" 147 6000 6012 "m_gen.ml" 147 6000 6016
+type(
+  Proof.T.usable list ref
+)
+ident(
+  int_ref coll "m_gen.ml" 109 4421 4427 "m_gen.ml" 109 4421 4431
+)
+"m_gen.ml" 147 6000 6011 "m_gen.ml" 147 6000 6016
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 147 6000 6002 "m_gen.ml" 147 6000 6016
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 146 5961 5963 "m_gen.ml" 147 6000 6016
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 112 4522 4524 "m_gen.ml" 147 6000 6016
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 111 4476 4478 "m_gen.ml" 147 6000 6016
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 110 4444 4446 "m_gen.ml" 147 6000 6016
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 109 4421 4423 "m_gen.ml" 147 6000 6016
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 149 6018 6022 "m_gen.ml" 149 6018 6037
+type(
+  M_t.mule -> Proof.T.usable option
+)
+ident(
+  def collect_usables "m_gen.ml" 196 7615 7689 "m_gen.ml" 0 0 -1
+)
+"m_gen.ml" 149 6018 6039 "m_gen.ml" 149 6018 6040
+type(
+  M_t.mule
+)
+type(
+  M_t.mule
+)
+ident(
+  def m "m_gen.ml" 150 6073 6075 "m_gen.ml" 196 7615 7689
+)
+"m_gen.ml" 150 6073 6079 "m_gen.ml" 150 6073 6097
+type(
+  Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  def remove_repeated_ex "m_gen.ml" 155 6250 6252 "m_gen.ml" 196 7615 7689
+)
+"m_gen.ml" 150 6073 6098 "m_gen.ml" 150 6073 6100
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "m_gen.ml" 151 6103 6107 "m_gen.ml" 153 6229 6244
+)
+"m_gen.ml" 151 6103 6111 "m_gen.ml" 151 6103 6116
+type(
+  Expr.T.expr -> Expr.T.expr list -> bool
+)
+ident(
+  def e_mem "m_gen.ml" 152 6159 6163 "m_gen.ml" 153 6229 6244
+)
+"m_gen.ml" 151 6103 6117 "m_gen.ml" 151 6103 6118
+type(
+  Expr.T.expr
+)
+ident(
+  def e "m_gen.ml" 151 6103 6119 "m_gen.ml" 151 6103 6155
+)
+"m_gen.ml" 151 6103 6119 "m_gen.ml" 151 6103 6121
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "m_gen.ml" 151 6103 6124 "m_gen.ml" 151 6103 6155
+)
+"m_gen.ml" 151 6103 6124 "m_gen.ml" 151 6103 6135
+type(
+  (Expr.T.expr -> bool) -> Expr.T.expr list -> bool
+)
+ident(
+  int_ref Ext.List.exists "ext.mli" 27 1074 1076 "ext.mli" 27 1074 1120
+)
+"m_gen.ml" 151 6103 6137 "m_gen.ml" 151 6103 6149
+type(
+  Expr.T.expr -> Expr.T.expr -> bool
+)
+ident(
+  int_ref Expr.Eq.expr "expr.mli" 586 15497 15501 "expr.mli" 587 15511 15539
+)
+"m_gen.ml" 151 6103 6150 "m_gen.ml" 151 6103 6151
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "m_gen.ml" 151 6103 6117 "m_gen.ml" 151 6103 6118
+)
+"m_gen.ml" 151 6103 6136 "m_gen.ml" 151 6103 6152
+type(
+  Expr.T.expr -> bool
+)
+"m_gen.ml" 151 6103 6153 "m_gen.ml" 151 6103 6155
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "m_gen.ml" 151 6103 6119 "m_gen.ml" 151 6103 6121
+)
+"m_gen.ml" 151 6103 6124 "m_gen.ml" 151 6103 6155
+type(
+  bool
+)
+"m_gen.ml" 152 6159 6163 "m_gen.ml" 152 6159 6177
+type(
+  (Expr.T.expr list -> Expr.T.expr -> Expr.T.expr list) ->
+  Expr.T.expr list -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.fold_left "ext.mli" 19 563 565 "ext.mli" 19 563 620
+)
+"m_gen.ml" 152 6159 6183 "m_gen.ml" 152 6159 6184
+type(
+  Expr.T.expr list
+)
+ident(
+  def r "m_gen.ml" 152 6159 6185 "m_gen.ml" 152 6159 6221
+)
+"m_gen.ml" 152 6159 6185 "m_gen.ml" 152 6159 6186
+type(
+  Expr.T.expr
+)
+ident(
+  def e "m_gen.ml" 152 6159 6190 "m_gen.ml" 152 6159 6221
+)
+"m_gen.ml" 152 6159 6193 "m_gen.ml" 152 6159 6198
+type(
+  Expr.T.expr -> Expr.T.expr list -> bool
+)
+ident(
+  int_ref e_mem "m_gen.ml" 151 6103 6111 "m_gen.ml" 151 6103 6116
+)
+"m_gen.ml" 152 6159 6199 "m_gen.ml" 152 6159 6200
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "m_gen.ml" 152 6159 6185 "m_gen.ml" 152 6159 6186
+)
+"m_gen.ml" 152 6159 6201 "m_gen.ml" 152 6159 6202
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref r "m_gen.ml" 152 6159 6183 "m_gen.ml" 152 6159 6184
+)
+"m_gen.ml" 152 6159 6193 "m_gen.ml" 152 6159 6202
+type(
+  bool
+)
+"m_gen.ml" 152 6159 6208 "m_gen.ml" 152 6159 6209
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref r "m_gen.ml" 152 6159 6183 "m_gen.ml" 152 6159 6184
+)
+"m_gen.ml" 152 6159 6215 "m_gen.ml" 152 6159 6216
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "m_gen.ml" 152 6159 6185 "m_gen.ml" 152 6159 6186
+)
+"m_gen.ml" 152 6159 6220 "m_gen.ml" 152 6159 6221
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref r "m_gen.ml" 152 6159 6183 "m_gen.ml" 152 6159 6184
+)
+"m_gen.ml" 152 6159 6215 "m_gen.ml" 152 6159 6221
+type(
+  Expr.T.expr list
+)
+"m_gen.ml" 152 6159 6190 "m_gen.ml" 152 6159 6221
+type(
+  Expr.T.expr list
+)
+"m_gen.ml" 152 6159 6178 "m_gen.ml" 152 6159 6222
+type(
+  Expr.T.expr list -> Expr.T.expr -> Expr.T.expr list
+)
+"m_gen.ml" 152 6159 6223 "m_gen.ml" 152 6159 6225
+type(
+  Expr.T.expr list
+)
+"m_gen.ml" 152 6159 6226 "m_gen.ml" 152 6159 6228
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "m_gen.ml" 150 6073 6098 "m_gen.ml" 150 6073 6100
+)
+"m_gen.ml" 152 6159 6163 "m_gen.ml" 152 6159 6228
+type(
+  Expr.T.expr list
+)
+"m_gen.ml" 153 6229 6236 "m_gen.ml" 153 6229 6244
+type(
+  Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.rev "ext.mli" 11 220 222 "ext.mli" 11 220 250
+)
+"m_gen.ml" 152 6159 6163 "m_gen.ml" 153 6229 6244
+type(
+  Expr.T.expr list
+)
+"m_gen.ml" 151 6103 6107 "m_gen.ml" 153 6229 6244
+type(
+  Expr.T.expr list
+)
+"m_gen.ml" 155 6250 6256 "m_gen.ml" 155 6250 6275
+type(
+  Proof.T.use_def Property.wrapped list ->
+  Proof.T.use_def Property.wrapped list
+)
+ident(
+  def remove_repeated_def "m_gen.ml" 167 6613 6615 "m_gen.ml" 196 7615 7689
+)
+"m_gen.ml" 155 6250 6277 "m_gen.ml" 155 6250 6279
+type(
+  Proof.T.use_def Property.wrapped list
+)
+type(
+  Proof.T.use_def Property.wrapped list
+)
+ident(
+  def ds "m_gen.ml" 156 6304 6308 "m_gen.ml" 164 6591 6606
+)
+"m_gen.ml" 156 6304 6312 "m_gen.ml" 156 6304 6322
+type(
+  Proof.T.use_def Property.wrapped ->
+  Proof.T.use_def Property.wrapped -> bool
+)
+ident(
+  def use_def_eq "m_gen.ml" 162 6467 6471 "m_gen.ml" 164 6591 6606
+)
+"m_gen.ml" 156 6304 6323 "m_gen.ml" 156 6304 6324
+type(
+  Proof.T.use_def Property.wrapped
+)
+ident(
+  def d "m_gen.ml" 156 6304 6325 "m_gen.ml" 160 6441 6459
+)
+"m_gen.ml" 156 6304 6325 "m_gen.ml" 156 6304 6326
+type(
+  Proof.T.use_def Property.wrapped
+)
+ident(
+  def e "m_gen.ml" 157 6329 6335 "m_gen.ml" 160 6441 6459
+)
+"m_gen.ml" 157 6329 6341 "m_gen.ml" 157 6329 6342
+type(
+  Proof.T.use_def Property.wrapped
+)
+ident(
+  int_ref d "m_gen.ml" 156 6304 6323 "m_gen.ml" 156 6304 6324
+)
+"m_gen.ml" 157 6329 6341 "m_gen.ml" 157 6329 6347
+type(
+  Proof.T.use_def
+)
+"m_gen.ml" 157 6329 6349 "m_gen.ml" 157 6329 6350
+type(
+  Proof.T.use_def Property.wrapped
+)
+ident(
+  int_ref e "m_gen.ml" 156 6304 6325 "m_gen.ml" 156 6304 6326
+)
+"m_gen.ml" 157 6329 6349 "m_gen.ml" 157 6329 6355
+type(
+  Proof.T.use_def
+)
+"m_gen.ml" 157 6329 6341 "m_gen.ml" 157 6329 6355
+type(
+  Proof.T.use_def * Proof.T.use_def
+)
+"m_gen.ml" 158 6361 6374 "m_gen.ml" 158 6361 6375
+type(
+  string
+)
+ident(
+  def s "m_gen.ml" 158 6361 6389 "m_gen.ml" 158 6361 6402
+)
+"m_gen.ml" 158 6361 6369 "m_gen.ml" 158 6361 6375
+type(
+  Proof.T.use_def
+)
+"m_gen.ml" 158 6361 6382 "m_gen.ml" 158 6361 6383
+type(
+  string
+)
+ident(
+  def t "m_gen.ml" 158 6361 6389 "m_gen.ml" 158 6361 6402
+)
+"m_gen.ml" 158 6361 6377 "m_gen.ml" 158 6361 6383
+type(
+  Proof.T.use_def
+)
+"m_gen.ml" 158 6361 6369 "m_gen.ml" 158 6361 6383
+type(
+  Proof.T.use_def * Proof.T.use_def
+)
+type(
+  Proof.T.use_def * Proof.T.use_def
+)
+"m_gen.ml" 158 6361 6389 "m_gen.ml" 158 6361 6390
+type(
+  string
+)
+ident(
+  int_ref s "m_gen.ml" 158 6361 6374 "m_gen.ml" 158 6361 6375
+)
+"m_gen.ml" 158 6361 6391 "m_gen.ml" 158 6361 6392
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_gen.ml" 158 6361 6393 "m_gen.ml" 158 6361 6394
+type(
+  string
+)
+ident(
+  int_ref t "m_gen.ml" 158 6361 6382 "m_gen.ml" 158 6361 6383
+)
+"m_gen.ml" 158 6361 6389 "m_gen.ml" 158 6361 6394
+type(
+  bool
+)
+"m_gen.ml" 158 6361 6398 "m_gen.ml" 158 6361 6402
+type(
+  bool
+)
+"m_gen.ml" 159 6403 6414 "m_gen.ml" 159 6403 6415
+type(
+  int
+)
+ident(
+  def n "m_gen.ml" 159 6403 6427 "m_gen.ml" 159 6403 6440
+)
+"m_gen.ml" 159 6403 6411 "m_gen.ml" 159 6403 6415
+type(
+  Proof.T.use_def
+)
+"m_gen.ml" 159 6403 6420 "m_gen.ml" 159 6403 6421
+type(
+  int
+)
+ident(
+  def m "m_gen.ml" 159 6403 6427 "m_gen.ml" 159 6403 6440
+)
+"m_gen.ml" 159 6403 6417 "m_gen.ml" 159 6403 6421
+type(
+  Proof.T.use_def
+)
+"m_gen.ml" 159 6403 6411 "m_gen.ml" 159 6403 6421
+type(
+  Proof.T.use_def * Proof.T.use_def
+)
+type(
+  Proof.T.use_def * Proof.T.use_def
+)
+"m_gen.ml" 159 6403 6427 "m_gen.ml" 159 6403 6428
+type(
+  int
+)
+ident(
+  int_ref n "m_gen.ml" 159 6403 6414 "m_gen.ml" 159 6403 6415
+)
+"m_gen.ml" 159 6403 6429 "m_gen.ml" 159 6403 6430
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_gen.ml" 159 6403 6431 "m_gen.ml" 159 6403 6432
+type(
+  int
+)
+ident(
+  int_ref m "m_gen.ml" 159 6403 6420 "m_gen.ml" 159 6403 6421
+)
+"m_gen.ml" 159 6403 6427 "m_gen.ml" 159 6403 6432
+type(
+  bool
+)
+"m_gen.ml" 159 6403 6436 "m_gen.ml" 159 6403 6440
+type(
+  bool
+)
+"m_gen.ml" 160 6441 6449 "m_gen.ml" 160 6441 6450
+type(
+  Proof.T.use_def * Proof.T.use_def
+)
+type(
+  Proof.T.use_def * Proof.T.use_def
+)
+"m_gen.ml" 160 6441 6454 "m_gen.ml" 160 6441 6459
+type(
+  bool
+)
+"m_gen.ml" 157 6329 6335 "m_gen.ml" 160 6441 6459
+type(
+  bool
+)
+"m_gen.ml" 162 6467 6475 "m_gen.ml" 162 6467 6480
+type(
+  Proof.T.use_def Property.wrapped ->
+  Proof.T.use_def Property.wrapped list -> bool
+)
+ident(
+  def e_mem "m_gen.ml" 163 6521 6525 "m_gen.ml" 164 6591 6606
+)
+"m_gen.ml" 162 6467 6481 "m_gen.ml" 162 6467 6482
+type(
+  Proof.T.use_def Property.wrapped
+)
+ident(
+  def x "m_gen.ml" 162 6467 6483 "m_gen.ml" 162 6467 6517
+)
+"m_gen.ml" 162 6467 6483 "m_gen.ml" 162 6467 6485
+type(
+  Proof.T.use_def Property.wrapped list
+)
+ident(
+  def ds "m_gen.ml" 162 6467 6488 "m_gen.ml" 162 6467 6517
+)
+"m_gen.ml" 162 6467 6488 "m_gen.ml" 162 6467 6499
+type(
+  (Proof.T.use_def Property.wrapped -> bool) ->
+  Proof.T.use_def Property.wrapped list -> bool
+)
+ident(
+  int_ref Ext.List.exists "ext.mli" 27 1074 1076 "ext.mli" 27 1074 1120
+)
+"m_gen.ml" 162 6467 6501 "m_gen.ml" 162 6467 6511
+type(
+  Proof.T.use_def Property.wrapped ->
+  Proof.T.use_def Property.wrapped -> bool
+)
+ident(
+  int_ref use_def_eq "m_gen.ml" 156 6304 6312 "m_gen.ml" 156 6304 6322
+)
+"m_gen.ml" 162 6467 6512 "m_gen.ml" 162 6467 6513
+type(
+  Proof.T.use_def Property.wrapped
+)
+ident(
+  int_ref x "m_gen.ml" 162 6467 6481 "m_gen.ml" 162 6467 6482
+)
+"m_gen.ml" 162 6467 6500 "m_gen.ml" 162 6467 6514
+type(
+  Proof.T.use_def Property.wrapped -> bool
+)
+"m_gen.ml" 162 6467 6515 "m_gen.ml" 162 6467 6517
+type(
+  Proof.T.use_def Property.wrapped list
+)
+ident(
+  int_ref ds "m_gen.ml" 162 6467 6483 "m_gen.ml" 162 6467 6485
+)
+"m_gen.ml" 162 6467 6488 "m_gen.ml" 162 6467 6517
+type(
+  bool
+)
+"m_gen.ml" 163 6521 6525 "m_gen.ml" 163 6521 6539
+type(
+  (Proof.T.use_def Property.wrapped list ->
+   Proof.T.use_def Property.wrapped -> Proof.T.use_def Property.wrapped list) ->
+  Proof.T.use_def Property.wrapped list ->
+  Proof.T.use_def Property.wrapped list ->
+  Proof.T.use_def Property.wrapped list
+)
+ident(
+  int_ref Ext.List.fold_left "ext.mli" 19 563 565 "ext.mli" 19 563 620
+)
+"m_gen.ml" 163 6521 6545 "m_gen.ml" 163 6521 6546
+type(
+  Proof.T.use_def Property.wrapped list
+)
+ident(
+  def r "m_gen.ml" 163 6521 6547 "m_gen.ml" 163 6521 6583
+)
+"m_gen.ml" 163 6521 6547 "m_gen.ml" 163 6521 6548
+type(
+  Proof.T.use_def Property.wrapped
+)
+ident(
+  def e "m_gen.ml" 163 6521 6552 "m_gen.ml" 163 6521 6583
+)
+"m_gen.ml" 163 6521 6555 "m_gen.ml" 163 6521 6560
+type(
+  Proof.T.use_def Property.wrapped ->
+  Proof.T.use_def Property.wrapped list -> bool
+)
+ident(
+  int_ref e_mem "m_gen.ml" 162 6467 6475 "m_gen.ml" 162 6467 6480
+)
+"m_gen.ml" 163 6521 6561 "m_gen.ml" 163 6521 6562
+type(
+  Proof.T.use_def Property.wrapped
+)
+ident(
+  int_ref e "m_gen.ml" 163 6521 6547 "m_gen.ml" 163 6521 6548
+)
+"m_gen.ml" 163 6521 6563 "m_gen.ml" 163 6521 6564
+type(
+  Proof.T.use_def Property.wrapped list
+)
+ident(
+  int_ref r "m_gen.ml" 163 6521 6545 "m_gen.ml" 163 6521 6546
+)
+"m_gen.ml" 163 6521 6555 "m_gen.ml" 163 6521 6564
+type(
+  bool
+)
+"m_gen.ml" 163 6521 6570 "m_gen.ml" 163 6521 6571
+type(
+  Proof.T.use_def Property.wrapped list
+)
+ident(
+  int_ref r "m_gen.ml" 163 6521 6545 "m_gen.ml" 163 6521 6546
+)
+"m_gen.ml" 163 6521 6577 "m_gen.ml" 163 6521 6578
+type(
+  Proof.T.use_def Property.wrapped
+)
+ident(
+  int_ref e "m_gen.ml" 163 6521 6547 "m_gen.ml" 163 6521 6548
+)
+"m_gen.ml" 163 6521 6582 "m_gen.ml" 163 6521 6583
+type(
+  Proof.T.use_def Property.wrapped list
+)
+ident(
+  int_ref r "m_gen.ml" 163 6521 6545 "m_gen.ml" 163 6521 6546
+)
+"m_gen.ml" 163 6521 6577 "m_gen.ml" 163 6521 6583
+type(
+  Proof.T.use_def Property.wrapped list
+)
+"m_gen.ml" 163 6521 6552 "m_gen.ml" 163 6521 6583
+type(
+  Proof.T.use_def Property.wrapped list
+)
+"m_gen.ml" 163 6521 6540 "m_gen.ml" 163 6521 6584
+type(
+  Proof.T.use_def Property.wrapped list ->
+  Proof.T.use_def Property.wrapped -> Proof.T.use_def Property.wrapped list
+)
+"m_gen.ml" 163 6521 6585 "m_gen.ml" 163 6521 6587
+type(
+  Proof.T.use_def Property.wrapped list
+)
+"m_gen.ml" 163 6521 6588 "m_gen.ml" 163 6521 6590
+type(
+  Proof.T.use_def Property.wrapped list
+)
+ident(
+  int_ref ds "m_gen.ml" 155 6250 6277 "m_gen.ml" 155 6250 6279
+)
+"m_gen.ml" 163 6521 6525 "m_gen.ml" 163 6521 6590
+type(
+  Proof.T.use_def Property.wrapped list
+)
+"m_gen.ml" 164 6591 6598 "m_gen.ml" 164 6591 6606
+type(
+  Proof.T.use_def Property.wrapped list ->
+  Proof.T.use_def Property.wrapped list
+)
+ident(
+  int_ref Ext.List.rev "ext.mli" 11 220 222 "ext.mli" 11 220 250
+)
+"m_gen.ml" 163 6521 6525 "m_gen.ml" 164 6591 6606
+type(
+  Proof.T.use_def Property.wrapped list
+)
+"m_gen.ml" 162 6467 6471 "m_gen.ml" 164 6591 6606
+type(
+  Proof.T.use_def Property.wrapped list
+)
+"m_gen.ml" 156 6304 6308 "m_gen.ml" 164 6591 6606
+type(
+  Proof.T.use_def Property.wrapped list
+)
+"m_gen.ml" 167 6613 6619 "m_gen.ml" 167 6613 6623
+type(
+  Loc.locus
+)
+ident(
+  def mloc "m_gen.ml" 168 6661 6663 "m_gen.ml" 196 7615 7689
+)
+"m_gen.ml" 167 6613 6626 "m_gen.ml" 167 6613 6636
+type(
+  Loc.locus option -> Loc.locus
+)
+ident(
+  int_ref Ext.Option.get "ext.mli" 60 2628 2630 "ext.mli" 60 2628 2655
+)
+"m_gen.ml" 167 6613 6638 "m_gen.ml" 167 6613 6654
+type(
+  M_t.mule -> Loc.locus option
+)
+ident(
+  int_ref Util.query_locus "util.mli" 18 321 321 "util.mli" 18 321 369
+)
+"m_gen.ml" 167 6613 6655 "m_gen.ml" 167 6613 6656
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_gen.ml" 149 6018 6039 "m_gen.ml" 149 6018 6040
+)
+"m_gen.ml" 167 6613 6637 "m_gen.ml" 167 6613 6657
+type(
+  Loc.locus option
+)
+"m_gen.ml" 167 6613 6626 "m_gen.ml" 167 6613 6657
+type(
+  Loc.locus
+)
+"m_gen.ml" 168 6661 6671 "m_gen.ml" 168 6661 6676
+type(
+  M_t.modunit list -> Proof.T.usable list
+)
+ident(
+  def visit "m_gen.ml" 168 6661 6663 "m_gen.ml" 196 7615 7689
+)
+"m_gen.ml" 168 6661 6678 "m_gen.ml" 168 6661 6681
+type(
+  M_t.modunit list
+)
+type(
+  M_t.modunit list
+)
+ident(
+  def mus "m_gen.ml" 169 6698 6702 "m_gen.ml" 190 7399 7408
+)
+"m_gen.ml" 169 6698 6708 "m_gen.ml" 169 6698 6711
+type(
+  M_t.modunit list
+)
+ident(
+  int_ref mus "m_gen.ml" 168 6661 6678 "m_gen.ml" 168 6661 6681
+)
+"m_gen.ml" 170 6717 6723 "m_gen.ml" 170 6717 6725
+type(
+  M_t.modunit list
+)
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 170 6717 6729 "m_gen.ml" 170 6717 6731
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 171 6732 6738 "m_gen.ml" 171 6732 6740
+type(
+  M_t.modunit
+)
+ident(
+  def mu "m_gen.ml" 171 6732 6751 "m_gen.ml" 190 7399 7408
+)
+"m_gen.ml" 171 6732 6744 "m_gen.ml" 171 6732 6747
+type(
+  M_t.modunit list
+)
+ident(
+  def mus "m_gen.ml" 171 6732 6751 "m_gen.ml" 190 7399 7408
+)
+"m_gen.ml" 171 6732 6738 "m_gen.ml" 171 6732 6747
+type(
+  M_t.modunit list
+)
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 172 6757 6771 "m_gen.ml" 172 6757 6773
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_gen.ml" 171 6732 6738 "m_gen.ml" 171 6732 6740
+)
+"m_gen.ml" 172 6757 6771 "m_gen.ml" 172 6757 6778
+type(
+  M_t.modunit_
+)
+"m_gen.ml" 173 6784 6803 "m_gen.ml" 173 6784 6805
+type(
+  Util.hint option
+)
+ident(
+  def nm "m_gen.ml" 174 6829 6846 "m_gen.ml" 181 7126 7152
+)
+"m_gen.ml" 173 6784 6807 "m_gen.ml" 173 6784 6808
+type(
+  Expr.T.sequent
+)
+"m_gen.ml" 173 6784 6810 "m_gen.ml" 173 6784 6811
+type(
+  int
+)
+"m_gen.ml" 173 6784 6813 "m_gen.ml" 173 6784 6814
+type(
+  Proof.T.proof
+)
+"m_gen.ml" 173 6784 6816 "m_gen.ml" 173 6784 6824
+type(
+  Proof.T.proof
+)
+ident(
+  def prf_orig "m_gen.ml" 174 6829 6846 "m_gen.ml" 181 7126 7152
+)
+"m_gen.ml" 173 6784 6826 "m_gen.ml" 173 6784 6827
+type(
+  M_t.summary
+)
+"m_gen.ml" 173 6784 6794 "m_gen.ml" 173 6784 6828
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_gen.ml" 174 6829 6846 "m_gen.ml" 174 6829 6847
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_gen.ml" 174 6829 6847 "m_gen.ml" 174 6829 6861
+type(
+  bool ref
+)
+ident(
+  int_ref Params.toolbox "params.mli" 6 83 83 "params.mli" 6 83 104
+)
+"m_gen.ml" 174 6829 6846 "m_gen.ml" 174 6829 6861
+type(
+  bool
+)
+"m_gen.ml" 176 6914 6930 "m_gen.ml" 176 6914 6933
+type(
+  Loc.locus
+)
+ident(
+  def loc "m_gen.ml" 177 6978 6990 "m_gen.ml" 181 7126 7152
+)
+"m_gen.ml" 176 6914 6936 "m_gen.ml" 176 6914 6946
+type(
+  Loc.locus option -> Loc.locus
+)
+ident(
+  int_ref Ext.Option.get "ext.mli" 60 2628 2630 "ext.mli" 60 2628 2655
+)
+"m_gen.ml" 176 6914 6948 "m_gen.ml" 176 6914 6964
+type(
+  Proof.T.proof -> Loc.locus option
+)
+ident(
+  int_ref Util.query_locus "util.mli" 18 321 321 "util.mli" 18 321 369
+)
+"m_gen.ml" 176 6914 6965 "m_gen.ml" 176 6914 6973
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref prf_orig "m_gen.ml" 173 6784 6816 "m_gen.ml" 173 6784 6824
+)
+"m_gen.ml" 176 6914 6947 "m_gen.ml" 176 6914 6974
+type(
+  Loc.locus option
+)
+"m_gen.ml" 176 6914 6936 "m_gen.ml" 176 6914 6974
+type(
+  Loc.locus
+)
+"m_gen.ml" 177 6978 6993 "m_gen.ml" 177 6978 6996
+type(
+  Loc.locus
+)
+ident(
+  int_ref loc "m_gen.ml" 176 6914 6930 "m_gen.ml" 176 6914 6933
+)
+"m_gen.ml" 177 6978 6993 "m_gen.ml" 177 6978 7005
+type(
+  string
+)
+"m_gen.ml" 177 6978 7006 "m_gen.ml" 177 6978 7007
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_gen.ml" 177 6978 7008 "m_gen.ml" 177 6978 7012
+type(
+  Loc.locus
+)
+ident(
+  int_ref mloc "m_gen.ml" 167 6613 6619 "m_gen.ml" 167 6613 6623
+)
+"m_gen.ml" 177 6978 7008 "m_gen.ml" 177 6978 7021
+type(
+  string
+)
+"m_gen.ml" 177 6978 6993 "m_gen.ml" 177 6978 7021
+type(
+  bool
+)
+"m_gen.ml" 179 7045 7059 "m_gen.ml" 179 7045 7067
+type(
+  Proof.T.usable list -> Proof.T.usable list
+)
+ident(
+  int_ref Ext.List.rev "ext.mli" 11 220 222 "ext.mli" 11 220 250
+)
+"m_gen.ml" 179 7045 7069 "m_gen.ml" 179 7045 7086
+type(
+  Proof.T.proof -> Proof.T.usable list
+)
+ident(
+  int_ref p_collect_usables "m_gen.ml" 108 4371 4375 "m_gen.ml" 108 4371 4392
+)
+"m_gen.ml" 179 7045 7087 "m_gen.ml" 179 7045 7095
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref prf_orig "m_gen.ml" 173 6784 6816 "m_gen.ml" 173 6784 6824
+)
+"m_gen.ml" 179 7045 7068 "m_gen.ml" 179 7045 7096
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 179 7045 7058 "m_gen.ml" 179 7045 7097
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 179 7045 7098 "m_gen.ml" 179 7045 7099
+type(
+  Proof.T.usable list -> Proof.T.usable list -> Proof.T.usable list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"m_gen.ml" 179 7045 7100 "m_gen.ml" 179 7045 7105
+type(
+  M_t.modunit list -> Proof.T.usable list
+)
+ident(
+  int_ref visit "m_gen.ml" 168 6661 6671 "m_gen.ml" 168 6661 6676
+)
+"m_gen.ml" 179 7045 7106 "m_gen.ml" 179 7045 7109
+type(
+  M_t.modunit list
+)
+ident(
+  int_ref mus "m_gen.ml" 171 6732 6744 "m_gen.ml" 171 6732 6747
+)
+"m_gen.ml" 179 7045 7100 "m_gen.ml" 179 7045 7109
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 178 7022 7039 "m_gen.ml" 180 7110 7125
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 181 7126 7143 "m_gen.ml" 181 7126 7148
+type(
+  M_t.modunit list -> Proof.T.usable list
+)
+ident(
+  int_ref visit "m_gen.ml" 168 6661 6671 "m_gen.ml" 168 6661 6676
+)
+"m_gen.ml" 181 7126 7149 "m_gen.ml" 181 7126 7152
+type(
+  M_t.modunit list
+)
+ident(
+  int_ref mus "m_gen.ml" 171 6732 6744 "m_gen.ml" 171 6732 6747
+)
+"m_gen.ml" 181 7126 7143 "m_gen.ml" 181 7126 7152
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 177 6978 6990 "m_gen.ml" 181 7126 7152
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 176 6914 6926 "m_gen.ml" 181 7126 7152
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 182 7153 7170 "m_gen.ml" 182 7153 7171
+type(
+  M_t.mule
+)
+"m_gen.ml" 182 7153 7163 "m_gen.ml" 182 7153 7171
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_gen.ml" 183 7175 7187 "m_gen.ml" 183 7175 7192
+type(
+  M_t.modunit list -> Proof.T.usable list
+)
+ident(
+  int_ref visit "m_gen.ml" 168 6661 6671 "m_gen.ml" 168 6661 6676
+)
+"m_gen.ml" 183 7175 7193 "m_gen.ml" 183 7175 7196
+type(
+  M_t.modunit list
+)
+ident(
+  int_ref mus "m_gen.ml" 171 6732 6744 "m_gen.ml" 171 6732 6747
+)
+"m_gen.ml" 183 7175 7187 "m_gen.ml" 183 7175 7196
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 184 7197 7215 "m_gen.ml" 184 7197 7216
+type(
+  [ `Hide | `Use of bool ]
+)
+"m_gen.ml" 184 7197 7218 "m_gen.ml" 184 7197 7220
+type(
+  Proof.T.usable
+)
+ident(
+  def us "m_gen.ml" 185 7250 7262 "m_gen.ml" 185 7250 7271
+)
+"m_gen.ml" 184 7197 7207 "m_gen.ml" 184 7197 7221
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_gen.ml" 185 7250 7262 "m_gen.ml" 185 7250 7267
+type(
+  M_t.modunit list -> Proof.T.usable list
+)
+ident(
+  int_ref visit "m_gen.ml" 168 6661 6671 "m_gen.ml" 168 6661 6676
+)
+"m_gen.ml" 185 7250 7268 "m_gen.ml" 185 7250 7271
+type(
+  M_t.modunit list
+)
+ident(
+  int_ref mus "m_gen.ml" 171 6732 6744 "m_gen.ml" 171 6732 6747
+)
+"m_gen.ml" 185 7250 7262 "m_gen.ml" 185 7250 7271
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 186 7272 7291 "m_gen.ml" 186 7272 7292
+type(
+  Expr.T.export
+)
+type(
+  Expr.T.instance
+)
+"m_gen.ml" 186 7272 7282 "m_gen.ml" 186 7272 7292
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_gen.ml" 187 7296 7308 "m_gen.ml" 187 7296 7318
+type(
+  ?at:M_t.modunit -> string -> Proof.T.usable list
+)
+ident(
+  int_ref Errors.bug "errors.mli" 41 941 941 "errors.mli" 41 941 982
+)
+"m_gen.ml" 187 7296 7323 "m_gen.ml" 187 7296 7325
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_gen.ml" 171 6732 6738 "m_gen.ml" 171 6732 6740
+)
+type(
+  M_t.modunit option
+)
+"m_gen.ml" 187 7296 7326 "m_gen.ml" 187 7296 7361
+type(
+  string
+)
+"m_gen.ml" 187 7296 7308 "m_gen.ml" 187 7296 7361
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 188 7362 7372 "m_gen.ml" 188 7362 7373
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_gen.ml" 189 7377 7389 "m_gen.ml" 189 7377 7394
+type(
+  M_t.modunit list -> Proof.T.usable list
+)
+ident(
+  int_ref visit "m_gen.ml" 168 6661 6671 "m_gen.ml" 168 6661 6676
+)
+"m_gen.ml" 189 7377 7395 "m_gen.ml" 189 7377 7398
+type(
+  M_t.modunit list
+)
+ident(
+  int_ref mus "m_gen.ml" 171 6732 6744 "m_gen.ml" 171 6732 6747
+)
+"m_gen.ml" 189 7377 7389 "m_gen.ml" 189 7377 7398
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 171 6732 6751 "m_gen.ml" 190 7399 7408
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 169 6698 6702 "m_gen.ml" 190 7399 7408
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 192 7414 7420 "m_gen.ml" 192 7414 7422
+type(
+  Proof.T.usable list
+)
+ident(
+  def us "m_gen.ml" 193 7446 7448 "m_gen.ml" 196 7615 7689
+)
+"m_gen.ml" 192 7414 7425 "m_gen.ml" 192 7414 7430
+type(
+  M_t.modunit list -> Proof.T.usable list
+)
+ident(
+  int_ref visit "m_gen.ml" 168 6661 6671 "m_gen.ml" 168 6661 6676
+)
+"m_gen.ml" 192 7414 7431 "m_gen.ml" 192 7414 7432
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_gen.ml" 149 6018 6039 "m_gen.ml" 149 6018 6040
+)
+"m_gen.ml" 192 7414 7431 "m_gen.ml" 192 7414 7437
+type(
+  M_t.mule_
+)
+"m_gen.ml" 192 7414 7431 "m_gen.ml" 192 7414 7442
+type(
+  M_t.modunit list
+)
+"m_gen.ml" 192 7414 7425 "m_gen.ml" 192 7414 7442
+type(
+  Proof.T.usable list
+)
+"m_gen.ml" 193 7446 7452 "m_gen.ml" 193 7446 7455
+type(
+  Expr.T.expr list
+)
+ident(
+  def ffs "m_gen.ml" 194 7538 7540 "m_gen.ml" 196 7615 7689
+)
+"m_gen.ml" 193 7446 7456 "m_gen.ml" 193 7446 7459
+type(
+  Proof.T.use_def Property.wrapped list
+)
+ident(
+  def dds "m_gen.ml" 194 7538 7540 "m_gen.ml" 196 7615 7689
+)
+"m_gen.ml" 193 7446 7452 "m_gen.ml" 193 7446 7459
+type(
+  Expr.T.expr list * Proof.T.use_def Property.wrapped list
+)
+"m_gen.ml" 193 7446 7462 "m_gen.ml" 193 7446 7476
+type(
+  (Expr.T.expr list * Proof.T.use_def Property.wrapped list ->
+   Proof.T.usable -> Expr.T.expr list * Proof.T.use_def Property.wrapped list) ->
+  Expr.T.expr list * Proof.T.use_def Property.wrapped list ->
+  Proof.T.usable list ->
+  Expr.T.expr list * Proof.T.use_def Property.wrapped list
+)
+ident(
+  int_ref Ext.List.fold_left "ext.mli" 19 563 565 "ext.mli" 19 563 620
+)
+"m_gen.ml" 193 7446 7483 "m_gen.ml" 193 7446 7485
+type(
+  Expr.T.expr list
+)
+ident(
+  def fs "m_gen.ml" 193 7446 7490 "m_gen.ml" 193 7446 7522
+)
+"m_gen.ml" 193 7446 7486 "m_gen.ml" 193 7446 7488
+type(
+  Proof.T.use_def Property.wrapped list
+)
+ident(
+  def ds "m_gen.ml" 193 7446 7490 "m_gen.ml" 193 7446 7522
+)
+"m_gen.ml" 193 7446 7482 "m_gen.ml" 193 7446 7489
+type(
+  Expr.T.expr list * Proof.T.use_def Property.wrapped list
+)
+"m_gen.ml" 193 7446 7490 "m_gen.ml" 193 7446 7491
+type(
+  Proof.T.usable
+)
+ident(
+  def u "m_gen.ml" 193 7446 7495 "m_gen.ml" 193 7446 7522
+)
+"m_gen.ml" 193 7446 7496 "m_gen.ml" 193 7446 7497
+type(
+  Proof.T.usable
+)
+ident(
+  int_ref u "m_gen.ml" 193 7446 7490 "m_gen.ml" 193 7446 7491
+)
+"m_gen.ml" 193 7446 7496 "m_gen.ml" 193 7446 7503
+type(
+  Expr.T.expr list
+)
+"m_gen.ml" 193 7446 7504 "m_gen.ml" 193 7446 7505
+type(
+  Expr.T.expr list -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"m_gen.ml" 193 7446 7506 "m_gen.ml" 193 7446 7508
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref fs "m_gen.ml" 193 7446 7483 "m_gen.ml" 193 7446 7485
+)
+"m_gen.ml" 193 7446 7496 "m_gen.ml" 193 7446 7508
+type(
+  Expr.T.expr list
+)
+"m_gen.ml" 193 7446 7510 "m_gen.ml" 193 7446 7511
+type(
+  Proof.T.usable
+)
+ident(
+  int_ref u "m_gen.ml" 193 7446 7490 "m_gen.ml" 193 7446 7491
+)
+"m_gen.ml" 193 7446 7510 "m_gen.ml" 193 7446 7516
+type(
+  Proof.T.use_def Property.wrapped list
+)
+"m_gen.ml" 193 7446 7517 "m_gen.ml" 193 7446 7518
+type(
+  Proof.T.use_def Property.wrapped list ->
+  Proof.T.use_def Property.wrapped list ->
+  Proof.T.use_def Property.wrapped list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"m_gen.ml" 193 7446 7519 "m_gen.ml" 193 7446 7521
+type(
+  Proof.T.use_def Property.wrapped list
+)
+ident(
+  int_ref ds "m_gen.ml" 193 7446 7486 "m_gen.ml" 193 7446 7488
+)
+"m_gen.ml" 193 7446 7510 "m_gen.ml" 193 7446 7521
+type(
+  Proof.T.use_def Property.wrapped list
+)
+"m_gen.ml" 193 7446 7495 "m_gen.ml" 193 7446 7522
+type(
+  Expr.T.expr list * Proof.T.use_def Property.wrapped list
+)
+"m_gen.ml" 193 7446 7477 "m_gen.ml" 193 7446 7523
+type(
+  Expr.T.expr list * Proof.T.use_def Property.wrapped list ->
+  Proof.T.usable -> Expr.T.expr list * Proof.T.use_def Property.wrapped list
+)
+"m_gen.ml" 193 7446 7525 "m_gen.ml" 193 7446 7527
+type(
+  Expr.T.expr list
+)
+"m_gen.ml" 193 7446 7528 "m_gen.ml" 193 7446 7530
+type(
+  Proof.T.use_def Property.wrapped list
+)
+"m_gen.ml" 193 7446 7524 "m_gen.ml" 193 7446 7531
+type(
+  Expr.T.expr list * Proof.T.use_def Property.wrapped list
+)
+"m_gen.ml" 193 7446 7532 "m_gen.ml" 193 7446 7534
+type(
+  Proof.T.usable list
+)
+ident(
+  int_ref us "m_gen.ml" 192 7414 7420 "m_gen.ml" 192 7414 7422
+)
+"m_gen.ml" 193 7446 7462 "m_gen.ml" 193 7446 7534
+type(
+  Expr.T.expr list * Proof.T.use_def Property.wrapped list
+)
+"m_gen.ml" 194 7538 7544 "m_gen.ml" 194 7538 7547
+type(
+  Expr.T.expr list
+)
+ident(
+  def ffs "m_gen.ml" 195 7576 7578 "m_gen.ml" 196 7615 7689
+)
+"m_gen.ml" 194 7538 7550 "m_gen.ml" 194 7538 7568
+type(
+  Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref remove_repeated_ex "m_gen.ml" 150 6073 6079 "m_gen.ml" 150 6073 6097
+)
+"m_gen.ml" 194 7538 7569 "m_gen.ml" 194 7538 7572
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref ffs "m_gen.ml" 193 7446 7452 "m_gen.ml" 193 7446 7455
+)
+"m_gen.ml" 194 7538 7550 "m_gen.ml" 194 7538 7572
+type(
+  Expr.T.expr list
+)
+"m_gen.ml" 195 7576 7582 "m_gen.ml" 195 7576 7585
+type(
+  Proof.T.use_def Property.wrapped list
+)
+ident(
+  def dds "m_gen.ml" 196 7615 7617 "m_gen.ml" 196 7615 7689
+)
+"m_gen.ml" 195 7576 7588 "m_gen.ml" 195 7576 7607
+type(
+  Proof.T.use_def Property.wrapped list ->
+  Proof.T.use_def Property.wrapped list
+)
+ident(
+  int_ref remove_repeated_def "m_gen.ml" 155 6250 6256 "m_gen.ml" 155 6250 6275
+)
+"m_gen.ml" 195 7576 7608 "m_gen.ml" 195 7576 7611
+type(
+  Proof.T.use_def Property.wrapped list
+)
+ident(
+  int_ref dds "m_gen.ml" 193 7446 7456 "m_gen.ml" 193 7446 7459
+)
+"m_gen.ml" 195 7576 7588 "m_gen.ml" 195 7576 7611
+type(
+  Proof.T.use_def Property.wrapped list
+)
+"m_gen.ml" 196 7615 7620 "m_gen.ml" 196 7615 7623
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref ffs "m_gen.ml" 194 7538 7544 "m_gen.ml" 194 7538 7547
+)
+"m_gen.ml" 196 7615 7624 "m_gen.ml" 196 7615 7625
+type(
+  Expr.T.expr list -> Expr.T.expr list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_gen.ml" 196 7615 7626 "m_gen.ml" 196 7615 7628
+type(
+  Expr.T.expr list
+)
+"m_gen.ml" 196 7615 7620 "m_gen.ml" 196 7615 7628
+type(
+  bool
+)
+"m_gen.ml" 196 7615 7629 "m_gen.ml" 196 7615 7631
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"m_gen.ml" 196 7615 7632 "m_gen.ml" 196 7615 7635
+type(
+  Proof.T.use_def Property.wrapped list
+)
+ident(
+  int_ref dds "m_gen.ml" 195 7576 7582 "m_gen.ml" 195 7576 7585
+)
+"m_gen.ml" 196 7615 7636 "m_gen.ml" 196 7615 7637
+type(
+  Proof.T.use_def Property.wrapped list ->
+  Proof.T.use_def Property.wrapped list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_gen.ml" 196 7615 7638 "m_gen.ml" 196 7615 7640
+type(
+  Proof.T.use_def Property.wrapped list
+)
+"m_gen.ml" 196 7615 7632 "m_gen.ml" 196 7615 7640
+type(
+  bool
+)
+"m_gen.ml" 196 7615 7620 "m_gen.ml" 196 7615 7640
+type(
+  bool
+)
+"m_gen.ml" 196 7615 7646 "m_gen.ml" 196 7615 7650
+type(
+  Proof.T.usable option
+)
+"m_gen.ml" 196 7615 7671 "m_gen.ml" 196 7615 7674
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref ffs "m_gen.ml" 194 7538 7544 "m_gen.ml" 194 7538 7547
+)
+"m_gen.ml" 196 7615 7684 "m_gen.ml" 196 7615 7687
+type(
+  Proof.T.use_def Property.wrapped list
+)
+ident(
+  int_ref dds "m_gen.ml" 195 7576 7582 "m_gen.ml" 195 7576 7585
+)
+"m_gen.ml" 196 7615 7661 "m_gen.ml" 196 7615 7689
+type(
+  Proof.T.usable
+)
+"m_gen.ml" 196 7615 7656 "m_gen.ml" 196 7615 7689
+type(
+  Proof.T.usable option
+)
+"m_gen.ml" 196 7615 7617 "m_gen.ml" 196 7615 7689
+type(
+  Proof.T.usable option
+)
+"m_gen.ml" 195 7576 7578 "m_gen.ml" 196 7615 7689
+type(
+  Proof.T.usable option
+)
+"m_gen.ml" 194 7538 7540 "m_gen.ml" 196 7615 7689
+type(
+  Proof.T.usable option
+)
+"m_gen.ml" 193 7446 7448 "m_gen.ml" 196 7615 7689
+type(
+  Proof.T.usable option
+)
+"m_gen.ml" 192 7414 7416 "m_gen.ml" 196 7615 7689
+type(
+  Proof.T.usable option
+)
+"m_gen.ml" 168 6661 6663 "m_gen.ml" 196 7615 7689
+type(
+  Proof.T.usable option
+)
+"m_gen.ml" 167 6613 6615 "m_gen.ml" 196 7615 7689
+type(
+  Proof.T.usable option
+)
+"m_gen.ml" 155 6250 6252 "m_gen.ml" 196 7615 7689
+type(
+  Proof.T.usable option
+)
+"m_gen.ml" 150 6073 6075 "m_gen.ml" 196 7615 7689
+type(
+  Proof.T.usable option
+)

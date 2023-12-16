@@ -1,0 +1,552 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:28:15 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp cantor1_test.tla --stretch 5
+
+(* created new ".tlacache/TLAPS.tlaps/TLAPS.thy" *)
+(* fingerprints written in ".tlacache/TLAPS.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/cantor1_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+COMMAND-LINE ARGUMENT
+file=.tlacache/cantor1_test.tlaps/tlapm_ac9f7f.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/cantor1_test.tlaps/tlapm_ac9f7f.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #1
+;;   generated from file "./cantor1_test.tla", line 31, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun tla__in (u u) Bool)
+(declare-fun tla__isAFcn (u) Bool)
+(declare-fun tla__DOMAIN (u) u)
+(declare-fun tla__fcnapp (u u) u)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Eunde_a () u)
+(declare-fun a_CONSTANTunde_dunde_a () u)
+(declare-fun a_CONSTANTunde_funde_a () u)
+
+(assert
+  (forall ((S_8 u) (T_9 u))
+  (=> (forall ((X_5 u)) (= (tla__in X_5 S_8) (tla__in X_5 T_9))) (= S_8 T_9))))
+(assert
+  (forall ((F_11 u) (G_12 u))
+  (=>
+  (and
+  (tla__isAFcn F_11) (tla__isAFcn G_12)
+  (forall ((X_5 u))
+  (= (tla__in X_5 (tla__DOMAIN F_11)) (tla__in X_5 (tla__DOMAIN G_12)))))
+  (= (tla__DOMAIN F_11) (tla__DOMAIN G_12)))))
+(assert
+  (forall ((F_11 u) (G_12 u))
+  (=>
+  (and
+  (tla__isAFcn F_11) (tla__isAFcn G_12)
+  (= (tla__DOMAIN F_11) (tla__DOMAIN G_12))
+  (forall ((X_5 u))
+  (=>
+  (tla__in X_5 (tla__DOMAIN G_12))
+  (= (tla__fcnapp F_11 X_5) (tla__fcnapp G_12 X_5)))))
+  (= F_11 G_12))))
+
+;; Theorem to be Proved
+(assert (not false))
+(assert (tla__isAFcn a_CONSTANTunde_funde_a))
+(assert (= (tla__DOMAIN a_CONSTANTunde_funde_a) a_CONSTANTunde_Eunde_a))
+(assert
+  (forall ((a_v1a u))
+    (=>
+      (tla__in a_v1a a_CONSTANTunde_Eunde_a)
+      (forall ((a_v2a u))
+        (=>
+          (tla__in a_v2a (tla__fcnapp a_CONSTANTunde_funde_a a_v1a))
+          (tla__in a_v2a a_CONSTANTunde_Eunde_a))))))
+(assert (tla__in a_CONSTANTunde_dunde_a a_CONSTANTunde_Eunde_a))
+(assert
+  (=
+    (tla__in
+      a_CONSTANTunde_dunde_a
+      (tla__fcnapp a_CONSTANTunde_funde_a a_CONSTANTunde_dunde_a))
+    (and
+      (tla__in a_CONSTANTunde_dunde_a a_CONSTANTunde_Eunde_a)
+      (not
+        (tla__in
+          a_CONSTANTunde_dunde_a
+          (tla__fcnapp a_CONSTANTunde_funde_a a_CONSTANTunde_dunde_a))))))
+(assert
+  (=
+    (and
+      (tla__in a_CONSTANTunde_dunde_a a_CONSTANTunde_Eunde_a)
+      (not
+        (tla__in
+          a_CONSTANTunde_dunde_a
+          (tla__fcnapp a_CONSTANTunde_funde_a a_CONSTANTunde_dunde_a))))
+    (not
+      (tla__in
+        a_CONSTANTunde_dunde_a
+        (tla__fcnapp a_CONSTANTunde_funde_a a_CONSTANTunde_dunde_a)))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/cantor1_test.tlaps/tlapm_bda016.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/cantor1_test.tlaps/tlapm_bda016.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #4
+;;   generated from file "./cantor1_test.tla", line 20, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun tla__in (u u) Bool)
+(declare-fun tla__isAFcn (u) Bool)
+(declare-fun tla__DOMAIN (u) u)
+(declare-fun tla__fcnapp (u u) u)
+(declare-fun tla__unspec (u u) u)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Eunde_a () u)
+
+(assert
+  (forall ((S_12 u) (T_13 u))
+  (=>
+  (forall ((X_9 u)) (= (tla__in X_9 S_12) (tla__in X_9 T_13))) (= S_12 T_13))))
+(assert
+  (forall ((F_15 u) (G_16 u))
+  (=>
+  (and
+  (tla__isAFcn F_15) (tla__isAFcn G_16)
+  (forall ((X_9 u))
+  (= (tla__in X_9 (tla__DOMAIN F_15)) (tla__in X_9 (tla__DOMAIN G_16)))))
+  (= (tla__DOMAIN F_15) (tla__DOMAIN G_16)))))
+(assert
+  (forall ((F_15 u) (G_16 u))
+  (=>
+  (and
+  (tla__isAFcn F_15) (tla__isAFcn G_16)
+  (= (tla__DOMAIN F_15) (tla__DOMAIN G_16))
+  (forall ((X_9 u))
+  (=>
+  (tla__in X_9 (tla__DOMAIN G_16))
+  (= (tla__fcnapp F_15 X_9) (tla__fcnapp G_16 X_9)))))
+  (= F_15 G_16))))
+
+;; Theorem to be Proved
+(assert (not
+  (not
+    (exists ((a_CONSTANTunde_funde_a u))
+      (and
+        (tla__isAFcn a_CONSTANTunde_funde_a)
+        (= (tla__DOMAIN a_CONSTANTunde_funde_a) a_CONSTANTunde_Eunde_a)
+        (forall ((a_v4a u))
+          (=>
+            (tla__in a_v4a a_CONSTANTunde_Eunde_a)
+            (forall ((a_v5a u))
+              (=>
+                (tla__in a_v5a (tla__fcnapp a_CONSTANTunde_funde_a a_v4a))
+                (tla__in a_v5a a_CONSTANTunde_Eunde_a)))))
+        (forall ((a_CONSTANTunde_yunde_a u))
+          (=>
+            (forall ((a_v6a u))
+              (=>
+                (tla__in a_v6a a_CONSTANTunde_yunde_a)
+                (tla__in a_v6a a_CONSTANTunde_Eunde_a)))
+            (exists ((a_CONSTANTunde_xunde_a u))
+              (and
+                (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Eunde_a)
+                (ite
+                  (tla__in
+                    a_CONSTANTunde_xunde_a
+                    (tla__DOMAIN a_CONSTANTunde_funde_a))
+                  (=
+                    (tla__fcnapp
+                      a_CONSTANTunde_funde_a a_CONSTANTunde_xunde_a)
+                    a_CONSTANTunde_yunde_a)
+                  (=
+                    (tla__unspec
+                      a_CONSTANTunde_funde_a a_CONSTANTunde_xunde_a)
+                    a_CONSTANTunde_yunde_a)))))))))))
+(assert
+  (forall ((a_CONSTANTunde_Eunde_unde_1a u) (a_CONSTANTunde_funde_a u))
+    (=>
+      (and
+        (tla__isAFcn a_CONSTANTunde_funde_a)
+        (= (tla__DOMAIN a_CONSTANTunde_funde_a) a_CONSTANTunde_Eunde_unde_1a)
+        (forall ((a_v1a u))
+          (=>
+            (tla__in a_v1a a_CONSTANTunde_Eunde_unde_1a)
+            (forall ((a_v2a u))
+              (=>
+                (tla__in a_v2a (tla__fcnapp a_CONSTANTunde_funde_a a_v1a))
+                (tla__in a_v2a a_CONSTANTunde_Eunde_unde_1a)))))
+        (forall ((a_CONSTANTunde_Punde_a u))
+          (=>
+            (forall ((a_v3a u))
+              (=>
+                (tla__in a_v3a a_CONSTANTunde_Punde_a)
+                (tla__in a_v3a a_CONSTANTunde_Eunde_unde_1a)))
+            (exists ((a_CONSTANTunde_xunde_a u))
+              (and
+                (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Eunde_unde_1a)
+                (ite
+                  (tla__in
+                    a_CONSTANTunde_xunde_a
+                    (tla__DOMAIN a_CONSTANTunde_funde_a))
+                  (=
+                    (tla__fcnapp
+                      a_CONSTANTunde_funde_a a_CONSTANTunde_xunde_a)
+                    a_CONSTANTunde_Punde_a)
+                  (=
+                    (tla__unspec
+                      a_CONSTANTunde_funde_a a_CONSTANTunde_xunde_a)
+                    a_CONSTANTunde_Punde_a))))))) false)))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/cantor1_test.tlaps/tlapm_ff4869.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/cantor1_test.tlaps/tlapm_ff4869.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #5
+;;   generated from file "./cantor1_test.tla", line 23, characters 5-11
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun tla__in (u u) Bool)
+(declare-fun tla__isAFcn (u) Bool)
+(declare-fun tla__DOMAIN (u) u)
+(declare-fun tla__fcnapp (u u) u)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Eunde_a () u)
+(declare-fun a_CONSTANTunde_funde_a () u)
+
+(assert
+  (forall ((S_9 u) (T_10 u))
+  (=> (forall ((X_6 u)) (= (tla__in X_6 S_9) (tla__in X_6 T_10))) (= S_9 T_10))))
+(assert
+  (forall ((F_12 u) (G_13 u))
+  (=>
+  (and
+  (tla__isAFcn F_12) (tla__isAFcn G_13)
+  (forall ((X_6 u))
+  (= (tla__in X_6 (tla__DOMAIN F_12)) (tla__in X_6 (tla__DOMAIN G_13)))))
+  (= (tla__DOMAIN F_12) (tla__DOMAIN G_13)))))
+(assert
+  (forall ((F_12 u) (G_13 u))
+  (=>
+  (and
+  (tla__isAFcn F_12) (tla__isAFcn G_13)
+  (= (tla__DOMAIN F_12) (tla__DOMAIN G_13))
+  (forall ((X_6 u))
+  (=>
+  (tla__in X_6 (tla__DOMAIN G_13))
+  (= (tla__fcnapp F_12 X_6) (tla__fcnapp G_13 X_6)))))
+  (= F_12 G_13))))
+
+;; Theorem to be Proved
+(assert (not
+  (forall ((a_v3a u))
+    (=>
+      (and
+        (tla__in a_v3a a_CONSTANTunde_Eunde_a)
+        (not (tla__in a_v3a (tla__fcnapp a_CONSTANTunde_funde_a a_v3a))))
+      (tla__in a_v3a a_CONSTANTunde_Eunde_a)))))
+(assert (tla__isAFcn a_CONSTANTunde_funde_a))
+(assert (= (tla__DOMAIN a_CONSTANTunde_funde_a) a_CONSTANTunde_Eunde_a))
+(assert
+  (forall ((a_v1a u))
+    (=>
+      (tla__in a_v1a a_CONSTANTunde_Eunde_a)
+      (forall ((a_v2a u))
+        (=>
+          (tla__in a_v2a (tla__fcnapp a_CONSTANTunde_funde_a a_v1a))
+          (tla__in a_v2a a_CONSTANTunde_Eunde_a))))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/cantor1_test.tlaps/tlapm_47ca4d.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/cantor1_test.tlaps/tlapm_47ca4d.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #6
+;;   generated from file "./cantor1_test.tla", line 25, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun tla__in (u u) Bool)
+(declare-fun tla__isAFcn (u) Bool)
+(declare-fun tla__DOMAIN (u) u)
+(declare-fun tla__fcnapp (u u) u)
+(declare-fun tla__unspec (u u) u)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Eunde_a () u)
+(declare-fun a_CONSTANTunde_funde_a () u)
+
+(assert
+  (forall ((S_11 u) (T_12 u))
+  (=>
+  (forall ((X_8 u)) (= (tla__in X_8 S_11) (tla__in X_8 T_12))) (= S_11 T_12))))
+(assert
+  (forall ((F_14 u) (G_15 u))
+  (=>
+  (and
+  (tla__isAFcn F_14) (tla__isAFcn G_15)
+  (forall ((X_8 u))
+  (= (tla__in X_8 (tla__DOMAIN F_14)) (tla__in X_8 (tla__DOMAIN G_15)))))
+  (= (tla__DOMAIN F_14) (tla__DOMAIN G_15)))))
+(assert
+  (forall ((F_14 u) (G_15 u))
+  (=>
+  (and
+  (tla__isAFcn F_14) (tla__isAFcn G_15)
+  (= (tla__DOMAIN F_14) (tla__DOMAIN G_15))
+  (forall ((X_8 u))
+  (=>
+  (tla__in X_8 (tla__DOMAIN G_15))
+  (= (tla__fcnapp F_14 X_8) (tla__fcnapp G_15 X_8)))))
+  (= F_14 G_15))))
+
+;; Theorem to be Proved
+(assert (not
+  (exists ((a_CONSTANTunde_dunde_a u))
+    (and
+      (tla__in a_CONSTANTunde_dunde_a a_CONSTANTunde_Eunde_a)
+      (forall ((a_v5a u))
+        (=
+          (ite
+            (tla__in a_CONSTANTunde_dunde_a a_CONSTANTunde_Eunde_a)
+            (tla__in
+              a_v5a
+              (tla__fcnapp a_CONSTANTunde_funde_a a_CONSTANTunde_dunde_a))
+            (tla__in
+              a_v5a
+              (tla__unspec a_CONSTANTunde_funde_a a_CONSTANTunde_dunde_a)))
+          (and
+            (tla__in a_v5a a_CONSTANTunde_Eunde_a)
+            (ite
+              (tla__in a_v5a a_CONSTANTunde_Eunde_a)
+              (not
+                (tla__in a_v5a (tla__fcnapp a_CONSTANTunde_funde_a a_v5a)))
+              (not
+                (tla__in a_v5a (tla__unspec a_CONSTANTunde_funde_a a_v5a)))))))))))
+(assert (tla__isAFcn a_CONSTANTunde_funde_a))
+(assert (= (tla__DOMAIN a_CONSTANTunde_funde_a) a_CONSTANTunde_Eunde_a))
+(assert
+  (forall ((a_v1a u))
+    (=>
+      (tla__in a_v1a a_CONSTANTunde_Eunde_a)
+      (forall ((a_v2a u))
+        (=>
+          (tla__in a_v2a (tla__fcnapp a_CONSTANTunde_funde_a a_v1a))
+          (tla__in a_v2a a_CONSTANTunde_Eunde_a))))))
+(assert
+  (forall ((a_v3a u))
+    (=>
+      (and
+        (tla__in a_v3a a_CONSTANTunde_Eunde_a)
+        (not (tla__in a_v3a (tla__fcnapp a_CONSTANTunde_funde_a a_v3a))))
+      (tla__in a_v3a a_CONSTANTunde_Eunde_a))))
+(assert
+  (forall ((a_CONSTANTunde_Punde_a u))
+    (=>
+      (forall ((a_v4a u))
+        (=>
+          (tla__in a_v4a a_CONSTANTunde_Punde_a)
+          (tla__in a_v4a a_CONSTANTunde_Eunde_a)))
+      (exists ((a_CONSTANTunde_xunde_a u))
+        (and
+          (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Eunde_a)
+          (ite
+            (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Eunde_a)
+            (=
+              (tla__fcnapp a_CONSTANTunde_funde_a a_CONSTANTunde_xunde_a)
+              a_CONSTANTunde_Punde_a)
+            (=
+              (tla__unspec a_CONSTANTunde_funde_a a_CONSTANTunde_xunde_a)
+              a_CONSTANTunde_Punde_a)))))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/cantor1_test.tlaps/tlapm_0aa6e0.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/cantor1_test.tlaps/tlapm_0aa6e0.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #8
+;;   generated from file "./cantor1_test.tla", line 27, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun tla__in (u u) Bool)
+(declare-fun tla__isAFcn (u) Bool)
+(declare-fun tla__DOMAIN (u) u)
+(declare-fun tla__fcnapp (u u) u)
+(declare-fun tla__unspec (u u) u)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Eunde_a () u)
+(declare-fun a_CONSTANTunde_dunde_a () u)
+(declare-fun a_CONSTANTunde_funde_a () u)
+
+(assert
+  (forall ((S_10 u) (T_11 u))
+  (=>
+  (forall ((X_7 u)) (= (tla__in X_7 S_10) (tla__in X_7 T_11))) (= S_10 T_11))))
+(assert
+  (forall ((F_13 u) (G_14 u))
+  (=>
+  (and
+  (tla__isAFcn F_13) (tla__isAFcn G_14)
+  (forall ((X_7 u))
+  (= (tla__in X_7 (tla__DOMAIN F_13)) (tla__in X_7 (tla__DOMAIN G_14)))))
+  (= (tla__DOMAIN F_13) (tla__DOMAIN G_14)))))
+(assert
+  (forall ((F_13 u) (G_14 u))
+  (=>
+  (and
+  (tla__isAFcn F_13) (tla__isAFcn G_14)
+  (= (tla__DOMAIN F_13) (tla__DOMAIN G_14))
+  (forall ((X_7 u))
+  (=>
+  (tla__in X_7 (tla__DOMAIN G_14))
+  (= (tla__fcnapp F_13 X_7) (tla__fcnapp G_14 X_7)))))
+  (= F_13 G_14))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (tla__isAFcn a_CONSTANTunde_funde_a))
+(assert (= (tla__DOMAIN a_CONSTANTunde_funde_a) a_CONSTANTunde_Eunde_a))
+(assert
+  (forall ((a_v1a u))
+    (=>
+      (tla__in a_v1a a_CONSTANTunde_Eunde_a)
+      (forall ((a_v2a u))
+        (=>
+          (tla__in a_v2a (tla__fcnapp a_CONSTANTunde_funde_a a_v1a))
+          (tla__in a_v2a a_CONSTANTunde_Eunde_a))))))
+(assert
+  (forall ((a_v3a u))
+    (=>
+      (and
+        (tla__in a_v3a a_CONSTANTunde_Eunde_a)
+        (not (tla__in a_v3a (tla__fcnapp a_CONSTANTunde_funde_a a_v3a))))
+      (tla__in a_v3a a_CONSTANTunde_Eunde_a))))
+(assert (tla__in a_CONSTANTunde_dunde_a a_CONSTANTunde_Eunde_a))
+(assert
+  (forall ((a_v4a u))
+    (=
+      (tla__in
+        a_v4a (tla__fcnapp a_CONSTANTunde_funde_a a_CONSTANTunde_dunde_a))
+      (and
+        (tla__in a_v4a a_CONSTANTunde_Eunde_a)
+        (ite
+          (tla__in a_v4a a_CONSTANTunde_Eunde_a)
+          (not (tla__in a_v4a (tla__fcnapp a_CONSTANTunde_funde_a a_v4a)))
+          (not (tla__in a_v4a (tla__unspec a_CONSTANTunde_funde_a a_v4a))))))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/cantor1_test.tlaps/tlapm_3d3b4b.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/cantor1_test.tlaps/tlapm_3d3b4b.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #10
+;;   generated from file "./cantor1_test.tla", line 29, characters 5-11
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun tla__in (u u) Bool)
+(declare-fun tla__isAFcn (u) Bool)
+(declare-fun tla__DOMAIN (u) u)
+(declare-fun tla__fcnapp (u u) u)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Eunde_a () u)
+(declare-fun a_CONSTANTunde_dunde_a () u)
+(declare-fun a_CONSTANTunde_funde_a () u)
+
+(assert
+  (forall ((S_9 u) (T_10 u))
+  (=> (forall ((X_6 u)) (= (tla__in X_6 S_9) (tla__in X_6 T_10))) (= S_9 T_10))))
+(assert
+  (forall ((F_12 u) (G_13 u))
+  (=>
+  (and
+  (tla__isAFcn F_12) (tla__isAFcn G_13)
+  (forall ((X_6 u))
+  (= (tla__in X_6 (tla__DOMAIN F_12)) (tla__in X_6 (tla__DOMAIN G_13)))))
+  (= (tla__DOMAIN F_12) (tla__DOMAIN G_13)))))
+(assert
+  (forall ((F_12 u) (G_13 u))
+  (=>
+  (and
+  (tla__isAFcn F_12) (tla__isAFcn G_13)
+  (= (tla__DOMAIN F_12) (tla__DOMAIN G_13))
+  (forall ((X_6 u))
+  (=>
+  (tla__in X_6 (tla__DOMAIN G_13))
+  (= (tla__fcnapp F_12 X_6) (tla__fcnapp G_13 X_6)))))
+  (= F_12 G_13))))
+
+;; Theorem to be Proved
+(assert (not
+  (=
+    (and
+      (tla__in a_CONSTANTunde_dunde_a a_CONSTANTunde_Eunde_a)
+      (not
+        (tla__in
+          a_CONSTANTunde_dunde_a
+          (tla__fcnapp a_CONSTANTunde_funde_a a_CONSTANTunde_dunde_a))))
+    (not
+      (tla__in
+        a_CONSTANTunde_dunde_a
+        (tla__fcnapp a_CONSTANTunde_funde_a a_CONSTANTunde_dunde_a))))))
+(assert (tla__isAFcn a_CONSTANTunde_funde_a))
+(assert (= (tla__DOMAIN a_CONSTANTunde_funde_a) a_CONSTANTunde_Eunde_a))
+(assert
+  (forall ((a_v1a u))
+    (=>
+      (tla__in a_v1a a_CONSTANTunde_Eunde_a)
+      (forall ((a_v2a u))
+        (=>
+          (tla__in a_v2a (tla__fcnapp a_CONSTANTunde_funde_a a_v1a))
+          (tla__in a_v2a a_CONSTANTunde_Eunde_a))))))
+(assert
+  (forall ((a_v3a u))
+    (=>
+      (and
+        (tla__in a_v3a a_CONSTANTunde_Eunde_a)
+        (not (tla__in a_v3a (tla__fcnapp a_CONSTANTunde_funde_a a_v3a))))
+      (tla__in a_v3a a_CONSTANTunde_Eunde_a))))
+(assert (tla__in a_CONSTANTunde_dunde_a a_CONSTANTunde_Eunde_a))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+(* created new ".tlacache/cantor1_test.tlaps/cantor1_test.thy" *)
+(* fingerprints written in ".tlacache/cantor1_test.tlaps/fingerprints" *)

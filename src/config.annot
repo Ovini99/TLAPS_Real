@@ -1,0 +1,48 @@
+"config.ml" 4 67 71 "config.ml" 4 67 84
+type(
+  string
+)
+ident(
+  def ocaml_version "config.ml" 6 100 100 "config.ml" 0 0 -1
+)
+"config.ml" 4 67 87 "config.ml" 4 67 95
+type(
+  string
+)
+"config.ml" 6 100 104 "config.ml" 6 100 109
+type(
+  bool
+)
+ident(
+  def debug "config.ml" 8 129 129 "config.ml" 0 0 -1
+)
+"config.ml" 6 100 112 "config.ml" 6 100 116
+type(
+  string
+)
+"config.ml" 6 100 117 "config.ml" 6 100 118
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"config.ml" 6 100 119 "config.ml" 6 100 124
+type(
+  string
+)
+"config.ml" 6 100 112 "config.ml" 6 100 124
+type(
+  bool
+)
+"config.ml" 8 129 133 "config.ml" 8 129 136
+type(
+  string
+)
+ident(
+  def exe "config.ml" 8 129 141 "config.ml" 0 0 -1
+)
+"config.ml" 8 129 139 "config.ml" 8 129 141
+type(
+  string
+)

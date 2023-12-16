@@ -1,0 +1,2173 @@
+"m_flatten.ml" 18 228 236 "m_flatten.ml" 18 228 243
+type(
+  M_t.mule -> M_t.modunit list
+)
+ident(
+  def exports "m_flatten.ml" 18 228 228 "m_flatten.ml" 0 0 -1
+)
+"m_flatten.ml" 18 228 244 "m_flatten.ml" 18 228 245
+type(
+  M_t.mule
+)
+ident(
+  def m "m_flatten.ml" 19 248 250 "m_flatten.ml" 45 1214 1244
+)
+"m_flatten.ml" 19 248 258 "m_flatten.ml" 19 248 262
+type(
+  M_t.modunit_ Property.wrapped list ->
+  M_t.modunit_ Property.wrapped list -> M_t.modunit_ Property.wrapped list
+)
+ident(
+  def spin "m_flatten.ml" 19 248 250 "m_flatten.ml" 45 1214 1244
+)
+"m_flatten.ml" 19 248 263 "m_flatten.ml" 19 248 267
+type(
+  M_t.modunit_ Property.wrapped list
+)
+ident(
+  def body "m_flatten.ml" 19 248 270 "m_flatten.ml" 42 1132 1141
+)
+"m_flatten.ml" 20 279 285 "m_flatten.ml" 20 279 287
+type(
+  M_t.modunit_ Property.wrapped list
+)
+"m_flatten.ml" 20 279 291 "m_flatten.ml" 20 279 299
+type(
+  M_t.modunit_ Property.wrapped list -> M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref Ext.List.rev "ext.mli" 11 220 222 "ext.mli" 11 220 250
+)
+"m_flatten.ml" 20 279 300 "m_flatten.ml" 20 279 304
+type(
+  M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref body "m_flatten.ml" 19 248 263 "m_flatten.ml" 19 248 267
+)
+"m_flatten.ml" 20 279 291 "m_flatten.ml" 20 279 304
+type(
+  M_t.modunit_ Property.wrapped list
+)
+"m_flatten.ml" 21 305 311 "m_flatten.ml" 21 305 313
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  def mu "m_flatten.ml" 21 305 324 "m_flatten.ml" 42 1132 1141
+)
+"m_flatten.ml" 21 305 317 "m_flatten.ml" 21 305 320
+type(
+  M_t.modunit_ Property.wrapped list
+)
+ident(
+  def mus "m_flatten.ml" 21 305 324 "m_flatten.ml" 42 1132 1141
+)
+"m_flatten.ml" 21 305 311 "m_flatten.ml" 21 305 320
+type(
+  M_t.modunit_ Property.wrapped list
+)
+"m_flatten.ml" 21 305 336 "m_flatten.ml" 21 305 338
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref mu "m_flatten.ml" 21 305 311 "m_flatten.ml" 21 305 313
+)
+"m_flatten.ml" 21 305 336 "m_flatten.ml" 21 305 343
+type(
+  M_t.modunit_
+)
+"m_flatten.ml" 22 349 371 "m_flatten.ml" 22 349 372
+type(
+  (Util.hint * Expr.T.shape) list
+)
+"m_flatten.ml" 22 349 361 "m_flatten.ml" 22 349 372
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_flatten.ml" 23 373 396 "m_flatten.ml" 23 373 397
+type(
+  (Util.hint * Expr.T.shape) list
+)
+"m_flatten.ml" 23 373 385 "m_flatten.ml" 23 373 397
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_flatten.ml" 22 349 361 "m_flatten.ml" 23 373 397
+type(
+  M_t.modunit_
+)
+"m_flatten.ml" 24 398 420 "m_flatten.ml" 24 398 421
+type(
+  Util.hints
+)
+"m_flatten.ml" 24 398 410 "m_flatten.ml" 24 398 421
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_flatten.ml" 22 349 361 "m_flatten.ml" 24 398 421
+type(
+  M_t.modunit_
+)
+"m_flatten.ml" 25 422 440 "m_flatten.ml" 25 422 441
+type(
+  Expr.T.expr
+)
+type(
+  Util.hint option
+)
+"m_flatten.ml" 25 422 434 "m_flatten.ml" 25 422 441
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_flatten.ml" 22 349 361 "m_flatten.ml" 25 422 441
+type(
+  M_t.modunit_
+)
+"m_flatten.ml" 26 442 463 "m_flatten.ml" 26 442 464
+type(
+  Expr.T.export
+)
+type(
+  Expr.T.instance
+)
+"m_flatten.ml" 26 442 454 "m_flatten.ml" 26 442 464
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_flatten.ml" 22 349 359 "m_flatten.ml" 27 465 476
+type(
+  M_t.modunit_
+)
+"m_flatten.ml" 27 465 480 "m_flatten.ml" 27 465 484
+type(
+  M_t.modunit_ Property.wrapped list ->
+  M_t.modunit_ Property.wrapped list -> M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref spin "m_flatten.ml" 19 248 258 "m_flatten.ml" 19 248 262
+)
+"m_flatten.ml" 27 465 486 "m_flatten.ml" 27 465 488
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref mu "m_flatten.ml" 21 305 311 "m_flatten.ml" 21 305 313
+)
+"m_flatten.ml" 27 465 492 "m_flatten.ml" 27 465 496
+type(
+  M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref body "m_flatten.ml" 19 248 263 "m_flatten.ml" 19 248 267
+)
+"m_flatten.ml" 27 465 485 "m_flatten.ml" 27 465 497
+type(
+  M_t.modunit_ Property.wrapped list
+)
+"m_flatten.ml" 27 465 498 "m_flatten.ml" 27 465 501
+type(
+  M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref mus "m_flatten.ml" 21 305 317 "m_flatten.ml" 21 305 320
+)
+"m_flatten.ml" 27 465 480 "m_flatten.ml" 27 465 501
+type(
+  M_t.modunit_ Property.wrapped list
+)
+"m_flatten.ml" 28 502 524 "m_flatten.ml" 28 502 526
+type(
+  Expr.T.defn
+)
+ident(
+  def df "m_flatten.ml" 29 544 556 "m_flatten.ml" 31 662 695
+)
+"m_flatten.ml" 28 502 528 "m_flatten.ml" 28 502 530
+type(
+  Expr.T.wheredef
+)
+ident(
+  def wd "m_flatten.ml" 29 544 556 "m_flatten.ml" 31 662 695
+)
+"m_flatten.ml" 28 502 532 "m_flatten.ml" 28 502 535
+type(
+  Expr.T.visibility
+)
+ident(
+  def vis "m_flatten.ml" 29 544 556 "m_flatten.ml" 31 662 695
+)
+"m_flatten.ml" 28 502 537 "m_flatten.ml" 28 502 539
+type(
+  Expr.T.export
+)
+ident(
+  def ex "m_flatten.ml" 29 544 556 "m_flatten.ml" 31 662 695
+)
+"m_flatten.ml" 28 502 512 "m_flatten.ml" 28 502 540
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_flatten.ml" 29 544 560 "m_flatten.ml" 29 544 562
+type(
+  Expr.T.wheredef
+)
+ident(
+  def wd "m_flatten.ml" 30 603 615 "m_flatten.ml" 31 662 695
+)
+"m_flatten.ml" 29 544 568 "m_flatten.ml" 29 544 570
+type(
+  Expr.T.export
+)
+ident(
+  int_ref ex "m_flatten.ml" 28 502 537 "m_flatten.ml" 28 502 539
+)
+"m_flatten.ml" 29 544 571 "m_flatten.ml" 29 544 572
+type(
+  Expr.T.export -> Expr.T.export -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_flatten.ml" 29 544 573 "m_flatten.ml" 29 544 578
+type(
+  Expr.T.export
+)
+"m_flatten.ml" 29 544 568 "m_flatten.ml" 29 544 578
+type(
+  bool
+)
+"m_flatten.ml" 29 544 584 "m_flatten.ml" 29 544 591
+type(
+  Expr.T.wheredef
+)
+"m_flatten.ml" 29 544 597 "m_flatten.ml" 29 544 599
+type(
+  Expr.T.wheredef
+)
+ident(
+  int_ref wd "m_flatten.ml" 28 502 528 "m_flatten.ml" 28 502 530
+)
+"m_flatten.ml" 29 544 565 "m_flatten.ml" 29 544 599
+type(
+  Expr.T.wheredef
+)
+"m_flatten.ml" 30 603 619 "m_flatten.ml" 30 603 621
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  def mu "m_flatten.ml" 31 662 674 "m_flatten.ml" 31 662 695
+)
+"m_flatten.ml" 30 603 636 "m_flatten.ml" 30 603 638
+type(
+  Expr.T.defn
+)
+ident(
+  int_ref df "m_flatten.ml" 28 502 524 "m_flatten.ml" 28 502 526
+)
+"m_flatten.ml" 30 603 640 "m_flatten.ml" 30 603 642
+type(
+  Expr.T.wheredef
+)
+ident(
+  int_ref wd "m_flatten.ml" 29 544 560 "m_flatten.ml" 29 544 562
+)
+"m_flatten.ml" 30 603 644 "m_flatten.ml" 30 603 647
+type(
+  Expr.T.visibility
+)
+ident(
+  int_ref vis "m_flatten.ml" 28 502 532 "m_flatten.ml" 28 502 535
+)
+"m_flatten.ml" 30 603 649 "m_flatten.ml" 30 603 651
+type(
+  Expr.T.export
+)
+ident(
+  int_ref ex "m_flatten.ml" 28 502 537 "m_flatten.ml" 28 502 539
+)
+"m_flatten.ml" 30 603 624 "m_flatten.ml" 30 603 652
+type(
+  M_t.modunit_
+)
+"m_flatten.ml" 30 603 653 "m_flatten.ml" 30 603 655
+type(
+  M_t.modunit_ ->
+  M_t.modunit_ Property.wrapped -> M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_flatten.ml" 30 603 656 "m_flatten.ml" 30 603 658
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref mu "m_flatten.ml" 21 305 311 "m_flatten.ml" 21 305 313
+)
+"m_flatten.ml" 30 603 624 "m_flatten.ml" 30 603 658
+type(
+  M_t.modunit_ Property.wrapped
+)
+"m_flatten.ml" 31 662 674 "m_flatten.ml" 31 662 678
+type(
+  M_t.modunit_ Property.wrapped list ->
+  M_t.modunit_ Property.wrapped list -> M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref spin "m_flatten.ml" 19 248 258 "m_flatten.ml" 19 248 262
+)
+"m_flatten.ml" 31 662 680 "m_flatten.ml" 31 662 682
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref mu "m_flatten.ml" 30 603 619 "m_flatten.ml" 30 603 621
+)
+"m_flatten.ml" 31 662 686 "m_flatten.ml" 31 662 690
+type(
+  M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref body "m_flatten.ml" 19 248 263 "m_flatten.ml" 19 248 267
+)
+"m_flatten.ml" 31 662 679 "m_flatten.ml" 31 662 691
+type(
+  M_t.modunit_ Property.wrapped list
+)
+"m_flatten.ml" 31 662 692 "m_flatten.ml" 31 662 695
+type(
+  M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref mus "m_flatten.ml" 21 305 317 "m_flatten.ml" 21 305 320
+)
+"m_flatten.ml" 31 662 674 "m_flatten.ml" 31 662 695
+type(
+  M_t.modunit_ Property.wrapped list
+)
+"m_flatten.ml" 30 603 615 "m_flatten.ml" 31 662 695
+type(
+  M_t.modunit_ Property.wrapped list
+)
+"m_flatten.ml" 29 544 556 "m_flatten.ml" 31 662 695
+type(
+  M_t.modunit_ Property.wrapped list
+)
+"m_flatten.ml" 32 696 713 "m_flatten.ml" 32 696 714
+type(
+  Proof.T.usable
+)
+type(
+  [ `Hide | `Use of bool ]
+)
+"m_flatten.ml" 32 696 706 "m_flatten.ml" 32 696 714
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_flatten.ml" 33 718 730 "m_flatten.ml" 33 718 734
+type(
+  M_t.modunit_ Property.wrapped list ->
+  M_t.modunit_ Property.wrapped list -> M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref spin "m_flatten.ml" 19 248 258 "m_flatten.ml" 19 248 262
+)
+"m_flatten.ml" 33 718 735 "m_flatten.ml" 33 718 739
+type(
+  M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref body "m_flatten.ml" 19 248 263 "m_flatten.ml" 19 248 267
+)
+"m_flatten.ml" 33 718 740 "m_flatten.ml" 33 718 743
+type(
+  M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref mus "m_flatten.ml" 21 305 317 "m_flatten.ml" 21 305 320
+)
+"m_flatten.ml" 33 718 730 "m_flatten.ml" 33 718 743
+type(
+  M_t.modunit_ Property.wrapped list
+)
+"m_flatten.ml" 34 744 763 "m_flatten.ml" 34 744 765
+type(
+  Util.hint option
+)
+ident(
+  def nm "m_flatten.ml" 35 799 811 "m_flatten.ml" 37 944 977
+)
+"m_flatten.ml" 34 744 767 "m_flatten.ml" 34 744 769
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "m_flatten.ml" 35 799 811 "m_flatten.ml" 37 944 977
+)
+"m_flatten.ml" 34 744 771 "m_flatten.ml" 34 744 775
+type(
+  int
+)
+ident(
+  def naxs "m_flatten.ml" 35 799 811 "m_flatten.ml" 37 944 977
+)
+"m_flatten.ml" 34 744 777 "m_flatten.ml" 34 744 778
+type(
+  Proof.T.proof
+)
+"m_flatten.ml" 34 744 780 "m_flatten.ml" 34 744 788
+type(
+  Proof.T.proof
+)
+ident(
+  def prf_orig "m_flatten.ml" 35 799 811 "m_flatten.ml" 37 944 977
+)
+"m_flatten.ml" 34 744 790 "m_flatten.ml" 34 744 794
+type(
+  M_t.summary
+)
+ident(
+  def summ "m_flatten.ml" 35 799 811 "m_flatten.ml" 37 944 977
+)
+"m_flatten.ml" 34 744 754 "m_flatten.ml" 34 744 795
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_flatten.ml" 35 799 815 "m_flatten.ml" 35 799 818
+type(
+  Proof.T.proof_ Property.wrapped
+)
+ident(
+  def prf "m_flatten.ml" 36 870 882 "m_flatten.ml" 37 944 977
+)
+"m_flatten.ml" 35 799 841 "m_flatten.ml" 35 799 855
+type(
+  M_t.modunit_ Property.wrapped -> Loc.locus
+)
+ident(
+  int_ref Util.get_locus "util.mli" 17 279 279 "util.mli" 17 279 320
+)
+"m_flatten.ml" 35 799 856 "m_flatten.ml" 35 799 858
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref mu "m_flatten.ml" 21 305 311 "m_flatten.ml" 21 305 313
+)
+"m_flatten.ml" 35 799 840 "m_flatten.ml" 35 799 859
+type(
+  Loc.locus
+)
+"m_flatten.ml" 35 799 829 "m_flatten.ml" 35 799 860
+type(
+  Proof.T.omission
+)
+"m_flatten.ml" 35 799 821 "m_flatten.ml" 35 799 860
+type(
+  Proof.T.proof_
+)
+"m_flatten.ml" 35 799 861 "m_flatten.ml" 35 799 863
+type(
+  Proof.T.proof_ ->
+  M_t.modunit_ Property.wrapped -> Proof.T.proof_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_flatten.ml" 35 799 864 "m_flatten.ml" 35 799 866
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref mu "m_flatten.ml" 21 305 311 "m_flatten.ml" 21 305 313
+)
+"m_flatten.ml" 35 799 821 "m_flatten.ml" 35 799 866
+type(
+  Proof.T.proof_ Property.wrapped
+)
+"m_flatten.ml" 36 870 886 "m_flatten.ml" 36 870 888
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  def mu "m_flatten.ml" 37 944 956 "m_flatten.ml" 37 944 977
+)
+"m_flatten.ml" 36 870 900 "m_flatten.ml" 36 870 902
+type(
+  Util.hint option
+)
+ident(
+  int_ref nm "m_flatten.ml" 34 744 763 "m_flatten.ml" 34 744 765
+)
+"m_flatten.ml" 36 870 904 "m_flatten.ml" 36 870 906
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "m_flatten.ml" 34 744 767 "m_flatten.ml" 34 744 769
+)
+"m_flatten.ml" 36 870 908 "m_flatten.ml" 36 870 912
+type(
+  int
+)
+ident(
+  int_ref naxs "m_flatten.ml" 34 744 771 "m_flatten.ml" 34 744 775
+)
+"m_flatten.ml" 36 870 914 "m_flatten.ml" 36 870 917
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref prf "m_flatten.ml" 35 799 815 "m_flatten.ml" 35 799 818
+)
+"m_flatten.ml" 36 870 919 "m_flatten.ml" 36 870 927
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref prf_orig "m_flatten.ml" 34 744 780 "m_flatten.ml" 34 744 788
+)
+"m_flatten.ml" 36 870 929 "m_flatten.ml" 36 870 933
+type(
+  M_t.summary
+)
+ident(
+  int_ref summ "m_flatten.ml" 34 744 790 "m_flatten.ml" 34 744 794
+)
+"m_flatten.ml" 36 870 891 "m_flatten.ml" 36 870 934
+type(
+  M_t.modunit_
+)
+"m_flatten.ml" 36 870 935 "m_flatten.ml" 36 870 937
+type(
+  M_t.modunit_ ->
+  M_t.modunit_ Property.wrapped -> M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_flatten.ml" 36 870 938 "m_flatten.ml" 36 870 940
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref mu "m_flatten.ml" 21 305 311 "m_flatten.ml" 21 305 313
+)
+"m_flatten.ml" 36 870 891 "m_flatten.ml" 36 870 940
+type(
+  M_t.modunit_ Property.wrapped
+)
+"m_flatten.ml" 37 944 956 "m_flatten.ml" 37 944 960
+type(
+  M_t.modunit_ Property.wrapped list ->
+  M_t.modunit_ Property.wrapped list -> M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref spin "m_flatten.ml" 19 248 258 "m_flatten.ml" 19 248 262
+)
+"m_flatten.ml" 37 944 962 "m_flatten.ml" 37 944 964
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref mu "m_flatten.ml" 36 870 886 "m_flatten.ml" 36 870 888
+)
+"m_flatten.ml" 37 944 968 "m_flatten.ml" 37 944 972
+type(
+  M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref body "m_flatten.ml" 19 248 263 "m_flatten.ml" 19 248 267
+)
+"m_flatten.ml" 37 944 961 "m_flatten.ml" 37 944 973
+type(
+  M_t.modunit_ Property.wrapped list
+)
+"m_flatten.ml" 37 944 974 "m_flatten.ml" 37 944 977
+type(
+  M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref mus "m_flatten.ml" 21 305 317 "m_flatten.ml" 21 305 320
+)
+"m_flatten.ml" 37 944 956 "m_flatten.ml" 37 944 977
+type(
+  M_t.modunit_ Property.wrapped list
+)
+"m_flatten.ml" 36 870 882 "m_flatten.ml" 37 944 977
+type(
+  M_t.modunit_ Property.wrapped list
+)
+"m_flatten.ml" 35 799 811 "m_flatten.ml" 37 944 977
+type(
+  M_t.modunit_ Property.wrapped list
+)
+"m_flatten.ml" 38 978 995 "m_flatten.ml" 38 978 996
+type(
+  M_t.mule
+)
+ident(
+  def m "m_flatten.ml" 39 1000 1012 "m_flatten.ml" 41 1098 1131
+)
+"m_flatten.ml" 38 978 988 "m_flatten.ml" 38 978 996
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_flatten.ml" 39 1000 1016 "m_flatten.ml" 39 1000 1017
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  def m "m_flatten.ml" 40 1059 1071 "m_flatten.ml" 41 1098 1131
+)
+"m_flatten.ml" 39 1000 1021 "m_flatten.ml" 39 1000 1022
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_flatten.ml" 38 978 995 "m_flatten.ml" 38 978 996
+)
+"m_flatten.ml" 39 1000 1021 "m_flatten.ml" 39 1000 1027
+type(
+  M_t.mule_
+)
+"m_flatten.ml" 39 1000 1040 "m_flatten.ml" 39 1000 1047
+type(
+  M_t.mule -> M_t.modunit list
+)
+ident(
+  int_ref exports "m_flatten.ml" 18 228 236 "m_flatten.ml" 18 228 243
+)
+"m_flatten.ml" 39 1000 1048 "m_flatten.ml" 39 1000 1049
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_flatten.ml" 38 978 995 "m_flatten.ml" 38 978 996
+)
+"m_flatten.ml" 39 1000 1040 "m_flatten.ml" 39 1000 1049
+type(
+  M_t.modunit list
+)
+"m_flatten.ml" 39 1000 1020 "m_flatten.ml" 39 1000 1050
+type(
+  M_t.mule_
+)
+"m_flatten.ml" 39 1000 1051 "m_flatten.ml" 39 1000 1053
+type(
+  M_t.mule_ -> M_t.mule -> M_t.mule_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_flatten.ml" 39 1000 1054 "m_flatten.ml" 39 1000 1055
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_flatten.ml" 38 978 995 "m_flatten.ml" 38 978 996
+)
+"m_flatten.ml" 39 1000 1020 "m_flatten.ml" 39 1000 1055
+type(
+  M_t.mule_ Property.wrapped
+)
+"m_flatten.ml" 40 1059 1075 "m_flatten.ml" 40 1059 1077
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  def mu "m_flatten.ml" 41 1098 1110 "m_flatten.ml" 41 1098 1131
+)
+"m_flatten.ml" 40 1059 1087 "m_flatten.ml" 40 1059 1088
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_flatten.ml" 39 1000 1016 "m_flatten.ml" 39 1000 1017
+)
+"m_flatten.ml" 40 1059 1080 "m_flatten.ml" 40 1059 1088
+type(
+  M_t.modunit_
+)
+"m_flatten.ml" 40 1059 1089 "m_flatten.ml" 40 1059 1091
+type(
+  M_t.modunit_ ->
+  M_t.modunit_ Property.wrapped -> M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_flatten.ml" 40 1059 1092 "m_flatten.ml" 40 1059 1094
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref mu "m_flatten.ml" 21 305 311 "m_flatten.ml" 21 305 313
+)
+"m_flatten.ml" 40 1059 1080 "m_flatten.ml" 40 1059 1094
+type(
+  M_t.modunit_ Property.wrapped
+)
+"m_flatten.ml" 41 1098 1110 "m_flatten.ml" 41 1098 1114
+type(
+  M_t.modunit_ Property.wrapped list ->
+  M_t.modunit_ Property.wrapped list -> M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref spin "m_flatten.ml" 19 248 258 "m_flatten.ml" 19 248 262
+)
+"m_flatten.ml" 41 1098 1116 "m_flatten.ml" 41 1098 1118
+type(
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref mu "m_flatten.ml" 40 1059 1075 "m_flatten.ml" 40 1059 1077
+)
+"m_flatten.ml" 41 1098 1122 "m_flatten.ml" 41 1098 1126
+type(
+  M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref body "m_flatten.ml" 19 248 263 "m_flatten.ml" 19 248 267
+)
+"m_flatten.ml" 41 1098 1115 "m_flatten.ml" 41 1098 1127
+type(
+  M_t.modunit_ Property.wrapped list
+)
+"m_flatten.ml" 41 1098 1128 "m_flatten.ml" 41 1098 1131
+type(
+  M_t.modunit_ Property.wrapped list
+)
+ident(
+  int_ref mus "m_flatten.ml" 21 305 317 "m_flatten.ml" 21 305 320
+)
+"m_flatten.ml" 41 1098 1110 "m_flatten.ml" 41 1098 1131
+type(
+  M_t.modunit_ Property.wrapped list
+)
+"m_flatten.ml" 40 1059 1071 "m_flatten.ml" 41 1098 1131
+type(
+  M_t.modunit_ Property.wrapped list
+)
+"m_flatten.ml" 39 1000 1012 "m_flatten.ml" 41 1098 1131
+type(
+  M_t.modunit_ Property.wrapped list
+)
+"m_flatten.ml" 21 305 324 "m_flatten.ml" 42 1132 1141
+type(
+  M_t.modunit_ Property.wrapped list
+)
+"m_flatten.ml" 19 248 270 "m_flatten.ml" 42 1132 1141
+type(
+  M_t.modunit_ Property.wrapped list -> M_t.modunit_ Property.wrapped list
+)
+"m_flatten.ml" 43 1142 1153 "m_flatten.ml" 43 1142 1154
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_flatten.ml" 18 228 244 "m_flatten.ml" 18 228 245
+)
+"m_flatten.ml" 43 1142 1153 "m_flatten.ml" 43 1142 1159
+type(
+  M_t.mule_
+)
+"m_flatten.ml" 43 1142 1153 "m_flatten.ml" 43 1142 1165
+type(
+  M_t.stage
+)
+"m_flatten.ml" 44 1171 1183 "m_flatten.ml" 44 1171 1186
+type(
+  M_t.final
+)
+ident(
+  def fin "m_flatten.ml" 44 1171 1190 "m_flatten.ml" 44 1171 1213
+)
+"m_flatten.ml" 44 1171 1177 "m_flatten.ml" 44 1171 1186
+type(
+  M_t.stage
+)
+type(
+  M_t.stage
+)
+"m_flatten.ml" 44 1171 1190 "m_flatten.ml" 44 1171 1194
+type(
+  M_t.modunit list -> M_t.modunit list -> M_t.modunit list
+)
+ident(
+  int_ref spin "m_flatten.ml" 19 248 258 "m_flatten.ml" 19 248 262
+)
+"m_flatten.ml" 44 1171 1195 "m_flatten.ml" 44 1171 1197
+type(
+  M_t.modunit list
+)
+"m_flatten.ml" 44 1171 1198 "m_flatten.ml" 44 1171 1201
+type(
+  M_t.final
+)
+ident(
+  int_ref fin "m_flatten.ml" 44 1171 1183 "m_flatten.ml" 44 1171 1186
+)
+"m_flatten.ml" 44 1171 1198 "m_flatten.ml" 44 1171 1213
+type(
+  M_t.modunit list
+)
+"m_flatten.ml" 44 1171 1190 "m_flatten.ml" 44 1171 1213
+type(
+  M_t.modunit list
+)
+"m_flatten.ml" 45 1214 1220 "m_flatten.ml" 45 1214 1221
+type(
+  M_t.stage
+)
+type(
+  M_t.stage
+)
+"m_flatten.ml" 45 1214 1225 "m_flatten.ml" 45 1214 1229
+type(
+  M_t.modunit list -> M_t.modunit list -> M_t.modunit list
+)
+ident(
+  int_ref spin "m_flatten.ml" 19 248 258 "m_flatten.ml" 19 248 262
+)
+"m_flatten.ml" 45 1214 1230 "m_flatten.ml" 45 1214 1232
+type(
+  M_t.modunit list
+)
+"m_flatten.ml" 45 1214 1233 "m_flatten.ml" 45 1214 1234
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_flatten.ml" 18 228 244 "m_flatten.ml" 18 228 245
+)
+"m_flatten.ml" 45 1214 1233 "m_flatten.ml" 45 1214 1239
+type(
+  M_t.mule_
+)
+"m_flatten.ml" 45 1214 1233 "m_flatten.ml" 45 1214 1244
+type(
+  M_t.modunit list
+)
+"m_flatten.ml" 45 1214 1225 "m_flatten.ml" 45 1214 1244
+type(
+  M_t.modunit list
+)
+"m_flatten.ml" 43 1142 1147 "m_flatten.ml" 45 1214 1244
+type(
+  M_t.modunit list
+)
+"m_flatten.ml" 19 248 250 "m_flatten.ml" 45 1214 1244
+type(
+  M_t.modunit list
+)
+"m_flatten.ml" 47 1246 1254 "m_flatten.ml" 47 1246 1261
+type(
+  M_t.modctx -> M_t.mule -> Util.Coll.Ss.t -> M_t.mule * Util.Coll.Ss.t
+)
+ident(
+  def flatten "m_flatten.ml" 47 1246 1246 "m_flatten.ml" 0 0 -1
+)
+"m_flatten.ml" 47 1246 1263 "m_flatten.ml" 47 1246 1266
+type(
+  M_t.modctx
+)
+type(
+  M_t.modctx
+)
+ident(
+  def mcx "m_flatten.ml" 47 1246 1277 "m_flatten.ml" 67 1944 1972
+)
+"m_flatten.ml" 47 1246 1277 "m_flatten.ml" 47 1246 1278
+type(
+  M_t.mule
+)
+ident(
+  def m "m_flatten.ml" 47 1246 1279 "m_flatten.ml" 67 1944 1972
+)
+"m_flatten.ml" 47 1246 1279 "m_flatten.ml" 47 1246 1283
+type(
+  Util.Coll.Ss.t
+)
+ident(
+  def seen "m_flatten.ml" 54 1436 1438 "m_flatten.ml" 67 1944 1972
+)
+"m_flatten.ml" 54 1436 1446 "m_flatten.ml" 54 1436 1458
+type(
+  (Util.hint -> bool) -> Util.hints -> bool
+)
+ident(
+  int_ref Ext.List.for_all "ext.mli" 26 1026 1028 "ext.mli" 26 1026 1073
+)
+"m_flatten.ml" 54 1436 1464 "m_flatten.ml" 54 1436 1466
+type(
+  Util.hint
+)
+ident(
+  def ex "m_flatten.ml" 54 1436 1470 "m_flatten.ml" 54 1436 1488
+)
+"m_flatten.ml" 54 1436 1470 "m_flatten.ml" 54 1436 1476
+type(
+  Util.Coll.Sm.key -> M_t.modctx -> bool
+)
+ident(
+  int_ref Util.Coll.Sm.mem "map.mli" 79 3076 3080 "map.mli" 79 3076 3108
+)
+"m_flatten.ml" 54 1436 1477 "m_flatten.ml" 54 1436 1479
+type(
+  Util.hint
+)
+ident(
+  int_ref ex "m_flatten.ml" 54 1436 1464 "m_flatten.ml" 54 1436 1466
+)
+"m_flatten.ml" 54 1436 1477 "m_flatten.ml" 54 1436 1484
+type(
+  Util.Coll.Sm.key
+)
+"m_flatten.ml" 54 1436 1485 "m_flatten.ml" 54 1436 1488
+type(
+  M_t.modctx
+)
+ident(
+  int_ref mcx "m_flatten.ml" 47 1246 1263 "m_flatten.ml" 47 1246 1266
+)
+"m_flatten.ml" 54 1436 1470 "m_flatten.ml" 54 1436 1488
+type(
+  bool
+)
+"m_flatten.ml" 54 1436 1459 "m_flatten.ml" 54 1436 1489
+type(
+  Util.hint -> bool
+)
+"m_flatten.ml" 54 1436 1490 "m_flatten.ml" 54 1436 1491
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_flatten.ml" 47 1246 1277 "m_flatten.ml" 47 1246 1278
+)
+"m_flatten.ml" 54 1436 1490 "m_flatten.ml" 54 1436 1496
+type(
+  M_t.mule_
+)
+"m_flatten.ml" 54 1436 1490 "m_flatten.ml" 54 1436 1506
+type(
+  Util.hints
+)
+"m_flatten.ml" 54 1436 1445 "m_flatten.ml" 54 1436 1507
+type(
+  bool
+)
+"m_flatten.ml" 54 1436 1438 "m_flatten.ml" 54 1436 1507
+type(
+  unit
+)
+"m_flatten.ml" 55 1509 1516 "m_flatten.ml" 55 1509 1522
+type(
+  M_t.modunit list list
+)
+ident(
+  def exbods "m_flatten.ml" 65 1830 1832 "m_flatten.ml" 67 1944 1972
+)
+"m_flatten.ml" 55 1509 1524 "m_flatten.ml" 55 1509 1528
+type(
+  Util.Coll.Ss.t
+)
+ident(
+  def seen "m_flatten.ml" 65 1830 1832 "m_flatten.ml" 67 1944 1972
+)
+"m_flatten.ml" 55 1509 1515 "m_flatten.ml" 55 1509 1529
+type(
+  M_t.modunit list list * Util.Coll.Ss.t
+)
+"m_flatten.ml" 56 1532 1540 "m_flatten.ml" 56 1532 1541
+type(
+  M_t.modunit list list * Util.Coll.Ss.t ->
+  Util.Coll.Ss.elt Property.wrapped -> M_t.modunit list list * Util.Coll.Ss.t
+)
+ident(
+  def f "m_flatten.ml" 63 1776 1780 "m_flatten.ml" 63 1776 1824
+)
+"m_flatten.ml" 56 1532 1543 "m_flatten.ml" 56 1532 1546
+type(
+  M_t.modunit list list
+)
+ident(
+  def acc "m_flatten.ml" 56 1532 1554 "m_flatten.ml" 61 1759 1768
+)
+"m_flatten.ml" 56 1532 1548 "m_flatten.ml" 56 1532 1552
+type(
+  Util.Coll.Ss.t
+)
+ident(
+  def seen "m_flatten.ml" 56 1532 1554 "m_flatten.ml" 61 1759 1768
+)
+"m_flatten.ml" 56 1532 1542 "m_flatten.ml" 56 1532 1553
+type(
+  M_t.modunit list list * Util.Coll.Ss.t
+)
+"m_flatten.ml" 56 1532 1554 "m_flatten.ml" 56 1532 1556
+type(
+  Util.Coll.Ss.elt Property.wrapped
+)
+ident(
+  def ex "m_flatten.ml" 57 1559 1565 "m_flatten.ml" 61 1759 1768
+)
+"m_flatten.ml" 57 1559 1568 "m_flatten.ml" 57 1559 1574
+type(
+  Util.Coll.Ss.elt -> Util.Coll.Ss.t -> bool
+)
+ident(
+  int_ref Util.Coll.Ss.mem "set.mli" 80 3035 3039 "set.mli" 80 3035 3064
+)
+"m_flatten.ml" 57 1559 1575 "m_flatten.ml" 57 1559 1577
+type(
+  Util.Coll.Ss.elt Property.wrapped
+)
+ident(
+  int_ref ex "m_flatten.ml" 56 1532 1554 "m_flatten.ml" 56 1532 1556
+)
+"m_flatten.ml" 57 1559 1575 "m_flatten.ml" 57 1559 1582
+type(
+  Util.Coll.Ss.elt
+)
+"m_flatten.ml" 57 1559 1583 "m_flatten.ml" 57 1559 1587
+type(
+  Util.Coll.Ss.t
+)
+ident(
+  int_ref seen "m_flatten.ml" 56 1532 1548 "m_flatten.ml" 56 1532 1552
+)
+"m_flatten.ml" 57 1559 1568 "m_flatten.ml" 57 1559 1587
+type(
+  bool
+)
+"m_flatten.ml" 57 1559 1594 "m_flatten.ml" 57 1559 1597
+type(
+  M_t.modunit list list
+)
+ident(
+  int_ref acc "m_flatten.ml" 56 1532 1543 "m_flatten.ml" 56 1532 1546
+)
+"m_flatten.ml" 57 1559 1599 "m_flatten.ml" 57 1559 1603
+type(
+  Util.Coll.Ss.t
+)
+ident(
+  int_ref seen "m_flatten.ml" 56 1532 1548 "m_flatten.ml" 56 1532 1552
+)
+"m_flatten.ml" 57 1559 1593 "m_flatten.ml" 57 1559 1604
+type(
+  M_t.modunit list list * Util.Coll.Ss.t
+)
+"m_flatten.ml" 58 1616 1628 "m_flatten.ml" 58 1616 1631
+type(
+  M_t.mule
+)
+ident(
+  def exm "m_flatten.ml" 59 1657 1665 "m_flatten.ml" 60 1708 1758
+)
+"m_flatten.ml" 58 1616 1634 "m_flatten.ml" 58 1616 1641
+type(
+  Util.Coll.Sm.key -> M_t.modctx -> M_t.mule
+)
+ident(
+  int_ref Util.Coll.Sm.find "map.mli" 278 11157 11161 "map.mli" 278 11157 11188
+)
+"m_flatten.ml" 58 1616 1642 "m_flatten.ml" 58 1616 1644
+type(
+  Util.Coll.Ss.elt Property.wrapped
+)
+ident(
+  int_ref ex "m_flatten.ml" 56 1532 1554 "m_flatten.ml" 56 1532 1556
+)
+"m_flatten.ml" 58 1616 1642 "m_flatten.ml" 58 1616 1649
+type(
+  Util.Coll.Ss.elt
+)
+"m_flatten.ml" 58 1616 1650 "m_flatten.ml" 58 1616 1653
+type(
+  M_t.modctx
+)
+ident(
+  int_ref mcx "m_flatten.ml" 47 1246 1263 "m_flatten.ml" 47 1246 1266
+)
+"m_flatten.ml" 58 1616 1634 "m_flatten.ml" 58 1616 1653
+type(
+  M_t.mule
+)
+"m_flatten.ml" 59 1657 1670 "m_flatten.ml" 59 1657 1674
+type(
+  M_t.mule
+)
+ident(
+  def exmf "m_flatten.ml" 60 1708 1716 "m_flatten.ml" 60 1708 1758
+)
+"m_flatten.ml" 59 1657 1676 "m_flatten.ml" 59 1657 1680
+type(
+  Util.Coll.Ss.t
+)
+ident(
+  def seen "m_flatten.ml" 60 1708 1716 "m_flatten.ml" 60 1708 1758
+)
+"m_flatten.ml" 59 1657 1669 "m_flatten.ml" 59 1657 1681
+type(
+  M_t.mule * Util.Coll.Ss.t
+)
+"m_flatten.ml" 59 1657 1684 "m_flatten.ml" 59 1657 1691
+type(
+  M_t.modctx -> M_t.mule -> Util.Coll.Ss.t -> M_t.mule * Util.Coll.Ss.t
+)
+ident(
+  int_ref flatten "m_flatten.ml" 47 1246 1254 "m_flatten.ml" 47 1246 1261
+)
+"m_flatten.ml" 59 1657 1692 "m_flatten.ml" 59 1657 1695
+type(
+  M_t.modctx
+)
+ident(
+  int_ref mcx "m_flatten.ml" 47 1246 1263 "m_flatten.ml" 47 1246 1266
+)
+"m_flatten.ml" 59 1657 1696 "m_flatten.ml" 59 1657 1699
+type(
+  M_t.mule
+)
+ident(
+  int_ref exm "m_flatten.ml" 58 1616 1628 "m_flatten.ml" 58 1616 1631
+)
+"m_flatten.ml" 59 1657 1700 "m_flatten.ml" 59 1657 1704
+type(
+  Util.Coll.Ss.t
+)
+ident(
+  int_ref seen "m_flatten.ml" 56 1532 1548 "m_flatten.ml" 56 1532 1552
+)
+"m_flatten.ml" 59 1657 1684 "m_flatten.ml" 59 1657 1704
+type(
+  M_t.mule * Util.Coll.Ss.t
+)
+"m_flatten.ml" 60 1708 1717 "m_flatten.ml" 60 1708 1724
+type(
+  M_t.mule -> M_t.modunit list
+)
+ident(
+  int_ref exports "m_flatten.ml" 18 228 236 "m_flatten.ml" 18 228 243
+)
+"m_flatten.ml" 60 1708 1725 "m_flatten.ml" 60 1708 1729
+type(
+  M_t.mule
+)
+ident(
+  int_ref exmf "m_flatten.ml" 59 1657 1670 "m_flatten.ml" 59 1657 1674
+)
+"m_flatten.ml" 60 1708 1717 "m_flatten.ml" 60 1708 1729
+type(
+  M_t.modunit list
+)
+"m_flatten.ml" 60 1708 1733 "m_flatten.ml" 60 1708 1736
+type(
+  M_t.modunit list list
+)
+ident(
+  int_ref acc "m_flatten.ml" 56 1532 1543 "m_flatten.ml" 56 1532 1546
+)
+"m_flatten.ml" 60 1708 1717 "m_flatten.ml" 60 1708 1736
+type(
+  M_t.modunit list list
+)
+"m_flatten.ml" 60 1708 1738 "m_flatten.ml" 60 1708 1744
+type(
+  Util.Coll.Ss.elt -> Util.Coll.Ss.t -> Util.Coll.Ss.t
+)
+ident(
+  int_ref Util.Coll.Ss.add "set.mli" 83 3129 3133 "set.mli" 83 3129 3155
+)
+"m_flatten.ml" 60 1708 1745 "m_flatten.ml" 60 1708 1747
+type(
+  Util.Coll.Ss.elt Property.wrapped
+)
+ident(
+  int_ref ex "m_flatten.ml" 56 1532 1554 "m_flatten.ml" 56 1532 1556
+)
+"m_flatten.ml" 60 1708 1745 "m_flatten.ml" 60 1708 1752
+type(
+  Util.Coll.Ss.elt
+)
+"m_flatten.ml" 60 1708 1753 "m_flatten.ml" 60 1708 1757
+type(
+  Util.Coll.Ss.t
+)
+ident(
+  int_ref seen "m_flatten.ml" 59 1657 1676 "m_flatten.ml" 59 1657 1680
+)
+"m_flatten.ml" 60 1708 1738 "m_flatten.ml" 60 1708 1757
+type(
+  Util.Coll.Ss.t
+)
+"m_flatten.ml" 60 1708 1716 "m_flatten.ml" 60 1708 1758
+type(
+  M_t.modunit list list * Util.Coll.Ss.t
+)
+"m_flatten.ml" 59 1657 1665 "m_flatten.ml" 60 1708 1758
+type(
+  M_t.modunit list list * Util.Coll.Ss.t
+)
+"m_flatten.ml" 57 1559 1610 "m_flatten.ml" 61 1759 1768
+type(
+  M_t.modunit list list * Util.Coll.Ss.t
+)
+"m_flatten.ml" 57 1559 1565 "m_flatten.ml" 61 1759 1768
+type(
+  M_t.modunit list list * Util.Coll.Ss.t
+)
+"m_flatten.ml" 63 1776 1780 "m_flatten.ml" 63 1776 1794
+type(
+  (M_t.modunit list list * Util.Coll.Ss.t ->
+   Util.hint -> M_t.modunit list list * Util.Coll.Ss.t) ->
+  M_t.modunit list list * Util.Coll.Ss.t ->
+  Util.hints -> M_t.modunit list list * Util.Coll.Ss.t
+)
+ident(
+  int_ref Ext.List.fold_left "ext.mli" 19 563 565 "ext.mli" 19 563 620
+)
+"m_flatten.ml" 63 1776 1795 "m_flatten.ml" 63 1776 1796
+type(
+  M_t.modunit list list * Util.Coll.Ss.t ->
+  Util.hint -> M_t.modunit list list * Util.Coll.Ss.t
+)
+ident(
+  int_ref f "m_flatten.ml" 56 1532 1540 "m_flatten.ml" 56 1532 1541
+)
+"m_flatten.ml" 63 1776 1798 "m_flatten.ml" 63 1776 1800
+type(
+  M_t.modunit list list
+)
+"m_flatten.ml" 63 1776 1802 "m_flatten.ml" 63 1776 1806
+type(
+  Util.Coll.Ss.t
+)
+ident(
+  int_ref seen "m_flatten.ml" 47 1246 1279 "m_flatten.ml" 47 1246 1283
+)
+"m_flatten.ml" 63 1776 1797 "m_flatten.ml" 63 1776 1807
+type(
+  M_t.modunit list list * Util.Coll.Ss.t
+)
+"m_flatten.ml" 63 1776 1808 "m_flatten.ml" 63 1776 1809
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_flatten.ml" 47 1246 1277 "m_flatten.ml" 47 1246 1278
+)
+"m_flatten.ml" 63 1776 1808 "m_flatten.ml" 63 1776 1814
+type(
+  M_t.mule_
+)
+"m_flatten.ml" 63 1776 1808 "m_flatten.ml" 63 1776 1824
+type(
+  Util.hints
+)
+"m_flatten.ml" 63 1776 1780 "m_flatten.ml" 63 1776 1824
+type(
+  M_t.modunit list list * Util.Coll.Ss.t
+)
+"m_flatten.ml" 56 1532 1536 "m_flatten.ml" 63 1776 1824
+type(
+  M_t.modunit list list * Util.Coll.Ss.t
+)
+"m_flatten.ml" 65 1830 1836 "m_flatten.ml" 65 1830 1845
+type(
+  M_t.modunit list
+)
+ident(
+  def extension "m_flatten.ml" 66 1881 1883 "m_flatten.ml" 67 1944 1972
+)
+"m_flatten.ml" 65 1830 1848 "m_flatten.ml" 65 1830 1859
+type(
+  M_t.modunit list list -> M_t.modunit list
+)
+ident(
+  int_ref Ext.List.concat "ext.mli" 14 345 347 "ext.mli" 14 345 383
+)
+"m_flatten.ml" 65 1830 1861 "m_flatten.ml" 65 1830 1869
+type(
+  M_t.modunit list list -> M_t.modunit list list
+)
+ident(
+  int_ref Ext.List.rev "ext.mli" 11 220 222 "ext.mli" 11 220 250
+)
+"m_flatten.ml" 65 1830 1870 "m_flatten.ml" 65 1830 1876
+type(
+  M_t.modunit list list
+)
+ident(
+  int_ref exbods "m_flatten.ml" 55 1509 1516 "m_flatten.ml" 55 1509 1522
+)
+"m_flatten.ml" 65 1830 1860 "m_flatten.ml" 65 1830 1877
+type(
+  M_t.modunit list list
+)
+"m_flatten.ml" 65 1830 1848 "m_flatten.ml" 65 1830 1877
+type(
+  M_t.modunit list
+)
+"m_flatten.ml" 66 1881 1887 "m_flatten.ml" 66 1881 1888
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  def m "m_flatten.ml" 67 1944 1946 "m_flatten.ml" 67 1944 1972
+)
+"m_flatten.ml" 66 1881 1892 "m_flatten.ml" 66 1881 1893
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_flatten.ml" 47 1246 1277 "m_flatten.ml" 47 1246 1278
+)
+"m_flatten.ml" 66 1881 1892 "m_flatten.ml" 66 1881 1898
+type(
+  M_t.mule_
+)
+"m_flatten.ml" 66 1881 1911 "m_flatten.ml" 66 1881 1920
+type(
+  M_t.modunit list
+)
+ident(
+  int_ref extension "m_flatten.ml" 65 1830 1836 "m_flatten.ml" 65 1830 1845
+)
+"m_flatten.ml" 66 1881 1921 "m_flatten.ml" 66 1881 1922
+type(
+  M_t.modunit list -> M_t.modunit list -> M_t.modunit list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"m_flatten.ml" 66 1881 1923 "m_flatten.ml" 66 1881 1924
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_flatten.ml" 47 1246 1277 "m_flatten.ml" 47 1246 1278
+)
+"m_flatten.ml" 66 1881 1923 "m_flatten.ml" 66 1881 1929
+type(
+  M_t.mule_
+)
+"m_flatten.ml" 66 1881 1923 "m_flatten.ml" 66 1881 1934
+type(
+  M_t.modunit list
+)
+"m_flatten.ml" 66 1881 1911 "m_flatten.ml" 66 1881 1934
+type(
+  M_t.modunit list
+)
+"m_flatten.ml" 66 1881 1891 "m_flatten.ml" 66 1881 1935
+type(
+  M_t.mule_
+)
+"m_flatten.ml" 66 1881 1936 "m_flatten.ml" 66 1881 1938
+type(
+  M_t.mule_ -> M_t.mule -> M_t.mule_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_flatten.ml" 66 1881 1939 "m_flatten.ml" 66 1881 1940
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_flatten.ml" 47 1246 1277 "m_flatten.ml" 47 1246 1278
+)
+"m_flatten.ml" 66 1881 1891 "m_flatten.ml" 66 1881 1940
+type(
+  M_t.mule_ Property.wrapped
+)
+"m_flatten.ml" 67 1944 1947 "m_flatten.ml" 67 1944 1959
+type(
+  M_t.modctx -> M_t.mule_ Property.wrapped -> M_t.mule
+)
+ident(
+  int_ref flatten_body "m_flatten.ml" 69 1974 1978 "m_flatten.ml" 69 1974 1990
+)
+"m_flatten.ml" 67 1944 1960 "m_flatten.ml" 67 1944 1963
+type(
+  M_t.modctx
+)
+ident(
+  int_ref mcx "m_flatten.ml" 47 1246 1263 "m_flatten.ml" 47 1246 1266
+)
+"m_flatten.ml" 67 1944 1964 "m_flatten.ml" 67 1944 1965
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  int_ref m "m_flatten.ml" 66 1881 1887 "m_flatten.ml" 66 1881 1888
+)
+"m_flatten.ml" 67 1944 1947 "m_flatten.ml" 67 1944 1965
+type(
+  M_t.mule
+)
+"m_flatten.ml" 67 1944 1967 "m_flatten.ml" 67 1944 1971
+type(
+  Util.Coll.Ss.t
+)
+ident(
+  int_ref seen "m_flatten.ml" 55 1509 1524 "m_flatten.ml" 55 1509 1528
+)
+"m_flatten.ml" 67 1944 1946 "m_flatten.ml" 67 1944 1972
+type(
+  M_t.mule * Util.Coll.Ss.t
+)
+"m_flatten.ml" 66 1881 1883 "m_flatten.ml" 67 1944 1972
+type(
+  M_t.mule * Util.Coll.Ss.t
+)
+"m_flatten.ml" 65 1830 1832 "m_flatten.ml" 67 1944 1972
+type(
+  M_t.mule * Util.Coll.Ss.t
+)
+"m_flatten.ml" 55 1509 1511 "m_flatten.ml" 67 1944 1972
+type(
+  M_t.mule * Util.Coll.Ss.t
+)
+"m_flatten.ml" 54 1436 1438 "m_flatten.ml" 67 1944 1972
+type(
+  M_t.mule * Util.Coll.Ss.t
+)
+"m_flatten.ml" 69 1974 1978 "m_flatten.ml" 69 1974 1990
+type(
+  M_t.modctx -> M_t.mule_ Property.wrapped -> M_t.mule
+)
+ident(
+  def flatten_body "m_flatten.ml" 47 1246 1246 "m_flatten.ml" 0 0 -1
+)
+"m_flatten.ml" 69 1974 1991 "m_flatten.ml" 69 1974 1994
+type(
+  M_t.modctx
+)
+ident(
+  def mcx "m_flatten.ml" 69 1974 1995 "m_flatten.ml" 91 2698 2761
+)
+"m_flatten.ml" 69 1974 1995 "m_flatten.ml" 69 1974 1996
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  def m "m_flatten.ml" 70 1999 2001 "m_flatten.ml" 91 2698 2761
+)
+"m_flatten.ml" 70 1999 2005 "m_flatten.ml" 70 1999 2011
+type(
+  M_t.modunit Deque.dq ref
+)
+ident(
+  def prefix "m_flatten.ml" 71 2033 2035 "m_flatten.ml" 91 2698 2761
+)
+"m_flatten.ml" 70 1999 2014 "m_flatten.ml" 70 1999 2017
+type(
+  M_t.modunit Deque.dq -> M_t.modunit Deque.dq ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"m_flatten.ml" 70 1999 2018 "m_flatten.ml" 70 1999 2029
+type(
+  M_t.modunit Deque.dq
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"m_flatten.ml" 70 1999 2014 "m_flatten.ml" 70 1999 2029
+type(
+  M_t.modunit Deque.dq ref
+)
+"m_flatten.ml" 71 2033 2039 "m_flatten.ml" 71 2033 2043
+type(
+  M_t.modunit -> unit
+)
+ident(
+  def emit "m_flatten.ml" 72 2084 2086 "m_flatten.ml" 91 2698 2761
+)
+"m_flatten.ml" 71 2033 2044 "m_flatten.ml" 71 2033 2046
+type(
+  M_t.modunit
+)
+ident(
+  def mu "m_flatten.ml" 71 2033 2049 "m_flatten.ml" 71 2033 2080
+)
+"m_flatten.ml" 71 2033 2049 "m_flatten.ml" 71 2033 2055
+type(
+  M_t.modunit Deque.dq ref
+)
+ident(
+  int_ref prefix "m_flatten.ml" 70 1999 2005 "m_flatten.ml" 70 1999 2011
+)
+"m_flatten.ml" 71 2033 2056 "m_flatten.ml" 71 2033 2058
+type(
+  M_t.modunit Deque.dq ref -> M_t.modunit Deque.dq -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"m_flatten.ml" 71 2033 2059 "m_flatten.ml" 71 2033 2069
+type(
+  M_t.modunit Deque.dq -> M_t.modunit -> M_t.modunit Deque.dq
+)
+ident(
+  int_ref Deque.snoc "deque.mli" 13 220 220 "deque.mli" 13 220 252
+)
+"m_flatten.ml" 71 2033 2070 "m_flatten.ml" 71 2033 2071
+type(
+  M_t.modunit Deque.dq ref -> M_t.modunit Deque.dq
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_flatten.ml" 71 2033 2071 "m_flatten.ml" 71 2033 2077
+type(
+  M_t.modunit Deque.dq ref
+)
+ident(
+  int_ref prefix "m_flatten.ml" 70 1999 2005 "m_flatten.ml" 70 1999 2011
+)
+"m_flatten.ml" 71 2033 2070 "m_flatten.ml" 71 2033 2077
+type(
+  M_t.modunit Deque.dq
+)
+"m_flatten.ml" 71 2033 2078 "m_flatten.ml" 71 2033 2080
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_flatten.ml" 71 2033 2044 "m_flatten.ml" 71 2033 2046
+)
+"m_flatten.ml" 71 2033 2059 "m_flatten.ml" 71 2033 2080
+type(
+  M_t.modunit Deque.dq
+)
+"m_flatten.ml" 71 2033 2049 "m_flatten.ml" 71 2033 2080
+type(
+  unit
+)
+"m_flatten.ml" 72 2084 2094 "m_flatten.ml" 72 2084 2098
+type(
+  M_t.modctx -> M_t.modunit list -> unit
+)
+ident(
+  def spin "m_flatten.ml" 72 2084 2086 "m_flatten.ml" 91 2698 2761
+)
+"m_flatten.ml" 72 2084 2099 "m_flatten.ml" 72 2084 2102
+type(
+  M_t.modctx
+)
+ident(
+  def mcx "m_flatten.ml" 72 2084 2105 "m_flatten.ml" 88 2658 2667
+)
+"m_flatten.ml" 73 2114 2120 "m_flatten.ml" 73 2114 2122
+type(
+  M_t.modunit list
+)
+"m_flatten.ml" 73 2114 2126 "m_flatten.ml" 73 2114 2128
+type(
+  unit
+)
+"m_flatten.ml" 74 2129 2135 "m_flatten.ml" 74 2129 2137
+type(
+  M_t.modunit
+)
+ident(
+  def mu "m_flatten.ml" 74 2129 2148 "m_flatten.ml" 88 2658 2667
+)
+"m_flatten.ml" 74 2129 2141 "m_flatten.ml" 74 2129 2144
+type(
+  M_t.modunit list
+)
+ident(
+  def mus "m_flatten.ml" 74 2129 2148 "m_flatten.ml" 88 2658 2667
+)
+"m_flatten.ml" 74 2129 2135 "m_flatten.ml" 74 2129 2144
+type(
+  M_t.modunit list
+)
+"m_flatten.ml" 74 2129 2160 "m_flatten.ml" 74 2129 2162
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_flatten.ml" 74 2129 2135 "m_flatten.ml" 74 2129 2137
+)
+"m_flatten.ml" 74 2129 2160 "m_flatten.ml" 74 2129 2167
+type(
+  M_t.modunit_
+)
+"m_flatten.ml" 75 2173 2190 "m_flatten.ml" 75 2173 2191
+type(
+  M_t.mule
+)
+ident(
+  def m "m_flatten.ml" 76 2195 2207 "m_flatten.ml" 84 2571 2595
+)
+"m_flatten.ml" 75 2173 2183 "m_flatten.ml" 75 2173 2191
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_flatten.ml" 76 2195 2212 "m_flatten.ml" 76 2195 2213
+type(
+  M_t.mule
+)
+ident(
+  def m "m_flatten.ml" 77 2246 2258 "m_flatten.ml" 84 2571 2595
+)
+"m_flatten.ml" 76 2195 2215 "m_flatten.ml" 76 2195 2216
+type(
+  Util.Coll.Ss.t
+)
+"m_flatten.ml" 76 2195 2211 "m_flatten.ml" 76 2195 2217
+type(
+  M_t.mule * Util.Coll.Ss.t
+)
+"m_flatten.ml" 76 2195 2220 "m_flatten.ml" 76 2195 2227
+type(
+  M_t.modctx -> M_t.mule -> Util.Coll.Ss.t -> M_t.mule * Util.Coll.Ss.t
+)
+ident(
+  int_ref flatten "m_flatten.ml" 47 1246 1254 "m_flatten.ml" 47 1246 1261
+)
+"m_flatten.ml" 76 2195 2228 "m_flatten.ml" 76 2195 2231
+type(
+  M_t.modctx
+)
+ident(
+  int_ref mcx "m_flatten.ml" 72 2084 2099 "m_flatten.ml" 72 2084 2102
+)
+"m_flatten.ml" 76 2195 2232 "m_flatten.ml" 76 2195 2233
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_flatten.ml" 75 2173 2190 "m_flatten.ml" 75 2173 2191
+)
+"m_flatten.ml" 76 2195 2234 "m_flatten.ml" 76 2195 2242
+type(
+  Util.Coll.Ss.t
+)
+ident(
+  int_ref Util.Coll.Ss.empty "set.mli" 74 2915 2919 "set.mli" 74 2915 2931
+)
+"m_flatten.ml" 76 2195 2220 "m_flatten.ml" 76 2195 2242
+type(
+  M_t.mule * Util.Coll.Ss.t
+)
+"m_flatten.ml" 77 2246 2262 "m_flatten.ml" 77 2246 2263
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  def m "m_flatten.ml" 81 2406 2418 "m_flatten.ml" 84 2571 2595
+)
+"m_flatten.ml" 77 2246 2272 "m_flatten.ml" 77 2246 2273
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_flatten.ml" 76 2195 2212 "m_flatten.ml" 76 2195 2213
+)
+"m_flatten.ml" 77 2246 2272 "m_flatten.ml" 77 2246 2278
+type(
+  M_t.mule_
+)
+"m_flatten.ml" 77 2246 2272 "m_flatten.ml" 77 2246 2284
+type(
+  M_t.stage
+)
+"m_flatten.ml" 78 2290 2306 "m_flatten.ml" 78 2290 2312
+type(
+  M_t.stage
+)
+type(
+  M_t.stage
+)
+"m_flatten.ml" 78 2290 2315 "m_flatten.ml" 78 2290 2319
+type(
+  M_t.stage
+)
+type(
+  M_t.stage
+)
+"m_flatten.ml" 78 2290 2306 "m_flatten.ml" 78 2290 2319
+type(
+  M_t.stage
+)
+"m_flatten.ml" 78 2290 2325 "m_flatten.ml" 78 2290 2326
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_flatten.ml" 76 2195 2212 "m_flatten.ml" 76 2195 2213
+)
+"m_flatten.ml" 78 2290 2325 "m_flatten.ml" 78 2290 2331
+type(
+  M_t.mule_
+)
+"m_flatten.ml" 78 2290 2345 "m_flatten.ml" 78 2290 2349
+type(
+  M_t.stage
+)
+"m_flatten.ml" 78 2290 2323 "m_flatten.ml" 78 2290 2351
+type(
+  M_t.mule_
+)
+"m_flatten.ml" 78 2290 2352 "m_flatten.ml" 78 2290 2354
+type(
+  M_t.mule_ -> M_t.mule -> M_t.mule_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_flatten.ml" 78 2290 2355 "m_flatten.ml" 78 2290 2356
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_flatten.ml" 76 2195 2212 "m_flatten.ml" 76 2195 2213
+)
+"m_flatten.ml" 78 2290 2323 "m_flatten.ml" 78 2290 2356
+type(
+  M_t.mule_ Property.wrapped
+)
+"m_flatten.ml" 79 2357 2373 "m_flatten.ml" 79 2357 2374
+type(
+  M_t.stage
+)
+type(
+  M_t.stage
+)
+"m_flatten.ml" 79 2357 2385 "m_flatten.ml" 79 2357 2390
+type(
+  bool
+)
+"m_flatten.ml" 79 2357 2378 "m_flatten.ml" 79 2357 2390
+type(
+  M_t.mule_ Property.wrapped
+)
+"m_flatten.ml" 77 2246 2266 "m_flatten.ml" 79 2357 2390
+type(
+  M_t.mule_ Property.wrapped
+)
+"m_flatten.ml" 81 2406 2422 "m_flatten.ml" 81 2406 2423
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  def m "m_flatten.ml" 82 2480 2492 "m_flatten.ml" 84 2571 2595
+)
+"m_flatten.ml" 81 2406 2428 "m_flatten.ml" 81 2406 2429
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  int_ref m "m_flatten.ml" 77 2246 2262 "m_flatten.ml" 77 2246 2263
+)
+"m_flatten.ml" 81 2406 2428 "m_flatten.ml" 81 2406 2434
+type(
+  M_t.mule_
+)
+"m_flatten.ml" 81 2406 2451 "m_flatten.ml" 81 2406 2461
+type(
+  M_t.modunit Deque.dq -> int
+)
+ident(
+  int_ref Deque.size "deque.mli" 11 162 162 "deque.mli" 11 162 186
+)
+"m_flatten.ml" 81 2406 2462 "m_flatten.ml" 81 2406 2463
+type(
+  M_t.modunit Deque.dq ref -> M_t.modunit Deque.dq
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_flatten.ml" 81 2406 2463 "m_flatten.ml" 81 2406 2469
+type(
+  M_t.modunit Deque.dq ref
+)
+ident(
+  int_ref prefix "m_flatten.ml" 70 1999 2005 "m_flatten.ml" 70 1999 2011
+)
+"m_flatten.ml" 81 2406 2462 "m_flatten.ml" 81 2406 2469
+type(
+  M_t.modunit Deque.dq
+)
+"m_flatten.ml" 81 2406 2451 "m_flatten.ml" 81 2406 2469
+type(
+  int
+)
+"m_flatten.ml" 81 2406 2426 "m_flatten.ml" 81 2406 2471
+type(
+  M_t.mule_
+)
+"m_flatten.ml" 81 2406 2472 "m_flatten.ml" 81 2406 2474
+type(
+  M_t.mule_ -> M_t.mule_ Property.wrapped -> M_t.mule_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_flatten.ml" 81 2406 2475 "m_flatten.ml" 81 2406 2476
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  int_ref m "m_flatten.ml" 77 2246 2262 "m_flatten.ml" 77 2246 2263
+)
+"m_flatten.ml" 81 2406 2426 "m_flatten.ml" 81 2406 2476
+type(
+  M_t.mule_ Property.wrapped
+)
+"m_flatten.ml" 82 2480 2496 "m_flatten.ml" 82 2480 2499
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  def mcx "m_flatten.ml" 83 2535 2547 "m_flatten.ml" 84 2571 2595
+)
+"m_flatten.ml" 82 2480 2502 "m_flatten.ml" 82 2480 2508
+type(
+  Util.Coll.Sm.key -> M_t.mule -> M_t.modctx -> M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref Util.Coll.Sm.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"m_flatten.ml" 82 2480 2509 "m_flatten.ml" 82 2480 2510
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  int_ref m "m_flatten.ml" 81 2406 2422 "m_flatten.ml" 81 2406 2423
+)
+"m_flatten.ml" 82 2480 2509 "m_flatten.ml" 82 2480 2515
+type(
+  M_t.mule_
+)
+"m_flatten.ml" 82 2480 2509 "m_flatten.ml" 82 2480 2520
+type(
+  Util.hint
+)
+"m_flatten.ml" 82 2480 2509 "m_flatten.ml" 82 2480 2525
+type(
+  Util.Coll.Sm.key
+)
+"m_flatten.ml" 82 2480 2526 "m_flatten.ml" 82 2480 2527
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_flatten.ml" 81 2406 2422 "m_flatten.ml" 81 2406 2423
+)
+"m_flatten.ml" 82 2480 2528 "m_flatten.ml" 82 2480 2531
+type(
+  M_t.modctx
+)
+ident(
+  int_ref mcx "m_flatten.ml" 72 2084 2099 "m_flatten.ml" 72 2084 2102
+)
+"m_flatten.ml" 82 2480 2502 "m_flatten.ml" 82 2480 2531
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_flatten.ml" 83 2535 2547 "m_flatten.ml" 83 2535 2551
+type(
+  M_t.modunit -> unit
+)
+ident(
+  int_ref emit "m_flatten.ml" 71 2033 2039 "m_flatten.ml" 71 2033 2043
+)
+"m_flatten.ml" 83 2535 2560 "m_flatten.ml" 83 2535 2561
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_flatten.ml" 81 2406 2422 "m_flatten.ml" 81 2406 2423
+)
+"m_flatten.ml" 83 2535 2553 "m_flatten.ml" 83 2535 2561
+type(
+  M_t.modunit_
+)
+"m_flatten.ml" 83 2535 2562 "m_flatten.ml" 83 2535 2564
+type(
+  M_t.modunit_ -> M_t.modunit -> M_t.modunit
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_flatten.ml" 83 2535 2565 "m_flatten.ml" 83 2535 2567
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_flatten.ml" 74 2129 2135 "m_flatten.ml" 74 2129 2137
+)
+"m_flatten.ml" 83 2535 2552 "m_flatten.ml" 83 2535 2568
+type(
+  M_t.modunit
+)
+"m_flatten.ml" 83 2535 2547 "m_flatten.ml" 83 2535 2568
+type(
+  unit
+)
+"m_flatten.ml" 84 2571 2583 "m_flatten.ml" 84 2571 2587
+type(
+  M_t.modctx -> M_t.modunit list -> unit
+)
+ident(
+  int_ref spin "m_flatten.ml" 72 2084 2094 "m_flatten.ml" 72 2084 2098
+)
+"m_flatten.ml" 84 2571 2588 "m_flatten.ml" 84 2571 2591
+type(
+  M_t.modctx
+)
+ident(
+  int_ref mcx "m_flatten.ml" 82 2480 2496 "m_flatten.ml" 82 2480 2499
+)
+"m_flatten.ml" 84 2571 2592 "m_flatten.ml" 84 2571 2595
+type(
+  M_t.modunit list
+)
+ident(
+  int_ref mus "m_flatten.ml" 74 2129 2141 "m_flatten.ml" 74 2129 2144
+)
+"m_flatten.ml" 84 2571 2583 "m_flatten.ml" 84 2571 2595
+type(
+  unit
+)
+"m_flatten.ml" 83 2535 2547 "m_flatten.ml" 84 2571 2595
+type(
+  unit
+)
+"m_flatten.ml" 82 2480 2492 "m_flatten.ml" 84 2571 2595
+type(
+  unit
+)
+"m_flatten.ml" 81 2406 2418 "m_flatten.ml" 84 2571 2595
+type(
+  unit
+)
+"m_flatten.ml" 77 2246 2258 "m_flatten.ml" 84 2571 2595
+type(
+  unit
+)
+"m_flatten.ml" 76 2195 2207 "m_flatten.ml" 84 2571 2595
+type(
+  unit
+)
+"m_flatten.ml" 85 2596 2606 "m_flatten.ml" 85 2596 2607
+type(
+  M_t.modunit_
+)
+type(
+  M_t.modunit_
+)
+"m_flatten.ml" 86 2611 2623 "m_flatten.ml" 86 2611 2627
+type(
+  M_t.modunit -> unit
+)
+ident(
+  int_ref emit "m_flatten.ml" 71 2033 2039 "m_flatten.ml" 71 2033 2043
+)
+"m_flatten.ml" 86 2611 2628 "m_flatten.ml" 86 2611 2630
+type(
+  M_t.modunit
+)
+ident(
+  int_ref mu "m_flatten.ml" 74 2129 2135 "m_flatten.ml" 74 2129 2137
+)
+"m_flatten.ml" 86 2611 2623 "m_flatten.ml" 86 2611 2630
+type(
+  unit
+)
+"m_flatten.ml" 87 2633 2645 "m_flatten.ml" 87 2633 2649
+type(
+  M_t.modctx -> M_t.modunit list -> unit
+)
+ident(
+  int_ref spin "m_flatten.ml" 72 2084 2094 "m_flatten.ml" 72 2084 2098
+)
+"m_flatten.ml" 87 2633 2650 "m_flatten.ml" 87 2633 2653
+type(
+  M_t.modctx
+)
+ident(
+  int_ref mcx "m_flatten.ml" 72 2084 2099 "m_flatten.ml" 72 2084 2102
+)
+"m_flatten.ml" 87 2633 2654 "m_flatten.ml" 87 2633 2657
+type(
+  M_t.modunit list
+)
+ident(
+  int_ref mus "m_flatten.ml" 74 2129 2141 "m_flatten.ml" 74 2129 2144
+)
+"m_flatten.ml" 87 2633 2645 "m_flatten.ml" 87 2633 2657
+type(
+  unit
+)
+"m_flatten.ml" 86 2611 2623 "m_flatten.ml" 87 2633 2657
+type(
+  unit
+)
+"m_flatten.ml" 74 2129 2148 "m_flatten.ml" 88 2658 2667
+type(
+  unit
+)
+"m_flatten.ml" 72 2084 2105 "m_flatten.ml" 88 2658 2667
+type(
+  M_t.modunit list -> unit
+)
+"m_flatten.ml" 90 2673 2675 "m_flatten.ml" 90 2673 2679
+type(
+  M_t.modctx -> M_t.modunit list -> unit
+)
+ident(
+  int_ref spin "m_flatten.ml" 72 2084 2094 "m_flatten.ml" 72 2084 2098
+)
+"m_flatten.ml" 90 2673 2680 "m_flatten.ml" 90 2673 2683
+type(
+  M_t.modctx
+)
+ident(
+  int_ref mcx "m_flatten.ml" 69 1974 1991 "m_flatten.ml" 69 1974 1994
+)
+"m_flatten.ml" 90 2673 2684 "m_flatten.ml" 90 2673 2685
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  int_ref m "m_flatten.ml" 69 1974 1995 "m_flatten.ml" 69 1974 1996
+)
+"m_flatten.ml" 90 2673 2684 "m_flatten.ml" 90 2673 2690
+type(
+  M_t.mule_
+)
+"m_flatten.ml" 90 2673 2684 "m_flatten.ml" 90 2673 2695
+type(
+  M_t.modunit list
+)
+"m_flatten.ml" 90 2673 2675 "m_flatten.ml" 90 2673 2695
+type(
+  unit
+)
+"m_flatten.ml" 91 2698 2701 "m_flatten.ml" 91 2698 2702
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  int_ref m "m_flatten.ml" 69 1974 1995 "m_flatten.ml" 69 1974 1996
+)
+"m_flatten.ml" 91 2698 2701 "m_flatten.ml" 91 2698 2707
+type(
+  M_t.mule_
+)
+"m_flatten.ml" 91 2698 2720 "m_flatten.ml" 91 2698 2733
+type(
+  M_t.modunit Deque.dq -> M_t.modunit list
+)
+ident(
+  int_ref Deque.to_list "deque.mli" 35 1014 1014 "deque.mli" 35 1014 1044
+)
+"m_flatten.ml" 91 2698 2734 "m_flatten.ml" 91 2698 2735
+type(
+  M_t.modunit Deque.dq ref -> M_t.modunit Deque.dq
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_flatten.ml" 91 2698 2735 "m_flatten.ml" 91 2698 2741
+type(
+  M_t.modunit Deque.dq ref
+)
+ident(
+  int_ref prefix "m_flatten.ml" 70 1999 2005 "m_flatten.ml" 70 1999 2011
+)
+"m_flatten.ml" 91 2698 2734 "m_flatten.ml" 91 2698 2741
+type(
+  M_t.modunit Deque.dq
+)
+"m_flatten.ml" 91 2698 2720 "m_flatten.ml" 91 2698 2741
+type(
+  M_t.modunit list
+)
+"m_flatten.ml" 91 2698 2751 "m_flatten.ml" 91 2698 2755
+type(
+  M_t.stage
+)
+"m_flatten.ml" 91 2698 2700 "m_flatten.ml" 91 2698 2756
+type(
+  M_t.mule_
+)
+"m_flatten.ml" 91 2698 2757 "m_flatten.ml" 91 2698 2759
+type(
+  M_t.mule_ -> M_t.mule_ Property.wrapped -> M_t.mule
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_flatten.ml" 91 2698 2760 "m_flatten.ml" 91 2698 2761
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  int_ref m "m_flatten.ml" 69 1974 1995 "m_flatten.ml" 69 1974 1996
+)
+"m_flatten.ml" 91 2698 2700 "m_flatten.ml" 91 2698 2761
+type(
+  M_t.mule
+)
+"m_flatten.ml" 90 2673 2675 "m_flatten.ml" 91 2698 2761
+type(
+  M_t.mule
+)
+"m_flatten.ml" 72 2084 2086 "m_flatten.ml" 91 2698 2761
+type(
+  M_t.mule
+)
+"m_flatten.ml" 71 2033 2035 "m_flatten.ml" 91 2698 2761
+type(
+  M_t.mule
+)
+"m_flatten.ml" 70 1999 2001 "m_flatten.ml" 91 2698 2761
+type(
+  M_t.mule
+)

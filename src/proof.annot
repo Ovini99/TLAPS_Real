@@ -1,0 +1,32 @@
+"proof.ml" 4 62 69 "proof.ml" 4 62 70
+ident(
+  def T "proof.ml" 4 62 76 "proof.ml" 0 0 -1
+)
+"proof.ml" 5 77 84 "proof.ml" 5 77 87
+ident(
+  def Fmt "proof.ml" 5 77 95 "proof.ml" 0 0 -1
+)
+"proof.ml" 6 96 103 "proof.ml" 6 96 108
+ident(
+  def Subst "proof.ml" 6 96 118 "proof.ml" 0 0 -1
+)
+"proof.ml" 7 119 126 "proof.ml" 7 119 131
+ident(
+  def Visit "proof.ml" 7 119 141 "proof.ml" 0 0 -1
+)
+"proof.ml" 8 142 149 "proof.ml" 8 142 157
+ident(
+  def Simplify "proof.ml" 8 142 170 "proof.ml" 0 0 -1
+)
+"proof.ml" 9 171 178 "proof.ml" 9 171 182
+ident(
+  def Anon "proof.ml" 9 171 191 "proof.ml" 0 0 -1
+)
+"proof.ml" 10 192 199 "proof.ml" 10 192 202
+ident(
+  def Gen "proof.ml" 10 192 210 "proof.ml" 0 0 -1
+)
+"proof.ml" 11 211 218 "proof.ml" 11 211 224
+ident(
+  def Parser "proof.ml" 11 211 235 "proof.ml" 0 0 -1
+)

@@ -1,0 +1,47 @@
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:141:1:141:3
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:161:1:161:3
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:2
+@!!END
+
+** Unexpanded symbols: ---
+
+** Unexpanded symbols: ---
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:141:1:141:3
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:161:1:161:3
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+File "./Operators_test.tla", line 1, character 1 to line 163, character 77:
+[INFO]: All 2 obligations proved.

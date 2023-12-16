@@ -1,0 +1,42 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:17:41 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp empty_set_ext_test.tla --stretch 5
+
+(* created new ".tlacache/TLAPS.tlaps/TLAPS.thy" *)
+(* fingerprints written in ".tlacache/TLAPS.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/empty_set_ext_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+COMMAND-LINE ARGUMENT
+file=.tlacache/empty_set_ext_test.tlaps/tlapm_a7e17d.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/empty_set_ext_test.tlaps/tlapm_a7e17d.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #1
+;;   generated from file "./empty_set_ext_test.tla", line 14, characters 5-11
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Sunde_a () u)
+
+(assert
+  (forall ((S_7 u) (T_8 u))
+  (=> (forall ((X_4 u)) (= (tla__in X_4 S_7) (tla__in X_4 T_8))) (= S_7 T_8))))
+
+;; Theorem to be Proved
+(assert (not
+  (forall ((a_v1a u)) (not (tla__in a_v1a a_CONSTANTunde_Sunde_a)))))
+(assert
+  (forall ((a_CONSTANTunde_xunde_a u))
+    (not (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Sunde_a))))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+(* created new ".tlacache/empty_set_ext_test.tlaps/empty_set_ext_test.thy" *)
+(* fingerprints written in ".tlacache/empty_set_ext_test.tlaps/fingerprints" *)

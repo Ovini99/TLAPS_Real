@@ -1,0 +1,158 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:30:42 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp quantifiers_test.tla --stretch 5
+
+(* created new ".tlacache/TLAPS.tlaps/TLAPS.thy" *)
+(* fingerprints written in ".tlacache/TLAPS.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/quantifiers_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+COMMAND-LINE ARGUMENT
+file=.tlacache/quantifiers_test.tlaps/tlapm_03d16e.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/quantifiers_test.tlaps/tlapm_03d16e.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #1
+;;   generated from file "./quantifiers_test.tla", line 12, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Sunde_a () u)
+(declare-fun a_CONSTANTunde_xunde_a () u)
+
+(assert
+  (forall ((S_6 u) (T_7 u))
+  (=> (forall ((X_3 u)) (= (tla__in X_3 S_6) (tla__in X_3 T_7))) (= S_6 T_7))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Sunde_a))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/quantifiers_test.tlaps/tlapm_d2baea.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/quantifiers_test.tlaps/tlapm_d2baea.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #2
+;;   generated from file "./quantifiers_test.tla", line 15, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+
+;; Terms, predicates and strings
+
+
+;; Theorem to be Proved
+(assert (not true))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/quantifiers_test.tlaps/tlapm_f919ba.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/quantifiers_test.tlaps/tlapm_f919ba.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #3
+;;   generated from file "./quantifiers_test.tla", line 18, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+
+;; Terms, predicates and strings
+
+
+;; Theorem to be Proved
+(assert (not true))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/quantifiers_test.tlaps/tlapm_61ff4c.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/quantifiers_test.tlaps/tlapm_61ff4c.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #4
+;;   generated from file "./quantifiers_test.tla", line 21, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+
+;; Terms, predicates and strings
+
+
+;; Theorem to be Proved
+(assert (not true))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/quantifiers_test.tlaps/tlapm_5035c8.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/quantifiers_test.tlaps/tlapm_5035c8.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #5
+;;   generated from file "./quantifiers_test.tla", line 24, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+
+;; Terms, predicates and strings
+
+
+;; Theorem to be Proved
+(assert (not true))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/quantifiers_test.tlaps/tlapm_ceccd4.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/quantifiers_test.tlaps/tlapm_ceccd4.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #6
+;;   generated from file "./quantifiers_test.tla", line 27, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Punde_a () u)
+
+
+;; Theorem to be Proved
+(assert (not (boolify a_CONSTANTunde_Punde_a)))
+(assert false)
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+(* created new ".tlacache/quantifiers_test.tlaps/quantifiers_test.thy" *)
+(* fingerprints written in ".tlacache/quantifiers_test.tlaps/fingerprints" *)

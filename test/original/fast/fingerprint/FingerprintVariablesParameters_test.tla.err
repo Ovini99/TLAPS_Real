@@ -1,0 +1,236 @@
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:16:1:16:8
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:19:1:19:8
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:2
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:16:1:16:8
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 5
+@!!reason:false
+@!!already:true
+@!!obl:ASSUME NEW VARIABLE x
+PROVE  \E y : y # x
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:16:1:16:8
+@!!status:failed
+@!!prover:zenon
+@!!meth:time-limit: 10
+@!!reason:false
+@!!already:true
+@!!obl:ASSUME NEW VARIABLE x
+PROVE  \E y : y # x
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:16:1:16:8
+@!!status:failed
+@!!prover:isabelle
+@!!meth:auto; time-limit: 30
+@!!reason:Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real/tlapm-main/lib/tlaps/bin
+
+@!!already:true
+@!!obl:ASSUME NEW VARIABLE x
+PROVE  \E y : y # x
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:19:1:19:8
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 5
+@!!reason:false
+@!!already:true
+@!!obl:ASSUME NEW VARIABLE x
+PROVE  \E y : y # y
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:19:1:19:8
+@!!status:failed
+@!!prover:zenon
+@!!meth:time-limit: 10
+@!!reason:false
+@!!already:true
+@!!obl:ASSUME NEW VARIABLE x
+PROVE  \E y : y # y
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:19:1:19:8
+@!!status:failed
+@!!prover:isabelle
+@!!meth:auto; time-limit: 30
+@!!reason:Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real/tlapm-main/lib/tlaps/bin
+
+@!!already:true
+@!!obl:ASSUME NEW VARIABLE x
+PROVE  \E y : y # y
+
+@!!END
+
+File "./FingerprintVariablesParameters_test.tla", line 19, characters 1-7:
+[ERROR]: Could not prove or check:
+           ASSUME NEW VARIABLE x
+           PROVE  \E y : y # y
+File "./FingerprintVariablesParameters_test.tla", line 16, characters 1-7:
+[ERROR]: Could not prove or check:
+           ASSUME NEW VARIABLE x
+           PROVE  \E y : y # x
+File "./FingerprintVariablesParameters_test.tla", line 1, character 1 to line 21, character 36:
+[ERROR]: 2/2 obligations failed.
+There were backend errors processing module `"FingerprintVariablesParameters_test"`.
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:16:1:16:8
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:19:1:19:8
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:2
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:16:1:16:8
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 5
+@!!reason:false
+@!!already:true
+@!!obl:ASSUME NEW VARIABLE x
+PROVE  \E y : y # x
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:16:1:16:8
+@!!status:failed
+@!!prover:zenon
+@!!meth:time-limit: 10
+@!!reason:false
+@!!already:true
+@!!obl:ASSUME NEW VARIABLE x
+PROVE  \E y : y # x
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:16:1:16:8
+@!!status:failed
+@!!prover:isabelle
+@!!meth:auto; time-limit: 30
+@!!reason:Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real/tlapm-main/lib/tlaps/bin
+
+@!!already:true
+@!!obl:ASSUME NEW VARIABLE x
+PROVE  \E y : y # x
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:19:1:19:8
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 5
+@!!reason:false
+@!!already:true
+@!!obl:ASSUME NEW VARIABLE x
+PROVE  \E y : y # y
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:19:1:19:8
+@!!status:failed
+@!!prover:zenon
+@!!meth:time-limit: 10
+@!!reason:false
+@!!already:true
+@!!obl:ASSUME NEW VARIABLE x
+PROVE  \E y : y # y
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:19:1:19:8
+@!!status:failed
+@!!prover:isabelle
+@!!meth:auto; time-limit: 30
+@!!reason:Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real/tlapm-main/lib/tlaps/bin
+
+@!!already:true
+@!!obl:ASSUME NEW VARIABLE x
+PROVE  \E y : y # y
+
+@!!END
+
+File "./FingerprintVariablesParameters_test.tla", line 19, characters 1-7:
+[ERROR]: Could not prove or check:
+           ASSUME NEW VARIABLE x
+           PROVE  \E y : y # y
+File "./FingerprintVariablesParameters_test.tla", line 16, characters 1-7:
+[ERROR]: Could not prove or check:
+           ASSUME NEW VARIABLE x
+           PROVE  \E y : y # x
+File "./FingerprintVariablesParameters_test.tla", line 1, character 1 to line 21, character 36:
+[ERROR]: 2/2 obligations failed.
+There were backend errors processing module `"FingerprintVariablesParameters_test"`.

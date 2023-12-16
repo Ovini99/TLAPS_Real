@@ -1,0 +1,2698 @@
+"m_parser.ml" 17 184 188 "m_parser.ml" 17 184 197
+type(
+  Expr.T.expr -> Method.t option -> Expr.T.expr
+)
+ident(
+  def with_meth "m_parser.ml" 21 288 288 "m_parser.ml" 0 0 -1
+)
+"m_parser.ml" 17 184 198 "m_parser.ml" 17 184 199
+type(
+  Expr.T.expr
+)
+ident(
+  def e "m_parser.ml" 17 184 200 "m_parser.ml" 19 273 286
+)
+"m_parser.ml" 17 184 200 "m_parser.ml" 17 184 204
+type(
+  Method.t option
+)
+ident(
+  def meth "m_parser.ml" 17 184 207 "m_parser.ml" 19 273 286
+)
+"m_parser.ml" 17 184 213 "m_parser.ml" 17 184 217
+type(
+  Method.t option
+)
+ident(
+  int_ref meth "m_parser.ml" 17 184 200 "m_parser.ml" 17 184 204
+)
+"m_parser.ml" 18 223 232 "m_parser.ml" 18 223 236
+type(
+  Method.t
+)
+ident(
+  def meth "m_parser.ml" 18 223 240 "m_parser.ml" 18 223 272
+)
+"m_parser.ml" 18 223 227 "m_parser.ml" 18 223 236
+type(
+  Method.t option
+)
+type(
+  Method.t option
+)
+"m_parser.ml" 18 223 242 "m_parser.ml" 18 223 243
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "m_parser.ml" 17 184 198 "m_parser.ml" 17 184 199
+)
+"m_parser.ml" 18 223 262 "m_parser.ml" 18 223 263
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "m_parser.ml" 17 184 198 "m_parser.ml" 17 184 199
+)
+"m_parser.ml" 18 223 265 "m_parser.ml" 18 223 269
+type(
+  Method.t
+)
+ident(
+  int_ref meth "m_parser.ml" 18 223 232 "m_parser.ml" 18 223 236
+)
+"m_parser.ml" 18 223 256 "m_parser.ml" 18 223 270
+type(
+  Expr.T.expr_
+)
+"m_parser.ml" 18 223 240 "m_parser.ml" 18 223 272
+type(
+  Expr.T.expr
+)
+"m_parser.ml" 19 273 277 "m_parser.ml" 19 273 281
+type(
+  Method.t option
+)
+type(
+  Method.t option
+)
+"m_parser.ml" 19 273 285 "m_parser.ml" 19 273 286
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "m_parser.ml" 17 184 198 "m_parser.ml" 17 184 199
+)
+"m_parser.ml" 17 184 207 "m_parser.ml" 19 273 286
+type(
+  Expr.T.expr
+)
+"m_parser.ml" 21 288 296 "m_parser.ml" 21 288 303
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs Lazy.t
+)
+ident(
+  def modunit "m_parser.ml" 21 288 288 "m_parser.ml" 0 0 -1
+)
+"m_parser.ml" 22 317 319 "m_parser.ml" 22 317 325
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs list ->
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.choice "pars.mli" 106 4061 4065 "pars.mli" 106 4061 4111
+)
+"m_parser.ml" 23 328 332 "m_parser.ml" 23 328 338
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs list ->
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.choice "pars.mli" 106 4061 4065 "pars.mli" 106 4061 4111
+)
+"m_parser.ml" 24 341 348 "m_parser.ml" 24 341 351
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.kwd "tla_parser.mli" 54 1469 1469 "tla_parser.mli" 54 1469 1507
+)
+"m_parser.ml" 24 341 352 "m_parser.ml" 24 341 362
+type(
+  string
+)
+"m_parser.ml" 24 341 348 "m_parser.ml" 24 341 362
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 24 341 363 "m_parser.ml" 24 341 366
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <|> ) "pars.mli" 87 2905 2909 "pars.mli" 87 2905 2967
+)
+"m_parser.ml" 24 341 367 "m_parser.ml" 24 341 370
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.kwd "tla_parser.mli" 54 1469 1469 "tla_parser.mli" 54 1469 1507
+)
+"m_parser.ml" 24 341 371 "m_parser.ml" 24 341 382
+type(
+  string
+)
+"m_parser.ml" 24 341 367 "m_parser.ml" 24 341 382
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 24 341 347 "m_parser.ml" 24 341 383
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 24 341 384 "m_parser.ml" 24 341 387
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, (Util.hint * Expr.T.shape) list) Tla_parser.P.prs ->
+  (Tla_parser.pcx, (Util.hint * Expr.T.shape) list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( >*> ) "pars.mli" 93 3286 3290 "pars.mli" 93 3286 3348
+)
+"m_parser.ml" 25 388 396 "m_parser.ml" 25 388 400
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hint * Expr.T.shape) Tla_parser.P.prs ->
+  (Tla_parser.pcx, (Util.hint * Expr.T.shape) list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.sep1 "pars.mli" 113 4434 4438 "pars.mli" 113 4434 4500
+)
+"m_parser.ml" 25 388 402 "m_parser.ml" 25 388 407
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.punct "tla_parser.mli" 50 1338 1338 "tla_parser.mli" 50 1338 1378
+)
+"m_parser.ml" 25 388 408 "m_parser.ml" 25 388 411
+type(
+  string
+)
+"m_parser.ml" 25 388 401 "m_parser.ml" 25 388 412
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 25 388 414 "m_parser.ml" 25 388 417
+type(
+  (Util.hint * Expr.T.shape) Tla_parser.prs Lazy.t ->
+  (Tla_parser.pcx, Util.hint * Expr.T.shape) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.use "pars.mli" 83 2710 2714 "pars.mli" 83 2710 2759
+)
+"m_parser.ml" 25 388 418 "m_parser.ml" 25 388 424
+type(
+  (Util.hint * Expr.T.shape) Tla_parser.lprs
+)
+ident(
+  int_ref Expr.Parser.opdecl "expr.mli" 673 17245 17249 "expr.mli" 673 17245 17285
+)
+"m_parser.ml" 25 388 413 "m_parser.ml" 25 388 425
+type(
+  (Tla_parser.pcx, Util.hint * Expr.T.shape) Tla_parser.P.prs
+)
+"m_parser.ml" 25 388 396 "m_parser.ml" 25 388 425
+type(
+  (Tla_parser.pcx, (Util.hint * Expr.T.shape) list) Tla_parser.P.prs
+)
+"m_parser.ml" 24 341 347 "m_parser.ml" 25 388 425
+type(
+  (Tla_parser.pcx, (Util.hint * Expr.T.shape) list) Tla_parser.P.prs
+)
+"m_parser.ml" 26 426 432 "m_parser.ml" 26 426 435
+type(
+  (Tla_parser.pcx, (Util.hint * Expr.T.shape) list) Tla_parser.P.prs ->
+  ((Util.hint * Expr.T.shape) list -> M_t.modunit_ list) ->
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <$> ) "pars.mli" 95 3412 3416 "pars.mli" 95 3412 3472
+)
+"m_parser.ml" 26 426 441 "m_parser.ml" 26 426 443
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  def cs "m_parser.ml" 26 426 447 "m_parser.ml" 26 426 463
+)
+"m_parser.ml" 26 426 459 "m_parser.ml" 26 426 461
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  int_ref cs "m_parser.ml" 26 426 441 "m_parser.ml" 26 426 443
+)
+"m_parser.ml" 26 426 449 "m_parser.ml" 26 426 461
+type(
+  M_t.modunit_
+)
+"m_parser.ml" 26 426 447 "m_parser.ml" 26 426 463
+type(
+  M_t.modunit_ list
+)
+"m_parser.ml" 26 426 436 "m_parser.ml" 26 426 464
+type(
+  (Util.hint * Expr.T.shape) list -> M_t.modunit_ list
+)
+"m_parser.ml" 24 341 347 "m_parser.ml" 26 426 464
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+"m_parser.ml" 28 468 475 "m_parser.ml" 28 468 478
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.kwd "tla_parser.mli" 54 1469 1469 "tla_parser.mli" 54 1469 1507
+)
+"m_parser.ml" 28 468 479 "m_parser.ml" 28 468 490
+type(
+  string
+)
+"m_parser.ml" 28 468 474 "m_parser.ml" 28 468 491
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 28 468 492 "m_parser.ml" 28 468 495
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, (Util.hint * Expr.T.shape) list) Tla_parser.P.prs ->
+  (Tla_parser.pcx, (Util.hint * Expr.T.shape) list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( >*> ) "pars.mli" 93 3286 3290 "pars.mli" 93 3286 3348
+)
+"m_parser.ml" 29 496 504 "m_parser.ml" 29 496 508
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hint * Expr.T.shape) Tla_parser.P.prs ->
+  (Tla_parser.pcx, (Util.hint * Expr.T.shape) list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.sep1 "pars.mli" 113 4434 4438 "pars.mli" 113 4434 4500
+)
+"m_parser.ml" 29 496 510 "m_parser.ml" 29 496 515
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.punct "tla_parser.mli" 50 1338 1338 "tla_parser.mli" 50 1338 1378
+)
+"m_parser.ml" 29 496 516 "m_parser.ml" 29 496 519
+type(
+  string
+)
+"m_parser.ml" 29 496 509 "m_parser.ml" 29 496 520
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 29 496 522 "m_parser.ml" 29 496 525
+type(
+  (Util.hint * Expr.T.shape) Tla_parser.prs Lazy.t ->
+  (Tla_parser.pcx, Util.hint * Expr.T.shape) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.use "pars.mli" 83 2710 2714 "pars.mli" 83 2710 2759
+)
+"m_parser.ml" 29 496 526 "m_parser.ml" 29 496 532
+type(
+  (Util.hint * Expr.T.shape) Tla_parser.lprs
+)
+ident(
+  int_ref Expr.Parser.opdecl "expr.mli" 673 17245 17249 "expr.mli" 673 17245 17285
+)
+"m_parser.ml" 29 496 521 "m_parser.ml" 29 496 533
+type(
+  (Tla_parser.pcx, Util.hint * Expr.T.shape) Tla_parser.P.prs
+)
+"m_parser.ml" 29 496 504 "m_parser.ml" 29 496 533
+type(
+  (Tla_parser.pcx, (Util.hint * Expr.T.shape) list) Tla_parser.P.prs
+)
+"m_parser.ml" 28 468 474 "m_parser.ml" 29 496 533
+type(
+  (Tla_parser.pcx, (Util.hint * Expr.T.shape) list) Tla_parser.P.prs
+)
+"m_parser.ml" 30 534 540 "m_parser.ml" 30 534 543
+type(
+  (Tla_parser.pcx, (Util.hint * Expr.T.shape) list) Tla_parser.P.prs ->
+  ((Util.hint * Expr.T.shape) list -> M_t.modunit_ list) ->
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <$> ) "pars.mli" 95 3412 3416 "pars.mli" 95 3412 3472
+)
+"m_parser.ml" 30 534 549 "m_parser.ml" 30 534 551
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  def cs "m_parser.ml" 30 534 555 "m_parser.ml" 30 534 572
+)
+"m_parser.ml" 30 534 568 "m_parser.ml" 30 534 570
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  int_ref cs "m_parser.ml" 30 534 549 "m_parser.ml" 30 534 551
+)
+"m_parser.ml" 30 534 557 "m_parser.ml" 30 534 570
+type(
+  M_t.modunit_
+)
+"m_parser.ml" 30 534 555 "m_parser.ml" 30 534 572
+type(
+  M_t.modunit_ list
+)
+"m_parser.ml" 30 534 544 "m_parser.ml" 30 534 573
+type(
+  (Util.hint * Expr.T.shape) list -> M_t.modunit_ list
+)
+"m_parser.ml" 28 468 474 "m_parser.ml" 30 534 573
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+"m_parser.ml" 32 577 584 "m_parser.ml" 32 577 587
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.kwd "tla_parser.mli" 54 1469 1469 "tla_parser.mli" 54 1469 1507
+)
+"m_parser.ml" 32 577 588 "m_parser.ml" 32 577 598
+type(
+  string
+)
+"m_parser.ml" 32 577 584 "m_parser.ml" 32 577 598
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 32 577 599 "m_parser.ml" 32 577 602
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <|> ) "pars.mli" 87 2905 2909 "pars.mli" 87 2905 2967
+)
+"m_parser.ml" 32 577 603 "m_parser.ml" 32 577 606
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.kwd "tla_parser.mli" 54 1469 1469 "tla_parser.mli" 54 1469 1507
+)
+"m_parser.ml" 32 577 607 "m_parser.ml" 32 577 618
+type(
+  string
+)
+"m_parser.ml" 32 577 603 "m_parser.ml" 32 577 618
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 32 577 583 "m_parser.ml" 32 577 619
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 32 577 620 "m_parser.ml" 32 577 623
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hints) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hints) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( >*> ) "pars.mli" 93 3286 3290 "pars.mli" 93 3286 3348
+)
+"m_parser.ml" 33 624 632 "m_parser.ml" 33 624 636
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hints) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.sep1 "pars.mli" 113 4434 4438 "pars.mli" 113 4434 4500
+)
+"m_parser.ml" 33 624 638 "m_parser.ml" 33 624 643
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.punct "tla_parser.mli" 50 1338 1338 "tla_parser.mli" 50 1338 1378
+)
+"m_parser.ml" 33 624 644 "m_parser.ml" 33 624 647
+type(
+  string
+)
+"m_parser.ml" 33 624 637 "m_parser.ml" 33 624 648
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 33 624 650 "m_parser.ml" 33 624 656
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.locate "tla_parser.mli" 46 1196 1196 "tla_parser.mli" 47 1226 1261
+)
+"m_parser.ml" 33 624 657 "m_parser.ml" 33 624 665
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.anyident "tla_parser.mli" 48 1262 1262 "tla_parser.mli" 48 1262 1295
+)
+"m_parser.ml" 33 624 649 "m_parser.ml" 33 624 666
+type(
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs
+)
+"m_parser.ml" 33 624 632 "m_parser.ml" 33 624 666
+type(
+  (Tla_parser.pcx, Util.hints) Tla_parser.P.prs
+)
+"m_parser.ml" 32 577 583 "m_parser.ml" 33 624 666
+type(
+  (Tla_parser.pcx, Util.hints) Tla_parser.P.prs
+)
+"m_parser.ml" 34 667 673 "m_parser.ml" 34 667 676
+type(
+  (Tla_parser.pcx, Util.hints) Tla_parser.P.prs ->
+  (Util.hints -> M_t.modunit_ list) ->
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <$> ) "pars.mli" 95 3412 3416 "pars.mli" 95 3412 3472
+)
+"m_parser.ml" 34 667 682 "m_parser.ml" 34 667 684
+type(
+  Util.hints
+)
+ident(
+  def vs "m_parser.ml" 34 667 688 "m_parser.ml" 34 667 704
+)
+"m_parser.ml" 34 667 700 "m_parser.ml" 34 667 702
+type(
+  Util.hints
+)
+ident(
+  int_ref vs "m_parser.ml" 34 667 682 "m_parser.ml" 34 667 684
+)
+"m_parser.ml" 34 667 690 "m_parser.ml" 34 667 702
+type(
+  M_t.modunit_
+)
+"m_parser.ml" 34 667 688 "m_parser.ml" 34 667 704
+type(
+  M_t.modunit_ list
+)
+"m_parser.ml" 34 667 677 "m_parser.ml" 34 667 705
+type(
+  Util.hints -> M_t.modunit_ list
+)
+"m_parser.ml" 32 577 583 "m_parser.ml" 34 667 705
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+"m_parser.ml" 23 328 339 "m_parser.ml" 35 708 713
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs list
+)
+"m_parser.ml" 23 328 332 "m_parser.ml" 35 708 713
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+"m_parser.ml" 37 717 721 "m_parser.ml" 37 717 729
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string option) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.optional "pars.mli" 105 4006 4010 "pars.mli" 105 4006 4060
+)
+"m_parser.ml" 37 717 731 "m_parser.ml" 37 717 734
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.kwd "tla_parser.mli" 54 1469 1469 "tla_parser.mli" 54 1469 1507
+)
+"m_parser.ml" 37 717 735 "m_parser.ml" 37 717 742
+type(
+  string
+)
+"m_parser.ml" 37 717 730 "m_parser.ml" 37 717 743
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 37 717 721 "m_parser.ml" 37 717 743
+type(
+  (Tla_parser.pcx, string option) Tla_parser.P.prs
+)
+"m_parser.ml" 37 717 744 "m_parser.ml" 37 717 747
+type(
+  (Tla_parser.pcx, string option) Tla_parser.P.prs ->
+  (string option -> (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs) ->
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( >>= ) "pars.mli" 91 3152 3156 "pars.mli" 91 3152 3222
+)
+"m_parser.ml" 37 717 758 "m_parser.ml" 37 717 759
+type(
+  string option
+)
+ident(
+  def l "m_parser.ml" 38 763 769 "m_parser.ml" 45 1020 1029
+)
+"m_parser.ml" 38 763 773 "m_parser.ml" 38 763 775
+type(
+  Expr.T.export
+)
+ident(
+  def ex "m_parser.ml" 39 824 832 "m_parser.ml" 45 1020 1029
+)
+"m_parser.ml" 38 763 781 "m_parser.ml" 38 763 795
+type(
+  string option -> bool
+)
+ident(
+  int_ref Ext.Option.is_some "ext.mli" 64 2790 2792 "ext.mli" 64 2790 2823
+)
+"m_parser.ml" 38 763 796 "m_parser.ml" 38 763 797
+type(
+  string option
+)
+ident(
+  int_ref l "m_parser.ml" 37 717 758 "m_parser.ml" 37 717 759
+)
+"m_parser.ml" 38 763 781 "m_parser.ml" 38 763 797
+type(
+  bool
+)
+"m_parser.ml" 38 763 803 "m_parser.ml" 38 763 808
+type(
+  Expr.T.export
+)
+"m_parser.ml" 38 763 814 "m_parser.ml" 38 763 820
+type(
+  Expr.T.export
+)
+"m_parser.ml" 38 763 778 "m_parser.ml" 38 763 820
+type(
+  Expr.T.export
+)
+"m_parser.ml" 39 824 832 "m_parser.ml" 39 824 838
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs list ->
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.choice "pars.mli" 106 4061 4065 "pars.mli" 106 4061 4111
+)
+"m_parser.ml" 40 841 851 "m_parser.ml" 40 841 854
+type(
+  Expr.T.instance Tla_parser.prs Lazy.t ->
+  (Tla_parser.pcx, Expr.T.instance) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.use "pars.mli" 83 2710 2714 "pars.mli" 83 2710 2759
+)
+"m_parser.ml" 40 841 856 "m_parser.ml" 40 841 864
+type(
+  bool -> Expr.T.instance Tla_parser.lprs
+)
+ident(
+  int_ref Expr.Parser.instance "expr.mli" 671 17163 17167 "expr.mli" 671 17163 17204
+)
+"m_parser.ml" 40 841 865 "m_parser.ml" 40 841 870
+type(
+  bool
+)
+"m_parser.ml" 40 841 855 "m_parser.ml" 40 841 871
+type(
+  Expr.T.instance Tla_parser.lprs
+)
+"m_parser.ml" 40 841 851 "m_parser.ml" 40 841 871
+type(
+  (Tla_parser.pcx, Expr.T.instance) Tla_parser.P.prs
+)
+"m_parser.ml" 41 872 882 "m_parser.ml" 41 872 885
+type(
+  (Tla_parser.pcx, Expr.T.instance) Tla_parser.P.prs ->
+  (Expr.T.instance -> M_t.modunit_ list) ->
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <$> ) "pars.mli" 95 3412 3416 "pars.mli" 95 3412 3472
+)
+"m_parser.ml" 41 872 891 "m_parser.ml" 41 872 895
+type(
+  Expr.T.instance
+)
+ident(
+  def inst "m_parser.ml" 41 872 899 "m_parser.ml" 41 872 922
+)
+"m_parser.ml" 41 872 911 "m_parser.ml" 41 872 915
+type(
+  Expr.T.instance
+)
+ident(
+  int_ref inst "m_parser.ml" 41 872 891 "m_parser.ml" 41 872 895
+)
+"m_parser.ml" 41 872 917 "m_parser.ml" 41 872 919
+type(
+  Expr.T.export
+)
+ident(
+  int_ref ex "m_parser.ml" 38 763 773 "m_parser.ml" 38 763 775
+)
+"m_parser.ml" 41 872 901 "m_parser.ml" 41 872 920
+type(
+  M_t.modunit_
+)
+"m_parser.ml" 41 872 899 "m_parser.ml" 41 872 922
+type(
+  M_t.modunit_ list
+)
+"m_parser.ml" 41 872 886 "m_parser.ml" 41 872 923
+type(
+  Expr.T.instance -> M_t.modunit_ list
+)
+"m_parser.ml" 40 841 851 "m_parser.ml" 41 872 923
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+"m_parser.ml" 43 927 937 "m_parser.ml" 43 927 940
+type(
+  Expr.T.defn Tla_parser.prs Lazy.t ->
+  (Tla_parser.pcx, Expr.T.defn) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.use "pars.mli" 83 2710 2714 "pars.mli" 83 2710 2759
+)
+"m_parser.ml" 43 927 942 "m_parser.ml" 43 927 946
+type(
+  bool -> Expr.T.defn Tla_parser.lprs
+)
+ident(
+  int_ref Expr.Parser.defn "expr.mli" 670 17129 17133 "expr.mli" 670 17129 17162
+)
+"m_parser.ml" 43 927 947 "m_parser.ml" 43 927 952
+type(
+  bool
+)
+"m_parser.ml" 43 927 941 "m_parser.ml" 43 927 953
+type(
+  Expr.T.defn Tla_parser.lprs
+)
+"m_parser.ml" 43 927 937 "m_parser.ml" 43 927 953
+type(
+  (Tla_parser.pcx, Expr.T.defn) Tla_parser.P.prs
+)
+"m_parser.ml" 44 954 964 "m_parser.ml" 44 954 967
+type(
+  (Tla_parser.pcx, Expr.T.defn) Tla_parser.P.prs ->
+  (Expr.T.defn -> M_t.modunit_ list) ->
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <$> ) "pars.mli" 95 3412 3416 "pars.mli" 95 3412 3472
+)
+"m_parser.ml" 44 954 973 "m_parser.ml" 44 954 975
+type(
+  Expr.T.defn
+)
+ident(
+  def df "m_parser.ml" 44 954 979 "m_parser.ml" 44 954 1016
+)
+"m_parser.ml" 44 954 993 "m_parser.ml" 44 954 995
+type(
+  Expr.T.defn
+)
+ident(
+  int_ref df "m_parser.ml" 44 954 973 "m_parser.ml" 44 954 975
+)
+"m_parser.ml" 44 954 997 "m_parser.ml" 44 954 1001
+type(
+  Expr.T.wheredef
+)
+"m_parser.ml" 44 954 1003 "m_parser.ml" 44 954 1009
+type(
+  Expr.T.visibility
+)
+"m_parser.ml" 44 954 1011 "m_parser.ml" 44 954 1013
+type(
+  Expr.T.export
+)
+ident(
+  int_ref ex "m_parser.ml" 38 763 773 "m_parser.ml" 38 763 775
+)
+"m_parser.ml" 44 954 981 "m_parser.ml" 44 954 1014
+type(
+  M_t.modunit_
+)
+"m_parser.ml" 44 954 979 "m_parser.ml" 44 954 1016
+type(
+  M_t.modunit_ list
+)
+"m_parser.ml" 44 954 968 "m_parser.ml" 44 954 1017
+type(
+  Expr.T.defn -> M_t.modunit_ list
+)
+"m_parser.ml" 43 927 937 "m_parser.ml" 44 954 1017
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+"m_parser.ml" 39 824 839 "m_parser.ml" 45 1020 1029
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs list
+)
+"m_parser.ml" 39 824 832 "m_parser.ml" 45 1020 1029
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+"m_parser.ml" 38 763 769 "m_parser.ml" 45 1020 1029
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+"m_parser.ml" 37 717 748 "m_parser.ml" 46 1030 1037
+type(
+  string option -> (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+"m_parser.ml" 37 717 721 "m_parser.ml" 46 1030 1037
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+"m_parser.ml" 48 1041 1045 "m_parser.ml" 48 1041 1048
+type(
+  Proof.Parser.supp Tla_parser.prs Lazy.t ->
+  (Tla_parser.pcx, Proof.Parser.supp) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.use "pars.mli" 83 2710 2714 "pars.mli" 83 2710 2759
+)
+"m_parser.ml" 48 1041 1049 "m_parser.ml" 48 1041 1070
+type(
+  Proof.Parser.supp Tla_parser.lprs
+)
+ident(
+  int_ref Proof.Parser.suppress "proof.mli" 149 4125 4127 "proof.mli" 149 4125 4162
+)
+"m_parser.ml" 48 1041 1045 "m_parser.ml" 48 1041 1070
+type(
+  (Tla_parser.pcx, Proof.Parser.supp) Tla_parser.P.prs
+)
+"m_parser.ml" 49 1071 1075 "m_parser.ml" 49 1071 1078
+type(
+  (Tla_parser.pcx, Proof.Parser.supp) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Proof.Parser.supp * string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <*> ) "pars.mli" 88 2968 2972 "pars.mli" 88 2968 3036
+)
+"m_parser.ml" 49 1071 1080 "m_parser.ml" 49 1071 1083
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.kwd "tla_parser.mli" 54 1469 1469 "tla_parser.mli" 54 1469 1507
+)
+"m_parser.ml" 49 1071 1084 "m_parser.ml" 49 1071 1089
+type(
+  string
+)
+"m_parser.ml" 49 1071 1080 "m_parser.ml" 49 1071 1089
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 49 1071 1090 "m_parser.ml" 49 1071 1093
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <|> ) "pars.mli" 87 2905 2909 "pars.mli" 87 2905 2967
+)
+"m_parser.ml" 49 1071 1094 "m_parser.ml" 49 1071 1097
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.kwd "tla_parser.mli" 54 1469 1469 "tla_parser.mli" 54 1469 1507
+)
+"m_parser.ml" 49 1071 1098 "m_parser.ml" 49 1071 1104
+type(
+  string
+)
+"m_parser.ml" 49 1071 1094 "m_parser.ml" 49 1071 1104
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 49 1071 1079 "m_parser.ml" 49 1071 1105
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 48 1041 1045 "m_parser.ml" 49 1071 1105
+type(
+  (Tla_parser.pcx, Proof.Parser.supp * string) Tla_parser.P.prs
+)
+"m_parser.ml" 50 1106 1110 "m_parser.ml" 50 1106 1114
+type(
+  (Tla_parser.pcx, Proof.Parser.supp * string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Proof.T.usable) Tla_parser.P.prs ->
+  (Tla_parser.pcx, (Proof.Parser.supp * string) * Proof.T.usable)
+  Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <**> ) "pars.mli" 90 3083 3087 "pars.mli" 90 3083 3151
+)
+"m_parser.ml" 50 1106 1115 "m_parser.ml" 50 1106 1118
+type(
+  Proof.T.usable Tla_parser.prs Lazy.t ->
+  (Tla_parser.pcx, Proof.T.usable) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.use "pars.mli" 83 2710 2714 "pars.mli" 83 2710 2759
+)
+"m_parser.ml" 50 1106 1119 "m_parser.ml" 50 1106 1139
+type(
+  Proof.T.usable Tla_parser.lprs
+)
+ident(
+  int_ref Proof.Parser.usebody "proof.mli" 147 4046 4048 "proof.mli" 147 4046 4086
+)
+"m_parser.ml" 50 1106 1115 "m_parser.ml" 50 1106 1139
+type(
+  (Tla_parser.pcx, Proof.T.usable) Tla_parser.P.prs
+)
+"m_parser.ml" 48 1041 1045 "m_parser.ml" 50 1106 1139
+type(
+  (Tla_parser.pcx, (Proof.Parser.supp * string) * Proof.T.usable)
+  Tla_parser.P.prs
+)
+"m_parser.ml" 51 1140 1144 "m_parser.ml" 51 1140 1147
+type(
+  (Tla_parser.pcx, (Proof.Parser.supp * string) * Proof.T.usable)
+  Tla_parser.P.prs ->
+  ((Proof.Parser.supp * string) * Proof.T.usable -> M_t.modunit_ list) ->
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <$> ) "pars.mli" 95 3412 3416 "pars.mli" 95 3412 3472
+)
+"m_parser.ml" 51 1140 1155 "m_parser.ml" 51 1140 1159
+type(
+  Proof.Parser.supp
+)
+ident(
+  def supp "m_parser.ml" 51 1140 1173 "m_parser.ml" 53 1262 1302
+)
+"m_parser.ml" 51 1140 1161 "m_parser.ml" 51 1140 1163
+type(
+  string
+)
+ident(
+  def uh "m_parser.ml" 51 1140 1173 "m_parser.ml" 53 1262 1302
+)
+"m_parser.ml" 51 1140 1154 "m_parser.ml" 51 1140 1164
+type(
+  Proof.Parser.supp * string
+)
+"m_parser.ml" 51 1140 1166 "m_parser.ml" 51 1140 1168
+type(
+  Proof.T.usable
+)
+ident(
+  def us "m_parser.ml" 51 1140 1173 "m_parser.ml" 53 1262 1302
+)
+"m_parser.ml" 51 1140 1153 "m_parser.ml" 51 1140 1169
+type(
+  (Proof.Parser.supp * string) * Proof.T.usable
+)
+"m_parser.ml" 51 1140 1179 "m_parser.ml" 51 1140 1181
+type(
+  string
+)
+ident(
+  int_ref uh "m_parser.ml" 51 1140 1161 "m_parser.ml" 51 1140 1163
+)
+"m_parser.ml" 52 1187 1200 "m_parser.ml" 52 1187 1205
+type(
+  string
+)
+type(
+  string
+)
+"m_parser.ml" 52 1187 1225 "m_parser.ml" 52 1187 1229
+type(
+  Proof.Parser.supp
+)
+ident(
+  int_ref supp "m_parser.ml" 51 1140 1155 "m_parser.ml" 51 1140 1159
+)
+"m_parser.ml" 52 1187 1230 "m_parser.ml" 52 1187 1231
+type(
+  Proof.Parser.supp -> Proof.Parser.supp -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_parser.ml" 52 1187 1232 "m_parser.ml" 52 1187 1253
+type(
+  Proof.Parser.supp
+)
+"m_parser.ml" 52 1187 1224 "m_parser.ml" 52 1187 1254
+type(
+  bool
+)
+"m_parser.ml" 52 1187 1219 "m_parser.ml" 52 1187 1254
+type(
+  [ `Hide | `Use of bool ]
+)
+"m_parser.ml" 52 1187 1256 "m_parser.ml" 52 1187 1258
+type(
+  Proof.T.usable
+)
+ident(
+  int_ref us "m_parser.ml" 51 1140 1166 "m_parser.ml" 51 1140 1168
+)
+"m_parser.ml" 52 1187 1211 "m_parser.ml" 52 1187 1259
+type(
+  M_t.modunit_
+)
+"m_parser.ml" 52 1187 1209 "m_parser.ml" 52 1187 1261
+type(
+  M_t.modunit_ list
+)
+"m_parser.ml" 53 1262 1275 "m_parser.ml" 53 1262 1276
+type(
+  string
+)
+type(
+  string
+)
+"m_parser.ml" 53 1262 1290 "m_parser.ml" 53 1262 1295
+type(
+  [ `Hide | `Use of bool ]
+)
+"m_parser.ml" 53 1262 1297 "m_parser.ml" 53 1262 1299
+type(
+  Proof.T.usable
+)
+ident(
+  int_ref us "m_parser.ml" 51 1140 1166 "m_parser.ml" 51 1140 1168
+)
+"m_parser.ml" 53 1262 1282 "m_parser.ml" 53 1262 1300
+type(
+  M_t.modunit_
+)
+"m_parser.ml" 53 1262 1280 "m_parser.ml" 53 1262 1302
+type(
+  M_t.modunit_ list
+)
+"m_parser.ml" 51 1140 1173 "m_parser.ml" 53 1262 1302
+type(
+  M_t.modunit_ list
+)
+"m_parser.ml" 51 1140 1148 "m_parser.ml" 53 1262 1303
+type(
+  (Proof.Parser.supp * string) * Proof.T.usable -> M_t.modunit_ list
+)
+"m_parser.ml" 48 1041 1045 "m_parser.ml" 53 1262 1303
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+"m_parser.ml" 55 1307 1312 "m_parser.ml" 55 1307 1315
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.kwd "tla_parser.mli" 54 1469 1469 "tla_parser.mli" 54 1469 1507
+)
+"m_parser.ml" 55 1307 1316 "m_parser.ml" 55 1307 1323
+type(
+  string
+)
+"m_parser.ml" 55 1307 1312 "m_parser.ml" 55 1307 1323
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 55 1307 1324 "m_parser.ml" 55 1307 1327
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <|> ) "pars.mli" 87 2905 2909 "pars.mli" 87 2905 2967
+)
+"m_parser.ml" 55 1307 1328 "m_parser.ml" 55 1307 1331
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.kwd "tla_parser.mli" 54 1469 1469 "tla_parser.mli" 54 1469 1507
+)
+"m_parser.ml" 55 1307 1332 "m_parser.ml" 55 1307 1340
+type(
+  string
+)
+"m_parser.ml" 55 1307 1328 "m_parser.ml" 55 1307 1340
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 55 1307 1312 "m_parser.ml" 55 1307 1340
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 55 1307 1341 "m_parser.ml" 55 1307 1344
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <|> ) "pars.mli" 87 2905 2909 "pars.mli" 87 2905 2967
+)
+"m_parser.ml" 55 1307 1345 "m_parser.ml" 55 1307 1348
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.kwd "tla_parser.mli" 54 1469 1469 "tla_parser.mli" 54 1469 1507
+)
+"m_parser.ml" 55 1307 1349 "m_parser.ml" 55 1307 1361
+type(
+  string
+)
+"m_parser.ml" 55 1307 1345 "m_parser.ml" 55 1307 1361
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 55 1307 1311 "m_parser.ml" 55 1307 1362
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 55 1307 1363 "m_parser.ml" 55 1307 1366
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hint option) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hint option) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( >*> ) "pars.mli" 93 3286 3290 "pars.mli" 93 3286 3348
+)
+"m_parser.ml" 56 1367 1373 "m_parser.ml" 56 1367 1381
+type(
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hint option) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.optional "pars.mli" 105 4006 4010 "pars.mli" 105 4006 4060
+)
+"m_parser.ml" 56 1367 1383 "m_parser.ml" 56 1367 1389
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.locate "tla_parser.mli" 46 1196 1196 "tla_parser.mli" 47 1226 1261
+)
+"m_parser.ml" 56 1367 1390 "m_parser.ml" 56 1367 1398
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.anyident "tla_parser.mli" 48 1262 1262 "tla_parser.mli" 48 1262 1295
+)
+"m_parser.ml" 56 1367 1383 "m_parser.ml" 56 1367 1398
+type(
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs
+)
+"m_parser.ml" 56 1367 1399 "m_parser.ml" 56 1367 1402
+type(
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <<< ) "pars.mli" 94 3349 3353 "pars.mli" 94 3349 3411
+)
+"m_parser.ml" 56 1367 1403 "m_parser.ml" 56 1367 1408
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.punct "tla_parser.mli" 50 1338 1338 "tla_parser.mli" 50 1338 1378
+)
+"m_parser.ml" 56 1367 1409 "m_parser.ml" 56 1367 1413
+type(
+  string
+)
+"m_parser.ml" 56 1367 1403 "m_parser.ml" 56 1367 1413
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 56 1367 1382 "m_parser.ml" 56 1367 1414
+type(
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs
+)
+"m_parser.ml" 56 1367 1373 "m_parser.ml" 56 1367 1414
+type(
+  (Tla_parser.pcx, Util.hint option) Tla_parser.P.prs
+)
+"m_parser.ml" 55 1307 1311 "m_parser.ml" 56 1367 1414
+type(
+  (Tla_parser.pcx, Util.hint option) Tla_parser.P.prs
+)
+"m_parser.ml" 56 1367 1415 "m_parser.ml" 56 1367 1419
+type(
+  (Tla_parser.pcx, Util.hint option) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Expr.T.expr) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hint option * Expr.T.expr) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <**> ) "pars.mli" 90 3083 3087 "pars.mli" 90 3083 3151
+)
+"m_parser.ml" 56 1367 1420 "m_parser.ml" 56 1367 1423
+type(
+  Expr.T.expr Tla_parser.prs Lazy.t ->
+  (Tla_parser.pcx, Expr.T.expr) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.use "pars.mli" 83 2710 2714 "pars.mli" 83 2710 2759
+)
+"m_parser.ml" 56 1367 1425 "m_parser.ml" 56 1367 1429
+type(
+  bool -> Expr.T.expr Tla_parser.lprs
+)
+ident(
+  int_ref Expr.Parser.expr "expr.mli" 668 17053 17057 "expr.mli" 668 17053 17086
+)
+"m_parser.ml" 56 1367 1430 "m_parser.ml" 56 1367 1435
+type(
+  bool
+)
+"m_parser.ml" 56 1367 1424 "m_parser.ml" 56 1367 1436
+type(
+  Expr.T.expr Tla_parser.lprs
+)
+"m_parser.ml" 56 1367 1420 "m_parser.ml" 56 1367 1436
+type(
+  (Tla_parser.pcx, Expr.T.expr) Tla_parser.P.prs
+)
+"m_parser.ml" 55 1307 1311 "m_parser.ml" 56 1367 1436
+type(
+  (Tla_parser.pcx, Util.hint option * Expr.T.expr) Tla_parser.P.prs
+)
+"m_parser.ml" 57 1437 1441 "m_parser.ml" 57 1437 1444
+type(
+  (Tla_parser.pcx, Util.hint option * Expr.T.expr) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Method.t option) Tla_parser.P.prs ->
+  (Tla_parser.pcx, (Util.hint option * Expr.T.expr) * Method.t option)
+  Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <*> ) "pars.mli" 88 2968 2972 "pars.mli" 88 2968 3036
+)
+"m_parser.ml" 57 1437 1445 "m_parser.ml" 57 1437 1453
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Method.t option) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.optional "pars.mli" 105 4006 4010 "pars.mli" 105 4006 4060
+)
+"m_parser.ml" 57 1437 1455 "m_parser.ml" 57 1437 1458
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs Lazy.t ->
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.use "pars.mli" 83 2710 2714 "pars.mli" 83 2710 2759
+)
+"m_parser.ml" 57 1437 1459 "m_parser.ml" 57 1437 1481
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs Lazy.t
+)
+ident(
+  int_ref Method_prs.read_method "method_prs.mli" 4 62 62 "method_prs.mli" 4 62 129
+)
+"m_parser.ml" 57 1437 1454 "m_parser.ml" 57 1437 1482
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"m_parser.ml" 57 1437 1445 "m_parser.ml" 57 1437 1482
+type(
+  (Tla_parser.pcx, Method.t option) Tla_parser.P.prs
+)
+"m_parser.ml" 55 1307 1311 "m_parser.ml" 57 1437 1482
+type(
+  (Tla_parser.pcx, (Util.hint option * Expr.T.expr) * Method.t option)
+  Tla_parser.P.prs
+)
+"m_parser.ml" 58 1483 1487 "m_parser.ml" 58 1483 1490
+type(
+  (Tla_parser.pcx, (Util.hint option * Expr.T.expr) * Method.t option)
+  Tla_parser.P.prs ->
+  ((Util.hint option * Expr.T.expr) * Method.t option -> M_t.modunit_ list) ->
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <$> ) "pars.mli" 95 3412 3416 "pars.mli" 95 3412 3472
+)
+"m_parser.ml" 58 1483 1498 "m_parser.ml" 58 1483 1500
+type(
+  Util.hint option
+)
+ident(
+  def nm "m_parser.ml" 58 1483 1515 "m_parser.ml" 58 1483 1547
+)
+"m_parser.ml" 58 1483 1502 "m_parser.ml" 58 1483 1503
+type(
+  Expr.T.expr
+)
+ident(
+  def e "m_parser.ml" 58 1483 1515 "m_parser.ml" 58 1483 1547
+)
+"m_parser.ml" 58 1483 1497 "m_parser.ml" 58 1483 1504
+type(
+  Util.hint option * Expr.T.expr
+)
+"m_parser.ml" 58 1483 1506 "m_parser.ml" 58 1483 1510
+type(
+  Method.t option
+)
+ident(
+  def meth "m_parser.ml" 58 1483 1515 "m_parser.ml" 58 1483 1547
+)
+"m_parser.ml" 58 1483 1496 "m_parser.ml" 58 1483 1511
+type(
+  (Util.hint option * Expr.T.expr) * Method.t option
+)
+"m_parser.ml" 58 1483 1524 "m_parser.ml" 58 1483 1526
+type(
+  Util.hint option
+)
+ident(
+  int_ref nm "m_parser.ml" 58 1483 1498 "m_parser.ml" 58 1483 1500
+)
+"m_parser.ml" 58 1483 1528 "m_parser.ml" 58 1483 1537
+type(
+  Expr.T.expr -> Method.t option -> Expr.T.expr
+)
+ident(
+  int_ref with_meth "m_parser.ml" 17 184 188 "m_parser.ml" 17 184 197
+)
+"m_parser.ml" 58 1483 1538 "m_parser.ml" 58 1483 1539
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "m_parser.ml" 58 1483 1502 "m_parser.ml" 58 1483 1503
+)
+"m_parser.ml" 58 1483 1540 "m_parser.ml" 58 1483 1544
+type(
+  Method.t option
+)
+ident(
+  int_ref meth "m_parser.ml" 58 1483 1506 "m_parser.ml" 58 1483 1510
+)
+"m_parser.ml" 58 1483 1528 "m_parser.ml" 58 1483 1544
+type(
+  Expr.T.expr
+)
+"m_parser.ml" 58 1483 1517 "m_parser.ml" 58 1483 1545
+type(
+  M_t.modunit_
+)
+"m_parser.ml" 58 1483 1515 "m_parser.ml" 58 1483 1547
+type(
+  M_t.modunit_ list
+)
+"m_parser.ml" 58 1483 1491 "m_parser.ml" 58 1483 1548
+type(
+  (Util.hint option * Expr.T.expr) * Method.t option -> M_t.modunit_ list
+)
+"m_parser.ml" 55 1307 1311 "m_parser.ml" 58 1483 1548
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+"m_parser.ml" 60 1552 1557 "m_parser.ml" 60 1552 1560
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.kwd "tla_parser.mli" 54 1469 1469 "tla_parser.mli" 54 1469 1507
+)
+"m_parser.ml" 60 1552 1561 "m_parser.ml" 60 1552 1570
+type(
+  string
+)
+"m_parser.ml" 60 1552 1557 "m_parser.ml" 60 1552 1570
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 60 1552 1571 "m_parser.ml" 60 1552 1574
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <|> ) "pars.mli" 87 2905 2909 "pars.mli" 87 2905 2967
+)
+"m_parser.ml" 60 1552 1575 "m_parser.ml" 60 1552 1578
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.kwd "tla_parser.mli" 54 1469 1469 "tla_parser.mli" 54 1469 1507
+)
+"m_parser.ml" 60 1552 1579 "m_parser.ml" 60 1552 1592
+type(
+  string
+)
+"m_parser.ml" 60 1552 1575 "m_parser.ml" 60 1552 1592
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 60 1552 1557 "m_parser.ml" 60 1552 1592
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 60 1552 1593 "m_parser.ml" 60 1552 1596
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <|> ) "pars.mli" 87 2905 2909 "pars.mli" 87 2905 2967
+)
+"m_parser.ml" 60 1552 1597 "m_parser.ml" 60 1552 1600
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.kwd "tla_parser.mli" 54 1469 1469 "tla_parser.mli" 54 1469 1507
+)
+"m_parser.ml" 60 1552 1601 "m_parser.ml" 60 1552 1612
+type(
+  string
+)
+"m_parser.ml" 60 1552 1597 "m_parser.ml" 60 1552 1612
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 60 1552 1557 "m_parser.ml" 60 1552 1612
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 60 1552 1613 "m_parser.ml" 60 1552 1616
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <|> ) "pars.mli" 87 2905 2909 "pars.mli" 87 2905 2967
+)
+"m_parser.ml" 60 1552 1617 "m_parser.ml" 60 1552 1620
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.kwd "tla_parser.mli" 54 1469 1469 "tla_parser.mli" 54 1469 1507
+)
+"m_parser.ml" 60 1552 1621 "m_parser.ml" 60 1552 1628
+type(
+  string
+)
+"m_parser.ml" 60 1552 1617 "m_parser.ml" 60 1552 1628
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 60 1552 1556 "m_parser.ml" 60 1552 1629
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 60 1552 1630 "m_parser.ml" 60 1552 1633
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hint option) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hint option) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( >*> ) "pars.mli" 93 3286 3290 "pars.mli" 93 3286 3348
+)
+"m_parser.ml" 61 1634 1640 "m_parser.ml" 61 1634 1648
+type(
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hint option) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.optional "pars.mli" 105 4006 4010 "pars.mli" 105 4006 4060
+)
+"m_parser.ml" 61 1634 1650 "m_parser.ml" 61 1634 1656
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.locate "tla_parser.mli" 46 1196 1196 "tla_parser.mli" 47 1226 1261
+)
+"m_parser.ml" 61 1634 1657 "m_parser.ml" 61 1634 1665
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.anyident "tla_parser.mli" 48 1262 1262 "tla_parser.mli" 48 1262 1295
+)
+"m_parser.ml" 61 1634 1650 "m_parser.ml" 61 1634 1665
+type(
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs
+)
+"m_parser.ml" 61 1634 1666 "m_parser.ml" 61 1634 1669
+type(
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <<< ) "pars.mli" 94 3349 3353 "pars.mli" 94 3349 3411
+)
+"m_parser.ml" 61 1634 1670 "m_parser.ml" 61 1634 1675
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.punct "tla_parser.mli" 50 1338 1338 "tla_parser.mli" 50 1338 1378
+)
+"m_parser.ml" 61 1634 1676 "m_parser.ml" 61 1634 1680
+type(
+  string
+)
+"m_parser.ml" 61 1634 1670 "m_parser.ml" 61 1634 1680
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 61 1634 1649 "m_parser.ml" 61 1634 1681
+type(
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs
+)
+"m_parser.ml" 61 1634 1640 "m_parser.ml" 61 1634 1681
+type(
+  (Tla_parser.pcx, Util.hint option) Tla_parser.P.prs
+)
+"m_parser.ml" 60 1552 1556 "m_parser.ml" 61 1634 1681
+type(
+  (Tla_parser.pcx, Util.hint option) Tla_parser.P.prs
+)
+"m_parser.ml" 62 1682 1686 "m_parser.ml" 62 1682 1689
+type(
+  (Tla_parser.pcx, Util.hint option) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Expr.T.sequent) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hint option * Expr.T.sequent) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <*> ) "pars.mli" 88 2968 2972 "pars.mli" 88 2968 3036
+)
+"m_parser.ml" 62 1682 1690 "m_parser.ml" 62 1682 1696
+type(
+  (Tla_parser.pcx, Expr.T.sequent) Tla_parser.P.prs list ->
+  (Tla_parser.pcx, Expr.T.sequent) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.choice "pars.mli" 106 4061 4065 "pars.mli" 106 4061 4111
+)
+"m_parser.ml" 62 1682 1699 "m_parser.ml" 62 1682 1702
+type(
+  Expr.T.sequent Tla_parser.prs Lazy.t ->
+  (Tla_parser.pcx, Expr.T.sequent) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.use "pars.mli" 83 2710 2714 "pars.mli" 83 2710 2759
+)
+"m_parser.ml" 62 1682 1704 "m_parser.ml" 62 1682 1711
+type(
+  bool -> Expr.T.sequent Tla_parser.lprs
+)
+ident(
+  int_ref Expr.Parser.sequent "expr.mli" 672 17205 17209 "expr.mli" 672 17205 17244
+)
+"m_parser.ml" 62 1682 1712 "m_parser.ml" 62 1682 1717
+type(
+  bool
+)
+"m_parser.ml" 62 1682 1703 "m_parser.ml" 62 1682 1718
+type(
+  Expr.T.sequent Tla_parser.lprs
+)
+"m_parser.ml" 62 1682 1699 "m_parser.ml" 62 1682 1718
+type(
+  (Tla_parser.pcx, Expr.T.sequent) Tla_parser.P.prs
+)
+"m_parser.ml" 63 1721 1738 "m_parser.ml" 63 1721 1741
+type(
+  Expr.T.expr Tla_parser.prs Lazy.t ->
+  (Tla_parser.pcx, Expr.T.expr) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.use "pars.mli" 83 2710 2714 "pars.mli" 83 2710 2759
+)
+"m_parser.ml" 63 1721 1743 "m_parser.ml" 63 1721 1747
+type(
+  bool -> Expr.T.expr Tla_parser.lprs
+)
+ident(
+  int_ref Expr.Parser.expr "expr.mli" 668 17053 17057 "expr.mli" 668 17053 17086
+)
+"m_parser.ml" 63 1721 1748 "m_parser.ml" 63 1721 1753
+type(
+  bool
+)
+"m_parser.ml" 63 1721 1742 "m_parser.ml" 63 1721 1754
+type(
+  Expr.T.expr Tla_parser.lprs
+)
+"m_parser.ml" 63 1721 1738 "m_parser.ml" 63 1721 1754
+type(
+  (Tla_parser.pcx, Expr.T.expr) Tla_parser.P.prs
+)
+"m_parser.ml" 63 1721 1755 "m_parser.ml" 63 1721 1758
+type(
+  (Tla_parser.pcx, Expr.T.expr) Tla_parser.P.prs ->
+  (Expr.T.expr -> Expr.T.sequent) ->
+  (Tla_parser.pcx, Expr.T.sequent) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <$> ) "pars.mli" 95 3412 3416 "pars.mli" 95 3412 3472
+)
+"m_parser.ml" 63 1721 1764 "m_parser.ml" 63 1721 1765
+type(
+  Expr.T.expr
+)
+ident(
+  def e "m_parser.ml" 63 1721 1769 "m_parser.ml" 63 1721 1807
+)
+"m_parser.ml" 63 1721 1781 "m_parser.ml" 63 1721 1792
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"m_parser.ml" 63 1721 1804 "m_parser.ml" 63 1721 1805
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "m_parser.ml" 63 1721 1764 "m_parser.ml" 63 1721 1765
+)
+"m_parser.ml" 63 1721 1769 "m_parser.ml" 63 1721 1807
+type(
+  Expr.T.sequent
+)
+"m_parser.ml" 63 1721 1759 "m_parser.ml" 63 1721 1808
+type(
+  Expr.T.expr -> Expr.T.sequent
+)
+"m_parser.ml" 63 1721 1738 "m_parser.ml" 63 1721 1808
+type(
+  (Tla_parser.pcx, Expr.T.sequent) Tla_parser.P.prs
+)
+"m_parser.ml" 62 1682 1697 "m_parser.ml" 63 1721 1810
+type(
+  (Tla_parser.pcx, Expr.T.sequent) Tla_parser.P.prs list
+)
+"m_parser.ml" 62 1682 1690 "m_parser.ml" 63 1721 1810
+type(
+  (Tla_parser.pcx, Expr.T.sequent) Tla_parser.P.prs
+)
+"m_parser.ml" 60 1552 1556 "m_parser.ml" 63 1721 1810
+type(
+  (Tla_parser.pcx, Util.hint option * Expr.T.sequent) Tla_parser.P.prs
+)
+"m_parser.ml" 64 1811 1815 "m_parser.ml" 64 1811 1818
+type(
+  (Tla_parser.pcx, Util.hint option * Expr.T.sequent) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Method.t option) Tla_parser.P.prs ->
+  (Tla_parser.pcx, (Util.hint option * Expr.T.sequent) * Method.t option)
+  Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <*> ) "pars.mli" 88 2968 2972 "pars.mli" 88 2968 3036
+)
+"m_parser.ml" 64 1811 1819 "m_parser.ml" 64 1811 1827
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Method.t option) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.optional "pars.mli" 105 4006 4010 "pars.mli" 105 4006 4060
+)
+"m_parser.ml" 64 1811 1829 "m_parser.ml" 64 1811 1832
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs Lazy.t ->
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.use "pars.mli" 83 2710 2714 "pars.mli" 83 2710 2759
+)
+"m_parser.ml" 64 1811 1833 "m_parser.ml" 64 1811 1855
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs Lazy.t
+)
+ident(
+  int_ref Method_prs.read_method "method_prs.mli" 4 62 62 "method_prs.mli" 4 62 129
+)
+"m_parser.ml" 64 1811 1828 "m_parser.ml" 64 1811 1856
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"m_parser.ml" 64 1811 1819 "m_parser.ml" 64 1811 1856
+type(
+  (Tla_parser.pcx, Method.t option) Tla_parser.P.prs
+)
+"m_parser.ml" 60 1552 1556 "m_parser.ml" 64 1811 1856
+type(
+  (Tla_parser.pcx, (Util.hint option * Expr.T.sequent) * Method.t option)
+  Tla_parser.P.prs
+)
+"m_parser.ml" 65 1857 1861 "m_parser.ml" 65 1857 1864
+type(
+  (Tla_parser.pcx, (Util.hint option * Expr.T.sequent) * Method.t option)
+  Tla_parser.P.prs ->
+  (Tla_parser.pcx, Proof.T.proof) Tla_parser.P.prs ->
+  (Tla_parser.pcx,
+   ((Util.hint option * Expr.T.sequent) * Method.t option) * Proof.T.proof)
+  Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <*> ) "pars.mli" 88 2968 2972 "pars.mli" 88 2968 3036
+)
+"m_parser.ml" 65 1857 1865 "m_parser.ml" 65 1857 1868
+type(
+  Proof.T.proof Tla_parser.prs Lazy.t ->
+  (Tla_parser.pcx, Proof.T.proof) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.use "pars.mli" 83 2710 2714 "pars.mli" 83 2710 2759
+)
+"m_parser.ml" 65 1857 1869 "m_parser.ml" 65 1857 1887
+type(
+  Proof.T.proof Tla_parser.lprs
+)
+ident(
+  int_ref Proof.Parser.proof "proof.mli" 148 4087 4089 "proof.mli" 148 4087 4124
+)
+"m_parser.ml" 65 1857 1865 "m_parser.ml" 65 1857 1887
+type(
+  (Tla_parser.pcx, Proof.T.proof) Tla_parser.P.prs
+)
+"m_parser.ml" 60 1552 1556 "m_parser.ml" 65 1857 1887
+type(
+  (Tla_parser.pcx,
+   ((Util.hint option * Expr.T.sequent) * Method.t option) * Proof.T.proof)
+  Tla_parser.P.prs
+)
+"m_parser.ml" 66 1888 1892 "m_parser.ml" 66 1888 1895
+type(
+  (Tla_parser.pcx,
+   ((Util.hint option * Expr.T.sequent) * Method.t option) * Proof.T.proof)
+  Tla_parser.P.prs ->
+  (((Util.hint option * Expr.T.sequent) * Method.t option) * Proof.T.proof ->
+   M_t.modunit_ list) ->
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <$> ) "pars.mli" 95 3412 3416 "pars.mli" 95 3412 3472
+)
+"m_parser.ml" 66 1888 1904 "m_parser.ml" 66 1888 1906
+type(
+  Util.hint option
+)
+ident(
+  def nm "m_parser.ml" 67 1929 1940 "m_parser.ml" 67 1929 2033
+)
+"m_parser.ml" 66 1888 1908 "m_parser.ml" 66 1888 1911
+type(
+  Expr.T.sequent
+)
+ident(
+  def bod "m_parser.ml" 67 1929 1940 "m_parser.ml" 67 1929 2033
+)
+"m_parser.ml" 66 1888 1903 "m_parser.ml" 66 1888 1912
+type(
+  Util.hint option * Expr.T.sequent
+)
+"m_parser.ml" 66 1888 1914 "m_parser.ml" 66 1888 1918
+type(
+  Method.t option
+)
+ident(
+  def meth "m_parser.ml" 67 1929 1940 "m_parser.ml" 67 1929 2033
+)
+"m_parser.ml" 66 1888 1902 "m_parser.ml" 66 1888 1919
+type(
+  (Util.hint option * Expr.T.sequent) * Method.t option
+)
+"m_parser.ml" 66 1888 1921 "m_parser.ml" 66 1888 1924
+type(
+  Proof.T.proof
+)
+ident(
+  def prf "m_parser.ml" 67 1929 1940 "m_parser.ml" 67 1929 2033
+)
+"m_parser.ml" 66 1888 1901 "m_parser.ml" 66 1888 1925
+type(
+  ((Util.hint option * Expr.T.sequent) * Method.t option) * Proof.T.proof
+)
+"m_parser.ml" 67 1929 1951 "m_parser.ml" 67 1929 1953
+type(
+  Util.hint option
+)
+ident(
+  int_ref nm "m_parser.ml" 66 1888 1904 "m_parser.ml" 66 1888 1906
+)
+"m_parser.ml" 67 1929 1957 "m_parser.ml" 67 1929 1960
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref bod "m_parser.ml" 66 1888 1908 "m_parser.ml" 66 1888 1911
+)
+"m_parser.ml" 67 1929 1975 "m_parser.ml" 67 1929 1984
+type(
+  Expr.T.expr -> Method.t option -> Expr.T.expr
+)
+ident(
+  int_ref with_meth "m_parser.ml" 17 184 188 "m_parser.ml" 17 184 197
+)
+"m_parser.ml" 67 1929 1985 "m_parser.ml" 67 1929 1988
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref bod "m_parser.ml" 66 1888 1908 "m_parser.ml" 66 1888 1911
+)
+"m_parser.ml" 67 1929 1985 "m_parser.ml" 67 1929 1995
+type(
+  Expr.T.expr
+)
+"m_parser.ml" 67 1929 1996 "m_parser.ml" 67 1929 2000
+type(
+  Method.t option
+)
+ident(
+  int_ref meth "m_parser.ml" 66 1888 1914 "m_parser.ml" 66 1888 1918
+)
+"m_parser.ml" 67 1929 1975 "m_parser.ml" 67 1929 2000
+type(
+  Expr.T.expr
+)
+"m_parser.ml" 67 1929 1955 "m_parser.ml" 67 1929 2002
+type(
+  Expr.T.sequent
+)
+"m_parser.ml" 67 1929 2004 "m_parser.ml" 67 1929 2005
+type(
+  int
+)
+"m_parser.ml" 67 1929 2007 "m_parser.ml" 67 1929 2010
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref prf "m_parser.ml" 66 1888 1921 "m_parser.ml" 66 1888 1924
+)
+"m_parser.ml" 67 1929 2012 "m_parser.ml" 67 1929 2015
+type(
+  Proof.T.proof
+)
+ident(
+  int_ref prf "m_parser.ml" 66 1888 1921 "m_parser.ml" 66 1888 1924
+)
+"m_parser.ml" 67 1929 2017 "m_parser.ml" 67 1929 2030
+type(
+  M_t.summary
+)
+ident(
+  int_ref M_t.empty_summary "m_t.mli" 64 1559 1559 "m_t.mli" 64 1559 1585
+)
+"m_parser.ml" 67 1929 1942 "m_parser.ml" 67 1929 2031
+type(
+  M_t.modunit_
+)
+"m_parser.ml" 67 1929 1940 "m_parser.ml" 67 1929 2033
+type(
+  M_t.modunit_ list
+)
+"m_parser.ml" 66 1888 1896 "m_parser.ml" 67 1929 2034
+type(
+  ((Util.hint option * Expr.T.sequent) * Method.t option) * Proof.T.proof ->
+  M_t.modunit_ list
+)
+"m_parser.ml" 60 1552 1556 "m_parser.ml" 67 1929 2034
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+"m_parser.ml" 69 2038 2042 "m_parser.ml" 69 2038 2049
+type(
+  (Tla_parser.pcx, string * string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, unit) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.enabled "pars.mli" 102 3860 3864 "pars.mli" 102 3860 3908
+)
+"m_parser.ml" 69 2038 2051 "m_parser.ml" 69 2038 2056
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.punct "tla_parser.mli" 50 1338 1338 "tla_parser.mli" 50 1338 1378
+)
+"m_parser.ml" 69 2038 2057 "m_parser.ml" 69 2038 2063
+type(
+  string
+)
+"m_parser.ml" 69 2038 2051 "m_parser.ml" 69 2038 2063
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 69 2038 2064 "m_parser.ml" 69 2038 2067
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string * string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <*> ) "pars.mli" 88 2968 2972 "pars.mli" 88 2968 3036
+)
+"m_parser.ml" 69 2038 2068 "m_parser.ml" 69 2038 2071
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.kwd "tla_parser.mli" 54 1469 1469 "tla_parser.mli" 54 1469 1507
+)
+"m_parser.ml" 69 2038 2072 "m_parser.ml" 69 2038 2080
+type(
+  string
+)
+"m_parser.ml" 69 2038 2068 "m_parser.ml" 69 2038 2080
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 69 2038 2050 "m_parser.ml" 69 2038 2081
+type(
+  (Tla_parser.pcx, string * string) Tla_parser.P.prs
+)
+"m_parser.ml" 69 2038 2042 "m_parser.ml" 69 2038 2081
+type(
+  (Tla_parser.pcx, unit) Tla_parser.P.prs
+)
+"m_parser.ml" 70 2082 2088 "m_parser.ml" 70 2082 2091
+type(
+  (Tla_parser.pcx, unit) Tla_parser.P.prs ->
+  (Tla_parser.pcx, M_t.mule) Tla_parser.P.prs ->
+  (Tla_parser.pcx, M_t.mule) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( >*> ) "pars.mli" 93 3286 3290 "pars.mli" 93 3286 3348
+)
+"m_parser.ml" 70 2082 2092 "m_parser.ml" 70 2082 2095
+type(
+  (Tla_parser.pcx, M_t.mule) Tla_parser.P.prs Lazy.t ->
+  (Tla_parser.pcx, M_t.mule) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.use "pars.mli" 83 2710 2714 "pars.mli" 83 2710 2759
+)
+"m_parser.ml" 70 2082 2096 "m_parser.ml" 70 2082 2101
+type(
+  (Tla_parser.pcx, M_t.mule) Tla_parser.P.prs Lazy.t
+)
+ident(
+  int_ref parse "m_parser.ml" 87 2394 2398 "m_parser.ml" 87 2394 2403
+)
+"m_parser.ml" 70 2082 2092 "m_parser.ml" 70 2082 2101
+type(
+  (Tla_parser.pcx, M_t.mule) Tla_parser.P.prs
+)
+"m_parser.ml" 69 2038 2042 "m_parser.ml" 70 2082 2101
+type(
+  (Tla_parser.pcx, M_t.mule) Tla_parser.P.prs
+)
+"m_parser.ml" 70 2082 2102 "m_parser.ml" 70 2082 2105
+type(
+  (Tla_parser.pcx, M_t.mule) Tla_parser.P.prs ->
+  (M_t.mule -> M_t.modunit_ list) ->
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <$> ) "pars.mli" 95 3412 3416 "pars.mli" 95 3412 3472
+)
+"m_parser.ml" 70 2082 2111 "m_parser.ml" 70 2082 2112
+type(
+  M_t.mule
+)
+ident(
+  def m "m_parser.ml" 70 2082 2116 "m_parser.ml" 70 2082 2128
+)
+"m_parser.ml" 70 2082 2125 "m_parser.ml" 70 2082 2126
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_parser.ml" 70 2082 2111 "m_parser.ml" 70 2082 2112
+)
+"m_parser.ml" 70 2082 2118 "m_parser.ml" 70 2082 2126
+type(
+  M_t.modunit_
+)
+"m_parser.ml" 70 2082 2116 "m_parser.ml" 70 2082 2128
+type(
+  M_t.modunit_ list
+)
+"m_parser.ml" 70 2082 2106 "m_parser.ml" 70 2082 2129
+type(
+  M_t.mule -> M_t.modunit_ list
+)
+"m_parser.ml" 69 2038 2042 "m_parser.ml" 70 2082 2129
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+"m_parser.ml" 72 2133 2137 "m_parser.ml" 72 2133 2142
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.punct "tla_parser.mli" 50 1338 1338 "tla_parser.mli" 50 1338 1378
+)
+"m_parser.ml" 72 2133 2143 "m_parser.ml" 72 2133 2149
+type(
+  string
+)
+"m_parser.ml" 72 2133 2137 "m_parser.ml" 72 2133 2149
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 72 2133 2150 "m_parser.ml" 72 2133 2153
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  M_t.modunit_ list -> (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"m_parser.ml" 72 2133 2154 "m_parser.ml" 72 2133 2156
+type(
+  M_t.modunit_ list
+)
+"m_parser.ml" 72 2133 2137 "m_parser.ml" 72 2133 2156
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+"m_parser.ml" 22 317 326 "m_parser.ml" 73 2159 2162
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs list
+)
+"m_parser.ml" 21 288 311 "m_parser.ml" 74 2163 2166
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+"m_parser.ml" 21 288 306 "m_parser.ml" 74 2163 2166
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs Lazy.t
+)
+"m_parser.ml" 76 2168 2172 "m_parser.ml" 76 2168 2183
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs ->
+  (Tla_parser.pcx, M_t.modunit list) Tla_parser.P.prs
+)
+ident(
+  def flat_locate "m_parser.ml" 21 288 288 "m_parser.ml" 0 0 -1
+)
+"m_parser.ml" 76 2168 2184 "m_parser.ml" 76 2168 2185
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+ident(
+  def p "m_parser.ml" 77 2188 2190 "m_parser.ml" 78 2214 2279
+)
+"m_parser.ml" 77 2188 2190 "m_parser.ml" 77 2188 2196
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs ->
+  (Tla_parser.pcx, M_t.modunit_ list Property.wrapped) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.locate "tla_parser.mli" 46 1196 1196 "tla_parser.mli" 47 1226 1261
+)
+"m_parser.ml" 77 2188 2197 "m_parser.ml" 77 2188 2198
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+ident(
+  int_ref p "m_parser.ml" 76 2168 2184 "m_parser.ml" 76 2168 2185
+)
+"m_parser.ml" 77 2188 2190 "m_parser.ml" 77 2188 2198
+type(
+  (Tla_parser.pcx, M_t.modunit_ list Property.wrapped) Tla_parser.P.prs
+)
+"m_parser.ml" 77 2188 2199 "m_parser.ml" 77 2188 2202
+type(
+  (Tla_parser.pcx, M_t.modunit_ list Property.wrapped) Tla_parser.P.prs ->
+  (M_t.modunit_ list Property.wrapped -> M_t.modunit list) ->
+  (Tla_parser.pcx, M_t.modunit list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <$> ) "pars.mli" 95 3412 3416 "pars.mli" 95 3412 3472
+)
+"m_parser.ml" 77 2188 2207 "m_parser.ml" 77 2188 2210
+type(
+  M_t.modunit_ list Property.wrapped
+)
+ident(
+  def xsw "m_parser.ml" 78 2214 2218 "m_parser.ml" 78 2214 2279
+)
+"m_parser.ml" 78 2214 2218 "m_parser.ml" 78 2214 2226
+type(
+  (M_t.modunit_ -> M_t.modunit) -> M_t.modunit_ list -> M_t.modunit list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"m_parser.ml" 78 2214 2232 "m_parser.ml" 78 2214 2233
+type(
+  M_t.modunit_
+)
+ident(
+  def x "m_parser.ml" 78 2214 2237 "m_parser.ml" 78 2214 2269
+)
+"m_parser.ml" 78 2214 2246 "m_parser.ml" 78 2214 2247
+type(
+  M_t.modunit_
+)
+ident(
+  int_ref x "m_parser.ml" 78 2214 2232 "m_parser.ml" 78 2214 2233
+)
+"m_parser.ml" 78 2214 2258 "m_parser.ml" 78 2214 2261
+type(
+  M_t.modunit_ list Property.wrapped
+)
+ident(
+  int_ref xsw "m_parser.ml" 77 2188 2207 "m_parser.ml" 77 2188 2210
+)
+"m_parser.ml" 78 2214 2258 "m_parser.ml" 78 2214 2267
+type(
+  Property.props
+)
+"m_parser.ml" 78 2214 2237 "m_parser.ml" 78 2214 2269
+type(
+  M_t.modunit
+)
+"m_parser.ml" 78 2214 2227 "m_parser.ml" 78 2214 2270
+type(
+  M_t.modunit_ -> M_t.modunit
+)
+"m_parser.ml" 78 2214 2271 "m_parser.ml" 78 2214 2274
+type(
+  M_t.modunit_ list Property.wrapped
+)
+ident(
+  int_ref xsw "m_parser.ml" 77 2188 2207 "m_parser.ml" 77 2188 2210
+)
+"m_parser.ml" 78 2214 2271 "m_parser.ml" 78 2214 2279
+type(
+  M_t.modunit_ list
+)
+"m_parser.ml" 78 2214 2218 "m_parser.ml" 78 2214 2279
+type(
+  M_t.modunit list
+)
+"m_parser.ml" 77 2188 2203 "m_parser.ml" 78 2214 2279
+type(
+  M_t.modunit_ list Property.wrapped -> M_t.modunit list
+)
+"m_parser.ml" 77 2188 2190 "m_parser.ml" 78 2214 2279
+type(
+  (Tla_parser.pcx, M_t.modunit list) Tla_parser.P.prs
+)
+"m_parser.ml" 80 2281 2285 "m_parser.ml" 80 2281 2293
+type(
+  (Tla_parser.pcx, M_t.modunit list list) Tla_parser.P.prs Lazy.t
+)
+ident(
+  def modunits "m_parser.ml" 21 288 288 "m_parser.ml" 0 0 -1
+)
+"m_parser.ml" 81 2307 2309 "m_parser.ml" 81 2307 2315
+type(
+  (Tla_parser.pcx, M_t.modunit list list) Tla_parser.P.prs list ->
+  (Tla_parser.pcx, M_t.modunit list list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.choice "pars.mli" 106 4061 4065 "pars.mli" 106 4061 4111
+)
+"m_parser.ml" 82 2318 2322 "m_parser.ml" 82 2318 2333
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs ->
+  (Tla_parser.pcx, M_t.modunit list) Tla_parser.P.prs
+)
+ident(
+  int_ref flat_locate "m_parser.ml" 76 2168 2172 "m_parser.ml" 76 2168 2183
+)
+"m_parser.ml" 82 2318 2335 "m_parser.ml" 82 2318 2338
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs Lazy.t ->
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.use "pars.mli" 83 2710 2714 "pars.mli" 83 2710 2759
+)
+"m_parser.ml" 82 2318 2339 "m_parser.ml" 82 2318 2346
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs Lazy.t
+)
+ident(
+  int_ref modunit "m_parser.ml" 21 288 296 "m_parser.ml" 21 288 303
+)
+"m_parser.ml" 82 2318 2334 "m_parser.ml" 82 2318 2347
+type(
+  (Tla_parser.pcx, M_t.modunit_ list) Tla_parser.P.prs
+)
+"m_parser.ml" 82 2318 2322 "m_parser.ml" 82 2318 2347
+type(
+  (Tla_parser.pcx, M_t.modunit list) Tla_parser.P.prs
+)
+"m_parser.ml" 82 2318 2348 "m_parser.ml" 82 2318 2352
+type(
+  (Tla_parser.pcx, M_t.modunit list) Tla_parser.P.prs ->
+  (Tla_parser.pcx, M_t.modunit list list) Tla_parser.P.prs ->
+  (Tla_parser.pcx, M_t.modunit list list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <::> ) "pars.mli" 99 3658 3662 "pars.mli" 99 3658 3731
+)
+"m_parser.ml" 82 2318 2353 "m_parser.ml" 82 2318 2356
+type(
+  (Tla_parser.pcx, M_t.modunit list list) Tla_parser.P.prs Lazy.t ->
+  (Tla_parser.pcx, M_t.modunit list list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.use "pars.mli" 83 2710 2714 "pars.mli" 83 2710 2759
+)
+"m_parser.ml" 82 2318 2357 "m_parser.ml" 82 2318 2365
+type(
+  (Tla_parser.pcx, M_t.modunit list list) Tla_parser.P.prs Lazy.t
+)
+ident(
+  int_ref modunits "m_parser.ml" 80 2281 2285 "m_parser.ml" 80 2281 2293
+)
+"m_parser.ml" 82 2318 2353 "m_parser.ml" 82 2318 2365
+type(
+  (Tla_parser.pcx, M_t.modunit list list) Tla_parser.P.prs
+)
+"m_parser.ml" 82 2318 2322 "m_parser.ml" 82 2318 2365
+type(
+  (Tla_parser.pcx, M_t.modunit list list) Tla_parser.P.prs
+)
+"m_parser.ml" 83 2368 2372 "m_parser.ml" 83 2368 2379
+type(
+  M_t.modunit list list ->
+  (Tla_parser.pcx, M_t.modunit list list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.succeed "pars.mli" 73 2251 2255 "pars.mli" 73 2251 2287
+)
+"m_parser.ml" 83 2368 2380 "m_parser.ml" 83 2368 2382
+type(
+  M_t.modunit list list
+)
+"m_parser.ml" 83 2368 2372 "m_parser.ml" 83 2368 2382
+type(
+  (Tla_parser.pcx, M_t.modunit list list) Tla_parser.P.prs
+)
+"m_parser.ml" 81 2307 2316 "m_parser.ml" 84 2385 2388
+type(
+  (Tla_parser.pcx, M_t.modunit list list) Tla_parser.P.prs list
+)
+"m_parser.ml" 80 2281 2301 "m_parser.ml" 85 2389 2392
+type(
+  (Tla_parser.pcx, M_t.modunit list list) Tla_parser.P.prs
+)
+"m_parser.ml" 80 2281 2296 "m_parser.ml" 85 2389 2392
+type(
+  (Tla_parser.pcx, M_t.modunit list list) Tla_parser.P.prs Lazy.t
+)
+"m_parser.ml" 87 2394 2398 "m_parser.ml" 87 2394 2403
+type(
+  (Tla_parser.pcx, M_t.mule) Tla_parser.P.prs Lazy.t
+)
+ident(
+  def parse "m_parser.ml" 21 288 288 "m_parser.ml" 0 0 -1
+)
+"m_parser.ml" 88 2417 2419 "m_parser.ml" 88 2417 2425
+type(
+  (Tla_parser.pcx, M_t.mule_) Tla_parser.P.prs ->
+  (Tla_parser.pcx, M_t.mule) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.locate "tla_parser.mli" 46 1196 1196 "tla_parser.mli" 47 1226 1261
+)
+"m_parser.ml" 88 2417 2427 "m_parser.ml" 88 2417 2430
+type(
+  (Tla_parser.pcx, M_t.mule_) Tla_parser.P.prs Lazy.t ->
+  (Tla_parser.pcx, M_t.mule_) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.use "pars.mli" 83 2710 2714 "pars.mli" 83 2710 2759
+)
+"m_parser.ml" 88 2417 2431 "m_parser.ml" 88 2417 2437
+type(
+  (Tla_parser.pcx, M_t.mule_) Tla_parser.P.prs Lazy.t
+)
+ident(
+  int_ref parse_ "m_parser.ml" 92 2475 2479 "m_parser.ml" 92 2475 2485
+)
+"m_parser.ml" 88 2417 2426 "m_parser.ml" 88 2417 2438
+type(
+  (Tla_parser.pcx, M_t.mule_) Tla_parser.P.prs
+)
+"m_parser.ml" 87 2394 2411 "m_parser.ml" 89 2439 2442
+type(
+  (Tla_parser.pcx, M_t.mule) Tla_parser.P.prs
+)
+"m_parser.ml" 87 2394 2406 "m_parser.ml" 89 2439 2442
+type(
+  (Tla_parser.pcx, M_t.mule) Tla_parser.P.prs Lazy.t
+)
+"m_parser.ml" 92 2475 2479 "m_parser.ml" 92 2475 2485
+type(
+  (Tla_parser.pcx, M_t.mule_) Tla_parser.P.prs Lazy.t
+)
+ident(
+  def parse_ "m_parser.ml" 21 288 288 "m_parser.ml" 0 0 -1
+)
+"m_parser.ml" 93 2499 2502 "m_parser.ml" 93 2499 2507
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.punct "tla_parser.mli" 50 1338 1338 "tla_parser.mli" 50 1338 1378
+)
+"m_parser.ml" 93 2499 2508 "m_parser.ml" 93 2499 2514
+type(
+  string
+)
+"m_parser.ml" 93 2499 2502 "m_parser.ml" 93 2499 2514
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 93 2499 2515 "m_parser.ml" 93 2499 2518
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( >*> ) "pars.mli" 93 3286 3290 "pars.mli" 93 3286 3348
+)
+"m_parser.ml" 93 2499 2519 "m_parser.ml" 93 2499 2522
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.kwd "tla_parser.mli" 54 1469 1469 "tla_parser.mli" 54 1469 1507
+)
+"m_parser.ml" 93 2499 2523 "m_parser.ml" 93 2499 2531
+type(
+  string
+)
+"m_parser.ml" 93 2499 2519 "m_parser.ml" 93 2499 2531
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 93 2499 2502 "m_parser.ml" 93 2499 2531
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 93 2499 2532 "m_parser.ml" 93 2499 2535
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( >*> ) "pars.mli" 93 3286 3290 "pars.mli" 93 3286 3348
+)
+"m_parser.ml" 93 2499 2536 "m_parser.ml" 93 2499 2542
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.locate "tla_parser.mli" 46 1196 1196 "tla_parser.mli" 47 1226 1261
+)
+"m_parser.ml" 93 2499 2543 "m_parser.ml" 93 2499 2550
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.anyname "tla_parser.mli" 52 1410 1410 "tla_parser.mli" 52 1410 1442
+)
+"m_parser.ml" 93 2499 2536 "m_parser.ml" 93 2499 2550
+type(
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs
+)
+"m_parser.ml" 93 2499 2502 "m_parser.ml" 93 2499 2550
+type(
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs
+)
+"m_parser.ml" 93 2499 2551 "m_parser.ml" 93 2499 2554
+type(
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <<< ) "pars.mli" 94 3349 3353 "pars.mli" 94 3349 3411
+)
+"m_parser.ml" 93 2499 2555 "m_parser.ml" 93 2499 2560
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.punct "tla_parser.mli" 50 1338 1338 "tla_parser.mli" 50 1338 1378
+)
+"m_parser.ml" 93 2499 2561 "m_parser.ml" 93 2499 2567
+type(
+  string
+)
+"m_parser.ml" 93 2499 2555 "m_parser.ml" 93 2499 2567
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 93 2499 2501 "m_parser.ml" 93 2499 2568
+type(
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs
+)
+"m_parser.ml" 94 2569 2571 "m_parser.ml" 94 2569 2574
+type(
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hints option) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hint * Util.hints option) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <*> ) "pars.mli" 88 2968 2972 "pars.mli" 88 2968 3036
+)
+"m_parser.ml" 94 2569 2575 "m_parser.ml" 94 2569 2583
+type(
+  (Tla_parser.pcx, Util.hints) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hints option) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.optional "pars.mli" 105 4006 4010 "pars.mli" 105 4006 4060
+)
+"m_parser.ml" 94 2569 2585 "m_parser.ml" 94 2569 2588
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.kwd "tla_parser.mli" 54 1469 1469 "tla_parser.mli" 54 1469 1507
+)
+"m_parser.ml" 94 2569 2589 "m_parser.ml" 94 2569 2598
+type(
+  string
+)
+"m_parser.ml" 94 2569 2585 "m_parser.ml" 94 2569 2598
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 94 2569 2599 "m_parser.ml" 94 2569 2602
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hints) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hints) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( >>> ) "pars.mli" 92 3223 3227 "pars.mli" 92 3223 3285
+)
+"m_parser.ml" 94 2569 2603 "m_parser.ml" 94 2569 2607
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hints) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.sep1 "pars.mli" 113 4434 4438 "pars.mli" 113 4434 4500
+)
+"m_parser.ml" 94 2569 2609 "m_parser.ml" 94 2569 2614
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.punct "tla_parser.mli" 50 1338 1338 "tla_parser.mli" 50 1338 1378
+)
+"m_parser.ml" 94 2569 2615 "m_parser.ml" 94 2569 2618
+type(
+  string
+)
+"m_parser.ml" 94 2569 2608 "m_parser.ml" 94 2569 2619
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 94 2569 2621 "m_parser.ml" 94 2569 2627
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.locate "tla_parser.mli" 46 1196 1196 "tla_parser.mli" 47 1226 1261
+)
+"m_parser.ml" 94 2569 2628 "m_parser.ml" 94 2569 2636
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.anyident "tla_parser.mli" 48 1262 1262 "tla_parser.mli" 48 1262 1295
+)
+"m_parser.ml" 94 2569 2620 "m_parser.ml" 94 2569 2637
+type(
+  (Tla_parser.pcx, Util.hint) Tla_parser.P.prs
+)
+"m_parser.ml" 94 2569 2603 "m_parser.ml" 94 2569 2637
+type(
+  (Tla_parser.pcx, Util.hints) Tla_parser.P.prs
+)
+"m_parser.ml" 94 2569 2584 "m_parser.ml" 94 2569 2638
+type(
+  (Tla_parser.pcx, Util.hints) Tla_parser.P.prs
+)
+"m_parser.ml" 94 2569 2575 "m_parser.ml" 94 2569 2638
+type(
+  (Tla_parser.pcx, Util.hints option) Tla_parser.P.prs
+)
+"m_parser.ml" 93 2499 2501 "m_parser.ml" 94 2569 2638
+type(
+  (Tla_parser.pcx, Util.hint * Util.hints option) Tla_parser.P.prs
+)
+"m_parser.ml" 95 2639 2641 "m_parser.ml" 95 2639 2645
+type(
+  (Tla_parser.pcx, Util.hint * Util.hints option) Tla_parser.P.prs ->
+  (Tla_parser.pcx, M_t.modunit list list) Tla_parser.P.prs ->
+  (Tla_parser.pcx, (Util.hint * Util.hints option) * M_t.modunit list list)
+  Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <**> ) "pars.mli" 90 3083 3087 "pars.mli" 90 3083 3151
+)
+"m_parser.ml" 95 2639 2646 "m_parser.ml" 95 2639 2649
+type(
+  (Tla_parser.pcx, M_t.modunit list list) Tla_parser.P.prs Lazy.t ->
+  (Tla_parser.pcx, M_t.modunit list list) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.use "pars.mli" 83 2710 2714 "pars.mli" 83 2710 2759
+)
+"m_parser.ml" 95 2639 2650 "m_parser.ml" 95 2639 2658
+type(
+  (Tla_parser.pcx, M_t.modunit list list) Tla_parser.P.prs Lazy.t
+)
+ident(
+  int_ref modunits "m_parser.ml" 80 2281 2285 "m_parser.ml" 80 2281 2293
+)
+"m_parser.ml" 95 2639 2646 "m_parser.ml" 95 2639 2658
+type(
+  (Tla_parser.pcx, M_t.modunit list list) Tla_parser.P.prs
+)
+"m_parser.ml" 93 2499 2501 "m_parser.ml" 95 2639 2658
+type(
+  (Tla_parser.pcx, (Util.hint * Util.hints option) * M_t.modunit list list)
+  Tla_parser.P.prs
+)
+"m_parser.ml" 95 2639 2659 "m_parser.ml" 95 2639 2662
+type(
+  (Tla_parser.pcx, (Util.hint * Util.hints option) * M_t.modunit list list)
+  Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, (Util.hint * Util.hints option) * M_t.modunit list list)
+  Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <<< ) "pars.mli" 94 3349 3353 "pars.mli" 94 3349 3411
+)
+"m_parser.ml" 95 2639 2663 "m_parser.ml" 95 2639 2668
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.punct "tla_parser.mli" 50 1338 1338 "tla_parser.mli" 50 1338 1378
+)
+"m_parser.ml" 95 2639 2669 "m_parser.ml" 95 2639 2675
+type(
+  string
+)
+"m_parser.ml" 95 2639 2663 "m_parser.ml" 95 2639 2675
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"m_parser.ml" 93 2499 2501 "m_parser.ml" 95 2639 2675
+type(
+  (Tla_parser.pcx, (Util.hint * Util.hints option) * M_t.modunit list list)
+  Tla_parser.P.prs
+)
+"m_parser.ml" 96 2676 2678 "m_parser.ml" 96 2676 2681
+type(
+  (Tla_parser.pcx, (Util.hint * Util.hints option) * M_t.modunit list list)
+  Tla_parser.P.prs ->
+  ((Util.hint * Util.hints option) * M_t.modunit list list -> M_t.mule_) ->
+  (Tla_parser.pcx, M_t.mule_) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <$> ) "pars.mli" 95 3412 3416 "pars.mli" 95 3412 3472
+)
+"m_parser.ml" 96 2676 2694 "m_parser.ml" 96 2676 2696
+type(
+  Util.hint
+)
+ident(
+  def nm "m_parser.ml" 97 2712 2716 "m_parser.ml" 104 2942 2964
+)
+"m_parser.ml" 96 2676 2698 "m_parser.ml" 96 2676 2701
+type(
+  Util.hints option
+)
+ident(
+  def exs "m_parser.ml" 97 2712 2716 "m_parser.ml" 104 2942 2964
+)
+"m_parser.ml" 96 2676 2693 "m_parser.ml" 96 2676 2702
+type(
+  Util.hint * Util.hints option
+)
+"m_parser.ml" 96 2676 2704 "m_parser.ml" 96 2676 2707
+type(
+  M_t.modunit list list
+)
+ident(
+  def mus "m_parser.ml" 97 2712 2716 "m_parser.ml" 104 2942 2964
+)
+"m_parser.ml" 96 2676 2692 "m_parser.ml" 96 2676 2708
+type(
+  (Util.hint * Util.hints option) * M_t.modunit list list
+)
+"m_parser.ml" 97 2712 2720 "m_parser.ml" 97 2712 2727
+type(
+  Util.hints
+)
+ident(
+  def extends "m_parser.ml" 98 2755 2759 "m_parser.ml" 104 2942 2964
+)
+"m_parser.ml" 97 2712 2730 "m_parser.ml" 97 2712 2744
+type(
+  Util.hints -> Util.hints option -> Util.hints
+)
+ident(
+  int_ref Ext.Option.default "ext.mli" 63 2752 2754 "ext.mli" 63 2752 2789
+)
+"m_parser.ml" 97 2712 2745 "m_parser.ml" 97 2712 2747
+type(
+  Util.hints
+)
+"m_parser.ml" 97 2712 2748 "m_parser.ml" 97 2712 2751
+type(
+  Util.hints option
+)
+ident(
+  int_ref exs "m_parser.ml" 96 2676 2698 "m_parser.ml" 96 2676 2701
+)
+"m_parser.ml" 97 2712 2730 "m_parser.ml" 97 2712 2751
+type(
+  Util.hints
+)
+"m_parser.ml" 98 2755 2768 "m_parser.ml" 98 2755 2770
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "m_parser.ml" 96 2676 2694 "m_parser.ml" 96 2676 2696
+)
+"m_parser.ml" 99 2771 2789 "m_parser.ml" 99 2771 2796
+type(
+  Util.hints
+)
+ident(
+  int_ref extends "m_parser.ml" 97 2712 2720 "m_parser.ml" 97 2712 2727
+)
+"m_parser.ml" 100 2797 2816 "m_parser.ml" 100 2797 2818
+type(
+  Util.hints
+)
+"m_parser.ml" 101 2819 2836 "m_parser.ml" 101 2819 2837
+type(
+  int
+)
+"m_parser.ml" 102 2838 2868 "m_parser.ml" 102 2838 2872
+type(
+  bool
+)
+"m_parser.ml" 103 2913 2926 "m_parser.ml" 103 2913 2937
+type(
+  M_t.modunit list list -> M_t.modunit list
+)
+ident(
+  int_ref Ext.List.concat "ext.mli" 14 345 347 "ext.mli" 14 345 383
+)
+"m_parser.ml" 103 2913 2938 "m_parser.ml" 103 2913 2941
+type(
+  M_t.modunit list list
+)
+ident(
+  int_ref mus "m_parser.ml" 96 2676 2704 "m_parser.ml" 96 2676 2707
+)
+"m_parser.ml" 103 2913 2926 "m_parser.ml" 103 2913 2941
+type(
+  M_t.modunit list
+)
+"m_parser.ml" 104 2942 2956 "m_parser.ml" 104 2942 2962
+type(
+  M_t.stage
+)
+"m_parser.ml" 98 2755 2759 "m_parser.ml" 104 2942 2964
+type(
+  M_t.mule_
+)
+"m_parser.ml" 97 2712 2716 "m_parser.ml" 104 2942 2964
+type(
+  M_t.mule_
+)
+"m_parser.ml" 96 2676 2682 "m_parser.ml" 105 2965 2970
+type(
+  (Util.hint * Util.hints option) * M_t.modunit list list -> M_t.mule_
+)
+"m_parser.ml" 92 2475 2493 "m_parser.ml" 106 2971 2974
+type(
+  (Tla_parser.pcx, M_t.mule_) Tla_parser.P.prs
+)
+"m_parser.ml" 92 2475 2488 "m_parser.ml" 106 2971 2974
+type(
+  (Tla_parser.pcx, M_t.mule_) Tla_parser.P.prs Lazy.t
+)

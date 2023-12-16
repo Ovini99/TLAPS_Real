@@ -1,0 +1,148 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:18:08 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp function16_test.tla --stretch 5
+
+(* created new ".tlacache/TLAPS.tlaps/TLAPS.thy" *)
+(* fingerprints written in ".tlacache/TLAPS.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/function16_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+COMMAND-LINE ARGUMENT
+file=.tlacache/function16_test.tlaps/tlapm_663f36.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/function16_test.tlaps/tlapm_663f36.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #1
+;;   generated from file "./function16_test.tla", line 21, characters 5-11
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun tla__in (u u) Bool)
+(declare-fun tla__isAFcn (u) Bool)
+(declare-fun tla__DOMAIN (u) u)
+(declare-fun tla__fcnapp (u u) u)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_funde_a () u)
+(declare-fun a_CONSTANTunde_uunde_a () u)
+(declare-fun a_CONSTANTunde_vunde_a () u)
+(declare-fun a_CONSTANTunde_wunde_a () u)
+(declare-fun a_CONSTANTunde_xunde_a () u)
+(declare-fun a_CONSTANTunde_yunde_a () u)
+(declare-fun a_CONSTANTunde_zunde_a () u)
+(declare-fun a_aunde_unde_1a () u)
+(declare-fun a_aunde_unde_2a () u)
+(declare-fun a_aunde_unde_3a () u)
+
+(assert
+  (forall ((S_13 u) (T_14 u))
+  (=>
+  (forall ((X_10 u)) (= (tla__in X_10 S_13) (tla__in X_10 T_14)))
+  (= S_13 T_14))))
+(assert
+  (forall ((F_16 u) (G_17 u))
+  (=>
+  (and
+  (tla__isAFcn F_16) (tla__isAFcn G_17)
+  (forall ((X_10 u))
+  (= (tla__in X_10 (tla__DOMAIN F_16)) (tla__in X_10 (tla__DOMAIN G_17)))))
+  (= (tla__DOMAIN F_16) (tla__DOMAIN G_17)))))
+(assert
+  (forall ((F_16 u) (G_17 u))
+  (=>
+  (and
+  (tla__isAFcn F_16) (tla__isAFcn G_17)
+  (= (tla__DOMAIN F_16) (tla__DOMAIN G_17))
+  (forall ((X_10 u))
+  (=>
+  (tla__in X_10 (tla__DOMAIN G_17))
+  (= (tla__fcnapp F_16 X_10) (tla__fcnapp G_17 X_10)))))
+  (= F_16 G_17))))
+
+;; Theorem to be Proved
+(assert (not
+  (ite
+    (= a_CONSTANTunde_xunde_a a_CONSTANTunde_uunde_a)
+    (= a_aunde_unde_2a a_aunde_unde_3a)
+    (= (tla__fcnapp a_aunde_unde_1a a_CONSTANTunde_xunde_a) a_aunde_unde_3a))))
+(assert (tla__isAFcn a_aunde_unde_1a))
+(assert
+  (= (tla__DOMAIN a_CONSTANTunde_funde_a) (tla__DOMAIN a_aunde_unde_1a)))
+(assert (tla__isAFcn (tla__fcnapp a_aunde_unde_1a a_CONSTANTunde_xunde_a)))
+(assert
+  (=
+    (tla__DOMAIN (tla__fcnapp a_CONSTANTunde_funde_a a_CONSTANTunde_xunde_a))
+    (tla__DOMAIN a_aunde_unde_3a)))
+(assert
+  (=
+    (tla__fcnapp
+      (tla__fcnapp a_aunde_unde_1a a_CONSTANTunde_xunde_a)
+      a_CONSTANTunde_yunde_a) a_CONSTANTunde_zunde_a))
+(assert
+  (forall ((a_v5a u))
+    (=>
+      (and
+        (tla__in a_v5a (tla__DOMAIN a_aunde_unde_3a))
+        (not (= a_v5a a_CONSTANTunde_yunde_a)))
+      (=
+        (tla__fcnapp
+          (tla__fcnapp a_CONSTANTunde_funde_a a_CONSTANTunde_xunde_a) a_v5a)
+        (tla__fcnapp
+          (tla__fcnapp a_aunde_unde_1a a_CONSTANTunde_xunde_a) a_v5a)))))
+(assert
+  (forall ((a_v4a u))
+    (=>
+      (and
+        (tla__in a_v4a (tla__DOMAIN a_aunde_unde_1a))
+        (not (= a_v4a a_CONSTANTunde_xunde_a)))
+      (=
+        (tla__fcnapp a_CONSTANTunde_funde_a a_v4a)
+        (tla__fcnapp a_aunde_unde_1a a_v4a)))))
+(assert (tla__isAFcn a_aunde_unde_2a))
+(assert
+  (=
+    (tla__DOMAIN (tla__fcnapp a_CONSTANTunde_funde_a a_CONSTANTunde_uunde_a))
+    (tla__DOMAIN a_aunde_unde_2a)))
+(assert
+  (=
+    (tla__fcnapp a_aunde_unde_2a a_CONSTANTunde_vunde_a)
+    a_CONSTANTunde_wunde_a))
+(assert
+  (forall ((a_v6a u))
+    (=>
+      (and
+        (tla__in a_v6a (tla__DOMAIN a_aunde_unde_2a))
+        (not (= a_v6a a_CONSTANTunde_vunde_a)))
+      (=
+        (tla__fcnapp
+          (tla__fcnapp a_CONSTANTunde_funde_a a_CONSTANTunde_uunde_a) a_v6a)
+        (tla__fcnapp a_aunde_unde_2a a_v6a)))))
+(assert (tla__isAFcn a_aunde_unde_3a))
+(assert
+  (=
+    (tla__DOMAIN (tla__fcnapp a_CONSTANTunde_funde_a a_CONSTANTunde_xunde_a))
+    (tla__DOMAIN a_aunde_unde_3a)))
+(assert
+  (=
+    (tla__fcnapp a_aunde_unde_3a a_CONSTANTunde_yunde_a)
+    a_CONSTANTunde_zunde_a))
+(assert
+  (forall ((a_v7a u))
+    (=>
+      (and
+        (tla__in a_v7a (tla__DOMAIN a_aunde_unde_3a))
+        (not (= a_v7a a_CONSTANTunde_yunde_a)))
+      (=
+        (tla__fcnapp
+          (tla__fcnapp a_CONSTANTunde_funde_a a_CONSTANTunde_xunde_a) a_v7a)
+        (tla__fcnapp a_aunde_unde_3a a_v7a)))))
+(assert (tla__in a_CONSTANTunde_xunde_a (tla__DOMAIN a_aunde_unde_1a)))
+(assert (tla__in a_CONSTANTunde_yunde_a (tla__DOMAIN a_aunde_unde_3a)))
+(assert (tla__in a_CONSTANTunde_uunde_a (tla__DOMAIN a_aunde_unde_1a)))
+(assert (tla__in a_CONSTANTunde_vunde_a (tla__DOMAIN a_aunde_unde_2a)))
+(assert (not (= a_CONSTANTunde_uunde_a a_CONSTANTunde_xunde_a)))
+
+(check-sat)
+(exit)
+
+(* created new ".tlacache/function16_test.tlaps/function16_test.thy" *)
+(* fingerprints written in ".tlacache/function16_test.tlaps/fingerprints" *)

@@ -1,0 +1,7572 @@
+"coalesce.ml" 16 179 183 "coalesce.ml" 16 179 186
+type(
+  'a Ctx.ctx
+)
+ident(
+  def dot "coalesce.ml" 19 199 199 "coalesce.ml" 0 0 -1
+)
+"coalesce.ml" 16 179 189 "coalesce.ml" 16 179 196
+type(
+  'a Ctx.ctx
+)
+ident(
+  int_ref Ctx.dot "ctx.mli" 20 424 424 "ctx.mli" 20 424 439
+)
+"coalesce.ml" 19 199 203 "coalesce.ml" 19 199 216
+type(
+  string -> string
+)
+ident(
+  def string_to_hex "coalesce.ml" 24 310 310 "coalesce.ml" 0 0 -1
+)
+"coalesce.ml" 19 199 217 "coalesce.ml" 19 199 218
+type(
+  string
+)
+ident(
+  def s "coalesce.ml" 21 272 276 "coalesce.ml" 21 272 307
+)
+"coalesce.ml" 21 272 276 "coalesce.ml" 21 272 289
+type(
+  Digest.t -> string
+)
+ident(
+  int_ref Stdlib.Digest.to_hex "digest.mli" 75 3197 3197 "digest.mli" 75 3197 3221
+)
+"coalesce.ml" 21 272 291 "coalesce.ml" 21 272 304
+type(
+  string -> Digest.t
+)
+ident(
+  int_ref Stdlib.Digest.string "digest.mli" 42 1986 1986 "digest.mli" 42 1986 2010
+)
+"coalesce.ml" 21 272 305 "coalesce.ml" 21 272 306
+type(
+  string
+)
+ident(
+  int_ref s "coalesce.ml" 19 199 217 "coalesce.ml" 19 199 218
+)
+"coalesce.ml" 21 272 290 "coalesce.ml" 21 272 307
+type(
+  Digest.t
+)
+"coalesce.ml" 21 272 276 "coalesce.ml" 21 272 307
+type(
+  string
+)
+"coalesce.ml" 24 310 314 "coalesce.ml" 24 310 335
+type(
+  string -> string
+)
+ident(
+  def shorter_string_to_hex "coalesce.ml" 30 494 494 "coalesce.ml" 0 0 -1
+)
+"coalesce.ml" 24 310 336 "coalesce.ml" 24 310 337
+type(
+  string
+)
+ident(
+  def s "coalesce.ml" 26 403 407 "coalesce.ml" 26 403 439
+)
+"coalesce.ml" 26 403 407 "coalesce.ml" 26 403 417
+type(
+  string -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.String.sub "string.mli" 190 6894 6894 "string.mli" 190 6894 6934
+)
+"coalesce.ml" 26 403 419 "coalesce.ml" 26 403 432
+type(
+  string -> string
+)
+ident(
+  int_ref string_to_hex "coalesce.ml" 19 199 203 "coalesce.ml" 19 199 216
+)
+"coalesce.ml" 26 403 433 "coalesce.ml" 26 403 434
+type(
+  string
+)
+ident(
+  int_ref s "coalesce.ml" 24 310 336 "coalesce.ml" 24 310 337
+)
+"coalesce.ml" 26 403 418 "coalesce.ml" 26 403 435
+type(
+  string
+)
+"coalesce.ml" 26 403 436 "coalesce.ml" 26 403 437
+type(
+  int
+)
+"coalesce.ml" 26 403 438 "coalesce.ml" 26 403 439
+type(
+  int
+)
+"coalesce.ml" 26 403 407 "coalesce.ml" 26 403 439
+type(
+  string
+)
+"coalesce.ml" 30 494 498 "coalesce.ml" 30 494 507
+type(
+  Expr.T.hyp Deque.dq -> int Ctx.ctx -> Expr.T.expr -> string
+)
+ident(
+  def crypthash "coalesce.ml" 43 970 970 "coalesce.ml" 0 0 -1
+)
+"coalesce.ml" 30 494 508 "coalesce.ml" 30 494 511
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def scx "coalesce.ml" 30 494 512 "coalesce.ml" 38 738 771
+)
+"coalesce.ml" 30 494 512 "coalesce.ml" 30 494 514
+type(
+  int Ctx.ctx
+)
+ident(
+  def cx "coalesce.ml" 30 494 515 "coalesce.ml" 38 738 771
+)
+"coalesce.ml" 30 494 515 "coalesce.ml" 30 494 516
+type(
+  Expr.T.expr
+)
+ident(
+  def e "coalesce.ml" 31 519 523 "coalesce.ml" 38 738 771
+)
+"coalesce.ml" 31 519 527 "coalesce.ml" 31 519 528
+type(
+  string
+)
+ident(
+  def s "coalesce.ml" 38 738 742 "coalesce.ml" 38 738 771
+)
+"coalesce.ml" 32 531 543 "coalesce.ml" 32 531 544
+type(
+  Buffer.t
+)
+ident(
+  def b "coalesce.ml" 33 567 575 "coalesce.ml" 36 705 730
+)
+"coalesce.ml" 32 531 547 "coalesce.ml" 32 531 560
+type(
+  int -> Buffer.t
+)
+ident(
+  int_ref Stdlib.Buffer.create "buffer.mli" 36 1534 1534 "buffer.mli" 36 1534 1555
+)
+"coalesce.ml" 32 531 561 "coalesce.ml" 32 531 563
+type(
+  int
+)
+"coalesce.ml" 32 531 547 "coalesce.ml" 32 531 563
+type(
+  Buffer.t
+)
+"coalesce.ml" 33 567 579 "coalesce.ml" 33 567 582
+type(
+  Format.formatter
+)
+ident(
+  def fmt "coalesce.ml" 34 617 625 "coalesce.ml" 36 705 730
+)
+"coalesce.ml" 33 567 585 "coalesce.ml" 33 567 611
+type(
+  Buffer.t -> Format.formatter
+)
+ident(
+  int_ref Stdlib.Format.formatter_of_buffer "format.mli" 962 37557 37557 "format.mli" 962 37557 37604
+)
+"coalesce.ml" 33 567 612 "coalesce.ml" 33 567 613
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "coalesce.ml" 32 531 543 "coalesce.ml" 32 531 544
+)
+"coalesce.ml" 33 567 585 "coalesce.ml" 33 567 613
+type(
+  Format.formatter
+)
+"coalesce.ml" 34 617 625 "coalesce.ml" 34 617 647
+type(
+  ?temp:bool -> Expr.Fmt.ctx -> Format.formatter -> Expr.T.expr -> unit
+)
+ident(
+  int_ref Expr.Fmt.pp_print_expr "expr.mli" 393 10055 10059 "expr.mli" 396 10143 10159
+)
+"coalesce.ml" 34 617 649 "coalesce.ml" 34 617 652
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "coalesce.ml" 30 494 508 "coalesce.ml" 30 494 511
+)
+"coalesce.ml" 34 617 654 "coalesce.ml" 34 617 656
+type(
+  int Ctx.ctx
+)
+ident(
+  int_ref cx "coalesce.ml" 30 494 512 "coalesce.ml" 30 494 514
+)
+"coalesce.ml" 34 617 648 "coalesce.ml" 34 617 657
+type(
+  Expr.Fmt.ctx
+)
+"coalesce.ml" 34 617 658 "coalesce.ml" 34 617 661
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "coalesce.ml" 33 567 579 "coalesce.ml" 33 567 582
+)
+"coalesce.ml" 34 617 662 "coalesce.ml" 34 617 663
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 30 494 515 "coalesce.ml" 30 494 516
+)
+"coalesce.ml" 34 617 625 "coalesce.ml" 34 617 663
+type(
+  unit
+)
+"coalesce.ml" 35 666 674 "coalesce.ml" 35 666 695
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref Stdlib.Format.pp_print_flush "format.mli" 364 13972 13972 "format.mli" 364 13972 14018
+)
+"coalesce.ml" 35 666 696 "coalesce.ml" 35 666 699
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "coalesce.ml" 33 567 579 "coalesce.ml" 33 567 582
+)
+"coalesce.ml" 35 666 700 "coalesce.ml" 35 666 702
+type(
+  unit
+)
+"coalesce.ml" 35 666 674 "coalesce.ml" 35 666 702
+type(
+  unit
+)
+"coalesce.ml" 36 705 713 "coalesce.ml" 36 705 728
+type(
+  Buffer.t -> string
+)
+ident(
+  int_ref Stdlib.Buffer.contents "buffer.mli" 50 2314 2314 "buffer.mli" 50 2314 2340
+)
+"coalesce.ml" 36 705 729 "coalesce.ml" 36 705 730
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "coalesce.ml" 32 531 543 "coalesce.ml" 32 531 544
+)
+"coalesce.ml" 36 705 713 "coalesce.ml" 36 705 730
+type(
+  string
+)
+"coalesce.ml" 35 666 674 "coalesce.ml" 36 705 730
+type(
+  string
+)
+"coalesce.ml" 34 617 625 "coalesce.ml" 36 705 730
+type(
+  string
+)
+"coalesce.ml" 33 567 575 "coalesce.ml" 36 705 730
+type(
+  string
+)
+"coalesce.ml" 32 531 539 "coalesce.ml" 36 705 730
+type(
+  string
+)
+"coalesce.ml" 38 738 742 "coalesce.ml" 38 738 745
+type(
+  string
+)
+"coalesce.ml" 38 738 746 "coalesce.ml" 38 738 747
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"coalesce.ml" 38 738 748 "coalesce.ml" 38 738 769
+type(
+  string -> string
+)
+ident(
+  int_ref shorter_string_to_hex "coalesce.ml" 24 310 314 "coalesce.ml" 24 310 335
+)
+"coalesce.ml" 38 738 770 "coalesce.ml" 38 738 771
+type(
+  string
+)
+ident(
+  int_ref s "coalesce.ml" 31 519 527 "coalesce.ml" 31 519 528
+)
+"coalesce.ml" 38 738 748 "coalesce.ml" 38 738 771
+type(
+  string
+)
+"coalesce.ml" 38 738 742 "coalesce.ml" 38 738 771
+type(
+  string
+)
+"coalesce.ml" 31 519 523 "coalesce.ml" 38 738 771
+type(
+  string
+)
+"coalesce.ml" 43 970 974 "coalesce.ml" 43 970 982
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  def coalesce "coalesce.ml" 47 1027 1027 "coalesce.ml" 0 0 -1
+)
+"coalesce.ml" 43 970 983 "coalesce.ml" 43 970 985
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def cx "coalesce.ml" 43 970 986 "coalesce.ml" 44 990 1024
+)
+"coalesce.ml" 43 970 986 "coalesce.ml" 43 970 987
+type(
+  Expr.T.expr
+)
+ident(
+  def e "coalesce.ml" 44 990 992 "coalesce.ml" 44 990 1024
+)
+"coalesce.ml" 44 990 1000 "coalesce.ml" 44 990 1009
+type(
+  Expr.T.hyp Deque.dq -> int Ctx.ctx -> Expr.T.expr -> string
+)
+ident(
+  int_ref crypthash "coalesce.ml" 30 494 498 "coalesce.ml" 30 494 507
+)
+"coalesce.ml" 44 990 1010 "coalesce.ml" 44 990 1012
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "coalesce.ml" 43 970 983 "coalesce.ml" 43 970 985
+)
+"coalesce.ml" 44 990 1013 "coalesce.ml" 44 990 1016
+type(
+  int Ctx.ctx
+)
+ident(
+  int_ref dot "coalesce.ml" 16 179 183 "coalesce.ml" 16 179 186
+)
+"coalesce.ml" 44 990 1017 "coalesce.ml" 44 990 1018
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 43 970 986 "coalesce.ml" 43 970 987
+)
+"coalesce.ml" 44 990 999 "coalesce.ml" 44 990 1019
+type(
+  string
+)
+"coalesce.ml" 44 990 992 "coalesce.ml" 44 990 1019
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 44 990 1020 "coalesce.ml" 44 990 1022
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"coalesce.ml" 44 990 1023 "coalesce.ml" 44 990 1024
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 43 970 986 "coalesce.ml" 43 970 987
+)
+"coalesce.ml" 44 990 992 "coalesce.ml" 44 990 1024
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 47 1027 1035 "coalesce.ml" 47 1027 1044
+type(
+  int list -> int -> int list
+)
+ident(
+  def int_compr "coalesce.ml" 47 1027 1027 "coalesce.ml" 0 0 -1
+)
+"coalesce.ml" 47 1027 1045 "coalesce.ml" 47 1027 1047
+type(
+  int list
+)
+ident(
+  def ls "coalesce.ml" 47 1027 1050 "coalesce.ml" 50 1125 1161
+)
+"coalesce.ml" 49 1113 1117 "coalesce.ml" 49 1113 1118
+type(
+  int
+)
+"coalesce.ml" 49 1113 1122 "coalesce.ml" 49 1113 1124
+type(
+  int list
+)
+ident(
+  int_ref ls "coalesce.ml" 47 1027 1045 "coalesce.ml" 47 1027 1047
+)
+"coalesce.ml" 50 1125 1129 "coalesce.ml" 50 1125 1130
+type(
+  int
+)
+ident(
+  def m "coalesce.ml" 50 1125 1134 "coalesce.ml" 50 1125 1161
+)
+"coalesce.ml" 50 1125 1134 "coalesce.ml" 50 1125 1135
+type(
+  int
+)
+ident(
+  int_ref m "coalesce.ml" 50 1125 1129 "coalesce.ml" 50 1125 1130
+)
+"coalesce.ml" 50 1125 1140 "coalesce.ml" 50 1125 1149
+type(
+  int list -> int -> int list
+)
+ident(
+  int_ref int_compr "coalesce.ml" 47 1027 1035 "coalesce.ml" 47 1027 1044
+)
+"coalesce.ml" 50 1125 1150 "coalesce.ml" 50 1125 1152
+type(
+  int list
+)
+ident(
+  int_ref ls "coalesce.ml" 47 1027 1045 "coalesce.ml" 47 1027 1047
+)
+"coalesce.ml" 50 1125 1154 "coalesce.ml" 50 1125 1155
+type(
+  int
+)
+ident(
+  int_ref m "coalesce.ml" 50 1125 1129 "coalesce.ml" 50 1125 1130
+)
+"coalesce.ml" 50 1125 1156 "coalesce.ml" 50 1125 1157
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"coalesce.ml" 50 1125 1158 "coalesce.ml" 50 1125 1159
+type(
+  int
+)
+"coalesce.ml" 50 1125 1153 "coalesce.ml" 50 1125 1160
+type(
+  int
+)
+"coalesce.ml" 50 1125 1139 "coalesce.ml" 50 1125 1161
+type(
+  int list
+)
+"coalesce.ml" 50 1125 1134 "coalesce.ml" 50 1125 1161
+type(
+  int list
+)
+"coalesce.ml" 47 1027 1050 "coalesce.ml" 50 1125 1161
+type(
+  int -> int list
+)
+"coalesce.ml" 53 1164 1168 "coalesce.ml" 53 1164 1180
+type(
+  'a list -> (int * 'a) list
+)
+ident(
+  def indexed_args "coalesce.ml" 61 1399 1399 "coalesce.ml" 0 0 -1
+)
+"coalesce.ml" 53 1164 1181 "coalesce.ml" 53 1164 1185
+type(
+  'a list
+)
+ident(
+  def args "coalesce.ml" 57 1322 1326 "coalesce.ml" 58 1354 1396
+)
+"coalesce.ml" 57 1322 1330 "coalesce.ml" 57 1322 1331
+type(
+  int
+)
+ident(
+  def n "coalesce.ml" 58 1354 1358 "coalesce.ml" 58 1354 1396
+)
+"coalesce.ml" 57 1322 1334 "coalesce.ml" 57 1322 1345
+type(
+  'a list -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"coalesce.ml" 57 1322 1346 "coalesce.ml" 57 1322 1350
+type(
+  'a list
+)
+ident(
+  int_ref args "coalesce.ml" 53 1164 1181 "coalesce.ml" 53 1164 1185
+)
+"coalesce.ml" 57 1322 1334 "coalesce.ml" 57 1322 1350
+type(
+  int
+)
+"coalesce.ml" 58 1354 1358 "coalesce.ml" 58 1354 1367
+type(
+  (int -> 'a -> int * 'a) -> 'a list -> (int * 'a) list
+)
+ident(
+  int_ref Ext.List.mapi "ext.mli" 51 2272 2274 "ext.mli" 51 2272 2324
+)
+"coalesce.ml" 58 1354 1373 "coalesce.ml" 58 1354 1374
+type(
+  int
+)
+ident(
+  def i "coalesce.ml" 58 1354 1375 "coalesce.ml" 58 1354 1390
+)
+"coalesce.ml" 58 1354 1375 "coalesce.ml" 58 1354 1376
+type(
+  'a
+)
+ident(
+  def x "coalesce.ml" 58 1354 1380 "coalesce.ml" 58 1354 1390
+)
+"coalesce.ml" 58 1354 1381 "coalesce.ml" 58 1354 1382
+type(
+  int
+)
+ident(
+  int_ref n "coalesce.ml" 57 1322 1330 "coalesce.ml" 57 1322 1331
+)
+"coalesce.ml" 58 1354 1383 "coalesce.ml" 58 1354 1384
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"coalesce.ml" 58 1354 1385 "coalesce.ml" 58 1354 1386
+type(
+  int
+)
+ident(
+  int_ref i "coalesce.ml" 58 1354 1373 "coalesce.ml" 58 1354 1374
+)
+"coalesce.ml" 58 1354 1381 "coalesce.ml" 58 1354 1386
+type(
+  int
+)
+"coalesce.ml" 58 1354 1388 "coalesce.ml" 58 1354 1389
+type(
+  'a
+)
+ident(
+  int_ref x "coalesce.ml" 58 1354 1375 "coalesce.ml" 58 1354 1376
+)
+"coalesce.ml" 58 1354 1380 "coalesce.ml" 58 1354 1390
+type(
+  int * 'a
+)
+"coalesce.ml" 58 1354 1368 "coalesce.ml" 58 1354 1391
+type(
+  int -> 'a -> int * 'a
+)
+"coalesce.ml" 58 1354 1392 "coalesce.ml" 58 1354 1396
+type(
+  'a list
+)
+ident(
+  int_ref args "coalesce.ml" 53 1164 1181 "coalesce.ml" 53 1164 1185
+)
+"coalesce.ml" 58 1354 1358 "coalesce.ml" 58 1354 1396
+type(
+  (int * 'a) list
+)
+"coalesce.ml" 57 1322 1326 "coalesce.ml" 58 1354 1396
+type(
+  (int * 'a) list
+)
+"coalesce.ml" 61 1399 1403 "coalesce.ml" 61 1399 1420
+type(
+  Expr.T.hyp Deque.dq ->
+  Expr.T.defn_ Property.wrapped ->
+  Expr.T.expr list -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  def coalesce_operator "coalesce.ml" 80 1969 1969 "coalesce.ml" 0 0 -1
+)
+"coalesce.ml" 61 1399 1421 "coalesce.ml" 61 1399 1423
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def cx "coalesce.ml" 61 1399 1424 "coalesce.ml" 77 1945 1966
+)
+"coalesce.ml" 61 1399 1424 "coalesce.ml" 61 1399 1426
+type(
+  Expr.T.defn_ Property.wrapped
+)
+ident(
+  def op "coalesce.ml" 61 1399 1427 "coalesce.ml" 77 1945 1966
+)
+"coalesce.ml" 61 1399 1427 "coalesce.ml" 61 1399 1431
+type(
+  Expr.T.expr list
+)
+ident(
+  def args "coalesce.ml" 62 1434 1438 "coalesce.ml" 77 1945 1966
+)
+"coalesce.ml" 62 1434 1442 "coalesce.ml" 62 1434 1444
+type(
+  Util.hint
+)
+ident(
+  def nm "coalesce.ml" 65 1546 1550 "coalesce.ml" 77 1945 1966
+)
+"coalesce.ml" 62 1434 1453 "coalesce.ml" 62 1434 1455
+type(
+  Expr.T.defn_ Property.wrapped
+)
+ident(
+  int_ref op "coalesce.ml" 61 1399 1424 "coalesce.ml" 61 1399 1426
+)
+"coalesce.ml" 62 1434 1453 "coalesce.ml" 62 1434 1460
+type(
+  Expr.T.defn_
+)
+"coalesce.ml" 63 1466 1486 "coalesce.ml" 63 1466 1488
+type(
+  Util.hint
+)
+ident(
+  def nm "coalesce.ml" 63 1466 1496 "coalesce.ml" 63 1466 1498
+)
+"coalesce.ml" 63 1466 1490 "coalesce.ml" 63 1466 1491
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 63 1466 1476 "coalesce.ml" 63 1466 1492
+type(
+  Expr.T.defn_
+)
+type(
+  Expr.T.defn_
+)
+"coalesce.ml" 63 1466 1496 "coalesce.ml" 63 1466 1498
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "coalesce.ml" 63 1466 1486 "coalesce.ml" 63 1466 1488
+)
+"coalesce.ml" 64 1499 1509 "coalesce.ml" 64 1499 1510
+type(
+  Expr.T.defn_
+)
+type(
+  Expr.T.defn_
+)
+"coalesce.ml" 64 1499 1514 "coalesce.ml" 64 1499 1522
+type(
+  string -> Util.hint
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"coalesce.ml" 64 1499 1523 "coalesce.ml" 64 1499 1542
+type(
+  string
+)
+"coalesce.ml" 64 1499 1514 "coalesce.ml" 64 1499 1542
+type(
+  Util.hint
+)
+"coalesce.ml" 62 1434 1447 "coalesce.ml" 64 1499 1542
+type(
+  Util.hint
+)
+"coalesce.ml" 65 1546 1554 "coalesce.ml" 65 1546 1558
+type(
+  'a Property.wrapped -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  def star "coalesce.ml" 66 1582 1586 "coalesce.ml" 77 1945 1966
+)
+"coalesce.ml" 65 1546 1559 "coalesce.ml" 65 1546 1560
+type(
+  'a Property.wrapped
+)
+ident(
+  def e "coalesce.ml" 65 1546 1563 "coalesce.ml" 65 1546 1578
+)
+"coalesce.ml" 65 1546 1570 "coalesce.ml" 65 1546 1573
+type(
+  string
+)
+"coalesce.ml" 65 1546 1563 "coalesce.ml" 65 1546 1573
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 65 1546 1574 "coalesce.ml" 65 1546 1576
+type(
+  Expr.T.expr_ -> 'a Property.wrapped -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"coalesce.ml" 65 1546 1577 "coalesce.ml" 65 1546 1578
+type(
+  'a Property.wrapped
+)
+ident(
+  int_ref e "coalesce.ml" 65 1546 1559 "coalesce.ml" 65 1546 1560
+)
+"coalesce.ml" 65 1546 1563 "coalesce.ml" 65 1546 1578
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 66 1582 1590 "coalesce.ml" 66 1582 1594
+type(
+  Expr.T.expr list
+)
+ident(
+  def args "coalesce.ml" 75 1864 1868 "coalesce.ml" 77 1945 1966
+)
+"coalesce.ml" 67 1597 1609 "coalesce.ml" 67 1597 1616
+type(
+  int * Expr.T.expr_ Property.wrapped -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  def map_fun "coalesce.ml" 74 1816 1824 "coalesce.ml" 74 1816 1860
+)
+"coalesce.ml" 67 1597 1618 "coalesce.ml" 67 1597 1620
+type(
+  int
+)
+ident(
+  def id "coalesce.ml" 68 1629 1637 "coalesce.ml" 73 1797 1812
+)
+"coalesce.ml" 67 1597 1622 "coalesce.ml" 67 1597 1625
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def arg "coalesce.ml" 68 1629 1637 "coalesce.ml" 73 1797 1812
+)
+"coalesce.ml" 67 1597 1617 "coalesce.ml" 67 1597 1626
+type(
+  int * Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 69 1642 1660 "coalesce.ml" 69 1642 1681
+type(
+  Expr.T.expr_ Property.wrapped -> int
+)
+ident(
+  int_ref Expr.Levels.get_level "expr.mli" 696 17732 17736 "expr.mli" 697 17751 17785
+)
+"coalesce.ml" 69 1642 1682 "coalesce.ml" 69 1642 1685
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref arg "coalesce.ml" 67 1597 1622 "coalesce.ml" 67 1597 1625
+)
+"coalesce.ml" 69 1642 1659 "coalesce.ml" 69 1642 1686
+type(
+  int
+)
+"coalesce.ml" 69 1642 1687 "coalesce.ml" 69 1642 1688
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"coalesce.ml" 69 1642 1689 "coalesce.ml" 69 1642 1690
+type(
+  int
+)
+"coalesce.ml" 69 1642 1658 "coalesce.ml" 69 1642 1691
+type(
+  bool
+)
+"coalesce.ml" 70 1692 1708 "coalesce.ml" 70 1692 1710
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 227 9492 9492 "stdlib.mli" 227 9492 9542
+)
+"coalesce.ml" 70 1692 1711 "coalesce.ml" 70 1692 1744
+type(
+  Expr.T.defn_ Property.wrapped -> int -> bool
+)
+ident(
+  int_ref Expr.SubstOp.get_substitutive_arg "expr.mli" 758 19133 19137 "expr.mli" 759 19163 19205
+)
+"coalesce.ml" 70 1692 1745 "coalesce.ml" 70 1692 1747
+type(
+  Expr.T.defn_ Property.wrapped
+)
+ident(
+  int_ref op "coalesce.ml" 61 1399 1424 "coalesce.ml" 61 1399 1426
+)
+"coalesce.ml" 70 1692 1749 "coalesce.ml" 70 1692 1751
+type(
+  int
+)
+ident(
+  int_ref id "coalesce.ml" 67 1597 1618 "coalesce.ml" 67 1597 1620
+)
+"coalesce.ml" 70 1692 1752 "coalesce.ml" 70 1692 1753
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"coalesce.ml" 70 1692 1754 "coalesce.ml" 70 1692 1755
+type(
+  int
+)
+"coalesce.ml" 70 1692 1748 "coalesce.ml" 70 1692 1756
+type(
+  int
+)
+"coalesce.ml" 70 1692 1711 "coalesce.ml" 70 1692 1756
+type(
+  bool
+)
+"coalesce.ml" 68 1629 1640 "coalesce.ml" 70 1692 1757
+type(
+  bool
+)
+"coalesce.ml" 71 1763 1775 "coalesce.ml" 71 1763 1779
+type(
+  Expr.T.expr_ Property.wrapped -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref star "coalesce.ml" 65 1546 1554 "coalesce.ml" 65 1546 1558
+)
+"coalesce.ml" 71 1763 1780 "coalesce.ml" 71 1763 1783
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref arg "coalesce.ml" 67 1597 1622 "coalesce.ml" 67 1597 1625
+)
+"coalesce.ml" 71 1763 1775 "coalesce.ml" 71 1763 1783
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 73 1797 1809 "coalesce.ml" 73 1797 1812
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref arg "coalesce.ml" 67 1597 1622 "coalesce.ml" 67 1597 1625
+)
+"coalesce.ml" 68 1629 1637 "coalesce.ml" 73 1797 1812
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 74 1816 1824 "coalesce.ml" 74 1816 1832
+type(
+  (int * Expr.T.expr -> Expr.T.expr) ->
+  (int * Expr.T.expr) list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"coalesce.ml" 74 1816 1833 "coalesce.ml" 74 1816 1840
+type(
+  int * Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref map_fun "coalesce.ml" 67 1597 1609 "coalesce.ml" 67 1597 1616
+)
+"coalesce.ml" 74 1816 1842 "coalesce.ml" 74 1816 1854
+type(
+  Expr.T.expr list -> (int * Expr.T.expr) list
+)
+ident(
+  int_ref indexed_args "coalesce.ml" 53 1164 1168 "coalesce.ml" 53 1164 1180
+)
+"coalesce.ml" 74 1816 1855 "coalesce.ml" 74 1816 1859
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref args "coalesce.ml" 61 1399 1427 "coalesce.ml" 61 1399 1431
+)
+"coalesce.ml" 74 1816 1841 "coalesce.ml" 74 1816 1860
+type(
+  (int * Expr.T.expr) list
+)
+"coalesce.ml" 74 1816 1824 "coalesce.ml" 74 1816 1860
+type(
+  Expr.T.expr list
+)
+"coalesce.ml" 67 1597 1605 "coalesce.ml" 74 1816 1860
+type(
+  Expr.T.expr list
+)
+"coalesce.ml" 75 1864 1872 "coalesce.ml" 75 1864 1875
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def op_ "coalesce.ml" 76 1902 1906 "coalesce.ml" 77 1945 1966
+)
+"coalesce.ml" 75 1864 1885 "coalesce.ml" 75 1864 1887
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "coalesce.ml" 62 1434 1442 "coalesce.ml" 62 1434 1444
+)
+"coalesce.ml" 75 1864 1885 "coalesce.ml" 75 1864 1892
+type(
+  string
+)
+"coalesce.ml" 75 1864 1878 "coalesce.ml" 75 1864 1892
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 75 1864 1893 "coalesce.ml" 75 1864 1895
+type(
+  Expr.T.expr_ -> Util.hint -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"coalesce.ml" 75 1864 1896 "coalesce.ml" 75 1864 1898
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "coalesce.ml" 62 1434 1442 "coalesce.ml" 62 1434 1444
+)
+"coalesce.ml" 75 1864 1878 "coalesce.ml" 75 1864 1898
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 76 1902 1910 "coalesce.ml" 76 1902 1915
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def expr_ "coalesce.ml" 77 1945 1949 "coalesce.ml" 77 1945 1966
+)
+"coalesce.ml" 76 1902 1925 "coalesce.ml" 76 1902 1928
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref op_ "coalesce.ml" 75 1864 1872 "coalesce.ml" 75 1864 1875
+)
+"coalesce.ml" 76 1902 1930 "coalesce.ml" 76 1902 1934
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref args "coalesce.ml" 66 1582 1590 "coalesce.ml" 66 1582 1594
+)
+"coalesce.ml" 76 1902 1918 "coalesce.ml" 76 1902 1935
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 76 1902 1936 "coalesce.ml" 76 1902 1938
+type(
+  Expr.T.expr_ ->
+  Expr.T.defn_ Property.wrapped -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"coalesce.ml" 76 1902 1939 "coalesce.ml" 76 1902 1941
+type(
+  Expr.T.defn_ Property.wrapped
+)
+ident(
+  int_ref op "coalesce.ml" 61 1399 1424 "coalesce.ml" 61 1399 1426
+)
+"coalesce.ml" 76 1902 1918 "coalesce.ml" 76 1902 1941
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 77 1945 1949 "coalesce.ml" 77 1945 1957
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref coalesce "coalesce.ml" 43 970 974 "coalesce.ml" 43 970 982
+)
+"coalesce.ml" 77 1945 1958 "coalesce.ml" 77 1945 1960
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "coalesce.ml" 61 1399 1421 "coalesce.ml" 61 1399 1423
+)
+"coalesce.ml" 77 1945 1961 "coalesce.ml" 77 1945 1966
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref expr_ "coalesce.ml" 76 1902 1910 "coalesce.ml" 76 1902 1915
+)
+"coalesce.ml" 77 1945 1949 "coalesce.ml" 77 1945 1966
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 76 1902 1906 "coalesce.ml" 77 1945 1966
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 75 1864 1868 "coalesce.ml" 77 1945 1966
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 66 1582 1586 "coalesce.ml" 77 1945 1966
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 65 1546 1550 "coalesce.ml" 77 1945 1966
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 62 1434 1438 "coalesce.ml" 77 1945 1966
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 80 1969 1973 "coalesce.ml" 80 1969 1987
+type(
+  Expr.T.ctx ->
+  Expr.T.expr_ Property.wrapped -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  def coalesce_apply "coalesce.ml" 103 2810 2810 "coalesce.ml" 0 0 -1
+)
+"coalesce.ml" 80 1969 1988 "coalesce.ml" 80 1969 1990
+type(
+  Expr.T.ctx
+)
+ident(
+  def cx "coalesce.ml" 80 1969 1991 "coalesce.ml" 96 2599 2622
+)
+"coalesce.ml" 80 1969 1991 "coalesce.ml" 80 1969 1995
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def expr "coalesce.ml" 85 2118 2122 "coalesce.ml" 96 2599 2622
+)
+"coalesce.ml" 85 2118 2128 "coalesce.ml" 85 2118 2132
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref expr "coalesce.ml" 80 1969 1991 "coalesce.ml" 80 1969 1995
+)
+"coalesce.ml" 85 2118 2128 "coalesce.ml" 85 2118 2137
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 86 2143 2156 "coalesce.ml" 86 2143 2158
+type(
+  Expr.T.expr
+)
+ident(
+  def op "coalesce.ml" 87 2169 2177 "coalesce.ml" 95 2560 2598
+)
+"coalesce.ml" 86 2143 2160 "coalesce.ml" 86 2143 2164
+type(
+  Expr.T.expr list
+)
+ident(
+  def args "coalesce.ml" 87 2169 2177 "coalesce.ml" 95 2560 2598
+)
+"coalesce.ml" 86 2143 2149 "coalesce.ml" 86 2143 2165
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 87 2169 2181 "coalesce.ml" 87 2169 2183
+type(
+  Expr.T.expr
+)
+ident(
+  def op "coalesce.ml" 88 2222 2230 "coalesce.ml" 95 2560 2598
+)
+"coalesce.ml" 87 2169 2186 "coalesce.ml" 87 2169 2212
+type(
+  Expr.T.ctx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.SubstOp.compute_subst "expr.mli" 761 19207 19211 "expr.mli" 762 19230 19257
+)
+"coalesce.ml" 87 2169 2213 "coalesce.ml" 87 2169 2215
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "coalesce.ml" 80 1969 1988 "coalesce.ml" 80 1969 1990
+)
+"coalesce.ml" 87 2169 2216 "coalesce.ml" 87 2169 2218
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref op "coalesce.ml" 86 2143 2156 "coalesce.ml" 86 2143 2158
+)
+"coalesce.ml" 87 2169 2186 "coalesce.ml" 87 2169 2218
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 88 2222 2234 "coalesce.ml" 88 2222 2241
+type(
+  string
+)
+ident(
+  def op_name "coalesce.ml" 89 2277 2285 "coalesce.ml" 95 2560 2598
+)
+"coalesce.ml" 88 2222 2244 "coalesce.ml" 88 2222 2267
+type(
+  Expr.T.ctx -> Expr.T.expr -> string
+)
+ident(
+  int_ref Expr.Fmt.string_of_expr "expr.mli" 417 10657 10661 "expr.mli" 419 10713 10731
+)
+"coalesce.ml" 88 2222 2268 "coalesce.ml" 88 2222 2270
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "coalesce.ml" 80 1969 1988 "coalesce.ml" 80 1969 1990
+)
+"coalesce.ml" 88 2222 2271 "coalesce.ml" 88 2222 2273
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref op "coalesce.ml" 87 2169 2181 "coalesce.ml" 87 2169 2183
+)
+"coalesce.ml" 88 2222 2244 "coalesce.ml" 88 2222 2273
+type(
+  string
+)
+"coalesce.ml" 89 2277 2289 "coalesce.ml" 89 2277 2293
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def op_e "coalesce.ml" 90 2323 2331 "coalesce.ml" 95 2560 2598
+)
+"coalesce.ml" 89 2277 2306 "coalesce.ml" 89 2277 2310
+type(
+  Builtin.builtin
+)
+"coalesce.ml" 89 2277 2296 "coalesce.ml" 89 2277 2311
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 89 2277 2312 "coalesce.ml" 89 2277 2314
+type(
+  Expr.T.expr_ ->
+  Expr.T.expr_ Property.wrapped -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"coalesce.ml" 89 2277 2315 "coalesce.ml" 89 2277 2319
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref expr "coalesce.ml" 80 1969 1991 "coalesce.ml" 80 1969 1995
+)
+"coalesce.ml" 89 2277 2296 "coalesce.ml" 89 2277 2319
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 90 2323 2335 "coalesce.ml" 90 2323 2339
+type(
+  Expr.T.defn_ Property.wrapped
+)
+ident(
+  def defn "coalesce.ml" 92 2448 2456 "coalesce.ml" 95 2560 2598
+)
+"coalesce.ml" 90 2323 2352 "coalesce.ml" 90 2323 2359
+type(
+  string
+)
+ident(
+  int_ref op_name "coalesce.ml" 88 2222 2234 "coalesce.ml" 88 2222 2241
+)
+"coalesce.ml" 90 2323 2360 "coalesce.ml" 90 2323 2362
+type(
+  string -> Expr.T.expr_ Property.wrapped -> Util.hint
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"coalesce.ml" 90 2323 2363 "coalesce.ml" 90 2323 2367
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref expr "coalesce.ml" 80 1969 1991 "coalesce.ml" 80 1969 1995
+)
+"coalesce.ml" 90 2323 2352 "coalesce.ml" 90 2323 2367
+type(
+  Util.hint
+)
+"coalesce.ml" 90 2323 2369 "coalesce.ml" 90 2323 2373
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref op_e "coalesce.ml" 89 2277 2289 "coalesce.ml" 89 2277 2293
+)
+"coalesce.ml" 90 2323 2342 "coalesce.ml" 90 2323 2374
+type(
+  Expr.T.defn_
+)
+"coalesce.ml" 90 2323 2375 "coalesce.ml" 90 2323 2377
+type(
+  Expr.T.defn_ ->
+  Expr.T.expr_ Property.wrapped -> Expr.T.defn_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"coalesce.ml" 90 2323 2378 "coalesce.ml" 90 2323 2382
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref expr "coalesce.ml" 80 1969 1991 "coalesce.ml" 80 1969 1995
+)
+"coalesce.ml" 90 2323 2342 "coalesce.ml" 90 2323 2382
+type(
+  Expr.T.defn_ Property.wrapped
+)
+"coalesce.ml" 93 2465 2478 "coalesce.ml" 93 2465 2499
+type(
+  Expr.T.expr_ Property.wrapped -> bool
+)
+ident(
+  int_ref Expr.Levels.has_level "expr.mli" 690 17542 17546 "expr.mli" 691 17561 17596
+)
+"coalesce.ml" 93 2465 2500 "coalesce.ml" 93 2465 2504
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref expr "coalesce.ml" 80 1969 1991 "coalesce.ml" 80 1969 1995
+)
+"coalesce.ml" 93 2465 2477 "coalesce.ml" 93 2465 2505
+type(
+  bool
+)
+"coalesce.ml" 94 2506 2518 "coalesce.ml" 94 2506 2520
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"coalesce.ml" 94 2506 2522 "coalesce.ml" 94 2506 2551
+type(
+  Expr.T.expr_ Property.wrapped -> bool
+)
+ident(
+  int_ref Expr.SubstOp.has_substitutive "expr.mli" 754 18996 19000 "expr.mli" 755 19022 19057
+)
+"coalesce.ml" 94 2506 2552 "coalesce.ml" 94 2506 2556
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref expr "coalesce.ml" 80 1969 1991 "coalesce.ml" 80 1969 1995
+)
+"coalesce.ml" 94 2506 2521 "coalesce.ml" 94 2506 2557
+type(
+  bool
+)
+"coalesce.ml" 92 2448 2463 "coalesce.ml" 94 2506 2558
+type(
+  bool
+)
+"coalesce.ml" 92 2448 2456 "coalesce.ml" 94 2506 2558
+type(
+  unit
+)
+"coalesce.ml" 95 2560 2568 "coalesce.ml" 95 2560 2585
+type(
+  Expr.T.ctx ->
+  Expr.T.defn_ Property.wrapped ->
+  Expr.T.expr list -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref coalesce_operator "coalesce.ml" 61 1399 1403 "coalesce.ml" 61 1399 1420
+)
+"coalesce.ml" 95 2560 2586 "coalesce.ml" 95 2560 2588
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "coalesce.ml" 80 1969 1988 "coalesce.ml" 80 1969 1990
+)
+"coalesce.ml" 95 2560 2589 "coalesce.ml" 95 2560 2593
+type(
+  Expr.T.defn_ Property.wrapped
+)
+ident(
+  int_ref defn "coalesce.ml" 90 2323 2335 "coalesce.ml" 90 2323 2339
+)
+"coalesce.ml" 95 2560 2594 "coalesce.ml" 95 2560 2598
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref args "coalesce.ml" 86 2143 2160 "coalesce.ml" 86 2143 2164
+)
+"coalesce.ml" 95 2560 2568 "coalesce.ml" 95 2560 2598
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 92 2448 2456 "coalesce.ml" 95 2560 2598
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 90 2323 2331 "coalesce.ml" 95 2560 2598
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 89 2277 2285 "coalesce.ml" 95 2560 2598
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 88 2222 2230 "coalesce.ml" 95 2560 2598
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 87 2169 2177 "coalesce.ml" 95 2560 2598
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 96 2599 2605 "coalesce.ml" 96 2599 2606
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 96 2599 2617 "coalesce.ml" 96 2599 2622
+type(
+  bool
+)
+"coalesce.ml" 96 2599 2610 "coalesce.ml" 96 2599 2622
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 85 2118 2122 "coalesce.ml" 96 2599 2622
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 103 2810 2817 "coalesce.ml" 103 2810 2822
+ident(
+  def IxSet "coalesce.ml" 108 2992 2996 "coalesce.ml" 0 0 -1
+)
+"coalesce.ml" 105 2861 2869 "coalesce.ml" 105 2861 2876
+type(
+  Expr.T.expr_ Property.wrapped -> Expr.T.expr_ Property.wrapped -> int
+)
+ident(
+  def compare "coalesce.ml" 107 2953 2991 "coalesce.ml" 108 2992 2995
+)
+"coalesce.ml" 105 2861 2877 "coalesce.ml" 105 2861 2879
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def e1 "coalesce.ml" 105 2861 2880 "coalesce.ml" 107 2953 2991
+)
+"coalesce.ml" 105 2861 2880 "coalesce.ml" 105 2861 2882
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def e2 "coalesce.ml" 105 2861 2885 "coalesce.ml" 107 2953 2991
+)
+"coalesce.ml" 105 2861 2892 "coalesce.ml" 105 2861 2894
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref e1 "coalesce.ml" 105 2861 2877 "coalesce.ml" 105 2861 2879
+)
+"coalesce.ml" 105 2861 2892 "coalesce.ml" 105 2861 2899
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 105 2861 2901 "coalesce.ml" 105 2861 2903
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref e2 "coalesce.ml" 105 2861 2880 "coalesce.ml" 105 2861 2882
+)
+"coalesce.ml" 105 2861 2901 "coalesce.ml" 105 2861 2908
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 105 2861 2891 "coalesce.ml" 105 2861 2909
+type(
+  Expr.T.expr_ * Expr.T.expr_
+)
+"coalesce.ml" 106 2915 2929 "coalesce.ml" 106 2915 2930
+type(
+  int
+)
+ident(
+  def n "coalesce.ml" 106 2915 2941 "coalesce.ml" 106 2915 2952
+)
+"coalesce.ml" 106 2915 2926 "coalesce.ml" 106 2915 2930
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 106 2915 2935 "coalesce.ml" 106 2915 2936
+type(
+  int
+)
+ident(
+  def m "coalesce.ml" 106 2915 2941 "coalesce.ml" 106 2915 2952
+)
+"coalesce.ml" 106 2915 2932 "coalesce.ml" 106 2915 2936
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 106 2915 2925 "coalesce.ml" 106 2915 2937
+type(
+  Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Expr.T.expr_ * Expr.T.expr_
+)
+"coalesce.ml" 106 2915 2941 "coalesce.ml" 106 2915 2948
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.compare "stdlib.mli" 162 6792 6792 "stdlib.mli" 162 6792 6839
+)
+"coalesce.ml" 106 2915 2949 "coalesce.ml" 106 2915 2950
+type(
+  int
+)
+ident(
+  int_ref n "coalesce.ml" 106 2915 2929 "coalesce.ml" 106 2915 2930
+)
+"coalesce.ml" 106 2915 2951 "coalesce.ml" 106 2915 2952
+type(
+  int
+)
+ident(
+  int_ref m "coalesce.ml" 106 2915 2935 "coalesce.ml" 106 2915 2936
+)
+"coalesce.ml" 106 2915 2941 "coalesce.ml" 106 2915 2952
+type(
+  int
+)
+"coalesce.ml" 107 2953 2963 "coalesce.ml" 107 2953 2964
+type(
+  Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Expr.T.expr_ * Expr.T.expr_
+)
+"coalesce.ml" 107 2953 2968 "coalesce.ml" 107 2953 2976
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"coalesce.ml" 107 2953 2977 "coalesce.ml" 107 2953 2991
+type(
+  string
+)
+"coalesce.ml" 107 2953 2968 "coalesce.ml" 107 2953 2991
+type(
+  int
+)
+"coalesce.ml" 105 2861 2885 "coalesce.ml" 107 2953 2991
+type(
+  int
+)
+"coalesce.ml" 111 2999 3003 "coalesce.ml" 111 2999 3016
+type(
+  int -> string
+)
+ident(
+  def level_to_kind "coalesce.ml" 124 3305 3305 "coalesce.ml" 0 0 -1
+)
+"coalesce.ml" 111 2999 3017 "coalesce.ml" 111 2999 3022
+type(
+  int
+)
+ident(
+  def level "coalesce.ml" 112 3025 3029 "coalesce.ml" 117 3129 3152
+)
+"coalesce.ml" 112 3025 3035 "coalesce.ml" 112 3025 3040
+type(
+  int
+)
+ident(
+  int_ref level "coalesce.ml" 111 2999 3017 "coalesce.ml" 111 2999 3022
+)
+"coalesce.ml" 113 3046 3052 "coalesce.ml" 113 3046 3053
+type(
+  int
+)
+type(
+  int
+)
+"coalesce.ml" 113 3046 3057 "coalesce.ml" 113 3046 3067
+type(
+  string
+)
+"coalesce.ml" 114 3068 3074 "coalesce.ml" 114 3068 3075
+type(
+  int
+)
+type(
+  int
+)
+"coalesce.ml" 114 3068 3079 "coalesce.ml" 114 3068 3086
+type(
+  string
+)
+"coalesce.ml" 115 3087 3093 "coalesce.ml" 115 3087 3094
+type(
+  int
+)
+type(
+  int
+)
+"coalesce.ml" 115 3087 3098 "coalesce.ml" 115 3087 3106
+type(
+  string
+)
+"coalesce.ml" 116 3107 3113 "coalesce.ml" 116 3107 3114
+type(
+  int
+)
+type(
+  int
+)
+"coalesce.ml" 116 3107 3118 "coalesce.ml" 116 3107 3128
+type(
+  string
+)
+"coalesce.ml" 117 3129 3135 "coalesce.ml" 117 3129 3136
+type(
+  int
+)
+type(
+  int
+)
+"coalesce.ml" 117 3129 3147 "coalesce.ml" 117 3129 3152
+type(
+  bool
+)
+"coalesce.ml" 117 3129 3140 "coalesce.ml" 117 3129 3152
+type(
+  string
+)
+"coalesce.ml" 112 3025 3029 "coalesce.ml" 117 3129 3152
+type(
+  string
+)
+"coalesce.ml" 124 3305 3309 "coalesce.ml" 124 3305 3332
+type(
+  bool
+)
+ident(
+  def with_unique_identifiers "coalesce.ml" 127 3349 3349 "coalesce.ml" 0 0 -1
+)
+"coalesce.ml" 124 3305 3341 "coalesce.ml" 124 3305 3346
+type(
+  bool
+)
+"coalesce.ml" 127 3349 3353 "coalesce.ml" 127 3349 3368
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  def rename_with_loc "coalesce.ml" 180 5722 5722 "coalesce.ml" 0 0 -1
+)
+"coalesce.ml" 127 3349 3369 "coalesce.ml" 127 3349 3371
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def cx "coalesce.ml" 127 3349 3372 "coalesce.ml" 177 5692 5719
+)
+"coalesce.ml" 127 3349 3372 "coalesce.ml" 127 3349 3373
+type(
+  Expr.T.expr
+)
+ident(
+  def e "coalesce.ml" 129 3445 3449 "coalesce.ml" 177 5692 5719
+)
+"coalesce.ml" 129 3445 3453 "coalesce.ml" 129 3445 3460
+type(
+  unit Expr.Visit.map_rename
+)
+ident(
+  def visitor "coalesce.ml" 177 5692 5696 "coalesce.ml" 177 5692 5719
+)
+"coalesce.ml" 129 3445 3470 "coalesce.ml" 129 3445 3476
+type(
+  unit Expr.Visit.map_rename
+)
+"coalesce.ml" 132 3532 3554 "coalesce.ml" 132 3532 3556
+type(
+  Expr.T.ctx
+)
+ident(
+  def cx "coalesce.ml" 132 3532 3557 "coalesce.ml" 175 5652 5680
+)
+"coalesce.ml" 132 3532 3557 "coalesce.ml" 132 3532 3560
+type(
+  Expr.T.hyp
+)
+ident(
+  def hyp "coalesce.ml" 132 3532 3561 "coalesce.ml" 175 5652 5680
+)
+"coalesce.ml" 132 3532 3561 "coalesce.ml" 132 3532 3565
+type(
+  Util.hint
+)
+ident(
+  def name "coalesce.ml" 133 3568 3580 "coalesce.ml" 175 5652 5680
+)
+"coalesce.ml" 133 3568 3584 "coalesce.ml" 133 3568 3589
+type(
+  string
+)
+ident(
+  def locus "coalesce.ml" 134 3636 3648 "coalesce.ml" 175 5652 5680
+)
+"coalesce.ml" 133 3568 3592 "coalesce.ml" 133 3568 3613
+type(
+  string -> string
+)
+ident(
+  int_ref shorter_string_to_hex "coalesce.ml" 24 310 314 "coalesce.ml" 24 310 335
+)
+"coalesce.ml" 133 3568 3615 "coalesce.ml" 133 3568 3627
+type(
+  Expr.T.hyp -> string
+)
+ident(
+  int_ref Expr.T.format_locus "expr.mli" 341 8797 8799 "expr.mli" 341 8797 8838
+)
+"coalesce.ml" 133 3568 3628 "coalesce.ml" 133 3568 3631
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref hyp "coalesce.ml" 132 3532 3557 "coalesce.ml" 132 3532 3560
+)
+"coalesce.ml" 133 3568 3614 "coalesce.ml" 133 3568 3632
+type(
+  string
+)
+"coalesce.ml" 133 3568 3592 "coalesce.ml" 133 3568 3632
+type(
+  string
+)
+"coalesce.ml" 134 3636 3652 "coalesce.ml" 134 3636 3657
+type(
+  string
+)
+ident(
+  def locus "coalesce.ml" 135 3709 3721 "coalesce.ml" 175 5652 5680
+)
+"coalesce.ml" 134 3636 3663 "coalesce.ml" 134 3636 3686
+type(
+  bool
+)
+ident(
+  int_ref with_unique_identifiers "coalesce.ml" 124 3305 3309 "coalesce.ml" 124 3305 3332
+)
+"coalesce.ml" 134 3636 3692 "coalesce.ml" 134 3636 3697
+type(
+  string
+)
+ident(
+  int_ref locus "coalesce.ml" 133 3568 3584 "coalesce.ml" 133 3568 3589
+)
+"coalesce.ml" 134 3636 3703 "coalesce.ml" 134 3636 3705
+type(
+  string
+)
+"coalesce.ml" 134 3636 3660 "coalesce.ml" 134 3636 3705
+type(
+  string
+)
+"coalesce.ml" 135 3709 3727 "coalesce.ml" 135 3709 3730
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref hyp "coalesce.ml" 132 3532 3557 "coalesce.ml" 132 3532 3560
+)
+"coalesce.ml" 135 3709 3727 "coalesce.ml" 135 3709 3735
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 136 3741 3762 "coalesce.ml" 136 3741 3764
+type(
+  Util.hint
+)
+ident(
+  def nm "coalesce.ml" 137 3785 3801 "coalesce.ml" 147 4237 4260
+)
+"coalesce.ml" 136 3741 3766 "coalesce.ml" 136 3741 3769
+type(
+  Expr.T.shape
+)
+ident(
+  def shp "coalesce.ml" 137 3785 3801 "coalesce.ml" 147 4237 4260
+)
+"coalesce.ml" 136 3741 3771 "coalesce.ml" 136 3741 3775
+type(
+  Expr.T.kind
+)
+ident(
+  def kind "coalesce.ml" 137 3785 3801 "coalesce.ml" 147 4237 4260
+)
+"coalesce.ml" 136 3741 3777 "coalesce.ml" 136 3741 3780
+type(
+  Expr.T.hdom
+)
+ident(
+  def dom "coalesce.ml" 137 3785 3801 "coalesce.ml" 147 4237 4260
+)
+"coalesce.ml" 136 3741 3755 "coalesce.ml" 136 3741 3781
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 137 3785 3805 "coalesce.ml" 137 3785 3813
+type(
+  string
+)
+ident(
+  def kind_str "coalesce.ml" 144 4068 4084 "coalesce.ml" 147 4237 4260
+)
+"coalesce.ml" 137 3785 3822 "coalesce.ml" 137 3785 3826
+type(
+  Expr.T.kind
+)
+ident(
+  int_ref kind "coalesce.ml" 136 3741 3771 "coalesce.ml" 136 3741 3775
+)
+"coalesce.ml" 138 3832 3854 "coalesce.ml" 138 3832 3862
+type(
+  Expr.T.kind
+)
+type(
+  Expr.T.kind
+)
+"coalesce.ml" 138 3832 3866 "coalesce.ml" 138 3832 3876
+type(
+  string
+)
+"coalesce.ml" 139 3877 3899 "coalesce.ml" 139 3877 3904
+type(
+  Expr.T.kind
+)
+type(
+  Expr.T.kind
+)
+"coalesce.ml" 139 3877 3908 "coalesce.ml" 139 3877 3915
+type(
+  string
+)
+"coalesce.ml" 140 3916 3938 "coalesce.ml" 140 3916 3944
+type(
+  Expr.T.kind
+)
+type(
+  Expr.T.kind
+)
+"coalesce.ml" 140 3916 3948 "coalesce.ml" 140 3916 3956
+type(
+  string
+)
+"coalesce.ml" 141 3957 3979 "coalesce.ml" 141 3957 3987
+type(
+  Expr.T.kind
+)
+type(
+  Expr.T.kind
+)
+"coalesce.ml" 141 3957 3991 "coalesce.ml" 141 3957 4001
+type(
+  string
+)
+"coalesce.ml" 142 4002 4024 "coalesce.ml" 142 4002 4031
+type(
+  Expr.T.kind
+)
+type(
+  Expr.T.kind
+)
+"coalesce.ml" 142 4002 4035 "coalesce.ml" 142 4002 4044
+type(
+  string
+)
+"coalesce.ml" 137 3785 3816 "coalesce.ml" 142 4002 4044
+type(
+  string
+)
+"coalesce.ml" 144 4068 4088 "coalesce.ml" 144 4068 4092
+type(
+  string
+)
+ident(
+  def name "coalesce.ml" 145 4137 4153 "coalesce.ml" 147 4237 4260
+)
+"coalesce.ml" 144 4068 4095 "coalesce.ml" 144 4068 4103
+type(
+  string
+)
+ident(
+  int_ref kind_str "coalesce.ml" 137 3785 3805 "coalesce.ml" 137 3785 3813
+)
+"coalesce.ml" 144 4068 4104 "coalesce.ml" 144 4068 4105
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"coalesce.ml" 144 4068 4106 "coalesce.ml" 144 4068 4109
+type(
+  string
+)
+"coalesce.ml" 144 4068 4110 "coalesce.ml" 144 4068 4111
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"coalesce.ml" 144 4068 4112 "coalesce.ml" 144 4068 4114
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "coalesce.ml" 136 3741 3762 "coalesce.ml" 136 3741 3764
+)
+"coalesce.ml" 144 4068 4112 "coalesce.ml" 144 4068 4119
+type(
+  string
+)
+"coalesce.ml" 144 4068 4120 "coalesce.ml" 144 4068 4121
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"coalesce.ml" 144 4068 4122 "coalesce.ml" 144 4068 4125
+type(
+  string
+)
+"coalesce.ml" 144 4068 4126 "coalesce.ml" 144 4068 4127
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"coalesce.ml" 144 4068 4128 "coalesce.ml" 144 4068 4133
+type(
+  string
+)
+ident(
+  int_ref locus "coalesce.ml" 134 3636 3652 "coalesce.ml" 134 3636 3657
+)
+"coalesce.ml" 144 4068 4122 "coalesce.ml" 144 4068 4133
+type(
+  string
+)
+"coalesce.ml" 144 4068 4112 "coalesce.ml" 144 4068 4133
+type(
+  string
+)
+"coalesce.ml" 144 4068 4106 "coalesce.ml" 144 4068 4133
+type(
+  string
+)
+"coalesce.ml" 144 4068 4095 "coalesce.ml" 144 4068 4133
+type(
+  string
+)
+"coalesce.ml" 145 4137 4157 "coalesce.ml" 145 4137 4159
+type(
+  string Property.wrapped
+)
+ident(
+  def nm "coalesce.ml" 146 4176 4192 "coalesce.ml" 147 4237 4260
+)
+"coalesce.ml" 145 4137 4162 "coalesce.ml" 145 4137 4166
+type(
+  string
+)
+ident(
+  int_ref name "coalesce.ml" 144 4068 4088 "coalesce.ml" 144 4068 4092
+)
+"coalesce.ml" 145 4137 4167 "coalesce.ml" 145 4137 4169
+type(
+  string -> Util.hint -> string Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"coalesce.ml" 145 4137 4170 "coalesce.ml" 145 4137 4172
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "coalesce.ml" 136 3741 3762 "coalesce.ml" 136 3741 3764
+)
+"coalesce.ml" 145 4137 4162 "coalesce.ml" 145 4137 4172
+type(
+  string Property.wrapped
+)
+"coalesce.ml" 146 4176 4196 "coalesce.ml" 146 4176 4197
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  def h "coalesce.ml" 147 4237 4253 "coalesce.ml" 147 4237 4260
+)
+"coalesce.ml" 146 4176 4207 "coalesce.ml" 146 4176 4209
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "coalesce.ml" 145 4137 4157 "coalesce.ml" 145 4137 4159
+)
+"coalesce.ml" 146 4176 4211 "coalesce.ml" 146 4176 4214
+type(
+  Expr.T.shape
+)
+ident(
+  int_ref shp "coalesce.ml" 136 3741 3766 "coalesce.ml" 136 3741 3769
+)
+"coalesce.ml" 146 4176 4216 "coalesce.ml" 146 4176 4220
+type(
+  Expr.T.kind
+)
+ident(
+  int_ref kind "coalesce.ml" 136 3741 3771 "coalesce.ml" 136 3741 3775
+)
+"coalesce.ml" 146 4176 4222 "coalesce.ml" 146 4176 4225
+type(
+  Expr.T.hdom
+)
+ident(
+  int_ref dom "coalesce.ml" 136 3741 3777 "coalesce.ml" 136 3741 3780
+)
+"coalesce.ml" 146 4176 4200 "coalesce.ml" 146 4176 4226
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 146 4176 4227 "coalesce.ml" 146 4176 4229
+type(
+  Expr.T.hyp_ -> Expr.T.hyp -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"coalesce.ml" 146 4176 4230 "coalesce.ml" 146 4176 4233
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref hyp "coalesce.ml" 132 3532 3557 "coalesce.ml" 132 3532 3560
+)
+"coalesce.ml" 146 4176 4200 "coalesce.ml" 146 4176 4233
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"coalesce.ml" 147 4237 4254 "coalesce.ml" 147 4237 4255
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "coalesce.ml" 146 4176 4196 "coalesce.ml" 146 4176 4197
+)
+"coalesce.ml" 147 4237 4257 "coalesce.ml" 147 4237 4259
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "coalesce.ml" 145 4137 4157 "coalesce.ml" 145 4137 4159
+)
+"coalesce.ml" 147 4237 4253 "coalesce.ml" 147 4237 4260
+type(
+  Expr.T.hyp * Util.hint
+)
+"coalesce.ml" 146 4176 4192 "coalesce.ml" 147 4237 4260
+type(
+  Expr.T.hyp * Util.hint
+)
+"coalesce.ml" 145 4137 4153 "coalesce.ml" 147 4237 4260
+type(
+  Expr.T.hyp * Util.hint
+)
+"coalesce.ml" 144 4068 4084 "coalesce.ml" 147 4237 4260
+type(
+  Expr.T.hyp * Util.hint
+)
+"coalesce.ml" 137 3785 3801 "coalesce.ml" 147 4237 4260
+type(
+  Expr.T.hyp * Util.hint
+)
+"coalesce.ml" 148 4261 4280 "coalesce.ml" 148 4261 4288
+type(
+  Util.hint
+)
+ident(
+  def var_name "coalesce.ml" 149 4292 4308 "coalesce.ml" 152 4466 4491
+)
+"coalesce.ml" 148 4261 4275 "coalesce.ml" 148 4261 4288
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 149 4292 4312 "coalesce.ml" 149 4292 4315
+type(
+  string
+)
+ident(
+  def str "coalesce.ml" 150 4368 4384 "coalesce.ml" 152 4466 4491
+)
+"coalesce.ml" 149 4292 4318 "coalesce.ml" 149 4292 4328
+type(
+  string
+)
+"coalesce.ml" 149 4292 4329 "coalesce.ml" 149 4292 4330
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"coalesce.ml" 149 4292 4331 "coalesce.ml" 149 4292 4334
+type(
+  string
+)
+"coalesce.ml" 149 4292 4335 "coalesce.ml" 149 4292 4336
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"coalesce.ml" 149 4292 4337 "coalesce.ml" 149 4292 4345
+type(
+  Util.hint
+)
+ident(
+  int_ref var_name "coalesce.ml" 148 4261 4280 "coalesce.ml" 148 4261 4288
+)
+"coalesce.ml" 149 4292 4337 "coalesce.ml" 149 4292 4350
+type(
+  string
+)
+"coalesce.ml" 149 4292 4351 "coalesce.ml" 149 4292 4352
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"coalesce.ml" 149 4292 4353 "coalesce.ml" 149 4292 4356
+type(
+  string
+)
+"coalesce.ml" 149 4292 4357 "coalesce.ml" 149 4292 4358
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"coalesce.ml" 149 4292 4359 "coalesce.ml" 149 4292 4364
+type(
+  string
+)
+ident(
+  int_ref locus "coalesce.ml" 134 3636 3652 "coalesce.ml" 134 3636 3657
+)
+"coalesce.ml" 149 4292 4353 "coalesce.ml" 149 4292 4364
+type(
+  string
+)
+"coalesce.ml" 149 4292 4337 "coalesce.ml" 149 4292 4364
+type(
+  string
+)
+"coalesce.ml" 149 4292 4331 "coalesce.ml" 149 4292 4364
+type(
+  string
+)
+"coalesce.ml" 149 4292 4318 "coalesce.ml" 149 4292 4364
+type(
+  string
+)
+"coalesce.ml" 150 4368 4388 "coalesce.ml" 150 4368 4396
+type(
+  string Property.wrapped
+)
+ident(
+  def var_name "coalesce.ml" 151 4418 4434 "coalesce.ml" 152 4466 4491
+)
+"coalesce.ml" 150 4368 4399 "coalesce.ml" 150 4368 4402
+type(
+  string
+)
+ident(
+  int_ref str "coalesce.ml" 149 4292 4312 "coalesce.ml" 149 4292 4315
+)
+"coalesce.ml" 150 4368 4403 "coalesce.ml" 150 4368 4405
+type(
+  string -> Util.hint -> string Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"coalesce.ml" 150 4368 4406 "coalesce.ml" 150 4368 4414
+type(
+  Util.hint
+)
+ident(
+  int_ref var_name "coalesce.ml" 148 4261 4280 "coalesce.ml" 148 4261 4288
+)
+"coalesce.ml" 150 4368 4399 "coalesce.ml" 150 4368 4414
+type(
+  string Property.wrapped
+)
+"coalesce.ml" 151 4418 4438 "coalesce.ml" 151 4418 4439
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  def h "coalesce.ml" 152 4466 4482 "coalesce.ml" 152 4466 4491
+)
+"coalesce.ml" 151 4418 4447 "coalesce.ml" 151 4418 4455
+type(
+  Util.hint
+)
+ident(
+  int_ref var_name "coalesce.ml" 150 4368 4388 "coalesce.ml" 150 4368 4396
+)
+"coalesce.ml" 151 4418 4442 "coalesce.ml" 151 4418 4455
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 151 4418 4456 "coalesce.ml" 151 4418 4458
+type(
+  Expr.T.hyp_ -> Expr.T.hyp -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"coalesce.ml" 151 4418 4459 "coalesce.ml" 151 4418 4462
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref hyp "coalesce.ml" 132 3532 3557 "coalesce.ml" 132 3532 3560
+)
+"coalesce.ml" 151 4418 4442 "coalesce.ml" 151 4418 4462
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"coalesce.ml" 152 4466 4483 "coalesce.ml" 152 4466 4484
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "coalesce.ml" 151 4418 4438 "coalesce.ml" 151 4418 4439
+)
+"coalesce.ml" 152 4466 4486 "coalesce.ml" 152 4466 4490
+type(
+  Util.hint
+)
+ident(
+  int_ref name "coalesce.ml" 132 3532 3561 "coalesce.ml" 132 3532 3565
+)
+"coalesce.ml" 152 4466 4482 "coalesce.ml" 152 4466 4491
+type(
+  Expr.T.hyp * Util.hint
+)
+"coalesce.ml" 151 4418 4434 "coalesce.ml" 152 4466 4491
+type(
+  Expr.T.hyp * Util.hint
+)
+"coalesce.ml" 150 4368 4384 "coalesce.ml" 152 4466 4491
+type(
+  Expr.T.hyp * Util.hint
+)
+"coalesce.ml" 149 4292 4308 "coalesce.ml" 152 4466 4491
+type(
+  Expr.T.hyp * Util.hint
+)
+"coalesce.ml" 153 4492 4512 "coalesce.ml" 153 4492 4514
+type(
+  Expr.T.defn
+)
+ident(
+  def df "coalesce.ml" 154 4532 4548 "coalesce.ml" 173 5602 5627
+)
+"coalesce.ml" 153 4492 4516 "coalesce.ml" 153 4492 4518
+type(
+  Expr.T.wheredef
+)
+ident(
+  def wd "coalesce.ml" 154 4532 4548 "coalesce.ml" 173 5602 5627
+)
+"coalesce.ml" 153 4492 4520 "coalesce.ml" 153 4492 4523
+type(
+  Expr.T.visibility
+)
+ident(
+  def vis "coalesce.ml" 154 4532 4548 "coalesce.ml" 173 5602 5627
+)
+"coalesce.ml" 153 4492 4525 "coalesce.ml" 153 4492 4527
+type(
+  Expr.T.export
+)
+ident(
+  def ex "coalesce.ml" 154 4532 4548 "coalesce.ml" 173 5602 5627
+)
+"coalesce.ml" 153 4492 4506 "coalesce.ml" 153 4492 4528
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 154 4532 4553 "coalesce.ml" 154 4532 4557
+type(
+  Expr.T.defn_
+)
+ident(
+  def core "coalesce.ml" 166 5221 5237 "coalesce.ml" 173 5602 5627
+)
+"coalesce.ml" 154 4532 4559 "coalesce.ml" 154 4532 4563
+type(
+  Util.hint
+)
+ident(
+  def name "coalesce.ml" 166 5221 5237 "coalesce.ml" 173 5602 5627
+)
+"coalesce.ml" 154 4532 4552 "coalesce.ml" 154 4532 4564
+type(
+  Expr.T.defn_ * Util.hint
+)
+"coalesce.ml" 154 4532 4579 "coalesce.ml" 154 4532 4581
+type(
+  Expr.T.defn
+)
+ident(
+  int_ref df "coalesce.ml" 153 4492 4512 "coalesce.ml" 153 4492 4514
+)
+"coalesce.ml" 154 4532 4579 "coalesce.ml" 154 4532 4586
+type(
+  Expr.T.defn_
+)
+"coalesce.ml" 155 4592 4625 "coalesce.ml" 155 4592 4629
+type(
+  Util.hint
+)
+ident(
+  def name "coalesce.ml" 155 4592 4637 "coalesce.ml" 155 4592 4652
+)
+"coalesce.ml" 155 4592 4631 "coalesce.ml" 155 4592 4632
+type(
+  Expr.T.shape
+)
+"coalesce.ml" 155 4592 4614 "coalesce.ml" 155 4592 4633
+type(
+  Expr.T.defn_
+)
+type(
+  Expr.T.defn_
+)
+"coalesce.ml" 155 4592 4638 "coalesce.ml" 155 4592 4640
+type(
+  Expr.T.defn
+)
+ident(
+  int_ref df "coalesce.ml" 153 4492 4512 "coalesce.ml" 153 4492 4514
+)
+"coalesce.ml" 155 4592 4638 "coalesce.ml" 155 4592 4645
+type(
+  Expr.T.defn_
+)
+"coalesce.ml" 155 4592 4647 "coalesce.ml" 155 4592 4651
+type(
+  Util.hint
+)
+ident(
+  int_ref name "coalesce.ml" 155 4592 4625 "coalesce.ml" 155 4592 4629
+)
+"coalesce.ml" 155 4592 4637 "coalesce.ml" 155 4592 4652
+type(
+  Expr.T.defn_ * Util.hint
+)
+"coalesce.ml" 156 4653 4685 "coalesce.ml" 156 4653 4687
+type(
+  Util.hint
+)
+ident(
+  def nm "coalesce.ml" 157 4698 4722 "coalesce.ml" 162 5022 5071
+)
+"coalesce.ml" 156 4653 4689 "coalesce.ml" 156 4653 4693
+type(
+  Expr.T.expr
+)
+ident(
+  def expr "coalesce.ml" 157 4698 4722 "coalesce.ml" 162 5022 5071
+)
+"coalesce.ml" 156 4653 4675 "coalesce.ml" 156 4653 4694
+type(
+  Expr.T.defn_
+)
+type(
+  Expr.T.defn_
+)
+"coalesce.ml" 157 4698 4726 "coalesce.ml" 157 4698 4730
+type(
+  Expr.T.expr
+)
+ident(
+  def expr "coalesce.ml" 158 4770 4794 "coalesce.ml" 162 5022 5071
+)
+"coalesce.ml" 157 4698 4733 "coalesce.ml" 157 4698 4758
+type(
+  Expr.T.ctx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Levels.compute_level "expr.mli" 712 18148 18152 "expr.mli" 713 18171 18198
+)
+"coalesce.ml" 157 4698 4759 "coalesce.ml" 157 4698 4761
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "coalesce.ml" 132 3532 3554 "coalesce.ml" 132 3532 3556
+)
+"coalesce.ml" 157 4698 4762 "coalesce.ml" 157 4698 4766
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref expr "coalesce.ml" 156 4653 4689 "coalesce.ml" 156 4653 4693
+)
+"coalesce.ml" 157 4698 4733 "coalesce.ml" 157 4698 4766
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 158 4770 4798 "coalesce.ml" 158 4770 4803
+type(
+  int
+)
+ident(
+  def level "coalesce.ml" 159 4836 4860 "coalesce.ml" 162 5022 5071
+)
+"coalesce.ml" 158 4770 4806 "coalesce.ml" 158 4770 4827
+type(
+  Expr.T.expr -> int
+)
+ident(
+  int_ref Expr.Levels.get_level "expr.mli" 696 17732 17736 "expr.mli" 697 17751 17785
+)
+"coalesce.ml" 158 4770 4828 "coalesce.ml" 158 4770 4832
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref expr "coalesce.ml" 157 4698 4726 "coalesce.ml" 157 4698 4730
+)
+"coalesce.ml" 158 4770 4806 "coalesce.ml" 158 4770 4832
+type(
+  int
+)
+"coalesce.ml" 159 4836 4864 "coalesce.ml" 159 4836 4872
+type(
+  string
+)
+ident(
+  def kind_str "coalesce.ml" 160 4898 4922 "coalesce.ml" 162 5022 5071
+)
+"coalesce.ml" 159 4836 4875 "coalesce.ml" 159 4836 4888
+type(
+  int -> string
+)
+ident(
+  int_ref level_to_kind "coalesce.ml" 111 2999 3003 "coalesce.ml" 111 2999 3016
+)
+"coalesce.ml" 159 4836 4889 "coalesce.ml" 159 4836 4894
+type(
+  int
+)
+ident(
+  int_ref level "coalesce.ml" 158 4770 4798 "coalesce.ml" 158 4770 4803
+)
+"coalesce.ml" 159 4836 4875 "coalesce.ml" 159 4836 4894
+type(
+  string
+)
+"coalesce.ml" 160 4898 4926 "coalesce.ml" 160 4898 4930
+type(
+  string
+)
+ident(
+  def name "coalesce.ml" 161 4975 4999 "coalesce.ml" 162 5022 5071
+)
+"coalesce.ml" 160 4898 4933 "coalesce.ml" 160 4898 4941
+type(
+  string
+)
+ident(
+  int_ref kind_str "coalesce.ml" 159 4836 4864 "coalesce.ml" 159 4836 4872
+)
+"coalesce.ml" 160 4898 4942 "coalesce.ml" 160 4898 4943
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"coalesce.ml" 160 4898 4944 "coalesce.ml" 160 4898 4947
+type(
+  string
+)
+"coalesce.ml" 160 4898 4948 "coalesce.ml" 160 4898 4949
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"coalesce.ml" 160 4898 4950 "coalesce.ml" 160 4898 4952
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "coalesce.ml" 156 4653 4685 "coalesce.ml" 156 4653 4687
+)
+"coalesce.ml" 160 4898 4950 "coalesce.ml" 160 4898 4957
+type(
+  string
+)
+"coalesce.ml" 160 4898 4958 "coalesce.ml" 160 4898 4959
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"coalesce.ml" 160 4898 4960 "coalesce.ml" 160 4898 4963
+type(
+  string
+)
+"coalesce.ml" 160 4898 4964 "coalesce.ml" 160 4898 4965
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"coalesce.ml" 160 4898 4966 "coalesce.ml" 160 4898 4971
+type(
+  string
+)
+ident(
+  int_ref locus "coalesce.ml" 134 3636 3652 "coalesce.ml" 134 3636 3657
+)
+"coalesce.ml" 160 4898 4960 "coalesce.ml" 160 4898 4971
+type(
+  string
+)
+"coalesce.ml" 160 4898 4950 "coalesce.ml" 160 4898 4971
+type(
+  string
+)
+"coalesce.ml" 160 4898 4944 "coalesce.ml" 160 4898 4971
+type(
+  string
+)
+"coalesce.ml" 160 4898 4933 "coalesce.ml" 160 4898 4971
+type(
+  string
+)
+"coalesce.ml" 161 4975 5003 "coalesce.ml" 161 4975 5005
+type(
+  string Property.wrapped
+)
+ident(
+  def nm "coalesce.ml" 162 5022 5046 "coalesce.ml" 162 5022 5071
+)
+"coalesce.ml" 161 4975 5008 "coalesce.ml" 161 4975 5012
+type(
+  string
+)
+ident(
+  int_ref name "coalesce.ml" 160 4898 4926 "coalesce.ml" 160 4898 4930
+)
+"coalesce.ml" 161 4975 5013 "coalesce.ml" 161 4975 5015
+type(
+  string -> Util.hint -> string Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"coalesce.ml" 161 4975 5016 "coalesce.ml" 161 4975 5018
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "coalesce.ml" 156 4653 4685 "coalesce.ml" 156 4653 4687
+)
+"coalesce.ml" 161 4975 5008 "coalesce.ml" 161 4975 5018
+type(
+  string Property.wrapped
+)
+"coalesce.ml" 162 5022 5057 "coalesce.ml" 162 5022 5059
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "coalesce.ml" 161 4975 5003 "coalesce.ml" 161 4975 5005
+)
+"coalesce.ml" 162 5022 5061 "coalesce.ml" 162 5022 5065
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref expr "coalesce.ml" 157 4698 4726 "coalesce.ml" 157 4698 4730
+)
+"coalesce.ml" 162 5022 5047 "coalesce.ml" 162 5022 5066
+type(
+  Expr.T.defn_
+)
+"coalesce.ml" 162 5022 5068 "coalesce.ml" 162 5022 5070
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "coalesce.ml" 161 4975 5003 "coalesce.ml" 161 4975 5005
+)
+"coalesce.ml" 162 5022 5046 "coalesce.ml" 162 5022 5071
+type(
+  Expr.T.defn_ * Util.hint
+)
+"coalesce.ml" 161 4975 4999 "coalesce.ml" 162 5022 5071
+type(
+  Expr.T.defn_ * Util.hint
+)
+"coalesce.ml" 160 4898 4922 "coalesce.ml" 162 5022 5071
+type(
+  Expr.T.defn_ * Util.hint
+)
+"coalesce.ml" 159 4836 4860 "coalesce.ml" 162 5022 5071
+type(
+  Expr.T.defn_ * Util.hint
+)
+"coalesce.ml" 158 4770 4794 "coalesce.ml" 162 5022 5071
+type(
+  Expr.T.defn_ * Util.hint
+)
+"coalesce.ml" 157 4698 4722 "coalesce.ml" 162 5022 5071
+type(
+  Expr.T.defn_ * Util.hint
+)
+"coalesce.ml" 163 5072 5104 "coalesce.ml" 163 5072 5108
+type(
+  Util.hint
+)
+ident(
+  def name "coalesce.ml" 163 5072 5116 "coalesce.ml" 163 5072 5131
+)
+"coalesce.ml" 163 5072 5110 "coalesce.ml" 163 5072 5111
+type(
+  Expr.T.instance
+)
+"coalesce.ml" 163 5072 5094 "coalesce.ml" 163 5072 5112
+type(
+  Expr.T.defn_
+)
+type(
+  Expr.T.defn_
+)
+"coalesce.ml" 163 5072 5117 "coalesce.ml" 163 5072 5119
+type(
+  Expr.T.defn
+)
+ident(
+  int_ref df "coalesce.ml" 153 4492 4512 "coalesce.ml" 153 4492 4514
+)
+"coalesce.ml" 163 5072 5117 "coalesce.ml" 163 5072 5124
+type(
+  Expr.T.defn_
+)
+"coalesce.ml" 163 5072 5126 "coalesce.ml" 163 5072 5130
+type(
+  Util.hint
+)
+ident(
+  int_ref name "coalesce.ml" 163 5072 5104 "coalesce.ml" 163 5072 5108
+)
+"coalesce.ml" 163 5072 5116 "coalesce.ml" 163 5072 5131
+type(
+  Expr.T.defn_ * Util.hint
+)
+"coalesce.ml" 164 5132 5163 "coalesce.ml" 164 5132 5167
+type(
+  Util.hint
+)
+ident(
+  def name "coalesce.ml" 164 5132 5178 "coalesce.ml" 164 5132 5193
+)
+"coalesce.ml" 164 5132 5169 "coalesce.ml" 164 5132 5170
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 164 5132 5172 "coalesce.ml" 164 5132 5173
+type(
+  (Util.hint * Expr.T.backend_args) list list
+)
+"coalesce.ml" 164 5132 5154 "coalesce.ml" 164 5132 5174
+type(
+  Expr.T.defn_
+)
+type(
+  Expr.T.defn_
+)
+"coalesce.ml" 164 5132 5179 "coalesce.ml" 164 5132 5181
+type(
+  Expr.T.defn
+)
+ident(
+  int_ref df "coalesce.ml" 153 4492 4512 "coalesce.ml" 153 4492 4514
+)
+"coalesce.ml" 164 5132 5179 "coalesce.ml" 164 5132 5186
+type(
+  Expr.T.defn_
+)
+"coalesce.ml" 164 5132 5188 "coalesce.ml" 164 5132 5192
+type(
+  Util.hint
+)
+ident(
+  int_ref name "coalesce.ml" 164 5132 5163 "coalesce.ml" 164 5132 5167
+)
+"coalesce.ml" 164 5132 5178 "coalesce.ml" 164 5132 5193
+type(
+  Expr.T.defn_ * Util.hint
+)
+"coalesce.ml" 154 4532 4567 "coalesce.ml" 165 5194 5217
+type(
+  Expr.T.defn_ * Util.hint
+)
+"coalesce.ml" 166 5221 5241 "coalesce.ml" 166 5221 5243
+type(
+  Expr.T.defn_ Property.wrapped
+)
+ident(
+  def df "coalesce.ml" 172 5545 5561 "coalesce.ml" 173 5602 5627
+)
+"coalesce.ml" 166 5221 5246 "coalesce.ml" 166 5221 5250
+type(
+  Expr.T.defn_
+)
+ident(
+  int_ref core "coalesce.ml" 154 4532 4553 "coalesce.ml" 154 4532 4557
+)
+"coalesce.ml" 166 5221 5251 "coalesce.ml" 166 5221 5253
+type(
+  Expr.T.defn_ -> Expr.T.defn -> Expr.T.defn_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"coalesce.ml" 166 5221 5254 "coalesce.ml" 166 5221 5256
+type(
+  Expr.T.defn
+)
+ident(
+  int_ref df "coalesce.ml" 153 4492 4512 "coalesce.ml" 153 4492 4514
+)
+"coalesce.ml" 166 5221 5246 "coalesce.ml" 166 5221 5256
+type(
+  Expr.T.defn_ Property.wrapped
+)
+"coalesce.ml" 172 5545 5565 "coalesce.ml" 172 5545 5566
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  def h "coalesce.ml" 173 5602 5618 "coalesce.ml" 173 5602 5627
+)
+"coalesce.ml" 172 5545 5575 "coalesce.ml" 172 5545 5577
+type(
+  Expr.T.defn
+)
+ident(
+  int_ref df "coalesce.ml" 166 5221 5241 "coalesce.ml" 166 5221 5243
+)
+"coalesce.ml" 172 5545 5579 "coalesce.ml" 172 5545 5581
+type(
+  Expr.T.wheredef
+)
+ident(
+  int_ref wd "coalesce.ml" 153 4492 4516 "coalesce.ml" 153 4492 4518
+)
+"coalesce.ml" 172 5545 5583 "coalesce.ml" 172 5545 5586
+type(
+  Expr.T.visibility
+)
+ident(
+  int_ref vis "coalesce.ml" 153 4492 4520 "coalesce.ml" 153 4492 4523
+)
+"coalesce.ml" 172 5545 5588 "coalesce.ml" 172 5545 5590
+type(
+  Expr.T.export
+)
+ident(
+  int_ref ex "coalesce.ml" 153 4492 4525 "coalesce.ml" 153 4492 4527
+)
+"coalesce.ml" 172 5545 5569 "coalesce.ml" 172 5545 5591
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 172 5545 5592 "coalesce.ml" 172 5545 5594
+type(
+  Expr.T.hyp_ -> Expr.T.hyp -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"coalesce.ml" 172 5545 5595 "coalesce.ml" 172 5545 5598
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref hyp "coalesce.ml" 132 3532 3557 "coalesce.ml" 132 3532 3560
+)
+"coalesce.ml" 172 5545 5569 "coalesce.ml" 172 5545 5598
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"coalesce.ml" 173 5602 5619 "coalesce.ml" 173 5602 5620
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "coalesce.ml" 172 5545 5565 "coalesce.ml" 172 5545 5566
+)
+"coalesce.ml" 173 5602 5622 "coalesce.ml" 173 5602 5626
+type(
+  Util.hint
+)
+ident(
+  int_ref name "coalesce.ml" 154 4532 4559 "coalesce.ml" 154 4532 4563
+)
+"coalesce.ml" 173 5602 5618 "coalesce.ml" 173 5602 5627
+type(
+  Expr.T.hyp * Util.hint
+)
+"coalesce.ml" 172 5545 5561 "coalesce.ml" 173 5602 5627
+type(
+  Expr.T.hyp * Util.hint
+)
+"coalesce.ml" 166 5221 5237 "coalesce.ml" 173 5602 5627
+type(
+  Expr.T.hyp * Util.hint
+)
+"coalesce.ml" 154 4532 4548 "coalesce.ml" 173 5602 5627
+type(
+  Expr.T.hyp * Util.hint
+)
+"coalesce.ml" 174 5628 5647 "coalesce.ml" 174 5628 5648
+type(
+  Expr.T.time
+)
+type(
+  Expr.T.visibility
+)
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 174 5628 5642 "coalesce.ml" 174 5628 5648
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 175 5652 5675 "coalesce.ml" 175 5652 5680
+type(
+  bool
+)
+"coalesce.ml" 175 5652 5668 "coalesce.ml" 175 5652 5680
+type(
+  Expr.T.hyp * Util.hint
+)
+"coalesce.ml" 135 3709 3721 "coalesce.ml" 175 5652 5680
+type(
+  Expr.T.hyp * Util.hint
+)
+"coalesce.ml" 134 3636 3648 "coalesce.ml" 175 5652 5680
+type(
+  Expr.T.hyp * Util.hint
+)
+"coalesce.ml" 133 3568 3580 "coalesce.ml" 175 5652 5680
+type(
+  Expr.T.hyp * Util.hint
+)
+"coalesce.ml" 129 3445 3463 "coalesce.ml" 176 5681 5688
+type(
+  unit Expr.Visit.map_rename
+)
+"coalesce.ml" 177 5692 5696 "coalesce.ml" 177 5692 5703
+type(
+  unit Expr.Visit.map_rename
+)
+ident(
+  int_ref visitor "coalesce.ml" 129 3445 3453 "coalesce.ml" 129 3445 3460
+)
+"coalesce.ml" 177 5692 5696 "coalesce.ml" 177 5692 5708
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"coalesce.ml" 177 5692 5710 "coalesce.ml" 177 5692 5712
+type(
+  unit
+)
+"coalesce.ml" 177 5692 5714 "coalesce.ml" 177 5692 5716
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "coalesce.ml" 127 3349 3369 "coalesce.ml" 127 3349 3371
+)
+"coalesce.ml" 177 5692 5709 "coalesce.ml" 177 5692 5717
+type(
+  unit Expr.Visit.scx
+)
+"coalesce.ml" 177 5692 5718 "coalesce.ml" 177 5692 5719
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 127 3349 3372 "coalesce.ml" 127 3349 3373
+)
+"coalesce.ml" 177 5692 5696 "coalesce.ml" 177 5692 5719
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 129 3445 3449 "coalesce.ml" 177 5692 5719
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 180 5722 5726 "coalesce.ml" 180 5722 5745
+type(
+  Expr.T.hyp_ Property.wrapped Deque.dq -> int -> string
+)
+ident(
+  def coalesce_primed_var "coalesce.ml" 192 6110 6110 "coalesce.ml" 0 0 -1
+)
+"coalesce.ml" 180 5722 5746 "coalesce.ml" 180 5722 5748
+type(
+  Expr.T.hyp_ Property.wrapped Deque.dq
+)
+ident(
+  def cx "coalesce.ml" 180 5722 5749 "coalesce.ml" 189 6066 6107
+)
+"coalesce.ml" 180 5722 5749 "coalesce.ml" 180 5722 5754
+type(
+  int
+)
+ident(
+  def index "coalesce.ml" 182 5809 5813 "coalesce.ml" 189 6066 6107
+)
+"coalesce.ml" 182 5809 5817 "coalesce.ml" 182 5809 5821
+type(
+  string
+)
+ident(
+  def name "coalesce.ml" 189 6066 6070 "coalesce.ml" 189 6066 6107
+)
+"coalesce.ml" 183 5824 5836 "coalesce.ml" 183 5824 5839
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  def hyp "coalesce.ml" 184 5870 5878 "coalesce.ml" 187 5976 6054
+)
+"coalesce.ml" 183 5824 5842 "coalesce.ml" 183 5824 5857
+type(
+  Expr.T.hyp_ Property.wrapped Deque.dq ->
+  int -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Expr.T.get_val_from_id "expr.mli" 332 8512 8514 "expr.mli" 332 8512 8563
+)
+"coalesce.ml" 183 5824 5858 "coalesce.ml" 183 5824 5860
+type(
+  Expr.T.hyp_ Property.wrapped Deque.dq
+)
+ident(
+  int_ref cx "coalesce.ml" 180 5722 5746 "coalesce.ml" 180 5722 5748
+)
+"coalesce.ml" 183 5824 5861 "coalesce.ml" 183 5824 5866
+type(
+  int
+)
+ident(
+  int_ref index "coalesce.ml" 180 5722 5749 "coalesce.ml" 180 5722 5754
+)
+"coalesce.ml" 183 5824 5842 "coalesce.ml" 183 5824 5866
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"coalesce.ml" 184 5870 5884 "coalesce.ml" 184 5870 5887
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref hyp "coalesce.ml" 183 5824 5836 "coalesce.ml" 183 5824 5839
+)
+"coalesce.ml" 184 5870 5884 "coalesce.ml" 184 5870 5892
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 185 5898 5915 "coalesce.ml" 185 5898 5919
+type(
+  Util.hint
+)
+ident(
+  def name "coalesce.ml" 185 5898 5933 "coalesce.ml" 185 5898 5942
+)
+"coalesce.ml" 185 5898 5921 "coalesce.ml" 185 5898 5922
+type(
+  Expr.T.shape
+)
+"coalesce.ml" 185 5898 5924 "coalesce.ml" 185 5898 5925
+type(
+  Expr.T.kind
+)
+"coalesce.ml" 185 5898 5927 "coalesce.ml" 185 5898 5928
+type(
+  Expr.T.hdom
+)
+"coalesce.ml" 185 5898 5908 "coalesce.ml" 185 5898 5929
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 185 5898 5933 "coalesce.ml" 185 5898 5937
+type(
+  Util.hint
+)
+ident(
+  int_ref name "coalesce.ml" 185 5898 5915 "coalesce.ml" 185 5898 5919
+)
+"coalesce.ml" 185 5898 5933 "coalesce.ml" 185 5898 5942
+type(
+  string
+)
+"coalesce.ml" 186 5943 5958 "coalesce.ml" 186 5943 5962
+type(
+  Util.hint
+)
+ident(
+  def name "coalesce.ml" 186 5943 5966 "coalesce.ml" 186 5943 5975
+)
+"coalesce.ml" 186 5943 5953 "coalesce.ml" 186 5943 5962
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 186 5943 5966 "coalesce.ml" 186 5943 5970
+type(
+  Util.hint
+)
+ident(
+  int_ref name "coalesce.ml" 186 5943 5958 "coalesce.ml" 186 5943 5962
+)
+"coalesce.ml" 186 5943 5966 "coalesce.ml" 186 5943 5975
+type(
+  string
+)
+"coalesce.ml" 187 5976 5986 "coalesce.ml" 187 5976 5987
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 187 5976 5991 "coalesce.ml" 187 5976 5999
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"coalesce.ml" 187 5976 6000 "coalesce.ml" 187 5976 6054
+type(
+  string
+)
+"coalesce.ml" 187 5976 5991 "coalesce.ml" 187 5976 6054
+type(
+  string
+)
+"coalesce.ml" 184 5870 5878 "coalesce.ml" 187 5976 6054
+type(
+  string
+)
+"coalesce.ml" 183 5824 5832 "coalesce.ml" 187 5976 6054
+type(
+  string
+)
+"coalesce.ml" 189 6066 6070 "coalesce.ml" 189 6066 6084
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"coalesce.ml" 189 6066 6085 "coalesce.ml" 189 6066 6089
+type(
+  (string -> string, unit, string) format
+)
+"coalesce.ml" 189 6066 6091 "coalesce.ml" 189 6066 6095
+type(
+  string
+)
+ident(
+  int_ref name "coalesce.ml" 182 5809 5817 "coalesce.ml" 182 5809 5821
+)
+"coalesce.ml" 189 6066 6096 "coalesce.ml" 189 6066 6097
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"coalesce.ml" 189 6066 6098 "coalesce.ml" 189 6066 6106
+type(
+  string
+)
+"coalesce.ml" 189 6066 6090 "coalesce.ml" 189 6066 6107
+type(
+  string
+)
+"coalesce.ml" 189 6066 6070 "coalesce.ml" 189 6066 6107
+type(
+  string
+)
+"coalesce.ml" 182 5809 5813 "coalesce.ml" 189 6066 6107
+type(
+  string
+)
+"coalesce.ml" 192 6110 6114 "coalesce.ml" 192 6110 6126
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  def vars_visitor "coalesce.ml" 300 10135 10135 "coalesce.ml" 0 0 -1
+)
+"coalesce.ml" 192 6110 6137 "coalesce.ml" 192 6110 6141
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+"coalesce.ml" 196 6278 6301 "coalesce.ml" 196 6278 6304
+type(
+  IxSet.t -> IxSet.t ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"coalesce.ml" 196 6278 6305 "coalesce.ml" 196 6278 6316
+type(
+  IxSet.t
+)
+ident(
+  int_ref IxSet.empty "set.mli" 74 2915 2919 "set.mli" 74 2915 2931
+)
+"coalesce.ml" 196 6278 6301 "coalesce.ml" 196 6278 6316
+type(
+  IxSet.t ref
+)
+"coalesce.ml" 198 6318 6337 "coalesce.ml" 198 6318 6339
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def cx "coalesce.ml" 198 6318 6340 "coalesce.ml" 202 6456 6484
+)
+"coalesce.ml" 198 6318 6340 "coalesce.ml" 198 6318 6341
+type(
+  Expr.T.expr
+)
+ident(
+  def e "coalesce.ml" 199 6344 6352 "coalesce.ml" 202 6456 6484
+)
+"coalesce.ml" 199 6344 6356 "coalesce.ml" 199 6344 6360
+type(
+  IxSet.t ref
+)
+ident(
+  def vars "coalesce.ml" 200 6382 6390 "coalesce.ml" 202 6456 6484
+)
+"coalesce.ml" 199 6344 6363 "coalesce.ml" 199 6344 6366
+type(
+  IxSet.t -> IxSet.t ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"coalesce.ml" 199 6344 6367 "coalesce.ml" 199 6344 6378
+type(
+  IxSet.t
+)
+ident(
+  int_ref IxSet.empty "set.mli" 74 2915 2919 "set.mli" 74 2915 2931
+)
+"coalesce.ml" 199 6344 6363 "coalesce.ml" 199 6344 6378
+type(
+  IxSet.t ref
+)
+"coalesce.ml" 200 6382 6394 "coalesce.ml" 200 6382 6407
+type(
+  int
+)
+ident(
+  def max_bound_idx "coalesce.ml" 201 6415 6423 "coalesce.ml" 202 6456 6484
+)
+"coalesce.ml" 200 6382 6410 "coalesce.ml" 200 6382 6411
+type(
+  int
+)
+"coalesce.ml" 201 6415 6423 "coalesce.ml" 201 6415 6427
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  ext_ref self-2
+)
+"coalesce.ml" 201 6415 6423 "coalesce.ml" 201 6415 6432
+type(
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"coalesce.ml" 201 6415 6434 "coalesce.ml" 201 6415 6447
+type(
+  int
+)
+ident(
+  int_ref max_bound_idx "coalesce.ml" 200 6382 6394 "coalesce.ml" 200 6382 6407
+)
+"coalesce.ml" 201 6415 6449 "coalesce.ml" 201 6415 6451
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "coalesce.ml" 198 6318 6337 "coalesce.ml" 198 6318 6339
+)
+"coalesce.ml" 201 6415 6433 "coalesce.ml" 201 6415 6452
+type(
+  int Expr.Visit.scx
+)
+"coalesce.ml" 201 6415 6453 "coalesce.ml" 201 6415 6454
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 198 6318 6340 "coalesce.ml" 198 6318 6341
+)
+"coalesce.ml" 201 6415 6423 "coalesce.ml" 201 6415 6454
+type(
+  unit
+)
+"coalesce.ml" 202 6456 6464 "coalesce.ml" 202 6456 6478
+type(
+  IxSet.t -> IxSet.elt list
+)
+ident(
+  int_ref IxSet.elements "set.mli" 185 7039 7043 "set.mli" 185 7039 7070
+)
+"coalesce.ml" 202 6456 6479 "coalesce.ml" 202 6456 6480
+type(
+  IxSet.t ref -> IxSet.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"coalesce.ml" 202 6456 6480 "coalesce.ml" 202 6456 6484
+type(
+  IxSet.t ref
+)
+ident(
+  int_ref vars "coalesce.ml" 199 6344 6356 "coalesce.ml" 199 6344 6360
+)
+"coalesce.ml" 202 6456 6479 "coalesce.ml" 202 6456 6484
+type(
+  IxSet.t
+)
+"coalesce.ml" 202 6456 6464 "coalesce.ml" 202 6456 6484
+type(
+  IxSet.elt list
+)
+"coalesce.ml" 201 6415 6423 "coalesce.ml" 202 6456 6484
+type(
+  IxSet.elt list
+)
+"coalesce.ml" 200 6382 6390 "coalesce.ml" 202 6456 6484
+type(
+  IxSet.elt list
+)
+"coalesce.ml" 199 6344 6352 "coalesce.ml" 202 6456 6484
+type(
+  IxSet.elt list
+)
+"coalesce.ml" 204 6486 6504 "coalesce.ml" 204 6486 6517
+type(
+  int
+)
+ident(
+  def max_bound_idx "coalesce.ml" 204 6486 6531 "coalesce.ml" 272 9363 9394
+)
+"coalesce.ml" 204 6486 6519 "coalesce.ml" 204 6486 6521
+type(
+  Expr.T.ctx
+)
+ident(
+  def cx "coalesce.ml" 204 6486 6531 "coalesce.ml" 272 9363 9394
+)
+"coalesce.ml" 204 6486 6503 "coalesce.ml" 204 6486 6522
+type(
+  int * Expr.T.ctx
+)
+"coalesce.ml" 204 6486 6502 "coalesce.ml" 204 6486 6530
+type(
+  int * Expr.T.ctx
+)
+ident(
+  def scx "coalesce.ml" 204 6486 6531 "coalesce.ml" 272 9363 9394
+)
+"coalesce.ml" 204 6486 6531 "coalesce.ml" 204 6486 6532
+type(
+  Expr.T.expr
+)
+ident(
+  def e "coalesce.ml" 205 6535 6543 "coalesce.ml" 272 9363 9394
+)
+"coalesce.ml" 205 6535 6549 "coalesce.ml" 205 6535 6550
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 204 6486 6531 "coalesce.ml" 204 6486 6532
+)
+"coalesce.ml" 205 6535 6549 "coalesce.ml" 205 6535 6555
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 206 6561 6574 "coalesce.ml" 206 6561 6575
+type(
+  int
+)
+ident(
+  def n "coalesce.ml" 206 6561 6579 "coalesce.ml" 233 7783 7798
+)
+"coalesce.ml" 206 6561 6571 "coalesce.ml" 206 6561 6575
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 207 6585 6601 "coalesce.ml" 207 6585 6604
+type(
+  Expr.T.hyp
+)
+ident(
+  def hyp "coalesce.ml" 208 6631 6643 "coalesce.ml" 232 7747 7782
+)
+"coalesce.ml" 207 6585 6607 "coalesce.ml" 207 6585 6622
+type(
+  Expr.T.ctx -> int -> Expr.T.hyp
+)
+ident(
+  int_ref Expr.T.get_val_from_id "expr.mli" 332 8512 8514 "expr.mli" 332 8512 8563
+)
+"coalesce.ml" 207 6585 6623 "coalesce.ml" 207 6585 6625
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "coalesce.ml" 204 6486 6519 "coalesce.ml" 204 6486 6521
+)
+"coalesce.ml" 207 6585 6626 "coalesce.ml" 207 6585 6627
+type(
+  int
+)
+ident(
+  int_ref n "coalesce.ml" 206 6561 6574 "coalesce.ml" 206 6561 6575
+)
+"coalesce.ml" 207 6585 6607 "coalesce.ml" 207 6585 6627
+type(
+  Expr.T.hyp
+)
+"coalesce.ml" 208 6631 6649 "coalesce.ml" 208 6631 6652
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref hyp "coalesce.ml" 207 6585 6601 "coalesce.ml" 207 6585 6604
+)
+"coalesce.ml" 208 6631 6649 "coalesce.ml" 208 6631 6657
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 209 6663 6683 "coalesce.ml" 209 6663 6684
+type(
+  Expr.T.hdom
+)
+type(
+  Expr.T.kind
+)
+type(
+  Expr.T.shape
+)
+type(
+  Util.hint
+)
+"coalesce.ml" 209 6663 6677 "coalesce.ml" 209 6663 6684
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 210 6685 6704 "coalesce.ml" 210 6685 6705
+type(
+  Util.hint
+)
+"coalesce.ml" 210 6685 6699 "coalesce.ml" 210 6685 6705
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 209 6663 6677 "coalesce.ml" 210 6685 6705
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 211 6709 6729 "coalesce.ml" 211 6709 6730
+type(
+  int
+)
+ident(
+  int_ref n "coalesce.ml" 206 6561 6574 "coalesce.ml" 206 6561 6575
+)
+"coalesce.ml" 211 6709 6731 "coalesce.ml" 211 6709 6732
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 140 5875 5875 "stdlib.mli" 140 5875 5925
+)
+"coalesce.ml" 211 6709 6733 "coalesce.ml" 211 6709 6746
+type(
+  int
+)
+ident(
+  int_ref max_bound_idx "coalesce.ml" 204 6486 6504 "coalesce.ml" 204 6486 6517
+)
+"coalesce.ml" 211 6709 6728 "coalesce.ml" 211 6709 6747
+type(
+  bool
+)
+"coalesce.ml" 213 6779 6803 "coalesce.ml" 213 6779 6804
+type(
+  int
+)
+ident(
+  def m "coalesce.ml" 214 6828 6848 "coalesce.ml" 214 6828 6883
+)
+"coalesce.ml" 213 6779 6807 "coalesce.ml" 213 6779 6808
+type(
+  int
+)
+ident(
+  int_ref n "coalesce.ml" 206 6561 6574 "coalesce.ml" 206 6561 6575
+)
+"coalesce.ml" 213 6779 6809 "coalesce.ml" 213 6779 6810
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"coalesce.ml" 213 6779 6811 "coalesce.ml" 213 6779 6824
+type(
+  int
+)
+ident(
+  int_ref max_bound_idx "coalesce.ml" 204 6486 6504 "coalesce.ml" 204 6486 6517
+)
+"coalesce.ml" 213 6779 6807 "coalesce.ml" 213 6779 6824
+type(
+  int
+)
+"coalesce.ml" 214 6828 6848 "coalesce.ml" 214 6828 6852
+type(
+  IxSet.t ref
+)
+"coalesce.ml" 214 6828 6853 "coalesce.ml" 214 6828 6855
+type(
+  IxSet.t ref -> IxSet.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"coalesce.ml" 214 6828 6856 "coalesce.ml" 214 6828 6865
+type(
+  IxSet.elt -> IxSet.t -> IxSet.t
+)
+ident(
+  int_ref IxSet.add "set.mli" 83 3129 3133 "set.mli" 83 3129 3155
+)
+"coalesce.ml" 214 6828 6870 "coalesce.ml" 214 6828 6871
+type(
+  int
+)
+ident(
+  int_ref m "coalesce.ml" 213 6779 6803 "coalesce.ml" 213 6779 6804
+)
+"coalesce.ml" 214 6828 6867 "coalesce.ml" 214 6828 6871
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 214 6828 6872 "coalesce.ml" 214 6828 6874
+type(
+  Expr.T.expr_ -> Expr.T.expr -> IxSet.elt
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"coalesce.ml" 214 6828 6875 "coalesce.ml" 214 6828 6876
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 204 6486 6531 "coalesce.ml" 204 6486 6532
+)
+"coalesce.ml" 214 6828 6866 "coalesce.ml" 214 6828 6877
+type(
+  IxSet.elt
+)
+"coalesce.ml" 214 6828 6878 "coalesce.ml" 214 6828 6879
+type(
+  IxSet.t ref -> IxSet.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"coalesce.ml" 214 6828 6879 "coalesce.ml" 214 6828 6883
+type(
+  IxSet.t ref
+)
+"coalesce.ml" 214 6828 6878 "coalesce.ml" 214 6828 6883
+type(
+  IxSet.t
+)
+"coalesce.ml" 214 6828 6856 "coalesce.ml" 214 6828 6883
+type(
+  IxSet.t
+)
+"coalesce.ml" 214 6828 6848 "coalesce.ml" 214 6828 6883
+type(
+  unit
+)
+"coalesce.ml" 212 6753 6773 "coalesce.ml" 215 6884 6907
+type(
+  unit
+)
+"coalesce.ml" 211 6709 6725 "coalesce.ml" 215 6884 6907
+type(
+  unit
+)
+"coalesce.ml" 216 6908 6946 "coalesce.ml" 216 6908 6947
+type(
+  Util.hint
+)
+"coalesce.ml" 216 6908 6949 "coalesce.ml" 216 6908 6953
+type(
+  Expr.T.expr
+)
+ident(
+  def expr "coalesce.ml" 218 6993 7009 "coalesce.ml" 231 7711 7746
+)
+"coalesce.ml" 216 6908 6936 "coalesce.ml" 216 6908 6954
+type(
+  Expr.T.defn_
+)
+"coalesce.ml" 216 6908 6928 "coalesce.ml" 216 6908 6955
+type(
+  Expr.T.defn
+)
+"coalesce.ml" 216 6908 6957 "coalesce.ml" 216 6908 6958
+type(
+  Expr.T.wheredef
+)
+"coalesce.ml" 216 6908 6960 "coalesce.ml" 216 6908 6967
+type(
+  Expr.T.visibility
+)
+"coalesce.ml" 216 6908 6969 "coalesce.ml" 216 6908 6970
+type(
+  Expr.T.export
+)
+"coalesce.ml" 216 6908 6922 "coalesce.ml" 216 6908 6971
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 218 6993 7009 "coalesce.ml" 218 6993 7012
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"coalesce.ml" 218 6993 7015 "coalesce.ml" 218 6993 7036
+type(
+  Expr.T.expr -> int
+)
+ident(
+  int_ref Expr.Levels.get_level "expr.mli" 696 17732 17736 "expr.mli" 697 17751 17785
+)
+"coalesce.ml" 218 6993 7037 "coalesce.ml" 218 6993 7041
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref expr "coalesce.ml" 216 6908 6949 "coalesce.ml" 216 6908 6953
+)
+"coalesce.ml" 218 6993 7014 "coalesce.ml" 218 6993 7042
+type(
+  int
+)
+"coalesce.ml" 218 6993 7043 "coalesce.ml" 218 6993 7044
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"coalesce.ml" 218 6993 7045 "coalesce.ml" 218 6993 7046
+type(
+  int
+)
+"coalesce.ml" 218 6993 7013 "coalesce.ml" 218 6993 7047
+type(
+  bool
+)
+"coalesce.ml" 218 6993 7009 "coalesce.ml" 218 6993 7047
+type(
+  bool
+)
+"coalesce.ml" 230 7659 7679 "coalesce.ml" 230 7659 7682
+type(
+  int * Expr.T.ctx
+)
+ident(
+  def scx "coalesce.ml" 231 7711 7727 "coalesce.ml" 231 7711 7746
+)
+"coalesce.ml" 230 7659 7685 "coalesce.ml" 230 7659 7701
+type(
+  int * Expr.T.ctx -> int -> int * Expr.T.ctx
+)
+ident(
+  int_ref Expr.T.scx_front "expr.mli" 340 8751 8753 "expr.mli" 340 8751 8796
+)
+"coalesce.ml" 230 7659 7702 "coalesce.ml" 230 7659 7705
+type(
+  int * Expr.T.ctx
+)
+ident(
+  int_ref scx "coalesce.ml" 204 6486 6502 "coalesce.ml" 204 6486 6530
+)
+"coalesce.ml" 230 7659 7706 "coalesce.ml" 230 7659 7707
+type(
+  int
+)
+ident(
+  int_ref n "coalesce.ml" 206 6561 6574 "coalesce.ml" 206 6561 6575
+)
+"coalesce.ml" 230 7659 7685 "coalesce.ml" 230 7659 7707
+type(
+  int * Expr.T.ctx
+)
+"coalesce.ml" 231 7711 7727 "coalesce.ml" 231 7711 7732
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  ext_ref self-2
+)
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  int_ref super "coalesce.ml" 194 6222 6234 "coalesce.ml" 194 6222 6267
+)
+"coalesce.ml" 231 7711 7727 "coalesce.ml" 231 7711 7737
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx > ->
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+ident(
+  ext_ref expr
+)
+type(
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+type(
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"coalesce.ml" 231 7711 7738 "coalesce.ml" 231 7711 7741
+type(
+  int Expr.Visit.scx
+)
+ident(
+  int_ref scx "coalesce.ml" 230 7659 7679 "coalesce.ml" 230 7659 7682
+)
+"coalesce.ml" 231 7711 7742 "coalesce.ml" 231 7711 7746
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref expr "coalesce.ml" 216 6908 6949 "coalesce.ml" 216 6908 6953
+)
+"coalesce.ml" 231 7711 7727 "coalesce.ml" 231 7711 7746
+type(
+  unit
+)
+"coalesce.ml" 230 7659 7675 "coalesce.ml" 231 7711 7746
+type(
+  unit
+)
+"coalesce.ml" 232 7747 7761 "coalesce.ml" 232 7747 7762
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 232 7747 7766 "coalesce.ml" 232 7747 7771
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  ext_ref self-2
+)
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  int_ref super "coalesce.ml" 194 6222 6234 "coalesce.ml" 194 6222 6267
+)
+"coalesce.ml" 232 7747 7766 "coalesce.ml" 232 7747 7776
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx > ->
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+ident(
+  ext_ref expr
+)
+type(
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+type(
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"coalesce.ml" 232 7747 7777 "coalesce.ml" 232 7747 7780
+type(
+  int Expr.Visit.scx
+)
+ident(
+  int_ref scx "coalesce.ml" 204 6486 6502 "coalesce.ml" 204 6486 6530
+)
+"coalesce.ml" 232 7747 7781 "coalesce.ml" 232 7747 7782
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 204 6486 6531 "coalesce.ml" 204 6486 6532
+)
+"coalesce.ml" 232 7747 7766 "coalesce.ml" 232 7747 7782
+type(
+  unit
+)
+"coalesce.ml" 208 6631 6643 "coalesce.ml" 232 7747 7782
+type(
+  unit
+)
+"coalesce.ml" 206 6561 6579 "coalesce.ml" 233 7783 7798
+type(
+  unit
+)
+"coalesce.ml" 234 7799 7817 "coalesce.ml" 234 7799 7819
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  def ls "coalesce.ml" 235 7827 7839 "coalesce.ml" 236 7895 7939
+)
+"coalesce.ml" 234 7799 7821 "coalesce.ml" 234 7799 7822
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 234 7799 7809 "coalesce.ml" 234 7799 7823
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 235 7827 7843 "coalesce.ml" 235 7827 7856
+type(
+  int
+)
+ident(
+  def max_bound_idx "coalesce.ml" 236 7895 7907 "coalesce.ml" 236 7895 7939
+)
+"coalesce.ml" 235 7827 7859 "coalesce.ml" 235 7827 7872
+type(
+  int
+)
+ident(
+  int_ref max_bound_idx "coalesce.ml" 204 6486 6504 "coalesce.ml" 204 6486 6517
+)
+"coalesce.ml" 235 7827 7873 "coalesce.ml" 235 7827 7874
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"coalesce.ml" 235 7827 7876 "coalesce.ml" 235 7827 7887
+type(
+  (Util.hint * Expr.T.shape) list -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"coalesce.ml" 235 7827 7888 "coalesce.ml" 235 7827 7890
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  int_ref ls "coalesce.ml" 234 7799 7817 "coalesce.ml" 234 7799 7819
+)
+"coalesce.ml" 235 7827 7875 "coalesce.ml" 235 7827 7891
+type(
+  int
+)
+"coalesce.ml" 235 7827 7859 "coalesce.ml" 235 7827 7891
+type(
+  int
+)
+"coalesce.ml" 236 7895 7907 "coalesce.ml" 236 7895 7912
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  ext_ref self-2
+)
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  int_ref super "coalesce.ml" 194 6222 6234 "coalesce.ml" 194 6222 6267
+)
+"coalesce.ml" 236 7895 7907 "coalesce.ml" 236 7895 7917
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx > ->
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+ident(
+  ext_ref expr
+)
+type(
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+type(
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"coalesce.ml" 236 7895 7919 "coalesce.ml" 236 7895 7932
+type(
+  int
+)
+ident(
+  int_ref max_bound_idx "coalesce.ml" 235 7827 7843 "coalesce.ml" 235 7827 7856
+)
+"coalesce.ml" 236 7895 7934 "coalesce.ml" 236 7895 7936
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "coalesce.ml" 204 6486 6519 "coalesce.ml" 204 6486 6521
+)
+"coalesce.ml" 236 7895 7918 "coalesce.ml" 236 7895 7937
+type(
+  int Expr.Visit.scx
+)
+"coalesce.ml" 236 7895 7938 "coalesce.ml" 236 7895 7939
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 204 6486 6531 "coalesce.ml" 204 6486 6532
+)
+"coalesce.ml" 236 7895 7907 "coalesce.ml" 236 7895 7939
+type(
+  unit
+)
+"coalesce.ml" 235 7827 7839 "coalesce.ml" 236 7895 7939
+type(
+  unit
+)
+"coalesce.ml" 237 7940 7955 "coalesce.ml" 237 7940 7959
+type(
+  Expr.T.defn list
+)
+ident(
+  def defs "coalesce.ml" 238 7970 7982 "coalesce.ml" 239 8015 8045
+)
+"coalesce.ml" 237 7940 7961 "coalesce.ml" 237 7940 7965
+type(
+  Expr.T.expr
+)
+ident(
+  def expr "coalesce.ml" 238 7970 7982 "coalesce.ml" 239 8015 8045
+)
+"coalesce.ml" 237 7940 7950 "coalesce.ml" 237 7940 7966
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 238 7970 7986 "coalesce.ml" 238 7970 7989
+type(
+  int Expr.Visit.scx
+)
+ident(
+  def scx "coalesce.ml" 239 8015 8027 "coalesce.ml" 239 8015 8045
+)
+"coalesce.ml" 238 7970 7992 "coalesce.ml" 238 7970 7996
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  ext_ref self-2
+)
+"coalesce.ml" 238 7970 7992 "coalesce.ml" 238 7970 8002
+type(
+  int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx
+)
+"coalesce.ml" 238 7970 8003 "coalesce.ml" 238 7970 8006
+type(
+  int Expr.Visit.scx
+)
+ident(
+  int_ref scx "coalesce.ml" 204 6486 6502 "coalesce.ml" 204 6486 6530
+)
+"coalesce.ml" 238 7970 8007 "coalesce.ml" 238 7970 8011
+type(
+  Expr.T.defn list
+)
+ident(
+  int_ref defs "coalesce.ml" 237 7940 7955 "coalesce.ml" 237 7940 7959
+)
+"coalesce.ml" 238 7970 7992 "coalesce.ml" 238 7970 8011
+type(
+  int Expr.Visit.scx
+)
+"coalesce.ml" 239 8015 8027 "coalesce.ml" 239 8015 8031
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  ext_ref self-2
+)
+"coalesce.ml" 239 8015 8027 "coalesce.ml" 239 8015 8036
+type(
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"coalesce.ml" 239 8015 8037 "coalesce.ml" 239 8015 8040
+type(
+  int Expr.Visit.scx
+)
+ident(
+  int_ref scx "coalesce.ml" 238 7970 7986 "coalesce.ml" 238 7970 7989
+)
+"coalesce.ml" 239 8015 8041 "coalesce.ml" 239 8015 8045
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref expr "coalesce.ml" 237 7940 7961 "coalesce.ml" 237 7940 7965
+)
+"coalesce.ml" 239 8015 8027 "coalesce.ml" 239 8015 8045
+type(
+  unit
+)
+"coalesce.ml" 238 7970 7982 "coalesce.ml" 239 8015 8045
+type(
+  unit
+)
+"coalesce.ml" 240 8046 8063 "coalesce.ml" 240 8046 8064
+type(
+  Expr.T.quantifier
+)
+"coalesce.ml" 240 8046 8066 "coalesce.ml" 240 8046 8068
+type(
+  Expr.T.bounds
+)
+ident(
+  def ls "coalesce.ml" 241 8079 8091 "coalesce.ml" 242 8124 8155
+)
+"coalesce.ml" 240 8046 8070 "coalesce.ml" 240 8046 8074
+type(
+  Expr.T.expr
+)
+ident(
+  def expr "coalesce.ml" 241 8079 8091 "coalesce.ml" 242 8124 8155
+)
+"coalesce.ml" 240 8046 8056 "coalesce.ml" 240 8046 8075
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 241 8079 8095 "coalesce.ml" 241 8079 8099
+type(
+  int Expr.Visit.scx
+)
+ident(
+  def scx_ "coalesce.ml" 242 8124 8136 "coalesce.ml" 242 8124 8155
+)
+"coalesce.ml" 241 8079 8102 "coalesce.ml" 241 8079 8106
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  ext_ref self-2
+)
+"coalesce.ml" 241 8079 8102 "coalesce.ml" 241 8079 8113
+type(
+  int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx
+)
+"coalesce.ml" 241 8079 8114 "coalesce.ml" 241 8079 8117
+type(
+  int Expr.Visit.scx
+)
+ident(
+  int_ref scx "coalesce.ml" 204 6486 6502 "coalesce.ml" 204 6486 6530
+)
+"coalesce.ml" 241 8079 8118 "coalesce.ml" 241 8079 8120
+type(
+  Expr.T.bounds
+)
+ident(
+  int_ref ls "coalesce.ml" 240 8046 8066 "coalesce.ml" 240 8046 8068
+)
+"coalesce.ml" 241 8079 8102 "coalesce.ml" 241 8079 8120
+type(
+  int Expr.Visit.scx
+)
+"coalesce.ml" 242 8124 8136 "coalesce.ml" 242 8124 8140
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  ext_ref self-2
+)
+"coalesce.ml" 242 8124 8136 "coalesce.ml" 242 8124 8145
+type(
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"coalesce.ml" 242 8124 8146 "coalesce.ml" 242 8124 8150
+type(
+  int Expr.Visit.scx
+)
+ident(
+  int_ref scx_ "coalesce.ml" 241 8079 8095 "coalesce.ml" 241 8079 8099
+)
+"coalesce.ml" 242 8124 8151 "coalesce.ml" 242 8124 8155
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref expr "coalesce.ml" 240 8046 8070 "coalesce.ml" 240 8046 8074
+)
+"coalesce.ml" 242 8124 8136 "coalesce.ml" 242 8124 8155
+type(
+  unit
+)
+"coalesce.ml" 241 8079 8091 "coalesce.ml" 242 8124 8155
+type(
+  unit
+)
+"coalesce.ml" 243 8156 8174 "coalesce.ml" 243 8156 8175
+type(
+  Expr.T.quantifier
+)
+"coalesce.ml" 243 8156 8177 "coalesce.ml" 243 8156 8179
+type(
+  Util.hints
+)
+ident(
+  def ls "coalesce.ml" 244 8187 8199 "coalesce.ml" 245 8255 8299
+)
+"coalesce.ml" 243 8156 8181 "coalesce.ml" 243 8156 8182
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 243 8156 8166 "coalesce.ml" 243 8156 8183
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 244 8187 8203 "coalesce.ml" 244 8187 8216
+type(
+  int
+)
+ident(
+  def max_bound_idx "coalesce.ml" 245 8255 8267 "coalesce.ml" 245 8255 8299
+)
+"coalesce.ml" 244 8187 8219 "coalesce.ml" 244 8187 8232
+type(
+  int
+)
+ident(
+  int_ref max_bound_idx "coalesce.ml" 204 6486 6504 "coalesce.ml" 204 6486 6517
+)
+"coalesce.ml" 244 8187 8233 "coalesce.ml" 244 8187 8234
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"coalesce.ml" 244 8187 8236 "coalesce.ml" 244 8187 8247
+type(
+  Util.hints -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"coalesce.ml" 244 8187 8248 "coalesce.ml" 244 8187 8250
+type(
+  Util.hints
+)
+ident(
+  int_ref ls "coalesce.ml" 243 8156 8177 "coalesce.ml" 243 8156 8179
+)
+"coalesce.ml" 244 8187 8235 "coalesce.ml" 244 8187 8251
+type(
+  int
+)
+"coalesce.ml" 244 8187 8219 "coalesce.ml" 244 8187 8251
+type(
+  int
+)
+"coalesce.ml" 245 8255 8267 "coalesce.ml" 245 8255 8272
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  ext_ref self-2
+)
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  int_ref super "coalesce.ml" 194 6222 6234 "coalesce.ml" 194 6222 6267
+)
+"coalesce.ml" 245 8255 8267 "coalesce.ml" 245 8255 8277
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx > ->
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+ident(
+  ext_ref expr
+)
+type(
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+type(
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"coalesce.ml" 245 8255 8279 "coalesce.ml" 245 8255 8292
+type(
+  int
+)
+ident(
+  int_ref max_bound_idx "coalesce.ml" 244 8187 8203 "coalesce.ml" 244 8187 8216
+)
+"coalesce.ml" 245 8255 8294 "coalesce.ml" 245 8255 8296
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "coalesce.ml" 204 6486 6519 "coalesce.ml" 204 6486 6521
+)
+"coalesce.ml" 245 8255 8278 "coalesce.ml" 245 8255 8297
+type(
+  int Expr.Visit.scx
+)
+"coalesce.ml" 245 8255 8298 "coalesce.ml" 245 8255 8299
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 204 6486 6531 "coalesce.ml" 204 6486 6532
+)
+"coalesce.ml" 245 8255 8267 "coalesce.ml" 245 8255 8299
+type(
+  unit
+)
+"coalesce.ml" 244 8187 8199 "coalesce.ml" 245 8255 8299
+type(
+  unit
+)
+"coalesce.ml" 246 8300 8318 "coalesce.ml" 246 8300 8319
+type(
+  Util.hint
+)
+ident(
+  def v "coalesce.ml" 247 8338 8350 "coalesce.ml" 257 8760 8791
+)
+"coalesce.ml" 246 8300 8321 "coalesce.ml" 246 8300 8327
+type(
+  Expr.T.expr option
+)
+ident(
+  def optdom "coalesce.ml" 247 8338 8350 "coalesce.ml" 257 8760 8791
+)
+"coalesce.ml" 246 8300 8329 "coalesce.ml" 246 8300 8333
+type(
+  Expr.T.expr
+)
+ident(
+  def expr "coalesce.ml" 247 8338 8350 "coalesce.ml" 257 8760 8791
+)
+"coalesce.ml" 246 8300 8310 "coalesce.ml" 246 8300 8334
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 247 8338 8354 "coalesce.ml" 247 8338 8359
+type(
+  Expr.T.hdom
+)
+ident(
+  def bound "coalesce.ml" 253 8548 8560 "coalesce.ml" 257 8760 8791
+)
+"coalesce.ml" 247 8338 8368 "coalesce.ml" 247 8338 8374
+type(
+  Expr.T.expr option
+)
+ident(
+  int_ref optdom "coalesce.ml" 246 8300 8321 "coalesce.ml" 246 8300 8327
+)
+"coalesce.ml" 248 8380 8398 "coalesce.ml" 248 8380 8402
+type(
+  Expr.T.expr option
+)
+type(
+  Expr.T.expr option
+)
+"coalesce.ml" 248 8380 8406 "coalesce.ml" 248 8380 8415
+type(
+  Expr.T.hdom
+)
+"coalesce.ml" 249 8416 8439 "coalesce.ml" 249 8416 8442
+type(
+  Expr.T.expr
+)
+ident(
+  def dom "coalesce.ml" 250 8446 8466 "coalesce.ml" 251 8486 8528
+)
+"coalesce.ml" 249 8416 8434 "coalesce.ml" 249 8416 8442
+type(
+  Expr.T.expr option
+)
+type(
+  Expr.T.expr option
+)
+"coalesce.ml" 250 8446 8466 "coalesce.ml" 250 8446 8470
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  ext_ref self-2
+)
+"coalesce.ml" 250 8446 8466 "coalesce.ml" 250 8446 8475
+type(
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"coalesce.ml" 250 8446 8476 "coalesce.ml" 250 8446 8479
+type(
+  int Expr.Visit.scx
+)
+ident(
+  int_ref scx "coalesce.ml" 204 6486 6502 "coalesce.ml" 204 6486 6530
+)
+"coalesce.ml" 250 8446 8480 "coalesce.ml" 250 8446 8483
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref dom "coalesce.ml" 249 8416 8439 "coalesce.ml" 249 8416 8442
+)
+"coalesce.ml" 250 8446 8466 "coalesce.ml" 250 8446 8483
+type(
+  unit
+)
+"coalesce.ml" 251 8486 8515 "coalesce.ml" 251 8486 8518
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref dom "coalesce.ml" 249 8416 8439 "coalesce.ml" 249 8416 8442
+)
+"coalesce.ml" 251 8486 8520 "coalesce.ml" 251 8486 8527
+type(
+  Expr.T.visibility
+)
+"coalesce.ml" 251 8486 8506 "coalesce.ml" 251 8486 8528
+type(
+  Expr.T.hdom
+)
+"coalesce.ml" 250 8446 8466 "coalesce.ml" 251 8486 8528
+type(
+  Expr.T.hdom
+)
+"coalesce.ml" 247 8338 8362 "coalesce.ml" 251 8486 8528
+type(
+  Expr.T.hdom
+)
+"coalesce.ml" 253 8548 8564 "coalesce.ml" 253 8548 8567
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  def hyp "coalesce.ml" 254 8617 8629 "coalesce.ml" 257 8760 8791
+)
+"coalesce.ml" 253 8548 8577 "coalesce.ml" 253 8548 8578
+type(
+  Util.hint
+)
+ident(
+  int_ref v "coalesce.ml" 246 8300 8318 "coalesce.ml" 246 8300 8319
+)
+"coalesce.ml" 253 8548 8580 "coalesce.ml" 253 8548 8590
+type(
+  Expr.T.shape
+)
+"coalesce.ml" 253 8548 8592 "coalesce.ml" 253 8548 8600
+type(
+  Expr.T.kind
+)
+"coalesce.ml" 253 8548 8602 "coalesce.ml" 253 8548 8607
+type(
+  Expr.T.hdom
+)
+ident(
+  int_ref bound "coalesce.ml" 247 8338 8354 "coalesce.ml" 247 8338 8359
+)
+"coalesce.ml" 253 8548 8570 "coalesce.ml" 253 8548 8608
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 253 8548 8609 "coalesce.ml" 253 8548 8611
+type(
+  Expr.T.hyp_ -> Util.hint -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"coalesce.ml" 253 8548 8612 "coalesce.ml" 253 8548 8613
+type(
+  Util.hint
+)
+ident(
+  int_ref v "coalesce.ml" 246 8300 8318 "coalesce.ml" 246 8300 8319
+)
+"coalesce.ml" 253 8548 8570 "coalesce.ml" 253 8548 8613
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"coalesce.ml" 254 8617 8633 "coalesce.ml" 254 8617 8646
+type(
+  int
+)
+ident(
+  def max_bound_idx "coalesce.ml" 255 8670 8682 "coalesce.ml" 257 8760 8791
+)
+"coalesce.ml" 254 8617 8649 "coalesce.ml" 254 8617 8662
+type(
+  int
+)
+ident(
+  int_ref max_bound_idx "coalesce.ml" 204 6486 6504 "coalesce.ml" 204 6486 6517
+)
+"coalesce.ml" 254 8617 8663 "coalesce.ml" 254 8617 8664
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"coalesce.ml" 254 8617 8665 "coalesce.ml" 254 8617 8666
+type(
+  int
+)
+"coalesce.ml" 254 8617 8649 "coalesce.ml" 254 8617 8666
+type(
+  int
+)
+"coalesce.ml" 255 8670 8686 "coalesce.ml" 255 8670 8689
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def cx_ "coalesce.ml" 256 8713 8725 "coalesce.ml" 257 8760 8791
+)
+"coalesce.ml" 255 8670 8692 "coalesce.ml" 255 8670 8702
+type(
+  Expr.T.ctx -> Expr.T.hyp -> Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.snoc "deque.mli" 13 220 220 "deque.mli" 13 220 252
+)
+"coalesce.ml" 255 8670 8703 "coalesce.ml" 255 8670 8705
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "coalesce.ml" 204 6486 6519 "coalesce.ml" 204 6486 6521
+)
+"coalesce.ml" 255 8670 8706 "coalesce.ml" 255 8670 8709
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref hyp "coalesce.ml" 253 8548 8564 "coalesce.ml" 253 8548 8567
+)
+"coalesce.ml" 255 8670 8692 "coalesce.ml" 255 8670 8709
+type(
+  Expr.T.hyp Deque.dq
+)
+"coalesce.ml" 256 8713 8729 "coalesce.ml" 256 8713 8733
+type(
+  int * Expr.T.hyp Deque.dq
+)
+ident(
+  def scx_ "coalesce.ml" 257 8760 8772 "coalesce.ml" 257 8760 8791
+)
+"coalesce.ml" 256 8713 8737 "coalesce.ml" 256 8713 8750
+type(
+  int
+)
+ident(
+  int_ref max_bound_idx "coalesce.ml" 254 8617 8633 "coalesce.ml" 254 8617 8646
+)
+"coalesce.ml" 256 8713 8752 "coalesce.ml" 256 8713 8755
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx_ "coalesce.ml" 255 8670 8686 "coalesce.ml" 255 8670 8689
+)
+"coalesce.ml" 256 8713 8736 "coalesce.ml" 256 8713 8756
+type(
+  int * Expr.T.hyp Deque.dq
+)
+"coalesce.ml" 257 8760 8772 "coalesce.ml" 257 8760 8776
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  ext_ref self-2
+)
+"coalesce.ml" 257 8760 8772 "coalesce.ml" 257 8760 8781
+type(
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"coalesce.ml" 257 8760 8782 "coalesce.ml" 257 8760 8786
+type(
+  int Expr.Visit.scx
+)
+ident(
+  int_ref scx_ "coalesce.ml" 256 8713 8729 "coalesce.ml" 256 8713 8733
+)
+"coalesce.ml" 257 8760 8787 "coalesce.ml" 257 8760 8791
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref expr "coalesce.ml" 246 8300 8329 "coalesce.ml" 246 8300 8333
+)
+"coalesce.ml" 257 8760 8772 "coalesce.ml" 257 8760 8791
+type(
+  unit
+)
+"coalesce.ml" 256 8713 8725 "coalesce.ml" 257 8760 8791
+type(
+  unit
+)
+"coalesce.ml" 255 8670 8682 "coalesce.ml" 257 8760 8791
+type(
+  unit
+)
+"coalesce.ml" 254 8617 8629 "coalesce.ml" 257 8760 8791
+type(
+  unit
+)
+"coalesce.ml" 253 8548 8560 "coalesce.ml" 257 8760 8791
+type(
+  unit
+)
+"coalesce.ml" 247 8338 8350 "coalesce.ml" 257 8760 8791
+type(
+  unit
+)
+"coalesce.ml" 258 8792 8809 "coalesce.ml" 258 8792 8810
+type(
+  Util.hint
+)
+ident(
+  def v "coalesce.ml" 259 8826 8838 "coalesce.ml" 265 9119 9150
+)
+"coalesce.ml" 258 8792 8812 "coalesce.ml" 258 8792 8815
+type(
+  Expr.T.expr
+)
+ident(
+  def dom "coalesce.ml" 259 8826 8838 "coalesce.ml" 265 9119 9150
+)
+"coalesce.ml" 258 8792 8817 "coalesce.ml" 258 8792 8821
+type(
+  Expr.T.expr
+)
+ident(
+  def expr "coalesce.ml" 259 8826 8838 "coalesce.ml" 265 9119 9150
+)
+"coalesce.ml" 258 8792 8802 "coalesce.ml" 258 8792 8822
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 259 8826 8838 "coalesce.ml" 259 8826 8842
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  ext_ref self-2
+)
+"coalesce.ml" 259 8826 8838 "coalesce.ml" 259 8826 8847
+type(
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"coalesce.ml" 259 8826 8848 "coalesce.ml" 259 8826 8851
+type(
+  int Expr.Visit.scx
+)
+ident(
+  int_ref scx "coalesce.ml" 204 6486 6502 "coalesce.ml" 204 6486 6530
+)
+"coalesce.ml" 259 8826 8852 "coalesce.ml" 259 8826 8855
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref dom "coalesce.ml" 258 8792 8812 "coalesce.ml" 258 8792 8815
+)
+"coalesce.ml" 259 8826 8838 "coalesce.ml" 259 8826 8855
+type(
+  unit
+)
+"coalesce.ml" 260 8857 8873 "coalesce.ml" 260 8857 8878
+type(
+  Expr.T.hdom
+)
+ident(
+  def bound "coalesce.ml" 261 8907 8919 "coalesce.ml" 265 9119 9150
+)
+"coalesce.ml" 260 8857 8890 "coalesce.ml" 260 8857 8893
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref dom "coalesce.ml" 258 8792 8812 "coalesce.ml" 258 8792 8815
+)
+"coalesce.ml" 260 8857 8895 "coalesce.ml" 260 8857 8902
+type(
+  Expr.T.visibility
+)
+"coalesce.ml" 260 8857 8881 "coalesce.ml" 260 8857 8903
+type(
+  Expr.T.hdom
+)
+"coalesce.ml" 261 8907 8923 "coalesce.ml" 261 8907 8926
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  def hyp "coalesce.ml" 262 8976 8988 "coalesce.ml" 265 9119 9150
+)
+"coalesce.ml" 261 8907 8936 "coalesce.ml" 261 8907 8937
+type(
+  Util.hint
+)
+ident(
+  int_ref v "coalesce.ml" 258 8792 8809 "coalesce.ml" 258 8792 8810
+)
+"coalesce.ml" 261 8907 8939 "coalesce.ml" 261 8907 8949
+type(
+  Expr.T.shape
+)
+"coalesce.ml" 261 8907 8951 "coalesce.ml" 261 8907 8959
+type(
+  Expr.T.kind
+)
+"coalesce.ml" 261 8907 8961 "coalesce.ml" 261 8907 8966
+type(
+  Expr.T.hdom
+)
+ident(
+  int_ref bound "coalesce.ml" 260 8857 8873 "coalesce.ml" 260 8857 8878
+)
+"coalesce.ml" 261 8907 8929 "coalesce.ml" 261 8907 8967
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 261 8907 8968 "coalesce.ml" 261 8907 8970
+type(
+  Expr.T.hyp_ -> Util.hint -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"coalesce.ml" 261 8907 8971 "coalesce.ml" 261 8907 8972
+type(
+  Util.hint
+)
+ident(
+  int_ref v "coalesce.ml" 258 8792 8809 "coalesce.ml" 258 8792 8810
+)
+"coalesce.ml" 261 8907 8929 "coalesce.ml" 261 8907 8972
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"coalesce.ml" 262 8976 8992 "coalesce.ml" 262 8976 8995
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def cx_ "coalesce.ml" 263 9019 9031 "coalesce.ml" 265 9119 9150
+)
+"coalesce.ml" 262 8976 8998 "coalesce.ml" 262 8976 9008
+type(
+  Expr.T.ctx -> Expr.T.hyp -> Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.snoc "deque.mli" 13 220 220 "deque.mli" 13 220 252
+)
+"coalesce.ml" 262 8976 9009 "coalesce.ml" 262 8976 9011
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "coalesce.ml" 204 6486 6519 "coalesce.ml" 204 6486 6521
+)
+"coalesce.ml" 262 8976 9012 "coalesce.ml" 262 8976 9015
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref hyp "coalesce.ml" 261 8907 8923 "coalesce.ml" 261 8907 8926
+)
+"coalesce.ml" 262 8976 8998 "coalesce.ml" 262 8976 9015
+type(
+  Expr.T.hyp Deque.dq
+)
+"coalesce.ml" 263 9019 9035 "coalesce.ml" 263 9019 9048
+type(
+  int
+)
+ident(
+  def max_bound_idx "coalesce.ml" 264 9072 9084 "coalesce.ml" 265 9119 9150
+)
+"coalesce.ml" 263 9019 9051 "coalesce.ml" 263 9019 9064
+type(
+  int
+)
+ident(
+  int_ref max_bound_idx "coalesce.ml" 204 6486 6504 "coalesce.ml" 204 6486 6517
+)
+"coalesce.ml" 263 9019 9065 "coalesce.ml" 263 9019 9066
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"coalesce.ml" 263 9019 9067 "coalesce.ml" 263 9019 9068
+type(
+  int
+)
+"coalesce.ml" 263 9019 9051 "coalesce.ml" 263 9019 9068
+type(
+  int
+)
+"coalesce.ml" 264 9072 9088 "coalesce.ml" 264 9072 9092
+type(
+  int * Expr.T.hyp Deque.dq
+)
+ident(
+  def scx_ "coalesce.ml" 265 9119 9131 "coalesce.ml" 265 9119 9150
+)
+"coalesce.ml" 264 9072 9096 "coalesce.ml" 264 9072 9109
+type(
+  int
+)
+ident(
+  int_ref max_bound_idx "coalesce.ml" 263 9019 9035 "coalesce.ml" 263 9019 9048
+)
+"coalesce.ml" 264 9072 9111 "coalesce.ml" 264 9072 9114
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx_ "coalesce.ml" 262 8976 8992 "coalesce.ml" 262 8976 8995
+)
+"coalesce.ml" 264 9072 9095 "coalesce.ml" 264 9072 9115
+type(
+  int * Expr.T.hyp Deque.dq
+)
+"coalesce.ml" 265 9119 9131 "coalesce.ml" 265 9119 9135
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  ext_ref self-2
+)
+"coalesce.ml" 265 9119 9131 "coalesce.ml" 265 9119 9140
+type(
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"coalesce.ml" 265 9119 9141 "coalesce.ml" 265 9119 9145
+type(
+  int Expr.Visit.scx
+)
+ident(
+  int_ref scx_ "coalesce.ml" 264 9072 9088 "coalesce.ml" 264 9072 9092
+)
+"coalesce.ml" 265 9119 9146 "coalesce.ml" 265 9119 9150
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref expr "coalesce.ml" 258 8792 8817 "coalesce.ml" 258 8792 8821
+)
+"coalesce.ml" 265 9119 9131 "coalesce.ml" 265 9119 9150
+type(
+  unit
+)
+"coalesce.ml" 264 9072 9084 "coalesce.ml" 265 9119 9150
+type(
+  unit
+)
+"coalesce.ml" 263 9019 9031 "coalesce.ml" 265 9119 9150
+type(
+  unit
+)
+"coalesce.ml" 262 8976 8988 "coalesce.ml" 265 9119 9150
+type(
+  unit
+)
+"coalesce.ml" 261 8907 8919 "coalesce.ml" 265 9119 9150
+type(
+  unit
+)
+"coalesce.ml" 260 8857 8869 "coalesce.ml" 265 9119 9150
+type(
+  unit
+)
+"coalesce.ml" 259 8826 8838 "coalesce.ml" 265 9119 9150
+type(
+  unit
+)
+"coalesce.ml" 266 9151 9168 "coalesce.ml" 266 9151 9172
+type(
+  Expr.T.expr
+)
+ident(
+  def expr "coalesce.ml" 267 9181 9193 "coalesce.ml" 268 9226 9257
+)
+"coalesce.ml" 266 9151 9174 "coalesce.ml" 266 9151 9176
+type(
+  Expr.T.bounds
+)
+ident(
+  def bs "coalesce.ml" 267 9181 9193 "coalesce.ml" 268 9226 9257
+)
+"coalesce.ml" 266 9151 9161 "coalesce.ml" 266 9151 9177
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 267 9181 9197 "coalesce.ml" 267 9181 9201
+type(
+  int Expr.Visit.scx
+)
+ident(
+  def scx_ "coalesce.ml" 268 9226 9238 "coalesce.ml" 268 9226 9257
+)
+"coalesce.ml" 267 9181 9204 "coalesce.ml" 267 9181 9208
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  ext_ref self-2
+)
+"coalesce.ml" 267 9181 9204 "coalesce.ml" 267 9181 9215
+type(
+  int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx
+)
+"coalesce.ml" 267 9181 9216 "coalesce.ml" 267 9181 9219
+type(
+  int Expr.Visit.scx
+)
+ident(
+  int_ref scx "coalesce.ml" 204 6486 6502 "coalesce.ml" 204 6486 6530
+)
+"coalesce.ml" 267 9181 9220 "coalesce.ml" 267 9181 9222
+type(
+  Expr.T.bounds
+)
+ident(
+  int_ref bs "coalesce.ml" 266 9151 9174 "coalesce.ml" 266 9151 9176
+)
+"coalesce.ml" 267 9181 9204 "coalesce.ml" 267 9181 9222
+type(
+  int Expr.Visit.scx
+)
+"coalesce.ml" 268 9226 9238 "coalesce.ml" 268 9226 9242
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  ext_ref self-2
+)
+"coalesce.ml" 268 9226 9238 "coalesce.ml" 268 9226 9247
+type(
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"coalesce.ml" 268 9226 9248 "coalesce.ml" 268 9226 9252
+type(
+  int Expr.Visit.scx
+)
+ident(
+  int_ref scx_ "coalesce.ml" 267 9181 9197 "coalesce.ml" 267 9181 9201
+)
+"coalesce.ml" 268 9226 9253 "coalesce.ml" 268 9226 9257
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref expr "coalesce.ml" 266 9151 9168 "coalesce.ml" 266 9151 9172
+)
+"coalesce.ml" 268 9226 9238 "coalesce.ml" 268 9226 9257
+type(
+  unit
+)
+"coalesce.ml" 267 9181 9193 "coalesce.ml" 268 9226 9257
+type(
+  unit
+)
+"coalesce.ml" 269 9258 9273 "coalesce.ml" 269 9258 9275
+type(
+  Expr.T.bounds
+)
+ident(
+  def bs "coalesce.ml" 270 9286 9298 "coalesce.ml" 271 9331 9362
+)
+"coalesce.ml" 269 9258 9277 "coalesce.ml" 269 9258 9281
+type(
+  Expr.T.expr
+)
+ident(
+  def expr "coalesce.ml" 270 9286 9298 "coalesce.ml" 271 9331 9362
+)
+"coalesce.ml" 269 9258 9268 "coalesce.ml" 269 9258 9282
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 270 9286 9302 "coalesce.ml" 270 9286 9306
+type(
+  int Expr.Visit.scx
+)
+ident(
+  def scx_ "coalesce.ml" 271 9331 9343 "coalesce.ml" 271 9331 9362
+)
+"coalesce.ml" 270 9286 9309 "coalesce.ml" 270 9286 9313
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  ext_ref self-2
+)
+"coalesce.ml" 270 9286 9309 "coalesce.ml" 270 9286 9320
+type(
+  int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx
+)
+"coalesce.ml" 270 9286 9321 "coalesce.ml" 270 9286 9324
+type(
+  int Expr.Visit.scx
+)
+ident(
+  int_ref scx "coalesce.ml" 204 6486 6502 "coalesce.ml" 204 6486 6530
+)
+"coalesce.ml" 270 9286 9325 "coalesce.ml" 270 9286 9327
+type(
+  Expr.T.bounds
+)
+ident(
+  int_ref bs "coalesce.ml" 269 9258 9273 "coalesce.ml" 269 9258 9275
+)
+"coalesce.ml" 270 9286 9309 "coalesce.ml" 270 9286 9327
+type(
+  int Expr.Visit.scx
+)
+"coalesce.ml" 271 9331 9343 "coalesce.ml" 271 9331 9347
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  ext_ref self-2
+)
+"coalesce.ml" 271 9331 9343 "coalesce.ml" 271 9331 9352
+type(
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"coalesce.ml" 271 9331 9353 "coalesce.ml" 271 9331 9357
+type(
+  int Expr.Visit.scx
+)
+ident(
+  int_ref scx_ "coalesce.ml" 270 9286 9302 "coalesce.ml" 270 9286 9306
+)
+"coalesce.ml" 271 9331 9358 "coalesce.ml" 271 9331 9362
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref expr "coalesce.ml" 269 9258 9277 "coalesce.ml" 269 9258 9281
+)
+"coalesce.ml" 271 9331 9343 "coalesce.ml" 271 9331 9362
+type(
+  unit
+)
+"coalesce.ml" 270 9286 9298 "coalesce.ml" 271 9331 9362
+type(
+  unit
+)
+"coalesce.ml" 272 9363 9373 "coalesce.ml" 272 9363 9374
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 272 9363 9378 "coalesce.ml" 272 9363 9383
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  ext_ref self-2
+)
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  int_ref super "coalesce.ml" 194 6222 6234 "coalesce.ml" 194 6222 6267
+)
+"coalesce.ml" 272 9363 9378 "coalesce.ml" 272 9363 9388
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx > ->
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+ident(
+  ext_ref expr
+)
+type(
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+type(
+  int Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"coalesce.ml" 272 9363 9389 "coalesce.ml" 272 9363 9392
+type(
+  int Expr.Visit.scx
+)
+ident(
+  int_ref scx "coalesce.ml" 204 6486 6502 "coalesce.ml" 204 6486 6530
+)
+"coalesce.ml" 272 9363 9393 "coalesce.ml" 272 9363 9394
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 204 6486 6531 "coalesce.ml" 204 6486 6532
+)
+"coalesce.ml" 272 9363 9378 "coalesce.ml" 272 9363 9394
+type(
+  unit
+)
+"coalesce.ml" 205 6535 6543 "coalesce.ml" 272 9363 9394
+type(
+  unit
+)
+"coalesce.ml" 274 9396 9412 "coalesce.ml" 274 9396 9415
+type(
+  int Expr.Visit.scx
+)
+ident(
+  def scx "coalesce.ml" 274 9396 9416 "coalesce.ml" 278 9566 9577
+)
+"coalesce.ml" 274 9396 9416 "coalesce.ml" 274 9396 9418
+type(
+  Expr.T.defn
+)
+ident(
+  def df "coalesce.ml" 275 9421 9429 "coalesce.ml" 278 9566 9577
+)
+"coalesce.ml" 275 9421 9434 "coalesce.ml" 275 9421 9447
+type(
+  int
+)
+ident(
+  def max_bound_idx "coalesce.ml" 276 9476 9484 "coalesce.ml" 278 9566 9577
+)
+"coalesce.ml" 275 9421 9449 "coalesce.ml" 275 9421 9451
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def cx "coalesce.ml" 276 9476 9484 "coalesce.ml" 278 9566 9577
+)
+"coalesce.ml" 275 9421 9433 "coalesce.ml" 275 9421 9452
+type(
+  int Expr.Visit.scx
+)
+"coalesce.ml" 275 9421 9455 "coalesce.ml" 275 9421 9460
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  ext_ref self-2
+)
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  int_ref super "coalesce.ml" 194 6222 6234 "coalesce.ml" 194 6222 6267
+)
+"coalesce.ml" 275 9421 9455 "coalesce.ml" 275 9421 9465
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx > ->
+  int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx
+)
+ident(
+  ext_ref defn
+)
+type(
+  int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx
+)
+type(
+  int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx
+)
+"coalesce.ml" 275 9421 9466 "coalesce.ml" 275 9421 9469
+type(
+  int Expr.Visit.scx
+)
+ident(
+  int_ref scx "coalesce.ml" 274 9396 9412 "coalesce.ml" 274 9396 9415
+)
+"coalesce.ml" 275 9421 9470 "coalesce.ml" 275 9421 9472
+type(
+  Expr.T.defn
+)
+ident(
+  int_ref df "coalesce.ml" 274 9396 9416 "coalesce.ml" 274 9396 9418
+)
+"coalesce.ml" 275 9421 9455 "coalesce.ml" 275 9421 9472
+type(
+  int Expr.Visit.scx
+)
+"coalesce.ml" 276 9476 9488 "coalesce.ml" 276 9476 9501
+type(
+  int
+)
+ident(
+  def max_bound_idx "coalesce.ml" 277 9525 9533 "coalesce.ml" 278 9566 9577
+)
+"coalesce.ml" 276 9476 9504 "coalesce.ml" 276 9476 9517
+type(
+  int
+)
+ident(
+  int_ref max_bound_idx "coalesce.ml" 275 9421 9434 "coalesce.ml" 275 9421 9447
+)
+"coalesce.ml" 276 9476 9518 "coalesce.ml" 276 9476 9519
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"coalesce.ml" 276 9476 9520 "coalesce.ml" 276 9476 9521
+type(
+  int
+)
+"coalesce.ml" 276 9476 9504 "coalesce.ml" 276 9476 9521
+type(
+  int
+)
+"coalesce.ml" 277 9525 9537 "coalesce.ml" 277 9525 9540
+type(
+  int * Expr.T.hyp Deque.dq
+)
+ident(
+  def scx "coalesce.ml" 278 9566 9574 "coalesce.ml" 278 9566 9577
+)
+"coalesce.ml" 277 9525 9544 "coalesce.ml" 277 9525 9557
+type(
+  int
+)
+ident(
+  int_ref max_bound_idx "coalesce.ml" 276 9476 9488 "coalesce.ml" 276 9476 9501
+)
+"coalesce.ml" 277 9525 9559 "coalesce.ml" 277 9525 9561
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "coalesce.ml" 275 9421 9449 "coalesce.ml" 275 9421 9451
+)
+"coalesce.ml" 277 9525 9543 "coalesce.ml" 277 9525 9562
+type(
+  int * Expr.T.hyp Deque.dq
+)
+"coalesce.ml" 278 9566 9574 "coalesce.ml" 278 9566 9577
+type(
+  int Expr.Visit.scx
+)
+ident(
+  int_ref scx "coalesce.ml" 277 9525 9537 "coalesce.ml" 277 9525 9540
+)
+"coalesce.ml" 277 9525 9533 "coalesce.ml" 278 9566 9577
+type(
+  int Expr.Visit.scx
+)
+"coalesce.ml" 276 9476 9484 "coalesce.ml" 278 9566 9577
+type(
+  int Expr.Visit.scx
+)
+"coalesce.ml" 275 9421 9429 "coalesce.ml" 278 9566 9577
+type(
+  int Expr.Visit.scx
+)
+"coalesce.ml" 280 9579 9597 "coalesce.ml" 280 9579 9600
+type(
+  int Expr.Visit.scx
+)
+ident(
+  def scx "coalesce.ml" 280 9579 9601 "coalesce.ml" 284 9768 9779
+)
+"coalesce.ml" 280 9579 9601 "coalesce.ml" 280 9579 9603
+type(
+  Expr.T.bounds
+)
+ident(
+  def bs "coalesce.ml" 281 9606 9614 "coalesce.ml" 284 9768 9779
+)
+"coalesce.ml" 281 9606 9619 "coalesce.ml" 281 9606 9632
+type(
+  int
+)
+ident(
+  def max_bound_idx "coalesce.ml" 282 9663 9671 "coalesce.ml" 284 9768 9779
+)
+"coalesce.ml" 281 9606 9634 "coalesce.ml" 281 9606 9636
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def cx "coalesce.ml" 282 9663 9671 "coalesce.ml" 284 9768 9779
+)
+"coalesce.ml" 281 9606 9618 "coalesce.ml" 281 9606 9637
+type(
+  int Expr.Visit.scx
+)
+"coalesce.ml" 281 9606 9640 "coalesce.ml" 281 9606 9645
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  ext_ref self-2
+)
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  int_ref super "coalesce.ml" 194 6222 6234 "coalesce.ml" 194 6222 6267
+)
+"coalesce.ml" 281 9606 9640 "coalesce.ml" 281 9606 9652
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx > ->
+  int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx
+)
+ident(
+  ext_ref bounds
+)
+type(
+  int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx
+)
+type(
+  int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx
+)
+"coalesce.ml" 281 9606 9653 "coalesce.ml" 281 9606 9656
+type(
+  int Expr.Visit.scx
+)
+ident(
+  int_ref scx "coalesce.ml" 280 9579 9597 "coalesce.ml" 280 9579 9600
+)
+"coalesce.ml" 281 9606 9657 "coalesce.ml" 281 9606 9659
+type(
+  Expr.T.bounds
+)
+ident(
+  int_ref bs "coalesce.ml" 280 9579 9601 "coalesce.ml" 280 9579 9603
+)
+"coalesce.ml" 281 9606 9640 "coalesce.ml" 281 9606 9659
+type(
+  int Expr.Visit.scx
+)
+"coalesce.ml" 282 9663 9675 "coalesce.ml" 282 9663 9688
+type(
+  int
+)
+ident(
+  def max_bound_idx "coalesce.ml" 283 9727 9735 "coalesce.ml" 284 9768 9779
+)
+"coalesce.ml" 282 9663 9691 "coalesce.ml" 282 9663 9704
+type(
+  int
+)
+ident(
+  int_ref max_bound_idx "coalesce.ml" 281 9606 9619 "coalesce.ml" 281 9606 9632
+)
+"coalesce.ml" 282 9663 9705 "coalesce.ml" 282 9663 9706
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"coalesce.ml" 282 9663 9708 "coalesce.ml" 282 9663 9719
+type(
+  Expr.T.bounds -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"coalesce.ml" 282 9663 9720 "coalesce.ml" 282 9663 9722
+type(
+  Expr.T.bounds
+)
+ident(
+  int_ref bs "coalesce.ml" 280 9579 9601 "coalesce.ml" 280 9579 9603
+)
+"coalesce.ml" 282 9663 9707 "coalesce.ml" 282 9663 9723
+type(
+  int
+)
+"coalesce.ml" 282 9663 9691 "coalesce.ml" 282 9663 9723
+type(
+  int
+)
+"coalesce.ml" 283 9727 9739 "coalesce.ml" 283 9727 9742
+type(
+  int * Expr.T.hyp Deque.dq
+)
+ident(
+  def scx "coalesce.ml" 284 9768 9776 "coalesce.ml" 284 9768 9779
+)
+"coalesce.ml" 283 9727 9746 "coalesce.ml" 283 9727 9759
+type(
+  int
+)
+ident(
+  int_ref max_bound_idx "coalesce.ml" 282 9663 9675 "coalesce.ml" 282 9663 9688
+)
+"coalesce.ml" 283 9727 9761 "coalesce.ml" 283 9727 9763
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "coalesce.ml" 281 9606 9634 "coalesce.ml" 281 9606 9636
+)
+"coalesce.ml" 283 9727 9745 "coalesce.ml" 283 9727 9764
+type(
+  int * Expr.T.hyp Deque.dq
+)
+"coalesce.ml" 284 9768 9776 "coalesce.ml" 284 9768 9779
+type(
+  int Expr.Visit.scx
+)
+ident(
+  int_ref scx "coalesce.ml" 283 9727 9739 "coalesce.ml" 283 9727 9742
+)
+"coalesce.ml" 283 9727 9735 "coalesce.ml" 284 9768 9779
+type(
+  int Expr.Visit.scx
+)
+"coalesce.ml" 282 9663 9671 "coalesce.ml" 284 9768 9779
+type(
+  int Expr.Visit.scx
+)
+"coalesce.ml" 281 9606 9614 "coalesce.ml" 284 9768 9779
+type(
+  int Expr.Visit.scx
+)
+"coalesce.ml" 286 9781 9801 "coalesce.ml" 286 9781 9804
+type(
+  int Expr.Visit.scx
+)
+ident(
+  def scx "coalesce.ml" 286 9781 9805 "coalesce.ml" 287 9812 9832
+)
+"coalesce.ml" 286 9781 9805 "coalesce.ml" 286 9781 9809
+type(
+  Expr.T.instance
+)
+ident(
+  def inst "coalesce.ml" 287 9812 9820 "coalesce.ml" 287 9812 9832
+)
+"coalesce.ml" 287 9812 9827 "coalesce.ml" 287 9812 9832
+type(
+  bool
+)
+"coalesce.ml" 287 9812 9820 "coalesce.ml" 287 9812 9832
+type(
+  unit
+)
+"coalesce.ml" 289 9882 9899 "coalesce.ml" 289 9882 9902
+type(
+  int Expr.Visit.scx
+)
+ident(
+  def scx "coalesce.ml" 289 9882 9903 "coalesce.ml" 290 9907 9927
+)
+"coalesce.ml" 289 9882 9903 "coalesce.ml" 289 9882 9904
+type(
+  Expr.T.bound
+)
+ident(
+  def b "coalesce.ml" 290 9907 9915 "coalesce.ml" 290 9907 9927
+)
+"coalesce.ml" 290 9907 9922 "coalesce.ml" 290 9907 9927
+type(
+  bool
+)
+"coalesce.ml" 290 9907 9915 "coalesce.ml" 290 9907 9927
+type(
+  int Expr.Visit.scx
+)
+"coalesce.ml" 292 9950 9965 "coalesce.ml" 292 9950 9968
+type(
+  int Expr.Visit.scx
+)
+ident(
+  def scx "coalesce.ml" 292 9950 9969 "coalesce.ml" 293 9973 9993
+)
+"coalesce.ml" 292 9950 9969 "coalesce.ml" 292 9950 9970
+type(
+  Expr.T.hyp
+)
+ident(
+  def h "coalesce.ml" 293 9973 9981 "coalesce.ml" 293 9973 9993
+)
+"coalesce.ml" 293 9973 9988 "coalesce.ml" 293 9973 9993
+type(
+  bool
+)
+"coalesce.ml" 293 9973 9981 "coalesce.ml" 293 9973 9993
+type(
+  int Expr.Visit.scx
+)
+"coalesce.ml" 295 10039 10055 "coalesce.ml" 295 10039 10058
+type(
+  int Expr.Visit.scx
+)
+ident(
+  def scx "coalesce.ml" 295 10039 10059 "coalesce.ml" 296 10064 10084
+)
+"coalesce.ml" 295 10039 10059 "coalesce.ml" 295 10039 10061
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def hs "coalesce.ml" 296 10064 10072 "coalesce.ml" 296 10064 10084
+)
+"coalesce.ml" 296 10064 10079 "coalesce.ml" 296 10064 10084
+type(
+  bool
+)
+"coalesce.ml" 296 10064 10072 "coalesce.ml" 296 10064 10084
+type(
+  int Expr.Visit.scx
+)
+"coalesce.ml" 192 6110 6129 "coalesce.ml" 297 10129 10132
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+"coalesce.ml" 300 10135 10139 "coalesce.ml" 300 10135 10151
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list
+)
+ident(
+  def compute_vars "coalesce.ml" 304 10191 10191 "coalesce.ml" 0 0 -1
+)
+"coalesce.ml" 300 10135 10152 "coalesce.ml" 300 10135 10154
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def cx "coalesce.ml" 300 10135 10155 "coalesce.ml" 301 10159 10188
+)
+"coalesce.ml" 300 10135 10155 "coalesce.ml" 300 10135 10156
+type(
+  Expr.T.expr
+)
+ident(
+  def e "coalesce.ml" 301 10159 10163 "coalesce.ml" 301 10159 10188
+)
+"coalesce.ml" 301 10159 10163 "coalesce.ml" 301 10159 10175
+type(
+  < bound : int Expr.Visit.scx -> Expr.T.bound -> int Expr.Visit.scx;
+    bounds : int Expr.Visit.scx -> Expr.T.bounds -> int Expr.Visit.scx;
+    compute : Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list;
+    defn : int Expr.Visit.scx -> Expr.T.defn -> int Expr.Visit.scx;
+    defns : int Expr.Visit.scx -> Expr.T.defn list -> int Expr.Visit.scx;
+    expr : int Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : int Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : int Expr.Visit.scx -> Expr.T.hyp -> int Expr.Visit.scx;
+    hyps : int Expr.Visit.scx -> Expr.T.hyp Deque.dq -> int Expr.Visit.scx;
+    instance : int Expr.Visit.scx -> Expr.T.instance -> unit;
+    pform : int Expr.Visit.scx -> Expr.T.pform -> unit;
+    sel : int Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : int Expr.Visit.scx -> Expr.T.sequent -> int Expr.Visit.scx >
+)
+ident(
+  int_ref vars_visitor "coalesce.ml" 192 6110 6114 "coalesce.ml" 192 6110 6126
+)
+"coalesce.ml" 301 10159 10163 "coalesce.ml" 301 10159 10183
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> IxSet.elt list
+)
+"coalesce.ml" 301 10159 10184 "coalesce.ml" 301 10159 10186
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "coalesce.ml" 300 10135 10152 "coalesce.ml" 300 10135 10154
+)
+"coalesce.ml" 301 10159 10187 "coalesce.ml" 301 10159 10188
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 300 10135 10155 "coalesce.ml" 300 10135 10156
+)
+"coalesce.ml" 301 10159 10163 "coalesce.ml" 301 10159 10188
+type(
+  IxSet.elt list
+)
+"coalesce.ml" 304 10191 10195 "coalesce.ml" 304 10191 10217
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  def coalesce_modal_visitor "coalesce.ml" 379 13324 13324 "coalesce.ml" 0 0 -1
+)
+"coalesce.ml" 304 10191 10227 "coalesce.ml" 304 10191 10233
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+"coalesce.ml" 307 10290 10308 "coalesce.ml" 307 10290 10309
+type(
+  unit
+)
+"coalesce.ml" 307 10290 10311 "coalesce.ml" 307 10290 10313
+type(
+  Expr.T.ctx
+)
+ident(
+  def cx "coalesce.ml" 307 10290 10323 "coalesce.ml" 375 13286 13317
+)
+"coalesce.ml" 307 10290 10307 "coalesce.ml" 307 10290 10314
+type(
+  unit * Expr.T.ctx
+)
+"coalesce.ml" 307 10290 10306 "coalesce.ml" 307 10290 10322
+type(
+  unit * Expr.T.ctx
+)
+ident(
+  def scx "coalesce.ml" 307 10290 10323 "coalesce.ml" 375 13286 13317
+)
+"coalesce.ml" 307 10290 10323 "coalesce.ml" 307 10290 10324
+type(
+  Expr.T.expr
+)
+ident(
+  def e "coalesce.ml" 308 10327 10335 "coalesce.ml" 375 13286 13317
+)
+"coalesce.ml" 308 10327 10341 "coalesce.ml" 308 10327 10342
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 307 10290 10323 "coalesce.ml" 307 10290 10324
+)
+"coalesce.ml" 308 10327 10341 "coalesce.ml" 308 10327 10347
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 310 10385 10418 "coalesce.ml" 310 10385 10431
+type(
+  Builtin.builtin
+)
+"coalesce.ml" 310 10385 10434 "coalesce.ml" 310 10385 10453
+type(
+  Builtin.builtin
+)
+"coalesce.ml" 310 10385 10417 "coalesce.ml" 310 10385 10454
+type(
+  Builtin.builtin
+)
+"coalesce.ml" 310 10385 10408 "coalesce.ml" 310 10385 10454
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 310 10385 10402 "coalesce.ml" 310 10385 10455
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 311 10457 10483 "coalesce.ml" 311 10457 10484
+type(
+  int
+)
+ident(
+  def n "coalesce.ml" 312 10493 10509 "coalesce.ml" 318 10696 10746
+)
+"coalesce.ml" 311 10457 10480 "coalesce.ml" 311 10457 10484
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 311 10457 10474 "coalesce.ml" 311 10457 10485
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 311 10457 10473 "coalesce.ml" 311 10457 10486
+type(
+  Expr.T.expr list
+)
+"coalesce.ml" 310 10385 10395 "coalesce.ml" 311 10457 10487
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 312 10493 10514 "coalesce.ml" 312 10493 10517
+type(
+  Expr.T.hyp
+)
+ident(
+  def hyp "coalesce.ml" 313 10541 10560 "coalesce.ml" 316 10647 10675
+)
+"coalesce.ml" 312 10493 10520 "coalesce.ml" 312 10493 10535
+type(
+  Expr.T.ctx -> int -> Expr.T.hyp
+)
+ident(
+  int_ref Expr.T.get_val_from_id "expr.mli" 332 8512 8514 "expr.mli" 332 8512 8563
+)
+"coalesce.ml" 312 10493 10536 "coalesce.ml" 312 10493 10538
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "coalesce.ml" 307 10290 10311 "coalesce.ml" 307 10290 10313
+)
+"coalesce.ml" 312 10493 10539 "coalesce.ml" 312 10493 10540
+type(
+  int
+)
+ident(
+  int_ref n "coalesce.ml" 311 10457 10483 "coalesce.ml" 311 10457 10484
+)
+"coalesce.ml" 312 10493 10520 "coalesce.ml" 312 10493 10540
+type(
+  Expr.T.hyp
+)
+"coalesce.ml" 313 10541 10566 "coalesce.ml" 313 10541 10569
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref hyp "coalesce.ml" 312 10493 10514 "coalesce.ml" 312 10493 10517
+)
+"coalesce.ml" 313 10541 10566 "coalesce.ml" 313 10541 10574
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 314 10580 10604 "coalesce.ml" 314 10580 10605
+type(
+  Expr.T.hdom
+)
+type(
+  Expr.T.kind
+)
+type(
+  Expr.T.shape
+)
+type(
+  Util.hint
+)
+"coalesce.ml" 314 10580 10598 "coalesce.ml" 314 10580 10605
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 314 10580 10609 "coalesce.ml" 314 10580 10613
+type(
+  bool
+)
+"coalesce.ml" 315 10614 10637 "coalesce.ml" 315 10614 10638
+type(
+  Util.hint
+)
+"coalesce.ml" 315 10614 10632 "coalesce.ml" 315 10614 10638
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 315 10614 10642 "coalesce.ml" 315 10614 10646
+type(
+  bool
+)
+"coalesce.ml" 316 10647 10665 "coalesce.ml" 316 10647 10666
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 316 10647 10670 "coalesce.ml" 316 10647 10675
+type(
+  bool
+)
+"coalesce.ml" 313 10541 10560 "coalesce.ml" 316 10647 10675
+type(
+  bool
+)
+"coalesce.ml" 312 10493 10509 "coalesce.ml" 316 10647 10676
+type(
+  bool
+)
+"coalesce.ml" 318 10696 10716 "coalesce.ml" 318 10696 10735
+type(
+  Expr.T.ctx -> int -> string
+)
+ident(
+  int_ref coalesce_primed_var "coalesce.ml" 180 5722 5726 "coalesce.ml" 180 5722 5745
+)
+"coalesce.ml" 318 10696 10736 "coalesce.ml" 318 10696 10738
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "coalesce.ml" 307 10290 10311 "coalesce.ml" 307 10290 10313
+)
+"coalesce.ml" 318 10696 10739 "coalesce.ml" 318 10696 10740
+type(
+  int
+)
+ident(
+  int_ref n "coalesce.ml" 311 10457 10483 "coalesce.ml" 311 10457 10484
+)
+"coalesce.ml" 318 10696 10715 "coalesce.ml" 318 10696 10741
+type(
+  string
+)
+"coalesce.ml" 318 10696 10708 "coalesce.ml" 318 10696 10741
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 318 10696 10742 "coalesce.ml" 318 10696 10744
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"coalesce.ml" 318 10696 10745 "coalesce.ml" 318 10696 10746
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 307 10290 10323 "coalesce.ml" 307 10290 10324
+)
+"coalesce.ml" 318 10696 10708 "coalesce.ml" 318 10696 10746
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 320 10783 10799 "coalesce.ml" 320 10783 10812
+type(
+  Builtin.builtin
+)
+"coalesce.ml" 320 10783 10815 "coalesce.ml" 320 10783 10834
+type(
+  Builtin.builtin
+)
+"coalesce.ml" 320 10783 10799 "coalesce.ml" 320 10783 10834
+type(
+  Builtin.builtin
+)
+"coalesce.ml" 321 10835 10865 "coalesce.ml" 321 10835 10866
+type(
+  bool
+)
+"coalesce.ml" 321 10835 10853 "coalesce.ml" 321 10835 10866
+type(
+  Builtin.builtin
+)
+"coalesce.ml" 320 10783 10799 "coalesce.ml" 321 10835 10866
+type(
+  Builtin.builtin
+)
+"coalesce.ml" 321 10835 10869 "coalesce.ml" 321 10835 10884
+type(
+  Builtin.builtin
+)
+"coalesce.ml" 320 10783 10799 "coalesce.ml" 321 10835 10884
+type(
+  Builtin.builtin
+)
+"coalesce.ml" 322 10885 10903 "coalesce.ml" 322 10885 10918
+type(
+  Builtin.builtin
+)
+"coalesce.ml" 320 10783 10799 "coalesce.ml" 322 10885 10918
+type(
+  Builtin.builtin
+)
+"coalesce.ml" 322 10885 10921 "coalesce.ml" 322 10885 10936
+type(
+  Builtin.builtin
+)
+"coalesce.ml" 320 10783 10799 "coalesce.ml" 322 10885 10936
+type(
+  Builtin.builtin
+)
+"coalesce.ml" 322 10885 10939 "coalesce.ml" 322 10885 10951
+type(
+  Builtin.builtin
+)
+"coalesce.ml" 320 10783 10799 "coalesce.ml" 322 10885 10951
+type(
+  Builtin.builtin
+)
+"coalesce.ml" 323 10952 10970 "coalesce.ml" 323 10952 10987
+type(
+  Builtin.builtin
+)
+"coalesce.ml" 319 10747 10781 "coalesce.ml" 323 10952 10988
+type(
+  Builtin.builtin
+)
+"coalesce.ml" 319 10747 10772 "coalesce.ml" 323 10952 10988
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 319 10747 10764 "coalesce.ml" 323 10952 10989
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 323 10952 10991 "coalesce.ml" 323 10952 10995
+type(
+  Expr.T.expr list
+)
+ident(
+  def args "coalesce.ml" 324 11000 11012 "coalesce.ml" 330 11192 11207
+)
+"coalesce.ml" 319 10747 10757 "coalesce.ml" 323 10952 10996
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 325 11018 11034 "coalesce.ml" 325 11018 11038
+type(
+  IxSet.elt list
+)
+ident(
+  def vars "coalesce.ml" 326 11062 11074 "coalesce.ml" 329 11151 11191
+)
+"coalesce.ml" 325 11018 11041 "coalesce.ml" 325 11018 11053
+type(
+  Expr.T.ctx -> Expr.T.expr -> IxSet.elt list
+)
+ident(
+  int_ref compute_vars "coalesce.ml" 300 10135 10139 "coalesce.ml" 300 10135 10151
+)
+"coalesce.ml" 325 11018 11054 "coalesce.ml" 325 11018 11056
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "coalesce.ml" 307 10290 10311 "coalesce.ml" 307 10290 10313
+)
+"coalesce.ml" 325 11018 11057 "coalesce.ml" 325 11018 11058
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 307 10290 10323 "coalesce.ml" 307 10290 10324
+)
+"coalesce.ml" 325 11018 11041 "coalesce.ml" 325 11018 11058
+type(
+  IxSet.elt list
+)
+"coalesce.ml" 326 11062 11078 "coalesce.ml" 326 11062 11080
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def op "coalesce.ml" 327 11100 11112 "coalesce.ml" 329 11151 11191
+)
+"coalesce.ml" 326 11062 11083 "coalesce.ml" 326 11062 11091
+type(
+  Expr.T.ctx -> Expr.T.expr -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref coalesce "coalesce.ml" 43 970 974 "coalesce.ml" 43 970 982
+)
+"coalesce.ml" 326 11062 11092 "coalesce.ml" 326 11062 11094
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "coalesce.ml" 307 10290 10311 "coalesce.ml" 307 10290 10313
+)
+"coalesce.ml" 326 11062 11095 "coalesce.ml" 326 11062 11096
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 307 10290 10323 "coalesce.ml" 307 10290 10324
+)
+"coalesce.ml" 326 11062 11083 "coalesce.ml" 326 11062 11096
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 327 11100 11118 "coalesce.ml" 327 11100 11122
+type(
+  IxSet.elt list
+)
+ident(
+  int_ref vars "coalesce.ml" 325 11018 11034 "coalesce.ml" 325 11018 11038
+)
+"coalesce.ml" 328 11128 11142 "coalesce.ml" 328 11128 11144
+type(
+  IxSet.elt list
+)
+type(
+  IxSet.elt list
+)
+"coalesce.ml" 328 11128 11148 "coalesce.ml" 328 11128 11150
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref op "coalesce.ml" 326 11062 11078 "coalesce.ml" 326 11062 11080
+)
+"coalesce.ml" 329 11151 11165 "coalesce.ml" 329 11151 11166
+type(
+  IxSet.elt list
+)
+type(
+  IxSet.elt list
+)
+"coalesce.ml" 329 11151 11177 "coalesce.ml" 329 11151 11179
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref op "coalesce.ml" 326 11062 11078 "coalesce.ml" 326 11062 11080
+)
+"coalesce.ml" 329 11151 11181 "coalesce.ml" 329 11151 11185
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref vars "coalesce.ml" 325 11018 11034 "coalesce.ml" 325 11018 11038
+)
+"coalesce.ml" 329 11151 11170 "coalesce.ml" 329 11151 11186
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 329 11151 11187 "coalesce.ml" 329 11151 11189
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"coalesce.ml" 329 11151 11190 "coalesce.ml" 329 11151 11191
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 307 10290 10323 "coalesce.ml" 307 10290 10324
+)
+"coalesce.ml" 329 11151 11170 "coalesce.ml" 329 11151 11191
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 327 11100 11112 "coalesce.ml" 329 11151 11191
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 326 11062 11074 "coalesce.ml" 329 11151 11191
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 324 11000 11012 "coalesce.ml" 330 11192 11207
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 331 11208 11236 "coalesce.ml" 331 11208 11237
+type(
+  int
+)
+ident(
+  def n "coalesce.ml" 332 11258 11270 "coalesce.ml" 374 13270 13285
+)
+"coalesce.ml" 331 11208 11233 "coalesce.ml" 331 11208 11237
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 331 11208 11225 "coalesce.ml" 331 11208 11238
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 331 11208 11225 "coalesce.ml" 331 11208 11247
+type(
+  Expr.T.expr
+)
+ident(
+  def index "coalesce.ml" 332 11258 11270 "coalesce.ml" 374 13270 13285
+)
+"coalesce.ml" 331 11208 11249 "coalesce.ml" 331 11208 11253
+type(
+  Expr.T.expr list
+)
+ident(
+  def args "coalesce.ml" 332 11258 11270 "coalesce.ml" 374 13270 13285
+)
+"coalesce.ml" 331 11208 11218 "coalesce.ml" 331 11208 11254
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 332 11258 11274 "coalesce.ml" 332 11258 11277
+type(
+  Expr.T.hyp
+)
+ident(
+  def hyp "coalesce.ml" 333 11304 11316 "coalesce.ml" 374 13270 13285
+)
+"coalesce.ml" 332 11258 11280 "coalesce.ml" 332 11258 11295
+type(
+  Expr.T.ctx -> int -> Expr.T.hyp
+)
+ident(
+  int_ref Expr.T.get_val_from_id "expr.mli" 332 8512 8514 "expr.mli" 332 8512 8563
+)
+"coalesce.ml" 332 11258 11296 "coalesce.ml" 332 11258 11298
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "coalesce.ml" 307 10290 10311 "coalesce.ml" 307 10290 10313
+)
+"coalesce.ml" 332 11258 11299 "coalesce.ml" 332 11258 11300
+type(
+  int
+)
+ident(
+  int_ref n "coalesce.ml" 331 11208 11236 "coalesce.ml" 331 11208 11237
+)
+"coalesce.ml" 332 11258 11280 "coalesce.ml" 332 11258 11300
+type(
+  Expr.T.hyp
+)
+"coalesce.ml" 333 11304 11328 "coalesce.ml" 333 11304 11331
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref hyp "coalesce.ml" 332 11258 11274 "coalesce.ml" 332 11258 11277
+)
+"coalesce.ml" 333 11304 11328 "coalesce.ml" 333 11304 11336
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 335 11383 11420 "coalesce.ml" 335 11383 11421
+type(
+  Expr.T.expr
+)
+type(
+  Util.hint
+)
+"coalesce.ml" 335 11383 11411 "coalesce.ml" 335 11383 11421
+type(
+  Expr.T.defn_
+)
+"coalesce.ml" 335 11383 11403 "coalesce.ml" 335 11383 11422
+type(
+  Expr.T.defn
+)
+"coalesce.ml" 335 11383 11403 "coalesce.ml" 335 11383 11428
+type(
+  Expr.T.defn
+)
+ident(
+  def op "coalesce.ml" 336 11442 11458 "coalesce.ml" 351 12124 12187
+)
+"coalesce.ml" 335 11383 11430 "coalesce.ml" 335 11383 11431
+type(
+  Expr.T.wheredef
+)
+"coalesce.ml" 335 11383 11433 "coalesce.ml" 335 11383 11434
+type(
+  Expr.T.visibility
+)
+"coalesce.ml" 335 11383 11436 "coalesce.ml" 335 11383 11437
+type(
+  Expr.T.export
+)
+"coalesce.ml" 335 11383 11397 "coalesce.ml" 335 11383 11438
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 336 11442 11462 "coalesce.ml" 336 11442 11477
+type(
+  bool
+)
+ident(
+  def not_to_coalesce "coalesce.ml" 347 11963 11979 "coalesce.ml" 351 12124 12187
+)
+"coalesce.ml" 337 11480 11504 "coalesce.ml" 337 11480 11505
+type(
+  int * Expr.T.expr -> bool
+)
+ident(
+  def f "coalesce.ml" 346 11905 11925 "coalesce.ml" 346 11905 11959
+)
+"coalesce.ml" 337 11480 11507 "coalesce.ml" 337 11480 11509
+type(
+  int
+)
+ident(
+  def id "coalesce.ml" 338 11518 11542 "coalesce.ml" 344 11843 11877
+)
+"coalesce.ml" 337 11480 11511 "coalesce.ml" 337 11480 11514
+type(
+  Expr.T.expr
+)
+ident(
+  def arg "coalesce.ml" 338 11518 11542 "coalesce.ml" 344 11843 11877
+)
+"coalesce.ml" 337 11480 11506 "coalesce.ml" 337 11480 11515
+type(
+  int * Expr.T.expr
+)
+"coalesce.ml" 338 11518 11546 "coalesce.ml" 338 11518 11549
+type(
+  Expr.T.expr
+)
+ident(
+  def arg "coalesce.ml" 339 11588 11612 "coalesce.ml" 344 11843 11877
+)
+"coalesce.ml" 338 11518 11552 "coalesce.ml" 338 11518 11577
+type(
+  Expr.T.ctx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Levels.compute_level "expr.mli" 712 18148 18152 "expr.mli" 713 18171 18198
+)
+"coalesce.ml" 338 11518 11578 "coalesce.ml" 338 11518 11580
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "coalesce.ml" 307 10290 10311 "coalesce.ml" 307 10290 10313
+)
+"coalesce.ml" 338 11518 11581 "coalesce.ml" 338 11518 11584
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref arg "coalesce.ml" 337 11480 11511 "coalesce.ml" 337 11480 11514
+)
+"coalesce.ml" 338 11518 11552 "coalesce.ml" 338 11518 11584
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 340 11617 11651 "coalesce.ml" 340 11617 11672
+type(
+  Expr.T.expr -> int
+)
+ident(
+  int_ref Expr.Levels.get_level "expr.mli" 696 17732 17736 "expr.mli" 697 17751 17785
+)
+"coalesce.ml" 340 11617 11673 "coalesce.ml" 340 11617 11676
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref arg "coalesce.ml" 338 11518 11546 "coalesce.ml" 338 11518 11549
+)
+"coalesce.ml" 340 11617 11650 "coalesce.ml" 340 11617 11677
+type(
+  int
+)
+"coalesce.ml" 340 11617 11678 "coalesce.ml" 340 11617 11679
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"coalesce.ml" 340 11617 11680 "coalesce.ml" 340 11617 11681
+type(
+  int
+)
+"coalesce.ml" 340 11617 11649 "coalesce.ml" 340 11617 11682
+type(
+  bool
+)
+"coalesce.ml" 341 11683 11715 "coalesce.ml" 341 11683 11717
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 227 9492 9492 "stdlib.mli" 227 9492 9542
+)
+"coalesce.ml" 341 11683 11718 "coalesce.ml" 341 11683 11751
+type(
+  Expr.T.defn_ Property.wrapped -> int -> bool
+)
+ident(
+  int_ref Expr.SubstOp.get_substitutive_arg "expr.mli" 758 19133 19137 "expr.mli" 759 19163 19205
+)
+"coalesce.ml" 342 11752 11792 "coalesce.ml" 342 11752 11794
+type(
+  Expr.T.defn_ Property.wrapped
+)
+ident(
+  int_ref op "coalesce.ml" 335 11383 11403 "coalesce.ml" 335 11383 11428
+)
+"coalesce.ml" 342 11752 11796 "coalesce.ml" 342 11752 11798
+type(
+  int
+)
+ident(
+  int_ref id "coalesce.ml" 337 11480 11507 "coalesce.ml" 337 11480 11509
+)
+"coalesce.ml" 342 11752 11799 "coalesce.ml" 342 11752 11800
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"coalesce.ml" 342 11752 11801 "coalesce.ml" 342 11752 11802
+type(
+  int
+)
+"coalesce.ml" 342 11752 11795 "coalesce.ml" 342 11752 11803
+type(
+  int
+)
+"coalesce.ml" 341 11683 11718 "coalesce.ml" 342 11752 11803
+type(
+  bool
+)
+"coalesce.ml" 339 11588 11615 "coalesce.ml" 342 11752 11804
+type(
+  bool
+)
+"coalesce.ml" 343 11810 11838 "coalesce.ml" 343 11810 11842
+type(
+  bool
+)
+"coalesce.ml" 344 11843 11872 "coalesce.ml" 344 11843 11877
+type(
+  bool
+)
+"coalesce.ml" 339 11588 11612 "coalesce.ml" 344 11843 11877
+type(
+  bool
+)
+"coalesce.ml" 338 11518 11542 "coalesce.ml" 344 11843 11877
+type(
+  bool
+)
+"coalesce.ml" 346 11905 11925 "coalesce.ml" 346 11905 11937
+type(
+  (int * Expr.T.expr -> bool) -> (int * Expr.T.expr) list -> bool
+)
+ident(
+  int_ref Ext.List.for_all "ext.mli" 26 1026 1028 "ext.mli" 26 1026 1073
+)
+"coalesce.ml" 346 11905 11938 "coalesce.ml" 346 11905 11939
+type(
+  int * Expr.T.expr -> bool
+)
+ident(
+  int_ref f "coalesce.ml" 337 11480 11504 "coalesce.ml" 337 11480 11505
+)
+"coalesce.ml" 346 11905 11941 "coalesce.ml" 346 11905 11953
+type(
+  Expr.T.expr list -> (int * Expr.T.expr) list
+)
+ident(
+  int_ref indexed_args "coalesce.ml" 53 1164 1168 "coalesce.ml" 53 1164 1180
+)
+"coalesce.ml" 346 11905 11954 "coalesce.ml" 346 11905 11958
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref args "coalesce.ml" 331 11208 11249 "coalesce.ml" 331 11208 11253
+)
+"coalesce.ml" 346 11905 11940 "coalesce.ml" 346 11905 11959
+type(
+  (int * Expr.T.expr) list
+)
+"coalesce.ml" 346 11905 11925 "coalesce.ml" 346 11905 11959
+type(
+  bool
+)
+"coalesce.ml" 337 11480 11500 "coalesce.ml" 346 11905 11959
+type(
+  bool
+)
+"coalesce.ml" 347 11963 11982 "coalesce.ml" 347 11963 11997
+type(
+  bool
+)
+ident(
+  int_ref not_to_coalesce "coalesce.ml" 336 11442 11462 "coalesce.ml" 336 11442 11477
+)
+"coalesce.ml" 348 12003 12023 "coalesce.ml" 348 12003 12028
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  ext_ref self-3
+)
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  int_ref super "coalesce.ml" 305 10234 10246 "coalesce.ml" 305 10234 10279
+)
+"coalesce.ml" 348 12003 12023 "coalesce.ml" 348 12003 12033
+type(
+  unit Expr.Visit.map_visible_hyp ->
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"coalesce.ml" 348 12003 12034 "coalesce.ml" 348 12003 12037
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "coalesce.ml" 307 10290 10306 "coalesce.ml" 307 10290 10322
+)
+"coalesce.ml" 348 12003 12038 "coalesce.ml" 348 12003 12039
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 307 10290 10323 "coalesce.ml" 307 10290 10324
+)
+"coalesce.ml" 348 12003 12023 "coalesce.ml" 348 12003 12039
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 350 12067 12094 "coalesce.ml" 350 12067 12111
+type(
+  Expr.T.ctx ->
+  Expr.T.defn_ Property.wrapped -> Expr.T.expr list -> Expr.T.expr
+)
+ident(
+  int_ref coalesce_operator "coalesce.ml" 61 1399 1403 "coalesce.ml" 61 1399 1420
+)
+"coalesce.ml" 350 12067 12112 "coalesce.ml" 350 12067 12114
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "coalesce.ml" 307 10290 10311 "coalesce.ml" 307 10290 10313
+)
+"coalesce.ml" 350 12067 12115 "coalesce.ml" 350 12067 12117
+type(
+  Expr.T.defn_ Property.wrapped
+)
+ident(
+  int_ref op "coalesce.ml" 335 11383 11403 "coalesce.ml" 335 11383 11428
+)
+"coalesce.ml" 350 12067 12118 "coalesce.ml" 350 12067 12122
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref args "coalesce.ml" 331 11208 11249 "coalesce.ml" 331 11208 11253
+)
+"coalesce.ml" 350 12067 12094 "coalesce.ml" 350 12067 12122
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 351 12124 12148 "coalesce.ml" 351 12124 12156
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"coalesce.ml" 351 12124 12158 "coalesce.ml" 351 12124 12162
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  ext_ref self-3
+)
+"coalesce.ml" 351 12124 12158 "coalesce.ml" 351 12124 12167
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"coalesce.ml" 351 12124 12168 "coalesce.ml" 351 12124 12171
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "coalesce.ml" 307 10290 10306 "coalesce.ml" 307 10290 10322
+)
+"coalesce.ml" 351 12124 12157 "coalesce.ml" 351 12124 12172
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+"coalesce.ml" 351 12124 12173 "coalesce.ml" 351 12124 12177
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref args "coalesce.ml" 331 11208 11249 "coalesce.ml" 331 11208 11253
+)
+"coalesce.ml" 351 12124 12148 "coalesce.ml" 351 12124 12177
+type(
+  Expr.T.expr list
+)
+"coalesce.ml" 350 12067 12087 "coalesce.ml" 351 12124 12178
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 351 12124 12179 "coalesce.ml" 351 12124 12181
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"coalesce.ml" 351 12124 12182 "coalesce.ml" 351 12124 12183
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 307 10290 10323 "coalesce.ml" 307 10290 10324
+)
+"coalesce.ml" 349 12040 12061 "coalesce.ml" 351 12124 12187
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 347 11963 11979 "coalesce.ml" 351 12124 12187
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 336 11442 11458 "coalesce.ml" 351 12124 12187
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 352 12188 12207 "coalesce.ml" 352 12188 12208
+type(
+  Util.hint
+)
+"coalesce.ml" 352 12188 12202 "coalesce.ml" 352 12188 12208
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 352 12188 12212 "coalesce.ml" 352 12188 12217
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  ext_ref self-3
+)
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  int_ref super "coalesce.ml" 305 10234 10246 "coalesce.ml" 305 10234 10279
+)
+"coalesce.ml" 352 12188 12212 "coalesce.ml" 352 12188 12222
+type(
+  unit Expr.Visit.map_visible_hyp ->
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"coalesce.ml" 352 12188 12223 "coalesce.ml" 352 12188 12226
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "coalesce.ml" 307 10290 10306 "coalesce.ml" 307 10290 10322
+)
+"coalesce.ml" 352 12188 12227 "coalesce.ml" 352 12188 12228
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 307 10290 10323 "coalesce.ml" 307 10290 10324
+)
+"coalesce.ml" 352 12188 12212 "coalesce.ml" 352 12188 12228
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 353 12229 12250 "coalesce.ml" 353 12229 12257
+type(
+  Util.hint
+)
+ident(
+  def op_name "coalesce.ml" 354 12274 12290 "coalesce.ml" 366 12829 12848
+)
+"coalesce.ml" 353 12229 12259 "coalesce.ml" 353 12229 12260
+type(
+  Expr.T.shape
+)
+"coalesce.ml" 353 12229 12262 "coalesce.ml" 353 12229 12266
+type(
+  Expr.T.kind
+)
+ident(
+  def kind "coalesce.ml" 354 12274 12290 "coalesce.ml" 366 12829 12848
+)
+"coalesce.ml" 353 12229 12268 "coalesce.ml" 353 12229 12269
+type(
+  Expr.T.hdom
+)
+"coalesce.ml" 353 12229 12243 "coalesce.ml" 353 12229 12270
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 355 12296 12316 "coalesce.ml" 355 12296 12328
+type(
+  Util.hint
+)
+ident(
+  def coalesced_op "coalesce.ml" 356 12342 12358 "coalesce.ml" 365 12779 12828
+)
+"coalesce.ml" 355 12296 12331 "coalesce.ml" 355 12296 12338
+type(
+  Util.hint
+)
+ident(
+  int_ref op_name "coalesce.ml" 353 12229 12250 "coalesce.ml" 353 12229 12257
+)
+"coalesce.ml" 356 12342 12364 "coalesce.ml" 356 12342 12368
+type(
+  Expr.T.kind
+)
+ident(
+  int_ref kind "coalesce.ml" 353 12229 12262 "coalesce.ml" 353 12229 12266
+)
+"coalesce.ml" 357 12374 12392 "coalesce.ml" 357 12374 12400
+type(
+  Expr.T.kind
+)
+type(
+  Expr.T.kind
+)
+"coalesce.ml" 359 12478 12502 "coalesce.ml" 359 12478 12504
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def op "coalesce.ml" 360 12516 12536 "coalesce.ml" 361 12581 12623
+)
+"coalesce.ml" 359 12478 12507 "coalesce.ml" 359 12478 12512
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref index "coalesce.ml" 331 11208 11225 "coalesce.ml" 331 11208 11247
+)
+"coalesce.ml" 360 12516 12540 "coalesce.ml" 360 12516 12545
+type(
+  Expr.T.expr list
+)
+ident(
+  def args_ "coalesce.ml" 361 12581 12601 "coalesce.ml" 361 12581 12623
+)
+"coalesce.ml" 360 12516 12548 "coalesce.ml" 360 12516 12556
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"coalesce.ml" 360 12516 12558 "coalesce.ml" 360 12516 12562
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  ext_ref self-3
+)
+"coalesce.ml" 360 12516 12558 "coalesce.ml" 360 12516 12567
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"coalesce.ml" 360 12516 12568 "coalesce.ml" 360 12516 12571
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "coalesce.ml" 307 10290 10306 "coalesce.ml" 307 10290 10322
+)
+"coalesce.ml" 360 12516 12557 "coalesce.ml" 360 12516 12572
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+"coalesce.ml" 360 12516 12573 "coalesce.ml" 360 12516 12577
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref args "coalesce.ml" 331 11208 11249 "coalesce.ml" 331 11208 11253
+)
+"coalesce.ml" 360 12516 12548 "coalesce.ml" 360 12516 12577
+type(
+  Expr.T.expr list
+)
+"coalesce.ml" 361 12581 12608 "coalesce.ml" 361 12581 12610
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref op "coalesce.ml" 359 12478 12502 "coalesce.ml" 359 12478 12504
+)
+"coalesce.ml" 361 12581 12612 "coalesce.ml" 361 12581 12617
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref args_ "coalesce.ml" 360 12516 12540 "coalesce.ml" 360 12516 12545
+)
+"coalesce.ml" 361 12581 12601 "coalesce.ml" 361 12581 12618
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 361 12581 12619 "coalesce.ml" 361 12581 12621
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"coalesce.ml" 361 12581 12622 "coalesce.ml" 361 12581 12623
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 307 10290 10323 "coalesce.ml" 307 10290 10324
+)
+"coalesce.ml" 361 12581 12601 "coalesce.ml" 361 12581 12623
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 360 12516 12536 "coalesce.ml" 361 12581 12623
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 359 12478 12498 "coalesce.ml" 361 12581 12623
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 362 12624 12642 "coalesce.ml" 362 12624 12643
+type(
+  Expr.T.kind
+)
+type(
+  Expr.T.kind
+)
+"coalesce.ml" 363 12647 12671 "coalesce.ml" 363 12647 12675
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def expr "coalesce.ml" 364 12705 12725 "coalesce.ml" 365 12779 12828
+)
+"coalesce.ml" 363 12647 12678 "coalesce.ml" 363 12647 12685
+type(
+  Expr.T.expr_ -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.noprops "property.mli" 92 3086 3086 "property.mli" 92 3086 3116
+)
+"coalesce.ml" 363 12647 12696 "coalesce.ml" 363 12647 12700
+type(
+  Builtin.builtin
+)
+"coalesce.ml" 363 12647 12686 "coalesce.ml" 363 12647 12701
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 363 12647 12678 "coalesce.ml" 363 12647 12701
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"coalesce.ml" 364 12705 12729 "coalesce.ml" 364 12705 12732
+type(
+  Expr.T.defn_ Property.wrapped
+)
+ident(
+  def op_ "coalesce.ml" 365 12779 12799 "coalesce.ml" 365 12779 12828
+)
+"coalesce.ml" 364 12705 12746 "coalesce.ml" 364 12705 12758
+type(
+  Util.hint
+)
+ident(
+  int_ref coalesced_op "coalesce.ml" 355 12296 12316 "coalesce.ml" 355 12296 12328
+)
+"coalesce.ml" 364 12705 12760 "coalesce.ml" 364 12705 12764
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref expr "coalesce.ml" 363 12647 12671 "coalesce.ml" 363 12647 12675
+)
+"coalesce.ml" 364 12705 12735 "coalesce.ml" 364 12705 12766
+type(
+  Expr.T.defn_
+)
+"coalesce.ml" 364 12705 12767 "coalesce.ml" 364 12705 12769
+type(
+  Expr.T.defn_ ->
+  Expr.T.expr_ Property.wrapped -> Expr.T.defn_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"coalesce.ml" 364 12705 12770 "coalesce.ml" 364 12705 12775
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref index "coalesce.ml" 331 11208 11225 "coalesce.ml" 331 11208 11247
+)
+"coalesce.ml" 364 12705 12735 "coalesce.ml" 364 12705 12775
+type(
+  Expr.T.defn_ Property.wrapped
+)
+"coalesce.ml" 365 12779 12799 "coalesce.ml" 365 12779 12816
+type(
+  Expr.T.ctx ->
+  Expr.T.defn_ Property.wrapped -> Expr.T.expr list -> Expr.T.expr
+)
+ident(
+  int_ref coalesce_operator "coalesce.ml" 61 1399 1403 "coalesce.ml" 61 1399 1420
+)
+"coalesce.ml" 365 12779 12817 "coalesce.ml" 365 12779 12819
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "coalesce.ml" 307 10290 10311 "coalesce.ml" 307 10290 10313
+)
+"coalesce.ml" 365 12779 12820 "coalesce.ml" 365 12779 12823
+type(
+  Expr.T.defn_ Property.wrapped
+)
+ident(
+  int_ref op_ "coalesce.ml" 364 12705 12729 "coalesce.ml" 364 12705 12732
+)
+"coalesce.ml" 365 12779 12824 "coalesce.ml" 365 12779 12828
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref args "coalesce.ml" 331 11208 11249 "coalesce.ml" 331 11208 11253
+)
+"coalesce.ml" 365 12779 12799 "coalesce.ml" 365 12779 12828
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 364 12705 12725 "coalesce.ml" 365 12779 12828
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 363 12647 12667 "coalesce.ml" 365 12779 12828
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 356 12342 12358 "coalesce.ml" 365 12779 12828
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 354 12274 12290 "coalesce.ml" 366 12829 12848
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 367 12849 12868 "coalesce.ml" 367 12849 12869
+type(
+  Expr.T.time
+)
+type(
+  Expr.T.visibility
+)
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 367 12849 12863 "coalesce.ml" 367 12849 12869
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 367 12849 12905 "coalesce.ml" 367 12849 12910
+type(
+  bool
+)
+"coalesce.ml" 367 12849 12898 "coalesce.ml" 367 12849 12910
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 368 12911 12947 "coalesce.ml" 368 12911 12948
+type(
+  Expr.T.shape
+)
+type(
+  Util.hint
+)
+"coalesce.ml" 368 12911 12937 "coalesce.ml" 368 12911 12948
+type(
+  Expr.T.defn_
+)
+"coalesce.ml" 368 12911 12931 "coalesce.ml" 368 12911 12949
+type(
+  Expr.T.defn
+)
+"coalesce.ml" 368 12911 12951 "coalesce.ml" 368 12911 12952
+type(
+  Expr.T.wheredef
+)
+"coalesce.ml" 368 12911 12954 "coalesce.ml" 368 12911 12955
+type(
+  Expr.T.visibility
+)
+"coalesce.ml" 368 12911 12957 "coalesce.ml" 368 12911 12958
+type(
+  Expr.T.export
+)
+"coalesce.ml" 368 12911 12925 "coalesce.ml" 368 12911 12959
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 369 12963 13014 "coalesce.ml" 369 12963 13019
+type(
+  bool
+)
+"coalesce.ml" 369 12963 13007 "coalesce.ml" 369 12963 13019
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 370 13020 13055 "coalesce.ml" 370 13020 13056
+type(
+  Expr.T.instance
+)
+type(
+  Util.hint
+)
+"coalesce.ml" 370 13020 13046 "coalesce.ml" 370 13020 13056
+type(
+  Expr.T.defn_
+)
+"coalesce.ml" 370 13020 13040 "coalesce.ml" 370 13020 13057
+type(
+  Expr.T.defn
+)
+"coalesce.ml" 370 13020 13059 "coalesce.ml" 370 13020 13060
+type(
+  Expr.T.wheredef
+)
+"coalesce.ml" 370 13020 13062 "coalesce.ml" 370 13020 13063
+type(
+  Expr.T.visibility
+)
+"coalesce.ml" 370 13020 13065 "coalesce.ml" 370 13020 13066
+type(
+  Expr.T.export
+)
+"coalesce.ml" 370 13020 13034 "coalesce.ml" 370 13020 13067
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 371 13071 13142 "coalesce.ml" 371 13071 13147
+type(
+  bool
+)
+"coalesce.ml" 371 13071 13135 "coalesce.ml" 371 13071 13147
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 372 13148 13182 "coalesce.ml" 372 13148 13183
+type(
+  (Util.hint * Expr.T.backend_args) list list
+)
+type(
+  Expr.T.expr
+)
+type(
+  Util.hint
+)
+"coalesce.ml" 372 13148 13174 "coalesce.ml" 372 13148 13183
+type(
+  Expr.T.defn_
+)
+"coalesce.ml" 372 13148 13168 "coalesce.ml" 372 13148 13184
+type(
+  Expr.T.defn
+)
+"coalesce.ml" 372 13148 13186 "coalesce.ml" 372 13148 13187
+type(
+  Expr.T.wheredef
+)
+"coalesce.ml" 372 13148 13189 "coalesce.ml" 372 13148 13190
+type(
+  Expr.T.visibility
+)
+"coalesce.ml" 372 13148 13192 "coalesce.ml" 372 13148 13193
+type(
+  Expr.T.export
+)
+"coalesce.ml" 372 13148 13162 "coalesce.ml" 372 13148 13194
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"coalesce.ml" 373 13198 13264 "coalesce.ml" 373 13198 13269
+type(
+  bool
+)
+"coalesce.ml" 373 13198 13257 "coalesce.ml" 373 13198 13269
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 333 11304 11316 "coalesce.ml" 374 13270 13285
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 332 11258 11270 "coalesce.ml" 374 13270 13285
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 375 13286 13296 "coalesce.ml" 375 13286 13297
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"coalesce.ml" 375 13286 13301 "coalesce.ml" 375 13286 13306
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  ext_ref self-3
+)
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  int_ref super "coalesce.ml" 305 10234 10246 "coalesce.ml" 305 10234 10279
+)
+"coalesce.ml" 375 13286 13301 "coalesce.ml" 375 13286 13311
+type(
+  unit Expr.Visit.map_visible_hyp ->
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"coalesce.ml" 375 13286 13312 "coalesce.ml" 375 13286 13315
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "coalesce.ml" 307 10290 10306 "coalesce.ml" 307 10290 10322
+)
+"coalesce.ml" 375 13286 13316 "coalesce.ml" 375 13286 13317
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 307 10290 10323 "coalesce.ml" 307 10290 10324
+)
+"coalesce.ml" 375 13286 13301 "coalesce.ml" 375 13286 13317
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 308 10327 10335 "coalesce.ml" 375 13286 13317
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 304 10191 10220 "coalesce.ml" 376 13318 13321
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+"coalesce.ml" 379 13324 13328 "coalesce.ml" 379 13324 13342
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  def coalesce_modal "coalesce.ml" 382 13412 13449 "coalesce.ml" 0 0 -1
+)
+"coalesce.ml" 379 13324 13343 "coalesce.ml" 379 13324 13345
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def cx "coalesce.ml" 379 13324 13346 "coalesce.ml" 382 13412 13449
+)
+"coalesce.ml" 379 13324 13346 "coalesce.ml" 379 13324 13347
+type(
+  Expr.T.expr
+)
+ident(
+  def e "coalesce.ml" 380 13350 13354 "coalesce.ml" 382 13412 13449
+)
+"coalesce.ml" 380 13350 13358 "coalesce.ml" 380 13350 13359
+type(
+  Expr.T.expr
+)
+ident(
+  def e "coalesce.ml" 381 13386 13390 "coalesce.ml" 382 13412 13449
+)
+"coalesce.ml" 380 13350 13362 "coalesce.ml" 380 13350 13377
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref rename_with_loc "coalesce.ml" 127 3349 3353 "coalesce.ml" 127 3349 3368
+)
+"coalesce.ml" 380 13350 13378 "coalesce.ml" 380 13350 13380
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "coalesce.ml" 379 13324 13343 "coalesce.ml" 379 13324 13345
+)
+"coalesce.ml" 380 13350 13381 "coalesce.ml" 380 13350 13382
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 379 13324 13346 "coalesce.ml" 379 13324 13347
+)
+"coalesce.ml" 380 13350 13362 "coalesce.ml" 380 13350 13382
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 381 13386 13394 "coalesce.ml" 381 13386 13397
+type(
+  unit * Expr.T.hyp Deque.dq
+)
+ident(
+  def scx "coalesce.ml" 382 13412 13416 "coalesce.ml" 382 13412 13449
+)
+"coalesce.ml" 381 13386 13401 "coalesce.ml" 381 13386 13403
+type(
+  unit
+)
+"coalesce.ml" 381 13386 13405 "coalesce.ml" 381 13386 13407
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "coalesce.ml" 379 13324 13343 "coalesce.ml" 379 13324 13345
+)
+"coalesce.ml" 381 13386 13400 "coalesce.ml" 381 13386 13408
+type(
+  unit * Expr.T.hyp Deque.dq
+)
+"coalesce.ml" 382 13412 13416 "coalesce.ml" 382 13412 13438
+type(
+  unit Expr.Visit.map_visible_hyp
+)
+ident(
+  int_ref coalesce_modal_visitor "coalesce.ml" 304 10191 10195 "coalesce.ml" 304 10191 10217
+)
+"coalesce.ml" 382 13412 13416 "coalesce.ml" 382 13412 13443
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"coalesce.ml" 382 13412 13444 "coalesce.ml" 382 13412 13447
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "coalesce.ml" 381 13386 13394 "coalesce.ml" 381 13386 13397
+)
+"coalesce.ml" 382 13412 13448 "coalesce.ml" 382 13412 13449
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "coalesce.ml" 380 13350 13358 "coalesce.ml" 380 13350 13359
+)
+"coalesce.ml" 382 13412 13416 "coalesce.ml" 382 13412 13449
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 381 13386 13390 "coalesce.ml" 382 13412 13449
+type(
+  Expr.T.expr
+)
+"coalesce.ml" 380 13350 13354 "coalesce.ml" 382 13412 13449
+type(
+  Expr.T.expr
+)

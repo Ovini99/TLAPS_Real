@@ -1,0 +1,130 @@
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:0
+@!!END
+
+File "/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library/TLAPS.tla", line 1, character 1 to line 363, character 77:
+[INFO]: All 0 obligation proved.
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:22:1:22:3
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:22:4:22:17
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:22:19:22:26
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:3
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:22:1:22:3
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 5
+@!!already:true
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:22:4:22:17
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:22:19:22:26
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+File "./temp.tla", line 1, character 1 to line 24, character 36:
+[INFO]: All 3 obligations proved.
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:0
+@!!END
+
+File "/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library/TLAPS.tla", line 1, character 1 to line 363, character 77:
+[INFO]: All 0 obligation proved.
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:12:1:12:3
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:12:4:12:17
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:12:19:12:26
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:3
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:12:1:12:3
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 5
+@!!already:true
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:12:4:12:17
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:12:19:12:26
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+File "./temp.tla", line 1, character 1 to line 14, character 36:
+[INFO]: All 3 obligations proved.

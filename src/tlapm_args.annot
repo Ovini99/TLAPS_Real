@@ -1,0 +1,4383 @@
+"tlapm_args.ml" 9 122 126 "tlapm_args.ml" 9 122 137
+type(
+  bool ref
+)
+ident(
+  def show_config "tlapm_args.ml" 10 150 150 "tlapm_args.ml" 0 0 -1
+)
+"tlapm_args.ml" 9 122 140 "tlapm_args.ml" 9 122 143
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"tlapm_args.ml" 9 122 144 "tlapm_args.ml" 9 122 149
+type(
+  bool
+)
+"tlapm_args.ml" 9 122 140 "tlapm_args.ml" 9 122 149
+type(
+  bool ref
+)
+"tlapm_args.ml" 10 150 154 "tlapm_args.ml" 10 150 166
+type(
+  unit -> 'a
+)
+ident(
+  def show_version "tlapm_args.ml" 16 285 285 "tlapm_args.ml" 0 0 -1
+)
+"tlapm_args.ml" 10 150 167 "tlapm_args.ml" 10 150 169
+type(
+  unit
+)
+"tlapm_args.ml" 11 172 174 "tlapm_args.ml" 11 172 187
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_endline "stdlib.mli" 866 31615 31615 "stdlib.mli" 866 31615 31649
+)
+"tlapm_args.ml" 11 172 189 "tlapm_args.ml" 11 172 199
+type(
+  unit -> string
+)
+ident(
+  int_ref Params.rawversion "params.mli" 56 1085 1085 "params.mli" 56 1085 1115
+)
+"tlapm_args.ml" 11 172 200 "tlapm_args.ml" 11 172 202
+type(
+  unit
+)
+"tlapm_args.ml" 11 172 188 "tlapm_args.ml" 11 172 203
+type(
+  string
+)
+"tlapm_args.ml" 11 172 174 "tlapm_args.ml" 11 172 203
+type(
+  unit
+)
+"tlapm_args.ml" 12 206 208 "tlapm_args.ml" 12 206 221
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_endline "stdlib.mli" 866 31615 31615 "stdlib.mli" 866 31615 31649
+)
+"tlapm_args.ml" 12 206 222 "tlapm_args.ml" 12 206 272
+type(
+  string
+)
+"tlapm_args.ml" 12 206 208 "tlapm_args.ml" 12 206 272
+type(
+  unit
+)
+"tlapm_args.ml" 13 274 276 "tlapm_args.ml" 13 274 280
+type(
+  int -> 'a
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1344 51645 51645 "stdlib.mli" 1344 51645 51665
+)
+"tlapm_args.ml" 13 274 281 "tlapm_args.ml" 13 274 282
+type(
+  int
+)
+"tlapm_args.ml" 13 274 276 "tlapm_args.ml" 13 274 282
+type(
+  'a
+)
+"tlapm_args.ml" 12 206 208 "tlapm_args.ml" 13 274 282
+type(
+  'a
+)
+"tlapm_args.ml" 11 172 174 "tlapm_args.ml" 13 274 282
+type(
+  'a
+)
+"tlapm_args.ml" 16 285 289 "tlapm_args.ml" 16 285 304
+type(
+  string -> unit
+)
+ident(
+  def set_debug_flags "tlapm_args.ml" 26 510 510 "tlapm_args.ml" 0 0 -1
+)
+"tlapm_args.ml" 16 285 305 "tlapm_args.ml" 16 285 309
+type(
+  string
+)
+ident(
+  def flgs "tlapm_args.ml" 17 312 314 "tlapm_args.ml" 23 489 507
+)
+"tlapm_args.ml" 17 312 318 "tlapm_args.ml" 17 312 322
+type(
+  string list
+)
+ident(
+  def flgs "tlapm_args.ml" 18 347 349 "tlapm_args.ml" 23 489 507
+)
+"tlapm_args.ml" 17 312 325 "tlapm_args.ml" 17 312 334
+type(
+  string -> char -> string list
+)
+ident(
+  int_ref Ext.split "ext.mli" 82 3316 3316 "ext.mli" 82 3316 3357
+)
+"tlapm_args.ml" 17 312 335 "tlapm_args.ml" 17 312 339
+type(
+  string
+)
+ident(
+  int_ref flgs "tlapm_args.ml" 16 285 305 "tlapm_args.ml" 16 285 309
+)
+"tlapm_args.ml" 17 312 340 "tlapm_args.ml" 17 312 343
+type(
+  char
+)
+"tlapm_args.ml" 17 312 325 "tlapm_args.ml" 17 312 343
+type(
+  string list
+)
+"tlapm_args.ml" 18 347 353 "tlapm_args.ml" 18 347 354
+type(
+  string -> unit
+)
+ident(
+  def f "tlapm_args.ml" 23 489 491 "tlapm_args.ml" 23 489 507
+)
+"tlapm_args.ml" 18 347 355 "tlapm_args.ml" 18 347 358
+type(
+  string
+)
+ident(
+  def flg "tlapm_args.ml" 19 361 365 "tlapm_args.ml" 21 454 483
+)
+"tlapm_args.ml" 19 361 371 "tlapm_args.ml" 19 361 374
+type(
+  string
+)
+ident(
+  int_ref flg "tlapm_args.ml" 18 347 355 "tlapm_args.ml" 18 347 358
+)
+"tlapm_args.ml" 19 361 376 "tlapm_args.ml" 19 361 377
+type(
+  int
+)
+"tlapm_args.ml" 19 361 371 "tlapm_args.ml" 19 361 378
+type(
+  char
+)
+"tlapm_args.ml" 20 384 390 "tlapm_args.ml" 20 384 393
+type(
+  char
+)
+type(
+  char
+)
+"tlapm_args.ml" 20 384 397 "tlapm_args.ml" 20 384 410
+type(
+  string -> unit
+)
+ident(
+  int_ref Params.rm_debug_flag "params.mli" 79 1574 1574 "params.mli" 79 1574 1607
+)
+"tlapm_args.ml" 20 384 412 "tlapm_args.ml" 20 384 422
+type(
+  string -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.String.sub "string.mli" 190 6894 6894 "string.mli" 190 6894 6934
+)
+"tlapm_args.ml" 20 384 423 "tlapm_args.ml" 20 384 426
+type(
+  string
+)
+ident(
+  int_ref flg "tlapm_args.ml" 18 347 355 "tlapm_args.ml" 18 347 358
+)
+"tlapm_args.ml" 20 384 427 "tlapm_args.ml" 20 384 428
+type(
+  int
+)
+"tlapm_args.ml" 20 384 430 "tlapm_args.ml" 20 384 443
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 118 4569 4569 "string.mli" 118 4569 4619
+)
+"tlapm_args.ml" 20 384 444 "tlapm_args.ml" 20 384 447
+type(
+  string
+)
+ident(
+  int_ref flg "tlapm_args.ml" 18 347 355 "tlapm_args.ml" 18 347 358
+)
+"tlapm_args.ml" 20 384 430 "tlapm_args.ml" 20 384 447
+type(
+  int
+)
+"tlapm_args.ml" 20 384 448 "tlapm_args.ml" 20 384 449
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"tlapm_args.ml" 20 384 450 "tlapm_args.ml" 20 384 451
+type(
+  int
+)
+"tlapm_args.ml" 20 384 429 "tlapm_args.ml" 20 384 452
+type(
+  int
+)
+"tlapm_args.ml" 20 384 411 "tlapm_args.ml" 20 384 453
+type(
+  string
+)
+"tlapm_args.ml" 20 384 397 "tlapm_args.ml" 20 384 453
+type(
+  unit
+)
+"tlapm_args.ml" 21 454 460 "tlapm_args.ml" 21 454 461
+type(
+  char
+)
+type(
+  char
+)
+"tlapm_args.ml" 21 454 465 "tlapm_args.ml" 21 454 479
+type(
+  string -> unit
+)
+ident(
+  int_ref Params.add_debug_flag "params.mli" 80 1608 1608 "params.mli" 80 1608 1642
+)
+"tlapm_args.ml" 21 454 480 "tlapm_args.ml" 21 454 483
+type(
+  string
+)
+ident(
+  int_ref flg "tlapm_args.ml" 18 347 355 "tlapm_args.ml" 18 347 358
+)
+"tlapm_args.ml" 21 454 465 "tlapm_args.ml" 21 454 483
+type(
+  unit
+)
+"tlapm_args.ml" 19 361 365 "tlapm_args.ml" 21 454 483
+type(
+  unit
+)
+"tlapm_args.ml" 23 489 491 "tlapm_args.ml" 23 489 500
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  int_ref Ext.List.iter "ext.mli" 16 424 426 "ext.mli" 16 424 468
+)
+"tlapm_args.ml" 23 489 501 "tlapm_args.ml" 23 489 502
+type(
+  string -> unit
+)
+ident(
+  int_ref f "tlapm_args.ml" 18 347 353 "tlapm_args.ml" 18 347 354
+)
+"tlapm_args.ml" 23 489 503 "tlapm_args.ml" 23 489 507
+type(
+  string list
+)
+ident(
+  int_ref flgs "tlapm_args.ml" 17 312 318 "tlapm_args.ml" 17 312 322
+)
+"tlapm_args.ml" 23 489 491 "tlapm_args.ml" 23 489 507
+type(
+  unit
+)
+"tlapm_args.ml" 18 347 349 "tlapm_args.ml" 23 489 507
+type(
+  unit
+)
+"tlapm_args.ml" 17 312 314 "tlapm_args.ml" 23 489 507
+type(
+  unit
+)
+"tlapm_args.ml" 26 510 514 "tlapm_args.ml" 26 510 529
+type(
+  int -> unit
+)
+ident(
+  def set_max_threads "tlapm_args.ml" 30 629 629 "tlapm_args.ml" 0 0 -1
+)
+"tlapm_args.ml" 26 510 530 "tlapm_args.ml" 26 510 531
+type(
+  int
+)
+ident(
+  def n "tlapm_args.ml" 27 534 536 "tlapm_args.ml" 28 609 627
+)
+"tlapm_args.ml" 27 534 539 "tlapm_args.ml" 27 534 540
+type(
+  int
+)
+ident(
+  int_ref n "tlapm_args.ml" 26 510 530 "tlapm_args.ml" 26 510 531
+)
+"tlapm_args.ml" 27 534 541 "tlapm_args.ml" 27 534 542
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 135 5721 5721 "stdlib.mli" 135 5721 5768
+)
+"tlapm_args.ml" 27 534 543 "tlapm_args.ml" 27 534 544
+type(
+  int
+)
+"tlapm_args.ml" 27 534 539 "tlapm_args.ml" 27 534 544
+type(
+  bool
+)
+"tlapm_args.ml" 27 534 550 "tlapm_args.ml" 27 534 555
+type(
+  exn -> unit
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"tlapm_args.ml" 27 534 565 "tlapm_args.ml" 27 534 605
+type(
+  string
+)
+"tlapm_args.ml" 27 534 556 "tlapm_args.ml" 27 534 606
+type(
+  exn
+)
+"tlapm_args.ml" 27 534 550 "tlapm_args.ml" 27 534 606
+type(
+  unit
+)
+"tlapm_args.ml" 27 534 536 "tlapm_args.ml" 27 534 606
+type(
+  unit
+)
+"tlapm_args.ml" 28 609 611 "tlapm_args.ml" 28 609 622
+type(
+  int ref
+)
+ident(
+  int_ref Params.max_threads "params.mli" 48 926 926 "params.mli" 48 926 950
+)
+"tlapm_args.ml" 28 609 623 "tlapm_args.ml" 28 609 625
+type(
+  int ref -> int -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"tlapm_args.ml" 28 609 626 "tlapm_args.ml" 28 609 627
+type(
+  int
+)
+ident(
+  int_ref n "tlapm_args.ml" 26 510 530 "tlapm_args.ml" 26 510 531
+)
+"tlapm_args.ml" 28 609 611 "tlapm_args.ml" 28 609 627
+type(
+  unit
+)
+"tlapm_args.ml" 27 534 536 "tlapm_args.ml" 28 609 627
+type(
+  unit
+)
+"tlapm_args.ml" 30 629 633 "tlapm_args.ml" 30 629 649
+type(
+  int -> unit
+)
+ident(
+  def set_target_start "tlapm_args.ml" 34 687 687 "tlapm_args.ml" 0 0 -1
+)
+"tlapm_args.ml" 30 629 650 "tlapm_args.ml" 30 629 651
+type(
+  int
+)
+ident(
+  def s "tlapm_args.ml" 31 654 656 "tlapm_args.ml" 32 673 685
+)
+"tlapm_args.ml" 31 654 656 "tlapm_args.ml" 31 654 663
+type(
+  bool ref
+)
+ident(
+  int_ref Params.toolbox "params.mli" 6 83 83 "params.mli" 6 83 104
+)
+"tlapm_args.ml" 31 654 664 "tlapm_args.ml" 31 654 666
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"tlapm_args.ml" 31 654 667 "tlapm_args.ml" 31 654 671
+type(
+  bool
+)
+"tlapm_args.ml" 31 654 656 "tlapm_args.ml" 31 654 671
+type(
+  unit
+)
+"tlapm_args.ml" 32 673 675 "tlapm_args.ml" 32 673 680
+type(
+  int ref
+)
+ident(
+  int_ref Params.tb_sl "params.mli" 81 1643 1643 "params.mli" 81 1643 1661
+)
+"tlapm_args.ml" 32 673 681 "tlapm_args.ml" 32 673 683
+type(
+  int ref -> int -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"tlapm_args.ml" 32 673 684 "tlapm_args.ml" 32 673 685
+type(
+  int
+)
+ident(
+  int_ref s "tlapm_args.ml" 30 629 650 "tlapm_args.ml" 30 629 651
+)
+"tlapm_args.ml" 32 673 675 "tlapm_args.ml" 32 673 685
+type(
+  unit
+)
+"tlapm_args.ml" 31 654 656 "tlapm_args.ml" 32 673 685
+type(
+  unit
+)
+"tlapm_args.ml" 34 687 691 "tlapm_args.ml" 34 687 705
+type(
+  int -> unit
+)
+ident(
+  def set_target_end "tlapm_args.ml" 37 751 751 "tlapm_args.ml" 0 0 -1
+)
+"tlapm_args.ml" 34 687 706 "tlapm_args.ml" 34 687 707
+type(
+  int
+)
+ident(
+  def e "tlapm_args.ml" 35 710 712 "tlapm_args.ml" 35 710 749
+)
+"tlapm_args.ml" 35 710 712 "tlapm_args.ml" 35 710 717
+type(
+  int ref
+)
+ident(
+  int_ref Params.tb_el "params.mli" 82 1662 1662 "params.mli" 82 1662 1680
+)
+"tlapm_args.ml" 35 710 718 "tlapm_args.ml" 35 710 720
+type(
+  int ref -> int -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"tlapm_args.ml" 35 710 724 "tlapm_args.ml" 35 710 725
+type(
+  int
+)
+ident(
+  int_ref e "tlapm_args.ml" 34 687 706 "tlapm_args.ml" 34 687 707
+)
+"tlapm_args.ml" 35 710 726 "tlapm_args.ml" 35 710 727
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"tlapm_args.ml" 35 710 728 "tlapm_args.ml" 35 710 729
+type(
+  int
+)
+"tlapm_args.ml" 35 710 724 "tlapm_args.ml" 35 710 729
+type(
+  bool
+)
+"tlapm_args.ml" 35 710 735 "tlapm_args.ml" 35 710 742
+type(
+  int
+)
+ident(
+  int_ref Stdlib.max_int "stdlib.mli" 389 15137 15137 "stdlib.mli" 389 15137 15154
+)
+"tlapm_args.ml" 35 710 748 "tlapm_args.ml" 35 710 749
+type(
+  int
+)
+ident(
+  int_ref e "tlapm_args.ml" 34 687 706 "tlapm_args.ml" 34 687 707
+)
+"tlapm_args.ml" 35 710 721 "tlapm_args.ml" 35 710 749
+type(
+  int
+)
+"tlapm_args.ml" 35 710 712 "tlapm_args.ml" 35 710 749
+type(
+  unit
+)
+"tlapm_args.ml" 37 751 755 "tlapm_args.ml" 37 751 770
+type(
+  int -> unit
+)
+ident(
+  def set_target_line "tlapm_args.ml" 47 932 932 "tlapm_args.ml" 0 0 -1
+)
+"tlapm_args.ml" 37 751 771 "tlapm_args.ml" 37 751 772
+type(
+  int
+)
+ident(
+  def s "tlapm_args.ml" 38 775 779 "tlapm_args.ml" 45 923 930
+)
+"tlapm_args.ml" 38 775 779 "tlapm_args.ml" 38 775 786
+type(
+  bool ref
+)
+ident(
+  int_ref Params.toolbox "params.mli" 6 83 83 "params.mli" 6 83 104
+)
+"tlapm_args.ml" 38 775 787 "tlapm_args.ml" 38 775 789
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"tlapm_args.ml" 38 775 790 "tlapm_args.ml" 38 775 794
+type(
+  bool
+)
+"tlapm_args.ml" 38 775 779 "tlapm_args.ml" 38 775 794
+type(
+  unit
+)
+"tlapm_args.ml" 39 796 803 "tlapm_args.ml" 39 796 804
+type(
+  int
+)
+ident(
+  int_ref s "tlapm_args.ml" 37 751 771 "tlapm_args.ml" 37 751 772
+)
+"tlapm_args.ml" 39 796 805 "tlapm_args.ml" 39 796 806
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"tlapm_args.ml" 39 796 807 "tlapm_args.ml" 39 796 808
+type(
+  int
+)
+"tlapm_args.ml" 39 796 803 "tlapm_args.ml" 39 796 808
+type(
+  bool
+)
+"tlapm_args.ml" 40 820 828 "tlapm_args.ml" 40 820 833
+type(
+  int ref
+)
+ident(
+  int_ref Params.tb_sl "params.mli" 81 1643 1643 "params.mli" 81 1643 1661
+)
+"tlapm_args.ml" 40 820 834 "tlapm_args.ml" 40 820 836
+type(
+  int ref -> int -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"tlapm_args.ml" 40 820 837 "tlapm_args.ml" 40 820 838
+type(
+  int
+)
+"tlapm_args.ml" 40 820 828 "tlapm_args.ml" 40 820 838
+type(
+  unit
+)
+"tlapm_args.ml" 41 840 848 "tlapm_args.ml" 41 840 853
+type(
+  int ref
+)
+ident(
+  int_ref Params.tb_el "params.mli" 82 1662 1662 "params.mli" 82 1662 1680
+)
+"tlapm_args.ml" 41 840 854 "tlapm_args.ml" 41 840 856
+type(
+  int ref -> int -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"tlapm_args.ml" 41 840 857 "tlapm_args.ml" 41 840 864
+type(
+  int
+)
+ident(
+  int_ref Stdlib.max_int "stdlib.mli" 389 15137 15137 "stdlib.mli" 389 15137 15154
+)
+"tlapm_args.ml" 41 840 848 "tlapm_args.ml" 41 840 864
+type(
+  unit
+)
+"tlapm_args.ml" 39 796 814 "tlapm_args.ml" 42 865 872
+type(
+  unit
+)
+"tlapm_args.ml" 43 884 892 "tlapm_args.ml" 43 884 897
+type(
+  int ref
+)
+ident(
+  int_ref Params.tb_sl "params.mli" 81 1643 1643 "params.mli" 81 1643 1661
+)
+"tlapm_args.ml" 43 884 898 "tlapm_args.ml" 43 884 900
+type(
+  int ref -> int -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"tlapm_args.ml" 43 884 901 "tlapm_args.ml" 43 884 902
+type(
+  int
+)
+ident(
+  int_ref s "tlapm_args.ml" 37 751 771 "tlapm_args.ml" 37 751 772
+)
+"tlapm_args.ml" 43 884 892 "tlapm_args.ml" 43 884 902
+type(
+  unit
+)
+"tlapm_args.ml" 44 904 912 "tlapm_args.ml" 44 904 917
+type(
+  int ref
+)
+ident(
+  int_ref Params.tb_el "params.mli" 82 1662 1662 "params.mli" 82 1662 1680
+)
+"tlapm_args.ml" 44 904 918 "tlapm_args.ml" 44 904 920
+type(
+  int ref -> int -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"tlapm_args.ml" 44 904 921 "tlapm_args.ml" 44 904 922
+type(
+  int
+)
+ident(
+  int_ref s "tlapm_args.ml" 37 751 771 "tlapm_args.ml" 37 751 772
+)
+"tlapm_args.ml" 44 904 912 "tlapm_args.ml" 44 904 922
+type(
+  unit
+)
+"tlapm_args.ml" 42 865 878 "tlapm_args.ml" 45 923 930
+type(
+  unit
+)
+"tlapm_args.ml" 39 796 800 "tlapm_args.ml" 45 923 930
+type(
+  unit
+)
+"tlapm_args.ml" 38 775 779 "tlapm_args.ml" 45 923 930
+type(
+  unit
+)
+"tlapm_args.ml" 47 932 936 "tlapm_args.ml" 47 932 954
+type(
+  string -> unit
+)
+ident(
+  def set_default_method "tlapm_args.ml" 53 1087 1087 "tlapm_args.ml" 0 0 -1
+)
+"tlapm_args.ml" 47 932 955 "tlapm_args.ml" 47 932 959
+type(
+  string
+)
+ident(
+  def meth "tlapm_args.ml" 48 962 964 "tlapm_args.ml" 49 992 1050
+)
+"tlapm_args.ml" 48 962 968 "tlapm_args.ml" 48 962 986
+type(
+  string -> unit
+)
+ident(
+  int_ref Params.set_default_method "params.mli" 84 1714 1714 "params.mli" 84 1714 1752
+)
+"tlapm_args.ml" 48 962 987 "tlapm_args.ml" 48 962 991
+type(
+  string
+)
+ident(
+  int_ref meth "tlapm_args.ml" 47 932 955 "tlapm_args.ml" 47 932 959
+)
+"tlapm_args.ml" 48 962 968 "tlapm_args.ml" 48 962 991
+type(
+  unit
+)
+"tlapm_args.ml" 49 992 1007 "tlapm_args.ml" 49 992 1010
+type(
+  string
+)
+ident(
+  def msg "tlapm_args.ml" 49 992 1014 "tlapm_args.ml" 49 992 1050
+)
+"tlapm_args.ml" 49 992 999 "tlapm_args.ml" 49 992 1010
+type(
+  exn
+)
+"tlapm_args.ml" 49 992 1014 "tlapm_args.ml" 49 992 1019
+type(
+  exn -> unit
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"tlapm_args.ml" 49 992 1030 "tlapm_args.ml" 49 992 1042
+type(
+  string
+)
+"tlapm_args.ml" 49 992 1043 "tlapm_args.ml" 49 992 1044
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"tlapm_args.ml" 49 992 1045 "tlapm_args.ml" 49 992 1048
+type(
+  string
+)
+ident(
+  int_ref msg "tlapm_args.ml" 49 992 1007 "tlapm_args.ml" 49 992 1010
+)
+"tlapm_args.ml" 49 992 1029 "tlapm_args.ml" 49 992 1049
+type(
+  string
+)
+"tlapm_args.ml" 49 992 1020 "tlapm_args.ml" 49 992 1050
+type(
+  exn
+)
+"tlapm_args.ml" 49 992 1014 "tlapm_args.ml" 49 992 1050
+type(
+  unit
+)
+"tlapm_args.ml" 48 962 964 "tlapm_args.ml" 49 992 1050
+type(
+  unit
+)
+"tlapm_args.ml" 53 1087 1091 "tlapm_args.ml" 53 1087 1101
+type(
+  string list ->
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  string list ref -> (string -> Arg.usage_msg, unit, string) format -> unit
+)
+ident(
+  def parse_args "tlapm_args.ml" 62 1368 1368 "tlapm_args.ml" 0 0 -1
+)
+"tlapm_args.ml" 53 1087 1102 "tlapm_args.ml" 53 1087 1106
+type(
+  string list
+)
+ident(
+  def args "tlapm_args.ml" 53 1087 1107 "tlapm_args.ml" 60 1356 1366
+)
+"tlapm_args.ml" 53 1087 1107 "tlapm_args.ml" 53 1087 1111
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  def opts "tlapm_args.ml" 53 1087 1112 "tlapm_args.ml" 60 1356 1366
+)
+"tlapm_args.ml" 53 1087 1112 "tlapm_args.ml" 53 1087 1116
+type(
+  string list ref
+)
+ident(
+  def mods "tlapm_args.ml" 53 1087 1117 "tlapm_args.ml" 60 1356 1366
+)
+"tlapm_args.ml" 53 1087 1117 "tlapm_args.ml" 53 1087 1126
+type(
+  (string -> Arg.usage_msg, unit, string) format
+)
+ident(
+  def usage_fmt "tlapm_args.ml" 54 1129 1131 "tlapm_args.ml" 60 1356 1366
+)
+"tlapm_args.ml" 55 1135 1139 "tlapm_args.ml" 55 1135 1153
+type(
+  ?current:int ref ->
+  string array ->
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  int_ref Stdlib.Arg.parse_argv "arg.mli" 149 7312 7312 "arg.mli" 150 7366 7424
+)
+"tlapm_args.ml" 55 1135 1155 "tlapm_args.ml" 55 1135 1168
+type(
+  string list -> string array
+)
+ident(
+  int_ref Stdlib.Array.of_list "array.mli" 153 6321 6321 "array.mli" 153 6321 6354
+)
+"tlapm_args.ml" 55 1135 1169 "tlapm_args.ml" 55 1135 1173
+type(
+  string list
+)
+ident(
+  int_ref args "tlapm_args.ml" 53 1087 1102 "tlapm_args.ml" 53 1087 1106
+)
+"tlapm_args.ml" 55 1135 1154 "tlapm_args.ml" 55 1135 1174
+type(
+  string array
+)
+"tlapm_args.ml" 55 1135 1175 "tlapm_args.ml" 55 1135 1179
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref opts "tlapm_args.ml" 53 1087 1107 "tlapm_args.ml" 53 1087 1111
+)
+"tlapm_args.ml" 55 1135 1185 "tlapm_args.ml" 55 1135 1190
+type(
+  string
+)
+ident(
+  def mfile "tlapm_args.ml" 55 1135 1194 "tlapm_args.ml" 55 1135 1216
+)
+"tlapm_args.ml" 55 1135 1194 "tlapm_args.ml" 55 1135 1198
+type(
+  string list ref
+)
+ident(
+  int_ref mods "tlapm_args.ml" 53 1087 1112 "tlapm_args.ml" 53 1087 1116
+)
+"tlapm_args.ml" 55 1135 1199 "tlapm_args.ml" 55 1135 1201
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"tlapm_args.ml" 55 1135 1202 "tlapm_args.ml" 55 1135 1207
+type(
+  string
+)
+ident(
+  int_ref mfile "tlapm_args.ml" 55 1135 1185 "tlapm_args.ml" 55 1135 1190
+)
+"tlapm_args.ml" 55 1135 1211 "tlapm_args.ml" 55 1135 1212
+type(
+  string list ref -> string list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"tlapm_args.ml" 55 1135 1212 "tlapm_args.ml" 55 1135 1216
+type(
+  string list ref
+)
+ident(
+  int_ref mods "tlapm_args.ml" 53 1087 1112 "tlapm_args.ml" 53 1087 1116
+)
+"tlapm_args.ml" 55 1135 1211 "tlapm_args.ml" 55 1135 1216
+type(
+  string list
+)
+"tlapm_args.ml" 55 1135 1202 "tlapm_args.ml" 55 1135 1216
+type(
+  string list
+)
+"tlapm_args.ml" 55 1135 1194 "tlapm_args.ml" 55 1135 1216
+type(
+  unit
+)
+"tlapm_args.ml" 55 1135 1180 "tlapm_args.ml" 55 1135 1217
+type(
+  Arg.anon_fun
+)
+"tlapm_args.ml" 56 1218 1225 "tlapm_args.ml" 56 1218 1239
+type(
+  (string -> Arg.usage_msg, unit, string) format -> string -> Arg.usage_msg
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"tlapm_args.ml" 56 1218 1240 "tlapm_args.ml" 56 1218 1249
+type(
+  (string -> Arg.usage_msg, unit, string) format
+)
+ident(
+  int_ref usage_fmt "tlapm_args.ml" 53 1087 1117 "tlapm_args.ml" 53 1087 1126
+)
+"tlapm_args.ml" 56 1218 1251 "tlapm_args.ml" 56 1218 1268
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.Filename.basename "filename.mli" 105 4062 4062 "filename.mli" 105 4062 4093
+)
+"tlapm_args.ml" 56 1218 1269 "tlapm_args.ml" 56 1218 1288
+type(
+  string
+)
+ident(
+  int_ref Stdlib.Sys.executable_name "sys.mli" 29 1489 1489 "sys.mli" 29 1489 1517
+)
+"tlapm_args.ml" 56 1218 1250 "tlapm_args.ml" 56 1218 1289
+type(
+  string
+)
+"tlapm_args.ml" 56 1218 1224 "tlapm_args.ml" 56 1218 1290
+type(
+  Arg.usage_msg
+)
+"tlapm_args.ml" 55 1135 1139 "tlapm_args.ml" 56 1218 1290
+type(
+  unit
+)
+"tlapm_args.ml" 57 1291 1306 "tlapm_args.ml" 57 1291 1309
+type(
+  string
+)
+ident(
+  def msg "tlapm_args.ml" 58 1313 1317 "tlapm_args.ml" 60 1356 1366
+)
+"tlapm_args.ml" 57 1291 1298 "tlapm_args.ml" 57 1291 1309
+type(
+  exn
+)
+"tlapm_args.ml" 58 1313 1317 "tlapm_args.ml" 58 1313 1330
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_endline "stdlib.mli" 866 31615 31615 "stdlib.mli" 866 31615 31649
+)
+"tlapm_args.ml" 58 1313 1331 "tlapm_args.ml" 58 1313 1334
+type(
+  string
+)
+ident(
+  int_ref msg "tlapm_args.ml" 57 1291 1306 "tlapm_args.ml" 57 1291 1309
+)
+"tlapm_args.ml" 58 1313 1317 "tlapm_args.ml" 58 1313 1334
+type(
+  unit
+)
+"tlapm_args.ml" 59 1337 1341 "tlapm_args.ml" 59 1337 1346
+type(
+  out_channel -> unit
+)
+ident(
+  int_ref Stdlib.flush "stdlib.mli" 971 35429 35429 "stdlib.mli" 971 35429 35460
+)
+"tlapm_args.ml" 59 1337 1347 "tlapm_args.ml" 59 1337 1353
+type(
+  out_channel
+)
+ident(
+  int_ref Stdlib.stdout "stdlib.mli" 841 30979 30979 "stdlib.mli" 841 30979 31003
+)
+"tlapm_args.ml" 59 1337 1341 "tlapm_args.ml" 59 1337 1353
+type(
+  unit
+)
+"tlapm_args.ml" 60 1356 1360 "tlapm_args.ml" 60 1356 1364
+type(
+  int -> unit
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1344 51645 51645 "stdlib.mli" 1344 51645 51665
+)
+"tlapm_args.ml" 60 1356 1365 "tlapm_args.ml" 60 1356 1366
+type(
+  int
+)
+"tlapm_args.ml" 60 1356 1360 "tlapm_args.ml" 60 1356 1366
+type(
+  unit
+)
+"tlapm_args.ml" 59 1337 1341 "tlapm_args.ml" 60 1356 1366
+type(
+  unit
+)
+"tlapm_args.ml" 58 1313 1317 "tlapm_args.ml" 60 1356 1366
+type(
+  unit
+)
+"tlapm_args.ml" 54 1129 1131 "tlapm_args.ml" 60 1356 1366
+type(
+  unit
+)
+"tlapm_args.ml" 62 1368 1372 "tlapm_args.ml" 62 1368 1382
+type(
+  unit -> 'a
+)
+ident(
+  def show_where "tlapm_args.ml" 66 1436 1436 "tlapm_args.ml" 0 0 -1
+)
+"tlapm_args.ml" 62 1368 1383 "tlapm_args.ml" 62 1368 1385
+type(
+  unit
+)
+"tlapm_args.ml" 63 1388 1390 "tlapm_args.ml" 63 1388 1403
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"tlapm_args.ml" 63 1388 1404 "tlapm_args.ml" 63 1388 1410
+type(
+  (string -> unit, out_channel, unit) format
+)
+"tlapm_args.ml" 63 1388 1411 "tlapm_args.ml" 63 1388 1423
+type(
+  string
+)
+ident(
+  int_ref Params.library_path "params.mli" 85 1753 1753 "params.mli" 85 1753 1777
+)
+"tlapm_args.ml" 63 1388 1390 "tlapm_args.ml" 63 1388 1423
+type(
+  unit
+)
+"tlapm_args.ml" 64 1426 1428 "tlapm_args.ml" 64 1426 1432
+type(
+  int -> 'a
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1344 51645 51645 "stdlib.mli" 1344 51645 51665
+)
+"tlapm_args.ml" 64 1426 1433 "tlapm_args.ml" 64 1426 1434
+type(
+  int
+)
+"tlapm_args.ml" 64 1426 1428 "tlapm_args.ml" 64 1426 1434
+type(
+  'a
+)
+"tlapm_args.ml" 63 1388 1390 "tlapm_args.ml" 64 1426 1434
+type(
+  'a
+)
+"tlapm_args.ml" 66 1436 1440 "tlapm_args.ml" 66 1436 1454
+type(
+  int -> unit
+)
+ident(
+  def set_nofp_start "tlapm_args.ml" 69 1475 1475 "tlapm_args.ml" 0 0 -1
+)
+"tlapm_args.ml" 66 1436 1455 "tlapm_args.ml" 66 1436 1456
+type(
+  int
+)
+ident(
+  def s "tlapm_args.ml" 67 1459 1461 "tlapm_args.ml" 67 1459 1473
+)
+"tlapm_args.ml" 67 1459 1461 "tlapm_args.ml" 67 1459 1468
+type(
+  int ref
+)
+ident(
+  int_ref Params.nofp_sl "params.mli" 39 722 722 "params.mli" 39 722 742
+)
+"tlapm_args.ml" 67 1459 1469 "tlapm_args.ml" 67 1459 1471
+type(
+  int ref -> int -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"tlapm_args.ml" 67 1459 1472 "tlapm_args.ml" 67 1459 1473
+type(
+  int
+)
+ident(
+  int_ref s "tlapm_args.ml" 66 1436 1455 "tlapm_args.ml" 66 1436 1456
+)
+"tlapm_args.ml" 67 1459 1461 "tlapm_args.ml" 67 1459 1473
+type(
+  unit
+)
+"tlapm_args.ml" 69 1475 1479 "tlapm_args.ml" 69 1475 1491
+type(
+  int -> unit
+)
+ident(
+  def set_nofp_end "tlapm_args.ml" 73 1513 1513 "tlapm_args.ml" 0 0 -1
+)
+"tlapm_args.ml" 69 1475 1492 "tlapm_args.ml" 69 1475 1493
+type(
+  int
+)
+ident(
+  def e "tlapm_args.ml" 70 1496 1498 "tlapm_args.ml" 70 1496 1510
+)
+"tlapm_args.ml" 70 1496 1498 "tlapm_args.ml" 70 1496 1505
+type(
+  int ref
+)
+ident(
+  int_ref Params.nofp_el "params.mli" 40 743 743 "params.mli" 40 743 763
+)
+"tlapm_args.ml" 70 1496 1506 "tlapm_args.ml" 70 1496 1508
+type(
+  int ref -> int -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"tlapm_args.ml" 70 1496 1509 "tlapm_args.ml" 70 1496 1510
+type(
+  int
+)
+ident(
+  int_ref e "tlapm_args.ml" 69 1475 1492 "tlapm_args.ml" 69 1475 1493
+)
+"tlapm_args.ml" 70 1496 1498 "tlapm_args.ml" 70 1496 1510
+type(
+  unit
+)
+"tlapm_args.ml" 73 1513 1517 "tlapm_args.ml" 73 1513 1525
+type(
+  string -> 'a
+)
+ident(
+  def print_fp "tlapm_args.ml" 78 1571 1571 "tlapm_args.ml" 0 0 -1
+)
+"tlapm_args.ml" 73 1513 1526 "tlapm_args.ml" 73 1513 1529
+type(
+  string
+)
+ident(
+  def fic "tlapm_args.ml" 74 1532 1534 "tlapm_args.ml" 75 1560 1568
+)
+"tlapm_args.ml" 74 1532 1534 "tlapm_args.ml" 74 1532 1554
+type(
+  string -> unit
+)
+ident(
+  int_ref Backend.Fpfile.print "backend.mli" 40 926 930 "backend.mli" 40 926 955
+)
+"tlapm_args.ml" 74 1532 1555 "tlapm_args.ml" 74 1532 1558
+type(
+  string
+)
+ident(
+  int_ref fic "tlapm_args.ml" 73 1513 1526 "tlapm_args.ml" 73 1513 1529
+)
+"tlapm_args.ml" 74 1532 1534 "tlapm_args.ml" 74 1532 1558
+type(
+  unit
+)
+"tlapm_args.ml" 75 1560 1562 "tlapm_args.ml" 75 1560 1566
+type(
+  int -> 'a
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1344 51645 51645 "stdlib.mli" 1344 51645 51665
+)
+"tlapm_args.ml" 75 1560 1567 "tlapm_args.ml" 75 1560 1568
+type(
+  int
+)
+"tlapm_args.ml" 75 1560 1562 "tlapm_args.ml" 75 1560 1568
+type(
+  'a
+)
+"tlapm_args.ml" 74 1532 1534 "tlapm_args.ml" 75 1560 1568
+type(
+  'a
+)
+"tlapm_args.ml" 78 1571 1575 "tlapm_args.ml" 78 1571 1581
+type(
+  string -> unit
+)
+ident(
+  def use_fp "tlapm_args.ml" 81 1610 1610 "tlapm_args.ml" 0 0 -1
+)
+"tlapm_args.ml" 78 1571 1582 "tlapm_args.ml" 78 1571 1585
+type(
+  string
+)
+ident(
+  def fic "tlapm_args.ml" 79 1588 1590 "tlapm_args.ml" 79 1588 1608
+)
+"tlapm_args.ml" 79 1588 1590 "tlapm_args.ml" 79 1588 1596
+type(
+  string option ref
+)
+ident(
+  int_ref Params.fpf_in "params.mli" 87 1800 1800 "params.mli" 87 1800 1829
+)
+"tlapm_args.ml" 79 1588 1597 "tlapm_args.ml" 79 1588 1599
+type(
+  string option ref -> string option -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"tlapm_args.ml" 79 1588 1605 "tlapm_args.ml" 79 1588 1608
+type(
+  string
+)
+ident(
+  int_ref fic "tlapm_args.ml" 78 1571 1582 "tlapm_args.ml" 78 1571 1585
+)
+"tlapm_args.ml" 79 1588 1600 "tlapm_args.ml" 79 1588 1608
+type(
+  string option
+)
+"tlapm_args.ml" 79 1588 1590 "tlapm_args.ml" 79 1588 1608
+type(
+  unit
+)
+"tlapm_args.ml" 81 1610 1614 "tlapm_args.ml" 81 1610 1627
+type(
+  string ref
+)
+ident(
+  def erase_fp_file "tlapm_args.ml" 82 1637 1637 "tlapm_args.ml" 0 0 -1
+)
+"tlapm_args.ml" 81 1610 1630 "tlapm_args.ml" 81 1610 1633
+type(
+  string -> string ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"tlapm_args.ml" 81 1610 1634 "tlapm_args.ml" 81 1610 1636
+type(
+  string
+)
+"tlapm_args.ml" 81 1610 1630 "tlapm_args.ml" 81 1610 1636
+type(
+  string ref
+)
+"tlapm_args.ml" 82 1637 1641 "tlapm_args.ml" 82 1637 1658
+type(
+  string -> unit
+)
+ident(
+  def set_erase_fp_file "tlapm_args.ml" 86 1787 1787 "tlapm_args.ml" 0 0 -1
+)
+"tlapm_args.ml" 82 1637 1659 "tlapm_args.ml" 82 1637 1662
+type(
+  string
+)
+ident(
+  def fic "tlapm_args.ml" 82 1637 1665 "tlapm_args.ml" 82 1637 1685
+)
+"tlapm_args.ml" 82 1637 1665 "tlapm_args.ml" 82 1637 1678
+type(
+  string ref
+)
+ident(
+  int_ref erase_fp_file "tlapm_args.ml" 81 1610 1614 "tlapm_args.ml" 81 1610 1627
+)
+"tlapm_args.ml" 82 1637 1679 "tlapm_args.ml" 82 1637 1681
+type(
+  string ref -> string -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"tlapm_args.ml" 82 1637 1682 "tlapm_args.ml" 82 1637 1685
+type(
+  string
+)
+ident(
+  int_ref fic "tlapm_args.ml" 82 1637 1659 "tlapm_args.ml" 82 1637 1662
+)
+"tlapm_args.ml" 82 1637 1665 "tlapm_args.ml" 82 1637 1685
+type(
+  unit
+)
+"tlapm_args.ml" 86 1787 1791 "tlapm_args.ml" 86 1787 1799
+type(
+  string -> 'a
+)
+ident(
+  def erase_fp "tlapm_args.ml" 106 2369 2369 "tlapm_args.ml" 0 0 -1
+)
+"tlapm_args.ml" 86 1787 1800 "tlapm_args.ml" 86 1787 1807
+type(
+  string
+)
+ident(
+  def backend "tlapm_args.ml" 87 1810 1812 "tlapm_args.ml" 103 2358 2366
+)
+"tlapm_args.ml" 87 1810 1816 "tlapm_args.ml" 87 1810 1819
+type(
+  string
+)
+ident(
+  def fic "tlapm_args.ml" 88 1840 1842 "tlapm_args.ml" 103 2358 2366
+)
+"tlapm_args.ml" 87 1810 1822 "tlapm_args.ml" 87 1810 1823
+type(
+  string ref -> string
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"tlapm_args.ml" 87 1810 1823 "tlapm_args.ml" 87 1810 1836
+type(
+  string ref
+)
+ident(
+  int_ref erase_fp_file "tlapm_args.ml" 81 1610 1614 "tlapm_args.ml" 81 1610 1627
+)
+"tlapm_args.ml" 87 1810 1822 "tlapm_args.ml" 87 1810 1836
+type(
+  string
+)
+"tlapm_args.ml" 88 1840 1846 "tlapm_args.ml" 88 1840 1849
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"tlapm_args.ml" 88 1840 1851 "tlapm_args.ml" 88 1840 1866
+type(
+  string -> bool
+)
+ident(
+  int_ref Stdlib.Sys.file_exists "sys.mli" 35 1767 1767 "sys.mli" 35 1767 1829
+)
+"tlapm_args.ml" 88 1840 1867 "tlapm_args.ml" 88 1840 1870
+type(
+  string
+)
+ident(
+  int_ref fic "tlapm_args.ml" 87 1810 1816 "tlapm_args.ml" 87 1810 1819
+)
+"tlapm_args.ml" 88 1840 1850 "tlapm_args.ml" 88 1840 1871
+type(
+  bool
+)
+"tlapm_args.ml" 88 1840 1845 "tlapm_args.ml" 88 1840 1872
+type(
+  bool
+)
+"tlapm_args.ml" 89 1884 1888 "tlapm_args.ml" 89 1884 1893
+type(
+  exn -> unit
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"tlapm_args.ml" 89 1884 1904 "tlapm_args.ml" 89 1884 1918
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"tlapm_args.ml" 89 1884 1919 "tlapm_args.ml" 89 1884 1944
+type(
+  (string -> string, unit, string) format
+)
+"tlapm_args.ml" 89 1884 1945 "tlapm_args.ml" 89 1884 1948
+type(
+  string
+)
+ident(
+  int_ref fic "tlapm_args.ml" 87 1810 1816 "tlapm_args.ml" 87 1810 1819
+)
+"tlapm_args.ml" 89 1884 1903 "tlapm_args.ml" 89 1884 1949
+type(
+  string
+)
+"tlapm_args.ml" 89 1884 1894 "tlapm_args.ml" 89 1884 1950
+type(
+  exn
+)
+"tlapm_args.ml" 88 1840 1878 "tlapm_args.ml" 90 1952 1957
+type(
+  unit
+)
+"tlapm_args.ml" 88 1840 1842 "tlapm_args.ml" 90 1952 1957
+type(
+  unit
+)
+"tlapm_args.ml" 91 1959 1973 "tlapm_args.ml" 91 1959 1980
+type(
+  string
+)
+ident(
+  int_ref backend "tlapm_args.ml" 86 1787 1800 "tlapm_args.ml" 86 1787 1807
+)
+"tlapm_args.ml" 92 1986 1990 "tlapm_args.ml" 92 1986 1997
+type(
+  string
+)
+type(
+  string
+)
+"tlapm_args.ml" 93 2001 2010 "tlapm_args.ml" 93 2001 2011
+type(
+  Method.t
+)
+ident(
+  def m "tlapm_args.ml" 94 2033 2038 "tlapm_args.ml" 94 2033 2072
+)
+"tlapm_args.ml" 93 2001 2027 "tlapm_args.ml" 93 2001 2029
+type(
+  float
+)
+"tlapm_args.ml" 93 2001 2014 "tlapm_args.ml" 93 2001 2029
+type(
+  Method.t
+)
+"tlapm_args.ml" 94 2033 2038 "tlapm_args.ml" 94 2033 2066
+type(
+  string -> Method.t -> unit
+)
+ident(
+  int_ref Backend.Fpfile.erase_results "backend.mli" 41 956 960 "backend.mli" 42 979 1013
+)
+"tlapm_args.ml" 94 2033 2067 "tlapm_args.ml" 94 2033 2070
+type(
+  string
+)
+ident(
+  int_ref fic "tlapm_args.ml" 87 1810 1816 "tlapm_args.ml" 87 1810 1819
+)
+"tlapm_args.ml" 94 2033 2071 "tlapm_args.ml" 94 2033 2072
+type(
+  Method.t
+)
+ident(
+  int_ref m "tlapm_args.ml" 93 2001 2010 "tlapm_args.ml" 93 2001 2011
+)
+"tlapm_args.ml" 94 2033 2038 "tlapm_args.ml" 94 2033 2072
+type(
+  unit
+)
+"tlapm_args.ml" 93 2001 2006 "tlapm_args.ml" 94 2033 2073
+type(
+  unit
+)
+"tlapm_args.ml" 95 2074 2078 "tlapm_args.ml" 95 2074 2088
+type(
+  string
+)
+type(
+  string
+)
+"tlapm_args.ml" 96 2092 2101 "tlapm_args.ml" 96 2092 2102
+type(
+  Method.t
+)
+ident(
+  def m "tlapm_args.ml" 97 2133 2138 "tlapm_args.ml" 97 2133 2172
+)
+"tlapm_args.ml" 96 2092 2122 "tlapm_args.ml" 96 2092 2124
+type(
+  float
+)
+"tlapm_args.ml" 96 2092 2126 "tlapm_args.ml" 96 2092 2128
+type(
+  string
+)
+"tlapm_args.ml" 96 2092 2105 "tlapm_args.ml" 96 2092 2129
+type(
+  Method.t
+)
+"tlapm_args.ml" 97 2133 2138 "tlapm_args.ml" 97 2133 2166
+type(
+  string -> Method.t -> unit
+)
+ident(
+  int_ref Backend.Fpfile.erase_results "backend.mli" 41 956 960 "backend.mli" 42 979 1013
+)
+"tlapm_args.ml" 97 2133 2167 "tlapm_args.ml" 97 2133 2170
+type(
+  string
+)
+ident(
+  int_ref fic "tlapm_args.ml" 87 1810 1816 "tlapm_args.ml" 87 1810 1819
+)
+"tlapm_args.ml" 97 2133 2171 "tlapm_args.ml" 97 2133 2172
+type(
+  Method.t
+)
+ident(
+  int_ref m "tlapm_args.ml" 96 2092 2101 "tlapm_args.ml" 96 2092 2102
+)
+"tlapm_args.ml" 97 2133 2138 "tlapm_args.ml" 97 2133 2172
+type(
+  unit
+)
+"tlapm_args.ml" 96 2092 2097 "tlapm_args.ml" 97 2133 2173
+type(
+  unit
+)
+"tlapm_args.ml" 98 2174 2178 "tlapm_args.ml" 98 2174 2186
+type(
+  string
+)
+type(
+  string
+)
+"tlapm_args.ml" 98 2174 2190 "tlapm_args.ml" 98 2174 2218
+type(
+  string -> Method.t -> unit
+)
+ident(
+  int_ref Backend.Fpfile.erase_results "backend.mli" 41 956 960 "backend.mli" 42 979 1013
+)
+"tlapm_args.ml" 98 2174 2219 "tlapm_args.ml" 98 2174 2222
+type(
+  string
+)
+ident(
+  int_ref fic "tlapm_args.ml" 87 1810 1816 "tlapm_args.ml" 87 1810 1819
+)
+"tlapm_args.ml" 98 2174 2223 "tlapm_args.ml" 98 2174 2236
+type(
+  Method.t
+)
+"tlapm_args.ml" 98 2174 2190 "tlapm_args.ml" 98 2174 2236
+type(
+  unit
+)
+"tlapm_args.ml" 99 2238 2242 "tlapm_args.ml" 99 2238 2243
+type(
+  string
+)
+type(
+  string
+)
+"tlapm_args.ml" 100 2247 2256 "tlapm_args.ml" 100 2247 2259
+type(
+  string
+)
+ident(
+  def msg "tlapm_args.ml" 101 2325 2330 "tlapm_args.ml" 101 2325 2349
+)
+"tlapm_args.ml" 100 2247 2262 "tlapm_args.ml" 100 2247 2321
+type(
+  string
+)
+"tlapm_args.ml" 101 2325 2330 "tlapm_args.ml" 101 2325 2335
+type(
+  exn -> unit
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"tlapm_args.ml" 101 2325 2345 "tlapm_args.ml" 101 2325 2348
+type(
+  string
+)
+ident(
+  int_ref msg "tlapm_args.ml" 100 2247 2256 "tlapm_args.ml" 100 2247 2259
+)
+"tlapm_args.ml" 101 2325 2336 "tlapm_args.ml" 101 2325 2349
+type(
+  exn
+)
+"tlapm_args.ml" 101 2325 2330 "tlapm_args.ml" 101 2325 2349
+type(
+  unit
+)
+"tlapm_args.ml" 100 2247 2252 "tlapm_args.ml" 101 2325 2350
+type(
+  unit
+)
+"tlapm_args.ml" 91 1959 1961 "tlapm_args.ml" 102 2351 2356
+type(
+  unit
+)
+"tlapm_args.ml" 103 2358 2360 "tlapm_args.ml" 103 2358 2364
+type(
+  int -> 'a
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1344 51645 51645 "stdlib.mli" 1344 51645 51665
+)
+"tlapm_args.ml" 103 2358 2365 "tlapm_args.ml" 103 2358 2366
+type(
+  int
+)
+"tlapm_args.ml" 103 2358 2360 "tlapm_args.ml" 103 2358 2366
+type(
+  'a
+)
+"tlapm_args.ml" 91 1959 1961 "tlapm_args.ml" 103 2358 2366
+type(
+  'a
+)
+"tlapm_args.ml" 88 1840 1842 "tlapm_args.ml" 103 2358 2366
+type(
+  'a
+)
+"tlapm_args.ml" 87 1810 1812 "tlapm_args.ml" 103 2358 2366
+type(
+  'a
+)
+"tlapm_args.ml" 106 2369 2373 "tlapm_args.ml" 106 2369 2383
+type(
+  string -> int -> string * Arg.spec * string
+)
+ident(
+  def deprecated "tlapm_args.ml" 116 2663 2663 "tlapm_args.ml" 0 0 -1
+)
+"tlapm_args.ml" 106 2369 2384 "tlapm_args.ml" 106 2369 2388
+type(
+  string
+)
+ident(
+  def flag "tlapm_args.ml" 106 2369 2389 "tlapm_args.ml" 113 2631 2660
+)
+"tlapm_args.ml" 106 2369 2389 "tlapm_args.ml" 106 2369 2394
+type(
+  int
+)
+ident(
+  def nargs "tlapm_args.ml" 107 2397 2399 "tlapm_args.ml" 113 2631 2660
+)
+"tlapm_args.ml" 107 2397 2403 "tlapm_args.ml" 107 2397 2404
+type(
+  'a -> unit
+)
+ident(
+  def f "tlapm_args.ml" 108 2474 2476 "tlapm_args.ml" 113 2631 2660
+)
+"tlapm_args.ml" 107 2397 2405 "tlapm_args.ml" 107 2397 2406
+type(
+  'a
+)
+"tlapm_args.ml" 107 2397 2409 "tlapm_args.ml" 107 2397 2423
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.eprintf "printf.mli" 132 6998 6998 "printf.mli" 132 6998 7048
+)
+"tlapm_args.ml" 107 2397 2424 "tlapm_args.ml" 107 2397 2465
+type(
+  (string -> unit, out_channel, unit) format
+)
+"tlapm_args.ml" 107 2397 2466 "tlapm_args.ml" 107 2397 2470
+type(
+  string
+)
+ident(
+  int_ref flag "tlapm_args.ml" 106 2369 2384 "tlapm_args.ml" 106 2369 2388
+)
+"tlapm_args.ml" 107 2397 2409 "tlapm_args.ml" 107 2397 2470
+type(
+  unit
+)
+"tlapm_args.ml" 108 2474 2482 "tlapm_args.ml" 108 2474 2487
+type(
+  int
+)
+ident(
+  int_ref nargs "tlapm_args.ml" 106 2369 2389 "tlapm_args.ml" 106 2369 2394
+)
+"tlapm_args.ml" 109 2493 2497 "tlapm_args.ml" 109 2493 2498
+type(
+  int
+)
+type(
+  int
+)
+"tlapm_args.ml" 109 2493 2502 "tlapm_args.ml" 109 2493 2506
+type(
+  string
+)
+ident(
+  int_ref flag "tlapm_args.ml" 106 2369 2384 "tlapm_args.ml" 106 2369 2388
+)
+"tlapm_args.ml" 109 2493 2517 "tlapm_args.ml" 109 2493 2518
+type(
+  unit -> unit
+)
+ident(
+  int_ref f "tlapm_args.ml" 107 2397 2403 "tlapm_args.ml" 107 2397 2404
+)
+"tlapm_args.ml" 109 2493 2508 "tlapm_args.ml" 109 2493 2518
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 109 2493 2520 "tlapm_args.ml" 109 2493 2522
+type(
+  string
+)
+"tlapm_args.ml" 109 2493 2502 "tlapm_args.ml" 109 2493 2522
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 110 2523 2527 "tlapm_args.ml" 110 2523 2528
+type(
+  int
+)
+type(
+  int
+)
+"tlapm_args.ml" 110 2523 2532 "tlapm_args.ml" 110 2523 2536
+type(
+  string
+)
+ident(
+  int_ref flag "tlapm_args.ml" 106 2369 2384 "tlapm_args.ml" 106 2369 2388
+)
+"tlapm_args.ml" 110 2523 2549 "tlapm_args.ml" 110 2523 2550
+type(
+  string -> unit
+)
+ident(
+  int_ref f "tlapm_args.ml" 107 2397 2403 "tlapm_args.ml" 107 2397 2404
+)
+"tlapm_args.ml" 110 2523 2538 "tlapm_args.ml" 110 2523 2550
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 110 2523 2552 "tlapm_args.ml" 110 2523 2554
+type(
+  string
+)
+"tlapm_args.ml" 110 2523 2532 "tlapm_args.ml" 110 2523 2554
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 111 2555 2559 "tlapm_args.ml" 111 2555 2560
+type(
+  int
+)
+type(
+  int
+)
+"tlapm_args.ml" 112 2564 2573 "tlapm_args.ml" 112 2564 2577
+type(
+  Arg.spec list
+)
+ident(
+  def args "tlapm_args.ml" 113 2631 2636 "tlapm_args.ml" 113 2631 2660
+)
+"tlapm_args.ml" 112 2564 2580 "tlapm_args.ml" 112 2564 2593
+type(
+  Arg.spec array -> Arg.spec list
+)
+ident(
+  int_ref Stdlib.Array.to_list "array.mli" 150 6222 6222 "array.mli" 150 6222 6255
+)
+"tlapm_args.ml" 112 2564 2595 "tlapm_args.ml" 112 2564 2605
+type(
+  int -> Arg.spec -> Arg.spec array
+)
+ident(
+  int_ref Stdlib.Array.make "array.mli" 53 2225 2225 "array.mli" 53 2225 2281
+)
+"tlapm_args.ml" 112 2564 2606 "tlapm_args.ml" 112 2564 2611
+type(
+  int
+)
+ident(
+  int_ref nargs "tlapm_args.ml" 106 2369 2389 "tlapm_args.ml" 106 2369 2394
+)
+"tlapm_args.ml" 112 2564 2624 "tlapm_args.ml" 112 2564 2625
+type(
+  string -> unit
+)
+ident(
+  int_ref f "tlapm_args.ml" 107 2397 2403 "tlapm_args.ml" 107 2397 2404
+)
+"tlapm_args.ml" 112 2564 2612 "tlapm_args.ml" 112 2564 2626
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 112 2564 2594 "tlapm_args.ml" 112 2564 2627
+type(
+  Arg.spec array
+)
+"tlapm_args.ml" 112 2564 2580 "tlapm_args.ml" 112 2564 2627
+type(
+  Arg.spec list
+)
+"tlapm_args.ml" 113 2631 2636 "tlapm_args.ml" 113 2631 2640
+type(
+  string
+)
+ident(
+  int_ref flag "tlapm_args.ml" 106 2369 2384 "tlapm_args.ml" 106 2369 2388
+)
+"tlapm_args.ml" 113 2631 2652 "tlapm_args.ml" 113 2631 2656
+type(
+  Arg.spec list
+)
+ident(
+  int_ref args "tlapm_args.ml" 112 2564 2573 "tlapm_args.ml" 112 2564 2577
+)
+"tlapm_args.ml" 113 2631 2642 "tlapm_args.ml" 113 2631 2656
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 113 2631 2658 "tlapm_args.ml" 113 2631 2660
+type(
+  string
+)
+"tlapm_args.ml" 113 2631 2636 "tlapm_args.ml" 113 2631 2660
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 112 2564 2569 "tlapm_args.ml" 113 2631 2660
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 108 2474 2476 "tlapm_args.ml" 113 2631 2660
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 107 2397 2399 "tlapm_args.ml" 113 2631 2660
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 116 2663 2667 "tlapm_args.ml" 116 2663 2682
+type(
+  string -> string
+)
+ident(
+  def quote_if_needed "tlapm_args.ml" 129 2968 2968 "tlapm_args.ml" 0 0 -1
+)
+"tlapm_args.ml" 116 2663 2683 "tlapm_args.ml" 116 2663 2684
+type(
+  string
+)
+ident(
+  def s "tlapm_args.ml" 117 2687 2689 "tlapm_args.ml" 126 2960 2965
+)
+"tlapm_args.ml" 117 2687 2693 "tlapm_args.ml" 117 2687 2698
+type(
+  char -> unit
+)
+ident(
+  def check "tlapm_args.ml" 123 2850 2852 "tlapm_args.ml" 126 2960 2965
+)
+"tlapm_args.ml" 117 2687 2699 "tlapm_args.ml" 117 2687 2700
+type(
+  char
+)
+ident(
+  def c "tlapm_args.ml" 118 2703 2707 "tlapm_args.ml" 121 2823 2844
+)
+"tlapm_args.ml" 118 2703 2713 "tlapm_args.ml" 118 2703 2714
+type(
+  char
+)
+ident(
+  int_ref c "tlapm_args.ml" 117 2687 2699 "tlapm_args.ml" 117 2687 2700
+)
+"tlapm_args.ml" 119 2720 2726 "tlapm_args.ml" 119 2720 2729
+type(
+  char
+)
+type(
+  char
+)
+"tlapm_args.ml" 119 2720 2732 "tlapm_args.ml" 119 2720 2735
+type(
+  char
+)
+type(
+  char
+)
+"tlapm_args.ml" 119 2720 2726 "tlapm_args.ml" 119 2720 2735
+type(
+  char
+)
+"tlapm_args.ml" 119 2720 2738 "tlapm_args.ml" 119 2720 2741
+type(
+  char
+)
+type(
+  char
+)
+"tlapm_args.ml" 119 2720 2726 "tlapm_args.ml" 119 2720 2741
+type(
+  char
+)
+"tlapm_args.ml" 119 2720 2744 "tlapm_args.ml" 119 2720 2747
+type(
+  char
+)
+type(
+  char
+)
+"tlapm_args.ml" 119 2720 2726 "tlapm_args.ml" 119 2720 2747
+type(
+  char
+)
+"tlapm_args.ml" 119 2720 2750 "tlapm_args.ml" 119 2720 2753
+type(
+  char
+)
+type(
+  char
+)
+"tlapm_args.ml" 119 2720 2726 "tlapm_args.ml" 119 2720 2753
+type(
+  char
+)
+"tlapm_args.ml" 119 2720 2756 "tlapm_args.ml" 119 2720 2764
+type(
+  char
+)
+"tlapm_args.ml" 119 2720 2726 "tlapm_args.ml" 119 2720 2764
+type(
+  char
+)
+"tlapm_args.ml" 119 2720 2767 "tlapm_args.ml" 119 2720 2770
+type(
+  char
+)
+type(
+  char
+)
+"tlapm_args.ml" 119 2720 2726 "tlapm_args.ml" 119 2720 2770
+type(
+  char
+)
+"tlapm_args.ml" 119 2720 2773 "tlapm_args.ml" 119 2720 2776
+type(
+  char
+)
+type(
+  char
+)
+"tlapm_args.ml" 119 2720 2726 "tlapm_args.ml" 119 2720 2776
+type(
+  char
+)
+"tlapm_args.ml" 119 2720 2779 "tlapm_args.ml" 119 2720 2782
+type(
+  char
+)
+type(
+  char
+)
+"tlapm_args.ml" 119 2720 2726 "tlapm_args.ml" 119 2720 2782
+type(
+  char
+)
+"tlapm_args.ml" 119 2720 2785 "tlapm_args.ml" 119 2720 2793
+type(
+  char
+)
+"tlapm_args.ml" 119 2720 2726 "tlapm_args.ml" 119 2720 2793
+type(
+  char
+)
+"tlapm_args.ml" 120 2794 2802 "tlapm_args.ml" 120 2794 2805
+type(
+  char
+)
+type(
+  char
+)
+"tlapm_args.ml" 119 2720 2726 "tlapm_args.ml" 120 2794 2805
+type(
+  char
+)
+"tlapm_args.ml" 120 2794 2808 "tlapm_args.ml" 120 2794 2816
+type(
+  char
+)
+"tlapm_args.ml" 119 2720 2726 "tlapm_args.ml" 120 2794 2816
+type(
+  char
+)
+"tlapm_args.ml" 120 2794 2820 "tlapm_args.ml" 120 2794 2822
+type(
+  unit
+)
+"tlapm_args.ml" 121 2823 2829 "tlapm_args.ml" 121 2823 2830
+type(
+  char
+)
+type(
+  char
+)
+"tlapm_args.ml" 121 2823 2834 "tlapm_args.ml" 121 2823 2839
+type(
+  exn -> unit
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"tlapm_args.ml" 121 2823 2840 "tlapm_args.ml" 121 2823 2844
+type(
+  exn
+)
+"tlapm_args.ml" 121 2823 2834 "tlapm_args.ml" 121 2823 2844
+type(
+  unit
+)
+"tlapm_args.ml" 118 2703 2707 "tlapm_args.ml" 121 2823 2844
+type(
+  unit
+)
+"tlapm_args.ml" 123 2850 2855 "tlapm_args.ml" 123 2850 2856
+type(
+  string
+)
+ident(
+  int_ref s "tlapm_args.ml" 116 2663 2683 "tlapm_args.ml" 116 2663 2684
+)
+"tlapm_args.ml" 123 2850 2857 "tlapm_args.ml" 123 2850 2858
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"tlapm_args.ml" 123 2850 2859 "tlapm_args.ml" 123 2850 2861
+type(
+  string
+)
+"tlapm_args.ml" 123 2850 2855 "tlapm_args.ml" 123 2850 2861
+type(
+  bool
+)
+"tlapm_args.ml" 123 2850 2867 "tlapm_args.ml" 123 2850 2881
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.Filename.quote "filename.mli" 188 7755 7755 "filename.mli" 188 7755 7783
+)
+"tlapm_args.ml" 123 2850 2882 "tlapm_args.ml" 123 2850 2883
+type(
+  string
+)
+ident(
+  int_ref s "tlapm_args.ml" 116 2663 2683 "tlapm_args.ml" 116 2663 2684
+)
+"tlapm_args.ml" 123 2850 2867 "tlapm_args.ml" 123 2850 2883
+type(
+  string
+)
+"tlapm_args.ml" 124 2895 2903 "tlapm_args.ml" 124 2895 2914
+type(
+  (char -> unit) -> string -> unit
+)
+ident(
+  int_ref Stdlib.String.iter "string.mli" 291 10440 10440 "string.mli" 291 10440 10483
+)
+"tlapm_args.ml" 124 2895 2915 "tlapm_args.ml" 124 2895 2920
+type(
+  char -> unit
+)
+ident(
+  int_ref check "tlapm_args.ml" 117 2687 2693 "tlapm_args.ml" 117 2687 2698
+)
+"tlapm_args.ml" 124 2895 2921 "tlapm_args.ml" 124 2895 2922
+type(
+  string
+)
+ident(
+  int_ref s "tlapm_args.ml" 116 2663 2683 "tlapm_args.ml" 116 2663 2684
+)
+"tlapm_args.ml" 124 2895 2903 "tlapm_args.ml" 124 2895 2922
+type(
+  unit
+)
+"tlapm_args.ml" 124 2895 2924 "tlapm_args.ml" 124 2895 2925
+type(
+  string
+)
+ident(
+  int_ref s "tlapm_args.ml" 116 2663 2683 "tlapm_args.ml" 116 2663 2684
+)
+"tlapm_args.ml" 124 2895 2903 "tlapm_args.ml" 124 2895 2925
+type(
+  string
+)
+"tlapm_args.ml" 125 2926 2935 "tlapm_args.ml" 125 2926 2939
+type(
+  exn
+)
+"tlapm_args.ml" 125 2926 2943 "tlapm_args.ml" 125 2926 2957
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.Filename.quote "filename.mli" 188 7755 7755 "filename.mli" 188 7755 7783
+)
+"tlapm_args.ml" 125 2926 2958 "tlapm_args.ml" 125 2926 2959
+type(
+  string
+)
+ident(
+  int_ref s "tlapm_args.ml" 116 2663 2683 "tlapm_args.ml" 116 2663 2684
+)
+"tlapm_args.ml" 125 2926 2943 "tlapm_args.ml" 125 2926 2959
+type(
+  string
+)
+"tlapm_args.ml" 123 2850 2889 "tlapm_args.ml" 126 2960 2965
+type(
+  string
+)
+"tlapm_args.ml" 123 2850 2852 "tlapm_args.ml" 126 2960 2965
+type(
+  string
+)
+"tlapm_args.ml" 117 2687 2689 "tlapm_args.ml" 126 2960 2965
+type(
+  string
+)
+"tlapm_args.ml" 129 2968 2972 "tlapm_args.ml" 129 2968 2976
+type(
+  unit -> string list
+)
+ident(
+  def init "tlapm_args.ml" 266 8915 8922 "tlapm_args.ml" 0 0 -1
+)
+"tlapm_args.ml" 129 2968 2977 "tlapm_args.ml" 129 2968 2979
+type(
+  unit
+)
+"tlapm_args.ml" 130 2982 2988 "tlapm_args.ml" 130 2982 2992
+type(
+  string list ref
+)
+ident(
+  def mods "tlapm_args.ml" 131 3005 3007 "tlapm_args.ml" 266 8915 8922
+)
+"tlapm_args.ml" 130 2982 2995 "tlapm_args.ml" 130 2982 2998
+type(
+  string list -> string list ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"tlapm_args.ml" 130 2982 2999 "tlapm_args.ml" 130 2982 3001
+type(
+  string list
+)
+"tlapm_args.ml" 130 2982 2995 "tlapm_args.ml" 130 2982 3001
+type(
+  string list ref
+)
+"tlapm_args.ml" 131 3005 3011 "tlapm_args.ml" 131 3005 3017
+type(
+  (unit -> unit) ref
+)
+ident(
+  def helpfn "tlapm_args.ml" 132 3042 3044 "tlapm_args.ml" 266 8915 8922
+)
+"tlapm_args.ml" 131 3005 3020 "tlapm_args.ml" 131 3005 3023
+type(
+  (unit -> unit) -> (unit -> unit) ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"tlapm_args.ml" 131 3005 3029 "tlapm_args.ml" 131 3005 3031
+type(
+  unit
+)
+"tlapm_args.ml" 131 3005 3035 "tlapm_args.ml" 131 3005 3037
+type(
+  unit
+)
+"tlapm_args.ml" 131 3005 3024 "tlapm_args.ml" 131 3005 3038
+type(
+  unit -> unit
+)
+"tlapm_args.ml" 131 3005 3020 "tlapm_args.ml" 131 3005 3038
+type(
+  (unit -> unit) ref
+)
+"tlapm_args.ml" 132 3042 3048 "tlapm_args.ml" 132 3042 3057
+type(
+  unit -> unit
+)
+ident(
+  def show_help "tlapm_args.ml" 133 3077 3079 "tlapm_args.ml" 266 8915 8922
+)
+"tlapm_args.ml" 132 3042 3058 "tlapm_args.ml" 132 3042 3060
+type(
+  unit
+)
+"tlapm_args.ml" 132 3042 3063 "tlapm_args.ml" 132 3042 3064
+type(
+  (unit -> unit) ref -> unit -> unit
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"tlapm_args.ml" 132 3042 3064 "tlapm_args.ml" 132 3042 3070
+type(
+  (unit -> unit) ref
+)
+ident(
+  int_ref helpfn "tlapm_args.ml" 131 3005 3011 "tlapm_args.ml" 131 3005 3017
+)
+"tlapm_args.ml" 132 3042 3063 "tlapm_args.ml" 132 3042 3070
+type(
+  unit -> unit
+)
+"tlapm_args.ml" 132 3042 3071 "tlapm_args.ml" 132 3042 3073
+type(
+  unit
+)
+"tlapm_args.ml" 132 3042 3063 "tlapm_args.ml" 132 3042 3073
+type(
+  unit
+)
+"tlapm_args.ml" 133 3077 3083 "tlapm_args.ml" 133 3077 3086
+type(
+  Arg.spec
+)
+ident(
+  def sep "tlapm_args.ml" 134 3111 3113 "tlapm_args.ml" 266 8915 8922
+)
+"tlapm_args.ml" 133 3077 3098 "tlapm_args.ml" 133 3077 3107
+type(
+  unit -> unit
+)
+ident(
+  int_ref show_help "tlapm_args.ml" 132 3042 3048 "tlapm_args.ml" 132 3042 3057
+)
+"tlapm_args.ml" 133 3077 3089 "tlapm_args.ml" 133 3077 3107
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 134 3111 3117 "tlapm_args.ml" 134 3111 3122
+type(
+  string * Arg.spec * string
+)
+ident(
+  def blank "tlapm_args.ml" 135 3141 3143 "tlapm_args.ml" 266 8915 8922
+)
+"tlapm_args.ml" 134 3111 3125 "tlapm_args.ml" 134 3111 3127
+type(
+  string
+)
+"tlapm_args.ml" 134 3111 3129 "tlapm_args.ml" 134 3111 3132
+type(
+  Arg.spec
+)
+ident(
+  int_ref sep "tlapm_args.ml" 133 3077 3083 "tlapm_args.ml" 133 3077 3086
+)
+"tlapm_args.ml" 134 3111 3134 "tlapm_args.ml" 134 3111 3137
+type(
+  string
+)
+"tlapm_args.ml" 134 3111 3125 "tlapm_args.ml" 134 3111 3137
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 135 3141 3147 "tlapm_args.ml" 135 3141 3152
+type(
+  'a -> 'a * Arg.spec * string
+)
+ident(
+  def title "tlapm_args.ml" 136 3172 3174 "tlapm_args.ml" 266 8915 8922
+)
+"tlapm_args.ml" 135 3141 3153 "tlapm_args.ml" 135 3141 3154
+type(
+  'a
+)
+ident(
+  def s "tlapm_args.ml" 135 3141 3157 "tlapm_args.ml" 135 3141 3168
+)
+"tlapm_args.ml" 135 3141 3157 "tlapm_args.ml" 135 3141 3158
+type(
+  'a
+)
+ident(
+  int_ref s "tlapm_args.ml" 135 3141 3153 "tlapm_args.ml" 135 3141 3154
+)
+"tlapm_args.ml" 135 3141 3160 "tlapm_args.ml" 135 3141 3163
+type(
+  Arg.spec
+)
+ident(
+  int_ref sep "tlapm_args.ml" 133 3077 3083 "tlapm_args.ml" 133 3077 3086
+)
+"tlapm_args.ml" 135 3141 3165 "tlapm_args.ml" 135 3141 3168
+type(
+  string
+)
+"tlapm_args.ml" 135 3141 3157 "tlapm_args.ml" 135 3141 3168
+type(
+  'a * Arg.spec * string
+)
+"tlapm_args.ml" 136 3172 3178 "tlapm_args.ml" 136 3172 3182
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def opts "tlapm_args.ml" 227 7526 7528 "tlapm_args.ml" 266 8915 8922
+)
+"tlapm_args.ml" 137 3187 3191 "tlapm_args.ml" 137 3187 3196
+type(
+  string * Arg.spec * string
+)
+ident(
+  int_ref blank "tlapm_args.ml" 134 3111 3117 "tlapm_args.ml" 134 3111 3122
+)
+"tlapm_args.ml" 138 3198 3202 "tlapm_args.ml" 138 3198 3207
+type(
+  string -> string * Arg.spec * string
+)
+ident(
+  int_ref title "tlapm_args.ml" 135 3141 3147 "tlapm_args.ml" 135 3141 3152
+)
+"tlapm_args.ml" 138 3198 3208 "tlapm_args.ml" 138 3198 3225
+type(
+  string
+)
+"tlapm_args.ml" 138 3198 3202 "tlapm_args.ml" 138 3198 3225
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 139 3227 3231 "tlapm_args.ml" 139 3227 3236
+type(
+  string * Arg.spec * string
+)
+ident(
+  int_ref blank "tlapm_args.ml" 134 3111 3117 "tlapm_args.ml" 134 3111 3122
+)
+"tlapm_args.ml" 140 3238 3242 "tlapm_args.ml" 140 3238 3250
+type(
+  string
+)
+"tlapm_args.ml" 140 3238 3261 "tlapm_args.ml" 140 3238 3270
+type(
+  unit -> unit
+)
+ident(
+  int_ref show_help "tlapm_args.ml" 132 3042 3048 "tlapm_args.ml" 132 3042 3057
+)
+"tlapm_args.ml" 140 3238 3252 "tlapm_args.ml" 140 3238 3270
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 140 3238 3272 "tlapm_args.ml" 140 3238 3347
+type(
+  string
+)
+"tlapm_args.ml" 140 3238 3242 "tlapm_args.ml" 140 3238 3347
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 141 3350 3354 "tlapm_args.ml" 141 3350 3361
+type(
+  string
+)
+"tlapm_args.ml" 141 3350 3372 "tlapm_args.ml" 141 3350 3381
+type(
+  unit -> unit
+)
+ident(
+  int_ref show_help "tlapm_args.ml" 132 3042 3048 "tlapm_args.ml" 132 3042 3057
+)
+"tlapm_args.ml" 141 3350 3363 "tlapm_args.ml" 141 3350 3381
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 141 3350 3383 "tlapm_args.ml" 141 3350 3402
+type(
+  string
+)
+"tlapm_args.ml" 141 3350 3354 "tlapm_args.ml" 141 3350 3402
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 142 3405 3409 "tlapm_args.ml" 142 3405 3420
+type(
+  string
+)
+"tlapm_args.ml" 142 3405 3431 "tlapm_args.ml" 142 3405 3443
+type(
+  unit -> unit
+)
+ident(
+  int_ref show_version "tlapm_args.ml" 10 150 154 "tlapm_args.ml" 10 150 166
+)
+"tlapm_args.ml" 142 3405 3422 "tlapm_args.ml" 142 3405 3443
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 142 3405 3445 "tlapm_args.ml" 142 3405 3476
+type(
+  string
+)
+"tlapm_args.ml" 142 3405 3409 "tlapm_args.ml" 142 3405 3476
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 143 3479 3483 "tlapm_args.ml" 143 3479 3494
+type(
+  string
+)
+"tlapm_args.ml" 143 3479 3504 "tlapm_args.ml" 143 3479 3511
+type(
+  bool ref
+)
+ident(
+  int_ref Params.verbose "params.mli" 13 193 193 "params.mli" 13 193 215
+)
+"tlapm_args.ml" 143 3479 3496 "tlapm_args.ml" 143 3479 3511
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 143 3479 3513 "tlapm_args.ml" 143 3479 3540
+type(
+  string
+)
+"tlapm_args.ml" 143 3479 3483 "tlapm_args.ml" 143 3479 3540
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 144 3543 3547 "tlapm_args.ml" 144 3543 3551
+type(
+  string
+)
+"tlapm_args.ml" 144 3543 3561 "tlapm_args.ml" 144 3543 3568
+type(
+  bool ref
+)
+ident(
+  int_ref Params.verbose "params.mli" 13 193 193 "params.mli" 13 193 215
+)
+"tlapm_args.ml" 144 3543 3553 "tlapm_args.ml" 144 3543 3568
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 144 3543 3570 "tlapm_args.ml" 144 3543 3592
+type(
+  string
+)
+"tlapm_args.ml" 144 3543 3547 "tlapm_args.ml" 144 3543 3592
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 145 3595 3599 "tlapm_args.ml" 145 3595 3604
+type(
+  string * Arg.spec * string
+)
+ident(
+  int_ref blank "tlapm_args.ml" 134 3111 3117 "tlapm_args.ml" 134 3111 3122
+)
+"tlapm_args.ml" 146 3606 3610 "tlapm_args.ml" 146 3606 3619
+type(
+  string
+)
+"tlapm_args.ml" 146 3606 3630 "tlapm_args.ml" 146 3606 3640
+type(
+  unit -> unit
+)
+ident(
+  int_ref show_where "tlapm_args.ml" 62 1368 1372 "tlapm_args.ml" 62 1368 1382
+)
+"tlapm_args.ml" 146 3606 3621 "tlapm_args.ml" 146 3606 3640
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 147 3642 3657 "tlapm_args.ml" 147 3642 3702
+type(
+  string
+)
+"tlapm_args.ml" 146 3606 3610 "tlapm_args.ml" 147 3642 3702
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 148 3705 3709 "tlapm_args.ml" 148 3705 3719
+type(
+  string
+)
+"tlapm_args.ml" 148 3705 3729 "tlapm_args.ml" 148 3705 3740
+type(
+  bool ref
+)
+ident(
+  int_ref show_config "tlapm_args.ml" 9 122 126 "tlapm_args.ml" 9 122 137
+)
+"tlapm_args.ml" 148 3705 3721 "tlapm_args.ml" 148 3705 3740
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 148 3705 3742 "tlapm_args.ml" 148 3705 3772
+type(
+  string
+)
+"tlapm_args.ml" 148 3705 3709 "tlapm_args.ml" 148 3705 3772
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 149 3775 3779 "tlapm_args.ml" 149 3775 3790
+type(
+  string
+)
+"tlapm_args.ml" 149 3775 3800 "tlapm_args.ml" 149 3775 3807
+type(
+  bool ref
+)
+ident(
+  int_ref Params.summary "params.mli" 88 1830 1830 "params.mli" 88 1830 1851
+)
+"tlapm_args.ml" 149 3775 3792 "tlapm_args.ml" 149 3775 3807
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 150 3809 3826 "tlapm_args.ml" 150 3809 3877
+type(
+  string
+)
+"tlapm_args.ml" 149 3775 3779 "tlapm_args.ml" 150 3809 3877
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 151 3880 3884 "tlapm_args.ml" 151 3880 3894
+type(
+  string
+)
+"tlapm_args.ml" 151 3880 3904 "tlapm_args.ml" 151 3880 3909
+type(
+  bool ref
+)
+ident(
+  int_ref Params.stats "params.mli" 89 1852 1852 "params.mli" 89 1852 1871
+)
+"tlapm_args.ml" 151 3880 3896 "tlapm_args.ml" 151 3880 3909
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 151 3880 3911 "tlapm_args.ml" 151 3880 3937
+type(
+  string
+)
+"tlapm_args.ml" 151 3880 3884 "tlapm_args.ml" 151 3880 3937
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 152 3940 3944 "tlapm_args.ml" 152 3940 3949
+type(
+  string * Arg.spec * string
+)
+ident(
+  int_ref blank "tlapm_args.ml" 134 3111 3117 "tlapm_args.ml" 134 3111 3122
+)
+"tlapm_args.ml" 153 3951 3955 "tlapm_args.ml" 153 3951 3959
+type(
+  string
+)
+"tlapm_args.ml" 153 3951 3972 "tlapm_args.ml" 153 3951 3986
+type(
+  string -> unit
+)
+ident(
+  int_ref Params.add_search_dir "params.mli" 90 1872 1872 "params.mli" 90 1872 1906
+)
+"tlapm_args.ml" 153 3951 3961 "tlapm_args.ml" 153 3951 3986
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 153 3951 3988 "tlapm_args.ml" 153 3951 4020
+type(
+  string
+)
+"tlapm_args.ml" 153 3951 3955 "tlapm_args.ml" 153 3951 4020
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 154 4023 4027 "tlapm_args.ml" 154 4023 4037
+type(
+  string -> int -> string * Arg.spec * string
+)
+ident(
+  int_ref deprecated "tlapm_args.ml" 106 2369 2373 "tlapm_args.ml" 106 2369 2383
+)
+"tlapm_args.ml" 154 4023 4038 "tlapm_args.ml" 154 4023 4042
+type(
+  string
+)
+"tlapm_args.ml" 154 4023 4043 "tlapm_args.ml" 154 4023 4044
+type(
+  int
+)
+"tlapm_args.ml" 154 4023 4027 "tlapm_args.ml" 154 4023 4044
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 155 4046 4050 "tlapm_args.ml" 155 4046 4055
+type(
+  string * Arg.spec * string
+)
+ident(
+  int_ref blank "tlapm_args.ml" 134 3111 3117 "tlapm_args.ml" 134 3111 3122
+)
+"tlapm_args.ml" 156 4057 4061 "tlapm_args.ml" 156 4057 4065
+type(
+  string
+)
+"tlapm_args.ml" 156 4057 4075 "tlapm_args.ml" 156 4057 4085
+type(
+  bool ref
+)
+ident(
+  int_ref Params.keep_going "params.mli" 91 1907 1907 "params.mli" 91 1907 1931
+)
+"tlapm_args.ml" 156 4057 4067 "tlapm_args.ml" 156 4057 4085
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 156 4057 4087 "tlapm_args.ml" 156 4057 4120
+type(
+  string
+)
+"tlapm_args.ml" 156 4057 4061 "tlapm_args.ml" 156 4057 4120
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 157 4123 4127 "tlapm_args.ml" 157 4123 4131
+type(
+  string
+)
+"tlapm_args.ml" 157 4123 4141 "tlapm_args.ml" 157 4123 4153
+type(
+  bool ref
+)
+ident(
+  int_ref Params.suppress_all "params.mli" 92 1964 1964 "params.mli" 92 1964 1990
+)
+"tlapm_args.ml" 157 4123 4133 "tlapm_args.ml" 157 4123 4153
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 157 4123 4155 "tlapm_args.ml" 157 4123 4190
+type(
+  string
+)
+"tlapm_args.ml" 157 4123 4127 "tlapm_args.ml" 157 4123 4190
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 158 4193 4197 "tlapm_args.ml" 158 4193 4201
+type(
+  string
+)
+"tlapm_args.ml" 158 4193 4211 "tlapm_args.ml" 158 4193 4216
+type(
+  bool ref
+)
+ident(
+  int_ref Params.check "params.mli" 16 243 243 "params.mli" 16 243 262
+)
+"tlapm_args.ml" 158 4193 4203 "tlapm_args.ml" 158 4193 4216
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 158 4193 4218 "tlapm_args.ml" 158 4193 4250
+type(
+  string
+)
+"tlapm_args.ml" 158 4193 4197 "tlapm_args.ml" 158 4193 4250
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 159 4253 4257 "tlapm_args.ml" 159 4253 4262
+type(
+  string * Arg.spec * string
+)
+ident(
+  int_ref blank "tlapm_args.ml" 134 3111 3117 "tlapm_args.ml" 134 3111 3122
+)
+"tlapm_args.ml" 160 4264 4268 "tlapm_args.ml" 160 4264 4279
+type(
+  string
+)
+"tlapm_args.ml" 160 4264 4289 "tlapm_args.ml" 160 4264 4304
+type(
+  int -> unit
+)
+ident(
+  int_ref set_max_threads "tlapm_args.ml" 26 510 514 "tlapm_args.ml" 26 510 529
+)
+"tlapm_args.ml" 160 4264 4281 "tlapm_args.ml" 160 4264 4304
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 161 4306 4323 "tlapm_args.ml" 161 4306 4368
+type(
+  string
+)
+"tlapm_args.ml" 160 4264 4268 "tlapm_args.ml" 161 4306 4368
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 162 4371 4375 "tlapm_args.ml" 162 4371 4385
+type(
+  string
+)
+"tlapm_args.ml" 162 4371 4398 "tlapm_args.ml" 162 4371 4416
+type(
+  string -> unit
+)
+ident(
+  int_ref set_default_method "tlapm_args.ml" 47 932 936 "tlapm_args.ml" 47 932 954
+)
+"tlapm_args.ml" 162 4371 4387 "tlapm_args.ml" 162 4371 4416
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 163 4418 4434 "tlapm_args.ml" 163 4418 4491
+type(
+  string
+)
+"tlapm_args.ml" 162 4371 4375 "tlapm_args.ml" 163 4418 4491
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 164 4494 4498 "tlapm_args.ml" 164 4494 4508
+type(
+  string
+)
+"tlapm_args.ml" 164 4494 4521 "tlapm_args.ml" 164 4494 4535
+type(
+  string -> unit
+)
+ident(
+  int_ref Params.set_smt_solver "params.mli" 94 2025 2025 "params.mli" 94 2025 2059
+)
+"tlapm_args.ml" 164 4494 4510 "tlapm_args.ml" 164 4494 4535
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 165 4537 4553 "tlapm_args.ml" 165 4537 4590
+type(
+  string
+)
+"tlapm_args.ml" 164 4494 4498 "tlapm_args.ml" 165 4537 4590
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 166 4592 4596 "tlapm_args.ml" 166 4592 4609
+type(
+  string
+)
+"tlapm_args.ml" 166 4592 4622 "tlapm_args.ml" 166 4592 4635
+type(
+  string -> unit
+)
+ident(
+  int_ref Params.set_smt_logic "params.mli" 93 1991 1991 "params.mli" 93 1991 2024
+)
+"tlapm_args.ml" 166 4592 4611 "tlapm_args.ml" 166 4592 4635
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 167 4637 4653 "tlapm_args.ml" 167 4637 4687
+type(
+  string
+)
+"tlapm_args.ml" 166 4592 4596 "tlapm_args.ml" 167 4637 4687
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 168 4689 4693 "tlapm_args.ml" 168 4689 4710
+type(
+  string
+)
+"tlapm_args.ml" 168 4689 4721 "tlapm_args.ml" 168 4689 4745
+type(
+  unit -> unit
+)
+ident(
+  int_ref Params.set_fast_isabelle "params.mli" 27 503 503 "params.mli" 27 503 538
+)
+"tlapm_args.ml" 168 4689 4712 "tlapm_args.ml" 168 4689 4745
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 169 4747 4770 "tlapm_args.ml" 169 4747 4822
+type(
+  string
+)
+"tlapm_args.ml" 168 4689 4693 "tlapm_args.ml" 169 4747 4822
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 170 4824 4828 "tlapm_args.ml" 170 4824 4839
+type(
+  string
+)
+"tlapm_args.ml" 170 4824 4855 "tlapm_args.ml" 170 4824 4877
+type(
+  float ref
+)
+ident(
+  int_ref Params.timeout_stretch "params.mli" 101 2262 2262 "params.mli" 101 2262 2292
+)
+"tlapm_args.ml" 170 4824 4841 "tlapm_args.ml" 170 4824 4877
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 171 4879 4893 "tlapm_args.ml" 171 4879 4927
+type(
+  string
+)
+"tlapm_args.ml" 170 4824 4828 "tlapm_args.ml" 171 4879 4927
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 172 4929 4933 "tlapm_args.ml" 172 4929 4938
+type(
+  string * Arg.spec * string
+)
+ident(
+  int_ref blank "tlapm_args.ml" 134 3111 3117 "tlapm_args.ml" 134 3111 3122
+)
+"tlapm_args.ml" 173 4940 4944 "tlapm_args.ml" 173 4940 4949
+type(
+  string -> string * Arg.spec * string
+)
+ident(
+  int_ref title "tlapm_args.ml" 135 3141 3147 "tlapm_args.ml" 135 3141 3152
+)
+"tlapm_args.ml" 173 4940 4950 "tlapm_args.ml" 173 4940 4970
+type(
+  string
+)
+"tlapm_args.ml" 173 4940 4944 "tlapm_args.ml" 173 4940 4970
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 174 4973 4977 "tlapm_args.ml" 174 4973 4982
+type(
+  string * Arg.spec * string
+)
+ident(
+  int_ref blank "tlapm_args.ml" 134 3111 3117 "tlapm_args.ml" 134 3111 3122
+)
+"tlapm_args.ml" 175 4984 4988 "tlapm_args.ml" 175 4984 5001
+type(
+  string
+)
+"tlapm_args.ml" 175 4984 5013 "tlapm_args.ml" 175 4984 5023
+type(
+  bool ref
+)
+ident(
+  int_ref Params.ob_flatten "params.mli" 44 852 852 "params.mli" 44 852 876
+)
+"tlapm_args.ml" 175 4984 5003 "tlapm_args.ml" 175 4984 5023
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 175 4984 5025 "tlapm_args.ml" 175 4984 5054
+type(
+  string
+)
+"tlapm_args.ml" 175 4984 4988 "tlapm_args.ml" 175 4984 5054
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 176 5057 5061 "tlapm_args.ml" 176 5057 5073
+type(
+  string
+)
+"tlapm_args.ml" 176 5057 5085 "tlapm_args.ml" 176 5057 5094
+type(
+  bool ref
+)
+ident(
+  int_ref Params.pr_normal "params.mli" 43 828 828 "params.mli" 43 828 851
+)
+"tlapm_args.ml" 176 5057 5075 "tlapm_args.ml" 176 5057 5094
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 177 5096 5114 "tlapm_args.ml" 177 5096 5161
+type(
+  string
+)
+"tlapm_args.ml" 176 5057 5061 "tlapm_args.ml" 177 5096 5161
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 178 5164 5168 "tlapm_args.ml" 178 5164 5177
+type(
+  string
+)
+"tlapm_args.ml" 178 5164 5190 "tlapm_args.ml" 178 5164 5205
+type(
+  string -> unit
+)
+ident(
+  int_ref set_debug_flags "tlapm_args.ml" 16 285 289 "tlapm_args.ml" 16 285 304
+)
+"tlapm_args.ml" 178 5164 5179 "tlapm_args.ml" 178 5164 5205
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 179 5207 5222 "tlapm_args.ml" 179 5207 5266
+type(
+  string
+)
+"tlapm_args.ml" 178 5164 5168 "tlapm_args.ml" 179 5207 5266
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 180 5269 5273 "tlapm_args.ml" 180 5269 5283
+type(
+  string -> int -> string * Arg.spec * string
+)
+ident(
+  int_ref deprecated "tlapm_args.ml" 106 2369 2373 "tlapm_args.ml" 106 2369 2383
+)
+"tlapm_args.ml" 180 5269 5284 "tlapm_args.ml" 180 5269 5296
+type(
+  string
+)
+"tlapm_args.ml" 180 5269 5297 "tlapm_args.ml" 180 5269 5298
+type(
+  int
+)
+"tlapm_args.ml" 180 5269 5273 "tlapm_args.ml" 180 5269 5298
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 181 5300 5304 "tlapm_args.ml" 181 5300 5314
+type(
+  string -> int -> string * Arg.spec * string
+)
+ident(
+  int_ref deprecated "tlapm_args.ml" 106 2369 2373 "tlapm_args.ml" 106 2369 2383
+)
+"tlapm_args.ml" 181 5300 5315 "tlapm_args.ml" 181 5300 5327
+type(
+  string
+)
+"tlapm_args.ml" 181 5300 5328 "tlapm_args.ml" 181 5300 5329
+type(
+  int
+)
+"tlapm_args.ml" 181 5300 5304 "tlapm_args.ml" 181 5300 5329
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 182 5331 5335 "tlapm_args.ml" 182 5331 5340
+type(
+  string * Arg.spec * string
+)
+ident(
+  int_ref blank "tlapm_args.ml" 134 3111 3117 "tlapm_args.ml" 134 3111 3122
+)
+"tlapm_args.ml" 183 5342 5346 "tlapm_args.ml" 183 5342 5357
+type(
+  string
+)
+"tlapm_args.ml" 183 5342 5379 "tlapm_args.ml" 183 5342 5395
+type(
+  int -> unit
+)
+ident(
+  int_ref set_target_start "tlapm_args.ml" 30 629 633 "tlapm_args.ml" 30 629 649
+)
+"tlapm_args.ml" 183 5342 5371 "tlapm_args.ml" 183 5342 5395
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 183 5342 5404 "tlapm_args.ml" 183 5342 5418
+type(
+  int -> unit
+)
+ident(
+  int_ref set_target_end "tlapm_args.ml" 34 687 691 "tlapm_args.ml" 34 687 705
+)
+"tlapm_args.ml" 183 5342 5396 "tlapm_args.ml" 183 5342 5418
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 183 5342 5370 "tlapm_args.ml" 183 5342 5419
+type(
+  Arg.spec list
+)
+"tlapm_args.ml" 183 5342 5359 "tlapm_args.ml" 183 5342 5420
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 184 5422 5439 "tlapm_args.ml" 184 5422 5464
+type(
+  string
+)
+"tlapm_args.ml" 183 5342 5346 "tlapm_args.ml" 184 5422 5464
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 185 5466 5470 "tlapm_args.ml" 185 5466 5478
+type(
+  string
+)
+"tlapm_args.ml" 185 5466 5488 "tlapm_args.ml" 185 5466 5503
+type(
+  int -> unit
+)
+ident(
+  int_ref set_target_line "tlapm_args.ml" 37 751 755 "tlapm_args.ml" 37 751 770
+)
+"tlapm_args.ml" 185 5466 5480 "tlapm_args.ml" 185 5466 5503
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 186 5505 5519 "tlapm_args.ml" 186 5505 5540
+type(
+  string
+)
+"tlapm_args.ml" 185 5466 5470 "tlapm_args.ml" 186 5505 5540
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 187 5542 5546 "tlapm_args.ml" 187 5542 5554
+type(
+  string
+)
+"tlapm_args.ml" 187 5542 5568 "tlapm_args.ml" 187 5542 5572
+type(
+  int ref
+)
+ident(
+  int_ref Params.wait "params.mli" 19 300 300 "params.mli" 19 300 317
+)
+"tlapm_args.ml" 187 5542 5556 "tlapm_args.ml" 187 5542 5572
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 188 5574 5588 "tlapm_args.ml" 188 5574 5652
+type(
+  string
+)
+"tlapm_args.ml" 187 5542 5546 "tlapm_args.ml" 188 5574 5652
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 189 5654 5658 "tlapm_args.ml" 189 5654 5671
+type(
+  string
+)
+"tlapm_args.ml" 189 5654 5681 "tlapm_args.ml" 189 5654 5690
+type(
+  bool ref
+)
+ident(
+  int_ref Params.noproving "params.mli" 45 877 877 "params.mli" 45 877 900
+)
+"tlapm_args.ml" 189 5654 5673 "tlapm_args.ml" 189 5654 5690
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 190 5692 5711 "tlapm_args.ml" 190 5692 5761
+type(
+  string
+)
+"tlapm_args.ml" 189 5654 5658 "tlapm_args.ml" 190 5692 5761
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 191 5763 5767 "tlapm_args.ml" 191 5763 5772
+type(
+  string * Arg.spec * string
+)
+ident(
+  int_ref blank "tlapm_args.ml" 134 3111 3117 "tlapm_args.ml" 134 3111 3122
+)
+"tlapm_args.ml" 192 5774 5778 "tlapm_args.ml" 192 5774 5793
+type(
+  string
+)
+"tlapm_args.ml" 192 5774 5803 "tlapm_args.ml" 192 5774 5814
+type(
+  bool ref
+)
+ident(
+  int_ref Params.printallobs "params.mli" 42 802 802 "params.mli" 42 802 827
+)
+"tlapm_args.ml" 192 5774 5795 "tlapm_args.ml" 192 5774 5814
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 193 5816 5837 "tlapm_args.ml" 193 5816 5881
+type(
+  string
+)
+"tlapm_args.ml" 192 5774 5778 "tlapm_args.ml" 193 5816 5881
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 194 5883 5887 "tlapm_args.ml" 194 5883 5892
+type(
+  string * Arg.spec * string
+)
+ident(
+  int_ref blank "tlapm_args.ml" 134 3111 3117 "tlapm_args.ml" 134 3111 3122
+)
+"tlapm_args.ml" 195 5894 5898 "tlapm_args.ml" 195 5894 5908
+type(
+  string -> int -> string * Arg.spec * string
+)
+ident(
+  int_ref deprecated "tlapm_args.ml" 106 2369 2373 "tlapm_args.ml" 106 2369 2383
+)
+"tlapm_args.ml" 195 5894 5909 "tlapm_args.ml" 195 5894 5918
+type(
+  string
+)
+"tlapm_args.ml" 195 5894 5919 "tlapm_args.ml" 195 5894 5920
+type(
+  int
+)
+"tlapm_args.ml" 195 5894 5898 "tlapm_args.ml" 195 5894 5920
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 196 5922 5926 "tlapm_args.ml" 196 5922 5936
+type(
+  string
+)
+"tlapm_args.ml" 196 5922 5946 "tlapm_args.ml" 196 5922 5959
+type(
+  bool ref
+)
+ident(
+  int_ref Params.safefp "params.mli" 61 1253 1253 "params.mli" 61 1253 1273
+)
+"tlapm_args.ml" 196 5922 5938 "tlapm_args.ml" 196 5922 5959
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 197 5961 5977 "tlapm_args.ml" 197 5961 6034
+type(
+  string
+)
+"tlapm_args.ml" 196 5922 5926 "tlapm_args.ml" 197 5961 6034
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 198 6036 6040 "tlapm_args.ml" 198 6036 6048
+type(
+  string
+)
+"tlapm_args.ml" 198 6036 6058 "tlapm_args.ml" 198 6036 6070
+type(
+  bool ref
+)
+ident(
+  int_ref Params.no_fp "params.mli" 38 702 702 "params.mli" 38 702 721
+)
+"tlapm_args.ml" 198 6036 6050 "tlapm_args.ml" 198 6036 6070
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 198 6036 6072 "tlapm_args.ml" 201 6220 6278
+type(
+  string
+)
+"tlapm_args.ml" 198 6036 6040 "tlapm_args.ml" 201 6220 6278
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 202 6280 6284 "tlapm_args.ml" 202 6280 6293
+type(
+  string
+)
+"tlapm_args.ml" 202 6280 6315 "tlapm_args.ml" 202 6280 6329
+type(
+  int -> unit
+)
+ident(
+  int_ref set_nofp_start "tlapm_args.ml" 66 1436 1440 "tlapm_args.ml" 66 1436 1454
+)
+"tlapm_args.ml" 202 6280 6307 "tlapm_args.ml" 202 6280 6329
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 202 6280 6338 "tlapm_args.ml" 202 6280 6350
+type(
+  int -> unit
+)
+ident(
+  int_ref set_nofp_end "tlapm_args.ml" 69 1475 1479 "tlapm_args.ml" 69 1475 1491
+)
+"tlapm_args.ml" 202 6280 6330 "tlapm_args.ml" 202 6280 6350
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 202 6280 6306 "tlapm_args.ml" 202 6280 6351
+type(
+  Arg.spec list
+)
+"tlapm_args.ml" 202 6280 6295 "tlapm_args.ml" 202 6280 6352
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 203 6354 6369 "tlapm_args.ml" 203 6354 6425
+type(
+  string
+)
+"tlapm_args.ml" 202 6280 6284 "tlapm_args.ml" 203 6354 6425
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 204 6427 6431 "tlapm_args.ml" 204 6427 6442
+type(
+  string
+)
+"tlapm_args.ml" 204 6427 6452 "tlapm_args.ml" 204 6427 6466
+type(
+  bool ref
+)
+ident(
+  int_ref Params.cleanfp "params.mli" 86 1778 1778 "params.mli" 86 1778 1799
+)
+"tlapm_args.ml" 204 6427 6444 "tlapm_args.ml" 204 6427 6466
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 205 6468 6485 "tlapm_args.ml" 205 6468 6526
+type(
+  string
+)
+"tlapm_args.ml" 204 6427 6431 "tlapm_args.ml" 205 6468 6526
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 206 6528 6532 "tlapm_args.ml" 206 6528 6537
+type(
+  string * Arg.spec * string
+)
+ident(
+  int_ref blank "tlapm_args.ml" 134 3111 3117 "tlapm_args.ml" 134 3111 3122
+)
+"tlapm_args.ml" 207 6539 6543 "tlapm_args.ml" 207 6539 6554
+type(
+  string
+)
+"tlapm_args.ml" 207 6539 6579 "tlapm_args.ml" 207 6539 6596
+type(
+  string -> unit
+)
+ident(
+  int_ref set_erase_fp_file "tlapm_args.ml" 82 1637 1641 "tlapm_args.ml" 82 1637 1658
+)
+"tlapm_args.ml" 207 6539 6568 "tlapm_args.ml" 207 6539 6596
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 207 6539 6608 "tlapm_args.ml" 207 6539 6616
+type(
+  string -> unit
+)
+ident(
+  int_ref erase_fp "tlapm_args.ml" 86 1787 1791 "tlapm_args.ml" 86 1787 1799
+)
+"tlapm_args.ml" 207 6539 6597 "tlapm_args.ml" 207 6539 6616
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 207 6539 6567 "tlapm_args.ml" 207 6539 6617
+type(
+  Arg.spec list
+)
+"tlapm_args.ml" 207 6539 6556 "tlapm_args.ml" 207 6539 6618
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 208 6620 6637 "tlapm_args.ml" 208 6620 6698
+type(
+  string
+)
+"tlapm_args.ml" 207 6539 6543 "tlapm_args.ml" 208 6620 6698
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 209 6700 6704 "tlapm_args.ml" 209 6700 6715
+type(
+  string
+)
+"tlapm_args.ml" 209 6700 6728 "tlapm_args.ml" 209 6700 6736
+type(
+  string -> unit
+)
+ident(
+  int_ref print_fp "tlapm_args.ml" 73 1513 1517 "tlapm_args.ml" 73 1513 1525
+)
+"tlapm_args.ml" 209 6700 6717 "tlapm_args.ml" 209 6700 6736
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 210 6738 6755 "tlapm_args.ml" 210 6738 6811
+type(
+  string
+)
+"tlapm_args.ml" 209 6700 6704 "tlapm_args.ml" 210 6738 6811
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 211 6813 6817 "tlapm_args.ml" 211 6813 6826
+type(
+  string
+)
+"tlapm_args.ml" 211 6813 6839 "tlapm_args.ml" 211 6813 6845
+type(
+  string -> unit
+)
+ident(
+  int_ref use_fp "tlapm_args.ml" 78 1571 1575 "tlapm_args.ml" 78 1571 1581
+)
+"tlapm_args.ml" 211 6813 6828 "tlapm_args.ml" 211 6813 6845
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 212 6847 6862 "tlapm_args.ml" 212 6847 6915
+type(
+  string
+)
+"tlapm_args.ml" 211 6813 6817 "tlapm_args.ml" 212 6847 6915
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 213 6917 6921 "tlapm_args.ml" 213 6917 6928
+type(
+  string
+)
+"tlapm_args.ml" 213 6917 6938 "tlapm_args.ml" 213 6917 6944
+type(
+  bool ref
+)
+ident(
+  int_ref Params.fp_deb "params.mli" 64 1300 1300 "params.mli" 64 1300 1320
+)
+"tlapm_args.ml" 213 6917 6930 "tlapm_args.ml" 213 6917 6944
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 214 6946 6959 "tlapm_args.ml" 214 6946 7019
+type(
+  string
+)
+"tlapm_args.ml" 213 6917 6921 "tlapm_args.ml" 214 6946 7019
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 215 7021 7025 "tlapm_args.ml" 215 7021 7038
+type(
+  string
+)
+"tlapm_args.ml" 215 7021 7051 "tlapm_args.ml" 215 7021 7070
+type(
+  string -> unit
+)
+ident(
+  int_ref Params.set_tlapm_cache_dir "params.mli" 95 2060 2060 "params.mli" 95 2060 2099
+)
+"tlapm_args.ml" 215 7021 7040 "tlapm_args.ml" 215 7021 7070
+type(
+  Arg.spec
+)
+"tlapm_args.ml" 216 7072 7084 "tlapm_args.ml" 224 7452 7515
+type(
+  string
+)
+"tlapm_args.ml" 215 7021 7025 "tlapm_args.ml" 224 7452 7515
+type(
+  string * Arg.spec * string
+)
+"tlapm_args.ml" 136 3172 3185 "tlapm_args.ml" 225 7517 7520
+type(
+  (string * Arg.spec * string) list
+)
+"tlapm_args.ml" 227 7526 7532 "tlapm_args.ml" 227 7526 7536
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  def opts "tlapm_args.ml" 228 7557 7559 "tlapm_args.ml" 266 8915 8922
+)
+"tlapm_args.ml" 227 7526 7539 "tlapm_args.ml" 227 7526 7548
+type(
+  ?limit:int ->
+  (Arg.key * Arg.spec * Arg.doc) list -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref Stdlib.Arg.align "arg.mli" 203 9639 9639 "arg.mli" 203 9639 9715
+)
+"tlapm_args.ml" 227 7526 7549 "tlapm_args.ml" 227 7526 7553
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref opts "tlapm_args.ml" 136 3172 3178 "tlapm_args.ml" 136 3172 3182
+)
+"tlapm_args.ml" 227 7526 7539 "tlapm_args.ml" 227 7526 7553
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"tlapm_args.ml" 228 7557 7563 "tlapm_args.ml" 228 7557 7572
+type(
+  (string -> Arg.usage_msg, unit, Arg.usage_msg, Arg.usage_msg,
+   Arg.usage_msg, Arg.usage_msg)
+  format6
+)
+ident(
+  def usage_fmt "tlapm_args.ml" 231 7646 7648 "tlapm_args.ml" 266 8915 8922
+)
+"tlapm_args.ml" 229 7575 7579 "tlapm_args.ml" 229 7575 7595
+type(
+  (string -> Arg.usage_msg, unit, Arg.usage_msg, Arg.usage_msg,
+   Arg.usage_msg, Arg.usage_msg)
+  format6 ->
+  (string -> Arg.usage_msg, unit, Arg.usage_msg, Arg.usage_msg,
+   Arg.usage_msg, Arg.usage_msg)
+  format6
+)
+ident(
+  int_ref Stdlib.format_of_string "stdlib.mli" 1320 50690 50690 "stdlib.mli" 1322 50756 50804
+)
+"tlapm_args.ml" 229 7575 7596 "tlapm_args.ml" 229 7575 7640
+type(
+  (string -> Arg.usage_msg, unit, Arg.usage_msg, Arg.usage_msg,
+   Arg.usage_msg, Arg.usage_msg)
+  format6
+)
+"tlapm_args.ml" 229 7575 7579 "tlapm_args.ml" 229 7575 7640
+type(
+  (string -> Arg.usage_msg, unit, Arg.usage_msg, Arg.usage_msg,
+   Arg.usage_msg, Arg.usage_msg)
+  format6
+)
+"tlapm_args.ml" 231 7646 7648 "tlapm_args.ml" 231 7646 7654
+type(
+  (unit -> unit) ref
+)
+ident(
+  int_ref helpfn "tlapm_args.ml" 131 3005 3011 "tlapm_args.ml" 131 3005 3017
+)
+"tlapm_args.ml" 231 7646 7655 "tlapm_args.ml" 231 7646 7657
+type(
+  (unit -> unit) ref -> (unit -> unit) -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"tlapm_args.ml" 231 7646 7668 "tlapm_args.ml" 231 7646 7670
+type(
+  unit
+)
+"tlapm_args.ml" 232 7674 7678 "tlapm_args.ml" 232 7674 7687
+type(
+  (Arg.key * Arg.spec * Arg.doc) list -> Arg.usage_msg -> unit
+)
+ident(
+  int_ref Stdlib.Arg.usage "arg.mli" 193 9136 9136 "arg.mli" 193 9136 9192
+)
+"tlapm_args.ml" 232 7674 7688 "tlapm_args.ml" 232 7674 7692
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref opts "tlapm_args.ml" 227 7526 7532 "tlapm_args.ml" 227 7526 7536
+)
+"tlapm_args.ml" 233 7693 7700 "tlapm_args.ml" 233 7693 7714
+type(
+  (string -> Arg.usage_msg, unit, Arg.usage_msg) format ->
+  string -> Arg.usage_msg
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"tlapm_args.ml" 233 7693 7715 "tlapm_args.ml" 233 7693 7724
+type(
+  (string -> Arg.usage_msg, unit, Arg.usage_msg, Arg.usage_msg,
+   Arg.usage_msg, Arg.usage_msg)
+  format6
+)
+ident(
+  int_ref usage_fmt "tlapm_args.ml" 228 7557 7563 "tlapm_args.ml" 228 7557 7572
+)
+"tlapm_args.ml" 233 7693 7726 "tlapm_args.ml" 233 7693 7743
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.Filename.basename "filename.mli" 105 4062 4062 "filename.mli" 105 4062 4093
+)
+"tlapm_args.ml" 233 7693 7744 "tlapm_args.ml" 233 7693 7763
+type(
+  string
+)
+ident(
+  int_ref Stdlib.Sys.executable_name "sys.mli" 29 1489 1489 "sys.mli" 29 1489 1517
+)
+"tlapm_args.ml" 233 7693 7725 "tlapm_args.ml" 233 7693 7764
+type(
+  string
+)
+"tlapm_args.ml" 233 7693 7699 "tlapm_args.ml" 233 7693 7765
+type(
+  Arg.usage_msg
+)
+"tlapm_args.ml" 232 7674 7678 "tlapm_args.ml" 233 7693 7765
+type(
+  unit
+)
+"tlapm_args.ml" 234 7768 7772 "tlapm_args.ml" 234 7768 7776
+type(
+  int -> unit
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1344 51645 51645 "stdlib.mli" 1344 51645 51665
+)
+"tlapm_args.ml" 234 7768 7777 "tlapm_args.ml" 234 7768 7778
+type(
+  int
+)
+"tlapm_args.ml" 234 7768 7772 "tlapm_args.ml" 234 7768 7778
+type(
+  unit
+)
+"tlapm_args.ml" 232 7674 7678 "tlapm_args.ml" 234 7768 7778
+type(
+  unit
+)
+"tlapm_args.ml" 231 7646 7658 "tlapm_args.ml" 235 7779 7784
+type(
+  unit -> unit
+)
+"tlapm_args.ml" 231 7646 7648 "tlapm_args.ml" 235 7779 7784
+type(
+  unit
+)
+"tlapm_args.ml" 236 7787 7793 "tlapm_args.ml" 236 7787 7797
+type(
+  string list
+)
+ident(
+  def args "tlapm_args.ml" 237 7826 7828 "tlapm_args.ml" 266 8915 8922
+)
+"tlapm_args.ml" 236 7787 7800 "tlapm_args.ml" 236 7787 7813
+type(
+  string array -> string list
+)
+ident(
+  int_ref Stdlib.Array.to_list "array.mli" 150 6222 6222 "array.mli" 150 6222 6255
+)
+"tlapm_args.ml" 236 7787 7814 "tlapm_args.ml" 236 7787 7822
+type(
+  string array
+)
+ident(
+  int_ref Stdlib.Sys.argv "sys.mli" 23 1238 1238 "sys.mli" 23 1238 1280
+)
+"tlapm_args.ml" 236 7787 7800 "tlapm_args.ml" 236 7787 7822
+type(
+  string list
+)
+"tlapm_args.ml" 237 7826 7828 "tlapm_args.ml" 237 7826 7838
+type(
+  string list ->
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  string list ref ->
+  (string -> Arg.usage_msg, unit, Arg.usage_msg) format -> unit
+)
+ident(
+  int_ref parse_args "tlapm_args.ml" 53 1087 1091 "tlapm_args.ml" 53 1087 1101
+)
+"tlapm_args.ml" 237 7826 7839 "tlapm_args.ml" 237 7826 7843
+type(
+  string list
+)
+ident(
+  int_ref args "tlapm_args.ml" 236 7787 7793 "tlapm_args.ml" 236 7787 7797
+)
+"tlapm_args.ml" 237 7826 7844 "tlapm_args.ml" 237 7826 7848
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref opts "tlapm_args.ml" 227 7526 7532 "tlapm_args.ml" 227 7526 7536
+)
+"tlapm_args.ml" 237 7826 7849 "tlapm_args.ml" 237 7826 7853
+type(
+  string list ref
+)
+ident(
+  int_ref mods "tlapm_args.ml" 130 2982 2988 "tlapm_args.ml" 130 2982 2992
+)
+"tlapm_args.ml" 237 7826 7854 "tlapm_args.ml" 237 7826 7863
+type(
+  (string -> Arg.usage_msg, unit, Arg.usage_msg, Arg.usage_msg,
+   Arg.usage_msg, Arg.usage_msg)
+  format6
+)
+ident(
+  int_ref usage_fmt "tlapm_args.ml" 228 7557 7563 "tlapm_args.ml" 228 7557 7572
+)
+"tlapm_args.ml" 237 7826 7828 "tlapm_args.ml" 237 7826 7863
+type(
+  unit
+)
+"tlapm_args.ml" 238 7866 7871 "tlapm_args.ml" 238 7866 7872
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"tlapm_args.ml" 238 7866 7872 "tlapm_args.ml" 238 7866 7883
+type(
+  bool ref
+)
+ident(
+  int_ref show_config "tlapm_args.ml" 9 122 126 "tlapm_args.ml" 9 122 137
+)
+"tlapm_args.ml" 238 7866 7871 "tlapm_args.ml" 238 7866 7883
+type(
+  bool
+)
+"tlapm_args.ml" 238 7866 7884 "tlapm_args.ml" 238 7866 7886
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 227 9492 9492 "stdlib.mli" 227 9492 9542
+)
+"tlapm_args.ml" 238 7866 7887 "tlapm_args.ml" 238 7866 7888
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"tlapm_args.ml" 238 7866 7888 "tlapm_args.ml" 238 7866 7895
+type(
+  bool ref
+)
+ident(
+  int_ref Params.verbose "params.mli" 13 193 193 "params.mli" 13 193 215
+)
+"tlapm_args.ml" 238 7866 7887 "tlapm_args.ml" 238 7866 7895
+type(
+  bool
+)
+"tlapm_args.ml" 238 7866 7871 "tlapm_args.ml" 238 7866 7895
+type(
+  bool
+)
+"tlapm_args.ml" 239 7907 7911 "tlapm_args.ml" 239 7907 7924
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_endline "stdlib.mli" 866 31615 31615 "stdlib.mli" 866 31615 31649
+)
+"tlapm_args.ml" 239 7907 7926 "tlapm_args.ml" 239 7907 7937
+type(
+  bool -> string
+)
+ident(
+  int_ref Params.printconfig "params.mli" 96 2100 2100 "params.mli" 96 2100 2131
+)
+"tlapm_args.ml" 239 7907 7938 "tlapm_args.ml" 239 7907 7942
+type(
+  bool
+)
+"tlapm_args.ml" 239 7907 7925 "tlapm_args.ml" 239 7907 7943
+type(
+  string
+)
+"tlapm_args.ml" 239 7907 7911 "tlapm_args.ml" 239 7907 7943
+type(
+  unit
+)
+"tlapm_args.ml" 240 7946 7950 "tlapm_args.ml" 240 7946 7955
+type(
+  out_channel -> unit
+)
+ident(
+  int_ref Stdlib.flush "stdlib.mli" 971 35429 35429 "stdlib.mli" 971 35429 35460
+)
+"tlapm_args.ml" 240 7946 7956 "tlapm_args.ml" 240 7946 7962
+type(
+  out_channel
+)
+ident(
+  int_ref Stdlib.stdout "stdlib.mli" 841 30979 30979 "stdlib.mli" 841 30979 31003
+)
+"tlapm_args.ml" 240 7946 7950 "tlapm_args.ml" 240 7946 7962
+type(
+  unit
+)
+"tlapm_args.ml" 238 7866 7901 "tlapm_args.ml" 241 7963 7968
+type(
+  unit
+)
+"tlapm_args.ml" 238 7866 7868 "tlapm_args.ml" 241 7963 7968
+type(
+  unit
+)
+"tlapm_args.ml" 242 7971 7976 "tlapm_args.ml" 242 7971 7977
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"tlapm_args.ml" 242 7971 7977 "tlapm_args.ml" 242 7971 7988
+type(
+  bool ref
+)
+ident(
+  int_ref show_config "tlapm_args.ml" 9 122 126 "tlapm_args.ml" 9 122 137
+)
+"tlapm_args.ml" 242 7971 7976 "tlapm_args.ml" 242 7971 7988
+type(
+  bool
+)
+"tlapm_args.ml" 242 7971 7994 "tlapm_args.ml" 242 7971 7998
+type(
+  int -> unit
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1344 51645 51645 "stdlib.mli" 1344 51645 51665
+)
+"tlapm_args.ml" 242 7971 7999 "tlapm_args.ml" 242 7971 8000
+type(
+  int
+)
+"tlapm_args.ml" 242 7971 7994 "tlapm_args.ml" 242 7971 8000
+type(
+  unit
+)
+"tlapm_args.ml" 242 7971 7973 "tlapm_args.ml" 242 7971 8000
+type(
+  unit
+)
+"tlapm_args.ml" 243 8003 8008 "tlapm_args.ml" 243 8003 8009
+type(
+  string list ref -> string list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"tlapm_args.ml" 243 8003 8009 "tlapm_args.ml" 243 8003 8013
+type(
+  string list ref
+)
+ident(
+  int_ref mods "tlapm_args.ml" 130 2982 2988 "tlapm_args.ml" 130 2982 2992
+)
+"tlapm_args.ml" 243 8003 8008 "tlapm_args.ml" 243 8003 8013
+type(
+  string list
+)
+"tlapm_args.ml" 243 8003 8014 "tlapm_args.ml" 243 8003 8015
+type(
+  string list -> string list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"tlapm_args.ml" 243 8003 8016 "tlapm_args.ml" 243 8003 8018
+type(
+  string list
+)
+"tlapm_args.ml" 243 8003 8008 "tlapm_args.ml" 243 8003 8018
+type(
+  bool
+)
+"tlapm_args.ml" 244 8030 8034 "tlapm_args.ml" 244 8030 8043
+type(
+  (Arg.key * Arg.spec * Arg.doc) list -> Arg.usage_msg -> unit
+)
+ident(
+  int_ref Stdlib.Arg.usage "arg.mli" 193 9136 9136 "arg.mli" 193 9136 9192
+)
+"tlapm_args.ml" 244 8030 8044 "tlapm_args.ml" 244 8030 8048
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref opts "tlapm_args.ml" 227 7526 7532 "tlapm_args.ml" 227 7526 7536
+)
+"tlapm_args.ml" 245 8049 8056 "tlapm_args.ml" 245 8049 8070
+type(
+  (string -> Arg.usage_msg, unit, Arg.usage_msg) format ->
+  string -> Arg.usage_msg
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"tlapm_args.ml" 245 8049 8071 "tlapm_args.ml" 246 8108 8174
+type(
+  (string -> Arg.usage_msg, unit, Arg.usage_msg) format
+)
+"tlapm_args.ml" 247 8175 8185 "tlapm_args.ml" 247 8175 8202
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.Filename.basename "filename.mli" 105 4062 4062 "filename.mli" 105 4062 4093
+)
+"tlapm_args.ml" 247 8175 8203 "tlapm_args.ml" 247 8175 8222
+type(
+  string
+)
+ident(
+  int_ref Stdlib.Sys.executable_name "sys.mli" 29 1489 1489 "sys.mli" 29 1489 1517
+)
+"tlapm_args.ml" 247 8175 8184 "tlapm_args.ml" 247 8175 8223
+type(
+  string
+)
+"tlapm_args.ml" 245 8049 8055 "tlapm_args.ml" 247 8175 8224
+type(
+  Arg.usage_msg
+)
+"tlapm_args.ml" 244 8030 8034 "tlapm_args.ml" 247 8175 8224
+type(
+  unit
+)
+"tlapm_args.ml" 248 8227 8231 "tlapm_args.ml" 248 8227 8235
+type(
+  int -> unit
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1344 51645 51645 "stdlib.mli" 1344 51645 51665
+)
+"tlapm_args.ml" 248 8227 8236 "tlapm_args.ml" 248 8227 8237
+type(
+  int
+)
+"tlapm_args.ml" 248 8227 8231 "tlapm_args.ml" 248 8227 8237
+type(
+  unit
+)
+"tlapm_args.ml" 243 8003 8024 "tlapm_args.ml" 249 8238 8243
+type(
+  unit
+)
+"tlapm_args.ml" 243 8003 8005 "tlapm_args.ml" 249 8238 8243
+type(
+  unit
+)
+"tlapm_args.ml" 250 8246 8251 "tlapm_args.ml" 250 8246 8252
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"tlapm_args.ml" 250 8246 8252 "tlapm_args.ml" 250 8246 8259
+type(
+  bool ref
+)
+ident(
+  int_ref Params.summary "params.mli" 88 1830 1830 "params.mli" 88 1830 1851
+)
+"tlapm_args.ml" 250 8246 8251 "tlapm_args.ml" 250 8246 8259
+type(
+  bool
+)
+"tlapm_args.ml" 251 8271 8275 "tlapm_args.ml" 251 8271 8287
+type(
+  bool ref
+)
+ident(
+  int_ref Params.suppress_all "params.mli" 92 1964 1964 "params.mli" 92 1964 1990
+)
+"tlapm_args.ml" 251 8271 8288 "tlapm_args.ml" 251 8271 8290
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"tlapm_args.ml" 251 8271 8291 "tlapm_args.ml" 251 8271 8295
+type(
+  bool
+)
+"tlapm_args.ml" 251 8271 8275 "tlapm_args.ml" 251 8271 8295
+type(
+  unit
+)
+"tlapm_args.ml" 252 8298 8302 "tlapm_args.ml" 252 8298 8307
+type(
+  bool ref
+)
+ident(
+  int_ref Params.check "params.mli" 16 243 243 "params.mli" 16 243 262
+)
+"tlapm_args.ml" 252 8298 8308 "tlapm_args.ml" 252 8298 8310
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"tlapm_args.ml" 252 8298 8311 "tlapm_args.ml" 252 8298 8316
+type(
+  bool
+)
+"tlapm_args.ml" 252 8298 8302 "tlapm_args.ml" 252 8298 8316
+type(
+  unit
+)
+"tlapm_args.ml" 250 8246 8265 "tlapm_args.ml" 253 8319 8324
+type(
+  unit
+)
+"tlapm_args.ml" 250 8246 8248 "tlapm_args.ml" 253 8319 8324
+type(
+  unit
+)
+"tlapm_args.ml" 254 8327 8329 "tlapm_args.ml" 254 8327 8344
+type(
+  unit -> unit
+)
+ident(
+  int_ref Params.check_zenon_ver "params.mli" 98 2173 2173 "params.mli" 98 2173 2206
+)
+"tlapm_args.ml" 254 8327 8345 "tlapm_args.ml" 254 8327 8347
+type(
+  unit
+)
+"tlapm_args.ml" 254 8327 8329 "tlapm_args.ml" 254 8327 8347
+type(
+  unit
+)
+"tlapm_args.ml" 255 8350 8355 "tlapm_args.ml" 255 8350 8356
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"tlapm_args.ml" 255 8350 8356 "tlapm_args.ml" 255 8350 8370
+type(
+  bool ref
+)
+ident(
+  int_ref Params.toolbox "params.mli" 6 83 83 "params.mli" 6 83 104
+)
+"tlapm_args.ml" 255 8350 8355 "tlapm_args.ml" 255 8350 8370
+type(
+  bool
+)
+"tlapm_args.ml" 256 8382 8386 "tlapm_args.ml" 256 8382 8399
+type(
+  (int -> int -> int -> unit, out_channel, unit) format ->
+  int -> int -> int -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"tlapm_args.ml" 256 8382 8400 "tlapm_args.ml" 256 8382 8432
+type(
+  (int -> int -> int -> unit, out_channel, unit) format
+)
+"tlapm_args.ml" 257 8433 8451 "tlapm_args.ml" 257 8433 8464
+type(
+  int
+)
+ident(
+  int_ref Version.major "version.mli" 4 62 62 "version.mli" 4 62 76
+)
+"tlapm_args.ml" 257 8433 8465 "tlapm_args.ml" 257 8433 8478
+type(
+  int
+)
+ident(
+  int_ref Version.minor "version.mli" 5 77 77 "version.mli" 5 77 91
+)
+"tlapm_args.ml" 257 8433 8479 "tlapm_args.ml" 257 8433 8492
+type(
+  int
+)
+ident(
+  int_ref Version.micro "version.mli" 6 92 92 "version.mli" 6 92 106
+)
+"tlapm_args.ml" 256 8382 8386 "tlapm_args.ml" 257 8433 8492
+type(
+  unit
+)
+"tlapm_args.ml" 258 8494 8502 "tlapm_args.ml" 258 8494 8504
+type(
+  Unix.tm
+)
+ident(
+  def tm "tlapm_args.ml" 259 8548 8552 "tlapm_args.ml" 264 8881 8907
+)
+"tlapm_args.ml" 258 8494 8507 "tlapm_args.ml" 258 8494 8521
+type(
+  float -> Unix.tm
+)
+ident(
+  int_ref Unix.localtime "unix.mli" 1186 48971 48971 "unix.mli" 1186 48971 48998
+)
+"tlapm_args.ml" 258 8494 8523 "tlapm_args.ml" 258 8494 8540
+type(
+  unit -> float
+)
+ident(
+  int_ref Unix.gettimeofday "unix.mli" 1177 48558 48558 "unix.mli" 1177 48558 48590
+)
+"tlapm_args.ml" 258 8494 8541 "tlapm_args.ml" 258 8494 8543
+type(
+  unit
+)
+"tlapm_args.ml" 258 8494 8522 "tlapm_args.ml" 258 8494 8544
+type(
+  float
+)
+"tlapm_args.ml" 258 8494 8507 "tlapm_args.ml" 258 8494 8544
+type(
+  Unix.tm
+)
+"tlapm_args.ml" 259 8548 8552 "tlapm_args.ml" 259 8548 8565
+type(
+  (int -> int -> int -> int -> int -> int -> unit, out_channel, unit) format ->
+  int -> int -> int -> int -> int -> int -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"tlapm_args.ml" 259 8548 8566 "tlapm_args.ml" 259 8548 8613
+type(
+  (int -> int -> int -> int -> int -> int -> unit, out_channel, unit) format
+)
+"tlapm_args.ml" 260 8614 8633 "tlapm_args.ml" 260 8614 8635
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "tlapm_args.ml" 258 8494 8502 "tlapm_args.ml" 258 8494 8504
+)
+"tlapm_args.ml" 260 8614 8633 "tlapm_args.ml" 260 8614 8648
+type(
+  int
+)
+"tlapm_args.ml" 260 8614 8649 "tlapm_args.ml" 260 8614 8650
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"tlapm_args.ml" 260 8614 8651 "tlapm_args.ml" 260 8614 8655
+type(
+  int
+)
+"tlapm_args.ml" 260 8614 8632 "tlapm_args.ml" 260 8614 8656
+type(
+  int
+)
+"tlapm_args.ml" 260 8614 8658 "tlapm_args.ml" 260 8614 8660
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "tlapm_args.ml" 258 8494 8502 "tlapm_args.ml" 258 8494 8504
+)
+"tlapm_args.ml" 260 8614 8658 "tlapm_args.ml" 260 8614 8672
+type(
+  int
+)
+"tlapm_args.ml" 260 8614 8673 "tlapm_args.ml" 260 8614 8674
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"tlapm_args.ml" 260 8614 8675 "tlapm_args.ml" 260 8614 8676
+type(
+  int
+)
+"tlapm_args.ml" 260 8614 8657 "tlapm_args.ml" 260 8614 8677
+type(
+  int
+)
+"tlapm_args.ml" 260 8614 8678 "tlapm_args.ml" 260 8614 8680
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "tlapm_args.ml" 258 8494 8502 "tlapm_args.ml" 258 8494 8504
+)
+"tlapm_args.ml" 260 8614 8678 "tlapm_args.ml" 260 8614 8693
+type(
+  int
+)
+"tlapm_args.ml" 261 8694 8712 "tlapm_args.ml" 261 8694 8714
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "tlapm_args.ml" 258 8494 8502 "tlapm_args.ml" 258 8494 8504
+)
+"tlapm_args.ml" 261 8694 8712 "tlapm_args.ml" 261 8694 8727
+type(
+  int
+)
+"tlapm_args.ml" 261 8694 8728 "tlapm_args.ml" 261 8694 8730
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "tlapm_args.ml" 258 8494 8502 "tlapm_args.ml" 258 8494 8504
+)
+"tlapm_args.ml" 261 8694 8728 "tlapm_args.ml" 261 8694 8742
+type(
+  int
+)
+"tlapm_args.ml" 261 8694 8743 "tlapm_args.ml" 261 8694 8745
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "tlapm_args.ml" 258 8494 8502 "tlapm_args.ml" 258 8494 8504
+)
+"tlapm_args.ml" 261 8694 8743 "tlapm_args.ml" 261 8694 8757
+type(
+  int
+)
+"tlapm_args.ml" 259 8548 8552 "tlapm_args.ml" 261 8694 8757
+type(
+  unit
+)
+"tlapm_args.ml" 262 8759 8763 "tlapm_args.ml" 262 8759 8776
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"tlapm_args.ml" 262 8759 8777 "tlapm_args.ml" 262 8759 8803
+type(
+  (unit, out_channel, unit) format
+)
+"tlapm_args.ml" 262 8759 8763 "tlapm_args.ml" 262 8759 8803
+type(
+  unit
+)
+"tlapm_args.ml" 263 8805 8809 "tlapm_args.ml" 263 8805 8819
+type(
+  (string -> unit) -> string array -> unit
+)
+ident(
+  int_ref Stdlib.Array.iter "array.mli" 162 6546 6546 "array.mli" 162 6546 6589
+)
+"tlapm_args.ml" 263 8805 8825 "tlapm_args.ml" 263 8805 8826
+type(
+  string
+)
+ident(
+  def s "tlapm_args.ml" 263 8805 8830 "tlapm_args.ml" 263 8805 8869
+)
+"tlapm_args.ml" 263 8805 8830 "tlapm_args.ml" 263 8805 8843
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"tlapm_args.ml" 263 8805 8844 "tlapm_args.ml" 263 8805 8849
+type(
+  (string -> unit, out_channel, unit) format
+)
+"tlapm_args.ml" 263 8805 8851 "tlapm_args.ml" 263 8805 8866
+type(
+  string -> string
+)
+ident(
+  int_ref quote_if_needed "tlapm_args.ml" 116 2663 2667 "tlapm_args.ml" 116 2663 2682
+)
+"tlapm_args.ml" 263 8805 8867 "tlapm_args.ml" 263 8805 8868
+type(
+  string
+)
+ident(
+  int_ref s "tlapm_args.ml" 263 8805 8825 "tlapm_args.ml" 263 8805 8826
+)
+"tlapm_args.ml" 263 8805 8850 "tlapm_args.ml" 263 8805 8869
+type(
+  string
+)
+"tlapm_args.ml" 263 8805 8830 "tlapm_args.ml" 263 8805 8869
+type(
+  unit
+)
+"tlapm_args.ml" 263 8805 8820 "tlapm_args.ml" 263 8805 8870
+type(
+  string -> unit
+)
+"tlapm_args.ml" 263 8805 8871 "tlapm_args.ml" 263 8805 8879
+type(
+  string array
+)
+ident(
+  int_ref Stdlib.Sys.argv "sys.mli" 23 1238 1238 "sys.mli" 23 1238 1280
+)
+"tlapm_args.ml" 263 8805 8809 "tlapm_args.ml" 263 8805 8879
+type(
+  unit
+)
+"tlapm_args.ml" 264 8881 8885 "tlapm_args.ml" 264 8881 8898
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"tlapm_args.ml" 264 8881 8899 "tlapm_args.ml" 264 8881 8907
+type(
+  (unit, out_channel, unit) format
+)
+"tlapm_args.ml" 264 8881 8885 "tlapm_args.ml" 264 8881 8907
+type(
+  unit
+)
+"tlapm_args.ml" 263 8805 8809 "tlapm_args.ml" 264 8881 8907
+type(
+  unit
+)
+"tlapm_args.ml" 262 8759 8763 "tlapm_args.ml" 264 8881 8907
+type(
+  unit
+)
+"tlapm_args.ml" 259 8548 8552 "tlapm_args.ml" 264 8881 8907
+type(
+  unit
+)
+"tlapm_args.ml" 258 8494 8498 "tlapm_args.ml" 264 8881 8907
+type(
+  unit
+)
+"tlapm_args.ml" 255 8350 8376 "tlapm_args.ml" 265 8908 8913
+type(
+  unit
+)
+"tlapm_args.ml" 255 8350 8352 "tlapm_args.ml" 265 8908 8913
+type(
+  unit
+)
+"tlapm_args.ml" 266 8915 8917 "tlapm_args.ml" 266 8915 8918
+type(
+  string list ref -> string list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"tlapm_args.ml" 266 8915 8918 "tlapm_args.ml" 266 8915 8922
+type(
+  string list ref
+)
+ident(
+  int_ref mods "tlapm_args.ml" 130 2982 2988 "tlapm_args.ml" 130 2982 2992
+)
+"tlapm_args.ml" 266 8915 8917 "tlapm_args.ml" 266 8915 8922
+type(
+  string list
+)
+"tlapm_args.ml" 255 8350 8352 "tlapm_args.ml" 266 8915 8922
+type(
+  string list
+)
+"tlapm_args.ml" 254 8327 8329 "tlapm_args.ml" 266 8915 8922
+type(
+  string list
+)
+"tlapm_args.ml" 250 8246 8248 "tlapm_args.ml" 266 8915 8922
+type(
+  string list
+)
+"tlapm_args.ml" 243 8003 8005 "tlapm_args.ml" 266 8915 8922
+type(
+  string list
+)
+"tlapm_args.ml" 242 7971 7973 "tlapm_args.ml" 266 8915 8922
+type(
+  string list
+)
+"tlapm_args.ml" 238 7866 7868 "tlapm_args.ml" 266 8915 8922
+type(
+  string list
+)
+"tlapm_args.ml" 237 7826 7828 "tlapm_args.ml" 266 8915 8922
+type(
+  string list
+)
+"tlapm_args.ml" 236 7787 7789 "tlapm_args.ml" 266 8915 8922
+type(
+  string list
+)
+"tlapm_args.ml" 231 7646 7648 "tlapm_args.ml" 266 8915 8922
+type(
+  string list
+)
+"tlapm_args.ml" 228 7557 7559 "tlapm_args.ml" 266 8915 8922
+type(
+  string list
+)
+"tlapm_args.ml" 227 7526 7528 "tlapm_args.ml" 266 8915 8922
+type(
+  string list
+)
+"tlapm_args.ml" 136 3172 3174 "tlapm_args.ml" 266 8915 8922
+type(
+  string list
+)
+"tlapm_args.ml" 135 3141 3143 "tlapm_args.ml" 266 8915 8922
+type(
+  string list
+)
+"tlapm_args.ml" 134 3111 3113 "tlapm_args.ml" 266 8915 8922
+type(
+  string list
+)
+"tlapm_args.ml" 133 3077 3079 "tlapm_args.ml" 266 8915 8922
+type(
+  string list
+)
+"tlapm_args.ml" 132 3042 3044 "tlapm_args.ml" 266 8915 8922
+type(
+  string list
+)
+"tlapm_args.ml" 131 3005 3007 "tlapm_args.ml" 266 8915 8922
+type(
+  string list
+)
+"tlapm_args.ml" 130 2982 2984 "tlapm_args.ml" 266 8915 8922
+type(
+  string list
+)

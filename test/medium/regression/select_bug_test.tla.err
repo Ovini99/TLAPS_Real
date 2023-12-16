@@ -1,0 +1,247 @@
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:0
+@!!END
+
+File "/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library/TLAPS.tla", line 1, character 1 to line 363, character 77:
+[INFO]: All 0 obligation proved.
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:40:1:40:3
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:40:4:40:25
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:2
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:40:1:40:3
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:smt/smtcommons.ml: encountered sequent-order sequent
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT Def(_, _),
+       ASSUME NEW CONSTANT Def_1(_, _)
+       PROVE  \A n \in Nat :
+                 \A f, f0 :
+                    f
+                    = (CHOOSE g :
+                         g
+                         = [i \in 0..n |->
+                              IF i = 0 THEN f0 ELSE Def_1(g[i - 1], i)])
+                    => (/\ f
+                           = [i \in 0..n |->
+                                IF i = 0 THEN f0 ELSE Def_1(f[i - 1], i)]
+                        /\ \A h :
+                              h
+                              = [i \in 0..n |->
+                                   IF i = 0 THEN f0 ELSE Def_1(h[i - 1], i)]
+                              => h = f) 
+PROVE  /\ TRUE
+       /\ \A n \in Nat :
+             \A f, f0 :
+                f
+                = (CHOOSE g :
+                     g
+                     = [i \in 0..n |->
+                          IF i = 0 THEN f0 ELSE Def(g[i - 1], i)])
+                => (/\ f
+                       = [i \in 0..n |->
+                            IF i = 0 THEN f0 ELSE Def(f[i - 1], i)]
+                    /\ \A h :
+                          h
+                          = [i \in 0..n |->
+                               IF i = 0 THEN f0 ELSE Def(h[i - 1], i)]
+                          => h = f)
+
+@!!END
+
+Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:40:4:40:25
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:40:1:40:3
+@!!status:being proved
+@!!prover:zenon
+@!!meth:(50 s); time-limit: 50
+@!!obl:
+ASSUME NEW CONSTANT Def(_, _),
+       ASSUME NEW CONSTANT Def_1(_, _)
+       PROVE  \A n \in Nat :
+                 \A f, f0 :
+                    f
+                    = (CHOOSE g :
+                         g
+                         = [i \in 0..n |->
+                              IF i = 0 THEN f0 ELSE Def_1(g[i - 1], i)])
+                    => (/\ f
+                           = [i \in 0..n |->
+                                IF i = 0 THEN f0 ELSE Def_1(f[i - 1], i)]
+                        /\ \A h :
+                              h
+                              = [i \in 0..n |->
+                                   IF i = 0 THEN f0 ELSE Def_1(h[i - 1], i)]
+                              => h = f) 
+PROVE  /\ TRUE
+       /\ \A n \in Nat :
+             \A f, f0 :
+                f
+                = (CHOOSE g :
+                     g
+                     = [i \in 0..n |->
+                          IF i = 0 THEN f0 ELSE Def(g[i - 1], i)])
+                => (/\ f
+                       = [i \in 0..n |->
+                            IF i = 0 THEN f0 ELSE Def(f[i - 1], i)]
+                    /\ \A h :
+                          h
+                          = [i \in 0..n |->
+                               IF i = 0 THEN f0 ELSE Def(h[i - 1], i)]
+                          => h = f)
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:40:1:40:3
+@!!status:failed
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 50.0 (100%)
+@!!reason:timeout
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT Def(_, _),
+       ASSUME NEW CONSTANT Def_1(_, _)
+       PROVE  \A n \in Nat :
+                 \A f, f0 :
+                    f
+                    = (CHOOSE g :
+                         g
+                         = [i \in 0..n |->
+                              IF i = 0 THEN f0 ELSE Def_1(g[i - 1], i)])
+                    => (/\ f
+                           = [i \in 0..n |->
+                                IF i = 0 THEN f0 ELSE Def_1(f[i - 1], i)]
+                        /\ \A h :
+                              h
+                              = [i \in 0..n |->
+                                   IF i = 0 THEN f0 ELSE Def_1(h[i - 1], i)]
+                              => h = f) 
+PROVE  /\ TRUE
+       /\ \A n \in Nat :
+             \A f, f0 :
+                f
+                = (CHOOSE g :
+                     g
+                     = [i \in 0..n |->
+                          IF i = 0 THEN f0 ELSE Def(g[i - 1], i)])
+                => (/\ f
+                       = [i \in 0..n |->
+                            IF i = 0 THEN f0 ELSE Def(f[i - 1], i)]
+                    /\ \A h :
+                          h
+                          = [i \in 0..n |->
+                               IF i = 0 THEN f0 ELSE Def(h[i - 1], i)]
+                          => h = f)
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:40:1:40:3
+@!!status:failed
+@!!prover:isabelle
+@!!meth:auto; time-limit: 150
+@!!reason:Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT Def(_, _),
+       ASSUME NEW CONSTANT Def_1(_, _)
+       PROVE  \A n \in Nat :
+                 \A f, f0 :
+                    f
+                    = (CHOOSE g :
+                         g
+                         = [i \in 0..n |->
+                              IF i = 0 THEN f0 ELSE Def_1(g[i - 1], i)])
+                    => (/\ f
+                           = [i \in 0..n |->
+                                IF i = 0 THEN f0 ELSE Def_1(f[i - 1], i)]
+                        /\ \A h :
+                              h
+                              = [i \in 0..n |->
+                                   IF i = 0 THEN f0 ELSE Def_1(h[i - 1], i)]
+                              => h = f) 
+PROVE  /\ TRUE
+       /\ \A n \in Nat :
+             \A f, f0 :
+                f
+                = (CHOOSE g :
+                     g
+                     = [i \in 0..n |->
+                          IF i = 0 THEN f0 ELSE Def(g[i - 1], i)])
+                => (/\ f
+                       = [i \in 0..n |->
+                            IF i = 0 THEN f0 ELSE Def(f[i - 1], i)]
+                    /\ \A h :
+                          h
+                          = [i \in 0..n |->
+                               IF i = 0 THEN f0 ELSE Def(h[i - 1], i)]
+                          => h = f)
+
+@!!END
+
+File "./select_bug_test.tla", line 40, characters 1-2:
+[ERROR]: Could not prove or check:
+           ASSUME NEW CONSTANT Def(_, _),
+                  FiniteNatInductiveDef 
+           PROVE  /\ TRUE
+                  /\ \A n \in Nat :
+                        \A f, f0 :
+                           f
+                           = (CHOOSE g :
+                                g
+                                = [i \in 0..n |->
+                                   IF i = 0 THEN f0 ELSE Def(g[i - 1], i)])
+                           => (/\ f
+                                  = 
+                                  [i \in 0..n |->
+                                   IF i = 0 THEN f0 ELSE Def(f[i - 1], i)]
+                               /\ \A h :
+                                   h
+                                   = 
+                                   [i \in 0..n |->
+                                   IF i = 0 THEN f0 ELSE Def(h[i - 1], i)]
+                                   => 
+                                   h = f)
+File "./select_bug_test.tla", line 1, character 1 to line 43, character 77:
+[ERROR]: 1/2 obligations failed.
+There were backend errors processing module `"select_bug_test"`.

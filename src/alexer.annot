@@ -1,0 +1,6893 @@
+"alexer.mll" 12 71 80 "alexer.mll" 12 71 81
+ident(
+  def E "alexer.mll" 12 71 89 "alexer.ml" 0 0 -1
+)
+"alexer.mll" 15 116 122 "alexer.mll" 15 116 125
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def eol "alexer.mll" 21 362 364 "alexer.ml" 0 0 -1
+)
+"alexer.mll" 15 116 126 "alexer.mll" 15 116 132
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "alexer.mll" 16 135 139 "alexer.mll" 19 303 360
+)
+"alexer.mll" 16 135 144 "alexer.mll" 16 135 149
+type(
+  Lexing.position
+)
+ident(
+  def start "alexer.mll" 17 202 208 "alexer.mll" 19 303 360
+)
+"alexer.mll" 16 135 151 "alexer.mll" 16 135 155
+type(
+  Lexing.position
+)
+ident(
+  def curr "alexer.mll" 17 202 208 "alexer.mll" 19 303 360
+)
+"alexer.mll" 16 135 143 "alexer.mll" 16 135 156
+type(
+  Lexing.position * Lexing.position
+)
+"alexer.mll" 16 135 160 "alexer.mll" 16 135 166
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.mll" 15 116 126 "alexer.mll" 15 116 132
+)
+"alexer.mll" 16 135 160 "alexer.mll" 16 135 178
+type(
+  Lexing.position
+)
+"alexer.mll" 16 135 180 "alexer.mll" 16 135 186
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.mll" 15 116 126 "alexer.mll" 15 116 132
+)
+"alexer.mll" 16 135 180 "alexer.mll" 16 135 197
+type(
+  Lexing.position
+)
+"alexer.mll" 16 135 159 "alexer.mll" 16 135 198
+type(
+  Lexing.position * Lexing.position
+)
+"alexer.mll" 17 202 208 "alexer.mll" 17 202 214
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.mll" 15 116 126 "alexer.mll" 15 116 132
+)
+"alexer.mll" 17 202 231 "alexer.mll" 17 202 235
+type(
+  Lexing.position
+)
+ident(
+  int_ref curr "alexer.mll" 16 135 151 "alexer.mll" 16 135 155
+)
+"alexer.mll" 18 241 283 "alexer.mll" 18 241 287
+type(
+  Lexing.position
+)
+ident(
+  int_ref curr "alexer.mll" 16 135 151 "alexer.mll" 16 135 155
+)
+"alexer.mll" 18 241 283 "alexer.mll" 18 241 296
+type(
+  int
+)
+"alexer.mll" 18 241 297 "alexer.mll" 18 241 298
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.mll" 18 241 299 "alexer.mll" 18 241 300
+type(
+  int
+)
+"alexer.mll" 18 241 283 "alexer.mll" 18 241 300
+type(
+  int
+)
+"alexer.mll" 19 303 345 "alexer.mll" 19 303 349
+type(
+  Lexing.position
+)
+ident(
+  int_ref curr "alexer.mll" 16 135 151 "alexer.mll" 16 135 155
+)
+"alexer.mll" 19 303 345 "alexer.mll" 19 303 358
+type(
+  int
+)
+"alexer.mll" 17 202 229 "alexer.mll" 19 303 360
+type(
+  Lexing.position
+)
+"alexer.mll" 17 202 208 "alexer.mll" 19 303 360
+type(
+  unit
+)
+"alexer.mll" 16 135 139 "alexer.mll" 19 303 360
+type(
+  unit
+)
+"alexer.mll" 21 362 368 "alexer.mll" 21 362 380
+type(
+  Lexing.lexbuf -> 'a
+)
+ident(
+  def tab_complain "alexer.ml" 27 644 644 "alexer.ml" 0 0 -1
+)
+"alexer.mll" 21 362 381 "alexer.mll" 21 362 387
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "alexer.mll" 22 390 394 "alexer.mll" 27 605 624
+)
+"alexer.mll" 22 390 398 "alexer.mll" 22 390 399
+type(
+  E.error
+)
+ident(
+  def e "alexer.mll" 23 456 460 "alexer.mll" 27 605 624
+)
+"alexer.mll" 22 390 402 "alexer.mll" 22 390 409
+type(
+  Loc.locus -> E.error
+)
+ident(
+  int_ref E.error "pars.mli" 8 212 214 "pars.mli" 8 212 244
+)
+"alexer.mll" 22 390 411 "alexer.mll" 22 390 432
+type(
+  Lexing.position -> Loc.locus
+)
+ident(
+  int_ref Loc.locus_of_position "loc.mli" 56 1480 1480 "loc.mli" 56 1480 1528
+)
+"alexer.mll" 22 390 433 "alexer.mll" 22 390 439
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.mll" 21 362 381 "alexer.mll" 21 362 387
+)
+"alexer.mll" 22 390 433 "alexer.mll" 22 390 451
+type(
+  Lexing.position
+)
+"alexer.mll" 22 390 410 "alexer.mll" 22 390 452
+type(
+  Loc.locus
+)
+"alexer.mll" 22 390 402 "alexer.mll" 22 390 452
+type(
+  E.error
+)
+"alexer.mll" 23 456 464 "alexer.mll" 23 456 465
+type(
+  E.error
+)
+ident(
+  def e "alexer.mll" 27 605 609 "alexer.mll" 27 605 624
+)
+"alexer.mll" 24 468 474 "alexer.mll" 24 468 494
+type(
+  string -> E.error -> E.error
+)
+ident(
+  int_ref E.err_set_unexpected "pars.mli" 13 439 441 "pars.mli" 13 439 490
+)
+"alexer.mll" 24 468 495 "alexer.mll" 25 539 595
+type(
+  string
+)
+"alexer.mll" 25 539 596 "alexer.mll" 25 539 597
+type(
+  E.error
+)
+ident(
+  int_ref e "alexer.mll" 22 390 398 "alexer.mll" 22 390 399
+)
+"alexer.mll" 24 468 474 "alexer.mll" 25 539 597
+type(
+  E.error
+)
+"alexer.mll" 27 605 609 "alexer.mll" 27 605 614
+type(
+  exn -> 'a
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"alexer.mll" 27 605 622 "alexer.mll" 27 605 623
+type(
+  E.error
+)
+ident(
+  int_ref e "alexer.mll" 23 456 464 "alexer.mll" 23 456 465
+)
+"alexer.mll" 27 605 615 "alexer.mll" 27 605 624
+type(
+  exn
+)
+"alexer.mll" 27 605 609 "alexer.mll" 27 605 624
+type(
+  'a
+)
+"alexer.mll" 23 456 460 "alexer.mll" 27 605 624
+type(
+  'a
+)
+"alexer.mll" 22 390 394 "alexer.mll" 27 605 624
+type(
+  'a
+)
+"alexer.ml" 27 644 648 "alexer.ml" 27 644 666
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "alexer.ml" 8179 570262 570262 "alexer.ml" 0 0 -1
+)
+"alexer.ml" 29 691 694 "alexer.ml" 109 6291 6320
+type(
+  string
+)
+"alexer.ml" 111 6345 6348 "alexer.ml" 191 11945 11974
+type(
+  string
+)
+"alexer.ml" 193 11999 12002 "alexer.ml" 273 17599 17628
+type(
+  string
+)
+"alexer.ml" 275 17651 17654 "alexer.ml" 4061 282671 282732
+type(
+  string
+)
+"alexer.ml" 4063 282755 282758 "alexer.ml" 7849 547775 547836
+type(
+  string
+)
+"alexer.ml" 7851 547863 547866 "alexer.ml" 7931 553463 553492
+type(
+  string
+)
+"alexer.ml" 7933 553522 553525 "alexer.ml" 8013 559122 559151
+type(
+  string
+)
+"alexer.ml" 8015 559181 559184 "alexer.ml" 8095 564781 564810
+type(
+  string
+)
+"alexer.ml" 8097 564838 564841 "alexer.ml" 8134 567428 567481
+type(
+  string
+)
+"alexer.ml" 8136 567509 567512 "alexer.ml" 8173 570099 570152
+type(
+  string
+)
+"alexer.ml" 8175 570174 570177 "alexer.ml" 8176 570244 570257
+type(
+  string
+)
+"alexer.ml" 27 644 669 "alexer.ml" 8177 570259 570260
+type(
+  Lexing.lex_tables
+)
+"alexer.ml" 8179 570262 570270 "alexer.ml" 8179 570262 570277
+type(
+  Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  def modfile "alexer.ml" 8179 570262 570262 "alexer.ml" 0 0 -1
+)
+"alexer.ml" 8179 570262 570278 "alexer.ml" 8179 570262 570284
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "alexer.ml" 8180 570287 570290 "alexer.ml" 8180 570287 570322
+)
+"alexer.ml" 8180 570287 570290 "alexer.ml" 8180 570287 570313
+type(
+  Lexing.lexbuf -> int -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref __ocaml_lex_modfile_rec "alexer.ml" 8181 570323 570327 "alexer.ml" 8181 570323 570350
+)
+"alexer.ml" 8180 570287 570314 "alexer.ml" 8180 570287 570320
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8179 570262 570278 "alexer.ml" 8179 570262 570284
+)
+"alexer.ml" 8180 570287 570321 "alexer.ml" 8180 570287 570322
+type(
+  int
+)
+"alexer.ml" 8180 570287 570290 "alexer.ml" 8180 570287 570322
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8181 570323 570327 "alexer.ml" 8181 570323 570350
+type(
+  Lexing.lexbuf -> int -> Tla_parser.Token.token_ list
+)
+ident(
+  def __ocaml_lex_modfile_rec "alexer.ml" 8179 570262 570262 "alexer.ml" 0 0 -1
+)
+"alexer.ml" 8181 570323 570351 "alexer.ml" 8181 570323 570357
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "alexer.ml" 8181 570323 570358 "alexer.ml" 8204 570819 570873
+)
+"alexer.ml" 8181 570323 570358 "alexer.ml" 8181 570323 570375
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "alexer.ml" 8182 570378 570380 "alexer.ml" 8204 570819 570873
+)
+"alexer.ml" 8182 570378 570386 "alexer.ml" 8182 570378 570399
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  int_ref Stdlib.Lexing.engine "lexing.mli" 213 8766 8766 "lexing.mli" 213 8766 8813
+)
+"alexer.ml" 8182 570378 570400 "alexer.ml" 8182 570378 570418
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "alexer.ml" 27 644 648 "alexer.ml" 27 644 666
+)
+"alexer.ml" 8182 570378 570419 "alexer.ml" 8182 570378 570436
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "alexer.ml" 8181 570323 570358 "alexer.ml" 8181 570323 570375
+)
+"alexer.ml" 8182 570378 570437 "alexer.ml" 8182 570378 570443
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8181 570323 570351 "alexer.ml" 8181 570323 570357
+)
+"alexer.ml" 8182 570378 570386 "alexer.ml" 8182 570378 570443
+type(
+  int
+)
+"alexer.ml" 8183 570449 570457 "alexer.ml" 8183 570449 570458
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 53 570480 570496 "alexer.mll" 53 570480 570502
+type(
+  string
+)
+"alexer.mll" 53 570480 570490 "alexer.mll" 53 570480 570502
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 53 570480 570508 "alexer.mll" 53 570480 570516
+type(
+  string
+)
+"alexer.mll" 53 570480 570504 "alexer.mll" 53 570480 570516
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 53 570480 570486 "alexer.mll" 53 570480 570520
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8188 570541 570545 "alexer.ml" 8188 570541 570546
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 55 570568 570576 "alexer.mll" 55 570568 570579
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref eol "alexer.mll" 15 116 122 "alexer.mll" 15 116 125
+)
+"alexer.mll" 55 570568 570580 "alexer.mll" 55 570568 570586
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8181 570323 570351 "alexer.ml" 8181 570323 570357
+)
+"alexer.mll" 55 570568 570576 "alexer.mll" 55 570568 570586
+type(
+  unit
+)
+"alexer.mll" 55 570568 570589 "alexer.mll" 55 570568 570596
+type(
+  Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref modfile "alexer.ml" 8179 570262 570270 "alexer.ml" 8179 570262 570277
+)
+"alexer.mll" 55 570568 570597 "alexer.mll" 55 570568 570603
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8181 570323 570351 "alexer.ml" 8181 570323 570357
+)
+"alexer.mll" 55 570568 570589 "alexer.mll" 55 570568 570603
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.mll" 55 570568 570574 "alexer.mll" 55 570568 570605
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8193 570626 570630 "alexer.ml" 8193 570626 570631
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 56 570653 570661 "alexer.mll" 56 570653 570668
+type(
+  Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref modfile "alexer.ml" 8179 570262 570270 "alexer.ml" 8179 570262 570277
+)
+"alexer.mll" 56 570653 570669 "alexer.mll" 56 570653 570675
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8181 570323 570351 "alexer.ml" 8181 570323 570357
+)
+"alexer.mll" 56 570653 570659 "alexer.mll" 56 570653 570677
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8198 570698 570702 "alexer.ml" 8198 570698 570703
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 57 570725 570733 "alexer.mll" 57 570725 570739
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8203 570760 570764 "alexer.ml" 8203 570760 570781
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "alexer.ml" 8203 570760 570785 "alexer.ml" 8204 570819 570873
+)
+"alexer.ml" 8203 570760 570785 "alexer.ml" 8203 570760 570791
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8181 570323 570351 "alexer.ml" 8181 570323 570357
+)
+"alexer.ml" 8203 570760 570785 "alexer.ml" 8203 570760 570810
+type(
+  Lexing.lexbuf -> unit
+)
+"alexer.ml" 8203 570760 570811 "alexer.ml" 8203 570760 570817
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8181 570323 570351 "alexer.ml" 8181 570323 570357
+)
+"alexer.ml" 8203 570760 570785 "alexer.ml" 8203 570760 570817
+type(
+  unit
+)
+"alexer.ml" 8204 570819 570825 "alexer.ml" 8204 570819 570848
+type(
+  Lexing.lexbuf -> int -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref __ocaml_lex_modfile_rec "alexer.ml" 8181 570323 570327 "alexer.ml" 8181 570323 570350
+)
+"alexer.ml" 8204 570819 570849 "alexer.ml" 8204 570819 570855
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8181 570323 570351 "alexer.ml" 8181 570323 570357
+)
+"alexer.ml" 8204 570819 570856 "alexer.ml" 8204 570819 570873
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "alexer.ml" 8203 570760 570764 "alexer.ml" 8203 570760 570781
+)
+"alexer.ml" 8204 570819 570825 "alexer.ml" 8204 570819 570873
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8203 570760 570785 "alexer.ml" 8204 570819 570873
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8182 570378 570380 "alexer.ml" 8204 570819 570873
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8206 570875 570879 "alexer.ml" 8206 570875 570884
+type(
+  Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  def token "alexer.ml" 8179 570262 570262 "alexer.ml" 0 0 -1
+)
+"alexer.ml" 8206 570875 570885 "alexer.ml" 8206 570875 570891
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "alexer.ml" 8207 570894 570896 "alexer.ml" 8207 570894 570971
+)
+"alexer.ml" 8207 570894 570896 "alexer.ml" 8207 570894 570902
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8206 570875 570885 "alexer.ml" 8206 570875 570891
+)
+"alexer.ml" 8207 570894 570921 "alexer.ml" 8207 570894 570931
+type(
+  int -> int -> int array
+)
+ident(
+  int_ref Stdlib.Array.make "array.mli" 53 2225 2225 "array.mli" 53 2225 2281
+)
+"alexer.ml" 8207 570894 570932 "alexer.ml" 8207 570894 570933
+type(
+  int
+)
+"alexer.ml" 8207 570894 570934 "alexer.ml" 8207 570894 570938
+type(
+  int
+)
+"alexer.ml" 8207 570894 570921 "alexer.ml" 8207 570894 570938
+type(
+  int array
+)
+"alexer.ml" 8207 570894 570896 "alexer.ml" 8207 570894 570938
+type(
+  unit
+)
+"alexer.ml" 8207 570894 570940 "alexer.ml" 8207 570894 570961
+type(
+  Lexing.lexbuf -> int -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref __ocaml_lex_token_rec "alexer.ml" 8208 570972 570976 "alexer.ml" 8208 570972 570997
+)
+"alexer.ml" 8207 570894 570962 "alexer.ml" 8207 570894 570968
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8206 570875 570885 "alexer.ml" 8206 570875 570891
+)
+"alexer.ml" 8207 570894 570969 "alexer.ml" 8207 570894 570971
+type(
+  int
+)
+"alexer.ml" 8207 570894 570940 "alexer.ml" 8207 570894 570971
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8207 570894 570896 "alexer.ml" 8207 570894 570971
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8208 570972 570976 "alexer.ml" 8208 570972 570997
+type(
+  Lexing.lexbuf -> int -> Tla_parser.Token.token_ list
+)
+ident(
+  def __ocaml_lex_token_rec "alexer.ml" 8179 570262 570262 "alexer.ml" 0 0 -1
+)
+"alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "alexer.ml" 8208 570972 571005 "alexer.ml" 8497 577998 578050
+)
+"alexer.ml" 8208 570972 571005 "alexer.ml" 8208 570972 571022
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "alexer.ml" 8209 571025 571027 "alexer.ml" 8497 577998 578050
+)
+"alexer.ml" 8209 571025 571033 "alexer.ml" 8209 571025 571050
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  int_ref Stdlib.Lexing.new_engine "lexing.mli" 214 8814 8814 "lexing.mli" 214 8814 8865
+)
+"alexer.ml" 8209 571025 571051 "alexer.ml" 8209 571025 571069
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "alexer.ml" 27 644 648 "alexer.ml" 27 644 666
+)
+"alexer.ml" 8209 571025 571070 "alexer.ml" 8209 571025 571087
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "alexer.ml" 8208 570972 571005 "alexer.ml" 8208 570972 571022
+)
+"alexer.ml" 8209 571025 571088 "alexer.ml" 8209 571025 571094
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8209 571025 571033 "alexer.ml" 8209 571025 571094
+type(
+  int
+)
+"alexer.ml" 8210 571100 571108 "alexer.ml" 8210 571100 571109
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 62 571131 571156 "alexer.mll" 62 571131 571161
+type(
+  Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref token "alexer.ml" 8206 570875 570879 "alexer.ml" 8206 570875 570884
+)
+"alexer.mll" 62 571131 571162 "alexer.mll" 62 571131 571168
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.mll" 62 571131 571154 "alexer.mll" 62 571131 571170
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8215 571191 571195 "alexer.ml" 8215 571191 571196
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 63 571218 571243 "alexer.mll" 63 571218 571246
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref eol "alexer.mll" 15 116 122 "alexer.mll" 15 116 125
+)
+"alexer.mll" 63 571218 571247 "alexer.mll" 63 571218 571253
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.mll" 63 571218 571243 "alexer.mll" 63 571218 571253
+type(
+  unit
+)
+"alexer.mll" 63 571218 571256 "alexer.mll" 63 571218 571261
+type(
+  Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref token "alexer.ml" 8206 570875 570879 "alexer.ml" 8206 570875 570884
+)
+"alexer.mll" 63 571218 571262 "alexer.mll" 63 571218 571268
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.mll" 63 571218 571256 "alexer.mll" 63 571218 571268
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.mll" 63 571218 571241 "alexer.mll" 63 571218 571270
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8220 571291 571295 "alexer.ml" 8220 571291 571296
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 64 571318 571343 "alexer.mll" 64 571318 571355
+type(
+  Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref tab_complain "alexer.mll" 21 362 368 "alexer.mll" 21 362 380
+)
+"alexer.mll" 64 571318 571356 "alexer.mll" 64 571318 571362
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.mll" 64 571318 571341 "alexer.mll" 64 571318 571364
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8225 571385 571389 "alexer.ml" 8225 571385 571390
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 67 571416 571436 "alexer.mll" 67 571416 571440
+type(
+  string
+)
+ident(
+  def prag "alexer.mll" 68 571570 571576 "alexer.mll" 68 571570 571594
+)
+"alexer.ml" 8230 571460 571462 "alexer.ml" 8230 571460 571479
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8230 571460 571480 "alexer.ml" 8230 571460 571486
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8230 571460 571487 "alexer.ml" 8230 571460 571493
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8230 571460 571487 "alexer.ml" 8230 571460 571514
+type(
+  int
+)
+"alexer.ml" 8230 571460 571516 "alexer.ml" 8230 571460 571522
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8230 571460 571516 "alexer.ml" 8230 571460 571543
+type(
+  int
+)
+"alexer.ml" 8230 571460 571544 "alexer.ml" 8230 571460 571545
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.ml" 8230 571460 571546 "alexer.ml" 8230 571460 571547
+type(
+  int
+)
+"alexer.ml" 8230 571460 571515 "alexer.ml" 8230 571460 571548
+type(
+  int
+)
+"alexer.ml" 8230 571460 571462 "alexer.ml" 8230 571460 571548
+type(
+  string
+)
+"alexer.mll" 68 571570 571586 "alexer.mll" 68 571570 571590
+type(
+  string
+)
+ident(
+  int_ref prag "alexer.mll" 67 571416 571436 "alexer.mll" 67 571416 571440
+)
+"alexer.mll" 68 571570 571580 "alexer.mll" 68 571570 571590
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 68 571570 571576 "alexer.mll" 68 571570 571594
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8226 571394 571394 "alexer.mll" 68 571570 571594
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8235 571615 571619 "alexer.ml" 8235 571615 571620
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 72 571642 571650 "alexer.mll" 72 571642 571657
+type(
+  Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref linecom "alexer.ml" 8562 579671 579675 "alexer.ml" 8562 579671 579682
+)
+"alexer.mll" 72 571642 571658 "alexer.mll" 72 571642 571664
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.mll" 72 571642 571648 "alexer.mll" 72 571642 571666
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8240 571687 571691 "alexer.ml" 8240 571687 571692
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 74 571714 571722 "alexer.mll" 74 571714 571729
+type(
+  int -> Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref comment "alexer.ml" 8584 580252 580256 "alexer.ml" 8584 580252 580263
+)
+"alexer.mll" 74 571714 571730 "alexer.mll" 74 571714 571731
+type(
+  int
+)
+"alexer.mll" 74 571714 571732 "alexer.mll" 74 571714 571738
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.mll" 74 571714 571720 "alexer.mll" 74 571714 571740
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8245 571761 571765 "alexer.ml" 8245 571761 571766
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 77 571792 571805 "alexer.mll" 77 571792 571807
+type(
+  string
+)
+ident(
+  def op "alexer.mll" 78 571937 571943 "alexer.mll" 78 571937 571956
+)
+"alexer.ml" 8250 571827 571829 "alexer.ml" 8250 571827 571846
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8250 571827 571847 "alexer.ml" 8250 571827 571853
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8250 571827 571854 "alexer.ml" 8250 571827 571860
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8250 571827 571854 "alexer.ml" 8250 571827 571881
+type(
+  int
+)
+"alexer.ml" 8250 571827 571883 "alexer.ml" 8250 571827 571889
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8250 571827 571883 "alexer.ml" 8250 571827 571910
+type(
+  int
+)
+"alexer.ml" 8250 571827 571911 "alexer.ml" 8250 571827 571912
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.ml" 8250 571827 571913 "alexer.ml" 8250 571827 571914
+type(
+  int
+)
+"alexer.ml" 8250 571827 571882 "alexer.ml" 8250 571827 571915
+type(
+  int
+)
+"alexer.ml" 8250 571827 571829 "alexer.ml" 8250 571827 571915
+type(
+  string
+)
+"alexer.mll" 78 571937 571950 "alexer.mll" 78 571937 571952
+type(
+  string
+)
+ident(
+  int_ref op "alexer.mll" 77 571792 571805 "alexer.mll" 77 571792 571807
+)
+"alexer.mll" 78 571937 571947 "alexer.mll" 78 571937 571952
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 78 571937 571943 "alexer.mll" 78 571937 571956
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8246 571770 571770 "alexer.mll" 78 571937 571956
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8255 571977 571981 "alexer.ml" 8255 571977 571982
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 79 572008 572048 "alexer.mll" 79 572008 572050
+type(
+  string
+)
+ident(
+  def op "alexer.mll" 80 572173 572179 "alexer.mll" 80 572173 572192
+)
+"alexer.ml" 8260 572070 572072 "alexer.ml" 8260 572070 572089
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8260 572070 572090 "alexer.ml" 8260 572070 572096
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8260 572070 572097 "alexer.ml" 8260 572070 572103
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8260 572070 572097 "alexer.ml" 8260 572070 572124
+type(
+  int
+)
+"alexer.ml" 8260 572070 572125 "alexer.ml" 8260 572070 572131
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8260 572070 572125 "alexer.ml" 8260 572070 572151
+type(
+  int
+)
+"alexer.ml" 8260 572070 572072 "alexer.ml" 8260 572070 572151
+type(
+  string
+)
+"alexer.mll" 80 572173 572186 "alexer.mll" 80 572173 572188
+type(
+  string
+)
+ident(
+  int_ref op "alexer.mll" 79 572008 572048 "alexer.mll" 79 572008 572050
+)
+"alexer.mll" 80 572173 572183 "alexer.mll" 80 572173 572188
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 80 572173 572179 "alexer.mll" 80 572173 572192
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8256 571986 571986 "alexer.mll" 80 572173 572192
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8265 572213 572217 "alexer.ml" 8265 572213 572218
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 84 572240 572256 "alexer.mll" 84 572240 572262
+type(
+  string
+)
+"alexer.mll" 84 572240 572250 "alexer.mll" 84 572240 572262
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 84 572240 572246 "alexer.mll" 84 572240 572266
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8270 572287 572291 "alexer.ml" 8270 572287 572292
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 86 572314 572330 "alexer.mll" 86 572314 572336
+type(
+  string
+)
+"alexer.mll" 86 572314 572324 "alexer.mll" 86 572314 572336
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 86 572314 572320 "alexer.mll" 86 572314 572340
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8275 572361 572365 "alexer.ml" 8275 572361 572367
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 88 572393 572412 "alexer.mll" 88 572393 572416
+type(
+  string
+)
+ident(
+  def dots "alexer.mll" 89 572545 572551 "alexer.mll" 89 572545 572594
+)
+"alexer.ml" 8280 572436 572438 "alexer.ml" 8280 572436 572455
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8280 572436 572456 "alexer.ml" 8280 572436 572462
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8280 572436 572464 "alexer.ml" 8280 572436 572470
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8280 572436 572464 "alexer.ml" 8280 572436 572491
+type(
+  int
+)
+"alexer.ml" 8280 572436 572492 "alexer.ml" 8280 572436 572493
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.ml" 8280 572436 572494 "alexer.ml" 8280 572436 572495
+type(
+  int
+)
+"alexer.ml" 8280 572436 572463 "alexer.ml" 8280 572436 572496
+type(
+  int
+)
+"alexer.ml" 8280 572436 572497 "alexer.ml" 8280 572436 572503
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8280 572436 572497 "alexer.ml" 8280 572436 572523
+type(
+  int
+)
+"alexer.ml" 8280 572436 572438 "alexer.ml" 8280 572436 572523
+type(
+  string
+)
+"alexer.mll" 89 572545 572560 "alexer.mll" 89 572545 572565
+type(
+  [ `Num of int | `Plus | `Star ]
+)
+"alexer.mll" 89 572545 572567 "alexer.mll" 89 572545 572569
+type(
+  string
+)
+"alexer.mll" 89 572545 572571 "alexer.mll" 89 572545 572584
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 118 4569 4569 "string.mli" 118 4569 4619
+)
+"alexer.mll" 89 572545 572585 "alexer.mll" 89 572545 572589
+type(
+  string
+)
+ident(
+  int_ref dots "alexer.mll" 88 572393 572412 "alexer.mll" 88 572393 572416
+)
+"alexer.mll" 89 572545 572571 "alexer.mll" 89 572545 572589
+type(
+  int
+)
+"alexer.mll" 89 572545 572555 "alexer.mll" 89 572545 572590
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 89 572545 572551 "alexer.mll" 89 572545 572594
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8276 572371 572371 "alexer.mll" 89 572545 572594
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8285 572615 572619 "alexer.ml" 8285 572615 572621
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 90 572647 572666 "alexer.mll" 90 572647 572670
+type(
+  string
+)
+ident(
+  def dots "alexer.mll" 91 572799 572805 "alexer.mll" 91 572799 572848
+)
+"alexer.ml" 8290 572690 572692 "alexer.ml" 8290 572690 572709
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8290 572690 572710 "alexer.ml" 8290 572690 572716
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8290 572690 572718 "alexer.ml" 8290 572690 572724
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8290 572690 572718 "alexer.ml" 8290 572690 572745
+type(
+  int
+)
+"alexer.ml" 8290 572690 572746 "alexer.ml" 8290 572690 572747
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.ml" 8290 572690 572748 "alexer.ml" 8290 572690 572749
+type(
+  int
+)
+"alexer.ml" 8290 572690 572717 "alexer.ml" 8290 572690 572750
+type(
+  int
+)
+"alexer.ml" 8290 572690 572751 "alexer.ml" 8290 572690 572757
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8290 572690 572751 "alexer.ml" 8290 572690 572777
+type(
+  int
+)
+"alexer.ml" 8290 572690 572692 "alexer.ml" 8290 572690 572777
+type(
+  string
+)
+"alexer.mll" 91 572799 572814 "alexer.mll" 91 572799 572819
+type(
+  [ `Num of int | `Plus | `Star ]
+)
+"alexer.mll" 91 572799 572821 "alexer.mll" 91 572799 572823
+type(
+  string
+)
+"alexer.mll" 91 572799 572825 "alexer.mll" 91 572799 572838
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 118 4569 4569 "string.mli" 118 4569 4619
+)
+"alexer.mll" 91 572799 572839 "alexer.mll" 91 572799 572843
+type(
+  string
+)
+ident(
+  int_ref dots "alexer.mll" 90 572647 572666 "alexer.mll" 90 572647 572670
+)
+"alexer.mll" 91 572799 572825 "alexer.mll" 91 572799 572843
+type(
+  int
+)
+"alexer.mll" 91 572799 572809 "alexer.mll" 91 572799 572844
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 91 572799 572805 "alexer.mll" 91 572799 572848
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8286 572625 572625 "alexer.mll" 91 572799 572848
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8295 572869 572873 "alexer.ml" 8295 572869 572875
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 92 572901 572922 "alexer.mll" 92 572901 572925
+type(
+  string
+)
+ident(
+  def num "alexer.mll" 93 573411 573417 "alexer.mll" 93 573411 573479
+)
+"alexer.ml" 8300 572945 572947 "alexer.ml" 8300 572945 572964
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8300 572945 572965 "alexer.ml" 8300 572945 572971
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8300 572945 572973 "alexer.ml" 8300 572945 572979
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8300 572945 572973 "alexer.ml" 8300 572945 573000
+type(
+  int
+)
+"alexer.ml" 8300 572945 573001 "alexer.ml" 8300 572945 573002
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.ml" 8300 572945 573003 "alexer.ml" 8300 572945 573004
+type(
+  int
+)
+"alexer.ml" 8300 572945 572972 "alexer.ml" 8300 572945 573005
+type(
+  int
+)
+"alexer.ml" 8300 572945 573006 "alexer.ml" 8300 572945 573012
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8300 572945 573006 "alexer.ml" 8300 572945 573027
+type(
+  int array
+)
+"alexer.ml" 8300 572945 573029 "alexer.ml" 8300 572945 573030
+type(
+  int
+)
+"alexer.ml" 8300 572945 573006 "alexer.ml" 8300 572945 573031
+type(
+  int
+)
+"alexer.ml" 8300 572945 572947 "alexer.ml" 8300 572945 573031
+type(
+  string
+)
+"alexer.mll" 92 573054 573098 "alexer.mll" 92 573054 573101
+type(
+  string
+)
+ident(
+  def lab "alexer.mll" 93 573411 573417 "alexer.mll" 93 573411 573479
+)
+"alexer.ml" 8305 573121 573123 "alexer.ml" 8305 573121 573140
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8305 573121 573141 "alexer.ml" 8305 573121 573147
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8305 573121 573149 "alexer.ml" 8305 573121 573155
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8305 573121 573149 "alexer.ml" 8305 573121 573170
+type(
+  int array
+)
+"alexer.ml" 8305 573121 573172 "alexer.ml" 8305 573121 573173
+type(
+  int
+)
+"alexer.ml" 8305 573121 573149 "alexer.ml" 8305 573121 573174
+type(
+  int
+)
+"alexer.ml" 8305 573121 573175 "alexer.ml" 8305 573121 573176
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.ml" 8305 573121 573177 "alexer.ml" 8305 573121 573178
+type(
+  int
+)
+"alexer.ml" 8305 573121 573148 "alexer.ml" 8305 573121 573179
+type(
+  int
+)
+"alexer.ml" 8305 573121 573180 "alexer.ml" 8305 573121 573186
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8305 573121 573180 "alexer.ml" 8305 573121 573201
+type(
+  int array
+)
+"alexer.ml" 8305 573121 573203 "alexer.ml" 8305 573121 573204
+type(
+  int
+)
+"alexer.ml" 8305 573121 573180 "alexer.ml" 8305 573121 573205
+type(
+  int
+)
+"alexer.ml" 8305 573121 573123 "alexer.ml" 8305 573121 573205
+type(
+  string
+)
+"alexer.mll" 92 573228 573286 "alexer.mll" 92 573228 573290
+type(
+  string
+)
+ident(
+  def dots "alexer.mll" 93 573411 573417 "alexer.mll" 93 573411 573479
+)
+"alexer.ml" 8310 573310 573312 "alexer.ml" 8310 573310 573329
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8310 573310 573330 "alexer.ml" 8310 573310 573336
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8310 573310 573337 "alexer.ml" 8310 573310 573343
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8310 573310 573337 "alexer.ml" 8310 573310 573358
+type(
+  int array
+)
+"alexer.ml" 8310 573310 573360 "alexer.ml" 8310 573310 573361
+type(
+  int
+)
+"alexer.ml" 8310 573310 573337 "alexer.ml" 8310 573310 573362
+type(
+  int
+)
+"alexer.ml" 8310 573310 573363 "alexer.ml" 8310 573310 573369
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8310 573310 573363 "alexer.ml" 8310 573310 573389
+type(
+  int
+)
+"alexer.ml" 8310 573310 573312 "alexer.ml" 8310 573310 573389
+type(
+  string
+)
+"alexer.mll" 93 573411 573431 "alexer.mll" 93 573411 573444
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.int_of_string "stdlib.mli" 774 28807 28807 "stdlib.mli" 774 28807 28868
+)
+"alexer.mll" 93 573411 573445 "alexer.mll" 93 573411 573448
+type(
+  string
+)
+ident(
+  int_ref num "alexer.mll" 92 572901 572922 "alexer.mll" 92 572901 572925
+)
+"alexer.mll" 93 573411 573430 "alexer.mll" 93 573411 573449
+type(
+  int
+)
+"alexer.mll" 93 573411 573425 "alexer.mll" 93 573411 573449
+type(
+  [ `Num of int | `Plus | `Star ]
+)
+"alexer.mll" 93 573411 573451 "alexer.mll" 93 573411 573454
+type(
+  string
+)
+ident(
+  int_ref lab "alexer.mll" 92 573054 573098 "alexer.mll" 92 573054 573101
+)
+"alexer.mll" 93 573411 573456 "alexer.mll" 93 573411 573469
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 118 4569 4569 "string.mli" 118 4569 4619
+)
+"alexer.mll" 93 573411 573470 "alexer.mll" 93 573411 573474
+type(
+  string
+)
+ident(
+  int_ref dots "alexer.mll" 92 573228 573286 "alexer.mll" 92 573228 573290
+)
+"alexer.mll" 93 573411 573456 "alexer.mll" 93 573411 573474
+type(
+  int
+)
+"alexer.mll" 93 573411 573421 "alexer.mll" 93 573411 573475
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 93 573411 573417 "alexer.mll" 93 573411 573479
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8296 572879 572879 "alexer.mll" 93 573411 573479
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8315 573500 573504 "alexer.ml" 8315 573500 573506
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 96 573532 573603 "alexer.mll" 96 573532 573604
+type(
+  string
+)
+ident(
+  def p "alexer.mll" 97 573727 573733 "alexer.mll" 97 573727 573748
+)
+"alexer.ml" 8320 573624 573626 "alexer.ml" 8320 573624 573643
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8320 573624 573644 "alexer.ml" 8320 573624 573650
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8320 573624 573651 "alexer.ml" 8320 573624 573657
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8320 573624 573651 "alexer.ml" 8320 573624 573678
+type(
+  int
+)
+"alexer.ml" 8320 573624 573679 "alexer.ml" 8320 573624 573685
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8320 573624 573679 "alexer.ml" 8320 573624 573705
+type(
+  int
+)
+"alexer.ml" 8320 573624 573626 "alexer.ml" 8320 573624 573705
+type(
+  string
+)
+"alexer.mll" 97 573727 573743 "alexer.mll" 97 573727 573744
+type(
+  string
+)
+ident(
+  int_ref p "alexer.mll" 96 573532 573603 "alexer.mll" 96 573532 573604
+)
+"alexer.mll" 97 573727 573737 "alexer.mll" 97 573727 573744
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 97 573727 573733 "alexer.mll" 97 573727 573748
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8316 573510 573510 "alexer.mll" 97 573727 573748
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8325 573769 573773 "alexer.ml" 8325 573769 573775
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 100 573802 573819 "alexer.mll" 100 573802 573821
+type(
+  string
+)
+ident(
+  def ch "alexer.mll" 101 574114 574120 "alexer.mll" 101 574114 574141
+)
+"alexer.ml" 8330 573841 573843 "alexer.ml" 8330 573841 573860
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8330 573841 573861 "alexer.ml" 8330 573841 573867
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8330 573841 573868 "alexer.ml" 8330 573841 573874
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8330 573841 573868 "alexer.ml" 8330 573841 573895
+type(
+  int
+)
+"alexer.ml" 8330 573841 573896 "alexer.ml" 8330 573841 573902
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8330 573841 573896 "alexer.ml" 8330 573841 573917
+type(
+  int array
+)
+"alexer.ml" 8330 573841 573919 "alexer.ml" 8330 573841 573920
+type(
+  int
+)
+"alexer.ml" 8330 573841 573896 "alexer.ml" 8330 573841 573921
+type(
+  int
+)
+"alexer.ml" 8330 573841 573843 "alexer.ml" 8330 573841 573921
+type(
+  string
+)
+"alexer.mll" 100 573945 573983 "alexer.mll" 100 573945 573986
+type(
+  string
+)
+ident(
+  def man "alexer.mll" 101 574114 574120 "alexer.mll" 101 574114 574141
+)
+"alexer.ml" 8335 574006 574008 "alexer.ml" 8335 574006 574025
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8335 574006 574026 "alexer.ml" 8335 574006 574032
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8335 574006 574034 "alexer.ml" 8335 574006 574040
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8335 574006 574034 "alexer.ml" 8335 574006 574055
+type(
+  int array
+)
+"alexer.ml" 8335 574006 574057 "alexer.ml" 8335 574006 574058
+type(
+  int
+)
+"alexer.ml" 8335 574006 574034 "alexer.ml" 8335 574006 574059
+type(
+  int
+)
+"alexer.ml" 8335 574006 574060 "alexer.ml" 8335 574006 574061
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.ml" 8335 574006 574062 "alexer.ml" 8335 574006 574063
+type(
+  int
+)
+"alexer.ml" 8335 574006 574033 "alexer.ml" 8335 574006 574064
+type(
+  int
+)
+"alexer.ml" 8335 574006 574065 "alexer.ml" 8335 574006 574071
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8335 574006 574065 "alexer.ml" 8335 574006 574091
+type(
+  int
+)
+"alexer.ml" 8335 574006 574008 "alexer.ml" 8335 574006 574091
+type(
+  string
+)
+"alexer.mll" 101 574114 574129 "alexer.mll" 101 574114 574131
+type(
+  string
+)
+ident(
+  int_ref ch "alexer.mll" 100 573802 573819 "alexer.mll" 100 573802 573821
+)
+"alexer.mll" 101 574114 574133 "alexer.mll" 101 574114 574136
+type(
+  string
+)
+ident(
+  int_ref man "alexer.mll" 100 573945 573983 "alexer.mll" 100 573945 573986
+)
+"alexer.mll" 101 574114 574124 "alexer.mll" 101 574114 574137
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 101 574114 574120 "alexer.mll" 101 574114 574141
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8326 573779 573779 "alexer.mll" 101 574114 574141
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8340 574162 574166 "alexer.ml" 8340 574162 574168
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 102 574195 574212 "alexer.mll" 102 574195 574213
+type(
+  string
+)
+ident(
+  def i "alexer.mll" 103 574337 574343 "alexer.mll" 103 574337 574362
+)
+"alexer.ml" 8345 574233 574235 "alexer.ml" 8345 574233 574252
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8345 574233 574253 "alexer.ml" 8345 574233 574259
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8345 574233 574260 "alexer.ml" 8345 574233 574266
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8345 574233 574260 "alexer.ml" 8345 574233 574287
+type(
+  int
+)
+"alexer.ml" 8345 574233 574288 "alexer.ml" 8345 574233 574294
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8345 574233 574288 "alexer.ml" 8345 574233 574314
+type(
+  int
+)
+"alexer.ml" 8345 574233 574235 "alexer.ml" 8345 574233 574314
+type(
+  string
+)
+"alexer.mll" 103 574337 574352 "alexer.mll" 103 574337 574353
+type(
+  string
+)
+ident(
+  int_ref i "alexer.mll" 102 574195 574212 "alexer.mll" 102 574195 574213
+)
+"alexer.mll" 103 574337 574355 "alexer.mll" 103 574337 574357
+type(
+  string
+)
+"alexer.mll" 103 574337 574347 "alexer.mll" 103 574337 574358
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 103 574337 574343 "alexer.mll" 103 574337 574362
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8341 574172 574172 "alexer.mll" 103 574337 574362
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8350 574383 574387 "alexer.ml" 8350 574383 574389
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 104 574416 574441 "alexer.mll" 104 574416 574442
+type(
+  string
+)
+ident(
+  def b "alexer.mll" 105 574572 574578 "alexer.mll" 106 574600 574655
+)
+"alexer.ml" 8355 574462 574464 "alexer.ml" 8355 574462 574481
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8355 574462 574482 "alexer.ml" 8355 574462 574488
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8355 574462 574490 "alexer.ml" 8355 574462 574496
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8355 574462 574490 "alexer.ml" 8355 574462 574517
+type(
+  int
+)
+"alexer.ml" 8355 574462 574518 "alexer.ml" 8355 574462 574519
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.ml" 8355 574462 574520 "alexer.ml" 8355 574462 574521
+type(
+  int
+)
+"alexer.ml" 8355 574462 574489 "alexer.ml" 8355 574462 574522
+type(
+  int
+)
+"alexer.ml" 8355 574462 574523 "alexer.ml" 8355 574462 574529
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8355 574462 574523 "alexer.ml" 8355 574462 574549
+type(
+  int
+)
+"alexer.ml" 8355 574462 574464 "alexer.ml" 8355 574462 574549
+type(
+  string
+)
+"alexer.mll" 105 574572 574584 "alexer.mll" 105 574572 574585
+type(
+  string
+)
+ident(
+  def b "alexer.mll" 106 574600 574608 "alexer.mll" 106 574600 574653
+)
+"alexer.mll" 105 574572 574588 "alexer.mll" 105 574572 574592
+type(
+  string
+)
+"alexer.mll" 105 574572 574593 "alexer.mll" 105 574572 574594
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"alexer.mll" 105 574572 574595 "alexer.mll" 105 574572 574596
+type(
+  string
+)
+ident(
+  int_ref b "alexer.mll" 104 574416 574441 "alexer.mll" 104 574416 574442
+)
+"alexer.mll" 105 574572 574588 "alexer.mll" 105 574572 574596
+type(
+  string
+)
+"alexer.mll" 106 574600 574615 "alexer.mll" 106 574600 574628
+type(
+  int -> string
+)
+ident(
+  int_ref Stdlib.string_of_int "stdlib.mli" 750 27897 27897 "stdlib.mli" 750 27897 27930
+)
+"alexer.mll" 106 574600 574630 "alexer.mll" 106 574600 574643
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.int_of_string "stdlib.mli" 774 28807 28807 "stdlib.mli" 774 28807 28868
+)
+"alexer.mll" 106 574600 574644 "alexer.mll" 106 574600 574645
+type(
+  string
+)
+ident(
+  int_ref b "alexer.mll" 105 574572 574584 "alexer.mll" 105 574572 574585
+)
+"alexer.mll" 106 574600 574629 "alexer.mll" 106 574600 574646
+type(
+  int
+)
+"alexer.mll" 106 574600 574615 "alexer.mll" 106 574600 574646
+type(
+  string
+)
+"alexer.mll" 106 574600 574648 "alexer.mll" 106 574600 574650
+type(
+  string
+)
+"alexer.mll" 106 574600 574610 "alexer.mll" 106 574600 574651
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 106 574600 574608 "alexer.mll" 106 574600 574653
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.mll" 105 574572 574578 "alexer.mll" 106 574600 574655
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8351 574393 574393 "alexer.mll" 106 574600 574655
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8361 574676 574680 "alexer.ml" 8361 574676 574682
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 107 574709 574734 "alexer.mll" 107 574709 574735
+type(
+  string
+)
+ident(
+  def o "alexer.mll" 108 574865 574871 "alexer.mll" 109 574893 574948
+)
+"alexer.ml" 8366 574755 574757 "alexer.ml" 8366 574755 574774
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8366 574755 574775 "alexer.ml" 8366 574755 574781
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8366 574755 574783 "alexer.ml" 8366 574755 574789
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8366 574755 574783 "alexer.ml" 8366 574755 574810
+type(
+  int
+)
+"alexer.ml" 8366 574755 574811 "alexer.ml" 8366 574755 574812
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.ml" 8366 574755 574813 "alexer.ml" 8366 574755 574814
+type(
+  int
+)
+"alexer.ml" 8366 574755 574782 "alexer.ml" 8366 574755 574815
+type(
+  int
+)
+"alexer.ml" 8366 574755 574816 "alexer.ml" 8366 574755 574822
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8366 574755 574816 "alexer.ml" 8366 574755 574842
+type(
+  int
+)
+"alexer.ml" 8366 574755 574757 "alexer.ml" 8366 574755 574842
+type(
+  string
+)
+"alexer.mll" 108 574865 574877 "alexer.mll" 108 574865 574878
+type(
+  string
+)
+ident(
+  def o "alexer.mll" 109 574893 574901 "alexer.mll" 109 574893 574946
+)
+"alexer.mll" 108 574865 574881 "alexer.mll" 108 574865 574885
+type(
+  string
+)
+"alexer.mll" 108 574865 574886 "alexer.mll" 108 574865 574887
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"alexer.mll" 108 574865 574888 "alexer.mll" 108 574865 574889
+type(
+  string
+)
+ident(
+  int_ref o "alexer.mll" 107 574709 574734 "alexer.mll" 107 574709 574735
+)
+"alexer.mll" 108 574865 574881 "alexer.mll" 108 574865 574889
+type(
+  string
+)
+"alexer.mll" 109 574893 574908 "alexer.mll" 109 574893 574921
+type(
+  int -> string
+)
+ident(
+  int_ref Stdlib.string_of_int "stdlib.mli" 750 27897 27897 "stdlib.mli" 750 27897 27930
+)
+"alexer.mll" 109 574893 574923 "alexer.mll" 109 574893 574936
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.int_of_string "stdlib.mli" 774 28807 28807 "stdlib.mli" 774 28807 28868
+)
+"alexer.mll" 109 574893 574937 "alexer.mll" 109 574893 574938
+type(
+  string
+)
+ident(
+  int_ref o "alexer.mll" 108 574865 574877 "alexer.mll" 108 574865 574878
+)
+"alexer.mll" 109 574893 574922 "alexer.mll" 109 574893 574939
+type(
+  int
+)
+"alexer.mll" 109 574893 574908 "alexer.mll" 109 574893 574939
+type(
+  string
+)
+"alexer.mll" 109 574893 574941 "alexer.mll" 109 574893 574943
+type(
+  string
+)
+"alexer.mll" 109 574893 574903 "alexer.mll" 109 574893 574944
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 109 574893 574901 "alexer.mll" 109 574893 574946
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.mll" 108 574865 574871 "alexer.mll" 109 574893 574948
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8362 574686 574686 "alexer.mll" 109 574893 574948
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8372 574969 574973 "alexer.ml" 8372 574969 574975
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 110 575002 575047 "alexer.mll" 110 575002 575048
+type(
+  string
+)
+ident(
+  def h "alexer.mll" 111 575178 575184 "alexer.mll" 112 575206 575261
+)
+"alexer.ml" 8377 575068 575070 "alexer.ml" 8377 575068 575087
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8377 575068 575088 "alexer.ml" 8377 575068 575094
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8377 575068 575096 "alexer.ml" 8377 575068 575102
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8377 575068 575096 "alexer.ml" 8377 575068 575123
+type(
+  int
+)
+"alexer.ml" 8377 575068 575124 "alexer.ml" 8377 575068 575125
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.ml" 8377 575068 575126 "alexer.ml" 8377 575068 575127
+type(
+  int
+)
+"alexer.ml" 8377 575068 575095 "alexer.ml" 8377 575068 575128
+type(
+  int
+)
+"alexer.ml" 8377 575068 575129 "alexer.ml" 8377 575068 575135
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8377 575068 575129 "alexer.ml" 8377 575068 575155
+type(
+  int
+)
+"alexer.ml" 8377 575068 575070 "alexer.ml" 8377 575068 575155
+type(
+  string
+)
+"alexer.mll" 111 575178 575190 "alexer.mll" 111 575178 575191
+type(
+  string
+)
+ident(
+  def h "alexer.mll" 112 575206 575214 "alexer.mll" 112 575206 575259
+)
+"alexer.mll" 111 575178 575194 "alexer.mll" 111 575178 575198
+type(
+  string
+)
+"alexer.mll" 111 575178 575199 "alexer.mll" 111 575178 575200
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"alexer.mll" 111 575178 575201 "alexer.mll" 111 575178 575202
+type(
+  string
+)
+ident(
+  int_ref h "alexer.mll" 110 575002 575047 "alexer.mll" 110 575002 575048
+)
+"alexer.mll" 111 575178 575194 "alexer.mll" 111 575178 575202
+type(
+  string
+)
+"alexer.mll" 112 575206 575221 "alexer.mll" 112 575206 575234
+type(
+  int -> string
+)
+ident(
+  int_ref Stdlib.string_of_int "stdlib.mli" 750 27897 27897 "stdlib.mli" 750 27897 27930
+)
+"alexer.mll" 112 575206 575236 "alexer.mll" 112 575206 575249
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.int_of_string "stdlib.mli" 774 28807 28807 "stdlib.mli" 774 28807 28868
+)
+"alexer.mll" 112 575206 575250 "alexer.mll" 112 575206 575251
+type(
+  string
+)
+ident(
+  int_ref h "alexer.mll" 111 575178 575190 "alexer.mll" 111 575178 575191
+)
+"alexer.mll" 112 575206 575235 "alexer.mll" 112 575206 575252
+type(
+  int
+)
+"alexer.mll" 112 575206 575221 "alexer.mll" 112 575206 575252
+type(
+  string
+)
+"alexer.mll" 112 575206 575254 "alexer.mll" 112 575206 575256
+type(
+  string
+)
+"alexer.mll" 112 575206 575216 "alexer.mll" 112 575206 575257
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 112 575206 575214 "alexer.mll" 112 575206 575259
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.mll" 111 575178 575184 "alexer.mll" 112 575206 575261
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8373 574979 574979 "alexer.mll" 112 575206 575261
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8383 575282 575286 "alexer.ml" 8383 575282 575288
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 116 575311 575319 "alexer.mll" 116 575311 575325
+type(
+  Buffer.t -> Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref string "alexer.ml" 8499 578052 578056 "alexer.ml" 8499 578052 578062
+)
+"alexer.mll" 116 575311 575327 "alexer.mll" 116 575311 575340
+type(
+  int -> Buffer.t
+)
+ident(
+  int_ref Stdlib.Buffer.create "buffer.mli" 36 1534 1534 "buffer.mli" 36 1534 1555
+)
+"alexer.mll" 116 575311 575341 "alexer.mll" 116 575311 575343
+type(
+  int
+)
+"alexer.mll" 116 575311 575326 "alexer.mll" 116 575311 575344
+type(
+  Buffer.t
+)
+"alexer.mll" 116 575311 575345 "alexer.mll" 116 575311 575351
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.mll" 116 575311 575317 "alexer.mll" 116 575311 575353
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8388 575374 575378 "alexer.ml" 8388 575374 575380
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 120 575407 575446 "alexer.mll" 120 575407 575448
+type(
+  string
+)
+ident(
+  def op "alexer.mll" 121 575572 575578 "alexer.mll" 121 575572 575591
+)
+"alexer.ml" 8393 575468 575470 "alexer.ml" 8393 575468 575487
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8393 575468 575488 "alexer.ml" 8393 575468 575494
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8393 575468 575495 "alexer.ml" 8393 575468 575501
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8393 575468 575495 "alexer.ml" 8393 575468 575522
+type(
+  int
+)
+"alexer.ml" 8393 575468 575523 "alexer.ml" 8393 575468 575529
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8393 575468 575523 "alexer.ml" 8393 575468 575549
+type(
+  int
+)
+"alexer.ml" 8393 575468 575470 "alexer.ml" 8393 575468 575549
+type(
+  string
+)
+"alexer.mll" 121 575572 575585 "alexer.mll" 121 575572 575587
+type(
+  string
+)
+ident(
+  int_ref op "alexer.mll" 120 575407 575446 "alexer.mll" 120 575407 575448
+)
+"alexer.mll" 121 575572 575582 "alexer.mll" 121 575572 575587
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 121 575572 575578 "alexer.mll" 121 575572 575591
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8389 575384 575384 "alexer.mll" 121 575572 575591
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8398 575612 575616 "alexer.ml" 8398 575612 575618
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 124 575645 575672 "alexer.mll" 124 575645 575674
+type(
+  string
+)
+ident(
+  def op "alexer.mll" 125 575798 575804 "alexer.mll" 125 575798 575817
+)
+"alexer.ml" 8403 575694 575696 "alexer.ml" 8403 575694 575713
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8403 575694 575714 "alexer.ml" 8403 575694 575720
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8403 575694 575721 "alexer.ml" 8403 575694 575727
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8403 575694 575721 "alexer.ml" 8403 575694 575748
+type(
+  int
+)
+"alexer.ml" 8403 575694 575749 "alexer.ml" 8403 575694 575755
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8403 575694 575749 "alexer.ml" 8403 575694 575775
+type(
+  int
+)
+"alexer.ml" 8403 575694 575696 "alexer.ml" 8403 575694 575775
+type(
+  string
+)
+"alexer.mll" 125 575798 575811 "alexer.mll" 125 575798 575813
+type(
+  string
+)
+ident(
+  int_ref op "alexer.mll" 124 575645 575672 "alexer.mll" 124 575645 575674
+)
+"alexer.mll" 125 575798 575808 "alexer.mll" 125 575798 575813
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 125 575798 575804 "alexer.mll" 125 575798 575817
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8399 575622 575622 "alexer.mll" 125 575798 575817
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8408 575838 575842 "alexer.ml" 8408 575838 575844
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 140 575871 575905 "alexer.mll" 140 575871 575907
+type(
+  string
+)
+ident(
+  def op "alexer.mll" 141 576031 576037 "alexer.mll" 141 576031 576050
+)
+"alexer.ml" 8413 575927 575929 "alexer.ml" 8413 575927 575946
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8413 575927 575947 "alexer.ml" 8413 575927 575953
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8413 575927 575954 "alexer.ml" 8413 575927 575960
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8413 575927 575954 "alexer.ml" 8413 575927 575981
+type(
+  int
+)
+"alexer.ml" 8413 575927 575982 "alexer.ml" 8413 575927 575988
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8413 575927 575982 "alexer.ml" 8413 575927 576008
+type(
+  int
+)
+"alexer.ml" 8413 575927 575929 "alexer.ml" 8413 575927 576008
+type(
+  string
+)
+"alexer.mll" 141 576031 576044 "alexer.mll" 141 576031 576046
+type(
+  string
+)
+ident(
+  int_ref op "alexer.mll" 140 575871 575905 "alexer.mll" 140 575871 575907
+)
+"alexer.mll" 141 576031 576041 "alexer.mll" 141 576031 576046
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 141 576031 576037 "alexer.mll" 141 576031 576050
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8409 575848 575848 "alexer.mll" 141 576031 576050
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8418 576071 576075 "alexer.ml" 8418 576071 576077
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 146 576104 576126 "alexer.mll" 146 576104 576127
+type(
+  string
+)
+ident(
+  def f "alexer.mll" 147 576429 576435 "alexer.mll" 147 576429 576460
+)
+"alexer.ml" 8423 576147 576149 "alexer.ml" 8423 576147 576166
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8423 576147 576167 "alexer.ml" 8423 576147 576173
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8423 576147 576174 "alexer.ml" 8423 576147 576180
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8423 576147 576174 "alexer.ml" 8423 576147 576201
+type(
+  int
+)
+"alexer.ml" 8423 576147 576203 "alexer.ml" 8423 576147 576209
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8423 576147 576203 "alexer.ml" 8423 576147 576230
+type(
+  int
+)
+"alexer.ml" 8423 576147 576231 "alexer.ml" 8423 576147 576232
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.ml" 8423 576147 576233 "alexer.ml" 8423 576147 576234
+type(
+  int
+)
+"alexer.ml" 8423 576147 576202 "alexer.ml" 8423 576147 576235
+type(
+  int
+)
+"alexer.ml" 8423 576147 576149 "alexer.ml" 8423 576147 576235
+type(
+  string
+)
+"alexer.mll" 146 576259 576296 "alexer.mll" 146 576259 576299
+type(
+  string
+)
+ident(
+  def kwd "alexer.mll" 147 576429 576435 "alexer.mll" 147 576429 576460
+)
+"alexer.ml" 8428 576319 576321 "alexer.ml" 8428 576319 576338
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8428 576319 576339 "alexer.ml" 8428 576319 576345
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8428 576319 576347 "alexer.ml" 8428 576319 576353
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8428 576319 576347 "alexer.ml" 8428 576319 576374
+type(
+  int
+)
+"alexer.ml" 8428 576319 576375 "alexer.ml" 8428 576319 576376
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.ml" 8428 576319 576377 "alexer.ml" 8428 576319 576378
+type(
+  int
+)
+"alexer.ml" 8428 576319 576346 "alexer.ml" 8428 576319 576379
+type(
+  int
+)
+"alexer.ml" 8428 576319 576380 "alexer.ml" 8428 576319 576386
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8428 576319 576380 "alexer.ml" 8428 576319 576406
+type(
+  int
+)
+"alexer.ml" 8428 576319 576321 "alexer.ml" 8428 576319 576406
+type(
+  string
+)
+"alexer.mll" 147 576429 576445 "alexer.mll" 147 576429 576446
+type(
+  string
+)
+ident(
+  int_ref f "alexer.mll" 146 576104 576126 "alexer.mll" 146 576104 576127
+)
+"alexer.mll" 147 576429 576439 "alexer.mll" 147 576429 576446
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 147 576429 576453 "alexer.mll" 147 576429 576456
+type(
+  string
+)
+ident(
+  int_ref kwd "alexer.mll" 146 576259 576296 "alexer.mll" 146 576259 576299
+)
+"alexer.mll" 147 576429 576449 "alexer.mll" 147 576429 576456
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 147 576429 576435 "alexer.mll" 147 576429 576460
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8419 576081 576081 "alexer.mll" 147 576429 576460
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8433 576481 576485 "alexer.ml" 8433 576481 576487
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 148 576514 576536 "alexer.mll" 148 576514 576537
+type(
+  string
+)
+ident(
+  def f "alexer.mll" 149 576837 576843 "alexer.mll" 149 576837 576868
+)
+"alexer.ml" 8438 576557 576559 "alexer.ml" 8438 576557 576576
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8438 576557 576577 "alexer.ml" 8438 576557 576583
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8438 576557 576584 "alexer.ml" 8438 576557 576590
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8438 576557 576584 "alexer.ml" 8438 576557 576611
+type(
+  int
+)
+"alexer.ml" 8438 576557 576613 "alexer.ml" 8438 576557 576619
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8438 576557 576613 "alexer.ml" 8438 576557 576640
+type(
+  int
+)
+"alexer.ml" 8438 576557 576641 "alexer.ml" 8438 576557 576642
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.ml" 8438 576557 576643 "alexer.ml" 8438 576557 576644
+type(
+  int
+)
+"alexer.ml" 8438 576557 576612 "alexer.ml" 8438 576557 576645
+type(
+  int
+)
+"alexer.ml" 8438 576557 576559 "alexer.ml" 8438 576557 576645
+type(
+  string
+)
+"alexer.mll" 148 576669 576703 "alexer.mll" 148 576669 576707
+type(
+  string
+)
+ident(
+  def rest "alexer.mll" 149 576837 576843 "alexer.mll" 149 576837 576868
+)
+"alexer.ml" 8443 576727 576729 "alexer.ml" 8443 576727 576746
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8443 576727 576747 "alexer.ml" 8443 576727 576753
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8443 576727 576755 "alexer.ml" 8443 576727 576761
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8443 576727 576755 "alexer.ml" 8443 576727 576782
+type(
+  int
+)
+"alexer.ml" 8443 576727 576783 "alexer.ml" 8443 576727 576784
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.ml" 8443 576727 576785 "alexer.ml" 8443 576727 576786
+type(
+  int
+)
+"alexer.ml" 8443 576727 576754 "alexer.ml" 8443 576727 576787
+type(
+  int
+)
+"alexer.ml" 8443 576727 576788 "alexer.ml" 8443 576727 576794
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8443 576727 576788 "alexer.ml" 8443 576727 576814
+type(
+  int
+)
+"alexer.ml" 8443 576727 576729 "alexer.ml" 8443 576727 576814
+type(
+  string
+)
+"alexer.mll" 149 576837 576853 "alexer.mll" 149 576837 576854
+type(
+  string
+)
+ident(
+  int_ref f "alexer.mll" 148 576514 576536 "alexer.mll" 148 576514 576537
+)
+"alexer.mll" 149 576837 576847 "alexer.mll" 149 576837 576854
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 149 576837 576860 "alexer.mll" 149 576837 576864
+type(
+  string
+)
+ident(
+  int_ref rest "alexer.mll" 148 576669 576703 "alexer.mll" 148 576669 576707
+)
+"alexer.mll" 149 576837 576857 "alexer.mll" 149 576837 576864
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 149 576837 576843 "alexer.mll" 149 576837 576868
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8434 576491 576491 "alexer.mll" 149 576837 576868
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8448 576889 576893 "alexer.ml" 8448 576889 576895
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 150 576922 576942 "alexer.mll" 150 576922 576943
+type(
+  string
+)
+ident(
+  def f "alexer.mll" 151 577074 577080 "alexer.mll" 151 577074 577095
+)
+"alexer.ml" 8453 576963 576965 "alexer.ml" 8453 576963 576982
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8453 576963 576983 "alexer.ml" 8453 576963 576989
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8453 576963 576990 "alexer.ml" 8453 576963 576996
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8453 576963 576990 "alexer.ml" 8453 576963 577017
+type(
+  int
+)
+"alexer.ml" 8453 576963 577019 "alexer.ml" 8453 576963 577025
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8453 576963 577019 "alexer.ml" 8453 576963 577046
+type(
+  int
+)
+"alexer.ml" 8453 576963 577047 "alexer.ml" 8453 576963 577048
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.ml" 8453 576963 577049 "alexer.ml" 8453 576963 577050
+type(
+  int
+)
+"alexer.ml" 8453 576963 577018 "alexer.ml" 8453 576963 577051
+type(
+  int
+)
+"alexer.ml" 8453 576963 576965 "alexer.ml" 8453 576963 577051
+type(
+  string
+)
+"alexer.mll" 151 577074 577090 "alexer.mll" 151 577074 577091
+type(
+  string
+)
+ident(
+  int_ref f "alexer.mll" 150 576922 576942 "alexer.mll" 150 576922 576943
+)
+"alexer.mll" 151 577074 577084 "alexer.mll" 151 577074 577091
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 151 577074 577080 "alexer.mll" 151 577074 577095
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8449 576899 576899 "alexer.mll" 151 577074 577095
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8458 577116 577120 "alexer.ml" 8458 577116 577122
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 153 577149 577165 "alexer.mll" 153 577149 577168
+type(
+  string
+)
+ident(
+  def kwd "alexer.mll" 154 577292 577298 "alexer.mll" 154 577292 577313
+)
+"alexer.ml" 8463 577188 577190 "alexer.ml" 8463 577188 577207
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8463 577188 577208 "alexer.ml" 8463 577188 577214
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8463 577188 577215 "alexer.ml" 8463 577188 577221
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8463 577188 577215 "alexer.ml" 8463 577188 577242
+type(
+  int
+)
+"alexer.ml" 8463 577188 577243 "alexer.ml" 8463 577188 577249
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8463 577188 577243 "alexer.ml" 8463 577188 577269
+type(
+  int
+)
+"alexer.ml" 8463 577188 577190 "alexer.ml" 8463 577188 577269
+type(
+  string
+)
+"alexer.mll" 154 577292 577306 "alexer.mll" 154 577292 577309
+type(
+  string
+)
+ident(
+  int_ref kwd "alexer.mll" 153 577149 577165 "alexer.mll" 153 577149 577168
+)
+"alexer.mll" 154 577292 577302 "alexer.mll" 154 577292 577309
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 154 577292 577298 "alexer.mll" 154 577292 577313
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8459 577126 577126 "alexer.mll" 154 577292 577313
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8468 577334 577338 "alexer.ml" 8468 577334 577340
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 156 577367 577380 "alexer.mll" 156 577367 577382
+type(
+  string
+)
+ident(
+  def nm "alexer.mll" 157 577506 577512 "alexer.mll" 157 577506 577525
+)
+"alexer.ml" 8473 577402 577404 "alexer.ml" 8473 577402 577421
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8473 577402 577422 "alexer.ml" 8473 577402 577428
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8473 577402 577429 "alexer.ml" 8473 577402 577435
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8473 577402 577429 "alexer.ml" 8473 577402 577456
+type(
+  int
+)
+"alexer.ml" 8473 577402 577457 "alexer.ml" 8473 577402 577463
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8473 577402 577457 "alexer.ml" 8473 577402 577483
+type(
+  int
+)
+"alexer.ml" 8473 577402 577404 "alexer.ml" 8473 577402 577483
+type(
+  string
+)
+"alexer.mll" 157 577506 577519 "alexer.mll" 157 577506 577521
+type(
+  string
+)
+ident(
+  int_ref nm "alexer.mll" 156 577367 577380 "alexer.mll" 156 577367 577382
+)
+"alexer.mll" 157 577506 577516 "alexer.mll" 157 577506 577521
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 157 577506 577512 "alexer.mll" 157 577506 577525
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8469 577344 577344 "alexer.mll" 157 577506 577525
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8478 577546 577550 "alexer.ml" 8478 577546 577552
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 163 577575 577581 "alexer.mll" 163 577575 577588
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8483 577609 577613 "alexer.ml" 8483 577609 577615
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 166 577642 577652 "alexer.mll" 166 577642 577653
+type(
+  char
+)
+ident(
+  def c "alexer.mll" 167 577755 577761 "alexer.mll" 170 577911 577918
+)
+"alexer.ml" 8488 577673 577675 "alexer.ml" 8488 577673 577697
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme_char "lexing.mli" 197 8353 8353 "lexing.mli" 197 8353 8396
+)
+"alexer.ml" 8488 577673 577698 "alexer.ml" 8488 577673 577704
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8488 577673 577705 "alexer.ml" 8488 577673 577711
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8488 577673 577705 "alexer.ml" 8488 577673 577732
+type(
+  int
+)
+"alexer.ml" 8488 577673 577675 "alexer.ml" 8488 577673 577732
+type(
+  char
+)
+"alexer.mll" 167 577755 577767 "alexer.mll" 167 577755 577768
+type(
+  E.error
+)
+ident(
+  def e "alexer.mll" 168 577825 577833 "alexer.mll" 169 577885 577910
+)
+"alexer.mll" 167 577755 577771 "alexer.mll" 167 577755 577778
+type(
+  Loc.locus -> E.error
+)
+ident(
+  int_ref E.error "pars.mli" 8 212 214 "pars.mli" 8 212 244
+)
+"alexer.mll" 167 577755 577780 "alexer.mll" 167 577755 577801
+type(
+  Lexing.position -> Loc.locus
+)
+ident(
+  int_ref Loc.locus_of_position "loc.mli" 56 1480 1480 "loc.mli" 56 1480 1528
+)
+"alexer.mll" 167 577755 577802 "alexer.mll" 167 577755 577808
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.mll" 167 577755 577802 "alexer.mll" 167 577755 577820
+type(
+  Lexing.position
+)
+"alexer.mll" 167 577755 577779 "alexer.mll" 167 577755 577821
+type(
+  Loc.locus
+)
+"alexer.mll" 167 577755 577771 "alexer.mll" 167 577755 577821
+type(
+  E.error
+)
+"alexer.mll" 168 577825 577837 "alexer.mll" 168 577825 577838
+type(
+  E.error
+)
+ident(
+  def e "alexer.mll" 169 577885 577895 "alexer.mll" 169 577885 577910
+)
+"alexer.mll" 168 577825 577841 "alexer.mll" 168 577825 577861
+type(
+  string -> E.error -> E.error
+)
+ident(
+  int_ref E.err_set_unexpected "pars.mli" 13 439 441 "pars.mli" 13 439 490
+)
+"alexer.mll" 168 577825 577863 "alexer.mll" 168 577825 577874
+type(
+  int -> char -> string
+)
+ident(
+  int_ref Stdlib.String.make "string.mli" 85 3764 3764 "string.mli" 85 3764 3796
+)
+"alexer.mll" 168 577825 577875 "alexer.mll" 168 577825 577876
+type(
+  int
+)
+"alexer.mll" 168 577825 577877 "alexer.mll" 168 577825 577878
+type(
+  char
+)
+ident(
+  int_ref c "alexer.mll" 166 577642 577652 "alexer.mll" 166 577642 577653
+)
+"alexer.mll" 168 577825 577862 "alexer.mll" 168 577825 577879
+type(
+  string
+)
+"alexer.mll" 168 577825 577880 "alexer.mll" 168 577825 577881
+type(
+  E.error
+)
+ident(
+  int_ref e "alexer.mll" 167 577755 577767 "alexer.mll" 167 577755 577768
+)
+"alexer.mll" 168 577825 577841 "alexer.mll" 168 577825 577881
+type(
+  E.error
+)
+"alexer.mll" 169 577885 577895 "alexer.mll" 169 577885 577900
+type(
+  exn -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"alexer.mll" 169 577885 577908 "alexer.mll" 169 577885 577909
+type(
+  E.error
+)
+ident(
+  int_ref e "alexer.mll" 168 577825 577837 "alexer.mll" 168 577825 577838
+)
+"alexer.mll" 169 577885 577901 "alexer.mll" 169 577885 577910
+type(
+  exn
+)
+"alexer.mll" 169 577885 577895 "alexer.mll" 169 577885 577910
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.mll" 168 577825 577833 "alexer.mll" 169 577885 577910
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.mll" 167 577755 577761 "alexer.mll" 170 577911 577918
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8484 577619 577619 "alexer.mll" 170 577911 577918
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8496 577939 577943 "alexer.ml" 8496 577939 577960
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "alexer.ml" 8496 577939 577964 "alexer.ml" 8497 577998 578050
+)
+"alexer.ml" 8496 577939 577964 "alexer.ml" 8496 577939 577970
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8496 577939 577964 "alexer.ml" 8496 577939 577989
+type(
+  Lexing.lexbuf -> unit
+)
+"alexer.ml" 8496 577939 577990 "alexer.ml" 8496 577939 577996
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8496 577939 577964 "alexer.ml" 8496 577939 577996
+type(
+  unit
+)
+"alexer.ml" 8497 577998 578004 "alexer.ml" 8497 577998 578025
+type(
+  Lexing.lexbuf -> int -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref __ocaml_lex_token_rec "alexer.ml" 8208 570972 570976 "alexer.ml" 8208 570972 570997
+)
+"alexer.ml" 8497 577998 578026 "alexer.ml" 8497 577998 578032
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8208 570972 570998 "alexer.ml" 8208 570972 571004
+)
+"alexer.ml" 8497 577998 578033 "alexer.ml" 8497 577998 578050
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "alexer.ml" 8496 577939 577943 "alexer.ml" 8496 577939 577960
+)
+"alexer.ml" 8497 577998 578004 "alexer.ml" 8497 577998 578050
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8496 577939 577964 "alexer.ml" 8497 577998 578050
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8209 571025 571027 "alexer.ml" 8497 577998 578050
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8499 578052 578056 "alexer.ml" 8499 578052 578062
+type(
+  Buffer.t -> Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  def string "alexer.ml" 8179 570262 570262 "alexer.ml" 0 0 -1
+)
+"alexer.ml" 8499 578052 578063 "alexer.ml" 8499 578052 578068
+type(
+  Buffer.t
+)
+ident(
+  def sofar "alexer.ml" 8499 578052 578069 "alexer.ml" 8500 578078 578120
+)
+"alexer.ml" 8499 578052 578069 "alexer.ml" 8499 578052 578075
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "alexer.ml" 8500 578078 578081 "alexer.ml" 8500 578078 578120
+)
+"alexer.ml" 8500 578078 578081 "alexer.ml" 8500 578078 578103
+type(
+  Buffer.t -> Lexing.lexbuf -> int -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref __ocaml_lex_string_rec "alexer.ml" 8501 578121 578125 "alexer.ml" 8501 578121 578147
+)
+"alexer.ml" 8500 578078 578104 "alexer.ml" 8500 578078 578109
+type(
+  Buffer.t
+)
+ident(
+  int_ref sofar "alexer.ml" 8499 578052 578063 "alexer.ml" 8499 578052 578068
+)
+"alexer.ml" 8500 578078 578110 "alexer.ml" 8500 578078 578116
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8499 578052 578069 "alexer.ml" 8499 578052 578075
+)
+"alexer.ml" 8500 578078 578117 "alexer.ml" 8500 578078 578120
+type(
+  int
+)
+"alexer.ml" 8500 578078 578081 "alexer.ml" 8500 578078 578120
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8501 578121 578125 "alexer.ml" 8501 578121 578147
+type(
+  Buffer.t -> Lexing.lexbuf -> int -> Tla_parser.Token.token_ list
+)
+ident(
+  def __ocaml_lex_string_rec "alexer.ml" 8179 570262 570262 "alexer.ml" 0 0 -1
+)
+"alexer.ml" 8501 578121 578148 "alexer.ml" 8501 578121 578153
+type(
+  Buffer.t
+)
+ident(
+  def sofar "alexer.ml" 8501 578121 578154 "alexer.ml" 8560 579610 579669
+)
+"alexer.ml" 8501 578121 578154 "alexer.ml" 8501 578121 578160
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "alexer.ml" 8501 578121 578161 "alexer.ml" 8560 579610 579669
+)
+"alexer.ml" 8501 578121 578161 "alexer.ml" 8501 578121 578178
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "alexer.ml" 8502 578181 578183 "alexer.ml" 8560 579610 579669
+)
+"alexer.ml" 8502 578181 578189 "alexer.ml" 8502 578181 578202
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  int_ref Stdlib.Lexing.engine "lexing.mli" 213 8766 8766 "lexing.mli" 213 8766 8813
+)
+"alexer.ml" 8502 578181 578203 "alexer.ml" 8502 578181 578221
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "alexer.ml" 27 644 648 "alexer.ml" 27 644 666
+)
+"alexer.ml" 8502 578181 578222 "alexer.ml" 8502 578181 578239
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "alexer.ml" 8501 578121 578161 "alexer.ml" 8501 578121 578178
+)
+"alexer.ml" 8502 578181 578240 "alexer.ml" 8502 578181 578246
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8501 578121 578154 "alexer.ml" 8501 578121 578160
+)
+"alexer.ml" 8502 578181 578189 "alexer.ml" 8502 578181 578246
+type(
+  int
+)
+"alexer.ml" 8503 578252 578260 "alexer.ml" 8503 578252 578261
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 173 578284 578294 "alexer.mll" 173 578284 578306
+type(
+  Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref tab_complain "alexer.mll" 21 362 368 "alexer.mll" 21 362 380
+)
+"alexer.mll" 173 578284 578307 "alexer.mll" 173 578284 578313
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8501 578121 578154 "alexer.ml" 8501 578121 578160
+)
+"alexer.mll" 173 578284 578292 "alexer.mll" 173 578284 578315
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8508 578336 578340 "alexer.ml" 8508 578336 578341
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 176 578378 578384 "alexer.mll" 176 578378 578387
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref eol "alexer.mll" 15 116 122 "alexer.mll" 15 116 125
+)
+"alexer.mll" 176 578378 578388 "alexer.mll" 176 578378 578394
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8501 578121 578154 "alexer.ml" 8501 578121 578160
+)
+"alexer.mll" 176 578378 578384 "alexer.mll" 176 578378 578394
+type(
+  unit
+)
+"alexer.mll" 177 578397 578407 "alexer.mll" 177 578397 578409
+type(
+  string
+)
+ident(
+  def nl "alexer.mll" 178 578473 578479 "alexer.mll" 180 578584 578605
+)
+"alexer.mll" 177 578397 578412 "alexer.mll" 177 578397 578426
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"alexer.mll" 177 578397 578427 "alexer.mll" 177 578397 578445
+type(
+  (string -> string, unit, string) format
+)
+"alexer.mll" 177 578397 578447 "alexer.mll" 177 578397 578462
+type(
+  Buffer.t -> string
+)
+ident(
+  int_ref Stdlib.Buffer.contents "buffer.mli" 50 2314 2314 "buffer.mli" 50 2314 2340
+)
+"alexer.mll" 177 578397 578463 "alexer.mll" 177 578397 578468
+type(
+  Buffer.t
+)
+ident(
+  int_ref sofar "alexer.ml" 8501 578121 578148 "alexer.ml" 8501 578121 578153
+)
+"alexer.mll" 177 578397 578446 "alexer.mll" 177 578397 578469
+type(
+  string
+)
+"alexer.mll" 177 578397 578412 "alexer.mll" 177 578397 578469
+type(
+  string
+)
+"alexer.mll" 178 578473 578483 "alexer.mll" 178 578473 578484
+type(
+  E.error
+)
+ident(
+  def e "alexer.mll" 179 578541 578547 "alexer.mll" 180 578584 578605
+)
+"alexer.mll" 178 578473 578487 "alexer.mll" 178 578473 578494
+type(
+  Loc.locus -> E.error
+)
+ident(
+  int_ref E.error "pars.mli" 8 212 214 "pars.mli" 8 212 244
+)
+"alexer.mll" 178 578473 578496 "alexer.mll" 178 578473 578517
+type(
+  Lexing.position -> Loc.locus
+)
+ident(
+  int_ref Loc.locus_of_position "loc.mli" 56 1480 1480 "loc.mli" 56 1480 1528
+)
+"alexer.mll" 178 578473 578518 "alexer.mll" 178 578473 578524
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8501 578121 578154 "alexer.ml" 8501 578121 578160
+)
+"alexer.mll" 178 578473 578518 "alexer.mll" 178 578473 578536
+type(
+  Lexing.position
+)
+"alexer.mll" 178 578473 578495 "alexer.mll" 178 578473 578537
+type(
+  Loc.locus
+)
+"alexer.mll" 178 578473 578487 "alexer.mll" 178 578473 578537
+type(
+  E.error
+)
+"alexer.mll" 179 578541 578551 "alexer.mll" 179 578541 578552
+type(
+  E.error
+)
+ident(
+  def e "alexer.mll" 180 578584 578590 "alexer.mll" 180 578584 578605
+)
+"alexer.mll" 179 578541 578555 "alexer.mll" 179 578541 578575
+type(
+  string -> E.error -> E.error
+)
+ident(
+  int_ref E.err_set_unexpected "pars.mli" 13 439 441 "pars.mli" 13 439 490
+)
+"alexer.mll" 179 578541 578576 "alexer.mll" 179 578541 578578
+type(
+  string
+)
+ident(
+  int_ref nl "alexer.mll" 177 578397 578407 "alexer.mll" 177 578397 578409
+)
+"alexer.mll" 179 578541 578579 "alexer.mll" 179 578541 578580
+type(
+  E.error
+)
+ident(
+  int_ref e "alexer.mll" 178 578473 578483 "alexer.mll" 178 578473 578484
+)
+"alexer.mll" 179 578541 578555 "alexer.mll" 179 578541 578580
+type(
+  E.error
+)
+"alexer.mll" 180 578584 578590 "alexer.mll" 180 578584 578595
+type(
+  exn -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"alexer.mll" 180 578584 578603 "alexer.mll" 180 578584 578604
+type(
+  E.error
+)
+ident(
+  int_ref e "alexer.mll" 179 578541 578551 "alexer.mll" 179 578541 578552
+)
+"alexer.mll" 180 578584 578596 "alexer.mll" 180 578584 578605
+type(
+  exn
+)
+"alexer.mll" 180 578584 578590 "alexer.mll" 180 578584 578605
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.mll" 179 578541 578547 "alexer.mll" 180 578584 578605
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.mll" 178 578473 578479 "alexer.mll" 180 578584 578605
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.mll" 177 578397 578403 "alexer.mll" 180 578584 578605
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.mll" 175 578364 578376 "alexer.mll" 181 578606 578611
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8519 578632 578636 "alexer.ml" 8519 578632 578637
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 183 578664 578704 "alexer.mll" 183 578664 578707
+type(
+  string
+)
+ident(
+  def tok "alexer.mll" 184 578838 578844 "alexer.mll" 186 578903 578910
+)
+"alexer.ml" 8524 578727 578729 "alexer.ml" 8524 578727 578746
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8524 578727 578747 "alexer.ml" 8524 578727 578753
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8501 578121 578154 "alexer.ml" 8501 578121 578160
+)
+"alexer.ml" 8524 578727 578754 "alexer.ml" 8524 578727 578760
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8501 578121 578154 "alexer.ml" 8501 578121 578160
+)
+"alexer.ml" 8524 578727 578754 "alexer.ml" 8524 578727 578781
+type(
+  int
+)
+"alexer.ml" 8524 578727 578783 "alexer.ml" 8524 578727 578789
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8501 578121 578154 "alexer.ml" 8501 578121 578160
+)
+"alexer.ml" 8524 578727 578783 "alexer.ml" 8524 578727 578810
+type(
+  int
+)
+"alexer.ml" 8524 578727 578811 "alexer.ml" 8524 578727 578812
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.ml" 8524 578727 578813 "alexer.ml" 8524 578727 578814
+type(
+  int
+)
+"alexer.ml" 8524 578727 578782 "alexer.ml" 8524 578727 578815
+type(
+  int
+)
+"alexer.ml" 8524 578727 578729 "alexer.ml" 8524 578727 578815
+type(
+  string
+)
+"alexer.mll" 184 578838 578846 "alexer.mll" 184 578838 578863
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  int_ref Stdlib.Buffer.add_string "buffer.mli" 132 5167 5167 "buffer.mli" 132 5167 5203
+)
+"alexer.mll" 184 578838 578864 "alexer.mll" 184 578838 578869
+type(
+  Buffer.t
+)
+ident(
+  int_ref sofar "alexer.ml" 8501 578121 578148 "alexer.ml" 8501 578121 578153
+)
+"alexer.mll" 184 578838 578870 "alexer.mll" 184 578838 578873
+type(
+  string
+)
+ident(
+  int_ref tok "alexer.mll" 183 578664 578704 "alexer.mll" 183 578664 578707
+)
+"alexer.mll" 184 578838 578846 "alexer.mll" 184 578838 578873
+type(
+  unit
+)
+"alexer.mll" 185 578875 578883 "alexer.mll" 185 578875 578889
+type(
+  Buffer.t -> Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref string "alexer.ml" 8499 578052 578056 "alexer.ml" 8499 578052 578062
+)
+"alexer.mll" 185 578875 578890 "alexer.mll" 185 578875 578895
+type(
+  Buffer.t
+)
+ident(
+  int_ref sofar "alexer.ml" 8501 578121 578148 "alexer.ml" 8501 578121 578153
+)
+"alexer.mll" 185 578875 578896 "alexer.mll" 185 578875 578902
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8501 578121 578154 "alexer.ml" 8501 578121 578160
+)
+"alexer.mll" 185 578875 578883 "alexer.mll" 185 578875 578902
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.mll" 184 578838 578844 "alexer.mll" 186 578903 578910
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8520 578641 578641 "alexer.mll" 186 578903 578910
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8531 578931 578935 "alexer.ml" 8531 578931 578936
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 187 578963 579006 "alexer.mll" 187 578963 579009
+type(
+  string
+)
+ident(
+  def tok "alexer.mll" 188 579140 579146 "alexer.mll" 190 579205 579212
+)
+"alexer.ml" 8536 579029 579031 "alexer.ml" 8536 579029 579048
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme "lexing.mli" 195 8246 8246 "lexing.mli" 195 8246 8293
+)
+"alexer.ml" 8536 579029 579049 "alexer.ml" 8536 579029 579055
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8501 578121 578154 "alexer.ml" 8501 578121 578160
+)
+"alexer.ml" 8536 579029 579056 "alexer.ml" 8536 579029 579062
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8501 578121 578154 "alexer.ml" 8501 578121 578160
+)
+"alexer.ml" 8536 579029 579056 "alexer.ml" 8536 579029 579083
+type(
+  int
+)
+"alexer.ml" 8536 579029 579085 "alexer.ml" 8536 579029 579091
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8501 578121 578154 "alexer.ml" 8501 578121 578160
+)
+"alexer.ml" 8536 579029 579085 "alexer.ml" 8536 579029 579112
+type(
+  int
+)
+"alexer.ml" 8536 579029 579113 "alexer.ml" 8536 579029 579114
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.ml" 8536 579029 579115 "alexer.ml" 8536 579029 579116
+type(
+  int
+)
+"alexer.ml" 8536 579029 579084 "alexer.ml" 8536 579029 579117
+type(
+  int
+)
+"alexer.ml" 8536 579029 579031 "alexer.ml" 8536 579029 579117
+type(
+  string
+)
+"alexer.mll" 188 579140 579148 "alexer.mll" 188 579140 579165
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  int_ref Stdlib.Buffer.add_string "buffer.mli" 132 5167 5167 "buffer.mli" 132 5167 5203
+)
+"alexer.mll" 188 579140 579166 "alexer.mll" 188 579140 579171
+type(
+  Buffer.t
+)
+ident(
+  int_ref sofar "alexer.ml" 8501 578121 578148 "alexer.ml" 8501 578121 578153
+)
+"alexer.mll" 188 579140 579172 "alexer.mll" 188 579140 579175
+type(
+  string
+)
+ident(
+  int_ref tok "alexer.mll" 187 578963 579006 "alexer.mll" 187 578963 579009
+)
+"alexer.mll" 188 579140 579148 "alexer.mll" 188 579140 579175
+type(
+  unit
+)
+"alexer.mll" 189 579177 579185 "alexer.mll" 189 579177 579191
+type(
+  Buffer.t -> Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref string "alexer.ml" 8499 578052 578056 "alexer.ml" 8499 578052 578062
+)
+"alexer.mll" 189 579177 579192 "alexer.mll" 189 579177 579197
+type(
+  Buffer.t
+)
+ident(
+  int_ref sofar "alexer.ml" 8501 578121 578148 "alexer.ml" 8501 578121 578153
+)
+"alexer.mll" 189 579177 579198 "alexer.mll" 189 579177 579204
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8501 578121 578154 "alexer.ml" 8501 578121 578160
+)
+"alexer.mll" 189 579177 579185 "alexer.mll" 189 579177 579204
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.mll" 188 579140 579146 "alexer.mll" 190 579205 579212
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8532 578940 578940 "alexer.mll" 190 579205 579212
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8543 579233 579237 "alexer.ml" 8543 579233 579238
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 192 579261 579276 "alexer.mll" 192 579261 579291
+type(
+  Buffer.t -> string
+)
+ident(
+  int_ref Stdlib.Buffer.contents "buffer.mli" 50 2314 2314 "buffer.mli" 50 2314 2340
+)
+"alexer.mll" 192 579261 579292 "alexer.mll" 192 579261 579297
+type(
+  Buffer.t
+)
+ident(
+  int_ref sofar "alexer.ml" 8501 578121 578148 "alexer.ml" 8501 578121 578153
+)
+"alexer.mll" 192 579261 579275 "alexer.mll" 192 579261 579298
+type(
+  string
+)
+"alexer.mll" 192 579261 579271 "alexer.mll" 192 579261 579298
+type(
+  Tla_parser.Token.token_
+)
+"alexer.mll" 192 579261 579267 "alexer.mll" 192 579261 579302
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8548 579323 579327 "alexer.ml" 8548 579323 579328
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 194 579355 579365 "alexer.mll" 194 579355 579366
+type(
+  char
+)
+ident(
+  def k "alexer.mll" 195 579468 579474 "alexer.mll" 196 579501 579530
+)
+"alexer.ml" 8553 579386 579388 "alexer.ml" 8553 579386 579410
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  int_ref Stdlib.Lexing.sub_lexeme_char "lexing.mli" 197 8353 8353 "lexing.mli" 197 8353 8396
+)
+"alexer.ml" 8553 579386 579411 "alexer.ml" 8553 579386 579417
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8501 578121 578154 "alexer.ml" 8501 578121 578160
+)
+"alexer.ml" 8553 579386 579418 "alexer.ml" 8553 579386 579424
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8501 578121 578154 "alexer.ml" 8501 578121 578160
+)
+"alexer.ml" 8553 579386 579418 "alexer.ml" 8553 579386 579445
+type(
+  int
+)
+"alexer.ml" 8553 579386 579388 "alexer.ml" 8553 579386 579445
+type(
+  char
+)
+"alexer.mll" 195 579468 579476 "alexer.mll" 195 579468 579491
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  int_ref Stdlib.Buffer.add_char "buffer.mli" 109 4444 4444 "buffer.mli" 109 4444 4476
+)
+"alexer.mll" 195 579468 579492 "alexer.mll" 195 579468 579497
+type(
+  Buffer.t
+)
+ident(
+  int_ref sofar "alexer.ml" 8501 578121 578148 "alexer.ml" 8501 578121 578153
+)
+"alexer.mll" 195 579468 579498 "alexer.mll" 195 579468 579499
+type(
+  char
+)
+ident(
+  int_ref k "alexer.mll" 194 579355 579365 "alexer.mll" 194 579355 579366
+)
+"alexer.mll" 195 579468 579476 "alexer.mll" 195 579468 579499
+type(
+  unit
+)
+"alexer.mll" 196 579501 579509 "alexer.mll" 196 579501 579515
+type(
+  Buffer.t -> Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref string "alexer.ml" 8499 578052 578056 "alexer.ml" 8499 578052 578062
+)
+"alexer.mll" 196 579501 579516 "alexer.mll" 196 579501 579521
+type(
+  Buffer.t
+)
+ident(
+  int_ref sofar "alexer.ml" 8501 578121 578148 "alexer.ml" 8501 578121 578153
+)
+"alexer.mll" 196 579501 579522 "alexer.mll" 196 579501 579528
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8501 578121 578154 "alexer.ml" 8501 578121 578160
+)
+"alexer.mll" 196 579501 579509 "alexer.mll" 196 579501 579528
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.mll" 195 579468 579474 "alexer.mll" 196 579501 579530
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8549 579332 579332 "alexer.mll" 196 579501 579530
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8559 579551 579555 "alexer.ml" 8559 579551 579572
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "alexer.ml" 8559 579551 579576 "alexer.ml" 8560 579610 579669
+)
+"alexer.ml" 8559 579551 579576 "alexer.ml" 8559 579551 579582
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8501 578121 578154 "alexer.ml" 8501 578121 578160
+)
+"alexer.ml" 8559 579551 579576 "alexer.ml" 8559 579551 579601
+type(
+  Lexing.lexbuf -> unit
+)
+"alexer.ml" 8559 579551 579602 "alexer.ml" 8559 579551 579608
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8501 578121 578154 "alexer.ml" 8501 578121 578160
+)
+"alexer.ml" 8559 579551 579576 "alexer.ml" 8559 579551 579608
+type(
+  unit
+)
+"alexer.ml" 8560 579610 579616 "alexer.ml" 8560 579610 579638
+type(
+  Buffer.t -> Lexing.lexbuf -> int -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref __ocaml_lex_string_rec "alexer.ml" 8501 578121 578125 "alexer.ml" 8501 578121 578147
+)
+"alexer.ml" 8560 579610 579639 "alexer.ml" 8560 579610 579644
+type(
+  Buffer.t
+)
+ident(
+  int_ref sofar "alexer.ml" 8501 578121 578148 "alexer.ml" 8501 578121 578153
+)
+"alexer.ml" 8560 579610 579645 "alexer.ml" 8560 579610 579651
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8501 578121 578154 "alexer.ml" 8501 578121 578160
+)
+"alexer.ml" 8560 579610 579652 "alexer.ml" 8560 579610 579669
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "alexer.ml" 8559 579551 579555 "alexer.ml" 8559 579551 579572
+)
+"alexer.ml" 8560 579610 579616 "alexer.ml" 8560 579610 579669
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8559 579551 579576 "alexer.ml" 8560 579610 579669
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8502 578181 578183 "alexer.ml" 8560 579610 579669
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8562 579671 579675 "alexer.ml" 8562 579671 579682
+type(
+  Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  def linecom "alexer.ml" 8179 570262 570262 "alexer.ml" 0 0 -1
+)
+"alexer.ml" 8562 579671 579683 "alexer.ml" 8562 579671 579689
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "alexer.ml" 8563 579692 579695 "alexer.ml" 8563 579692 579729
+)
+"alexer.ml" 8563 579692 579695 "alexer.ml" 8563 579692 579718
+type(
+  Lexing.lexbuf -> int -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref __ocaml_lex_linecom_rec "alexer.ml" 8564 579730 579734 "alexer.ml" 8564 579730 579757
+)
+"alexer.ml" 8563 579692 579719 "alexer.ml" 8563 579692 579725
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8562 579671 579683 "alexer.ml" 8562 579671 579689
+)
+"alexer.ml" 8563 579692 579726 "alexer.ml" 8563 579692 579729
+type(
+  int
+)
+"alexer.ml" 8563 579692 579695 "alexer.ml" 8563 579692 579729
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8564 579730 579734 "alexer.ml" 8564 579730 579757
+type(
+  Lexing.lexbuf -> int -> Tla_parser.Token.token_ list
+)
+ident(
+  def __ocaml_lex_linecom_rec "alexer.ml" 8179 570262 570262 "alexer.ml" 0 0 -1
+)
+"alexer.ml" 8564 579730 579758 "alexer.ml" 8564 579730 579764
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "alexer.ml" 8564 579730 579765 "alexer.ml" 8582 580196 580250
+)
+"alexer.ml" 8564 579730 579765 "alexer.ml" 8564 579730 579782
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "alexer.ml" 8565 579785 579787 "alexer.ml" 8582 580196 580250
+)
+"alexer.ml" 8565 579785 579793 "alexer.ml" 8565 579785 579806
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  int_ref Stdlib.Lexing.engine "lexing.mli" 213 8766 8766 "lexing.mli" 213 8766 8813
+)
+"alexer.ml" 8565 579785 579807 "alexer.ml" 8565 579785 579825
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "alexer.ml" 27 644 648 "alexer.ml" 27 644 666
+)
+"alexer.ml" 8565 579785 579826 "alexer.ml" 8565 579785 579843
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "alexer.ml" 8564 579730 579765 "alexer.ml" 8564 579730 579782
+)
+"alexer.ml" 8565 579785 579844 "alexer.ml" 8565 579785 579850
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8564 579730 579758 "alexer.ml" 8564 579730 579764
+)
+"alexer.ml" 8565 579785 579793 "alexer.ml" 8565 579785 579850
+type(
+  int
+)
+"alexer.ml" 8566 579856 579864 "alexer.ml" 8566 579856 579865
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 199 579888 579910 "alexer.mll" 199 579888 579922
+type(
+  Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref tab_complain "alexer.mll" 21 362 368 "alexer.mll" 21 362 380
+)
+"alexer.mll" 199 579888 579923 "alexer.mll" 199 579888 579929
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8564 579730 579758 "alexer.ml" 8564 579730 579764
+)
+"alexer.mll" 199 579888 579908 "alexer.mll" 199 579888 579931
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8571 579952 579956 "alexer.ml" 8571 579952 579957
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 200 579980 580002 "alexer.mll" 200 579980 580005
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref eol "alexer.mll" 15 116 122 "alexer.mll" 15 116 125
+)
+"alexer.mll" 200 579980 580006 "alexer.mll" 200 579980 580012
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8564 579730 579758 "alexer.ml" 8564 579730 579764
+)
+"alexer.mll" 200 579980 580002 "alexer.mll" 200 579980 580012
+type(
+  unit
+)
+"alexer.mll" 200 579980 580015 "alexer.mll" 200 579980 580020
+type(
+  Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref token "alexer.ml" 8206 570875 570879 "alexer.ml" 8206 570875 570884
+)
+"alexer.mll" 200 579980 580021 "alexer.mll" 200 579980 580027
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8564 579730 579758 "alexer.ml" 8564 579730 579764
+)
+"alexer.mll" 200 579980 580015 "alexer.mll" 200 579980 580027
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.mll" 200 579980 580000 "alexer.mll" 200 579980 580029
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8576 580050 580054 "alexer.ml" 8576 580050 580055
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 201 580078 580100 "alexer.mll" 201 580078 580107
+type(
+  Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref linecom "alexer.ml" 8562 579671 579675 "alexer.ml" 8562 579671 579682
+)
+"alexer.mll" 201 580078 580108 "alexer.mll" 201 580078 580114
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8564 579730 579758 "alexer.ml" 8564 579730 579764
+)
+"alexer.mll" 201 580078 580098 "alexer.mll" 201 580078 580116
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8581 580137 580141 "alexer.ml" 8581 580137 580158
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "alexer.ml" 8581 580137 580162 "alexer.ml" 8582 580196 580250
+)
+"alexer.ml" 8581 580137 580162 "alexer.ml" 8581 580137 580168
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8564 579730 579758 "alexer.ml" 8564 579730 579764
+)
+"alexer.ml" 8581 580137 580162 "alexer.ml" 8581 580137 580187
+type(
+  Lexing.lexbuf -> unit
+)
+"alexer.ml" 8581 580137 580188 "alexer.ml" 8581 580137 580194
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8564 579730 579758 "alexer.ml" 8564 579730 579764
+)
+"alexer.ml" 8581 580137 580162 "alexer.ml" 8581 580137 580194
+type(
+  unit
+)
+"alexer.ml" 8582 580196 580202 "alexer.ml" 8582 580196 580225
+type(
+  Lexing.lexbuf -> int -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref __ocaml_lex_linecom_rec "alexer.ml" 8564 579730 579734 "alexer.ml" 8564 579730 579757
+)
+"alexer.ml" 8582 580196 580226 "alexer.ml" 8582 580196 580232
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8564 579730 579758 "alexer.ml" 8564 579730 579764
+)
+"alexer.ml" 8582 580196 580233 "alexer.ml" 8582 580196 580250
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "alexer.ml" 8581 580137 580141 "alexer.ml" 8581 580137 580158
+)
+"alexer.ml" 8582 580196 580202 "alexer.ml" 8582 580196 580250
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8581 580137 580162 "alexer.ml" 8582 580196 580250
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8565 579785 579787 "alexer.ml" 8582 580196 580250
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8584 580252 580256 "alexer.ml" 8584 580252 580263
+type(
+  int -> Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  def comment "alexer.ml" 8179 570262 570262 "alexer.ml" 0 0 -1
+)
+"alexer.ml" 8584 580252 580264 "alexer.ml" 8584 580252 580269
+type(
+  int
+)
+ident(
+  def depth "alexer.ml" 8584 580252 580270 "alexer.ml" 8585 580279 580322
+)
+"alexer.ml" 8584 580252 580270 "alexer.ml" 8584 580252 580276
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "alexer.ml" 8585 580279 580282 "alexer.ml" 8585 580279 580322
+)
+"alexer.ml" 8585 580279 580282 "alexer.ml" 8585 580279 580305
+type(
+  int -> Lexing.lexbuf -> int -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref __ocaml_lex_comment_rec "alexer.ml" 8586 580323 580327 "alexer.ml" 8586 580323 580350
+)
+"alexer.ml" 8585 580279 580306 "alexer.ml" 8585 580279 580311
+type(
+  int
+)
+ident(
+  int_ref depth "alexer.ml" 8584 580252 580264 "alexer.ml" 8584 580252 580269
+)
+"alexer.ml" 8585 580279 580312 "alexer.ml" 8585 580279 580318
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8584 580252 580270 "alexer.ml" 8584 580252 580276
+)
+"alexer.ml" 8585 580279 580319 "alexer.ml" 8585 580279 580322
+type(
+  int
+)
+"alexer.ml" 8585 580279 580282 "alexer.ml" 8585 580279 580322
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8586 580323 580327 "alexer.ml" 8586 580323 580350
+type(
+  int -> Lexing.lexbuf -> int -> Tla_parser.Token.token_ list
+)
+ident(
+  def __ocaml_lex_comment_rec "alexer.ml" 8179 570262 570262 "alexer.ml" 0 0 -1
+)
+"alexer.ml" 8586 580323 580351 "alexer.ml" 8586 580323 580356
+type(
+  int
+)
+ident(
+  def depth "alexer.ml" 8586 580323 580357 "alexer.ml" 8617 581029 581089
+)
+"alexer.ml" 8586 580323 580357 "alexer.ml" 8586 580323 580363
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "alexer.ml" 8586 580323 580364 "alexer.ml" 8617 581029 581089
+)
+"alexer.ml" 8586 580323 580364 "alexer.ml" 8586 580323 580381
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "alexer.ml" 8587 580384 580386 "alexer.ml" 8617 581029 581089
+)
+"alexer.ml" 8587 580384 580392 "alexer.ml" 8587 580384 580405
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  int_ref Stdlib.Lexing.engine "lexing.mli" 213 8766 8766 "lexing.mli" 213 8766 8813
+)
+"alexer.ml" 8587 580384 580406 "alexer.ml" 8587 580384 580424
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "alexer.ml" 27 644 648 "alexer.ml" 27 644 666
+)
+"alexer.ml" 8587 580384 580425 "alexer.ml" 8587 580384 580442
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "alexer.ml" 8586 580323 580364 "alexer.ml" 8586 580323 580381
+)
+"alexer.ml" 8587 580384 580443 "alexer.ml" 8587 580384 580449
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8586 580323 580357 "alexer.ml" 8586 580323 580363
+)
+"alexer.ml" 8587 580384 580392 "alexer.ml" 8587 580384 580449
+type(
+  int
+)
+"alexer.ml" 8588 580455 580463 "alexer.ml" 8588 580455 580464
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 204 580487 580509 "alexer.mll" 204 580487 580521
+type(
+  Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref tab_complain "alexer.mll" 21 362 368 "alexer.mll" 21 362 380
+)
+"alexer.mll" 204 580487 580522 "alexer.mll" 204 580487 580528
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8586 580323 580357 "alexer.ml" 8586 580323 580363
+)
+"alexer.mll" 204 580487 580507 "alexer.mll" 204 580487 580530
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8593 580551 580555 "alexer.ml" 8593 580551 580556
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 205 580579 580601 "alexer.mll" 205 580579 580604
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref eol "alexer.mll" 15 116 122 "alexer.mll" 15 116 125
+)
+"alexer.mll" 205 580579 580605 "alexer.mll" 205 580579 580611
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8586 580323 580357 "alexer.ml" 8586 580323 580363
+)
+"alexer.mll" 205 580579 580601 "alexer.mll" 205 580579 580611
+type(
+  unit
+)
+"alexer.mll" 205 580579 580614 "alexer.mll" 205 580579 580621
+type(
+  int -> Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref comment "alexer.ml" 8584 580252 580256 "alexer.ml" 8584 580252 580263
+)
+"alexer.mll" 205 580579 580622 "alexer.mll" 205 580579 580627
+type(
+  int
+)
+ident(
+  int_ref depth "alexer.ml" 8586 580323 580351 "alexer.ml" 8586 580323 580356
+)
+"alexer.mll" 205 580579 580628 "alexer.mll" 205 580579 580634
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8586 580323 580357 "alexer.ml" 8586 580323 580363
+)
+"alexer.mll" 205 580579 580614 "alexer.mll" 205 580579 580634
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.mll" 205 580579 580599 "alexer.mll" 205 580579 580636
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8598 580657 580661 "alexer.ml" 8598 580657 580662
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 207 580685 580696 "alexer.mll" 207 580685 580701
+type(
+  int
+)
+ident(
+  int_ref depth "alexer.ml" 8586 580323 580351 "alexer.ml" 8586 580323 580356
+)
+"alexer.mll" 207 580685 580702 "alexer.mll" 207 580685 580703
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"alexer.mll" 207 580685 580704 "alexer.mll" 207 580685 580705
+type(
+  int
+)
+"alexer.mll" 207 580685 580696 "alexer.mll" 207 580685 580705
+type(
+  bool
+)
+"alexer.mll" 208 580711 580721 "alexer.mll" 208 580711 580726
+type(
+  Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref token "alexer.ml" 8206 570875 570879 "alexer.ml" 8206 570875 570884
+)
+"alexer.mll" 208 580711 580727 "alexer.mll" 208 580711 580733
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8586 580323 580357 "alexer.ml" 8586 580323 580363
+)
+"alexer.mll" 208 580711 580721 "alexer.mll" 208 580711 580733
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.mll" 210 580747 580757 "alexer.mll" 210 580747 580764
+type(
+  int -> Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref comment "alexer.ml" 8584 580252 580256 "alexer.ml" 8584 580252 580263
+)
+"alexer.mll" 210 580747 580766 "alexer.mll" 210 580747 580771
+type(
+  int
+)
+ident(
+  int_ref depth "alexer.ml" 8586 580323 580351 "alexer.ml" 8586 580323 580356
+)
+"alexer.mll" 210 580747 580772 "alexer.mll" 210 580747 580773
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"alexer.mll" 210 580747 580774 "alexer.mll" 210 580747 580775
+type(
+  int
+)
+"alexer.mll" 210 580747 580765 "alexer.mll" 210 580747 580776
+type(
+  int
+)
+"alexer.mll" 210 580747 580777 "alexer.mll" 210 580747 580783
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8586 580323 580357 "alexer.ml" 8586 580323 580363
+)
+"alexer.mll" 210 580747 580757 "alexer.mll" 210 580747 580783
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.mll" 207 580685 580691 "alexer.mll" 210 580747 580785
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8606 580806 580810 "alexer.ml" 8606 580806 580811
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 212 580834 580842 "alexer.mll" 212 580834 580849
+type(
+  int -> Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref comment "alexer.ml" 8584 580252 580256 "alexer.ml" 8584 580252 580263
+)
+"alexer.mll" 212 580834 580851 "alexer.mll" 212 580834 580856
+type(
+  int
+)
+ident(
+  int_ref depth "alexer.ml" 8586 580323 580351 "alexer.ml" 8586 580323 580356
+)
+"alexer.mll" 212 580834 580857 "alexer.mll" 212 580834 580858
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.mll" 212 580834 580859 "alexer.mll" 212 580834 580860
+type(
+  int
+)
+"alexer.mll" 212 580834 580850 "alexer.mll" 212 580834 580861
+type(
+  int
+)
+"alexer.mll" 212 580834 580862 "alexer.mll" 212 580834 580868
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8586 580323 580357 "alexer.ml" 8586 580323 580363
+)
+"alexer.mll" 212 580834 580840 "alexer.mll" 212 580834 580870
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8611 580891 580895 "alexer.ml" 8611 580891 580896
+type(
+  int
+)
+type(
+  int
+)
+"alexer.mll" 214 580919 580927 "alexer.mll" 214 580919 580934
+type(
+  int -> Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref comment "alexer.ml" 8584 580252 580256 "alexer.ml" 8584 580252 580263
+)
+"alexer.mll" 214 580919 580935 "alexer.mll" 214 580919 580940
+type(
+  int
+)
+ident(
+  int_ref depth "alexer.ml" 8586 580323 580351 "alexer.ml" 8586 580323 580356
+)
+"alexer.mll" 214 580919 580941 "alexer.mll" 214 580919 580947
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8586 580323 580357 "alexer.ml" 8586 580323 580363
+)
+"alexer.mll" 214 580919 580925 "alexer.mll" 214 580919 580949
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8616 580970 580974 "alexer.ml" 8616 580970 580991
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "alexer.ml" 8616 580970 580995 "alexer.ml" 8617 581029 581089
+)
+"alexer.ml" 8616 580970 580995 "alexer.ml" 8616 580970 581001
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8586 580323 580357 "alexer.ml" 8586 580323 580363
+)
+"alexer.ml" 8616 580970 580995 "alexer.ml" 8616 580970 581020
+type(
+  Lexing.lexbuf -> unit
+)
+"alexer.ml" 8616 580970 581021 "alexer.ml" 8616 580970 581027
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8586 580323 580357 "alexer.ml" 8586 580323 580363
+)
+"alexer.ml" 8616 580970 580995 "alexer.ml" 8616 580970 581027
+type(
+  unit
+)
+"alexer.ml" 8617 581029 581035 "alexer.ml" 8617 581029 581058
+type(
+  int -> Lexing.lexbuf -> int -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref __ocaml_lex_comment_rec "alexer.ml" 8586 580323 580327 "alexer.ml" 8586 580323 580350
+)
+"alexer.ml" 8617 581029 581059 "alexer.ml" 8617 581029 581064
+type(
+  int
+)
+ident(
+  int_ref depth "alexer.ml" 8586 580323 580351 "alexer.ml" 8586 580323 580356
+)
+"alexer.ml" 8617 581029 581065 "alexer.ml" 8617 581029 581071
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.ml" 8586 580323 580357 "alexer.ml" 8586 580323 580363
+)
+"alexer.ml" 8617 581029 581072 "alexer.ml" 8617 581029 581089
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "alexer.ml" 8616 580970 580974 "alexer.ml" 8616 580970 580991
+)
+"alexer.ml" 8617 581029 581035 "alexer.ml" 8617 581029 581089
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8616 580970 580995 "alexer.ml" 8617 581029 581089
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.ml" 8587 580384 580386 "alexer.ml" 8617 581029 581089
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.mll" 219 581158 581164 "alexer.mll" 219 581158 581170
+type(
+  Buffer.t -> in_channel -> bool
+)
+ident(
+  def refill "alexer.mll" 231 581382 581384 "alexer.ml" 0 0 -1
+)
+"alexer.mll" 219 581158 581171 "alexer.mll" 219 581158 581174
+type(
+  Buffer.t
+)
+ident(
+  def buf "alexer.mll" 219 581158 581175 "alexer.mll" 228 581361 581379
+)
+"alexer.mll" 219 581158 581175 "alexer.mll" 219 581158 581177
+type(
+  in_channel
+)
+ident(
+  def ic "alexer.mll" 220 581180 581184 "alexer.mll" 228 581361 581379
+)
+"alexer.mll" 221 581188 581194 "alexer.mll" 221 581188 581206
+type(
+  Buffer.t -> unit
+)
+ident(
+  int_ref Stdlib.Buffer.clear "buffer.mli" 83 3489 3489 "buffer.mli" 83 3489 3510
+)
+"alexer.mll" 221 581188 581207 "alexer.mll" 221 581188 581210
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "alexer.mll" 219 581158 581171 "alexer.mll" 219 581158 581174
+)
+"alexer.mll" 221 581188 581194 "alexer.mll" 221 581188 581210
+type(
+  unit
+)
+"alexer.mll" 222 581213 581223 "alexer.mll" 222 581213 581224
+type(
+  string
+)
+ident(
+  def s "alexer.mll" 223 581244 581250 "alexer.mll" 225 581309 581319
+)
+"alexer.mll" 222 581213 581227 "alexer.mll" 222 581213 581237
+type(
+  in_channel -> string
+)
+ident(
+  int_ref Stdlib.input_line "stdlib.mli" 1089 40689 40689 "stdlib.mli" 1089 40689 40726
+)
+"alexer.mll" 222 581213 581238 "alexer.mll" 222 581213 581240
+type(
+  in_channel
+)
+ident(
+  int_ref ic "alexer.mll" 219 581158 581175 "alexer.mll" 219 581158 581177
+)
+"alexer.mll" 222 581213 581227 "alexer.mll" 222 581213 581240
+type(
+  string
+)
+"alexer.mll" 223 581244 581250 "alexer.mll" 223 581244 581267
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  int_ref Stdlib.Buffer.add_string "buffer.mli" 132 5167 5167 "buffer.mli" 132 5167 5203
+)
+"alexer.mll" 223 581244 581268 "alexer.mll" 223 581244 581271
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "alexer.mll" 219 581158 581171 "alexer.mll" 219 581158 581174
+)
+"alexer.mll" 223 581244 581272 "alexer.mll" 223 581244 581273
+type(
+  string
+)
+ident(
+  int_ref s "alexer.mll" 222 581213 581223 "alexer.mll" 222 581213 581224
+)
+"alexer.mll" 223 581244 581250 "alexer.mll" 223 581244 581273
+type(
+  unit
+)
+"alexer.mll" 224 581276 581282 "alexer.mll" 224 581276 581297
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  int_ref Stdlib.Buffer.add_char "buffer.mli" 109 4444 4444 "buffer.mli" 109 4444 4476
+)
+"alexer.mll" 224 581276 581298 "alexer.mll" 224 581276 581301
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "alexer.mll" 219 581158 581171 "alexer.mll" 219 581158 581174
+)
+"alexer.mll" 224 581276 581302 "alexer.mll" 224 581276 581306
+type(
+  char
+)
+"alexer.mll" 224 581276 581282 "alexer.mll" 224 581276 581306
+type(
+  unit
+)
+"alexer.mll" 225 581309 581315 "alexer.mll" 225 581309 581319
+type(
+  bool
+)
+"alexer.mll" 224 581276 581282 "alexer.mll" 225 581309 581319
+type(
+  bool
+)
+"alexer.mll" 223 581244 581250 "alexer.mll" 225 581309 581319
+type(
+  bool
+)
+"alexer.mll" 222 581213 581219 "alexer.mll" 225 581309 581319
+type(
+  bool
+)
+"alexer.mll" 221 581188 581194 "alexer.mll" 225 581309 581319
+type(
+  bool
+)
+"alexer.mll" 227 581329 581343 "alexer.mll" 227 581329 581344
+type(
+  E.t
+)
+"alexer.mll" 227 581329 581337 "alexer.mll" 227 581329 581344
+type(
+  exn
+)
+"alexer.mll" 227 581329 581337 "alexer.mll" 227 581329 581349
+type(
+  exn
+)
+ident(
+  def e "alexer.mll" 227 581329 581353 "alexer.mll" 227 581329 581360
+)
+"alexer.mll" 227 581329 581353 "alexer.mll" 227 581329 581358
+type(
+  exn -> bool
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"alexer.mll" 227 581329 581359 "alexer.mll" 227 581329 581360
+type(
+  exn
+)
+ident(
+  int_ref e "alexer.mll" 227 581329 581337 "alexer.mll" 227 581329 581349
+)
+"alexer.mll" 227 581329 581353 "alexer.mll" 227 581329 581360
+type(
+  bool
+)
+"alexer.mll" 228 581361 581369 "alexer.mll" 228 581361 581370
+type(
+  exn
+)
+"alexer.mll" 228 581361 581374 "alexer.mll" 228 581361 581379
+type(
+  bool
+)
+"alexer.mll" 220 581180 581184 "alexer.mll" 228 581361 581379
+type(
+  bool
+)
+"alexer.mll" 231 581382 581388 "alexer.mll" 231 581382 581399
+type(
+  in_channel -> bytes -> int -> int
+)
+ident(
+  def inch_reader "alexer.mll" 256 582093 582095 "alexer.ml" 0 0 -1
+)
+"alexer.mll" 231 581382 581400 "alexer.mll" 231 581382 581402
+type(
+  in_channel
+)
+ident(
+  def ic "alexer.mll" 232 581405 581409 "alexer.mll" 254 582081 582091
+)
+"alexer.mll" 232 581405 581413 "alexer.mll" 232 581405 581416
+type(
+  Buffer.t
+)
+ident(
+  def buf "alexer.mll" 233 581439 581443 "alexer.mll" 254 582081 582091
+)
+"alexer.mll" 232 581405 581419 "alexer.mll" 232 581405 581432
+type(
+  int -> Buffer.t
+)
+ident(
+  int_ref Stdlib.Buffer.create "buffer.mli" 36 1534 1534 "buffer.mli" 36 1534 1555
+)
+"alexer.mll" 232 581405 581433 "alexer.mll" 232 581405 581435
+type(
+  int
+)
+"alexer.mll" 232 581405 581419 "alexer.mll" 232 581405 581435
+type(
+  Buffer.t
+)
+"alexer.mll" 233 581439 581447 "alexer.mll" 233 581439 581450
+type(
+  bytes -> int -> int
+)
+ident(
+  def get "alexer.mll" 254 582081 582088 "alexer.mll" 254 582081 582091
+)
+"alexer.mll" 233 581439 581451 "alexer.mll" 233 581439 581455
+type(
+  bytes
+)
+ident(
+  def outs "alexer.mll" 233 581439 581456 "alexer.mll" 253 582063 582080
+)
+"alexer.mll" 233 581439 581456 "alexer.mll" 233 581439 581457
+type(
+  int
+)
+ident(
+  def n "alexer.mll" 234 581460 581466 "alexer.mll" 253 582063 582080
+)
+"alexer.mll" 234 581460 581474 "alexer.mll" 234 581460 581478
+type(
+  int -> int -> int
+)
+ident(
+  def read "alexer.mll" 234 581460 581466 "alexer.mll" 253 582063 582080
+)
+"alexer.mll" 234 581460 581479 "alexer.mll" 234 581460 581484
+type(
+  int
+)
+ident(
+  def nread "alexer.mll" 234 581460 581485 "alexer.mll" 252 582051 582062
+)
+"alexer.mll" 234 581460 581485 "alexer.mll" 234 581460 581486
+type(
+  int
+)
+ident(
+  def n "alexer.mll" 235 581489 581497 "alexer.mll" 252 582051 582062
+)
+"alexer.mll" 235 581489 581501 "alexer.mll" 235 581489 581503
+type(
+  int
+)
+ident(
+  def nc "alexer.mll" 236 581527 581535 "alexer.mll" 252 582051 582062
+)
+"alexer.mll" 235 581489 581506 "alexer.mll" 235 581489 581519
+type(
+  Buffer.t -> int
+)
+ident(
+  int_ref Stdlib.Buffer.length "buffer.mli" 80 3392 3392 "buffer.mli" 80 3392 3413
+)
+"alexer.mll" 235 581489 581520 "alexer.mll" 235 581489 581523
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "alexer.mll" 232 581405 581413 "alexer.mll" 232 581405 581416
+)
+"alexer.mll" 235 581489 581506 "alexer.mll" 235 581489 581523
+type(
+  int
+)
+"alexer.mll" 236 581527 581538 "alexer.mll" 236 581527 581540
+type(
+  int
+)
+ident(
+  int_ref nc "alexer.mll" 235 581489 581501 "alexer.mll" 235 581489 581503
+)
+"alexer.mll" 236 581527 581541 "alexer.mll" 236 581527 581543
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( <= ) "stdlib.mli" 145 6033 6033 "stdlib.mli" 145 6033 6082
+)
+"alexer.mll" 236 581527 581544 "alexer.mll" 236 581527 581545
+type(
+  int
+)
+ident(
+  int_ref n "alexer.mll" 234 581460 581485 "alexer.mll" 234 581460 581486
+)
+"alexer.mll" 236 581527 581538 "alexer.mll" 236 581527 581545
+type(
+  bool
+)
+"alexer.mll" 237 581557 581575 "alexer.mll" 237 581557 581576
+type(
+  int
+)
+"alexer.mll" 237 581557 581580 "alexer.mll" 237 581557 581582
+type(
+  int
+)
+ident(
+  int_ref nc "alexer.mll" 235 581489 581501 "alexer.mll" 235 581489 581503
+)
+"alexer.mll" 237 581557 581583 "alexer.mll" 237 581557 581584
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"alexer.mll" 237 581557 581585 "alexer.mll" 237 581557 581586
+type(
+  int
+)
+"alexer.mll" 237 581557 581580 "alexer.mll" 237 581557 581586
+type(
+  int
+)
+"alexer.mll" 238 581590 581602 "alexer.mll" 238 581590 581611
+type(
+  bytes -> int -> char -> unit
+)
+ident(
+  int_ref Stdlib.Bytes.set "bytes.mli" 65 2839 2839 "bytes.mli" 65 2839 2902
+)
+"alexer.mll" 238 581590 581612 "alexer.mll" 238 581590 581616
+type(
+  bytes
+)
+ident(
+  int_ref outs "alexer.mll" 233 581439 581451 "alexer.mll" 233 581439 581455
+)
+"alexer.mll" 238 581590 581618 "alexer.mll" 238 581590 581623
+type(
+  int
+)
+ident(
+  int_ref nread "alexer.mll" 234 581460 581479 "alexer.mll" 234 581460 581484
+)
+"alexer.mll" 238 581590 581624 "alexer.mll" 238 581590 581625
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.mll" 238 581590 581626 "alexer.mll" 238 581590 581627
+type(
+  int
+)
+ident(
+  int_ref i "alexer.mll" 237 581557 581567 "alexer.mll" 239 581648 581662
+)
+"alexer.mll" 238 581590 581617 "alexer.mll" 238 581590 581628
+type(
+  int
+)
+"alexer.mll" 238 581590 581630 "alexer.mll" 238 581590 581640
+type(
+  Buffer.t -> int -> char
+)
+ident(
+  int_ref Stdlib.Buffer.nth "buffer.mli" 75 3264 3264 "buffer.mli" 75 3264 3290
+)
+"alexer.mll" 238 581590 581641 "alexer.mll" 238 581590 581644
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "alexer.mll" 232 581405 581413 "alexer.mll" 232 581405 581416
+)
+"alexer.mll" 238 581590 581645 "alexer.mll" 238 581590 581646
+type(
+  int
+)
+ident(
+  int_ref i "alexer.mll" 237 581557 581567 "alexer.mll" 239 581648 581662
+)
+"alexer.mll" 238 581590 581629 "alexer.mll" 238 581590 581647
+type(
+  char
+)
+"alexer.mll" 238 581590 581602 "alexer.mll" 238 581590 581647
+type(
+  unit
+)
+"alexer.mll" 237 581557 581567 "alexer.mll" 239 581648 581662
+type(
+  unit
+)
+"alexer.mll" 240 581665 581678 "alexer.mll" 240 581665 581684
+type(
+  Buffer.t -> in_channel -> bool
+)
+ident(
+  int_ref refill "alexer.mll" 219 581158 581164 "alexer.mll" 219 581158 581170
+)
+"alexer.mll" 240 581665 581685 "alexer.mll" 240 581665 581688
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "alexer.mll" 232 581405 581413 "alexer.mll" 232 581405 581416
+)
+"alexer.mll" 240 581665 581689 "alexer.mll" 240 581665 581691
+type(
+  in_channel
+)
+ident(
+  int_ref ic "alexer.mll" 231 581382 581400 "alexer.mll" 231 581382 581402
+)
+"alexer.mll" 240 581665 581678 "alexer.mll" 240 581665 581691
+type(
+  bool
+)
+"alexer.mll" 241 581697 581709 "alexer.mll" 241 581697 581713
+type(
+  int -> int -> int
+)
+ident(
+  int_ref read "alexer.mll" 234 581460 581474 "alexer.mll" 234 581460 581478
+)
+"alexer.mll" 241 581697 581715 "alexer.mll" 241 581697 581720
+type(
+  int
+)
+ident(
+  int_ref nread "alexer.mll" 234 581460 581479 "alexer.mll" 234 581460 581484
+)
+"alexer.mll" 241 581697 581721 "alexer.mll" 241 581697 581722
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.mll" 241 581697 581723 "alexer.mll" 241 581697 581725
+type(
+  int
+)
+ident(
+  int_ref nc "alexer.mll" 235 581489 581501 "alexer.mll" 235 581489 581503
+)
+"alexer.mll" 241 581697 581714 "alexer.mll" 241 581697 581726
+type(
+  int
+)
+"alexer.mll" 241 581697 581728 "alexer.mll" 241 581697 581729
+type(
+  int
+)
+ident(
+  int_ref n "alexer.mll" 234 581460 581485 "alexer.mll" 234 581460 581486
+)
+"alexer.mll" 241 581697 581730 "alexer.mll" 241 581697 581731
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"alexer.mll" 241 581697 581732 "alexer.mll" 241 581697 581734
+type(
+  int
+)
+ident(
+  int_ref nc "alexer.mll" 235 581489 581501 "alexer.mll" 235 581489 581503
+)
+"alexer.mll" 241 581697 581727 "alexer.mll" 241 581697 581735
+type(
+  int
+)
+"alexer.mll" 241 581697 581709 "alexer.mll" 241 581697 581735
+type(
+  int
+)
+"alexer.mll" 243 581751 581763 "alexer.mll" 243 581751 581768
+type(
+  int
+)
+ident(
+  int_ref nread "alexer.mll" 234 581460 581479 "alexer.mll" 234 581460 581484
+)
+"alexer.mll" 243 581751 581769 "alexer.mll" 243 581751 581770
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.mll" 243 581751 581771 "alexer.mll" 243 581751 581773
+type(
+  int
+)
+ident(
+  int_ref nc "alexer.mll" 235 581489 581501 "alexer.mll" 235 581489 581503
+)
+"alexer.mll" 243 581751 581763 "alexer.mll" 243 581751 581773
+type(
+  int
+)
+"alexer.mll" 240 581665 581675 "alexer.mll" 243 581751 581773
+type(
+  int
+)
+"alexer.mll" 236 581527 581551 "alexer.mll" 244 581774 581785
+type(
+  int
+)
+"alexer.mll" 245 581797 581815 "alexer.mll" 245 581797 581816
+type(
+  int
+)
+"alexer.mll" 245 581797 581820 "alexer.mll" 245 581797 581821
+type(
+  int
+)
+ident(
+  int_ref n "alexer.mll" 234 581460 581485 "alexer.mll" 234 581460 581486
+)
+"alexer.mll" 245 581797 581822 "alexer.mll" 245 581797 581823
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"alexer.mll" 245 581797 581824 "alexer.mll" 245 581797 581825
+type(
+  int
+)
+"alexer.mll" 245 581797 581820 "alexer.mll" 245 581797 581825
+type(
+  int
+)
+"alexer.mll" 246 581829 581841 "alexer.mll" 246 581829 581850
+type(
+  bytes -> int -> char -> unit
+)
+ident(
+  int_ref Stdlib.Bytes.set "bytes.mli" 65 2839 2839 "bytes.mli" 65 2839 2902
+)
+"alexer.mll" 246 581829 581851 "alexer.mll" 246 581829 581855
+type(
+  bytes
+)
+ident(
+  int_ref outs "alexer.mll" 233 581439 581451 "alexer.mll" 233 581439 581455
+)
+"alexer.mll" 246 581829 581857 "alexer.mll" 246 581829 581862
+type(
+  int
+)
+ident(
+  int_ref nread "alexer.mll" 234 581460 581479 "alexer.mll" 234 581460 581484
+)
+"alexer.mll" 246 581829 581863 "alexer.mll" 246 581829 581864
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.mll" 246 581829 581865 "alexer.mll" 246 581829 581866
+type(
+  int
+)
+ident(
+  int_ref i "alexer.mll" 245 581797 581807 "alexer.mll" 247 581887 581901
+)
+"alexer.mll" 246 581829 581856 "alexer.mll" 246 581829 581867
+type(
+  int
+)
+"alexer.mll" 246 581829 581869 "alexer.mll" 246 581829 581879
+type(
+  Buffer.t -> int -> char
+)
+ident(
+  int_ref Stdlib.Buffer.nth "buffer.mli" 75 3264 3264 "buffer.mli" 75 3264 3290
+)
+"alexer.mll" 246 581829 581880 "alexer.mll" 246 581829 581883
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "alexer.mll" 232 581405 581413 "alexer.mll" 232 581405 581416
+)
+"alexer.mll" 246 581829 581884 "alexer.mll" 246 581829 581885
+type(
+  int
+)
+ident(
+  int_ref i "alexer.mll" 245 581797 581807 "alexer.mll" 247 581887 581901
+)
+"alexer.mll" 246 581829 581868 "alexer.mll" 246 581829 581886
+type(
+  char
+)
+"alexer.mll" 246 581829 581841 "alexer.mll" 246 581829 581886
+type(
+  unit
+)
+"alexer.mll" 245 581797 581807 "alexer.mll" 247 581887 581901
+type(
+  unit
+)
+"alexer.mll" 248 581904 581918 "alexer.mll" 248 581904 581919
+type(
+  string
+)
+ident(
+  def s "alexer.mll" 249 581966 581976 "alexer.mll" 251 582031 582050
+)
+"alexer.mll" 248 581904 581922 "alexer.mll" 248 581904 581932
+type(
+  Buffer.t -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Buffer.sub "buffer.mli" 59 2577 2577 "buffer.mli" 59 2577 2612
+)
+"alexer.mll" 248 581904 581933 "alexer.mll" 248 581904 581936
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "alexer.mll" 232 581405 581413 "alexer.mll" 232 581405 581416
+)
+"alexer.mll" 248 581904 581937 "alexer.mll" 248 581904 581938
+type(
+  int
+)
+ident(
+  int_ref n "alexer.mll" 234 581460 581485 "alexer.mll" 234 581460 581486
+)
+"alexer.mll" 248 581904 581940 "alexer.mll" 248 581904 581953
+type(
+  Buffer.t -> int
+)
+ident(
+  int_ref Stdlib.Buffer.length "buffer.mli" 80 3392 3392 "buffer.mli" 80 3392 3413
+)
+"alexer.mll" 248 581904 581954 "alexer.mll" 248 581904 581957
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "alexer.mll" 232 581405 581413 "alexer.mll" 232 581405 581416
+)
+"alexer.mll" 248 581904 581940 "alexer.mll" 248 581904 581957
+type(
+  int
+)
+"alexer.mll" 248 581904 581958 "alexer.mll" 248 581904 581959
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"alexer.mll" 248 581904 581960 "alexer.mll" 248 581904 581961
+type(
+  int
+)
+ident(
+  int_ref n "alexer.mll" 234 581460 581485 "alexer.mll" 234 581460 581486
+)
+"alexer.mll" 248 581904 581939 "alexer.mll" 248 581904 581962
+type(
+  int
+)
+"alexer.mll" 248 581904 581922 "alexer.mll" 248 581904 581962
+type(
+  string
+)
+"alexer.mll" 249 581966 581976 "alexer.mll" 249 581966 581988
+type(
+  Buffer.t -> unit
+)
+ident(
+  int_ref Stdlib.Buffer.clear "buffer.mli" 83 3489 3489 "buffer.mli" 83 3489 3510
+)
+"alexer.mll" 249 581966 581989 "alexer.mll" 249 581966 581992
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "alexer.mll" 232 581405 581413 "alexer.mll" 232 581405 581416
+)
+"alexer.mll" 249 581966 581976 "alexer.mll" 249 581966 581992
+type(
+  unit
+)
+"alexer.mll" 250 581995 582005 "alexer.mll" 250 581995 582022
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  int_ref Stdlib.Buffer.add_string "buffer.mli" 132 5167 5167 "buffer.mli" 132 5167 5203
+)
+"alexer.mll" 250 581995 582023 "alexer.mll" 250 581995 582026
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "alexer.mll" 232 581405 581413 "alexer.mll" 232 581405 581416
+)
+"alexer.mll" 250 581995 582027 "alexer.mll" 250 581995 582028
+type(
+  string
+)
+ident(
+  int_ref s "alexer.mll" 248 581904 581918 "alexer.mll" 248 581904 581919
+)
+"alexer.mll" 250 581995 582005 "alexer.mll" 250 581995 582028
+type(
+  unit
+)
+"alexer.mll" 251 582031 582041 "alexer.mll" 251 582031 582046
+type(
+  int
+)
+ident(
+  int_ref nread "alexer.mll" 234 581460 581479 "alexer.mll" 234 581460 581484
+)
+"alexer.mll" 251 582031 582047 "alexer.mll" 251 582031 582048
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"alexer.mll" 251 582031 582049 "alexer.mll" 251 582031 582050
+type(
+  int
+)
+ident(
+  int_ref n "alexer.mll" 234 581460 581485 "alexer.mll" 234 581460 581486
+)
+"alexer.mll" 251 582031 582041 "alexer.mll" 251 582031 582050
+type(
+  int
+)
+"alexer.mll" 250 581995 582005 "alexer.mll" 251 582031 582050
+type(
+  int
+)
+"alexer.mll" 249 581966 581976 "alexer.mll" 251 582031 582050
+type(
+  int
+)
+"alexer.mll" 248 581904 581914 "alexer.mll" 251 582031 582050
+type(
+  int
+)
+"alexer.mll" 244 581774 581791 "alexer.mll" 252 582051 582062
+type(
+  int
+)
+"alexer.mll" 236 581527 581535 "alexer.mll" 252 582051 582062
+type(
+  int
+)
+"alexer.mll" 235 581489 581497 "alexer.mll" 252 582051 582062
+type(
+  int
+)
+"alexer.mll" 253 582063 582072 "alexer.mll" 253 582063 582076
+type(
+  int -> int -> int
+)
+ident(
+  int_ref read "alexer.mll" 234 581460 581474 "alexer.mll" 234 581460 581478
+)
+"alexer.mll" 253 582063 582077 "alexer.mll" 253 582063 582078
+type(
+  int
+)
+"alexer.mll" 253 582063 582079 "alexer.mll" 253 582063 582080
+type(
+  int
+)
+ident(
+  int_ref n "alexer.mll" 233 581439 581456 "alexer.mll" 233 581439 581457
+)
+"alexer.mll" 253 582063 582072 "alexer.mll" 253 582063 582080
+type(
+  int
+)
+"alexer.mll" 234 581460 581466 "alexer.mll" 253 582063 582080
+type(
+  int
+)
+"alexer.mll" 254 582081 582088 "alexer.mll" 254 582081 582091
+type(
+  bytes -> int -> int
+)
+ident(
+  int_ref get "alexer.mll" 233 581439 581447 "alexer.mll" 233 581439 581450
+)
+"alexer.mll" 233 581439 581443 "alexer.mll" 254 582081 582091
+type(
+  bytes -> int -> int
+)
+"alexer.mll" 232 581405 581409 "alexer.mll" 254 582081 582091
+type(
+  bytes -> int -> int
+)
+"alexer.mll" 256 582093 582099 "alexer.mll" 256 582093 582111
+type(
+  (Lexing.lexbuf -> Tla_parser.Token.token_ list) ->
+  Lexing.lexbuf -> Tla_parser.Token.token list
+)
+ident(
+  def marked_token "alexer.mll" 265 582419 582421 "alexer.ml" 0 0 -1
+)
+"alexer.mll" 256 582093 582112 "alexer.mll" 256 582093 582117
+type(
+  Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  def lexfn "alexer.mll" 256 582093 582118 "alexer.mll" 263 582404 582417
+)
+"alexer.mll" 256 582093 582118 "alexer.mll" 256 582093 582124
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "alexer.mll" 257 582127 582131 "alexer.mll" 263 582404 582417
+)
+"alexer.mll" 257 582127 582135 "alexer.mll" 257 582127 582140
+type(
+  Tla_parser.Token.token_ list
+)
+ident(
+  def stuff "alexer.mll" 258 582159 582163 "alexer.mll" 263 582404 582417
+)
+"alexer.mll" 257 582127 582143 "alexer.mll" 257 582127 582148
+type(
+  Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref lexfn "alexer.mll" 256 582093 582112 "alexer.mll" 256 582093 582117
+)
+"alexer.mll" 257 582127 582149 "alexer.mll" 257 582127 582155
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.mll" 256 582093 582118 "alexer.mll" 256 582093 582124
+)
+"alexer.mll" 257 582127 582143 "alexer.mll" 257 582127 582155
+type(
+  Tla_parser.Token.token_ list
+)
+"alexer.mll" 258 582159 582163 "alexer.mll" 258 582159 582171
+type(
+  (Tla_parser.Token.token_ -> Tla_parser.Token.token) ->
+  Tla_parser.Token.token_ list -> Tla_parser.Token.token list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"alexer.mll" 258 582159 582182 "alexer.mll" 258 582159 582183
+type(
+  Tla_parser.Token.token_
+)
+ident(
+  def t "alexer.mll" 259 582187 582193 "alexer.mll" 262 582362 582403
+)
+"alexer.mll" 259 582187 582197 "alexer.mll" 259 582187 582205
+type(
+  Loc.locus
+)
+ident(
+  def locstart "alexer.mll" 260 582252 582258 "alexer.mll" 262 582362 582403
+)
+"alexer.mll" 259 582187 582208 "alexer.mll" 259 582187 582229
+type(
+  Lexing.position -> Loc.locus
+)
+ident(
+  int_ref Loc.locus_of_position "loc.mli" 56 1480 1480 "loc.mli" 56 1480 1528
+)
+"alexer.mll" 259 582187 582230 "alexer.mll" 259 582187 582236
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.mll" 256 582093 582118 "alexer.mll" 256 582093 582124
+)
+"alexer.mll" 259 582187 582230 "alexer.mll" 259 582187 582248
+type(
+  Lexing.position
+)
+"alexer.mll" 259 582187 582208 "alexer.mll" 259 582187 582248
+type(
+  Loc.locus
+)
+"alexer.mll" 260 582252 582262 "alexer.mll" 260 582252 582269
+type(
+  Loc.locus
+)
+ident(
+  def locstop "alexer.mll" 261 582316 582322 "alexer.mll" 262 582362 582403
+)
+"alexer.mll" 260 582252 582273 "alexer.mll" 260 582252 582294
+type(
+  Lexing.position -> Loc.locus
+)
+ident(
+  int_ref Loc.locus_of_position "loc.mli" 56 1480 1480 "loc.mli" 56 1480 1528
+)
+"alexer.mll" 260 582252 582295 "alexer.mll" 260 582252 582301
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "alexer.mll" 256 582093 582118 "alexer.mll" 256 582093 582124
+)
+"alexer.mll" 260 582252 582295 "alexer.mll" 260 582252 582312
+type(
+  Lexing.position
+)
+"alexer.mll" 260 582252 582273 "alexer.mll" 260 582252 582312
+type(
+  Loc.locus
+)
+"alexer.mll" 261 582316 582326 "alexer.mll" 261 582316 582329
+type(
+  Loc.locus
+)
+ident(
+  def loc "alexer.mll" 262 582362 582368 "alexer.mll" 262 582362 582403
+)
+"alexer.mll" 261 582316 582332 "alexer.mll" 261 582316 582341
+type(
+  Loc.locus -> Loc.locus -> Loc.locus
+)
+ident(
+  int_ref Loc.merge "loc.mli" 60 1622 1622 "loc.mli" 60 1622 1657
+)
+"alexer.mll" 261 582316 582342 "alexer.mll" 261 582316 582350
+type(
+  Loc.locus
+)
+ident(
+  int_ref locstart "alexer.mll" 259 582187 582197 "alexer.mll" 259 582187 582205
+)
+"alexer.mll" 261 582316 582351 "alexer.mll" 261 582316 582358
+type(
+  Loc.locus
+)
+ident(
+  int_ref locstop "alexer.mll" 260 582252 582262 "alexer.mll" 260 582252 582269
+)
+"alexer.mll" 261 582316 582332 "alexer.mll" 261 582316 582358
+type(
+  Loc.locus
+)
+"alexer.mll" 262 582362 582377 "alexer.mll" 262 582362 582378
+type(
+  Tla_parser.Token.token_
+)
+ident(
+  int_ref t "alexer.mll" 258 582159 582182 "alexer.mll" 258 582159 582183
+)
+"alexer.mll" 262 582362 582387 "alexer.mll" 262 582362 582389
+type(
+  string
+)
+"alexer.mll" 262 582362 582398 "alexer.mll" 262 582362 582401
+type(
+  Loc.locus
+)
+ident(
+  int_ref loc "alexer.mll" 261 582316 582326 "alexer.mll" 261 582316 582329
+)
+"alexer.mll" 262 582362 582368 "alexer.mll" 262 582362 582403
+type(
+  Tla_parser.Token.token
+)
+"alexer.mll" 261 582316 582322 "alexer.mll" 262 582362 582403
+type(
+  Tla_parser.Token.token
+)
+"alexer.mll" 260 582252 582258 "alexer.mll" 262 582362 582403
+type(
+  Tla_parser.Token.token
+)
+"alexer.mll" 259 582187 582193 "alexer.mll" 262 582362 582403
+type(
+  Tla_parser.Token.token
+)
+"alexer.mll" 258 582159 582172 "alexer.mll" 263 582404 582411
+type(
+  Tla_parser.Token.token_ -> Tla_parser.Token.token
+)
+"alexer.mll" 263 582404 582412 "alexer.mll" 263 582404 582417
+type(
+  Tla_parser.Token.token_ list
+)
+ident(
+  int_ref stuff "alexer.mll" 257 582127 582135 "alexer.mll" 257 582127 582140
+)
+"alexer.mll" 258 582159 582163 "alexer.mll" 263 582404 582417
+type(
+  Tla_parser.Token.token list
+)
+"alexer.mll" 257 582127 582131 "alexer.mll" 263 582404 582417
+type(
+  Tla_parser.Token.token list
+)
+"alexer.mll" 265 582419 582425 "alexer.mll" 265 582419 582436
+type(
+  string ->
+  in_channel -> Tla_parser.Token.token Pars.LazyList.llist * Loc.locus
+)
+ident(
+  def lex_channel "alexer.mll" 292 583249 583251 "alexer.ml" 0 0 -1
+)
+"alexer.mll" 265 582419 582437 "alexer.mll" 265 582419 582439
+type(
+  string
+)
+ident(
+  def fn "alexer.mll" 265 582419 582440 "alexer.mll" 290 583183 583247
+)
+"alexer.mll" 265 582419 582440 "alexer.mll" 265 582419 582443
+type(
+  in_channel
+)
+ident(
+  def ich "alexer.mll" 266 582446 582450 "alexer.mll" 290 583183 583247
+)
+"alexer.mll" 266 582446 582454 "alexer.mll" 266 582446 582460
+type(
+  bool ref
+)
+ident(
+  def inited "alexer.mll" 267 582476 582480 "alexer.mll" 290 583183 583247
+)
+"alexer.mll" 266 582446 582463 "alexer.mll" 266 582446 582466
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"alexer.mll" 266 582446 582467 "alexer.mll" 266 582446 582472
+type(
+  bool
+)
+"alexer.mll" 266 582446 582463 "alexer.mll" 266 582446 582472
+type(
+  bool ref
+)
+"alexer.mll" 267 582476 582484 "alexer.mll" 267 582476 582486
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lb "alexer.mll" 277 582823 582827 "alexer.mll" 290 583183 583247
+)
+"alexer.mll" 268 582489 582499 "alexer.mll" 268 582489 582501
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lb "alexer.mll" 270 582617 582623 "alexer.mll" 275 582807 582815
+)
+"alexer.mll" 268 582489 582504 "alexer.mll" 268 582489 582524
+type(
+  ?with_positions:bool -> (bytes -> int -> int) -> Lexing.lexbuf
+)
+ident(
+  int_ref Stdlib.Lexing.from_function "lexing.mli" 103 4687 4687 "lexing.mli" 103 4687 4762
+)
+"alexer.mll" 268 582489 582526 "alexer.mll" 268 582489 582537
+type(
+  in_channel -> bytes -> int -> int
+)
+ident(
+  int_ref inch_reader "alexer.mll" 231 581382 581388 "alexer.mll" 231 581382 581399
+)
+"alexer.mll" 268 582489 582538 "alexer.mll" 268 582489 582541
+type(
+  in_channel
+)
+ident(
+  int_ref ich "alexer.mll" 265 582419 582440 "alexer.mll" 265 582419 582443
+)
+"alexer.mll" 268 582489 582525 "alexer.mll" 268 582489 582542
+type(
+  bytes -> int -> int
+)
+"alexer.mll" 268 582489 582504 "alexer.mll" 268 582489 582542
+type(
+  Lexing.lexbuf
+)
+"alexer.mll" 270 582617 582623 "alexer.mll" 270 582617 582625
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "alexer.mll" 268 582489 582499 "alexer.mll" 268 582489 582501
+)
+"alexer.mll" 270 582617 582654 "alexer.mll" 270 582617 582656
+type(
+  string
+)
+ident(
+  int_ref fn "alexer.mll" 265 582419 582437 "alexer.mll" 265 582419 582439
+)
+"alexer.mll" 271 582659 582696 "alexer.mll" 271 582659 582697
+type(
+  int
+)
+"alexer.mll" 272 582700 582737 "alexer.mll" 272 582700 582738
+type(
+  int
+)
+"alexer.mll" 273 582741 582778 "alexer.mll" 273 582741 582779
+type(
+  int
+)
+"alexer.mll" 270 582617 582640 "alexer.mll" 274 582780 582804
+type(
+  Lexing.position
+)
+"alexer.mll" 270 582617 582623 "alexer.mll" 274 582780 582804
+type(
+  unit
+)
+"alexer.mll" 275 582807 582813 "alexer.mll" 275 582807 582815
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "alexer.mll" 268 582489 582499 "alexer.mll" 268 582489 582501
+)
+"alexer.mll" 270 582617 582623 "alexer.mll" 275 582807 582815
+type(
+  Lexing.lexbuf
+)
+"alexer.mll" 268 582489 582495 "alexer.mll" 275 582807 582815
+type(
+  Lexing.lexbuf
+)
+"alexer.mll" 277 582823 582831 "alexer.mll" 277 582823 582837
+type(
+  Tla_parser.Token.token list ref
+)
+ident(
+  def buffer "alexer.mll" 278 582850 582854 "alexer.mll" 290 583183 583247
+)
+"alexer.mll" 277 582823 582840 "alexer.mll" 277 582823 582843
+type(
+  Tla_parser.Token.token list -> Tla_parser.Token.token list ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"alexer.mll" 277 582823 582844 "alexer.mll" 277 582823 582846
+type(
+  Tla_parser.Token.token list
+)
+"alexer.mll" 277 582823 582840 "alexer.mll" 277 582823 582846
+type(
+  Tla_parser.Token.token list ref
+)
+"alexer.mll" 278 582850 582858 "alexer.mll" 278 582850 582862
+type(
+  unit -> Tla_parser.Token.token option
+)
+ident(
+  def next "alexer.mll" 290 583183 583190 "alexer.mll" 290 583183 583247
+)
+"alexer.mll" 278 582850 582863 "alexer.mll" 278 582850 582865
+type(
+  unit
+)
+"alexer.mll" 279 582878 582887 "alexer.mll" 279 582878 582888
+type(
+  Tla_parser.Token.token list ref -> Tla_parser.Token.token list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"alexer.mll" 279 582878 582888 "alexer.mll" 279 582878 582894
+type(
+  Tla_parser.Token.token list ref
+)
+ident(
+  int_ref buffer "alexer.mll" 277 582823 582831 "alexer.mll" 277 582823 582837
+)
+"alexer.mll" 279 582878 582887 "alexer.mll" 279 582878 582894
+type(
+  Tla_parser.Token.token list
+)
+"alexer.mll" 279 582878 582895 "alexer.mll" 279 582878 582896
+type(
+  Tla_parser.Token.token list -> Tla_parser.Token.token list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"alexer.mll" 279 582878 582897 "alexer.mll" 279 582878 582899
+type(
+  Tla_parser.Token.token list
+)
+"alexer.mll" 279 582878 582887 "alexer.mll" 279 582878 582899
+type(
+  bool
+)
+"alexer.mll" 280 582905 582913 "alexer.mll" 280 582905 582919
+type(
+  Tla_parser.Token.token list ref
+)
+ident(
+  int_ref buffer "alexer.mll" 277 582823 582831 "alexer.mll" 277 582823 582837
+)
+"alexer.mll" 280 582905 582920 "alexer.mll" 280 582905 582922
+type(
+  Tla_parser.Token.token list ref -> Tla_parser.Token.token list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"alexer.mll" 280 582905 582923 "alexer.mll" 280 582905 582935
+type(
+  (Lexing.lexbuf -> Tla_parser.Token.token_ list) ->
+  Lexing.lexbuf -> Tla_parser.Token.token list
+)
+ident(
+  int_ref marked_token "alexer.mll" 256 582093 582099 "alexer.mll" 256 582093 582111
+)
+"alexer.mll" 280 582905 582940 "alexer.mll" 280 582905 582941
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"alexer.mll" 280 582905 582941 "alexer.mll" 280 582905 582947
+type(
+  bool ref
+)
+ident(
+  int_ref inited "alexer.mll" 266 582446 582454 "alexer.mll" 266 582446 582460
+)
+"alexer.mll" 280 582905 582940 "alexer.mll" 280 582905 582947
+type(
+  bool
+)
+"alexer.mll" 280 582905 582953 "alexer.mll" 280 582905 582958
+type(
+  Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref token "alexer.ml" 8206 570875 570879 "alexer.ml" 8206 570875 570884
+)
+"alexer.mll" 280 582905 582964 "alexer.mll" 280 582905 582971
+type(
+  Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref modfile "alexer.ml" 8179 570262 570270 "alexer.ml" 8179 570262 570277
+)
+"alexer.mll" 280 582905 582936 "alexer.mll" 280 582905 582972
+type(
+  Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+"alexer.mll" 280 582905 582973 "alexer.mll" 280 582905 582975
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "alexer.mll" 267 582476 582484 "alexer.mll" 267 582476 582486
+)
+"alexer.mll" 280 582905 582923 "alexer.mll" 280 582905 582975
+type(
+  Tla_parser.Token.token list
+)
+"alexer.mll" 280 582905 582913 "alexer.mll" 280 582905 582975
+type(
+  unit
+)
+"alexer.mll" 279 582878 582884 "alexer.mll" 280 582905 582975
+type(
+  unit
+)
+"alexer.mll" 281 582978 582984 "alexer.mll" 281 582978 582990
+type(
+  bool ref
+)
+ident(
+  int_ref inited "alexer.mll" 266 582446 582454 "alexer.mll" 266 582446 582460
+)
+"alexer.mll" 281 582978 582991 "alexer.mll" 281 582978 582993
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"alexer.mll" 281 582978 582994 "alexer.mll" 281 582978 582998
+type(
+  bool
+)
+"alexer.mll" 281 582978 582984 "alexer.mll" 281 582978 582998
+type(
+  unit
+)
+"alexer.mll" 282 583001 583013 "alexer.mll" 282 583001 583014
+type(
+  Tla_parser.Token.token list ref -> Tla_parser.Token.token list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"alexer.mll" 282 583001 583014 "alexer.mll" 282 583001 583020
+type(
+  Tla_parser.Token.token list ref
+)
+ident(
+  int_ref buffer "alexer.mll" 277 582823 582831 "alexer.mll" 277 582823 582837
+)
+"alexer.mll" 282 583001 583013 "alexer.mll" 282 583001 583020
+type(
+  Tla_parser.Token.token list
+)
+"alexer.mll" 283 583026 583036 "alexer.mll" 283 583026 583037
+type(
+  Tla_parser.Token.token
+)
+ident(
+  def t "alexer.mll" 284 583047 583059 "alexer.mll" 285 583074 583092
+)
+"alexer.mll" 283 583026 583041 "alexer.mll" 283 583026 583043
+type(
+  Tla_parser.Token.token list
+)
+ident(
+  def ts "alexer.mll" 284 583047 583059 "alexer.mll" 285 583074 583092
+)
+"alexer.mll" 283 583026 583036 "alexer.mll" 283 583026 583043
+type(
+  Tla_parser.Token.token list
+)
+type(
+  Tla_parser.Token.token list
+)
+"alexer.mll" 284 583047 583059 "alexer.mll" 284 583047 583065
+type(
+  Tla_parser.Token.token list ref
+)
+ident(
+  int_ref buffer "alexer.mll" 277 582823 582831 "alexer.mll" 277 582823 582837
+)
+"alexer.mll" 284 583047 583066 "alexer.mll" 284 583047 583068
+type(
+  Tla_parser.Token.token list ref -> Tla_parser.Token.token list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"alexer.mll" 284 583047 583069 "alexer.mll" 284 583047 583071
+type(
+  Tla_parser.Token.token list
+)
+ident(
+  int_ref ts "alexer.mll" 283 583026 583041 "alexer.mll" 283 583026 583043
+)
+"alexer.mll" 284 583047 583059 "alexer.mll" 284 583047 583071
+type(
+  unit
+)
+"alexer.mll" 285 583074 583091 "alexer.mll" 285 583074 583092
+type(
+  Tla_parser.Token.token
+)
+ident(
+  int_ref t "alexer.mll" 283 583026 583036 "alexer.mll" 283 583026 583037
+)
+"alexer.mll" 285 583074 583086 "alexer.mll" 285 583074 583092
+type(
+  Tla_parser.Token.token option
+)
+"alexer.mll" 284 583047 583059 "alexer.mll" 285 583074 583092
+type(
+  Tla_parser.Token.token option
+)
+"alexer.mll" 286 583093 583103 "alexer.mll" 286 583093 583104
+type(
+  Tla_parser.Token.token list
+)
+type(
+  Tla_parser.Token.token list
+)
+"alexer.mll" 286 583093 583108 "alexer.mll" 286 583093 583112
+type(
+  Tla_parser.Token.token option
+)
+"alexer.mll" 282 583001 583007 "alexer.mll" 286 583093 583112
+type(
+  Tla_parser.Token.token option
+)
+"alexer.mll" 281 582978 582984 "alexer.mll" 286 583093 583112
+type(
+  Tla_parser.Token.token option
+)
+"alexer.mll" 278 582850 582872 "alexer.mll" 287 583113 583120
+type(
+  Tla_parser.Token.token option
+)
+"alexer.mll" 287 583113 583132 "alexer.mll" 287 583113 583133
+type(
+  E.t
+)
+ident(
+  def e "alexer.mll" 288 583137 583143 "alexer.mll" 289 583172 583182
+)
+"alexer.mll" 287 583113 583126 "alexer.mll" 287 583113 583133
+type(
+  exn
+)
+"alexer.mll" 288 583137 583143 "alexer.mll" 288 583137 583160
+type(
+  ?verbose:bool -> out_channel -> E.t -> unit
+)
+ident(
+  int_ref Pars.Error.print_error "pars.mli" 14 491 493 "pars.mli" 14 491 563
+)
+"alexer.mll" 288 583137 583161 "alexer.mll" 288 583137 583167
+type(
+  out_channel
+)
+ident(
+  int_ref Stdlib.stderr "stdlib.mli" 844 31049 31049 "stdlib.mli" 844 31049 31073
+)
+"alexer.mll" 288 583137 583168 "alexer.mll" 288 583137 583169
+type(
+  E.t
+)
+ident(
+  int_ref e "alexer.mll" 287 583113 583132 "alexer.mll" 287 583113 583133
+)
+"alexer.mll" 288 583137 583143 "alexer.mll" 288 583137 583169
+type(
+  unit
+)
+"alexer.mll" 289 583172 583178 "alexer.mll" 289 583172 583182
+type(
+  Tla_parser.Token.token option
+)
+"alexer.mll" 288 583137 583143 "alexer.mll" 289 583172 583182
+type(
+  Tla_parser.Token.token option
+)
+"alexer.mll" 278 582850 582868 "alexer.mll" 289 583172 583182
+type(
+  Tla_parser.Token.token option
+)
+"alexer.mll" 290 583183 583191 "alexer.mll" 290 583183 583204
+type(
+  (unit -> Tla_parser.Token.token option) ->
+  Tla_parser.Token.token Pars.LazyList.llist
+)
+ident(
+  int_ref Pars.LazyList.make "pars.mli" 59 1924 1926 "pars.mli" 59 1924 1968
+)
+"alexer.mll" 290 583183 583205 "alexer.mll" 290 583183 583209
+type(
+  unit -> Tla_parser.Token.token option
+)
+ident(
+  int_ref next "alexer.mll" 278 582850 582858 "alexer.mll" 278 582850 582862
+)
+"alexer.mll" 290 583183 583191 "alexer.mll" 290 583183 583209
+type(
+  Tla_parser.Token.token Pars.LazyList.llist
+)
+"alexer.mll" 290 583183 583211 "alexer.mll" 290 583183 583232
+type(
+  Lexing.position -> Loc.locus
+)
+ident(
+  int_ref Loc.locus_of_position "loc.mli" 56 1480 1480 "loc.mli" 56 1480 1528
+)
+"alexer.mll" 290 583183 583233 "alexer.mll" 290 583183 583235
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "alexer.mll" 267 582476 582484 "alexer.mll" 267 582476 582486
+)
+"alexer.mll" 290 583183 583233 "alexer.mll" 290 583183 583246
+type(
+  Lexing.position
+)
+"alexer.mll" 290 583183 583211 "alexer.mll" 290 583183 583246
+type(
+  Loc.locus
+)
+"alexer.mll" 290 583183 583190 "alexer.mll" 290 583183 583247
+type(
+  Tla_parser.Token.token Pars.LazyList.llist * Loc.locus
+)
+"alexer.mll" 278 582850 582854 "alexer.mll" 290 583183 583247
+type(
+  Tla_parser.Token.token Pars.LazyList.llist * Loc.locus
+)
+"alexer.mll" 277 582823 582827 "alexer.mll" 290 583183 583247
+type(
+  Tla_parser.Token.token Pars.LazyList.llist * Loc.locus
+)
+"alexer.mll" 267 582476 582480 "alexer.mll" 290 583183 583247
+type(
+  Tla_parser.Token.token Pars.LazyList.llist * Loc.locus
+)
+"alexer.mll" 266 582446 582450 "alexer.mll" 290 583183 583247
+type(
+  Tla_parser.Token.token Pars.LazyList.llist * Loc.locus
+)
+"alexer.mll" 292 583249 583255 "alexer.mll" 292 583249 583258
+type(
+  string -> Tla_parser.Token.token Pars.LazyList.llist * Loc.locus
+)
+ident(
+  def lex "alexer.mll" 299 583405 583407 "alexer.ml" 0 0 -1
+)
+"alexer.mll" 292 583249 583259 "alexer.mll" 292 583249 583261
+type(
+  string
+)
+ident(
+  def fn "alexer.mll" 293 583264 583268 "alexer.mll" 297 583381 583403
+)
+"alexer.mll" 293 583264 583272 "alexer.mll" 293 583264 583275
+type(
+  in_channel
+)
+ident(
+  def ich "alexer.mll" 297 583381 583385 "alexer.mll" 297 583381 583403
+)
+"alexer.mll" 294 583278 583288 "alexer.mll" 294 583278 583302
+type(
+  string -> in_channel
+)
+ident(
+  int_ref Stdlib.open_in "stdlib.mli" 1068 39735 39735 "stdlib.mli" 1068 39735 39769
+)
+"alexer.mll" 294 583278 583303 "alexer.mll" 294 583278 583305
+type(
+  string
+)
+ident(
+  int_ref fn "alexer.mll" 292 583249 583259 "alexer.mll" 292 583249 583261
+)
+"alexer.mll" 294 583278 583288 "alexer.mll" 294 583278 583305
+type(
+  in_channel
+)
+"alexer.mll" 295 583306 583327 "alexer.mll" 295 583306 583330
+type(
+  string
+)
+ident(
+  def msg "alexer.mll" 295 583306 583334 "alexer.mll" 295 583306 583373
+)
+"alexer.mll" 295 583306 583317 "alexer.mll" 295 583306 583330
+type(
+  exn
+)
+"alexer.mll" 295 583306 583334 "alexer.mll" 295 583306 583346
+type(
+  ?at:'_weak1 Property.wrapped ->
+  (string -> in_channel, unit, string, in_channel) format4 ->
+  string -> in_channel
+)
+ident(
+  int_ref Errors.fatal "errors.mli" 33 781 781 "errors.mli" 35 816 856
+)
+"alexer.mll" 295 583306 583347 "alexer.mll" 295 583306 583369
+type(
+  (string -> in_channel, unit, string, in_channel) format4
+)
+"alexer.mll" 295 583306 583370 "alexer.mll" 295 583306 583373
+type(
+  string
+)
+ident(
+  int_ref msg "alexer.mll" 295 583306 583327 "alexer.mll" 295 583306 583330
+)
+"alexer.mll" 295 583306 583334 "alexer.mll" 295 583306 583373
+type(
+  in_channel
+)
+"alexer.mll" 294 583278 583284 "alexer.mll" 295 583306 583373
+type(
+  in_channel
+)
+"alexer.mll" 297 583381 583385 "alexer.mll" 297 583381 583396
+type(
+  string ->
+  in_channel -> Tla_parser.Token.token Pars.LazyList.llist * Loc.locus
+)
+ident(
+  int_ref lex_channel "alexer.mll" 265 582419 582425 "alexer.mll" 265 582419 582436
+)
+"alexer.mll" 297 583381 583397 "alexer.mll" 297 583381 583399
+type(
+  string
+)
+ident(
+  int_ref fn "alexer.mll" 292 583249 583259 "alexer.mll" 292 583249 583261
+)
+"alexer.mll" 297 583381 583400 "alexer.mll" 297 583381 583403
+type(
+  in_channel
+)
+ident(
+  int_ref ich "alexer.mll" 293 583264 583272 "alexer.mll" 293 583264 583275
+)
+"alexer.mll" 297 583381 583385 "alexer.mll" 297 583381 583403
+type(
+  Tla_parser.Token.token Pars.LazyList.llist * Loc.locus
+)
+"alexer.mll" 293 583264 583268 "alexer.mll" 297 583381 583403
+type(
+  Tla_parser.Token.token Pars.LazyList.llist * Loc.locus
+)
+"alexer.mll" 299 583405 583411 "alexer.mll" 299 583405 583421
+type(
+  string -> Tla_parser.Token.token Pars.LazyList.llist * Loc.locus
+)
+ident(
+  def lex_string "alexer.mll" 312 583824 583888 "alexer.ml" 0 0 -1
+)
+"alexer.mll" 299 583405 583422 "alexer.mll" 299 583405 583423
+type(
+  string
+)
+ident(
+  def s "alexer.mll" 300 583426 583430 "alexer.mll" 312 583824 583888
+)
+"alexer.mll" 300 583426 583434 "alexer.mll" 300 583426 583436
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lb "alexer.mll" 301 583463 583467 "alexer.mll" 312 583824 583888
+)
+"alexer.mll" 300 583426 583439 "alexer.mll" 300 583426 583457
+type(
+  ?with_positions:bool -> string -> Lexing.lexbuf
+)
+ident(
+  int_ref Stdlib.Lexing.from_string "lexing.mli" 97 4421 4421 "lexing.mli" 97 4421 4479
+)
+"alexer.mll" 300 583426 583458 "alexer.mll" 300 583426 583459
+type(
+  string
+)
+ident(
+  int_ref s "alexer.mll" 299 583405 583422 "alexer.mll" 299 583405 583423
+)
+"alexer.mll" 300 583426 583439 "alexer.mll" 300 583426 583459
+type(
+  Lexing.lexbuf
+)
+"alexer.mll" 301 583463 583467 "alexer.mll" 301 583463 583469
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "alexer.mll" 300 583426 583434 "alexer.mll" 300 583426 583436
+)
+"alexer.mll" 301 583463 583497 "alexer.mll" 301 583463 583499
+type(
+  string
+)
+"alexer.mll" 301 583463 583512 "alexer.mll" 301 583463 583513
+type(
+  int
+)
+"alexer.mll" 301 583463 583526 "alexer.mll" 301 583463 583527
+type(
+  int
+)
+"alexer.mll" 301 583463 583539 "alexer.mll" 301 583463 583540
+type(
+  int
+)
+"alexer.mll" 301 583463 583484 "alexer.mll" 301 583463 583541
+type(
+  Lexing.position
+)
+"alexer.mll" 301 583463 583467 "alexer.mll" 301 583463 583541
+type(
+  unit
+)
+"alexer.mll" 302 583543 583551 "alexer.mll" 302 583543 583557
+type(
+  Tla_parser.Token.token list ref
+)
+ident(
+  def buffer "alexer.mll" 303 583570 583574 "alexer.mll" 312 583824 583888
+)
+"alexer.mll" 302 583543 583560 "alexer.mll" 302 583543 583563
+type(
+  Tla_parser.Token.token list -> Tla_parser.Token.token list ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"alexer.mll" 302 583543 583564 "alexer.mll" 302 583543 583566
+type(
+  Tla_parser.Token.token list
+)
+"alexer.mll" 302 583543 583560 "alexer.mll" 302 583543 583566
+type(
+  Tla_parser.Token.token list ref
+)
+"alexer.mll" 303 583570 583578 "alexer.mll" 303 583570 583582
+type(
+  unit -> Tla_parser.Token.token option
+)
+ident(
+  def next "alexer.mll" 312 583824 583831 "alexer.mll" 312 583824 583888
+)
+"alexer.mll" 303 583570 583583 "alexer.mll" 303 583570 583585
+type(
+  unit
+)
+"alexer.mll" 305 583598 583609 "alexer.mll" 305 583598 583610
+type(
+  Tla_parser.Token.token list ref -> Tla_parser.Token.token list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"alexer.mll" 305 583598 583610 "alexer.mll" 305 583598 583616
+type(
+  Tla_parser.Token.token list ref
+)
+ident(
+  int_ref buffer "alexer.mll" 302 583543 583551 "alexer.mll" 302 583543 583557
+)
+"alexer.mll" 305 583598 583609 "alexer.mll" 305 583598 583616
+type(
+  Tla_parser.Token.token list
+)
+"alexer.mll" 305 583598 583617 "alexer.mll" 305 583598 583618
+type(
+  Tla_parser.Token.token list -> Tla_parser.Token.token list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"alexer.mll" 305 583598 583619 "alexer.mll" 305 583598 583621
+type(
+  Tla_parser.Token.token list
+)
+"alexer.mll" 305 583598 583609 "alexer.mll" 305 583598 583621
+type(
+  bool
+)
+"alexer.mll" 305 583598 583627 "alexer.mll" 305 583598 583633
+type(
+  Tla_parser.Token.token list ref
+)
+ident(
+  int_ref buffer "alexer.mll" 302 583543 583551 "alexer.mll" 302 583543 583557
+)
+"alexer.mll" 305 583598 583634 "alexer.mll" 305 583598 583636
+type(
+  Tla_parser.Token.token list ref -> Tla_parser.Token.token list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"alexer.mll" 305 583598 583637 "alexer.mll" 305 583598 583649
+type(
+  (Lexing.lexbuf -> Tla_parser.Token.token_ list) ->
+  Lexing.lexbuf -> Tla_parser.Token.token list
+)
+ident(
+  int_ref marked_token "alexer.mll" 256 582093 582099 "alexer.mll" 256 582093 582111
+)
+"alexer.mll" 305 583598 583650 "alexer.mll" 305 583598 583655
+type(
+  Lexing.lexbuf -> Tla_parser.Token.token_ list
+)
+ident(
+  int_ref token "alexer.ml" 8206 570875 570879 "alexer.ml" 8206 570875 570884
+)
+"alexer.mll" 305 583598 583656 "alexer.mll" 305 583598 583658
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "alexer.mll" 300 583426 583434 "alexer.mll" 300 583426 583436
+)
+"alexer.mll" 305 583598 583637 "alexer.mll" 305 583598 583658
+type(
+  Tla_parser.Token.token list
+)
+"alexer.mll" 305 583598 583627 "alexer.mll" 305 583598 583658
+type(
+  unit
+)
+"alexer.mll" 305 583598 583606 "alexer.mll" 305 583598 583658
+type(
+  unit
+)
+"alexer.mll" 306 583660 583674 "alexer.mll" 306 583660 583675
+type(
+  Tla_parser.Token.token list ref -> Tla_parser.Token.token list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"alexer.mll" 306 583660 583675 "alexer.mll" 306 583660 583681
+type(
+  Tla_parser.Token.token list ref
+)
+ident(
+  int_ref buffer "alexer.mll" 302 583543 583551 "alexer.mll" 302 583543 583557
+)
+"alexer.mll" 306 583660 583674 "alexer.mll" 306 583660 583681
+type(
+  Tla_parser.Token.token list
+)
+"alexer.mll" 307 583687 583699 "alexer.mll" 307 583687 583700
+type(
+  Tla_parser.Token.token
+)
+ident(
+  def t "alexer.mll" 307 583687 583710 "alexer.mll" 307 583687 583730
+)
+"alexer.mll" 307 583687 583704 "alexer.mll" 307 583687 583706
+type(
+  Tla_parser.Token.token list
+)
+ident(
+  def ts "alexer.mll" 307 583687 583710 "alexer.mll" 307 583687 583730
+)
+"alexer.mll" 307 583687 583699 "alexer.mll" 307 583687 583706
+type(
+  Tla_parser.Token.token list
+)
+type(
+  Tla_parser.Token.token list
+)
+"alexer.mll" 307 583687 583710 "alexer.mll" 307 583687 583716
+type(
+  Tla_parser.Token.token list ref
+)
+ident(
+  int_ref buffer "alexer.mll" 302 583543 583551 "alexer.mll" 302 583543 583557
+)
+"alexer.mll" 307 583687 583717 "alexer.mll" 307 583687 583719
+type(
+  Tla_parser.Token.token list ref -> Tla_parser.Token.token list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"alexer.mll" 307 583687 583720 "alexer.mll" 307 583687 583722
+type(
+  Tla_parser.Token.token list
+)
+ident(
+  int_ref ts "alexer.mll" 307 583687 583704 "alexer.mll" 307 583687 583706
+)
+"alexer.mll" 307 583687 583710 "alexer.mll" 307 583687 583722
+type(
+  unit
+)
+"alexer.mll" 307 583687 583729 "alexer.mll" 307 583687 583730
+type(
+  Tla_parser.Token.token
+)
+ident(
+  int_ref t "alexer.mll" 307 583687 583699 "alexer.mll" 307 583687 583700
+)
+"alexer.mll" 307 583687 583724 "alexer.mll" 307 583687 583730
+type(
+  Tla_parser.Token.token option
+)
+"alexer.mll" 307 583687 583710 "alexer.mll" 307 583687 583730
+type(
+  Tla_parser.Token.token option
+)
+"alexer.mll" 308 583731 583743 "alexer.mll" 308 583731 583744
+type(
+  Tla_parser.Token.token list
+)
+type(
+  Tla_parser.Token.token list
+)
+"alexer.mll" 308 583731 583748 "alexer.mll" 308 583731 583752
+type(
+  Tla_parser.Token.token option
+)
+"alexer.mll" 306 583660 583668 "alexer.mll" 308 583731 583752
+type(
+  Tla_parser.Token.token option
+)
+"alexer.mll" 305 583598 583606 "alexer.mll" 308 583731 583752
+type(
+  Tla_parser.Token.token option
+)
+"alexer.mll" 309 583753 583770 "alexer.mll" 309 583753 583771
+type(
+  E.t
+)
+ident(
+  def e "alexer.mll" 310 583775 583783 "alexer.mll" 311 583811 583823
+)
+"alexer.mll" 309 583753 583764 "alexer.mll" 309 583753 583771
+type(
+  exn
+)
+"alexer.mll" 310 583775 583783 "alexer.mll" 310 583775 583800
+type(
+  ?verbose:bool -> out_channel -> E.t -> unit
+)
+ident(
+  int_ref Pars.Error.print_error "pars.mli" 14 491 493 "pars.mli" 14 491 563
+)
+"alexer.mll" 310 583775 583801 "alexer.mll" 310 583775 583807
+type(
+  out_channel
+)
+ident(
+  int_ref Stdlib.stderr "stdlib.mli" 844 31049 31049 "stdlib.mli" 844 31049 31073
+)
+"alexer.mll" 310 583775 583808 "alexer.mll" 310 583775 583809
+type(
+  E.t
+)
+ident(
+  int_ref e "alexer.mll" 309 583753 583770 "alexer.mll" 309 583753 583771
+)
+"alexer.mll" 310 583775 583783 "alexer.mll" 310 583775 583809
+type(
+  unit
+)
+"alexer.mll" 311 583811 583819 "alexer.mll" 311 583811 583823
+type(
+  Tla_parser.Token.token option
+)
+"alexer.mll" 310 583775 583783 "alexer.mll" 311 583811 583823
+type(
+  Tla_parser.Token.token option
+)
+"alexer.mll" 304 583588 583594 "alexer.mll" 311 583811 583823
+type(
+  Tla_parser.Token.token option
+)
+"alexer.mll" 312 583824 583832 "alexer.mll" 312 583824 583845
+type(
+  (unit -> Tla_parser.Token.token option) ->
+  Tla_parser.Token.token Pars.LazyList.llist
+)
+ident(
+  int_ref Pars.LazyList.make "pars.mli" 59 1924 1926 "pars.mli" 59 1924 1968
+)
+"alexer.mll" 312 583824 583846 "alexer.mll" 312 583824 583850
+type(
+  unit -> Tla_parser.Token.token option
+)
+ident(
+  int_ref next "alexer.mll" 303 583570 583578 "alexer.mll" 303 583570 583582
+)
+"alexer.mll" 312 583824 583832 "alexer.mll" 312 583824 583850
+type(
+  Tla_parser.Token.token Pars.LazyList.llist
+)
+"alexer.mll" 312 583824 583852 "alexer.mll" 312 583824 583873
+type(
+  Lexing.position -> Loc.locus
+)
+ident(
+  int_ref Loc.locus_of_position "loc.mli" 56 1480 1480 "loc.mli" 56 1480 1528
+)
+"alexer.mll" 312 583824 583874 "alexer.mll" 312 583824 583876
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "alexer.mll" 300 583426 583434 "alexer.mll" 300 583426 583436
+)
+"alexer.mll" 312 583824 583874 "alexer.mll" 312 583824 583887
+type(
+  Lexing.position
+)
+"alexer.mll" 312 583824 583852 "alexer.mll" 312 583824 583887
+type(
+  Loc.locus
+)
+"alexer.mll" 312 583824 583831 "alexer.mll" 312 583824 583888
+type(
+  Tla_parser.Token.token Pars.LazyList.llist * Loc.locus
+)
+"alexer.mll" 303 583570 583574 "alexer.mll" 312 583824 583888
+type(
+  Tla_parser.Token.token Pars.LazyList.llist * Loc.locus
+)
+"alexer.mll" 302 583543 583547 "alexer.mll" 312 583824 583888
+type(
+  Tla_parser.Token.token Pars.LazyList.llist * Loc.locus
+)
+"alexer.mll" 301 583463 583467 "alexer.mll" 312 583824 583888
+type(
+  Tla_parser.Token.token Pars.LazyList.llist * Loc.locus
+)
+"alexer.mll" 300 583426 583430 "alexer.mll" 312 583824 583888
+type(
+  Tla_parser.Token.token Pars.LazyList.llist * Loc.locus
+)

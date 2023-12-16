@@ -1,0 +1,169 @@
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:0
+@!!END
+
+File "/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library/TLAPS.tla", line 1, character 1 to line 363, character 77:
+[INFO]: All 0 obligation proved.
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:15:1:15:3
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:15:4:15:17
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:2
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:15:1:15:3
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 5
+@!!reason:false
+@!!already:true
+@!!obl:ASSUME NEW VARIABLE x,
+       TRUE 
+PROVE  \E x__Primed : (x__Primed /\ A) = (\E u : u /\ A)
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:15:1:15:3
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 10
+@!!already:true
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:15:4:15:17
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+File "./temp.tla", line 1, character 1 to line 17, character 80:
+[INFO]: All 2 obligations proved.
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:0
+@!!END
+
+File "/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library/TLAPS.tla", line 1, character 1 to line 363, character 77:
+[INFO]: All 0 obligation proved.
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:12:1:12:3
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:12:4:12:17
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:2
+@!!END
+
+File "./temp.tla", line 11, character 24:
+Error: Hidden definition of operator `A` needs expansion for soundly expanding the operator `ENABLED` (using rigid quantification).
+The expansion of the operator `ENABLED` has been activated with the `ExpandENABLED` proof directive from the module `TLAPS`.
+The operator `A` is defined at: 
+	File "./temp.tla", line 8, characters 6-7
+and the operator `A` occurs at: 
+	File "./temp.tla", line 11, character 24
+Using the proof directive `AutoUSE` from the module `TLAPS`, or `BY DEF A` is expected to avoid this error.
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:12:1:12:3
+@!!status:failed
+@!!prover:expandenabled
+@!!meth:time-limit: inf
+@!!reason:Hidden definition of operator `A` needs expansion for soundly expanding the operator `ENABLED` (using rigid quantification).
+The expansion of the operator `ENABLED` has been activated with the `ExpandENABLED` proof directive from the module `TLAPS`.
+The operator `A` is defined at: 
+	File "./temp.tla", line 8, characters 6-7
+and the operator `A` occurs at: 
+	File "./temp.tla", line 11, character 24
+Using the proof directive `AutoUSE` from the module `TLAPS`, or `BY DEF A` is expected to avoid this error.
+
+@!!already:false
+@!!obl:Hidden definition of operator `A` needs expansion for soundly expanding the operator `ENABLED` (using rigid quantification).
+The expansion of the operator `ENABLED` has been activated with the `ExpandENABLED` proof directive from the module `TLAPS`.
+The operator `A` is defined at: 
+	File "./temp.tla", line 8, characters 6-7
+and the operator `A` occurs at: 
+	File "./temp.tla", line 11, character 24
+Using the proof directive `AutoUSE` from the module `TLAPS`, or `BY DEF A` is expected to avoid this error.
+
+Obligation:
+
+ASSUME NEW VARIABLE x,
+       TRUE 
+PROVE  ENABLED ((x' /\ A) = (\E u : u /\ A))
+
+@!!END
+
+Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:12:1:12:3
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 5
+@!!reason:false
+@!!already:true
+@!!obl:ASSUME NEW VARIABLE x,
+       TRUE 
+PROVE  FALSE
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:12:1:12:3
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 10
+@!!already:true
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:12:4:12:17
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+File "./temp.tla", line 1, character 1 to line 14, character 80:
+[INFO]: All 2 obligations proved.

@@ -1,0 +1,1792 @@
+"method_prs.ml" 18 307 311 "method_prs.ml" 18 307 316
+type(
+  (Tla_parser.pcx, float) Tla_parser.P.prs
+)
+ident(
+  def float "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 19 319 321 "method_prs.ml" 19 319 327
+type(
+  (Tla_parser.pcx, string * string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.number "tla_parser.mli" 59 1614 1614 "tla_parser.mli" 59 1614 1654
+)
+"method_prs.ml" 19 319 328 "method_prs.ml" 19 319 331
+type(
+  (Tla_parser.pcx, string * string) Tla_parser.P.prs ->
+  (string * string -> float) -> (Tla_parser.pcx, float) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <$> ) "pars.mli" 95 3412 3416 "pars.mli" 95 3412 3472
+)
+"method_prs.ml" 19 319 338 "method_prs.ml" 19 319 339
+type(
+  string
+)
+ident(
+  def m "method_prs.ml" 19 319 347 "method_prs.ml" 19 319 391
+)
+"method_prs.ml" 19 319 341 "method_prs.ml" 19 319 342
+type(
+  string
+)
+ident(
+  def n "method_prs.ml" 19 319 347 "method_prs.ml" 19 319 391
+)
+"method_prs.ml" 19 319 337 "method_prs.ml" 19 319 343
+type(
+  string * string
+)
+"method_prs.ml" 19 319 347 "method_prs.ml" 19 319 362
+type(
+  string -> float
+)
+ident(
+  int_ref Stdlib.float_of_string "stdlib.mli" 805 30009 30009 "stdlib.mli" 805 30009 30076
+)
+"method_prs.ml" 19 319 364 "method_prs.ml" 19 319 378
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"method_prs.ml" 19 319 379 "method_prs.ml" 19 319 386
+type(
+  (string -> string -> string, unit, string) format
+)
+"method_prs.ml" 19 319 387 "method_prs.ml" 19 319 388
+type(
+  string
+)
+ident(
+  int_ref m "method_prs.ml" 19 319 338 "method_prs.ml" 19 319 339
+)
+"method_prs.ml" 19 319 389 "method_prs.ml" 19 319 390
+type(
+  string
+)
+ident(
+  int_ref n "method_prs.ml" 19 319 341 "method_prs.ml" 19 319 342
+)
+"method_prs.ml" 19 319 363 "method_prs.ml" 19 319 391
+type(
+  string
+)
+"method_prs.ml" 19 319 347 "method_prs.ml" 19 319 391
+type(
+  float
+)
+"method_prs.ml" 19 319 332 "method_prs.ml" 19 319 392
+type(
+  string * string -> float
+)
+"method_prs.ml" 19 319 321 "method_prs.ml" 19 319 392
+type(
+  (Tla_parser.pcx, float) Tla_parser.P.prs
+)
+"method_prs.ml" 21 394 402 "method_prs.ml" 21 394 413
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs lazy_t
+)
+ident(
+  def read_method "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 22 427 429 "method_prs.ml" 22 427 435
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.pragma "tla_parser.mli" 61 1696 1696 "tla_parser.mli" 62 1708 1746
+)
+"method_prs.ml" 22 427 437 "method_prs.ml" 22 427 442
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 22 427 443 "method_prs.ml" 22 427 447
+type(
+  string
+)
+"method_prs.ml" 22 427 437 "method_prs.ml" 22 427 447
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 22 427 448 "method_prs.ml" 22 427 451
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( >>> ) "pars.mli" 92 3223 3227 "pars.mli" 92 3223 3285
+)
+"method_prs.ml" 22 427 452 "method_prs.ml" 22 427 455
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs Lazy.t ->
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.use "pars.mli" 83 2710 2714 "pars.mli" 83 2710 2759
+)
+"method_prs.ml" 22 427 456 "method_prs.ml" 22 427 466
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs Lazy.t
+)
+ident(
+  int_ref isa_method "method_prs.ml" 25 473 477 "method_prs.ml" 25 473 487
+)
+"method_prs.ml" 22 427 452 "method_prs.ml" 22 427 466
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 22 427 436 "method_prs.ml" 22 427 467
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 21 394 421 "method_prs.ml" 23 468 471
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 21 394 416 "method_prs.ml" 23 468 471
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs lazy_t
+)
+"method_prs.ml" 25 473 477 "method_prs.ml" 25 473 487
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs Lazy.t
+)
+ident(
+  def isa_method "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 26 501 503 "method_prs.ml" 26 501 508
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.punct "tla_parser.mli" 50 1338 1338 "tla_parser.mli" 50 1338 1378
+)
+"method_prs.ml" 26 501 509 "method_prs.ml" 26 501 512
+type(
+  string
+)
+"method_prs.ml" 26 501 503 "method_prs.ml" 26 501 512
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 26 501 513 "method_prs.ml" 26 501 516
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( >>> ) "pars.mli" 92 3223 3227 "pars.mli" 92 3223 3285
+)
+"method_prs.ml" 27 517 521 "method_prs.ml" 27 517 527
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs list ->
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.choice "pars.mli" 106 4061 4065 "pars.mli" 106 4061 4111
+)
+"method_prs.ml" 27 517 530 "method_prs.ml" 27 517 533
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs Lazy.t ->
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.use "pars.mli" 83 2710 2714 "pars.mli" 83 2710 2759
+)
+"method_prs.ml" 27 517 534 "method_prs.ml" 27 517 541
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs Lazy.t
+)
+ident(
+  int_ref isa_gen "method_prs.ml" 56 1183 1187 "method_prs.ml" 56 1183 1194
+)
+"method_prs.ml" 27 517 530 "method_prs.ml" 27 517 541
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 28 544 557 "method_prs.ml" 28 544 560
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs Lazy.t ->
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.use "pars.mli" 83 2710 2714 "pars.mli" 83 2710 2759
+)
+"method_prs.ml" 28 544 561 "method_prs.ml" 28 544 570
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs Lazy.t
+)
+ident(
+  int_ref isa_zenon "method_prs.ml" 66 1467 1471 "method_prs.ml" 66 1467 1480
+)
+"method_prs.ml" 28 544 557 "method_prs.ml" 28 544 570
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 29 573 586 "method_prs.ml" 29 573 593
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref isa_smt "method_prs.ml" 74 1687 1691 "method_prs.ml" 74 1687 1698
+)
+"method_prs.ml" 30 596 609 "method_prs.ml" 30 596 617
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref isa_cvc3 "method_prs.ml" 77 1745 1749 "method_prs.ml" 77 1745 1757
+)
+"method_prs.ml" 31 620 633 "method_prs.ml" 31 620 642
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref isa_yices "method_prs.ml" 80 1807 1811 "method_prs.ml" 80 1807 1820
+)
+"method_prs.ml" 32 645 658 "method_prs.ml" 32 645 664
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref isa_z3 "method_prs.ml" 83 1873 1877 "method_prs.ml" 83 1873 1883
+)
+"method_prs.ml" 33 667 680 "method_prs.ml" 33 667 690
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref isa_cooper "method_prs.ml" 89 1984 1988 "method_prs.ml" 89 1984 1998
+)
+"method_prs.ml" 34 693 706 "method_prs.ml" 34 693 714
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref isa_fail "method_prs.ml" 94 2122 2126 "method_prs.ml" 94 2122 2134
+)
+"method_prs.ml" 35 717 730 "method_prs.ml" 35 717 741
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref isa_smt2lib "method_prs.ml" 97 2162 2166 "method_prs.ml" 97 2162 2177
+)
+"method_prs.ml" 36 743 756 "method_prs.ml" 36 743 766
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref isa_smt2z3 "method_prs.ml" 99 2227 2231 "method_prs.ml" 99 2227 2241
+)
+"method_prs.ml" 37 768 781 "method_prs.ml" 37 768 789
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref isa_smt3 "method_prs.ml" 101 2289 2293 "method_prs.ml" 101 2289 2301
+)
+"method_prs.ml" 38 791 804 "method_prs.ml" 38 791 811
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref isa_z33 "method_prs.ml" 103 2348 2352 "method_prs.ml" 103 2348 2359
+)
+"method_prs.ml" 39 813 826 "method_prs.ml" 39 813 835
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref isa_cvc33 "method_prs.ml" 105 2404 2408 "method_prs.ml" 105 2404 2417
+)
+"method_prs.ml" 40 837 850 "method_prs.ml" 40 837 860
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref isa_yices3 "method_prs.ml" 107 2466 2470 "method_prs.ml" 107 2466 2480
+)
+"method_prs.ml" 41 862 875 "method_prs.ml" 41 862 884
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref isa_verit "method_prs.ml" 109 2531 2535 "method_prs.ml" 109 2531 2544
+)
+"method_prs.ml" 42 886 899 "method_prs.ml" 42 886 908
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref isa_spass "method_prs.ml" 111 2593 2597 "method_prs.ml" 111 2593 2606
+)
+"method_prs.ml" 43 910 923 "method_prs.ml" 43 910 931
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref isa_tptp "method_prs.ml" 113 2656 2660 "method_prs.ml" 113 2656 2668
+)
+"method_prs.ml" 44 933 946 "method_prs.ml" 44 933 953
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref isa_ls4 "method_prs.ml" 86 1927 1931 "method_prs.ml" 86 1927 1938
+)
+"method_prs.ml" 45 955 968 "method_prs.ml" 45 955 979
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref isa_enabled "method_prs.ml" 115 2715 2719 "method_prs.ml" 115 2715 2730
+)
+"method_prs.ml" 46 981 994 "method_prs.ml" 46 981 1002
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref isa_cdot "method_prs.ml" 117 2774 2778 "method_prs.ml" 117 2774 2786
+)
+"method_prs.ml" 47 1004 1017 "method_prs.ml" 47 1004 1028
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref isa_autouse "method_prs.ml" 119 2824 2828 "method_prs.ml" 119 2824 2839
+)
+"method_prs.ml" 48 1030 1043 "method_prs.ml" 48 1030 1055
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref isa_lambdify "method_prs.ml" 121 2871 2875 "method_prs.ml" 121 2871 2887
+)
+"method_prs.ml" 49 1057 1070 "method_prs.ml" 49 1057 1087
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref isa_enabledaxioms "method_prs.ml" 123 2921 2925 "method_prs.ml" 123 2921 2942
+)
+"method_prs.ml" 50 1089 1102 "method_prs.ml" 50 1089 1121
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref isa_levelcomparison "method_prs.ml" 125 2986 2990 "method_prs.ml" 125 2986 3009
+)
+"method_prs.ml" 51 1123 1136 "method_prs.ml" 51 1123 1147
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref isa_trivial "method_prs.ml" 127 3057 3061 "method_prs.ml" 127 3057 3072
+)
+"method_prs.ml" 27 517 528 "method_prs.ml" 52 1149 1161
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs list
+)
+"method_prs.ml" 27 517 521 "method_prs.ml" 52 1149 1161
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 26 501 503 "method_prs.ml" 52 1149 1161
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 53 1162 1164 "method_prs.ml" 53 1162 1167
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <<< ) "pars.mli" 94 3349 3353 "pars.mli" 94 3349 3411
+)
+"method_prs.ml" 53 1162 1168 "method_prs.ml" 53 1162 1173
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.punct "tla_parser.mli" 50 1338 1338 "tla_parser.mli" 50 1338 1378
+)
+"method_prs.ml" 53 1162 1174 "method_prs.ml" 53 1162 1177
+type(
+  string
+)
+"method_prs.ml" 53 1162 1168 "method_prs.ml" 53 1162 1177
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 25 473 495 "method_prs.ml" 54 1178 1181
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 25 473 490 "method_prs.ml" 54 1178 1181
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs Lazy.t
+)
+"method_prs.ml" 56 1183 1187 "method_prs.ml" 56 1183 1194
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs Lazy.t
+)
+ident(
+  def isa_gen "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 57 1208 1210 "method_prs.ml" 57 1208 1215
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 57 1208 1216 "method_prs.ml" 57 1208 1226
+type(
+  string
+)
+"method_prs.ml" 57 1208 1210 "method_prs.ml" 57 1208 1226
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 57 1208 1227 "method_prs.ml" 57 1208 1230
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( >>> ) "pars.mli" 92 3223 3227 "pars.mli" 92 3223 3285
+)
+"method_prs.ml" 58 1231 1236 "method_prs.ml" 58 1231 1241
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.str "tla_parser.mli" 63 1747 1747 "tla_parser.mli" 63 1747 1775
+)
+"method_prs.ml" 57 1208 1210 "method_prs.ml" 58 1231 1241
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 58 1231 1242 "method_prs.ml" 58 1231 1245
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, float option) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string * float option) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <*> ) "pars.mli" 88 2968 2972 "pars.mli" 88 2968 3036
+)
+"method_prs.ml" 58 1231 1246 "method_prs.ml" 58 1231 1254
+type(
+  (Tla_parser.pcx, float) Tla_parser.P.prs ->
+  (Tla_parser.pcx, float option) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.optional "pars.mli" 105 4006 4010 "pars.mli" 105 4006 4060
+)
+"method_prs.ml" 58 1231 1255 "method_prs.ml" 58 1231 1260
+type(
+  (Tla_parser.pcx, float) Tla_parser.P.prs
+)
+ident(
+  int_ref float "method_prs.ml" 18 307 311 "method_prs.ml" 18 307 316
+)
+"method_prs.ml" 58 1231 1246 "method_prs.ml" 58 1231 1260
+type(
+  (Tla_parser.pcx, float option) Tla_parser.P.prs
+)
+"method_prs.ml" 57 1208 1210 "method_prs.ml" 58 1231 1260
+type(
+  (Tla_parser.pcx, string * float option) Tla_parser.P.prs
+)
+"method_prs.ml" 59 1261 1265 "method_prs.ml" 59 1261 1268
+type(
+  (Tla_parser.pcx, string * float option) Tla_parser.P.prs ->
+  (string * float option -> Method.t) ->
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <$> ) "pars.mli" 95 3412 3416 "pars.mli" 95 3412 3472
+)
+"method_prs.ml" 59 1261 1275 "method_prs.ml" 59 1261 1278
+type(
+  string
+)
+ident(
+  def tac "method_prs.ml" 60 1287 1298 "method_prs.ml" 61 1355 1385
+)
+"method_prs.ml" 59 1261 1279 "method_prs.ml" 59 1261 1282
+type(
+  float option
+)
+ident(
+  def tio "method_prs.ml" 60 1287 1298 "method_prs.ml" 61 1355 1385
+)
+"method_prs.ml" 59 1261 1274 "method_prs.ml" 59 1261 1283
+type(
+  string * float option
+)
+"method_prs.ml" 60 1287 1302 "method_prs.ml" 60 1287 1305
+type(
+  float
+)
+ident(
+  def tio "method_prs.ml" 61 1355 1366 "method_prs.ml" 61 1355 1385
+)
+"method_prs.ml" 60 1287 1308 "method_prs.ml" 60 1287 1322
+type(
+  float -> float option -> float
+)
+ident(
+  int_ref Ext.Option.default "ext.mli" 63 2752 2754 "ext.mli" 63 2752 2789
+)
+"method_prs.ml" 60 1287 1323 "method_prs.ml" 60 1287 1347
+type(
+  float
+)
+ident(
+  int_ref Method.default_isabelle_timeout "method.mli" 48 927 927 "method.mli" 48 927 962
+)
+"method_prs.ml" 60 1287 1348 "method_prs.ml" 60 1287 1351
+type(
+  float option
+)
+ident(
+  int_ref tio "method_prs.ml" 59 1261 1279 "method_prs.ml" 59 1261 1282
+)
+"method_prs.ml" 60 1287 1308 "method_prs.ml" 60 1287 1351
+type(
+  float
+)
+"method_prs.ml" 61 1355 1376 "method_prs.ml" 61 1355 1379
+type(
+  float
+)
+ident(
+  int_ref tio "method_prs.ml" 60 1287 1302 "method_prs.ml" 60 1287 1305
+)
+"method_prs.ml" 61 1355 1381 "method_prs.ml" 61 1355 1384
+type(
+  string
+)
+ident(
+  int_ref tac "method_prs.ml" 59 1261 1275 "method_prs.ml" 59 1261 1278
+)
+"method_prs.ml" 61 1355 1366 "method_prs.ml" 61 1355 1385
+type(
+  Method.t
+)
+"method_prs.ml" 60 1287 1298 "method_prs.ml" 61 1355 1385
+type(
+  Method.t
+)
+"method_prs.ml" 59 1261 1269 "method_prs.ml" 62 1386 1394
+type(
+  string * float option -> Method.t
+)
+"method_prs.ml" 56 1183 1202 "method_prs.ml" 63 1395 1398
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 56 1183 1197 "method_prs.ml" 63 1395 1398
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs Lazy.t
+)
+"method_prs.ml" 66 1467 1471 "method_prs.ml" 66 1467 1480
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs Lazy.t
+)
+ident(
+  def isa_zenon "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 67 1494 1496 "method_prs.ml" 67 1494 1501
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 67 1494 1502 "method_prs.ml" 67 1494 1509
+type(
+  string
+)
+"method_prs.ml" 67 1494 1496 "method_prs.ml" 67 1494 1509
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 67 1494 1510 "method_prs.ml" 67 1494 1513
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, float option) Tla_parser.P.prs ->
+  (Tla_parser.pcx, float option) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( >>> ) "pars.mli" 92 3223 3227 "pars.mli" 92 3223 3285
+)
+"method_prs.ml" 68 1514 1518 "method_prs.ml" 68 1514 1526
+type(
+  (Tla_parser.pcx, float) Tla_parser.P.prs ->
+  (Tla_parser.pcx, float option) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.optional "pars.mli" 105 4006 4010 "pars.mli" 105 4006 4060
+)
+"method_prs.ml" 68 1514 1527 "method_prs.ml" 68 1514 1532
+type(
+  (Tla_parser.pcx, float) Tla_parser.P.prs
+)
+ident(
+  int_ref float "method_prs.ml" 18 307 311 "method_prs.ml" 18 307 316
+)
+"method_prs.ml" 68 1514 1518 "method_prs.ml" 68 1514 1532
+type(
+  (Tla_parser.pcx, float option) Tla_parser.P.prs
+)
+"method_prs.ml" 67 1494 1496 "method_prs.ml" 68 1514 1532
+type(
+  (Tla_parser.pcx, float option) Tla_parser.P.prs
+)
+"method_prs.ml" 68 1514 1533 "method_prs.ml" 68 1514 1536
+type(
+  (Tla_parser.pcx, float option) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Method.t option) Tla_parser.P.prs ->
+  (Tla_parser.pcx, float option * Method.t option) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <*> ) "pars.mli" 88 2968 2972 "pars.mli" 88 2968 3036
+)
+"method_prs.ml" 68 1514 1537 "method_prs.ml" 68 1514 1545
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs ->
+  (Tla_parser.pcx, Method.t option) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.optional "pars.mli" 105 4006 4010 "pars.mli" 105 4006 4060
+)
+"method_prs.ml" 68 1514 1547 "method_prs.ml" 68 1514 1550
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs Lazy.t ->
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.use "pars.mli" 83 2710 2714 "pars.mli" 83 2710 2759
+)
+"method_prs.ml" 68 1514 1551 "method_prs.ml" 68 1514 1561
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs Lazy.t
+)
+ident(
+  int_ref isa_method "method_prs.ml" 25 473 477 "method_prs.ml" 25 473 487
+)
+"method_prs.ml" 68 1514 1546 "method_prs.ml" 68 1514 1562
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 68 1514 1537 "method_prs.ml" 68 1514 1562
+type(
+  (Tla_parser.pcx, Method.t option) Tla_parser.P.prs
+)
+"method_prs.ml" 67 1494 1496 "method_prs.ml" 68 1514 1562
+type(
+  (Tla_parser.pcx, float option * Method.t option) Tla_parser.P.prs
+)
+"method_prs.ml" 69 1563 1567 "method_prs.ml" 69 1563 1570
+type(
+  (Tla_parser.pcx, float option * Method.t option) Tla_parser.P.prs ->
+  (float option * Method.t option -> Method.t) ->
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <$> ) "pars.mli" 95 3412 3416 "pars.mli" 95 3412 3472
+)
+"method_prs.ml" 69 1563 1577 "method_prs.ml" 69 1563 1581
+type(
+  float option
+)
+ident(
+  def tout "method_prs.ml" 70 1590 1601 "method_prs.ml" 71 1657 1680
+)
+"method_prs.ml" 69 1563 1583 "method_prs.ml" 69 1563 1585
+type(
+  Method.t option
+)
+ident(
+  def fb "method_prs.ml" 70 1590 1601 "method_prs.ml" 71 1657 1680
+)
+"method_prs.ml" 69 1563 1576 "method_prs.ml" 69 1563 1586
+type(
+  float option * Method.t option
+)
+"method_prs.ml" 70 1590 1605 "method_prs.ml" 70 1590 1609
+type(
+  float
+)
+ident(
+  def tout "method_prs.ml" 71 1657 1670 "method_prs.ml" 71 1657 1680
+)
+"method_prs.ml" 70 1590 1612 "method_prs.ml" 70 1590 1626
+type(
+  float -> float option -> float
+)
+ident(
+  int_ref Ext.Option.default "ext.mli" 63 2752 2754 "ext.mli" 63 2752 2789
+)
+"method_prs.ml" 70 1590 1627 "method_prs.ml" 70 1590 1648
+type(
+  float
+)
+ident(
+  int_ref Method.default_zenon_timeout "method.mli" 46 863 863 "method.mli" 46 863 895
+)
+"method_prs.ml" 70 1590 1649 "method_prs.ml" 70 1590 1653
+type(
+  float option
+)
+ident(
+  int_ref tout "method_prs.ml" 69 1563 1577 "method_prs.ml" 69 1563 1581
+)
+"method_prs.ml" 70 1590 1612 "method_prs.ml" 70 1590 1653
+type(
+  float
+)
+"method_prs.ml" 71 1657 1676 "method_prs.ml" 71 1657 1680
+type(
+  float
+)
+ident(
+  int_ref tout "method_prs.ml" 70 1590 1605 "method_prs.ml" 70 1590 1609
+)
+"method_prs.ml" 71 1657 1670 "method_prs.ml" 71 1657 1680
+type(
+  Method.t
+)
+"method_prs.ml" 70 1590 1601 "method_prs.ml" 71 1657 1680
+type(
+  Method.t
+)
+"method_prs.ml" 69 1563 1571 "method_prs.ml" 71 1657 1681
+type(
+  float option * Method.t option -> Method.t
+)
+"method_prs.ml" 66 1467 1488 "method_prs.ml" 72 1682 1685
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 66 1467 1483 "method_prs.ml" 72 1682 1685
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs Lazy.t
+)
+"method_prs.ml" 74 1687 1691 "method_prs.ml" 74 1687 1698
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  def isa_smt "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 75 1701 1703 "method_prs.ml" 75 1701 1708
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 75 1701 1709 "method_prs.ml" 75 1701 1714
+type(
+  string
+)
+"method_prs.ml" 75 1701 1703 "method_prs.ml" 75 1701 1714
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 75 1701 1715 "method_prs.ml" 75 1701 1718
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  Method.t -> (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"method_prs.ml" 75 1701 1724 "method_prs.ml" 75 1701 1743
+type(
+  float
+)
+ident(
+  int_ref Method.default_smt_timeout "method.mli" 54 1127 1127 "method.mli" 54 1127 1157
+)
+"method_prs.ml" 75 1701 1719 "method_prs.ml" 75 1701 1743
+type(
+  Method.t
+)
+"method_prs.ml" 75 1701 1703 "method_prs.ml" 75 1701 1743
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 77 1745 1749 "method_prs.ml" 77 1745 1757
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  def isa_cvc3 "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 78 1760 1762 "method_prs.ml" 78 1760 1767
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 78 1760 1768 "method_prs.ml" 78 1760 1774
+type(
+  string
+)
+"method_prs.ml" 78 1760 1762 "method_prs.ml" 78 1760 1774
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 78 1760 1775 "method_prs.ml" 78 1760 1778
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  Method.t -> (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"method_prs.ml" 78 1760 1785 "method_prs.ml" 78 1760 1805
+type(
+  float
+)
+ident(
+  int_ref Method.default_cvc3_timeout "method.mli" 53 1095 1095 "method.mli" 53 1095 1126
+)
+"method_prs.ml" 78 1760 1779 "method_prs.ml" 78 1760 1805
+type(
+  Method.t
+)
+"method_prs.ml" 78 1760 1762 "method_prs.ml" 78 1760 1805
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 80 1807 1811 "method_prs.ml" 80 1807 1820
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  def isa_yices "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 81 1823 1825 "method_prs.ml" 81 1823 1830
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 81 1823 1831 "method_prs.ml" 81 1823 1838
+type(
+  string
+)
+"method_prs.ml" 81 1823 1825 "method_prs.ml" 81 1823 1838
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 81 1823 1839 "method_prs.ml" 81 1823 1842
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  Method.t -> (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"method_prs.ml" 81 1823 1850 "method_prs.ml" 81 1823 1871
+type(
+  float
+)
+ident(
+  int_ref Method.default_yices_timeout "method.mli" 50 999 999 "method.mli" 50 999 1031
+)
+"method_prs.ml" 81 1823 1843 "method_prs.ml" 81 1823 1871
+type(
+  Method.t
+)
+"method_prs.ml" 81 1823 1825 "method_prs.ml" 81 1823 1871
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 83 1873 1877 "method_prs.ml" 83 1873 1883
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  def isa_z3 "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 84 1886 1888 "method_prs.ml" 84 1886 1893
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 84 1886 1894 "method_prs.ml" 84 1886 1898
+type(
+  string
+)
+"method_prs.ml" 84 1886 1888 "method_prs.ml" 84 1886 1898
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 84 1886 1899 "method_prs.ml" 84 1886 1902
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  Method.t -> (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"method_prs.ml" 84 1886 1907 "method_prs.ml" 84 1886 1925
+type(
+  float
+)
+ident(
+  int_ref Method.default_z3_timeout "method.mli" 51 1032 1032 "method.mli" 51 1032 1061
+)
+"method_prs.ml" 84 1886 1903 "method_prs.ml" 84 1886 1925
+type(
+  Method.t
+)
+"method_prs.ml" 84 1886 1888 "method_prs.ml" 84 1886 1925
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 86 1927 1931 "method_prs.ml" 86 1927 1938
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  def isa_ls4 "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 87 1941 1943 "method_prs.ml" 87 1941 1948
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 87 1941 1949 "method_prs.ml" 87 1941 1954
+type(
+  string
+)
+"method_prs.ml" 87 1941 1943 "method_prs.ml" 87 1941 1954
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 87 1941 1955 "method_prs.ml" 87 1941 1958
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  Method.t -> (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"method_prs.ml" 87 1941 1963 "method_prs.ml" 87 1941 1982
+type(
+  float
+)
+ident(
+  int_ref Method.default_ls4_timeout "method.mli" 47 896 896 "method.mli" 47 896 926
+)
+"method_prs.ml" 87 1941 1959 "method_prs.ml" 87 1941 1982
+type(
+  Method.t
+)
+"method_prs.ml" 87 1941 1943 "method_prs.ml" 87 1941 1982
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 89 1984 1988 "method_prs.ml" 89 1984 1998
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  def isa_cooper "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 90 2001 2004 "method_prs.ml" 90 2001 2009
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 90 2001 2010 "method_prs.ml" 90 2001 2018
+type(
+  string
+)
+"method_prs.ml" 90 2001 2004 "method_prs.ml" 90 2001 2018
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 90 2001 2019 "method_prs.ml" 90 2001 2022
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <|> ) "pars.mli" 87 2905 2909 "pars.mli" 87 2905 2967
+)
+"method_prs.ml" 90 2001 2023 "method_prs.ml" 90 2001 2028
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 90 2001 2029 "method_prs.ml" 90 2001 2041
+type(
+  string
+)
+"method_prs.ml" 90 2001 2023 "method_prs.ml" 90 2001 2041
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 90 2001 2003 "method_prs.ml" 90 2001 2042
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 90 2001 2043 "method_prs.ml" 90 2001 2046
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  Method.t -> (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"method_prs.ml" 90 2001 2047 "method_prs.ml" 90 2001 2053
+type(
+  Method.t
+)
+"method_prs.ml" 90 2001 2003 "method_prs.ml" 90 2001 2053
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 94 2122 2126 "method_prs.ml" 94 2122 2134
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  def isa_fail "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 95 2137 2139 "method_prs.ml" 95 2137 2144
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 95 2137 2145 "method_prs.ml" 95 2137 2151
+type(
+  string
+)
+"method_prs.ml" 95 2137 2139 "method_prs.ml" 95 2137 2151
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 95 2137 2152 "method_prs.ml" 95 2137 2155
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  Method.t -> (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"method_prs.ml" 95 2137 2156 "method_prs.ml" 95 2137 2160
+type(
+  Method.t
+)
+"method_prs.ml" 95 2137 2139 "method_prs.ml" 95 2137 2160
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 97 2162 2166 "method_prs.ml" 97 2162 2177
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  def isa_smt2lib "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 97 2162 2180 "method_prs.ml" 97 2162 2185
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 97 2162 2186 "method_prs.ml" 97 2162 2195
+type(
+  string
+)
+"method_prs.ml" 97 2162 2180 "method_prs.ml" 97 2162 2195
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 97 2162 2196 "method_prs.ml" 97 2162 2199
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  Method.t -> (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"method_prs.ml" 97 2162 2205 "method_prs.ml" 97 2162 2225
+type(
+  float
+)
+ident(
+  int_ref Method.default_smt2_timeout "method.mli" 55 1158 1158 "method.mli" 55 1158 1189
+)
+"method_prs.ml" 97 2162 2200 "method_prs.ml" 97 2162 2225
+type(
+  Method.t
+)
+"method_prs.ml" 97 2162 2180 "method_prs.ml" 97 2162 2225
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 99 2227 2231 "method_prs.ml" 99 2227 2241
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  def isa_smt2z3 "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 99 2227 2244 "method_prs.ml" 99 2227 2249
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 99 2227 2250 "method_prs.ml" 99 2227 2258
+type(
+  string
+)
+"method_prs.ml" 99 2227 2244 "method_prs.ml" 99 2227 2258
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 99 2227 2259 "method_prs.ml" 99 2227 2262
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  Method.t -> (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"method_prs.ml" 99 2227 2267 "method_prs.ml" 99 2227 2287
+type(
+  float
+)
+ident(
+  int_ref Method.default_smt2_timeout "method.mli" 55 1158 1158 "method.mli" 55 1158 1189
+)
+"method_prs.ml" 99 2227 2263 "method_prs.ml" 99 2227 2287
+type(
+  Method.t
+)
+"method_prs.ml" 99 2227 2244 "method_prs.ml" 99 2227 2287
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 101 2289 2293 "method_prs.ml" 101 2289 2301
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  def isa_smt3 "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 101 2289 2304 "method_prs.ml" 101 2289 2309
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 101 2289 2310 "method_prs.ml" 101 2289 2316
+type(
+  string
+)
+"method_prs.ml" 101 2289 2304 "method_prs.ml" 101 2289 2316
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 101 2289 2317 "method_prs.ml" 101 2289 2320
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  Method.t -> (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"method_prs.ml" 101 2289 2326 "method_prs.ml" 101 2289 2346
+type(
+  float
+)
+ident(
+  int_ref Method.default_smt2_timeout "method.mli" 55 1158 1158 "method.mli" 55 1158 1189
+)
+"method_prs.ml" 101 2289 2321 "method_prs.ml" 101 2289 2346
+type(
+  Method.t
+)
+"method_prs.ml" 101 2289 2304 "method_prs.ml" 101 2289 2346
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 103 2348 2352 "method_prs.ml" 103 2348 2359
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  def isa_z33 "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 103 2348 2362 "method_prs.ml" 103 2348 2367
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 103 2348 2368 "method_prs.ml" 103 2348 2373
+type(
+  string
+)
+"method_prs.ml" 103 2348 2362 "method_prs.ml" 103 2348 2373
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 103 2348 2374 "method_prs.ml" 103 2348 2377
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  Method.t -> (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"method_prs.ml" 103 2348 2382 "method_prs.ml" 103 2348 2402
+type(
+  float
+)
+ident(
+  int_ref Method.default_smt2_timeout "method.mli" 55 1158 1158 "method.mli" 55 1158 1189
+)
+"method_prs.ml" 103 2348 2378 "method_prs.ml" 103 2348 2402
+type(
+  Method.t
+)
+"method_prs.ml" 103 2348 2362 "method_prs.ml" 103 2348 2402
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 105 2404 2408 "method_prs.ml" 105 2404 2417
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  def isa_cvc33 "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 105 2404 2420 "method_prs.ml" 105 2404 2425
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 105 2404 2426 "method_prs.ml" 105 2404 2433
+type(
+  string
+)
+"method_prs.ml" 105 2404 2420 "method_prs.ml" 105 2404 2433
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 105 2404 2434 "method_prs.ml" 105 2404 2437
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  Method.t -> (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"method_prs.ml" 105 2404 2444 "method_prs.ml" 105 2404 2464
+type(
+  float
+)
+ident(
+  int_ref Method.default_smt2_timeout "method.mli" 55 1158 1158 "method.mli" 55 1158 1189
+)
+"method_prs.ml" 105 2404 2438 "method_prs.ml" 105 2404 2464
+type(
+  Method.t
+)
+"method_prs.ml" 105 2404 2420 "method_prs.ml" 105 2404 2464
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 107 2466 2470 "method_prs.ml" 107 2466 2480
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  def isa_yices3 "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 107 2466 2483 "method_prs.ml" 107 2466 2488
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 107 2466 2489 "method_prs.ml" 107 2466 2497
+type(
+  string
+)
+"method_prs.ml" 107 2466 2483 "method_prs.ml" 107 2466 2497
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 107 2466 2498 "method_prs.ml" 107 2466 2501
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  Method.t -> (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"method_prs.ml" 107 2466 2509 "method_prs.ml" 107 2466 2529
+type(
+  float
+)
+ident(
+  int_ref Method.default_smt2_timeout "method.mli" 55 1158 1158 "method.mli" 55 1158 1189
+)
+"method_prs.ml" 107 2466 2502 "method_prs.ml" 107 2466 2529
+type(
+  Method.t
+)
+"method_prs.ml" 107 2466 2483 "method_prs.ml" 107 2466 2529
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 109 2531 2535 "method_prs.ml" 109 2531 2544
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  def isa_verit "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 109 2531 2547 "method_prs.ml" 109 2531 2552
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 109 2531 2553 "method_prs.ml" 109 2531 2560
+type(
+  string
+)
+"method_prs.ml" 109 2531 2547 "method_prs.ml" 109 2531 2560
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 109 2531 2561 "method_prs.ml" 109 2531 2564
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  Method.t -> (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"method_prs.ml" 109 2531 2571 "method_prs.ml" 109 2531 2591
+type(
+  float
+)
+ident(
+  int_ref Method.default_smt2_timeout "method.mli" 55 1158 1158 "method.mli" 55 1158 1189
+)
+"method_prs.ml" 109 2531 2565 "method_prs.ml" 109 2531 2591
+type(
+  Method.t
+)
+"method_prs.ml" 109 2531 2547 "method_prs.ml" 109 2531 2591
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 111 2593 2597 "method_prs.ml" 111 2593 2606
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  def isa_spass "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 111 2593 2609 "method_prs.ml" 111 2593 2614
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 111 2593 2615 "method_prs.ml" 111 2593 2622
+type(
+  string
+)
+"method_prs.ml" 111 2593 2609 "method_prs.ml" 111 2593 2622
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 111 2593 2623 "method_prs.ml" 111 2593 2626
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  Method.t -> (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"method_prs.ml" 111 2593 2633 "method_prs.ml" 111 2593 2654
+type(
+  float
+)
+ident(
+  int_ref Method.default_spass_timeout "method.mli" 56 1190 1190 "method.mli" 56 1190 1222
+)
+"method_prs.ml" 111 2593 2627 "method_prs.ml" 111 2593 2654
+type(
+  Method.t
+)
+"method_prs.ml" 111 2593 2609 "method_prs.ml" 111 2593 2654
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 113 2656 2660 "method_prs.ml" 113 2656 2668
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  def isa_tptp "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 113 2656 2671 "method_prs.ml" 113 2656 2676
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 113 2656 2677 "method_prs.ml" 113 2656 2683
+type(
+  string
+)
+"method_prs.ml" 113 2656 2671 "method_prs.ml" 113 2656 2683
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 113 2656 2684 "method_prs.ml" 113 2656 2687
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  Method.t -> (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"method_prs.ml" 113 2656 2693 "method_prs.ml" 113 2656 2713
+type(
+  float
+)
+ident(
+  int_ref Method.default_tptp_timeout "method.mli" 57 1223 1223 "method.mli" 57 1223 1254
+)
+"method_prs.ml" 113 2656 2688 "method_prs.ml" 113 2656 2713
+type(
+  Method.t
+)
+"method_prs.ml" 113 2656 2671 "method_prs.ml" 113 2656 2713
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 115 2715 2719 "method_prs.ml" 115 2715 2730
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  def isa_enabled "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 115 2715 2733 "method_prs.ml" 115 2715 2738
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 115 2715 2739 "method_prs.ml" 115 2715 2754
+type(
+  string
+)
+"method_prs.ml" 115 2715 2733 "method_prs.ml" 115 2715 2754
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 115 2715 2755 "method_prs.ml" 115 2715 2758
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  Method.t -> (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"method_prs.ml" 115 2715 2759 "method_prs.ml" 115 2715 2772
+type(
+  Method.t
+)
+"method_prs.ml" 115 2715 2733 "method_prs.ml" 115 2715 2772
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 117 2774 2778 "method_prs.ml" 117 2774 2786
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  def isa_cdot "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 117 2774 2789 "method_prs.ml" 117 2774 2794
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 117 2774 2795 "method_prs.ml" 117 2774 2807
+type(
+  string
+)
+"method_prs.ml" 117 2774 2789 "method_prs.ml" 117 2774 2807
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 117 2774 2808 "method_prs.ml" 117 2774 2811
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  Method.t -> (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"method_prs.ml" 117 2774 2812 "method_prs.ml" 117 2774 2822
+type(
+  Method.t
+)
+"method_prs.ml" 117 2774 2789 "method_prs.ml" 117 2774 2822
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 119 2824 2828 "method_prs.ml" 119 2824 2839
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  def isa_autouse "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 119 2824 2842 "method_prs.ml" 119 2824 2847
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 119 2824 2848 "method_prs.ml" 119 2824 2857
+type(
+  string
+)
+"method_prs.ml" 119 2824 2842 "method_prs.ml" 119 2824 2857
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 119 2824 2858 "method_prs.ml" 119 2824 2861
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  Method.t -> (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"method_prs.ml" 119 2824 2862 "method_prs.ml" 119 2824 2869
+type(
+  Method.t
+)
+"method_prs.ml" 119 2824 2842 "method_prs.ml" 119 2824 2869
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 121 2871 2875 "method_prs.ml" 121 2871 2887
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  def isa_lambdify "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 121 2871 2890 "method_prs.ml" 121 2871 2895
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 121 2871 2896 "method_prs.ml" 121 2871 2906
+type(
+  string
+)
+"method_prs.ml" 121 2871 2890 "method_prs.ml" 121 2871 2906
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 121 2871 2907 "method_prs.ml" 121 2871 2910
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  Method.t -> (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"method_prs.ml" 121 2871 2911 "method_prs.ml" 121 2871 2919
+type(
+  Method.t
+)
+"method_prs.ml" 121 2871 2890 "method_prs.ml" 121 2871 2919
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 123 2921 2925 "method_prs.ml" 123 2921 2942
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  def isa_enabledaxioms "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 123 2921 2945 "method_prs.ml" 123 2921 2950
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 123 2921 2951 "method_prs.ml" 123 2921 2966
+type(
+  string
+)
+"method_prs.ml" 123 2921 2945 "method_prs.ml" 123 2921 2966
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 123 2921 2967 "method_prs.ml" 123 2921 2970
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  Method.t -> (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"method_prs.ml" 123 2921 2971 "method_prs.ml" 123 2921 2984
+type(
+  Method.t
+)
+"method_prs.ml" 123 2921 2945 "method_prs.ml" 123 2921 2984
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 125 2986 2990 "method_prs.ml" 125 2986 3009
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  def isa_levelcomparison "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 125 2986 3012 "method_prs.ml" 125 2986 3017
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 125 2986 3018 "method_prs.ml" 125 2986 3035
+type(
+  string
+)
+"method_prs.ml" 125 2986 3012 "method_prs.ml" 125 2986 3035
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 125 2986 3036 "method_prs.ml" 125 2986 3039
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  Method.t -> (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"method_prs.ml" 125 2986 3040 "method_prs.ml" 125 2986 3055
+type(
+  Method.t
+)
+"method_prs.ml" 125 2986 3012 "method_prs.ml" 125 2986 3055
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+"method_prs.ml" 127 3057 3061 "method_prs.ml" 127 3057 3072
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  def isa_trivial "method_prs.ml" 21 394 394 "method_prs.ml" 0 0 -1
+)
+"method_prs.ml" 127 3057 3075 "method_prs.ml" 127 3057 3080
+type(
+  string -> (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.ident "tla_parser.mli" 60 1655 1655 "tla_parser.mli" 60 1655 1695
+)
+"method_prs.ml" 127 3057 3081 "method_prs.ml" 127 3057 3090
+type(
+  string
+)
+"method_prs.ml" 127 3057 3075 "method_prs.ml" 127 3057 3090
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs
+)
+"method_prs.ml" 127 3057 3091 "method_prs.ml" 127 3057 3094
+type(
+  (Tla_parser.pcx, string) Tla_parser.P.prs ->
+  Method.t -> (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.( <!> ) "pars.mli" 96 3473 3477 "pars.mli" 96 3473 3525
+)
+"method_prs.ml" 127 3057 3095 "method_prs.ml" 127 3057 3102
+type(
+  Method.t
+)
+"method_prs.ml" 127 3057 3075 "method_prs.ml" 127 3057 3102
+type(
+  (Tla_parser.pcx, Method.t) Tla_parser.P.prs
+)

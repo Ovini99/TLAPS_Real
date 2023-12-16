@@ -1,0 +1,132 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:16:23 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp identity2_test.tla --stretch 5
+
+(* created new ".tlacache/TLAPS.tlaps/TLAPS.thy" *)
+(* fingerprints written in ".tlacache/TLAPS.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/identity2_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+COMMAND-LINE ARGUMENT
+file=.tlacache/identity2_test.tlaps/tlapm_1746fc.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/identity2_test.tlaps/tlapm_1746fc.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #1
+;;   generated from file "./identity2_test.tla", line 15, characters 5-11
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun tla__in (u u) Bool)
+(declare-fun tla__isAFcn (u) Bool)
+(declare-fun tla__DOMAIN (u) u)
+(declare-fun tla__fcnapp (u u) u)
+(declare-fun tla__unspec (u u) u)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Idunde_a (u) u)
+(declare-fun a_CONSTANTunde_Sunde_a () u)
+(declare-fun a_CONSTANTunde_xunde_a () u)
+(declare-fun a_aunde_unde_1a () u)
+
+(assert
+  (forall ((S_9 u) (T_10 u))
+  (=> (forall ((X_6 u)) (= (tla__in X_6 S_9) (tla__in X_6 T_10))) (= S_9 T_10))))
+(assert
+  (forall ((F_12 u) (G_13 u))
+  (=>
+  (and
+  (tla__isAFcn F_12) (tla__isAFcn G_13)
+  (forall ((X_6 u))
+  (= (tla__in X_6 (tla__DOMAIN F_12)) (tla__in X_6 (tla__DOMAIN G_13)))))
+  (= (tla__DOMAIN F_12) (tla__DOMAIN G_13)))))
+(assert
+  (forall ((F_12 u) (G_13 u))
+  (=>
+  (and
+  (tla__isAFcn F_12) (tla__isAFcn G_13)
+  (= (tla__DOMAIN F_12) (tla__DOMAIN G_13))
+  (forall ((X_6 u))
+  (=>
+  (tla__in X_6 (tla__DOMAIN G_13))
+  (= (tla__fcnapp F_12 X_6) (tla__fcnapp G_13 X_6)))))
+  (= F_12 G_13))))
+
+;; Theorem to be Proved
+(assert (not
+  (ite
+    (tla__in
+      (a_CONSTANTunde_Idunde_a a_CONSTANTunde_Sunde_a)
+      (tla__DOMAIN (a_CONSTANTunde_Idunde_a a_aunde_unde_1a)))
+    (ite
+      (tla__in
+        a_CONSTANTunde_xunde_a
+        (tla__DOMAIN
+          (tla__fcnapp
+            (a_CONSTANTunde_Idunde_a a_aunde_unde_1a)
+            (a_CONSTANTunde_Idunde_a a_CONSTANTunde_Sunde_a))))
+      (=
+        (tla__fcnapp
+          (tla__fcnapp
+            (a_CONSTANTunde_Idunde_a a_aunde_unde_1a)
+            (a_CONSTANTunde_Idunde_a a_CONSTANTunde_Sunde_a))
+          a_CONSTANTunde_xunde_a) a_CONSTANTunde_xunde_a)
+      (=
+        (tla__unspec
+          (tla__fcnapp
+            (a_CONSTANTunde_Idunde_a a_aunde_unde_1a)
+            (a_CONSTANTunde_Idunde_a a_CONSTANTunde_Sunde_a))
+          a_CONSTANTunde_xunde_a) a_CONSTANTunde_xunde_a))
+    (ite
+      (tla__in
+        a_CONSTANTunde_xunde_a
+        (tla__DOMAIN
+          (tla__unspec
+            (a_CONSTANTunde_Idunde_a a_aunde_unde_1a)
+            (a_CONSTANTunde_Idunde_a a_CONSTANTunde_Sunde_a))))
+      (=
+        (tla__fcnapp
+          (tla__unspec
+            (a_CONSTANTunde_Idunde_a a_aunde_unde_1a)
+            (a_CONSTANTunde_Idunde_a a_CONSTANTunde_Sunde_a))
+          a_CONSTANTunde_xunde_a) a_CONSTANTunde_xunde_a)
+      (=
+        (tla__unspec
+          (tla__unspec
+            (a_CONSTANTunde_Idunde_a a_aunde_unde_1a)
+            (a_CONSTANTunde_Idunde_a a_CONSTANTunde_Sunde_a))
+          a_CONSTANTunde_xunde_a) a_CONSTANTunde_xunde_a)))))
+(assert
+  (forall ((a_v2a u))
+    (! (=
+         (tla__in a_v2a a_aunde_unde_1a)
+         (and
+           (tla__isAFcn a_v2a) (= (tla__DOMAIN a_v2a) a_CONSTANTunde_Sunde_a)
+           (forall ((a_v3a u))
+             (=>
+               (tla__in a_v3a a_CONSTANTunde_Sunde_a)
+               (tla__in (tla__fcnapp a_v2a a_v3a) a_CONSTANTunde_Sunde_a))))) :pattern (
+    (tla__in a_v2a a_aunde_unde_1a)))))
+(assert
+  (forall ((a_CONSTANTunde_Sunde_unde_1a u))
+    (and
+      (tla__isAFcn (a_CONSTANTunde_Idunde_a a_CONSTANTunde_Sunde_unde_1a))
+      (=
+        (tla__DOMAIN (a_CONSTANTunde_Idunde_a a_CONSTANTunde_Sunde_unde_1a))
+        a_CONSTANTunde_Sunde_unde_1a)
+      (forall ((a_CONSTANTunde_xunde_unde_1a u))
+        (=>
+          (tla__in a_CONSTANTunde_xunde_unde_1a a_CONSTANTunde_Sunde_unde_1a)
+          (=
+            (tla__fcnapp
+              (a_CONSTANTunde_Idunde_a a_CONSTANTunde_Sunde_unde_1a)
+              a_CONSTANTunde_xunde_unde_1a) a_CONSTANTunde_xunde_unde_1a))))))
+(assert (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Sunde_a))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+(* created new ".tlacache/identity2_test.tlaps/identity2_test.thy" *)
+(* fingerprints written in ".tlacache/identity2_test.tlaps/fingerprints" *)

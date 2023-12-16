@@ -1,0 +1,4761 @@
+"m_save.ml" 20 307 311 "m_save.ml" 20 307 319
+type(
+  Timing.clock option -> ('a -> 'b) -> 'a -> 'b
+)
+ident(
+  def clocking "m_save.ml" 31 481 481 "m_save.ml" 0 0 -1
+)
+"m_save.ml" 20 307 320 "m_save.ml" 20 307 322
+type(
+  Timing.clock option
+)
+ident(
+  def cl "m_save.ml" 20 307 323 "m_save.ml" 28 466 478
+)
+"m_save.ml" 20 307 323 "m_save.ml" 20 307 325
+type(
+  'a -> 'b
+)
+ident(
+  def fn "m_save.ml" 20 307 326 "m_save.ml" 28 466 478
+)
+"m_save.ml" 20 307 326 "m_save.ml" 20 307 327
+type(
+  'a
+)
+ident(
+  def x "m_save.ml" 21 330 334 "m_save.ml" 28 466 478
+)
+"m_save.ml" 21 330 340 "m_save.ml" 21 330 342
+type(
+  Timing.clock option
+)
+ident(
+  int_ref cl "m_save.ml" 20 307 320 "m_save.ml" 20 307 322
+)
+"m_save.ml" 22 348 359 "m_save.ml" 22 348 361
+type(
+  Timing.clock
+)
+ident(
+  def cl "m_save.ml" 23 365 373 "m_save.ml" 26 440 451
+)
+"m_save.ml" 22 348 354 "m_save.ml" 22 348 361
+type(
+  Timing.clock option
+)
+type(
+  Timing.clock option
+)
+"m_save.ml" 23 365 373 "m_save.ml" 23 365 385
+type(
+  Timing.clock -> unit
+)
+ident(
+  int_ref Timing.start "timing.mli" 29 763 763 "timing.mli" 29 763 787
+)
+"m_save.ml" 23 365 386 "m_save.ml" 23 365 388
+type(
+  Timing.clock
+)
+ident(
+  int_ref cl "m_save.ml" 22 348 359 "m_save.ml" 22 348 361
+)
+"m_save.ml" 23 365 373 "m_save.ml" 23 365 388
+type(
+  unit
+)
+"m_save.ml" 24 390 402 "m_save.ml" 24 390 405
+type(
+  'b
+)
+ident(
+  def ret "m_save.ml" 25 416 424 "m_save.ml" 26 440 451
+)
+"m_save.ml" 24 390 408 "m_save.ml" 24 390 410
+type(
+  'a -> 'b
+)
+ident(
+  int_ref fn "m_save.ml" 20 307 323 "m_save.ml" 20 307 325
+)
+"m_save.ml" 24 390 411 "m_save.ml" 24 390 412
+type(
+  'a
+)
+ident(
+  int_ref x "m_save.ml" 20 307 326 "m_save.ml" 20 307 327
+)
+"m_save.ml" 24 390 408 "m_save.ml" 24 390 412
+type(
+  'b
+)
+"m_save.ml" 25 416 424 "m_save.ml" 25 416 435
+type(
+  unit -> unit
+)
+ident(
+  int_ref Timing.stop "timing.mli" 33 854 854 "timing.mli" 33 854 876
+)
+"m_save.ml" 25 416 436 "m_save.ml" 25 416 438
+type(
+  unit
+)
+"m_save.ml" 25 416 424 "m_save.ml" 25 416 438
+type(
+  unit
+)
+"m_save.ml" 26 440 448 "m_save.ml" 26 440 451
+type(
+  'b
+)
+ident(
+  int_ref ret "m_save.ml" 24 390 402 "m_save.ml" 24 390 405
+)
+"m_save.ml" 25 416 424 "m_save.ml" 26 440 451
+type(
+  'b
+)
+"m_save.ml" 24 390 398 "m_save.ml" 26 440 451
+type(
+  'b
+)
+"m_save.ml" 23 365 373 "m_save.ml" 26 440 451
+type(
+  'b
+)
+"m_save.ml" 27 452 458 "m_save.ml" 27 452 462
+type(
+  Timing.clock option
+)
+type(
+  Timing.clock option
+)
+"m_save.ml" 28 466 474 "m_save.ml" 28 466 476
+type(
+  'a -> 'b
+)
+ident(
+  int_ref fn "m_save.ml" 20 307 323 "m_save.ml" 20 307 325
+)
+"m_save.ml" 28 466 477 "m_save.ml" 28 466 478
+type(
+  'a
+)
+ident(
+  int_ref x "m_save.ml" 20 307 326 "m_save.ml" 20 307 327
+)
+"m_save.ml" 28 466 474 "m_save.ml" 28 466 478
+type(
+  'b
+)
+"m_save.ml" 21 330 334 "m_save.ml" 28 466 478
+type(
+  'b
+)
+"m_save.ml" 31 481 485 "m_save.ml" 31 481 496
+type(
+  string Property.wrapped -> string Property.wrapped option
+)
+ident(
+  def file_search "m_save.ml" 47 931 931 "m_save.ml" 0 0 -1
+)
+"m_save.ml" 31 481 497 "m_save.ml" 31 481 499
+type(
+  string Property.wrapped
+)
+ident(
+  def fh "m_save.ml" 32 502 506 "m_save.ml" 44 911 928
+)
+"m_save.ml" 32 502 509 "m_save.ml" 32 502 529
+type(
+  string -> bool
+)
+ident(
+  int_ref Stdlib.Filename.is_implicit "filename.mli" 37 1741 1741 "filename.mli" 37 1741 1773
+)
+"m_save.ml" 32 502 530 "m_save.ml" 32 502 532
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fh "m_save.ml" 31 481 497 "m_save.ml" 31 481 499
+)
+"m_save.ml" 32 502 530 "m_save.ml" 32 502 537
+type(
+  string
+)
+"m_save.ml" 32 502 509 "m_save.ml" 32 502 537
+type(
+  bool
+)
+"m_save.ml" 33 543 559 "m_save.ml" 33 543 563
+type(
+  string list -> string Property.wrapped option
+)
+ident(
+  def scan "m_save.ml" 33 543 551 "m_save.ml" 40 784 841
+)
+"m_save.ml" 34 575 589 "m_save.ml" 34 575 591
+type(
+  string list
+)
+"m_save.ml" 34 575 595 "m_save.ml" 34 575 599
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 35 600 614 "m_save.ml" 35 600 615
+type(
+  string
+)
+ident(
+  def d "m_save.ml" 36 625 641 "m_save.ml" 39 755 783
+)
+"m_save.ml" 35 600 619 "m_save.ml" 35 600 621
+type(
+  string list
+)
+ident(
+  def ds "m_save.ml" 36 625 641 "m_save.ml" 39 755 783
+)
+"m_save.ml" 35 600 614 "m_save.ml" 35 600 621
+type(
+  string list
+)
+"m_save.ml" 36 625 645 "m_save.ml" 36 625 646
+type(
+  string
+)
+ident(
+  def f "m_save.ml" 37 678 694 "m_save.ml" 39 755 783
+)
+"m_save.ml" 36 625 649 "m_save.ml" 36 625 664
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Filename.concat "filename.mli" 28 1429 1429 "filename.mli" 28 1429 1468
+)
+"m_save.ml" 36 625 665 "m_save.ml" 36 625 666
+type(
+  string
+)
+ident(
+  int_ref d "m_save.ml" 35 600 614 "m_save.ml" 35 600 615
+)
+"m_save.ml" 36 625 667 "m_save.ml" 36 625 669
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fh "m_save.ml" 31 481 497 "m_save.ml" 31 481 499
+)
+"m_save.ml" 36 625 667 "m_save.ml" 36 625 674
+type(
+  string
+)
+"m_save.ml" 36 625 649 "m_save.ml" 36 625 674
+type(
+  string
+)
+"m_save.ml" 37 678 697 "m_save.ml" 37 678 712
+type(
+  string -> bool
+)
+ident(
+  int_ref Stdlib.Sys.file_exists "sys.mli" 35 1767 1767 "sys.mli" 35 1767 1829
+)
+"m_save.ml" 37 678 713 "m_save.ml" 37 678 714
+type(
+  string
+)
+ident(
+  int_ref f "m_save.ml" 36 625 645 "m_save.ml" 36 625 646
+)
+"m_save.ml" 37 678 697 "m_save.ml" 37 678 714
+type(
+  bool
+)
+"m_save.ml" 38 720 746 "m_save.ml" 38 720 747
+type(
+  string
+)
+ident(
+  int_ref f "m_save.ml" 36 625 645 "m_save.ml" 36 625 646
+)
+"m_save.ml" 38 720 748 "m_save.ml" 38 720 750
+type(
+  string -> string Property.wrapped -> string Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_save.ml" 38 720 751 "m_save.ml" 38 720 753
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fh "m_save.ml" 31 481 497 "m_save.ml" 31 481 499
+)
+"m_save.ml" 38 720 745 "m_save.ml" 38 720 754
+type(
+  string Property.wrapped
+)
+"m_save.ml" 38 720 740 "m_save.ml" 38 720 754
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 39 755 776 "m_save.ml" 39 755 780
+type(
+  string list -> string Property.wrapped option
+)
+ident(
+  int_ref scan "m_save.ml" 33 543 559 "m_save.ml" 33 543 563
+)
+"m_save.ml" 39 755 781 "m_save.ml" 39 755 783
+type(
+  string list
+)
+ident(
+  int_ref ds "m_save.ml" 35 600 619 "m_save.ml" 35 600 621
+)
+"m_save.ml" 39 755 776 "m_save.ml" 39 755 783
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 37 678 694 "m_save.ml" 39 755 783
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 36 625 641 "m_save.ml" 39 755 783
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 33 543 566 "m_save.ml" 39 755 783
+type(
+  string list -> string Property.wrapped option
+)
+"m_save.ml" 40 784 795 "m_save.ml" 40 784 799
+type(
+  string list -> string Property.wrapped option
+)
+ident(
+  int_ref scan "m_save.ml" 33 543 559 "m_save.ml" 33 543 563
+)
+"m_save.ml" 40 784 801 "m_save.ml" 40 784 804
+type(
+  string
+)
+"m_save.ml" 40 784 808 "m_save.ml" 40 784 816
+type(
+  string list -> string list
+)
+ident(
+  int_ref Stdlib.List.rev "list.mli" 90 3519 3519 "list.mli" 90 3519 3547
+)
+"m_save.ml" 40 784 817 "m_save.ml" 40 784 818
+type(
+  string list ref -> string list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_save.ml" 40 784 818 "m_save.ml" 40 784 840
+type(
+  string list ref
+)
+ident(
+  int_ref Params.rev_search_path "params.mli" 70 1410 1410 "params.mli" 70 1410 1446
+)
+"m_save.ml" 40 784 817 "m_save.ml" 40 784 840
+type(
+  string list
+)
+"m_save.ml" 40 784 808 "m_save.ml" 40 784 840
+type(
+  string list
+)
+"m_save.ml" 40 784 800 "m_save.ml" 40 784 841
+type(
+  string list
+)
+"m_save.ml" 40 784 795 "m_save.ml" 40 784 841
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 33 543 551 "m_save.ml" 40 784 841
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 42 851 862 "m_save.ml" 42 851 877
+type(
+  string -> bool
+)
+ident(
+  int_ref Stdlib.Sys.file_exists "sys.mli" 35 1767 1767 "sys.mli" 35 1767 1829
+)
+"m_save.ml" 42 851 878 "m_save.ml" 42 851 880
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fh "m_save.ml" 31 481 497 "m_save.ml" 31 481 499
+)
+"m_save.ml" 42 851 878 "m_save.ml" 42 851 885
+type(
+  string
+)
+"m_save.ml" 42 851 862 "m_save.ml" 42 851 885
+type(
+  bool
+)
+"m_save.ml" 43 891 908 "m_save.ml" 43 891 910
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fh "m_save.ml" 31 481 497 "m_save.ml" 31 481 499
+)
+"m_save.ml" 43 891 903 "m_save.ml" 43 891 910
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 44 911 924 "m_save.ml" 44 911 928
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 42 851 859 "m_save.ml" 44 911 928
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 32 502 506 "m_save.ml" 44 911 928
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 47 931 935 "m_save.ml" 47 931 952
+type(
+  string Property.wrapped -> M_t.mule
+)
+ident(
+  def really_parse_file "m_save.ml" 86 2318 2318 "m_save.ml" 0 0 -1
+)
+"m_save.ml" 47 931 953 "m_save.ml" 47 931 955
+type(
+  string Property.wrapped
+)
+ident(
+  def fn "m_save.ml" 48 958 962 "m_save.ml" 83 2295 2315
+)
+"m_save.ml" 48 958 968 "m_save.ml" 48 958 979
+type(
+  string Property.wrapped -> string Property.wrapped option
+)
+ident(
+  int_ref file_search "m_save.ml" 31 481 485 "m_save.ml" 31 481 496
+)
+"m_save.ml" 48 958 980 "m_save.ml" 48 958 982
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fn "m_save.ml" 47 931 953 "m_save.ml" 47 931 955
+)
+"m_save.ml" 48 958 968 "m_save.ml" 48 958 982
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 49 988 994 "m_save.ml" 49 988 998
+type(
+  string Property.wrapped option
+)
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 50 1002 1010 "m_save.ml" 50 1002 1022
+type(
+  ?debug:string ->
+  ?at:string Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:unit ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Util.eprintf "util.mli" 46 1132 1132 "util.mli" 48 1217 1267
+)
+"m_save.ml" 50 1002 1027 "m_save.ml" 50 1002 1029
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fn "m_save.ml" 47 931 953 "m_save.ml" 47 931 955
+)
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 51 1030 1042 "m_save.ml" 51 1030 1086
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"m_save.ml" 52 1087 1099 "m_save.ml" 52 1087 1101
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fn "m_save.ml" 47 931 953 "m_save.ml" 47 931 955
+)
+"m_save.ml" 52 1087 1099 "m_save.ml" 52 1087 1106
+type(
+  string
+)
+"m_save.ml" 50 1002 1010 "m_save.ml" 52 1087 1106
+type(
+  unit
+)
+"m_save.ml" 53 1108 1116 "m_save.ml" 53 1108 1124
+type(
+  string -> M_t.mule
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"m_save.ml" 53 1108 1125 "m_save.ml" 53 1108 1151
+type(
+  string
+)
+"m_save.ml" 53 1108 1116 "m_save.ml" 53 1108 1151
+type(
+  M_t.mule
+)
+"m_save.ml" 50 1002 1010 "m_save.ml" 53 1108 1151
+type(
+  M_t.mule
+)
+"m_save.ml" 54 1152 1163 "m_save.ml" 54 1152 1165
+type(
+  string Property.wrapped
+)
+ident(
+  def fn "m_save.ml" 55 1169 1177 "m_save.ml" 83 2295 2315
+)
+"m_save.ml" 54 1152 1158 "m_save.ml" 54 1152 1165
+type(
+  string Property.wrapped option
+)
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 55 1169 1182 "m_save.ml" 55 1169 1186
+type(
+  Tla_parser.Token.token Pars.LazyList.t
+)
+ident(
+  def flex "m_save.ml" 56 1215 1223 "m_save.ml" 83 2295 2315
+)
+"m_save.ml" 55 1169 1188 "m_save.ml" 55 1169 1189
+type(
+  Loc.locus
+)
+"m_save.ml" 55 1169 1181 "m_save.ml" 55 1169 1190
+type(
+  Tla_parser.Token.token Pars.LazyList.t * Loc.locus
+)
+"m_save.ml" 55 1169 1193 "m_save.ml" 55 1169 1203
+type(
+  string -> Tla_parser.Token.token Pars.LazyList.t * Loc.locus
+)
+ident(
+  int_ref Alexer.lex "alexer.mli" 15 254 254 "alexer.mli" 16 263 311
+)
+"m_save.ml" 55 1169 1204 "m_save.ml" 55 1169 1206
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fn "m_save.ml" 54 1152 1163 "m_save.ml" 54 1152 1165
+)
+"m_save.ml" 55 1169 1204 "m_save.ml" 55 1169 1211
+type(
+  string
+)
+"m_save.ml" 55 1169 1193 "m_save.ml" 55 1169 1211
+type(
+  Tla_parser.Token.token Pars.LazyList.t * Loc.locus
+)
+"m_save.ml" 56 1215 1227 "m_save.ml" 56 1215 1233
+type(
+  (Tla_parser.pcx, M_t.mule) Tla_parser.P.prs
+)
+ident(
+  def hparse "m_save.ml" 57 1249 1257 "m_save.ml" 83 2295 2315
+)
+"m_save.ml" 56 1215 1236 "m_save.ml" 56 1215 1239
+type(
+  M_t.mule Tla_parser.prs Lazy.t ->
+  (Tla_parser.pcx, M_t.mule) Tla_parser.P.prs
+)
+ident(
+  int_ref Tla_parser.P.use "pars.mli" 83 2710 2714 "pars.mli" 83 2710 2759
+)
+"m_save.ml" 56 1215 1240 "m_save.ml" 56 1215 1245
+type(
+  M_t.mule Tla_parser.lprs
+)
+ident(
+  int_ref M_parser.parse "m_parser.mli" 9 111 111 "m_parser.mli" 9 111 131
+)
+"m_save.ml" 56 1215 1236 "m_save.ml" 56 1215 1245
+type(
+  (Tla_parser.pcx, M_t.mule) Tla_parser.P.prs
+)
+"m_save.ml" 57 1249 1263 "m_save.ml" 57 1249 1268
+type(
+  (Tla_parser.pcx, M_t.mule) Tla_parser.P.prs ->
+  init:Tla_parser.pcx ->
+  source:Tla_parser.P.Tok.token Pars.LazyList.t -> M_t.mule option
+)
+ident(
+  int_ref Tla_parser.P.run "pars.mli" 67 2096 2100 "pars.mli" 71 2186 2201
+)
+"m_save.ml" 57 1249 1269 "m_save.ml" 57 1249 1275
+type(
+  (Tla_parser.pcx, M_t.mule) Tla_parser.P.prs
+)
+ident(
+  int_ref hparse "m_save.ml" 56 1215 1227 "m_save.ml" 56 1215 1233
+)
+"m_save.ml" 57 1249 1282 "m_save.ml" 57 1249 1297
+type(
+  Tla_parser.pcx
+)
+ident(
+  int_ref Tla_parser.init "tla_parser.mli" 108 2724 2724 "tla_parser.mli" 108 2724 2737
+)
+"m_save.ml" 57 1249 1306 "m_save.ml" 57 1249 1310
+type(
+  Tla_parser.P.Tok.token Pars.LazyList.t
+)
+ident(
+  int_ref flex "m_save.ml" 55 1169 1182 "m_save.ml" 55 1169 1186
+)
+"m_save.ml" 57 1249 1263 "m_save.ml" 57 1249 1310
+type(
+  M_t.mule option
+)
+"m_save.ml" 58 1316 1326 "m_save.ml" 58 1316 1330
+type(
+  M_t.mule option
+)
+type(
+  M_t.mule option
+)
+"m_save.ml" 59 1334 1346 "m_save.ml" 59 1334 1358
+type(
+  ?debug:string ->
+  ?at:string Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:unit ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Util.eprintf "util.mli" 46 1132 1132 "util.mli" 48 1217 1267
+)
+"m_save.ml" 59 1334 1363 "m_save.ml" 59 1334 1365
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fn "m_save.ml" 54 1152 1163 "m_save.ml" 54 1152 1165
+)
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 60 1366 1382 "m_save.ml" 60 1366 1416
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"m_save.ml" 61 1417 1433 "m_save.ml" 61 1417 1435
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fn "m_save.ml" 54 1152 1163 "m_save.ml" 54 1152 1165
+)
+"m_save.ml" 61 1417 1433 "m_save.ml" 61 1417 1440
+type(
+  string
+)
+"m_save.ml" 59 1334 1346 "m_save.ml" 61 1417 1440
+type(
+  unit
+)
+"m_save.ml" 62 1442 1454 "m_save.ml" 62 1442 1462
+type(
+  string -> M_t.mule
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"m_save.ml" 62 1442 1463 "m_save.ml" 62 1442 1489
+type(
+  string
+)
+"m_save.ml" 62 1442 1454 "m_save.ml" 62 1442 1489
+type(
+  M_t.mule
+)
+"m_save.ml" 59 1334 1346 "m_save.ml" 62 1442 1489
+type(
+  M_t.mule
+)
+"m_save.ml" 63 1490 1505 "m_save.ml" 63 1490 1509
+type(
+  M_t.mule
+)
+ident(
+  def mule "m_save.ml" 64 1513 1525 "m_save.ml" 83 2295 2315
+)
+"m_save.ml" 63 1490 1500 "m_save.ml" 63 1490 1509
+type(
+  M_t.mule option
+)
+type(
+  M_t.mule option
+)
+"m_save.ml" 64 1513 1528 "m_save.ml" 64 1513 1529
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_save.ml" 64 1513 1529 "m_save.ml" 64 1513 1543
+type(
+  bool ref
+)
+ident(
+  int_ref Params.verbose "params.mli" 13 193 193 "params.mli" 13 193 215
+)
+"m_save.ml" 64 1513 1528 "m_save.ml" 64 1513 1543
+type(
+  bool
+)
+"m_save.ml" 65 1555 1571 "m_save.ml" 65 1555 1582
+type(
+  ?debug:string ->
+  ?at:'_weak1 Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:unit ->
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref Util.printf "util.mli" 43 996 996 "util.mli" 45 1081 1131
+)
+"m_save.ml" 66 1583 1603 "m_save.ml" 66 1583 1635
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"m_save.ml" 67 1636 1656 "m_save.ml" 67 1636 1660
+type(
+  M_t.mule
+)
+ident(
+  int_ref mule "m_save.ml" 63 1490 1505 "m_save.ml" 63 1490 1509
+)
+"m_save.ml" 67 1636 1656 "m_save.ml" 67 1636 1665
+type(
+  M_t.mule_
+)
+"m_save.ml" 67 1636 1656 "m_save.ml" 67 1636 1670
+type(
+  Util.hint
+)
+"m_save.ml" 67 1636 1656 "m_save.ml" 67 1636 1675
+type(
+  string
+)
+"m_save.ml" 68 1676 1696 "m_save.ml" 68 1676 1698
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fn "m_save.ml" 54 1152 1163 "m_save.ml" 54 1152 1165
+)
+"m_save.ml" 68 1676 1696 "m_save.ml" 68 1676 1703
+type(
+  string
+)
+"m_save.ml" 64 1513 1549 "m_save.ml" 69 1705 1720
+type(
+  unit
+)
+"m_save.ml" 64 1513 1525 "m_save.ml" 69 1705 1720
+type(
+  unit
+)
+"m_save.ml" 70 1722 1738 "m_save.ml" 70 1722 1745
+type(
+  string
+)
+ident(
+  def rawname "m_save.ml" 74 1863 1875 "m_save.ml" 83 2295 2315
+)
+"m_save.ml" 71 1748 1764 "m_save.ml" 71 1748 1784
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Filename.chop_suffix "filename.mli" 52 2414 2414 "filename.mli" 52 2414 2458
+)
+"m_save.ml" 72 1785 1806 "m_save.ml" 72 1785 1823
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.Filename.basename "filename.mli" 105 4062 4062 "filename.mli" 105 4062 4093
+)
+"m_save.ml" 72 1785 1824 "m_save.ml" 72 1785 1826
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fn "m_save.ml" 54 1152 1163 "m_save.ml" 54 1152 1165
+)
+"m_save.ml" 72 1785 1824 "m_save.ml" 72 1785 1831
+type(
+  string
+)
+"m_save.ml" 72 1785 1805 "m_save.ml" 72 1785 1832
+type(
+  string
+)
+"m_save.ml" 73 1833 1853 "m_save.ml" 73 1833 1859
+type(
+  string
+)
+"m_save.ml" 71 1748 1764 "m_save.ml" 73 1833 1859
+type(
+  string
+)
+"m_save.ml" 74 1863 1878 "m_save.ml" 74 1863 1882
+type(
+  M_t.mule
+)
+ident(
+  int_ref mule "m_save.ml" 63 1490 1505 "m_save.ml" 63 1490 1509
+)
+"m_save.ml" 74 1863 1878 "m_save.ml" 74 1863 1887
+type(
+  M_t.mule_
+)
+"m_save.ml" 74 1863 1878 "m_save.ml" 74 1863 1892
+type(
+  Util.hint
+)
+"m_save.ml" 74 1863 1878 "m_save.ml" 74 1863 1897
+type(
+  string
+)
+"m_save.ml" 74 1863 1898 "m_save.ml" 74 1863 1900
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 130 5559 5559 "stdlib.mli" 130 5559 5607
+)
+"m_save.ml" 74 1863 1901 "m_save.ml" 74 1863 1908
+type(
+  string
+)
+ident(
+  int_ref rawname "m_save.ml" 70 1722 1738 "m_save.ml" 70 1722 1745
+)
+"m_save.ml" 74 1863 1878 "m_save.ml" 74 1863 1908
+type(
+  bool
+)
+"m_save.ml" 75 1920 1936 "m_save.ml" 75 1920 1946
+type(
+  ?at:M_t.mule ->
+  (string -> string -> unit, unit, string, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  int_ref Errors.err "errors.mli" 28 640 640 "errors.mli" 30 673 715
+)
+"m_save.ml" 75 1920 1952 "m_save.ml" 75 1920 1956
+type(
+  M_t.mule
+)
+ident(
+  int_ref mule "m_save.ml" 63 1490 1505 "m_save.ml" 63 1490 1509
+)
+type(
+  M_t.mule option
+)
+"m_save.ml" 76 1957 1977 "m_save.ml" 77 2019 2053
+type(
+  (string -> string -> unit, unit, string, unit) format4
+)
+"m_save.ml" 78 2054 2074 "m_save.ml" 78 2054 2078
+type(
+  M_t.mule
+)
+ident(
+  int_ref mule "m_save.ml" 63 1490 1505 "m_save.ml" 63 1490 1509
+)
+"m_save.ml" 78 2054 2074 "m_save.ml" 78 2054 2083
+type(
+  M_t.mule_
+)
+"m_save.ml" 78 2054 2074 "m_save.ml" 78 2054 2088
+type(
+  Util.hint
+)
+"m_save.ml" 78 2054 2074 "m_save.ml" 78 2054 2093
+type(
+  string
+)
+"m_save.ml" 79 2094 2115 "m_save.ml" 79 2094 2132
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.Filename.basename "filename.mli" 105 4062 4062 "filename.mli" 105 4062 4093
+)
+"m_save.ml" 79 2094 2133 "m_save.ml" 79 2094 2135
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fn "m_save.ml" 54 1152 1163 "m_save.ml" 54 1152 1165
+)
+"m_save.ml" 79 2094 2133 "m_save.ml" 79 2094 2140
+type(
+  string
+)
+"m_save.ml" 79 2094 2114 "m_save.ml" 79 2094 2141
+type(
+  string
+)
+"m_save.ml" 75 1920 1936 "m_save.ml" 79 2094 2141
+type(
+  unit
+)
+"m_save.ml" 80 2143 2163 "m_save.ml" 80 2143 2170
+type(
+  string Property.wrapped
+)
+ident(
+  def newname "m_save.ml" 81 2211 2227 "m_save.ml" 81 2211 2273
+)
+"m_save.ml" 80 2143 2174 "m_save.ml" 80 2143 2178
+type(
+  M_t.mule
+)
+ident(
+  int_ref mule "m_save.ml" 63 1490 1505 "m_save.ml" 63 1490 1509
+)
+"m_save.ml" 80 2143 2174 "m_save.ml" 80 2143 2183
+type(
+  M_t.mule_
+)
+"m_save.ml" 80 2143 2174 "m_save.ml" 80 2143 2188
+type(
+  Util.hint
+)
+"m_save.ml" 80 2143 2199 "m_save.ml" 80 2143 2206
+type(
+  string
+)
+ident(
+  int_ref rawname "m_save.ml" 70 1722 1738 "m_save.ml" 70 1722 1745
+)
+"m_save.ml" 80 2143 2173 "m_save.ml" 80 2143 2207
+type(
+  string Property.wrapped
+)
+"m_save.ml" 81 2211 2228 "m_save.ml" 81 2211 2232
+type(
+  M_t.mule
+)
+ident(
+  int_ref mule "m_save.ml" 63 1490 1505 "m_save.ml" 63 1490 1509
+)
+"m_save.ml" 81 2211 2244 "m_save.ml" 81 2211 2248
+type(
+  M_t.mule
+)
+ident(
+  int_ref mule "m_save.ml" 63 1490 1505 "m_save.ml" 63 1490 1509
+)
+"m_save.ml" 81 2211 2244 "m_save.ml" 81 2211 2253
+type(
+  M_t.mule_
+)
+"m_save.ml" 81 2211 2264 "m_save.ml" 81 2211 2271
+type(
+  Util.hint
+)
+ident(
+  int_ref newname "m_save.ml" 80 2143 2163 "m_save.ml" 80 2143 2170
+)
+"m_save.ml" 81 2211 2243 "m_save.ml" 81 2211 2272
+type(
+  M_t.mule_
+)
+"m_save.ml" 81 2211 2227 "m_save.ml" 81 2211 2273
+type(
+  M_t.mule
+)
+"m_save.ml" 80 2143 2159 "m_save.ml" 81 2211 2273
+type(
+  M_t.mule
+)
+"m_save.ml" 74 1863 1914 "m_save.ml" 82 2274 2289
+type(
+  M_t.mule
+)
+"m_save.ml" 83 2295 2311 "m_save.ml" 83 2295 2315
+type(
+  M_t.mule
+)
+ident(
+  int_ref mule "m_save.ml" 63 1490 1505 "m_save.ml" 63 1490 1509
+)
+"m_save.ml" 74 1863 1875 "m_save.ml" 83 2295 2315
+type(
+  M_t.mule
+)
+"m_save.ml" 70 1722 1734 "m_save.ml" 83 2295 2315
+type(
+  M_t.mule
+)
+"m_save.ml" 64 1513 1525 "m_save.ml" 83 2295 2315
+type(
+  M_t.mule
+)
+"m_save.ml" 57 1249 1257 "m_save.ml" 83 2295 2315
+type(
+  M_t.mule
+)
+"m_save.ml" 56 1215 1223 "m_save.ml" 83 2295 2315
+type(
+  M_t.mule
+)
+"m_save.ml" 55 1169 1177 "m_save.ml" 83 2295 2315
+type(
+  M_t.mule
+)
+"m_save.ml" 48 958 962 "m_save.ml" 83 2295 2315
+type(
+  M_t.mule
+)
+"m_save.ml" 86 2318 2322 "m_save.ml" 86 2318 2330
+type(
+  'a -> in_channel -> (Digest.t * M_t.mule) option
+)
+ident(
+  def validate "m_save.ml" 103 2772 2772 "m_save.ml" 0 0 -1
+)
+"m_save.ml" 86 2318 2331 "m_save.ml" 86 2318 2333
+type(
+  'a
+)
+ident(
+  def mn "m_save.ml" 86 2318 2334 "m_save.ml" 100 2755 2769
+)
+"m_save.ml" 86 2318 2334 "m_save.ml" 86 2318 2338
+type(
+  in_channel
+)
+ident(
+  def inch "m_save.ml" 87 2341 2345 "m_save.ml" 100 2755 2769
+)
+"m_save.ml" 87 2341 2349 "m_save.ml" 87 2341 2350
+type(
+  string
+)
+ident(
+  def v "m_save.ml" 88 2390 2394 "m_save.ml" 100 2755 2769
+)
+"m_save.ml" 87 2341 2361 "m_save.ml" 87 2341 2381
+type(
+  in_channel -> string
+)
+ident(
+  int_ref Stdlib.Marshal.from_channel "marshal.mli" 137 7369 7369 "marshal.mli" 137 7369 7404
+)
+"m_save.ml" 87 2341 2382 "m_save.ml" 87 2341 2386
+type(
+  in_channel
+)
+ident(
+  int_ref inch "m_save.ml" 86 2318 2334 "m_save.ml" 86 2318 2338
+)
+"m_save.ml" 87 2341 2361 "m_save.ml" 87 2341 2386
+type(
+  string
+)
+"m_save.ml" 88 2390 2397 "m_save.ml" 88 2390 2398
+type(
+  string
+)
+ident(
+  int_ref v "m_save.ml" 87 2341 2349 "m_save.ml" 87 2341 2350
+)
+"m_save.ml" 88 2390 2399 "m_save.ml" 88 2390 2400
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_save.ml" 88 2390 2401 "m_save.ml" 88 2390 2418
+type(
+  unit -> string
+)
+ident(
+  int_ref Params.rawversion "params.mli" 56 1085 1085 "params.mli" 56 1085 1115
+)
+"m_save.ml" 88 2390 2419 "m_save.ml" 88 2390 2421
+type(
+  unit
+)
+"m_save.ml" 88 2390 2401 "m_save.ml" 88 2390 2421
+type(
+  string
+)
+"m_save.ml" 88 2390 2397 "m_save.ml" 88 2390 2421
+type(
+  bool
+)
+"m_save.ml" 89 2427 2439 "m_save.ml" 89 2427 2440
+type(
+  Digest.t
+)
+ident(
+  def h "m_save.ml" 90 2464 2472 "m_save.ml" 97 2703 2721
+)
+"m_save.ml" 89 2427 2443 "m_save.ml" 89 2427 2455
+type(
+  in_channel -> Digest.t
+)
+ident(
+  int_ref Stdlib.Digest.input "digest.mli" 72 3117 3117 "digest.mli" 72 3117 3144
+)
+"m_save.ml" 89 2427 2456 "m_save.ml" 89 2427 2460
+type(
+  in_channel
+)
+ident(
+  int_ref inch "m_save.ml" 86 2318 2334 "m_save.ml" 86 2318 2338
+)
+"m_save.ml" 89 2427 2443 "m_save.ml" 89 2427 2460
+type(
+  Digest.t
+)
+"m_save.ml" 90 2464 2475 "m_save.ml" 90 2464 2476
+type(
+  Digest.t
+)
+ident(
+  int_ref h "m_save.ml" 89 2427 2439 "m_save.ml" 89 2427 2440
+)
+"m_save.ml" 90 2464 2477 "m_save.ml" 90 2464 2478
+type(
+  Digest.t -> Digest.t -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_save.ml" 90 2464 2479 "m_save.ml" 90 2464 2494
+type(
+  Digest.t
+)
+ident(
+  int_ref Params.self_sum "params.mli" 71 1447 1447 "params.mli" 71 1447 1469
+)
+"m_save.ml" 90 2464 2475 "m_save.ml" 90 2464 2494
+type(
+  bool
+)
+"m_save.ml" 91 2500 2516 "m_save.ml" 91 2500 2520
+type(
+  Digest.t
+)
+ident(
+  def csum "m_save.ml" 92 2544 2556 "m_save.ml" 94 2630 2661
+)
+"m_save.ml" 91 2500 2523 "m_save.ml" 91 2500 2535
+type(
+  in_channel -> Digest.t
+)
+ident(
+  int_ref Stdlib.Digest.input "digest.mli" 72 3117 3117 "digest.mli" 72 3117 3144
+)
+"m_save.ml" 91 2500 2536 "m_save.ml" 91 2500 2540
+type(
+  in_channel
+)
+ident(
+  int_ref inch "m_save.ml" 86 2318 2334 "m_save.ml" 86 2318 2338
+)
+"m_save.ml" 91 2500 2523 "m_save.ml" 91 2500 2540
+type(
+  Digest.t
+)
+"m_save.ml" 92 2544 2560 "m_save.ml" 92 2544 2564
+type(
+  M_t.mule
+)
+ident(
+  def mule "m_save.ml" 93 2602 2614 "m_save.ml" 94 2630 2661
+)
+"m_save.ml" 92 2544 2573 "m_save.ml" 92 2544 2593
+type(
+  in_channel -> M_t.mule
+)
+ident(
+  int_ref Stdlib.Marshal.from_channel "marshal.mli" 137 7369 7369 "marshal.mli" 137 7369 7404
+)
+"m_save.ml" 92 2544 2594 "m_save.ml" 92 2544 2598
+type(
+  in_channel
+)
+ident(
+  int_ref inch "m_save.ml" 86 2318 2334 "m_save.ml" 86 2318 2338
+)
+"m_save.ml" 92 2544 2573 "m_save.ml" 92 2544 2598
+type(
+  M_t.mule
+)
+"m_save.ml" 93 2602 2615 "m_save.ml" 93 2602 2623
+type(
+  in_channel -> unit
+)
+ident(
+  int_ref Stdlib.close_in "stdlib.mli" 1168 44452 44452 "stdlib.mli" 1168 44452 44485
+)
+"m_save.ml" 93 2602 2624 "m_save.ml" 93 2602 2628
+type(
+  in_channel
+)
+ident(
+  int_ref inch "m_save.ml" 86 2318 2334 "m_save.ml" 86 2318 2338
+)
+"m_save.ml" 93 2602 2615 "m_save.ml" 93 2602 2628
+type(
+  unit
+)
+"m_save.ml" 94 2630 2649 "m_save.ml" 94 2630 2653
+type(
+  Digest.t
+)
+ident(
+  int_ref csum "m_save.ml" 91 2500 2516 "m_save.ml" 91 2500 2520
+)
+"m_save.ml" 94 2630 2655 "m_save.ml" 94 2630 2659
+type(
+  M_t.mule
+)
+ident(
+  int_ref mule "m_save.ml" 92 2544 2560 "m_save.ml" 92 2544 2564
+)
+"m_save.ml" 94 2630 2648 "m_save.ml" 94 2630 2660
+type(
+  Digest.t * M_t.mule
+)
+"m_save.ml" 94 2630 2643 "m_save.ml" 94 2630 2660
+type(
+  (Digest.t * M_t.mule) option
+)
+"m_save.ml" 93 2602 2614 "m_save.ml" 94 2630 2661
+type(
+  (Digest.t * M_t.mule) option
+)
+"m_save.ml" 92 2544 2556 "m_save.ml" 94 2630 2661
+type(
+  (Digest.t * M_t.mule) option
+)
+"m_save.ml" 91 2500 2512 "m_save.ml" 94 2630 2661
+type(
+  (Digest.t * M_t.mule) option
+)
+"m_save.ml" 96 2675 2688 "m_save.ml" 96 2675 2696
+type(
+  in_channel -> unit
+)
+ident(
+  int_ref Stdlib.close_in "stdlib.mli" 1168 44452 44452 "stdlib.mli" 1168 44452 44485
+)
+"m_save.ml" 96 2675 2697 "m_save.ml" 96 2675 2701
+type(
+  in_channel
+)
+ident(
+  int_ref inch "m_save.ml" 86 2318 2334 "m_save.ml" 86 2318 2338
+)
+"m_save.ml" 96 2675 2688 "m_save.ml" 96 2675 2701
+type(
+  unit
+)
+"m_save.ml" 97 2703 2716 "m_save.ml" 97 2703 2720
+type(
+  (Digest.t * M_t.mule) option
+)
+"m_save.ml" 96 2675 2687 "m_save.ml" 97 2703 2721
+type(
+  (Digest.t * M_t.mule) option
+)
+"m_save.ml" 90 2464 2472 "m_save.ml" 97 2703 2721
+type(
+  (Digest.t * M_t.mule) option
+)
+"m_save.ml" 89 2427 2435 "m_save.ml" 97 2703 2721
+type(
+  (Digest.t * M_t.mule) option
+)
+"m_save.ml" 99 2731 2740 "m_save.ml" 99 2731 2748
+type(
+  in_channel -> unit
+)
+ident(
+  int_ref Stdlib.close_in "stdlib.mli" 1168 44452 44452 "stdlib.mli" 1168 44452 44485
+)
+"m_save.ml" 99 2731 2749 "m_save.ml" 99 2731 2753
+type(
+  in_channel
+)
+ident(
+  int_ref inch "m_save.ml" 86 2318 2334 "m_save.ml" 86 2318 2338
+)
+"m_save.ml" 99 2731 2740 "m_save.ml" 99 2731 2753
+type(
+  unit
+)
+"m_save.ml" 100 2755 2764 "m_save.ml" 100 2755 2768
+type(
+  (Digest.t * M_t.mule) option
+)
+"m_save.ml" 99 2731 2739 "m_save.ml" 100 2755 2769
+type(
+  (Digest.t * M_t.mule) option
+)
+"m_save.ml" 88 2390 2394 "m_save.ml" 100 2755 2769
+type(
+  (Digest.t * M_t.mule) option
+)
+"m_save.ml" 87 2341 2345 "m_save.ml" 100 2755 2769
+type(
+  (Digest.t * M_t.mule) option
+)
+"m_save.ml" 103 2772 2780 "m_save.ml" 103 2772 2798
+type(
+  'a ->
+  string Property.wrapped option ->
+  string Property.wrapped option -> M_t.mule
+)
+ident(
+  def really_load_module "m_save.ml" 103 2772 2772 "m_save.ml" 0 0 -1
+)
+"m_save.ml" 103 2772 2799 "m_save.ml" 103 2772 2801
+type(
+  'a
+)
+ident(
+  def mn "m_save.ml" 103 2772 2802 "m_save.ml" 144 4210 4221
+)
+"m_save.ml" 103 2772 2802 "m_save.ml" 103 2772 2804
+type(
+  string Property.wrapped option
+)
+ident(
+  def fn "m_save.ml" 103 2772 2805 "m_save.ml" 144 4210 4221
+)
+"m_save.ml" 103 2772 2805 "m_save.ml" 103 2772 2808
+type(
+  string Property.wrapped option
+)
+ident(
+  def fnx "m_save.ml" 104 2811 2815 "m_save.ml" 144 4210 4221
+)
+"m_save.ml" 104 2811 2821 "m_save.ml" 104 2811 2823
+type(
+  string Property.wrapped option
+)
+ident(
+  int_ref fn "m_save.ml" 103 2772 2802 "m_save.ml" 103 2772 2804
+)
+"m_save.ml" 104 2811 2825 "m_save.ml" 104 2811 2828
+type(
+  string Property.wrapped option
+)
+ident(
+  int_ref fnx "m_save.ml" 103 2772 2805 "m_save.ml" 103 2772 2808
+)
+"m_save.ml" 104 2811 2821 "m_save.ml" 104 2811 2828
+type(
+  string Property.wrapped option * string Property.wrapped option
+)
+"m_save.ml" 105 2834 2845 "m_save.ml" 105 2834 2846
+type(
+  string Property.wrapped
+)
+"m_save.ml" 105 2834 2840 "m_save.ml" 105 2834 2846
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 105 2834 2853 "m_save.ml" 105 2834 2854
+type(
+  string Property.wrapped
+)
+"m_save.ml" 105 2834 2848 "m_save.ml" 105 2834 2854
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 105 2834 2840 "m_save.ml" 105 2834 2854
+type(
+  string Property.wrapped option * string Property.wrapped option
+)
+type(
+  string Property.wrapped option * string Property.wrapped option
+)
+"m_save.ml" 105 2834 2860 "m_save.ml" 105 2834 2863
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"m_save.ml" 105 2834 2864 "m_save.ml" 105 2834 2865
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_save.ml" 105 2834 2865 "m_save.ml" 105 2834 2880
+type(
+  bool ref
+)
+ident(
+  int_ref Params.use_xtla "params.mli" 72 1470 1470 "params.mli" 72 1470 1492
+)
+"m_save.ml" 105 2834 2864 "m_save.ml" 105 2834 2880
+type(
+  bool
+)
+"m_save.ml" 105 2834 2860 "m_save.ml" 105 2834 2880
+type(
+  bool
+)
+"m_save.ml" 106 2884 2892 "m_save.ml" 106 2884 2910
+type(
+  'a ->
+  string Property.wrapped option ->
+  string Property.wrapped option -> M_t.mule
+)
+ident(
+  int_ref really_load_module "m_save.ml" 103 2772 2780 "m_save.ml" 103 2772 2798
+)
+"m_save.ml" 106 2884 2911 "m_save.ml" 106 2884 2913
+type(
+  'a
+)
+ident(
+  int_ref mn "m_save.ml" 103 2772 2799 "m_save.ml" 103 2772 2801
+)
+"m_save.ml" 106 2884 2914 "m_save.ml" 106 2884 2916
+type(
+  string Property.wrapped option
+)
+ident(
+  int_ref fn "m_save.ml" 103 2772 2802 "m_save.ml" 103 2772 2804
+)
+"m_save.ml" 106 2884 2917 "m_save.ml" 106 2884 2921
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 106 2884 2892 "m_save.ml" 106 2884 2921
+type(
+  M_t.mule
+)
+"m_save.ml" 107 2922 2928 "m_save.ml" 107 2922 2932
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 107 2922 2934 "m_save.ml" 107 2922 2938
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 107 2922 2928 "m_save.ml" 107 2922 2938
+type(
+  string Property.wrapped option * string Property.wrapped option
+)
+type(
+  string Property.wrapped option * string Property.wrapped option
+)
+"m_save.ml" 113 3139 3147 "m_save.ml" 113 3139 3152
+type(
+  exn -> M_t.mule
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"m_save.ml" 113 3139 3153 "m_save.ml" 113 3139 3177
+type(
+  exn
+)
+"m_save.ml" 113 3139 3147 "m_save.ml" 113 3139 3177
+type(
+  M_t.mule
+)
+"m_save.ml" 114 3178 3189 "m_save.ml" 114 3178 3191
+type(
+  string Property.wrapped
+)
+ident(
+  def fn "m_save.ml" 115 3201 3209 "m_save.ml" 115 3201 3229
+)
+"m_save.ml" 114 3178 3184 "m_save.ml" 114 3178 3191
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 114 3178 3193 "m_save.ml" 114 3178 3197
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 114 3178 3184 "m_save.ml" 114 3178 3197
+type(
+  string Property.wrapped option * string Property.wrapped option
+)
+type(
+  string Property.wrapped option * string Property.wrapped option
+)
+"m_save.ml" 115 3201 3209 "m_save.ml" 115 3201 3226
+type(
+  string Property.wrapped -> M_t.mule
+)
+ident(
+  int_ref really_parse_file "m_save.ml" 47 931 935 "m_save.ml" 47 931 952
+)
+"m_save.ml" 115 3201 3227 "m_save.ml" 115 3201 3229
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fn "m_save.ml" 114 3178 3189 "m_save.ml" 114 3178 3191
+)
+"m_save.ml" 115 3201 3209 "m_save.ml" 115 3201 3229
+type(
+  M_t.mule
+)
+"m_save.ml" 116 3230 3236 "m_save.ml" 116 3230 3240
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 116 3230 3247 "m_save.ml" 116 3230 3250
+type(
+  string Property.wrapped
+)
+ident(
+  def fnx "m_save.ml" 117 3254 3262 "m_save.ml" 132 3801 3812
+)
+"m_save.ml" 116 3230 3242 "m_save.ml" 116 3230 3250
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 116 3230 3236 "m_save.ml" 116 3230 3250
+type(
+  string Property.wrapped option * string Property.wrapped option
+)
+type(
+  string Property.wrapped option * string Property.wrapped option
+)
+"m_save.ml" 117 3254 3274 "m_save.ml" 117 3254 3282
+type(
+  'a -> in_channel -> (Digest.t * M_t.mule) option
+)
+ident(
+  int_ref validate "m_save.ml" 86 2318 2322 "m_save.ml" 86 2318 2330
+)
+"m_save.ml" 117 3254 3283 "m_save.ml" 117 3254 3285
+type(
+  'a
+)
+ident(
+  int_ref mn "m_save.ml" 103 2772 2799 "m_save.ml" 103 2772 2801
+)
+"m_save.ml" 117 3254 3287 "m_save.ml" 117 3254 3298
+type(
+  string -> in_channel
+)
+ident(
+  int_ref Stdlib.open_in_bin "stdlib.mli" 1072 39900 39900 "stdlib.mli" 1072 39900 39938
+)
+"m_save.ml" 117 3254 3299 "m_save.ml" 117 3254 3302
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fnx "m_save.ml" 116 3230 3247 "m_save.ml" 116 3230 3250
+)
+"m_save.ml" 117 3254 3299 "m_save.ml" 117 3254 3307
+type(
+  string
+)
+"m_save.ml" 117 3254 3286 "m_save.ml" 117 3254 3308
+type(
+  in_channel
+)
+"m_save.ml" 117 3254 3274 "m_save.ml" 117 3254 3308
+type(
+  (Digest.t * M_t.mule) option
+)
+"m_save.ml" 118 3314 3330 "m_save.ml" 118 3314 3331
+type(
+  Digest.t
+)
+"m_save.ml" 118 3314 3333 "m_save.ml" 118 3314 3334
+type(
+  M_t.mule
+)
+ident(
+  def m "m_save.ml" 119 3339 3351 "m_save.ml" 124 3523 3536
+)
+"m_save.ml" 118 3314 3329 "m_save.ml" 118 3314 3335
+type(
+  Digest.t * M_t.mule
+)
+"m_save.ml" 118 3314 3324 "m_save.ml" 118 3314 3335
+type(
+  (Digest.t * M_t.mule) option
+)
+type(
+  (Digest.t * M_t.mule) option
+)
+"m_save.ml" 119 3339 3354 "m_save.ml" 119 3339 3355
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_save.ml" 119 3339 3355 "m_save.ml" 119 3339 3369
+type(
+  bool ref
+)
+ident(
+  int_ref Params.verbose "params.mli" 13 193 193 "params.mli" 13 193 215
+)
+"m_save.ml" 119 3339 3354 "m_save.ml" 119 3339 3369
+type(
+  bool
+)
+"m_save.ml" 120 3375 3391 "m_save.ml" 120 3375 3402
+type(
+  ?debug:string ->
+  ?at:'_weak2 Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:unit ->
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref Util.printf "util.mli" 43 996 996 "util.mli" 45 1081 1131
+)
+"m_save.ml" 121 3403 3423 "m_save.ml" 121 3403 3455
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"m_save.ml" 122 3456 3476 "m_save.ml" 122 3456 3477
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_save.ml" 118 3314 3333 "m_save.ml" 118 3314 3334
+)
+"m_save.ml" 122 3456 3476 "m_save.ml" 122 3456 3482
+type(
+  M_t.mule_
+)
+"m_save.ml" 122 3456 3476 "m_save.ml" 122 3456 3487
+type(
+  Util.hint
+)
+"m_save.ml" 122 3456 3476 "m_save.ml" 122 3456 3492
+type(
+  string
+)
+"m_save.ml" 123 3493 3513 "m_save.ml" 123 3493 3516
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fnx "m_save.ml" 116 3230 3247 "m_save.ml" 116 3230 3250
+)
+"m_save.ml" 123 3493 3513 "m_save.ml" 123 3493 3521
+type(
+  string
+)
+"m_save.ml" 120 3375 3391 "m_save.ml" 123 3493 3521
+type(
+  unit
+)
+"m_save.ml" 119 3339 3351 "m_save.ml" 123 3493 3521
+type(
+  unit
+)
+"m_save.ml" 124 3523 3535 "m_save.ml" 124 3523 3536
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_save.ml" 118 3314 3333 "m_save.ml" 118 3314 3334
+)
+"m_save.ml" 119 3339 3351 "m_save.ml" 124 3523 3536
+type(
+  M_t.mule
+)
+"m_save.ml" 125 3537 3547 "m_save.ml" 125 3537 3551
+type(
+  (Digest.t * M_t.mule) option
+)
+type(
+  (Digest.t * M_t.mule) option
+)
+"m_save.ml" 131 3754 3766 "m_save.ml" 131 3754 3771
+type(
+  exn -> M_t.mule
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"m_save.ml" 131 3754 3796 "m_save.ml" 131 3754 3799
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fnx "m_save.ml" 116 3230 3247 "m_save.ml" 116 3230 3250
+)
+"m_save.ml" 131 3754 3772 "m_save.ml" 131 3754 3800
+type(
+  exn
+)
+"m_save.ml" 131 3754 3766 "m_save.ml" 131 3754 3800
+type(
+  M_t.mule
+)
+"m_save.ml" 117 3254 3262 "m_save.ml" 132 3801 3812
+type(
+  M_t.mule
+)
+"m_save.ml" 133 3813 3824 "m_save.ml" 133 3813 3826
+type(
+  string Property.wrapped
+)
+ident(
+  def fn "m_save.ml" 134 3840 3848 "m_save.ml" 144 4210 4221
+)
+"m_save.ml" 133 3813 3819 "m_save.ml" 133 3813 3826
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 133 3813 3833 "m_save.ml" 133 3813 3836
+type(
+  string Property.wrapped
+)
+ident(
+  def fnx "m_save.ml" 134 3840 3848 "m_save.ml" 144 4210 4221
+)
+"m_save.ml" 133 3813 3828 "m_save.ml" 133 3813 3836
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 133 3813 3819 "m_save.ml" 133 3813 3836
+type(
+  string Property.wrapped option * string Property.wrapped option
+)
+type(
+  string Property.wrapped option * string Property.wrapped option
+)
+"m_save.ml" 134 3840 3860 "m_save.ml" 134 3840 3868
+type(
+  'a -> in_channel -> (Digest.t * M_t.mule) option
+)
+ident(
+  int_ref validate "m_save.ml" 86 2318 2322 "m_save.ml" 86 2318 2330
+)
+"m_save.ml" 134 3840 3869 "m_save.ml" 134 3840 3871
+type(
+  'a
+)
+ident(
+  int_ref mn "m_save.ml" 103 2772 2799 "m_save.ml" 103 2772 2801
+)
+"m_save.ml" 134 3840 3873 "m_save.ml" 134 3840 3884
+type(
+  string -> in_channel
+)
+ident(
+  int_ref Stdlib.open_in_bin "stdlib.mli" 1072 39900 39900 "stdlib.mli" 1072 39900 39938
+)
+"m_save.ml" 134 3840 3885 "m_save.ml" 134 3840 3888
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fnx "m_save.ml" 133 3813 3833 "m_save.ml" 133 3813 3836
+)
+"m_save.ml" 134 3840 3885 "m_save.ml" 134 3840 3893
+type(
+  string
+)
+"m_save.ml" 134 3840 3872 "m_save.ml" 134 3840 3894
+type(
+  in_channel
+)
+"m_save.ml" 134 3840 3860 "m_save.ml" 134 3840 3894
+type(
+  (Digest.t * M_t.mule) option
+)
+"m_save.ml" 135 3900 3916 "m_save.ml" 135 3900 3920
+type(
+  Digest.t
+)
+ident(
+  def csum "m_save.ml" 135 3900 3930 "m_save.ml" 141 4144 4161
+)
+"m_save.ml" 135 3900 3922 "m_save.ml" 135 3900 3923
+type(
+  M_t.mule
+)
+ident(
+  def m "m_save.ml" 135 3900 3930 "m_save.ml" 141 4144 4161
+)
+"m_save.ml" 135 3900 3915 "m_save.ml" 135 3900 3924
+type(
+  Digest.t * M_t.mule
+)
+"m_save.ml" 135 3900 3910 "m_save.ml" 135 3900 3924
+type(
+  (Digest.t * M_t.mule) option
+)
+type(
+  (Digest.t * M_t.mule) option
+)
+"m_save.ml" 135 3900 3930 "m_save.ml" 135 3900 3934
+type(
+  Digest.t
+)
+ident(
+  int_ref csum "m_save.ml" 135 3900 3916 "m_save.ml" 135 3900 3920
+)
+"m_save.ml" 135 3900 3935 "m_save.ml" 135 3900 3936
+type(
+  Digest.t -> Digest.t -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_save.ml" 135 3900 3937 "m_save.ml" 135 3900 3948
+type(
+  string -> Digest.t
+)
+ident(
+  int_ref Stdlib.Digest.file "digest.mli" 66 2945 2945 "digest.mli" 66 2945 2967
+)
+"m_save.ml" 135 3900 3949 "m_save.ml" 135 3900 3951
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fn "m_save.ml" 133 3813 3824 "m_save.ml" 133 3813 3826
+)
+"m_save.ml" 135 3900 3949 "m_save.ml" 135 3900 3956
+type(
+  string
+)
+"m_save.ml" 135 3900 3937 "m_save.ml" 135 3900 3956
+type(
+  Digest.t
+)
+"m_save.ml" 135 3900 3930 "m_save.ml" 135 3900 3956
+type(
+  bool
+)
+"m_save.ml" 136 3960 3975 "m_save.ml" 136 3960 3976
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_save.ml" 136 3960 3976 "m_save.ml" 136 3960 3990
+type(
+  bool ref
+)
+ident(
+  int_ref Params.verbose "params.mli" 13 193 193 "params.mli" 13 193 215
+)
+"m_save.ml" 136 3960 3975 "m_save.ml" 136 3960 3990
+type(
+  bool
+)
+"m_save.ml" 137 3996 4012 "m_save.ml" 137 3996 4023
+type(
+  ?debug:string ->
+  ?at:'_weak3 Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:unit ->
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref Util.printf "util.mli" 43 996 996 "util.mli" 45 1081 1131
+)
+"m_save.ml" 138 4024 4044 "m_save.ml" 138 4024 4076
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"m_save.ml" 139 4077 4097 "m_save.ml" 139 4077 4098
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_save.ml" 135 3900 3922 "m_save.ml" 135 3900 3923
+)
+"m_save.ml" 139 4077 4097 "m_save.ml" 139 4077 4103
+type(
+  M_t.mule_
+)
+"m_save.ml" 139 4077 4097 "m_save.ml" 139 4077 4108
+type(
+  Util.hint
+)
+"m_save.ml" 139 4077 4097 "m_save.ml" 139 4077 4113
+type(
+  string
+)
+"m_save.ml" 140 4114 4134 "m_save.ml" 140 4114 4137
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fnx "m_save.ml" 133 3813 3833 "m_save.ml" 133 3813 3836
+)
+"m_save.ml" 140 4114 4134 "m_save.ml" 140 4114 4142
+type(
+  string
+)
+"m_save.ml" 137 3996 4012 "m_save.ml" 140 4114 4142
+type(
+  unit
+)
+"m_save.ml" 136 3960 3972 "m_save.ml" 140 4114 4142
+type(
+  unit
+)
+"m_save.ml" 141 4144 4160 "m_save.ml" 141 4144 4161
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_save.ml" 135 3900 3922 "m_save.ml" 135 3900 3923
+)
+"m_save.ml" 136 3960 3972 "m_save.ml" 141 4144 4161
+type(
+  M_t.mule
+)
+"m_save.ml" 142 4162 4172 "m_save.ml" 142 4162 4173
+type(
+  (Digest.t * M_t.mule) option
+)
+type(
+  (Digest.t * M_t.mule) option
+)
+"m_save.ml" 143 4177 4189 "m_save.ml" 143 4177 4206
+type(
+  string Property.wrapped -> M_t.mule
+)
+ident(
+  int_ref really_parse_file "m_save.ml" 47 931 935 "m_save.ml" 47 931 952
+)
+"m_save.ml" 143 4177 4207 "m_save.ml" 143 4177 4209
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fn "m_save.ml" 133 3813 3824 "m_save.ml" 133 3813 3826
+)
+"m_save.ml" 143 4177 4189 "m_save.ml" 143 4177 4209
+type(
+  M_t.mule
+)
+"m_save.ml" 134 3840 3848 "m_save.ml" 144 4210 4221
+type(
+  M_t.mule
+)
+"m_save.ml" 104 2811 2815 "m_save.ml" 144 4210 4221
+type(
+  M_t.mule
+)
+"m_save.ml" 147 4224 4228 "m_save.ml" 147 4224 4239
+type(
+  ?clock:Timing.clock -> ?root:string -> string Property.wrapped -> M_t.mule
+)
+ident(
+  def load_module "m_save.ml" 155 4510 4510 "m_save.ml" 0 0 -1
+)
+"m_save.ml" 147 4224 4241 "m_save.ml" 147 4224 4246
+type(
+  Timing.clock option
+)
+ident(
+  def clock "m_save.ml" 147 4224 4247 "m_save.ml" 152 4497 4507
+)
+"m_save.ml" 147 4224 4254 "m_save.ml" 147 4224 4255
+type(
+  string
+)
+ident(
+  def r "m_save.ml" 147 4224 4260 "m_save.ml" 152 4497 4507
+)
+"m_save.ml" 147 4224 4256 "m_save.ml" 147 4224 4258
+type(
+  string
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "m_save.ml" 147 4224 4256 "m_save.ml" 147 4224 4258
+)
+type(
+  string
+)
+type(
+  string option
+)
+type(
+  string option
+)
+ident(
+  def *sth* "m_save.ml" 147 4224 4256 "m_save.ml" 147 4224 4258
+)
+"m_save.ml" 147 4224 4260 "m_save.ml" 147 4224 4262
+type(
+  string Property.wrapped
+)
+ident(
+  def mn "m_save.ml" 148 4265 4269 "m_save.ml" 152 4497 4507
+)
+"m_save.ml" 148 4265 4269 "m_save.ml" 148 4265 4277
+type(
+  Timing.clock option -> (unit -> M_t.mule) -> unit -> M_t.mule
+)
+ident(
+  int_ref clocking "m_save.ml" 20 307 311 "m_save.ml" 20 307 319
+)
+"m_save.ml" 148 4265 4278 "m_save.ml" 148 4265 4283
+type(
+  Timing.clock option
+)
+ident(
+  int_ref clock "m_save.ml" 147 4224 4241 "m_save.ml" 147 4224 4246
+)
+"m_save.ml" 148 4265 4294 "m_save.ml" 148 4265 4296
+type(
+  unit
+)
+"m_save.ml" 149 4300 4312 "m_save.ml" 149 4300 4314
+type(
+  string Property.wrapped
+)
+ident(
+  def fn "m_save.ml" 150 4365 4373 "m_save.ml" 151 4432 4496
+)
+"m_save.ml" 149 4300 4318 "m_save.ml" 149 4300 4333
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Filename.concat "filename.mli" 28 1429 1429 "filename.mli" 28 1429 1468
+)
+"m_save.ml" 149 4300 4334 "m_save.ml" 149 4300 4335
+type(
+  string
+)
+ident(
+  int_ref r "m_save.ml" 147 4224 4254 "m_save.ml" 147 4224 4255
+)
+"m_save.ml" 149 4300 4337 "m_save.ml" 149 4300 4339
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref mn "m_save.ml" 147 4224 4260 "m_save.ml" 147 4224 4262
+)
+"m_save.ml" 149 4300 4337 "m_save.ml" 149 4300 4344
+type(
+  string
+)
+"m_save.ml" 149 4300 4345 "m_save.ml" 149 4300 4346
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"m_save.ml" 149 4300 4347 "m_save.ml" 149 4300 4353
+type(
+  string
+)
+"m_save.ml" 149 4300 4336 "m_save.ml" 149 4300 4354
+type(
+  string
+)
+"m_save.ml" 149 4300 4317 "m_save.ml" 149 4300 4355
+type(
+  string
+)
+"m_save.ml" 149 4300 4356 "m_save.ml" 149 4300 4358
+type(
+  string -> string Property.wrapped -> string Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_save.ml" 149 4300 4359 "m_save.ml" 149 4300 4361
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref mn "m_save.ml" 147 4224 4260 "m_save.ml" 147 4224 4262
+)
+"m_save.ml" 149 4300 4317 "m_save.ml" 149 4300 4361
+type(
+  string Property.wrapped
+)
+"m_save.ml" 150 4365 4377 "m_save.ml" 150 4365 4380
+type(
+  string Property.wrapped
+)
+ident(
+  def fnx "m_save.ml" 151 4432 4440 "m_save.ml" 151 4432 4496
+)
+"m_save.ml" 150 4365 4384 "m_save.ml" 150 4365 4399
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Filename.concat "filename.mli" 28 1429 1429 "filename.mli" 28 1429 1468
+)
+"m_save.ml" 150 4365 4400 "m_save.ml" 150 4365 4401
+type(
+  string
+)
+ident(
+  int_ref r "m_save.ml" 147 4224 4254 "m_save.ml" 147 4224 4255
+)
+"m_save.ml" 150 4365 4403 "m_save.ml" 150 4365 4405
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref mn "m_save.ml" 147 4224 4260 "m_save.ml" 147 4224 4262
+)
+"m_save.ml" 150 4365 4403 "m_save.ml" 150 4365 4410
+type(
+  string
+)
+"m_save.ml" 150 4365 4411 "m_save.ml" 150 4365 4412
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"m_save.ml" 150 4365 4413 "m_save.ml" 150 4365 4420
+type(
+  string
+)
+"m_save.ml" 150 4365 4402 "m_save.ml" 150 4365 4421
+type(
+  string
+)
+"m_save.ml" 150 4365 4383 "m_save.ml" 150 4365 4422
+type(
+  string
+)
+"m_save.ml" 150 4365 4423 "m_save.ml" 150 4365 4425
+type(
+  string -> string Property.wrapped -> string Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_save.ml" 150 4365 4426 "m_save.ml" 150 4365 4428
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref mn "m_save.ml" 147 4224 4260 "m_save.ml" 147 4224 4262
+)
+"m_save.ml" 150 4365 4383 "m_save.ml" 150 4365 4428
+type(
+  string Property.wrapped
+)
+"m_save.ml" 151 4432 4440 "m_save.ml" 151 4432 4458
+type(
+  string Property.wrapped ->
+  string Property.wrapped option ->
+  string Property.wrapped option -> M_t.mule
+)
+ident(
+  int_ref really_load_module "m_save.ml" 103 2772 2780 "m_save.ml" 103 2772 2798
+)
+"m_save.ml" 151 4432 4459 "m_save.ml" 151 4432 4461
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref mn "m_save.ml" 147 4224 4260 "m_save.ml" 147 4224 4262
+)
+"m_save.ml" 151 4432 4463 "m_save.ml" 151 4432 4474
+type(
+  string Property.wrapped -> string Property.wrapped option
+)
+ident(
+  int_ref file_search "m_save.ml" 31 481 485 "m_save.ml" 31 481 496
+)
+"m_save.ml" 151 4432 4475 "m_save.ml" 151 4432 4477
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fn "m_save.ml" 149 4300 4312 "m_save.ml" 149 4300 4314
+)
+"m_save.ml" 151 4432 4462 "m_save.ml" 151 4432 4478
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 151 4432 4480 "m_save.ml" 151 4432 4491
+type(
+  string Property.wrapped -> string Property.wrapped option
+)
+ident(
+  int_ref file_search "m_save.ml" 31 481 485 "m_save.ml" 31 481 496
+)
+"m_save.ml" 151 4432 4492 "m_save.ml" 151 4432 4495
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fnx "m_save.ml" 150 4365 4377 "m_save.ml" 150 4365 4380
+)
+"m_save.ml" 151 4432 4479 "m_save.ml" 151 4432 4496
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 151 4432 4440 "m_save.ml" 151 4432 4496
+type(
+  M_t.mule
+)
+"m_save.ml" 150 4365 4373 "m_save.ml" 151 4432 4496
+type(
+  M_t.mule
+)
+"m_save.ml" 149 4300 4308 "m_save.ml" 151 4432 4496
+type(
+  M_t.mule
+)
+"m_save.ml" 148 4265 4284 "m_save.ml" 152 4497 4504
+type(
+  unit -> M_t.mule
+)
+"m_save.ml" 152 4497 4505 "m_save.ml" 152 4497 4507
+type(
+  unit
+)
+"m_save.ml" 148 4265 4269 "m_save.ml" 152 4497 4507
+type(
+  M_t.mule
+)
+"m_save.ml" 155 4510 4514 "m_save.ml" 155 4510 4524
+type(
+  ?clock:Timing.clock -> string Property.wrapped -> M_t.mule
+)
+ident(
+  def parse_file "m_save.ml" 177 5311 5311 "m_save.ml" 0 0 -1
+)
+"m_save.ml" 155 4510 4526 "m_save.ml" 155 4510 4531
+type(
+  Timing.clock option
+)
+ident(
+  def clock "m_save.ml" 155 4510 4532 "m_save.ml" 174 5298 5308
+)
+"m_save.ml" 155 4510 4532 "m_save.ml" 155 4510 4535
+type(
+  string Property.wrapped
+)
+ident(
+  def gfn "m_save.ml" 156 4538 4542 "m_save.ml" 174 5298 5308
+)
+"m_save.ml" 156 4538 4542 "m_save.ml" 156 4538 4550
+type(
+  Timing.clock option -> (unit -> M_t.mule) -> unit -> M_t.mule
+)
+ident(
+  int_ref clocking "m_save.ml" 20 307 311 "m_save.ml" 20 307 319
+)
+"m_save.ml" 156 4538 4551 "m_save.ml" 156 4538 4556
+type(
+  Timing.clock option
+)
+ident(
+  int_ref clock "m_save.ml" 155 4510 4526 "m_save.ml" 155 4510 4531
+)
+"m_save.ml" 156 4538 4567 "m_save.ml" 156 4538 4569
+type(
+  unit
+)
+"m_save.ml" 157 4573 4585 "m_save.ml" 157 4573 4587
+type(
+  string Property.wrapped
+)
+ident(
+  def fn "m_save.ml" 163 4771 4779 "m_save.ml" 173 5253 5297
+)
+"m_save.ml" 158 4596 4611 "m_save.ml" 158 4596 4632
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.Filename.check_suffix "filename.mli" 43 2026 2026 "filename.mli" 43 2026 2069
+)
+"m_save.ml" 158 4596 4633 "m_save.ml" 158 4596 4636
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref gfn "m_save.ml" 155 4510 4532 "m_save.ml" 155 4510 4535
+)
+"m_save.ml" 158 4596 4633 "m_save.ml" 158 4596 4641
+type(
+  string
+)
+"m_save.ml" 158 4596 4642 "m_save.ml" 158 4596 4648
+type(
+  string
+)
+"m_save.ml" 158 4596 4611 "m_save.ml" 158 4596 4648
+type(
+  bool
+)
+"m_save.ml" 159 4654 4670 "m_save.ml" 159 4654 4690
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Filename.chop_suffix "filename.mli" 52 2414 2414 "filename.mli" 52 2414 2458
+)
+"m_save.ml" 159 4654 4691 "m_save.ml" 159 4654 4694
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref gfn "m_save.ml" 155 4510 4532 "m_save.ml" 155 4510 4535
+)
+"m_save.ml" 159 4654 4691 "m_save.ml" 159 4654 4699
+type(
+  string
+)
+"m_save.ml" 159 4654 4700 "m_save.ml" 159 4654 4706
+type(
+  string
+)
+"m_save.ml" 159 4654 4670 "m_save.ml" 159 4654 4706
+type(
+  string
+)
+"m_save.ml" 161 4724 4740 "m_save.ml" 161 4724 4743
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref gfn "m_save.ml" 155 4510 4532 "m_save.ml" 155 4510 4535
+)
+"m_save.ml" 161 4724 4740 "m_save.ml" 161 4724 4748
+type(
+  string
+)
+"m_save.ml" 157 4573 4590 "m_save.ml" 162 4749 4760
+type(
+  string
+)
+"m_save.ml" 162 4749 4761 "m_save.ml" 162 4749 4763
+type(
+  string -> string Property.wrapped -> string Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_save.ml" 162 4749 4764 "m_save.ml" 162 4749 4767
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref gfn "m_save.ml" 155 4510 4532 "m_save.ml" 155 4510 4535
+)
+"m_save.ml" 157 4573 4590 "m_save.ml" 162 4749 4767
+type(
+  string Property.wrapped
+)
+"m_save.ml" 163 4771 4783 "m_save.ml" 163 4771 4785
+type(
+  string Property.wrapped
+)
+ident(
+  def mn "m_save.ml" 164 4825 4833 "m_save.ml" 173 5253 5297
+)
+"m_save.ml" 163 4771 4789 "m_save.ml" 163 4771 4806
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.Filename.basename "filename.mli" 105 4062 4062 "filename.mli" 105 4062 4093
+)
+"m_save.ml" 163 4771 4807 "m_save.ml" 163 4771 4809
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fn "m_save.ml" 157 4573 4585 "m_save.ml" 157 4573 4587
+)
+"m_save.ml" 163 4771 4807 "m_save.ml" 163 4771 4814
+type(
+  string
+)
+"m_save.ml" 163 4771 4788 "m_save.ml" 163 4771 4815
+type(
+  string
+)
+"m_save.ml" 163 4771 4816 "m_save.ml" 163 4771 4818
+type(
+  string -> string Property.wrapped -> string Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_save.ml" 163 4771 4819 "m_save.ml" 163 4771 4821
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fn "m_save.ml" 157 4573 4585 "m_save.ml" 157 4573 4587
+)
+"m_save.ml" 163 4771 4788 "m_save.ml" 163 4771 4821
+type(
+  string Property.wrapped
+)
+"m_save.ml" 164 4825 4837 "m_save.ml" 164 4825 4840
+type(
+  string Property.wrapped option
+)
+ident(
+  def fnx "m_save.ml" 165 4886 4894 "m_save.ml" 173 5253 5297
+)
+"m_save.ml" 164 4825 4843 "m_save.ml" 164 4825 4854
+type(
+  string Property.wrapped -> string Property.wrapped option
+)
+ident(
+  int_ref file_search "m_save.ml" 31 481 485 "m_save.ml" 31 481 496
+)
+"m_save.ml" 164 4825 4857 "m_save.ml" 164 4825 4859
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fn "m_save.ml" 157 4573 4585 "m_save.ml" 157 4573 4587
+)
+"m_save.ml" 164 4825 4857 "m_save.ml" 164 4825 4864
+type(
+  string
+)
+"m_save.ml" 164 4825 4865 "m_save.ml" 164 4825 4866
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"m_save.ml" 164 4825 4867 "m_save.ml" 164 4825 4874
+type(
+  string
+)
+"m_save.ml" 164 4825 4856 "m_save.ml" 164 4825 4875
+type(
+  string
+)
+"m_save.ml" 164 4825 4876 "m_save.ml" 164 4825 4878
+type(
+  string -> string Property.wrapped -> string Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_save.ml" 164 4825 4879 "m_save.ml" 164 4825 4881
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fn "m_save.ml" 157 4573 4585 "m_save.ml" 157 4573 4587
+)
+"m_save.ml" 164 4825 4855 "m_save.ml" 164 4825 4882
+type(
+  string Property.wrapped
+)
+"m_save.ml" 164 4825 4843 "m_save.ml" 164 4825 4882
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 165 4886 4898 "m_save.ml" 165 4886 4900
+type(
+  string Property.wrapped option
+)
+ident(
+  def fn "m_save.ml" 166 4945 4957 "m_save.ml" 173 5253 5297
+)
+"m_save.ml" 165 4886 4903 "m_save.ml" 165 4886 4914
+type(
+  string Property.wrapped -> string Property.wrapped option
+)
+ident(
+  int_ref file_search "m_save.ml" 31 481 485 "m_save.ml" 31 481 496
+)
+"m_save.ml" 165 4886 4917 "m_save.ml" 165 4886 4919
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fn "m_save.ml" 157 4573 4585 "m_save.ml" 157 4573 4587
+)
+"m_save.ml" 165 4886 4917 "m_save.ml" 165 4886 4924
+type(
+  string
+)
+"m_save.ml" 165 4886 4925 "m_save.ml" 165 4886 4926
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"m_save.ml" 165 4886 4927 "m_save.ml" 165 4886 4933
+type(
+  string
+)
+"m_save.ml" 165 4886 4916 "m_save.ml" 165 4886 4934
+type(
+  string
+)
+"m_save.ml" 165 4886 4935 "m_save.ml" 165 4886 4937
+type(
+  string -> string Property.wrapped -> string Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_save.ml" 165 4886 4938 "m_save.ml" 165 4886 4940
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fn "m_save.ml" 157 4573 4585 "m_save.ml" 157 4573 4587
+)
+"m_save.ml" 165 4886 4915 "m_save.ml" 165 4886 4941
+type(
+  string Property.wrapped
+)
+"m_save.ml" 165 4886 4903 "m_save.ml" 165 4886 4941
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 166 4945 4960 "m_save.ml" 166 4945 4962
+type(
+  string Property.wrapped option
+)
+ident(
+  int_ref fn "m_save.ml" 165 4886 4898 "m_save.ml" 165 4886 4900
+)
+"m_save.ml" 166 4945 4963 "m_save.ml" 166 4945 4964
+type(
+  string Property.wrapped option -> string Property.wrapped option -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_save.ml" 166 4945 4965 "m_save.ml" 166 4945 4969
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 166 4945 4960 "m_save.ml" 166 4945 4969
+type(
+  bool
+)
+"m_save.ml" 166 4945 4970 "m_save.ml" 166 4945 4972
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"m_save.ml" 166 4945 4973 "m_save.ml" 166 4945 4976
+type(
+  string Property.wrapped option
+)
+ident(
+  int_ref fnx "m_save.ml" 164 4825 4837 "m_save.ml" 164 4825 4840
+)
+"m_save.ml" 166 4945 4977 "m_save.ml" 166 4945 4978
+type(
+  string Property.wrapped option -> string Property.wrapped option -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_save.ml" 166 4945 4979 "m_save.ml" 166 4945 4983
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 166 4945 4973 "m_save.ml" 166 4945 4983
+type(
+  bool
+)
+"m_save.ml" 166 4945 4960 "m_save.ml" 166 4945 4983
+type(
+  bool
+)
+"m_save.ml" 167 4995 5011 "m_save.ml" 167 4995 5023
+type(
+  ?debug:string ->
+  ?at:string Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:unit ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Util.eprintf "util.mli" 46 1132 1132 "util.mli" 48 1217 1267
+)
+"m_save.ml" 167 4995 5028 "m_save.ml" 167 4995 5031
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref gfn "m_save.ml" 155 4510 4532 "m_save.ml" 155 4510 4535
+)
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 168 5032 5052 "m_save.ml" 168 5032 5071
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"m_save.ml" 168 5032 5072 "m_save.ml" 168 5032 5075
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref gfn "m_save.ml" 155 4510 4532 "m_save.ml" 155 4510 4535
+)
+"m_save.ml" 168 5032 5072 "m_save.ml" 168 5032 5080
+type(
+  string
+)
+"m_save.ml" 167 4995 5011 "m_save.ml" 168 5032 5080
+type(
+  unit
+)
+"m_save.ml" 169 5082 5098 "m_save.ml" 169 5082 5108
+type(
+  string Property.wrapped -> string -> unit
+)
+ident(
+  int_ref Errors.set "errors.mli" 53 1273 1273 "errors.mli" 53 1273 1319
+)
+"m_save.ml" 170 5109 5129 "m_save.ml" 170 5109 5132
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref gfn "m_save.ml" 155 4510 4532 "m_save.ml" 155 4510 4535
+)
+"m_save.ml" 170 5109 5134 "m_save.ml" 170 5109 5148
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"m_save.ml" 170 5109 5149 "m_save.ml" 170 5109 5168
+type(
+  (string -> string, unit, string) format
+)
+"m_save.ml" 170 5109 5169 "m_save.ml" 170 5109 5172
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref gfn "m_save.ml" 155 4510 4532 "m_save.ml" 155 4510 4535
+)
+"m_save.ml" 170 5109 5169 "m_save.ml" 170 5109 5177
+type(
+  string
+)
+"m_save.ml" 170 5109 5133 "m_save.ml" 170 5109 5178
+type(
+  string
+)
+"m_save.ml" 169 5082 5098 "m_save.ml" 170 5109 5178
+type(
+  unit
+)
+"m_save.ml" 171 5180 5196 "m_save.ml" 171 5180 5204
+type(
+  string -> M_t.mule
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"m_save.ml" 171 5180 5205 "m_save.ml" 171 5180 5231
+type(
+  string
+)
+"m_save.ml" 171 5180 5196 "m_save.ml" 171 5180 5231
+type(
+  M_t.mule
+)
+"m_save.ml" 169 5082 5098 "m_save.ml" 171 5180 5231
+type(
+  M_t.mule
+)
+"m_save.ml" 166 4945 4989 "m_save.ml" 172 5232 5247
+type(
+  M_t.mule
+)
+"m_save.ml" 173 5253 5269 "m_save.ml" 173 5253 5287
+type(
+  string Property.wrapped ->
+  string Property.wrapped option ->
+  string Property.wrapped option -> M_t.mule
+)
+ident(
+  int_ref really_load_module "m_save.ml" 103 2772 2780 "m_save.ml" 103 2772 2798
+)
+"m_save.ml" 173 5253 5288 "m_save.ml" 173 5253 5290
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref mn "m_save.ml" 163 4771 4783 "m_save.ml" 163 4771 4785
+)
+"m_save.ml" 173 5253 5291 "m_save.ml" 173 5253 5293
+type(
+  string Property.wrapped option
+)
+ident(
+  int_ref fn "m_save.ml" 165 4886 4898 "m_save.ml" 165 4886 4900
+)
+"m_save.ml" 173 5253 5294 "m_save.ml" 173 5253 5297
+type(
+  string Property.wrapped option
+)
+ident(
+  int_ref fnx "m_save.ml" 164 4825 4837 "m_save.ml" 164 4825 4840
+)
+"m_save.ml" 173 5253 5269 "m_save.ml" 173 5253 5297
+type(
+  M_t.mule
+)
+"m_save.ml" 166 4945 4957 "m_save.ml" 173 5253 5297
+type(
+  M_t.mule
+)
+"m_save.ml" 165 4886 4894 "m_save.ml" 173 5253 5297
+type(
+  M_t.mule
+)
+"m_save.ml" 164 4825 4833 "m_save.ml" 173 5253 5297
+type(
+  M_t.mule
+)
+"m_save.ml" 163 4771 4779 "m_save.ml" 173 5253 5297
+type(
+  M_t.mule
+)
+"m_save.ml" 157 4573 4581 "m_save.ml" 173 5253 5297
+type(
+  M_t.mule
+)
+"m_save.ml" 156 4538 4557 "m_save.ml" 174 5298 5305
+type(
+  unit -> M_t.mule
+)
+"m_save.ml" 174 5298 5306 "m_save.ml" 174 5298 5308
+type(
+  unit
+)
+"m_save.ml" 156 4538 4542 "m_save.ml" 174 5298 5308
+type(
+  M_t.mule
+)
+"m_save.ml" 177 5311 5315 "m_save.ml" 177 5311 5328
+type(
+  ?clock:Timing.clock ->
+  ?root:string -> M_t.mule Util.Coll.Sm.t -> M_t.mule Util.Coll.Sm.t
+)
+ident(
+  def complete_load "m_save.ml" 301 10936 10936 "m_save.ml" 0 0 -1
+)
+"m_save.ml" 177 5311 5330 "m_save.ml" 177 5311 5335
+type(
+  Timing.clock option
+)
+ident(
+  def clock "m_save.ml" 177 5311 5336 "m_save.ml" 298 10923 10933
+)
+"m_save.ml" 177 5311 5343 "m_save.ml" 177 5311 5344
+type(
+  string
+)
+ident(
+  def r "m_save.ml" 177 5311 5349 "m_save.ml" 298 10923 10933
+)
+"m_save.ml" 177 5311 5345 "m_save.ml" 177 5311 5347
+type(
+  string
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "m_save.ml" 177 5311 5345 "m_save.ml" 177 5311 5347
+)
+type(
+  string
+)
+type(
+  string option
+)
+type(
+  string option
+)
+ident(
+  def *sth* "m_save.ml" 177 5311 5345 "m_save.ml" 177 5311 5347
+)
+"m_save.ml" 177 5311 5349 "m_save.ml" 177 5311 5352
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  def mcx "m_save.ml" 178 5355 5359 "m_save.ml" 298 10923 10933
+)
+"m_save.ml" 178 5355 5359 "m_save.ml" 178 5355 5367
+type(
+  Timing.clock option ->
+  (unit -> M_t.mule Util.Coll.Sm.t) -> unit -> M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref clocking "m_save.ml" 20 307 311 "m_save.ml" 20 307 319
+)
+"m_save.ml" 178 5355 5368 "m_save.ml" 178 5355 5373
+type(
+  Timing.clock option
+)
+ident(
+  int_ref clock "m_save.ml" 177 5311 5330 "m_save.ml" 177 5311 5335
+)
+"m_save.ml" 179 5374 5388 "m_save.ml" 179 5374 5390
+type(
+  unit
+)
+"m_save.ml" 180 5394 5406 "m_save.ml" 180 5394 5415
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  def requested "m_save.ml" 185 5626 5634 "m_save.ml" 297 10903 10922
+)
+"m_save.ml" 180 5394 5418 "m_save.ml" 180 5394 5421
+type(
+  Util.Coll.Hs.t -> Util.Coll.Hs.t ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"m_save.ml" 180 5394 5422 "m_save.ml" 180 5394 5430
+type(
+  Util.Coll.Hs.t
+)
+ident(
+  int_ref Util.Coll.Hs.empty "set.mli" 74 2915 2919 "set.mli" 74 2915 2931
+)
+"m_save.ml" 180 5394 5418 "m_save.ml" 180 5394 5430
+type(
+  Util.Coll.Hs.t ref
+)
+"m_save.ml" 185 5626 5638 "m_save.ml" 185 5626 5643
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  def found "m_save.ml" 186 5662 5670 "m_save.ml" 297 10903 10922
+)
+"m_save.ml" 185 5626 5646 "m_save.ml" 185 5626 5649
+type(
+  Util.Coll.Hs.t -> Util.Coll.Hs.t ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"m_save.ml" 185 5626 5650 "m_save.ml" 185 5626 5658
+type(
+  Util.Coll.Hs.t
+)
+ident(
+  int_ref Util.Coll.Hs.empty "set.mli" 74 2915 2919 "set.mli" 74 2915 2931
+)
+"m_save.ml" 185 5626 5646 "m_save.ml" 185 5626 5658
+type(
+  Util.Coll.Hs.t ref
+)
+"m_save.ml" 186 5662 5674 "m_save.ml" 186 5662 5678
+type(
+  M_t.mule Deque.dq ref
+)
+ident(
+  def mods "m_save.ml" 187 5700 5708 "m_save.ml" 297 10903 10922
+)
+"m_save.ml" 186 5662 5681 "m_save.ml" 186 5662 5684
+type(
+  M_t.mule Deque.dq -> M_t.mule Deque.dq ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"m_save.ml" 186 5662 5685 "m_save.ml" 186 5662 5696
+type(
+  M_t.mule Deque.dq
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"m_save.ml" 186 5662 5681 "m_save.ml" 186 5662 5696
+type(
+  M_t.mule Deque.dq ref
+)
+"m_save.ml" 187 5700 5708 "m_save.ml" 187 5700 5715
+type(
+  (Util.Coll.Sm.key -> M_t.mule -> unit) -> M_t.mule Util.Coll.Sm.t -> unit
+)
+ident(
+  int_ref Util.Coll.Sm.iter "map.mli" 154 6537 6541 "map.mli" 154 6537 6586
+)
+"m_save.ml" 187 5700 5721 "m_save.ml" 187 5700 5722
+type(
+  Util.Coll.Sm.key
+)
+"m_save.ml" 187 5700 5723 "m_save.ml" 187 5700 5727
+type(
+  M_t.mule
+)
+ident(
+  def mule "m_save.ml" 187 5700 5731 "m_save.ml" 187 5700 5760
+)
+"m_save.ml" 187 5700 5731 "m_save.ml" 187 5700 5735
+type(
+  M_t.mule Deque.dq ref
+)
+ident(
+  int_ref mods "m_save.ml" 186 5662 5674 "m_save.ml" 186 5662 5678
+)
+"m_save.ml" 187 5700 5736 "m_save.ml" 187 5700 5738
+type(
+  M_t.mule Deque.dq ref -> M_t.mule Deque.dq -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"m_save.ml" 187 5700 5739 "m_save.ml" 187 5700 5749
+type(
+  M_t.mule Deque.dq -> M_t.mule -> M_t.mule Deque.dq
+)
+ident(
+  int_ref Deque.snoc "deque.mli" 13 220 220 "deque.mli" 13 220 252
+)
+"m_save.ml" 187 5700 5750 "m_save.ml" 187 5700 5751
+type(
+  M_t.mule Deque.dq ref -> M_t.mule Deque.dq
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_save.ml" 187 5700 5751 "m_save.ml" 187 5700 5755
+type(
+  M_t.mule Deque.dq ref
+)
+ident(
+  int_ref mods "m_save.ml" 186 5662 5674 "m_save.ml" 186 5662 5678
+)
+"m_save.ml" 187 5700 5750 "m_save.ml" 187 5700 5755
+type(
+  M_t.mule Deque.dq
+)
+"m_save.ml" 187 5700 5756 "m_save.ml" 187 5700 5760
+type(
+  M_t.mule
+)
+ident(
+  int_ref mule "m_save.ml" 187 5700 5723 "m_save.ml" 187 5700 5727
+)
+"m_save.ml" 187 5700 5739 "m_save.ml" 187 5700 5760
+type(
+  M_t.mule Deque.dq
+)
+"m_save.ml" 187 5700 5731 "m_save.ml" 187 5700 5760
+type(
+  unit
+)
+"m_save.ml" 187 5700 5716 "m_save.ml" 187 5700 5761
+type(
+  Util.Coll.Sm.key -> M_t.mule -> unit
+)
+"m_save.ml" 187 5700 5762 "m_save.ml" 187 5700 5765
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref mcx "m_save.ml" 177 5311 5349 "m_save.ml" 177 5311 5352
+)
+"m_save.ml" 187 5700 5708 "m_save.ml" 187 5700 5765
+type(
+  unit
+)
+"m_save.ml" 188 5767 5783 "m_save.ml" 188 5767 5787
+type(
+  M_t.mule Util.Coll.Sm.t -> M_t.mule Util.Coll.Sm.t
+)
+ident(
+  def spin "m_save.ml" 188 5767 5775 "m_save.ml" 297 10903 10922
+)
+"m_save.ml" 188 5767 5788 "m_save.ml" 188 5767 5791
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  def mcx "m_save.ml" 189 5794 5806 "m_save.ml" 263 9581 9605
+)
+"m_save.ml" 189 5794 5812 "m_save.ml" 189 5794 5823
+type(
+  M_t.mule Deque.dq -> (M_t.mule * M_t.mule Deque.dq) option
+)
+ident(
+  int_ref Deque.front "deque.mli" 14 253 253 "deque.mli" 14 253 293
+)
+"m_save.ml" 189 5794 5824 "m_save.ml" 189 5794 5825
+type(
+  M_t.mule Deque.dq ref -> M_t.mule Deque.dq
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_save.ml" 189 5794 5825 "m_save.ml" 189 5794 5829
+type(
+  M_t.mule Deque.dq ref
+)
+ident(
+  int_ref mods "m_save.ml" 186 5662 5674 "m_save.ml" 186 5662 5678
+)
+"m_save.ml" 189 5794 5824 "m_save.ml" 189 5794 5829
+type(
+  M_t.mule Deque.dq
+)
+"m_save.ml" 189 5794 5812 "m_save.ml" 189 5794 5829
+type(
+  (M_t.mule * M_t.mule Deque.dq) option
+)
+"m_save.ml" 190 5835 5849 "m_save.ml" 190 5835 5853
+type(
+  (M_t.mule * M_t.mule Deque.dq) option
+)
+type(
+  (M_t.mule * M_t.mule Deque.dq) option
+)
+"m_save.ml" 190 5835 5857 "m_save.ml" 190 5835 5860
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref mcx "m_save.ml" 188 5767 5788 "m_save.ml" 188 5767 5791
+)
+"m_save.ml" 191 5861 5881 "m_save.ml" 191 5861 5885
+type(
+  M_t.mule
+)
+ident(
+  def mule "m_save.ml" 192 5896 5912 "m_save.ml" 263 9581 9605
+)
+"m_save.ml" 191 5861 5887 "m_save.ml" 191 5861 5891
+type(
+  M_t.mule Deque.dq
+)
+ident(
+  def rest "m_save.ml" 192 5896 5912 "m_save.ml" 263 9581 9605
+)
+"m_save.ml" 191 5861 5880 "m_save.ml" 191 5861 5892
+type(
+  M_t.mule * M_t.mule Deque.dq
+)
+"m_save.ml" 191 5861 5875 "m_save.ml" 191 5861 5892
+type(
+  (M_t.mule * M_t.mule Deque.dq) option
+)
+type(
+  (M_t.mule * M_t.mule Deque.dq) option
+)
+"m_save.ml" 192 5896 5912 "m_save.ml" 192 5896 5916
+type(
+  M_t.mule Deque.dq ref
+)
+ident(
+  int_ref mods "m_save.ml" 186 5662 5674 "m_save.ml" 186 5662 5678
+)
+"m_save.ml" 192 5896 5917 "m_save.ml" 192 5896 5919
+type(
+  M_t.mule Deque.dq ref -> M_t.mule Deque.dq -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"m_save.ml" 192 5896 5920 "m_save.ml" 192 5896 5924
+type(
+  M_t.mule Deque.dq
+)
+ident(
+  int_ref rest "m_save.ml" 191 5861 5887 "m_save.ml" 191 5861 5891
+)
+"m_save.ml" 192 5896 5912 "m_save.ml" 192 5896 5924
+type(
+  unit
+)
+"m_save.ml" 193 5926 5947 "m_save.ml" 193 5926 5950
+type(
+  Util.Coll.Hs.t
+)
+ident(
+  def eds "m_save.ml" 195 6031 6047 "m_save.ml" 263 9581 9605
+)
+"m_save.ml" 193 5926 5952 "m_save.ml" 193 5926 5967
+type(
+  Util.Coll.Hs.t
+)
+ident(
+  def submodule_names "m_save.ml" 195 6031 6047 "m_save.ml" 263 9581 9605
+)
+"m_save.ml" 193 5926 5969 "m_save.ml" 193 5926 5979
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  def submodules "m_save.ml" 195 6031 6047 "m_save.ml" 263 9581 9605
+)
+"m_save.ml" 193 5926 5946 "m_save.ml" 193 5926 5980
+type(
+  Util.Coll.Hs.t * Util.Coll.Hs.t * M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 194 5983 6003 "m_save.ml" 194 5983 6022
+type(
+  M_t.mule -> Util.Coll.Hs.t * Util.Coll.Hs.t * M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref M_dep.external_deps "m_dep.mli" 10 110 110 "m_dep.mli" 11 155 182
+)
+"m_save.ml" 194 5983 6023 "m_save.ml" 194 5983 6027
+type(
+  M_t.mule
+)
+ident(
+  int_ref mule "m_save.ml" 191 5861 5881 "m_save.ml" 191 5861 5885
+)
+"m_save.ml" 194 5983 6003 "m_save.ml" 194 5983 6027
+type(
+  Util.Coll.Hs.t * Util.Coll.Hs.t * M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 195 6031 6047 "m_save.ml" 195 6031 6052
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref found "m_save.ml" 185 5626 5638 "m_save.ml" 185 5626 5643
+)
+"m_save.ml" 195 6031 6053 "m_save.ml" 195 6031 6055
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"m_save.ml" 195 6031 6056 "m_save.ml" 195 6031 6064
+type(
+  Util.Coll.Hs.t -> Util.Coll.Hs.t -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Util.Coll.Hs.union "set.mli" 98 3814 3818 "set.mli" 98 3814 3840
+)
+"m_save.ml" 195 6031 6065 "m_save.ml" 195 6031 6080
+type(
+  Util.Coll.Hs.t
+)
+ident(
+  int_ref submodule_names "m_save.ml" 193 5926 5952 "m_save.ml" 193 5926 5967
+)
+"m_save.ml" 195 6031 6081 "m_save.ml" 195 6031 6082
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_save.ml" 195 6031 6082 "m_save.ml" 195 6031 6087
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref found "m_save.ml" 185 5626 5638 "m_save.ml" 185 5626 5643
+)
+"m_save.ml" 195 6031 6081 "m_save.ml" 195 6031 6087
+type(
+  Util.Coll.Hs.t
+)
+"m_save.ml" 195 6031 6056 "m_save.ml" 195 6031 6087
+type(
+  Util.Coll.Hs.t
+)
+"m_save.ml" 195 6031 6047 "m_save.ml" 195 6031 6087
+type(
+  unit
+)
+"m_save.ml" 196 6089 6109 "m_save.ml" 196 6089 6112
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  def mcx "m_save.ml" 204 6425 6441 "m_save.ml" 263 9581 9605
+)
+"m_save.ml" 196 6089 6115 "m_save.ml" 196 6089 6123
+type(
+  (Util.Coll.Sm.key -> M_t.mule option -> M_t.mule option -> M_t.mule option) ->
+  M_t.mule Util.Coll.Sm.t ->
+  M_t.mule Util.Coll.Sm.t -> M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref Util.Coll.Sm.merge "map.mli" 118 4890 4894 "map.mli" 120 4962 4991
+)
+"m_save.ml" 197 6124 6149 "m_save.ml" 197 6124 6150
+type(
+  Util.Coll.Sm.key
+)
+ident(
+  def k "m_save.ml" 197 6124 6151 "m_save.ml" 197 6124 6188
+)
+"m_save.ml" 197 6124 6151 "m_save.ml" 197 6124 6153
+type(
+  M_t.mule option
+)
+ident(
+  def v1 "m_save.ml" 197 6124 6154 "m_save.ml" 197 6124 6188
+)
+"m_save.ml" 197 6124 6154 "m_save.ml" 197 6124 6156
+type(
+  M_t.mule option
+)
+ident(
+  def v2 "m_save.ml" 197 6124 6160 "m_save.ml" 197 6124 6188
+)
+"m_save.ml" 197 6124 6163 "m_save.ml" 197 6124 6165
+type(
+  M_t.mule option
+)
+ident(
+  int_ref v1 "m_save.ml" 197 6124 6151 "m_save.ml" 197 6124 6153
+)
+"m_save.ml" 197 6124 6166 "m_save.ml" 197 6124 6167
+type(
+  M_t.mule option -> M_t.mule option -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_save.ml" 197 6124 6168 "m_save.ml" 197 6124 6172
+type(
+  M_t.mule option
+)
+"m_save.ml" 197 6124 6163 "m_save.ml" 197 6124 6172
+type(
+  bool
+)
+"m_save.ml" 197 6124 6178 "m_save.ml" 197 6124 6180
+type(
+  M_t.mule option
+)
+ident(
+  int_ref v2 "m_save.ml" 197 6124 6154 "m_save.ml" 197 6124 6156
+)
+"m_save.ml" 197 6124 6186 "m_save.ml" 197 6124 6188
+type(
+  M_t.mule option
+)
+ident(
+  int_ref v1 "m_save.ml" 197 6124 6151 "m_save.ml" 197 6124 6153
+)
+"m_save.ml" 197 6124 6160 "m_save.ml" 197 6124 6188
+type(
+  M_t.mule option
+)
+"m_save.ml" 197 6124 6144 "m_save.ml" 197 6124 6189
+type(
+  Util.Coll.Sm.key -> M_t.mule option -> M_t.mule option -> M_t.mule option
+)
+"m_save.ml" 198 6190 6210 "m_save.ml" 198 6190 6213
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref mcx "m_save.ml" 188 5767 5788 "m_save.ml" 188 5767 5791
+)
+"m_save.ml" 198 6190 6214 "m_save.ml" 198 6190 6224
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref submodules "m_save.ml" 193 5926 5969 "m_save.ml" 193 5926 5979
+)
+"m_save.ml" 196 6089 6115 "m_save.ml" 198 6190 6224
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 204 6425 6445 "m_save.ml" 204 6425 6448
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  def mcx "m_save.ml" 263 9581 9597 "m_save.ml" 263 9581 9605
+)
+"m_save.ml" 204 6425 6451 "m_save.ml" 204 6425 6458
+type(
+  (Util.Coll.Hs.elt -> M_t.mule Util.Coll.Sm.t -> M_t.mule Util.Coll.Sm.t) ->
+  Util.Coll.Hs.t -> M_t.mule Util.Coll.Sm.t -> M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref Util.Coll.Hs.fold "set.mli" 141 5301 5305 "set.mli" 141 5301 5349
+)
+"m_save.ml" 205 6465 6489 "m_save.ml" 205 6465 6491
+type(
+  Util.Coll.Hs.elt
+)
+ident(
+  def ed "m_save.ml" 205 6465 6492 "m_save.ml" 261 9477 9545
+)
+"m_save.ml" 205 6465 6492 "m_save.ml" 205 6465 6495
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  def mcx "m_save.ml" 210 6695 6719 "m_save.ml" 261 9477 9545
+)
+"m_save.ml" 210 6695 6723 "m_save.ml" 210 6695 6729
+type(
+  Util.Coll.Sm.key -> M_t.modctx -> bool
+)
+ident(
+  int_ref Util.Coll.Sm.mem "map.mli" 79 3076 3080 "map.mli" 79 3076 3108
+)
+"m_save.ml" 210 6695 6730 "m_save.ml" 210 6695 6732
+type(
+  Util.Coll.Hs.elt
+)
+ident(
+  int_ref ed "m_save.ml" 205 6465 6489 "m_save.ml" 205 6465 6491
+)
+"m_save.ml" 210 6695 6730 "m_save.ml" 210 6695 6737
+type(
+  Util.Coll.Sm.key
+)
+"m_save.ml" 210 6695 6738 "m_save.ml" 210 6695 6756
+type(
+  M_t.modctx
+)
+ident(
+  int_ref M_standard.initctx "m_standard.mli" 21 400 400 "m_standard.mli" 21 400 419
+)
+"m_save.ml" 210 6695 6722 "m_save.ml" 210 6695 6757
+type(
+  bool
+)
+"m_save.ml" 212 6795 6831 "m_save.ml" 212 6795 6836
+type(
+  M_t.mule
+)
+ident(
+  def emule "m_save.ml" 213 6865 6897 "m_save.ml" 214 6929 6985
+)
+"m_save.ml" 212 6795 6839 "m_save.ml" 212 6795 6850
+type(
+  ?clock:Timing.clock -> ?root:string -> Util.Coll.Hs.elt -> M_t.mule
+)
+ident(
+  int_ref load_module "m_save.ml" 147 4224 4228 "m_save.ml" 147 4224 4239
+)
+"m_save.ml" 212 6795 6857 "m_save.ml" 212 6795 6858
+type(
+  string
+)
+ident(
+  int_ref r "m_save.ml" 177 5311 5343 "m_save.ml" 177 5311 5344
+)
+type(
+  string option
+)
+"m_save.ml" 212 6795 6859 "m_save.ml" 212 6795 6861
+type(
+  Util.Coll.Hs.elt
+)
+ident(
+  int_ref ed "m_save.ml" 205 6465 6489 "m_save.ml" 205 6465 6491
+)
+"m_save.ml" 212 6795 6839 "m_save.ml" 212 6795 6861
+type(
+  M_t.mule
+)
+"m_save.ml" 213 6865 6897 "m_save.ml" 213 6865 6901
+type(
+  M_t.mule Deque.dq ref
+)
+ident(
+  int_ref mods "m_save.ml" 186 5662 5674 "m_save.ml" 186 5662 5678
+)
+"m_save.ml" 213 6865 6902 "m_save.ml" 213 6865 6904
+type(
+  M_t.mule Deque.dq ref -> M_t.mule Deque.dq -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"m_save.ml" 213 6865 6905 "m_save.ml" 213 6865 6915
+type(
+  M_t.mule Deque.dq -> M_t.mule -> M_t.mule Deque.dq
+)
+ident(
+  int_ref Deque.snoc "deque.mli" 13 220 220 "deque.mli" 13 220 252
+)
+"m_save.ml" 213 6865 6916 "m_save.ml" 213 6865 6917
+type(
+  M_t.mule Deque.dq ref -> M_t.mule Deque.dq
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_save.ml" 213 6865 6917 "m_save.ml" 213 6865 6921
+type(
+  M_t.mule Deque.dq ref
+)
+ident(
+  int_ref mods "m_save.ml" 186 5662 5674 "m_save.ml" 186 5662 5678
+)
+"m_save.ml" 213 6865 6916 "m_save.ml" 213 6865 6921
+type(
+  M_t.mule Deque.dq
+)
+"m_save.ml" 213 6865 6922 "m_save.ml" 213 6865 6927
+type(
+  M_t.mule
+)
+ident(
+  int_ref emule "m_save.ml" 212 6795 6831 "m_save.ml" 212 6795 6836
+)
+"m_save.ml" 213 6865 6905 "m_save.ml" 213 6865 6927
+type(
+  M_t.mule Deque.dq
+)
+"m_save.ml" 213 6865 6897 "m_save.ml" 213 6865 6927
+type(
+  unit
+)
+"m_save.ml" 214 6929 6961 "m_save.ml" 214 6929 6967
+type(
+  Util.Coll.Sm.key ->
+  M_t.mule -> M_t.mule Util.Coll.Sm.t -> M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref Util.Coll.Sm.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"m_save.ml" 214 6929 6968 "m_save.ml" 214 6929 6970
+type(
+  Util.Coll.Hs.elt
+)
+ident(
+  int_ref ed "m_save.ml" 205 6465 6489 "m_save.ml" 205 6465 6491
+)
+"m_save.ml" 214 6929 6968 "m_save.ml" 214 6929 6975
+type(
+  Util.Coll.Sm.key
+)
+"m_save.ml" 214 6929 6976 "m_save.ml" 214 6929 6981
+type(
+  M_t.mule
+)
+ident(
+  int_ref emule "m_save.ml" 212 6795 6831 "m_save.ml" 212 6795 6836
+)
+"m_save.ml" 214 6929 6982 "m_save.ml" 214 6929 6985
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref mcx "m_save.ml" 205 6465 6492 "m_save.ml" 205 6465 6495
+)
+"m_save.ml" 214 6929 6961 "m_save.ml" 214 6929 6985
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 213 6865 6897 "m_save.ml" 214 6929 6985
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 212 6795 6827 "m_save.ml" 214 6929 6985
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 215 6986 7019 "m_save.ml" 215 6986 7043
+type(
+  exn
+)
+"m_save.ml" 219 7197 7229 "m_save.ml" 219 7197 7232
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref mcx "m_save.ml" 205 6465 6492 "m_save.ml" 205 6465 6495
+)
+"m_save.ml" 220 7233 7286 "m_save.ml" 220 7233 7289
+type(
+  string Property.wrapped
+)
+ident(
+  def fnx "m_save.ml" 221 7293 7325 "m_save.ml" 225 7523 7591
+)
+"m_save.ml" 220 7233 7263 "m_save.ml" 220 7233 7289
+type(
+  exn
+)
+"m_save.ml" 221 7293 7325 "m_save.ml" 221 7293 7337
+type(
+  ?debug:string ->
+  ?at:string Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:unit ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Util.eprintf "util.mli" 46 1132 1132 "util.mli" 48 1217 1267
+)
+"m_save.ml" 221 7293 7342 "m_save.ml" 221 7293 7345
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fnx "m_save.ml" 220 7233 7286 "m_save.ml" 220 7233 7289
+)
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 222 7346 7382 "m_save.ml" 223 7402 7476
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"m_save.ml" 224 7477 7513 "m_save.ml" 224 7477 7516
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fnx "m_save.ml" 220 7233 7286 "m_save.ml" 220 7233 7289
+)
+"m_save.ml" 224 7477 7513 "m_save.ml" 224 7477 7521
+type(
+  string
+)
+"m_save.ml" 221 7293 7325 "m_save.ml" 224 7477 7521
+type(
+  unit
+)
+"m_save.ml" 225 7523 7555 "m_save.ml" 225 7523 7563
+type(
+  string -> M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"m_save.ml" 225 7523 7564 "m_save.ml" 225 7523 7591
+type(
+  string
+)
+"m_save.ml" 225 7523 7555 "m_save.ml" 225 7523 7591
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 221 7293 7325 "m_save.ml" 225 7523 7591
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 211 6763 6791 "m_save.ml" 225 7523 7591
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 232 7917 7950 "m_save.ml" 232 7917 7956
+type(
+  Util.Coll.Sm.key -> M_t.mule Util.Coll.Sm.t -> bool
+)
+ident(
+  int_ref Util.Coll.Sm.mem "map.mli" 79 3076 3080 "map.mli" 79 3076 3108
+)
+"m_save.ml" 232 7917 7957 "m_save.ml" 232 7917 7959
+type(
+  Util.Coll.Hs.elt
+)
+ident(
+  int_ref ed "m_save.ml" 205 6465 6489 "m_save.ml" 205 6465 6491
+)
+"m_save.ml" 232 7917 7957 "m_save.ml" 232 7917 7964
+type(
+  Util.Coll.Sm.key
+)
+"m_save.ml" 232 7917 7965 "m_save.ml" 232 7917 7968
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref mcx "m_save.ml" 205 6465 6492 "m_save.ml" 205 6465 6495
+)
+"m_save.ml" 232 7917 7949 "m_save.ml" 232 7917 7969
+type(
+  bool
+)
+"m_save.ml" 232 7917 7975 "m_save.ml" 232 7917 7978
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref mcx "m_save.ml" 205 6465 6492 "m_save.ml" 205 6465 6495
+)
+"m_save.ml" 235 8040 8076 "m_save.ml" 235 8040 8081
+type(
+  M_t.mule
+)
+ident(
+  def emule "m_save.ml" 236 8110 8142 "m_save.ml" 237 8174 8230
+)
+"m_save.ml" 235 8040 8084 "m_save.ml" 235 8040 8095
+type(
+  ?clock:Timing.clock -> ?root:string -> Util.Coll.Hs.elt -> M_t.mule
+)
+ident(
+  int_ref load_module "m_save.ml" 147 4224 4228 "m_save.ml" 147 4224 4239
+)
+"m_save.ml" 235 8040 8102 "m_save.ml" 235 8040 8103
+type(
+  string
+)
+ident(
+  int_ref r "m_save.ml" 177 5311 5343 "m_save.ml" 177 5311 5344
+)
+type(
+  string option
+)
+"m_save.ml" 235 8040 8104 "m_save.ml" 235 8040 8106
+type(
+  Util.Coll.Hs.elt
+)
+ident(
+  int_ref ed "m_save.ml" 205 6465 6489 "m_save.ml" 205 6465 6491
+)
+"m_save.ml" 235 8040 8084 "m_save.ml" 235 8040 8106
+type(
+  M_t.mule
+)
+"m_save.ml" 236 8110 8142 "m_save.ml" 236 8110 8146
+type(
+  M_t.mule Deque.dq ref
+)
+ident(
+  int_ref mods "m_save.ml" 186 5662 5674 "m_save.ml" 186 5662 5678
+)
+"m_save.ml" 236 8110 8147 "m_save.ml" 236 8110 8149
+type(
+  M_t.mule Deque.dq ref -> M_t.mule Deque.dq -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"m_save.ml" 236 8110 8150 "m_save.ml" 236 8110 8160
+type(
+  M_t.mule Deque.dq -> M_t.mule -> M_t.mule Deque.dq
+)
+ident(
+  int_ref Deque.snoc "deque.mli" 13 220 220 "deque.mli" 13 220 252
+)
+"m_save.ml" 236 8110 8161 "m_save.ml" 236 8110 8162
+type(
+  M_t.mule Deque.dq ref -> M_t.mule Deque.dq
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_save.ml" 236 8110 8162 "m_save.ml" 236 8110 8166
+type(
+  M_t.mule Deque.dq ref
+)
+ident(
+  int_ref mods "m_save.ml" 186 5662 5674 "m_save.ml" 186 5662 5678
+)
+"m_save.ml" 236 8110 8161 "m_save.ml" 236 8110 8166
+type(
+  M_t.mule Deque.dq
+)
+"m_save.ml" 236 8110 8167 "m_save.ml" 236 8110 8172
+type(
+  M_t.mule
+)
+ident(
+  int_ref emule "m_save.ml" 235 8040 8076 "m_save.ml" 235 8040 8081
+)
+"m_save.ml" 236 8110 8150 "m_save.ml" 236 8110 8172
+type(
+  M_t.mule Deque.dq
+)
+"m_save.ml" 236 8110 8142 "m_save.ml" 236 8110 8172
+type(
+  unit
+)
+"m_save.ml" 237 8174 8206 "m_save.ml" 237 8174 8212
+type(
+  Util.Coll.Sm.key ->
+  M_t.mule -> M_t.mule Util.Coll.Sm.t -> M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref Util.Coll.Sm.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"m_save.ml" 237 8174 8213 "m_save.ml" 237 8174 8215
+type(
+  Util.Coll.Hs.elt
+)
+ident(
+  int_ref ed "m_save.ml" 205 6465 6489 "m_save.ml" 205 6465 6491
+)
+"m_save.ml" 237 8174 8213 "m_save.ml" 237 8174 8220
+type(
+  Util.Coll.Sm.key
+)
+"m_save.ml" 237 8174 8221 "m_save.ml" 237 8174 8226
+type(
+  M_t.mule
+)
+ident(
+  int_ref emule "m_save.ml" 235 8040 8076 "m_save.ml" 235 8040 8081
+)
+"m_save.ml" 237 8174 8227 "m_save.ml" 237 8174 8230
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref mcx "m_save.ml" 205 6465 6492 "m_save.ml" 205 6465 6495
+)
+"m_save.ml" 237 8174 8206 "m_save.ml" 237 8174 8230
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 236 8110 8142 "m_save.ml" 237 8174 8230
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 235 8040 8072 "m_save.ml" 237 8174 8230
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 238 8231 8264 "m_save.ml" 238 8231 8288
+type(
+  exn
+)
+"m_save.ml" 245 8624 8656 "m_save.ml" 245 8624 8665
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref requested "m_save.ml" 180 5394 5406 "m_save.ml" 180 5394 5415
+)
+"m_save.ml" 245 8624 8666 "m_save.ml" 245 8624 8668
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"m_save.ml" 245 8624 8669 "m_save.ml" 245 8624 8675
+type(
+  Util.Coll.Hs.elt -> Util.Coll.Hs.t -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Util.Coll.Hs.add "set.mli" 83 3129 3133 "set.mli" 83 3129 3155
+)
+"m_save.ml" 245 8624 8676 "m_save.ml" 245 8624 8678
+type(
+  Util.Coll.Hs.elt
+)
+ident(
+  int_ref ed "m_save.ml" 205 6465 6489 "m_save.ml" 205 6465 6491
+)
+"m_save.ml" 245 8624 8679 "m_save.ml" 245 8624 8680
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_save.ml" 245 8624 8680 "m_save.ml" 245 8624 8689
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref requested "m_save.ml" 180 5394 5406 "m_save.ml" 180 5394 5415
+)
+"m_save.ml" 245 8624 8679 "m_save.ml" 245 8624 8689
+type(
+  Util.Coll.Hs.t
+)
+"m_save.ml" 245 8624 8669 "m_save.ml" 245 8624 8689
+type(
+  Util.Coll.Hs.t
+)
+"m_save.ml" 245 8624 8656 "m_save.ml" 245 8624 8689
+type(
+  unit
+)
+"m_save.ml" 246 8691 8723 "m_save.ml" 246 8691 8726
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref mcx "m_save.ml" 205 6465 6492 "m_save.ml" 205 6465 6495
+)
+"m_save.ml" 245 8624 8656 "m_save.ml" 246 8691 8726
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 256 9187 9240 "m_save.ml" 256 9187 9243
+type(
+  string Property.wrapped
+)
+ident(
+  def fnx "m_save.ml" 257 9247 9279 "m_save.ml" 261 9477 9545
+)
+"m_save.ml" 256 9187 9217 "m_save.ml" 256 9187 9243
+type(
+  exn
+)
+"m_save.ml" 257 9247 9279 "m_save.ml" 257 9247 9291
+type(
+  ?debug:string ->
+  ?at:string Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:unit ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Util.eprintf "util.mli" 46 1132 1132 "util.mli" 48 1217 1267
+)
+"m_save.ml" 257 9247 9296 "m_save.ml" 257 9247 9299
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fnx "m_save.ml" 256 9187 9240 "m_save.ml" 256 9187 9243
+)
+type(
+  string Property.wrapped option
+)
+"m_save.ml" 258 9300 9336 "m_save.ml" 259 9356 9430
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"m_save.ml" 260 9431 9467 "m_save.ml" 260 9431 9470
+type(
+  string Property.wrapped
+)
+ident(
+  int_ref fnx "m_save.ml" 256 9187 9240 "m_save.ml" 256 9187 9243
+)
+"m_save.ml" 260 9431 9467 "m_save.ml" 260 9431 9475
+type(
+  string
+)
+"m_save.ml" 257 9247 9279 "m_save.ml" 260 9431 9475
+type(
+  unit
+)
+"m_save.ml" 261 9477 9509 "m_save.ml" 261 9477 9517
+type(
+  string -> M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"m_save.ml" 261 9477 9518 "m_save.ml" 261 9477 9545
+type(
+  string
+)
+"m_save.ml" 261 9477 9509 "m_save.ml" 261 9477 9545
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 257 9247 9279 "m_save.ml" 261 9477 9545
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 234 8008 8036 "m_save.ml" 261 9477 9545
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 232 7917 7946 "m_save.ml" 261 9477 9545
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 210 6695 6719 "m_save.ml" 261 9477 9545
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 204 6425 6459 "m_save.ml" 262 9546 9569
+type(
+  Util.Coll.Hs.elt -> M_t.mule Util.Coll.Sm.t -> M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 262 9546 9570 "m_save.ml" 262 9546 9573
+type(
+  Util.Coll.Hs.t
+)
+ident(
+  int_ref eds "m_save.ml" 193 5926 5947 "m_save.ml" 193 5926 5950
+)
+"m_save.ml" 262 9546 9574 "m_save.ml" 262 9546 9577
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref mcx "m_save.ml" 196 6089 6109 "m_save.ml" 196 6089 6112
+)
+"m_save.ml" 204 6425 6451 "m_save.ml" 262 9546 9577
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 263 9581 9597 "m_save.ml" 263 9581 9601
+type(
+  M_t.mule Util.Coll.Sm.t -> M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref spin "m_save.ml" 188 5767 5783 "m_save.ml" 188 5767 5787
+)
+"m_save.ml" 263 9581 9602 "m_save.ml" 263 9581 9605
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref mcx "m_save.ml" 204 6425 6445 "m_save.ml" 204 6425 6448
+)
+"m_save.ml" 263 9581 9597 "m_save.ml" 263 9581 9605
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 204 6425 6441 "m_save.ml" 263 9581 9605
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 196 6089 6105 "m_save.ml" 263 9581 9605
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 195 6031 6047 "m_save.ml" 263 9581 9605
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 193 5926 5942 "m_save.ml" 263 9581 9605
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 192 5896 5912 "m_save.ml" 263 9581 9605
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 189 5794 5806 "m_save.ml" 263 9581 9605
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 264 9609 9629 "m_save.ml" 264 9609 9632
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  def res "m_save.ml" 285 10332 10348 "m_save.ml" 297 10903 10922
+)
+"m_save.ml" 264 9609 9635 "m_save.ml" 264 9609 9639
+type(
+  M_t.mule Util.Coll.Sm.t -> M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref spin "m_save.ml" 188 5767 5783 "m_save.ml" 188 5767 5787
+)
+"m_save.ml" 264 9609 9640 "m_save.ml" 264 9609 9643
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref mcx "m_save.ml" 177 5311 5349 "m_save.ml" 177 5311 5352
+)
+"m_save.ml" 264 9609 9635 "m_save.ml" 264 9609 9643
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 285 10332 10351 "m_save.ml" 285 10332 10354
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"m_save.ml" 285 10332 10356 "m_save.ml" 285 10332 10365
+type(
+  Util.Coll.Hs.t -> Util.Coll.Hs.t -> bool
+)
+ident(
+  int_ref Util.Coll.Hs.subset "set.mli" 120 4429 4433 "set.mli" 120 4429 4459
+)
+"m_save.ml" 285 10332 10366 "m_save.ml" 285 10332 10367
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_save.ml" 285 10332 10367 "m_save.ml" 285 10332 10376
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref requested "m_save.ml" 180 5394 5406 "m_save.ml" 180 5394 5415
+)
+"m_save.ml" 285 10332 10366 "m_save.ml" 285 10332 10376
+type(
+  Util.Coll.Hs.t
+)
+"m_save.ml" 285 10332 10377 "m_save.ml" 285 10332 10378
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_save.ml" 285 10332 10378 "m_save.ml" 285 10332 10383
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref found "m_save.ml" 185 5626 5638 "m_save.ml" 185 5626 5643
+)
+"m_save.ml" 285 10332 10377 "m_save.ml" 285 10332 10383
+type(
+  Util.Coll.Hs.t
+)
+"m_save.ml" 285 10332 10355 "m_save.ml" 285 10332 10384
+type(
+  bool
+)
+"m_save.ml" 285 10332 10351 "m_save.ml" 285 10332 10384
+type(
+  bool
+)
+"m_save.ml" 286 10396 10420 "m_save.ml" 286 10396 10429
+type(
+  Util.Coll.Hs.t
+)
+ident(
+  def not_found "m_save.ml" 287 10461 10481 "m_save.ml" 295 10825 10881
+)
+"m_save.ml" 286 10396 10432 "m_save.ml" 286 10396 10439
+type(
+  Util.Coll.Hs.t -> Util.Coll.Hs.t -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Util.Coll.Hs.diff "set.mli" 108 4019 4023 "set.mli" 108 4019 4044
+)
+"m_save.ml" 286 10396 10440 "m_save.ml" 286 10396 10441
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_save.ml" 286 10396 10441 "m_save.ml" 286 10396 10450
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref requested "m_save.ml" 180 5394 5406 "m_save.ml" 180 5394 5415
+)
+"m_save.ml" 286 10396 10440 "m_save.ml" 286 10396 10450
+type(
+  Util.Coll.Hs.t
+)
+"m_save.ml" 286 10396 10451 "m_save.ml" 286 10396 10452
+type(
+  Util.Coll.Hs.t ref -> Util.Coll.Hs.t
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_save.ml" 286 10396 10452 "m_save.ml" 286 10396 10457
+type(
+  Util.Coll.Hs.t ref
+)
+ident(
+  int_ref found "m_save.ml" 185 5626 5638 "m_save.ml" 185 5626 5643
+)
+"m_save.ml" 286 10396 10451 "m_save.ml" 286 10396 10457
+type(
+  Util.Coll.Hs.t
+)
+"m_save.ml" 286 10396 10432 "m_save.ml" 286 10396 10457
+type(
+  Util.Coll.Hs.t
+)
+"m_save.ml" 287 10461 10481 "m_save.ml" 287 10461 10488
+type(
+  (Util.Coll.Hs.elt -> unit) -> Util.Coll.Hs.t -> unit
+)
+ident(
+  int_ref Util.Coll.Hs.iter "set.mli" 124 4550 4554 "set.mli" 124 4550 4590
+)
+"m_save.ml" 287 10461 10494 "m_save.ml" 287 10461 10496
+type(
+  Util.Coll.Hs.elt
+)
+ident(
+  def mn "m_save.ml" 288 10500 10524 "m_save.ml" 293 10723 10787
+)
+"m_save.ml" 288 10500 10524 "m_save.ml" 288 10500 10536
+type(
+  ?debug:string ->
+  ?at:Util.Coll.Hs.elt ->
+  ?prefix:string ->
+  ?nonl:unit ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Util.eprintf "util.mli" 46 1132 1132 "util.mli" 48 1217 1267
+)
+"m_save.ml" 288 10500 10541 "m_save.ml" 288 10500 10543
+type(
+  Util.Coll.Hs.elt
+)
+ident(
+  int_ref mn "m_save.ml" 287 10461 10494 "m_save.ml" 287 10461 10496
+)
+type(
+  Util.Coll.Hs.elt option
+)
+"m_save.ml" 289 10544 10572 "m_save.ml" 289 10544 10591
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"m_save.ml" 289 10544 10592 "m_save.ml" 289 10544 10594
+type(
+  Util.Coll.Hs.elt
+)
+ident(
+  int_ref mn "m_save.ml" 287 10461 10494 "m_save.ml" 287 10461 10496
+)
+"m_save.ml" 289 10544 10592 "m_save.ml" 289 10544 10599
+type(
+  string
+)
+"m_save.ml" 288 10500 10524 "m_save.ml" 289 10544 10599
+type(
+  unit
+)
+"m_save.ml" 290 10601 10629 "m_save.ml" 290 10601 10639
+type(
+  Util.Coll.Hs.elt -> string -> unit
+)
+ident(
+  int_ref Errors.set "errors.mli" 53 1273 1273 "errors.mli" 53 1273 1319
+)
+"m_save.ml" 291 10640 10672 "m_save.ml" 291 10640 10674
+type(
+  Util.Coll.Hs.elt
+)
+ident(
+  int_ref mn "m_save.ml" 287 10461 10494 "m_save.ml" 287 10461 10496
+)
+"m_save.ml" 292 10675 10708 "m_save.ml" 292 10675 10722
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"m_save.ml" 293 10723 10759 "m_save.ml" 293 10723 10778
+type(
+  (string -> string, unit, string) format
+)
+"m_save.ml" 293 10723 10779 "m_save.ml" 293 10723 10781
+type(
+  Util.Coll.Hs.elt
+)
+ident(
+  int_ref mn "m_save.ml" 287 10461 10494 "m_save.ml" 287 10461 10496
+)
+"m_save.ml" 293 10723 10779 "m_save.ml" 293 10723 10786
+type(
+  string
+)
+"m_save.ml" 292 10675 10707 "m_save.ml" 293 10723 10787
+type(
+  string
+)
+"m_save.ml" 290 10601 10629 "m_save.ml" 293 10723 10787
+type(
+  unit
+)
+"m_save.ml" 288 10500 10524 "m_save.ml" 293 10723 10787
+type(
+  unit
+)
+"m_save.ml" 287 10461 10489 "m_save.ml" 294 10788 10813
+type(
+  Util.Coll.Hs.elt -> unit
+)
+"m_save.ml" 294 10788 10814 "m_save.ml" 294 10788 10823
+type(
+  Util.Coll.Hs.t
+)
+ident(
+  int_ref not_found "m_save.ml" 286 10396 10420 "m_save.ml" 286 10396 10429
+)
+"m_save.ml" 287 10461 10481 "m_save.ml" 294 10788 10823
+type(
+  unit
+)
+"m_save.ml" 295 10825 10845 "m_save.ml" 295 10825 10853
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"m_save.ml" 295 10825 10854 "m_save.ml" 295 10825 10881
+type(
+  string
+)
+"m_save.ml" 295 10825 10845 "m_save.ml" 295 10825 10881
+type(
+  unit
+)
+"m_save.ml" 287 10461 10481 "m_save.ml" 295 10825 10881
+type(
+  unit
+)
+"m_save.ml" 285 10332 10390 "m_save.ml" 296 10882 10901
+type(
+  unit
+)
+"m_save.ml" 285 10332 10348 "m_save.ml" 296 10882 10901
+type(
+  unit
+)
+"m_save.ml" 297 10903 10919 "m_save.ml" 297 10903 10922
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref res "m_save.ml" 264 9609 9629 "m_save.ml" 264 9609 9632
+)
+"m_save.ml" 285 10332 10348 "m_save.ml" 297 10903 10922
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 264 9609 9625 "m_save.ml" 297 10903 10922
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 188 5767 5775 "m_save.ml" 297 10903 10922
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 187 5700 5708 "m_save.ml" 297 10903 10922
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 186 5662 5670 "m_save.ml" 297 10903 10922
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 185 5626 5634 "m_save.ml" 297 10903 10922
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 180 5394 5402 "m_save.ml" 297 10903 10922
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 179 5374 5378 "m_save.ml" 298 10923 10930
+type(
+  unit -> M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 298 10923 10931 "m_save.ml" 298 10923 10933
+type(
+  unit
+)
+"m_save.ml" 178 5355 5359 "m_save.ml" 298 10923 10933
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_save.ml" 301 10936 10940 "m_save.ml" 301 10936 10952
+type(
+  ?clock:Timing.clock -> M_t.mule_ Property.wrapped -> unit
+)
+ident(
+  def store_module "m_save.ml" 316 11585 11596 "m_save.ml" 0 0 -1
+)
+"m_save.ml" 301 10936 10954 "m_save.ml" 301 10936 10959
+type(
+  Timing.clock option
+)
+ident(
+  def clock "m_save.ml" 301 10936 10960 "m_save.ml" 316 11585 11596
+)
+"m_save.ml" 301 10936 10960 "m_save.ml" 301 10936 10964
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  def mule "m_save.ml" 302 10967 10971 "m_save.ml" 316 11585 11596
+)
+"m_save.ml" 302 10967 10974 "m_save.ml" 302 10967 10975
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_save.ml" 302 10967 10975 "m_save.ml" 302 10967 10986
+type(
+  bool ref
+)
+ident(
+  int_ref Params.xtla "params.mli" 73 1493 1493 "params.mli" 73 1493 1511
+)
+"m_save.ml" 302 10967 10974 "m_save.ml" 302 10967 10986
+type(
+  bool
+)
+"m_save.ml" 303 10992 11000 "m_save.ml" 303 10992 11008
+type(
+  Timing.clock option -> (unit -> unit) -> unit -> unit
+)
+ident(
+  int_ref clocking "m_save.ml" 20 307 311 "m_save.ml" 20 307 319
+)
+"m_save.ml" 303 10992 11009 "m_save.ml" 303 10992 11014
+type(
+  Timing.clock option
+)
+ident(
+  int_ref clock "m_save.ml" 301 10936 10954 "m_save.ml" 301 10936 10959
+)
+"m_save.ml" 303 10992 11025 "m_save.ml" 303 10992 11027
+type(
+  unit
+)
+"m_save.ml" 304 11031 11047 "m_save.ml" 304 11031 11049
+type(
+  string
+)
+ident(
+  def fn "m_save.ml" 305 11086 11098 "m_save.ml" 314 11518 11565
+)
+"m_save.ml" 304 11031 11053 "m_save.ml" 304 11031 11067
+type(
+  M_t.mule_ Property.wrapped -> Loc.locus
+)
+ident(
+  int_ref Util.get_locus "util.mli" 17 279 279 "util.mli" 17 279 320
+)
+"m_save.ml" 304 11031 11068 "m_save.ml" 304 11031 11072
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  int_ref mule "m_save.ml" 301 10936 10960 "m_save.ml" 301 10936 10964
+)
+"m_save.ml" 304 11031 11052 "m_save.ml" 304 11031 11073
+type(
+  Loc.locus
+)
+"m_save.ml" 304 11031 11052 "m_save.ml" 304 11031 11082
+type(
+  string
+)
+"m_save.ml" 305 11086 11102 "m_save.ml" 305 11086 11105
+type(
+  string
+)
+ident(
+  def fnx "m_save.ml" 306 11148 11160 "m_save.ml" 314 11518 11565
+)
+"m_save.ml" 305 11086 11108 "m_save.ml" 305 11086 11131
+type(
+  string -> string
+)
+ident(
+  int_ref Stdlib.Filename.chop_extension "filename.mli" 100 3902 3902 "filename.mli" 100 3902 3939
+)
+"m_save.ml" 305 11086 11132 "m_save.ml" 305 11086 11134
+type(
+  string
+)
+ident(
+  int_ref fn "m_save.ml" 304 11031 11047 "m_save.ml" 304 11031 11049
+)
+"m_save.ml" 305 11086 11108 "m_save.ml" 305 11086 11134
+type(
+  string
+)
+"m_save.ml" 305 11086 11135 "m_save.ml" 305 11086 11136
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"m_save.ml" 305 11086 11137 "m_save.ml" 305 11086 11144
+type(
+  string
+)
+"m_save.ml" 305 11086 11108 "m_save.ml" 305 11086 11144
+type(
+  string
+)
+"m_save.ml" 306 11148 11164 "m_save.ml" 306 11148 11166
+type(
+  out_channel
+)
+ident(
+  def fx "m_save.ml" 307 11189 11201 "m_save.ml" 314 11518 11565
+)
+"m_save.ml" 306 11148 11169 "m_save.ml" 306 11148 11181
+type(
+  string -> out_channel
+)
+ident(
+  int_ref Stdlib.open_out_bin "stdlib.mli" 957 34722 34722 "stdlib.mli" 957 34722 34762
+)
+"m_save.ml" 306 11148 11182 "m_save.ml" 306 11148 11185
+type(
+  string
+)
+ident(
+  int_ref fnx "m_save.ml" 305 11086 11102 "m_save.ml" 305 11086 11105
+)
+"m_save.ml" 306 11148 11169 "m_save.ml" 306 11148 11185
+type(
+  out_channel
+)
+"m_save.ml" 307 11189 11201 "m_save.ml" 307 11189 11219
+type(
+  out_channel -> (unit -> string) -> Marshal.extern_flags list -> unit
+)
+ident(
+  int_ref Stdlib.Marshal.to_channel "marshal.mli" 61 3483 3483 "marshal.mli" 61 3483 3546
+)
+"m_save.ml" 307 11189 11220 "m_save.ml" 307 11189 11222
+type(
+  out_channel
+)
+ident(
+  int_ref fx "m_save.ml" 306 11148 11164 "m_save.ml" 306 11148 11166
+)
+"m_save.ml" 307 11189 11223 "m_save.ml" 307 11189 11240
+type(
+  unit -> string
+)
+ident(
+  int_ref Params.rawversion "params.mli" 56 1085 1085 "params.mli" 56 1085 1115
+)
+"m_save.ml" 307 11189 11241 "m_save.ml" 307 11189 11243
+type(
+  Marshal.extern_flags list
+)
+"m_save.ml" 307 11189 11201 "m_save.ml" 307 11189 11243
+type(
+  unit
+)
+"m_save.ml" 308 11245 11257 "m_save.ml" 308 11245 11270
+type(
+  out_channel -> Digest.t -> unit
+)
+ident(
+  int_ref Stdlib.Digest.output "digest.mli" 69 3027 3027 "digest.mli" 69 3027 3064
+)
+"m_save.ml" 308 11245 11271 "m_save.ml" 308 11245 11273
+type(
+  out_channel
+)
+ident(
+  int_ref fx "m_save.ml" 306 11148 11164 "m_save.ml" 306 11148 11166
+)
+"m_save.ml" 308 11245 11274 "m_save.ml" 308 11245 11289
+type(
+  Digest.t
+)
+ident(
+  int_ref Params.self_sum "params.mli" 71 1447 1447 "params.mli" 71 1447 1469
+)
+"m_save.ml" 308 11245 11257 "m_save.ml" 308 11245 11289
+type(
+  unit
+)
+"m_save.ml" 309 11291 11303 "m_save.ml" 309 11291 11316
+type(
+  out_channel -> Digest.t -> unit
+)
+ident(
+  int_ref Stdlib.Digest.output "digest.mli" 69 3027 3027 "digest.mli" 69 3027 3064
+)
+"m_save.ml" 309 11291 11317 "m_save.ml" 309 11291 11319
+type(
+  out_channel
+)
+ident(
+  int_ref fx "m_save.ml" 306 11148 11164 "m_save.ml" 306 11148 11166
+)
+"m_save.ml" 309 11291 11321 "m_save.ml" 309 11291 11332
+type(
+  string -> Digest.t
+)
+ident(
+  int_ref Stdlib.Digest.file "digest.mli" 66 2945 2945 "digest.mli" 66 2945 2967
+)
+"m_save.ml" 309 11291 11333 "m_save.ml" 309 11291 11335
+type(
+  string
+)
+ident(
+  int_ref fn "m_save.ml" 304 11031 11047 "m_save.ml" 304 11031 11049
+)
+"m_save.ml" 309 11291 11320 "m_save.ml" 309 11291 11336
+type(
+  Digest.t
+)
+"m_save.ml" 309 11291 11303 "m_save.ml" 309 11291 11336
+type(
+  unit
+)
+"m_save.ml" 310 11338 11350 "m_save.ml" 310 11338 11368
+type(
+  out_channel ->
+  M_t.mule_ Property.wrapped -> Marshal.extern_flags list -> unit
+)
+ident(
+  int_ref Stdlib.Marshal.to_channel "marshal.mli" 61 3483 3483 "marshal.mli" 61 3483 3546
+)
+"m_save.ml" 310 11338 11369 "m_save.ml" 310 11338 11371
+type(
+  out_channel
+)
+ident(
+  int_ref fx "m_save.ml" 306 11148 11164 "m_save.ml" 306 11148 11166
+)
+"m_save.ml" 310 11338 11372 "m_save.ml" 310 11338 11376
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  int_ref mule "m_save.ml" 301 10936 10960 "m_save.ml" 301 10936 10964
+)
+"m_save.ml" 310 11338 11377 "m_save.ml" 310 11338 11379
+type(
+  Marshal.extern_flags list
+)
+"m_save.ml" 310 11338 11350 "m_save.ml" 310 11338 11379
+type(
+  unit
+)
+"m_save.ml" 311 11381 11393 "m_save.ml" 311 11381 11402
+type(
+  out_channel -> unit
+)
+ident(
+  int_ref Stdlib.close_out "stdlib.mli" 1044 38643 38643 "stdlib.mli" 1044 38643 38678
+)
+"m_save.ml" 311 11381 11403 "m_save.ml" 311 11381 11405
+type(
+  out_channel
+)
+ident(
+  int_ref fx "m_save.ml" 306 11148 11164 "m_save.ml" 306 11148 11166
+)
+"m_save.ml" 311 11381 11393 "m_save.ml" 311 11381 11405
+type(
+  unit
+)
+"m_save.ml" 312 11407 11426 "m_save.ml" 312 11407 11427
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"m_save.ml" 312 11407 11427 "m_save.ml" 312 11407 11441
+type(
+  bool ref
+)
+ident(
+  int_ref Params.verbose "params.mli" 13 193 193 "params.mli" 13 193 215
+)
+"m_save.ml" 312 11407 11426 "m_save.ml" 312 11407 11441
+type(
+  bool
+)
+"m_save.ml" 313 11447 11467 "m_save.ml" 313 11447 11478
+type(
+  ?debug:string ->
+  ?at:'_weak4 Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:unit ->
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref Util.printf "util.mli" 43 996 996 "util.mli" 45 1081 1131
+)
+"m_save.ml" 313 11447 11479 "m_save.ml" 313 11447 11517
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"m_save.ml" 314 11518 11542 "m_save.ml" 314 11518 11546
+type(
+  M_t.mule_ Property.wrapped
+)
+ident(
+  int_ref mule "m_save.ml" 301 10936 10960 "m_save.ml" 301 10936 10964
+)
+"m_save.ml" 314 11518 11542 "m_save.ml" 314 11518 11551
+type(
+  M_t.mule_
+)
+"m_save.ml" 314 11518 11542 "m_save.ml" 314 11518 11556
+type(
+  Util.hint
+)
+"m_save.ml" 314 11518 11542 "m_save.ml" 314 11518 11561
+type(
+  string
+)
+"m_save.ml" 314 11518 11562 "m_save.ml" 314 11518 11565
+type(
+  string
+)
+ident(
+  int_ref fnx "m_save.ml" 305 11086 11102 "m_save.ml" 305 11086 11105
+)
+"m_save.ml" 313 11447 11467 "m_save.ml" 314 11518 11565
+type(
+  unit
+)
+"m_save.ml" 312 11407 11423 "m_save.ml" 314 11518 11565
+type(
+  unit
+)
+"m_save.ml" 311 11381 11393 "m_save.ml" 314 11518 11565
+type(
+  unit
+)
+"m_save.ml" 310 11338 11350 "m_save.ml" 314 11518 11565
+type(
+  unit
+)
+"m_save.ml" 309 11291 11303 "m_save.ml" 314 11518 11565
+type(
+  unit
+)
+"m_save.ml" 308 11245 11257 "m_save.ml" 314 11518 11565
+type(
+  unit
+)
+"m_save.ml" 307 11189 11201 "m_save.ml" 314 11518 11565
+type(
+  unit
+)
+"m_save.ml" 306 11148 11160 "m_save.ml" 314 11518 11565
+type(
+  unit
+)
+"m_save.ml" 305 11086 11098 "m_save.ml" 314 11518 11565
+type(
+  unit
+)
+"m_save.ml" 304 11031 11043 "m_save.ml" 314 11518 11565
+type(
+  unit
+)
+"m_save.ml" 303 10992 11015 "m_save.ml" 315 11566 11581
+type(
+  unit -> unit
+)
+"m_save.ml" 315 11566 11582 "m_save.ml" 315 11566 11584
+type(
+  unit
+)
+"m_save.ml" 303 10992 11000 "m_save.ml" 315 11566 11584
+type(
+  unit
+)
+"m_save.ml" 316 11585 11594 "m_save.ml" 316 11585 11596
+type(
+  unit
+)
+"m_save.ml" 302 10967 10971 "m_save.ml" 316 11585 11596
+type(
+  unit
+)

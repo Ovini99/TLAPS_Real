@@ -1,0 +1,2615 @@
+"e_temporal_props.ml" 10 149 156 "e_temporal_props.ml" 10 149 157
+ident(
+  def B "e_temporal_props.ml" 10 149 167 "e_temporal_props.ml" 0 0 -1
+)
+"e_temporal_props.ml" 13 170 174 "e_temporal_props.ml" 13 170 181
+type(
+  (bool ref * bool) E_visit.iter
+)
+ident(
+  def visitor "e_temporal_props.ml" 75 2895 2895 "e_temporal_props.ml" 0 0 -1
+)
+"e_temporal_props.ml" 13 170 192 "e_temporal_props.ml" 13 170 196
+type(
+  (bool ref * bool) E_visit.iter
+)
+type(
+  (bool ref * bool) E_visit.iter
+)
+"e_temporal_props.ml" 16 249 265 "e_temporal_props.ml" 16 249 272
+type(
+  bool ref
+)
+ident(
+  def closure "e_temporal_props.ml" 16 249 294 "e_temporal_props.ml" 72 2865 2889
+)
+"e_temporal_props.ml" 16 249 274 "e_temporal_props.ml" 16 249 280
+type(
+  bool
+)
+ident(
+  def is_box "e_temporal_props.ml" 16 249 294 "e_temporal_props.ml" 72 2865 2889
+)
+"e_temporal_props.ml" 16 249 264 "e_temporal_props.ml" 16 249 281
+type(
+  bool ref * bool
+)
+"e_temporal_props.ml" 16 249 283 "e_temporal_props.ml" 16 249 285
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def cx "e_temporal_props.ml" 16 249 294 "e_temporal_props.ml" 72 2865 2889
+)
+"e_temporal_props.ml" 16 249 264 "e_temporal_props.ml" 16 249 285
+type(
+  (bool ref * bool) * E_t.hyp Deque.dq
+)
+"e_temporal_props.ml" 16 249 263 "e_temporal_props.ml" 16 249 293
+type(
+  (bool ref * bool) * E_t.hyp Deque.dq
+)
+ident(
+  def scx "e_temporal_props.ml" 16 249 294 "e_temporal_props.ml" 72 2865 2889
+)
+"e_temporal_props.ml" 16 249 294 "e_temporal_props.ml" 16 249 296
+type(
+  E_t.expr
+)
+ident(
+  def oe "e_temporal_props.ml" 17 299 303 "e_temporal_props.ml" 72 2865 2889
+)
+"e_temporal_props.ml" 17 299 307 "e_temporal_props.ml" 17 299 308
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"e_temporal_props.ml" 17 299 308 "e_temporal_props.ml" 17 299 315
+type(
+  bool ref
+)
+ident(
+  int_ref closure "e_temporal_props.ml" 16 249 265 "e_temporal_props.ml" 16 249 272
+)
+"e_temporal_props.ml" 17 299 307 "e_temporal_props.ml" 17 299 315
+type(
+  bool
+)
+"e_temporal_props.ml" 17 299 316 "e_temporal_props.ml" 17 299 317
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"e_temporal_props.ml" 17 299 318 "e_temporal_props.ml" 17 299 323
+type(
+  bool
+)
+"e_temporal_props.ml" 17 299 306 "e_temporal_props.ml" 17 299 324
+type(
+  bool
+)
+"e_temporal_props.ml" 17 299 330 "e_temporal_props.ml" 17 299 332
+type(
+  unit
+)
+"e_temporal_props.ml" 18 333 348 "e_temporal_props.ml" 18 333 350
+type(
+  E_t.expr
+)
+ident(
+  int_ref oe "e_temporal_props.ml" 16 249 294 "e_temporal_props.ml" 16 249 296
+)
+"e_temporal_props.ml" 18 333 348 "e_temporal_props.ml" 18 333 355
+type(
+  E_t.expr_
+)
+"e_temporal_props.ml" 21 454 460 "e_temporal_props.ml" 21 454 461
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_temporal_props.ml" 21 454 468 "e_temporal_props.ml" 21 454 488
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref E_constness.is_const "e_constness.mli" 10 157 157 "e_constness.mli" 10 157 199
+)
+"e_temporal_props.ml" 21 454 489 "e_temporal_props.ml" 21 454 491
+type(
+  E_t.expr
+)
+ident(
+  int_ref oe "e_temporal_props.ml" 16 249 294 "e_temporal_props.ml" 16 249 296
+)
+"e_temporal_props.ml" 21 454 467 "e_temporal_props.ml" 21 454 492
+type(
+  bool
+)
+"e_temporal_props.ml" 21 454 496 "e_temporal_props.ml" 21 454 498
+type(
+  unit
+)
+"e_temporal_props.ml" 23 593 608 "e_temporal_props.ml" 23 593 612
+type(
+  Builtin.builtin
+)
+"e_temporal_props.ml" 23 593 615 "e_temporal_props.ml" 23 593 620
+type(
+  Builtin.builtin
+)
+"e_temporal_props.ml" 23 593 608 "e_temporal_props.ml" 23 593 620
+type(
+  Builtin.builtin
+)
+"e_temporal_props.ml" 23 593 623 "e_temporal_props.ml" 23 593 634
+type(
+  Builtin.builtin
+)
+"e_temporal_props.ml" 23 593 607 "e_temporal_props.ml" 23 593 635
+type(
+  Builtin.builtin
+)
+"e_temporal_props.ml" 23 593 599 "e_temporal_props.ml" 23 593 635
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_temporal_props.ml" 23 593 639 "e_temporal_props.ml" 23 593 641
+type(
+  unit
+)
+"e_temporal_props.ml" 25 715 731 "e_temporal_props.ml" 25 715 737
+type(
+  Builtin.builtin
+)
+"e_temporal_props.ml" 25 715 740 "e_temporal_props.ml" 25 715 747
+type(
+  Builtin.builtin
+)
+"e_temporal_props.ml" 25 715 730 "e_temporal_props.ml" 25 715 748
+type(
+  Builtin.builtin
+)
+"e_temporal_props.ml" 25 715 721 "e_temporal_props.ml" 25 715 748
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_temporal_props.ml" 25 715 752 "e_temporal_props.ml" 25 715 754
+type(
+  unit
+)
+"e_temporal_props.ml" 27 788 825 "e_temporal_props.ml" 27 788 826
+type(
+  bool
+)
+"e_temporal_props.ml" 27 788 818 "e_temporal_props.ml" 27 788 827
+type(
+  Builtin.builtin
+)
+"e_temporal_props.ml" 27 788 809 "e_temporal_props.ml" 27 788 827
+type(
+  E_t.expr_
+)
+"e_temporal_props.ml" 27 788 801 "e_temporal_props.ml" 27 788 828
+type(
+  E_t.expr
+)
+"e_temporal_props.ml" 27 788 830 "e_temporal_props.ml" 27 788 831
+type(
+  E_t.expr list
+)
+"e_temporal_props.ml" 27 788 794 "e_temporal_props.ml" 27 788 832
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_temporal_props.ml" 27 788 838 "e_temporal_props.ml" 27 788 844
+type(
+  bool
+)
+ident(
+  int_ref is_box "e_temporal_props.ml" 16 249 274 "e_temporal_props.ml" 16 249 280
+)
+"e_temporal_props.ml" 27 788 848 "e_temporal_props.ml" 27 788 850
+type(
+  unit
+)
+"e_temporal_props.ml" 28 851 881 "e_temporal_props.ml" 28 851 890
+type(
+  Builtin.builtin
+)
+"e_temporal_props.ml" 28 851 872 "e_temporal_props.ml" 28 851 890
+type(
+  E_t.expr_
+)
+"e_temporal_props.ml" 28 851 864 "e_temporal_props.ml" 28 851 891
+type(
+  E_t.expr
+)
+"e_temporal_props.ml" 28 851 893 "e_temporal_props.ml" 28 851 894
+type(
+  E_t.expr list
+)
+"e_temporal_props.ml" 28 851 857 "e_temporal_props.ml" 28 851 895
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_temporal_props.ml" 28 851 902 "e_temporal_props.ml" 28 851 905
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"e_temporal_props.ml" 28 851 906 "e_temporal_props.ml" 28 851 912
+type(
+  bool
+)
+ident(
+  int_ref is_box "e_temporal_props.ml" 16 249 274 "e_temporal_props.ml" 16 249 280
+)
+"e_temporal_props.ml" 28 851 901 "e_temporal_props.ml" 28 851 913
+type(
+  bool
+)
+"e_temporal_props.ml" 28 851 917 "e_temporal_props.ml" 28 851 919
+type(
+  unit
+)
+"e_temporal_props.ml" 30 946 984 "e_temporal_props.ml" 30 946 985
+type(
+  bool
+)
+"e_temporal_props.ml" 30 946 977 "e_temporal_props.ml" 30 946 986
+type(
+  Builtin.builtin
+)
+"e_temporal_props.ml" 30 946 989 "e_temporal_props.ml" 30 946 998
+type(
+  Builtin.builtin
+)
+"e_temporal_props.ml" 30 946 977 "e_temporal_props.ml" 30 946 998
+type(
+  Builtin.builtin
+)
+"e_temporal_props.ml" 30 946 1001 "e_temporal_props.ml" 30 946 1008
+type(
+  Builtin.builtin
+)
+"e_temporal_props.ml" 30 946 976 "e_temporal_props.ml" 30 946 1009
+type(
+  Builtin.builtin
+)
+"e_temporal_props.ml" 30 946 967 "e_temporal_props.ml" 30 946 1009
+type(
+  E_t.expr_
+)
+"e_temporal_props.ml" 30 946 959 "e_temporal_props.ml" 30 946 1010
+type(
+  E_t.expr
+)
+"e_temporal_props.ml" 30 946 1013 "e_temporal_props.ml" 30 946 1014
+type(
+  E_t.expr
+)
+ident(
+  def e "e_temporal_props.ml" 30 946 1020 "e_temporal_props.ml" 30 946 1035
+)
+"e_temporal_props.ml" 30 946 1012 "e_temporal_props.ml" 30 946 1015
+type(
+  E_t.expr list
+)
+"e_temporal_props.ml" 30 946 952 "e_temporal_props.ml" 30 946 1016
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_temporal_props.ml" 30 946 1020 "e_temporal_props.ml" 30 946 1024
+type(
+  (bool ref * bool) E_visit.iter
+)
+ident(
+  ext_ref self-1
+)
+"e_temporal_props.ml" 30 946 1020 "e_temporal_props.ml" 30 946 1029
+type(
+  (bool ref * bool) E_visit.scx -> E_t.expr -> unit
+)
+"e_temporal_props.ml" 30 946 1030 "e_temporal_props.ml" 30 946 1033
+type(
+  (bool ref * bool) E_visit.scx
+)
+ident(
+  int_ref scx "e_temporal_props.ml" 16 249 263 "e_temporal_props.ml" 16 249 293
+)
+"e_temporal_props.ml" 30 946 1034 "e_temporal_props.ml" 30 946 1035
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_temporal_props.ml" 30 946 1013 "e_temporal_props.ml" 30 946 1014
+)
+"e_temporal_props.ml" 30 946 1020 "e_temporal_props.ml" 30 946 1035
+type(
+  unit
+)
+"e_temporal_props.ml" 31 1036 1066 "e_temporal_props.ml" 31 1036 1071
+type(
+  Builtin.builtin
+)
+"e_temporal_props.ml" 31 1036 1057 "e_temporal_props.ml" 31 1036 1071
+type(
+  E_t.expr_
+)
+"e_temporal_props.ml" 31 1036 1049 "e_temporal_props.ml" 31 1036 1072
+type(
+  E_t.expr
+)
+"e_temporal_props.ml" 31 1036 1075 "e_temporal_props.ml" 31 1036 1076
+type(
+  E_t.expr
+)
+ident(
+  def e "e_temporal_props.ml" 31 1036 1082 "e_temporal_props.ml" 32 1116 1125
+)
+"e_temporal_props.ml" 31 1036 1074 "e_temporal_props.ml" 31 1036 1077
+type(
+  E_t.expr list
+)
+"e_temporal_props.ml" 31 1036 1042 "e_temporal_props.ml" 31 1036 1078
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_temporal_props.ml" 31 1036 1082 "e_temporal_props.ml" 31 1036 1086
+type(
+  (bool ref * bool) E_visit.iter
+)
+ident(
+  ext_ref self-1
+)
+"e_temporal_props.ml" 31 1036 1082 "e_temporal_props.ml" 31 1036 1091
+type(
+  (bool ref * bool) E_visit.scx -> E_t.expr -> unit
+)
+"e_temporal_props.ml" 31 1036 1094 "e_temporal_props.ml" 31 1036 1101
+type(
+  bool ref
+)
+ident(
+  int_ref closure "e_temporal_props.ml" 16 249 265 "e_temporal_props.ml" 16 249 272
+)
+"e_temporal_props.ml" 31 1036 1103 "e_temporal_props.ml" 31 1036 1106
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"e_temporal_props.ml" 31 1036 1107 "e_temporal_props.ml" 31 1036 1113
+type(
+  bool
+)
+ident(
+  int_ref is_box "e_temporal_props.ml" 16 249 274 "e_temporal_props.ml" 16 249 280
+)
+"e_temporal_props.ml" 31 1036 1103 "e_temporal_props.ml" 31 1036 1113
+type(
+  bool
+)
+"e_temporal_props.ml" 31 1036 1093 "e_temporal_props.ml" 31 1036 1114
+type(
+  bool ref * bool
+)
+"e_temporal_props.ml" 32 1116 1120 "e_temporal_props.ml" 32 1116 1122
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_temporal_props.ml" 16 249 283 "e_temporal_props.ml" 16 249 285
+)
+"e_temporal_props.ml" 31 1036 1092 "e_temporal_props.ml" 32 1116 1123
+type(
+  (bool ref * bool) E_visit.scx
+)
+"e_temporal_props.ml" 32 1116 1124 "e_temporal_props.ml" 32 1116 1125
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_temporal_props.ml" 31 1036 1075 "e_temporal_props.ml" 31 1036 1076
+)
+"e_temporal_props.ml" 31 1036 1082 "e_temporal_props.ml" 32 1116 1125
+type(
+  unit
+)
+"e_temporal_props.ml" 34 1153 1185 "e_temporal_props.ml" 34 1153 1191
+type(
+  Builtin.builtin
+)
+"e_temporal_props.ml" 34 1153 1194 "e_temporal_props.ml" 34 1153 1200
+type(
+  Builtin.builtin
+)
+"e_temporal_props.ml" 34 1153 1185 "e_temporal_props.ml" 34 1153 1200
+type(
+  Builtin.builtin
+)
+"e_temporal_props.ml" 34 1153 1203 "e_temporal_props.ml" 34 1153 1212
+type(
+  Builtin.builtin
+)
+"e_temporal_props.ml" 34 1153 1184 "e_temporal_props.ml" 34 1153 1213
+type(
+  Builtin.builtin
+)
+"e_temporal_props.ml" 34 1153 1183 "e_temporal_props.ml" 34 1153 1220
+type(
+  Builtin.builtin
+)
+ident(
+  def tp "e_temporal_props.ml" 35 1235 1243 "e_temporal_props.ml" 42 1593 1634
+)
+"e_temporal_props.ml" 34 1153 1174 "e_temporal_props.ml" 34 1153 1220
+type(
+  E_t.expr_
+)
+"e_temporal_props.ml" 34 1153 1166 "e_temporal_props.ml" 34 1153 1221
+type(
+  E_t.expr
+)
+"e_temporal_props.ml" 34 1153 1224 "e_temporal_props.ml" 34 1153 1226
+type(
+  E_t.expr
+)
+ident(
+  def e1 "e_temporal_props.ml" 35 1235 1243 "e_temporal_props.ml" 42 1593 1634
+)
+"e_temporal_props.ml" 34 1153 1227 "e_temporal_props.ml" 34 1153 1229
+type(
+  E_t.expr
+)
+ident(
+  def e2 "e_temporal_props.ml" 35 1235 1243 "e_temporal_props.ml" 42 1593 1634
+)
+"e_temporal_props.ml" 34 1153 1223 "e_temporal_props.ml" 34 1153 1230
+type(
+  E_t.expr list
+)
+"e_temporal_props.ml" 34 1153 1159 "e_temporal_props.ml" 34 1153 1231
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_temporal_props.ml" 35 1235 1247 "e_temporal_props.ml" 35 1235 1255
+type(
+  bool ref
+)
+ident(
+  def closure1 "e_temporal_props.ml" 36 1274 1282 "e_temporal_props.ml" 42 1593 1634
+)
+"e_temporal_props.ml" 35 1235 1258 "e_temporal_props.ml" 35 1235 1261
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"e_temporal_props.ml" 35 1235 1262 "e_temporal_props.ml" 35 1235 1263
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"e_temporal_props.ml" 35 1235 1263 "e_temporal_props.ml" 35 1235 1270
+type(
+  bool ref
+)
+ident(
+  int_ref closure "e_temporal_props.ml" 16 249 265 "e_temporal_props.ml" 16 249 272
+)
+"e_temporal_props.ml" 35 1235 1262 "e_temporal_props.ml" 35 1235 1270
+type(
+  bool
+)
+"e_temporal_props.ml" 35 1235 1258 "e_temporal_props.ml" 35 1235 1270
+type(
+  bool ref
+)
+"e_temporal_props.ml" 36 1274 1286 "e_temporal_props.ml" 36 1274 1294
+type(
+  bool ref
+)
+ident(
+  def closure2 "e_temporal_props.ml" 37 1313 1321 "e_temporal_props.ml" 42 1593 1634
+)
+"e_temporal_props.ml" 36 1274 1297 "e_temporal_props.ml" 36 1274 1300
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"e_temporal_props.ml" 36 1274 1301 "e_temporal_props.ml" 36 1274 1302
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"e_temporal_props.ml" 36 1274 1302 "e_temporal_props.ml" 36 1274 1309
+type(
+  bool ref
+)
+ident(
+  int_ref closure "e_temporal_props.ml" 16 249 265 "e_temporal_props.ml" 16 249 272
+)
+"e_temporal_props.ml" 36 1274 1301 "e_temporal_props.ml" 36 1274 1309
+type(
+  bool
+)
+"e_temporal_props.ml" 36 1274 1297 "e_temporal_props.ml" 36 1274 1309
+type(
+  bool ref
+)
+"e_temporal_props.ml" 37 1313 1325 "e_temporal_props.ml" 37 1313 1327
+type(
+  unit
+)
+type(
+  unit
+)
+"e_temporal_props.ml" 37 1313 1336 "e_temporal_props.ml" 37 1313 1338
+type(
+  B.builtin
+)
+ident(
+  int_ref tp "e_temporal_props.ml" 34 1153 1183 "e_temporal_props.ml" 34 1153 1220
+)
+"e_temporal_props.ml" 38 1344 1354 "e_temporal_props.ml" 38 1344 1360
+type(
+  B.builtin
+)
+type(
+  B.builtin
+)
+"e_temporal_props.ml" 38 1344 1363 "e_temporal_props.ml" 38 1344 1369
+type(
+  B.builtin
+)
+type(
+  B.builtin
+)
+"e_temporal_props.ml" 38 1344 1354 "e_temporal_props.ml" 38 1344 1369
+type(
+  B.builtin
+)
+"e_temporal_props.ml" 38 1344 1373 "e_temporal_props.ml" 38 1344 1377
+type(
+  (bool ref * bool) E_visit.iter
+)
+ident(
+  ext_ref self-1
+)
+"e_temporal_props.ml" 38 1344 1373 "e_temporal_props.ml" 38 1344 1382
+type(
+  (bool ref * bool) E_visit.scx -> E_t.expr -> unit
+)
+"e_temporal_props.ml" 38 1344 1385 "e_temporal_props.ml" 38 1344 1393
+type(
+  bool ref
+)
+ident(
+  int_ref closure1 "e_temporal_props.ml" 35 1235 1247 "e_temporal_props.ml" 35 1235 1255
+)
+"e_temporal_props.ml" 38 1344 1395 "e_temporal_props.ml" 38 1344 1401
+type(
+  bool
+)
+ident(
+  int_ref is_box "e_temporal_props.ml" 16 249 274 "e_temporal_props.ml" 16 249 280
+)
+"e_temporal_props.ml" 38 1344 1384 "e_temporal_props.ml" 38 1344 1402
+type(
+  bool ref * bool
+)
+"e_temporal_props.ml" 38 1344 1404 "e_temporal_props.ml" 38 1344 1406
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_temporal_props.ml" 16 249 283 "e_temporal_props.ml" 16 249 285
+)
+"e_temporal_props.ml" 38 1344 1383 "e_temporal_props.ml" 38 1344 1407
+type(
+  (bool ref * bool) E_visit.scx
+)
+"e_temporal_props.ml" 38 1344 1408 "e_temporal_props.ml" 38 1344 1410
+type(
+  E_t.expr
+)
+ident(
+  int_ref e1 "e_temporal_props.ml" 34 1153 1224 "e_temporal_props.ml" 34 1153 1226
+)
+"e_temporal_props.ml" 38 1344 1373 "e_temporal_props.ml" 38 1344 1410
+type(
+  unit
+)
+"e_temporal_props.ml" 38 1344 1412 "e_temporal_props.ml" 38 1344 1416
+type(
+  (bool ref * bool) E_visit.iter
+)
+ident(
+  ext_ref self-1
+)
+"e_temporal_props.ml" 38 1344 1412 "e_temporal_props.ml" 38 1344 1421
+type(
+  (bool ref * bool) E_visit.scx -> E_t.expr -> unit
+)
+"e_temporal_props.ml" 38 1344 1424 "e_temporal_props.ml" 38 1344 1432
+type(
+  bool ref
+)
+ident(
+  int_ref closure2 "e_temporal_props.ml" 36 1274 1286 "e_temporal_props.ml" 36 1274 1294
+)
+"e_temporal_props.ml" 38 1344 1434 "e_temporal_props.ml" 38 1344 1440
+type(
+  bool
+)
+ident(
+  int_ref is_box "e_temporal_props.ml" 16 249 274 "e_temporal_props.ml" 16 249 280
+)
+"e_temporal_props.ml" 38 1344 1423 "e_temporal_props.ml" 38 1344 1441
+type(
+  bool ref * bool
+)
+"e_temporal_props.ml" 38 1344 1443 "e_temporal_props.ml" 38 1344 1445
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_temporal_props.ml" 16 249 283 "e_temporal_props.ml" 16 249 285
+)
+"e_temporal_props.ml" 38 1344 1422 "e_temporal_props.ml" 38 1344 1446
+type(
+  (bool ref * bool) E_visit.scx
+)
+"e_temporal_props.ml" 38 1344 1447 "e_temporal_props.ml" 38 1344 1449
+type(
+  E_t.expr
+)
+ident(
+  int_ref e2 "e_temporal_props.ml" 34 1153 1227 "e_temporal_props.ml" 34 1153 1229
+)
+"e_temporal_props.ml" 38 1344 1412 "e_temporal_props.ml" 38 1344 1449
+type(
+  unit
+)
+"e_temporal_props.ml" 38 1344 1373 "e_temporal_props.ml" 38 1344 1449
+type(
+  unit
+)
+"e_temporal_props.ml" 39 1450 1460 "e_temporal_props.ml" 39 1450 1469
+type(
+  B.builtin
+)
+type(
+  B.builtin
+)
+"e_temporal_props.ml" 39 1450 1473 "e_temporal_props.ml" 39 1450 1477
+type(
+  (bool ref * bool) E_visit.iter
+)
+ident(
+  ext_ref self-1
+)
+"e_temporal_props.ml" 39 1450 1473 "e_temporal_props.ml" 39 1450 1482
+type(
+  (bool ref * bool) E_visit.scx -> E_t.expr -> unit
+)
+"e_temporal_props.ml" 39 1450 1485 "e_temporal_props.ml" 39 1450 1493
+type(
+  bool ref
+)
+ident(
+  int_ref closure1 "e_temporal_props.ml" 35 1235 1247 "e_temporal_props.ml" 35 1235 1255
+)
+"e_temporal_props.ml" 39 1450 1495 "e_temporal_props.ml" 39 1450 1498
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"e_temporal_props.ml" 39 1450 1499 "e_temporal_props.ml" 39 1450 1505
+type(
+  bool
+)
+ident(
+  int_ref is_box "e_temporal_props.ml" 16 249 274 "e_temporal_props.ml" 16 249 280
+)
+"e_temporal_props.ml" 39 1450 1495 "e_temporal_props.ml" 39 1450 1505
+type(
+  bool
+)
+"e_temporal_props.ml" 39 1450 1484 "e_temporal_props.ml" 39 1450 1506
+type(
+  bool ref * bool
+)
+"e_temporal_props.ml" 39 1450 1508 "e_temporal_props.ml" 39 1450 1510
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_temporal_props.ml" 16 249 283 "e_temporal_props.ml" 16 249 285
+)
+"e_temporal_props.ml" 39 1450 1483 "e_temporal_props.ml" 39 1450 1511
+type(
+  (bool ref * bool) E_visit.scx
+)
+"e_temporal_props.ml" 39 1450 1512 "e_temporal_props.ml" 39 1450 1514
+type(
+  E_t.expr
+)
+ident(
+  int_ref e1 "e_temporal_props.ml" 34 1153 1224 "e_temporal_props.ml" 34 1153 1226
+)
+"e_temporal_props.ml" 39 1450 1473 "e_temporal_props.ml" 39 1450 1514
+type(
+  unit
+)
+"e_temporal_props.ml" 39 1450 1516 "e_temporal_props.ml" 39 1450 1520
+type(
+  (bool ref * bool) E_visit.iter
+)
+ident(
+  ext_ref self-1
+)
+"e_temporal_props.ml" 39 1450 1516 "e_temporal_props.ml" 39 1450 1525
+type(
+  (bool ref * bool) E_visit.scx -> E_t.expr -> unit
+)
+"e_temporal_props.ml" 39 1450 1528 "e_temporal_props.ml" 39 1450 1536
+type(
+  bool ref
+)
+ident(
+  int_ref closure2 "e_temporal_props.ml" 36 1274 1286 "e_temporal_props.ml" 36 1274 1294
+)
+"e_temporal_props.ml" 39 1450 1538 "e_temporal_props.ml" 39 1450 1544
+type(
+  bool
+)
+ident(
+  int_ref is_box "e_temporal_props.ml" 16 249 274 "e_temporal_props.ml" 16 249 280
+)
+"e_temporal_props.ml" 39 1450 1527 "e_temporal_props.ml" 39 1450 1545
+type(
+  bool ref * bool
+)
+"e_temporal_props.ml" 39 1450 1547 "e_temporal_props.ml" 39 1450 1549
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_temporal_props.ml" 16 249 283 "e_temporal_props.ml" 16 249 285
+)
+"e_temporal_props.ml" 39 1450 1526 "e_temporal_props.ml" 39 1450 1550
+type(
+  (bool ref * bool) E_visit.scx
+)
+"e_temporal_props.ml" 39 1450 1551 "e_temporal_props.ml" 39 1450 1553
+type(
+  E_t.expr
+)
+ident(
+  int_ref e2 "e_temporal_props.ml" 34 1153 1227 "e_temporal_props.ml" 34 1153 1229
+)
+"e_temporal_props.ml" 39 1450 1516 "e_temporal_props.ml" 39 1450 1553
+type(
+  unit
+)
+"e_temporal_props.ml" 39 1450 1473 "e_temporal_props.ml" 39 1450 1553
+type(
+  unit
+)
+"e_temporal_props.ml" 40 1554 1564 "e_temporal_props.ml" 40 1554 1565
+type(
+  B.builtin
+)
+type(
+  B.builtin
+)
+"e_temporal_props.ml" 40 1554 1576 "e_temporal_props.ml" 40 1554 1581
+type(
+  bool
+)
+"e_temporal_props.ml" 40 1554 1569 "e_temporal_props.ml" 40 1554 1581
+type(
+  unit
+)
+"e_temporal_props.ml" 37 1313 1330 "e_temporal_props.ml" 40 1554 1581
+type(
+  unit
+)
+"e_temporal_props.ml" 42 1593 1601 "e_temporal_props.ml" 42 1593 1608
+type(
+  bool ref
+)
+ident(
+  int_ref closure "e_temporal_props.ml" 16 249 265 "e_temporal_props.ml" 16 249 272
+)
+"e_temporal_props.ml" 42 1593 1609 "e_temporal_props.ml" 42 1593 1611
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"e_temporal_props.ml" 42 1593 1612 "e_temporal_props.ml" 42 1593 1613
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"e_temporal_props.ml" 42 1593 1613 "e_temporal_props.ml" 42 1593 1621
+type(
+  bool ref
+)
+ident(
+  int_ref closure1 "e_temporal_props.ml" 35 1235 1247 "e_temporal_props.ml" 35 1235 1255
+)
+"e_temporal_props.ml" 42 1593 1612 "e_temporal_props.ml" 42 1593 1621
+type(
+  bool
+)
+"e_temporal_props.ml" 42 1593 1622 "e_temporal_props.ml" 42 1593 1624
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_temporal_props.ml" 42 1593 1625 "e_temporal_props.ml" 42 1593 1626
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"e_temporal_props.ml" 42 1593 1626 "e_temporal_props.ml" 42 1593 1634
+type(
+  bool ref
+)
+ident(
+  int_ref closure2 "e_temporal_props.ml" 36 1274 1286 "e_temporal_props.ml" 36 1274 1294
+)
+"e_temporal_props.ml" 42 1593 1625 "e_temporal_props.ml" 42 1593 1634
+type(
+  bool
+)
+"e_temporal_props.ml" 42 1593 1612 "e_temporal_props.ml" 42 1593 1634
+type(
+  bool
+)
+"e_temporal_props.ml" 42 1593 1601 "e_temporal_props.ml" 42 1593 1634
+type(
+  unit
+)
+"e_temporal_props.ml" 37 1313 1321 "e_temporal_props.ml" 42 1593 1634
+type(
+  unit
+)
+"e_temporal_props.ml" 36 1274 1282 "e_temporal_props.ml" 42 1593 1634
+type(
+  unit
+)
+"e_temporal_props.ml" 35 1235 1243 "e_temporal_props.ml" 42 1593 1634
+type(
+  unit
+)
+"e_temporal_props.ml" 43 1635 1665 "e_temporal_props.ml" 43 1635 1672
+type(
+  Builtin.builtin
+)
+"e_temporal_props.ml" 43 1635 1656 "e_temporal_props.ml" 43 1635 1672
+type(
+  E_t.expr_
+)
+"e_temporal_props.ml" 43 1635 1648 "e_temporal_props.ml" 43 1635 1673
+type(
+  E_t.expr
+)
+"e_temporal_props.ml" 43 1635 1676 "e_temporal_props.ml" 43 1635 1678
+type(
+  E_t.expr
+)
+ident(
+  def e1 "e_temporal_props.ml" 44 1687 1695 "e_temporal_props.ml" 52 2050 2117
+)
+"e_temporal_props.ml" 43 1635 1679 "e_temporal_props.ml" 43 1635 1681
+type(
+  E_t.expr
+)
+ident(
+  def e2 "e_temporal_props.ml" 44 1687 1695 "e_temporal_props.ml" 52 2050 2117
+)
+"e_temporal_props.ml" 43 1635 1675 "e_temporal_props.ml" 43 1635 1682
+type(
+  E_t.expr list
+)
+"e_temporal_props.ml" 43 1635 1641 "e_temporal_props.ml" 43 1635 1683
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_temporal_props.ml" 44 1687 1699 "e_temporal_props.ml" 44 1687 1707
+type(
+  bool ref
+)
+ident(
+  def closure1 "e_temporal_props.ml" 45 1726 1734 "e_temporal_props.ml" 52 2050 2117
+)
+"e_temporal_props.ml" 44 1687 1710 "e_temporal_props.ml" 44 1687 1713
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"e_temporal_props.ml" 44 1687 1714 "e_temporal_props.ml" 44 1687 1715
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"e_temporal_props.ml" 44 1687 1715 "e_temporal_props.ml" 44 1687 1722
+type(
+  bool ref
+)
+ident(
+  int_ref closure "e_temporal_props.ml" 16 249 265 "e_temporal_props.ml" 16 249 272
+)
+"e_temporal_props.ml" 44 1687 1714 "e_temporal_props.ml" 44 1687 1722
+type(
+  bool
+)
+"e_temporal_props.ml" 44 1687 1710 "e_temporal_props.ml" 44 1687 1722
+type(
+  bool ref
+)
+"e_temporal_props.ml" 45 1726 1738 "e_temporal_props.ml" 45 1726 1746
+type(
+  bool ref
+)
+ident(
+  def closure2 "e_temporal_props.ml" 46 1765 1773 "e_temporal_props.ml" 52 2050 2117
+)
+"e_temporal_props.ml" 45 1726 1749 "e_temporal_props.ml" 45 1726 1752
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"e_temporal_props.ml" 45 1726 1753 "e_temporal_props.ml" 45 1726 1754
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"e_temporal_props.ml" 45 1726 1754 "e_temporal_props.ml" 45 1726 1761
+type(
+  bool ref
+)
+ident(
+  int_ref closure "e_temporal_props.ml" 16 249 265 "e_temporal_props.ml" 16 249 272
+)
+"e_temporal_props.ml" 45 1726 1753 "e_temporal_props.ml" 45 1726 1761
+type(
+  bool
+)
+"e_temporal_props.ml" 45 1726 1749 "e_temporal_props.ml" 45 1726 1761
+type(
+  bool ref
+)
+"e_temporal_props.ml" 46 1765 1777 "e_temporal_props.ml" 46 1765 1785
+type(
+  bool ref
+)
+ident(
+  def closure3 "e_temporal_props.ml" 47 1804 1812 "e_temporal_props.ml" 52 2050 2117
+)
+"e_temporal_props.ml" 46 1765 1788 "e_temporal_props.ml" 46 1765 1791
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"e_temporal_props.ml" 46 1765 1792 "e_temporal_props.ml" 46 1765 1793
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"e_temporal_props.ml" 46 1765 1793 "e_temporal_props.ml" 46 1765 1800
+type(
+  bool ref
+)
+ident(
+  int_ref closure "e_temporal_props.ml" 16 249 265 "e_temporal_props.ml" 16 249 272
+)
+"e_temporal_props.ml" 46 1765 1792 "e_temporal_props.ml" 46 1765 1800
+type(
+  bool
+)
+"e_temporal_props.ml" 46 1765 1788 "e_temporal_props.ml" 46 1765 1800
+type(
+  bool ref
+)
+"e_temporal_props.ml" 47 1804 1816 "e_temporal_props.ml" 47 1804 1824
+type(
+  bool ref
+)
+ident(
+  def closure4 "e_temporal_props.ml" 48 1843 1851 "e_temporal_props.ml" 52 2050 2117
+)
+"e_temporal_props.ml" 47 1804 1827 "e_temporal_props.ml" 47 1804 1830
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"e_temporal_props.ml" 47 1804 1831 "e_temporal_props.ml" 47 1804 1832
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"e_temporal_props.ml" 47 1804 1832 "e_temporal_props.ml" 47 1804 1839
+type(
+  bool ref
+)
+ident(
+  int_ref closure "e_temporal_props.ml" 16 249 265 "e_temporal_props.ml" 16 249 272
+)
+"e_temporal_props.ml" 47 1804 1831 "e_temporal_props.ml" 47 1804 1839
+type(
+  bool
+)
+"e_temporal_props.ml" 47 1804 1827 "e_temporal_props.ml" 47 1804 1839
+type(
+  bool ref
+)
+"e_temporal_props.ml" 48 1843 1855 "e_temporal_props.ml" 48 1843 1857
+type(
+  unit
+)
+type(
+  unit
+)
+"e_temporal_props.ml" 48 1843 1860 "e_temporal_props.ml" 48 1843 1864
+type(
+  (bool ref * bool) E_visit.iter
+)
+ident(
+  ext_ref self-1
+)
+"e_temporal_props.ml" 48 1843 1860 "e_temporal_props.ml" 48 1843 1869
+type(
+  (bool ref * bool) E_visit.scx -> E_t.expr -> unit
+)
+"e_temporal_props.ml" 48 1843 1872 "e_temporal_props.ml" 48 1843 1880
+type(
+  bool ref
+)
+ident(
+  int_ref closure1 "e_temporal_props.ml" 44 1687 1699 "e_temporal_props.ml" 44 1687 1707
+)
+"e_temporal_props.ml" 48 1843 1882 "e_temporal_props.ml" 48 1843 1885
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"e_temporal_props.ml" 48 1843 1886 "e_temporal_props.ml" 48 1843 1892
+type(
+  bool
+)
+ident(
+  int_ref is_box "e_temporal_props.ml" 16 249 274 "e_temporal_props.ml" 16 249 280
+)
+"e_temporal_props.ml" 48 1843 1882 "e_temporal_props.ml" 48 1843 1892
+type(
+  bool
+)
+"e_temporal_props.ml" 48 1843 1871 "e_temporal_props.ml" 48 1843 1893
+type(
+  bool ref * bool
+)
+"e_temporal_props.ml" 48 1843 1895 "e_temporal_props.ml" 48 1843 1897
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_temporal_props.ml" 16 249 283 "e_temporal_props.ml" 16 249 285
+)
+"e_temporal_props.ml" 48 1843 1870 "e_temporal_props.ml" 48 1843 1898
+type(
+  (bool ref * bool) E_visit.scx
+)
+"e_temporal_props.ml" 48 1843 1899 "e_temporal_props.ml" 48 1843 1901
+type(
+  E_t.expr
+)
+ident(
+  int_ref e1 "e_temporal_props.ml" 43 1635 1676 "e_temporal_props.ml" 43 1635 1678
+)
+"e_temporal_props.ml" 48 1843 1860 "e_temporal_props.ml" 48 1843 1901
+type(
+  unit
+)
+"e_temporal_props.ml" 48 1843 1903 "e_temporal_props.ml" 48 1843 1907
+type(
+  (bool ref * bool) E_visit.iter
+)
+ident(
+  ext_ref self-1
+)
+"e_temporal_props.ml" 48 1843 1903 "e_temporal_props.ml" 48 1843 1912
+type(
+  (bool ref * bool) E_visit.scx -> E_t.expr -> unit
+)
+"e_temporal_props.ml" 48 1843 1915 "e_temporal_props.ml" 48 1843 1923
+type(
+  bool ref
+)
+ident(
+  int_ref closure2 "e_temporal_props.ml" 45 1726 1738 "e_temporal_props.ml" 45 1726 1746
+)
+"e_temporal_props.ml" 49 1925 1933 "e_temporal_props.ml" 49 1925 1939
+type(
+  bool
+)
+ident(
+  int_ref is_box "e_temporal_props.ml" 16 249 274 "e_temporal_props.ml" 16 249 280
+)
+"e_temporal_props.ml" 48 1843 1914 "e_temporal_props.ml" 49 1925 1940
+type(
+  bool ref * bool
+)
+"e_temporal_props.ml" 49 1925 1942 "e_temporal_props.ml" 49 1925 1944
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_temporal_props.ml" 16 249 283 "e_temporal_props.ml" 16 249 285
+)
+"e_temporal_props.ml" 48 1843 1913 "e_temporal_props.ml" 49 1925 1945
+type(
+  (bool ref * bool) E_visit.scx
+)
+"e_temporal_props.ml" 49 1925 1946 "e_temporal_props.ml" 49 1925 1948
+type(
+  E_t.expr
+)
+ident(
+  int_ref e2 "e_temporal_props.ml" 43 1635 1679 "e_temporal_props.ml" 43 1635 1681
+)
+"e_temporal_props.ml" 48 1843 1903 "e_temporal_props.ml" 49 1925 1948
+type(
+  unit
+)
+"e_temporal_props.ml" 49 1925 1950 "e_temporal_props.ml" 49 1925 1954
+type(
+  (bool ref * bool) E_visit.iter
+)
+ident(
+  ext_ref self-1
+)
+"e_temporal_props.ml" 49 1925 1950 "e_temporal_props.ml" 49 1925 1959
+type(
+  (bool ref * bool) E_visit.scx -> E_t.expr -> unit
+)
+"e_temporal_props.ml" 49 1925 1962 "e_temporal_props.ml" 49 1925 1970
+type(
+  bool ref
+)
+ident(
+  int_ref closure3 "e_temporal_props.ml" 46 1765 1777 "e_temporal_props.ml" 46 1765 1785
+)
+"e_temporal_props.ml" 49 1925 1972 "e_temporal_props.ml" 49 1925 1978
+type(
+  bool
+)
+ident(
+  int_ref is_box "e_temporal_props.ml" 16 249 274 "e_temporal_props.ml" 16 249 280
+)
+"e_temporal_props.ml" 49 1925 1961 "e_temporal_props.ml" 49 1925 1979
+type(
+  bool ref * bool
+)
+"e_temporal_props.ml" 49 1925 1981 "e_temporal_props.ml" 49 1925 1983
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_temporal_props.ml" 16 249 283 "e_temporal_props.ml" 16 249 285
+)
+"e_temporal_props.ml" 49 1925 1960 "e_temporal_props.ml" 49 1925 1984
+type(
+  (bool ref * bool) E_visit.scx
+)
+"e_temporal_props.ml" 49 1925 1985 "e_temporal_props.ml" 49 1925 1987
+type(
+  E_t.expr
+)
+ident(
+  int_ref e1 "e_temporal_props.ml" 43 1635 1676 "e_temporal_props.ml" 43 1635 1678
+)
+"e_temporal_props.ml" 49 1925 1950 "e_temporal_props.ml" 49 1925 1987
+type(
+  unit
+)
+"e_temporal_props.ml" 49 1925 1989 "e_temporal_props.ml" 49 1925 1993
+type(
+  (bool ref * bool) E_visit.iter
+)
+ident(
+  ext_ref self-1
+)
+"e_temporal_props.ml" 49 1925 1989 "e_temporal_props.ml" 49 1925 1998
+type(
+  (bool ref * bool) E_visit.scx -> E_t.expr -> unit
+)
+"e_temporal_props.ml" 50 1999 2009 "e_temporal_props.ml" 50 1999 2017
+type(
+  bool ref
+)
+ident(
+  int_ref closure4 "e_temporal_props.ml" 47 1804 1816 "e_temporal_props.ml" 47 1804 1824
+)
+"e_temporal_props.ml" 50 1999 2019 "e_temporal_props.ml" 50 1999 2022
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"e_temporal_props.ml" 50 1999 2023 "e_temporal_props.ml" 50 1999 2029
+type(
+  bool
+)
+ident(
+  int_ref is_box "e_temporal_props.ml" 16 249 274 "e_temporal_props.ml" 16 249 280
+)
+"e_temporal_props.ml" 50 1999 2019 "e_temporal_props.ml" 50 1999 2029
+type(
+  bool
+)
+"e_temporal_props.ml" 50 1999 2008 "e_temporal_props.ml" 50 1999 2030
+type(
+  bool ref * bool
+)
+"e_temporal_props.ml" 50 1999 2032 "e_temporal_props.ml" 50 1999 2034
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_temporal_props.ml" 16 249 283 "e_temporal_props.ml" 16 249 285
+)
+"e_temporal_props.ml" 50 1999 2007 "e_temporal_props.ml" 50 1999 2035
+type(
+  (bool ref * bool) E_visit.scx
+)
+"e_temporal_props.ml" 50 1999 2036 "e_temporal_props.ml" 50 1999 2038
+type(
+  E_t.expr
+)
+ident(
+  int_ref e2 "e_temporal_props.ml" 43 1635 1679 "e_temporal_props.ml" 43 1635 1681
+)
+"e_temporal_props.ml" 49 1925 1989 "e_temporal_props.ml" 50 1999 2038
+type(
+  unit
+)
+"e_temporal_props.ml" 49 1925 1950 "e_temporal_props.ml" 50 1999 2038
+type(
+  unit
+)
+"e_temporal_props.ml" 48 1843 1903 "e_temporal_props.ml" 50 1999 2038
+type(
+  unit
+)
+"e_temporal_props.ml" 48 1843 1860 "e_temporal_props.ml" 50 1999 2038
+type(
+  unit
+)
+"e_temporal_props.ml" 52 2050 2058 "e_temporal_props.ml" 52 2050 2065
+type(
+  bool ref
+)
+ident(
+  int_ref closure "e_temporal_props.ml" 16 249 265 "e_temporal_props.ml" 16 249 272
+)
+"e_temporal_props.ml" 52 2050 2066 "e_temporal_props.ml" 52 2050 2068
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"e_temporal_props.ml" 52 2050 2069 "e_temporal_props.ml" 52 2050 2070
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"e_temporal_props.ml" 52 2050 2070 "e_temporal_props.ml" 52 2050 2078
+type(
+  bool ref
+)
+ident(
+  int_ref closure1 "e_temporal_props.ml" 44 1687 1699 "e_temporal_props.ml" 44 1687 1707
+)
+"e_temporal_props.ml" 52 2050 2069 "e_temporal_props.ml" 52 2050 2078
+type(
+  bool
+)
+"e_temporal_props.ml" 52 2050 2079 "e_temporal_props.ml" 52 2050 2081
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_temporal_props.ml" 52 2050 2082 "e_temporal_props.ml" 52 2050 2083
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"e_temporal_props.ml" 52 2050 2083 "e_temporal_props.ml" 52 2050 2091
+type(
+  bool ref
+)
+ident(
+  int_ref closure2 "e_temporal_props.ml" 45 1726 1738 "e_temporal_props.ml" 45 1726 1746
+)
+"e_temporal_props.ml" 52 2050 2082 "e_temporal_props.ml" 52 2050 2091
+type(
+  bool
+)
+"e_temporal_props.ml" 52 2050 2092 "e_temporal_props.ml" 52 2050 2094
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_temporal_props.ml" 52 2050 2095 "e_temporal_props.ml" 52 2050 2096
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"e_temporal_props.ml" 52 2050 2096 "e_temporal_props.ml" 52 2050 2104
+type(
+  bool ref
+)
+ident(
+  int_ref closure3 "e_temporal_props.ml" 46 1765 1777 "e_temporal_props.ml" 46 1765 1785
+)
+"e_temporal_props.ml" 52 2050 2095 "e_temporal_props.ml" 52 2050 2104
+type(
+  bool
+)
+"e_temporal_props.ml" 52 2050 2105 "e_temporal_props.ml" 52 2050 2107
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_temporal_props.ml" 52 2050 2108 "e_temporal_props.ml" 52 2050 2109
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"e_temporal_props.ml" 52 2050 2109 "e_temporal_props.ml" 52 2050 2117
+type(
+  bool ref
+)
+ident(
+  int_ref closure4 "e_temporal_props.ml" 47 1804 1816 "e_temporal_props.ml" 47 1804 1824
+)
+"e_temporal_props.ml" 52 2050 2108 "e_temporal_props.ml" 52 2050 2117
+type(
+  bool
+)
+"e_temporal_props.ml" 52 2050 2095 "e_temporal_props.ml" 52 2050 2117
+type(
+  bool
+)
+"e_temporal_props.ml" 52 2050 2082 "e_temporal_props.ml" 52 2050 2117
+type(
+  bool
+)
+"e_temporal_props.ml" 52 2050 2069 "e_temporal_props.ml" 52 2050 2117
+type(
+  bool
+)
+"e_temporal_props.ml" 52 2050 2058 "e_temporal_props.ml" 52 2050 2117
+type(
+  unit
+)
+"e_temporal_props.ml" 48 1843 1851 "e_temporal_props.ml" 52 2050 2117
+type(
+  unit
+)
+"e_temporal_props.ml" 47 1804 1812 "e_temporal_props.ml" 52 2050 2117
+type(
+  unit
+)
+"e_temporal_props.ml" 46 1765 1773 "e_temporal_props.ml" 52 2050 2117
+type(
+  unit
+)
+"e_temporal_props.ml" 45 1726 1734 "e_temporal_props.ml" 52 2050 2117
+type(
+  unit
+)
+"e_temporal_props.ml" 44 1687 1695 "e_temporal_props.ml" 52 2050 2117
+type(
+  unit
+)
+"e_temporal_props.ml" 54 2134 2146 "e_temporal_props.ml" 54 2134 2147
+type(
+  E_t.bullet
+)
+"e_temporal_props.ml" 54 2134 2149 "e_temporal_props.ml" 54 2134 2151
+type(
+  E_t.expr list
+)
+ident(
+  def ls "e_temporal_props.ml" 55 2156 2164 "e_temporal_props.ml" 58 2268 2306
+)
+"e_temporal_props.ml" 54 2134 2140 "e_temporal_props.ml" 54 2134 2152
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_temporal_props.ml" 55 2156 2168 "e_temporal_props.ml" 55 2156 2171
+type(
+  bool ref
+)
+ident(
+  def cls "e_temporal_props.ml" 56 2190 2198 "e_temporal_props.ml" 58 2268 2306
+)
+"e_temporal_props.ml" 55 2156 2174 "e_temporal_props.ml" 55 2156 2177
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"e_temporal_props.ml" 55 2156 2178 "e_temporal_props.ml" 55 2156 2179
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"e_temporal_props.ml" 55 2156 2179 "e_temporal_props.ml" 55 2156 2186
+type(
+  bool ref
+)
+ident(
+  int_ref closure "e_temporal_props.ml" 16 249 265 "e_temporal_props.ml" 16 249 272
+)
+"e_temporal_props.ml" 55 2156 2178 "e_temporal_props.ml" 55 2156 2186
+type(
+  bool
+)
+"e_temporal_props.ml" 55 2156 2174 "e_temporal_props.ml" 55 2156 2186
+type(
+  bool ref
+)
+"e_temporal_props.ml" 56 2190 2202 "e_temporal_props.ml" 56 2190 2203
+type(
+  E_t.expr -> bool
+)
+ident(
+  def f "e_temporal_props.ml" 58 2268 2276 "e_temporal_props.ml" 58 2268 2306
+)
+"e_temporal_props.ml" 56 2190 2204 "e_temporal_props.ml" 56 2190 2205
+type(
+  E_t.expr
+)
+ident(
+  def e "e_temporal_props.ml" 56 2190 2208 "e_temporal_props.ml" 57 2252 2264
+)
+"e_temporal_props.ml" 56 2190 2212 "e_temporal_props.ml" 56 2190 2214
+type(
+  unit
+)
+type(
+  unit
+)
+"e_temporal_props.ml" 56 2190 2217 "e_temporal_props.ml" 56 2190 2221
+type(
+  (bool ref * bool) E_visit.iter
+)
+ident(
+  ext_ref self-1
+)
+"e_temporal_props.ml" 56 2190 2217 "e_temporal_props.ml" 56 2190 2226
+type(
+  (bool ref * bool) E_visit.scx -> E_t.expr -> unit
+)
+"e_temporal_props.ml" 56 2190 2229 "e_temporal_props.ml" 56 2190 2232
+type(
+  bool ref
+)
+ident(
+  int_ref cls "e_temporal_props.ml" 55 2156 2168 "e_temporal_props.ml" 55 2156 2171
+)
+"e_temporal_props.ml" 56 2190 2234 "e_temporal_props.ml" 56 2190 2240
+type(
+  bool
+)
+ident(
+  int_ref is_box "e_temporal_props.ml" 16 249 274 "e_temporal_props.ml" 16 249 280
+)
+"e_temporal_props.ml" 56 2190 2228 "e_temporal_props.ml" 56 2190 2241
+type(
+  bool ref * bool
+)
+"e_temporal_props.ml" 56 2190 2243 "e_temporal_props.ml" 56 2190 2245
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_temporal_props.ml" 16 249 283 "e_temporal_props.ml" 16 249 285
+)
+"e_temporal_props.ml" 56 2190 2227 "e_temporal_props.ml" 56 2190 2246
+type(
+  (bool ref * bool) E_visit.scx
+)
+"e_temporal_props.ml" 56 2190 2247 "e_temporal_props.ml" 56 2190 2248
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_temporal_props.ml" 56 2190 2204 "e_temporal_props.ml" 56 2190 2205
+)
+"e_temporal_props.ml" 56 2190 2217 "e_temporal_props.ml" 56 2190 2248
+type(
+  unit
+)
+"e_temporal_props.ml" 57 2252 2260 "e_temporal_props.ml" 57 2252 2261
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"e_temporal_props.ml" 57 2252 2261 "e_temporal_props.ml" 57 2252 2264
+type(
+  bool ref
+)
+ident(
+  int_ref cls "e_temporal_props.ml" 55 2156 2168 "e_temporal_props.ml" 55 2156 2171
+)
+"e_temporal_props.ml" 57 2252 2260 "e_temporal_props.ml" 57 2252 2264
+type(
+  bool
+)
+"e_temporal_props.ml" 56 2190 2208 "e_temporal_props.ml" 57 2252 2264
+type(
+  bool
+)
+"e_temporal_props.ml" 58 2268 2276 "e_temporal_props.ml" 58 2268 2283
+type(
+  bool ref
+)
+ident(
+  int_ref closure "e_temporal_props.ml" 16 249 265 "e_temporal_props.ml" 16 249 272
+)
+"e_temporal_props.ml" 58 2268 2284 "e_temporal_props.ml" 58 2268 2286
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"e_temporal_props.ml" 58 2268 2288 "e_temporal_props.ml" 58 2268 2300
+type(
+  (E_t.expr -> bool) -> E_t.expr list -> bool
+)
+ident(
+  int_ref Ext.List.for_all "ext.mli" 26 1026 1028 "ext.mli" 26 1026 1073
+)
+"e_temporal_props.ml" 58 2268 2301 "e_temporal_props.ml" 58 2268 2302
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref f "e_temporal_props.ml" 56 2190 2202 "e_temporal_props.ml" 56 2190 2203
+)
+"e_temporal_props.ml" 58 2268 2303 "e_temporal_props.ml" 58 2268 2305
+type(
+  E_t.expr list
+)
+ident(
+  int_ref ls "e_temporal_props.ml" 54 2134 2149 "e_temporal_props.ml" 54 2134 2151
+)
+"e_temporal_props.ml" 58 2268 2287 "e_temporal_props.ml" 58 2268 2306
+type(
+  bool
+)
+"e_temporal_props.ml" 58 2268 2276 "e_temporal_props.ml" 58 2268 2306
+type(
+  unit
+)
+"e_temporal_props.ml" 56 2190 2198 "e_temporal_props.ml" 58 2268 2306
+type(
+  unit
+)
+"e_temporal_props.ml" 55 2156 2164 "e_temporal_props.ml" 58 2268 2306
+type(
+  unit
+)
+"e_temporal_props.ml" 60 2371 2383 "e_temporal_props.ml" 60 2371 2384
+type(
+  E_t.expr list
+)
+type(
+  E_t.expr
+)
+"e_temporal_props.ml" 60 2371 2377 "e_temporal_props.ml" 60 2371 2384
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_temporal_props.ml" 61 2388 2396 "e_temporal_props.ml" 61 2388 2401
+type(
+  (bool ref * bool) E_visit.iter
+)
+ident(
+  ext_ref self-1
+)
+type(
+  (bool ref * bool) E_visit.iter
+)
+ident(
+  int_ref super "e_temporal_props.ml" 14 206 216 "e_temporal_props.ml" 14 206 238
+)
+"e_temporal_props.ml" 61 2388 2396 "e_temporal_props.ml" 61 2388 2406
+type(
+  (bool ref * bool) E_visit.iter ->
+  (bool ref * bool) E_visit.scx -> E_t.expr -> unit
+)
+ident(
+  ext_ref expr
+)
+type(
+  (bool ref * bool) E_visit.scx -> E_t.expr -> unit
+)
+type(
+  (bool ref * bool) E_visit.scx -> E_t.expr -> unit
+)
+"e_temporal_props.ml" 61 2388 2407 "e_temporal_props.ml" 61 2388 2410
+type(
+  (bool ref * bool) E_visit.scx
+)
+ident(
+  int_ref scx "e_temporal_props.ml" 16 249 263 "e_temporal_props.ml" 16 249 293
+)
+"e_temporal_props.ml" 61 2388 2411 "e_temporal_props.ml" 61 2388 2413
+type(
+  E_t.expr
+)
+ident(
+  int_ref oe "e_temporal_props.ml" 16 249 294 "e_temporal_props.ml" 16 249 296
+)
+"e_temporal_props.ml" 61 2388 2396 "e_temporal_props.ml" 61 2388 2413
+type(
+  unit
+)
+"e_temporal_props.ml" 63 2490 2504 "e_temporal_props.ml" 63 2490 2506
+type(
+  E_t.sequent
+)
+ident(
+  def sq "e_temporal_props.ml" 69 2762 2770 "e_temporal_props.ml" 69 2762 2813
+)
+"e_temporal_props.ml" 63 2490 2496 "e_temporal_props.ml" 63 2490 2506
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_temporal_props.ml" 69 2762 2770 "e_temporal_props.ml" 69 2762 2774
+type(
+  (bool ref * bool) E_visit.iter
+)
+ident(
+  ext_ref self-1
+)
+"e_temporal_props.ml" 69 2762 2770 "e_temporal_props.ml" 69 2762 2779
+type(
+  (bool ref * bool) E_visit.scx -> E_t.expr -> unit
+)
+"e_temporal_props.ml" 69 2762 2782 "e_temporal_props.ml" 69 2762 2789
+type(
+  bool ref
+)
+ident(
+  int_ref closure "e_temporal_props.ml" 16 249 265 "e_temporal_props.ml" 16 249 272
+)
+"e_temporal_props.ml" 69 2762 2791 "e_temporal_props.ml" 69 2762 2797
+type(
+  bool
+)
+ident(
+  int_ref is_box "e_temporal_props.ml" 16 249 274 "e_temporal_props.ml" 16 249 280
+)
+"e_temporal_props.ml" 69 2762 2781 "e_temporal_props.ml" 69 2762 2798
+type(
+  bool ref * bool
+)
+"e_temporal_props.ml" 69 2762 2800 "e_temporal_props.ml" 69 2762 2802
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_temporal_props.ml" 16 249 283 "e_temporal_props.ml" 16 249 285
+)
+"e_temporal_props.ml" 69 2762 2780 "e_temporal_props.ml" 69 2762 2803
+type(
+  (bool ref * bool) E_visit.scx
+)
+"e_temporal_props.ml" 69 2762 2804 "e_temporal_props.ml" 69 2762 2806
+type(
+  E_t.sequent
+)
+ident(
+  int_ref sq "e_temporal_props.ml" 63 2490 2504 "e_temporal_props.ml" 63 2490 2506
+)
+"e_temporal_props.ml" 69 2762 2804 "e_temporal_props.ml" 69 2762 2813
+type(
+  E_t.expr
+)
+"e_temporal_props.ml" 69 2762 2770 "e_temporal_props.ml" 69 2762 2813
+type(
+  unit
+)
+"e_temporal_props.ml" 71 2854 2860 "e_temporal_props.ml" 71 2854 2861
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+ident(
+  def f "e_temporal_props.ml" 72 2865 2873 "e_temporal_props.ml" 72 2865 2889
+)
+"e_temporal_props.ml" 72 2865 2873 "e_temporal_props.ml" 72 2865 2880
+type(
+  bool ref
+)
+ident(
+  int_ref closure "e_temporal_props.ml" 16 249 265 "e_temporal_props.ml" 16 249 272
+)
+"e_temporal_props.ml" 72 2865 2881 "e_temporal_props.ml" 72 2865 2883
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"e_temporal_props.ml" 72 2865 2884 "e_temporal_props.ml" 72 2865 2889
+type(
+  bool
+)
+"e_temporal_props.ml" 72 2865 2873 "e_temporal_props.ml" 72 2865 2889
+type(
+  unit
+)
+"e_temporal_props.ml" 18 333 342 "e_temporal_props.ml" 72 2865 2889
+type(
+  unit
+)
+"e_temporal_props.ml" 17 299 303 "e_temporal_props.ml" 72 2865 2889
+type(
+  unit
+)
+"e_temporal_props.ml" 13 170 184 "e_temporal_props.ml" 73 2890 2893
+type(
+  (bool ref * bool) E_visit.iter
+)
+"e_temporal_props.ml" 75 2895 2899 "e_temporal_props.ml" 75 2895 2910
+type(
+  E_t.hyp Deque.dq -> E_t.expr -> bool
+)
+ident(
+  def box_closure "e_temporal_props.ml" 80 2989 2989 "e_temporal_props.ml" 0 0 -1
+)
+"e_temporal_props.ml" 75 2895 2911 "e_temporal_props.ml" 75 2895 2913
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def cx "e_temporal_props.ml" 75 2895 2914 "e_temporal_props.ml" 78 2980 2987
+)
+"e_temporal_props.ml" 75 2895 2914 "e_temporal_props.ml" 75 2895 2915
+type(
+  E_t.expr
+)
+ident(
+  def e "e_temporal_props.ml" 76 2918 2920 "e_temporal_props.ml" 78 2980 2987
+)
+"e_temporal_props.ml" 76 2918 2924 "e_temporal_props.ml" 76 2918 2928
+type(
+  bool ref
+)
+ident(
+  def good "e_temporal_props.ml" 77 2943 2945 "e_temporal_props.ml" 78 2980 2987
+)
+"e_temporal_props.ml" 76 2918 2931 "e_temporal_props.ml" 76 2918 2934
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"e_temporal_props.ml" 76 2918 2935 "e_temporal_props.ml" 76 2918 2939
+type(
+  bool
+)
+"e_temporal_props.ml" 76 2918 2931 "e_temporal_props.ml" 76 2918 2939
+type(
+  bool ref
+)
+"e_temporal_props.ml" 77 2943 2945 "e_temporal_props.ml" 77 2943 2952
+type(
+  (bool ref * bool) E_visit.iter
+)
+ident(
+  int_ref visitor "e_temporal_props.ml" 13 170 174 "e_temporal_props.ml" 13 170 181
+)
+"e_temporal_props.ml" 77 2943 2945 "e_temporal_props.ml" 77 2943 2957
+type(
+  (bool ref * bool) E_visit.scx -> E_t.expr -> unit
+)
+"e_temporal_props.ml" 77 2943 2960 "e_temporal_props.ml" 77 2943 2964
+type(
+  bool ref
+)
+ident(
+  int_ref good "e_temporal_props.ml" 76 2918 2924 "e_temporal_props.ml" 76 2918 2928
+)
+"e_temporal_props.ml" 77 2943 2965 "e_temporal_props.ml" 77 2943 2969
+type(
+  bool
+)
+"e_temporal_props.ml" 77 2943 2959 "e_temporal_props.ml" 77 2943 2970
+type(
+  bool ref * bool
+)
+"e_temporal_props.ml" 77 2943 2972 "e_temporal_props.ml" 77 2943 2974
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_temporal_props.ml" 75 2895 2911 "e_temporal_props.ml" 75 2895 2913
+)
+"e_temporal_props.ml" 77 2943 2958 "e_temporal_props.ml" 77 2943 2975
+type(
+  (bool ref * bool) E_visit.scx
+)
+"e_temporal_props.ml" 77 2943 2976 "e_temporal_props.ml" 77 2943 2977
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_temporal_props.ml" 75 2895 2914 "e_temporal_props.ml" 75 2895 2915
+)
+"e_temporal_props.ml" 77 2943 2945 "e_temporal_props.ml" 77 2943 2977
+type(
+  unit
+)
+"e_temporal_props.ml" 78 2980 2982 "e_temporal_props.ml" 78 2980 2983
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"e_temporal_props.ml" 78 2980 2983 "e_temporal_props.ml" 78 2980 2987
+type(
+  bool ref
+)
+ident(
+  int_ref good "e_temporal_props.ml" 76 2918 2924 "e_temporal_props.ml" 76 2918 2928
+)
+"e_temporal_props.ml" 78 2980 2982 "e_temporal_props.ml" 78 2980 2987
+type(
+  bool
+)
+"e_temporal_props.ml" 77 2943 2945 "e_temporal_props.ml" 78 2980 2987
+type(
+  bool
+)
+"e_temporal_props.ml" 76 2918 2920 "e_temporal_props.ml" 78 2980 2987
+type(
+  bool
+)
+"e_temporal_props.ml" 80 2989 2993 "e_temporal_props.ml" 80 2989 3008
+type(
+  E_t.hyp Deque.dq -> E_t.expr -> bool
+)
+ident(
+  def diamond_closure "e_temporal_props.ml" 97 3617 3617 "e_temporal_props.ml" 0 0 -1
+)
+"e_temporal_props.ml" 80 2989 3009 "e_temporal_props.ml" 80 2989 3011
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def cx "e_temporal_props.ml" 80 2989 3012 "e_temporal_props.ml" 83 3079 3086
+)
+"e_temporal_props.ml" 80 2989 3012 "e_temporal_props.ml" 80 2989 3013
+type(
+  E_t.expr
+)
+ident(
+  def e "e_temporal_props.ml" 81 3016 3018 "e_temporal_props.ml" 83 3079 3086
+)
+"e_temporal_props.ml" 81 3016 3022 "e_temporal_props.ml" 81 3016 3026
+type(
+  bool ref
+)
+ident(
+  def good "e_temporal_props.ml" 82 3041 3043 "e_temporal_props.ml" 83 3079 3086
+)
+"e_temporal_props.ml" 81 3016 3029 "e_temporal_props.ml" 81 3016 3032
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"e_temporal_props.ml" 81 3016 3033 "e_temporal_props.ml" 81 3016 3037
+type(
+  bool
+)
+"e_temporal_props.ml" 81 3016 3029 "e_temporal_props.ml" 81 3016 3037
+type(
+  bool ref
+)
+"e_temporal_props.ml" 82 3041 3043 "e_temporal_props.ml" 82 3041 3050
+type(
+  (bool ref * bool) E_visit.iter
+)
+ident(
+  int_ref visitor "e_temporal_props.ml" 13 170 174 "e_temporal_props.ml" 13 170 181
+)
+"e_temporal_props.ml" 82 3041 3043 "e_temporal_props.ml" 82 3041 3055
+type(
+  (bool ref * bool) E_visit.scx -> E_t.expr -> unit
+)
+"e_temporal_props.ml" 82 3041 3058 "e_temporal_props.ml" 82 3041 3062
+type(
+  bool ref
+)
+ident(
+  int_ref good "e_temporal_props.ml" 81 3016 3022 "e_temporal_props.ml" 81 3016 3026
+)
+"e_temporal_props.ml" 82 3041 3063 "e_temporal_props.ml" 82 3041 3068
+type(
+  bool
+)
+"e_temporal_props.ml" 82 3041 3057 "e_temporal_props.ml" 82 3041 3069
+type(
+  bool ref * bool
+)
+"e_temporal_props.ml" 82 3041 3071 "e_temporal_props.ml" 82 3041 3073
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_temporal_props.ml" 80 2989 3009 "e_temporal_props.ml" 80 2989 3011
+)
+"e_temporal_props.ml" 82 3041 3056 "e_temporal_props.ml" 82 3041 3074
+type(
+  (bool ref * bool) E_visit.scx
+)
+"e_temporal_props.ml" 82 3041 3075 "e_temporal_props.ml" 82 3041 3076
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_temporal_props.ml" 80 2989 3012 "e_temporal_props.ml" 80 2989 3013
+)
+"e_temporal_props.ml" 82 3041 3043 "e_temporal_props.ml" 82 3041 3076
+type(
+  unit
+)
+"e_temporal_props.ml" 83 3079 3081 "e_temporal_props.ml" 83 3079 3082
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"e_temporal_props.ml" 83 3079 3082 "e_temporal_props.ml" 83 3079 3086
+type(
+  bool ref
+)
+ident(
+  int_ref good "e_temporal_props.ml" 81 3016 3022 "e_temporal_props.ml" 81 3016 3026
+)
+"e_temporal_props.ml" 83 3079 3081 "e_temporal_props.ml" 83 3079 3086
+type(
+  bool
+)
+"e_temporal_props.ml" 82 3041 3043 "e_temporal_props.ml" 83 3079 3086
+type(
+  bool
+)
+"e_temporal_props.ml" 81 3016 3018 "e_temporal_props.ml" 83 3079 3086
+type(
+  bool
+)
+"e_temporal_props.ml" 97 3617 3621 "e_temporal_props.ml" 97 3617 3633
+type(
+  E_t.hyp Deque.dq -> E_t.expr -> E_t.time
+)
+ident(
+  def compute_time "e_temporal_props.ml" 113 4069 4069 "e_temporal_props.ml" 0 0 -1
+)
+"e_temporal_props.ml" 97 3617 3634 "e_temporal_props.ml" 97 3617 3637
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def scx "e_temporal_props.ml" 97 3617 3638 "e_temporal_props.ml" 111 4055 4067
+)
+"e_temporal_props.ml" 97 3617 3638 "e_temporal_props.ml" 97 3617 3639
+type(
+  E_t.expr
+)
+ident(
+  def e "e_temporal_props.ml" 98 3642 3644 "e_temporal_props.ml" 111 4055 4067
+)
+"e_temporal_props.ml" 98 3642 3648 "e_temporal_props.ml" 98 3642 3649
+type(
+  E_t.expr
+)
+ident(
+  def e "e_temporal_props.ml" 104 3778 3780 "e_temporal_props.ml" 111 4055 4067
+)
+"e_temporal_props.ml" 99 3652 3660 "e_temporal_props.ml" 99 3652 3667
+type(
+  E_constness.const_visitor
+)
+ident(
+  def visitor "e_temporal_props.ml" 103 3746 3750 "e_temporal_props.ml" 103 3746 3774
+)
+"e_temporal_props.ml" 99 3652 3678 "e_temporal_props.ml" 99 3652 3682
+type(
+  E_constness.const_visitor
+)
+type(
+  E_constness.const_visitor
+)
+"e_temporal_props.ml" 99 3652 3670 "e_temporal_props.ml" 101 3731 3738
+type(
+  E_constness.const_visitor
+)
+"e_temporal_props.ml" 103 3746 3750 "e_temporal_props.ml" 103 3746 3757
+type(
+  E_constness.const_visitor
+)
+ident(
+  int_ref visitor "e_temporal_props.ml" 99 3652 3660 "e_temporal_props.ml" 99 3652 3667
+)
+"e_temporal_props.ml" 103 3746 3750 "e_temporal_props.ml" 103 3746 3762
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_temporal_props.ml" 103 3746 3764 "e_temporal_props.ml" 103 3746 3766
+type(
+  unit
+)
+"e_temporal_props.ml" 103 3746 3768 "e_temporal_props.ml" 103 3746 3771
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref scx "e_temporal_props.ml" 97 3617 3634 "e_temporal_props.ml" 97 3617 3637
+)
+"e_temporal_props.ml" 103 3746 3763 "e_temporal_props.ml" 103 3746 3772
+type(
+  unit E_visit.scx
+)
+"e_temporal_props.ml" 103 3746 3773 "e_temporal_props.ml" 103 3746 3774
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_temporal_props.ml" 97 3617 3638 "e_temporal_props.ml" 97 3617 3639
+)
+"e_temporal_props.ml" 103 3746 3750 "e_temporal_props.ml" 103 3746 3774
+type(
+  E_t.expr
+)
+"e_temporal_props.ml" 99 3652 3656 "e_temporal_props.ml" 103 3746 3774
+type(
+  E_t.expr
+)
+"e_temporal_props.ml" 104 3778 3784 "e_temporal_props.ml" 104 3778 3785
+type(
+  E_t.expr
+)
+ident(
+  def e "e_temporal_props.ml" 105 3830 3832 "e_temporal_props.ml" 111 4055 4067
+)
+"e_temporal_props.ml" 104 3778 3788 "e_temporal_props.ml" 104 3778 3815
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref E_tla_norm.expand_unchanged "e_tla_norm.mli" 6 169 169 "e_tla_norm.mli" 6 169 232
+)
+"e_temporal_props.ml" 104 3778 3817 "e_temporal_props.ml" 104 3778 3819
+type(
+  unit
+)
+"e_temporal_props.ml" 104 3778 3820 "e_temporal_props.ml" 104 3778 3823
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref scx "e_temporal_props.ml" 97 3617 3634 "e_temporal_props.ml" 97 3617 3637
+)
+"e_temporal_props.ml" 104 3778 3816 "e_temporal_props.ml" 104 3778 3824
+type(
+  unit E_visit.scx
+)
+"e_temporal_props.ml" 104 3778 3825 "e_temporal_props.ml" 104 3778 3826
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_temporal_props.ml" 98 3642 3648 "e_temporal_props.ml" 98 3642 3649
+)
+"e_temporal_props.ml" 104 3778 3788 "e_temporal_props.ml" 104 3778 3826
+type(
+  E_t.expr
+)
+"e_temporal_props.ml" 105 3830 3836 "e_temporal_props.ml" 105 3830 3837
+type(
+  E_t.expr
+)
+ident(
+  def e "e_temporal_props.ml" 106 3879 3881 "e_temporal_props.ml" 111 4055 4067
+)
+"e_temporal_props.ml" 105 3830 3840 "e_temporal_props.ml" 105 3830 3864
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref E_tla_norm.expand_action "e_tla_norm.mli" 7 233 233 "e_tla_norm.mli" 7 233 293
+)
+"e_temporal_props.ml" 105 3830 3866 "e_temporal_props.ml" 105 3830 3868
+type(
+  unit
+)
+"e_temporal_props.ml" 105 3830 3869 "e_temporal_props.ml" 105 3830 3872
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref scx "e_temporal_props.ml" 97 3617 3634 "e_temporal_props.ml" 97 3617 3637
+)
+"e_temporal_props.ml" 105 3830 3865 "e_temporal_props.ml" 105 3830 3873
+type(
+  unit E_visit.scx
+)
+"e_temporal_props.ml" 105 3830 3874 "e_temporal_props.ml" 105 3830 3875
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_temporal_props.ml" 104 3778 3784 "e_temporal_props.ml" 104 3778 3785
+)
+"e_temporal_props.ml" 105 3830 3840 "e_temporal_props.ml" 105 3830 3875
+type(
+  E_t.expr
+)
+"e_temporal_props.ml" 106 3879 3885 "e_temporal_props.ml" 106 3879 3886
+type(
+  E_t.expr
+)
+ident(
+  def e "e_temporal_props.ml" 107 3930 3932 "e_temporal_props.ml" 111 4055 4067
+)
+"e_temporal_props.ml" 106 3879 3889 "e_temporal_props.ml" 106 3879 3915
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref E_tla_norm.expand_fairness "e_tla_norm.mli" 9 356 356 "e_tla_norm.mli" 9 356 418
+)
+"e_temporal_props.ml" 106 3879 3917 "e_temporal_props.ml" 106 3879 3919
+type(
+  unit
+)
+"e_temporal_props.ml" 106 3879 3920 "e_temporal_props.ml" 106 3879 3923
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref scx "e_temporal_props.ml" 97 3617 3634 "e_temporal_props.ml" 97 3617 3637
+)
+"e_temporal_props.ml" 106 3879 3916 "e_temporal_props.ml" 106 3879 3924
+type(
+  unit E_visit.scx
+)
+"e_temporal_props.ml" 106 3879 3925 "e_temporal_props.ml" 106 3879 3926
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_temporal_props.ml" 105 3830 3836 "e_temporal_props.ml" 105 3830 3837
+)
+"e_temporal_props.ml" 106 3879 3889 "e_temporal_props.ml" 106 3879 3926
+type(
+  E_t.expr
+)
+"e_temporal_props.ml" 107 3930 3936 "e_temporal_props.ml" 107 3930 3937
+type(
+  E_t.expr
+)
+ident(
+  def e "e_temporal_props.ml" 108 3980 3982 "e_temporal_props.ml" 111 4055 4067
+)
+"e_temporal_props.ml" 107 3930 3940 "e_temporal_props.ml" 107 3930 3965
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref E_tla_norm.expand_leadsto "e_tla_norm.mli" 8 294 294 "e_tla_norm.mli" 8 294 355
+)
+"e_temporal_props.ml" 107 3930 3967 "e_temporal_props.ml" 107 3930 3969
+type(
+  unit
+)
+"e_temporal_props.ml" 107 3930 3970 "e_temporal_props.ml" 107 3930 3973
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref scx "e_temporal_props.ml" 97 3617 3634 "e_temporal_props.ml" 97 3617 3637
+)
+"e_temporal_props.ml" 107 3930 3966 "e_temporal_props.ml" 107 3930 3974
+type(
+  unit E_visit.scx
+)
+"e_temporal_props.ml" 107 3930 3975 "e_temporal_props.ml" 107 3930 3976
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_temporal_props.ml" 106 3879 3885 "e_temporal_props.ml" 106 3879 3886
+)
+"e_temporal_props.ml" 107 3930 3940 "e_temporal_props.ml" 107 3930 3976
+type(
+  E_t.expr
+)
+"e_temporal_props.ml" 108 3980 3988 "e_temporal_props.ml" 108 3980 3989
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_temporal_props.ml" 107 3930 3936 "e_temporal_props.ml" 107 3930 3937
+)
+"e_temporal_props.ml" 108 3980 3988 "e_temporal_props.ml" 108 3980 3994
+type(
+  E_t.expr_
+)
+"e_temporal_props.ml" 109 4000 4002 "e_temporal_props.ml" 109 4000 4003
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_temporal_props.ml" 109 4000 4013 "e_temporal_props.ml" 109 4000 4024
+type(
+  E_t.hyp Deque.dq -> E_t.expr -> bool
+)
+ident(
+  int_ref box_closure "e_temporal_props.ml" 75 2895 2899 "e_temporal_props.ml" 75 2895 2910
+)
+"e_temporal_props.ml" 109 4000 4025 "e_temporal_props.ml" 109 4000 4028
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref scx "e_temporal_props.ml" 97 3617 3634 "e_temporal_props.ml" 97 3617 3637
+)
+"e_temporal_props.ml" 109 4000 4029 "e_temporal_props.ml" 109 4000 4030
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_temporal_props.ml" 107 3930 3936 "e_temporal_props.ml" 107 3930 3937
+)
+"e_temporal_props.ml" 109 4000 4013 "e_temporal_props.ml" 109 4000 4030
+type(
+  bool
+)
+"e_temporal_props.ml" 110 4036 4040 "e_temporal_props.ml" 110 4036 4044
+type(
+  bool
+)
+type(
+  bool
+)
+"e_temporal_props.ml" 110 4036 4048 "e_temporal_props.ml" 110 4036 4054
+type(
+  E_t.time
+)
+"e_temporal_props.ml" 111 4055 4059 "e_temporal_props.ml" 111 4055 4060
+type(
+  bool
+)
+type(
+  bool
+)
+"e_temporal_props.ml" 111 4055 4064 "e_temporal_props.ml" 111 4055 4067
+type(
+  E_t.time
+)
+"e_temporal_props.ml" 109 4000 4007 "e_temporal_props.ml" 111 4055 4067
+type(
+  E_t.time
+)
+"e_temporal_props.ml" 108 3980 3982 "e_temporal_props.ml" 111 4055 4067
+type(
+  E_t.time
+)
+"e_temporal_props.ml" 107 3930 3932 "e_temporal_props.ml" 111 4055 4067
+type(
+  E_t.time
+)
+"e_temporal_props.ml" 106 3879 3881 "e_temporal_props.ml" 111 4055 4067
+type(
+  E_t.time
+)
+"e_temporal_props.ml" 105 3830 3832 "e_temporal_props.ml" 111 4055 4067
+type(
+  E_t.time
+)
+"e_temporal_props.ml" 104 3778 3780 "e_temporal_props.ml" 111 4055 4067
+type(
+  E_t.time
+)
+"e_temporal_props.ml" 98 3642 3644 "e_temporal_props.ml" 111 4055 4067
+type(
+  E_t.time
+)
+"e_temporal_props.ml" 113 4069 4073 "e_temporal_props.ml" 113 4069 4090
+type(
+  E_t.hyp_ Property.wrapped Deque.dq -> E_t.time -> E_t.time
+)
+ident(
+  def check_time_change "e_temporal_props.ml" 120 4249 4272 "e_temporal_props.ml" 0 0 -1
+)
+"e_temporal_props.ml" 113 4069 4091 "e_temporal_props.ml" 113 4069 4094
+type(
+  E_t.hyp_ Property.wrapped Deque.dq
+)
+ident(
+  def ctx "e_temporal_props.ml" 113 4069 4095 "e_temporal_props.ml" 120 4249 4272
+)
+"e_temporal_props.ml" 113 4069 4095 "e_temporal_props.ml" 113 4069 4097
+type(
+  E_t.time
+)
+ident(
+  def tm "e_temporal_props.ml" 113 4069 4100 "e_temporal_props.ml" 120 4249 4272
+)
+"e_temporal_props.ml" 113 4069 4106 "e_temporal_props.ml" 113 4069 4108
+type(
+  E_t.time
+)
+ident(
+  int_ref tm "e_temporal_props.ml" 113 4069 4095 "e_temporal_props.ml" 113 4069 4097
+)
+"e_temporal_props.ml" 114 4114 4116 "e_temporal_props.ml" 114 4114 4119
+type(
+  E_t.time
+)
+type(
+  E_t.time
+)
+"e_temporal_props.ml" 114 4114 4123 "e_temporal_props.ml" 114 4114 4126
+type(
+  E_t.time
+)
+"e_temporal_props.ml" 115 4127 4129 "e_temporal_props.ml" 115 4127 4135
+type(
+  E_t.time
+)
+type(
+  E_t.time
+)
+"e_temporal_props.ml" 115 4127 4139 "e_temporal_props.ml" 115 4127 4154
+type(
+  (E_t.time -> E_t.hyp_ Property.wrapped -> E_t.time) ->
+  E_t.time -> E_t.hyp_ Property.wrapped Deque.dq -> E_t.time
+)
+ident(
+  int_ref Deque.fold_left "deque.mli" 27 722 722 "deque.mli" 27 722 784
+)
+"e_temporal_props.ml" 116 4161 4167 "e_temporal_props.ml" 116 4161 4170
+type(
+  E_t.time
+)
+ident(
+  def acc "e_temporal_props.ml" 116 4161 4171 "e_temporal_props.ml" 118 4219 4231
+)
+"e_temporal_props.ml" 116 4161 4171 "e_temporal_props.ml" 116 4161 4172
+type(
+  E_t.hyp_ Property.wrapped
+)
+ident(
+  def a "e_temporal_props.ml" 116 4161 4176 "e_temporal_props.ml" 118 4219 4231
+)
+"e_temporal_props.ml" 116 4161 4182 "e_temporal_props.ml" 116 4161 4183
+type(
+  E_t.hyp_ Property.wrapped
+)
+ident(
+  int_ref a "e_temporal_props.ml" 116 4161 4171 "e_temporal_props.ml" 116 4161 4172
+)
+"e_temporal_props.ml" 116 4161 4182 "e_temporal_props.ml" 116 4161 4188
+type(
+  E_t.hyp_
+)
+"e_temporal_props.ml" 117 4194 4203 "e_temporal_props.ml" 117 4194 4204
+type(
+  E_t.expr
+)
+"e_temporal_props.ml" 117 4194 4205 "e_temporal_props.ml" 117 4194 4206
+type(
+  E_t.visibility
+)
+"e_temporal_props.ml" 117 4194 4207 "e_temporal_props.ml" 117 4194 4210
+type(
+  E_t.time
+)
+"e_temporal_props.ml" 117 4194 4198 "e_temporal_props.ml" 117 4194 4211
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_temporal_props.ml" 117 4194 4215 "e_temporal_props.ml" 117 4194 4218
+type(
+  E_t.time
+)
+"e_temporal_props.ml" 118 4219 4223 "e_temporal_props.ml" 118 4219 4224
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_temporal_props.ml" 118 4219 4228 "e_temporal_props.ml" 118 4219 4231
+type(
+  E_t.time
+)
+ident(
+  int_ref acc "e_temporal_props.ml" 116 4161 4167 "e_temporal_props.ml" 116 4161 4170
+)
+"e_temporal_props.ml" 116 4161 4176 "e_temporal_props.ml" 118 4219 4231
+type(
+  E_t.time
+)
+"e_temporal_props.ml" 115 4127 4155 "e_temporal_props.ml" 119 4232 4237
+type(
+  E_t.time -> E_t.hyp_ Property.wrapped -> E_t.time
+)
+"e_temporal_props.ml" 119 4232 4238 "e_temporal_props.ml" 119 4232 4244
+type(
+  E_t.time
+)
+"e_temporal_props.ml" 119 4232 4245 "e_temporal_props.ml" 119 4232 4248
+type(
+  E_t.hyp_ Property.wrapped Deque.dq
+)
+ident(
+  int_ref ctx "e_temporal_props.ml" 113 4069 4091 "e_temporal_props.ml" 113 4069 4094
+)
+"e_temporal_props.ml" 115 4127 4139 "e_temporal_props.ml" 119 4232 4248
+type(
+  E_t.time
+)
+"e_temporal_props.ml" 120 4249 4251 "e_temporal_props.ml" 120 4249 4252
+type(
+  E_t.time
+)
+type(
+  E_t.time
+)
+"e_temporal_props.ml" 120 4249 4256 "e_temporal_props.ml" 120 4249 4264
+type(
+  string -> E_t.time
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"e_temporal_props.ml" 120 4249 4265 "e_temporal_props.ml" 120 4249 4272
+type(
+  string
+)
+"e_temporal_props.ml" 120 4249 4256 "e_temporal_props.ml" 120 4249 4272
+type(
+  E_t.time
+)
+"e_temporal_props.ml" 113 4069 4100 "e_temporal_props.ml" 120 4249 4272
+type(
+  E_t.time
+)

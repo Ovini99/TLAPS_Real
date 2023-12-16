@@ -1,0 +1,550 @@
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:0
+@!!END
+
+File "/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library/TLAPS.tla", line 1, character 1 to line 363, character 77:
+[INFO]: All 0 obligation proved.
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:19:2:19:4
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:25:1:25:8
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:33:1:33:3
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:4
+@!!loc:70:14:70:16
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:5
+@!!loc:70:17:70:20
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:5
+@!!END
+
+!! Constraint generation. Arithmetic operation not supported (reals and integers cannot be mixed): 
+CONSTANT_i_ =< Len(CONSTANT_s_ \o CONSTANT_t_)
+** Unexpanded symbols: ---
+
+** Unexpanded symbols: ---
+
+!! Constraint generation. Arithmetic operation not supported (reals and integers cannot be mixed): 
+CONSTANT_i_ =< Len(CONSTANT_s_)
+** Unexpanded symbols: ---
+
+Executable "ls4" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+@!!BEGIN
+@!!type:obligation
+@!!id:4
+@!!loc:70:14:70:16
+@!!status:failed
+@!!prover:ls4
+@!!meth:time-limit: 50
+@!!reason:Executable "ls4" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+
+@!!already:false
+@!!obl:
+ASSUME NEW VARIABLE in,
+       NEW VARIABLE out,
+       NEW VARIABLE buf,
+       NEW CONSTANT N,
+       NEW CONSTANT Msg,
+       NEW CONSTANT Input,
+       TRUE 
+PROVE  Spec
+
+@!!END
+
+Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+@!!BEGIN
+@!!type:obligation
+@!!id:5
+@!!loc:70:17:70:20
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:19:2:19:4
+@!!status:being proved
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!obl:
+ASSUME NEW VARIABLE in,
+       NEW VARIABLE out,
+       NEW VARIABLE buf,
+       NEW CONSTANT N,
+       NEW CONSTANT Msg,
+       NEW CONSTANT Input,
+       NEW CONSTANT S,
+       NEW CONSTANT s \in Seq(S),
+       NEW CONSTANT t \in Seq(S),
+       NEW CONSTANT u \in [Nat \ {0} -> S]
+PROVE  [i \in Nat \ {0} |->
+          IF i =< Len(s \o t) THEN (s \o t)[i] ELSE u[i - Len(s \o t)]]
+       = [i \in Nat \ {0} |->
+            IF i =< Len(s)
+              THEN s[i]
+              ELSE [i_1 \in Nat \ {0} |->
+                      IF i_1 =< Len(t) THEN t[i_1] ELSE u[i_1 - Len(t)]][i
+                                                                    - Len(s)]]
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:25:1:25:8
+@!!status:being proved
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!obl:
+ASSUME NEW VARIABLE in,
+       NEW VARIABLE out,
+       NEW VARIABLE buf,
+       NEW CONSTANT N,
+       NEW CONSTANT Msg,
+       NEW CONSTANT Input,
+       NEW CONSTANT S,
+       NEW CONSTANT s \in Seq(S),
+       NEW CONSTANT t \in Seq(S),
+       Len(t) # 0 
+PROVE  s \o t = Append(s, Head(t)) \o Tail(t)
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:33:1:33:3
+@!!status:being proved
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!obl:
+ASSUME NEW VARIABLE in,
+       NEW VARIABLE out,
+       NEW VARIABLE buf,
+       NEW CONSTANT N,
+       NEW CONSTANT Msg,
+       NEW CONSTANT Input,
+       NEW CONSTANT S,
+       NEW CONSTANT s \in Seq(S),
+       NEW CONSTANT t \in [Nat \ {0} -> S]
+PROVE  [i \in Nat \ {0} |-> IF i =< Len(s) THEN s[i] ELSE t[i - Len(s)]]
+       = [i \in Nat \ {0} |->
+            IF i =< Len(Append(s, t[1]))
+              THEN Append(s, t[1])[i]
+              ELSE [i_1 \in Nat \ {0} |-> t[i_1 + 1]][i
+                                                      - Len(Append(s, t[1]))]]
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:19:2:19:4
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 25.0 (100%)
+@!!reason:timeout
+@!!already:false
+@!!obl:
+ASSUME NEW VARIABLE in,
+       NEW VARIABLE out,
+       NEW VARIABLE buf,
+       NEW CONSTANT N,
+       NEW CONSTANT Msg,
+       NEW CONSTANT Input,
+       NEW CONSTANT S,
+       NEW CONSTANT s \in Seq(S),
+       NEW CONSTANT t \in Seq(S),
+       NEW CONSTANT u \in [Nat \ {0} -> S]
+PROVE  [i \in Nat \ {0} |->
+          IF i =< Len(s \o t) THEN (s \o t)[i] ELSE u[i - Len(s \o t)]]
+       = [i \in Nat \ {0} |->
+            IF i =< Len(s)
+              THEN s[i]
+              ELSE [i_1 \in Nat \ {0} |->
+                      IF i_1 =< Len(t) THEN t[i_1] ELSE u[i_1 - Len(t)]][i
+                                                                    - Len(s)]]
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:25:1:25:8
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 25.0 (100%)
+@!!reason:timeout
+@!!already:false
+@!!obl:
+ASSUME NEW VARIABLE in,
+       NEW VARIABLE out,
+       NEW VARIABLE buf,
+       NEW CONSTANT N,
+       NEW CONSTANT Msg,
+       NEW CONSTANT Input,
+       NEW CONSTANT S,
+       NEW CONSTANT s \in Seq(S),
+       NEW CONSTANT t \in Seq(S),
+       Len(t) # 0 
+PROVE  s \o t = Append(s, Head(t)) \o Tail(t)
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:33:1:33:3
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 25.0 (100%)
+@!!reason:timeout
+@!!already:false
+@!!obl:
+ASSUME NEW VARIABLE in,
+       NEW VARIABLE out,
+       NEW VARIABLE buf,
+       NEW CONSTANT N,
+       NEW CONSTANT Msg,
+       NEW CONSTANT Input,
+       NEW CONSTANT S,
+       NEW CONSTANT s \in Seq(S),
+       NEW CONSTANT t \in [Nat \ {0} -> S]
+PROVE  [i \in Nat \ {0} |-> IF i =< Len(s) THEN s[i] ELSE t[i - Len(s)]]
+       = [i \in Nat \ {0} |->
+            IF i =< Len(Append(s, t[1]))
+              THEN Append(s, t[1])[i]
+              ELSE [i_1 \in Nat \ {0} |-> t[i_1 + 1]][i
+                                                      - Len(Append(s, t[1]))]]
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:25:1:25:8
+@!!status:failed
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.0 (0%)
+@!!reason:false
+@!!already:false
+@!!obl:
+ASSUME NEW VARIABLE in,
+       NEW VARIABLE out,
+       NEW VARIABLE buf,
+       NEW CONSTANT N,
+       NEW CONSTANT Msg,
+       NEW CONSTANT Input,
+       NEW CONSTANT S,
+       NEW CONSTANT s \in Seq(S),
+       NEW CONSTANT t \in Seq(S),
+       Len(t) # 0 
+PROVE  s \o t = Append(s, Head(t)) \o Tail(t)
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:25:1:25:8
+@!!status:failed
+@!!prover:isabelle
+@!!meth:auto; time-limit: 150
+@!!reason:Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+
+@!!already:false
+@!!obl:
+ASSUME NEW VARIABLE in,
+       NEW VARIABLE out,
+       NEW VARIABLE buf,
+       NEW CONSTANT N,
+       NEW CONSTANT Msg,
+       NEW CONSTANT Input,
+       NEW CONSTANT S,
+       NEW CONSTANT s \in Seq(S),
+       NEW CONSTANT t \in Seq(S),
+       Len(t) # 0 
+PROVE  s \o t = Append(s, Head(t)) \o Tail(t)
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:19:2:19:4
+@!!status:being proved
+@!!prover:zenon
+@!!meth:(50 s); time-limit: 50
+@!!obl:
+ASSUME NEW VARIABLE in,
+       NEW VARIABLE out,
+       NEW VARIABLE buf,
+       NEW CONSTANT N,
+       NEW CONSTANT Msg,
+       NEW CONSTANT Input,
+       NEW CONSTANT S,
+       NEW CONSTANT s \in Seq(S),
+       NEW CONSTANT t \in Seq(S),
+       NEW CONSTANT u \in [Nat \ {0} -> S]
+PROVE  [i \in Nat \ {0} |->
+          IF i =< Len(s \o t) THEN (s \o t)[i] ELSE u[i - Len(s \o t)]]
+       = [i \in Nat \ {0} |->
+            IF i =< Len(s)
+              THEN s[i]
+              ELSE [i_1 \in Nat \ {0} |->
+                      IF i_1 =< Len(t) THEN t[i_1] ELSE u[i_1 - Len(t)]][i
+                                                                    - Len(s)]]
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:33:1:33:3
+@!!status:being proved
+@!!prover:zenon
+@!!meth:(50 s); time-limit: 50
+@!!obl:
+ASSUME NEW VARIABLE in,
+       NEW VARIABLE out,
+       NEW VARIABLE buf,
+       NEW CONSTANT N,
+       NEW CONSTANT Msg,
+       NEW CONSTANT Input,
+       NEW CONSTANT S,
+       NEW CONSTANT s \in Seq(S),
+       NEW CONSTANT t \in [Nat \ {0} -> S]
+PROVE  [i \in Nat \ {0} |-> IF i =< Len(s) THEN s[i] ELSE t[i - Len(s)]]
+       = [i \in Nat \ {0} |->
+            IF i =< Len(Append(s, t[1]))
+              THEN Append(s, t[1])[i]
+              ELSE [i_1 \in Nat \ {0} |-> t[i_1 + 1]][i
+                                                      - Len(Append(s, t[1]))]]
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:19:2:19:4
+@!!status:failed
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 39.8 (80%)
+@!!reason:false
+@!!already:false
+@!!obl:
+ASSUME NEW VARIABLE in,
+       NEW VARIABLE out,
+       NEW VARIABLE buf,
+       NEW CONSTANT N,
+       NEW CONSTANT Msg,
+       NEW CONSTANT Input,
+       NEW CONSTANT S,
+       NEW CONSTANT s \in Seq(S),
+       NEW CONSTANT t \in Seq(S),
+       NEW CONSTANT u \in [Nat \ {0} -> S]
+PROVE  [i \in Nat \ {0} |->
+          IF i =< Len(s \o t) THEN (s \o t)[i] ELSE u[i - Len(s \o t)]]
+       = [i \in Nat \ {0} |->
+            IF i =< Len(s)
+              THEN s[i]
+              ELSE [i_1 \in Nat \ {0} |->
+                      IF i_1 =< Len(t) THEN t[i_1] ELSE u[i_1 - Len(t)]][i
+                                                                    - Len(s)]]
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:19:2:19:4
+@!!status:failed
+@!!prover:isabelle
+@!!meth:auto; time-limit: 150
+@!!reason:Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+
+@!!already:false
+@!!obl:
+ASSUME NEW VARIABLE in,
+       NEW VARIABLE out,
+       NEW VARIABLE buf,
+       NEW CONSTANT N,
+       NEW CONSTANT Msg,
+       NEW CONSTANT Input,
+       NEW CONSTANT S,
+       NEW CONSTANT s \in Seq(S),
+       NEW CONSTANT t \in Seq(S),
+       NEW CONSTANT u \in [Nat \ {0} -> S]
+PROVE  [i \in Nat \ {0} |->
+          IF i =< Len(s \o t) THEN (s \o t)[i] ELSE u[i - Len(s \o t)]]
+       = [i \in Nat \ {0} |->
+            IF i =< Len(s)
+              THEN s[i]
+              ELSE [i_1 \in Nat \ {0} |->
+                      IF i_1 =< Len(t) THEN t[i_1] ELSE u[i_1 - Len(t)]][i
+                                                                    - Len(s)]]
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:33:1:33:3
+@!!status:failed
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 40.6 (81%)
+@!!reason:false
+@!!already:false
+@!!obl:
+ASSUME NEW VARIABLE in,
+       NEW VARIABLE out,
+       NEW VARIABLE buf,
+       NEW CONSTANT N,
+       NEW CONSTANT Msg,
+       NEW CONSTANT Input,
+       NEW CONSTANT S,
+       NEW CONSTANT s \in Seq(S),
+       NEW CONSTANT t \in [Nat \ {0} -> S]
+PROVE  [i \in Nat \ {0} |-> IF i =< Len(s) THEN s[i] ELSE t[i - Len(s)]]
+       = [i \in Nat \ {0} |->
+            IF i =< Len(Append(s, t[1]))
+              THEN Append(s, t[1])[i]
+              ELSE [i_1 \in Nat \ {0} |-> t[i_1 + 1]][i
+                                                      - Len(Append(s, t[1]))]]
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:33:1:33:3
+@!!status:failed
+@!!prover:isabelle
+@!!meth:auto; time-limit: 150
+@!!reason:Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+
+@!!already:false
+@!!obl:
+ASSUME NEW VARIABLE in,
+       NEW VARIABLE out,
+       NEW VARIABLE buf,
+       NEW CONSTANT N,
+       NEW CONSTANT Msg,
+       NEW CONSTANT Input,
+       NEW CONSTANT S,
+       NEW CONSTANT s \in Seq(S),
+       NEW CONSTANT t \in [Nat \ {0} -> S]
+PROVE  [i \in Nat \ {0} |-> IF i =< Len(s) THEN s[i] ELSE t[i - Len(s)]]
+       = [i \in Nat \ {0} |->
+            IF i =< Len(Append(s, t[1]))
+              THEN Append(s, t[1])[i]
+              ELSE [i_1 \in Nat \ {0} |-> t[i_1 + 1]][i
+                                                      - Len(Append(s, t[1]))]]
+
+@!!END
+
+File "./MiniProducerConsumer_test.tla", line 70, characters 14-15:
+[ERROR]: Could not prove or check:
+           ASSUME NEW VARIABLE in,
+                  NEW VARIABLE out,
+                  NEW VARIABLE buf,
+                  NEW CONSTANT N,
+                  NEW CONSTANT Msg,
+                  NEW CONSTANT Input,
+                  Assump == /\ N \in Nat \ {0}
+                            /\ Input \in ISeq(Msg),
+                  PTL 
+           PROVE  Spec
+File "./MiniProducerConsumer_test.tla", line 33, characters 1-2:
+[ERROR]: Could not prove or check:
+           ASSUME NEW VARIABLE in,
+                  NEW VARIABLE out,
+                  NEW VARIABLE buf,
+                  NEW CONSTANT N,
+                  NEW CONSTANT Msg,
+                  NEW CONSTANT Input,
+                  ISeq(S) == [Nat \ {0} -> S],
+                  ITail(iseq) == [i \in Nat \ {0} |-> iseq[i + 1]],
+                  IHead(iseq) == iseq[1],
+                  **(seq, iseq) ==
+                    [i \in Nat \ {0} |->
+                       IF i =< Len(seq) THEN seq[i] ELSE iseq[i - Len(seq)]],
+                  NEW CONSTANT S,
+                  NEW CONSTANT s \in 
+                  Seq(S),
+                  NEW CONSTANT t \in 
+                  ISeq(S)
+           PROVE  s ** t = Append(s, IHead(t)) ** ITail(t)
+File "./MiniProducerConsumer_test.tla", line 25, characters 1-7:
+[ERROR]: Could not prove or check:
+           ASSUME NEW VARIABLE in,
+                  NEW VARIABLE out,
+                  NEW VARIABLE buf,
+                  NEW CONSTANT N,
+                  NEW CONSTANT Msg,
+                  NEW CONSTANT Input,
+                  NEW CONSTANT S,
+                  NEW CONSTANT s \in 
+                  Seq(S),
+                  NEW CONSTANT t \in 
+                  Seq(S),
+                  Len(t) # 0 
+           PROVE  s \o t = Append(s, Head(t)) \o Tail(t)
+File "./MiniProducerConsumer_test.tla", line 19, characters 2-3:
+[ERROR]: Could not prove or check:
+           ASSUME NEW VARIABLE in,
+                  NEW VARIABLE out,
+                  NEW VARIABLE buf,
+                  NEW CONSTANT N,
+                  NEW CONSTANT Msg,
+                  NEW CONSTANT Input,
+                  ISeq(S) == [Nat \ {0} -> S],
+                  **(seq, iseq) ==
+                    [i \in Nat \ {0} |->
+                       IF i =< Len(seq) THEN seq[i] ELSE iseq[i - Len(seq)]],
+                  NEW CONSTANT S,
+                  NEW CONSTANT s \in 
+                  Seq(S),
+                  NEW CONSTANT t \in 
+                  Seq(S),
+                  NEW CONSTANT u \in 
+                  ISeq(S)
+           PROVE  (s \o t) ** u = s ** (t ** u)
+File "./MiniProducerConsumer_test.tla", line 1, character 1 to line 72, character 77:
+[ERROR]: 4/5 obligations failed.
+There were backend errors processing module `"MiniProducerConsumer_test"`.

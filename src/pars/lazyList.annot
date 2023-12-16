@@ -1,0 +1,2826 @@
+"lazyList.ml" 16 215 219 "lazyList.ml" 16 215 225
+type(
+  'a llist -> 'a front
+)
+ident(
+  def expose "lazyList.ml" 17 250 250 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 16 215 230 "lazyList.ml" 16 215 232
+type(
+  'a front Lazy.t
+)
+ident(
+  def ll "lazyList.ml" 16 215 236 "lazyList.ml" 16 215 249
+)
+"lazyList.ml" 16 215 226 "lazyList.ml" 16 215 233
+type(
+  'a llist
+)
+"lazyList.ml" 16 215 236 "lazyList.ml" 16 215 246
+type(
+  'a front Lazy.t -> 'a front
+)
+ident(
+  int_ref Stdlib.Lazy.force "lazy.mli" 60 2783 2783 "lazy.mli" 60 2783 2826
+)
+"lazyList.ml" 16 215 247 "lazyList.ml" 16 215 249
+type(
+  'a front Lazy.t
+)
+ident(
+  int_ref ll "lazyList.ml" 16 215 230 "lazyList.ml" 16 215 232
+)
+"lazyList.ml" 16 215 236 "lazyList.ml" 16 215 249
+type(
+  'a front
+)
+"lazyList.ml" 17 250 254 "lazyList.ml" 17 250 259
+type(
+  'a front -> 'a llist
+)
+ident(
+  def exact "lazyList.ml" 18 287 287 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 17 250 260 "lazyList.ml" 17 250 262
+type(
+  'a front
+)
+ident(
+  def fr "lazyList.ml" 17 250 265 "lazyList.ml" 17 250 286
+)
+"lazyList.ml" 17 250 269 "lazyList.ml" 17 250 282
+type(
+  'a front -> 'a front Lazy.t
+)
+ident(
+  int_ref Stdlib.Lazy.from_val "lazy.mli" 87 3582 3582 "lazy.mli" 87 3582 3607
+)
+"lazyList.ml" 17 250 283 "lazyList.ml" 17 250 285
+type(
+  'a front
+)
+ident(
+  int_ref fr "lazyList.ml" 17 250 260 "lazyList.ml" 17 250 262
+)
+"lazyList.ml" 17 250 268 "lazyList.ml" 17 250 286
+type(
+  'a front Lazy.t
+)
+"lazyList.ml" 17 250 265 "lazyList.ml" 17 250 286
+type(
+  'a llist
+)
+"lazyList.ml" 18 287 291 "lazyList.ml" 18 287 296
+type(
+  (unit -> 'a front) -> 'a llist
+)
+ident(
+  def delay "lazyList.ml" 20 325 325 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 18 287 297 "lazyList.ml" 18 287 299
+type(
+  unit -> 'a front
+)
+ident(
+  def fr "lazyList.ml" 18 287 302 "lazyList.ml" 18 287 323
+)
+"lazyList.ml" 18 287 306 "lazyList.ml" 18 287 319
+type(
+  (unit -> 'a front) -> 'a front Lazy.t
+)
+ident(
+  int_ref Stdlib.Lazy.from_fun "lazy.mli" 116 4645 4645 "lazy.mli" 116 4645 4680
+)
+"lazyList.ml" 18 287 320 "lazyList.ml" 18 287 322
+type(
+  unit -> 'a front
+)
+ident(
+  int_ref fr "lazyList.ml" 18 287 297 "lazyList.ml" 18 287 299
+)
+"lazyList.ml" 18 287 305 "lazyList.ml" 18 287 323
+type(
+  'a front Lazy.t
+)
+"lazyList.ml" 18 287 302 "lazyList.ml" 18 287 323
+type(
+  'a llist
+)
+"lazyList.ml" 20 325 329 "lazyList.ml" 20 325 334
+type(
+  'a llist
+)
+ident(
+  def empty "lazyList.ml" 21 347 347 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 20 325 337 "lazyList.ml" 20 325 342
+type(
+  'a front -> 'a llist
+)
+ident(
+  int_ref exact "lazyList.ml" 17 250 254 "lazyList.ml" 17 250 259
+)
+"lazyList.ml" 20 325 343 "lazyList.ml" 20 325 346
+type(
+  'a front
+)
+"lazyList.ml" 20 325 337 "lazyList.ml" 20 325 346
+type(
+  'a llist
+)
+"lazyList.ml" 21 347 351 "lazyList.ml" 21 347 355
+type(
+  'a -> 'a llist -> 'a llist
+)
+ident(
+  def cons "lazyList.ml" 23 385 385 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 21 347 356 "lazyList.ml" 21 347 357
+type(
+  'a
+)
+ident(
+  def x "lazyList.ml" 21 347 358 "lazyList.ml" 21 347 383
+)
+"lazyList.ml" 21 347 358 "lazyList.ml" 21 347 360
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 21 347 363 "lazyList.ml" 21 347 383
+)
+"lazyList.ml" 21 347 363 "lazyList.ml" 21 347 368
+type(
+  'a front -> 'a llist
+)
+ident(
+  int_ref exact "lazyList.ml" 17 250 254 "lazyList.ml" 17 250 259
+)
+"lazyList.ml" 21 347 376 "lazyList.ml" 21 347 377
+type(
+  'a
+)
+ident(
+  int_ref x "lazyList.ml" 21 347 356 "lazyList.ml" 21 347 357
+)
+"lazyList.ml" 21 347 379 "lazyList.ml" 21 347 381
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 21 347 358 "lazyList.ml" 21 347 360
+)
+"lazyList.ml" 21 347 369 "lazyList.ml" 21 347 383
+type(
+  'a front
+)
+"lazyList.ml" 21 347 363 "lazyList.ml" 21 347 383
+type(
+  'a llist
+)
+"lazyList.ml" 23 385 389 "lazyList.ml" 23 385 393
+type(
+  'a llist -> bool
+)
+ident(
+  def null "lazyList.ml" 27 452 452 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 23 385 394 "lazyList.ml" 23 385 396
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 23 385 399 "lazyList.ml" 25 436 450
+)
+"lazyList.ml" 23 385 405 "lazyList.ml" 23 385 411
+type(
+  'a llist -> 'a front
+)
+ident(
+  int_ref expose "lazyList.ml" 16 215 219 "lazyList.ml" 16 215 225
+)
+"lazyList.ml" 23 385 412 "lazyList.ml" 23 385 414
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 23 385 394 "lazyList.ml" 23 385 396
+)
+"lazyList.ml" 23 385 405 "lazyList.ml" 23 385 414
+type(
+  'a front
+)
+"lazyList.ml" 24 420 424 "lazyList.ml" 24 420 427
+type(
+  'a front
+)
+type(
+  'a front
+)
+"lazyList.ml" 24 420 431 "lazyList.ml" 24 420 435
+type(
+  bool
+)
+"lazyList.ml" 25 436 440 "lazyList.ml" 25 436 441
+type(
+  'a front
+)
+type(
+  'a front
+)
+"lazyList.ml" 25 436 445 "lazyList.ml" 25 436 450
+type(
+  bool
+)
+"lazyList.ml" 23 385 399 "lazyList.ml" 25 436 450
+type(
+  bool
+)
+"lazyList.ml" 27 452 460 "lazyList.ml" 27 452 463
+type(
+  ('a -> 'b) -> 'a llist -> 'b llist
+)
+ident(
+  def map "lazyList.ml" 27 452 452 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 27 452 464 "lazyList.ml" 27 452 465
+type(
+  'a -> 'b
+)
+ident(
+  def f "lazyList.ml" 27 452 466 "lazyList.ml" 32 584 587
+)
+"lazyList.ml" 27 452 466 "lazyList.ml" 27 452 468
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 27 452 471 "lazyList.ml" 32 584 587
+)
+"lazyList.ml" 27 452 471 "lazyList.ml" 27 452 476
+type(
+  (unit -> 'b front) -> 'b llist
+)
+ident(
+  int_ref delay "lazyList.ml" 18 287 291 "lazyList.ml" 18 287 296
+)
+"lazyList.ml" 27 452 487 "lazyList.ml" 27 452 489
+type(
+  unit
+)
+"lazyList.ml" 28 493 501 "lazyList.ml" 28 493 507
+type(
+  'a llist -> 'a front
+)
+ident(
+  int_ref expose "lazyList.ml" 16 215 219 "lazyList.ml" 16 215 225
+)
+"lazyList.ml" 28 493 508 "lazyList.ml" 28 493 510
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 27 452 466 "lazyList.ml" 27 452 468
+)
+"lazyList.ml" 28 493 501 "lazyList.ml" 28 493 510
+type(
+  'a front
+)
+"lazyList.ml" 29 516 522 "lazyList.ml" 29 516 525
+type(
+  'a front
+)
+type(
+  'a front
+)
+"lazyList.ml" 29 516 529 "lazyList.ml" 29 516 532
+type(
+  'b front
+)
+"lazyList.ml" 30 533 545 "lazyList.ml" 30 533 546
+type(
+  'a
+)
+ident(
+  def a "lazyList.ml" 31 555 563 "lazyList.ml" 31 555 583
+)
+"lazyList.ml" 30 533 548 "lazyList.ml" 30 533 550
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 31 555 563 "lazyList.ml" 31 555 583
+)
+"lazyList.ml" 30 533 539 "lazyList.ml" 30 533 551
+type(
+  'a front
+)
+type(
+  'a front
+)
+"lazyList.ml" 31 555 569 "lazyList.ml" 31 555 570
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "lazyList.ml" 27 452 464 "lazyList.ml" 27 452 465
+)
+"lazyList.ml" 31 555 571 "lazyList.ml" 31 555 572
+type(
+  'a
+)
+ident(
+  int_ref a "lazyList.ml" 30 533 545 "lazyList.ml" 30 533 546
+)
+"lazyList.ml" 31 555 569 "lazyList.ml" 31 555 572
+type(
+  'b
+)
+"lazyList.ml" 31 555 574 "lazyList.ml" 31 555 577
+type(
+  ('a -> 'b) -> 'a llist -> 'b llist
+)
+ident(
+  int_ref map "lazyList.ml" 27 452 460 "lazyList.ml" 27 452 463
+)
+"lazyList.ml" 31 555 578 "lazyList.ml" 31 555 579
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "lazyList.ml" 27 452 464 "lazyList.ml" 27 452 465
+)
+"lazyList.ml" 31 555 580 "lazyList.ml" 31 555 582
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 30 533 548 "lazyList.ml" 30 533 550
+)
+"lazyList.ml" 31 555 574 "lazyList.ml" 31 555 582
+type(
+  'b llist
+)
+"lazyList.ml" 31 555 563 "lazyList.ml" 31 555 583
+type(
+  'b front
+)
+"lazyList.ml" 28 493 495 "lazyList.ml" 31 555 583
+type(
+  'b front
+)
+"lazyList.ml" 27 452 477 "lazyList.ml" 32 584 587
+type(
+  unit -> 'b front
+)
+"lazyList.ml" 27 452 471 "lazyList.ml" 32 584 587
+type(
+  'b llist
+)
+"lazyList.ml" 34 589 597 "lazyList.ml" 34 589 603
+type(
+  ('a -> bool) -> 'a llist -> 'a llist
+)
+ident(
+  def filter "lazyList.ml" 34 589 589 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 34 589 604 "lazyList.ml" 34 589 605
+type(
+  'a -> bool
+)
+ident(
+  def f "lazyList.ml" 34 589 606 "lazyList.ml" 40 777 780
+)
+"lazyList.ml" 34 589 606 "lazyList.ml" 34 589 608
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 34 589 611 "lazyList.ml" 40 777 780
+)
+"lazyList.ml" 34 589 611 "lazyList.ml" 34 589 616
+type(
+  (unit -> 'a front) -> 'a llist
+)
+ident(
+  int_ref delay "lazyList.ml" 18 287 291 "lazyList.ml" 18 287 296
+)
+"lazyList.ml" 34 589 627 "lazyList.ml" 34 589 629
+type(
+  unit
+)
+"lazyList.ml" 35 633 641 "lazyList.ml" 35 633 647
+type(
+  'a llist -> 'a front
+)
+ident(
+  int_ref expose "lazyList.ml" 16 215 219 "lazyList.ml" 16 215 225
+)
+"lazyList.ml" 35 633 648 "lazyList.ml" 35 633 650
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 34 589 606 "lazyList.ml" 34 589 608
+)
+"lazyList.ml" 35 633 641 "lazyList.ml" 35 633 650
+type(
+  'a front
+)
+"lazyList.ml" 36 656 662 "lazyList.ml" 36 656 665
+type(
+  'a front
+)
+type(
+  'a front
+)
+"lazyList.ml" 36 656 669 "lazyList.ml" 36 656 672
+type(
+  'a front
+)
+"lazyList.ml" 37 673 685 "lazyList.ml" 37 673 686
+type(
+  'a
+)
+ident(
+  def a "lazyList.ml" 38 695 703 "lazyList.ml" 39 727 776
+)
+"lazyList.ml" 37 673 688 "lazyList.ml" 37 673 690
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 38 695 703 "lazyList.ml" 39 727 776
+)
+"lazyList.ml" 37 673 679 "lazyList.ml" 37 673 691
+type(
+  'a front
+)
+type(
+  'a front
+)
+"lazyList.ml" 38 695 707 "lazyList.ml" 38 695 709
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 39 727 737 "lazyList.ml" 39 727 776
+)
+"lazyList.ml" 38 695 712 "lazyList.ml" 38 695 718
+type(
+  ('a -> bool) -> 'a llist -> 'a llist
+)
+ident(
+  int_ref filter "lazyList.ml" 34 589 597 "lazyList.ml" 34 589 603
+)
+"lazyList.ml" 38 695 719 "lazyList.ml" 38 695 720
+type(
+  'a -> bool
+)
+ident(
+  int_ref f "lazyList.ml" 34 589 604 "lazyList.ml" 34 589 605
+)
+"lazyList.ml" 38 695 721 "lazyList.ml" 38 695 723
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 37 673 688 "lazyList.ml" 37 673 690
+)
+"lazyList.ml" 38 695 712 "lazyList.ml" 38 695 723
+type(
+  'a llist
+)
+"lazyList.ml" 39 727 740 "lazyList.ml" 39 727 741
+type(
+  'a -> bool
+)
+ident(
+  int_ref f "lazyList.ml" 34 589 604 "lazyList.ml" 34 589 605
+)
+"lazyList.ml" 39 727 742 "lazyList.ml" 39 727 743
+type(
+  'a
+)
+ident(
+  int_ref a "lazyList.ml" 37 673 685 "lazyList.ml" 37 673 686
+)
+"lazyList.ml" 39 727 740 "lazyList.ml" 39 727 743
+type(
+  bool
+)
+"lazyList.ml" 39 727 755 "lazyList.ml" 39 727 756
+type(
+  'a
+)
+ident(
+  int_ref a "lazyList.ml" 37 673 685 "lazyList.ml" 37 673 686
+)
+"lazyList.ml" 39 727 758 "lazyList.ml" 39 727 760
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 38 695 707 "lazyList.ml" 38 695 709
+)
+"lazyList.ml" 39 727 749 "lazyList.ml" 39 727 761
+type(
+  'a front
+)
+"lazyList.ml" 39 727 767 "lazyList.ml" 39 727 773
+type(
+  'a llist -> 'a front
+)
+ident(
+  int_ref expose "lazyList.ml" 16 215 219 "lazyList.ml" 16 215 225
+)
+"lazyList.ml" 39 727 774 "lazyList.ml" 39 727 776
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 38 695 707 "lazyList.ml" 38 695 709
+)
+"lazyList.ml" 39 727 767 "lazyList.ml" 39 727 776
+type(
+  'a front
+)
+"lazyList.ml" 39 727 737 "lazyList.ml" 39 727 776
+type(
+  'a front
+)
+"lazyList.ml" 38 695 703 "lazyList.ml" 39 727 776
+type(
+  'a front
+)
+"lazyList.ml" 35 633 635 "lazyList.ml" 39 727 776
+type(
+  'a front
+)
+"lazyList.ml" 34 589 617 "lazyList.ml" 40 777 780
+type(
+  unit -> 'a front
+)
+"lazyList.ml" 34 589 611 "lazyList.ml" 40 777 780
+type(
+  'a llist
+)
+"lazyList.ml" 42 782 790 "lazyList.ml" 42 782 800
+type(
+  ('a -> 'b option) -> 'a llist -> 'b llist
+)
+ident(
+  def filter_map "lazyList.ml" 42 782 782 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 42 782 801 "lazyList.ml" 42 782 802
+type(
+  'a -> 'b option
+)
+ident(
+  def f "lazyList.ml" 42 782 803 "lazyList.ml" 50 1022 1025
+)
+"lazyList.ml" 42 782 803 "lazyList.ml" 42 782 805
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 42 782 808 "lazyList.ml" 50 1022 1025
+)
+"lazyList.ml" 42 782 808 "lazyList.ml" 42 782 813
+type(
+  (unit -> 'b front) -> 'b llist
+)
+ident(
+  int_ref delay "lazyList.ml" 18 287 291 "lazyList.ml" 18 287 296
+)
+"lazyList.ml" 42 782 824 "lazyList.ml" 42 782 826
+type(
+  unit
+)
+"lazyList.ml" 43 830 838 "lazyList.ml" 43 830 844
+type(
+  'a llist -> 'a front
+)
+ident(
+  int_ref expose "lazyList.ml" 16 215 219 "lazyList.ml" 16 215 225
+)
+"lazyList.ml" 43 830 845 "lazyList.ml" 43 830 847
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 42 782 803 "lazyList.ml" 42 782 805
+)
+"lazyList.ml" 43 830 838 "lazyList.ml" 43 830 847
+type(
+  'a front
+)
+"lazyList.ml" 44 853 859 "lazyList.ml" 44 853 862
+type(
+  'a front
+)
+type(
+  'a front
+)
+"lazyList.ml" 44 853 866 "lazyList.ml" 44 853 869
+type(
+  'b front
+)
+"lazyList.ml" 45 870 882 "lazyList.ml" 45 870 883
+type(
+  'a
+)
+ident(
+  def a "lazyList.ml" 46 892 900 "lazyList.ml" 49 985 1021
+)
+"lazyList.ml" 45 870 885 "lazyList.ml" 45 870 887
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 46 892 900 "lazyList.ml" 49 985 1021
+)
+"lazyList.ml" 45 870 876 "lazyList.ml" 45 870 888
+type(
+  'a front
+)
+type(
+  'a front
+)
+"lazyList.ml" 46 892 904 "lazyList.ml" 46 892 906
+type(
+  'b llist
+)
+ident(
+  def ll "lazyList.ml" 47 928 938 "lazyList.ml" 49 985 1021
+)
+"lazyList.ml" 46 892 909 "lazyList.ml" 46 892 919
+type(
+  ('a -> 'b option) -> 'a llist -> 'b llist
+)
+ident(
+  int_ref filter_map "lazyList.ml" 42 782 790 "lazyList.ml" 42 782 800
+)
+"lazyList.ml" 46 892 920 "lazyList.ml" 46 892 921
+type(
+  'a -> 'b option
+)
+ident(
+  int_ref f "lazyList.ml" 42 782 801 "lazyList.ml" 42 782 802
+)
+"lazyList.ml" 46 892 922 "lazyList.ml" 46 892 924
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 45 870 885 "lazyList.ml" 45 870 887
+)
+"lazyList.ml" 46 892 909 "lazyList.ml" 46 892 924
+type(
+  'b llist
+)
+"lazyList.ml" 47 928 944 "lazyList.ml" 47 928 945
+type(
+  'a -> 'b option
+)
+ident(
+  int_ref f "lazyList.ml" 42 782 801 "lazyList.ml" 42 782 802
+)
+"lazyList.ml" 47 928 946 "lazyList.ml" 47 928 947
+type(
+  'a
+)
+ident(
+  int_ref a "lazyList.ml" 45 870 882 "lazyList.ml" 45 870 883
+)
+"lazyList.ml" 47 928 944 "lazyList.ml" 47 928 947
+type(
+  'b option
+)
+"lazyList.ml" 48 953 967 "lazyList.ml" 48 953 971
+type(
+  'b option
+)
+type(
+  'b option
+)
+"lazyList.ml" 48 953 975 "lazyList.ml" 48 953 981
+type(
+  'b llist -> 'b front
+)
+ident(
+  int_ref expose "lazyList.ml" 16 215 219 "lazyList.ml" 16 215 225
+)
+"lazyList.ml" 48 953 982 "lazyList.ml" 48 953 984
+type(
+  'b llist
+)
+ident(
+  int_ref ll "lazyList.ml" 46 892 904 "lazyList.ml" 46 892 906
+)
+"lazyList.ml" 48 953 975 "lazyList.ml" 48 953 984
+type(
+  'b front
+)
+"lazyList.ml" 49 985 1004 "lazyList.ml" 49 985 1005
+type(
+  'b
+)
+ident(
+  def b "lazyList.ml" 49 985 1009 "lazyList.ml" 49 985 1021
+)
+"lazyList.ml" 49 985 999 "lazyList.ml" 49 985 1005
+type(
+  'b option
+)
+type(
+  'b option
+)
+"lazyList.ml" 49 985 1015 "lazyList.ml" 49 985 1016
+type(
+  'b
+)
+ident(
+  int_ref b "lazyList.ml" 49 985 1004 "lazyList.ml" 49 985 1005
+)
+"lazyList.ml" 49 985 1018 "lazyList.ml" 49 985 1020
+type(
+  'b llist
+)
+ident(
+  int_ref ll "lazyList.ml" 46 892 904 "lazyList.ml" 46 892 906
+)
+"lazyList.ml" 49 985 1009 "lazyList.ml" 49 985 1021
+type(
+  'b front
+)
+"lazyList.ml" 47 928 938 "lazyList.ml" 49 985 1021
+type(
+  'b front
+)
+"lazyList.ml" 46 892 900 "lazyList.ml" 49 985 1021
+type(
+  'b front
+)
+"lazyList.ml" 43 830 832 "lazyList.ml" 49 985 1021
+type(
+  'b front
+)
+"lazyList.ml" 42 782 814 "lazyList.ml" 50 1022 1025
+type(
+  unit -> 'b front
+)
+"lazyList.ml" 42 782 808 "lazyList.ml" 50 1022 1025
+type(
+  'b llist
+)
+"lazyList.ml" 52 1027 1031 "lazyList.ml" 52 1027 1034
+type(
+  'a llist -> 'a llist
+)
+ident(
+  def rev "lazyList.ml" 62 1220 1220 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 52 1027 1035 "lazyList.ml" 52 1027 1037
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 53 1040 1042 "lazyList.ml" 60 1211 1218
+)
+"lazyList.ml" 53 1040 1050 "lazyList.ml" 53 1040 1054
+type(
+  'b llist -> 'b front -> 'b front
+)
+ident(
+  def doit "lazyList.ml" 53 1040 1042 "lazyList.ml" 60 1211 1218
+)
+"lazyList.ml" 53 1040 1055 "lazyList.ml" 53 1040 1057
+type(
+  'b llist
+)
+ident(
+  def ll "lazyList.ml" 53 1040 1058 "lazyList.ml" 56 1124 1161
+)
+"lazyList.ml" 53 1040 1058 "lazyList.ml" 53 1040 1061
+type(
+  'b front
+)
+ident(
+  def acc "lazyList.ml" 53 1040 1064 "lazyList.ml" 56 1124 1161
+)
+"lazyList.ml" 53 1040 1070 "lazyList.ml" 53 1040 1076
+type(
+  'b llist -> 'b front
+)
+ident(
+  int_ref expose "lazyList.ml" 16 215 219 "lazyList.ml" 16 215 225
+)
+"lazyList.ml" 53 1040 1077 "lazyList.ml" 53 1040 1079
+type(
+  'b llist
+)
+ident(
+  int_ref ll "lazyList.ml" 53 1040 1055 "lazyList.ml" 53 1040 1057
+)
+"lazyList.ml" 53 1040 1070 "lazyList.ml" 53 1040 1079
+type(
+  'b front
+)
+"lazyList.ml" 54 1085 1091 "lazyList.ml" 54 1085 1094
+type(
+  'b front
+)
+type(
+  'b front
+)
+"lazyList.ml" 54 1085 1098 "lazyList.ml" 54 1085 1101
+type(
+  'b front
+)
+ident(
+  int_ref acc "lazyList.ml" 53 1040 1058 "lazyList.ml" 53 1040 1061
+)
+"lazyList.ml" 55 1102 1114 "lazyList.ml" 55 1102 1115
+type(
+  'b
+)
+ident(
+  def a "lazyList.ml" 56 1124 1132 "lazyList.ml" 56 1124 1161
+)
+"lazyList.ml" 55 1102 1117 "lazyList.ml" 55 1102 1119
+type(
+  'b llist
+)
+ident(
+  def ll "lazyList.ml" 56 1124 1132 "lazyList.ml" 56 1124 1161
+)
+"lazyList.ml" 55 1102 1108 "lazyList.ml" 55 1102 1120
+type(
+  'b front
+)
+type(
+  'b front
+)
+"lazyList.ml" 56 1124 1132 "lazyList.ml" 56 1124 1136
+type(
+  'b llist -> 'b front -> 'b front
+)
+ident(
+  int_ref doit "lazyList.ml" 53 1040 1050 "lazyList.ml" 53 1040 1054
+)
+"lazyList.ml" 56 1124 1137 "lazyList.ml" 56 1124 1139
+type(
+  'b llist
+)
+ident(
+  int_ref ll "lazyList.ml" 55 1102 1117 "lazyList.ml" 55 1102 1119
+)
+"lazyList.ml" 56 1124 1147 "lazyList.ml" 56 1124 1148
+type(
+  'b
+)
+ident(
+  int_ref a "lazyList.ml" 55 1102 1114 "lazyList.ml" 55 1102 1115
+)
+"lazyList.ml" 56 1124 1150 "lazyList.ml" 56 1124 1155
+type(
+  'b front -> 'b llist
+)
+ident(
+  int_ref exact "lazyList.ml" 17 250 254 "lazyList.ml" 17 250 259
+)
+"lazyList.ml" 56 1124 1156 "lazyList.ml" 56 1124 1159
+type(
+  'b front
+)
+ident(
+  int_ref acc "lazyList.ml" 53 1040 1058 "lazyList.ml" 53 1040 1061
+)
+"lazyList.ml" 56 1124 1150 "lazyList.ml" 56 1124 1159
+type(
+  'b llist
+)
+"lazyList.ml" 56 1124 1140 "lazyList.ml" 56 1124 1161
+type(
+  'b front
+)
+"lazyList.ml" 56 1124 1132 "lazyList.ml" 56 1124 1161
+type(
+  'b front
+)
+"lazyList.ml" 53 1040 1064 "lazyList.ml" 56 1124 1161
+type(
+  'b front
+)
+"lazyList.ml" 58 1167 1171 "lazyList.ml" 58 1167 1176
+type(
+  (unit -> 'a front) -> 'a llist
+)
+ident(
+  int_ref delay "lazyList.ml" 18 287 291 "lazyList.ml" 18 287 296
+)
+"lazyList.ml" 58 1167 1187 "lazyList.ml" 58 1167 1189
+type(
+  unit
+)
+"lazyList.ml" 59 1193 1199 "lazyList.ml" 59 1193 1203
+type(
+  'a llist -> 'a front -> 'a front
+)
+ident(
+  int_ref doit "lazyList.ml" 53 1040 1050 "lazyList.ml" 53 1040 1054
+)
+"lazyList.ml" 59 1193 1204 "lazyList.ml" 59 1193 1206
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 52 1027 1035 "lazyList.ml" 52 1027 1037
+)
+"lazyList.ml" 59 1193 1207 "lazyList.ml" 59 1193 1210
+type(
+  'a front
+)
+"lazyList.ml" 59 1193 1199 "lazyList.ml" 59 1193 1210
+type(
+  'a front
+)
+"lazyList.ml" 58 1167 1177 "lazyList.ml" 60 1211 1218
+type(
+  unit -> 'a front
+)
+"lazyList.ml" 58 1167 1171 "lazyList.ml" 60 1211 1218
+type(
+  'a llist
+)
+"lazyList.ml" 53 1040 1042 "lazyList.ml" 60 1211 1218
+type(
+  'a llist
+)
+"lazyList.ml" 62 1220 1228 "lazyList.ml" 62 1220 1237
+type(
+  ('a -> 'b -> 'a) -> 'a -> 'b llist -> 'a
+)
+ident(
+  def fold_left "lazyList.ml" 62 1220 1220 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 62 1220 1238 "lazyList.ml" 62 1220 1239
+type(
+  'a -> 'b -> 'a
+)
+ident(
+  def f "lazyList.ml" 62 1220 1240 "lazyList.ml" 66 1307 1337
+)
+"lazyList.ml" 62 1220 1240 "lazyList.ml" 62 1220 1241
+type(
+  'a
+)
+ident(
+  def a "lazyList.ml" 62 1220 1242 "lazyList.ml" 66 1307 1337
+)
+"lazyList.ml" 62 1220 1242 "lazyList.ml" 62 1220 1244
+type(
+  'b llist
+)
+ident(
+  def ll "lazyList.ml" 63 1247 1249 "lazyList.ml" 66 1307 1337
+)
+"lazyList.ml" 63 1247 1255 "lazyList.ml" 63 1247 1261
+type(
+  'b llist -> 'b front
+)
+ident(
+  int_ref expose "lazyList.ml" 16 215 219 "lazyList.ml" 16 215 225
+)
+"lazyList.ml" 63 1247 1262 "lazyList.ml" 63 1247 1264
+type(
+  'b llist
+)
+ident(
+  int_ref ll "lazyList.ml" 62 1220 1242 "lazyList.ml" 62 1220 1244
+)
+"lazyList.ml" 63 1247 1255 "lazyList.ml" 63 1247 1264
+type(
+  'b front
+)
+"lazyList.ml" 64 1270 1276 "lazyList.ml" 64 1270 1279
+type(
+  'b front
+)
+type(
+  'b front
+)
+"lazyList.ml" 64 1270 1283 "lazyList.ml" 64 1270 1284
+type(
+  'a
+)
+ident(
+  int_ref a "lazyList.ml" 62 1220 1240 "lazyList.ml" 62 1220 1241
+)
+"lazyList.ml" 65 1285 1297 "lazyList.ml" 65 1285 1298
+type(
+  'b
+)
+ident(
+  def b "lazyList.ml" 66 1307 1315 "lazyList.ml" 66 1307 1337
+)
+"lazyList.ml" 65 1285 1300 "lazyList.ml" 65 1285 1302
+type(
+  'b llist
+)
+ident(
+  def ll "lazyList.ml" 66 1307 1315 "lazyList.ml" 66 1307 1337
+)
+"lazyList.ml" 65 1285 1291 "lazyList.ml" 65 1285 1303
+type(
+  'b front
+)
+type(
+  'b front
+)
+"lazyList.ml" 66 1307 1315 "lazyList.ml" 66 1307 1324
+type(
+  ('a -> 'b -> 'a) -> 'a -> 'b llist -> 'a
+)
+ident(
+  int_ref fold_left "lazyList.ml" 62 1220 1228 "lazyList.ml" 62 1220 1237
+)
+"lazyList.ml" 66 1307 1325 "lazyList.ml" 66 1307 1326
+type(
+  'a -> 'b -> 'a
+)
+ident(
+  int_ref f "lazyList.ml" 62 1220 1238 "lazyList.ml" 62 1220 1239
+)
+"lazyList.ml" 66 1307 1328 "lazyList.ml" 66 1307 1329
+type(
+  'a -> 'b -> 'a
+)
+ident(
+  int_ref f "lazyList.ml" 62 1220 1238 "lazyList.ml" 62 1220 1239
+)
+"lazyList.ml" 66 1307 1330 "lazyList.ml" 66 1307 1331
+type(
+  'a
+)
+ident(
+  int_ref a "lazyList.ml" 62 1220 1240 "lazyList.ml" 62 1220 1241
+)
+"lazyList.ml" 66 1307 1332 "lazyList.ml" 66 1307 1333
+type(
+  'b
+)
+ident(
+  int_ref b "lazyList.ml" 65 1285 1297 "lazyList.ml" 65 1285 1298
+)
+"lazyList.ml" 66 1307 1327 "lazyList.ml" 66 1307 1334
+type(
+  'a
+)
+"lazyList.ml" 66 1307 1335 "lazyList.ml" 66 1307 1337
+type(
+  'b llist
+)
+ident(
+  int_ref ll "lazyList.ml" 65 1285 1300 "lazyList.ml" 65 1285 1302
+)
+"lazyList.ml" 66 1307 1315 "lazyList.ml" 66 1307 1337
+type(
+  'a
+)
+"lazyList.ml" 63 1247 1249 "lazyList.ml" 66 1307 1337
+type(
+  'a
+)
+"lazyList.ml" 69 1375 1379 "lazyList.ml" 69 1375 1393
+type(
+  int
+)
+ident(
+  def fold_right_max "lazyList.ml" 70 1400 1400 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 69 1375 1396 "lazyList.ml" 69 1375 1399
+type(
+  int
+)
+"lazyList.ml" 70 1400 1404 "lazyList.ml" 70 1400 1414
+type(
+  ('a -> 'b -> 'b) -> 'a llist -> 'b -> 'b
+)
+ident(
+  def fold_right "lazyList.ml" 86 1774 1774 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 70 1400 1415 "lazyList.ml" 70 1400 1416
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  def f "lazyList.ml" 70 1400 1417 "lazyList.ml" 84 1759 1772
+)
+"lazyList.ml" 70 1400 1417 "lazyList.ml" 70 1400 1419
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 70 1400 1420 "lazyList.ml" 84 1759 1772
+)
+"lazyList.ml" 70 1400 1420 "lazyList.ml" 70 1400 1424
+type(
+  'b
+)
+ident(
+  def init "lazyList.ml" 71 1427 1429 "lazyList.ml" 84 1759 1772
+)
+"lazyList.ml" 71 1427 1437 "lazyList.ml" 71 1427 1446
+type(
+  'b -> 'a llist -> 'b
+)
+ident(
+  def tail_loop "lazyList.ml" 71 1427 1429 "lazyList.ml" 84 1759 1772
+)
+"lazyList.ml" 71 1427 1447 "lazyList.ml" 71 1427 1450
+type(
+  'b
+)
+ident(
+  def acc "lazyList.ml" 71 1427 1451 "lazyList.ml" 74 1519 1550
+)
+"lazyList.ml" 71 1427 1451 "lazyList.ml" 71 1427 1453
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 71 1427 1456 "lazyList.ml" 74 1519 1550
+)
+"lazyList.ml" 71 1427 1462 "lazyList.ml" 71 1427 1468
+type(
+  'a llist -> 'a front
+)
+ident(
+  int_ref expose "lazyList.ml" 16 215 219 "lazyList.ml" 16 215 225
+)
+"lazyList.ml" 71 1427 1469 "lazyList.ml" 71 1427 1471
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 71 1427 1451 "lazyList.ml" 71 1427 1453
+)
+"lazyList.ml" 71 1427 1462 "lazyList.ml" 71 1427 1471
+type(
+  'a front
+)
+"lazyList.ml" 72 1477 1485 "lazyList.ml" 72 1477 1488
+type(
+  'a front
+)
+type(
+  'a front
+)
+"lazyList.ml" 72 1477 1492 "lazyList.ml" 72 1477 1495
+type(
+  'b
+)
+ident(
+  int_ref acc "lazyList.ml" 71 1427 1447 "lazyList.ml" 71 1427 1450
+)
+"lazyList.ml" 73 1496 1510 "lazyList.ml" 73 1496 1511
+type(
+  'a
+)
+ident(
+  def h "lazyList.ml" 74 1519 1529 "lazyList.ml" 74 1519 1550
+)
+"lazyList.ml" 73 1496 1513 "lazyList.ml" 73 1496 1514
+type(
+  'a llist
+)
+ident(
+  def t "lazyList.ml" 74 1519 1529 "lazyList.ml" 74 1519 1550
+)
+"lazyList.ml" 73 1496 1504 "lazyList.ml" 73 1496 1515
+type(
+  'a front
+)
+type(
+  'a front
+)
+"lazyList.ml" 74 1519 1529 "lazyList.ml" 74 1519 1538
+type(
+  'b -> 'a llist -> 'b
+)
+ident(
+  int_ref tail_loop "lazyList.ml" 71 1427 1437 "lazyList.ml" 71 1427 1446
+)
+"lazyList.ml" 74 1519 1540 "lazyList.ml" 74 1519 1541
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  int_ref f "lazyList.ml" 70 1400 1415 "lazyList.ml" 70 1400 1416
+)
+"lazyList.ml" 74 1519 1542 "lazyList.ml" 74 1519 1543
+type(
+  'a
+)
+ident(
+  int_ref h "lazyList.ml" 73 1496 1510 "lazyList.ml" 73 1496 1511
+)
+"lazyList.ml" 74 1519 1544 "lazyList.ml" 74 1519 1547
+type(
+  'b
+)
+ident(
+  int_ref acc "lazyList.ml" 71 1427 1447 "lazyList.ml" 71 1427 1450
+)
+"lazyList.ml" 74 1519 1539 "lazyList.ml" 74 1519 1548
+type(
+  'b
+)
+"lazyList.ml" 74 1519 1549 "lazyList.ml" 74 1519 1550
+type(
+  'a llist
+)
+ident(
+  int_ref t "lazyList.ml" 73 1496 1513 "lazyList.ml" 73 1496 1514
+)
+"lazyList.ml" 74 1519 1529 "lazyList.ml" 74 1519 1550
+type(
+  'b
+)
+"lazyList.ml" 71 1427 1456 "lazyList.ml" 74 1519 1550
+type(
+  'b
+)
+"lazyList.ml" 76 1556 1566 "lazyList.ml" 76 1556 1570
+type(
+  int -> 'a llist -> 'b
+)
+ident(
+  def loop "lazyList.ml" 76 1556 1558 "lazyList.ml" 84 1759 1772
+)
+"lazyList.ml" 76 1556 1571 "lazyList.ml" 76 1556 1572
+type(
+  int
+)
+ident(
+  def n "lazyList.ml" 76 1556 1573 "lazyList.ml" 82 1715 1753
+)
+"lazyList.ml" 76 1556 1573 "lazyList.ml" 76 1556 1575
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 76 1556 1578 "lazyList.ml" 82 1715 1753
+)
+"lazyList.ml" 76 1556 1584 "lazyList.ml" 76 1556 1590
+type(
+  'a llist -> 'a front
+)
+ident(
+  int_ref expose "lazyList.ml" 16 215 219 "lazyList.ml" 16 215 225
+)
+"lazyList.ml" 76 1556 1591 "lazyList.ml" 76 1556 1593
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 76 1556 1573 "lazyList.ml" 76 1556 1575
+)
+"lazyList.ml" 76 1556 1584 "lazyList.ml" 76 1556 1593
+type(
+  'a front
+)
+"lazyList.ml" 77 1599 1605 "lazyList.ml" 77 1599 1608
+type(
+  'a front
+)
+type(
+  'a front
+)
+"lazyList.ml" 77 1599 1612 "lazyList.ml" 77 1599 1616
+type(
+  'b
+)
+ident(
+  int_ref init "lazyList.ml" 70 1400 1420 "lazyList.ml" 70 1400 1424
+)
+"lazyList.ml" 78 1617 1629 "lazyList.ml" 78 1617 1630
+type(
+  'a
+)
+ident(
+  def h "lazyList.ml" 79 1638 1646 "lazyList.ml" 82 1715 1753
+)
+"lazyList.ml" 78 1617 1632 "lazyList.ml" 78 1617 1633
+type(
+  'a llist
+)
+ident(
+  def t "lazyList.ml" 79 1638 1646 "lazyList.ml" 82 1715 1753
+)
+"lazyList.ml" 78 1617 1623 "lazyList.ml" 78 1617 1634
+type(
+  'a front
+)
+type(
+  'a front
+)
+"lazyList.ml" 79 1638 1649 "lazyList.ml" 79 1638 1650
+type(
+  int
+)
+ident(
+  int_ref n "lazyList.ml" 76 1556 1571 "lazyList.ml" 76 1556 1572
+)
+"lazyList.ml" 79 1638 1651 "lazyList.ml" 79 1638 1652
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 135 5721 5721 "stdlib.mli" 135 5721 5768
+)
+"lazyList.ml" 79 1638 1653 "lazyList.ml" 79 1638 1667
+type(
+  int
+)
+ident(
+  int_ref fold_right_max "lazyList.ml" 69 1375 1379 "lazyList.ml" 69 1375 1393
+)
+"lazyList.ml" 79 1638 1649 "lazyList.ml" 79 1638 1667
+type(
+  bool
+)
+"lazyList.ml" 80 1673 1683 "lazyList.ml" 80 1673 1684
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  int_ref f "lazyList.ml" 70 1400 1415 "lazyList.ml" 70 1400 1416
+)
+"lazyList.ml" 80 1673 1685 "lazyList.ml" 80 1673 1686
+type(
+  'a
+)
+ident(
+  int_ref h "lazyList.ml" 78 1617 1629 "lazyList.ml" 78 1617 1630
+)
+"lazyList.ml" 80 1673 1688 "lazyList.ml" 80 1673 1692
+type(
+  int -> 'a llist -> 'b
+)
+ident(
+  int_ref loop "lazyList.ml" 76 1556 1566 "lazyList.ml" 76 1556 1570
+)
+"lazyList.ml" 80 1673 1694 "lazyList.ml" 80 1673 1695
+type(
+  int
+)
+ident(
+  int_ref n "lazyList.ml" 76 1556 1571 "lazyList.ml" 76 1556 1572
+)
+"lazyList.ml" 80 1673 1695 "lazyList.ml" 80 1673 1696
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"lazyList.ml" 80 1673 1696 "lazyList.ml" 80 1673 1697
+type(
+  int
+)
+"lazyList.ml" 80 1673 1693 "lazyList.ml" 80 1673 1698
+type(
+  int
+)
+"lazyList.ml" 80 1673 1699 "lazyList.ml" 80 1673 1700
+type(
+  'a llist
+)
+ident(
+  int_ref t "lazyList.ml" 78 1617 1632 "lazyList.ml" 78 1617 1633
+)
+"lazyList.ml" 80 1673 1687 "lazyList.ml" 80 1673 1701
+type(
+  'b
+)
+"lazyList.ml" 80 1673 1683 "lazyList.ml" 80 1673 1701
+type(
+  'b
+)
+"lazyList.ml" 82 1715 1725 "lazyList.ml" 82 1715 1726
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  int_ref f "lazyList.ml" 70 1400 1415 "lazyList.ml" 70 1400 1416
+)
+"lazyList.ml" 82 1715 1727 "lazyList.ml" 82 1715 1728
+type(
+  'a
+)
+ident(
+  int_ref h "lazyList.ml" 78 1617 1629 "lazyList.ml" 78 1617 1630
+)
+"lazyList.ml" 82 1715 1730 "lazyList.ml" 82 1715 1739
+type(
+  'b -> 'a llist -> 'b
+)
+ident(
+  int_ref tail_loop "lazyList.ml" 71 1427 1437 "lazyList.ml" 71 1427 1446
+)
+"lazyList.ml" 82 1715 1740 "lazyList.ml" 82 1715 1744
+type(
+  'b
+)
+ident(
+  int_ref init "lazyList.ml" 70 1400 1420 "lazyList.ml" 70 1400 1424
+)
+"lazyList.ml" 82 1715 1746 "lazyList.ml" 82 1715 1749
+type(
+  'a llist -> 'a llist
+)
+ident(
+  int_ref rev "lazyList.ml" 52 1027 1031 "lazyList.ml" 52 1027 1034
+)
+"lazyList.ml" 82 1715 1750 "lazyList.ml" 82 1715 1751
+type(
+  'a llist
+)
+ident(
+  int_ref t "lazyList.ml" 78 1617 1632 "lazyList.ml" 78 1617 1633
+)
+"lazyList.ml" 82 1715 1745 "lazyList.ml" 82 1715 1752
+type(
+  'a llist
+)
+"lazyList.ml" 82 1715 1729 "lazyList.ml" 82 1715 1753
+type(
+  'b
+)
+"lazyList.ml" 82 1715 1725 "lazyList.ml" 82 1715 1753
+type(
+  'b
+)
+"lazyList.ml" 79 1638 1646 "lazyList.ml" 82 1715 1753
+type(
+  'b
+)
+"lazyList.ml" 76 1556 1578 "lazyList.ml" 82 1715 1753
+type(
+  'b
+)
+"lazyList.ml" 84 1759 1763 "lazyList.ml" 84 1759 1767
+type(
+  int -> 'a llist -> 'b
+)
+ident(
+  int_ref loop "lazyList.ml" 76 1556 1566 "lazyList.ml" 76 1556 1570
+)
+"lazyList.ml" 84 1759 1768 "lazyList.ml" 84 1759 1769
+type(
+  int
+)
+"lazyList.ml" 84 1759 1770 "lazyList.ml" 84 1759 1772
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 70 1400 1417 "lazyList.ml" 70 1400 1419
+)
+"lazyList.ml" 84 1759 1763 "lazyList.ml" 84 1759 1772
+type(
+  'b
+)
+"lazyList.ml" 76 1556 1558 "lazyList.ml" 84 1759 1772
+type(
+  'b
+)
+"lazyList.ml" 71 1427 1429 "lazyList.ml" 84 1759 1772
+type(
+  'b
+)
+"lazyList.ml" 86 1774 1782 "lazyList.ml" 86 1774 1788
+type(
+  'a -> ('a -> ('b * 'a) option) -> 'b llist
+)
+ident(
+  def unfold "lazyList.ml" 86 1774 1774 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 86 1774 1789 "lazyList.ml" 86 1774 1790
+type(
+  'a
+)
+ident(
+  def i "lazyList.ml" 86 1774 1791 "lazyList.ml" 92 1910 1913
+)
+"lazyList.ml" 86 1774 1791 "lazyList.ml" 86 1774 1792
+type(
+  'a -> ('b * 'a) option
+)
+ident(
+  def f "lazyList.ml" 86 1774 1795 "lazyList.ml" 92 1910 1913
+)
+"lazyList.ml" 86 1774 1795 "lazyList.ml" 86 1774 1800
+type(
+  (unit -> 'b front) -> 'b llist
+)
+ident(
+  int_ref delay "lazyList.ml" 18 287 291 "lazyList.ml" 18 287 296
+)
+"lazyList.ml" 86 1774 1811 "lazyList.ml" 86 1774 1813
+type(
+  unit
+)
+"lazyList.ml" 87 1817 1825 "lazyList.ml" 87 1817 1826
+type(
+  'a -> ('b * 'a) option
+)
+ident(
+  int_ref f "lazyList.ml" 86 1774 1791 "lazyList.ml" 86 1774 1792
+)
+"lazyList.ml" 87 1817 1827 "lazyList.ml" 87 1817 1828
+type(
+  'a
+)
+ident(
+  int_ref i "lazyList.ml" 86 1774 1789 "lazyList.ml" 86 1774 1790
+)
+"lazyList.ml" 87 1817 1825 "lazyList.ml" 87 1817 1828
+type(
+  ('b * 'a) option
+)
+"lazyList.ml" 88 1834 1846 "lazyList.ml" 88 1834 1847
+type(
+  'b
+)
+ident(
+  def x "lazyList.ml" 89 1855 1863 "lazyList.ml" 89 1855 1883
+)
+"lazyList.ml" 88 1834 1849 "lazyList.ml" 88 1834 1850
+type(
+  'a
+)
+ident(
+  def i "lazyList.ml" 89 1855 1863 "lazyList.ml" 89 1855 1883
+)
+"lazyList.ml" 88 1834 1845 "lazyList.ml" 88 1834 1851
+type(
+  'b * 'a
+)
+"lazyList.ml" 88 1834 1840 "lazyList.ml" 88 1834 1851
+type(
+  ('b * 'a) option
+)
+type(
+  ('b * 'a) option
+)
+"lazyList.ml" 89 1855 1869 "lazyList.ml" 89 1855 1870
+type(
+  'b
+)
+ident(
+  int_ref x "lazyList.ml" 88 1834 1846 "lazyList.ml" 88 1834 1847
+)
+"lazyList.ml" 89 1855 1872 "lazyList.ml" 89 1855 1878
+type(
+  'a -> ('a -> ('b * 'a) option) -> 'b llist
+)
+ident(
+  int_ref unfold "lazyList.ml" 86 1774 1782 "lazyList.ml" 86 1774 1788
+)
+"lazyList.ml" 89 1855 1879 "lazyList.ml" 89 1855 1880
+type(
+  'a
+)
+ident(
+  int_ref i "lazyList.ml" 88 1834 1849 "lazyList.ml" 88 1834 1850
+)
+"lazyList.ml" 89 1855 1881 "lazyList.ml" 89 1855 1882
+type(
+  'a -> ('b * 'a) option
+)
+ident(
+  int_ref f "lazyList.ml" 86 1774 1791 "lazyList.ml" 86 1774 1792
+)
+"lazyList.ml" 89 1855 1872 "lazyList.ml" 89 1855 1882
+type(
+  'b llist
+)
+"lazyList.ml" 89 1855 1863 "lazyList.ml" 89 1855 1883
+type(
+  'b front
+)
+"lazyList.ml" 90 1884 1890 "lazyList.ml" 90 1884 1894
+type(
+  ('b * 'a) option
+)
+type(
+  ('b * 'a) option
+)
+"lazyList.ml" 91 1898 1906 "lazyList.ml" 91 1898 1909
+type(
+  'b front
+)
+"lazyList.ml" 87 1817 1819 "lazyList.ml" 91 1898 1909
+type(
+  'b front
+)
+"lazyList.ml" 86 1774 1801 "lazyList.ml" 92 1910 1913
+type(
+  unit -> 'b front
+)
+"lazyList.ml" 86 1774 1795 "lazyList.ml" 92 1910 1913
+type(
+  'b llist
+)
+"lazyList.ml" 94 1915 1919 "lazyList.ml" 94 1915 1925
+type(
+  'a llist -> int
+)
+ident(
+  def length "lazyList.ml" 96 1966 1966 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 94 1915 1926 "lazyList.ml" 94 1915 1928
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 94 1915 1931 "lazyList.ml" 94 1915 1964
+)
+"lazyList.ml" 94 1915 1931 "lazyList.ml" 94 1915 1940
+type(
+  (int -> 'a -> int) -> int -> 'a llist -> int
+)
+ident(
+  int_ref fold_left "lazyList.ml" 62 1220 1228 "lazyList.ml" 62 1220 1237
+)
+"lazyList.ml" 94 1915 1946 "lazyList.ml" 94 1915 1947
+type(
+  int
+)
+ident(
+  def n "lazyList.ml" 94 1915 1948 "lazyList.ml" 94 1915 1958
+)
+"lazyList.ml" 94 1915 1948 "lazyList.ml" 94 1915 1949
+type(
+  'a
+)
+"lazyList.ml" 94 1915 1953 "lazyList.ml" 94 1915 1954
+type(
+  int
+)
+ident(
+  int_ref n "lazyList.ml" 94 1915 1946 "lazyList.ml" 94 1915 1947
+)
+"lazyList.ml" 94 1915 1955 "lazyList.ml" 94 1915 1956
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"lazyList.ml" 94 1915 1957 "lazyList.ml" 94 1915 1958
+type(
+  int
+)
+"lazyList.ml" 94 1915 1953 "lazyList.ml" 94 1915 1958
+type(
+  int
+)
+"lazyList.ml" 94 1915 1941 "lazyList.ml" 94 1915 1959
+type(
+  int -> 'a -> int
+)
+"lazyList.ml" 94 1915 1960 "lazyList.ml" 94 1915 1961
+type(
+  int
+)
+"lazyList.ml" 94 1915 1962 "lazyList.ml" 94 1915 1964
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 94 1915 1926 "lazyList.ml" 94 1915 1928
+)
+"lazyList.ml" 94 1915 1931 "lazyList.ml" 94 1915 1964
+type(
+  int
+)
+"lazyList.ml" 96 1966 1974 "lazyList.ml" 96 1966 1979
+type(
+  'a list -> 'a llist -> int -> 'a list * 'a llist
+)
+ident(
+  def split "lazyList.ml" 96 1966 1966 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 96 1966 1980 "lazyList.ml" 96 1966 1985
+type(
+  'a list
+)
+ident(
+  def inits "lazyList.ml" 96 1966 1986 "lazyList.ml" 101 2129 2175
+)
+"lazyList.ml" 96 1966 1986 "lazyList.ml" 96 1966 1988
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 96 1966 1991 "lazyList.ml" 101 2129 2175
+)
+"lazyList.ml" 97 2000 2004 "lazyList.ml" 97 2000 2005
+type(
+  int
+)
+"lazyList.ml" 97 2000 2010 "lazyList.ml" 97 2000 2015
+type(
+  'a list
+)
+ident(
+  int_ref inits "lazyList.ml" 96 1966 1980 "lazyList.ml" 96 1966 1985
+)
+"lazyList.ml" 97 2000 2017 "lazyList.ml" 97 2000 2019
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 96 1966 1986 "lazyList.ml" 96 1966 1988
+)
+"lazyList.ml" 97 2000 2009 "lazyList.ml" 97 2000 2020
+type(
+  'a list * 'a llist
+)
+"lazyList.ml" 98 2021 2025 "lazyList.ml" 98 2021 2026
+type(
+  int
+)
+ident(
+  def n "lazyList.ml" 98 2021 2030 "lazyList.ml" 101 2129 2175
+)
+"lazyList.ml" 98 2021 2037 "lazyList.ml" 98 2021 2043
+type(
+  'a llist -> 'a front
+)
+ident(
+  int_ref expose "lazyList.ml" 16 215 219 "lazyList.ml" 16 215 225
+)
+"lazyList.ml" 98 2021 2044 "lazyList.ml" 98 2021 2046
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 96 1966 1986 "lazyList.ml" 96 1966 1988
+)
+"lazyList.ml" 98 2021 2037 "lazyList.ml" 98 2021 2046
+type(
+  'a front
+)
+"lazyList.ml" 99 2052 2066 "lazyList.ml" 99 2052 2069
+type(
+  'a front
+)
+type(
+  'a front
+)
+"lazyList.ml" 99 2052 2073 "lazyList.ml" 99 2052 2081
+type(
+  string -> 'a list * 'a llist
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"lazyList.ml" 99 2052 2082 "lazyList.ml" 99 2052 2098
+type(
+  string
+)
+"lazyList.ml" 99 2052 2073 "lazyList.ml" 99 2052 2098
+type(
+  'a list * 'a llist
+)
+"lazyList.ml" 100 2099 2119 "lazyList.ml" 100 2099 2120
+type(
+  'a
+)
+ident(
+  def a "lazyList.ml" 101 2129 2145 "lazyList.ml" 101 2129 2174
+)
+"lazyList.ml" 100 2099 2122 "lazyList.ml" 100 2099 2124
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 101 2129 2145 "lazyList.ml" 101 2129 2174
+)
+"lazyList.ml" 100 2099 2113 "lazyList.ml" 100 2099 2125
+type(
+  'a front
+)
+type(
+  'a front
+)
+"lazyList.ml" 101 2129 2145 "lazyList.ml" 101 2129 2150
+type(
+  'a list -> 'a llist -> int -> 'a list * 'a llist
+)
+ident(
+  int_ref split "lazyList.ml" 96 1966 1974 "lazyList.ml" 96 1966 1979
+)
+"lazyList.ml" 101 2129 2152 "lazyList.ml" 101 2129 2153
+type(
+  'a
+)
+ident(
+  int_ref a "lazyList.ml" 100 2099 2119 "lazyList.ml" 100 2099 2120
+)
+"lazyList.ml" 101 2129 2157 "lazyList.ml" 101 2129 2162
+type(
+  'a list
+)
+ident(
+  int_ref inits "lazyList.ml" 96 1966 1980 "lazyList.ml" 96 1966 1985
+)
+"lazyList.ml" 101 2129 2151 "lazyList.ml" 101 2129 2163
+type(
+  'a list
+)
+"lazyList.ml" 101 2129 2164 "lazyList.ml" 101 2129 2166
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 100 2099 2122 "lazyList.ml" 100 2099 2124
+)
+"lazyList.ml" 101 2129 2168 "lazyList.ml" 101 2129 2169
+type(
+  int
+)
+ident(
+  int_ref n "lazyList.ml" 98 2021 2025 "lazyList.ml" 98 2021 2026
+)
+"lazyList.ml" 101 2129 2170 "lazyList.ml" 101 2129 2171
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"lazyList.ml" 101 2129 2172 "lazyList.ml" 101 2129 2173
+type(
+  int
+)
+"lazyList.ml" 101 2129 2167 "lazyList.ml" 101 2129 2174
+type(
+  int
+)
+"lazyList.ml" 101 2129 2145 "lazyList.ml" 101 2129 2174
+type(
+  'a list * 'a llist
+)
+"lazyList.ml" 98 2021 2030 "lazyList.ml" 101 2129 2175
+type(
+  'a list * 'a llist
+)
+"lazyList.ml" 96 1966 1991 "lazyList.ml" 101 2129 2175
+type(
+  int -> 'a list * 'a llist
+)
+"lazyList.ml" 104 2178 2182 "lazyList.ml" 104 2178 2184
+type(
+  'a llist -> 'a
+)
+ident(
+  def hd "lazyList.ml" 109 2274 2274 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 104 2178 2185 "lazyList.ml" 104 2178 2187
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 105 2190 2192 "lazyList.ml" 107 2249 2272
+)
+"lazyList.ml" 105 2190 2198 "lazyList.ml" 105 2190 2204
+type(
+  'a llist -> 'a front
+)
+ident(
+  int_ref expose "lazyList.ml" 16 215 219 "lazyList.ml" 16 215 225
+)
+"lazyList.ml" 105 2190 2205 "lazyList.ml" 105 2190 2207
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 104 2178 2185 "lazyList.ml" 104 2178 2187
+)
+"lazyList.ml" 105 2190 2198 "lazyList.ml" 105 2190 2207
+type(
+  'a front
+)
+"lazyList.ml" 106 2213 2219 "lazyList.ml" 106 2213 2222
+type(
+  'a front
+)
+type(
+  'a front
+)
+"lazyList.ml" 106 2213 2226 "lazyList.ml" 106 2213 2234
+type(
+  string -> 'a
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"lazyList.ml" 106 2213 2235 "lazyList.ml" 106 2213 2248
+type(
+  string
+)
+"lazyList.ml" 106 2213 2226 "lazyList.ml" 106 2213 2248
+type(
+  'a
+)
+"lazyList.ml" 107 2249 2261 "lazyList.ml" 107 2249 2262
+type(
+  'a
+)
+ident(
+  def a "lazyList.ml" 107 2249 2271 "lazyList.ml" 107 2249 2272
+)
+"lazyList.ml" 107 2249 2264 "lazyList.ml" 107 2249 2266
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 107 2249 2271 "lazyList.ml" 107 2249 2272
+)
+"lazyList.ml" 107 2249 2255 "lazyList.ml" 107 2249 2267
+type(
+  'a front
+)
+type(
+  'a front
+)
+"lazyList.ml" 107 2249 2271 "lazyList.ml" 107 2249 2272
+type(
+  'a
+)
+ident(
+  int_ref a "lazyList.ml" 107 2249 2261 "lazyList.ml" 107 2249 2262
+)
+"lazyList.ml" 105 2190 2192 "lazyList.ml" 107 2249 2272
+type(
+  'a
+)
+"lazyList.ml" 109 2274 2278 "lazyList.ml" 109 2274 2280
+type(
+  'a llist -> 'a llist
+)
+ident(
+  def tl "lazyList.ml" 115 2407 2407 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 109 2274 2281 "lazyList.ml" 109 2274 2283
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 109 2274 2286 "lazyList.ml" 113 2366 2405
+)
+"lazyList.ml" 109 2274 2286 "lazyList.ml" 109 2274 2291
+type(
+  (unit -> 'a front) -> 'a llist
+)
+ident(
+  int_ref delay "lazyList.ml" 18 287 291 "lazyList.ml" 18 287 296
+)
+"lazyList.ml" 110 2292 2299 "lazyList.ml" 110 2292 2301
+type(
+  unit
+)
+"lazyList.ml" 111 2305 2316 "lazyList.ml" 111 2305 2322
+type(
+  'a llist -> 'a front
+)
+ident(
+  int_ref expose "lazyList.ml" 16 215 219 "lazyList.ml" 16 215 225
+)
+"lazyList.ml" 111 2305 2323 "lazyList.ml" 111 2305 2325
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 109 2274 2281 "lazyList.ml" 109 2274 2283
+)
+"lazyList.ml" 111 2305 2316 "lazyList.ml" 111 2305 2325
+type(
+  'a front
+)
+"lazyList.ml" 112 2331 2346 "lazyList.ml" 112 2331 2347
+type(
+  'a
+)
+ident(
+  def a "lazyList.ml" 112 2331 2356 "lazyList.ml" 112 2331 2365
+)
+"lazyList.ml" 112 2331 2349 "lazyList.ml" 112 2331 2351
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 112 2331 2356 "lazyList.ml" 112 2331 2365
+)
+"lazyList.ml" 112 2331 2340 "lazyList.ml" 112 2331 2352
+type(
+  'a front
+)
+type(
+  'a front
+)
+"lazyList.ml" 112 2331 2356 "lazyList.ml" 112 2331 2362
+type(
+  'a llist -> 'a front
+)
+ident(
+  int_ref expose "lazyList.ml" 16 215 219 "lazyList.ml" 16 215 225
+)
+"lazyList.ml" 112 2331 2363 "lazyList.ml" 112 2331 2365
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 112 2331 2349 "lazyList.ml" 112 2331 2351
+)
+"lazyList.ml" 112 2331 2356 "lazyList.ml" 112 2331 2365
+type(
+  'a front
+)
+"lazyList.ml" 113 2366 2375 "lazyList.ml" 113 2366 2378
+type(
+  'a front
+)
+type(
+  'a front
+)
+"lazyList.ml" 113 2366 2382 "lazyList.ml" 113 2366 2390
+type(
+  string -> 'a front
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"lazyList.ml" 113 2366 2391 "lazyList.ml" 113 2366 2404
+type(
+  string
+)
+"lazyList.ml" 113 2366 2382 "lazyList.ml" 113 2366 2404
+type(
+  'a front
+)
+"lazyList.ml" 111 2305 2310 "lazyList.ml" 113 2366 2404
+type(
+  'a front
+)
+"lazyList.ml" 110 2292 2294 "lazyList.ml" 113 2366 2405
+type(
+  unit -> 'a front
+)
+"lazyList.ml" 109 2274 2286 "lazyList.ml" 113 2366 2405
+type(
+  'a llist
+)
+"lazyList.ml" 115 2407 2415 "lazyList.ml" 115 2407 2419
+type(
+  int -> 'a llist -> 'a llist
+)
+ident(
+  def take "lazyList.ml" 115 2407 2407 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 115 2407 2420 "lazyList.ml" 115 2407 2421
+type(
+  int
+)
+ident(
+  def n "lazyList.ml" 115 2407 2422 "lazyList.ml" 120 2550 2589
+)
+"lazyList.ml" 115 2407 2422 "lazyList.ml" 115 2407 2424
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 116 2427 2429 "lazyList.ml" 120 2550 2589
+)
+"lazyList.ml" 116 2427 2432 "lazyList.ml" 116 2427 2433
+type(
+  int
+)
+ident(
+  int_ref n "lazyList.ml" 115 2407 2420 "lazyList.ml" 115 2407 2421
+)
+"lazyList.ml" 116 2427 2434 "lazyList.ml" 116 2427 2435
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"lazyList.ml" 116 2427 2436 "lazyList.ml" 116 2427 2437
+type(
+  int
+)
+"lazyList.ml" 116 2427 2432 "lazyList.ml" 116 2427 2437
+type(
+  bool
+)
+"lazyList.ml" 116 2427 2443 "lazyList.ml" 116 2427 2448
+type(
+  'a llist
+)
+ident(
+  int_ref empty "lazyList.ml" 20 325 329 "lazyList.ml" 20 325 334
+)
+"lazyList.ml" 117 2449 2463 "lazyList.ml" 117 2449 2469
+type(
+  'a llist -> 'a front
+)
+ident(
+  int_ref expose "lazyList.ml" 16 215 219 "lazyList.ml" 16 215 225
+)
+"lazyList.ml" 117 2449 2470 "lazyList.ml" 117 2449 2472
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 115 2407 2422 "lazyList.ml" 115 2407 2424
+)
+"lazyList.ml" 117 2449 2463 "lazyList.ml" 117 2449 2472
+type(
+  'a front
+)
+"lazyList.ml" 118 2478 2490 "lazyList.ml" 118 2478 2493
+type(
+  'a front
+)
+type(
+  'a front
+)
+"lazyList.ml" 118 2478 2497 "lazyList.ml" 118 2478 2505
+type(
+  string -> 'a llist
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"lazyList.ml" 118 2478 2506 "lazyList.ml" 118 2478 2521
+type(
+  string
+)
+"lazyList.ml" 118 2478 2497 "lazyList.ml" 118 2478 2521
+type(
+  'a llist
+)
+"lazyList.ml" 119 2522 2540 "lazyList.ml" 119 2522 2541
+type(
+  'a
+)
+ident(
+  def a "lazyList.ml" 120 2550 2564 "lazyList.ml" 120 2550 2588
+)
+"lazyList.ml" 119 2522 2543 "lazyList.ml" 119 2522 2545
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 120 2550 2564 "lazyList.ml" 120 2550 2588
+)
+"lazyList.ml" 119 2522 2534 "lazyList.ml" 119 2522 2546
+type(
+  'a front
+)
+type(
+  'a front
+)
+"lazyList.ml" 120 2550 2564 "lazyList.ml" 120 2550 2568
+type(
+  'a -> 'a llist -> 'a llist
+)
+ident(
+  int_ref cons "lazyList.ml" 21 347 351 "lazyList.ml" 21 347 355
+)
+"lazyList.ml" 120 2550 2569 "lazyList.ml" 120 2550 2570
+type(
+  'a
+)
+ident(
+  int_ref a "lazyList.ml" 119 2522 2540 "lazyList.ml" 119 2522 2541
+)
+"lazyList.ml" 120 2550 2572 "lazyList.ml" 120 2550 2576
+type(
+  int -> 'a llist -> 'a llist
+)
+ident(
+  int_ref take "lazyList.ml" 115 2407 2415 "lazyList.ml" 115 2407 2419
+)
+"lazyList.ml" 120 2550 2578 "lazyList.ml" 120 2550 2579
+type(
+  int
+)
+ident(
+  int_ref n "lazyList.ml" 115 2407 2420 "lazyList.ml" 115 2407 2421
+)
+"lazyList.ml" 120 2550 2580 "lazyList.ml" 120 2550 2581
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"lazyList.ml" 120 2550 2582 "lazyList.ml" 120 2550 2583
+type(
+  int
+)
+"lazyList.ml" 120 2550 2577 "lazyList.ml" 120 2550 2584
+type(
+  int
+)
+"lazyList.ml" 120 2550 2585 "lazyList.ml" 120 2550 2587
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 119 2522 2543 "lazyList.ml" 119 2522 2545
+)
+"lazyList.ml" 120 2550 2571 "lazyList.ml" 120 2550 2588
+type(
+  'a llist
+)
+"lazyList.ml" 120 2550 2564 "lazyList.ml" 120 2550 2588
+type(
+  'a llist
+)
+"lazyList.ml" 117 2449 2456 "lazyList.ml" 120 2550 2589
+type(
+  'a llist
+)
+"lazyList.ml" 116 2427 2429 "lazyList.ml" 120 2550 2589
+type(
+  'a llist
+)
+"lazyList.ml" 122 2591 2595 "lazyList.ml" 122 2591 2599
+type(
+  int -> 'a llist -> 'a llist
+)
+ident(
+  def drop "lazyList.ml" 124 2655 2655 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 122 2591 2600 "lazyList.ml" 122 2591 2601
+type(
+  int
+)
+ident(
+  def n "lazyList.ml" 122 2591 2602 "lazyList.ml" 122 2591 2653
+)
+"lazyList.ml" 122 2591 2602 "lazyList.ml" 122 2591 2604
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 122 2591 2607 "lazyList.ml" 122 2591 2653
+)
+"lazyList.ml" 122 2591 2607 "lazyList.ml" 122 2591 2612
+type(
+  (unit -> 'a front) -> 'a llist
+)
+ident(
+  int_ref delay "lazyList.ml" 18 287 291 "lazyList.ml" 18 287 296
+)
+"lazyList.ml" 122 2591 2618 "lazyList.ml" 122 2591 2620
+type(
+  unit
+)
+"lazyList.ml" 122 2591 2624 "lazyList.ml" 122 2591 2630
+type(
+  'a llist -> 'a front
+)
+ident(
+  int_ref expose "lazyList.ml" 16 215 219 "lazyList.ml" 16 215 225
+)
+"lazyList.ml" 122 2591 2632 "lazyList.ml" 122 2591 2635
+type(
+  'a list * 'a llist -> 'a llist
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"lazyList.ml" 122 2591 2637 "lazyList.ml" 122 2591 2642
+type(
+  'a list -> 'a llist -> int -> 'a list * 'a llist
+)
+ident(
+  int_ref split "lazyList.ml" 96 1966 1974 "lazyList.ml" 96 1966 1979
+)
+"lazyList.ml" 122 2591 2643 "lazyList.ml" 122 2591 2645
+type(
+  'a list
+)
+"lazyList.ml" 122 2591 2646 "lazyList.ml" 122 2591 2648
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 122 2591 2602 "lazyList.ml" 122 2591 2604
+)
+"lazyList.ml" 122 2591 2649 "lazyList.ml" 122 2591 2650
+type(
+  int
+)
+ident(
+  int_ref n "lazyList.ml" 122 2591 2600 "lazyList.ml" 122 2591 2601
+)
+"lazyList.ml" 122 2591 2636 "lazyList.ml" 122 2591 2651
+type(
+  'a list * 'a llist
+)
+"lazyList.ml" 122 2591 2631 "lazyList.ml" 122 2591 2652
+type(
+  'a llist
+)
+"lazyList.ml" 122 2591 2624 "lazyList.ml" 122 2591 2652
+type(
+  'a front
+)
+"lazyList.ml" 122 2591 2613 "lazyList.ml" 122 2591 2653
+type(
+  unit -> 'a front
+)
+"lazyList.ml" 122 2591 2607 "lazyList.ml" 122 2591 2653
+type(
+  'a llist
+)
+"lazyList.ml" 124 2655 2663 "lazyList.ml" 124 2655 2667
+type(
+  'a llist -> 'a llist -> 'a llist
+)
+ident(
+  def @@ "lazyList.ml" 124 2655 2655 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 124 2655 2668 "lazyList.ml" 124 2655 2670
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 124 2655 2671 "lazyList.ml" 130 2801 2804
+)
+"lazyList.ml" 124 2655 2671 "lazyList.ml" 124 2655 2673
+type(
+  'a llist
+)
+ident(
+  def mm "lazyList.ml" 124 2655 2676 "lazyList.ml" 130 2801 2804
+)
+"lazyList.ml" 124 2655 2676 "lazyList.ml" 124 2655 2681
+type(
+  (unit -> 'a front) -> 'a llist
+)
+ident(
+  int_ref delay "lazyList.ml" 18 287 291 "lazyList.ml" 18 287 296
+)
+"lazyList.ml" 124 2655 2692 "lazyList.ml" 124 2655 2694
+type(
+  unit
+)
+"lazyList.ml" 125 2698 2706 "lazyList.ml" 125 2698 2712
+type(
+  'a llist -> 'a front
+)
+ident(
+  int_ref expose "lazyList.ml" 16 215 219 "lazyList.ml" 16 215 225
+)
+"lazyList.ml" 125 2698 2713 "lazyList.ml" 125 2698 2715
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 124 2655 2668 "lazyList.ml" 124 2655 2670
+)
+"lazyList.ml" 125 2698 2706 "lazyList.ml" 125 2698 2715
+type(
+  'a front
+)
+"lazyList.ml" 126 2721 2727 "lazyList.ml" 126 2721 2730
+type(
+  'a front
+)
+type(
+  'a front
+)
+"lazyList.ml" 127 2734 2742 "lazyList.ml" 127 2734 2748
+type(
+  'a llist -> 'a front
+)
+ident(
+  int_ref expose "lazyList.ml" 16 215 219 "lazyList.ml" 16 215 225
+)
+"lazyList.ml" 127 2734 2749 "lazyList.ml" 127 2734 2751
+type(
+  'a llist
+)
+ident(
+  int_ref mm "lazyList.ml" 124 2655 2671 "lazyList.ml" 124 2655 2673
+)
+"lazyList.ml" 127 2734 2742 "lazyList.ml" 127 2734 2751
+type(
+  'a front
+)
+"lazyList.ml" 128 2752 2764 "lazyList.ml" 128 2752 2765
+type(
+  'a
+)
+ident(
+  def a "lazyList.ml" 129 2774 2782 "lazyList.ml" 129 2774 2800
+)
+"lazyList.ml" 128 2752 2767 "lazyList.ml" 128 2752 2769
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 129 2774 2782 "lazyList.ml" 129 2774 2800
+)
+"lazyList.ml" 128 2752 2758 "lazyList.ml" 128 2752 2770
+type(
+  'a front
+)
+type(
+  'a front
+)
+"lazyList.ml" 129 2774 2788 "lazyList.ml" 129 2774 2789
+type(
+  'a
+)
+ident(
+  int_ref a "lazyList.ml" 128 2752 2764 "lazyList.ml" 128 2752 2765
+)
+"lazyList.ml" 129 2774 2791 "lazyList.ml" 129 2774 2793
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 128 2752 2767 "lazyList.ml" 128 2752 2769
+)
+"lazyList.ml" 129 2774 2794 "lazyList.ml" 129 2774 2796
+type(
+  'a llist -> 'a llist -> 'a llist
+)
+ident(
+  int_ref @@ "lazyList.ml" 124 2655 2663 "lazyList.ml" 124 2655 2667
+)
+"lazyList.ml" 129 2774 2797 "lazyList.ml" 129 2774 2799
+type(
+  'a llist
+)
+ident(
+  int_ref mm "lazyList.ml" 124 2655 2671 "lazyList.ml" 124 2655 2673
+)
+"lazyList.ml" 129 2774 2791 "lazyList.ml" 129 2774 2799
+type(
+  'a llist
+)
+"lazyList.ml" 129 2774 2782 "lazyList.ml" 129 2774 2800
+type(
+  'a front
+)
+"lazyList.ml" 125 2698 2700 "lazyList.ml" 129 2774 2800
+type(
+  'a front
+)
+"lazyList.ml" 124 2655 2682 "lazyList.ml" 130 2801 2804
+type(
+  unit -> 'a front
+)
+"lazyList.ml" 124 2655 2676 "lazyList.ml" 130 2801 2804
+type(
+  'a llist
+)
+"lazyList.ml" 132 2806 2814 "lazyList.ml" 132 2806 2820
+type(
+  'a llist list -> 'a llist
+)
+ident(
+  def concat "lazyList.ml" 132 2806 2806 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 133 2832 2836 "lazyList.ml" 133 2832 2838
+type(
+  'a llist list
+)
+"lazyList.ml" 133 2832 2842 "lazyList.ml" 133 2832 2847
+type(
+  'a llist
+)
+ident(
+  int_ref empty "lazyList.ml" 20 325 329 "lazyList.ml" 20 325 334
+)
+"lazyList.ml" 134 2848 2852 "lazyList.ml" 134 2848 2854
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 135 2865 2871 "lazyList.ml" 135 2865 2887
+)
+"lazyList.ml" 134 2848 2858 "lazyList.ml" 134 2848 2861
+type(
+  'a llist list
+)
+ident(
+  def lls "lazyList.ml" 135 2865 2871 "lazyList.ml" 135 2865 2887
+)
+"lazyList.ml" 134 2848 2852 "lazyList.ml" 134 2848 2861
+type(
+  'a llist list
+)
+"lazyList.ml" 135 2865 2871 "lazyList.ml" 135 2865 2873
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 134 2848 2852 "lazyList.ml" 134 2848 2854
+)
+"lazyList.ml" 135 2865 2874 "lazyList.ml" 135 2865 2876
+type(
+  'a llist -> 'a llist -> 'a llist
+)
+ident(
+  int_ref @@ "lazyList.ml" 124 2655 2663 "lazyList.ml" 124 2655 2667
+)
+"lazyList.ml" 135 2865 2877 "lazyList.ml" 135 2865 2883
+type(
+  'a llist list -> 'a llist
+)
+ident(
+  int_ref concat "lazyList.ml" 132 2806 2814 "lazyList.ml" 132 2806 2820
+)
+"lazyList.ml" 135 2865 2884 "lazyList.ml" 135 2865 2887
+type(
+  'a llist list
+)
+ident(
+  int_ref lls "lazyList.ml" 134 2848 2858 "lazyList.ml" 134 2848 2861
+)
+"lazyList.ml" 135 2865 2877 "lazyList.ml" 135 2865 2887
+type(
+  'a llist
+)
+"lazyList.ml" 135 2865 2871 "lazyList.ml" 135 2865 2887
+type(
+  'a llist
+)
+"lazyList.ml" 132 2806 2823 "lazyList.ml" 135 2865 2887
+type(
+  'a llist list -> 'a llist
+)
+"lazyList.ml" 137 2889 2897 "lazyList.ml" 137 2889 2901
+type(
+  (unit -> 'a option) -> 'a llist
+)
+ident(
+  def make "lazyList.ml" 137 2889 2889 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 137 2889 2902 "lazyList.ml" 137 2889 2905
+type(
+  unit -> 'a option
+)
+ident(
+  def gen "lazyList.ml" 137 2889 2908 "lazyList.ml" 142 3011 3014
+)
+"lazyList.ml" 137 2889 2908 "lazyList.ml" 137 2889 2913
+type(
+  (unit -> 'a front) -> 'a llist
+)
+ident(
+  int_ref delay "lazyList.ml" 18 287 291 "lazyList.ml" 18 287 296
+)
+"lazyList.ml" 138 2920 2926 "lazyList.ml" 138 2920 2928
+type(
+  unit
+)
+"lazyList.ml" 139 2932 2942 "lazyList.ml" 139 2932 2945
+type(
+  unit -> 'a option
+)
+ident(
+  int_ref gen "lazyList.ml" 137 2889 2902 "lazyList.ml" 137 2889 2905
+)
+"lazyList.ml" 139 2932 2946 "lazyList.ml" 139 2932 2948
+type(
+  unit
+)
+"lazyList.ml" 139 2932 2942 "lazyList.ml" 139 2932 2948
+type(
+  'a option
+)
+"lazyList.ml" 140 2954 2962 "lazyList.ml" 140 2954 2966
+type(
+  'a option
+)
+type(
+  'a option
+)
+"lazyList.ml" 140 2954 2970 "lazyList.ml" 140 2954 2973
+type(
+  'a front
+)
+"lazyList.ml" 141 2974 2987 "lazyList.ml" 141 2974 2988
+type(
+  'a
+)
+ident(
+  def a "lazyList.ml" 141 2974 2992 "lazyList.ml" 141 2974 3010
+)
+"lazyList.ml" 141 2974 2982 "lazyList.ml" 141 2974 2988
+type(
+  'a option
+)
+type(
+  'a option
+)
+"lazyList.ml" 141 2974 2998 "lazyList.ml" 141 2974 2999
+type(
+  'a
+)
+ident(
+  int_ref a "lazyList.ml" 141 2974 2987 "lazyList.ml" 141 2974 2988
+)
+"lazyList.ml" 141 2974 3001 "lazyList.ml" 141 2974 3005
+type(
+  (unit -> 'a option) -> 'a llist
+)
+ident(
+  int_ref make "lazyList.ml" 137 2889 2897 "lazyList.ml" 137 2889 2901
+)
+"lazyList.ml" 141 2974 3006 "lazyList.ml" 141 2974 3009
+type(
+  unit -> 'a option
+)
+ident(
+  int_ref gen "lazyList.ml" 137 2889 2902 "lazyList.ml" 137 2889 2905
+)
+"lazyList.ml" 141 2974 3001 "lazyList.ml" 141 2974 3009
+type(
+  'a llist
+)
+"lazyList.ml" 141 2974 2992 "lazyList.ml" 141 2974 3010
+type(
+  'a front
+)
+"lazyList.ml" 139 2932 2936 "lazyList.ml" 141 2974 3010
+type(
+  'a front
+)
+"lazyList.ml" 137 2889 2914 "lazyList.ml" 142 3011 3014
+type(
+  unit -> 'a front
+)
+"lazyList.ml" 137 2889 2908 "lazyList.ml" 142 3011 3014
+type(
+  'a llist
+)
+"lazyList.ml" 150 3121 3125 "lazyList.ml" 150 3121 3130
+type(
+  'a * 'a llist -> 'a llist
+)
+ident(
+  def exact "lazyList.ml" 152 3163 3163 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 150 3121 3132 "lazyList.ml" 150 3121 3133
+type(
+  'a
+)
+ident(
+  def a "lazyList.ml" 150 3121 3141 "lazyList.ml" 150 3121 3161
+)
+"lazyList.ml" 150 3121 3135 "lazyList.ml" 150 3121 3137
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 150 3121 3141 "lazyList.ml" 150 3121 3161
+)
+"lazyList.ml" 150 3121 3131 "lazyList.ml" 150 3121 3138
+type(
+  'a * 'a llist
+)
+"lazyList.ml" 150 3121 3141 "lazyList.ml" 150 3121 3146
+type(
+  'a front -> 'a llist
+)
+ident(
+  int_ref exact "lazyList.ml" 17 250 254 "lazyList.ml" 17 250 259
+)
+"lazyList.ml" 150 3121 3154 "lazyList.ml" 150 3121 3155
+type(
+  'a
+)
+ident(
+  int_ref a "lazyList.ml" 150 3121 3132 "lazyList.ml" 150 3121 3133
+)
+"lazyList.ml" 150 3121 3157 "lazyList.ml" 150 3121 3159
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 150 3121 3135 "lazyList.ml" 150 3121 3137
+)
+"lazyList.ml" 150 3121 3147 "lazyList.ml" 150 3121 3161
+type(
+  'a front
+)
+"lazyList.ml" 150 3121 3141 "lazyList.ml" 150 3121 3161
+type(
+  'a llist
+)
+"lazyList.ml" 152 3163 3167 "lazyList.ml" 152 3163 3172
+type(
+  (unit -> 'a * 'a llist) -> 'a llist
+)
+ident(
+  def delay "lazyList.ml" 152 3163 3231 "lazyList.ml" 0 0 -1
+)
+"lazyList.ml" 152 3163 3173 "lazyList.ml" 152 3163 3175
+type(
+  unit -> 'a * 'a llist
+)
+ident(
+  def lf "lazyList.ml" 152 3163 3178 "lazyList.ml" 152 3163 3231
+)
+"lazyList.ml" 152 3163 3178 "lazyList.ml" 152 3163 3183
+type(
+  (unit -> 'a front) -> 'a llist
+)
+ident(
+  int_ref delay "lazyList.ml" 18 287 291 "lazyList.ml" 18 287 296
+)
+"lazyList.ml" 152 3163 3189 "lazyList.ml" 152 3163 3191
+type(
+  unit
+)
+"lazyList.ml" 152 3163 3200 "lazyList.ml" 152 3163 3201
+type(
+  'a
+)
+ident(
+  def a "lazyList.ml" 152 3163 3218 "lazyList.ml" 152 3163 3230
+)
+"lazyList.ml" 152 3163 3203 "lazyList.ml" 152 3163 3205
+type(
+  'a llist
+)
+ident(
+  def ll "lazyList.ml" 152 3163 3218 "lazyList.ml" 152 3163 3230
+)
+"lazyList.ml" 152 3163 3199 "lazyList.ml" 152 3163 3206
+type(
+  'a * 'a llist
+)
+"lazyList.ml" 152 3163 3209 "lazyList.ml" 152 3163 3211
+type(
+  unit -> 'a * 'a llist
+)
+ident(
+  int_ref lf "lazyList.ml" 152 3163 3173 "lazyList.ml" 152 3163 3175
+)
+"lazyList.ml" 152 3163 3212 "lazyList.ml" 152 3163 3214
+type(
+  unit
+)
+"lazyList.ml" 152 3163 3209 "lazyList.ml" 152 3163 3214
+type(
+  'a * 'a llist
+)
+"lazyList.ml" 152 3163 3224 "lazyList.ml" 152 3163 3225
+type(
+  'a
+)
+ident(
+  int_ref a "lazyList.ml" 152 3163 3200 "lazyList.ml" 152 3163 3201
+)
+"lazyList.ml" 152 3163 3227 "lazyList.ml" 152 3163 3229
+type(
+  'a llist
+)
+ident(
+  int_ref ll "lazyList.ml" 152 3163 3203 "lazyList.ml" 152 3163 3205
+)
+"lazyList.ml" 152 3163 3218 "lazyList.ml" 152 3163 3230
+type(
+  'a front
+)
+"lazyList.ml" 152 3163 3195 "lazyList.ml" 152 3163 3230
+type(
+  'a front
+)
+"lazyList.ml" 152 3163 3184 "lazyList.ml" 152 3163 3231
+type(
+  unit -> 'a front
+)
+"lazyList.ml" 152 3163 3178 "lazyList.ml" 152 3163 3231
+type(
+  'a llist
+)

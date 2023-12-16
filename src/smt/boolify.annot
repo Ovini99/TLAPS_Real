@@ -1,0 +1,5315 @@
+"boolify.ml" 17 231 238 "boolify.ml" 17 231 239
+ident(
+  def B "boolify.ml" 17 231 249 "boolify.ml" 0 0 -1
+)
+"boolify.ml" 18 250 257 "boolify.ml" 18 250 261
+ident(
+  def SMap "boolify.ml" 18 250 281 "boolify.ml" 0 0 -1
+)
+"boolify.ml" 19 282 289 "boolify.ml" 19 282 292
+ident(
+  def Smt "boolify.ml" 19 282 305 "boolify.ml" 0 0 -1
+)
+"boolify.ml" 24 463 467 "boolify.ml" 24 463 474
+type(
+  Expr.T.expr -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  def mk_bool "boolify.ml" 25 525 525 "boolify.ml" 0 0 -1
+)
+"boolify.ml" 24 463 475 "boolify.ml" 24 463 476
+type(
+  Expr.T.expr
+)
+ident(
+  def e "boolify.ml" 24 463 479 "boolify.ml" 24 463 524
+)
+"boolify.ml" 24 463 493 "boolify.ml" 24 463 502
+type(
+  string
+)
+"boolify.ml" 24 463 486 "boolify.ml" 24 463 502
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 24 463 506 "boolify.ml" 24 463 513
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref Property.noprops "property.mli" 92 3086 3086 "property.mli" 92 3086 3116
+)
+"boolify.ml" 24 463 486 "boolify.ml" 24 463 513
+type(
+  Expr.T.expr
+)
+"boolify.ml" 24 463 516 "boolify.ml" 24 463 517
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 24 463 475 "boolify.ml" 24 463 476
+)
+"boolify.ml" 24 463 515 "boolify.ml" 24 463 518
+type(
+  Expr.T.expr list
+)
+"boolify.ml" 24 463 479 "boolify.ml" 24 463 519
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 24 463 520 "boolify.ml" 24 463 522
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"boolify.ml" 24 463 523 "boolify.ml" 24 463 524
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 24 463 475 "boolify.ml" 24 463 476
+)
+"boolify.ml" 24 463 479 "boolify.ml" 24 463 524
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"boolify.ml" 25 525 529 "boolify.ml" 25 525 538
+type(
+  Expr.T.expr -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  def mk_bool2u "boolify.ml" 29 660 660 "boolify.ml" 0 0 -1
+)
+"boolify.ml" 25 525 539 "boolify.ml" 25 525 540
+type(
+  Expr.T.expr
+)
+ident(
+  def e "boolify.ml" 25 525 543 "boolify.ml" 25 525 587
+)
+"boolify.ml" 25 525 557 "boolify.ml" 25 525 565
+type(
+  string
+)
+"boolify.ml" 25 525 550 "boolify.ml" 25 525 565
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 25 525 569 "boolify.ml" 25 525 576
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref Property.noprops "property.mli" 92 3086 3086 "property.mli" 92 3086 3116
+)
+"boolify.ml" 25 525 550 "boolify.ml" 25 525 576
+type(
+  Expr.T.expr
+)
+"boolify.ml" 25 525 579 "boolify.ml" 25 525 580
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 25 525 539 "boolify.ml" 25 525 540
+)
+"boolify.ml" 25 525 578 "boolify.ml" 25 525 581
+type(
+  Expr.T.expr list
+)
+"boolify.ml" 25 525 543 "boolify.ml" 25 525 582
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 25 525 583 "boolify.ml" 25 525 585
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"boolify.ml" 25 525 586 "boolify.ml" 25 525 587
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 25 525 539 "boolify.ml" 25 525 540
+)
+"boolify.ml" 25 525 543 "boolify.ml" 25 525 587
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"boolify.ml" 29 660 668 "boolify.ml" 29 660 672
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  def eboo "boolify.ml" 29 660 660 "boolify.ml" 0 0 -1
+)
+"boolify.ml" 29 660 673 "boolify.ml" 29 660 674
+type(
+  Expr.T.expr
+)
+ident(
+  def e "boolify.ml" 31 759 761 "boolify.ml" 87 2929 2934
+)
+"boolify.ml" 31 759 765 "boolify.ml" 31 759 767
+type(
+  'a -> 'a Property.wrapped
+)
+ident(
+  def mk "boolify.ml" 37 975 977 "boolify.ml" 87 2929 2934
+)
+"boolify.ml" 31 759 768 "boolify.ml" 31 759 769
+type(
+  'a
+)
+ident(
+  def x "boolify.ml" 31 759 772 "boolify.ml" 31 759 791
+)
+"boolify.ml" 31 759 774 "boolify.ml" 31 759 775
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 29 660 673 "boolify.ml" 29 660 674
+)
+"boolify.ml" 31 759 788 "boolify.ml" 31 759 789
+type(
+  'a
+)
+ident(
+  int_ref x "boolify.ml" 31 759 768 "boolify.ml" 31 759 769
+)
+"boolify.ml" 31 759 772 "boolify.ml" 31 759 791
+type(
+  'a Property.wrapped
+)
+"boolify.ml" 37 975 989 "boolify.ml" 37 975 990
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 29 660 673 "boolify.ml" 29 660 674
+)
+"boolify.ml" 37 975 989 "boolify.ml" 37 975 995
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 38 1001 1027 "boolify.ml" 38 1001 1036
+type(
+  string
+)
+"boolify.ml" 38 1001 1020 "boolify.ml" 38 1001 1036
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 38 1001 1012 "boolify.ml" 38 1001 1037
+type(
+  Expr.T.expr
+)
+"boolify.ml" 38 1001 1039 "boolify.ml" 38 1001 1040
+type(
+  Expr.T.expr list
+)
+"boolify.ml" 38 1001 1005 "boolify.ml" 38 1001 1041
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 39 1134 1140 "boolify.ml" 39 1134 1155
+type(
+  Expr.T.expr -> unit Property.pfuncs -> Expr.T.expr
+)
+ident(
+  int_ref Property.remove "property.mli" 84 2888 2888 "property.mli" 84 2888 2938
+)
+"boolify.ml" 39 1134 1156 "boolify.ml" 39 1134 1157
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 29 660 673 "boolify.ml" 29 660 674
+)
+"boolify.ml" 39 1134 1158 "boolify.ml" 39 1134 1174
+type(
+  unit Property.pfuncs
+)
+ident(
+  int_ref Smt.boolify_prop "smtcommons.mli" 72 2201 2201 "smtcommons.mli" 72 2201 2241
+)
+"boolify.ml" 39 1134 1140 "boolify.ml" 39 1134 1174
+type(
+  Expr.T.expr
+)
+"boolify.ml" 40 1175 1201 "boolify.ml" 40 1175 1214
+type(
+  string
+)
+"boolify.ml" 40 1175 1194 "boolify.ml" 40 1175 1214
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 40 1175 1186 "boolify.ml" 40 1175 1215
+type(
+  Expr.T.expr
+)
+"boolify.ml" 40 1175 1186 "boolify.ml" 40 1175 1220
+type(
+  Expr.T.expr
+)
+ident(
+  def o "boolify.ml" 41 1231 1237 "boolify.ml" 41 1231 1262
+)
+"boolify.ml" 40 1175 1223 "boolify.ml" 40 1175 1225
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "boolify.ml" 41 1231 1237 "boolify.ml" 41 1231 1262
+)
+"boolify.ml" 40 1175 1222 "boolify.ml" 40 1175 1226
+type(
+  Expr.T.expr list
+)
+"boolify.ml" 40 1175 1179 "boolify.ml" 40 1175 1227
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 41 1231 1244 "boolify.ml" 41 1231 1245
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref o "boolify.ml" 40 1175 1186 "boolify.ml" 40 1175 1220
+)
+"boolify.ml" 41 1231 1248 "boolify.ml" 41 1231 1252
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 41 1231 1253 "boolify.ml" 41 1231 1255
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "boolify.ml" 40 1175 1223 "boolify.ml" 40 1175 1225
+)
+"boolify.ml" 41 1231 1248 "boolify.ml" 41 1231 1255
+type(
+  Expr.T.expr
+)
+"boolify.ml" 41 1231 1247 "boolify.ml" 41 1231 1256
+type(
+  Expr.T.expr list
+)
+"boolify.ml" 41 1231 1237 "boolify.ml" 41 1231 1257
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 41 1231 1258 "boolify.ml" 41 1231 1260
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"boolify.ml" 41 1231 1261 "boolify.ml" 41 1231 1262
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 29 660 673 "boolify.ml" 29 660 674
+)
+"boolify.ml" 41 1231 1237 "boolify.ml" 41 1231 1262
+type(
+  Expr.T.expr
+)
+"boolify.ml" 42 1263 1270 "boolify.ml" 42 1263 1271
+type(
+  int
+)
+ident(
+  def n "boolify.ml" 43 1275 1281 "boolify.ml" 43 1275 1293
+)
+"boolify.ml" 42 1263 1267 "boolify.ml" 42 1263 1271
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 43 1275 1281 "boolify.ml" 43 1275 1282
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 29 660 673 "boolify.ml" 29 660 674
+)
+"boolify.ml" 43 1275 1286 "boolify.ml" 43 1275 1293
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref mk_bool "boolify.ml" 24 463 467 "boolify.ml" 24 463 474
+)
+"boolify.ml" 43 1275 1281 "boolify.ml" 43 1275 1293
+type(
+  Expr.T.expr
+)
+"boolify.ml" 44 1294 1305 "boolify.ml" 44 1294 1306
+type(
+  string
+)
+ident(
+  def s "boolify.ml" 45 1310 1316 "boolify.ml" 45 1310 1328
+)
+"boolify.ml" 44 1294 1298 "boolify.ml" 44 1294 1306
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 45 1310 1316 "boolify.ml" 45 1310 1317
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 29 660 673 "boolify.ml" 29 660 674
+)
+"boolify.ml" 45 1310 1321 "boolify.ml" 45 1310 1328
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref mk_bool "boolify.ml" 24 463 467 "boolify.ml" 24 463 474
+)
+"boolify.ml" 45 1310 1316 "boolify.ml" 45 1310 1328
+type(
+  Expr.T.expr
+)
+"boolify.ml" 46 1329 1351 "boolify.ml" 46 1329 1352
+type(
+  int
+)
+"boolify.ml" 46 1329 1348 "boolify.ml" 46 1329 1352
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 46 1329 1362 "boolify.ml" 46 1329 1363
+type(
+  string
+)
+"boolify.ml" 46 1329 1355 "boolify.ml" 46 1329 1363
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 46 1329 1348 "boolify.ml" 46 1329 1363
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 46 1329 1340 "boolify.ml" 46 1329 1364
+type(
+  Expr.T.expr
+)
+"boolify.ml" 46 1329 1340 "boolify.ml" 46 1329 1369
+type(
+  Expr.T.expr
+)
+ident(
+  def f "boolify.ml" 47 1378 1384 "boolify.ml" 47 1378 1428
+)
+"boolify.ml" 46 1329 1371 "boolify.ml" 46 1329 1373
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "boolify.ml" 47 1378 1384 "boolify.ml" 47 1378 1428
+)
+"boolify.ml" 46 1329 1333 "boolify.ml" 46 1329 1374
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 47 1378 1391 "boolify.ml" 47 1378 1395
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 47 1378 1396 "boolify.ml" 47 1378 1397
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f "boolify.ml" 46 1329 1340 "boolify.ml" 46 1329 1369
+)
+"boolify.ml" 47 1378 1391 "boolify.ml" 47 1378 1397
+type(
+  Expr.T.expr
+)
+"boolify.ml" 47 1378 1399 "boolify.ml" 47 1378 1402
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 47 1378 1403 "boolify.ml" 47 1378 1407
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 47 1378 1408 "boolify.ml" 47 1378 1410
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "boolify.ml" 46 1329 1371 "boolify.ml" 46 1329 1373
+)
+"boolify.ml" 47 1378 1399 "boolify.ml" 47 1378 1410
+type(
+  Expr.T.expr list
+)
+"boolify.ml" 47 1378 1384 "boolify.ml" 47 1378 1411
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 47 1378 1415 "boolify.ml" 47 1378 1417
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 31 759 765 "boolify.ml" 31 759 767
+)
+"boolify.ml" 47 1378 1384 "boolify.ml" 47 1378 1417
+type(
+  Expr.T.expr
+)
+"boolify.ml" 47 1378 1421 "boolify.ml" 47 1378 1428
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref mk_bool "boolify.ml" 24 463 467 "boolify.ml" 24 463 474
+)
+"boolify.ml" 47 1378 1384 "boolify.ml" 47 1378 1428
+type(
+  Expr.T.expr
+)
+"boolify.ml" 48 1429 1441 "boolify.ml" 48 1429 1442
+type(
+  Expr.T.expr
+)
+ident(
+  def f "boolify.ml" 49 1450 1456 "boolify.ml" 49 1450 1501
+)
+"boolify.ml" 48 1429 1443 "boolify.ml" 48 1429 1445
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "boolify.ml" 49 1450 1456 "boolify.ml" 49 1450 1501
+)
+"boolify.ml" 48 1429 1433 "boolify.ml" 48 1429 1446
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 49 1450 1464 "boolify.ml" 49 1450 1468
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 49 1450 1469 "boolify.ml" 49 1450 1470
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f "boolify.ml" 48 1429 1441 "boolify.ml" 48 1429 1442
+)
+"boolify.ml" 49 1450 1464 "boolify.ml" 49 1450 1470
+type(
+  Expr.T.expr
+)
+"boolify.ml" 49 1450 1472 "boolify.ml" 49 1450 1475
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 49 1450 1476 "boolify.ml" 49 1450 1480
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 49 1450 1481 "boolify.ml" 49 1450 1483
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "boolify.ml" 48 1429 1443 "boolify.ml" 48 1429 1445
+)
+"boolify.ml" 49 1450 1472 "boolify.ml" 49 1450 1483
+type(
+  Expr.T.expr list
+)
+"boolify.ml" 49 1450 1456 "boolify.ml" 49 1450 1484
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 49 1450 1488 "boolify.ml" 49 1450 1490
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 31 759 765 "boolify.ml" 31 759 767
+)
+"boolify.ml" 49 1450 1456 "boolify.ml" 49 1450 1490
+type(
+  Expr.T.expr
+)
+"boolify.ml" 49 1450 1494 "boolify.ml" 49 1450 1501
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref mk_bool "boolify.ml" 24 463 467 "boolify.ml" 24 463 474
+)
+"boolify.ml" 49 1450 1456 "boolify.ml" 49 1450 1501
+type(
+  Expr.T.expr
+)
+"boolify.ml" 50 1502 1511 "boolify.ml" 50 1502 1512
+type(
+  Expr.T.expr
+)
+ident(
+  def r "boolify.ml" 51 1520 1526 "boolify.ml" 51 1520 1558
+)
+"boolify.ml" 50 1502 1514 "boolify.ml" 50 1502 1515
+type(
+  string
+)
+ident(
+  def h "boolify.ml" 51 1520 1526 "boolify.ml" 51 1520 1558
+)
+"boolify.ml" 50 1502 1506 "boolify.ml" 50 1502 1516
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 51 1520 1531 "boolify.ml" 51 1520 1535
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 51 1520 1536 "boolify.ml" 51 1520 1537
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref r "boolify.ml" 50 1502 1511 "boolify.ml" 50 1502 1512
+)
+"boolify.ml" 51 1520 1531 "boolify.ml" 51 1520 1537
+type(
+  Expr.T.expr
+)
+"boolify.ml" 51 1520 1539 "boolify.ml" 51 1520 1540
+type(
+  string
+)
+ident(
+  int_ref h "boolify.ml" 50 1502 1514 "boolify.ml" 50 1502 1515
+)
+"boolify.ml" 51 1520 1526 "boolify.ml" 51 1520 1541
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 51 1520 1545 "boolify.ml" 51 1520 1547
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 31 759 765 "boolify.ml" 31 759 767
+)
+"boolify.ml" 51 1520 1526 "boolify.ml" 51 1520 1547
+type(
+  Expr.T.expr
+)
+"boolify.ml" 51 1520 1551 "boolify.ml" 51 1520 1558
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref mk_bool "boolify.ml" 24 463 467 "boolify.ml" 24 463 474
+)
+"boolify.ml" 51 1520 1526 "boolify.ml" 51 1520 1558
+type(
+  Expr.T.expr
+)
+"boolify.ml" 52 1559 1571 "boolify.ml" 52 1559 1572
+type(
+  Util.hint
+)
+ident(
+  def h "boolify.ml" 53 1584 1590 "boolify.ml" 53 1584 1645
+)
+"boolify.ml" 52 1559 1574 "boolify.ml" 52 1559 1575
+type(
+  Expr.T.expr option
+)
+ident(
+  def d "boolify.ml" 53 1584 1590 "boolify.ml" 53 1584 1645
+)
+"boolify.ml" 52 1559 1577 "boolify.ml" 52 1559 1579
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "boolify.ml" 53 1584 1590 "boolify.ml" 53 1584 1645
+)
+"boolify.ml" 52 1559 1563 "boolify.ml" 52 1559 1580
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 53 1584 1598 "boolify.ml" 53 1584 1599
+type(
+  Util.hint
+)
+ident(
+  int_ref h "boolify.ml" 52 1559 1571 "boolify.ml" 52 1559 1572
+)
+"boolify.ml" 53 1584 1601 "boolify.ml" 53 1584 1611
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr option -> Expr.T.expr option
+)
+ident(
+  int_ref Ext.Option.map "ext.mli" 61 2656 2658 "ext.mli" 61 2656 2704
+)
+"boolify.ml" 53 1584 1612 "boolify.ml" 53 1584 1616
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 53 1584 1617 "boolify.ml" 53 1584 1618
+type(
+  Expr.T.expr option
+)
+ident(
+  int_ref d "boolify.ml" 52 1559 1574 "boolify.ml" 52 1559 1575
+)
+"boolify.ml" 53 1584 1601 "boolify.ml" 53 1584 1618
+type(
+  Expr.T.expr option
+)
+"boolify.ml" 53 1584 1620 "boolify.ml" 53 1584 1624
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref eboo "boolify.ml" 29 660 668 "boolify.ml" 29 660 672
+)
+"boolify.ml" 53 1584 1625 "boolify.ml" 53 1584 1627
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "boolify.ml" 52 1559 1577 "boolify.ml" 52 1559 1579
+)
+"boolify.ml" 53 1584 1620 "boolify.ml" 53 1584 1627
+type(
+  Expr.T.expr
+)
+"boolify.ml" 53 1584 1590 "boolify.ml" 53 1584 1628
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 53 1584 1632 "boolify.ml" 53 1584 1634
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 31 759 765 "boolify.ml" 31 759 767
+)
+"boolify.ml" 53 1584 1590 "boolify.ml" 53 1584 1634
+type(
+  Expr.T.expr
+)
+"boolify.ml" 53 1584 1638 "boolify.ml" 53 1584 1645
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref mk_bool "boolify.ml" 24 463 467 "boolify.ml" 24 463 474
+)
+"boolify.ml" 53 1584 1590 "boolify.ml" 53 1584 1645
+type(
+  Expr.T.expr
+)
+"boolify.ml" 54 1646 1658 "boolify.ml" 54 1646 1659
+type(
+  Expr.T.expr
+)
+ident(
+  def f "boolify.ml" 55 1669 1675 "boolify.ml" 57 1850 1882
+)
+"boolify.ml" 54 1646 1661 "boolify.ml" 54 1646 1664
+type(
+  Expr.T.exspec list
+)
+ident(
+  def exs "boolify.ml" 55 1669 1675 "boolify.ml" 57 1850 1882
+)
+"boolify.ml" 54 1646 1650 "boolify.ml" 54 1646 1665
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 55 1669 1679 "boolify.ml" 55 1669 1685
+type(
+  Expr.T.expoint -> Expr.T.expoint
+)
+ident(
+  def boo_ex "boolify.ml" 56 1773 1779 "boolify.ml" 57 1850 1882
+)
+"boolify.ml" 55 1669 1710 "boolify.ml" 55 1669 1712
+type(
+  Expr.T.expr
+)
+ident(
+  def ea "boolify.ml" 55 1669 1716 "boolify.ml" 55 1669 1738
+)
+"boolify.ml" 55 1669 1697 "boolify.ml" 55 1669 1712
+type(
+  Expr.T.expoint
+)
+"boolify.ml" 55 1669 1730 "boolify.ml" 55 1669 1734
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 55 1669 1735 "boolify.ml" 55 1669 1737
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ea "boolify.ml" 55 1669 1710 "boolify.ml" 55 1669 1712
+)
+"boolify.ml" 55 1669 1729 "boolify.ml" 55 1669 1738
+type(
+  Expr.T.expr
+)
+"boolify.ml" 55 1669 1716 "boolify.ml" 55 1669 1738
+type(
+  Expr.T.expoint
+)
+"boolify.ml" 55 1669 1752 "boolify.ml" 55 1669 1753
+type(
+  string
+)
+ident(
+  def h "boolify.ml" 55 1669 1757 "boolify.ml" 55 1669 1769
+)
+"boolify.ml" 55 1669 1741 "boolify.ml" 55 1669 1753
+type(
+  Expr.T.expoint
+)
+"boolify.ml" 55 1669 1768 "boolify.ml" 55 1669 1769
+type(
+  string
+)
+ident(
+  int_ref h "boolify.ml" 55 1669 1752 "boolify.ml" 55 1669 1753
+)
+"boolify.ml" 55 1669 1757 "boolify.ml" 55 1669 1769
+type(
+  Expr.T.expoint
+)
+"boolify.ml" 55 1669 1688 "boolify.ml" 55 1669 1769
+type(
+  Expr.T.expoint -> Expr.T.expoint
+)
+"boolify.ml" 56 1773 1783 "boolify.ml" 56 1773 1786
+type(
+  (Expr.T.expoint list * Expr.T.expr) list
+)
+ident(
+  def exs "boolify.ml" 57 1850 1856 "boolify.ml" 57 1850 1882
+)
+"boolify.ml" 56 1773 1789 "boolify.ml" 56 1773 1797
+type(
+  (Expr.T.exspec -> Expr.T.expoint list * Expr.T.expr) ->
+  Expr.T.exspec list -> (Expr.T.expoint list * Expr.T.expr) list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 56 1773 1804 "boolify.ml" 56 1773 1806
+type(
+  Expr.T.expoint list
+)
+ident(
+  def es "boolify.ml" 56 1773 1814 "boolify.ml" 56 1773 1841
+)
+"boolify.ml" 56 1773 1807 "boolify.ml" 56 1773 1809
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "boolify.ml" 56 1773 1814 "boolify.ml" 56 1773 1841
+)
+"boolify.ml" 56 1773 1803 "boolify.ml" 56 1773 1810
+type(
+  Expr.T.expoint list * Expr.T.expr
+)
+"boolify.ml" 56 1773 1814 "boolify.ml" 56 1773 1822
+type(
+  (Expr.T.expoint -> Expr.T.expoint) ->
+  Expr.T.expoint list -> Expr.T.expoint list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 56 1773 1823 "boolify.ml" 56 1773 1829
+type(
+  Expr.T.expoint -> Expr.T.expoint
+)
+ident(
+  int_ref boo_ex "boolify.ml" 55 1669 1679 "boolify.ml" 55 1669 1685
+)
+"boolify.ml" 56 1773 1830 "boolify.ml" 56 1773 1832
+type(
+  Expr.T.expoint list
+)
+ident(
+  int_ref es "boolify.ml" 56 1773 1804 "boolify.ml" 56 1773 1806
+)
+"boolify.ml" 56 1773 1814 "boolify.ml" 56 1773 1832
+type(
+  Expr.T.expoint list
+)
+"boolify.ml" 56 1773 1834 "boolify.ml" 56 1773 1838
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 56 1773 1839 "boolify.ml" 56 1773 1841
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "boolify.ml" 56 1773 1807 "boolify.ml" 56 1773 1809
+)
+"boolify.ml" 56 1773 1834 "boolify.ml" 56 1773 1841
+type(
+  Expr.T.expr
+)
+"boolify.ml" 56 1773 1814 "boolify.ml" 56 1773 1841
+type(
+  Expr.T.expoint list * Expr.T.expr
+)
+"boolify.ml" 56 1773 1798 "boolify.ml" 56 1773 1842
+type(
+  Expr.T.exspec -> Expr.T.expoint list * Expr.T.expr
+)
+"boolify.ml" 56 1773 1843 "boolify.ml" 56 1773 1846
+type(
+  Expr.T.exspec list
+)
+ident(
+  int_ref exs "boolify.ml" 54 1646 1661 "boolify.ml" 54 1646 1664
+)
+"boolify.ml" 56 1773 1789 "boolify.ml" 56 1773 1846
+type(
+  (Expr.T.expoint list * Expr.T.expr) list
+)
+"boolify.ml" 57 1850 1864 "boolify.ml" 57 1850 1868
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 57 1850 1869 "boolify.ml" 57 1850 1870
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f "boolify.ml" 54 1646 1658 "boolify.ml" 54 1646 1659
+)
+"boolify.ml" 57 1850 1864 "boolify.ml" 57 1850 1870
+type(
+  Expr.T.expr
+)
+"boolify.ml" 57 1850 1872 "boolify.ml" 57 1850 1875
+type(
+  Expr.T.exspec list
+)
+ident(
+  int_ref exs "boolify.ml" 56 1773 1783 "boolify.ml" 56 1773 1786
+)
+"boolify.ml" 57 1850 1856 "boolify.ml" 57 1850 1876
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 57 1850 1880 "boolify.ml" 57 1850 1882
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 31 759 765 "boolify.ml" 31 759 767
+)
+"boolify.ml" 57 1850 1856 "boolify.ml" 57 1850 1882
+type(
+  Expr.T.expr
+)
+"boolify.ml" 56 1773 1779 "boolify.ml" 57 1850 1882
+type(
+  Expr.T.expr
+)
+"boolify.ml" 55 1669 1675 "boolify.ml" 57 1850 1882
+type(
+  Expr.T.expr
+)
+"boolify.ml" 58 1883 1911 "boolify.ml" 58 1883 1912
+type(
+  Builtin.builtin
+)
+ident(
+  def o "boolify.ml" 59 1928 1934 "boolify.ml" 68 2303 2312
+)
+"boolify.ml" 58 1883 1902 "boolify.ml" 58 1883 1912
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 58 1883 1894 "boolify.ml" 58 1883 1913
+type(
+  Expr.T.expr
+)
+"boolify.ml" 58 1883 1894 "boolify.ml" 58 1883 1919
+type(
+  Expr.T.expr
+)
+ident(
+  def op "boolify.ml" 59 1928 1934 "boolify.ml" 68 2303 2312
+)
+"boolify.ml" 58 1883 1921 "boolify.ml" 58 1883 1923
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "boolify.ml" 59 1928 1934 "boolify.ml" 68 2303 2312
+)
+"boolify.ml" 58 1883 1887 "boolify.ml" 58 1883 1924
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 59 1928 1946 "boolify.ml" 59 1928 1947
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref o "boolify.ml" 58 1883 1911 "boolify.ml" 58 1883 1912
+)
+"boolify.ml" 60 1953 1961 "boolify.ml" 60 1953 1967
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 60 1953 1970 "boolify.ml" 60 1953 1976
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 60 1953 1961 "boolify.ml" 60 1953 1976
+type(
+  Builtin.builtin
+)
+"boolify.ml" 60 1953 1979 "boolify.ml" 60 1953 1988
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 60 1953 1961 "boolify.ml" 60 1953 1988
+type(
+  Builtin.builtin
+)
+"boolify.ml" 60 1953 1991 "boolify.ml" 60 1953 1998
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 60 1953 1961 "boolify.ml" 60 1953 1998
+type(
+  Builtin.builtin
+)
+"boolify.ml" 60 1953 2001 "boolify.ml" 60 1953 2006
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 60 1953 1961 "boolify.ml" 60 1953 2006
+type(
+  Builtin.builtin
+)
+"boolify.ml" 61 2010 2027 "boolify.ml" 61 2010 2029
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref op "boolify.ml" 58 1883 1894 "boolify.ml" 58 1883 1919
+)
+"boolify.ml" 61 2010 2031 "boolify.ml" 61 2010 2034
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 61 2010 2035 "boolify.ml" 61 2010 2039
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref eboo "boolify.ml" 29 660 668 "boolify.ml" 29 660 672
+)
+"boolify.ml" 61 2010 2040 "boolify.ml" 61 2010 2042
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "boolify.ml" 58 1883 1921 "boolify.ml" 58 1883 1923
+)
+"boolify.ml" 61 2010 2031 "boolify.ml" 61 2010 2042
+type(
+  Expr.T.expr list
+)
+"boolify.ml" 61 2010 2020 "boolify.ml" 61 2010 2043
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 61 2010 2047 "boolify.ml" 61 2010 2049
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 31 759 765 "boolify.ml" 31 759 767
+)
+"boolify.ml" 61 2010 2020 "boolify.ml" 61 2010 2049
+type(
+  Expr.T.expr
+)
+"boolify.ml" 62 2050 2058 "boolify.ml" 62 2050 2063
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 62 2050 2066 "boolify.ml" 62 2050 2074
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 62 2050 2058 "boolify.ml" 62 2050 2074
+type(
+  Builtin.builtin
+)
+"boolify.ml" 62 2050 2077 "boolify.ml" 62 2050 2087
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 62 2050 2058 "boolify.ml" 62 2050 2087
+type(
+  Builtin.builtin
+)
+"boolify.ml" 62 2050 2090 "boolify.ml" 62 2050 2096
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 62 2050 2058 "boolify.ml" 62 2050 2096
+type(
+  Builtin.builtin
+)
+"boolify.ml" 62 2050 2099 "boolify.ml" 62 2050 2103
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 62 2050 2058 "boolify.ml" 62 2050 2103
+type(
+  Builtin.builtin
+)
+"boolify.ml" 62 2050 2106 "boolify.ml" 62 2050 2112
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 62 2050 2058 "boolify.ml" 62 2050 2112
+type(
+  Builtin.builtin
+)
+"boolify.ml" 62 2050 2115 "boolify.ml" 62 2050 2119
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 62 2050 2058 "boolify.ml" 62 2050 2119
+type(
+  Builtin.builtin
+)
+"boolify.ml" 63 2123 2140 "boolify.ml" 63 2123 2142
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref op "boolify.ml" 58 1883 1894 "boolify.ml" 58 1883 1919
+)
+"boolify.ml" 63 2123 2144 "boolify.ml" 63 2123 2147
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 63 2123 2148 "boolify.ml" 63 2123 2152
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 63 2123 2153 "boolify.ml" 63 2123 2155
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "boolify.ml" 58 1883 1921 "boolify.ml" 58 1883 1923
+)
+"boolify.ml" 63 2123 2144 "boolify.ml" 63 2123 2155
+type(
+  Expr.T.expr list
+)
+"boolify.ml" 63 2123 2133 "boolify.ml" 63 2123 2156
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 63 2123 2160 "boolify.ml" 63 2123 2162
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 31 759 765 "boolify.ml" 31 759 767
+)
+"boolify.ml" 63 2123 2133 "boolify.ml" 63 2123 2162
+type(
+  Expr.T.expr
+)
+"boolify.ml" 64 2163 2171 "boolify.ml" 64 2163 2175
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 64 2163 2178 "boolify.ml" 64 2163 2183
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 64 2163 2171 "boolify.ml" 64 2163 2183
+type(
+  Builtin.builtin
+)
+"boolify.ml" 65 2187 2204 "boolify.ml" 65 2187 2206
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref op "boolify.ml" 58 1883 1894 "boolify.ml" 58 1883 1919
+)
+"boolify.ml" 65 2187 2208 "boolify.ml" 65 2187 2211
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 65 2187 2212 "boolify.ml" 65 2187 2216
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 65 2187 2217 "boolify.ml" 65 2187 2219
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "boolify.ml" 58 1883 1921 "boolify.ml" 58 1883 1923
+)
+"boolify.ml" 65 2187 2208 "boolify.ml" 65 2187 2219
+type(
+  Expr.T.expr list
+)
+"boolify.ml" 65 2187 2197 "boolify.ml" 65 2187 2220
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 65 2187 2224 "boolify.ml" 65 2187 2226
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 31 759 765 "boolify.ml" 31 759 767
+)
+"boolify.ml" 65 2187 2197 "boolify.ml" 65 2187 2226
+type(
+  Expr.T.expr
+)
+"boolify.ml" 66 2227 2235 "boolify.ml" 66 2227 2236
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 67 2240 2250 "boolify.ml" 67 2240 2258
+type(
+  string -> Expr.T.expr
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"boolify.ml" 67 2240 2259 "boolify.ml" 67 2240 2302
+type(
+  string
+)
+"boolify.ml" 67 2240 2250 "boolify.ml" 67 2240 2302
+type(
+  Expr.T.expr
+)
+"boolify.ml" 59 1928 1934 "boolify.ml" 68 2303 2312
+type(
+  Expr.T.expr
+)
+"boolify.ml" 69 2313 2323 "boolify.ml" 69 2313 2324
+type(
+  Expr.T.bullet
+)
+ident(
+  def q "boolify.ml" 70 2333 2339 "boolify.ml" 70 2333 2366
+)
+"boolify.ml" 69 2313 2326 "boolify.ml" 69 2313 2328
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "boolify.ml" 70 2333 2339 "boolify.ml" 70 2333 2366
+)
+"boolify.ml" 69 2313 2317 "boolify.ml" 69 2313 2329
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 70 2333 2345 "boolify.ml" 70 2333 2346
+type(
+  Expr.T.bullet
+)
+ident(
+  int_ref q "boolify.ml" 69 2313 2323 "boolify.ml" 69 2313 2324
+)
+"boolify.ml" 70 2333 2348 "boolify.ml" 70 2333 2351
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 70 2333 2352 "boolify.ml" 70 2333 2356
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref eboo "boolify.ml" 29 660 668 "boolify.ml" 29 660 672
+)
+"boolify.ml" 70 2333 2357 "boolify.ml" 70 2333 2359
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "boolify.ml" 69 2313 2326 "boolify.ml" 69 2313 2328
+)
+"boolify.ml" 70 2333 2348 "boolify.ml" 70 2333 2359
+type(
+  Expr.T.expr list
+)
+"boolify.ml" 70 2333 2339 "boolify.ml" 70 2333 2360
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 70 2333 2364 "boolify.ml" 70 2333 2366
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 31 759 765 "boolify.ml" 31 759 767
+)
+"boolify.ml" 70 2333 2339 "boolify.ml" 70 2333 2366
+type(
+  Expr.T.expr
+)
+"boolify.ml" 71 2367 2378 "boolify.ml" 71 2367 2379
+type(
+  Expr.T.quantifier
+)
+ident(
+  def q "boolify.ml" 72 2392 2398 "boolify.ml" 72 2392 2433
+)
+"boolify.ml" 71 2367 2381 "boolify.ml" 71 2367 2383
+type(
+  Expr.T.bounds
+)
+ident(
+  def bs "boolify.ml" 72 2392 2398 "boolify.ml" 72 2392 2433
+)
+"boolify.ml" 71 2367 2385 "boolify.ml" 71 2367 2387
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "boolify.ml" 72 2392 2398 "boolify.ml" 72 2392 2433
+)
+"boolify.ml" 71 2367 2371 "boolify.ml" 71 2367 2388
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 72 2392 2405 "boolify.ml" 72 2392 2406
+type(
+  Expr.T.quantifier
+)
+ident(
+  int_ref q "boolify.ml" 71 2367 2378 "boolify.ml" 71 2367 2379
+)
+"boolify.ml" 72 2392 2408 "boolify.ml" 72 2392 2414
+type(
+  Expr.T.bounds -> Expr.T.bounds
+)
+ident(
+  int_ref nboobs "boolify.ml" 144 5321 5325 "boolify.ml" 144 5321 5331
+)
+"boolify.ml" 72 2392 2415 "boolify.ml" 72 2392 2417
+type(
+  Expr.T.bounds
+)
+ident(
+  int_ref bs "boolify.ml" 71 2367 2381 "boolify.ml" 71 2367 2383
+)
+"boolify.ml" 72 2392 2408 "boolify.ml" 72 2392 2417
+type(
+  Expr.T.bounds
+)
+"boolify.ml" 72 2392 2419 "boolify.ml" 72 2392 2423
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref eboo "boolify.ml" 29 660 668 "boolify.ml" 29 660 672
+)
+"boolify.ml" 72 2392 2424 "boolify.ml" 72 2392 2426
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "boolify.ml" 71 2367 2385 "boolify.ml" 71 2367 2387
+)
+"boolify.ml" 72 2392 2419 "boolify.ml" 72 2392 2426
+type(
+  Expr.T.expr
+)
+"boolify.ml" 72 2392 2398 "boolify.ml" 72 2392 2427
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 72 2392 2431 "boolify.ml" 72 2392 2433
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 31 759 765 "boolify.ml" 31 759 767
+)
+"boolify.ml" 72 2392 2398 "boolify.ml" 72 2392 2433
+type(
+  Expr.T.expr
+)
+"boolify.ml" 73 2434 2447 "boolify.ml" 73 2434 2453
+type(
+  Builtin.builtin
+)
+"boolify.ml" 73 2434 2438 "boolify.ml" 73 2434 2453
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 73 2434 2465 "boolify.ml" 73 2434 2472
+type(
+  Builtin.builtin
+)
+"boolify.ml" 73 2434 2456 "boolify.ml" 73 2434 2472
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 73 2434 2438 "boolify.ml" 73 2434 2472
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 74 2476 2482 "boolify.ml" 74 2476 2483
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 29 660 673 "boolify.ml" 29 660 674
+)
+"boolify.ml" 75 2484 2492 "boolify.ml" 75 2484 2493
+type(
+  Expr.T.expr
+)
+ident(
+  def c "boolify.ml" 76 2504 2510 "boolify.ml" 76 2504 2543
+)
+"boolify.ml" 75 2484 2495 "boolify.ml" 75 2484 2496
+type(
+  Expr.T.expr
+)
+ident(
+  def t "boolify.ml" 76 2504 2510 "boolify.ml" 76 2504 2543
+)
+"boolify.ml" 75 2484 2498 "boolify.ml" 75 2484 2499
+type(
+  Expr.T.expr
+)
+ident(
+  def f "boolify.ml" 76 2504 2510 "boolify.ml" 76 2504 2543
+)
+"boolify.ml" 75 2484 2488 "boolify.ml" 75 2484 2500
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 76 2504 2514 "boolify.ml" 76 2504 2518
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref eboo "boolify.ml" 29 660 668 "boolify.ml" 29 660 672
+)
+"boolify.ml" 76 2504 2519 "boolify.ml" 76 2504 2520
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref c "boolify.ml" 75 2484 2492 "boolify.ml" 75 2484 2493
+)
+"boolify.ml" 76 2504 2514 "boolify.ml" 76 2504 2520
+type(
+  Expr.T.expr
+)
+"boolify.ml" 76 2504 2522 "boolify.ml" 76 2504 2526
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref eboo "boolify.ml" 29 660 668 "boolify.ml" 29 660 672
+)
+"boolify.ml" 76 2504 2527 "boolify.ml" 76 2504 2528
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref t "boolify.ml" 75 2484 2495 "boolify.ml" 75 2484 2496
+)
+"boolify.ml" 76 2504 2522 "boolify.ml" 76 2504 2528
+type(
+  Expr.T.expr
+)
+"boolify.ml" 76 2504 2530 "boolify.ml" 76 2504 2534
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref eboo "boolify.ml" 29 660 668 "boolify.ml" 29 660 672
+)
+"boolify.ml" 76 2504 2535 "boolify.ml" 76 2504 2536
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f "boolify.ml" 75 2484 2498 "boolify.ml" 75 2484 2499
+)
+"boolify.ml" 76 2504 2530 "boolify.ml" 76 2504 2536
+type(
+  Expr.T.expr
+)
+"boolify.ml" 76 2504 2510 "boolify.ml" 76 2504 2537
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 76 2504 2541 "boolify.ml" 76 2504 2543
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 31 759 765 "boolify.ml" 31 759 767
+)
+"boolify.ml" 76 2504 2510 "boolify.ml" 76 2504 2543
+type(
+  Expr.T.expr
+)
+"boolify.ml" 77 2544 2554 "boolify.ml" 77 2544 2556
+type(
+  (Expr.T.expr * Expr.T.expr) list
+)
+ident(
+  def es "boolify.ml" 78 2564 2570 "boolify.ml" 79 2624 2664
+)
+"boolify.ml" 77 2544 2558 "boolify.ml" 77 2544 2559
+type(
+  Expr.T.expr option
+)
+ident(
+  def o "boolify.ml" 78 2564 2570 "boolify.ml" 79 2624 2664
+)
+"boolify.ml" 77 2544 2548 "boolify.ml" 77 2544 2560
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 78 2564 2574 "boolify.ml" 78 2564 2576
+type(
+  (Expr.T.expr * Expr.T.expr) list
+)
+ident(
+  def es "boolify.ml" 79 2624 2630 "boolify.ml" 79 2624 2664
+)
+"boolify.ml" 78 2564 2579 "boolify.ml" 78 2564 2587
+type(
+  (Expr.T.expr * Expr.T.expr -> Expr.T.expr * Expr.T.expr) ->
+  (Expr.T.expr * Expr.T.expr) list -> (Expr.T.expr * Expr.T.expr) list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 78 2564 2594 "boolify.ml" 78 2564 2595
+type(
+  Expr.T.expr
+)
+ident(
+  def p "boolify.ml" 78 2564 2602 "boolify.ml" 78 2564 2616
+)
+"boolify.ml" 78 2564 2596 "boolify.ml" 78 2564 2597
+type(
+  Expr.T.expr
+)
+ident(
+  def e "boolify.ml" 78 2564 2602 "boolify.ml" 78 2564 2616
+)
+"boolify.ml" 78 2564 2593 "boolify.ml" 78 2564 2598
+type(
+  Expr.T.expr * Expr.T.expr
+)
+"boolify.ml" 78 2564 2602 "boolify.ml" 78 2564 2606
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref eboo "boolify.ml" 29 660 668 "boolify.ml" 29 660 672
+)
+"boolify.ml" 78 2564 2607 "boolify.ml" 78 2564 2608
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref p "boolify.ml" 78 2564 2594 "boolify.ml" 78 2564 2595
+)
+"boolify.ml" 78 2564 2602 "boolify.ml" 78 2564 2608
+type(
+  Expr.T.expr
+)
+"boolify.ml" 78 2564 2610 "boolify.ml" 78 2564 2614
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref eboo "boolify.ml" 29 660 668 "boolify.ml" 29 660 672
+)
+"boolify.ml" 78 2564 2615 "boolify.ml" 78 2564 2616
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 78 2564 2596 "boolify.ml" 78 2564 2597
+)
+"boolify.ml" 78 2564 2610 "boolify.ml" 78 2564 2616
+type(
+  Expr.T.expr
+)
+"boolify.ml" 78 2564 2602 "boolify.ml" 78 2564 2616
+type(
+  Expr.T.expr * Expr.T.expr
+)
+"boolify.ml" 78 2564 2588 "boolify.ml" 78 2564 2617
+type(
+  Expr.T.expr * Expr.T.expr -> Expr.T.expr * Expr.T.expr
+)
+"boolify.ml" 78 2564 2618 "boolify.ml" 78 2564 2620
+type(
+  (Expr.T.expr * Expr.T.expr) list
+)
+ident(
+  int_ref es "boolify.ml" 77 2544 2554 "boolify.ml" 77 2544 2556
+)
+"boolify.ml" 78 2564 2579 "boolify.ml" 78 2564 2620
+type(
+  (Expr.T.expr * Expr.T.expr) list
+)
+"boolify.ml" 79 2624 2636 "boolify.ml" 79 2624 2638
+type(
+  (Expr.T.expr * Expr.T.expr) list
+)
+ident(
+  int_ref es "boolify.ml" 78 2564 2574 "boolify.ml" 78 2564 2576
+)
+"boolify.ml" 79 2624 2640 "boolify.ml" 79 2624 2650
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr option -> Expr.T.expr option
+)
+ident(
+  int_ref Ext.Option.map "ext.mli" 61 2656 2658 "ext.mli" 61 2656 2704
+)
+"boolify.ml" 79 2624 2651 "boolify.ml" 79 2624 2655
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref eboo "boolify.ml" 29 660 668 "boolify.ml" 29 660 672
+)
+"boolify.ml" 79 2624 2656 "boolify.ml" 79 2624 2657
+type(
+  Expr.T.expr option
+)
+ident(
+  int_ref o "boolify.ml" 77 2544 2558 "boolify.ml" 77 2544 2559
+)
+"boolify.ml" 79 2624 2640 "boolify.ml" 79 2624 2657
+type(
+  Expr.T.expr option
+)
+"boolify.ml" 79 2624 2630 "boolify.ml" 79 2624 2658
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 79 2624 2662 "boolify.ml" 79 2624 2664
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 31 759 765 "boolify.ml" 31 759 767
+)
+"boolify.ml" 79 2624 2630 "boolify.ml" 79 2624 2664
+type(
+  Expr.T.expr
+)
+"boolify.ml" 78 2564 2570 "boolify.ml" 79 2624 2664
+type(
+  Expr.T.expr
+)
+"boolify.ml" 80 2665 2677 "boolify.ml" 80 2665 2679
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  def xs "boolify.ml" 80 2665 2687 "boolify.ml" 80 2665 2713
+)
+"boolify.ml" 80 2665 2680 "boolify.ml" 80 2665 2682
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "boolify.ml" 80 2665 2687 "boolify.ml" 80 2665 2713
+)
+"boolify.ml" 80 2665 2669 "boolify.ml" 80 2665 2683
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 80 2665 2695 "boolify.ml" 80 2665 2697
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  int_ref xs "boolify.ml" 80 2665 2677 "boolify.ml" 80 2665 2679
+)
+"boolify.ml" 80 2665 2699 "boolify.ml" 80 2665 2703
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref eboo "boolify.ml" 29 660 668 "boolify.ml" 29 660 672
+)
+"boolify.ml" 80 2665 2704 "boolify.ml" 80 2665 2706
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "boolify.ml" 80 2665 2680 "boolify.ml" 80 2665 2682
+)
+"boolify.ml" 80 2665 2699 "boolify.ml" 80 2665 2706
+type(
+  Expr.T.expr
+)
+"boolify.ml" 80 2665 2687 "boolify.ml" 80 2665 2707
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 80 2665 2711 "boolify.ml" 80 2665 2713
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 31 759 765 "boolify.ml" 31 759 767
+)
+"boolify.ml" 80 2665 2687 "boolify.ml" 80 2665 2713
+type(
+  Expr.T.expr
+)
+"boolify.ml" 83 2770 2782 "boolify.ml" 83 2770 2784
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "boolify.ml" 83 2770 2791 "boolify.ml" 83 2770 2798
+)
+"boolify.ml" 83 2770 2785 "boolify.ml" 83 2770 2786
+type(
+  Expr.T.pform
+)
+"boolify.ml" 83 2770 2774 "boolify.ml" 83 2770 2787
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 83 2770 2791 "boolify.ml" 83 2770 2795
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref eboo "boolify.ml" 29 660 668 "boolify.ml" 29 660 672
+)
+"boolify.ml" 83 2770 2796 "boolify.ml" 83 2770 2798
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "boolify.ml" 83 2770 2782 "boolify.ml" 83 2770 2784
+)
+"boolify.ml" 83 2770 2791 "boolify.ml" 83 2770 2798
+type(
+  Expr.T.expr
+)
+"boolify.ml" 85 2862 2866 "boolify.ml" 85 2862 2867
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 86 2871 2876 "boolify.ml" 86 2871 2884
+type(
+  string -> Expr.T.expr
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"boolify.ml" 86 2871 2885 "boolify.ml" 86 2871 2928
+type(
+  string
+)
+"boolify.ml" 86 2871 2876 "boolify.ml" 86 2871 2928
+type(
+  Expr.T.expr
+)
+"boolify.ml" 37 975 977 "boolify.ml" 87 2929 2934
+type(
+  Expr.T.expr
+)
+"boolify.ml" 31 759 761 "boolify.ml" 87 2929 2934
+type(
+  Expr.T.expr
+)
+"boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  def nboo "boolify.ml" 29 660 660 "boolify.ml" 0 0 -1
+)
+"boolify.ml" 88 2935 2944 "boolify.ml" 88 2935 2945
+type(
+  Expr.T.expr
+)
+ident(
+  def e "boolify.ml" 90 3010 3012 "boolify.ml" 143 5315 5320
+)
+"boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+type(
+  'b -> 'b Property.wrapped
+)
+ident(
+  def mk "boolify.ml" 91 3046 3048 "boolify.ml" 143 5315 5320
+)
+"boolify.ml" 90 3010 3019 "boolify.ml" 90 3010 3020
+type(
+  'b
+)
+ident(
+  def x "boolify.ml" 90 3010 3023 "boolify.ml" 90 3010 3042
+)
+"boolify.ml" 90 3010 3025 "boolify.ml" 90 3010 3026
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 88 2935 2944 "boolify.ml" 88 2935 2945
+)
+"boolify.ml" 90 3010 3039 "boolify.ml" 90 3010 3040
+type(
+  'b
+)
+ident(
+  int_ref x "boolify.ml" 90 3010 3019 "boolify.ml" 90 3010 3020
+)
+"boolify.ml" 90 3010 3023 "boolify.ml" 90 3010 3042
+type(
+  'b Property.wrapped
+)
+"boolify.ml" 91 3046 3060 "boolify.ml" 91 3046 3061
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 88 2935 2944 "boolify.ml" 88 2935 2945
+)
+"boolify.ml" 91 3046 3060 "boolify.ml" 91 3046 3066
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 92 3072 3098 "boolify.ml" 92 3072 3107
+type(
+  string
+)
+"boolify.ml" 92 3072 3091 "boolify.ml" 92 3072 3107
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 92 3072 3083 "boolify.ml" 92 3072 3108
+type(
+  Expr.T.expr
+)
+"boolify.ml" 92 3072 3110 "boolify.ml" 92 3072 3111
+type(
+  Expr.T.expr list
+)
+"boolify.ml" 92 3072 3076 "boolify.ml" 92 3072 3112
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 93 3116 3122 "boolify.ml" 93 3116 3123
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 88 2935 2944 "boolify.ml" 88 2935 2945
+)
+"boolify.ml" 93 3116 3127 "boolify.ml" 93 3116 3136
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref mk_bool2u "boolify.ml" 25 525 529 "boolify.ml" 25 525 538
+)
+"boolify.ml" 93 3116 3122 "boolify.ml" 93 3116 3136
+type(
+  Expr.T.expr
+)
+"boolify.ml" 94 3137 3144 "boolify.ml" 94 3137 3145
+type(
+  int
+)
+"boolify.ml" 94 3137 3141 "boolify.ml" 94 3137 3145
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 94 3137 3155 "boolify.ml" 94 3137 3156
+type(
+  string
+)
+"boolify.ml" 94 3137 3148 "boolify.ml" 94 3137 3156
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 94 3137 3141 "boolify.ml" 94 3137 3156
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 94 3137 3160 "boolify.ml" 94 3137 3161
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 88 2935 2944 "boolify.ml" 88 2935 2945
+)
+"boolify.ml" 95 3162 3174 "boolify.ml" 95 3162 3175
+type(
+  Expr.T.expr
+)
+ident(
+  def f "boolify.ml" 95 3162 3184 "boolify.ml" 95 3162 3218
+)
+"boolify.ml" 95 3162 3177 "boolify.ml" 95 3162 3179
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "boolify.ml" 95 3162 3184 "boolify.ml" 95 3162 3218
+)
+"boolify.ml" 95 3162 3166 "boolify.ml" 95 3162 3180
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 95 3162 3192 "boolify.ml" 95 3162 3196
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 95 3162 3197 "boolify.ml" 95 3162 3198
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f "boolify.ml" 95 3162 3174 "boolify.ml" 95 3162 3175
+)
+"boolify.ml" 95 3162 3192 "boolify.ml" 95 3162 3198
+type(
+  Expr.T.expr
+)
+"boolify.ml" 95 3162 3200 "boolify.ml" 95 3162 3203
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 95 3162 3204 "boolify.ml" 95 3162 3208
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 95 3162 3209 "boolify.ml" 95 3162 3211
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "boolify.ml" 95 3162 3177 "boolify.ml" 95 3162 3179
+)
+"boolify.ml" 95 3162 3200 "boolify.ml" 95 3162 3211
+type(
+  Expr.T.expr list
+)
+"boolify.ml" 95 3162 3184 "boolify.ml" 95 3162 3212
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 95 3162 3216 "boolify.ml" 95 3162 3218
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 95 3162 3184 "boolify.ml" 95 3162 3218
+type(
+  Expr.T.expr
+)
+"boolify.ml" 96 3219 3228 "boolify.ml" 96 3219 3229
+type(
+  Expr.T.expr
+)
+ident(
+  def r "boolify.ml" 96 3219 3237 "boolify.ml" 96 3219 3258
+)
+"boolify.ml" 96 3219 3231 "boolify.ml" 96 3219 3232
+type(
+  string
+)
+ident(
+  def h "boolify.ml" 96 3219 3237 "boolify.ml" 96 3219 3258
+)
+"boolify.ml" 96 3219 3223 "boolify.ml" 96 3219 3233
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 96 3219 3242 "boolify.ml" 96 3219 3246
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 96 3219 3247 "boolify.ml" 96 3219 3248
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref r "boolify.ml" 96 3219 3228 "boolify.ml" 96 3219 3229
+)
+"boolify.ml" 96 3219 3242 "boolify.ml" 96 3219 3248
+type(
+  Expr.T.expr
+)
+"boolify.ml" 96 3219 3250 "boolify.ml" 96 3219 3251
+type(
+  string
+)
+ident(
+  int_ref h "boolify.ml" 96 3219 3231 "boolify.ml" 96 3219 3232
+)
+"boolify.ml" 96 3219 3237 "boolify.ml" 96 3219 3252
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 96 3219 3256 "boolify.ml" 96 3219 3258
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 96 3219 3237 "boolify.ml" 96 3219 3258
+type(
+  Expr.T.expr
+)
+"boolify.ml" 97 3259 3287 "boolify.ml" 97 3259 3288
+type(
+  Builtin.builtin
+)
+ident(
+  def o "boolify.ml" 98 3304 3310 "boolify.ml" 110 3807 3816
+)
+"boolify.ml" 97 3259 3278 "boolify.ml" 97 3259 3288
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 97 3259 3270 "boolify.ml" 97 3259 3289
+type(
+  Expr.T.expr
+)
+"boolify.ml" 97 3259 3270 "boolify.ml" 97 3259 3295
+type(
+  Expr.T.expr
+)
+ident(
+  def op "boolify.ml" 98 3304 3310 "boolify.ml" 110 3807 3816
+)
+"boolify.ml" 97 3259 3297 "boolify.ml" 97 3259 3299
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "boolify.ml" 98 3304 3310 "boolify.ml" 110 3807 3816
+)
+"boolify.ml" 97 3259 3263 "boolify.ml" 97 3259 3300
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 98 3304 3322 "boolify.ml" 98 3304 3323
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref o "boolify.ml" 97 3259 3287 "boolify.ml" 97 3259 3288
+)
+"boolify.ml" 99 3329 3337 "boolify.ml" 99 3329 3343
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 99 3329 3346 "boolify.ml" 99 3329 3352
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 99 3329 3337 "boolify.ml" 99 3329 3352
+type(
+  Builtin.builtin
+)
+"boolify.ml" 99 3329 3355 "boolify.ml" 99 3329 3364
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 99 3329 3337 "boolify.ml" 99 3329 3364
+type(
+  Builtin.builtin
+)
+"boolify.ml" 99 3329 3367 "boolify.ml" 99 3329 3374
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 99 3329 3337 "boolify.ml" 99 3329 3374
+type(
+  Builtin.builtin
+)
+"boolify.ml" 99 3329 3377 "boolify.ml" 99 3329 3382
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 99 3329 3337 "boolify.ml" 99 3329 3382
+type(
+  Builtin.builtin
+)
+"boolify.ml" 100 3386 3403 "boolify.ml" 100 3386 3405
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref op "boolify.ml" 97 3259 3270 "boolify.ml" 97 3259 3295
+)
+"boolify.ml" 100 3386 3407 "boolify.ml" 100 3386 3410
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 100 3386 3411 "boolify.ml" 100 3386 3415
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref eboo "boolify.ml" 29 660 668 "boolify.ml" 29 660 672
+)
+"boolify.ml" 100 3386 3416 "boolify.ml" 100 3386 3418
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "boolify.ml" 97 3259 3297 "boolify.ml" 97 3259 3299
+)
+"boolify.ml" 100 3386 3407 "boolify.ml" 100 3386 3418
+type(
+  Expr.T.expr list
+)
+"boolify.ml" 100 3386 3396 "boolify.ml" 100 3386 3419
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 100 3386 3423 "boolify.ml" 100 3386 3425
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 100 3386 3396 "boolify.ml" 100 3386 3425
+type(
+  Expr.T.expr
+)
+"boolify.ml" 100 3386 3429 "boolify.ml" 100 3386 3438
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref mk_bool2u "boolify.ml" 25 525 529 "boolify.ml" 25 525 538
+)
+"boolify.ml" 100 3386 3396 "boolify.ml" 100 3386 3438
+type(
+  Expr.T.expr
+)
+"boolify.ml" 101 3439 3447 "boolify.ml" 101 3439 3452
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 101 3439 3455 "boolify.ml" 101 3439 3463
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 101 3439 3447 "boolify.ml" 101 3439 3463
+type(
+  Builtin.builtin
+)
+"boolify.ml" 101 3439 3466 "boolify.ml" 101 3439 3476
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 101 3439 3447 "boolify.ml" 101 3439 3476
+type(
+  Builtin.builtin
+)
+"boolify.ml" 101 3439 3479 "boolify.ml" 101 3439 3485
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 101 3439 3447 "boolify.ml" 101 3439 3485
+type(
+  Builtin.builtin
+)
+"boolify.ml" 101 3439 3488 "boolify.ml" 101 3439 3492
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 101 3439 3447 "boolify.ml" 101 3439 3492
+type(
+  Builtin.builtin
+)
+"boolify.ml" 101 3439 3495 "boolify.ml" 101 3439 3501
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 101 3439 3447 "boolify.ml" 101 3439 3501
+type(
+  Builtin.builtin
+)
+"boolify.ml" 101 3439 3504 "boolify.ml" 101 3439 3508
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 101 3439 3447 "boolify.ml" 101 3439 3508
+type(
+  Builtin.builtin
+)
+"boolify.ml" 103 3560 3577 "boolify.ml" 103 3560 3579
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref op "boolify.ml" 97 3259 3270 "boolify.ml" 97 3259 3295
+)
+"boolify.ml" 103 3560 3581 "boolify.ml" 103 3560 3584
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 103 3560 3585 "boolify.ml" 103 3560 3589
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 103 3560 3590 "boolify.ml" 103 3560 3592
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "boolify.ml" 97 3259 3297 "boolify.ml" 97 3259 3299
+)
+"boolify.ml" 103 3560 3581 "boolify.ml" 103 3560 3592
+type(
+  Expr.T.expr list
+)
+"boolify.ml" 103 3560 3570 "boolify.ml" 103 3560 3593
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 103 3560 3597 "boolify.ml" 103 3560 3599
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 103 3560 3570 "boolify.ml" 103 3560 3599
+type(
+  Expr.T.expr
+)
+"boolify.ml" 103 3560 3603 "boolify.ml" 103 3560 3612
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref mk_bool2u "boolify.ml" 25 525 529 "boolify.ml" 25 525 538
+)
+"boolify.ml" 103 3560 3570 "boolify.ml" 103 3560 3612
+type(
+  Expr.T.expr
+)
+"boolify.ml" 104 3613 3621 "boolify.ml" 104 3613 3625
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 104 3613 3628 "boolify.ml" 104 3613 3633
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 104 3613 3621 "boolify.ml" 104 3613 3633
+type(
+  Builtin.builtin
+)
+"boolify.ml" 105 3637 3654 "boolify.ml" 105 3637 3656
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref op "boolify.ml" 97 3259 3270 "boolify.ml" 97 3259 3295
+)
+"boolify.ml" 105 3637 3658 "boolify.ml" 105 3637 3661
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 105 3637 3662 "boolify.ml" 105 3637 3666
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 105 3637 3667 "boolify.ml" 105 3637 3669
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "boolify.ml" 97 3259 3297 "boolify.ml" 97 3259 3299
+)
+"boolify.ml" 105 3637 3658 "boolify.ml" 105 3637 3669
+type(
+  Expr.T.expr list
+)
+"boolify.ml" 105 3637 3647 "boolify.ml" 105 3637 3670
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 105 3637 3674 "boolify.ml" 105 3637 3676
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 105 3637 3647 "boolify.ml" 105 3637 3676
+type(
+  Expr.T.expr
+)
+"boolify.ml" 105 3637 3680 "boolify.ml" 105 3637 3689
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref mk_bool2u "boolify.ml" 25 525 529 "boolify.ml" 25 525 538
+)
+"boolify.ml" 105 3637 3647 "boolify.ml" 105 3637 3689
+type(
+  Expr.T.expr
+)
+"boolify.ml" 106 3690 3698 "boolify.ml" 106 3690 3705
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 107 3709 3726 "boolify.ml" 107 3709 3728
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref op "boolify.ml" 97 3259 3270 "boolify.ml" 97 3259 3295
+)
+"boolify.ml" 107 3709 3730 "boolify.ml" 107 3709 3733
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 107 3709 3734 "boolify.ml" 107 3709 3738
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 107 3709 3739 "boolify.ml" 107 3709 3741
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "boolify.ml" 97 3259 3297 "boolify.ml" 97 3259 3299
+)
+"boolify.ml" 107 3709 3730 "boolify.ml" 107 3709 3741
+type(
+  Expr.T.expr list
+)
+"boolify.ml" 107 3709 3719 "boolify.ml" 107 3709 3742
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 107 3709 3746 "boolify.ml" 107 3709 3748
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 107 3709 3719 "boolify.ml" 107 3709 3748
+type(
+  Expr.T.expr
+)
+"boolify.ml" 108 3749 3757 "boolify.ml" 108 3749 3758
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"boolify.ml" 109 3762 3779 "boolify.ml" 109 3762 3783
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 109 3762 3784 "boolify.ml" 109 3762 3786
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref op "boolify.ml" 97 3259 3270 "boolify.ml" 97 3259 3295
+)
+"boolify.ml" 109 3762 3779 "boolify.ml" 109 3762 3786
+type(
+  Expr.T.expr
+)
+"boolify.ml" 109 3762 3788 "boolify.ml" 109 3762 3791
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 109 3762 3792 "boolify.ml" 109 3762 3796
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 109 3762 3797 "boolify.ml" 109 3762 3799
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "boolify.ml" 97 3259 3297 "boolify.ml" 97 3259 3299
+)
+"boolify.ml" 109 3762 3788 "boolify.ml" 109 3762 3799
+type(
+  Expr.T.expr list
+)
+"boolify.ml" 109 3762 3772 "boolify.ml" 109 3762 3800
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 109 3762 3804 "boolify.ml" 109 3762 3806
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 109 3762 3772 "boolify.ml" 109 3762 3806
+type(
+  Expr.T.expr
+)
+"boolify.ml" 98 3304 3310 "boolify.ml" 110 3807 3816
+type(
+  Expr.T.expr
+)
+"boolify.ml" 111 3817 3828 "boolify.ml" 111 3817 3830
+type(
+  Expr.T.expr
+)
+ident(
+  def op "boolify.ml" 111 3817 3839 "boolify.ml" 111 3817 3873
+)
+"boolify.ml" 111 3817 3832 "boolify.ml" 111 3817 3834
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "boolify.ml" 111 3817 3839 "boolify.ml" 111 3817 3873
+)
+"boolify.ml" 111 3817 3821 "boolify.ml" 111 3817 3835
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 111 3817 3846 "boolify.ml" 111 3817 3850
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 111 3817 3851 "boolify.ml" 111 3817 3853
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref op "boolify.ml" 111 3817 3828 "boolify.ml" 111 3817 3830
+)
+"boolify.ml" 111 3817 3846 "boolify.ml" 111 3817 3853
+type(
+  Expr.T.expr
+)
+"boolify.ml" 111 3817 3855 "boolify.ml" 111 3817 3858
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 111 3817 3859 "boolify.ml" 111 3817 3863
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 111 3817 3864 "boolify.ml" 111 3817 3866
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "boolify.ml" 111 3817 3832 "boolify.ml" 111 3817 3834
+)
+"boolify.ml" 111 3817 3855 "boolify.ml" 111 3817 3866
+type(
+  Expr.T.expr list
+)
+"boolify.ml" 111 3817 3839 "boolify.ml" 111 3817 3867
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 111 3817 3871 "boolify.ml" 111 3817 3873
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 111 3817 3839 "boolify.ml" 111 3817 3873
+type(
+  Expr.T.expr
+)
+"boolify.ml" 112 3874 3886 "boolify.ml" 112 3874 3887
+type(
+  Util.hint
+)
+ident(
+  def h "boolify.ml" 112 3874 3899 "boolify.ml" 112 3874 3943
+)
+"boolify.ml" 112 3874 3889 "boolify.ml" 112 3874 3890
+type(
+  Expr.T.expr option
+)
+ident(
+  def d "boolify.ml" 112 3874 3899 "boolify.ml" 112 3874 3943
+)
+"boolify.ml" 112 3874 3892 "boolify.ml" 112 3874 3894
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "boolify.ml" 112 3874 3899 "boolify.ml" 112 3874 3943
+)
+"boolify.ml" 112 3874 3878 "boolify.ml" 112 3874 3895
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 112 3874 3907 "boolify.ml" 112 3874 3908
+type(
+  Util.hint
+)
+ident(
+  int_ref h "boolify.ml" 112 3874 3886 "boolify.ml" 112 3874 3887
+)
+"boolify.ml" 112 3874 3910 "boolify.ml" 112 3874 3920
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr option -> Expr.T.expr option
+)
+ident(
+  int_ref Ext.Option.map "ext.mli" 61 2656 2658 "ext.mli" 61 2656 2704
+)
+"boolify.ml" 112 3874 3921 "boolify.ml" 112 3874 3925
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 112 3874 3926 "boolify.ml" 112 3874 3927
+type(
+  Expr.T.expr option
+)
+ident(
+  int_ref d "boolify.ml" 112 3874 3889 "boolify.ml" 112 3874 3890
+)
+"boolify.ml" 112 3874 3910 "boolify.ml" 112 3874 3927
+type(
+  Expr.T.expr option
+)
+"boolify.ml" 112 3874 3929 "boolify.ml" 112 3874 3933
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref eboo "boolify.ml" 29 660 668 "boolify.ml" 29 660 672
+)
+"boolify.ml" 112 3874 3934 "boolify.ml" 112 3874 3936
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "boolify.ml" 112 3874 3892 "boolify.ml" 112 3874 3894
+)
+"boolify.ml" 112 3874 3929 "boolify.ml" 112 3874 3936
+type(
+  Expr.T.expr
+)
+"boolify.ml" 112 3874 3899 "boolify.ml" 112 3874 3937
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 112 3874 3941 "boolify.ml" 112 3874 3943
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 112 3874 3899 "boolify.ml" 112 3874 3943
+type(
+  Expr.T.expr
+)
+"boolify.ml" 113 3944 3954 "boolify.ml" 113 3944 3956
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "boolify.ml" 113 3944 3960 "boolify.ml" 113 3944 3985
+)
+"boolify.ml" 113 3944 3948 "boolify.ml" 113 3944 3956
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 113 3944 3967 "boolify.ml" 113 3944 3970
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 113 3944 3971 "boolify.ml" 113 3944 3975
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 113 3944 3976 "boolify.ml" 113 3944 3978
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "boolify.ml" 113 3944 3954 "boolify.ml" 113 3944 3956
+)
+"boolify.ml" 113 3944 3966 "boolify.ml" 113 3944 3979
+type(
+  Expr.T.expr list
+)
+"boolify.ml" 113 3944 3960 "boolify.ml" 113 3944 3979
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 113 3944 3983 "boolify.ml" 113 3944 3985
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 113 3944 3960 "boolify.ml" 113 3944 3985
+type(
+  Expr.T.expr
+)
+"boolify.ml" 114 3986 3997 "boolify.ml" 114 3986 3999
+type(
+  (string * Expr.T.expr) list
+)
+ident(
+  def rs "boolify.ml" 114 3986 4003 "boolify.ml" 114 3986 4054
+)
+"boolify.ml" 114 3986 3990 "boolify.ml" 114 3986 3999
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 114 3986 4011 "boolify.ml" 114 3986 4019
+type(
+  (string * Expr.T.expr -> string * Expr.T.expr) ->
+  (string * Expr.T.expr) list -> (string * Expr.T.expr) list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 114 3986 4026 "boolify.ml" 114 3986 4027
+type(
+  string
+)
+ident(
+  def h "boolify.ml" 114 3986 4034 "boolify.ml" 114 3986 4043
+)
+"boolify.ml" 114 3986 4028 "boolify.ml" 114 3986 4029
+type(
+  Expr.T.expr
+)
+ident(
+  def e "boolify.ml" 114 3986 4034 "boolify.ml" 114 3986 4043
+)
+"boolify.ml" 114 3986 4025 "boolify.ml" 114 3986 4030
+type(
+  string * Expr.T.expr
+)
+"boolify.ml" 114 3986 4034 "boolify.ml" 114 3986 4035
+type(
+  string
+)
+ident(
+  int_ref h "boolify.ml" 114 3986 4026 "boolify.ml" 114 3986 4027
+)
+"boolify.ml" 114 3986 4037 "boolify.ml" 114 3986 4041
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 114 3986 4042 "boolify.ml" 114 3986 4043
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 114 3986 4028 "boolify.ml" 114 3986 4029
+)
+"boolify.ml" 114 3986 4037 "boolify.ml" 114 3986 4043
+type(
+  Expr.T.expr
+)
+"boolify.ml" 114 3986 4034 "boolify.ml" 114 3986 4043
+type(
+  string * Expr.T.expr
+)
+"boolify.ml" 114 3986 4020 "boolify.ml" 114 3986 4044
+type(
+  string * Expr.T.expr -> string * Expr.T.expr
+)
+"boolify.ml" 114 3986 4045 "boolify.ml" 114 3986 4047
+type(
+  (string * Expr.T.expr) list
+)
+ident(
+  int_ref rs "boolify.ml" 114 3986 3997 "boolify.ml" 114 3986 3999
+)
+"boolify.ml" 114 3986 4010 "boolify.ml" 114 3986 4048
+type(
+  (string * Expr.T.expr) list
+)
+"boolify.ml" 114 3986 4003 "boolify.ml" 114 3986 4048
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 114 3986 4052 "boolify.ml" 114 3986 4054
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 114 3986 4003 "boolify.ml" 114 3986 4054
+type(
+  Expr.T.expr
+)
+"boolify.ml" 115 4055 4066 "boolify.ml" 115 4055 4068
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "boolify.ml" 115 4055 4077 "boolify.ml" 115 4055 4109
+)
+"boolify.ml" 115 4055 4070 "boolify.ml" 115 4055 4072
+type(
+  Expr.T.bounds
+)
+ident(
+  def bs "boolify.ml" 115 4055 4077 "boolify.ml" 115 4055 4109
+)
+"boolify.ml" 115 4055 4059 "boolify.ml" 115 4055 4073
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 115 4055 4084 "boolify.ml" 115 4055 4088
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 115 4055 4089 "boolify.ml" 115 4055 4091
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "boolify.ml" 115 4055 4066 "boolify.ml" 115 4055 4068
+)
+"boolify.ml" 115 4055 4084 "boolify.ml" 115 4055 4091
+type(
+  Expr.T.expr
+)
+"boolify.ml" 115 4055 4093 "boolify.ml" 115 4055 4099
+type(
+  Expr.T.bounds -> Expr.T.bounds
+)
+ident(
+  int_ref nboobs "boolify.ml" 144 5321 5325 "boolify.ml" 144 5321 5331
+)
+"boolify.ml" 115 4055 4100 "boolify.ml" 115 4055 4102
+type(
+  Expr.T.bounds
+)
+ident(
+  int_ref bs "boolify.ml" 115 4055 4070 "boolify.ml" 115 4055 4072
+)
+"boolify.ml" 115 4055 4093 "boolify.ml" 115 4055 4102
+type(
+  Expr.T.bounds
+)
+"boolify.ml" 115 4055 4077 "boolify.ml" 115 4055 4103
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 115 4055 4107 "boolify.ml" 115 4055 4109
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 115 4055 4077 "boolify.ml" 115 4055 4109
+type(
+  Expr.T.expr
+)
+"boolify.ml" 116 4110 4121 "boolify.ml" 116 4110 4122
+type(
+  Util.hint
+)
+ident(
+  def h "boolify.ml" 116 4110 4136 "boolify.ml" 116 4110 4170
+)
+"boolify.ml" 116 4110 4124 "boolify.ml" 116 4110 4127
+type(
+  Expr.T.expr
+)
+ident(
+  def dom "boolify.ml" 116 4110 4136 "boolify.ml" 116 4110 4170
+)
+"boolify.ml" 116 4110 4129 "boolify.ml" 116 4110 4131
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "boolify.ml" 116 4110 4136 "boolify.ml" 116 4110 4170
+)
+"boolify.ml" 116 4110 4114 "boolify.ml" 116 4110 4132
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 116 4110 4143 "boolify.ml" 116 4110 4144
+type(
+  Util.hint
+)
+ident(
+  int_ref h "boolify.ml" 116 4110 4121 "boolify.ml" 116 4110 4122
+)
+"boolify.ml" 116 4110 4146 "boolify.ml" 116 4110 4150
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 116 4110 4151 "boolify.ml" 116 4110 4154
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref dom "boolify.ml" 116 4110 4124 "boolify.ml" 116 4110 4127
+)
+"boolify.ml" 116 4110 4146 "boolify.ml" 116 4110 4154
+type(
+  Expr.T.expr
+)
+"boolify.ml" 116 4110 4156 "boolify.ml" 116 4110 4160
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref eboo "boolify.ml" 29 660 668 "boolify.ml" 29 660 672
+)
+"boolify.ml" 116 4110 4161 "boolify.ml" 116 4110 4163
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "boolify.ml" 116 4110 4129 "boolify.ml" 116 4110 4131
+)
+"boolify.ml" 116 4110 4156 "boolify.ml" 116 4110 4163
+type(
+  Expr.T.expr
+)
+"boolify.ml" 116 4110 4136 "boolify.ml" 116 4110 4164
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 116 4110 4168 "boolify.ml" 116 4110 4170
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 116 4110 4136 "boolify.ml" 116 4110 4170
+type(
+  Expr.T.expr
+)
+"boolify.ml" 117 4171 4183 "boolify.ml" 117 4171 4185
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "boolify.ml" 117 4171 4189 "boolify.ml" 117 4171 4216
+)
+"boolify.ml" 117 4171 4175 "boolify.ml" 117 4171 4185
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 117 4171 4198 "boolify.ml" 117 4171 4201
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 117 4171 4202 "boolify.ml" 117 4171 4206
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 117 4171 4207 "boolify.ml" 117 4171 4209
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "boolify.ml" 117 4171 4183 "boolify.ml" 117 4171 4185
+)
+"boolify.ml" 117 4171 4197 "boolify.ml" 117 4171 4210
+type(
+  Expr.T.expr list
+)
+"boolify.ml" 117 4171 4189 "boolify.ml" 117 4171 4210
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 117 4171 4214 "boolify.ml" 117 4171 4216
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 117 4171 4189 "boolify.ml" 117 4171 4216
+type(
+  Expr.T.expr
+)
+"boolify.ml" 118 4217 4228 "boolify.ml" 118 4217 4230
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "boolify.ml" 118 4217 4238 "boolify.ml" 118 4217 4268
+)
+"boolify.ml" 118 4217 4231 "boolify.ml" 118 4217 4233
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "boolify.ml" 118 4217 4238 "boolify.ml" 118 4217 4268
+)
+"boolify.ml" 118 4217 4221 "boolify.ml" 118 4217 4234
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 118 4217 4245 "boolify.ml" 118 4217 4249
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 118 4217 4250 "boolify.ml" 118 4217 4252
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "boolify.ml" 118 4217 4228 "boolify.ml" 118 4217 4230
+)
+"boolify.ml" 118 4217 4245 "boolify.ml" 118 4217 4252
+type(
+  Expr.T.expr
+)
+"boolify.ml" 118 4217 4254 "boolify.ml" 118 4217 4258
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 118 4217 4259 "boolify.ml" 118 4217 4261
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "boolify.ml" 118 4217 4231 "boolify.ml" 118 4217 4233
+)
+"boolify.ml" 118 4217 4254 "boolify.ml" 118 4217 4261
+type(
+  Expr.T.expr
+)
+"boolify.ml" 118 4217 4238 "boolify.ml" 118 4217 4262
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 118 4217 4266 "boolify.ml" 118 4217 4268
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 118 4217 4238 "boolify.ml" 118 4217 4268
+type(
+  Expr.T.expr
+)
+"boolify.ml" 119 4269 4285 "boolify.ml" 119 4269 4287
+type(
+  Expr.T.bounds
+)
+ident(
+  def bs "boolify.ml" 119 4269 4296 "boolify.ml" 119 4269 4333
+)
+"boolify.ml" 119 4269 4289 "boolify.ml" 119 4269 4291
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "boolify.ml" 119 4269 4296 "boolify.ml" 119 4269 4333
+)
+"boolify.ml" 119 4269 4273 "boolify.ml" 119 4269 4292
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 119 4269 4308 "boolify.ml" 119 4269 4314
+type(
+  Expr.T.bounds -> Expr.T.bounds
+)
+ident(
+  int_ref nboobs "boolify.ml" 144 5321 5325 "boolify.ml" 144 5321 5331
+)
+"boolify.ml" 119 4269 4315 "boolify.ml" 119 4269 4317
+type(
+  Expr.T.bounds
+)
+ident(
+  int_ref bs "boolify.ml" 119 4269 4285 "boolify.ml" 119 4269 4287
+)
+"boolify.ml" 119 4269 4308 "boolify.ml" 119 4269 4317
+type(
+  Expr.T.bounds
+)
+"boolify.ml" 119 4269 4319 "boolify.ml" 119 4269 4323
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 119 4269 4324 "boolify.ml" 119 4269 4326
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "boolify.ml" 119 4269 4289 "boolify.ml" 119 4269 4291
+)
+"boolify.ml" 119 4269 4319 "boolify.ml" 119 4269 4326
+type(
+  Expr.T.expr
+)
+"boolify.ml" 119 4269 4296 "boolify.ml" 119 4269 4327
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 119 4269 4331 "boolify.ml" 119 4269 4333
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 119 4269 4296 "boolify.ml" 119 4269 4333
+type(
+  Expr.T.expr
+)
+"boolify.ml" 120 4334 4346 "boolify.ml" 120 4334 4347
+type(
+  Expr.T.expr
+)
+ident(
+  def f "boolify.ml" 121 4357 4363 "boolify.ml" 123 4538 4570
+)
+"boolify.ml" 120 4334 4349 "boolify.ml" 120 4334 4352
+type(
+  Expr.T.exspec list
+)
+ident(
+  def exs "boolify.ml" 121 4357 4363 "boolify.ml" 123 4538 4570
+)
+"boolify.ml" 120 4334 4338 "boolify.ml" 120 4334 4353
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 121 4357 4367 "boolify.ml" 121 4357 4373
+type(
+  Expr.T.expoint -> Expr.T.expoint
+)
+ident(
+  def boo_ex "boolify.ml" 122 4461 4467 "boolify.ml" 123 4538 4570
+)
+"boolify.ml" 121 4357 4398 "boolify.ml" 121 4357 4400
+type(
+  Expr.T.expr
+)
+ident(
+  def ea "boolify.ml" 121 4357 4404 "boolify.ml" 121 4357 4426
+)
+"boolify.ml" 121 4357 4385 "boolify.ml" 121 4357 4400
+type(
+  Expr.T.expoint
+)
+"boolify.ml" 121 4357 4418 "boolify.ml" 121 4357 4422
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 121 4357 4423 "boolify.ml" 121 4357 4425
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ea "boolify.ml" 121 4357 4398 "boolify.ml" 121 4357 4400
+)
+"boolify.ml" 121 4357 4417 "boolify.ml" 121 4357 4426
+type(
+  Expr.T.expr
+)
+"boolify.ml" 121 4357 4404 "boolify.ml" 121 4357 4426
+type(
+  Expr.T.expoint
+)
+"boolify.ml" 121 4357 4440 "boolify.ml" 121 4357 4441
+type(
+  string
+)
+ident(
+  def h "boolify.ml" 121 4357 4445 "boolify.ml" 121 4357 4457
+)
+"boolify.ml" 121 4357 4429 "boolify.ml" 121 4357 4441
+type(
+  Expr.T.expoint
+)
+"boolify.ml" 121 4357 4456 "boolify.ml" 121 4357 4457
+type(
+  string
+)
+ident(
+  int_ref h "boolify.ml" 121 4357 4440 "boolify.ml" 121 4357 4441
+)
+"boolify.ml" 121 4357 4445 "boolify.ml" 121 4357 4457
+type(
+  Expr.T.expoint
+)
+"boolify.ml" 121 4357 4376 "boolify.ml" 121 4357 4457
+type(
+  Expr.T.expoint -> Expr.T.expoint
+)
+"boolify.ml" 122 4461 4471 "boolify.ml" 122 4461 4474
+type(
+  (Expr.T.expoint list * Expr.T.expr) list
+)
+ident(
+  def exs "boolify.ml" 123 4538 4544 "boolify.ml" 123 4538 4570
+)
+"boolify.ml" 122 4461 4477 "boolify.ml" 122 4461 4485
+type(
+  (Expr.T.exspec -> Expr.T.expoint list * Expr.T.expr) ->
+  Expr.T.exspec list -> (Expr.T.expoint list * Expr.T.expr) list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 122 4461 4492 "boolify.ml" 122 4461 4494
+type(
+  Expr.T.expoint list
+)
+ident(
+  def es "boolify.ml" 122 4461 4502 "boolify.ml" 122 4461 4529
+)
+"boolify.ml" 122 4461 4495 "boolify.ml" 122 4461 4497
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "boolify.ml" 122 4461 4502 "boolify.ml" 122 4461 4529
+)
+"boolify.ml" 122 4461 4491 "boolify.ml" 122 4461 4498
+type(
+  Expr.T.expoint list * Expr.T.expr
+)
+"boolify.ml" 122 4461 4502 "boolify.ml" 122 4461 4510
+type(
+  (Expr.T.expoint -> Expr.T.expoint) ->
+  Expr.T.expoint list -> Expr.T.expoint list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 122 4461 4511 "boolify.ml" 122 4461 4517
+type(
+  Expr.T.expoint -> Expr.T.expoint
+)
+ident(
+  int_ref boo_ex "boolify.ml" 121 4357 4367 "boolify.ml" 121 4357 4373
+)
+"boolify.ml" 122 4461 4518 "boolify.ml" 122 4461 4520
+type(
+  Expr.T.expoint list
+)
+ident(
+  int_ref es "boolify.ml" 122 4461 4492 "boolify.ml" 122 4461 4494
+)
+"boolify.ml" 122 4461 4502 "boolify.ml" 122 4461 4520
+type(
+  Expr.T.expoint list
+)
+"boolify.ml" 122 4461 4522 "boolify.ml" 122 4461 4526
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 122 4461 4527 "boolify.ml" 122 4461 4529
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "boolify.ml" 122 4461 4495 "boolify.ml" 122 4461 4497
+)
+"boolify.ml" 122 4461 4522 "boolify.ml" 122 4461 4529
+type(
+  Expr.T.expr
+)
+"boolify.ml" 122 4461 4502 "boolify.ml" 122 4461 4529
+type(
+  Expr.T.expoint list * Expr.T.expr
+)
+"boolify.ml" 122 4461 4486 "boolify.ml" 122 4461 4530
+type(
+  Expr.T.exspec -> Expr.T.expoint list * Expr.T.expr
+)
+"boolify.ml" 122 4461 4531 "boolify.ml" 122 4461 4534
+type(
+  Expr.T.exspec list
+)
+ident(
+  int_ref exs "boolify.ml" 120 4334 4349 "boolify.ml" 120 4334 4352
+)
+"boolify.ml" 122 4461 4477 "boolify.ml" 122 4461 4534
+type(
+  (Expr.T.expoint list * Expr.T.expr) list
+)
+"boolify.ml" 123 4538 4552 "boolify.ml" 123 4538 4556
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 123 4538 4557 "boolify.ml" 123 4538 4558
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f "boolify.ml" 120 4334 4346 "boolify.ml" 120 4334 4347
+)
+"boolify.ml" 123 4538 4552 "boolify.ml" 123 4538 4558
+type(
+  Expr.T.expr
+)
+"boolify.ml" 123 4538 4560 "boolify.ml" 123 4538 4563
+type(
+  Expr.T.exspec list
+)
+ident(
+  int_ref exs "boolify.ml" 122 4461 4471 "boolify.ml" 122 4461 4474
+)
+"boolify.ml" 123 4538 4544 "boolify.ml" 123 4538 4564
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 123 4538 4568 "boolify.ml" 123 4538 4570
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 123 4538 4544 "boolify.ml" 123 4538 4570
+type(
+  Expr.T.expr
+)
+"boolify.ml" 122 4461 4467 "boolify.ml" 123 4538 4570
+type(
+  Expr.T.expr
+)
+"boolify.ml" 121 4357 4363 "boolify.ml" 123 4538 4570
+type(
+  Expr.T.expr
+)
+"boolify.ml" 124 4571 4580 "boolify.ml" 124 4571 4582
+type(
+  (string * Expr.T.expr) list
+)
+ident(
+  def rs "boolify.ml" 124 4571 4586 "boolify.ml" 124 4571 4635
+)
+"boolify.ml" 124 4571 4575 "boolify.ml" 124 4571 4582
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 124 4571 4592 "boolify.ml" 124 4571 4600
+type(
+  (string * Expr.T.expr -> string * Expr.T.expr) ->
+  (string * Expr.T.expr) list -> (string * Expr.T.expr) list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 124 4571 4607 "boolify.ml" 124 4571 4608
+type(
+  string
+)
+ident(
+  def h "boolify.ml" 124 4571 4615 "boolify.ml" 124 4571 4624
+)
+"boolify.ml" 124 4571 4609 "boolify.ml" 124 4571 4610
+type(
+  Expr.T.expr
+)
+ident(
+  def e "boolify.ml" 124 4571 4615 "boolify.ml" 124 4571 4624
+)
+"boolify.ml" 124 4571 4606 "boolify.ml" 124 4571 4611
+type(
+  string * Expr.T.expr
+)
+"boolify.ml" 124 4571 4615 "boolify.ml" 124 4571 4616
+type(
+  string
+)
+ident(
+  int_ref h "boolify.ml" 124 4571 4607 "boolify.ml" 124 4571 4608
+)
+"boolify.ml" 124 4571 4618 "boolify.ml" 124 4571 4622
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 124 4571 4623 "boolify.ml" 124 4571 4624
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 124 4571 4609 "boolify.ml" 124 4571 4610
+)
+"boolify.ml" 124 4571 4618 "boolify.ml" 124 4571 4624
+type(
+  Expr.T.expr
+)
+"boolify.ml" 124 4571 4615 "boolify.ml" 124 4571 4624
+type(
+  string * Expr.T.expr
+)
+"boolify.ml" 124 4571 4601 "boolify.ml" 124 4571 4625
+type(
+  string * Expr.T.expr -> string * Expr.T.expr
+)
+"boolify.ml" 124 4571 4626 "boolify.ml" 124 4571 4628
+type(
+  (string * Expr.T.expr) list
+)
+ident(
+  int_ref rs "boolify.ml" 124 4571 4580 "boolify.ml" 124 4571 4582
+)
+"boolify.ml" 124 4571 4591 "boolify.ml" 124 4571 4629
+type(
+  (string * Expr.T.expr) list
+)
+"boolify.ml" 124 4571 4586 "boolify.ml" 124 4571 4629
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 124 4571 4633 "boolify.ml" 124 4571 4635
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 124 4571 4586 "boolify.ml" 124 4571 4635
+type(
+  Expr.T.expr
+)
+"boolify.ml" 125 4636 4648 "boolify.ml" 125 4636 4650
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "boolify.ml" 125 4636 4654 "boolify.ml" 125 4636 4681
+)
+"boolify.ml" 125 4636 4640 "boolify.ml" 125 4636 4650
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 125 4636 4663 "boolify.ml" 125 4636 4666
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 125 4636 4667 "boolify.ml" 125 4636 4671
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 125 4636 4672 "boolify.ml" 125 4636 4674
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "boolify.ml" 125 4636 4648 "boolify.ml" 125 4636 4650
+)
+"boolify.ml" 125 4636 4662 "boolify.ml" 125 4636 4675
+type(
+  Expr.T.expr list
+)
+"boolify.ml" 125 4636 4654 "boolify.ml" 125 4636 4675
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 125 4636 4679 "boolify.ml" 125 4636 4681
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 125 4636 4654 "boolify.ml" 125 4636 4681
+type(
+  Expr.T.expr
+)
+"boolify.ml" 126 4682 4690 "boolify.ml" 126 4682 4691
+type(
+  Expr.T.expr
+)
+ident(
+  def c "boolify.ml" 126 4682 4702 "boolify.ml" 126 4682 4735
+)
+"boolify.ml" 126 4682 4693 "boolify.ml" 126 4682 4694
+type(
+  Expr.T.expr
+)
+ident(
+  def t "boolify.ml" 126 4682 4702 "boolify.ml" 126 4682 4735
+)
+"boolify.ml" 126 4682 4696 "boolify.ml" 126 4682 4697
+type(
+  Expr.T.expr
+)
+ident(
+  def f "boolify.ml" 126 4682 4702 "boolify.ml" 126 4682 4735
+)
+"boolify.ml" 126 4682 4686 "boolify.ml" 126 4682 4698
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 126 4682 4706 "boolify.ml" 126 4682 4710
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref eboo "boolify.ml" 29 660 668 "boolify.ml" 29 660 672
+)
+"boolify.ml" 126 4682 4711 "boolify.ml" 126 4682 4712
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref c "boolify.ml" 126 4682 4690 "boolify.ml" 126 4682 4691
+)
+"boolify.ml" 126 4682 4706 "boolify.ml" 126 4682 4712
+type(
+  Expr.T.expr
+)
+"boolify.ml" 126 4682 4714 "boolify.ml" 126 4682 4718
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 126 4682 4719 "boolify.ml" 126 4682 4720
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref t "boolify.ml" 126 4682 4693 "boolify.ml" 126 4682 4694
+)
+"boolify.ml" 126 4682 4714 "boolify.ml" 126 4682 4720
+type(
+  Expr.T.expr
+)
+"boolify.ml" 126 4682 4722 "boolify.ml" 126 4682 4726
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 126 4682 4727 "boolify.ml" 126 4682 4728
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f "boolify.ml" 126 4682 4696 "boolify.ml" 126 4682 4697
+)
+"boolify.ml" 126 4682 4722 "boolify.ml" 126 4682 4728
+type(
+  Expr.T.expr
+)
+"boolify.ml" 126 4682 4702 "boolify.ml" 126 4682 4729
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 126 4682 4733 "boolify.ml" 126 4682 4735
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 126 4682 4702 "boolify.ml" 126 4682 4735
+type(
+  Expr.T.expr
+)
+"boolify.ml" 127 4736 4746 "boolify.ml" 127 4736 4748
+type(
+  (Expr.T.expr * Expr.T.expr) list
+)
+ident(
+  def es "boolify.ml" 128 4756 4762 "boolify.ml" 129 4816 4856
+)
+"boolify.ml" 127 4736 4750 "boolify.ml" 127 4736 4751
+type(
+  Expr.T.expr option
+)
+ident(
+  def o "boolify.ml" 128 4756 4762 "boolify.ml" 129 4816 4856
+)
+"boolify.ml" 127 4736 4740 "boolify.ml" 127 4736 4752
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 128 4756 4766 "boolify.ml" 128 4756 4768
+type(
+  (Expr.T.expr * Expr.T.expr) list
+)
+ident(
+  def es "boolify.ml" 129 4816 4822 "boolify.ml" 129 4816 4856
+)
+"boolify.ml" 128 4756 4771 "boolify.ml" 128 4756 4779
+type(
+  (Expr.T.expr * Expr.T.expr -> Expr.T.expr * Expr.T.expr) ->
+  (Expr.T.expr * Expr.T.expr) list -> (Expr.T.expr * Expr.T.expr) list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 128 4756 4786 "boolify.ml" 128 4756 4787
+type(
+  Expr.T.expr
+)
+ident(
+  def p "boolify.ml" 128 4756 4794 "boolify.ml" 128 4756 4808
+)
+"boolify.ml" 128 4756 4788 "boolify.ml" 128 4756 4789
+type(
+  Expr.T.expr
+)
+ident(
+  def e "boolify.ml" 128 4756 4794 "boolify.ml" 128 4756 4808
+)
+"boolify.ml" 128 4756 4785 "boolify.ml" 128 4756 4790
+type(
+  Expr.T.expr * Expr.T.expr
+)
+"boolify.ml" 128 4756 4794 "boolify.ml" 128 4756 4798
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref eboo "boolify.ml" 29 660 668 "boolify.ml" 29 660 672
+)
+"boolify.ml" 128 4756 4799 "boolify.ml" 128 4756 4800
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref p "boolify.ml" 128 4756 4786 "boolify.ml" 128 4756 4787
+)
+"boolify.ml" 128 4756 4794 "boolify.ml" 128 4756 4800
+type(
+  Expr.T.expr
+)
+"boolify.ml" 128 4756 4802 "boolify.ml" 128 4756 4806
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 128 4756 4807 "boolify.ml" 128 4756 4808
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 128 4756 4788 "boolify.ml" 128 4756 4789
+)
+"boolify.ml" 128 4756 4802 "boolify.ml" 128 4756 4808
+type(
+  Expr.T.expr
+)
+"boolify.ml" 128 4756 4794 "boolify.ml" 128 4756 4808
+type(
+  Expr.T.expr * Expr.T.expr
+)
+"boolify.ml" 128 4756 4780 "boolify.ml" 128 4756 4809
+type(
+  Expr.T.expr * Expr.T.expr -> Expr.T.expr * Expr.T.expr
+)
+"boolify.ml" 128 4756 4810 "boolify.ml" 128 4756 4812
+type(
+  (Expr.T.expr * Expr.T.expr) list
+)
+ident(
+  int_ref es "boolify.ml" 127 4736 4746 "boolify.ml" 127 4736 4748
+)
+"boolify.ml" 128 4756 4771 "boolify.ml" 128 4756 4812
+type(
+  (Expr.T.expr * Expr.T.expr) list
+)
+"boolify.ml" 129 4816 4828 "boolify.ml" 129 4816 4830
+type(
+  (Expr.T.expr * Expr.T.expr) list
+)
+ident(
+  int_ref es "boolify.ml" 128 4756 4766 "boolify.ml" 128 4756 4768
+)
+"boolify.ml" 129 4816 4832 "boolify.ml" 129 4816 4842
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr option -> Expr.T.expr option
+)
+ident(
+  int_ref Ext.Option.map "ext.mli" 61 2656 2658 "ext.mli" 61 2656 2704
+)
+"boolify.ml" 129 4816 4843 "boolify.ml" 129 4816 4847
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 129 4816 4848 "boolify.ml" 129 4816 4849
+type(
+  Expr.T.expr option
+)
+ident(
+  int_ref o "boolify.ml" 127 4736 4750 "boolify.ml" 127 4736 4751
+)
+"boolify.ml" 129 4816 4832 "boolify.ml" 129 4816 4849
+type(
+  Expr.T.expr option
+)
+"boolify.ml" 129 4816 4822 "boolify.ml" 129 4816 4850
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 129 4816 4854 "boolify.ml" 129 4816 4856
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 129 4816 4822 "boolify.ml" 129 4816 4856
+type(
+  Expr.T.expr
+)
+"boolify.ml" 128 4756 4762 "boolify.ml" 129 4816 4856
+type(
+  Expr.T.expr
+)
+"boolify.ml" 130 4857 4869 "boolify.ml" 130 4857 4871
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  def xs "boolify.ml" 130 4857 4879 "boolify.ml" 130 4857 4905
+)
+"boolify.ml" 130 4857 4872 "boolify.ml" 130 4857 4874
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "boolify.ml" 130 4857 4879 "boolify.ml" 130 4857 4905
+)
+"boolify.ml" 130 4857 4861 "boolify.ml" 130 4857 4875
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 130 4857 4887 "boolify.ml" 130 4857 4889
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  int_ref xs "boolify.ml" 130 4857 4869 "boolify.ml" 130 4857 4871
+)
+"boolify.ml" 130 4857 4891 "boolify.ml" 130 4857 4895
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref eboo "boolify.ml" 29 660 668 "boolify.ml" 29 660 672
+)
+"boolify.ml" 130 4857 4896 "boolify.ml" 130 4857 4898
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "boolify.ml" 130 4857 4872 "boolify.ml" 130 4857 4874
+)
+"boolify.ml" 130 4857 4891 "boolify.ml" 130 4857 4898
+type(
+  Expr.T.expr
+)
+"boolify.ml" 130 4857 4879 "boolify.ml" 130 4857 4899
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 130 4857 4903 "boolify.ml" 130 4857 4905
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 130 4857 4879 "boolify.ml" 130 4857 4905
+type(
+  Expr.T.expr
+)
+"boolify.ml" 131 4906 4918 "boolify.ml" 131 4906 4920
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "boolify.ml" 131 4906 4927 "boolify.ml" 131 4906 4934
+)
+"boolify.ml" 131 4906 4921 "boolify.ml" 131 4906 4922
+type(
+  Expr.T.pform
+)
+"boolify.ml" 131 4906 4910 "boolify.ml" 131 4906 4923
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 131 4906 4927 "boolify.ml" 131 4906 4931
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 131 4906 4932 "boolify.ml" 131 4906 4934
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "boolify.ml" 131 4906 4918 "boolify.ml" 131 4906 4920
+)
+"boolify.ml" 131 4906 4927 "boolify.ml" 131 4906 4934
+type(
+  Expr.T.expr
+)
+"boolify.ml" 132 4935 4948 "boolify.ml" 132 4935 4954
+type(
+  Builtin.builtin
+)
+"boolify.ml" 132 4935 4939 "boolify.ml" 132 4935 4954
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 132 4935 4966 "boolify.ml" 132 4935 4973
+type(
+  Builtin.builtin
+)
+"boolify.ml" 132 4935 4957 "boolify.ml" 132 4935 4973
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 132 4935 4939 "boolify.ml" 132 4935 4973
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 132 4935 4977 "boolify.ml" 132 4935 4978
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 88 2935 2944 "boolify.ml" 88 2935 2945
+)
+"boolify.ml" 133 4979 4992 "boolify.ml" 133 4979 4997
+type(
+  Builtin.builtin
+)
+"boolify.ml" 133 4979 4983 "boolify.ml" 133 4979 4997
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 133 4979 5009 "boolify.ml" 133 4979 5014
+type(
+  Builtin.builtin
+)
+"boolify.ml" 133 4979 5000 "boolify.ml" 133 4979 5014
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 133 4979 4983 "boolify.ml" 133 4979 5014
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 133 4979 5026 "boolify.ml" 133 4979 5032
+type(
+  Builtin.builtin
+)
+"boolify.ml" 133 4979 5017 "boolify.ml" 133 4979 5032
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 133 4979 4983 "boolify.ml" 133 4979 5032
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 133 4979 5036 "boolify.ml" 133 4979 5037
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 88 2935 2944 "boolify.ml" 88 2935 2945
+)
+"boolify.ml" 134 5038 5051 "boolify.ml" 134 5038 5056
+type(
+  Builtin.builtin
+)
+"boolify.ml" 134 5038 5042 "boolify.ml" 134 5038 5056
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 134 5038 5068 "boolify.ml" 134 5038 5073
+type(
+  Builtin.builtin
+)
+"boolify.ml" 134 5038 5059 "boolify.ml" 134 5038 5073
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 134 5038 5042 "boolify.ml" 134 5038 5073
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 134 5038 5085 "boolify.ml" 134 5038 5093
+type(
+  Builtin.builtin
+)
+"boolify.ml" 134 5038 5076 "boolify.ml" 134 5038 5093
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 134 5038 5042 "boolify.ml" 134 5038 5093
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 134 5038 5105 "boolify.ml" 134 5038 5111
+type(
+  Builtin.builtin
+)
+"boolify.ml" 134 5038 5096 "boolify.ml" 134 5038 5111
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 134 5038 5042 "boolify.ml" 134 5038 5111
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 134 5038 5123 "boolify.ml" 134 5038 5128
+type(
+  Builtin.builtin
+)
+"boolify.ml" 134 5038 5114 "boolify.ml" 134 5038 5128
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 134 5038 5042 "boolify.ml" 134 5038 5128
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 134 5038 5132 "boolify.ml" 134 5038 5133
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 88 2935 2944 "boolify.ml" 88 2935 2945
+)
+"boolify.ml" 136 5135 5145 "boolify.ml" 136 5135 5146
+type(
+  Expr.T.bullet
+)
+ident(
+  def q "boolify.ml" 137 5155 5161 "boolify.ml" 137 5155 5188
+)
+"boolify.ml" 136 5135 5148 "boolify.ml" 136 5135 5150
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "boolify.ml" 137 5155 5161 "boolify.ml" 137 5155 5188
+)
+"boolify.ml" 136 5135 5139 "boolify.ml" 136 5135 5151
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 137 5155 5167 "boolify.ml" 137 5155 5168
+type(
+  Expr.T.bullet
+)
+ident(
+  int_ref q "boolify.ml" 136 5135 5145 "boolify.ml" 136 5135 5146
+)
+"boolify.ml" 137 5155 5170 "boolify.ml" 137 5155 5173
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 137 5155 5174 "boolify.ml" 137 5155 5178
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref eboo "boolify.ml" 29 660 668 "boolify.ml" 29 660 672
+)
+"boolify.ml" 137 5155 5179 "boolify.ml" 137 5155 5181
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "boolify.ml" 136 5135 5148 "boolify.ml" 136 5135 5150
+)
+"boolify.ml" 137 5155 5170 "boolify.ml" 137 5155 5181
+type(
+  Expr.T.expr list
+)
+"boolify.ml" 137 5155 5161 "boolify.ml" 137 5155 5182
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 137 5155 5186 "boolify.ml" 137 5155 5188
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 137 5155 5161 "boolify.ml" 137 5155 5188
+type(
+  Expr.T.expr
+)
+"boolify.ml" 138 5189 5200 "boolify.ml" 138 5189 5201
+type(
+  Expr.T.quantifier
+)
+ident(
+  def q "boolify.ml" 139 5214 5220 "boolify.ml" 139 5214 5255
+)
+"boolify.ml" 138 5189 5203 "boolify.ml" 138 5189 5205
+type(
+  Expr.T.bounds
+)
+ident(
+  def bs "boolify.ml" 139 5214 5220 "boolify.ml" 139 5214 5255
+)
+"boolify.ml" 138 5189 5207 "boolify.ml" 138 5189 5209
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "boolify.ml" 139 5214 5220 "boolify.ml" 139 5214 5255
+)
+"boolify.ml" 138 5189 5193 "boolify.ml" 138 5189 5210
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 139 5214 5227 "boolify.ml" 139 5214 5228
+type(
+  Expr.T.quantifier
+)
+ident(
+  int_ref q "boolify.ml" 138 5189 5200 "boolify.ml" 138 5189 5201
+)
+"boolify.ml" 139 5214 5230 "boolify.ml" 139 5214 5236
+type(
+  Expr.T.bounds -> Expr.T.bounds
+)
+ident(
+  int_ref nboobs "boolify.ml" 144 5321 5325 "boolify.ml" 144 5321 5331
+)
+"boolify.ml" 139 5214 5237 "boolify.ml" 139 5214 5239
+type(
+  Expr.T.bounds
+)
+ident(
+  int_ref bs "boolify.ml" 138 5189 5203 "boolify.ml" 138 5189 5205
+)
+"boolify.ml" 139 5214 5230 "boolify.ml" 139 5214 5239
+type(
+  Expr.T.bounds
+)
+"boolify.ml" 139 5214 5241 "boolify.ml" 139 5214 5245
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref eboo "boolify.ml" 29 660 668 "boolify.ml" 29 660 672
+)
+"boolify.ml" 139 5214 5246 "boolify.ml" 139 5214 5248
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "boolify.ml" 138 5189 5207 "boolify.ml" 138 5189 5209
+)
+"boolify.ml" 139 5214 5241 "boolify.ml" 139 5214 5248
+type(
+  Expr.T.expr
+)
+"boolify.ml" 139 5214 5220 "boolify.ml" 139 5214 5249
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 139 5214 5253 "boolify.ml" 139 5214 5255
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "boolify.ml" 90 3010 3016 "boolify.ml" 90 3010 3018
+)
+"boolify.ml" 139 5214 5220 "boolify.ml" 139 5214 5255
+type(
+  Expr.T.expr
+)
+"boolify.ml" 140 5256 5260 "boolify.ml" 140 5256 5261
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"boolify.ml" 142 5308 5313 "boolify.ml" 142 5308 5314
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 88 2935 2944 "boolify.ml" 88 2935 2945
+)
+"boolify.ml" 91 3046 3048 "boolify.ml" 143 5315 5320
+type(
+  Expr.T.expr
+)
+"boolify.ml" 90 3010 3012 "boolify.ml" 143 5315 5320
+type(
+  Expr.T.expr
+)
+"boolify.ml" 144 5321 5325 "boolify.ml" 144 5321 5331
+type(
+  Expr.T.bounds -> Expr.T.bounds
+)
+ident(
+  def nboobs "boolify.ml" 29 660 660 "boolify.ml" 0 0 -1
+)
+"boolify.ml" 144 5321 5332 "boolify.ml" 144 5321 5334
+type(
+  Expr.T.bounds
+)
+ident(
+  def bs "boolify.ml" 145 5337 5339 "boolify.ml" 150 5438 5459
+)
+"boolify.ml" 145 5337 5339 "boolify.ml" 145 5337 5347
+type(
+  (Expr.T.bound -> Expr.T.bound) -> Expr.T.bounds -> Expr.T.bounds
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 147 5367 5374 "boolify.ml" 147 5367 5375
+type(
+  Util.hint
+)
+ident(
+  def v "boolify.ml" 147 5367 5393 "boolify.ml" 147 5367 5416
+)
+"boolify.ml" 147 5367 5377 "boolify.ml" 147 5367 5378
+type(
+  Expr.T.kind
+)
+ident(
+  def k "boolify.ml" 147 5367 5393 "boolify.ml" 147 5367 5416
+)
+"boolify.ml" 147 5367 5387 "boolify.ml" 147 5367 5388
+type(
+  Expr.T.expr
+)
+ident(
+  def d "boolify.ml" 147 5367 5393 "boolify.ml" 147 5367 5416
+)
+"boolify.ml" 147 5367 5380 "boolify.ml" 147 5367 5388
+type(
+  Expr.T.bound_domain
+)
+"boolify.ml" 147 5367 5373 "boolify.ml" 147 5367 5389
+type(
+  Util.hint * Expr.T.kind * Expr.T.bound_domain
+)
+"boolify.ml" 147 5367 5394 "boolify.ml" 147 5367 5395
+type(
+  Util.hint
+)
+ident(
+  int_ref v "boolify.ml" 147 5367 5374 "boolify.ml" 147 5367 5375
+)
+"boolify.ml" 147 5367 5397 "boolify.ml" 147 5367 5398
+type(
+  Expr.T.kind
+)
+ident(
+  int_ref k "boolify.ml" 147 5367 5377 "boolify.ml" 147 5367 5378
+)
+"boolify.ml" 147 5367 5408 "boolify.ml" 147 5367 5412
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 147 5367 5413 "boolify.ml" 147 5367 5414
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref d "boolify.ml" 147 5367 5387 "boolify.ml" 147 5367 5388
+)
+"boolify.ml" 147 5367 5407 "boolify.ml" 147 5367 5415
+type(
+  Expr.T.expr
+)
+"boolify.ml" 147 5367 5400 "boolify.ml" 147 5367 5415
+type(
+  Expr.T.bound_domain
+)
+"boolify.ml" 147 5367 5393 "boolify.ml" 147 5367 5416
+type(
+  Expr.T.bound
+)
+"boolify.ml" 148 5417 5423 "boolify.ml" 148 5417 5424
+type(
+  Expr.T.bound
+)
+ident(
+  def b "boolify.ml" 148 5417 5428 "boolify.ml" 148 5417 5429
+)
+"boolify.ml" 148 5417 5428 "boolify.ml" 148 5417 5429
+type(
+  Expr.T.bound
+)
+ident(
+  int_ref b "boolify.ml" 148 5417 5423 "boolify.ml" 148 5417 5424
+)
+"boolify.ml" 146 5348 5352 "boolify.ml" 149 5430 5437
+type(
+  Expr.T.bound -> Expr.T.bound
+)
+"boolify.ml" 150 5438 5441 "boolify.ml" 150 5438 5455
+type(
+  Expr.T.bounds -> Expr.T.bounds
+)
+ident(
+  int_ref Expr.T.unditto "expr.mli" 171 4433 4435 "expr.mli" 171 4433 4464
+)
+"boolify.ml" 150 5438 5456 "boolify.ml" 150 5438 5458
+type(
+  Expr.T.bounds
+)
+ident(
+  int_ref bs "boolify.ml" 144 5321 5332 "boolify.ml" 144 5321 5334
+)
+"boolify.ml" 150 5438 5440 "boolify.ml" 150 5438 5459
+type(
+  Expr.T.bounds
+)
+"boolify.ml" 145 5337 5339 "boolify.ml" 150 5438 5459
+type(
+  Expr.T.bounds
+)
+"boolify.ml" 152 5461 5465 "boolify.ml" 152 5461 5472
+type(
+  Expr.T.sequent -> Expr.T.sequent
+)
+ident(
+  def boolify "boolify.ml" 178 6300 6342 "boolify.ml" 0 0 -1
+)
+"boolify.ml" 152 5461 5473 "boolify.ml" 152 5461 5475
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "boolify.ml" 153 5478 5480 "boolify.ml" 178 6300 6342
+)
+"boolify.ml" 153 5478 5484 "boolify.ml" 153 5478 5491
+type(
+  unit Expr.Visit.map
+)
+ident(
+  def visitor "boolify.ml" 178 6300 6302 "boolify.ml" 178 6300 6342
+)
+"boolify.ml" 153 5478 5502 "boolify.ml" 153 5478 5506
+type(
+  unit Expr.Visit.map
+)
+type(
+  unit Expr.Visit.map
+)
+"boolify.ml" 155 5557 5570 "boolify.ml" 155 5557 5573
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "boolify.ml" 155 5557 5574 "boolify.ml" 163 5870 5896
+)
+"boolify.ml" 155 5557 5574 "boolify.ml" 155 5557 5575
+type(
+  Expr.T.hyp
+)
+ident(
+  def h "boolify.ml" 155 5557 5578 "boolify.ml" 163 5870 5896
+)
+"boolify.ml" 155 5557 5584 "boolify.ml" 155 5557 5585
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "boolify.ml" 155 5557 5574 "boolify.ml" 155 5557 5575
+)
+"boolify.ml" 155 5557 5584 "boolify.ml" 155 5557 5590
+type(
+  Expr.T.hyp_
+)
+"boolify.ml" 156 5596 5608 "boolify.ml" 156 5596 5609
+type(
+  Expr.T.defn
+)
+"boolify.ml" 156 5596 5611 "boolify.ml" 156 5596 5612
+type(
+  Expr.T.wheredef
+)
+"boolify.ml" 156 5596 5614 "boolify.ml" 156 5596 5620
+type(
+  Expr.T.visibility
+)
+"boolify.ml" 156 5596 5622 "boolify.ml" 156 5596 5623
+type(
+  Expr.T.export
+)
+"boolify.ml" 156 5596 5602 "boolify.ml" 156 5596 5624
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"boolify.ml" 157 5654 5666 "boolify.ml" 157 5654 5667
+type(
+  Expr.T.expr
+)
+"boolify.ml" 157 5654 5669 "boolify.ml" 157 5654 5675
+type(
+  Expr.T.visibility
+)
+"boolify.ml" 157 5654 5677 "boolify.ml" 157 5654 5678
+type(
+  Expr.T.time
+)
+"boolify.ml" 157 5654 5660 "boolify.ml" 157 5654 5679
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"boolify.ml" 156 5596 5602 "boolify.ml" 157 5654 5679
+type(
+  Expr.T.hyp_
+)
+"boolify.ml" 158 5683 5692 "boolify.ml" 158 5683 5695
+type(
+  unit Expr.Visit.scx -> Expr.T.hyp -> unit Expr.Visit.scx
+)
+ident(
+  int_ref Expr.Visit.adj "expr.mli" 541 13601 13603 "expr.mli" 541 13601 13637
+)
+"boolify.ml" 158 5683 5696 "boolify.ml" 158 5683 5699
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "boolify.ml" 155 5557 5570 "boolify.ml" 155 5557 5573
+)
+"boolify.ml" 158 5683 5700 "boolify.ml" 158 5683 5701
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "boolify.ml" 155 5557 5574 "boolify.ml" 155 5557 5575
+)
+"boolify.ml" 158 5683 5692 "boolify.ml" 158 5683 5701
+type(
+  unit Expr.Visit.scx
+)
+"boolify.ml" 158 5683 5703 "boolify.ml" 158 5683 5704
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "boolify.ml" 155 5557 5574 "boolify.ml" 155 5557 5575
+)
+"boolify.ml" 158 5683 5691 "boolify.ml" 158 5683 5705
+type(
+  unit Expr.Visit.scx * Expr.T.hyp
+)
+"boolify.ml" 159 5706 5719 "boolify.ml" 159 5706 5721
+type(
+  Util.hint
+)
+ident(
+  def nm "boolify.ml" 160 5754 5762 "boolify.ml" 162 5847 5869
+)
+"boolify.ml" 159 5706 5723 "boolify.ml" 159 5706 5726
+type(
+  Expr.T.shape
+)
+ident(
+  def shp "boolify.ml" 160 5754 5762 "boolify.ml" 162 5847 5869
+)
+"boolify.ml" 159 5706 5728 "boolify.ml" 159 5706 5730
+type(
+  Expr.T.kind
+)
+ident(
+  def lc "boolify.ml" 160 5754 5762 "boolify.ml" 162 5847 5869
+)
+"boolify.ml" 159 5706 5741 "boolify.ml" 159 5706 5742
+type(
+  Expr.T.expr
+)
+ident(
+  def r "boolify.ml" 160 5754 5762 "boolify.ml" 162 5847 5869
+)
+"boolify.ml" 159 5706 5744 "boolify.ml" 159 5706 5748
+type(
+  Expr.T.visibility
+)
+ident(
+  def rvis "boolify.ml" 160 5754 5762 "boolify.ml" 162 5847 5869
+)
+"boolify.ml" 159 5706 5732 "boolify.ml" 159 5706 5749
+type(
+  Expr.T.hdom
+)
+"boolify.ml" 159 5706 5712 "boolify.ml" 159 5706 5750
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"boolify.ml" 160 5754 5766 "boolify.ml" 160 5754 5769
+type(
+  Expr.T.hdom
+)
+ident(
+  def dom "boolify.ml" 161 5798 5806 "boolify.ml" 162 5847 5869
+)
+"boolify.ml" 160 5754 5781 "boolify.ml" 160 5754 5785
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 160 5754 5786 "boolify.ml" 160 5754 5787
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref r "boolify.ml" 159 5706 5741 "boolify.ml" 159 5706 5742
+)
+"boolify.ml" 160 5754 5781 "boolify.ml" 160 5754 5787
+type(
+  Expr.T.expr
+)
+"boolify.ml" 160 5754 5789 "boolify.ml" 160 5754 5793
+type(
+  Expr.T.visibility
+)
+ident(
+  int_ref rvis "boolify.ml" 159 5706 5744 "boolify.ml" 159 5706 5748
+)
+"boolify.ml" 160 5754 5772 "boolify.ml" 160 5754 5794
+type(
+  Expr.T.hdom
+)
+"boolify.ml" 161 5798 5810 "boolify.ml" 161 5798 5811
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  def h "boolify.ml" 162 5847 5855 "boolify.ml" 162 5847 5869
+)
+"boolify.ml" 161 5798 5821 "boolify.ml" 161 5798 5823
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "boolify.ml" 159 5706 5719 "boolify.ml" 159 5706 5721
+)
+"boolify.ml" 161 5798 5825 "boolify.ml" 161 5798 5828
+type(
+  Expr.T.shape
+)
+ident(
+  int_ref shp "boolify.ml" 159 5706 5723 "boolify.ml" 159 5706 5726
+)
+"boolify.ml" 161 5798 5830 "boolify.ml" 161 5798 5832
+type(
+  Expr.T.kind
+)
+ident(
+  int_ref lc "boolify.ml" 159 5706 5728 "boolify.ml" 159 5706 5730
+)
+"boolify.ml" 161 5798 5834 "boolify.ml" 161 5798 5837
+type(
+  Expr.T.hdom
+)
+ident(
+  int_ref dom "boolify.ml" 160 5754 5766 "boolify.ml" 160 5754 5769
+)
+"boolify.ml" 161 5798 5814 "boolify.ml" 161 5798 5838
+type(
+  Expr.T.hyp_
+)
+"boolify.ml" 161 5798 5839 "boolify.ml" 161 5798 5841
+type(
+  Expr.T.hyp_ -> Expr.T.hyp -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"boolify.ml" 161 5798 5842 "boolify.ml" 161 5798 5843
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "boolify.ml" 155 5557 5574 "boolify.ml" 155 5557 5575
+)
+"boolify.ml" 161 5798 5814 "boolify.ml" 161 5798 5843
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"boolify.ml" 162 5847 5856 "boolify.ml" 162 5847 5859
+type(
+  unit Expr.Visit.scx -> Expr.T.hyp -> unit Expr.Visit.scx
+)
+ident(
+  int_ref Expr.Visit.adj "expr.mli" 541 13601 13603 "expr.mli" 541 13601 13637
+)
+"boolify.ml" 162 5847 5860 "boolify.ml" 162 5847 5863
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "boolify.ml" 155 5557 5570 "boolify.ml" 155 5557 5573
+)
+"boolify.ml" 162 5847 5864 "boolify.ml" 162 5847 5865
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "boolify.ml" 161 5798 5810 "boolify.ml" 161 5798 5811
+)
+"boolify.ml" 162 5847 5856 "boolify.ml" 162 5847 5865
+type(
+  unit Expr.Visit.scx
+)
+"boolify.ml" 162 5847 5867 "boolify.ml" 162 5847 5868
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "boolify.ml" 161 5798 5810 "boolify.ml" 161 5798 5811
+)
+"boolify.ml" 162 5847 5855 "boolify.ml" 162 5847 5869
+type(
+  unit Expr.Visit.scx * Expr.T.hyp
+)
+"boolify.ml" 161 5798 5806 "boolify.ml" 162 5847 5869
+type(
+  unit Expr.Visit.scx * Expr.T.hyp
+)
+"boolify.ml" 160 5754 5762 "boolify.ml" 162 5847 5869
+type(
+  unit Expr.Visit.scx * Expr.T.hyp
+)
+"boolify.ml" 163 5870 5876 "boolify.ml" 163 5870 5877
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"boolify.ml" 163 5870 5881 "boolify.ml" 163 5870 5886
+type(
+  unit Expr.Visit.map
+)
+ident(
+  ext_ref self-1
+)
+type(
+  unit Expr.Visit.map
+)
+ident(
+  int_ref super "boolify.ml" 154 5516 5526 "boolify.ml" 154 5516 5547
+)
+"boolify.ml" 163 5870 5881 "boolify.ml" 163 5870 5890
+type(
+  unit Expr.Visit.map ->
+  unit Expr.Visit.scx -> Expr.T.hyp -> unit Expr.Visit.scx * Expr.T.hyp
+)
+ident(
+  ext_ref hyp
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.hyp -> unit Expr.Visit.scx * Expr.T.hyp
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.hyp -> unit Expr.Visit.scx * Expr.T.hyp
+)
+"boolify.ml" 163 5870 5891 "boolify.ml" 163 5870 5894
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "boolify.ml" 155 5557 5570 "boolify.ml" 155 5557 5573
+)
+"boolify.ml" 163 5870 5895 "boolify.ml" 163 5870 5896
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "boolify.ml" 155 5557 5574 "boolify.ml" 155 5557 5575
+)
+"boolify.ml" 163 5870 5881 "boolify.ml" 163 5870 5896
+type(
+  unit Expr.Visit.scx * Expr.T.hyp
+)
+"boolify.ml" 155 5557 5578 "boolify.ml" 163 5870 5896
+type(
+  unit Expr.Visit.scx * Expr.T.hyp
+)
+"boolify.ml" 164 5897 5911 "boolify.ml" 164 5897 5914
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "boolify.ml" 164 5897 5915 "boolify.ml" 165 5919 5929
+)
+"boolify.ml" 164 5897 5915 "boolify.ml" 164 5897 5916
+type(
+  Expr.T.expr
+)
+ident(
+  def e "boolify.ml" 165 5919 5923 "boolify.ml" 165 5919 5929
+)
+"boolify.ml" 165 5919 5923 "boolify.ml" 165 5919 5927
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref eboo "boolify.ml" 29 660 668 "boolify.ml" 29 660 672
+)
+"boolify.ml" 165 5919 5928 "boolify.ml" 165 5919 5929
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 164 5897 5915 "boolify.ml" 164 5897 5916
+)
+"boolify.ml" 165 5919 5923 "boolify.ml" 165 5919 5929
+type(
+  Expr.T.expr
+)
+"boolify.ml" 166 5930 5946 "boolify.ml" 166 5930 5949
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "boolify.ml" 166 5930 5950 "boolify.ml" 170 6082 6095
+)
+"boolify.ml" 166 5930 5950 "boolify.ml" 166 5930 5952
+type(
+  Expr.T.bounds
+)
+ident(
+  def bs "boolify.ml" 167 5955 5959 "boolify.ml" 170 6082 6095
+)
+"boolify.ml" 167 5955 5963 "boolify.ml" 167 5955 5965
+type(
+  Expr.T.bounds
+)
+ident(
+  def bs "boolify.ml" 168 6008 6012 "boolify.ml" 170 6082 6095
+)
+"boolify.ml" 167 5955 5968 "boolify.ml" 167 5955 5996
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.bounds -> Expr.T.bounds
+)
+ident(
+  int_ref Expr.Visit.map_bound_domains "expr.mli" 534 13314 13316 "expr.mli" 535 13339 13379
+)
+"boolify.ml" 167 5955 5997 "boolify.ml" 167 5955 6001
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 167 5955 6002 "boolify.ml" 167 5955 6004
+type(
+  Expr.T.bounds
+)
+ident(
+  int_ref bs "boolify.ml" 166 5930 5950 "boolify.ml" 166 5930 5952
+)
+"boolify.ml" 167 5955 5968 "boolify.ml" 167 5955 6004
+type(
+  Expr.T.bounds
+)
+"boolify.ml" 168 6008 6016 "boolify.ml" 168 6008 6018
+type(
+  Expr.T.hyp list
+)
+ident(
+  def hs "boolify.ml" 169 6053 6057 "boolify.ml" 170 6082 6095
+)
+"boolify.ml" 168 6008 6021 "boolify.ml" 168 6008 6046
+type(
+  Expr.T.bounds -> Expr.T.hyp list
+)
+ident(
+  int_ref Expr.Visit.hyps_of_bounds "expr.mli" 530 13126 13128 "expr.mli" 530 13126 13166
+)
+"boolify.ml" 168 6008 6047 "boolify.ml" 168 6008 6049
+type(
+  Expr.T.bounds
+)
+ident(
+  int_ref bs "boolify.ml" 167 5955 5963 "boolify.ml" 167 5955 5965
+)
+"boolify.ml" 168 6008 6021 "boolify.ml" 168 6008 6049
+type(
+  Expr.T.hyp list
+)
+"boolify.ml" 169 6053 6061 "boolify.ml" 169 6053 6064
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "boolify.ml" 170 6082 6086 "boolify.ml" 170 6082 6095
+)
+"boolify.ml" 169 6053 6067 "boolify.ml" 169 6053 6071
+type(
+  unit Expr.Visit.scx -> Expr.T.hyp list -> unit Expr.Visit.scx
+)
+ident(
+  int_ref Expr.Visit.adjs "expr.mli" 542 13638 13640 "expr.mli" 542 13638 13679
+)
+"boolify.ml" 169 6053 6072 "boolify.ml" 169 6053 6075
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "boolify.ml" 166 5930 5946 "boolify.ml" 166 5930 5949
+)
+"boolify.ml" 169 6053 6076 "boolify.ml" 169 6053 6078
+type(
+  Expr.T.hyp list
+)
+ident(
+  int_ref hs "boolify.ml" 168 6008 6016 "boolify.ml" 168 6008 6018
+)
+"boolify.ml" 169 6053 6067 "boolify.ml" 169 6053 6078
+type(
+  unit Expr.Visit.scx
+)
+"boolify.ml" 170 6082 6087 "boolify.ml" 170 6082 6090
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "boolify.ml" 169 6053 6061 "boolify.ml" 169 6053 6064
+)
+"boolify.ml" 170 6082 6092 "boolify.ml" 170 6082 6094
+type(
+  Expr.T.bounds
+)
+ident(
+  int_ref bs "boolify.ml" 167 5955 5963 "boolify.ml" 167 5955 5965
+)
+"boolify.ml" 170 6082 6086 "boolify.ml" 170 6082 6095
+type(
+  unit Expr.Visit.scx * Expr.T.bounds
+)
+"boolify.ml" 169 6053 6057 "boolify.ml" 170 6082 6095
+type(
+  unit Expr.Visit.scx * Expr.T.bounds
+)
+"boolify.ml" 168 6008 6012 "boolify.ml" 170 6082 6095
+type(
+  unit Expr.Visit.scx * Expr.T.bounds
+)
+"boolify.ml" 167 5955 5959 "boolify.ml" 170 6082 6095
+type(
+  unit Expr.Visit.scx * Expr.T.bounds
+)
+"boolify.ml" 171 6096 6112 "boolify.ml" 171 6096 6115
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "boolify.ml" 171 6096 6116 "boolify.ml" 176 6251 6290
+)
+"boolify.ml" 171 6096 6117 "boolify.ml" 171 6096 6122
+type(
+  Expr.T.expoint list
+)
+ident(
+  def trail "boolify.ml" 172 6131 6135 "boolify.ml" 176 6251 6290
+)
+"boolify.ml" 171 6096 6124 "boolify.ml" 171 6096 6127
+type(
+  Expr.T.expr
+)
+ident(
+  def res "boolify.ml" 172 6131 6135 "boolify.ml" 176 6251 6290
+)
+"boolify.ml" 171 6096 6116 "boolify.ml" 171 6096 6128
+type(
+  Expr.T.expoint list * Expr.T.expr
+)
+"boolify.ml" 172 6131 6139 "boolify.ml" 172 6131 6147
+type(
+  Expr.T.expoint -> Expr.T.expoint
+)
+ident(
+  def do_trail "boolify.ml" 176 6251 6255 "boolify.ml" 176 6251 6290
+)
+"boolify.ml" 173 6159 6178 "boolify.ml" 173 6159 6179
+type(
+  string
+)
+ident(
+  def s "boolify.ml" 173 6159 6183 "boolify.ml" 173 6159 6195
+)
+"boolify.ml" 173 6159 6167 "boolify.ml" 173 6159 6179
+type(
+  Expr.T.expoint
+)
+"boolify.ml" 173 6159 6194 "boolify.ml" 173 6159 6195
+type(
+  string
+)
+ident(
+  int_ref s "boolify.ml" 173 6159 6178 "boolify.ml" 173 6159 6179
+)
+"boolify.ml" 173 6159 6183 "boolify.ml" 173 6159 6195
+type(
+  Expr.T.expoint
+)
+"boolify.ml" 174 6196 6217 "boolify.ml" 174 6196 6218
+type(
+  Expr.T.expr
+)
+ident(
+  def e "boolify.ml" 174 6196 6222 "boolify.ml" 174 6196 6243
+)
+"boolify.ml" 174 6196 6204 "boolify.ml" 174 6196 6218
+type(
+  Expr.T.expoint
+)
+"boolify.ml" 174 6196 6236 "boolify.ml" 174 6196 6240
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 174 6196 6241 "boolify.ml" 174 6196 6242
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "boolify.ml" 174 6196 6217 "boolify.ml" 174 6196 6218
+)
+"boolify.ml" 174 6196 6235 "boolify.ml" 174 6196 6243
+type(
+  Expr.T.expr
+)
+"boolify.ml" 174 6196 6222 "boolify.ml" 174 6196 6243
+type(
+  Expr.T.expoint
+)
+"boolify.ml" 172 6131 6150 "boolify.ml" 174 6196 6243
+type(
+  Expr.T.expoint -> Expr.T.expoint
+)
+"boolify.ml" 176 6251 6256 "boolify.ml" 176 6251 6264
+type(
+  (Expr.T.expoint -> Expr.T.expoint) ->
+  Expr.T.expoint list -> Expr.T.expoint list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"boolify.ml" 176 6251 6265 "boolify.ml" 176 6251 6273
+type(
+  Expr.T.expoint -> Expr.T.expoint
+)
+ident(
+  int_ref do_trail "boolify.ml" 172 6131 6139 "boolify.ml" 172 6131 6147
+)
+"boolify.ml" 176 6251 6274 "boolify.ml" 176 6251 6279
+type(
+  Expr.T.expoint list
+)
+ident(
+  int_ref trail "boolify.ml" 171 6096 6117 "boolify.ml" 171 6096 6122
+)
+"boolify.ml" 176 6251 6256 "boolify.ml" 176 6251 6279
+type(
+  Expr.T.expoint list
+)
+"boolify.ml" 176 6251 6281 "boolify.ml" 176 6251 6285
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref nboo "boolify.ml" 88 2935 2939 "boolify.ml" 88 2935 2943
+)
+"boolify.ml" 176 6251 6286 "boolify.ml" 176 6251 6289
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref res "boolify.ml" 171 6096 6124 "boolify.ml" 171 6096 6127
+)
+"boolify.ml" 176 6251 6281 "boolify.ml" 176 6251 6289
+type(
+  Expr.T.expr
+)
+"boolify.ml" 176 6251 6255 "boolify.ml" 176 6251 6290
+type(
+  Expr.T.expoint list * Expr.T.expr
+)
+"boolify.ml" 172 6131 6135 "boolify.ml" 176 6251 6290
+type(
+  Expr.T.exspec
+)
+"boolify.ml" 153 5478 5494 "boolify.ml" 177 6291 6296
+type(
+  unit Expr.Visit.map
+)
+"boolify.ml" 178 6300 6302 "boolify.ml" 178 6300 6305
+type(
+  unit Expr.Visit.scx * Expr.T.sequent -> Expr.T.sequent
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"boolify.ml" 178 6300 6307 "boolify.ml" 178 6300 6314
+type(
+  unit Expr.Visit.map
+)
+ident(
+  int_ref visitor "boolify.ml" 153 5478 5484 "boolify.ml" 153 5478 5491
+)
+"boolify.ml" 178 6300 6307 "boolify.ml" 178 6300 6322
+type(
+  unit Expr.Visit.scx ->
+  Expr.T.sequent -> unit Expr.Visit.scx * Expr.T.sequent
+)
+"boolify.ml" 178 6300 6324 "boolify.ml" 178 6300 6326
+type(
+  unit
+)
+"boolify.ml" 178 6300 6327 "boolify.ml" 178 6300 6329
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "boolify.ml" 152 5461 5473 "boolify.ml" 152 5461 5475
+)
+"boolify.ml" 178 6300 6327 "boolify.ml" 178 6300 6337
+type(
+  Expr.T.hyp Deque.dq
+)
+"boolify.ml" 178 6300 6323 "boolify.ml" 178 6300 6338
+type(
+  unit Expr.Visit.scx
+)
+"boolify.ml" 178 6300 6339 "boolify.ml" 178 6300 6341
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "boolify.ml" 152 5461 5473 "boolify.ml" 152 5461 5475
+)
+"boolify.ml" 178 6300 6306 "boolify.ml" 178 6300 6342
+type(
+  unit Expr.Visit.scx * Expr.T.sequent
+)
+"boolify.ml" 178 6300 6302 "boolify.ml" 178 6300 6342
+type(
+  Expr.T.sequent
+)
+"boolify.ml" 153 5478 5480 "boolify.ml" 178 6300 6342
+type(
+  Expr.T.sequent
+)

@@ -1,0 +1,11 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:14:20 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp ENABLEDaxioms_conj_hidden_actions_test.tla --stretch 5
+
+(* created new ".tlacache/TLAPS.tlaps/TLAPS.thy" *)
+(* fingerprints written in ".tlacache/TLAPS.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/ENABLEDaxioms_conj_hidden_actions_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+expr has ENABLEDaxioms property ===
+(* created new ".tlacache/ENABLEDaxioms_conj_hidden_actions_test.tlaps/ENABLEDaxioms_conj_hidden_actions_test.thy" *)
+(* fingerprints written in ".tlacache/ENABLEDaxioms_conj_hidden_actions_test.tlaps/fingerprints" *)

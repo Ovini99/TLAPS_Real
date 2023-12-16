@@ -1,0 +1,3478 @@
+"toolbox.ml" 16 198 202 "toolbox.ml" 16 198 218
+type(
+  Types.reason -> string
+)
+ident(
+  def reason_to_string "toolbox.ml" 23 306 306 "toolbox.ml" 0 0 -1
+)
+"toolbox.ml" 16 198 219 "toolbox.ml" 16 198 220
+type(
+  Types.reason
+)
+ident(
+  def r "toolbox.ml" 17 223 225 "toolbox.ml" 20 284 303
+)
+"toolbox.ml" 17 223 231 "toolbox.ml" 17 223 232
+type(
+  Types.reason
+)
+ident(
+  int_ref r "toolbox.ml" 16 198 219 "toolbox.ml" 16 198 220
+)
+"toolbox.ml" 18 238 242 "toolbox.ml" 18 238 247
+type(
+  Types.reason
+)
+type(
+  Types.reason
+)
+"toolbox.ml" 18 238 251 "toolbox.ml" 18 238 258
+type(
+  string
+)
+"toolbox.ml" 19 259 263 "toolbox.ml" 19 259 270
+type(
+  Types.reason
+)
+type(
+  Types.reason
+)
+"toolbox.ml" 19 259 274 "toolbox.ml" 19 259 283
+type(
+  string
+)
+"toolbox.ml" 20 284 297 "toolbox.ml" 20 284 298
+type(
+  string
+)
+ident(
+  def s "toolbox.ml" 20 284 302 "toolbox.ml" 20 284 303
+)
+"toolbox.ml" 20 284 288 "toolbox.ml" 20 284 298
+type(
+  Types.reason
+)
+type(
+  Types.reason
+)
+"toolbox.ml" 20 284 302 "toolbox.ml" 20 284 303
+type(
+  string
+)
+ident(
+  int_ref s "toolbox.ml" 20 284 297 "toolbox.ml" 20 284 298
+)
+"toolbox.ml" 17 223 225 "toolbox.ml" 20 284 303
+type(
+  string
+)
+"toolbox.ml" 23 306 310 "toolbox.ml" 23 306 323
+type(
+  Proof.T.obligation ->
+  ?temp:bool ->
+  string ->
+  string option ->
+  string option ->
+  float ->
+  bool option ->
+  bool -> Types.reason option -> string -> float option -> unit
+)
+ident(
+  def toolbox_print "toolbox.ml" 74 2022 2022 "toolbox.ml" 0 0 -1
+)
+"toolbox.ml" 23 306 324 "toolbox.ml" 23 306 326
+type(
+  Proof.T.obligation
+)
+ident(
+  def ob "toolbox.ml" 23 306 327 "toolbox.ml" 71 2014 2019
+)
+"toolbox.ml" 23 306 329 "toolbox.ml" 23 306 333
+type(
+  bool
+)
+ident(
+  def temp "toolbox.ml" 23 306 341 "toolbox.ml" 71 2014 2019
+)
+"toolbox.ml" 23 306 334 "toolbox.ml" 23 306 339
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "toolbox.ml" 23 306 334 "toolbox.ml" 23 306 339
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+ident(
+  def *sth* "toolbox.ml" 23 306 334 "toolbox.ml" 23 306 339
+)
+"toolbox.ml" 23 306 341 "toolbox.ml" 23 306 347
+type(
+  string
+)
+ident(
+  def status "toolbox.ml" 23 306 348 "toolbox.ml" 71 2014 2019
+)
+"toolbox.ml" 23 306 348 "toolbox.ml" 23 306 354
+type(
+  string option
+)
+ident(
+  def prover "toolbox.ml" 23 306 355 "toolbox.ml" 71 2014 2019
+)
+"toolbox.ml" 23 306 355 "toolbox.ml" 23 306 359
+type(
+  string option
+)
+ident(
+  def meth "toolbox.ml" 23 306 360 "toolbox.ml" 71 2014 2019
+)
+"toolbox.ml" 23 306 360 "toolbox.ml" 23 306 367
+type(
+  float
+)
+ident(
+  def timeout "toolbox.ml" 23 306 368 "toolbox.ml" 71 2014 2019
+)
+"toolbox.ml" 23 306 368 "toolbox.ml" 23 306 375
+type(
+  bool option
+)
+ident(
+  def already "toolbox.ml" 23 306 376 "toolbox.ml" 71 2014 2019
+)
+"toolbox.ml" 23 306 376 "toolbox.ml" 23 306 384
+type(
+  bool
+)
+ident(
+  def print_ob "toolbox.ml" 24 385 403 "toolbox.ml" 71 2014 2019
+)
+"toolbox.ml" 24 385 403 "toolbox.ml" 24 385 409
+type(
+  Types.reason option
+)
+ident(
+  def reason "toolbox.ml" 24 385 410 "toolbox.ml" 71 2014 2019
+)
+"toolbox.ml" 24 385 410 "toolbox.ml" 24 385 418
+type(
+  string
+)
+ident(
+  def warnings "toolbox.ml" 24 385 419 "toolbox.ml" 71 2014 2019
+)
+"toolbox.ml" 24 385 419 "toolbox.ml" 24 385 428
+type(
+  float option
+)
+ident(
+  def time_used "toolbox.ml" 25 431 433 "toolbox.ml" 71 2014 2019
+)
+"toolbox.ml" 25 431 436 "toolbox.ml" 25 431 437
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"toolbox.ml" 25 431 437 "toolbox.ml" 25 431 451
+type(
+  bool ref
+)
+ident(
+  int_ref Params.toolbox "params.mli" 6 83 83 "params.mli" 6 83 104
+)
+"toolbox.ml" 25 431 436 "toolbox.ml" 25 431 451
+type(
+  bool
+)
+"toolbox.ml" 26 463 471 "toolbox.ml" 26 463 474
+type(
+  string option
+)
+ident(
+  def obl "toolbox.ml" 43 1140 1144 "toolbox.ml" 70 1998 2013
+)
+"toolbox.ml" 27 477 489 "toolbox.ml" 27 477 491
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "toolbox.ml" 23 306 324 "toolbox.ml" 23 306 326
+)
+"toolbox.ml" 27 477 489 "toolbox.ml" 27 477 496
+type(
+  Proof.T.obligation_kind
+)
+"toolbox.ml" 28 502 519 "toolbox.ml" 28 502 522
+type(
+  string
+)
+ident(
+  def msg "toolbox.ml" 28 502 528 "toolbox.ml" 29 540 571
+)
+"toolbox.ml" 28 502 510 "toolbox.ml" 28 502 522
+type(
+  Proof.T.obligation_kind
+)
+type(
+  Proof.T.obligation_kind
+)
+"toolbox.ml" 28 502 528 "toolbox.ml" 28 502 536
+type(
+  bool
+)
+ident(
+  int_ref print_ob "toolbox.ml" 23 306 376 "toolbox.ml" 23 306 384
+)
+"toolbox.ml" 29 540 556 "toolbox.ml" 29 540 564
+type(
+  string
+)
+ident(
+  int_ref warnings "toolbox.ml" 24 385 410 "toolbox.ml" 24 385 418
+)
+"toolbox.ml" 29 540 565 "toolbox.ml" 29 540 566
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"toolbox.ml" 29 540 567 "toolbox.ml" 29 540 570
+type(
+  string
+)
+ident(
+  int_ref msg "toolbox.ml" 28 502 519 "toolbox.ml" 28 502 522
+)
+"toolbox.ml" 29 540 555 "toolbox.ml" 29 540 571
+type(
+  string
+)
+"toolbox.ml" 29 540 550 "toolbox.ml" 29 540 571
+type(
+  string option
+)
+"toolbox.ml" 30 572 580 "toolbox.ml" 30 572 581
+type(
+  Proof.T.obligation_kind
+)
+type(
+  Proof.T.obligation_kind
+)
+"toolbox.ml" 30 572 587 "toolbox.ml" 30 572 595
+type(
+  bool
+)
+ident(
+  int_ref print_ob "toolbox.ml" 23 306 376 "toolbox.ml" 23 306 384
+)
+"toolbox.ml" 31 599 613 "toolbox.ml" 31 599 616
+type(
+  Buffer.t
+)
+ident(
+  def buf "toolbox.ml" 32 640 650 "toolbox.ml" 40 1067 1114
+)
+"toolbox.ml" 31 599 619 "toolbox.ml" 31 599 632
+type(
+  int -> Buffer.t
+)
+ident(
+  int_ref Stdlib.Buffer.create "buffer.mli" 36 1534 1534 "buffer.mli" 36 1534 1555
+)
+"toolbox.ml" 31 599 633 "toolbox.ml" 31 599 636
+type(
+  int
+)
+"toolbox.ml" 31 599 619 "toolbox.ml" 31 599 636
+type(
+  Buffer.t
+)
+"toolbox.ml" 32 640 654 "toolbox.ml" 32 640 656
+type(
+  Format.formatter
+)
+ident(
+  def ff "toolbox.ml" 33 693 703 "toolbox.ml" 40 1067 1114
+)
+"toolbox.ml" 32 640 659 "toolbox.ml" 32 640 685
+type(
+  Buffer.t -> Format.formatter
+)
+ident(
+  int_ref Stdlib.Format.formatter_of_buffer "format.mli" 962 37557 37557 "format.mli" 962 37557 37604
+)
+"toolbox.ml" 32 640 686 "toolbox.ml" 32 640 689
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "toolbox.ml" 31 599 613 "toolbox.ml" 31 599 616
+)
+"toolbox.ml" 32 640 659 "toolbox.ml" 32 640 689
+type(
+  Format.formatter
+)
+"toolbox.ml" 33 693 706 "toolbox.ml" 33 693 722
+type(
+  string -> bool
+)
+ident(
+  int_ref Params.debugging "params.mli" 9 124 124 "params.mli" 9 124 153
+)
+"toolbox.ml" 33 693 723 "toolbox.ml" 33 693 732
+type(
+  string
+)
+"toolbox.ml" 33 693 706 "toolbox.ml" 33 693 732
+type(
+  bool
+)
+"toolbox.ml" 33 693 733 "toolbox.ml" 33 693 735
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"toolbox.ml" 33 693 736 "toolbox.ml" 33 693 738
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "toolbox.ml" 23 306 324 "toolbox.ml" 23 306 326
+)
+"toolbox.ml" 33 693 736 "toolbox.ml" 33 693 743
+type(
+  Proof.T.obligation_kind
+)
+"toolbox.ml" 33 693 744 "toolbox.ml" 33 693 745
+type(
+  Proof.T.obligation_kind -> Proof.T.obligation_kind -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"toolbox.ml" 33 693 746 "toolbox.ml" 33 693 753
+type(
+  Proof.T.obligation_kind
+)
+"toolbox.ml" 33 693 736 "toolbox.ml" 33 693 753
+type(
+  bool
+)
+"toolbox.ml" 33 693 706 "toolbox.ml" 33 693 753
+type(
+  bool
+)
+"toolbox.ml" 34 765 777 "toolbox.ml" 34 765 791
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"toolbox.ml" 34 765 792 "toolbox.ml" 34 765 794
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "toolbox.ml" 32 640 654 "toolbox.ml" 32 640 656
+)
+"toolbox.ml" 34 765 795 "toolbox.ml" 34 765 838
+type(
+  (unit, Format.formatter, unit) format
+)
+"toolbox.ml" 33 693 759 "toolbox.ml" 35 839 852
+type(
+  unit
+)
+"toolbox.ml" 33 693 703 "toolbox.ml" 35 839 852
+type(
+  unit
+)
+"toolbox.ml" 36 854 864 "toolbox.ml" 36 854 878
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"toolbox.ml" 36 854 879 "toolbox.ml" 36 854 881
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "toolbox.ml" 32 640 654 "toolbox.ml" 32 640 656
+)
+"toolbox.ml" 36 854 882 "toolbox.ml" 36 854 890
+type(
+  (unit, Format.formatter, unit) format
+)
+"toolbox.ml" 36 854 864 "toolbox.ml" 36 854 890
+type(
+  unit
+)
+"toolbox.ml" 37 892 902 "toolbox.ml" 37 892 908
+type(
+  Expr.Fmt.ctx -> unit
+)
+ident(
+  int_ref Stdlib.ignore "stdlib.mli" 723 27015 27015 "stdlib.mli" 723 27015 27055
+)
+"toolbox.ml" 37 892 910 "toolbox.ml" 37 892 935
+type(
+  ?temp:bool ->
+  Expr.Fmt.ctx -> Format.formatter -> Expr.T.sequent -> Expr.Fmt.ctx
+)
+ident(
+  int_ref Expr.Fmt.pp_print_sequent "expr.mli" 405 10346 10350 "expr.mli" 408 10440 10455
+)
+"toolbox.ml" 37 892 937 "toolbox.ml" 37 892 948
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"toolbox.ml" 37 892 950 "toolbox.ml" 37 892 957
+type(
+  int Ctx.ctx
+)
+ident(
+  int_ref Ctx.dot "ctx.mli" 20 424 424 "ctx.mli" 20 424 439
+)
+"toolbox.ml" 37 892 936 "toolbox.ml" 37 892 958
+type(
+  Expr.Fmt.ctx
+)
+"toolbox.ml" 37 892 959 "toolbox.ml" 37 892 961
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "toolbox.ml" 32 640 654 "toolbox.ml" 32 640 656
+)
+"toolbox.ml" 38 962 1012 "toolbox.ml" 38 962 1016
+type(
+  bool
+)
+ident(
+  int_ref temp "toolbox.ml" 23 306 329 "toolbox.ml" 23 306 333
+)
+type(
+  bool option
+)
+"toolbox.ml" 38 962 1017 "toolbox.ml" 38 962 1019
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "toolbox.ml" 23 306 324 "toolbox.ml" 23 306 326
+)
+"toolbox.ml" 38 962 1017 "toolbox.ml" 38 962 1023
+type(
+  Expr.T.sequent Property.wrapped
+)
+"toolbox.ml" 38 962 1017 "toolbox.ml" 38 962 1028
+type(
+  Expr.T.sequent
+)
+"toolbox.ml" 37 892 909 "toolbox.ml" 38 962 1029
+type(
+  Expr.Fmt.ctx
+)
+"toolbox.ml" 37 892 902 "toolbox.ml" 38 962 1029
+type(
+  unit
+)
+"toolbox.ml" 39 1031 1041 "toolbox.ml" 39 1031 1055
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"toolbox.ml" 39 1031 1056 "toolbox.ml" 39 1031 1058
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "toolbox.ml" 32 640 654 "toolbox.ml" 32 640 656
+)
+"toolbox.ml" 39 1031 1059 "toolbox.ml" 39 1031 1065
+type(
+  (unit, Format.formatter, unit) format
+)
+"toolbox.ml" 39 1031 1041 "toolbox.ml" 39 1031 1065
+type(
+  unit
+)
+"toolbox.ml" 40 1067 1083 "toolbox.ml" 40 1067 1091
+type(
+  string
+)
+ident(
+  int_ref warnings "toolbox.ml" 24 385 410 "toolbox.ml" 24 385 418
+)
+"toolbox.ml" 40 1067 1092 "toolbox.ml" 40 1067 1093
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"toolbox.ml" 40 1067 1094 "toolbox.ml" 40 1067 1109
+type(
+  Buffer.t -> string
+)
+ident(
+  int_ref Stdlib.Buffer.contents "buffer.mli" 50 2314 2314 "buffer.mli" 50 2314 2340
+)
+"toolbox.ml" 40 1067 1110 "toolbox.ml" 40 1067 1113
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "toolbox.ml" 31 599 613 "toolbox.ml" 31 599 616
+)
+"toolbox.ml" 40 1067 1094 "toolbox.ml" 40 1067 1113
+type(
+  string
+)
+"toolbox.ml" 40 1067 1082 "toolbox.ml" 40 1067 1114
+type(
+  string
+)
+"toolbox.ml" 40 1067 1077 "toolbox.ml" 40 1067 1114
+type(
+  string option
+)
+"toolbox.ml" 39 1031 1041 "toolbox.ml" 40 1067 1114
+type(
+  string option
+)
+"toolbox.ml" 37 892 902 "toolbox.ml" 40 1067 1114
+type(
+  string option
+)
+"toolbox.ml" 36 854 864 "toolbox.ml" 40 1067 1114
+type(
+  string option
+)
+"toolbox.ml" 33 693 703 "toolbox.ml" 40 1067 1114
+type(
+  string option
+)
+"toolbox.ml" 32 640 650 "toolbox.ml" 40 1067 1114
+type(
+  string option
+)
+"toolbox.ml" 31 599 609 "toolbox.ml" 40 1067 1114
+type(
+  string option
+)
+"toolbox.ml" 41 1115 1123 "toolbox.ml" 41 1115 1124
+type(
+  Proof.T.obligation_kind
+)
+type(
+  Proof.T.obligation_kind
+)
+"toolbox.ml" 41 1115 1128 "toolbox.ml" 41 1115 1132
+type(
+  string option
+)
+"toolbox.ml" 27 477 483 "toolbox.ml" 41 1115 1132
+type(
+  string option
+)
+"toolbox.ml" 43 1140 1148 "toolbox.ml" 43 1140 1153
+type(
+  string
+)
+ident(
+  def times "toolbox.ml" 54 1464 1468 "toolbox.ml" 70 1998 2013
+)
+"toolbox.ml" 44 1156 1165 "toolbox.ml" 44 1156 1172
+type(
+  float
+)
+ident(
+  int_ref timeout "toolbox.ml" 23 306 360 "toolbox.ml" 23 306 367
+)
+"toolbox.ml" 44 1156 1173 "toolbox.ml" 44 1156 1174
+type(
+  float -> float -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"toolbox.ml" 44 1156 1175 "toolbox.ml" 44 1156 1177
+type(
+  float
+)
+"toolbox.ml" 44 1156 1165 "toolbox.ml" 44 1156 1177
+type(
+  bool
+)
+"toolbox.ml" 45 1178 1189 "toolbox.ml" 45 1178 1191
+type(
+  string
+)
+"toolbox.ml" 47 1209 1223 "toolbox.ml" 47 1209 1232
+type(
+  float option
+)
+ident(
+  int_ref time_used "toolbox.ml" 24 385 419 "toolbox.ml" 24 385 428
+)
+"toolbox.ml" 48 1238 1248 "toolbox.ml" 48 1238 1252
+type(
+  float option
+)
+type(
+  float option
+)
+"toolbox.ml" 48 1238 1256 "toolbox.ml" 48 1238 1270
+type(
+  (float -> string, unit, string) format -> float -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"toolbox.ml" 48 1238 1271 "toolbox.ml" 48 1238 1287
+type(
+  (float -> string, unit, string) format
+)
+"toolbox.ml" 48 1238 1288 "toolbox.ml" 48 1238 1295
+type(
+  float
+)
+ident(
+  int_ref timeout "toolbox.ml" 23 306 360 "toolbox.ml" 23 306 367
+)
+"toolbox.ml" 48 1238 1256 "toolbox.ml" 48 1238 1295
+type(
+  string
+)
+"toolbox.ml" 49 1296 1311 "toolbox.ml" 49 1296 1313
+type(
+  float
+)
+ident(
+  def tm "toolbox.ml" 50 1317 1328 "toolbox.ml" 51 1386 1446
+)
+"toolbox.ml" 49 1296 1306 "toolbox.ml" 49 1296 1313
+type(
+  float option
+)
+type(
+  float option
+)
+"toolbox.ml" 50 1317 1328 "toolbox.ml" 50 1317 1342
+type(
+  (float -> float -> float -> string, unit, string) format ->
+  float -> float -> float -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"toolbox.ml" 50 1317 1343 "toolbox.ml" 50 1317 1385
+type(
+  (float -> float -> float -> string, unit, string) format
+)
+"toolbox.ml" 51 1386 1412 "toolbox.ml" 51 1386 1419
+type(
+  float
+)
+ident(
+  int_ref timeout "toolbox.ml" 23 306 360 "toolbox.ml" 23 306 367
+)
+"toolbox.ml" 51 1386 1420 "toolbox.ml" 51 1386 1422
+type(
+  float
+)
+ident(
+  int_ref tm "toolbox.ml" 49 1296 1311 "toolbox.ml" 49 1296 1313
+)
+"toolbox.ml" 51 1386 1424 "toolbox.ml" 51 1386 1428
+type(
+  float
+)
+"toolbox.ml" 51 1386 1429 "toolbox.ml" 51 1386 1431
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( *. ) "stdlib.mli" 472 18097 18097 "stdlib.mli" 472 18097 18152
+)
+"toolbox.ml" 51 1386 1432 "toolbox.ml" 51 1386 1434
+type(
+  float
+)
+ident(
+  int_ref tm "toolbox.ml" 49 1296 1311 "toolbox.ml" 49 1296 1313
+)
+"toolbox.ml" 51 1386 1424 "toolbox.ml" 51 1386 1434
+type(
+  float
+)
+"toolbox.ml" 51 1386 1435 "toolbox.ml" 51 1386 1437
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( /. ) "stdlib.mli" 477 18268 18268 "stdlib.mli" 477 18268 18323
+)
+"toolbox.ml" 51 1386 1438 "toolbox.ml" 51 1386 1445
+type(
+  float
+)
+ident(
+  int_ref timeout "toolbox.ml" 23 306 360 "toolbox.ml" 23 306 367
+)
+"toolbox.ml" 51 1386 1423 "toolbox.ml" 51 1386 1446
+type(
+  float
+)
+"toolbox.ml" 50 1317 1328 "toolbox.ml" 51 1386 1446
+type(
+  string
+)
+"toolbox.ml" 46 1192 1203 "toolbox.ml" 52 1447 1456
+type(
+  string
+)
+"toolbox.ml" 44 1156 1162 "toolbox.ml" 52 1447 1456
+type(
+  string
+)
+"toolbox.ml" 54 1464 1472 "toolbox.ml" 54 1464 1481
+type(
+  string option
+)
+ident(
+  def meth_line "toolbox.ml" 61 1664 1668 "toolbox.ml" 70 1998 2013
+)
+"toolbox.ml" 55 1484 1496 "toolbox.ml" 55 1484 1500
+type(
+  string option
+)
+ident(
+  int_ref meth "toolbox.ml" 23 306 355 "toolbox.ml" 23 306 359
+)
+"toolbox.ml" 55 1484 1502 "toolbox.ml" 55 1484 1507
+type(
+  string
+)
+ident(
+  int_ref times "toolbox.ml" 43 1140 1148 "toolbox.ml" 43 1140 1153
+)
+"toolbox.ml" 55 1484 1496 "toolbox.ml" 55 1484 1507
+type(
+  string option * string
+)
+"toolbox.ml" 56 1513 1521 "toolbox.ml" 56 1513 1525
+type(
+  string option
+)
+"toolbox.ml" 56 1513 1527 "toolbox.ml" 56 1513 1529
+type(
+  string
+)
+"toolbox.ml" 56 1513 1521 "toolbox.ml" 56 1513 1529
+type(
+  string option * string
+)
+type(
+  string option * string
+)
+"toolbox.ml" 56 1513 1533 "toolbox.ml" 56 1513 1537
+type(
+  string option
+)
+"toolbox.ml" 57 1538 1546 "toolbox.ml" 57 1538 1550
+type(
+  string option
+)
+"toolbox.ml" 57 1538 1552 "toolbox.ml" 57 1538 1553
+type(
+  string
+)
+"toolbox.ml" 57 1538 1546 "toolbox.ml" 57 1538 1553
+type(
+  string option * string
+)
+type(
+  string option * string
+)
+"toolbox.ml" 57 1538 1562 "toolbox.ml" 57 1538 1567
+type(
+  string
+)
+ident(
+  int_ref times "toolbox.ml" 43 1140 1148 "toolbox.ml" 43 1140 1153
+)
+"toolbox.ml" 57 1538 1557 "toolbox.ml" 57 1538 1567
+type(
+  string option
+)
+"toolbox.ml" 58 1568 1581 "toolbox.ml" 58 1568 1582
+type(
+  string
+)
+ident(
+  def m "toolbox.ml" 58 1568 1590 "toolbox.ml" 58 1568 1596
+)
+"toolbox.ml" 58 1568 1576 "toolbox.ml" 58 1568 1582
+type(
+  string option
+)
+"toolbox.ml" 58 1568 1584 "toolbox.ml" 58 1568 1586
+type(
+  string
+)
+"toolbox.ml" 58 1568 1576 "toolbox.ml" 58 1568 1586
+type(
+  string option * string
+)
+type(
+  string option * string
+)
+"toolbox.ml" 58 1568 1595 "toolbox.ml" 58 1568 1596
+type(
+  string
+)
+ident(
+  int_ref m "toolbox.ml" 58 1568 1581 "toolbox.ml" 58 1568 1582
+)
+"toolbox.ml" 58 1568 1590 "toolbox.ml" 58 1568 1596
+type(
+  string option
+)
+"toolbox.ml" 59 1597 1610 "toolbox.ml" 59 1597 1611
+type(
+  string
+)
+ident(
+  def m "toolbox.ml" 59 1597 1618 "toolbox.ml" 59 1597 1656
+)
+"toolbox.ml" 59 1597 1605 "toolbox.ml" 59 1597 1611
+type(
+  string option
+)
+"toolbox.ml" 59 1597 1613 "toolbox.ml" 59 1597 1614
+type(
+  string
+)
+"toolbox.ml" 59 1597 1605 "toolbox.ml" 59 1597 1614
+type(
+  string option * string
+)
+type(
+  string option * string
+)
+"toolbox.ml" 59 1597 1624 "toolbox.ml" 59 1597 1638
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"toolbox.ml" 59 1597 1639 "toolbox.ml" 59 1597 1647
+type(
+  (string -> string -> string, unit, string) format
+)
+"toolbox.ml" 59 1597 1648 "toolbox.ml" 59 1597 1649
+type(
+  string
+)
+ident(
+  int_ref m "toolbox.ml" 59 1597 1610 "toolbox.ml" 59 1597 1611
+)
+"toolbox.ml" 59 1597 1650 "toolbox.ml" 59 1597 1655
+type(
+  string
+)
+ident(
+  int_ref times "toolbox.ml" 43 1140 1148 "toolbox.ml" 43 1140 1153
+)
+"toolbox.ml" 59 1597 1623 "toolbox.ml" 59 1597 1656
+type(
+  string
+)
+"toolbox.ml" 59 1597 1618 "toolbox.ml" 59 1597 1656
+type(
+  string option
+)
+"toolbox.ml" 55 1484 1490 "toolbox.ml" 59 1597 1656
+type(
+  string option
+)
+"toolbox.ml" 61 1664 1668 "toolbox.ml" 61 1664 1696
+type(
+  id:int ->
+  loc:Loc.locus ->
+  status:string ->
+  fp:string option ->
+  prover:string option ->
+  meth:string option ->
+  reason:string option -> already:bool option -> obl:string option -> unit
+)
+ident(
+  int_ref Toolbox_msg.print_obligation "toolbox_msg.mli" 19 485 485 "toolbox_msg.mli" 29 730 742
+)
+"toolbox.ml" 62 1697 1709 "toolbox.ml" 62 1697 1719
+type(
+  int option -> int
+)
+ident(
+  int_ref Ext.Option.get "ext.mli" 60 2628 2630 "ext.mli" 60 2628 2655
+)
+"toolbox.ml" 62 1697 1720 "toolbox.ml" 62 1697 1722
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "toolbox.ml" 23 306 324 "toolbox.ml" 23 306 326
+)
+"toolbox.ml" 62 1697 1720 "toolbox.ml" 62 1697 1733
+type(
+  int option
+)
+"toolbox.ml" 62 1697 1708 "toolbox.ml" 62 1697 1734
+type(
+  int
+)
+"toolbox.ml" 63 1735 1748 "toolbox.ml" 63 1735 1758
+type(
+  Loc.locus option -> Loc.locus
+)
+ident(
+  int_ref Ext.Option.get "ext.mli" 60 2628 2630 "ext.mli" 60 2628 2655
+)
+"toolbox.ml" 63 1735 1760 "toolbox.ml" 63 1735 1776
+type(
+  Expr.T.sequent Property.wrapped -> Loc.locus option
+)
+ident(
+  int_ref Util.query_locus "util.mli" 18 321 321 "util.mli" 18 321 369
+)
+"toolbox.ml" 63 1735 1777 "toolbox.ml" 63 1735 1779
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "toolbox.ml" 23 306 324 "toolbox.ml" 23 306 326
+)
+"toolbox.ml" 63 1735 1777 "toolbox.ml" 63 1735 1791
+type(
+  Expr.T.sequent Property.wrapped
+)
+"toolbox.ml" 63 1735 1759 "toolbox.ml" 63 1735 1792
+type(
+  Loc.locus option
+)
+"toolbox.ml" 63 1735 1747 "toolbox.ml" 63 1735 1793
+type(
+  Loc.locus
+)
+"toolbox.ml" 64 1794 1809 "toolbox.ml" 64 1794 1815
+type(
+  string
+)
+ident(
+  int_ref status "toolbox.ml" 23 306 341 "toolbox.ml" 23 306 347
+)
+"toolbox.ml" 65 1816 1831 "toolbox.ml" 65 1816 1832
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"toolbox.ml" 65 1816 1832 "toolbox.ml" 65 1816 1845
+type(
+  bool ref
+)
+ident(
+  int_ref Params.fp_deb "params.mli" 64 1300 1300 "params.mli" 64 1300 1320
+)
+"toolbox.ml" 65 1816 1831 "toolbox.ml" 65 1816 1845
+type(
+  bool
+)
+"toolbox.ml" 65 1816 1851 "toolbox.ml" 65 1816 1853
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "toolbox.ml" 23 306 324 "toolbox.ml" 23 306 326
+)
+"toolbox.ml" 65 1816 1851 "toolbox.ml" 65 1816 1865
+type(
+  string option
+)
+"toolbox.ml" 65 1816 1871 "toolbox.ml" 65 1816 1875
+type(
+  string option
+)
+"toolbox.ml" 65 1816 1827 "toolbox.ml" 65 1816 1876
+type(
+  string option
+)
+"toolbox.ml" 66 1877 1892 "toolbox.ml" 66 1877 1898
+type(
+  string option
+)
+ident(
+  int_ref prover "toolbox.ml" 23 306 348 "toolbox.ml" 23 306 354
+)
+"toolbox.ml" 67 1899 1912 "toolbox.ml" 67 1899 1921
+type(
+  string option
+)
+ident(
+  int_ref meth_line "toolbox.ml" 54 1464 1472 "toolbox.ml" 54 1464 1481
+)
+"toolbox.ml" 68 1922 1938 "toolbox.ml" 68 1922 1948
+type(
+  (Types.reason -> string) -> Types.reason option -> string option
+)
+ident(
+  int_ref Ext.Option.map "ext.mli" 61 2656 2658 "ext.mli" 61 2656 2704
+)
+"toolbox.ml" 68 1922 1949 "toolbox.ml" 68 1922 1965
+type(
+  Types.reason -> string
+)
+ident(
+  int_ref reason_to_string "toolbox.ml" 16 198 202 "toolbox.ml" 16 198 218
+)
+"toolbox.ml" 68 1922 1966 "toolbox.ml" 68 1922 1972
+type(
+  Types.reason option
+)
+ident(
+  int_ref reason "toolbox.ml" 24 385 403 "toolbox.ml" 24 385 409
+)
+"toolbox.ml" 68 1922 1937 "toolbox.ml" 68 1922 1973
+type(
+  string option
+)
+"toolbox.ml" 69 1974 1990 "toolbox.ml" 69 1974 1997
+type(
+  bool option
+)
+ident(
+  int_ref already "toolbox.ml" 23 306 368 "toolbox.ml" 23 306 375
+)
+"toolbox.ml" 70 1998 2010 "toolbox.ml" 70 1998 2013
+type(
+  string option
+)
+ident(
+  int_ref obl "toolbox.ml" 26 463 471 "toolbox.ml" 26 463 474
+)
+"toolbox.ml" 61 1664 1668 "toolbox.ml" 70 1998 2013
+type(
+  unit
+)
+"toolbox.ml" 54 1464 1468 "toolbox.ml" 70 1998 2013
+type(
+  unit
+)
+"toolbox.ml" 43 1140 1144 "toolbox.ml" 70 1998 2013
+type(
+  unit
+)
+"toolbox.ml" 25 431 457 "toolbox.ml" 71 2014 2019
+type(
+  unit
+)
+"toolbox.ml" 25 431 433 "toolbox.ml" 71 2014 2019
+type(
+  unit
+)
+"toolbox.ml" 74 2022 2026 "toolbox.ml" 74 2022 2039
+type(
+  Proof.T.obligation ->
+  Types.status_type6 -> bool option -> bool -> string -> float option -> unit
+)
+ident(
+  def print_res_aux "toolbox.ml" 93 2754 2754 "toolbox.ml" 0 0 -1
+)
+"toolbox.ml" 74 2022 2040 "toolbox.ml" 74 2022 2042
+type(
+  Proof.T.obligation
+)
+ident(
+  def ob "toolbox.ml" 74 2022 2043 "toolbox.ml" 90 2726 2751
+)
+"toolbox.ml" 74 2022 2043 "toolbox.ml" 74 2022 2045
+type(
+  Types.status_type6
+)
+ident(
+  def st "toolbox.ml" 74 2022 2046 "toolbox.ml" 90 2726 2751
+)
+"toolbox.ml" 74 2022 2046 "toolbox.ml" 74 2022 2048
+type(
+  bool option
+)
+ident(
+  def fp "toolbox.ml" 74 2022 2049 "toolbox.ml" 90 2726 2751
+)
+"toolbox.ml" 74 2022 2049 "toolbox.ml" 74 2022 2057
+type(
+  bool
+)
+ident(
+  def do_print "toolbox.ml" 74 2022 2058 "toolbox.ml" 90 2726 2751
+)
+"toolbox.ml" 74 2022 2058 "toolbox.ml" 74 2022 2063
+type(
+  string
+)
+ident(
+  def warns "toolbox.ml" 74 2022 2064 "toolbox.ml" 90 2726 2751
+)
+"toolbox.ml" 74 2022 2064 "toolbox.ml" 74 2022 2073
+type(
+  float option
+)
+ident(
+  def time_used "toolbox.ml" 75 2076 2078 "toolbox.ml" 90 2726 2751
+)
+"toolbox.ml" 75 2076 2082 "toolbox.ml" 75 2076 2088
+type(
+  string
+)
+ident(
+  def status "toolbox.ml" 89 2649 2651 "toolbox.ml" 90 2726 2751
+)
+"toolbox.ml" 75 2076 2090 "toolbox.ml" 75 2076 2096
+type(
+  string option
+)
+ident(
+  def prover "toolbox.ml" 89 2649 2651 "toolbox.ml" 90 2726 2751
+)
+"toolbox.ml" 75 2076 2098 "toolbox.ml" 75 2076 2102
+type(
+  string option
+)
+ident(
+  def meth "toolbox.ml" 89 2649 2651 "toolbox.ml" 90 2726 2751
+)
+"toolbox.ml" 75 2076 2104 "toolbox.ml" 75 2076 2111
+type(
+  float
+)
+ident(
+  def timeout "toolbox.ml" 89 2649 2651 "toolbox.ml" 90 2726 2751
+)
+"toolbox.ml" 75 2076 2113 "toolbox.ml" 75 2076 2121
+type(
+  bool
+)
+ident(
+  def print_ob "toolbox.ml" 89 2649 2651 "toolbox.ml" 90 2726 2751
+)
+"toolbox.ml" 75 2076 2123 "toolbox.ml" 75 2076 2129
+type(
+  Types.reason option
+)
+ident(
+  def reason "toolbox.ml" 89 2649 2651 "toolbox.ml" 90 2726 2751
+)
+"toolbox.ml" 75 2076 2131 "toolbox.ml" 75 2076 2135
+type(
+  bool
+)
+ident(
+  def temp "toolbox.ml" 89 2649 2651 "toolbox.ml" 90 2726 2751
+)
+"toolbox.ml" 75 2076 2082 "toolbox.ml" 75 2076 2135
+type(
+  string * string option * string option * float * bool *
+  Types.reason option * bool
+)
+"toolbox.ml" 76 2138 2148 "toolbox.ml" 76 2138 2150
+type(
+  Types.status_type6
+)
+ident(
+  int_ref st "toolbox.ml" 74 2022 2043 "toolbox.ml" 74 2022 2045
+)
+"toolbox.ml" 77 2156 2162 "toolbox.ml" 77 2156 2166
+type(
+  Types.status_type6
+)
+type(
+  Types.status_type6
+)
+"toolbox.ml" 78 2170 2178 "toolbox.ml" 78 2170 2187
+type(
+  string
+)
+"toolbox.ml" 78 2170 2194 "toolbox.ml" 78 2170 2201
+type(
+  string
+)
+"toolbox.ml" 78 2170 2189 "toolbox.ml" 78 2170 2201
+type(
+  string option
+)
+"toolbox.ml" 78 2170 2203 "toolbox.ml" 78 2170 2207
+type(
+  string option
+)
+"toolbox.ml" 78 2170 2209 "toolbox.ml" 78 2170 2211
+type(
+  float
+)
+"toolbox.ml" 78 2170 2213 "toolbox.ml" 78 2170 2214
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"toolbox.ml" 78 2170 2214 "toolbox.ml" 78 2170 2232
+type(
+  bool ref
+)
+ident(
+  int_ref Params.printallobs "params.mli" 42 802 802 "params.mli" 42 802 827
+)
+"toolbox.ml" 78 2170 2213 "toolbox.ml" 78 2170 2232
+type(
+  bool
+)
+"toolbox.ml" 78 2170 2234 "toolbox.ml" 78 2170 2238
+type(
+  Types.reason option
+)
+"toolbox.ml" 78 2170 2240 "toolbox.ml" 78 2170 2245
+type(
+  bool
+)
+"toolbox.ml" 78 2170 2178 "toolbox.ml" 78 2170 2245
+type(
+  string * string option * string option * float * bool *
+  Types.reason option * bool
+)
+"toolbox.ml" 79 2246 2259 "toolbox.ml" 79 2246 2260
+type(
+  Types.status_type_aux6
+)
+ident(
+  def r "toolbox.ml" 80 2268 2276 "toolbox.ml" 87 2632 2643
+)
+"toolbox.ml" 79 2246 2262 "toolbox.ml" 79 2246 2263
+type(
+  Method.t
+)
+ident(
+  def m "toolbox.ml" 80 2268 2276 "toolbox.ml" 87 2632 2643
+)
+"toolbox.ml" 79 2246 2252 "toolbox.ml" 79 2246 2264
+type(
+  Types.status_type6
+)
+type(
+  Types.status_type6
+)
+"toolbox.ml" 80 2268 2280 "toolbox.ml" 80 2268 2287
+type(
+  float
+)
+ident(
+  def timeout "toolbox.ml" 81 2310 2318 "toolbox.ml" 87 2632 2643
+)
+"toolbox.ml" 80 2268 2290 "toolbox.ml" 80 2268 2304
+type(
+  Method.t -> float
+)
+ident(
+  int_ref Method.timeout "method.mli" 42 755 755 "method.mli" 42 755 778
+)
+"toolbox.ml" 80 2268 2305 "toolbox.ml" 80 2268 2306
+type(
+  Method.t
+)
+ident(
+  int_ref m "toolbox.ml" 79 2246 2262 "toolbox.ml" 79 2246 2263
+)
+"toolbox.ml" 80 2268 2290 "toolbox.ml" 80 2268 2306
+type(
+  float
+)
+"toolbox.ml" 81 2310 2322 "toolbox.ml" 81 2310 2326
+type(
+  bool
+)
+ident(
+  def temp "toolbox.ml" 82 2353 2361 "toolbox.ml" 87 2632 2643
+)
+"toolbox.ml" 81 2310 2329 "toolbox.ml" 81 2310 2347
+type(
+  Method.t -> bool
+)
+ident(
+  int_ref Method.is_temporal "method.mli" 59 1256 1256 "method.mli" 59 1256 1283
+)
+"toolbox.ml" 81 2310 2348 "toolbox.ml" 81 2310 2349
+type(
+  Method.t
+)
+ident(
+  int_ref m "toolbox.ml" 79 2246 2262 "toolbox.ml" 79 2246 2263
+)
+"toolbox.ml" 81 2310 2329 "toolbox.ml" 81 2310 2349
+type(
+  bool
+)
+"toolbox.ml" 82 2353 2365 "toolbox.ml" 82 2353 2366
+type(
+  string option
+)
+ident(
+  def p "toolbox.ml" 83 2396 2404 "toolbox.ml" 87 2632 2643
+)
+"toolbox.ml" 82 2353 2368 "toolbox.ml" 82 2353 2369
+type(
+  string option
+)
+ident(
+  def s "toolbox.ml" 83 2396 2404 "toolbox.ml" 87 2632 2643
+)
+"toolbox.ml" 82 2353 2365 "toolbox.ml" 82 2353 2369
+type(
+  string option * string option
+)
+"toolbox.ml" 82 2353 2372 "toolbox.ml" 82 2353 2390
+type(
+  Method.t -> string option * string option
+)
+ident(
+  int_ref Method.prover_meth_of_tac "method.mli" 39 673 673 "method.mli" 39 673 731
+)
+"toolbox.ml" 82 2353 2391 "toolbox.ml" 82 2353 2392
+type(
+  Method.t
+)
+ident(
+  int_ref m "toolbox.ml" 79 2246 2262 "toolbox.ml" 79 2246 2263
+)
+"toolbox.ml" 82 2353 2372 "toolbox.ml" 82 2353 2392
+type(
+  string option * string option
+)
+"toolbox.ml" 83 2396 2416 "toolbox.ml" 83 2396 2417
+type(
+  Types.status_type_aux6
+)
+ident(
+  int_ref r "toolbox.ml" 79 2246 2259 "toolbox.ml" 79 2246 2260
+)
+"toolbox.ml" 84 2423 2433 "toolbox.ml" 84 2423 2438
+type(
+  Types.status_type_aux6
+)
+type(
+  Types.status_type_aux6
+)
+"toolbox.ml" 84 2423 2442 "toolbox.ml" 84 2423 2450
+type(
+  string
+)
+"toolbox.ml" 84 2423 2452 "toolbox.ml" 84 2423 2453
+type(
+  string option
+)
+ident(
+  int_ref p "toolbox.ml" 82 2353 2365 "toolbox.ml" 82 2353 2366
+)
+"toolbox.ml" 84 2423 2455 "toolbox.ml" 84 2423 2456
+type(
+  string option
+)
+ident(
+  int_ref s "toolbox.ml" 82 2353 2368 "toolbox.ml" 82 2353 2369
+)
+"toolbox.ml" 84 2423 2458 "toolbox.ml" 84 2423 2465
+type(
+  float
+)
+ident(
+  int_ref timeout "toolbox.ml" 80 2268 2280 "toolbox.ml" 80 2268 2287
+)
+"toolbox.ml" 84 2423 2467 "toolbox.ml" 84 2423 2468
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"toolbox.ml" 84 2423 2468 "toolbox.ml" 84 2423 2486
+type(
+  bool ref
+)
+ident(
+  int_ref Params.printallobs "params.mli" 42 802 802 "params.mli" 42 802 827
+)
+"toolbox.ml" 84 2423 2467 "toolbox.ml" 84 2423 2486
+type(
+  bool
+)
+"toolbox.ml" 84 2423 2488 "toolbox.ml" 84 2423 2492
+type(
+  Types.reason option
+)
+"toolbox.ml" 84 2423 2494 "toolbox.ml" 84 2423 2498
+type(
+  bool
+)
+ident(
+  int_ref temp "toolbox.ml" 81 2310 2322 "toolbox.ml" 81 2310 2326
+)
+"toolbox.ml" 84 2423 2442 "toolbox.ml" 84 2423 2498
+type(
+  string * string option * string option * float * bool *
+  Types.reason option * bool
+)
+"toolbox.ml" 85 2499 2515 "toolbox.ml" 85 2499 2516
+type(
+  Types.reason option
+)
+ident(
+  def r "toolbox.ml" 85 2499 2520 "toolbox.ml" 85 2499 2562
+)
+"toolbox.ml" 85 2499 2509 "toolbox.ml" 85 2499 2516
+type(
+  Types.status_type_aux6
+)
+type(
+  Types.status_type_aux6
+)
+"toolbox.ml" 85 2499 2520 "toolbox.ml" 85 2499 2528
+type(
+  string
+)
+"toolbox.ml" 85 2499 2530 "toolbox.ml" 85 2499 2531
+type(
+  string option
+)
+ident(
+  int_ref p "toolbox.ml" 82 2353 2365 "toolbox.ml" 82 2353 2366
+)
+"toolbox.ml" 85 2499 2533 "toolbox.ml" 85 2499 2534
+type(
+  string option
+)
+ident(
+  int_ref s "toolbox.ml" 82 2353 2368 "toolbox.ml" 82 2353 2369
+)
+"toolbox.ml" 85 2499 2536 "toolbox.ml" 85 2499 2543
+type(
+  float
+)
+ident(
+  int_ref timeout "toolbox.ml" 80 2268 2280 "toolbox.ml" 80 2268 2287
+)
+"toolbox.ml" 85 2499 2545 "toolbox.ml" 85 2499 2553
+type(
+  bool
+)
+ident(
+  int_ref do_print "toolbox.ml" 74 2022 2049 "toolbox.ml" 74 2022 2057
+)
+"toolbox.ml" 85 2499 2555 "toolbox.ml" 85 2499 2556
+type(
+  Types.reason option
+)
+ident(
+  int_ref r "toolbox.ml" 85 2499 2515 "toolbox.ml" 85 2499 2516
+)
+"toolbox.ml" 85 2499 2558 "toolbox.ml" 85 2499 2562
+type(
+  bool
+)
+ident(
+  int_ref temp "toolbox.ml" 81 2310 2322 "toolbox.ml" 81 2310 2326
+)
+"toolbox.ml" 85 2499 2520 "toolbox.ml" 85 2499 2562
+type(
+  string * string option * string option * float * bool *
+  Types.reason option * bool
+)
+"toolbox.ml" 86 2563 2573 "toolbox.ml" 86 2563 2577
+type(
+  Types.status_type_aux6
+)
+type(
+  Types.status_type_aux6
+)
+"toolbox.ml" 86 2563 2581 "toolbox.ml" 86 2563 2594
+type(
+  string
+)
+"toolbox.ml" 86 2563 2596 "toolbox.ml" 86 2563 2597
+type(
+  string option
+)
+ident(
+  int_ref p "toolbox.ml" 82 2353 2365 "toolbox.ml" 82 2353 2366
+)
+"toolbox.ml" 86 2563 2599 "toolbox.ml" 86 2563 2600
+type(
+  string option
+)
+ident(
+  int_ref s "toolbox.ml" 82 2353 2368 "toolbox.ml" 82 2353 2369
+)
+"toolbox.ml" 86 2563 2602 "toolbox.ml" 86 2563 2609
+type(
+  float
+)
+ident(
+  int_ref timeout "toolbox.ml" 80 2268 2280 "toolbox.ml" 80 2268 2287
+)
+"toolbox.ml" 86 2563 2611 "toolbox.ml" 86 2563 2619
+type(
+  bool
+)
+ident(
+  int_ref do_print "toolbox.ml" 74 2022 2049 "toolbox.ml" 74 2022 2057
+)
+"toolbox.ml" 86 2563 2621 "toolbox.ml" 86 2563 2625
+type(
+  Types.reason option
+)
+"toolbox.ml" 86 2563 2627 "toolbox.ml" 86 2563 2631
+type(
+  bool
+)
+ident(
+  int_ref temp "toolbox.ml" 81 2310 2322 "toolbox.ml" 81 2310 2326
+)
+"toolbox.ml" 86 2563 2581 "toolbox.ml" 86 2563 2631
+type(
+  string * string option * string option * float * bool *
+  Types.reason option * bool
+)
+"toolbox.ml" 83 2396 2404 "toolbox.ml" 87 2632 2643
+type(
+  string * string option * string option * float * bool *
+  Types.reason option * bool
+)
+"toolbox.ml" 82 2353 2361 "toolbox.ml" 87 2632 2643
+type(
+  string * string option * string option * float * bool *
+  Types.reason option * bool
+)
+"toolbox.ml" 81 2310 2318 "toolbox.ml" 87 2632 2643
+type(
+  string * string option * string option * float * bool *
+  Types.reason option * bool
+)
+"toolbox.ml" 80 2268 2276 "toolbox.ml" 87 2632 2643
+type(
+  string * string option * string option * float * bool *
+  Types.reason option * bool
+)
+"toolbox.ml" 76 2138 2142 "toolbox.ml" 87 2632 2643
+type(
+  string * string option * string option * float * bool *
+  Types.reason option * bool
+)
+"toolbox.ml" 89 2649 2651 "toolbox.ml" 89 2649 2664
+type(
+  Proof.T.obligation ->
+  ?temp:bool ->
+  string ->
+  string option ->
+  string option ->
+  float ->
+  bool option ->
+  bool -> Types.reason option -> string -> float option -> unit
+)
+ident(
+  int_ref toolbox_print "toolbox.ml" 23 306 310 "toolbox.ml" 23 306 323
+)
+"toolbox.ml" 89 2649 2665 "toolbox.ml" 89 2649 2667
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "toolbox.ml" 74 2022 2040 "toolbox.ml" 74 2022 2042
+)
+"toolbox.ml" 89 2649 2669 "toolbox.ml" 89 2649 2673
+type(
+  bool
+)
+ident(
+  int_ref temp "toolbox.ml" 75 2076 2131 "toolbox.ml" 75 2076 2135
+)
+type(
+  bool option
+)
+"toolbox.ml" 89 2649 2674 "toolbox.ml" 89 2649 2680
+type(
+  string
+)
+ident(
+  int_ref status "toolbox.ml" 75 2076 2082 "toolbox.ml" 75 2076 2088
+)
+"toolbox.ml" 89 2649 2681 "toolbox.ml" 89 2649 2687
+type(
+  string option
+)
+ident(
+  int_ref prover "toolbox.ml" 75 2076 2090 "toolbox.ml" 75 2076 2096
+)
+"toolbox.ml" 89 2649 2688 "toolbox.ml" 89 2649 2692
+type(
+  string option
+)
+ident(
+  int_ref meth "toolbox.ml" 75 2076 2098 "toolbox.ml" 75 2076 2102
+)
+"toolbox.ml" 89 2649 2693 "toolbox.ml" 89 2649 2700
+type(
+  float
+)
+ident(
+  int_ref timeout "toolbox.ml" 75 2076 2104 "toolbox.ml" 75 2076 2111
+)
+"toolbox.ml" 89 2649 2701 "toolbox.ml" 89 2649 2703
+type(
+  bool option
+)
+ident(
+  int_ref fp "toolbox.ml" 74 2022 2046 "toolbox.ml" 74 2022 2048
+)
+"toolbox.ml" 89 2649 2704 "toolbox.ml" 89 2649 2712
+type(
+  bool
+)
+ident(
+  int_ref print_ob "toolbox.ml" 75 2076 2113 "toolbox.ml" 75 2076 2121
+)
+"toolbox.ml" 89 2649 2713 "toolbox.ml" 89 2649 2719
+type(
+  Types.reason option
+)
+ident(
+  int_ref reason "toolbox.ml" 75 2076 2123 "toolbox.ml" 75 2076 2129
+)
+"toolbox.ml" 89 2649 2720 "toolbox.ml" 89 2649 2725
+type(
+  string
+)
+ident(
+  int_ref warns "toolbox.ml" 74 2022 2058 "toolbox.ml" 74 2022 2063
+)
+"toolbox.ml" 90 2726 2742 "toolbox.ml" 90 2726 2751
+type(
+  float option
+)
+ident(
+  int_ref time_used "toolbox.ml" 74 2022 2064 "toolbox.ml" 74 2022 2073
+)
+"toolbox.ml" 89 2649 2651 "toolbox.ml" 90 2726 2751
+type(
+  unit
+)
+"toolbox.ml" 75 2076 2078 "toolbox.ml" 90 2726 2751
+type(
+  unit
+)
+"toolbox.ml" 93 2754 2758 "toolbox.ml" 93 2754 2771
+type(
+  Proof.T.obligation -> Types.status_type6 -> string -> float option -> unit
+)
+ident(
+  def print_new_res "toolbox.ml" 99 2887 2887 "toolbox.ml" 0 0 -1
+)
+"toolbox.ml" 93 2754 2772 "toolbox.ml" 93 2754 2774
+type(
+  Proof.T.obligation
+)
+ident(
+  def ob "toolbox.ml" 93 2754 2775 "toolbox.ml" 94 2796 2851
+)
+"toolbox.ml" 93 2754 2775 "toolbox.ml" 93 2754 2777
+type(
+  Types.status_type6
+)
+ident(
+  def st "toolbox.ml" 93 2754 2778 "toolbox.ml" 94 2796 2851
+)
+"toolbox.ml" 93 2754 2778 "toolbox.ml" 93 2754 2783
+type(
+  string
+)
+ident(
+  def warns "toolbox.ml" 93 2754 2784 "toolbox.ml" 94 2796 2851
+)
+"toolbox.ml" 93 2754 2784 "toolbox.ml" 93 2754 2793
+type(
+  float option
+)
+ident(
+  def time_used "toolbox.ml" 94 2796 2798 "toolbox.ml" 94 2796 2851
+)
+"toolbox.ml" 94 2796 2798 "toolbox.ml" 94 2796 2811
+type(
+  Proof.T.obligation ->
+  Types.status_type6 -> bool option -> bool -> string -> float option -> unit
+)
+ident(
+  int_ref print_res_aux "toolbox.ml" 74 2022 2026 "toolbox.ml" 74 2022 2039
+)
+"toolbox.ml" 94 2796 2812 "toolbox.ml" 94 2796 2814
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "toolbox.ml" 93 2754 2772 "toolbox.ml" 93 2754 2774
+)
+"toolbox.ml" 94 2796 2815 "toolbox.ml" 94 2796 2817
+type(
+  Types.status_type6
+)
+ident(
+  int_ref st "toolbox.ml" 93 2754 2775 "toolbox.ml" 93 2754 2777
+)
+"toolbox.ml" 94 2796 2824 "toolbox.ml" 94 2796 2829
+type(
+  bool
+)
+"toolbox.ml" 94 2796 2818 "toolbox.ml" 94 2796 2830
+type(
+  bool option
+)
+"toolbox.ml" 94 2796 2831 "toolbox.ml" 94 2796 2835
+type(
+  bool
+)
+"toolbox.ml" 94 2796 2836 "toolbox.ml" 94 2796 2841
+type(
+  string
+)
+ident(
+  int_ref warns "toolbox.ml" 93 2754 2778 "toolbox.ml" 93 2754 2783
+)
+"toolbox.ml" 94 2796 2842 "toolbox.ml" 94 2796 2851
+type(
+  float option
+)
+ident(
+  int_ref time_used "toolbox.ml" 93 2754 2784 "toolbox.ml" 93 2754 2793
+)
+"toolbox.ml" 94 2796 2798 "toolbox.ml" 94 2796 2851
+type(
+  unit
+)
+"toolbox.ml" 99 2887 2891 "toolbox.ml" 99 2887 2902
+type(
+  ?what:(Expr.T.wheredef -> bool) -> Proof.T.obligation -> Proof.T.obligation
+)
+ident(
+  def expand_defs "toolbox.ml" 121 3548 3548 "toolbox.ml" 0 0 -1
+)
+"toolbox.ml" 99 2887 2905 "toolbox.ml" 99 2887 2909
+type(
+  Expr.T.wheredef -> bool
+)
+ident(
+  def what "toolbox.ml" 99 2887 2927 "toolbox.ml" 116 3494 3543
+)
+"toolbox.ml" 99 2887 2916 "toolbox.ml" 99 2887 2917
+type(
+  Expr.T.wheredef
+)
+"toolbox.ml" 99 2887 2921 "toolbox.ml" 99 2887 2925
+type(
+  bool
+)
+"toolbox.ml" 99 2887 2912 "toolbox.ml" 99 2887 2925
+type(
+  Expr.T.wheredef -> bool
+)
+type(
+  (Expr.T.wheredef -> bool) option
+)
+type(
+  (Expr.T.wheredef -> bool) option
+)
+type(
+  Expr.T.wheredef -> bool
+)
+ident(
+  int_ref *sth* "toolbox.ml" 99 2887 2912 "toolbox.ml" 99 2887 2925
+)
+type(
+  Expr.T.wheredef -> bool
+)
+type(
+  (Expr.T.wheredef -> bool) option
+)
+type(
+  (Expr.T.wheredef -> bool) option
+)
+ident(
+  def *sth* "toolbox.ml" 99 2887 2912 "toolbox.ml" 99 2887 2925
+)
+"toolbox.ml" 99 2887 2927 "toolbox.ml" 99 2887 2929
+type(
+  Proof.T.obligation
+)
+ident(
+  def ob "toolbox.ml" 100 2932 2934 "toolbox.ml" 116 3494 3543
+)
+"toolbox.ml" 100 2932 2938 "toolbox.ml" 100 2932 2944
+type(
+  Expr.T.hyp list ref
+)
+ident(
+  def prefix "toolbox.ml" 101 2957 2959 "toolbox.ml" 116 3494 3543
+)
+"toolbox.ml" 100 2932 2947 "toolbox.ml" 100 2932 2950
+type(
+  Expr.T.hyp list -> Expr.T.hyp list ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"toolbox.ml" 100 2932 2951 "toolbox.ml" 100 2932 2953
+type(
+  Expr.T.hyp list
+)
+"toolbox.ml" 100 2932 2947 "toolbox.ml" 100 2932 2953
+type(
+  Expr.T.hyp list ref
+)
+"toolbox.ml" 101 2957 2963 "toolbox.ml" 101 2957 2967
+type(
+  Expr.T.hyp -> unit
+)
+ident(
+  def emit "toolbox.ml" 102 3002 3004 "toolbox.ml" 116 3494 3543
+)
+"toolbox.ml" 101 2957 2968 "toolbox.ml" 101 2957 2970
+type(
+  Expr.T.hyp
+)
+ident(
+  def mu "toolbox.ml" 101 2957 2973 "toolbox.ml" 101 2957 2998
+)
+"toolbox.ml" 101 2957 2973 "toolbox.ml" 101 2957 2979
+type(
+  Expr.T.hyp list ref
+)
+ident(
+  int_ref prefix "toolbox.ml" 100 2932 2938 "toolbox.ml" 100 2932 2944
+)
+"toolbox.ml" 101 2957 2980 "toolbox.ml" 101 2957 2982
+type(
+  Expr.T.hyp list ref -> Expr.T.hyp list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"toolbox.ml" 101 2957 2983 "toolbox.ml" 101 2957 2985
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref mu "toolbox.ml" 101 2957 2968 "toolbox.ml" 101 2957 2970
+)
+"toolbox.ml" 101 2957 2990 "toolbox.ml" 101 2957 2991
+type(
+  Expr.T.hyp list ref -> Expr.T.hyp list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"toolbox.ml" 101 2957 2991 "toolbox.ml" 101 2957 2997
+type(
+  Expr.T.hyp list ref
+)
+ident(
+  int_ref prefix "toolbox.ml" 100 2932 2938 "toolbox.ml" 100 2932 2944
+)
+"toolbox.ml" 101 2957 2989 "toolbox.ml" 101 2957 2998
+type(
+  Expr.T.hyp list
+)
+"toolbox.ml" 101 2957 2983 "toolbox.ml" 101 2957 2998
+type(
+  Expr.T.hyp list
+)
+"toolbox.ml" 101 2957 2973 "toolbox.ml" 101 2957 2998
+type(
+  unit
+)
+"toolbox.ml" 102 3002 3012 "toolbox.ml" 102 3002 3017
+type(
+  Expr.T.sequent -> Expr.T.sequent
+)
+ident(
+  def visit "toolbox.ml" 102 3002 3004 "toolbox.ml" 116 3494 3543
+)
+"toolbox.ml" 102 3002 3018 "toolbox.ml" 102 3002 3020
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "toolbox.ml" 103 3023 3027 "toolbox.ml" 113 3446 3455
+)
+"toolbox.ml" 103 3023 3033 "toolbox.ml" 103 3023 3044
+type(
+  Expr.T.hyp Deque.dq -> (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+ident(
+  int_ref Deque.front "deque.mli" 14 253 253 "deque.mli" 14 253 293
+)
+"toolbox.ml" 103 3023 3045 "toolbox.ml" 103 3023 3047
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "toolbox.ml" 102 3002 3018 "toolbox.ml" 102 3002 3020
+)
+"toolbox.ml" 103 3023 3045 "toolbox.ml" 103 3023 3055
+type(
+  Expr.T.hyp Deque.dq
+)
+"toolbox.ml" 103 3023 3033 "toolbox.ml" 103 3023 3055
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+"toolbox.ml" 104 3061 3067 "toolbox.ml" 104 3061 3071
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+"toolbox.ml" 104 3061 3075 "toolbox.ml" 104 3061 3077
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "toolbox.ml" 102 3002 3018 "toolbox.ml" 102 3002 3020
+)
+"toolbox.ml" 105 3078 3090 "toolbox.ml" 105 3078 3091
+type(
+  Expr.T.hyp
+)
+ident(
+  def h "toolbox.ml" 105 3078 3100 "toolbox.ml" 113 3446 3455
+)
+"toolbox.ml" 105 3078 3093 "toolbox.ml" 105 3078 3095
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def hs "toolbox.ml" 105 3078 3100 "toolbox.ml" 113 3446 3455
+)
+"toolbox.ml" 105 3078 3089 "toolbox.ml" 105 3078 3096
+type(
+  Expr.T.hyp * Expr.T.hyp Deque.dq
+)
+"toolbox.ml" 105 3078 3084 "toolbox.ml" 105 3078 3096
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+"toolbox.ml" 106 3106 3120 "toolbox.ml" 106 3106 3121
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "toolbox.ml" 105 3078 3090 "toolbox.ml" 105 3078 3091
+)
+"toolbox.ml" 106 3106 3120 "toolbox.ml" 106 3106 3126
+type(
+  Expr.T.hyp_
+)
+"toolbox.ml" 107 3132 3168 "toolbox.ml" 107 3132 3169
+type(
+  Util.hint
+)
+"toolbox.ml" 107 3132 3171 "toolbox.ml" 107 3132 3172
+type(
+  Expr.T.expr
+)
+ident(
+  def e "toolbox.ml" 107 3132 3197 "toolbox.ml" 108 3208 3286
+)
+"toolbox.ml" 107 3132 3158 "toolbox.ml" 107 3132 3173
+type(
+  Expr.T.defn_
+)
+"toolbox.ml" 107 3132 3150 "toolbox.ml" 107 3132 3174
+type(
+  Expr.T.defn
+)
+"toolbox.ml" 107 3132 3176 "toolbox.ml" 107 3132 3178
+type(
+  Expr.T.wheredef
+)
+ident(
+  def wd "toolbox.ml" 107 3132 3197 "toolbox.ml" 108 3208 3286
+)
+"toolbox.ml" 107 3132 3180 "toolbox.ml" 107 3132 3187
+type(
+  Expr.T.visibility
+)
+"toolbox.ml" 107 3132 3189 "toolbox.ml" 107 3132 3190
+type(
+  Expr.T.export
+)
+"toolbox.ml" 107 3132 3144 "toolbox.ml" 107 3132 3191
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"toolbox.ml" 107 3132 3197 "toolbox.ml" 107 3132 3201
+type(
+  Expr.T.wheredef -> bool
+)
+ident(
+  int_ref what "toolbox.ml" 99 2887 2905 "toolbox.ml" 99 2887 2909
+)
+"toolbox.ml" 107 3132 3202 "toolbox.ml" 107 3132 3204
+type(
+  Expr.T.wheredef
+)
+ident(
+  int_ref wd "toolbox.ml" 107 3132 3176 "toolbox.ml" 107 3132 3178
+)
+"toolbox.ml" 107 3132 3197 "toolbox.ml" 107 3132 3204
+type(
+  bool
+)
+"toolbox.ml" 108 3208 3222 "toolbox.ml" 108 3208 3227
+type(
+  Expr.T.sequent -> Expr.T.sequent
+)
+ident(
+  int_ref visit "toolbox.ml" 102 3002 3012 "toolbox.ml" 102 3002 3017
+)
+"toolbox.ml" 108 3208 3229 "toolbox.ml" 108 3208 3240
+type(
+  Expr.Subst.sub -> Expr.T.sequent -> Expr.T.sequent
+)
+ident(
+  int_ref Expr.Subst.app_sequent "expr.mli" 465 11594 11598 "expr.mli" 467 11641 11660
+)
+"toolbox.ml" 108 3208 3242 "toolbox.ml" 108 3208 3247
+type(
+  Expr.T.expr -> Expr.Subst.sub -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.scons "expr.mli" 429 10832 10836 "expr.mli" 431 10870 10885
+)
+"toolbox.ml" 108 3208 3248 "toolbox.ml" 108 3208 3249
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "toolbox.ml" 107 3132 3171 "toolbox.ml" 107 3132 3172
+)
+"toolbox.ml" 108 3208 3251 "toolbox.ml" 108 3208 3256
+type(
+  int -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.shift "expr.mli" 427 10798 10802 "expr.mli" 428 10813 10831
+)
+"toolbox.ml" 108 3208 3257 "toolbox.ml" 108 3208 3258
+type(
+  int
+)
+"toolbox.ml" 108 3208 3250 "toolbox.ml" 108 3208 3259
+type(
+  Expr.Subst.sub
+)
+"toolbox.ml" 108 3208 3241 "toolbox.ml" 108 3208 3260
+type(
+  Expr.Subst.sub
+)
+"toolbox.ml" 108 3208 3263 "toolbox.ml" 108 3208 3265
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "toolbox.ml" 102 3002 3018 "toolbox.ml" 102 3002 3020
+)
+"toolbox.ml" 108 3208 3281 "toolbox.ml" 108 3208 3283
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref hs "toolbox.ml" 105 3078 3093 "toolbox.ml" 105 3078 3095
+)
+"toolbox.ml" 108 3208 3261 "toolbox.ml" 108 3208 3285
+type(
+  Expr.T.sequent
+)
+"toolbox.ml" 108 3208 3228 "toolbox.ml" 108 3208 3286
+type(
+  Expr.T.sequent
+)
+"toolbox.ml" 108 3208 3222 "toolbox.ml" 108 3208 3286
+type(
+  Expr.T.sequent
+)
+"toolbox.ml" 109 3287 3299 "toolbox.ml" 109 3287 3300
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"toolbox.ml" 110 3304 3318 "toolbox.ml" 110 3304 3322
+type(
+  Expr.T.hyp -> unit
+)
+ident(
+  int_ref emit "toolbox.ml" 101 2957 2963 "toolbox.ml" 101 2957 2967
+)
+"toolbox.ml" 110 3304 3323 "toolbox.ml" 110 3304 3324
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "toolbox.ml" 105 3078 3090 "toolbox.ml" 105 3078 3091
+)
+"toolbox.ml" 110 3304 3318 "toolbox.ml" 110 3304 3324
+type(
+  unit
+)
+"toolbox.ml" 111 3327 3345 "toolbox.ml" 111 3327 3347
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "toolbox.ml" 112 3384 3400 "toolbox.ml" 112 3384 3445
+)
+"toolbox.ml" 111 3327 3350 "toolbox.ml" 111 3327 3355
+type(
+  Expr.T.sequent -> Expr.T.sequent
+)
+ident(
+  int_ref visit "toolbox.ml" 102 3002 3012 "toolbox.ml" 102 3002 3017
+)
+"toolbox.ml" 111 3327 3358 "toolbox.ml" 111 3327 3360
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "toolbox.ml" 102 3002 3018 "toolbox.ml" 102 3002 3020
+)
+"toolbox.ml" 111 3327 3376 "toolbox.ml" 111 3327 3378
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref hs "toolbox.ml" 105 3078 3093 "toolbox.ml" 105 3078 3095
+)
+"toolbox.ml" 111 3327 3356 "toolbox.ml" 111 3327 3380
+type(
+  Expr.T.sequent
+)
+"toolbox.ml" 111 3327 3350 "toolbox.ml" 111 3327 3380
+type(
+  Expr.T.sequent
+)
+"toolbox.ml" 112 3384 3402 "toolbox.ml" 112 3384 3404
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "toolbox.ml" 111 3327 3345 "toolbox.ml" 111 3327 3347
+)
+"toolbox.ml" 112 3384 3420 "toolbox.ml" 112 3384 3430
+type(
+  Expr.T.hyp -> Expr.T.hyp Deque.dq -> Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.cons "deque.mli" 12 187 187 "deque.mli" 12 187 219
+)
+"toolbox.ml" 112 3384 3431 "toolbox.ml" 112 3384 3432
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "toolbox.ml" 105 3078 3090 "toolbox.ml" 105 3078 3091
+)
+"toolbox.ml" 112 3384 3433 "toolbox.ml" 112 3384 3435
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "toolbox.ml" 111 3327 3345 "toolbox.ml" 111 3327 3347
+)
+"toolbox.ml" 112 3384 3433 "toolbox.ml" 112 3384 3443
+type(
+  Expr.T.hyp Deque.dq
+)
+"toolbox.ml" 112 3384 3420 "toolbox.ml" 112 3384 3443
+type(
+  Expr.T.hyp Deque.dq
+)
+"toolbox.ml" 112 3384 3400 "toolbox.ml" 112 3384 3445
+type(
+  Expr.T.sequent
+)
+"toolbox.ml" 111 3327 3341 "toolbox.ml" 112 3384 3445
+type(
+  Expr.T.sequent
+)
+"toolbox.ml" 110 3304 3318 "toolbox.ml" 112 3384 3445
+type(
+  Expr.T.sequent
+)
+"toolbox.ml" 105 3078 3100 "toolbox.ml" 113 3446 3455
+type(
+  Expr.T.sequent
+)
+"toolbox.ml" 103 3023 3027 "toolbox.ml" 113 3446 3455
+type(
+  Expr.T.sequent
+)
+"toolbox.ml" 115 3461 3467 "toolbox.ml" 115 3461 3470
+type(
+  Expr.T.sequent
+)
+ident(
+  def obl "toolbox.ml" 116 3494 3499 "toolbox.ml" 116 3494 3543
+)
+"toolbox.ml" 115 3461 3473 "toolbox.ml" 115 3461 3478
+type(
+  Expr.T.sequent -> Expr.T.sequent
+)
+ident(
+  int_ref visit "toolbox.ml" 102 3002 3012 "toolbox.ml" 102 3002 3017
+)
+"toolbox.ml" 115 3461 3479 "toolbox.ml" 115 3461 3481
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "toolbox.ml" 99 2887 2927 "toolbox.ml" 99 2887 2929
+)
+"toolbox.ml" 115 3461 3479 "toolbox.ml" 115 3461 3485
+type(
+  Expr.T.sequent Property.wrapped
+)
+"toolbox.ml" 115 3461 3479 "toolbox.ml" 115 3461 3490
+type(
+  Expr.T.sequent
+)
+"toolbox.ml" 115 3461 3473 "toolbox.ml" 115 3461 3490
+type(
+  Expr.T.sequent
+)
+"toolbox.ml" 116 3494 3501 "toolbox.ml" 116 3494 3503
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "toolbox.ml" 99 2887 2927 "toolbox.ml" 99 2887 2929
+)
+"toolbox.ml" 116 3494 3517 "toolbox.ml" 116 3494 3519
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "toolbox.ml" 99 2887 2927 "toolbox.ml" 99 2887 2929
+)
+"toolbox.ml" 116 3494 3517 "toolbox.ml" 116 3494 3523
+type(
+  Expr.T.sequent Property.wrapped
+)
+"toolbox.ml" 116 3494 3536 "toolbox.ml" 116 3494 3539
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref obl "toolbox.ml" 115 3461 3467 "toolbox.ml" 115 3461 3470
+)
+"toolbox.ml" 116 3494 3515 "toolbox.ml" 116 3494 3541
+type(
+  Expr.T.sequent Property.wrapped
+)
+"toolbox.ml" 116 3494 3499 "toolbox.ml" 116 3494 3543
+type(
+  Proof.T.obligation
+)
+"toolbox.ml" 115 3461 3463 "toolbox.ml" 116 3494 3543
+type(
+  Proof.T.obligation
+)
+"toolbox.ml" 102 3002 3004 "toolbox.ml" 116 3494 3543
+type(
+  Proof.T.obligation
+)
+"toolbox.ml" 101 2957 2959 "toolbox.ml" 116 3494 3543
+type(
+  Proof.T.obligation
+)
+"toolbox.ml" 100 2932 2934 "toolbox.ml" 116 3494 3543
+type(
+  Proof.T.obligation
+)
+"toolbox.ml" 121 3548 3552 "toolbox.ml" 121 3548 3561
+type(
+  bool -> Proof.T.obligation -> Proof.T.obligation
+)
+ident(
+  def normalize "toolbox.ml" 131 3862 3862 "toolbox.ml" 0 0 -1
+)
+"toolbox.ml" 121 3548 3562 "toolbox.ml" 121 3548 3568
+type(
+  bool
+)
+ident(
+  def really "toolbox.ml" 121 3548 3569 "toolbox.ml" 128 3810 3859
+)
+"toolbox.ml" 121 3548 3569 "toolbox.ml" 121 3548 3571
+type(
+  Proof.T.obligation
+)
+ident(
+  def ob "toolbox.ml" 122 3574 3574 "toolbox.ml" 128 3810 3859
+)
+"toolbox.ml" 122 3574 3577 "toolbox.ml" 122 3574 3580
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"toolbox.ml" 122 3574 3581 "toolbox.ml" 122 3574 3587
+type(
+  bool
+)
+ident(
+  int_ref really "toolbox.ml" 121 3548 3562 "toolbox.ml" 121 3548 3568
+)
+"toolbox.ml" 122 3574 3577 "toolbox.ml" 122 3574 3587
+type(
+  bool
+)
+"toolbox.ml" 122 3574 3593 "toolbox.ml" 122 3574 3595
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "toolbox.ml" 121 3548 3569 "toolbox.ml" 121 3548 3571
+)
+"toolbox.ml" 123 3601 3607 "toolbox.ml" 123 3601 3609
+type(
+  Proof.T.obligation
+)
+ident(
+  def ob "toolbox.ml" 124 3630 3632 "toolbox.ml" 128 3810 3859
+)
+"toolbox.ml" 123 3601 3612 "toolbox.ml" 123 3601 3623
+type(
+  ?what:(Expr.T.wheredef -> bool) -> Proof.T.obligation -> Proof.T.obligation
+)
+ident(
+  int_ref expand_defs "toolbox.ml" 99 2887 2891 "toolbox.ml" 99 2887 2902
+)
+"toolbox.ml" 123 3601 3624 "toolbox.ml" 123 3601 3626
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "toolbox.ml" 121 3548 3569 "toolbox.ml" 121 3548 3571
+)
+"toolbox.ml" 123 3601 3612 "toolbox.ml" 123 3601 3626
+type(
+  Proof.T.obligation
+)
+"toolbox.ml" 124 3630 3639 "toolbox.ml" 124 3630 3658
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Elab.normalize "expr.mli" 648 16700 16704 "expr.mli" 649 16719 16755
+)
+"toolbox.ml" 124 3630 3659 "toolbox.ml" 124 3630 3670
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"toolbox.ml" 124 3630 3672 "toolbox.ml" 124 3630 3679
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref Property.noprops "property.mli" 92 3086 3086 "property.mli" 92 3086 3116
+)
+"toolbox.ml" 124 3630 3696 "toolbox.ml" 124 3630 3698
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "toolbox.ml" 123 3601 3607 "toolbox.ml" 123 3601 3609
+)
+"toolbox.ml" 124 3630 3696 "toolbox.ml" 124 3630 3702
+type(
+  Expr.T.sequent Property.wrapped
+)
+"toolbox.ml" 124 3630 3696 "toolbox.ml" 124 3630 3707
+type(
+  Expr.T.sequent
+)
+"toolbox.ml" 124 3630 3680 "toolbox.ml" 124 3630 3708
+type(
+  Expr.T.expr_
+)
+"toolbox.ml" 124 3630 3671 "toolbox.ml" 124 3630 3709
+type(
+  Expr.T.expr
+)
+"toolbox.ml" 124 3630 3638 "toolbox.ml" 124 3630 3710
+type(
+  Expr.T.expr
+)
+"toolbox.ml" 124 3630 3638 "toolbox.ml" 124 3630 3715
+type(
+  Expr.T.expr_
+)
+"toolbox.ml" 125 3721 3742 "toolbox.ml" 125 3721 3744
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "toolbox.ml" 126 3748 3755 "toolbox.ml" 126 3748 3798
+)
+"toolbox.ml" 125 3721 3727 "toolbox.ml" 125 3721 3744
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"toolbox.ml" 126 3748 3757 "toolbox.ml" 126 3748 3759
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "toolbox.ml" 123 3601 3607 "toolbox.ml" 123 3601 3609
+)
+"toolbox.ml" 126 3748 3773 "toolbox.ml" 126 3748 3775
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "toolbox.ml" 123 3601 3607 "toolbox.ml" 123 3601 3609
+)
+"toolbox.ml" 126 3748 3773 "toolbox.ml" 126 3748 3779
+type(
+  Expr.T.sequent Property.wrapped
+)
+"toolbox.ml" 126 3748 3792 "toolbox.ml" 126 3748 3794
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "toolbox.ml" 125 3721 3742 "toolbox.ml" 125 3721 3744
+)
+"toolbox.ml" 126 3748 3771 "toolbox.ml" 126 3748 3796
+type(
+  Expr.T.sequent Property.wrapped
+)
+"toolbox.ml" 126 3748 3755 "toolbox.ml" 126 3748 3798
+type(
+  Proof.T.obligation
+)
+"toolbox.ml" 127 3799 3805 "toolbox.ml" 127 3799 3806
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"toolbox.ml" 128 3810 3818 "toolbox.ml" 128 3810 3826
+type(
+  string -> Proof.T.obligation
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"toolbox.ml" 128 3810 3827 "toolbox.ml" 128 3810 3859
+type(
+  string
+)
+"toolbox.ml" 128 3810 3818 "toolbox.ml" 128 3810 3859
+type(
+  Proof.T.obligation
+)
+"toolbox.ml" 124 3630 3632 "toolbox.ml" 128 3810 3859
+type(
+  Proof.T.obligation
+)
+"toolbox.ml" 123 3601 3603 "toolbox.ml" 128 3810 3859
+type(
+  Proof.T.obligation
+)
+"toolbox.ml" 122 3574 3574 "toolbox.ml" 128 3810 3859
+type(
+  Proof.T.obligation
+)
+"toolbox.ml" 131 3862 3866 "toolbox.ml" 131 3862 3879
+type(
+  Proof.T.obligation -> Types.status_type6 -> bool -> unit
+)
+ident(
+  def print_old_res "toolbox.ml" 139 4124 4124 "toolbox.ml" 0 0 -1
+)
+"toolbox.ml" 131 3862 3880 "toolbox.ml" 131 3862 3882
+type(
+  Proof.T.obligation
+)
+ident(
+  def ob "toolbox.ml" 131 3862 3883 "toolbox.ml" 135 4063 4084
+)
+"toolbox.ml" 131 3862 3883 "toolbox.ml" 131 3862 3885
+type(
+  Types.status_type6
+)
+ident(
+  def st "toolbox.ml" 131 3862 3886 "toolbox.ml" 135 4063 4084
+)
+"toolbox.ml" 131 3862 3886 "toolbox.ml" 131 3862 3898
+type(
+  bool
+)
+ident(
+  def really_print "toolbox.ml" 132 3901 3903 "toolbox.ml" 135 4063 4084
+)
+"toolbox.ml" 132 3901 3906 "toolbox.ml" 132 3901 3907
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"toolbox.ml" 132 3901 3907 "toolbox.ml" 132 3901 3921
+type(
+  bool ref
+)
+ident(
+  int_ref Params.toolbox "params.mli" 6 83 83 "params.mli" 6 83 104
+)
+"toolbox.ml" 132 3901 3906 "toolbox.ml" 132 3901 3921
+type(
+  bool
+)
+"toolbox.ml" 133 3927 3933 "toolbox.ml" 133 3927 3945
+type(
+  bool
+)
+ident(
+  def really_print "toolbox.ml" 134 3987 3990 "toolbox.ml" 135 4063 4084
+)
+"toolbox.ml" 133 3927 3948 "toolbox.ml" 133 3927 3949
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"toolbox.ml" 133 3927 3949 "toolbox.ml" 133 3927 3967
+type(
+  bool ref
+)
+ident(
+  int_ref Params.printallobs "params.mli" 42 802 802 "params.mli" 42 802 827
+)
+"toolbox.ml" 133 3927 3948 "toolbox.ml" 133 3927 3967
+type(
+  bool
+)
+"toolbox.ml" 133 3927 3968 "toolbox.ml" 133 3927 3970
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 227 9492 9492 "stdlib.mli" 227 9492 9542
+)
+"toolbox.ml" 133 3927 3971 "toolbox.ml" 133 3927 3983
+type(
+  bool
+)
+ident(
+  int_ref really_print "toolbox.ml" 131 3862 3886 "toolbox.ml" 131 3862 3898
+)
+"toolbox.ml" 133 3927 3948 "toolbox.ml" 133 3927 3983
+type(
+  bool
+)
+"toolbox.ml" 134 3987 3990 "toolbox.ml" 134 3987 4003
+type(
+  Proof.T.obligation ->
+  Types.status_type6 -> bool option -> bool -> string -> float option -> unit
+)
+ident(
+  int_ref print_res_aux "toolbox.ml" 74 2022 2026 "toolbox.ml" 74 2022 2039
+)
+"toolbox.ml" 134 3987 4005 "toolbox.ml" 134 3987 4014
+type(
+  bool -> Proof.T.obligation -> Proof.T.obligation
+)
+ident(
+  int_ref normalize "toolbox.ml" 121 3548 3552 "toolbox.ml" 121 3548 3561
+)
+"toolbox.ml" 134 3987 4015 "toolbox.ml" 134 3987 4027
+type(
+  bool
+)
+ident(
+  int_ref really_print "toolbox.ml" 133 3927 3933 "toolbox.ml" 133 3927 3945
+)
+"toolbox.ml" 134 3987 4028 "toolbox.ml" 134 3987 4030
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "toolbox.ml" 131 3862 3880 "toolbox.ml" 131 3862 3882
+)
+"toolbox.ml" 134 3987 4004 "toolbox.ml" 134 3987 4031
+type(
+  Proof.T.obligation
+)
+"toolbox.ml" 134 3987 4032 "toolbox.ml" 134 3987 4034
+type(
+  Types.status_type6
+)
+ident(
+  int_ref st "toolbox.ml" 131 3862 3883 "toolbox.ml" 131 3862 3885
+)
+"toolbox.ml" 134 3987 4041 "toolbox.ml" 134 3987 4045
+type(
+  bool
+)
+"toolbox.ml" 134 3987 4035 "toolbox.ml" 134 3987 4046
+type(
+  bool option
+)
+"toolbox.ml" 134 3987 4047 "toolbox.ml" 134 3987 4059
+type(
+  bool
+)
+ident(
+  int_ref really_print "toolbox.ml" 133 3927 3933 "toolbox.ml" 133 3927 3945
+)
+"toolbox.ml" 134 3987 4060 "toolbox.ml" 134 3987 4062
+type(
+  string
+)
+"toolbox.ml" 135 4063 4080 "toolbox.ml" 135 4063 4084
+type(
+  float option
+)
+"toolbox.ml" 134 3987 3990 "toolbox.ml" 135 4063 4084
+type(
+  unit
+)
+"toolbox.ml" 133 3927 3929 "toolbox.ml" 135 4063 4084
+type(
+  unit
+)
+"toolbox.ml" 132 3901 3903 "toolbox.ml" 135 4063 4084
+type(
+  unit
+)
+"toolbox.ml" 139 4124 4128 "toolbox.ml" 139 4124 4141
+type(
+  string -> unit
+)
+ident(
+  def print_message "toolbox.ml" 143 4206 4206 "toolbox.ml" 0 0 -1
+)
+"toolbox.ml" 139 4124 4142 "toolbox.ml" 139 4124 4145
+type(
+  string
+)
+ident(
+  def msg "toolbox.ml" 140 4148 4150 "toolbox.ml" 140 4148 4203
+)
+"toolbox.ml" 140 4148 4153 "toolbox.ml" 140 4148 4154
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"toolbox.ml" 140 4148 4154 "toolbox.ml" 140 4148 4168
+type(
+  bool ref
+)
+ident(
+  int_ref Params.toolbox "params.mli" 6 83 83 "params.mli" 6 83 104
+)
+"toolbox.ml" 140 4148 4153 "toolbox.ml" 140 4148 4168
+type(
+  bool
+)
+"toolbox.ml" 140 4148 4174 "toolbox.ml" 140 4148 4199
+type(
+  string -> unit
+)
+ident(
+  int_ref Toolbox_msg.print_warning "toolbox_msg.mli" 5 63 63 "toolbox_msg.mli" 5 63 96
+)
+"toolbox.ml" 140 4148 4200 "toolbox.ml" 140 4148 4203
+type(
+  string
+)
+ident(
+  int_ref msg "toolbox.ml" 139 4124 4142 "toolbox.ml" 139 4124 4145
+)
+"toolbox.ml" 140 4148 4174 "toolbox.ml" 140 4148 4203
+type(
+  unit
+)
+"toolbox.ml" 140 4148 4150 "toolbox.ml" 140 4148 4203
+type(
+  unit
+)
+"toolbox.ml" 143 4206 4210 "toolbox.ml" 143 4206 4227
+type(
+  string -> string -> unit
+)
+ident(
+  def print_message_url "toolbox.ml" 147 4298 4298 "toolbox.ml" 0 0 -1
+)
+"toolbox.ml" 143 4206 4228 "toolbox.ml" 143 4206 4231
+type(
+  string
+)
+ident(
+  def msg "toolbox.ml" 143 4206 4232 "toolbox.ml" 144 4238 4295
+)
+"toolbox.ml" 143 4206 4232 "toolbox.ml" 143 4206 4235
+type(
+  string
+)
+ident(
+  def url "toolbox.ml" 144 4238 4240 "toolbox.ml" 144 4238 4295
+)
+"toolbox.ml" 144 4238 4243 "toolbox.ml" 144 4238 4244
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"toolbox.ml" 144 4238 4244 "toolbox.ml" 144 4238 4258
+type(
+  bool ref
+)
+ident(
+  int_ref Params.toolbox "params.mli" 6 83 83 "params.mli" 6 83 104
+)
+"toolbox.ml" 144 4238 4243 "toolbox.ml" 144 4238 4258
+type(
+  bool
+)
+"toolbox.ml" 144 4238 4264 "toolbox.ml" 144 4238 4287
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref Toolbox_msg.print_error "toolbox_msg.mli" 10 191 191 "toolbox_msg.mli" 10 191 232
+)
+"toolbox.ml" 144 4238 4288 "toolbox.ml" 144 4238 4291
+type(
+  string
+)
+ident(
+  int_ref msg "toolbox.ml" 143 4206 4228 "toolbox.ml" 143 4206 4231
+)
+"toolbox.ml" 144 4238 4292 "toolbox.ml" 144 4238 4295
+type(
+  string
+)
+ident(
+  int_ref url "toolbox.ml" 143 4206 4232 "toolbox.ml" 143 4206 4235
+)
+"toolbox.ml" 144 4238 4264 "toolbox.ml" 144 4238 4295
+type(
+  unit
+)
+"toolbox.ml" 144 4238 4240 "toolbox.ml" 144 4238 4295
+type(
+  unit
+)
+"toolbox.ml" 147 4298 4302 "toolbox.ml" 147 4298 4317
+type(
+  int -> unit
+)
+ident(
+  def print_ob_number "toolbox.ml" 155 4479 4479 "toolbox.ml" 0 0 -1
+)
+"toolbox.ml" 147 4298 4318 "toolbox.ml" 147 4298 4319
+type(
+  int
+)
+ident(
+  def n "toolbox.ml" 148 4322 4324 "toolbox.ml" 148 4322 4385
+)
+"toolbox.ml" 148 4322 4327 "toolbox.ml" 148 4322 4328
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"toolbox.ml" 148 4322 4328 "toolbox.ml" 148 4322 4342
+type(
+  bool ref
+)
+ident(
+  int_ref Params.toolbox "params.mli" 6 83 83 "params.mli" 6 83 104
+)
+"toolbox.ml" 148 4322 4327 "toolbox.ml" 148 4322 4342
+type(
+  bool
+)
+"toolbox.ml" 148 4322 4348 "toolbox.ml" 148 4322 4383
+type(
+  int -> unit
+)
+ident(
+  int_ref Toolbox_msg.print_obligationsnumber "toolbox_msg.mli" 16 381 381 "toolbox_msg.mli" 16 381 421
+)
+"toolbox.ml" 148 4322 4384 "toolbox.ml" 148 4322 4385
+type(
+  int
+)
+ident(
+  int_ref n "toolbox.ml" 147 4298 4318 "toolbox.ml" 147 4298 4319
+)
+"toolbox.ml" 148 4322 4348 "toolbox.ml" 148 4322 4385
+type(
+  unit
+)
+"toolbox.ml" 148 4322 4324 "toolbox.ml" 148 4322 4385
+type(
+  unit
+)
+"toolbox.ml" 155 4479 4483 "toolbox.ml" 155 4479 4490
+type(
+  bool ref
+)
+ident(
+  def stopped "toolbox.ml" 158 4556 4556 "toolbox.ml" 0 0 -1
+)
+"toolbox.ml" 155 4479 4493 "toolbox.ml" 155 4479 4496
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"toolbox.ml" 155 4479 4497 "toolbox.ml" 155 4479 4502
+type(
+  bool
+)
+"toolbox.ml" 155 4479 4493 "toolbox.ml" 155 4479 4502
+type(
+  bool ref
+)
+"toolbox.ml" 158 4556 4560 "toolbox.ml" 158 4556 4566
+type(
+  int list ref
+)
+ident(
+  def killed "toolbox.ml" 161 4644 4644 "toolbox.ml" 0 0 -1
+)
+"toolbox.ml" 158 4556 4569 "toolbox.ml" 158 4556 4572
+type(
+  int list -> int list ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"toolbox.ml" 158 4556 4573 "toolbox.ml" 158 4556 4575
+type(
+  int list
+)
+"toolbox.ml" 158 4556 4569 "toolbox.ml" 158 4556 4575
+type(
+  int list ref
+)
+"toolbox.ml" 161 4644 4648 "toolbox.ml" 161 4644 4655
+type(
+  bool ref
+)
+ident(
+  def got_eof "toolbox.ml" 165 4766 4766 "toolbox.ml" 0 0 -1
+)
+"toolbox.ml" 161 4644 4658 "toolbox.ml" 161 4644 4661
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"toolbox.ml" 161 4644 4662 "toolbox.ml" 161 4644 4667
+type(
+  bool
+)
+"toolbox.ml" 161 4644 4658 "toolbox.ml" 161 4644 4667
+type(
+  bool ref
+)
+"toolbox.ml" 165 4766 4770 "toolbox.ml" 165 4766 4778
+type(
+  System.line_buffer
+)
+ident(
+  def line_buf "toolbox.ml" 168 4892 4892 "toolbox.ml" 0 0 -1
+)
+"toolbox.ml" 165 4766 4781 "toolbox.ml" 165 4766 4804
+type(
+  Unix.file_descr -> System.line_buffer
+)
+ident(
+  int_ref System.make_line_buffer "system.mli" 29 649 649 "system.mli" 29 649 701
+)
+"toolbox.ml" 165 4766 4805 "toolbox.ml" 165 4766 4815
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref Unix.stdin "unix.mli" 305 12913 12913 "unix.mli" 305 12913 12935
+)
+"toolbox.ml" 165 4766 4781 "toolbox.ml" 165 4766 4815
+type(
+  System.line_buffer
+)
+"toolbox.ml" 168 4892 4896 "toolbox.ml" 168 4892 4906
+type(
+  unit -> unit
+)
+ident(
+  def read_stdin "toolbox.ml" 186 5448 5448 "toolbox.ml" 0 0 -1
+)
+"toolbox.ml" 168 4892 4907 "toolbox.ml" 168 4892 4909
+type(
+  unit
+)
+"toolbox.ml" 169 4912 4917 "toolbox.ml" 169 4912 4918
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"toolbox.ml" 169 4912 4918 "toolbox.ml" 169 4912 4932
+type(
+  bool ref
+)
+ident(
+  int_ref Params.toolbox "params.mli" 6 83 83 "params.mli" 6 83 104
+)
+"toolbox.ml" 169 4912 4917 "toolbox.ml" 169 4912 4932
+type(
+  bool
+)
+"toolbox.ml" 169 4912 4933 "toolbox.ml" 169 4912 4935
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"toolbox.ml" 169 4912 4936 "toolbox.ml" 169 4912 4939
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"toolbox.ml" 169 4912 4940 "toolbox.ml" 169 4912 4941
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"toolbox.ml" 169 4912 4941 "toolbox.ml" 169 4912 4948
+type(
+  bool ref
+)
+ident(
+  int_ref got_eof "toolbox.ml" 161 4644 4648 "toolbox.ml" 161 4644 4655
+)
+"toolbox.ml" 169 4912 4940 "toolbox.ml" 169 4912 4948
+type(
+  bool
+)
+"toolbox.ml" 169 4912 4936 "toolbox.ml" 169 4912 4948
+type(
+  bool
+)
+"toolbox.ml" 169 4912 4917 "toolbox.ml" 169 4912 4948
+type(
+  bool
+)
+"toolbox.ml" 170 4960 4970 "toolbox.ml" 170 4960 4981
+type(
+  Unix.file_descr list ->
+  Unix.file_descr list ->
+  Unix.file_descr list ->
+  float -> Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+ident(
+  int_ref Unix.select "unix.mli" 1040 42826 42826 "unix.mli" 1042 42898 42962
+)
+"toolbox.ml" 170 4960 4983 "toolbox.ml" 170 4960 4993
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref Unix.stdin "unix.mli" 305 12913 12913 "unix.mli" 305 12913 12935
+)
+"toolbox.ml" 170 4960 4982 "toolbox.ml" 170 4960 4994
+type(
+  Unix.file_descr list
+)
+"toolbox.ml" 170 4960 4995 "toolbox.ml" 170 4960 4997
+type(
+  Unix.file_descr list
+)
+"toolbox.ml" 170 4960 4998 "toolbox.ml" 170 4960 5000
+type(
+  Unix.file_descr list
+)
+"toolbox.ml" 170 4960 5001 "toolbox.ml" 170 4960 5004
+type(
+  float
+)
+"toolbox.ml" 170 4960 4970 "toolbox.ml" 170 4960 5004
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"toolbox.ml" 171 5010 5017 "toolbox.ml" 171 5010 5019
+type(
+  Unix.file_descr list
+)
+"toolbox.ml" 171 5010 5021 "toolbox.ml" 171 5010 5022
+type(
+  Unix.file_descr list
+)
+"toolbox.ml" 171 5010 5024 "toolbox.ml" 171 5010 5025
+type(
+  Unix.file_descr list
+)
+"toolbox.ml" 171 5010 5016 "toolbox.ml" 171 5010 5026
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"toolbox.ml" 171 5010 5030 "toolbox.ml" 171 5010 5032
+type(
+  unit
+)
+"toolbox.ml" 172 5033 5039 "toolbox.ml" 172 5033 5040
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"toolbox.ml" 173 5044 5055 "toolbox.ml" 173 5044 5059
+type(
+  System.toolbox_command list
+)
+ident(
+  def cmds "toolbox.ml" 174 5103 5110 "toolbox.ml" 180 5295 5318
+)
+"toolbox.ml" 173 5044 5062 "toolbox.ml" 173 5044 5090
+type(
+  System.line_buffer -> System.toolbox_command list
+)
+ident(
+  int_ref System.read_toolbox_commands "system.mli" 47 1190 1190 "system.mli" 48 1217 1256
+)
+"toolbox.ml" 173 5044 5091 "toolbox.ml" 173 5044 5099
+type(
+  System.line_buffer
+)
+ident(
+  int_ref line_buf "toolbox.ml" 165 4766 4770 "toolbox.ml" 165 4766 4778
+)
+"toolbox.ml" 173 5044 5062 "toolbox.ml" 173 5044 5099
+type(
+  System.toolbox_command list
+)
+"toolbox.ml" 174 5103 5114 "toolbox.ml" 174 5103 5115
+type(
+  System.toolbox_command -> unit
+)
+ident(
+  def f "toolbox.ml" 180 5295 5302 "toolbox.ml" 180 5295 5318
+)
+"toolbox.ml" 174 5103 5116 "toolbox.ml" 174 5103 5119
+type(
+  System.toolbox_command
+)
+ident(
+  def cmd "toolbox.ml" 175 5122 5131 "toolbox.ml" 178 5232 5284
+)
+"toolbox.ml" 175 5122 5137 "toolbox.ml" 175 5122 5140
+type(
+  System.toolbox_command
+)
+ident(
+  int_ref cmd "toolbox.ml" 174 5103 5116 "toolbox.ml" 174 5103 5119
+)
+"toolbox.ml" 176 5146 5157 "toolbox.ml" 176 5146 5167
+type(
+  System.toolbox_command
+)
+type(
+  System.toolbox_command
+)
+"toolbox.ml" 176 5146 5171 "toolbox.ml" 176 5146 5178
+type(
+  bool ref
+)
+ident(
+  int_ref got_eof "toolbox.ml" 161 4644 4648 "toolbox.ml" 161 4644 4655
+)
+"toolbox.ml" 176 5146 5179 "toolbox.ml" 176 5146 5181
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"toolbox.ml" 176 5146 5182 "toolbox.ml" 176 5146 5186
+type(
+  bool
+)
+"toolbox.ml" 176 5146 5171 "toolbox.ml" 176 5146 5186
+type(
+  unit
+)
+"toolbox.ml" 177 5187 5198 "toolbox.ml" 177 5187 5212
+type(
+  System.toolbox_command
+)
+type(
+  System.toolbox_command
+)
+"toolbox.ml" 177 5187 5216 "toolbox.ml" 177 5187 5223
+type(
+  bool ref
+)
+ident(
+  int_ref stopped "toolbox.ml" 155 4479 4483 "toolbox.ml" 155 4479 4490
+)
+"toolbox.ml" 177 5187 5224 "toolbox.ml" 177 5187 5226
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"toolbox.ml" 177 5187 5227 "toolbox.ml" 177 5187 5231
+type(
+  bool
+)
+"toolbox.ml" 177 5187 5216 "toolbox.ml" 177 5187 5231
+type(
+  unit
+)
+"toolbox.ml" 178 5232 5255 "toolbox.ml" 178 5232 5257
+type(
+  int
+)
+ident(
+  def id "toolbox.ml" 178 5232 5261 "toolbox.ml" 178 5232 5284
+)
+"toolbox.ml" 178 5232 5243 "toolbox.ml" 178 5232 5257
+type(
+  System.toolbox_command
+)
+type(
+  System.toolbox_command
+)
+"toolbox.ml" 178 5232 5261 "toolbox.ml" 178 5232 5267
+type(
+  int list ref
+)
+ident(
+  int_ref killed "toolbox.ml" 158 4556 4560 "toolbox.ml" 158 4556 4566
+)
+"toolbox.ml" 178 5232 5268 "toolbox.ml" 178 5232 5270
+type(
+  int list ref -> int list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"toolbox.ml" 178 5232 5271 "toolbox.ml" 178 5232 5273
+type(
+  int
+)
+ident(
+  int_ref id "toolbox.ml" 178 5232 5255 "toolbox.ml" 178 5232 5257
+)
+"toolbox.ml" 178 5232 5277 "toolbox.ml" 178 5232 5278
+type(
+  int list ref -> int list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"toolbox.ml" 178 5232 5278 "toolbox.ml" 178 5232 5284
+type(
+  int list ref
+)
+ident(
+  int_ref killed "toolbox.ml" 158 4556 4560 "toolbox.ml" 158 4556 4566
+)
+"toolbox.ml" 178 5232 5277 "toolbox.ml" 178 5232 5284
+type(
+  int list
+)
+"toolbox.ml" 178 5232 5271 "toolbox.ml" 178 5232 5284
+type(
+  int list
+)
+"toolbox.ml" 178 5232 5261 "toolbox.ml" 178 5232 5284
+type(
+  unit
+)
+"toolbox.ml" 175 5122 5131 "toolbox.ml" 178 5232 5284
+type(
+  unit
+)
+"toolbox.ml" 180 5295 5302 "toolbox.ml" 180 5295 5311
+type(
+  (System.toolbox_command -> unit) -> System.toolbox_command list -> unit
+)
+ident(
+  int_ref Ext.List.iter "ext.mli" 16 424 426 "ext.mli" 16 424 468
+)
+"toolbox.ml" 180 5295 5312 "toolbox.ml" 180 5295 5313
+type(
+  System.toolbox_command -> unit
+)
+ident(
+  int_ref f "toolbox.ml" 174 5103 5114 "toolbox.ml" 174 5103 5115
+)
+"toolbox.ml" 180 5295 5314 "toolbox.ml" 180 5295 5318
+type(
+  System.toolbox_command list
+)
+ident(
+  int_ref cmds "toolbox.ml" 173 5044 5055 "toolbox.ml" 173 5044 5059
+)
+"toolbox.ml" 180 5295 5302 "toolbox.ml" 180 5295 5318
+type(
+  unit
+)
+"toolbox.ml" 174 5103 5110 "toolbox.ml" 180 5295 5318
+type(
+  unit
+)
+"toolbox.ml" 173 5044 5051 "toolbox.ml" 180 5295 5318
+type(
+  unit
+)
+"toolbox.ml" 169 4912 4954 "toolbox.ml" 181 5319 5324
+type(
+  unit
+)
+"toolbox.ml" 169 4912 4914 "toolbox.ml" 181 5319 5324
+type(
+  unit
+)
+"toolbox.ml" 186 5448 5452 "toolbox.ml" 186 5448 5462
+type(
+  unit -> bool
+)
+ident(
+  def is_stopped "toolbox.ml" 194 5675 5675 "toolbox.ml" 0 0 -1
+)
+"toolbox.ml" 186 5448 5463 "toolbox.ml" 186 5448 5465
+type(
+  unit
+)
+"toolbox.ml" 187 5468 5470 "toolbox.ml" 187 5468 5480
+type(
+  unit -> unit
+)
+ident(
+  int_ref read_stdin "toolbox.ml" 168 4892 4896 "toolbox.ml" 168 4892 4906
+)
+"toolbox.ml" 187 5468 5481 "toolbox.ml" 187 5468 5483
+type(
+  unit
+)
+"toolbox.ml" 187 5468 5470 "toolbox.ml" 187 5468 5483
+type(
+  unit
+)
+"toolbox.ml" 188 5485 5487 "toolbox.ml" 188 5485 5488
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"toolbox.ml" 188 5485 5488 "toolbox.ml" 188 5485 5495
+type(
+  bool ref
+)
+ident(
+  int_ref stopped "toolbox.ml" 155 4479 4483 "toolbox.ml" 155 4479 4490
+)
+"toolbox.ml" 188 5485 5487 "toolbox.ml" 188 5485 5495
+type(
+  bool
+)
+"toolbox.ml" 187 5468 5470 "toolbox.ml" 188 5485 5495
+type(
+  bool
+)
+"toolbox.ml" 194 5675 5679 "toolbox.ml" 194 5675 5688
+type(
+  unit -> int list
+)
+ident(
+  def get_kills "toolbox.ml" 198 5753 5761 "toolbox.ml" 0 0 -1
+)
+"toolbox.ml" 194 5675 5689 "toolbox.ml" 194 5675 5691
+type(
+  unit
+)
+"toolbox.ml" 195 5694 5696 "toolbox.ml" 195 5694 5706
+type(
+  unit -> unit
+)
+ident(
+  int_ref read_stdin "toolbox.ml" 168 4892 4896 "toolbox.ml" 168 4892 4906
+)
+"toolbox.ml" 195 5694 5707 "toolbox.ml" 195 5694 5709
+type(
+  unit
+)
+"toolbox.ml" 195 5694 5696 "toolbox.ml" 195 5694 5709
+type(
+  unit
+)
+"toolbox.ml" 196 5711 5717 "toolbox.ml" 196 5711 5723
+type(
+  int list
+)
+ident(
+  def result "toolbox.ml" 197 5737 5739 "toolbox.ml" 198 5753 5761
+)
+"toolbox.ml" 196 5711 5726 "toolbox.ml" 196 5711 5727
+type(
+  int list ref -> int list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"toolbox.ml" 196 5711 5727 "toolbox.ml" 196 5711 5733
+type(
+  int list ref
+)
+ident(
+  int_ref killed "toolbox.ml" 158 4556 4560 "toolbox.ml" 158 4556 4566
+)
+"toolbox.ml" 196 5711 5726 "toolbox.ml" 196 5711 5733
+type(
+  int list
+)
+"toolbox.ml" 197 5737 5739 "toolbox.ml" 197 5737 5745
+type(
+  int list ref
+)
+ident(
+  int_ref killed "toolbox.ml" 158 4556 4560 "toolbox.ml" 158 4556 4566
+)
+"toolbox.ml" 197 5737 5746 "toolbox.ml" 197 5737 5748
+type(
+  int list ref -> int list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"toolbox.ml" 197 5737 5749 "toolbox.ml" 197 5737 5751
+type(
+  int list
+)
+"toolbox.ml" 197 5737 5739 "toolbox.ml" 197 5737 5751
+type(
+  unit
+)
+"toolbox.ml" 198 5753 5755 "toolbox.ml" 198 5753 5761
+type(
+  int list
+)
+ident(
+  int_ref result "toolbox.ml" 196 5711 5717 "toolbox.ml" 196 5711 5723
+)
+"toolbox.ml" 197 5737 5739 "toolbox.ml" 198 5753 5761
+type(
+  int list
+)
+"toolbox.ml" 196 5711 5713 "toolbox.ml" 198 5753 5761
+type(
+  int list
+)
+"toolbox.ml" 195 5694 5696 "toolbox.ml" 198 5753 5761
+type(
+  int list
+)

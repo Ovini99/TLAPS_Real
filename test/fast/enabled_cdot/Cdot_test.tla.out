@@ -1,0 +1,23 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:14:20 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp Cdot_test.tla --stretch 5
+
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/Cdot_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+File "./Cdot_test.tla", line 30, character 6:
+[INFO]: Auto-expanding the definition of operator:  A
+
+File "./Cdot_test.tla", line 25, character 9:
+[INFO]: Auto-expanding the definition of operator:  R
+
+File "./Cdot_test.tla", line 30, character 14:
+[INFO]: Auto-expanding the definition of operator:  B
+
+File "./Cdot_test.tla", line 82, characters 7-8:
+[INFO]: Auto-expanding the definition of operator:  A2
+
+File "./Cdot_test.tla", line 82, characters 16-17:
+[INFO]: Auto-expanding the definition of operator:  B2
+
+(* created new ".tlacache/Cdot_test.tlaps/Cdot_test.thy" *)
+(* fingerprints written in ".tlacache/Cdot_test.tlaps/fingerprints" *)

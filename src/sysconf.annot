@@ -1,0 +1,76 @@
+"sysconf.ml" 10 244 248 "sysconf.ml" 10 244 254
+type(
+  ?default:int -> unit -> int
+)
+ident(
+  def nprocs "sysconf.ml" 11 273 315 "sysconf.ml" 0 0 -1
+)
+"sysconf.ml" 10 244 257 "sysconf.ml" 10 244 264
+type(
+  int
+)
+ident(
+  def default "sysconf.ml" 10 244 268 "sysconf.ml" 11 273 315
+)
+"sysconf.ml" 10 244 265 "sysconf.ml" 10 244 266
+type(
+  int
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "sysconf.ml" 10 244 265 "sysconf.ml" 10 244 266
+)
+type(
+  int
+)
+type(
+  int option
+)
+type(
+  int option
+)
+ident(
+  def *sth* "sysconf.ml" 10 244 265 "sysconf.ml" 10 244 266
+)
+"sysconf.ml" 10 244 268 "sysconf.ml" 10 244 270
+type(
+  unit
+)
+"sysconf.ml" 11 273 279 "sysconf.ml" 11 273 294
+type(
+  unit -> int
+)
+ident(
+  int_ref nprocs_internal "sysconf.ml" 8 186 186 "sysconf.ml" 8 186 242
+)
+"sysconf.ml" 11 273 295 "sysconf.ml" 11 273 297
+type(
+  unit
+)
+"sysconf.ml" 11 273 279 "sysconf.ml" 11 273 297
+type(
+  int
+)
+"sysconf.ml" 11 273 303 "sysconf.ml" 11 273 304
+type(
+  exn
+)
+"sysconf.ml" 11 273 308 "sysconf.ml" 11 273 315
+type(
+  int
+)
+ident(
+  int_ref default "sysconf.ml" 10 244 257 "sysconf.ml" 10 244 264
+)
+"sysconf.ml" 11 273 275 "sysconf.ml" 11 273 315
+type(
+  int
+)

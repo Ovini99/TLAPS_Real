@@ -1,0 +1,3892 @@
+"e_constness.ml" 10 125 132 "e_constness.ml" 10 125 137
+ident(
+  def Visit "e_constness.ml" 10 125 147 "e_constness.ml" 0 0 -1
+)
+"e_constness.ml" 13 150 154 "e_constness.ml" 13 150 161
+type(
+  bool Property.pfuncs
+)
+ident(
+  def isconst "e_constness.ml" 16 265 265 "e_constness.ml" 0 0 -1
+)
+"e_constness.ml" 14 178 180 "e_constness.ml" 14 178 193
+type(
+  ?uuid:string -> string -> bool Property.pfuncs
+)
+ident(
+  int_ref Property.make "property.mli" 53 1729 1729 "property.mli" 53 1729 1775
+)
+"e_constness.ml" 14 178 200 "e_constness.ml" 14 178 238
+type(
+  string
+)
+type(
+  string option
+)
+"e_constness.ml" 14 178 239 "e_constness.ml" 14 178 263
+type(
+  string
+)
+"e_constness.ml" 14 178 180 "e_constness.ml" 14 178 263
+type(
+  bool Property.pfuncs
+)
+"e_constness.ml" 16 265 269 "e_constness.ml" 16 265 278
+type(
+  'a Property.wrapped -> bool
+)
+ident(
+  def has_const "e_constness.ml" 18 350 350 "e_constness.ml" 0 0 -1
+)
+"e_constness.ml" 16 265 279 "e_constness.ml" 16 265 280
+type(
+  'a Property.wrapped
+)
+ident(
+  def x "e_constness.ml" 16 265 283 "e_constness.ml" 16 265 305
+)
+"e_constness.ml" 16 265 283 "e_constness.ml" 16 265 295
+type(
+  'a Property.wrapped -> bool Property.pfuncs -> bool
+)
+ident(
+  int_ref Property.has "property.mli" 67 2198 2198 "property.mli" 67 2198 2242
+)
+"e_constness.ml" 16 265 296 "e_constness.ml" 16 265 297
+type(
+  'a Property.wrapped
+)
+ident(
+  int_ref x "e_constness.ml" 16 265 279 "e_constness.ml" 16 265 280
+)
+"e_constness.ml" 16 265 298 "e_constness.ml" 16 265 305
+type(
+  bool Property.pfuncs
+)
+ident(
+  int_ref isconst "e_constness.ml" 13 150 154 "e_constness.ml" 13 150 161
+)
+"e_constness.ml" 16 265 283 "e_constness.ml" 16 265 305
+type(
+  bool
+)
+"e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+type(
+  'a Property.wrapped -> bool
+)
+ident(
+  def is_const "e_constness.ml" 22 422 422 "e_constness.ml" 0 0 -1
+)
+"e_constness.ml" 18 350 363 "e_constness.ml" 18 350 364
+type(
+  'a Property.wrapped
+)
+ident(
+  def x "e_constness.ml" 18 350 367 "e_constness.ml" 19 399 419
+)
+"e_constness.ml" 18 350 371 "e_constness.ml" 18 350 383
+type(
+  'a Property.wrapped -> bool Property.pfuncs -> bool
+)
+ident(
+  int_ref Property.get "property.mli" 71 2383 2383 "property.mli" 71 2383 2425
+)
+"e_constness.ml" 18 350 384 "e_constness.ml" 18 350 385
+type(
+  'a Property.wrapped
+)
+ident(
+  int_ref x "e_constness.ml" 18 350 363 "e_constness.ml" 18 350 364
+)
+"e_constness.ml" 18 350 386 "e_constness.ml" 18 350 393
+type(
+  bool Property.pfuncs
+)
+ident(
+  int_ref isconst "e_constness.ml" 13 150 154 "e_constness.ml" 13 150 161
+)
+"e_constness.ml" 18 350 371 "e_constness.ml" 18 350 393
+type(
+  bool
+)
+"e_constness.ml" 19 399 401 "e_constness.ml" 19 399 410
+type(
+  exn
+)
+"e_constness.ml" 19 399 414 "e_constness.ml" 19 399 419
+type(
+  bool
+)
+"e_constness.ml" 18 350 367 "e_constness.ml" 19 399 419
+type(
+  bool
+)
+"e_constness.ml" 22 422 460 "e_constness.ml" 22 422 464
+type(
+  < adj : unit Visit.scx -> E_t.hyp -> unit Visit.scx;
+    adjs : unit Visit.scx -> E_t.hyp list -> unit Visit.scx;
+    bound : unit Visit.scx -> E_t.bound -> unit Visit.scx * E_t.bound;
+    bounds : unit Visit.scx ->
+             E_t.bound list -> unit Visit.scx * E_t.bound list;
+    defn : unit Visit.scx -> E_t.defn -> E_t.defn;
+    defns : unit Visit.scx -> E_t.defn list -> unit Visit.scx * E_t.defn list;
+    expr : unit Visit.scx -> E_t.expr -> E_t.expr;
+    exspec : unit Visit.scx -> E_t.exspec -> E_t.exspec;
+    hyp : unit Visit.scx -> E_t.hyp -> unit Visit.scx * E_t.hyp;
+    hyps : unit Visit.scx ->
+           E_t.hyp Deque.dq -> unit Visit.scx * E_t.hyp Deque.dq;
+    instance : unit Visit.scx -> E_t.instance -> E_t.instance;
+    pform : unit Visit.scx -> E_t.pform -> E_t.pform;
+    sel : unit Visit.scx -> E_t.sel -> E_t.sel;
+    sequent : unit Visit.scx -> E_t.sequent -> unit Visit.scx * E_t.sequent;
+    .. >
+)
+type(
+  < adj : unit Visit.scx -> E_t.hyp -> unit Visit.scx;
+    adjs : unit Visit.scx -> E_t.hyp list -> unit Visit.scx;
+    bound : unit Visit.scx -> E_t.bound -> unit Visit.scx * E_t.bound;
+    bounds : unit Visit.scx ->
+             E_t.bound list -> unit Visit.scx * E_t.bound list;
+    defn : unit Visit.scx -> E_t.defn -> E_t.defn;
+    defns : unit Visit.scx -> E_t.defn list -> unit Visit.scx * E_t.defn list;
+    expr : unit Visit.scx -> E_t.expr -> E_t.expr;
+    exspec : unit Visit.scx -> E_t.exspec -> E_t.exspec;
+    hyp : unit Visit.scx -> E_t.hyp -> unit Visit.scx * E_t.hyp;
+    hyps : unit Visit.scx ->
+           E_t.hyp Deque.dq -> unit Visit.scx * E_t.hyp Deque.dq;
+    instance : unit Visit.scx -> E_t.instance -> E_t.instance;
+    pform : unit Visit.scx -> E_t.pform -> E_t.pform;
+    sel : unit Visit.scx -> E_t.sel -> E_t.sel;
+    sequent : unit Visit.scx -> E_t.sequent -> unit Visit.scx * E_t.sequent;
+    .. >
+  as 'a
+)
+"e_constness.ml" 25 511 525 "e_constness.ml" 25 511 528
+type(
+  unit Visit.scx
+)
+ident(
+  def scx "e_constness.ml" 25 511 529 "e_constness.ml" 182 6042 6072
+)
+"e_constness.ml" 25 511 529 "e_constness.ml" 25 511 530
+type(
+  E_t.expr
+)
+ident(
+  def e "e_constness.ml" 25 511 533 "e_constness.ml" 182 6042 6072
+)
+"e_constness.ml" 25 511 539 "e_constness.ml" 25 511 540
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 25 511 529 "e_constness.ml" 25 511 530
+)
+"e_constness.ml" 25 511 539 "e_constness.ml" 25 511 545
+type(
+  E_t.expr_
+)
+"e_constness.ml" 26 551 565 "e_constness.ml" 26 551 568
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  def vss "e_constness.ml" 27 577 585 "e_constness.ml" 38 1014 1052
+)
+"e_constness.ml" 26 551 570 "e_constness.ml" 26 551 572
+type(
+  E_t.expr
+)
+ident(
+  def le "e_constness.ml" 27 577 585 "e_constness.ml" 38 1014 1052
+)
+"e_constness.ml" 26 551 557 "e_constness.ml" 26 551 573
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 27 577 589 "e_constness.ml" 27 577 591
+type(
+  E_t.hyp_ Property.wrapped list
+)
+ident(
+  def hs "e_constness.ml" 31 729 737 "e_constness.ml" 38 1014 1052
+)
+"e_constness.ml" 27 577 594 "e_constness.ml" 27 577 602
+type(
+  (Util.hint * E_t.shape -> E_t.hyp_ Property.wrapped) ->
+  (Util.hint * E_t.shape) list -> E_t.hyp_ Property.wrapped list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"e_constness.ml" 28 609 624 "e_constness.ml" 28 609 625
+type(
+  Util.hint
+)
+ident(
+  def v "e_constness.ml" 29 635 647 "e_constness.ml" 29 635 709
+)
+"e_constness.ml" 28 609 627 "e_constness.ml" 28 609 630
+type(
+  E_t.shape
+)
+ident(
+  def shp "e_constness.ml" 29 635 647 "e_constness.ml" 29 635 709
+)
+"e_constness.ml" 28 609 623 "e_constness.ml" 28 609 631
+type(
+  Util.hint * E_t.shape
+)
+"e_constness.ml" 29 635 647 "e_constness.ml" 29 635 653
+type(
+  E_t.hyp_ Property.wrapped ->
+  bool Property.pfuncs -> bool -> E_t.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"e_constness.ml" 29 635 662 "e_constness.ml" 29 635 663
+type(
+  Util.hint
+)
+ident(
+  int_ref v "e_constness.ml" 28 609 624 "e_constness.ml" 28 609 625
+)
+"e_constness.ml" 29 635 665 "e_constness.ml" 29 635 668
+type(
+  E_t.shape
+)
+ident(
+  int_ref shp "e_constness.ml" 28 609 627 "e_constness.ml" 28 609 630
+)
+"e_constness.ml" 29 635 670 "e_constness.ml" 29 635 678
+type(
+  E_t.kind
+)
+"e_constness.ml" 29 635 680 "e_constness.ml" 29 635 689
+type(
+  E_t.hdom
+)
+"e_constness.ml" 29 635 655 "e_constness.ml" 29 635 690
+type(
+  E_t.hyp_
+)
+"e_constness.ml" 29 635 691 "e_constness.ml" 29 635 693
+type(
+  E_t.hyp_ -> Util.hint -> E_t.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_constness.ml" 29 635 694 "e_constness.ml" 29 635 695
+type(
+  Util.hint
+)
+ident(
+  int_ref v "e_constness.ml" 28 609 624 "e_constness.ml" 28 609 625
+)
+"e_constness.ml" 29 635 654 "e_constness.ml" 29 635 696
+type(
+  E_t.hyp_ Property.wrapped
+)
+"e_constness.ml" 29 635 697 "e_constness.ml" 29 635 704
+type(
+  bool Property.pfuncs
+)
+ident(
+  int_ref isconst "e_constness.ml" 13 150 154 "e_constness.ml" 13 150 161
+)
+"e_constness.ml" 29 635 705 "e_constness.ml" 29 635 709
+type(
+  bool
+)
+"e_constness.ml" 29 635 647 "e_constness.ml" 29 635 709
+type(
+  E_t.hyp_ Property.wrapped
+)
+"e_constness.ml" 27 577 603 "e_constness.ml" 30 710 721
+type(
+  Util.hint * E_t.shape -> E_t.hyp_ Property.wrapped
+)
+"e_constness.ml" 30 710 722 "e_constness.ml" 30 710 725
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  int_ref vss "e_constness.ml" 26 551 565 "e_constness.ml" 26 551 568
+)
+"e_constness.ml" 27 577 594 "e_constness.ml" 30 710 725
+type(
+  E_t.hyp_ Property.wrapped list
+)
+"e_constness.ml" 31 729 741 "e_constness.ml" 31 729 744
+type(
+  unit Visit.scx
+)
+ident(
+  def scx "e_constness.ml" 32 768 776 "e_constness.ml" 38 1014 1052
+)
+"e_constness.ml" 31 729 747 "e_constness.ml" 31 729 757
+type(
+  unit Visit.scx -> E_t.hyp list -> unit Visit.scx
+)
+ident(
+  int_ref Visit.adjs "e_visit.mli" 24 667 667 "e_visit.mli" 24 667 706
+)
+"e_constness.ml" 31 729 758 "e_constness.ml" 31 729 761
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_constness.ml" 25 511 525 "e_constness.ml" 25 511 528
+)
+"e_constness.ml" 31 729 762 "e_constness.ml" 31 729 764
+type(
+  E_t.hyp list
+)
+ident(
+  int_ref hs "e_constness.ml" 27 577 589 "e_constness.ml" 27 577 591
+)
+"e_constness.ml" 31 729 747 "e_constness.ml" 31 729 764
+type(
+  unit Visit.scx
+)
+"e_constness.ml" 32 768 780 "e_constness.ml" 32 768 782
+type(
+  E_t.expr
+)
+ident(
+  def le "e_constness.ml" 33 805 813 "e_constness.ml" 38 1014 1052
+)
+"e_constness.ml" 32 768 785 "e_constness.ml" 32 768 789
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"e_constness.ml" 32 768 785 "e_constness.ml" 32 768 794
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_constness.ml" 32 768 795 "e_constness.ml" 32 768 798
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_constness.ml" 31 729 741 "e_constness.ml" 31 729 744
+)
+"e_constness.ml" 32 768 799 "e_constness.ml" 32 768 801
+type(
+  E_t.expr
+)
+ident(
+  int_ref le "e_constness.ml" 26 551 570 "e_constness.ml" 26 551 572
+)
+"e_constness.ml" 32 768 785 "e_constness.ml" 32 768 801
+type(
+  E_t.expr
+)
+"e_constness.ml" 33 805 817 "e_constness.ml" 33 805 818
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def e "e_constness.ml" 38 1014 1022 "e_constness.ml" 38 1014 1052
+)
+"e_constness.ml" 33 805 829 "e_constness.ml" 33 805 832
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  int_ref vss "e_constness.ml" 26 551 565 "e_constness.ml" 26 551 568
+)
+"e_constness.ml" 33 805 834 "e_constness.ml" 33 805 836
+type(
+  E_t.expr
+)
+ident(
+  int_ref le "e_constness.ml" 32 768 780 "e_constness.ml" 32 768 782
+)
+"e_constness.ml" 33 805 821 "e_constness.ml" 33 805 837
+type(
+  E_t.expr_
+)
+"e_constness.ml" 33 805 838 "e_constness.ml" 33 805 840
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_constness.ml" 33 805 841 "e_constness.ml" 33 805 842
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 25 511 529 "e_constness.ml" 25 511 530
+)
+"e_constness.ml" 33 805 821 "e_constness.ml" 33 805 842
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_constness.ml" 38 1014 1022 "e_constness.ml" 38 1014 1028
+type(
+  E_t.expr_ Property.wrapped -> bool Property.pfuncs -> bool -> E_t.expr
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"e_constness.ml" 38 1014 1029 "e_constness.ml" 38 1014 1030
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref e "e_constness.ml" 33 805 817 "e_constness.ml" 33 805 818
+)
+"e_constness.ml" 38 1014 1031 "e_constness.ml" 38 1014 1038
+type(
+  bool Property.pfuncs
+)
+ident(
+  int_ref isconst "e_constness.ml" 13 150 154 "e_constness.ml" 13 150 161
+)
+"e_constness.ml" 38 1014 1040 "e_constness.ml" 38 1014 1048
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 38 1014 1049 "e_constness.ml" 38 1014 1051
+type(
+  E_t.expr
+)
+ident(
+  int_ref le "e_constness.ml" 32 768 780 "e_constness.ml" 32 768 782
+)
+"e_constness.ml" 38 1014 1039 "e_constness.ml" 38 1014 1052
+type(
+  bool
+)
+"e_constness.ml" 38 1014 1022 "e_constness.ml" 38 1014 1052
+type(
+  E_t.expr
+)
+"e_constness.ml" 33 805 813 "e_constness.ml" 38 1014 1052
+type(
+  E_t.expr
+)
+"e_constness.ml" 32 768 776 "e_constness.ml" 38 1014 1052
+type(
+  E_t.expr
+)
+"e_constness.ml" 31 729 737 "e_constness.ml" 38 1014 1052
+type(
+  E_t.expr
+)
+"e_constness.ml" 27 577 585 "e_constness.ml" 38 1014 1052
+type(
+  E_t.expr
+)
+"e_constness.ml" 39 1053 1067 "e_constness.ml" 39 1053 1069
+type(
+  E_t.sequent
+)
+ident(
+  def sq "e_constness.ml" 40 1073 1081 "e_constness.ml" 56 1637 1683
+)
+"e_constness.ml" 39 1053 1059 "e_constness.ml" 39 1053 1069
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 40 1073 1086 "e_constness.ml" 40 1073 1087
+type(
+  unit Visit.scx
+)
+"e_constness.ml" 40 1073 1089 "e_constness.ml" 40 1073 1091
+type(
+  E_t.sequent
+)
+ident(
+  def sq "e_constness.ml" 41 1119 1127 "e_constness.ml" 56 1637 1683
+)
+"e_constness.ml" 40 1073 1085 "e_constness.ml" 40 1073 1092
+type(
+  unit Visit.scx * E_t.sequent
+)
+"e_constness.ml" 40 1073 1095 "e_constness.ml" 40 1073 1100
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_constness.ml" 23 474 484 "e_constness.ml" 23 474 500
+)
+"e_constness.ml" 40 1073 1095 "e_constness.ml" 40 1073 1108
+type(
+  'a -> unit Visit.scx -> E_t.sequent -> unit Visit.scx * E_t.sequent
+)
+ident(
+  ext_ref sequent
+)
+type(
+  unit Visit.scx -> E_t.sequent -> unit Visit.scx * E_t.sequent
+)
+type(
+  unit Visit.scx -> E_t.sequent -> unit Visit.scx * E_t.sequent
+)
+"e_constness.ml" 40 1073 1109 "e_constness.ml" 40 1073 1112
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_constness.ml" 25 511 525 "e_constness.ml" 25 511 528
+)
+"e_constness.ml" 40 1073 1113 "e_constness.ml" 40 1073 1115
+type(
+  E_t.sequent
+)
+ident(
+  int_ref sq "e_constness.ml" 39 1053 1067 "e_constness.ml" 39 1053 1069
+)
+"e_constness.ml" 40 1073 1095 "e_constness.ml" 40 1073 1115
+type(
+  unit Visit.scx * E_t.sequent
+)
+"e_constness.ml" 41 1119 1131 "e_constness.ml" 41 1119 1132
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  def e "e_constness.ml" 42 1154 1162 "e_constness.ml" 56 1637 1683
+)
+"e_constness.ml" 41 1119 1143 "e_constness.ml" 41 1119 1145
+type(
+  E_t.sequent
+)
+ident(
+  int_ref sq "e_constness.ml" 40 1073 1089 "e_constness.ml" 40 1073 1091
+)
+"e_constness.ml" 41 1119 1135 "e_constness.ml" 41 1119 1145
+type(
+  E_t.expr_
+)
+"e_constness.ml" 41 1119 1146 "e_constness.ml" 41 1119 1148
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_constness.ml" 41 1119 1149 "e_constness.ml" 41 1119 1150
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 25 511 529 "e_constness.ml" 25 511 530
+)
+"e_constness.ml" 41 1119 1135 "e_constness.ml" 41 1119 1150
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_constness.ml" 42 1154 1170 "e_constness.ml" 42 1154 1178
+type(
+  E_t.hyp_ Property.wrapped Deque.dq -> bool
+)
+ident(
+  def sq_const "e_constness.ml" 42 1154 1162 "e_constness.ml" 56 1637 1683
+)
+"e_constness.ml" 42 1154 1179 "e_constness.ml" 42 1154 1181
+type(
+  E_t.hyp_ Property.wrapped Deque.dq
+)
+ident(
+  def cx "e_constness.ml" 42 1154 1184 "e_constness.ml" 54 1610 1625
+)
+"e_constness.ml" 42 1154 1190 "e_constness.ml" 42 1154 1201
+type(
+  E_t.hyp_ Property.wrapped Deque.dq ->
+  (E_t.hyp_ Property.wrapped * E_t.hyp_ Property.wrapped Deque.dq) option
+)
+ident(
+  int_ref Deque.front "deque.mli" 14 253 253 "deque.mli" 14 253 293
+)
+"e_constness.ml" 42 1154 1202 "e_constness.ml" 42 1154 1204
+type(
+  E_t.hyp_ Property.wrapped Deque.dq
+)
+ident(
+  int_ref cx "e_constness.ml" 42 1154 1179 "e_constness.ml" 42 1154 1181
+)
+"e_constness.ml" 42 1154 1190 "e_constness.ml" 42 1154 1204
+type(
+  (E_t.hyp_ Property.wrapped * E_t.hyp_ Property.wrapped Deque.dq) option
+)
+"e_constness.ml" 43 1210 1222 "e_constness.ml" 43 1210 1226
+type(
+  (E_t.hyp_ Property.wrapped * E_t.hyp_ Property.wrapped Deque.dq) option
+)
+type(
+  (E_t.hyp_ Property.wrapped * E_t.hyp_ Property.wrapped Deque.dq) option
+)
+"e_constness.ml" 43 1210 1230 "e_constness.ml" 43 1210 1238
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 43 1210 1239 "e_constness.ml" 43 1210 1241
+type(
+  E_t.sequent
+)
+ident(
+  int_ref sq "e_constness.ml" 40 1073 1089 "e_constness.ml" 40 1073 1091
+)
+"e_constness.ml" 43 1210 1239 "e_constness.ml" 43 1210 1248
+type(
+  E_t.expr
+)
+"e_constness.ml" 43 1210 1230 "e_constness.ml" 43 1210 1248
+type(
+  bool
+)
+"e_constness.ml" 44 1249 1267 "e_constness.ml" 44 1249 1268
+type(
+  E_t.hyp_ Property.wrapped
+)
+ident(
+  def h "e_constness.ml" 44 1249 1277 "e_constness.ml" 54 1610 1625
+)
+"e_constness.ml" 44 1249 1270 "e_constness.ml" 44 1249 1272
+type(
+  E_t.hyp_ Property.wrapped Deque.dq
+)
+ident(
+  def cx "e_constness.ml" 44 1249 1277 "e_constness.ml" 54 1610 1625
+)
+"e_constness.ml" 44 1249 1266 "e_constness.ml" 44 1249 1273
+type(
+  E_t.hyp_ Property.wrapped * E_t.hyp_ Property.wrapped Deque.dq
+)
+"e_constness.ml" 44 1249 1261 "e_constness.ml" 44 1249 1273
+type(
+  (E_t.hyp_ Property.wrapped * E_t.hyp_ Property.wrapped Deque.dq) option
+)
+type(
+  (E_t.hyp_ Property.wrapped * E_t.hyp_ Property.wrapped Deque.dq) option
+)
+"e_constness.ml" 45 1283 1301 "e_constness.ml" 45 1283 1306
+type(
+  bool
+)
+ident(
+  def hgood "e_constness.ml" 53 1575 1589 "e_constness.ml" 53 1575 1609
+)
+"e_constness.ml" 45 1283 1315 "e_constness.ml" 45 1283 1316
+type(
+  E_t.hyp_ Property.wrapped
+)
+ident(
+  int_ref h "e_constness.ml" 44 1249 1267 "e_constness.ml" 44 1249 1268
+)
+"e_constness.ml" 45 1283 1315 "e_constness.ml" 45 1283 1321
+type(
+  E_t.hyp_
+)
+"e_constness.ml" 46 1327 1352 "e_constness.ml" 46 1327 1353
+type(
+  Util.hint
+)
+"e_constness.ml" 46 1327 1355 "e_constness.ml" 46 1327 1356
+type(
+  E_t.shape
+)
+"e_constness.ml" 46 1327 1358 "e_constness.ml" 46 1327 1366
+type(
+  E_t.kind
+)
+"e_constness.ml" 46 1327 1368 "e_constness.ml" 46 1327 1369
+type(
+  E_t.hdom
+)
+"e_constness.ml" 46 1327 1345 "e_constness.ml" 46 1327 1370
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_constness.ml" 46 1327 1374 "e_constness.ml" 46 1327 1378
+type(
+  bool
+)
+"e_constness.ml" 47 1379 1423 "e_constness.ml" 47 1379 1424
+type(
+  Util.hint
+)
+"e_constness.ml" 47 1379 1426 "e_constness.ml" 47 1379 1427
+type(
+  E_t.expr
+)
+ident(
+  def e "e_constness.ml" 50 1498 1518 "e_constness.ml" 50 1498 1528
+)
+"e_constness.ml" 47 1379 1413 "e_constness.ml" 47 1379 1428
+type(
+  E_t.defn_
+)
+"e_constness.ml" 47 1379 1405 "e_constness.ml" 47 1379 1429
+type(
+  E_t.defn
+)
+"e_constness.ml" 47 1379 1431 "e_constness.ml" 47 1379 1432
+type(
+  E_t.wheredef
+)
+"e_constness.ml" 47 1379 1434 "e_constness.ml" 47 1379 1435
+type(
+  E_t.visibility
+)
+"e_constness.ml" 47 1379 1437 "e_constness.ml" 47 1379 1438
+type(
+  E_t.export
+)
+"e_constness.ml" 47 1379 1399 "e_constness.ml" 47 1379 1439
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_constness.ml" 48 1440 1466 "e_constness.ml" 48 1440 1467
+type(
+  E_t.expr
+)
+ident(
+  def e "e_constness.ml" 50 1498 1518 "e_constness.ml" 50 1498 1528
+)
+"e_constness.ml" 48 1440 1469 "e_constness.ml" 48 1440 1470
+type(
+  E_t.visibility
+)
+"e_constness.ml" 48 1440 1472 "e_constness.ml" 48 1440 1473
+type(
+  E_t.time
+)
+"e_constness.ml" 48 1440 1460 "e_constness.ml" 48 1440 1474
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_constness.ml" 47 1379 1397 "e_constness.ml" 49 1475 1494
+type(
+  E_t.hyp_
+)
+"e_constness.ml" 50 1498 1518 "e_constness.ml" 50 1498 1526
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 50 1498 1527 "e_constness.ml" 50 1498 1528
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 47 1379 1426 "e_constness.ml" 47 1379 1427
+)
+"e_constness.ml" 50 1498 1518 "e_constness.ml" 50 1498 1528
+type(
+  bool
+)
+"e_constness.ml" 51 1529 1547 "e_constness.ml" 51 1529 1548
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_constness.ml" 51 1529 1552 "e_constness.ml" 51 1529 1557
+type(
+  bool
+)
+"e_constness.ml" 45 1283 1309 "e_constness.ml" 51 1529 1557
+type(
+  bool
+)
+"e_constness.ml" 53 1575 1589 "e_constness.ml" 53 1575 1594
+type(
+  bool
+)
+ident(
+  int_ref hgood "e_constness.ml" 45 1283 1301 "e_constness.ml" 45 1283 1306
+)
+"e_constness.ml" 53 1575 1595 "e_constness.ml" 53 1575 1597
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_constness.ml" 53 1575 1598 "e_constness.ml" 53 1575 1606
+type(
+  E_t.hyp_ Property.wrapped Deque.dq -> bool
+)
+ident(
+  int_ref sq_const "e_constness.ml" 42 1154 1170 "e_constness.ml" 42 1154 1178
+)
+"e_constness.ml" 53 1575 1607 "e_constness.ml" 53 1575 1609
+type(
+  E_t.hyp_ Property.wrapped Deque.dq
+)
+ident(
+  int_ref cx "e_constness.ml" 44 1249 1270 "e_constness.ml" 44 1249 1272
+)
+"e_constness.ml" 53 1575 1598 "e_constness.ml" 53 1575 1609
+type(
+  bool
+)
+"e_constness.ml" 53 1575 1589 "e_constness.ml" 53 1575 1609
+type(
+  bool
+)
+"e_constness.ml" 44 1249 1277 "e_constness.ml" 54 1610 1625
+type(
+  bool
+)
+"e_constness.ml" 42 1154 1184 "e_constness.ml" 54 1610 1625
+type(
+  bool
+)
+"e_constness.ml" 56 1637 1645 "e_constness.ml" 56 1637 1651
+type(
+  E_t.expr_ Property.wrapped -> bool Property.pfuncs -> bool -> E_t.expr
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"e_constness.ml" 56 1637 1652 "e_constness.ml" 56 1637 1653
+type(
+  E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref e "e_constness.ml" 41 1119 1131 "e_constness.ml" 41 1119 1132
+)
+"e_constness.ml" 56 1637 1654 "e_constness.ml" 56 1637 1661
+type(
+  bool Property.pfuncs
+)
+ident(
+  int_ref isconst "e_constness.ml" 13 150 154 "e_constness.ml" 13 150 161
+)
+"e_constness.ml" 56 1637 1663 "e_constness.ml" 56 1637 1671
+type(
+  E_t.hyp Deque.dq -> bool
+)
+ident(
+  int_ref sq_const "e_constness.ml" 42 1154 1170 "e_constness.ml" 42 1154 1178
+)
+"e_constness.ml" 56 1637 1672 "e_constness.ml" 56 1637 1674
+type(
+  E_t.sequent
+)
+ident(
+  int_ref sq "e_constness.ml" 40 1073 1089 "e_constness.ml" 40 1073 1091
+)
+"e_constness.ml" 56 1637 1672 "e_constness.ml" 56 1637 1682
+type(
+  E_t.hyp Deque.dq
+)
+"e_constness.ml" 56 1637 1662 "e_constness.ml" 56 1637 1683
+type(
+  bool
+)
+"e_constness.ml" 56 1637 1645 "e_constness.ml" 56 1637 1683
+type(
+  E_t.expr
+)
+"e_constness.ml" 42 1154 1162 "e_constness.ml" 56 1637 1683
+type(
+  E_t.expr
+)
+"e_constness.ml" 41 1119 1127 "e_constness.ml" 56 1637 1683
+type(
+  E_t.expr
+)
+"e_constness.ml" 40 1073 1081 "e_constness.ml" 56 1637 1683
+type(
+  E_t.expr
+)
+"e_constness.ml" 57 1684 1690 "e_constness.ml" 57 1684 1691
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 58 1695 1707 "e_constness.ml" 58 1695 1708
+type(
+  E_t.expr
+)
+ident(
+  def e "e_constness.ml" 59 1731 1739 "e_constness.ml" 182 6042 6072
+)
+"e_constness.ml" 58 1695 1711 "e_constness.ml" 58 1695 1716
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_constness.ml" 23 474 484 "e_constness.ml" 23 474 500
+)
+"e_constness.ml" 58 1695 1711 "e_constness.ml" 58 1695 1721
+type(
+  'a -> unit Visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+type(
+  unit Visit.scx -> E_t.expr -> E_t.expr
+)
+"e_constness.ml" 58 1695 1722 "e_constness.ml" 58 1695 1725
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_constness.ml" 25 511 525 "e_constness.ml" 25 511 528
+)
+"e_constness.ml" 58 1695 1726 "e_constness.ml" 58 1695 1727
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 25 511 529 "e_constness.ml" 25 511 530
+)
+"e_constness.ml" 58 1695 1711 "e_constness.ml" 58 1695 1727
+type(
+  E_t.expr
+)
+"e_constness.ml" 59 1731 1743 "e_constness.ml" 59 1731 1745
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  def cx "e_constness.ml" 60 1759 1767 "e_constness.ml" 182 6042 6072
+)
+"e_constness.ml" 59 1731 1748 "e_constness.ml" 59 1731 1751
+type(
+  unit Visit.scx -> E_t.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"e_constness.ml" 59 1731 1752 "e_constness.ml" 59 1731 1755
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_constness.ml" 25 511 525 "e_constness.ml" 25 511 528
+)
+"e_constness.ml" 59 1731 1748 "e_constness.ml" 59 1731 1755
+type(
+  E_t.hyp Deque.dq
+)
+"e_constness.ml" 60 1759 1771 "e_constness.ml" 60 1759 1776
+type(
+  bool
+)
+ident(
+  def const "e_constness.ml" 182 6042 6050 "e_constness.ml" 182 6042 6072
+)
+"e_constness.ml" 60 1759 1785 "e_constness.ml" 60 1759 1786
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 58 1695 1707 "e_constness.ml" 58 1695 1708
+)
+"e_constness.ml" 60 1759 1785 "e_constness.ml" 60 1759 1791
+type(
+  E_t.expr_
+)
+"e_constness.ml" 61 1797 1812 "e_constness.ml" 61 1797 1813
+type(
+  int
+)
+ident(
+  def n "e_constness.ml" 61 1797 1817 "e_constness.ml" 74 2371 2386
+)
+"e_constness.ml" 61 1797 1809 "e_constness.ml" 61 1797 1813
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 62 1823 1843 "e_constness.ml" 62 1823 1852
+type(
+  ?backwards:bool -> E_t.hyp Deque.dq -> int -> E_t.hyp option
+)
+ident(
+  int_ref Deque.nth "deque.mli" 18 388 388 "deque.mli" 18 388 444
+)
+"e_constness.ml" 62 1823 1864 "e_constness.ml" 62 1823 1868
+type(
+  bool
+)
+type(
+  bool option
+)
+"e_constness.ml" 62 1823 1869 "e_constness.ml" 62 1823 1871
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_constness.ml" 59 1731 1743 "e_constness.ml" 59 1731 1745
+)
+"e_constness.ml" 62 1823 1873 "e_constness.ml" 62 1823 1874
+type(
+  int
+)
+ident(
+  int_ref n "e_constness.ml" 61 1797 1812 "e_constness.ml" 61 1797 1813
+)
+"e_constness.ml" 62 1823 1875 "e_constness.ml" 62 1823 1876
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"e_constness.ml" 62 1823 1877 "e_constness.ml" 62 1823 1878
+type(
+  int
+)
+"e_constness.ml" 62 1823 1872 "e_constness.ml" 62 1823 1879
+type(
+  int
+)
+"e_constness.ml" 62 1823 1843 "e_constness.ml" 62 1823 1879
+type(
+  E_t.hyp option
+)
+"e_constness.ml" 63 1885 1908 "e_constness.ml" 63 1885 1909
+type(
+  E_t.hyp
+)
+ident(
+  def h "e_constness.ml" 63 1885 1913 "e_constness.ml" 70 2177 2198
+)
+"e_constness.ml" 63 1885 1903 "e_constness.ml" 63 1885 1909
+type(
+  E_t.hyp option
+)
+type(
+  E_t.hyp option
+)
+"e_constness.ml" 63 1885 1925 "e_constness.ml" 63 1885 1926
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_constness.ml" 63 1885 1908 "e_constness.ml" 63 1885 1909
+)
+"e_constness.ml" 63 1885 1925 "e_constness.ml" 63 1885 1931
+type(
+  E_t.hyp_
+)
+"e_constness.ml" 64 1937 1983 "e_constness.ml" 64 1937 1984
+type(
+  Util.hint
+)
+"e_constness.ml" 64 1937 1986 "e_constness.ml" 64 1937 1988
+type(
+  E_t.expr
+)
+ident(
+  def op "e_constness.ml" 65 2004 2028 "e_constness.ml" 65 2004 2039
+)
+"e_constness.ml" 64 1937 1973 "e_constness.ml" 64 1937 1989
+type(
+  E_t.defn_
+)
+"e_constness.ml" 64 1937 1965 "e_constness.ml" 64 1937 1990
+type(
+  E_t.defn
+)
+"e_constness.ml" 64 1937 1992 "e_constness.ml" 64 1937 1993
+type(
+  E_t.wheredef
+)
+"e_constness.ml" 64 1937 1995 "e_constness.ml" 64 1937 1996
+type(
+  E_t.visibility
+)
+"e_constness.ml" 64 1937 1998 "e_constness.ml" 64 1937 1999
+type(
+  E_t.export
+)
+"e_constness.ml" 64 1937 1959 "e_constness.ml" 64 1937 2000
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_constness.ml" 65 2004 2028 "e_constness.ml" 65 2004 2036
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 65 2004 2037 "e_constness.ml" 65 2004 2039
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_constness.ml" 64 1937 1986 "e_constness.ml" 64 1937 1988
+)
+"e_constness.ml" 65 2004 2028 "e_constness.ml" 65 2004 2039
+type(
+  bool
+)
+"e_constness.ml" 66 2040 2069 "e_constness.ml" 66 2040 2070
+type(
+  Util.hint
+)
+"e_constness.ml" 66 2040 2072 "e_constness.ml" 66 2040 2073
+type(
+  E_t.shape
+)
+"e_constness.ml" 66 2040 2075 "e_constness.ml" 66 2040 2083
+type(
+  E_t.kind
+)
+"e_constness.ml" 66 2040 2085 "e_constness.ml" 66 2040 2086
+type(
+  E_t.hdom
+)
+"e_constness.ml" 66 2040 2062 "e_constness.ml" 66 2040 2087
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_constness.ml" 67 2091 2115 "e_constness.ml" 67 2091 2119
+type(
+  bool
+)
+"e_constness.ml" 68 2120 2142 "e_constness.ml" 68 2120 2143
+type(
+  E_t.hyp_
+)
+type(
+  E_t.hyp_
+)
+"e_constness.ml" 69 2147 2171 "e_constness.ml" 69 2147 2176
+type(
+  bool
+)
+"e_constness.ml" 63 1885 1913 "e_constness.ml" 70 2177 2198
+type(
+  bool
+)
+"e_constness.ml" 71 2199 2217 "e_constness.ml" 71 2199 2218
+type(
+  E_t.hyp option
+)
+type(
+  E_t.hyp option
+)
+"e_constness.ml" 72 2222 2242 "e_constness.ml" 72 2222 2253
+type(
+  ?debug:string ->
+  ?at:E_t.expr ->
+  ?prefix:string ->
+  ?nonl:unit ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Util.printf "util.mli" 43 996 996 "util.mli" 45 1081 1131
+)
+"e_constness.ml" 72 2222 2258 "e_constness.ml" 72 2222 2259
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 58 1695 1707 "e_constness.ml" 58 1695 1708
+)
+type(
+  E_t.expr option
+)
+"e_constness.ml" 72 2222 2260 "e_constness.ml" 72 2222 2268
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"e_constness.ml" 72 2222 2270 "e_constness.ml" 72 2222 2290
+type(
+  E_t.hyp Deque.dq -> E_t.expr -> string
+)
+ident(
+  int_ref E_fmt.string_of_expr "e_fmt.mli" 44 1349 1349 "e_fmt.mli" 44 1349 1401
+)
+"e_constness.ml" 72 2222 2291 "e_constness.ml" 72 2222 2293
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_constness.ml" 59 1731 1743 "e_constness.ml" 59 1731 1745
+)
+"e_constness.ml" 72 2222 2294 "e_constness.ml" 72 2222 2295
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 58 1695 1707 "e_constness.ml" 58 1695 1708
+)
+"e_constness.ml" 72 2222 2269 "e_constness.ml" 72 2222 2296
+type(
+  string
+)
+"e_constness.ml" 72 2222 2242 "e_constness.ml" 72 2222 2296
+type(
+  unit
+)
+"e_constness.ml" 73 2298 2318 "e_constness.ml" 73 2298 2328
+type(
+  ?at:E_t.expr -> string -> bool
+)
+ident(
+  int_ref Errors.bug "errors.mli" 41 941 941 "errors.mli" 41 941 982
+)
+"e_constness.ml" 73 2298 2333 "e_constness.ml" 73 2298 2334
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 58 1695 1707 "e_constness.ml" 58 1695 1708
+)
+type(
+  E_t.expr option
+)
+"e_constness.ml" 73 2298 2335 "e_constness.ml" 73 2298 2370
+type(
+  string
+)
+"e_constness.ml" 73 2298 2318 "e_constness.ml" 73 2298 2370
+type(
+  bool
+)
+"e_constness.ml" 72 2222 2242 "e_constness.ml" 73 2298 2370
+type(
+  bool
+)
+"e_constness.ml" 61 1797 1817 "e_constness.ml" 74 2371 2386
+type(
+  bool
+)
+"e_constness.ml" 75 2387 2407 "e_constness.ml" 75 2387 2408
+type(
+  string
+)
+"e_constness.ml" 75 2387 2400 "e_constness.ml" 75 2387 2408
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 76 2412 2426 "e_constness.ml" 76 2412 2430
+type(
+  bool
+)
+"e_constness.ml" 77 2431 2452 "e_constness.ml" 77 2431 2453
+type(
+  E_t.expr
+)
+type(
+  Util.hints
+)
+type(
+  E_t.quantifier
+)
+"e_constness.ml" 77 2431 2445 "e_constness.ml" 77 2431 2453
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 78 2454 2472 "e_constness.ml" 78 2454 2473
+type(
+  E_t.expr
+)
+type(
+  E_t.expr
+)
+type(
+  E_t.modal_op
+)
+"e_constness.ml" 78 2454 2468 "e_constness.ml" 78 2454 2473
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 77 2431 2445 "e_constness.ml" 78 2454 2473
+type(
+  E_t.expr_
+)
+"e_constness.ml" 79 2474 2493 "e_constness.ml" 79 2474 2494
+type(
+  E_t.expr
+)
+type(
+  E_t.expr
+)
+type(
+  E_t.modal_op
+)
+"e_constness.ml" 79 2474 2488 "e_constness.ml" 79 2474 2494
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 77 2431 2445 "e_constness.ml" 79 2474 2494
+type(
+  E_t.expr_
+)
+"e_constness.ml" 80 2495 2514 "e_constness.ml" 80 2495 2515
+type(
+  E_t.expr
+)
+type(
+  E_t.expr
+)
+type(
+  E_t.fairness_op
+)
+"e_constness.ml" 80 2495 2509 "e_constness.ml" 80 2495 2515
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 77 2431 2443 "e_constness.ml" 81 2516 2529
+type(
+  E_t.expr_
+)
+"e_constness.ml" 81 2516 2533 "e_constness.ml" 81 2516 2538
+type(
+  bool
+)
+"e_constness.ml" 82 2539 2560 "e_constness.ml" 82 2539 2561
+type(
+  Builtin.builtin
+)
+ident(
+  def b "e_constness.ml" 82 2539 2565 "e_constness.ml" 91 2886 2901
+)
+"e_constness.ml" 82 2539 2551 "e_constness.ml" 82 2539 2561
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 82 2539 2577 "e_constness.ml" 82 2539 2578
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref b "e_constness.ml" 82 2539 2560 "e_constness.ml" 82 2539 2561
+)
+"e_constness.ml" 83 2584 2600 "e_constness.ml" 83 2584 2613
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"e_constness.ml" 83 2584 2616 "e_constness.ml" 83 2584 2635
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"e_constness.ml" 83 2584 2600 "e_constness.ml" 83 2584 2635
+type(
+  Builtin.builtin
+)
+"e_constness.ml" 84 2636 2652 "e_constness.ml" 84 2636 2667
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"e_constness.ml" 83 2584 2600 "e_constness.ml" 84 2636 2667
+type(
+  Builtin.builtin
+)
+"e_constness.ml" 84 2636 2670 "e_constness.ml" 84 2636 2685
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"e_constness.ml" 83 2584 2600 "e_constness.ml" 84 2636 2685
+type(
+  Builtin.builtin
+)
+"e_constness.ml" 85 2686 2702 "e_constness.ml" 85 2686 2719
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"e_constness.ml" 83 2584 2600 "e_constness.ml" 85 2686 2719
+type(
+  Builtin.builtin
+)
+"e_constness.ml" 85 2686 2722 "e_constness.ml" 85 2686 2734
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"e_constness.ml" 83 2584 2600 "e_constness.ml" 85 2686 2734
+type(
+  Builtin.builtin
+)
+"e_constness.ml" 86 2735 2751 "e_constness.ml" 86 2735 2766
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"e_constness.ml" 83 2584 2600 "e_constness.ml" 86 2735 2766
+type(
+  Builtin.builtin
+)
+"e_constness.ml" 86 2735 2781 "e_constness.ml" 86 2735 2782
+type(
+  bool
+)
+"e_constness.ml" 86 2735 2769 "e_constness.ml" 86 2735 2782
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"e_constness.ml" 83 2584 2600 "e_constness.ml" 86 2735 2782
+type(
+  Builtin.builtin
+)
+"e_constness.ml" 87 2783 2799 "e_constness.ml" 87 2783 2814
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"e_constness.ml" 83 2584 2600 "e_constness.ml" 87 2783 2814
+type(
+  Builtin.builtin
+)
+"e_constness.ml" 88 2818 2836 "e_constness.ml" 88 2818 2841
+type(
+  bool
+)
+"e_constness.ml" 89 2842 2858 "e_constness.ml" 89 2842 2859
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"e_constness.ml" 90 2863 2881 "e_constness.ml" 90 2863 2885
+type(
+  bool
+)
+"e_constness.ml" 82 2539 2565 "e_constness.ml" 91 2886 2901
+type(
+  bool
+)
+"e_constness.ml" 92 2902 2922 "e_constness.ml" 92 2902 2925
+type(
+  (Util.hint * E_t.shape) list
+)
+ident(
+  def vss "e_constness.ml" 93 2933 2947 "e_constness.ml" 93 2933 3003
+)
+"e_constness.ml" 92 2902 2927 "e_constness.ml" 92 2902 2928
+type(
+  E_t.expr
+)
+ident(
+  def e "e_constness.ml" 93 2933 2947 "e_constness.ml" 93 2933 3003
+)
+"e_constness.ml" 92 2902 2914 "e_constness.ml" 92 2902 2929
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 93 2933 2947 "e_constness.ml" 93 2933 2957
+type(
+  ?at:E_t.expr -> string -> bool
+)
+ident(
+  int_ref Errors.bug "errors.mli" 41 941 941 "errors.mli" 41 941 982
+)
+"e_constness.ml" 93 2933 2962 "e_constness.ml" 93 2933 2963
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 92 2902 2927 "e_constness.ml" 92 2902 2928
+)
+type(
+  E_t.expr option
+)
+"e_constness.ml" 93 2933 2964 "e_constness.ml" 93 2933 3003
+type(
+  string
+)
+"e_constness.ml" 93 2933 2947 "e_constness.ml" 93 2933 3003
+type(
+  bool
+)
+"e_constness.ml" 94 3004 3024 "e_constness.ml" 94 3004 3026
+type(
+  E_t.sequent
+)
+ident(
+  def sq "e_constness.ml" 95 3030 3044 "e_constness.ml" 95 3030 3101
+)
+"e_constness.ml" 94 3004 3016 "e_constness.ml" 94 3004 3026
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 95 3030 3044 "e_constness.ml" 95 3030 3054
+type(
+  ?at:E_t.expr -> string -> bool
+)
+ident(
+  int_ref Errors.bug "errors.mli" 41 941 941 "errors.mli" 41 941 982
+)
+"e_constness.ml" 95 3030 3059 "e_constness.ml" 95 3030 3060
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 58 1695 1707 "e_constness.ml" 58 1695 1708
+)
+type(
+  E_t.expr option
+)
+"e_constness.ml" 95 3030 3061 "e_constness.ml" 95 3030 3101
+type(
+  string
+)
+"e_constness.ml" 95 3030 3044 "e_constness.ml" 95 3030 3101
+type(
+  bool
+)
+"e_constness.ml" 96 3102 3120 "e_constness.ml" 96 3102 3121
+type(
+  E_t.expr
+)
+ident(
+  def e "e_constness.ml" 97 3170 3182 "e_constness.ml" 97 3170 3192
+)
+"e_constness.ml" 96 3102 3122 "e_constness.ml" 96 3102 3123
+type(
+  E_t.sel list
+)
+"e_constness.ml" 96 3102 3114 "e_constness.ml" 96 3102 3124
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 97 3170 3182 "e_constness.ml" 97 3170 3190
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 97 3170 3191 "e_constness.ml" 97 3170 3192
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 96 3102 3120 "e_constness.ml" 96 3102 3121
+)
+"e_constness.ml" 97 3170 3182 "e_constness.ml" 97 3170 3192
+type(
+  bool
+)
+"e_constness.ml" 98 3193 3212 "e_constness.ml" 98 3193 3214
+type(
+  E_t.expr
+)
+ident(
+  def op "e_constness.ml" 99 3225 3239 "e_constness.ml" 99 3225 3280
+)
+"e_constness.ml" 98 3193 3216 "e_constness.ml" 98 3193 3220
+type(
+  E_t.expr list
+)
+ident(
+  def args "e_constness.ml" 99 3225 3239 "e_constness.ml" 99 3225 3280
+)
+"e_constness.ml" 98 3193 3205 "e_constness.ml" 98 3193 3221
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 99 3225 3239 "e_constness.ml" 99 3225 3247
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 99 3225 3248 "e_constness.ml" 99 3225 3250
+type(
+  E_t.expr
+)
+ident(
+  int_ref op "e_constness.ml" 98 3193 3212 "e_constness.ml" 98 3193 3214
+)
+"e_constness.ml" 99 3225 3239 "e_constness.ml" 99 3225 3250
+type(
+  bool
+)
+"e_constness.ml" 99 3225 3251 "e_constness.ml" 99 3225 3253
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_constness.ml" 99 3225 3254 "e_constness.ml" 99 3225 3266
+type(
+  (E_t.expr -> bool) -> E_t.expr list -> bool
+)
+ident(
+  int_ref Ext.List.for_all "ext.mli" 26 1026 1028 "ext.mli" 26 1026 1073
+)
+"e_constness.ml" 99 3225 3267 "e_constness.ml" 99 3225 3275
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 99 3225 3276 "e_constness.ml" 99 3225 3280
+type(
+  E_t.expr list
+)
+ident(
+  int_ref args "e_constness.ml" 98 3193 3216 "e_constness.ml" 98 3193 3220
+)
+"e_constness.ml" 99 3225 3254 "e_constness.ml" 99 3225 3280
+type(
+  bool
+)
+"e_constness.ml" 99 3225 3239 "e_constness.ml" 99 3225 3280
+type(
+  bool
+)
+"e_constness.ml" 100 3281 3298 "e_constness.ml" 100 3281 3300
+type(
+  E_t.defn list
+)
+ident(
+  def ds "e_constness.ml" 100 3281 3308 "e_constness.ml" 115 3861 3876
+)
+"e_constness.ml" 100 3281 3302 "e_constness.ml" 100 3281 3303
+type(
+  E_t.expr
+)
+ident(
+  def e "e_constness.ml" 100 3281 3308 "e_constness.ml" 115 3861 3876
+)
+"e_constness.ml" 100 3281 3293 "e_constness.ml" 100 3281 3304
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 101 3314 3336 "e_constness.ml" 101 3314 3343
+type(
+  E_t.hyp_ Property.wrapped Deque.dq -> E_t.defn list -> bool
+)
+ident(
+  def c_defns "e_constness.ml" 100 3281 3308 "e_constness.ml" 115 3861 3876
+)
+"e_constness.ml" 101 3314 3344 "e_constness.ml" 101 3314 3346
+type(
+  E_t.hyp_ Property.wrapped Deque.dq
+)
+ident(
+  def cx "e_constness.ml" 101 3314 3349 "e_constness.ml" 112 3794 3815
+)
+"e_constness.ml" 102 3358 3376 "e_constness.ml" 102 3358 3378
+type(
+  E_t.defn list
+)
+"e_constness.ml" 102 3358 3382 "e_constness.ml" 102 3358 3390
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 102 3358 3391 "e_constness.ml" 102 3358 3392
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 100 3281 3302 "e_constness.ml" 100 3281 3303
+)
+"e_constness.ml" 102 3358 3382 "e_constness.ml" 102 3358 3392
+type(
+  bool
+)
+"e_constness.ml" 103 3393 3411 "e_constness.ml" 103 3393 3412
+type(
+  E_t.defn
+)
+ident(
+  def d "e_constness.ml" 103 3393 3422 "e_constness.ml" 112 3794 3815
+)
+"e_constness.ml" 103 3393 3416 "e_constness.ml" 103 3393 3418
+type(
+  E_t.defn list
+)
+ident(
+  def ds "e_constness.ml" 103 3393 3422 "e_constness.ml" 112 3794 3815
+)
+"e_constness.ml" 103 3393 3411 "e_constness.ml" 103 3393 3418
+type(
+  E_t.defn list
+)
+"e_constness.ml" 104 3428 3452 "e_constness.ml" 104 3428 3457
+type(
+  bool
+)
+ident(
+  def dgood "e_constness.ml" 108 3590 3610 "e_constness.ml" 111 3743 3793
+)
+"e_constness.ml" 104 3428 3466 "e_constness.ml" 104 3428 3467
+type(
+  E_t.defn
+)
+ident(
+  int_ref d "e_constness.ml" 103 3393 3411 "e_constness.ml" 103 3393 3412
+)
+"e_constness.ml" 104 3428 3466 "e_constness.ml" 104 3428 3472
+type(
+  E_t.defn_
+)
+"e_constness.ml" 105 3478 3512 "e_constness.ml" 105 3478 3513
+type(
+  Util.hint
+)
+"e_constness.ml" 105 3478 3515 "e_constness.ml" 105 3478 3516
+type(
+  E_t.expr
+)
+ident(
+  def e "e_constness.ml" 105 3478 3521 "e_constness.ml" 105 3478 3531
+)
+"e_constness.ml" 105 3478 3502 "e_constness.ml" 105 3478 3517
+type(
+  E_t.defn_
+)
+type(
+  E_t.defn_
+)
+"e_constness.ml" 105 3478 3521 "e_constness.ml" 105 3478 3529
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 105 3478 3530 "e_constness.ml" 105 3478 3531
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 105 3478 3515 "e_constness.ml" 105 3478 3516
+)
+"e_constness.ml" 105 3478 3521 "e_constness.ml" 105 3478 3531
+type(
+  bool
+)
+"e_constness.ml" 106 3532 3556 "e_constness.ml" 106 3532 3557
+type(
+  E_t.defn_
+)
+type(
+  E_t.defn_
+)
+"e_constness.ml" 106 3532 3561 "e_constness.ml" 106 3532 3566
+type(
+  bool
+)
+"e_constness.ml" 104 3428 3460 "e_constness.ml" 106 3532 3566
+type(
+  bool
+)
+"e_constness.ml" 108 3590 3610 "e_constness.ml" 108 3590 3615
+type(
+  bool
+)
+ident(
+  int_ref dgood "e_constness.ml" 104 3428 3452 "e_constness.ml" 104 3428 3457
+)
+"e_constness.ml" 108 3590 3616 "e_constness.ml" 108 3590 3618
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_constness.ml" 109 3619 3645 "e_constness.ml" 109 3619 3646
+type(
+  E_t.hyp_ Property.wrapped
+)
+ident(
+  def h "e_constness.ml" 110 3688 3710 "e_constness.ml" 111 3743 3793
+)
+"e_constness.ml" 109 3619 3655 "e_constness.ml" 109 3619 3656
+type(
+  E_t.defn
+)
+ident(
+  int_ref d "e_constness.ml" 103 3393 3411 "e_constness.ml" 103 3393 3412
+)
+"e_constness.ml" 109 3619 3658 "e_constness.ml" 109 3619 3662
+type(
+  E_t.wheredef
+)
+"e_constness.ml" 109 3619 3664 "e_constness.ml" 109 3619 3671
+type(
+  E_t.visibility
+)
+"e_constness.ml" 109 3619 3673 "e_constness.ml" 109 3619 3678
+type(
+  E_t.export
+)
+"e_constness.ml" 109 3619 3649 "e_constness.ml" 109 3619 3679
+type(
+  E_t.hyp_
+)
+"e_constness.ml" 109 3619 3680 "e_constness.ml" 109 3619 3682
+type(
+  E_t.hyp_ -> E_t.defn -> E_t.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_constness.ml" 109 3619 3683 "e_constness.ml" 109 3619 3684
+type(
+  E_t.defn
+)
+ident(
+  int_ref d "e_constness.ml" 103 3393 3411 "e_constness.ml" 103 3393 3412
+)
+"e_constness.ml" 109 3619 3649 "e_constness.ml" 109 3619 3684
+type(
+  E_t.hyp_ Property.wrapped
+)
+"e_constness.ml" 110 3688 3714 "e_constness.ml" 110 3688 3715
+type(
+  E_t.hyp_ Property.wrapped
+)
+ident(
+  def h "e_constness.ml" 111 3743 3765 "e_constness.ml" 111 3743 3793
+)
+"e_constness.ml" 110 3688 3718 "e_constness.ml" 110 3688 3724
+type(
+  E_t.hyp_ Property.wrapped ->
+  bool Property.pfuncs -> bool -> E_t.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"e_constness.ml" 110 3688 3725 "e_constness.ml" 110 3688 3726
+type(
+  E_t.hyp_ Property.wrapped
+)
+ident(
+  int_ref h "e_constness.ml" 109 3619 3645 "e_constness.ml" 109 3619 3646
+)
+"e_constness.ml" 110 3688 3727 "e_constness.ml" 110 3688 3734
+type(
+  bool Property.pfuncs
+)
+ident(
+  int_ref isconst "e_constness.ml" 13 150 154 "e_constness.ml" 13 150 161
+)
+"e_constness.ml" 110 3688 3735 "e_constness.ml" 110 3688 3739
+type(
+  bool
+)
+"e_constness.ml" 110 3688 3718 "e_constness.ml" 110 3688 3739
+type(
+  E_t.hyp_ Property.wrapped
+)
+"e_constness.ml" 111 3743 3765 "e_constness.ml" 111 3743 3772
+type(
+  E_t.hyp_ Property.wrapped Deque.dq -> E_t.defn list -> bool
+)
+ident(
+  int_ref c_defns "e_constness.ml" 101 3314 3336 "e_constness.ml" 101 3314 3343
+)
+"e_constness.ml" 111 3743 3774 "e_constness.ml" 111 3743 3784
+type(
+  E_t.hyp_ Property.wrapped Deque.dq ->
+  E_t.hyp_ Property.wrapped -> E_t.hyp_ Property.wrapped Deque.dq
+)
+ident(
+  int_ref Deque.snoc "deque.mli" 13 220 220 "deque.mli" 13 220 252
+)
+"e_constness.ml" 111 3743 3785 "e_constness.ml" 111 3743 3787
+type(
+  E_t.hyp_ Property.wrapped Deque.dq
+)
+ident(
+  int_ref cx "e_constness.ml" 101 3314 3344 "e_constness.ml" 101 3314 3346
+)
+"e_constness.ml" 111 3743 3788 "e_constness.ml" 111 3743 3789
+type(
+  E_t.hyp_ Property.wrapped
+)
+ident(
+  int_ref h "e_constness.ml" 110 3688 3714 "e_constness.ml" 110 3688 3715
+)
+"e_constness.ml" 111 3743 3773 "e_constness.ml" 111 3743 3790
+type(
+  E_t.hyp_ Property.wrapped Deque.dq
+)
+"e_constness.ml" 111 3743 3791 "e_constness.ml" 111 3743 3793
+type(
+  E_t.defn list
+)
+ident(
+  int_ref ds "e_constness.ml" 103 3393 3416 "e_constness.ml" 103 3393 3418
+)
+"e_constness.ml" 111 3743 3765 "e_constness.ml" 111 3743 3793
+type(
+  bool
+)
+"e_constness.ml" 110 3688 3710 "e_constness.ml" 111 3743 3793
+type(
+  bool
+)
+"e_constness.ml" 109 3619 3641 "e_constness.ml" 111 3743 3793
+type(
+  bool
+)
+"e_constness.ml" 108 3590 3610 "e_constness.ml" 111 3743 3793
+type(
+  bool
+)
+"e_constness.ml" 103 3393 3422 "e_constness.ml" 112 3794 3815
+type(
+  bool
+)
+"e_constness.ml" 101 3314 3349 "e_constness.ml" 112 3794 3815
+type(
+  E_t.defn list -> bool
+)
+"e_constness.ml" 114 3833 3847 "e_constness.ml" 114 3833 3854
+type(
+  E_t.hyp Deque.dq -> E_t.defn list -> bool
+)
+ident(
+  int_ref c_defns "e_constness.ml" 101 3314 3336 "e_constness.ml" 101 3314 3343
+)
+"e_constness.ml" 114 3833 3855 "e_constness.ml" 114 3833 3857
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_constness.ml" 59 1731 1743 "e_constness.ml" 59 1731 1745
+)
+"e_constness.ml" 114 3833 3858 "e_constness.ml" 114 3833 3860
+type(
+  E_t.defn list
+)
+ident(
+  int_ref ds "e_constness.ml" 100 3281 3298 "e_constness.ml" 100 3281 3300
+)
+"e_constness.ml" 114 3833 3847 "e_constness.ml" 114 3833 3860
+type(
+  bool
+)
+"e_constness.ml" 100 3281 3308 "e_constness.ml" 115 3861 3876
+type(
+  bool
+)
+"e_constness.ml" 116 3877 3898 "e_constness.ml" 116 3877 3899
+type(
+  string
+)
+"e_constness.ml" 116 3877 3891 "e_constness.ml" 116 3877 3899
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 117 3900 3918 "e_constness.ml" 117 3900 3919
+type(
+  string
+)
+type(
+  string
+)
+"e_constness.ml" 117 3900 3914 "e_constness.ml" 117 3900 3919
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 116 3877 3891 "e_constness.ml" 117 3900 3919
+type(
+  E_t.expr_
+)
+"e_constness.ml" 118 3920 3937 "e_constness.ml" 118 3920 3938
+type(
+  bool
+)
+"e_constness.ml" 118 3920 3934 "e_constness.ml" 118 3920 3938
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 116 3877 3889 "e_constness.ml" 119 3939 3952
+type(
+  E_t.expr_
+)
+"e_constness.ml" 119 3939 3956 "e_constness.ml" 119 3939 3960
+type(
+  bool
+)
+"e_constness.ml" 120 3961 3981 "e_constness.ml" 120 3961 3982
+type(
+  E_t.expr
+)
+ident(
+  def e "e_constness.ml" 124 4057 4071 "e_constness.ml" 124 4057 4081
+)
+"e_constness.ml" 120 3961 3984 "e_constness.ml" 120 3961 3985
+type(
+  Method.t
+)
+"e_constness.ml" 120 3961 3975 "e_constness.ml" 120 3961 3986
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 121 3987 4006 "e_constness.ml" 121 3987 4007
+type(
+  E_t.expr
+)
+ident(
+  def e "e_constness.ml" 124 4057 4071 "e_constness.ml" 124 4057 4081
+)
+"e_constness.ml" 121 3987 4009 "e_constness.ml" 121 3987 4010
+type(
+  string
+)
+"e_constness.ml" 121 3987 4001 "e_constness.ml" 121 3987 4011
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 120 3961 3975 "e_constness.ml" 121 3987 4011
+type(
+  E_t.expr_
+)
+"e_constness.ml" 122 4012 4034 "e_constness.ml" 122 4012 4035
+type(
+  E_t.expr
+)
+ident(
+  def e "e_constness.ml" 124 4057 4071 "e_constness.ml" 124 4057 4081
+)
+"e_constness.ml" 122 4012 4037 "e_constness.ml" 122 4012 4038
+type(
+  E_t.pform
+)
+"e_constness.ml" 122 4012 4026 "e_constness.ml" 122 4012 4039
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 120 3961 3973 "e_constness.ml" 123 4040 4053
+type(
+  E_t.expr_
+)
+"e_constness.ml" 124 4057 4071 "e_constness.ml" 124 4057 4079
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 124 4057 4080 "e_constness.ml" 124 4057 4081
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 120 3961 3981 "e_constness.ml" 120 3961 3982
+)
+"e_constness.ml" 124 4057 4071 "e_constness.ml" 124 4057 4081
+type(
+  bool
+)
+"e_constness.ml" 125 4082 4103 "e_constness.ml" 125 4082 4104
+type(
+  E_t.quantifier
+)
+"e_constness.ml" 125 4082 4106 "e_constness.ml" 125 4082 4108
+type(
+  E_t.bounds
+)
+ident(
+  def bs "e_constness.ml" 128 4170 4187 "e_constness.ml" 143 4755 4770
+)
+"e_constness.ml" 125 4082 4110 "e_constness.ml" 125 4082 4112
+type(
+  E_t.expr
+)
+ident(
+  def qe "e_constness.ml" 128 4170 4187 "e_constness.ml" 143 4755 4770
+)
+"e_constness.ml" 125 4082 4096 "e_constness.ml" 125 4082 4113
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 126 4114 4133 "e_constness.ml" 126 4114 4135
+type(
+  E_t.bounds
+)
+ident(
+  def bs "e_constness.ml" 128 4170 4187 "e_constness.ml" 143 4755 4770
+)
+"e_constness.ml" 126 4114 4137 "e_constness.ml" 126 4114 4139
+type(
+  E_t.expr
+)
+ident(
+  def qe "e_constness.ml" 128 4170 4187 "e_constness.ml" 143 4755 4770
+)
+"e_constness.ml" 126 4114 4128 "e_constness.ml" 126 4114 4140
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 125 4082 4096 "e_constness.ml" 126 4114 4140
+type(
+  E_t.expr_
+)
+"e_constness.ml" 127 4141 4162 "e_constness.ml" 127 4141 4164
+type(
+  E_t.expr
+)
+ident(
+  def qe "e_constness.ml" 128 4170 4187 "e_constness.ml" 143 4755 4770
+)
+"e_constness.ml" 127 4141 4166 "e_constness.ml" 127 4141 4168
+type(
+  E_t.bounds
+)
+ident(
+  def bs "e_constness.ml" 128 4170 4187 "e_constness.ml" 143 4755 4770
+)
+"e_constness.ml" 127 4141 4155 "e_constness.ml" 127 4141 4169
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 125 4082 4094 "e_constness.ml" 128 4170 4183
+type(
+  E_t.expr_
+)
+"e_constness.ml" 129 4193 4215 "e_constness.ml" 129 4193 4223
+type(
+  E_t.hyp_ Property.wrapped Deque.dq ->
+  (Util.hint * 'b * E_t.bound_domain) list -> bool
+)
+ident(
+  def c_bounds "e_constness.ml" 128 4170 4187 "e_constness.ml" 143 4755 4770
+)
+"e_constness.ml" 129 4193 4224 "e_constness.ml" 129 4193 4226
+type(
+  E_t.hyp_ Property.wrapped Deque.dq
+)
+ident(
+  def cx "e_constness.ml" 129 4193 4229 "e_constness.ml" 140 4687 4708
+)
+"e_constness.ml" 130 4238 4256 "e_constness.ml" 130 4238 4258
+type(
+  (Util.hint * 'b * E_t.bound_domain) list
+)
+"e_constness.ml" 130 4238 4262 "e_constness.ml" 130 4238 4270
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 130 4238 4271 "e_constness.ml" 130 4238 4273
+type(
+  E_t.expr
+)
+ident(
+  int_ref qe "e_constness.ml" 125 4082 4110 "e_constness.ml" 125 4082 4112
+)
+"e_constness.ml" 130 4238 4262 "e_constness.ml" 130 4238 4273
+type(
+  bool
+)
+"e_constness.ml" 131 4274 4293 "e_constness.ml" 131 4274 4294
+type(
+  Util.hint
+)
+ident(
+  def v "e_constness.ml" 131 4274 4312 "e_constness.ml" 140 4687 4708
+)
+"e_constness.ml" 131 4274 4296 "e_constness.ml" 131 4274 4297
+type(
+  'b
+)
+ident(
+  def k "e_constness.ml" 131 4274 4312 "e_constness.ml" 140 4687 4708
+)
+"e_constness.ml" 131 4274 4299 "e_constness.ml" 131 4274 4301
+type(
+  E_t.bound_domain
+)
+ident(
+  def bd "e_constness.ml" 131 4274 4312 "e_constness.ml" 140 4687 4708
+)
+"e_constness.ml" 131 4274 4292 "e_constness.ml" 131 4274 4302
+type(
+  Util.hint * 'b * E_t.bound_domain
+)
+"e_constness.ml" 131 4274 4306 "e_constness.ml" 131 4274 4308
+type(
+  (Util.hint * 'b * E_t.bound_domain) list
+)
+ident(
+  def bs "e_constness.ml" 131 4274 4312 "e_constness.ml" 140 4687 4708
+)
+"e_constness.ml" 131 4274 4292 "e_constness.ml" 131 4274 4308
+type(
+  (Util.hint * 'b * E_t.bound_domain) list
+)
+"e_constness.ml" 132 4318 4342 "e_constness.ml" 132 4318 4348
+type(
+  bool
+)
+ident(
+  def bdgood "e_constness.ml" 136 4469 4489 "e_constness.ml" 139 4635 4686
+)
+"e_constness.ml" 132 4318 4357 "e_constness.ml" 132 4318 4359
+type(
+  E_t.bound_domain
+)
+ident(
+  int_ref bd "e_constness.ml" 131 4274 4299 "e_constness.ml" 131 4274 4301
+)
+"e_constness.ml" 133 4365 4396 "e_constness.ml" 133 4365 4397
+type(
+  E_t.expr
+)
+ident(
+  def d "e_constness.ml" 133 4365 4401 "e_constness.ml" 133 4365 4411
+)
+"e_constness.ml" 133 4365 4389 "e_constness.ml" 133 4365 4397
+type(
+  E_t.bound_domain
+)
+type(
+  E_t.bound_domain
+)
+"e_constness.ml" 133 4365 4401 "e_constness.ml" 133 4365 4409
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 133 4365 4410 "e_constness.ml" 133 4365 4411
+type(
+  E_t.expr
+)
+ident(
+  int_ref d "e_constness.ml" 133 4365 4396 "e_constness.ml" 133 4365 4397
+)
+"e_constness.ml" 133 4365 4401 "e_constness.ml" 133 4365 4411
+type(
+  bool
+)
+"e_constness.ml" 134 4412 4436 "e_constness.ml" 134 4412 4437
+type(
+  E_t.bound_domain
+)
+type(
+  E_t.bound_domain
+)
+"e_constness.ml" 134 4412 4441 "e_constness.ml" 134 4412 4445
+type(
+  bool
+)
+"e_constness.ml" 132 4318 4351 "e_constness.ml" 134 4412 4445
+type(
+  bool
+)
+"e_constness.ml" 136 4469 4489 "e_constness.ml" 136 4469 4495
+type(
+  bool
+)
+ident(
+  int_ref bdgood "e_constness.ml" 132 4318 4342 "e_constness.ml" 132 4318 4348
+)
+"e_constness.ml" 136 4469 4496 "e_constness.ml" 136 4469 4498
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_constness.ml" 137 4499 4525 "e_constness.ml" 137 4499 4526
+type(
+  E_t.hyp_ Property.wrapped
+)
+ident(
+  def h "e_constness.ml" 138 4580 4602 "e_constness.ml" 139 4635 4686
+)
+"e_constness.ml" 137 4499 4536 "e_constness.ml" 137 4499 4537
+type(
+  Util.hint
+)
+ident(
+  int_ref v "e_constness.ml" 131 4274 4293 "e_constness.ml" 131 4274 4294
+)
+"e_constness.ml" 137 4499 4539 "e_constness.ml" 137 4499 4549
+type(
+  E_t.shape
+)
+"e_constness.ml" 137 4499 4551 "e_constness.ml" 137 4499 4559
+type(
+  E_t.kind
+)
+"e_constness.ml" 137 4499 4561 "e_constness.ml" 137 4499 4570
+type(
+  E_t.hdom
+)
+"e_constness.ml" 137 4499 4529 "e_constness.ml" 137 4499 4571
+type(
+  E_t.hyp_
+)
+"e_constness.ml" 137 4499 4572 "e_constness.ml" 137 4499 4574
+type(
+  E_t.hyp_ -> Util.hint -> E_t.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_constness.ml" 137 4499 4575 "e_constness.ml" 137 4499 4576
+type(
+  Util.hint
+)
+ident(
+  int_ref v "e_constness.ml" 131 4274 4293 "e_constness.ml" 131 4274 4294
+)
+"e_constness.ml" 137 4499 4529 "e_constness.ml" 137 4499 4576
+type(
+  E_t.hyp_ Property.wrapped
+)
+"e_constness.ml" 138 4580 4606 "e_constness.ml" 138 4580 4607
+type(
+  E_t.hyp_ Property.wrapped
+)
+ident(
+  def h "e_constness.ml" 139 4635 4657 "e_constness.ml" 139 4635 4686
+)
+"e_constness.ml" 138 4580 4610 "e_constness.ml" 138 4580 4616
+type(
+  E_t.hyp_ Property.wrapped ->
+  bool Property.pfuncs -> bool -> E_t.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"e_constness.ml" 138 4580 4617 "e_constness.ml" 138 4580 4618
+type(
+  E_t.hyp_ Property.wrapped
+)
+ident(
+  int_ref h "e_constness.ml" 137 4499 4525 "e_constness.ml" 137 4499 4526
+)
+"e_constness.ml" 138 4580 4619 "e_constness.ml" 138 4580 4626
+type(
+  bool Property.pfuncs
+)
+ident(
+  int_ref isconst "e_constness.ml" 13 150 154 "e_constness.ml" 13 150 161
+)
+"e_constness.ml" 138 4580 4627 "e_constness.ml" 138 4580 4631
+type(
+  bool
+)
+"e_constness.ml" 138 4580 4610 "e_constness.ml" 138 4580 4631
+type(
+  E_t.hyp_ Property.wrapped
+)
+"e_constness.ml" 139 4635 4657 "e_constness.ml" 139 4635 4665
+type(
+  E_t.hyp_ Property.wrapped Deque.dq ->
+  (Util.hint * 'b * E_t.bound_domain) list -> bool
+)
+ident(
+  int_ref c_bounds "e_constness.ml" 129 4193 4215 "e_constness.ml" 129 4193 4223
+)
+"e_constness.ml" 139 4635 4667 "e_constness.ml" 139 4635 4677
+type(
+  E_t.hyp_ Property.wrapped Deque.dq ->
+  E_t.hyp_ Property.wrapped -> E_t.hyp_ Property.wrapped Deque.dq
+)
+ident(
+  int_ref Deque.snoc "deque.mli" 13 220 220 "deque.mli" 13 220 252
+)
+"e_constness.ml" 139 4635 4678 "e_constness.ml" 139 4635 4680
+type(
+  E_t.hyp_ Property.wrapped Deque.dq
+)
+ident(
+  int_ref cx "e_constness.ml" 129 4193 4224 "e_constness.ml" 129 4193 4226
+)
+"e_constness.ml" 139 4635 4681 "e_constness.ml" 139 4635 4682
+type(
+  E_t.hyp_ Property.wrapped
+)
+ident(
+  int_ref h "e_constness.ml" 138 4580 4606 "e_constness.ml" 138 4580 4607
+)
+"e_constness.ml" 139 4635 4666 "e_constness.ml" 139 4635 4683
+type(
+  E_t.hyp_ Property.wrapped Deque.dq
+)
+"e_constness.ml" 139 4635 4684 "e_constness.ml" 139 4635 4686
+type(
+  (Util.hint * 'b * E_t.bound_domain) list
+)
+ident(
+  int_ref bs "e_constness.ml" 131 4274 4306 "e_constness.ml" 131 4274 4308
+)
+"e_constness.ml" 139 4635 4657 "e_constness.ml" 139 4635 4686
+type(
+  bool
+)
+"e_constness.ml" 138 4580 4602 "e_constness.ml" 139 4635 4686
+type(
+  bool
+)
+"e_constness.ml" 137 4499 4521 "e_constness.ml" 139 4635 4686
+type(
+  bool
+)
+"e_constness.ml" 136 4469 4489 "e_constness.ml" 139 4635 4686
+type(
+  bool
+)
+"e_constness.ml" 131 4274 4312 "e_constness.ml" 140 4687 4708
+type(
+  bool
+)
+"e_constness.ml" 129 4193 4229 "e_constness.ml" 140 4687 4708
+type(
+  (Util.hint * 'b * E_t.bound_domain) list -> bool
+)
+"e_constness.ml" 142 4726 4740 "e_constness.ml" 142 4726 4748
+type(
+  E_t.hyp Deque.dq -> E_t.bounds -> bool
+)
+ident(
+  int_ref c_bounds "e_constness.ml" 129 4193 4215 "e_constness.ml" 129 4193 4223
+)
+"e_constness.ml" 142 4726 4749 "e_constness.ml" 142 4726 4751
+type(
+  E_t.hyp Deque.dq
+)
+ident(
+  int_ref cx "e_constness.ml" 59 1731 1743 "e_constness.ml" 59 1731 1745
+)
+"e_constness.ml" 142 4726 4752 "e_constness.ml" 142 4726 4754
+type(
+  E_t.bounds
+)
+ident(
+  int_ref bs "e_constness.ml" 125 4082 4106 "e_constness.ml" 125 4082 4108
+)
+"e_constness.ml" 142 4726 4740 "e_constness.ml" 142 4726 4754
+type(
+  bool
+)
+"e_constness.ml" 128 4170 4187 "e_constness.ml" 143 4755 4770
+type(
+  bool
+)
+"e_constness.ml" 144 4771 4791 "e_constness.ml" 144 4771 4792
+type(
+  Util.hint
+)
+ident(
+  def v "e_constness.ml" 145 4806 4820 "e_constness.ml" 145 4806 4830
+)
+"e_constness.ml" 144 4771 4794 "e_constness.ml" 144 4771 4798
+type(
+  E_t.expr option
+)
+"e_constness.ml" 144 4771 4800 "e_constness.ml" 144 4771 4801
+type(
+  E_t.expr
+)
+ident(
+  def e "e_constness.ml" 145 4806 4820 "e_constness.ml" 145 4806 4830
+)
+"e_constness.ml" 144 4771 4783 "e_constness.ml" 144 4771 4802
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 145 4806 4820 "e_constness.ml" 145 4806 4828
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 145 4806 4829 "e_constness.ml" 145 4806 4830
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 144 4771 4800 "e_constness.ml" 144 4771 4801
+)
+"e_constness.ml" 145 4806 4820 "e_constness.ml" 145 4806 4830
+type(
+  bool
+)
+"e_constness.ml" 146 4831 4853 "e_constness.ml" 146 4831 4854
+type(
+  Util.hint
+)
+ident(
+  def v "e_constness.ml" 149 4914 4928 "e_constness.ml" 149 4914 4952
+)
+"e_constness.ml" 146 4831 4861 "e_constness.ml" 146 4831 4862
+type(
+  E_t.expr
+)
+ident(
+  def d "e_constness.ml" 149 4914 4928 "e_constness.ml" 149 4914 4952
+)
+"e_constness.ml" 146 4831 4856 "e_constness.ml" 146 4831 4862
+type(
+  E_t.expr option
+)
+"e_constness.ml" 146 4831 4864 "e_constness.ml" 146 4831 4865
+type(
+  E_t.expr
+)
+ident(
+  def e "e_constness.ml" 149 4914 4928 "e_constness.ml" 149 4914 4952
+)
+"e_constness.ml" 146 4831 4845 "e_constness.ml" 146 4831 4866
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 147 4867 4888 "e_constness.ml" 147 4867 4889
+type(
+  Util.hint
+)
+ident(
+  def v "e_constness.ml" 149 4914 4928 "e_constness.ml" 149 4914 4952
+)
+"e_constness.ml" 147 4867 4891 "e_constness.ml" 147 4867 4892
+type(
+  E_t.expr
+)
+ident(
+  def d "e_constness.ml" 149 4914 4928 "e_constness.ml" 149 4914 4952
+)
+"e_constness.ml" 147 4867 4894 "e_constness.ml" 147 4867 4895
+type(
+  E_t.expr
+)
+ident(
+  def e "e_constness.ml" 149 4914 4928 "e_constness.ml" 149 4914 4952
+)
+"e_constness.ml" 147 4867 4881 "e_constness.ml" 147 4867 4896
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 146 4831 4843 "e_constness.ml" 148 4897 4910
+type(
+  E_t.expr_
+)
+"e_constness.ml" 149 4914 4928 "e_constness.ml" 149 4914 4936
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 149 4914 4937 "e_constness.ml" 149 4914 4938
+type(
+  E_t.expr
+)
+ident(
+  int_ref d "e_constness.ml" 146 4831 4861 "e_constness.ml" 146 4831 4862
+)
+"e_constness.ml" 149 4914 4928 "e_constness.ml" 149 4914 4938
+type(
+  bool
+)
+"e_constness.ml" 149 4914 4939 "e_constness.ml" 149 4914 4941
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_constness.ml" 149 4914 4942 "e_constness.ml" 149 4914 4950
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 149 4914 4951 "e_constness.ml" 149 4914 4952
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 146 4831 4864 "e_constness.ml" 146 4831 4865
+)
+"e_constness.ml" 149 4914 4942 "e_constness.ml" 149 4914 4952
+type(
+  bool
+)
+"e_constness.ml" 149 4914 4928 "e_constness.ml" 149 4914 4952
+type(
+  bool
+)
+"e_constness.ml" 150 4953 4969 "e_constness.ml" 150 4953 4970
+type(
+  E_t.expr
+)
+ident(
+  def e "e_constness.ml" 151 4981 4995 "e_constness.ml" 151 4981 5033
+)
+"e_constness.ml" 150 4953 4972 "e_constness.ml" 150 4953 4973
+type(
+  E_t.expr
+)
+ident(
+  def f "e_constness.ml" 151 4981 4995 "e_constness.ml" 151 4981 5033
+)
+"e_constness.ml" 150 4953 4975 "e_constness.ml" 150 4953 4976
+type(
+  E_t.expr
+)
+ident(
+  def g "e_constness.ml" 151 4981 4995 "e_constness.ml" 151 4981 5033
+)
+"e_constness.ml" 150 4953 4965 "e_constness.ml" 150 4953 4977
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 151 4981 4995 "e_constness.ml" 151 4981 5003
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 151 4981 5004 "e_constness.ml" 151 4981 5005
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 150 4953 4969 "e_constness.ml" 150 4953 4970
+)
+"e_constness.ml" 151 4981 4995 "e_constness.ml" 151 4981 5005
+type(
+  bool
+)
+"e_constness.ml" 151 4981 5006 "e_constness.ml" 151 4981 5008
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_constness.ml" 151 4981 5009 "e_constness.ml" 151 4981 5017
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 151 4981 5018 "e_constness.ml" 151 4981 5019
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_constness.ml" 150 4953 4972 "e_constness.ml" 150 4953 4973
+)
+"e_constness.ml" 151 4981 5009 "e_constness.ml" 151 4981 5019
+type(
+  bool
+)
+"e_constness.ml" 151 4981 5020 "e_constness.ml" 151 4981 5022
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_constness.ml" 151 4981 5023 "e_constness.ml" 151 4981 5031
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 151 4981 5032 "e_constness.ml" 151 4981 5033
+type(
+  E_t.expr
+)
+ident(
+  int_ref g "e_constness.ml" 150 4953 4975 "e_constness.ml" 150 4953 4976
+)
+"e_constness.ml" 151 4981 5023 "e_constness.ml" 151 4981 5033
+type(
+  bool
+)
+"e_constness.ml" 151 4981 5009 "e_constness.ml" 151 4981 5033
+type(
+  bool
+)
+"e_constness.ml" 151 4981 4995 "e_constness.ml" 151 4981 5033
+type(
+  bool
+)
+"e_constness.ml" 152 5034 5054 "e_constness.ml" 152 5034 5055
+type(
+  E_t.bullet
+)
+"e_constness.ml" 152 5034 5057 "e_constness.ml" 152 5034 5059
+type(
+  E_t.expr list
+)
+ident(
+  def es "e_constness.ml" 156 5134 5151 "e_constness.ml" 156 5134 5175
+)
+"e_constness.ml" 152 5034 5048 "e_constness.ml" 152 5034 5060
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 153 5061 5081 "e_constness.ml" 153 5061 5083
+type(
+  E_t.expr list
+)
+ident(
+  def es "e_constness.ml" 156 5134 5151 "e_constness.ml" 156 5134 5175
+)
+"e_constness.ml" 153 5061 5075 "e_constness.ml" 153 5061 5083
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 152 5034 5048 "e_constness.ml" 153 5061 5083
+type(
+  E_t.expr_
+)
+"e_constness.ml" 154 5084 5106 "e_constness.ml" 154 5084 5108
+type(
+  E_t.expr list
+)
+ident(
+  def es "e_constness.ml" 156 5134 5151 "e_constness.ml" 156 5134 5175
+)
+"e_constness.ml" 154 5084 5098 "e_constness.ml" 154 5084 5108
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 152 5034 5048 "e_constness.ml" 154 5084 5108
+type(
+  E_t.expr_
+)
+"e_constness.ml" 155 5109 5131 "e_constness.ml" 155 5109 5133
+type(
+  E_t.expr list
+)
+ident(
+  def es "e_constness.ml" 156 5134 5151 "e_constness.ml" 156 5134 5175
+)
+"e_constness.ml" 155 5109 5123 "e_constness.ml" 155 5109 5133
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 152 5034 5046 "e_constness.ml" 156 5134 5147
+type(
+  E_t.expr_
+)
+"e_constness.ml" 156 5134 5151 "e_constness.ml" 156 5134 5163
+type(
+  (E_t.expr -> bool) -> E_t.expr list -> bool
+)
+ident(
+  int_ref Ext.List.for_all "ext.mli" 26 1026 1028 "ext.mli" 26 1026 1073
+)
+"e_constness.ml" 156 5134 5164 "e_constness.ml" 156 5134 5172
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 156 5134 5173 "e_constness.ml" 156 5134 5175
+type(
+  E_t.expr list
+)
+ident(
+  int_ref es "e_constness.ml" 152 5034 5057 "e_constness.ml" 152 5034 5059
+)
+"e_constness.ml" 156 5134 5151 "e_constness.ml" 156 5134 5175
+type(
+  bool
+)
+"e_constness.ml" 157 5176 5196 "e_constness.ml" 157 5176 5197
+type(
+  E_t.expr
+)
+ident(
+  def f "e_constness.ml" 158 5206 5220 "e_constness.ml" 158 5206 5258
+)
+"e_constness.ml" 157 5176 5199 "e_constness.ml" 157 5176 5201
+type(
+  E_t.expr list
+)
+ident(
+  def es "e_constness.ml" 158 5206 5220 "e_constness.ml" 158 5206 5258
+)
+"e_constness.ml" 157 5176 5188 "e_constness.ml" 157 5176 5202
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 158 5206 5220 "e_constness.ml" 158 5206 5228
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 158 5206 5229 "e_constness.ml" 158 5206 5230
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_constness.ml" 157 5176 5196 "e_constness.ml" 157 5176 5197
+)
+"e_constness.ml" 158 5206 5220 "e_constness.ml" 158 5206 5230
+type(
+  bool
+)
+"e_constness.ml" 158 5206 5231 "e_constness.ml" 158 5206 5233
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_constness.ml" 158 5206 5234 "e_constness.ml" 158 5206 5246
+type(
+  (E_t.expr -> bool) -> E_t.expr list -> bool
+)
+ident(
+  int_ref Ext.List.for_all "ext.mli" 26 1026 1028 "ext.mli" 26 1026 1073
+)
+"e_constness.ml" 158 5206 5247 "e_constness.ml" 158 5206 5255
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 158 5206 5256 "e_constness.ml" 158 5206 5258
+type(
+  E_t.expr list
+)
+ident(
+  int_ref es "e_constness.ml" 157 5176 5199 "e_constness.ml" 157 5176 5201
+)
+"e_constness.ml" 158 5206 5234 "e_constness.ml" 158 5206 5258
+type(
+  bool
+)
+"e_constness.ml" 158 5206 5220 "e_constness.ml" 158 5206 5258
+type(
+  bool
+)
+"e_constness.ml" 159 5259 5278 "e_constness.ml" 159 5259 5280
+type(
+  (string * E_t.expr) list
+)
+ident(
+  def fs "e_constness.ml" 161 5305 5322 "e_constness.ml" 161 5305 5364
+)
+"e_constness.ml" 159 5259 5273 "e_constness.ml" 159 5259 5280
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 160 5281 5302 "e_constness.ml" 160 5281 5304
+type(
+  (string * E_t.expr) list
+)
+ident(
+  def fs "e_constness.ml" 161 5305 5322 "e_constness.ml" 161 5305 5364
+)
+"e_constness.ml" 160 5281 5295 "e_constness.ml" 160 5281 5304
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 159 5259 5271 "e_constness.ml" 161 5305 5318
+type(
+  E_t.expr_
+)
+"e_constness.ml" 161 5305 5322 "e_constness.ml" 161 5305 5334
+type(
+  (string * E_t.expr -> bool) -> (string * E_t.expr) list -> bool
+)
+ident(
+  int_ref Ext.List.for_all "ext.mli" 26 1026 1028 "ext.mli" 26 1026 1073
+)
+"e_constness.ml" 161 5305 5341 "e_constness.ml" 161 5305 5342
+type(
+  string
+)
+"e_constness.ml" 161 5305 5344 "e_constness.ml" 161 5305 5345
+type(
+  E_t.expr
+)
+ident(
+  def e "e_constness.ml" 161 5305 5350 "e_constness.ml" 161 5305 5360
+)
+"e_constness.ml" 161 5305 5340 "e_constness.ml" 161 5305 5346
+type(
+  string * E_t.expr
+)
+"e_constness.ml" 161 5305 5350 "e_constness.ml" 161 5305 5358
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 161 5305 5359 "e_constness.ml" 161 5305 5360
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 161 5305 5344 "e_constness.ml" 161 5305 5345
+)
+"e_constness.ml" 161 5305 5350 "e_constness.ml" 161 5305 5360
+type(
+  bool
+)
+"e_constness.ml" 161 5305 5335 "e_constness.ml" 161 5305 5361
+type(
+  string * E_t.expr -> bool
+)
+"e_constness.ml" 161 5305 5362 "e_constness.ml" 161 5305 5364
+type(
+  (string * E_t.expr) list
+)
+ident(
+  int_ref fs "e_constness.ml" 159 5259 5278 "e_constness.ml" 159 5259 5280
+)
+"e_constness.ml" 161 5305 5322 "e_constness.ml" 161 5305 5364
+type(
+  bool
+)
+"e_constness.ml" 162 5365 5384 "e_constness.ml" 162 5365 5385
+type(
+  E_t.expr
+)
+ident(
+  def e "e_constness.ml" 163 5393 5407 "e_constness.ml" 163 5393 5431
+)
+"e_constness.ml" 162 5365 5387 "e_constness.ml" 162 5365 5388
+type(
+  E_t.expr
+)
+ident(
+  def f "e_constness.ml" 163 5393 5407 "e_constness.ml" 163 5393 5431
+)
+"e_constness.ml" 162 5365 5377 "e_constness.ml" 162 5365 5389
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 163 5393 5407 "e_constness.ml" 163 5393 5415
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 163 5393 5416 "e_constness.ml" 163 5393 5417
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 162 5365 5384 "e_constness.ml" 162 5365 5385
+)
+"e_constness.ml" 163 5393 5407 "e_constness.ml" 163 5393 5417
+type(
+  bool
+)
+"e_constness.ml" 163 5393 5418 "e_constness.ml" 163 5393 5420
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_constness.ml" 163 5393 5421 "e_constness.ml" 163 5393 5429
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 163 5393 5430 "e_constness.ml" 163 5393 5431
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_constness.ml" 162 5365 5387 "e_constness.ml" 162 5365 5388
+)
+"e_constness.ml" 163 5393 5421 "e_constness.ml" 163 5393 5431
+type(
+  bool
+)
+"e_constness.ml" 163 5393 5407 "e_constness.ml" 163 5393 5431
+type(
+  bool
+)
+"e_constness.ml" 164 5432 5452 "e_constness.ml" 164 5432 5453
+type(
+  E_t.expr
+)
+ident(
+  def e "e_constness.ml" 165 5462 5476 "e_constness.ml" 171 5689 5741
+)
+"e_constness.ml" 164 5432 5455 "e_constness.ml" 164 5432 5457
+type(
+  E_t.exspec list
+)
+ident(
+  def xs "e_constness.ml" 165 5462 5476 "e_constness.ml" 171 5689 5741
+)
+"e_constness.ml" 164 5432 5444 "e_constness.ml" 164 5432 5458
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 165 5462 5480 "e_constness.ml" 165 5462 5488
+type(
+  E_t.expoint list * 'c Property.wrapped -> bool
+)
+ident(
+  def c_exspec "e_constness.ml" 171 5689 5703 "e_constness.ml" 171 5689 5741
+)
+"e_constness.ml" 165 5462 5490 "e_constness.ml" 165 5462 5492
+type(
+  E_t.expoint list
+)
+ident(
+  def tr "e_constness.ml" 166 5500 5516 "e_constness.ml" 169 5634 5671
+)
+"e_constness.ml" 165 5462 5494 "e_constness.ml" 165 5462 5496
+type(
+  'c Property.wrapped
+)
+ident(
+  def re "e_constness.ml" 166 5500 5516 "e_constness.ml" 169 5634 5671
+)
+"e_constness.ml" 165 5462 5489 "e_constness.ml" 165 5462 5497
+type(
+  E_t.expoint list * 'c Property.wrapped
+)
+"e_constness.ml" 166 5500 5516 "e_constness.ml" 166 5500 5528
+type(
+  (E_t.expoint -> bool) -> E_t.expoint list -> bool
+)
+ident(
+  int_ref Ext.List.for_all "ext.mli" 26 1026 1028 "ext.mli" 26 1026 1073
+)
+"e_constness.ml" 167 5544 5575 "e_constness.ml" 167 5544 5576
+type(
+  string
+)
+"e_constness.ml" 167 5544 5564 "e_constness.ml" 167 5544 5576
+type(
+  E_t.expoint
+)
+"e_constness.ml" 167 5544 5580 "e_constness.ml" 167 5544 5584
+type(
+  bool
+)
+"e_constness.ml" 168 5585 5618 "e_constness.ml" 168 5585 5619
+type(
+  E_t.expr
+)
+ident(
+  def e "e_constness.ml" 168 5585 5623 "e_constness.ml" 168 5585 5633
+)
+"e_constness.ml" 168 5585 5605 "e_constness.ml" 168 5585 5619
+type(
+  E_t.expoint
+)
+"e_constness.ml" 168 5585 5623 "e_constness.ml" 168 5585 5631
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 168 5585 5632 "e_constness.ml" 168 5585 5633
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 168 5585 5618 "e_constness.ml" 168 5585 5619
+)
+"e_constness.ml" 168 5585 5623 "e_constness.ml" 168 5585 5633
+type(
+  bool
+)
+"e_constness.ml" 166 5500 5529 "e_constness.ml" 169 5634 5653
+type(
+  E_t.expoint -> bool
+)
+"e_constness.ml" 169 5634 5654 "e_constness.ml" 169 5634 5656
+type(
+  E_t.expoint list
+)
+ident(
+  int_ref tr "e_constness.ml" 165 5462 5490 "e_constness.ml" 165 5462 5492
+)
+"e_constness.ml" 166 5500 5516 "e_constness.ml" 169 5634 5656
+type(
+  bool
+)
+"e_constness.ml" 169 5634 5657 "e_constness.ml" 169 5634 5659
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_constness.ml" 169 5634 5660 "e_constness.ml" 169 5634 5668
+type(
+  'c Property.wrapped -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 169 5634 5669 "e_constness.ml" 169 5634 5671
+type(
+  'c Property.wrapped
+)
+ident(
+  int_ref re "e_constness.ml" 165 5462 5494 "e_constness.ml" 165 5462 5496
+)
+"e_constness.ml" 169 5634 5660 "e_constness.ml" 169 5634 5671
+type(
+  bool
+)
+"e_constness.ml" 166 5500 5516 "e_constness.ml" 169 5634 5671
+type(
+  bool
+)
+"e_constness.ml" 171 5689 5703 "e_constness.ml" 171 5689 5711
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 171 5689 5712 "e_constness.ml" 171 5689 5713
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 164 5432 5452 "e_constness.ml" 164 5432 5453
+)
+"e_constness.ml" 171 5689 5703 "e_constness.ml" 171 5689 5713
+type(
+  bool
+)
+"e_constness.ml" 171 5689 5714 "e_constness.ml" 171 5689 5716
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_constness.ml" 171 5689 5717 "e_constness.ml" 171 5689 5729
+type(
+  (E_t.exspec -> bool) -> E_t.exspec list -> bool
+)
+ident(
+  int_ref Ext.List.for_all "ext.mli" 26 1026 1028 "ext.mli" 26 1026 1073
+)
+"e_constness.ml" 171 5689 5730 "e_constness.ml" 171 5689 5738
+type(
+  E_t.exspec -> bool
+)
+ident(
+  int_ref c_exspec "e_constness.ml" 165 5462 5480 "e_constness.ml" 165 5462 5488
+)
+"e_constness.ml" 171 5689 5739 "e_constness.ml" 171 5689 5741
+type(
+  E_t.exspec list
+)
+ident(
+  int_ref xs "e_constness.ml" 164 5432 5455 "e_constness.ml" 164 5432 5457
+)
+"e_constness.ml" 171 5689 5717 "e_constness.ml" 171 5689 5741
+type(
+  bool
+)
+"e_constness.ml" 171 5689 5703 "e_constness.ml" 171 5689 5741
+type(
+  bool
+)
+"e_constness.ml" 165 5462 5476 "e_constness.ml" 171 5689 5741
+type(
+  bool
+)
+"e_constness.ml" 172 5742 5760 "e_constness.ml" 172 5742 5764
+type(
+  (E_t.expr * E_t.expr) list
+)
+ident(
+  def arms "e_constness.ml" 173 5774 5788 "e_constness.ml" 180 6013 6030
+)
+"e_constness.ml" 172 5742 5766 "e_constness.ml" 172 5742 5769
+type(
+  E_t.expr option
+)
+ident(
+  def oth "e_constness.ml" 173 5774 5788 "e_constness.ml" 180 6013 6030
+)
+"e_constness.ml" 172 5742 5754 "e_constness.ml" 172 5742 5770
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_constness.ml" 173 5774 5788 "e_constness.ml" 173 5774 5800
+type(
+  (E_t.expr * E_t.expr -> bool) -> (E_t.expr * E_t.expr) list -> bool
+)
+ident(
+  int_ref Ext.List.for_all "ext.mli" 26 1026 1028 "ext.mli" 26 1026 1073
+)
+"e_constness.ml" 174 5807 5828 "e_constness.ml" 174 5807 5829
+type(
+  E_t.expr
+)
+ident(
+  def p "e_constness.ml" 174 5807 5837 "e_constness.ml" 174 5807 5861
+)
+"e_constness.ml" 174 5807 5831 "e_constness.ml" 174 5807 5832
+type(
+  E_t.expr
+)
+ident(
+  def e "e_constness.ml" 174 5807 5837 "e_constness.ml" 174 5807 5861
+)
+"e_constness.ml" 174 5807 5827 "e_constness.ml" 174 5807 5833
+type(
+  E_t.expr * E_t.expr
+)
+"e_constness.ml" 174 5807 5837 "e_constness.ml" 174 5807 5845
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 174 5807 5846 "e_constness.ml" 174 5807 5847
+type(
+  E_t.expr
+)
+ident(
+  int_ref p "e_constness.ml" 174 5807 5828 "e_constness.ml" 174 5807 5829
+)
+"e_constness.ml" 174 5807 5837 "e_constness.ml" 174 5807 5847
+type(
+  bool
+)
+"e_constness.ml" 174 5807 5848 "e_constness.ml" 174 5807 5850
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_constness.ml" 174 5807 5851 "e_constness.ml" 174 5807 5859
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 174 5807 5860 "e_constness.ml" 174 5807 5861
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 174 5807 5831 "e_constness.ml" 174 5807 5832
+)
+"e_constness.ml" 174 5807 5851 "e_constness.ml" 174 5807 5861
+type(
+  bool
+)
+"e_constness.ml" 174 5807 5837 "e_constness.ml" 174 5807 5861
+type(
+  bool
+)
+"e_constness.ml" 173 5774 5801 "e_constness.ml" 175 5862 5879
+type(
+  E_t.expr * E_t.expr -> bool
+)
+"e_constness.ml" 175 5862 5880 "e_constness.ml" 175 5862 5884
+type(
+  (E_t.expr * E_t.expr) list
+)
+ident(
+  int_ref arms "e_constness.ml" 172 5742 5760 "e_constness.ml" 172 5742 5764
+)
+"e_constness.ml" 173 5774 5788 "e_constness.ml" 175 5862 5884
+type(
+  bool
+)
+"e_constness.ml" 176 5885 5899 "e_constness.ml" 176 5885 5901
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"e_constness.ml" 177 5908 5930 "e_constness.ml" 177 5908 5933
+type(
+  E_t.expr option
+)
+ident(
+  int_ref oth "e_constness.ml" 172 5742 5766 "e_constness.ml" 172 5742 5769
+)
+"e_constness.ml" 178 5939 5959 "e_constness.ml" 178 5939 5963
+type(
+  E_t.expr option
+)
+type(
+  E_t.expr option
+)
+"e_constness.ml" 178 5939 5967 "e_constness.ml" 178 5939 5971
+type(
+  bool
+)
+"e_constness.ml" 179 5972 5997 "e_constness.ml" 179 5972 5998
+type(
+  E_t.expr
+)
+ident(
+  def e "e_constness.ml" 179 5972 6002 "e_constness.ml" 179 5972 6012
+)
+"e_constness.ml" 179 5972 5992 "e_constness.ml" 179 5972 5998
+type(
+  E_t.expr option
+)
+type(
+  E_t.expr option
+)
+"e_constness.ml" 179 5972 6002 "e_constness.ml" 179 5972 6010
+type(
+  E_t.expr -> bool
+)
+ident(
+  int_ref is_const "e_constness.ml" 18 350 354 "e_constness.ml" 18 350 362
+)
+"e_constness.ml" 179 5972 6011 "e_constness.ml" 179 5972 6012
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 179 5972 5997 "e_constness.ml" 179 5972 5998
+)
+"e_constness.ml" 179 5972 6002 "e_constness.ml" 179 5972 6012
+type(
+  bool
+)
+"e_constness.ml" 176 5885 5902 "e_constness.ml" 180 6013 6030
+type(
+  bool
+)
+"e_constness.ml" 173 5774 5788 "e_constness.ml" 180 6013 6030
+type(
+  bool
+)
+"e_constness.ml" 60 1759 1779 "e_constness.ml" 180 6013 6030
+type(
+  bool
+)
+"e_constness.ml" 182 6042 6050 "e_constness.ml" 182 6042 6056
+type(
+  E_t.expr -> bool Property.pfuncs -> bool -> E_t.expr
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"e_constness.ml" 182 6042 6057 "e_constness.ml" 182 6042 6058
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_constness.ml" 58 1695 1707 "e_constness.ml" 58 1695 1708
+)
+"e_constness.ml" 182 6042 6059 "e_constness.ml" 182 6042 6066
+type(
+  bool Property.pfuncs
+)
+ident(
+  int_ref isconst "e_constness.ml" 13 150 154 "e_constness.ml" 13 150 161
+)
+"e_constness.ml" 182 6042 6067 "e_constness.ml" 182 6042 6072
+type(
+  bool
+)
+ident(
+  int_ref const "e_constness.ml" 60 1759 1771 "e_constness.ml" 60 1759 1776
+)
+"e_constness.ml" 182 6042 6050 "e_constness.ml" 182 6042 6072
+type(
+  E_t.expr
+)
+"e_constness.ml" 60 1759 1767 "e_constness.ml" 182 6042 6072
+type(
+  E_t.expr
+)
+"e_constness.ml" 59 1731 1739 "e_constness.ml" 182 6042 6072
+type(
+  E_t.expr
+)
+"e_constness.ml" 58 1695 1703 "e_constness.ml" 182 6042 6072
+type(
+  E_t.expr
+)
+"e_constness.ml" 25 511 533 "e_constness.ml" 182 6042 6072
+type(
+  E_t.expr
+)
+"e_constness.ml" 184 6074 6087 "e_constness.ml" 184 6074 6090
+type(
+  unit Visit.scx
+)
+ident(
+  def scx "e_constness.ml" 184 6074 6091 "e_constness.ml" 184 6074 6145
+)
+"e_constness.ml" 184 6074 6091 "e_constness.ml" 184 6074 6092
+type(
+  E_t.hyp
+)
+ident(
+  def h "e_constness.ml" 184 6074 6095 "e_constness.ml" 184 6074 6145
+)
+"e_constness.ml" 184 6074 6099 "e_constness.ml" 184 6074 6108
+type(
+  E_t.hyp -> bool
+)
+ident(
+  int_ref has_const "e_constness.ml" 16 265 269 "e_constness.ml" 16 265 278
+)
+"e_constness.ml" 184 6074 6109 "e_constness.ml" 184 6074 6110
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_constness.ml" 184 6074 6091 "e_constness.ml" 184 6074 6092
+)
+"e_constness.ml" 184 6074 6098 "e_constness.ml" 184 6074 6111
+type(
+  bool
+)
+"e_constness.ml" 184 6074 6118 "e_constness.ml" 184 6074 6121
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_constness.ml" 184 6074 6087 "e_constness.ml" 184 6074 6090
+)
+"e_constness.ml" 184 6074 6122 "e_constness.ml" 184 6074 6123
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_constness.ml" 184 6074 6091 "e_constness.ml" 184 6074 6092
+)
+"e_constness.ml" 184 6074 6117 "e_constness.ml" 184 6074 6124
+type(
+  unit Visit.scx * E_t.hyp
+)
+"e_constness.ml" 184 6074 6130 "e_constness.ml" 184 6074 6135
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_constness.ml" 23 474 484 "e_constness.ml" 23 474 500
+)
+"e_constness.ml" 184 6074 6130 "e_constness.ml" 184 6074 6139
+type(
+  'a -> unit Visit.scx -> E_t.hyp -> unit Visit.scx * E_t.hyp
+)
+ident(
+  ext_ref hyp
+)
+type(
+  unit Visit.scx -> E_t.hyp -> unit Visit.scx * E_t.hyp
+)
+type(
+  unit Visit.scx -> E_t.hyp -> unit Visit.scx * E_t.hyp
+)
+"e_constness.ml" 184 6074 6140 "e_constness.ml" 184 6074 6143
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_constness.ml" 184 6074 6087 "e_constness.ml" 184 6074 6090
+)
+"e_constness.ml" 184 6074 6144 "e_constness.ml" 184 6074 6145
+type(
+  E_t.hyp
+)
+ident(
+  int_ref h "e_constness.ml" 184 6074 6091 "e_constness.ml" 184 6074 6092
+)
+"e_constness.ml" 184 6074 6130 "e_constness.ml" 184 6074 6145
+type(
+  unit Visit.scx * E_t.hyp
+)
+"e_constness.ml" 184 6074 6095 "e_constness.ml" 184 6074 6145
+type(
+  unit Visit.scx * E_t.hyp
+)
+"e_constness.ml" 185 6146 6161 "e_constness.ml" 185 6146 6164
+type(
+  unit Visit.scx
+)
+ident(
+  def scx "e_constness.ml" 185 6146 6165 "e_constness.ml" 185 6146 6215
+)
+"e_constness.ml" 185 6146 6165 "e_constness.ml" 185 6146 6166
+type(
+  E_t.pform
+)
+ident(
+  def p "e_constness.ml" 185 6146 6169 "e_constness.ml" 185 6146 6215
+)
+"e_constness.ml" 185 6146 6173 "e_constness.ml" 185 6146 6182
+type(
+  E_t.pform -> bool
+)
+ident(
+  int_ref has_const "e_constness.ml" 16 265 269 "e_constness.ml" 16 265 278
+)
+"e_constness.ml" 185 6146 6183 "e_constness.ml" 185 6146 6184
+type(
+  E_t.pform
+)
+ident(
+  int_ref p "e_constness.ml" 185 6146 6165 "e_constness.ml" 185 6146 6166
+)
+"e_constness.ml" 185 6146 6172 "e_constness.ml" 185 6146 6185
+type(
+  bool
+)
+"e_constness.ml" 185 6146 6191 "e_constness.ml" 185 6146 6192
+type(
+  E_t.pform
+)
+ident(
+  int_ref p "e_constness.ml" 185 6146 6165 "e_constness.ml" 185 6146 6166
+)
+"e_constness.ml" 185 6146 6198 "e_constness.ml" 185 6146 6203
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_constness.ml" 23 474 484 "e_constness.ml" 23 474 500
+)
+"e_constness.ml" 185 6146 6198 "e_constness.ml" 185 6146 6209
+type(
+  'a -> unit Visit.scx -> E_t.pform -> E_t.pform
+)
+ident(
+  ext_ref pform
+)
+type(
+  unit Visit.scx -> E_t.pform -> E_t.pform
+)
+type(
+  unit Visit.scx -> E_t.pform -> E_t.pform
+)
+"e_constness.ml" 185 6146 6210 "e_constness.ml" 185 6146 6213
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_constness.ml" 185 6146 6161 "e_constness.ml" 185 6146 6164
+)
+"e_constness.ml" 185 6146 6214 "e_constness.ml" 185 6146 6215
+type(
+  E_t.pform
+)
+ident(
+  int_ref p "e_constness.ml" 185 6146 6165 "e_constness.ml" 185 6146 6166
+)
+"e_constness.ml" 185 6146 6198 "e_constness.ml" 185 6146 6215
+type(
+  E_t.pform
+)
+"e_constness.ml" 185 6146 6169 "e_constness.ml" 185 6146 6215
+type(
+  E_t.pform
+)
+"e_constness.ml" 186 6216 6230 "e_constness.ml" 186 6216 6233
+type(
+  unit Visit.scx
+)
+ident(
+  def scx "e_constness.ml" 186 6216 6234 "e_constness.ml" 186 6216 6283
+)
+"e_constness.ml" 186 6216 6234 "e_constness.ml" 186 6216 6235
+type(
+  E_t.defn
+)
+ident(
+  def p "e_constness.ml" 186 6216 6238 "e_constness.ml" 186 6216 6283
+)
+"e_constness.ml" 186 6216 6242 "e_constness.ml" 186 6216 6251
+type(
+  E_t.defn -> bool
+)
+ident(
+  int_ref has_const "e_constness.ml" 16 265 269 "e_constness.ml" 16 265 278
+)
+"e_constness.ml" 186 6216 6252 "e_constness.ml" 186 6216 6253
+type(
+  E_t.defn
+)
+ident(
+  int_ref p "e_constness.ml" 186 6216 6234 "e_constness.ml" 186 6216 6235
+)
+"e_constness.ml" 186 6216 6241 "e_constness.ml" 186 6216 6254
+type(
+  bool
+)
+"e_constness.ml" 186 6216 6260 "e_constness.ml" 186 6216 6261
+type(
+  E_t.defn
+)
+ident(
+  int_ref p "e_constness.ml" 186 6216 6234 "e_constness.ml" 186 6216 6235
+)
+"e_constness.ml" 186 6216 6267 "e_constness.ml" 186 6216 6272
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+type(
+  'a
+)
+ident(
+  int_ref super "e_constness.ml" 23 474 484 "e_constness.ml" 23 474 500
+)
+"e_constness.ml" 186 6216 6267 "e_constness.ml" 186 6216 6277
+type(
+  'a -> unit Visit.scx -> E_t.defn -> E_t.defn
+)
+ident(
+  ext_ref defn
+)
+type(
+  unit Visit.scx -> E_t.defn -> E_t.defn
+)
+type(
+  unit Visit.scx -> E_t.defn -> E_t.defn
+)
+"e_constness.ml" 186 6216 6278 "e_constness.ml" 186 6216 6281
+type(
+  unit Visit.scx
+)
+ident(
+  int_ref scx "e_constness.ml" 186 6216 6230 "e_constness.ml" 186 6216 6233
+)
+"e_constness.ml" 186 6216 6282 "e_constness.ml" 186 6216 6283
+type(
+  E_t.defn
+)
+ident(
+  int_ref p "e_constness.ml" 186 6216 6234 "e_constness.ml" 186 6216 6235
+)
+"e_constness.ml" 186 6216 6267 "e_constness.ml" 186 6216 6283
+type(
+  E_t.defn
+)
+"e_constness.ml" 186 6216 6238 "e_constness.ml" 186 6216 6283
+type(
+  E_t.defn
+)

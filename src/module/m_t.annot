@@ -1,0 +1,2028 @@
+"m_t.ml" 66 1473 1477 "m_t.ml" 66 1473 1490
+type(
+  summary
+)
+ident(
+  def empty_summary "m_t.ml" 73 1599 1599 "m_t.ml" 0 0 -1
+)
+"m_t.ml" 67 1495 1511 "m_t.ml" 67 1495 1512
+type(
+  int
+)
+"m_t.ml" 68 1514 1532 "m_t.ml" 68 1514 1533
+type(
+  int
+)
+"m_t.ml" 68 1514 1535 "m_t.ml" 68 1514 1537
+type(
+  Loc.locus list
+)
+"m_t.ml" 68 1514 1531 "m_t.ml" 68 1514 1538
+type(
+  int * Loc.locus list
+)
+"m_t.ml" 69 1540 1559 "m_t.ml" 69 1540 1560
+type(
+  int
+)
+"m_t.ml" 69 1540 1562 "m_t.ml" 69 1540 1564
+type(
+  Loc.locus list
+)
+"m_t.ml" 69 1540 1558 "m_t.ml" 69 1540 1565
+type(
+  int * Loc.locus list
+)
+"m_t.ml" 70 1567 1589 "m_t.ml" 70 1567 1590
+type(
+  int
+)
+"m_t.ml" 70 1567 1592 "m_t.ml" 70 1567 1594
+type(
+  Loc.locus list
+)
+"m_t.ml" 70 1567 1588 "m_t.ml" 70 1567 1595
+type(
+  int * Loc.locus list
+)
+"m_t.ml" 66 1473 1493 "m_t.ml" 70 1567 1596
+type(
+  summary
+)
+"m_t.ml" 73 1599 1603 "m_t.ml" 73 1599 1614
+type(
+  summary -> summary -> summary
+)
+ident(
+  def cat_summary "m_t.ml" 86 1941 1941 "m_t.ml" 0 0 -1
+)
+"m_t.ml" 73 1599 1615 "m_t.ml" 73 1599 1616
+type(
+  summary
+)
+ident(
+  def s "m_t.ml" 73 1599 1617 "m_t.ml" 83 1892 1938
+)
+"m_t.ml" 73 1599 1617 "m_t.ml" 73 1599 1618
+type(
+  summary
+)
+ident(
+  def t "m_t.ml" 74 1621 1625 "m_t.ml" 83 1892 1938
+)
+"m_t.ml" 74 1621 1629 "m_t.ml" 74 1621 1633
+type(
+  int * 'a list -> int * 'a list -> int * 'a list
+)
+ident(
+  def vcat "m_t.ml" 76 1676 1680 "m_t.ml" 83 1892 1938
+)
+"m_t.ml" 74 1621 1635 "m_t.ml" 74 1621 1636
+type(
+  int
+)
+ident(
+  def m "m_t.ml" 74 1621 1641 "m_t.ml" 75 1650 1672
+)
+"m_t.ml" 74 1621 1638 "m_t.ml" 74 1621 1639
+type(
+  'a list
+)
+ident(
+  def j "m_t.ml" 74 1621 1641 "m_t.ml" 75 1650 1672
+)
+"m_t.ml" 74 1621 1634 "m_t.ml" 74 1621 1640
+type(
+  int * 'a list
+)
+"m_t.ml" 74 1621 1642 "m_t.ml" 74 1621 1643
+type(
+  int
+)
+ident(
+  def n "m_t.ml" 75 1650 1658 "m_t.ml" 75 1650 1672
+)
+"m_t.ml" 74 1621 1645 "m_t.ml" 74 1621 1646
+type(
+  'a list
+)
+ident(
+  def l "m_t.ml" 75 1650 1658 "m_t.ml" 75 1650 1672
+)
+"m_t.ml" 74 1621 1641 "m_t.ml" 74 1621 1647
+type(
+  int * 'a list
+)
+"m_t.ml" 75 1650 1659 "m_t.ml" 75 1650 1660
+type(
+  int
+)
+ident(
+  int_ref m "m_t.ml" 74 1621 1635 "m_t.ml" 74 1621 1636
+)
+"m_t.ml" 75 1650 1661 "m_t.ml" 75 1650 1662
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"m_t.ml" 75 1650 1663 "m_t.ml" 75 1650 1664
+type(
+  int
+)
+ident(
+  int_ref n "m_t.ml" 74 1621 1642 "m_t.ml" 74 1621 1643
+)
+"m_t.ml" 75 1650 1659 "m_t.ml" 75 1650 1664
+type(
+  int
+)
+"m_t.ml" 75 1650 1666 "m_t.ml" 75 1650 1667
+type(
+  'a list
+)
+ident(
+  int_ref j "m_t.ml" 74 1621 1638 "m_t.ml" 74 1621 1639
+)
+"m_t.ml" 75 1650 1668 "m_t.ml" 75 1650 1669
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"m_t.ml" 75 1650 1670 "m_t.ml" 75 1650 1671
+type(
+  'a list
+)
+ident(
+  int_ref l "m_t.ml" 74 1621 1645 "m_t.ml" 74 1621 1646
+)
+"m_t.ml" 75 1650 1666 "m_t.ml" 75 1650 1671
+type(
+  'a list
+)
+"m_t.ml" 75 1650 1658 "m_t.ml" 75 1650 1672
+type(
+  int * 'a list
+)
+"m_t.ml" 77 1682 1702 "m_t.ml" 77 1682 1703
+type(
+  summary
+)
+ident(
+  int_ref s "m_t.ml" 73 1599 1615 "m_t.ml" 73 1599 1616
+)
+"m_t.ml" 77 1682 1702 "m_t.ml" 77 1682 1713
+type(
+  int
+)
+"m_t.ml" 77 1682 1714 "m_t.ml" 77 1682 1715
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"m_t.ml" 77 1682 1716 "m_t.ml" 77 1682 1717
+type(
+  summary
+)
+ident(
+  int_ref t "m_t.ml" 73 1599 1617 "m_t.ml" 73 1599 1618
+)
+"m_t.ml" 77 1682 1716 "m_t.ml" 77 1682 1727
+type(
+  int
+)
+"m_t.ml" 77 1682 1702 "m_t.ml" 77 1682 1727
+type(
+  int
+)
+"m_t.ml" 78 1729 1750 "m_t.ml" 78 1729 1754
+type(
+  int * Loc.locus list -> int * Loc.locus list -> int * Loc.locus list
+)
+ident(
+  int_ref vcat "m_t.ml" 74 1621 1629 "m_t.ml" 74 1621 1633
+)
+"m_t.ml" 79 1755 1767 "m_t.ml" 79 1755 1768
+type(
+  summary
+)
+ident(
+  int_ref s "m_t.ml" 73 1599 1615 "m_t.ml" 73 1599 1616
+)
+"m_t.ml" 79 1755 1767 "m_t.ml" 79 1755 1779
+type(
+  int * Loc.locus list
+)
+"m_t.ml" 79 1755 1780 "m_t.ml" 79 1755 1781
+type(
+  summary
+)
+ident(
+  int_ref t "m_t.ml" 73 1599 1617 "m_t.ml" 73 1599 1618
+)
+"m_t.ml" 79 1755 1780 "m_t.ml" 79 1755 1792
+type(
+  int * Loc.locus list
+)
+"m_t.ml" 78 1729 1750 "m_t.ml" 79 1755 1792
+type(
+  int * Loc.locus list
+)
+"m_t.ml" 80 1794 1816 "m_t.ml" 80 1794 1820
+type(
+  int * Loc.locus list -> int * Loc.locus list -> int * Loc.locus list
+)
+ident(
+  int_ref vcat "m_t.ml" 74 1621 1629 "m_t.ml" 74 1621 1633
+)
+"m_t.ml" 81 1821 1833 "m_t.ml" 81 1821 1834
+type(
+  summary
+)
+ident(
+  int_ref s "m_t.ml" 73 1599 1615 "m_t.ml" 73 1599 1616
+)
+"m_t.ml" 81 1821 1833 "m_t.ml" 81 1821 1846
+type(
+  int * Loc.locus list
+)
+"m_t.ml" 81 1821 1847 "m_t.ml" 81 1821 1848
+type(
+  summary
+)
+ident(
+  int_ref t "m_t.ml" 73 1599 1617 "m_t.ml" 73 1599 1618
+)
+"m_t.ml" 81 1821 1847 "m_t.ml" 81 1821 1860
+type(
+  int * Loc.locus list
+)
+"m_t.ml" 80 1794 1816 "m_t.ml" 81 1821 1860
+type(
+  int * Loc.locus list
+)
+"m_t.ml" 82 1862 1887 "m_t.ml" 82 1862 1891
+type(
+  int * Loc.locus list -> int * Loc.locus list -> int * Loc.locus list
+)
+ident(
+  int_ref vcat "m_t.ml" 74 1621 1629 "m_t.ml" 74 1621 1633
+)
+"m_t.ml" 83 1892 1904 "m_t.ml" 83 1892 1905
+type(
+  summary
+)
+ident(
+  int_ref s "m_t.ml" 73 1599 1615 "m_t.ml" 73 1599 1616
+)
+"m_t.ml" 83 1892 1904 "m_t.ml" 83 1892 1920
+type(
+  int * Loc.locus list
+)
+"m_t.ml" 83 1892 1921 "m_t.ml" 83 1892 1922
+type(
+  summary
+)
+ident(
+  int_ref t "m_t.ml" 73 1599 1617 "m_t.ml" 73 1599 1618
+)
+"m_t.ml" 83 1892 1921 "m_t.ml" 83 1892 1937
+type(
+  int * Loc.locus list
+)
+"m_t.ml" 82 1862 1887 "m_t.ml" 83 1892 1937
+type(
+  int * Loc.locus list
+)
+"m_t.ml" 76 1676 1680 "m_t.ml" 83 1892 1938
+type(
+  summary
+)
+"m_t.ml" 74 1621 1625 "m_t.ml" 83 1892 1938
+type(
+  summary
+)
+"m_t.ml" 86 1941 1945 "m_t.ml" 86 1941 1954
+type(
+  unit Property.pfuncs
+)
+ident(
+  def salt_prop "m_t.ml" 91 2017 2017 "m_t.ml" 0 0 -1
+)
+"m_t.ml" 87 1970 1974 "m_t.ml" 87 1970 1987
+type(
+  ?uuid:string -> string -> unit Property.pfuncs
+)
+ident(
+  int_ref Property.make "property.mli" 53 1729 1729 "property.mli" 53 1729 1775
+)
+"m_t.ml" 88 1988 1996 "m_t.ml" 88 1988 2014
+type(
+  string
+)
+"m_t.ml" 87 1970 1974 "m_t.ml" 88 1988 2014
+type(
+  unit Property.pfuncs
+)
+"m_t.ml" 91 2017 2021 "m_t.ml" 91 2017 2036
+type(
+  modunit -> Expr.T.hyp_ Property.wrapped list
+)
+ident(
+  def hyps_of_modunit "m_t.ml" 179 4462 4462 "m_t.ml" 0 0 -1
+)
+"m_t.ml" 92 2037 2046 "m_t.ml" 92 2037 2048
+type(
+  modunit
+)
+type(
+  modunit
+)
+ident(
+  def mu "m_t.ml" 93 2061 2065 "m_t.ml" 176 4437 4459
+)
+"m_t.ml" 93 2061 2071 "m_t.ml" 93 2061 2073
+type(
+  modunit
+)
+ident(
+  int_ref mu "m_t.ml" 92 2037 2046 "m_t.ml" 92 2037 2048
+)
+"m_t.ml" 93 2061 2071 "m_t.ml" 93 2061 2078
+type(
+  modunit_
+)
+"m_t.ml" 94 2084 2100 "m_t.ml" 94 2084 2102
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  def cs "m_t.ml" 95 2106 2114 "m_t.ml" 102 2294 2308
+)
+"m_t.ml" 94 2084 2090 "m_t.ml" 94 2084 2102
+type(
+  modunit_
+)
+type(
+  modunit_
+)
+"m_t.ml" 95 2106 2114 "m_t.ml" 95 2106 2122
+type(
+  (Util.hint * Expr.T.shape -> Expr.T.hyp_ Property.wrapped) ->
+  (Util.hint * Expr.T.shape) list -> Expr.T.hyp_ Property.wrapped list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"m_t.ml" 96 2123 2141 "m_t.ml" 96 2123 2143
+type(
+  Util.hint
+)
+ident(
+  def nm "m_t.ml" 97 2153 2169 "m_t.ml" 101 2256 2292
+)
+"m_t.ml" 96 2123 2145 "m_t.ml" 96 2123 2148
+type(
+  Expr.T.shape
+)
+ident(
+  def shp "m_t.ml" 97 2153 2169 "m_t.ml" 101 2256 2292
+)
+"m_t.ml" 96 2123 2140 "m_t.ml" 96 2123 2149
+type(
+  Util.hint * Expr.T.shape
+)
+"m_t.ml" 98 2177 2197 "m_t.ml" 98 2177 2199
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "m_t.ml" 96 2123 2141 "m_t.ml" 96 2123 2143
+)
+"m_t.ml" 99 2201 2221 "m_t.ml" 99 2201 2224
+type(
+  Expr.T.shape
+)
+ident(
+  int_ref shp "m_t.ml" 96 2123 2145 "m_t.ml" 96 2123 2148
+)
+"m_t.ml" 100 2226 2246 "m_t.ml" 100 2226 2254
+type(
+  Expr.T.kind
+)
+"m_t.ml" 101 2256 2276 "m_t.ml" 101 2256 2285
+type(
+  Expr.T.hdom
+)
+"m_t.ml" 97 2153 2169 "m_t.ml" 101 2256 2286
+type(
+  Expr.T.hyp_
+)
+"m_t.ml" 101 2256 2287 "m_t.ml" 101 2256 2289
+type(
+  Expr.T.hyp_ -> modunit -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_t.ml" 101 2256 2290 "m_t.ml" 101 2256 2292
+type(
+  modunit
+)
+ident(
+  int_ref mu "m_t.ml" 92 2037 2046 "m_t.ml" 92 2037 2048
+)
+"m_t.ml" 97 2153 2169 "m_t.ml" 101 2256 2292
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"m_t.ml" 96 2123 2135 "m_t.ml" 101 2256 2293
+type(
+  Util.hint * Expr.T.shape -> Expr.T.hyp_ Property.wrapped
+)
+"m_t.ml" 102 2294 2306 "m_t.ml" 102 2294 2308
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  int_ref cs "m_t.ml" 94 2084 2100 "m_t.ml" 94 2084 2102
+)
+"m_t.ml" 95 2106 2114 "m_t.ml" 102 2294 2308
+type(
+  Expr.T.hyp_ Property.wrapped list
+)
+"m_t.ml" 103 2309 2326 "m_t.ml" 103 2309 2328
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  def cs "m_t.ml" 104 2332 2340 "m_t.ml" 111 2538 2552
+)
+"m_t.ml" 103 2309 2315 "m_t.ml" 103 2309 2328
+type(
+  modunit_
+)
+type(
+  modunit_
+)
+"m_t.ml" 104 2332 2340 "m_t.ml" 104 2332 2348
+type(
+  (Util.hint * Expr.T.shape -> Expr.T.hyp_ Property.wrapped) ->
+  (Util.hint * Expr.T.shape) list -> Expr.T.hyp_ Property.wrapped list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"m_t.ml" 105 2349 2367 "m_t.ml" 105 2349 2369
+type(
+  Util.hint
+)
+ident(
+  def nm "m_t.ml" 106 2379 2395 "m_t.ml" 110 2503 2536
+)
+"m_t.ml" 105 2349 2371 "m_t.ml" 105 2349 2374
+type(
+  Expr.T.shape
+)
+ident(
+  def shp "m_t.ml" 106 2379 2395 "m_t.ml" 110 2503 2536
+)
+"m_t.ml" 105 2349 2366 "m_t.ml" 105 2349 2375
+type(
+  Util.hint * Expr.T.shape
+)
+"m_t.ml" 107 2402 2433 "m_t.ml" 107 2402 2435
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "m_t.ml" 105 2349 2367 "m_t.ml" 105 2349 2369
+)
+"m_t.ml" 107 2402 2437 "m_t.ml" 107 2402 2440
+type(
+  Expr.T.shape
+)
+ident(
+  int_ref shp "m_t.ml" 105 2349 2371 "m_t.ml" 105 2349 2374
+)
+"m_t.ml" 107 2402 2422 "m_t.ml" 107 2402 2441
+type(
+  Expr.T.defn_
+)
+"m_t.ml" 107 2402 2442 "m_t.ml" 107 2402 2444
+type(
+  Expr.T.defn_ -> modunit -> Expr.T.defn
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_t.ml" 107 2402 2445 "m_t.ml" 107 2402 2447
+type(
+  modunit
+)
+ident(
+  int_ref mu "m_t.ml" 92 2037 2046 "m_t.ml" 92 2037 2048
+)
+"m_t.ml" 107 2402 2422 "m_t.ml" 107 2402 2447
+type(
+  Expr.T.defn
+)
+"m_t.ml" 108 2449 2469 "m_t.ml" 108 2449 2473
+type(
+  Expr.T.wheredef
+)
+"m_t.ml" 109 2475 2495 "m_t.ml" 109 2475 2501
+type(
+  Expr.T.visibility
+)
+"m_t.ml" 110 2503 2523 "m_t.ml" 110 2503 2529
+type(
+  Expr.T.export
+)
+"m_t.ml" 106 2379 2395 "m_t.ml" 110 2503 2530
+type(
+  Expr.T.hyp_
+)
+"m_t.ml" 110 2503 2531 "m_t.ml" 110 2503 2533
+type(
+  Expr.T.hyp_ -> modunit -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_t.ml" 110 2503 2534 "m_t.ml" 110 2503 2536
+type(
+  modunit
+)
+ident(
+  int_ref mu "m_t.ml" 92 2037 2046 "m_t.ml" 92 2037 2048
+)
+"m_t.ml" 106 2379 2395 "m_t.ml" 110 2503 2536
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"m_t.ml" 105 2349 2361 "m_t.ml" 110 2503 2537
+type(
+  Util.hint * Expr.T.shape -> Expr.T.hyp_ Property.wrapped
+)
+"m_t.ml" 111 2538 2550 "m_t.ml" 111 2538 2552
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  int_ref cs "m_t.ml" 103 2309 2326 "m_t.ml" 103 2309 2328
+)
+"m_t.ml" 104 2332 2340 "m_t.ml" 111 2538 2552
+type(
+  Expr.T.hyp_ Property.wrapped list
+)
+"m_t.ml" 112 2553 2569 "m_t.ml" 112 2553 2571
+type(
+  Util.hints
+)
+ident(
+  def vs "m_t.ml" 113 2575 2583 "m_t.ml" 113 2575 2620
+)
+"m_t.ml" 112 2553 2559 "m_t.ml" 112 2553 2571
+type(
+  modunit_
+)
+type(
+  modunit_
+)
+"m_t.ml" 113 2575 2583 "m_t.ml" 113 2575 2591
+type(
+  (Util.hint -> Expr.T.hyp_ Property.wrapped) ->
+  Util.hints -> Expr.T.hyp_ Property.wrapped list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"m_t.ml" 113 2575 2597 "m_t.ml" 113 2575 2599
+type(
+  Util.hint
+)
+ident(
+  def nm "m_t.ml" 113 2575 2603 "m_t.ml" 113 2575 2616
+)
+"m_t.ml" 113 2575 2608 "m_t.ml" 113 2575 2610
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "m_t.ml" 113 2575 2597 "m_t.ml" 113 2575 2599
+)
+"m_t.ml" 113 2575 2603 "m_t.ml" 113 2575 2610
+type(
+  Expr.T.hyp_
+)
+"m_t.ml" 113 2575 2611 "m_t.ml" 113 2575 2613
+type(
+  Expr.T.hyp_ -> modunit -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_t.ml" 113 2575 2614 "m_t.ml" 113 2575 2616
+type(
+  modunit
+)
+ident(
+  int_ref mu "m_t.ml" 92 2037 2046 "m_t.ml" 92 2037 2048
+)
+"m_t.ml" 113 2575 2603 "m_t.ml" 113 2575 2616
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"m_t.ml" 113 2575 2592 "m_t.ml" 113 2575 2617
+type(
+  Util.hint -> Expr.T.hyp_ Property.wrapped
+)
+"m_t.ml" 113 2575 2618 "m_t.ml" 113 2575 2620
+type(
+  Util.hints
+)
+ident(
+  int_ref vs "m_t.ml" 112 2553 2569 "m_t.ml" 112 2553 2571
+)
+"m_t.ml" 113 2575 2583 "m_t.ml" 113 2575 2620
+type(
+  Expr.T.hyp_ Property.wrapped list
+)
+"m_t.ml" 114 2621 2639 "m_t.ml" 114 2621 2641
+type(
+  Expr.T.defn
+)
+ident(
+  def df "m_t.ml" 117 2733 2741 "m_t.ml" 117 2733 2771
+)
+"m_t.ml" 114 2621 2643 "m_t.ml" 114 2621 2645
+type(
+  Expr.T.wheredef
+)
+ident(
+  def wd "m_t.ml" 117 2733 2741 "m_t.ml" 117 2733 2771
+)
+"m_t.ml" 114 2621 2647 "m_t.ml" 114 2621 2650
+type(
+  Expr.T.visibility
+)
+ident(
+  def vis "m_t.ml" 117 2733 2741 "m_t.ml" 117 2733 2771
+)
+"m_t.ml" 114 2621 2652 "m_t.ml" 114 2621 2654
+type(
+  Expr.T.export
+)
+ident(
+  def ex "m_t.ml" 117 2733 2741 "m_t.ml" 117 2733 2771
+)
+"m_t.ml" 114 2621 2627 "m_t.ml" 114 2621 2655
+type(
+  modunit_
+)
+type(
+  modunit_
+)
+"m_t.ml" 117 2733 2748 "m_t.ml" 117 2733 2750
+type(
+  Expr.T.defn
+)
+ident(
+  int_ref df "m_t.ml" 114 2621 2639 "m_t.ml" 114 2621 2641
+)
+"m_t.ml" 117 2733 2752 "m_t.ml" 117 2733 2754
+type(
+  Expr.T.wheredef
+)
+ident(
+  int_ref wd "m_t.ml" 114 2621 2643 "m_t.ml" 114 2621 2645
+)
+"m_t.ml" 117 2733 2756 "m_t.ml" 117 2733 2759
+type(
+  Expr.T.visibility
+)
+ident(
+  int_ref vis "m_t.ml" 114 2621 2647 "m_t.ml" 114 2621 2650
+)
+"m_t.ml" 117 2733 2761 "m_t.ml" 117 2733 2763
+type(
+  Expr.T.export
+)
+ident(
+  int_ref ex "m_t.ml" 114 2621 2652 "m_t.ml" 114 2621 2654
+)
+"m_t.ml" 117 2733 2742 "m_t.ml" 117 2733 2764
+type(
+  Expr.T.hyp_
+)
+"m_t.ml" 117 2733 2765 "m_t.ml" 117 2733 2767
+type(
+  Expr.T.hyp_ -> modunit -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_t.ml" 117 2733 2768 "m_t.ml" 117 2733 2770
+type(
+  modunit
+)
+ident(
+  int_ref mu "m_t.ml" 92 2037 2046 "m_t.ml" 92 2037 2048
+)
+"m_t.ml" 117 2733 2742 "m_t.ml" 117 2733 2770
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"m_t.ml" 117 2733 2741 "m_t.ml" 117 2733 2771
+type(
+  Expr.T.hyp_ Property.wrapped list
+)
+"m_t.ml" 118 2772 2785 "m_t.ml" 118 2772 2789
+type(
+  Util.hint option
+)
+"m_t.ml" 118 2772 2791 "m_t.ml" 118 2772 2792
+type(
+  Expr.T.expr
+)
+ident(
+  def e "m_t.ml" 119 2797 2805 "m_t.ml" 119 2797 2837
+)
+"m_t.ml" 118 2772 2778 "m_t.ml" 118 2772 2793
+type(
+  modunit_
+)
+type(
+  modunit_
+)
+"m_t.ml" 119 2797 2812 "m_t.ml" 119 2797 2813
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "m_t.ml" 118 2772 2791 "m_t.ml" 118 2772 2792
+)
+"m_t.ml" 119 2797 2815 "m_t.ml" 119 2797 2821
+type(
+  Expr.T.visibility
+)
+"m_t.ml" 119 2797 2823 "m_t.ml" 119 2797 2829
+type(
+  Expr.T.time
+)
+"m_t.ml" 119 2797 2806 "m_t.ml" 119 2797 2830
+type(
+  Expr.T.hyp_
+)
+"m_t.ml" 119 2797 2831 "m_t.ml" 119 2797 2833
+type(
+  Expr.T.hyp_ -> modunit -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_t.ml" 119 2797 2834 "m_t.ml" 119 2797 2836
+type(
+  modunit
+)
+ident(
+  int_ref mu "m_t.ml" 92 2037 2046 "m_t.ml" 92 2037 2048
+)
+"m_t.ml" 119 2797 2806 "m_t.ml" 119 2797 2836
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"m_t.ml" 119 2797 2805 "m_t.ml" 119 2797 2837
+type(
+  Expr.T.hyp_ Property.wrapped list
+)
+"m_t.ml" 120 2838 2856 "m_t.ml" 120 2838 2858
+type(
+  Util.hint
+)
+ident(
+  def nm "m_t.ml" 120 2838 2866 "m_t.ml" 129 3076 3106
+)
+"m_t.ml" 120 2838 2851 "m_t.ml" 120 2838 2858
+type(
+  Util.hint option
+)
+"m_t.ml" 120 2838 2860 "m_t.ml" 120 2838 2861
+type(
+  Expr.T.expr
+)
+ident(
+  def e "m_t.ml" 120 2838 2866 "m_t.ml" 129 3076 3106
+)
+"m_t.ml" 120 2838 2844 "m_t.ml" 120 2838 2862
+type(
+  modunit_
+)
+type(
+  modunit_
+)
+"m_t.ml" 122 2887 2913 "m_t.ml" 122 2887 2915
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "m_t.ml" 120 2838 2856 "m_t.ml" 120 2838 2858
+)
+"m_t.ml" 122 2887 2917 "m_t.ml" 122 2887 2918
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "m_t.ml" 120 2838 2860 "m_t.ml" 120 2838 2861
+)
+"m_t.ml" 122 2887 2903 "m_t.ml" 122 2887 2919
+type(
+  Expr.T.defn_
+)
+"m_t.ml" 122 2887 2920 "m_t.ml" 122 2887 2922
+type(
+  Expr.T.defn_ -> modunit -> Expr.T.defn
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_t.ml" 122 2887 2923 "m_t.ml" 122 2887 2925
+type(
+  modunit
+)
+ident(
+  int_ref mu "m_t.ml" 92 2037 2046 "m_t.ml" 92 2037 2048
+)
+"m_t.ml" 122 2887 2903 "m_t.ml" 122 2887 2925
+type(
+  Expr.T.defn
+)
+"m_t.ml" 123 2927 2943 "m_t.ml" 123 2927 2947
+type(
+  Expr.T.wheredef
+)
+"m_t.ml" 124 2949 2965 "m_t.ml" 124 2949 2972
+type(
+  Expr.T.visibility
+)
+"m_t.ml" 125 2974 2990 "m_t.ml" 125 2974 2996
+type(
+  Expr.T.export
+)
+"m_t.ml" 121 2868 2880 "m_t.ml" 125 2974 2997
+type(
+  Expr.T.hyp_
+)
+"m_t.ml" 125 2974 2998 "m_t.ml" 125 2974 3000
+type(
+  Expr.T.hyp_ -> modunit -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_t.ml" 125 2974 3001 "m_t.ml" 125 2974 3003
+type(
+  modunit
+)
+ident(
+  int_ref mu "m_t.ml" 92 2037 2046 "m_t.ml" 92 2037 2048
+)
+"m_t.ml" 121 2868 2880 "m_t.ml" 125 2974 3003
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"m_t.ml" 127 3024 3043 "m_t.ml" 127 3024 3044
+type(
+  int
+)
+"m_t.ml" 127 3024 3040 "m_t.ml" 127 3024 3044
+type(
+  Expr.T.expr_
+)
+"m_t.ml" 127 3024 3045 "m_t.ml" 127 3024 3047
+type(
+  Expr.T.expr_ -> modunit -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_t.ml" 127 3024 3048 "m_t.ml" 127 3024 3050
+type(
+  modunit
+)
+ident(
+  int_ref mu "m_t.ml" 92 2037 2046 "m_t.ml" 92 2037 2048
+)
+"m_t.ml" 127 3024 3040 "m_t.ml" 127 3024 3050
+type(
+  Expr.T.expr
+)
+"m_t.ml" 128 3052 3068 "m_t.ml" 128 3052 3074
+type(
+  Expr.T.visibility
+)
+"m_t.ml" 129 3076 3092 "m_t.ml" 129 3076 3098
+type(
+  Expr.T.time
+)
+"m_t.ml" 126 3005 3017 "m_t.ml" 129 3076 3099
+type(
+  Expr.T.hyp_
+)
+"m_t.ml" 129 3076 3100 "m_t.ml" 129 3076 3102
+type(
+  Expr.T.hyp_ -> modunit -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_t.ml" 129 3076 3103 "m_t.ml" 129 3076 3105
+type(
+  modunit
+)
+ident(
+  int_ref mu "m_t.ml" 92 2037 2046 "m_t.ml" 92 2037 2048
+)
+"m_t.ml" 126 3005 3017 "m_t.ml" 129 3076 3105
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"m_t.ml" 120 2838 2866 "m_t.ml" 129 3076 3106
+type(
+  Expr.T.hyp_ Property.wrapped list
+)
+"m_t.ml" 130 3107 3122 "m_t.ml" 130 3107 3124
+type(
+  Util.hint option
+)
+ident(
+  def nm "m_t.ml" 130 3107 3148 "m_t.ml" 165 4170 4181
+)
+"m_t.ml" 130 3107 3126 "m_t.ml" 130 3107 3128
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "m_t.ml" 130 3107 3148 "m_t.ml" 165 4170 4181
+)
+"m_t.ml" 130 3107 3130 "m_t.ml" 130 3107 3134
+type(
+  int
+)
+ident(
+  def naxs "m_t.ml" 130 3107 3148 "m_t.ml" 165 4170 4181
+)
+"m_t.ml" 130 3107 3136 "m_t.ml" 130 3107 3137
+type(
+  Proof.T.proof
+)
+"m_t.ml" 130 3107 3139 "m_t.ml" 130 3107 3140
+type(
+  Proof.T.proof
+)
+"m_t.ml" 130 3107 3142 "m_t.ml" 130 3107 3143
+type(
+  summary
+)
+"m_t.ml" 130 3107 3113 "m_t.ml" 130 3107 3144
+type(
+  modunit_
+)
+type(
+  modunit_
+)
+"m_t.ml" 131 3154 3170 "m_t.ml" 131 3154 3174
+type(
+  Expr.T.sequent -> int -> Expr.T.sequent
+)
+ident(
+  def drop "m_t.ml" 130 3107 3148 "m_t.ml" 165 4170 4181
+)
+"m_t.ml" 131 3154 3175 "m_t.ml" 131 3154 3177
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "m_t.ml" 131 3154 3180 "m_t.ml" 143 3576 3595
+)
+"m_t.ml" 132 3189 3203 "m_t.ml" 132 3189 3204
+type(
+  int
+)
+"m_t.ml" 132 3189 3208 "m_t.ml" 132 3189 3210
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "m_t.ml" 131 3154 3175 "m_t.ml" 131 3154 3177
+)
+"m_t.ml" 133 3211 3225 "m_t.ml" 133 3211 3226
+type(
+  int
+)
+ident(
+  def n "m_t.ml" 133 3211 3230 "m_t.ml" 143 3576 3595
+)
+"m_t.ml" 134 3236 3258 "m_t.ml" 134 3236 3269
+type(
+  Expr.T.hyp Deque.dq -> (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+ident(
+  int_ref Deque.front "deque.mli" 14 253 253 "deque.mli" 14 253 293
+)
+"m_t.ml" 134 3236 3270 "m_t.ml" 134 3236 3272
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "m_t.ml" 131 3154 3175 "m_t.ml" 131 3154 3177
+)
+"m_t.ml" 134 3236 3270 "m_t.ml" 134 3236 3280
+type(
+  Expr.T.hyp Deque.dq
+)
+"m_t.ml" 134 3236 3258 "m_t.ml" 134 3236 3280
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+"m_t.ml" 135 3286 3310 "m_t.ml" 135 3286 3311
+type(
+  Expr.T.hyp
+)
+"m_t.ml" 135 3286 3313 "m_t.ml" 135 3286 3315
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def cx "m_t.ml" 136 3320 3340 "m_t.ml" 138 3390 3421
+)
+"m_t.ml" 135 3286 3309 "m_t.ml" 135 3286 3316
+type(
+  Expr.T.hyp * Expr.T.hyp Deque.dq
+)
+"m_t.ml" 135 3286 3304 "m_t.ml" 135 3286 3316
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+"m_t.ml" 136 3320 3340 "m_t.ml" 136 3320 3344
+type(
+  Expr.T.sequent -> int -> Expr.T.sequent
+)
+ident(
+  int_ref drop "m_t.ml" 131 3154 3170 "m_t.ml" 131 3154 3174
+)
+"m_t.ml" 137 3345 3370 "m_t.ml" 137 3345 3372
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "m_t.ml" 131 3154 3175 "m_t.ml" 131 3154 3177
+)
+"m_t.ml" 137 3345 3386 "m_t.ml" 137 3345 3388
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "m_t.ml" 135 3286 3313 "m_t.ml" 135 3286 3315
+)
+"m_t.ml" 137 3345 3369 "m_t.ml" 137 3345 3389
+type(
+  Expr.T.sequent
+)
+"m_t.ml" 138 3390 3415 "m_t.ml" 138 3390 3416
+type(
+  int
+)
+ident(
+  int_ref n "m_t.ml" 133 3211 3225 "m_t.ml" 133 3211 3226
+)
+"m_t.ml" 138 3390 3417 "m_t.ml" 138 3390 3418
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"m_t.ml" 138 3390 3419 "m_t.ml" 138 3390 3420
+type(
+  int
+)
+"m_t.ml" 138 3390 3414 "m_t.ml" 138 3390 3421
+type(
+  int
+)
+"m_t.ml" 136 3320 3340 "m_t.ml" 138 3390 3421
+type(
+  Expr.T.sequent
+)
+"m_t.ml" 139 3422 3440 "m_t.ml" 139 3422 3444
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+"m_t.ml" 140 3448 3468 "m_t.ml" 140 3448 3478
+type(
+  ?at:modunit -> string -> Expr.T.sequent
+)
+ident(
+  int_ref Errors.bug "errors.mli" 41 941 941 "errors.mli" 41 941 982
+)
+"m_t.ml" 140 3448 3483 "m_t.ml" 140 3448 3485
+type(
+  modunit
+)
+ident(
+  int_ref mu "m_t.ml" 92 2037 2046 "m_t.ml" 92 2037 2048
+)
+type(
+  modunit option
+)
+"m_t.ml" 141 3486 3510 "m_t.ml" 142 3539 3575
+type(
+  string
+)
+"m_t.ml" 140 3448 3468 "m_t.ml" 142 3539 3575
+type(
+  Expr.T.sequent
+)
+"m_t.ml" 133 3211 3230 "m_t.ml" 143 3576 3595
+type(
+  Expr.T.sequent
+)
+"m_t.ml" 131 3154 3180 "m_t.ml" 143 3576 3595
+type(
+  int -> Expr.T.sequent
+)
+"m_t.ml" 144 3599 3611 "m_t.ml" 144 3599 3613
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "m_t.ml" 147 3687 3695 "m_t.ml" 164 4139 4169
+)
+"m_t.ml" 144 3599 3616 "m_t.ml" 144 3599 3627
+type(
+  Expr.Subst.sub -> Expr.T.sequent -> Expr.T.sequent
+)
+ident(
+  int_ref Expr.Subst.app_sequent "expr.mli" 465 11594 11598 "expr.mli" 467 11641 11660
+)
+"m_t.ml" 145 3628 3641 "m_t.ml" 145 3628 3646
+type(
+  int -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.shift "expr.mli" 427 10798 10802 "expr.mli" 428 10813 10831
+)
+"m_t.ml" 145 3628 3648 "m_t.ml" 145 3628 3649
+type(
+  int -> int
+)
+ident(
+  int_ref Stdlib.( ~- ) "stdlib.mli" 329 13119 13119 "stdlib.mli" 329 13119 13159
+)
+"m_t.ml" 145 3628 3650 "m_t.ml" 145 3628 3654
+type(
+  int
+)
+ident(
+  int_ref naxs "m_t.ml" 130 3107 3130 "m_t.ml" 130 3107 3134
+)
+"m_t.ml" 145 3628 3647 "m_t.ml" 145 3628 3655
+type(
+  int
+)
+"m_t.ml" 145 3628 3640 "m_t.ml" 145 3628 3656
+type(
+  Expr.Subst.sub
+)
+"m_t.ml" 146 3657 3670 "m_t.ml" 146 3657 3674
+type(
+  Expr.T.sequent -> int -> Expr.T.sequent
+)
+ident(
+  int_ref drop "m_t.ml" 131 3154 3170 "m_t.ml" 131 3154 3174
+)
+"m_t.ml" 146 3657 3675 "m_t.ml" 146 3657 3677
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "m_t.ml" 130 3107 3126 "m_t.ml" 130 3107 3128
+)
+"m_t.ml" 146 3657 3678 "m_t.ml" 146 3657 3682
+type(
+  int
+)
+ident(
+  int_ref naxs "m_t.ml" 130 3107 3130 "m_t.ml" 130 3107 3134
+)
+"m_t.ml" 146 3657 3669 "m_t.ml" 146 3657 3683
+type(
+  Expr.T.sequent
+)
+"m_t.ml" 144 3599 3616 "m_t.ml" 146 3657 3683
+type(
+  Expr.T.sequent
+)
+"m_t.ml" 147 3687 3701 "m_t.ml" 147 3687 3703
+type(
+  Util.hint option
+)
+ident(
+  int_ref nm "m_t.ml" 130 3107 3122 "m_t.ml" 130 3107 3124
+)
+"m_t.ml" 148 3709 3719 "m_t.ml" 148 3709 3723
+type(
+  Util.hint option
+)
+type(
+  Util.hint option
+)
+"m_t.ml" 150 3747 3763 "m_t.ml" 150 3747 3778
+type(
+  Expr.T.sequent -> Expr.T.expr_
+)
+ident(
+  int_ref Expr.T.exprify_sequent "expr.mli" 344 8876 8878 "expr.mli" 344 8876 8916
+)
+"m_t.ml" 150 3747 3779 "m_t.ml" 150 3747 3781
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "m_t.ml" 144 3599 3611 "m_t.ml" 144 3599 3613
+)
+"m_t.ml" 150 3747 3763 "m_t.ml" 150 3747 3781
+type(
+  Expr.T.expr_
+)
+"m_t.ml" 150 3747 3782 "m_t.ml" 150 3747 3784
+type(
+  Expr.T.expr_ -> modunit -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_t.ml" 150 3747 3785 "m_t.ml" 150 3747 3787
+type(
+  modunit
+)
+ident(
+  int_ref mu "m_t.ml" 92 2037 2046 "m_t.ml" 92 2037 2048
+)
+"m_t.ml" 150 3747 3763 "m_t.ml" 150 3747 3787
+type(
+  Expr.T.expr
+)
+"m_t.ml" 151 3789 3805 "m_t.ml" 151 3789 3811
+type(
+  Expr.T.visibility
+)
+"m_t.ml" 152 3813 3829 "m_t.ml" 152 3813 3835
+type(
+  Expr.T.time
+)
+"m_t.ml" 149 3727 3740 "m_t.ml" 152 3813 3836
+type(
+  Expr.T.hyp_
+)
+"m_t.ml" 152 3813 3837 "m_t.ml" 152 3813 3839
+type(
+  Expr.T.hyp_ -> modunit -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_t.ml" 152 3813 3840 "m_t.ml" 152 3813 3842
+type(
+  modunit
+)
+ident(
+  int_ref mu "m_t.ml" 92 2037 2046 "m_t.ml" 92 2037 2048
+)
+"m_t.ml" 149 3727 3740 "m_t.ml" 152 3813 3842
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"m_t.ml" 149 3727 3739 "m_t.ml" 152 3813 3843
+type(
+  Expr.T.hyp_ Property.wrapped list
+)
+"m_t.ml" 153 3844 3859 "m_t.ml" 153 3844 3861
+type(
+  Util.hint
+)
+ident(
+  def nm "m_t.ml" 153 3844 3865 "m_t.ml" 164 4139 4169
+)
+"m_t.ml" 153 3844 3854 "m_t.ml" 153 3844 3861
+type(
+  Util.hint option
+)
+type(
+  Util.hint option
+)
+"m_t.ml" 156 3913 3933 "m_t.ml" 156 3913 3935
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "m_t.ml" 153 3844 3859 "m_t.ml" 153 3844 3861
+)
+"m_t.ml" 157 3937 3957 "m_t.ml" 157 3937 3972
+type(
+  Expr.T.sequent -> Expr.T.expr_
+)
+ident(
+  int_ref Expr.T.exprify_sequent "expr.mli" 344 8876 8878 "expr.mli" 344 8876 8916
+)
+"m_t.ml" 157 3937 3973 "m_t.ml" 157 3937 3975
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "m_t.ml" 144 3599 3611 "m_t.ml" 144 3599 3613
+)
+"m_t.ml" 157 3937 3957 "m_t.ml" 157 3937 3975
+type(
+  Expr.T.expr_
+)
+"m_t.ml" 157 3937 3976 "m_t.ml" 157 3937 3978
+type(
+  Expr.T.expr_ -> Util.hint -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_t.ml" 157 3937 3979 "m_t.ml" 157 3937 3981
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "m_t.ml" 153 3844 3859 "m_t.ml" 153 3844 3861
+)
+"m_t.ml" 157 3937 3957 "m_t.ml" 157 3937 3981
+type(
+  Expr.T.expr
+)
+"m_t.ml" 155 3886 3902 "m_t.ml" 157 3937 3982
+type(
+  Expr.T.defn_
+)
+"m_t.ml" 157 3937 3983 "m_t.ml" 157 3937 3985
+type(
+  Expr.T.defn_ -> modunit -> Expr.T.defn
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_t.ml" 157 3937 3986 "m_t.ml" 157 3937 3988
+type(
+  modunit
+)
+ident(
+  int_ref mu "m_t.ml" 92 2037 2046 "m_t.ml" 92 2037 2048
+)
+"m_t.ml" 155 3886 3902 "m_t.ml" 157 3937 3988
+type(
+  Expr.T.defn
+)
+"m_t.ml" 158 3990 4006 "m_t.ml" 158 3990 4010
+type(
+  Expr.T.wheredef
+)
+"m_t.ml" 159 4012 4028 "m_t.ml" 159 4012 4035
+type(
+  Expr.T.visibility
+)
+"m_t.ml" 160 4037 4053 "m_t.ml" 160 4037 4059
+type(
+  Expr.T.export
+)
+"m_t.ml" 154 3867 3879 "m_t.ml" 160 4037 4060
+type(
+  Expr.T.hyp_
+)
+"m_t.ml" 160 4037 4061 "m_t.ml" 160 4037 4063
+type(
+  Expr.T.hyp_ -> modunit -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_t.ml" 160 4037 4064 "m_t.ml" 160 4037 4066
+type(
+  modunit
+)
+ident(
+  int_ref mu "m_t.ml" 92 2037 2046 "m_t.ml" 92 2037 2048
+)
+"m_t.ml" 154 3867 3879 "m_t.ml" 160 4037 4066
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"m_t.ml" 162 4087 4106 "m_t.ml" 162 4087 4107
+type(
+  int
+)
+"m_t.ml" 162 4087 4103 "m_t.ml" 162 4087 4107
+type(
+  Expr.T.expr_
+)
+"m_t.ml" 162 4087 4108 "m_t.ml" 162 4087 4110
+type(
+  Expr.T.expr_ -> modunit -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_t.ml" 162 4087 4111 "m_t.ml" 162 4087 4113
+type(
+  modunit
+)
+ident(
+  int_ref mu "m_t.ml" 92 2037 2046 "m_t.ml" 92 2037 2048
+)
+"m_t.ml" 162 4087 4103 "m_t.ml" 162 4087 4113
+type(
+  Expr.T.expr
+)
+"m_t.ml" 163 4115 4131 "m_t.ml" 163 4115 4137
+type(
+  Expr.T.visibility
+)
+"m_t.ml" 164 4139 4155 "m_t.ml" 164 4139 4161
+type(
+  Expr.T.time
+)
+"m_t.ml" 161 4068 4080 "m_t.ml" 164 4139 4162
+type(
+  Expr.T.hyp_
+)
+"m_t.ml" 164 4139 4163 "m_t.ml" 164 4139 4165
+type(
+  Expr.T.hyp_ -> modunit -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_t.ml" 164 4139 4166 "m_t.ml" 164 4139 4168
+type(
+  modunit
+)
+ident(
+  int_ref mu "m_t.ml" 92 2037 2046 "m_t.ml" 92 2037 2048
+)
+"m_t.ml" 161 4068 4080 "m_t.ml" 164 4139 4168
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"m_t.ml" 153 3844 3865 "m_t.ml" 164 4139 4169
+type(
+  Expr.T.hyp_ Property.wrapped list
+)
+"m_t.ml" 147 3687 3695 "m_t.ml" 164 4139 4169
+type(
+  Expr.T.hyp_ Property.wrapped list
+)
+"m_t.ml" 144 3599 3607 "m_t.ml" 164 4139 4169
+type(
+  Expr.T.hyp_ Property.wrapped list
+)
+"m_t.ml" 130 3107 3148 "m_t.ml" 165 4170 4181
+type(
+  Expr.T.hyp_ Property.wrapped list
+)
+"m_t.ml" 166 4182 4201 "m_t.ml" 166 4182 4202
+type(
+  bool
+)
+"m_t.ml" 166 4182 4196 "m_t.ml" 166 4182 4202
+type(
+  [ `Hide | `Use of bool ]
+)
+"m_t.ml" 166 4182 4204 "m_t.ml" 166 4182 4206
+type(
+  Proof.T.usable
+)
+ident(
+  def us "m_t.ml" 167 4211 4219 "m_t.ml" 173 4386 4406
+)
+"m_t.ml" 166 4182 4188 "m_t.ml" 166 4182 4207
+type(
+  modunit_
+)
+type(
+  modunit_
+)
+"m_t.ml" 167 4211 4219 "m_t.ml" 167 4211 4228
+type(
+  (int -> Expr.T.expr -> Expr.T.hyp_ Property.wrapped) ->
+  Expr.T.expr list -> Expr.T.hyp_ Property.wrapped list
+)
+ident(
+  int_ref Ext.List.mapi "ext.mli" 51 2272 2274 "ext.mli" 51 2272 2324
+)
+"m_t.ml" 168 4235 4251 "m_t.ml" 168 4235 4252
+type(
+  int
+)
+ident(
+  def n "m_t.ml" 168 4235 4253 "m_t.ml" 172 4352 4385
+)
+"m_t.ml" 168 4235 4253 "m_t.ml" 168 4235 4254
+type(
+  Expr.T.expr
+)
+ident(
+  def f "m_t.ml" 169 4258 4274 "m_t.ml" 172 4352 4385
+)
+"m_t.ml" 170 4281 4301 "m_t.ml" 170 4281 4309
+type(
+  Expr.Subst.sub -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Subst.app_expr "expr.mli" 447 11184 11188 "expr.mli" 449 11225 11241
+)
+"m_t.ml" 170 4281 4311 "m_t.ml" 170 4281 4316
+type(
+  int -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.shift "expr.mli" 427 10798 10802 "expr.mli" 428 10813 10831
+)
+"m_t.ml" 170 4281 4317 "m_t.ml" 170 4281 4318
+type(
+  int
+)
+ident(
+  int_ref n "m_t.ml" 168 4235 4251 "m_t.ml" 168 4235 4252
+)
+"m_t.ml" 170 4281 4310 "m_t.ml" 170 4281 4319
+type(
+  Expr.Subst.sub
+)
+"m_t.ml" 170 4281 4320 "m_t.ml" 170 4281 4321
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f "m_t.ml" 168 4235 4253 "m_t.ml" 168 4235 4254
+)
+"m_t.ml" 170 4281 4301 "m_t.ml" 170 4281 4321
+type(
+  Expr.T.expr
+)
+"m_t.ml" 171 4323 4343 "m_t.ml" 171 4323 4350
+type(
+  Expr.T.visibility
+)
+"m_t.ml" 172 4352 4372 "m_t.ml" 172 4352 4378
+type(
+  Expr.T.time
+)
+"m_t.ml" 169 4258 4274 "m_t.ml" 172 4352 4379
+type(
+  Expr.T.hyp_
+)
+"m_t.ml" 172 4352 4380 "m_t.ml" 172 4352 4382
+type(
+  Expr.T.hyp_ -> modunit -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_t.ml" 172 4352 4383 "m_t.ml" 172 4352 4385
+type(
+  modunit
+)
+ident(
+  int_ref mu "m_t.ml" 92 2037 2046 "m_t.ml" 92 2037 2048
+)
+"m_t.ml" 169 4258 4274 "m_t.ml" 172 4352 4385
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"m_t.ml" 167 4211 4229 "m_t.ml" 173 4386 4397
+type(
+  int -> Expr.T.expr -> Expr.T.hyp_ Property.wrapped
+)
+"m_t.ml" 173 4386 4398 "m_t.ml" 173 4386 4400
+type(
+  Proof.T.usable
+)
+ident(
+  int_ref us "m_t.ml" 166 4182 4204 "m_t.ml" 166 4182 4206
+)
+"m_t.ml" 173 4386 4398 "m_t.ml" 173 4386 4406
+type(
+  Expr.T.expr list
+)
+"m_t.ml" 167 4211 4219 "m_t.ml" 173 4386 4406
+type(
+  Expr.T.hyp_ Property.wrapped list
+)
+"m_t.ml" 174 4407 4420 "m_t.ml" 174 4407 4421
+type(
+  mule
+)
+"m_t.ml" 174 4407 4413 "m_t.ml" 174 4407 4421
+type(
+  modunit_
+)
+type(
+  modunit_
+)
+"m_t.ml" 175 4422 4435 "m_t.ml" 175 4422 4436
+type(
+  Proof.T.usable
+)
+type(
+  [ `Hide | `Use of bool ]
+)
+"m_t.ml" 175 4422 4428 "m_t.ml" 175 4422 4436
+type(
+  modunit_
+)
+type(
+  modunit_
+)
+"m_t.ml" 174 4407 4413 "m_t.ml" 175 4422 4436
+type(
+  modunit_
+)
+"m_t.ml" 176 4437 4452 "m_t.ml" 176 4437 4453
+type(
+  Expr.T.export
+)
+type(
+  Expr.T.instance
+)
+"m_t.ml" 176 4437 4443 "m_t.ml" 176 4437 4453
+type(
+  modunit_
+)
+type(
+  modunit_
+)
+"m_t.ml" 174 4407 4413 "m_t.ml" 176 4437 4453
+type(
+  modunit_
+)
+"m_t.ml" 176 4437 4457 "m_t.ml" 176 4437 4459
+type(
+  Expr.T.hyp_ Property.wrapped list
+)
+"m_t.ml" 93 2061 2065 "m_t.ml" 176 4437 4459
+type(
+  Expr.T.hyp_ Property.wrapped list
+)
+"m_t.ml" 179 4462 4466 "m_t.ml" 179 4462 4474
+type(
+  modunit -> int
+)
+ident(
+  def hyp_size "m_t.ml" 193 4838 4859 "m_t.ml" 0 0 -1
+)
+"m_t.ml" 180 4475 4484 "m_t.ml" 180 4475 4486
+type(
+  modunit
+)
+type(
+  modunit
+)
+ident(
+  def mu "m_t.ml" 181 4499 4503 "m_t.ml" 193 4838 4859
+)
+"m_t.ml" 181 4499 4509 "m_t.ml" 181 4499 4511
+type(
+  modunit
+)
+ident(
+  int_ref mu "m_t.ml" 180 4475 4484 "m_t.ml" 180 4475 4486
+)
+"m_t.ml" 181 4499 4509 "m_t.ml" 181 4499 4516
+type(
+  modunit_
+)
+"m_t.ml" 182 4522 4538 "m_t.ml" 182 4522 4540
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  def cs "m_t.ml" 182 4522 4544 "m_t.ml" 182 4522 4558
+)
+"m_t.ml" 182 4522 4528 "m_t.ml" 182 4522 4540
+type(
+  modunit_
+)
+type(
+  modunit_
+)
+"m_t.ml" 182 4522 4544 "m_t.ml" 182 4522 4555
+type(
+  (Util.hint * Expr.T.shape) list -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"m_t.ml" 182 4522 4556 "m_t.ml" 182 4522 4558
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  int_ref cs "m_t.ml" 182 4522 4538 "m_t.ml" 182 4522 4540
+)
+"m_t.ml" 182 4522 4544 "m_t.ml" 182 4522 4558
+type(
+  int
+)
+"m_t.ml" 183 4559 4576 "m_t.ml" 183 4559 4578
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  def cs "m_t.ml" 183 4559 4582 "m_t.ml" 183 4559 4596
+)
+"m_t.ml" 183 4559 4565 "m_t.ml" 183 4559 4578
+type(
+  modunit_
+)
+type(
+  modunit_
+)
+"m_t.ml" 183 4559 4582 "m_t.ml" 183 4559 4593
+type(
+  (Util.hint * Expr.T.shape) list -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"m_t.ml" 183 4559 4594 "m_t.ml" 183 4559 4596
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  int_ref cs "m_t.ml" 183 4559 4576 "m_t.ml" 183 4559 4578
+)
+"m_t.ml" 183 4559 4582 "m_t.ml" 183 4559 4596
+type(
+  int
+)
+"m_t.ml" 184 4597 4613 "m_t.ml" 184 4597 4615
+type(
+  Util.hints
+)
+ident(
+  def vs "m_t.ml" 184 4597 4619 "m_t.ml" 184 4597 4633
+)
+"m_t.ml" 184 4597 4603 "m_t.ml" 184 4597 4615
+type(
+  modunit_
+)
+type(
+  modunit_
+)
+"m_t.ml" 184 4597 4619 "m_t.ml" 184 4597 4630
+type(
+  Util.hints -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"m_t.ml" 184 4597 4631 "m_t.ml" 184 4597 4633
+type(
+  Util.hints
+)
+ident(
+  int_ref vs "m_t.ml" 184 4597 4613 "m_t.ml" 184 4597 4615
+)
+"m_t.ml" 184 4597 4619 "m_t.ml" 184 4597 4633
+type(
+  int
+)
+"m_t.ml" 185 4634 4651 "m_t.ml" 185 4634 4652
+type(
+  Expr.T.export
+)
+type(
+  Expr.T.visibility
+)
+type(
+  Expr.T.wheredef
+)
+type(
+  Expr.T.defn
+)
+"m_t.ml" 185 4634 4640 "m_t.ml" 185 4634 4652
+type(
+  modunit_
+)
+type(
+  modunit_
+)
+"m_t.ml" 185 4634 4656 "m_t.ml" 185 4634 4657
+type(
+  int
+)
+"m_t.ml" 186 4658 4671 "m_t.ml" 186 4658 4673
+type(
+  Util.hint option
+)
+ident(
+  def nm "m_t.ml" 188 4715 4723 "m_t.ml" 188 4715 4749
+)
+"m_t.ml" 186 4658 4675 "m_t.ml" 186 4658 4676
+type(
+  Expr.T.expr
+)
+"m_t.ml" 186 4658 4664 "m_t.ml" 186 4658 4677
+type(
+  modunit_
+)
+type(
+  modunit_
+)
+"m_t.ml" 187 4678 4693 "m_t.ml" 187 4678 4695
+type(
+  Util.hint option
+)
+ident(
+  def nm "m_t.ml" 188 4715 4723 "m_t.ml" 188 4715 4749
+)
+"m_t.ml" 187 4678 4697 "m_t.ml" 187 4678 4698
+type(
+  Expr.T.sequent
+)
+"m_t.ml" 187 4678 4700 "m_t.ml" 187 4678 4701
+type(
+  int
+)
+"m_t.ml" 187 4678 4703 "m_t.ml" 187 4678 4704
+type(
+  Proof.T.proof
+)
+"m_t.ml" 187 4678 4706 "m_t.ml" 187 4678 4707
+type(
+  Proof.T.proof
+)
+"m_t.ml" 187 4678 4709 "m_t.ml" 187 4678 4710
+type(
+  summary
+)
+"m_t.ml" 187 4678 4684 "m_t.ml" 187 4678 4711
+type(
+  modunit_
+)
+type(
+  modunit_
+)
+"m_t.ml" 186 4658 4664 "m_t.ml" 187 4678 4711
+type(
+  modunit_
+)
+"m_t.ml" 188 4715 4726 "m_t.ml" 188 4715 4728
+type(
+  Util.hint option
+)
+ident(
+  int_ref nm "m_t.ml" 186 4658 4671 "m_t.ml" 186 4658 4673
+)
+"m_t.ml" 188 4715 4729 "m_t.ml" 188 4715 4730
+type(
+  Util.hint option -> Util.hint option -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"m_t.ml" 188 4715 4731 "m_t.ml" 188 4715 4735
+type(
+  Util.hint option
+)
+"m_t.ml" 188 4715 4726 "m_t.ml" 188 4715 4735
+type(
+  bool
+)
+"m_t.ml" 188 4715 4741 "m_t.ml" 188 4715 4742
+type(
+  int
+)
+"m_t.ml" 188 4715 4748 "m_t.ml" 188 4715 4749
+type(
+  int
+)
+"m_t.ml" 188 4715 4723 "m_t.ml" 188 4715 4749
+type(
+  int
+)
+"m_t.ml" 189 4750 4769 "m_t.ml" 189 4750 4770
+type(
+  bool
+)
+"m_t.ml" 189 4750 4764 "m_t.ml" 189 4750 4770
+type(
+  [ `Hide | `Use of bool ]
+)
+"m_t.ml" 189 4750 4772 "m_t.ml" 189 4750 4774
+type(
+  Proof.T.usable
+)
+ident(
+  def us "m_t.ml" 190 4779 4787 "m_t.ml" 190 4779 4807
+)
+"m_t.ml" 189 4750 4756 "m_t.ml" 189 4750 4775
+type(
+  modunit_
+)
+type(
+  modunit_
+)
+"m_t.ml" 190 4779 4787 "m_t.ml" 190 4779 4798
+type(
+  Expr.T.expr list -> int
+)
+ident(
+  int_ref Ext.List.length "ext.mli" 7 102 104 "ext.mli" 7 102 131
+)
+"m_t.ml" 190 4779 4799 "m_t.ml" 190 4779 4801
+type(
+  Proof.T.usable
+)
+ident(
+  int_ref us "m_t.ml" 189 4750 4772 "m_t.ml" 189 4750 4774
+)
+"m_t.ml" 190 4779 4799 "m_t.ml" 190 4779 4807
+type(
+  Expr.T.expr list
+)
+"m_t.ml" 190 4779 4787 "m_t.ml" 190 4779 4807
+type(
+  int
+)
+"m_t.ml" 191 4808 4821 "m_t.ml" 191 4808 4822
+type(
+  mule
+)
+"m_t.ml" 191 4808 4814 "m_t.ml" 191 4808 4822
+type(
+  modunit_
+)
+type(
+  modunit_
+)
+"m_t.ml" 192 4823 4836 "m_t.ml" 192 4823 4837
+type(
+  Proof.T.usable
+)
+type(
+  [ `Hide | `Use of bool ]
+)
+"m_t.ml" 192 4823 4829 "m_t.ml" 192 4823 4837
+type(
+  modunit_
+)
+type(
+  modunit_
+)
+"m_t.ml" 191 4808 4814 "m_t.ml" 192 4823 4837
+type(
+  modunit_
+)
+"m_t.ml" 193 4838 4853 "m_t.ml" 193 4838 4854
+type(
+  Expr.T.export
+)
+type(
+  Expr.T.instance
+)
+"m_t.ml" 193 4838 4844 "m_t.ml" 193 4838 4854
+type(
+  modunit_
+)
+type(
+  modunit_
+)
+"m_t.ml" 191 4808 4814 "m_t.ml" 193 4838 4854
+type(
+  modunit_
+)
+"m_t.ml" 193 4838 4858 "m_t.ml" 193 4838 4859
+type(
+  int
+)
+"m_t.ml" 181 4499 4503 "m_t.ml" 193 4838 4859
+type(
+  int
+)

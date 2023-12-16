@@ -1,0 +1,2806 @@
+"schedule.ml" 48 974 978 "schedule.ml" 48 974 986
+type(
+  bytes
+)
+ident(
+  def temp_buf "schedule.ml" 49 1007 1007 "schedule.ml" 0 0 -1
+)
+"schedule.ml" 48 974 989 "schedule.ml" 48 974 1001
+type(
+  int -> bytes
+)
+ident(
+  int_ref Stdlib.Bytes.create "bytes.mli" 70 3056 3056 "bytes.mli" 70 3056 3108
+)
+"schedule.ml" 48 974 1002 "schedule.ml" 48 974 1006
+type(
+  int
+)
+"schedule.ml" 48 974 989 "schedule.ml" 48 974 1006
+type(
+  bytes
+)
+"schedule.ml" 49 1007 1011 "schedule.ml" 49 1007 1025
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  def read_to_stdout "schedule.ml" 60 1338 1338 "schedule.ml" 0 0 -1
+)
+"schedule.ml" 49 1007 1026 "schedule.ml" 49 1007 1028
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "schedule.ml" 50 1031 1033 "schedule.ml" 55 1200 1240
+)
+"schedule.ml" 51 1037 1045 "schedule.ml" 51 1037 1046
+type(
+  int
+)
+ident(
+  def r "schedule.ml" 52 1100 1104 "schedule.ml" 54 1176 1199
+)
+"schedule.ml" 51 1037 1049 "schedule.ml" 51 1037 1058
+type(
+  Unix.file_descr -> bytes -> int -> int -> int
+)
+ident(
+  int_ref Unix.read "unix.mli" 358 15238 15238 "unix.mli" 358 15238 15289
+)
+"schedule.ml" 51 1037 1059 "schedule.ml" 51 1037 1061
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "schedule.ml" 49 1007 1026 "schedule.ml" 49 1007 1028
+)
+"schedule.ml" 51 1037 1062 "schedule.ml" 51 1037 1070
+type(
+  bytes
+)
+ident(
+  int_ref temp_buf "schedule.ml" 48 974 978 "schedule.ml" 48 974 986
+)
+"schedule.ml" 51 1037 1071 "schedule.ml" 51 1037 1072
+type(
+  int
+)
+"schedule.ml" 51 1037 1074 "schedule.ml" 51 1037 1086
+type(
+  bytes -> int
+)
+ident(
+  int_ref Stdlib.Bytes.length "bytes.mli" 57 2543 2543 "bytes.mli" 57 2543 2591
+)
+"schedule.ml" 51 1037 1087 "schedule.ml" 51 1037 1095
+type(
+  bytes
+)
+ident(
+  int_ref temp_buf "schedule.ml" 48 974 978 "schedule.ml" 48 974 986
+)
+"schedule.ml" 51 1037 1073 "schedule.ml" 51 1037 1096
+type(
+  int
+)
+"schedule.ml" 51 1037 1049 "schedule.ml" 51 1037 1096
+type(
+  int
+)
+"schedule.ml" 52 1100 1107 "schedule.ml" 52 1100 1108
+type(
+  int
+)
+ident(
+  int_ref r "schedule.ml" 51 1037 1045 "schedule.ml" 51 1037 1046
+)
+"schedule.ml" 52 1100 1109 "schedule.ml" 52 1100 1110
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"schedule.ml" 52 1100 1111 "schedule.ml" 52 1100 1112
+type(
+  int
+)
+"schedule.ml" 52 1100 1107 "schedule.ml" 52 1100 1112
+type(
+  bool
+)
+"schedule.ml" 52 1100 1118 "schedule.ml" 52 1100 1123
+type(
+  exn -> unit
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"schedule.ml" 52 1100 1124 "schedule.ml" 52 1100 1135
+type(
+  exn
+)
+"schedule.ml" 52 1100 1118 "schedule.ml" 52 1100 1135
+type(
+  unit
+)
+"schedule.ml" 52 1100 1104 "schedule.ml" 52 1100 1135
+type(
+  unit
+)
+"schedule.ml" 53 1137 1141 "schedule.ml" 53 1137 1147
+type(
+  out_channel -> bytes -> int -> int -> unit
+)
+ident(
+  int_ref Stdlib.output "stdlib.mli" 990 36107 36107 "stdlib.mli" 990 36107 36162
+)
+"schedule.ml" 53 1137 1148 "schedule.ml" 53 1137 1161
+type(
+  out_channel
+)
+ident(
+  int_ref Stdlib.stdout "stdlib.mli" 841 30979 30979 "stdlib.mli" 841 30979 31003
+)
+"schedule.ml" 53 1137 1162 "schedule.ml" 53 1137 1170
+type(
+  bytes
+)
+ident(
+  int_ref temp_buf "schedule.ml" 48 974 978 "schedule.ml" 48 974 986
+)
+"schedule.ml" 53 1137 1171 "schedule.ml" 53 1137 1172
+type(
+  int
+)
+"schedule.ml" 53 1137 1173 "schedule.ml" 53 1137 1174
+type(
+  int
+)
+ident(
+  int_ref r "schedule.ml" 51 1037 1045 "schedule.ml" 51 1037 1046
+)
+"schedule.ml" 53 1137 1141 "schedule.ml" 53 1137 1174
+type(
+  unit
+)
+"schedule.ml" 54 1176 1180 "schedule.ml" 54 1176 1185
+type(
+  out_channel -> unit
+)
+ident(
+  int_ref Stdlib.flush "stdlib.mli" 971 35429 35429 "stdlib.mli" 971 35429 35460
+)
+"schedule.ml" 54 1176 1186 "schedule.ml" 54 1176 1199
+type(
+  out_channel
+)
+ident(
+  int_ref Stdlib.stdout "stdlib.mli" 841 30979 30979 "stdlib.mli" 841 30979 31003
+)
+"schedule.ml" 54 1176 1180 "schedule.ml" 54 1176 1199
+type(
+  unit
+)
+"schedule.ml" 53 1137 1141 "schedule.ml" 54 1176 1199
+type(
+  unit
+)
+"schedule.ml" 52 1100 1104 "schedule.ml" 54 1176 1199
+type(
+  unit
+)
+"schedule.ml" 51 1037 1041 "schedule.ml" 54 1176 1199
+type(
+  unit
+)
+"schedule.ml" 55 1200 1218 "schedule.ml" 55 1200 1219
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Unix.error
+)
+"schedule.ml" 55 1200 1207 "schedule.ml" 55 1200 1219
+type(
+  exn
+)
+"schedule.ml" 55 1200 1223 "schedule.ml" 55 1200 1228
+type(
+  exn -> unit
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"schedule.ml" 55 1200 1229 "schedule.ml" 55 1200 1240
+type(
+  exn
+)
+"schedule.ml" 55 1200 1223 "schedule.ml" 55 1200 1240
+type(
+  unit
+)
+"schedule.ml" 50 1031 1033 "schedule.ml" 55 1200 1240
+type(
+  unit
+)
+"schedule.ml" 60 1338 1342 "schedule.ml" 60 1338 1348
+type(
+  int -> command -> (unit -> computation) list -> process
+)
+ident(
+  def launch "schedule.ml" 81 1844 1844 "schedule.ml" 0 0 -1
+)
+"schedule.ml" 60 1338 1349 "schedule.ml" 60 1338 1354
+type(
+  int
+)
+ident(
+  def refid "schedule.ml" 60 1338 1355 "schedule.ml" 77 1787 1790
+)
+"schedule.ml" 60 1338 1355 "schedule.ml" 60 1338 1358
+type(
+  command
+)
+ident(
+  def cmd "schedule.ml" 60 1338 1359 "schedule.ml" 77 1787 1790
+)
+"schedule.ml" 60 1338 1359 "schedule.ml" 60 1338 1360
+type(
+  (unit -> computation) list
+)
+ident(
+  def t "schedule.ml" 61 1363 1365 "schedule.ml" 77 1787 1790
+)
+"schedule.ml" 61 1363 1365 "schedule.ml" 61 1363 1387
+type(
+  unit -> unit
+)
+ident(
+  int_ref System.harvest_zombies "system.mli" 10 173 173 "system.mli" 10 173 206
+)
+"schedule.ml" 61 1363 1388 "schedule.ml" 61 1363 1390
+type(
+  unit
+)
+"schedule.ml" 61 1363 1365 "schedule.ml" 61 1363 1390
+type(
+  unit
+)
+"schedule.ml" 62 1392 1397 "schedule.ml" 62 1392 1398
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"schedule.ml" 62 1392 1398 "schedule.ml" 62 1392 1412
+type(
+  bool ref
+)
+ident(
+  int_ref Params.verbose "params.mli" 13 193 193 "params.mli" 13 193 215
+)
+"schedule.ml" 62 1392 1397 "schedule.ml" 62 1392 1412
+type(
+  bool
+)
+"schedule.ml" 63 1424 1428 "schedule.ml" 63 1424 1442
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.eprintf "printf.mli" 132 6998 6998 "printf.mli" 132 6998 7048
+)
+"schedule.ml" 63 1424 1443 "schedule.ml" 63 1424 1472
+type(
+  (string -> unit, out_channel, unit) format
+)
+"schedule.ml" 63 1424 1473 "schedule.ml" 63 1424 1476
+type(
+  command
+)
+ident(
+  int_ref cmd "schedule.ml" 60 1338 1355 "schedule.ml" 60 1338 1358
+)
+"schedule.ml" 63 1424 1473 "schedule.ml" 63 1424 1481
+type(
+  string
+)
+"schedule.ml" 63 1424 1428 "schedule.ml" 63 1424 1481
+type(
+  unit
+)
+"schedule.ml" 64 1483 1487 "schedule.ml" 64 1483 1492
+type(
+  out_channel -> unit
+)
+ident(
+  int_ref Stdlib.flush "stdlib.mli" 971 35429 35429 "stdlib.mli" 971 35429 35460
+)
+"schedule.ml" 64 1483 1493 "schedule.ml" 64 1483 1506
+type(
+  out_channel
+)
+ident(
+  int_ref Stdlib.stderr "stdlib.mli" 844 31049 31049 "stdlib.mli" 844 31049 31073
+)
+"schedule.ml" 64 1483 1487 "schedule.ml" 64 1483 1506
+type(
+  unit
+)
+"schedule.ml" 62 1392 1418 "schedule.ml" 65 1507 1512
+type(
+  unit
+)
+"schedule.ml" 62 1392 1394 "schedule.ml" 65 1507 1512
+type(
+  unit
+)
+"schedule.ml" 66 1514 1521 "schedule.ml" 66 1514 1524
+type(
+  int
+)
+ident(
+  def pid "schedule.ml" 67 1572 1574 "schedule.ml" 77 1787 1790
+)
+"schedule.ml" 66 1514 1526 "schedule.ml" 66 1514 1534
+type(
+  Unix.file_descr
+)
+ident(
+  def out_read "schedule.ml" 67 1572 1574 "schedule.ml" 77 1787 1790
+)
+"schedule.ml" 66 1514 1520 "schedule.ml" 66 1514 1535
+type(
+  int * Unix.file_descr
+)
+"schedule.ml" 66 1514 1538 "schedule.ml" 66 1514 1559
+type(
+  string -> int * Unix.file_descr
+)
+ident(
+  int_ref System.launch_process "system.mli" 13 280 280 "system.mli" 13 280 331
+)
+"schedule.ml" 66 1514 1560 "schedule.ml" 66 1514 1563
+type(
+  command
+)
+ident(
+  int_ref cmd "schedule.ml" 60 1338 1355 "schedule.ml" 60 1338 1358
+)
+"schedule.ml" 66 1514 1560 "schedule.ml" 66 1514 1568
+type(
+  string
+)
+"schedule.ml" 66 1514 1538 "schedule.ml" 66 1514 1568
+type(
+  int * Unix.file_descr
+)
+"schedule.ml" 67 1572 1578 "schedule.ml" 67 1572 1588
+type(
+  float
+)
+ident(
+  def start_time "schedule.ml" 68 1610 1612 "schedule.ml" 77 1787 1790
+)
+"schedule.ml" 67 1572 1591 "schedule.ml" 67 1572 1603
+type(
+  unit -> float
+)
+ident(
+  int_ref Unix.gettimeofday "unix.mli" 1177 48558 48558 "unix.mli" 1177 48558 48590
+)
+"schedule.ml" 67 1572 1604 "schedule.ml" 67 1572 1606
+type(
+  unit
+)
+"schedule.ml" 67 1572 1591 "schedule.ml" 67 1572 1606
+type(
+  float
+)
+"schedule.ml" 69 1614 1626 "schedule.ml" 69 1614 1631
+type(
+  int
+)
+ident(
+  int_ref refid "schedule.ml" 60 1338 1349 "schedule.ml" 60 1338 1354
+)
+"schedule.ml" 70 1633 1643 "schedule.ml" 70 1633 1646
+type(
+  int
+)
+ident(
+  int_ref pid "schedule.ml" 66 1514 1521 "schedule.ml" 66 1514 1524
+)
+"schedule.ml" 71 1648 1658 "schedule.ml" 71 1648 1666
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref out_read "schedule.ml" 66 1514 1526 "schedule.ml" 66 1514 1534
+)
+"schedule.ml" 72 1668 1685 "schedule.ml" 72 1668 1695
+type(
+  float
+)
+ident(
+  int_ref start_time "schedule.ml" 67 1572 1578 "schedule.ml" 67 1572 1588
+)
+"schedule.ml" 73 1697 1706 "schedule.ml" 73 1697 1716
+type(
+  float
+)
+ident(
+  int_ref start_time "schedule.ml" 67 1572 1578 "schedule.ml" 67 1572 1588
+)
+"schedule.ml" 73 1697 1717 "schedule.ml" 73 1697 1719
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( +. ) "stdlib.mli" 462 17764 17764 "stdlib.mli" 462 17764 17819
+)
+"schedule.ml" 73 1697 1720 "schedule.ml" 73 1697 1723
+type(
+  command
+)
+ident(
+  int_ref cmd "schedule.ml" 60 1338 1355 "schedule.ml" 60 1338 1358
+)
+"schedule.ml" 73 1697 1720 "schedule.ml" 73 1697 1731
+type(
+  float
+)
+"schedule.ml" 73 1697 1706 "schedule.ml" 73 1697 1731
+type(
+  float
+)
+"schedule.ml" 74 1733 1742 "schedule.ml" 74 1733 1745
+type(
+  command
+)
+ident(
+  int_ref cmd "schedule.ml" 60 1338 1355 "schedule.ml" 60 1338 1358
+)
+"schedule.ml" 74 1733 1742 "schedule.ml" 74 1733 1751
+type(
+  timeout_cont
+)
+"schedule.ml" 75 1753 1762 "schedule.ml" 75 1753 1765
+type(
+  command
+)
+ident(
+  int_ref cmd "schedule.ml" 60 1338 1355 "schedule.ml" 60 1338 1358
+)
+"schedule.ml" 75 1753 1762 "schedule.ml" 75 1753 1771
+type(
+  result -> float -> bool
+)
+"schedule.ml" 76 1773 1784 "schedule.ml" 76 1773 1785
+type(
+  (unit -> computation) list
+)
+ident(
+  int_ref t "schedule.ml" 60 1338 1359 "schedule.ml" 60 1338 1360
+)
+"schedule.ml" 68 1610 1612 "schedule.ml" 77 1787 1790
+type(
+  process
+)
+"schedule.ml" 67 1572 1574 "schedule.ml" 77 1787 1790
+type(
+  process
+)
+"schedule.ml" 66 1514 1516 "schedule.ml" 77 1787 1790
+type(
+  process
+)
+"schedule.ml" 62 1392 1394 "schedule.ml" 77 1787 1790
+type(
+  process
+)
+"schedule.ml" 61 1363 1365 "schedule.ml" 77 1787 1790
+type(
+  process
+)
+"schedule.ml" 81 1844 1852 "schedule.ml" 81 1844 1865
+type(
+  int -> (unit -> computation) list -> process list
+)
+ident(
+  def start_process "schedule.ml" 81 1844 1844 "schedule.ml" 0 0 -1
+)
+"schedule.ml" 81 1844 1866 "schedule.ml" 81 1844 1871
+type(
+  int
+)
+ident(
+  def refid "schedule.ml" 81 1844 1872 "schedule.ml" 89 2075 2083
+)
+"schedule.ml" 81 1844 1872 "schedule.ml" 81 1844 1877
+type(
+  (unit -> computation) list
+)
+ident(
+  def comps "schedule.ml" 82 1880 1882 "schedule.ml" 89 2075 2083
+)
+"schedule.ml" 82 1880 1888 "schedule.ml" 82 1880 1893
+type(
+  (unit -> computation) list
+)
+ident(
+  int_ref comps "schedule.ml" 81 1844 1872 "schedule.ml" 81 1844 1877
+)
+"schedule.ml" 83 1899 1903 "schedule.ml" 83 1899 1905
+type(
+  (unit -> computation) list
+)
+type(
+  (unit -> computation) list
+)
+"schedule.ml" 83 1899 1909 "schedule.ml" 83 1899 1911
+type(
+  process list
+)
+"schedule.ml" 84 1912 1916 "schedule.ml" 84 1912 1920
+type(
+  unit -> computation
+)
+ident(
+  def comp "schedule.ml" 85 1929 1934 "schedule.ml" 89 2075 2083
+)
+"schedule.ml" 84 1912 1924 "schedule.ml" 84 1912 1925
+type(
+  (unit -> computation) list
+)
+ident(
+  def t "schedule.ml" 85 1929 1934 "schedule.ml" 89 2075 2083
+)
+"schedule.ml" 84 1912 1916 "schedule.ml" 84 1912 1925
+type(
+  (unit -> computation) list
+)
+type(
+  (unit -> computation) list
+)
+"schedule.ml" 85 1929 1946 "schedule.ml" 85 1929 1950
+type(
+  unit -> computation
+)
+ident(
+  int_ref comp "schedule.ml" 84 1912 1916 "schedule.ml" 84 1912 1920
+)
+"schedule.ml" 85 1929 1951 "schedule.ml" 85 1929 1953
+type(
+  unit
+)
+"schedule.ml" 85 1929 1946 "schedule.ml" 85 1929 1953
+type(
+  computation
+)
+"schedule.ml" 86 1959 1976 "schedule.ml" 86 1959 1981
+type(
+  bool
+)
+"schedule.ml" 86 1959 1966 "schedule.ml" 86 1959 1981
+type(
+  computation
+)
+type(
+  computation
+)
+"schedule.ml" 86 1959 1985 "schedule.ml" 86 1959 1998
+type(
+  int -> (unit -> computation) list -> process list
+)
+ident(
+  int_ref start_process "schedule.ml" 81 1844 1852 "schedule.ml" 81 1844 1865
+)
+"schedule.ml" 86 1959 1999 "schedule.ml" 86 1959 2004
+type(
+  int
+)
+ident(
+  int_ref refid "schedule.ml" 81 1844 1866 "schedule.ml" 81 1844 1871
+)
+"schedule.ml" 86 1959 2005 "schedule.ml" 86 1959 2006
+type(
+  (unit -> computation) list
+)
+ident(
+  int_ref t "schedule.ml" 84 1912 1924 "schedule.ml" 84 1912 1925
+)
+"schedule.ml" 86 1959 1985 "schedule.ml" 86 1959 2006
+type(
+  process list
+)
+"schedule.ml" 87 2007 2024 "schedule.ml" 87 2007 2028
+type(
+  bool
+)
+"schedule.ml" 87 2007 2014 "schedule.ml" 87 2007 2028
+type(
+  computation
+)
+type(
+  computation
+)
+"schedule.ml" 87 2007 2032 "schedule.ml" 87 2007 2034
+type(
+  process list
+)
+"schedule.ml" 88 2035 2047 "schedule.ml" 88 2035 2050
+type(
+  command
+)
+ident(
+  def cmd "schedule.ml" 88 2035 2054 "schedule.ml" 88 2035 2074
+)
+"schedule.ml" 88 2035 2042 "schedule.ml" 88 2035 2050
+type(
+  computation
+)
+type(
+  computation
+)
+"schedule.ml" 88 2035 2055 "schedule.ml" 88 2035 2061
+type(
+  int -> command -> (unit -> computation) list -> process
+)
+ident(
+  int_ref launch "schedule.ml" 60 1338 1342 "schedule.ml" 60 1338 1348
+)
+"schedule.ml" 88 2035 2062 "schedule.ml" 88 2035 2067
+type(
+  int
+)
+ident(
+  int_ref refid "schedule.ml" 81 1844 1866 "schedule.ml" 81 1844 1871
+)
+"schedule.ml" 88 2035 2068 "schedule.ml" 88 2035 2071
+type(
+  command
+)
+ident(
+  int_ref cmd "schedule.ml" 88 2035 2047 "schedule.ml" 88 2035 2050
+)
+"schedule.ml" 88 2035 2072 "schedule.ml" 88 2035 2073
+type(
+  (unit -> computation) list
+)
+ident(
+  int_ref t "schedule.ml" 84 1912 1924 "schedule.ml" 84 1912 1925
+)
+"schedule.ml" 88 2035 2055 "schedule.ml" 88 2035 2073
+type(
+  process
+)
+"schedule.ml" 88 2035 2054 "schedule.ml" 88 2035 2074
+type(
+  process list
+)
+"schedule.ml" 85 1929 1934 "schedule.ml" 89 2075 2083
+type(
+  process list
+)
+"schedule.ml" 82 1880 1882 "schedule.ml" 89 2075 2083
+type(
+  process list
+)
+"schedule.ml" 94 2201 2205 "schedule.ml" 94 2201 2217
+type(
+  float -> result -> process -> bool
+)
+ident(
+  def kill_process "schedule.ml" 102 2355 2355 "schedule.ml" 0 0 -1
+)
+"schedule.ml" 94 2201 2218 "schedule.ml" 94 2201 2221
+type(
+  float
+)
+ident(
+  def now "schedule.ml" 94 2201 2222 "schedule.ml" 99 2317 2352
+)
+"schedule.ml" 94 2201 2222 "schedule.ml" 94 2201 2228
+type(
+  result
+)
+ident(
+  def reason "schedule.ml" 94 2201 2229 "schedule.ml" 99 2317 2352
+)
+"schedule.ml" 94 2201 2229 "schedule.ml" 94 2201 2230
+type(
+  process
+)
+ident(
+  def d "schedule.ml" 95 2233 2235 "schedule.ml" 99 2317 2352
+)
+"schedule.ml" 95 2233 2238 "schedule.ml" 95 2233 2244
+type(
+  result
+)
+ident(
+  int_ref reason "schedule.ml" 94 2201 2222 "schedule.ml" 94 2201 2228
+)
+"schedule.ml" 95 2233 2245 "schedule.ml" 95 2233 2247
+type(
+  result -> result -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 130 5559 5559 "stdlib.mli" 130 5559 5607
+)
+"schedule.ml" 95 2233 2248 "schedule.ml" 95 2233 2256
+type(
+  result
+)
+"schedule.ml" 95 2233 2238 "schedule.ml" 95 2233 2256
+type(
+  bool
+)
+"schedule.ml" 96 2268 2272 "schedule.ml" 96 2268 2288
+type(
+  int -> unit
+)
+ident(
+  int_ref System.kill_tree "system.mli" 5 63 63 "system.mli" 5 63 89
+)
+"schedule.ml" 96 2268 2289 "schedule.ml" 96 2268 2290
+type(
+  process
+)
+ident(
+  int_ref d "schedule.ml" 94 2201 2229 "schedule.ml" 94 2201 2230
+)
+"schedule.ml" 96 2268 2289 "schedule.ml" 96 2268 2294
+type(
+  int
+)
+"schedule.ml" 95 2233 2262 "schedule.ml" 97 2295 2300
+type(
+  unit
+)
+"schedule.ml" 95 2233 2235 "schedule.ml" 97 2295 2300
+type(
+  unit
+)
+"schedule.ml" 98 2302 2304 "schedule.ml" 98 2302 2309
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  int_ref Unix.close "unix.mli" 350 15065 15065 "unix.mli" 350 15065 15095
+)
+"schedule.ml" 98 2302 2310 "schedule.ml" 98 2302 2311
+type(
+  process
+)
+ident(
+  int_ref d "schedule.ml" 94 2201 2229 "schedule.ml" 94 2201 2230
+)
+"schedule.ml" 98 2302 2310 "schedule.ml" 98 2302 2315
+type(
+  Unix.file_descr
+)
+"schedule.ml" 98 2302 2304 "schedule.ml" 98 2302 2315
+type(
+  unit
+)
+"schedule.ml" 99 2317 2319 "schedule.ml" 99 2317 2320
+type(
+  process
+)
+ident(
+  int_ref d "schedule.ml" 94 2201 2229 "schedule.ml" 94 2201 2230
+)
+"schedule.ml" 99 2317 2319 "schedule.ml" 99 2317 2323
+type(
+  result -> float -> bool
+)
+"schedule.ml" 99 2317 2324 "schedule.ml" 99 2317 2330
+type(
+  result
+)
+ident(
+  int_ref reason "schedule.ml" 94 2201 2222 "schedule.ml" 94 2201 2228
+)
+"schedule.ml" 99 2317 2332 "schedule.ml" 99 2317 2335
+type(
+  float
+)
+ident(
+  int_ref now "schedule.ml" 94 2201 2218 "schedule.ml" 94 2201 2221
+)
+"schedule.ml" 99 2317 2336 "schedule.ml" 99 2317 2338
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( -. ) "stdlib.mli" 467 17929 17929 "stdlib.mli" 467 17929 17984
+)
+"schedule.ml" 99 2317 2339 "schedule.ml" 99 2317 2340
+type(
+  process
+)
+ident(
+  int_ref d "schedule.ml" 94 2201 2229 "schedule.ml" 94 2201 2230
+)
+"schedule.ml" 99 2317 2339 "schedule.ml" 99 2317 2351
+type(
+  float
+)
+"schedule.ml" 99 2317 2331 "schedule.ml" 99 2317 2352
+type(
+  float
+)
+"schedule.ml" 99 2317 2319 "schedule.ml" 99 2317 2352
+type(
+  bool
+)
+"schedule.ml" 98 2302 2304 "schedule.ml" 99 2317 2352
+type(
+  bool
+)
+"schedule.ml" 95 2233 2235 "schedule.ml" 99 2317 2352
+type(
+  bool
+)
+"schedule.ml" 102 2355 2359 "schedule.ml" 102 2355 2378
+type(
+  float ->
+  result -> process -> 'a list * (int * (unit -> computation) list) list
+)
+ident(
+  def kill_and_start_next "schedule.ml" 113 2764 2764 "schedule.ml" 0 0 -1
+)
+"schedule.ml" 102 2355 2379 "schedule.ml" 102 2355 2382
+type(
+  float
+)
+ident(
+  def now "schedule.ml" 102 2355 2383 "schedule.ml" 104 2439 2496
+)
+"schedule.ml" 102 2355 2383 "schedule.ml" 102 2355 2389
+type(
+  result
+)
+ident(
+  def reason "schedule.ml" 102 2355 2390 "schedule.ml" 104 2439 2496
+)
+"schedule.ml" 102 2355 2390 "schedule.ml" 102 2355 2391
+type(
+  process
+)
+ident(
+  def d "schedule.ml" 103 2394 2396 "schedule.ml" 104 2439 2496
+)
+"schedule.ml" 103 2394 2400 "schedule.ml" 103 2394 2407
+type(
+  bool
+)
+ident(
+  def success "schedule.ml" 104 2439 2441 "schedule.ml" 104 2439 2496
+)
+"schedule.ml" 103 2394 2410 "schedule.ml" 103 2394 2422
+type(
+  float -> result -> process -> bool
+)
+ident(
+  int_ref kill_process "schedule.ml" 94 2201 2205 "schedule.ml" 94 2201 2217
+)
+"schedule.ml" 103 2394 2423 "schedule.ml" 103 2394 2426
+type(
+  float
+)
+ident(
+  int_ref now "schedule.ml" 102 2355 2379 "schedule.ml" 102 2355 2382
+)
+"schedule.ml" 103 2394 2427 "schedule.ml" 103 2394 2433
+type(
+  result
+)
+ident(
+  int_ref reason "schedule.ml" 102 2355 2383 "schedule.ml" 102 2355 2389
+)
+"schedule.ml" 103 2394 2434 "schedule.ml" 103 2394 2435
+type(
+  process
+)
+ident(
+  int_ref d "schedule.ml" 102 2355 2390 "schedule.ml" 102 2355 2391
+)
+"schedule.ml" 103 2394 2410 "schedule.ml" 103 2394 2435
+type(
+  bool
+)
+"schedule.ml" 104 2439 2444 "schedule.ml" 104 2439 2451
+type(
+  bool
+)
+ident(
+  int_ref success "schedule.ml" 103 2394 2400 "schedule.ml" 103 2394 2407
+)
+"schedule.ml" 104 2439 2458 "schedule.ml" 104 2439 2460
+type(
+  'a list
+)
+"schedule.ml" 104 2439 2462 "schedule.ml" 104 2439 2464
+type(
+  (int * (unit -> computation) list) list
+)
+"schedule.ml" 104 2439 2457 "schedule.ml" 104 2439 2465
+type(
+  'a list * (int * (unit -> computation) list) list
+)
+"schedule.ml" 104 2439 2472 "schedule.ml" 104 2439 2474
+type(
+  'a list
+)
+"schedule.ml" 104 2439 2478 "schedule.ml" 104 2439 2479
+type(
+  process
+)
+ident(
+  int_ref d "schedule.ml" 102 2355 2390 "schedule.ml" 102 2355 2391
+)
+"schedule.ml" 104 2439 2478 "schedule.ml" 104 2439 2485
+type(
+  int
+)
+"schedule.ml" 104 2439 2487 "schedule.ml" 104 2439 2488
+type(
+  process
+)
+ident(
+  int_ref d "schedule.ml" 102 2355 2390 "schedule.ml" 102 2355 2391
+)
+"schedule.ml" 104 2439 2487 "schedule.ml" 104 2439 2493
+type(
+  (unit -> computation) list
+)
+"schedule.ml" 104 2439 2477 "schedule.ml" 104 2439 2494
+type(
+  int * (unit -> computation) list
+)
+"schedule.ml" 104 2439 2476 "schedule.ml" 104 2439 2495
+type(
+  (int * (unit -> computation) list) list
+)
+"schedule.ml" 104 2439 2471 "schedule.ml" 104 2439 2496
+type(
+  'a list * (int * (unit -> computation) list) list
+)
+"schedule.ml" 104 2439 2441 "schedule.ml" 104 2439 2496
+type(
+  'a list * (int * (unit -> computation) list) list
+)
+"schedule.ml" 103 2394 2396 "schedule.ml" 104 2439 2496
+type(
+  'a list * (int * (unit -> computation) list) list
+)
+"schedule.ml" 113 2764 2768 "schedule.ml" 113 2764 2771
+type(
+  int -> (int * (unit -> computation) list) list -> unit
+)
+ident(
+  def run "schedule.ml" 186 5299 5328 "schedule.ml" 0 0 -1
+)
+"schedule.ml" 113 2764 2772 "schedule.ml" 113 2764 2783
+type(
+  int
+)
+ident(
+  def max_threads "schedule.ml" 113 2764 2784 "schedule.ml" 186 5299 5328
+)
+"schedule.ml" 113 2764 2784 "schedule.ml" 113 2764 2786
+type(
+  (int * (unit -> computation) list) list
+)
+ident(
+  def tl "schedule.ml" 114 2789 2791 "schedule.ml" 186 5299 5328
+)
+"schedule.ml" 114 2789 2799 "schedule.ml" 114 2789 2810
+type(
+  int
+)
+ident(
+  int_ref max_threads "schedule.ml" 113 2764 2772 "schedule.ml" 113 2764 2783
+)
+"schedule.ml" 114 2789 2811 "schedule.ml" 114 2789 2813
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 150 6190 6190 "stdlib.mli" 150 6190 6242
+)
+"schedule.ml" 114 2789 2814 "schedule.ml" 114 2789 2815
+type(
+  int
+)
+"schedule.ml" 114 2789 2798 "schedule.ml" 114 2789 2816
+type(
+  bool
+)
+"schedule.ml" 114 2789 2791 "schedule.ml" 114 2789 2816
+type(
+  unit
+)
+"schedule.ml" 115 2818 2828 "schedule.ml" 115 2818 2839
+type(
+  int
+)
+ident(
+  int_ref max_threads "schedule.ml" 113 2764 2772 "schedule.ml" 113 2764 2783
+)
+"schedule.ml" 115 2818 2840 "schedule.ml" 115 2818 2841
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 135 5721 5721 "stdlib.mli" 135 5721 5768
+)
+"schedule.ml" 115 2818 2842 "schedule.ml" 115 2818 2845
+type(
+  int
+)
+"schedule.ml" 115 2818 2827 "schedule.ml" 115 2818 2846
+type(
+  bool
+)
+"schedule.ml" 115 2818 2820 "schedule.ml" 115 2818 2846
+type(
+  unit
+)
+"schedule.ml" 116 2848 2858 "schedule.ml" 116 2848 2862
+type(
+  process list -> (int * (unit -> computation) list) list -> unit
+)
+ident(
+  def spin "schedule.ml" 116 2848 2850 "schedule.ml" 186 5299 5328
+)
+"schedule.ml" 116 2848 2863 "schedule.ml" 116 2848 2870
+type(
+  process list
+)
+ident(
+  def running "schedule.ml" 116 2848 2871 "schedule.ml" 180 5195 5202
+)
+"schedule.ml" 116 2848 2871 "schedule.ml" 116 2848 2873
+type(
+  (int * (unit -> computation) list) list
+)
+ident(
+  def tl "schedule.ml" 117 2876 2880 "schedule.ml" 180 5195 5202
+)
+"schedule.ml" 117 2876 2884 "schedule.ml" 117 2876 2887
+type(
+  float
+)
+ident(
+  def now "schedule.ml" 120 2998 3002 "schedule.ml" 180 5195 5202
+)
+"schedule.ml" 117 2876 2890 "schedule.ml" 117 2876 2907
+type(
+  unit -> float
+)
+ident(
+  int_ref Unix.gettimeofday "unix.mli" 1177 48558 48558 "unix.mli" 1177 48558 48590
+)
+"schedule.ml" 117 2876 2908 "schedule.ml" 117 2876 2910
+type(
+  unit
+)
+"schedule.ml" 117 2876 2890 "schedule.ml" 117 2876 2910
+type(
+  float
+)
+"schedule.ml" 120 2998 3005 "schedule.ml" 120 2998 3023
+type(
+  unit -> bool
+)
+ident(
+  int_ref Toolbox.is_stopped "toolbox.mli" 5 63 63 "toolbox.mli" 5 63 91
+)
+"schedule.ml" 120 2998 3024 "schedule.ml" 120 2998 3026
+type(
+  unit
+)
+"schedule.ml" 120 2998 3005 "schedule.ml" 120 2998 3026
+type(
+  bool
+)
+"schedule.ml" 121 3038 3044 "schedule.ml" 121 3038 3053
+type(
+  (process -> unit) -> process list -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 159 5701 5701 "list.mli" 159 5701 5743
+)
+"schedule.ml" 121 3038 3059 "schedule.ml" 121 3038 3060
+type(
+  process
+)
+ident(
+  def d "schedule.ml" 121 3038 3064 "schedule.ml" 121 3038 3104
+)
+"schedule.ml" 121 3038 3064 "schedule.ml" 121 3038 3070
+type(
+  bool -> unit
+)
+ident(
+  int_ref Stdlib.ignore "stdlib.mli" 723 27015 27015 "stdlib.mli" 723 27015 27055
+)
+"schedule.ml" 121 3038 3072 "schedule.ml" 121 3038 3084
+type(
+  float -> result -> process -> bool
+)
+ident(
+  int_ref kill_process "schedule.ml" 94 2201 2205 "schedule.ml" 94 2201 2217
+)
+"schedule.ml" 121 3038 3085 "schedule.ml" 121 3038 3088
+type(
+  float
+)
+ident(
+  int_ref now "schedule.ml" 117 2876 2884 "schedule.ml" 117 2876 2887
+)
+"schedule.ml" 121 3038 3089 "schedule.ml" 121 3038 3101
+type(
+  result
+)
+"schedule.ml" 121 3038 3102 "schedule.ml" 121 3038 3103
+type(
+  process
+)
+ident(
+  int_ref d "schedule.ml" 121 3038 3059 "schedule.ml" 121 3038 3060
+)
+"schedule.ml" 121 3038 3071 "schedule.ml" 121 3038 3104
+type(
+  bool
+)
+"schedule.ml" 121 3038 3064 "schedule.ml" 121 3038 3104
+type(
+  unit
+)
+"schedule.ml" 121 3038 3054 "schedule.ml" 121 3038 3105
+type(
+  process -> unit
+)
+"schedule.ml" 121 3038 3106 "schedule.ml" 121 3038 3113
+type(
+  process list
+)
+ident(
+  int_ref running "schedule.ml" 116 2848 2863 "schedule.ml" 116 2848 2870
+)
+"schedule.ml" 121 3038 3044 "schedule.ml" 121 3038 3113
+type(
+  unit
+)
+"schedule.ml" 122 3115 3121 "schedule.ml" 122 3115 3126
+type(
+  exn -> unit
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"schedule.ml" 122 3115 3127 "schedule.ml" 122 3115 3131
+type(
+  exn
+)
+"schedule.ml" 122 3115 3121 "schedule.ml" 122 3115 3131
+type(
+  unit
+)
+"schedule.ml" 120 2998 3032 "schedule.ml" 123 3132 3139
+type(
+  unit
+)
+"schedule.ml" 120 2998 3002 "schedule.ml" 123 3132 3139
+type(
+  unit
+)
+"schedule.ml" 125 3174 3182 "schedule.ml" 125 3174 3187
+type(
+  int list
+)
+ident(
+  def kills "schedule.ml" 126 3214 3218 "schedule.ml" 180 5195 5202
+)
+"schedule.ml" 125 3174 3190 "schedule.ml" 125 3174 3207
+type(
+  unit -> int list
+)
+ident(
+  int_ref Toolbox.get_kills "toolbox.mli" 9 214 214 "toolbox.mli" 9 214 245
+)
+"schedule.ml" 125 3174 3208 "schedule.ml" 125 3174 3210
+type(
+  unit
+)
+"schedule.ml" 125 3174 3190 "schedule.ml" 125 3174 3210
+type(
+  int list
+)
+"schedule.ml" 126 3214 3222 "schedule.ml" 126 3214 3223
+type(
+  process -> process list * (int * (unit -> computation) list) list
+)
+ident(
+  def f "schedule.ml" 132 3346 3350 "schedule.ml" 180 5195 5202
+)
+"schedule.ml" 126 3214 3224 "schedule.ml" 126 3214 3225
+type(
+  process
+)
+ident(
+  def d "schedule.ml" 127 3228 3234 "schedule.ml" 130 3323 3338
+)
+"schedule.ml" 127 3228 3237 "schedule.ml" 127 3228 3245
+type(
+  int -> int list -> bool
+)
+ident(
+  int_ref Stdlib.List.mem "list.mli" 291 9973 9973 "list.mli" 291 9973 10004
+)
+"schedule.ml" 127 3228 3246 "schedule.ml" 127 3228 3247
+type(
+  process
+)
+ident(
+  int_ref d "schedule.ml" 126 3214 3224 "schedule.ml" 126 3214 3225
+)
+"schedule.ml" 127 3228 3246 "schedule.ml" 127 3228 3253
+type(
+  int
+)
+"schedule.ml" 127 3228 3254 "schedule.ml" 127 3228 3259
+type(
+  int list
+)
+ident(
+  int_ref kills "schedule.ml" 125 3174 3182 "schedule.ml" 125 3174 3187
+)
+"schedule.ml" 127 3228 3237 "schedule.ml" 127 3228 3259
+type(
+  bool
+)
+"schedule.ml" 128 3265 3273 "schedule.ml" 128 3265 3292
+type(
+  float ->
+  result -> process -> process list * (int * (unit -> computation) list) list
+)
+ident(
+  int_ref kill_and_start_next "schedule.ml" 102 2355 2359 "schedule.ml" 102 2355 2378
+)
+"schedule.ml" 128 3265 3293 "schedule.ml" 128 3265 3296
+type(
+  float
+)
+ident(
+  int_ref now "schedule.ml" 117 2876 2884 "schedule.ml" 117 2876 2887
+)
+"schedule.ml" 128 3265 3297 "schedule.ml" 128 3265 3309
+type(
+  result
+)
+"schedule.ml" 128 3265 3310 "schedule.ml" 128 3265 3311
+type(
+  process
+)
+ident(
+  int_ref d "schedule.ml" 126 3214 3224 "schedule.ml" 126 3214 3225
+)
+"schedule.ml" 128 3265 3273 "schedule.ml" 128 3265 3311
+type(
+  process list * (int * (unit -> computation) list) list
+)
+"schedule.ml" 130 3323 3332 "schedule.ml" 130 3323 3333
+type(
+  process
+)
+ident(
+  int_ref d "schedule.ml" 126 3214 3224 "schedule.ml" 126 3214 3225
+)
+"schedule.ml" 130 3323 3331 "schedule.ml" 130 3323 3334
+type(
+  process list
+)
+"schedule.ml" 130 3323 3336 "schedule.ml" 130 3323 3338
+type(
+  (int * (unit -> computation) list) list
+)
+"schedule.ml" 130 3323 3331 "schedule.ml" 130 3323 3338
+type(
+  process list * (int * (unit -> computation) list) list
+)
+"schedule.ml" 127 3228 3234 "schedule.ml" 130 3323 3338
+type(
+  process list * (int * (unit -> computation) list) list
+)
+"schedule.ml" 132 3346 3354 "schedule.ml" 132 3346 3361
+type(
+  process list list
+)
+ident(
+  def newruns "schedule.ml" 133 3409 3413 "schedule.ml" 180 5195 5202
+)
+"schedule.ml" 132 3346 3363 "schedule.ml" 132 3346 3371
+type(
+  (int * (unit -> computation) list) list list
+)
+ident(
+  def addtasks "schedule.ml" 133 3409 3413 "schedule.ml" 180 5195 5202
+)
+"schedule.ml" 132 3346 3354 "schedule.ml" 132 3346 3371
+type(
+  process list list * (int * (unit -> computation) list) list list
+)
+"schedule.ml" 132 3346 3374 "schedule.ml" 132 3346 3384
+type(
+  (process list * (int * (unit -> computation) list) list) list ->
+  process list list * (int * (unit -> computation) list) list list
+)
+ident(
+  int_ref Stdlib.List.split "list.mli" 426 14181 14181 "list.mli" 426 14181 14228
+)
+"schedule.ml" 132 3346 3386 "schedule.ml" 132 3346 3394
+type(
+  (process -> process list * (int * (unit -> computation) list) list) ->
+  process list ->
+  (process list * (int * (unit -> computation) list) list) list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"schedule.ml" 132 3346 3395 "schedule.ml" 132 3346 3396
+type(
+  process -> process list * (int * (unit -> computation) list) list
+)
+ident(
+  int_ref f "schedule.ml" 126 3214 3222 "schedule.ml" 126 3214 3223
+)
+"schedule.ml" 132 3346 3397 "schedule.ml" 132 3346 3404
+type(
+  process list
+)
+ident(
+  int_ref running "schedule.ml" 116 2848 2863 "schedule.ml" 116 2848 2870
+)
+"schedule.ml" 132 3346 3385 "schedule.ml" 132 3346 3405
+type(
+  (process list * (int * (unit -> computation) list) list) list
+)
+"schedule.ml" 132 3346 3374 "schedule.ml" 132 3346 3405
+type(
+  process list list * (int * (unit -> computation) list) list list
+)
+"schedule.ml" 133 3409 3417 "schedule.ml" 133 3409 3424
+type(
+  process list
+)
+ident(
+  def running "schedule.ml" 134 3451 3455 "schedule.ml" 180 5195 5202
+)
+"schedule.ml" 133 3409 3427 "schedule.ml" 133 3409 3439
+type(
+  process list list -> process list
+)
+ident(
+  int_ref Stdlib.List.flatten "list.mli" 118 4456 4456 "list.mli" 118 4456 4493
+)
+"schedule.ml" 133 3409 3440 "schedule.ml" 133 3409 3447
+type(
+  process list list
+)
+ident(
+  int_ref newruns "schedule.ml" 132 3346 3354 "schedule.ml" 132 3346 3361
+)
+"schedule.ml" 133 3409 3427 "schedule.ml" 133 3409 3447
+type(
+  process list
+)
+"schedule.ml" 134 3451 3459 "schedule.ml" 134 3451 3461
+type(
+  (int * (unit -> computation) list) list
+)
+ident(
+  def tl "schedule.ml" 137 3537 3541 "schedule.ml" 180 5195 5202
+)
+"schedule.ml" 134 3451 3464 "schedule.ml" 134 3451 3476
+type(
+  (int * (unit -> computation) list) list list ->
+  (int * (unit -> computation) list) list
+)
+ident(
+  int_ref Stdlib.List.flatten "list.mli" 118 4456 4456 "list.mli" 118 4456 4493
+)
+"schedule.ml" 134 3451 3477 "schedule.ml" 134 3451 3485
+type(
+  (int * (unit -> computation) list) list list
+)
+ident(
+  int_ref addtasks "schedule.ml" 132 3346 3363 "schedule.ml" 132 3346 3371
+)
+"schedule.ml" 134 3451 3464 "schedule.ml" 134 3451 3485
+type(
+  (int * (unit -> computation) list) list
+)
+"schedule.ml" 134 3451 3486 "schedule.ml" 134 3451 3487
+type(
+  (int * (unit -> computation) list) list ->
+  (int * (unit -> computation) list) list ->
+  (int * (unit -> computation) list) list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"schedule.ml" 134 3451 3488 "schedule.ml" 134 3451 3490
+type(
+  (int * (unit -> computation) list) list
+)
+ident(
+  int_ref tl "schedule.ml" 116 2848 2871 "schedule.ml" 116 2848 2873
+)
+"schedule.ml" 134 3451 3464 "schedule.ml" 134 3451 3490
+type(
+  (int * (unit -> computation) list) list
+)
+"schedule.ml" 137 3537 3545 "schedule.ml" 137 3537 3547
+type(
+  float
+)
+ident(
+  def dl "schedule.ml" 138 3609 3613 "schedule.ml" 180 5195 5202
+)
+"schedule.ml" 137 3537 3550 "schedule.ml" 137 3537 3564
+type(
+  (float -> process -> float) -> float -> process list -> float
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 211 7387 7387 "list.mli" 211 7387 7442
+)
+"schedule.ml" 137 3537 3570 "schedule.ml" 137 3537 3571
+type(
+  float
+)
+ident(
+  def x "schedule.ml" 137 3537 3572 "schedule.ml" 137 3537 3587
+)
+"schedule.ml" 137 3537 3572 "schedule.ml" 137 3537 3573
+type(
+  process
+)
+ident(
+  def y "schedule.ml" 137 3537 3577 "schedule.ml" 137 3537 3587
+)
+"schedule.ml" 137 3537 3577 "schedule.ml" 137 3537 3580
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.min "stdlib.mli" 181 7799 7799 "stdlib.mli" 181 7799 7823
+)
+"schedule.ml" 137 3537 3581 "schedule.ml" 137 3537 3582
+type(
+  float
+)
+ident(
+  int_ref x "schedule.ml" 137 3537 3570 "schedule.ml" 137 3537 3571
+)
+"schedule.ml" 137 3537 3583 "schedule.ml" 137 3537 3584
+type(
+  process
+)
+ident(
+  int_ref y "schedule.ml" 137 3537 3572 "schedule.ml" 137 3537 3573
+)
+"schedule.ml" 137 3537 3583 "schedule.ml" 137 3537 3587
+type(
+  float
+)
+"schedule.ml" 137 3537 3577 "schedule.ml" 137 3537 3587
+type(
+  float
+)
+"schedule.ml" 137 3537 3565 "schedule.ml" 137 3537 3588
+type(
+  float -> process -> float
+)
+"schedule.ml" 137 3537 3589 "schedule.ml" 137 3537 3597
+type(
+  float
+)
+ident(
+  int_ref Stdlib.infinity "stdlib.mli" 655 24762 24762 "stdlib.mli" 655 24762 24782
+)
+"schedule.ml" 137 3537 3598 "schedule.ml" 137 3537 3605
+type(
+  process list
+)
+ident(
+  int_ref running "schedule.ml" 133 3409 3417 "schedule.ml" 133 3409 3424
+)
+"schedule.ml" 137 3537 3550 "schedule.ml" 137 3537 3605
+type(
+  float
+)
+"schedule.ml" 138 3609 3616 "schedule.ml" 138 3609 3618
+type(
+  (int * (unit -> computation) list) list
+)
+ident(
+  int_ref tl "schedule.ml" 134 3451 3459 "schedule.ml" 134 3451 3461
+)
+"schedule.ml" 138 3609 3619 "schedule.ml" 138 3609 3621
+type(
+  (int * (unit -> computation) list) list ->
+  (int * (unit -> computation) list) list -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 130 5559 5559 "stdlib.mli" 130 5559 5607
+)
+"schedule.ml" 138 3609 3622 "schedule.ml" 138 3609 3624
+type(
+  (int * (unit -> computation) list) list
+)
+"schedule.ml" 138 3609 3616 "schedule.ml" 138 3609 3624
+type(
+  bool
+)
+"schedule.ml" 138 3609 3625 "schedule.ml" 138 3609 3627
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"schedule.ml" 138 3609 3628 "schedule.ml" 138 3609 3639
+type(
+  process list -> int
+)
+ident(
+  int_ref Stdlib.List.length "list.mli" 43 2033 2033 "list.mli" 43 2033 2060
+)
+"schedule.ml" 138 3609 3640 "schedule.ml" 138 3609 3647
+type(
+  process list
+)
+ident(
+  int_ref running "schedule.ml" 133 3409 3417 "schedule.ml" 133 3409 3424
+)
+"schedule.ml" 138 3609 3628 "schedule.ml" 138 3609 3647
+type(
+  int
+)
+"schedule.ml" 138 3609 3648 "schedule.ml" 138 3609 3649
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 135 5721 5721 "stdlib.mli" 135 5721 5768
+)
+"schedule.ml" 138 3609 3650 "schedule.ml" 138 3609 3661
+type(
+  int
+)
+ident(
+  int_ref max_threads "schedule.ml" 113 2764 2772 "schedule.ml" 113 2764 2783
+)
+"schedule.ml" 138 3609 3628 "schedule.ml" 138 3609 3661
+type(
+  bool
+)
+"schedule.ml" 138 3609 3662 "schedule.ml" 138 3609 3664
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"schedule.ml" 138 3609 3665 "schedule.ml" 138 3609 3668
+type(
+  float
+)
+ident(
+  int_ref now "schedule.ml" 117 2876 2884 "schedule.ml" 117 2876 2887
+)
+"schedule.ml" 138 3609 3669 "schedule.ml" 138 3609 3670
+type(
+  float -> float -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 135 5721 5721 "stdlib.mli" 135 5721 5768
+)
+"schedule.ml" 138 3609 3671 "schedule.ml" 138 3609 3673
+type(
+  float
+)
+ident(
+  int_ref dl "schedule.ml" 137 3537 3545 "schedule.ml" 137 3537 3547
+)
+"schedule.ml" 138 3609 3665 "schedule.ml" 138 3609 3673
+type(
+  bool
+)
+"schedule.ml" 138 3609 3628 "schedule.ml" 138 3609 3673
+type(
+  bool
+)
+"schedule.ml" 138 3609 3616 "schedule.ml" 138 3609 3673
+type(
+  bool
+)
+"schedule.ml" 141 3808 3820 "schedule.ml" 141 3808 3822
+type(
+  (int * (unit -> computation) list) list
+)
+ident(
+  int_ref tl "schedule.ml" 134 3451 3459 "schedule.ml" 134 3451 3461
+)
+"schedule.ml" 142 3828 3836 "schedule.ml" 142 3828 3838
+type(
+  (int * (unit -> computation) list) list
+)
+type(
+  (int * (unit -> computation) list) list
+)
+"schedule.ml" 142 3828 3849 "schedule.ml" 142 3828 3854
+type(
+  bool
+)
+"schedule.ml" 142 3828 3842 "schedule.ml" 142 3828 3854
+type(
+  unit
+)
+"schedule.ml" 143 3855 3864 "schedule.ml" 143 3855 3869
+type(
+  int
+)
+ident(
+  def refid "schedule.ml" 143 3855 3886 "schedule.ml" 143 3855 3930
+)
+"schedule.ml" 143 3855 3871 "schedule.ml" 143 3855 3876
+type(
+  (unit -> computation) list
+)
+ident(
+  def comps "schedule.ml" 143 3855 3886 "schedule.ml" 143 3855 3930
+)
+"schedule.ml" 143 3855 3863 "schedule.ml" 143 3855 3877
+type(
+  int * (unit -> computation) list
+)
+"schedule.ml" 143 3855 3881 "schedule.ml" 143 3855 3882
+type(
+  (int * (unit -> computation) list) list
+)
+ident(
+  def t "schedule.ml" 143 3855 3886 "schedule.ml" 143 3855 3930
+)
+"schedule.ml" 143 3855 3863 "schedule.ml" 143 3855 3882
+type(
+  (int * (unit -> computation) list) list
+)
+type(
+  (int * (unit -> computation) list) list
+)
+"schedule.ml" 143 3855 3886 "schedule.ml" 143 3855 3890
+type(
+  process list -> (int * (unit -> computation) list) list -> unit
+)
+ident(
+  int_ref spin "schedule.ml" 116 2848 2858 "schedule.ml" 116 2848 2862
+)
+"schedule.ml" 143 3855 3892 "schedule.ml" 143 3855 3905
+type(
+  int -> (unit -> computation) list -> process list
+)
+ident(
+  int_ref start_process "schedule.ml" 81 1844 1852 "schedule.ml" 81 1844 1865
+)
+"schedule.ml" 143 3855 3906 "schedule.ml" 143 3855 3911
+type(
+  int
+)
+ident(
+  int_ref refid "schedule.ml" 143 3855 3864 "schedule.ml" 143 3855 3869
+)
+"schedule.ml" 143 3855 3912 "schedule.ml" 143 3855 3917
+type(
+  (unit -> computation) list
+)
+ident(
+  int_ref comps "schedule.ml" 143 3855 3871 "schedule.ml" 143 3855 3876
+)
+"schedule.ml" 143 3855 3892 "schedule.ml" 143 3855 3917
+type(
+  process list
+)
+"schedule.ml" 143 3855 3918 "schedule.ml" 143 3855 3919
+type(
+  process list -> process list -> process list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"schedule.ml" 143 3855 3920 "schedule.ml" 143 3855 3927
+type(
+  process list
+)
+ident(
+  int_ref running "schedule.ml" 133 3409 3417 "schedule.ml" 133 3409 3424
+)
+"schedule.ml" 143 3855 3891 "schedule.ml" 143 3855 3928
+type(
+  process list
+)
+"schedule.ml" 143 3855 3929 "schedule.ml" 143 3855 3930
+type(
+  (int * (unit -> computation) list) list
+)
+ident(
+  int_ref t "schedule.ml" 143 3855 3881 "schedule.ml" 143 3855 3882
+)
+"schedule.ml" 143 3855 3886 "schedule.ml" 143 3855 3930
+type(
+  unit
+)
+"schedule.ml" 138 3609 3679 "schedule.ml" 144 3931 3938
+type(
+  unit
+)
+"schedule.ml" 144 3931 3947 "schedule.ml" 144 3931 3954
+type(
+  process list
+)
+ident(
+  int_ref running "schedule.ml" 133 3409 3417 "schedule.ml" 133 3409 3424
+)
+"schedule.ml" 144 3931 3955 "schedule.ml" 144 3931 3957
+type(
+  process list -> process list -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 130 5559 5559 "stdlib.mli" 130 5559 5607
+)
+"schedule.ml" 144 3931 3958 "schedule.ml" 144 3931 3960
+type(
+  process list
+)
+"schedule.ml" 144 3931 3947 "schedule.ml" 144 3931 3960
+type(
+  bool
+)
+"schedule.ml" 146 4042 4052 "schedule.ml" 146 4042 4056
+type(
+  Unix.file_descr list
+)
+ident(
+  def outs "schedule.ml" 147 4096 4102 "schedule.ml" 179 5173 5194
+)
+"schedule.ml" 146 4042 4059 "schedule.ml" 146 4042 4067
+type(
+  (process -> Unix.file_descr) -> process list -> Unix.file_descr list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"schedule.ml" 146 4042 4073 "schedule.ml" 146 4042 4074
+type(
+  process
+)
+ident(
+  def x "schedule.ml" 146 4042 4078 "schedule.ml" 146 4042 4083
+)
+"schedule.ml" 146 4042 4078 "schedule.ml" 146 4042 4079
+type(
+  process
+)
+ident(
+  int_ref x "schedule.ml" 146 4042 4073 "schedule.ml" 146 4042 4074
+)
+"schedule.ml" 146 4042 4078 "schedule.ml" 146 4042 4083
+type(
+  Unix.file_descr
+)
+"schedule.ml" 146 4042 4068 "schedule.ml" 146 4042 4084
+type(
+  process -> Unix.file_descr
+)
+"schedule.ml" 146 4042 4085 "schedule.ml" 146 4042 4092
+type(
+  process list
+)
+ident(
+  int_ref running "schedule.ml" 133 3409 3417 "schedule.ml" 133 3409 3424
+)
+"schedule.ml" 146 4042 4059 "schedule.ml" 146 4042 4092
+type(
+  Unix.file_descr list
+)
+"schedule.ml" 147 4096 4106 "schedule.ml" 147 4096 4111
+type(
+  float
+)
+ident(
+  def delay "schedule.ml" 148 4165 4171 "schedule.ml" 179 5173 5194
+)
+"schedule.ml" 147 4096 4114 "schedule.ml" 147 4096 4117
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.max "stdlib.mli" 186 7963 7963 "stdlib.mli" 186 7963 7987
+)
+"schedule.ml" 147 4096 4118 "schedule.ml" 147 4096 4121
+type(
+  float
+)
+"schedule.ml" 147 4096 4123 "schedule.ml" 147 4096 4126
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.min "stdlib.mli" 181 7799 7799 "stdlib.mli" 181 7799 7823
+)
+"schedule.ml" 147 4096 4128 "schedule.ml" 147 4096 4130
+type(
+  float
+)
+ident(
+  int_ref dl "schedule.ml" 137 3537 3545 "schedule.ml" 137 3537 3547
+)
+"schedule.ml" 147 4096 4131 "schedule.ml" 147 4096 4133
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( -. ) "stdlib.mli" 467 17929 17929 "stdlib.mli" 467 17929 17984
+)
+"schedule.ml" 147 4096 4134 "schedule.ml" 147 4096 4151
+type(
+  unit -> float
+)
+ident(
+  int_ref Unix.gettimeofday "unix.mli" 1177 48558 48558 "unix.mli" 1177 48558 48590
+)
+"schedule.ml" 147 4096 4152 "schedule.ml" 147 4096 4154
+type(
+  unit
+)
+"schedule.ml" 147 4096 4134 "schedule.ml" 147 4096 4154
+type(
+  float
+)
+"schedule.ml" 147 4096 4127 "schedule.ml" 147 4096 4155
+type(
+  float
+)
+"schedule.ml" 147 4096 4156 "schedule.ml" 147 4096 4160
+type(
+  float
+)
+"schedule.ml" 147 4096 4122 "schedule.ml" 147 4096 4161
+type(
+  float
+)
+"schedule.ml" 147 4096 4114 "schedule.ml" 147 4096 4161
+type(
+  float
+)
+"schedule.ml" 148 4165 4175 "schedule.ml" 148 4165 4179
+type(
+  Unix.file_descr list
+)
+ident(
+  def outs "schedule.ml" 149 4238 4244 "schedule.ml" 179 5173 5194
+)
+"schedule.ml" 148 4165 4185 "schedule.ml" 148 4165 4186
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"schedule.ml" 148 4165 4186 "schedule.ml" 148 4165 4200
+type(
+  bool ref
+)
+ident(
+  int_ref Params.toolbox "params.mli" 6 83 83 "params.mli" 6 83 104
+)
+"schedule.ml" 148 4165 4185 "schedule.ml" 148 4165 4200
+type(
+  bool
+)
+"schedule.ml" 148 4165 4206 "schedule.ml" 148 4165 4216
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref Unix.stdin "unix.mli" 305 12913 12913 "unix.mli" 305 12913 12935
+)
+"schedule.ml" 148 4165 4220 "schedule.ml" 148 4165 4224
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref outs "schedule.ml" 146 4042 4052 "schedule.ml" 146 4042 4056
+)
+"schedule.ml" 148 4165 4206 "schedule.ml" 148 4165 4224
+type(
+  Unix.file_descr list
+)
+"schedule.ml" 148 4165 4230 "schedule.ml" 148 4165 4234
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref outs "schedule.ml" 146 4042 4052 "schedule.ml" 146 4042 4056
+)
+"schedule.ml" 148 4165 4182 "schedule.ml" 148 4165 4234
+type(
+  Unix.file_descr list
+)
+"schedule.ml" 149 4238 4249 "schedule.ml" 149 4238 4254
+type(
+  Unix.file_descr list
+)
+ident(
+  def ready "schedule.ml" 152 4317 4323 "schedule.ml" 179 5173 5194
+)
+"schedule.ml" 149 4238 4256 "schedule.ml" 149 4238 4257
+type(
+  Unix.file_descr list
+)
+"schedule.ml" 149 4238 4259 "schedule.ml" 149 4238 4260
+type(
+  Unix.file_descr list
+)
+"schedule.ml" 149 4238 4248 "schedule.ml" 149 4238 4261
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"schedule.ml" 149 4238 4264 "schedule.ml" 149 4238 4275
+type(
+  Unix.file_descr list ->
+  Unix.file_descr list ->
+  Unix.file_descr list ->
+  float -> Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+ident(
+  int_ref Unix.select "unix.mli" 1040 42826 42826 "unix.mli" 1042 42898 42962
+)
+"schedule.ml" 149 4238 4276 "schedule.ml" 149 4238 4280
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref outs "schedule.ml" 148 4165 4175 "schedule.ml" 148 4165 4179
+)
+"schedule.ml" 149 4238 4281 "schedule.ml" 149 4238 4283
+type(
+  Unix.file_descr list
+)
+"schedule.ml" 149 4238 4284 "schedule.ml" 149 4238 4286
+type(
+  Unix.file_descr list
+)
+"schedule.ml" 149 4238 4287 "schedule.ml" 149 4238 4292
+type(
+  float
+)
+ident(
+  int_ref delay "schedule.ml" 147 4096 4106 "schedule.ml" 147 4096 4111
+)
+"schedule.ml" 149 4238 4264 "schedule.ml" 149 4238 4292
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"schedule.ml" 152 4317 4327 "schedule.ml" 152 4317 4328
+type(
+  process -> process list * (int * (unit -> computation) list) list
+)
+ident(
+  def f "schedule.ml" 161 4553 4559 "schedule.ml" 179 5173 5194
+)
+"schedule.ml" 152 4317 4329 "schedule.ml" 152 4317 4330
+type(
+  process
+)
+ident(
+  def d "schedule.ml" 153 4333 4341 "schedule.ml" 159 4526 4543
+)
+"schedule.ml" 153 4333 4344 "schedule.ml" 153 4333 4352
+type(
+  Unix.file_descr -> Unix.file_descr list -> bool
+)
+ident(
+  int_ref Stdlib.List.mem "list.mli" 291 9973 9973 "list.mli" 291 9973 10004
+)
+"schedule.ml" 153 4333 4353 "schedule.ml" 153 4333 4354
+type(
+  process
+)
+ident(
+  int_ref d "schedule.ml" 152 4317 4329 "schedule.ml" 152 4317 4330
+)
+"schedule.ml" 153 4333 4353 "schedule.ml" 153 4333 4358
+type(
+  Unix.file_descr
+)
+"schedule.ml" 153 4333 4359 "schedule.ml" 153 4333 4364
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref ready "schedule.ml" 149 4238 4249 "schedule.ml" 149 4238 4254
+)
+"schedule.ml" 153 4333 4344 "schedule.ml" 153 4333 4364
+type(
+  bool
+)
+"schedule.ml" 155 4390 4402 "schedule.ml" 155 4390 4416
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  int_ref read_to_stdout "schedule.ml" 49 1007 1011 "schedule.ml" 49 1007 1025
+)
+"schedule.ml" 155 4390 4417 "schedule.ml" 155 4390 4418
+type(
+  process
+)
+ident(
+  int_ref d "schedule.ml" 152 4317 4329 "schedule.ml" 152 4317 4330
+)
+"schedule.ml" 155 4390 4417 "schedule.ml" 155 4390 4422
+type(
+  Unix.file_descr
+)
+"schedule.ml" 155 4390 4402 "schedule.ml" 155 4390 4422
+type(
+  unit
+)
+"schedule.ml" 156 4424 4437 "schedule.ml" 156 4424 4438
+type(
+  process
+)
+ident(
+  int_ref d "schedule.ml" 152 4317 4329 "schedule.ml" 152 4317 4330
+)
+"schedule.ml" 156 4424 4436 "schedule.ml" 156 4424 4439
+type(
+  process list
+)
+"schedule.ml" 156 4424 4441 "schedule.ml" 156 4424 4443
+type(
+  (int * (unit -> computation) list) list
+)
+"schedule.ml" 156 4424 4436 "schedule.ml" 156 4424 4443
+type(
+  process list * (int * (unit -> computation) list) list
+)
+"schedule.ml" 155 4390 4402 "schedule.ml" 156 4424 4443
+type(
+  process list * (int * (unit -> computation) list) list
+)
+"schedule.ml" 157 4444 4459 "schedule.ml" 157 4444 4470
+type(
+  exn
+)
+"schedule.ml" 157 4444 4474 "schedule.ml" 157 4444 4493
+type(
+  float ->
+  result -> process -> process list * (int * (unit -> computation) list) list
+)
+ident(
+  int_ref kill_and_start_next "schedule.ml" 102 2355 2359 "schedule.ml" 102 2355 2378
+)
+"schedule.ml" 157 4444 4494 "schedule.ml" 157 4444 4497
+type(
+  float
+)
+ident(
+  int_ref now "schedule.ml" 117 2876 2884 "schedule.ml" 117 2876 2887
+)
+"schedule.ml" 157 4444 4498 "schedule.ml" 157 4444 4506
+type(
+  result
+)
+"schedule.ml" 157 4444 4507 "schedule.ml" 157 4444 4508
+type(
+  process
+)
+ident(
+  int_ref d "schedule.ml" 152 4317 4329 "schedule.ml" 152 4317 4330
+)
+"schedule.ml" 157 4444 4474 "schedule.ml" 157 4444 4508
+type(
+  process list * (int * (unit -> computation) list) list
+)
+"schedule.ml" 153 4333 4370 "schedule.ml" 158 4509 4520
+type(
+  process list * (int * (unit -> computation) list) list
+)
+"schedule.ml" 159 4526 4537 "schedule.ml" 159 4526 4538
+type(
+  process
+)
+ident(
+  int_ref d "schedule.ml" 152 4317 4329 "schedule.ml" 152 4317 4330
+)
+"schedule.ml" 159 4526 4536 "schedule.ml" 159 4526 4539
+type(
+  process list
+)
+"schedule.ml" 159 4526 4541 "schedule.ml" 159 4526 4543
+type(
+  (int * (unit -> computation) list) list
+)
+"schedule.ml" 159 4526 4536 "schedule.ml" 159 4526 4543
+type(
+  process list * (int * (unit -> computation) list) list
+)
+"schedule.ml" 153 4333 4341 "schedule.ml" 159 4526 4543
+type(
+  process list * (int * (unit -> computation) list) list
+)
+"schedule.ml" 161 4553 4563 "schedule.ml" 161 4553 4570
+type(
+  process list list
+)
+ident(
+  def newruns "schedule.ml" 162 4618 4624 "schedule.ml" 179 5173 5194
+)
+"schedule.ml" 161 4553 4572 "schedule.ml" 161 4553 4580
+type(
+  (int * (unit -> computation) list) list list
+)
+ident(
+  def addtasks "schedule.ml" 162 4618 4624 "schedule.ml" 179 5173 5194
+)
+"schedule.ml" 161 4553 4563 "schedule.ml" 161 4553 4580
+type(
+  process list list * (int * (unit -> computation) list) list list
+)
+"schedule.ml" 161 4553 4583 "schedule.ml" 161 4553 4593
+type(
+  (process list * (int * (unit -> computation) list) list) list ->
+  process list list * (int * (unit -> computation) list) list list
+)
+ident(
+  int_ref Stdlib.List.split "list.mli" 426 14181 14181 "list.mli" 426 14181 14228
+)
+"schedule.ml" 161 4553 4595 "schedule.ml" 161 4553 4603
+type(
+  (process -> process list * (int * (unit -> computation) list) list) ->
+  process list ->
+  (process list * (int * (unit -> computation) list) list) list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"schedule.ml" 161 4553 4604 "schedule.ml" 161 4553 4605
+type(
+  process -> process list * (int * (unit -> computation) list) list
+)
+ident(
+  int_ref f "schedule.ml" 152 4317 4327 "schedule.ml" 152 4317 4328
+)
+"schedule.ml" 161 4553 4606 "schedule.ml" 161 4553 4613
+type(
+  process list
+)
+ident(
+  int_ref running "schedule.ml" 133 3409 3417 "schedule.ml" 133 3409 3424
+)
+"schedule.ml" 161 4553 4594 "schedule.ml" 161 4553 4614
+type(
+  (process list * (int * (unit -> computation) list) list) list
+)
+"schedule.ml" 161 4553 4583 "schedule.ml" 161 4553 4614
+type(
+  process list list * (int * (unit -> computation) list) list list
+)
+"schedule.ml" 162 4618 4628 "schedule.ml" 162 4618 4635
+type(
+  process list
+)
+ident(
+  def running "schedule.ml" 163 4662 4668 "schedule.ml" 179 5173 5194
+)
+"schedule.ml" 162 4618 4638 "schedule.ml" 162 4618 4650
+type(
+  process list list -> process list
+)
+ident(
+  int_ref Stdlib.List.flatten "list.mli" 118 4456 4456 "list.mli" 118 4456 4493
+)
+"schedule.ml" 162 4618 4651 "schedule.ml" 162 4618 4658
+type(
+  process list list
+)
+ident(
+  int_ref newruns "schedule.ml" 161 4553 4563 "schedule.ml" 161 4553 4570
+)
+"schedule.ml" 162 4618 4638 "schedule.ml" 162 4618 4658
+type(
+  process list
+)
+"schedule.ml" 163 4662 4672 "schedule.ml" 163 4662 4674
+type(
+  (int * (unit -> computation) list) list
+)
+ident(
+  def tl "schedule.ml" 166 4730 4736 "schedule.ml" 179 5173 5194
+)
+"schedule.ml" 163 4662 4677 "schedule.ml" 163 4662 4689
+type(
+  (int * (unit -> computation) list) list list ->
+  (int * (unit -> computation) list) list
+)
+ident(
+  int_ref Stdlib.List.flatten "list.mli" 118 4456 4456 "list.mli" 118 4456 4493
+)
+"schedule.ml" 163 4662 4690 "schedule.ml" 163 4662 4698
+type(
+  (int * (unit -> computation) list) list list
+)
+ident(
+  int_ref addtasks "schedule.ml" 161 4553 4572 "schedule.ml" 161 4553 4580
+)
+"schedule.ml" 163 4662 4677 "schedule.ml" 163 4662 4698
+type(
+  (int * (unit -> computation) list) list
+)
+"schedule.ml" 163 4662 4699 "schedule.ml" 163 4662 4700
+type(
+  (int * (unit -> computation) list) list ->
+  (int * (unit -> computation) list) list ->
+  (int * (unit -> computation) list) list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"schedule.ml" 163 4662 4701 "schedule.ml" 163 4662 4703
+type(
+  (int * (unit -> computation) list) list
+)
+ident(
+  int_ref tl "schedule.ml" 134 3451 3459 "schedule.ml" 134 3451 3461
+)
+"schedule.ml" 163 4662 4677 "schedule.ml" 163 4662 4703
+type(
+  (int * (unit -> computation) list) list
+)
+"schedule.ml" 166 4730 4740 "schedule.ml" 166 4730 4741
+type(
+  process -> process list * (int * (unit -> computation) list) list
+)
+ident(
+  def f "schedule.ml" 175 5018 5024 "schedule.ml" 179 5173 5194
+)
+"schedule.ml" 166 4730 4742 "schedule.ml" 166 4730 4743
+type(
+  process
+)
+ident(
+  def d "schedule.ml" 167 4746 4754 "schedule.ml" 173 4991 5008
+)
+"schedule.ml" 167 4746 4757 "schedule.ml" 167 4746 4760
+type(
+  float
+)
+ident(
+  int_ref now "schedule.ml" 117 2876 2884 "schedule.ml" 117 2876 2887
+)
+"schedule.ml" 167 4746 4761 "schedule.ml" 167 4746 4763
+type(
+  float -> float -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 150 6190 6190 "stdlib.mli" 150 6190 6242
+)
+"schedule.ml" 167 4746 4764 "schedule.ml" 167 4746 4765
+type(
+  process
+)
+ident(
+  int_ref d "schedule.ml" 166 4730 4742 "schedule.ml" 166 4730 4743
+)
+"schedule.ml" 167 4746 4764 "schedule.ml" 167 4746 4768
+type(
+  float
+)
+"schedule.ml" 167 4746 4757 "schedule.ml" 167 4746 4768
+type(
+  bool
+)
+"schedule.ml" 168 4780 4796 "schedule.ml" 168 4780 4797
+type(
+  process
+)
+ident(
+  int_ref d "schedule.ml" 166 4730 4742 "schedule.ml" 166 4730 4743
+)
+"schedule.ml" 168 4780 4796 "schedule.ml" 168 4780 4800
+type(
+  timeout_cont
+)
+"schedule.ml" 168 4780 4801 "schedule.ml" 168 4780 4803
+type(
+  unit
+)
+"schedule.ml" 168 4780 4796 "schedule.ml" 168 4780 4803
+type(
+  continue
+)
+"schedule.ml" 169 4809 4821 "schedule.ml" 169 4809 4828
+type(
+  continue
+)
+type(
+  continue
+)
+"schedule.ml" 169 4809 4832 "schedule.ml" 169 4809 4851
+type(
+  float ->
+  result -> process -> process list * (int * (unit -> computation) list) list
+)
+ident(
+  int_ref kill_and_start_next "schedule.ml" 102 2355 2359 "schedule.ml" 102 2355 2378
+)
+"schedule.ml" 169 4809 4852 "schedule.ml" 169 4809 4855
+type(
+  float
+)
+ident(
+  int_ref now "schedule.ml" 117 2876 2884 "schedule.ml" 117 2876 2887
+)
+"schedule.ml" 169 4809 4856 "schedule.ml" 169 4809 4871
+type(
+  result
+)
+"schedule.ml" 169 4809 4872 "schedule.ml" 169 4809 4873
+type(
+  process
+)
+ident(
+  int_ref d "schedule.ml" 166 4730 4742 "schedule.ml" 166 4730 4743
+)
+"schedule.ml" 169 4809 4832 "schedule.ml" 169 4809 4873
+type(
+  process list * (int * (unit -> computation) list) list
+)
+"schedule.ml" 170 4874 4896 "schedule.ml" 170 4874 4898
+type(
+  timeout_cont
+)
+ident(
+  def tc "schedule.ml" 171 4908 4921 "schedule.ml" 171 4908 4973
+)
+"schedule.ml" 170 4874 4900 "schedule.ml" 170 4874 4903
+type(
+  float
+)
+ident(
+  def tmo "schedule.ml" 171 4908 4921 "schedule.ml" 171 4908 4973
+)
+"schedule.ml" 170 4874 4886 "schedule.ml" 170 4874 4904
+type(
+  continue
+)
+type(
+  continue
+)
+"schedule.ml" 171 4908 4925 "schedule.ml" 171 4908 4926
+type(
+  process
+)
+ident(
+  int_ref d "schedule.ml" 166 4730 4742 "schedule.ml" 166 4730 4743
+)
+"schedule.ml" 171 4908 4937 "schedule.ml" 171 4908 4939
+type(
+  timeout_cont
+)
+ident(
+  int_ref tc "schedule.ml" 170 4874 4896 "schedule.ml" 170 4874 4898
+)
+"schedule.ml" 171 4908 4946 "schedule.ml" 171 4908 4949
+type(
+  float
+)
+ident(
+  int_ref tmo "schedule.ml" 170 4874 4900 "schedule.ml" 170 4874 4903
+)
+"schedule.ml" 171 4908 4950 "schedule.ml" 171 4908 4952
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( +. ) "stdlib.mli" 462 17764 17764 "stdlib.mli" 462 17764 17819
+)
+"schedule.ml" 171 4908 4953 "schedule.ml" 171 4908 4954
+type(
+  process
+)
+ident(
+  int_ref d "schedule.ml" 166 4730 4742 "schedule.ml" 166 4730 4743
+)
+"schedule.ml" 171 4908 4953 "schedule.ml" 171 4908 4965
+type(
+  float
+)
+"schedule.ml" 171 4908 4946 "schedule.ml" 171 4908 4965
+type(
+  float
+)
+"schedule.ml" 171 4908 4923 "schedule.ml" 171 4908 4967
+type(
+  process
+)
+"schedule.ml" 171 4908 4921 "schedule.ml" 171 4908 4969
+type(
+  process list
+)
+"schedule.ml" 171 4908 4971 "schedule.ml" 171 4908 4973
+type(
+  (int * (unit -> computation) list) list
+)
+"schedule.ml" 171 4908 4921 "schedule.ml" 171 4908 4973
+type(
+  process list * (int * (unit -> computation) list) list
+)
+"schedule.ml" 167 4746 4774 "schedule.ml" 172 4974 4985
+type(
+  process list * (int * (unit -> computation) list) list
+)
+"schedule.ml" 173 4991 5002 "schedule.ml" 173 4991 5003
+type(
+  process
+)
+ident(
+  int_ref d "schedule.ml" 166 4730 4742 "schedule.ml" 166 4730 4743
+)
+"schedule.ml" 173 4991 5001 "schedule.ml" 173 4991 5004
+type(
+  process list
+)
+"schedule.ml" 173 4991 5006 "schedule.ml" 173 4991 5008
+type(
+  (int * (unit -> computation) list) list
+)
+"schedule.ml" 173 4991 5001 "schedule.ml" 173 4991 5008
+type(
+  process list * (int * (unit -> computation) list) list
+)
+"schedule.ml" 167 4746 4754 "schedule.ml" 173 4991 5008
+type(
+  process list * (int * (unit -> computation) list) list
+)
+"schedule.ml" 175 5018 5028 "schedule.ml" 175 5018 5035
+type(
+  process list list
+)
+ident(
+  def newruns "schedule.ml" 176 5083 5089 "schedule.ml" 179 5173 5194
+)
+"schedule.ml" 175 5018 5037 "schedule.ml" 175 5018 5045
+type(
+  (int * (unit -> computation) list) list list
+)
+ident(
+  def addtasks "schedule.ml" 176 5083 5089 "schedule.ml" 179 5173 5194
+)
+"schedule.ml" 175 5018 5028 "schedule.ml" 175 5018 5045
+type(
+  process list list * (int * (unit -> computation) list) list list
+)
+"schedule.ml" 175 5018 5048 "schedule.ml" 175 5018 5058
+type(
+  (process list * (int * (unit -> computation) list) list) list ->
+  process list list * (int * (unit -> computation) list) list list
+)
+ident(
+  int_ref Stdlib.List.split "list.mli" 426 14181 14181 "list.mli" 426 14181 14228
+)
+"schedule.ml" 175 5018 5060 "schedule.ml" 175 5018 5068
+type(
+  (process -> process list * (int * (unit -> computation) list) list) ->
+  process list ->
+  (process list * (int * (unit -> computation) list) list) list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"schedule.ml" 175 5018 5069 "schedule.ml" 175 5018 5070
+type(
+  process -> process list * (int * (unit -> computation) list) list
+)
+ident(
+  int_ref f "schedule.ml" 166 4730 4740 "schedule.ml" 166 4730 4741
+)
+"schedule.ml" 175 5018 5071 "schedule.ml" 175 5018 5078
+type(
+  process list
+)
+ident(
+  int_ref running "schedule.ml" 162 4618 4628 "schedule.ml" 162 4618 4635
+)
+"schedule.ml" 175 5018 5059 "schedule.ml" 175 5018 5079
+type(
+  (process list * (int * (unit -> computation) list) list) list
+)
+"schedule.ml" 175 5018 5048 "schedule.ml" 175 5018 5079
+type(
+  process list list * (int * (unit -> computation) list) list list
+)
+"schedule.ml" 176 5083 5093 "schedule.ml" 176 5083 5100
+type(
+  process list
+)
+ident(
+  def running "schedule.ml" 177 5127 5133 "schedule.ml" 179 5173 5194
+)
+"schedule.ml" 176 5083 5103 "schedule.ml" 176 5083 5115
+type(
+  process list list -> process list
+)
+ident(
+  int_ref Stdlib.List.flatten "list.mli" 118 4456 4456 "list.mli" 118 4456 4493
+)
+"schedule.ml" 176 5083 5116 "schedule.ml" 176 5083 5123
+type(
+  process list list
+)
+ident(
+  int_ref newruns "schedule.ml" 175 5018 5028 "schedule.ml" 175 5018 5035
+)
+"schedule.ml" 176 5083 5103 "schedule.ml" 176 5083 5123
+type(
+  process list
+)
+"schedule.ml" 177 5127 5137 "schedule.ml" 177 5127 5139
+type(
+  (int * (unit -> computation) list) list
+)
+ident(
+  def tl "schedule.ml" 179 5173 5179 "schedule.ml" 179 5173 5194
+)
+"schedule.ml" 177 5127 5142 "schedule.ml" 177 5127 5154
+type(
+  (int * (unit -> computation) list) list list ->
+  (int * (unit -> computation) list) list
+)
+ident(
+  int_ref Stdlib.List.flatten "list.mli" 118 4456 4456 "list.mli" 118 4456 4493
+)
+"schedule.ml" 177 5127 5155 "schedule.ml" 177 5127 5163
+type(
+  (int * (unit -> computation) list) list list
+)
+ident(
+  int_ref addtasks "schedule.ml" 175 5018 5037 "schedule.ml" 175 5018 5045
+)
+"schedule.ml" 177 5127 5142 "schedule.ml" 177 5127 5163
+type(
+  (int * (unit -> computation) list) list
+)
+"schedule.ml" 177 5127 5164 "schedule.ml" 177 5127 5165
+type(
+  (int * (unit -> computation) list) list ->
+  (int * (unit -> computation) list) list ->
+  (int * (unit -> computation) list) list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"schedule.ml" 177 5127 5166 "schedule.ml" 177 5127 5168
+type(
+  (int * (unit -> computation) list) list
+)
+ident(
+  int_ref tl "schedule.ml" 163 4662 4672 "schedule.ml" 163 4662 4674
+)
+"schedule.ml" 177 5127 5142 "schedule.ml" 177 5127 5168
+type(
+  (int * (unit -> computation) list) list
+)
+"schedule.ml" 179 5173 5179 "schedule.ml" 179 5173 5183
+type(
+  process list -> (int * (unit -> computation) list) list -> unit
+)
+ident(
+  int_ref spin "schedule.ml" 116 2848 2858 "schedule.ml" 116 2848 2862
+)
+"schedule.ml" 179 5173 5184 "schedule.ml" 179 5173 5191
+type(
+  process list
+)
+ident(
+  int_ref running "schedule.ml" 176 5083 5093 "schedule.ml" 176 5083 5100
+)
+"schedule.ml" 179 5173 5192 "schedule.ml" 179 5173 5194
+type(
+  (int * (unit -> computation) list) list
+)
+ident(
+  int_ref tl "schedule.ml" 177 5127 5137 "schedule.ml" 177 5127 5139
+)
+"schedule.ml" 179 5173 5179 "schedule.ml" 179 5173 5194
+type(
+  unit
+)
+"schedule.ml" 177 5127 5133 "schedule.ml" 179 5173 5194
+type(
+  unit
+)
+"schedule.ml" 176 5083 5089 "schedule.ml" 179 5173 5194
+type(
+  unit
+)
+"schedule.ml" 175 5018 5024 "schedule.ml" 179 5173 5194
+type(
+  unit
+)
+"schedule.ml" 166 4730 4736 "schedule.ml" 179 5173 5194
+type(
+  unit
+)
+"schedule.ml" 163 4662 4668 "schedule.ml" 179 5173 5194
+type(
+  unit
+)
+"schedule.ml" 162 4618 4624 "schedule.ml" 179 5173 5194
+type(
+  unit
+)
+"schedule.ml" 161 4553 4559 "schedule.ml" 179 5173 5194
+type(
+  unit
+)
+"schedule.ml" 152 4317 4323 "schedule.ml" 179 5173 5194
+type(
+  unit
+)
+"schedule.ml" 149 4238 4244 "schedule.ml" 179 5173 5194
+type(
+  unit
+)
+"schedule.ml" 148 4165 4171 "schedule.ml" 179 5173 5194
+type(
+  unit
+)
+"schedule.ml" 147 4096 4102 "schedule.ml" 179 5173 5194
+type(
+  unit
+)
+"schedule.ml" 144 3931 3966 "schedule.ml" 180 5195 5202
+type(
+  unit
+)
+"schedule.ml" 144 3931 3944 "schedule.ml" 180 5195 5202
+type(
+  unit
+)
+"schedule.ml" 138 3609 3613 "schedule.ml" 180 5195 5202
+type(
+  unit
+)
+"schedule.ml" 137 3537 3541 "schedule.ml" 180 5195 5202
+type(
+  unit
+)
+"schedule.ml" 134 3451 3455 "schedule.ml" 180 5195 5202
+type(
+  unit
+)
+"schedule.ml" 133 3409 3413 "schedule.ml" 180 5195 5202
+type(
+  unit
+)
+"schedule.ml" 132 3346 3350 "schedule.ml" 180 5195 5202
+type(
+  unit
+)
+"schedule.ml" 126 3214 3218 "schedule.ml" 180 5195 5202
+type(
+  unit
+)
+"schedule.ml" 125 3174 3178 "schedule.ml" 180 5195 5202
+type(
+  unit
+)
+"schedule.ml" 120 2998 3002 "schedule.ml" 180 5195 5202
+type(
+  unit
+)
+"schedule.ml" 117 2876 2880 "schedule.ml" 180 5195 5202
+type(
+  unit
+)
+"schedule.ml" 183 5238 5242 "schedule.ml" 183 5238 5246
+type(
+  process list -> (int * (unit -> computation) list) list -> unit
+)
+ident(
+  int_ref spin "schedule.ml" 116 2848 2858 "schedule.ml" 116 2848 2862
+)
+"schedule.ml" 183 5238 5247 "schedule.ml" 183 5238 5249
+type(
+  process list
+)
+"schedule.ml" 183 5238 5250 "schedule.ml" 183 5238 5252
+type(
+  (int * (unit -> computation) list) list
+)
+ident(
+  int_ref tl "schedule.ml" 113 2764 2784 "schedule.ml" 113 2764 2786
+)
+"schedule.ml" 183 5238 5242 "schedule.ml" 183 5238 5252
+type(
+  unit
+)
+"schedule.ml" 184 5254 5258 "schedule.ml" 184 5254 5280
+type(
+  unit -> unit
+)
+ident(
+  int_ref System.harvest_zombies "system.mli" 10 173 173 "system.mli" 10 173 206
+)
+"schedule.ml" 184 5254 5281 "schedule.ml" 184 5254 5283
+type(
+  unit
+)
+"schedule.ml" 184 5254 5258 "schedule.ml" 184 5254 5283
+type(
+  unit
+)
+"schedule.ml" 183 5238 5242 "schedule.ml" 184 5254 5283
+type(
+  unit
+)
+"schedule.ml" 185 5284 5291 "schedule.ml" 185 5284 5295
+type(
+  exn
+)
+"schedule.ml" 186 5299 5303 "schedule.ml" 186 5299 5325
+type(
+  unit -> unit
+)
+ident(
+  int_ref System.harvest_zombies "system.mli" 10 173 173 "system.mli" 10 173 206
+)
+"schedule.ml" 186 5299 5326 "schedule.ml" 186 5299 5328
+type(
+  unit
+)
+"schedule.ml" 186 5299 5303 "schedule.ml" 186 5299 5328
+type(
+  unit
+)
+"schedule.ml" 182 5232 5234 "schedule.ml" 186 5299 5328
+type(
+  unit
+)
+"schedule.ml" 116 2848 2850 "schedule.ml" 186 5299 5328
+type(
+  unit
+)
+"schedule.ml" 115 2818 2820 "schedule.ml" 186 5299 5328
+type(
+  unit
+)
+"schedule.ml" 114 2789 2791 "schedule.ml" 186 5299 5328
+type(
+  unit
+)

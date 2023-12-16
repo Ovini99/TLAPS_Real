@@ -1,0 +1,56 @@
+File "./tab_character_test.tla", line 3, character 1
+Unexpected TAB character. TLAPS does not handle TAB characters in source files.
+@!!BEGIN
+@!!type:warning
+@!!msg:File "./tab_character_test.tla", line 3, character 1
+Unexpected TAB character. TLAPS does not handle TAB characters in source files.
+
+@!!END
+
+File "./tab_character_test.tla", line 1, character 36
+Unexpected EOF
+@!!BEGIN
+@!!type:warning
+@!!msg:File "./tab_character_test.tla", line 1, character 36
+Unexpected EOF
+
+@!!END
+
+File "<unknown>":
+Error: Could not parse "./tab_character_test.tla" successfully.
+ tlapm ending abnormally with Failure("Module.Parser.parse_file")
+Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+Called from M_save.clocking in file "m_save.ml", line 24, characters 18-22
+Called from Tlapm.read_new_modules.(fun) in file "tlapm.ml", line 482, characters 8-112
+Called from Stdlib__List.fold_left in file "list.ml", line 121, characters 24-34
+Called from Tlapm.main in file "tlapm.ml", line 530, characters 20-43
+Called from Tlapm.init in file "tlapm.ml", line 558, characters 8-33
+
+@!!BEGIN
+@!!type:error
+@!!url:http://tla.msr-inria.inria.fr/bugs
+@!!msg:Oops, this seems to be a bug in TLAPM.
+Please give feedback to developers.
+
+
+ Failure("Module.Parser.parse_file")
+Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+Called from M_save.clocking in file "m_save.ml", line 24, characters 18-22
+Called from Tlapm.read_new_modules.(fun) in file "tlapm.ml", line 482, characters 8-112
+Called from Stdlib__List.fold_left in file "list.ml", line 121, characters 24-34
+Called from Tlapm.main in file "tlapm.ml", line 530, characters 20-43
+Called from Tlapm.init in file "tlapm.ml", line 558, characters 8-33
+
+version == "1.5.0"
+built_with == "OCaml 4.13.1"
+tlapm_executable == "/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/tlapm"
+max_threads == 8
+library_path == "/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps"
+search_path == << "/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library"
+                , "/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps" >>
+zenon == "PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; zenon -p0 -x tla -oisar -max-time 1d \"$file\""
+zenon version == "zenon version 0.8.4 [a268] 2017-11-14"
+flatten_obligations == TRUE
+normalize == TRUE
+@!!END
+

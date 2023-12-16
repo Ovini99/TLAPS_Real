@@ -1,0 +1,143 @@
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:0
+@!!END
+
+File "/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library/TLAPS.tla", line 1, character 1 to line 363, character 77:
+[INFO]: All 0 obligation proved.
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:24:1:24:8
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:1
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:24:1:24:8
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 5
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:true
+@!!obl:ASSUME NEW VARIABLE z
+PROVE  \EE x : x'
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:24:1:24:8
+@!!status:failed
+@!!prover:zenon
+@!!meth:time-limit: 10
+@!!reason:Zenon: unsupported operator \AA or \EE
+@!!already:true
+@!!obl:ASSUME NEW VARIABLE z
+PROVE  \EE x : x'
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:24:1:24:8
+@!!status:failed
+@!!prover:isabelle
+@!!meth:auto; time-limit: 30
+@!!reason:isabelle : unsupported operator \\EE
+@!!already:true
+@!!obl:ASSUME NEW VARIABLE z
+PROVE  \EE x : x'
+
+@!!END
+
+File "./INSTANCE_shift_due_to_omitted_modunits_test.tla", line 24, characters 1-7:
+[ERROR]: Could not prove or check:
+           ASSUME NEW VARIABLE z
+           PROVE  \EE x : LET Q!SimpleArithmetic == TRUE
+                              Q!SMT == TRUE
+                              Q!SMTT(X) == TRUE
+                              Q!CVC3 == TRUE
+                              Q!CVC3T(X) == TRUE
+                              Q!CVC4 == TRUE
+                              Q!CVC4T(X) == TRUE
+                              Q!Yices == TRUE
+                              Q!YicesT(X) == TRUE
+                              Q!veriT == TRUE
+                              Q!veriTT(X) == TRUE
+                              Q!Z3 == TRUE
+                              Q!Z3T(X) == TRUE
+                              Q!METIT == TRUE
+                              Q!METITT(X) == TRUE
+                              Q!Spass == TRUE
+                              Q!SpassT(X) == TRUE
+                              Q!LS4 == TRUE
+                              Q!LS4T(X) == TRUE
+                              Q!PTL == TRUE
+                              Q!Zenon == TRUE
+                              Q!ZenonT(X) == TRUE
+                              Q!Isa == TRUE
+                              Q!IsaT(X) == TRUE
+                              Q!IsaM(X) == TRUE
+                              Q!IsaMT(X, Y) == TRUE
+                              Q!IsaWithSetExtensionality == TRUE
+                              Q!SlowZenon == TRUE
+                              Q!SlowerZenon == TRUE
+                              Q!VerySlowZenon == TRUE
+                              Q!SlowestZenon == TRUE
+                              Q!Auto == TRUE
+                              Q!SlowAuto == TRUE
+                              Q!SlowerAuto == TRUE
+                              Q!SlowestAuto == TRUE
+                              Q!Force == TRUE
+                              Q!SlowForce == TRUE
+                              Q!SlowerForce == TRUE
+                              Q!SlowestForce == TRUE
+                              Q!SimplifyAndSolve == TRUE
+                              Q!SlowSimplifyAndSolve == TRUE
+                              Q!SlowerSimplifyAndSolve == TRUE
+                              Q!SlowestSimplifyAndSolve == TRUE
+                              Q!Simplification == TRUE
+                              Q!SlowSimplification == TRUE
+                              Q!SlowerSimplification == TRUE
+                              Q!SlowestSimplification == TRUE
+                              Q!Blast == TRUE
+                              Q!SlowBlast == TRUE
+                              Q!SlowerBlast == TRUE
+                              Q!SlowestBlast == TRUE
+                              Q!AutoBlast == TRUE
+                              Q!AllProvers == TRUE
+                              Q!AllProversT(X) == TRUE
+                              Q!AllSMT == TRUE
+                              Q!AllSMTT(X) == TRUE
+                              Q!AllIsa == TRUE
+                              Q!AllIsaT(X) == TRUE
+                              Q!ExpandENABLED == TRUE
+                              Q!ExpandCdot == TRUE
+                              Q!AutoUSE == TRUE
+                              Q!Lambdify == TRUE
+                              Q!ENABLEDaxioms == TRUE
+                              Q!LevelComparison == TRUE
+                              Q!EnabledWrapper(Op(_)) == FALSE
+                              Q!CdotWrapper(Op(_)) == FALSE
+                              Q!Trivial == TRUE
+                              Q!A == x'
+                          IN  Q!A
+File "./INSTANCE_shift_due_to_omitted_modunits_test.tla", line 1, character 1 to line 27, character 60:
+[ERROR]: 1/1 obligation failed.
+There were backend errors processing module `"INSTANCE_shift_due_to_omitted_modunits_test"`.
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:0
+@!!END
+
+File "./INSTANCE_shift_due_to_omitted_modunits_test.tla", line 4, character 1 to line 11, character 22:
+[INFO]: All 0 obligation proved.

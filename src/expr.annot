@@ -1,0 +1,68 @@
+"expr.ml" 5 124 131 "expr.ml" 5 124 132
+ident(
+  def T "expr.ml" 5 124 138 "expr.ml" 0 0 -1
+)
+"expr.ml" 6 139 146 "expr.ml" 6 139 149
+ident(
+  def Fmt "expr.ml" 6 139 157 "expr.ml" 0 0 -1
+)
+"expr.ml" 7 158 165 "expr.ml" 7 158 170
+ident(
+  def Subst "expr.ml" 7 158 180 "expr.ml" 0 0 -1
+)
+"expr.ml" 8 181 188 "expr.ml" 8 181 193
+ident(
+  def Visit "expr.ml" 8 181 203 "expr.ml" 0 0 -1
+)
+"expr.ml" 9 204 211 "expr.ml" 9 204 213
+ident(
+  def Eq "expr.ml" 9 204 220 "expr.ml" 0 0 -1
+)
+"expr.ml" 10 221 228 "expr.ml" 10 221 233
+ident(
+  def Deref "expr.ml" 10 221 243 "expr.ml" 0 0 -1
+)
+"expr.ml" 11 244 251 "expr.ml" 11 244 258
+ident(
+  def Leibniz "expr.ml" 11 244 270 "expr.ml" 0 0 -1
+)
+"expr.ml" 12 271 278 "expr.ml" 12 271 287
+ident(
+  def Constness "expr.ml" 12 271 301 "expr.ml" 0 0 -1
+)
+"expr.ml" 13 302 309 "expr.ml" 13 302 317
+ident(
+  def Tla_norm "expr.ml" 13 302 330 "expr.ml" 0 0 -1
+)
+"expr.ml" 14 331 338 "expr.ml" 14 331 352
+ident(
+  def Temporal_props "expr.ml" 14 331 371 "expr.ml" 0 0 -1
+)
+"expr.ml" 15 372 379 "expr.ml" 15 372 383
+ident(
+  def Elab "expr.ml" 15 372 392 "expr.ml" 0 0 -1
+)
+"expr.ml" 16 393 400 "expr.ml" 16 393 404
+ident(
+  def Anon "expr.ml" 16 393 413 "expr.ml" 0 0 -1
+)
+"expr.ml" 17 414 421 "expr.ml" 17 414 427
+ident(
+  def Parser "expr.ml" 17 414 438 "expr.ml" 0 0 -1
+)
+"expr.ml" 18 439 446 "expr.ml" 18 439 452
+ident(
+  def Levels "expr.ml" 18 439 463 "expr.ml" 0 0 -1
+)
+"expr.ml" 19 464 471 "expr.ml" 19 464 477
+ident(
+  def Action "expr.ml" 19 464 488 "expr.ml" 0 0 -1
+)
+"expr.ml" 20 489 496 "expr.ml" 20 489 503
+ident(
+  def SubstOp "expr.ml" 20 489 520 "expr.ml" 0 0 -1
+)
+"expr.ml" 21 521 528 "expr.ml" 21 521 543
+ident(
+  def LevelComparison "expr.ml" 21 521 564 "expr.ml" 0 0 -1
+)

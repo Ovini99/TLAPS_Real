@@ -1,0 +1,8 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:25:55 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 nonexistent_test
+
+(* loading fingerprints in ".tlacache/nonexistent_test.tlaps/fingerprints" *)
+(* created new ".tlacache/nonexistent_test.tlaps/nonexistent_test.thy" *)
+(* fingerprints written in ".tlacache/nonexistent_test.tlaps/fingerprints" *)

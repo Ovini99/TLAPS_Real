@@ -1,0 +1,3832 @@
+"m_standard.ml" 13 149 156 "m_standard.ml" 13 149 157
+ident(
+  def B "m_standard.ml" 13 149 167 "m_standard.ml" 0 0 -1
+)
+"m_standard.ml" 16 170 174 "m_standard.ml" 16 170 179
+type(
+  Loc.locus
+)
+ident(
+  def stloc "m_standard.ml" 21 275 275 "m_standard.ml" 0 0 -1
+)
+"m_standard.ml" 17 182 197 "m_standard.ml" 17 182 216
+type(
+  string
+)
+"m_standard.ml" 18 219 235 "m_standard.ml" 18 219 244
+type(
+  Loc.pt
+)
+ident(
+  int_ref Loc.dummy "loc.mli" 20 550 550 "loc.mli" 20 550 564
+)
+"m_standard.ml" 19 247 262 "m_standard.ml" 19 247 271
+type(
+  Loc.pt
+)
+ident(
+  int_ref Loc.dummy "loc.mli" 20 550 550 "loc.mli" 20 550 564
+)
+"m_standard.ml" 17 182 184 "m_standard.ml" 19 247 273
+type(
+  Loc.locus
+)
+"m_standard.ml" 21 275 279 "m_standard.ml" 21 275 282
+type(
+  'a -> 'a Property.wrapped
+)
+ident(
+  def stm "m_standard.ml" 22 307 307 "m_standard.ml" 0 0 -1
+)
+"m_standard.ml" 21 275 283 "m_standard.ml" 21 275 284
+type(
+  'a
+)
+ident(
+  def x "m_standard.ml" 21 275 287 "m_standard.ml" 21 275 306
+)
+"m_standard.ml" 21 275 287 "m_standard.ml" 21 275 298
+type(
+  'a -> Loc.locus -> 'a Property.wrapped
+)
+ident(
+  int_ref Util.locate "util.mli" 14 178 178 "util.mli" 14 178 225
+)
+"m_standard.ml" 21 275 299 "m_standard.ml" 21 275 300
+type(
+  'a
+)
+ident(
+  int_ref x "m_standard.ml" 21 275 283 "m_standard.ml" 21 275 284
+)
+"m_standard.ml" 21 275 301 "m_standard.ml" 21 275 306
+type(
+  Loc.locus
+)
+ident(
+  int_ref stloc "m_standard.ml" 16 170 174 "m_standard.ml" 16 170 179
+)
+"m_standard.ml" 21 275 287 "m_standard.ml" 21 275 306
+type(
+  'a Property.wrapped
+)
+"m_standard.ml" 22 307 311 "m_standard.ml" 22 307 313
+type(
+  unit Property.wrapped
+)
+ident(
+  def st "m_standard.ml" 24 324 324 "m_standard.ml" 0 0 -1
+)
+"m_standard.ml" 22 307 316 "m_standard.ml" 22 307 319
+type(
+  unit -> unit Property.wrapped
+)
+ident(
+  int_ref stm "m_standard.ml" 21 275 279 "m_standard.ml" 21 275 282
+)
+"m_standard.ml" 22 307 320 "m_standard.ml" 22 307 322
+type(
+  unit
+)
+"m_standard.ml" 22 307 316 "m_standard.ml" 22 307 322
+type(
+  unit Property.wrapped
+)
+"m_standard.ml" 24 324 328 "m_standard.ml" 24 324 335
+type(
+  string -> Builtin.builtin -> M_t.modunit_ Property.wrapped
+)
+ident(
+  def nullary "m_standard.ml" 30 504 504 "m_standard.ml" 0 0 -1
+)
+"m_standard.ml" 24 324 336 "m_standard.ml" 24 324 340
+type(
+  string
+)
+ident(
+  def what "m_standard.ml" 24 324 341 "m_standard.ml" 28 451 502
+)
+"m_standard.ml" 24 324 341 "m_standard.ml" 24 324 343
+type(
+  Builtin.builtin
+)
+ident(
+  def op "m_standard.ml" 25 346 350 "m_standard.ml" 28 451 502
+)
+"m_standard.ml" 25 346 354 "m_standard.ml" 25 346 358
+type(
+  string Property.wrapped
+)
+ident(
+  def name "m_standard.ml" 26 375 379 "m_standard.ml" 28 451 502
+)
+"m_standard.ml" 25 346 361 "m_standard.ml" 25 346 365
+type(
+  string
+)
+ident(
+  int_ref what "m_standard.ml" 24 324 336 "m_standard.ml" 24 324 340
+)
+"m_standard.ml" 25 346 366 "m_standard.ml" 25 346 368
+type(
+  string -> unit Property.wrapped -> string Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_standard.ml" 25 346 369 "m_standard.ml" 25 346 371
+type(
+  unit Property.wrapped
+)
+ident(
+  int_ref st "m_standard.ml" 22 307 311 "m_standard.ml" 22 307 313
+)
+"m_standard.ml" 25 346 361 "m_standard.ml" 25 346 371
+type(
+  string Property.wrapped
+)
+"m_standard.ml" 26 375 383 "m_standard.ml" 26 375 385
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def op "m_standard.ml" 27 409 413 "m_standard.ml" 28 451 502
+)
+"m_standard.ml" 26 375 397 "m_standard.ml" 26 375 399
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "m_standard.ml" 24 324 341 "m_standard.ml" 24 324 343
+)
+"m_standard.ml" 26 375 388 "m_standard.ml" 26 375 399
+type(
+  Expr.T.expr_
+)
+"m_standard.ml" 26 375 400 "m_standard.ml" 26 375 402
+type(
+  Expr.T.expr_ -> unit Property.wrapped -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_standard.ml" 26 375 403 "m_standard.ml" 26 375 405
+type(
+  unit Property.wrapped
+)
+ident(
+  int_ref st "m_standard.ml" 22 307 311 "m_standard.ml" 22 307 313
+)
+"m_standard.ml" 26 375 388 "m_standard.ml" 26 375 405
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"m_standard.ml" 27 409 417 "m_standard.ml" 27 409 419
+type(
+  Expr.T.defn_ Property.wrapped
+)
+ident(
+  def df "m_standard.ml" 28 451 455 "m_standard.ml" 28 451 502
+)
+"m_standard.ml" 27 409 432 "m_standard.ml" 27 409 436
+type(
+  Util.hint
+)
+ident(
+  int_ref name "m_standard.ml" 25 346 354 "m_standard.ml" 25 346 358
+)
+"m_standard.ml" 27 409 438 "m_standard.ml" 27 409 440
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref op "m_standard.ml" 26 375 383 "m_standard.ml" 26 375 385
+)
+"m_standard.ml" 27 409 422 "m_standard.ml" 27 409 441
+type(
+  Expr.T.defn_
+)
+"m_standard.ml" 27 409 442 "m_standard.ml" 27 409 444
+type(
+  Expr.T.defn_ -> unit Property.wrapped -> Expr.T.defn_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_standard.ml" 27 409 445 "m_standard.ml" 27 409 447
+type(
+  unit Property.wrapped
+)
+ident(
+  int_ref st "m_standard.ml" 22 307 311 "m_standard.ml" 22 307 313
+)
+"m_standard.ml" 27 409 422 "m_standard.ml" 27 409 447
+type(
+  Expr.T.defn_ Property.wrapped
+)
+"m_standard.ml" 28 451 467 "m_standard.ml" 28 451 469
+type(
+  Expr.T.defn
+)
+ident(
+  int_ref df "m_standard.ml" 27 409 417 "m_standard.ml" 27 409 419
+)
+"m_standard.ml" 28 451 471 "m_standard.ml" 28 451 478
+type(
+  Expr.T.wheredef
+)
+"m_standard.ml" 28 451 480 "m_standard.ml" 28 451 487
+type(
+  Expr.T.visibility
+)
+"m_standard.ml" 28 451 489 "m_standard.ml" 28 451 495
+type(
+  Expr.T.export
+)
+"m_standard.ml" 28 451 455 "m_standard.ml" 28 451 496
+type(
+  M_t.modunit_
+)
+"m_standard.ml" 28 451 497 "m_standard.ml" 28 451 499
+type(
+  M_t.modunit_ -> unit Property.wrapped -> M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_standard.ml" 28 451 500 "m_standard.ml" 28 451 502
+type(
+  unit Property.wrapped
+)
+ident(
+  int_ref st "m_standard.ml" 22 307 311 "m_standard.ml" 22 307 313
+)
+"m_standard.ml" 28 451 455 "m_standard.ml" 28 451 502
+type(
+  M_t.modunit_ Property.wrapped
+)
+"m_standard.ml" 27 409 413 "m_standard.ml" 28 451 502
+type(
+  M_t.modunit_ Property.wrapped
+)
+"m_standard.ml" 26 375 379 "m_standard.ml" 28 451 502
+type(
+  M_t.modunit_ Property.wrapped
+)
+"m_standard.ml" 25 346 350 "m_standard.ml" 28 451 502
+type(
+  M_t.modunit_ Property.wrapped
+)
+"m_standard.ml" 30 504 508 "m_standard.ml" 30 504 514
+type(
+  int ->
+  string ->
+  ((string Property.wrapped * Expr.T.shape) list -> Expr.T.expr) ->
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  def lambda "m_standard.ml" 36 776 776 "m_standard.ml" 0 0 -1
+)
+"m_standard.ml" 30 504 515 "m_standard.ml" 30 504 520
+type(
+  int
+)
+ident(
+  def arity "m_standard.ml" 30 504 521 "m_standard.ml" 34 692 774
+)
+"m_standard.ml" 30 504 521 "m_standard.ml" 30 504 525
+type(
+  string
+)
+ident(
+  def name "m_standard.ml" 30 504 526 "m_standard.ml" 34 692 774
+)
+"m_standard.ml" 30 504 526 "m_standard.ml" 30 504 528
+type(
+  (string Property.wrapped * Expr.T.shape) list -> Expr.T.expr
+)
+ident(
+  def fn "m_standard.ml" 31 531 533 "m_standard.ml" 34 692 774
+)
+"m_standard.ml" 31 531 541 "m_standard.ml" 31 531 546
+type(
+  int
+)
+ident(
+  int_ref arity "m_standard.ml" 30 504 515 "m_standard.ml" 30 504 520
+)
+"m_standard.ml" 31 531 547 "m_standard.ml" 31 531 549
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 150 6190 6190 "stdlib.mli" 150 6190 6242
+)
+"m_standard.ml" 31 531 550 "m_standard.ml" 31 531 551
+type(
+  int
+)
+"m_standard.ml" 31 531 540 "m_standard.ml" 31 531 552
+type(
+  bool
+)
+"m_standard.ml" 31 531 533 "m_standard.ml" 31 531 552
+type(
+  unit
+)
+"m_standard.ml" 32 554 560 "m_standard.ml" 32 554 564
+type(
+  (string Property.wrapped * Expr.T.shape) list
+)
+ident(
+  def vars "m_standard.ml" 33 645 647 "m_standard.ml" 34 692 774
+)
+"m_standard.ml" 32 554 567 "m_standard.ml" 32 554 576
+type(
+  int ->
+  (int -> string Property.wrapped * Expr.T.shape) ->
+  (string Property.wrapped * Expr.T.shape) list
+)
+ident(
+  int_ref Ext.List.init "ext.mli" 50 2229 2231 "ext.mli" 50 2229 2271
+)
+"m_standard.ml" 32 554 577 "m_standard.ml" 32 554 582
+type(
+  int
+)
+ident(
+  int_ref arity "m_standard.ml" 30 504 515 "m_standard.ml" 30 504 520
+)
+"m_standard.ml" 32 554 588 "m_standard.ml" 32 554 589
+type(
+  int
+)
+ident(
+  def n "m_standard.ml" 32 554 593 "m_standard.ml" 32 554 640
+)
+"m_standard.ml" 32 554 594 "m_standard.ml" 32 554 597
+type(
+  string
+)
+"m_standard.ml" 32 554 598 "m_standard.ml" 32 554 599
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"m_standard.ml" 32 554 600 "m_standard.ml" 32 554 613
+type(
+  int -> string
+)
+ident(
+  int_ref Stdlib.string_of_int "stdlib.mli" 750 27897 27897 "stdlib.mli" 750 27897 27930
+)
+"m_standard.ml" 32 554 615 "m_standard.ml" 32 554 616
+type(
+  int
+)
+ident(
+  int_ref n "m_standard.ml" 32 554 588 "m_standard.ml" 32 554 589
+)
+"m_standard.ml" 32 554 617 "m_standard.ml" 32 554 618
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"m_standard.ml" 32 554 619 "m_standard.ml" 32 554 620
+type(
+  int
+)
+"m_standard.ml" 32 554 614 "m_standard.ml" 32 554 621
+type(
+  int
+)
+"m_standard.ml" 32 554 600 "m_standard.ml" 32 554 621
+type(
+  string
+)
+"m_standard.ml" 32 554 593 "m_standard.ml" 32 554 622
+type(
+  string
+)
+"m_standard.ml" 32 554 623 "m_standard.ml" 32 554 625
+type(
+  string -> unit Property.wrapped -> string Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_standard.ml" 32 554 626 "m_standard.ml" 32 554 628
+type(
+  unit Property.wrapped
+)
+ident(
+  int_ref st "m_standard.ml" 22 307 311 "m_standard.ml" 22 307 313
+)
+"m_standard.ml" 32 554 593 "m_standard.ml" 32 554 628
+type(
+  string Property.wrapped
+)
+"m_standard.ml" 32 554 630 "m_standard.ml" 32 554 640
+type(
+  Expr.T.shape
+)
+"m_standard.ml" 32 554 593 "m_standard.ml" 32 554 640
+type(
+  string Property.wrapped * Expr.T.shape
+)
+"m_standard.ml" 32 554 583 "m_standard.ml" 32 554 641
+type(
+  int -> string Property.wrapped * Expr.T.shape
+)
+"m_standard.ml" 32 554 567 "m_standard.ml" 32 554 641
+type(
+  (string Property.wrapped * Expr.T.shape) list
+)
+"m_standard.ml" 33 645 651 "m_standard.ml" 33 645 657
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def lambda "m_standard.ml" 34 692 694 "m_standard.ml" 34 692 774
+)
+"m_standard.ml" 33 645 668 "m_standard.ml" 33 645 672
+type(
+  (Util.hint * Expr.T.shape) list
+)
+ident(
+  int_ref vars "m_standard.ml" 32 554 560 "m_standard.ml" 32 554 564
+)
+"m_standard.ml" 33 645 674 "m_standard.ml" 33 645 676
+type(
+  (string Property.wrapped * Expr.T.shape) list -> Expr.T.expr
+)
+ident(
+  int_ref fn "m_standard.ml" 30 504 526 "m_standard.ml" 30 504 528
+)
+"m_standard.ml" 33 645 677 "m_standard.ml" 33 645 681
+type(
+  (string Property.wrapped * Expr.T.shape) list
+)
+ident(
+  int_ref vars "m_standard.ml" 32 554 560 "m_standard.ml" 32 554 564
+)
+"m_standard.ml" 33 645 674 "m_standard.ml" 33 645 681
+type(
+  Expr.T.expr
+)
+"m_standard.ml" 33 645 660 "m_standard.ml" 33 645 682
+type(
+  Expr.T.expr_
+)
+"m_standard.ml" 33 645 683 "m_standard.ml" 33 645 685
+type(
+  Expr.T.expr_ -> unit Property.wrapped -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_standard.ml" 33 645 686 "m_standard.ml" 33 645 688
+type(
+  unit Property.wrapped
+)
+ident(
+  int_ref st "m_standard.ml" 22 307 311 "m_standard.ml" 22 307 313
+)
+"m_standard.ml" 33 645 660 "m_standard.ml" 33 645 688
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"m_standard.ml" 34 692 716 "m_standard.ml" 34 692 720
+type(
+  string
+)
+ident(
+  int_ref name "m_standard.ml" 30 504 521 "m_standard.ml" 30 504 525
+)
+"m_standard.ml" 34 692 721 "m_standard.ml" 34 692 723
+type(
+  string -> unit Property.wrapped -> Util.hint
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_standard.ml" 34 692 724 "m_standard.ml" 34 692 726
+type(
+  unit Property.wrapped
+)
+ident(
+  int_ref st "m_standard.ml" 22 307 311 "m_standard.ml" 22 307 313
+)
+"m_standard.ml" 34 692 716 "m_standard.ml" 34 692 726
+type(
+  Util.hint
+)
+"m_standard.ml" 34 692 728 "m_standard.ml" 34 692 734
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref lambda "m_standard.ml" 33 645 651 "m_standard.ml" 33 645 657
+)
+"m_standard.ml" 34 692 706 "m_standard.ml" 34 692 735
+type(
+  Expr.T.defn_
+)
+"m_standard.ml" 34 692 736 "m_standard.ml" 34 692 738
+type(
+  Expr.T.defn_ -> unit Property.wrapped -> Expr.T.defn
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_standard.ml" 34 692 739 "m_standard.ml" 34 692 741
+type(
+  unit Property.wrapped
+)
+ident(
+  int_ref st "m_standard.ml" 22 307 311 "m_standard.ml" 22 307 313
+)
+"m_standard.ml" 34 692 706 "m_standard.ml" 34 692 741
+type(
+  Expr.T.defn
+)
+"m_standard.ml" 34 692 743 "m_standard.ml" 34 692 750
+type(
+  Expr.T.wheredef
+)
+"m_standard.ml" 34 692 752 "m_standard.ml" 34 692 759
+type(
+  Expr.T.visibility
+)
+"m_standard.ml" 34 692 761 "m_standard.ml" 34 692 767
+type(
+  Expr.T.export
+)
+"m_standard.ml" 34 692 694 "m_standard.ml" 34 692 768
+type(
+  M_t.modunit_
+)
+"m_standard.ml" 34 692 769 "m_standard.ml" 34 692 771
+type(
+  M_t.modunit_ -> unit Property.wrapped -> M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_standard.ml" 34 692 772 "m_standard.ml" 34 692 774
+type(
+  unit Property.wrapped
+)
+ident(
+  int_ref st "m_standard.ml" 22 307 311 "m_standard.ml" 22 307 313
+)
+"m_standard.ml" 34 692 694 "m_standard.ml" 34 692 774
+type(
+  M_t.modunit_ Property.wrapped
+)
+"m_standard.ml" 33 645 647 "m_standard.ml" 34 692 774
+type(
+  M_t.modunit_ Property.wrapped
+)
+"m_standard.ml" 32 554 556 "m_standard.ml" 34 692 774
+type(
+  M_t.modunit_ Property.wrapped
+)
+"m_standard.ml" 31 531 533 "m_standard.ml" 34 692 774
+type(
+  M_t.modunit_ Property.wrapped
+)
+"m_standard.ml" 36 776 780 "m_standard.ml" 36 776 788
+type(
+  int -> string -> Builtin.builtin -> M_t.modunit_ Property.wrapped
+)
+ident(
+  def operator "m_standard.ml" 43 972 972 "m_standard.ml" 0 0 -1
+)
+"m_standard.ml" 36 776 789 "m_standard.ml" 36 776 794
+type(
+  int
+)
+ident(
+  def arity "m_standard.ml" 36 776 795 "m_standard.ml" 41 965 970
+)
+"m_standard.ml" 36 776 795 "m_standard.ml" 36 776 799
+type(
+  string
+)
+ident(
+  def name "m_standard.ml" 36 776 800 "m_standard.ml" 41 965 970
+)
+"m_standard.ml" 36 776 800 "m_standard.ml" 36 776 802
+type(
+  Builtin.builtin
+)
+ident(
+  def op "m_standard.ml" 37 805 807 "m_standard.ml" 41 965 970
+)
+"m_standard.ml" 37 805 807 "m_standard.ml" 37 805 813
+type(
+  int ->
+  string ->
+  ((string Property.wrapped * Expr.T.shape) list -> Expr.T.expr) ->
+  M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref lambda "m_standard.ml" 30 504 508 "m_standard.ml" 30 504 514
+)
+"m_standard.ml" 37 805 814 "m_standard.ml" 37 805 819
+type(
+  int
+)
+ident(
+  int_ref arity "m_standard.ml" 36 776 789 "m_standard.ml" 36 776 794
+)
+"m_standard.ml" 37 805 820 "m_standard.ml" 37 805 824
+type(
+  string
+)
+ident(
+  int_ref name "m_standard.ml" 36 776 795 "m_standard.ml" 36 776 799
+)
+"m_standard.ml" 38 831 839 "m_standard.ml" 38 831 840
+type(
+  (string Property.wrapped * Expr.T.shape) list
+)
+"m_standard.ml" 38 831 852 "m_standard.ml" 38 831 857
+type(
+  int
+)
+ident(
+  int_ref arity "m_standard.ml" 36 776 789 "m_standard.ml" 36 776 794
+)
+"m_standard.ml" 38 831 858 "m_standard.ml" 38 831 860
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 150 6190 6190 "stdlib.mli" 150 6190 6242
+)
+"m_standard.ml" 38 831 861 "m_standard.ml" 38 831 862
+type(
+  int
+)
+"m_standard.ml" 38 831 851 "m_standard.ml" 38 831 863
+type(
+  bool
+)
+"m_standard.ml" 38 831 844 "m_standard.ml" 38 831 863
+type(
+  unit
+)
+"m_standard.ml" 39 865 887 "m_standard.ml" 39 865 889
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "m_standard.ml" 36 776 800 "m_standard.ml" 36 776 802
+)
+"m_standard.ml" 39 865 878 "m_standard.ml" 39 865 889
+type(
+  Expr.T.expr_
+)
+"m_standard.ml" 39 865 890 "m_standard.ml" 39 865 892
+type(
+  Expr.T.expr_ -> unit Property.wrapped -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_standard.ml" 39 865 893 "m_standard.ml" 39 865 895
+type(
+  unit Property.wrapped
+)
+ident(
+  int_ref st "m_standard.ml" 22 307 311 "m_standard.ml" 22 307 313
+)
+"m_standard.ml" 39 865 878 "m_standard.ml" 39 865 895
+type(
+  Expr.T.expr
+)
+"m_standard.ml" 40 897 910 "m_standard.ml" 40 897 919
+type(
+  int -> (int -> Expr.T.expr) -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.init "ext.mli" 50 2229 2231 "ext.mli" 50 2229 2271
+)
+"m_standard.ml" 40 897 920 "m_standard.ml" 40 897 925
+type(
+  int
+)
+ident(
+  int_ref arity "m_standard.ml" 36 776 789 "m_standard.ml" 36 776 794
+)
+"m_standard.ml" 40 897 931 "m_standard.ml" 40 897 932
+type(
+  int
+)
+ident(
+  def n "m_standard.ml" 40 897 936 "m_standard.ml" 40 897 956
+)
+"m_standard.ml" 40 897 940 "m_standard.ml" 40 897 945
+type(
+  int
+)
+ident(
+  int_ref arity "m_standard.ml" 36 776 789 "m_standard.ml" 36 776 794
+)
+"m_standard.ml" 40 897 946 "m_standard.ml" 40 897 947
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"m_standard.ml" 40 897 948 "m_standard.ml" 40 897 949
+type(
+  int
+)
+ident(
+  int_ref n "m_standard.ml" 40 897 931 "m_standard.ml" 40 897 932
+)
+"m_standard.ml" 40 897 939 "m_standard.ml" 40 897 950
+type(
+  int
+)
+"m_standard.ml" 40 897 936 "m_standard.ml" 40 897 950
+type(
+  Expr.T.expr_
+)
+"m_standard.ml" 40 897 951 "m_standard.ml" 40 897 953
+type(
+  Expr.T.expr_ -> unit Property.wrapped -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_standard.ml" 40 897 954 "m_standard.ml" 40 897 956
+type(
+  unit Property.wrapped
+)
+ident(
+  int_ref st "m_standard.ml" 22 307 311 "m_standard.ml" 22 307 313
+)
+"m_standard.ml" 40 897 936 "m_standard.ml" 40 897 956
+type(
+  Expr.T.expr
+)
+"m_standard.ml" 40 897 926 "m_standard.ml" 40 897 957
+type(
+  int -> Expr.T.expr
+)
+"m_standard.ml" 40 897 910 "m_standard.ml" 40 897 957
+type(
+  Expr.T.expr list
+)
+"m_standard.ml" 39 865 871 "m_standard.ml" 40 897 958
+type(
+  Expr.T.expr_
+)
+"m_standard.ml" 40 897 959 "m_standard.ml" 40 897 961
+type(
+  Expr.T.expr_ -> unit Property.wrapped -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_standard.ml" 40 897 962 "m_standard.ml" 40 897 964
+type(
+  unit Property.wrapped
+)
+ident(
+  int_ref st "m_standard.ml" 22 307 311 "m_standard.ml" 22 307 313
+)
+"m_standard.ml" 39 865 871 "m_standard.ml" 40 897 964
+type(
+  Expr.T.expr
+)
+"m_standard.ml" 38 831 844 "m_standard.ml" 40 897 964
+type(
+  Expr.T.expr
+)
+"m_standard.ml" 37 805 825 "m_standard.ml" 41 965 970
+type(
+  (string Property.wrapped * Expr.T.shape) list -> Expr.T.expr
+)
+"m_standard.ml" 37 805 807 "m_standard.ml" 41 965 970
+type(
+  M_t.modunit_ Property.wrapped
+)
+"m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+type(
+  string -> Builtin.builtin -> M_t.modunit_ Property.wrapped
+)
+ident(
+  def unary "m_standard.ml" 44 995 995 "m_standard.ml" 0 0 -1
+)
+"m_standard.ml" 43 972 984 "m_standard.ml" 43 972 992
+type(
+  int -> string -> Builtin.builtin -> M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref operator "m_standard.ml" 36 776 780 "m_standard.ml" 36 776 788
+)
+"m_standard.ml" 43 972 993 "m_standard.ml" 43 972 994
+type(
+  int
+)
+"m_standard.ml" 43 972 984 "m_standard.ml" 43 972 994
+type(
+  string -> Builtin.builtin -> M_t.modunit_ Property.wrapped
+)
+"m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+type(
+  string -> Builtin.builtin -> M_t.modunit_ Property.wrapped
+)
+ident(
+  def binary "m_standard.ml" 45 1019 1019 "m_standard.ml" 0 0 -1
+)
+"m_standard.ml" 44 995 1008 "m_standard.ml" 44 995 1016
+type(
+  int -> string -> Builtin.builtin -> M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref operator "m_standard.ml" 36 776 780 "m_standard.ml" 36 776 788
+)
+"m_standard.ml" 44 995 1017 "m_standard.ml" 44 995 1018
+type(
+  int
+)
+"m_standard.ml" 44 995 1008 "m_standard.ml" 44 995 1018
+type(
+  string -> Builtin.builtin -> M_t.modunit_ Property.wrapped
+)
+"m_standard.ml" 45 1019 1023 "m_standard.ml" 45 1019 1030
+type(
+  string -> Builtin.builtin -> M_t.modunit_ Property.wrapped
+)
+ident(
+  def ternary "m_standard.ml" 47 1045 1045 "m_standard.ml" 0 0 -1
+)
+"m_standard.ml" 45 1019 1033 "m_standard.ml" 45 1019 1041
+type(
+  int -> string -> Builtin.builtin -> M_t.modunit_ Property.wrapped
+)
+ident(
+  int_ref operator "m_standard.ml" 36 776 780 "m_standard.ml" 36 776 788
+)
+"m_standard.ml" 45 1019 1042 "m_standard.ml" 45 1019 1043
+type(
+  int
+)
+"m_standard.ml" 45 1019 1033 "m_standard.ml" 45 1019 1043
+type(
+  string -> Builtin.builtin -> M_t.modunit_ Property.wrapped
+)
+"m_standard.ml" 47 1045 1049 "m_standard.ml" 47 1045 1057
+type(
+  M_t.mule
+)
+ident(
+  def naturals "m_standard.ml" 74 1727 1727 "m_standard.ml" 0 0 -1
+)
+"m_standard.ml" 48 1060 1067 "m_standard.ml" 48 1060 1068
+type(
+  M_t.modctx
+)
+"m_standard.ml" 48 1060 1070 "m_standard.ml" 48 1060 1071
+type(
+  M_t.mule
+)
+ident(
+  def m "m_standard.ml" 72 1722 1724 "m_standard.ml" 72 1722 1725
+)
+"m_standard.ml" 48 1060 1073 "m_standard.ml" 48 1060 1074
+type(
+  M_t.summary
+)
+"m_standard.ml" 48 1060 1066 "m_standard.ml" 48 1060 1075
+type(
+  M_t.modctx * M_t.mule * M_t.summary
+)
+"m_standard.ml" 48 1060 1078 "m_standard.ml" 48 1060 1094
+type(
+  M_t.modctx -> Expr.T.ctx -> M_t.mule -> M_t.modctx * M_t.mule * M_t.summary
+)
+ident(
+  int_ref M_elab.normalize "m_elab.mli" 14 168 168 "m_elab.mli" 16 219 250
+)
+"m_standard.ml" 48 1060 1095 "m_standard.ml" 48 1060 1103
+type(
+  M_t.modctx
+)
+ident(
+  int_ref Util.Coll.Sm.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"m_standard.ml" 48 1060 1104 "m_standard.ml" 48 1060 1115
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"m_standard.ml" 49 1122 1126 "m_standard.ml" 49 1122 1129
+type(
+  M_t.mule_ -> M_t.mule
+)
+ident(
+  int_ref stm "m_standard.ml" 21 275 279 "m_standard.ml" 21 275 282
+)
+"m_standard.ml" 50 1132 1145 "m_standard.ml" 50 1132 1155
+type(
+  string
+)
+"m_standard.ml" 50 1132 1156 "m_standard.ml" 50 1132 1158
+type(
+  string -> unit Property.wrapped -> Util.hint
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_standard.ml" 50 1132 1159 "m_standard.ml" 50 1132 1161
+type(
+  unit Property.wrapped
+)
+ident(
+  int_ref st "m_standard.ml" 22 307 311 "m_standard.ml" 22 307 313
+)
+"m_standard.ml" 50 1132 1145 "m_standard.ml" 50 1132 1161
+type(
+  Util.hint
+)
+"m_standard.ml" 51 1164 1182 "m_standard.ml" 51 1164 1184
+type(
+  Util.hints
+)
+"m_standard.ml" 52 1187 1206 "m_standard.ml" 52 1187 1208
+type(
+  Util.hints
+)
+"m_standard.ml" 53 1211 1228 "m_standard.ml" 53 1211 1229
+type(
+  int
+)
+"m_standard.ml" 54 1232 1250 "m_standard.ml" 54 1232 1255
+type(
+  bool
+)
+"m_standard.ml" 56 1273 1281 "m_standard.ml" 56 1273 1288
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref nullary "m_standard.ml" 24 324 328 "m_standard.ml" 24 324 335
+)
+"m_standard.ml" 56 1273 1289 "m_standard.ml" 56 1273 1294
+type(
+  string
+)
+"m_standard.ml" 56 1273 1297 "m_standard.ml" 56 1273 1302
+type(
+  B.builtin
+)
+"m_standard.ml" 56 1273 1281 "m_standard.ml" 56 1273 1302
+type(
+  M_t.modunit
+)
+"m_standard.ml" 57 1305 1313 "m_standard.ml" 57 1305 1319
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 57 1305 1321 "m_standard.ml" 57 1305 1324
+type(
+  string
+)
+"m_standard.ml" 57 1305 1329 "m_standard.ml" 57 1305 1335
+type(
+  B.builtin
+)
+"m_standard.ml" 57 1305 1313 "m_standard.ml" 57 1305 1335
+type(
+  M_t.modunit
+)
+"m_standard.ml" 58 1338 1346 "m_standard.ml" 58 1338 1352
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 58 1338 1354 "m_standard.ml" 58 1338 1357
+type(
+  string
+)
+"m_standard.ml" 58 1338 1362 "m_standard.ml" 58 1338 1369
+type(
+  B.builtin
+)
+"m_standard.ml" 58 1338 1346 "m_standard.ml" 58 1338 1369
+type(
+  M_t.modunit
+)
+"m_standard.ml" 59 1372 1380 "m_standard.ml" 59 1372 1386
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 59 1372 1388 "m_standard.ml" 59 1372 1391
+type(
+  string
+)
+"m_standard.ml" 59 1372 1396 "m_standard.ml" 59 1372 1403
+type(
+  B.builtin
+)
+"m_standard.ml" 59 1372 1380 "m_standard.ml" 59 1372 1403
+type(
+  M_t.modunit
+)
+"m_standard.ml" 60 1406 1414 "m_standard.ml" 60 1406 1420
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 60 1406 1422 "m_standard.ml" 60 1406 1425
+type(
+  string
+)
+"m_standard.ml" 60 1406 1430 "m_standard.ml" 60 1406 1435
+type(
+  B.builtin
+)
+"m_standard.ml" 60 1406 1414 "m_standard.ml" 60 1406 1435
+type(
+  M_t.modunit
+)
+"m_standard.ml" 61 1438 1446 "m_standard.ml" 61 1438 1452
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 61 1438 1454 "m_standard.ml" 61 1438 1457
+type(
+  string
+)
+"m_standard.ml" 61 1438 1462 "m_standard.ml" 61 1438 1466
+type(
+  B.builtin
+)
+"m_standard.ml" 61 1438 1446 "m_standard.ml" 61 1438 1466
+type(
+  M_t.modunit
+)
+"m_standard.ml" 62 1469 1477 "m_standard.ml" 62 1469 1483
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 62 1469 1485 "m_standard.ml" 62 1469 1488
+type(
+  string
+)
+"m_standard.ml" 62 1469 1493 "m_standard.ml" 62 1469 1497
+type(
+  B.builtin
+)
+"m_standard.ml" 62 1469 1477 "m_standard.ml" 62 1469 1497
+type(
+  M_t.modunit
+)
+"m_standard.ml" 63 1500 1508 "m_standard.ml" 63 1500 1514
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 63 1500 1516 "m_standard.ml" 63 1500 1520
+type(
+  string
+)
+"m_standard.ml" 63 1500 1524 "m_standard.ml" 63 1500 1530
+type(
+  B.builtin
+)
+"m_standard.ml" 63 1500 1508 "m_standard.ml" 63 1500 1530
+type(
+  M_t.modunit
+)
+"m_standard.ml" 64 1533 1541 "m_standard.ml" 64 1533 1547
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 64 1533 1549 "m_standard.ml" 64 1533 1553
+type(
+  string
+)
+"m_standard.ml" 64 1533 1557 "m_standard.ml" 64 1533 1563
+type(
+  B.builtin
+)
+"m_standard.ml" 64 1533 1541 "m_standard.ml" 64 1533 1563
+type(
+  M_t.modunit
+)
+"m_standard.ml" 65 1566 1574 "m_standard.ml" 65 1566 1580
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 65 1566 1582 "m_standard.ml" 65 1566 1585
+type(
+  string
+)
+"m_standard.ml" 65 1566 1590 "m_standard.ml" 65 1566 1601
+type(
+  B.builtin
+)
+"m_standard.ml" 65 1566 1574 "m_standard.ml" 65 1566 1601
+type(
+  M_t.modunit
+)
+"m_standard.ml" 66 1604 1612 "m_standard.ml" 66 1604 1618
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 66 1604 1620 "m_standard.ml" 66 1604 1627
+type(
+  string
+)
+"m_standard.ml" 66 1604 1628 "m_standard.ml" 66 1604 1638
+type(
+  B.builtin
+)
+"m_standard.ml" 66 1604 1612 "m_standard.ml" 66 1604 1638
+type(
+  M_t.modunit
+)
+"m_standard.ml" 67 1641 1649 "m_standard.ml" 67 1641 1655
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 67 1641 1657 "m_standard.ml" 67 1641 1661
+type(
+  string
+)
+"m_standard.ml" 67 1641 1665 "m_standard.ml" 67 1641 1672
+type(
+  B.builtin
+)
+"m_standard.ml" 67 1641 1649 "m_standard.ml" 67 1641 1672
+type(
+  M_t.modunit
+)
+"m_standard.ml" 55 1258 1271 "m_standard.ml" 68 1673 1680
+type(
+  M_t.modunit list
+)
+"m_standard.ml" 69 1683 1697 "m_standard.ml" 69 1683 1704
+type(
+  M_t.stage
+)
+"m_standard.ml" 49 1122 1130 "m_standard.ml" 70 1707 1712
+type(
+  M_t.mule_
+)
+"m_standard.ml" 48 1060 1116 "m_standard.ml" 71 1713 1718
+type(
+  M_t.mule
+)
+"m_standard.ml" 48 1060 1078 "m_standard.ml" 71 1713 1718
+type(
+  M_t.modctx * M_t.mule * M_t.summary
+)
+"m_standard.ml" 72 1722 1724 "m_standard.ml" 72 1722 1725
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_standard.ml" 48 1060 1070 "m_standard.ml" 48 1060 1071
+)
+"m_standard.ml" 48 1060 1062 "m_standard.ml" 72 1722 1725
+type(
+  M_t.mule
+)
+"m_standard.ml" 74 1727 1731 "m_standard.ml" 74 1727 1739
+type(
+  M_t.mule
+)
+ident(
+  def integers "m_standard.ml" 91 2091 2091 "m_standard.ml" 0 0 -1
+)
+"m_standard.ml" 75 1742 1749 "m_standard.ml" 75 1742 1750
+type(
+  M_t.modctx
+)
+"m_standard.ml" 75 1742 1752 "m_standard.ml" 75 1742 1753
+type(
+  M_t.mule
+)
+ident(
+  def m "m_standard.ml" 89 2086 2088 "m_standard.ml" 89 2086 2089
+)
+"m_standard.ml" 75 1742 1755 "m_standard.ml" 75 1742 1756
+type(
+  M_t.summary
+)
+"m_standard.ml" 75 1742 1748 "m_standard.ml" 75 1742 1757
+type(
+  M_t.modctx * M_t.mule * M_t.summary
+)
+"m_standard.ml" 75 1742 1760 "m_standard.ml" 75 1742 1776
+type(
+  M_t.modctx -> Expr.T.ctx -> M_t.mule -> M_t.modctx * M_t.mule * M_t.summary
+)
+ident(
+  int_ref M_elab.normalize "m_elab.mli" 14 168 168 "m_elab.mli" 16 219 250
+)
+"m_standard.ml" 75 1742 1777 "m_standard.ml" 75 1742 1785
+type(
+  M_t.modctx
+)
+ident(
+  int_ref Util.Coll.Sm.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"m_standard.ml" 75 1742 1786 "m_standard.ml" 75 1742 1797
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"m_standard.ml" 76 1804 1808 "m_standard.ml" 76 1804 1811
+type(
+  M_t.mule_ -> M_t.mule
+)
+ident(
+  int_ref stm "m_standard.ml" 21 275 279 "m_standard.ml" 21 275 282
+)
+"m_standard.ml" 77 1814 1827 "m_standard.ml" 77 1814 1837
+type(
+  string
+)
+"m_standard.ml" 77 1814 1838 "m_standard.ml" 77 1814 1840
+type(
+  string -> unit Property.wrapped -> Util.hint
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_standard.ml" 77 1814 1841 "m_standard.ml" 77 1814 1843
+type(
+  unit Property.wrapped
+)
+ident(
+  int_ref st "m_standard.ml" 22 307 311 "m_standard.ml" 22 307 313
+)
+"m_standard.ml" 77 1814 1827 "m_standard.ml" 77 1814 1843
+type(
+  Util.hint
+)
+"m_standard.ml" 78 1846 1864 "m_standard.ml" 78 1846 1866
+type(
+  Util.hints
+)
+"m_standard.ml" 79 1869 1888 "m_standard.ml" 79 1869 1890
+type(
+  Util.hints
+)
+"m_standard.ml" 80 1893 1910 "m_standard.ml" 80 1893 1911
+type(
+  int
+)
+"m_standard.ml" 81 1914 1932 "m_standard.ml" 81 1914 1937
+type(
+  bool
+)
+"m_standard.ml" 82 1940 1953 "m_standard.ml" 82 1940 1961
+type(
+  M_t.mule
+)
+ident(
+  int_ref naturals "m_standard.ml" 47 1045 1049 "m_standard.ml" 47 1045 1057
+)
+"m_standard.ml" 82 1940 1953 "m_standard.ml" 82 1940 1966
+type(
+  M_t.mule_
+)
+"m_standard.ml" 82 1940 1953 "m_standard.ml" 82 1940 1971
+type(
+  M_t.modunit list
+)
+"m_standard.ml" 82 1940 1972 "m_standard.ml" 82 1940 1973
+type(
+  M_t.modunit list -> M_t.modunit list -> M_t.modunit list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"m_standard.ml" 83 1976 1984 "m_standard.ml" 83 1976 1991
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref nullary "m_standard.ml" 24 324 328 "m_standard.ml" 24 324 335
+)
+"m_standard.ml" 83 1976 1992 "m_standard.ml" 83 1976 1997
+type(
+  string
+)
+"m_standard.ml" 83 1976 1998 "m_standard.ml" 83 1976 2003
+type(
+  B.builtin
+)
+"m_standard.ml" 83 1976 1984 "m_standard.ml" 83 1976 2003
+type(
+  M_t.modunit
+)
+"m_standard.ml" 84 2006 2014 "m_standard.ml" 84 2006 2019
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 84 2006 2022 "m_standard.ml" 84 2006 2026
+type(
+  string
+)
+"m_standard.ml" 84 2006 2028 "m_standard.ml" 84 2006 2036
+type(
+  B.builtin
+)
+"m_standard.ml" 84 2006 2014 "m_standard.ml" 84 2006 2036
+type(
+  M_t.modunit
+)
+"m_standard.ml" 82 1940 1974 "m_standard.ml" 85 2037 2044
+type(
+  M_t.modunit list
+)
+"m_standard.ml" 82 1940 1953 "m_standard.ml" 85 2037 2044
+type(
+  M_t.modunit list
+)
+"m_standard.ml" 86 2047 2061 "m_standard.ml" 86 2047 2068
+type(
+  M_t.stage
+)
+"m_standard.ml" 76 1804 1812 "m_standard.ml" 87 2071 2076
+type(
+  M_t.mule_
+)
+"m_standard.ml" 75 1742 1798 "m_standard.ml" 88 2077 2082
+type(
+  M_t.mule
+)
+"m_standard.ml" 75 1742 1760 "m_standard.ml" 88 2077 2082
+type(
+  M_t.modctx * M_t.mule * M_t.summary
+)
+"m_standard.ml" 89 2086 2088 "m_standard.ml" 89 2086 2089
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_standard.ml" 75 1742 1752 "m_standard.ml" 75 1742 1753
+)
+"m_standard.ml" 75 1742 1744 "m_standard.ml" 89 2086 2089
+type(
+  M_t.mule
+)
+"m_standard.ml" 91 2091 2095 "m_standard.ml" 91 2091 2100
+type(
+  M_t.mule
+)
+ident(
+  def reals "m_standard.ml" 109 2501 2501 "m_standard.ml" 0 0 -1
+)
+"m_standard.ml" 92 2103 2110 "m_standard.ml" 92 2103 2111
+type(
+  M_t.modctx
+)
+"m_standard.ml" 92 2103 2113 "m_standard.ml" 92 2103 2114
+type(
+  M_t.mule
+)
+ident(
+  def m "m_standard.ml" 107 2496 2498 "m_standard.ml" 107 2496 2499
+)
+"m_standard.ml" 92 2103 2116 "m_standard.ml" 92 2103 2117
+type(
+  M_t.summary
+)
+"m_standard.ml" 92 2103 2109 "m_standard.ml" 92 2103 2118
+type(
+  M_t.modctx * M_t.mule * M_t.summary
+)
+"m_standard.ml" 92 2103 2121 "m_standard.ml" 92 2103 2137
+type(
+  M_t.modctx -> Expr.T.ctx -> M_t.mule -> M_t.modctx * M_t.mule * M_t.summary
+)
+ident(
+  int_ref M_elab.normalize "m_elab.mli" 14 168 168 "m_elab.mli" 16 219 250
+)
+"m_standard.ml" 92 2103 2138 "m_standard.ml" 92 2103 2146
+type(
+  M_t.modctx
+)
+ident(
+  int_ref Util.Coll.Sm.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"m_standard.ml" 92 2103 2147 "m_standard.ml" 92 2103 2158
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"m_standard.ml" 93 2165 2169 "m_standard.ml" 93 2165 2172
+type(
+  M_t.mule_ -> M_t.mule
+)
+ident(
+  int_ref stm "m_standard.ml" 21 275 279 "m_standard.ml" 21 275 282
+)
+"m_standard.ml" 94 2175 2188 "m_standard.ml" 94 2175 2195
+type(
+  string
+)
+"m_standard.ml" 94 2175 2196 "m_standard.ml" 94 2175 2198
+type(
+  string -> unit Property.wrapped -> Util.hint
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_standard.ml" 94 2175 2199 "m_standard.ml" 94 2175 2201
+type(
+  unit Property.wrapped
+)
+ident(
+  int_ref st "m_standard.ml" 22 307 311 "m_standard.ml" 22 307 313
+)
+"m_standard.ml" 94 2175 2188 "m_standard.ml" 94 2175 2201
+type(
+  Util.hint
+)
+"m_standard.ml" 95 2204 2222 "m_standard.ml" 95 2204 2224
+type(
+  Util.hints
+)
+"m_standard.ml" 96 2227 2246 "m_standard.ml" 96 2227 2248
+type(
+  Util.hints
+)
+"m_standard.ml" 97 2251 2268 "m_standard.ml" 97 2251 2269
+type(
+  int
+)
+"m_standard.ml" 98 2272 2290 "m_standard.ml" 98 2272 2295
+type(
+  bool
+)
+"m_standard.ml" 99 2298 2311 "m_standard.ml" 99 2298 2319
+type(
+  M_t.mule
+)
+ident(
+  int_ref integers "m_standard.ml" 74 1727 1731 "m_standard.ml" 74 1727 1739
+)
+"m_standard.ml" 99 2298 2311 "m_standard.ml" 99 2298 2324
+type(
+  M_t.mule_
+)
+"m_standard.ml" 99 2298 2311 "m_standard.ml" 99 2298 2329
+type(
+  M_t.modunit list
+)
+"m_standard.ml" 99 2298 2330 "m_standard.ml" 99 2298 2331
+type(
+  M_t.modunit list -> M_t.modunit list -> M_t.modunit list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"m_standard.ml" 100 2334 2342 "m_standard.ml" 100 2334 2349
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref nullary "m_standard.ml" 24 324 328 "m_standard.ml" 24 324 335
+)
+"m_standard.ml" 100 2334 2350 "m_standard.ml" 100 2334 2356
+type(
+  string
+)
+"m_standard.ml" 100 2334 2361 "m_standard.ml" 100 2334 2367
+type(
+  B.builtin
+)
+"m_standard.ml" 100 2334 2342 "m_standard.ml" 100 2334 2367
+type(
+  M_t.modunit
+)
+"m_standard.ml" 101 2370 2378 "m_standard.ml" 101 2370 2384
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 101 2370 2386 "m_standard.ml" 101 2370 2389
+type(
+  string
+)
+"m_standard.ml" 101 2370 2397 "m_standard.ml" 101 2370 2404
+type(
+  B.builtin
+)
+"m_standard.ml" 101 2370 2378 "m_standard.ml" 101 2370 2404
+type(
+  M_t.modunit
+)
+"m_standard.ml" 102 2407 2415 "m_standard.ml" 102 2407 2422
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref nullary "m_standard.ml" 24 324 328 "m_standard.ml" 24 324 335
+)
+"m_standard.ml" 102 2407 2423 "m_standard.ml" 102 2407 2433
+type(
+  string
+)
+"m_standard.ml" 102 2407 2434 "m_standard.ml" 102 2407 2444
+type(
+  B.builtin
+)
+"m_standard.ml" 102 2407 2415 "m_standard.ml" 102 2407 2444
+type(
+  M_t.modunit
+)
+"m_standard.ml" 99 2298 2332 "m_standard.ml" 103 2447 2454
+type(
+  M_t.modunit list
+)
+"m_standard.ml" 99 2298 2311 "m_standard.ml" 103 2447 2454
+type(
+  M_t.modunit list
+)
+"m_standard.ml" 104 2457 2471 "m_standard.ml" 104 2457 2478
+type(
+  M_t.stage
+)
+"m_standard.ml" 93 2165 2173 "m_standard.ml" 105 2481 2486
+type(
+  M_t.mule_
+)
+"m_standard.ml" 92 2103 2159 "m_standard.ml" 106 2487 2492
+type(
+  M_t.mule
+)
+"m_standard.ml" 92 2103 2121 "m_standard.ml" 106 2487 2492
+type(
+  M_t.modctx * M_t.mule * M_t.summary
+)
+"m_standard.ml" 107 2496 2498 "m_standard.ml" 107 2496 2499
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_standard.ml" 92 2103 2113 "m_standard.ml" 92 2103 2114
+)
+"m_standard.ml" 92 2103 2105 "m_standard.ml" 107 2496 2499
+type(
+  M_t.mule
+)
+"m_standard.ml" 109 2501 2505 "m_standard.ml" 109 2501 2514
+type(
+  M_t.mule
+)
+ident(
+  def sequences "m_standard.ml" 133 3122 3122 "m_standard.ml" 0 0 -1
+)
+"m_standard.ml" 110 2517 2524 "m_standard.ml" 110 2517 2525
+type(
+  M_t.modctx
+)
+"m_standard.ml" 110 2517 2527 "m_standard.ml" 110 2517 2528
+type(
+  M_t.mule
+)
+ident(
+  def m "m_standard.ml" 131 3117 3119 "m_standard.ml" 131 3117 3120
+)
+"m_standard.ml" 110 2517 2530 "m_standard.ml" 110 2517 2531
+type(
+  M_t.summary
+)
+"m_standard.ml" 110 2517 2523 "m_standard.ml" 110 2517 2532
+type(
+  M_t.modctx * M_t.mule * M_t.summary
+)
+"m_standard.ml" 110 2517 2535 "m_standard.ml" 110 2517 2551
+type(
+  M_t.modctx -> Expr.T.ctx -> M_t.mule -> M_t.modctx * M_t.mule * M_t.summary
+)
+ident(
+  int_ref M_elab.normalize "m_elab.mli" 14 168 168 "m_elab.mli" 16 219 250
+)
+"m_standard.ml" 110 2517 2552 "m_standard.ml" 110 2517 2560
+type(
+  M_t.modctx
+)
+ident(
+  int_ref Util.Coll.Sm.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"m_standard.ml" 110 2517 2561 "m_standard.ml" 110 2517 2572
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"m_standard.ml" 111 2579 2583 "m_standard.ml" 111 2579 2586
+type(
+  M_t.mule_ -> M_t.mule
+)
+ident(
+  int_ref stm "m_standard.ml" 21 275 279 "m_standard.ml" 21 275 282
+)
+"m_standard.ml" 112 2589 2602 "m_standard.ml" 112 2589 2613
+type(
+  string
+)
+"m_standard.ml" 112 2589 2614 "m_standard.ml" 112 2589 2616
+type(
+  string -> unit Property.wrapped -> Util.hint
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_standard.ml" 112 2589 2617 "m_standard.ml" 112 2589 2619
+type(
+  unit Property.wrapped
+)
+ident(
+  int_ref st "m_standard.ml" 22 307 311 "m_standard.ml" 22 307 313
+)
+"m_standard.ml" 112 2589 2602 "m_standard.ml" 112 2589 2619
+type(
+  Util.hint
+)
+"m_standard.ml" 113 2622 2640 "m_standard.ml" 113 2622 2642
+type(
+  Util.hints
+)
+"m_standard.ml" 114 2645 2664 "m_standard.ml" 114 2645 2666
+type(
+  Util.hints
+)
+"m_standard.ml" 115 2669 2686 "m_standard.ml" 115 2669 2687
+type(
+  int
+)
+"m_standard.ml" 116 2690 2708 "m_standard.ml" 116 2690 2713
+type(
+  bool
+)
+"m_standard.ml" 118 2731 2739 "m_standard.ml" 118 2731 2744
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 118 2731 2747 "m_standard.ml" 118 2731 2752
+type(
+  string
+)
+"m_standard.ml" 118 2731 2759 "m_standard.ml" 118 2731 2764
+type(
+  B.builtin
+)
+"m_standard.ml" 118 2731 2739 "m_standard.ml" 118 2731 2764
+type(
+  M_t.modunit
+)
+"m_standard.ml" 119 2767 2775 "m_standard.ml" 119 2767 2780
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 119 2767 2783 "m_standard.ml" 119 2767 2788
+type(
+  string
+)
+"m_standard.ml" 119 2767 2795 "m_standard.ml" 119 2767 2800
+type(
+  B.builtin
+)
+"m_standard.ml" 119 2767 2775 "m_standard.ml" 119 2767 2800
+type(
+  M_t.modunit
+)
+"m_standard.ml" 120 2803 2811 "m_standard.ml" 120 2803 2817
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 120 2803 2819 "m_standard.ml" 120 2803 2825
+type(
+  string
+)
+"m_standard.ml" 120 2803 2831 "m_standard.ml" 120 2803 2837
+type(
+  B.builtin
+)
+"m_standard.ml" 120 2803 2811 "m_standard.ml" 120 2803 2837
+type(
+  M_t.modunit
+)
+"m_standard.ml" 121 2840 2848 "m_standard.ml" 121 2840 2854
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 121 2840 2856 "m_standard.ml" 121 2840 2861
+type(
+  string
+)
+"m_standard.ml" 121 2840 2868 "m_standard.ml" 121 2840 2873
+type(
+  B.builtin
+)
+"m_standard.ml" 121 2840 2848 "m_standard.ml" 121 2840 2873
+type(
+  M_t.modunit
+)
+"m_standard.ml" 122 2876 2884 "m_standard.ml" 122 2876 2890
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 122 2876 2892 "m_standard.ml" 122 2876 2900
+type(
+  string
+)
+"m_standard.ml" 122 2876 2904 "m_standard.ml" 122 2876 2912
+type(
+  B.builtin
+)
+"m_standard.ml" 122 2876 2884 "m_standard.ml" 122 2876 2912
+type(
+  M_t.modunit
+)
+"m_standard.ml" 123 2915 2923 "m_standard.ml" 123 2915 2928
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 123 2915 2931 "m_standard.ml" 123 2915 2937
+type(
+  string
+)
+"m_standard.ml" 123 2915 2943 "m_standard.ml" 123 2915 2949
+type(
+  B.builtin
+)
+"m_standard.ml" 123 2915 2923 "m_standard.ml" 123 2915 2949
+type(
+  M_t.modunit
+)
+"m_standard.ml" 124 2952 2960 "m_standard.ml" 124 2952 2965
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 124 2952 2968 "m_standard.ml" 124 2952 2974
+type(
+  string
+)
+"m_standard.ml" 124 2952 2980 "m_standard.ml" 124 2952 2986
+type(
+  B.builtin
+)
+"m_standard.ml" 124 2952 2960 "m_standard.ml" 124 2952 2986
+type(
+  M_t.modunit
+)
+"m_standard.ml" 125 2989 2997 "m_standard.ml" 125 2989 3004
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref ternary "m_standard.ml" 45 1019 1023 "m_standard.ml" 45 1019 1030
+)
+"m_standard.ml" 125 2989 3005 "m_standard.ml" 125 2989 3013
+type(
+  string
+)
+"m_standard.ml" 125 2989 3017 "m_standard.ml" 125 2989 3025
+type(
+  B.builtin
+)
+"m_standard.ml" 125 2989 2997 "m_standard.ml" 125 2989 3025
+type(
+  M_t.modunit
+)
+"m_standard.ml" 126 3028 3036 "m_standard.ml" 126 3028 3042
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 126 3028 3044 "m_standard.ml" 126 3028 3055
+type(
+  string
+)
+"m_standard.ml" 126 3028 3056 "m_standard.ml" 126 3028 3067
+type(
+  B.builtin
+)
+"m_standard.ml" 126 3028 3036 "m_standard.ml" 126 3028 3067
+type(
+  M_t.modunit
+)
+"m_standard.ml" 117 2716 2729 "m_standard.ml" 127 3068 3075
+type(
+  M_t.modunit list
+)
+"m_standard.ml" 128 3078 3092 "m_standard.ml" 128 3078 3099
+type(
+  M_t.stage
+)
+"m_standard.ml" 111 2579 2587 "m_standard.ml" 129 3102 3107
+type(
+  M_t.mule_
+)
+"m_standard.ml" 110 2517 2573 "m_standard.ml" 130 3108 3113
+type(
+  M_t.mule
+)
+"m_standard.ml" 110 2517 2535 "m_standard.ml" 130 3108 3113
+type(
+  M_t.modctx * M_t.mule * M_t.summary
+)
+"m_standard.ml" 131 3117 3119 "m_standard.ml" 131 3117 3120
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_standard.ml" 110 2517 2527 "m_standard.ml" 110 2517 2528
+)
+"m_standard.ml" 110 2517 2519 "m_standard.ml" 131 3117 3120
+type(
+  M_t.mule
+)
+"m_standard.ml" 133 3122 3126 "m_standard.ml" 133 3122 3129
+type(
+  M_t.mule
+)
+ident(
+  def tlc "m_standard.ml" 161 3967 3967 "m_standard.ml" 0 0 -1
+)
+"m_standard.ml" 134 3132 3139 "m_standard.ml" 134 3132 3140
+type(
+  M_t.modctx
+)
+"m_standard.ml" 134 3132 3142 "m_standard.ml" 134 3132 3143
+type(
+  M_t.mule
+)
+ident(
+  def m "m_standard.ml" 159 3962 3964 "m_standard.ml" 159 3962 3965
+)
+"m_standard.ml" 134 3132 3145 "m_standard.ml" 134 3132 3146
+type(
+  M_t.summary
+)
+"m_standard.ml" 134 3132 3138 "m_standard.ml" 134 3132 3147
+type(
+  M_t.modctx * M_t.mule * M_t.summary
+)
+"m_standard.ml" 134 3132 3150 "m_standard.ml" 134 3132 3166
+type(
+  M_t.modctx -> Expr.T.ctx -> M_t.mule -> M_t.modctx * M_t.mule * M_t.summary
+)
+ident(
+  int_ref M_elab.normalize "m_elab.mli" 14 168 168 "m_elab.mli" 16 219 250
+)
+"m_standard.ml" 134 3132 3167 "m_standard.ml" 134 3132 3175
+type(
+  M_t.modctx
+)
+ident(
+  int_ref Util.Coll.Sm.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"m_standard.ml" 134 3132 3176 "m_standard.ml" 134 3132 3187
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"m_standard.ml" 135 3194 3198 "m_standard.ml" 135 3194 3201
+type(
+  M_t.mule_ -> M_t.mule
+)
+ident(
+  int_ref stm "m_standard.ml" 21 275 279 "m_standard.ml" 21 275 282
+)
+"m_standard.ml" 136 3204 3217 "m_standard.ml" 136 3204 3222
+type(
+  string
+)
+"m_standard.ml" 136 3204 3223 "m_standard.ml" 136 3204 3225
+type(
+  string -> unit Property.wrapped -> Util.hint
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_standard.ml" 136 3204 3226 "m_standard.ml" 136 3204 3228
+type(
+  unit Property.wrapped
+)
+ident(
+  int_ref st "m_standard.ml" 22 307 311 "m_standard.ml" 22 307 313
+)
+"m_standard.ml" 136 3204 3217 "m_standard.ml" 136 3204 3228
+type(
+  Util.hint
+)
+"m_standard.ml" 137 3231 3249 "m_standard.ml" 137 3231 3251
+type(
+  Util.hints
+)
+"m_standard.ml" 138 3254 3273 "m_standard.ml" 138 3254 3275
+type(
+  Util.hints
+)
+"m_standard.ml" 139 3278 3295 "m_standard.ml" 139 3278 3296
+type(
+  int
+)
+"m_standard.ml" 140 3299 3317 "m_standard.ml" 140 3299 3322
+type(
+  bool
+)
+"m_standard.ml" 142 3340 3348 "m_standard.ml" 142 3340 3354
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 142 3340 3356 "m_standard.ml" 142 3340 3363
+type(
+  string
+)
+"m_standard.ml" 142 3340 3372 "m_standard.ml" 142 3340 3379
+type(
+  B.builtin
+)
+"m_standard.ml" 142 3340 3348 "m_standard.ml" 142 3340 3379
+type(
+  M_t.modunit
+)
+"m_standard.ml" 143 3382 3390 "m_standard.ml" 143 3382 3395
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 143 3382 3398 "m_standard.ml" 143 3382 3406
+type(
+  string
+)
+"m_standard.ml" 143 3382 3414 "m_standard.ml" 143 3382 3422
+type(
+  B.builtin
+)
+"m_standard.ml" 143 3382 3390 "m_standard.ml" 143 3382 3422
+type(
+  M_t.modunit
+)
+"m_standard.ml" 144 3425 3433 "m_standard.ml" 144 3425 3439
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 144 3425 3441 "m_standard.ml" 144 3425 3449
+type(
+  string
+)
+"m_standard.ml" 144 3425 3457 "m_standard.ml" 144 3425 3465
+type(
+  B.builtin
+)
+"m_standard.ml" 144 3425 3433 "m_standard.ml" 144 3425 3465
+type(
+  M_t.modunit
+)
+"m_standard.ml" 145 3468 3476 "m_standard.ml" 145 3468 3483
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref nullary "m_standard.ml" 24 324 328 "m_standard.ml" 24 324 335
+)
+"m_standard.ml" 145 3468 3484 "m_standard.ml" 145 3468 3494
+type(
+  string
+)
+"m_standard.ml" 145 3468 3500 "m_standard.ml" 145 3468 3510
+type(
+  B.builtin
+)
+"m_standard.ml" 145 3468 3476 "m_standard.ml" 145 3468 3510
+type(
+  M_t.modunit
+)
+"m_standard.ml" 146 3513 3521 "m_standard.ml" 146 3513 3526
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 146 3513 3529 "m_standard.ml" 146 3513 3537
+type(
+  string
+)
+"m_standard.ml" 146 3513 3545 "m_standard.ml" 146 3513 3553
+type(
+  B.builtin
+)
+"m_standard.ml" 146 3513 3521 "m_standard.ml" 146 3513 3553
+type(
+  M_t.modunit
+)
+"m_standard.ml" 147 3556 3564 "m_standard.ml" 147 3556 3570
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 147 3556 3572 "m_standard.ml" 147 3556 3580
+type(
+  string
+)
+"m_standard.ml" 147 3556 3588 "m_standard.ml" 147 3556 3596
+type(
+  B.builtin
+)
+"m_standard.ml" 147 3556 3564 "m_standard.ml" 147 3556 3596
+type(
+  M_t.modunit
+)
+"m_standard.ml" 148 3599 3607 "m_standard.ml" 148 3599 3613
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 148 3599 3615 "m_standard.ml" 148 3599 3619
+type(
+  string
+)
+"m_standard.ml" 148 3599 3631 "m_standard.ml" 148 3599 3639
+type(
+  B.builtin
+)
+"m_standard.ml" 148 3599 3607 "m_standard.ml" 148 3599 3639
+type(
+  M_t.modunit
+)
+"m_standard.ml" 149 3642 3650 "m_standard.ml" 149 3642 3656
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 149 3642 3658 "m_standard.ml" 149 3642 3662
+type(
+  string
+)
+"m_standard.ml" 149 3642 3674 "m_standard.ml" 149 3642 3682
+type(
+  B.builtin
+)
+"m_standard.ml" 149 3642 3650 "m_standard.ml" 149 3642 3682
+type(
+  M_t.modunit
+)
+"m_standard.ml" 150 3685 3693 "m_standard.ml" 150 3685 3698
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 150 3685 3701 "m_standard.ml" 150 3685 3715
+type(
+  string
+)
+"m_standard.ml" 150 3685 3717 "m_standard.ml" 150 3685 3731
+type(
+  B.builtin
+)
+"m_standard.ml" 150 3685 3693 "m_standard.ml" 150 3685 3731
+type(
+  M_t.modunit
+)
+"m_standard.ml" 151 3734 3742 "m_standard.ml" 151 3734 3748
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 151 3734 3750 "m_standard.ml" 151 3734 3759
+type(
+  string
+)
+"m_standard.ml" 151 3734 3766 "m_standard.ml" 151 3734 3775
+type(
+  B.builtin
+)
+"m_standard.ml" 151 3734 3742 "m_standard.ml" 151 3734 3775
+type(
+  M_t.modunit
+)
+"m_standard.ml" 152 3778 3786 "m_standard.ml" 152 3778 3791
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 152 3778 3794 "m_standard.ml" 152 3778 3809
+type(
+  string
+)
+"m_standard.ml" 152 3778 3810 "m_standard.ml" 152 3778 3825
+type(
+  B.builtin
+)
+"m_standard.ml" 152 3778 3786 "m_standard.ml" 152 3778 3825
+type(
+  M_t.modunit
+)
+"m_standard.ml" 153 3828 3836 "m_standard.ml" 153 3828 3843
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref nullary "m_standard.ml" 24 324 328 "m_standard.ml" 24 324 335
+)
+"m_standard.ml" 153 3828 3844 "m_standard.ml" 153 3828 3849
+type(
+  string
+)
+"m_standard.ml" 153 3828 3860 "m_standard.ml" 153 3828 3865
+type(
+  B.builtin
+)
+"m_standard.ml" 153 3828 3836 "m_standard.ml" 153 3828 3865
+type(
+  M_t.modunit
+)
+"m_standard.ml" 154 3868 3876 "m_standard.ml" 154 3868 3881
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 154 3868 3884 "m_standard.ml" 154 3868 3894
+type(
+  string
+)
+"m_standard.ml" 154 3868 3900 "m_standard.ml" 154 3868 3910
+type(
+  B.builtin
+)
+"m_standard.ml" 154 3868 3876 "m_standard.ml" 154 3868 3910
+type(
+  M_t.modunit
+)
+"m_standard.ml" 141 3325 3338 "m_standard.ml" 155 3913 3920
+type(
+  M_t.modunit list
+)
+"m_standard.ml" 156 3923 3937 "m_standard.ml" 156 3923 3944
+type(
+  M_t.stage
+)
+"m_standard.ml" 135 3194 3202 "m_standard.ml" 157 3947 3952
+type(
+  M_t.mule_
+)
+"m_standard.ml" 134 3132 3188 "m_standard.ml" 158 3953 3958
+type(
+  M_t.mule
+)
+"m_standard.ml" 134 3132 3150 "m_standard.ml" 158 3953 3958
+type(
+  M_t.modctx * M_t.mule * M_t.summary
+)
+"m_standard.ml" 159 3962 3964 "m_standard.ml" 159 3962 3965
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_standard.ml" 134 3132 3142 "m_standard.ml" 134 3132 3143
+)
+"m_standard.ml" 134 3132 3134 "m_standard.ml" 159 3962 3965
+type(
+  M_t.mule
+)
+"m_standard.ml" 161 3967 3971 "m_standard.ml" 161 3967 3976
+type(
+  M_t.mule
+)
+ident(
+  def tlapm "m_standard.ml" 250 7920 7920 "m_standard.ml" 0 0 -1
+)
+"m_standard.ml" 162 3979 3986 "m_standard.ml" 162 3979 3987
+type(
+  M_t.modctx
+)
+"m_standard.ml" 162 3979 3989 "m_standard.ml" 162 3979 3990
+type(
+  M_t.mule
+)
+ident(
+  def m "m_standard.ml" 247 7821 7823 "m_standard.ml" 247 7821 7824
+)
+"m_standard.ml" 162 3979 3992 "m_standard.ml" 162 3979 3993
+type(
+  M_t.summary
+)
+"m_standard.ml" 162 3979 3985 "m_standard.ml" 162 3979 3994
+type(
+  M_t.modctx * M_t.mule * M_t.summary
+)
+"m_standard.ml" 162 3979 3997 "m_standard.ml" 162 3979 4013
+type(
+  M_t.modctx -> Expr.T.ctx -> M_t.mule -> M_t.modctx * M_t.mule * M_t.summary
+)
+ident(
+  int_ref M_elab.normalize "m_elab.mli" 14 168 168 "m_elab.mli" 16 219 250
+)
+"m_standard.ml" 162 3979 4014 "m_standard.ml" 162 3979 4022
+type(
+  M_t.modctx
+)
+ident(
+  int_ref Util.Coll.Sm.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"m_standard.ml" 162 3979 4023 "m_standard.ml" 162 3979 4034
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"m_standard.ml" 163 4041 4045 "m_standard.ml" 163 4041 4048
+type(
+  M_t.mule_ -> M_t.mule
+)
+ident(
+  int_ref stm "m_standard.ml" 21 275 279 "m_standard.ml" 21 275 282
+)
+"m_standard.ml" 164 4051 4064 "m_standard.ml" 164 4051 4072
+type(
+  string
+)
+"m_standard.ml" 164 4051 4073 "m_standard.ml" 164 4051 4075
+type(
+  string -> unit Property.wrapped -> Util.hint
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"m_standard.ml" 164 4051 4076 "m_standard.ml" 164 4051 4078
+type(
+  unit Property.wrapped
+)
+ident(
+  int_ref st "m_standard.ml" 22 307 311 "m_standard.ml" 22 307 313
+)
+"m_standard.ml" 164 4051 4064 "m_standard.ml" 164 4051 4078
+type(
+  Util.hint
+)
+"m_standard.ml" 165 4081 4099 "m_standard.ml" 165 4081 4101
+type(
+  Util.hints
+)
+"m_standard.ml" 166 4104 4123 "m_standard.ml" 166 4104 4125
+type(
+  Util.hints
+)
+"m_standard.ml" 167 4128 4145 "m_standard.ml" 167 4128 4146
+type(
+  int
+)
+"m_standard.ml" 168 4149 4167 "m_standard.ml" 168 4149 4172
+type(
+  bool
+)
+"m_standard.ml" 171 4210 4218 "m_standard.ml" 171 4210 4225
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref nullary "m_standard.ml" 24 324 328 "m_standard.ml" 24 324 335
+)
+"m_standard.ml" 171 4210 4226 "m_standard.ml" 171 4210 4241
+type(
+  string
+)
+"m_standard.ml" 171 4210 4251 "m_standard.ml" 171 4210 4257
+type(
+  B.builtin
+)
+"m_standard.ml" 171 4210 4218 "m_standard.ml" 171 4210 4257
+type(
+  M_t.modunit
+)
+"m_standard.ml" 172 4260 4268 "m_standard.ml" 172 4260 4275
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref nullary "m_standard.ml" 24 324 328 "m_standard.ml" 24 324 335
+)
+"m_standard.ml" 172 4260 4276 "m_standard.ml" 172 4260 4292
+type(
+  string
+)
+"m_standard.ml" 172 4260 4301 "m_standard.ml" 172 4260 4308
+type(
+  B.builtin
+)
+"m_standard.ml" 172 4260 4268 "m_standard.ml" 172 4260 4308
+type(
+  M_t.modunit
+)
+"m_standard.ml" 173 4311 4319 "m_standard.ml" 173 4311 4325
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 173 4311 4327 "m_standard.ml" 173 4311 4345
+type(
+  string
+)
+"m_standard.ml" 173 4311 4352 "m_standard.ml" 173 4311 4361
+type(
+  B.builtin
+)
+"m_standard.ml" 173 4311 4319 "m_standard.ml" 173 4311 4361
+type(
+  M_t.modunit
+)
+"m_standard.ml" 174 4364 4372 "m_standard.ml" 174 4364 4378
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 174 4364 4380 "m_standard.ml" 174 4364 4396
+type(
+  string
+)
+"m_standard.ml" 174 4364 4405 "m_standard.ml" 174 4364 4412
+type(
+  B.builtin
+)
+"m_standard.ml" 174 4364 4372 "m_standard.ml" 174 4364 4412
+type(
+  M_t.modunit
+)
+"m_standard.ml" 175 4415 4423 "m_standard.ml" 175 4415 4429
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 175 4415 4431 "m_standard.ml" 175 4415 4446
+type(
+  string
+)
+"m_standard.ml" 175 4415 4456 "m_standard.ml" 175 4415 4462
+type(
+  B.builtin
+)
+"m_standard.ml" 175 4415 4423 "m_standard.ml" 175 4415 4462
+type(
+  M_t.modunit
+)
+"m_standard.ml" 176 4465 4473 "m_standard.ml" 176 4465 4479
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 176 4465 4481 "m_standard.ml" 176 4465 4496
+type(
+  string
+)
+"m_standard.ml" 176 4465 4506 "m_standard.ml" 176 4465 4512
+type(
+  B.builtin
+)
+"m_standard.ml" 176 4465 4473 "m_standard.ml" 176 4465 4512
+type(
+  M_t.modunit
+)
+"m_standard.ml" 177 4515 4523 "m_standard.ml" 177 4515 4528
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 177 4515 4531 "m_standard.ml" 177 4515 4545
+type(
+  string
+)
+"m_standard.ml" 177 4515 4556 "m_standard.ml" 177 4515 4561
+type(
+  B.builtin
+)
+"m_standard.ml" 177 4515 4523 "m_standard.ml" 177 4515 4561
+type(
+  M_t.modunit
+)
+"m_standard.ml" 178 4564 4572 "m_standard.ml" 178 4564 4578
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 178 4564 4580 "m_standard.ml" 178 4564 4593
+type(
+  string
+)
+"m_standard.ml" 178 4564 4605 "m_standard.ml" 178 4564 4609
+type(
+  B.builtin
+)
+"m_standard.ml" 178 4564 4572 "m_standard.ml" 178 4564 4609
+type(
+  M_t.modunit
+)
+"m_standard.ml" 179 4612 4620 "m_standard.ml" 179 4612 4626
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 179 4612 4628 "m_standard.ml" 179 4612 4642
+type(
+  string
+)
+"m_standard.ml" 179 4612 4653 "m_standard.ml" 179 4612 4658
+type(
+  B.builtin
+)
+"m_standard.ml" 179 4612 4620 "m_standard.ml" 179 4612 4658
+type(
+  M_t.modunit
+)
+"m_standard.ml" 181 4686 4694 "m_standard.ml" 181 4686 4701
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref nullary "m_standard.ml" 24 324 328 "m_standard.ml" 24 324 335
+)
+"m_standard.ml" 181 4686 4702 "m_standard.ml" 181 4686 4719
+type(
+  string
+)
+"m_standard.ml" 181 4686 4727 "m_standard.ml" 181 4686 4735
+type(
+  B.builtin
+)
+"m_standard.ml" 181 4686 4694 "m_standard.ml" 181 4686 4735
+type(
+  M_t.modunit
+)
+"m_standard.ml" 182 4738 4746 "m_standard.ml" 182 4738 4753
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref nullary "m_standard.ml" 24 324 328 "m_standard.ml" 24 324 335
+)
+"m_standard.ml" 182 4738 4754 "m_standard.ml" 182 4738 4772
+type(
+  string
+)
+"m_standard.ml" 182 4738 4779 "m_standard.ml" 182 4738 4788
+type(
+  B.builtin
+)
+"m_standard.ml" 182 4738 4746 "m_standard.ml" 182 4738 4788
+type(
+  M_t.modunit
+)
+"m_standard.ml" 183 4791 4799 "m_standard.ml" 183 4791 4804
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 183 4791 4807 "m_standard.ml" 183 4791 4824
+type(
+  string
+)
+"m_standard.ml" 183 4791 4832 "m_standard.ml" 183 4791 4840
+type(
+  B.builtin
+)
+"m_standard.ml" 183 4791 4799 "m_standard.ml" 183 4791 4840
+type(
+  M_t.modunit
+)
+"m_standard.ml" 184 4843 4851 "m_standard.ml" 184 4843 4856
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 184 4843 4859 "m_standard.ml" 184 4843 4875
+type(
+  string
+)
+"m_standard.ml" 184 4843 4884 "m_standard.ml" 184 4843 4891
+type(
+  B.builtin
+)
+"m_standard.ml" 184 4843 4851 "m_standard.ml" 184 4843 4891
+type(
+  M_t.modunit
+)
+"m_standard.ml" 185 4894 4902 "m_standard.ml" 185 4894 4907
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 185 4894 4910 "m_standard.ml" 185 4894 4927
+type(
+  string
+)
+"m_standard.ml" 185 4894 4935 "m_standard.ml" 185 4894 4943
+type(
+  B.builtin
+)
+"m_standard.ml" 185 4894 4902 "m_standard.ml" 185 4894 4943
+type(
+  M_t.modunit
+)
+"m_standard.ml" 186 4946 4954 "m_standard.ml" 186 4946 4960
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 186 4946 4962 "m_standard.ml" 186 4946 4981
+type(
+  string
+)
+"m_standard.ml" 186 4946 4987 "m_standard.ml" 186 4946 4997
+type(
+  B.builtin
+)
+"m_standard.ml" 186 4946 4954 "m_standard.ml" 186 4946 4997
+type(
+  M_t.modunit
+)
+"m_standard.ml" 187 5000 5008 "m_standard.ml" 187 5000 5014
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 187 5000 5016 "m_standard.ml" 187 5000 5030
+type(
+  string
+)
+"m_standard.ml" 187 5000 5041 "m_standard.ml" 187 5000 5046
+type(
+  B.builtin
+)
+"m_standard.ml" 187 5000 5008 "m_standard.ml" 187 5000 5046
+type(
+  M_t.modunit
+)
+"m_standard.ml" 188 5049 5057 "m_standard.ml" 188 5049 5063
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 188 5049 5065 "m_standard.ml" 188 5049 5082
+type(
+  string
+)
+"m_standard.ml" 188 5049 5090 "m_standard.ml" 188 5049 5098
+type(
+  B.builtin
+)
+"m_standard.ml" 188 5049 5057 "m_standard.ml" 188 5049 5098
+type(
+  M_t.modunit
+)
+"m_standard.ml" 189 5101 5109 "m_standard.ml" 189 5101 5115
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 189 5101 5117 "m_standard.ml" 189 5101 5136
+type(
+  string
+)
+"m_standard.ml" 189 5101 5142 "m_standard.ml" 189 5101 5152
+type(
+  B.builtin
+)
+"m_standard.ml" 189 5101 5109 "m_standard.ml" 189 5101 5152
+type(
+  M_t.modunit
+)
+"m_standard.ml" 190 5155 5163 "m_standard.ml" 190 5155 5169
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 190 5155 5171 "m_standard.ml" 190 5155 5185
+type(
+  string
+)
+"m_standard.ml" 190 5155 5196 "m_standard.ml" 190 5155 5201
+type(
+  B.builtin
+)
+"m_standard.ml" 190 5155 5163 "m_standard.ml" 190 5155 5201
+type(
+  M_t.modunit
+)
+"m_standard.ml" 191 5204 5212 "m_standard.ml" 191 5204 5218
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 191 5204 5220 "m_standard.ml" 191 5204 5234
+type(
+  string
+)
+"m_standard.ml" 191 5204 5245 "m_standard.ml" 191 5204 5250
+type(
+  B.builtin
+)
+"m_standard.ml" 191 5204 5212 "m_standard.ml" 191 5204 5250
+type(
+  M_t.modunit
+)
+"m_standard.ml" 193 5273 5281 "m_standard.ml" 193 5273 5286
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 193 5273 5289 "m_standard.ml" 193 5273 5305
+type(
+  string
+)
+"m_standard.ml" 193 5273 5314 "m_standard.ml" 193 5273 5321
+type(
+  B.builtin
+)
+"m_standard.ml" 193 5273 5281 "m_standard.ml" 193 5273 5321
+type(
+  M_t.modunit
+)
+"m_standard.ml" 194 5324 5332 "m_standard.ml" 194 5324 5338
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 194 5324 5340 "m_standard.ml" 194 5324 5358
+type(
+  string
+)
+"m_standard.ml" 194 5324 5365 "m_standard.ml" 194 5324 5374
+type(
+  B.builtin
+)
+"m_standard.ml" 194 5324 5332 "m_standard.ml" 194 5324 5374
+type(
+  M_t.modunit
+)
+"m_standard.ml" 195 5377 5385 "m_standard.ml" 195 5377 5390
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 195 5377 5393 "m_standard.ml" 195 5377 5411
+type(
+  string
+)
+"m_standard.ml" 195 5377 5418 "m_standard.ml" 195 5377 5427
+type(
+  B.builtin
+)
+"m_standard.ml" 195 5377 5385 "m_standard.ml" 195 5377 5427
+type(
+  M_t.modunit
+)
+"m_standard.ml" 196 5430 5438 "m_standard.ml" 196 5430 5443
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 196 5430 5446 "m_standard.ml" 196 5430 5466
+type(
+  string
+)
+"m_standard.ml" 196 5430 5471 "m_standard.ml" 196 5430 5482
+type(
+  B.builtin
+)
+"m_standard.ml" 196 5430 5438 "m_standard.ml" 196 5430 5482
+type(
+  M_t.modunit
+)
+"m_standard.ml" 197 5485 5493 "m_standard.ml" 197 5485 5499
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 197 5485 5501 "m_standard.ml" 197 5485 5516
+type(
+  string
+)
+"m_standard.ml" 197 5485 5526 "m_standard.ml" 197 5485 5532
+type(
+  B.builtin
+)
+"m_standard.ml" 197 5485 5493 "m_standard.ml" 197 5485 5532
+type(
+  M_t.modunit
+)
+"m_standard.ml" 198 5535 5543 "m_standard.ml" 198 5535 5549
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 198 5535 5551 "m_standard.ml" 198 5535 5569
+type(
+  string
+)
+"m_standard.ml" 198 5535 5576 "m_standard.ml" 198 5535 5585
+type(
+  B.builtin
+)
+"m_standard.ml" 198 5535 5543 "m_standard.ml" 198 5535 5585
+type(
+  M_t.modunit
+)
+"m_standard.ml" 199 5588 5596 "m_standard.ml" 199 5588 5601
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 199 5588 5604 "m_standard.ml" 199 5588 5618
+type(
+  string
+)
+"m_standard.ml" 199 5588 5636 "m_standard.ml" 199 5588 5640
+type(
+  bool
+)
+"m_standard.ml" 199 5588 5629 "m_standard.ml" 199 5588 5641
+type(
+  B.builtin
+)
+"m_standard.ml" 199 5588 5596 "m_standard.ml" 199 5588 5641
+type(
+  M_t.modunit
+)
+"m_standard.ml" 200 5644 5652 "m_standard.ml" 200 5644 5657
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 200 5644 5660 "m_standard.ml" 200 5644 5678
+type(
+  string
+)
+"m_standard.ml" 200 5644 5685 "m_standard.ml" 200 5644 5694
+type(
+  B.builtin
+)
+"m_standard.ml" 200 5644 5652 "m_standard.ml" 200 5644 5694
+type(
+  M_t.modunit
+)
+"m_standard.ml" 202 5722 5730 "m_standard.ml" 202 5722 5737
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref nullary "m_standard.ml" 24 324 328 "m_standard.ml" 24 324 335
+)
+"m_standard.ml" 202 5722 5738 "m_standard.ml" 202 5722 5752
+type(
+  string
+)
+"m_standard.ml" 202 5722 5763 "m_standard.ml" 202 5722 5768
+type(
+  B.builtin
+)
+"m_standard.ml" 202 5722 5730 "m_standard.ml" 202 5722 5768
+type(
+  M_t.modunit
+)
+"m_standard.ml" 203 5771 5779 "m_standard.ml" 203 5771 5786
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref nullary "m_standard.ml" 24 324 328 "m_standard.ml" 24 324 335
+)
+"m_standard.ml" 203 5771 5787 "m_standard.ml" 203 5771 5801
+type(
+  string
+)
+"m_standard.ml" 203 5771 5812 "m_standard.ml" 203 5771 5817
+type(
+  B.builtin
+)
+"m_standard.ml" 203 5771 5779 "m_standard.ml" 203 5771 5817
+type(
+  M_t.modunit
+)
+"m_standard.ml" 204 5820 5828 "m_standard.ml" 204 5820 5835
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref nullary "m_standard.ml" 24 324 328 "m_standard.ml" 24 324 335
+)
+"m_standard.ml" 204 5820 5836 "m_standard.ml" 204 5820 5851
+type(
+  string
+)
+"m_standard.ml" 204 5820 5861 "m_standard.ml" 204 5820 5867
+type(
+  B.builtin
+)
+"m_standard.ml" 204 5820 5828 "m_standard.ml" 204 5820 5867
+type(
+  M_t.modunit
+)
+"m_standard.ml" 205 5870 5878 "m_standard.ml" 205 5870 5884
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 205 5870 5886 "m_standard.ml" 205 5870 5901
+type(
+  string
+)
+"m_standard.ml" 205 5870 5911 "m_standard.ml" 205 5870 5917
+type(
+  B.builtin
+)
+"m_standard.ml" 205 5870 5878 "m_standard.ml" 205 5870 5917
+type(
+  M_t.modunit
+)
+"m_standard.ml" 206 5920 5928 "m_standard.ml" 206 5920 5934
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 206 5920 5936 "m_standard.ml" 206 5920 5952
+type(
+  string
+)
+"m_standard.ml" 206 5920 5961 "m_standard.ml" 206 5920 5968
+type(
+  B.builtin
+)
+"m_standard.ml" 206 5920 5928 "m_standard.ml" 206 5920 5968
+type(
+  M_t.modunit
+)
+"m_standard.ml" 207 5971 5979 "m_standard.ml" 207 5971 5984
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 207 5971 5987 "m_standard.ml" 207 5971 6004
+type(
+  string
+)
+"m_standard.ml" 207 5971 6012 "m_standard.ml" 207 5971 6020
+type(
+  B.builtin
+)
+"m_standard.ml" 207 5971 5979 "m_standard.ml" 207 5971 6020
+type(
+  M_t.modunit
+)
+"m_standard.ml" 208 6023 6031 "m_standard.ml" 208 6023 6037
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 208 6023 6039 "m_standard.ml" 208 6023 6055
+type(
+  string
+)
+"m_standard.ml" 208 6023 6064 "m_standard.ml" 208 6023 6071
+type(
+  B.builtin
+)
+"m_standard.ml" 208 6023 6031 "m_standard.ml" 208 6023 6071
+type(
+  M_t.modunit
+)
+"m_standard.ml" 209 6074 6082 "m_standard.ml" 209 6074 6088
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 209 6074 6090 "m_standard.ml" 209 6074 6106
+type(
+  string
+)
+"m_standard.ml" 209 6074 6115 "m_standard.ml" 209 6074 6122
+type(
+  B.builtin
+)
+"m_standard.ml" 209 6074 6082 "m_standard.ml" 209 6074 6122
+type(
+  M_t.modunit
+)
+"m_standard.ml" 210 6125 6133 "m_standard.ml" 210 6125 6139
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 210 6125 6141 "m_standard.ml" 210 6125 6160
+type(
+  string
+)
+"m_standard.ml" 210 6125 6166 "m_standard.ml" 210 6125 6176
+type(
+  B.builtin
+)
+"m_standard.ml" 210 6125 6133 "m_standard.ml" 210 6125 6176
+type(
+  M_t.modunit
+)
+"m_standard.ml" 211 6179 6187 "m_standard.ml" 211 6179 6193
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 211 6179 6195 "m_standard.ml" 211 6179 6215
+type(
+  string
+)
+"m_standard.ml" 211 6179 6220 "m_standard.ml" 211 6179 6231
+type(
+  B.builtin
+)
+"m_standard.ml" 211 6179 6187 "m_standard.ml" 211 6179 6231
+type(
+  M_t.modunit
+)
+"m_standard.ml" 212 6234 6242 "m_standard.ml" 212 6234 6248
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 212 6234 6250 "m_standard.ml" 212 6234 6264
+type(
+  string
+)
+"m_standard.ml" 212 6234 6275 "m_standard.ml" 212 6234 6280
+type(
+  B.builtin
+)
+"m_standard.ml" 212 6234 6242 "m_standard.ml" 212 6234 6280
+type(
+  M_t.modunit
+)
+"m_standard.ml" 213 6283 6291 "m_standard.ml" 213 6283 6298
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref nullary "m_standard.ml" 24 324 328 "m_standard.ml" 24 324 335
+)
+"m_standard.ml" 213 6283 6299 "m_standard.ml" 213 6283 6318
+type(
+  string
+)
+"m_standard.ml" 213 6283 6324 "m_standard.ml" 213 6283 6334
+type(
+  B.builtin
+)
+"m_standard.ml" 213 6283 6291 "m_standard.ml" 213 6283 6334
+type(
+  M_t.modunit
+)
+"m_standard.ml" 214 6337 6345 "m_standard.ml" 214 6337 6351
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 214 6337 6353 "m_standard.ml" 214 6337 6368
+type(
+  string
+)
+"m_standard.ml" 214 6337 6378 "m_standard.ml" 214 6337 6384
+type(
+  B.builtin
+)
+"m_standard.ml" 214 6337 6345 "m_standard.ml" 214 6337 6384
+type(
+  M_t.modunit
+)
+"m_standard.ml" 215 6387 6395 "m_standard.ml" 215 6387 6401
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 215 6387 6403 "m_standard.ml" 215 6387 6416
+type(
+  string
+)
+"m_standard.ml" 215 6387 6428 "m_standard.ml" 215 6387 6432
+type(
+  B.builtin
+)
+"m_standard.ml" 215 6387 6395 "m_standard.ml" 215 6387 6432
+type(
+  M_t.modunit
+)
+"m_standard.ml" 216 6435 6443 "m_standard.ml" 216 6435 6449
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 216 6435 6451 "m_standard.ml" 216 6435 6466
+type(
+  string
+)
+"m_standard.ml" 216 6435 6476 "m_standard.ml" 216 6435 6482
+type(
+  B.builtin
+)
+"m_standard.ml" 216 6435 6443 "m_standard.ml" 216 6435 6482
+type(
+  M_t.modunit
+)
+"m_standard.ml" 217 6485 6493 "m_standard.ml" 217 6485 6499
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 217 6485 6501 "m_standard.ml" 217 6485 6514
+type(
+  string
+)
+"m_standard.ml" 217 6485 6526 "m_standard.ml" 217 6485 6530
+type(
+  B.builtin
+)
+"m_standard.ml" 217 6485 6493 "m_standard.ml" 217 6485 6530
+type(
+  M_t.modunit
+)
+"m_standard.ml" 218 6533 6541 "m_standard.ml" 218 6533 6547
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 218 6533 6549 "m_standard.ml" 218 6533 6565
+type(
+  string
+)
+"m_standard.ml" 218 6533 6574 "m_standard.ml" 218 6533 6581
+type(
+  B.builtin
+)
+"m_standard.ml" 218 6533 6541 "m_standard.ml" 218 6533 6581
+type(
+  M_t.modunit
+)
+"m_standard.ml" 220 6608 6616 "m_standard.ml" 220 6608 6621
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 220 6608 6624 "m_standard.ml" 220 6608 6638
+type(
+  string
+)
+"m_standard.ml" 220 6608 6649 "m_standard.ml" 220 6608 6654
+type(
+  B.builtin
+)
+"m_standard.ml" 220 6608 6616 "m_standard.ml" 220 6608 6654
+type(
+  M_t.modunit
+)
+"m_standard.ml" 221 6657 6665 "m_standard.ml" 221 6657 6670
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 221 6657 6673 "m_standard.ml" 221 6657 6687
+type(
+  string
+)
+"m_standard.ml" 221 6657 6698 "m_standard.ml" 221 6657 6703
+type(
+  B.builtin
+)
+"m_standard.ml" 221 6657 6665 "m_standard.ml" 221 6657 6703
+type(
+  M_t.modunit
+)
+"m_standard.ml" 222 6706 6714 "m_standard.ml" 222 6706 6720
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 222 6706 6722 "m_standard.ml" 222 6706 6740
+type(
+  string
+)
+"m_standard.ml" 222 6706 6747 "m_standard.ml" 222 6706 6753
+type(
+  B.builtin
+)
+"m_standard.ml" 222 6706 6714 "m_standard.ml" 222 6706 6753
+type(
+  M_t.modunit
+)
+"m_standard.ml" 223 6756 6764 "m_standard.ml" 223 6756 6770
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 223 6756 6772 "m_standard.ml" 223 6756 6786
+type(
+  string
+)
+"m_standard.ml" 223 6756 6797 "m_standard.ml" 223 6756 6802
+type(
+  B.builtin
+)
+"m_standard.ml" 223 6756 6764 "m_standard.ml" 223 6756 6802
+type(
+  M_t.modunit
+)
+"m_standard.ml" 224 6805 6813 "m_standard.ml" 224 6805 6819
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 224 6805 6821 "m_standard.ml" 224 6805 6838
+type(
+  string
+)
+"m_standard.ml" 224 6805 6846 "m_standard.ml" 224 6805 6854
+type(
+  B.builtin
+)
+"m_standard.ml" 224 6805 6813 "m_standard.ml" 224 6805 6854
+type(
+  M_t.modunit
+)
+"m_standard.ml" 225 6857 6865 "m_standard.ml" 225 6857 6870
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 225 6857 6873 "m_standard.ml" 225 6857 6888
+type(
+  string
+)
+"m_standard.ml" 225 6857 6898 "m_standard.ml" 225 6857 6904
+type(
+  B.builtin
+)
+"m_standard.ml" 225 6857 6865 "m_standard.ml" 225 6857 6904
+type(
+  M_t.modunit
+)
+"m_standard.ml" 226 6907 6915 "m_standard.ml" 226 6907 6920
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 226 6907 6923 "m_standard.ml" 226 6907 6938
+type(
+  string
+)
+"m_standard.ml" 226 6907 6948 "m_standard.ml" 226 6907 6954
+type(
+  B.builtin
+)
+"m_standard.ml" 226 6907 6915 "m_standard.ml" 226 6907 6954
+type(
+  M_t.modunit
+)
+"m_standard.ml" 227 6957 6965 "m_standard.ml" 227 6957 6972
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref ternary "m_standard.ml" 45 1019 1023 "m_standard.ml" 45 1019 1030
+)
+"m_standard.ml" 227 6957 6973 "m_standard.ml" 227 6957 6990
+type(
+  string
+)
+"m_standard.ml" 227 6957 6998 "m_standard.ml" 227 6957 7006
+type(
+  B.builtin
+)
+"m_standard.ml" 227 6957 6965 "m_standard.ml" 227 6957 7006
+type(
+  M_t.modunit
+)
+"m_standard.ml" 228 7009 7017 "m_standard.ml" 228 7009 7023
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 228 7009 7025 "m_standard.ml" 228 7009 7042
+type(
+  string
+)
+"m_standard.ml" 228 7009 7050 "m_standard.ml" 228 7009 7061
+type(
+  B.builtin
+)
+"m_standard.ml" 228 7009 7017 "m_standard.ml" 228 7009 7061
+type(
+  M_t.modunit
+)
+"m_standard.ml" 230 7082 7090 "m_standard.ml" 230 7082 7096
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 230 7082 7098 "m_standard.ml" 230 7082 7115
+type(
+  string
+)
+"m_standard.ml" 230 7082 7123 "m_standard.ml" 230 7082 7131
+type(
+  B.builtin
+)
+"m_standard.ml" 230 7082 7090 "m_standard.ml" 230 7082 7131
+type(
+  M_t.modunit
+)
+"m_standard.ml" 231 7134 7142 "m_standard.ml" 231 7134 7148
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 231 7134 7150 "m_standard.ml" 231 7134 7165
+type(
+  string
+)
+"m_standard.ml" 231 7134 7175 "m_standard.ml" 231 7134 7183
+type(
+  B.builtin
+)
+"m_standard.ml" 231 7134 7142 "m_standard.ml" 231 7134 7183
+type(
+  M_t.modunit
+)
+"m_standard.ml" 232 7186 7194 "m_standard.ml" 232 7186 7200
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 232 7186 7202 "m_standard.ml" 232 7186 7218
+type(
+  string
+)
+"m_standard.ml" 232 7186 7227 "m_standard.ml" 232 7186 7234
+type(
+  B.builtin
+)
+"m_standard.ml" 232 7186 7194 "m_standard.ml" 232 7186 7234
+type(
+  M_t.modunit
+)
+"m_standard.ml" 233 7237 7245 "m_standard.ml" 233 7237 7250
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 233 7237 7253 "m_standard.ml" 233 7237 7270
+type(
+  string
+)
+"m_standard.ml" 233 7237 7278 "m_standard.ml" 233 7237 7286
+type(
+  B.builtin
+)
+"m_standard.ml" 233 7237 7245 "m_standard.ml" 233 7237 7286
+type(
+  M_t.modunit
+)
+"m_standard.ml" 234 7289 7297 "m_standard.ml" 234 7289 7303
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 234 7289 7305 "m_standard.ml" 234 7289 7325
+type(
+  string
+)
+"m_standard.ml" 234 7289 7330 "m_standard.ml" 234 7289 7338
+type(
+  B.builtin
+)
+"m_standard.ml" 234 7289 7297 "m_standard.ml" 234 7289 7338
+type(
+  M_t.modunit
+)
+"m_standard.ml" 235 7341 7349 "m_standard.ml" 235 7341 7356
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref nullary "m_standard.ml" 24 324 328 "m_standard.ml" 24 324 335
+)
+"m_standard.ml" 235 7341 7357 "m_standard.ml" 235 7341 7376
+type(
+  string
+)
+"m_standard.ml" 235 7341 7382 "m_standard.ml" 235 7341 7392
+type(
+  B.builtin
+)
+"m_standard.ml" 235 7341 7349 "m_standard.ml" 235 7341 7392
+type(
+  M_t.modunit
+)
+"m_standard.ml" 236 7395 7403 "m_standard.ml" 236 7395 7408
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 236 7395 7411 "m_standard.ml" 236 7395 7428
+type(
+  string
+)
+"m_standard.ml" 236 7395 7436 "m_standard.ml" 236 7395 7444
+type(
+  B.builtin
+)
+"m_standard.ml" 236 7395 7403 "m_standard.ml" 236 7395 7444
+type(
+  M_t.modunit
+)
+"m_standard.ml" 237 7447 7455 "m_standard.ml" 237 7447 7461
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 237 7447 7463 "m_standard.ml" 237 7447 7480
+type(
+  string
+)
+"m_standard.ml" 237 7447 7488 "m_standard.ml" 237 7447 7496
+type(
+  B.builtin
+)
+"m_standard.ml" 237 7447 7455 "m_standard.ml" 237 7447 7496
+type(
+  M_t.modunit
+)
+"m_standard.ml" 238 7499 7507 "m_standard.ml" 238 7499 7512
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 238 7499 7515 "m_standard.ml" 238 7499 7538
+type(
+  string
+)
+"m_standard.ml" 238 7499 7540 "m_standard.ml" 238 7499 7554
+type(
+  B.builtin
+)
+"m_standard.ml" 238 7499 7507 "m_standard.ml" 238 7499 7554
+type(
+  M_t.modunit
+)
+"m_standard.ml" 239 7557 7565 "m_standard.ml" 239 7557 7571
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref binary "m_standard.ml" 44 995 999 "m_standard.ml" 44 995 1005
+)
+"m_standard.ml" 239 7557 7573 "m_standard.ml" 239 7557 7591
+type(
+  string
+)
+"m_standard.ml" 239 7557 7598 "m_standard.ml" 239 7557 7607
+type(
+  B.builtin
+)
+"m_standard.ml" 239 7557 7565 "m_standard.ml" 239 7557 7607
+type(
+  M_t.modunit
+)
+"m_standard.ml" 240 7610 7618 "m_standard.ml" 240 7610 7623
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 240 7610 7626 "m_standard.ml" 240 7610 7650
+type(
+  string
+)
+"m_standard.ml" 240 7610 7651 "m_standard.ml" 240 7610 7666
+type(
+  B.builtin
+)
+"m_standard.ml" 240 7610 7618 "m_standard.ml" 240 7610 7666
+type(
+  M_t.modunit
+)
+"m_standard.ml" 241 7669 7677 "m_standard.ml" 241 7669 7684
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref nullary "m_standard.ml" 24 324 328 "m_standard.ml" 24 324 335
+)
+"m_standard.ml" 241 7669 7685 "m_standard.ml" 241 7669 7699
+type(
+  string
+)
+"m_standard.ml" 241 7669 7710 "m_standard.ml" 241 7669 7715
+type(
+  B.builtin
+)
+"m_standard.ml" 241 7669 7677 "m_standard.ml" 241 7669 7715
+type(
+  M_t.modunit
+)
+"m_standard.ml" 242 7718 7726 "m_standard.ml" 242 7718 7731
+type(
+  string -> B.builtin -> M_t.modunit
+)
+ident(
+  int_ref unary "m_standard.ml" 43 972 976 "m_standard.ml" 43 972 981
+)
+"m_standard.ml" 242 7718 7734 "m_standard.ml" 242 7718 7753
+type(
+  string
+)
+"m_standard.ml" 242 7718 7759 "m_standard.ml" 242 7718 7769
+type(
+  B.builtin
+)
+"m_standard.ml" 242 7718 7726 "m_standard.ml" 242 7718 7769
+type(
+  M_t.modunit
+)
+"m_standard.ml" 169 4175 4188 "m_standard.ml" 243 7772 7779
+type(
+  M_t.modunit list
+)
+"m_standard.ml" 244 7782 7796 "m_standard.ml" 244 7782 7803
+type(
+  M_t.stage
+)
+"m_standard.ml" 163 4041 4049 "m_standard.ml" 245 7806 7811
+type(
+  M_t.mule_
+)
+"m_standard.ml" 162 3979 4035 "m_standard.ml" 246 7812 7817
+type(
+  M_t.mule
+)
+"m_standard.ml" 162 3979 3997 "m_standard.ml" 246 7812 7817
+type(
+  M_t.modctx * M_t.mule * M_t.summary
+)
+"m_standard.ml" 247 7821 7823 "m_standard.ml" 247 7821 7824
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_standard.ml" 162 3979 3989 "m_standard.ml" 162 3979 3990
+)
+"m_standard.ml" 162 3979 3981 "m_standard.ml" 247 7821 7824
+type(
+  M_t.mule
+)
+"m_standard.ml" 250 7920 7924 "m_standard.ml" 250 7920 7931
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  def initctx "m_standard.ml" 254 8011 8072 "m_standard.ml" 0 0 -1
+)
+"m_standard.ml" 251 7934 7936 "m_standard.ml" 251 7934 7950
+type(
+  (M_t.mule Util.Coll.Sm.t -> M_t.mule -> M_t.mule Util.Coll.Sm.t) ->
+  M_t.mule Util.Coll.Sm.t -> M_t.mule list -> M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref Ext.List.fold_left "ext.mli" 19 563 565 "ext.mli" 19 563 620
+)
+"m_standard.ml" 252 7951 7960 "m_standard.ml" 252 7951 7962
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  def mx "m_standard.ml" 252 7951 7963 "m_standard.ml" 252 7951 7996
+)
+"m_standard.ml" 252 7951 7963 "m_standard.ml" 252 7951 7964
+type(
+  M_t.mule
+)
+ident(
+  def m "m_standard.ml" 252 7951 7968 "m_standard.ml" 252 7951 7996
+)
+"m_standard.ml" 252 7951 7968 "m_standard.ml" 252 7951 7974
+type(
+  Util.Coll.Sm.key ->
+  M_t.mule -> M_t.mule Util.Coll.Sm.t -> M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref Util.Coll.Sm.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"m_standard.ml" 252 7951 7975 "m_standard.ml" 252 7951 7976
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_standard.ml" 252 7951 7963 "m_standard.ml" 252 7951 7964
+)
+"m_standard.ml" 252 7951 7975 "m_standard.ml" 252 7951 7981
+type(
+  M_t.mule_
+)
+"m_standard.ml" 252 7951 7975 "m_standard.ml" 252 7951 7986
+type(
+  Util.hint
+)
+"m_standard.ml" 252 7951 7975 "m_standard.ml" 252 7951 7991
+type(
+  Util.Coll.Sm.key
+)
+"m_standard.ml" 252 7951 7992 "m_standard.ml" 252 7951 7993
+type(
+  M_t.mule
+)
+ident(
+  int_ref m "m_standard.ml" 252 7951 7963 "m_standard.ml" 252 7951 7964
+)
+"m_standard.ml" 252 7951 7994 "m_standard.ml" 252 7951 7996
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref mx "m_standard.ml" 252 7951 7960 "m_standard.ml" 252 7951 7962
+)
+"m_standard.ml" 252 7951 7968 "m_standard.ml" 252 7951 7996
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+"m_standard.ml" 252 7951 7955 "m_standard.ml" 252 7951 7997
+type(
+  M_t.mule Util.Coll.Sm.t -> M_t.mule -> M_t.mule Util.Coll.Sm.t
+)
+"m_standard.ml" 253 7998 8002 "m_standard.ml" 253 7998 8010
+type(
+  M_t.mule Util.Coll.Sm.t
+)
+ident(
+  int_ref Util.Coll.Sm.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"m_standard.ml" 254 8011 8017 "m_standard.ml" 254 8011 8025
+type(
+  M_t.mule
+)
+ident(
+  int_ref naturals "m_standard.ml" 47 1045 1049 "m_standard.ml" 47 1045 1057
+)
+"m_standard.ml" 254 8011 8028 "m_standard.ml" 254 8011 8036
+type(
+  M_t.mule
+)
+ident(
+  int_ref integers "m_standard.ml" 74 1727 1731 "m_standard.ml" 74 1727 1739
+)
+"m_standard.ml" 254 8011 8039 "m_standard.ml" 254 8011 8044
+type(
+  M_t.mule
+)
+ident(
+  int_ref reals "m_standard.ml" 91 2091 2095 "m_standard.ml" 91 2091 2100
+)
+"m_standard.ml" 254 8011 8047 "m_standard.ml" 254 8011 8056
+type(
+  M_t.mule
+)
+ident(
+  int_ref sequences "m_standard.ml" 109 2501 2505 "m_standard.ml" 109 2501 2514
+)
+"m_standard.ml" 254 8011 8059 "m_standard.ml" 254 8011 8062
+type(
+  M_t.mule
+)
+ident(
+  int_ref tlc "m_standard.ml" 133 3122 3126 "m_standard.ml" 133 3122 3129
+)
+"m_standard.ml" 254 8011 8065 "m_standard.ml" 254 8011 8070
+type(
+  M_t.mule
+)
+ident(
+  int_ref tlapm "m_standard.ml" 161 3967 3971 "m_standard.ml" 161 3967 3976
+)
+"m_standard.ml" 254 8011 8015 "m_standard.ml" 254 8011 8072
+type(
+  M_t.mule list
+)
+"m_standard.ml" 251 7934 7936 "m_standard.ml" 254 8011 8072
+type(
+  M_t.mule Util.Coll.Sm.t
+)

@@ -1,0 +1,512 @@
+"p_t.ml" 14 218 222 "p_t.ml" 14 218 233
+type(
+  stepno -> int
+)
+ident(
+  def step_number "p_t.ml" 19 295 295 "p_t.ml" 0 0 -1
+)
+"p_t.ml" 15 245 258 "p_t.ml" 15 245 259
+type(
+  int
+)
+ident(
+  def n "p_t.ml" 16 267 291 "p_t.ml" 16 267 292
+)
+"p_t.ml" 15 245 261 "p_t.ml" 15 245 262
+type(
+  string
+)
+"p_t.ml" 15 245 264 "p_t.ml" 15 245 265
+type(
+  bool
+)
+"p_t.ml" 15 245 251 "p_t.ml" 15 245 266
+type(
+  stepno
+)
+"p_t.ml" 16 267 282 "p_t.ml" 16 267 283
+type(
+  int
+)
+ident(
+  def n "p_t.ml" 16 267 291 "p_t.ml" 16 267 292
+)
+"p_t.ml" 16 267 285 "p_t.ml" 16 267 286
+type(
+  int
+)
+"p_t.ml" 16 267 273 "p_t.ml" 16 267 287
+type(
+  stepno
+)
+"p_t.ml" 15 245 251 "p_t.ml" 16 267 287
+type(
+  stepno
+)
+"p_t.ml" 16 267 291 "p_t.ml" 16 267 292
+type(
+  int
+)
+ident(
+  int_ref n "p_t.ml" 15 245 258 "p_t.ml" 15 245 259
+)
+"p_t.ml" 14 218 236 "p_t.ml" 16 267 292
+type(
+  stepno -> int
+)
+"p_t.ml" 19 295 299 "p_t.ml" 19 295 315
+type(
+  ?anonid:bool -> stepno -> string
+)
+ident(
+  def string_of_stepno "p_t.ml" 29 557 557 "p_t.ml" 0 0 -1
+)
+"p_t.ml" 19 295 318 "p_t.ml" 19 295 324
+type(
+  bool
+)
+ident(
+  def anonid "p_t.ml" 19 295 334 "p_t.ml" 26 518 554
+)
+"p_t.ml" 19 295 325 "p_t.ml" 19 295 330
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "p_t.ml" 19 295 325 "p_t.ml" 19 295 330
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+ident(
+  def *sth* "p_t.ml" 19 295 325 "p_t.ml" 19 295 330
+)
+"p_t.ml" 20 343 356 "p_t.ml" 20 343 358
+type(
+  int
+)
+ident(
+  def sn "p_t.ml" 21 370 378 "p_t.ml" 21 370 407
+)
+"p_t.ml" 20 343 360 "p_t.ml" 20 343 362
+type(
+  string
+)
+ident(
+  def sl "p_t.ml" 21 370 378 "p_t.ml" 21 370 407
+)
+"p_t.ml" 20 343 364 "p_t.ml" 20 343 365
+type(
+  bool
+)
+"p_t.ml" 20 343 349 "p_t.ml" 20 343 366
+type(
+  stepno
+)
+"p_t.ml" 21 370 378 "p_t.ml" 21 370 392
+type(
+  (int -> string -> string, unit, string) format -> int -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"p_t.ml" 21 370 393 "p_t.ml" 21 370 401
+type(
+  (int -> string -> string, unit, string) format
+)
+"p_t.ml" 21 370 402 "p_t.ml" 21 370 404
+type(
+  int
+)
+ident(
+  int_ref sn "p_t.ml" 20 343 356 "p_t.ml" 20 343 358
+)
+"p_t.ml" 21 370 405 "p_t.ml" 21 370 407
+type(
+  string
+)
+ident(
+  int_ref sl "p_t.ml" 20 343 360 "p_t.ml" 20 343 362
+)
+"p_t.ml" 21 370 378 "p_t.ml" 21 370 407
+type(
+  string
+)
+"p_t.ml" 22 408 423 "p_t.ml" 22 408 425
+type(
+  int
+)
+ident(
+  def sn "p_t.ml" 23 435 443 "p_t.ml" 26 518 554
+)
+"p_t.ml" 22 408 427 "p_t.ml" 22 408 430
+type(
+  int
+)
+ident(
+  def sid "p_t.ml" 23 435 443 "p_t.ml" 26 518 554
+)
+"p_t.ml" 22 408 414 "p_t.ml" 22 408 431
+type(
+  stepno
+)
+"p_t.ml" 23 435 446 "p_t.ml" 23 435 452
+type(
+  bool
+)
+ident(
+  int_ref anonid "p_t.ml" 19 295 318 "p_t.ml" 19 295 324
+)
+"p_t.ml" 24 458 470 "p_t.ml" 24 458 484
+type(
+  (int -> int -> string, unit, string) format -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"p_t.ml" 24 458 485 "p_t.ml" 24 458 497
+type(
+  (int -> int -> string, unit, string) format
+)
+"p_t.ml" 24 458 498 "p_t.ml" 24 458 500
+type(
+  int
+)
+ident(
+  int_ref sn "p_t.ml" 22 408 423 "p_t.ml" 22 408 425
+)
+"p_t.ml" 24 458 501 "p_t.ml" 24 458 504
+type(
+  int
+)
+ident(
+  int_ref sid "p_t.ml" 22 408 427 "p_t.ml" 22 408 430
+)
+"p_t.ml" 24 458 470 "p_t.ml" 24 458 504
+type(
+  string
+)
+"p_t.ml" 26 518 530 "p_t.ml" 26 518 544
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"p_t.ml" 26 518 545 "p_t.ml" 26 518 551
+type(
+  (int -> string, unit, string) format
+)
+"p_t.ml" 26 518 552 "p_t.ml" 26 518 554
+type(
+  int
+)
+ident(
+  int_ref sn "p_t.ml" 22 408 423 "p_t.ml" 22 408 425
+)
+"p_t.ml" 26 518 530 "p_t.ml" 26 518 554
+type(
+  string
+)
+"p_t.ml" 23 435 443 "p_t.ml" 26 518 554
+type(
+  string
+)
+"p_t.ml" 19 295 334 "p_t.ml" 26 518 554
+type(
+  stepno -> string
+)
+"p_t.ml" 70 1422 1426 "p_t.ml" 70 1422 1439
+type(
+  qed_step_ Property.wrapped -> proof
+)
+ident(
+  def get_qed_proof "p_t.ml" 74 1479 1479 "p_t.ml" 0 0 -1
+)
+"p_t.ml" 70 1422 1440 "p_t.ml" 70 1422 1441
+type(
+  qed_step_ Property.wrapped
+)
+ident(
+  def q "p_t.ml" 71 1444 1448 "p_t.ml" 71 1444 1476
+)
+"p_t.ml" 71 1444 1454 "p_t.ml" 71 1444 1455
+type(
+  qed_step_ Property.wrapped
+)
+ident(
+  int_ref q "p_t.ml" 70 1422 1440 "p_t.ml" 70 1422 1441
+)
+"p_t.ml" 71 1444 1454 "p_t.ml" 71 1444 1460
+type(
+  qed_step_
+)
+"p_t.ml" 71 1444 1470 "p_t.ml" 71 1444 1471
+type(
+  proof
+)
+ident(
+  def p "p_t.ml" 71 1444 1475 "p_t.ml" 71 1444 1476
+)
+"p_t.ml" 71 1444 1466 "p_t.ml" 71 1444 1471
+type(
+  qed_step_
+)
+type(
+  qed_step_
+)
+"p_t.ml" 71 1444 1475 "p_t.ml" 71 1444 1476
+type(
+  proof
+)
+ident(
+  int_ref p "p_t.ml" 71 1444 1470 "p_t.ml" 71 1444 1471
+)
+"p_t.ml" 71 1444 1448 "p_t.ml" 71 1444 1476
+type(
+  proof
+)
+"p_t.ml" 87 1687 1694 "p_t.ml" 87 1687 1699
+ident(
+  def Props "p_t.ml" 119 2859 2862 "p_t.ml" 0 0 -1
+)
+"p_t.ml" 88 1709 1717 "p_t.ml" 88 1709 1721
+type(
+  stepno Property.pfuncs
+)
+ident(
+  def step "p_t.ml" 92 1858 1862 "p_t.ml" 119 2859 2862
+)
+"p_t.ml" 89 1748 1756 "p_t.ml" 89 1748 1769
+type(
+  ?uuid:string -> string -> stepno Property.pfuncs
+)
+ident(
+  int_ref Property.make "property.mli" 53 1729 1729 "property.mli" 53 1729 1775
+)
+"p_t.ml" 90 1770 1788 "p_t.ml" 90 1770 1826
+type(
+  string
+)
+type(
+  string option
+)
+"p_t.ml" 91 1827 1839 "p_t.ml" 91 1827 1857
+type(
+  string
+)
+"p_t.ml" 89 1748 1756 "p_t.ml" 91 1827 1857
+type(
+  stepno Property.pfuncs
+)
+"p_t.ml" 92 1858 1866 "p_t.ml" 92 1858 1870
+type(
+  Expr.T.sequent Property.pfuncs
+)
+ident(
+  def goal "p_t.ml" 96 1999 2003 "p_t.ml" 119 2859 2862
+)
+"p_t.ml" 93 1889 1897 "p_t.ml" 93 1889 1910
+type(
+  ?uuid:string -> string -> Expr.T.sequent Property.pfuncs
+)
+ident(
+  int_ref Property.make "property.mli" 53 1729 1729 "property.mli" 53 1729 1775
+)
+"p_t.ml" 94 1911 1929 "p_t.ml" 94 1911 1967
+type(
+  string
+)
+type(
+  string option
+)
+"p_t.ml" 95 1968 1980 "p_t.ml" 95 1968 1998
+type(
+  string
+)
+"p_t.ml" 93 1889 1897 "p_t.ml" 95 1968 1998
+type(
+  Expr.T.sequent Property.pfuncs
+)
+"p_t.ml" 96 1999 2007 "p_t.ml" 96 1999 2011
+type(
+  unit Property.pfuncs
+)
+ident(
+  def supp "p_t.ml" 100 2137 2141 "p_t.ml" 119 2859 2862
+)
+"p_t.ml" 97 2027 2035 "p_t.ml" 97 2027 2048
+type(
+  ?uuid:string -> string -> unit Property.pfuncs
+)
+ident(
+  int_ref Property.make "property.mli" 53 1729 1729 "property.mli" 53 1729 1775
+)
+"p_t.ml" 98 2049 2067 "p_t.ml" 98 2049 2105
+type(
+  string
+)
+type(
+  string option
+)
+"p_t.ml" 99 2106 2118 "p_t.ml" 99 2106 2136
+type(
+  string
+)
+"p_t.ml" 97 2027 2035 "p_t.ml" 99 2106 2136
+type(
+  unit Property.pfuncs
+)
+"p_t.ml" 100 2137 2145 "p_t.ml" 100 2137 2148
+type(
+  obligation list Property.pfuncs
+)
+ident(
+  def obs "p_t.ml" 104 2284 2288 "p_t.ml" 119 2859 2862
+)
+"p_t.ml" 101 2175 2183 "p_t.ml" 101 2175 2196
+type(
+  ?uuid:string -> string -> obligation list Property.pfuncs
+)
+ident(
+  int_ref Property.make "property.mli" 53 1729 1729 "property.mli" 53 1729 1775
+)
+"p_t.ml" 102 2197 2215 "p_t.ml" 102 2197 2253
+type(
+  string
+)
+type(
+  string option
+)
+"p_t.ml" 103 2254 2266 "p_t.ml" 103 2254 2283
+type(
+  string
+)
+"p_t.ml" 101 2175 2183 "p_t.ml" 103 2254 2283
+type(
+  obligation list Property.pfuncs
+)
+"p_t.ml" 104 2284 2292 "p_t.ml" 104 2284 2296
+type(
+  Method.t list Property.pfuncs
+)
+ident(
+  def meth "p_t.ml" 108 2431 2435 "p_t.ml" 119 2859 2862
+)
+"p_t.ml" 105 2321 2329 "p_t.ml" 105 2321 2342
+type(
+  ?uuid:string -> string -> Method.t list Property.pfuncs
+)
+ident(
+  int_ref Property.make "property.mli" 53 1729 1729 "property.mli" 53 1729 1775
+)
+"p_t.ml" 106 2343 2361 "p_t.ml" 106 2343 2399
+type(
+  string
+)
+type(
+  string option
+)
+"p_t.ml" 107 2400 2412 "p_t.ml" 107 2400 2430
+type(
+  string
+)
+"p_t.ml" 105 2321 2329 "p_t.ml" 107 2400 2430
+type(
+  Method.t list Property.pfuncs
+)
+"p_t.ml" 108 2431 2439 "p_t.ml" 108 2431 2448
+type(
+  step Property.pfuncs
+)
+ident(
+  def orig_step "p_t.ml" 112 2588 2592 "p_t.ml" 119 2859 2862
+)
+"p_t.ml" 109 2473 2481 "p_t.ml" 109 2473 2494
+type(
+  ?uuid:string -> string -> step Property.pfuncs
+)
+ident(
+  int_ref Property.make "property.mli" 53 1729 1729 "property.mli" 53 1729 1775
+)
+"p_t.ml" 110 2495 2513 "p_t.ml" 110 2495 2551
+type(
+  string
+)
+type(
+  string option
+)
+"p_t.ml" 111 2552 2564 "p_t.ml" 111 2552 2587
+type(
+  string
+)
+"p_t.ml" 109 2473 2481 "p_t.ml" 111 2552 2587
+type(
+  step Property.pfuncs
+)
+"p_t.ml" 112 2588 2596 "p_t.ml" 112 2588 2606
+type(
+  proof Property.pfuncs
+)
+ident(
+  def orig_proof "p_t.ml" 116 2748 2752 "p_t.ml" 119 2859 2862
+)
+"p_t.ml" 113 2632 2640 "p_t.ml" 113 2632 2653
+type(
+  ?uuid:string -> string -> proof Property.pfuncs
+)
+ident(
+  int_ref Property.make "property.mli" 53 1729 1729 "property.mli" 53 1729 1775
+)
+"p_t.ml" 114 2654 2672 "p_t.ml" 114 2654 2710
+type(
+  string
+)
+type(
+  string option
+)
+"p_t.ml" 115 2711 2723 "p_t.ml" 115 2711 2747
+type(
+  string
+)
+"p_t.ml" 113 2632 2640 "p_t.ml" 115 2711 2747
+type(
+  proof Property.pfuncs
+)
+"p_t.ml" 116 2748 2756 "p_t.ml" 116 2748 2768
+type(
+  Loc.locus Property.pfuncs
+)
+ident(
+  def use_location "p_t.ml" 118 2820 2858 "p_t.ml" 119 2859 2862
+)
+"p_t.ml" 117 2798 2806 "p_t.ml" 117 2798 2819
+type(
+  ?uuid:string -> string -> Loc.locus Property.pfuncs
+)
+ident(
+  int_ref Property.make "property.mli" 53 1729 1729 "property.mli" 53 1729 1775
+)
+"p_t.ml" 118 2820 2832 "p_t.ml" 118 2820 2858
+type(
+  string
+)
+"p_t.ml" 117 2798 2806 "p_t.ml" 118 2820 2858
+type(
+  Loc.locus Property.pfuncs
+)

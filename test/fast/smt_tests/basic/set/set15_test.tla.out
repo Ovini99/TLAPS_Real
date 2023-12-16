@@ -1,0 +1,57 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:18:37 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp set15_test.tla --stretch 5
+
+(* created new ".tlacache/TLAPS.tlaps/TLAPS.thy" *)
+(* fingerprints written in ".tlacache/TLAPS.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/set15_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+COMMAND-LINE ARGUMENT
+file=.tlacache/set15_test.tlaps/tlapm_6172e9.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/set15_test.tlaps/tlapm_6172e9.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #1
+;;   generated from file "./set15_test.tla", line 15, characters 5-11
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Sunde_a () u)
+
+(assert
+  (forall ((S_8 u) (T_9 u))
+  (=> (forall ((X_5 u)) (= (tla__in X_5 S_8) (tla__in X_5 T_9))) (= S_8 T_9))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert
+  (forall ((a_CONSTANTunde_yunde_a u))
+    (=>
+      (tla__in a_CONSTANTunde_yunde_a a_CONSTANTunde_Sunde_a)
+      (exists ((a_v1a u))
+        (and
+          (tla__in a_v1a a_CONSTANTunde_Sunde_a)
+          (not (= a_v1a a_CONSTANTunde_yunde_a)))))))
+(assert
+  (forall ((a_CONSTANTunde_zunde_a u))
+    (=>
+      (tla__in a_CONSTANTunde_zunde_a a_CONSTANTunde_Sunde_a)
+      (forall ((a_CONSTANTunde_yunde_a u))
+        (=>
+          (tla__in a_CONSTANTunde_yunde_a a_CONSTANTunde_Sunde_a)
+          (exists ((a_v2a u))
+            (and
+              (tla__in a_v2a a_CONSTANTunde_Sunde_a)
+              (not (= a_v2a a_CONSTANTunde_yunde_a)))))))))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+(* created new ".tlacache/set15_test.tlaps/set15_test.thy" *)
+(* fingerprints written in ".tlacache/set15_test.tlaps/fingerprints" *)

@@ -1,0 +1,7691 @@
+"rewrite_arith.ml" 17 242 249 "rewrite_arith.ml" 17 242 250
+ident(
+  def B "rewrite_arith.ml" 17 242 260 "rewrite_arith.ml" 0 0 -1
+)
+"rewrite_arith.ml" 18 261 268 "rewrite_arith.ml" 18 261 269
+ident(
+  def T "rewrite_arith.ml" 18 261 277 "rewrite_arith.ml" 0 0 -1
+)
+"rewrite_arith.ml" 19 278 285 "rewrite_arith.ml" 19 278 288
+ident(
+  def Smt "rewrite_arith.ml" 19 278 301 "rewrite_arith.ml" 0 0 -1
+)
+"rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+type(
+  'a * Expr.T.hyp Deque.dq -> Expr.T.expr -> bool
+)
+ident(
+  def is_Int "rewrite_arith.ml" 24 387 387 "rewrite_arith.ml" 0 0 -1
+)
+"rewrite_arith.ml" 21 303 314 "rewrite_arith.ml" 21 303 317
+type(
+  'a * Expr.T.hyp Deque.dq
+)
+ident(
+  def scx "rewrite_arith.ml" 21 303 318 "rewrite_arith.ml" 21 303 342
+)
+"rewrite_arith.ml" 21 303 318 "rewrite_arith.ml" 21 303 319
+type(
+  Expr.T.expr
+)
+ident(
+  def e "rewrite_arith.ml" 21 303 322 "rewrite_arith.ml" 21 303 342
+)
+"rewrite_arith.ml" 21 303 322 "rewrite_arith.ml" 21 303 330
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> bool
+)
+ident(
+  int_ref T.is_int "typ_t.mli" 146 2536 2536 "typ_t.mli" 147 2548 2580
+)
+"rewrite_arith.ml" 21 303 332 "rewrite_arith.ml" 21 303 335
+type(
+  'a * Expr.T.hyp Deque.dq -> Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"rewrite_arith.ml" 21 303 336 "rewrite_arith.ml" 21 303 339
+type(
+  'a * Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 21 303 314 "rewrite_arith.ml" 21 303 317
+)
+"rewrite_arith.ml" 21 303 331 "rewrite_arith.ml" 21 303 340
+type(
+  Expr.T.hyp Deque.dq
+)
+"rewrite_arith.ml" 21 303 341 "rewrite_arith.ml" 21 303 342
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "rewrite_arith.ml" 21 303 318 "rewrite_arith.ml" 21 303 319
+)
+"rewrite_arith.ml" 21 303 322 "rewrite_arith.ml" 21 303 342
+type(
+  bool
+)
+"rewrite_arith.ml" 24 387 406 "rewrite_arith.ml" 24 387 410
+type(
+  < adj : unit Expr.Visit.scx -> Expr.T.hyp -> unit Expr.Visit.scx;
+    adjs : unit Expr.Visit.scx -> Expr.T.hyp list -> unit Expr.Visit.scx;
+    bound : unit Expr.Visit.scx ->
+            Expr.T.bound -> unit Expr.Visit.scx * Expr.T.bound;
+    bounds : unit Expr.Visit.scx ->
+             Expr.T.bound list -> unit Expr.Visit.scx * Expr.T.bound list;
+    defn : unit Expr.Visit.scx -> Expr.T.defn -> Expr.T.defn;
+    defns : unit Expr.Visit.scx ->
+            Expr.T.defn list -> unit Expr.Visit.scx * Expr.T.defn list;
+    expr : unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr;
+    exspec : unit Expr.Visit.scx -> Expr.T.exspec -> Expr.T.exspec;
+    hyp : unit Expr.Visit.scx ->
+          Expr.T.hyp -> unit Expr.Visit.scx * Expr.T.hyp;
+    hyps : unit Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> unit Expr.Visit.scx * Expr.T.hyp Deque.dq;
+    instance : unit Expr.Visit.scx -> Expr.T.instance -> Expr.T.instance;
+    pform : unit Expr.Visit.scx -> Expr.T.pform -> Expr.T.pform;
+    sel : unit Expr.Visit.scx -> Expr.T.sel -> Expr.T.sel;
+    sequent : unit Expr.Visit.scx ->
+              Expr.T.sequent -> unit Expr.Visit.scx * Expr.T.sequent;
+    .. >
+)
+type(
+  < adj : unit Expr.Visit.scx -> Expr.T.hyp -> unit Expr.Visit.scx;
+    adjs : unit Expr.Visit.scx -> Expr.T.hyp list -> unit Expr.Visit.scx;
+    bound : unit Expr.Visit.scx ->
+            Expr.T.bound -> unit Expr.Visit.scx * Expr.T.bound;
+    bounds : unit Expr.Visit.scx ->
+             Expr.T.bound list -> unit Expr.Visit.scx * Expr.T.bound list;
+    defn : unit Expr.Visit.scx -> Expr.T.defn -> Expr.T.defn;
+    defns : unit Expr.Visit.scx ->
+            Expr.T.defn list -> unit Expr.Visit.scx * Expr.T.defn list;
+    expr : unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr;
+    exspec : unit Expr.Visit.scx -> Expr.T.exspec -> Expr.T.exspec;
+    hyp : unit Expr.Visit.scx ->
+          Expr.T.hyp -> unit Expr.Visit.scx * Expr.T.hyp;
+    hyps : unit Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> unit Expr.Visit.scx * Expr.T.hyp Deque.dq;
+    instance : unit Expr.Visit.scx -> Expr.T.instance -> Expr.T.instance;
+    pform : unit Expr.Visit.scx -> Expr.T.pform -> Expr.T.pform;
+    sel : unit Expr.Visit.scx -> Expr.T.sel -> Expr.T.sel;
+    sequent : unit Expr.Visit.scx ->
+              Expr.T.sequent -> unit Expr.Visit.scx * Expr.T.sequent;
+    .. >
+  as 'a
+)
+"rewrite_arith.ml" 26 461 474 "rewrite_arith.ml" 26 461 477
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "rewrite_arith.ml" 26 461 478 "rewrite_arith.ml" 31 616 637
+)
+"rewrite_arith.ml" 26 461 478 "rewrite_arith.ml" 26 461 479
+type(
+  Expr.T.hyp
+)
+ident(
+  def h "rewrite_arith.ml" 26 461 482 "rewrite_arith.ml" 31 616 637
+)
+"rewrite_arith.ml" 26 461 488 "rewrite_arith.ml" 26 461 489
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "rewrite_arith.ml" 26 461 478 "rewrite_arith.ml" 26 461 479
+)
+"rewrite_arith.ml" 26 461 488 "rewrite_arith.ml" 26 461 494
+type(
+  Expr.T.hyp_
+)
+"rewrite_arith.ml" 27 500 512 "rewrite_arith.ml" 27 500 513
+type(
+  Expr.T.defn
+)
+"rewrite_arith.ml" 27 500 515 "rewrite_arith.ml" 27 500 516
+type(
+  Expr.T.wheredef
+)
+"rewrite_arith.ml" 27 500 518 "rewrite_arith.ml" 27 500 524
+type(
+  Expr.T.visibility
+)
+"rewrite_arith.ml" 27 500 526 "rewrite_arith.ml" 27 500 527
+type(
+  Expr.T.export
+)
+"rewrite_arith.ml" 27 500 506 "rewrite_arith.ml" 27 500 528
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"rewrite_arith.ml" 28 555 567 "rewrite_arith.ml" 28 555 568
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 28 555 570 "rewrite_arith.ml" 28 555 576
+type(
+  Expr.T.visibility
+)
+"rewrite_arith.ml" 28 555 578 "rewrite_arith.ml" 28 555 579
+type(
+  Expr.T.time
+)
+"rewrite_arith.ml" 28 555 561 "rewrite_arith.ml" 28 555 580
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"rewrite_arith.ml" 27 500 506 "rewrite_arith.ml" 28 555 580
+type(
+  Expr.T.hyp_
+)
+"rewrite_arith.ml" 29 584 591 "rewrite_arith.ml" 29 584 594
+type(
+  unit Expr.Visit.scx -> Expr.T.hyp -> unit Expr.Visit.scx
+)
+ident(
+  int_ref Expr.Visit.adj "expr.mli" 541 13601 13603 "expr.mli" 541 13601 13637
+)
+"rewrite_arith.ml" 29 584 595 "rewrite_arith.ml" 29 584 598
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 26 461 474 "rewrite_arith.ml" 26 461 477
+)
+"rewrite_arith.ml" 29 584 599 "rewrite_arith.ml" 29 584 600
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "rewrite_arith.ml" 26 461 478 "rewrite_arith.ml" 26 461 479
+)
+"rewrite_arith.ml" 29 584 591 "rewrite_arith.ml" 29 584 600
+type(
+  unit Expr.Visit.scx
+)
+"rewrite_arith.ml" 29 584 602 "rewrite_arith.ml" 29 584 603
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "rewrite_arith.ml" 26 461 478 "rewrite_arith.ml" 26 461 479
+)
+"rewrite_arith.ml" 29 584 590 "rewrite_arith.ml" 29 584 604
+type(
+  unit Expr.Visit.scx * Expr.T.hyp
+)
+"rewrite_arith.ml" 30 605 611 "rewrite_arith.ml" 30 605 612
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"rewrite_arith.ml" 31 616 622 "rewrite_arith.ml" 31 616 627
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+type(
+  'a
+)
+ident(
+  int_ref super "rewrite_arith.ml" 25 420 430 "rewrite_arith.ml" 25 420 451
+)
+"rewrite_arith.ml" 31 616 622 "rewrite_arith.ml" 31 616 631
+type(
+  'a -> unit Expr.Visit.scx -> Expr.T.hyp -> unit Expr.Visit.scx * Expr.T.hyp
+)
+ident(
+  ext_ref hyp
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.hyp -> unit Expr.Visit.scx * Expr.T.hyp
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.hyp -> unit Expr.Visit.scx * Expr.T.hyp
+)
+"rewrite_arith.ml" 31 616 632 "rewrite_arith.ml" 31 616 635
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 26 461 474 "rewrite_arith.ml" 26 461 477
+)
+"rewrite_arith.ml" 31 616 636 "rewrite_arith.ml" 31 616 637
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "rewrite_arith.ml" 26 461 478 "rewrite_arith.ml" 26 461 479
+)
+"rewrite_arith.ml" 31 616 622 "rewrite_arith.ml" 31 616 637
+type(
+  unit Expr.Visit.scx * Expr.T.hyp
+)
+"rewrite_arith.ml" 26 461 482 "rewrite_arith.ml" 31 616 637
+type(
+  unit Expr.Visit.scx * Expr.T.hyp
+)
+"rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "rewrite_arith.ml" 32 638 656 "rewrite_arith.ml" 194 11466 11488
+)
+"rewrite_arith.ml" 32 638 656 "rewrite_arith.ml" 32 638 657
+type(
+  Expr.T.expr
+)
+ident(
+  def e "rewrite_arith.ml" 34 746 750 "rewrite_arith.ml" 194 11466 11488
+)
+"rewrite_arith.ml" 34 746 754 "rewrite_arith.ml" 34 746 756
+type(
+  'b -> 'b Property.wrapped
+)
+ident(
+  def mk "rewrite_arith.ml" 35 784 788 "rewrite_arith.ml" 194 11466 11488
+)
+"rewrite_arith.ml" 34 746 757 "rewrite_arith.ml" 34 746 758
+type(
+  'b
+)
+ident(
+  def x "rewrite_arith.ml" 34 746 761 "rewrite_arith.ml" 34 746 780
+)
+"rewrite_arith.ml" 34 746 763 "rewrite_arith.ml" 34 746 764
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "rewrite_arith.ml" 32 638 656 "rewrite_arith.ml" 32 638 657
+)
+"rewrite_arith.ml" 34 746 777 "rewrite_arith.ml" 34 746 778
+type(
+  'b
+)
+ident(
+  int_ref x "rewrite_arith.ml" 34 746 757 "rewrite_arith.ml" 34 746 758
+)
+"rewrite_arith.ml" 34 746 761 "rewrite_arith.ml" 34 746 780
+type(
+  'b Property.wrapped
+)
+"rewrite_arith.ml" 35 784 792 "rewrite_arith.ml" 35 784 797
+type(
+  'c Property.wrapped -> 'c Property.wrapped
+)
+ident(
+  def build "rewrite_arith.ml" 36 936 940 "rewrite_arith.ml" 194 11466 11488
+)
+"rewrite_arith.ml" 35 784 798 "rewrite_arith.ml" 35 784 800
+type(
+  'c Property.wrapped
+)
+ident(
+  def ex "rewrite_arith.ml" 35 784 803 "rewrite_arith.ml" 35 784 834
+)
+"rewrite_arith.ml" 35 784 809 "rewrite_arith.ml" 35 784 811
+type(
+  'c Property.wrapped
+)
+ident(
+  int_ref ex "rewrite_arith.ml" 35 784 798 "rewrite_arith.ml" 35 784 800
+)
+"rewrite_arith.ml" 35 784 809 "rewrite_arith.ml" 35 784 816
+type(
+  'c
+)
+"rewrite_arith.ml" 35 784 822 "rewrite_arith.ml" 35 784 823
+type(
+  'c
+)
+type(
+  'c
+)
+ident(
+  def a "rewrite_arith.ml" 35 784 827 "rewrite_arith.ml" 35 784 834
+)
+"rewrite_arith.ml" 35 784 827 "rewrite_arith.ml" 35 784 828
+type(
+  'c
+)
+ident(
+  int_ref a "rewrite_arith.ml" 35 784 822 "rewrite_arith.ml" 35 784 823
+)
+"rewrite_arith.ml" 35 784 832 "rewrite_arith.ml" 35 784 834
+type(
+  'c -> 'c Property.wrapped
+)
+ident(
+  int_ref mk "rewrite_arith.ml" 34 746 754 "rewrite_arith.ml" 34 746 756
+)
+"rewrite_arith.ml" 35 784 827 "rewrite_arith.ml" 35 784 834
+type(
+  'c Property.wrapped
+)
+"rewrite_arith.ml" 35 784 803 "rewrite_arith.ml" 35 784 834
+type(
+  'c Property.wrapped
+)
+"rewrite_arith.ml" 36 936 944 "rewrite_arith.ml" 36 936 949
+type(
+  Builtin.builtin -> Expr.T.expr list -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  def apply "rewrite_arith.ml" 37 997 1001 "rewrite_arith.ml" 194 11466 11488
+)
+"rewrite_arith.ml" 36 936 950 "rewrite_arith.ml" 36 936 952
+type(
+  Builtin.builtin
+)
+ident(
+  def op "rewrite_arith.ml" 36 936 953 "rewrite_arith.ml" 36 936 993
+)
+"rewrite_arith.ml" 36 936 953 "rewrite_arith.ml" 36 936 955
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "rewrite_arith.ml" 36 936 958 "rewrite_arith.ml" 36 936 993
+)
+"rewrite_arith.ml" 36 936 974 "rewrite_arith.ml" 36 936 976
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "rewrite_arith.ml" 36 936 950 "rewrite_arith.ml" 36 936 952
+)
+"rewrite_arith.ml" 36 936 965 "rewrite_arith.ml" 36 936 976
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 36 936 980 "rewrite_arith.ml" 36 936 982
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "rewrite_arith.ml" 34 746 754 "rewrite_arith.ml" 34 746 756
+)
+"rewrite_arith.ml" 36 936 965 "rewrite_arith.ml" 36 936 982
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 36 936 984 "rewrite_arith.ml" 36 936 986
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "rewrite_arith.ml" 36 936 953 "rewrite_arith.ml" 36 936 955
+)
+"rewrite_arith.ml" 36 936 958 "rewrite_arith.ml" 36 936 987
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 36 936 991 "rewrite_arith.ml" 36 936 993
+type(
+  Expr.T.expr_ -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref mk "rewrite_arith.ml" 34 746 754 "rewrite_arith.ml" 34 746 756
+)
+"rewrite_arith.ml" 36 936 958 "rewrite_arith.ml" 36 936 993
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"rewrite_arith.ml" 37 997 1005 "rewrite_arith.ml" 37 997 1008
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  def leq "rewrite_arith.ml" 38 1039 1043 "rewrite_arith.ml" 194 11466 11488
+)
+"rewrite_arith.ml" 37 997 1009 "rewrite_arith.ml" 37 997 1010
+type(
+  Expr.T.expr
+)
+ident(
+  def x "rewrite_arith.ml" 37 997 1011 "rewrite_arith.ml" 37 997 1035
+)
+"rewrite_arith.ml" 37 997 1011 "rewrite_arith.ml" 37 997 1012
+type(
+  Expr.T.expr
+)
+ident(
+  def y "rewrite_arith.ml" 37 997 1015 "rewrite_arith.ml" 37 997 1035
+)
+"rewrite_arith.ml" 37 997 1015 "rewrite_arith.ml" 37 997 1020
+type(
+  B.builtin -> Expr.T.expr list -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref apply "rewrite_arith.ml" 36 936 944 "rewrite_arith.ml" 36 936 949
+)
+"rewrite_arith.ml" 37 997 1021 "rewrite_arith.ml" 37 997 1027
+type(
+  B.builtin
+)
+"rewrite_arith.ml" 37 997 1029 "rewrite_arith.ml" 37 997 1030
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 37 997 1009 "rewrite_arith.ml" 37 997 1010
+)
+"rewrite_arith.ml" 37 997 1033 "rewrite_arith.ml" 37 997 1034
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 37 997 1011 "rewrite_arith.ml" 37 997 1012
+)
+"rewrite_arith.ml" 37 997 1028 "rewrite_arith.ml" 37 997 1035
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 37 997 1015 "rewrite_arith.ml" 37 997 1035
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"rewrite_arith.ml" 38 1039 1047 "rewrite_arith.ml" 38 1039 1051
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  def plus "rewrite_arith.ml" 39 1082 1086 "rewrite_arith.ml" 194 11466 11488
+)
+"rewrite_arith.ml" 38 1039 1052 "rewrite_arith.ml" 38 1039 1053
+type(
+  Expr.T.expr
+)
+ident(
+  def x "rewrite_arith.ml" 38 1039 1054 "rewrite_arith.ml" 38 1039 1078
+)
+"rewrite_arith.ml" 38 1039 1054 "rewrite_arith.ml" 38 1039 1055
+type(
+  Expr.T.expr
+)
+ident(
+  def y "rewrite_arith.ml" 38 1039 1058 "rewrite_arith.ml" 38 1039 1078
+)
+"rewrite_arith.ml" 38 1039 1058 "rewrite_arith.ml" 38 1039 1063
+type(
+  B.builtin -> Expr.T.expr list -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref apply "rewrite_arith.ml" 36 936 944 "rewrite_arith.ml" 36 936 949
+)
+"rewrite_arith.ml" 38 1039 1064 "rewrite_arith.ml" 38 1039 1070
+type(
+  B.builtin
+)
+"rewrite_arith.ml" 38 1039 1072 "rewrite_arith.ml" 38 1039 1073
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 38 1039 1052 "rewrite_arith.ml" 38 1039 1053
+)
+"rewrite_arith.ml" 38 1039 1076 "rewrite_arith.ml" 38 1039 1077
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 38 1039 1054 "rewrite_arith.ml" 38 1039 1055
+)
+"rewrite_arith.ml" 38 1039 1071 "rewrite_arith.ml" 38 1039 1078
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 38 1039 1058 "rewrite_arith.ml" 38 1039 1078
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"rewrite_arith.ml" 39 1082 1090 "rewrite_arith.ml" 39 1082 1095
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  def minus "rewrite_arith.ml" 40 1127 1131 "rewrite_arith.ml" 194 11466 11488
+)
+"rewrite_arith.ml" 39 1082 1096 "rewrite_arith.ml" 39 1082 1097
+type(
+  Expr.T.expr
+)
+ident(
+  def x "rewrite_arith.ml" 39 1082 1098 "rewrite_arith.ml" 39 1082 1123
+)
+"rewrite_arith.ml" 39 1082 1098 "rewrite_arith.ml" 39 1082 1099
+type(
+  Expr.T.expr
+)
+ident(
+  def y "rewrite_arith.ml" 39 1082 1102 "rewrite_arith.ml" 39 1082 1123
+)
+"rewrite_arith.ml" 39 1082 1102 "rewrite_arith.ml" 39 1082 1107
+type(
+  B.builtin -> Expr.T.expr list -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref apply "rewrite_arith.ml" 36 936 944 "rewrite_arith.ml" 36 936 949
+)
+"rewrite_arith.ml" 39 1082 1108 "rewrite_arith.ml" 39 1082 1115
+type(
+  B.builtin
+)
+"rewrite_arith.ml" 39 1082 1117 "rewrite_arith.ml" 39 1082 1118
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 39 1082 1096 "rewrite_arith.ml" 39 1082 1097
+)
+"rewrite_arith.ml" 39 1082 1121 "rewrite_arith.ml" 39 1082 1122
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 39 1082 1098 "rewrite_arith.ml" 39 1082 1099
+)
+"rewrite_arith.ml" 39 1082 1116 "rewrite_arith.ml" 39 1082 1123
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 39 1082 1102 "rewrite_arith.ml" 39 1082 1123
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"rewrite_arith.ml" 40 1127 1135 "rewrite_arith.ml" 40 1127 1139
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def zero "rewrite_arith.ml" 41 1164 1168 "rewrite_arith.ml" 194 11466 11488
+)
+"rewrite_arith.ml" 40 1127 1147 "rewrite_arith.ml" 40 1127 1150
+type(
+  string
+)
+"rewrite_arith.ml" 40 1127 1151 "rewrite_arith.ml" 40 1127 1153
+type(
+  string
+)
+"rewrite_arith.ml" 40 1127 1142 "rewrite_arith.ml" 40 1127 1154
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 40 1127 1158 "rewrite_arith.ml" 40 1127 1160
+type(
+  Expr.T.expr_ -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref mk "rewrite_arith.ml" 34 746 754 "rewrite_arith.ml" 34 746 756
+)
+"rewrite_arith.ml" 40 1127 1142 "rewrite_arith.ml" 40 1127 1160
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"rewrite_arith.ml" 41 1164 1172 "rewrite_arith.ml" 41 1164 1182
+type(
+  string -> bool
+)
+ident(
+  def str_is_int "rewrite_arith.ml" 43 1355 1359 "rewrite_arith.ml" 194 11466 11488
+)
+"rewrite_arith.ml" 41 1164 1183 "rewrite_arith.ml" 41 1164 1184
+type(
+  string
+)
+ident(
+  def x "rewrite_arith.ml" 41 1164 1187 "rewrite_arith.ml" 41 1164 1240
+)
+"rewrite_arith.ml" 41 1164 1191 "rewrite_arith.ml" 41 1164 1204
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.int_of_string "stdlib.mli" 774 28807 28807 "stdlib.mli" 774 28807 28868
+)
+"rewrite_arith.ml" 41 1164 1205 "rewrite_arith.ml" 41 1164 1206
+type(
+  string
+)
+ident(
+  int_ref x "rewrite_arith.ml" 41 1164 1183 "rewrite_arith.ml" 41 1164 1184
+)
+"rewrite_arith.ml" 41 1164 1191 "rewrite_arith.ml" 41 1164 1206
+type(
+  int
+)
+"rewrite_arith.ml" 41 1164 1207 "rewrite_arith.ml" 41 1164 1208
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"rewrite_arith.ml" 41 1164 1209 "rewrite_arith.ml" 41 1164 1222
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.int_of_string "stdlib.mli" 774 28807 28807 "stdlib.mli" 774 28807 28868
+)
+"rewrite_arith.ml" 41 1164 1223 "rewrite_arith.ml" 41 1164 1224
+type(
+  string
+)
+ident(
+  int_ref x "rewrite_arith.ml" 41 1164 1183 "rewrite_arith.ml" 41 1164 1184
+)
+"rewrite_arith.ml" 41 1164 1209 "rewrite_arith.ml" 41 1164 1224
+type(
+  int
+)
+"rewrite_arith.ml" 41 1164 1191 "rewrite_arith.ml" 41 1164 1224
+type(
+  bool
+)
+"rewrite_arith.ml" 41 1164 1230 "rewrite_arith.ml" 41 1164 1231
+type(
+  exn
+)
+"rewrite_arith.ml" 41 1164 1235 "rewrite_arith.ml" 41 1164 1240
+type(
+  bool
+)
+"rewrite_arith.ml" 41 1164 1187 "rewrite_arith.ml" 41 1164 1240
+type(
+  bool
+)
+"rewrite_arith.ml" 43 1355 1365 "rewrite_arith.ml" 43 1355 1366
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "rewrite_arith.ml" 32 638 656 "rewrite_arith.ml" 32 638 657
+)
+"rewrite_arith.ml" 43 1355 1365 "rewrite_arith.ml" 43 1355 1371
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 44 1377 1407 "rewrite_arith.ml" 44 1377 1409
+type(
+  Builtin.builtin
+)
+ident(
+  def op "rewrite_arith.ml" 45 1429 1435 "rewrite_arith.ml" 189 11097 11106
+)
+"rewrite_arith.ml" 44 1377 1398 "rewrite_arith.ml" 44 1377 1409
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 44 1377 1390 "rewrite_arith.ml" 44 1377 1410
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 44 1377 1390 "rewrite_arith.ml" 44 1377 1415
+type(
+  Expr.T.expr
+)
+ident(
+  def o "rewrite_arith.ml" 45 1429 1435 "rewrite_arith.ml" 189 11097 11106
+)
+"rewrite_arith.ml" 44 1377 1418 "rewrite_arith.ml" 44 1377 1419
+type(
+  Expr.T.expr
+)
+ident(
+  def x "rewrite_arith.ml" 45 1429 1435 "rewrite_arith.ml" 189 11097 11106
+)
+"rewrite_arith.ml" 44 1377 1422 "rewrite_arith.ml" 44 1377 1423
+type(
+  Expr.T.expr
+)
+ident(
+  def y "rewrite_arith.ml" 45 1429 1435 "rewrite_arith.ml" 189 11097 11106
+)
+"rewrite_arith.ml" 44 1377 1417 "rewrite_arith.ml" 44 1377 1424
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 44 1377 1383 "rewrite_arith.ml" 44 1377 1425
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+type(
+  Expr.T.expr
+)
+ident(
+  def x "rewrite_arith.ml" 46 1462 1468 "rewrite_arith.ml" 189 11097 11106
+)
+"rewrite_arith.ml" 45 1429 1443 "rewrite_arith.ml" 45 1429 1447
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 45 1429 1443 "rewrite_arith.ml" 45 1429 1452
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 45 1429 1453 "rewrite_arith.ml" 45 1429 1456
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 45 1429 1457 "rewrite_arith.ml" 45 1429 1458
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 44 1377 1418 "rewrite_arith.ml" 44 1377 1419
+)
+"rewrite_arith.ml" 45 1429 1443 "rewrite_arith.ml" 45 1429 1458
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+type(
+  Expr.T.expr
+)
+ident(
+  def y "rewrite_arith.ml" 47 1495 1501 "rewrite_arith.ml" 189 11097 11106
+)
+"rewrite_arith.ml" 46 1462 1476 "rewrite_arith.ml" 46 1462 1480
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 46 1462 1476 "rewrite_arith.ml" 46 1462 1485
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 46 1462 1486 "rewrite_arith.ml" 46 1462 1489
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 46 1462 1490 "rewrite_arith.ml" 46 1462 1491
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 44 1377 1422 "rewrite_arith.ml" 44 1377 1423
+)
+"rewrite_arith.ml" 46 1462 1476 "rewrite_arith.ml" 46 1462 1491
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 47 1495 1505 "rewrite_arith.ml" 47 1495 1511
+type(
+  string -> bool
+)
+ident(
+  def is_neg "rewrite_arith.ml" 48 1531 1537 "rewrite_arith.ml" 189 11097 11106
+)
+"rewrite_arith.ml" 47 1495 1512 "rewrite_arith.ml" 47 1495 1513
+type(
+  string
+)
+ident(
+  def n "rewrite_arith.ml" 47 1495 1516 "rewrite_arith.ml" 47 1495 1527
+)
+"rewrite_arith.ml" 47 1495 1516 "rewrite_arith.ml" 47 1495 1517
+type(
+  string
+)
+ident(
+  int_ref n "rewrite_arith.ml" 47 1495 1512 "rewrite_arith.ml" 47 1495 1513
+)
+"rewrite_arith.ml" 47 1495 1519 "rewrite_arith.ml" 47 1495 1520
+type(
+  int
+)
+"rewrite_arith.ml" 47 1495 1516 "rewrite_arith.ml" 47 1495 1521
+type(
+  char
+)
+"rewrite_arith.ml" 47 1495 1522 "rewrite_arith.ml" 47 1495 1523
+type(
+  char -> char -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"rewrite_arith.ml" 47 1495 1524 "rewrite_arith.ml" 47 1495 1527
+type(
+  char
+)
+"rewrite_arith.ml" 47 1495 1516 "rewrite_arith.ml" 47 1495 1527
+type(
+  bool
+)
+"rewrite_arith.ml" 48 1531 1541 "rewrite_arith.ml" 48 1531 1547
+type(
+  int -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  def mk_num "rewrite_arith.ml" 49 1586 1592 "rewrite_arith.ml" 189 11097 11106
+)
+"rewrite_arith.ml" 48 1531 1548 "rewrite_arith.ml" 48 1531 1549
+type(
+  int
+)
+ident(
+  def n "rewrite_arith.ml" 48 1531 1552 "rewrite_arith.ml" 48 1531 1582
+)
+"rewrite_arith.ml" 48 1531 1557 "rewrite_arith.ml" 48 1531 1570
+type(
+  int -> string
+)
+ident(
+  int_ref Stdlib.string_of_int "stdlib.mli" 750 27897 27897 "stdlib.mli" 750 27897 27930
+)
+"rewrite_arith.ml" 48 1531 1571 "rewrite_arith.ml" 48 1531 1572
+type(
+  int
+)
+ident(
+  int_ref n "rewrite_arith.ml" 48 1531 1548 "rewrite_arith.ml" 48 1531 1549
+)
+"rewrite_arith.ml" 48 1531 1557 "rewrite_arith.ml" 48 1531 1572
+type(
+  string
+)
+"rewrite_arith.ml" 48 1531 1573 "rewrite_arith.ml" 48 1531 1575
+type(
+  string
+)
+"rewrite_arith.ml" 48 1531 1552 "rewrite_arith.ml" 48 1531 1576
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 48 1531 1580 "rewrite_arith.ml" 48 1531 1582
+type(
+  Expr.T.expr_ -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref mk "rewrite_arith.ml" 34 746 754 "rewrite_arith.ml" 34 746 756
+)
+"rewrite_arith.ml" 48 1531 1552 "rewrite_arith.ml" 48 1531 1582
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"rewrite_arith.ml" 49 1586 1596 "rewrite_arith.ml" 49 1586 1599
+type(
+  string -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  def abs "rewrite_arith.ml" 50 1708 1714 "rewrite_arith.ml" 189 11097 11106
+)
+"rewrite_arith.ml" 49 1586 1600 "rewrite_arith.ml" 49 1586 1601
+type(
+  string
+)
+ident(
+  def n "rewrite_arith.ml" 49 1586 1604 "rewrite_arith.ml" 49 1586 1704
+)
+"rewrite_arith.ml" 49 1586 1607 "rewrite_arith.ml" 49 1586 1613
+type(
+  string -> bool
+)
+ident(
+  int_ref is_neg "rewrite_arith.ml" 47 1495 1505 "rewrite_arith.ml" 47 1495 1511
+)
+"rewrite_arith.ml" 49 1586 1614 "rewrite_arith.ml" 49 1586 1615
+type(
+  string
+)
+ident(
+  int_ref n "rewrite_arith.ml" 49 1586 1600 "rewrite_arith.ml" 49 1586 1601
+)
+"rewrite_arith.ml" 49 1586 1607 "rewrite_arith.ml" 49 1586 1615
+type(
+  bool
+)
+"rewrite_arith.ml" 49 1586 1626 "rewrite_arith.ml" 49 1586 1636
+type(
+  string -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.String.sub "string.mli" 190 6894 6894 "string.mli" 190 6894 6934
+)
+"rewrite_arith.ml" 49 1586 1637 "rewrite_arith.ml" 49 1586 1638
+type(
+  string
+)
+ident(
+  int_ref n "rewrite_arith.ml" 49 1586 1600 "rewrite_arith.ml" 49 1586 1601
+)
+"rewrite_arith.ml" 49 1586 1639 "rewrite_arith.ml" 49 1586 1640
+type(
+  int
+)
+"rewrite_arith.ml" 49 1586 1643 "rewrite_arith.ml" 49 1586 1656
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 118 4569 4569 "string.mli" 118 4569 4619
+)
+"rewrite_arith.ml" 49 1586 1657 "rewrite_arith.ml" 49 1586 1658
+type(
+  string
+)
+ident(
+  int_ref n "rewrite_arith.ml" 49 1586 1600 "rewrite_arith.ml" 49 1586 1601
+)
+"rewrite_arith.ml" 49 1586 1642 "rewrite_arith.ml" 49 1586 1659
+type(
+  int
+)
+"rewrite_arith.ml" 49 1586 1660 "rewrite_arith.ml" 49 1586 1661
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"rewrite_arith.ml" 49 1586 1662 "rewrite_arith.ml" 49 1586 1663
+type(
+  int
+)
+"rewrite_arith.ml" 49 1586 1641 "rewrite_arith.ml" 49 1586 1664
+type(
+  int
+)
+"rewrite_arith.ml" 49 1586 1626 "rewrite_arith.ml" 49 1586 1664
+type(
+  string
+)
+"rewrite_arith.ml" 49 1586 1665 "rewrite_arith.ml" 49 1586 1667
+type(
+  string
+)
+"rewrite_arith.ml" 49 1586 1621 "rewrite_arith.ml" 49 1586 1668
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 49 1586 1672 "rewrite_arith.ml" 49 1586 1674
+type(
+  Expr.T.expr_ -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref mk "rewrite_arith.ml" 34 746 754 "rewrite_arith.ml" 34 746 756
+)
+"rewrite_arith.ml" 49 1586 1621 "rewrite_arith.ml" 49 1586 1674
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"rewrite_arith.ml" 49 1586 1680 "rewrite_arith.ml" 49 1586 1686
+type(
+  int -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref mk_num "rewrite_arith.ml" 48 1531 1541 "rewrite_arith.ml" 48 1531 1547
+)
+"rewrite_arith.ml" 49 1586 1688 "rewrite_arith.ml" 49 1586 1701
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.int_of_string "stdlib.mli" 774 28807 28807 "stdlib.mli" 774 28807 28868
+)
+"rewrite_arith.ml" 49 1586 1702 "rewrite_arith.ml" 49 1586 1703
+type(
+  string
+)
+ident(
+  int_ref n "rewrite_arith.ml" 49 1586 1600 "rewrite_arith.ml" 49 1586 1601
+)
+"rewrite_arith.ml" 49 1586 1687 "rewrite_arith.ml" 49 1586 1704
+type(
+  int
+)
+"rewrite_arith.ml" 49 1586 1680 "rewrite_arith.ml" 49 1586 1704
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"rewrite_arith.ml" 49 1586 1604 "rewrite_arith.ml" 49 1586 1704
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"rewrite_arith.ml" 50 1708 1726 "rewrite_arith.ml" 50 1708 1728
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "rewrite_arith.ml" 44 1377 1407 "rewrite_arith.ml" 44 1377 1409
+)
+"rewrite_arith.ml" 50 1708 1730 "rewrite_arith.ml" 50 1708 1731
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 50 1708 1730 "rewrite_arith.ml" 50 1708 1736
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 50 1708 1738 "rewrite_arith.ml" 50 1708 1739
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 50 1708 1738 "rewrite_arith.ml" 50 1708 1744
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 50 1708 1726 "rewrite_arith.ml" 50 1708 1744
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 51 1750 1761 "rewrite_arith.ml" 51 1750 1767
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 51 1750 1770 "rewrite_arith.ml" 51 1750 1777
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 51 1750 1760 "rewrite_arith.ml" 51 1750 1778
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 51 1750 1780 "rewrite_arith.ml" 51 1750 1781
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 51 1750 1788 "rewrite_arith.ml" 51 1750 1791
+type(
+  string
+)
+"rewrite_arith.ml" 51 1750 1792 "rewrite_arith.ml" 51 1750 1794
+type(
+  string
+)
+"rewrite_arith.ml" 51 1750 1783 "rewrite_arith.ml" 51 1750 1795
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 51 1750 1760 "rewrite_arith.ml" 51 1750 1795
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 51 1750 1801 "rewrite_arith.ml" 51 1750 1807
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 51 1750 1808 "rewrite_arith.ml" 51 1750 1811
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 51 1750 1812 "rewrite_arith.ml" 51 1750 1813
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 51 1750 1801 "rewrite_arith.ml" 51 1750 1813
+type(
+  bool
+)
+"rewrite_arith.ml" 51 1750 1817 "rewrite_arith.ml" 51 1750 1822
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref build "rewrite_arith.ml" 35 784 792 "rewrite_arith.ml" 35 784 797
+)
+"rewrite_arith.ml" 51 1750 1823 "rewrite_arith.ml" 51 1750 1824
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 51 1750 1817 "rewrite_arith.ml" 51 1750 1824
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 52 1825 1835 "rewrite_arith.ml" 52 1825 1841
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 52 1825 1848 "rewrite_arith.ml" 52 1825 1851
+type(
+  string
+)
+"rewrite_arith.ml" 52 1825 1852 "rewrite_arith.ml" 52 1825 1854
+type(
+  string
+)
+"rewrite_arith.ml" 52 1825 1843 "rewrite_arith.ml" 52 1825 1855
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 52 1825 1857 "rewrite_arith.ml" 52 1825 1858
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 52 1825 1835 "rewrite_arith.ml" 52 1825 1858
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 52 1825 1864 "rewrite_arith.ml" 52 1825 1870
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 52 1825 1871 "rewrite_arith.ml" 52 1825 1874
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 52 1825 1875 "rewrite_arith.ml" 52 1825 1876
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 52 1825 1864 "rewrite_arith.ml" 52 1825 1876
+type(
+  bool
+)
+"rewrite_arith.ml" 52 1825 1880 "rewrite_arith.ml" 52 1825 1885
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref build "rewrite_arith.ml" 35 784 792 "rewrite_arith.ml" 35 784 797
+)
+"rewrite_arith.ml" 52 1825 1886 "rewrite_arith.ml" 52 1825 1887
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 52 1825 1880 "rewrite_arith.ml" 52 1825 1887
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 53 1888 1898 "rewrite_arith.ml" 53 1888 1905
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 53 1888 1912 "rewrite_arith.ml" 53 1888 1915
+type(
+  string
+)
+"rewrite_arith.ml" 53 1888 1916 "rewrite_arith.ml" 53 1888 1918
+type(
+  string
+)
+"rewrite_arith.ml" 53 1888 1907 "rewrite_arith.ml" 53 1888 1919
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 53 1888 1921 "rewrite_arith.ml" 53 1888 1922
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 53 1888 1898 "rewrite_arith.ml" 53 1888 1922
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 53 1888 1928 "rewrite_arith.ml" 53 1888 1934
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 53 1888 1935 "rewrite_arith.ml" 53 1888 1938
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 53 1888 1939 "rewrite_arith.ml" 53 1888 1940
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 53 1888 1928 "rewrite_arith.ml" 53 1888 1940
+type(
+  bool
+)
+"rewrite_arith.ml" 53 1888 1960 "rewrite_arith.ml" 53 1888 1968
+type(
+  B.builtin
+)
+"rewrite_arith.ml" 53 1888 1951 "rewrite_arith.ml" 53 1888 1968
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 53 1888 1972 "rewrite_arith.ml" 53 1888 1974
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "rewrite_arith.ml" 34 746 754 "rewrite_arith.ml" 34 746 756
+)
+"rewrite_arith.ml" 53 1888 1951 "rewrite_arith.ml" 53 1888 1974
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 53 1888 1977 "rewrite_arith.ml" 53 1888 1978
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 53 1888 1976 "rewrite_arith.ml" 53 1888 1979
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 53 1888 1944 "rewrite_arith.ml" 53 1888 1980
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 53 1888 1984 "rewrite_arith.ml" 53 1888 1986
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "rewrite_arith.ml" 34 746 754 "rewrite_arith.ml" 34 746 756
+)
+"rewrite_arith.ml" 53 1888 1944 "rewrite_arith.ml" 53 1888 1986
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 56 2047 2057 "rewrite_arith.ml" 56 2047 2063
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 56 2047 2070 "rewrite_arith.ml" 56 2047 2071
+type(
+  string
+)
+ident(
+  def x "rewrite_arith.ml" 56 2047 2093 "rewrite_arith.ml" 57 2125 2181
+)
+"rewrite_arith.ml" 56 2047 2072 "rewrite_arith.ml" 56 2047 2074
+type(
+  string
+)
+"rewrite_arith.ml" 56 2047 2065 "rewrite_arith.ml" 56 2047 2075
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 56 2047 2082 "rewrite_arith.ml" 56 2047 2083
+type(
+  string
+)
+ident(
+  def y "rewrite_arith.ml" 56 2047 2093 "rewrite_arith.ml" 57 2125 2181
+)
+"rewrite_arith.ml" 56 2047 2084 "rewrite_arith.ml" 56 2047 2086
+type(
+  string
+)
+"rewrite_arith.ml" 56 2047 2077 "rewrite_arith.ml" 56 2047 2087
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 56 2047 2057 "rewrite_arith.ml" 56 2047 2087
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 56 2047 2093 "rewrite_arith.ml" 56 2047 2103
+type(
+  string -> bool
+)
+ident(
+  int_ref str_is_int "rewrite_arith.ml" 41 1164 1172 "rewrite_arith.ml" 41 1164 1182
+)
+"rewrite_arith.ml" 56 2047 2104 "rewrite_arith.ml" 56 2047 2105
+type(
+  string
+)
+ident(
+  int_ref x "rewrite_arith.ml" 56 2047 2070 "rewrite_arith.ml" 56 2047 2071
+)
+"rewrite_arith.ml" 56 2047 2093 "rewrite_arith.ml" 56 2047 2105
+type(
+  bool
+)
+"rewrite_arith.ml" 56 2047 2106 "rewrite_arith.ml" 56 2047 2108
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 56 2047 2109 "rewrite_arith.ml" 56 2047 2119
+type(
+  string -> bool
+)
+ident(
+  int_ref str_is_int "rewrite_arith.ml" 41 1164 1172 "rewrite_arith.ml" 41 1164 1182
+)
+"rewrite_arith.ml" 56 2047 2120 "rewrite_arith.ml" 56 2047 2121
+type(
+  string
+)
+ident(
+  int_ref y "rewrite_arith.ml" 56 2047 2082 "rewrite_arith.ml" 56 2047 2083
+)
+"rewrite_arith.ml" 56 2047 2109 "rewrite_arith.ml" 56 2047 2121
+type(
+  bool
+)
+"rewrite_arith.ml" 56 2047 2093 "rewrite_arith.ml" 56 2047 2121
+type(
+  bool
+)
+"rewrite_arith.ml" 57 2125 2135 "rewrite_arith.ml" 57 2125 2141
+type(
+  int -> Expr.T.expr
+)
+ident(
+  int_ref mk_num "rewrite_arith.ml" 48 1531 1541 "rewrite_arith.ml" 48 1531 1547
+)
+"rewrite_arith.ml" 57 2125 2144 "rewrite_arith.ml" 57 2125 2157
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.int_of_string "stdlib.mli" 774 28807 28807 "stdlib.mli" 774 28807 28868
+)
+"rewrite_arith.ml" 57 2125 2158 "rewrite_arith.ml" 57 2125 2159
+type(
+  string
+)
+ident(
+  int_ref x "rewrite_arith.ml" 56 2047 2070 "rewrite_arith.ml" 56 2047 2071
+)
+"rewrite_arith.ml" 57 2125 2143 "rewrite_arith.ml" 57 2125 2160
+type(
+  int
+)
+"rewrite_arith.ml" 57 2125 2161 "rewrite_arith.ml" 57 2125 2162
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"rewrite_arith.ml" 57 2125 2164 "rewrite_arith.ml" 57 2125 2177
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.int_of_string "stdlib.mli" 774 28807 28807 "stdlib.mli" 774 28807 28868
+)
+"rewrite_arith.ml" 57 2125 2178 "rewrite_arith.ml" 57 2125 2179
+type(
+  string
+)
+ident(
+  int_ref y "rewrite_arith.ml" 56 2047 2082 "rewrite_arith.ml" 56 2047 2083
+)
+"rewrite_arith.ml" 57 2125 2163 "rewrite_arith.ml" 57 2125 2180
+type(
+  int
+)
+"rewrite_arith.ml" 57 2125 2142 "rewrite_arith.ml" 57 2125 2181
+type(
+  int
+)
+"rewrite_arith.ml" 57 2125 2135 "rewrite_arith.ml" 57 2125 2181
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 58 2182 2192 "rewrite_arith.ml" 58 2182 2199
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 58 2182 2206 "rewrite_arith.ml" 58 2182 2207
+type(
+  string
+)
+ident(
+  def x "rewrite_arith.ml" 58 2182 2229 "rewrite_arith.ml" 60 2320 2414
+)
+"rewrite_arith.ml" 58 2182 2208 "rewrite_arith.ml" 58 2182 2210
+type(
+  string
+)
+"rewrite_arith.ml" 58 2182 2201 "rewrite_arith.ml" 58 2182 2211
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 58 2182 2218 "rewrite_arith.ml" 58 2182 2219
+type(
+  string
+)
+ident(
+  def y "rewrite_arith.ml" 58 2182 2229 "rewrite_arith.ml" 60 2320 2414
+)
+"rewrite_arith.ml" 58 2182 2220 "rewrite_arith.ml" 58 2182 2222
+type(
+  string
+)
+"rewrite_arith.ml" 58 2182 2213 "rewrite_arith.ml" 58 2182 2223
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 58 2182 2192 "rewrite_arith.ml" 58 2182 2223
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 58 2182 2229 "rewrite_arith.ml" 58 2182 2239
+type(
+  string -> bool
+)
+ident(
+  int_ref str_is_int "rewrite_arith.ml" 41 1164 1172 "rewrite_arith.ml" 41 1164 1182
+)
+"rewrite_arith.ml" 58 2182 2240 "rewrite_arith.ml" 58 2182 2241
+type(
+  string
+)
+ident(
+  int_ref x "rewrite_arith.ml" 58 2182 2206 "rewrite_arith.ml" 58 2182 2207
+)
+"rewrite_arith.ml" 58 2182 2229 "rewrite_arith.ml" 58 2182 2241
+type(
+  bool
+)
+"rewrite_arith.ml" 58 2182 2242 "rewrite_arith.ml" 58 2182 2244
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 58 2182 2245 "rewrite_arith.ml" 58 2182 2255
+type(
+  string -> bool
+)
+ident(
+  int_ref str_is_int "rewrite_arith.ml" 41 1164 1172 "rewrite_arith.ml" 41 1164 1182
+)
+"rewrite_arith.ml" 58 2182 2256 "rewrite_arith.ml" 58 2182 2257
+type(
+  string
+)
+ident(
+  int_ref y "rewrite_arith.ml" 58 2182 2218 "rewrite_arith.ml" 58 2182 2219
+)
+"rewrite_arith.ml" 58 2182 2245 "rewrite_arith.ml" 58 2182 2257
+type(
+  bool
+)
+"rewrite_arith.ml" 58 2182 2229 "rewrite_arith.ml" 58 2182 2257
+type(
+  bool
+)
+"rewrite_arith.ml" 59 2261 2275 "rewrite_arith.ml" 59 2261 2276
+type(
+  int
+)
+ident(
+  def n "rewrite_arith.ml" 60 2320 2330 "rewrite_arith.ml" 60 2320 2414
+)
+"rewrite_arith.ml" 59 2261 2280 "rewrite_arith.ml" 59 2261 2293
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.int_of_string "stdlib.mli" 774 28807 28807 "stdlib.mli" 774 28807 28868
+)
+"rewrite_arith.ml" 59 2261 2294 "rewrite_arith.ml" 59 2261 2295
+type(
+  string
+)
+ident(
+  int_ref x "rewrite_arith.ml" 58 2182 2206 "rewrite_arith.ml" 58 2182 2207
+)
+"rewrite_arith.ml" 59 2261 2279 "rewrite_arith.ml" 59 2261 2296
+type(
+  int
+)
+"rewrite_arith.ml" 59 2261 2297 "rewrite_arith.ml" 59 2261 2298
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"rewrite_arith.ml" 59 2261 2300 "rewrite_arith.ml" 59 2261 2313
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.int_of_string "stdlib.mli" 774 28807 28807 "stdlib.mli" 774 28807 28868
+)
+"rewrite_arith.ml" 59 2261 2314 "rewrite_arith.ml" 59 2261 2315
+type(
+  string
+)
+ident(
+  int_ref y "rewrite_arith.ml" 58 2182 2218 "rewrite_arith.ml" 58 2182 2219
+)
+"rewrite_arith.ml" 59 2261 2299 "rewrite_arith.ml" 59 2261 2316
+type(
+  int
+)
+"rewrite_arith.ml" 59 2261 2279 "rewrite_arith.ml" 59 2261 2316
+type(
+  int
+)
+"rewrite_arith.ml" 60 2320 2333 "rewrite_arith.ml" 60 2320 2334
+type(
+  int
+)
+ident(
+  int_ref n "rewrite_arith.ml" 59 2261 2275 "rewrite_arith.ml" 59 2261 2276
+)
+"rewrite_arith.ml" 60 2320 2335 "rewrite_arith.ml" 60 2320 2336
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 135 5721 5721 "stdlib.mli" 135 5721 5768
+)
+"rewrite_arith.ml" 60 2320 2337 "rewrite_arith.ml" 60 2320 2338
+type(
+  int
+)
+"rewrite_arith.ml" 60 2320 2333 "rewrite_arith.ml" 60 2320 2338
+type(
+  bool
+)
+"rewrite_arith.ml" 60 2320 2360 "rewrite_arith.ml" 60 2320 2368
+type(
+  B.builtin
+)
+"rewrite_arith.ml" 60 2320 2351 "rewrite_arith.ml" 60 2320 2368
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 60 2320 2372 "rewrite_arith.ml" 60 2320 2374
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "rewrite_arith.ml" 34 746 754 "rewrite_arith.ml" 34 746 756
+)
+"rewrite_arith.ml" 60 2320 2351 "rewrite_arith.ml" 60 2320 2374
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 60 2320 2377 "rewrite_arith.ml" 60 2320 2383
+type(
+  int -> Expr.T.expr
+)
+ident(
+  int_ref mk_num "rewrite_arith.ml" 48 1531 1541 "rewrite_arith.ml" 48 1531 1547
+)
+"rewrite_arith.ml" 60 2320 2385 "rewrite_arith.ml" 60 2320 2386
+type(
+  int
+)
+ident(
+  int_ref n "rewrite_arith.ml" 59 2261 2275 "rewrite_arith.ml" 59 2261 2276
+)
+"rewrite_arith.ml" 60 2320 2387 "rewrite_arith.ml" 60 2320 2388
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( * ) "stdlib.mli" 357 13929 13929 "stdlib.mli" 357 13929 13975
+)
+"rewrite_arith.ml" 60 2320 2389 "rewrite_arith.ml" 60 2320 2391
+type(
+  int
+)
+"rewrite_arith.ml" 60 2320 2384 "rewrite_arith.ml" 60 2320 2392
+type(
+  int
+)
+"rewrite_arith.ml" 60 2320 2377 "rewrite_arith.ml" 60 2320 2392
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 60 2320 2376 "rewrite_arith.ml" 60 2320 2393
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 60 2320 2344 "rewrite_arith.ml" 60 2320 2394
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 60 2320 2398 "rewrite_arith.ml" 60 2320 2400
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "rewrite_arith.ml" 34 746 754 "rewrite_arith.ml" 34 746 756
+)
+"rewrite_arith.ml" 60 2320 2344 "rewrite_arith.ml" 60 2320 2400
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 60 2320 2406 "rewrite_arith.ml" 60 2320 2412
+type(
+  int -> Expr.T.expr
+)
+ident(
+  int_ref mk_num "rewrite_arith.ml" 48 1531 1541 "rewrite_arith.ml" 48 1531 1547
+)
+"rewrite_arith.ml" 60 2320 2413 "rewrite_arith.ml" 60 2320 2414
+type(
+  int
+)
+ident(
+  int_ref n "rewrite_arith.ml" 59 2261 2275 "rewrite_arith.ml" 59 2261 2276
+)
+"rewrite_arith.ml" 60 2320 2406 "rewrite_arith.ml" 60 2320 2414
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 60 2320 2330 "rewrite_arith.ml" 60 2320 2414
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 59 2261 2271 "rewrite_arith.ml" 60 2320 2414
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 61 2415 2425 "rewrite_arith.ml" 61 2415 2432
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 61 2415 2439 "rewrite_arith.ml" 61 2415 2440
+type(
+  string
+)
+ident(
+  def x "rewrite_arith.ml" 61 2415 2462 "rewrite_arith.ml" 62 2494 2550
+)
+"rewrite_arith.ml" 61 2415 2441 "rewrite_arith.ml" 61 2415 2443
+type(
+  string
+)
+"rewrite_arith.ml" 61 2415 2434 "rewrite_arith.ml" 61 2415 2444
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 61 2415 2451 "rewrite_arith.ml" 61 2415 2452
+type(
+  string
+)
+ident(
+  def y "rewrite_arith.ml" 61 2415 2462 "rewrite_arith.ml" 62 2494 2550
+)
+"rewrite_arith.ml" 61 2415 2453 "rewrite_arith.ml" 61 2415 2455
+type(
+  string
+)
+"rewrite_arith.ml" 61 2415 2446 "rewrite_arith.ml" 61 2415 2456
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 61 2415 2425 "rewrite_arith.ml" 61 2415 2456
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 61 2415 2462 "rewrite_arith.ml" 61 2415 2472
+type(
+  string -> bool
+)
+ident(
+  int_ref str_is_int "rewrite_arith.ml" 41 1164 1172 "rewrite_arith.ml" 41 1164 1182
+)
+"rewrite_arith.ml" 61 2415 2473 "rewrite_arith.ml" 61 2415 2474
+type(
+  string
+)
+ident(
+  int_ref x "rewrite_arith.ml" 61 2415 2439 "rewrite_arith.ml" 61 2415 2440
+)
+"rewrite_arith.ml" 61 2415 2462 "rewrite_arith.ml" 61 2415 2474
+type(
+  bool
+)
+"rewrite_arith.ml" 61 2415 2475 "rewrite_arith.ml" 61 2415 2477
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 61 2415 2478 "rewrite_arith.ml" 61 2415 2488
+type(
+  string -> bool
+)
+ident(
+  int_ref str_is_int "rewrite_arith.ml" 41 1164 1172 "rewrite_arith.ml" 41 1164 1182
+)
+"rewrite_arith.ml" 61 2415 2489 "rewrite_arith.ml" 61 2415 2490
+type(
+  string
+)
+ident(
+  int_ref y "rewrite_arith.ml" 61 2415 2451 "rewrite_arith.ml" 61 2415 2452
+)
+"rewrite_arith.ml" 61 2415 2478 "rewrite_arith.ml" 61 2415 2490
+type(
+  bool
+)
+"rewrite_arith.ml" 61 2415 2462 "rewrite_arith.ml" 61 2415 2490
+type(
+  bool
+)
+"rewrite_arith.ml" 62 2494 2504 "rewrite_arith.ml" 62 2494 2510
+type(
+  int -> Expr.T.expr
+)
+ident(
+  int_ref mk_num "rewrite_arith.ml" 48 1531 1541 "rewrite_arith.ml" 48 1531 1547
+)
+"rewrite_arith.ml" 62 2494 2513 "rewrite_arith.ml" 62 2494 2526
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.int_of_string "stdlib.mli" 774 28807 28807 "stdlib.mli" 774 28807 28868
+)
+"rewrite_arith.ml" 62 2494 2527 "rewrite_arith.ml" 62 2494 2528
+type(
+  string
+)
+ident(
+  int_ref x "rewrite_arith.ml" 61 2415 2439 "rewrite_arith.ml" 61 2415 2440
+)
+"rewrite_arith.ml" 62 2494 2512 "rewrite_arith.ml" 62 2494 2529
+type(
+  int
+)
+"rewrite_arith.ml" 62 2494 2530 "rewrite_arith.ml" 62 2494 2531
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( * ) "stdlib.mli" 357 13929 13929 "stdlib.mli" 357 13929 13975
+)
+"rewrite_arith.ml" 62 2494 2533 "rewrite_arith.ml" 62 2494 2546
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.int_of_string "stdlib.mli" 774 28807 28807 "stdlib.mli" 774 28807 28868
+)
+"rewrite_arith.ml" 62 2494 2547 "rewrite_arith.ml" 62 2494 2548
+type(
+  string
+)
+ident(
+  int_ref y "rewrite_arith.ml" 61 2415 2451 "rewrite_arith.ml" 61 2415 2452
+)
+"rewrite_arith.ml" 62 2494 2532 "rewrite_arith.ml" 62 2494 2549
+type(
+  int
+)
+"rewrite_arith.ml" 62 2494 2511 "rewrite_arith.ml" 62 2494 2550
+type(
+  int
+)
+"rewrite_arith.ml" 62 2494 2504 "rewrite_arith.ml" 62 2494 2550
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 71 3491 3501 "rewrite_arith.ml" 71 3491 3508
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 71 3491 3510 "rewrite_arith.ml" 71 3491 3511
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 71 3491 3513 "rewrite_arith.ml" 71 3491 3514
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 71 3491 3501 "rewrite_arith.ml" 71 3491 3514
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 71 3491 3520 "rewrite_arith.ml" 71 3491 3526
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 71 3491 3527 "rewrite_arith.ml" 71 3491 3530
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 71 3491 3531 "rewrite_arith.ml" 71 3491 3532
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 71 3491 3520 "rewrite_arith.ml" 71 3491 3532
+type(
+  bool
+)
+"rewrite_arith.ml" 71 3491 3533 "rewrite_arith.ml" 71 3491 3535
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 71 3491 3536 "rewrite_arith.ml" 71 3491 3542
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 71 3491 3543 "rewrite_arith.ml" 71 3491 3546
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 71 3491 3547 "rewrite_arith.ml" 71 3491 3548
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 71 3491 3536 "rewrite_arith.ml" 71 3491 3548
+type(
+  bool
+)
+"rewrite_arith.ml" 71 3491 3549 "rewrite_arith.ml" 71 3491 3551
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 71 3491 3552 "rewrite_arith.ml" 71 3491 3564
+type(
+  Expr.T.expr -> Expr.T.expr -> bool
+)
+ident(
+  int_ref Expr.Eq.expr "expr.mli" 586 15497 15501 "expr.mli" 587 15511 15539
+)
+"rewrite_arith.ml" 71 3491 3565 "rewrite_arith.ml" 71 3491 3566
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 71 3491 3567 "rewrite_arith.ml" 71 3491 3568
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 71 3491 3552 "rewrite_arith.ml" 71 3491 3568
+type(
+  bool
+)
+"rewrite_arith.ml" 71 3491 3536 "rewrite_arith.ml" 71 3491 3568
+type(
+  bool
+)
+"rewrite_arith.ml" 71 3491 3520 "rewrite_arith.ml" 71 3491 3568
+type(
+  bool
+)
+"rewrite_arith.ml" 72 3572 3582 "rewrite_arith.ml" 72 3572 3586
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref zero "rewrite_arith.ml" 40 1127 1135 "rewrite_arith.ml" 40 1127 1139
+)
+"rewrite_arith.ml" 73 3587 3597 "rewrite_arith.ml" 73 3587 3603
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 73 3587 3605 "rewrite_arith.ml" 73 3587 3606
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 73 3587 3608 "rewrite_arith.ml" 73 3587 3609
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 73 3587 3597 "rewrite_arith.ml" 73 3587 3609
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 73 3587 3616 "rewrite_arith.ml" 73 3587 3622
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 73 3587 3623 "rewrite_arith.ml" 73 3587 3626
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 73 3587 3627 "rewrite_arith.ml" 73 3587 3628
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 73 3587 3616 "rewrite_arith.ml" 73 3587 3628
+type(
+  bool
+)
+"rewrite_arith.ml" 73 3587 3629 "rewrite_arith.ml" 73 3587 3631
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 73 3587 3632 "rewrite_arith.ml" 73 3587 3638
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 73 3587 3639 "rewrite_arith.ml" 73 3587 3642
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 73 3587 3643 "rewrite_arith.ml" 73 3587 3644
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 73 3587 3632 "rewrite_arith.ml" 73 3587 3644
+type(
+  bool
+)
+"rewrite_arith.ml" 73 3587 3645 "rewrite_arith.ml" 73 3587 3647
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 73 3587 3648 "rewrite_arith.ml" 73 3587 3660
+type(
+  Expr.T.expr -> Expr.T.expr -> bool
+)
+ident(
+  int_ref Expr.Eq.expr "expr.mli" 586 15497 15501 "expr.mli" 587 15511 15539
+)
+"rewrite_arith.ml" 73 3587 3661 "rewrite_arith.ml" 73 3587 3662
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 73 3587 3663 "rewrite_arith.ml" 73 3587 3664
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 73 3587 3648 "rewrite_arith.ml" 73 3587 3664
+type(
+  bool
+)
+"rewrite_arith.ml" 73 3587 3632 "rewrite_arith.ml" 73 3587 3664
+type(
+  bool
+)
+"rewrite_arith.ml" 73 3587 3616 "rewrite_arith.ml" 73 3587 3664
+type(
+  bool
+)
+"rewrite_arith.ml" 74 3668 3687 "rewrite_arith.ml" 74 3668 3693
+type(
+  B.builtin
+)
+"rewrite_arith.ml" 74 3668 3678 "rewrite_arith.ml" 74 3668 3693
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 74 3668 3697 "rewrite_arith.ml" 74 3668 3699
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "rewrite_arith.ml" 34 746 754 "rewrite_arith.ml" 34 746 756
+)
+"rewrite_arith.ml" 74 3668 3678 "rewrite_arith.ml" 74 3668 3699
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 77 3739 3749 "rewrite_arith.ml" 77 3739 3755
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 77 3739 3781 "rewrite_arith.ml" 77 3739 3787
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 77 3739 3772 "rewrite_arith.ml" 77 3739 3787
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 77 3739 3764 "rewrite_arith.ml" 77 3739 3788
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 77 3739 3791 "rewrite_arith.ml" 77 3739 3792
+type(
+  Expr.T.expr
+)
+ident(
+  def x "rewrite_arith.ml" 78 3842 3857 "rewrite_arith.ml" 79 3911 3928
+)
+"rewrite_arith.ml" 77 3739 3795 "rewrite_arith.ml" 77 3739 3796
+type(
+  Expr.T.expr
+)
+ident(
+  def y "rewrite_arith.ml" 78 3842 3857 "rewrite_arith.ml" 79 3911 3928
+)
+"rewrite_arith.ml" 77 3739 3790 "rewrite_arith.ml" 77 3739 3797
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 77 3739 3757 "rewrite_arith.ml" 77 3739 3798
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 77 3739 3824 "rewrite_arith.ml" 77 3739 3830
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 77 3739 3815 "rewrite_arith.ml" 77 3739 3830
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 77 3739 3807 "rewrite_arith.ml" 77 3739 3831
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 77 3739 3834 "rewrite_arith.ml" 77 3739 3835
+type(
+  Expr.T.expr
+)
+ident(
+  def z "rewrite_arith.ml" 78 3842 3857 "rewrite_arith.ml" 79 3911 3928
+)
+"rewrite_arith.ml" 77 3739 3838 "rewrite_arith.ml" 77 3739 3839
+type(
+  Expr.T.expr
+)
+ident(
+  def w "rewrite_arith.ml" 78 3842 3857 "rewrite_arith.ml" 79 3911 3928
+)
+"rewrite_arith.ml" 77 3739 3833 "rewrite_arith.ml" 77 3739 3840
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 77 3739 3800 "rewrite_arith.ml" 77 3739 3841
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 77 3739 3749 "rewrite_arith.ml" 77 3739 3841
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 78 3842 3857 "rewrite_arith.ml" 78 3842 3864
+type(
+  (Expr.T.expr -> bool) -> Expr.T.expr list -> bool
+)
+ident(
+  int_ref Ext.List.for_all "ext.mli" 26 1026 1028 "ext.mli" 26 1026 1073
+)
+"rewrite_arith.ml" 78 3842 3866 "rewrite_arith.ml" 78 3842 3872
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 78 3842 3873 "rewrite_arith.ml" 78 3842 3876
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 78 3842 3865 "rewrite_arith.ml" 78 3842 3877
+type(
+  Expr.T.expr -> bool
+)
+"rewrite_arith.ml" 78 3842 3879 "rewrite_arith.ml" 78 3842 3880
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 77 3739 3791 "rewrite_arith.ml" 77 3739 3792
+)
+"rewrite_arith.ml" 78 3842 3881 "rewrite_arith.ml" 78 3842 3882
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 77 3739 3795 "rewrite_arith.ml" 77 3739 3796
+)
+"rewrite_arith.ml" 78 3842 3883 "rewrite_arith.ml" 78 3842 3884
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 77 3739 3834 "rewrite_arith.ml" 77 3739 3835
+)
+"rewrite_arith.ml" 78 3842 3885 "rewrite_arith.ml" 78 3842 3886
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref w "rewrite_arith.ml" 77 3739 3838 "rewrite_arith.ml" 77 3739 3839
+)
+"rewrite_arith.ml" 78 3842 3878 "rewrite_arith.ml" 78 3842 3887
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 78 3842 3857 "rewrite_arith.ml" 78 3842 3887
+type(
+  bool
+)
+"rewrite_arith.ml" 78 3842 3888 "rewrite_arith.ml" 78 3842 3890
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 78 3842 3891 "rewrite_arith.ml" 78 3842 3903
+type(
+  Expr.T.expr -> Expr.T.expr -> bool
+)
+ident(
+  int_ref Expr.Eq.expr "expr.mli" 586 15497 15501 "expr.mli" 587 15511 15539
+)
+"rewrite_arith.ml" 78 3842 3904 "rewrite_arith.ml" 78 3842 3905
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 77 3739 3791 "rewrite_arith.ml" 77 3739 3792
+)
+"rewrite_arith.ml" 78 3842 3906 "rewrite_arith.ml" 78 3842 3907
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 77 3739 3834 "rewrite_arith.ml" 77 3739 3835
+)
+"rewrite_arith.ml" 78 3842 3891 "rewrite_arith.ml" 78 3842 3907
+type(
+  bool
+)
+"rewrite_arith.ml" 78 3842 3857 "rewrite_arith.ml" 78 3842 3907
+type(
+  bool
+)
+"rewrite_arith.ml" 79 3911 3921 "rewrite_arith.ml" 79 3911 3924
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref leq "rewrite_arith.ml" 37 997 1005 "rewrite_arith.ml" 37 997 1008
+)
+"rewrite_arith.ml" 79 3911 3925 "rewrite_arith.ml" 79 3911 3926
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 77 3739 3795 "rewrite_arith.ml" 77 3739 3796
+)
+"rewrite_arith.ml" 79 3911 3927 "rewrite_arith.ml" 79 3911 3928
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref w "rewrite_arith.ml" 77 3739 3838 "rewrite_arith.ml" 77 3739 3839
+)
+"rewrite_arith.ml" 79 3911 3921 "rewrite_arith.ml" 79 3911 3928
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 80 3929 3939 "rewrite_arith.ml" 80 3929 3945
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 80 3929 3971 "rewrite_arith.ml" 80 3929 3977
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 80 3929 3962 "rewrite_arith.ml" 80 3929 3977
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 80 3929 3954 "rewrite_arith.ml" 80 3929 3978
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 80 3929 3981 "rewrite_arith.ml" 80 3929 3982
+type(
+  Expr.T.expr
+)
+ident(
+  def x "rewrite_arith.ml" 81 4032 4047 "rewrite_arith.ml" 82 4101 4118
+)
+"rewrite_arith.ml" 80 3929 3985 "rewrite_arith.ml" 80 3929 3986
+type(
+  Expr.T.expr
+)
+ident(
+  def y "rewrite_arith.ml" 81 4032 4047 "rewrite_arith.ml" 82 4101 4118
+)
+"rewrite_arith.ml" 80 3929 3980 "rewrite_arith.ml" 80 3929 3987
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 80 3929 3947 "rewrite_arith.ml" 80 3929 3988
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 80 3929 4014 "rewrite_arith.ml" 80 3929 4020
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 80 3929 4005 "rewrite_arith.ml" 80 3929 4020
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 80 3929 3997 "rewrite_arith.ml" 80 3929 4021
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 80 3929 4024 "rewrite_arith.ml" 80 3929 4025
+type(
+  Expr.T.expr
+)
+ident(
+  def z "rewrite_arith.ml" 81 4032 4047 "rewrite_arith.ml" 82 4101 4118
+)
+"rewrite_arith.ml" 80 3929 4028 "rewrite_arith.ml" 80 3929 4029
+type(
+  Expr.T.expr
+)
+ident(
+  def w "rewrite_arith.ml" 81 4032 4047 "rewrite_arith.ml" 82 4101 4118
+)
+"rewrite_arith.ml" 80 3929 4023 "rewrite_arith.ml" 80 3929 4030
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 80 3929 3990 "rewrite_arith.ml" 80 3929 4031
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 80 3929 3939 "rewrite_arith.ml" 80 3929 4031
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 81 4032 4047 "rewrite_arith.ml" 81 4032 4054
+type(
+  (Expr.T.expr -> bool) -> Expr.T.expr list -> bool
+)
+ident(
+  int_ref Ext.List.for_all "ext.mli" 26 1026 1028 "ext.mli" 26 1026 1073
+)
+"rewrite_arith.ml" 81 4032 4056 "rewrite_arith.ml" 81 4032 4062
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 81 4032 4063 "rewrite_arith.ml" 81 4032 4066
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 81 4032 4055 "rewrite_arith.ml" 81 4032 4067
+type(
+  Expr.T.expr -> bool
+)
+"rewrite_arith.ml" 81 4032 4069 "rewrite_arith.ml" 81 4032 4070
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 80 3929 3981 "rewrite_arith.ml" 80 3929 3982
+)
+"rewrite_arith.ml" 81 4032 4071 "rewrite_arith.ml" 81 4032 4072
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 80 3929 3985 "rewrite_arith.ml" 80 3929 3986
+)
+"rewrite_arith.ml" 81 4032 4073 "rewrite_arith.ml" 81 4032 4074
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 80 3929 4024 "rewrite_arith.ml" 80 3929 4025
+)
+"rewrite_arith.ml" 81 4032 4075 "rewrite_arith.ml" 81 4032 4076
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref w "rewrite_arith.ml" 80 3929 4028 "rewrite_arith.ml" 80 3929 4029
+)
+"rewrite_arith.ml" 81 4032 4068 "rewrite_arith.ml" 81 4032 4077
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 81 4032 4047 "rewrite_arith.ml" 81 4032 4077
+type(
+  bool
+)
+"rewrite_arith.ml" 81 4032 4078 "rewrite_arith.ml" 81 4032 4080
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 81 4032 4081 "rewrite_arith.ml" 81 4032 4093
+type(
+  Expr.T.expr -> Expr.T.expr -> bool
+)
+ident(
+  int_ref Expr.Eq.expr "expr.mli" 586 15497 15501 "expr.mli" 587 15511 15539
+)
+"rewrite_arith.ml" 81 4032 4094 "rewrite_arith.ml" 81 4032 4095
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 80 3929 3985 "rewrite_arith.ml" 80 3929 3986
+)
+"rewrite_arith.ml" 81 4032 4096 "rewrite_arith.ml" 81 4032 4097
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref w "rewrite_arith.ml" 80 3929 4028 "rewrite_arith.ml" 80 3929 4029
+)
+"rewrite_arith.ml" 81 4032 4081 "rewrite_arith.ml" 81 4032 4097
+type(
+  bool
+)
+"rewrite_arith.ml" 81 4032 4047 "rewrite_arith.ml" 81 4032 4097
+type(
+  bool
+)
+"rewrite_arith.ml" 82 4101 4111 "rewrite_arith.ml" 82 4101 4114
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref leq "rewrite_arith.ml" 37 997 1005 "rewrite_arith.ml" 37 997 1008
+)
+"rewrite_arith.ml" 82 4101 4115 "rewrite_arith.ml" 82 4101 4116
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 80 3929 3981 "rewrite_arith.ml" 80 3929 3982
+)
+"rewrite_arith.ml" 82 4101 4117 "rewrite_arith.ml" 82 4101 4118
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 80 3929 4024 "rewrite_arith.ml" 80 3929 4025
+)
+"rewrite_arith.ml" 82 4101 4111 "rewrite_arith.ml" 82 4101 4118
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 83 4119 4129 "rewrite_arith.ml" 83 4119 4135
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 83 4119 4161 "rewrite_arith.ml" 83 4119 4167
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 83 4119 4152 "rewrite_arith.ml" 83 4119 4167
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 83 4119 4144 "rewrite_arith.ml" 83 4119 4168
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 83 4119 4171 "rewrite_arith.ml" 83 4119 4172
+type(
+  Expr.T.expr
+)
+ident(
+  def x "rewrite_arith.ml" 84 4222 4237 "rewrite_arith.ml" 85 4291 4308
+)
+"rewrite_arith.ml" 83 4119 4175 "rewrite_arith.ml" 83 4119 4176
+type(
+  Expr.T.expr
+)
+ident(
+  def y "rewrite_arith.ml" 84 4222 4237 "rewrite_arith.ml" 85 4291 4308
+)
+"rewrite_arith.ml" 83 4119 4170 "rewrite_arith.ml" 83 4119 4177
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 83 4119 4137 "rewrite_arith.ml" 83 4119 4178
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 83 4119 4204 "rewrite_arith.ml" 83 4119 4210
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 83 4119 4195 "rewrite_arith.ml" 83 4119 4210
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 83 4119 4187 "rewrite_arith.ml" 83 4119 4211
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 83 4119 4214 "rewrite_arith.ml" 83 4119 4215
+type(
+  Expr.T.expr
+)
+ident(
+  def z "rewrite_arith.ml" 84 4222 4237 "rewrite_arith.ml" 85 4291 4308
+)
+"rewrite_arith.ml" 83 4119 4218 "rewrite_arith.ml" 83 4119 4219
+type(
+  Expr.T.expr
+)
+ident(
+  def w "rewrite_arith.ml" 84 4222 4237 "rewrite_arith.ml" 85 4291 4308
+)
+"rewrite_arith.ml" 83 4119 4213 "rewrite_arith.ml" 83 4119 4220
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 83 4119 4180 "rewrite_arith.ml" 83 4119 4221
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 83 4119 4129 "rewrite_arith.ml" 83 4119 4221
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 84 4222 4237 "rewrite_arith.ml" 84 4222 4244
+type(
+  (Expr.T.expr -> bool) -> Expr.T.expr list -> bool
+)
+ident(
+  int_ref Ext.List.for_all "ext.mli" 26 1026 1028 "ext.mli" 26 1026 1073
+)
+"rewrite_arith.ml" 84 4222 4246 "rewrite_arith.ml" 84 4222 4252
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 84 4222 4253 "rewrite_arith.ml" 84 4222 4256
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 84 4222 4245 "rewrite_arith.ml" 84 4222 4257
+type(
+  Expr.T.expr -> bool
+)
+"rewrite_arith.ml" 84 4222 4259 "rewrite_arith.ml" 84 4222 4260
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 83 4119 4171 "rewrite_arith.ml" 83 4119 4172
+)
+"rewrite_arith.ml" 84 4222 4261 "rewrite_arith.ml" 84 4222 4262
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 83 4119 4175 "rewrite_arith.ml" 83 4119 4176
+)
+"rewrite_arith.ml" 84 4222 4263 "rewrite_arith.ml" 84 4222 4264
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 83 4119 4214 "rewrite_arith.ml" 83 4119 4215
+)
+"rewrite_arith.ml" 84 4222 4265 "rewrite_arith.ml" 84 4222 4266
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref w "rewrite_arith.ml" 83 4119 4218 "rewrite_arith.ml" 83 4119 4219
+)
+"rewrite_arith.ml" 84 4222 4258 "rewrite_arith.ml" 84 4222 4267
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 84 4222 4237 "rewrite_arith.ml" 84 4222 4267
+type(
+  bool
+)
+"rewrite_arith.ml" 84 4222 4268 "rewrite_arith.ml" 84 4222 4270
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 84 4222 4271 "rewrite_arith.ml" 84 4222 4283
+type(
+  Expr.T.expr -> Expr.T.expr -> bool
+)
+ident(
+  int_ref Expr.Eq.expr "expr.mli" 586 15497 15501 "expr.mli" 587 15511 15539
+)
+"rewrite_arith.ml" 84 4222 4284 "rewrite_arith.ml" 84 4222 4285
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 83 4119 4171 "rewrite_arith.ml" 83 4119 4172
+)
+"rewrite_arith.ml" 84 4222 4286 "rewrite_arith.ml" 84 4222 4287
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref w "rewrite_arith.ml" 83 4119 4218 "rewrite_arith.ml" 83 4119 4219
+)
+"rewrite_arith.ml" 84 4222 4271 "rewrite_arith.ml" 84 4222 4287
+type(
+  bool
+)
+"rewrite_arith.ml" 84 4222 4237 "rewrite_arith.ml" 84 4222 4287
+type(
+  bool
+)
+"rewrite_arith.ml" 85 4291 4301 "rewrite_arith.ml" 85 4291 4304
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref leq "rewrite_arith.ml" 37 997 1005 "rewrite_arith.ml" 37 997 1008
+)
+"rewrite_arith.ml" 85 4291 4305 "rewrite_arith.ml" 85 4291 4306
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 83 4119 4175 "rewrite_arith.ml" 83 4119 4176
+)
+"rewrite_arith.ml" 85 4291 4307 "rewrite_arith.ml" 85 4291 4308
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 83 4119 4214 "rewrite_arith.ml" 83 4119 4215
+)
+"rewrite_arith.ml" 85 4291 4301 "rewrite_arith.ml" 85 4291 4308
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 86 4309 4319 "rewrite_arith.ml" 86 4309 4325
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 86 4309 4351 "rewrite_arith.ml" 86 4309 4357
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 86 4309 4342 "rewrite_arith.ml" 86 4309 4357
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 86 4309 4334 "rewrite_arith.ml" 86 4309 4358
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 86 4309 4361 "rewrite_arith.ml" 86 4309 4362
+type(
+  Expr.T.expr
+)
+ident(
+  def x "rewrite_arith.ml" 87 4412 4427 "rewrite_arith.ml" 88 4481 4498
+)
+"rewrite_arith.ml" 86 4309 4365 "rewrite_arith.ml" 86 4309 4366
+type(
+  Expr.T.expr
+)
+ident(
+  def y "rewrite_arith.ml" 87 4412 4427 "rewrite_arith.ml" 88 4481 4498
+)
+"rewrite_arith.ml" 86 4309 4360 "rewrite_arith.ml" 86 4309 4367
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 86 4309 4327 "rewrite_arith.ml" 86 4309 4368
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 86 4309 4394 "rewrite_arith.ml" 86 4309 4400
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 86 4309 4385 "rewrite_arith.ml" 86 4309 4400
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 86 4309 4377 "rewrite_arith.ml" 86 4309 4401
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 86 4309 4404 "rewrite_arith.ml" 86 4309 4405
+type(
+  Expr.T.expr
+)
+ident(
+  def z "rewrite_arith.ml" 87 4412 4427 "rewrite_arith.ml" 88 4481 4498
+)
+"rewrite_arith.ml" 86 4309 4408 "rewrite_arith.ml" 86 4309 4409
+type(
+  Expr.T.expr
+)
+ident(
+  def w "rewrite_arith.ml" 87 4412 4427 "rewrite_arith.ml" 88 4481 4498
+)
+"rewrite_arith.ml" 86 4309 4403 "rewrite_arith.ml" 86 4309 4410
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 86 4309 4370 "rewrite_arith.ml" 86 4309 4411
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 86 4309 4319 "rewrite_arith.ml" 86 4309 4411
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 87 4412 4427 "rewrite_arith.ml" 87 4412 4434
+type(
+  (Expr.T.expr -> bool) -> Expr.T.expr list -> bool
+)
+ident(
+  int_ref Ext.List.for_all "ext.mli" 26 1026 1028 "ext.mli" 26 1026 1073
+)
+"rewrite_arith.ml" 87 4412 4436 "rewrite_arith.ml" 87 4412 4442
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 87 4412 4443 "rewrite_arith.ml" 87 4412 4446
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 87 4412 4435 "rewrite_arith.ml" 87 4412 4447
+type(
+  Expr.T.expr -> bool
+)
+"rewrite_arith.ml" 87 4412 4449 "rewrite_arith.ml" 87 4412 4450
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 86 4309 4361 "rewrite_arith.ml" 86 4309 4362
+)
+"rewrite_arith.ml" 87 4412 4451 "rewrite_arith.ml" 87 4412 4452
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 86 4309 4365 "rewrite_arith.ml" 86 4309 4366
+)
+"rewrite_arith.ml" 87 4412 4453 "rewrite_arith.ml" 87 4412 4454
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 86 4309 4404 "rewrite_arith.ml" 86 4309 4405
+)
+"rewrite_arith.ml" 87 4412 4455 "rewrite_arith.ml" 87 4412 4456
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref w "rewrite_arith.ml" 86 4309 4408 "rewrite_arith.ml" 86 4309 4409
+)
+"rewrite_arith.ml" 87 4412 4448 "rewrite_arith.ml" 87 4412 4457
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 87 4412 4427 "rewrite_arith.ml" 87 4412 4457
+type(
+  bool
+)
+"rewrite_arith.ml" 87 4412 4458 "rewrite_arith.ml" 87 4412 4460
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 87 4412 4461 "rewrite_arith.ml" 87 4412 4473
+type(
+  Expr.T.expr -> Expr.T.expr -> bool
+)
+ident(
+  int_ref Expr.Eq.expr "expr.mli" 586 15497 15501 "expr.mli" 587 15511 15539
+)
+"rewrite_arith.ml" 87 4412 4474 "rewrite_arith.ml" 87 4412 4475
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 86 4309 4365 "rewrite_arith.ml" 86 4309 4366
+)
+"rewrite_arith.ml" 87 4412 4476 "rewrite_arith.ml" 87 4412 4477
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 86 4309 4404 "rewrite_arith.ml" 86 4309 4405
+)
+"rewrite_arith.ml" 87 4412 4461 "rewrite_arith.ml" 87 4412 4477
+type(
+  bool
+)
+"rewrite_arith.ml" 87 4412 4427 "rewrite_arith.ml" 87 4412 4477
+type(
+  bool
+)
+"rewrite_arith.ml" 88 4481 4491 "rewrite_arith.ml" 88 4481 4494
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref leq "rewrite_arith.ml" 37 997 1005 "rewrite_arith.ml" 37 997 1008
+)
+"rewrite_arith.ml" 88 4481 4495 "rewrite_arith.ml" 88 4481 4496
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 86 4309 4361 "rewrite_arith.ml" 86 4309 4362
+)
+"rewrite_arith.ml" 88 4481 4497 "rewrite_arith.ml" 88 4481 4498
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref w "rewrite_arith.ml" 86 4309 4408 "rewrite_arith.ml" 86 4309 4409
+)
+"rewrite_arith.ml" 88 4481 4491 "rewrite_arith.ml" 88 4481 4498
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 91 4549 4560 "rewrite_arith.ml" 91 4549 4566
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 91 4549 4569 "rewrite_arith.ml" 91 4549 4575
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 91 4549 4559 "rewrite_arith.ml" 91 4549 4576
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 91 4549 4578 "rewrite_arith.ml" 91 4549 4579
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 91 4549 4605 "rewrite_arith.ml" 91 4549 4612
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 91 4549 4596 "rewrite_arith.ml" 91 4549 4612
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 91 4549 4588 "rewrite_arith.ml" 91 4549 4613
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 91 4549 4616 "rewrite_arith.ml" 91 4549 4617
+type(
+  Expr.T.expr
+)
+ident(
+  def z "rewrite_arith.ml" 92 4624 4639 "rewrite_arith.ml" 93 4671 4728
+)
+"rewrite_arith.ml" 91 4549 4620 "rewrite_arith.ml" 91 4549 4621
+type(
+  Expr.T.expr
+)
+ident(
+  def w "rewrite_arith.ml" 92 4624 4639 "rewrite_arith.ml" 93 4671 4728
+)
+"rewrite_arith.ml" 91 4549 4615 "rewrite_arith.ml" 91 4549 4622
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 91 4549 4581 "rewrite_arith.ml" 91 4549 4623
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 91 4549 4559 "rewrite_arith.ml" 91 4549 4623
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 92 4624 4639 "rewrite_arith.ml" 92 4624 4646
+type(
+  (Expr.T.expr -> bool) -> Expr.T.expr list -> bool
+)
+ident(
+  int_ref Ext.List.for_all "ext.mli" 26 1026 1028 "ext.mli" 26 1026 1073
+)
+"rewrite_arith.ml" 92 4624 4648 "rewrite_arith.ml" 92 4624 4654
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 92 4624 4655 "rewrite_arith.ml" 92 4624 4658
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 92 4624 4647 "rewrite_arith.ml" 92 4624 4659
+type(
+  Expr.T.expr -> bool
+)
+"rewrite_arith.ml" 92 4624 4661 "rewrite_arith.ml" 92 4624 4662
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 92 4624 4663 "rewrite_arith.ml" 92 4624 4664
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 91 4549 4616 "rewrite_arith.ml" 91 4549 4617
+)
+"rewrite_arith.ml" 92 4624 4665 "rewrite_arith.ml" 92 4624 4666
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref w "rewrite_arith.ml" 91 4549 4620 "rewrite_arith.ml" 91 4549 4621
+)
+"rewrite_arith.ml" 92 4624 4660 "rewrite_arith.ml" 92 4624 4667
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 92 4624 4639 "rewrite_arith.ml" 92 4624 4667
+type(
+  bool
+)
+"rewrite_arith.ml" 93 4671 4688 "rewrite_arith.ml" 93 4671 4689
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref o "rewrite_arith.ml" 44 1377 1390 "rewrite_arith.ml" 44 1377 1415
+)
+"rewrite_arith.ml" 93 4671 4692 "rewrite_arith.ml" 93 4671 4696
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref plus "rewrite_arith.ml" 38 1039 1047 "rewrite_arith.ml" 38 1039 1051
+)
+"rewrite_arith.ml" 93 4671 4697 "rewrite_arith.ml" 93 4671 4698
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 93 4671 4699 "rewrite_arith.ml" 93 4671 4700
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref w "rewrite_arith.ml" 91 4549 4620 "rewrite_arith.ml" 91 4549 4621
+)
+"rewrite_arith.ml" 93 4671 4692 "rewrite_arith.ml" 93 4671 4700
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 93 4671 4703 "rewrite_arith.ml" 93 4671 4704
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 91 4549 4616 "rewrite_arith.ml" 91 4549 4617
+)
+"rewrite_arith.ml" 93 4671 4691 "rewrite_arith.ml" 93 4671 4705
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 93 4671 4681 "rewrite_arith.ml" 93 4671 4706
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 93 4671 4707 "rewrite_arith.ml" 93 4671 4709
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"rewrite_arith.ml" 93 4671 4710 "rewrite_arith.ml" 93 4671 4711
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "rewrite_arith.ml" 32 638 656 "rewrite_arith.ml" 32 638 657
+)
+"rewrite_arith.ml" 93 4671 4681 "rewrite_arith.ml" 93 4671 4711
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 93 4671 4715 "rewrite_arith.ml" 93 4671 4719
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 93 4671 4715 "rewrite_arith.ml" 93 4671 4724
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 93 4671 4725 "rewrite_arith.ml" 93 4671 4728
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 93 4671 4715 "rewrite_arith.ml" 93 4671 4728
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 93 4671 4681 "rewrite_arith.ml" 93 4671 4728
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 94 4729 4740 "rewrite_arith.ml" 94 4729 4746
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 94 4729 4749 "rewrite_arith.ml" 94 4729 4755
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 94 4729 4739 "rewrite_arith.ml" 94 4729 4756
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 94 4729 4782 "rewrite_arith.ml" 94 4729 4789
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 94 4729 4773 "rewrite_arith.ml" 94 4729 4789
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 94 4729 4765 "rewrite_arith.ml" 94 4729 4790
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 94 4729 4793 "rewrite_arith.ml" 94 4729 4794
+type(
+  Expr.T.expr
+)
+ident(
+  def z "rewrite_arith.ml" 95 4804 4819 "rewrite_arith.ml" 96 4851 4908
+)
+"rewrite_arith.ml" 94 4729 4797 "rewrite_arith.ml" 94 4729 4798
+type(
+  Expr.T.expr
+)
+ident(
+  def w "rewrite_arith.ml" 95 4804 4819 "rewrite_arith.ml" 96 4851 4908
+)
+"rewrite_arith.ml" 94 4729 4792 "rewrite_arith.ml" 94 4729 4799
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 94 4729 4758 "rewrite_arith.ml" 94 4729 4800
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 94 4729 4802 "rewrite_arith.ml" 94 4729 4803
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 94 4729 4739 "rewrite_arith.ml" 94 4729 4803
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 95 4804 4819 "rewrite_arith.ml" 95 4804 4826
+type(
+  (Expr.T.expr -> bool) -> Expr.T.expr list -> bool
+)
+ident(
+  int_ref Ext.List.for_all "ext.mli" 26 1026 1028 "ext.mli" 26 1026 1073
+)
+"rewrite_arith.ml" 95 4804 4828 "rewrite_arith.ml" 95 4804 4834
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 95 4804 4835 "rewrite_arith.ml" 95 4804 4838
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 95 4804 4827 "rewrite_arith.ml" 95 4804 4839
+type(
+  Expr.T.expr -> bool
+)
+"rewrite_arith.ml" 95 4804 4841 "rewrite_arith.ml" 95 4804 4842
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 95 4804 4843 "rewrite_arith.ml" 95 4804 4844
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 94 4729 4793 "rewrite_arith.ml" 94 4729 4794
+)
+"rewrite_arith.ml" 95 4804 4845 "rewrite_arith.ml" 95 4804 4846
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref w "rewrite_arith.ml" 94 4729 4797 "rewrite_arith.ml" 94 4729 4798
+)
+"rewrite_arith.ml" 95 4804 4840 "rewrite_arith.ml" 95 4804 4847
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 95 4804 4819 "rewrite_arith.ml" 95 4804 4847
+type(
+  bool
+)
+"rewrite_arith.ml" 96 4851 4868 "rewrite_arith.ml" 96 4851 4869
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref o "rewrite_arith.ml" 44 1377 1390 "rewrite_arith.ml" 44 1377 1415
+)
+"rewrite_arith.ml" 96 4851 4872 "rewrite_arith.ml" 96 4851 4873
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 94 4729 4793 "rewrite_arith.ml" 94 4729 4794
+)
+"rewrite_arith.ml" 96 4851 4876 "rewrite_arith.ml" 96 4851 4880
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref plus "rewrite_arith.ml" 38 1039 1047 "rewrite_arith.ml" 38 1039 1051
+)
+"rewrite_arith.ml" 96 4851 4881 "rewrite_arith.ml" 96 4851 4882
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 96 4851 4883 "rewrite_arith.ml" 96 4851 4884
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref w "rewrite_arith.ml" 94 4729 4797 "rewrite_arith.ml" 94 4729 4798
+)
+"rewrite_arith.ml" 96 4851 4876 "rewrite_arith.ml" 96 4851 4884
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 96 4851 4871 "rewrite_arith.ml" 96 4851 4885
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 96 4851 4861 "rewrite_arith.ml" 96 4851 4886
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 96 4851 4887 "rewrite_arith.ml" 96 4851 4889
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"rewrite_arith.ml" 96 4851 4890 "rewrite_arith.ml" 96 4851 4891
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "rewrite_arith.ml" 32 638 656 "rewrite_arith.ml" 32 638 657
+)
+"rewrite_arith.ml" 96 4851 4861 "rewrite_arith.ml" 96 4851 4891
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 96 4851 4895 "rewrite_arith.ml" 96 4851 4899
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 96 4851 4895 "rewrite_arith.ml" 96 4851 4904
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 96 4851 4905 "rewrite_arith.ml" 96 4851 4908
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 96 4851 4895 "rewrite_arith.ml" 96 4851 4908
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 96 4851 4861 "rewrite_arith.ml" 96 4851 4908
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 98 4910 4920 "rewrite_arith.ml" 98 4910 4924
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 98 4910 4926 "rewrite_arith.ml" 98 4910 4927
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 98 4910 4953 "rewrite_arith.ml" 98 4910 4960
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 98 4910 4944 "rewrite_arith.ml" 98 4910 4960
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 98 4910 4936 "rewrite_arith.ml" 98 4910 4961
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 98 4910 4964 "rewrite_arith.ml" 98 4910 4965
+type(
+  Expr.T.expr
+)
+ident(
+  def z "rewrite_arith.ml" 99 4972 4987 "rewrite_arith.ml" 100 5019 5076
+)
+"rewrite_arith.ml" 98 4910 4968 "rewrite_arith.ml" 98 4910 4969
+type(
+  Expr.T.expr
+)
+ident(
+  def w "rewrite_arith.ml" 99 4972 4987 "rewrite_arith.ml" 100 5019 5076
+)
+"rewrite_arith.ml" 98 4910 4963 "rewrite_arith.ml" 98 4910 4970
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 98 4910 4929 "rewrite_arith.ml" 98 4910 4971
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 98 4910 4920 "rewrite_arith.ml" 98 4910 4971
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 99 4972 4987 "rewrite_arith.ml" 99 4972 4994
+type(
+  (Expr.T.expr -> bool) -> Expr.T.expr list -> bool
+)
+ident(
+  int_ref Ext.List.for_all "ext.mli" 26 1026 1028 "ext.mli" 26 1026 1073
+)
+"rewrite_arith.ml" 99 4972 4996 "rewrite_arith.ml" 99 4972 5002
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 99 4972 5003 "rewrite_arith.ml" 99 4972 5006
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 99 4972 4995 "rewrite_arith.ml" 99 4972 5007
+type(
+  Expr.T.expr -> bool
+)
+"rewrite_arith.ml" 99 4972 5009 "rewrite_arith.ml" 99 4972 5010
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 99 4972 5011 "rewrite_arith.ml" 99 4972 5012
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 98 4910 4964 "rewrite_arith.ml" 98 4910 4965
+)
+"rewrite_arith.ml" 99 4972 5013 "rewrite_arith.ml" 99 4972 5014
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref w "rewrite_arith.ml" 98 4910 4968 "rewrite_arith.ml" 98 4910 4969
+)
+"rewrite_arith.ml" 99 4972 5008 "rewrite_arith.ml" 99 4972 5015
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 99 4972 4987 "rewrite_arith.ml" 99 4972 5015
+type(
+  bool
+)
+"rewrite_arith.ml" 100 5019 5036 "rewrite_arith.ml" 100 5019 5037
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref o "rewrite_arith.ml" 44 1377 1390 "rewrite_arith.ml" 44 1377 1415
+)
+"rewrite_arith.ml" 100 5019 5040 "rewrite_arith.ml" 100 5019 5044
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref plus "rewrite_arith.ml" 38 1039 1047 "rewrite_arith.ml" 38 1039 1051
+)
+"rewrite_arith.ml" 100 5019 5045 "rewrite_arith.ml" 100 5019 5046
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 100 5019 5047 "rewrite_arith.ml" 100 5019 5048
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref w "rewrite_arith.ml" 98 4910 4968 "rewrite_arith.ml" 98 4910 4969
+)
+"rewrite_arith.ml" 100 5019 5040 "rewrite_arith.ml" 100 5019 5048
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 100 5019 5051 "rewrite_arith.ml" 100 5019 5052
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 98 4910 4964 "rewrite_arith.ml" 98 4910 4965
+)
+"rewrite_arith.ml" 100 5019 5039 "rewrite_arith.ml" 100 5019 5053
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 100 5019 5029 "rewrite_arith.ml" 100 5019 5054
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 100 5019 5055 "rewrite_arith.ml" 100 5019 5057
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"rewrite_arith.ml" 100 5019 5058 "rewrite_arith.ml" 100 5019 5059
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "rewrite_arith.ml" 32 638 656 "rewrite_arith.ml" 32 638 657
+)
+"rewrite_arith.ml" 100 5019 5029 "rewrite_arith.ml" 100 5019 5059
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 100 5019 5063 "rewrite_arith.ml" 100 5019 5067
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 100 5019 5063 "rewrite_arith.ml" 100 5019 5072
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 100 5019 5073 "rewrite_arith.ml" 100 5019 5076
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 100 5019 5063 "rewrite_arith.ml" 100 5019 5076
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 100 5019 5029 "rewrite_arith.ml" 100 5019 5076
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 101 5077 5087 "rewrite_arith.ml" 101 5077 5091
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 101 5077 5117 "rewrite_arith.ml" 101 5077 5124
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 101 5077 5108 "rewrite_arith.ml" 101 5077 5124
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 101 5077 5100 "rewrite_arith.ml" 101 5077 5125
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 101 5077 5128 "rewrite_arith.ml" 101 5077 5129
+type(
+  Expr.T.expr
+)
+ident(
+  def z "rewrite_arith.ml" 102 5139 5154 "rewrite_arith.ml" 103 5186 5243
+)
+"rewrite_arith.ml" 101 5077 5132 "rewrite_arith.ml" 101 5077 5133
+type(
+  Expr.T.expr
+)
+ident(
+  def w "rewrite_arith.ml" 102 5139 5154 "rewrite_arith.ml" 103 5186 5243
+)
+"rewrite_arith.ml" 101 5077 5127 "rewrite_arith.ml" 101 5077 5134
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 101 5077 5093 "rewrite_arith.ml" 101 5077 5135
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 101 5077 5137 "rewrite_arith.ml" 101 5077 5138
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 101 5077 5087 "rewrite_arith.ml" 101 5077 5138
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 102 5139 5154 "rewrite_arith.ml" 102 5139 5161
+type(
+  (Expr.T.expr -> bool) -> Expr.T.expr list -> bool
+)
+ident(
+  int_ref Ext.List.for_all "ext.mli" 26 1026 1028 "ext.mli" 26 1026 1073
+)
+"rewrite_arith.ml" 102 5139 5163 "rewrite_arith.ml" 102 5139 5169
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 102 5139 5170 "rewrite_arith.ml" 102 5139 5173
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 102 5139 5162 "rewrite_arith.ml" 102 5139 5174
+type(
+  Expr.T.expr -> bool
+)
+"rewrite_arith.ml" 102 5139 5176 "rewrite_arith.ml" 102 5139 5177
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 101 5077 5128 "rewrite_arith.ml" 101 5077 5129
+)
+"rewrite_arith.ml" 102 5139 5178 "rewrite_arith.ml" 102 5139 5179
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref w "rewrite_arith.ml" 101 5077 5132 "rewrite_arith.ml" 101 5077 5133
+)
+"rewrite_arith.ml" 102 5139 5180 "rewrite_arith.ml" 102 5139 5181
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 102 5139 5175 "rewrite_arith.ml" 102 5139 5182
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 102 5139 5154 "rewrite_arith.ml" 102 5139 5182
+type(
+  bool
+)
+"rewrite_arith.ml" 103 5186 5203 "rewrite_arith.ml" 103 5186 5204
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref o "rewrite_arith.ml" 44 1377 1390 "rewrite_arith.ml" 44 1377 1415
+)
+"rewrite_arith.ml" 103 5186 5207 "rewrite_arith.ml" 103 5186 5208
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 101 5077 5128 "rewrite_arith.ml" 101 5077 5129
+)
+"rewrite_arith.ml" 103 5186 5211 "rewrite_arith.ml" 103 5186 5215
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref plus "rewrite_arith.ml" 38 1039 1047 "rewrite_arith.ml" 38 1039 1051
+)
+"rewrite_arith.ml" 103 5186 5216 "rewrite_arith.ml" 103 5186 5217
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 103 5186 5218 "rewrite_arith.ml" 103 5186 5219
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref w "rewrite_arith.ml" 101 5077 5132 "rewrite_arith.ml" 101 5077 5133
+)
+"rewrite_arith.ml" 103 5186 5211 "rewrite_arith.ml" 103 5186 5219
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 103 5186 5206 "rewrite_arith.ml" 103 5186 5220
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 103 5186 5196 "rewrite_arith.ml" 103 5186 5221
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 103 5186 5222 "rewrite_arith.ml" 103 5186 5224
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"rewrite_arith.ml" 103 5186 5225 "rewrite_arith.ml" 103 5186 5226
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "rewrite_arith.ml" 32 638 656 "rewrite_arith.ml" 32 638 657
+)
+"rewrite_arith.ml" 103 5186 5196 "rewrite_arith.ml" 103 5186 5226
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 103 5186 5230 "rewrite_arith.ml" 103 5186 5234
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 103 5186 5230 "rewrite_arith.ml" 103 5186 5239
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 103 5186 5240 "rewrite_arith.ml" 103 5186 5243
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 103 5186 5230 "rewrite_arith.ml" 103 5186 5243
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 103 5186 5196 "rewrite_arith.ml" 103 5186 5243
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 130 6207 6217 "rewrite_arith.ml" 130 6207 6224
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 130 6207 6250 "rewrite_arith.ml" 130 6207 6256
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 130 6207 6241 "rewrite_arith.ml" 130 6207 6256
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 130 6207 6233 "rewrite_arith.ml" 130 6207 6257
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 130 6207 6261 "rewrite_arith.ml" 130 6207 6262
+type(
+  Expr.T.expr
+)
+ident(
+  def x "rewrite_arith.ml" 130 6207 6277 "rewrite_arith.ml" 130 6207 6344
+)
+"rewrite_arith.ml" 130 6207 6265 "rewrite_arith.ml" 130 6207 6266
+type(
+  Expr.T.expr
+)
+ident(
+  def z "rewrite_arith.ml" 130 6207 6277 "rewrite_arith.ml" 130 6207 6344
+)
+"rewrite_arith.ml" 130 6207 6260 "rewrite_arith.ml" 130 6207 6267
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 130 6207 6226 "rewrite_arith.ml" 130 6207 6268
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 130 6207 6270 "rewrite_arith.ml" 130 6207 6271
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 130 6207 6217 "rewrite_arith.ml" 130 6207 6271
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 130 6207 6277 "rewrite_arith.ml" 130 6207 6284
+type(
+  (Expr.T.expr -> bool) -> Expr.T.expr list -> bool
+)
+ident(
+  int_ref Ext.List.for_all "ext.mli" 26 1026 1028 "ext.mli" 26 1026 1073
+)
+"rewrite_arith.ml" 130 6207 6286 "rewrite_arith.ml" 130 6207 6292
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 130 6207 6293 "rewrite_arith.ml" 130 6207 6296
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 130 6207 6285 "rewrite_arith.ml" 130 6207 6297
+type(
+  Expr.T.expr -> bool
+)
+"rewrite_arith.ml" 130 6207 6299 "rewrite_arith.ml" 130 6207 6300
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 130 6207 6261 "rewrite_arith.ml" 130 6207 6262
+)
+"rewrite_arith.ml" 130 6207 6301 "rewrite_arith.ml" 130 6207 6302
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 130 6207 6303 "rewrite_arith.ml" 130 6207 6304
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 130 6207 6265 "rewrite_arith.ml" 130 6207 6266
+)
+"rewrite_arith.ml" 130 6207 6298 "rewrite_arith.ml" 130 6207 6305
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 130 6207 6277 "rewrite_arith.ml" 130 6207 6305
+type(
+  bool
+)
+"rewrite_arith.ml" 130 6207 6306 "rewrite_arith.ml" 130 6207 6308
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 130 6207 6309 "rewrite_arith.ml" 130 6207 6321
+type(
+  Expr.T.expr -> Expr.T.expr -> bool
+)
+ident(
+  int_ref Expr.Eq.expr "expr.mli" 586 15497 15501 "expr.mli" 587 15511 15539
+)
+"rewrite_arith.ml" 130 6207 6322 "rewrite_arith.ml" 130 6207 6323
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 130 6207 6261 "rewrite_arith.ml" 130 6207 6262
+)
+"rewrite_arith.ml" 130 6207 6324 "rewrite_arith.ml" 130 6207 6325
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 130 6207 6309 "rewrite_arith.ml" 130 6207 6325
+type(
+  bool
+)
+"rewrite_arith.ml" 130 6207 6277 "rewrite_arith.ml" 130 6207 6325
+type(
+  bool
+)
+"rewrite_arith.ml" 130 6207 6329 "rewrite_arith.ml" 130 6207 6333
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 130 6207 6329 "rewrite_arith.ml" 130 6207 6338
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 130 6207 6339 "rewrite_arith.ml" 130 6207 6342
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 130 6207 6343 "rewrite_arith.ml" 130 6207 6344
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 130 6207 6265 "rewrite_arith.ml" 130 6207 6266
+)
+"rewrite_arith.ml" 130 6207 6329 "rewrite_arith.ml" 130 6207 6344
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 131 6345 6355 "rewrite_arith.ml" 131 6345 6362
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 131 6345 6388 "rewrite_arith.ml" 131 6345 6394
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 131 6345 6379 "rewrite_arith.ml" 131 6345 6394
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 131 6345 6371 "rewrite_arith.ml" 131 6345 6395
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 131 6345 6399 "rewrite_arith.ml" 131 6345 6400
+type(
+  Expr.T.expr
+)
+ident(
+  def z "rewrite_arith.ml" 131 6345 6415 "rewrite_arith.ml" 131 6345 6482
+)
+"rewrite_arith.ml" 131 6345 6403 "rewrite_arith.ml" 131 6345 6404
+type(
+  Expr.T.expr
+)
+ident(
+  def x "rewrite_arith.ml" 131 6345 6415 "rewrite_arith.ml" 131 6345 6482
+)
+"rewrite_arith.ml" 131 6345 6398 "rewrite_arith.ml" 131 6345 6405
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 131 6345 6364 "rewrite_arith.ml" 131 6345 6406
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 131 6345 6408 "rewrite_arith.ml" 131 6345 6409
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 131 6345 6355 "rewrite_arith.ml" 131 6345 6409
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 131 6345 6415 "rewrite_arith.ml" 131 6345 6422
+type(
+  (Expr.T.expr -> bool) -> Expr.T.expr list -> bool
+)
+ident(
+  int_ref Ext.List.for_all "ext.mli" 26 1026 1028 "ext.mli" 26 1026 1073
+)
+"rewrite_arith.ml" 131 6345 6424 "rewrite_arith.ml" 131 6345 6430
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 131 6345 6431 "rewrite_arith.ml" 131 6345 6434
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 131 6345 6423 "rewrite_arith.ml" 131 6345 6435
+type(
+  Expr.T.expr -> bool
+)
+"rewrite_arith.ml" 131 6345 6437 "rewrite_arith.ml" 131 6345 6438
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 131 6345 6403 "rewrite_arith.ml" 131 6345 6404
+)
+"rewrite_arith.ml" 131 6345 6439 "rewrite_arith.ml" 131 6345 6440
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 131 6345 6441 "rewrite_arith.ml" 131 6345 6442
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 131 6345 6399 "rewrite_arith.ml" 131 6345 6400
+)
+"rewrite_arith.ml" 131 6345 6436 "rewrite_arith.ml" 131 6345 6443
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 131 6345 6415 "rewrite_arith.ml" 131 6345 6443
+type(
+  bool
+)
+"rewrite_arith.ml" 131 6345 6444 "rewrite_arith.ml" 131 6345 6446
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 131 6345 6447 "rewrite_arith.ml" 131 6345 6459
+type(
+  Expr.T.expr -> Expr.T.expr -> bool
+)
+ident(
+  int_ref Expr.Eq.expr "expr.mli" 586 15497 15501 "expr.mli" 587 15511 15539
+)
+"rewrite_arith.ml" 131 6345 6460 "rewrite_arith.ml" 131 6345 6461
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 131 6345 6403 "rewrite_arith.ml" 131 6345 6404
+)
+"rewrite_arith.ml" 131 6345 6462 "rewrite_arith.ml" 131 6345 6463
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 131 6345 6447 "rewrite_arith.ml" 131 6345 6463
+type(
+  bool
+)
+"rewrite_arith.ml" 131 6345 6415 "rewrite_arith.ml" 131 6345 6463
+type(
+  bool
+)
+"rewrite_arith.ml" 131 6345 6467 "rewrite_arith.ml" 131 6345 6471
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 131 6345 6467 "rewrite_arith.ml" 131 6345 6476
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 131 6345 6477 "rewrite_arith.ml" 131 6345 6480
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 131 6345 6481 "rewrite_arith.ml" 131 6345 6482
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 131 6345 6399 "rewrite_arith.ml" 131 6345 6400
+)
+"rewrite_arith.ml" 131 6345 6467 "rewrite_arith.ml" 131 6345 6482
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 132 6483 6493 "rewrite_arith.ml" 132 6483 6499
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 132 6483 6526 "rewrite_arith.ml" 132 6483 6533
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 132 6483 6517 "rewrite_arith.ml" 132 6483 6533
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 132 6483 6509 "rewrite_arith.ml" 132 6483 6534
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 132 6483 6537 "rewrite_arith.ml" 132 6483 6538
+type(
+  Expr.T.expr
+)
+ident(
+  def x "rewrite_arith.ml" 132 6483 6553 "rewrite_arith.ml" 132 6483 6620
+)
+"rewrite_arith.ml" 132 6483 6541 "rewrite_arith.ml" 132 6483 6542
+type(
+  Expr.T.expr
+)
+ident(
+  def z "rewrite_arith.ml" 132 6483 6553 "rewrite_arith.ml" 132 6483 6620
+)
+"rewrite_arith.ml" 132 6483 6536 "rewrite_arith.ml" 132 6483 6543
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 132 6483 6502 "rewrite_arith.ml" 132 6483 6544
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 132 6483 6546 "rewrite_arith.ml" 132 6483 6547
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 132 6483 6493 "rewrite_arith.ml" 132 6483 6547
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 132 6483 6553 "rewrite_arith.ml" 132 6483 6560
+type(
+  (Expr.T.expr -> bool) -> Expr.T.expr list -> bool
+)
+ident(
+  int_ref Ext.List.for_all "ext.mli" 26 1026 1028 "ext.mli" 26 1026 1073
+)
+"rewrite_arith.ml" 132 6483 6562 "rewrite_arith.ml" 132 6483 6568
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 132 6483 6569 "rewrite_arith.ml" 132 6483 6572
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 132 6483 6561 "rewrite_arith.ml" 132 6483 6573
+type(
+  Expr.T.expr -> bool
+)
+"rewrite_arith.ml" 132 6483 6575 "rewrite_arith.ml" 132 6483 6576
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 132 6483 6537 "rewrite_arith.ml" 132 6483 6538
+)
+"rewrite_arith.ml" 132 6483 6577 "rewrite_arith.ml" 132 6483 6578
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 132 6483 6579 "rewrite_arith.ml" 132 6483 6580
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 132 6483 6541 "rewrite_arith.ml" 132 6483 6542
+)
+"rewrite_arith.ml" 132 6483 6574 "rewrite_arith.ml" 132 6483 6581
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 132 6483 6553 "rewrite_arith.ml" 132 6483 6581
+type(
+  bool
+)
+"rewrite_arith.ml" 132 6483 6582 "rewrite_arith.ml" 132 6483 6584
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 132 6483 6585 "rewrite_arith.ml" 132 6483 6597
+type(
+  Expr.T.expr -> Expr.T.expr -> bool
+)
+ident(
+  int_ref Expr.Eq.expr "expr.mli" 586 15497 15501 "expr.mli" 587 15511 15539
+)
+"rewrite_arith.ml" 132 6483 6598 "rewrite_arith.ml" 132 6483 6599
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 132 6483 6541 "rewrite_arith.ml" 132 6483 6542
+)
+"rewrite_arith.ml" 132 6483 6600 "rewrite_arith.ml" 132 6483 6601
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 132 6483 6585 "rewrite_arith.ml" 132 6483 6601
+type(
+  bool
+)
+"rewrite_arith.ml" 132 6483 6553 "rewrite_arith.ml" 132 6483 6601
+type(
+  bool
+)
+"rewrite_arith.ml" 132 6483 6605 "rewrite_arith.ml" 132 6483 6609
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 132 6483 6605 "rewrite_arith.ml" 132 6483 6614
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 132 6483 6615 "rewrite_arith.ml" 132 6483 6618
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 132 6483 6619 "rewrite_arith.ml" 132 6483 6620
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 132 6483 6537 "rewrite_arith.ml" 132 6483 6538
+)
+"rewrite_arith.ml" 132 6483 6605 "rewrite_arith.ml" 132 6483 6620
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 133 6621 6631 "rewrite_arith.ml" 133 6621 6637
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 133 6621 6640 "rewrite_arith.ml" 133 6621 6641
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 133 6621 6667 "rewrite_arith.ml" 133 6621 6674
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 133 6621 6658 "rewrite_arith.ml" 133 6621 6674
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 133 6621 6650 "rewrite_arith.ml" 133 6621 6675
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 133 6621 6678 "rewrite_arith.ml" 133 6621 6679
+type(
+  Expr.T.expr
+)
+ident(
+  def y "rewrite_arith.ml" 133 6621 6691 "rewrite_arith.ml" 133 6621 6758
+)
+"rewrite_arith.ml" 133 6621 6682 "rewrite_arith.ml" 133 6621 6683
+type(
+  Expr.T.expr
+)
+ident(
+  def z "rewrite_arith.ml" 133 6621 6691 "rewrite_arith.ml" 133 6621 6758
+)
+"rewrite_arith.ml" 133 6621 6677 "rewrite_arith.ml" 133 6621 6684
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 133 6621 6643 "rewrite_arith.ml" 133 6621 6685
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 133 6621 6631 "rewrite_arith.ml" 133 6621 6685
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 133 6621 6691 "rewrite_arith.ml" 133 6621 6698
+type(
+  (Expr.T.expr -> bool) -> Expr.T.expr list -> bool
+)
+ident(
+  int_ref Ext.List.for_all "ext.mli" 26 1026 1028 "ext.mli" 26 1026 1073
+)
+"rewrite_arith.ml" 133 6621 6700 "rewrite_arith.ml" 133 6621 6706
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 133 6621 6707 "rewrite_arith.ml" 133 6621 6710
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 133 6621 6699 "rewrite_arith.ml" 133 6621 6711
+type(
+  Expr.T.expr -> bool
+)
+"rewrite_arith.ml" 133 6621 6713 "rewrite_arith.ml" 133 6621 6714
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 133 6621 6715 "rewrite_arith.ml" 133 6621 6716
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 133 6621 6678 "rewrite_arith.ml" 133 6621 6679
+)
+"rewrite_arith.ml" 133 6621 6717 "rewrite_arith.ml" 133 6621 6718
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 133 6621 6682 "rewrite_arith.ml" 133 6621 6683
+)
+"rewrite_arith.ml" 133 6621 6712 "rewrite_arith.ml" 133 6621 6719
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 133 6621 6691 "rewrite_arith.ml" 133 6621 6719
+type(
+  bool
+)
+"rewrite_arith.ml" 133 6621 6720 "rewrite_arith.ml" 133 6621 6722
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 133 6621 6723 "rewrite_arith.ml" 133 6621 6735
+type(
+  Expr.T.expr -> Expr.T.expr -> bool
+)
+ident(
+  int_ref Expr.Eq.expr "expr.mli" 586 15497 15501 "expr.mli" 587 15511 15539
+)
+"rewrite_arith.ml" 133 6621 6736 "rewrite_arith.ml" 133 6621 6737
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 133 6621 6738 "rewrite_arith.ml" 133 6621 6739
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 133 6621 6682 "rewrite_arith.ml" 133 6621 6683
+)
+"rewrite_arith.ml" 133 6621 6723 "rewrite_arith.ml" 133 6621 6739
+type(
+  bool
+)
+"rewrite_arith.ml" 133 6621 6691 "rewrite_arith.ml" 133 6621 6739
+type(
+  bool
+)
+"rewrite_arith.ml" 133 6621 6743 "rewrite_arith.ml" 133 6621 6747
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 133 6621 6743 "rewrite_arith.ml" 133 6621 6752
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 133 6621 6753 "rewrite_arith.ml" 133 6621 6756
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 133 6621 6757 "rewrite_arith.ml" 133 6621 6758
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 133 6621 6678 "rewrite_arith.ml" 133 6621 6679
+)
+"rewrite_arith.ml" 133 6621 6743 "rewrite_arith.ml" 133 6621 6758
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 136 6788 6798 "rewrite_arith.ml" 136 6788 6804
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 136 6788 6831 "rewrite_arith.ml" 136 6788 6837
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 136 6788 6822 "rewrite_arith.ml" 136 6788 6837
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 136 6788 6814 "rewrite_arith.ml" 136 6788 6838
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 136 6788 6841 "rewrite_arith.ml" 136 6788 6843
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "rewrite_arith.ml" 137 6877 6892 "rewrite_arith.ml" 138 6909 6969
+)
+"rewrite_arith.ml" 136 6788 6859 "rewrite_arith.ml" 136 6788 6860
+type(
+  string
+)
+type(
+  string
+)
+"rewrite_arith.ml" 136 6788 6855 "rewrite_arith.ml" 136 6788 6860
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 136 6788 6847 "rewrite_arith.ml" 136 6788 6861
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 136 6788 6846 "rewrite_arith.ml" 136 6788 6867
+type(
+  Expr.T.expr
+)
+ident(
+  def x "rewrite_arith.ml" 137 6877 6892 "rewrite_arith.ml" 138 6909 6969
+)
+"rewrite_arith.ml" 136 6788 6840 "rewrite_arith.ml" 136 6788 6868
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 136 6788 6807 "rewrite_arith.ml" 136 6788 6869
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 136 6788 6875 "rewrite_arith.ml" 136 6788 6876
+type(
+  string
+)
+type(
+  string
+)
+"rewrite_arith.ml" 136 6788 6871 "rewrite_arith.ml" 136 6788 6876
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 136 6788 6798 "rewrite_arith.ml" 136 6788 6876
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 137 6877 6892 "rewrite_arith.ml" 137 6877 6898
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 137 6877 6899 "rewrite_arith.ml" 137 6877 6902
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 137 6877 6903 "rewrite_arith.ml" 137 6877 6905
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "rewrite_arith.ml" 136 6788 6841 "rewrite_arith.ml" 136 6788 6843
+)
+"rewrite_arith.ml" 137 6877 6892 "rewrite_arith.ml" 137 6877 6905
+type(
+  bool
+)
+"rewrite_arith.ml" 138 6909 6919 "rewrite_arith.ml" 138 6909 6923
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 138 6909 6919 "rewrite_arith.ml" 138 6909 6928
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 138 6909 6929 "rewrite_arith.ml" 138 6909 6932
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 138 6909 6934 "rewrite_arith.ml" 138 6909 6938
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref plus "rewrite_arith.ml" 38 1039 1047 "rewrite_arith.ml" 38 1039 1051
+)
+"rewrite_arith.ml" 138 6909 6939 "rewrite_arith.ml" 138 6909 6941
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "rewrite_arith.ml" 136 6788 6841 "rewrite_arith.ml" 136 6788 6843
+)
+"rewrite_arith.ml" 138 6909 6943 "rewrite_arith.ml" 138 6909 6947
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 138 6909 6943 "rewrite_arith.ml" 138 6909 6952
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 138 6909 6953 "rewrite_arith.ml" 138 6909 6956
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 138 6909 6958 "rewrite_arith.ml" 138 6909 6962
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref plus "rewrite_arith.ml" 38 1039 1047 "rewrite_arith.ml" 38 1039 1051
+)
+"rewrite_arith.ml" 138 6909 6963 "rewrite_arith.ml" 138 6909 6964
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 136 6788 6846 "rewrite_arith.ml" 136 6788 6867
+)
+"rewrite_arith.ml" 138 6909 6965 "rewrite_arith.ml" 138 6909 6966
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 138 6909 6957 "rewrite_arith.ml" 138 6909 6967
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 138 6909 6942 "rewrite_arith.ml" 138 6909 6968
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 138 6909 6933 "rewrite_arith.ml" 138 6909 6969
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 138 6909 6919 "rewrite_arith.ml" 138 6909 6969
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 139 6970 6980 "rewrite_arith.ml" 139 6970 6986
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 139 6970 7013 "rewrite_arith.ml" 139 6970 7019
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 139 6970 7004 "rewrite_arith.ml" 139 6970 7019
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 139 6970 6996 "rewrite_arith.ml" 139 6970 7020
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 139 6970 7036 "rewrite_arith.ml" 139 6970 7037
+type(
+  string
+)
+type(
+  string
+)
+"rewrite_arith.ml" 139 6970 7032 "rewrite_arith.ml" 139 6970 7037
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 139 6970 7024 "rewrite_arith.ml" 139 6970 7038
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 139 6970 7023 "rewrite_arith.ml" 139 6970 7044
+type(
+  Expr.T.expr
+)
+ident(
+  def x "rewrite_arith.ml" 140 7059 7074 "rewrite_arith.ml" 141 7091 7151
+)
+"rewrite_arith.ml" 139 6970 7047 "rewrite_arith.ml" 139 6970 7049
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "rewrite_arith.ml" 140 7059 7074 "rewrite_arith.ml" 141 7091 7151
+)
+"rewrite_arith.ml" 139 6970 7022 "rewrite_arith.ml" 139 6970 7050
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 139 6970 6989 "rewrite_arith.ml" 139 6970 7051
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 139 6970 7057 "rewrite_arith.ml" 139 6970 7058
+type(
+  string
+)
+type(
+  string
+)
+"rewrite_arith.ml" 139 6970 7053 "rewrite_arith.ml" 139 6970 7058
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 139 6970 6980 "rewrite_arith.ml" 139 6970 7058
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 140 7059 7074 "rewrite_arith.ml" 140 7059 7080
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 140 7059 7081 "rewrite_arith.ml" 140 7059 7084
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 140 7059 7085 "rewrite_arith.ml" 140 7059 7087
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "rewrite_arith.ml" 139 6970 7047 "rewrite_arith.ml" 139 6970 7049
+)
+"rewrite_arith.ml" 140 7059 7074 "rewrite_arith.ml" 140 7059 7087
+type(
+  bool
+)
+"rewrite_arith.ml" 141 7091 7101 "rewrite_arith.ml" 141 7091 7105
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 141 7091 7101 "rewrite_arith.ml" 141 7091 7110
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 141 7091 7111 "rewrite_arith.ml" 141 7091 7114
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 141 7091 7116 "rewrite_arith.ml" 141 7091 7120
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref plus "rewrite_arith.ml" 38 1039 1047 "rewrite_arith.ml" 38 1039 1051
+)
+"rewrite_arith.ml" 141 7091 7121 "rewrite_arith.ml" 141 7091 7123
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "rewrite_arith.ml" 139 6970 7047 "rewrite_arith.ml" 139 6970 7049
+)
+"rewrite_arith.ml" 141 7091 7125 "rewrite_arith.ml" 141 7091 7129
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 141 7091 7125 "rewrite_arith.ml" 141 7091 7134
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 141 7091 7135 "rewrite_arith.ml" 141 7091 7138
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 141 7091 7140 "rewrite_arith.ml" 141 7091 7144
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref plus "rewrite_arith.ml" 38 1039 1047 "rewrite_arith.ml" 38 1039 1051
+)
+"rewrite_arith.ml" 141 7091 7145 "rewrite_arith.ml" 141 7091 7146
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 139 6970 7023 "rewrite_arith.ml" 139 6970 7044
+)
+"rewrite_arith.ml" 141 7091 7147 "rewrite_arith.ml" 141 7091 7148
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 141 7091 7139 "rewrite_arith.ml" 141 7091 7149
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 141 7091 7124 "rewrite_arith.ml" 141 7091 7150
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 141 7091 7115 "rewrite_arith.ml" 141 7091 7151
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 141 7091 7101 "rewrite_arith.ml" 141 7091 7151
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 142 7152 7162 "rewrite_arith.ml" 142 7152 7168
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 142 7152 7175 "rewrite_arith.ml" 142 7152 7176
+type(
+  string
+)
+type(
+  string
+)
+"rewrite_arith.ml" 142 7152 7171 "rewrite_arith.ml" 142 7152 7176
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 142 7152 7202 "rewrite_arith.ml" 142 7152 7208
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 142 7152 7193 "rewrite_arith.ml" 142 7152 7208
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 142 7152 7185 "rewrite_arith.ml" 142 7152 7209
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 142 7152 7213 "rewrite_arith.ml" 142 7152 7215
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "rewrite_arith.ml" 143 7242 7257 "rewrite_arith.ml" 144 7274 7334
+)
+"rewrite_arith.ml" 142 7152 7231 "rewrite_arith.ml" 142 7152 7232
+type(
+  string
+)
+type(
+  string
+)
+"rewrite_arith.ml" 142 7152 7227 "rewrite_arith.ml" 142 7152 7232
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 142 7152 7219 "rewrite_arith.ml" 142 7152 7233
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 142 7152 7218 "rewrite_arith.ml" 142 7152 7239
+type(
+  Expr.T.expr
+)
+ident(
+  def y "rewrite_arith.ml" 143 7242 7257 "rewrite_arith.ml" 144 7274 7334
+)
+"rewrite_arith.ml" 142 7152 7212 "rewrite_arith.ml" 142 7152 7240
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 142 7152 7178 "rewrite_arith.ml" 142 7152 7241
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 142 7152 7162 "rewrite_arith.ml" 142 7152 7241
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 143 7242 7257 "rewrite_arith.ml" 143 7242 7263
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 143 7242 7264 "rewrite_arith.ml" 143 7242 7267
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 143 7242 7268 "rewrite_arith.ml" 143 7242 7270
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "rewrite_arith.ml" 142 7152 7213 "rewrite_arith.ml" 142 7152 7215
+)
+"rewrite_arith.ml" 143 7242 7257 "rewrite_arith.ml" 143 7242 7270
+type(
+  bool
+)
+"rewrite_arith.ml" 144 7274 7284 "rewrite_arith.ml" 144 7274 7288
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 144 7274 7284 "rewrite_arith.ml" 144 7274 7293
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 144 7274 7294 "rewrite_arith.ml" 144 7274 7297
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 144 7274 7299 "rewrite_arith.ml" 144 7274 7303
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref plus "rewrite_arith.ml" 38 1039 1047 "rewrite_arith.ml" 38 1039 1051
+)
+"rewrite_arith.ml" 144 7274 7304 "rewrite_arith.ml" 144 7274 7306
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "rewrite_arith.ml" 142 7152 7213 "rewrite_arith.ml" 142 7152 7215
+)
+"rewrite_arith.ml" 144 7274 7308 "rewrite_arith.ml" 144 7274 7312
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 144 7274 7308 "rewrite_arith.ml" 144 7274 7317
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 144 7274 7318 "rewrite_arith.ml" 144 7274 7321
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 144 7274 7323 "rewrite_arith.ml" 144 7274 7327
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref plus "rewrite_arith.ml" 38 1039 1047 "rewrite_arith.ml" 38 1039 1051
+)
+"rewrite_arith.ml" 144 7274 7328 "rewrite_arith.ml" 144 7274 7329
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 144 7274 7330 "rewrite_arith.ml" 144 7274 7331
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 142 7152 7218 "rewrite_arith.ml" 142 7152 7239
+)
+"rewrite_arith.ml" 144 7274 7322 "rewrite_arith.ml" 144 7274 7332
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 144 7274 7307 "rewrite_arith.ml" 144 7274 7333
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 144 7274 7298 "rewrite_arith.ml" 144 7274 7334
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 144 7274 7284 "rewrite_arith.ml" 144 7274 7334
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 145 7335 7345 "rewrite_arith.ml" 145 7335 7351
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 145 7335 7358 "rewrite_arith.ml" 145 7335 7359
+type(
+  string
+)
+type(
+  string
+)
+"rewrite_arith.ml" 145 7335 7354 "rewrite_arith.ml" 145 7335 7359
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 145 7335 7385 "rewrite_arith.ml" 145 7335 7391
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 145 7335 7376 "rewrite_arith.ml" 145 7335 7391
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 145 7335 7368 "rewrite_arith.ml" 145 7335 7392
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 145 7335 7409 "rewrite_arith.ml" 145 7335 7410
+type(
+  string
+)
+type(
+  string
+)
+"rewrite_arith.ml" 145 7335 7405 "rewrite_arith.ml" 145 7335 7410
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 145 7335 7397 "rewrite_arith.ml" 145 7335 7411
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 145 7335 7396 "rewrite_arith.ml" 145 7335 7417
+type(
+  Expr.T.expr
+)
+ident(
+  def y "rewrite_arith.ml" 146 7425 7440 "rewrite_arith.ml" 147 7457 7517
+)
+"rewrite_arith.ml" 145 7335 7420 "rewrite_arith.ml" 145 7335 7422
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "rewrite_arith.ml" 146 7425 7440 "rewrite_arith.ml" 147 7457 7517
+)
+"rewrite_arith.ml" 145 7335 7395 "rewrite_arith.ml" 145 7335 7423
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 145 7335 7361 "rewrite_arith.ml" 145 7335 7424
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 145 7335 7345 "rewrite_arith.ml" 145 7335 7424
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 146 7425 7440 "rewrite_arith.ml" 146 7425 7446
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 146 7425 7447 "rewrite_arith.ml" 146 7425 7450
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 146 7425 7451 "rewrite_arith.ml" 146 7425 7453
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "rewrite_arith.ml" 145 7335 7420 "rewrite_arith.ml" 145 7335 7422
+)
+"rewrite_arith.ml" 146 7425 7440 "rewrite_arith.ml" 146 7425 7453
+type(
+  bool
+)
+"rewrite_arith.ml" 147 7457 7467 "rewrite_arith.ml" 147 7457 7471
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 147 7457 7467 "rewrite_arith.ml" 147 7457 7476
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 147 7457 7477 "rewrite_arith.ml" 147 7457 7480
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 147 7457 7482 "rewrite_arith.ml" 147 7457 7486
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref plus "rewrite_arith.ml" 38 1039 1047 "rewrite_arith.ml" 38 1039 1051
+)
+"rewrite_arith.ml" 147 7457 7487 "rewrite_arith.ml" 147 7457 7489
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "rewrite_arith.ml" 145 7335 7420 "rewrite_arith.ml" 145 7335 7422
+)
+"rewrite_arith.ml" 147 7457 7491 "rewrite_arith.ml" 147 7457 7495
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 147 7457 7491 "rewrite_arith.ml" 147 7457 7500
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 147 7457 7501 "rewrite_arith.ml" 147 7457 7504
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 147 7457 7506 "rewrite_arith.ml" 147 7457 7510
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref plus "rewrite_arith.ml" 38 1039 1047 "rewrite_arith.ml" 38 1039 1051
+)
+"rewrite_arith.ml" 147 7457 7511 "rewrite_arith.ml" 147 7457 7512
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 147 7457 7513 "rewrite_arith.ml" 147 7457 7514
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 145 7335 7396 "rewrite_arith.ml" 145 7335 7417
+)
+"rewrite_arith.ml" 147 7457 7505 "rewrite_arith.ml" 147 7457 7515
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 147 7457 7490 "rewrite_arith.ml" 147 7457 7516
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 147 7457 7481 "rewrite_arith.ml" 147 7457 7517
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 147 7457 7467 "rewrite_arith.ml" 147 7457 7517
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 149 7519 7529 "rewrite_arith.ml" 149 7519 7535
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 149 7519 7562 "rewrite_arith.ml" 149 7519 7569
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 149 7519 7553 "rewrite_arith.ml" 149 7519 7569
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 149 7519 7545 "rewrite_arith.ml" 149 7519 7570
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 149 7519 7573 "rewrite_arith.ml" 149 7519 7575
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "rewrite_arith.ml" 150 7609 7624 "rewrite_arith.ml" 150 7609 7692
+)
+"rewrite_arith.ml" 149 7519 7591 "rewrite_arith.ml" 149 7519 7592
+type(
+  string
+)
+type(
+  string
+)
+"rewrite_arith.ml" 149 7519 7587 "rewrite_arith.ml" 149 7519 7592
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 149 7519 7579 "rewrite_arith.ml" 149 7519 7593
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 149 7519 7578 "rewrite_arith.ml" 149 7519 7599
+type(
+  Expr.T.expr
+)
+ident(
+  def x "rewrite_arith.ml" 150 7609 7624 "rewrite_arith.ml" 150 7609 7692
+)
+"rewrite_arith.ml" 149 7519 7572 "rewrite_arith.ml" 149 7519 7600
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 149 7519 7538 "rewrite_arith.ml" 149 7519 7601
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 149 7519 7607 "rewrite_arith.ml" 149 7519 7608
+type(
+  string
+)
+type(
+  string
+)
+"rewrite_arith.ml" 149 7519 7603 "rewrite_arith.ml" 149 7519 7608
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 149 7519 7529 "rewrite_arith.ml" 149 7519 7608
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 150 7609 7624 "rewrite_arith.ml" 150 7609 7630
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 150 7609 7631 "rewrite_arith.ml" 150 7609 7634
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 150 7609 7635 "rewrite_arith.ml" 150 7609 7637
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "rewrite_arith.ml" 149 7519 7573 "rewrite_arith.ml" 149 7519 7575
+)
+"rewrite_arith.ml" 150 7609 7624 "rewrite_arith.ml" 150 7609 7637
+type(
+  bool
+)
+"rewrite_arith.ml" 150 7609 7641 "rewrite_arith.ml" 150 7609 7645
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 150 7609 7641 "rewrite_arith.ml" 150 7609 7650
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 150 7609 7651 "rewrite_arith.ml" 150 7609 7654
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 150 7609 7656 "rewrite_arith.ml" 150 7609 7660
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref plus "rewrite_arith.ml" 38 1039 1047 "rewrite_arith.ml" 38 1039 1051
+)
+"rewrite_arith.ml" 150 7609 7661 "rewrite_arith.ml" 150 7609 7663
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "rewrite_arith.ml" 149 7519 7573 "rewrite_arith.ml" 149 7519 7575
+)
+"rewrite_arith.ml" 150 7609 7665 "rewrite_arith.ml" 150 7609 7669
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 150 7609 7665 "rewrite_arith.ml" 150 7609 7674
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 150 7609 7675 "rewrite_arith.ml" 150 7609 7678
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 150 7609 7680 "rewrite_arith.ml" 150 7609 7685
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref minus "rewrite_arith.ml" 39 1082 1090 "rewrite_arith.ml" 39 1082 1095
+)
+"rewrite_arith.ml" 150 7609 7686 "rewrite_arith.ml" 150 7609 7687
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 150 7609 7688 "rewrite_arith.ml" 150 7609 7689
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 149 7519 7578 "rewrite_arith.ml" 149 7519 7599
+)
+"rewrite_arith.ml" 150 7609 7679 "rewrite_arith.ml" 150 7609 7690
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 150 7609 7664 "rewrite_arith.ml" 150 7609 7691
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 150 7609 7655 "rewrite_arith.ml" 150 7609 7692
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 150 7609 7641 "rewrite_arith.ml" 150 7609 7692
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 151 7693 7703 "rewrite_arith.ml" 151 7693 7709
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 151 7693 7736 "rewrite_arith.ml" 151 7693 7743
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 151 7693 7727 "rewrite_arith.ml" 151 7693 7743
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 151 7693 7719 "rewrite_arith.ml" 151 7693 7744
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 151 7693 7760 "rewrite_arith.ml" 151 7693 7761
+type(
+  string
+)
+type(
+  string
+)
+"rewrite_arith.ml" 151 7693 7756 "rewrite_arith.ml" 151 7693 7761
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 151 7693 7748 "rewrite_arith.ml" 151 7693 7762
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 151 7693 7747 "rewrite_arith.ml" 151 7693 7768
+type(
+  Expr.T.expr
+)
+ident(
+  def x "rewrite_arith.ml" 152 7783 7798 "rewrite_arith.ml" 152 7783 7866
+)
+"rewrite_arith.ml" 151 7693 7771 "rewrite_arith.ml" 151 7693 7773
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "rewrite_arith.ml" 152 7783 7798 "rewrite_arith.ml" 152 7783 7866
+)
+"rewrite_arith.ml" 151 7693 7746 "rewrite_arith.ml" 151 7693 7774
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 151 7693 7712 "rewrite_arith.ml" 151 7693 7775
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 151 7693 7781 "rewrite_arith.ml" 151 7693 7782
+type(
+  string
+)
+type(
+  string
+)
+"rewrite_arith.ml" 151 7693 7777 "rewrite_arith.ml" 151 7693 7782
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 151 7693 7703 "rewrite_arith.ml" 151 7693 7782
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 152 7783 7798 "rewrite_arith.ml" 152 7783 7804
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 152 7783 7805 "rewrite_arith.ml" 152 7783 7808
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 152 7783 7809 "rewrite_arith.ml" 152 7783 7811
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "rewrite_arith.ml" 151 7693 7771 "rewrite_arith.ml" 151 7693 7773
+)
+"rewrite_arith.ml" 152 7783 7798 "rewrite_arith.ml" 152 7783 7811
+type(
+  bool
+)
+"rewrite_arith.ml" 152 7783 7815 "rewrite_arith.ml" 152 7783 7819
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 152 7783 7815 "rewrite_arith.ml" 152 7783 7824
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 152 7783 7825 "rewrite_arith.ml" 152 7783 7828
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 152 7783 7830 "rewrite_arith.ml" 152 7783 7835
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref minus "rewrite_arith.ml" 39 1082 1090 "rewrite_arith.ml" 39 1082 1095
+)
+"rewrite_arith.ml" 152 7783 7837 "rewrite_arith.ml" 152 7783 7841
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 152 7783 7837 "rewrite_arith.ml" 152 7783 7846
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 152 7783 7847 "rewrite_arith.ml" 152 7783 7850
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 152 7783 7852 "rewrite_arith.ml" 152 7783 7856
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref plus "rewrite_arith.ml" 38 1039 1047 "rewrite_arith.ml" 38 1039 1051
+)
+"rewrite_arith.ml" 152 7783 7857 "rewrite_arith.ml" 152 7783 7858
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 152 7783 7859 "rewrite_arith.ml" 152 7783 7860
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 151 7693 7747 "rewrite_arith.ml" 151 7693 7768
+)
+"rewrite_arith.ml" 152 7783 7851 "rewrite_arith.ml" 152 7783 7861
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 152 7783 7836 "rewrite_arith.ml" 152 7783 7862
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 152 7783 7863 "rewrite_arith.ml" 152 7783 7865
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "rewrite_arith.ml" 151 7693 7771 "rewrite_arith.ml" 151 7693 7773
+)
+"rewrite_arith.ml" 152 7783 7829 "rewrite_arith.ml" 152 7783 7866
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 152 7783 7815 "rewrite_arith.ml" 152 7783 7866
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 153 7867 7877 "rewrite_arith.ml" 153 7867 7884
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 153 7867 7910 "rewrite_arith.ml" 153 7867 7916
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 153 7867 7901 "rewrite_arith.ml" 153 7867 7916
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 153 7867 7893 "rewrite_arith.ml" 153 7867 7917
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 153 7867 7921 "rewrite_arith.ml" 153 7867 7923
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "rewrite_arith.ml" 154 7957 7972 "rewrite_arith.ml" 154 7957 8040
+)
+"rewrite_arith.ml" 153 7867 7939 "rewrite_arith.ml" 153 7867 7940
+type(
+  string
+)
+type(
+  string
+)
+"rewrite_arith.ml" 153 7867 7935 "rewrite_arith.ml" 153 7867 7940
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 153 7867 7927 "rewrite_arith.ml" 153 7867 7941
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 153 7867 7926 "rewrite_arith.ml" 153 7867 7947
+type(
+  Expr.T.expr
+)
+ident(
+  def x "rewrite_arith.ml" 154 7957 7972 "rewrite_arith.ml" 154 7957 8040
+)
+"rewrite_arith.ml" 153 7867 7920 "rewrite_arith.ml" 153 7867 7948
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 153 7867 7886 "rewrite_arith.ml" 153 7867 7949
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 153 7867 7955 "rewrite_arith.ml" 153 7867 7956
+type(
+  string
+)
+type(
+  string
+)
+"rewrite_arith.ml" 153 7867 7951 "rewrite_arith.ml" 153 7867 7956
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 153 7867 7877 "rewrite_arith.ml" 153 7867 7956
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 154 7957 7972 "rewrite_arith.ml" 154 7957 7978
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 154 7957 7979 "rewrite_arith.ml" 154 7957 7982
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 154 7957 7983 "rewrite_arith.ml" 154 7957 7985
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "rewrite_arith.ml" 153 7867 7921 "rewrite_arith.ml" 153 7867 7923
+)
+"rewrite_arith.ml" 154 7957 7972 "rewrite_arith.ml" 154 7957 7985
+type(
+  bool
+)
+"rewrite_arith.ml" 154 7957 7989 "rewrite_arith.ml" 154 7957 7993
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 154 7957 7989 "rewrite_arith.ml" 154 7957 7998
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 154 7957 7999 "rewrite_arith.ml" 154 7957 8002
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 154 7957 8004 "rewrite_arith.ml" 154 7957 8008
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref plus "rewrite_arith.ml" 38 1039 1047 "rewrite_arith.ml" 38 1039 1051
+)
+"rewrite_arith.ml" 154 7957 8009 "rewrite_arith.ml" 154 7957 8011
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "rewrite_arith.ml" 153 7867 7921 "rewrite_arith.ml" 153 7867 7923
+)
+"rewrite_arith.ml" 154 7957 8013 "rewrite_arith.ml" 154 7957 8017
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 154 7957 8013 "rewrite_arith.ml" 154 7957 8022
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 154 7957 8023 "rewrite_arith.ml" 154 7957 8026
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 154 7957 8028 "rewrite_arith.ml" 154 7957 8033
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref minus "rewrite_arith.ml" 39 1082 1090 "rewrite_arith.ml" 39 1082 1095
+)
+"rewrite_arith.ml" 154 7957 8034 "rewrite_arith.ml" 154 7957 8035
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 153 7867 7926 "rewrite_arith.ml" 153 7867 7947
+)
+"rewrite_arith.ml" 154 7957 8036 "rewrite_arith.ml" 154 7957 8037
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 154 7957 8027 "rewrite_arith.ml" 154 7957 8038
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 154 7957 8012 "rewrite_arith.ml" 154 7957 8039
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 154 7957 8003 "rewrite_arith.ml" 154 7957 8040
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 154 7957 7989 "rewrite_arith.ml" 154 7957 8040
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 155 8041 8051 "rewrite_arith.ml" 155 8041 8058
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 155 8041 8084 "rewrite_arith.ml" 155 8041 8090
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 155 8041 8075 "rewrite_arith.ml" 155 8041 8090
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 155 8041 8067 "rewrite_arith.ml" 155 8041 8091
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 155 8041 8108 "rewrite_arith.ml" 155 8041 8109
+type(
+  string
+)
+type(
+  string
+)
+"rewrite_arith.ml" 155 8041 8104 "rewrite_arith.ml" 155 8041 8109
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 155 8041 8096 "rewrite_arith.ml" 155 8041 8110
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 155 8041 8095 "rewrite_arith.ml" 155 8041 8116
+type(
+  Expr.T.expr
+)
+ident(
+  def x "rewrite_arith.ml" 156 8131 8146 "rewrite_arith.ml" 156 8131 8214
+)
+"rewrite_arith.ml" 155 8041 8119 "rewrite_arith.ml" 155 8041 8121
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "rewrite_arith.ml" 156 8131 8146 "rewrite_arith.ml" 156 8131 8214
+)
+"rewrite_arith.ml" 155 8041 8094 "rewrite_arith.ml" 155 8041 8122
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 155 8041 8060 "rewrite_arith.ml" 155 8041 8123
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 155 8041 8129 "rewrite_arith.ml" 155 8041 8130
+type(
+  string
+)
+type(
+  string
+)
+"rewrite_arith.ml" 155 8041 8125 "rewrite_arith.ml" 155 8041 8130
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 155 8041 8051 "rewrite_arith.ml" 155 8041 8130
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 156 8131 8146 "rewrite_arith.ml" 156 8131 8152
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 156 8131 8153 "rewrite_arith.ml" 156 8131 8156
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 156 8131 8157 "rewrite_arith.ml" 156 8131 8159
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "rewrite_arith.ml" 155 8041 8119 "rewrite_arith.ml" 155 8041 8121
+)
+"rewrite_arith.ml" 156 8131 8146 "rewrite_arith.ml" 156 8131 8159
+type(
+  bool
+)
+"rewrite_arith.ml" 156 8131 8163 "rewrite_arith.ml" 156 8131 8167
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 156 8131 8163 "rewrite_arith.ml" 156 8131 8172
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 156 8131 8173 "rewrite_arith.ml" 156 8131 8176
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 156 8131 8178 "rewrite_arith.ml" 156 8131 8182
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref plus "rewrite_arith.ml" 38 1039 1047 "rewrite_arith.ml" 38 1039 1051
+)
+"rewrite_arith.ml" 156 8131 8183 "rewrite_arith.ml" 156 8131 8185
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "rewrite_arith.ml" 155 8041 8119 "rewrite_arith.ml" 155 8041 8121
+)
+"rewrite_arith.ml" 156 8131 8187 "rewrite_arith.ml" 156 8131 8191
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 156 8131 8187 "rewrite_arith.ml" 156 8131 8196
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 156 8131 8197 "rewrite_arith.ml" 156 8131 8200
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 156 8131 8202 "rewrite_arith.ml" 156 8131 8207
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref minus "rewrite_arith.ml" 39 1082 1090 "rewrite_arith.ml" 39 1082 1095
+)
+"rewrite_arith.ml" 156 8131 8208 "rewrite_arith.ml" 156 8131 8209
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 155 8041 8095 "rewrite_arith.ml" 155 8041 8116
+)
+"rewrite_arith.ml" 156 8131 8210 "rewrite_arith.ml" 156 8131 8211
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 156 8131 8201 "rewrite_arith.ml" 156 8131 8212
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 156 8131 8186 "rewrite_arith.ml" 156 8131 8213
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 156 8131 8177 "rewrite_arith.ml" 156 8131 8214
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 156 8131 8163 "rewrite_arith.ml" 156 8131 8214
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 157 8215 8225 "rewrite_arith.ml" 157 8215 8232
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 157 8215 8258 "rewrite_arith.ml" 157 8215 8265
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 157 8215 8249 "rewrite_arith.ml" 157 8215 8265
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 157 8215 8241 "rewrite_arith.ml" 157 8215 8266
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 157 8215 8269 "rewrite_arith.ml" 157 8215 8271
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "rewrite_arith.ml" 158 8305 8320 "rewrite_arith.ml" 158 8305 8388
+)
+"rewrite_arith.ml" 157 8215 8287 "rewrite_arith.ml" 157 8215 8288
+type(
+  string
+)
+type(
+  string
+)
+"rewrite_arith.ml" 157 8215 8283 "rewrite_arith.ml" 157 8215 8288
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 157 8215 8275 "rewrite_arith.ml" 157 8215 8289
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 157 8215 8274 "rewrite_arith.ml" 157 8215 8295
+type(
+  Expr.T.expr
+)
+ident(
+  def x "rewrite_arith.ml" 158 8305 8320 "rewrite_arith.ml" 158 8305 8388
+)
+"rewrite_arith.ml" 157 8215 8268 "rewrite_arith.ml" 157 8215 8296
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 157 8215 8234 "rewrite_arith.ml" 157 8215 8297
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 157 8215 8303 "rewrite_arith.ml" 157 8215 8304
+type(
+  string
+)
+type(
+  string
+)
+"rewrite_arith.ml" 157 8215 8299 "rewrite_arith.ml" 157 8215 8304
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 157 8215 8225 "rewrite_arith.ml" 157 8215 8304
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 158 8305 8320 "rewrite_arith.ml" 158 8305 8326
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 158 8305 8327 "rewrite_arith.ml" 158 8305 8330
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 158 8305 8331 "rewrite_arith.ml" 158 8305 8333
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "rewrite_arith.ml" 157 8215 8269 "rewrite_arith.ml" 157 8215 8271
+)
+"rewrite_arith.ml" 158 8305 8320 "rewrite_arith.ml" 158 8305 8333
+type(
+  bool
+)
+"rewrite_arith.ml" 158 8305 8337 "rewrite_arith.ml" 158 8305 8341
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 158 8305 8337 "rewrite_arith.ml" 158 8305 8346
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 158 8305 8347 "rewrite_arith.ml" 158 8305 8350
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 158 8305 8352 "rewrite_arith.ml" 158 8305 8357
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref minus "rewrite_arith.ml" 39 1082 1090 "rewrite_arith.ml" 39 1082 1095
+)
+"rewrite_arith.ml" 158 8305 8358 "rewrite_arith.ml" 158 8305 8360
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "rewrite_arith.ml" 157 8215 8269 "rewrite_arith.ml" 157 8215 8271
+)
+"rewrite_arith.ml" 158 8305 8362 "rewrite_arith.ml" 158 8305 8366
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 158 8305 8362 "rewrite_arith.ml" 158 8305 8371
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 158 8305 8372 "rewrite_arith.ml" 158 8305 8375
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 158 8305 8377 "rewrite_arith.ml" 158 8305 8381
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref plus "rewrite_arith.ml" 38 1039 1047 "rewrite_arith.ml" 38 1039 1051
+)
+"rewrite_arith.ml" 158 8305 8382 "rewrite_arith.ml" 158 8305 8383
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 157 8215 8274 "rewrite_arith.ml" 157 8215 8295
+)
+"rewrite_arith.ml" 158 8305 8384 "rewrite_arith.ml" 158 8305 8385
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 158 8305 8376 "rewrite_arith.ml" 158 8305 8386
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 158 8305 8361 "rewrite_arith.ml" 158 8305 8387
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 158 8305 8351 "rewrite_arith.ml" 158 8305 8388
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 158 8305 8337 "rewrite_arith.ml" 158 8305 8388
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 159 8389 8399 "rewrite_arith.ml" 159 8389 8406
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 159 8389 8432 "rewrite_arith.ml" 159 8389 8439
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 159 8389 8423 "rewrite_arith.ml" 159 8389 8439
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 159 8389 8415 "rewrite_arith.ml" 159 8389 8440
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 159 8389 8456 "rewrite_arith.ml" 159 8389 8457
+type(
+  string
+)
+type(
+  string
+)
+"rewrite_arith.ml" 159 8389 8452 "rewrite_arith.ml" 159 8389 8457
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 159 8389 8444 "rewrite_arith.ml" 159 8389 8458
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 159 8389 8443 "rewrite_arith.ml" 159 8389 8464
+type(
+  Expr.T.expr
+)
+ident(
+  def x "rewrite_arith.ml" 160 8479 8494 "rewrite_arith.ml" 160 8479 8563
+)
+"rewrite_arith.ml" 159 8389 8467 "rewrite_arith.ml" 159 8389 8469
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "rewrite_arith.ml" 160 8479 8494 "rewrite_arith.ml" 160 8479 8563
+)
+"rewrite_arith.ml" 159 8389 8442 "rewrite_arith.ml" 159 8389 8470
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 159 8389 8408 "rewrite_arith.ml" 159 8389 8471
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 159 8389 8477 "rewrite_arith.ml" 159 8389 8478
+type(
+  string
+)
+type(
+  string
+)
+"rewrite_arith.ml" 159 8389 8473 "rewrite_arith.ml" 159 8389 8478
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 159 8389 8399 "rewrite_arith.ml" 159 8389 8478
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 160 8479 8494 "rewrite_arith.ml" 160 8479 8500
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 160 8479 8501 "rewrite_arith.ml" 160 8479 8504
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 160 8479 8505 "rewrite_arith.ml" 160 8479 8507
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "rewrite_arith.ml" 159 8389 8467 "rewrite_arith.ml" 159 8389 8469
+)
+"rewrite_arith.ml" 160 8479 8494 "rewrite_arith.ml" 160 8479 8507
+type(
+  bool
+)
+"rewrite_arith.ml" 160 8479 8511 "rewrite_arith.ml" 160 8479 8515
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 160 8479 8511 "rewrite_arith.ml" 160 8479 8520
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 160 8479 8521 "rewrite_arith.ml" 160 8479 8524
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 160 8479 8526 "rewrite_arith.ml" 160 8479 8531
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref minus "rewrite_arith.ml" 39 1082 1090 "rewrite_arith.ml" 39 1082 1095
+)
+"rewrite_arith.ml" 160 8479 8533 "rewrite_arith.ml" 160 8479 8537
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 160 8479 8533 "rewrite_arith.ml" 160 8479 8542
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 160 8479 8543 "rewrite_arith.ml" 160 8479 8546
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 160 8479 8548 "rewrite_arith.ml" 160 8479 8553
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref minus "rewrite_arith.ml" 39 1082 1090 "rewrite_arith.ml" 39 1082 1095
+)
+"rewrite_arith.ml" 160 8479 8554 "rewrite_arith.ml" 160 8479 8555
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 159 8389 8443 "rewrite_arith.ml" 159 8389 8464
+)
+"rewrite_arith.ml" 160 8479 8556 "rewrite_arith.ml" 160 8479 8557
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 160 8479 8547 "rewrite_arith.ml" 160 8479 8558
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 160 8479 8532 "rewrite_arith.ml" 160 8479 8559
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 160 8479 8560 "rewrite_arith.ml" 160 8479 8562
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "rewrite_arith.ml" 159 8389 8467 "rewrite_arith.ml" 159 8389 8469
+)
+"rewrite_arith.ml" 160 8479 8525 "rewrite_arith.ml" 160 8479 8563
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 160 8479 8511 "rewrite_arith.ml" 160 8479 8563
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 170 9456 9466 "rewrite_arith.ml" 170 9456 9472
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 170 9456 9475 "rewrite_arith.ml" 170 9456 9476
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 170 9456 9502 "rewrite_arith.ml" 170 9456 9509
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 170 9456 9493 "rewrite_arith.ml" 170 9456 9509
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 170 9456 9485 "rewrite_arith.ml" 170 9456 9510
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 170 9456 9513 "rewrite_arith.ml" 170 9456 9514
+type(
+  Expr.T.expr
+)
+ident(
+  def y "rewrite_arith.ml" 170 9456 9526 "rewrite_arith.ml" 170 9456 9608
+)
+"rewrite_arith.ml" 170 9456 9517 "rewrite_arith.ml" 170 9456 9518
+type(
+  Expr.T.expr
+)
+ident(
+  def z "rewrite_arith.ml" 170 9456 9526 "rewrite_arith.ml" 170 9456 9608
+)
+"rewrite_arith.ml" 170 9456 9512 "rewrite_arith.ml" 170 9456 9519
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 170 9456 9478 "rewrite_arith.ml" 170 9456 9520
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 170 9456 9466 "rewrite_arith.ml" 170 9456 9520
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 170 9456 9526 "rewrite_arith.ml" 170 9456 9532
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 170 9456 9533 "rewrite_arith.ml" 170 9456 9536
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 170 9456 9537 "rewrite_arith.ml" 170 9456 9538
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 170 9456 9526 "rewrite_arith.ml" 170 9456 9538
+type(
+  bool
+)
+"rewrite_arith.ml" 170 9456 9539 "rewrite_arith.ml" 170 9456 9541
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 170 9456 9542 "rewrite_arith.ml" 170 9456 9548
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 170 9456 9549 "rewrite_arith.ml" 170 9456 9552
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 170 9456 9553 "rewrite_arith.ml" 170 9456 9554
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 170 9456 9513 "rewrite_arith.ml" 170 9456 9514
+)
+"rewrite_arith.ml" 170 9456 9542 "rewrite_arith.ml" 170 9456 9554
+type(
+  bool
+)
+"rewrite_arith.ml" 170 9456 9555 "rewrite_arith.ml" 170 9456 9557
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 170 9456 9558 "rewrite_arith.ml" 170 9456 9564
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 170 9456 9565 "rewrite_arith.ml" 170 9456 9568
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 170 9456 9569 "rewrite_arith.ml" 170 9456 9570
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 170 9456 9517 "rewrite_arith.ml" 170 9456 9518
+)
+"rewrite_arith.ml" 170 9456 9558 "rewrite_arith.ml" 170 9456 9570
+type(
+  bool
+)
+"rewrite_arith.ml" 170 9456 9542 "rewrite_arith.ml" 170 9456 9570
+type(
+  bool
+)
+"rewrite_arith.ml" 170 9456 9526 "rewrite_arith.ml" 170 9456 9570
+type(
+  bool
+)
+"rewrite_arith.ml" 170 9456 9574 "rewrite_arith.ml" 170 9456 9578
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 170 9456 9574 "rewrite_arith.ml" 170 9456 9583
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 170 9456 9584 "rewrite_arith.ml" 170 9456 9587
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 170 9456 9589 "rewrite_arith.ml" 170 9456 9594
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref minus "rewrite_arith.ml" 39 1082 1090 "rewrite_arith.ml" 39 1082 1095
+)
+"rewrite_arith.ml" 170 9456 9596 "rewrite_arith.ml" 170 9456 9600
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref plus "rewrite_arith.ml" 38 1039 1047 "rewrite_arith.ml" 38 1039 1051
+)
+"rewrite_arith.ml" 170 9456 9601 "rewrite_arith.ml" 170 9456 9602
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 170 9456 9603 "rewrite_arith.ml" 170 9456 9604
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 170 9456 9513 "rewrite_arith.ml" 170 9456 9514
+)
+"rewrite_arith.ml" 170 9456 9595 "rewrite_arith.ml" 170 9456 9605
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 170 9456 9606 "rewrite_arith.ml" 170 9456 9607
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 170 9456 9517 "rewrite_arith.ml" 170 9456 9518
+)
+"rewrite_arith.ml" 170 9456 9588 "rewrite_arith.ml" 170 9456 9608
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 170 9456 9574 "rewrite_arith.ml" 170 9456 9608
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 171 9609 9619 "rewrite_arith.ml" 171 9609 9625
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 171 9609 9652 "rewrite_arith.ml" 171 9609 9659
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 171 9609 9643 "rewrite_arith.ml" 171 9609 9659
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 171 9609 9635 "rewrite_arith.ml" 171 9609 9660
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 171 9609 9663 "rewrite_arith.ml" 171 9609 9664
+type(
+  Expr.T.expr
+)
+ident(
+  def x "rewrite_arith.ml" 171 9609 9679 "rewrite_arith.ml" 171 9609 9761
+)
+"rewrite_arith.ml" 171 9609 9667 "rewrite_arith.ml" 171 9609 9668
+type(
+  Expr.T.expr
+)
+ident(
+  def z "rewrite_arith.ml" 171 9609 9679 "rewrite_arith.ml" 171 9609 9761
+)
+"rewrite_arith.ml" 171 9609 9662 "rewrite_arith.ml" 171 9609 9669
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 171 9609 9628 "rewrite_arith.ml" 171 9609 9670
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 171 9609 9672 "rewrite_arith.ml" 171 9609 9673
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 171 9609 9619 "rewrite_arith.ml" 171 9609 9673
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 171 9609 9679 "rewrite_arith.ml" 171 9609 9685
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 171 9609 9686 "rewrite_arith.ml" 171 9609 9689
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 171 9609 9690 "rewrite_arith.ml" 171 9609 9691
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 171 9609 9663 "rewrite_arith.ml" 171 9609 9664
+)
+"rewrite_arith.ml" 171 9609 9679 "rewrite_arith.ml" 171 9609 9691
+type(
+  bool
+)
+"rewrite_arith.ml" 171 9609 9692 "rewrite_arith.ml" 171 9609 9694
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 171 9609 9695 "rewrite_arith.ml" 171 9609 9701
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 171 9609 9702 "rewrite_arith.ml" 171 9609 9705
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 171 9609 9706 "rewrite_arith.ml" 171 9609 9707
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 171 9609 9695 "rewrite_arith.ml" 171 9609 9707
+type(
+  bool
+)
+"rewrite_arith.ml" 171 9609 9708 "rewrite_arith.ml" 171 9609 9710
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 171 9609 9711 "rewrite_arith.ml" 171 9609 9717
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 171 9609 9718 "rewrite_arith.ml" 171 9609 9721
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 171 9609 9722 "rewrite_arith.ml" 171 9609 9723
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 171 9609 9667 "rewrite_arith.ml" 171 9609 9668
+)
+"rewrite_arith.ml" 171 9609 9711 "rewrite_arith.ml" 171 9609 9723
+type(
+  bool
+)
+"rewrite_arith.ml" 171 9609 9695 "rewrite_arith.ml" 171 9609 9723
+type(
+  bool
+)
+"rewrite_arith.ml" 171 9609 9679 "rewrite_arith.ml" 171 9609 9723
+type(
+  bool
+)
+"rewrite_arith.ml" 171 9609 9727 "rewrite_arith.ml" 171 9609 9731
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 171 9609 9727 "rewrite_arith.ml" 171 9609 9736
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 171 9609 9737 "rewrite_arith.ml" 171 9609 9740
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 171 9609 9742 "rewrite_arith.ml" 171 9609 9747
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref minus "rewrite_arith.ml" 39 1082 1090 "rewrite_arith.ml" 39 1082 1095
+)
+"rewrite_arith.ml" 171 9609 9749 "rewrite_arith.ml" 171 9609 9753
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref plus "rewrite_arith.ml" 38 1039 1047 "rewrite_arith.ml" 38 1039 1051
+)
+"rewrite_arith.ml" 171 9609 9754 "rewrite_arith.ml" 171 9609 9755
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 171 9609 9663 "rewrite_arith.ml" 171 9609 9664
+)
+"rewrite_arith.ml" 171 9609 9756 "rewrite_arith.ml" 171 9609 9757
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 171 9609 9748 "rewrite_arith.ml" 171 9609 9758
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 171 9609 9759 "rewrite_arith.ml" 171 9609 9760
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 171 9609 9667 "rewrite_arith.ml" 171 9609 9668
+)
+"rewrite_arith.ml" 171 9609 9741 "rewrite_arith.ml" 171 9609 9761
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 171 9609 9727 "rewrite_arith.ml" 171 9609 9761
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 172 9762 9772 "rewrite_arith.ml" 172 9762 9779
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 172 9762 9781 "rewrite_arith.ml" 172 9762 9782
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 172 9762 9808 "rewrite_arith.ml" 172 9762 9814
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 172 9762 9799 "rewrite_arith.ml" 172 9762 9814
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 172 9762 9791 "rewrite_arith.ml" 172 9762 9815
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 172 9762 9819 "rewrite_arith.ml" 172 9762 9820
+type(
+  Expr.T.expr
+)
+ident(
+  def y "rewrite_arith.ml" 172 9762 9832 "rewrite_arith.ml" 172 9762 9915
+)
+"rewrite_arith.ml" 172 9762 9823 "rewrite_arith.ml" 172 9762 9824
+type(
+  Expr.T.expr
+)
+ident(
+  def z "rewrite_arith.ml" 172 9762 9832 "rewrite_arith.ml" 172 9762 9915
+)
+"rewrite_arith.ml" 172 9762 9818 "rewrite_arith.ml" 172 9762 9825
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 172 9762 9784 "rewrite_arith.ml" 172 9762 9826
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 172 9762 9772 "rewrite_arith.ml" 172 9762 9826
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 172 9762 9832 "rewrite_arith.ml" 172 9762 9838
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 172 9762 9839 "rewrite_arith.ml" 172 9762 9842
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 172 9762 9843 "rewrite_arith.ml" 172 9762 9844
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 172 9762 9832 "rewrite_arith.ml" 172 9762 9844
+type(
+  bool
+)
+"rewrite_arith.ml" 172 9762 9845 "rewrite_arith.ml" 172 9762 9847
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 172 9762 9848 "rewrite_arith.ml" 172 9762 9854
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 172 9762 9855 "rewrite_arith.ml" 172 9762 9858
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 172 9762 9859 "rewrite_arith.ml" 172 9762 9860
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 172 9762 9819 "rewrite_arith.ml" 172 9762 9820
+)
+"rewrite_arith.ml" 172 9762 9848 "rewrite_arith.ml" 172 9762 9860
+type(
+  bool
+)
+"rewrite_arith.ml" 172 9762 9861 "rewrite_arith.ml" 172 9762 9863
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 172 9762 9864 "rewrite_arith.ml" 172 9762 9870
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 172 9762 9871 "rewrite_arith.ml" 172 9762 9874
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 172 9762 9875 "rewrite_arith.ml" 172 9762 9876
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 172 9762 9823 "rewrite_arith.ml" 172 9762 9824
+)
+"rewrite_arith.ml" 172 9762 9864 "rewrite_arith.ml" 172 9762 9876
+type(
+  bool
+)
+"rewrite_arith.ml" 172 9762 9848 "rewrite_arith.ml" 172 9762 9876
+type(
+  bool
+)
+"rewrite_arith.ml" 172 9762 9832 "rewrite_arith.ml" 172 9762 9876
+type(
+  bool
+)
+"rewrite_arith.ml" 172 9762 9880 "rewrite_arith.ml" 172 9762 9884
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 172 9762 9880 "rewrite_arith.ml" 172 9762 9889
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 172 9762 9890 "rewrite_arith.ml" 172 9762 9893
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 172 9762 9895 "rewrite_arith.ml" 172 9762 9900
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref minus "rewrite_arith.ml" 39 1082 1090 "rewrite_arith.ml" 39 1082 1095
+)
+"rewrite_arith.ml" 172 9762 9902 "rewrite_arith.ml" 172 9762 9907
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref minus "rewrite_arith.ml" 39 1082 1090 "rewrite_arith.ml" 39 1082 1095
+)
+"rewrite_arith.ml" 172 9762 9908 "rewrite_arith.ml" 172 9762 9909
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 172 9762 9910 "rewrite_arith.ml" 172 9762 9911
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 172 9762 9819 "rewrite_arith.ml" 172 9762 9820
+)
+"rewrite_arith.ml" 172 9762 9901 "rewrite_arith.ml" 172 9762 9912
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 172 9762 9913 "rewrite_arith.ml" 172 9762 9914
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 172 9762 9823 "rewrite_arith.ml" 172 9762 9824
+)
+"rewrite_arith.ml" 172 9762 9894 "rewrite_arith.ml" 172 9762 9915
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 172 9762 9880 "rewrite_arith.ml" 172 9762 9915
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 173 9916 9926 "rewrite_arith.ml" 173 9916 9933
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 173 9916 9935 "rewrite_arith.ml" 173 9916 9936
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 173 9916 9962 "rewrite_arith.ml" 173 9916 9969
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 173 9916 9953 "rewrite_arith.ml" 173 9916 9969
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 173 9916 9945 "rewrite_arith.ml" 173 9916 9970
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 173 9916 9973 "rewrite_arith.ml" 173 9916 9974
+type(
+  Expr.T.expr
+)
+ident(
+  def y "rewrite_arith.ml" 173 9916 9986 "rewrite_arith.ml" 173 9916 10068
+)
+"rewrite_arith.ml" 173 9916 9977 "rewrite_arith.ml" 173 9916 9978
+type(
+  Expr.T.expr
+)
+ident(
+  def z "rewrite_arith.ml" 173 9916 9986 "rewrite_arith.ml" 173 9916 10068
+)
+"rewrite_arith.ml" 173 9916 9972 "rewrite_arith.ml" 173 9916 9979
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 173 9916 9938 "rewrite_arith.ml" 173 9916 9980
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 173 9916 9926 "rewrite_arith.ml" 173 9916 9980
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 173 9916 9986 "rewrite_arith.ml" 173 9916 9992
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 173 9916 9993 "rewrite_arith.ml" 173 9916 9996
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 173 9916 9997 "rewrite_arith.ml" 173 9916 9998
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 173 9916 9986 "rewrite_arith.ml" 173 9916 9998
+type(
+  bool
+)
+"rewrite_arith.ml" 173 9916 9999 "rewrite_arith.ml" 173 9916 10001
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 173 9916 10002 "rewrite_arith.ml" 173 9916 10008
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 173 9916 10009 "rewrite_arith.ml" 173 9916 10012
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 173 9916 10013 "rewrite_arith.ml" 173 9916 10014
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 173 9916 9973 "rewrite_arith.ml" 173 9916 9974
+)
+"rewrite_arith.ml" 173 9916 10002 "rewrite_arith.ml" 173 9916 10014
+type(
+  bool
+)
+"rewrite_arith.ml" 173 9916 10015 "rewrite_arith.ml" 173 9916 10017
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 173 9916 10018 "rewrite_arith.ml" 173 9916 10024
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 173 9916 10025 "rewrite_arith.ml" 173 9916 10028
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 173 9916 10029 "rewrite_arith.ml" 173 9916 10030
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 173 9916 9977 "rewrite_arith.ml" 173 9916 9978
+)
+"rewrite_arith.ml" 173 9916 10018 "rewrite_arith.ml" 173 9916 10030
+type(
+  bool
+)
+"rewrite_arith.ml" 173 9916 10002 "rewrite_arith.ml" 173 9916 10030
+type(
+  bool
+)
+"rewrite_arith.ml" 173 9916 9986 "rewrite_arith.ml" 173 9916 10030
+type(
+  bool
+)
+"rewrite_arith.ml" 173 9916 10034 "rewrite_arith.ml" 173 9916 10038
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 173 9916 10034 "rewrite_arith.ml" 173 9916 10043
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 173 9916 10044 "rewrite_arith.ml" 173 9916 10047
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 173 9916 10049 "rewrite_arith.ml" 173 9916 10054
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref minus "rewrite_arith.ml" 39 1082 1090 "rewrite_arith.ml" 39 1082 1095
+)
+"rewrite_arith.ml" 173 9916 10056 "rewrite_arith.ml" 173 9916 10060
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref plus "rewrite_arith.ml" 38 1039 1047 "rewrite_arith.ml" 38 1039 1051
+)
+"rewrite_arith.ml" 173 9916 10061 "rewrite_arith.ml" 173 9916 10062
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 173 9916 10063 "rewrite_arith.ml" 173 9916 10064
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref z "rewrite_arith.ml" 173 9916 9977 "rewrite_arith.ml" 173 9916 9978
+)
+"rewrite_arith.ml" 173 9916 10055 "rewrite_arith.ml" 173 9916 10065
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 173 9916 10066 "rewrite_arith.ml" 173 9916 10067
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 173 9916 9973 "rewrite_arith.ml" 173 9916 9974
+)
+"rewrite_arith.ml" 173 9916 10048 "rewrite_arith.ml" 173 9916 10068
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 173 9916 10034 "rewrite_arith.ml" 173 9916 10068
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 179 10420 10430 "rewrite_arith.ml" 179 10420 10436
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 179 10420 10438 "rewrite_arith.ml" 179 10420 10439
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 179 10420 10446 "rewrite_arith.ml" 179 10420 10447
+type(
+  string
+)
+ident(
+  def n "rewrite_arith.ml" 179 10420 10458 "rewrite_arith.ml" 179 10420 10518
+)
+"rewrite_arith.ml" 179 10420 10448 "rewrite_arith.ml" 179 10420 10450
+type(
+  string
+)
+"rewrite_arith.ml" 179 10420 10441 "rewrite_arith.ml" 179 10420 10451
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 179 10420 10430 "rewrite_arith.ml" 179 10420 10451
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 179 10420 10458 "rewrite_arith.ml" 179 10420 10464
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 179 10420 10465 "rewrite_arith.ml" 179 10420 10468
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 179 10420 10469 "rewrite_arith.ml" 179 10420 10470
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 179 10420 10458 "rewrite_arith.ml" 179 10420 10470
+type(
+  bool
+)
+"rewrite_arith.ml" 179 10420 10471 "rewrite_arith.ml" 179 10420 10473
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 179 10420 10474 "rewrite_arith.ml" 179 10420 10480
+type(
+  string -> bool
+)
+ident(
+  int_ref is_neg "rewrite_arith.ml" 47 1495 1505 "rewrite_arith.ml" 47 1495 1511
+)
+"rewrite_arith.ml" 179 10420 10481 "rewrite_arith.ml" 179 10420 10482
+type(
+  string
+)
+ident(
+  int_ref n "rewrite_arith.ml" 179 10420 10446 "rewrite_arith.ml" 179 10420 10447
+)
+"rewrite_arith.ml" 179 10420 10474 "rewrite_arith.ml" 179 10420 10482
+type(
+  bool
+)
+"rewrite_arith.ml" 179 10420 10458 "rewrite_arith.ml" 179 10420 10482
+type(
+  bool
+)
+"rewrite_arith.ml" 179 10420 10486 "rewrite_arith.ml" 179 10420 10490
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 179 10420 10486 "rewrite_arith.ml" 179 10420 10495
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 179 10420 10496 "rewrite_arith.ml" 179 10420 10499
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 179 10420 10501 "rewrite_arith.ml" 179 10420 10506
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref minus "rewrite_arith.ml" 39 1082 1090 "rewrite_arith.ml" 39 1082 1095
+)
+"rewrite_arith.ml" 179 10420 10507 "rewrite_arith.ml" 179 10420 10508
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 179 10420 10510 "rewrite_arith.ml" 179 10420 10513
+type(
+  string -> Expr.T.expr
+)
+ident(
+  int_ref abs "rewrite_arith.ml" 49 1586 1596 "rewrite_arith.ml" 49 1586 1599
+)
+"rewrite_arith.ml" 179 10420 10514 "rewrite_arith.ml" 179 10420 10515
+type(
+  string
+)
+ident(
+  int_ref n "rewrite_arith.ml" 179 10420 10446 "rewrite_arith.ml" 179 10420 10447
+)
+"rewrite_arith.ml" 179 10420 10509 "rewrite_arith.ml" 179 10420 10516
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 179 10420 10500 "rewrite_arith.ml" 179 10420 10518
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 179 10420 10486 "rewrite_arith.ml" 179 10420 10518
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 180 10519 10529 "rewrite_arith.ml" 180 10519 10535
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 180 10519 10542 "rewrite_arith.ml" 180 10519 10543
+type(
+  string
+)
+ident(
+  def n "rewrite_arith.ml" 180 10519 10557 "rewrite_arith.ml" 180 10519 10617
+)
+"rewrite_arith.ml" 180 10519 10544 "rewrite_arith.ml" 180 10519 10546
+type(
+  string
+)
+"rewrite_arith.ml" 180 10519 10537 "rewrite_arith.ml" 180 10519 10547
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 180 10519 10549 "rewrite_arith.ml" 180 10519 10550
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 180 10519 10529 "rewrite_arith.ml" 180 10519 10550
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 180 10519 10557 "rewrite_arith.ml" 180 10519 10563
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 180 10519 10564 "rewrite_arith.ml" 180 10519 10567
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 180 10519 10568 "rewrite_arith.ml" 180 10519 10569
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 180 10519 10557 "rewrite_arith.ml" 180 10519 10569
+type(
+  bool
+)
+"rewrite_arith.ml" 180 10519 10570 "rewrite_arith.ml" 180 10519 10572
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 180 10519 10573 "rewrite_arith.ml" 180 10519 10579
+type(
+  string -> bool
+)
+ident(
+  int_ref is_neg "rewrite_arith.ml" 47 1495 1505 "rewrite_arith.ml" 47 1495 1511
+)
+"rewrite_arith.ml" 180 10519 10580 "rewrite_arith.ml" 180 10519 10581
+type(
+  string
+)
+ident(
+  int_ref n "rewrite_arith.ml" 180 10519 10542 "rewrite_arith.ml" 180 10519 10543
+)
+"rewrite_arith.ml" 180 10519 10573 "rewrite_arith.ml" 180 10519 10581
+type(
+  bool
+)
+"rewrite_arith.ml" 180 10519 10557 "rewrite_arith.ml" 180 10519 10581
+type(
+  bool
+)
+"rewrite_arith.ml" 180 10519 10585 "rewrite_arith.ml" 180 10519 10589
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 180 10519 10585 "rewrite_arith.ml" 180 10519 10594
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 180 10519 10595 "rewrite_arith.ml" 180 10519 10598
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 180 10519 10600 "rewrite_arith.ml" 180 10519 10605
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref minus "rewrite_arith.ml" 39 1082 1090 "rewrite_arith.ml" 39 1082 1095
+)
+"rewrite_arith.ml" 180 10519 10606 "rewrite_arith.ml" 180 10519 10607
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 180 10519 10609 "rewrite_arith.ml" 180 10519 10612
+type(
+  string -> Expr.T.expr
+)
+ident(
+  int_ref abs "rewrite_arith.ml" 49 1586 1596 "rewrite_arith.ml" 49 1586 1599
+)
+"rewrite_arith.ml" 180 10519 10613 "rewrite_arith.ml" 180 10519 10614
+type(
+  string
+)
+ident(
+  int_ref n "rewrite_arith.ml" 180 10519 10542 "rewrite_arith.ml" 180 10519 10543
+)
+"rewrite_arith.ml" 180 10519 10608 "rewrite_arith.ml" 180 10519 10615
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 180 10519 10599 "rewrite_arith.ml" 180 10519 10617
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 180 10519 10585 "rewrite_arith.ml" 180 10519 10617
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 181 10618 10628 "rewrite_arith.ml" 181 10618 10635
+type(
+  Builtin.builtin
+)
+"rewrite_arith.ml" 181 10618 10637 "rewrite_arith.ml" 181 10618 10638
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 181 10618 10645 "rewrite_arith.ml" 181 10618 10646
+type(
+  string
+)
+ident(
+  def n "rewrite_arith.ml" 181 10618 10656 "rewrite_arith.ml" 181 10618 10716
+)
+"rewrite_arith.ml" 181 10618 10647 "rewrite_arith.ml" 181 10618 10649
+type(
+  string
+)
+"rewrite_arith.ml" 181 10618 10640 "rewrite_arith.ml" 181 10618 10650
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 181 10618 10628 "rewrite_arith.ml" 181 10618 10650
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 181 10618 10656 "rewrite_arith.ml" 181 10618 10662
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> bool
+)
+ident(
+  int_ref is_Int "rewrite_arith.ml" 21 303 307 "rewrite_arith.ml" 21 303 313
+)
+"rewrite_arith.ml" 181 10618 10663 "rewrite_arith.ml" 181 10618 10666
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 181 10618 10667 "rewrite_arith.ml" 181 10618 10668
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 181 10618 10656 "rewrite_arith.ml" 181 10618 10668
+type(
+  bool
+)
+"rewrite_arith.ml" 181 10618 10669 "rewrite_arith.ml" 181 10618 10671
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"rewrite_arith.ml" 181 10618 10672 "rewrite_arith.ml" 181 10618 10678
+type(
+  string -> bool
+)
+ident(
+  int_ref is_neg "rewrite_arith.ml" 47 1495 1505 "rewrite_arith.ml" 47 1495 1511
+)
+"rewrite_arith.ml" 181 10618 10679 "rewrite_arith.ml" 181 10618 10680
+type(
+  string
+)
+ident(
+  int_ref n "rewrite_arith.ml" 181 10618 10645 "rewrite_arith.ml" 181 10618 10646
+)
+"rewrite_arith.ml" 181 10618 10672 "rewrite_arith.ml" 181 10618 10680
+type(
+  bool
+)
+"rewrite_arith.ml" 181 10618 10656 "rewrite_arith.ml" 181 10618 10680
+type(
+  bool
+)
+"rewrite_arith.ml" 181 10618 10684 "rewrite_arith.ml" 181 10618 10688
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+"rewrite_arith.ml" 181 10618 10684 "rewrite_arith.ml" 181 10618 10693
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 181 10618 10694 "rewrite_arith.ml" 181 10618 10697
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 181 10618 10699 "rewrite_arith.ml" 181 10618 10703
+type(
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref plus "rewrite_arith.ml" 38 1039 1047 "rewrite_arith.ml" 38 1039 1051
+)
+"rewrite_arith.ml" 181 10618 10705 "rewrite_arith.ml" 181 10618 10706
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 181 10618 10708 "rewrite_arith.ml" 181 10618 10711
+type(
+  string -> Expr.T.expr
+)
+ident(
+  int_ref abs "rewrite_arith.ml" 49 1586 1596 "rewrite_arith.ml" 49 1586 1599
+)
+"rewrite_arith.ml" 181 10618 10712 "rewrite_arith.ml" 181 10618 10713
+type(
+  string
+)
+ident(
+  int_ref n "rewrite_arith.ml" 181 10618 10645 "rewrite_arith.ml" 181 10618 10646
+)
+"rewrite_arith.ml" 181 10618 10707 "rewrite_arith.ml" 181 10618 10714
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 181 10618 10698 "rewrite_arith.ml" 181 10618 10716
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 181 10618 10684 "rewrite_arith.ml" 181 10618 10716
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 188 11057 11067 "rewrite_arith.ml" 188 11057 11068
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Builtin.builtin * Expr.T.expr_ * Expr.T.expr_
+)
+"rewrite_arith.ml" 188 11057 11079 "rewrite_arith.ml" 188 11057 11080
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref o "rewrite_arith.ml" 44 1377 1390 "rewrite_arith.ml" 44 1377 1415
+)
+"rewrite_arith.ml" 188 11057 11083 "rewrite_arith.ml" 188 11057 11084
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "rewrite_arith.ml" 45 1429 1439 "rewrite_arith.ml" 45 1429 1440
+)
+"rewrite_arith.ml" 188 11057 11087 "rewrite_arith.ml" 188 11057 11088
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref y "rewrite_arith.ml" 46 1462 1472 "rewrite_arith.ml" 46 1462 1473
+)
+"rewrite_arith.ml" 188 11057 11082 "rewrite_arith.ml" 188 11057 11089
+type(
+  Expr.T.expr list
+)
+"rewrite_arith.ml" 188 11057 11072 "rewrite_arith.ml" 188 11057 11090
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 188 11057 11094 "rewrite_arith.ml" 188 11057 11096
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "rewrite_arith.ml" 34 746 754 "rewrite_arith.ml" 34 746 756
+)
+"rewrite_arith.ml" 188 11057 11072 "rewrite_arith.ml" 188 11057 11096
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 50 1708 1714 "rewrite_arith.ml" 189 11097 11106
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 49 1586 1592 "rewrite_arith.ml" 189 11097 11106
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 48 1531 1537 "rewrite_arith.ml" 189 11097 11106
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 47 1495 1501 "rewrite_arith.ml" 189 11097 11106
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 46 1462 1468 "rewrite_arith.ml" 189 11097 11106
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 45 1429 1435 "rewrite_arith.ml" 189 11097 11106
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 193 11455 11461 "rewrite_arith.ml" 193 11455 11462
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"rewrite_arith.ml" 194 11466 11472 "rewrite_arith.ml" 194 11466 11477
+type(
+  'a
+)
+ident(
+  ext_ref self-1
+)
+type(
+  'a
+)
+ident(
+  int_ref super "rewrite_arith.ml" 25 420 430 "rewrite_arith.ml" 25 420 451
+)
+"rewrite_arith.ml" 194 11466 11472 "rewrite_arith.ml" 194 11466 11482
+type(
+  'a -> unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"rewrite_arith.ml" 194 11466 11483 "rewrite_arith.ml" 194 11466 11486
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "rewrite_arith.ml" 32 638 652 "rewrite_arith.ml" 32 638 655
+)
+"rewrite_arith.ml" 194 11466 11487 "rewrite_arith.ml" 194 11466 11488
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "rewrite_arith.ml" 32 638 656 "rewrite_arith.ml" 32 638 657
+)
+"rewrite_arith.ml" 194 11466 11472 "rewrite_arith.ml" 194 11466 11488
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 43 1355 1359 "rewrite_arith.ml" 194 11466 11488
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 41 1164 1168 "rewrite_arith.ml" 194 11466 11488
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 40 1127 1131 "rewrite_arith.ml" 194 11466 11488
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 39 1082 1086 "rewrite_arith.ml" 194 11466 11488
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 38 1039 1043 "rewrite_arith.ml" 194 11466 11488
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 37 997 1001 "rewrite_arith.ml" 194 11466 11488
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 36 936 940 "rewrite_arith.ml" 194 11466 11488
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 35 784 788 "rewrite_arith.ml" 194 11466 11488
+type(
+  Expr.T.expr
+)
+"rewrite_arith.ml" 34 746 750 "rewrite_arith.ml" 194 11466 11488
+type(
+  Expr.T.expr
+)

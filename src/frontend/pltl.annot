@@ -1,0 +1,2837 @@
+"pltl.ml" 20 398 405 "pltl.ml" 20 398 406
+ident(
+  def B "pltl.ml" 20 398 416 "pltl.ml" 0 0 -1
+)
+"pltl.ml" 23 419 423 "pltl.ml" 23 419 435
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  def coalesce_fol "pltl.ml" 60 1345 1345 "pltl.ml" 0 0 -1
+)
+"pltl.ml" 24 438 444 "pltl.ml" 24 438 451
+type(
+  unit Expr.Visit.map
+)
+ident(
+  def visitor "pltl.ml" 57 1306 1308 "pltl.ml" 58 1321 1343
+)
+"pltl.ml" 24 438 462 "pltl.ml" 24 438 466
+type(
+  unit Expr.Visit.map
+)
+type(
+  unit Expr.Visit.map
+)
+"pltl.ml" 26 519 537 "pltl.ml" 26 519 538
+type(
+  unit
+)
+"pltl.ml" 26 519 540 "pltl.ml" 26 519 542
+type(
+  Expr.T.ctx
+)
+ident(
+  def cx "pltl.ml" 26 519 552 "pltl.ml" 55 1287 1296
+)
+"pltl.ml" 26 519 536 "pltl.ml" 26 519 543
+type(
+  unit * Expr.T.ctx
+)
+"pltl.ml" 26 519 535 "pltl.ml" 26 519 551
+type(
+  unit * Expr.T.ctx
+)
+ident(
+  def scx "pltl.ml" 26 519 552 "pltl.ml" 55 1287 1296
+)
+"pltl.ml" 26 519 552 "pltl.ml" 26 519 553
+type(
+  Expr.T.expr
+)
+ident(
+  def e "pltl.ml" 26 519 556 "pltl.ml" 55 1287 1296
+)
+"pltl.ml" 26 519 568 "pltl.ml" 26 519 569
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "pltl.ml" 26 519 552 "pltl.ml" 26 519 553
+)
+"pltl.ml" 26 519 568 "pltl.ml" 26 519 574
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 29 644 663 "pltl.ml" 29 644 669
+type(
+  Builtin.builtin
+)
+"pltl.ml" 29 644 654 "pltl.ml" 29 644 669
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 30 670 689 "pltl.ml" 30 670 695
+type(
+  Builtin.builtin
+)
+"pltl.ml" 30 670 680 "pltl.ml" 30 670 695
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 29 644 654 "pltl.ml" 30 670 695
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 31 696 715 "pltl.ml" 31 696 724
+type(
+  Builtin.builtin
+)
+"pltl.ml" 31 696 706 "pltl.ml" 31 696 724
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 29 644 654 "pltl.ml" 31 696 724
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 32 725 744 "pltl.ml" 32 725 751
+type(
+  Builtin.builtin
+)
+"pltl.ml" 32 725 735 "pltl.ml" 32 725 751
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 29 644 654 "pltl.ml" 32 725 751
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 33 752 771 "pltl.ml" 33 752 777
+type(
+  Builtin.builtin
+)
+"pltl.ml" 33 752 762 "pltl.ml" 33 752 777
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 29 644 654 "pltl.ml" 33 752 777
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 34 778 797 "pltl.ml" 34 778 804
+type(
+  Builtin.builtin
+)
+"pltl.ml" 34 778 788 "pltl.ml" 34 778 804
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 29 644 654 "pltl.ml" 34 778 804
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 35 805 830 "pltl.ml" 35 805 831
+type(
+  bool
+)
+"pltl.ml" 35 805 824 "pltl.ml" 35 805 831
+type(
+  Builtin.builtin
+)
+"pltl.ml" 35 805 815 "pltl.ml" 35 805 831
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 29 644 654 "pltl.ml" 35 805 831
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 36 832 851 "pltl.ml" 36 832 860
+type(
+  Builtin.builtin
+)
+"pltl.ml" 36 832 842 "pltl.ml" 36 832 860
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 29 644 654 "pltl.ml" 36 832 860
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 37 861 880 "pltl.ml" 37 861 887
+type(
+  Builtin.builtin
+)
+"pltl.ml" 37 861 871 "pltl.ml" 37 861 887
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 29 644 654 "pltl.ml" 37 861 887
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 38 888 907 "pltl.ml" 38 888 912
+type(
+  Builtin.builtin
+)
+"pltl.ml" 38 888 898 "pltl.ml" 38 888 912
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 28 618 642 "pltl.ml" 39 913 920
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 28 618 633 "pltl.ml" 39 913 921
+type(
+  Expr.T.expr
+)
+"pltl.ml" 39 913 923 "pltl.ml" 39 913 924
+type(
+  Expr.T.expr list
+)
+"pltl.ml" 28 618 626 "pltl.ml" 39 913 925
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 39 913 929 "pltl.ml" 39 913 934
+type(
+  unit Expr.Visit.map
+)
+ident(
+  ext_ref self-1
+)
+type(
+  unit Expr.Visit.map
+)
+ident(
+  int_ref super "pltl.ml" 25 476 488 "pltl.ml" 25 476 509
+)
+"pltl.ml" 39 913 929 "pltl.ml" 39 913 939
+type(
+  unit Expr.Visit.map -> unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"pltl.ml" 39 913 940 "pltl.ml" 39 913 943
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "pltl.ml" 26 519 535 "pltl.ml" 26 519 551
+)
+"pltl.ml" 39 913 944 "pltl.ml" 39 913 945
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "pltl.ml" 26 519 552 "pltl.ml" 26 519 553
+)
+"pltl.ml" 39 913 929 "pltl.ml" 39 913 945
+type(
+  Expr.T.expr
+)
+"pltl.ml" 40 946 962 "pltl.ml" 40 946 963
+type(
+  Expr.T.sequent
+)
+"pltl.ml" 40 946 954 "pltl.ml" 40 946 963
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 40 946 967 "pltl.ml" 40 946 972
+type(
+  unit Expr.Visit.map
+)
+ident(
+  ext_ref self-1
+)
+type(
+  unit Expr.Visit.map
+)
+ident(
+  int_ref super "pltl.ml" 25 476 488 "pltl.ml" 25 476 509
+)
+"pltl.ml" 40 946 967 "pltl.ml" 40 946 977
+type(
+  unit Expr.Visit.map -> unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"pltl.ml" 40 946 978 "pltl.ml" 40 946 981
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "pltl.ml" 26 519 535 "pltl.ml" 26 519 551
+)
+"pltl.ml" 40 946 982 "pltl.ml" 40 946 983
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "pltl.ml" 26 519 552 "pltl.ml" 26 519 553
+)
+"pltl.ml" 40 946 967 "pltl.ml" 40 946 983
+type(
+  Expr.T.expr
+)
+"pltl.ml" 41 984 997 "pltl.ml" 41 984 998
+type(
+  Expr.T.expr list
+)
+type(
+  Expr.T.bullet
+)
+"pltl.ml" 41 984 992 "pltl.ml" 41 984 998
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 41 984 1002 "pltl.ml" 41 984 1007
+type(
+  unit Expr.Visit.map
+)
+ident(
+  ext_ref self-1
+)
+type(
+  unit Expr.Visit.map
+)
+ident(
+  int_ref super "pltl.ml" 25 476 488 "pltl.ml" 25 476 509
+)
+"pltl.ml" 41 984 1002 "pltl.ml" 41 984 1012
+type(
+  unit Expr.Visit.map -> unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"pltl.ml" 41 984 1013 "pltl.ml" 41 984 1016
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "pltl.ml" 26 519 535 "pltl.ml" 26 519 551
+)
+"pltl.ml" 41 984 1017 "pltl.ml" 41 984 1018
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "pltl.ml" 26 519 552 "pltl.ml" 26 519 553
+)
+"pltl.ml" 41 984 1002 "pltl.ml" 41 984 1018
+type(
+  Expr.T.expr
+)
+"pltl.ml" 43 1039 1047 "pltl.ml" 43 1039 1053
+type(
+  Builtin.builtin
+)
+"pltl.ml" 44 1054 1064 "pltl.ml" 44 1054 1070
+type(
+  Builtin.builtin
+)
+"pltl.ml" 43 1039 1047 "pltl.ml" 44 1054 1070
+type(
+  Builtin.builtin
+)
+"pltl.ml" 45 1071 1081 "pltl.ml" 45 1071 1090
+type(
+  Builtin.builtin
+)
+"pltl.ml" 43 1039 1047 "pltl.ml" 45 1071 1090
+type(
+  Builtin.builtin
+)
+"pltl.ml" 46 1091 1101 "pltl.ml" 46 1091 1108
+type(
+  Builtin.builtin
+)
+"pltl.ml" 43 1039 1047 "pltl.ml" 46 1091 1108
+type(
+  Builtin.builtin
+)
+"pltl.ml" 47 1109 1119 "pltl.ml" 47 1109 1125
+type(
+  Builtin.builtin
+)
+"pltl.ml" 43 1039 1047 "pltl.ml" 47 1109 1125
+type(
+  Builtin.builtin
+)
+"pltl.ml" 48 1126 1136 "pltl.ml" 48 1126 1143
+type(
+  Builtin.builtin
+)
+"pltl.ml" 43 1039 1047 "pltl.ml" 48 1126 1143
+type(
+  Builtin.builtin
+)
+"pltl.ml" 49 1144 1160 "pltl.ml" 49 1144 1161
+type(
+  bool
+)
+"pltl.ml" 49 1144 1154 "pltl.ml" 49 1144 1161
+type(
+  Builtin.builtin
+)
+"pltl.ml" 43 1039 1047 "pltl.ml" 49 1144 1161
+type(
+  Builtin.builtin
+)
+"pltl.ml" 50 1162 1172 "pltl.ml" 50 1162 1181
+type(
+  Builtin.builtin
+)
+"pltl.ml" 43 1039 1047 "pltl.ml" 50 1162 1181
+type(
+  Builtin.builtin
+)
+"pltl.ml" 51 1182 1192 "pltl.ml" 51 1182 1199
+type(
+  Builtin.builtin
+)
+"pltl.ml" 43 1039 1047 "pltl.ml" 51 1182 1199
+type(
+  Builtin.builtin
+)
+"pltl.ml" 52 1200 1210 "pltl.ml" 52 1200 1215
+type(
+  Builtin.builtin
+)
+"pltl.ml" 42 1019 1037 "pltl.ml" 53 1216 1223
+type(
+  Builtin.builtin
+)
+"pltl.ml" 42 1019 1028 "pltl.ml" 53 1216 1223
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 53 1216 1227 "pltl.ml" 53 1216 1232
+type(
+  unit Expr.Visit.map
+)
+ident(
+  ext_ref self-1
+)
+type(
+  unit Expr.Visit.map
+)
+ident(
+  int_ref super "pltl.ml" 25 476 488 "pltl.ml" 25 476 509
+)
+"pltl.ml" 53 1216 1227 "pltl.ml" 53 1216 1237
+type(
+  unit Expr.Visit.map -> unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"pltl.ml" 53 1216 1238 "pltl.ml" 53 1216 1241
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "pltl.ml" 26 519 535 "pltl.ml" 26 519 551
+)
+"pltl.ml" 53 1216 1242 "pltl.ml" 53 1216 1243
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "pltl.ml" 26 519 552 "pltl.ml" 26 519 553
+)
+"pltl.ml" 53 1216 1227 "pltl.ml" 53 1216 1243
+type(
+  Expr.T.expr
+)
+"pltl.ml" 54 1244 1252 "pltl.ml" 54 1244 1253
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 54 1244 1257 "pltl.ml" 54 1244 1274
+type(
+  Expr.T.ctx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Coalesce.coalesce "coalesce.mli" 15 293 293 "coalesce.mli" 15 293 326
+)
+"pltl.ml" 54 1244 1276 "pltl.ml" 54 1244 1279
+type(
+  unit * Expr.T.ctx -> Expr.T.ctx
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"pltl.ml" 54 1244 1280 "pltl.ml" 54 1244 1283
+type(
+  unit * Expr.T.ctx
+)
+ident(
+  int_ref scx "pltl.ml" 26 519 535 "pltl.ml" 26 519 551
+)
+"pltl.ml" 54 1244 1275 "pltl.ml" 54 1244 1284
+type(
+  Expr.T.ctx
+)
+"pltl.ml" 54 1244 1285 "pltl.ml" 54 1244 1286
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "pltl.ml" 26 519 552 "pltl.ml" 26 519 553
+)
+"pltl.ml" 54 1244 1257 "pltl.ml" 54 1244 1286
+type(
+  Expr.T.expr
+)
+"pltl.ml" 26 519 556 "pltl.ml" 55 1287 1296
+type(
+  Expr.T.expr
+)
+"pltl.ml" 24 438 454 "pltl.ml" 56 1297 1302
+type(
+  unit Expr.Visit.map
+)
+"pltl.ml" 57 1306 1312 "pltl.ml" 57 1306 1315
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "pltl.ml" 57 1306 1316 "pltl.ml" 58 1321 1343
+)
+"pltl.ml" 57 1306 1316 "pltl.ml" 57 1306 1317
+type(
+  Expr.T.expr
+)
+ident(
+  def e "pltl.ml" 58 1321 1325 "pltl.ml" 58 1321 1343
+)
+"pltl.ml" 58 1321 1325 "pltl.ml" 58 1321 1332
+type(
+  unit Expr.Visit.map
+)
+ident(
+  int_ref visitor "pltl.ml" 24 438 444 "pltl.ml" 24 438 451
+)
+"pltl.ml" 58 1321 1325 "pltl.ml" 58 1321 1337
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"pltl.ml" 58 1321 1338 "pltl.ml" 58 1321 1341
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "pltl.ml" 57 1306 1312 "pltl.ml" 57 1306 1315
+)
+"pltl.ml" 58 1321 1342 "pltl.ml" 58 1321 1343
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "pltl.ml" 57 1306 1316 "pltl.ml" 57 1306 1317
+)
+"pltl.ml" 58 1321 1325 "pltl.ml" 58 1321 1343
+type(
+  Expr.T.expr
+)
+"pltl.ml" 57 1306 1308 "pltl.ml" 58 1321 1343
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"pltl.ml" 24 438 440 "pltl.ml" 58 1321 1343
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"pltl.ml" 60 1345 1349 "pltl.ml" 60 1345 1352
+type(
+  'a Expr.Visit.scx -> Expr.T.hyp -> 'a Expr.Visit.scx
+)
+ident(
+  def adj "pltl.ml" 62 1371 1371 "pltl.ml" 0 0 -1
+)
+"pltl.ml" 60 1345 1355 "pltl.ml" 60 1345 1369
+type(
+  'a Expr.Visit.scx -> Expr.T.hyp -> 'a Expr.Visit.scx
+)
+ident(
+  int_ref Expr.Visit.adj "expr.mli" 541 13601 13603 "expr.mli" 541 13601 13637
+)
+"pltl.ml" 62 1371 1375 "pltl.ml" 62 1371 1390
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  def box_assumptions "pltl.ml" 77 1756 1756 "pltl.ml" 0 0 -1
+)
+"pltl.ml" 63 1393 1399 "pltl.ml" 63 1393 1406
+type(
+  unit Expr.Visit.map
+)
+ident(
+  def visitor "pltl.ml" 73 1716 1718 "pltl.ml" 74 1731 1753
+)
+"pltl.ml" 63 1393 1417 "pltl.ml" 63 1393 1421
+type(
+  unit Expr.Visit.map
+)
+type(
+  unit Expr.Visit.map
+)
+"pltl.ml" 65 1474 1487 "pltl.ml" 65 1474 1490
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "pltl.ml" 65 1474 1491 "pltl.ml" 71 1682 1706
+)
+"pltl.ml" 65 1474 1491 "pltl.ml" 65 1474 1492
+type(
+  Expr.T.hyp
+)
+ident(
+  def h "pltl.ml" 65 1474 1495 "pltl.ml" 71 1682 1706
+)
+"pltl.ml" 65 1474 1501 "pltl.ml" 65 1474 1502
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "pltl.ml" 65 1474 1491 "pltl.ml" 65 1474 1492
+)
+"pltl.ml" 65 1474 1501 "pltl.ml" 65 1474 1507
+type(
+  Expr.T.hyp_
+)
+"pltl.ml" 66 1513 1523 "pltl.ml" 66 1513 1524
+type(
+  Expr.T.expr
+)
+ident(
+  def e "pltl.ml" 67 1546 1550 "pltl.ml" 70 1659 1681
+)
+"pltl.ml" 66 1513 1526 "pltl.ml" 66 1513 1533
+type(
+  Expr.T.visibility
+)
+"pltl.ml" 66 1513 1535 "pltl.ml" 66 1513 1541
+type(
+  Expr.T.time
+)
+"pltl.ml" 66 1513 1517 "pltl.ml" 66 1513 1542
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"pltl.ml" 67 1546 1554 "pltl.ml" 67 1546 1555
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  def h "pltl.ml" 70 1659 1667 "pltl.ml" 70 1659 1681
+)
+"pltl.ml" 68 1558 1591 "pltl.ml" 68 1558 1595
+type(
+  bool
+)
+"pltl.ml" 68 1558 1584 "pltl.ml" 68 1558 1596
+type(
+  B.builtin
+)
+"pltl.ml" 68 1558 1575 "pltl.ml" 68 1558 1596
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 68 1558 1597 "pltl.ml" 68 1558 1599
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"pltl.ml" 68 1558 1600 "pltl.ml" 68 1558 1601
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "pltl.ml" 66 1513 1523 "pltl.ml" 66 1513 1524
+)
+"pltl.ml" 68 1558 1575 "pltl.ml" 68 1558 1601
+type(
+  Expr.T.expr
+)
+"pltl.ml" 68 1558 1604 "pltl.ml" 68 1558 1608
+type(
+  unit Expr.Visit.map
+)
+ident(
+  ext_ref self-2
+)
+"pltl.ml" 68 1558 1604 "pltl.ml" 68 1558 1613
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"pltl.ml" 68 1558 1614 "pltl.ml" 68 1558 1617
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "pltl.ml" 65 1474 1487 "pltl.ml" 65 1474 1490
+)
+"pltl.ml" 68 1558 1618 "pltl.ml" 68 1558 1619
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "pltl.ml" 66 1513 1523 "pltl.ml" 66 1513 1524
+)
+"pltl.ml" 68 1558 1604 "pltl.ml" 68 1558 1619
+type(
+  Expr.T.expr
+)
+"pltl.ml" 68 1558 1603 "pltl.ml" 68 1558 1620
+type(
+  Expr.T.expr list
+)
+"pltl.ml" 68 1558 1568 "pltl.ml" 68 1558 1621
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 68 1558 1622 "pltl.ml" 68 1558 1624
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"pltl.ml" 68 1558 1625 "pltl.ml" 68 1558 1626
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "pltl.ml" 66 1513 1523 "pltl.ml" 66 1513 1524
+)
+"pltl.ml" 68 1558 1568 "pltl.ml" 68 1558 1626
+type(
+  Expr.T.expr
+)
+"pltl.ml" 69 1628 1634 "pltl.ml" 69 1628 1641
+type(
+  Expr.T.visibility
+)
+"pltl.ml" 69 1628 1643 "pltl.ml" 69 1628 1649
+type(
+  Expr.T.time
+)
+"pltl.ml" 68 1558 1562 "pltl.ml" 69 1628 1650
+type(
+  Expr.T.hyp_
+)
+"pltl.ml" 69 1628 1651 "pltl.ml" 69 1628 1653
+type(
+  Expr.T.hyp_ -> Expr.T.hyp -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"pltl.ml" 69 1628 1654 "pltl.ml" 69 1628 1655
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "pltl.ml" 65 1474 1491 "pltl.ml" 65 1474 1492
+)
+"pltl.ml" 68 1558 1562 "pltl.ml" 69 1628 1655
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"pltl.ml" 70 1659 1668 "pltl.ml" 70 1659 1671
+type(
+  unit Expr.Visit.scx -> Expr.T.hyp -> unit Expr.Visit.scx
+)
+ident(
+  int_ref adj "pltl.ml" 60 1345 1349 "pltl.ml" 60 1345 1352
+)
+"pltl.ml" 70 1659 1672 "pltl.ml" 70 1659 1675
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "pltl.ml" 65 1474 1487 "pltl.ml" 65 1474 1490
+)
+"pltl.ml" 70 1659 1676 "pltl.ml" 70 1659 1677
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "pltl.ml" 67 1546 1554 "pltl.ml" 67 1546 1555
+)
+"pltl.ml" 70 1659 1668 "pltl.ml" 70 1659 1677
+type(
+  unit Expr.Visit.scx
+)
+"pltl.ml" 70 1659 1679 "pltl.ml" 70 1659 1680
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "pltl.ml" 67 1546 1554 "pltl.ml" 67 1546 1555
+)
+"pltl.ml" 70 1659 1667 "pltl.ml" 70 1659 1681
+type(
+  unit Expr.Visit.scx * Expr.T.hyp
+)
+"pltl.ml" 67 1546 1550 "pltl.ml" 70 1659 1681
+type(
+  unit Expr.Visit.scx * Expr.T.hyp
+)
+"pltl.ml" 71 1682 1686 "pltl.ml" 71 1682 1687
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"pltl.ml" 71 1682 1691 "pltl.ml" 71 1682 1696
+type(
+  unit Expr.Visit.map
+)
+ident(
+  ext_ref self-2
+)
+type(
+  unit Expr.Visit.map
+)
+ident(
+  int_ref super "pltl.ml" 64 1431 1443 "pltl.ml" 64 1431 1464
+)
+"pltl.ml" 71 1682 1691 "pltl.ml" 71 1682 1700
+type(
+  unit Expr.Visit.map ->
+  unit Expr.Visit.scx -> Expr.T.hyp -> unit Expr.Visit.scx * Expr.T.hyp
+)
+ident(
+  ext_ref hyp
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.hyp -> unit Expr.Visit.scx * Expr.T.hyp
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.hyp -> unit Expr.Visit.scx * Expr.T.hyp
+)
+"pltl.ml" 71 1682 1701 "pltl.ml" 71 1682 1704
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "pltl.ml" 65 1474 1487 "pltl.ml" 65 1474 1490
+)
+"pltl.ml" 71 1682 1705 "pltl.ml" 71 1682 1706
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "pltl.ml" 65 1474 1491 "pltl.ml" 65 1474 1492
+)
+"pltl.ml" 71 1682 1691 "pltl.ml" 71 1682 1706
+type(
+  unit Expr.Visit.scx * Expr.T.hyp
+)
+"pltl.ml" 65 1474 1495 "pltl.ml" 71 1682 1706
+type(
+  unit Expr.Visit.scx * Expr.T.hyp
+)
+"pltl.ml" 63 1393 1409 "pltl.ml" 72 1707 1712
+type(
+  unit Expr.Visit.map
+)
+"pltl.ml" 73 1716 1722 "pltl.ml" 73 1716 1725
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "pltl.ml" 73 1716 1726 "pltl.ml" 74 1731 1753
+)
+"pltl.ml" 73 1716 1726 "pltl.ml" 73 1716 1727
+type(
+  Expr.T.expr
+)
+ident(
+  def e "pltl.ml" 74 1731 1735 "pltl.ml" 74 1731 1753
+)
+"pltl.ml" 74 1731 1735 "pltl.ml" 74 1731 1742
+type(
+  unit Expr.Visit.map
+)
+ident(
+  int_ref visitor "pltl.ml" 63 1393 1399 "pltl.ml" 63 1393 1406
+)
+"pltl.ml" 74 1731 1735 "pltl.ml" 74 1731 1747
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"pltl.ml" 74 1731 1748 "pltl.ml" 74 1731 1751
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "pltl.ml" 73 1716 1722 "pltl.ml" 73 1716 1725
+)
+"pltl.ml" 74 1731 1752 "pltl.ml" 74 1731 1753
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "pltl.ml" 73 1716 1726 "pltl.ml" 73 1716 1727
+)
+"pltl.ml" 74 1731 1735 "pltl.ml" 74 1731 1753
+type(
+  Expr.T.expr
+)
+"pltl.ml" 73 1716 1718 "pltl.ml" 74 1731 1753
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"pltl.ml" 63 1393 1395 "pltl.ml" 74 1731 1753
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"pltl.ml" 77 1756 1760 "pltl.ml" 77 1756 1774
+type(
+  unit * Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  def expand_domains "pltl.ml" 114 3222 3222 "pltl.ml" 0 0 -1
+)
+"pltl.ml" 78 1777 1783 "pltl.ml" 78 1777 1790
+type(
+  Expr.Subst.sub option Expr.Visit.map
+)
+ident(
+  def visitor "pltl.ml" 111 3168 3172 "pltl.ml" 112 3189 3220
+)
+"pltl.ml" 78 1777 1801 "pltl.ml" 78 1777 1805
+type(
+  Expr.Subst.sub option Expr.Visit.map
+)
+type(
+  Expr.Subst.sub option Expr.Visit.map
+)
+"pltl.ml" 80 1875 1894 "pltl.ml" 80 1875 1895
+type(
+  Expr.Subst.sub option
+)
+ident(
+  def s "pltl.ml" 80 1875 1901 "pltl.ml" 105 2977 3009
+)
+"pltl.ml" 80 1875 1897 "pltl.ml" 80 1875 1899
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def cx "pltl.ml" 80 1875 1901 "pltl.ml" 105 2977 3009
+)
+"pltl.ml" 80 1875 1893 "pltl.ml" 80 1875 1900
+type(
+  Expr.Subst.sub option * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 80 1875 1901 "pltl.ml" 80 1875 1903
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def hs "pltl.ml" 80 1875 1906 "pltl.ml" 105 2977 3009
+)
+"pltl.ml" 80 1875 1912 "pltl.ml" 80 1875 1923
+type(
+  Expr.T.hyp Deque.dq -> (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+ident(
+  int_ref Deque.front "deque.mli" 14 253 253 "deque.mli" 14 253 293
+)
+"pltl.ml" 80 1875 1924 "pltl.ml" 80 1875 1926
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref hs "pltl.ml" 80 1875 1901 "pltl.ml" 80 1875 1903
+)
+"pltl.ml" 80 1875 1912 "pltl.ml" 80 1875 1926
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+"pltl.ml" 81 1932 1942 "pltl.ml" 81 1932 1946
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+"pltl.ml" 81 1932 1952 "pltl.ml" 81 1932 1953
+type(
+  Expr.Subst.sub option
+)
+ident(
+  int_ref s "pltl.ml" 80 1875 1894 "pltl.ml" 80 1875 1895
+)
+"pltl.ml" 81 1932 1954 "pltl.ml" 81 1932 1956
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "pltl.ml" 80 1875 1897 "pltl.ml" 80 1875 1899
+)
+"pltl.ml" 81 1932 1951 "pltl.ml" 81 1932 1957
+type(
+  Expr.Subst.sub option * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 81 1932 1959 "pltl.ml" 81 1932 1970
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"pltl.ml" 81 1932 1950 "pltl.ml" 81 1932 1971
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 82 1972 2003 "pltl.ml" 82 1972 2005
+type(
+  Util.hint
+)
+ident(
+  def nm "pltl.ml" 83 2049 2059 "pltl.ml" 96 2679 2728
+)
+"pltl.ml" 82 1972 2007 "pltl.ml" 82 1972 2010
+type(
+  Expr.T.shape
+)
+ident(
+  def shp "pltl.ml" 83 2049 2059 "pltl.ml" 96 2679 2728
+)
+"pltl.ml" 82 1972 2012 "pltl.ml" 82 1972 2014
+type(
+  Expr.T.kind
+)
+ident(
+  def lc "pltl.ml" 83 2049 2059 "pltl.ml" 96 2679 2728
+)
+"pltl.ml" 82 1972 2025 "pltl.ml" 82 1972 2026
+type(
+  Expr.T.expr
+)
+ident(
+  def r "pltl.ml" 83 2049 2059 "pltl.ml" 96 2679 2728
+)
+"pltl.ml" 82 1972 2028 "pltl.ml" 82 1972 2032
+type(
+  Expr.T.visibility
+)
+ident(
+  def rvis "pltl.ml" 83 2049 2059 "pltl.ml" 96 2679 2728
+)
+"pltl.ml" 82 1972 2016 "pltl.ml" 82 1972 2033
+type(
+  Expr.T.hdom
+)
+"pltl.ml" 82 1972 1996 "pltl.ml" 82 1972 2034
+type(
+  Expr.T.hyp_
+)
+"pltl.ml" 82 1972 1988 "pltl.ml" 82 1972 2035
+type(
+  Expr.T.hyp
+)
+"pltl.ml" 82 1972 1988 "pltl.ml" 82 1972 2040
+type(
+  Expr.T.hyp
+)
+ident(
+  def h "pltl.ml" 83 2049 2059 "pltl.ml" 96 2679 2728
+)
+"pltl.ml" 82 1972 2042 "pltl.ml" 82 1972 2044
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def hs "pltl.ml" 83 2049 2059 "pltl.ml" 96 2679 2728
+)
+"pltl.ml" 82 1972 1987 "pltl.ml" 82 1972 2045
+type(
+  Expr.T.hyp * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 82 1972 1982 "pltl.ml" 82 1972 2045
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+"pltl.ml" 83 2049 2063 "pltl.ml" 83 2049 2064
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "pltl.ml" 84 2113 2123 "pltl.ml" 96 2679 2728
+)
+"pltl.ml" 83 2049 2073 "pltl.ml" 83 2049 2074
+type(
+  Expr.Subst.sub option
+)
+ident(
+  int_ref s "pltl.ml" 80 1875 1894 "pltl.ml" 80 1875 1895
+)
+"pltl.ml" 83 2049 2080 "pltl.ml" 83 2049 2084
+type(
+  Expr.Subst.sub option
+)
+type(
+  Expr.Subst.sub option
+)
+"pltl.ml" 83 2049 2088 "pltl.ml" 83 2049 2093
+type(
+  int -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.shift "expr.mli" 427 10798 10802 "expr.mli" 428 10813 10831
+)
+"pltl.ml" 83 2049 2094 "pltl.ml" 83 2049 2095
+type(
+  int
+)
+"pltl.ml" 83 2049 2088 "pltl.ml" 83 2049 2095
+type(
+  Expr.Subst.sub
+)
+"pltl.ml" 83 2049 2103 "pltl.ml" 83 2049 2104
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "pltl.ml" 83 2049 2108 "pltl.ml" 83 2049 2109
+)
+"pltl.ml" 83 2049 2098 "pltl.ml" 83 2049 2104
+type(
+  Expr.Subst.sub option
+)
+type(
+  Expr.Subst.sub option
+)
+"pltl.ml" 83 2049 2108 "pltl.ml" 83 2049 2109
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "pltl.ml" 83 2049 2103 "pltl.ml" 83 2049 2104
+)
+"pltl.ml" 83 2049 2067 "pltl.ml" 83 2049 2109
+type(
+  Expr.Subst.sub
+)
+"pltl.ml" 84 2113 2127 "pltl.ml" 84 2113 2129
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  def h1 "pltl.ml" 85 2171 2181 "pltl.ml" 96 2679 2728
+)
+"pltl.ml" 84 2113 2139 "pltl.ml" 84 2113 2141
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "pltl.ml" 82 1972 2003 "pltl.ml" 82 1972 2005
+)
+"pltl.ml" 84 2113 2143 "pltl.ml" 84 2113 2146
+type(
+  Expr.T.shape
+)
+ident(
+  int_ref shp "pltl.ml" 82 1972 2007 "pltl.ml" 82 1972 2010
+)
+"pltl.ml" 84 2113 2148 "pltl.ml" 84 2113 2150
+type(
+  Expr.T.kind
+)
+ident(
+  int_ref lc "pltl.ml" 82 1972 2012 "pltl.ml" 82 1972 2014
+)
+"pltl.ml" 84 2113 2152 "pltl.ml" 84 2113 2161
+type(
+  Expr.T.hdom
+)
+"pltl.ml" 84 2113 2132 "pltl.ml" 84 2113 2162
+type(
+  Expr.T.hyp_
+)
+"pltl.ml" 84 2113 2163 "pltl.ml" 84 2113 2165
+type(
+  Expr.T.hyp_ -> Expr.T.hyp_ Property.wrapped -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"pltl.ml" 84 2113 2166 "pltl.ml" 84 2113 2167
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref h "pltl.ml" 82 1972 1988 "pltl.ml" 82 1972 2040
+)
+"pltl.ml" 84 2113 2132 "pltl.ml" 84 2113 2167
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"pltl.ml" 85 2171 2185 "pltl.ml" 85 2171 2187
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def cx "pltl.ml" 86 2210 2220 "pltl.ml" 96 2679 2728
+)
+"pltl.ml" 85 2171 2190 "pltl.ml" 85 2171 2200
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.hyp -> Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.snoc "deque.mli" 13 220 220 "deque.mli" 13 220 252
+)
+"pltl.ml" 85 2171 2201 "pltl.ml" 85 2171 2203
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "pltl.ml" 80 1875 1897 "pltl.ml" 80 1875 1899
+)
+"pltl.ml" 85 2171 2204 "pltl.ml" 85 2171 2206
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h1 "pltl.ml" 84 2113 2127 "pltl.ml" 84 2113 2129
+)
+"pltl.ml" 85 2171 2190 "pltl.ml" 85 2171 2206
+type(
+  Expr.T.hyp Deque.dq
+)
+"pltl.ml" 86 2210 2224 "pltl.ml" 86 2210 2226
+type(
+  Expr.T.expr
+)
+ident(
+  def sr "pltl.ml" 87 2265 2275 "pltl.ml" 96 2679 2728
+)
+"pltl.ml" 86 2210 2229 "pltl.ml" 86 2210 2237
+type(
+  Expr.Subst.sub -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Subst.app_expr "expr.mli" 447 11184 11188 "expr.mli" 449 11225 11241
+)
+"pltl.ml" 86 2210 2239 "pltl.ml" 86 2210 2246
+type(
+  Expr.Subst.sub -> Expr.Subst.sub -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.compose "expr.mli" 437 10972 10976 "expr.mli" 439 11011 11026
+)
+"pltl.ml" 86 2210 2248 "pltl.ml" 86 2210 2253
+type(
+  int -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.shift "expr.mli" 427 10798 10802 "expr.mli" 428 10813 10831
+)
+"pltl.ml" 86 2210 2254 "pltl.ml" 86 2210 2255
+type(
+  int
+)
+"pltl.ml" 86 2210 2247 "pltl.ml" 86 2210 2256
+type(
+  Expr.Subst.sub
+)
+"pltl.ml" 86 2210 2257 "pltl.ml" 86 2210 2258
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "pltl.ml" 83 2049 2063 "pltl.ml" 83 2049 2064
+)
+"pltl.ml" 86 2210 2238 "pltl.ml" 86 2210 2259
+type(
+  Expr.Subst.sub
+)
+"pltl.ml" 86 2210 2260 "pltl.ml" 86 2210 2261
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref r "pltl.ml" 82 1972 2025 "pltl.ml" 82 1972 2026
+)
+"pltl.ml" 86 2210 2229 "pltl.ml" 86 2210 2261
+type(
+  Expr.T.expr
+)
+"pltl.ml" 87 2265 2279 "pltl.ml" 87 2265 2280
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "pltl.ml" 88 2296 2306 "pltl.ml" 96 2679 2728
+)
+"pltl.ml" 87 2265 2283 "pltl.ml" 87 2265 2288
+type(
+  int -> Expr.Subst.sub -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.bumpn "expr.mli" 432 10886 10890 "expr.mli" 434 10923 10938
+)
+"pltl.ml" 87 2265 2289 "pltl.ml" 87 2265 2290
+type(
+  int
+)
+"pltl.ml" 87 2265 2291 "pltl.ml" 87 2265 2292
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "pltl.ml" 83 2049 2063 "pltl.ml" 83 2049 2064
+)
+"pltl.ml" 87 2265 2283 "pltl.ml" 87 2265 2292
+type(
+  Expr.Subst.sub
+)
+"pltl.ml" 88 2296 2310 "pltl.ml" 88 2296 2312
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def e2 "pltl.ml" 89 2373 2383 "pltl.ml" 96 2679 2728
+)
+"pltl.ml" 88 2296 2332 "pltl.ml" 88 2296 2337
+type(
+  B.builtin
+)
+"pltl.ml" 88 2296 2322 "pltl.ml" 88 2296 2338
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 88 2296 2339 "pltl.ml" 88 2296 2341
+type(
+  Expr.T.expr_ -> Util.hint -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"pltl.ml" 88 2296 2342 "pltl.ml" 88 2296 2344
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "pltl.ml" 82 1972 2003 "pltl.ml" 82 1972 2005
+)
+"pltl.ml" 88 2296 2322 "pltl.ml" 88 2296 2344
+type(
+  Expr.T.expr
+)
+"pltl.ml" 88 2296 2350 "pltl.ml" 88 2296 2351
+type(
+  int
+)
+"pltl.ml" 88 2296 2347 "pltl.ml" 88 2296 2351
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 88 2296 2352 "pltl.ml" 88 2296 2354
+type(
+  Expr.T.expr_ -> Util.hint -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"pltl.ml" 88 2296 2355 "pltl.ml" 88 2296 2357
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "pltl.ml" 82 1972 2003 "pltl.ml" 82 1972 2005
+)
+"pltl.ml" 88 2296 2347 "pltl.ml" 88 2296 2357
+type(
+  Expr.T.expr
+)
+"pltl.ml" 88 2296 2360 "pltl.ml" 88 2296 2362
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref sr "pltl.ml" 86 2210 2224 "pltl.ml" 86 2210 2226
+)
+"pltl.ml" 88 2296 2346 "pltl.ml" 88 2296 2363
+type(
+  Expr.T.expr list
+)
+"pltl.ml" 88 2296 2315 "pltl.ml" 88 2296 2364
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 88 2296 2365 "pltl.ml" 88 2296 2367
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"pltl.ml" 88 2296 2368 "pltl.ml" 88 2296 2369
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref r "pltl.ml" 82 1972 2025 "pltl.ml" 82 1972 2026
+)
+"pltl.ml" 88 2296 2315 "pltl.ml" 88 2296 2369
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"pltl.ml" 89 2373 2387 "pltl.ml" 89 2373 2389
+type(
+  Expr.T.time
+)
+ident(
+  def tm "pltl.ml" 92 2496 2506 "pltl.ml" 96 2679 2728
+)
+"pltl.ml" 89 2373 2398 "pltl.ml" 89 2373 2400
+type(
+  Expr.T.kind
+)
+ident(
+  int_ref lc "pltl.ml" 82 1972 2012 "pltl.ml" 82 1972 2014
+)
+"pltl.ml" 90 2406 2420 "pltl.ml" 90 2406 2428
+type(
+  Expr.T.kind
+)
+type(
+  Expr.T.kind
+)
+"pltl.ml" 90 2406 2432 "pltl.ml" 90 2406 2464
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.time
+)
+ident(
+  int_ref Expr.Temporal_props.compute_time "expr.mli" 637 16435 16439 "expr.mli" 638 16457 16499
+)
+"pltl.ml" 90 2406 2465 "pltl.ml" 90 2406 2467
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "pltl.ml" 85 2171 2185 "pltl.ml" 85 2171 2187
+)
+"pltl.ml" 90 2406 2468 "pltl.ml" 90 2406 2469
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref r "pltl.ml" 82 1972 2025 "pltl.ml" 82 1972 2026
+)
+"pltl.ml" 90 2406 2432 "pltl.ml" 90 2406 2469
+type(
+  Expr.T.time
+)
+"pltl.ml" 91 2470 2484 "pltl.ml" 91 2470 2485
+type(
+  Expr.T.kind
+)
+type(
+  Expr.T.kind
+)
+"pltl.ml" 91 2470 2489 "pltl.ml" 91 2470 2492
+type(
+  Expr.T.time
+)
+"pltl.ml" 89 2373 2392 "pltl.ml" 91 2470 2492
+type(
+  Expr.T.time
+)
+"pltl.ml" 92 2496 2510 "pltl.ml" 92 2496 2512
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  def h2 "pltl.ml" 93 2544 2554 "pltl.ml" 96 2679 2728
+)
+"pltl.ml" 92 2496 2521 "pltl.ml" 92 2496 2523
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "pltl.ml" 88 2296 2310 "pltl.ml" 88 2296 2312
+)
+"pltl.ml" 92 2496 2525 "pltl.ml" 92 2496 2529
+type(
+  Expr.T.visibility
+)
+ident(
+  int_ref rvis "pltl.ml" 82 1972 2028 "pltl.ml" 82 1972 2032
+)
+"pltl.ml" 92 2496 2531 "pltl.ml" 92 2496 2533
+type(
+  Expr.T.time
+)
+ident(
+  int_ref tm "pltl.ml" 89 2373 2387 "pltl.ml" 89 2373 2389
+)
+"pltl.ml" 92 2496 2515 "pltl.ml" 92 2496 2534
+type(
+  Expr.T.hyp_
+)
+"pltl.ml" 92 2496 2535 "pltl.ml" 92 2496 2537
+type(
+  Expr.T.hyp_ ->
+  Expr.T.expr_ Property.wrapped -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"pltl.ml" 92 2496 2538 "pltl.ml" 92 2496 2540
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref e2 "pltl.ml" 88 2296 2310 "pltl.ml" 88 2296 2312
+)
+"pltl.ml" 92 2496 2515 "pltl.ml" 92 2496 2540
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"pltl.ml" 93 2544 2558 "pltl.ml" 93 2544 2560
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def cx "pltl.ml" 94 2583 2593 "pltl.ml" 96 2679 2728
+)
+"pltl.ml" 93 2544 2563 "pltl.ml" 93 2544 2573
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.hyp -> Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.snoc "deque.mli" 13 220 220 "deque.mli" 13 220 252
+)
+"pltl.ml" 93 2544 2574 "pltl.ml" 93 2544 2576
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "pltl.ml" 85 2171 2185 "pltl.ml" 85 2171 2187
+)
+"pltl.ml" 93 2544 2577 "pltl.ml" 93 2544 2579
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h2 "pltl.ml" 92 2496 2510 "pltl.ml" 92 2496 2512
+)
+"pltl.ml" 93 2544 2563 "pltl.ml" 93 2544 2579
+type(
+  Expr.T.hyp Deque.dq
+)
+"pltl.ml" 94 2583 2597 "pltl.ml" 94 2583 2598
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "pltl.ml" 95 2624 2634 "pltl.ml" 96 2679 2728
+)
+"pltl.ml" 94 2583 2601 "pltl.ml" 94 2583 2608
+type(
+  Expr.Subst.sub -> Expr.Subst.sub -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.compose "expr.mli" 437 10972 10976 "expr.mli" 439 11011 11026
+)
+"pltl.ml" 94 2583 2610 "pltl.ml" 94 2583 2615
+type(
+  int -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.shift "expr.mli" 427 10798 10802 "expr.mli" 428 10813 10831
+)
+"pltl.ml" 94 2583 2616 "pltl.ml" 94 2583 2617
+type(
+  int
+)
+"pltl.ml" 94 2583 2609 "pltl.ml" 94 2583 2618
+type(
+  Expr.Subst.sub
+)
+"pltl.ml" 94 2583 2619 "pltl.ml" 94 2583 2620
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "pltl.ml" 87 2265 2279 "pltl.ml" 87 2265 2280
+)
+"pltl.ml" 94 2583 2601 "pltl.ml" 94 2583 2620
+type(
+  Expr.Subst.sub
+)
+"pltl.ml" 95 2624 2639 "pltl.ml" 95 2624 2642
+type(
+  Expr.Subst.sub option Expr.Visit.scx
+)
+ident(
+  def scx "pltl.ml" 96 2679 2689 "pltl.ml" 96 2679 2728
+)
+"pltl.ml" 95 2624 2644 "pltl.ml" 95 2624 2646
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def hs "pltl.ml" 96 2679 2689 "pltl.ml" 96 2679 2728
+)
+"pltl.ml" 95 2624 2638 "pltl.ml" 95 2624 2647
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 95 2624 2650 "pltl.ml" 95 2624 2654
+type(
+  Expr.Subst.sub option Expr.Visit.map
+)
+ident(
+  ext_ref self-3
+)
+"pltl.ml" 95 2624 2650 "pltl.ml" 95 2624 2659
+type(
+  Expr.Subst.sub option Expr.Visit.scx ->
+  Expr.T.hyp Deque.dq ->
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 95 2624 2666 "pltl.ml" 95 2624 2667
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "pltl.ml" 94 2583 2597 "pltl.ml" 94 2583 2598
+)
+"pltl.ml" 95 2624 2661 "pltl.ml" 95 2624 2667
+type(
+  Expr.Subst.sub option
+)
+"pltl.ml" 95 2624 2669 "pltl.ml" 95 2624 2671
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "pltl.ml" 93 2544 2558 "pltl.ml" 93 2544 2560
+)
+"pltl.ml" 95 2624 2660 "pltl.ml" 95 2624 2672
+type(
+  Expr.Subst.sub option Expr.Visit.scx
+)
+"pltl.ml" 95 2624 2673 "pltl.ml" 95 2624 2675
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref hs "pltl.ml" 82 1972 2042 "pltl.ml" 82 1972 2044
+)
+"pltl.ml" 95 2624 2650 "pltl.ml" 95 2624 2675
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 96 2679 2690 "pltl.ml" 96 2679 2693
+type(
+  Expr.Subst.sub option Expr.Visit.scx
+)
+ident(
+  int_ref scx "pltl.ml" 95 2624 2639 "pltl.ml" 95 2624 2642
+)
+"pltl.ml" 96 2679 2695 "pltl.ml" 96 2679 2705
+type(
+  Expr.T.hyp -> Expr.T.hyp Deque.dq -> Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.cons "deque.mli" 12 187 187 "deque.mli" 12 187 219
+)
+"pltl.ml" 96 2679 2706 "pltl.ml" 96 2679 2708
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h1 "pltl.ml" 84 2113 2127 "pltl.ml" 84 2113 2129
+)
+"pltl.ml" 96 2679 2710 "pltl.ml" 96 2679 2720
+type(
+  Expr.T.hyp -> Expr.T.hyp Deque.dq -> Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.cons "deque.mli" 12 187 187 "deque.mli" 12 187 219
+)
+"pltl.ml" 96 2679 2721 "pltl.ml" 96 2679 2723
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h2 "pltl.ml" 92 2496 2510 "pltl.ml" 92 2496 2512
+)
+"pltl.ml" 96 2679 2724 "pltl.ml" 96 2679 2726
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref hs "pltl.ml" 95 2624 2644 "pltl.ml" 95 2624 2646
+)
+"pltl.ml" 96 2679 2709 "pltl.ml" 96 2679 2727
+type(
+  Expr.T.hyp Deque.dq
+)
+"pltl.ml" 96 2679 2695 "pltl.ml" 96 2679 2727
+type(
+  Expr.T.hyp Deque.dq
+)
+"pltl.ml" 96 2679 2689 "pltl.ml" 96 2679 2728
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 95 2624 2634 "pltl.ml" 96 2679 2728
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 94 2583 2593 "pltl.ml" 96 2679 2728
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 93 2544 2554 "pltl.ml" 96 2679 2728
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 92 2496 2506 "pltl.ml" 96 2679 2728
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 89 2373 2383 "pltl.ml" 96 2679 2728
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 88 2296 2306 "pltl.ml" 96 2679 2728
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 87 2265 2275 "pltl.ml" 96 2679 2728
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 86 2210 2220 "pltl.ml" 96 2679 2728
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 85 2171 2181 "pltl.ml" 96 2679 2728
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 84 2113 2123 "pltl.ml" 96 2679 2728
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 83 2049 2059 "pltl.ml" 96 2679 2728
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 97 2729 2745 "pltl.ml" 97 2729 2746
+type(
+  Expr.T.hyp
+)
+ident(
+  def h "pltl.ml" 98 2755 2765 "pltl.ml" 105 2977 3009
+)
+"pltl.ml" 97 2729 2748 "pltl.ml" 97 2729 2750
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def hs "pltl.ml" 98 2755 2765 "pltl.ml" 105 2977 3009
+)
+"pltl.ml" 97 2729 2744 "pltl.ml" 97 2729 2751
+type(
+  Expr.T.hyp * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 97 2729 2739 "pltl.ml" 97 2729 2751
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+"pltl.ml" 98 2755 2771 "pltl.ml" 98 2755 2772
+type(
+  Expr.Subst.sub option
+)
+ident(
+  def s "pltl.ml" 99 2806 2816 "pltl.ml" 105 2977 3009
+)
+"pltl.ml" 98 2755 2774 "pltl.ml" 98 2755 2776
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def cx "pltl.ml" 99 2806 2816 "pltl.ml" 105 2977 3009
+)
+"pltl.ml" 98 2755 2770 "pltl.ml" 98 2755 2777
+type(
+  Expr.Subst.sub option Expr.Visit.scx
+)
+"pltl.ml" 98 2755 2779 "pltl.ml" 98 2755 2780
+type(
+  Expr.T.hyp
+)
+ident(
+  def h "pltl.ml" 99 2806 2816 "pltl.ml" 105 2977 3009
+)
+"pltl.ml" 98 2755 2769 "pltl.ml" 98 2755 2781
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp
+)
+"pltl.ml" 98 2755 2784 "pltl.ml" 98 2755 2788
+type(
+  Expr.Subst.sub option Expr.Visit.map
+)
+ident(
+  ext_ref self-3
+)
+"pltl.ml" 98 2755 2784 "pltl.ml" 98 2755 2792
+type(
+  Expr.Subst.sub option Expr.Visit.scx ->
+  Expr.T.hyp -> Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp
+)
+"pltl.ml" 98 2755 2794 "pltl.ml" 98 2755 2795
+type(
+  Expr.Subst.sub option
+)
+ident(
+  int_ref s "pltl.ml" 80 1875 1894 "pltl.ml" 80 1875 1895
+)
+"pltl.ml" 98 2755 2797 "pltl.ml" 98 2755 2799
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "pltl.ml" 80 1875 1897 "pltl.ml" 80 1875 1899
+)
+"pltl.ml" 98 2755 2793 "pltl.ml" 98 2755 2800
+type(
+  Expr.Subst.sub option Expr.Visit.scx
+)
+"pltl.ml" 98 2755 2801 "pltl.ml" 98 2755 2802
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "pltl.ml" 97 2729 2745 "pltl.ml" 97 2729 2746
+)
+"pltl.ml" 98 2755 2784 "pltl.ml" 98 2755 2802
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp
+)
+"pltl.ml" 99 2806 2820 "pltl.ml" 99 2806 2821
+type(
+  Expr.Subst.sub option
+)
+ident(
+  def s "pltl.ml" 104 2927 2937 "pltl.ml" 105 2977 3009
+)
+"pltl.ml" 100 2824 2842 "pltl.ml" 100 2824 2843
+type(
+  Expr.Subst.sub option
+)
+ident(
+  int_ref s "pltl.ml" 98 2755 2771 "pltl.ml" 98 2755 2772
+)
+"pltl.ml" 101 2849 2863 "pltl.ml" 101 2849 2867
+type(
+  Expr.Subst.sub option
+)
+type(
+  Expr.Subst.sub option
+)
+"pltl.ml" 101 2849 2871 "pltl.ml" 101 2849 2875
+type(
+  Expr.Subst.sub option
+)
+"pltl.ml" 102 2876 2895 "pltl.ml" 102 2876 2896
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "pltl.ml" 102 2876 2900 "pltl.ml" 102 2876 2913
+)
+"pltl.ml" 102 2876 2890 "pltl.ml" 102 2876 2896
+type(
+  Expr.Subst.sub option
+)
+type(
+  Expr.Subst.sub option
+)
+"pltl.ml" 102 2876 2906 "pltl.ml" 102 2876 2910
+type(
+  Expr.Subst.sub -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.bump "expr.mli" 435 10939 10943 "expr.mli" 436 10953 10971
+)
+"pltl.ml" 102 2876 2911 "pltl.ml" 102 2876 2912
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "pltl.ml" 102 2876 2895 "pltl.ml" 102 2876 2896
+)
+"pltl.ml" 102 2876 2905 "pltl.ml" 102 2876 2913
+type(
+  Expr.Subst.sub
+)
+"pltl.ml" 102 2876 2900 "pltl.ml" 102 2876 2913
+type(
+  Expr.Subst.sub option
+)
+"pltl.ml" 100 2824 2836 "pltl.ml" 102 2876 2913
+type(
+  Expr.Subst.sub option
+)
+"pltl.ml" 104 2927 2942 "pltl.ml" 104 2927 2945
+type(
+  Expr.Subst.sub option Expr.Visit.scx
+)
+ident(
+  def scx "pltl.ml" 105 2977 2987 "pltl.ml" 105 2977 3009
+)
+"pltl.ml" 104 2927 2947 "pltl.ml" 104 2927 2949
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def hs "pltl.ml" 105 2977 2987 "pltl.ml" 105 2977 3009
+)
+"pltl.ml" 104 2927 2941 "pltl.ml" 104 2927 2950
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 104 2927 2953 "pltl.ml" 104 2927 2957
+type(
+  Expr.Subst.sub option Expr.Visit.map
+)
+ident(
+  ext_ref self-3
+)
+"pltl.ml" 104 2927 2953 "pltl.ml" 104 2927 2962
+type(
+  Expr.Subst.sub option Expr.Visit.scx ->
+  Expr.T.hyp Deque.dq ->
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 104 2927 2964 "pltl.ml" 104 2927 2965
+type(
+  Expr.Subst.sub option
+)
+ident(
+  int_ref s "pltl.ml" 99 2806 2820 "pltl.ml" 99 2806 2821
+)
+"pltl.ml" 104 2927 2967 "pltl.ml" 104 2927 2969
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "pltl.ml" 98 2755 2774 "pltl.ml" 98 2755 2776
+)
+"pltl.ml" 104 2927 2963 "pltl.ml" 104 2927 2970
+type(
+  Expr.Subst.sub option Expr.Visit.scx
+)
+"pltl.ml" 104 2927 2971 "pltl.ml" 104 2927 2973
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref hs "pltl.ml" 97 2729 2748 "pltl.ml" 97 2729 2750
+)
+"pltl.ml" 104 2927 2953 "pltl.ml" 104 2927 2973
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 105 2977 2988 "pltl.ml" 105 2977 2991
+type(
+  Expr.Subst.sub option Expr.Visit.scx
+)
+ident(
+  int_ref scx "pltl.ml" 104 2927 2942 "pltl.ml" 104 2927 2945
+)
+"pltl.ml" 105 2977 2993 "pltl.ml" 105 2977 3003
+type(
+  Expr.T.hyp -> Expr.T.hyp Deque.dq -> Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.cons "deque.mli" 12 187 187 "deque.mli" 12 187 219
+)
+"pltl.ml" 105 2977 3004 "pltl.ml" 105 2977 3005
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "pltl.ml" 98 2755 2779 "pltl.ml" 98 2755 2780
+)
+"pltl.ml" 105 2977 3006 "pltl.ml" 105 2977 3008
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref hs "pltl.ml" 104 2927 2947 "pltl.ml" 104 2927 2949
+)
+"pltl.ml" 105 2977 2993 "pltl.ml" 105 2977 3008
+type(
+  Expr.T.hyp Deque.dq
+)
+"pltl.ml" 105 2977 2987 "pltl.ml" 105 2977 3009
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 104 2927 2937 "pltl.ml" 105 2977 3009
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 99 2806 2816 "pltl.ml" 105 2977 3009
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 98 2755 2765 "pltl.ml" 105 2977 3009
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 80 1875 1906 "pltl.ml" 105 2977 3009
+type(
+  Expr.Subst.sub option Expr.Visit.scx * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 106 3010 3029 "pltl.ml" 106 3010 3030
+type(
+  Expr.Subst.sub option
+)
+ident(
+  def s "pltl.ml" 106 3010 3036 "pltl.ml" 109 3100 3156
+)
+"pltl.ml" 106 3010 3032 "pltl.ml" 106 3010 3034
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def cx "pltl.ml" 106 3010 3036 "pltl.ml" 109 3100 3156
+)
+"pltl.ml" 106 3010 3028 "pltl.ml" 106 3010 3035
+type(
+  Expr.Subst.sub option * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 106 3010 3036 "pltl.ml" 106 3010 3037
+type(
+  Expr.T.expr
+)
+ident(
+  def e "pltl.ml" 107 3040 3048 "pltl.ml" 109 3100 3156
+)
+"pltl.ml" 107 3040 3054 "pltl.ml" 107 3040 3055
+type(
+  Expr.Subst.sub option
+)
+ident(
+  int_ref s "pltl.ml" 106 3010 3029 "pltl.ml" 106 3010 3030
+)
+"pltl.ml" 108 3061 3071 "pltl.ml" 108 3061 3075
+type(
+  Expr.Subst.sub option
+)
+type(
+  Expr.Subst.sub option
+)
+"pltl.ml" 108 3061 3079 "pltl.ml" 108 3061 3084
+type(
+  Expr.Subst.sub option Expr.Visit.map
+)
+ident(
+  ext_ref self-3
+)
+type(
+  Expr.Subst.sub option Expr.Visit.map
+)
+ident(
+  int_ref super "pltl.ml" 79 1815 1827 "pltl.ml" 79 1815 1865
+)
+"pltl.ml" 108 3061 3079 "pltl.ml" 108 3061 3089
+type(
+  Expr.Subst.sub option Expr.Visit.map ->
+  Expr.Subst.sub option Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  Expr.Subst.sub option Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+type(
+  Expr.Subst.sub option Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"pltl.ml" 108 3061 3091 "pltl.ml" 108 3061 3092
+type(
+  Expr.Subst.sub option
+)
+ident(
+  int_ref s "pltl.ml" 106 3010 3029 "pltl.ml" 106 3010 3030
+)
+"pltl.ml" 108 3061 3094 "pltl.ml" 108 3061 3096
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "pltl.ml" 106 3010 3032 "pltl.ml" 106 3010 3034
+)
+"pltl.ml" 108 3061 3090 "pltl.ml" 108 3061 3097
+type(
+  Expr.Subst.sub option Expr.Visit.scx
+)
+"pltl.ml" 108 3061 3098 "pltl.ml" 108 3061 3099
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "pltl.ml" 106 3010 3036 "pltl.ml" 106 3010 3037
+)
+"pltl.ml" 108 3061 3079 "pltl.ml" 108 3061 3099
+type(
+  Expr.T.expr
+)
+"pltl.ml" 109 3100 3115 "pltl.ml" 109 3100 3116
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "pltl.ml" 109 3100 3120 "pltl.ml" 109 3100 3156
+)
+"pltl.ml" 109 3100 3110 "pltl.ml" 109 3100 3116
+type(
+  Expr.Subst.sub option
+)
+type(
+  Expr.Subst.sub option
+)
+"pltl.ml" 109 3100 3120 "pltl.ml" 109 3100 3125
+type(
+  Expr.Subst.sub option Expr.Visit.map
+)
+ident(
+  ext_ref self-3
+)
+type(
+  Expr.Subst.sub option Expr.Visit.map
+)
+ident(
+  int_ref super "pltl.ml" 79 1815 1827 "pltl.ml" 79 1815 1865
+)
+"pltl.ml" 109 3100 3120 "pltl.ml" 109 3100 3130
+type(
+  Expr.Subst.sub option Expr.Visit.map ->
+  Expr.Subst.sub option Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  Expr.Subst.sub option Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+type(
+  Expr.Subst.sub option Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"pltl.ml" 109 3100 3132 "pltl.ml" 109 3100 3136
+type(
+  Expr.Subst.sub option
+)
+"pltl.ml" 109 3100 3138 "pltl.ml" 109 3100 3140
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "pltl.ml" 106 3010 3032 "pltl.ml" 106 3010 3034
+)
+"pltl.ml" 109 3100 3131 "pltl.ml" 109 3100 3141
+type(
+  Expr.Subst.sub option Expr.Visit.scx
+)
+"pltl.ml" 109 3100 3143 "pltl.ml" 109 3100 3151
+type(
+  Expr.Subst.sub -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Subst.app_expr "expr.mli" 447 11184 11188 "expr.mli" 449 11225 11241
+)
+"pltl.ml" 109 3100 3152 "pltl.ml" 109 3100 3153
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "pltl.ml" 109 3100 3115 "pltl.ml" 109 3100 3116
+)
+"pltl.ml" 109 3100 3154 "pltl.ml" 109 3100 3155
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "pltl.ml" 106 3010 3036 "pltl.ml" 106 3010 3037
+)
+"pltl.ml" 109 3100 3142 "pltl.ml" 109 3100 3156
+type(
+  Expr.T.expr
+)
+"pltl.ml" 109 3100 3120 "pltl.ml" 109 3100 3156
+type(
+  Expr.T.expr
+)
+"pltl.ml" 107 3040 3048 "pltl.ml" 109 3100 3156
+type(
+  Expr.T.expr
+)
+"pltl.ml" 78 1777 1793 "pltl.ml" 110 3157 3164
+type(
+  Expr.Subst.sub option Expr.Visit.map
+)
+"pltl.ml" 111 3168 3177 "pltl.ml" 111 3168 3178
+type(
+  unit
+)
+"pltl.ml" 111 3168 3180 "pltl.ml" 111 3168 3182
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def cx "pltl.ml" 111 3168 3184 "pltl.ml" 112 3189 3220
+)
+"pltl.ml" 111 3168 3176 "pltl.ml" 111 3168 3183
+type(
+  unit * Expr.T.hyp Deque.dq
+)
+"pltl.ml" 111 3168 3184 "pltl.ml" 111 3168 3185
+type(
+  Expr.T.expr
+)
+ident(
+  def e "pltl.ml" 112 3189 3195 "pltl.ml" 112 3189 3220
+)
+"pltl.ml" 112 3189 3195 "pltl.ml" 112 3189 3202
+type(
+  Expr.Subst.sub option Expr.Visit.map
+)
+ident(
+  int_ref visitor "pltl.ml" 78 1777 1783 "pltl.ml" 78 1777 1790
+)
+"pltl.ml" 112 3189 3195 "pltl.ml" 112 3189 3207
+type(
+  Expr.Subst.sub option Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"pltl.ml" 112 3189 3209 "pltl.ml" 112 3189 3213
+type(
+  Expr.Subst.sub option
+)
+"pltl.ml" 112 3189 3215 "pltl.ml" 112 3189 3217
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref cx "pltl.ml" 111 3168 3180 "pltl.ml" 111 3168 3182
+)
+"pltl.ml" 112 3189 3208 "pltl.ml" 112 3189 3218
+type(
+  Expr.Subst.sub option Expr.Visit.scx
+)
+"pltl.ml" 112 3189 3219 "pltl.ml" 112 3189 3220
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "pltl.ml" 111 3168 3184 "pltl.ml" 111 3168 3185
+)
+"pltl.ml" 112 3189 3195 "pltl.ml" 112 3189 3220
+type(
+  Expr.T.expr
+)
+"pltl.ml" 111 3168 3172 "pltl.ml" 112 3189 3220
+type(
+  unit * Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+"pltl.ml" 78 1777 1779 "pltl.ml" 112 3189 3220
+type(
+  unit * Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+"pltl.ml" 114 3222 3226 "pltl.ml" 114 3222 3237
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  def process_eob "pltl.ml" 128 3694 3694 "pltl.ml" 0 0 -1
+)
+"pltl.ml" 114 3222 3238 "pltl.ml" 114 3222 3240
+type(
+  Expr.T.expr
+)
+ident(
+  def ob "pltl.ml" 115 3243 3245 "pltl.ml" 126 3688 3692
+)
+"pltl.ml" 115 3243 3249 "pltl.ml" 115 3243 3251
+type(
+  'a Deque.dq
+)
+ident(
+  def cx "pltl.ml" 116 3269 3271 "pltl.ml" 126 3688 3692
+)
+"pltl.ml" 115 3243 3254 "pltl.ml" 115 3243 3265
+type(
+  'a Deque.dq
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"pltl.ml" 116 3269 3275 "pltl.ml" 116 3269 3278
+type(
+  unit * 'b Deque.dq
+)
+ident(
+  def scx "pltl.ml" 117 3293 3295 "pltl.ml" 126 3688 3692
+)
+"pltl.ml" 116 3269 3282 "pltl.ml" 116 3269 3284
+type(
+  unit
+)
+"pltl.ml" 116 3269 3286 "pltl.ml" 116 3269 3288
+type(
+  'b Deque.dq
+)
+ident(
+  int_ref cx "pltl.ml" 115 3243 3249 "pltl.ml" 115 3243 3251
+)
+"pltl.ml" 116 3269 3281 "pltl.ml" 116 3269 3289
+type(
+  unit * 'b Deque.dq
+)
+"pltl.ml" 117 3293 3299 "pltl.ml" 117 3293 3301
+type(
+  Expr.T.expr
+)
+ident(
+  def ob "pltl.ml" 118 3338 3340 "pltl.ml" 126 3688 3692
+)
+"pltl.ml" 117 3293 3304 "pltl.ml" 117 3293 3328
+type(
+  Expr.T.ctx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Coalesce.rename_with_loc "coalesce.mli" 18 407 407 "coalesce.mli" 18 407 447
+)
+"pltl.ml" 117 3293 3329 "pltl.ml" 117 3293 3331
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "pltl.ml" 115 3243 3249 "pltl.ml" 115 3243 3251
+)
+"pltl.ml" 117 3293 3332 "pltl.ml" 117 3293 3334
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ob "pltl.ml" 114 3222 3238 "pltl.ml" 114 3222 3240
+)
+"pltl.ml" 117 3293 3304 "pltl.ml" 117 3293 3334
+type(
+  Expr.T.expr
+)
+"pltl.ml" 118 3338 3344 "pltl.ml" 118 3338 3346
+type(
+  Expr.T.expr
+)
+ident(
+  def ob "pltl.ml" 119 3389 3391 "pltl.ml" 126 3688 3692
+)
+"pltl.ml" 118 3338 3349 "pltl.ml" 118 3338 3378
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Tla_norm.expand_fairness "expr.mli" 631 16334 16338 "expr.mli" 632 16359 16401
+)
+"pltl.ml" 118 3338 3379 "pltl.ml" 118 3338 3382
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "pltl.ml" 116 3269 3275 "pltl.ml" 116 3269 3278
+)
+"pltl.ml" 118 3338 3383 "pltl.ml" 118 3338 3385
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ob "pltl.ml" 117 3293 3299 "pltl.ml" 117 3293 3301
+)
+"pltl.ml" 118 3338 3349 "pltl.ml" 118 3338 3385
+type(
+  Expr.T.expr
+)
+"pltl.ml" 119 3389 3395 "pltl.ml" 119 3389 3397
+type(
+  Expr.T.expr
+)
+ident(
+  def ob "pltl.ml" 120 3439 3441 "pltl.ml" 126 3688 3692
+)
+"pltl.ml" 119 3389 3400 "pltl.ml" 119 3389 3428
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Tla_norm.expand_leadsto "expr.mli" 629 16267 16271 "expr.mli" 630 16291 16333
+)
+"pltl.ml" 119 3389 3429 "pltl.ml" 119 3389 3432
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "pltl.ml" 116 3269 3275 "pltl.ml" 116 3269 3278
+)
+"pltl.ml" 119 3389 3433 "pltl.ml" 119 3389 3435
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ob "pltl.ml" 118 3338 3344 "pltl.ml" 118 3338 3346
+)
+"pltl.ml" 119 3389 3400 "pltl.ml" 119 3389 3435
+type(
+  Expr.T.expr
+)
+"pltl.ml" 120 3439 3445 "pltl.ml" 120 3439 3447
+type(
+  Expr.T.expr
+)
+ident(
+  def ob "pltl.ml" 121 3488 3490 "pltl.ml" 126 3688 3692
+)
+"pltl.ml" 120 3439 3450 "pltl.ml" 120 3439 3477
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Tla_norm.expand_action "expr.mli" 627 16201 16205 "expr.mli" 628 16224 16266
+)
+"pltl.ml" 120 3439 3478 "pltl.ml" 120 3439 3481
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "pltl.ml" 116 3269 3275 "pltl.ml" 116 3269 3278
+)
+"pltl.ml" 120 3439 3482 "pltl.ml" 120 3439 3484
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ob "pltl.ml" 119 3389 3395 "pltl.ml" 119 3389 3397
+)
+"pltl.ml" 120 3439 3450 "pltl.ml" 120 3439 3484
+type(
+  Expr.T.expr
+)
+"pltl.ml" 121 3488 3494 "pltl.ml" 121 3488 3496
+type(
+  Expr.T.expr
+)
+ident(
+  def ob "pltl.ml" 122 3524 3526 "pltl.ml" 126 3688 3692
+)
+"pltl.ml" 121 3488 3499 "pltl.ml" 121 3488 3513
+type(
+  unit * Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref expand_domains "pltl.ml" 77 1756 1760 "pltl.ml" 77 1756 1774
+)
+"pltl.ml" 121 3488 3514 "pltl.ml" 121 3488 3517
+type(
+  unit * Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "pltl.ml" 116 3269 3275 "pltl.ml" 116 3269 3278
+)
+"pltl.ml" 121 3488 3518 "pltl.ml" 121 3488 3520
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ob "pltl.ml" 120 3439 3445 "pltl.ml" 120 3439 3447
+)
+"pltl.ml" 121 3488 3499 "pltl.ml" 121 3488 3520
+type(
+  Expr.T.expr
+)
+"pltl.ml" 122 3524 3530 "pltl.ml" 122 3524 3532
+type(
+  Expr.T.expr
+)
+ident(
+  def ob "pltl.ml" 123 3561 3563 "pltl.ml" 126 3688 3692
+)
+"pltl.ml" 122 3524 3535 "pltl.ml" 122 3524 3550
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref box_assumptions "pltl.ml" 62 1371 1375 "pltl.ml" 62 1371 1390
+)
+"pltl.ml" 122 3524 3551 "pltl.ml" 122 3524 3554
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "pltl.ml" 116 3269 3275 "pltl.ml" 116 3269 3278
+)
+"pltl.ml" 122 3524 3555 "pltl.ml" 122 3524 3557
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ob "pltl.ml" 121 3488 3494 "pltl.ml" 121 3488 3496
+)
+"pltl.ml" 122 3524 3535 "pltl.ml" 122 3524 3557
+type(
+  Expr.T.expr
+)
+"pltl.ml" 123 3561 3567 "pltl.ml" 123 3561 3569
+type(
+  Expr.T.expr
+)
+ident(
+  def ob "pltl.ml" 124 3607 3609 "pltl.ml" 126 3688 3692
+)
+"pltl.ml" 123 3561 3572 "pltl.ml" 123 3561 3597
+type(
+  Expr.T.ctx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Levels.compute_level "expr.mli" 712 18148 18152 "expr.mli" 713 18171 18198
+)
+"pltl.ml" 123 3561 3598 "pltl.ml" 123 3561 3600
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "pltl.ml" 115 3243 3249 "pltl.ml" 115 3243 3251
+)
+"pltl.ml" 123 3561 3601 "pltl.ml" 123 3561 3603
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ob "pltl.ml" 122 3524 3530 "pltl.ml" 122 3524 3532
+)
+"pltl.ml" 123 3561 3572 "pltl.ml" 123 3561 3603
+type(
+  Expr.T.expr
+)
+"pltl.ml" 124 3607 3613 "pltl.ml" 124 3607 3615
+type(
+  Expr.T.expr
+)
+ident(
+  def ob "pltl.ml" 125 3654 3656 "pltl.ml" 126 3688 3692
+)
+"pltl.ml" 124 3607 3618 "pltl.ml" 124 3607 3644
+type(
+  Expr.T.ctx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.SubstOp.compute_subst "expr.mli" 761 19207 19211 "expr.mli" 762 19230 19257
+)
+"pltl.ml" 124 3607 3645 "pltl.ml" 124 3607 3647
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref cx "pltl.ml" 115 3243 3249 "pltl.ml" 115 3243 3251
+)
+"pltl.ml" 124 3607 3648 "pltl.ml" 124 3607 3650
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ob "pltl.ml" 123 3561 3567 "pltl.ml" 123 3561 3569
+)
+"pltl.ml" 124 3607 3618 "pltl.ml" 124 3607 3650
+type(
+  Expr.T.expr
+)
+"pltl.ml" 125 3654 3660 "pltl.ml" 125 3654 3662
+type(
+  Expr.T.expr
+)
+ident(
+  def ob "pltl.ml" 126 3688 3690 "pltl.ml" 126 3688 3692
+)
+"pltl.ml" 125 3654 3665 "pltl.ml" 125 3654 3677
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref coalesce_fol "pltl.ml" 23 419 423 "pltl.ml" 23 419 435
+)
+"pltl.ml" 125 3654 3678 "pltl.ml" 125 3654 3681
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "pltl.ml" 116 3269 3275 "pltl.ml" 116 3269 3278
+)
+"pltl.ml" 125 3654 3682 "pltl.ml" 125 3654 3684
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ob "pltl.ml" 124 3607 3613 "pltl.ml" 124 3607 3615
+)
+"pltl.ml" 125 3654 3665 "pltl.ml" 125 3654 3684
+type(
+  Expr.T.expr
+)
+"pltl.ml" 126 3688 3690 "pltl.ml" 126 3688 3692
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ob "pltl.ml" 125 3654 3660 "pltl.ml" 125 3654 3662
+)
+"pltl.ml" 125 3654 3656 "pltl.ml" 126 3688 3692
+type(
+  Expr.T.expr
+)
+"pltl.ml" 124 3607 3609 "pltl.ml" 126 3688 3692
+type(
+  Expr.T.expr
+)
+"pltl.ml" 123 3561 3563 "pltl.ml" 126 3688 3692
+type(
+  Expr.T.expr
+)
+"pltl.ml" 122 3524 3526 "pltl.ml" 126 3688 3692
+type(
+  Expr.T.expr
+)
+"pltl.ml" 121 3488 3490 "pltl.ml" 126 3688 3692
+type(
+  Expr.T.expr
+)
+"pltl.ml" 120 3439 3441 "pltl.ml" 126 3688 3692
+type(
+  Expr.T.expr
+)
+"pltl.ml" 119 3389 3391 "pltl.ml" 126 3688 3692
+type(
+  Expr.T.expr
+)
+"pltl.ml" 118 3338 3340 "pltl.ml" 126 3688 3692
+type(
+  Expr.T.expr
+)
+"pltl.ml" 117 3293 3295 "pltl.ml" 126 3688 3692
+type(
+  Expr.T.expr
+)
+"pltl.ml" 116 3269 3271 "pltl.ml" 126 3688 3692
+type(
+  Expr.T.expr
+)
+"pltl.ml" 115 3243 3245 "pltl.ml" 126 3688 3692
+type(
+  Expr.T.expr
+)
+"pltl.ml" 128 3694 3698 "pltl.ml" 128 3694 3716
+type(
+  Proof.T.obligation -> Proof.T.obligation
+)
+ident(
+  def process_obligation "pltl.ml" 132 3850 3890 "pltl.ml" 0 0 -1
+)
+"pltl.ml" 128 3694 3717 "pltl.ml" 128 3694 3719
+type(
+  Proof.T.obligation
+)
+ident(
+  def ob "pltl.ml" 129 3722 3724 "pltl.ml" 132 3850 3890
+)
+"pltl.ml" 129 3722 3731 "pltl.ml" 129 3722 3742
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref process_eob "pltl.ml" 114 3222 3226 "pltl.ml" 114 3222 3237
+)
+"pltl.ml" 129 3722 3744 "pltl.ml" 129 3722 3751
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref Property.noprops "property.mli" 92 3086 3086 "property.mli" 92 3086 3116
+)
+"pltl.ml" 129 3722 3761 "pltl.ml" 129 3722 3763
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "pltl.ml" 128 3694 3717 "pltl.ml" 128 3694 3719
+)
+"pltl.ml" 129 3722 3761 "pltl.ml" 129 3722 3767
+type(
+  Expr.T.sequent Property.wrapped
+)
+"pltl.ml" 129 3722 3761 "pltl.ml" 129 3722 3772
+type(
+  Expr.T.sequent
+)
+"pltl.ml" 129 3722 3752 "pltl.ml" 129 3722 3773
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 129 3722 3743 "pltl.ml" 129 3722 3774
+type(
+  Expr.T.expr
+)
+"pltl.ml" 129 3722 3730 "pltl.ml" 129 3722 3775
+type(
+  Expr.T.expr
+)
+"pltl.ml" 129 3722 3730 "pltl.ml" 129 3722 3780
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 131 3788 3800 "pltl.ml" 131 3788 3802
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "pltl.ml" 131 3788 3806 "pltl.ml" 131 3788 3849
+)
+"pltl.ml" 131 3788 3792 "pltl.ml" 131 3788 3802
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 131 3788 3808 "pltl.ml" 131 3788 3810
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "pltl.ml" 128 3694 3717 "pltl.ml" 128 3694 3719
+)
+"pltl.ml" 131 3788 3824 "pltl.ml" 131 3788 3826
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "pltl.ml" 128 3694 3717 "pltl.ml" 128 3694 3719
+)
+"pltl.ml" 131 3788 3824 "pltl.ml" 131 3788 3830
+type(
+  Expr.T.sequent Property.wrapped
+)
+"pltl.ml" 131 3788 3843 "pltl.ml" 131 3788 3845
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "pltl.ml" 131 3788 3800 "pltl.ml" 131 3788 3802
+)
+"pltl.ml" 131 3788 3822 "pltl.ml" 131 3788 3847
+type(
+  Expr.T.sequent Property.wrapped
+)
+"pltl.ml" 131 3788 3806 "pltl.ml" 131 3788 3849
+type(
+  Proof.T.obligation
+)
+"pltl.ml" 132 3850 3854 "pltl.ml" 132 3850 3855
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"pltl.ml" 132 3850 3859 "pltl.ml" 132 3850 3867
+type(
+  string -> Proof.T.obligation
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"pltl.ml" 132 3850 3868 "pltl.ml" 132 3850 3890
+type(
+  string
+)
+"pltl.ml" 132 3850 3859 "pltl.ml" 132 3850 3890
+type(
+  Proof.T.obligation
+)
+"pltl.ml" 129 3722 3724 "pltl.ml" 132 3850 3890
+type(
+  Proof.T.obligation
+)

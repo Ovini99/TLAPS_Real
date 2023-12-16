@@ -1,0 +1,4807 @@
+"ls4.ml" 19 236 243 "ls4.ml" 19 236 244
+ident(
+  def B "ls4.ml" 19 236 254 "ls4.ml" 0 0 -1
+)
+"ls4.ml" 25 420 424 "ls4.ml" 25 420 442
+type(
+  string -> bool
+)
+ident(
+  def is_only_whitespace "ls4.ml" 471 18282 18282 "ls4.ml" 0 0 -1
+)
+"ls4.ml" 25 420 443 "ls4.ml" 25 420 444
+type(
+  string
+)
+ident(
+  def s "ls4.ml" 26 447 449 "ls4.ml" 32 585 605
+)
+"ls4.ml" 26 447 453 "ls4.ml" 26 447 458
+type(
+  char -> unit
+)
+ident(
+  def check "ls4.ml" 31 553 555 "ls4.ml" 32 585 605
+)
+"ls4.ml" 26 447 459 "ls4.ml" 26 447 460
+type(
+  char
+)
+ident(
+  def c "ls4.ml" 27 463 467 "ls4.ml" 29 526 547
+)
+"ls4.ml" 27 463 473 "ls4.ml" 27 463 474
+type(
+  char
+)
+ident(
+  int_ref c "ls4.ml" 26 447 459 "ls4.ml" 26 447 460
+)
+"ls4.ml" 28 480 486 "ls4.ml" 28 480 489
+type(
+  char
+)
+type(
+  char
+)
+"ls4.ml" 28 480 492 "ls4.ml" 28 480 496
+type(
+  char
+)
+type(
+  char
+)
+"ls4.ml" 28 480 486 "ls4.ml" 28 480 496
+type(
+  char
+)
+"ls4.ml" 28 480 499 "ls4.ml" 28 480 505
+type(
+  char
+)
+type(
+  char
+)
+"ls4.ml" 28 480 486 "ls4.ml" 28 480 505
+type(
+  char
+)
+"ls4.ml" 28 480 508 "ls4.ml" 28 480 512
+type(
+  char
+)
+type(
+  char
+)
+"ls4.ml" 28 480 486 "ls4.ml" 28 480 512
+type(
+  char
+)
+"ls4.ml" 28 480 515 "ls4.ml" 28 480 519
+type(
+  char
+)
+type(
+  char
+)
+"ls4.ml" 28 480 486 "ls4.ml" 28 480 519
+type(
+  char
+)
+"ls4.ml" 28 480 523 "ls4.ml" 28 480 525
+type(
+  unit
+)
+"ls4.ml" 29 526 532 "ls4.ml" 29 526 533
+type(
+  char
+)
+type(
+  char
+)
+"ls4.ml" 29 526 537 "ls4.ml" 29 526 542
+type(
+  exn -> unit
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"ls4.ml" 29 526 543 "ls4.ml" 29 526 547
+type(
+  exn
+)
+"ls4.ml" 29 526 537 "ls4.ml" 29 526 547
+type(
+  unit
+)
+"ls4.ml" 27 463 467 "ls4.ml" 29 526 547
+type(
+  unit
+)
+"ls4.ml" 31 553 559 "ls4.ml" 31 553 570
+type(
+  (char -> unit) -> string -> unit
+)
+ident(
+  int_ref Stdlib.String.iter "string.mli" 291 10440 10440 "string.mli" 291 10440 10483
+)
+"ls4.ml" 31 553 571 "ls4.ml" 31 553 576
+type(
+  char -> unit
+)
+ident(
+  int_ref check "ls4.ml" 26 447 453 "ls4.ml" 26 447 458
+)
+"ls4.ml" 31 553 577 "ls4.ml" 31 553 578
+type(
+  string
+)
+ident(
+  int_ref s "ls4.ml" 25 420 443 "ls4.ml" 25 420 444
+)
+"ls4.ml" 31 553 559 "ls4.ml" 31 553 578
+type(
+  unit
+)
+"ls4.ml" 31 553 580 "ls4.ml" 31 553 584
+type(
+  bool
+)
+"ls4.ml" 31 553 559 "ls4.ml" 31 553 584
+type(
+  bool
+)
+"ls4.ml" 32 585 592 "ls4.ml" 32 585 596
+type(
+  exn
+)
+"ls4.ml" 32 585 600 "ls4.ml" 32 585 605
+type(
+  bool
+)
+"ls4.ml" 31 553 555 "ls4.ml" 32 585 605
+type(
+  bool
+)
+"ls4.ml" 26 447 449 "ls4.ml" 32 585 605
+type(
+  bool
+)
+"ls4.ml" 471 18282 18286 "ls4.ml" 471 18282 18293
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  def visitor "ls4.ml" 579 22898 22898 "ls4.ml" 0 0 -1
+)
+"ls4.ml" 471 18282 18304 "ls4.ml" 471 18282 18308
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+"ls4.ml" 473 18372 18387 "ls4.ml" 473 18372 18390
+type(
+  Expr.T.ctx
+)
+ident(
+  def scx "ls4.ml" 473 18372 18391 "ls4.ml" 473 18372 18419
+)
+"ls4.ml" 473 18372 18391 "ls4.ml" 473 18372 18393
+type(
+  Format.formatter
+)
+ident(
+  def ff "ls4.ml" 473 18372 18394 "ls4.ml" 473 18372 18419
+)
+"ls4.ml" 473 18372 18394 "ls4.ml" 473 18372 18395
+type(
+  Expr.T.expr
+)
+ident(
+  def e "ls4.ml" 473 18372 18398 "ls4.ml" 473 18372 18419
+)
+"ls4.ml" 473 18372 18398 "ls4.ml" 473 18372 18402
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 473 18372 18398 "ls4.ml" 473 18372 18407
+type(
+  Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"ls4.ml" 473 18372 18409 "ls4.ml" 473 18372 18411
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "ls4.ml" 473 18372 18391 "ls4.ml" 473 18372 18393
+)
+"ls4.ml" 473 18372 18413 "ls4.ml" 473 18372 18416
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref scx "ls4.ml" 473 18372 18387 "ls4.ml" 473 18372 18390
+)
+"ls4.ml" 473 18372 18408 "ls4.ml" 473 18372 18417
+type(
+  Format.formatter Expr.Visit.scx
+)
+"ls4.ml" 473 18372 18418 "ls4.ml" 473 18372 18419
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "ls4.ml" 473 18372 18394 "ls4.ml" 473 18372 18395
+)
+"ls4.ml" 473 18372 18398 "ls4.ml" 473 18372 18419
+type(
+  unit
+)
+"ls4.ml" 474 18420 18439 "ls4.ml" 474 18420 18441
+type(
+  Format.formatter
+)
+ident(
+  def ff "ls4.ml" 474 18420 18447 "ls4.ml" 475 18505 18528
+)
+"ls4.ml" 474 18420 18442 "ls4.ml" 474 18420 18445
+type(
+  Expr.T.ctx
+)
+ident(
+  def scx "ls4.ml" 474 18420 18447 "ls4.ml" 475 18505 18528
+)
+"ls4.ml" 474 18420 18438 "ls4.ml" 474 18420 18446
+type(
+  Format.formatter * Expr.T.ctx
+)
+"ls4.ml" 474 18420 18447 "ls4.ml" 474 18420 18449
+type(
+  string
+)
+ident(
+  def op "ls4.ml" 474 18420 18450 "ls4.ml" 475 18505 18528
+)
+"ls4.ml" 474 18420 18450 "ls4.ml" 474 18420 18452
+type(
+  Expr.T.expr
+)
+ident(
+  def f1 "ls4.ml" 474 18420 18453 "ls4.ml" 475 18505 18528
+)
+"ls4.ml" 474 18420 18453 "ls4.ml" 474 18420 18455
+type(
+  Expr.T.expr
+)
+ident(
+  def f2 "ls4.ml" 474 18420 18458 "ls4.ml" 475 18505 18528
+)
+"ls4.ml" 474 18420 18458 "ls4.ml" 474 18420 18465
+type(
+  Format.formatter ->
+  ((Format.formatter -> Expr.T.expr -> unit) ->
+   Expr.T.expr ->
+   string -> (Format.formatter -> Expr.T.expr -> unit) -> Expr.T.expr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Expr.T.expr -> unit) ->
+  Expr.T.expr ->
+  string -> (Format.formatter -> Expr.T.expr -> unit) -> Expr.T.expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"ls4.ml" 474 18420 18466 "ls4.ml" 474 18420 18468
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "ls4.ml" 474 18420 18439 "ls4.ml" 474 18420 18441
+)
+"ls4.ml" 474 18420 18469 "ls4.ml" 474 18420 18481
+type(
+  ((Format.formatter -> Expr.T.expr -> unit) ->
+   Expr.T.expr ->
+   string -> (Format.formatter -> Expr.T.expr -> unit) -> Expr.T.expr -> unit,
+   Format.formatter, unit)
+  format
+)
+"ls4.ml" 474 18420 18483 "ls4.ml" 474 18420 18487
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 474 18420 18483 "ls4.ml" 474 18420 18493
+type(
+  Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit
+)
+"ls4.ml" 474 18420 18494 "ls4.ml" 474 18420 18497
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref scx "ls4.ml" 474 18420 18442 "ls4.ml" 474 18420 18445
+)
+"ls4.ml" 474 18420 18482 "ls4.ml" 474 18420 18498
+type(
+  Format.formatter -> Expr.T.expr -> unit
+)
+"ls4.ml" 474 18420 18499 "ls4.ml" 474 18420 18501
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f1 "ls4.ml" 474 18420 18450 "ls4.ml" 474 18420 18452
+)
+"ls4.ml" 474 18420 18502 "ls4.ml" 474 18420 18504
+type(
+  string
+)
+ident(
+  int_ref op "ls4.ml" 474 18420 18447 "ls4.ml" 474 18420 18449
+)
+"ls4.ml" 475 18505 18510 "ls4.ml" 475 18505 18514
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 475 18505 18510 "ls4.ml" 475 18505 18520
+type(
+  Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit
+)
+"ls4.ml" 475 18505 18521 "ls4.ml" 475 18505 18524
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref scx "ls4.ml" 474 18420 18442 "ls4.ml" 474 18420 18445
+)
+"ls4.ml" 475 18505 18509 "ls4.ml" 475 18505 18525
+type(
+  Format.formatter -> Expr.T.expr -> unit
+)
+"ls4.ml" 475 18505 18526 "ls4.ml" 475 18505 18528
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f2 "ls4.ml" 474 18420 18453 "ls4.ml" 474 18420 18455
+)
+"ls4.ml" 474 18420 18458 "ls4.ml" 475 18505 18528
+type(
+  unit
+)
+"ls4.ml" 476 18529 18547 "ls4.ml" 476 18529 18549
+type(
+  Format.formatter
+)
+ident(
+  def ff "ls4.ml" 476 18529 18555 "ls4.ml" 477 18586 18608
+)
+"ls4.ml" 476 18529 18550 "ls4.ml" 476 18529 18553
+type(
+  Expr.T.ctx
+)
+ident(
+  def scx "ls4.ml" 476 18529 18555 "ls4.ml" 477 18586 18608
+)
+"ls4.ml" 476 18529 18546 "ls4.ml" 476 18529 18554
+type(
+  Format.formatter * Expr.T.ctx
+)
+"ls4.ml" 476 18529 18555 "ls4.ml" 476 18529 18557
+type(
+  string
+)
+ident(
+  def op "ls4.ml" 476 18529 18558 "ls4.ml" 477 18586 18608
+)
+"ls4.ml" 476 18529 18558 "ls4.ml" 476 18529 18559
+type(
+  Expr.T.expr
+)
+ident(
+  def f "ls4.ml" 476 18529 18562 "ls4.ml" 477 18586 18608
+)
+"ls4.ml" 476 18529 18562 "ls4.ml" 476 18529 18569
+type(
+  Format.formatter ->
+  (string -> (Format.formatter -> Expr.T.expr -> unit) -> Expr.T.expr -> unit,
+   Format.formatter, unit)
+  format ->
+  string -> (Format.formatter -> Expr.T.expr -> unit) -> Expr.T.expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"ls4.ml" 476 18529 18570 "ls4.ml" 476 18529 18572
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "ls4.ml" 476 18529 18547 "ls4.ml" 476 18529 18549
+)
+"ls4.ml" 476 18529 18573 "ls4.ml" 476 18529 18582
+type(
+  (string -> (Format.formatter -> Expr.T.expr -> unit) -> Expr.T.expr -> unit,
+   Format.formatter, unit)
+  format
+)
+"ls4.ml" 476 18529 18583 "ls4.ml" 476 18529 18585
+type(
+  string
+)
+ident(
+  int_ref op "ls4.ml" 476 18529 18555 "ls4.ml" 476 18529 18557
+)
+"ls4.ml" 477 18586 18591 "ls4.ml" 477 18586 18595
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 477 18586 18591 "ls4.ml" 477 18586 18601
+type(
+  Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit
+)
+"ls4.ml" 477 18586 18602 "ls4.ml" 477 18586 18605
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref scx "ls4.ml" 476 18529 18550 "ls4.ml" 476 18529 18553
+)
+"ls4.ml" 477 18586 18590 "ls4.ml" 477 18586 18606
+type(
+  Format.formatter -> Expr.T.expr -> unit
+)
+"ls4.ml" 477 18586 18607 "ls4.ml" 477 18586 18608
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f "ls4.ml" 476 18529 18558 "ls4.ml" 476 18529 18559
+)
+"ls4.ml" 476 18529 18562 "ls4.ml" 477 18586 18608
+type(
+  unit
+)
+"ls4.ml" 478 18609 18625 "ls4.ml" 478 18609 18627
+type(
+  Format.formatter
+)
+ident(
+  def ff "ls4.ml" 478 18609 18628 "ls4.ml" 478 18609 18651
+)
+"ls4.ml" 478 18609 18628 "ls4.ml" 478 18609 18630
+type(
+  string
+)
+ident(
+  def at "ls4.ml" 478 18609 18633 "ls4.ml" 478 18609 18651
+)
+"ls4.ml" 478 18609 18633 "ls4.ml" 478 18609 18640
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"ls4.ml" 478 18609 18641 "ls4.ml" 478 18609 18643
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "ls4.ml" 478 18609 18625 "ls4.ml" 478 18609 18627
+)
+"ls4.ml" 478 18609 18644 "ls4.ml" 478 18609 18648
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"ls4.ml" 478 18609 18649 "ls4.ml" 478 18609 18651
+type(
+  string
+)
+ident(
+  int_ref at "ls4.ml" 478 18609 18628 "ls4.ml" 478 18609 18630
+)
+"ls4.ml" 478 18609 18633 "ls4.ml" 478 18609 18651
+type(
+  unit
+)
+"ls4.ml" 479 18652 18669 "ls4.ml" 479 18652 18671
+type(
+  Format.formatter
+)
+ident(
+  def ff "ls4.ml" 479 18652 18686 "ls4.ml" 494 19206 19240
+)
+"ls4.ml" 479 18652 18672 "ls4.ml" 479 18652 18675
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def scx "ls4.ml" 479 18652 18686 "ls4.ml" 494 19206 19240
+)
+"ls4.ml" 479 18652 18668 "ls4.ml" 479 18652 18676
+type(
+  Format.formatter * Expr.T.hyp Deque.dq
+)
+"ls4.ml" 479 18652 18667 "ls4.ml" 479 18652 18685
+type(
+  Format.formatter * Expr.T.hyp Deque.dq
+)
+ident(
+  def scxp "ls4.ml" 479 18652 18686 "ls4.ml" 494 19206 19240
+)
+"ls4.ml" 479 18652 18686 "ls4.ml" 479 18652 18687
+type(
+  Expr.T.hyp
+)
+ident(
+  def h "ls4.ml" 479 18652 18688 "ls4.ml" 494 19206 19240
+)
+"ls4.ml" 479 18652 18688 "ls4.ml" 479 18652 18696
+type(
+  bool
+)
+ident(
+  def is_first "ls4.ml" 480 18699 18705 "ls4.ml" 494 19206 19240
+)
+"ls4.ml" 480 18699 18709 "ls4.ml" 480 18699 18712
+type(
+  bool
+)
+ident(
+  def ret "ls4.ml" 494 19206 19212 "ls4.ml" 494 19206 19240
+)
+"ls4.ml" 480 18699 18721 "ls4.ml" 480 18699 18722
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "ls4.ml" 479 18652 18686 "ls4.ml" 479 18652 18687
+)
+"ls4.ml" 480 18699 18721 "ls4.ml" 480 18699 18727
+type(
+  Expr.T.hyp_
+)
+"ls4.ml" 484 18944 18960 "ls4.ml" 484 18944 18961
+type(
+  Expr.T.hdom
+)
+type(
+  Expr.T.kind
+)
+type(
+  Expr.T.shape
+)
+type(
+  Util.hint
+)
+"ls4.ml" 484 18944 18954 "ls4.ml" 484 18944 18961
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"ls4.ml" 485 18962 18977 "ls4.ml" 485 18962 18978
+type(
+  Util.hint
+)
+"ls4.ml" 485 18962 18972 "ls4.ml" 485 18962 18978
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"ls4.ml" 484 18944 18954 "ls4.ml" 485 18962 18978
+type(
+  Expr.T.hyp_
+)
+"ls4.ml" 486 18979 18994 "ls4.ml" 486 18979 18995
+type(
+  Expr.T.export
+)
+type(
+  Expr.T.visibility
+)
+type(
+  Expr.T.wheredef
+)
+type(
+  Expr.T.defn
+)
+"ls4.ml" 486 18979 18989 "ls4.ml" 486 18979 18995
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"ls4.ml" 484 18944 18954 "ls4.ml" 486 18979 18995
+type(
+  Expr.T.hyp_
+)
+"ls4.ml" 487 18996 19012 "ls4.ml" 487 18996 19013
+type(
+  Expr.T.expr
+)
+"ls4.ml" 487 18996 19015 "ls4.ml" 487 18996 19021
+type(
+  Expr.T.visibility
+)
+"ls4.ml" 487 18996 19023 "ls4.ml" 487 18996 19024
+type(
+  Expr.T.time
+)
+"ls4.ml" 487 18996 19006 "ls4.ml" 487 18996 19025
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"ls4.ml" 484 18944 18954 "ls4.ml" 487 18996 19025
+type(
+  Expr.T.hyp_
+)
+"ls4.ml" 488 19029 19041 "ls4.ml" 488 19029 19046
+type(
+  bool
+)
+"ls4.ml" 489 19047 19063 "ls4.ml" 489 19047 19064
+type(
+  Expr.T.expr
+)
+ident(
+  def e "ls4.ml" 490 19081 19093 "ls4.ml" 492 19180 19196
+)
+"ls4.ml" 489 19047 19066 "ls4.ml" 489 19047 19073
+type(
+  Expr.T.visibility
+)
+"ls4.ml" 489 19047 19075 "ls4.ml" 489 19047 19076
+type(
+  Expr.T.time
+)
+"ls4.ml" 489 19047 19057 "ls4.ml" 489 19047 19077
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"ls4.ml" 490 19081 19093 "ls4.ml" 490 19081 19100
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"ls4.ml" 490 19081 19101 "ls4.ml" 490 19081 19103
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "ls4.ml" 479 18652 18669 "ls4.ml" 479 18652 18671
+)
+"ls4.ml" 490 19081 19105 "ls4.ml" 490 19081 19109
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"ls4.ml" 490 19081 19115 "ls4.ml" 490 19081 19118
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"ls4.ml" 490 19081 19119 "ls4.ml" 490 19081 19127
+type(
+  bool
+)
+ident(
+  int_ref is_first "ls4.ml" 479 18652 18688 "ls4.ml" 479 18652 18696
+)
+"ls4.ml" 490 19081 19114 "ls4.ml" 490 19081 19128
+type(
+  bool
+)
+"ls4.ml" 490 19081 19134 "ls4.ml" 490 19081 19139
+type(
+  string
+)
+"ls4.ml" 490 19081 19145 "ls4.ml" 490 19081 19147
+type(
+  string
+)
+"ls4.ml" 490 19081 19110 "ls4.ml" 490 19081 19148
+type(
+  string
+)
+"ls4.ml" 490 19081 19093 "ls4.ml" 490 19081 19148
+type(
+  unit
+)
+"ls4.ml" 491 19150 19162 "ls4.ml" 491 19150 19166
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 491 19150 19162 "ls4.ml" 491 19150 19171
+type(
+  Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"ls4.ml" 491 19150 19172 "ls4.ml" 491 19150 19176
+type(
+  Format.formatter Expr.Visit.scx
+)
+ident(
+  int_ref scxp "ls4.ml" 479 18652 18667 "ls4.ml" 479 18652 18685
+)
+"ls4.ml" 491 19150 19177 "ls4.ml" 491 19150 19178
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "ls4.ml" 489 19047 19063 "ls4.ml" 489 19047 19064
+)
+"ls4.ml" 491 19150 19162 "ls4.ml" 491 19150 19178
+type(
+  unit
+)
+"ls4.ml" 492 19180 19192 "ls4.ml" 492 19180 19196
+type(
+  bool
+)
+"ls4.ml" 491 19150 19162 "ls4.ml" 492 19180 19196
+type(
+  bool
+)
+"ls4.ml" 490 19081 19093 "ls4.ml" 492 19180 19196
+type(
+  bool
+)
+"ls4.ml" 480 18699 18715 "ls4.ml" 492 19180 19196
+type(
+  bool
+)
+"ls4.ml" 494 19206 19213 "ls4.ml" 494 19206 19216
+type(
+  bool
+)
+ident(
+  int_ref ret "ls4.ml" 480 18699 18709 "ls4.ml" 480 18699 18712
+)
+"ls4.ml" 494 19206 19218 "ls4.ml" 494 19206 19232
+type(
+  Format.formatter Expr.Visit.scx ->
+  Expr.T.hyp -> Format.formatter Expr.Visit.scx
+)
+ident(
+  int_ref Expr.Visit.adj "expr.mli" 541 13601 13603 "expr.mli" 541 13601 13637
+)
+"ls4.ml" 494 19206 19233 "ls4.ml" 494 19206 19237
+type(
+  Format.formatter Expr.Visit.scx
+)
+ident(
+  int_ref scxp "ls4.ml" 479 18652 18667 "ls4.ml" 479 18652 18685
+)
+"ls4.ml" 494 19206 19238 "ls4.ml" 494 19206 19239
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "ls4.ml" 479 18652 18686 "ls4.ml" 479 18652 18687
+)
+"ls4.ml" 494 19206 19218 "ls4.ml" 494 19206 19239
+type(
+  Format.formatter Expr.Visit.scx
+)
+"ls4.ml" 494 19206 19212 "ls4.ml" 494 19206 19240
+type(
+  bool * Format.formatter Expr.Visit.scx
+)
+"ls4.ml" 480 18699 18705 "ls4.ml" 494 19206 19240
+type(
+  bool * Format.formatter Expr.Visit.scx
+)
+"ls4.ml" 495 19241 19259 "ls4.ml" 495 19241 19261
+type(
+  Format.formatter
+)
+ident(
+  def ff "ls4.ml" 495 19241 19276 "ls4.ml" 504 19652 19666
+)
+"ls4.ml" 495 19241 19262 "ls4.ml" 495 19241 19265
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def scx "ls4.ml" 495 19241 19276 "ls4.ml" 504 19652 19666
+)
+"ls4.ml" 495 19241 19258 "ls4.ml" 495 19241 19266
+type(
+  Format.formatter * Expr.T.hyp Deque.dq
+)
+"ls4.ml" 495 19241 19257 "ls4.ml" 495 19241 19275
+type(
+  Format.formatter * Expr.T.hyp Deque.dq
+)
+ident(
+  def scxp "ls4.ml" 495 19241 19276 "ls4.ml" 504 19652 19666
+)
+"ls4.ml" 495 19241 19276 "ls4.ml" 495 19241 19278
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def hs "ls4.ml" 495 19241 19279 "ls4.ml" 504 19652 19666
+)
+"ls4.ml" 495 19241 19279 "ls4.ml" 495 19241 19288
+type(
+  bool
+)
+ident(
+  def had_first "ls4.ml" 495 19241 19291 "ls4.ml" 504 19652 19666
+)
+"ls4.ml" 495 19241 19297 "ls4.ml" 495 19241 19308
+type(
+  Expr.T.hyp Deque.dq -> (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+ident(
+  int_ref Deque.front "deque.mli" 14 253 253 "deque.mli" 14 253 293
+)
+"ls4.ml" 495 19241 19309 "ls4.ml" 495 19241 19311
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref hs "ls4.ml" 495 19241 19276 "ls4.ml" 495 19241 19278
+)
+"ls4.ml" 495 19241 19297 "ls4.ml" 495 19241 19311
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+"ls4.ml" 496 19317 19325 "ls4.ml" 496 19317 19329
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+"ls4.ml" 496 19317 19333 "ls4.ml" 496 19317 19337
+type(
+  Format.formatter Expr.Visit.scx
+)
+ident(
+  int_ref scxp "ls4.ml" 495 19241 19257 "ls4.ml" 495 19241 19275
+)
+"ls4.ml" 497 19338 19352 "ls4.ml" 497 19338 19353
+type(
+  Expr.T.hyp
+)
+ident(
+  def h "ls4.ml" 497 19338 19364 "ls4.ml" 499 19446 19460
+)
+"ls4.ml" 497 19338 19355 "ls4.ml" 497 19338 19357
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def hs "ls4.ml" 497 19338 19364 "ls4.ml" 499 19446 19460
+)
+"ls4.ml" 497 19338 19351 "ls4.ml" 497 19338 19358
+type(
+  Expr.T.hyp * Expr.T.hyp Deque.dq
+)
+"ls4.ml" 497 19338 19346 "ls4.ml" 497 19338 19358
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+"ls4.ml" 497 19338 19365 "ls4.ml" 497 19338 19375
+type(
+  Expr.T.hyp Deque.dq -> bool
+)
+ident(
+  int_ref Deque.null "deque.mli" 17 362 362 "deque.mli" 17 362 387
+)
+"ls4.ml" 497 19338 19376 "ls4.ml" 497 19338 19378
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref hs "ls4.ml" 497 19338 19355 "ls4.ml" 497 19338 19357
+)
+"ls4.ml" 497 19338 19364 "ls4.ml" 497 19338 19379
+type(
+  bool
+)
+"ls4.ml" 498 19383 19398 "ls4.ml" 498 19383 19399
+type(
+  bool
+)
+"ls4.ml" 498 19383 19401 "ls4.ml" 498 19383 19405
+type(
+  Format.formatter Expr.Visit.scx
+)
+ident(
+  def scxp "ls4.ml" 499 19446 19456 "ls4.ml" 499 19446 19460
+)
+"ls4.ml" 498 19383 19397 "ls4.ml" 498 19383 19406
+type(
+  bool * Format.formatter Expr.Visit.scx
+)
+"ls4.ml" 498 19383 19409 "ls4.ml" 498 19383 19413
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 498 19383 19409 "ls4.ml" 498 19383 19419
+type(
+  Format.formatter * Expr.T.hyp Deque.dq ->
+  Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx
+)
+"ls4.ml" 498 19383 19420 "ls4.ml" 498 19383 19424
+type(
+  Format.formatter * Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scxp "ls4.ml" 495 19241 19257 "ls4.ml" 495 19241 19275
+)
+"ls4.ml" 498 19383 19425 "ls4.ml" 498 19383 19426
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "ls4.ml" 497 19338 19352 "ls4.ml" 497 19338 19353
+)
+"ls4.ml" 498 19383 19428 "ls4.ml" 498 19383 19431
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"ls4.ml" 498 19383 19432 "ls4.ml" 498 19383 19441
+type(
+  bool
+)
+ident(
+  int_ref had_first "ls4.ml" 495 19241 19279 "ls4.ml" 495 19241 19288
+)
+"ls4.ml" 498 19383 19427 "ls4.ml" 498 19383 19442
+type(
+  bool
+)
+"ls4.ml" 498 19383 19409 "ls4.ml" 498 19383 19442
+type(
+  bool * Format.formatter Expr.Visit.scx
+)
+"ls4.ml" 499 19446 19456 "ls4.ml" 499 19446 19460
+type(
+  Format.formatter Expr.Visit.scx
+)
+ident(
+  int_ref scxp "ls4.ml" 498 19383 19401 "ls4.ml" 498 19383 19405
+)
+"ls4.ml" 498 19383 19393 "ls4.ml" 499 19446 19460
+type(
+  Format.formatter Expr.Visit.scx
+)
+"ls4.ml" 500 19461 19475 "ls4.ml" 500 19461 19476
+type(
+  Expr.T.hyp
+)
+ident(
+  def h "ls4.ml" 501 19485 19495 "ls4.ml" 504 19652 19666
+)
+"ls4.ml" 500 19461 19478 "ls4.ml" 500 19461 19480
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def hs "ls4.ml" 501 19485 19495 "ls4.ml" 504 19652 19666
+)
+"ls4.ml" 500 19461 19474 "ls4.ml" 500 19461 19481
+type(
+  Expr.T.hyp * Expr.T.hyp Deque.dq
+)
+"ls4.ml" 500 19461 19469 "ls4.ml" 500 19461 19481
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+type(
+  (Expr.T.hyp * Expr.T.hyp Deque.dq) option
+)
+"ls4.ml" 501 19485 19500 "ls4.ml" 501 19485 19503
+type(
+  bool
+)
+ident(
+  def ret "ls4.ml" 502 19550 19560 "ls4.ml" 504 19652 19666
+)
+"ls4.ml" 501 19485 19505 "ls4.ml" 501 19485 19509
+type(
+  Format.formatter Expr.Visit.scx
+)
+ident(
+  def scxp "ls4.ml" 502 19550 19560 "ls4.ml" 504 19652 19666
+)
+"ls4.ml" 501 19485 19499 "ls4.ml" 501 19485 19510
+type(
+  bool * Format.formatter Expr.Visit.scx
+)
+"ls4.ml" 501 19485 19513 "ls4.ml" 501 19485 19517
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 501 19485 19513 "ls4.ml" 501 19485 19523
+type(
+  Format.formatter * Expr.T.hyp Deque.dq ->
+  Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx
+)
+"ls4.ml" 501 19485 19524 "ls4.ml" 501 19485 19528
+type(
+  Format.formatter * Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scxp "ls4.ml" 495 19241 19257 "ls4.ml" 495 19241 19275
+)
+"ls4.ml" 501 19485 19529 "ls4.ml" 501 19485 19530
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "ls4.ml" 500 19461 19475 "ls4.ml" 500 19461 19476
+)
+"ls4.ml" 501 19485 19532 "ls4.ml" 501 19485 19535
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
+)
+"ls4.ml" 501 19485 19536 "ls4.ml" 501 19485 19545
+type(
+  bool
+)
+ident(
+  int_ref had_first "ls4.ml" 495 19241 19279 "ls4.ml" 495 19241 19288
+)
+"ls4.ml" 501 19485 19531 "ls4.ml" 501 19485 19546
+type(
+  bool
+)
+"ls4.ml" 501 19485 19513 "ls4.ml" 501 19485 19546
+type(
+  bool * Format.formatter Expr.Visit.scx
+)
+"ls4.ml" 502 19550 19564 "ls4.ml" 502 19550 19573
+type(
+  bool
+)
+ident(
+  def had_first "ls4.ml" 503 19598 19608 "ls4.ml" 504 19652 19666
+)
+"ls4.ml" 502 19550 19577 "ls4.ml" 502 19550 19580
+type(
+  bool
+)
+ident(
+  int_ref ret "ls4.ml" 501 19485 19500 "ls4.ml" 501 19485 19503
+)
+"ls4.ml" 502 19550 19581 "ls4.ml" 502 19550 19583
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 227 9492 9492 "stdlib.mli" 227 9492 9542
+)
+"ls4.ml" 502 19550 19584 "ls4.ml" 502 19550 19593
+type(
+  bool
+)
+ident(
+  int_ref had_first "ls4.ml" 495 19241 19279 "ls4.ml" 495 19241 19288
+)
+"ls4.ml" 502 19550 19576 "ls4.ml" 502 19550 19594
+type(
+  bool
+)
+"ls4.ml" 503 19598 19612 "ls4.ml" 503 19598 19616
+type(
+  Format.formatter Expr.Visit.scx
+)
+ident(
+  def scxp "ls4.ml" 504 19652 19662 "ls4.ml" 504 19652 19666
+)
+"ls4.ml" 503 19598 19619 "ls4.ml" 503 19598 19623
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 503 19598 19619 "ls4.ml" 503 19598 19630
+type(
+  Format.formatter Expr.Visit.scx ->
+  Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx
+)
+"ls4.ml" 503 19598 19631 "ls4.ml" 503 19598 19635
+type(
+  Format.formatter Expr.Visit.scx
+)
+ident(
+  int_ref scxp "ls4.ml" 501 19485 19505 "ls4.ml" 501 19485 19509
+)
+"ls4.ml" 503 19598 19636 "ls4.ml" 503 19598 19638
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref hs "ls4.ml" 500 19461 19478 "ls4.ml" 500 19461 19480
+)
+"ls4.ml" 503 19598 19639 "ls4.ml" 503 19598 19648
+type(
+  bool
+)
+ident(
+  int_ref had_first "ls4.ml" 502 19550 19564 "ls4.ml" 502 19550 19573
+)
+"ls4.ml" 503 19598 19619 "ls4.ml" 503 19598 19648
+type(
+  Format.formatter Expr.Visit.scx
+)
+"ls4.ml" 504 19652 19662 "ls4.ml" 504 19652 19666
+type(
+  Format.formatter Expr.Visit.scx
+)
+ident(
+  int_ref scxp "ls4.ml" 503 19598 19612 "ls4.ml" 503 19598 19616
+)
+"ls4.ml" 503 19598 19608 "ls4.ml" 504 19652 19666
+type(
+  Format.formatter Expr.Visit.scx
+)
+"ls4.ml" 502 19550 19560 "ls4.ml" 504 19652 19666
+type(
+  Format.formatter Expr.Visit.scx
+)
+"ls4.ml" 501 19485 19495 "ls4.ml" 504 19652 19666
+type(
+  Format.formatter Expr.Visit.scx
+)
+"ls4.ml" 495 19241 19291 "ls4.ml" 504 19652 19666
+type(
+  Format.formatter Expr.Visit.scx
+)
+"ls4.ml" 505 19667 19683 "ls4.ml" 505 19667 19685
+type(
+  Format.formatter
+)
+ident(
+  def ff "ls4.ml" 505 19667 19700 "ls4.ml" 568 22450 22492
+)
+"ls4.ml" 505 19667 19686 "ls4.ml" 505 19667 19689
+type(
+  Expr.T.ctx
+)
+ident(
+  def scx "ls4.ml" 505 19667 19700 "ls4.ml" 568 22450 22492
+)
+"ls4.ml" 505 19667 19682 "ls4.ml" 505 19667 19690
+type(
+  Format.formatter * Expr.T.ctx
+)
+"ls4.ml" 505 19667 19681 "ls4.ml" 505 19667 19699
+type(
+  Format.formatter * Expr.T.ctx
+)
+ident(
+  def scxp "ls4.ml" 505 19667 19700 "ls4.ml" 568 22450 22492
+)
+"ls4.ml" 505 19667 19700 "ls4.ml" 505 19667 19701
+type(
+  Expr.T.expr
+)
+ident(
+  def e "ls4.ml" 506 19704 19708 "ls4.ml" 568 22450 22492
+)
+"ls4.ml" 506 19704 19714 "ls4.ml" 506 19704 19715
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "ls4.ml" 505 19667 19700 "ls4.ml" 505 19667 19701
+)
+"ls4.ml" 506 19704 19714 "ls4.ml" 506 19704 19720
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 508 19775 19805 "ls4.ml" 508 19775 19814
+type(
+  Builtin.builtin
+)
+"ls4.ml" 508 19775 19796 "ls4.ml" 508 19775 19814
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 508 19775 19788 "ls4.ml" 508 19775 19815
+type(
+  Expr.T.expr
+)
+"ls4.ml" 508 19775 19818 "ls4.ml" 508 19775 19820
+type(
+  Expr.T.expr
+)
+ident(
+  def f1 "ls4.ml" 508 19775 19829 "ls4.ml" 508 19775 19858
+)
+"ls4.ml" 508 19775 19821 "ls4.ml" 508 19775 19823
+type(
+  Expr.T.expr
+)
+ident(
+  def f2 "ls4.ml" 508 19775 19829 "ls4.ml" 508 19775 19858
+)
+"ls4.ml" 508 19775 19817 "ls4.ml" 508 19775 19824
+type(
+  Expr.T.expr list
+)
+"ls4.ml" 508 19775 19781 "ls4.ml" 508 19775 19825
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 508 19775 19829 "ls4.ml" 508 19775 19833
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 508 19775 19829 "ls4.ml" 508 19775 19842
+type(
+  Format.formatter * Expr.T.ctx ->
+  string -> Expr.T.expr -> Expr.T.expr -> unit
+)
+"ls4.ml" 508 19775 19843 "ls4.ml" 508 19775 19847
+type(
+  Format.formatter * Expr.T.ctx
+)
+ident(
+  int_ref scxp "ls4.ml" 505 19667 19681 "ls4.ml" 505 19667 19699
+)
+"ls4.ml" 508 19775 19848 "ls4.ml" 508 19775 19852
+type(
+  string
+)
+"ls4.ml" 508 19775 19853 "ls4.ml" 508 19775 19855
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f1 "ls4.ml" 508 19775 19818 "ls4.ml" 508 19775 19820
+)
+"ls4.ml" 508 19775 19856 "ls4.ml" 508 19775 19858
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f2 "ls4.ml" 508 19775 19821 "ls4.ml" 508 19775 19823
+)
+"ls4.ml" 508 19775 19829 "ls4.ml" 508 19775 19858
+type(
+  unit
+)
+"ls4.ml" 509 19859 19889 "ls4.ml" 509 19859 19896
+type(
+  Builtin.builtin
+)
+"ls4.ml" 509 19859 19880 "ls4.ml" 509 19859 19896
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 509 19859 19872 "ls4.ml" 509 19859 19897
+type(
+  Expr.T.expr
+)
+"ls4.ml" 509 19859 19900 "ls4.ml" 509 19859 19902
+type(
+  Expr.T.expr
+)
+ident(
+  def f1 "ls4.ml" 509 19859 19911 "ls4.ml" 509 19859 19941
+)
+"ls4.ml" 509 19859 19903 "ls4.ml" 509 19859 19905
+type(
+  Expr.T.expr
+)
+ident(
+  def f2 "ls4.ml" 509 19859 19911 "ls4.ml" 509 19859 19941
+)
+"ls4.ml" 509 19859 19899 "ls4.ml" 509 19859 19906
+type(
+  Expr.T.expr list
+)
+"ls4.ml" 509 19859 19865 "ls4.ml" 509 19859 19907
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 509 19859 19911 "ls4.ml" 509 19859 19915
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 509 19859 19911 "ls4.ml" 509 19859 19924
+type(
+  Format.formatter * Expr.T.ctx ->
+  string -> Expr.T.expr -> Expr.T.expr -> unit
+)
+"ls4.ml" 509 19859 19925 "ls4.ml" 509 19859 19929
+type(
+  Format.formatter * Expr.T.ctx
+)
+ident(
+  int_ref scxp "ls4.ml" 505 19667 19681 "ls4.ml" 505 19667 19699
+)
+"ls4.ml" 509 19859 19930 "ls4.ml" 509 19859 19935
+type(
+  string
+)
+"ls4.ml" 509 19859 19936 "ls4.ml" 509 19859 19938
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f1 "ls4.ml" 509 19859 19900 "ls4.ml" 509 19859 19902
+)
+"ls4.ml" 509 19859 19939 "ls4.ml" 509 19859 19941
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f2 "ls4.ml" 509 19859 19903 "ls4.ml" 509 19859 19905
+)
+"ls4.ml" 509 19859 19911 "ls4.ml" 509 19859 19941
+type(
+  unit
+)
+"ls4.ml" 510 19942 19972 "ls4.ml" 510 19942 19978
+type(
+  Builtin.builtin
+)
+"ls4.ml" 510 19942 19963 "ls4.ml" 510 19942 19978
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 510 19942 19955 "ls4.ml" 510 19942 19979
+type(
+  Expr.T.expr
+)
+"ls4.ml" 510 19942 19982 "ls4.ml" 510 19942 19984
+type(
+  Expr.T.expr
+)
+ident(
+  def f1 "ls4.ml" 510 19942 19993 "ls4.ml" 510 19942 20021
+)
+"ls4.ml" 510 19942 19985 "ls4.ml" 510 19942 19987
+type(
+  Expr.T.expr
+)
+ident(
+  def f2 "ls4.ml" 510 19942 19993 "ls4.ml" 510 19942 20021
+)
+"ls4.ml" 510 19942 19981 "ls4.ml" 510 19942 19988
+type(
+  Expr.T.expr list
+)
+"ls4.ml" 510 19942 19948 "ls4.ml" 510 19942 19989
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 510 19942 19993 "ls4.ml" 510 19942 19997
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 510 19942 19993 "ls4.ml" 510 19942 20006
+type(
+  Format.formatter * Expr.T.ctx ->
+  string -> Expr.T.expr -> Expr.T.expr -> unit
+)
+"ls4.ml" 510 19942 20007 "ls4.ml" 510 19942 20011
+type(
+  Format.formatter * Expr.T.ctx
+)
+ident(
+  int_ref scxp "ls4.ml" 505 19667 19681 "ls4.ml" 505 19667 19699
+)
+"ls4.ml" 510 19942 20012 "ls4.ml" 510 19942 20015
+type(
+  string
+)
+"ls4.ml" 510 19942 20016 "ls4.ml" 510 19942 20018
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f1 "ls4.ml" 510 19942 19982 "ls4.ml" 510 19942 19984
+)
+"ls4.ml" 510 19942 20019 "ls4.ml" 510 19942 20021
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f2 "ls4.ml" 510 19942 19985 "ls4.ml" 510 19942 19987
+)
+"ls4.ml" 510 19942 19993 "ls4.ml" 510 19942 20021
+type(
+  unit
+)
+"ls4.ml" 511 20022 20052 "ls4.ml" 511 20022 20058
+type(
+  Builtin.builtin
+)
+"ls4.ml" 511 20022 20043 "ls4.ml" 511 20022 20058
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 511 20022 20035 "ls4.ml" 511 20022 20059
+type(
+  Expr.T.expr
+)
+"ls4.ml" 511 20022 20062 "ls4.ml" 511 20022 20064
+type(
+  Expr.T.expr
+)
+ident(
+  def f1 "ls4.ml" 511 20022 20073 "ls4.ml" 511 20022 20101
+)
+"ls4.ml" 511 20022 20065 "ls4.ml" 511 20022 20067
+type(
+  Expr.T.expr
+)
+ident(
+  def f2 "ls4.ml" 511 20022 20073 "ls4.ml" 511 20022 20101
+)
+"ls4.ml" 511 20022 20061 "ls4.ml" 511 20022 20068
+type(
+  Expr.T.expr list
+)
+"ls4.ml" 511 20022 20028 "ls4.ml" 511 20022 20069
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 511 20022 20073 "ls4.ml" 511 20022 20077
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 511 20022 20073 "ls4.ml" 511 20022 20086
+type(
+  Format.formatter * Expr.T.ctx ->
+  string -> Expr.T.expr -> Expr.T.expr -> unit
+)
+"ls4.ml" 511 20022 20087 "ls4.ml" 511 20022 20091
+type(
+  Format.formatter * Expr.T.ctx
+)
+ident(
+  int_ref scxp "ls4.ml" 505 19667 19681 "ls4.ml" 505 19667 19699
+)
+"ls4.ml" 511 20022 20092 "ls4.ml" 511 20022 20095
+type(
+  string
+)
+"ls4.ml" 511 20022 20096 "ls4.ml" 511 20022 20098
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f1 "ls4.ml" 511 20022 20062 "ls4.ml" 511 20022 20064
+)
+"ls4.ml" 511 20022 20099 "ls4.ml" 511 20022 20101
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f2 "ls4.ml" 511 20022 20065 "ls4.ml" 511 20022 20067
+)
+"ls4.ml" 511 20022 20073 "ls4.ml" 511 20022 20101
+type(
+  unit
+)
+"ls4.ml" 513 20118 20127 "ls4.ml" 513 20118 20128
+type(
+  int
+)
+ident(
+  def n "ls4.ml" 514 20132 20140 "ls4.ml" 525 20732 20743
+)
+"ls4.ml" 513 20118 20124 "ls4.ml" 513 20118 20128
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 514 20132 20143 "ls4.ml" 514 20132 20144
+type(
+  int
+)
+ident(
+  int_ref n "ls4.ml" 513 20118 20127 "ls4.ml" 513 20118 20128
+)
+"ls4.ml" 514 20132 20145 "ls4.ml" 514 20132 20146
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 140 5875 5875 "stdlib.mli" 140 5875 5925
+)
+"ls4.ml" 514 20132 20147 "ls4.ml" 514 20132 20157
+type(
+  Expr.T.ctx -> int
+)
+ident(
+  int_ref Deque.size "deque.mli" 11 162 162 "deque.mli" 11 162 186
+)
+"ls4.ml" 514 20132 20158 "ls4.ml" 514 20132 20161
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref scx "ls4.ml" 505 19667 19686 "ls4.ml" 505 19667 19689
+)
+"ls4.ml" 514 20132 20147 "ls4.ml" 514 20132 20161
+type(
+  int
+)
+"ls4.ml" 514 20132 20143 "ls4.ml" 514 20132 20161
+type(
+  bool
+)
+"ls4.ml" 515 20167 20177 "ls4.ml" 515 20167 20187
+type(
+  ?at:Expr.T.expr -> string -> unit
+)
+ident(
+  int_ref Errors.bug "errors.mli" 41 941 941 "errors.mli" 41 941 982
+)
+"ls4.ml" 515 20167 20192 "ls4.ml" 515 20167 20193
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "ls4.ml" 505 19667 19700 "ls4.ml" 505 19667 19701
+)
+type(
+  Expr.T.expr option
+)
+"ls4.ml" 515 20167 20194 "ls4.ml" 515 20167 20236
+type(
+  string
+)
+"ls4.ml" 515 20167 20177 "ls4.ml" 515 20167 20236
+type(
+  unit
+)
+"ls4.ml" 516 20237 20262 "ls4.ml" 516 20237 20271
+type(
+  ?backwards:bool -> Expr.T.ctx -> int -> Expr.T.hyp option
+)
+ident(
+  int_ref Deque.nth "deque.mli" 18 388 388 "deque.mli" 18 388 444
+)
+"ls4.ml" 516 20237 20283 "ls4.ml" 516 20237 20287
+type(
+  bool
+)
+type(
+  bool option
+)
+"ls4.ml" 516 20237 20288 "ls4.ml" 516 20237 20291
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref scx "ls4.ml" 505 19667 19686 "ls4.ml" 505 19667 19689
+)
+"ls4.ml" 516 20237 20293 "ls4.ml" 516 20237 20294
+type(
+  int
+)
+ident(
+  int_ref n "ls4.ml" 513 20118 20127 "ls4.ml" 513 20118 20128
+)
+"ls4.ml" 516 20237 20295 "ls4.ml" 516 20237 20296
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"ls4.ml" 516 20237 20297 "ls4.ml" 516 20237 20298
+type(
+  int
+)
+"ls4.ml" 516 20237 20292 "ls4.ml" 516 20237 20299
+type(
+  int
+)
+"ls4.ml" 516 20237 20262 "ls4.ml" 516 20237 20299
+type(
+  Expr.T.hyp option
+)
+"ls4.ml" 517 20305 20317 "ls4.ml" 517 20305 20321
+type(
+  Expr.T.hyp option
+)
+type(
+  Expr.T.hyp option
+)
+"ls4.ml" 517 20305 20325 "ls4.ml" 517 20305 20333
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"ls4.ml" 517 20305 20334 "ls4.ml" 517 20305 20346
+type(
+  string
+)
+"ls4.ml" 517 20305 20325 "ls4.ml" 517 20305 20346
+type(
+  unit
+)
+"ls4.ml" 518 20347 20379 "ls4.ml" 518 20347 20383
+type(
+  Util.hint
+)
+ident(
+  def name "ls4.ml" 519 20411 20425 "ls4.ml" 519 20411 20474
+)
+"ls4.ml" 518 20347 20385 "ls4.ml" 518 20347 20386
+type(
+  Expr.T.shape
+)
+"ls4.ml" 518 20347 20388 "ls4.ml" 518 20347 20389
+type(
+  Expr.T.kind
+)
+"ls4.ml" 518 20347 20391 "ls4.ml" 518 20347 20392
+type(
+  Expr.T.hdom
+)
+"ls4.ml" 518 20347 20372 "ls4.ml" 518 20347 20393
+type(
+  Expr.T.hyp_
+)
+"ls4.ml" 518 20347 20401 "ls4.ml" 518 20347 20405
+type(
+  Util.hint
+)
+ident(
+  def name "ls4.ml" 519 20411 20425 "ls4.ml" 519 20411 20474
+)
+"ls4.ml" 518 20347 20396 "ls4.ml" 518 20347 20405
+type(
+  Expr.T.hyp_
+)
+"ls4.ml" 518 20347 20372 "ls4.ml" 518 20347 20405
+type(
+  Expr.T.hyp_
+)
+"ls4.ml" 518 20347 20363 "ls4.ml" 518 20347 20407
+type(
+  Expr.T.hyp
+)
+"ls4.ml" 518 20347 20359 "ls4.ml" 518 20347 20407
+type(
+  Expr.T.hyp option
+)
+type(
+  Expr.T.hyp option
+)
+"ls4.ml" 519 20411 20425 "ls4.ml" 519 20411 20429
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 519 20411 20425 "ls4.ml" 519 20411 20434
+type(
+  Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"ls4.ml" 519 20411 20435 "ls4.ml" 519 20411 20439
+type(
+  Format.formatter Expr.Visit.scx
+)
+ident(
+  int_ref scxp "ls4.ml" 505 19667 19681 "ls4.ml" 505 19667 19699
+)
+"ls4.ml" 519 20411 20442 "ls4.ml" 519 20411 20443
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "ls4.ml" 505 19667 19700 "ls4.ml" 505 19667 19701
+)
+"ls4.ml" 519 20411 20463 "ls4.ml" 519 20411 20467
+type(
+  Util.hint
+)
+ident(
+  int_ref name "ls4.ml" 518 20347 20379 "ls4.ml" 518 20347 20383
+)
+"ls4.ml" 519 20411 20463 "ls4.ml" 519 20411 20472
+type(
+  string
+)
+"ls4.ml" 519 20411 20456 "ls4.ml" 519 20411 20472
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 519 20411 20440 "ls4.ml" 519 20411 20474
+type(
+  Expr.T.expr
+)
+"ls4.ml" 519 20411 20425 "ls4.ml" 519 20411 20474
+type(
+  unit
+)
+"ls4.ml" 520 20475 20520 "ls4.ml" 520 20475 20524
+type(
+  Util.hint
+)
+ident(
+  def name "ls4.ml" 521 20545 20561 "ls4.ml" 521 20545 20602
+)
+"ls4.ml" 520 20475 20526 "ls4.ml" 520 20475 20527
+type(
+  Expr.T.expr
+)
+"ls4.ml" 520 20475 20510 "ls4.ml" 520 20475 20528
+type(
+  Expr.T.defn_
+)
+"ls4.ml" 520 20475 20504 "ls4.ml" 520 20475 20529
+type(
+  Expr.T.defn
+)
+"ls4.ml" 520 20475 20531 "ls4.ml" 520 20475 20532
+type(
+  Expr.T.wheredef
+)
+"ls4.ml" 520 20475 20534 "ls4.ml" 520 20475 20535
+type(
+  Expr.T.visibility
+)
+"ls4.ml" 520 20475 20537 "ls4.ml" 520 20475 20538
+type(
+  Expr.T.export
+)
+"ls4.ml" 520 20475 20498 "ls4.ml" 520 20475 20539
+type(
+  Expr.T.hyp_
+)
+"ls4.ml" 520 20475 20491 "ls4.ml" 520 20475 20541
+type(
+  Expr.T.hyp
+)
+"ls4.ml" 520 20475 20487 "ls4.ml" 520 20475 20541
+type(
+  Expr.T.hyp option
+)
+type(
+  Expr.T.hyp option
+)
+"ls4.ml" 521 20545 20561 "ls4.ml" 521 20545 20565
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 521 20545 20561 "ls4.ml" 521 20545 20570
+type(
+  Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"ls4.ml" 521 20545 20571 "ls4.ml" 521 20545 20575
+type(
+  Format.formatter Expr.Visit.scx
+)
+ident(
+  int_ref scxp "ls4.ml" 505 19667 19681 "ls4.ml" 505 19667 19699
+)
+"ls4.ml" 521 20545 20584 "ls4.ml" 521 20545 20588
+type(
+  Util.hint
+)
+ident(
+  int_ref name "ls4.ml" 520 20475 20520 "ls4.ml" 520 20475 20524
+)
+"ls4.ml" 521 20545 20584 "ls4.ml" 521 20545 20593
+type(
+  string
+)
+"ls4.ml" 521 20545 20577 "ls4.ml" 521 20545 20593
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 521 20545 20594 "ls4.ml" 521 20545 20596
+type(
+  Expr.T.expr_ -> Util.hint -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"ls4.ml" 521 20545 20597 "ls4.ml" 521 20545 20601
+type(
+  Util.hint
+)
+ident(
+  int_ref name "ls4.ml" 520 20475 20520 "ls4.ml" 520 20475 20524
+)
+"ls4.ml" 521 20545 20576 "ls4.ml" 521 20545 20602
+type(
+  Expr.T.expr
+)
+"ls4.ml" 521 20545 20561 "ls4.ml" 521 20545 20602
+type(
+  unit
+)
+"ls4.ml" 522 20603 20631 "ls4.ml" 522 20603 20632
+type(
+  Expr.T.time
+)
+type(
+  Expr.T.visibility
+)
+type(
+  Expr.T.expr
+)
+"ls4.ml" 522 20603 20626 "ls4.ml" 522 20603 20632
+type(
+  Expr.T.hyp_
+)
+"ls4.ml" 522 20603 20619 "ls4.ml" 522 20603 20634
+type(
+  Expr.T.hyp
+)
+"ls4.ml" 522 20603 20615 "ls4.ml" 522 20603 20634
+type(
+  Expr.T.hyp option
+)
+type(
+  Expr.T.hyp option
+)
+"ls4.ml" 522 20603 20645 "ls4.ml" 522 20603 20650
+type(
+  bool
+)
+"ls4.ml" 522 20603 20638 "ls4.ml" 522 20603 20650
+type(
+  unit
+)
+"ls4.ml" 524 20684 20712 "ls4.ml" 524 20684 20713
+type(
+  Expr.T.export
+)
+type(
+  Expr.T.visibility
+)
+type(
+  Expr.T.wheredef
+)
+type(
+  Expr.T.defn
+)
+"ls4.ml" 524 20684 20707 "ls4.ml" 524 20684 20713
+type(
+  Expr.T.hyp_
+)
+"ls4.ml" 524 20684 20700 "ls4.ml" 524 20684 20715
+type(
+  Expr.T.hyp
+)
+"ls4.ml" 524 20684 20696 "ls4.ml" 524 20684 20715
+type(
+  Expr.T.hyp option
+)
+type(
+  Expr.T.hyp option
+)
+"ls4.ml" 524 20684 20726 "ls4.ml" 524 20684 20731
+type(
+  bool
+)
+"ls4.ml" 524 20684 20719 "ls4.ml" 524 20684 20731
+type(
+  unit
+)
+"ls4.ml" 516 20237 20250 "ls4.ml" 525 20732 20743
+type(
+  unit
+)
+"ls4.ml" 514 20132 20140 "ls4.ml" 525 20732 20743
+type(
+  unit
+)
+"ls4.ml" 526 20744 20757 "ls4.ml" 526 20744 20759
+type(
+  string
+)
+ident(
+  def id "ls4.ml" 526 20744 20763 "ls4.ml" 526 20744 20780
+)
+"ls4.ml" 526 20744 20750 "ls4.ml" 526 20744 20759
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 526 20744 20763 "ls4.ml" 526 20744 20767
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 526 20744 20763 "ls4.ml" 526 20744 20774
+type(
+  Format.formatter -> string -> unit
+)
+"ls4.ml" 526 20744 20775 "ls4.ml" 526 20744 20777
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "ls4.ml" 505 19667 19683 "ls4.ml" 505 19667 19685
+)
+"ls4.ml" 526 20744 20778 "ls4.ml" 526 20744 20780
+type(
+  string
+)
+ident(
+  int_ref id "ls4.ml" 526 20744 20757 "ls4.ml" 526 20744 20759
+)
+"ls4.ml" 526 20744 20763 "ls4.ml" 526 20744 20780
+type(
+  unit
+)
+"ls4.ml" 528 20808 20823 "ls4.ml" 528 20808 20829
+type(
+  Builtin.builtin
+)
+"ls4.ml" 528 20808 20814 "ls4.ml" 528 20808 20829
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 528 20808 20834 "ls4.ml" 528 20808 20838
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 528 20808 20834 "ls4.ml" 528 20808 20845
+type(
+  Format.formatter -> string -> unit
+)
+"ls4.ml" 528 20808 20846 "ls4.ml" 528 20808 20848
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "ls4.ml" 505 19667 19683 "ls4.ml" 505 19667 19685
+)
+"ls4.ml" 528 20808 20849 "ls4.ml" 528 20808 20862
+type(
+  string
+)
+"ls4.ml" 528 20808 20834 "ls4.ml" 528 20808 20862
+type(
+  unit
+)
+"ls4.ml" 529 20863 20878 "ls4.ml" 529 20863 20885
+type(
+  Builtin.builtin
+)
+"ls4.ml" 529 20863 20869 "ls4.ml" 529 20863 20885
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 529 20863 20889 "ls4.ml" 529 20863 20893
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 529 20863 20889 "ls4.ml" 529 20863 20900
+type(
+  Format.formatter -> string -> unit
+)
+"ls4.ml" 529 20863 20901 "ls4.ml" 529 20863 20903
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "ls4.ml" 505 19667 19683 "ls4.ml" 505 19667 19685
+)
+"ls4.ml" 529 20863 20904 "ls4.ml" 529 20863 20917
+type(
+  string
+)
+"ls4.ml" 529 20863 20889 "ls4.ml" 529 20863 20917
+type(
+  unit
+)
+"ls4.ml" 531 20943 20979 "ls4.ml" 531 20943 20980
+type(
+  bool
+)
+"ls4.ml" 531 20943 20973 "ls4.ml" 531 20943 20980
+type(
+  Builtin.builtin
+)
+"ls4.ml" 531 20943 20964 "ls4.ml" 531 20943 20980
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 531 20943 20956 "ls4.ml" 531 20943 20981
+type(
+  Expr.T.expr
+)
+"ls4.ml" 531 20943 20984 "ls4.ml" 531 20943 20985
+type(
+  Expr.T.expr
+)
+ident(
+  def f "ls4.ml" 531 20943 20991 "ls4.ml" 531 20943 21019
+)
+"ls4.ml" 531 20943 20983 "ls4.ml" 531 20943 20986
+type(
+  Expr.T.expr list
+)
+"ls4.ml" 531 20943 20949 "ls4.ml" 531 20943 20987
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 531 20943 20991 "ls4.ml" 531 20943 20995
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 531 20943 20991 "ls4.ml" 531 20943 21003
+type(
+  Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit
+)
+"ls4.ml" 531 20943 21004 "ls4.ml" 531 20943 21008
+type(
+  Format.formatter * Expr.T.ctx
+)
+ident(
+  int_ref scxp "ls4.ml" 505 19667 19681 "ls4.ml" 505 19667 19699
+)
+"ls4.ml" 531 20943 21009 "ls4.ml" 531 20943 21017
+type(
+  string
+)
+"ls4.ml" 531 20943 21018 "ls4.ml" 531 20943 21019
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f "ls4.ml" 531 20943 20984 "ls4.ml" 531 20943 20985
+)
+"ls4.ml" 531 20943 20991 "ls4.ml" 531 20943 21019
+type(
+  unit
+)
+"ls4.ml" 532 21020 21050 "ls4.ml" 532 21020 21059
+type(
+  Builtin.builtin
+)
+"ls4.ml" 532 21020 21041 "ls4.ml" 532 21020 21059
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 532 21020 21033 "ls4.ml" 532 21020 21060
+type(
+  Expr.T.expr
+)
+"ls4.ml" 532 21020 21063 "ls4.ml" 532 21020 21064
+type(
+  Expr.T.expr
+)
+ident(
+  def f "ls4.ml" 532 21020 21070 "ls4.ml" 532 21020 21100
+)
+"ls4.ml" 532 21020 21062 "ls4.ml" 532 21020 21065
+type(
+  Expr.T.expr list
+)
+"ls4.ml" 532 21020 21026 "ls4.ml" 532 21020 21066
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 532 21020 21070 "ls4.ml" 532 21020 21074
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 532 21020 21070 "ls4.ml" 532 21020 21082
+type(
+  Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit
+)
+"ls4.ml" 532 21020 21083 "ls4.ml" 532 21020 21087
+type(
+  Format.formatter * Expr.T.ctx
+)
+ident(
+  int_ref scxp "ls4.ml" 505 19667 19681 "ls4.ml" 505 19667 19699
+)
+"ls4.ml" 532 21020 21088 "ls4.ml" 532 21020 21098
+type(
+  string
+)
+"ls4.ml" 532 21020 21099 "ls4.ml" 532 21020 21100
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f "ls4.ml" 532 21020 21063 "ls4.ml" 532 21020 21064
+)
+"ls4.ml" 532 21020 21070 "ls4.ml" 532 21020 21100
+type(
+  unit
+)
+"ls4.ml" 533 21101 21131 "ls4.ml" 533 21101 21138
+type(
+  Builtin.builtin
+)
+"ls4.ml" 533 21101 21122 "ls4.ml" 533 21101 21138
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 533 21101 21114 "ls4.ml" 533 21101 21139
+type(
+  Expr.T.expr
+)
+"ls4.ml" 533 21101 21142 "ls4.ml" 533 21101 21143
+type(
+  Expr.T.expr
+)
+ident(
+  def f "ls4.ml" 533 21101 21149 "ls4.ml" 533 21101 21175
+)
+"ls4.ml" 533 21101 21141 "ls4.ml" 533 21101 21144
+type(
+  Expr.T.expr list
+)
+"ls4.ml" 533 21101 21107 "ls4.ml" 533 21101 21145
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 533 21101 21149 "ls4.ml" 533 21101 21153
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 533 21101 21149 "ls4.ml" 533 21101 21161
+type(
+  Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit
+)
+"ls4.ml" 533 21101 21162 "ls4.ml" 533 21101 21166
+type(
+  Format.formatter * Expr.T.ctx
+)
+ident(
+  int_ref scxp "ls4.ml" 505 19667 19681 "ls4.ml" 505 19667 19699
+)
+"ls4.ml" 533 21101 21167 "ls4.ml" 533 21101 21173
+type(
+  string
+)
+"ls4.ml" 533 21101 21174 "ls4.ml" 533 21101 21175
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f "ls4.ml" 533 21101 21142 "ls4.ml" 533 21101 21143
+)
+"ls4.ml" 533 21101 21149 "ls4.ml" 533 21101 21175
+type(
+  unit
+)
+"ls4.ml" 534 21176 21206 "ls4.ml" 534 21176 21211
+type(
+  Builtin.builtin
+)
+"ls4.ml" 534 21176 21197 "ls4.ml" 534 21176 21211
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 534 21176 21189 "ls4.ml" 534 21176 21212
+type(
+  Expr.T.expr
+)
+"ls4.ml" 534 21176 21215 "ls4.ml" 534 21176 21216
+type(
+  Expr.T.expr
+)
+ident(
+  def f "ls4.ml" 534 21176 21222 "ls4.ml" 534 21176 21245
+)
+"ls4.ml" 534 21176 21214 "ls4.ml" 534 21176 21217
+type(
+  Expr.T.expr list
+)
+"ls4.ml" 534 21176 21182 "ls4.ml" 534 21176 21218
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 534 21176 21222 "ls4.ml" 534 21176 21226
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 534 21176 21222 "ls4.ml" 534 21176 21234
+type(
+  Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit
+)
+"ls4.ml" 534 21176 21235 "ls4.ml" 534 21176 21239
+type(
+  Format.formatter * Expr.T.ctx
+)
+ident(
+  int_ref scxp "ls4.ml" 505 19667 19681 "ls4.ml" 505 19667 19699
+)
+"ls4.ml" 534 21176 21240 "ls4.ml" 534 21176 21243
+type(
+  string
+)
+"ls4.ml" 534 21176 21244 "ls4.ml" 534 21176 21245
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f "ls4.ml" 534 21176 21215 "ls4.ml" 534 21176 21216
+)
+"ls4.ml" 534 21176 21222 "ls4.ml" 534 21176 21245
+type(
+  unit
+)
+"ls4.ml" 536 21273 21287 "ls4.ml" 536 21273 21289
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "ls4.ml" 537 21293 21301 "ls4.ml" 549 21785 21796
+)
+"ls4.ml" 536 21273 21279 "ls4.ml" 536 21273 21289
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 537 21293 21305 "ls4.ml" 537 21293 21308
+type(
+  Buffer.t
+)
+ident(
+  def buf "ls4.ml" 538 21333 21341 "ls4.ml" 549 21785 21796
+)
+"ls4.ml" 537 21293 21311 "ls4.ml" 537 21293 21324
+type(
+  int -> Buffer.t
+)
+ident(
+  int_ref Stdlib.Buffer.create "buffer.mli" 36 1534 1534 "buffer.mli" 36 1534 1555
+)
+"ls4.ml" 537 21293 21325 "ls4.ml" 537 21293 21329
+type(
+  int
+)
+"ls4.ml" 537 21293 21311 "ls4.ml" 537 21293 21329
+type(
+  Buffer.t
+)
+"ls4.ml" 538 21333 21345 "ls4.ml" 538 21333 21354
+type(
+  Format.formatter
+)
+ident(
+  def formatter "ls4.ml" 539 21391 21399 "ls4.ml" 549 21785 21796
+)
+"ls4.ml" 538 21333 21357 "ls4.ml" 538 21333 21383
+type(
+  Buffer.t -> Format.formatter
+)
+ident(
+  int_ref Stdlib.Format.formatter_of_buffer "format.mli" 962 37557 37557 "format.mli" 962 37557 37604
+)
+"ls4.ml" 538 21333 21384 "ls4.ml" 538 21333 21387
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "ls4.ml" 537 21293 21305 "ls4.ml" 537 21293 21308
+)
+"ls4.ml" 538 21333 21357 "ls4.ml" 538 21333 21387
+type(
+  Format.formatter
+)
+"ls4.ml" 539 21391 21404 "ls4.ml" 539 21391 21405
+type(
+  Format.formatter
+)
+"ls4.ml" 539 21391 21406 "ls4.ml" 539 21391 21409
+type(
+  Expr.T.ctx
+)
+ident(
+  def scx "ls4.ml" 540 21461 21469 "ls4.ml" 549 21785 21796
+)
+"ls4.ml" 539 21391 21403 "ls4.ml" 539 21391 21410
+type(
+  Format.formatter Expr.Visit.scx
+)
+"ls4.ml" 539 21391 21413 "ls4.ml" 539 21391 21417
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 539 21391 21413 "ls4.ml" 539 21391 21424
+type(
+  Format.formatter Expr.Visit.scx ->
+  Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx
+)
+"ls4.ml" 539 21391 21426 "ls4.ml" 539 21391 21435
+type(
+  Format.formatter
+)
+ident(
+  int_ref formatter "ls4.ml" 538 21333 21345 "ls4.ml" 538 21333 21354
+)
+"ls4.ml" 539 21391 21436 "ls4.ml" 539 21391 21439
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref scx "ls4.ml" 505 19667 19686 "ls4.ml" 505 19667 19689
+)
+"ls4.ml" 539 21391 21425 "ls4.ml" 539 21391 21440
+type(
+  Format.formatter Expr.Visit.scx
+)
+"ls4.ml" 539 21391 21441 "ls4.ml" 539 21391 21443
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "ls4.ml" 536 21273 21287 "ls4.ml" 536 21273 21289
+)
+"ls4.ml" 539 21391 21441 "ls4.ml" 539 21391 21451
+type(
+  Expr.T.hyp Deque.dq
+)
+"ls4.ml" 539 21391 21452 "ls4.ml" 539 21391 21457
+type(
+  bool
+)
+"ls4.ml" 539 21391 21413 "ls4.ml" 539 21391 21457
+type(
+  Format.formatter Expr.Visit.scx
+)
+"ls4.ml" 540 21461 21473 "ls4.ml" 540 21461 21475
+type(
+  unit
+)
+type(
+  unit
+)
+"ls4.ml" 540 21461 21478 "ls4.ml" 540 21461 21492
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref Stdlib.Format.pp_print_flush "format.mli" 364 13972 13972 "format.mli" 364 13972 14018
+)
+"ls4.ml" 540 21461 21493 "ls4.ml" 540 21461 21502
+type(
+  Format.formatter
+)
+ident(
+  int_ref formatter "ls4.ml" 538 21333 21345 "ls4.ml" 538 21333 21354
+)
+"ls4.ml" 540 21461 21503 "ls4.ml" 540 21461 21505
+type(
+  unit
+)
+"ls4.ml" 540 21461 21478 "ls4.ml" 540 21461 21505
+type(
+  unit
+)
+"ls4.ml" 541 21509 21521 "ls4.ml" 541 21509 21524
+type(
+  string
+)
+ident(
+  def str "ls4.ml" 542 21550 21558 "ls4.ml" 549 21785 21796
+)
+"ls4.ml" 541 21509 21527 "ls4.ml" 541 21509 21542
+type(
+  Buffer.t -> string
+)
+ident(
+  int_ref Stdlib.Buffer.contents "buffer.mli" 50 2314 2314 "buffer.mli" 50 2314 2340
+)
+"ls4.ml" 541 21509 21543 "ls4.ml" 541 21509 21546
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "ls4.ml" 537 21293 21305 "ls4.ml" 537 21293 21308
+)
+"ls4.ml" 541 21509 21527 "ls4.ml" 541 21509 21546
+type(
+  string
+)
+"ls4.ml" 542 21550 21561 "ls4.ml" 542 21550 21579
+type(
+  string -> bool
+)
+ident(
+  int_ref is_only_whitespace "ls4.ml" 25 420 424 "ls4.ml" 25 420 442
+)
+"ls4.ml" 542 21550 21580 "ls4.ml" 542 21550 21583
+type(
+  string
+)
+ident(
+  int_ref str "ls4.ml" 541 21509 21521 "ls4.ml" 541 21509 21524
+)
+"ls4.ml" 542 21550 21561 "ls4.ml" 542 21550 21583
+type(
+  bool
+)
+"ls4.ml" 542 21550 21589 "ls4.ml" 542 21550 21593
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 542 21550 21589 "ls4.ml" 542 21550 21598
+type(
+  Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"ls4.ml" 542 21550 21599 "ls4.ml" 542 21550 21603
+type(
+  Format.formatter Expr.Visit.scx
+)
+ident(
+  int_ref scxp "ls4.ml" 505 19667 19681 "ls4.ml" 505 19667 19699
+)
+"ls4.ml" 542 21550 21604 "ls4.ml" 542 21550 21606
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "ls4.ml" 536 21273 21287 "ls4.ml" 536 21273 21289
+)
+"ls4.ml" 542 21550 21604 "ls4.ml" 542 21550 21613
+type(
+  Expr.T.expr
+)
+"ls4.ml" 542 21550 21589 "ls4.ml" 542 21550 21613
+type(
+  unit
+)
+"ls4.ml" 544 21634 21644 "ls4.ml" 544 21634 21651
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"ls4.ml" 544 21634 21652 "ls4.ml" 544 21634 21654
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "ls4.ml" 505 19667 19683 "ls4.ml" 505 19667 19685
+)
+"ls4.ml" 544 21634 21655 "ls4.ml" 544 21634 21658
+type(
+  (unit, Format.formatter, unit) format
+)
+"ls4.ml" 544 21634 21644 "ls4.ml" 544 21634 21658
+type(
+  unit
+)
+"ls4.ml" 545 21660 21670 "ls4.ml" 545 21660 21677
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"ls4.ml" 545 21660 21678 "ls4.ml" 545 21660 21680
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "ls4.ml" 505 19667 19683 "ls4.ml" 505 19667 19685
+)
+"ls4.ml" 545 21660 21681 "ls4.ml" 545 21660 21685
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"ls4.ml" 545 21660 21686 "ls4.ml" 545 21660 21689
+type(
+  string
+)
+ident(
+  int_ref str "ls4.ml" 541 21509 21521 "ls4.ml" 541 21509 21524
+)
+"ls4.ml" 545 21660 21670 "ls4.ml" 545 21660 21689
+type(
+  unit
+)
+"ls4.ml" 546 21691 21701 "ls4.ml" 546 21691 21708
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"ls4.ml" 546 21691 21709 "ls4.ml" 546 21691 21711
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "ls4.ml" 505 19667 19683 "ls4.ml" 505 19667 19685
+)
+"ls4.ml" 546 21691 21712 "ls4.ml" 546 21691 21718
+type(
+  (unit, Format.formatter, unit) format
+)
+"ls4.ml" 546 21691 21701 "ls4.ml" 546 21691 21718
+type(
+  unit
+)
+"ls4.ml" 547 21720 21730 "ls4.ml" 547 21720 21734
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 547 21720 21730 "ls4.ml" 547 21720 21739
+type(
+  Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"ls4.ml" 547 21720 21741 "ls4.ml" 547 21720 21743
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "ls4.ml" 505 19667 19683 "ls4.ml" 505 19667 19685
+)
+"ls4.ml" 547 21720 21744 "ls4.ml" 547 21720 21747
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref scx "ls4.ml" 539 21391 21406 "ls4.ml" 539 21391 21409
+)
+"ls4.ml" 547 21720 21740 "ls4.ml" 547 21720 21748
+type(
+  Format.formatter Expr.Visit.scx
+)
+"ls4.ml" 547 21720 21749 "ls4.ml" 547 21720 21751
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "ls4.ml" 536 21273 21287 "ls4.ml" 536 21273 21289
+)
+"ls4.ml" 547 21720 21749 "ls4.ml" 547 21720 21758
+type(
+  Expr.T.expr
+)
+"ls4.ml" 547 21720 21730 "ls4.ml" 547 21720 21758
+type(
+  unit
+)
+"ls4.ml" 548 21760 21770 "ls4.ml" 548 21760 21777
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"ls4.ml" 548 21760 21778 "ls4.ml" 548 21760 21780
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "ls4.ml" 505 19667 19683 "ls4.ml" 505 19667 19685
+)
+"ls4.ml" 548 21760 21781 "ls4.ml" 548 21760 21784
+type(
+  (unit, Format.formatter, unit) format
+)
+"ls4.ml" 548 21760 21770 "ls4.ml" 548 21760 21784
+type(
+  unit
+)
+"ls4.ml" 547 21720 21730 "ls4.ml" 548 21760 21784
+type(
+  unit
+)
+"ls4.ml" 546 21691 21701 "ls4.ml" 548 21760 21784
+type(
+  unit
+)
+"ls4.ml" 545 21660 21670 "ls4.ml" 548 21760 21784
+type(
+  unit
+)
+"ls4.ml" 543 21614 21628 "ls4.ml" 549 21785 21796
+type(
+  unit
+)
+"ls4.ml" 542 21550 21558 "ls4.ml" 549 21785 21796
+type(
+  unit
+)
+"ls4.ml" 541 21509 21517 "ls4.ml" 549 21785 21796
+type(
+  unit
+)
+"ls4.ml" 540 21461 21469 "ls4.ml" 549 21785 21796
+type(
+  unit
+)
+"ls4.ml" 539 21391 21399 "ls4.ml" 549 21785 21796
+type(
+  unit
+)
+"ls4.ml" 538 21333 21341 "ls4.ml" 549 21785 21796
+type(
+  unit
+)
+"ls4.ml" 537 21293 21301 "ls4.ml" 549 21785 21796
+type(
+  unit
+)
+"ls4.ml" 550 21797 21809 "ls4.ml" 550 21797 21813
+type(
+  Expr.T.bullet
+)
+"ls4.ml" 550 21797 21815 "ls4.ml" 550 21797 21817
+type(
+  Expr.T.expr list
+)
+"ls4.ml" 550 21797 21803 "ls4.ml" 550 21797 21818
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 551 21822 21830 "ls4.ml" 551 21822 21834
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 551 21822 21830 "ls4.ml" 551 21822 21839
+type(
+  Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"ls4.ml" 551 21822 21840 "ls4.ml" 551 21822 21844
+type(
+  Format.formatter Expr.Visit.scx
+)
+ident(
+  int_ref scxp "ls4.ml" 505 19667 19681 "ls4.ml" 505 19667 19699
+)
+"ls4.ml" 551 21822 21855 "ls4.ml" 551 21822 21867
+type(
+  Builtin.builtin
+)
+"ls4.ml" 551 21822 21846 "ls4.ml" 551 21822 21867
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 551 21822 21868 "ls4.ml" 551 21822 21870
+type(
+  Expr.T.expr_ -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"ls4.ml" 551 21822 21871 "ls4.ml" 551 21822 21872
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "ls4.ml" 505 19667 19700 "ls4.ml" 505 19667 19701
+)
+"ls4.ml" 551 21822 21845 "ls4.ml" 551 21822 21873
+type(
+  Expr.T.expr
+)
+"ls4.ml" 551 21822 21830 "ls4.ml" 551 21822 21873
+type(
+  unit
+)
+"ls4.ml" 552 21874 21886 "ls4.ml" 552 21874 21890
+type(
+  Expr.T.bullet
+)
+"ls4.ml" 552 21874 21893 "ls4.ml" 552 21874 21894
+type(
+  Expr.T.expr
+)
+ident(
+  def e "ls4.ml" 553 21900 21908 "ls4.ml" 553 21900 21924
+)
+"ls4.ml" 552 21874 21892 "ls4.ml" 552 21874 21895
+type(
+  Expr.T.expr list
+)
+"ls4.ml" 552 21874 21880 "ls4.ml" 552 21874 21896
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 553 21900 21908 "ls4.ml" 553 21900 21912
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 553 21900 21908 "ls4.ml" 553 21900 21917
+type(
+  Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"ls4.ml" 553 21900 21918 "ls4.ml" 553 21900 21922
+type(
+  Format.formatter Expr.Visit.scx
+)
+ident(
+  int_ref scxp "ls4.ml" 505 19667 19681 "ls4.ml" 505 19667 19699
+)
+"ls4.ml" 553 21900 21923 "ls4.ml" 553 21900 21924
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "ls4.ml" 552 21874 21893 "ls4.ml" 552 21874 21894
+)
+"ls4.ml" 553 21900 21908 "ls4.ml" 553 21900 21924
+type(
+  unit
+)
+"ls4.ml" 554 21925 21937 "ls4.ml" 554 21925 21938
+type(
+  Expr.T.bullet
+)
+ident(
+  def q "ls4.ml" 555 21947 21955 "ls4.ml" 559 22041 22076
+)
+"ls4.ml" 554 21925 21940 "ls4.ml" 554 21925 21942
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "ls4.ml" 555 21947 21955 "ls4.ml" 559 22041 22076
+)
+"ls4.ml" 554 21925 21931 "ls4.ml" 554 21925 21943
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 555 21947 21959 "ls4.ml" 555 21947 21962
+type(
+  string
+)
+ident(
+  def rep "ls4.ml" 559 22041 22049 "ls4.ml" 559 22041 22076
+)
+"ls4.ml" 555 21947 21971 "ls4.ml" 555 21947 21972
+type(
+  Expr.T.bullet
+)
+ident(
+  int_ref q "ls4.ml" 554 21925 21937 "ls4.ml" 554 21925 21938
+)
+"ls4.ml" 556 21978 21988 "ls4.ml" 556 21978 21991
+type(
+  Expr.T.bullet
+)
+type(
+  Expr.T.bullet
+)
+"ls4.ml" 556 21978 21994 "ls4.ml" 556 21978 21998
+type(
+  Expr.T.bullet
+)
+type(
+  Expr.T.bullet
+)
+"ls4.ml" 556 21978 21988 "ls4.ml" 556 21978 21998
+type(
+  Expr.T.bullet
+)
+"ls4.ml" 556 21978 22002 "ls4.ml" 556 21978 22007
+type(
+  string
+)
+"ls4.ml" 557 22008 22018 "ls4.ml" 557 22008 22020
+type(
+  Expr.T.bullet
+)
+type(
+  Expr.T.bullet
+)
+"ls4.ml" 557 22008 22024 "ls4.ml" 557 22008 22029
+type(
+  string
+)
+"ls4.ml" 555 21947 21965 "ls4.ml" 557 22008 22029
+type(
+  string
+)
+"ls4.ml" 559 22041 22049 "ls4.ml" 559 22041 22053
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 559 22041 22049 "ls4.ml" 559 22041 22064
+type(
+  Format.formatter * Expr.T.ctx -> string -> Expr.T.expr list -> unit
+)
+"ls4.ml" 559 22041 22065 "ls4.ml" 559 22041 22069
+type(
+  Format.formatter * Expr.T.ctx
+)
+ident(
+  int_ref scxp "ls4.ml" 505 19667 19681 "ls4.ml" 505 19667 19699
+)
+"ls4.ml" 559 22041 22070 "ls4.ml" 559 22041 22073
+type(
+  string
+)
+ident(
+  int_ref rep "ls4.ml" 555 21947 21959 "ls4.ml" 555 21947 21962
+)
+"ls4.ml" 559 22041 22074 "ls4.ml" 559 22041 22076
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "ls4.ml" 554 21925 21940 "ls4.ml" 554 21925 21942
+)
+"ls4.ml" 559 22041 22049 "ls4.ml" 559 22041 22076
+type(
+  unit
+)
+"ls4.ml" 555 21947 21955 "ls4.ml" 559 22041 22076
+type(
+  unit
+)
+"ls4.ml" 560 22077 22090 "ls4.ml" 560 22077 22092
+type(
+  Expr.T.expr
+)
+ident(
+  def op "ls4.ml" 561 22100 22112 "ls4.ml" 562 22147 22175
+)
+"ls4.ml" 560 22077 22094 "ls4.ml" 560 22077 22095
+type(
+  Expr.T.expr list
+)
+"ls4.ml" 560 22077 22083 "ls4.ml" 560 22077 22096
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 561 22100 22116 "ls4.ml" 561 22100 22117
+type(
+  Expr.T.expr
+)
+ident(
+  def s "ls4.ml" 562 22147 22159 "ls4.ml" 562 22147 22175
+)
+"ls4.ml" 561 22100 22120 "ls4.ml" 561 22100 22137
+type(
+  Expr.T.ctx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Coalesce.coalesce "coalesce.mli" 15 293 293 "coalesce.mli" 15 293 326
+)
+"ls4.ml" 561 22100 22138 "ls4.ml" 561 22100 22141
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref scx "ls4.ml" 505 19667 19686 "ls4.ml" 505 19667 19689
+)
+"ls4.ml" 561 22100 22142 "ls4.ml" 561 22100 22143
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "ls4.ml" 505 19667 19700 "ls4.ml" 505 19667 19701
+)
+"ls4.ml" 561 22100 22120 "ls4.ml" 561 22100 22143
+type(
+  Expr.T.expr
+)
+"ls4.ml" 562 22147 22159 "ls4.ml" 562 22147 22163
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 562 22147 22159 "ls4.ml" 562 22147 22168
+type(
+  Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"ls4.ml" 562 22147 22169 "ls4.ml" 562 22147 22173
+type(
+  Format.formatter Expr.Visit.scx
+)
+ident(
+  int_ref scxp "ls4.ml" 505 19667 19681 "ls4.ml" 505 19667 19699
+)
+"ls4.ml" 562 22147 22174 "ls4.ml" 562 22147 22175
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref s "ls4.ml" 561 22100 22116 "ls4.ml" 561 22100 22117
+)
+"ls4.ml" 562 22147 22159 "ls4.ml" 562 22147 22175
+type(
+  unit
+)
+"ls4.ml" 561 22100 22112 "ls4.ml" 562 22147 22175
+type(
+  unit
+)
+"ls4.ml" 563 22176 22188 "ls4.ml" 563 22176 22189
+type(
+  Expr.T.expr
+)
+type(
+  Expr.T.bounds
+)
+type(
+  Expr.T.quantifier
+)
+"ls4.ml" 563 22176 22182 "ls4.ml" 563 22176 22189
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 564 22232 22248 "ls4.ml" 564 22232 22249
+type(
+  Expr.T.expr
+)
+ident(
+  def s "ls4.ml" 565 22279 22291 "ls4.ml" 565 22279 22307
+)
+"ls4.ml" 564 22232 22252 "ls4.ml" 564 22232 22269
+type(
+  Expr.T.ctx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Coalesce.coalesce "coalesce.mli" 15 293 293 "coalesce.mli" 15 293 326
+)
+"ls4.ml" 564 22232 22270 "ls4.ml" 564 22232 22273
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref scx "ls4.ml" 505 19667 19686 "ls4.ml" 505 19667 19689
+)
+"ls4.ml" 564 22232 22274 "ls4.ml" 564 22232 22275
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "ls4.ml" 505 19667 19700 "ls4.ml" 505 19667 19701
+)
+"ls4.ml" 564 22232 22252 "ls4.ml" 564 22232 22275
+type(
+  Expr.T.expr
+)
+"ls4.ml" 565 22279 22291 "ls4.ml" 565 22279 22295
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 565 22279 22291 "ls4.ml" 565 22279 22300
+type(
+  Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"ls4.ml" 565 22279 22301 "ls4.ml" 565 22279 22305
+type(
+  Format.formatter Expr.Visit.scx
+)
+ident(
+  int_ref scxp "ls4.ml" 505 19667 19681 "ls4.ml" 505 19667 19699
+)
+"ls4.ml" 565 22279 22306 "ls4.ml" 565 22279 22307
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref s "ls4.ml" 564 22232 22248 "ls4.ml" 564 22232 22249
+)
+"ls4.ml" 565 22279 22291 "ls4.ml" 565 22279 22307
+type(
+  unit
+)
+"ls4.ml" 564 22232 22244 "ls4.ml" 565 22279 22307
+type(
+  unit
+)
+"ls4.ml" 567 22372 22378 "ls4.ml" 567 22372 22379
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 567 22372 22383 "ls4.ml" 567 22372 22390
+type(
+  Format.formatter ->
+  ((Format.formatter -> Expr.T.expr -> unit) -> Expr.T.expr -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Expr.T.expr -> unit) -> Expr.T.expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"ls4.ml" 567 22372 22391 "ls4.ml" 567 22372 22404
+type(
+  Format.formatter
+)
+ident(
+  int_ref Stdlib.Format.err_formatter "format.mli" 956 37413 37413 "format.mli" 956 37413 37442
+)
+"ls4.ml" 567 22372 22405 "ls4.ml" 567 22372 22425
+type(
+  ((Format.formatter -> Expr.T.expr -> unit) -> Expr.T.expr -> unit,
+   Format.formatter, unit)
+  format
+)
+"ls4.ml" 567 22372 22427 "ls4.ml" 567 22372 22449
+type(
+  ?temp:bool -> Expr.Fmt.ctx -> Format.formatter -> Expr.T.expr -> unit
+)
+ident(
+  int_ref Expr.Fmt.pp_print_expr "expr.mli" 393 10055 10059 "expr.mli" 396 10143 10159
+)
+"ls4.ml" 568 22450 22457 "ls4.ml" 568 22450 22460
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref scx "ls4.ml" 505 19667 19686 "ls4.ml" 505 19667 19689
+)
+"ls4.ml" 568 22450 22462 "ls4.ml" 568 22450 22469
+type(
+  int Ctx.ctx
+)
+ident(
+  int_ref Ctx.dot "ctx.mli" 20 424 424 "ctx.mli" 20 424 439
+)
+"ls4.ml" 568 22450 22456 "ls4.ml" 568 22450 22470
+type(
+  Expr.Fmt.ctx
+)
+"ls4.ml" 567 22372 22426 "ls4.ml" 568 22450 22471
+type(
+  Format.formatter -> Expr.T.expr -> unit
+)
+"ls4.ml" 568 22450 22472 "ls4.ml" 568 22450 22473
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "ls4.ml" 505 19667 19700 "ls4.ml" 505 19667 19701
+)
+"ls4.ml" 567 22372 22383 "ls4.ml" 568 22450 22473
+type(
+  unit
+)
+"ls4.ml" 568 22450 22475 "ls4.ml" 568 22450 22480
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  int_ref super "ls4.ml" 472 18318 18328 "ls4.ml" 472 18318 18362
+)
+"ls4.ml" 568 22450 22475 "ls4.ml" 568 22450 22485
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit > ->
+  Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit
+)
+ident(
+  ext_ref expr
+)
+type(
+  Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit
+)
+type(
+  Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"ls4.ml" 568 22450 22486 "ls4.ml" 568 22450 22490
+type(
+  Format.formatter Expr.Visit.scx
+)
+ident(
+  int_ref scxp "ls4.ml" 505 19667 19681 "ls4.ml" 505 19667 19699
+)
+"ls4.ml" 568 22450 22491 "ls4.ml" 568 22450 22492
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "ls4.ml" 505 19667 19700 "ls4.ml" 505 19667 19701
+)
+"ls4.ml" 568 22450 22475 "ls4.ml" 568 22450 22492
+type(
+  unit
+)
+"ls4.ml" 567 22372 22383 "ls4.ml" 568 22450 22492
+type(
+  unit
+)
+"ls4.ml" 506 19704 19708 "ls4.ml" 568 22450 22492
+type(
+  unit
+)
+"ls4.ml" 571 22611 22635 "ls4.ml" 571 22611 22637
+type(
+  Format.formatter
+)
+ident(
+  def ff "ls4.ml" 571 22611 22652 "ls4.ml" 576 22841 22892
+)
+"ls4.ml" 571 22611 22638 "ls4.ml" 571 22611 22641
+type(
+  Expr.T.ctx
+)
+ident(
+  def scx "ls4.ml" 571 22611 22652 "ls4.ml" 576 22841 22892
+)
+"ls4.ml" 571 22611 22634 "ls4.ml" 571 22611 22642
+type(
+  Format.formatter * Expr.T.ctx
+)
+"ls4.ml" 571 22611 22633 "ls4.ml" 571 22611 22651
+type(
+  Format.formatter * Expr.T.ctx
+)
+ident(
+  def scxp "ls4.ml" 571 22611 22652 "ls4.ml" 576 22841 22892
+)
+"ls4.ml" 571 22611 22652 "ls4.ml" 571 22611 22655
+type(
+  string
+)
+ident(
+  def rep "ls4.ml" 571 22611 22658 "ls4.ml" 576 22841 22892
+)
+"ls4.ml" 572 22667 22675 "ls4.ml" 572 22667 22677
+type(
+  Expr.T.expr list
+)
+"ls4.ml" 572 22667 22681 "ls4.ml" 572 22667 22691
+type(
+  ?at:'_weak1 Property.wrapped -> string -> unit
+)
+ident(
+  int_ref Errors.bug "errors.mli" 41 941 941 "errors.mli" 41 941 982
+)
+"ls4.ml" 572 22667 22692 "ls4.ml" 572 22667 22728
+type(
+  string
+)
+"ls4.ml" 572 22667 22681 "ls4.ml" 572 22667 22728
+type(
+  unit
+)
+"ls4.ml" 573 22729 22738 "ls4.ml" 573 22729 22739
+type(
+  Expr.T.expr
+)
+ident(
+  def e "ls4.ml" 573 22729 22744 "ls4.ml" 573 22729 22760
+)
+"ls4.ml" 573 22729 22737 "ls4.ml" 573 22729 22740
+type(
+  Expr.T.expr list
+)
+"ls4.ml" 573 22729 22744 "ls4.ml" 573 22729 22748
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 573 22729 22744 "ls4.ml" 573 22729 22753
+type(
+  Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"ls4.ml" 573 22729 22754 "ls4.ml" 573 22729 22758
+type(
+  Format.formatter Expr.Visit.scx
+)
+ident(
+  int_ref scxp "ls4.ml" 571 22611 22633 "ls4.ml" 571 22611 22651
+)
+"ls4.ml" 573 22729 22759 "ls4.ml" 573 22729 22760
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "ls4.ml" 573 22729 22738 "ls4.ml" 573 22729 22739
+)
+"ls4.ml" 573 22729 22744 "ls4.ml" 573 22729 22760
+type(
+  unit
+)
+"ls4.ml" 574 22761 22769 "ls4.ml" 574 22761 22770
+type(
+  Expr.T.expr
+)
+ident(
+  def e "ls4.ml" 575 22778 22786 "ls4.ml" 576 22841 22892
+)
+"ls4.ml" 574 22761 22772 "ls4.ml" 574 22761 22774
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "ls4.ml" 575 22778 22786 "ls4.ml" 576 22841 22892
+)
+"ls4.ml" 574 22761 22769 "ls4.ml" 574 22761 22774
+type(
+  Expr.T.expr list
+)
+"ls4.ml" 575 22778 22786 "ls4.ml" 575 22778 22793
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"ls4.ml" 575 22778 22794 "ls4.ml" 575 22778 22796
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "ls4.ml" 571 22611 22635 "ls4.ml" 571 22611 22637
+)
+"ls4.ml" 575 22778 22797 "ls4.ml" 575 22778 22800
+type(
+  (unit, Format.formatter, unit) format
+)
+"ls4.ml" 575 22778 22786 "ls4.ml" 575 22778 22800
+type(
+  unit
+)
+"ls4.ml" 575 22778 22802 "ls4.ml" 575 22778 22806
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 575 22778 22802 "ls4.ml" 575 22778 22811
+type(
+  Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit
+)
+"ls4.ml" 575 22778 22812 "ls4.ml" 575 22778 22816
+type(
+  Format.formatter Expr.Visit.scx
+)
+ident(
+  int_ref scxp "ls4.ml" 571 22611 22633 "ls4.ml" 571 22611 22651
+)
+"ls4.ml" 575 22778 22817 "ls4.ml" 575 22778 22818
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "ls4.ml" 574 22761 22769 "ls4.ml" 574 22761 22770
+)
+"ls4.ml" 575 22778 22802 "ls4.ml" 575 22778 22818
+type(
+  unit
+)
+"ls4.ml" 575 22778 22820 "ls4.ml" 575 22778 22827
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"ls4.ml" 575 22778 22828 "ls4.ml" 575 22778 22830
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "ls4.ml" 571 22611 22635 "ls4.ml" 571 22611 22637
+)
+"ls4.ml" 575 22778 22831 "ls4.ml" 575 22778 22835
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"ls4.ml" 575 22778 22836 "ls4.ml" 575 22778 22839
+type(
+  string
+)
+ident(
+  int_ref rep "ls4.ml" 571 22611 22652 "ls4.ml" 571 22611 22655
+)
+"ls4.ml" 575 22778 22820 "ls4.ml" 575 22778 22839
+type(
+  unit
+)
+"ls4.ml" 576 22841 22849 "ls4.ml" 576 22841 22853
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  ext_ref self-1
+)
+"ls4.ml" 576 22841 22849 "ls4.ml" 576 22841 22864
+type(
+  Format.formatter * Expr.T.ctx -> string -> Expr.T.expr list -> unit
+)
+"ls4.ml" 576 22841 22865 "ls4.ml" 576 22841 22869
+type(
+  Format.formatter * Expr.T.ctx
+)
+ident(
+  int_ref scxp "ls4.ml" 571 22611 22633 "ls4.ml" 571 22611 22651
+)
+"ls4.ml" 576 22841 22870 "ls4.ml" 576 22841 22873
+type(
+  string
+)
+ident(
+  int_ref rep "ls4.ml" 571 22611 22652 "ls4.ml" 571 22611 22655
+)
+"ls4.ml" 576 22841 22874 "ls4.ml" 576 22841 22876
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "ls4.ml" 574 22761 22772 "ls4.ml" 574 22761 22774
+)
+"ls4.ml" 576 22841 22849 "ls4.ml" 576 22841 22876
+type(
+  unit
+)
+"ls4.ml" 576 22841 22878 "ls4.ml" 576 22841 22885
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"ls4.ml" 576 22841 22886 "ls4.ml" 576 22841 22888
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "ls4.ml" 571 22611 22635 "ls4.ml" 571 22611 22637
+)
+"ls4.ml" 576 22841 22889 "ls4.ml" 576 22841 22892
+type(
+  (unit, Format.formatter, unit) format
+)
+"ls4.ml" 576 22841 22878 "ls4.ml" 576 22841 22892
+type(
+  unit
+)
+"ls4.ml" 576 22841 22849 "ls4.ml" 576 22841 22892
+type(
+  unit
+)
+"ls4.ml" 575 22778 22820 "ls4.ml" 576 22841 22892
+type(
+  unit
+)
+"ls4.ml" 575 22778 22802 "ls4.ml" 576 22841 22892
+type(
+  unit
+)
+"ls4.ml" 575 22778 22786 "ls4.ml" 576 22841 22892
+type(
+  unit
+)
+"ls4.ml" 571 22611 22658 "ls4.ml" 576 22841 22892
+type(
+  Expr.T.expr list -> unit
+)
+"ls4.ml" 471 18282 18296 "ls4.ml" 577 22893 22896
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+"ls4.ml" 579 22898 22902 "ls4.ml" 579 22898 22921
+type(
+  Format.formatter -> Proof.T.obligation -> unit
+)
+ident(
+  def pp_print_obligation "ls4.ml" 582 23005 23067 "ls4.ml" 0 0 -1
+)
+"ls4.ml" 579 22898 22922 "ls4.ml" 579 22898 22924
+type(
+  Format.formatter
+)
+ident(
+  def ff "ls4.ml" 579 22898 22925 "ls4.ml" 582 23005 23067
+)
+"ls4.ml" 579 22898 22925 "ls4.ml" 579 22898 22927
+type(
+  Proof.T.obligation
+)
+ident(
+  def ob "ls4.ml" 581 22981 22983 "ls4.ml" 582 23005 23067
+)
+"ls4.ml" 581 22981 22983 "ls4.ml" 581 22981 22990
+type(
+  Format.formatter ->
+  ((Format.formatter -> Expr.T.expr -> unit) -> Expr.T.expr -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Expr.T.expr -> unit) -> Expr.T.expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"ls4.ml" 581 22981 22991 "ls4.ml" 581 22981 22993
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "ls4.ml" 579 22898 22922 "ls4.ml" 579 22898 22924
+)
+"ls4.ml" 581 22981 22994 "ls4.ml" 581 22981 23004
+type(
+  ((Format.formatter -> Expr.T.expr -> unit) -> Expr.T.expr -> unit,
+   Format.formatter, unit)
+  format
+)
+"ls4.ml" 582 23005 23008 "ls4.ml" 582 23005 23015
+type(
+  < bound : Format.formatter Expr.Visit.scx ->
+            Expr.T.bound -> Format.formatter Expr.Visit.scx;
+    bounds : Format.formatter Expr.Visit.scx ->
+             Expr.T.bounds -> Format.formatter Expr.Visit.scx;
+    defn : Format.formatter Expr.Visit.scx ->
+           Expr.T.defn -> Format.formatter Expr.Visit.scx;
+    defns : Format.formatter Expr.Visit.scx ->
+            Expr.T.defn list -> Format.formatter Expr.Visit.scx;
+    expr : Format.formatter Expr.Visit.scx -> Expr.T.expr -> unit;
+    exspec : Format.formatter Expr.Visit.scx -> Expr.T.exspec -> unit;
+    hyp : Format.formatter Expr.Visit.scx ->
+          Expr.T.hyp -> Format.formatter Expr.Visit.scx;
+    hyps : Format.formatter Expr.Visit.scx ->
+           Expr.T.hyp Deque.dq -> Format.formatter Expr.Visit.scx;
+    instance : Format.formatter Expr.Visit.scx -> Expr.T.instance -> unit;
+    myhyp : Format.formatter * Expr.T.hyp Deque.dq ->
+            Expr.T.hyp -> bool -> bool * Format.formatter Expr.Visit.scx;
+    myhyps : Format.formatter Expr.Visit.scx ->
+             Expr.T.hyp Deque.dq -> bool -> Format.formatter Expr.Visit.scx;
+    p_atom : Format.formatter -> string -> unit;
+    p_binary : Format.formatter * Expr.T.ctx ->
+               string -> Expr.T.expr -> Expr.T.expr -> unit;
+    p_unary : Format.formatter * Expr.T.ctx -> string -> Expr.T.expr -> unit;
+    pform : Format.formatter Expr.Visit.scx -> Expr.T.pform -> unit;
+    print : Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit;
+    sel : Format.formatter Expr.Visit.scx -> Expr.T.sel -> unit;
+    sequent : Format.formatter Expr.Visit.scx ->
+              Expr.T.sequent -> Format.formatter Expr.Visit.scx;
+    write_list : Format.formatter * Expr.T.ctx ->
+                 string -> Expr.T.expr list -> unit >
+)
+ident(
+  int_ref visitor "ls4.ml" 471 18282 18286 "ls4.ml" 471 18282 18293
+)
+"ls4.ml" 582 23005 23008 "ls4.ml" 582 23005 23021
+type(
+  Expr.T.ctx -> Format.formatter -> Expr.T.expr -> unit
+)
+"ls4.ml" 582 23005 23022 "ls4.ml" 582 23005 23033
+type(
+  Expr.T.ctx
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"ls4.ml" 582 23005 23007 "ls4.ml" 582 23005 23034
+type(
+  Format.formatter -> Expr.T.expr -> unit
+)
+"ls4.ml" 582 23005 23037 "ls4.ml" 582 23005 23044
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref Property.noprops "property.mli" 92 3086 3086 "property.mli" 92 3086 3116
+)
+"ls4.ml" 582 23005 23054 "ls4.ml" 582 23005 23056
+type(
+  Proof.T.obligation
+)
+ident(
+  int_ref ob "ls4.ml" 579 22898 22925 "ls4.ml" 579 22898 22927
+)
+"ls4.ml" 582 23005 23054 "ls4.ml" 582 23005 23060
+type(
+  Expr.T.sequent Property.wrapped
+)
+"ls4.ml" 582 23005 23054 "ls4.ml" 582 23005 23065
+type(
+  Expr.T.sequent
+)
+"ls4.ml" 582 23005 23045 "ls4.ml" 582 23005 23066
+type(
+  Expr.T.expr_
+)
+"ls4.ml" 582 23005 23036 "ls4.ml" 582 23005 23067
+type(
+  Expr.T.expr
+)
+"ls4.ml" 581 22981 22983 "ls4.ml" 582 23005 23067
+type(
+  unit
+)

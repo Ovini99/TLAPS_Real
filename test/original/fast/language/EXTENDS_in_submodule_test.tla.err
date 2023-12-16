@@ -1,0 +1,21 @@
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:0
+@!!END
+
+File "/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library/TLAPS.tla", line 1, character 1 to line 363, character 77:
+[INFO]: All 0 obligation proved.
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:0
+@!!END
+
+File "./EXTENDS_in_submodule_test.tla", line 1, character 1 to line 12, character 42:
+[INFO]: All 0 obligation proved.
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:0
+@!!END
+
+File "./EXTENDS_in_submodule_test.tla", line 7, character 1 to line 10, character 22:
+[INFO]: All 0 obligation proved.

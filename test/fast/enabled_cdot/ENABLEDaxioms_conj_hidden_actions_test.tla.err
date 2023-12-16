@@ -1,0 +1,67 @@
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:0
+@!!END
+
+File "/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library/TLAPS.tla", line 1, character 1 to line 363, character 77:
+[INFO]: All 0 obligation proved.
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:17:1:17:3
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:17:4:17:17
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:2
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:17:1:17:3
+@!!status:failed
+@!!prover:enabledaxioms
+@!!meth:time-limit: inf
+@!!reason:ENABLEDaxioms proof directive did not succeed.
+
+@!!already:false
+@!!obl:ENABLEDaxioms proof directive did not succeed.
+
+Obligation:
+
+ASSUME NEW VARIABLE x,
+       NEW VARIABLE y,
+       TRUE 
+PROVE  ENABLED (A /\ B) <=> ENABLED A /\ ENABLED B
+
+@!!END
+
+Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:17:4:17:17
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+File "./ENABLEDaxioms_conj_hidden_actions_test.tla", line 17, characters 1-2:
+[ERROR]: Could not prove or check:
+           ASSUME NEW VARIABLE x,
+                  NEW VARIABLE y,
+                  ENABLEDaxioms 
+           PROVE  ENABLED (A /\ B) <=> ENABLED A /\ ENABLED B
+File "./ENABLEDaxioms_conj_hidden_actions_test.tla", line 1, character 1 to line 19, character 80:
+[ERROR]: 1/2 obligations failed.
+There were backend errors processing module `"ENABLEDaxioms_conj_hidden_actions_test"`.

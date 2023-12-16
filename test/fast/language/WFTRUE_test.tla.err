@@ -1,0 +1,64 @@
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:10:1:10:8
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:1
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:10:1:10:8
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+(WF_(TRUE) (TRUE)) <=> (WF_(TRUE) (TRUE))
+
+@!!END
+
+Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:10:1:10:8
+@!!status:failed
+@!!prover:zenon
+@!!meth:time-limit: 50
+@!!reason:Zenon: unsupported operator Fair
+@!!already:false
+@!!obl:
+(WF_(TRUE) (TRUE)) <=> (WF_(TRUE) (TRUE))
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:10:1:10:8
+@!!status:failed
+@!!prover:isabelle
+@!!meth:auto; time-limit: 150
+@!!reason:Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+
+@!!already:false
+@!!obl:
+(WF_(TRUE) (TRUE)) <=> (WF_(TRUE) (TRUE))
+
+@!!END
+
+File "./WFTRUE_test.tla", line 10, characters 1-7:
+[ERROR]: Could not prove or check:
+           (WF_(TRUE) (TRUE)) <=> (WF_(TRUE) (TRUE))
+File "./WFTRUE_test.tla", line 1, character 1 to line 12, character 29:
+[ERROR]: 1/1 obligation failed.
+There were backend errors processing module `"WFTRUE_test"`.

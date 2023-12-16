@@ -1,0 +1,40 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:14:23 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp NestedENABLED_from_AutoUSE_test.tla --stretch 5
+
+(* created new ".tlacache/TLAPS.tlaps/TLAPS.thy" *)
+(* fingerprints written in ".tlacache/TLAPS.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/NestedENABLED_from_AutoUSE_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+File "./NestedENABLED_from_AutoUSE_test.tla", line 60, character 14:
+[INFO]: Auto-expanding the definition of operator:  J
+
+File "./NestedENABLED_from_AutoUSE_test.tla", line 18, character 20:
+[INFO]: Auto-expanding the definition of operator:  I
+
+File "./NestedENABLED_from_AutoUSE_test.tla", line 17, character 20:
+[INFO]: Auto-expanding the definition of operator:  H
+
+File "./NestedENABLED_from_AutoUSE_test.tla", line 16, character 20:
+[INFO]: Auto-expanding the definition of operator:  G
+
+File "./NestedENABLED_from_AutoUSE_test.tla", line 15, character 20:
+[INFO]: Auto-expanding the definition of operator:  F
+
+File "./NestedENABLED_from_AutoUSE_test.tla", line 14, character 20:
+[INFO]: Auto-expanding the definition of operator:  E
+
+File "./NestedENABLED_from_AutoUSE_test.tla", line 13, character 20:
+[INFO]: Auto-expanding the definition of operator:  D
+
+File "./NestedENABLED_from_AutoUSE_test.tla", line 12, character 20:
+[INFO]: Auto-expanding the definition of operator:  C
+
+File "./NestedENABLED_from_AutoUSE_test.tla", line 11, character 20:
+[INFO]: Auto-expanding the definition of operator:  B
+
+File "./NestedENABLED_from_AutoUSE_test.tla", line 10, character 20:
+[INFO]: Auto-expanding the definition of operator:  A
+
+(* created new ".tlacache/NestedENABLED_from_AutoUSE_test.tlaps/NestedENABLED_from_AutoUSE_test.thy" *)
+(* fingerprints written in ".tlacache/NestedENABLED_from_AutoUSE_test.tlaps/fingerprints" *)

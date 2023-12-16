@@ -1,0 +1,410 @@
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:0
+@!!END
+
+File "/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library/TLAPS.tla", line 1, character 1 to line 363, character 77:
+[INFO]: All 0 obligation proved.
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:112:5:112:7
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:112:8:112:21
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:2
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:112:5:112:7
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!reason:Trying to Boolify a non Boolean operator.
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT c,
+       NEW VARIABLE x,
+       NEW VARIABLE y,
+       TRUE 
+PROVE  \E y#enabled#prime1, x#enabled#prime1 :
+          /\ IF x THEN x#enabled#prime1 ELSE c
+          /\ 1 + 2
+          /\ {r \in {1, 2} : TRUE}
+          /\ {r \in {1, 2} : c}
+          /\ {r \in {1, 2} : x}
+          /\ {r \in {1, 2} : x#enabled#prime1}
+          /\ {r \in {1, 2} : r + 1}
+          /\ {r \in {1, 2} : r + x}
+          /\ {r \in {1, 2} : r + x#enabled#prime1}
+          /\ {r \in x : TRUE}
+          /\ {r \in x#enabled#prime1 : TRUE}
+          /\ {f(g) : g \in x}
+          /\ {f(g) : g \in x#enabled#prime1}
+          /\ {h(z, w) : z \in x, w \in x#enabled#prime1}
+          /\ {1, 2, 3}
+          /\ {c, 1}
+          /\ {c, x}
+          /\ {x, 1}
+          /\ {x, x#enabled#prime1}
+          /\ {x#enabled#prime1, 1}
+          /\ {c, x#enabled#prime1}
+          /\ {c, x, x#enabled#prime1}
+          /\ <<1, 2, 3>>
+          /\ <<c, 1, 2>>
+          /\ <<x, 1, 2>>
+          /\ <<x, 1, c>>
+          /\ <<x, x#enabled#prime1, c>>
+          /\ 1[1]
+          /\ c[1]
+          /\ x[1]
+          /\ x[c]
+          /\ x[x#enabled#prime1]
+          /\ x#enabled#prime1[x]
+          /\ [c EXCEPT ![1] = 2]
+          /\ [c EXCEPT ![x] = 2]
+          /\ [c EXCEPT ![x#enabled#prime1] = 2]
+          /\ [c EXCEPT ![1] = x]
+          /\ [c EXCEPT ![1] = x#enabled#prime1]
+          /\ [x EXCEPT ![1] = 2]
+          /\ [x EXCEPT ![c] = 2]
+          /\ [x EXCEPT ![x] = 2]
+          /\ [x EXCEPT ![x#enabled#prime1] = 2]
+          /\ [x EXCEPT ![1] = c]
+          /\ [x EXCEPT ![1] = x]
+          /\ [x EXCEPT ![1] = x#enabled#prime1]
+          /\ [x#enabled#prime1 EXCEPT ![1] = 2]
+          /\ [x#enabled#prime1 EXCEPT ![c] = 2]
+          /\ [x#enabled#prime1 EXCEPT ![x] = 2]
+          /\ [x#enabled#prime1 EXCEPT ![x#enabled#prime1] = 2]
+          /\ [x#enabled#prime1 EXCEPT ![1] = c]
+          /\ [x#enabled#prime1 EXCEPT ![1] = x]
+          /\ [x#enabled#prime1 EXCEPT ![1] = x#enabled#prime1]
+          /\ \E r : r
+          /\ \E r \in {1} : r
+          /\ \E r, w : r /\ w
+          /\ \E r \in {1}, w \in {1} : r /\ w
+          /\ \E r \in {1}, w \in {2} : r /\ w
+          /\ \E r, w \in {1} : r /\ w
+          /\ \E r \in {1, 2} : r
+          /\ \E r \in x : r
+          /\ \E r \in x#enabled#prime1 : r
+          /\ \E r : c
+          /\ \E r : x
+          /\ \E r : x#enabled#prime1
+          /\ \E r, w : x#enabled#prime1
+          /\ CHOOSE r : r = 1
+          /\ \E r#0 : c
+          /\ \E r#0 : x
+          /\ \E r#0 : x + 1
+          /\ \E x#enabled#prime2 : x#enabled#prime2
+          /\ \E x#enabled#prime2 : x + x#enabled#prime2
+          /\ x#enabled#prime1 = x + 1 \/ x#enabled#prime1 = x
+          /\ x#enabled#prime1 = x + 1 /\ ~x#enabled#prime1 = x
+          /\ x#enabled#prime1 = x
+          /\ /\ x#enabled#prime1 = x
+             /\ y#enabled#prime1 = y
+          /\ TRUE
+
+@!!END
+
+Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:112:5:112:7
+@!!status:failed
+@!!prover:zenon
+@!!meth:time-limit: 50
+@!!reason:Zenon: unsupported operator Setof (multiple declared constants)
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT c,
+       NEW VARIABLE x,
+       NEW VARIABLE y,
+       TRUE 
+PROVE  \E y#enabled#prime1, x#enabled#prime1 :
+          /\ IF x THEN x#enabled#prime1 ELSE c
+          /\ 1 + 2
+          /\ {r \in {1, 2} : TRUE}
+          /\ {r \in {1, 2} : c}
+          /\ {r \in {1, 2} : x}
+          /\ {r \in {1, 2} : x#enabled#prime1}
+          /\ {r \in {1, 2} : r + 1}
+          /\ {r \in {1, 2} : r + x}
+          /\ {r \in {1, 2} : r + x#enabled#prime1}
+          /\ {r \in x : TRUE}
+          /\ {r \in x#enabled#prime1 : TRUE}
+          /\ {f(g) : g \in x}
+          /\ {f(g) : g \in x#enabled#prime1}
+          /\ {h(z, w) : z \in x, w \in x#enabled#prime1}
+          /\ {1, 2, 3}
+          /\ {c, 1}
+          /\ {c, x}
+          /\ {x, 1}
+          /\ {x, x#enabled#prime1}
+          /\ {x#enabled#prime1, 1}
+          /\ {c, x#enabled#prime1}
+          /\ {c, x, x#enabled#prime1}
+          /\ <<1, 2, 3>>
+          /\ <<c, 1, 2>>
+          /\ <<x, 1, 2>>
+          /\ <<x, 1, c>>
+          /\ <<x, x#enabled#prime1, c>>
+          /\ 1[1]
+          /\ c[1]
+          /\ x[1]
+          /\ x[c]
+          /\ x[x#enabled#prime1]
+          /\ x#enabled#prime1[x]
+          /\ [c EXCEPT ![1] = 2]
+          /\ [c EXCEPT ![x] = 2]
+          /\ [c EXCEPT ![x#enabled#prime1] = 2]
+          /\ [c EXCEPT ![1] = x]
+          /\ [c EXCEPT ![1] = x#enabled#prime1]
+          /\ [x EXCEPT ![1] = 2]
+          /\ [x EXCEPT ![c] = 2]
+          /\ [x EXCEPT ![x] = 2]
+          /\ [x EXCEPT ![x#enabled#prime1] = 2]
+          /\ [x EXCEPT ![1] = c]
+          /\ [x EXCEPT ![1] = x]
+          /\ [x EXCEPT ![1] = x#enabled#prime1]
+          /\ [x#enabled#prime1 EXCEPT ![1] = 2]
+          /\ [x#enabled#prime1 EXCEPT ![c] = 2]
+          /\ [x#enabled#prime1 EXCEPT ![x] = 2]
+          /\ [x#enabled#prime1 EXCEPT ![x#enabled#prime1] = 2]
+          /\ [x#enabled#prime1 EXCEPT ![1] = c]
+          /\ [x#enabled#prime1 EXCEPT ![1] = x]
+          /\ [x#enabled#prime1 EXCEPT ![1] = x#enabled#prime1]
+          /\ \E r : r
+          /\ \E r \in {1} : r
+          /\ \E r, w : r /\ w
+          /\ \E r \in {1}, w \in {1} : r /\ w
+          /\ \E r \in {1}, w \in {2} : r /\ w
+          /\ \E r, w \in {1} : r /\ w
+          /\ \E r \in {1, 2} : r
+          /\ \E r \in x : r
+          /\ \E r \in x#enabled#prime1 : r
+          /\ \E r : c
+          /\ \E r : x
+          /\ \E r : x#enabled#prime1
+          /\ \E r, w : x#enabled#prime1
+          /\ CHOOSE r : r = 1
+          /\ \E r#0 : c
+          /\ \E r#0 : x
+          /\ \E r#0 : x + 1
+          /\ \E x#enabled#prime2 : x#enabled#prime2
+          /\ \E x#enabled#prime2 : x + x#enabled#prime2
+          /\ x#enabled#prime1 = x + 1 \/ x#enabled#prime1 = x
+          /\ x#enabled#prime1 = x + 1 /\ ~x#enabled#prime1 = x
+          /\ x#enabled#prime1 = x
+          /\ /\ x#enabled#prime1 = x
+             /\ y#enabled#prime1 = y
+          /\ TRUE
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:112:5:112:7
+@!!status:failed
+@!!prover:isabelle
+@!!meth:auto; time-limit: 150
+@!!reason:isabelle : unsupported operator SetOf (multiple declared constants)
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT c,
+       NEW VARIABLE x,
+       NEW VARIABLE y,
+       TRUE 
+PROVE  \E y#enabled#prime1, x#enabled#prime1 :
+          /\ IF x THEN x#enabled#prime1 ELSE c
+          /\ 1 + 2
+          /\ {r \in {1, 2} : TRUE}
+          /\ {r \in {1, 2} : c}
+          /\ {r \in {1, 2} : x}
+          /\ {r \in {1, 2} : x#enabled#prime1}
+          /\ {r \in {1, 2} : r + 1}
+          /\ {r \in {1, 2} : r + x}
+          /\ {r \in {1, 2} : r + x#enabled#prime1}
+          /\ {r \in x : TRUE}
+          /\ {r \in x#enabled#prime1 : TRUE}
+          /\ {f(g) : g \in x}
+          /\ {f(g) : g \in x#enabled#prime1}
+          /\ {h(z, w) : z \in x, w \in x#enabled#prime1}
+          /\ {1, 2, 3}
+          /\ {c, 1}
+          /\ {c, x}
+          /\ {x, 1}
+          /\ {x, x#enabled#prime1}
+          /\ {x#enabled#prime1, 1}
+          /\ {c, x#enabled#prime1}
+          /\ {c, x, x#enabled#prime1}
+          /\ <<1, 2, 3>>
+          /\ <<c, 1, 2>>
+          /\ <<x, 1, 2>>
+          /\ <<x, 1, c>>
+          /\ <<x, x#enabled#prime1, c>>
+          /\ 1[1]
+          /\ c[1]
+          /\ x[1]
+          /\ x[c]
+          /\ x[x#enabled#prime1]
+          /\ x#enabled#prime1[x]
+          /\ [c EXCEPT ![1] = 2]
+          /\ [c EXCEPT ![x] = 2]
+          /\ [c EXCEPT ![x#enabled#prime1] = 2]
+          /\ [c EXCEPT ![1] = x]
+          /\ [c EXCEPT ![1] = x#enabled#prime1]
+          /\ [x EXCEPT ![1] = 2]
+          /\ [x EXCEPT ![c] = 2]
+          /\ [x EXCEPT ![x] = 2]
+          /\ [x EXCEPT ![x#enabled#prime1] = 2]
+          /\ [x EXCEPT ![1] = c]
+          /\ [x EXCEPT ![1] = x]
+          /\ [x EXCEPT ![1] = x#enabled#prime1]
+          /\ [x#enabled#prime1 EXCEPT ![1] = 2]
+          /\ [x#enabled#prime1 EXCEPT ![c] = 2]
+          /\ [x#enabled#prime1 EXCEPT ![x] = 2]
+          /\ [x#enabled#prime1 EXCEPT ![x#enabled#prime1] = 2]
+          /\ [x#enabled#prime1 EXCEPT ![1] = c]
+          /\ [x#enabled#prime1 EXCEPT ![1] = x]
+          /\ [x#enabled#prime1 EXCEPT ![1] = x#enabled#prime1]
+          /\ \E r : r
+          /\ \E r \in {1} : r
+          /\ \E r, w : r /\ w
+          /\ \E r \in {1}, w \in {1} : r /\ w
+          /\ \E r \in {1}, w \in {2} : r /\ w
+          /\ \E r, w \in {1} : r /\ w
+          /\ \E r \in {1, 2} : r
+          /\ \E r \in x : r
+          /\ \E r \in x#enabled#prime1 : r
+          /\ \E r : c
+          /\ \E r : x
+          /\ \E r : x#enabled#prime1
+          /\ \E r, w : x#enabled#prime1
+          /\ CHOOSE r : r = 1
+          /\ \E r#0 : c
+          /\ \E r#0 : x
+          /\ \E r#0 : x + 1
+          /\ \E x#enabled#prime2 : x#enabled#prime2
+          /\ \E x#enabled#prime2 : x + x#enabled#prime2
+          /\ x#enabled#prime1 = x + 1 \/ x#enabled#prime1 = x
+          /\ x#enabled#prime1 = x + 1 /\ ~x#enabled#prime1 = x
+          /\ x#enabled#prime1 = x
+          /\ /\ x#enabled#prime1 = x
+             /\ y#enabled#prime1 = y
+          /\ TRUE
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:112:8:112:21
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+File "./Level_test.tla", line 112, characters 5-6:
+[ERROR]: Could not prove or check:
+           ASSUME NEW CONSTANT c,
+                  NEW VARIABLE x,
+                  NEW VARIABLE y,
+                  Q ==
+                    /\ IF x THEN x' ELSE c
+                    /\ 1 + 2
+                    /\ {r \in {1, 2} : TRUE}
+                    /\ {r \in {1, 2} : c}
+                    /\ {r \in {1, 2} : x}
+                    /\ {r \in {1, 2} : x'}
+                    /\ {r \in {1, 2} : r + 1}
+                    /\ {r \in {1, 2} : r + x}
+                    /\ {r \in {1, 2} : r + x'}
+                    /\ {r \in x : TRUE}
+                    /\ {r \in x' : TRUE}
+                    /\ {f(g) : g \in x}
+                    /\ {f(g) : g \in x'}
+                    /\ {h(z, w) : z \in x, w \in x'}
+                    /\ {1, 2, 3}
+                    /\ {c, 1}
+                    /\ {c, x}
+                    /\ {x, 1}
+                    /\ {x, x'}
+                    /\ {x', 1}
+                    /\ {c, x'}
+                    /\ {c, x, x'}
+                    /\ <<1, 2, 3>>
+                    /\ <<c, 1, 2>>
+                    /\ <<x, 1, 2>>
+                    /\ <<x, 1, c>>
+                    /\ <<x, x', c>>
+                    /\ 1[1]
+                    /\ c[1]
+                    /\ x[1]
+                    /\ x[c]
+                    /\ x[x']
+                    /\ (x')[x]
+                    /\ [c EXCEPT ![1] = 2]
+                    /\ [c EXCEPT ![x] = 2]
+                    /\ [c EXCEPT ![x'] = 2]
+                    /\ [c EXCEPT ![1] = x]
+                    /\ [c EXCEPT ![1] = x']
+                    /\ [x EXCEPT ![1] = 2]
+                    /\ [x EXCEPT ![c] = 2]
+                    /\ [x EXCEPT ![x] = 2]
+                    /\ [x EXCEPT ![x'] = 2]
+                    /\ [x EXCEPT ![1] = c]
+                    /\ [x EXCEPT ![1] = x]
+                    /\ [x EXCEPT ![1] = x']
+                    /\ [x' EXCEPT ![1] = 2]
+                    /\ [x' EXCEPT ![c] = 2]
+                    /\ [x' EXCEPT ![x] = 2]
+                    /\ [x' EXCEPT ![x'] = 2]
+                    /\ [x' EXCEPT ![1] = c]
+                    /\ [x' EXCEPT ![1] = x]
+                    /\ [x' EXCEPT ![1] = x']
+                    /\ \E r : r
+                    /\ \E r \in {1} : r
+                    /\ \E r, w : r /\ w
+                    /\ \E r \in {1}, w \in {1} : r /\ w
+                    /\ \E r \in {1}, w \in {2} : r /\ w
+                    /\ \E r, w \in {1} : r /\ w
+                    /\ \E r \in {1, 2} : r
+                    /\ \E r \in x : r
+                    /\ \E r \in x' : r
+                    /\ \E r : c
+                    /\ \E r : x
+                    /\ \E r : x'
+                    /\ \E r, w : x'
+                    /\ CHOOSE r : r = 1
+                    /\ ENABLED c
+                    /\ ENABLED x
+                    /\ ENABLED (x + 1)
+                    /\ ENABLED (x')
+                    /\ ENABLED (x + x')
+                    /\ [x' = x + 1]_x
+                    /\ <<x' = x + 1>>_x
+                    /\ UNCHANGED x
+                    /\ UNCHANGED <<x, y>>
+                    /\ LET R(w) == TRUE
+                       IN  R(TRUE),
+                  ExpandENABLED 
+           PROVE  ENABLED Q
+File "./Level_test.tla", line 1, character 1 to line 114, character 80:
+[ERROR]: 1/2 obligations failed.
+There were backend errors processing module `"Level_test"`.

@@ -1,0 +1,39 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:30:37 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp zero_in_one_test.tla --stretch 1
+
+(* created new ".tlacache/TLAPS.tlaps/TLAPS.thy" *)
+(* fingerprints written in ".tlacache/TLAPS.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/zero_in_one_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+COMMAND-LINE ARGUMENT
+file=.tlacache/zero_in_one_test.tlaps/tlapm_79ba1e.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/zero_in_one_test.tlaps/tlapm_79ba1e.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #1
+;;   generated from file "./zero_in_one_test.tla", line 13, characters 5-11
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+(assert
+  (forall ((S_6 u) (T_7 u))
+  (=> (forall ((X_3 u)) (= (tla__in X_3 S_6) (tla__in X_3 T_7))) (= S_6 T_7))))
+
+;; Theorem to be Proved
+(assert (not (tla__in (int2u 0) (int2u 1))))
+
+(check-sat)
+(exit)
+
+Zenon error: exhausted search space without finding a proof
+(* created new ".tlacache/zero_in_one_test.tlaps/zero_in_one_test.thy" *)
+(* fingerprints written in ".tlacache/zero_in_one_test.tlaps/fingerprints" *)

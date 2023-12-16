@@ -1,0 +1,3039 @@
+"ctx.ml" 10 137 141 "ctx.ml" 10 137 156
+type(
+  ident -> string
+)
+ident(
+  def string_of_ident "ctx.ml" 14 243 243 "ctx.ml" 0 0 -1
+)
+"ctx.ml" 10 137 157 "ctx.ml" 10 137 159
+type(
+  ident
+)
+ident(
+  def id "ctx.ml" 10 137 162 "ctx.ml" 12 197 241
+)
+"ctx.ml" 10 137 168 "ctx.ml" 10 137 170
+type(
+  ident
+)
+ident(
+  int_ref id "ctx.ml" 10 137 157 "ctx.ml" 10 137 159
+)
+"ctx.ml" 10 137 168 "ctx.ml" 10 137 175
+type(
+  int
+)
+"ctx.ml" 11 181 185 "ctx.ml" 11 181 186
+type(
+  int
+)
+type(
+  int
+)
+"ctx.ml" 11 181 190 "ctx.ml" 11 181 192
+type(
+  ident
+)
+ident(
+  int_ref id "ctx.ml" 10 137 157 "ctx.ml" 10 137 159
+)
+"ctx.ml" 11 181 190 "ctx.ml" 11 181 196
+type(
+  string
+)
+"ctx.ml" 12 197 201 "ctx.ml" 12 197 202
+type(
+  int
+)
+type(
+  int
+)
+"ctx.ml" 12 197 206 "ctx.ml" 12 197 208
+type(
+  ident
+)
+ident(
+  int_ref id "ctx.ml" 10 137 157 "ctx.ml" 10 137 159
+)
+"ctx.ml" 12 197 206 "ctx.ml" 12 197 212
+type(
+  string
+)
+"ctx.ml" 12 197 213 "ctx.ml" 12 197 214
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"ctx.ml" 12 197 215 "ctx.ml" 12 197 218
+type(
+  string
+)
+"ctx.ml" 12 197 218 "ctx.ml" 12 197 219
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"ctx.ml" 12 197 220 "ctx.ml" 12 197 233
+type(
+  int -> string
+)
+ident(
+  int_ref Stdlib.string_of_int "stdlib.mli" 750 27897 27897 "stdlib.mli" 750 27897 27930
+)
+"ctx.ml" 12 197 234 "ctx.ml" 12 197 236
+type(
+  ident
+)
+ident(
+  int_ref id "ctx.ml" 10 137 157 "ctx.ml" 10 137 159
+)
+"ctx.ml" 12 197 234 "ctx.ml" 12 197 241
+type(
+  int
+)
+"ctx.ml" 12 197 220 "ctx.ml" 12 197 241
+type(
+  string
+)
+"ctx.ml" 12 197 215 "ctx.ml" 12 197 241
+type(
+  string
+)
+"ctx.ml" 12 197 206 "ctx.ml" 12 197 241
+type(
+  string
+)
+"ctx.ml" 10 137 162 "ctx.ml" 12 197 241
+type(
+  string
+)
+"ctx.ml" 14 243 250 "ctx.ml" 14 243 254
+ident(
+  def EMap "ctx.ml" 19 408 411 "ctx.ml" 0 0 -1
+)
+"ctx.ml" 15 288 297 "ctx.ml" 15 288 307
+ident(
+  def Underlying "ctx.ml" 15 288 324 "ctx.ml" 19 408 411
+)
+"ctx.ml" 17 346 352 "ctx.ml" 17 346 362
+type(
+  key -> 'a t -> 'a option
+)
+ident(
+  def maybe_find "ctx.ml" 18 369 407 "ctx.ml" 19 408 411
+)
+"ctx.ml" 17 346 363 "ctx.ml" 17 346 364
+type(
+  key
+)
+ident(
+  def x "ctx.ml" 17 346 365 "ctx.ml" 18 369 407
+)
+"ctx.ml" 17 346 365 "ctx.ml" 17 346 366
+type(
+  'a t
+)
+ident(
+  def m "ctx.ml" 18 369 373 "ctx.ml" 18 369 407
+)
+"ctx.ml" 18 369 383 "ctx.ml" 18 369 387
+type(
+  key -> 'a t -> 'a
+)
+ident(
+  int_ref find "map.mli" 278 11157 11161 "map.mli" 278 11157 11188
+)
+"ctx.ml" 18 369 388 "ctx.ml" 18 369 389
+type(
+  key
+)
+ident(
+  int_ref x "ctx.ml" 17 346 363 "ctx.ml" 17 346 364
+)
+"ctx.ml" 18 369 390 "ctx.ml" 18 369 391
+type(
+  'a t
+)
+ident(
+  int_ref m "ctx.ml" 17 346 365 "ctx.ml" 17 346 366
+)
+"ctx.ml" 18 369 382 "ctx.ml" 18 369 392
+type(
+  'a
+)
+"ctx.ml" 18 369 377 "ctx.ml" 18 369 392
+type(
+  'a option
+)
+"ctx.ml" 18 369 398 "ctx.ml" 18 369 399
+type(
+  exn
+)
+"ctx.ml" 18 369 403 "ctx.ml" 18 369 407
+type(
+  'a option
+)
+"ctx.ml" 18 369 373 "ctx.ml" 18 369 407
+type(
+  'a option
+)
+"ctx.ml" 21 413 420 "ctx.ml" 21 413 421
+ident(
+  def M "ctx.ml" 21 413 437 "ctx.ml" 0 0 -1
+)
+"ctx.ml" 22 438 445 "ctx.ml" 22 438 447
+ident(
+  def IM "ctx.ml" 25 547 569 "ctx.ml" 0 0 -1
+)
+"ctx.ml" 24 498 522 "ctx.ml" 24 498 529
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "ctx.ml" 24 498 546 "ctx.ml" 25 547 568
+)
+"ctx.ml" 24 498 532 "ctx.ml" 24 498 546
+type(
+  'a -> 'a -> int
+)
+ident(
+  int_ref Stdlib.compare "stdlib.mli" 162 6792 6792 "stdlib.mli" 162 6792 6839
+)
+"ctx.ml" 34 701 705 "ctx.ml" 34 701 708
+type(
+  'a ctx
+)
+ident(
+  def dot "ctx.ml" 39 815 815 "ctx.ml" 0 0 -1
+)
+"ctx.ml" 34 701 722 "ctx.ml" 34 701 724
+type(
+  (ident * 'a option) list
+)
+"ctx.ml" 35 727 748 "ctx.ml" 35 727 755
+type(
+  ident M.t
+)
+ident(
+  int_ref M.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"ctx.ml" 36 758 779 "ctx.ml" 36 758 786
+type(
+  ('a option * int) M.t
+)
+ident(
+  int_ref M.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"ctx.ml" 37 789 810 "ctx.ml" 37 789 811
+type(
+  int
+)
+"ctx.ml" 34 701 711 "ctx.ml" 37 789 813
+type(
+  'a ctx
+)
+"ctx.ml" 39 815 819 "ctx.ml" 39 815 825
+type(
+  'a ctx -> int
+)
+ident(
+  def length "ctx.ml" 41 842 842 "ctx.ml" 0 0 -1
+)
+"ctx.ml" 39 815 826 "ctx.ml" 39 815 828
+type(
+  'a ctx
+)
+ident(
+  def cx "ctx.ml" 39 815 831 "ctx.ml" 39 815 840
+)
+"ctx.ml" 39 815 831 "ctx.ml" 39 815 833
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 39 815 826 "ctx.ml" 39 815 828
+)
+"ctx.ml" 39 815 831 "ctx.ml" 39 815 840
+type(
+  int
+)
+"ctx.ml" 41 842 846 "ctx.ml" 41 842 851
+type(
+  'a ctx -> int -> (ident -> 'a -> 'a) -> 'a ctx
+)
+ident(
+  def alter "ctx.ml" 52 1240 1240 "ctx.ml" 0 0 -1
+)
+"ctx.ml" 41 842 852 "ctx.ml" 41 842 854
+type(
+  'a ctx
+)
+ident(
+  def cx "ctx.ml" 41 842 855 "ctx.ml" 50 1207 1238
+)
+"ctx.ml" 41 842 855 "ctx.ml" 41 842 856
+type(
+  int
+)
+ident(
+  def n "ctx.ml" 41 842 857 "ctx.ml" 50 1207 1238
+)
+"ctx.ml" 41 842 857 "ctx.ml" 41 842 860
+type(
+  ident -> 'a -> 'a
+)
+ident(
+  def how "ctx.ml" 42 863 865 "ctx.ml" 50 1207 1238
+)
+"ctx.ml" 42 863 868 "ctx.ml" 42 863 869
+type(
+  int
+)
+ident(
+  int_ref n "ctx.ml" 41 842 855 "ctx.ml" 41 842 856
+)
+"ctx.ml" 42 863 870 "ctx.ml" 42 863 872
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( <= ) "stdlib.mli" 145 6033 6033 "stdlib.mli" 145 6033 6082
+)
+"ctx.ml" 42 863 873 "ctx.ml" 42 863 874
+type(
+  int
+)
+"ctx.ml" 42 863 868 "ctx.ml" 42 863 874
+type(
+  bool
+)
+"ctx.ml" 42 863 875 "ctx.ml" 42 863 877
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 227 9492 9492 "stdlib.mli" 227 9492 9542
+)
+"ctx.ml" 42 863 878 "ctx.ml" 42 863 879
+type(
+  int
+)
+ident(
+  int_ref n "ctx.ml" 41 842 855 "ctx.ml" 41 842 856
+)
+"ctx.ml" 42 863 880 "ctx.ml" 42 863 881
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 140 5875 5875 "stdlib.mli" 140 5875 5925
+)
+"ctx.ml" 42 863 882 "ctx.ml" 42 863 884
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 41 842 852 "ctx.ml" 41 842 854
+)
+"ctx.ml" 42 863 882 "ctx.ml" 42 863 891
+type(
+  int
+)
+"ctx.ml" 42 863 878 "ctx.ml" 42 863 891
+type(
+  bool
+)
+"ctx.ml" 42 863 868 "ctx.ml" 42 863 891
+type(
+  bool
+)
+"ctx.ml" 42 863 897 "ctx.ml" 42 863 908
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.invalid_arg "stdlib.mli" 38 1822 1822 "stdlib.mli" 38 1822 1852
+)
+"ctx.ml" 42 863 909 "ctx.ml" 42 863 920
+type(
+  string
+)
+"ctx.ml" 42 863 897 "ctx.ml" 42 863 920
+type(
+  unit
+)
+"ctx.ml" 42 863 865 "ctx.ml" 42 863 920
+type(
+  unit
+)
+"ctx.ml" 43 923 930 "ctx.ml" 43 923 935
+type(
+  (ident * 'a option) list
+)
+ident(
+  def backs "ctx.ml" 44 983 985 "ctx.ml" 50 1207 1238
+)
+"ctx.ml" 43 923 937 "ctx.ml" 43 923 943
+type(
+  (ident * 'a option) list
+)
+ident(
+  def fronts "ctx.ml" 44 983 985 "ctx.ml" 50 1207 1238
+)
+"ctx.ml" 43 923 929 "ctx.ml" 43 923 944
+type(
+  (ident * 'a option) list * (ident * 'a option) list
+)
+"ctx.ml" 43 923 947 "ctx.ml" 43 923 961
+type(
+  int ->
+  (ident * 'a option) list ->
+  (ident * 'a option) list * (ident * 'a option) list
+)
+ident(
+  int_ref Ext.List.split_nth "ext.mli" 56 2549 2551 "ext.mli" 56 2549 2602
+)
+"ctx.ml" 43 923 963 "ctx.ml" 43 923 964
+type(
+  int
+)
+ident(
+  int_ref n "ctx.ml" 41 842 855 "ctx.ml" 41 842 856
+)
+"ctx.ml" 43 923 965 "ctx.ml" 43 923 966
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"ctx.ml" 43 923 967 "ctx.ml" 43 923 968
+type(
+  int
+)
+"ctx.ml" 43 923 962 "ctx.ml" 43 923 969
+type(
+  int
+)
+"ctx.ml" 43 923 970 "ctx.ml" 43 923 972
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 41 842 852 "ctx.ml" 41 842 854
+)
+"ctx.ml" 43 923 970 "ctx.ml" 43 923 979
+type(
+  (ident * 'a option) list
+)
+"ctx.ml" 43 923 947 "ctx.ml" 43 923 979
+type(
+  (ident * 'a option) list * (ident * 'a option) list
+)
+"ctx.ml" 44 983 991 "ctx.ml" 44 983 997
+type(
+  (ident * 'a option) list
+)
+ident(
+  int_ref fronts "ctx.ml" 43 923 937 "ctx.ml" 43 923 943
+)
+"ctx.ml" 45 1003 1010 "ctx.ml" 45 1003 1012
+type(
+  ident
+)
+ident(
+  def id "ctx.ml" 46 1035 1043 "ctx.ml" 49 1137 1206
+)
+"ctx.ml" 45 1003 1019 "ctx.ml" 45 1003 1020
+type(
+  'a
+)
+ident(
+  def x "ctx.ml" 46 1035 1043 "ctx.ml" 49 1137 1206
+)
+"ctx.ml" 45 1003 1014 "ctx.ml" 45 1003 1020
+type(
+  'a option
+)
+"ctx.ml" 45 1003 1009 "ctx.ml" 45 1003 1021
+type(
+  ident * 'a option
+)
+"ctx.ml" 45 1003 1025 "ctx.ml" 45 1003 1031
+type(
+  (ident * 'a option) list
+)
+ident(
+  def fronts "ctx.ml" 46 1035 1043 "ctx.ml" 49 1137 1206
+)
+"ctx.ml" 45 1003 1009 "ctx.ml" 45 1003 1031
+type(
+  (ident * 'a option) list
+)
+type(
+  (ident * 'a option) list
+)
+"ctx.ml" 46 1035 1047 "ctx.ml" 46 1035 1048
+type(
+  'a
+)
+ident(
+  def x "ctx.ml" 47 1063 1071 "ctx.ml" 49 1137 1206
+)
+"ctx.ml" 46 1035 1051 "ctx.ml" 46 1035 1054
+type(
+  ident -> 'a -> 'a
+)
+ident(
+  int_ref how "ctx.ml" 41 842 857 "ctx.ml" 41 842 860
+)
+"ctx.ml" 46 1035 1055 "ctx.ml" 46 1035 1057
+type(
+  ident
+)
+ident(
+  int_ref id "ctx.ml" 45 1003 1010 "ctx.ml" 45 1003 1012
+)
+"ctx.ml" 46 1035 1058 "ctx.ml" 46 1035 1059
+type(
+  'a
+)
+ident(
+  int_ref x "ctx.ml" 45 1003 1019 "ctx.ml" 45 1003 1020
+)
+"ctx.ml" 46 1035 1051 "ctx.ml" 46 1035 1059
+type(
+  'a
+)
+"ctx.ml" 47 1063 1073 "ctx.ml" 47 1063 1075
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 41 842 852 "ctx.ml" 41 842 854
+)
+"ctx.ml" 48 1081 1102 "ctx.ml" 48 1081 1107
+type(
+  (ident * 'a option) list
+)
+ident(
+  int_ref backs "ctx.ml" 43 923 930 "ctx.ml" 43 923 935
+)
+"ctx.ml" 48 1081 1108 "ctx.ml" 48 1081 1109
+type(
+  (ident * 'a option) list ->
+  (ident * 'a option) list -> (ident * 'a option) list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"ctx.ml" 48 1081 1112 "ctx.ml" 48 1081 1114
+type(
+  ident
+)
+ident(
+  int_ref id "ctx.ml" 45 1003 1010 "ctx.ml" 45 1003 1012
+)
+"ctx.ml" 48 1081 1121 "ctx.ml" 48 1081 1122
+type(
+  'a
+)
+ident(
+  int_ref x "ctx.ml" 46 1035 1047 "ctx.ml" 46 1035 1048
+)
+"ctx.ml" 48 1081 1116 "ctx.ml" 48 1081 1122
+type(
+  'a option
+)
+"ctx.ml" 48 1081 1111 "ctx.ml" 48 1081 1123
+type(
+  ident * 'a option
+)
+"ctx.ml" 48 1081 1127 "ctx.ml" 48 1081 1133
+type(
+  (ident * 'a option) list
+)
+ident(
+  int_ref fronts "ctx.ml" 45 1003 1025 "ctx.ml" 45 1003 1031
+)
+"ctx.ml" 48 1081 1110 "ctx.ml" 48 1081 1134
+type(
+  (ident * 'a option) list
+)
+"ctx.ml" 48 1081 1102 "ctx.ml" 48 1081 1134
+type(
+  (ident * 'a option) list
+)
+"ctx.ml" 49 1137 1157 "ctx.ml" 49 1137 1162
+type(
+  M.key -> 'a option * int -> ('a option * int) M.t -> ('a option * int) M.t
+)
+ident(
+  int_ref M.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"ctx.ml" 49 1137 1164 "ctx.ml" 49 1137 1179
+type(
+  ident -> M.key
+)
+ident(
+  int_ref string_of_ident "ctx.ml" 10 137 141 "ctx.ml" 10 137 156
+)
+"ctx.ml" 49 1137 1180 "ctx.ml" 49 1137 1182
+type(
+  ident
+)
+ident(
+  int_ref id "ctx.ml" 45 1003 1010 "ctx.ml" 45 1003 1012
+)
+"ctx.ml" 49 1137 1163 "ctx.ml" 49 1137 1183
+type(
+  M.key
+)
+"ctx.ml" 49 1137 1190 "ctx.ml" 49 1137 1191
+type(
+  'a
+)
+ident(
+  int_ref x "ctx.ml" 46 1035 1047 "ctx.ml" 46 1035 1048
+)
+"ctx.ml" 49 1137 1185 "ctx.ml" 49 1137 1191
+type(
+  'a option
+)
+"ctx.ml" 49 1137 1193 "ctx.ml" 49 1137 1194
+type(
+  int
+)
+ident(
+  int_ref n "ctx.ml" 41 842 855 "ctx.ml" 41 842 856
+)
+"ctx.ml" 49 1137 1184 "ctx.ml" 49 1137 1195
+type(
+  'a option * int
+)
+"ctx.ml" 49 1137 1196 "ctx.ml" 49 1137 1198
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 41 842 852 "ctx.ml" 41 842 854
+)
+"ctx.ml" 49 1137 1196 "ctx.ml" 49 1137 1204
+type(
+  ('a option * int) M.t
+)
+"ctx.ml" 49 1137 1157 "ctx.ml" 49 1137 1204
+type(
+  ('a option * int) M.t
+)
+"ctx.ml" 47 1063 1071 "ctx.ml" 49 1137 1206
+type(
+  'a ctx
+)
+"ctx.ml" 46 1035 1043 "ctx.ml" 49 1137 1206
+type(
+  'a ctx
+)
+"ctx.ml" 50 1207 1213 "ctx.ml" 50 1207 1214
+type(
+  (ident * 'a option) list
+)
+type(
+  (ident * 'a option) list
+)
+"ctx.ml" 50 1207 1218 "ctx.ml" 50 1207 1226
+type(
+  string -> 'a ctx
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"ctx.ml" 50 1207 1227 "ctx.ml" 50 1207 1238
+type(
+  string
+)
+"ctx.ml" 50 1207 1218 "ctx.ml" 50 1207 1238
+type(
+  'a ctx
+)
+"ctx.ml" 44 983 985 "ctx.ml" 50 1207 1238
+type(
+  'a ctx
+)
+"ctx.ml" 43 923 925 "ctx.ml" 50 1207 1238
+type(
+  'a ctx
+)
+"ctx.ml" 42 863 865 "ctx.ml" 50 1207 1238
+type(
+  'a ctx
+)
+"ctx.ml" 52 1240 1244 "ctx.ml" 52 1240 1247
+type(
+  'a ctx -> (int -> 'a -> 'b) -> 'b ctx
+)
+ident(
+  def map "ctx.ml" 63 1558 1558 "ctx.ml" 0 0 -1
+)
+"ctx.ml" 52 1240 1248 "ctx.ml" 52 1240 1250
+type(
+  'a ctx
+)
+ident(
+  def cx "ctx.ml" 52 1240 1251 "ctx.ml" 61 1518 1556
+)
+"ctx.ml" 52 1240 1251 "ctx.ml" 52 1240 1253
+type(
+  int -> 'a -> 'b
+)
+ident(
+  def fn "ctx.ml" 53 1256 1258 "ctx.ml" 61 1518 1556
+)
+"ctx.ml" 53 1256 1262 "ctx.ml" 53 1256 1264
+type(
+  (ident * 'b option) list
+)
+ident(
+  def lr "ctx.ml" 57 1399 1401 "ctx.ml" 61 1518 1556
+)
+"ctx.ml" 53 1256 1267 "ctx.ml" 53 1256 1276
+type(
+  (int -> ident * 'a option -> ident * 'b option) ->
+  (ident * 'a option) list -> (ident * 'b option) list
+)
+ident(
+  int_ref Ext.List.mapi "ext.mli" 51 2272 2274 "ext.mli" 51 2272 2324
+)
+"ctx.ml" 53 1256 1287 "ctx.ml" 53 1256 1288
+type(
+  int
+)
+ident(
+  def n "ctx.ml" 53 1256 1292 "ctx.ml" 55 1332 1379
+)
+"ctx.ml" 54 1301 1308 "ctx.ml" 54 1301 1310
+type(
+  ident
+)
+ident(
+  def id "ctx.ml" 54 1301 1321 "ctx.ml" 54 1301 1331
+)
+"ctx.ml" 54 1301 1312 "ctx.ml" 54 1301 1316
+type(
+  'a option
+)
+"ctx.ml" 54 1301 1307 "ctx.ml" 54 1301 1317
+type(
+  ident * 'a option
+)
+"ctx.ml" 54 1301 1322 "ctx.ml" 54 1301 1324
+type(
+  ident
+)
+ident(
+  int_ref id "ctx.ml" 54 1301 1308 "ctx.ml" 54 1301 1310
+)
+"ctx.ml" 54 1301 1326 "ctx.ml" 54 1301 1330
+type(
+  'b option
+)
+"ctx.ml" 54 1301 1321 "ctx.ml" 54 1301 1331
+type(
+  ident * 'b option
+)
+"ctx.ml" 55 1332 1339 "ctx.ml" 55 1332 1341
+type(
+  ident
+)
+ident(
+  def id "ctx.ml" 55 1332 1354 "ctx.ml" 55 1332 1379
+)
+"ctx.ml" 55 1332 1348 "ctx.ml" 55 1332 1349
+type(
+  'a
+)
+ident(
+  def x "ctx.ml" 55 1332 1354 "ctx.ml" 55 1332 1379
+)
+"ctx.ml" 55 1332 1343 "ctx.ml" 55 1332 1349
+type(
+  'a option
+)
+"ctx.ml" 55 1332 1338 "ctx.ml" 55 1332 1350
+type(
+  ident * 'a option
+)
+"ctx.ml" 55 1332 1355 "ctx.ml" 55 1332 1357
+type(
+  ident
+)
+ident(
+  int_ref id "ctx.ml" 55 1332 1339 "ctx.ml" 55 1332 1341
+)
+"ctx.ml" 55 1332 1365 "ctx.ml" 55 1332 1367
+type(
+  int -> 'a -> 'b
+)
+ident(
+  int_ref fn "ctx.ml" 52 1240 1251 "ctx.ml" 52 1240 1253
+)
+"ctx.ml" 55 1332 1369 "ctx.ml" 55 1332 1370
+type(
+  int
+)
+ident(
+  int_ref n "ctx.ml" 53 1256 1287 "ctx.ml" 53 1256 1288
+)
+"ctx.ml" 55 1332 1371 "ctx.ml" 55 1332 1372
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"ctx.ml" 55 1332 1373 "ctx.ml" 55 1332 1374
+type(
+  int
+)
+"ctx.ml" 55 1332 1368 "ctx.ml" 55 1332 1375
+type(
+  int
+)
+"ctx.ml" 55 1332 1376 "ctx.ml" 55 1332 1377
+type(
+  'a
+)
+ident(
+  int_ref x "ctx.ml" 55 1332 1348 "ctx.ml" 55 1332 1349
+)
+"ctx.ml" 55 1332 1364 "ctx.ml" 55 1332 1378
+type(
+  'b
+)
+"ctx.ml" 55 1332 1359 "ctx.ml" 55 1332 1378
+type(
+  'b option
+)
+"ctx.ml" 55 1332 1354 "ctx.ml" 55 1332 1379
+type(
+  ident * 'b option
+)
+"ctx.ml" 53 1256 1292 "ctx.ml" 55 1332 1379
+type(
+  ident * 'a option -> ident * 'b option
+)
+"ctx.ml" 53 1256 1277 "ctx.ml" 56 1380 1385
+type(
+  int -> ident * 'a option -> ident * 'b option
+)
+"ctx.ml" 56 1380 1386 "ctx.ml" 56 1380 1388
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 52 1240 1248 "ctx.ml" 52 1240 1250
+)
+"ctx.ml" 56 1380 1386 "ctx.ml" 56 1380 1395
+type(
+  (ident * 'a option) list
+)
+"ctx.ml" 53 1256 1267 "ctx.ml" 56 1380 1395
+type(
+  (ident * 'b option) list
+)
+"ctx.ml" 57 1399 1405 "ctx.ml" 57 1399 1407
+type(
+  ('b option * int) M.t
+)
+ident(
+  def ds "ctx.ml" 61 1518 1520 "ctx.ml" 61 1518 1556
+)
+"ctx.ml" 57 1399 1410 "ctx.ml" 57 1399 1415
+type(
+  ('a option * int -> 'b option * int) ->
+  ('a option * int) M.t -> ('b option * int) M.t
+)
+ident(
+  int_ref M.map "map.mli" 323 12975 12979 "map.mli" 323 12975 13014
+)
+"ctx.ml" 58 1431 1438 "ctx.ml" 58 1431 1442
+type(
+  'a option
+)
+"ctx.ml" 58 1431 1444 "ctx.ml" 58 1431 1445
+type(
+  int
+)
+ident(
+  def n "ctx.ml" 58 1431 1450 "ctx.ml" 58 1431 1459
+)
+"ctx.ml" 58 1431 1437 "ctx.ml" 58 1431 1446
+type(
+  'a option * int
+)
+"ctx.ml" 58 1431 1451 "ctx.ml" 58 1431 1455
+type(
+  'b option
+)
+"ctx.ml" 58 1431 1457 "ctx.ml" 58 1431 1458
+type(
+  int
+)
+ident(
+  int_ref n "ctx.ml" 58 1431 1444 "ctx.ml" 58 1431 1445
+)
+"ctx.ml" 58 1431 1450 "ctx.ml" 58 1431 1459
+type(
+  'b option * int
+)
+"ctx.ml" 59 1460 1472 "ctx.ml" 59 1460 1473
+type(
+  'a
+)
+ident(
+  def x "ctx.ml" 59 1460 1481 "ctx.ml" 59 1460 1499
+)
+"ctx.ml" 59 1460 1467 "ctx.ml" 59 1460 1473
+type(
+  'a option
+)
+"ctx.ml" 59 1460 1475 "ctx.ml" 59 1460 1476
+type(
+  int
+)
+ident(
+  def n "ctx.ml" 59 1460 1481 "ctx.ml" 59 1460 1499
+)
+"ctx.ml" 59 1460 1466 "ctx.ml" 59 1460 1477
+type(
+  'a option * int
+)
+"ctx.ml" 59 1460 1488 "ctx.ml" 59 1460 1490
+type(
+  int -> 'a -> 'b
+)
+ident(
+  int_ref fn "ctx.ml" 52 1240 1251 "ctx.ml" 52 1240 1253
+)
+"ctx.ml" 59 1460 1491 "ctx.ml" 59 1460 1492
+type(
+  int
+)
+ident(
+  int_ref n "ctx.ml" 59 1460 1475 "ctx.ml" 59 1460 1476
+)
+"ctx.ml" 59 1460 1493 "ctx.ml" 59 1460 1494
+type(
+  'a
+)
+ident(
+  int_ref x "ctx.ml" 59 1460 1472 "ctx.ml" 59 1460 1473
+)
+"ctx.ml" 59 1460 1487 "ctx.ml" 59 1460 1495
+type(
+  'b
+)
+"ctx.ml" 59 1460 1482 "ctx.ml" 59 1460 1495
+type(
+  'b option
+)
+"ctx.ml" 59 1460 1497 "ctx.ml" 59 1460 1498
+type(
+  int
+)
+ident(
+  int_ref n "ctx.ml" 59 1460 1475 "ctx.ml" 59 1460 1476
+)
+"ctx.ml" 59 1460 1481 "ctx.ml" 59 1460 1499
+type(
+  'b option * int
+)
+"ctx.ml" 57 1399 1416 "ctx.ml" 60 1500 1505
+type(
+  'a option * int -> 'b option * int
+)
+"ctx.ml" 60 1500 1506 "ctx.ml" 60 1500 1508
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 52 1240 1248 "ctx.ml" 52 1240 1250
+)
+"ctx.ml" 60 1500 1506 "ctx.ml" 60 1500 1514
+type(
+  ('a option * int) M.t
+)
+"ctx.ml" 57 1399 1410 "ctx.ml" 60 1500 1514
+type(
+  ('b option * int) M.t
+)
+"ctx.ml" 61 1518 1522 "ctx.ml" 61 1518 1524
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 52 1240 1248 "ctx.ml" 52 1240 1250
+)
+"ctx.ml" 61 1518 1539 "ctx.ml" 61 1518 1541
+type(
+  (ident * 'b option) list
+)
+ident(
+  int_ref lr "ctx.ml" 53 1256 1262 "ctx.ml" 53 1256 1264
+)
+"ctx.ml" 61 1518 1552 "ctx.ml" 61 1518 1554
+type(
+  ('b option * int) M.t
+)
+ident(
+  int_ref ds "ctx.ml" 57 1399 1405 "ctx.ml" 57 1399 1407
+)
+"ctx.ml" 61 1518 1520 "ctx.ml" 61 1518 1556
+type(
+  'b ctx
+)
+"ctx.ml" 57 1399 1401 "ctx.ml" 61 1518 1556
+type(
+  'b ctx
+)
+"ctx.ml" 53 1256 1258 "ctx.ml" 61 1518 1556
+type(
+  'b ctx
+)
+"ctx.ml" 63 1558 1562 "ctx.ml" 63 1558 1565
+type(
+  M.key -> 'a ctx -> bool
+)
+ident(
+  def mem "ctx.ml" 65 1600 1600 "ctx.ml" 0 0 -1
+)
+"ctx.ml" 63 1558 1566 "ctx.ml" 63 1558 1571
+type(
+  M.key
+)
+ident(
+  def ident "ctx.ml" 63 1558 1572 "ctx.ml" 63 1558 1598
+)
+"ctx.ml" 63 1558 1572 "ctx.ml" 63 1558 1574
+type(
+  'a ctx
+)
+ident(
+  def cx "ctx.ml" 63 1558 1577 "ctx.ml" 63 1558 1598
+)
+"ctx.ml" 63 1558 1577 "ctx.ml" 63 1558 1582
+type(
+  M.key -> ident M.t -> bool
+)
+ident(
+  int_ref M.mem "map.mli" 79 3076 3080 "map.mli" 79 3076 3108
+)
+"ctx.ml" 63 1558 1583 "ctx.ml" 63 1558 1588
+type(
+  M.key
+)
+ident(
+  int_ref ident "ctx.ml" 63 1558 1566 "ctx.ml" 63 1558 1571
+)
+"ctx.ml" 63 1558 1589 "ctx.ml" 63 1558 1591
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 63 1558 1572 "ctx.ml" 63 1558 1574
+)
+"ctx.ml" 63 1558 1589 "ctx.ml" 63 1558 1598
+type(
+  ident M.t
+)
+"ctx.ml" 63 1558 1577 "ctx.ml" 63 1558 1598
+type(
+  bool
+)
+"ctx.ml" 65 1600 1604 "ctx.ml" 65 1600 1613
+type(
+  'a ctx -> M.key -> 'a option -> 'a ctx
+)
+ident(
+  def maybe_adj "ctx.ml" 83 2115 2115 "ctx.ml" 0 0 -1
+)
+"ctx.ml" 65 1600 1614 "ctx.ml" 65 1600 1616
+type(
+  'a ctx
+)
+ident(
+  def cx "ctx.ml" 65 1600 1617 "ctx.ml" 81 2083 2113
+)
+"ctx.ml" 65 1600 1617 "ctx.ml" 65 1600 1618
+type(
+  M.key
+)
+ident(
+  def v "ctx.ml" 65 1600 1619 "ctx.ml" 81 2083 2113
+)
+"ctx.ml" 65 1600 1619 "ctx.ml" 65 1600 1620
+type(
+  'a option
+)
+ident(
+  def a "ctx.ml" 66 1623 1625 "ctx.ml" 81 2083 2113
+)
+"ctx.ml" 66 1623 1633 "ctx.ml" 66 1623 1640
+type(
+  ident -> ident
+)
+ident(
+  def find_id "ctx.ml" 66 1623 1625 "ctx.ml" 81 2083 2113
+)
+"ctx.ml" 66 1623 1641 "ctx.ml" 66 1623 1644
+type(
+  ident
+)
+ident(
+  def cur "ctx.ml" 67 1647 1651 "ctx.ml" 69 1743 1755
+)
+"ctx.ml" 67 1647 1654 "ctx.ml" 67 1647 1659
+type(
+  M.key -> ('a option * int) M.t -> bool
+)
+ident(
+  int_ref M.mem "map.mli" 79 3076 3080 "map.mli" 79 3076 3108
+)
+"ctx.ml" 67 1647 1661 "ctx.ml" 67 1647 1676
+type(
+  ident -> M.key
+)
+ident(
+  int_ref string_of_ident "ctx.ml" 10 137 141 "ctx.ml" 10 137 156
+)
+"ctx.ml" 67 1647 1677 "ctx.ml" 67 1647 1680
+type(
+  ident
+)
+ident(
+  int_ref cur "ctx.ml" 66 1623 1641 "ctx.ml" 66 1623 1644
+)
+"ctx.ml" 67 1647 1660 "ctx.ml" 67 1647 1681
+type(
+  M.key
+)
+"ctx.ml" 67 1647 1682 "ctx.ml" 67 1647 1684
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 65 1600 1614 "ctx.ml" 65 1600 1616
+)
+"ctx.ml" 67 1647 1682 "ctx.ml" 67 1647 1690
+type(
+  ('a option * int) M.t
+)
+"ctx.ml" 67 1647 1654 "ctx.ml" 67 1647 1690
+type(
+  bool
+)
+"ctx.ml" 68 1696 1702 "ctx.ml" 68 1696 1709
+type(
+  ident -> ident
+)
+ident(
+  int_ref find_id "ctx.ml" 66 1623 1633 "ctx.ml" 66 1623 1640
+)
+"ctx.ml" 68 1696 1712 "ctx.ml" 68 1696 1715
+type(
+  ident
+)
+ident(
+  int_ref cur "ctx.ml" 66 1623 1641 "ctx.ml" 66 1623 1644
+)
+"ctx.ml" 68 1696 1728 "ctx.ml" 68 1696 1731
+type(
+  ident
+)
+ident(
+  int_ref cur "ctx.ml" 66 1623 1641 "ctx.ml" 66 1623 1644
+)
+"ctx.ml" 68 1696 1728 "ctx.ml" 68 1696 1736
+type(
+  int
+)
+"ctx.ml" 68 1696 1737 "ctx.ml" 68 1696 1738
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"ctx.ml" 68 1696 1739 "ctx.ml" 68 1696 1740
+type(
+  int
+)
+"ctx.ml" 68 1696 1728 "ctx.ml" 68 1696 1740
+type(
+  int
+)
+"ctx.ml" 68 1696 1710 "ctx.ml" 68 1696 1742
+type(
+  ident
+)
+"ctx.ml" 68 1696 1702 "ctx.ml" 68 1696 1742
+type(
+  ident
+)
+"ctx.ml" 69 1743 1752 "ctx.ml" 69 1743 1755
+type(
+  ident
+)
+ident(
+  int_ref cur "ctx.ml" 66 1623 1641 "ctx.ml" 66 1623 1644
+)
+"ctx.ml" 67 1647 1651 "ctx.ml" 69 1743 1755
+type(
+  ident
+)
+"ctx.ml" 71 1761 1767 "ctx.ml" 71 1761 1769
+type(
+  ident
+)
+ident(
+  def id "ctx.ml" 77 1914 1916 "ctx.ml" 81 2083 2113
+)
+"ctx.ml" 71 1761 1778 "ctx.ml" 71 1761 1790
+type(
+  M.key -> ident M.t -> ident option
+)
+ident(
+  int_ref M.maybe_find "ctx.ml" 17 346 352 "ctx.ml" 17 346 362
+)
+"ctx.ml" 71 1761 1791 "ctx.ml" 71 1761 1792
+type(
+  M.key
+)
+ident(
+  int_ref v "ctx.ml" 65 1600 1617 "ctx.ml" 65 1600 1618
+)
+"ctx.ml" 71 1761 1793 "ctx.ml" 71 1761 1795
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 65 1600 1614 "ctx.ml" 65 1600 1616
+)
+"ctx.ml" 71 1761 1793 "ctx.ml" 71 1761 1802
+type(
+  ident M.t
+)
+"ctx.ml" 71 1761 1778 "ctx.ml" 71 1761 1802
+type(
+  ident option
+)
+"ctx.ml" 72 1808 1814 "ctx.ml" 72 1808 1818
+type(
+  ident option
+)
+type(
+  ident option
+)
+"ctx.ml" 73 1822 1839 "ctx.ml" 73 1822 1840
+type(
+  int
+)
+"ctx.ml" 73 1822 1849 "ctx.ml" 73 1822 1850
+type(
+  M.key
+)
+ident(
+  int_ref v "ctx.ml" 65 1600 1617 "ctx.ml" 65 1600 1618
+)
+"ctx.ml" 73 1822 1830 "ctx.ml" 73 1822 1852
+type(
+  ident
+)
+"ctx.ml" 74 1853 1864 "ctx.ml" 74 1853 1866
+type(
+  ident
+)
+ident(
+  def id "ctx.ml" 75 1870 1878 "ctx.ml" 75 1870 1908
+)
+"ctx.ml" 74 1853 1859 "ctx.ml" 74 1853 1866
+type(
+  ident option
+)
+type(
+  ident option
+)
+"ctx.ml" 75 1870 1880 "ctx.ml" 75 1870 1882
+type(
+  ident
+)
+ident(
+  int_ref id "ctx.ml" 74 1853 1864 "ctx.ml" 74 1853 1866
+)
+"ctx.ml" 75 1870 1895 "ctx.ml" 75 1870 1897
+type(
+  ident
+)
+ident(
+  int_ref id "ctx.ml" 74 1853 1864 "ctx.ml" 74 1853 1866
+)
+"ctx.ml" 75 1870 1895 "ctx.ml" 75 1870 1902
+type(
+  int
+)
+"ctx.ml" 75 1870 1903 "ctx.ml" 75 1870 1904
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"ctx.ml" 75 1870 1905 "ctx.ml" 75 1870 1906
+type(
+  int
+)
+"ctx.ml" 75 1870 1895 "ctx.ml" 75 1870 1906
+type(
+  int
+)
+"ctx.ml" 75 1870 1878 "ctx.ml" 75 1870 1908
+type(
+  ident
+)
+"ctx.ml" 71 1761 1772 "ctx.ml" 75 1870 1908
+type(
+  ident
+)
+"ctx.ml" 77 1914 1920 "ctx.ml" 77 1914 1922
+type(
+  ident
+)
+ident(
+  def id "ctx.ml" 78 1939 1943 "ctx.ml" 81 2083 2113
+)
+"ctx.ml" 77 1914 1925 "ctx.ml" 77 1914 1932
+type(
+  ident -> ident
+)
+ident(
+  int_ref find_id "ctx.ml" 66 1623 1633 "ctx.ml" 66 1623 1640
+)
+"ctx.ml" 77 1914 1933 "ctx.ml" 77 1914 1935
+type(
+  ident
+)
+ident(
+  int_ref id "ctx.ml" 71 1761 1767 "ctx.ml" 71 1761 1769
+)
+"ctx.ml" 77 1914 1925 "ctx.ml" 77 1914 1935
+type(
+  ident
+)
+"ctx.ml" 78 1939 1955 "ctx.ml" 78 1939 1957
+type(
+  ident
+)
+ident(
+  int_ref id "ctx.ml" 77 1914 1920 "ctx.ml" 77 1914 1922
+)
+"ctx.ml" 78 1939 1959 "ctx.ml" 78 1939 1960
+type(
+  'a option
+)
+ident(
+  int_ref a "ctx.ml" 65 1600 1619 "ctx.ml" 65 1600 1620
+)
+"ctx.ml" 78 1939 1954 "ctx.ml" 78 1939 1961
+type(
+  ident * 'a option
+)
+"ctx.ml" 78 1939 1965 "ctx.ml" 78 1939 1967
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 65 1600 1614 "ctx.ml" 65 1600 1616
+)
+"ctx.ml" 78 1939 1965 "ctx.ml" 78 1939 1974
+type(
+  (ident * 'a option) list
+)
+"ctx.ml" 78 1939 1954 "ctx.ml" 78 1939 1974
+type(
+  (ident * 'a option) list
+)
+"ctx.ml" 79 1977 1992 "ctx.ml" 79 1977 1997
+type(
+  M.key -> ident -> ident M.t -> ident M.t
+)
+ident(
+  int_ref M.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"ctx.ml" 79 1977 1998 "ctx.ml" 79 1977 1999
+type(
+  M.key
+)
+ident(
+  int_ref v "ctx.ml" 65 1600 1617 "ctx.ml" 65 1600 1618
+)
+"ctx.ml" 79 1977 2000 "ctx.ml" 79 1977 2002
+type(
+  ident
+)
+ident(
+  int_ref id "ctx.ml" 77 1914 1920 "ctx.ml" 77 1914 1922
+)
+"ctx.ml" 79 1977 2003 "ctx.ml" 79 1977 2005
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 65 1600 1614 "ctx.ml" 65 1600 1616
+)
+"ctx.ml" 79 1977 2003 "ctx.ml" 79 1977 2012
+type(
+  ident M.t
+)
+"ctx.ml" 79 1977 1992 "ctx.ml" 79 1977 2012
+type(
+  ident M.t
+)
+"ctx.ml" 80 2015 2030 "ctx.ml" 80 2015 2035
+type(
+  M.key -> 'a option * int -> ('a option * int) M.t -> ('a option * int) M.t
+)
+ident(
+  int_ref M.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"ctx.ml" 80 2015 2037 "ctx.ml" 80 2015 2052
+type(
+  ident -> M.key
+)
+ident(
+  int_ref string_of_ident "ctx.ml" 10 137 141 "ctx.ml" 10 137 156
+)
+"ctx.ml" 80 2015 2053 "ctx.ml" 80 2015 2055
+type(
+  ident
+)
+ident(
+  int_ref id "ctx.ml" 77 1914 1920 "ctx.ml" 77 1914 1922
+)
+"ctx.ml" 80 2015 2036 "ctx.ml" 80 2015 2056
+type(
+  M.key
+)
+"ctx.ml" 80 2015 2058 "ctx.ml" 80 2015 2059
+type(
+  'a option
+)
+ident(
+  int_ref a "ctx.ml" 65 1600 1619 "ctx.ml" 65 1600 1620
+)
+"ctx.ml" 80 2015 2061 "ctx.ml" 80 2015 2063
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 65 1600 1614 "ctx.ml" 65 1600 1616
+)
+"ctx.ml" 80 2015 2061 "ctx.ml" 80 2015 2070
+type(
+  int
+)
+"ctx.ml" 80 2015 2057 "ctx.ml" 80 2015 2071
+type(
+  'a option * int
+)
+"ctx.ml" 80 2015 2072 "ctx.ml" 80 2015 2074
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 65 1600 1614 "ctx.ml" 65 1600 1616
+)
+"ctx.ml" 80 2015 2072 "ctx.ml" 80 2015 2080
+type(
+  ('a option * int) M.t
+)
+"ctx.ml" 80 2015 2030 "ctx.ml" 80 2015 2080
+type(
+  ('a option * int) M.t
+)
+"ctx.ml" 81 2083 2098 "ctx.ml" 81 2083 2100
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 65 1600 1614 "ctx.ml" 65 1600 1616
+)
+"ctx.ml" 81 2083 2098 "ctx.ml" 81 2083 2107
+type(
+  int
+)
+"ctx.ml" 81 2083 2108 "ctx.ml" 81 2083 2109
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"ctx.ml" 81 2083 2110 "ctx.ml" 81 2083 2111
+type(
+  int
+)
+"ctx.ml" 81 2083 2098 "ctx.ml" 81 2083 2111
+type(
+  int
+)
+"ctx.ml" 78 1939 1943 "ctx.ml" 81 2083 2113
+type(
+  'a ctx
+)
+"ctx.ml" 77 1914 1916 "ctx.ml" 81 2083 2113
+type(
+  'a ctx
+)
+"ctx.ml" 71 1761 1763 "ctx.ml" 81 2083 2113
+type(
+  'a ctx
+)
+"ctx.ml" 66 1623 1625 "ctx.ml" 81 2083 2113
+type(
+  'a ctx
+)
+"ctx.ml" 83 2115 2119 "ctx.ml" 83 2115 2122
+type(
+  'a ctx -> M.key -> 'a -> 'a ctx
+)
+ident(
+  def adj "ctx.ml" 85 2157 2157 "ctx.ml" 0 0 -1
+)
+"ctx.ml" 83 2115 2123 "ctx.ml" 83 2115 2125
+type(
+  'a ctx
+)
+ident(
+  def cx "ctx.ml" 83 2115 2126 "ctx.ml" 83 2115 2155
+)
+"ctx.ml" 83 2115 2126 "ctx.ml" 83 2115 2127
+type(
+  M.key
+)
+ident(
+  def v "ctx.ml" 83 2115 2128 "ctx.ml" 83 2115 2155
+)
+"ctx.ml" 83 2115 2128 "ctx.ml" 83 2115 2129
+type(
+  'a
+)
+ident(
+  def a "ctx.ml" 83 2115 2132 "ctx.ml" 83 2115 2155
+)
+"ctx.ml" 83 2115 2132 "ctx.ml" 83 2115 2141
+type(
+  'a ctx -> M.key -> 'a option -> 'a ctx
+)
+ident(
+  int_ref maybe_adj "ctx.ml" 65 1600 1604 "ctx.ml" 65 1600 1613
+)
+"ctx.ml" 83 2115 2142 "ctx.ml" 83 2115 2144
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 83 2115 2123 "ctx.ml" 83 2115 2125
+)
+"ctx.ml" 83 2115 2145 "ctx.ml" 83 2115 2146
+type(
+  M.key
+)
+ident(
+  int_ref v "ctx.ml" 83 2115 2126 "ctx.ml" 83 2115 2127
+)
+"ctx.ml" 83 2115 2153 "ctx.ml" 83 2115 2154
+type(
+  'a
+)
+ident(
+  int_ref a "ctx.ml" 83 2115 2128 "ctx.ml" 83 2115 2129
+)
+"ctx.ml" 83 2115 2147 "ctx.ml" 83 2115 2155
+type(
+  'a option
+)
+"ctx.ml" 83 2115 2132 "ctx.ml" 83 2115 2155
+type(
+  'a ctx
+)
+"ctx.ml" 85 2157 2161 "ctx.ml" 85 2157 2165
+type(
+  'a ctx -> 'a ctx
+)
+ident(
+  def bump "ctx.ml" 87 2193 2193 "ctx.ml" 0 0 -1
+)
+"ctx.ml" 85 2157 2166 "ctx.ml" 85 2157 2168
+type(
+  'a ctx
+)
+ident(
+  def cx "ctx.ml" 85 2157 2171 "ctx.ml" 85 2157 2191
+)
+"ctx.ml" 85 2157 2171 "ctx.ml" 85 2157 2180
+type(
+  'a ctx -> M.key -> 'a option -> 'a ctx
+)
+ident(
+  int_ref maybe_adj "ctx.ml" 65 1600 1604 "ctx.ml" 65 1600 1613
+)
+"ctx.ml" 85 2157 2181 "ctx.ml" 85 2157 2183
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 85 2157 2166 "ctx.ml" 85 2157 2168
+)
+"ctx.ml" 85 2157 2184 "ctx.ml" 85 2157 2186
+type(
+  M.key
+)
+"ctx.ml" 85 2157 2187 "ctx.ml" 85 2157 2191
+type(
+  'a option
+)
+"ctx.ml" 85 2157 2171 "ctx.ml" 85 2157 2191
+type(
+  'a ctx
+)
+"ctx.ml" 87 2193 2197 "ctx.ml" 87 2193 2205
+type(
+  'a ctx -> M.key -> ('a option * int) option
+)
+ident(
+  def find_dep "ctx.ml" 93 2377 2377 "ctx.ml" 0 0 -1
+)
+"ctx.ml" 87 2193 2206 "ctx.ml" 87 2193 2208
+type(
+  'a ctx
+)
+ident(
+  def cx "ctx.ml" 87 2193 2209 "ctx.ml" 91 2342 2375
+)
+"ctx.ml" 87 2193 2209 "ctx.ml" 87 2193 2210
+type(
+  M.key
+)
+ident(
+  def v "ctx.ml" 87 2193 2213 "ctx.ml" 91 2342 2375
+)
+"ctx.ml" 87 2193 2219 "ctx.ml" 87 2193 2231
+type(
+  M.key -> ident M.t -> ident option
+)
+ident(
+  int_ref M.maybe_find "ctx.ml" 17 346 352 "ctx.ml" 17 346 362
+)
+"ctx.ml" 87 2193 2232 "ctx.ml" 87 2193 2233
+type(
+  M.key
+)
+ident(
+  int_ref v "ctx.ml" 87 2193 2209 "ctx.ml" 87 2193 2210
+)
+"ctx.ml" 87 2193 2234 "ctx.ml" 87 2193 2236
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 87 2193 2206 "ctx.ml" 87 2193 2208
+)
+"ctx.ml" 87 2193 2234 "ctx.ml" 87 2193 2243
+type(
+  ident M.t
+)
+"ctx.ml" 87 2193 2219 "ctx.ml" 87 2193 2243
+type(
+  ident option
+)
+"ctx.ml" 88 2249 2253 "ctx.ml" 88 2249 2257
+type(
+  ident option
+)
+type(
+  ident option
+)
+"ctx.ml" 88 2249 2261 "ctx.ml" 88 2249 2265
+type(
+  ('a option * int) option
+)
+"ctx.ml" 89 2266 2275 "ctx.ml" 89 2266 2277
+type(
+  ident
+)
+ident(
+  def id "ctx.ml" 90 2281 2287 "ctx.ml" 91 2342 2375
+)
+"ctx.ml" 89 2266 2270 "ctx.ml" 89 2266 2277
+type(
+  ident option
+)
+type(
+  ident option
+)
+"ctx.ml" 90 2281 2292 "ctx.ml" 90 2281 2293
+type(
+  'a option
+)
+ident(
+  def a "ctx.ml" 91 2342 2350 "ctx.ml" 91 2342 2375
+)
+"ctx.ml" 90 2281 2295 "ctx.ml" 90 2281 2298
+type(
+  int
+)
+ident(
+  def dep "ctx.ml" 91 2342 2350 "ctx.ml" 91 2342 2375
+)
+"ctx.ml" 90 2281 2291 "ctx.ml" 90 2281 2299
+type(
+  'a option * int
+)
+"ctx.ml" 90 2281 2302 "ctx.ml" 90 2281 2308
+type(
+  M.key -> ('a option * int) M.t -> 'a option * int
+)
+ident(
+  int_ref M.find "map.mli" 278 11157 11161 "map.mli" 278 11157 11188
+)
+"ctx.ml" 90 2281 2310 "ctx.ml" 90 2281 2325
+type(
+  ident -> M.key
+)
+ident(
+  int_ref string_of_ident "ctx.ml" 10 137 141 "ctx.ml" 10 137 156
+)
+"ctx.ml" 90 2281 2326 "ctx.ml" 90 2281 2328
+type(
+  ident
+)
+ident(
+  int_ref id "ctx.ml" 89 2266 2275 "ctx.ml" 89 2266 2277
+)
+"ctx.ml" 90 2281 2309 "ctx.ml" 90 2281 2329
+type(
+  M.key
+)
+"ctx.ml" 90 2281 2330 "ctx.ml" 90 2281 2332
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 87 2193 2206 "ctx.ml" 87 2193 2208
+)
+"ctx.ml" 90 2281 2330 "ctx.ml" 90 2281 2338
+type(
+  ('a option * int) M.t
+)
+"ctx.ml" 90 2281 2302 "ctx.ml" 90 2281 2338
+type(
+  'a option * int
+)
+"ctx.ml" 91 2342 2356 "ctx.ml" 91 2342 2357
+type(
+  'a option
+)
+ident(
+  int_ref a "ctx.ml" 90 2281 2292 "ctx.ml" 90 2281 2293
+)
+"ctx.ml" 91 2342 2359 "ctx.ml" 91 2342 2361
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 87 2193 2206 "ctx.ml" 87 2193 2208
+)
+"ctx.ml" 91 2342 2359 "ctx.ml" 91 2342 2368
+type(
+  int
+)
+"ctx.ml" 91 2342 2369 "ctx.ml" 91 2342 2370
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"ctx.ml" 91 2342 2371 "ctx.ml" 91 2342 2374
+type(
+  int
+)
+ident(
+  int_ref dep "ctx.ml" 90 2281 2295 "ctx.ml" 90 2281 2298
+)
+"ctx.ml" 91 2342 2359 "ctx.ml" 91 2342 2374
+type(
+  int
+)
+"ctx.ml" 91 2342 2355 "ctx.ml" 91 2342 2375
+type(
+  'a option * int
+)
+"ctx.ml" 91 2342 2350 "ctx.ml" 91 2342 2375
+type(
+  ('a option * int) option
+)
+"ctx.ml" 90 2281 2287 "ctx.ml" 91 2342 2375
+type(
+  ('a option * int) option
+)
+"ctx.ml" 87 2193 2213 "ctx.ml" 91 2342 2375
+type(
+  ('a option * int) option
+)
+"ctx.ml" 93 2377 2381 "ctx.ml" 93 2377 2385
+type(
+  'a ctx -> M.key -> 'a option
+)
+ident(
+  def find "ctx.ml" 97 2458 2458 "ctx.ml" 0 0 -1
+)
+"ctx.ml" 93 2377 2386 "ctx.ml" 93 2377 2388
+type(
+  'a ctx
+)
+ident(
+  def cx "ctx.ml" 93 2377 2389 "ctx.ml" 95 2443 2456
+)
+"ctx.ml" 93 2377 2389 "ctx.ml" 93 2377 2390
+type(
+  M.key
+)
+ident(
+  def v "ctx.ml" 93 2377 2393 "ctx.ml" 95 2443 2456
+)
+"ctx.ml" 93 2377 2399 "ctx.ml" 93 2377 2407
+type(
+  'a ctx -> M.key -> ('a option * int) option
+)
+ident(
+  int_ref find_dep "ctx.ml" 87 2193 2197 "ctx.ml" 87 2193 2205
+)
+"ctx.ml" 93 2377 2408 "ctx.ml" 93 2377 2410
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 93 2377 2386 "ctx.ml" 93 2377 2388
+)
+"ctx.ml" 93 2377 2411 "ctx.ml" 93 2377 2412
+type(
+  M.key
+)
+ident(
+  int_ref v "ctx.ml" 93 2377 2389 "ctx.ml" 93 2377 2390
+)
+"ctx.ml" 93 2377 2399 "ctx.ml" 93 2377 2412
+type(
+  ('a option * int) option
+)
+"ctx.ml" 94 2418 2428 "ctx.ml" 94 2418 2431
+type(
+  'a option
+)
+ident(
+  def dat "ctx.ml" 94 2418 2439 "ctx.ml" 94 2418 2442
+)
+"ctx.ml" 94 2418 2433 "ctx.ml" 94 2418 2434
+type(
+  int
+)
+"ctx.ml" 94 2418 2427 "ctx.ml" 94 2418 2435
+type(
+  'a option * int
+)
+"ctx.ml" 94 2418 2422 "ctx.ml" 94 2418 2435
+type(
+  ('a option * int) option
+)
+type(
+  ('a option * int) option
+)
+"ctx.ml" 94 2418 2439 "ctx.ml" 94 2418 2442
+type(
+  'a option
+)
+ident(
+  int_ref dat "ctx.ml" 94 2418 2428 "ctx.ml" 94 2418 2431
+)
+"ctx.ml" 95 2443 2447 "ctx.ml" 95 2443 2448
+type(
+  ('a option * int) option
+)
+type(
+  ('a option * int) option
+)
+"ctx.ml" 95 2443 2452 "ctx.ml" 95 2443 2456
+type(
+  'a option
+)
+"ctx.ml" 93 2377 2393 "ctx.ml" 95 2443 2456
+type(
+  'a option
+)
+"ctx.ml" 97 2458 2462 "ctx.ml" 97 2458 2467
+type(
+  'a ctx -> M.key -> int option
+)
+ident(
+  def depth "ctx.ml" 99 2507 2507 "ctx.ml" 0 0 -1
+)
+"ctx.ml" 97 2458 2468 "ctx.ml" 97 2458 2470
+type(
+  'a ctx
+)
+ident(
+  def cx "ctx.ml" 97 2458 2471 "ctx.ml" 97 2458 2505
+)
+"ctx.ml" 97 2458 2471 "ctx.ml" 97 2458 2472
+type(
+  M.key
+)
+ident(
+  def v "ctx.ml" 97 2458 2475 "ctx.ml" 97 2458 2505
+)
+"ctx.ml" 97 2458 2475 "ctx.ml" 97 2458 2485
+type(
+  ('a option * int -> int) -> ('a option * int) option -> int option
+)
+ident(
+  int_ref Ext.Option.map "ext.mli" 61 2656 2658 "ext.mli" 61 2656 2704
+)
+"ctx.ml" 97 2458 2486 "ctx.ml" 97 2458 2489
+type(
+  'a option * int -> int
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"ctx.ml" 97 2458 2491 "ctx.ml" 97 2458 2499
+type(
+  'a ctx -> M.key -> ('a option * int) option
+)
+ident(
+  int_ref find_dep "ctx.ml" 87 2193 2197 "ctx.ml" 87 2193 2205
+)
+"ctx.ml" 97 2458 2500 "ctx.ml" 97 2458 2502
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 97 2458 2468 "ctx.ml" 97 2458 2470
+)
+"ctx.ml" 97 2458 2503 "ctx.ml" 97 2458 2504
+type(
+  M.key
+)
+ident(
+  int_ref v "ctx.ml" 97 2458 2471 "ctx.ml" 97 2458 2472
+)
+"ctx.ml" 97 2458 2490 "ctx.ml" 97 2458 2505
+type(
+  ('a option * int) option
+)
+"ctx.ml" 97 2458 2475 "ctx.ml" 97 2458 2505
+type(
+  int option
+)
+"ctx.ml" 99 2507 2511 "ctx.ml" 99 2507 2515
+type(
+  int ctx -> M.key -> int ctx
+)
+ident(
+  def push "ctx.ml" 101 2545 2545 "ctx.ml" 0 0 -1
+)
+"ctx.ml" 99 2507 2516 "ctx.ml" 99 2507 2518
+type(
+  int ctx
+)
+ident(
+  def cx "ctx.ml" 99 2507 2519 "ctx.ml" 99 2507 2543
+)
+"ctx.ml" 99 2507 2519 "ctx.ml" 99 2507 2520
+type(
+  M.key
+)
+ident(
+  def v "ctx.ml" 99 2507 2523 "ctx.ml" 99 2507 2543
+)
+"ctx.ml" 99 2507 2523 "ctx.ml" 99 2507 2526
+type(
+  int ctx -> M.key -> int -> int ctx
+)
+ident(
+  int_ref adj "ctx.ml" 83 2115 2119 "ctx.ml" 83 2115 2122
+)
+"ctx.ml" 99 2507 2527 "ctx.ml" 99 2507 2529
+type(
+  int ctx
+)
+ident(
+  int_ref cx "ctx.ml" 99 2507 2516 "ctx.ml" 99 2507 2518
+)
+"ctx.ml" 99 2507 2530 "ctx.ml" 99 2507 2531
+type(
+  M.key
+)
+ident(
+  int_ref v "ctx.ml" 99 2507 2519 "ctx.ml" 99 2507 2520
+)
+"ctx.ml" 99 2507 2533 "ctx.ml" 99 2507 2539
+type(
+  int ctx -> int
+)
+ident(
+  int_ref length "ctx.ml" 39 815 819 "ctx.ml" 39 815 825
+)
+"ctx.ml" 99 2507 2540 "ctx.ml" 99 2507 2542
+type(
+  int ctx
+)
+ident(
+  int_ref cx "ctx.ml" 99 2507 2516 "ctx.ml" 99 2507 2518
+)
+"ctx.ml" 99 2507 2532 "ctx.ml" 99 2507 2543
+type(
+  int
+)
+"ctx.ml" 99 2507 2523 "ctx.ml" 99 2507 2543
+type(
+  int ctx
+)
+"ctx.ml" 101 2545 2549 "ctx.ml" 101 2545 2556
+type(
+  'a ctx -> 'a list
+)
+ident(
+  def to_list "ctx.ml" 108 2717 2717 "ctx.ml" 0 0 -1
+)
+"ctx.ml" 101 2545 2557 "ctx.ml" 101 2545 2559
+type(
+  'a ctx
+)
+ident(
+  def cx "ctx.ml" 102 2562 2564 "ctx.ml" 106 2689 2715
+)
+"ctx.ml" 102 2562 2572 "ctx.ml" 102 2562 2580
+type(
+  'b list -> ('c * 'b option) list -> 'b list
+)
+ident(
+  def transfer "ctx.ml" 102 2562 2564 "ctx.ml" 106 2689 2715
+)
+"ctx.ml" 102 2562 2581 "ctx.ml" 102 2562 2582
+type(
+  'b list
+)
+ident(
+  def l "ctx.ml" 102 2562 2585 "ctx.ml" 105 2656 2688
+)
+"ctx.ml" 103 2594 2600 "ctx.ml" 103 2594 2602
+type(
+  ('c * 'b option) list
+)
+"ctx.ml" 103 2594 2606 "ctx.ml" 103 2594 2607
+type(
+  'b list
+)
+ident(
+  int_ref l "ctx.ml" 102 2562 2581 "ctx.ml" 102 2562 2582
+)
+"ctx.ml" 104 2608 2615 "ctx.ml" 104 2608 2616
+type(
+  'c
+)
+"ctx.ml" 104 2608 2623 "ctx.ml" 104 2608 2624
+type(
+  'b
+)
+ident(
+  def x "ctx.ml" 104 2608 2635 "ctx.ml" 104 2608 2655
+)
+"ctx.ml" 104 2608 2618 "ctx.ml" 104 2608 2624
+type(
+  'b option
+)
+"ctx.ml" 104 2608 2614 "ctx.ml" 104 2608 2625
+type(
+  'c * 'b option
+)
+"ctx.ml" 104 2608 2629 "ctx.ml" 104 2608 2631
+type(
+  ('c * 'b option) list
+)
+ident(
+  def xs "ctx.ml" 104 2608 2635 "ctx.ml" 104 2608 2655
+)
+"ctx.ml" 104 2608 2614 "ctx.ml" 104 2608 2631
+type(
+  ('c * 'b option) list
+)
+"ctx.ml" 104 2608 2635 "ctx.ml" 104 2608 2643
+type(
+  'b list -> ('c * 'b option) list -> 'b list
+)
+ident(
+  int_ref transfer "ctx.ml" 102 2562 2572 "ctx.ml" 102 2562 2580
+)
+"ctx.ml" 104 2608 2645 "ctx.ml" 104 2608 2646
+type(
+  'b
+)
+ident(
+  int_ref x "ctx.ml" 104 2608 2623 "ctx.ml" 104 2608 2624
+)
+"ctx.ml" 104 2608 2650 "ctx.ml" 104 2608 2651
+type(
+  'b list
+)
+ident(
+  int_ref l "ctx.ml" 102 2562 2581 "ctx.ml" 102 2562 2582
+)
+"ctx.ml" 104 2608 2644 "ctx.ml" 104 2608 2652
+type(
+  'b list
+)
+"ctx.ml" 104 2608 2653 "ctx.ml" 104 2608 2655
+type(
+  ('c * 'b option) list
+)
+ident(
+  int_ref xs "ctx.ml" 104 2608 2629 "ctx.ml" 104 2608 2631
+)
+"ctx.ml" 104 2608 2635 "ctx.ml" 104 2608 2655
+type(
+  'b list
+)
+"ctx.ml" 105 2656 2662 "ctx.ml" 105 2656 2663
+type(
+  ('c * 'b option) list
+)
+"ctx.ml" 105 2656 2667 "ctx.ml" 105 2656 2678
+type(
+  string -> 'b list
+)
+ident(
+  int_ref Stdlib.invalid_arg "stdlib.mli" 38 1822 1822 "stdlib.mli" 38 1822 1852
+)
+"ctx.ml" 105 2656 2679 "ctx.ml" 105 2656 2688
+type(
+  string
+)
+"ctx.ml" 105 2656 2667 "ctx.ml" 105 2656 2688
+type(
+  'b list
+)
+"ctx.ml" 102 2562 2585 "ctx.ml" 105 2656 2688
+type(
+  ('c * 'b option) list -> 'b list
+)
+"ctx.ml" 106 2689 2694 "ctx.ml" 106 2689 2702
+type(
+  'a list -> (ident * 'a option) list -> 'a list
+)
+ident(
+  int_ref transfer "ctx.ml" 102 2562 2572 "ctx.ml" 102 2562 2580
+)
+"ctx.ml" 106 2689 2703 "ctx.ml" 106 2689 2705
+type(
+  'a list
+)
+"ctx.ml" 106 2689 2706 "ctx.ml" 106 2689 2708
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 101 2545 2557 "ctx.ml" 101 2545 2559
+)
+"ctx.ml" 106 2689 2706 "ctx.ml" 106 2689 2715
+type(
+  (ident * 'a option) list
+)
+"ctx.ml" 106 2689 2694 "ctx.ml" 106 2689 2715
+type(
+  'a list
+)
+"ctx.ml" 102 2562 2564 "ctx.ml" 106 2689 2715
+type(
+  'a list
+)
+"ctx.ml" 110 2730 2734 "ctx.ml" 110 2730 2739
+type(
+  'a ctx -> int -> ident * 'a option
+)
+ident(
+  def index "ctx.ml" 112 2775 2775 "ctx.ml" 0 0 -1
+)
+"ctx.ml" 110 2730 2740 "ctx.ml" 110 2730 2742
+type(
+  'a ctx
+)
+ident(
+  def cx "ctx.ml" 110 2730 2743 "ctx.ml" 110 2730 2773
+)
+"ctx.ml" 110 2730 2743 "ctx.ml" 110 2730 2744
+type(
+  int
+)
+ident(
+  def n "ctx.ml" 110 2730 2747 "ctx.ml" 110 2730 2773
+)
+"ctx.ml" 110 2730 2747 "ctx.ml" 110 2730 2755
+type(
+  (ident * 'a option) list -> int -> ident * 'a option
+)
+ident(
+  int_ref Ext.List.nth "ext.mli" 10 187 189 "ext.mli" 10 187 219
+)
+"ctx.ml" 110 2730 2756 "ctx.ml" 110 2730 2758
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 110 2730 2740 "ctx.ml" 110 2730 2742
+)
+"ctx.ml" 110 2730 2756 "ctx.ml" 110 2730 2765
+type(
+  (ident * 'a option) list
+)
+"ctx.ml" 110 2730 2767 "ctx.ml" 110 2730 2768
+type(
+  int
+)
+ident(
+  int_ref n "ctx.ml" 110 2730 2743 "ctx.ml" 110 2730 2744
+)
+"ctx.ml" 110 2730 2769 "ctx.ml" 110 2730 2770
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"ctx.ml" 110 2730 2771 "ctx.ml" 110 2730 2772
+type(
+  int
+)
+"ctx.ml" 110 2730 2766 "ctx.ml" 110 2730 2773
+type(
+  int
+)
+"ctx.ml" 110 2730 2747 "ctx.ml" 110 2730 2773
+type(
+  ident * 'a option
+)
+"ctx.ml" 112 2775 2779 "ctx.ml" 112 2775 2782
+type(
+  'a ctx -> ident * 'a option
+)
+ident(
+  def top "ctx.ml" 116 2871 2871 "ctx.ml" 0 0 -1
+)
+"ctx.ml" 112 2775 2783 "ctx.ml" 112 2775 2785
+type(
+  'a ctx
+)
+ident(
+  def cx "ctx.ml" 112 2775 2788 "ctx.ml" 114 2838 2869
+)
+"ctx.ml" 112 2775 2794 "ctx.ml" 112 2775 2796
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 112 2775 2783 "ctx.ml" 112 2775 2785
+)
+"ctx.ml" 112 2775 2794 "ctx.ml" 112 2775 2803
+type(
+  (ident * 'a option) list
+)
+"ctx.ml" 113 2809 2813 "ctx.ml" 113 2809 2815
+type(
+  (ident * 'a option) list
+)
+type(
+  (ident * 'a option) list
+)
+"ctx.ml" 113 2809 2819 "ctx.ml" 113 2809 2827
+type(
+  string -> ident * 'a option
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"ctx.ml" 113 2809 2828 "ctx.ml" 113 2809 2837
+type(
+  string
+)
+"ctx.ml" 113 2809 2819 "ctx.ml" 113 2809 2837
+type(
+  ident * 'a option
+)
+"ctx.ml" 114 2838 2843 "ctx.ml" 114 2838 2845
+type(
+  ident
+)
+ident(
+  def id "ctx.ml" 114 2838 2860 "ctx.ml" 114 2838 2869
+)
+"ctx.ml" 114 2838 2847 "ctx.ml" 114 2838 2850
+type(
+  'a option
+)
+ident(
+  def dat "ctx.ml" 114 2838 2860 "ctx.ml" 114 2838 2869
+)
+"ctx.ml" 114 2838 2842 "ctx.ml" 114 2838 2851
+type(
+  ident * 'a option
+)
+"ctx.ml" 114 2838 2855 "ctx.ml" 114 2838 2856
+type(
+  (ident * 'a option) list
+)
+"ctx.ml" 114 2838 2842 "ctx.ml" 114 2838 2856
+type(
+  (ident * 'a option) list
+)
+type(
+  (ident * 'a option) list
+)
+"ctx.ml" 114 2838 2861 "ctx.ml" 114 2838 2863
+type(
+  ident
+)
+ident(
+  int_ref id "ctx.ml" 114 2838 2843 "ctx.ml" 114 2838 2845
+)
+"ctx.ml" 114 2838 2865 "ctx.ml" 114 2838 2868
+type(
+  'a option
+)
+ident(
+  int_ref dat "ctx.ml" 114 2838 2847 "ctx.ml" 114 2838 2850
+)
+"ctx.ml" 114 2838 2860 "ctx.ml" 114 2838 2869
+type(
+  ident * 'a option
+)
+"ctx.ml" 112 2775 2788 "ctx.ml" 114 2838 2869
+type(
+  ident * 'a option
+)
+"ctx.ml" 116 2871 2875 "ctx.ml" 116 2871 2880
+type(
+  'a ctx -> ident
+)
+ident(
+  def front "ctx.ml" 118 2900 2900 "ctx.ml" 0 0 -1
+)
+"ctx.ml" 116 2871 2881 "ctx.ml" 116 2871 2883
+type(
+  'a ctx
+)
+ident(
+  def cx "ctx.ml" 116 2871 2886 "ctx.ml" 116 2871 2898
+)
+"ctx.ml" 116 2871 2886 "ctx.ml" 116 2871 2889
+type(
+  ident * 'a option -> ident
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"ctx.ml" 116 2871 2891 "ctx.ml" 116 2871 2894
+type(
+  'a ctx -> ident * 'a option
+)
+ident(
+  int_ref top "ctx.ml" 112 2775 2779 "ctx.ml" 112 2775 2782
+)
+"ctx.ml" 116 2871 2895 "ctx.ml" 116 2871 2897
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 116 2871 2881 "ctx.ml" 116 2871 2883
+)
+"ctx.ml" 116 2871 2890 "ctx.ml" 116 2871 2898
+type(
+  ident * 'a option
+)
+"ctx.ml" 116 2871 2886 "ctx.ml" 116 2871 2898
+type(
+  ident
+)
+"ctx.ml" 118 2900 2904 "ctx.ml" 118 2900 2909
+type(
+  'a ctx -> M.key -> 'a -> ('a ctx -> ident -> 'b) -> 'b
+)
+ident(
+  def using "ctx.ml" 123 2986 2986 "ctx.ml" 0 0 -1
+)
+"ctx.ml" 118 2900 2910 "ctx.ml" 118 2900 2912
+type(
+  'a ctx
+)
+ident(
+  def cx "ctx.ml" 118 2900 2913 "ctx.ml" 121 2973 2984
+)
+"ctx.ml" 118 2900 2913 "ctx.ml" 118 2900 2914
+type(
+  M.key
+)
+ident(
+  def v "ctx.ml" 118 2900 2915 "ctx.ml" 121 2973 2984
+)
+"ctx.ml" 118 2900 2915 "ctx.ml" 118 2900 2916
+type(
+  'a
+)
+ident(
+  def a "ctx.ml" 118 2900 2917 "ctx.ml" 121 2973 2984
+)
+"ctx.ml" 118 2900 2917 "ctx.ml" 118 2900 2919
+type(
+  'a ctx -> ident -> 'b
+)
+ident(
+  def fn "ctx.ml" 119 2922 2924 "ctx.ml" 121 2973 2984
+)
+"ctx.ml" 119 2922 2928 "ctx.ml" 119 2922 2930
+type(
+  'a ctx
+)
+ident(
+  def cx "ctx.ml" 120 2947 2949 "ctx.ml" 121 2973 2984
+)
+"ctx.ml" 119 2922 2933 "ctx.ml" 119 2922 2936
+type(
+  'a ctx -> M.key -> 'a -> 'a ctx
+)
+ident(
+  int_ref adj "ctx.ml" 83 2115 2119 "ctx.ml" 83 2115 2122
+)
+"ctx.ml" 119 2922 2937 "ctx.ml" 119 2922 2939
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 118 2900 2910 "ctx.ml" 118 2900 2912
+)
+"ctx.ml" 119 2922 2940 "ctx.ml" 119 2922 2941
+type(
+  M.key
+)
+ident(
+  int_ref v "ctx.ml" 118 2900 2913 "ctx.ml" 118 2900 2914
+)
+"ctx.ml" 119 2922 2942 "ctx.ml" 119 2922 2943
+type(
+  'a
+)
+ident(
+  int_ref a "ctx.ml" 118 2900 2915 "ctx.ml" 118 2900 2916
+)
+"ctx.ml" 119 2922 2933 "ctx.ml" 119 2922 2943
+type(
+  'a ctx
+)
+"ctx.ml" 120 2947 2953 "ctx.ml" 120 2947 2954
+type(
+  ident
+)
+ident(
+  def v "ctx.ml" 121 2973 2977 "ctx.ml" 121 2973 2984
+)
+"ctx.ml" 120 2947 2957 "ctx.ml" 120 2947 2960
+type(
+  ident * 'a option -> ident
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"ctx.ml" 120 2947 2962 "ctx.ml" 120 2947 2965
+type(
+  'a ctx -> ident * 'a option
+)
+ident(
+  int_ref top "ctx.ml" 112 2775 2779 "ctx.ml" 112 2775 2782
+)
+"ctx.ml" 120 2947 2966 "ctx.ml" 120 2947 2968
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 119 2922 2928 "ctx.ml" 119 2922 2930
+)
+"ctx.ml" 120 2947 2961 "ctx.ml" 120 2947 2969
+type(
+  ident * 'a option
+)
+"ctx.ml" 120 2947 2957 "ctx.ml" 120 2947 2969
+type(
+  ident
+)
+"ctx.ml" 121 2973 2977 "ctx.ml" 121 2973 2979
+type(
+  'a ctx -> ident -> 'b
+)
+ident(
+  int_ref fn "ctx.ml" 118 2900 2917 "ctx.ml" 118 2900 2919
+)
+"ctx.ml" 121 2973 2980 "ctx.ml" 121 2973 2982
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 119 2922 2928 "ctx.ml" 119 2922 2930
+)
+"ctx.ml" 121 2973 2983 "ctx.ml" 121 2973 2984
+type(
+  ident
+)
+ident(
+  int_ref v "ctx.ml" 120 2947 2953 "ctx.ml" 120 2947 2954
+)
+"ctx.ml" 121 2973 2977 "ctx.ml" 121 2973 2984
+type(
+  'b
+)
+"ctx.ml" 120 2947 2949 "ctx.ml" 121 2973 2984
+type(
+  'b
+)
+"ctx.ml" 119 2922 2924 "ctx.ml" 121 2973 2984
+type(
+  'b
+)
+"ctx.ml" 123 2986 2990 "ctx.ml" 123 2986 3004
+type(
+  Format.formatter -> ident -> unit
+)
+ident(
+  def pp_print_ident "ctx.ml" 127 3105 3105 "ctx.ml" 0 0 -1
+)
+"ctx.ml" 123 2986 3005 "ctx.ml" 123 2986 3007
+type(
+  Format.formatter
+)
+ident(
+  def ff "ctx.ml" 123 2986 3008 "ctx.ml" 124 3013 3055
+)
+"ctx.ml" 123 2986 3008 "ctx.ml" 123 2986 3010
+type(
+  ident
+)
+ident(
+  def id "ctx.ml" 124 3013 3015 "ctx.ml" 124 3013 3055
+)
+"ctx.ml" 124 3013 3015 "ctx.ml" 124 3013 3029
+type(
+  Format.formatter ->
+  (string -> int -> unit, Format.formatter, unit) format ->
+  string -> int -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"ctx.ml" 124 3013 3030 "ctx.ml" 124 3013 3032
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "ctx.ml" 123 2986 3005 "ctx.ml" 123 2986 3007
+)
+"ctx.ml" 124 3013 3033 "ctx.ml" 124 3013 3040
+type(
+  (string -> int -> unit, Format.formatter, unit) format
+)
+"ctx.ml" 124 3013 3041 "ctx.ml" 124 3013 3043
+type(
+  ident
+)
+ident(
+  int_ref id "ctx.ml" 123 2986 3008 "ctx.ml" 123 2986 3010
+)
+"ctx.ml" 124 3013 3041 "ctx.ml" 124 3013 3047
+type(
+  string
+)
+"ctx.ml" 124 3013 3048 "ctx.ml" 124 3013 3050
+type(
+  ident
+)
+ident(
+  int_ref id "ctx.ml" 123 2986 3008 "ctx.ml" 123 2986 3010
+)
+"ctx.ml" 124 3013 3048 "ctx.ml" 124 3013 3055
+type(
+  int
+)
+"ctx.ml" 124 3013 3015 "ctx.ml" 124 3013 3055
+type(
+  unit
+)
+"ctx.ml" 127 3105 3109 "ctx.ml" 127 3105 3121
+type(
+  (Format.formatter -> 'a -> unit) -> Format.formatter -> 'a ctx -> unit
+)
+ident(
+  def pp_print_ctx "ctx.ml" 144 3557 3557 "ctx.ml" 0 0 -1
+)
+"ctx.ml" 127 3105 3122 "ctx.ml" 127 3105 3125
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  def fmt "ctx.ml" 127 3105 3126 "ctx.ml" 142 3514 3555
+)
+"ctx.ml" 127 3105 3126 "ctx.ml" 127 3105 3128
+type(
+  Format.formatter
+)
+ident(
+  def ff "ctx.ml" 127 3105 3129 "ctx.ml" 142 3514 3555
+)
+"ctx.ml" 127 3105 3129 "ctx.ml" 127 3105 3131
+type(
+  'a ctx
+)
+ident(
+  def cx "ctx.ml" 128 3134 3136 "ctx.ml" 142 3514 3555
+)
+"ctx.ml" 128 3134 3144 "ctx.ml" 128 3134 3146
+type(
+  Format.formatter -> (ident * 'a option) list -> unit
+)
+ident(
+  def pp "ctx.ml" 128 3134 3136 "ctx.ml" 142 3514 3555
+)
+"ctx.ml" 128 3134 3147 "ctx.ml" 128 3134 3149
+type(
+  Format.formatter
+)
+ident(
+  def ff "ctx.ml" 128 3134 3152 "ctx.ml" 141 3475 3513
+)
+"ctx.ml" 129 3161 3167 "ctx.ml" 129 3161 3169
+type(
+  (ident * 'a option) list
+)
+"ctx.ml" 129 3161 3173 "ctx.ml" 129 3161 3175
+type(
+  unit
+)
+"ctx.ml" 130 3176 3183 "ctx.ml" 130 3176 3184
+type(
+  ident
+)
+ident(
+  def u "ctx.ml" 131 3195 3203 "ctx.ml" 132 3219 3245
+)
+"ctx.ml" 130 3176 3186 "ctx.ml" 130 3176 3190
+type(
+  'a option
+)
+"ctx.ml" 130 3176 3183 "ctx.ml" 130 3176 3190
+type(
+  ident * 'a option
+)
+"ctx.ml" 130 3176 3182 "ctx.ml" 130 3176 3191
+type(
+  (ident * 'a option) list
+)
+"ctx.ml" 131 3195 3203 "ctx.ml" 131 3195 3210
+type(
+  Format.formatter ->
+  ((Format.formatter -> ident -> unit) -> ident -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> ident -> unit) -> ident -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"ctx.ml" 131 3195 3211 "ctx.ml" 131 3195 3213
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "ctx.ml" 128 3134 3147 "ctx.ml" 128 3134 3149
+)
+"ctx.ml" 131 3195 3214 "ctx.ml" 131 3195 3218
+type(
+  ((Format.formatter -> ident -> unit) -> ident -> unit, Format.formatter,
+   unit)
+  format
+)
+"ctx.ml" 132 3219 3229 "ctx.ml" 132 3219 3243
+type(
+  Format.formatter -> ident -> unit
+)
+ident(
+  int_ref pp_print_ident "ctx.ml" 123 2986 2990 "ctx.ml" 123 2986 3004
+)
+"ctx.ml" 132 3219 3244 "ctx.ml" 132 3219 3245
+type(
+  ident
+)
+ident(
+  int_ref u "ctx.ml" 130 3176 3183 "ctx.ml" 130 3176 3184
+)
+"ctx.ml" 131 3195 3203 "ctx.ml" 132 3219 3245
+type(
+  unit
+)
+"ctx.ml" 133 3246 3253 "ctx.ml" 133 3246 3254
+type(
+  ident
+)
+ident(
+  def u "ctx.ml" 134 3267 3275 "ctx.ml" 135 3295 3327
+)
+"ctx.ml" 133 3246 3261 "ctx.ml" 133 3246 3262
+type(
+  'a
+)
+ident(
+  def a "ctx.ml" 134 3267 3275 "ctx.ml" 135 3295 3327
+)
+"ctx.ml" 133 3246 3256 "ctx.ml" 133 3246 3262
+type(
+  'a option
+)
+"ctx.ml" 133 3246 3253 "ctx.ml" 133 3246 3262
+type(
+  ident * 'a option
+)
+"ctx.ml" 133 3246 3252 "ctx.ml" 133 3246 3263
+type(
+  (ident * 'a option) list
+)
+"ctx.ml" 134 3267 3275 "ctx.ml" 134 3267 3282
+type(
+  Format.formatter ->
+  ((Format.formatter -> ident -> unit) ->
+   ident -> (Format.formatter -> 'a -> unit) -> 'a -> unit, Format.formatter,
+   unit)
+  format ->
+  (Format.formatter -> ident -> unit) ->
+  ident -> (Format.formatter -> 'a -> unit) -> 'a -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"ctx.ml" 134 3267 3283 "ctx.ml" 134 3267 3285
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "ctx.ml" 128 3134 3147 "ctx.ml" 128 3134 3149
+)
+"ctx.ml" 134 3267 3286 "ctx.ml" 134 3267 3294
+type(
+  ((Format.formatter -> ident -> unit) ->
+   ident -> (Format.formatter -> 'a -> unit) -> 'a -> unit, Format.formatter,
+   unit)
+  format
+)
+"ctx.ml" 135 3295 3305 "ctx.ml" 135 3295 3319
+type(
+  Format.formatter -> ident -> unit
+)
+ident(
+  int_ref pp_print_ident "ctx.ml" 123 2986 2990 "ctx.ml" 123 2986 3004
+)
+"ctx.ml" 135 3295 3320 "ctx.ml" 135 3295 3321
+type(
+  ident
+)
+ident(
+  int_ref u "ctx.ml" 133 3246 3253 "ctx.ml" 133 3246 3254
+)
+"ctx.ml" 135 3295 3322 "ctx.ml" 135 3295 3325
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref fmt "ctx.ml" 127 3105 3122 "ctx.ml" 127 3105 3125
+)
+"ctx.ml" 135 3295 3326 "ctx.ml" 135 3295 3327
+type(
+  'a
+)
+ident(
+  int_ref a "ctx.ml" 133 3246 3261 "ctx.ml" 133 3246 3262
+)
+"ctx.ml" 134 3267 3275 "ctx.ml" 135 3295 3327
+type(
+  unit
+)
+"ctx.ml" 136 3328 3335 "ctx.ml" 136 3328 3336
+type(
+  ident
+)
+ident(
+  def u "ctx.ml" 137 3353 3361 "ctx.ml" 138 3382 3414
+)
+"ctx.ml" 136 3328 3338 "ctx.ml" 136 3328 3342
+type(
+  'a option
+)
+"ctx.ml" 136 3328 3334 "ctx.ml" 136 3328 3343
+type(
+  ident * 'a option
+)
+"ctx.ml" 136 3328 3347 "ctx.ml" 136 3328 3349
+type(
+  (ident * 'a option) list
+)
+ident(
+  def cx "ctx.ml" 137 3353 3361 "ctx.ml" 138 3382 3414
+)
+"ctx.ml" 136 3328 3334 "ctx.ml" 136 3328 3349
+type(
+  (ident * 'a option) list
+)
+"ctx.ml" 137 3353 3361 "ctx.ml" 137 3353 3368
+type(
+  Format.formatter ->
+  ((Format.formatter -> (ident * 'a option) list -> unit) ->
+   (ident * 'a option) list ->
+   (Format.formatter -> ident -> unit) -> ident -> unit, Format.formatter,
+   unit)
+  format ->
+  (Format.formatter -> (ident * 'a option) list -> unit) ->
+  (ident * 'a option) list ->
+  (Format.formatter -> ident -> unit) -> ident -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"ctx.ml" 137 3353 3369 "ctx.ml" 137 3353 3371
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "ctx.ml" 128 3134 3147 "ctx.ml" 128 3134 3149
+)
+"ctx.ml" 137 3353 3372 "ctx.ml" 137 3353 3381
+type(
+  ((Format.formatter -> (ident * 'a option) list -> unit) ->
+   (ident * 'a option) list ->
+   (Format.formatter -> ident -> unit) -> ident -> unit, Format.formatter,
+   unit)
+  format
+)
+"ctx.ml" 138 3382 3392 "ctx.ml" 138 3382 3394
+type(
+  Format.formatter -> (ident * 'a option) list -> unit
+)
+ident(
+  int_ref pp "ctx.ml" 128 3134 3144 "ctx.ml" 128 3134 3146
+)
+"ctx.ml" 138 3382 3395 "ctx.ml" 138 3382 3397
+type(
+  (ident * 'a option) list
+)
+ident(
+  int_ref cx "ctx.ml" 136 3328 3347 "ctx.ml" 136 3328 3349
+)
+"ctx.ml" 138 3382 3398 "ctx.ml" 138 3382 3412
+type(
+  Format.formatter -> ident -> unit
+)
+ident(
+  int_ref pp_print_ident "ctx.ml" 123 2986 2990 "ctx.ml" 123 2986 3004
+)
+"ctx.ml" 138 3382 3413 "ctx.ml" 138 3382 3414
+type(
+  ident
+)
+ident(
+  int_ref u "ctx.ml" 136 3328 3335 "ctx.ml" 136 3328 3336
+)
+"ctx.ml" 137 3353 3361 "ctx.ml" 138 3382 3414
+type(
+  unit
+)
+"ctx.ml" 139 3415 3422 "ctx.ml" 139 3415 3423
+type(
+  ident
+)
+ident(
+  def u "ctx.ml" 140 3442 3450 "ctx.ml" 141 3475 3513
+)
+"ctx.ml" 139 3415 3430 "ctx.ml" 139 3415 3431
+type(
+  'a
+)
+ident(
+  def a "ctx.ml" 140 3442 3450 "ctx.ml" 141 3475 3513
+)
+"ctx.ml" 139 3415 3425 "ctx.ml" 139 3415 3431
+type(
+  'a option
+)
+"ctx.ml" 139 3415 3421 "ctx.ml" 139 3415 3432
+type(
+  ident * 'a option
+)
+"ctx.ml" 139 3415 3436 "ctx.ml" 139 3415 3438
+type(
+  (ident * 'a option) list
+)
+ident(
+  def cx "ctx.ml" 140 3442 3450 "ctx.ml" 141 3475 3513
+)
+"ctx.ml" 139 3415 3421 "ctx.ml" 139 3415 3438
+type(
+  (ident * 'a option) list
+)
+"ctx.ml" 140 3442 3450 "ctx.ml" 140 3442 3457
+type(
+  Format.formatter ->
+  ((Format.formatter -> (ident * 'a option) list -> unit) ->
+   (ident * 'a option) list ->
+   (Format.formatter -> ident -> unit) ->
+   ident -> (Format.formatter -> 'a -> unit) -> 'a -> unit, Format.formatter,
+   unit)
+  format ->
+  (Format.formatter -> (ident * 'a option) list -> unit) ->
+  (ident * 'a option) list ->
+  (Format.formatter -> ident -> unit) ->
+  ident -> (Format.formatter -> 'a -> unit) -> 'a -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"ctx.ml" 140 3442 3458 "ctx.ml" 140 3442 3460
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "ctx.ml" 128 3134 3147 "ctx.ml" 128 3134 3149
+)
+"ctx.ml" 140 3442 3461 "ctx.ml" 140 3442 3474
+type(
+  ((Format.formatter -> (ident * 'a option) list -> unit) ->
+   (ident * 'a option) list ->
+   (Format.formatter -> ident -> unit) ->
+   ident -> (Format.formatter -> 'a -> unit) -> 'a -> unit, Format.formatter,
+   unit)
+  format
+)
+"ctx.ml" 141 3475 3485 "ctx.ml" 141 3475 3487
+type(
+  Format.formatter -> (ident * 'a option) list -> unit
+)
+ident(
+  int_ref pp "ctx.ml" 128 3134 3144 "ctx.ml" 128 3134 3146
+)
+"ctx.ml" 141 3475 3488 "ctx.ml" 141 3475 3490
+type(
+  (ident * 'a option) list
+)
+ident(
+  int_ref cx "ctx.ml" 139 3415 3436 "ctx.ml" 139 3415 3438
+)
+"ctx.ml" 141 3475 3491 "ctx.ml" 141 3475 3505
+type(
+  Format.formatter -> ident -> unit
+)
+ident(
+  int_ref pp_print_ident "ctx.ml" 123 2986 2990 "ctx.ml" 123 2986 3004
+)
+"ctx.ml" 141 3475 3506 "ctx.ml" 141 3475 3507
+type(
+  ident
+)
+ident(
+  int_ref u "ctx.ml" 139 3415 3422 "ctx.ml" 139 3415 3423
+)
+"ctx.ml" 141 3475 3508 "ctx.ml" 141 3475 3511
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref fmt "ctx.ml" 127 3105 3122 "ctx.ml" 127 3105 3125
+)
+"ctx.ml" 141 3475 3512 "ctx.ml" 141 3475 3513
+type(
+  'a
+)
+ident(
+  int_ref a "ctx.ml" 139 3415 3430 "ctx.ml" 139 3415 3431
+)
+"ctx.ml" 140 3442 3450 "ctx.ml" 141 3475 3513
+type(
+  unit
+)
+"ctx.ml" 128 3134 3152 "ctx.ml" 141 3475 3513
+type(
+  (ident * 'a option) list -> unit
+)
+"ctx.ml" 142 3514 3519 "ctx.ml" 142 3514 3526
+type(
+  Format.formatter ->
+  ((Format.formatter -> (ident * 'a option) list -> unit) ->
+   (ident * 'a option) list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> (ident * 'a option) list -> unit) ->
+  (ident * 'a option) list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"ctx.ml" 142 3514 3527 "ctx.ml" 142 3514 3529
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "ctx.ml" 127 3105 3126 "ctx.ml" 127 3105 3128
+)
+"ctx.ml" 142 3514 3530 "ctx.ml" 142 3514 3542
+type(
+  ((Format.formatter -> (ident * 'a option) list -> unit) ->
+   (ident * 'a option) list -> unit, Format.formatter, unit)
+  format
+)
+"ctx.ml" 142 3514 3543 "ctx.ml" 142 3514 3545
+type(
+  Format.formatter -> (ident * 'a option) list -> unit
+)
+ident(
+  int_ref pp "ctx.ml" 128 3134 3144 "ctx.ml" 128 3134 3146
+)
+"ctx.ml" 142 3514 3546 "ctx.ml" 142 3514 3548
+type(
+  'a ctx
+)
+ident(
+  int_ref cx "ctx.ml" 127 3105 3129 "ctx.ml" 127 3105 3131
+)
+"ctx.ml" 142 3514 3546 "ctx.ml" 142 3514 3555
+type(
+  (ident * 'a option) list
+)
+"ctx.ml" 142 3514 3519 "ctx.ml" 142 3514 3555
+type(
+  unit
+)
+"ctx.ml" 128 3134 3136 "ctx.ml" 142 3514 3555
+type(
+  unit
+)

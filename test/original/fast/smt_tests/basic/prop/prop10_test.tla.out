@@ -1,0 +1,53 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:30:28 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp prop10_test.tla --stretch 5
+
+(* created new ".tlacache/TLAPS.tlaps/TLAPS.thy" *)
+(* fingerprints written in ".tlacache/TLAPS.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/prop10_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+COMMAND-LINE ARGUMENT
+file=.tlacache/prop10_test.tlaps/tlapm_a62b4d.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/prop10_test.tlaps/tlapm_a62b4d.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #1
+;;   generated from file "./prop10_test.tla", line 14, characters 5-11
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun bool2u (Bool) u)
+(declare-fun boolify (u) Bool)
+(declare-fun tla__BOOLEAN () u)
+(declare-fun tla__in (u u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Aunde_a () u)
+(declare-fun a_CONSTANTunde_Bunde_a () u)
+
+(assert
+  (forall ((X_3 Bool) (Y_4 Bool))
+  (=> (= (bool2u X_3) (bool2u Y_4)) (= X_3 Y_4))))
+(assert
+  (forall ((X_3 u))
+  (! (=> (tla__in X_3 tla__BOOLEAN) (= (bool2u (boolify X_3)) X_3)) :pattern ((tla__in X_3 tla__BOOLEAN)))))
+(assert
+  (forall ((S_6 u) (T_7 u))
+  (=> (forall ((X_3 u)) (= (tla__in X_3 S_6) (tla__in X_3 T_7))) (= S_6 T_7))))
+
+;; Theorem to be Proved
+(assert (not (boolify a_CONSTANTunde_Bunde_a)))
+(assert (tla__in a_CONSTANTunde_Aunde_a tla__BOOLEAN))
+(assert (tla__in a_CONSTANTunde_Bunde_a tla__BOOLEAN))
+(assert
+  (or (boolify a_CONSTANTunde_Aunde_a) (boolify a_CONSTANTunde_Bunde_a)))
+(assert (not (boolify a_CONSTANTunde_Aunde_a)))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+(* created new ".tlacache/prop10_test.tlaps/prop10_test.thy" *)
+(* fingerprints written in ".tlacache/prop10_test.tlaps/fingerprints" *)

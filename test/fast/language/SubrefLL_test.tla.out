@@ -1,0 +1,1288 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:14:24 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp SubrefLL_test.tla --stretch 5
+
+(* created new ".tlacache/TLAPS.tlaps/TLAPS.thy" *)
+(* fingerprints written in ".tlacache/TLAPS.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/SubrefLL_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_758552.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_758552.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #2
+;;   generated from file "./SubrefLL_test.tla", line 30, characters 1-2
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_de50b0.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_de50b0.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #4
+;;   generated from file "./SubrefLL_test.tla", line 34, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () u)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a (int2u 4)))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_10f36e.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_10f36e.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #5
+;;   generated from file "./SubrefLL_test.tla", line 46, characters 1-2
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_c0f6f5.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_c0f6f5.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #6
+;;   generated from file "./SubrefLL_test.tla", line 51, characters 1-2
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_70ea98.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_70ea98.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #8
+;;   generated from file "./SubrefLL_test.tla", line 54, characters 1-2
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_ecd430.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_ecd430.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #10
+;;   generated from file "./SubrefLL_test.tla", line 61, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_4 Int)) (! (= (u2int (int2u X_4)) X_4) :pattern ((int2u X_4)))))
+
+;; Theorem to be Proved
+(assert (not
+  (forall ((a_v1a u))
+    (=
+      (or
+        (= a_v1a (int2u 4)) (= a_v1a (int2u 5)) (= a_v1a (int2u 1))
+        (= a_v1a (int2u 2)) (= a_v1a (int2u 3)))
+      (or
+        (= a_v1a (int2u 2)) (= a_v1a (int2u 1)) (= a_v1a (int2u 3))
+        (= a_v1a (int2u 4)) (= a_v1a (int2u 5)))))))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_0aa210.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_0aa210.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #11
+;;   generated from file "./SubrefLL_test.tla", line 64, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_4 Int)) (! (= (u2int (int2u X_4)) X_4) :pattern ((int2u X_4)))))
+
+;; Theorem to be Proved
+(assert (not
+  (forall ((a_v1a u))
+    (=
+      (or
+        (= a_v1a (int2u 99)) (= a_v1a (int2u 2)) (= a_v1a (int2u 1))
+        (= a_v1a (int2u 2)) (= a_v1a (int2u 3)))
+      (or
+        (= a_v1a (int2u 99)) (= a_v1a (int2u 1)) (= a_v1a (int2u 2))
+        (= a_v1a (int2u 3)))))))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_a99eed.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_a99eed.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #12
+;;   generated from file "./SubrefLL_test.tla", line 67, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_4 Int)) (! (= (u2int (int2u X_4)) X_4) :pattern ((int2u X_4)))))
+
+;; Theorem to be Proved
+(assert (not
+  (forall ((a_v1a u))
+    (=
+      (or
+        (= a_v1a (int2u 99)) (= a_v1a (int2u 2)) (= a_v1a (int2u 1))
+        (= a_v1a (int2u 2)) (= a_v1a (int2u 3)))
+      (or
+        (= a_v1a (int2u 99)) (= a_v1a (int2u 1)) (= a_v1a (int2u 2))
+        (= a_v1a (int2u 3)))))))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_4844dc.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_4844dc.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #13
+;;   generated from file "./SubrefLL_test.tla", line 70, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_4 Int)) (! (= (u2int (int2u X_4)) X_4) :pattern ((int2u X_4)))))
+
+;; Theorem to be Proved
+(assert (not
+  (forall ((a_v1a u))
+    (=
+      (or
+        (= a_v1a (int2u 99)) (= a_v1a (int2u 2)) (= a_v1a (int2u 1))
+        (= a_v1a (int2u 2)) (= a_v1a (int2u 3)))
+      (or
+        (= a_v1a (int2u 99)) (= a_v1a (int2u 1)) (= a_v1a (int2u 2))
+        (= a_v1a (int2u 3)))))))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_12416a.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_12416a.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #14
+;;   generated from file "./SubrefLL_test.tla", line 74, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_4 Int)) (! (= (u2int (int2u X_4)) X_4) :pattern ((int2u X_4)))))
+
+;; Theorem to be Proved
+(assert (not
+  (forall ((a_v1a u))
+    (=
+      (or
+        (= a_v1a (int2u 4)) (= a_v1a (int2u 5)) (= a_v1a (int2u 1))
+        (= a_v1a (int2u 2)) (= a_v1a (int2u 3)))
+      (or
+        (= a_v1a (int2u 2)) (= a_v1a (int2u 1)) (= a_v1a (int2u 3))
+        (= a_v1a (int2u 4)) (= a_v1a (int2u 5)))))))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_c91560.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_c91560.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #15
+;;   generated from file "./SubrefLL_test.tla", line 81, characters 1-2
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_ac40f8.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_ac40f8.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #17
+;;   generated from file "./SubrefLL_test.tla", line 84, characters 1-2
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_2ba15d.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_2ba15d.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #19
+;;   generated from file "./SubrefLL_test.tla", line 87, characters 1-2
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_b520b4.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_b520b4.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #21
+;;   generated from file "./SubrefLL_test.tla", line 91, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_5d56aa.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_5d56aa.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #22
+;;   generated from file "./SubrefLL_test.tla", line 95, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_1a3f79.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_1a3f79.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #23
+;;   generated from file "./SubrefLL_test.tla", line 98, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_ec4005.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_ec4005.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #24
+;;   generated from file "./SubrefLL_test.tla", line 103, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_b6d37a.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_b6d37a.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #25
+;;   generated from file "./SubrefLL_test.tla", line 106, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_025652.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_025652.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #26
+;;   generated from file "./SubrefLL_test.tla", line 110, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_5df1ee.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_5df1ee.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #27
+;;   generated from file "./SubrefLL_test.tla", line 114, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_7c5792.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_7c5792.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #28
+;;   generated from file "./SubrefLL_test.tla", line 117, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_7ce3e8.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_7ce3e8.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #29
+;;   generated from file "./SubrefLL_test.tla", line 120, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_32873b.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_32873b.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #30
+;;   generated from file "./SubrefLL_test.tla", line 124, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun tla__in (u u) Bool)
+(declare-fun tla__isAFcn (u) Bool)
+(declare-fun tla__DOMAIN (u) u)
+(declare-fun tla__fcnapp (u u) u)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+(declare-fun a_aunde_unde_1a () u)
+(declare-fun a_aunde_unde_2a () u)
+
+(assert
+  (forall ((X_6 Int)) (! (= (u2int (int2u X_6)) X_6) :pattern ((int2u X_6)))))
+(assert
+  (forall ((S_9 u) (T_10 u))
+  (=> (forall ((X_6 u)) (= (tla__in X_6 S_9) (tla__in X_6 T_10))) (= S_9 T_10))))
+(assert
+  (forall ((F_12 u) (G_13 u))
+  (=>
+  (and
+  (tla__isAFcn F_12) (tla__isAFcn G_13)
+  (forall ((X_6 u))
+  (= (tla__in X_6 (tla__DOMAIN F_12)) (tla__in X_6 (tla__DOMAIN G_13)))))
+  (= (tla__DOMAIN F_12) (tla__DOMAIN G_13)))))
+(assert
+  (forall ((F_12 u) (G_13 u))
+  (=>
+  (and
+  (tla__isAFcn F_12) (tla__isAFcn G_13)
+  (= (tla__DOMAIN F_12) (tla__DOMAIN G_13))
+  (forall ((X_6 u))
+  (=>
+  (tla__in X_6 (tla__DOMAIN G_13))
+  (= (tla__fcnapp F_12 X_6) (tla__fcnapp G_13 X_6)))))
+  (= F_12 G_13))))
+
+;; Theorem to be Proved
+(assert (not (= (tla__fcnapp a_aunde_unde_1a (int2u 3)) (int2u 4))))
+(assert
+  (forall ((a_v3a u))
+    (! (=
+         (tla__in a_v3a a_aunde_unde_2a)
+         (or
+           (= a_v3a (int2u 1)) (= a_v3a (int2u 2)) (= a_v3a (int2u 3))
+           (= a_v3a (int2u 4)) (= a_v3a (int2u 5)) (= a_v3a (int2u 6))
+           (= a_v3a (int2u 7)) (= a_v3a (int2u 8)) (= a_v3a (int2u 9))
+           (= a_v3a (int2u 10)))) :pattern ((tla__in a_v3a a_aunde_unde_2a)))))
+(assert (tla__isAFcn a_aunde_unde_1a))
+(assert (= (tla__DOMAIN a_aunde_unde_1a) a_aunde_unde_2a))
+(assert (= (tla__fcnapp a_aunde_unde_1a (int2u 1)) (int2u 2)))
+(assert (= (tla__fcnapp a_aunde_unde_1a (int2u 2)) (int2u 3)))
+(assert (= (tla__fcnapp a_aunde_unde_1a (int2u 3)) (int2u 4)))
+(assert (= (tla__fcnapp a_aunde_unde_1a (int2u 4)) (int2u 5)))
+(assert (= (tla__fcnapp a_aunde_unde_1a (int2u 5)) (int2u 6)))
+(assert (= (tla__fcnapp a_aunde_unde_1a (int2u 6)) (int2u 7)))
+(assert (= (tla__fcnapp a_aunde_unde_1a (int2u 7)) (int2u 8)))
+(assert (= (tla__fcnapp a_aunde_unde_1a (int2u 8)) (int2u 9)))
+(assert (= (tla__fcnapp a_aunde_unde_1a (int2u 9)) (int2u 10)))
+(assert (= (tla__fcnapp a_aunde_unde_1a (int2u 10)) (int2u 11)))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_c90bef.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_c90bef.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #31
+;;   generated from file "./SubrefLL_test.tla", line 128, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_d527d3.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_d527d3.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #32
+;;   generated from file "./SubrefLL_test.tla", line 131, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_96760c.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_96760c.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #33
+;;   generated from file "./SubrefLL_test.tla", line 136, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_9ca590.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_9ca590.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #34
+;;   generated from file "./SubrefLL_test.tla", line 141, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_93b5cc.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_93b5cc.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #35
+;;   generated from file "./SubrefLL_test.tla", line 146, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_3d8fc5.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_3d8fc5.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #36
+;;   generated from file "./SubrefLL_test.tla", line 151, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_a860db.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_a860db.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #37
+;;   generated from file "./SubrefLL_test.tla", line 158, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_56551a.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_56551a.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #38
+;;   generated from file "./SubrefLL_test.tla", line 168, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_db44a2.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_db44a2.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #39
+;;   generated from file "./SubrefLL_test.tla", line 174, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_2edbef.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_2edbef.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #40
+;;   generated from file "./SubrefLL_test.tla", line 181, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_76b5af.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_76b5af.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #41
+;;   generated from file "./SubrefLL_test.tla", line 190, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_113dc0.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_113dc0.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #42
+;;   generated from file "./SubrefLL_test.tla", line 198, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_e21c1f.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_e21c1f.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #43
+;;   generated from file "./SubrefLL_test.tla", line 202, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_5bd463.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_5bd463.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #44
+;;   generated from file "./SubrefLL_test.tla", line 208, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_783b50.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_783b50.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #45
+;;   generated from file "./SubrefLL_test.tla", line 214, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_2ed5c5.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_2ed5c5.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #46
+;;   generated from file "./SubrefLL_test.tla", line 220, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_960a72.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_960a72.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #47
+;;   generated from file "./SubrefLL_test.tla", line 225, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/SubrefLL_test.tlaps/tlapm_6bb24b.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/SubrefLL_test.tlaps/tlapm_6bb24b.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #48
+;;   generated from file "./SubrefLL_test.tla", line 232, characters 1-7
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Cunde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_CONSTANTunde_Cunde_a 4))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+(* created new ".tlacache/SubrefLL_test.tlaps/SubrefLL_test.thy" *)
+(* fingerprints written in ".tlacache/SubrefLL_test.tlaps/fingerprints" *)

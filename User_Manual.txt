@@ -1,0 +1,53 @@
+User Manual of TLA+ Proof Manager (tlapm)
+=========================================
+
+TLA+ specifications containing examples of real arithmetic can be found in the 
+${prefix}/lib/tlaps/examples/real_num_examples folder 
+(${prefix} is the directory in which tlapm is installed)
+
+Running tlapm via the TLA+ toolbox
+==================================
+Prior to running tlapm via the toolbox IDE you need to add the location of TLAPS.tla file to
+the list of libraries used by the Toolbox by opening the Toolbox and going to 
+"File > Preferences > TLA+ Preferences" and add the directory where TLAPS.tla is located to the 
+list of library path locations i.e. ${prefix}/lib/tlaps/
+
+The location the tlapm should be set via "File > Preferences > TLAPS" and add in
+the location of the tlapm created during installation i.e. ${prefix}/bin/tlapm
+
+The toolbox enables proving theorems one at a time. In order to prove a theorem right-click the theorem to be proved 
+and follow "TLA Proof Manager > Launch Prover...", if the theorem is highlighted green as a result 
+the theorem has been proved successfully, if the theorem is highlighted red then the theorem failed to be proved.
+If the theorem is highlighted red an additional window appears providing user an indication of the theorem 
+that failed to be proved and the resultant backend error.
+
+Running tlapm via the command-line terminal
+===========================================
+To run tlapm via the command-line terminal change the current directory to the location of the bin folder 
+which was created during installation (${prefix}/bin) 
+and run the following command to run tlapm
+
+./tlapm <options> FILE 
+
+where ./tlapm would invoke the tlapm binary executable file and FILE is replaced by
+the filepath containing the TLA+ specifications containing the theorems to be proved. 
+The <options> represents additional arguments to passed
+(available arguments can be found by ./tlapm --help command)
+
+As an example, to prove the theorem contained in TLA+ specification
+RealNumExample1.tla we run the following command
+
+./tlapm --cleanfp ../lib/tlaps/examples/real_num_examples/RealNumExample1.tla
+
+where we include the option --cleanfp to erase any fingerprint files which were created 
+during previous proving of theorems in the same file.
+The location of RealNumExample1.tla is given as a relative path to the tlapm executable
+
+If the theorem is proved successfully then the following output result is produced
+
+[INFO] All x obligations proved.
+
+otherwise the following error output result is produced
+
+[ERROR] Could not prove or check 
+[ERROR] x/y obligations failed.

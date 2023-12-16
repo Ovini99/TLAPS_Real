@@ -1,0 +1,38 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:27:46 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp parameterized_instantiation_test.tla --stretch 5
+
+(* created new ".tlacache/FiniteSets.tlaps/FiniteSets.thy" *)
+(* fingerprints written in ".tlacache/FiniteSets.tlaps/fingerprints" *)
+(* created new ".tlacache/parameterized_instantiation_aux.tlaps/parameterized_instantiation_aux.thy" *)
+(* fingerprints written in ".tlacache/parameterized_instantiation_aux.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/parameterized_instantiation_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+COMMAND-LINE ARGUMENT
+file=.tlacache/parameterized_instantiation_test.tlaps/tlapm_b3edb6.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/parameterized_instantiation_test.tlaps/tlapm_b3edb6.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #1
+;;   generated from file "./parameterized_instantiation_test.tla", line 8, characters 1-2
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+
+;; Terms, predicates and strings
+(declare-fun a_VARIABLEunde_xunde_a () u)
+(declare-fun a_VARIABLEunde_zunde_a () u)
+
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (= a_VARIABLEunde_xunde_a a_VARIABLEunde_zunde_a))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+(* created new ".tlacache/parameterized_instantiation_test.tlaps/parameterized_instantiation_test.thy" *)
+(* fingerprints written in ".tlacache/parameterized_instantiation_test.tlaps/fingerprints" *)

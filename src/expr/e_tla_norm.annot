@@ -1,0 +1,3238 @@
+"e_tla_norm.ml" 11 150 157 "e_tla_norm.ml" 11 150 158
+ident(
+  def B "e_tla_norm.ml" 11 150 168 "e_tla_norm.ml" 0 0 -1
+)
+"e_tla_norm.ml" 13 170 178 "e_tla_norm.ml" 13 170 191
+type(
+  E_t.expr -> E_t.expr list
+)
+ident(
+  def tuple_flatten "e_tla_norm.ml" 13 170 170 "e_tla_norm.ml" 0 0 -1
+)
+"e_tla_norm.ml" 13 170 192 "e_tla_norm.ml" 13 170 193
+type(
+  E_t.expr
+)
+ident(
+  def e "e_tla_norm.ml" 13 170 196 "e_tla_norm.ml" 16 276 288
+)
+"e_tla_norm.ml" 13 170 202 "e_tla_norm.ml" 13 170 203
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 13 170 192 "e_tla_norm.ml" 13 170 193
+)
+"e_tla_norm.ml" 13 170 202 "e_tla_norm.ml" 13 170 208
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 14 214 224 "e_tla_norm.ml" 14 214 226
+type(
+  E_t.expr list
+)
+ident(
+  def es "e_tla_norm.ml" 15 230 236 "e_tla_norm.ml" 15 230 275
+)
+"e_tla_norm.ml" 14 214 218 "e_tla_norm.ml" 14 214 226
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 15 230 236 "e_tla_norm.ml" 15 230 247
+type(
+  E_t.expr list list -> E_t.expr list
+)
+ident(
+  int_ref Ext.List.concat "ext.mli" 14 345 347 "ext.mli" 14 345 383
+)
+"e_tla_norm.ml" 15 230 249 "e_tla_norm.ml" 15 230 257
+type(
+  (E_t.expr -> E_t.expr list) -> E_t.expr list -> E_t.expr list list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"e_tla_norm.ml" 15 230 258 "e_tla_norm.ml" 15 230 271
+type(
+  E_t.expr -> E_t.expr list
+)
+ident(
+  int_ref tuple_flatten "e_tla_norm.ml" 13 170 178 "e_tla_norm.ml" 13 170 191
+)
+"e_tla_norm.ml" 15 230 272 "e_tla_norm.ml" 15 230 274
+type(
+  E_t.expr list
+)
+ident(
+  int_ref es "e_tla_norm.ml" 14 214 224 "e_tla_norm.ml" 14 214 226
+)
+"e_tla_norm.ml" 15 230 248 "e_tla_norm.ml" 15 230 275
+type(
+  E_t.expr list list
+)
+"e_tla_norm.ml" 15 230 236 "e_tla_norm.ml" 15 230 275
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 16 276 280 "e_tla_norm.ml" 16 276 281
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 16 276 286 "e_tla_norm.ml" 16 276 287
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 13 170 192 "e_tla_norm.ml" 13 170 193
+)
+"e_tla_norm.ml" 16 276 285 "e_tla_norm.ml" 16 276 288
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 13 170 196 "e_tla_norm.ml" 16 276 288
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 18 290 294 "e_tla_norm.ml" 18 290 303
+type(
+  E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  def unchanged "e_tla_norm.ml" 22 422 422 "e_tla_norm.ml" 0 0 -1
+)
+"e_tla_norm.ml" 18 290 304 "e_tla_norm.ml" 18 290 305
+type(
+  E_t.expr
+)
+ident(
+  def e "e_tla_norm.ml" 19 308 310 "e_tla_norm.ml" 20 326 420
+)
+"e_tla_norm.ml" 19 308 314 "e_tla_norm.ml" 19 308 318
+type(
+  E_t.expr
+)
+ident(
+  def dest "e_tla_norm.ml" 20 326 328 "e_tla_norm.ml" 20 326 420
+)
+"e_tla_norm.ml" 19 308 321 "e_tla_norm.ml" 19 308 322
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 18 290 304 "e_tla_norm.ml" 18 290 305
+)
+"e_tla_norm.ml" 20 326 344 "e_tla_norm.ml" 20 326 348
+type(
+  B.builtin
+)
+"e_tla_norm.ml" 20 326 335 "e_tla_norm.ml" 20 326 348
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 20 326 349 "e_tla_norm.ml" 20 326 351
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 20 326 352 "e_tla_norm.ml" 20 326 356
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 19 308 314 "e_tla_norm.ml" 19 308 318
+)
+"e_tla_norm.ml" 20 326 335 "e_tla_norm.ml" 20 326 356
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 20 326 376 "e_tla_norm.ml" 20 326 383
+type(
+  B.builtin
+)
+"e_tla_norm.ml" 20 326 367 "e_tla_norm.ml" 20 326 383
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 20 326 384 "e_tla_norm.ml" 20 326 386
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 20 326 387 "e_tla_norm.ml" 20 326 391
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 19 308 314 "e_tla_norm.ml" 19 308 318
+)
+"e_tla_norm.ml" 20 326 367 "e_tla_norm.ml" 20 326 391
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 20 326 394 "e_tla_norm.ml" 20 326 395
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 18 290 304 "e_tla_norm.ml" 18 290 305
+)
+"e_tla_norm.ml" 20 326 393 "e_tla_norm.ml" 20 326 396
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 20 326 360 "e_tla_norm.ml" 20 326 397
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 20 326 398 "e_tla_norm.ml" 20 326 400
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 20 326 401 "e_tla_norm.ml" 20 326 405
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 19 308 314 "e_tla_norm.ml" 19 308 318
+)
+"e_tla_norm.ml" 20 326 360 "e_tla_norm.ml" 20 326 405
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 20 326 408 "e_tla_norm.ml" 20 326 409
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 18 290 304 "e_tla_norm.ml" 18 290 305
+)
+"e_tla_norm.ml" 20 326 358 "e_tla_norm.ml" 20 326 411
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 20 326 328 "e_tla_norm.ml" 20 326 412
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 20 326 413 "e_tla_norm.ml" 20 326 415
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 20 326 416 "e_tla_norm.ml" 20 326 420
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 19 308 314 "e_tla_norm.ml" 19 308 318
+)
+"e_tla_norm.ml" 20 326 328 "e_tla_norm.ml" 20 326 420
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_tla_norm.ml" 19 308 310 "e_tla_norm.ml" 20 326 420
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_tla_norm.ml" 22 422 426 "e_tla_norm.ml" 22 422 438
+type(
+  E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  def rewrite_unch "e_tla_norm.ml" 29 606 606 "e_tla_norm.ml" 0 0 -1
+)
+"e_tla_norm.ml" 22 422 439 "e_tla_norm.ml" 22 422 440
+type(
+  E_t.expr
+)
+ident(
+  def e "e_tla_norm.ml" 23 443 445 "e_tla_norm.ml" 27 551 604
+)
+"e_tla_norm.ml" 23 443 449 "e_tla_norm.ml" 23 443 453
+type(
+  E_t.expr
+)
+ident(
+  def dest "e_tla_norm.ml" 24 461 463 "e_tla_norm.ml" 27 551 604
+)
+"e_tla_norm.ml" 23 443 456 "e_tla_norm.ml" 23 443 457
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 22 422 439 "e_tla_norm.ml" 22 422 440
+)
+"e_tla_norm.ml" 24 461 469 "e_tla_norm.ml" 24 461 482
+type(
+  E_t.expr -> E_t.expr list
+)
+ident(
+  int_ref tuple_flatten "e_tla_norm.ml" 13 170 178 "e_tla_norm.ml" 13 170 191
+)
+"e_tla_norm.ml" 24 461 483 "e_tla_norm.ml" 24 461 484
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 22 422 439 "e_tla_norm.ml" 22 422 440
+)
+"e_tla_norm.ml" 24 461 469 "e_tla_norm.ml" 24 461 484
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 25 490 496 "e_tla_norm.ml" 25 490 498
+type(
+  E_t.expr list
+)
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 25 490 511 "e_tla_norm.ml" 25 490 517
+type(
+  B.builtin
+)
+"e_tla_norm.ml" 25 490 502 "e_tla_norm.ml" 25 490 517
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 25 490 518 "e_tla_norm.ml" 25 490 520
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 25 490 521 "e_tla_norm.ml" 25 490 525
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 23 443 449 "e_tla_norm.ml" 23 443 453
+)
+"e_tla_norm.ml" 25 490 502 "e_tla_norm.ml" 25 490 525
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_tla_norm.ml" 26 526 533 "e_tla_norm.ml" 26 526 534
+type(
+  E_t.expr
+)
+ident(
+  def e "e_tla_norm.ml" 26 526 539 "e_tla_norm.ml" 26 526 550
+)
+"e_tla_norm.ml" 26 526 532 "e_tla_norm.ml" 26 526 535
+type(
+  E_t.expr list
+)
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 26 526 539 "e_tla_norm.ml" 26 526 548
+type(
+  E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref unchanged "e_tla_norm.ml" 18 290 294 "e_tla_norm.ml" 18 290 303
+)
+"e_tla_norm.ml" 26 526 549 "e_tla_norm.ml" 26 526 550
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 26 526 533 "e_tla_norm.ml" 26 526 534
+)
+"e_tla_norm.ml" 26 526 539 "e_tla_norm.ml" 26 526 550
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_tla_norm.ml" 27 551 557 "e_tla_norm.ml" 27 551 559
+type(
+  E_t.expr list
+)
+type(
+  E_t.expr list
+)
+ident(
+  def es "e_tla_norm.ml" 27 551 563 "e_tla_norm.ml" 27 551 604
+)
+"e_tla_norm.ml" 27 551 569 "e_tla_norm.ml" 27 551 572
+type(
+  E_t.bullet
+)
+"e_tla_norm.ml" 27 551 574 "e_tla_norm.ml" 27 551 582
+type(
+  (E_t.expr -> E_t.expr) -> E_t.expr list -> E_t.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"e_tla_norm.ml" 27 551 583 "e_tla_norm.ml" 27 551 592
+type(
+  E_t.expr -> E_t.expr
+)
+ident(
+  int_ref unchanged "e_tla_norm.ml" 18 290 294 "e_tla_norm.ml" 18 290 303
+)
+"e_tla_norm.ml" 27 551 593 "e_tla_norm.ml" 27 551 595
+type(
+  E_t.expr list
+)
+ident(
+  int_ref es "e_tla_norm.ml" 27 551 557 "e_tla_norm.ml" 27 551 559
+)
+"e_tla_norm.ml" 27 551 574 "e_tla_norm.ml" 27 551 595
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 27 551 563 "e_tla_norm.ml" 27 551 596
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 27 551 597 "e_tla_norm.ml" 27 551 599
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 27 551 600 "e_tla_norm.ml" 27 551 604
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 23 443 449 "e_tla_norm.ml" 23 443 453
+)
+"e_tla_norm.ml" 27 551 563 "e_tla_norm.ml" 27 551 604
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_tla_norm.ml" 24 461 463 "e_tla_norm.ml" 27 551 604
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_tla_norm.ml" 23 443 445 "e_tla_norm.ml" 27 551 604
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_tla_norm.ml" 34 733 737 "e_tla_norm.ml" 34 733 751
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  def expand_leadsto "e_tla_norm.ml" 52 1286 1286 "e_tla_norm.ml" 0 0 -1
+)
+"e_tla_norm.ml" 35 754 760 "e_tla_norm.ml" 35 754 767
+type(
+  unit E_visit.map
+)
+ident(
+  def visitor "e_tla_norm.ml" 49 1247 1249 "e_tla_norm.ml" 50 1262 1284
+)
+"e_tla_norm.ml" 35 754 778 "e_tla_norm.ml" 35 754 782
+type(
+  unit E_visit.map
+)
+type(
+  unit E_visit.map
+)
+"e_tla_norm.ml" 37 832 848 "e_tla_norm.ml" 37 832 851
+type(
+  unit E_visit.scx
+)
+ident(
+  def scx "e_tla_norm.ml" 37 832 852 "e_tla_norm.ml" 47 1208 1237
+)
+"e_tla_norm.ml" 37 832 852 "e_tla_norm.ml" 37 832 853
+type(
+  E_t.expr
+)
+ident(
+  def e "e_tla_norm.ml" 37 832 856 "e_tla_norm.ml" 47 1208 1237
+)
+"e_tla_norm.ml" 37 832 862 "e_tla_norm.ml" 37 832 863
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 37 832 852 "e_tla_norm.ml" 37 832 853
+)
+"e_tla_norm.ml" 37 832 862 "e_tla_norm.ml" 37 832 868
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 38 874 907 "e_tla_norm.ml" 38 874 916
+type(
+  Builtin.builtin
+)
+"e_tla_norm.ml" 38 874 898 "e_tla_norm.ml" 38 874 916
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 38 874 889 "e_tla_norm.ml" 38 874 918
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 38 874 921 "e_tla_norm.ml" 38 874 923
+type(
+  E_t.expr
+)
+ident(
+  def f1 "e_tla_norm.ml" 39 932 942 "e_tla_norm.ml" 46 1188 1207
+)
+"e_tla_norm.ml" 38 874 924 "e_tla_norm.ml" 38 874 926
+type(
+  E_t.expr
+)
+ident(
+  def f2 "e_tla_norm.ml" 39 932 942 "e_tla_norm.ml" 46 1188 1207
+)
+"e_tla_norm.ml" 38 874 920 "e_tla_norm.ml" 38 874 927
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 38 874 882 "e_tla_norm.ml" 38 874 928
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 39 932 965 "e_tla_norm.ml" 39 932 969
+type(
+  bool
+)
+"e_tla_norm.ml" 39 932 958 "e_tla_norm.ml" 39 932 970
+type(
+  B.builtin
+)
+"e_tla_norm.ml" 39 932 949 "e_tla_norm.ml" 39 932 970
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 39 932 971 "e_tla_norm.ml" 39 932 973
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 39 932 974 "e_tla_norm.ml" 39 932 975
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 37 832 852 "e_tla_norm.ml" 37 832 853
+)
+"e_tla_norm.ml" 39 932 949 "e_tla_norm.ml" 39 932 975
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 40 979 1007 "e_tla_norm.ml" 40 979 1016
+type(
+  B.builtin
+)
+"e_tla_norm.ml" 40 979 998 "e_tla_norm.ml" 40 979 1016
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 40 979 1017 "e_tla_norm.ml" 40 979 1019
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 40 979 1020 "e_tla_norm.ml" 40 979 1021
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 37 832 852 "e_tla_norm.ml" 37 832 853
+)
+"e_tla_norm.ml" 40 979 998 "e_tla_norm.ml" 40 979 1021
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 41 1025 1039 "e_tla_norm.ml" 41 1025 1043
+type(
+  unit E_visit.map
+)
+ident(
+  ext_ref self-1
+)
+"e_tla_norm.ml" 41 1025 1039 "e_tla_norm.ml" 41 1025 1048
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 41 1025 1049 "e_tla_norm.ml" 41 1025 1052
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_tla_norm.ml" 37 832 848 "e_tla_norm.ml" 37 832 851
+)
+"e_tla_norm.ml" 41 1025 1053 "e_tla_norm.ml" 41 1025 1055
+type(
+  E_t.expr
+)
+ident(
+  int_ref f1 "e_tla_norm.ml" 38 874 921 "e_tla_norm.ml" 38 874 923
+)
+"e_tla_norm.ml" 41 1025 1039 "e_tla_norm.ml" 41 1025 1055
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 42 1057 1089 "e_tla_norm.ml" 42 1057 1098
+type(
+  B.builtin
+)
+"e_tla_norm.ml" 42 1057 1080 "e_tla_norm.ml" 42 1057 1098
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 42 1057 1099 "e_tla_norm.ml" 42 1057 1101
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 42 1057 1102 "e_tla_norm.ml" 42 1057 1103
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 37 832 852 "e_tla_norm.ml" 37 832 853
+)
+"e_tla_norm.ml" 42 1057 1080 "e_tla_norm.ml" 42 1057 1103
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 43 1107 1125 "e_tla_norm.ml" 43 1107 1129
+type(
+  unit E_visit.map
+)
+ident(
+  ext_ref self-1
+)
+"e_tla_norm.ml" 43 1107 1125 "e_tla_norm.ml" 43 1107 1134
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 43 1107 1135 "e_tla_norm.ml" 43 1107 1138
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_tla_norm.ml" 37 832 848 "e_tla_norm.ml" 37 832 851
+)
+"e_tla_norm.ml" 43 1107 1139 "e_tla_norm.ml" 43 1107 1141
+type(
+  E_t.expr
+)
+ident(
+  int_ref f2 "e_tla_norm.ml" 38 874 924 "e_tla_norm.ml" 38 874 926
+)
+"e_tla_norm.ml" 43 1107 1125 "e_tla_norm.ml" 43 1107 1141
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 42 1057 1105 "e_tla_norm.ml" 43 1107 1142
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 42 1057 1073 "e_tla_norm.ml" 43 1107 1143
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 43 1107 1144 "e_tla_norm.ml" 43 1107 1146
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 43 1107 1147 "e_tla_norm.ml" 43 1107 1148
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 37 832 852 "e_tla_norm.ml" 37 832 853
+)
+"e_tla_norm.ml" 42 1057 1073 "e_tla_norm.ml" 43 1107 1148
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 40 979 1023 "e_tla_norm.ml" 44 1149 1166
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 40 979 991 "e_tla_norm.ml" 45 1167 1182
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 45 1167 1183 "e_tla_norm.ml" 45 1167 1185
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 45 1167 1186 "e_tla_norm.ml" 45 1167 1187
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 37 832 852 "e_tla_norm.ml" 37 832 853
+)
+"e_tla_norm.ml" 40 979 991 "e_tla_norm.ml" 45 1167 1187
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 39 932 977 "e_tla_norm.ml" 46 1188 1201
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 39 932 942 "e_tla_norm.ml" 46 1188 1202
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 46 1188 1203 "e_tla_norm.ml" 46 1188 1205
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 46 1188 1206 "e_tla_norm.ml" 46 1188 1207
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 37 832 852 "e_tla_norm.ml" 37 832 853
+)
+"e_tla_norm.ml" 39 932 942 "e_tla_norm.ml" 46 1188 1207
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 47 1208 1216 "e_tla_norm.ml" 47 1208 1217
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 47 1208 1221 "e_tla_norm.ml" 47 1208 1226
+type(
+  unit E_visit.map
+)
+ident(
+  ext_ref self-1
+)
+type(
+  unit E_visit.map
+)
+ident(
+  int_ref super "e_tla_norm.ml" 36 792 804 "e_tla_norm.ml" 36 792 822
+)
+"e_tla_norm.ml" 47 1208 1221 "e_tla_norm.ml" 47 1208 1231
+type(
+  unit E_visit.map -> unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 47 1208 1232 "e_tla_norm.ml" 47 1208 1235
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_tla_norm.ml" 37 832 848 "e_tla_norm.ml" 37 832 851
+)
+"e_tla_norm.ml" 47 1208 1236 "e_tla_norm.ml" 47 1208 1237
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 37 832 852 "e_tla_norm.ml" 37 832 853
+)
+"e_tla_norm.ml" 47 1208 1221 "e_tla_norm.ml" 47 1208 1237
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 37 832 856 "e_tla_norm.ml" 47 1208 1237
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 35 754 770 "e_tla_norm.ml" 48 1238 1243
+type(
+  unit E_visit.map
+)
+"e_tla_norm.ml" 49 1247 1253 "e_tla_norm.ml" 49 1247 1256
+type(
+  unit E_visit.scx
+)
+ident(
+  def scx "e_tla_norm.ml" 49 1247 1257 "e_tla_norm.ml" 50 1262 1284
+)
+"e_tla_norm.ml" 49 1247 1257 "e_tla_norm.ml" 49 1247 1258
+type(
+  E_t.expr
+)
+ident(
+  def e "e_tla_norm.ml" 50 1262 1266 "e_tla_norm.ml" 50 1262 1284
+)
+"e_tla_norm.ml" 50 1262 1266 "e_tla_norm.ml" 50 1262 1273
+type(
+  unit E_visit.map
+)
+ident(
+  int_ref visitor "e_tla_norm.ml" 35 754 760 "e_tla_norm.ml" 35 754 767
+)
+"e_tla_norm.ml" 50 1262 1266 "e_tla_norm.ml" 50 1262 1278
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 50 1262 1279 "e_tla_norm.ml" 50 1262 1282
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_tla_norm.ml" 49 1247 1253 "e_tla_norm.ml" 49 1247 1256
+)
+"e_tla_norm.ml" 50 1262 1283 "e_tla_norm.ml" 50 1262 1284
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 49 1247 1257 "e_tla_norm.ml" 49 1247 1258
+)
+"e_tla_norm.ml" 50 1262 1266 "e_tla_norm.ml" 50 1262 1284
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 49 1247 1249 "e_tla_norm.ml" 50 1262 1284
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 35 754 756 "e_tla_norm.ml" 50 1262 1284
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 52 1286 1290 "e_tla_norm.ml" 52 1286 1305
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  def expand_fairness "e_tla_norm.ml" 71 2086 2086 "e_tla_norm.ml" 0 0 -1
+)
+"e_tla_norm.ml" 53 1308 1314 "e_tla_norm.ml" 53 1308 1321
+type(
+  unit E_visit.map
+)
+ident(
+  def visitor "e_tla_norm.ml" 68 2047 2049 "e_tla_norm.ml" 69 2062 2084
+)
+"e_tla_norm.ml" 53 1308 1332 "e_tla_norm.ml" 53 1308 1336
+type(
+  unit E_visit.map
+)
+type(
+  unit E_visit.map
+)
+"e_tla_norm.ml" 55 1386 1402 "e_tla_norm.ml" 55 1386 1405
+type(
+  unit E_visit.scx
+)
+ident(
+  def scx "e_tla_norm.ml" 55 1386 1406 "e_tla_norm.ml" 66 2008 2037
+)
+"e_tla_norm.ml" 55 1386 1406 "e_tla_norm.ml" 55 1386 1407
+type(
+  E_t.expr
+)
+ident(
+  def e "e_tla_norm.ml" 56 1410 1416 "e_tla_norm.ml" 66 2008 2037
+)
+"e_tla_norm.ml" 56 1410 1420 "e_tla_norm.ml" 56 1410 1427
+type(
+  E_t.expr -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  def sub_dia "e_tla_norm.ml" 57 1457 1463 "e_tla_norm.ml" 66 2008 2037
+)
+"e_tla_norm.ml" 56 1410 1428 "e_tla_norm.ml" 56 1410 1429
+type(
+  E_t.expr
+)
+ident(
+  def f "e_tla_norm.ml" 56 1410 1430 "e_tla_norm.ml" 56 1410 1453
+)
+"e_tla_norm.ml" 56 1410 1430 "e_tla_norm.ml" 56 1410 1431
+type(
+  E_t.expr
+)
+ident(
+  def a "e_tla_norm.ml" 56 1410 1434 "e_tla_norm.ml" 56 1410 1453
+)
+"e_tla_norm.ml" 56 1410 1439 "e_tla_norm.ml" 56 1410 1442
+type(
+  E_t.modal_op
+)
+"e_tla_norm.ml" 56 1410 1444 "e_tla_norm.ml" 56 1410 1445
+type(
+  E_t.expr
+)
+ident(
+  int_ref a "e_tla_norm.ml" 56 1410 1430 "e_tla_norm.ml" 56 1410 1431
+)
+"e_tla_norm.ml" 56 1410 1446 "e_tla_norm.ml" 56 1410 1447
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_tla_norm.ml" 56 1410 1428 "e_tla_norm.ml" 56 1410 1429
+)
+"e_tla_norm.ml" 56 1410 1434 "e_tla_norm.ml" 56 1410 1448
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 56 1410 1449 "e_tla_norm.ml" 56 1410 1451
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 56 1410 1452 "e_tla_norm.ml" 56 1410 1453
+type(
+  E_t.expr
+)
+ident(
+  int_ref a "e_tla_norm.ml" 56 1410 1430 "e_tla_norm.ml" 56 1410 1431
+)
+"e_tla_norm.ml" 56 1410 1434 "e_tla_norm.ml" 56 1410 1453
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_tla_norm.ml" 57 1457 1467 "e_tla_norm.ml" 57 1457 1475
+type(
+  E_t.expr -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  def tsub_dia "e_tla_norm.ml" 58 1506 1512 "e_tla_norm.ml" 66 2008 2037
+)
+"e_tla_norm.ml" 57 1457 1476 "e_tla_norm.ml" 57 1457 1477
+type(
+  E_t.expr
+)
+ident(
+  def f "e_tla_norm.ml" 57 1457 1478 "e_tla_norm.ml" 57 1457 1502
+)
+"e_tla_norm.ml" 57 1457 1478 "e_tla_norm.ml" 57 1457 1479
+type(
+  E_t.expr
+)
+ident(
+  def a "e_tla_norm.ml" 57 1457 1482 "e_tla_norm.ml" 57 1457 1502
+)
+"e_tla_norm.ml" 57 1457 1488 "e_tla_norm.ml" 57 1457 1491
+type(
+  E_t.modal_op
+)
+"e_tla_norm.ml" 57 1457 1493 "e_tla_norm.ml" 57 1457 1494
+type(
+  E_t.expr
+)
+ident(
+  int_ref a "e_tla_norm.ml" 57 1457 1478 "e_tla_norm.ml" 57 1457 1479
+)
+"e_tla_norm.ml" 57 1457 1495 "e_tla_norm.ml" 57 1457 1496
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_tla_norm.ml" 57 1457 1476 "e_tla_norm.ml" 57 1457 1477
+)
+"e_tla_norm.ml" 57 1457 1482 "e_tla_norm.ml" 57 1457 1497
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 57 1457 1498 "e_tla_norm.ml" 57 1457 1500
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 57 1457 1501 "e_tla_norm.ml" 57 1457 1502
+type(
+  E_t.expr
+)
+ident(
+  int_ref a "e_tla_norm.ml" 57 1457 1478 "e_tla_norm.ml" 57 1457 1479
+)
+"e_tla_norm.ml" 57 1457 1482 "e_tla_norm.ml" 57 1457 1502
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_tla_norm.ml" 58 1506 1516 "e_tla_norm.ml" 58 1506 1523
+type(
+  E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  def put_box "e_tla_norm.ml" 59 1576 1582 "e_tla_norm.ml" 66 2008 2037
+)
+"e_tla_norm.ml" 58 1506 1524 "e_tla_norm.ml" 58 1506 1525
+type(
+  E_t.expr
+)
+ident(
+  def p "e_tla_norm.ml" 58 1506 1528 "e_tla_norm.ml" 58 1506 1572
+)
+"e_tla_norm.ml" 58 1506 1551 "e_tla_norm.ml" 58 1506 1555
+type(
+  bool
+)
+"e_tla_norm.ml" 58 1506 1544 "e_tla_norm.ml" 58 1506 1556
+type(
+  B.builtin
+)
+"e_tla_norm.ml" 58 1506 1535 "e_tla_norm.ml" 58 1506 1556
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 58 1506 1557 "e_tla_norm.ml" 58 1506 1559
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 58 1506 1560 "e_tla_norm.ml" 58 1506 1561
+type(
+  E_t.expr
+)
+ident(
+  int_ref p "e_tla_norm.ml" 58 1506 1524 "e_tla_norm.ml" 58 1506 1525
+)
+"e_tla_norm.ml" 58 1506 1535 "e_tla_norm.ml" 58 1506 1561
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 58 1506 1564 "e_tla_norm.ml" 58 1506 1565
+type(
+  E_t.expr
+)
+ident(
+  int_ref p "e_tla_norm.ml" 58 1506 1524 "e_tla_norm.ml" 58 1506 1525
+)
+"e_tla_norm.ml" 58 1506 1563 "e_tla_norm.ml" 58 1506 1566
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 58 1506 1528 "e_tla_norm.ml" 58 1506 1567
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 58 1506 1568 "e_tla_norm.ml" 58 1506 1570
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 58 1506 1571 "e_tla_norm.ml" 58 1506 1572
+type(
+  E_t.expr
+)
+ident(
+  int_ref p "e_tla_norm.ml" 58 1506 1524 "e_tla_norm.ml" 58 1506 1525
+)
+"e_tla_norm.ml" 58 1506 1528 "e_tla_norm.ml" 58 1506 1572
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_tla_norm.ml" 59 1576 1586 "e_tla_norm.ml" 59 1576 1593
+type(
+  E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  def put_dia "e_tla_norm.ml" 60 1645 1651 "e_tla_norm.ml" 66 2008 2037
+)
+"e_tla_norm.ml" 59 1576 1594 "e_tla_norm.ml" 59 1576 1595
+type(
+  E_t.expr
+)
+ident(
+  def p "e_tla_norm.ml" 59 1576 1598 "e_tla_norm.ml" 59 1576 1641
+)
+"e_tla_norm.ml" 59 1576 1614 "e_tla_norm.ml" 59 1576 1625
+type(
+  B.builtin
+)
+"e_tla_norm.ml" 59 1576 1605 "e_tla_norm.ml" 59 1576 1625
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 59 1576 1626 "e_tla_norm.ml" 59 1576 1628
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 59 1576 1629 "e_tla_norm.ml" 59 1576 1630
+type(
+  E_t.expr
+)
+ident(
+  int_ref p "e_tla_norm.ml" 59 1576 1594 "e_tla_norm.ml" 59 1576 1595
+)
+"e_tla_norm.ml" 59 1576 1605 "e_tla_norm.ml" 59 1576 1630
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 59 1576 1633 "e_tla_norm.ml" 59 1576 1634
+type(
+  E_t.expr
+)
+ident(
+  int_ref p "e_tla_norm.ml" 59 1576 1594 "e_tla_norm.ml" 59 1576 1595
+)
+"e_tla_norm.ml" 59 1576 1632 "e_tla_norm.ml" 59 1576 1635
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 59 1576 1598 "e_tla_norm.ml" 59 1576 1636
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 59 1576 1637 "e_tla_norm.ml" 59 1576 1639
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 59 1576 1640 "e_tla_norm.ml" 59 1576 1641
+type(
+  E_t.expr
+)
+ident(
+  int_ref p "e_tla_norm.ml" 59 1576 1594 "e_tla_norm.ml" 59 1576 1595
+)
+"e_tla_norm.ml" 59 1576 1598 "e_tla_norm.ml" 59 1576 1641
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_tla_norm.ml" 60 1645 1655 "e_tla_norm.ml" 60 1645 1658
+type(
+  E_t.expr -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  def rhs "e_tla_norm.ml" 61 1691 1697 "e_tla_norm.ml" 66 2008 2037
+)
+"e_tla_norm.ml" 60 1645 1659 "e_tla_norm.ml" 60 1645 1660
+type(
+  E_t.expr
+)
+ident(
+  def f "e_tla_norm.ml" 60 1645 1661 "e_tla_norm.ml" 60 1645 1687
+)
+"e_tla_norm.ml" 60 1645 1661 "e_tla_norm.ml" 60 1645 1662
+type(
+  E_t.expr
+)
+ident(
+  def a "e_tla_norm.ml" 60 1645 1665 "e_tla_norm.ml" 60 1645 1687
+)
+"e_tla_norm.ml" 60 1645 1665 "e_tla_norm.ml" 60 1645 1672
+type(
+  E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref put_box "e_tla_norm.ml" 58 1506 1516 "e_tla_norm.ml" 58 1506 1523
+)
+"e_tla_norm.ml" 60 1645 1674 "e_tla_norm.ml" 60 1645 1682
+type(
+  E_t.expr -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref tsub_dia "e_tla_norm.ml" 57 1457 1467 "e_tla_norm.ml" 57 1457 1475
+)
+"e_tla_norm.ml" 60 1645 1683 "e_tla_norm.ml" 60 1645 1684
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_tla_norm.ml" 60 1645 1659 "e_tla_norm.ml" 60 1645 1660
+)
+"e_tla_norm.ml" 60 1645 1685 "e_tla_norm.ml" 60 1645 1686
+type(
+  E_t.expr
+)
+ident(
+  int_ref a "e_tla_norm.ml" 60 1645 1661 "e_tla_norm.ml" 60 1645 1662
+)
+"e_tla_norm.ml" 60 1645 1673 "e_tla_norm.ml" 60 1645 1687
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 60 1645 1665 "e_tla_norm.ml" 60 1645 1687
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_tla_norm.ml" 61 1691 1701 "e_tla_norm.ml" 61 1691 1703
+type(
+  E_t.expr -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  def en "e_tla_norm.ml" 62 1765 1771 "e_tla_norm.ml" 66 2008 2037
+)
+"e_tla_norm.ml" 61 1691 1704 "e_tla_norm.ml" 61 1691 1705
+type(
+  E_t.expr
+)
+ident(
+  def f "e_tla_norm.ml" 61 1691 1706 "e_tla_norm.ml" 61 1691 1761
+)
+"e_tla_norm.ml" 61 1691 1706 "e_tla_norm.ml" 61 1691 1707
+type(
+  E_t.expr
+)
+ident(
+  def a "e_tla_norm.ml" 61 1691 1710 "e_tla_norm.ml" 61 1691 1761
+)
+"e_tla_norm.ml" 61 1691 1726 "e_tla_norm.ml" 61 1691 1735
+type(
+  B.builtin
+)
+"e_tla_norm.ml" 61 1691 1717 "e_tla_norm.ml" 61 1691 1735
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 61 1691 1736 "e_tla_norm.ml" 61 1691 1738
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 61 1691 1739 "e_tla_norm.ml" 61 1691 1740
+type(
+  E_t.expr
+)
+ident(
+  int_ref a "e_tla_norm.ml" 61 1691 1706 "e_tla_norm.ml" 61 1691 1707
+)
+"e_tla_norm.ml" 61 1691 1717 "e_tla_norm.ml" 61 1691 1740
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 61 1691 1743 "e_tla_norm.ml" 61 1691 1750
+type(
+  E_t.expr -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref sub_dia "e_tla_norm.ml" 56 1410 1420 "e_tla_norm.ml" 56 1410 1427
+)
+"e_tla_norm.ml" 61 1691 1751 "e_tla_norm.ml" 61 1691 1752
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_tla_norm.ml" 61 1691 1704 "e_tla_norm.ml" 61 1691 1705
+)
+"e_tla_norm.ml" 61 1691 1753 "e_tla_norm.ml" 61 1691 1754
+type(
+  E_t.expr
+)
+ident(
+  int_ref a "e_tla_norm.ml" 61 1691 1706 "e_tla_norm.ml" 61 1691 1707
+)
+"e_tla_norm.ml" 61 1691 1743 "e_tla_norm.ml" 61 1691 1754
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 61 1691 1742 "e_tla_norm.ml" 61 1691 1755
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 61 1691 1710 "e_tla_norm.ml" 61 1691 1756
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 61 1691 1757 "e_tla_norm.ml" 61 1691 1759
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 61 1691 1760 "e_tla_norm.ml" 61 1691 1761
+type(
+  E_t.expr
+)
+ident(
+  int_ref a "e_tla_norm.ml" 61 1691 1706 "e_tla_norm.ml" 61 1691 1707
+)
+"e_tla_norm.ml" 61 1691 1710 "e_tla_norm.ml" 61 1691 1761
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_tla_norm.ml" 62 1765 1775 "e_tla_norm.ml" 62 1765 1778
+type(
+  E_t.expr -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  def imp "e_tla_norm.ml" 63 1838 1844 "e_tla_norm.ml" 66 2008 2037
+)
+"e_tla_norm.ml" 62 1765 1779 "e_tla_norm.ml" 62 1765 1781
+type(
+  E_t.expr
+)
+ident(
+  def p1 "e_tla_norm.ml" 62 1765 1782 "e_tla_norm.ml" 62 1765 1834
+)
+"e_tla_norm.ml" 62 1765 1782 "e_tla_norm.ml" 62 1765 1784
+type(
+  E_t.expr
+)
+ident(
+  def p2 "e_tla_norm.ml" 62 1765 1787 "e_tla_norm.ml" 62 1765 1834
+)
+"e_tla_norm.ml" 62 1765 1803 "e_tla_norm.ml" 62 1765 1812
+type(
+  B.builtin
+)
+"e_tla_norm.ml" 62 1765 1794 "e_tla_norm.ml" 62 1765 1812
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 62 1765 1813 "e_tla_norm.ml" 62 1765 1815
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 62 1765 1816 "e_tla_norm.ml" 62 1765 1818
+type(
+  E_t.expr
+)
+ident(
+  int_ref p1 "e_tla_norm.ml" 62 1765 1779 "e_tla_norm.ml" 62 1765 1781
+)
+"e_tla_norm.ml" 62 1765 1794 "e_tla_norm.ml" 62 1765 1818
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 62 1765 1821 "e_tla_norm.ml" 62 1765 1823
+type(
+  E_t.expr
+)
+ident(
+  int_ref p1 "e_tla_norm.ml" 62 1765 1779 "e_tla_norm.ml" 62 1765 1781
+)
+"e_tla_norm.ml" 62 1765 1824 "e_tla_norm.ml" 62 1765 1826
+type(
+  E_t.expr
+)
+ident(
+  int_ref p2 "e_tla_norm.ml" 62 1765 1782 "e_tla_norm.ml" 62 1765 1784
+)
+"e_tla_norm.ml" 62 1765 1820 "e_tla_norm.ml" 62 1765 1827
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 62 1765 1787 "e_tla_norm.ml" 62 1765 1828
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 62 1765 1829 "e_tla_norm.ml" 62 1765 1831
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 62 1765 1832 "e_tla_norm.ml" 62 1765 1834
+type(
+  E_t.expr
+)
+ident(
+  int_ref p1 "e_tla_norm.ml" 62 1765 1779 "e_tla_norm.ml" 62 1765 1781
+)
+"e_tla_norm.ml" 62 1765 1787 "e_tla_norm.ml" 62 1765 1834
+type(
+  E_t.expr_ Property.wrapped
+)
+"e_tla_norm.ml" 63 1838 1850 "e_tla_norm.ml" 63 1838 1851
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 55 1386 1406 "e_tla_norm.ml" 55 1386 1407
+)
+"e_tla_norm.ml" 63 1838 1850 "e_tla_norm.ml" 63 1838 1856
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 64 1862 1876 "e_tla_norm.ml" 64 1862 1880
+type(
+  E_t.fairness_op
+)
+"e_tla_norm.ml" 64 1862 1882 "e_tla_norm.ml" 64 1862 1883
+type(
+  E_t.expr
+)
+ident(
+  def f "e_tla_norm.ml" 64 1862 1891 "e_tla_norm.ml" 64 1862 1933
+)
+"e_tla_norm.ml" 64 1862 1885 "e_tla_norm.ml" 64 1862 1886
+type(
+  E_t.expr
+)
+ident(
+  def a "e_tla_norm.ml" 64 1862 1891 "e_tla_norm.ml" 64 1862 1933
+)
+"e_tla_norm.ml" 64 1862 1870 "e_tla_norm.ml" 64 1862 1887
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 64 1862 1891 "e_tla_norm.ml" 64 1862 1894
+type(
+  E_t.expr -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref imp "e_tla_norm.ml" 62 1765 1775 "e_tla_norm.ml" 62 1765 1778
+)
+"e_tla_norm.ml" 64 1862 1896 "e_tla_norm.ml" 64 1862 1903
+type(
+  E_t.expr -> E_t.expr
+)
+ident(
+  int_ref put_dia "e_tla_norm.ml" 59 1576 1586 "e_tla_norm.ml" 59 1576 1593
+)
+"e_tla_norm.ml" 64 1862 1905 "e_tla_norm.ml" 64 1862 1912
+type(
+  E_t.expr -> E_t.expr
+)
+ident(
+  int_ref put_box "e_tla_norm.ml" 58 1506 1516 "e_tla_norm.ml" 58 1506 1523
+)
+"e_tla_norm.ml" 64 1862 1914 "e_tla_norm.ml" 64 1862 1916
+type(
+  E_t.expr -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref en "e_tla_norm.ml" 61 1691 1701 "e_tla_norm.ml" 61 1691 1703
+)
+"e_tla_norm.ml" 64 1862 1917 "e_tla_norm.ml" 64 1862 1918
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_tla_norm.ml" 64 1862 1882 "e_tla_norm.ml" 64 1862 1883
+)
+"e_tla_norm.ml" 64 1862 1919 "e_tla_norm.ml" 64 1862 1920
+type(
+  E_t.expr
+)
+ident(
+  int_ref a "e_tla_norm.ml" 64 1862 1885 "e_tla_norm.ml" 64 1862 1886
+)
+"e_tla_norm.ml" 64 1862 1913 "e_tla_norm.ml" 64 1862 1921
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 64 1862 1904 "e_tla_norm.ml" 64 1862 1922
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 64 1862 1895 "e_tla_norm.ml" 64 1862 1923
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 64 1862 1925 "e_tla_norm.ml" 64 1862 1928
+type(
+  E_t.expr -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref rhs "e_tla_norm.ml" 60 1645 1655 "e_tla_norm.ml" 60 1645 1658
+)
+"e_tla_norm.ml" 64 1862 1929 "e_tla_norm.ml" 64 1862 1930
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_tla_norm.ml" 64 1862 1882 "e_tla_norm.ml" 64 1862 1883
+)
+"e_tla_norm.ml" 64 1862 1931 "e_tla_norm.ml" 64 1862 1932
+type(
+  E_t.expr
+)
+ident(
+  int_ref a "e_tla_norm.ml" 64 1862 1885 "e_tla_norm.ml" 64 1862 1886
+)
+"e_tla_norm.ml" 64 1862 1924 "e_tla_norm.ml" 64 1862 1933
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 64 1862 1891 "e_tla_norm.ml" 64 1862 1933
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 65 1934 1948 "e_tla_norm.ml" 65 1934 1954
+type(
+  E_t.fairness_op
+)
+"e_tla_norm.ml" 65 1934 1956 "e_tla_norm.ml" 65 1934 1957
+type(
+  E_t.expr
+)
+ident(
+  def f "e_tla_norm.ml" 65 1934 1965 "e_tla_norm.ml" 65 1934 2007
+)
+"e_tla_norm.ml" 65 1934 1959 "e_tla_norm.ml" 65 1934 1960
+type(
+  E_t.expr
+)
+ident(
+  def a "e_tla_norm.ml" 65 1934 1965 "e_tla_norm.ml" 65 1934 2007
+)
+"e_tla_norm.ml" 65 1934 1942 "e_tla_norm.ml" 65 1934 1961
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 65 1934 1965 "e_tla_norm.ml" 65 1934 1968
+type(
+  E_t.expr -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref imp "e_tla_norm.ml" 62 1765 1775 "e_tla_norm.ml" 62 1765 1778
+)
+"e_tla_norm.ml" 65 1934 1970 "e_tla_norm.ml" 65 1934 1977
+type(
+  E_t.expr -> E_t.expr
+)
+ident(
+  int_ref put_box "e_tla_norm.ml" 58 1506 1516 "e_tla_norm.ml" 58 1506 1523
+)
+"e_tla_norm.ml" 65 1934 1979 "e_tla_norm.ml" 65 1934 1986
+type(
+  E_t.expr -> E_t.expr
+)
+ident(
+  int_ref put_dia "e_tla_norm.ml" 59 1576 1586 "e_tla_norm.ml" 59 1576 1593
+)
+"e_tla_norm.ml" 65 1934 1988 "e_tla_norm.ml" 65 1934 1990
+type(
+  E_t.expr -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref en "e_tla_norm.ml" 61 1691 1701 "e_tla_norm.ml" 61 1691 1703
+)
+"e_tla_norm.ml" 65 1934 1991 "e_tla_norm.ml" 65 1934 1992
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_tla_norm.ml" 65 1934 1956 "e_tla_norm.ml" 65 1934 1957
+)
+"e_tla_norm.ml" 65 1934 1993 "e_tla_norm.ml" 65 1934 1994
+type(
+  E_t.expr
+)
+ident(
+  int_ref a "e_tla_norm.ml" 65 1934 1959 "e_tla_norm.ml" 65 1934 1960
+)
+"e_tla_norm.ml" 65 1934 1987 "e_tla_norm.ml" 65 1934 1995
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 65 1934 1978 "e_tla_norm.ml" 65 1934 1996
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 65 1934 1969 "e_tla_norm.ml" 65 1934 1997
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 65 1934 1999 "e_tla_norm.ml" 65 1934 2002
+type(
+  E_t.expr -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref rhs "e_tla_norm.ml" 60 1645 1655 "e_tla_norm.ml" 60 1645 1658
+)
+"e_tla_norm.ml" 65 1934 2003 "e_tla_norm.ml" 65 1934 2004
+type(
+  E_t.expr
+)
+ident(
+  int_ref f "e_tla_norm.ml" 65 1934 1956 "e_tla_norm.ml" 65 1934 1957
+)
+"e_tla_norm.ml" 65 1934 2005 "e_tla_norm.ml" 65 1934 2006
+type(
+  E_t.expr
+)
+ident(
+  int_ref a "e_tla_norm.ml" 65 1934 1959 "e_tla_norm.ml" 65 1934 1960
+)
+"e_tla_norm.ml" 65 1934 1998 "e_tla_norm.ml" 65 1934 2007
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 65 1934 1965 "e_tla_norm.ml" 65 1934 2007
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 66 2008 2016 "e_tla_norm.ml" 66 2008 2017
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 66 2008 2021 "e_tla_norm.ml" 66 2008 2026
+type(
+  unit E_visit.map
+)
+ident(
+  ext_ref self-2
+)
+type(
+  unit E_visit.map
+)
+ident(
+  int_ref super "e_tla_norm.ml" 54 1346 1358 "e_tla_norm.ml" 54 1346 1376
+)
+"e_tla_norm.ml" 66 2008 2021 "e_tla_norm.ml" 66 2008 2031
+type(
+  unit E_visit.map -> unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 66 2008 2032 "e_tla_norm.ml" 66 2008 2035
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_tla_norm.ml" 55 1386 1402 "e_tla_norm.ml" 55 1386 1405
+)
+"e_tla_norm.ml" 66 2008 2036 "e_tla_norm.ml" 66 2008 2037
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 55 1386 1406 "e_tla_norm.ml" 55 1386 1407
+)
+"e_tla_norm.ml" 66 2008 2021 "e_tla_norm.ml" 66 2008 2037
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 63 1838 1844 "e_tla_norm.ml" 66 2008 2037
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 62 1765 1771 "e_tla_norm.ml" 66 2008 2037
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 61 1691 1697 "e_tla_norm.ml" 66 2008 2037
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 60 1645 1651 "e_tla_norm.ml" 66 2008 2037
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 59 1576 1582 "e_tla_norm.ml" 66 2008 2037
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 58 1506 1512 "e_tla_norm.ml" 66 2008 2037
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 57 1457 1463 "e_tla_norm.ml" 66 2008 2037
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 56 1410 1416 "e_tla_norm.ml" 66 2008 2037
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 53 1308 1324 "e_tla_norm.ml" 67 2038 2043
+type(
+  unit E_visit.map
+)
+"e_tla_norm.ml" 68 2047 2053 "e_tla_norm.ml" 68 2047 2056
+type(
+  unit E_visit.scx
+)
+ident(
+  def scx "e_tla_norm.ml" 68 2047 2057 "e_tla_norm.ml" 69 2062 2084
+)
+"e_tla_norm.ml" 68 2047 2057 "e_tla_norm.ml" 68 2047 2058
+type(
+  E_t.expr
+)
+ident(
+  def e "e_tla_norm.ml" 69 2062 2066 "e_tla_norm.ml" 69 2062 2084
+)
+"e_tla_norm.ml" 69 2062 2066 "e_tla_norm.ml" 69 2062 2073
+type(
+  unit E_visit.map
+)
+ident(
+  int_ref visitor "e_tla_norm.ml" 53 1308 1314 "e_tla_norm.ml" 53 1308 1321
+)
+"e_tla_norm.ml" 69 2062 2066 "e_tla_norm.ml" 69 2062 2078
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 69 2062 2079 "e_tla_norm.ml" 69 2062 2082
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_tla_norm.ml" 68 2047 2053 "e_tla_norm.ml" 68 2047 2056
+)
+"e_tla_norm.ml" 69 2062 2083 "e_tla_norm.ml" 69 2062 2084
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 68 2047 2057 "e_tla_norm.ml" 68 2047 2058
+)
+"e_tla_norm.ml" 69 2062 2066 "e_tla_norm.ml" 69 2062 2084
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 68 2047 2049 "e_tla_norm.ml" 69 2062 2084
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 53 1308 1310 "e_tla_norm.ml" 69 2062 2084
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 71 2086 2090 "e_tla_norm.ml" 71 2086 2106
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  def expand_unchanged "e_tla_norm.ml" 82 2388 2388 "e_tla_norm.ml" 0 0 -1
+)
+"e_tla_norm.ml" 72 2109 2115 "e_tla_norm.ml" 72 2109 2122
+type(
+  unit E_visit.map
+)
+ident(
+  def visitor "e_tla_norm.ml" 79 2349 2351 "e_tla_norm.ml" 80 2364 2386
+)
+"e_tla_norm.ml" 72 2109 2133 "e_tla_norm.ml" 72 2109 2137
+type(
+  unit E_visit.map
+)
+type(
+  unit E_visit.map
+)
+"e_tla_norm.ml" 74 2187 2203 "e_tla_norm.ml" 74 2187 2206
+type(
+  unit E_visit.scx
+)
+ident(
+  def scx "e_tla_norm.ml" 74 2187 2207 "e_tla_norm.ml" 77 2310 2339
+)
+"e_tla_norm.ml" 74 2187 2207 "e_tla_norm.ml" 74 2187 2208
+type(
+  E_t.expr
+)
+ident(
+  def e "e_tla_norm.ml" 74 2187 2211 "e_tla_norm.ml" 77 2310 2339
+)
+"e_tla_norm.ml" 74 2187 2217 "e_tla_norm.ml" 74 2187 2218
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 74 2187 2207 "e_tla_norm.ml" 74 2187 2208
+)
+"e_tla_norm.ml" 74 2187 2217 "e_tla_norm.ml" 74 2187 2223
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 75 2229 2262 "e_tla_norm.ml" 75 2229 2273
+type(
+  Builtin.builtin
+)
+"e_tla_norm.ml" 75 2229 2253 "e_tla_norm.ml" 75 2229 2273
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 75 2229 2244 "e_tla_norm.ml" 75 2229 2275
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 75 2229 2278 "e_tla_norm.ml" 75 2229 2279
+type(
+  E_t.expr
+)
+ident(
+  def e "e_tla_norm.ml" 76 2285 2295 "e_tla_norm.ml" 76 2285 2309
+)
+"e_tla_norm.ml" 75 2229 2277 "e_tla_norm.ml" 75 2229 2280
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 75 2229 2237 "e_tla_norm.ml" 75 2229 2281
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 76 2285 2295 "e_tla_norm.ml" 76 2285 2307
+type(
+  E_t.expr -> E_t.expr
+)
+ident(
+  int_ref rewrite_unch "e_tla_norm.ml" 22 422 426 "e_tla_norm.ml" 22 422 438
+)
+"e_tla_norm.ml" 76 2285 2308 "e_tla_norm.ml" 76 2285 2309
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 75 2229 2278 "e_tla_norm.ml" 75 2229 2279
+)
+"e_tla_norm.ml" 76 2285 2295 "e_tla_norm.ml" 76 2285 2309
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 77 2310 2318 "e_tla_norm.ml" 77 2310 2319
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 77 2310 2323 "e_tla_norm.ml" 77 2310 2328
+type(
+  unit E_visit.map
+)
+ident(
+  ext_ref self-3
+)
+type(
+  unit E_visit.map
+)
+ident(
+  int_ref super "e_tla_norm.ml" 73 2147 2159 "e_tla_norm.ml" 73 2147 2177
+)
+"e_tla_norm.ml" 77 2310 2323 "e_tla_norm.ml" 77 2310 2333
+type(
+  unit E_visit.map -> unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 77 2310 2334 "e_tla_norm.ml" 77 2310 2337
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_tla_norm.ml" 74 2187 2203 "e_tla_norm.ml" 74 2187 2206
+)
+"e_tla_norm.ml" 77 2310 2338 "e_tla_norm.ml" 77 2310 2339
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 74 2187 2207 "e_tla_norm.ml" 74 2187 2208
+)
+"e_tla_norm.ml" 77 2310 2323 "e_tla_norm.ml" 77 2310 2339
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 74 2187 2211 "e_tla_norm.ml" 77 2310 2339
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 72 2109 2125 "e_tla_norm.ml" 78 2340 2345
+type(
+  unit E_visit.map
+)
+"e_tla_norm.ml" 79 2349 2355 "e_tla_norm.ml" 79 2349 2358
+type(
+  unit E_visit.scx
+)
+ident(
+  def scx "e_tla_norm.ml" 79 2349 2359 "e_tla_norm.ml" 80 2364 2386
+)
+"e_tla_norm.ml" 79 2349 2359 "e_tla_norm.ml" 79 2349 2360
+type(
+  E_t.expr
+)
+ident(
+  def e "e_tla_norm.ml" 80 2364 2368 "e_tla_norm.ml" 80 2364 2386
+)
+"e_tla_norm.ml" 80 2364 2368 "e_tla_norm.ml" 80 2364 2375
+type(
+  unit E_visit.map
+)
+ident(
+  int_ref visitor "e_tla_norm.ml" 72 2109 2115 "e_tla_norm.ml" 72 2109 2122
+)
+"e_tla_norm.ml" 80 2364 2368 "e_tla_norm.ml" 80 2364 2380
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 80 2364 2381 "e_tla_norm.ml" 80 2364 2384
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_tla_norm.ml" 79 2349 2355 "e_tla_norm.ml" 79 2349 2358
+)
+"e_tla_norm.ml" 80 2364 2385 "e_tla_norm.ml" 80 2364 2386
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 79 2349 2359 "e_tla_norm.ml" 79 2349 2360
+)
+"e_tla_norm.ml" 80 2364 2368 "e_tla_norm.ml" 80 2364 2386
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 79 2349 2351 "e_tla_norm.ml" 80 2364 2386
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 72 2109 2111 "e_tla_norm.ml" 80 2364 2386
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 82 2388 2392 "e_tla_norm.ml" 82 2388 2405
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  def expand_action "e_tla_norm.ml" 130 4056 4089 "e_tla_norm.ml" 0 0 -1
+)
+"e_tla_norm.ml" 83 2408 2414 "e_tla_norm.ml" 83 2408 2421
+type(
+  unit E_visit.map
+)
+ident(
+  def visitor "e_tla_norm.ml" 130 4056 4058 "e_tla_norm.ml" 130 4056 4089
+)
+"e_tla_norm.ml" 83 2408 2432 "e_tla_norm.ml" 83 2408 2436
+type(
+  unit E_visit.map
+)
+type(
+  unit E_visit.map
+)
+"e_tla_norm.ml" 85 2486 2502 "e_tla_norm.ml" 85 2486 2505
+type(
+  unit E_visit.scx
+)
+ident(
+  def scx "e_tla_norm.ml" 85 2486 2506 "e_tla_norm.ml" 128 4015 4046
+)
+"e_tla_norm.ml" 85 2486 2506 "e_tla_norm.ml" 85 2486 2507
+type(
+  E_t.expr
+)
+ident(
+  def e "e_tla_norm.ml" 86 2510 2516 "e_tla_norm.ml" 128 4015 4046
+)
+"e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+type(
+  E_t.expr
+)
+ident(
+  def dest "e_tla_norm.ml" 87 2532 2538 "e_tla_norm.ml" 128 4015 4046
+)
+"e_tla_norm.ml" 86 2510 2527 "e_tla_norm.ml" 86 2510 2528
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 85 2486 2506 "e_tla_norm.ml" 85 2486 2507
+)
+"e_tla_norm.ml" 87 2532 2544 "e_tla_norm.ml" 87 2532 2545
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 85 2486 2506 "e_tla_norm.ml" 85 2486 2507
+)
+"e_tla_norm.ml" 87 2532 2544 "e_tla_norm.ml" 87 2532 2550
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 88 2556 2571 "e_tla_norm.ml" 88 2556 2574
+type(
+  E_t.modal_op
+)
+"e_tla_norm.ml" 88 2556 2576 "e_tla_norm.ml" 88 2556 2577
+type(
+  E_t.expr
+)
+ident(
+  def e "e_tla_norm.ml" 89 2585 2597 "e_tla_norm.ml" 94 2798 2821
+)
+"e_tla_norm.ml" 88 2556 2579 "e_tla_norm.ml" 88 2556 2580
+type(
+  E_t.expr
+)
+ident(
+  def v "e_tla_norm.ml" 89 2585 2597 "e_tla_norm.ml" 94 2798 2821
+)
+"e_tla_norm.ml" 88 2556 2566 "e_tla_norm.ml" 88 2556 2581
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 89 2585 2601 "e_tla_norm.ml" 89 2585 2602
+type(
+  E_t.expr
+)
+ident(
+  def e "e_tla_norm.ml" 90 2624 2636 "e_tla_norm.ml" 94 2798 2821
+)
+"e_tla_norm.ml" 89 2585 2605 "e_tla_norm.ml" 89 2585 2609
+type(
+  unit E_visit.map
+)
+ident(
+  ext_ref self-4
+)
+"e_tla_norm.ml" 89 2585 2605 "e_tla_norm.ml" 89 2585 2614
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 89 2585 2615 "e_tla_norm.ml" 89 2585 2618
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_tla_norm.ml" 85 2486 2502 "e_tla_norm.ml" 85 2486 2505
+)
+"e_tla_norm.ml" 89 2585 2619 "e_tla_norm.ml" 89 2585 2620
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 88 2556 2576 "e_tla_norm.ml" 88 2556 2577
+)
+"e_tla_norm.ml" 89 2585 2605 "e_tla_norm.ml" 89 2585 2620
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 90 2624 2640 "e_tla_norm.ml" 90 2624 2641
+type(
+  E_t.expr
+)
+ident(
+  def v "e_tla_norm.ml" 91 2663 2675 "e_tla_norm.ml" 94 2798 2821
+)
+"e_tla_norm.ml" 90 2624 2644 "e_tla_norm.ml" 90 2624 2648
+type(
+  unit E_visit.map
+)
+ident(
+  ext_ref self-4
+)
+"e_tla_norm.ml" 90 2624 2644 "e_tla_norm.ml" 90 2624 2653
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 90 2624 2654 "e_tla_norm.ml" 90 2624 2657
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_tla_norm.ml" 85 2486 2502 "e_tla_norm.ml" 85 2486 2505
+)
+"e_tla_norm.ml" 90 2624 2658 "e_tla_norm.ml" 90 2624 2659
+type(
+  E_t.expr
+)
+ident(
+  int_ref v "e_tla_norm.ml" 88 2556 2579 "e_tla_norm.ml" 88 2556 2580
+)
+"e_tla_norm.ml" 90 2624 2644 "e_tla_norm.ml" 90 2624 2659
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 92 2687 2710 "e_tla_norm.ml" 92 2687 2716
+type(
+  B.builtin
+)
+"e_tla_norm.ml" 92 2687 2701 "e_tla_norm.ml" 92 2687 2716
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 92 2687 2717 "e_tla_norm.ml" 92 2687 2719
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 92 2687 2720 "e_tla_norm.ml" 92 2687 2724
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 92 2687 2701 "e_tla_norm.ml" 92 2687 2724
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 93 2726 2742 "e_tla_norm.ml" 93 2726 2743
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 89 2585 2601 "e_tla_norm.ml" 89 2585 2602
+)
+"e_tla_norm.ml" 93 2726 2762 "e_tla_norm.ml" 93 2726 2773
+type(
+  B.builtin
+)
+"e_tla_norm.ml" 93 2726 2753 "e_tla_norm.ml" 93 2726 2773
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 93 2726 2774 "e_tla_norm.ml" 93 2726 2776
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 93 2726 2777 "e_tla_norm.ml" 93 2726 2781
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 93 2726 2753 "e_tla_norm.ml" 93 2726 2781
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 93 2726 2784 "e_tla_norm.ml" 93 2726 2785
+type(
+  E_t.expr
+)
+ident(
+  int_ref v "e_tla_norm.ml" 90 2624 2640 "e_tla_norm.ml" 90 2624 2641
+)
+"e_tla_norm.ml" 93 2726 2783 "e_tla_norm.ml" 93 2726 2786
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 93 2726 2746 "e_tla_norm.ml" 93 2726 2787
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 93 2726 2788 "e_tla_norm.ml" 93 2726 2790
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 93 2726 2791 "e_tla_norm.ml" 93 2726 2795
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 93 2726 2746 "e_tla_norm.ml" 93 2726 2795
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 93 2726 2740 "e_tla_norm.ml" 93 2726 2797
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 91 2663 2675 "e_tla_norm.ml" 94 2798 2813
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 94 2798 2814 "e_tla_norm.ml" 94 2798 2816
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 94 2798 2817 "e_tla_norm.ml" 94 2798 2821
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 91 2663 2675 "e_tla_norm.ml" 94 2798 2821
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 90 2624 2636 "e_tla_norm.ml" 94 2798 2821
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 89 2585 2597 "e_tla_norm.ml" 94 2798 2821
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 95 2822 2838 "e_tla_norm.ml" 95 2822 2841
+type(
+  E_t.modal_op
+)
+"e_tla_norm.ml" 95 2822 2843 "e_tla_norm.ml" 95 2822 2844
+type(
+  E_t.expr
+)
+ident(
+  def e "e_tla_norm.ml" 96 2852 2864 "e_tla_norm.ml" 102 3119 3154
+)
+"e_tla_norm.ml" 95 2822 2846 "e_tla_norm.ml" 95 2822 2847
+type(
+  E_t.expr
+)
+ident(
+  def v "e_tla_norm.ml" 96 2852 2864 "e_tla_norm.ml" 102 3119 3154
+)
+"e_tla_norm.ml" 95 2822 2832 "e_tla_norm.ml" 95 2822 2848
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 96 2852 2868 "e_tla_norm.ml" 96 2852 2869
+type(
+  E_t.expr
+)
+ident(
+  def e "e_tla_norm.ml" 97 2891 2903 "e_tla_norm.ml" 102 3119 3154
+)
+"e_tla_norm.ml" 96 2852 2872 "e_tla_norm.ml" 96 2852 2876
+type(
+  unit E_visit.map
+)
+ident(
+  ext_ref self-4
+)
+"e_tla_norm.ml" 96 2852 2872 "e_tla_norm.ml" 96 2852 2881
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 96 2852 2882 "e_tla_norm.ml" 96 2852 2885
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_tla_norm.ml" 85 2486 2502 "e_tla_norm.ml" 85 2486 2505
+)
+"e_tla_norm.ml" 96 2852 2886 "e_tla_norm.ml" 96 2852 2887
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 95 2822 2843 "e_tla_norm.ml" 95 2822 2844
+)
+"e_tla_norm.ml" 96 2852 2872 "e_tla_norm.ml" 96 2852 2887
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 97 2891 2907 "e_tla_norm.ml" 97 2891 2908
+type(
+  E_t.expr
+)
+ident(
+  def v "e_tla_norm.ml" 98 2930 2942 "e_tla_norm.ml" 102 3119 3154
+)
+"e_tla_norm.ml" 97 2891 2911 "e_tla_norm.ml" 97 2891 2915
+type(
+  unit E_visit.map
+)
+ident(
+  ext_ref self-4
+)
+"e_tla_norm.ml" 97 2891 2911 "e_tla_norm.ml" 97 2891 2920
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 97 2891 2921 "e_tla_norm.ml" 97 2891 2924
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_tla_norm.ml" 85 2486 2502 "e_tla_norm.ml" 85 2486 2505
+)
+"e_tla_norm.ml" 97 2891 2925 "e_tla_norm.ml" 97 2891 2926
+type(
+  E_t.expr
+)
+ident(
+  int_ref v "e_tla_norm.ml" 95 2822 2846 "e_tla_norm.ml" 95 2822 2847
+)
+"e_tla_norm.ml" 97 2891 2911 "e_tla_norm.ml" 97 2891 2926
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 98 2930 2965 "e_tla_norm.ml" 98 2930 2969
+type(
+  bool
+)
+"e_tla_norm.ml" 98 2930 2958 "e_tla_norm.ml" 98 2930 2970
+type(
+  B.builtin
+)
+"e_tla_norm.ml" 98 2930 2949 "e_tla_norm.ml" 98 2930 2970
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 98 2930 2971 "e_tla_norm.ml" 98 2930 2973
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 98 2930 2974 "e_tla_norm.ml" 98 2930 2978
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 98 2930 2949 "e_tla_norm.ml" 98 2930 2978
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 100 3008 3031 "e_tla_norm.ml" 100 3008 3037
+type(
+  B.builtin
+)
+"e_tla_norm.ml" 100 3008 3022 "e_tla_norm.ml" 100 3008 3037
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 100 3008 3038 "e_tla_norm.ml" 100 3008 3040
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 100 3008 3041 "e_tla_norm.ml" 100 3008 3045
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 100 3008 3022 "e_tla_norm.ml" 100 3008 3045
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 101 3047 3063 "e_tla_norm.ml" 101 3047 3064
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 96 2852 2868 "e_tla_norm.ml" 96 2852 2869
+)
+"e_tla_norm.ml" 101 3047 3083 "e_tla_norm.ml" 101 3047 3094
+type(
+  B.builtin
+)
+"e_tla_norm.ml" 101 3047 3074 "e_tla_norm.ml" 101 3047 3094
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 101 3047 3095 "e_tla_norm.ml" 101 3047 3097
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 101 3047 3098 "e_tla_norm.ml" 101 3047 3102
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 101 3047 3074 "e_tla_norm.ml" 101 3047 3102
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 101 3047 3105 "e_tla_norm.ml" 101 3047 3106
+type(
+  E_t.expr
+)
+ident(
+  int_ref v "e_tla_norm.ml" 97 2891 2907 "e_tla_norm.ml" 97 2891 2908
+)
+"e_tla_norm.ml" 101 3047 3104 "e_tla_norm.ml" 101 3047 3107
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 101 3047 3067 "e_tla_norm.ml" 101 3047 3108
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 101 3047 3109 "e_tla_norm.ml" 101 3047 3111
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 101 3047 3112 "e_tla_norm.ml" 101 3047 3116
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 101 3047 3067 "e_tla_norm.ml" 101 3047 3116
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 101 3047 3061 "e_tla_norm.ml" 101 3047 3118
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 99 2982 2996 "e_tla_norm.ml" 102 3119 3136
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 102 3119 3137 "e_tla_norm.ml" 102 3119 3139
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 102 3119 3140 "e_tla_norm.ml" 102 3119 3144
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 99 2982 2996 "e_tla_norm.ml" 102 3119 3144
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 98 2930 2980 "e_tla_norm.ml" 102 3119 3145
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 98 2930 2942 "e_tla_norm.ml" 102 3119 3146
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 102 3119 3147 "e_tla_norm.ml" 102 3119 3149
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 102 3119 3150 "e_tla_norm.ml" 102 3119 3154
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 98 2930 2942 "e_tla_norm.ml" 102 3119 3154
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 97 2891 2903 "e_tla_norm.ml" 102 3119 3154
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 96 2852 2864 "e_tla_norm.ml" 102 3119 3154
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 103 3155 3170 "e_tla_norm.ml" 103 3155 3173
+type(
+  E_t.modal_op
+)
+"e_tla_norm.ml" 103 3155 3175 "e_tla_norm.ml" 103 3155 3176
+type(
+  E_t.expr
+)
+ident(
+  def e "e_tla_norm.ml" 104 3184 3196 "e_tla_norm.ml" 114 3531 3554
+)
+"e_tla_norm.ml" 103 3155 3178 "e_tla_norm.ml" 103 3155 3179
+type(
+  E_t.expr
+)
+ident(
+  def v "e_tla_norm.ml" 104 3184 3196 "e_tla_norm.ml" 114 3531 3554
+)
+"e_tla_norm.ml" 103 3155 3165 "e_tla_norm.ml" 103 3155 3180
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 104 3184 3200 "e_tla_norm.ml" 104 3184 3201
+type(
+  E_t.expr
+)
+ident(
+  def e "e_tla_norm.ml" 105 3223 3235 "e_tla_norm.ml" 114 3531 3554
+)
+"e_tla_norm.ml" 104 3184 3204 "e_tla_norm.ml" 104 3184 3208
+type(
+  unit E_visit.map
+)
+ident(
+  ext_ref self-4
+)
+"e_tla_norm.ml" 104 3184 3204 "e_tla_norm.ml" 104 3184 3213
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 104 3184 3214 "e_tla_norm.ml" 104 3184 3217
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_tla_norm.ml" 85 2486 2502 "e_tla_norm.ml" 85 2486 2505
+)
+"e_tla_norm.ml" 104 3184 3218 "e_tla_norm.ml" 104 3184 3219
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 103 3155 3175 "e_tla_norm.ml" 103 3155 3176
+)
+"e_tla_norm.ml" 104 3184 3204 "e_tla_norm.ml" 104 3184 3219
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 105 3223 3239 "e_tla_norm.ml" 105 3223 3240
+type(
+  E_t.expr
+)
+ident(
+  def v "e_tla_norm.ml" 106 3262 3274 "e_tla_norm.ml" 114 3531 3554
+)
+"e_tla_norm.ml" 105 3223 3243 "e_tla_norm.ml" 105 3223 3247
+type(
+  unit E_visit.map
+)
+ident(
+  ext_ref self-4
+)
+"e_tla_norm.ml" 105 3223 3243 "e_tla_norm.ml" 105 3223 3252
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 105 3223 3253 "e_tla_norm.ml" 105 3223 3256
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_tla_norm.ml" 85 2486 2502 "e_tla_norm.ml" 85 2486 2505
+)
+"e_tla_norm.ml" 105 3223 3257 "e_tla_norm.ml" 105 3223 3258
+type(
+  E_t.expr
+)
+ident(
+  int_ref v "e_tla_norm.ml" 103 3155 3178 "e_tla_norm.ml" 103 3155 3179
+)
+"e_tla_norm.ml" 105 3223 3243 "e_tla_norm.ml" 105 3223 3258
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 107 3286 3309 "e_tla_norm.ml" 107 3286 3315
+type(
+  B.builtin
+)
+"e_tla_norm.ml" 107 3286 3300 "e_tla_norm.ml" 107 3286 3315
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 107 3286 3316 "e_tla_norm.ml" 107 3286 3318
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 107 3286 3319 "e_tla_norm.ml" 107 3286 3323
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 107 3286 3300 "e_tla_norm.ml" 107 3286 3323
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 108 3325 3341 "e_tla_norm.ml" 108 3325 3342
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 104 3184 3200 "e_tla_norm.ml" 104 3184 3201
+)
+"e_tla_norm.ml" 110 3373 3400 "e_tla_norm.ml" 110 3373 3405
+type(
+  B.builtin
+)
+"e_tla_norm.ml" 110 3373 3391 "e_tla_norm.ml" 110 3373 3405
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 110 3373 3406 "e_tla_norm.ml" 110 3373 3408
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 110 3373 3409 "e_tla_norm.ml" 110 3373 3413
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 110 3373 3391 "e_tla_norm.ml" 110 3373 3413
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 111 3415 3450 "e_tla_norm.ml" 111 3415 3461
+type(
+  B.builtin
+)
+"e_tla_norm.ml" 111 3415 3441 "e_tla_norm.ml" 111 3415 3461
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 111 3415 3462 "e_tla_norm.ml" 111 3415 3464
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 111 3415 3465 "e_tla_norm.ml" 111 3415 3469
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 111 3415 3441 "e_tla_norm.ml" 111 3415 3469
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 111 3415 3472 "e_tla_norm.ml" 111 3415 3473
+type(
+  E_t.expr
+)
+ident(
+  int_ref v "e_tla_norm.ml" 105 3223 3239 "e_tla_norm.ml" 105 3223 3240
+)
+"e_tla_norm.ml" 111 3415 3471 "e_tla_norm.ml" 111 3415 3474
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 111 3415 3434 "e_tla_norm.ml" 111 3415 3475
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 111 3415 3476 "e_tla_norm.ml" 111 3415 3478
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 111 3415 3479 "e_tla_norm.ml" 111 3415 3483
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 111 3415 3434 "e_tla_norm.ml" 111 3415 3483
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 111 3415 3433 "e_tla_norm.ml" 111 3415 3484
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 109 3345 3361 "e_tla_norm.ml" 112 3485 3504
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 112 3485 3505 "e_tla_norm.ml" 112 3485 3507
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 112 3485 3508 "e_tla_norm.ml" 112 3485 3512
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 109 3345 3361 "e_tla_norm.ml" 112 3485 3512
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 108 3325 3339 "e_tla_norm.ml" 113 3515 3530
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 106 3262 3274 "e_tla_norm.ml" 114 3531 3546
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 114 3531 3547 "e_tla_norm.ml" 114 3531 3549
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 114 3531 3550 "e_tla_norm.ml" 114 3531 3554
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 106 3262 3274 "e_tla_norm.ml" 114 3531 3554
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 105 3223 3235 "e_tla_norm.ml" 114 3531 3554
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 104 3184 3196 "e_tla_norm.ml" 114 3531 3554
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 115 3555 3571 "e_tla_norm.ml" 115 3555 3574
+type(
+  E_t.modal_op
+)
+"e_tla_norm.ml" 115 3555 3576 "e_tla_norm.ml" 115 3555 3577
+type(
+  E_t.expr
+)
+ident(
+  def e "e_tla_norm.ml" 116 3585 3597 "e_tla_norm.ml" 127 3981 4014
+)
+"e_tla_norm.ml" 115 3555 3579 "e_tla_norm.ml" 115 3555 3580
+type(
+  E_t.expr
+)
+ident(
+  def v "e_tla_norm.ml" 116 3585 3597 "e_tla_norm.ml" 127 3981 4014
+)
+"e_tla_norm.ml" 115 3555 3565 "e_tla_norm.ml" 115 3555 3581
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 116 3585 3601 "e_tla_norm.ml" 116 3585 3602
+type(
+  E_t.expr
+)
+ident(
+  def e "e_tla_norm.ml" 117 3624 3636 "e_tla_norm.ml" 127 3981 4014
+)
+"e_tla_norm.ml" 116 3585 3605 "e_tla_norm.ml" 116 3585 3609
+type(
+  unit E_visit.map
+)
+ident(
+  ext_ref self-4
+)
+"e_tla_norm.ml" 116 3585 3605 "e_tla_norm.ml" 116 3585 3614
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 116 3585 3615 "e_tla_norm.ml" 116 3585 3618
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_tla_norm.ml" 85 2486 2502 "e_tla_norm.ml" 85 2486 2505
+)
+"e_tla_norm.ml" 116 3585 3619 "e_tla_norm.ml" 116 3585 3620
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 115 3555 3576 "e_tla_norm.ml" 115 3555 3577
+)
+"e_tla_norm.ml" 116 3585 3605 "e_tla_norm.ml" 116 3585 3620
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 117 3624 3640 "e_tla_norm.ml" 117 3624 3641
+type(
+  E_t.expr
+)
+ident(
+  def v "e_tla_norm.ml" 118 3663 3675 "e_tla_norm.ml" 127 3981 4014
+)
+"e_tla_norm.ml" 117 3624 3644 "e_tla_norm.ml" 117 3624 3648
+type(
+  unit E_visit.map
+)
+ident(
+  ext_ref self-4
+)
+"e_tla_norm.ml" 117 3624 3644 "e_tla_norm.ml" 117 3624 3653
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 117 3624 3654 "e_tla_norm.ml" 117 3624 3657
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_tla_norm.ml" 85 2486 2502 "e_tla_norm.ml" 85 2486 2505
+)
+"e_tla_norm.ml" 117 3624 3658 "e_tla_norm.ml" 117 3624 3659
+type(
+  E_t.expr
+)
+ident(
+  int_ref v "e_tla_norm.ml" 115 3555 3579 "e_tla_norm.ml" 115 3555 3580
+)
+"e_tla_norm.ml" 117 3624 3644 "e_tla_norm.ml" 117 3624 3659
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 118 3663 3691 "e_tla_norm.ml" 118 3663 3700
+type(
+  B.builtin
+)
+"e_tla_norm.ml" 118 3663 3682 "e_tla_norm.ml" 118 3663 3700
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 118 3663 3701 "e_tla_norm.ml" 118 3663 3703
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 118 3663 3704 "e_tla_norm.ml" 118 3663 3708
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 118 3663 3682 "e_tla_norm.ml" 118 3663 3708
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 120 3736 3759 "e_tla_norm.ml" 120 3736 3765
+type(
+  B.builtin
+)
+"e_tla_norm.ml" 120 3736 3750 "e_tla_norm.ml" 120 3736 3765
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 120 3736 3766 "e_tla_norm.ml" 120 3736 3768
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 120 3736 3769 "e_tla_norm.ml" 120 3736 3773
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 120 3736 3750 "e_tla_norm.ml" 120 3736 3773
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 121 3775 3791 "e_tla_norm.ml" 121 3775 3792
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 116 3585 3601 "e_tla_norm.ml" 116 3585 3602
+)
+"e_tla_norm.ml" 123 3823 3850 "e_tla_norm.ml" 123 3823 3855
+type(
+  B.builtin
+)
+"e_tla_norm.ml" 123 3823 3841 "e_tla_norm.ml" 123 3823 3855
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 123 3823 3856 "e_tla_norm.ml" 123 3823 3858
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 123 3823 3859 "e_tla_norm.ml" 123 3823 3863
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 123 3823 3841 "e_tla_norm.ml" 123 3823 3863
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 124 3865 3900 "e_tla_norm.ml" 124 3865 3911
+type(
+  B.builtin
+)
+"e_tla_norm.ml" 124 3865 3891 "e_tla_norm.ml" 124 3865 3911
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 124 3865 3912 "e_tla_norm.ml" 124 3865 3914
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 124 3865 3915 "e_tla_norm.ml" 124 3865 3919
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 124 3865 3891 "e_tla_norm.ml" 124 3865 3919
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 124 3865 3922 "e_tla_norm.ml" 124 3865 3923
+type(
+  E_t.expr
+)
+ident(
+  int_ref v "e_tla_norm.ml" 117 3624 3640 "e_tla_norm.ml" 117 3624 3641
+)
+"e_tla_norm.ml" 124 3865 3921 "e_tla_norm.ml" 124 3865 3924
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 124 3865 3884 "e_tla_norm.ml" 124 3865 3925
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 124 3865 3926 "e_tla_norm.ml" 124 3865 3928
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 124 3865 3929 "e_tla_norm.ml" 124 3865 3933
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 124 3865 3884 "e_tla_norm.ml" 124 3865 3933
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 124 3865 3883 "e_tla_norm.ml" 124 3865 3934
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 122 3795 3811 "e_tla_norm.ml" 125 3935 3954
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 125 3935 3955 "e_tla_norm.ml" 125 3935 3957
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 125 3935 3958 "e_tla_norm.ml" 125 3935 3962
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 122 3795 3811 "e_tla_norm.ml" 125 3935 3962
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 121 3775 3789 "e_tla_norm.ml" 126 3965 3980
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 119 3712 3724 "e_tla_norm.ml" 127 3981 3996
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 127 3981 3997 "e_tla_norm.ml" 127 3981 3999
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 127 3981 4000 "e_tla_norm.ml" 127 3981 4004
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 119 3712 3724 "e_tla_norm.ml" 127 3981 4004
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 118 3663 3710 "e_tla_norm.ml" 127 3981 4005
+type(
+  E_t.expr list
+)
+"e_tla_norm.ml" 118 3663 3675 "e_tla_norm.ml" 127 3981 4006
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 127 3981 4007 "e_tla_norm.ml" 127 3981 4009
+type(
+  E_t.expr_ -> E_t.expr -> E_t.expr
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"e_tla_norm.ml" 127 3981 4010 "e_tla_norm.ml" 127 3981 4014
+type(
+  E_t.expr
+)
+ident(
+  int_ref dest "e_tla_norm.ml" 86 2510 2520 "e_tla_norm.ml" 86 2510 2524
+)
+"e_tla_norm.ml" 118 3663 3675 "e_tla_norm.ml" 127 3981 4014
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 117 3624 3636 "e_tla_norm.ml" 127 3981 4014
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 116 3585 3597 "e_tla_norm.ml" 127 3981 4014
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 128 4015 4025 "e_tla_norm.ml" 128 4015 4026
+type(
+  E_t.expr_
+)
+type(
+  E_t.expr_
+)
+"e_tla_norm.ml" 128 4015 4030 "e_tla_norm.ml" 128 4015 4035
+type(
+  unit E_visit.map
+)
+ident(
+  ext_ref self-4
+)
+type(
+  unit E_visit.map
+)
+ident(
+  int_ref super "e_tla_norm.ml" 84 2446 2458 "e_tla_norm.ml" 84 2446 2476
+)
+"e_tla_norm.ml" 128 4015 4030 "e_tla_norm.ml" 128 4015 4040
+type(
+  unit E_visit.map -> unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 128 4015 4041 "e_tla_norm.ml" 128 4015 4044
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_tla_norm.ml" 85 2486 2502 "e_tla_norm.ml" 85 2486 2505
+)
+"e_tla_norm.ml" 128 4015 4045 "e_tla_norm.ml" 128 4015 4046
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 85 2486 2506 "e_tla_norm.ml" 85 2486 2507
+)
+"e_tla_norm.ml" 128 4015 4030 "e_tla_norm.ml" 128 4015 4046
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 87 2532 2538 "e_tla_norm.ml" 128 4015 4046
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 86 2510 2516 "e_tla_norm.ml" 128 4015 4046
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 83 2408 2424 "e_tla_norm.ml" 129 4047 4052
+type(
+  unit E_visit.map
+)
+"e_tla_norm.ml" 130 4056 4062 "e_tla_norm.ml" 130 4056 4065
+type(
+  unit E_visit.scx
+)
+ident(
+  def scx "e_tla_norm.ml" 130 4056 4066 "e_tla_norm.ml" 130 4056 4089
+)
+"e_tla_norm.ml" 130 4056 4066 "e_tla_norm.ml" 130 4056 4067
+type(
+  E_t.expr
+)
+ident(
+  def e "e_tla_norm.ml" 130 4056 4071 "e_tla_norm.ml" 130 4056 4089
+)
+"e_tla_norm.ml" 130 4056 4071 "e_tla_norm.ml" 130 4056 4078
+type(
+  unit E_visit.map
+)
+ident(
+  int_ref visitor "e_tla_norm.ml" 83 2408 2414 "e_tla_norm.ml" 83 2408 2421
+)
+"e_tla_norm.ml" 130 4056 4071 "e_tla_norm.ml" 130 4056 4083
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 130 4056 4084 "e_tla_norm.ml" 130 4056 4087
+type(
+  unit E_visit.scx
+)
+ident(
+  int_ref scx "e_tla_norm.ml" 130 4056 4062 "e_tla_norm.ml" 130 4056 4065
+)
+"e_tla_norm.ml" 130 4056 4088 "e_tla_norm.ml" 130 4056 4089
+type(
+  E_t.expr
+)
+ident(
+  int_ref e "e_tla_norm.ml" 130 4056 4066 "e_tla_norm.ml" 130 4056 4067
+)
+"e_tla_norm.ml" 130 4056 4071 "e_tla_norm.ml" 130 4056 4089
+type(
+  E_t.expr
+)
+"e_tla_norm.ml" 130 4056 4058 "e_tla_norm.ml" 130 4056 4089
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)
+"e_tla_norm.ml" 83 2408 2410 "e_tla_norm.ml" 130 4056 4089
+type(
+  unit E_visit.scx -> E_t.expr -> E_t.expr
+)

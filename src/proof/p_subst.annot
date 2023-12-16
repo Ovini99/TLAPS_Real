@@ -1,0 +1,2401 @@
+"p_subst.ml" 17 182 190 "p_subst.ml" 17 182 199
+type(
+  Expr.Subst.sub -> P_t.proof -> P_t.proof
+)
+ident(
+  def app_proof "p_subst.ml" 17 182 182 "p_subst.ml" 0 0 -1
+)
+"p_subst.ml" 17 182 200 "p_subst.ml" 17 182 201
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "p_subst.ml" 17 182 202 "p_subst.ml" 18 208 251
+)
+"p_subst.ml" 17 182 202 "p_subst.ml" 17 182 205
+type(
+  P_t.proof
+)
+ident(
+  def prf "p_subst.ml" 18 208 210 "p_subst.ml" 18 208 251
+)
+"p_subst.ml" 18 208 212 "p_subst.ml" 18 208 215
+type(
+  P_t.proof
+)
+ident(
+  int_ref prf "p_subst.ml" 17 182 202 "p_subst.ml" 17 182 205
+)
+"p_subst.ml" 18 208 228 "p_subst.ml" 18 208 238
+type(
+  Expr.Subst.sub -> P_t.proof_ -> P_t.proof_
+)
+ident(
+  int_ref app_proof_ "p_subst.ml" 20 253 257 "p_subst.ml" 20 253 267
+)
+"p_subst.ml" 18 208 239 "p_subst.ml" 18 208 240
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 17 182 200 "p_subst.ml" 17 182 201
+)
+"p_subst.ml" 18 208 241 "p_subst.ml" 18 208 244
+type(
+  P_t.proof
+)
+ident(
+  int_ref prf "p_subst.ml" 17 182 202 "p_subst.ml" 17 182 205
+)
+"p_subst.ml" 18 208 241 "p_subst.ml" 18 208 249
+type(
+  P_t.proof_
+)
+"p_subst.ml" 18 208 228 "p_subst.ml" 18 208 249
+type(
+  P_t.proof_
+)
+"p_subst.ml" 18 208 210 "p_subst.ml" 18 208 251
+type(
+  P_t.proof
+)
+"p_subst.ml" 20 253 257 "p_subst.ml" 20 253 267
+type(
+  Expr.Subst.sub -> P_t.proof_ -> P_t.proof_
+)
+ident(
+  def app_proof_ "p_subst.ml" 17 182 182 "p_subst.ml" 0 0 -1
+)
+"p_subst.ml" 20 253 268 "p_subst.ml" 20 253 269
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "p_subst.ml" 20 253 270 "p_subst.ml" 29 547 563
+)
+"p_subst.ml" 20 253 270 "p_subst.ml" 20 253 271
+type(
+  P_t.proof_
+)
+ident(
+  def p "p_subst.ml" 21 274 276 "p_subst.ml" 29 547 563
+)
+"p_subst.ml" 21 274 282 "p_subst.ml" 21 274 283
+type(
+  P_t.proof_
+)
+ident(
+  int_ref p "p_subst.ml" 20 253 270 "p_subst.ml" 20 253 271
+)
+"p_subst.ml" 22 289 297 "p_subst.ml" 22 289 299
+type(
+  P_t.usable
+)
+ident(
+  def us "p_subst.ml" 22 289 309 "p_subst.ml" 22 289 334
+)
+"p_subst.ml" 22 289 301 "p_subst.ml" 22 289 304
+type(
+  bool
+)
+ident(
+  def onl "p_subst.ml" 22 289 309 "p_subst.ml" 22 289 334
+)
+"p_subst.ml" 22 289 293 "p_subst.ml" 22 289 305
+type(
+  P_t.proof_
+)
+type(
+  P_t.proof_
+)
+"p_subst.ml" 22 289 313 "p_subst.ml" 22 289 323
+type(
+  Expr.Subst.sub -> P_t.usable -> P_t.usable
+)
+ident(
+  int_ref app_usable "p_subst.ml" 78 2049 2053 "p_subst.ml" 78 2049 2063
+)
+"p_subst.ml" 22 289 324 "p_subst.ml" 22 289 325
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 20 253 268 "p_subst.ml" 20 253 269
+)
+"p_subst.ml" 22 289 326 "p_subst.ml" 22 289 328
+type(
+  P_t.usable
+)
+ident(
+  int_ref us "p_subst.ml" 22 289 297 "p_subst.ml" 22 289 299
+)
+"p_subst.ml" 22 289 313 "p_subst.ml" 22 289 328
+type(
+  P_t.usable
+)
+"p_subst.ml" 22 289 330 "p_subst.ml" 22 289 333
+type(
+  bool
+)
+ident(
+  int_ref onl "p_subst.ml" 22 289 301 "p_subst.ml" 22 289 304
+)
+"p_subst.ml" 22 289 309 "p_subst.ml" 22 289 334
+type(
+  P_t.proof_
+)
+"p_subst.ml" 23 335 339 "p_subst.ml" 23 335 346
+type(
+  P_t.proof_
+)
+type(
+  P_t.proof_
+)
+"p_subst.ml" 23 335 350 "p_subst.ml" 23 335 351
+type(
+  P_t.proof_
+)
+ident(
+  int_ref p "p_subst.ml" 20 253 270 "p_subst.ml" 20 253 271
+)
+"p_subst.ml" 24 352 363 "p_subst.ml" 24 352 368
+type(
+  P_t.step list
+)
+ident(
+  def inits "p_subst.ml" 25 378 384 "p_subst.ml" 27 477 527
+)
+"p_subst.ml" 24 352 370 "p_subst.ml" 24 352 373
+type(
+  P_t.qed_step
+)
+ident(
+  def qed "p_subst.ml" 25 378 384 "p_subst.ml" 27 477 527
+)
+"p_subst.ml" 24 352 356 "p_subst.ml" 24 352 374
+type(
+  P_t.proof_
+)
+type(
+  P_t.proof_
+)
+"p_subst.ml" 25 378 389 "p_subst.ml" 25 378 390
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "p_subst.ml" 26 422 428 "p_subst.ml" 27 477 527
+)
+"p_subst.ml" 25 378 392 "p_subst.ml" 25 378 397
+type(
+  P_t.step list
+)
+ident(
+  def inits "p_subst.ml" 26 422 428 "p_subst.ml" 27 477 527
+)
+"p_subst.ml" 25 378 388 "p_subst.ml" 25 378 398
+type(
+  Expr.Subst.sub * P_t.step list
+)
+"p_subst.ml" 25 378 401 "p_subst.ml" 25 378 410
+type(
+  Expr.Subst.sub -> P_t.step list -> Expr.Subst.sub * P_t.step list
+)
+ident(
+  int_ref app_inits "p_subst.ml" 31 565 569 "p_subst.ml" 31 565 578
+)
+"p_subst.ml" 25 378 411 "p_subst.ml" 25 378 412
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 20 253 268 "p_subst.ml" 20 253 269
+)
+"p_subst.ml" 25 378 413 "p_subst.ml" 25 378 418
+type(
+  P_t.step list
+)
+ident(
+  int_ref inits "p_subst.ml" 24 352 363 "p_subst.ml" 24 352 368
+)
+"p_subst.ml" 25 378 401 "p_subst.ml" 25 378 418
+type(
+  Expr.Subst.sub * P_t.step list
+)
+"p_subst.ml" 26 422 432 "p_subst.ml" 26 422 439
+type(
+  P_t.proof
+)
+ident(
+  def qed_prf "p_subst.ml" 27 477 483 "p_subst.ml" 27 477 527
+)
+"p_subst.ml" 26 422 442 "p_subst.ml" 26 422 451
+type(
+  Expr.Subst.sub -> P_t.proof -> P_t.proof
+)
+ident(
+  int_ref app_proof "p_subst.ml" 17 182 190 "p_subst.ml" 17 182 199
+)
+"p_subst.ml" 26 422 452 "p_subst.ml" 26 422 453
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 25 378 389 "p_subst.ml" 25 378 390
+)
+"p_subst.ml" 26 422 455 "p_subst.ml" 26 422 468
+type(
+  P_t.qed_step -> P_t.proof
+)
+ident(
+  int_ref P_t.get_qed_proof "p_t.mli" 95 1953 1953 "p_t.mli" 96 1972 2011
+)
+"p_subst.ml" 26 422 469 "p_subst.ml" 26 422 472
+type(
+  P_t.qed_step
+)
+ident(
+  int_ref qed "p_subst.ml" 24 352 370 "p_subst.ml" 24 352 373
+)
+"p_subst.ml" 26 422 454 "p_subst.ml" 26 422 473
+type(
+  P_t.proof
+)
+"p_subst.ml" 26 422 442 "p_subst.ml" 26 422 473
+type(
+  P_t.proof
+)
+"p_subst.ml" 27 477 490 "p_subst.ml" 27 477 495
+type(
+  P_t.step list
+)
+ident(
+  int_ref inits "p_subst.ml" 25 378 392 "p_subst.ml" 25 378 397
+)
+"p_subst.ml" 27 477 498 "p_subst.ml" 27 477 501
+type(
+  P_t.qed_step
+)
+ident(
+  int_ref qed "p_subst.ml" 24 352 370 "p_subst.ml" 24 352 373
+)
+"p_subst.ml" 27 477 518 "p_subst.ml" 27 477 525
+type(
+  P_t.proof
+)
+ident(
+  int_ref qed_prf "p_subst.ml" 26 422 432 "p_subst.ml" 26 422 439
+)
+"p_subst.ml" 27 477 514 "p_subst.ml" 27 477 525
+type(
+  P_t.qed_step_
+)
+"p_subst.ml" 27 477 497 "p_subst.ml" 27 477 526
+type(
+  P_t.qed_step
+)
+"p_subst.ml" 27 477 483 "p_subst.ml" 27 477 527
+type(
+  P_t.proof_
+)
+"p_subst.ml" 26 422 428 "p_subst.ml" 27 477 527
+type(
+  P_t.proof_
+)
+"p_subst.ml" 25 378 384 "p_subst.ml" 27 477 527
+type(
+  P_t.proof_
+)
+"p_subst.ml" 28 528 540 "p_subst.ml" 28 528 541
+type(
+  P_t.omission
+)
+"p_subst.ml" 28 528 532 "p_subst.ml" 28 528 541
+type(
+  P_t.proof_
+)
+type(
+  P_t.proof_
+)
+"p_subst.ml" 28 528 545 "p_subst.ml" 28 528 546
+type(
+  P_t.proof_
+)
+ident(
+  int_ref p "p_subst.ml" 20 253 270 "p_subst.ml" 20 253 271
+)
+"p_subst.ml" 29 547 557 "p_subst.ml" 29 547 558
+type(
+  string
+)
+"p_subst.ml" 29 547 551 "p_subst.ml" 29 547 558
+type(
+  P_t.proof_
+)
+type(
+  P_t.proof_
+)
+"p_subst.ml" 29 547 562 "p_subst.ml" 29 547 563
+type(
+  P_t.proof_
+)
+ident(
+  int_ref p "p_subst.ml" 20 253 270 "p_subst.ml" 20 253 271
+)
+"p_subst.ml" 21 274 276 "p_subst.ml" 29 547 563
+type(
+  P_t.proof_
+)
+"p_subst.ml" 31 565 569 "p_subst.ml" 31 565 578
+type(
+  Expr.Subst.sub -> P_t.step list -> Expr.Subst.sub * P_t.step list
+)
+ident(
+  def app_inits "p_subst.ml" 17 182 182 "p_subst.ml" 0 0 -1
+)
+"p_subst.ml" 31 565 579 "p_subst.ml" 31 565 580
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "p_subst.ml" 31 565 583 "p_subst.ml" 36 704 724
+)
+"p_subst.ml" 32 592 596 "p_subst.ml" 32 592 598
+type(
+  P_t.step list
+)
+"p_subst.ml" 32 592 603 "p_subst.ml" 32 592 604
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 31 565 579 "p_subst.ml" 31 565 580
+)
+"p_subst.ml" 32 592 606 "p_subst.ml" 32 592 608
+type(
+  P_t.step list
+)
+"p_subst.ml" 32 592 602 "p_subst.ml" 32 592 609
+type(
+  Expr.Subst.sub * P_t.step list
+)
+"p_subst.ml" 33 610 614 "p_subst.ml" 33 610 617
+type(
+  P_t.step
+)
+ident(
+  def stp "p_subst.ml" 34 627 633 "p_subst.ml" 36 704 724
+)
+"p_subst.ml" 33 610 621 "p_subst.ml" 33 610 623
+type(
+  P_t.step list
+)
+ident(
+  def is "p_subst.ml" 34 627 633 "p_subst.ml" 36 704 724
+)
+"p_subst.ml" 33 610 614 "p_subst.ml" 33 610 623
+type(
+  P_t.step list
+)
+"p_subst.ml" 34 627 638 "p_subst.ml" 34 627 639
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "p_subst.ml" 35 666 672 "p_subst.ml" 36 704 724
+)
+"p_subst.ml" 34 627 641 "p_subst.ml" 34 627 644
+type(
+  P_t.step
+)
+ident(
+  def stp "p_subst.ml" 35 666 672 "p_subst.ml" 36 704 724
+)
+"p_subst.ml" 34 627 637 "p_subst.ml" 34 627 645
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 34 627 648 "p_subst.ml" 34 627 656
+type(
+  Expr.Subst.sub -> P_t.step -> Expr.Subst.sub * P_t.step
+)
+ident(
+  int_ref app_step "p_subst.ml" 38 726 730 "p_subst.ml" 38 726 738
+)
+"p_subst.ml" 34 627 657 "p_subst.ml" 34 627 658
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 31 565 579 "p_subst.ml" 31 565 580
+)
+"p_subst.ml" 34 627 659 "p_subst.ml" 34 627 662
+type(
+  P_t.step
+)
+ident(
+  int_ref stp "p_subst.ml" 33 610 614 "p_subst.ml" 33 610 617
+)
+"p_subst.ml" 34 627 648 "p_subst.ml" 34 627 662
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 35 666 677 "p_subst.ml" 35 666 678
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "p_subst.ml" 36 704 710 "p_subst.ml" 36 704 724
+)
+"p_subst.ml" 35 666 680 "p_subst.ml" 35 666 682
+type(
+  P_t.step list
+)
+ident(
+  def is "p_subst.ml" 36 704 710 "p_subst.ml" 36 704 724
+)
+"p_subst.ml" 35 666 676 "p_subst.ml" 35 666 683
+type(
+  Expr.Subst.sub * P_t.step list
+)
+"p_subst.ml" 35 666 686 "p_subst.ml" 35 666 695
+type(
+  Expr.Subst.sub -> P_t.step list -> Expr.Subst.sub * P_t.step list
+)
+ident(
+  int_ref app_inits "p_subst.ml" 31 565 569 "p_subst.ml" 31 565 578
+)
+"p_subst.ml" 35 666 696 "p_subst.ml" 35 666 697
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 34 627 638 "p_subst.ml" 34 627 639
+)
+"p_subst.ml" 35 666 698 "p_subst.ml" 35 666 700
+type(
+  P_t.step list
+)
+ident(
+  int_ref is "p_subst.ml" 33 610 621 "p_subst.ml" 33 610 623
+)
+"p_subst.ml" 35 666 686 "p_subst.ml" 35 666 700
+type(
+  Expr.Subst.sub * P_t.step list
+)
+"p_subst.ml" 36 704 711 "p_subst.ml" 36 704 712
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 35 666 677 "p_subst.ml" 35 666 678
+)
+"p_subst.ml" 36 704 714 "p_subst.ml" 36 704 717
+type(
+  P_t.step
+)
+ident(
+  int_ref stp "p_subst.ml" 34 627 641 "p_subst.ml" 34 627 644
+)
+"p_subst.ml" 36 704 721 "p_subst.ml" 36 704 723
+type(
+  P_t.step list
+)
+ident(
+  int_ref is "p_subst.ml" 35 666 680 "p_subst.ml" 35 666 682
+)
+"p_subst.ml" 36 704 714 "p_subst.ml" 36 704 723
+type(
+  P_t.step list
+)
+"p_subst.ml" 36 704 710 "p_subst.ml" 36 704 724
+type(
+  Expr.Subst.sub * P_t.step list
+)
+"p_subst.ml" 35 666 672 "p_subst.ml" 36 704 724
+type(
+  Expr.Subst.sub * P_t.step list
+)
+"p_subst.ml" 34 627 633 "p_subst.ml" 36 704 724
+type(
+  Expr.Subst.sub * P_t.step list
+)
+"p_subst.ml" 31 565 583 "p_subst.ml" 36 704 724
+type(
+  P_t.step list -> Expr.Subst.sub * P_t.step list
+)
+"p_subst.ml" 38 726 730 "p_subst.ml" 38 726 738
+type(
+  Expr.Subst.sub -> P_t.step -> Expr.Subst.sub * P_t.step
+)
+ident(
+  def app_step "p_subst.ml" 17 182 182 "p_subst.ml" 0 0 -1
+)
+"p_subst.ml" 38 726 739 "p_subst.ml" 38 726 740
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "p_subst.ml" 38 726 741 "p_subst.ml" 76 2019 2047
+)
+"p_subst.ml" 38 726 741 "p_subst.ml" 38 726 744
+type(
+  P_t.step
+)
+ident(
+  def stp "p_subst.ml" 38 726 747 "p_subst.ml" 76 2019 2047
+)
+"p_subst.ml" 38 726 753 "p_subst.ml" 38 726 756
+type(
+  P_t.step
+)
+ident(
+  int_ref stp "p_subst.ml" 38 726 741 "p_subst.ml" 38 726 744
+)
+"p_subst.ml" 38 726 753 "p_subst.ml" 38 726 761
+type(
+  P_t.step_
+)
+"p_subst.ml" 39 767 778 "p_subst.ml" 39 767 779
+type(
+  int
+)
+ident(
+  def k "p_subst.ml" 40 783 789 "p_subst.ml" 40 783 809
+)
+"p_subst.ml" 39 767 771 "p_subst.ml" 39 767 779
+type(
+  P_t.step_
+)
+type(
+  P_t.step_
+)
+"p_subst.ml" 40 783 790 "p_subst.ml" 40 783 791
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 38 726 739 "p_subst.ml" 38 726 740
+)
+"p_subst.ml" 40 783 800 "p_subst.ml" 40 783 801
+type(
+  int
+)
+ident(
+  int_ref k "p_subst.ml" 39 767 778 "p_subst.ml" 39 767 779
+)
+"p_subst.ml" 40 783 793 "p_subst.ml" 40 783 801
+type(
+  P_t.step_
+)
+"p_subst.ml" 40 783 802 "p_subst.ml" 40 783 804
+type(
+  P_t.step_ -> P_t.step -> P_t.step
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_subst.ml" 40 783 805 "p_subst.ml" 40 783 808
+type(
+  P_t.step
+)
+ident(
+  int_ref stp "p_subst.ml" 38 726 741 "p_subst.ml" 38 726 744
+)
+"p_subst.ml" 40 783 793 "p_subst.ml" 40 783 808
+type(
+  P_t.step
+)
+"p_subst.ml" 40 783 789 "p_subst.ml" 40 783 809
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 41 810 819 "p_subst.ml" 41 810 821
+type(
+  P_t.usable
+)
+ident(
+  def us "p_subst.ml" 42 825 831 "p_subst.ml" 42 825 865
+)
+"p_subst.ml" 41 810 814 "p_subst.ml" 41 810 821
+type(
+  P_t.step_
+)
+type(
+  P_t.step_
+)
+"p_subst.ml" 42 825 832 "p_subst.ml" 42 825 833
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 38 726 739 "p_subst.ml" 38 726 740
+)
+"p_subst.ml" 42 825 841 "p_subst.ml" 42 825 851
+type(
+  Expr.Subst.sub -> P_t.usable -> P_t.usable
+)
+ident(
+  int_ref app_usable "p_subst.ml" 78 2049 2053 "p_subst.ml" 78 2049 2063
+)
+"p_subst.ml" 42 825 852 "p_subst.ml" 42 825 853
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 38 726 739 "p_subst.ml" 38 726 740
+)
+"p_subst.ml" 42 825 854 "p_subst.ml" 42 825 856
+type(
+  P_t.usable
+)
+ident(
+  int_ref us "p_subst.ml" 41 810 819 "p_subst.ml" 41 810 821
+)
+"p_subst.ml" 42 825 840 "p_subst.ml" 42 825 857
+type(
+  P_t.usable
+)
+"p_subst.ml" 42 825 835 "p_subst.ml" 42 825 857
+type(
+  P_t.step_
+)
+"p_subst.ml" 42 825 858 "p_subst.ml" 42 825 860
+type(
+  P_t.step_ -> P_t.step -> P_t.step
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_subst.ml" 42 825 861 "p_subst.ml" 42 825 864
+type(
+  P_t.step
+)
+ident(
+  int_ref stp "p_subst.ml" 38 726 741 "p_subst.ml" 38 726 744
+)
+"p_subst.ml" 42 825 835 "p_subst.ml" 42 825 864
+type(
+  P_t.step
+)
+"p_subst.ml" 42 825 831 "p_subst.ml" 42 825 865
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 43 866 877 "p_subst.ml" 43 866 880
+type(
+  Expr.T.defn list
+)
+ident(
+  def dfs "p_subst.ml" 44 884 890 "p_subst.ml" 45 924 952
+)
+"p_subst.ml" 43 866 870 "p_subst.ml" 43 866 880
+type(
+  P_t.step_
+)
+type(
+  P_t.step_
+)
+"p_subst.ml" 44 884 895 "p_subst.ml" 44 884 896
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "p_subst.ml" 45 924 930 "p_subst.ml" 45 924 952
+)
+"p_subst.ml" 44 884 898 "p_subst.ml" 44 884 901
+type(
+  Expr.T.defn list
+)
+ident(
+  def dfs "p_subst.ml" 45 924 930 "p_subst.ml" 45 924 952
+)
+"p_subst.ml" 44 884 894 "p_subst.ml" 44 884 902
+type(
+  Expr.Subst.sub * Expr.T.defn list
+)
+"p_subst.ml" 44 884 905 "p_subst.ml" 44 884 914
+type(
+  Expr.Subst.sub -> Expr.T.defn list -> Expr.Subst.sub * Expr.T.defn list
+)
+ident(
+  int_ref Expr.Subst.app_defns "expr.mli" 462 11519 11523 "expr.mli" 464 11566 11593
+)
+"p_subst.ml" 44 884 915 "p_subst.ml" 44 884 916
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 38 726 739 "p_subst.ml" 38 726 740
+)
+"p_subst.ml" 44 884 917 "p_subst.ml" 44 884 920
+type(
+  Expr.T.defn list
+)
+ident(
+  int_ref dfs "p_subst.ml" 43 866 877 "p_subst.ml" 43 866 880
+)
+"p_subst.ml" 44 884 905 "p_subst.ml" 44 884 920
+type(
+  Expr.Subst.sub * Expr.T.defn list
+)
+"p_subst.ml" 45 924 931 "p_subst.ml" 45 924 932
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 44 884 895 "p_subst.ml" 44 884 896
+)
+"p_subst.ml" 45 924 941 "p_subst.ml" 45 924 944
+type(
+  Expr.T.defn list
+)
+ident(
+  int_ref dfs "p_subst.ml" 44 884 898 "p_subst.ml" 44 884 901
+)
+"p_subst.ml" 45 924 934 "p_subst.ml" 45 924 944
+type(
+  P_t.step_
+)
+"p_subst.ml" 45 924 945 "p_subst.ml" 45 924 947
+type(
+  P_t.step_ -> P_t.step -> P_t.step
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_subst.ml" 45 924 948 "p_subst.ml" 45 924 951
+type(
+  P_t.step
+)
+ident(
+  int_ref stp "p_subst.ml" 38 726 741 "p_subst.ml" 38 726 744
+)
+"p_subst.ml" 45 924 934 "p_subst.ml" 45 924 951
+type(
+  P_t.step
+)
+"p_subst.ml" 45 924 930 "p_subst.ml" 45 924 952
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 44 884 890 "p_subst.ml" 45 924 952
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 46 953 965 "p_subst.ml" 46 953 967
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "p_subst.ml" 47 977 983 "p_subst.ml" 50 1150 1184
+)
+"p_subst.ml" 46 953 969 "p_subst.ml" 46 953 972
+type(
+  P_t.proof
+)
+ident(
+  def prf "p_subst.ml" 47 977 983 "p_subst.ml" 50 1150 1184
+)
+"p_subst.ml" 46 953 957 "p_subst.ml" 46 953 973
+type(
+  P_t.step_
+)
+type(
+  P_t.step_
+)
+"p_subst.ml" 47 977 987 "p_subst.ml" 47 977 989
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "p_subst.ml" 48 1012 1018 "p_subst.ml" 50 1150 1184
+)
+"p_subst.ml" 47 977 992 "p_subst.ml" 47 977 1003
+type(
+  Expr.Subst.sub -> Expr.T.sequent -> Expr.T.sequent
+)
+ident(
+  int_ref Expr.Subst.app_sequent "expr.mli" 465 11594 11598 "expr.mli" 467 11641 11660
+)
+"p_subst.ml" 47 977 1004 "p_subst.ml" 47 977 1005
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 38 726 739 "p_subst.ml" 38 726 740
+)
+"p_subst.ml" 47 977 1006 "p_subst.ml" 47 977 1008
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "p_subst.ml" 46 953 965 "p_subst.ml" 46 953 967
+)
+"p_subst.ml" 47 977 992 "p_subst.ml" 47 977 1008
+type(
+  Expr.T.sequent
+)
+"p_subst.ml" 48 1012 1022 "p_subst.ml" 48 1012 1023
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "p_subst.ml" 49 1083 1089 "p_subst.ml" 50 1150 1184
+)
+"p_subst.ml" 48 1012 1026 "p_subst.ml" 48 1012 1031
+type(
+  int -> Expr.Subst.sub -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.bumpn "expr.mli" 432 10886 10890 "expr.mli" 434 10923 10938
+)
+"p_subst.ml" 48 1012 1032 "p_subst.ml" 48 1012 1033
+type(
+  int
+)
+"p_subst.ml" 48 1012 1034 "p_subst.ml" 48 1012 1035
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 38 726 739 "p_subst.ml" 38 726 740
+)
+"p_subst.ml" 48 1012 1026 "p_subst.ml" 48 1012 1035
+type(
+  Expr.Subst.sub
+)
+"p_subst.ml" 49 1083 1093 "p_subst.ml" 49 1083 1096
+type(
+  P_t.proof
+)
+ident(
+  def prf "p_subst.ml" 50 1150 1156 "p_subst.ml" 50 1150 1184
+)
+"p_subst.ml" 49 1083 1099 "p_subst.ml" 49 1083 1108
+type(
+  Expr.Subst.sub -> P_t.proof -> P_t.proof
+)
+ident(
+  int_ref app_proof "p_subst.ml" 17 182 190 "p_subst.ml" 17 182 199
+)
+"p_subst.ml" 49 1083 1110 "p_subst.ml" 49 1083 1115
+type(
+  int -> Expr.Subst.sub -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.bumpn "expr.mli" 432 10886 10890 "expr.mli" 434 10923 10938
+)
+"p_subst.ml" 49 1083 1117 "p_subst.ml" 49 1083 1127
+type(
+  Expr.T.hyp Deque.dq -> int
+)
+ident(
+  int_ref Deque.size "deque.mli" 11 162 162 "deque.mli" 11 162 186
+)
+"p_subst.ml" 49 1083 1128 "p_subst.ml" 49 1083 1130
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "p_subst.ml" 47 977 987 "p_subst.ml" 47 977 989
+)
+"p_subst.ml" 49 1083 1128 "p_subst.ml" 49 1083 1138
+type(
+  Expr.T.hyp Deque.dq
+)
+"p_subst.ml" 49 1083 1116 "p_subst.ml" 49 1083 1139
+type(
+  int
+)
+"p_subst.ml" 49 1083 1140 "p_subst.ml" 49 1083 1141
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 48 1012 1022 "p_subst.ml" 48 1012 1023
+)
+"p_subst.ml" 49 1083 1109 "p_subst.ml" 49 1083 1142
+type(
+  Expr.Subst.sub
+)
+"p_subst.ml" 49 1083 1143 "p_subst.ml" 49 1083 1146
+type(
+  P_t.proof
+)
+ident(
+  int_ref prf "p_subst.ml" 46 953 969 "p_subst.ml" 46 953 972
+)
+"p_subst.ml" 49 1083 1099 "p_subst.ml" 49 1083 1146
+type(
+  P_t.proof
+)
+"p_subst.ml" 50 1150 1157 "p_subst.ml" 50 1150 1158
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 48 1012 1022 "p_subst.ml" 48 1012 1023
+)
+"p_subst.ml" 50 1150 1168 "p_subst.ml" 50 1150 1170
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "p_subst.ml" 47 977 987 "p_subst.ml" 47 977 989
+)
+"p_subst.ml" 50 1150 1172 "p_subst.ml" 50 1150 1175
+type(
+  P_t.proof
+)
+ident(
+  int_ref prf "p_subst.ml" 49 1083 1093 "p_subst.ml" 49 1083 1096
+)
+"p_subst.ml" 50 1150 1160 "p_subst.ml" 50 1150 1176
+type(
+  P_t.step_
+)
+"p_subst.ml" 50 1150 1177 "p_subst.ml" 50 1150 1179
+type(
+  P_t.step_ -> P_t.step -> P_t.step
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_subst.ml" 50 1150 1180 "p_subst.ml" 50 1150 1183
+type(
+  P_t.step
+)
+ident(
+  int_ref stp "p_subst.ml" 38 726 741 "p_subst.ml" 38 726 744
+)
+"p_subst.ml" 50 1150 1160 "p_subst.ml" 50 1150 1183
+type(
+  P_t.step
+)
+"p_subst.ml" 50 1150 1156 "p_subst.ml" 50 1150 1184
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 49 1083 1089 "p_subst.ml" 50 1150 1184
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 48 1012 1018 "p_subst.ml" 50 1150 1184
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 47 977 983 "p_subst.ml" 50 1150 1184
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 51 1185 1199 "p_subst.ml" 51 1185 1201
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "p_subst.ml" 52 1211 1217 "p_subst.ml" 55 1352 1418
+)
+"p_subst.ml" 51 1185 1203 "p_subst.ml" 51 1185 1206
+type(
+  P_t.proof
+)
+ident(
+  def prf "p_subst.ml" 52 1211 1217 "p_subst.ml" 55 1352 1418
+)
+"p_subst.ml" 51 1185 1189 "p_subst.ml" 51 1185 1207
+type(
+  P_t.step_
+)
+type(
+  P_t.step_
+)
+"p_subst.ml" 52 1211 1221 "p_subst.ml" 52 1211 1223
+type(
+  Expr.T.sequent
+)
+ident(
+  def sq "p_subst.ml" 53 1246 1252 "p_subst.ml" 55 1352 1418
+)
+"p_subst.ml" 52 1211 1226 "p_subst.ml" 52 1211 1237
+type(
+  Expr.Subst.sub -> Expr.T.sequent -> Expr.T.sequent
+)
+ident(
+  int_ref Expr.Subst.app_sequent "expr.mli" 465 11594 11598 "expr.mli" 467 11641 11660
+)
+"p_subst.ml" 52 1211 1238 "p_subst.ml" 52 1211 1239
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 38 726 739 "p_subst.ml" 38 726 740
+)
+"p_subst.ml" 52 1211 1240 "p_subst.ml" 52 1211 1242
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "p_subst.ml" 51 1185 1199 "p_subst.ml" 51 1185 1201
+)
+"p_subst.ml" 52 1211 1226 "p_subst.ml" 52 1211 1242
+type(
+  Expr.T.sequent
+)
+"p_subst.ml" 53 1246 1256 "p_subst.ml" 53 1246 1257
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "p_subst.ml" 54 1317 1323 "p_subst.ml" 55 1352 1418
+)
+"p_subst.ml" 53 1246 1260 "p_subst.ml" 53 1246 1265
+type(
+  int -> Expr.Subst.sub -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.bumpn "expr.mli" 432 10886 10890 "expr.mli" 434 10923 10938
+)
+"p_subst.ml" 53 1246 1266 "p_subst.ml" 53 1246 1267
+type(
+  int
+)
+"p_subst.ml" 53 1246 1268 "p_subst.ml" 53 1246 1269
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 38 726 739 "p_subst.ml" 38 726 740
+)
+"p_subst.ml" 53 1246 1260 "p_subst.ml" 53 1246 1269
+type(
+  Expr.Subst.sub
+)
+"p_subst.ml" 54 1317 1327 "p_subst.ml" 54 1317 1330
+type(
+  P_t.proof
+)
+ident(
+  def prf "p_subst.ml" 55 1352 1358 "p_subst.ml" 55 1352 1418
+)
+"p_subst.ml" 54 1317 1333 "p_subst.ml" 54 1317 1342
+type(
+  Expr.Subst.sub -> P_t.proof -> P_t.proof
+)
+ident(
+  int_ref app_proof "p_subst.ml" 17 182 190 "p_subst.ml" 17 182 199
+)
+"p_subst.ml" 54 1317 1343 "p_subst.ml" 54 1317 1344
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 53 1246 1256 "p_subst.ml" 53 1246 1257
+)
+"p_subst.ml" 54 1317 1345 "p_subst.ml" 54 1317 1348
+type(
+  P_t.proof
+)
+ident(
+  int_ref prf "p_subst.ml" 51 1185 1203 "p_subst.ml" 51 1185 1206
+)
+"p_subst.ml" 54 1317 1333 "p_subst.ml" 54 1317 1348
+type(
+  P_t.proof
+)
+"p_subst.ml" 55 1352 1359 "p_subst.ml" 55 1352 1364
+type(
+  int -> Expr.Subst.sub -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.bumpn "expr.mli" 432 10886 10890 "expr.mli" 434 10923 10938
+)
+"p_subst.ml" 55 1352 1366 "p_subst.ml" 55 1352 1376
+type(
+  Expr.T.hyp Deque.dq -> int
+)
+ident(
+  int_ref Deque.size "deque.mli" 11 162 162 "deque.mli" 11 162 186
+)
+"p_subst.ml" 55 1352 1377 "p_subst.ml" 55 1352 1379
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "p_subst.ml" 52 1211 1221 "p_subst.ml" 52 1211 1223
+)
+"p_subst.ml" 55 1352 1377 "p_subst.ml" 55 1352 1387
+type(
+  Expr.T.hyp Deque.dq
+)
+"p_subst.ml" 55 1352 1365 "p_subst.ml" 55 1352 1388
+type(
+  int
+)
+"p_subst.ml" 55 1352 1389 "p_subst.ml" 55 1352 1390
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 53 1246 1256 "p_subst.ml" 53 1246 1257
+)
+"p_subst.ml" 55 1352 1359 "p_subst.ml" 55 1352 1390
+type(
+  Expr.Subst.sub
+)
+"p_subst.ml" 55 1352 1402 "p_subst.ml" 55 1352 1404
+type(
+  Expr.T.sequent
+)
+ident(
+  int_ref sq "p_subst.ml" 52 1211 1221 "p_subst.ml" 52 1211 1223
+)
+"p_subst.ml" 55 1352 1406 "p_subst.ml" 55 1352 1409
+type(
+  P_t.proof
+)
+ident(
+  int_ref prf "p_subst.ml" 54 1317 1327 "p_subst.ml" 54 1317 1330
+)
+"p_subst.ml" 55 1352 1392 "p_subst.ml" 55 1352 1410
+type(
+  P_t.step_
+)
+"p_subst.ml" 55 1352 1411 "p_subst.ml" 55 1352 1413
+type(
+  P_t.step_ -> P_t.step -> P_t.step
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_subst.ml" 55 1352 1414 "p_subst.ml" 55 1352 1417
+type(
+  P_t.step
+)
+ident(
+  int_ref stp "p_subst.ml" 38 726 741 "p_subst.ml" 38 726 744
+)
+"p_subst.ml" 55 1352 1392 "p_subst.ml" 55 1352 1417
+type(
+  P_t.step
+)
+"p_subst.ml" 55 1352 1358 "p_subst.ml" 55 1352 1418
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 54 1317 1323 "p_subst.ml" 55 1352 1418
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 53 1246 1252 "p_subst.ml" 55 1352 1418
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 52 1211 1217 "p_subst.ml" 55 1352 1418
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 56 1419 1430 "p_subst.ml" 56 1419 1431
+type(
+  Expr.T.expr
+)
+ident(
+  def e "p_subst.ml" 57 1439 1445 "p_subst.ml" 61 1554 1584
+)
+"p_subst.ml" 56 1419 1433 "p_subst.ml" 56 1419 1434
+type(
+  P_t.proof
+)
+ident(
+  def p "p_subst.ml" 57 1439 1445 "p_subst.ml" 61 1554 1584
+)
+"p_subst.ml" 56 1419 1423 "p_subst.ml" 56 1419 1435
+type(
+  P_t.step_
+)
+type(
+  P_t.step_
+)
+"p_subst.ml" 57 1439 1449 "p_subst.ml" 57 1439 1450
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "p_subst.ml" 58 1466 1472 "p_subst.ml" 61 1554 1584
+)
+"p_subst.ml" 57 1439 1453 "p_subst.ml" 57 1439 1458
+type(
+  int -> Expr.Subst.sub -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.bumpn "expr.mli" 432 10886 10890 "expr.mli" 434 10923 10938
+)
+"p_subst.ml" 57 1439 1459 "p_subst.ml" 57 1439 1460
+type(
+  int
+)
+"p_subst.ml" 57 1439 1461 "p_subst.ml" 57 1439 1462
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 38 726 739 "p_subst.ml" 38 726 740
+)
+"p_subst.ml" 57 1439 1453 "p_subst.ml" 57 1439 1462
+type(
+  Expr.Subst.sub
+)
+"p_subst.ml" 58 1466 1476 "p_subst.ml" 58 1466 1477
+type(
+  Expr.T.expr
+)
+ident(
+  def e "p_subst.ml" 59 1496 1502 "p_subst.ml" 61 1554 1584
+)
+"p_subst.ml" 58 1466 1480 "p_subst.ml" 58 1466 1488
+type(
+  Expr.Subst.sub -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Subst.app_expr "expr.mli" 447 11184 11188 "expr.mli" 449 11225 11241
+)
+"p_subst.ml" 58 1466 1489 "p_subst.ml" 58 1466 1490
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 57 1439 1449 "p_subst.ml" 57 1439 1450
+)
+"p_subst.ml" 58 1466 1491 "p_subst.ml" 58 1466 1492
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "p_subst.ml" 56 1419 1430 "p_subst.ml" 56 1419 1431
+)
+"p_subst.ml" 58 1466 1480 "p_subst.ml" 58 1466 1492
+type(
+  Expr.T.expr
+)
+"p_subst.ml" 59 1496 1506 "p_subst.ml" 59 1496 1507
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "p_subst.ml" 60 1523 1529 "p_subst.ml" 61 1554 1584
+)
+"p_subst.ml" 59 1496 1510 "p_subst.ml" 59 1496 1515
+type(
+  int -> Expr.Subst.sub -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.bumpn "expr.mli" 432 10886 10890 "expr.mli" 434 10923 10938
+)
+"p_subst.ml" 59 1496 1516 "p_subst.ml" 59 1496 1517
+type(
+  int
+)
+"p_subst.ml" 59 1496 1518 "p_subst.ml" 59 1496 1519
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 57 1439 1449 "p_subst.ml" 57 1439 1450
+)
+"p_subst.ml" 59 1496 1510 "p_subst.ml" 59 1496 1519
+type(
+  Expr.Subst.sub
+)
+"p_subst.ml" 60 1523 1533 "p_subst.ml" 60 1523 1534
+type(
+  P_t.proof
+)
+ident(
+  def p "p_subst.ml" 61 1554 1560 "p_subst.ml" 61 1554 1584
+)
+"p_subst.ml" 60 1523 1537 "p_subst.ml" 60 1523 1546
+type(
+  Expr.Subst.sub -> P_t.proof -> P_t.proof
+)
+ident(
+  int_ref app_proof "p_subst.ml" 17 182 190 "p_subst.ml" 17 182 199
+)
+"p_subst.ml" 60 1523 1547 "p_subst.ml" 60 1523 1548
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 59 1496 1506 "p_subst.ml" 59 1496 1507
+)
+"p_subst.ml" 60 1523 1549 "p_subst.ml" 60 1523 1550
+type(
+  P_t.proof
+)
+ident(
+  int_ref p "p_subst.ml" 56 1419 1433 "p_subst.ml" 56 1419 1434
+)
+"p_subst.ml" 60 1523 1537 "p_subst.ml" 60 1523 1550
+type(
+  P_t.proof
+)
+"p_subst.ml" 61 1554 1561 "p_subst.ml" 61 1554 1562
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 59 1496 1506 "p_subst.ml" 59 1496 1507
+)
+"p_subst.ml" 61 1554 1571 "p_subst.ml" 61 1554 1572
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "p_subst.ml" 58 1466 1476 "p_subst.ml" 58 1466 1477
+)
+"p_subst.ml" 61 1554 1574 "p_subst.ml" 61 1554 1575
+type(
+  P_t.proof
+)
+ident(
+  int_ref p "p_subst.ml" 60 1523 1533 "p_subst.ml" 60 1523 1534
+)
+"p_subst.ml" 61 1554 1564 "p_subst.ml" 61 1554 1576
+type(
+  P_t.step_
+)
+"p_subst.ml" 61 1554 1577 "p_subst.ml" 61 1554 1579
+type(
+  P_t.step_ -> P_t.step -> P_t.step
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_subst.ml" 61 1554 1580 "p_subst.ml" 61 1554 1583
+type(
+  P_t.step
+)
+ident(
+  int_ref stp "p_subst.ml" 38 726 741 "p_subst.ml" 38 726 744
+)
+"p_subst.ml" 61 1554 1564 "p_subst.ml" 61 1554 1583
+type(
+  P_t.step
+)
+"p_subst.ml" 61 1554 1560 "p_subst.ml" 61 1554 1584
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 60 1523 1529 "p_subst.ml" 61 1554 1584
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 59 1496 1502 "p_subst.ml" 61 1554 1584
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 58 1466 1472 "p_subst.ml" 61 1554 1584
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 57 1439 1445 "p_subst.ml" 61 1554 1584
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 62 1585 1595 "p_subst.ml" 62 1585 1597
+type(
+  Expr.T.bound list
+)
+ident(
+  def bs "p_subst.ml" 63 1608 1614 "p_subst.ml" 66 1718 1751
+)
+"p_subst.ml" 62 1585 1599 "p_subst.ml" 62 1585 1600
+type(
+  Expr.T.expr
+)
+ident(
+  def e "p_subst.ml" 63 1608 1614 "p_subst.ml" 66 1718 1751
+)
+"p_subst.ml" 62 1585 1602 "p_subst.ml" 62 1585 1603
+type(
+  P_t.proof
+)
+ident(
+  def p "p_subst.ml" 63 1608 1614 "p_subst.ml" 66 1718 1751
+)
+"p_subst.ml" 62 1585 1589 "p_subst.ml" 62 1585 1604
+type(
+  P_t.step_
+)
+type(
+  P_t.step_
+)
+"p_subst.ml" 63 1608 1618 "p_subst.ml" 63 1608 1619
+type(
+  P_t.proof
+)
+ident(
+  def p "p_subst.ml" 64 1649 1655 "p_subst.ml" 66 1718 1751
+)
+"p_subst.ml" 63 1608 1622 "p_subst.ml" 63 1608 1631
+type(
+  Expr.Subst.sub -> P_t.proof -> P_t.proof
+)
+ident(
+  int_ref app_proof "p_subst.ml" 17 182 190 "p_subst.ml" 17 182 199
+)
+"p_subst.ml" 63 1608 1633 "p_subst.ml" 63 1608 1638
+type(
+  int -> Expr.Subst.sub -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.bumpn "expr.mli" 432 10886 10890 "expr.mli" 434 10923 10938
+)
+"p_subst.ml" 63 1608 1639 "p_subst.ml" 63 1608 1640
+type(
+  int
+)
+"p_subst.ml" 63 1608 1641 "p_subst.ml" 63 1608 1642
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 38 726 739 "p_subst.ml" 38 726 740
+)
+"p_subst.ml" 63 1608 1632 "p_subst.ml" 63 1608 1643
+type(
+  Expr.Subst.sub
+)
+"p_subst.ml" 63 1608 1644 "p_subst.ml" 63 1608 1645
+type(
+  P_t.proof
+)
+ident(
+  int_ref p "p_subst.ml" 62 1585 1602 "p_subst.ml" 62 1585 1603
+)
+"p_subst.ml" 63 1608 1622 "p_subst.ml" 63 1608 1645
+type(
+  P_t.proof
+)
+"p_subst.ml" 64 1649 1660 "p_subst.ml" 64 1649 1661
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "p_subst.ml" 65 1688 1694 "p_subst.ml" 66 1718 1751
+)
+"p_subst.ml" 64 1649 1663 "p_subst.ml" 64 1649 1665
+type(
+  Expr.T.bound list
+)
+ident(
+  def bs "p_subst.ml" 65 1688 1694 "p_subst.ml" 66 1718 1751
+)
+"p_subst.ml" 64 1649 1659 "p_subst.ml" 64 1649 1666
+type(
+  Expr.Subst.sub * Expr.T.bound list
+)
+"p_subst.ml" 64 1649 1669 "p_subst.ml" 64 1649 1679
+type(
+  Expr.Subst.sub -> Expr.T.bound list -> Expr.Subst.sub * Expr.T.bound list
+)
+ident(
+  int_ref Expr.Subst.app_bounds "expr.mli" 456 11383 11387 "expr.mli" 458 11432 11460
+)
+"p_subst.ml" 64 1649 1680 "p_subst.ml" 64 1649 1681
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 38 726 739 "p_subst.ml" 38 726 740
+)
+"p_subst.ml" 64 1649 1682 "p_subst.ml" 64 1649 1684
+type(
+  Expr.T.bound list
+)
+ident(
+  int_ref bs "p_subst.ml" 62 1585 1595 "p_subst.ml" 62 1585 1597
+)
+"p_subst.ml" 64 1649 1669 "p_subst.ml" 64 1649 1684
+type(
+  Expr.Subst.sub * Expr.T.bound list
+)
+"p_subst.ml" 65 1688 1698 "p_subst.ml" 65 1688 1699
+type(
+  Expr.T.expr
+)
+ident(
+  def e "p_subst.ml" 66 1718 1724 "p_subst.ml" 66 1718 1751
+)
+"p_subst.ml" 65 1688 1702 "p_subst.ml" 65 1688 1710
+type(
+  Expr.Subst.sub -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Subst.app_expr "expr.mli" 447 11184 11188 "expr.mli" 449 11225 11241
+)
+"p_subst.ml" 65 1688 1711 "p_subst.ml" 65 1688 1712
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 64 1649 1660 "p_subst.ml" 64 1649 1661
+)
+"p_subst.ml" 65 1688 1713 "p_subst.ml" 65 1688 1714
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "p_subst.ml" 62 1585 1599 "p_subst.ml" 62 1585 1600
+)
+"p_subst.ml" 65 1688 1702 "p_subst.ml" 65 1688 1714
+type(
+  Expr.T.expr
+)
+"p_subst.ml" 66 1718 1725 "p_subst.ml" 66 1718 1726
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 64 1649 1660 "p_subst.ml" 64 1649 1661
+)
+"p_subst.ml" 66 1718 1734 "p_subst.ml" 66 1718 1736
+type(
+  Expr.T.bound list
+)
+ident(
+  int_ref bs "p_subst.ml" 64 1649 1663 "p_subst.ml" 64 1649 1665
+)
+"p_subst.ml" 66 1718 1738 "p_subst.ml" 66 1718 1739
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "p_subst.ml" 65 1688 1698 "p_subst.ml" 65 1688 1699
+)
+"p_subst.ml" 66 1718 1741 "p_subst.ml" 66 1718 1742
+type(
+  P_t.proof
+)
+ident(
+  int_ref p "p_subst.ml" 63 1608 1618 "p_subst.ml" 63 1608 1619
+)
+"p_subst.ml" 66 1718 1728 "p_subst.ml" 66 1718 1743
+type(
+  P_t.step_
+)
+"p_subst.ml" 66 1718 1744 "p_subst.ml" 66 1718 1746
+type(
+  P_t.step_ -> P_t.step -> P_t.step
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_subst.ml" 66 1718 1747 "p_subst.ml" 66 1718 1750
+type(
+  P_t.step
+)
+ident(
+  int_ref stp "p_subst.ml" 38 726 741 "p_subst.ml" 38 726 744
+)
+"p_subst.ml" 66 1718 1728 "p_subst.ml" 66 1718 1750
+type(
+  P_t.step
+)
+"p_subst.ml" 66 1718 1724 "p_subst.ml" 66 1718 1751
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 65 1688 1694 "p_subst.ml" 66 1718 1751
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 64 1649 1655 "p_subst.ml" 66 1718 1751
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 63 1608 1614 "p_subst.ml" 66 1718 1751
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 67 1752 1761 "p_subst.ml" 67 1752 1763
+type(
+  P_t.usable
+)
+ident(
+  def us "p_subst.ml" 68 1773 1779 "p_subst.ml" 68 1773 1817
+)
+"p_subst.ml" 67 1752 1765 "p_subst.ml" 67 1752 1768
+type(
+  bool
+)
+ident(
+  def onl "p_subst.ml" 68 1773 1779 "p_subst.ml" 68 1773 1817
+)
+"p_subst.ml" 67 1752 1756 "p_subst.ml" 67 1752 1769
+type(
+  P_t.step_
+)
+type(
+  P_t.step_
+)
+"p_subst.ml" 68 1773 1780 "p_subst.ml" 68 1773 1781
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 38 726 739 "p_subst.ml" 38 726 740
+)
+"p_subst.ml" 68 1773 1788 "p_subst.ml" 68 1773 1798
+type(
+  Expr.Subst.sub -> P_t.usable -> P_t.usable
+)
+ident(
+  int_ref app_usable "p_subst.ml" 78 2049 2053 "p_subst.ml" 78 2049 2063
+)
+"p_subst.ml" 68 1773 1799 "p_subst.ml" 68 1773 1800
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 38 726 739 "p_subst.ml" 38 726 740
+)
+"p_subst.ml" 68 1773 1801 "p_subst.ml" 68 1773 1803
+type(
+  P_t.usable
+)
+ident(
+  int_ref us "p_subst.ml" 67 1752 1761 "p_subst.ml" 67 1752 1763
+)
+"p_subst.ml" 68 1773 1788 "p_subst.ml" 68 1773 1803
+type(
+  P_t.usable
+)
+"p_subst.ml" 68 1773 1805 "p_subst.ml" 68 1773 1808
+type(
+  bool
+)
+ident(
+  int_ref onl "p_subst.ml" 67 1752 1765 "p_subst.ml" 67 1752 1768
+)
+"p_subst.ml" 68 1773 1783 "p_subst.ml" 68 1773 1809
+type(
+  P_t.step_
+)
+"p_subst.ml" 68 1773 1810 "p_subst.ml" 68 1773 1812
+type(
+  P_t.step_ -> P_t.step -> P_t.step
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_subst.ml" 68 1773 1813 "p_subst.ml" 68 1773 1816
+type(
+  P_t.step
+)
+ident(
+  int_ref stp "p_subst.ml" 38 726 741 "p_subst.ml" 38 726 744
+)
+"p_subst.ml" 68 1773 1783 "p_subst.ml" 68 1773 1816
+type(
+  P_t.step
+)
+"p_subst.ml" 68 1773 1779 "p_subst.ml" 68 1773 1817
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 69 1818 1827 "p_subst.ml" 69 1818 1828
+type(
+  Expr.T.expr
+)
+ident(
+  def e "p_subst.ml" 70 1832 1838 "p_subst.ml" 70 1832 1877
+)
+"p_subst.ml" 69 1818 1822 "p_subst.ml" 69 1818 1828
+type(
+  P_t.step_
+)
+type(
+  P_t.step_
+)
+"p_subst.ml" 70 1832 1839 "p_subst.ml" 70 1832 1844
+type(
+  int -> Expr.Subst.sub -> Expr.Subst.sub
+)
+ident(
+  int_ref Expr.Subst.bumpn "expr.mli" 432 10886 10890 "expr.mli" 434 10923 10938
+)
+"p_subst.ml" 70 1832 1845 "p_subst.ml" 70 1832 1846
+type(
+  int
+)
+"p_subst.ml" 70 1832 1847 "p_subst.ml" 70 1832 1848
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 38 726 739 "p_subst.ml" 38 726 740
+)
+"p_subst.ml" 70 1832 1839 "p_subst.ml" 70 1832 1848
+type(
+  Expr.Subst.sub
+)
+"p_subst.ml" 70 1832 1856 "p_subst.ml" 70 1832 1864
+type(
+  Expr.Subst.sub -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Subst.app_expr "expr.mli" 447 11184 11188 "expr.mli" 449 11225 11241
+)
+"p_subst.ml" 70 1832 1865 "p_subst.ml" 70 1832 1866
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 38 726 739 "p_subst.ml" 38 726 740
+)
+"p_subst.ml" 70 1832 1867 "p_subst.ml" 70 1832 1868
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "p_subst.ml" 69 1818 1827 "p_subst.ml" 69 1818 1828
+)
+"p_subst.ml" 70 1832 1855 "p_subst.ml" 70 1832 1869
+type(
+  Expr.T.expr
+)
+"p_subst.ml" 70 1832 1850 "p_subst.ml" 70 1832 1869
+type(
+  P_t.step_
+)
+"p_subst.ml" 70 1832 1870 "p_subst.ml" 70 1832 1872
+type(
+  P_t.step_ -> P_t.step -> P_t.step
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_subst.ml" 70 1832 1873 "p_subst.ml" 70 1832 1876
+type(
+  P_t.step
+)
+ident(
+  int_ref stp "p_subst.ml" 38 726 741 "p_subst.ml" 38 726 744
+)
+"p_subst.ml" 70 1832 1850 "p_subst.ml" 70 1832 1876
+type(
+  P_t.step
+)
+"p_subst.ml" 70 1832 1838 "p_subst.ml" 70 1832 1877
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 71 1878 1887 "p_subst.ml" 71 1878 1889
+type(
+  Expr.T.bound list
+)
+ident(
+  def bs "p_subst.ml" 72 1893 1899 "p_subst.ml" 73 1932 1957
+)
+"p_subst.ml" 71 1878 1882 "p_subst.ml" 71 1878 1889
+type(
+  P_t.step_
+)
+type(
+  P_t.step_
+)
+"p_subst.ml" 72 1893 1904 "p_subst.ml" 72 1893 1905
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "p_subst.ml" 73 1932 1938 "p_subst.ml" 73 1932 1957
+)
+"p_subst.ml" 72 1893 1907 "p_subst.ml" 72 1893 1909
+type(
+  Expr.T.bound list
+)
+ident(
+  def bs "p_subst.ml" 73 1932 1938 "p_subst.ml" 73 1932 1957
+)
+"p_subst.ml" 72 1893 1903 "p_subst.ml" 72 1893 1910
+type(
+  Expr.Subst.sub * Expr.T.bound list
+)
+"p_subst.ml" 72 1893 1913 "p_subst.ml" 72 1893 1923
+type(
+  Expr.Subst.sub -> Expr.T.bound list -> Expr.Subst.sub * Expr.T.bound list
+)
+ident(
+  int_ref Expr.Subst.app_bounds "expr.mli" 456 11383 11387 "expr.mli" 458 11432 11460
+)
+"p_subst.ml" 72 1893 1924 "p_subst.ml" 72 1893 1925
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 38 726 739 "p_subst.ml" 38 726 740
+)
+"p_subst.ml" 72 1893 1926 "p_subst.ml" 72 1893 1928
+type(
+  Expr.T.bound list
+)
+ident(
+  int_ref bs "p_subst.ml" 71 1878 1887 "p_subst.ml" 71 1878 1889
+)
+"p_subst.ml" 72 1893 1913 "p_subst.ml" 72 1893 1928
+type(
+  Expr.Subst.sub * Expr.T.bound list
+)
+"p_subst.ml" 73 1932 1939 "p_subst.ml" 73 1932 1940
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 72 1893 1904 "p_subst.ml" 72 1893 1905
+)
+"p_subst.ml" 73 1932 1947 "p_subst.ml" 73 1932 1949
+type(
+  Expr.T.bound list
+)
+ident(
+  int_ref bs "p_subst.ml" 72 1893 1907 "p_subst.ml" 72 1893 1909
+)
+"p_subst.ml" 73 1932 1942 "p_subst.ml" 73 1932 1949
+type(
+  P_t.step_
+)
+"p_subst.ml" 73 1932 1950 "p_subst.ml" 73 1932 1952
+type(
+  P_t.step_ -> P_t.step -> P_t.step
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_subst.ml" 73 1932 1953 "p_subst.ml" 73 1932 1956
+type(
+  P_t.step
+)
+ident(
+  int_ref stp "p_subst.ml" 38 726 741 "p_subst.ml" 38 726 744
+)
+"p_subst.ml" 73 1932 1942 "p_subst.ml" 73 1932 1956
+type(
+  P_t.step
+)
+"p_subst.ml" 73 1932 1938 "p_subst.ml" 73 1932 1957
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 72 1893 1899 "p_subst.ml" 73 1932 1957
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 74 1958 1970 "p_subst.ml" 74 1958 1972
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "p_subst.ml" 75 1976 1982 "p_subst.ml" 76 2019 2047
+)
+"p_subst.ml" 74 1958 1962 "p_subst.ml" 74 1958 1972
+type(
+  P_t.step_
+)
+type(
+  P_t.step_
+)
+"p_subst.ml" 75 1976 1986 "p_subst.ml" 75 1976 1988
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "p_subst.ml" 76 2019 2025 "p_subst.ml" 76 2019 2047
+)
+"p_subst.ml" 75 1976 1991 "p_subst.ml" 75 1976 1999
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"p_subst.ml" 75 1976 2001 "p_subst.ml" 75 1976 2009
+type(
+  Expr.Subst.sub -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Subst.app_expr "expr.mli" 447 11184 11188 "expr.mli" 449 11225 11241
+)
+"p_subst.ml" 75 1976 2010 "p_subst.ml" 75 1976 2011
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 38 726 739 "p_subst.ml" 38 726 740
+)
+"p_subst.ml" 75 1976 2000 "p_subst.ml" 75 1976 2012
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+"p_subst.ml" 75 1976 2013 "p_subst.ml" 75 1976 2015
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "p_subst.ml" 74 1958 1970 "p_subst.ml" 74 1958 1972
+)
+"p_subst.ml" 75 1976 1991 "p_subst.ml" 75 1976 2015
+type(
+  Expr.T.expr list
+)
+"p_subst.ml" 76 2019 2026 "p_subst.ml" 76 2019 2027
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 38 726 739 "p_subst.ml" 38 726 740
+)
+"p_subst.ml" 76 2019 2037 "p_subst.ml" 76 2019 2039
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "p_subst.ml" 75 1976 1986 "p_subst.ml" 75 1976 1988
+)
+"p_subst.ml" 76 2019 2029 "p_subst.ml" 76 2019 2039
+type(
+  P_t.step_
+)
+"p_subst.ml" 76 2019 2040 "p_subst.ml" 76 2019 2042
+type(
+  P_t.step_ -> P_t.step -> P_t.step
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_subst.ml" 76 2019 2043 "p_subst.ml" 76 2019 2046
+type(
+  P_t.step
+)
+ident(
+  int_ref stp "p_subst.ml" 38 726 741 "p_subst.ml" 38 726 744
+)
+"p_subst.ml" 76 2019 2029 "p_subst.ml" 76 2019 2046
+type(
+  P_t.step
+)
+"p_subst.ml" 76 2019 2025 "p_subst.ml" 76 2019 2047
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 75 1976 1982 "p_subst.ml" 76 2019 2047
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 38 726 747 "p_subst.ml" 76 2019 2047
+type(
+  Expr.Subst.sub * P_t.step
+)
+"p_subst.ml" 78 2049 2053 "p_subst.ml" 78 2049 2063
+type(
+  Expr.Subst.sub -> P_t.usable -> P_t.usable
+)
+ident(
+  def app_usable "p_subst.ml" 17 182 182 "p_subst.ml" 0 0 -1
+)
+"p_subst.ml" 78 2049 2064 "p_subst.ml" 78 2049 2065
+type(
+  Expr.Subst.sub
+)
+ident(
+  def s "p_subst.ml" 78 2049 2066 "p_subst.ml" 97 2712 2749
+)
+"p_subst.ml" 78 2049 2066 "p_subst.ml" 78 2049 2068
+type(
+  P_t.usable
+)
+ident(
+  def us "p_subst.ml" 79 2071 2073 "p_subst.ml" 97 2712 2749
+)
+"p_subst.ml" 79 2071 2077 "p_subst.ml" 79 2071 2084
+type(
+  P_t.use_def Property.wrapped -> P_t.use_def Property.wrapped
+)
+ident(
+  def app_def "p_subst.ml" 96 2669 2671 "p_subst.ml" 97 2712 2749
+)
+"p_subst.ml" 79 2071 2085 "p_subst.ml" 79 2071 2087
+type(
+  P_t.use_def Property.wrapped
+)
+ident(
+  def dw "p_subst.ml" 80 2090 2094 "p_subst.ml" 94 2658 2663
+)
+"p_subst.ml" 80 2090 2096 "p_subst.ml" 80 2090 2098
+type(
+  P_t.use_def Property.wrapped
+)
+ident(
+  int_ref dw "p_subst.ml" 79 2071 2085 "p_subst.ml" 79 2071 2087
+)
+"p_subst.ml" 81 2111 2125 "p_subst.ml" 81 2111 2127
+type(
+  P_t.use_def Property.wrapped
+)
+ident(
+  int_ref dw "p_subst.ml" 79 2071 2085 "p_subst.ml" 79 2071 2087
+)
+"p_subst.ml" 81 2111 2125 "p_subst.ml" 81 2111 2132
+type(
+  P_t.use_def
+)
+"p_subst.ml" 82 2138 2155 "p_subst.ml" 82 2138 2156
+type(
+  string
+)
+ident(
+  def v "p_subst.ml" 82 2138 2160 "p_subst.ml" 82 2138 2166
+)
+"p_subst.ml" 82 2138 2150 "p_subst.ml" 82 2138 2156
+type(
+  P_t.use_def
+)
+type(
+  P_t.use_def
+)
+"p_subst.ml" 82 2138 2165 "p_subst.ml" 82 2138 2166
+type(
+  string
+)
+ident(
+  int_ref v "p_subst.ml" 82 2138 2155 "p_subst.ml" 82 2138 2156
+)
+"p_subst.ml" 82 2138 2160 "p_subst.ml" 82 2138 2166
+type(
+  P_t.use_def
+)
+"p_subst.ml" 83 2167 2182 "p_subst.ml" 83 2167 2183
+type(
+  int
+)
+ident(
+  def n "p_subst.ml" 83 2167 2187 "p_subst.ml" 93 2642 2657
+)
+"p_subst.ml" 83 2167 2179 "p_subst.ml" 83 2167 2183
+type(
+  P_t.use_def
+)
+type(
+  P_t.use_def
+)
+"p_subst.ml" 84 2193 2213 "p_subst.ml" 84 2193 2219
+type(
+  Expr.Subst.sub -> int Property.wrapped -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Subst.app_ix "expr.mli" 440 11027 11031 "expr.mli" 442 11073 11089
+)
+"p_subst.ml" 84 2193 2220 "p_subst.ml" 84 2193 2221
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 78 2049 2064 "p_subst.ml" 78 2049 2065
+)
+"p_subst.ml" 84 2193 2223 "p_subst.ml" 84 2193 2224
+type(
+  int
+)
+ident(
+  int_ref n "p_subst.ml" 83 2167 2182 "p_subst.ml" 83 2167 2183
+)
+"p_subst.ml" 84 2193 2225 "p_subst.ml" 84 2193 2227
+type(
+  int -> P_t.use_def Property.wrapped -> int Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"p_subst.ml" 84 2193 2228 "p_subst.ml" 84 2193 2230
+type(
+  P_t.use_def Property.wrapped
+)
+ident(
+  int_ref dw "p_subst.ml" 79 2071 2085 "p_subst.ml" 79 2071 2087
+)
+"p_subst.ml" 84 2193 2222 "p_subst.ml" 84 2193 2231
+type(
+  int Property.wrapped
+)
+"p_subst.ml" 84 2193 2213 "p_subst.ml" 84 2193 2231
+type(
+  Expr.T.expr
+)
+"p_subst.ml" 85 2237 2266 "p_subst.ml" 85 2237 2267
+type(
+  int
+)
+ident(
+  def n "p_subst.ml" 85 2237 2272 "p_subst.ml" 85 2237 2276
+)
+"p_subst.ml" 85 2237 2263 "p_subst.ml" 85 2237 2267
+type(
+  Expr.T.expr_
+)
+"p_subst.ml" 85 2237 2255 "p_subst.ml" 85 2237 2268
+type(
+  Expr.T.expr
+)
+type(
+  Expr.T.expr
+)
+"p_subst.ml" 85 2237 2275 "p_subst.ml" 85 2237 2276
+type(
+  int
+)
+ident(
+  int_ref n "p_subst.ml" 85 2237 2266 "p_subst.ml" 85 2237 2267
+)
+"p_subst.ml" 85 2237 2272 "p_subst.ml" 85 2237 2276
+type(
+  P_t.use_def
+)
+"p_subst.ml" 86 2277 2295 "p_subst.ml" 86 2277 2296
+type(
+  Expr.T.expr
+)
+type(
+  Expr.T.expr
+)
+ident(
+  def e "p_subst.ml" 87 2300 2320 "p_subst.ml" 92 2588 2641
+)
+"p_subst.ml" 87 2300 2320 "p_subst.ml" 87 2300 2330
+type(
+  P_t.use_def Property.wrapped -> string -> unit
+)
+ident(
+  int_ref Errors.set "errors.mli" 53 1273 1273 "errors.mli" 53 1273 1319
+)
+"p_subst.ml" 87 2300 2331 "p_subst.ml" 87 2300 2333
+type(
+  P_t.use_def Property.wrapped
+)
+ident(
+  int_ref dw "p_subst.ml" 79 2071 2085 "p_subst.ml" 79 2071 2087
+)
+"p_subst.ml" 87 2300 2334 "p_subst.ml" 87 2300 2372
+type(
+  string
+)
+"p_subst.ml" 87 2300 2320 "p_subst.ml" 87 2300 2372
+type(
+  unit
+)
+"p_subst.ml" 88 2374 2394 "p_subst.ml" 88 2374 2416
+type(
+  ?temp:bool -> Expr.Fmt.ctx -> Format.formatter -> Expr.T.expr -> unit
+)
+ident(
+  int_ref Expr.Fmt.pp_print_expr "expr.mli" 393 10055 10059 "expr.mli" 396 10143 10159
+)
+"p_subst.ml" 88 2374 2418 "p_subst.ml" 88 2374 2429
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"p_subst.ml" 88 2374 2431 "p_subst.ml" 88 2374 2438
+type(
+  int Ctx.ctx
+)
+ident(
+  int_ref Ctx.dot "ctx.mli" 20 424 424 "ctx.mli" 20 424 439
+)
+"p_subst.ml" 88 2374 2417 "p_subst.ml" 88 2374 2439
+type(
+  Expr.Fmt.ctx
+)
+"p_subst.ml" 88 2374 2440 "p_subst.ml" 88 2374 2460
+type(
+  Format.formatter
+)
+ident(
+  int_ref Stdlib.Format.std_formatter "format.mli" 950 37257 37257 "format.mli" 950 37257 37286
+)
+"p_subst.ml" 88 2374 2461 "p_subst.ml" 88 2374 2462
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "p_subst.ml" 86 2277 2295 "p_subst.ml" 86 2277 2296
+)
+"p_subst.ml" 88 2374 2394 "p_subst.ml" 88 2374 2462
+type(
+  unit
+)
+"p_subst.ml" 89 2464 2484 "p_subst.ml" 89 2464 2497
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"p_subst.ml" 89 2464 2498 "p_subst.ml" 89 2464 2504
+type(
+  (unit, out_channel, unit) format
+)
+"p_subst.ml" 89 2464 2484 "p_subst.ml" 89 2464 2504
+type(
+  unit
+)
+"p_subst.ml" 91 2507 2527 "p_subst.ml" 91 2507 2539
+type(
+  ?debug:string ->
+  ?at:P_t.use_def Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:unit -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Util.eprintf "util.mli" 46 1132 1132 "util.mli" 48 1217 1267
+)
+"p_subst.ml" 91 2507 2544 "p_subst.ml" 91 2507 2546
+type(
+  P_t.use_def Property.wrapped
+)
+ident(
+  int_ref dw "p_subst.ml" 79 2071 2085 "p_subst.ml" 79 2071 2087
+)
+type(
+  P_t.use_def Property.wrapped option
+)
+"p_subst.ml" 91 2507 2547 "p_subst.ml" 91 2507 2585
+type(
+  (unit, Format.formatter, unit) format
+)
+"p_subst.ml" 91 2507 2527 "p_subst.ml" 91 2507 2585
+type(
+  unit
+)
+"p_subst.ml" 92 2588 2608 "p_subst.ml" 92 2588 2616
+type(
+  string -> P_t.use_def
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"p_subst.ml" 92 2588 2617 "p_subst.ml" 92 2588 2641
+type(
+  string
+)
+"p_subst.ml" 92 2588 2608 "p_subst.ml" 92 2588 2641
+type(
+  P_t.use_def
+)
+"p_subst.ml" 91 2507 2527 "p_subst.ml" 92 2588 2641
+type(
+  P_t.use_def
+)
+"p_subst.ml" 89 2464 2484 "p_subst.ml" 92 2588 2641
+type(
+  P_t.use_def
+)
+"p_subst.ml" 88 2374 2394 "p_subst.ml" 92 2588 2641
+type(
+  P_t.use_def
+)
+"p_subst.ml" 87 2300 2320 "p_subst.ml" 92 2588 2641
+type(
+  P_t.use_def
+)
+"p_subst.ml" 83 2167 2187 "p_subst.ml" 93 2642 2657
+type(
+  P_t.use_def
+)
+"p_subst.ml" 81 2111 2119 "p_subst.ml" 93 2642 2657
+type(
+  P_t.use_def
+)
+"p_subst.ml" 80 2090 2094 "p_subst.ml" 94 2658 2663
+type(
+  P_t.use_def Property.wrapped
+)
+"p_subst.ml" 96 2669 2681 "p_subst.ml" 96 2669 2689
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"p_subst.ml" 96 2669 2691 "p_subst.ml" 96 2669 2699
+type(
+  Expr.Subst.sub -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref Expr.Subst.app_expr "expr.mli" 447 11184 11188 "expr.mli" 449 11225 11241
+)
+"p_subst.ml" 96 2669 2700 "p_subst.ml" 96 2669 2701
+type(
+  Expr.Subst.sub
+)
+ident(
+  int_ref s "p_subst.ml" 78 2049 2064 "p_subst.ml" 78 2049 2065
+)
+"p_subst.ml" 96 2669 2690 "p_subst.ml" 96 2669 2702
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+"p_subst.ml" 96 2669 2703 "p_subst.ml" 96 2669 2705
+type(
+  P_t.usable
+)
+ident(
+  int_ref us "p_subst.ml" 78 2049 2066 "p_subst.ml" 78 2049 2068
+)
+"p_subst.ml" 96 2669 2703 "p_subst.ml" 96 2669 2711
+type(
+  Expr.T.expr list
+)
+"p_subst.ml" 96 2669 2681 "p_subst.ml" 96 2669 2711
+type(
+  Expr.T.expr list
+)
+"p_subst.ml" 97 2712 2723 "p_subst.ml" 97 2712 2731
+type(
+  (P_t.use_def Property.wrapped -> P_t.use_def Property.wrapped) ->
+  P_t.use_def Property.wrapped list -> P_t.use_def Property.wrapped list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"p_subst.ml" 97 2712 2732 "p_subst.ml" 97 2712 2739
+type(
+  P_t.use_def Property.wrapped -> P_t.use_def Property.wrapped
+)
+ident(
+  int_ref app_def "p_subst.ml" 79 2071 2077 "p_subst.ml" 79 2071 2084
+)
+"p_subst.ml" 97 2712 2740 "p_subst.ml" 97 2712 2742
+type(
+  P_t.usable
+)
+ident(
+  int_ref us "p_subst.ml" 78 2049 2066 "p_subst.ml" 78 2049 2068
+)
+"p_subst.ml" 97 2712 2740 "p_subst.ml" 97 2712 2747
+type(
+  P_t.use_def Property.wrapped list
+)
+"p_subst.ml" 97 2712 2723 "p_subst.ml" 97 2712 2747
+type(
+  P_t.use_def Property.wrapped list
+)
+"p_subst.ml" 96 2669 2671 "p_subst.ml" 97 2712 2749
+type(
+  P_t.usable
+)
+"p_subst.ml" 79 2071 2073 "p_subst.ml" 97 2712 2749
+type(
+  P_t.usable
+)

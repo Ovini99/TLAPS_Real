@@ -1,0 +1,104 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:30:27 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp function29_test.tla --stretch 5
+
+(* created new ".tlacache/TLAPS.tlaps/TLAPS.thy" *)
+(* fingerprints written in ".tlacache/TLAPS.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/function29_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+COMMAND-LINE ARGUMENT
+file=.tlacache/function29_test.tlaps/tlapm_8684d1.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/function29_test.tlaps/tlapm_8684d1.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #1
+;;   generated from file "./function29_test.tla", line 19, characters 5-11
+
+(set-logic UFNIA)
+(declare-sort u 0)
+(declare-sort str 0)
+;; Standard TLA+ operators
+(declare-fun str2u (str) u)
+(declare-fun u2str (u) str)
+(declare-fun tla__in (u u) Bool)
+(declare-fun tla__isAFcn (u) Bool)
+(declare-fun tla__DOMAIN (u) u)
+(declare-fun tla__fcnapp (u u) u)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Aunde_a () u)
+(declare-fun a_CONSTANTunde_Bunde_a () u)
+(declare-fun a_CONSTANTunde_Cunde_a () u)
+(declare-fun a_CONSTANTunde_Eunde_a (u) u)
+(declare-fun a_CONSTANTunde_funde_a () u)
+(declare-fun a_CONSTANTunde_xunde_a () u)
+(declare-fun a_aunde_unde_2a () u)
+(declare-fun string__bar () str)
+(declare-fun string__foo () str)
+
+(assert
+  (forall ((X_6 str)) (! (= (u2str (str2u X_6)) X_6) :pattern ((str2u X_6)))))
+(assert
+  (forall ((S_9 u) (T_10 u))
+  (=> (forall ((X_6 u)) (= (tla__in X_6 S_9) (tla__in X_6 T_10))) (= S_9 T_10))))
+(assert
+  (forall ((F_12 u) (G_13 u))
+  (=>
+  (and
+  (tla__isAFcn F_12) (tla__isAFcn G_13)
+  (forall ((X_6 u))
+  (= (tla__in X_6 (tla__DOMAIN F_12)) (tla__in X_6 (tla__DOMAIN G_13)))))
+  (= (tla__DOMAIN F_12) (tla__DOMAIN G_13)))))
+(assert
+  (forall ((F_12 u) (G_13 u))
+  (=>
+  (and
+  (tla__isAFcn F_12) (tla__isAFcn G_13)
+  (= (tla__DOMAIN F_12) (tla__DOMAIN G_13))
+  (forall ((X_6 u))
+  (=>
+  (tla__in X_6 (tla__DOMAIN G_13))
+  (= (tla__fcnapp F_12 X_6) (tla__fcnapp G_13 X_6)))))
+  (= F_12 G_13))))
+(assert (distinct string__bar string__foo))
+
+
+;; Theorem to be Proved
+(assert (not true))
+(assert
+  (forall ((a_v3a u))
+    (! (=
+         (tla__in a_v3a a_aunde_unde_2a)
+         (or (= a_v3a (str2u string__bar)) (= a_v3a (str2u string__foo)))) :pattern (
+    (tla__in a_v3a a_aunde_unde_2a)))))
+(assert (tla__isAFcn a_CONSTANTunde_funde_a))
+(assert (= (tla__DOMAIN a_CONSTANTunde_funde_a) a_CONSTANTunde_Aunde_a))
+(assert
+  (forall ((a_v1a u))
+    (=>
+      (tla__in a_v1a a_CONSTANTunde_Aunde_a)
+      (and
+        (tla__isAFcn (tla__fcnapp a_CONSTANTunde_funde_a a_v1a))
+        (=
+          (tla__DOMAIN (tla__fcnapp a_CONSTANTunde_funde_a a_v1a))
+          a_aunde_unde_2a)
+        (tla__in
+          (tla__fcnapp
+            (tla__fcnapp a_CONSTANTunde_funde_a a_v1a) (str2u string__foo))
+          a_CONSTANTunde_Bunde_a)
+        (tla__in
+          (tla__fcnapp
+            (tla__fcnapp a_CONSTANTunde_funde_a a_v1a) (str2u string__bar))
+          a_CONSTANTunde_Cunde_a)))))
+(assert (tla__in a_CONSTANTunde_xunde_a a_CONSTANTunde_Aunde_a))
+(assert
+  (tla__in
+    (a_CONSTANTunde_Eunde_a a_CONSTANTunde_xunde_a) a_CONSTANTunde_Bunde_a))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+(* created new ".tlacache/function29_test.tlaps/function29_test.thy" *)
+(* fingerprints written in ".tlacache/function29_test.tlaps/fingerprints" *)

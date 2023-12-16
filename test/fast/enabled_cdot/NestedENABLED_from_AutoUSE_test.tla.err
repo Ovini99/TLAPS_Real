@@ -1,0 +1,121 @@
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:0
+@!!END
+
+File "/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library/TLAPS.tla", line 1, character 1 to line 363, character 77:
+[INFO]: All 0 obligation proved.
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:62:1:62:3
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:62:4:62:17
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:62:19:62:22
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:4
+@!!loc:62:24:62:31
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:4
+@!!END
+
+Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:62:1:62:3
+@!!status:failed
+@!!prover:isabelle
+@!!meth:auto; time-limit: 150
+@!!reason:Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+
+@!!already:false
+@!!obl:
+ASSUME NEW VARIABLE x,
+       TRUE ,
+       TRUE ,
+       TRUE 
+PROVE  \E x#enabled#prime1 :
+          \E x#enabled#prime2 :
+             x#enabled#prime1
+             /\ (\E x#enabled#prime3 :
+                    x#enabled#prime2
+                    /\ (\E x#enabled#prime4 :
+                           x#enabled#prime3
+                           /\ (\E x#enabled#prime5 :
+                                  x#enabled#prime4
+                                  /\ (\E x#enabled#prime6 :
+                                         x#enabled#prime5
+                                         /\ (\E x#enabled#prime7 :
+                                                x#enabled#prime6
+                                                /\ (\E x#enabled#prime8 :
+                                                       x#enabled#prime7
+                                                       /\ (\E x#enabled#prime9 :
+                                                              x#enabled#prime8
+                                                              /\ (\E x#enabled#prime10 :
+                                                                    x#enabled#prime9
+                                                                    /\ (
+                                                                    \E x#enabled#prime11 :
+                                                                    x#enabled#prime10
+                                                                    /\ x#enabled#prime11)))))))))
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:62:4:62:17
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:62:19:62:22
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:4
+@!!loc:62:24:62:31
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+File "./NestedENABLED_from_AutoUSE_test.tla", line 62, characters 1-2:
+[ERROR]: Could not prove or check:
+           ASSUME NEW VARIABLE x,
+                  ExpandENABLED ,
+                  Isa ,
+                  AutoUSE 
+           PROVE  ENABLED (J')
+File "./NestedENABLED_from_AutoUSE_test.tla", line 1, character 1 to line 65, character 80:
+[ERROR]: 1/4 obligations failed.
+There were backend errors processing module `"NestedENABLED_from_AutoUSE_test"`.

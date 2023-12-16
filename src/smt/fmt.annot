@@ -1,0 +1,8404 @@
+"fmt.ml" 20 304 311 "fmt.ml" 20 304 312
+ident(
+  def B "fmt.ml" 20 304 322 "fmt.ml" 0 0 -1
+)
+"fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  def <<< "fmt.ml" 46 1520 1520 "fmt.ml" 0 0 -1
+)
+"fmt.ml" 25 390 402 "fmt.ml" 25 390 403
+type(
+  Expr.T.expr
+)
+ident(
+  def e "fmt.ml" 25 390 404 "fmt.ml" 33 779 789
+)
+"fmt.ml" 25 390 404 "fmt.ml" 25 390 408
+type(
+  string
+)
+ident(
+  def prop "fmt.ml" 27 478 480 "fmt.ml" 33 779 789
+)
+"fmt.ml" 27 478 486 "fmt.ml" 27 478 490
+type(
+  string
+)
+ident(
+  int_ref prop "fmt.ml" 25 390 404 "fmt.ml" 25 390 408
+)
+"fmt.ml" 28 496 500 "fmt.ml" 28 496 507
+type(
+  string
+)
+type(
+  string
+)
+"fmt.ml" 28 496 527 "fmt.ml" 28 496 534
+type(
+  string
+)
+"fmt.ml" 28 496 520 "fmt.ml" 28 496 534
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 28 496 535 "fmt.ml" 28 496 537
+type(
+  Expr.T.expr_ -> (Expr.T.expr_ -> Expr.T.expr) -> Expr.T.expr
+)
+ident(
+  int_ref Smtcommons.( |> ) "smtcommons.mli" 25 644 644 "smtcommons.mli" 25 644 679
+)
+"fmt.ml" 28 496 538 "fmt.ml" 28 496 545
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref Property.noprops "property.mli" 92 3086 3086 "property.mli" 92 3086 3116
+)
+"fmt.ml" 28 496 520 "fmt.ml" 28 496 545
+type(
+  Expr.T.expr
+)
+"fmt.ml" 28 496 548 "fmt.ml" 28 496 549
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 25 390 402 "fmt.ml" 25 390 403
+)
+"fmt.ml" 28 496 547 "fmt.ml" 28 496 550
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 28 496 513 "fmt.ml" 28 496 551
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 28 496 552 "fmt.ml" 28 496 554
+type(
+  Expr.T.expr_ -> (Expr.T.expr_ -> Expr.T.expr) -> Expr.T.expr
+)
+ident(
+  int_ref Smtcommons.( |> ) "smtcommons.mli" 25 644 644 "smtcommons.mli" 25 644 679
+)
+"fmt.ml" 28 496 555 "fmt.ml" 28 496 562
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref Property.noprops "property.mli" 92 3086 3086 "property.mli" 92 3086 3116
+)
+"fmt.ml" 28 496 513 "fmt.ml" 28 496 562
+type(
+  Expr.T.expr
+)
+"fmt.ml" 29 563 567 "fmt.ml" 29 563 575
+type(
+  string
+)
+type(
+  string
+)
+"fmt.ml" 29 563 595 "fmt.ml" 29 563 603
+type(
+  string
+)
+"fmt.ml" 29 563 588 "fmt.ml" 29 563 603
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 29 563 604 "fmt.ml" 29 563 606
+type(
+  Expr.T.expr_ -> (Expr.T.expr_ -> Expr.T.expr) -> Expr.T.expr
+)
+ident(
+  int_ref Smtcommons.( |> ) "smtcommons.mli" 25 644 644 "smtcommons.mli" 25 644 679
+)
+"fmt.ml" 29 563 607 "fmt.ml" 29 563 614
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref Property.noprops "property.mli" 92 3086 3086 "property.mli" 92 3086 3116
+)
+"fmt.ml" 29 563 588 "fmt.ml" 29 563 614
+type(
+  Expr.T.expr
+)
+"fmt.ml" 29 563 617 "fmt.ml" 29 563 618
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 25 390 402 "fmt.ml" 25 390 403
+)
+"fmt.ml" 29 563 616 "fmt.ml" 29 563 619
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 29 563 581 "fmt.ml" 29 563 620
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 29 563 621 "fmt.ml" 29 563 623
+type(
+  Expr.T.expr_ -> (Expr.T.expr_ -> Expr.T.expr) -> Expr.T.expr
+)
+ident(
+  int_ref Smtcommons.( |> ) "smtcommons.mli" 25 644 644 "smtcommons.mli" 25 644 679
+)
+"fmt.ml" 29 563 624 "fmt.ml" 29 563 631
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref Property.noprops "property.mli" 92 3086 3086 "property.mli" 92 3086 3116
+)
+"fmt.ml" 29 563 581 "fmt.ml" 29 563 631
+type(
+  Expr.T.expr
+)
+"fmt.ml" 30 632 636 "fmt.ml" 30 632 643
+type(
+  string
+)
+type(
+  string
+)
+"fmt.ml" 30 632 663 "fmt.ml" 30 632 670
+type(
+  string
+)
+"fmt.ml" 30 632 656 "fmt.ml" 30 632 670
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 30 632 671 "fmt.ml" 30 632 673
+type(
+  Expr.T.expr_ -> (Expr.T.expr_ -> Expr.T.expr) -> Expr.T.expr
+)
+ident(
+  int_ref Smtcommons.( |> ) "smtcommons.mli" 25 644 644 "smtcommons.mli" 25 644 679
+)
+"fmt.ml" 30 632 674 "fmt.ml" 30 632 681
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref Property.noprops "property.mli" 92 3086 3086 "property.mli" 92 3086 3116
+)
+"fmt.ml" 30 632 656 "fmt.ml" 30 632 681
+type(
+  Expr.T.expr
+)
+"fmt.ml" 30 632 684 "fmt.ml" 30 632 685
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 25 390 402 "fmt.ml" 25 390 403
+)
+"fmt.ml" 30 632 683 "fmt.ml" 30 632 686
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 30 632 649 "fmt.ml" 30 632 687
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 30 632 688 "fmt.ml" 30 632 690
+type(
+  Expr.T.expr_ -> (Expr.T.expr_ -> Expr.T.expr) -> Expr.T.expr
+)
+ident(
+  int_ref Smtcommons.( |> ) "smtcommons.mli" 25 644 644 "smtcommons.mli" 25 644 679
+)
+"fmt.ml" 30 632 691 "fmt.ml" 30 632 698
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref Property.noprops "property.mli" 92 3086 3086 "property.mli" 92 3086 3116
+)
+"fmt.ml" 30 632 649 "fmt.ml" 30 632 698
+type(
+  Expr.T.expr
+)
+"fmt.ml" 31 699 703 "fmt.ml" 31 699 713
+type(
+  string
+)
+type(
+  string
+)
+"fmt.ml" 31 699 717 "fmt.ml" 31 699 723
+type(
+  Expr.T.expr -> unit Property.pfuncs -> unit -> Expr.T.expr
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"fmt.ml" 31 699 724 "fmt.ml" 31 699 725
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 25 390 402 "fmt.ml" 25 390 403
+)
+"fmt.ml" 31 699 726 "fmt.ml" 31 699 734
+type(
+  unit Property.pfuncs
+)
+ident(
+  int_ref Smtcommons.fmtasint "smtcommons.mli" 74 2289 2289 "smtcommons.mli" 74 2289 2328
+)
+"fmt.ml" 31 699 735 "fmt.ml" 31 699 737
+type(
+  unit
+)
+"fmt.ml" 31 699 717 "fmt.ml" 31 699 737
+type(
+  Expr.T.expr
+)
+"fmt.ml" 32 738 742 "fmt.ml" 32 738 753
+type(
+  string
+)
+type(
+  string
+)
+"fmt.ml" 32 738 757 "fmt.ml" 32 738 763
+type(
+  Expr.T.expr -> unit Property.pfuncs -> unit -> Expr.T.expr
+)
+ident(
+  int_ref Property.assign "property.mli" 80 2747 2747 "property.mli" 80 2747 2803
+)
+"fmt.ml" 32 738 764 "fmt.ml" 32 738 765
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 25 390 402 "fmt.ml" 25 390 403
+)
+"fmt.ml" 32 738 766 "fmt.ml" 32 738 775
+type(
+  unit Property.pfuncs
+)
+ident(
+  int_ref Smtcommons.fmtasreal "smtcommons.mli" 75 2329 2329 "smtcommons.mli" 75 2329 2369
+)
+"fmt.ml" 32 738 776 "fmt.ml" 32 738 778
+type(
+  unit
+)
+"fmt.ml" 32 738 757 "fmt.ml" 32 738 778
+type(
+  Expr.T.expr
+)
+"fmt.ml" 33 779 783 "fmt.ml" 33 779 784
+type(
+  string
+)
+type(
+  string
+)
+"fmt.ml" 33 779 788 "fmt.ml" 33 779 789
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 25 390 402 "fmt.ml" 25 390 403
+)
+"fmt.ml" 27 478 480 "fmt.ml" 33 779 789
+type(
+  Expr.T.expr
+)
+"fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  def lift "fmt.ml" 46 1520 1520 "fmt.ml" 0 0 -1
+)
+"fmt.ml" 46 1520 1533 "fmt.ml" 46 1520 1536
+type(
+  Typ_t.t
+)
+ident(
+  def req "fmt.ml" 46 1520 1537 "fmt.ml" 266 11477 11484
+)
+"fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def scx "fmt.ml" 46 1520 1541 "fmt.ml" 266 11477 11484
+)
+"fmt.ml" 46 1520 1541 "fmt.ml" 46 1520 1542
+type(
+  Expr.T.expr
+)
+ident(
+  def e "fmt.ml" 48 1661 1663 "fmt.ml" 266 11477 11484
+)
+"fmt.ml" 48 1661 1667 "fmt.ml" 48 1661 1669
+type(
+  'a -> 'a Property.wrapped
+)
+ident(
+  def mk "fmt.ml" 49 1697 1699 "fmt.ml" 266 11477 11484
+)
+"fmt.ml" 48 1661 1670 "fmt.ml" 48 1661 1671
+type(
+  'a
+)
+ident(
+  def x "fmt.ml" 48 1661 1674 "fmt.ml" 48 1661 1693
+)
+"fmt.ml" 48 1661 1676 "fmt.ml" 48 1661 1677
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 46 1520 1541 "fmt.ml" 46 1520 1542
+)
+"fmt.ml" 48 1661 1690 "fmt.ml" 48 1661 1691
+type(
+  'a
+)
+ident(
+  int_ref x "fmt.ml" 48 1661 1670 "fmt.ml" 48 1661 1671
+)
+"fmt.ml" 48 1661 1674 "fmt.ml" 48 1661 1693
+type(
+  'a Property.wrapped
+)
+"fmt.ml" 49 1697 1703 "fmt.ml" 49 1697 1708
+type(
+  Builtin.builtin ->
+  Expr.T.expr -> Expr.T.expr -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  def apply "fmt.ml" 50 1766 1768 "fmt.ml" 266 11477 11484
+)
+"fmt.ml" 49 1697 1709 "fmt.ml" 49 1697 1711
+type(
+  Builtin.builtin
+)
+ident(
+  def op "fmt.ml" 49 1697 1712 "fmt.ml" 49 1697 1762
+)
+"fmt.ml" 49 1697 1712 "fmt.ml" 49 1697 1714
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 49 1697 1715 "fmt.ml" 49 1697 1762
+)
+"fmt.ml" 49 1697 1715 "fmt.ml" 49 1697 1717
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 49 1697 1720 "fmt.ml" 49 1697 1762
+)
+"fmt.ml" 49 1697 1736 "fmt.ml" 49 1697 1738
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "fmt.ml" 49 1697 1709 "fmt.ml" 49 1697 1711
+)
+"fmt.ml" 49 1697 1727 "fmt.ml" 49 1697 1738
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 49 1697 1739 "fmt.ml" 49 1697 1741
+type(
+  Expr.T.expr_ -> (Expr.T.expr_ -> Expr.T.expr) -> Expr.T.expr
+)
+ident(
+  int_ref Smtcommons.( |> ) "smtcommons.mli" 25 644 644 "smtcommons.mli" 25 644 679
+)
+"fmt.ml" 49 1697 1742 "fmt.ml" 49 1697 1744
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "fmt.ml" 48 1661 1667 "fmt.ml" 48 1661 1669
+)
+"fmt.ml" 49 1697 1727 "fmt.ml" 49 1697 1744
+type(
+  Expr.T.expr
+)
+"fmt.ml" 49 1697 1747 "fmt.ml" 49 1697 1749
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 49 1697 1712 "fmt.ml" 49 1697 1714
+)
+"fmt.ml" 49 1697 1752 "fmt.ml" 49 1697 1754
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 49 1697 1715 "fmt.ml" 49 1697 1717
+)
+"fmt.ml" 49 1697 1746 "fmt.ml" 49 1697 1755
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 49 1697 1720 "fmt.ml" 49 1697 1756
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 49 1697 1757 "fmt.ml" 49 1697 1759
+type(
+  Expr.T.expr_ ->
+  (Expr.T.expr_ -> Expr.T.expr_ Property.wrapped) ->
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Smtcommons.( |> ) "smtcommons.mli" 25 644 644 "smtcommons.mli" 25 644 679
+)
+"fmt.ml" 49 1697 1760 "fmt.ml" 49 1697 1762
+type(
+  Expr.T.expr_ -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref mk "fmt.ml" 48 1661 1667 "fmt.ml" 48 1661 1669
+)
+"fmt.ml" 49 1697 1720 "fmt.ml" 49 1697 1762
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"fmt.ml" 50 1766 1772 "fmt.ml" 50 1766 1776
+type(
+  Builtin.builtin -> Expr.T.expr -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  def app1 "fmt.ml" 51 1826 1828 "fmt.ml" 266 11477 11484
+)
+"fmt.ml" 50 1766 1777 "fmt.ml" 50 1766 1779
+type(
+  Builtin.builtin
+)
+ident(
+  def op "fmt.ml" 50 1766 1780 "fmt.ml" 50 1766 1822
+)
+"fmt.ml" 50 1766 1780 "fmt.ml" 50 1766 1782
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "fmt.ml" 50 1766 1785 "fmt.ml" 50 1766 1822
+)
+"fmt.ml" 50 1766 1801 "fmt.ml" 50 1766 1803
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "fmt.ml" 50 1766 1777 "fmt.ml" 50 1766 1779
+)
+"fmt.ml" 50 1766 1792 "fmt.ml" 50 1766 1803
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 50 1766 1804 "fmt.ml" 50 1766 1806
+type(
+  Expr.T.expr_ -> (Expr.T.expr_ -> Expr.T.expr) -> Expr.T.expr
+)
+ident(
+  int_ref Smtcommons.( |> ) "smtcommons.mli" 25 644 644 "smtcommons.mli" 25 644 679
+)
+"fmt.ml" 50 1766 1807 "fmt.ml" 50 1766 1809
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "fmt.ml" 48 1661 1667 "fmt.ml" 48 1661 1669
+)
+"fmt.ml" 50 1766 1792 "fmt.ml" 50 1766 1809
+type(
+  Expr.T.expr
+)
+"fmt.ml" 50 1766 1812 "fmt.ml" 50 1766 1814
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "fmt.ml" 50 1766 1780 "fmt.ml" 50 1766 1782
+)
+"fmt.ml" 50 1766 1811 "fmt.ml" 50 1766 1815
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 50 1766 1785 "fmt.ml" 50 1766 1816
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 50 1766 1817 "fmt.ml" 50 1766 1819
+type(
+  Expr.T.expr_ ->
+  (Expr.T.expr_ -> Expr.T.expr_ Property.wrapped) ->
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Smtcommons.( |> ) "smtcommons.mli" 25 644 644 "smtcommons.mli" 25 644 679
+)
+"fmt.ml" 50 1766 1820 "fmt.ml" 50 1766 1822
+type(
+  Expr.T.expr_ -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref mk "fmt.ml" 48 1661 1667 "fmt.ml" 48 1661 1669
+)
+"fmt.ml" 50 1766 1785 "fmt.ml" 50 1766 1822
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"fmt.ml" 51 1826 1832 "fmt.ml" 51 1826 1836
+type(
+  Expr.T.expr -> Expr.T.expr list -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  def apps "fmt.ml" 52 1869 1871 "fmt.ml" 266 11477 11484
+)
+"fmt.ml" 51 1826 1837 "fmt.ml" 51 1826 1839
+type(
+  Expr.T.expr
+)
+ident(
+  def op "fmt.ml" 51 1826 1840 "fmt.ml" 51 1826 1865
+)
+"fmt.ml" 51 1826 1840 "fmt.ml" 51 1826 1842
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "fmt.ml" 51 1826 1845 "fmt.ml" 51 1826 1865
+)
+"fmt.ml" 51 1826 1852 "fmt.ml" 51 1826 1854
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref op "fmt.ml" 51 1826 1837 "fmt.ml" 51 1826 1839
+)
+"fmt.ml" 51 1826 1856 "fmt.ml" 51 1826 1858
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "fmt.ml" 51 1826 1840 "fmt.ml" 51 1826 1842
+)
+"fmt.ml" 51 1826 1845 "fmt.ml" 51 1826 1859
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 51 1826 1860 "fmt.ml" 51 1826 1862
+type(
+  Expr.T.expr_ ->
+  (Expr.T.expr_ -> Expr.T.expr_ Property.wrapped) ->
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Smtcommons.( |> ) "smtcommons.mli" 25 644 644 "smtcommons.mli" 25 644 679
+)
+"fmt.ml" 51 1826 1863 "fmt.ml" 51 1826 1865
+type(
+  Expr.T.expr_ -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref mk "fmt.ml" 48 1661 1667 "fmt.ml" 48 1661 1669
+)
+"fmt.ml" 51 1826 1845 "fmt.ml" 51 1826 1865
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"fmt.ml" 52 1869 1875 "fmt.ml" 52 1869 1881
+type(
+  Expr.T.expr -> Expr.T.expr list -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  def fcnapp "fmt.ml" 54 1914 1916 "fmt.ml" 266 11477 11484
+)
+"fmt.ml" 52 1869 1882 "fmt.ml" 52 1869 1883
+type(
+  Expr.T.expr
+)
+ident(
+  def f "fmt.ml" 52 1869 1884 "fmt.ml" 52 1869 1909
+)
+"fmt.ml" 52 1869 1884 "fmt.ml" 52 1869 1886
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "fmt.ml" 52 1869 1889 "fmt.ml" 52 1869 1909
+)
+"fmt.ml" 52 1869 1897 "fmt.ml" 52 1869 1898
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f "fmt.ml" 52 1869 1882 "fmt.ml" 52 1869 1883
+)
+"fmt.ml" 52 1869 1900 "fmt.ml" 52 1869 1902
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "fmt.ml" 52 1869 1884 "fmt.ml" 52 1869 1886
+)
+"fmt.ml" 52 1869 1889 "fmt.ml" 52 1869 1903
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 52 1869 1904 "fmt.ml" 52 1869 1906
+type(
+  Expr.T.expr_ ->
+  (Expr.T.expr_ -> Expr.T.expr_ Property.wrapped) ->
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Smtcommons.( |> ) "smtcommons.mli" 25 644 644 "smtcommons.mli" 25 644 679
+)
+"fmt.ml" 52 1869 1907 "fmt.ml" 52 1869 1909
+type(
+  Expr.T.expr_ -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref mk "fmt.ml" 48 1661 1667 "fmt.ml" 48 1661 1669
+)
+"fmt.ml" 52 1869 1889 "fmt.ml" 52 1869 1909
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"fmt.ml" 54 1914 1920 "fmt.ml" 54 1914 1923
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> Typ_t.t
+)
+ident(
+  def typ "fmt.ml" 55 1977 1979 "fmt.ml" 266 11477 11484
+)
+"fmt.ml" 54 1914 1924 "fmt.ml" 54 1914 1927
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def scx "fmt.ml" 54 1914 1928 "fmt.ml" 54 1914 1973
+)
+"fmt.ml" 54 1914 1928 "fmt.ml" 54 1914 1929
+type(
+  Expr.T.expr
+)
+ident(
+  def e "fmt.ml" 54 1914 1932 "fmt.ml" 54 1914 1973
+)
+"fmt.ml" 54 1914 1932 "fmt.ml" 54 1914 1946
+type(
+  Typ_t.t -> Typ_t.t option -> Typ_t.t
+)
+ident(
+  int_ref Ext.Option.default "ext.mli" 63 2752 2754 "ext.mli" 63 2752 2789
+)
+"fmt.ml" 54 1914 1947 "fmt.ml" 54 1914 1950
+type(
+  Typ_t.t
+)
+"fmt.ml" 54 1914 1952 "fmt.ml" 54 1914 1966
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> Typ_t.t option
+)
+ident(
+  int_ref Typ_t.get_type "typ_t.mli" 144 2485 2485 "typ_t.mli" 145 2499 2535
+)
+"fmt.ml" 54 1914 1967 "fmt.ml" 54 1914 1970
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 54 1914 1924 "fmt.ml" 54 1914 1927
+)
+"fmt.ml" 54 1914 1971 "fmt.ml" 54 1914 1972
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 54 1914 1928 "fmt.ml" 54 1914 1929
+)
+"fmt.ml" 54 1914 1951 "fmt.ml" 54 1914 1973
+type(
+  Typ_t.t option
+)
+"fmt.ml" 54 1914 1932 "fmt.ml" 54 1914 1973
+type(
+  Typ_t.t
+)
+"fmt.ml" 55 1977 1983 "fmt.ml" 55 1977 1984
+type(
+  Typ_t.t
+)
+ident(
+  def t "fmt.ml" 66 2184 2186 "fmt.ml" 266 11477 11484
+)
+"fmt.ml" 55 1977 1993 "fmt.ml" 55 1977 1996
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> Typ_t.t
+)
+ident(
+  int_ref typ "fmt.ml" 54 1914 1920 "fmt.ml" 54 1914 1923
+)
+"fmt.ml" 55 1977 1997 "fmt.ml" 55 1977 2000
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 55 1977 2001 "fmt.ml" 55 1977 2002
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 46 1520 1541 "fmt.ml" 46 1520 1542
+)
+"fmt.ml" 55 1977 1993 "fmt.ml" 55 1977 2002
+type(
+  Typ_t.t
+)
+"fmt.ml" 56 2008 2014 "fmt.ml" 56 2008 2017
+type(
+  Typ_t.t
+)
+type(
+  Typ_t.t
+)
+"fmt.ml" 56 2008 2021 "fmt.ml" 56 2008 2024
+type(
+  Typ_t.t
+)
+"fmt.ml" 57 2025 2031 "fmt.ml" 57 2025 2035
+type(
+  Typ_t.t
+)
+type(
+  Typ_t.t
+)
+"fmt.ml" 57 2025 2039 "fmt.ml" 57 2025 2043
+type(
+  Typ_t.t
+)
+"fmt.ml" 58 2044 2055 "fmt.ml" 58 2044 2056
+type(
+  string
+)
+"fmt.ml" 58 2044 2057 "fmt.ml" 58 2044 2060
+type(
+  Typ_t.t
+)
+"fmt.ml" 58 2044 2061 "fmt.ml" 58 2044 2062
+type(
+  Typ_t.tref
+)
+"fmt.ml" 58 2044 2050 "fmt.ml" 58 2044 2063
+type(
+  Typ_t.t
+)
+type(
+  Typ_t.t
+)
+"fmt.ml" 58 2044 2067 "fmt.ml" 58 2044 2070
+type(
+  Typ_t.t
+)
+"fmt.ml" 59 2071 2082 "fmt.ml" 59 2071 2083
+type(
+  string
+)
+"fmt.ml" 59 2071 2084 "fmt.ml" 59 2071 2088
+type(
+  Typ_t.t
+)
+"fmt.ml" 59 2071 2089 "fmt.ml" 59 2071 2090
+type(
+  Typ_t.tref
+)
+"fmt.ml" 59 2071 2077 "fmt.ml" 59 2071 2091
+type(
+  Typ_t.t
+)
+type(
+  Typ_t.t
+)
+"fmt.ml" 59 2071 2095 "fmt.ml" 59 2071 2099
+type(
+  Typ_t.t
+)
+"fmt.ml" 60 2100 2106 "fmt.ml" 60 2100 2109
+type(
+  Typ_t.t
+)
+type(
+  Typ_t.t
+)
+"fmt.ml" 60 2100 2113 "fmt.ml" 60 2100 2116
+type(
+  Typ_t.t
+)
+"fmt.ml" 61 2117 2128 "fmt.ml" 61 2117 2129
+type(
+  string
+)
+"fmt.ml" 61 2117 2130 "fmt.ml" 61 2117 2133
+type(
+  Typ_t.t
+)
+"fmt.ml" 61 2117 2134 "fmt.ml" 61 2117 2135
+type(
+  Typ_t.tref
+)
+"fmt.ml" 61 2117 2123 "fmt.ml" 61 2117 2136
+type(
+  Typ_t.t
+)
+type(
+  Typ_t.t
+)
+"fmt.ml" 61 2117 2140 "fmt.ml" 61 2117 2143
+type(
+  Typ_t.t
+)
+"fmt.ml" 62 2144 2150 "fmt.ml" 62 2144 2154
+type(
+  Typ_t.t
+)
+type(
+  Typ_t.t
+)
+"fmt.ml" 62 2144 2158 "fmt.ml" 62 2144 2162
+type(
+  Typ_t.t
+)
+"fmt.ml" 63 2163 2169 "fmt.ml" 63 2163 2170
+type(
+  Typ_t.t
+)
+type(
+  Typ_t.t
+)
+"fmt.ml" 63 2163 2174 "fmt.ml" 63 2163 2177
+type(
+  Typ_t.t
+)
+"fmt.ml" 55 1977 1987 "fmt.ml" 63 2163 2177
+type(
+  Typ_t.t
+)
+"fmt.ml" 66 2184 2192 "fmt.ml" 66 2184 2193
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 46 1520 1541 "fmt.ml" 46 1520 1542
+)
+"fmt.ml" 66 2184 2192 "fmt.ml" 66 2184 2198
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 67 2204 2211 "fmt.ml" 67 2204 2212
+type(
+  int
+)
+"fmt.ml" 67 2204 2208 "fmt.ml" 67 2204 2212
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 68 2216 2222 "fmt.ml" 68 2216 2231
+type(
+  Typ_t.t -> Typ_t.t -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift_term "fmt.ml" 267 11485 11489 "fmt.ml" 267 11485 11498
+)
+"fmt.ml" 68 2216 2232 "fmt.ml" 68 2216 2233
+type(
+  Typ_t.t
+)
+ident(
+  int_ref t "fmt.ml" 55 1977 1983 "fmt.ml" 55 1977 1984
+)
+"fmt.ml" 68 2216 2234 "fmt.ml" 68 2216 2237
+type(
+  Typ_t.t
+)
+ident(
+  int_ref req "fmt.ml" 46 1520 1533 "fmt.ml" 46 1520 1536
+)
+"fmt.ml" 68 2216 2238 "fmt.ml" 68 2216 2239
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 46 1520 1541 "fmt.ml" 46 1520 1542
+)
+"fmt.ml" 68 2216 2222 "fmt.ml" 68 2216 2239
+type(
+  Expr.T.expr
+)
+"fmt.ml" 69 2240 2251 "fmt.ml" 69 2240 2252
+type(
+  string
+)
+"fmt.ml" 69 2240 2244 "fmt.ml" 69 2240 2252
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 70 2256 2262 "fmt.ml" 70 2256 2271
+type(
+  Typ_t.t -> Typ_t.t -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift_term "fmt.ml" 267 11485 11489 "fmt.ml" 267 11485 11498
+)
+"fmt.ml" 70 2256 2272 "fmt.ml" 70 2256 2273
+type(
+  Typ_t.t
+)
+ident(
+  int_ref t "fmt.ml" 55 1977 1983 "fmt.ml" 55 1977 1984
+)
+"fmt.ml" 70 2256 2274 "fmt.ml" 70 2256 2277
+type(
+  Typ_t.t
+)
+ident(
+  int_ref req "fmt.ml" 46 1520 1533 "fmt.ml" 46 1520 1536
+)
+"fmt.ml" 70 2256 2278 "fmt.ml" 70 2256 2279
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 46 1520 1541 "fmt.ml" 46 1520 1542
+)
+"fmt.ml" 70 2256 2262 "fmt.ml" 70 2256 2279
+type(
+  Expr.T.expr
+)
+"fmt.ml" 71 2280 2306 "fmt.ml" 71 2280 2321
+type(
+  string
+)
+"fmt.ml" 71 2280 2299 "fmt.ml" 71 2280 2321
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 71 2280 2291 "fmt.ml" 71 2280 2322
+type(
+  Expr.T.expr
+)
+"fmt.ml" 71 2280 2291 "fmt.ml" 71 2280 2327
+type(
+  Expr.T.expr
+)
+ident(
+  def p "fmt.ml" 72 2336 2342 "fmt.ml" 73 2389 2433
+)
+"fmt.ml" 71 2280 2329 "fmt.ml" 71 2280 2331
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "fmt.ml" 72 2336 2342 "fmt.ml" 73 2389 2433
+)
+"fmt.ml" 71 2280 2284 "fmt.ml" 71 2280 2332
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 72 2336 2346 "fmt.ml" 72 2336 2347
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def e "fmt.ml" 73 2389 2395 "fmt.ml" 73 2389 2433
+)
+"fmt.ml" 72 2336 2350 "fmt.ml" 72 2336 2354
+type(
+  Expr.T.expr -> Expr.T.expr list -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref apps "fmt.ml" 51 1826 1832 "fmt.ml" 51 1826 1836
+)
+"fmt.ml" 72 2336 2355 "fmt.ml" 72 2336 2356
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref p "fmt.ml" 71 2280 2291 "fmt.ml" 71 2280 2327
+)
+"fmt.ml" 72 2336 2358 "fmt.ml" 72 2336 2366
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"fmt.ml" 72 2336 2368 "fmt.ml" 72 2336 2372
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 72 2336 2373 "fmt.ml" 72 2336 2376
+type(
+  Typ_t.t
+)
+"fmt.ml" 72 2336 2377 "fmt.ml" 72 2336 2380
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 72 2336 2367 "fmt.ml" 72 2336 2381
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+"fmt.ml" 72 2336 2382 "fmt.ml" 72 2336 2384
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "fmt.ml" 71 2280 2329 "fmt.ml" 71 2280 2331
+)
+"fmt.ml" 72 2336 2357 "fmt.ml" 72 2336 2385
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 72 2336 2350 "fmt.ml" 72 2336 2385
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"fmt.ml" 73 2389 2398 "fmt.ml" 73 2389 2401
+type(
+  Typ_t.t
+)
+ident(
+  int_ref req "fmt.ml" 46 1520 1533 "fmt.ml" 46 1520 1536
+)
+"fmt.ml" 73 2389 2402 "fmt.ml" 73 2389 2403
+type(
+  Typ_t.t -> Typ_t.t -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"fmt.ml" 73 2389 2404 "fmt.ml" 73 2389 2407
+type(
+  Typ_t.t
+)
+"fmt.ml" 73 2389 2398 "fmt.ml" 73 2389 2407
+type(
+  bool
+)
+"fmt.ml" 73 2389 2413 "fmt.ml" 73 2389 2414
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 72 2336 2346 "fmt.ml" 72 2336 2347
+)
+"fmt.ml" 73 2389 2420 "fmt.ml" 73 2389 2421
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 72 2336 2346 "fmt.ml" 72 2336 2347
+)
+"fmt.ml" 73 2389 2422 "fmt.ml" 73 2389 2425
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 73 2389 2426 "fmt.ml" 73 2389 2433
+type(
+  string
+)
+"fmt.ml" 73 2389 2420 "fmt.ml" 73 2389 2433
+type(
+  Expr.T.expr
+)
+"fmt.ml" 73 2389 2395 "fmt.ml" 73 2389 2433
+type(
+  Expr.T.expr
+)
+"fmt.ml" 72 2336 2342 "fmt.ml" 73 2389 2433
+type(
+  Expr.T.expr
+)
+"fmt.ml" 74 2434 2460 "fmt.ml" 74 2434 2462
+type(
+  string
+)
+ident(
+  def id "fmt.ml" 74 2434 2474 "fmt.ml" 75 2502 2559
+)
+"fmt.ml" 74 2434 2453 "fmt.ml" 74 2434 2462
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 74 2434 2445 "fmt.ml" 74 2434 2463
+type(
+  Expr.T.expr
+)
+"fmt.ml" 74 2434 2465 "fmt.ml" 74 2434 2467
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "fmt.ml" 74 2434 2474 "fmt.ml" 75 2502 2559
+)
+"fmt.ml" 74 2434 2438 "fmt.ml" 74 2434 2468
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 74 2434 2474 "fmt.ml" 74 2434 2495
+type(
+  string -> bool
+)
+ident(
+  int_ref Smtcommons.is_smt_kwd "smtcommons.mli" 216 6896 6896 "smtcommons.mli" 216 6896 6927
+)
+"fmt.ml" 74 2434 2496 "fmt.ml" 74 2434 2498
+type(
+  string
+)
+ident(
+  int_ref id "fmt.ml" 74 2434 2460 "fmt.ml" 74 2434 2462
+)
+"fmt.ml" 74 2434 2474 "fmt.ml" 74 2434 2498
+type(
+  bool
+)
+"fmt.ml" 75 2502 2508 "fmt.ml" 75 2502 2512
+type(
+  Expr.T.expr -> Expr.T.expr list -> Expr.T.expr
+)
+ident(
+  int_ref apps "fmt.ml" 51 1826 1832 "fmt.ml" 51 1826 1836
+)
+"fmt.ml" 75 2502 2521 "fmt.ml" 75 2502 2523
+type(
+  string
+)
+ident(
+  int_ref id "fmt.ml" 74 2434 2460 "fmt.ml" 74 2434 2462
+)
+"fmt.ml" 75 2502 2514 "fmt.ml" 75 2502 2523
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 75 2502 2524 "fmt.ml" 75 2502 2526
+type(
+  Expr.T.expr_ -> Property.props -> Expr.T.expr
+)
+ident(
+  int_ref Property.( %% ) "property.mli" 103 3412 3412 "property.mli" 103 3412 3450
+)
+"fmt.ml" 75 2502 2527 "fmt.ml" 75 2502 2529
+type(
+  Property.props
+)
+"fmt.ml" 75 2502 2513 "fmt.ml" 75 2502 2530
+type(
+  Expr.T.expr
+)
+"fmt.ml" 75 2502 2532 "fmt.ml" 75 2502 2540
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"fmt.ml" 75 2502 2542 "fmt.ml" 75 2502 2546
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 75 2502 2547 "fmt.ml" 75 2502 2550
+type(
+  Typ_t.t
+)
+"fmt.ml" 75 2502 2551 "fmt.ml" 75 2502 2554
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 75 2502 2541 "fmt.ml" 75 2502 2555
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+"fmt.ml" 75 2502 2556 "fmt.ml" 75 2502 2558
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "fmt.ml" 74 2434 2465 "fmt.ml" 74 2434 2467
+)
+"fmt.ml" 75 2502 2531 "fmt.ml" 75 2502 2559
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 75 2502 2508 "fmt.ml" 75 2502 2559
+type(
+  Expr.T.expr
+)
+"fmt.ml" 78 2676 2699 "fmt.ml" 78 2676 2700
+type(
+  int
+)
+"fmt.ml" 78 2676 2696 "fmt.ml" 78 2676 2700
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 78 2676 2710 "fmt.ml" 78 2676 2711
+type(
+  string
+)
+"fmt.ml" 78 2676 2703 "fmt.ml" 78 2676 2711
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 78 2676 2696 "fmt.ml" 78 2676 2711
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 78 2676 2688 "fmt.ml" 78 2676 2712
+type(
+  Expr.T.expr
+)
+"fmt.ml" 78 2676 2687 "fmt.ml" 78 2676 2718
+type(
+  Expr.T.expr
+)
+ident(
+  def f "fmt.ml" 79 2727 2733 "fmt.ml" 80 2780 2803
+)
+"fmt.ml" 78 2676 2720 "fmt.ml" 78 2676 2722
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "fmt.ml" 79 2727 2733 "fmt.ml" 80 2780 2803
+)
+"fmt.ml" 78 2676 2680 "fmt.ml" 78 2676 2723
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 79 2727 2737 "fmt.ml" 79 2727 2738
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def e "fmt.ml" 80 2780 2786 "fmt.ml" 80 2780 2803
+)
+"fmt.ml" 79 2727 2741 "fmt.ml" 79 2727 2745
+type(
+  Expr.T.expr -> Expr.T.expr list -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref apps "fmt.ml" 51 1826 1832 "fmt.ml" 51 1826 1836
+)
+"fmt.ml" 79 2727 2746 "fmt.ml" 79 2727 2747
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f "fmt.ml" 78 2676 2687 "fmt.ml" 78 2676 2718
+)
+"fmt.ml" 79 2727 2749 "fmt.ml" 79 2727 2757
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"fmt.ml" 79 2727 2759 "fmt.ml" 79 2727 2763
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 79 2727 2764 "fmt.ml" 79 2727 2767
+type(
+  Typ_t.t
+)
+"fmt.ml" 79 2727 2768 "fmt.ml" 79 2727 2771
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 79 2727 2758 "fmt.ml" 79 2727 2772
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+"fmt.ml" 79 2727 2773 "fmt.ml" 79 2727 2775
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "fmt.ml" 78 2676 2720 "fmt.ml" 78 2676 2722
+)
+"fmt.ml" 79 2727 2748 "fmt.ml" 79 2727 2776
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 79 2727 2741 "fmt.ml" 79 2727 2776
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"fmt.ml" 80 2780 2786 "fmt.ml" 80 2780 2795
+type(
+  Typ_t.t -> Typ_t.t -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift_term "fmt.ml" 267 11485 11489 "fmt.ml" 267 11485 11498
+)
+"fmt.ml" 80 2780 2796 "fmt.ml" 80 2780 2797
+type(
+  Typ_t.t
+)
+ident(
+  int_ref t "fmt.ml" 55 1977 1983 "fmt.ml" 55 1977 1984
+)
+"fmt.ml" 80 2780 2798 "fmt.ml" 80 2780 2801
+type(
+  Typ_t.t
+)
+ident(
+  int_ref req "fmt.ml" 46 1520 1533 "fmt.ml" 46 1520 1536
+)
+"fmt.ml" 80 2780 2802 "fmt.ml" 80 2780 2803
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 79 2727 2737 "fmt.ml" 79 2727 2738
+)
+"fmt.ml" 80 2780 2786 "fmt.ml" 80 2780 2803
+type(
+  Expr.T.expr
+)
+"fmt.ml" 79 2727 2733 "fmt.ml" 80 2780 2803
+type(
+  Expr.T.expr
+)
+"fmt.ml" 81 2804 2816 "fmt.ml" 81 2804 2817
+type(
+  Expr.T.expr
+)
+ident(
+  def f "fmt.ml" 82 2826 2832 "fmt.ml" 83 2896 2919
+)
+"fmt.ml" 81 2804 2819 "fmt.ml" 81 2804 2821
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "fmt.ml" 82 2826 2832 "fmt.ml" 83 2896 2919
+)
+"fmt.ml" 81 2804 2808 "fmt.ml" 81 2804 2822
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 82 2826 2836 "fmt.ml" 82 2826 2837
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def e "fmt.ml" 83 2896 2902 "fmt.ml" 83 2896 2919
+)
+"fmt.ml" 82 2826 2840 "fmt.ml" 82 2826 2846
+type(
+  Expr.T.expr -> Expr.T.expr list -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref fcnapp "fmt.ml" 52 1869 1875 "fmt.ml" 52 1869 1881
+)
+"fmt.ml" 82 2826 2848 "fmt.ml" 82 2826 2852
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 82 2826 2853 "fmt.ml" 82 2826 2856
+type(
+  Typ_t.t
+)
+"fmt.ml" 82 2826 2857 "fmt.ml" 82 2826 2860
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 82 2826 2861 "fmt.ml" 82 2826 2862
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f "fmt.ml" 81 2804 2816 "fmt.ml" 81 2804 2817
+)
+"fmt.ml" 82 2826 2847 "fmt.ml" 82 2826 2863
+type(
+  Expr.T.expr
+)
+"fmt.ml" 82 2826 2865 "fmt.ml" 82 2826 2873
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"fmt.ml" 82 2826 2875 "fmt.ml" 82 2826 2879
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 82 2826 2880 "fmt.ml" 82 2826 2883
+type(
+  Typ_t.t
+)
+"fmt.ml" 82 2826 2884 "fmt.ml" 82 2826 2887
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 82 2826 2874 "fmt.ml" 82 2826 2888
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+"fmt.ml" 82 2826 2889 "fmt.ml" 82 2826 2891
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "fmt.ml" 81 2804 2819 "fmt.ml" 81 2804 2821
+)
+"fmt.ml" 82 2826 2864 "fmt.ml" 82 2826 2892
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 82 2826 2840 "fmt.ml" 82 2826 2892
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"fmt.ml" 83 2896 2902 "fmt.ml" 83 2896 2911
+type(
+  Typ_t.t -> Typ_t.t -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift_term "fmt.ml" 267 11485 11489 "fmt.ml" 267 11485 11498
+)
+"fmt.ml" 83 2896 2912 "fmt.ml" 83 2896 2913
+type(
+  Typ_t.t
+)
+ident(
+  int_ref t "fmt.ml" 55 1977 1983 "fmt.ml" 55 1977 1984
+)
+"fmt.ml" 83 2896 2914 "fmt.ml" 83 2896 2917
+type(
+  Typ_t.t
+)
+ident(
+  int_ref req "fmt.ml" 46 1520 1533 "fmt.ml" 46 1520 1536
+)
+"fmt.ml" 83 2896 2918 "fmt.ml" 83 2896 2919
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 82 2826 2836 "fmt.ml" 82 2826 2837
+)
+"fmt.ml" 83 2896 2902 "fmt.ml" 83 2896 2919
+type(
+  Expr.T.expr
+)
+"fmt.ml" 82 2826 2832 "fmt.ml" 83 2896 2919
+type(
+  Expr.T.expr
+)
+"fmt.ml" 84 2920 2929 "fmt.ml" 84 2920 2931
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "fmt.ml" 85 2939 2945 "fmt.ml" 86 2987 3010
+)
+"fmt.ml" 84 2920 2933 "fmt.ml" 84 2920 2934
+type(
+  string
+)
+ident(
+  def h "fmt.ml" 85 2939 2945 "fmt.ml" 86 2987 3010
+)
+"fmt.ml" 84 2920 2924 "fmt.ml" 84 2920 2935
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 85 2939 2949 "fmt.ml" 85 2939 2950
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def e "fmt.ml" 86 2987 2993 "fmt.ml" 86 2987 3010
+)
+"fmt.ml" 85 2939 2958 "fmt.ml" 85 2939 2962
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 85 2939 2963 "fmt.ml" 85 2939 2966
+type(
+  Typ_t.t
+)
+"fmt.ml" 85 2939 2967 "fmt.ml" 85 2939 2970
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 85 2939 2971 "fmt.ml" 85 2939 2973
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "fmt.ml" 84 2920 2929 "fmt.ml" 84 2920 2931
+)
+"fmt.ml" 85 2939 2958 "fmt.ml" 85 2939 2973
+type(
+  Expr.T.expr
+)
+"fmt.ml" 85 2939 2975 "fmt.ml" 85 2939 2976
+type(
+  string
+)
+ident(
+  int_ref h "fmt.ml" 84 2920 2933 "fmt.ml" 84 2920 2934
+)
+"fmt.ml" 85 2939 2953 "fmt.ml" 85 2939 2977
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 85 2939 2978 "fmt.ml" 85 2939 2980
+type(
+  Expr.T.expr_ ->
+  (Expr.T.expr_ -> Expr.T.expr_ Property.wrapped) ->
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Smtcommons.( |> ) "smtcommons.mli" 25 644 644 "smtcommons.mli" 25 644 679
+)
+"fmt.ml" 85 2939 2981 "fmt.ml" 85 2939 2983
+type(
+  Expr.T.expr_ -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref mk "fmt.ml" 48 1661 1667 "fmt.ml" 48 1661 1669
+)
+"fmt.ml" 85 2939 2953 "fmt.ml" 85 2939 2983
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"fmt.ml" 86 2987 2993 "fmt.ml" 86 2987 3002
+type(
+  Typ_t.t -> Typ_t.t -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift_term "fmt.ml" 267 11485 11489 "fmt.ml" 267 11485 11498
+)
+"fmt.ml" 86 2987 3003 "fmt.ml" 86 2987 3004
+type(
+  Typ_t.t
+)
+ident(
+  int_ref t "fmt.ml" 55 1977 1983 "fmt.ml" 55 1977 1984
+)
+"fmt.ml" 86 2987 3005 "fmt.ml" 86 2987 3008
+type(
+  Typ_t.t
+)
+ident(
+  int_ref req "fmt.ml" 46 1520 1533 "fmt.ml" 46 1520 1536
+)
+"fmt.ml" 86 2987 3009 "fmt.ml" 86 2987 3010
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 85 2939 2949 "fmt.ml" 85 2939 2950
+)
+"fmt.ml" 86 2987 2993 "fmt.ml" 86 2987 3010
+type(
+  Expr.T.expr
+)
+"fmt.ml" 85 2939 2945 "fmt.ml" 86 2987 3010
+type(
+  Expr.T.expr
+)
+"fmt.ml" 87 3011 3039 "fmt.ml" 87 3011 3041
+type(
+  Builtin.builtin
+)
+ident(
+  def op "fmt.ml" 88 3056 3062 "fmt.ml" 202 8894 8903
+)
+"fmt.ml" 87 3011 3030 "fmt.ml" 87 3011 3041
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 87 3011 3022 "fmt.ml" 87 3011 3042
+type(
+  Expr.T.expr
+)
+"fmt.ml" 87 3011 3022 "fmt.ml" 87 3011 3047
+type(
+  Expr.T.expr
+)
+ident(
+  def o "fmt.ml" 88 3056 3062 "fmt.ml" 202 8894 8903
+)
+"fmt.ml" 87 3011 3049 "fmt.ml" 87 3011 3051
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "fmt.ml" 88 3056 3062 "fmt.ml" 202 8894 8903
+)
+"fmt.ml" 87 3011 3015 "fmt.ml" 87 3011 3052
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 88 3056 3074 "fmt.ml" 88 3056 3076
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "fmt.ml" 87 3011 3039 "fmt.ml" 87 3011 3041
+)
+"fmt.ml" 88 3056 3078 "fmt.ml" 88 3056 3080
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "fmt.ml" 87 3011 3049 "fmt.ml" 87 3011 3051
+)
+"fmt.ml" 88 3056 3074 "fmt.ml" 88 3056 3080
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 89 3086 3094 "fmt.ml" 89 3086 3099
+type(
+  Builtin.builtin
+)
+"fmt.ml" 89 3086 3102 "fmt.ml" 89 3086 3103
+type(
+  Expr.T.expr
+)
+ident(
+  def x "fmt.ml" 89 3086 3136 "fmt.ml" 90 3158 3189
+)
+"fmt.ml" 89 3086 3123 "fmt.ml" 89 3086 3128
+type(
+  Builtin.builtin
+)
+"fmt.ml" 89 3086 3114 "fmt.ml" 89 3086 3128
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 89 3086 3106 "fmt.ml" 89 3086 3129
+type(
+  Expr.T.expr
+)
+"fmt.ml" 89 3086 3101 "fmt.ml" 89 3086 3130
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 89 3086 3094 "fmt.ml" 89 3086 3130
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 89 3086 3136 "fmt.ml" 89 3086 3148
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> bool
+)
+ident(
+  int_ref Typ_t.is_int "typ_t.mli" 146 2536 2536 "typ_t.mli" 147 2548 2580
+)
+"fmt.ml" 89 3086 3149 "fmt.ml" 89 3086 3152
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 89 3086 3153 "fmt.ml" 89 3086 3154
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "fmt.ml" 89 3086 3102 "fmt.ml" 89 3086 3103
+)
+"fmt.ml" 89 3086 3136 "fmt.ml" 89 3086 3154
+type(
+  bool
+)
+"fmt.ml" 90 3158 3177 "fmt.ml" 90 3158 3183
+type(
+  B.builtin
+)
+"fmt.ml" 90 3158 3168 "fmt.ml" 90 3158 3183
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 90 3158 3184 "fmt.ml" 90 3158 3186
+type(
+  Expr.T.expr_ -> Property.props -> Expr.T.expr
+)
+ident(
+  int_ref Property.( %% ) "property.mli" 103 3412 3412 "property.mli" 103 3412 3450
+)
+"fmt.ml" 90 3158 3187 "fmt.ml" 90 3158 3189
+type(
+  Property.props
+)
+"fmt.ml" 90 3158 3168 "fmt.ml" 90 3158 3189
+type(
+  Expr.T.expr
+)
+"fmt.ml" 91 3190 3198 "fmt.ml" 91 3190 3203
+type(
+  Builtin.builtin
+)
+"fmt.ml" 91 3190 3206 "fmt.ml" 91 3190 3207
+type(
+  Expr.T.expr
+)
+ident(
+  def x "fmt.ml" 91 3190 3241 "fmt.ml" 92 3264 3295
+)
+"fmt.ml" 91 3190 3227 "fmt.ml" 91 3190 3233
+type(
+  Builtin.builtin
+)
+"fmt.ml" 91 3190 3218 "fmt.ml" 91 3190 3233
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 91 3190 3210 "fmt.ml" 91 3190 3234
+type(
+  Expr.T.expr
+)
+"fmt.ml" 91 3190 3205 "fmt.ml" 91 3190 3235
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 91 3190 3198 "fmt.ml" 91 3190 3235
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 91 3190 3241 "fmt.ml" 91 3190 3254
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> bool
+)
+ident(
+  int_ref Typ_t.is_real "typ_t.mli" 148 2581 2581 "typ_t.mli" 149 2594 2626
+)
+"fmt.ml" 91 3190 3255 "fmt.ml" 91 3190 3258
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 91 3190 3259 "fmt.ml" 91 3190 3260
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref x "fmt.ml" 91 3190 3206 "fmt.ml" 91 3190 3207
+)
+"fmt.ml" 91 3190 3241 "fmt.ml" 91 3190 3260
+type(
+  bool
+)
+"fmt.ml" 92 3264 3283 "fmt.ml" 92 3264 3289
+type(
+  B.builtin
+)
+"fmt.ml" 92 3264 3274 "fmt.ml" 92 3264 3289
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 92 3264 3290 "fmt.ml" 92 3264 3292
+type(
+  Expr.T.expr_ -> Property.props -> Expr.T.expr
+)
+ident(
+  int_ref Property.( %% ) "property.mli" 103 3412 3412 "property.mli" 103 3412 3450
+)
+"fmt.ml" 92 3264 3293 "fmt.ml" 92 3264 3295
+type(
+  Property.props
+)
+"fmt.ml" 92 3264 3274 "fmt.ml" 92 3264 3295
+type(
+  Expr.T.expr
+)
+"fmt.ml" 99 3733 3741 "fmt.ml" 99 3733 3745
+type(
+  Builtin.builtin
+)
+"fmt.ml" 99 3733 3748 "fmt.ml" 99 3733 3750
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 100 3760 3770 "fmt.ml" 112 4476 4489
+)
+"fmt.ml" 99 3733 3753 "fmt.ml" 99 3733 3755
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 100 3760 3770 "fmt.ml" 112 4476 4489
+)
+"fmt.ml" 99 3733 3747 "fmt.ml" 99 3733 3756
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 99 3733 3741 "fmt.ml" 99 3733 3756
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 100 3760 3774 "fmt.ml" 100 3760 3776
+type(
+  Typ_t.t
+)
+ident(
+  def t1 "fmt.ml" 101 3793 3803 "fmt.ml" 112 4476 4489
+)
+"fmt.ml" 100 3760 3779 "fmt.ml" 100 3760 3782
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> Typ_t.t
+)
+ident(
+  int_ref typ "fmt.ml" 54 1914 1920 "fmt.ml" 54 1914 1923
+)
+"fmt.ml" 100 3760 3783 "fmt.ml" 100 3760 3786
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 100 3760 3787 "fmt.ml" 100 3760 3789
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 99 3733 3748 "fmt.ml" 99 3733 3750
+)
+"fmt.ml" 100 3760 3779 "fmt.ml" 100 3760 3789
+type(
+  Typ_t.t
+)
+"fmt.ml" 101 3793 3807 "fmt.ml" 101 3793 3809
+type(
+  Typ_t.t
+)
+ident(
+  def t2 "fmt.ml" 104 4017 4027 "fmt.ml" 112 4476 4489
+)
+"fmt.ml" 101 3793 3812 "fmt.ml" 101 3793 3815
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> Typ_t.t
+)
+ident(
+  int_ref typ "fmt.ml" 54 1914 1920 "fmt.ml" 54 1914 1923
+)
+"fmt.ml" 101 3793 3816 "fmt.ml" 101 3793 3819
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 101 3793 3820 "fmt.ml" 101 3793 3822
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 99 3733 3753 "fmt.ml" 99 3733 3755
+)
+"fmt.ml" 101 3793 3812 "fmt.ml" 101 3793 3822
+type(
+  Typ_t.t
+)
+"fmt.ml" 104 4017 4039 "fmt.ml" 104 4017 4041
+type(
+  Typ_t.t
+)
+ident(
+  int_ref t1 "fmt.ml" 100 3760 3774 "fmt.ml" 100 3760 3776
+)
+"fmt.ml" 104 4017 4043 "fmt.ml" 104 4017 4045
+type(
+  Typ_t.t
+)
+ident(
+  int_ref t2 "fmt.ml" 101 3793 3807 "fmt.ml" 101 3793 3809
+)
+"fmt.ml" 104 4017 4039 "fmt.ml" 104 4017 4045
+type(
+  Typ_t.t * Typ_t.t
+)
+"fmt.ml" 105 4051 4063 "fmt.ml" 105 4051 4066
+type(
+  Typ_t.t
+)
+"fmt.ml" 105 4051 4069 "fmt.ml" 105 4051 4072
+type(
+  Typ_t.t
+)
+"fmt.ml" 105 4051 4063 "fmt.ml" 105 4051 4072
+type(
+  Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t
+)
+"fmt.ml" 106 4078 4090 "fmt.ml" 106 4078 4095
+type(
+  Builtin.builtin -> Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref apply "fmt.ml" 49 1697 1703 "fmt.ml" 49 1697 1708
+)
+"fmt.ml" 106 4078 4096 "fmt.ml" 106 4078 4098
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "fmt.ml" 87 3011 3039 "fmt.ml" 87 3011 3041
+)
+"fmt.ml" 106 4078 4100 "fmt.ml" 106 4078 4104
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 106 4078 4105 "fmt.ml" 106 4078 4108
+type(
+  Typ_t.t
+)
+"fmt.ml" 106 4078 4109 "fmt.ml" 106 4078 4112
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 106 4078 4113 "fmt.ml" 106 4078 4115
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 99 3733 3748 "fmt.ml" 99 3733 3750
+)
+"fmt.ml" 106 4078 4099 "fmt.ml" 106 4078 4116
+type(
+  Expr.T.expr
+)
+"fmt.ml" 106 4078 4118 "fmt.ml" 106 4078 4122
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 106 4078 4123 "fmt.ml" 106 4078 4126
+type(
+  Typ_t.t
+)
+"fmt.ml" 106 4078 4127 "fmt.ml" 106 4078 4130
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 106 4078 4131 "fmt.ml" 106 4078 4133
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 99 3733 3753 "fmt.ml" 99 3733 3755
+)
+"fmt.ml" 106 4078 4117 "fmt.ml" 106 4078 4134
+type(
+  Expr.T.expr
+)
+"fmt.ml" 106 4078 4090 "fmt.ml" 106 4078 4134
+type(
+  Expr.T.expr
+)
+"fmt.ml" 107 4135 4147 "fmt.ml" 107 4135 4151
+type(
+  Typ_t.t
+)
+"fmt.ml" 107 4135 4154 "fmt.ml" 107 4135 4158
+type(
+  Typ_t.t
+)
+"fmt.ml" 107 4135 4147 "fmt.ml" 107 4135 4158
+type(
+  Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t
+)
+"fmt.ml" 108 4164 4176 "fmt.ml" 108 4164 4181
+type(
+  Builtin.builtin -> Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref apply "fmt.ml" 49 1697 1703 "fmt.ml" 49 1697 1708
+)
+"fmt.ml" 108 4164 4182 "fmt.ml" 108 4164 4184
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "fmt.ml" 87 3011 3039 "fmt.ml" 87 3011 3041
+)
+"fmt.ml" 108 4164 4186 "fmt.ml" 108 4164 4190
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 108 4164 4191 "fmt.ml" 108 4164 4195
+type(
+  Typ_t.t
+)
+"fmt.ml" 108 4164 4196 "fmt.ml" 108 4164 4199
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 108 4164 4200 "fmt.ml" 108 4164 4202
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 99 3733 3748 "fmt.ml" 99 3733 3750
+)
+"fmt.ml" 108 4164 4185 "fmt.ml" 108 4164 4203
+type(
+  Expr.T.expr
+)
+"fmt.ml" 108 4164 4205 "fmt.ml" 108 4164 4209
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 108 4164 4210 "fmt.ml" 108 4164 4214
+type(
+  Typ_t.t
+)
+"fmt.ml" 108 4164 4215 "fmt.ml" 108 4164 4218
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 108 4164 4219 "fmt.ml" 108 4164 4221
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 99 3733 3753 "fmt.ml" 99 3733 3755
+)
+"fmt.ml" 108 4164 4204 "fmt.ml" 108 4164 4222
+type(
+  Expr.T.expr
+)
+"fmt.ml" 108 4164 4176 "fmt.ml" 108 4164 4222
+type(
+  Expr.T.expr
+)
+"fmt.ml" 109 4223 4235 "fmt.ml" 109 4223 4238
+type(
+  Typ_t.t
+)
+"fmt.ml" 109 4223 4241 "fmt.ml" 109 4223 4244
+type(
+  Typ_t.t
+)
+"fmt.ml" 109 4223 4235 "fmt.ml" 109 4223 4244
+type(
+  Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t
+)
+"fmt.ml" 109 4223 4249 "fmt.ml" 109 4223 4254
+type(
+  Builtin.builtin -> Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref apply "fmt.ml" 49 1697 1703 "fmt.ml" 49 1697 1708
+)
+"fmt.ml" 109 4223 4255 "fmt.ml" 109 4223 4257
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "fmt.ml" 87 3011 3039 "fmt.ml" 87 3011 3041
+)
+"fmt.ml" 109 4223 4259 "fmt.ml" 109 4223 4263
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 109 4223 4264 "fmt.ml" 109 4223 4267
+type(
+  Typ_t.t
+)
+"fmt.ml" 109 4223 4268 "fmt.ml" 109 4223 4271
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 109 4223 4272 "fmt.ml" 109 4223 4274
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 99 3733 3748 "fmt.ml" 99 3733 3750
+)
+"fmt.ml" 109 4223 4258 "fmt.ml" 109 4223 4275
+type(
+  Expr.T.expr
+)
+"fmt.ml" 109 4223 4277 "fmt.ml" 109 4223 4281
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 109 4223 4282 "fmt.ml" 109 4223 4285
+type(
+  Typ_t.t
+)
+"fmt.ml" 109 4223 4286 "fmt.ml" 109 4223 4289
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 109 4223 4290 "fmt.ml" 109 4223 4292
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 99 3733 3753 "fmt.ml" 99 3733 3755
+)
+"fmt.ml" 109 4223 4276 "fmt.ml" 109 4223 4293
+type(
+  Expr.T.expr
+)
+"fmt.ml" 109 4223 4249 "fmt.ml" 109 4223 4293
+type(
+  Expr.T.expr
+)
+"fmt.ml" 110 4294 4306 "fmt.ml" 110 4294 4310
+type(
+  Typ_t.t
+)
+"fmt.ml" 110 4294 4312 "fmt.ml" 110 4294 4316
+type(
+  Typ_t.t
+)
+"fmt.ml" 110 4294 4306 "fmt.ml" 110 4294 4316
+type(
+  Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t
+)
+"fmt.ml" 110 4294 4320 "fmt.ml" 110 4294 4325
+type(
+  B.builtin -> Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref apply "fmt.ml" 49 1697 1703 "fmt.ml" 49 1697 1708
+)
+"fmt.ml" 110 4294 4326 "fmt.ml" 110 4294 4333
+type(
+  B.builtin
+)
+"fmt.ml" 110 4294 4335 "fmt.ml" 110 4294 4339
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 110 4294 4340 "fmt.ml" 110 4294 4344
+type(
+  Typ_t.t
+)
+"fmt.ml" 110 4294 4345 "fmt.ml" 110 4294 4348
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 110 4294 4349 "fmt.ml" 110 4294 4351
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 99 3733 3748 "fmt.ml" 99 3733 3750
+)
+"fmt.ml" 110 4294 4334 "fmt.ml" 110 4294 4352
+type(
+  Expr.T.expr
+)
+"fmt.ml" 110 4294 4354 "fmt.ml" 110 4294 4358
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 110 4294 4359 "fmt.ml" 110 4294 4363
+type(
+  Typ_t.t
+)
+"fmt.ml" 110 4294 4364 "fmt.ml" 110 4294 4367
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 110 4294 4368 "fmt.ml" 110 4294 4370
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 99 3733 3753 "fmt.ml" 99 3733 3755
+)
+"fmt.ml" 110 4294 4353 "fmt.ml" 110 4294 4371
+type(
+  Expr.T.expr
+)
+"fmt.ml" 110 4294 4320 "fmt.ml" 110 4294 4371
+type(
+  Expr.T.expr
+)
+"fmt.ml" 111 4403 4415 "fmt.ml" 111 4403 4416
+type(
+  Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t
+)
+"fmt.ml" 111 4403 4431 "fmt.ml" 111 4403 4436
+type(
+  Builtin.builtin -> Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref apply "fmt.ml" 49 1697 1703 "fmt.ml" 49 1697 1708
+)
+"fmt.ml" 111 4403 4437 "fmt.ml" 111 4403 4439
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "fmt.ml" 87 3011 3039 "fmt.ml" 87 3011 3041
+)
+"fmt.ml" 111 4403 4441 "fmt.ml" 111 4403 4445
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 111 4403 4446 "fmt.ml" 111 4403 4449
+type(
+  Typ_t.t
+)
+"fmt.ml" 111 4403 4450 "fmt.ml" 111 4403 4453
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 111 4403 4454 "fmt.ml" 111 4403 4456
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 99 3733 3748 "fmt.ml" 99 3733 3750
+)
+"fmt.ml" 111 4403 4440 "fmt.ml" 111 4403 4457
+type(
+  Expr.T.expr
+)
+"fmt.ml" 111 4403 4459 "fmt.ml" 111 4403 4463
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 111 4403 4464 "fmt.ml" 111 4403 4467
+type(
+  Typ_t.t
+)
+"fmt.ml" 111 4403 4468 "fmt.ml" 111 4403 4471
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 111 4403 4472 "fmt.ml" 111 4403 4474
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 99 3733 3753 "fmt.ml" 99 3733 3755
+)
+"fmt.ml" 111 4403 4458 "fmt.ml" 111 4403 4475
+type(
+  Expr.T.expr
+)
+"fmt.ml" 111 4403 4431 "fmt.ml" 111 4403 4475
+type(
+  Expr.T.expr
+)
+"fmt.ml" 104 4017 4027 "fmt.ml" 112 4476 4489
+type(
+  Expr.T.expr
+)
+"fmt.ml" 101 3793 3803 "fmt.ml" 112 4476 4489
+type(
+  Expr.T.expr
+)
+"fmt.ml" 100 3760 3770 "fmt.ml" 112 4476 4489
+type(
+  Expr.T.expr
+)
+"fmt.ml" 113 4490 4498 "fmt.ml" 113 4490 4504
+type(
+  Builtin.builtin
+)
+"fmt.ml" 113 4490 4510 "fmt.ml" 113 4490 4512
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 117 4609 4619 "fmt.ml" 119 4687 4711
+)
+"fmt.ml" 113 4490 4515 "fmt.ml" 113 4490 4517
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 117 4609 4619 "fmt.ml" 119 4687 4711
+)
+"fmt.ml" 113 4490 4509 "fmt.ml" 113 4490 4518
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 113 4490 4498 "fmt.ml" 113 4490 4518
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 114 4519 4527 "fmt.ml" 114 4519 4533
+type(
+  Builtin.builtin
+)
+"fmt.ml" 114 4519 4539 "fmt.ml" 114 4519 4541
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 117 4609 4619 "fmt.ml" 119 4687 4711
+)
+"fmt.ml" 114 4519 4544 "fmt.ml" 114 4519 4546
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 117 4609 4619 "fmt.ml" 119 4687 4711
+)
+"fmt.ml" 114 4519 4538 "fmt.ml" 114 4519 4547
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 114 4519 4527 "fmt.ml" 114 4519 4547
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 113 4490 4498 "fmt.ml" 114 4519 4547
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 115 4548 4556 "fmt.ml" 115 4548 4565
+type(
+  Builtin.builtin
+)
+"fmt.ml" 115 4548 4568 "fmt.ml" 115 4548 4570
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 117 4609 4619 "fmt.ml" 119 4687 4711
+)
+"fmt.ml" 115 4548 4573 "fmt.ml" 115 4548 4575
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 117 4609 4619 "fmt.ml" 119 4687 4711
+)
+"fmt.ml" 115 4548 4567 "fmt.ml" 115 4548 4576
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 115 4548 4556 "fmt.ml" 115 4548 4576
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 113 4490 4498 "fmt.ml" 115 4548 4576
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 116 4577 4585 "fmt.ml" 116 4577 4592
+type(
+  Builtin.builtin
+)
+"fmt.ml" 116 4577 4597 "fmt.ml" 116 4577 4599
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 117 4609 4619 "fmt.ml" 119 4687 4711
+)
+"fmt.ml" 116 4577 4602 "fmt.ml" 116 4577 4604
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 117 4609 4619 "fmt.ml" 119 4687 4711
+)
+"fmt.ml" 116 4577 4596 "fmt.ml" 116 4577 4605
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 116 4577 4585 "fmt.ml" 116 4577 4605
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 113 4490 4498 "fmt.ml" 116 4577 4605
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 117 4609 4623 "fmt.ml" 117 4609 4625
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 118 4648 4658 "fmt.ml" 119 4687 4711
+)
+"fmt.ml" 117 4609 4628 "fmt.ml" 117 4609 4632
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 117 4609 4633 "fmt.ml" 117 4609 4637
+type(
+  Typ_t.t
+)
+"fmt.ml" 117 4609 4638 "fmt.ml" 117 4609 4641
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 117 4609 4642 "fmt.ml" 117 4609 4644
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 113 4490 4510 "fmt.ml" 113 4490 4512
+)
+"fmt.ml" 117 4609 4628 "fmt.ml" 117 4609 4644
+type(
+  Expr.T.expr
+)
+"fmt.ml" 118 4648 4662 "fmt.ml" 118 4648 4664
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 119 4687 4697 "fmt.ml" 119 4687 4711
+)
+"fmt.ml" 118 4648 4667 "fmt.ml" 118 4648 4671
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 118 4648 4672 "fmt.ml" 118 4648 4676
+type(
+  Typ_t.t
+)
+"fmt.ml" 118 4648 4677 "fmt.ml" 118 4648 4680
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 118 4648 4681 "fmt.ml" 118 4648 4683
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 113 4490 4515 "fmt.ml" 113 4490 4517
+)
+"fmt.ml" 118 4648 4667 "fmt.ml" 118 4648 4683
+type(
+  Expr.T.expr
+)
+"fmt.ml" 119 4687 4697 "fmt.ml" 119 4687 4702
+type(
+  Builtin.builtin -> Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref apply "fmt.ml" 49 1697 1703 "fmt.ml" 49 1697 1708
+)
+"fmt.ml" 119 4687 4703 "fmt.ml" 119 4687 4705
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "fmt.ml" 87 3011 3039 "fmt.ml" 87 3011 3041
+)
+"fmt.ml" 119 4687 4706 "fmt.ml" 119 4687 4708
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 117 4609 4623 "fmt.ml" 117 4609 4625
+)
+"fmt.ml" 119 4687 4709 "fmt.ml" 119 4687 4711
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 118 4648 4662 "fmt.ml" 118 4648 4664
+)
+"fmt.ml" 119 4687 4697 "fmt.ml" 119 4687 4711
+type(
+  Expr.T.expr
+)
+"fmt.ml" 118 4648 4658 "fmt.ml" 119 4687 4711
+type(
+  Expr.T.expr
+)
+"fmt.ml" 117 4609 4619 "fmt.ml" 119 4687 4711
+type(
+  Expr.T.expr
+)
+"fmt.ml" 120 4712 4720 "fmt.ml" 120 4712 4725
+type(
+  Builtin.builtin
+)
+"fmt.ml" 120 4712 4731 "fmt.ml" 120 4712 4733
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "fmt.ml" 120 4712 4743 "fmt.ml" 120 4712 4769
+)
+"fmt.ml" 120 4712 4730 "fmt.ml" 120 4712 4734
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 120 4712 4720 "fmt.ml" 120 4712 4734
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 120 4712 4743 "fmt.ml" 120 4712 4747
+type(
+  Builtin.builtin -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref app1 "fmt.ml" 50 1766 1772 "fmt.ml" 50 1766 1776
+)
+"fmt.ml" 120 4712 4748 "fmt.ml" 120 4712 4750
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "fmt.ml" 87 3011 3039 "fmt.ml" 87 3011 3041
+)
+"fmt.ml" 120 4712 4752 "fmt.ml" 120 4712 4756
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 120 4712 4757 "fmt.ml" 120 4712 4761
+type(
+  Typ_t.t
+)
+"fmt.ml" 120 4712 4762 "fmt.ml" 120 4712 4765
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 120 4712 4766 "fmt.ml" 120 4712 4768
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "fmt.ml" 120 4712 4731 "fmt.ml" 120 4712 4733
+)
+"fmt.ml" 120 4712 4751 "fmt.ml" 120 4712 4769
+type(
+  Expr.T.expr
+)
+"fmt.ml" 120 4712 4743 "fmt.ml" 120 4712 4769
+type(
+  Expr.T.expr
+)
+"fmt.ml" 121 4770 4778 "fmt.ml" 121 4770 4786
+type(
+  Builtin.builtin
+)
+"fmt.ml" 121 4770 4789 "fmt.ml" 121 4770 4791
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "fmt.ml" 121 4770 4801 "fmt.ml" 121 4770 4826
+)
+"fmt.ml" 121 4770 4788 "fmt.ml" 121 4770 4792
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 121 4770 4778 "fmt.ml" 121 4770 4792
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 121 4770 4801 "fmt.ml" 121 4770 4805
+type(
+  Builtin.builtin -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref app1 "fmt.ml" 50 1766 1772 "fmt.ml" 50 1766 1776
+)
+"fmt.ml" 121 4770 4806 "fmt.ml" 121 4770 4808
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "fmt.ml" 87 3011 3039 "fmt.ml" 87 3011 3041
+)
+"fmt.ml" 121 4770 4810 "fmt.ml" 121 4770 4814
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 121 4770 4815 "fmt.ml" 121 4770 4818
+type(
+  Typ_t.t
+)
+"fmt.ml" 121 4770 4819 "fmt.ml" 121 4770 4822
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 121 4770 4823 "fmt.ml" 121 4770 4825
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "fmt.ml" 121 4770 4789 "fmt.ml" 121 4770 4791
+)
+"fmt.ml" 121 4770 4809 "fmt.ml" 121 4770 4826
+type(
+  Expr.T.expr
+)
+"fmt.ml" 121 4770 4801 "fmt.ml" 121 4770 4826
+type(
+  Expr.T.expr
+)
+"fmt.ml" 122 4827 4835 "fmt.ml" 122 4827 4840
+type(
+  Builtin.builtin
+)
+"fmt.ml" 122 4827 4846 "fmt.ml" 122 4827 4848
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 123 4855 4886 "fmt.ml" 123 4855 4930
+)
+"fmt.ml" 122 4827 4851 "fmt.ml" 122 4827 4853
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 123 4855 4886 "fmt.ml" 123 4855 4930
+)
+"fmt.ml" 122 4827 4845 "fmt.ml" 122 4827 4854
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 122 4827 4835 "fmt.ml" 122 4827 4854
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 123 4855 4863 "fmt.ml" 123 4855 4870
+type(
+  Builtin.builtin
+)
+"fmt.ml" 123 4855 4874 "fmt.ml" 123 4855 4876
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 123 4855 4886 "fmt.ml" 123 4855 4930
+)
+"fmt.ml" 123 4855 4879 "fmt.ml" 123 4855 4881
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 123 4855 4886 "fmt.ml" 123 4855 4930
+)
+"fmt.ml" 123 4855 4873 "fmt.ml" 123 4855 4882
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 123 4855 4863 "fmt.ml" 123 4855 4882
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 122 4827 4835 "fmt.ml" 123 4855 4882
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 123 4855 4886 "fmt.ml" 123 4855 4891
+type(
+  Builtin.builtin -> Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref apply "fmt.ml" 49 1697 1703 "fmt.ml" 49 1697 1708
+)
+"fmt.ml" 123 4855 4892 "fmt.ml" 123 4855 4894
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "fmt.ml" 87 3011 3039 "fmt.ml" 87 3011 3041
+)
+"fmt.ml" 123 4855 4896 "fmt.ml" 123 4855 4900
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 123 4855 4901 "fmt.ml" 123 4855 4904
+type(
+  Typ_t.t
+)
+"fmt.ml" 123 4855 4905 "fmt.ml" 123 4855 4908
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 123 4855 4909 "fmt.ml" 123 4855 4911
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 122 4827 4846 "fmt.ml" 122 4827 4848
+)
+"fmt.ml" 123 4855 4895 "fmt.ml" 123 4855 4912
+type(
+  Expr.T.expr
+)
+"fmt.ml" 123 4855 4914 "fmt.ml" 123 4855 4918
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 123 4855 4919 "fmt.ml" 123 4855 4922
+type(
+  Typ_t.t
+)
+"fmt.ml" 123 4855 4923 "fmt.ml" 123 4855 4926
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 123 4855 4927 "fmt.ml" 123 4855 4929
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 122 4827 4851 "fmt.ml" 122 4827 4853
+)
+"fmt.ml" 123 4855 4913 "fmt.ml" 123 4855 4930
+type(
+  Expr.T.expr
+)
+"fmt.ml" 123 4855 4886 "fmt.ml" 123 4855 4930
+type(
+  Expr.T.expr
+)
+"fmt.ml" 124 4931 4939 "fmt.ml" 124 4931 4945
+type(
+  Builtin.builtin
+)
+"fmt.ml" 124 4931 4950 "fmt.ml" 124 4931 4952
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 129 5122 5132 "fmt.ml" 135 5560 5573
+)
+"fmt.ml" 124 4931 4955 "fmt.ml" 124 4931 4957
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 129 5122 5132 "fmt.ml" 135 5560 5573
+)
+"fmt.ml" 124 4931 4949 "fmt.ml" 124 4931 4958
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 124 4931 4939 "fmt.ml" 124 4931 4958
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 125 4959 4967 "fmt.ml" 125 4959 4971
+type(
+  Builtin.builtin
+)
+"fmt.ml" 125 4959 4978 "fmt.ml" 125 4959 4980
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 129 5122 5132 "fmt.ml" 135 5560 5573
+)
+"fmt.ml" 125 4959 4983 "fmt.ml" 125 4959 4985
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 129 5122 5132 "fmt.ml" 135 5560 5573
+)
+"fmt.ml" 125 4959 4977 "fmt.ml" 125 4959 4986
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 125 4959 4967 "fmt.ml" 125 4959 4986
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 124 4931 4939 "fmt.ml" 125 4959 4986
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 126 4987 4995 "fmt.ml" 126 4987 5001
+type(
+  Builtin.builtin
+)
+"fmt.ml" 126 4987 5006 "fmt.ml" 126 4987 5008
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 129 5122 5132 "fmt.ml" 135 5560 5573
+)
+"fmt.ml" 126 4987 5011 "fmt.ml" 126 4987 5013
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 129 5122 5132 "fmt.ml" 135 5560 5573
+)
+"fmt.ml" 126 4987 5005 "fmt.ml" 126 4987 5014
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 126 4987 4995 "fmt.ml" 126 4987 5014
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 124 4931 4939 "fmt.ml" 126 4987 5014
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 127 5015 5023 "fmt.ml" 127 5015 5027
+type(
+  Builtin.builtin
+)
+"fmt.ml" 127 5015 5034 "fmt.ml" 127 5015 5036
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 129 5122 5132 "fmt.ml" 135 5560 5573
+)
+"fmt.ml" 127 5015 5039 "fmt.ml" 127 5015 5041
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 129 5122 5132 "fmt.ml" 135 5560 5573
+)
+"fmt.ml" 127 5015 5033 "fmt.ml" 127 5015 5042
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 127 5015 5023 "fmt.ml" 127 5015 5042
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 124 4931 4939 "fmt.ml" 127 5015 5042
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 129 5122 5144 "fmt.ml" 129 5122 5147
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> Typ_t.t
+)
+ident(
+  int_ref typ "fmt.ml" 54 1914 1920 "fmt.ml" 54 1914 1923
+)
+"fmt.ml" 129 5122 5148 "fmt.ml" 129 5122 5151
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 129 5122 5152 "fmt.ml" 129 5122 5154
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 124 4931 4950 "fmt.ml" 124 4931 4952
+)
+"fmt.ml" 129 5122 5144 "fmt.ml" 129 5122 5154
+type(
+  Typ_t.t
+)
+"fmt.ml" 129 5122 5156 "fmt.ml" 129 5122 5159
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> Typ_t.t
+)
+ident(
+  int_ref typ "fmt.ml" 54 1914 1920 "fmt.ml" 54 1914 1923
+)
+"fmt.ml" 129 5122 5160 "fmt.ml" 129 5122 5163
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 129 5122 5164 "fmt.ml" 129 5122 5166
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 124 4931 4955 "fmt.ml" 124 4931 4957
+)
+"fmt.ml" 129 5122 5156 "fmt.ml" 129 5122 5166
+type(
+  Typ_t.t
+)
+"fmt.ml" 129 5122 5144 "fmt.ml" 129 5122 5166
+type(
+  Typ_t.t * Typ_t.t
+)
+"fmt.ml" 130 5172 5184 "fmt.ml" 130 5172 5187
+type(
+  Typ_t.t
+)
+"fmt.ml" 130 5172 5189 "fmt.ml" 130 5172 5192
+type(
+  Typ_t.t
+)
+"fmt.ml" 130 5172 5184 "fmt.ml" 130 5172 5192
+type(
+  Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t
+)
+"fmt.ml" 130 5172 5196 "fmt.ml" 130 5172 5200
+type(
+  Expr.T.expr -> Expr.T.expr list -> Expr.T.expr
+)
+ident(
+  int_ref apps "fmt.ml" 51 1826 1832 "fmt.ml" 51 1826 1836
+)
+"fmt.ml" 130 5172 5202 "fmt.ml" 130 5172 5203
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref o "fmt.ml" 87 3011 3022 "fmt.ml" 87 3011 3047
+)
+"fmt.ml" 130 5172 5204 "fmt.ml" 130 5172 5207
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 130 5172 5208 "fmt.ml" 130 5172 5218
+type(
+  string
+)
+"fmt.ml" 130 5172 5201 "fmt.ml" 130 5172 5219
+type(
+  Expr.T.expr
+)
+"fmt.ml" 130 5172 5221 "fmt.ml" 130 5172 5225
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 130 5172 5226 "fmt.ml" 130 5172 5229
+type(
+  Typ_t.t
+)
+"fmt.ml" 130 5172 5230 "fmt.ml" 130 5172 5233
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 130 5172 5234 "fmt.ml" 130 5172 5236
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 124 4931 4950 "fmt.ml" 124 4931 4952
+)
+"fmt.ml" 130 5172 5221 "fmt.ml" 130 5172 5236
+type(
+  Expr.T.expr
+)
+"fmt.ml" 130 5172 5239 "fmt.ml" 130 5172 5243
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 130 5172 5244 "fmt.ml" 130 5172 5247
+type(
+  Typ_t.t
+)
+"fmt.ml" 130 5172 5248 "fmt.ml" 130 5172 5251
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 130 5172 5252 "fmt.ml" 130 5172 5254
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 124 4931 4955 "fmt.ml" 124 4931 4957
+)
+"fmt.ml" 130 5172 5239 "fmt.ml" 130 5172 5254
+type(
+  Expr.T.expr
+)
+"fmt.ml" 130 5172 5220 "fmt.ml" 130 5172 5255
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 130 5172 5196 "fmt.ml" 130 5172 5255
+type(
+  Expr.T.expr
+)
+"fmt.ml" 131 5256 5268 "fmt.ml" 131 5256 5272
+type(
+  Typ_t.t
+)
+"fmt.ml" 131 5256 5274 "fmt.ml" 131 5256 5278
+type(
+  Typ_t.t
+)
+"fmt.ml" 131 5256 5268 "fmt.ml" 131 5256 5278
+type(
+  Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t
+)
+"fmt.ml" 131 5256 5282 "fmt.ml" 131 5256 5286
+type(
+  Expr.T.expr -> Expr.T.expr list -> Expr.T.expr
+)
+ident(
+  int_ref apps "fmt.ml" 51 1826 1832 "fmt.ml" 51 1826 1836
+)
+"fmt.ml" 131 5256 5288 "fmt.ml" 131 5256 5289
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref o "fmt.ml" 87 3011 3022 "fmt.ml" 87 3011 3047
+)
+"fmt.ml" 131 5256 5290 "fmt.ml" 131 5256 5293
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 131 5256 5294 "fmt.ml" 131 5256 5305
+type(
+  string
+)
+"fmt.ml" 131 5256 5287 "fmt.ml" 131 5256 5306
+type(
+  Expr.T.expr
+)
+"fmt.ml" 131 5256 5308 "fmt.ml" 131 5256 5312
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 131 5256 5313 "fmt.ml" 131 5256 5317
+type(
+  Typ_t.t
+)
+"fmt.ml" 131 5256 5318 "fmt.ml" 131 5256 5321
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 131 5256 5322 "fmt.ml" 131 5256 5324
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 124 4931 4950 "fmt.ml" 124 4931 4952
+)
+"fmt.ml" 131 5256 5308 "fmt.ml" 131 5256 5324
+type(
+  Expr.T.expr
+)
+"fmt.ml" 131 5256 5327 "fmt.ml" 131 5256 5331
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 131 5256 5332 "fmt.ml" 131 5256 5336
+type(
+  Typ_t.t
+)
+"fmt.ml" 131 5256 5337 "fmt.ml" 131 5256 5340
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 131 5256 5341 "fmt.ml" 131 5256 5343
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 124 4931 4955 "fmt.ml" 124 4931 4957
+)
+"fmt.ml" 131 5256 5327 "fmt.ml" 131 5256 5343
+type(
+  Expr.T.expr
+)
+"fmt.ml" 131 5256 5307 "fmt.ml" 131 5256 5344
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 131 5256 5282 "fmt.ml" 131 5256 5344
+type(
+  Expr.T.expr
+)
+"fmt.ml" 134 5491 5503 "fmt.ml" 134 5491 5504
+type(
+  Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t
+)
+"fmt.ml" 134 5491 5517 "fmt.ml" 134 5491 5521
+type(
+  Expr.T.expr -> Expr.T.expr list -> Expr.T.expr
+)
+ident(
+  int_ref apps "fmt.ml" 51 1826 1832 "fmt.ml" 51 1826 1836
+)
+"fmt.ml" 134 5491 5522 "fmt.ml" 134 5491 5523
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref o "fmt.ml" 87 3011 3022 "fmt.ml" 87 3011 3047
+)
+"fmt.ml" 134 5491 5525 "fmt.ml" 134 5491 5529
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 134 5491 5530 "fmt.ml" 134 5491 5533
+type(
+  Typ_t.t
+)
+"fmt.ml" 134 5491 5534 "fmt.ml" 134 5491 5537
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 134 5491 5538 "fmt.ml" 134 5491 5540
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 124 4931 4950 "fmt.ml" 124 4931 4952
+)
+"fmt.ml" 134 5491 5525 "fmt.ml" 134 5491 5540
+type(
+  Expr.T.expr
+)
+"fmt.ml" 134 5491 5543 "fmt.ml" 134 5491 5547
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 134 5491 5548 "fmt.ml" 134 5491 5551
+type(
+  Typ_t.t
+)
+"fmt.ml" 134 5491 5552 "fmt.ml" 134 5491 5555
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 134 5491 5556 "fmt.ml" 134 5491 5558
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 124 4931 4955 "fmt.ml" 124 4931 4957
+)
+"fmt.ml" 134 5491 5543 "fmt.ml" 134 5491 5558
+type(
+  Expr.T.expr
+)
+"fmt.ml" 134 5491 5524 "fmt.ml" 134 5491 5559
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 134 5491 5517 "fmt.ml" 134 5491 5559
+type(
+  Expr.T.expr
+)
+"fmt.ml" 129 5122 5132 "fmt.ml" 135 5560 5573
+type(
+  Expr.T.expr
+)
+"fmt.ml" 136 5574 5582 "fmt.ml" 136 5574 5588
+type(
+  Builtin.builtin
+)
+"fmt.ml" 136 5574 5596 "fmt.ml" 136 5574 5598
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 144 5804 5814 "fmt.ml" 154 6462 6475
+)
+"fmt.ml" 136 5574 5601 "fmt.ml" 136 5574 5603
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 144 5804 5814 "fmt.ml" 154 6462 6475
+)
+"fmt.ml" 136 5574 5595 "fmt.ml" 136 5574 5604
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 136 5574 5582 "fmt.ml" 136 5574 5604
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 137 5605 5613 "fmt.ml" 137 5605 5620
+type(
+  Builtin.builtin
+)
+"fmt.ml" 137 5605 5627 "fmt.ml" 137 5605 5629
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 144 5804 5814 "fmt.ml" 154 6462 6475
+)
+"fmt.ml" 137 5605 5632 "fmt.ml" 137 5605 5634
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 144 5804 5814 "fmt.ml" 154 6462 6475
+)
+"fmt.ml" 137 5605 5626 "fmt.ml" 137 5605 5635
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 137 5605 5613 "fmt.ml" 137 5605 5635
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 136 5574 5582 "fmt.ml" 137 5605 5635
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 138 5636 5644 "fmt.ml" 138 5636 5651
+type(
+  Builtin.builtin
+)
+"fmt.ml" 138 5636 5658 "fmt.ml" 138 5636 5660
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 144 5804 5814 "fmt.ml" 154 6462 6475
+)
+"fmt.ml" 138 5636 5663 "fmt.ml" 138 5636 5665
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 144 5804 5814 "fmt.ml" 154 6462 6475
+)
+"fmt.ml" 138 5636 5657 "fmt.ml" 138 5636 5666
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 138 5636 5644 "fmt.ml" 138 5636 5666
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 136 5574 5582 "fmt.ml" 138 5636 5666
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 139 5667 5675 "fmt.ml" 139 5667 5682
+type(
+  Builtin.builtin
+)
+"fmt.ml" 139 5667 5689 "fmt.ml" 139 5667 5691
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 144 5804 5814 "fmt.ml" 154 6462 6475
+)
+"fmt.ml" 139 5667 5694 "fmt.ml" 139 5667 5696
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 144 5804 5814 "fmt.ml" 154 6462 6475
+)
+"fmt.ml" 139 5667 5688 "fmt.ml" 139 5667 5697
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 139 5667 5675 "fmt.ml" 139 5667 5697
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 136 5574 5582 "fmt.ml" 139 5667 5697
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 140 5698 5706 "fmt.ml" 140 5698 5716
+type(
+  Builtin.builtin
+)
+"fmt.ml" 140 5698 5720 "fmt.ml" 140 5698 5722
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 144 5804 5814 "fmt.ml" 154 6462 6475
+)
+"fmt.ml" 140 5698 5725 "fmt.ml" 140 5698 5727
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 144 5804 5814 "fmt.ml" 154 6462 6475
+)
+"fmt.ml" 140 5698 5719 "fmt.ml" 140 5698 5728
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 140 5698 5706 "fmt.ml" 140 5698 5728
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 136 5574 5582 "fmt.ml" 140 5698 5728
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 141 5729 5737 "fmt.ml" 141 5729 5748
+type(
+  Builtin.builtin
+)
+"fmt.ml" 141 5729 5751 "fmt.ml" 141 5729 5753
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 144 5804 5814 "fmt.ml" 154 6462 6475
+)
+"fmt.ml" 141 5729 5756 "fmt.ml" 141 5729 5758
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 144 5804 5814 "fmt.ml" 154 6462 6475
+)
+"fmt.ml" 141 5729 5750 "fmt.ml" 141 5729 5759
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 141 5729 5737 "fmt.ml" 141 5729 5759
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 136 5574 5582 "fmt.ml" 141 5729 5759
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 142 5760 5768 "fmt.ml" 142 5760 5773
+type(
+  Builtin.builtin
+)
+"fmt.ml" 142 5760 5782 "fmt.ml" 142 5760 5784
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 144 5804 5814 "fmt.ml" 154 6462 6475
+)
+"fmt.ml" 142 5760 5787 "fmt.ml" 142 5760 5789
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 144 5804 5814 "fmt.ml" 154 6462 6475
+)
+"fmt.ml" 142 5760 5781 "fmt.ml" 142 5760 5790
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 142 5760 5768 "fmt.ml" 142 5760 5790
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 136 5574 5582 "fmt.ml" 142 5760 5790
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 144 5804 5826 "fmt.ml" 144 5804 5829
+type(
+  Typ_t.t
+)
+ident(
+  int_ref req "fmt.ml" 46 1520 1533 "fmt.ml" 46 1520 1536
+)
+"fmt.ml" 144 5804 5831 "fmt.ml" 144 5804 5843
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> bool
+)
+ident(
+  int_ref Typ_t.is_int "typ_t.mli" 146 2536 2536 "typ_t.mli" 147 2548 2580
+)
+"fmt.ml" 144 5804 5844 "fmt.ml" 144 5804 5847
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 144 5804 5848 "fmt.ml" 144 5804 5850
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 136 5574 5596 "fmt.ml" 136 5574 5598
+)
+"fmt.ml" 144 5804 5831 "fmt.ml" 144 5804 5850
+type(
+  bool
+)
+"fmt.ml" 144 5804 5851 "fmt.ml" 144 5804 5853
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"fmt.ml" 144 5804 5854 "fmt.ml" 144 5804 5866
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> bool
+)
+ident(
+  int_ref Typ_t.is_int "typ_t.mli" 146 2536 2536 "typ_t.mli" 147 2548 2580
+)
+"fmt.ml" 144 5804 5867 "fmt.ml" 144 5804 5870
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 144 5804 5871 "fmt.ml" 144 5804 5873
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 136 5574 5601 "fmt.ml" 136 5574 5603
+)
+"fmt.ml" 144 5804 5854 "fmt.ml" 144 5804 5873
+type(
+  bool
+)
+"fmt.ml" 144 5804 5831 "fmt.ml" 144 5804 5873
+type(
+  bool
+)
+"fmt.ml" 144 5804 5826 "fmt.ml" 144 5804 5873
+type(
+  Typ_t.t * bool
+)
+"fmt.ml" 145 5879 5891 "fmt.ml" 145 5879 5894
+type(
+  Typ_t.t
+)
+"fmt.ml" 145 5879 5896 "fmt.ml" 145 5879 5900
+type(
+  bool
+)
+"fmt.ml" 145 5879 5891 "fmt.ml" 145 5879 5900
+type(
+  Typ_t.t * bool
+)
+type(
+  Typ_t.t * bool
+)
+"fmt.ml" 145 5879 5904 "fmt.ml" 145 5879 5908
+type(
+  Expr.T.expr -> Expr.T.expr list -> Expr.T.expr
+)
+ident(
+  int_ref apps "fmt.ml" 51 1826 1832 "fmt.ml" 51 1826 1836
+)
+"fmt.ml" 145 5879 5910 "fmt.ml" 145 5879 5911
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref o "fmt.ml" 87 3011 3022 "fmt.ml" 87 3011 3047
+)
+"fmt.ml" 145 5879 5912 "fmt.ml" 145 5879 5915
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 145 5879 5916 "fmt.ml" 145 5879 5926
+type(
+  string
+)
+"fmt.ml" 145 5879 5909 "fmt.ml" 145 5879 5927
+type(
+  Expr.T.expr
+)
+"fmt.ml" 145 5879 5929 "fmt.ml" 145 5879 5933
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 145 5879 5934 "fmt.ml" 145 5879 5937
+type(
+  Typ_t.t
+)
+"fmt.ml" 145 5879 5938 "fmt.ml" 145 5879 5941
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 145 5879 5942 "fmt.ml" 145 5879 5944
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 136 5574 5596 "fmt.ml" 136 5574 5598
+)
+"fmt.ml" 145 5879 5929 "fmt.ml" 145 5879 5944
+type(
+  Expr.T.expr
+)
+"fmt.ml" 145 5879 5947 "fmt.ml" 145 5879 5951
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 145 5879 5952 "fmt.ml" 145 5879 5955
+type(
+  Typ_t.t
+)
+"fmt.ml" 145 5879 5956 "fmt.ml" 145 5879 5959
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 145 5879 5960 "fmt.ml" 145 5879 5962
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 136 5574 5601 "fmt.ml" 136 5574 5603
+)
+"fmt.ml" 145 5879 5947 "fmt.ml" 145 5879 5962
+type(
+  Expr.T.expr
+)
+"fmt.ml" 145 5879 5928 "fmt.ml" 145 5879 5963
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 145 5879 5904 "fmt.ml" 145 5879 5963
+type(
+  Expr.T.expr
+)
+"fmt.ml" 145 5879 5964 "fmt.ml" 145 5879 5967
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 145 5879 5968 "fmt.ml" 145 5879 5975
+type(
+  string
+)
+"fmt.ml" 145 5879 5904 "fmt.ml" 145 5879 5975
+type(
+  Expr.T.expr
+)
+"fmt.ml" 146 5976 5988 "fmt.ml" 146 5976 5989
+type(
+  Typ_t.t
+)
+"fmt.ml" 146 5976 5993 "fmt.ml" 146 5976 5997
+type(
+  bool
+)
+"fmt.ml" 146 5976 5988 "fmt.ml" 146 5976 5997
+type(
+  Typ_t.t * bool
+)
+type(
+  Typ_t.t * bool
+)
+"fmt.ml" 146 5976 6001 "fmt.ml" 146 5976 6005
+type(
+  Expr.T.expr -> Expr.T.expr list -> Expr.T.expr
+)
+ident(
+  int_ref apps "fmt.ml" 51 1826 1832 "fmt.ml" 51 1826 1836
+)
+"fmt.ml" 146 5976 6007 "fmt.ml" 146 5976 6008
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref o "fmt.ml" 87 3011 3022 "fmt.ml" 87 3011 3047
+)
+"fmt.ml" 146 5976 6009 "fmt.ml" 146 5976 6012
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 146 5976 6013 "fmt.ml" 146 5976 6023
+type(
+  string
+)
+"fmt.ml" 146 5976 6006 "fmt.ml" 146 5976 6024
+type(
+  Expr.T.expr
+)
+"fmt.ml" 146 5976 6026 "fmt.ml" 146 5976 6030
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 146 5976 6031 "fmt.ml" 146 5976 6034
+type(
+  Typ_t.t
+)
+"fmt.ml" 146 5976 6035 "fmt.ml" 146 5976 6038
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 146 5976 6039 "fmt.ml" 146 5976 6041
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 136 5574 5596 "fmt.ml" 136 5574 5598
+)
+"fmt.ml" 146 5976 6026 "fmt.ml" 146 5976 6041
+type(
+  Expr.T.expr
+)
+"fmt.ml" 146 5976 6044 "fmt.ml" 146 5976 6048
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 146 5976 6049 "fmt.ml" 146 5976 6052
+type(
+  Typ_t.t
+)
+"fmt.ml" 146 5976 6053 "fmt.ml" 146 5976 6056
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 146 5976 6057 "fmt.ml" 146 5976 6059
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 136 5574 5601 "fmt.ml" 136 5574 5603
+)
+"fmt.ml" 146 5976 6044 "fmt.ml" 146 5976 6059
+type(
+  Expr.T.expr
+)
+"fmt.ml" 146 5976 6025 "fmt.ml" 146 5976 6060
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 146 5976 6001 "fmt.ml" 146 5976 6060
+type(
+  Expr.T.expr
+)
+"fmt.ml" 147 6061 6073 "fmt.ml" 147 6061 6074
+type(
+  Typ_t.t * bool
+)
+type(
+  Typ_t.t * bool
+)
+"fmt.ml" 148 6087 6111 "fmt.ml" 148 6087 6114
+type(
+  Typ_t.t
+)
+ident(
+  int_ref req "fmt.ml" 46 1520 1533 "fmt.ml" 46 1520 1536
+)
+"fmt.ml" 148 6087 6116 "fmt.ml" 148 6087 6129
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> bool
+)
+ident(
+  int_ref Typ_t.is_real "typ_t.mli" 148 2581 2581 "typ_t.mli" 149 2594 2626
+)
+"fmt.ml" 148 6087 6130 "fmt.ml" 148 6087 6133
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 148 6087 6134 "fmt.ml" 148 6087 6136
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 136 5574 5596 "fmt.ml" 136 5574 5598
+)
+"fmt.ml" 148 6087 6116 "fmt.ml" 148 6087 6136
+type(
+  bool
+)
+"fmt.ml" 148 6087 6137 "fmt.ml" 148 6087 6139
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"fmt.ml" 148 6087 6140 "fmt.ml" 148 6087 6153
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> bool
+)
+ident(
+  int_ref Typ_t.is_real "typ_t.mli" 148 2581 2581 "typ_t.mli" 149 2594 2626
+)
+"fmt.ml" 148 6087 6154 "fmt.ml" 148 6087 6157
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 148 6087 6158 "fmt.ml" 148 6087 6160
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 136 5574 5601 "fmt.ml" 136 5574 5603
+)
+"fmt.ml" 148 6087 6140 "fmt.ml" 148 6087 6160
+type(
+  bool
+)
+"fmt.ml" 148 6087 6116 "fmt.ml" 148 6087 6160
+type(
+  bool
+)
+"fmt.ml" 148 6087 6111 "fmt.ml" 148 6087 6160
+type(
+  Typ_t.t * bool
+)
+"fmt.ml" 149 6166 6180 "fmt.ml" 149 6166 6183
+type(
+  Typ_t.t
+)
+"fmt.ml" 149 6166 6185 "fmt.ml" 149 6166 6189
+type(
+  bool
+)
+"fmt.ml" 149 6166 6180 "fmt.ml" 149 6166 6189
+type(
+  Typ_t.t * bool
+)
+type(
+  Typ_t.t * bool
+)
+"fmt.ml" 149 6166 6193 "fmt.ml" 149 6166 6197
+type(
+  Expr.T.expr -> Expr.T.expr list -> Expr.T.expr
+)
+ident(
+  int_ref apps "fmt.ml" 51 1826 1832 "fmt.ml" 51 1826 1836
+)
+"fmt.ml" 149 6166 6199 "fmt.ml" 149 6166 6200
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref o "fmt.ml" 87 3011 3022 "fmt.ml" 87 3011 3047
+)
+"fmt.ml" 149 6166 6201 "fmt.ml" 149 6166 6204
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 149 6166 6205 "fmt.ml" 149 6166 6216
+type(
+  string
+)
+"fmt.ml" 149 6166 6198 "fmt.ml" 149 6166 6217
+type(
+  Expr.T.expr
+)
+"fmt.ml" 149 6166 6219 "fmt.ml" 149 6166 6223
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 149 6166 6224 "fmt.ml" 149 6166 6228
+type(
+  Typ_t.t
+)
+"fmt.ml" 149 6166 6229 "fmt.ml" 149 6166 6232
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 149 6166 6233 "fmt.ml" 149 6166 6235
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 136 5574 5596 "fmt.ml" 136 5574 5598
+)
+"fmt.ml" 149 6166 6219 "fmt.ml" 149 6166 6235
+type(
+  Expr.T.expr
+)
+"fmt.ml" 149 6166 6238 "fmt.ml" 149 6166 6242
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 149 6166 6243 "fmt.ml" 149 6166 6247
+type(
+  Typ_t.t
+)
+"fmt.ml" 149 6166 6248 "fmt.ml" 149 6166 6251
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 149 6166 6252 "fmt.ml" 149 6166 6254
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 136 5574 5601 "fmt.ml" 136 5574 5603
+)
+"fmt.ml" 149 6166 6238 "fmt.ml" 149 6166 6254
+type(
+  Expr.T.expr
+)
+"fmt.ml" 149 6166 6218 "fmt.ml" 149 6166 6255
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 149 6166 6193 "fmt.ml" 149 6166 6255
+type(
+  Expr.T.expr
+)
+"fmt.ml" 149 6166 6256 "fmt.ml" 149 6166 6259
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 149 6166 6260 "fmt.ml" 149 6166 6268
+type(
+  string
+)
+"fmt.ml" 149 6166 6193 "fmt.ml" 149 6166 6268
+type(
+  Expr.T.expr
+)
+"fmt.ml" 150 6269 6283 "fmt.ml" 150 6269 6284
+type(
+  Typ_t.t
+)
+"fmt.ml" 150 6269 6288 "fmt.ml" 150 6269 6292
+type(
+  bool
+)
+"fmt.ml" 150 6269 6283 "fmt.ml" 150 6269 6292
+type(
+  Typ_t.t * bool
+)
+type(
+  Typ_t.t * bool
+)
+"fmt.ml" 150 6269 6296 "fmt.ml" 150 6269 6300
+type(
+  Expr.T.expr -> Expr.T.expr list -> Expr.T.expr
+)
+ident(
+  int_ref apps "fmt.ml" 51 1826 1832 "fmt.ml" 51 1826 1836
+)
+"fmt.ml" 150 6269 6302 "fmt.ml" 150 6269 6303
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref o "fmt.ml" 87 3011 3022 "fmt.ml" 87 3011 3047
+)
+"fmt.ml" 150 6269 6304 "fmt.ml" 150 6269 6307
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 150 6269 6308 "fmt.ml" 150 6269 6319
+type(
+  string
+)
+"fmt.ml" 150 6269 6301 "fmt.ml" 150 6269 6320
+type(
+  Expr.T.expr
+)
+"fmt.ml" 150 6269 6322 "fmt.ml" 150 6269 6326
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 150 6269 6327 "fmt.ml" 150 6269 6331
+type(
+  Typ_t.t
+)
+"fmt.ml" 150 6269 6332 "fmt.ml" 150 6269 6335
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 150 6269 6336 "fmt.ml" 150 6269 6338
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 136 5574 5596 "fmt.ml" 136 5574 5598
+)
+"fmt.ml" 150 6269 6322 "fmt.ml" 150 6269 6338
+type(
+  Expr.T.expr
+)
+"fmt.ml" 150 6269 6341 "fmt.ml" 150 6269 6345
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 150 6269 6346 "fmt.ml" 150 6269 6350
+type(
+  Typ_t.t
+)
+"fmt.ml" 150 6269 6351 "fmt.ml" 150 6269 6354
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 150 6269 6355 "fmt.ml" 150 6269 6357
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 136 5574 5601 "fmt.ml" 136 5574 5603
+)
+"fmt.ml" 150 6269 6341 "fmt.ml" 150 6269 6357
+type(
+  Expr.T.expr
+)
+"fmt.ml" 150 6269 6321 "fmt.ml" 150 6269 6358
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 150 6269 6296 "fmt.ml" 150 6269 6358
+type(
+  Expr.T.expr
+)
+"fmt.ml" 151 6359 6373 "fmt.ml" 151 6359 6374
+type(
+  Typ_t.t * bool
+)
+type(
+  Typ_t.t * bool
+)
+"fmt.ml" 152 6387 6403 "fmt.ml" 152 6387 6407
+type(
+  Expr.T.expr -> Expr.T.expr list -> Expr.T.expr
+)
+ident(
+  int_ref apps "fmt.ml" 51 1826 1832 "fmt.ml" 51 1826 1836
+)
+"fmt.ml" 152 6387 6408 "fmt.ml" 152 6387 6409
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref o "fmt.ml" 87 3011 3022 "fmt.ml" 87 3011 3047
+)
+"fmt.ml" 152 6387 6411 "fmt.ml" 152 6387 6415
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 152 6387 6416 "fmt.ml" 152 6387 6419
+type(
+  Typ_t.t
+)
+"fmt.ml" 152 6387 6420 "fmt.ml" 152 6387 6423
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 152 6387 6424 "fmt.ml" 152 6387 6426
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 136 5574 5596 "fmt.ml" 136 5574 5598
+)
+"fmt.ml" 152 6387 6411 "fmt.ml" 152 6387 6426
+type(
+  Expr.T.expr
+)
+"fmt.ml" 152 6387 6429 "fmt.ml" 152 6387 6433
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 152 6387 6434 "fmt.ml" 152 6387 6437
+type(
+  Typ_t.t
+)
+"fmt.ml" 152 6387 6438 "fmt.ml" 152 6387 6441
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 152 6387 6442 "fmt.ml" 152 6387 6444
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 136 5574 5601 "fmt.ml" 136 5574 5603
+)
+"fmt.ml" 152 6387 6429 "fmt.ml" 152 6387 6444
+type(
+  Expr.T.expr
+)
+"fmt.ml" 152 6387 6410 "fmt.ml" 152 6387 6445
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 152 6387 6403 "fmt.ml" 152 6387 6445
+type(
+  Expr.T.expr
+)
+"fmt.ml" 148 6087 6099 "fmt.ml" 153 6446 6461
+type(
+  Expr.T.expr
+)
+"fmt.ml" 144 5804 5814 "fmt.ml" 154 6462 6475
+type(
+  Expr.T.expr
+)
+"fmt.ml" 157 6571 6579 "fmt.ml" 157 6571 6587
+type(
+  Builtin.builtin
+)
+"fmt.ml" 157 6571 6590 "fmt.ml" 157 6571 6592
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "fmt.ml" 158 6597 6607 "fmt.ml" 167 7099 7112
+)
+"fmt.ml" 157 6571 6589 "fmt.ml" 157 6571 6593
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 157 6571 6579 "fmt.ml" 157 6571 6593
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 158 6597 6619 "fmt.ml" 158 6597 6622
+type(
+  Typ_t.t
+)
+ident(
+  int_ref req "fmt.ml" 46 1520 1533 "fmt.ml" 46 1520 1536
+)
+"fmt.ml" 158 6597 6624 "fmt.ml" 158 6597 6636
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> bool
+)
+ident(
+  int_ref Typ_t.is_int "typ_t.mli" 146 2536 2536 "typ_t.mli" 147 2548 2580
+)
+"fmt.ml" 158 6597 6637 "fmt.ml" 158 6597 6640
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 158 6597 6641 "fmt.ml" 158 6597 6643
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "fmt.ml" 157 6571 6590 "fmt.ml" 157 6571 6592
+)
+"fmt.ml" 158 6597 6624 "fmt.ml" 158 6597 6643
+type(
+  bool
+)
+"fmt.ml" 158 6597 6619 "fmt.ml" 158 6597 6643
+type(
+  Typ_t.t * bool
+)
+"fmt.ml" 159 6649 6661 "fmt.ml" 159 6649 6664
+type(
+  Typ_t.t
+)
+"fmt.ml" 159 6649 6666 "fmt.ml" 159 6649 6670
+type(
+  bool
+)
+"fmt.ml" 159 6649 6661 "fmt.ml" 159 6649 6670
+type(
+  Typ_t.t * bool
+)
+type(
+  Typ_t.t * bool
+)
+"fmt.ml" 159 6649 6674 "fmt.ml" 159 6649 6678
+type(
+  Expr.T.expr -> Expr.T.expr list -> Expr.T.expr
+)
+ident(
+  int_ref apps "fmt.ml" 51 1826 1832 "fmt.ml" 51 1826 1836
+)
+"fmt.ml" 159 6649 6680 "fmt.ml" 159 6649 6681
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref o "fmt.ml" 87 3011 3022 "fmt.ml" 87 3011 3047
+)
+"fmt.ml" 159 6649 6682 "fmt.ml" 159 6649 6685
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 159 6649 6686 "fmt.ml" 159 6649 6696
+type(
+  string
+)
+"fmt.ml" 159 6649 6679 "fmt.ml" 159 6649 6697
+type(
+  Expr.T.expr
+)
+"fmt.ml" 159 6649 6699 "fmt.ml" 159 6649 6703
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 159 6649 6704 "fmt.ml" 159 6649 6707
+type(
+  Typ_t.t
+)
+"fmt.ml" 159 6649 6708 "fmt.ml" 159 6649 6711
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 159 6649 6712 "fmt.ml" 159 6649 6714
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "fmt.ml" 157 6571 6590 "fmt.ml" 157 6571 6592
+)
+"fmt.ml" 159 6649 6699 "fmt.ml" 159 6649 6714
+type(
+  Expr.T.expr
+)
+"fmt.ml" 159 6649 6698 "fmt.ml" 159 6649 6715
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 159 6649 6674 "fmt.ml" 159 6649 6715
+type(
+  Expr.T.expr
+)
+"fmt.ml" 159 6649 6716 "fmt.ml" 159 6649 6719
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 159 6649 6720 "fmt.ml" 159 6649 6727
+type(
+  string
+)
+"fmt.ml" 159 6649 6674 "fmt.ml" 159 6649 6727
+type(
+  Expr.T.expr
+)
+"fmt.ml" 160 6728 6740 "fmt.ml" 160 6728 6741
+type(
+  Typ_t.t
+)
+"fmt.ml" 160 6728 6743 "fmt.ml" 160 6728 6747
+type(
+  bool
+)
+"fmt.ml" 160 6728 6740 "fmt.ml" 160 6728 6747
+type(
+  Typ_t.t * bool
+)
+type(
+  Typ_t.t * bool
+)
+"fmt.ml" 160 6728 6753 "fmt.ml" 160 6728 6757
+type(
+  Expr.T.expr -> Expr.T.expr list -> Expr.T.expr
+)
+ident(
+  int_ref apps "fmt.ml" 51 1826 1832 "fmt.ml" 51 1826 1836
+)
+"fmt.ml" 160 6728 6759 "fmt.ml" 160 6728 6760
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref o "fmt.ml" 87 3011 3022 "fmt.ml" 87 3011 3047
+)
+"fmt.ml" 160 6728 6761 "fmt.ml" 160 6728 6764
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 160 6728 6765 "fmt.ml" 160 6728 6775
+type(
+  string
+)
+"fmt.ml" 160 6728 6758 "fmt.ml" 160 6728 6776
+type(
+  Expr.T.expr
+)
+"fmt.ml" 160 6728 6778 "fmt.ml" 160 6728 6782
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 160 6728 6783 "fmt.ml" 160 6728 6786
+type(
+  Typ_t.t
+)
+"fmt.ml" 160 6728 6787 "fmt.ml" 160 6728 6790
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 160 6728 6791 "fmt.ml" 160 6728 6793
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "fmt.ml" 157 6571 6590 "fmt.ml" 157 6571 6592
+)
+"fmt.ml" 160 6728 6778 "fmt.ml" 160 6728 6793
+type(
+  Expr.T.expr
+)
+"fmt.ml" 160 6728 6777 "fmt.ml" 160 6728 6794
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 160 6728 6753 "fmt.ml" 160 6728 6794
+type(
+  Expr.T.expr
+)
+"fmt.ml" 161 6795 6807 "fmt.ml" 161 6795 6808
+type(
+  Typ_t.t * bool
+)
+type(
+  Typ_t.t * bool
+)
+"fmt.ml" 162 6820 6844 "fmt.ml" 162 6820 6847
+type(
+  Typ_t.t
+)
+ident(
+  int_ref req "fmt.ml" 46 1520 1533 "fmt.ml" 46 1520 1536
+)
+"fmt.ml" 162 6820 6849 "fmt.ml" 162 6820 6862
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> bool
+)
+ident(
+  int_ref Typ_t.is_real "typ_t.mli" 148 2581 2581 "typ_t.mli" 149 2594 2626
+)
+"fmt.ml" 162 6820 6863 "fmt.ml" 162 6820 6866
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 162 6820 6867 "fmt.ml" 162 6820 6869
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "fmt.ml" 157 6571 6590 "fmt.ml" 157 6571 6592
+)
+"fmt.ml" 162 6820 6849 "fmt.ml" 162 6820 6869
+type(
+  bool
+)
+"fmt.ml" 162 6820 6844 "fmt.ml" 162 6820 6869
+type(
+  Typ_t.t * bool
+)
+"fmt.ml" 163 6875 6889 "fmt.ml" 163 6875 6892
+type(
+  Typ_t.t
+)
+"fmt.ml" 163 6875 6894 "fmt.ml" 163 6875 6898
+type(
+  bool
+)
+"fmt.ml" 163 6875 6889 "fmt.ml" 163 6875 6898
+type(
+  Typ_t.t * bool
+)
+type(
+  Typ_t.t * bool
+)
+"fmt.ml" 163 6875 6902 "fmt.ml" 163 6875 6906
+type(
+  Expr.T.expr -> Expr.T.expr list -> Expr.T.expr
+)
+ident(
+  int_ref apps "fmt.ml" 51 1826 1832 "fmt.ml" 51 1826 1836
+)
+"fmt.ml" 163 6875 6908 "fmt.ml" 163 6875 6909
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref o "fmt.ml" 87 3011 3022 "fmt.ml" 87 3011 3047
+)
+"fmt.ml" 163 6875 6910 "fmt.ml" 163 6875 6913
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 163 6875 6914 "fmt.ml" 163 6875 6925
+type(
+  string
+)
+"fmt.ml" 163 6875 6907 "fmt.ml" 163 6875 6926
+type(
+  Expr.T.expr
+)
+"fmt.ml" 163 6875 6928 "fmt.ml" 163 6875 6932
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 163 6875 6933 "fmt.ml" 163 6875 6937
+type(
+  Typ_t.t
+)
+"fmt.ml" 163 6875 6938 "fmt.ml" 163 6875 6941
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 163 6875 6942 "fmt.ml" 163 6875 6944
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "fmt.ml" 157 6571 6590 "fmt.ml" 157 6571 6592
+)
+"fmt.ml" 163 6875 6928 "fmt.ml" 163 6875 6944
+type(
+  Expr.T.expr
+)
+"fmt.ml" 163 6875 6927 "fmt.ml" 163 6875 6945
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 163 6875 6902 "fmt.ml" 163 6875 6945
+type(
+  Expr.T.expr
+)
+"fmt.ml" 163 6875 6946 "fmt.ml" 163 6875 6949
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 163 6875 6950 "fmt.ml" 163 6875 6958
+type(
+  string
+)
+"fmt.ml" 163 6875 6902 "fmt.ml" 163 6875 6958
+type(
+  Expr.T.expr
+)
+"fmt.ml" 164 6959 6973 "fmt.ml" 164 6959 6974
+type(
+  Typ_t.t
+)
+"fmt.ml" 164 6959 6976 "fmt.ml" 164 6959 6980
+type(
+  bool
+)
+"fmt.ml" 164 6959 6973 "fmt.ml" 164 6959 6980
+type(
+  Typ_t.t * bool
+)
+type(
+  Typ_t.t * bool
+)
+"fmt.ml" 164 6959 6986 "fmt.ml" 164 6959 6990
+type(
+  Expr.T.expr -> Expr.T.expr list -> Expr.T.expr
+)
+ident(
+  int_ref apps "fmt.ml" 51 1826 1832 "fmt.ml" 51 1826 1836
+)
+"fmt.ml" 164 6959 6992 "fmt.ml" 164 6959 6993
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref o "fmt.ml" 87 3011 3022 "fmt.ml" 87 3011 3047
+)
+"fmt.ml" 164 6959 6994 "fmt.ml" 164 6959 6997
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 164 6959 6998 "fmt.ml" 164 6959 7009
+type(
+  string
+)
+"fmt.ml" 164 6959 6991 "fmt.ml" 164 6959 7010
+type(
+  Expr.T.expr
+)
+"fmt.ml" 164 6959 7012 "fmt.ml" 164 6959 7016
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 164 6959 7017 "fmt.ml" 164 6959 7021
+type(
+  Typ_t.t
+)
+"fmt.ml" 164 6959 7022 "fmt.ml" 164 6959 7025
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 164 6959 7026 "fmt.ml" 164 6959 7028
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "fmt.ml" 157 6571 6590 "fmt.ml" 157 6571 6592
+)
+"fmt.ml" 164 6959 7012 "fmt.ml" 164 6959 7028
+type(
+  Expr.T.expr
+)
+"fmt.ml" 164 6959 7011 "fmt.ml" 164 6959 7029
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 164 6959 6986 "fmt.ml" 164 6959 7029
+type(
+  Expr.T.expr
+)
+"fmt.ml" 165 7030 7044 "fmt.ml" 165 7030 7045
+type(
+  Typ_t.t * bool
+)
+type(
+  Typ_t.t * bool
+)
+"fmt.ml" 165 7030 7057 "fmt.ml" 165 7030 7061
+type(
+  Expr.T.expr -> Expr.T.expr list -> Expr.T.expr
+)
+ident(
+  int_ref apps "fmt.ml" 51 1826 1832 "fmt.ml" 51 1826 1836
+)
+"fmt.ml" 165 7030 7062 "fmt.ml" 165 7030 7063
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref o "fmt.ml" 87 3011 3022 "fmt.ml" 87 3011 3047
+)
+"fmt.ml" 165 7030 7065 "fmt.ml" 165 7030 7069
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 165 7030 7070 "fmt.ml" 165 7030 7073
+type(
+  Typ_t.t
+)
+"fmt.ml" 165 7030 7074 "fmt.ml" 165 7030 7077
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 165 7030 7078 "fmt.ml" 165 7030 7080
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "fmt.ml" 157 6571 6590 "fmt.ml" 157 6571 6592
+)
+"fmt.ml" 165 7030 7065 "fmt.ml" 165 7030 7080
+type(
+  Expr.T.expr
+)
+"fmt.ml" 165 7030 7064 "fmt.ml" 165 7030 7081
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 165 7030 7057 "fmt.ml" 165 7030 7081
+type(
+  Expr.T.expr
+)
+"fmt.ml" 162 6820 6832 "fmt.ml" 166 7082 7097
+type(
+  Expr.T.expr
+)
+"fmt.ml" 158 6597 6607 "fmt.ml" 167 7099 7112
+type(
+  Expr.T.expr
+)
+"fmt.ml" 168 7113 7121 "fmt.ml" 168 7113 7128
+type(
+  Builtin.builtin
+)
+"fmt.ml" 168 7113 7131 "fmt.ml" 168 7113 7133
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "fmt.ml" 169 7138 7148 "fmt.ml" 169 7138 7173
+)
+"fmt.ml" 168 7113 7130 "fmt.ml" 168 7113 7134
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 168 7113 7121 "fmt.ml" 168 7113 7134
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 169 7138 7148 "fmt.ml" 169 7138 7152
+type(
+  Builtin.builtin -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref app1 "fmt.ml" 50 1766 1772 "fmt.ml" 50 1766 1776
+)
+"fmt.ml" 169 7138 7153 "fmt.ml" 169 7138 7155
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "fmt.ml" 87 3011 3039 "fmt.ml" 87 3011 3041
+)
+"fmt.ml" 169 7138 7157 "fmt.ml" 169 7138 7161
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 169 7138 7162 "fmt.ml" 169 7138 7165
+type(
+  Typ_t.t
+)
+ident(
+  int_ref req "fmt.ml" 46 1520 1533 "fmt.ml" 46 1520 1536
+)
+"fmt.ml" 169 7138 7166 "fmt.ml" 169 7138 7169
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 169 7138 7170 "fmt.ml" 169 7138 7172
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "fmt.ml" 168 7113 7131 "fmt.ml" 168 7113 7133
+)
+"fmt.ml" 169 7138 7156 "fmt.ml" 169 7138 7173
+type(
+  Expr.T.expr
+)
+"fmt.ml" 169 7138 7148 "fmt.ml" 169 7138 7173
+type(
+  Expr.T.expr
+)
+"fmt.ml" 173 7270 7278 "fmt.ml" 173 7270 7283
+type(
+  Builtin.builtin
+)
+"fmt.ml" 173 7270 7292 "fmt.ml" 173 7270 7294
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "fmt.ml" 173 7270 7304 "fmt.ml" 173 7270 7329
+)
+"fmt.ml" 173 7270 7291 "fmt.ml" 173 7270 7295
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 173 7270 7278 "fmt.ml" 173 7270 7295
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 173 7270 7304 "fmt.ml" 173 7270 7308
+type(
+  Builtin.builtin -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref app1 "fmt.ml" 50 1766 1772 "fmt.ml" 50 1766 1776
+)
+"fmt.ml" 173 7270 7309 "fmt.ml" 173 7270 7311
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "fmt.ml" 87 3011 3039 "fmt.ml" 87 3011 3041
+)
+"fmt.ml" 173 7270 7313 "fmt.ml" 173 7270 7317
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 173 7270 7318 "fmt.ml" 173 7270 7321
+type(
+  Typ_t.t
+)
+"fmt.ml" 173 7270 7322 "fmt.ml" 173 7270 7325
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 173 7270 7326 "fmt.ml" 173 7270 7328
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "fmt.ml" 173 7270 7292 "fmt.ml" 173 7270 7294
+)
+"fmt.ml" 173 7270 7312 "fmt.ml" 173 7270 7329
+type(
+  Expr.T.expr
+)
+"fmt.ml" 173 7270 7304 "fmt.ml" 173 7270 7329
+type(
+  Expr.T.expr
+)
+"fmt.ml" 174 7330 7338 "fmt.ml" 174 7330 7344
+type(
+  Builtin.builtin
+)
+"fmt.ml" 174 7330 7352 "fmt.ml" 174 7330 7354
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "fmt.ml" 174 7330 7364 "fmt.ml" 174 7330 7389
+)
+"fmt.ml" 174 7330 7351 "fmt.ml" 174 7330 7355
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 174 7330 7338 "fmt.ml" 174 7330 7355
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 174 7330 7364 "fmt.ml" 174 7330 7368
+type(
+  Builtin.builtin -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref app1 "fmt.ml" 50 1766 1772 "fmt.ml" 50 1766 1776
+)
+"fmt.ml" 174 7330 7369 "fmt.ml" 174 7330 7371
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "fmt.ml" 87 3011 3039 "fmt.ml" 87 3011 3041
+)
+"fmt.ml" 174 7330 7373 "fmt.ml" 174 7330 7377
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 174 7330 7378 "fmt.ml" 174 7330 7381
+type(
+  Typ_t.t
+)
+"fmt.ml" 174 7330 7382 "fmt.ml" 174 7330 7385
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 174 7330 7386 "fmt.ml" 174 7330 7388
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "fmt.ml" 174 7330 7352 "fmt.ml" 174 7330 7354
+)
+"fmt.ml" 174 7330 7372 "fmt.ml" 174 7330 7389
+type(
+  Expr.T.expr
+)
+"fmt.ml" 174 7330 7364 "fmt.ml" 174 7330 7389
+type(
+  Expr.T.expr
+)
+"fmt.ml" 175 7390 7398 "fmt.ml" 175 7390 7404
+type(
+  Builtin.builtin
+)
+"fmt.ml" 175 7390 7412 "fmt.ml" 175 7390 7414
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "fmt.ml" 175 7390 7424 "fmt.ml" 175 7390 7449
+)
+"fmt.ml" 175 7390 7411 "fmt.ml" 175 7390 7415
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 175 7390 7398 "fmt.ml" 175 7390 7415
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 175 7390 7424 "fmt.ml" 175 7390 7428
+type(
+  Builtin.builtin -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref app1 "fmt.ml" 50 1766 1772 "fmt.ml" 50 1766 1776
+)
+"fmt.ml" 175 7390 7429 "fmt.ml" 175 7390 7431
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "fmt.ml" 87 3011 3039 "fmt.ml" 87 3011 3041
+)
+"fmt.ml" 175 7390 7433 "fmt.ml" 175 7390 7437
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 175 7390 7438 "fmt.ml" 175 7390 7441
+type(
+  Typ_t.t
+)
+"fmt.ml" 175 7390 7442 "fmt.ml" 175 7390 7445
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 175 7390 7446 "fmt.ml" 175 7390 7448
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "fmt.ml" 175 7390 7412 "fmt.ml" 175 7390 7414
+)
+"fmt.ml" 175 7390 7432 "fmt.ml" 175 7390 7449
+type(
+  Expr.T.expr
+)
+"fmt.ml" 175 7390 7424 "fmt.ml" 175 7390 7449
+type(
+  Expr.T.expr
+)
+"fmt.ml" 176 7450 7458 "fmt.ml" 176 7450 7463
+type(
+  Builtin.builtin
+)
+"fmt.ml" 176 7450 7472 "fmt.ml" 176 7450 7474
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "fmt.ml" 176 7450 7484 "fmt.ml" 176 7450 7559
+)
+"fmt.ml" 176 7450 7471 "fmt.ml" 176 7450 7475
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 176 7450 7458 "fmt.ml" 176 7450 7475
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 176 7450 7488 "fmt.ml" 176 7450 7489
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def e "fmt.ml" 176 7450 7521 "fmt.ml" 176 7450 7559
+)
+"fmt.ml" 176 7450 7492 "fmt.ml" 176 7450 7496
+type(
+  Builtin.builtin -> Expr.T.expr -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref app1 "fmt.ml" 50 1766 1772 "fmt.ml" 50 1766 1776
+)
+"fmt.ml" 176 7450 7497 "fmt.ml" 176 7450 7499
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "fmt.ml" 87 3011 3039 "fmt.ml" 87 3011 3041
+)
+"fmt.ml" 176 7450 7501 "fmt.ml" 176 7450 7505
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 176 7450 7506 "fmt.ml" 176 7450 7509
+type(
+  Typ_t.t
+)
+"fmt.ml" 176 7450 7510 "fmt.ml" 176 7450 7513
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 176 7450 7514 "fmt.ml" 176 7450 7516
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "fmt.ml" 176 7450 7472 "fmt.ml" 176 7450 7474
+)
+"fmt.ml" 176 7450 7500 "fmt.ml" 176 7450 7517
+type(
+  Expr.T.expr
+)
+"fmt.ml" 176 7450 7492 "fmt.ml" 176 7450 7517
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"fmt.ml" 176 7450 7524 "fmt.ml" 176 7450 7527
+type(
+  Typ_t.t
+)
+ident(
+  int_ref req "fmt.ml" 46 1520 1533 "fmt.ml" 46 1520 1536
+)
+"fmt.ml" 176 7450 7528 "fmt.ml" 176 7450 7529
+type(
+  Typ_t.t -> Typ_t.t -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"fmt.ml" 176 7450 7530 "fmt.ml" 176 7450 7533
+type(
+  Typ_t.t
+)
+"fmt.ml" 176 7450 7524 "fmt.ml" 176 7450 7533
+type(
+  bool
+)
+"fmt.ml" 176 7450 7539 "fmt.ml" 176 7450 7540
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 176 7450 7488 "fmt.ml" 176 7450 7489
+)
+"fmt.ml" 176 7450 7546 "fmt.ml" 176 7450 7547
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 176 7450 7488 "fmt.ml" 176 7450 7489
+)
+"fmt.ml" 176 7450 7548 "fmt.ml" 176 7450 7551
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 176 7450 7552 "fmt.ml" 176 7450 7559
+type(
+  string
+)
+"fmt.ml" 176 7450 7546 "fmt.ml" 176 7450 7559
+type(
+  Expr.T.expr
+)
+"fmt.ml" 176 7450 7521 "fmt.ml" 176 7450 7559
+type(
+  Expr.T.expr
+)
+"fmt.ml" 176 7450 7484 "fmt.ml" 176 7450 7559
+type(
+  Expr.T.expr
+)
+"fmt.ml" 177 7560 7568 "fmt.ml" 177 7560 7574
+type(
+  Builtin.builtin
+)
+"fmt.ml" 177 7560 7582 "fmt.ml" 177 7560 7584
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 177 7560 7594 "fmt.ml" 177 7560 7638
+)
+"fmt.ml" 177 7560 7587 "fmt.ml" 177 7560 7589
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 177 7560 7594 "fmt.ml" 177 7560 7638
+)
+"fmt.ml" 177 7560 7581 "fmt.ml" 177 7560 7590
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 177 7560 7568 "fmt.ml" 177 7560 7590
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 177 7560 7594 "fmt.ml" 177 7560 7599
+type(
+  Builtin.builtin -> Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref apply "fmt.ml" 49 1697 1703 "fmt.ml" 49 1697 1708
+)
+"fmt.ml" 177 7560 7600 "fmt.ml" 177 7560 7602
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "fmt.ml" 87 3011 3039 "fmt.ml" 87 3011 3041
+)
+"fmt.ml" 177 7560 7604 "fmt.ml" 177 7560 7608
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 177 7560 7609 "fmt.ml" 177 7560 7612
+type(
+  Typ_t.t
+)
+"fmt.ml" 177 7560 7613 "fmt.ml" 177 7560 7616
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 177 7560 7617 "fmt.ml" 177 7560 7619
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 177 7560 7582 "fmt.ml" 177 7560 7584
+)
+"fmt.ml" 177 7560 7603 "fmt.ml" 177 7560 7620
+type(
+  Expr.T.expr
+)
+"fmt.ml" 177 7560 7622 "fmt.ml" 177 7560 7626
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 177 7560 7627 "fmt.ml" 177 7560 7630
+type(
+  Typ_t.t
+)
+"fmt.ml" 177 7560 7631 "fmt.ml" 177 7560 7634
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 177 7560 7635 "fmt.ml" 177 7560 7637
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 177 7560 7587 "fmt.ml" 177 7560 7589
+)
+"fmt.ml" 177 7560 7621 "fmt.ml" 177 7560 7638
+type(
+  Expr.T.expr
+)
+"fmt.ml" 177 7560 7594 "fmt.ml" 177 7560 7638
+type(
+  Expr.T.expr
+)
+"fmt.ml" 178 7639 7647 "fmt.ml" 178 7639 7652
+type(
+  Builtin.builtin
+)
+"fmt.ml" 178 7639 7661 "fmt.ml" 178 7639 7663
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 178 7639 7673 "fmt.ml" 178 7639 7717
+)
+"fmt.ml" 178 7639 7666 "fmt.ml" 178 7639 7668
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 178 7639 7673 "fmt.ml" 178 7639 7717
+)
+"fmt.ml" 178 7639 7660 "fmt.ml" 178 7639 7669
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 178 7639 7647 "fmt.ml" 178 7639 7669
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 178 7639 7673 "fmt.ml" 178 7639 7678
+type(
+  Builtin.builtin -> Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref apply "fmt.ml" 49 1697 1703 "fmt.ml" 49 1697 1708
+)
+"fmt.ml" 178 7639 7679 "fmt.ml" 178 7639 7681
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "fmt.ml" 87 3011 3039 "fmt.ml" 87 3011 3041
+)
+"fmt.ml" 178 7639 7683 "fmt.ml" 178 7639 7687
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 178 7639 7688 "fmt.ml" 178 7639 7691
+type(
+  Typ_t.t
+)
+"fmt.ml" 178 7639 7692 "fmt.ml" 178 7639 7695
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 178 7639 7696 "fmt.ml" 178 7639 7698
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 178 7639 7661 "fmt.ml" 178 7639 7663
+)
+"fmt.ml" 178 7639 7682 "fmt.ml" 178 7639 7699
+type(
+  Expr.T.expr
+)
+"fmt.ml" 178 7639 7701 "fmt.ml" 178 7639 7705
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 178 7639 7706 "fmt.ml" 178 7639 7709
+type(
+  Typ_t.t
+)
+"fmt.ml" 178 7639 7710 "fmt.ml" 178 7639 7713
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 178 7639 7714 "fmt.ml" 178 7639 7716
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 178 7639 7666 "fmt.ml" 178 7639 7668
+)
+"fmt.ml" 178 7639 7700 "fmt.ml" 178 7639 7717
+type(
+  Expr.T.expr
+)
+"fmt.ml" 178 7639 7673 "fmt.ml" 178 7639 7717
+type(
+  Expr.T.expr
+)
+"fmt.ml" 179 7718 7726 "fmt.ml" 179 7718 7734
+type(
+  Builtin.builtin
+)
+"fmt.ml" 179 7718 7740 "fmt.ml" 179 7718 7742
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 179 7718 7752 "fmt.ml" 179 7718 7796
+)
+"fmt.ml" 179 7718 7745 "fmt.ml" 179 7718 7747
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 179 7718 7752 "fmt.ml" 179 7718 7796
+)
+"fmt.ml" 179 7718 7739 "fmt.ml" 179 7718 7748
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 179 7718 7726 "fmt.ml" 179 7718 7748
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 179 7718 7752 "fmt.ml" 179 7718 7757
+type(
+  Builtin.builtin -> Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref apply "fmt.ml" 49 1697 1703 "fmt.ml" 49 1697 1708
+)
+"fmt.ml" 179 7718 7758 "fmt.ml" 179 7718 7760
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "fmt.ml" 87 3011 3039 "fmt.ml" 87 3011 3041
+)
+"fmt.ml" 179 7718 7762 "fmt.ml" 179 7718 7766
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 179 7718 7767 "fmt.ml" 179 7718 7770
+type(
+  Typ_t.t
+)
+"fmt.ml" 179 7718 7771 "fmt.ml" 179 7718 7774
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 179 7718 7775 "fmt.ml" 179 7718 7777
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 179 7718 7740 "fmt.ml" 179 7718 7742
+)
+"fmt.ml" 179 7718 7761 "fmt.ml" 179 7718 7778
+type(
+  Expr.T.expr
+)
+"fmt.ml" 179 7718 7780 "fmt.ml" 179 7718 7784
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 179 7718 7785 "fmt.ml" 179 7718 7788
+type(
+  Typ_t.t
+)
+"fmt.ml" 179 7718 7789 "fmt.ml" 179 7718 7792
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 179 7718 7793 "fmt.ml" 179 7718 7795
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 179 7718 7745 "fmt.ml" 179 7718 7747
+)
+"fmt.ml" 179 7718 7779 "fmt.ml" 179 7718 7796
+type(
+  Expr.T.expr
+)
+"fmt.ml" 179 7718 7752 "fmt.ml" 179 7718 7796
+type(
+  Expr.T.expr
+)
+"fmt.ml" 180 7797 7805 "fmt.ml" 180 7797 7816
+type(
+  Builtin.builtin
+)
+"fmt.ml" 180 7797 7819 "fmt.ml" 180 7797 7821
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 180 7797 7831 "fmt.ml" 180 7797 7875
+)
+"fmt.ml" 180 7797 7824 "fmt.ml" 180 7797 7826
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 180 7797 7831 "fmt.ml" 180 7797 7875
+)
+"fmt.ml" 180 7797 7818 "fmt.ml" 180 7797 7827
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 180 7797 7805 "fmt.ml" 180 7797 7827
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 180 7797 7831 "fmt.ml" 180 7797 7836
+type(
+  Builtin.builtin -> Expr.T.expr -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref apply "fmt.ml" 49 1697 1703 "fmt.ml" 49 1697 1708
+)
+"fmt.ml" 180 7797 7837 "fmt.ml" 180 7797 7839
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "fmt.ml" 87 3011 3039 "fmt.ml" 87 3011 3041
+)
+"fmt.ml" 180 7797 7841 "fmt.ml" 180 7797 7845
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 180 7797 7846 "fmt.ml" 180 7797 7849
+type(
+  Typ_t.t
+)
+"fmt.ml" 180 7797 7850 "fmt.ml" 180 7797 7853
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 180 7797 7854 "fmt.ml" 180 7797 7856
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e1 "fmt.ml" 180 7797 7819 "fmt.ml" 180 7797 7821
+)
+"fmt.ml" 180 7797 7840 "fmt.ml" 180 7797 7857
+type(
+  Expr.T.expr
+)
+"fmt.ml" 180 7797 7859 "fmt.ml" 180 7797 7863
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 180 7797 7864 "fmt.ml" 180 7797 7867
+type(
+  Typ_t.t
+)
+"fmt.ml" 180 7797 7868 "fmt.ml" 180 7797 7871
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 180 7797 7872 "fmt.ml" 180 7797 7874
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e2 "fmt.ml" 180 7797 7824 "fmt.ml" 180 7797 7826
+)
+"fmt.ml" 180 7797 7858 "fmt.ml" 180 7797 7875
+type(
+  Expr.T.expr
+)
+"fmt.ml" 180 7797 7831 "fmt.ml" 180 7797 7875
+type(
+  Expr.T.expr
+)
+"fmt.ml" 181 7876 7884 "fmt.ml" 181 7876 7892
+type(
+  Builtin.builtin
+)
+"fmt.ml" 181 7876 7898 "fmt.ml" 181 7876 7900
+type(
+  Expr.T.expr
+)
+ident(
+  def e1 "fmt.ml" 181 7876 7910 "fmt.ml" 181 7876 7963
+)
+"fmt.ml" 181 7876 7901 "fmt.ml" 181 7876 7903
+type(
+  Expr.T.expr
+)
+ident(
+  def e2 "fmt.ml" 181 7876 7910 "fmt.ml" 181 7876 7963
+)
+"fmt.ml" 181 7876 7904 "fmt.ml" 181 7876 7906
+type(
+  Expr.T.expr
+)
+ident(
+  def e3 "fmt.ml" 181 7876 7910 "fmt.ml" 181 7876 7963
+)
+"fmt.ml" 181 7876 7897 "fmt.ml" 181 7876 7907
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 181 7876 7884 "fmt.ml" 181 7876 7907
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 181 7876 7910 "fmt.ml" 181 7876 7914
+type(
+  Expr.T.expr -> Expr.T.expr list -> Expr.T.expr
+)
+ident(
+  int_ref apps "fmt.ml" 51 1826 1832 "fmt.ml" 51 1826 1836
+)
+"fmt.ml" 181 7876 7925 "fmt.ml" 181 7876 7927
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "fmt.ml" 87 3011 3039 "fmt.ml" 87 3011 3041
+)
+"fmt.ml" 181 7876 7916 "fmt.ml" 181 7876 7927
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 181 7876 7928 "fmt.ml" 181 7876 7930
+type(
+  Expr.T.expr_ -> (Expr.T.expr_ -> Expr.T.expr) -> Expr.T.expr
+)
+ident(
+  int_ref Smtcommons.( |> ) "smtcommons.mli" 25 644 644 "smtcommons.mli" 25 644 679
+)
+"fmt.ml" 181 7876 7931 "fmt.ml" 181 7876 7933
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "fmt.ml" 48 1661 1667 "fmt.ml" 48 1661 1669
+)
+"fmt.ml" 181 7876 7915 "fmt.ml" 181 7876 7934
+type(
+  Expr.T.expr
+)
+"fmt.ml" 181 7876 7936 "fmt.ml" 181 7876 7944
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"fmt.ml" 181 7876 7946 "fmt.ml" 181 7876 7950
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 181 7876 7951 "fmt.ml" 181 7876 7954
+type(
+  Typ_t.t
+)
+"fmt.ml" 181 7876 7955 "fmt.ml" 181 7876 7958
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 181 7876 7945 "fmt.ml" 181 7876 7959
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+"fmt.ml" 181 7876 7960 "fmt.ml" 181 7876 7962
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "fmt.ml" 87 3011 3049 "fmt.ml" 87 3011 3051
+)
+"fmt.ml" 181 7876 7935 "fmt.ml" 181 7876 7963
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 181 7876 7910 "fmt.ml" 181 7876 7963
+type(
+  Expr.T.expr
+)
+"fmt.ml" 198 8676 8684 "fmt.ml" 198 8676 8685
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+type(
+  Builtin.builtin * Expr.T.expr list
+)
+"fmt.ml" 199 8689 8699 "fmt.ml" 199 8689 8709
+type(
+  Expr.T.expr_ Property.wrapped -> string -> unit
+)
+ident(
+  int_ref Errors.set "errors.mli" 53 1273 1273 "errors.mli" 53 1273 1319
+)
+"fmt.ml" 199 8689 8720 "fmt.ml" 199 8689 8722
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "fmt.ml" 87 3011 3039 "fmt.ml" 87 3011 3041
+)
+"fmt.ml" 199 8689 8711 "fmt.ml" 199 8689 8722
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 199 8689 8723 "fmt.ml" 199 8689 8725
+type(
+  Expr.T.expr_ ->
+  (Expr.T.expr_ -> Expr.T.expr_ Property.wrapped) ->
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Smtcommons.( |> ) "smtcommons.mli" 25 644 644 "smtcommons.mli" 25 644 679
+)
+"fmt.ml" 199 8689 8726 "fmt.ml" 199 8689 8728
+type(
+  Expr.T.expr_ -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref mk "fmt.ml" 48 1661 1667 "fmt.ml" 48 1661 1669
+)
+"fmt.ml" 199 8689 8710 "fmt.ml" 199 8689 8729
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"fmt.ml" 199 8689 8730 "fmt.ml" 199 8689 8755
+type(
+  string
+)
+"fmt.ml" 199 8689 8699 "fmt.ml" 199 8689 8755
+type(
+  unit
+)
+"fmt.ml" 200 8757 8767 "fmt.ml" 200 8757 8779
+type(
+  ?debug:string ->
+  ?at:Expr.T.expr_ Property.wrapped ->
+  ?prefix:string ->
+  ?nonl:unit -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Util.eprintf "util.mli" 46 1132 1132 "util.mli" 48 1217 1267
+)
+"fmt.ml" 200 8757 8794 "fmt.ml" 200 8757 8796
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref op "fmt.ml" 87 3011 3039 "fmt.ml" 87 3011 3041
+)
+"fmt.ml" 200 8757 8785 "fmt.ml" 200 8757 8796
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 200 8757 8797 "fmt.ml" 200 8757 8799
+type(
+  Expr.T.expr_ ->
+  (Expr.T.expr_ -> Expr.T.expr_ Property.wrapped) ->
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Smtcommons.( |> ) "smtcommons.mli" 25 644 644 "smtcommons.mli" 25 644 679
+)
+"fmt.ml" 200 8757 8800 "fmt.ml" 200 8757 8802
+type(
+  Expr.T.expr_ -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref mk "fmt.ml" 48 1661 1667 "fmt.ml" 48 1661 1669
+)
+"fmt.ml" 200 8757 8784 "fmt.ml" 200 8757 8803
+type(
+  Expr.T.expr_ Property.wrapped
+)
+type(
+  Expr.T.expr_ Property.wrapped option
+)
+"fmt.ml" 200 8757 8804 "fmt.ml" 200 8757 8849
+type(
+  (unit, Format.formatter, unit) format
+)
+"fmt.ml" 200 8757 8767 "fmt.ml" 200 8757 8849
+type(
+  unit
+)
+"fmt.ml" 201 8852 8862 "fmt.ml" 201 8852 8870
+type(
+  string -> Expr.T.expr
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"fmt.ml" 201 8852 8871 "fmt.ml" 201 8852 8893
+type(
+  string
+)
+"fmt.ml" 201 8852 8862 "fmt.ml" 201 8852 8893
+type(
+  Expr.T.expr
+)
+"fmt.ml" 200 8757 8767 "fmt.ml" 201 8852 8893
+type(
+  Expr.T.expr
+)
+"fmt.ml" 199 8689 8699 "fmt.ml" 201 8852 8893
+type(
+  Expr.T.expr
+)
+"fmt.ml" 88 3056 3062 "fmt.ml" 202 8894 8903
+type(
+  Expr.T.expr
+)
+"fmt.ml" 203 8904 8917 "fmt.ml" 203 8904 8923
+type(
+  Builtin.builtin
+)
+"fmt.ml" 203 8904 8908 "fmt.ml" 203 8904 8923
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 203 8904 8935 "fmt.ml" 203 8904 8942
+type(
+  Builtin.builtin
+)
+"fmt.ml" 203 8904 8926 "fmt.ml" 203 8904 8942
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 203 8904 8908 "fmt.ml" 203 8904 8942
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 204 8946 8952 "fmt.ml" 204 8946 8953
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 46 1520 1541 "fmt.ml" 46 1520 1542
+)
+"fmt.ml" 205 8954 8963 "fmt.ml" 205 8954 8964
+type(
+  string
+)
+ident(
+  def m "fmt.ml" 206 8973 8979 "fmt.ml" 206 8973 9017
+)
+"fmt.ml" 205 8954 8966 "fmt.ml" 205 8954 8968
+type(
+  string
+)
+"fmt.ml" 205 8954 8958 "fmt.ml" 205 8954 8969
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 206 8973 8982 "fmt.ml" 206 8973 8985
+type(
+  Typ_t.t
+)
+ident(
+  int_ref req "fmt.ml" 46 1520 1533 "fmt.ml" 46 1520 1536
+)
+"fmt.ml" 206 8973 8986 "fmt.ml" 206 8973 8987
+type(
+  Typ_t.t -> Typ_t.t -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"fmt.ml" 206 8973 8988 "fmt.ml" 206 8973 8991
+type(
+  Typ_t.t
+)
+"fmt.ml" 206 8973 8982 "fmt.ml" 206 8973 8991
+type(
+  bool
+)
+"fmt.ml" 206 8973 8997 "fmt.ml" 206 8973 8998
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 46 1520 1541 "fmt.ml" 46 1520 1542
+)
+"fmt.ml" 206 8973 9004 "fmt.ml" 206 8973 9005
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 46 1520 1541 "fmt.ml" 46 1520 1542
+)
+"fmt.ml" 206 8973 9006 "fmt.ml" 206 8973 9009
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 206 8973 9010 "fmt.ml" 206 8973 9017
+type(
+  string
+)
+"fmt.ml" 206 8973 9004 "fmt.ml" 206 8973 9017
+type(
+  Expr.T.expr
+)
+"fmt.ml" 206 8973 8979 "fmt.ml" 206 8973 9017
+type(
+  Expr.T.expr
+)
+"fmt.ml" 207 9018 9027 "fmt.ml" 207 9018 9028
+type(
+  string
+)
+ident(
+  def n "fmt.ml" 208 9036 9042 "fmt.ml" 208 9036 9082
+)
+"fmt.ml" 207 9018 9030 "fmt.ml" 207 9018 9031
+type(
+  string
+)
+ident(
+  def m "fmt.ml" 208 9036 9042 "fmt.ml" 208 9036 9082
+)
+"fmt.ml" 207 9018 9022 "fmt.ml" 207 9018 9032
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 208 9036 9045 "fmt.ml" 208 9036 9048
+type(
+  Typ_t.t
+)
+ident(
+  int_ref req "fmt.ml" 46 1520 1533 "fmt.ml" 46 1520 1536
+)
+"fmt.ml" 208 9036 9049 "fmt.ml" 208 9036 9050
+type(
+  Typ_t.t -> Typ_t.t -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"fmt.ml" 208 9036 9051 "fmt.ml" 208 9036 9055
+type(
+  Typ_t.t
+)
+"fmt.ml" 208 9036 9045 "fmt.ml" 208 9036 9055
+type(
+  bool
+)
+"fmt.ml" 208 9036 9061 "fmt.ml" 208 9036 9062
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 46 1520 1541 "fmt.ml" 46 1520 1542
+)
+"fmt.ml" 208 9036 9068 "fmt.ml" 208 9036 9069
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 46 1520 1541 "fmt.ml" 46 1520 1542
+)
+"fmt.ml" 208 9036 9070 "fmt.ml" 208 9036 9073
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 208 9036 9074 "fmt.ml" 208 9036 9082
+type(
+  string
+)
+"fmt.ml" 208 9036 9068 "fmt.ml" 208 9036 9082
+type(
+  Expr.T.expr
+)
+"fmt.ml" 208 9036 9042 "fmt.ml" 208 9036 9082
+type(
+  Expr.T.expr
+)
+"fmt.ml" 211 9161 9172 "fmt.ml" 211 9161 9173
+type(
+  string
+)
+"fmt.ml" 211 9161 9165 "fmt.ml" 211 9161 9173
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 212 9177 9186 "fmt.ml" 212 9177 9189
+type(
+  Typ_t.t
+)
+ident(
+  int_ref req "fmt.ml" 46 1520 1533 "fmt.ml" 46 1520 1536
+)
+"fmt.ml" 212 9177 9190 "fmt.ml" 212 9177 9191
+type(
+  Typ_t.t -> Typ_t.t -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"fmt.ml" 212 9177 9192 "fmt.ml" 212 9177 9195
+type(
+  Typ_t.t
+)
+"fmt.ml" 212 9177 9186 "fmt.ml" 212 9177 9195
+type(
+  bool
+)
+"fmt.ml" 212 9177 9201 "fmt.ml" 212 9177 9202
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 46 1520 1541 "fmt.ml" 46 1520 1542
+)
+"fmt.ml" 212 9177 9208 "fmt.ml" 212 9177 9209
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 46 1520 1541 "fmt.ml" 46 1520 1542
+)
+"fmt.ml" 212 9177 9210 "fmt.ml" 212 9177 9213
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 212 9177 9214 "fmt.ml" 212 9177 9221
+type(
+  string
+)
+"fmt.ml" 212 9177 9208 "fmt.ml" 212 9177 9221
+type(
+  Expr.T.expr
+)
+"fmt.ml" 212 9177 9183 "fmt.ml" 212 9177 9221
+type(
+  Expr.T.expr
+)
+"fmt.ml" 213 9222 9230 "fmt.ml" 213 9222 9231
+type(
+  Expr.T.expr
+)
+ident(
+  def c "fmt.ml" 214 9242 9248 "fmt.ml" 243 10520 10581
+)
+"fmt.ml" 213 9222 9233 "fmt.ml" 213 9222 9234
+type(
+  Expr.T.expr
+)
+ident(
+  def t "fmt.ml" 214 9242 9248 "fmt.ml" 243 10520 10581
+)
+"fmt.ml" 213 9222 9236 "fmt.ml" 213 9222 9237
+type(
+  Expr.T.expr
+)
+ident(
+  def f "fmt.ml" 214 9242 9248 "fmt.ml" 243 10520 10581
+)
+"fmt.ml" 213 9222 9226 "fmt.ml" 213 9222 9238
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 214 9242 9252 "fmt.ml" 214 9242 9254
+type(
+  Typ_t.t
+)
+ident(
+  def t1 "fmt.ml" 215 9270 9276 "fmt.ml" 243 10520 10581
+)
+"fmt.ml" 214 9242 9257 "fmt.ml" 214 9242 9260
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> Typ_t.t
+)
+ident(
+  int_ref typ "fmt.ml" 54 1914 1920 "fmt.ml" 54 1914 1923
+)
+"fmt.ml" 214 9242 9261 "fmt.ml" 214 9242 9264
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 214 9242 9265 "fmt.ml" 214 9242 9266
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref t "fmt.ml" 213 9222 9233 "fmt.ml" 213 9222 9234
+)
+"fmt.ml" 214 9242 9257 "fmt.ml" 214 9242 9266
+type(
+  Typ_t.t
+)
+"fmt.ml" 215 9270 9280 "fmt.ml" 215 9270 9282
+type(
+  Typ_t.t
+)
+ident(
+  def t2 "fmt.ml" 219 9509 9515 "fmt.ml" 243 10520 10581
+)
+"fmt.ml" 215 9270 9285 "fmt.ml" 215 9270 9288
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.expr -> Typ_t.t
+)
+ident(
+  int_ref typ "fmt.ml" 54 1914 1920 "fmt.ml" 54 1914 1923
+)
+"fmt.ml" 215 9270 9289 "fmt.ml" 215 9270 9292
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 215 9270 9293 "fmt.ml" 215 9270 9294
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f "fmt.ml" 213 9222 9236 "fmt.ml" 213 9222 9237
+)
+"fmt.ml" 215 9270 9285 "fmt.ml" 215 9270 9294
+type(
+  Typ_t.t
+)
+"fmt.ml" 219 9509 9519 "fmt.ml" 219 9509 9520
+type(
+  Expr.T.expr
+)
+ident(
+  def c "fmt.ml" 220 9542 9548 "fmt.ml" 243 10520 10581
+)
+"fmt.ml" 219 9509 9523 "fmt.ml" 219 9509 9527
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 219 9509 9528 "fmt.ml" 219 9509 9532
+type(
+  Typ_t.t
+)
+"fmt.ml" 219 9509 9533 "fmt.ml" 219 9509 9536
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 219 9509 9537 "fmt.ml" 219 9509 9538
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref c "fmt.ml" 213 9222 9230 "fmt.ml" 213 9222 9231
+)
+"fmt.ml" 219 9509 9523 "fmt.ml" 219 9509 9538
+type(
+  Expr.T.expr
+)
+"fmt.ml" 220 9542 9552 "fmt.ml" 220 9542 9554
+type(
+  Typ_t.t
+)
+ident(
+  def t1 "fmt.ml" 242 10460 10466 "fmt.ml" 243 10520 10581
+)
+"fmt.ml" 220 9542 9556 "fmt.ml" 220 9542 9558
+type(
+  Typ_t.t
+)
+ident(
+  def t2 "fmt.ml" 242 10460 10466 "fmt.ml" 243 10520 10581
+)
+"fmt.ml" 220 9542 9560 "fmt.ml" 220 9542 9564
+type(
+  'b option
+)
+ident(
+  def prop "fmt.ml" 242 10460 10466 "fmt.ml" 243 10520 10581
+)
+"fmt.ml" 220 9542 9552 "fmt.ml" 220 9542 9564
+type(
+  Typ_t.t * Typ_t.t * 'b option
+)
+"fmt.ml" 220 9542 9573 "fmt.ml" 220 9542 9576
+type(
+  Typ_t.t
+)
+ident(
+  int_ref req "fmt.ml" 46 1520 1533 "fmt.ml" 46 1520 1536
+)
+"fmt.ml" 220 9542 9578 "fmt.ml" 220 9542 9580
+type(
+  Typ_t.t
+)
+ident(
+  int_ref t1 "fmt.ml" 214 9242 9252 "fmt.ml" 214 9242 9254
+)
+"fmt.ml" 220 9542 9582 "fmt.ml" 220 9542 9584
+type(
+  Typ_t.t
+)
+ident(
+  int_ref t2 "fmt.ml" 215 9270 9280 "fmt.ml" 215 9270 9282
+)
+"fmt.ml" 220 9542 9573 "fmt.ml" 220 9542 9584
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+"fmt.ml" 221 9590 9598 "fmt.ml" 221 9590 9601
+type(
+  Typ_t.t
+)
+"fmt.ml" 221 9590 9603 "fmt.ml" 221 9590 9606
+type(
+  Typ_t.t
+)
+"fmt.ml" 221 9590 9608 "fmt.ml" 221 9590 9611
+type(
+  Typ_t.t
+)
+"fmt.ml" 221 9590 9598 "fmt.ml" 221 9590 9611
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+"fmt.ml" 221 9590 9617 "fmt.ml" 221 9590 9620
+type(
+  Typ_t.t
+)
+"fmt.ml" 221 9590 9622 "fmt.ml" 221 9590 9625
+type(
+  Typ_t.t
+)
+"fmt.ml" 221 9590 9627 "fmt.ml" 221 9590 9631
+type(
+  'b option
+)
+"fmt.ml" 221 9590 9617 "fmt.ml" 221 9590 9631
+type(
+  Typ_t.t * Typ_t.t * 'b option
+)
+"fmt.ml" 222 9632 9640 "fmt.ml" 222 9632 9644
+type(
+  Typ_t.t
+)
+"fmt.ml" 222 9632 9646 "fmt.ml" 222 9632 9650
+type(
+  Typ_t.t
+)
+"fmt.ml" 222 9632 9652 "fmt.ml" 222 9632 9656
+type(
+  Typ_t.t
+)
+"fmt.ml" 222 9632 9640 "fmt.ml" 222 9632 9656
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+"fmt.ml" 222 9632 9662 "fmt.ml" 222 9632 9666
+type(
+  Typ_t.t
+)
+"fmt.ml" 222 9632 9668 "fmt.ml" 222 9632 9672
+type(
+  Typ_t.t
+)
+"fmt.ml" 222 9632 9674 "fmt.ml" 222 9632 9678
+type(
+  'b option
+)
+"fmt.ml" 222 9632 9662 "fmt.ml" 222 9632 9678
+type(
+  Typ_t.t * Typ_t.t * 'b option
+)
+"fmt.ml" 223 9679 9687 "fmt.ml" 223 9679 9690
+type(
+  Typ_t.t
+)
+"fmt.ml" 223 9679 9692 "fmt.ml" 223 9679 9695
+type(
+  Typ_t.t
+)
+"fmt.ml" 223 9679 9697 "fmt.ml" 223 9679 9700
+type(
+  Typ_t.t
+)
+"fmt.ml" 223 9679 9687 "fmt.ml" 223 9679 9700
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+"fmt.ml" 223 9679 9706 "fmt.ml" 223 9679 9709
+type(
+  Typ_t.t
+)
+"fmt.ml" 223 9679 9711 "fmt.ml" 223 9679 9714
+type(
+  Typ_t.t
+)
+"fmt.ml" 223 9679 9716 "fmt.ml" 223 9679 9720
+type(
+  'b option
+)
+"fmt.ml" 223 9679 9706 "fmt.ml" 223 9679 9720
+type(
+  Typ_t.t * Typ_t.t * 'b option
+)
+"fmt.ml" 224 9721 9729 "fmt.ml" 224 9721 9732
+type(
+  Typ_t.t
+)
+"fmt.ml" 224 9721 9734 "fmt.ml" 224 9721 9738
+type(
+  Typ_t.t
+)
+"fmt.ml" 224 9721 9740 "fmt.ml" 224 9721 9744
+type(
+  Typ_t.t
+)
+"fmt.ml" 224 9721 9729 "fmt.ml" 224 9721 9744
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+"fmt.ml" 224 9721 9750 "fmt.ml" 224 9721 9753
+type(
+  Typ_t.t
+)
+"fmt.ml" 224 9721 9755 "fmt.ml" 224 9721 9758
+type(
+  Typ_t.t
+)
+"fmt.ml" 224 9721 9760 "fmt.ml" 224 9721 9764
+type(
+  'b option
+)
+"fmt.ml" 224 9721 9750 "fmt.ml" 224 9721 9764
+type(
+  Typ_t.t * Typ_t.t * 'b option
+)
+"fmt.ml" 225 9765 9773 "fmt.ml" 225 9765 9776
+type(
+  Typ_t.t
+)
+"fmt.ml" 225 9765 9778 "fmt.ml" 225 9765 9781
+type(
+  Typ_t.t
+)
+"fmt.ml" 225 9765 9783 "fmt.ml" 225 9765 9786
+type(
+  Typ_t.t
+)
+"fmt.ml" 225 9765 9773 "fmt.ml" 225 9765 9786
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+"fmt.ml" 225 9765 9792 "fmt.ml" 225 9765 9795
+type(
+  Typ_t.t
+)
+"fmt.ml" 225 9765 9797 "fmt.ml" 225 9765 9800
+type(
+  Typ_t.t
+)
+"fmt.ml" 225 9765 9802 "fmt.ml" 225 9765 9806
+type(
+  'b option
+)
+"fmt.ml" 225 9765 9792 "fmt.ml" 225 9765 9806
+type(
+  Typ_t.t * Typ_t.t * 'b option
+)
+"fmt.ml" 226 9807 9815 "fmt.ml" 226 9807 9819
+type(
+  Typ_t.t
+)
+"fmt.ml" 226 9807 9821 "fmt.ml" 226 9807 9825
+type(
+  Typ_t.t
+)
+"fmt.ml" 226 9807 9827 "fmt.ml" 226 9807 9830
+type(
+  Typ_t.t
+)
+"fmt.ml" 226 9807 9815 "fmt.ml" 226 9807 9830
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+"fmt.ml" 226 9807 9836 "fmt.ml" 226 9807 9839
+type(
+  Typ_t.t
+)
+"fmt.ml" 226 9807 9841 "fmt.ml" 226 9807 9844
+type(
+  Typ_t.t
+)
+"fmt.ml" 226 9807 9846 "fmt.ml" 226 9807 9850
+type(
+  'b option
+)
+"fmt.ml" 226 9807 9836 "fmt.ml" 226 9807 9850
+type(
+  Typ_t.t * Typ_t.t * 'b option
+)
+"fmt.ml" 227 9851 9859 "fmt.ml" 227 9851 9862
+type(
+  Typ_t.t
+)
+"fmt.ml" 227 9851 9864 "fmt.ml" 227 9851 9867
+type(
+  Typ_t.t
+)
+"fmt.ml" 227 9851 9869 "fmt.ml" 227 9851 9872
+type(
+  Typ_t.t
+)
+"fmt.ml" 227 9851 9859 "fmt.ml" 227 9851 9872
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+"fmt.ml" 227 9851 9878 "fmt.ml" 227 9851 9881
+type(
+  Typ_t.t
+)
+"fmt.ml" 227 9851 9883 "fmt.ml" 227 9851 9886
+type(
+  Typ_t.t
+)
+"fmt.ml" 227 9851 9888 "fmt.ml" 227 9851 9892
+type(
+  'b option
+)
+"fmt.ml" 227 9851 9878 "fmt.ml" 227 9851 9892
+type(
+  Typ_t.t * Typ_t.t * 'b option
+)
+"fmt.ml" 228 9893 9901 "fmt.ml" 228 9893 9904
+type(
+  Typ_t.t
+)
+"fmt.ml" 228 9893 9906 "fmt.ml" 228 9893 9910
+type(
+  Typ_t.t
+)
+"fmt.ml" 228 9893 9912 "fmt.ml" 228 9893 9915
+type(
+  Typ_t.t
+)
+"fmt.ml" 228 9893 9901 "fmt.ml" 228 9893 9915
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+"fmt.ml" 228 9893 9921 "fmt.ml" 228 9893 9924
+type(
+  Typ_t.t
+)
+"fmt.ml" 228 9893 9926 "fmt.ml" 228 9893 9929
+type(
+  Typ_t.t
+)
+"fmt.ml" 228 9893 9931 "fmt.ml" 228 9893 9935
+type(
+  'b option
+)
+"fmt.ml" 228 9893 9921 "fmt.ml" 228 9893 9935
+type(
+  Typ_t.t * Typ_t.t * 'b option
+)
+"fmt.ml" 229 9936 9944 "fmt.ml" 229 9936 9947
+type(
+  Typ_t.t
+)
+"fmt.ml" 229 9936 9949 "fmt.ml" 229 9936 9952
+type(
+  Typ_t.t
+)
+"fmt.ml" 229 9936 9954 "fmt.ml" 229 9936 9957
+type(
+  Typ_t.t
+)
+"fmt.ml" 229 9936 9944 "fmt.ml" 229 9936 9957
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+"fmt.ml" 229 9936 9963 "fmt.ml" 229 9936 9966
+type(
+  Typ_t.t
+)
+"fmt.ml" 229 9936 9968 "fmt.ml" 229 9936 9971
+type(
+  Typ_t.t
+)
+"fmt.ml" 229 9936 9973 "fmt.ml" 229 9936 9977
+type(
+  'b option
+)
+"fmt.ml" 229 9936 9963 "fmt.ml" 229 9936 9977
+type(
+  Typ_t.t * Typ_t.t * 'b option
+)
+"fmt.ml" 230 9978 9986 "fmt.ml" 230 9978 9990
+type(
+  Typ_t.t
+)
+"fmt.ml" 230 9978 9992 "fmt.ml" 230 9978 9995
+type(
+  Typ_t.t
+)
+"fmt.ml" 230 9978 9997 "fmt.ml" 230 9978 10001
+type(
+  Typ_t.t
+)
+"fmt.ml" 230 9978 9986 "fmt.ml" 230 9978 10001
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+"fmt.ml" 230 9978 10007 "fmt.ml" 230 9978 10010
+type(
+  Typ_t.t
+)
+"fmt.ml" 230 9978 10012 "fmt.ml" 230 9978 10015
+type(
+  Typ_t.t
+)
+"fmt.ml" 230 9978 10017 "fmt.ml" 230 9978 10021
+type(
+  'b option
+)
+"fmt.ml" 230 9978 10007 "fmt.ml" 230 9978 10021
+type(
+  Typ_t.t * Typ_t.t * 'b option
+)
+"fmt.ml" 231 10022 10030 "fmt.ml" 231 10022 10033
+type(
+  Typ_t.t
+)
+"fmt.ml" 231 10022 10035 "fmt.ml" 231 10022 10038
+type(
+  Typ_t.t
+)
+"fmt.ml" 231 10022 10040 "fmt.ml" 231 10022 10043
+type(
+  Typ_t.t
+)
+"fmt.ml" 231 10022 10030 "fmt.ml" 231 10022 10043
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+"fmt.ml" 231 10022 10049 "fmt.ml" 231 10022 10052
+type(
+  Typ_t.t
+)
+"fmt.ml" 231 10022 10054 "fmt.ml" 231 10022 10057
+type(
+  Typ_t.t
+)
+"fmt.ml" 231 10022 10059 "fmt.ml" 231 10022 10063
+type(
+  'b option
+)
+"fmt.ml" 231 10022 10049 "fmt.ml" 231 10022 10063
+type(
+  Typ_t.t * Typ_t.t * 'b option
+)
+"fmt.ml" 232 10064 10072 "fmt.ml" 232 10064 10075
+type(
+  Typ_t.t
+)
+"fmt.ml" 232 10064 10077 "fmt.ml" 232 10064 10080
+type(
+  Typ_t.t
+)
+"fmt.ml" 232 10064 10082 "fmt.ml" 232 10064 10086
+type(
+  Typ_t.t
+)
+"fmt.ml" 232 10064 10072 "fmt.ml" 232 10064 10086
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+"fmt.ml" 232 10064 10092 "fmt.ml" 232 10064 10095
+type(
+  Typ_t.t
+)
+"fmt.ml" 232 10064 10097 "fmt.ml" 232 10064 10100
+type(
+  Typ_t.t
+)
+"fmt.ml" 232 10064 10102 "fmt.ml" 232 10064 10106
+type(
+  'b option
+)
+"fmt.ml" 232 10064 10092 "fmt.ml" 232 10064 10106
+type(
+  Typ_t.t * Typ_t.t * 'b option
+)
+"fmt.ml" 233 10107 10115 "fmt.ml" 233 10107 10119
+type(
+  Typ_t.t
+)
+"fmt.ml" 233 10107 10121 "fmt.ml" 233 10107 10125
+type(
+  Typ_t.t
+)
+"fmt.ml" 233 10107 10127 "fmt.ml" 233 10107 10131
+type(
+  Typ_t.t
+)
+"fmt.ml" 233 10107 10115 "fmt.ml" 233 10107 10131
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+"fmt.ml" 233 10107 10135 "fmt.ml" 233 10107 10139
+type(
+  Typ_t.t
+)
+"fmt.ml" 233 10107 10141 "fmt.ml" 233 10107 10145
+type(
+  Typ_t.t
+)
+"fmt.ml" 233 10107 10147 "fmt.ml" 233 10107 10151
+type(
+  'b option
+)
+"fmt.ml" 233 10107 10135 "fmt.ml" 233 10107 10151
+type(
+  Typ_t.t * Typ_t.t * 'b option
+)
+"fmt.ml" 234 10152 10160 "fmt.ml" 234 10152 10161
+type(
+  Typ_t.t
+)
+"fmt.ml" 234 10152 10165 "fmt.ml" 234 10152 10169
+type(
+  Typ_t.t
+)
+"fmt.ml" 234 10152 10171 "fmt.ml" 234 10152 10175
+type(
+  Typ_t.t
+)
+"fmt.ml" 234 10152 10160 "fmt.ml" 234 10152 10175
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+"fmt.ml" 234 10152 10179 "fmt.ml" 234 10152 10183
+type(
+  Typ_t.t
+)
+"fmt.ml" 234 10152 10185 "fmt.ml" 234 10152 10189
+type(
+  Typ_t.t
+)
+"fmt.ml" 234 10152 10191 "fmt.ml" 234 10152 10195
+type(
+  'b option
+)
+"fmt.ml" 234 10152 10179 "fmt.ml" 234 10152 10195
+type(
+  Typ_t.t * Typ_t.t * 'b option
+)
+"fmt.ml" 235 10196 10204 "fmt.ml" 235 10196 10207
+type(
+  Typ_t.t
+)
+"fmt.ml" 235 10196 10209 "fmt.ml" 235 10196 10212
+type(
+  Typ_t.t
+)
+"fmt.ml" 235 10196 10215 "fmt.ml" 235 10196 10219
+type(
+  Typ_t.t
+)
+"fmt.ml" 235 10196 10204 "fmt.ml" 235 10196 10219
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+"fmt.ml" 235 10196 10223 "fmt.ml" 235 10196 10226
+type(
+  Typ_t.t
+)
+"fmt.ml" 235 10196 10228 "fmt.ml" 235 10196 10231
+type(
+  Typ_t.t
+)
+"fmt.ml" 235 10196 10233 "fmt.ml" 235 10196 10237
+type(
+  'b option
+)
+"fmt.ml" 235 10196 10223 "fmt.ml" 235 10196 10237
+type(
+  Typ_t.t * Typ_t.t * 'b option
+)
+"fmt.ml" 236 10238 10246 "fmt.ml" 236 10238 10249
+type(
+  Typ_t.t
+)
+"fmt.ml" 236 10238 10251 "fmt.ml" 236 10238 10255
+type(
+  Typ_t.t
+)
+"fmt.ml" 236 10238 10257 "fmt.ml" 236 10238 10260
+type(
+  Typ_t.t
+)
+"fmt.ml" 236 10238 10246 "fmt.ml" 236 10238 10260
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+"fmt.ml" 236 10238 10265 "fmt.ml" 236 10238 10268
+type(
+  Typ_t.t
+)
+"fmt.ml" 236 10238 10270 "fmt.ml" 236 10238 10273
+type(
+  Typ_t.t
+)
+"fmt.ml" 236 10238 10275 "fmt.ml" 236 10238 10279
+type(
+  'b option
+)
+"fmt.ml" 236 10238 10265 "fmt.ml" 236 10238 10279
+type(
+  Typ_t.t * Typ_t.t * 'b option
+)
+"fmt.ml" 237 10280 10288 "fmt.ml" 237 10280 10292
+type(
+  Typ_t.t
+)
+"fmt.ml" 237 10280 10294 "fmt.ml" 237 10280 10298
+type(
+  Typ_t.t
+)
+"fmt.ml" 237 10280 10300 "fmt.ml" 237 10280 10303
+type(
+  Typ_t.t
+)
+"fmt.ml" 237 10280 10288 "fmt.ml" 237 10280 10303
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+"fmt.ml" 237 10280 10307 "fmt.ml" 237 10280 10310
+type(
+  Typ_t.t
+)
+"fmt.ml" 237 10280 10312 "fmt.ml" 237 10280 10315
+type(
+  Typ_t.t
+)
+"fmt.ml" 237 10280 10317 "fmt.ml" 237 10280 10321
+type(
+  'b option
+)
+"fmt.ml" 237 10280 10307 "fmt.ml" 237 10280 10321
+type(
+  Typ_t.t * Typ_t.t * 'b option
+)
+"fmt.ml" 238 10322 10330 "fmt.ml" 238 10322 10334
+type(
+  Typ_t.t
+)
+"fmt.ml" 238 10322 10336 "fmt.ml" 238 10322 10339
+type(
+  Typ_t.t
+)
+"fmt.ml" 238 10322 10342 "fmt.ml" 238 10322 10346
+type(
+  Typ_t.t
+)
+"fmt.ml" 238 10322 10330 "fmt.ml" 238 10322 10346
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+"fmt.ml" 238 10322 10350 "fmt.ml" 238 10322 10353
+type(
+  Typ_t.t
+)
+"fmt.ml" 238 10322 10355 "fmt.ml" 238 10322 10358
+type(
+  Typ_t.t
+)
+"fmt.ml" 238 10322 10360 "fmt.ml" 238 10322 10364
+type(
+  'b option
+)
+"fmt.ml" 238 10322 10350 "fmt.ml" 238 10322 10364
+type(
+  Typ_t.t * Typ_t.t * 'b option
+)
+"fmt.ml" 239 10365 10373 "fmt.ml" 239 10365 10377
+type(
+  Typ_t.t
+)
+"fmt.ml" 239 10365 10379 "fmt.ml" 239 10365 10380
+type(
+  Typ_t.t
+)
+"fmt.ml" 239 10365 10385 "fmt.ml" 239 10365 10386
+type(
+  Typ_t.t
+)
+"fmt.ml" 239 10365 10373 "fmt.ml" 239 10365 10386
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+"fmt.ml" 239 10365 10392 "fmt.ml" 239 10365 10396
+type(
+  Typ_t.t
+)
+"fmt.ml" 239 10365 10398 "fmt.ml" 239 10365 10402
+type(
+  Typ_t.t
+)
+"fmt.ml" 239 10365 10404 "fmt.ml" 239 10365 10408
+type(
+  'b option
+)
+"fmt.ml" 239 10365 10392 "fmt.ml" 239 10365 10408
+type(
+  Typ_t.t * Typ_t.t * 'b option
+)
+"fmt.ml" 240 10409 10417 "fmt.ml" 240 10409 10418
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t * Typ_t.t
+)
+"fmt.ml" 240 10409 10436 "fmt.ml" 240 10409 10439
+type(
+  Typ_t.t
+)
+"fmt.ml" 240 10409 10441 "fmt.ml" 240 10409 10444
+type(
+  Typ_t.t
+)
+"fmt.ml" 240 10409 10446 "fmt.ml" 240 10409 10450
+type(
+  'b option
+)
+"fmt.ml" 240 10409 10436 "fmt.ml" 240 10409 10450
+type(
+  Typ_t.t * Typ_t.t * 'b option
+)
+"fmt.ml" 220 9542 9567 "fmt.ml" 240 10409 10450
+type(
+  Typ_t.t * Typ_t.t * 'b option
+)
+"fmt.ml" 242 10460 10470 "fmt.ml" 242 10460 10471
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def e "fmt.ml" 243 10520 10526 "fmt.ml" 243 10520 10581
+)
+"fmt.ml" 242 10460 10478 "fmt.ml" 242 10460 10479
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref c "fmt.ml" 219 9509 9519 "fmt.ml" 219 9509 9520
+)
+"fmt.ml" 242 10460 10481 "fmt.ml" 242 10460 10485
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 242 10460 10486 "fmt.ml" 242 10460 10488
+type(
+  Typ_t.t
+)
+ident(
+  int_ref t1 "fmt.ml" 220 9542 9552 "fmt.ml" 220 9542 9554
+)
+"fmt.ml" 242 10460 10489 "fmt.ml" 242 10460 10492
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 242 10460 10493 "fmt.ml" 242 10460 10494
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref t "fmt.ml" 213 9222 9233 "fmt.ml" 213 9222 9234
+)
+"fmt.ml" 242 10460 10481 "fmt.ml" 242 10460 10494
+type(
+  Expr.T.expr
+)
+"fmt.ml" 242 10460 10496 "fmt.ml" 242 10460 10500
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 242 10460 10501 "fmt.ml" 242 10460 10503
+type(
+  Typ_t.t
+)
+ident(
+  int_ref t2 "fmt.ml" 220 9542 9556 "fmt.ml" 220 9542 9558
+)
+"fmt.ml" 242 10460 10504 "fmt.ml" 242 10460 10507
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 242 10460 10508 "fmt.ml" 242 10460 10509
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref f "fmt.ml" 213 9222 9236 "fmt.ml" 213 9222 9237
+)
+"fmt.ml" 242 10460 10496 "fmt.ml" 242 10460 10509
+type(
+  Expr.T.expr
+)
+"fmt.ml" 242 10460 10474 "fmt.ml" 242 10460 10510
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 242 10460 10511 "fmt.ml" 242 10460 10513
+type(
+  Expr.T.expr_ ->
+  (Expr.T.expr_ -> Expr.T.expr_ Property.wrapped) ->
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref Smtcommons.( |> ) "smtcommons.mli" 25 644 644 "smtcommons.mli" 25 644 679
+)
+"fmt.ml" 242 10460 10514 "fmt.ml" 242 10460 10516
+type(
+  Expr.T.expr_ -> Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref mk "fmt.ml" 48 1661 1667 "fmt.ml" 48 1661 1669
+)
+"fmt.ml" 242 10460 10474 "fmt.ml" 242 10460 10516
+type(
+  Expr.T.expr_ Property.wrapped
+)
+"fmt.ml" 243 10520 10538 "fmt.ml" 243 10520 10542
+type(
+  'c option
+)
+ident(
+  int_ref prop "fmt.ml" 220 9542 9560 "fmt.ml" 220 9542 9564
+)
+"fmt.ml" 243 10520 10553 "fmt.ml" 243 10520 10554
+type(
+  'd
+)
+ident(
+  def p "fmt.ml" 243 10520 10558 "fmt.ml" 243 10520 10565
+)
+"fmt.ml" 243 10520 10548 "fmt.ml" 243 10520 10554
+type(
+  'd option
+)
+type(
+  'd option
+)
+"fmt.ml" 243 10520 10558 "fmt.ml" 243 10520 10559
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 242 10460 10470 "fmt.ml" 242 10460 10471
+)
+"fmt.ml" 243 10520 10560 "fmt.ml" 243 10520 10563
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 243 10520 10564 "fmt.ml" 243 10520 10565
+type(
+  string
+)
+ident(
+  int_ref p "fmt.ml" 243 10520 10553 "fmt.ml" 243 10520 10554
+)
+"fmt.ml" 243 10520 10558 "fmt.ml" 243 10520 10565
+type(
+  Expr.T.expr
+)
+"fmt.ml" 243 10520 10568 "fmt.ml" 243 10520 10572
+type(
+  'd option
+)
+type(
+  'd option
+)
+"fmt.ml" 243 10520 10576 "fmt.ml" 243 10520 10577
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 242 10460 10470 "fmt.ml" 242 10460 10471
+)
+"fmt.ml" 243 10520 10526 "fmt.ml" 243 10520 10581
+type(
+  Expr.T.expr
+)
+"fmt.ml" 242 10460 10466 "fmt.ml" 243 10520 10581
+type(
+  Expr.T.expr
+)
+"fmt.ml" 220 9542 9548 "fmt.ml" 243 10520 10581
+type(
+  Expr.T.expr
+)
+"fmt.ml" 219 9509 9515 "fmt.ml" 243 10520 10581
+type(
+  Expr.T.expr
+)
+"fmt.ml" 215 9270 9276 "fmt.ml" 243 10520 10581
+type(
+  Expr.T.expr
+)
+"fmt.ml" 214 9242 9248 "fmt.ml" 243 10520 10581
+type(
+  Expr.T.expr
+)
+"fmt.ml" 244 10582 10592 "fmt.ml" 244 10582 10593
+type(
+  Expr.T.bullet
+)
+ident(
+  def b "fmt.ml" 245 10602 10608 "fmt.ml" 245 10602 10651
+)
+"fmt.ml" 244 10582 10595 "fmt.ml" 244 10582 10597
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "fmt.ml" 245 10602 10608 "fmt.ml" 245 10602 10651
+)
+"fmt.ml" 244 10582 10586 "fmt.ml" 244 10582 10598
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 245 10602 10614 "fmt.ml" 245 10602 10615
+type(
+  Expr.T.bullet
+)
+ident(
+  int_ref b "fmt.ml" 244 10582 10592 "fmt.ml" 244 10582 10593
+)
+"fmt.ml" 245 10602 10617 "fmt.ml" 245 10602 10625
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"fmt.ml" 245 10602 10627 "fmt.ml" 245 10602 10631
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 245 10602 10632 "fmt.ml" 245 10602 10636
+type(
+  Typ_t.t
+)
+"fmt.ml" 245 10602 10637 "fmt.ml" 245 10602 10640
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 245 10602 10626 "fmt.ml" 245 10602 10641
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+"fmt.ml" 245 10602 10642 "fmt.ml" 245 10602 10644
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "fmt.ml" 244 10582 10595 "fmt.ml" 244 10582 10597
+)
+"fmt.ml" 245 10602 10617 "fmt.ml" 245 10602 10644
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 245 10602 10608 "fmt.ml" 245 10602 10645
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 245 10602 10646 "fmt.ml" 245 10602 10648
+type(
+  Expr.T.expr_ -> (Expr.T.expr_ -> Expr.T.expr) -> Expr.T.expr
+)
+ident(
+  int_ref Smtcommons.( |> ) "smtcommons.mli" 25 644 644 "smtcommons.mli" 25 644 679
+)
+"fmt.ml" 245 10602 10649 "fmt.ml" 245 10602 10651
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "fmt.ml" 48 1661 1667 "fmt.ml" 48 1661 1669
+)
+"fmt.ml" 245 10602 10608 "fmt.ml" 245 10602 10651
+type(
+  Expr.T.expr
+)
+"fmt.ml" 246 10652 10663 "fmt.ml" 246 10652 10664
+type(
+  Expr.T.quantifier
+)
+ident(
+  def q "fmt.ml" 258 11099 11105 "fmt.ml" 259 11137 11180
+)
+"fmt.ml" 246 10652 10666 "fmt.ml" 246 10652 10668
+type(
+  Expr.T.bounds
+)
+ident(
+  def bs "fmt.ml" 258 11099 11105 "fmt.ml" 259 11137 11180
+)
+"fmt.ml" 246 10652 10670 "fmt.ml" 246 10652 10672
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "fmt.ml" 258 11099 11105 "fmt.ml" 259 11137 11180
+)
+"fmt.ml" 246 10652 10656 "fmt.ml" 246 10652 10673
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 258 11099 11109 "fmt.ml" 258 11099 11112
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def scx "fmt.ml" 259 11137 11143 "fmt.ml" 259 11137 11180
+)
+"fmt.ml" 258 11099 11114 "fmt.ml" 258 11099 11116
+type(
+  Expr.T.bounds
+)
+ident(
+  def bs "fmt.ml" 259 11137 11143 "fmt.ml" 259 11137 11180
+)
+"fmt.ml" 258 11099 11109 "fmt.ml" 258 11099 11116
+type(
+  Expr.T.hyp Deque.dq * Expr.T.bounds
+)
+"fmt.ml" 258 11099 11119 "fmt.ml" 258 11099 11126
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.bounds -> Expr.T.hyp Deque.dq * Expr.T.bounds
+)
+ident(
+  int_ref lift_bs "fmt.ml" 278 11934 11938 "fmt.ml" 278 11934 11945
+)
+"fmt.ml" 258 11099 11127 "fmt.ml" 258 11099 11130
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 258 11099 11131 "fmt.ml" 258 11099 11133
+type(
+  Expr.T.bounds
+)
+ident(
+  int_ref bs "fmt.ml" 246 10652 10666 "fmt.ml" 246 10652 10668
+)
+"fmt.ml" 258 11099 11119 "fmt.ml" 258 11099 11133
+type(
+  Expr.T.hyp Deque.dq * Expr.T.bounds
+)
+"fmt.ml" 259 11137 11150 "fmt.ml" 259 11137 11151
+type(
+  Expr.T.quantifier
+)
+ident(
+  int_ref q "fmt.ml" 246 10652 10663 "fmt.ml" 246 10652 10664
+)
+"fmt.ml" 259 11137 11153 "fmt.ml" 259 11137 11155
+type(
+  Expr.T.bounds
+)
+ident(
+  int_ref bs "fmt.ml" 258 11099 11114 "fmt.ml" 258 11099 11116
+)
+"fmt.ml" 259 11137 11157 "fmt.ml" 259 11137 11161
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 259 11137 11162 "fmt.ml" 259 11137 11166
+type(
+  Typ_t.t
+)
+"fmt.ml" 259 11137 11167 "fmt.ml" 259 11137 11170
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 258 11099 11109 "fmt.ml" 258 11099 11112
+)
+"fmt.ml" 259 11137 11171 "fmt.ml" 259 11137 11173
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "fmt.ml" 246 10652 10670 "fmt.ml" 246 10652 10672
+)
+"fmt.ml" 259 11137 11157 "fmt.ml" 259 11137 11173
+type(
+  Expr.T.expr
+)
+"fmt.ml" 259 11137 11143 "fmt.ml" 259 11137 11174
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 259 11137 11175 "fmt.ml" 259 11137 11177
+type(
+  Expr.T.expr_ -> (Expr.T.expr_ -> Expr.T.expr) -> Expr.T.expr
+)
+ident(
+  int_ref Smtcommons.( |> ) "smtcommons.mli" 25 644 644 "smtcommons.mli" 25 644 679
+)
+"fmt.ml" 259 11137 11178 "fmt.ml" 259 11137 11180
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "fmt.ml" 48 1661 1667 "fmt.ml" 48 1661 1669
+)
+"fmt.ml" 259 11137 11143 "fmt.ml" 259 11137 11180
+type(
+  Expr.T.expr
+)
+"fmt.ml" 258 11099 11105 "fmt.ml" 259 11137 11180
+type(
+  Expr.T.expr
+)
+"fmt.ml" 260 11181 11192 "fmt.ml" 260 11181 11194
+type(
+  (string * Expr.T.expr) list
+)
+ident(
+  def es "fmt.ml" 261 11198 11204 "fmt.ml" 261 11198 11263
+)
+"fmt.ml" 260 11181 11185 "fmt.ml" 260 11181 11194
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 261 11198 11212 "fmt.ml" 261 11198 11220
+type(
+  (string * Expr.T.expr -> string * Expr.T.expr) ->
+  (string * Expr.T.expr) list -> (string * Expr.T.expr) list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"fmt.ml" 261 11198 11227 "fmt.ml" 261 11198 11228
+type(
+  string
+)
+ident(
+  def f "fmt.ml" 261 11198 11235 "fmt.ml" 261 11198 11252
+)
+"fmt.ml" 261 11198 11229 "fmt.ml" 261 11198 11230
+type(
+  Expr.T.expr
+)
+ident(
+  def e "fmt.ml" 261 11198 11235 "fmt.ml" 261 11198 11252
+)
+"fmt.ml" 261 11198 11226 "fmt.ml" 261 11198 11231
+type(
+  string * Expr.T.expr
+)
+"fmt.ml" 261 11198 11235 "fmt.ml" 261 11198 11236
+type(
+  string
+)
+ident(
+  int_ref f "fmt.ml" 261 11198 11227 "fmt.ml" 261 11198 11228
+)
+"fmt.ml" 261 11198 11238 "fmt.ml" 261 11198 11242
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 261 11198 11243 "fmt.ml" 261 11198 11246
+type(
+  Typ_t.t
+)
+"fmt.ml" 261 11198 11247 "fmt.ml" 261 11198 11250
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 261 11198 11251 "fmt.ml" 261 11198 11252
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 261 11198 11229 "fmt.ml" 261 11198 11230
+)
+"fmt.ml" 261 11198 11238 "fmt.ml" 261 11198 11252
+type(
+  Expr.T.expr
+)
+"fmt.ml" 261 11198 11235 "fmt.ml" 261 11198 11252
+type(
+  string * Expr.T.expr
+)
+"fmt.ml" 261 11198 11221 "fmt.ml" 261 11198 11253
+type(
+  string * Expr.T.expr -> string * Expr.T.expr
+)
+"fmt.ml" 261 11198 11254 "fmt.ml" 261 11198 11256
+type(
+  (string * Expr.T.expr) list
+)
+ident(
+  int_ref es "fmt.ml" 260 11181 11192 "fmt.ml" 260 11181 11194
+)
+"fmt.ml" 261 11198 11211 "fmt.ml" 261 11198 11257
+type(
+  (string * Expr.T.expr) list
+)
+"fmt.ml" 261 11198 11204 "fmt.ml" 261 11198 11257
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 261 11198 11258 "fmt.ml" 261 11198 11260
+type(
+  Expr.T.expr_ -> (Expr.T.expr_ -> Expr.T.expr) -> Expr.T.expr
+)
+ident(
+  int_ref Smtcommons.( |> ) "smtcommons.mli" 25 644 644 "smtcommons.mli" 25 644 679
+)
+"fmt.ml" 261 11198 11261 "fmt.ml" 261 11198 11263
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "fmt.ml" 48 1661 1667 "fmt.ml" 48 1661 1669
+)
+"fmt.ml" 261 11198 11204 "fmt.ml" 261 11198 11263
+type(
+  Expr.T.expr
+)
+"fmt.ml" 262 11264 11274 "fmt.ml" 262 11264 11276
+type(
+  Expr.T.expr list
+)
+ident(
+  def es "fmt.ml" 264 11366 11372 "fmt.ml" 264 11366 11467
+)
+"fmt.ml" 262 11264 11268 "fmt.ml" 262 11264 11276
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 264 11366 11379 "fmt.ml" 264 11366 11387
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"fmt.ml" 264 11366 11393 "fmt.ml" 264 11366 11394
+type(
+  Expr.T.expr
+)
+ident(
+  def e "fmt.ml" 264 11366 11398 "fmt.ml" 264 11366 11456
+)
+"fmt.ml" 264 11366 11398 "fmt.ml" 264 11366 11402
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 264 11366 11447 "fmt.ml" 264 11366 11450
+type(
+  Typ_t.t
+)
+"fmt.ml" 264 11366 11451 "fmt.ml" 264 11366 11454
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 46 1520 1537 "fmt.ml" 46 1520 1540
+)
+"fmt.ml" 264 11366 11455 "fmt.ml" 264 11366 11456
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 264 11366 11393 "fmt.ml" 264 11366 11394
+)
+"fmt.ml" 264 11366 11398 "fmt.ml" 264 11366 11456
+type(
+  Expr.T.expr
+)
+"fmt.ml" 264 11366 11388 "fmt.ml" 264 11366 11457
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+"fmt.ml" 264 11366 11458 "fmt.ml" 264 11366 11460
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref es "fmt.ml" 262 11264 11274 "fmt.ml" 262 11264 11276
+)
+"fmt.ml" 264 11366 11378 "fmt.ml" 264 11366 11461
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 264 11366 11372 "fmt.ml" 264 11366 11461
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 264 11366 11462 "fmt.ml" 264 11366 11464
+type(
+  Expr.T.expr_ -> (Expr.T.expr_ -> Expr.T.expr) -> Expr.T.expr
+)
+ident(
+  int_ref Smtcommons.( |> ) "smtcommons.mli" 25 644 644 "smtcommons.mli" 25 644 679
+)
+"fmt.ml" 264 11366 11465 "fmt.ml" 264 11366 11467
+type(
+  Expr.T.expr_ -> Expr.T.expr
+)
+ident(
+  int_ref mk "fmt.ml" 48 1661 1667 "fmt.ml" 48 1661 1669
+)
+"fmt.ml" 264 11366 11372 "fmt.ml" 264 11366 11467
+type(
+  Expr.T.expr
+)
+"fmt.ml" 265 11468 11472 "fmt.ml" 265 11468 11473
+type(
+  Expr.T.expr_
+)
+type(
+  Expr.T.expr_
+)
+"fmt.ml" 266 11477 11483 "fmt.ml" 266 11477 11484
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 46 1520 1541 "fmt.ml" 46 1520 1542
+)
+"fmt.ml" 66 2184 2186 "fmt.ml" 266 11477 11484
+type(
+  Expr.T.expr
+)
+"fmt.ml" 55 1977 1979 "fmt.ml" 266 11477 11484
+type(
+  Expr.T.expr
+)
+"fmt.ml" 54 1914 1916 "fmt.ml" 266 11477 11484
+type(
+  Expr.T.expr
+)
+"fmt.ml" 52 1869 1871 "fmt.ml" 266 11477 11484
+type(
+  Expr.T.expr
+)
+"fmt.ml" 51 1826 1828 "fmt.ml" 266 11477 11484
+type(
+  Expr.T.expr
+)
+"fmt.ml" 50 1766 1768 "fmt.ml" 266 11477 11484
+type(
+  Expr.T.expr
+)
+"fmt.ml" 49 1697 1699 "fmt.ml" 266 11477 11484
+type(
+  Expr.T.expr
+)
+"fmt.ml" 48 1661 1663 "fmt.ml" 266 11477 11484
+type(
+  Expr.T.expr
+)
+"fmt.ml" 267 11485 11489 "fmt.ml" 267 11485 11498
+type(
+  Typ_t.t -> Typ_t.t -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  def lift_term "fmt.ml" 46 1520 1520 "fmt.ml" 0 0 -1
+)
+"fmt.ml" 267 11485 11499 "fmt.ml" 267 11485 11500
+type(
+  Typ_t.t
+)
+ident(
+  def t "fmt.ml" 267 11485 11501 "fmt.ml" 277 11928 11933
+)
+"fmt.ml" 267 11485 11501 "fmt.ml" 267 11485 11504
+type(
+  Typ_t.t
+)
+ident(
+  def req "fmt.ml" 267 11485 11505 "fmt.ml" 277 11928 11933
+)
+"fmt.ml" 267 11485 11505 "fmt.ml" 267 11485 11506
+type(
+  Expr.T.expr
+)
+ident(
+  def e "fmt.ml" 269 11648 11650 "fmt.ml" 277 11928 11933
+)
+"fmt.ml" 269 11648 11662 "fmt.ml" 269 11648 11663
+type(
+  Typ_t.t
+)
+ident(
+  int_ref t "fmt.ml" 267 11485 11499 "fmt.ml" 267 11485 11500
+)
+"fmt.ml" 269 11648 11665 "fmt.ml" 269 11648 11668
+type(
+  Typ_t.t
+)
+ident(
+  int_ref req "fmt.ml" 267 11485 11501 "fmt.ml" 267 11485 11504
+)
+"fmt.ml" 269 11648 11662 "fmt.ml" 269 11648 11668
+type(
+  Typ_t.t * Typ_t.t
+)
+"fmt.ml" 270 11674 11678 "fmt.ml" 270 11674 11681
+type(
+  Typ_t.t
+)
+"fmt.ml" 270 11674 11683 "fmt.ml" 270 11674 11686
+type(
+  Typ_t.t
+)
+"fmt.ml" 270 11674 11678 "fmt.ml" 270 11674 11686
+type(
+  Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t
+)
+"fmt.ml" 270 11674 11691 "fmt.ml" 270 11674 11692
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 267 11485 11505 "fmt.ml" 267 11485 11506
+)
+"fmt.ml" 270 11674 11693 "fmt.ml" 270 11674 11696
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 270 11674 11697 "fmt.ml" 270 11674 11707
+type(
+  string
+)
+"fmt.ml" 270 11674 11691 "fmt.ml" 270 11674 11707
+type(
+  Expr.T.expr
+)
+"fmt.ml" 270 11674 11708 "fmt.ml" 270 11674 11711
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 270 11674 11712 "fmt.ml" 270 11674 11719
+type(
+  string
+)
+"fmt.ml" 270 11674 11691 "fmt.ml" 270 11674 11719
+type(
+  Expr.T.expr
+)
+"fmt.ml" 271 11720 11724 "fmt.ml" 271 11720 11728
+type(
+  Typ_t.t
+)
+"fmt.ml" 271 11720 11730 "fmt.ml" 271 11720 11733
+type(
+  Typ_t.t
+)
+"fmt.ml" 271 11720 11724 "fmt.ml" 271 11720 11733
+type(
+  Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t
+)
+"fmt.ml" 271 11720 11738 "fmt.ml" 271 11720 11739
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 267 11485 11505 "fmt.ml" 267 11485 11506
+)
+"fmt.ml" 271 11720 11740 "fmt.ml" 271 11720 11743
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 271 11720 11744 "fmt.ml" 271 11720 11755
+type(
+  string
+)
+"fmt.ml" 271 11720 11738 "fmt.ml" 271 11720 11755
+type(
+  Expr.T.expr
+)
+"fmt.ml" 271 11720 11756 "fmt.ml" 271 11720 11759
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 271 11720 11760 "fmt.ml" 271 11720 11768
+type(
+  string
+)
+"fmt.ml" 271 11720 11738 "fmt.ml" 271 11720 11768
+type(
+  Expr.T.expr
+)
+"fmt.ml" 272 11769 11773 "fmt.ml" 272 11769 11776
+type(
+  Typ_t.t
+)
+"fmt.ml" 272 11769 11778 "fmt.ml" 272 11769 11781
+type(
+  Typ_t.t
+)
+"fmt.ml" 272 11769 11773 "fmt.ml" 272 11769 11781
+type(
+  Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t
+)
+"fmt.ml" 272 11769 11786 "fmt.ml" 272 11769 11787
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 267 11485 11505 "fmt.ml" 267 11485 11506
+)
+"fmt.ml" 272 11769 11788 "fmt.ml" 272 11769 11791
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 272 11769 11792 "fmt.ml" 272 11769 11799
+type(
+  string
+)
+"fmt.ml" 272 11769 11786 "fmt.ml" 272 11769 11799
+type(
+  Expr.T.expr
+)
+"fmt.ml" 273 11800 11804 "fmt.ml" 273 11800 11807
+type(
+  Typ_t.t
+)
+"fmt.ml" 273 11800 11809 "fmt.ml" 273 11800 11812
+type(
+  Typ_t.t
+)
+"fmt.ml" 273 11800 11804 "fmt.ml" 273 11800 11812
+type(
+  Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t
+)
+"fmt.ml" 273 11800 11816 "fmt.ml" 273 11800 11817
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 267 11485 11505 "fmt.ml" 267 11485 11506
+)
+"fmt.ml" 273 11800 11818 "fmt.ml" 273 11800 11821
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 273 11800 11822 "fmt.ml" 273 11800 11832
+type(
+  string
+)
+"fmt.ml" 273 11800 11816 "fmt.ml" 273 11800 11832
+type(
+  Expr.T.expr
+)
+"fmt.ml" 274 11833 11837 "fmt.ml" 274 11833 11841
+type(
+  Typ_t.t
+)
+"fmt.ml" 274 11833 11843 "fmt.ml" 274 11833 11847
+type(
+  Typ_t.t
+)
+"fmt.ml" 274 11833 11837 "fmt.ml" 274 11833 11847
+type(
+  Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t
+)
+"fmt.ml" 274 11833 11851 "fmt.ml" 274 11833 11852
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 267 11485 11505 "fmt.ml" 267 11485 11506
+)
+"fmt.ml" 274 11833 11853 "fmt.ml" 274 11833 11856
+type(
+  Expr.T.expr -> string -> Expr.T.expr
+)
+ident(
+  int_ref <<< "fmt.ml" 25 390 394 "fmt.ml" 25 390 401
+)
+"fmt.ml" 274 11833 11857 "fmt.ml" 274 11833 11868
+type(
+  string
+)
+"fmt.ml" 274 11833 11851 "fmt.ml" 274 11833 11868
+type(
+  Expr.T.expr
+)
+"fmt.ml" 276 11908 11912 "fmt.ml" 276 11908 11913
+type(
+  Typ_t.t * Typ_t.t
+)
+type(
+  Typ_t.t * Typ_t.t
+)
+"fmt.ml" 276 11908 11926 "fmt.ml" 276 11908 11927
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "fmt.ml" 267 11485 11505 "fmt.ml" 267 11485 11506
+)
+"fmt.ml" 269 11648 11650 "fmt.ml" 277 11928 11933
+type(
+  Expr.T.expr
+)
+"fmt.ml" 278 11934 11938 "fmt.ml" 278 11934 11945
+type(
+  Expr.T.hyp Deque.dq -> Expr.T.bounds -> Expr.T.hyp Deque.dq * Expr.T.bounds
+)
+ident(
+  def lift_bs "fmt.ml" 46 1520 1520 "fmt.ml" 0 0 -1
+)
+"fmt.ml" 278 11934 11946 "fmt.ml" 278 11934 11949
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def scx "fmt.ml" 278 11934 11950 "fmt.ml" 283 12117 12132
+)
+"fmt.ml" 278 11934 11950 "fmt.ml" 278 11934 11952
+type(
+  Expr.T.bounds
+)
+ident(
+  def bs "fmt.ml" 279 11955 11957 "fmt.ml" 283 12117 12132
+)
+"fmt.ml" 279 11955 11961 "fmt.ml" 279 11955 11963
+type(
+  Expr.T.bounds
+)
+ident(
+  def bs "fmt.ml" 281 12031 12033 "fmt.ml" 283 12117 12132
+)
+"fmt.ml" 279 11955 11966 "fmt.ml" 279 11955 11994
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.bounds -> Expr.T.bounds
+)
+ident(
+  int_ref Expr.Visit.map_bound_domains "expr.mli" 534 13314 13316 "expr.mli" 535 13339 13379
+)
+"fmt.ml" 280 11995 12004 "fmt.ml" 280 11995 12005
+type(
+  Expr.T.expr
+)
+ident(
+  def d "fmt.ml" 280 11995 12009 "fmt.ml" 280 11995 12023
+)
+"fmt.ml" 280 11995 12009 "fmt.ml" 280 11995 12013
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 280 11995 12014 "fmt.ml" 280 11995 12017
+type(
+  Typ_t.t
+)
+"fmt.ml" 280 11995 12018 "fmt.ml" 280 11995 12021
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 278 11934 11946 "fmt.ml" 278 11934 11949
+)
+"fmt.ml" 280 11995 12022 "fmt.ml" 280 11995 12023
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref d "fmt.ml" 280 11995 12004 "fmt.ml" 280 11995 12005
+)
+"fmt.ml" 280 11995 12009 "fmt.ml" 280 11995 12023
+type(
+  Expr.T.expr
+)
+"fmt.ml" 280 11995 11999 "fmt.ml" 280 11995 12024
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+"fmt.ml" 280 11995 12025 "fmt.ml" 280 11995 12027
+type(
+  Expr.T.bounds
+)
+ident(
+  int_ref bs "fmt.ml" 278 11934 11950 "fmt.ml" 278 11934 11952
+)
+"fmt.ml" 279 11955 11966 "fmt.ml" 280 11995 12027
+type(
+  Expr.T.bounds
+)
+"fmt.ml" 281 12031 12037 "fmt.ml" 281 12031 12039
+type(
+  Expr.T.hyp list
+)
+ident(
+  def hs "fmt.ml" 282 12074 12076 "fmt.ml" 283 12117 12132
+)
+"fmt.ml" 281 12031 12042 "fmt.ml" 281 12031 12067
+type(
+  Expr.T.bounds -> Expr.T.hyp list
+)
+ident(
+  int_ref Expr.Visit.hyps_of_bounds "expr.mli" 530 13126 13128 "expr.mli" 530 13126 13166
+)
+"fmt.ml" 281 12031 12068 "fmt.ml" 281 12031 12070
+type(
+  Expr.T.bounds
+)
+ident(
+  int_ref bs "fmt.ml" 279 11955 11961 "fmt.ml" 279 11955 11963
+)
+"fmt.ml" 281 12031 12042 "fmt.ml" 281 12031 12070
+type(
+  Expr.T.hyp list
+)
+"fmt.ml" 282 12074 12080 "fmt.ml" 282 12074 12083
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "fmt.ml" 283 12117 12119 "fmt.ml" 283 12117 12132
+)
+"fmt.ml" 282 12074 12086 "fmt.ml" 282 12074 12101
+type(
+  unit Expr.Visit.scx -> Expr.T.hyp list -> unit Expr.Visit.scx
+)
+ident(
+  int_ref Expr.Visit.adjs "expr.mli" 542 13638 13640 "expr.mli" 542 13638 13679
+)
+"fmt.ml" 282 12074 12103 "fmt.ml" 282 12074 12105
+type(
+  unit
+)
+"fmt.ml" 282 12074 12106 "fmt.ml" 282 12074 12109
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 278 11934 11946 "fmt.ml" 278 11934 11949
+)
+"fmt.ml" 282 12074 12102 "fmt.ml" 282 12074 12110
+type(
+  unit Expr.Visit.scx
+)
+"fmt.ml" 282 12074 12111 "fmt.ml" 282 12074 12113
+type(
+  Expr.T.hyp list
+)
+ident(
+  int_ref hs "fmt.ml" 281 12031 12037 "fmt.ml" 281 12031 12039
+)
+"fmt.ml" 282 12074 12086 "fmt.ml" 282 12074 12113
+type(
+  unit Expr.Visit.scx
+)
+"fmt.ml" 283 12117 12120 "fmt.ml" 283 12117 12123
+type(
+  unit Expr.Visit.scx -> Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"fmt.ml" 283 12117 12124 "fmt.ml" 283 12117 12127
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "fmt.ml" 282 12074 12080 "fmt.ml" 282 12074 12083
+)
+"fmt.ml" 283 12117 12120 "fmt.ml" 283 12117 12127
+type(
+  Expr.T.hyp Deque.dq
+)
+"fmt.ml" 283 12117 12129 "fmt.ml" 283 12117 12131
+type(
+  Expr.T.bounds
+)
+ident(
+  int_ref bs "fmt.ml" 279 11955 11961 "fmt.ml" 279 11955 11963
+)
+"fmt.ml" 283 12117 12119 "fmt.ml" 283 12117 12132
+type(
+  Expr.T.hyp Deque.dq * Expr.T.bounds
+)
+"fmt.ml" 282 12074 12076 "fmt.ml" 283 12117 12132
+type(
+  Expr.T.hyp Deque.dq * Expr.T.bounds
+)
+"fmt.ml" 281 12031 12033 "fmt.ml" 283 12117 12132
+type(
+  Expr.T.hyp Deque.dq * Expr.T.bounds
+)
+"fmt.ml" 279 11955 11957 "fmt.ml" 283 12117 12132
+type(
+  Expr.T.hyp Deque.dq * Expr.T.bounds
+)
+"fmt.ml" 284 12133 12137 "fmt.ml" 284 12133 12144
+type(
+  Expr.T.hyp Deque.dq ->
+  Expr.T.expr list * Expr.T.expr -> Expr.T.expr list * Expr.T.expr
+)
+ident(
+  def lift_sq "fmt.ml" 46 1520 1520 "fmt.ml" 0 0 -1
+)
+"fmt.ml" 284 12133 12145 "fmt.ml" 284 12133 12148
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  def scx "fmt.ml" 284 12133 12149 "fmt.ml" 285 12158 12204
+)
+"fmt.ml" 284 12133 12150 "fmt.ml" 284 12133 12152
+type(
+  Expr.T.expr list
+)
+ident(
+  def hs "fmt.ml" 285 12158 12160 "fmt.ml" 285 12158 12204
+)
+"fmt.ml" 284 12133 12153 "fmt.ml" 284 12133 12154
+type(
+  Expr.T.expr
+)
+ident(
+  def c "fmt.ml" 285 12158 12160 "fmt.ml" 285 12158 12204
+)
+"fmt.ml" 284 12133 12149 "fmt.ml" 284 12133 12155
+type(
+  Expr.T.expr list * Expr.T.expr
+)
+"fmt.ml" 285 12158 12160 "fmt.ml" 285 12158 12168
+type(
+  (Expr.T.expr -> Expr.T.expr) -> Expr.T.expr list -> Expr.T.expr list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"fmt.ml" 285 12158 12170 "fmt.ml" 285 12158 12174
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 285 12158 12175 "fmt.ml" 285 12158 12179
+type(
+  Typ_t.t
+)
+"fmt.ml" 285 12158 12180 "fmt.ml" 285 12158 12183
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 284 12133 12145 "fmt.ml" 284 12133 12148
+)
+"fmt.ml" 285 12158 12169 "fmt.ml" 285 12158 12184
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+"fmt.ml" 285 12158 12185 "fmt.ml" 285 12158 12187
+type(
+  Expr.T.expr list
+)
+ident(
+  int_ref hs "fmt.ml" 284 12133 12150 "fmt.ml" 284 12133 12152
+)
+"fmt.ml" 285 12158 12160 "fmt.ml" 285 12158 12187
+type(
+  Expr.T.expr list
+)
+"fmt.ml" 285 12158 12189 "fmt.ml" 285 12158 12193
+type(
+  Typ_t.t -> Expr.T.hyp Deque.dq -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  int_ref lift "fmt.ml" 46 1520 1528 "fmt.ml" 46 1520 1532
+)
+"fmt.ml" 285 12158 12194 "fmt.ml" 285 12158 12198
+type(
+  Typ_t.t
+)
+"fmt.ml" 285 12158 12199 "fmt.ml" 285 12158 12202
+type(
+  Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "fmt.ml" 284 12133 12145 "fmt.ml" 284 12133 12148
+)
+"fmt.ml" 285 12158 12203 "fmt.ml" 285 12158 12204
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref c "fmt.ml" 284 12133 12153 "fmt.ml" 284 12133 12154
+)
+"fmt.ml" 285 12158 12189 "fmt.ml" 285 12158 12204
+type(
+  Expr.T.expr
+)
+"fmt.ml" 285 12158 12160 "fmt.ml" 285 12158 12204
+type(
+  Expr.T.expr list * Expr.T.expr
+)

@@ -1,0 +1,70 @@
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:0
+@!!END
+
+File "/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library/TLAPS.tla", line 1, character 1 to line 363, character 77:
+[INFO]: All 0 obligation proved.
+File "./temp.tla", line 24, characters 19-30:
+Error: Operator "ENABLEDrules" not found
+ tlapm ending abnormally with Failure("Expr.Anon: 4")
+Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+Called from E_anon.anon#expr in file "e_anon.ml", line 304, characters 21-39
+Called from E_anon.anon#expr in file "e_anon.ml", line 304, characters 21-39
+Called from Stdlib__List.rev_map.rmap_f in file "list.ml", line 103, characters 22-25
+Called from Ext.List.map in file "ext.ml" (inlined), line 44, characters 22-37
+Called from P_anon.anon#usable in file "p_anon.ml", line 234, characters 20-70
+Called from P_visit.map#proof in file "p_visit.ml", line 26, characters 12-30
+Called from P_anon.anon#proof in file "p_anon.ml", line 68, characters 22-56
+Called from M_elab.normalize.spin.map_proof in file "m_elab.ml", line 1142, characters 21-48
+Called from M_elab.normalize in file "m_elab.ml", line 1274, characters 12-66
+Called from Tlapm.process_module in file "tlapm.ml", line 309, characters 29-68
+Called from Tlapm.main.f in file "tlapm.ml", line 543, characters 23-43
+Called from Stdlib__List.fold_left in file "list.ml", line 121, characters 24-34
+Called from Tlapm.main in file "tlapm.ml", line 546, characters 13-40
+Called from Tlapm.init in file "tlapm.ml", line 558, characters 8-33
+
+@!!BEGIN
+@!!type:warning
+@!!msg:File "./temp.tla", line 24, characters 19-30
+
+Operator "ENABLEDrules" not found
+
+
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:0
+@!!END
+
+File "/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library/TLAPS.tla", line 1, character 1 to line 363, character 77:
+[INFO]: All 0 obligation proved.
+File "./temp.tla", line 14, characters 19-30:
+Error: Operator "ENABLEDrules" not found
+ tlapm ending abnormally with Failure("Expr.Anon: 4")
+Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+Called from E_anon.anon#expr in file "e_anon.ml", line 304, characters 21-39
+Called from E_anon.anon#expr in file "e_anon.ml", line 304, characters 21-39
+Called from Stdlib__List.rev_map.rmap_f in file "list.ml", line 103, characters 22-25
+Called from Ext.List.map in file "ext.ml" (inlined), line 44, characters 22-37
+Called from P_anon.anon#usable in file "p_anon.ml", line 234, characters 20-70
+Called from P_visit.map#proof in file "p_visit.ml", line 26, characters 12-30
+Called from P_anon.anon#proof in file "p_anon.ml", line 68, characters 22-56
+Called from M_elab.normalize.spin.map_proof in file "m_elab.ml", line 1142, characters 21-48
+Called from M_elab.normalize in file "m_elab.ml", line 1274, characters 12-66
+Called from Tlapm.process_module in file "tlapm.ml", line 309, characters 29-68
+Called from Tlapm.main.f in file "tlapm.ml", line 543, characters 23-43
+Called from Stdlib__List.fold_left in file "list.ml", line 121, characters 24-34
+Called from Tlapm.main in file "tlapm.ml", line 546, characters 13-40
+Called from Tlapm.init in file "tlapm.ml", line 558, characters 8-33
+
+@!!BEGIN
+@!!type:warning
+@!!msg:File "./temp.tla", line 14, characters 19-30
+
+Operator "ENABLEDrules" not found
+
+
+@!!END
+

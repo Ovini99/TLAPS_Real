@@ -1,0 +1,16 @@
+"pars.ml" 4 62 69 "pars.ml" 4 62 74
+ident(
+  def Error "pars.ml" 4 62 82 "pars.ml" 0 0 -1
+)
+"pars.ml" 5 83 90 "pars.ml" 5 83 94
+ident(
+  def Intf "pars.ml" 5 83 101 "pars.ml" 0 0 -1
+)
+"pars.ml" 6 102 109 "pars.ml" 6 102 117
+ident(
+  def LazyList "pars.ml" 6 102 128 "pars.ml" 0 0 -1
+)
+"pars.ml" 7 129 136 "pars.ml" 7 129 139
+ident(
+  def Pco "pars.ml" 7 129 145 "pars.ml" 0 0 -1
+)

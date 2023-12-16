@@ -1,0 +1,198 @@
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:0
+@!!END
+
+File "/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library/TLAPS.tla", line 1, character 1 to line 363, character 77:
+[INFO]: All 0 obligation proved.
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:26:5:26:12
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:21:5:21:12
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:23:5:23:7
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:4
+@!!loc:24:1:24:29
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:5
+@!!loc:24:1:24:29
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:6
+@!!loc:24:1:24:29
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:7
+@!!loc:24:13:24:29
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:8
+@!!loc:24:13:24:29
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:8
+@!!END
+
+** Unexpanded symbols: CONSTANT_Surjective_
+
+** Unexpanded symbols: CONSTANT_Surjective_
+
+** Unexpanded symbols: ---
+
+** Unexpanded symbols: ---
+
+@!!BEGIN
+@!!type:obligation
+@!!id:5
+@!!loc:24:1:24:29
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+@!!BEGIN
+@!!type:obligation
+@!!id:6
+@!!loc:24:1:24:29
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+** Unexpanded symbols: CONSTANT_Surjective_
+
+** Unexpanded symbols: CONSTANT_Surjective_
+
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:23:5:23:7
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:21:5:21:12
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:26:5:26:12
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:7
+@!!loc:24:13:24:29
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:8
+@!!loc:24:13:24:29
+@!!status:proved
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:4
+@!!loc:24:1:24:29
+@!!status:being proved
+@!!prover:smt
+@!!meth:time-limit: 25
+@!!obl:
+ASSUME NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT f \in [A -> B],
+       \A y \in B : f[[y_1 \in B |-> CHOOSE x \in A : y_1 = f[x]][y]] = y ,
+       [y \in B |-> CHOOSE x \in A : y = f[x]] \in [B -> A] 
+PROVE  \E g \in [B -> A] : \A y \in B : f[g[y]] = y
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:4
+@!!loc:24:1:24:29
+@!!status:failed
+@!!prover:smt
+@!!meth:time-limit: 25; time-used: 25.0 (100%)
+@!!reason:timeout
+@!!already:false
+@!!obl:
+ASSUME NEW CONSTANT A,
+       NEW CONSTANT B,
+       NEW CONSTANT f \in [A -> B],
+       \A y \in B : f[[y_1 \in B |-> CHOOSE x \in A : y_1 = f[x]][y]] = y ,
+       [y \in B |-> CHOOSE x \in A : y = f[x]] \in [B -> A] 
+PROVE  \E g \in [B -> A] : \A y \in B : f[g[y]] = y
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:4
+@!!loc:24:1:24:29
+@!!status:proved
+@!!prover:zenon
+@!!meth:time-limit: 50; time-used: 0.0 (0%)
+@!!already:false
+@!!END
+
+File "./section_test.tla", line 1, character 1 to line 28, character 4:
+[INFO]: All 8 obligations proved.

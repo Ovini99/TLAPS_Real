@@ -1,0 +1,1351 @@
+"error.ml" 17 326 330 "error.ml" 17 326 341
+type(
+  ?verbose:bool -> out_channel -> error -> unit
+)
+ident(
+  def print_error "error.ml" 53 1312 1312 "error.ml" 0 0 -1
+)
+"error.ml" 17 326 344 "error.ml" 17 326 351
+type(
+  bool
+)
+ident(
+  def verbose "error.ml" 17 326 361 "error.ml" 50 1242 1309
+)
+"error.ml" 17 326 354 "error.ml" 17 326 359
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "error.ml" 17 326 354 "error.ml" 17 326 359
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+ident(
+  def *sth* "error.ml" 17 326 354 "error.ml" 17 326 359
+)
+"error.ml" 17 326 361 "error.ml" 17 326 365
+type(
+  out_channel
+)
+ident(
+  def ouch "error.ml" 17 326 366 "error.ml" 50 1242 1309
+)
+"error.ml" 17 326 374 "error.ml" 17 326 377
+type(
+  error_
+)
+ident(
+  def err "error.ml" 18 389 391 "error.ml" 50 1242 1309
+)
+"error.ml" 17 326 379 "error.ml" 17 326 384
+type(
+  Loc.locus
+)
+ident(
+  def locus "error.ml" 18 389 391 "error.ml" 50 1242 1309
+)
+"error.ml" 17 326 366 "error.ml" 17 326 386
+type(
+  error
+)
+"error.ml" 18 389 395 "error.ml" 18 389 400
+type(
+  string
+)
+ident(
+  def unexp "error.ml" 23 498 500 "error.ml" 50 1242 1309
+)
+"error.ml" 19 403 413 "error.ml" 19 403 416
+type(
+  error_
+)
+ident(
+  int_ref err "error.ml" 17 326 374 "error.ml" 17 326 377
+)
+"error.ml" 19 403 413 "error.ml" 19 403 425
+type(
+  string option
+)
+"error.ml" 20 431 439 "error.ml" 20 431 443
+type(
+  string option
+)
+type(
+  string option
+)
+"error.ml" 20 431 447 "error.ml" 20 431 449
+type(
+  string
+)
+"error.ml" 21 450 463 "error.ml" 21 450 464
+type(
+  string
+)
+ident(
+  def s "error.ml" 21 450 468 "error.ml" 21 450 492
+)
+"error.ml" 21 450 458 "error.ml" 21 450 464
+type(
+  string option
+)
+type(
+  string option
+)
+"error.ml" 21 450 468 "error.ml" 21 450 481
+type(
+  string
+)
+"error.ml" 21 450 482 "error.ml" 21 450 483
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"error.ml" 21 450 484 "error.ml" 21 450 485
+type(
+  string
+)
+ident(
+  int_ref s "error.ml" 21 450 463 "error.ml" 21 450 464
+)
+"error.ml" 21 450 486 "error.ml" 21 450 487
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"error.ml" 21 450 488 "error.ml" 21 450 492
+type(
+  string
+)
+"error.ml" 21 450 484 "error.ml" 21 450 492
+type(
+  string
+)
+"error.ml" 21 450 468 "error.ml" 21 450 492
+type(
+  string
+)
+"error.ml" 19 403 407 "error.ml" 21 450 492
+type(
+  string
+)
+"error.ml" 23 498 504 "error.ml" 23 498 508
+type(
+  string
+)
+ident(
+  def exps "error.ml" 29 656 658 "error.ml" 50 1242 1309
+)
+"error.ml" 24 511 521 "error.ml" 24 511 532
+type(
+  ?cmp:(string -> string -> bool) -> string list -> string list
+)
+ident(
+  int_ref Ext.List.unique "ext.mli" 49 2168 2170 "ext.mli" 49 2168 2228
+)
+"error.ml" 24 511 534 "error.ml" 24 511 537
+type(
+  error_
+)
+ident(
+  int_ref err "error.ml" 17 326 374 "error.ml" 17 326 377
+)
+"error.ml" 24 511 533 "error.ml" 24 511 547
+type(
+  string list
+)
+"error.ml" 24 511 521 "error.ml" 24 511 547
+type(
+  string list
+)
+"error.ml" 25 553 561 "error.ml" 25 553 563
+type(
+  string list
+)
+type(
+  string list
+)
+"error.ml" 25 553 567 "error.ml" 25 553 569
+type(
+  string
+)
+"error.ml" 26 570 578 "error.ml" 26 570 582
+type(
+  string list
+)
+type(
+  string list
+)
+ident(
+  def exps "error.ml" 27 586 596 "error.ml" 27 586 650
+)
+"error.ml" 27 586 596 "error.ml" 27 586 616
+type(
+  string
+)
+"error.ml" 27 586 617 "error.ml" 27 586 618
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"error.ml" 27 586 619 "error.ml" 27 586 632
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref Stdlib.String.concat "string.mli" 132 5016 5016 "string.mli" 132 5016 5060
+)
+"error.ml" 27 586 633 "error.ml" 27 586 637
+type(
+  string
+)
+"error.ml" 27 586 638 "error.ml" 27 586 642
+type(
+  string list
+)
+ident(
+  int_ref exps "error.ml" 26 570 578 "error.ml" 26 570 582
+)
+"error.ml" 27 586 619 "error.ml" 27 586 642
+type(
+  string
+)
+"error.ml" 27 586 643 "error.ml" 27 586 644
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"error.ml" 27 586 645 "error.ml" 27 586 650
+type(
+  string
+)
+"error.ml" 27 586 619 "error.ml" 27 586 650
+type(
+  string
+)
+"error.ml" 27 586 596 "error.ml" 27 586 650
+type(
+  string
+)
+"error.ml" 24 511 515 "error.ml" 27 586 650
+type(
+  string
+)
+"error.ml" 29 656 662 "error.ml" 29 656 666
+type(
+  string
+)
+ident(
+  def ints "error.ml" 36 855 857 "error.ml" 50 1242 1309
+)
+"error.ml" 30 669 676 "error.ml" 30 669 683
+type(
+  bool
+)
+ident(
+  int_ref verbose "error.ml" 17 326 344 "error.ml" 17 326 351
+)
+"error.ml" 31 689 695 "error.ml" 31 689 708
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref Stdlib.String.concat "string.mli" 132 5016 5016 "string.mli" 132 5016 5060
+)
+"error.ml" 31 689 709 "error.ml" 31 689 711
+type(
+  string
+)
+"error.ml" 31 689 713 "error.ml" 31 689 721
+type(
+  (string -> string) -> string list -> string list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"error.ml" 32 722 753 "error.ml" 32 722 754
+type(
+  string
+)
+ident(
+  def i "error.ml" 32 722 758 "error.ml" 32 722 782
+)
+"error.ml" 32 722 758 "error.ml" 32 722 771
+type(
+  string
+)
+"error.ml" 32 722 772 "error.ml" 32 722 773
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"error.ml" 32 722 774 "error.ml" 32 722 775
+type(
+  string
+)
+ident(
+  int_ref i "error.ml" 32 722 753 "error.ml" 32 722 754
+)
+"error.ml" 32 722 776 "error.ml" 32 722 777
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"error.ml" 32 722 778 "error.ml" 32 722 782
+type(
+  string
+)
+"error.ml" 32 722 774 "error.ml" 32 722 782
+type(
+  string
+)
+"error.ml" 32 722 758 "error.ml" 32 722 782
+type(
+  string
+)
+"error.ml" 32 722 748 "error.ml" 32 722 783
+type(
+  string -> string
+)
+"error.ml" 33 784 811 "error.ml" 33 784 822
+type(
+  ?cmp:(string -> string -> bool) -> string list -> string list
+)
+ident(
+  int_ref Ext.List.unique "ext.mli" 49 2168 2170 "ext.mli" 49 2168 2228
+)
+"error.ml" 33 784 823 "error.ml" 33 784 826
+type(
+  error_
+)
+ident(
+  int_ref err "error.ml" 17 326 374 "error.ml" 17 326 377
+)
+"error.ml" 33 784 823 "error.ml" 33 784 835
+type(
+  string list
+)
+"error.ml" 33 784 810 "error.ml" 33 784 836
+type(
+  string list
+)
+"error.ml" 31 689 712 "error.ml" 33 784 837
+type(
+  string list
+)
+"error.ml" 31 689 695 "error.ml" 33 784 837
+type(
+  string
+)
+"error.ml" 34 838 847 "error.ml" 34 838 849
+type(
+  string
+)
+"error.ml" 30 669 673 "error.ml" 34 838 849
+type(
+  string
+)
+"error.ml" 36 855 861 "error.ml" 36 855 865
+type(
+  string
+)
+ident(
+  def msgs "error.ml" 41 1002 1004 "error.ml" 50 1242 1309
+)
+"error.ml" 37 868 872 "error.ml" 37 868 885
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref Stdlib.String.concat "string.mli" 132 5016 5016 "string.mli" 132 5016 5060
+)
+"error.ml" 37 868 886 "error.ml" 37 868 888
+type(
+  string
+)
+"error.ml" 37 868 890 "error.ml" 37 868 898
+type(
+  (string -> string) -> string list -> string list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"error.ml" 38 899 928 "error.ml" 38 899 929
+type(
+  string
+)
+ident(
+  def i "error.ml" 38 899 933 "error.ml" 38 899 941
+)
+"error.ml" 38 899 933 "error.ml" 38 899 934
+type(
+  string
+)
+ident(
+  int_ref i "error.ml" 38 899 928 "error.ml" 38 899 929
+)
+"error.ml" 38 899 935 "error.ml" 38 899 936
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"error.ml" 38 899 937 "error.ml" 38 899 941
+type(
+  string
+)
+"error.ml" 38 899 933 "error.ml" 38 899 941
+type(
+  string
+)
+"error.ml" 38 899 923 "error.ml" 38 899 942
+type(
+  string -> string
+)
+"error.ml" 39 943 968 "error.ml" 39 943 979
+type(
+  ?cmp:(string -> string -> bool) -> string list -> string list
+)
+ident(
+  int_ref Ext.List.unique "ext.mli" 49 2168 2170 "ext.mli" 49 2168 2228
+)
+"error.ml" 39 943 981 "error.ml" 39 943 984
+type(
+  error_
+)
+ident(
+  int_ref err "error.ml" 17 326 374 "error.ml" 17 326 377
+)
+"error.ml" 39 943 980 "error.ml" 39 943 994
+type(
+  string list
+)
+"error.ml" 39 943 967 "error.ml" 39 943 995
+type(
+  string list
+)
+"error.ml" 37 868 889 "error.ml" 39 943 996
+type(
+  string list
+)
+"error.ml" 37 868 872 "error.ml" 39 943 996
+type(
+  string
+)
+"error.ml" 41 1002 1008 "error.ml" 41 1002 1011
+type(
+  string
+)
+ident(
+  def loc "error.ml" 42 1067 1069 "error.ml" 50 1242 1309
+)
+"error.ml" 41 1002 1014 "error.ml" 41 1002 1028
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"error.ml" 41 1002 1029 "error.ml" 41 1002 1035
+type(
+  (string -> string, unit, string) format
+)
+"error.ml" 41 1002 1037 "error.ml" 41 1002 1056
+type(
+  ?cap:bool -> Loc.locus -> string
+)
+ident(
+  int_ref Loc.string_of_locus "loc.mli" 64 1777 1777 "loc.mli" 64 1777 1827
+)
+"error.ml" 41 1002 1057 "error.ml" 41 1002 1062
+type(
+  Loc.locus
+)
+ident(
+  int_ref locus "error.ml" 17 326 379 "error.ml" 17 326 384
+)
+"error.ml" 41 1002 1036 "error.ml" 41 1002 1063
+type(
+  string
+)
+"error.ml" 41 1002 1014 "error.ml" 41 1002 1063
+type(
+  string
+)
+"error.ml" 42 1067 1069 "error.ml" 42 1067 1082
+type(
+  out_channel -> string -> unit
+)
+ident(
+  int_ref Stdlib.output_string "stdlib.mli" 983 35877 35877 "stdlib.mli" 983 35877 35926
+)
+"error.ml" 42 1067 1083 "error.ml" 42 1067 1087
+type(
+  out_channel
+)
+ident(
+  int_ref ouch "error.ml" 17 326 361 "error.ml" 17 326 365
+)
+"error.ml" 42 1067 1088 "error.ml" 42 1067 1091
+type(
+  string
+)
+ident(
+  int_ref loc "error.ml" 41 1002 1008 "error.ml" 41 1002 1011
+)
+"error.ml" 42 1067 1069 "error.ml" 42 1067 1091
+type(
+  unit
+)
+"error.ml" 43 1093 1095 "error.ml" 43 1093 1108
+type(
+  out_channel -> string -> unit
+)
+ident(
+  int_ref Stdlib.output_string "stdlib.mli" 983 35877 35877 "stdlib.mli" 983 35877 35926
+)
+"error.ml" 43 1093 1109 "error.ml" 43 1093 1113
+type(
+  out_channel
+)
+ident(
+  int_ref ouch "error.ml" 17 326 361 "error.ml" 17 326 365
+)
+"error.ml" 43 1093 1114 "error.ml" 43 1093 1119
+type(
+  string
+)
+ident(
+  int_ref unexp "error.ml" 18 389 395 "error.ml" 18 389 400
+)
+"error.ml" 43 1093 1095 "error.ml" 43 1093 1119
+type(
+  unit
+)
+"error.ml" 44 1122 1124 "error.ml" 44 1122 1137
+type(
+  out_channel -> string -> unit
+)
+ident(
+  int_ref Stdlib.output_string "stdlib.mli" 983 35877 35877 "stdlib.mli" 983 35877 35926
+)
+"error.ml" 44 1122 1138 "error.ml" 44 1122 1142
+type(
+  out_channel
+)
+ident(
+  int_ref ouch "error.ml" 17 326 361 "error.ml" 17 326 365
+)
+"error.ml" 44 1122 1143 "error.ml" 44 1122 1147
+type(
+  string
+)
+ident(
+  int_ref exps "error.ml" 23 498 504 "error.ml" 23 498 508
+)
+"error.ml" 44 1122 1124 "error.ml" 44 1122 1147
+type(
+  unit
+)
+"error.ml" 45 1150 1152 "error.ml" 45 1150 1165
+type(
+  out_channel -> string -> unit
+)
+ident(
+  int_ref Stdlib.output_string "stdlib.mli" 983 35877 35877 "stdlib.mli" 983 35877 35926
+)
+"error.ml" 45 1150 1166 "error.ml" 45 1150 1170
+type(
+  out_channel
+)
+ident(
+  int_ref ouch "error.ml" 17 326 361 "error.ml" 17 326 365
+)
+"error.ml" 45 1150 1171 "error.ml" 45 1150 1175
+type(
+  string
+)
+ident(
+  int_ref msgs "error.ml" 36 855 861 "error.ml" 36 855 865
+)
+"error.ml" 45 1150 1152 "error.ml" 45 1150 1175
+type(
+  unit
+)
+"error.ml" 46 1178 1180 "error.ml" 46 1178 1193
+type(
+  out_channel -> string -> unit
+)
+ident(
+  int_ref Stdlib.output_string "stdlib.mli" 983 35877 35877 "stdlib.mli" 983 35877 35926
+)
+"error.ml" 46 1178 1194 "error.ml" 46 1178 1198
+type(
+  out_channel
+)
+ident(
+  int_ref ouch "error.ml" 17 326 361 "error.ml" 17 326 365
+)
+"error.ml" 46 1178 1199 "error.ml" 46 1178 1203
+type(
+  string
+)
+ident(
+  int_ref ints "error.ml" 29 656 662 "error.ml" 29 656 666
+)
+"error.ml" 46 1178 1180 "error.ml" 46 1178 1203
+type(
+  unit
+)
+"error.ml" 47 1206 1208 "error.ml" 47 1206 1213
+type(
+  out_channel -> unit
+)
+ident(
+  int_ref Stdlib.flush "stdlib.mli" 971 35429 35429 "stdlib.mli" 971 35429 35460
+)
+"error.ml" 47 1206 1214 "error.ml" 47 1206 1218
+type(
+  out_channel
+)
+ident(
+  int_ref ouch "error.ml" 17 326 361 "error.ml" 17 326 365
+)
+"error.ml" 47 1206 1208 "error.ml" 47 1206 1218
+type(
+  unit
+)
+"error.ml" 49 1221 1226 "error.ml" 49 1221 1227
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"error.ml" 49 1221 1227 "error.ml" 49 1221 1241
+type(
+  bool ref
+)
+ident(
+  int_ref Params.toolbox "params.mli" 6 83 83 "params.mli" 6 83 104
+)
+"error.ml" 49 1221 1226 "error.ml" 49 1221 1241
+type(
+  bool
+)
+"error.ml" 50 1242 1249 "error.ml" 50 1242 1274
+type(
+  string -> unit
+)
+ident(
+  int_ref Toolbox_msg.print_warning "toolbox_msg.mli" 5 63 63 "toolbox_msg.mli" 5 63 96
+)
+"error.ml" 50 1242 1276 "error.ml" 50 1242 1279
+type(
+  string
+)
+ident(
+  int_ref loc "error.ml" 41 1002 1008 "error.ml" 41 1002 1011
+)
+"error.ml" 50 1242 1280 "error.ml" 50 1242 1281
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"error.ml" 50 1242 1282 "error.ml" 50 1242 1287
+type(
+  string
+)
+ident(
+  int_ref unexp "error.ml" 18 389 395 "error.ml" 18 389 400
+)
+"error.ml" 50 1242 1288 "error.ml" 50 1242 1289
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"error.ml" 50 1242 1290 "error.ml" 50 1242 1294
+type(
+  string
+)
+ident(
+  int_ref exps "error.ml" 23 498 504 "error.ml" 23 498 508
+)
+"error.ml" 50 1242 1295 "error.ml" 50 1242 1296
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"error.ml" 50 1242 1297 "error.ml" 50 1242 1301
+type(
+  string
+)
+ident(
+  int_ref msgs "error.ml" 36 855 861 "error.ml" 36 855 865
+)
+"error.ml" 50 1242 1302 "error.ml" 50 1242 1303
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"error.ml" 50 1242 1304 "error.ml" 50 1242 1308
+type(
+  string
+)
+ident(
+  int_ref ints "error.ml" 29 656 662 "error.ml" 29 656 666
+)
+"error.ml" 50 1242 1297 "error.ml" 50 1242 1308
+type(
+  string
+)
+"error.ml" 50 1242 1290 "error.ml" 50 1242 1308
+type(
+  string
+)
+"error.ml" 50 1242 1282 "error.ml" 50 1242 1308
+type(
+  string
+)
+"error.ml" 50 1242 1275 "error.ml" 50 1242 1309
+type(
+  string
+)
+"error.ml" 50 1242 1249 "error.ml" 50 1242 1309
+type(
+  unit
+)
+"error.ml" 49 1221 1223 "error.ml" 50 1242 1309
+type(
+  unit
+)
+"error.ml" 47 1206 1208 "error.ml" 50 1242 1309
+type(
+  unit
+)
+"error.ml" 46 1178 1180 "error.ml" 50 1242 1309
+type(
+  unit
+)
+"error.ml" 45 1150 1152 "error.ml" 50 1242 1309
+type(
+  unit
+)
+"error.ml" 44 1122 1124 "error.ml" 50 1242 1309
+type(
+  unit
+)
+"error.ml" 43 1093 1095 "error.ml" 50 1242 1309
+type(
+  unit
+)
+"error.ml" 42 1067 1069 "error.ml" 50 1242 1309
+type(
+  unit
+)
+"error.ml" 41 1002 1004 "error.ml" 50 1242 1309
+type(
+  unit
+)
+"error.ml" 36 855 857 "error.ml" 50 1242 1309
+type(
+  unit
+)
+"error.ml" 29 656 658 "error.ml" 50 1242 1309
+type(
+  unit
+)
+"error.ml" 23 498 500 "error.ml" 50 1242 1309
+type(
+  unit
+)
+"error.ml" 18 389 391 "error.ml" 50 1242 1309
+type(
+  unit
+)
+"error.ml" 53 1312 1316 "error.ml" 53 1312 1321
+type(
+  Loc.locus -> error
+)
+ident(
+  def error "error.ml" 59 1449 1449 "error.ml" 0 0 -1
+)
+"error.ml" 53 1312 1322 "error.ml" 53 1312 1327
+type(
+  Loc.locus
+)
+ident(
+  def locus "error.ml" 54 1330 1332 "error.ml" 57 1413 1447
+)
+"error.ml" 54 1330 1352 "error.ml" 54 1330 1356
+type(
+  string option
+)
+"error.ml" 55 1359 1381 "error.ml" 55 1359 1383
+type(
+  string list
+)
+"error.ml" 56 1386 1408 "error.ml" 56 1386 1410
+type(
+  string list
+)
+"error.ml" 57 1413 1435 "error.ml" 57 1413 1437
+type(
+  string list
+)
+"error.ml" 54 1330 1339 "error.ml" 57 1413 1439
+type(
+  error_
+)
+"error.ml" 57 1413 1441 "error.ml" 57 1413 1446
+type(
+  Loc.locus
+)
+ident(
+  int_ref locus "error.ml" 53 1312 1322 "error.ml" 53 1312 1327
+)
+"error.ml" 54 1330 1332 "error.ml" 57 1413 1447
+type(
+  error
+)
+"error.ml" 59 1449 1453 "error.ml" 59 1449 1464
+type(
+  error -> error -> error
+)
+ident(
+  def err_combine "error.ml" 69 1720 1720 "error.ml" 0 0 -1
+)
+"error.ml" 59 1449 1473 "error.ml" 59 1449 1474
+type(
+  error_
+)
+ident(
+  def a "error.ml" 59 1449 1485 "error.ml" 67 1689 1718
+)
+"error.ml" 59 1449 1476 "error.ml" 59 1449 1482
+type(
+  Loc.locus
+)
+ident(
+  def alocus "error.ml" 59 1449 1485 "error.ml" 67 1689 1718
+)
+"error.ml" 59 1449 1465 "error.ml" 59 1449 1484
+type(
+  error
+)
+"error.ml" 59 1449 1493 "error.ml" 59 1449 1494
+type(
+  error_
+)
+ident(
+  def b "error.ml" 60 1507 1509 "error.ml" 67 1689 1718
+)
+"error.ml" 59 1449 1496 "error.ml" 59 1449 1502
+type(
+  Loc.locus
+)
+ident(
+  def blocus "error.ml" 60 1507 1509 "error.ml" 67 1689 1718
+)
+"error.ml" 59 1449 1485 "error.ml" 59 1449 1504
+type(
+  error
+)
+"error.ml" 60 1507 1513 "error.ml" 60 1507 1518
+type(
+  error_ -> error_ -> error_
+)
+ident(
+  def combo "error.ml" 67 1689 1693 "error.ml" 67 1689 1718
+)
+"error.ml" 60 1507 1519 "error.ml" 60 1507 1520
+type(
+  error_
+)
+ident(
+  def a "error.ml" 60 1507 1521 "error.ml" 65 1678 1683
+)
+"error.ml" 60 1507 1521 "error.ml" 60 1507 1522
+type(
+  error_
+)
+ident(
+  def b "error.ml" 61 1525 1529 "error.ml" 65 1678 1683
+)
+"error.ml" 61 1525 1542 "error.ml" 61 1525 1546
+type(
+  string option
+)
+"error.ml" 62 1549 1566 "error.ml" 62 1549 1567
+type(
+  error_
+)
+ident(
+  int_ref a "error.ml" 60 1507 1519 "error.ml" 60 1507 1520
+)
+"error.ml" 62 1549 1566 "error.ml" 62 1549 1576
+type(
+  string list
+)
+"error.ml" 62 1549 1577 "error.ml" 62 1549 1578
+type(
+  string list -> string list -> string list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"error.ml" 62 1549 1579 "error.ml" 62 1549 1580
+type(
+  error_
+)
+ident(
+  int_ref b "error.ml" 60 1507 1521 "error.ml" 60 1507 1522
+)
+"error.ml" 62 1549 1579 "error.ml" 62 1549 1589
+type(
+  string list
+)
+"error.ml" 62 1549 1566 "error.ml" 62 1549 1589
+type(
+  string list
+)
+"error.ml" 63 1592 1609 "error.ml" 63 1592 1610
+type(
+  error_
+)
+ident(
+  int_ref a "error.ml" 60 1507 1519 "error.ml" 60 1507 1520
+)
+"error.ml" 63 1592 1609 "error.ml" 63 1592 1619
+type(
+  string list
+)
+"error.ml" 63 1592 1620 "error.ml" 63 1592 1621
+type(
+  string list -> string list -> string list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"error.ml" 63 1592 1622 "error.ml" 63 1592 1623
+type(
+  error_
+)
+ident(
+  int_ref b "error.ml" 60 1507 1521 "error.ml" 60 1507 1522
+)
+"error.ml" 63 1592 1622 "error.ml" 63 1592 1632
+type(
+  string list
+)
+"error.ml" 63 1592 1609 "error.ml" 63 1592 1632
+type(
+  string list
+)
+"error.ml" 64 1635 1652 "error.ml" 64 1635 1653
+type(
+  error_
+)
+ident(
+  int_ref a "error.ml" 60 1507 1519 "error.ml" 60 1507 1520
+)
+"error.ml" 64 1635 1652 "error.ml" 64 1635 1662
+type(
+  string list
+)
+"error.ml" 64 1635 1663 "error.ml" 64 1635 1664
+type(
+  string list -> string list -> string list
+)
+ident(
+  int_ref Stdlib.( @ ) "stdlib.mli" 823 30483 30483 "stdlib.mli" 823 30483 30524
+)
+"error.ml" 64 1635 1665 "error.ml" 64 1635 1666
+type(
+  error_
+)
+ident(
+  int_ref b "error.ml" 60 1507 1521 "error.ml" 60 1507 1522
+)
+"error.ml" 64 1635 1665 "error.ml" 64 1635 1675
+type(
+  string list
+)
+"error.ml" 64 1635 1652 "error.ml" 64 1635 1675
+type(
+  string list
+)
+"error.ml" 61 1525 1529 "error.ml" 65 1678 1683
+type(
+  error_
+)
+"error.ml" 67 1689 1700 "error.ml" 67 1689 1705
+type(
+  error_ -> error_ -> error_
+)
+ident(
+  int_ref combo "error.ml" 60 1507 1513 "error.ml" 60 1507 1518
+)
+"error.ml" 67 1689 1706 "error.ml" 67 1689 1707
+type(
+  error_
+)
+ident(
+  int_ref a "error.ml" 59 1449 1473 "error.ml" 59 1449 1474
+)
+"error.ml" 67 1689 1708 "error.ml" 67 1689 1709
+type(
+  error_
+)
+ident(
+  int_ref b "error.ml" 59 1449 1493 "error.ml" 59 1449 1494
+)
+"error.ml" 67 1689 1700 "error.ml" 67 1689 1709
+type(
+  error_
+)
+"error.ml" 67 1689 1711 "error.ml" 67 1689 1717
+type(
+  Loc.locus
+)
+ident(
+  int_ref blocus "error.ml" 59 1449 1496 "error.ml" 59 1449 1502
+)
+"error.ml" 67 1689 1693 "error.ml" 67 1689 1718
+type(
+  error
+)
+"error.ml" 60 1507 1509 "error.ml" 67 1689 1718
+type(
+  error
+)
+"error.ml" 69 1720 1724 "error.ml" 69 1720 1739
+type(
+  string -> error -> error
+)
+ident(
+  def err_add_message "error.ml" 72 1825 1825 "error.ml" 0 0 -1
+)
+"error.ml" 69 1720 1740 "error.ml" 69 1720 1743
+type(
+  string
+)
+ident(
+  def msg "error.ml" 69 1720 1744 "error.ml" 70 1766 1823
+)
+"error.ml" 69 1720 1752 "error.ml" 69 1720 1753
+type(
+  error_
+)
+ident(
+  def e "error.ml" 70 1766 1768 "error.ml" 70 1766 1823
+)
+"error.ml" 69 1720 1755 "error.ml" 69 1720 1761
+type(
+  Loc.locus
+)
+ident(
+  def elocus "error.ml" 70 1766 1768 "error.ml" 70 1766 1823
+)
+"error.ml" 69 1720 1744 "error.ml" 69 1720 1763
+type(
+  error
+)
+"error.ml" 70 1766 1777 "error.ml" 70 1766 1778
+type(
+  error_
+)
+ident(
+  int_ref e "error.ml" 69 1720 1752 "error.ml" 69 1720 1753
+)
+"error.ml" 70 1766 1795 "error.ml" 70 1766 1798
+type(
+  string
+)
+ident(
+  int_ref msg "error.ml" 69 1720 1740 "error.ml" 69 1720 1743
+)
+"error.ml" 70 1766 1802 "error.ml" 70 1766 1803
+type(
+  error_
+)
+ident(
+  int_ref e "error.ml" 69 1720 1752 "error.ml" 69 1720 1753
+)
+"error.ml" 70 1766 1802 "error.ml" 70 1766 1812
+type(
+  string list
+)
+"error.ml" 70 1766 1795 "error.ml" 70 1766 1812
+type(
+  string list
+)
+"error.ml" 70 1766 1775 "error.ml" 70 1766 1814
+type(
+  error_
+)
+"error.ml" 70 1766 1816 "error.ml" 70 1766 1822
+type(
+  Loc.locus
+)
+ident(
+  int_ref elocus "error.ml" 69 1720 1755 "error.ml" 69 1720 1761
+)
+"error.ml" 70 1766 1768 "error.ml" 70 1766 1823
+type(
+  error
+)
+"error.ml" 72 1825 1829 "error.ml" 72 1825 1845
+type(
+  string -> error -> error
+)
+ident(
+  def err_add_internal "error.ml" 75 1927 1927 "error.ml" 0 0 -1
+)
+"error.ml" 72 1825 1846 "error.ml" 72 1825 1847
+type(
+  string
+)
+ident(
+  def i "error.ml" 72 1825 1848 "error.ml" 73 1870 1925
+)
+"error.ml" 72 1825 1856 "error.ml" 72 1825 1857
+type(
+  error_
+)
+ident(
+  def e "error.ml" 73 1870 1872 "error.ml" 73 1870 1925
+)
+"error.ml" 72 1825 1859 "error.ml" 72 1825 1865
+type(
+  Loc.locus
+)
+ident(
+  def elocus "error.ml" 73 1870 1872 "error.ml" 73 1870 1925
+)
+"error.ml" 72 1825 1848 "error.ml" 72 1825 1867
+type(
+  error
+)
+"error.ml" 73 1870 1881 "error.ml" 73 1870 1882
+type(
+  error_
+)
+ident(
+  int_ref e "error.ml" 72 1825 1856 "error.ml" 72 1825 1857
+)
+"error.ml" 73 1870 1899 "error.ml" 73 1870 1900
+type(
+  string
+)
+ident(
+  int_ref i "error.ml" 72 1825 1846 "error.ml" 72 1825 1847
+)
+"error.ml" 73 1870 1904 "error.ml" 73 1870 1905
+type(
+  error_
+)
+ident(
+  int_ref e "error.ml" 72 1825 1856 "error.ml" 72 1825 1857
+)
+"error.ml" 73 1870 1904 "error.ml" 73 1870 1914
+type(
+  string list
+)
+"error.ml" 73 1870 1899 "error.ml" 73 1870 1914
+type(
+  string list
+)
+"error.ml" 73 1870 1879 "error.ml" 73 1870 1916
+type(
+  error_
+)
+"error.ml" 73 1870 1918 "error.ml" 73 1870 1924
+type(
+  Loc.locus
+)
+ident(
+  int_ref elocus "error.ml" 72 1825 1859 "error.ml" 72 1825 1865
+)
+"error.ml" 73 1870 1872 "error.ml" 73 1870 1925
+type(
+  error
+)
+"error.ml" 75 1927 1931 "error.ml" 75 1927 1948
+type(
+  string -> error -> error
+)
+ident(
+  def err_add_expecting "error.ml" 78 2030 2030 "error.ml" 0 0 -1
+)
+"error.ml" 75 1927 1949 "error.ml" 75 1927 1950
+type(
+  string
+)
+ident(
+  def x "error.ml" 75 1927 1951 "error.ml" 76 1973 2028
+)
+"error.ml" 75 1927 1959 "error.ml" 75 1927 1960
+type(
+  error_
+)
+ident(
+  def e "error.ml" 76 1973 1975 "error.ml" 76 1973 2028
+)
+"error.ml" 75 1927 1962 "error.ml" 75 1927 1968
+type(
+  Loc.locus
+)
+ident(
+  def elocus "error.ml" 76 1973 1975 "error.ml" 76 1973 2028
+)
+"error.ml" 75 1927 1951 "error.ml" 75 1927 1970
+type(
+  error
+)
+"error.ml" 76 1973 1984 "error.ml" 76 1973 1985
+type(
+  error_
+)
+ident(
+  int_ref e "error.ml" 75 1927 1959 "error.ml" 75 1927 1960
+)
+"error.ml" 76 1973 2002 "error.ml" 76 1973 2003
+type(
+  string
+)
+ident(
+  int_ref x "error.ml" 75 1927 1949 "error.ml" 75 1927 1950
+)
+"error.ml" 76 1973 2007 "error.ml" 76 1973 2008
+type(
+  error_
+)
+ident(
+  int_ref e "error.ml" 75 1927 1959 "error.ml" 75 1927 1960
+)
+"error.ml" 76 1973 2007 "error.ml" 76 1973 2017
+type(
+  string list
+)
+"error.ml" 76 1973 2002 "error.ml" 76 1973 2017
+type(
+  string list
+)
+"error.ml" 76 1973 1982 "error.ml" 76 1973 2019
+type(
+  error_
+)
+"error.ml" 76 1973 2021 "error.ml" 76 1973 2027
+type(
+  Loc.locus
+)
+ident(
+  int_ref elocus "error.ml" 75 1927 1962 "error.ml" 75 1927 1968
+)
+"error.ml" 76 1973 1975 "error.ml" 76 1973 2028
+type(
+  error
+)
+"error.ml" 78 2030 2034 "error.ml" 78 2030 2052
+type(
+  string -> error -> error
+)
+ident(
+  def err_set_unexpected "error.ml" 79 2077 2123 "error.ml" 0 0 -1
+)
+"error.ml" 78 2030 2053 "error.ml" 78 2030 2054
+type(
+  string
+)
+ident(
+  def u "error.ml" 78 2030 2055 "error.ml" 79 2077 2123
+)
+"error.ml" 78 2030 2063 "error.ml" 78 2030 2064
+type(
+  error_
+)
+ident(
+  def e "error.ml" 79 2077 2079 "error.ml" 79 2077 2123
+)
+"error.ml" 78 2030 2066 "error.ml" 78 2030 2072
+type(
+  Loc.locus
+)
+ident(
+  def elocus "error.ml" 79 2077 2079 "error.ml" 79 2077 2123
+)
+"error.ml" 78 2030 2055 "error.ml" 78 2030 2074
+type(
+  error
+)
+"error.ml" 79 2077 2088 "error.ml" 79 2077 2089
+type(
+  error_
+)
+ident(
+  int_ref e "error.ml" 78 2030 2063 "error.ml" 78 2030 2064
+)
+"error.ml" 79 2077 2111 "error.ml" 79 2077 2112
+type(
+  string
+)
+ident(
+  int_ref u "error.ml" 78 2030 2053 "error.ml" 78 2030 2054
+)
+"error.ml" 79 2077 2106 "error.ml" 79 2077 2112
+type(
+  string option
+)
+"error.ml" 79 2077 2086 "error.ml" 79 2077 2114
+type(
+  error_
+)
+"error.ml" 79 2077 2116 "error.ml" 79 2077 2122
+type(
+  Loc.locus
+)
+ident(
+  int_ref elocus "error.ml" 78 2030 2066 "error.ml" 78 2030 2072
+)
+"error.ml" 79 2077 2079 "error.ml" 79 2077 2123
+type(
+  error
+)

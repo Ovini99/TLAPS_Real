@@ -1,0 +1,3437 @@
+"method.ml" 5 68 72 "method.ml" 5 68 93
+type(
+  float
+)
+ident(
+  def default_zenon_timeout "method.ml" 6 100 100 "method.ml" 0 0 -1
+)
+"method.ml" 5 68 96 "method.ml" 5 68 99
+type(
+  float
+)
+"method.ml" 6 100 104 "method.ml" 6 100 123
+type(
+  float
+)
+ident(
+  def default_ls4_timeout "method.ml" 7 130 130 "method.ml" 0 0 -1
+)
+"method.ml" 6 100 126 "method.ml" 6 100 129
+type(
+  float
+)
+"method.ml" 7 130 134 "method.ml" 7 130 158
+type(
+  float
+)
+ident(
+  def default_isabelle_timeout "method.ml" 8 165 165 "method.ml" 0 0 -1
+)
+"method.ml" 7 130 161 "method.ml" 7 130 164
+type(
+  float
+)
+"method.ml" 8 165 169 "method.ml" 8 165 192
+type(
+  string
+)
+ident(
+  def default_isabelle_tactic "method.ml" 9 202 202 "method.ml" 0 0 -1
+)
+"method.ml" 8 165 195 "method.ml" 8 165 201
+type(
+  string
+)
+"method.ml" 9 202 206 "method.ml" 9 202 227
+type(
+  float
+)
+ident(
+  def default_yices_timeout "method.ml" 10 234 234 "method.ml" 0 0 -1
+)
+"method.ml" 9 202 230 "method.ml" 9 202 233
+type(
+  float
+)
+"method.ml" 10 234 238 "method.ml" 10 234 256
+type(
+  float
+)
+ident(
+  def default_z3_timeout "method.ml" 11 262 262 "method.ml" 0 0 -1
+)
+"method.ml" 10 234 259 "method.ml" 10 234 261
+type(
+  float
+)
+"method.ml" 11 262 266 "method.ml" 11 262 287
+type(
+  float
+)
+ident(
+  def default_metit_timeout "method.ml" 12 293 293 "method.ml" 0 0 -1
+)
+"method.ml" 11 262 290 "method.ml" 11 262 292
+type(
+  float
+)
+"method.ml" 12 293 297 "method.ml" 12 293 317
+type(
+  float
+)
+ident(
+  def default_cvc3_timeout "method.ml" 13 323 323 "method.ml" 0 0 -1
+)
+"method.ml" 12 293 320 "method.ml" 12 293 322
+type(
+  float
+)
+"method.ml" 13 323 327 "method.ml" 13 323 346
+type(
+  float
+)
+ident(
+  def default_smt_timeout "method.ml" 14 352 352 "method.ml" 0 0 -1
+)
+"method.ml" 13 323 349 "method.ml" 13 323 351
+type(
+  float
+)
+"method.ml" 14 352 356 "method.ml" 14 352 376
+type(
+  float
+)
+ident(
+  def default_smt2_timeout "method.ml" 15 382 382 "method.ml" 0 0 -1
+)
+"method.ml" 14 352 379 "method.ml" 14 352 381
+type(
+  float
+)
+"method.ml" 15 382 386 "method.ml" 15 382 407
+type(
+  float
+)
+ident(
+  def default_spass_timeout "method.ml" 16 413 413 "method.ml" 0 0 -1
+)
+"method.ml" 15 382 410 "method.ml" 15 382 412
+type(
+  float
+)
+"method.ml" 16 413 417 "method.ml" 16 413 437
+type(
+  float
+)
+ident(
+  def default_tptp_timeout "method.ml" 18 444 444 "method.ml" 0 0 -1
+)
+"method.ml" 16 413 440 "method.ml" 16 413 442
+type(
+  float
+)
+"method.ml" 47 914 918 "method.ml" 47 914 925
+type(
+  t -> float
+)
+ident(
+  def timeout "method.ml" 75 1461 1461 "method.ml" 0 0 -1
+)
+"method.ml" 47 914 926 "method.ml" 47 914 927
+type(
+  t
+)
+ident(
+  def m "method.ml" 48 930 932 "method.ml" 73 1436 1459
+)
+"method.ml" 48 930 938 "method.ml" 48 930 939
+type(
+  t
+)
+ident(
+  int_ref m "method.ml" 47 914 926 "method.ml" 47 914 927
+)
+"method.ml" 49 945 955 "method.ml" 49 945 956
+type(
+  float
+)
+ident(
+  def f "method.ml" 49 945 960 "method.ml" 49 945 961
+)
+"method.ml" 49 945 949 "method.ml" 49 945 956
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 49 945 960 "method.ml" 49 945 961
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 49 945 955 "method.ml" 49 945 956
+)
+"method.ml" 50 962 976 "method.ml" 50 962 977
+type(
+  float
+)
+ident(
+  def f "method.ml" 50 962 985 "method.ml" 50 962 986
+)
+"method.ml" 50 962 979 "method.ml" 50 962 980
+type(
+  string
+)
+"method.ml" 50 962 966 "method.ml" 50 962 981
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 50 962 985 "method.ml" 50 962 986
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 50 962 976 "method.ml" 50 962 977
+)
+"method.ml" 51 987 996 "method.ml" 51 987 997
+type(
+  float
+)
+ident(
+  def f "method.ml" 51 987 1001 "method.ml" 51 987 1002
+)
+"method.ml" 51 987 991 "method.ml" 51 987 997
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 51 987 1001 "method.ml" 51 987 1002
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 51 987 996 "method.ml" 51 987 997
+)
+"method.ml" 52 1003 1013 "method.ml" 52 1003 1014
+type(
+  float
+)
+ident(
+  def f "method.ml" 52 1003 1018 "method.ml" 52 1003 1019
+)
+"method.ml" 52 1003 1007 "method.ml" 52 1003 1014
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 52 1003 1018 "method.ml" 52 1003 1019
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 52 1003 1013 "method.ml" 52 1003 1014
+)
+"method.ml" 53 1020 1031 "method.ml" 53 1020 1032
+type(
+  float
+)
+ident(
+  def f "method.ml" 53 1020 1036 "method.ml" 53 1020 1037
+)
+"method.ml" 53 1020 1024 "method.ml" 53 1020 1032
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 53 1020 1036 "method.ml" 53 1020 1037
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 53 1020 1031 "method.ml" 53 1020 1032
+)
+"method.ml" 54 1038 1046 "method.ml" 54 1038 1047
+type(
+  float
+)
+ident(
+  def f "method.ml" 54 1038 1051 "method.ml" 54 1038 1052
+)
+"method.ml" 54 1038 1042 "method.ml" 54 1038 1047
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 54 1038 1051 "method.ml" 54 1038 1052
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 54 1038 1046 "method.ml" 54 1038 1047
+)
+"method.ml" 55 1053 1061 "method.ml" 55 1053 1062
+type(
+  float
+)
+ident(
+  def f "method.ml" 55 1053 1066 "method.ml" 55 1053 1067
+)
+"method.ml" 55 1053 1057 "method.ml" 55 1053 1062
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 55 1053 1066 "method.ml" 55 1053 1067
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 55 1053 1061 "method.ml" 55 1053 1062
+)
+"method.ml" 56 1068 1080 "method.ml" 56 1068 1081
+type(
+  float
+)
+ident(
+  def f "method.ml" 56 1068 1085 "method.ml" 56 1068 1086
+)
+"method.ml" 56 1068 1072 "method.ml" 56 1068 1081
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 56 1068 1085 "method.ml" 56 1068 1086
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 56 1068 1080 "method.ml" 56 1068 1081
+)
+"method.ml" 57 1087 1098 "method.ml" 57 1087 1099
+type(
+  float
+)
+ident(
+  def f "method.ml" 57 1087 1103 "method.ml" 57 1087 1104
+)
+"method.ml" 57 1087 1091 "method.ml" 57 1087 1099
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 57 1087 1103 "method.ml" 57 1087 1104
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 57 1087 1098 "method.ml" 57 1087 1099
+)
+"method.ml" 58 1105 1109 "method.ml" 58 1105 1115
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 58 1105 1118 "method.ml" 58 1105 1122
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 58 1105 1109 "method.ml" 58 1105 1122
+type(
+  t
+)
+"method.ml" 58 1105 1126 "method.ml" 58 1105 1134
+type(
+  float
+)
+ident(
+  int_ref Stdlib.infinity "stdlib.mli" 655 24762 24762 "stdlib.mli" 655 24762 24782
+)
+"method.ml" 59 1135 1144 "method.ml" 59 1135 1145
+type(
+  float
+)
+ident(
+  def f "method.ml" 59 1135 1149 "method.ml" 59 1135 1150
+)
+"method.ml" 59 1135 1139 "method.ml" 59 1135 1145
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 59 1135 1149 "method.ml" 59 1135 1150
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 59 1135 1144 "method.ml" 59 1135 1145
+)
+"method.ml" 60 1151 1159 "method.ml" 60 1151 1160
+type(
+  float
+)
+ident(
+  def f "method.ml" 60 1151 1164 "method.ml" 60 1151 1165
+)
+"method.ml" 60 1151 1155 "method.ml" 60 1151 1160
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 60 1151 1164 "method.ml" 60 1151 1165
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 60 1151 1159 "method.ml" 60 1151 1160
+)
+"method.ml" 61 1166 1176 "method.ml" 61 1166 1177
+type(
+  float
+)
+ident(
+  def f "method.ml" 61 1166 1181 "method.ml" 61 1166 1182
+)
+"method.ml" 61 1166 1170 "method.ml" 61 1166 1177
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 61 1166 1181 "method.ml" 61 1166 1182
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 61 1166 1176 "method.ml" 61 1166 1177
+)
+"method.ml" 62 1183 1193 "method.ml" 62 1183 1194
+type(
+  float
+)
+ident(
+  def f "method.ml" 62 1183 1198 "method.ml" 62 1183 1199
+)
+"method.ml" 62 1183 1187 "method.ml" 62 1183 1194
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 62 1183 1198 "method.ml" 62 1183 1199
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 62 1183 1193 "method.ml" 62 1183 1194
+)
+"method.ml" 63 1200 1211 "method.ml" 63 1200 1212
+type(
+  float
+)
+ident(
+  def f "method.ml" 63 1200 1216 "method.ml" 63 1200 1217
+)
+"method.ml" 63 1200 1204 "method.ml" 63 1200 1212
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 63 1200 1216 "method.ml" 63 1200 1217
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 63 1200 1211 "method.ml" 63 1200 1212
+)
+"method.ml" 64 1218 1228 "method.ml" 64 1218 1229
+type(
+  float
+)
+ident(
+  def f "method.ml" 64 1218 1233 "method.ml" 64 1218 1234
+)
+"method.ml" 64 1218 1222 "method.ml" 64 1218 1229
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 64 1218 1233 "method.ml" 64 1218 1234
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 64 1218 1228 "method.ml" 64 1218 1229
+)
+"method.ml" 65 1235 1245 "method.ml" 65 1235 1246
+type(
+  float
+)
+ident(
+  def f "method.ml" 65 1235 1250 "method.ml" 65 1235 1251
+)
+"method.ml" 65 1235 1239 "method.ml" 65 1235 1246
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 65 1235 1250 "method.ml" 65 1235 1251
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 65 1235 1245 "method.ml" 65 1235 1246
+)
+"method.ml" 66 1252 1261 "method.ml" 66 1252 1262
+type(
+  float
+)
+ident(
+  def f "method.ml" 66 1252 1266 "method.ml" 66 1252 1267
+)
+"method.ml" 66 1252 1256 "method.ml" 66 1252 1262
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 66 1252 1266 "method.ml" 66 1252 1267
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 66 1252 1261 "method.ml" 66 1252 1262
+)
+"method.ml" 67 1268 1272 "method.ml" 67 1268 1285
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 67 1268 1289 "method.ml" 67 1268 1297
+type(
+  float
+)
+ident(
+  int_ref Stdlib.infinity "stdlib.mli" 655 24762 24762 "stdlib.mli" 655 24762 24782
+)
+"method.ml" 68 1298 1302 "method.ml" 68 1298 1312
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 68 1298 1316 "method.ml" 68 1298 1324
+type(
+  float
+)
+ident(
+  int_ref Stdlib.infinity "stdlib.mli" 655 24762 24762 "stdlib.mli" 655 24762 24782
+)
+"method.ml" 69 1325 1329 "method.ml" 69 1325 1336
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 69 1325 1340 "method.ml" 69 1325 1348
+type(
+  float
+)
+ident(
+  int_ref Stdlib.infinity "stdlib.mli" 655 24762 24762 "stdlib.mli" 655 24762 24782
+)
+"method.ml" 70 1349 1353 "method.ml" 70 1349 1361
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 70 1349 1365 "method.ml" 70 1349 1373
+type(
+  float
+)
+ident(
+  int_ref Stdlib.infinity "stdlib.mli" 655 24762 24762 "stdlib.mli" 655 24762 24782
+)
+"method.ml" 71 1374 1378 "method.ml" 71 1374 1391
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 71 1374 1395 "method.ml" 71 1374 1403
+type(
+  float
+)
+ident(
+  int_ref Stdlib.infinity "stdlib.mli" 655 24762 24762 "stdlib.mli" 655 24762 24782
+)
+"method.ml" 72 1404 1408 "method.ml" 72 1404 1423
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 72 1404 1427 "method.ml" 72 1404 1435
+type(
+  float
+)
+ident(
+  int_ref Stdlib.infinity "stdlib.mli" 655 24762 24762 "stdlib.mli" 655 24762 24782
+)
+"method.ml" 73 1436 1440 "method.ml" 73 1436 1447
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 73 1436 1451 "method.ml" 73 1436 1459
+type(
+  float
+)
+ident(
+  int_ref Stdlib.infinity "stdlib.mli" 655 24762 24762 "stdlib.mli" 655 24762 24782
+)
+"method.ml" 48 930 932 "method.ml" 73 1436 1459
+type(
+  float
+)
+"method.ml" 75 1461 1465 "method.ml" 75 1461 1476
+type(
+  t -> bool
+)
+ident(
+  def is_temporal "method.ml" 80 1530 1530 "method.ml" 0 0 -1
+)
+"method.ml" 75 1461 1477 "method.ml" 75 1461 1478
+type(
+  t
+)
+ident(
+  def m "method.ml" 76 1481 1483 "method.ml" 78 1514 1528
+)
+"method.ml" 76 1481 1489 "method.ml" 76 1481 1490
+type(
+  t
+)
+ident(
+  int_ref m "method.ml" 75 1461 1477 "method.ml" 75 1461 1478
+)
+"method.ml" 77 1496 1504 "method.ml" 77 1496 1505
+type(
+  float
+)
+"method.ml" 77 1496 1500 "method.ml" 77 1496 1505
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 77 1496 1509 "method.ml" 77 1496 1513
+type(
+  bool
+)
+"method.ml" 78 1514 1518 "method.ml" 78 1514 1519
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 78 1514 1523 "method.ml" 78 1514 1528
+type(
+  bool
+)
+"method.ml" 76 1481 1483 "method.ml" 78 1514 1528
+type(
+  bool
+)
+"method.ml" 80 1530 1534 "method.ml" 80 1530 1544
+type(
+  t -> float -> t
+)
+ident(
+  def scale_time "method.ml" 110 2331 2331 "method.ml" 0 0 -1
+)
+"method.ml" 80 1530 1545 "method.ml" 80 1530 1546
+type(
+  t
+)
+ident(
+  def m "method.ml" 80 1530 1547 "method.ml" 107 2306 2328
+)
+"method.ml" 80 1530 1547 "method.ml" 80 1530 1548
+type(
+  float
+)
+ident(
+  def s "method.ml" 81 1551 1553 "method.ml" 107 2306 2328
+)
+"method.ml" 81 1551 1559 "method.ml" 81 1551 1560
+type(
+  t
+)
+ident(
+  int_ref m "method.ml" 80 1530 1545 "method.ml" 80 1530 1546
+)
+"method.ml" 82 1566 1576 "method.ml" 82 1566 1577
+type(
+  float
+)
+ident(
+  def f "method.ml" 82 1566 1581 "method.ml" 82 1566 1595
+)
+"method.ml" 82 1566 1570 "method.ml" 82 1566 1577
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 82 1566 1588 "method.ml" 82 1566 1589
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 82 1566 1576 "method.ml" 82 1566 1577
+)
+"method.ml" 82 1566 1590 "method.ml" 82 1566 1592
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( *. ) "stdlib.mli" 472 18097 18097 "stdlib.mli" 472 18097 18152
+)
+"method.ml" 82 1566 1593 "method.ml" 82 1566 1594
+type(
+  float
+)
+ident(
+  int_ref s "method.ml" 80 1530 1547 "method.ml" 80 1530 1548
+)
+"method.ml" 82 1566 1587 "method.ml" 82 1566 1595
+type(
+  float
+)
+"method.ml" 82 1566 1581 "method.ml" 82 1566 1595
+type(
+  t
+)
+"method.ml" 83 1596 1610 "method.ml" 83 1596 1611
+type(
+  float
+)
+ident(
+  def f "method.ml" 83 1596 1619 "method.ml" 83 1596 1639
+)
+"method.ml" 83 1596 1613 "method.ml" 83 1596 1614
+type(
+  string
+)
+ident(
+  def t "method.ml" 83 1596 1619 "method.ml" 83 1596 1639
+)
+"method.ml" 83 1596 1600 "method.ml" 83 1596 1615
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 83 1596 1629 "method.ml" 83 1596 1630
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 83 1596 1610 "method.ml" 83 1596 1611
+)
+"method.ml" 83 1596 1631 "method.ml" 83 1596 1633
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( *. ) "stdlib.mli" 472 18097 18097 "stdlib.mli" 472 18097 18152
+)
+"method.ml" 83 1596 1634 "method.ml" 83 1596 1635
+type(
+  float
+)
+ident(
+  int_ref s "method.ml" 80 1530 1547 "method.ml" 80 1530 1548
+)
+"method.ml" 83 1596 1629 "method.ml" 83 1596 1635
+type(
+  float
+)
+"method.ml" 83 1596 1637 "method.ml" 83 1596 1638
+type(
+  string
+)
+ident(
+  int_ref t "method.ml" 83 1596 1613 "method.ml" 83 1596 1614
+)
+"method.ml" 83 1596 1619 "method.ml" 83 1596 1639
+type(
+  t
+)
+"method.ml" 84 1640 1649 "method.ml" 84 1640 1650
+type(
+  float
+)
+ident(
+  def f "method.ml" 84 1640 1654 "method.ml" 84 1640 1667
+)
+"method.ml" 84 1640 1644 "method.ml" 84 1640 1650
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 84 1640 1660 "method.ml" 84 1640 1661
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 84 1640 1649 "method.ml" 84 1640 1650
+)
+"method.ml" 84 1640 1662 "method.ml" 84 1640 1664
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( *. ) "stdlib.mli" 472 18097 18097 "stdlib.mli" 472 18097 18152
+)
+"method.ml" 84 1640 1665 "method.ml" 84 1640 1666
+type(
+  float
+)
+ident(
+  int_ref s "method.ml" 80 1530 1547 "method.ml" 80 1530 1548
+)
+"method.ml" 84 1640 1659 "method.ml" 84 1640 1667
+type(
+  float
+)
+"method.ml" 84 1640 1654 "method.ml" 84 1640 1667
+type(
+  t
+)
+"method.ml" 85 1668 1678 "method.ml" 85 1668 1679
+type(
+  float
+)
+ident(
+  def f "method.ml" 85 1668 1683 "method.ml" 85 1668 1697
+)
+"method.ml" 85 1668 1672 "method.ml" 85 1668 1679
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 85 1668 1690 "method.ml" 85 1668 1691
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 85 1668 1678 "method.ml" 85 1668 1679
+)
+"method.ml" 85 1668 1692 "method.ml" 85 1668 1694
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( *. ) "stdlib.mli" 472 18097 18097 "stdlib.mli" 472 18097 18152
+)
+"method.ml" 85 1668 1695 "method.ml" 85 1668 1696
+type(
+  float
+)
+ident(
+  int_ref s "method.ml" 80 1530 1547 "method.ml" 80 1530 1548
+)
+"method.ml" 85 1668 1689 "method.ml" 85 1668 1697
+type(
+  float
+)
+"method.ml" 85 1668 1683 "method.ml" 85 1668 1697
+type(
+  t
+)
+"method.ml" 86 1698 1709 "method.ml" 86 1698 1710
+type(
+  float
+)
+ident(
+  def f "method.ml" 86 1698 1714 "method.ml" 86 1698 1729
+)
+"method.ml" 86 1698 1702 "method.ml" 86 1698 1710
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 86 1698 1722 "method.ml" 86 1698 1723
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 86 1698 1709 "method.ml" 86 1698 1710
+)
+"method.ml" 86 1698 1724 "method.ml" 86 1698 1726
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( *. ) "stdlib.mli" 472 18097 18097 "stdlib.mli" 472 18097 18152
+)
+"method.ml" 86 1698 1727 "method.ml" 86 1698 1728
+type(
+  float
+)
+ident(
+  int_ref s "method.ml" 80 1530 1547 "method.ml" 80 1530 1548
+)
+"method.ml" 86 1698 1721 "method.ml" 86 1698 1729
+type(
+  float
+)
+"method.ml" 86 1698 1714 "method.ml" 86 1698 1729
+type(
+  t
+)
+"method.ml" 87 1730 1738 "method.ml" 87 1730 1739
+type(
+  float
+)
+ident(
+  def f "method.ml" 87 1730 1743 "method.ml" 87 1730 1755
+)
+"method.ml" 87 1730 1734 "method.ml" 87 1730 1739
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 87 1730 1748 "method.ml" 87 1730 1749
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 87 1730 1738 "method.ml" 87 1730 1739
+)
+"method.ml" 87 1730 1750 "method.ml" 87 1730 1752
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( *. ) "stdlib.mli" 472 18097 18097 "stdlib.mli" 472 18097 18152
+)
+"method.ml" 87 1730 1753 "method.ml" 87 1730 1754
+type(
+  float
+)
+ident(
+  int_ref s "method.ml" 80 1530 1547 "method.ml" 80 1530 1548
+)
+"method.ml" 87 1730 1747 "method.ml" 87 1730 1755
+type(
+  float
+)
+"method.ml" 87 1730 1743 "method.ml" 87 1730 1755
+type(
+  t
+)
+"method.ml" 88 1756 1764 "method.ml" 88 1756 1765
+type(
+  float
+)
+ident(
+  def f "method.ml" 88 1756 1769 "method.ml" 88 1756 1781
+)
+"method.ml" 88 1756 1760 "method.ml" 88 1756 1765
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 88 1756 1774 "method.ml" 88 1756 1775
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 88 1756 1764 "method.ml" 88 1756 1765
+)
+"method.ml" 88 1756 1776 "method.ml" 88 1756 1778
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( *. ) "stdlib.mli" 472 18097 18097 "stdlib.mli" 472 18097 18152
+)
+"method.ml" 88 1756 1779 "method.ml" 88 1756 1780
+type(
+  float
+)
+ident(
+  int_ref s "method.ml" 80 1530 1547 "method.ml" 80 1530 1548
+)
+"method.ml" 88 1756 1773 "method.ml" 88 1756 1781
+type(
+  float
+)
+"method.ml" 88 1756 1769 "method.ml" 88 1756 1781
+type(
+  t
+)
+"method.ml" 89 1782 1794 "method.ml" 89 1782 1795
+type(
+  float
+)
+ident(
+  def f "method.ml" 89 1782 1799 "method.ml" 89 1782 1815
+)
+"method.ml" 89 1782 1786 "method.ml" 89 1782 1795
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 89 1782 1808 "method.ml" 89 1782 1809
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 89 1782 1794 "method.ml" 89 1782 1795
+)
+"method.ml" 89 1782 1810 "method.ml" 89 1782 1812
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( *. ) "stdlib.mli" 472 18097 18097 "stdlib.mli" 472 18097 18152
+)
+"method.ml" 89 1782 1813 "method.ml" 89 1782 1814
+type(
+  float
+)
+ident(
+  int_ref s "method.ml" 80 1530 1547 "method.ml" 80 1530 1548
+)
+"method.ml" 89 1782 1807 "method.ml" 89 1782 1815
+type(
+  float
+)
+"method.ml" 89 1782 1799 "method.ml" 89 1782 1815
+type(
+  t
+)
+"method.ml" 90 1816 1827 "method.ml" 90 1816 1828
+type(
+  float
+)
+ident(
+  def f "method.ml" 90 1816 1832 "method.ml" 90 1816 1847
+)
+"method.ml" 90 1816 1820 "method.ml" 90 1816 1828
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 90 1816 1840 "method.ml" 90 1816 1841
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 90 1816 1827 "method.ml" 90 1816 1828
+)
+"method.ml" 90 1816 1842 "method.ml" 90 1816 1844
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( *. ) "stdlib.mli" 472 18097 18097 "stdlib.mli" 472 18097 18152
+)
+"method.ml" 90 1816 1845 "method.ml" 90 1816 1846
+type(
+  float
+)
+ident(
+  int_ref s "method.ml" 80 1530 1547 "method.ml" 80 1530 1548
+)
+"method.ml" 90 1816 1839 "method.ml" 90 1816 1847
+type(
+  float
+)
+"method.ml" 90 1816 1832 "method.ml" 90 1816 1847
+type(
+  t
+)
+"method.ml" 91 1848 1852 "method.ml" 91 1848 1858
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 91 1848 1862 "method.ml" 91 1848 1868
+type(
+  t
+)
+"method.ml" 92 1869 1873 "method.ml" 92 1869 1877
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 92 1869 1881 "method.ml" 92 1869 1885
+type(
+  t
+)
+"method.ml" 93 1886 1895 "method.ml" 93 1886 1896
+type(
+  float
+)
+ident(
+  def f "method.ml" 93 1886 1900 "method.ml" 93 1886 1913
+)
+"method.ml" 93 1886 1890 "method.ml" 93 1886 1896
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 93 1886 1906 "method.ml" 93 1886 1907
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 93 1886 1895 "method.ml" 93 1886 1896
+)
+"method.ml" 93 1886 1908 "method.ml" 93 1886 1910
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( *. ) "stdlib.mli" 472 18097 18097 "stdlib.mli" 472 18097 18152
+)
+"method.ml" 93 1886 1911 "method.ml" 93 1886 1912
+type(
+  float
+)
+ident(
+  int_ref s "method.ml" 80 1530 1547 "method.ml" 80 1530 1548
+)
+"method.ml" 93 1886 1905 "method.ml" 93 1886 1913
+type(
+  float
+)
+"method.ml" 93 1886 1900 "method.ml" 93 1886 1913
+type(
+  t
+)
+"method.ml" 94 1914 1922 "method.ml" 94 1914 1923
+type(
+  float
+)
+ident(
+  def f "method.ml" 94 1914 1927 "method.ml" 94 1914 1939
+)
+"method.ml" 94 1914 1918 "method.ml" 94 1914 1923
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 94 1914 1932 "method.ml" 94 1914 1933
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 94 1914 1922 "method.ml" 94 1914 1923
+)
+"method.ml" 94 1914 1934 "method.ml" 94 1914 1936
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( *. ) "stdlib.mli" 472 18097 18097 "stdlib.mli" 472 18097 18152
+)
+"method.ml" 94 1914 1937 "method.ml" 94 1914 1938
+type(
+  float
+)
+ident(
+  int_ref s "method.ml" 80 1530 1547 "method.ml" 80 1530 1548
+)
+"method.ml" 94 1914 1931 "method.ml" 94 1914 1939
+type(
+  float
+)
+"method.ml" 94 1914 1927 "method.ml" 94 1914 1939
+type(
+  t
+)
+"method.ml" 95 1940 1950 "method.ml" 95 1940 1951
+type(
+  float
+)
+ident(
+  def f "method.ml" 95 1940 1955 "method.ml" 95 1940 1969
+)
+"method.ml" 95 1940 1944 "method.ml" 95 1940 1951
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 95 1940 1962 "method.ml" 95 1940 1963
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 95 1940 1950 "method.ml" 95 1940 1951
+)
+"method.ml" 95 1940 1964 "method.ml" 95 1940 1966
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( *. ) "stdlib.mli" 472 18097 18097 "stdlib.mli" 472 18097 18152
+)
+"method.ml" 95 1940 1967 "method.ml" 95 1940 1968
+type(
+  float
+)
+ident(
+  int_ref s "method.ml" 80 1530 1547 "method.ml" 80 1530 1548
+)
+"method.ml" 95 1940 1961 "method.ml" 95 1940 1969
+type(
+  float
+)
+"method.ml" 95 1940 1955 "method.ml" 95 1940 1969
+type(
+  t
+)
+"method.ml" 96 1970 1980 "method.ml" 96 1970 1981
+type(
+  float
+)
+ident(
+  def f "method.ml" 96 1970 1985 "method.ml" 96 1970 1999
+)
+"method.ml" 96 1970 1974 "method.ml" 96 1970 1981
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 96 1970 1992 "method.ml" 96 1970 1993
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 96 1970 1980 "method.ml" 96 1970 1981
+)
+"method.ml" 96 1970 1994 "method.ml" 96 1970 1996
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( *. ) "stdlib.mli" 472 18097 18097 "stdlib.mli" 472 18097 18152
+)
+"method.ml" 96 1970 1997 "method.ml" 96 1970 1998
+type(
+  float
+)
+ident(
+  int_ref s "method.ml" 80 1530 1547 "method.ml" 80 1530 1548
+)
+"method.ml" 96 1970 1991 "method.ml" 96 1970 1999
+type(
+  float
+)
+"method.ml" 96 1970 1985 "method.ml" 96 1970 1999
+type(
+  t
+)
+"method.ml" 97 2000 2011 "method.ml" 97 2000 2012
+type(
+  float
+)
+ident(
+  def f "method.ml" 97 2000 2016 "method.ml" 97 2000 2031
+)
+"method.ml" 97 2000 2004 "method.ml" 97 2000 2012
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 97 2000 2024 "method.ml" 97 2000 2025
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 97 2000 2011 "method.ml" 97 2000 2012
+)
+"method.ml" 97 2000 2026 "method.ml" 97 2000 2028
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( *. ) "stdlib.mli" 472 18097 18097 "stdlib.mli" 472 18097 18152
+)
+"method.ml" 97 2000 2029 "method.ml" 97 2000 2030
+type(
+  float
+)
+ident(
+  int_ref s "method.ml" 80 1530 1547 "method.ml" 80 1530 1548
+)
+"method.ml" 97 2000 2023 "method.ml" 97 2000 2031
+type(
+  float
+)
+"method.ml" 97 2000 2016 "method.ml" 97 2000 2031
+type(
+  t
+)
+"method.ml" 98 2032 2042 "method.ml" 98 2032 2043
+type(
+  float
+)
+ident(
+  def f "method.ml" 98 2032 2047 "method.ml" 98 2032 2061
+)
+"method.ml" 98 2032 2036 "method.ml" 98 2032 2043
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 98 2032 2054 "method.ml" 98 2032 2055
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 98 2032 2042 "method.ml" 98 2032 2043
+)
+"method.ml" 98 2032 2056 "method.ml" 98 2032 2058
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( *. ) "stdlib.mli" 472 18097 18097 "stdlib.mli" 472 18097 18152
+)
+"method.ml" 98 2032 2059 "method.ml" 98 2032 2060
+type(
+  float
+)
+ident(
+  int_ref s "method.ml" 80 1530 1547 "method.ml" 80 1530 1548
+)
+"method.ml" 98 2032 2053 "method.ml" 98 2032 2061
+type(
+  float
+)
+"method.ml" 98 2032 2047 "method.ml" 98 2032 2061
+type(
+  t
+)
+"method.ml" 99 2062 2072 "method.ml" 99 2062 2073
+type(
+  float
+)
+ident(
+  def f "method.ml" 99 2062 2077 "method.ml" 99 2062 2091
+)
+"method.ml" 99 2062 2066 "method.ml" 99 2062 2073
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 99 2062 2084 "method.ml" 99 2062 2085
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 99 2062 2072 "method.ml" 99 2062 2073
+)
+"method.ml" 99 2062 2086 "method.ml" 99 2062 2088
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( *. ) "stdlib.mli" 472 18097 18097 "stdlib.mli" 472 18097 18152
+)
+"method.ml" 99 2062 2089 "method.ml" 99 2062 2090
+type(
+  float
+)
+ident(
+  int_ref s "method.ml" 80 1530 1547 "method.ml" 80 1530 1548
+)
+"method.ml" 99 2062 2083 "method.ml" 99 2062 2091
+type(
+  float
+)
+"method.ml" 99 2062 2077 "method.ml" 99 2062 2091
+type(
+  t
+)
+"method.ml" 100 2092 2101 "method.ml" 100 2092 2102
+type(
+  float
+)
+ident(
+  def f "method.ml" 100 2092 2106 "method.ml" 100 2092 2119
+)
+"method.ml" 100 2092 2096 "method.ml" 100 2092 2102
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 100 2092 2112 "method.ml" 100 2092 2113
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 100 2092 2101 "method.ml" 100 2092 2102
+)
+"method.ml" 100 2092 2114 "method.ml" 100 2092 2116
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( *. ) "stdlib.mli" 472 18097 18097 "stdlib.mli" 472 18097 18152
+)
+"method.ml" 100 2092 2117 "method.ml" 100 2092 2118
+type(
+  float
+)
+ident(
+  int_ref s "method.ml" 80 1530 1547 "method.ml" 80 1530 1548
+)
+"method.ml" 100 2092 2111 "method.ml" 100 2092 2119
+type(
+  float
+)
+"method.ml" 100 2092 2106 "method.ml" 100 2092 2119
+type(
+  t
+)
+"method.ml" 101 2120 2124 "method.ml" 101 2120 2137
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 101 2120 2141 "method.ml" 101 2120 2154
+type(
+  t
+)
+"method.ml" 102 2155 2159 "method.ml" 102 2155 2169
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 102 2155 2173 "method.ml" 102 2155 2183
+type(
+  t
+)
+"method.ml" 103 2184 2188 "method.ml" 103 2184 2195
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 103 2184 2199 "method.ml" 103 2184 2206
+type(
+  t
+)
+"method.ml" 104 2207 2211 "method.ml" 104 2207 2219
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 104 2207 2223 "method.ml" 104 2207 2231
+type(
+  t
+)
+"method.ml" 105 2232 2236 "method.ml" 105 2232 2249
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 105 2232 2253 "method.ml" 105 2232 2266
+type(
+  t
+)
+"method.ml" 106 2267 2271 "method.ml" 106 2267 2286
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 106 2267 2290 "method.ml" 106 2267 2305
+type(
+  t
+)
+"method.ml" 107 2306 2310 "method.ml" 107 2306 2317
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 107 2306 2321 "method.ml" 107 2306 2328
+type(
+  t
+)
+"method.ml" 81 1551 1553 "method.ml" 107 2306 2328
+type(
+  t
+)
+"method.ml" 114 2440 2444 "method.ml" 114 2440 2459
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  def pp_print_tactic "method.ml" 144 3607 3607 "method.ml" 0 0 -1
+)
+"method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+type(
+  Format.formatter
+)
+ident(
+  def ff "method.ml" 114 2440 2463 "method.ml" 141 3567 3604
+)
+"method.ml" 114 2440 2463 "method.ml" 114 2440 2464
+type(
+  t
+)
+ident(
+  def m "method.ml" 115 2467 2469 "method.ml" 141 3567 3604
+)
+"method.ml" 115 2467 2475 "method.ml" 115 2467 2476
+type(
+  t
+)
+ident(
+  int_ref m "method.ml" 114 2440 2463 "method.ml" 114 2440 2464
+)
+"method.ml" 116 2482 2496 "method.ml" 116 2482 2499
+type(
+  float
+)
+ident(
+  def tmo "method.ml" 116 2482 2509 "method.ml" 116 2482 2546
+)
+"method.ml" 116 2482 2501 "method.ml" 116 2482 2504
+type(
+  string
+)
+ident(
+  def tac "method.ml" 116 2482 2509 "method.ml" 116 2482 2546
+)
+"method.ml" 116 2482 2486 "method.ml" 116 2482 2505
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 116 2482 2509 "method.ml" 116 2482 2516
+type(
+  Format.formatter ->
+  (string -> float -> unit, Format.formatter, unit) format ->
+  string -> float -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 116 2482 2517 "method.ml" 116 2482 2519
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 116 2482 2520 "method.ml" 116 2482 2538
+type(
+  (string -> float -> unit, Format.formatter, unit) format
+)
+"method.ml" 116 2482 2539 "method.ml" 116 2482 2542
+type(
+  string
+)
+ident(
+  int_ref tac "method.ml" 116 2482 2501 "method.ml" 116 2482 2504
+)
+"method.ml" 116 2482 2543 "method.ml" 116 2482 2546
+type(
+  float
+)
+ident(
+  int_ref tmo "method.ml" 116 2482 2496 "method.ml" 116 2482 2499
+)
+"method.ml" 116 2482 2509 "method.ml" 116 2482 2546
+type(
+  unit
+)
+"method.ml" 117 2547 2557 "method.ml" 117 2547 2558
+type(
+  float
+)
+ident(
+  def f "method.ml" 117 2547 2562 "method.ml" 117 2547 2589
+)
+"method.ml" 117 2547 2551 "method.ml" 117 2547 2558
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 117 2547 2562 "method.ml" 117 2547 2569
+type(
+  Format.formatter ->
+  (float -> unit, Format.formatter, unit) format -> float -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 117 2547 2570 "method.ml" 117 2547 2572
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 117 2547 2573 "method.ml" 117 2547 2587
+type(
+  (float -> unit, Format.formatter, unit) format
+)
+"method.ml" 117 2547 2588 "method.ml" 117 2547 2589
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 117 2547 2557 "method.ml" 117 2547 2558
+)
+"method.ml" 117 2547 2562 "method.ml" 117 2547 2589
+type(
+  unit
+)
+"method.ml" 118 2590 2598 "method.ml" 118 2590 2599
+type(
+  float
+)
+ident(
+  def f "method.ml" 118 2590 2603 "method.ml" 118 2590 2628
+)
+"method.ml" 118 2590 2594 "method.ml" 118 2590 2599
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 118 2590 2603 "method.ml" 118 2590 2610
+type(
+  Format.formatter ->
+  (float -> unit, Format.formatter, unit) format -> float -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 118 2590 2611 "method.ml" 118 2590 2613
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 118 2590 2614 "method.ml" 118 2590 2626
+type(
+  (float -> unit, Format.formatter, unit) format
+)
+"method.ml" 118 2590 2627 "method.ml" 118 2590 2628
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 118 2590 2598 "method.ml" 118 2590 2599
+)
+"method.ml" 118 2590 2603 "method.ml" 118 2590 2628
+type(
+  unit
+)
+"method.ml" 119 2629 2638 "method.ml" 119 2629 2639
+type(
+  float
+)
+ident(
+  def f "method.ml" 119 2629 2643 "method.ml" 119 2629 2670
+)
+"method.ml" 119 2629 2633 "method.ml" 119 2629 2639
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 119 2629 2643 "method.ml" 119 2629 2650
+type(
+  Format.formatter ->
+  (float -> unit, Format.formatter, unit) format -> float -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 119 2629 2651 "method.ml" 119 2629 2653
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 119 2629 2654 "method.ml" 119 2629 2668
+type(
+  (float -> unit, Format.formatter, unit) format
+)
+"method.ml" 119 2629 2669 "method.ml" 119 2629 2670
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 119 2629 2638 "method.ml" 119 2629 2639
+)
+"method.ml" 119 2629 2643 "method.ml" 119 2629 2670
+type(
+  unit
+)
+"method.ml" 120 2671 2681 "method.ml" 120 2671 2682
+type(
+  float
+)
+ident(
+  def f "method.ml" 120 2671 2686 "method.ml" 120 2671 2714
+)
+"method.ml" 120 2671 2675 "method.ml" 120 2671 2682
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 120 2671 2686 "method.ml" 120 2671 2693
+type(
+  Format.formatter ->
+  (float -> unit, Format.formatter, unit) format -> float -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 120 2671 2694 "method.ml" 120 2671 2696
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 120 2671 2697 "method.ml" 120 2671 2712
+type(
+  (float -> unit, Format.formatter, unit) format
+)
+"method.ml" 120 2671 2713 "method.ml" 120 2671 2714
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 120 2671 2681 "method.ml" 120 2671 2682
+)
+"method.ml" 120 2671 2686 "method.ml" 120 2671 2714
+type(
+  unit
+)
+"method.ml" 121 2715 2726 "method.ml" 121 2715 2727
+type(
+  float
+)
+ident(
+  def f "method.ml" 121 2715 2731 "method.ml" 121 2715 2760
+)
+"method.ml" 121 2715 2719 "method.ml" 121 2715 2727
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 121 2715 2731 "method.ml" 121 2715 2738
+type(
+  Format.formatter ->
+  (float -> unit, Format.formatter, unit) format -> float -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 121 2715 2739 "method.ml" 121 2715 2741
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 121 2715 2742 "method.ml" 121 2715 2758
+type(
+  (float -> unit, Format.formatter, unit) format
+)
+"method.ml" 121 2715 2759 "method.ml" 121 2715 2760
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 121 2715 2726 "method.ml" 121 2715 2727
+)
+"method.ml" 121 2715 2731 "method.ml" 121 2715 2760
+type(
+  unit
+)
+"method.ml" 122 2761 2769 "method.ml" 122 2761 2770
+type(
+  float
+)
+ident(
+  def f "method.ml" 122 2761 2774 "method.ml" 122 2761 2800
+)
+"method.ml" 122 2761 2765 "method.ml" 122 2761 2770
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 122 2761 2774 "method.ml" 122 2761 2781
+type(
+  Format.formatter ->
+  (float -> unit, Format.formatter, unit) format -> float -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 122 2761 2782 "method.ml" 122 2761 2784
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 122 2761 2785 "method.ml" 122 2761 2798
+type(
+  (float -> unit, Format.formatter, unit) format
+)
+"method.ml" 122 2761 2799 "method.ml" 122 2761 2800
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 122 2761 2769 "method.ml" 122 2761 2770
+)
+"method.ml" 122 2761 2774 "method.ml" 122 2761 2800
+type(
+  unit
+)
+"method.ml" 123 2801 2813 "method.ml" 123 2801 2814
+type(
+  float
+)
+ident(
+  def f "method.ml" 123 2801 2818 "method.ml" 123 2801 2845
+)
+"method.ml" 123 2801 2805 "method.ml" 123 2801 2814
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 123 2801 2818 "method.ml" 123 2801 2825
+type(
+  Format.formatter ->
+  (float -> unit, Format.formatter, unit) format -> float -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 123 2801 2826 "method.ml" 123 2801 2828
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 123 2801 2829 "method.ml" 123 2801 2843
+type(
+  (float -> unit, Format.formatter, unit) format
+)
+"method.ml" 123 2801 2844 "method.ml" 123 2801 2845
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 123 2801 2813 "method.ml" 123 2801 2814
+)
+"method.ml" 123 2801 2818 "method.ml" 123 2801 2845
+type(
+  unit
+)
+"method.ml" 124 2846 2857 "method.ml" 124 2846 2858
+type(
+  float
+)
+ident(
+  def f "method.ml" 124 2846 2862 "method.ml" 124 2846 2888
+)
+"method.ml" 124 2846 2850 "method.ml" 124 2846 2858
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 124 2846 2862 "method.ml" 124 2846 2869
+type(
+  Format.formatter ->
+  (float -> unit, Format.formatter, unit) format -> float -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 124 2846 2870 "method.ml" 124 2846 2872
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 124 2846 2873 "method.ml" 124 2846 2886
+type(
+  (float -> unit, Format.formatter, unit) format
+)
+"method.ml" 124 2846 2887 "method.ml" 124 2846 2888
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 124 2846 2857 "method.ml" 124 2846 2858
+)
+"method.ml" 124 2846 2862 "method.ml" 124 2846 2888
+type(
+  unit
+)
+"method.ml" 125 2889 2898 "method.ml" 125 2889 2899
+type(
+  float
+)
+ident(
+  def f "method.ml" 125 2889 2903 "method.ml" 125 2889 2928
+)
+"method.ml" 125 2889 2893 "method.ml" 125 2889 2899
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 125 2889 2903 "method.ml" 125 2889 2910
+type(
+  Format.formatter ->
+  (float -> unit, Format.formatter, unit) format -> float -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 125 2889 2911 "method.ml" 125 2889 2913
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 125 2889 2914 "method.ml" 125 2889 2926
+type(
+  (float -> unit, Format.formatter, unit) format
+)
+"method.ml" 125 2889 2927 "method.ml" 125 2889 2928
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 125 2889 2898 "method.ml" 125 2889 2899
+)
+"method.ml" 125 2889 2903 "method.ml" 125 2889 2928
+type(
+  unit
+)
+"method.ml" 126 2929 2937 "method.ml" 126 2929 2938
+type(
+  float
+)
+ident(
+  def f "method.ml" 126 2929 2942 "method.ml" 126 2929 2966
+)
+"method.ml" 126 2929 2933 "method.ml" 126 2929 2938
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 126 2929 2942 "method.ml" 126 2929 2949
+type(
+  Format.formatter ->
+  (float -> unit, Format.formatter, unit) format -> float -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 126 2929 2950 "method.ml" 126 2929 2952
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 126 2929 2953 "method.ml" 126 2929 2964
+type(
+  (float -> unit, Format.formatter, unit) format
+)
+"method.ml" 126 2929 2965 "method.ml" 126 2929 2966
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 126 2929 2937 "method.ml" 126 2929 2938
+)
+"method.ml" 126 2929 2942 "method.ml" 126 2929 2966
+type(
+  unit
+)
+"method.ml" 127 2967 2977 "method.ml" 127 2967 2978
+type(
+  float
+)
+ident(
+  def f "method.ml" 127 2967 2982 "method.ml" 127 2967 3009
+)
+"method.ml" 127 2967 2971 "method.ml" 127 2967 2978
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 127 2967 2982 "method.ml" 127 2967 2989
+type(
+  Format.formatter ->
+  (float -> unit, Format.formatter, unit) format -> float -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 127 2967 2990 "method.ml" 127 2967 2992
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 127 2967 2993 "method.ml" 127 2967 3007
+type(
+  (float -> unit, Format.formatter, unit) format
+)
+"method.ml" 127 2967 3008 "method.ml" 127 2967 3009
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 127 2967 2977 "method.ml" 127 2967 2978
+)
+"method.ml" 127 2967 2982 "method.ml" 127 2967 3009
+type(
+  unit
+)
+"method.ml" 128 3010 3020 "method.ml" 128 3010 3021
+type(
+  float
+)
+ident(
+  def f "method.ml" 128 3010 3025 "method.ml" 128 3010 3051
+)
+"method.ml" 128 3010 3014 "method.ml" 128 3010 3021
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 128 3010 3025 "method.ml" 128 3010 3032
+type(
+  Format.formatter ->
+  (float -> unit, Format.formatter, unit) format -> float -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 128 3010 3033 "method.ml" 128 3010 3035
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 128 3010 3036 "method.ml" 128 3010 3049
+type(
+  (float -> unit, Format.formatter, unit) format
+)
+"method.ml" 128 3010 3050 "method.ml" 128 3010 3051
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 128 3010 3020 "method.ml" 128 3010 3021
+)
+"method.ml" 128 3010 3025 "method.ml" 128 3010 3051
+type(
+  unit
+)
+"method.ml" 129 3052 3063 "method.ml" 129 3052 3064
+type(
+  float
+)
+ident(
+  def f "method.ml" 129 3052 3068 "method.ml" 129 3052 3095
+)
+"method.ml" 129 3052 3056 "method.ml" 129 3052 3064
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 129 3052 3068 "method.ml" 129 3052 3075
+type(
+  Format.formatter ->
+  (float -> unit, Format.formatter, unit) format -> float -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 129 3052 3076 "method.ml" 129 3052 3078
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 129 3052 3079 "method.ml" 129 3052 3093
+type(
+  (float -> unit, Format.formatter, unit) format
+)
+"method.ml" 129 3052 3094 "method.ml" 129 3052 3095
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 129 3052 3063 "method.ml" 129 3052 3064
+)
+"method.ml" 129 3052 3068 "method.ml" 129 3052 3095
+type(
+  unit
+)
+"method.ml" 130 3096 3106 "method.ml" 130 3096 3107
+type(
+  float
+)
+ident(
+  def f "method.ml" 130 3096 3111 "method.ml" 130 3096 3138
+)
+"method.ml" 130 3096 3100 "method.ml" 130 3096 3107
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 130 3096 3111 "method.ml" 130 3096 3118
+type(
+  Format.formatter ->
+  (float -> unit, Format.formatter, unit) format -> float -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 130 3096 3119 "method.ml" 130 3096 3121
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 130 3096 3122 "method.ml" 130 3096 3136
+type(
+  (float -> unit, Format.formatter, unit) format
+)
+"method.ml" 130 3096 3137 "method.ml" 130 3096 3138
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 130 3096 3106 "method.ml" 130 3096 3107
+)
+"method.ml" 130 3096 3111 "method.ml" 130 3096 3138
+type(
+  unit
+)
+"method.ml" 131 3139 3149 "method.ml" 131 3139 3150
+type(
+  float
+)
+ident(
+  def f "method.ml" 131 3139 3154 "method.ml" 131 3139 3181
+)
+"method.ml" 131 3139 3143 "method.ml" 131 3139 3150
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 131 3139 3154 "method.ml" 131 3139 3161
+type(
+  Format.formatter ->
+  (float -> unit, Format.formatter, unit) format -> float -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 131 3139 3162 "method.ml" 131 3139 3164
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 131 3139 3165 "method.ml" 131 3139 3179
+type(
+  (float -> unit, Format.formatter, unit) format
+)
+"method.ml" 131 3139 3180 "method.ml" 131 3139 3181
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 131 3139 3149 "method.ml" 131 3139 3150
+)
+"method.ml" 131 3139 3154 "method.ml" 131 3139 3181
+type(
+  unit
+)
+"method.ml" 132 3182 3191 "method.ml" 132 3182 3192
+type(
+  float
+)
+ident(
+  def f "method.ml" 132 3182 3196 "method.ml" 132 3182 3222
+)
+"method.ml" 132 3182 3186 "method.ml" 132 3182 3192
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 132 3182 3196 "method.ml" 132 3182 3203
+type(
+  Format.formatter ->
+  (float -> unit, Format.formatter, unit) format -> float -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 132 3182 3204 "method.ml" 132 3182 3206
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 132 3182 3207 "method.ml" 132 3182 3220
+type(
+  (float -> unit, Format.formatter, unit) format
+)
+"method.ml" 132 3182 3221 "method.ml" 132 3182 3222
+type(
+  float
+)
+ident(
+  int_ref f "method.ml" 132 3182 3191 "method.ml" 132 3182 3192
+)
+"method.ml" 132 3182 3196 "method.ml" 132 3182 3222
+type(
+  unit
+)
+"method.ml" 133 3223 3227 "method.ml" 133 3223 3233
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 133 3223 3237 "method.ml" 133 3223 3244
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 133 3223 3245 "method.ml" 133 3223 3247
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 133 3223 3248 "method.ml" 133 3223 3258
+type(
+  (unit, Format.formatter, unit) format
+)
+"method.ml" 133 3223 3237 "method.ml" 133 3223 3258
+type(
+  unit
+)
+"method.ml" 134 3259 3263 "method.ml" 134 3259 3267
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 134 3259 3271 "method.ml" 134 3259 3278
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 134 3259 3279 "method.ml" 134 3259 3281
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 134 3259 3282 "method.ml" 134 3259 3290
+type(
+  (unit, Format.formatter, unit) format
+)
+"method.ml" 134 3259 3271 "method.ml" 134 3259 3290
+type(
+  unit
+)
+"method.ml" 135 3291 3295 "method.ml" 135 3291 3308
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 135 3291 3312 "method.ml" 135 3291 3319
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 135 3291 3320 "method.ml" 135 3291 3322
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 135 3291 3323 "method.ml" 135 3291 3340
+type(
+  (unit, Format.formatter, unit) format
+)
+"method.ml" 135 3291 3312 "method.ml" 135 3291 3340
+type(
+  unit
+)
+"method.ml" 136 3341 3345 "method.ml" 136 3341 3355
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 136 3341 3359 "method.ml" 136 3341 3366
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 136 3341 3367 "method.ml" 136 3341 3369
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 136 3341 3370 "method.ml" 136 3341 3384
+type(
+  (unit, Format.formatter, unit) format
+)
+"method.ml" 136 3341 3359 "method.ml" 136 3341 3384
+type(
+  unit
+)
+"method.ml" 137 3385 3389 "method.ml" 137 3385 3396
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 137 3385 3400 "method.ml" 137 3385 3407
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 137 3385 3408 "method.ml" 137 3385 3410
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 137 3385 3411 "method.ml" 137 3385 3422
+type(
+  (unit, Format.formatter, unit) format
+)
+"method.ml" 137 3385 3400 "method.ml" 137 3385 3422
+type(
+  unit
+)
+"method.ml" 138 3423 3427 "method.ml" 138 3423 3435
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 138 3423 3439 "method.ml" 138 3423 3446
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 138 3423 3447 "method.ml" 138 3423 3449
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 138 3423 3450 "method.ml" 138 3423 3462
+type(
+  (unit, Format.formatter, unit) format
+)
+"method.ml" 138 3423 3439 "method.ml" 138 3423 3462
+type(
+  unit
+)
+"method.ml" 139 3463 3467 "method.ml" 139 3463 3480
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 139 3463 3484 "method.ml" 139 3463 3491
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 139 3463 3492 "method.ml" 139 3463 3494
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 139 3463 3495 "method.ml" 139 3463 3512
+type(
+  (unit, Format.formatter, unit) format
+)
+"method.ml" 139 3463 3484 "method.ml" 139 3463 3512
+type(
+  unit
+)
+"method.ml" 140 3513 3517 "method.ml" 140 3513 3532
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 140 3513 3536 "method.ml" 140 3513 3543
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 140 3513 3544 "method.ml" 140 3513 3546
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 140 3513 3547 "method.ml" 140 3513 3566
+type(
+  (unit, Format.formatter, unit) format
+)
+"method.ml" 140 3513 3536 "method.ml" 140 3513 3566
+type(
+  unit
+)
+"method.ml" 141 3567 3571 "method.ml" 141 3567 3578
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 141 3567 3582 "method.ml" 141 3567 3589
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 141 3567 3590 "method.ml" 141 3567 3592
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 114 2440 2460 "method.ml" 114 2440 2462
+)
+"method.ml" 141 3567 3593 "method.ml" 141 3567 3604
+type(
+  (unit, Format.formatter, unit) format
+)
+"method.ml" 141 3567 3582 "method.ml" 141 3567 3604
+type(
+  unit
+)
+"method.ml" 115 2467 2469 "method.ml" 141 3567 3604
+type(
+  unit
+)
+"method.ml" 144 3607 3611 "method.ml" 144 3607 3626
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  def pp_print_method "method.ml" 148 3696 3696 "method.ml" 0 0 -1
+)
+"method.ml" 144 3607 3627 "method.ml" 144 3607 3629
+type(
+  Format.formatter
+)
+ident(
+  def ff "method.ml" 144 3607 3630 "method.ml" 145 3637 3693
+)
+"method.ml" 144 3607 3630 "method.ml" 144 3607 3634
+type(
+  t
+)
+ident(
+  def meth "method.ml" 145 3637 3639 "method.ml" 145 3637 3693
+)
+"method.ml" 145 3637 3639 "method.ml" 145 3637 3646
+type(
+  Format.formatter ->
+  ((Format.formatter -> t -> unit) -> t -> unit, Format.formatter, unit)
+  format -> (Format.formatter -> t -> unit) -> t -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1166 44058 44058 "format.mli" 1166 44058 44119
+)
+"method.ml" 145 3637 3647 "method.ml" 145 3637 3649
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "method.ml" 144 3607 3627 "method.ml" 144 3607 3629
+)
+"method.ml" 145 3637 3650 "method.ml" 145 3637 3672
+type(
+  ((Format.formatter -> t -> unit) -> t -> unit, Format.formatter, unit)
+  format
+)
+"method.ml" 145 3637 3673 "method.ml" 145 3637 3688
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  int_ref pp_print_tactic "method.ml" 114 2440 2444 "method.ml" 114 2440 2459
+)
+"method.ml" 145 3637 3689 "method.ml" 145 3637 3693
+type(
+  t
+)
+ident(
+  int_ref meth "method.ml" 144 3607 3630 "method.ml" 144 3607 3634
+)
+"method.ml" 145 3637 3639 "method.ml" 145 3637 3693
+type(
+  unit
+)
+"method.ml" 148 3696 3700 "method.ml" 148 3696 3718
+type(
+  t -> string option * string option
+)
+ident(
+  def prover_meth_of_tac "method.ml" 177 4798 4798 "method.ml" 0 0 -1
+)
+"method.ml" 148 3696 3719 "method.ml" 148 3696 3722
+type(
+  t
+)
+ident(
+  def tac "method.ml" 149 3725 3727 "method.ml" 175 4757 4796
+)
+"method.ml" 149 3725 3733 "method.ml" 149 3725 3736
+type(
+  t
+)
+ident(
+  int_ref tac "method.ml" 148 3696 3719 "method.ml" 148 3696 3722
+)
+"method.ml" 150 3742 3758 "method.ml" 150 3742 3759
+type(
+  float
+)
+"method.ml" 150 3742 3761 "method.ml" 150 3742 3764
+type(
+  string
+)
+ident(
+  def tac "method.ml" 150 3742 3769 "method.ml" 150 3742 3796
+)
+"method.ml" 150 3742 3748 "method.ml" 150 3742 3765
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 150 3742 3775 "method.ml" 150 3742 3785
+type(
+  string
+)
+"method.ml" 150 3742 3770 "method.ml" 150 3742 3785
+type(
+  string option
+)
+"method.ml" 150 3742 3792 "method.ml" 150 3742 3795
+type(
+  string
+)
+ident(
+  int_ref tac "method.ml" 150 3742 3761 "method.ml" 150 3742 3764
+)
+"method.ml" 150 3742 3787 "method.ml" 150 3742 3795
+type(
+  string option
+)
+"method.ml" 150 3742 3769 "method.ml" 150 3742 3796
+type(
+  string option * string option
+)
+"method.ml" 151 3797 3809 "method.ml" 151 3797 3810
+type(
+  float
+)
+ident(
+  def f "method.ml" 151 3797 3814 "method.ml" 151 3797 3834
+)
+"method.ml" 151 3797 3803 "method.ml" 151 3797 3810
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 151 3797 3820 "method.ml" 151 3797 3827
+type(
+  string
+)
+"method.ml" 151 3797 3815 "method.ml" 151 3797 3827
+type(
+  string option
+)
+"method.ml" 151 3797 3829 "method.ml" 151 3797 3833
+type(
+  string option
+)
+"method.ml" 151 3797 3814 "method.ml" 151 3797 3834
+type(
+  string option * string option
+)
+"method.ml" 152 3835 3845 "method.ml" 152 3835 3846
+type(
+  float
+)
+ident(
+  def f "method.ml" 152 3835 3850 "method.ml" 152 3835 3868
+)
+"method.ml" 152 3835 3841 "method.ml" 152 3835 3846
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 152 3835 3856 "method.ml" 152 3835 3861
+type(
+  string
+)
+"method.ml" 152 3835 3851 "method.ml" 152 3835 3861
+type(
+  string option
+)
+"method.ml" 152 3835 3863 "method.ml" 152 3835 3867
+type(
+  string option
+)
+"method.ml" 152 3835 3850 "method.ml" 152 3835 3868
+type(
+  string option * string option
+)
+"method.ml" 153 3869 3880 "method.ml" 153 3869 3881
+type(
+  float
+)
+ident(
+  def f "method.ml" 153 3869 3885 "method.ml" 153 3869 3905
+)
+"method.ml" 153 3869 3875 "method.ml" 153 3869 3881
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 153 3869 3891 "method.ml" 153 3869 3898
+type(
+  string
+)
+"method.ml" 153 3869 3886 "method.ml" 153 3869 3898
+type(
+  string option
+)
+"method.ml" 153 3869 3900 "method.ml" 153 3869 3904
+type(
+  string option
+)
+"method.ml" 153 3869 3885 "method.ml" 153 3869 3905
+type(
+  string option * string option
+)
+"method.ml" 154 3906 3918 "method.ml" 154 3906 3919
+type(
+  float
+)
+ident(
+  def f "method.ml" 154 3906 3923 "method.ml" 154 3906 3944
+)
+"method.ml" 154 3906 3912 "method.ml" 154 3906 3919
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 154 3906 3929 "method.ml" 154 3906 3937
+type(
+  string
+)
+"method.ml" 154 3906 3924 "method.ml" 154 3906 3937
+type(
+  string option
+)
+"method.ml" 154 3906 3939 "method.ml" 154 3906 3943
+type(
+  string option
+)
+"method.ml" 154 3906 3923 "method.ml" 154 3906 3944
+type(
+  string option * string option
+)
+"method.ml" 155 3945 3958 "method.ml" 155 3945 3959
+type(
+  float
+)
+ident(
+  def f "method.ml" 155 3945 3963 "method.ml" 155 3945 3985
+)
+"method.ml" 155 3945 3951 "method.ml" 155 3945 3959
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 155 3945 3969 "method.ml" 155 3945 3978
+type(
+  string
+)
+"method.ml" 155 3945 3964 "method.ml" 155 3945 3978
+type(
+  string option
+)
+"method.ml" 155 3945 3980 "method.ml" 155 3945 3984
+type(
+  string option
+)
+"method.ml" 155 3945 3963 "method.ml" 155 3945 3985
+type(
+  string option * string option
+)
+"method.ml" 156 3986 3996 "method.ml" 156 3986 3997
+type(
+  float
+)
+ident(
+  def f "method.ml" 156 3986 4001 "method.ml" 156 3986 4020
+)
+"method.ml" 156 3986 3992 "method.ml" 156 3986 3997
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 156 3986 4007 "method.ml" 156 3986 4013
+type(
+  string
+)
+"method.ml" 156 3986 4002 "method.ml" 156 3986 4013
+type(
+  string option
+)
+"method.ml" 156 3986 4015 "method.ml" 156 3986 4019
+type(
+  string option
+)
+"method.ml" 156 3986 4001 "method.ml" 156 3986 4020
+type(
+  string option * string option
+)
+"method.ml" 157 4021 4035 "method.ml" 157 4021 4036
+type(
+  float
+)
+ident(
+  def f "method.ml" 157 4021 4040 "method.ml" 157 4021 4062
+)
+"method.ml" 157 4021 4027 "method.ml" 157 4021 4036
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 157 4021 4046 "method.ml" 157 4021 4055
+type(
+  string
+)
+"method.ml" 157 4021 4041 "method.ml" 157 4021 4055
+type(
+  string option
+)
+"method.ml" 157 4021 4057 "method.ml" 157 4021 4061
+type(
+  string option
+)
+"method.ml" 157 4021 4040 "method.ml" 157 4021 4062
+type(
+  string option * string option
+)
+"method.ml" 158 4063 4076 "method.ml" 158 4063 4077
+type(
+  float
+)
+ident(
+  def f "method.ml" 158 4063 4081 "method.ml" 158 4063 4102
+)
+"method.ml" 158 4063 4069 "method.ml" 158 4063 4077
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 158 4063 4087 "method.ml" 158 4063 4095
+type(
+  string
+)
+"method.ml" 158 4063 4082 "method.ml" 158 4063 4095
+type(
+  string option
+)
+"method.ml" 158 4063 4097 "method.ml" 158 4063 4101
+type(
+  string option
+)
+"method.ml" 158 4063 4081 "method.ml" 158 4063 4102
+type(
+  string option * string option
+)
+"method.ml" 159 4103 4114 "method.ml" 159 4103 4115
+type(
+  float
+)
+ident(
+  def f "method.ml" 159 4103 4119 "method.ml" 159 4103 4137
+)
+"method.ml" 159 4103 4109 "method.ml" 159 4103 4115
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 159 4103 4125 "method.ml" 159 4103 4130
+type(
+  string
+)
+"method.ml" 159 4103 4120 "method.ml" 159 4103 4130
+type(
+  string option
+)
+"method.ml" 159 4103 4132 "method.ml" 159 4103 4136
+type(
+  string option
+)
+"method.ml" 159 4103 4119 "method.ml" 159 4103 4137
+type(
+  string option * string option
+)
+"method.ml" 160 4138 4148 "method.ml" 160 4138 4149
+type(
+  float
+)
+ident(
+  def f "method.ml" 160 4138 4153 "method.ml" 160 4138 4170
+)
+"method.ml" 160 4138 4144 "method.ml" 160 4138 4149
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 160 4138 4159 "method.ml" 160 4138 4163
+type(
+  string
+)
+"method.ml" 160 4138 4154 "method.ml" 160 4138 4163
+type(
+  string option
+)
+"method.ml" 160 4138 4165 "method.ml" 160 4138 4169
+type(
+  string option
+)
+"method.ml" 160 4138 4153 "method.ml" 160 4138 4170
+type(
+  string option * string option
+)
+"method.ml" 161 4171 4183 "method.ml" 161 4171 4184
+type(
+  float
+)
+ident(
+  def f "method.ml" 161 4171 4188 "method.ml" 161 4171 4208
+)
+"method.ml" 161 4171 4177 "method.ml" 161 4171 4184
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 161 4171 4194 "method.ml" 161 4171 4201
+type(
+  string
+)
+"method.ml" 161 4171 4189 "method.ml" 161 4171 4201
+type(
+  string option
+)
+"method.ml" 161 4171 4203 "method.ml" 161 4171 4207
+type(
+  string option
+)
+"method.ml" 161 4171 4188 "method.ml" 161 4171 4208
+type(
+  string option * string option
+)
+"method.ml" 162 4209 4221 "method.ml" 162 4209 4222
+type(
+  float
+)
+ident(
+  def f "method.ml" 162 4209 4226 "method.ml" 162 4209 4245
+)
+"method.ml" 162 4209 4215 "method.ml" 162 4209 4222
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 162 4209 4232 "method.ml" 162 4209 4238
+type(
+  string
+)
+"method.ml" 162 4209 4227 "method.ml" 162 4209 4238
+type(
+  string option
+)
+"method.ml" 162 4209 4240 "method.ml" 162 4209 4244
+type(
+  string option
+)
+"method.ml" 162 4209 4226 "method.ml" 162 4209 4245
+type(
+  string option * string option
+)
+"method.ml" 163 4246 4259 "method.ml" 163 4246 4260
+type(
+  float
+)
+ident(
+  def f "method.ml" 163 4246 4264 "method.ml" 163 4246 4284
+)
+"method.ml" 163 4246 4252 "method.ml" 163 4246 4260
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 163 4246 4270 "method.ml" 163 4246 4277
+type(
+  string
+)
+"method.ml" 163 4246 4265 "method.ml" 163 4246 4277
+type(
+  string option
+)
+"method.ml" 163 4246 4279 "method.ml" 163 4246 4283
+type(
+  string option
+)
+"method.ml" 163 4246 4264 "method.ml" 163 4246 4284
+type(
+  string option * string option
+)
+"method.ml" 164 4285 4297 "method.ml" 164 4285 4298
+type(
+  float
+)
+ident(
+  def f "method.ml" 164 4285 4302 "method.ml" 164 4285 4322
+)
+"method.ml" 164 4285 4291 "method.ml" 164 4285 4298
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 164 4285 4308 "method.ml" 164 4285 4315
+type(
+  string
+)
+"method.ml" 164 4285 4303 "method.ml" 164 4285 4315
+type(
+  string option
+)
+"method.ml" 164 4285 4317 "method.ml" 164 4285 4321
+type(
+  string option
+)
+"method.ml" 164 4285 4302 "method.ml" 164 4285 4322
+type(
+  string option * string option
+)
+"method.ml" 165 4323 4335 "method.ml" 165 4323 4336
+type(
+  float
+)
+ident(
+  def f "method.ml" 165 4323 4340 "method.ml" 165 4323 4360
+)
+"method.ml" 165 4323 4329 "method.ml" 165 4323 4336
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 165 4323 4346 "method.ml" 165 4323 4353
+type(
+  string
+)
+"method.ml" 165 4323 4341 "method.ml" 165 4323 4353
+type(
+  string option
+)
+"method.ml" 165 4323 4355 "method.ml" 165 4323 4359
+type(
+  string option
+)
+"method.ml" 165 4323 4340 "method.ml" 165 4323 4360
+type(
+  string option * string option
+)
+"method.ml" 166 4361 4372 "method.ml" 166 4361 4373
+type(
+  float
+)
+ident(
+  def f "method.ml" 166 4361 4377 "method.ml" 166 4361 4396
+)
+"method.ml" 166 4361 4367 "method.ml" 166 4361 4373
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 166 4361 4383 "method.ml" 166 4361 4389
+type(
+  string
+)
+"method.ml" 166 4361 4378 "method.ml" 166 4361 4389
+type(
+  string option
+)
+"method.ml" 166 4361 4391 "method.ml" 166 4361 4395
+type(
+  string option
+)
+"method.ml" 166 4361 4377 "method.ml" 166 4361 4396
+type(
+  string option * string option
+)
+"method.ml" 167 4397 4403 "method.ml" 167 4397 4409
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 167 4397 4419 "method.ml" 167 4397 4427
+type(
+  string
+)
+"method.ml" 167 4397 4414 "method.ml" 167 4397 4427
+type(
+  string option
+)
+"method.ml" 167 4397 4429 "method.ml" 167 4397 4433
+type(
+  string option
+)
+"method.ml" 167 4397 4413 "method.ml" 167 4397 4434
+type(
+  string option * string option
+)
+"method.ml" 168 4435 4441 "method.ml" 168 4435 4445
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 168 4435 4455 "method.ml" 168 4435 4461
+type(
+  string
+)
+"method.ml" 168 4435 4450 "method.ml" 168 4435 4461
+type(
+  string option
+)
+"method.ml" 168 4435 4463 "method.ml" 168 4435 4467
+type(
+  string option
+)
+"method.ml" 168 4435 4449 "method.ml" 168 4435 4468
+type(
+  string option * string option
+)
+"method.ml" 169 4469 4475 "method.ml" 169 4469 4488
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 169 4469 4498 "method.ml" 169 4469 4513
+type(
+  string
+)
+"method.ml" 169 4469 4493 "method.ml" 169 4469 4513
+type(
+  string option
+)
+"method.ml" 169 4469 4515 "method.ml" 169 4469 4519
+type(
+  string option
+)
+"method.ml" 169 4469 4492 "method.ml" 169 4469 4520
+type(
+  string option * string option
+)
+"method.ml" 170 4521 4527 "method.ml" 170 4521 4537
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 170 4521 4547 "method.ml" 170 4521 4559
+type(
+  string
+)
+"method.ml" 170 4521 4542 "method.ml" 170 4521 4559
+type(
+  string option
+)
+"method.ml" 170 4521 4561 "method.ml" 170 4521 4565
+type(
+  string option
+)
+"method.ml" 170 4521 4541 "method.ml" 170 4521 4566
+type(
+  string option * string option
+)
+"method.ml" 171 4567 4573 "method.ml" 171 4567 4580
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 171 4567 4590 "method.ml" 171 4567 4599
+type(
+  string
+)
+"method.ml" 171 4567 4585 "method.ml" 171 4567 4599
+type(
+  string option
+)
+"method.ml" 171 4567 4601 "method.ml" 171 4567 4605
+type(
+  string option
+)
+"method.ml" 171 4567 4584 "method.ml" 171 4567 4606
+type(
+  string option * string option
+)
+"method.ml" 172 4607 4613 "method.ml" 172 4607 4621
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 172 4607 4631 "method.ml" 172 4607 4641
+type(
+  string
+)
+"method.ml" 172 4607 4626 "method.ml" 172 4607 4641
+type(
+  string option
+)
+"method.ml" 172 4607 4643 "method.ml" 172 4607 4647
+type(
+  string option
+)
+"method.ml" 172 4607 4625 "method.ml" 172 4607 4648
+type(
+  string option * string option
+)
+"method.ml" 173 4649 4655 "method.ml" 173 4649 4668
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 173 4649 4678 "method.ml" 173 4649 4693
+type(
+  string
+)
+"method.ml" 173 4649 4673 "method.ml" 173 4649 4693
+type(
+  string option
+)
+"method.ml" 173 4649 4695 "method.ml" 173 4649 4699
+type(
+  string option
+)
+"method.ml" 173 4649 4672 "method.ml" 173 4649 4700
+type(
+  string option * string option
+)
+"method.ml" 174 4701 4707 "method.ml" 174 4701 4722
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 174 4701 4732 "method.ml" 174 4701 4749
+type(
+  string
+)
+"method.ml" 174 4701 4727 "method.ml" 174 4701 4749
+type(
+  string option
+)
+"method.ml" 174 4701 4751 "method.ml" 174 4701 4755
+type(
+  string option
+)
+"method.ml" 174 4701 4726 "method.ml" 174 4701 4756
+type(
+  string option * string option
+)
+"method.ml" 175 4757 4763 "method.ml" 175 4757 4770
+type(
+  t
+)
+type(
+  t
+)
+"method.ml" 175 4757 4780 "method.ml" 175 4757 4789
+type(
+  string
+)
+"method.ml" 175 4757 4775 "method.ml" 175 4757 4789
+type(
+  string option
+)
+"method.ml" 175 4757 4791 "method.ml" 175 4757 4795
+type(
+  string option
+)
+"method.ml" 175 4757 4774 "method.ml" 175 4757 4796
+type(
+  string option * string option
+)
+"method.ml" 149 3725 3727 "method.ml" 175 4757 4796
+type(
+  string option * string option
+)

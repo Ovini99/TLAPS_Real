@@ -1,0 +1,106 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:18:36 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp record1_test.tla --stretch 5
+
+(* created new ".tlacache/TLAPS.tlaps/TLAPS.thy" *)
+(* fingerprints written in ".tlacache/TLAPS.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/record1_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+COMMAND-LINE ARGUMENT
+file=.tlacache/record1_test.tlaps/tlapm_62da0d.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/record1_test.tlaps/tlapm_62da0d.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #1
+;;   generated from file "./record1_test.tla", line 16, characters 5-11
+
+(set-logic UFNIA)
+(declare-sort u 0)
+(declare-sort str 0)
+;; Standard TLA+ operators
+(declare-fun str2u (str) u)
+(declare-fun u2str (u) str)
+(declare-fun tla__in (u u) Bool)
+(declare-fun tla__isAFcn (u) Bool)
+(declare-fun tla__DOMAIN (u) u)
+(declare-fun tla__fcnapp (u u) u)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Aunde_a () u)
+(declare-fun a_CONSTANTunde_Bunde_a () u)
+(declare-fun a_CONSTANTunde_Cunde_a () u)
+(declare-fun a_CONSTANTunde_runde_a () u)
+(declare-fun a_aunde_unde_1a () u)
+(declare-fun string__bar () str)
+(declare-fun string__baz () str)
+(declare-fun string__foo () str)
+
+(assert
+  (forall ((X_5 str)) (! (= (u2str (str2u X_5)) X_5) :pattern ((str2u X_5)))))
+(assert
+  (forall ((S_8 u) (T_9 u))
+  (=> (forall ((X_5 u)) (= (tla__in X_5 S_8) (tla__in X_5 T_9))) (= S_8 T_9))))
+(assert
+  (forall ((F_11 u) (G_12 u))
+  (=>
+  (and
+  (tla__isAFcn F_11) (tla__isAFcn G_12)
+  (forall ((X_5 u))
+  (= (tla__in X_5 (tla__DOMAIN F_11)) (tla__in X_5 (tla__DOMAIN G_12)))))
+  (= (tla__DOMAIN F_11) (tla__DOMAIN G_12)))))
+(assert
+  (forall ((F_11 u) (G_12 u))
+  (=>
+  (and
+  (tla__isAFcn F_11) (tla__isAFcn G_12)
+  (= (tla__DOMAIN F_11) (tla__DOMAIN G_12))
+  (forall ((X_5 u))
+  (=>
+  (tla__in X_5 (tla__DOMAIN G_12))
+  (= (tla__fcnapp F_11 X_5) (tla__fcnapp G_12 X_5)))))
+  (= F_11 G_12))))
+(assert (distinct string__bar string__baz string__foo))
+
+
+;; Theorem to be Proved
+(assert (not
+  (and
+    (tla__in
+      (tla__fcnapp a_CONSTANTunde_runde_a (str2u string__foo))
+      a_CONSTANTunde_Aunde_a)
+    (tla__in
+      (tla__fcnapp a_CONSTANTunde_runde_a (str2u string__bar))
+      a_CONSTANTunde_Bunde_a)
+    (tla__in
+      (tla__fcnapp a_CONSTANTunde_runde_a (str2u string__baz))
+      a_CONSTANTunde_Cunde_a))))
+(assert
+  (forall ((a_v2a u))
+    (! (=
+         (tla__in a_v2a a_aunde_unde_1a)
+         (or
+           (= a_v2a (str2u string__bar)) (= a_v2a (str2u string__baz))
+           (= a_v2a (str2u string__foo)))) :pattern ((tla__in
+                                                       a_v2a a_aunde_unde_1a)))))
+(assert (tla__isAFcn a_CONSTANTunde_runde_a))
+(assert (= (tla__DOMAIN a_CONSTANTunde_runde_a) a_aunde_unde_1a))
+(assert
+  (tla__in
+    (tla__fcnapp a_CONSTANTunde_runde_a (str2u string__foo))
+    a_CONSTANTunde_Aunde_a))
+(assert
+  (tla__in
+    (tla__fcnapp a_CONSTANTunde_runde_a (str2u string__bar))
+    a_CONSTANTunde_Bunde_a))
+(assert
+  (tla__in
+    (tla__fcnapp a_CONSTANTunde_runde_a (str2u string__baz))
+    a_CONSTANTunde_Cunde_a))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+(* created new ".tlacache/record1_test.tlaps/record1_test.thy" *)
+(* fingerprints written in ".tlacache/record1_test.tlaps/fingerprints" *)

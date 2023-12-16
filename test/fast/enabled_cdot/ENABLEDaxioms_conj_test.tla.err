@@ -1,0 +1,325 @@
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:0
+@!!END
+
+File "/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library/TLAPS.tla", line 1, character 1 to line 363, character 77:
+[INFO]: All 0 obligation proved.
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:17:1:17:3
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:17:4:17:17
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:22:1:22:3
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:4
+@!!loc:22:4:22:17
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:5
+@!!loc:26:1:26:3
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:6
+@!!loc:26:4:26:17
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:7
+@!!loc:31:1:31:3
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:8
+@!!loc:31:4:31:17
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:9
+@!!loc:35:1:35:3
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:10
+@!!loc:35:4:35:17
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:11
+@!!loc:40:1:40:3
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:12
+@!!loc:40:4:40:17
+@!!status:to be proved
+@!!END
+
+@!!BEGIN
+@!!type:obligationsnumber
+@!!count:12
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:1
+@!!loc:17:1:17:3
+@!!status:failed
+@!!prover:enabledaxioms
+@!!meth:time-limit: inf
+@!!reason:ENABLEDaxioms proof directive did not succeed.
+
+@!!already:false
+@!!obl:ENABLEDaxioms proof directive did not succeed.
+
+Obligation:
+
+ASSUME NEW VARIABLE x,
+       NEW VARIABLE y,
+       TRUE 
+PROVE  ENABLED (x' /\ y') <=> ENABLED (x') /\ ENABLED (y')
+
+@!!END
+
+Executable "isabelle-process" not found in this PATH:
+/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin
+@!!BEGIN
+@!!type:obligation
+@!!id:2
+@!!loc:17:4:17:17
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:3
+@!!loc:22:1:22:3
+@!!status:failed
+@!!prover:enabledaxioms
+@!!meth:time-limit: inf
+@!!reason:ENABLEDaxioms proof directive did not succeed.
+
+@!!already:false
+@!!obl:ENABLEDaxioms proof directive did not succeed.
+
+Obligation:
+
+ASSUME NEW VARIABLE x,
+       NEW VARIABLE y,
+       TRUE 
+PROVE  ENABLED (x') /\ ENABLED (y') <=> ENABLED (x' /\ y')
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:4
+@!!loc:22:4:22:17
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:5
+@!!loc:26:1:26:3
+@!!status:failed
+@!!prover:enabledaxioms
+@!!meth:time-limit: inf
+@!!reason:ENABLEDaxioms proof directive did not succeed.
+
+@!!already:false
+@!!obl:ENABLEDaxioms proof directive did not succeed.
+
+Obligation:
+
+ASSUME NEW VARIABLE x,
+       NEW VARIABLE y,
+       TRUE 
+PROVE  ENABLED (x' /\ C) <=> ENABLED (x') /\ ENABLED C
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:6
+@!!loc:26:4:26:17
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:7
+@!!loc:31:1:31:3
+@!!status:failed
+@!!prover:enabledaxioms
+@!!meth:time-limit: inf
+@!!reason:ENABLEDaxioms proof directive did not succeed.
+
+@!!already:false
+@!!obl:ENABLEDaxioms proof directive did not succeed.
+
+Obligation:
+
+ASSUME NEW VARIABLE x,
+       NEW VARIABLE y,
+       TRUE 
+PROVE  ENABLED (x') /\ ENABLED C <=> ENABLED (x' /\ C)
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:8
+@!!loc:31:4:31:17
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:9
+@!!loc:35:1:35:3
+@!!status:failed
+@!!prover:enabledaxioms
+@!!meth:time-limit: inf
+@!!reason:ENABLEDaxioms proof directive did not succeed.
+
+@!!already:false
+@!!obl:ENABLEDaxioms proof directive did not succeed.
+
+Obligation:
+
+ASSUME NEW VARIABLE x,
+       NEW VARIABLE y,
+       TRUE 
+PROVE  ENABLED (y' /\ C) <=> ENABLED (y') /\ ENABLED C
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:10
+@!!loc:35:4:35:17
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:11
+@!!loc:40:1:40:3
+@!!status:failed
+@!!prover:enabledaxioms
+@!!meth:time-limit: inf
+@!!reason:ENABLEDaxioms proof directive did not succeed.
+
+@!!already:false
+@!!obl:ENABLEDaxioms proof directive did not succeed.
+
+Obligation:
+
+ASSUME NEW VARIABLE x,
+       NEW VARIABLE y,
+       TRUE 
+PROVE  ENABLED (y') /\ ENABLED C <=> ENABLED (y' /\ C)
+
+@!!END
+
+@!!BEGIN
+@!!type:obligation
+@!!id:12
+@!!loc:40:4:40:17
+@!!status:trivial
+@!!prover:tlapm
+@!!already:false
+@!!END
+
+File "./ENABLEDaxioms_conj_test.tla", line 40, characters 1-2:
+[ERROR]: Could not prove or check:
+           ASSUME NEW VARIABLE x,
+                  NEW VARIABLE y,
+                  B == y',
+                  ENABLEDaxioms 
+           PROVE  ENABLED B /\ ENABLED C <=> ENABLED (B /\ C)
+File "./ENABLEDaxioms_conj_test.tla", line 35, characters 1-2:
+[ERROR]: Could not prove or check:
+           ASSUME NEW VARIABLE x,
+                  NEW VARIABLE y,
+                  B == y',
+                  ENABLEDaxioms 
+           PROVE  ENABLED (B /\ C) <=> ENABLED B /\ ENABLED C
+File "./ENABLEDaxioms_conj_test.tla", line 31, characters 1-2:
+[ERROR]: Could not prove or check:
+           ASSUME NEW VARIABLE x,
+                  NEW VARIABLE y,
+                  A == x',
+                  ENABLEDaxioms 
+           PROVE  ENABLED A /\ ENABLED C <=> ENABLED (A /\ C)
+File "./ENABLEDaxioms_conj_test.tla", line 26, characters 1-2:
+[ERROR]: Could not prove or check:
+           ASSUME NEW VARIABLE x,
+                  NEW VARIABLE y,
+                  A == x',
+                  ENABLEDaxioms 
+           PROVE  ENABLED (A /\ C) <=> ENABLED A /\ ENABLED C
+File "./ENABLEDaxioms_conj_test.tla", line 22, characters 1-2:
+[ERROR]: Could not prove or check:
+           ASSUME NEW VARIABLE x,
+                  NEW VARIABLE y,
+                  A == x',
+                  B == y',
+                  ENABLEDaxioms 
+           PROVE  ENABLED A /\ ENABLED B <=> ENABLED (A /\ B)
+File "./ENABLEDaxioms_conj_test.tla", line 17, characters 1-2:
+[ERROR]: Could not prove or check:
+           ASSUME NEW VARIABLE x,
+                  NEW VARIABLE y,
+                  A == x',
+                  B == y',
+                  ENABLEDaxioms 
+           PROVE  ENABLED (A /\ B) <=> ENABLED A /\ ENABLED B
+File "./ENABLEDaxioms_conj_test.tla", line 1, character 1 to line 42, character 80:
+[ERROR]: 6/12 obligations failed.
+There were backend errors processing module `"ENABLEDaxioms_conj_test"`.

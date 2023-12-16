@@ -1,0 +1,1461 @@
+"errors.ml" 8 110 114 "errors.ml" 8 110 127
+type(
+  'a Property.wrapped option -> string
+)
+ident(
+  def loc_to_string "errors.ml" 18 301 301 "errors.ml" 0 0 -1
+)
+"errors.ml" 8 110 128 "errors.ml" 8 110 130
+type(
+  'a Property.wrapped option
+)
+ident(
+  def at "errors.ml" 9 133 137 "errors.ml" 14 243 297
+)
+"errors.ml" 9 133 143 "errors.ml" 9 133 145
+type(
+  'a Property.wrapped option
+)
+ident(
+  int_ref at "errors.ml" 8 110 128 "errors.ml" 8 110 130
+)
+"errors.ml" 10 151 157 "errors.ml" 10 151 161
+type(
+  'a Property.wrapped option
+)
+type(
+  'a Property.wrapped option
+)
+"errors.ml" 10 151 165 "errors.ml" 10 151 167
+type(
+  string
+)
+"errors.ml" 11 168 179 "errors.ml" 11 168 180
+type(
+  'a Property.wrapped
+)
+ident(
+  def w "errors.ml" 12 184 192 "errors.ml" 14 243 297
+)
+"errors.ml" 11 168 174 "errors.ml" 11 168 180
+type(
+  'a Property.wrapped option
+)
+type(
+  'a Property.wrapped option
+)
+"errors.ml" 12 184 198 "errors.ml" 12 184 214
+type(
+  'a Property.wrapped -> Loc.locus option
+)
+ident(
+  int_ref Util.query_locus "util.mli" 18 321 321 "util.mli" 18 321 369
+)
+"errors.ml" 12 184 215 "errors.ml" 12 184 216
+type(
+  'a Property.wrapped
+)
+ident(
+  int_ref w "errors.ml" 11 168 179 "errors.ml" 11 168 180
+)
+"errors.ml" 12 184 198 "errors.ml" 12 184 216
+type(
+  Loc.locus option
+)
+"errors.ml" 13 222 232 "errors.ml" 13 222 236
+type(
+  Loc.locus option
+)
+type(
+  Loc.locus option
+)
+"errors.ml" 13 222 240 "errors.ml" 13 222 242
+type(
+  string
+)
+"errors.ml" 14 243 258 "errors.ml" 14 243 261
+type(
+  Loc.locus
+)
+ident(
+  def loc "errors.ml" 14 243 265 "errors.ml" 14 243 297
+)
+"errors.ml" 14 243 253 "errors.ml" 14 243 261
+type(
+  Loc.locus option
+)
+type(
+  Loc.locus option
+)
+"errors.ml" 14 243 265 "errors.ml" 14 243 284
+type(
+  ?cap:bool -> Loc.locus -> string
+)
+ident(
+  int_ref Loc.string_of_locus "loc.mli" 64 1777 1777 "loc.mli" 64 1777 1827
+)
+"errors.ml" 14 243 285 "errors.ml" 14 243 288
+type(
+  Loc.locus
+)
+ident(
+  int_ref loc "errors.ml" 14 243 258 "errors.ml" 14 243 261
+)
+"errors.ml" 14 243 265 "errors.ml" 14 243 288
+type(
+  string
+)
+"errors.ml" 14 243 289 "errors.ml" 14 243 290
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"errors.ml" 14 243 291 "errors.ml" 14 243 297
+type(
+  string
+)
+"errors.ml" 14 243 265 "errors.ml" 14 243 297
+type(
+  string
+)
+"errors.ml" 12 184 192 "errors.ml" 14 243 297
+type(
+  string
+)
+"errors.ml" 9 133 137 "errors.ml" 14 243 297
+type(
+  string
+)
+"errors.ml" 18 301 305 "errors.ml" 18 301 309
+type(
+  ?at:'a Property.wrapped -> ('b, unit, string, unit) format4 -> 'b
+)
+ident(
+  def info "errors.ml" 25 421 421 "errors.ml" 0 0 -1
+)
+"errors.ml" 18 301 311 "errors.ml" 18 301 313
+type(
+  'a Property.wrapped option
+)
+ident(
+  def at "errors.ml" 18 301 314 "errors.ml" 21 392 417
+)
+"errors.ml" 18 301 314 "errors.ml" 18 301 317
+type(
+  ('b, unit, string, unit) format4
+)
+ident(
+  def fmt "errors.ml" 19 320 324 "errors.ml" 21 392 417
+)
+"errors.ml" 19 320 328 "errors.ml" 19 320 329
+type(
+  string -> unit
+)
+ident(
+  def k "errors.ml" 21 392 396 "errors.ml" 21 392 417
+)
+"errors.ml" 19 320 330 "errors.ml" 19 320 331
+type(
+  string
+)
+ident(
+  def s "errors.ml" 19 320 334 "errors.ml" 20 349 388
+)
+"errors.ml" 19 320 334 "errors.ml" 19 320 348
+type(
+  (string -> string -> unit, out_channel, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.eprintf "printf.mli" 132 6998 6998 "printf.mli" 132 6998 7048
+)
+"errors.ml" 20 349 357 "errors.ml" 20 349 367
+type(
+  (string -> string -> unit, out_channel, unit) format
+)
+"errors.ml" 20 349 369 "errors.ml" 20 349 382
+type(
+  'a Property.wrapped option -> string
+)
+ident(
+  int_ref loc_to_string "errors.ml" 8 110 114 "errors.ml" 8 110 127
+)
+"errors.ml" 20 349 383 "errors.ml" 20 349 385
+type(
+  'a Property.wrapped option
+)
+ident(
+  int_ref at "errors.ml" 18 301 311 "errors.ml" 18 301 313
+)
+"errors.ml" 20 349 368 "errors.ml" 20 349 386
+type(
+  string
+)
+"errors.ml" 20 349 387 "errors.ml" 20 349 388
+type(
+  string
+)
+ident(
+  int_ref s "errors.ml" 19 320 330 "errors.ml" 19 320 331
+)
+"errors.ml" 19 320 334 "errors.ml" 20 349 388
+type(
+  unit
+)
+"errors.ml" 21 392 396 "errors.ml" 21 392 411
+type(
+  (string -> unit) -> ('b, unit, string, unit) format4 -> 'b
+)
+ident(
+  int_ref Stdlib.Format.ksprintf "format.mli" 1326 50810 50810 "format.mli" 1326 50810 50879
+)
+"errors.ml" 21 392 412 "errors.ml" 21 392 413
+type(
+  string -> unit
+)
+ident(
+  int_ref k "errors.ml" 19 320 328 "errors.ml" 19 320 329
+)
+"errors.ml" 21 392 414 "errors.ml" 21 392 417
+type(
+  ('b, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "errors.ml" 18 301 314 "errors.ml" 18 301 317
+)
+"errors.ml" 21 392 396 "errors.ml" 21 392 417
+type(
+  'b
+)
+"errors.ml" 19 320 324 "errors.ml" 21 392 417
+type(
+  'b
+)
+"errors.ml" 25 421 425 "errors.ml" 25 421 432
+type(
+  Buffer.t
+)
+ident(
+  def warnbuf "errors.ml" 26 454 454 "errors.ml" 0 0 -1
+)
+"errors.ml" 25 421 435 "errors.ml" 25 421 448
+type(
+  int -> Buffer.t
+)
+ident(
+  int_ref Stdlib.Buffer.create "buffer.mli" 36 1534 1534 "buffer.mli" 36 1534 1555
+)
+"errors.ml" 25 421 449 "errors.ml" 25 421 451
+type(
+  int
+)
+"errors.ml" 25 421 435 "errors.ml" 25 421 451
+type(
+  Buffer.t
+)
+"errors.ml" 26 454 454 "errors.ml" 26 454 469
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  int_ref Stdlib.Buffer.add_char "buffer.mli" 109 4444 4444 "buffer.mli" 109 4444 4476
+)
+"errors.ml" 26 454 470 "errors.ml" 26 454 477
+type(
+  Buffer.t
+)
+ident(
+  int_ref warnbuf "errors.ml" 25 421 425 "errors.ml" 25 421 432
+)
+"errors.ml" 26 454 478 "errors.ml" 26 454 482
+type(
+  char
+)
+"errors.ml" 26 454 454 "errors.ml" 26 454 482
+type(
+  unit
+)
+"errors.ml" 29 485 489 "errors.ml" 29 485 493
+type(
+  ?at:'a Property.wrapped -> ('b, unit, string, unit) format4 -> 'b
+)
+ident(
+  def warn "errors.ml" 36 649 649 "errors.ml" 0 0 -1
+)
+"errors.ml" 29 485 495 "errors.ml" 29 485 497
+type(
+  'a Property.wrapped option
+)
+ident(
+  def at "errors.ml" 29 485 498 "errors.ml" 33 621 646
+)
+"errors.ml" 29 485 498 "errors.ml" 29 485 501
+type(
+  ('b, unit, string, unit) format4
+)
+ident(
+  def fmt "errors.ml" 30 504 508 "errors.ml" 33 621 646
+)
+"errors.ml" 30 504 512 "errors.ml" 30 504 513
+type(
+  string -> unit
+)
+ident(
+  def k "errors.ml" 33 621 625 "errors.ml" 33 621 646
+)
+"errors.ml" 30 504 514 "errors.ml" 30 504 515
+type(
+  string
+)
+ident(
+  def s "errors.ml" 31 518 526 "errors.ml" 32 574 617
+)
+"errors.ml" 31 518 526 "errors.ml" 31 518 540
+type(
+  (string -> string -> unit, out_channel, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.eprintf "printf.mli" 132 6998 6998 "printf.mli" 132 6998 7048
+)
+"errors.ml" 31 518 541 "errors.ml" 31 518 551
+type(
+  (string -> string -> unit, out_channel, unit) format
+)
+"errors.ml" 31 518 553 "errors.ml" 31 518 566
+type(
+  'a Property.wrapped option -> string
+)
+ident(
+  int_ref loc_to_string "errors.ml" 8 110 114 "errors.ml" 8 110 127
+)
+"errors.ml" 31 518 567 "errors.ml" 31 518 569
+type(
+  'a Property.wrapped option
+)
+ident(
+  int_ref at "errors.ml" 29 485 495 "errors.ml" 29 485 497
+)
+"errors.ml" 31 518 552 "errors.ml" 31 518 570
+type(
+  string
+)
+"errors.ml" 31 518 571 "errors.ml" 31 518 572
+type(
+  string
+)
+ident(
+  int_ref s "errors.ml" 30 504 514 "errors.ml" 30 504 515
+)
+"errors.ml" 31 518 526 "errors.ml" 31 518 572
+type(
+  unit
+)
+"errors.ml" 32 574 582 "errors.ml" 32 574 596
+type(
+  Buffer.t -> (string -> unit, Buffer.t, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.bprintf "printf.mli" 139 7305 7305 "printf.mli" 139 7305 7364
+)
+"errors.ml" 32 574 597 "errors.ml" 32 574 604
+type(
+  Buffer.t
+)
+ident(
+  int_ref warnbuf "errors.ml" 25 421 425 "errors.ml" 25 421 432
+)
+"errors.ml" 32 574 605 "errors.ml" 32 574 615
+type(
+  (string -> unit, Buffer.t, unit) format
+)
+"errors.ml" 32 574 616 "errors.ml" 32 574 617
+type(
+  string
+)
+ident(
+  int_ref s "errors.ml" 30 504 514 "errors.ml" 30 504 515
+)
+"errors.ml" 32 574 582 "errors.ml" 32 574 617
+type(
+  unit
+)
+"errors.ml" 31 518 526 "errors.ml" 32 574 617
+type(
+  unit
+)
+"errors.ml" 33 621 625 "errors.ml" 33 621 640
+type(
+  (string -> unit) -> ('b, unit, string, unit) format4 -> 'b
+)
+ident(
+  int_ref Stdlib.Format.ksprintf "format.mli" 1326 50810 50810 "format.mli" 1326 50810 50879
+)
+"errors.ml" 33 621 641 "errors.ml" 33 621 642
+type(
+  string -> unit
+)
+ident(
+  int_ref k "errors.ml" 30 504 512 "errors.ml" 30 504 513
+)
+"errors.ml" 33 621 643 "errors.ml" 33 621 646
+type(
+  ('b, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "errors.ml" 29 485 498 "errors.ml" 29 485 501
+)
+"errors.ml" 33 621 625 "errors.ml" 33 621 646
+type(
+  'b
+)
+"errors.ml" 30 504 508 "errors.ml" 33 621 646
+type(
+  'b
+)
+"errors.ml" 36 649 653 "errors.ml" 36 649 665
+type(
+  unit -> string
+)
+ident(
+  def get_warnings "errors.ml" 43 782 782 "errors.ml" 0 0 -1
+)
+"errors.ml" 36 649 666 "errors.ml" 36 649 668
+type(
+  unit
+)
+"errors.ml" 37 671 679 "errors.ml" 37 671 682
+type(
+  string
+)
+ident(
+  def res "errors.ml" 38 712 716 "errors.ml" 40 772 779
+)
+"errors.ml" 37 671 685 "errors.ml" 37 671 700
+type(
+  Buffer.t -> string
+)
+ident(
+  int_ref Stdlib.Buffer.contents "buffer.mli" 50 2314 2314 "buffer.mli" 50 2314 2340
+)
+"errors.ml" 37 671 701 "errors.ml" 37 671 708
+type(
+  Buffer.t
+)
+ident(
+  int_ref warnbuf "errors.ml" 25 421 425 "errors.ml" 25 421 432
+)
+"errors.ml" 37 671 685 "errors.ml" 37 671 708
+type(
+  string
+)
+"errors.ml" 38 712 716 "errors.ml" 38 712 728
+type(
+  Buffer.t -> unit
+)
+ident(
+  int_ref Stdlib.Buffer.clear "buffer.mli" 83 3489 3489 "buffer.mli" 83 3489 3510
+)
+"errors.ml" 38 712 729 "errors.ml" 38 712 736
+type(
+  Buffer.t
+)
+ident(
+  int_ref warnbuf "errors.ml" 25 421 425 "errors.ml" 25 421 432
+)
+"errors.ml" 38 712 716 "errors.ml" 38 712 736
+type(
+  unit
+)
+"errors.ml" 39 738 742 "errors.ml" 39 738 757
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  int_ref Stdlib.Buffer.add_char "buffer.mli" 109 4444 4444 "buffer.mli" 109 4444 4476
+)
+"errors.ml" 39 738 758 "errors.ml" 39 738 765
+type(
+  Buffer.t
+)
+ident(
+  int_ref warnbuf "errors.ml" 25 421 425 "errors.ml" 25 421 432
+)
+"errors.ml" 39 738 766 "errors.ml" 39 738 770
+type(
+  char
+)
+"errors.ml" 39 738 742 "errors.ml" 39 738 770
+type(
+  unit
+)
+"errors.ml" 40 772 776 "errors.ml" 40 772 779
+type(
+  string
+)
+ident(
+  int_ref res "errors.ml" 37 671 679 "errors.ml" 37 671 682
+)
+"errors.ml" 39 738 742 "errors.ml" 40 772 779
+type(
+  string
+)
+"errors.ml" 38 712 716 "errors.ml" 40 772 779
+type(
+  string
+)
+"errors.ml" 37 671 675 "errors.ml" 40 772 779
+type(
+  string
+)
+"errors.ml" 43 782 786 "errors.ml" 43 782 798
+type(
+  string -> unit
+)
+ident(
+  def set_warnings "errors.ml" 48 863 863 "errors.ml" 0 0 -1
+)
+"errors.ml" 43 782 799 "errors.ml" 43 782 800
+type(
+  string
+)
+ident(
+  def s "errors.ml" 44 803 807 "errors.ml" 45 829 860
+)
+"errors.ml" 44 803 807 "errors.ml" 44 803 819
+type(
+  Buffer.t -> unit
+)
+ident(
+  int_ref Stdlib.Buffer.clear "buffer.mli" 83 3489 3489 "buffer.mli" 83 3489 3510
+)
+"errors.ml" 44 803 820 "errors.ml" 44 803 827
+type(
+  Buffer.t
+)
+ident(
+  int_ref warnbuf "errors.ml" 25 421 425 "errors.ml" 25 421 432
+)
+"errors.ml" 44 803 807 "errors.ml" 44 803 827
+type(
+  unit
+)
+"errors.ml" 45 829 833 "errors.ml" 45 829 850
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  int_ref Stdlib.Buffer.add_string "buffer.mli" 132 5167 5167 "buffer.mli" 132 5167 5203
+)
+"errors.ml" 45 829 851 "errors.ml" 45 829 858
+type(
+  Buffer.t
+)
+ident(
+  int_ref warnbuf "errors.ml" 25 421 425 "errors.ml" 25 421 432
+)
+"errors.ml" 45 829 859 "errors.ml" 45 829 860
+type(
+  string
+)
+ident(
+  int_ref s "errors.ml" 43 782 799 "errors.ml" 43 782 800
+)
+"errors.ml" 45 829 833 "errors.ml" 45 829 860
+type(
+  unit
+)
+"errors.ml" 44 803 807 "errors.ml" 45 829 860
+type(
+  unit
+)
+"errors.ml" 48 863 867 "errors.ml" 48 863 870
+type(
+  string option -> ?at:'a Property.wrapped -> string -> unit
+)
+ident(
+  def aux "errors.ml" 62 1292 1292 "errors.ml" 0 0 -1
+)
+"errors.ml" 48 863 871 "errors.ml" 48 863 874
+type(
+  string option
+)
+ident(
+  def url "errors.ml" 48 863 875 "errors.ml" 60 1283 1290
+)
+"errors.ml" 48 863 876 "errors.ml" 48 863 878
+type(
+  'a Property.wrapped option
+)
+ident(
+  def at "errors.ml" 48 863 879 "errors.ml" 60 1283 1290
+)
+"errors.ml" 48 863 879 "errors.ml" 48 863 882
+type(
+  string
+)
+ident(
+  def msg "errors.ml" 49 885 889 "errors.ml" 60 1283 1290
+)
+"errors.ml" 49 885 893 "errors.ml" 49 885 898
+type(
+  string
+)
+ident(
+  def locus "errors.ml" 50 921 925 "errors.ml" 60 1283 1290
+)
+"errors.ml" 49 885 901 "errors.ml" 49 885 914
+type(
+  'a Property.wrapped option -> string
+)
+ident(
+  int_ref loc_to_string "errors.ml" 8 110 114 "errors.ml" 8 110 127
+)
+"errors.ml" 49 885 915 "errors.ml" 49 885 917
+type(
+  'a Property.wrapped option
+)
+ident(
+  int_ref at "errors.ml" 48 863 876 "errors.ml" 48 863 878
+)
+"errors.ml" 49 885 901 "errors.ml" 49 885 917
+type(
+  string
+)
+"errors.ml" 50 921 928 "errors.ml" 50 921 929
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"errors.ml" 50 921 929 "errors.ml" 50 921 943
+type(
+  bool ref
+)
+ident(
+  int_ref Params.toolbox "params.mli" 6 83 83 "params.mli" 6 83 104
+)
+"errors.ml" 50 921 928 "errors.ml" 50 921 943
+type(
+  bool
+)
+"errors.ml" 51 949 963 "errors.ml" 51 949 966
+type(
+  string option
+)
+ident(
+  int_ref url "errors.ml" 48 863 871 "errors.ml" 48 863 874
+)
+"errors.ml" 52 972 982 "errors.ml" 52 972 986
+type(
+  string option
+)
+type(
+  string option
+)
+"errors.ml" 52 972 990 "errors.ml" 52 972 1015
+type(
+  string -> unit
+)
+ident(
+  int_ref Toolbox_msg.print_warning "toolbox_msg.mli" 5 63 63 "toolbox_msg.mli" 5 63 96
+)
+"errors.ml" 52 972 1017 "errors.ml" 52 972 1022
+type(
+  string
+)
+ident(
+  int_ref locus "errors.ml" 49 885 893 "errors.ml" 49 885 898
+)
+"errors.ml" 52 972 1023 "errors.ml" 52 972 1024
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"errors.ml" 52 972 1025 "errors.ml" 52 972 1028
+type(
+  string
+)
+ident(
+  int_ref msg "errors.ml" 48 863 879 "errors.ml" 48 863 882
+)
+"errors.ml" 52 972 1016 "errors.ml" 52 972 1029
+type(
+  string
+)
+"errors.ml" 52 972 990 "errors.ml" 52 972 1029
+type(
+  unit
+)
+"errors.ml" 53 1031 1046 "errors.ml" 53 1031 1047
+type(
+  string
+)
+ident(
+  def u "errors.ml" 53 1031 1051 "errors.ml" 53 1031 1090
+)
+"errors.ml" 53 1031 1041 "errors.ml" 53 1031 1047
+type(
+  string option
+)
+type(
+  string option
+)
+"errors.ml" 53 1031 1051 "errors.ml" 53 1031 1074
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref Toolbox_msg.print_error "toolbox_msg.mli" 10 191 191 "toolbox_msg.mli" 10 191 232
+)
+"errors.ml" 53 1031 1076 "errors.ml" 53 1031 1081
+type(
+  string
+)
+ident(
+  int_ref locus "errors.ml" 49 885 893 "errors.ml" 49 885 898
+)
+"errors.ml" 53 1031 1082 "errors.ml" 53 1031 1083
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"errors.ml" 53 1031 1084 "errors.ml" 53 1031 1087
+type(
+  string
+)
+ident(
+  int_ref msg "errors.ml" 48 863 879 "errors.ml" 48 863 882
+)
+"errors.ml" 53 1031 1075 "errors.ml" 53 1031 1088
+type(
+  string
+)
+"errors.ml" 53 1031 1089 "errors.ml" 53 1031 1090
+type(
+  string
+)
+ident(
+  int_ref u "errors.ml" 53 1031 1046 "errors.ml" 53 1031 1047
+)
+"errors.ml" 53 1031 1051 "errors.ml" 53 1031 1090
+type(
+  unit
+)
+"errors.ml" 51 949 957 "errors.ml" 53 1031 1090
+type(
+  unit
+)
+"errors.ml" 55 1106 1114 "errors.ml" 55 1106 1128
+type(
+  (string -> string -> unit, out_channel, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.eprintf "printf.mli" 132 6998 6998 "printf.mli" 132 6998 7048
+)
+"errors.ml" 55 1106 1129 "errors.ml" 55 1106 1139
+type(
+  (string -> string -> unit, out_channel, unit) format
+)
+"errors.ml" 55 1106 1140 "errors.ml" 55 1106 1145
+type(
+  string
+)
+ident(
+  int_ref locus "errors.ml" 49 885 893 "errors.ml" 49 885 898
+)
+"errors.ml" 55 1106 1146 "errors.ml" 55 1106 1149
+type(
+  string
+)
+ident(
+  int_ref msg "errors.ml" 48 863 879 "errors.ml" 48 863 882
+)
+"errors.ml" 55 1106 1114 "errors.ml" 55 1106 1149
+type(
+  unit
+)
+"errors.ml" 56 1151 1165 "errors.ml" 56 1151 1168
+type(
+  string option
+)
+ident(
+  int_ref url "errors.ml" 48 863 871 "errors.ml" 48 863 874
+)
+"errors.ml" 57 1174 1184 "errors.ml" 57 1174 1188
+type(
+  string option
+)
+type(
+  string option
+)
+"errors.ml" 57 1174 1192 "errors.ml" 57 1174 1194
+type(
+  unit
+)
+"errors.ml" 58 1195 1210 "errors.ml" 58 1195 1211
+type(
+  string
+)
+ident(
+  def u "errors.ml" 58 1195 1215 "errors.ml" 59 1230 1282
+)
+"errors.ml" 58 1195 1205 "errors.ml" 58 1195 1211
+type(
+  string option
+)
+type(
+  string option
+)
+"errors.ml" 58 1195 1215 "errors.ml" 58 1195 1229
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.eprintf "printf.mli" 132 6998 6998 "printf.mli" 132 6998 7048
+)
+"errors.ml" 59 1230 1242 "errors.ml" 59 1230 1280
+type(
+  (string -> unit, out_channel, unit) format
+)
+"errors.ml" 59 1230 1281 "errors.ml" 59 1230 1282
+type(
+  string
+)
+ident(
+  int_ref u "errors.ml" 58 1195 1210 "errors.ml" 58 1195 1211
+)
+"errors.ml" 58 1195 1215 "errors.ml" 59 1230 1282
+type(
+  unit
+)
+"errors.ml" 56 1151 1159 "errors.ml" 59 1230 1282
+type(
+  unit
+)
+"errors.ml" 54 1091 1100 "errors.ml" 60 1283 1290
+type(
+  unit
+)
+"errors.ml" 50 921 925 "errors.ml" 60 1283 1290
+type(
+  unit
+)
+"errors.ml" 49 885 889 "errors.ml" 60 1283 1290
+type(
+  unit
+)
+"errors.ml" 62 1292 1296 "errors.ml" 62 1292 1299
+type(
+  ?at:'a Property.wrapped -> ('b, unit, string, unit) format4 -> 'b
+)
+ident(
+  def err "errors.ml" 64 1357 1357 "errors.ml" 0 0 -1
+)
+"errors.ml" 62 1292 1301 "errors.ml" 62 1292 1303
+type(
+  'a Property.wrapped option
+)
+ident(
+  def at "errors.ml" 62 1292 1304 "errors.ml" 62 1292 1355
+)
+"errors.ml" 62 1292 1304 "errors.ml" 62 1292 1307
+type(
+  ('b, unit, string, unit) format4
+)
+ident(
+  def fmt "errors.ml" 62 1292 1310 "errors.ml" 62 1292 1355
+)
+"errors.ml" 62 1292 1310 "errors.ml" 62 1292 1325
+type(
+  (string -> unit) -> ('b, unit, string, unit) format4 -> 'b
+)
+ident(
+  int_ref Stdlib.Format.ksprintf "format.mli" 1326 50810 50810 "format.mli" 1326 50810 50879
+)
+"errors.ml" 62 1292 1331 "errors.ml" 62 1292 1332
+type(
+  string
+)
+ident(
+  def x "errors.ml" 62 1292 1336 "errors.ml" 62 1292 1350
+)
+"errors.ml" 62 1292 1336 "errors.ml" 62 1292 1339
+type(
+  string option -> ?at:'a Property.wrapped -> string -> unit
+)
+ident(
+  int_ref aux "errors.ml" 48 863 867 "errors.ml" 48 863 870
+)
+"errors.ml" 62 1292 1340 "errors.ml" 62 1292 1344
+type(
+  string option
+)
+"errors.ml" 62 1292 1346 "errors.ml" 62 1292 1348
+type(
+  'a Property.wrapped option
+)
+ident(
+  int_ref at "errors.ml" 62 1292 1301 "errors.ml" 62 1292 1303
+)
+"errors.ml" 62 1292 1349 "errors.ml" 62 1292 1350
+type(
+  string
+)
+ident(
+  int_ref x "errors.ml" 62 1292 1331 "errors.ml" 62 1292 1332
+)
+"errors.ml" 62 1292 1336 "errors.ml" 62 1292 1350
+type(
+  unit
+)
+"errors.ml" 62 1292 1326 "errors.ml" 62 1292 1351
+type(
+  string -> unit
+)
+"errors.ml" 62 1292 1352 "errors.ml" 62 1292 1355
+type(
+  ('b, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "errors.ml" 62 1292 1304 "errors.ml" 62 1292 1307
+)
+"errors.ml" 62 1292 1310 "errors.ml" 62 1292 1355
+type(
+  'b
+)
+"errors.ml" 64 1357 1361 "errors.ml" 64 1357 1366
+type(
+  ?at:'a Property.wrapped -> ('b, unit, string, 'c) format4 -> 'b
+)
+ident(
+  def fatal "errors.ml" 71 1484 1484 "errors.ml" 0 0 -1
+)
+"errors.ml" 64 1357 1368 "errors.ml" 64 1357 1370
+type(
+  'a Property.wrapped option
+)
+ident(
+  def at "errors.ml" 64 1357 1371 "errors.ml" 68 1456 1481
+)
+"errors.ml" 64 1357 1371 "errors.ml" 64 1357 1374
+type(
+  ('b, unit, string, 'c) format4
+)
+ident(
+  def fmt "errors.ml" 65 1377 1381 "errors.ml" 68 1456 1481
+)
+"errors.ml" 65 1377 1385 "errors.ml" 65 1377 1386
+type(
+  string -> 'd
+)
+ident(
+  def f "errors.ml" 68 1456 1460 "errors.ml" 68 1456 1481
+)
+"errors.ml" 65 1377 1387 "errors.ml" 65 1377 1388
+type(
+  string
+)
+ident(
+  def x "errors.ml" 66 1391 1399 "errors.ml" 67 1433 1452
+)
+"errors.ml" 66 1391 1399 "errors.ml" 66 1391 1402
+type(
+  string option -> ?at:'a Property.wrapped -> string -> unit
+)
+ident(
+  int_ref aux "errors.ml" 48 863 867 "errors.ml" 48 863 870
+)
+"errors.ml" 66 1391 1403 "errors.ml" 66 1391 1407
+type(
+  string option
+)
+"errors.ml" 66 1391 1409 "errors.ml" 66 1391 1411
+type(
+  'a Property.wrapped option
+)
+ident(
+  int_ref at "errors.ml" 64 1357 1368 "errors.ml" 64 1357 1370
+)
+"errors.ml" 66 1391 1413 "errors.ml" 66 1391 1414
+type(
+  string
+)
+ident(
+  int_ref x "errors.ml" 65 1377 1387 "errors.ml" 65 1377 1388
+)
+"errors.ml" 66 1391 1415 "errors.ml" 66 1391 1416
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"errors.ml" 66 1391 1417 "errors.ml" 66 1391 1430
+type(
+  string
+)
+"errors.ml" 66 1391 1412 "errors.ml" 66 1391 1431
+type(
+  string
+)
+"errors.ml" 66 1391 1399 "errors.ml" 66 1391 1431
+type(
+  unit
+)
+"errors.ml" 67 1433 1441 "errors.ml" 67 1433 1446
+type(
+  exn -> 'd
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"errors.ml" 67 1433 1447 "errors.ml" 67 1433 1452
+type(
+  exn
+)
+"errors.ml" 67 1433 1441 "errors.ml" 67 1433 1452
+type(
+  'd
+)
+"errors.ml" 66 1391 1399 "errors.ml" 67 1433 1452
+type(
+  'd
+)
+"errors.ml" 68 1456 1460 "errors.ml" 68 1456 1475
+type(
+  (string -> 'c) -> ('b, unit, string, 'c) format4 -> 'b
+)
+ident(
+  int_ref Stdlib.Format.ksprintf "format.mli" 1326 50810 50810 "format.mli" 1326 50810 50879
+)
+"errors.ml" 68 1456 1476 "errors.ml" 68 1456 1477
+type(
+  string -> 'c
+)
+ident(
+  int_ref f "errors.ml" 65 1377 1385 "errors.ml" 65 1377 1386
+)
+"errors.ml" 68 1456 1478 "errors.ml" 68 1456 1481
+type(
+  ('b, unit, string, 'c) format4
+)
+ident(
+  int_ref fmt "errors.ml" 64 1357 1371 "errors.ml" 64 1357 1374
+)
+"errors.ml" 68 1456 1460 "errors.ml" 68 1456 1481
+type(
+  'b
+)
+"errors.ml" 65 1377 1381 "errors.ml" 68 1456 1481
+type(
+  'b
+)
+"errors.ml" 71 1484 1488 "errors.ml" 71 1484 1491
+type(
+  ?at:'a Property.wrapped -> string -> 'b
+)
+ident(
+  def bug "errors.ml" 78 1647 1647 "errors.ml" 0 0 -1
+)
+"errors.ml" 71 1484 1493 "errors.ml" 71 1484 1495
+type(
+  'a Property.wrapped option
+)
+ident(
+  def at "errors.ml" 71 1484 1496 "errors.ml" 73 1556 1572
+)
+"errors.ml" 71 1484 1496 "errors.ml" 71 1484 1499
+type(
+  string
+)
+ident(
+  def msg "errors.ml" 72 1502 1506 "errors.ml" 73 1556 1572
+)
+"errors.ml" 72 1502 1506 "errors.ml" 72 1502 1520
+type(
+  (string -> string -> unit, out_channel, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.eprintf "printf.mli" 132 6998 6998 "printf.mli" 132 6998 7048
+)
+"errors.ml" 72 1502 1521 "errors.ml" 72 1502 1531
+type(
+  (string -> string -> unit, out_channel, unit) format
+)
+"errors.ml" 72 1502 1533 "errors.ml" 72 1502 1546
+type(
+  'a Property.wrapped option -> string
+)
+ident(
+  int_ref loc_to_string "errors.ml" 8 110 114 "errors.ml" 8 110 127
+)
+"errors.ml" 72 1502 1547 "errors.ml" 72 1502 1549
+type(
+  'a Property.wrapped option
+)
+ident(
+  int_ref at "errors.ml" 71 1484 1493 "errors.ml" 71 1484 1495
+)
+"errors.ml" 72 1502 1532 "errors.ml" 72 1502 1550
+type(
+  string
+)
+"errors.ml" 72 1502 1551 "errors.ml" 72 1502 1554
+type(
+  string
+)
+ident(
+  int_ref msg "errors.ml" 71 1484 1496 "errors.ml" 71 1484 1499
+)
+"errors.ml" 72 1502 1506 "errors.ml" 72 1502 1554
+type(
+  unit
+)
+"errors.ml" 73 1556 1567 "errors.ml" 73 1556 1572
+type(
+  bool
+)
+"errors.ml" 73 1556 1560 "errors.ml" 73 1556 1572
+type(
+  'b
+)
+"errors.ml" 72 1502 1506 "errors.ml" 73 1556 1572
+type(
+  'b
+)
+"errors.ml" 78 1647 1651 "errors.ml" 78 1647 1654
+type(
+  string option ref
+)
+ident(
+  def loc "errors.ml" 79 1685 1685 "errors.ml" 0 0 -1
+)
+"errors.ml" 78 1647 1676 "errors.ml" 78 1647 1679
+type(
+  string option -> string option ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"errors.ml" 78 1647 1680 "errors.ml" 78 1647 1684
+type(
+  string option
+)
+"errors.ml" 78 1647 1676 "errors.ml" 78 1647 1684
+type(
+  string option ref
+)
+"errors.ml" 79 1685 1689 "errors.ml" 79 1685 1692
+type(
+  string option ref
+)
+ident(
+  def msg "errors.ml" 80 1723 1723 "errors.ml" 0 0 -1
+)
+"errors.ml" 79 1685 1714 "errors.ml" 79 1685 1717
+type(
+  string option -> string option ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"errors.ml" 79 1685 1718 "errors.ml" 79 1685 1722
+type(
+  string option
+)
+"errors.ml" 79 1685 1714 "errors.ml" 79 1685 1722
+type(
+  string option ref
+)
+"errors.ml" 80 1723 1727 "errors.ml" 80 1723 1734
+type(
+  bool ref
+)
+ident(
+  def warning "errors.ml" 83 1749 1749 "errors.ml" 0 0 -1
+)
+"errors.ml" 80 1723 1737 "errors.ml" 80 1723 1740
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1212 46183 46183 "stdlib.mli" 1212 46183 46227
+)
+"errors.ml" 80 1723 1741 "errors.ml" 80 1723 1746
+type(
+  bool
+)
+"errors.ml" 80 1723 1737 "errors.ml" 80 1723 1746
+type(
+  bool ref
+)
+"errors.ml" 83 1749 1753 "errors.ml" 83 1749 1757
+type(
+  string option -> string
+)
+ident(
+  def sget "errors.ml" 89 1816 1816 "errors.ml" 0 0 -1
+)
+"errors.ml" 83 1749 1758 "errors.ml" 83 1749 1759
+type(
+  string option
+)
+ident(
+  def v "errors.ml" 84 1762 1766 "errors.ml" 86 1796 1813
+)
+"errors.ml" 84 1762 1772 "errors.ml" 84 1762 1773
+type(
+  string option
+)
+ident(
+  int_ref v "errors.ml" 83 1749 1758 "errors.ml" 83 1749 1759
+)
+"errors.ml" 85 1779 1785 "errors.ml" 85 1779 1789
+type(
+  string option
+)
+type(
+  string option
+)
+"errors.ml" 85 1779 1793 "errors.ml" 85 1779 1795
+type(
+  string
+)
+"errors.ml" 86 1796 1807 "errors.ml" 86 1796 1808
+type(
+  string
+)
+ident(
+  def v "errors.ml" 86 1796 1812 "errors.ml" 86 1796 1813
+)
+"errors.ml" 86 1796 1802 "errors.ml" 86 1796 1808
+type(
+  string option
+)
+type(
+  string option
+)
+"errors.ml" 86 1796 1812 "errors.ml" 86 1796 1813
+type(
+  string
+)
+ident(
+  int_ref v "errors.ml" 86 1796 1807 "errors.ml" 86 1796 1808
+)
+"errors.ml" 84 1762 1766 "errors.ml" 86 1796 1813
+type(
+  string
+)
+"errors.ml" 89 1816 1820 "errors.ml" 89 1816 1823
+type(
+  'a Property.wrapped -> string -> unit
+)
+ident(
+  def set "errors.ml" 97 1989 2028 "errors.ml" 0 0 -1
+)
+"errors.ml" 89 1816 1824 "errors.ml" 89 1816 1826
+type(
+  'a Property.wrapped
+)
+ident(
+  def st "errors.ml" 89 1816 1827 "errors.ml" 97 1989 2028
+)
+"errors.ml" 89 1816 1827 "errors.ml" 89 1816 1831
+type(
+  string
+)
+ident(
+  def mesg "errors.ml" 90 1834 1838 "errors.ml" 97 1989 2028
+)
+"errors.ml" 90 1834 1838 "errors.ml" 90 1834 1841
+type(
+  string option ref
+)
+ident(
+  int_ref loc "errors.ml" 78 1647 1651 "errors.ml" 78 1647 1654
+)
+"errors.ml" 90 1834 1842 "errors.ml" 90 1834 1844
+type(
+  string option ref -> string option -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"errors.ml" 91 1851 1862 "errors.ml" 91 1851 1878
+type(
+  'a Property.wrapped -> Loc.locus option
+)
+ident(
+  int_ref Util.query_locus "util.mli" 18 321 321 "util.mli" 18 321 369
+)
+"errors.ml" 91 1851 1879 "errors.ml" 91 1851 1881
+type(
+  'a Property.wrapped
+)
+ident(
+  int_ref st "errors.ml" 89 1816 1824 "errors.ml" 89 1816 1826
+)
+"errors.ml" 91 1851 1861 "errors.ml" 91 1851 1882
+type(
+  Loc.locus option
+)
+"errors.ml" 92 1888 1894 "errors.ml" 92 1888 1898
+type(
+  Loc.locus option
+)
+type(
+  Loc.locus option
+)
+"errors.ml" 93 1902 1910 "errors.ml" 93 1902 1914
+type(
+  string option
+)
+"errors.ml" 94 1915 1926 "errors.ml" 94 1915 1929
+type(
+  Loc.locus
+)
+ident(
+  def loc "errors.ml" 95 1933 1941 "errors.ml" 95 1933 1981
+)
+"errors.ml" 94 1915 1921 "errors.ml" 94 1915 1929
+type(
+  Loc.locus option
+)
+type(
+  Loc.locus option
+)
+"errors.ml" 95 1933 1947 "errors.ml" 95 1933 1966
+type(
+  ?cap:bool -> Loc.locus -> string
+)
+ident(
+  int_ref Loc.string_of_locus "loc.mli" 64 1777 1777 "loc.mli" 64 1777 1827
+)
+"errors.ml" 95 1933 1972 "errors.ml" 95 1933 1976
+type(
+  bool
+)
+type(
+  bool option
+)
+"errors.ml" 95 1933 1977 "errors.ml" 95 1933 1980
+type(
+  Loc.locus
+)
+ident(
+  int_ref loc "errors.ml" 94 1915 1926 "errors.ml" 94 1915 1929
+)
+"errors.ml" 95 1933 1946 "errors.ml" 95 1933 1981
+type(
+  string
+)
+"errors.ml" 95 1933 1941 "errors.ml" 95 1933 1981
+type(
+  string option
+)
+"errors.ml" 90 1834 1845 "errors.ml" 96 1982 1987
+type(
+  string option
+)
+"errors.ml" 90 1834 1838 "errors.ml" 96 1982 1987
+type(
+  unit
+)
+"errors.ml" 97 1989 1991 "errors.ml" 97 1989 1994
+type(
+  string option ref
+)
+ident(
+  int_ref msg "errors.ml" 79 1685 1689 "errors.ml" 79 1685 1692
+)
+"errors.ml" 97 1989 1995 "errors.ml" 97 1989 1997
+type(
+  string option ref -> string option -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1221 46495 46495 "stdlib.mli" 1221 46495 46548
+)
+"errors.ml" 97 1989 2004 "errors.ml" 97 1989 2008
+type(
+  string
+)
+ident(
+  int_ref mesg "errors.ml" 89 1816 1827 "errors.ml" 89 1816 1831
+)
+"errors.ml" 97 1989 2008 "errors.ml" 97 1989 2009
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"errors.ml" 97 1989 2009 "errors.ml" 97 1989 2015
+type(
+  string
+)
+"errors.ml" 97 1989 2015 "errors.ml" 97 1989 2016
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"errors.ml" 97 1989 2017 "errors.ml" 97 1989 2021
+type(
+  string option -> string
+)
+ident(
+  int_ref sget "errors.ml" 83 1749 1753 "errors.ml" 83 1749 1757
+)
+"errors.ml" 97 1989 2022 "errors.ml" 97 1989 2023
+type(
+  string option ref -> string option
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1215 46289 46289 "stdlib.mli" 1215 46289 46330
+)
+"errors.ml" 97 1989 2023 "errors.ml" 97 1989 2026
+type(
+  string option ref
+)
+ident(
+  int_ref msg "errors.ml" 79 1685 1689 "errors.ml" 79 1685 1692
+)
+"errors.ml" 97 1989 2022 "errors.ml" 97 1989 2026
+type(
+  string option
+)
+"errors.ml" 97 1989 2016 "errors.ml" 97 1989 2027
+type(
+  string
+)
+"errors.ml" 97 1989 2009 "errors.ml" 97 1989 2027
+type(
+  string
+)
+"errors.ml" 97 1989 2003 "errors.ml" 97 1989 2028
+type(
+  string
+)
+"errors.ml" 97 1989 1998 "errors.ml" 97 1989 2028
+type(
+  string option
+)
+"errors.ml" 97 1989 1991 "errors.ml" 97 1989 2028
+type(
+  unit
+)
+"errors.ml" 90 1834 1838 "errors.ml" 97 1989 2028
+type(
+  unit
+)

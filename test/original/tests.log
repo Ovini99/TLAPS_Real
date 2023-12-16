@@ -1,0 +1,2546 @@
+###### 2023-11-02 17:57:13 ./TOOLS/do_tests .
+    ./fast/basic/cvc3_false_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2496maxresident)k
+0inputs+8outputs (0major+247minor)pagefaults 0swaps
+    ./fast/basic/isa_false_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2508maxresident)k
+0inputs+8outputs (0major+247minor)pagefaults 0swaps
+    ./fast/basic/isa_true_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2676maxresident)k
+0inputs+8outputs (0major+249minor)pagefaults 0swaps
+    ./fast/basic/nonexistent_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/basic/smt_arith_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2612maxresident)k
+0inputs+8outputs (0major+252minor)pagefaults 0swaps
+    ./fast/basic/smt_false_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2436maxresident)k
+0inputs+8outputs (0major+245minor)pagefaults 0swaps
+    ./fast/basic/tab_character_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2580maxresident)k
+0inputs+8outputs (0major+253minor)pagefaults 0swaps
+    ./fast/basic/true_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2500maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/basic/z3_arith_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2536maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/basic/z3_false_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2560maxresident)k
+0inputs+8outputs (0major+252minor)pagefaults 0swaps
+    ./fast/basic/zen_false_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2612maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/basic/zen_true_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/enabled_cdot/Cdot_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2500maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ENABLEDaxioms_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2508maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ENABLED_INSTANCE_nullary_op_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2512maxresident)k
+0inputs+8outputs (0major+252minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ENABLED_INSTANCE_nullary_op_two_vars_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+252minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ENABLED_INSTANCE_op_with_args_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2536maxresident)k
+0inputs+8outputs (0major+243minor)pagefaults 0swaps
+    ./fast/enabled_cdot/Enabled_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+247minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ExpandENABLED_LET_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2556maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ExpandOnlyCdot_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2676maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ExpandOnlyENABLED_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2484maxresident)k
+0inputs+8outputs (0major+245minor)pagefaults 0swaps
+    ./fast/enabled_cdot/Level_of_parametric_INSTANCE_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2508maxresident)k
+0inputs+8outputs (0major+251minor)pagefaults 0swaps
+    ./fast/enabled_cdot/Level_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+247minor)pagefaults 0swaps
+    ./fast/enabled_cdot/NestedCdot_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/enabled_cdot/NestedENABLED_from_AutoUSE_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2672maxresident)k
+0inputs+8outputs (0major+254minor)pagefaults 0swaps
+    ./fast/enabled_cdot/NestedENABLED_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/fingerprint/FingerprintVariablesParameters_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2596maxresident)k
+0inputs+8outputs (0major+319minor)pagefaults 0swaps
+    ./fast/language/EXCEPTMultipleBrackets_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/language/EXTENDS_in_submodule_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2596maxresident)k
+0inputs+8outputs (0major+251minor)pagefaults 0swaps
+    ./fast/language/INSTANCE_inside_LET_fingerprint_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2572maxresident)k
+0inputs+8outputs (0major+249minor)pagefaults 0swaps
+    ./fast/language/INSTANCE_inside_LET_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2536maxresident)k
+0inputs+8outputs (0major+251minor)pagefaults 0swaps
+    ./fast/language/INSTANCE_shift_due_to_omitted_modunits_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2560maxresident)k
+0inputs+8outputs (0major+253minor)pagefaults 0swaps
+    ./fast/language/Operators_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2536maxresident)k
+0inputs+8outputs (0major+244minor)pagefaults 0swaps
+    ./fast/language/SubrefLL_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+251minor)pagefaults 0swaps
+    ./fast/language/Subref_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2596maxresident)k
+0inputs+8outputs (0major+247minor)pagefaults 0swaps
+    ./fast/language/WFTRUE_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2536maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/regression/consensus/consensus_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2560maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/regression/cooper_instantiation_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2556maxresident)k
+0inputs+8outputs (0major+244minor)pagefaults 0swaps
+    ./fast/regression/higher_order_statement_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2504maxresident)k
+0inputs+8outputs (0major+249minor)pagefaults 0swaps
+    ./fast/regression/MiniProducerConsumer_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2592maxresident)k
+0inputs+8outputs (0major+246minor)pagefaults 0swaps
+    ./fast/regression/parameterized_instantiation_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2508maxresident)k
+0inputs+8outputs (0major+252minor)pagefaults 0swaps
+    ./fast/regression/setEuclid_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/regression/smt_domain_check_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+249minor)pagefaults 0swaps
+    ./fast/regression/z3_fingerprint_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2560maxresident)k
+0inputs+8outputs (0major+313minor)pagefaults 0swaps
+    ./fast/russell_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2508maxresident)k
+0inputs+8outputs (0major+249minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/functions/bijection_thm_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2496maxresident)k
+0inputs+8outputs (0major+245minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/functions/composition_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+246minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/functions/identity1_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2484maxresident)k
+0inputs+8outputs (0major+249minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/functions/identity2_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2496maxresident)k
+0inputs+8outputs (0major+245minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/set_theory/cantor1_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2508maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/set_theory/choice_axiom2_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+245minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/set_theory/choice_axiom_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2504maxresident)k
+0inputs+8outputs (0major+253minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/set_theory/section_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2536maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/tuples/tuple_as_function1_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2596maxresident)k
+0inputs+8outputs (0major+252minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/tuples/tuple_as_function2_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2488maxresident)k
+0inputs+8outputs (0major+249minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith10_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2488maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith11_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith12_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+251minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith13_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2672maxresident)k
+0inputs+8outputs (0major+253minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith14_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2500maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith15_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2620maxresident)k
+0inputs+8outputs (0major+256minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith16_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith17_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2560maxresident)k
+0inputs+8outputs (0major+249minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith18_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2504maxresident)k
+0inputs+8outputs (0major+251minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith19_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2596maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith1_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2500maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith2_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2612maxresident)k
+0inputs+8outputs (0major+253minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith3_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2536maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith4_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2676maxresident)k
+0inputs+8outputs (0major+251minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith5_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2504maxresident)k
+0inputs+8outputs (0major+246minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith6_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith7_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2500maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith8_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+252minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith9_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2508maxresident)k
+0inputs+8outputs (0major+249minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/epsilon/epsilon1_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2484maxresident)k
+0inputs+8outputs (0major+249minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/epsilon/epsilon2_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2676maxresident)k
+0inputs+8outputs (0major+247minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/epsilon/epsilon3_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2536maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/epsilon/epsilon4_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+253minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/extensionality/empty_set_ext_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2560maxresident)k
+0inputs+8outputs (0major+243minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/extensionality/enum_ext_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+246minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/extensionality/fun_ext_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2620maxresident)k
+0inputs+8outputs (0major+255minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/extensionality/set_ext_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2620maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/extensionality/tup_ext_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2620maxresident)k
+0inputs+8outputs (0major+252minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder1_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2508maxresident)k
+0inputs+8outputs (0major+252minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder1_wproof_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2620maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder2_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2484maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder2_wproof_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2676maxresident)k
+0inputs+8outputs (0major+256minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder3_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2504maxresident)k
+0inputs+8outputs (0major+245minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder3_wproof_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2508maxresident)k
+0inputs+8outputs (0major+246minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder4_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2480maxresident)k
+0inputs+8outputs (0major+247minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder4_wproof_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+252minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder5_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2488maxresident)k
+0inputs+8outputs (0major+247minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder5_wproof_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder6_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+247minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder6_wproof_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+253minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function10_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2496maxresident)k
+0inputs+8outputs (0major+245minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function11_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2536maxresident)k
+0inputs+8outputs (0major+246minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function12_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2536maxresident)k
+0inputs+8outputs (0major+246minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function13_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+249minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function14_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2508maxresident)k
+0inputs+8outputs (0major+247minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function15_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function16_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2504maxresident)k
+0inputs+8outputs (0major+249minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function17_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2488maxresident)k
+0inputs+8outputs (0major+251minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function18_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function1_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function20_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2436maxresident)k
+0inputs+8outputs (0major+245minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function21_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+251minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function22_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2508maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function23_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2596maxresident)k
+0inputs+8outputs (0major+253minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function24_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+246minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function25_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2556maxresident)k
+0inputs+8outputs (0major+243minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function26_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2596maxresident)k
+0inputs+8outputs (0major+245minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function27_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function28_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2612maxresident)k
+0inputs+8outputs (0major+249minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function29_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2504maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function2_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function30_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function3_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2568maxresident)k
+0inputs+8outputs (0major+247minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function5_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2564maxresident)k
+0inputs+8outputs (0major+247minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function6_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+16outputs (0major+249minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function7_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2508maxresident)k
+0inputs+8outputs (0major+251minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/basic_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2592maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop10_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2536maxresident)k
+0inputs+8outputs (0major+247minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop11_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2568maxresident)k
+0inputs+8outputs (0major+251minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop12_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2500maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop1_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+251minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop2_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2608maxresident)k
+0inputs+8outputs (0major+252minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop3_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2620maxresident)k
+0inputs+8outputs (0major+246minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop4_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+246minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop5_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2612maxresident)k
+0inputs+8outputs (0major+252minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop6_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2612maxresident)k
+0inputs+8outputs (0major+249minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop7_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2500maxresident)k
+0inputs+8outputs (0major+247minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop8_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2560maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop9_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2476maxresident)k
+0inputs+8outputs (0major+249minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/record/record1_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+253minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/record/record2_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2560maxresident)k
+0inputs+8outputs (0major+249minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/record/record3_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2504maxresident)k
+0inputs+8outputs (0major+251minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set10_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+243minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set11_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2500maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set12_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2476maxresident)k
+0inputs+8outputs (0major+247minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set13_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2488maxresident)k
+0inputs+8outputs (0major+249minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set14_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+247minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set15_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+247minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set16_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+253minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set17_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2504maxresident)k
+0inputs+8outputs (0major+246minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set18_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2608maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set19_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set1_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2620maxresident)k
+0inputs+8outputs (0major+254minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set2_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2496maxresident)k
+0inputs+8outputs (0major+249minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set3_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2608maxresident)k
+0inputs+8outputs (0major+247minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set4_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2620maxresident)k
+0inputs+8outputs (0major+253minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set5_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+252minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set6_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2592maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set7_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2508maxresident)k
+0inputs+8outputs (0major+247minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set8_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+247minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set9_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/string/strings1_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2556maxresident)k
+0inputs+8outputs (0major+244minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/string/strings2_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2620maxresident)k
+0inputs+8outputs (0major+247minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple1_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2596maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple2_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+252minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple3_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2508maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple4_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2500maxresident)k
+0inputs+8outputs (0major+249minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple5_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2500maxresident)k
+0inputs+8outputs (0major+249minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple6_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2500maxresident)k
+0inputs+8outputs (0major+247minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple7_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2584maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/smt_tests/lang/user_ops_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2544maxresident)k
+0inputs+8outputs (0major+250minor)pagefaults 0swaps
+    ./fast/smt_tests/negative/one_div_zero_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2592maxresident)k
+0inputs+8outputs (0major+245minor)pagefaults 0swaps
+    ./fast/smt_tests/negative/zero_in_one_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2592maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/smt_tests/rewriting_rules/quantifiers_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 2676maxresident)k
+0inputs+8outputs (0major+253minor)pagefaults 0swaps
+    ./fast/smt_tests/silly_theorems/app_ambiguity_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2476maxresident)k
+0inputs+8outputs (0major+249minor)pagefaults 0swaps
+    ./fast/smt_tests/silly_theorems/nonempty_integer_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+252minor)pagefaults 0swaps
+    ./fast/smt_tests/silly_theorems/one_implies_one_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2520maxresident)k
+0inputs+8outputs (0major+248minor)pagefaults 0swaps
+    ./fast/smt_tests/silly_theorems/record_as_function_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2540maxresident)k
+0inputs+8outputs (0major+249minor)pagefaults 0swaps
+    ./fast/smt_tests/silly_theorems/x_implies_x_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2616maxresident)k
+0inputs+8outputs (0major+252minor)pagefaults 0swaps
+    ./medium/regression/select_bug_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2676maxresident)k
+0inputs+8outputs (0major+251minor)pagefaults 0swaps
+    ./medium/regression/snapshot/GFX_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 2676maxresident)k
+0inputs+8outputs (0major+254minor)pagefaults 0swaps
+    ./medium/regression/snapshot/SnapShot_test.tla
+wrong result code
+Command exited with non-zero status 3
+0.00user 0.00system 0:00.00elapsed 50%CPU (0avgtext+0avgdata 2484maxresident)k
+0inputs+8outputs (0major+249minor)pagefaults 0swaps
+###### 2023-11-02 17:59:48 ./TOOLS/do_tests .
+    ./fast/basic/cvc3_false_test.tla
+0.03user 0.03system 0:00.06elapsed 101%CPU (0avgtext+0avgdata 21336maxresident)k
+184inputs+72outputs (4major+8537minor)pagefaults 0swaps
+    ./fast/basic/isa_false_test.tla
+0.04user 0.02system 0:00.06elapsed 100%CPU (0avgtext+0avgdata 21324maxresident)k
+0inputs+88outputs (0major+8478minor)pagefaults 0swaps
+    ./fast/basic/isa_true_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+0.03user 0.02system 0:00.05elapsed 101%CPU (0avgtext+0avgdata 21516maxresident)k
+0inputs+88outputs (0major+8472minor)pagefaults 0swaps
+    ./fast/basic/nonexistent_test.tla
+0.04user 0.04system 0:00.07elapsed 131%CPU (0avgtext+0avgdata 29228maxresident)k
+0inputs+88outputs (0major+17570minor)pagefaults 0swaps
+    ./fast/basic/smt_arith_test.tla
+0.04user 0.03system 0:00.06elapsed 120%CPU (0avgtext+0avgdata 29416maxresident)k
+0inputs+96outputs (0major+13984minor)pagefaults 0swaps
+    ./fast/basic/smt_false_test.tla
+0.03user 0.03system 0:00.06elapsed 120%CPU (0avgtext+0avgdata 29264maxresident)k
+0inputs+96outputs (1major+13989minor)pagefaults 0swaps
+    ./fast/basic/tab_character_test.tla
+0.02user 0.00system 0:00.04elapsed 72%CPU (0avgtext+0avgdata 10312maxresident)k
+0inputs+16outputs (0major+2069minor)pagefaults 0swaps
+    ./fast/basic/true_test.tla
+0.04user 0.03system 0:00.06elapsed 121%CPU (0avgtext+0avgdata 29360maxresident)k
+0inputs+96outputs (0major+13990minor)pagefaults 0swaps
+    ./fast/basic/z3_arith_test.tla
+0.06user 0.01system 0:00.07elapsed 121%CPU (0avgtext+0avgdata 29356maxresident)k
+0inputs+96outputs (0major+13985minor)pagefaults 0swaps
+    ./fast/basic/z3_false_test.tla
+0.05user 0.02system 0:00.06elapsed 122%CPU (0avgtext+0avgdata 29304maxresident)k
+0inputs+96outputs (0major+13991minor)pagefaults 0swaps
+    ./fast/basic/zen_false_test.tla
+0.04user 0.02system 0:00.05elapsed 119%CPU (0avgtext+0avgdata 21416maxresident)k
+0inputs+96outputs (0major+12998minor)pagefaults 0swaps
+    ./fast/basic/zen_true_test.tla
+0.04user 0.03system 0:00.06elapsed 122%CPU (0avgtext+0avgdata 21388maxresident)k
+0inputs+96outputs (0major+13040minor)pagefaults 0swaps
+    ./fast/enabled_cdot/Cdot_test.tla
+0.07user 0.04system 0:00.06elapsed 188%CPU (0avgtext+0avgdata 23180maxresident)k
+0inputs+176outputs (0major+27024minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ENABLEDaxioms_test.tla
+0.70user 0.35system 0:00.23elapsed 455%CPU (0avgtext+0avgdata 33456maxresident)k
+0inputs+944outputs (0major+235072minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ENABLED_INSTANCE_nullary_op_test.tla
+0.09user 0.03system 0:00.09elapsed 132%CPU (0avgtext+0avgdata 33228maxresident)k
+0inputs+144outputs (0major+19502minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ENABLED_INSTANCE_nullary_op_two_vars_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+0.04user 0.05system 0:00.07elapsed 130%CPU (0avgtext+0avgdata 32832maxresident)k
+0inputs+160outputs (0major+19507minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ENABLED_INSTANCE_op_with_args_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+0.06user 0.04system 0:00.08elapsed 131%CPU (0avgtext+0avgdata 32800maxresident)k
+0inputs+160outputs (0major+19533minor)pagefaults 0swaps
+    ./fast/enabled_cdot/Enabled_test.tla
+0.39user 0.21system 0:00.16elapsed 368%CPU (0avgtext+0avgdata 33456maxresident)k
+0inputs+616outputs (48major+143048minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ExpandENABLED_LET_test.tla
+0.03user 0.03system 0:00.05elapsed 118%CPU (0avgtext+0avgdata 21508maxresident)k
+0inputs+96outputs (0major+13012minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ExpandOnlyCdot_test.tla
+0.04user 0.00system 0:00.04elapsed 104%CPU (0avgtext+0avgdata 21324maxresident)k
+0inputs+80outputs (0major+8465minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ExpandOnlyENABLED_test.tla
+0.05user 0.00system 0:00.05elapsed 103%CPU (0avgtext+0avgdata 21524maxresident)k
+0inputs+80outputs (0major+8426minor)pagefaults 0swaps
+    ./fast/enabled_cdot/Level_of_parametric_INSTANCE_test.tla
+0.07user 0.03system 0:00.08elapsed 128%CPU (0avgtext+0avgdata 29180maxresident)k
+128inputs+112outputs (1major+18341minor)pagefaults 0swaps
+    ./fast/enabled_cdot/Level_test.tla
+0.06user 0.02system 0:00.07elapsed 112%CPU (0avgtext+0avgdata 21436maxresident)k
+0inputs+136outputs (0major+13689minor)pagefaults 0swaps
+    ./fast/enabled_cdot/NestedCdot_test.tla
+0.09user 0.03system 0:00.06elapsed 189%CPU (0avgtext+0avgdata 25044maxresident)k
+0inputs+160outputs (0major+27796minor)pagefaults 0swaps
+    ./fast/enabled_cdot/NestedENABLED_from_AutoUSE_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+0.03user 0.02system 0:00.05elapsed 101%CPU (0avgtext+0avgdata 21268maxresident)k
+0inputs+88outputs (0major+8458minor)pagefaults 0swaps
+    ./fast/enabled_cdot/NestedENABLED_test.tla
+0.06user 0.04system 0:00.07elapsed 148%CPU (0avgtext+0avgdata 22452maxresident)k
+0inputs+152outputs (1major+22628minor)pagefaults 0swaps
+    ./fast/fingerprint/FingerprintVariablesParameters_test.tla
+required error output is missing
+Command exited with non-zero status 3
+0.10user 0.05system 0:00.10elapsed 145%CPU (0avgtext+0avgdata 33232maxresident)k
+0inputs+176outputs (0major+34792minor)pagefaults 0swaps
+    ./fast/language/EXCEPTMultipleBrackets_test.tla
+0.06user 0.04system 0:00.06elapsed 161%CPU (0avgtext+0avgdata 29312maxresident)k
+0inputs+96outputs (0major+23650minor)pagefaults 0swaps
+    ./fast/language/EXTENDS_in_submodule_test.tla
+0.03user 0.01system 0:00.04elapsed 102%CPU (0avgtext+0avgdata 21400maxresident)k
+0inputs+104outputs (0major+9103minor)pagefaults 0swaps
+    ./fast/language/INSTANCE_inside_LET_fingerprint_test.tla
+0.06user 0.02system 0:00.07elapsed 118%CPU (0avgtext+0avgdata 29424maxresident)k
+0inputs+136outputs (0major+14712minor)pagefaults 0swaps
+    ./fast/language/INSTANCE_inside_LET_test.tla
+0.06user 0.03system 0:00.08elapsed 122%CPU (0avgtext+0avgdata 29220maxresident)k
+0inputs+136outputs (0major+14707minor)pagefaults 0swaps
+    ./fast/language/INSTANCE_shift_due_to_omitted_modunits_test.tla
+0.05user 0.01system 0:00.06elapsed 103%CPU (0avgtext+0avgdata 21388maxresident)k
+0inputs+136outputs (0major+9537minor)pagefaults 0swaps
+    ./fast/language/Operators_test.tla
+0.06user 0.03system 0:00.07elapsed 134%CPU (0avgtext+0avgdata 29296maxresident)k
+0inputs+80outputs (0major+18575minor)pagefaults 0swaps
+    ./fast/language/SubrefLL_test.tla
+0.63user 0.26system 0:00.29elapsed 307%CPU (0avgtext+0avgdata 29532maxresident)k
+0inputs+872outputs (0major+223851minor)pagefaults 0swaps
+    ./fast/language/Subref_test.tla
+0.32user 0.20system 0:00.13elapsed 403%CPU (0avgtext+0avgdata 29220maxresident)k
+0inputs+816outputs (0major+125139minor)pagefaults 0swaps
+    ./fast/language/WFTRUE_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+0.03user 0.01system 0:00.05elapsed 101%CPU (0avgtext+0avgdata 21404maxresident)k
+0inputs+64outputs (0major+7844minor)pagefaults 0swaps
+    ./fast/regression/consensus/consensus_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+10.56user 14.64system 0:25.19elapsed 100%CPU (0avgtext+0avgdata 31872maxresident)k
+0inputs+272outputs (0major+21401minor)pagefaults 0swaps
+    ./fast/regression/cooper_instantiation_test.tla
+0.05user 0.02system 0:00.07elapsed 102%CPU (0avgtext+0avgdata 21404maxresident)k
+0inputs+48outputs (0major+7424minor)pagefaults 0swaps
+    ./fast/regression/higher_order_statement_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+0.14user 0.06system 0:00.14elapsed 146%CPU (0avgtext+0avgdata 32820maxresident)k
+0inputs+160outputs (0major+24276minor)pagefaults 0swaps
+    ./fast/regression/MiniProducerConsumer_test.tla
+114.75user 32.60system 1:06.27elapsed 222%CPU (0avgtext+0avgdata 1014896maxresident)k
+0inputs+408outputs (0major+520511minor)pagefaults 0swaps
+    ./fast/regression/parameterized_instantiation_test.tla
+0.11user 0.03system 0:00.12elapsed 120%CPU (0avgtext+0avgdata 29444maxresident)k
+0inputs+128outputs (0major+14679minor)pagefaults 0swaps
+    ./fast/regression/setEuclid_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+14.77user 12.22system 0:26.15elapsed 103%CPU (0avgtext+0avgdata 33388maxresident)k
+0inputs+1208outputs (0major+148320minor)pagefaults 0swaps
+    ./fast/regression/smt_domain_check_test.tla
+0.11user 0.05system 0:00.13elapsed 121%CPU (0avgtext+0avgdata 32884maxresident)k
+0inputs+104outputs (0major+14194minor)pagefaults 0swaps
+    ./fast/regression/z3_fingerprint_test.tla
+0.17user 0.06system 0:00.20elapsed 114%CPU (0avgtext+0avgdata 29272maxresident)k
+0inputs+168outputs (1major+22223minor)pagefaults 0swaps
+    ./fast/russell_test.tla
+0.15user 0.05system 0:00.12elapsed 175%CPU (0avgtext+0avgdata 29344maxresident)k
+0inputs+144outputs (0major+28491minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/functions/bijection_thm_test.tla
+0.56user 0.22system 0:00.33elapsed 234%CPU (0avgtext+0avgdata 33164maxresident)k
+0inputs+624outputs (0major+116058minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/functions/composition_test.tla
+0.10user 0.04system 0:00.11elapsed 120%CPU (0avgtext+0avgdata 31752maxresident)k
+0inputs+96outputs (0major+14157minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/functions/identity1_test.tla
+0.09user 0.03system 0:00.11elapsed 119%CPU (0avgtext+0avgdata 29392maxresident)k
+0inputs+104outputs (0major+13999minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/functions/identity2_test.tla
+0.09user 0.04system 0:00.11elapsed 121%CPU (0avgtext+0avgdata 31940maxresident)k
+0inputs+112outputs (0major+14169minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/set_theory/cantor1_test.tla
+11.12user 14.23system 0:25.14elapsed 100%CPU (0avgtext+0avgdata 35200maxresident)k
+0inputs+256outputs (0major+41017minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/set_theory/choice_axiom2_test.tla
+10.70user 14.58system 0:25.17elapsed 100%CPU (0avgtext+0avgdata 31904maxresident)k
+8inputs+296outputs (0major+41079minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/set_theory/choice_axiom_test.tla
+0.30user 0.19system 0:00.18elapsed 266%CPU (0avgtext+0avgdata 33212maxresident)k
+0inputs+296outputs (0major+62199minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/set_theory/section_test.tla
+11.24user 14.06system 0:25.17elapsed 100%CPU (0avgtext+0avgdata 33460maxresident)k
+0inputs+320outputs (0major+41670minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/tuples/tuple_as_function1_test.tla
+0.30user 0.13system 0:00.19elapsed 227%CPU (0avgtext+0avgdata 31708maxresident)k
+0inputs+320outputs (0major+56279minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/tuples/tuple_as_function2_test.tla
+0.31user 0.17system 0:00.20elapsed 239%CPU (0avgtext+0avgdata 33392maxresident)k
+0inputs+320outputs (0major+67411minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith10_test.tla
+0.08user 0.06system 0:00.11elapsed 120%CPU (0avgtext+0avgdata 29384maxresident)k
+8inputs+88outputs (0major+13960minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith11_test.tla
+0.08user 0.05system 0:00.11elapsed 119%CPU (0avgtext+0avgdata 29228maxresident)k
+0inputs+96outputs (0major+13971minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith12_test.tla
+0.08user 0.05system 0:00.11elapsed 122%CPU (0avgtext+0avgdata 31840maxresident)k
+0inputs+96outputs (0major+14129minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith13_test.tla
+0.07user 0.05system 0:00.10elapsed 122%CPU (0avgtext+0avgdata 32020maxresident)k
+0inputs+96outputs (0major+14087minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith14_test.tla
+0.09user 0.03system 0:00.10elapsed 122%CPU (0avgtext+0avgdata 30832maxresident)k
+0inputs+96outputs (0major+14081minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith15_test.tla
+0.06user 0.05system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29184maxresident)k
+0inputs+96outputs (0major+13965minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith16_test.tla
+0.09user 0.03system 0:00.10elapsed 123%CPU (0avgtext+0avgdata 29188maxresident)k
+8inputs+96outputs (0major+13986minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith17_test.tla
+0.06user 0.05system 0:00.09elapsed 120%CPU (0avgtext+0avgdata 29188maxresident)k
+0inputs+96outputs (0major+13946minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith18_test.tla
+0.07user 0.03system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29324maxresident)k
+0inputs+96outputs (0major+13961minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith19_test.tla
+0.08user 0.04system 0:00.10elapsed 122%CPU (0avgtext+0avgdata 29244maxresident)k
+0inputs+96outputs (0major+13945minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith1_test.tla
+0.06user 0.05system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29408maxresident)k
+8inputs+96outputs (0major+14016minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith2_test.tla
+0.05user 0.05system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29400maxresident)k
+272inputs+96outputs (0major+13948minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith3_test.tla
+0.09user 0.02system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29344maxresident)k
+0inputs+96outputs (0major+14033minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith4_test.tla
+0.08user 0.03system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29336maxresident)k
+0inputs+96outputs (0major+14019minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith5_test.tla
+0.07user 0.03system 0:00.09elapsed 120%CPU (0avgtext+0avgdata 29312maxresident)k
+16inputs+96outputs (0major+14015minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith6_test.tla
+0.07user 0.04system 0:00.09elapsed 122%CPU (0avgtext+0avgdata 29320maxresident)k
+0inputs+96outputs (0major+13972minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith7_test.tla
+0.06user 0.04system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29524maxresident)k
+0inputs+96outputs (0major+13970minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith8_test.tla
+0.07user 0.04system 0:00.09elapsed 120%CPU (0avgtext+0avgdata 29360maxresident)k
+0inputs+96outputs (0major+13972minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith9_test.tla
+0.06user 0.04system 0:00.09elapsed 120%CPU (0avgtext+0avgdata 29260maxresident)k
+8inputs+96outputs (0major+13973minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/epsilon/epsilon1_test.tla
+0.06user 0.05system 0:00.10elapsed 121%CPU (0avgtext+0avgdata 32016maxresident)k
+8inputs+88outputs (0major+14091minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/epsilon/epsilon2_test.tla
+0.08user 0.04system 0:00.10elapsed 122%CPU (0avgtext+0avgdata 31884maxresident)k
+0inputs+96outputs (0major+14166minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/epsilon/epsilon3_test.tla
+0.05user 0.06system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 31796maxresident)k
+0inputs+96outputs (0major+14093minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/epsilon/epsilon4_test.tla
+0.08user 0.04system 0:00.10elapsed 123%CPU (0avgtext+0avgdata 31808maxresident)k
+0inputs+96outputs (0major+14092minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/extensionality/empty_set_ext_test.tla
+0.07user 0.04system 0:00.09elapsed 122%CPU (0avgtext+0avgdata 31920maxresident)k
+0inputs+88outputs (0major+14096minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/extensionality/enum_ext_test.tla
+0.08user 0.04system 0:00.10elapsed 120%CPU (0avgtext+0avgdata 32160maxresident)k
+0inputs+96outputs (0major+14157minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/extensionality/fun_ext_test.tla
+0.06user 0.05system 0:00.09elapsed 123%CPU (0avgtext+0avgdata 29328maxresident)k
+0inputs+96outputs (0major+14047minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/extensionality/set_ext_test.tla
+0.07user 0.04system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 33344maxresident)k
+0inputs+96outputs (0major+14223minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/extensionality/tup_ext_test.tla
+0.08user 0.03system 0:00.09elapsed 118%CPU (0avgtext+0avgdata 29380maxresident)k
+8inputs+96outputs (0major+13995minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder1_test.tla
+0.08user 0.03system 0:00.09elapsed 120%CPU (0avgtext+0avgdata 31788maxresident)k
+8inputs+88outputs (0major+14122minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder1_wproof_test.tla
+0.09user 0.06system 0:00.10elapsed 151%CPU (0avgtext+0avgdata 31792maxresident)k
+0inputs+136outputs (0major+24557minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder2_test.tla
+0.06user 0.05system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 31888maxresident)k
+0inputs+96outputs (0major+14127minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder2_wproof_test.tla
+0.13user 0.05system 0:00.11elapsed 164%CPU (0avgtext+0avgdata 31960maxresident)k
+0inputs+136outputs (0major+24565minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder3_test.tla
+0.08user 0.03system 0:00.09elapsed 123%CPU (0avgtext+0avgdata 33196maxresident)k
+0inputs+96outputs (0major+14218minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder3_wproof_test.tla
+0.11user 0.05system 0:00.10elapsed 160%CPU (0avgtext+0avgdata 33072maxresident)k
+0inputs+136outputs (0major+24953minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder4_test.tla
+0.08user 0.04system 0:00.10elapsed 122%CPU (0avgtext+0avgdata 33068maxresident)k
+0inputs+96outputs (0major+14190minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder4_wproof_test.tla
+0.14user 0.06system 0:00.11elapsed 183%CPU (0avgtext+0avgdata 33328maxresident)k
+272inputs+152outputs (0major+30034minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder5_test.tla
+0.08user 0.03system 0:00.10elapsed 121%CPU (0avgtext+0avgdata 33156maxresident)k
+272inputs+96outputs (0major+14246minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder5_wproof_test.tla
+0.16user 0.04system 0:00.12elapsed 174%CPU (0avgtext+0avgdata 31996maxresident)k
+0inputs+152outputs (0major+29953minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder6_test.tla
+0.08user 0.04system 0:00.10elapsed 122%CPU (0avgtext+0avgdata 33172maxresident)k
+0inputs+96outputs (0major+14242minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder6_wproof_test.tla
+0.13user 0.08system 0:00.12elapsed 179%CPU (0avgtext+0avgdata 33344maxresident)k
+8inputs+152outputs (0major+30363minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function10_test.tla
+0.09user 0.02system 0:00.10elapsed 119%CPU (0avgtext+0avgdata 29224maxresident)k
+0inputs+88outputs (0major+14019minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function11_test.tla
+0.09user 0.04system 0:00.11elapsed 121%CPU (0avgtext+0avgdata 31656maxresident)k
+0inputs+96outputs (0major+14132minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function12_test.tla
+11.12user 14.01system 0:25.13elapsed 100%CPU (0avgtext+0avgdata 24688maxresident)k
+0inputs+144outputs (0major+14552minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function13_test.tla
+0.09user 0.04system 0:00.11elapsed 120%CPU (0avgtext+0avgdata 29432maxresident)k
+0inputs+96outputs (0major+13994minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function14_test.tla
+0.09user 0.04system 0:00.11elapsed 120%CPU (0avgtext+0avgdata 29272maxresident)k
+0inputs+96outputs (0major+14039minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function15_test.tla
+0.07user 0.05system 0:00.10elapsed 120%CPU (0avgtext+0avgdata 29356maxresident)k
+0inputs+96outputs (0major+13974minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function16_test.tla
+11.31user 13.83system 0:25.13elapsed 100%CPU (0avgtext+0avgdata 22040maxresident)k
+8inputs+144outputs (0major+13862minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function17_test.tla
+0.09user 0.05system 0:00.13elapsed 121%CPU (0avgtext+0avgdata 32740maxresident)k
+0inputs+112outputs (0major+14233minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function18_test.tla
+0.09user 0.04system 0:00.11elapsed 121%CPU (0avgtext+0avgdata 29260maxresident)k
+0inputs+96outputs (0major+14010minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function1_test.tla
+0.07user 0.05system 0:00.10elapsed 121%CPU (0avgtext+0avgdata 29164maxresident)k
+0inputs+96outputs (0major+13975minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function20_test.tla
+0.07user 0.04system 0:00.10elapsed 120%CPU (0avgtext+0avgdata 29168maxresident)k
+8inputs+96outputs (0major+14000minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function21_test.tla
+0.08user 0.03system 0:00.10elapsed 121%CPU (0avgtext+0avgdata 29312maxresident)k
+0inputs+96outputs (0major+13985minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function22_test.tla
+0.08user 0.04system 0:00.10elapsed 120%CPU (0avgtext+0avgdata 29412maxresident)k
+0inputs+96outputs (0major+13982minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function23_test.tla
+0.09user 0.03system 0:00.10elapsed 120%CPU (0avgtext+0avgdata 33228maxresident)k
+0inputs+96outputs (0major+14147minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function24_test.tla
+0.08user 0.03system 0:00.10elapsed 120%CPU (0avgtext+0avgdata 29328maxresident)k
+0inputs+96outputs (0major+13973minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function25_test.tla
+0.07user 0.04system 0:00.09elapsed 119%CPU (0avgtext+0avgdata 29284maxresident)k
+0inputs+96outputs (0major+13982minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function26_test.tla
+0.08user 0.03system 0:00.09elapsed 119%CPU (0avgtext+0avgdata 29184maxresident)k
+0inputs+96outputs (0major+13959minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function27_test.tla
+0.08user 0.04system 0:00.10elapsed 121%CPU (0avgtext+0avgdata 33060maxresident)k
+8inputs+112outputs (0major+14254minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function28_test.tla
+0.07user 0.04system 0:00.10elapsed 121%CPU (0avgtext+0avgdata 32928maxresident)k
+0inputs+112outputs (0major+14235minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function29_test.tla
+0.09user 0.02system 0:00.10elapsed 120%CPU (0avgtext+0avgdata 29492maxresident)k
+0inputs+96outputs (0major+14019minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function2_test.tla
+0.08user 0.03system 0:00.09elapsed 120%CPU (0avgtext+0avgdata 31908maxresident)k
+0inputs+96outputs (0major+14158minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function30_test.tla
+0.10user 0.02system 0:00.10elapsed 119%CPU (0avgtext+0avgdata 29476maxresident)k
+0inputs+96outputs (0major+14015minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function3_test.tla
+0.09user 0.05system 0:00.11elapsed 132%CPU (0avgtext+0avgdata 33260maxresident)k
+0inputs+120outputs (0major+18926minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function5_test.tla
+0.08user 0.03system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 31784maxresident)k
+0inputs+96outputs (0major+14152minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function6_test.tla
+0.07user 0.04system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29312maxresident)k
+0inputs+96outputs (0major+14019minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function7_test.tla
+0.07user 0.04system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29292maxresident)k
+16inputs+96outputs (0major+13964minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/basic_test.tla
+0.07user 0.04system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29404maxresident)k
+8inputs+88outputs (0major+14002minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop10_test.tla
+0.06user 0.05system 0:00.09elapsed 120%CPU (0avgtext+0avgdata 29220maxresident)k
+0inputs+96outputs (0major+14006minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop11_test.tla
+0.07user 0.04system 0:00.10elapsed 122%CPU (0avgtext+0avgdata 31720maxresident)k
+0inputs+96outputs (0major+14095minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop12_test.tla
+0.08user 0.04system 0:00.10elapsed 124%CPU (0avgtext+0avgdata 29140maxresident)k
+0inputs+96outputs (0major+13978minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop1_test.tla
+0.07user 0.04system 0:00.10elapsed 120%CPU (0avgtext+0avgdata 29288maxresident)k
+0inputs+96outputs (0major+13975minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop2_test.tla
+0.06user 0.04system 0:00.09elapsed 120%CPU (0avgtext+0avgdata 29300maxresident)k
+0inputs+96outputs (0major+13969minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop3_test.tla
+0.06user 0.04system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29432maxresident)k
+0inputs+96outputs (0major+13998minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop4_test.tla
+0.08user 0.03system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29384maxresident)k
+0inputs+96outputs (0major+14010minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop5_test.tla
+0.07user 0.04system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29132maxresident)k
+0inputs+96outputs (0major+14006minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop6_test.tla
+0.08user 0.02system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29292maxresident)k
+0inputs+96outputs (0major+13984minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop7_test.tla
+0.07user 0.04system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 32056maxresident)k
+0inputs+96outputs (0major+14092minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop8_test.tla
+0.08user 0.04system 0:00.10elapsed 123%CPU (0avgtext+0avgdata 32044maxresident)k
+0inputs+96outputs (0major+14108minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop9_test.tla
+0.06user 0.05system 0:00.09elapsed 120%CPU (0avgtext+0avgdata 29336maxresident)k
+0inputs+96outputs (0major+13950minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/record/record1_test.tla
+0.06user 0.04system 0:00.09elapsed 120%CPU (0avgtext+0avgdata 30960maxresident)k
+0inputs+88outputs (0major+13977minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/record/record2_test.tla
+0.08user 0.04system 0:00.10elapsed 118%CPU (0avgtext+0avgdata 30856maxresident)k
+0inputs+96outputs (0major+14009minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/record/record3_test.tla
+0.08user 0.03system 0:00.09elapsed 120%CPU (0avgtext+0avgdata 30560maxresident)k
+0inputs+96outputs (0major+13982minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set10_test.tla
+0.07user 0.03system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 32012maxresident)k
+0inputs+88outputs (0major+14065minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set11_test.tla
+0.06user 0.04system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29500maxresident)k
+0inputs+96outputs (0major+13999minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set12_test.tla
+0.08user 0.03system 0:00.10elapsed 121%CPU (0avgtext+0avgdata 29456maxresident)k
+0inputs+96outputs (0major+13999minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set13_test.tla
+0.07user 0.03system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29344maxresident)k
+0inputs+96outputs (0major+13964minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set14_test.tla
+0.08user 0.03system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 31616maxresident)k
+0inputs+96outputs (0major+14100minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set15_test.tla
+0.08user 0.04system 0:00.10elapsed 121%CPU (0avgtext+0avgdata 29448maxresident)k
+0inputs+96outputs (0major+14010minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set16_test.tla
+0.07user 0.04system 0:00.10elapsed 123%CPU (0avgtext+0avgdata 33056maxresident)k
+0inputs+96outputs (0major+14288minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set17_test.tla
+0.07user 0.04system 0:00.09elapsed 120%CPU (0avgtext+0avgdata 29464maxresident)k
+0inputs+96outputs (0major+13985minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set18_test.tla
+0.07user 0.04system 0:00.09elapsed 122%CPU (0avgtext+0avgdata 33172maxresident)k
+0inputs+96outputs (0major+14278minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set19_test.tla
+0.07user 0.03system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29336maxresident)k
+0inputs+96outputs (0major+14008minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set1_test.tla
+0.07user 0.04system 0:00.09elapsed 122%CPU (0avgtext+0avgdata 31848maxresident)k
+0inputs+96outputs (0major+14078minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set2_test.tla
+0.07user 0.03system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29340maxresident)k
+0inputs+96outputs (0major+13988minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set3_test.tla
+0.09user 0.02system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29312maxresident)k
+0inputs+96outputs (0major+13967minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set4_test.tla
+0.06user 0.05system 0:00.09elapsed 120%CPU (0avgtext+0avgdata 29352maxresident)k
+0inputs+96outputs (0major+13992minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set5_test.tla
+0.07user 0.04system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29240maxresident)k
+0inputs+96outputs (0major+13981minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set6_test.tla
+0.08user 0.03system 0:00.09elapsed 120%CPU (0avgtext+0avgdata 31820maxresident)k
+0inputs+96outputs (0major+14096minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set7_test.tla
+0.08user 0.03system 0:00.09elapsed 120%CPU (0avgtext+0avgdata 29264maxresident)k
+0inputs+96outputs (0major+13990minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set8_test.tla
+0.08user 0.03system 0:00.10elapsed 121%CPU (0avgtext+0avgdata 31728maxresident)k
+0inputs+96outputs (0major+14088minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set9_test.tla
+0.07user 0.03system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 31784maxresident)k
+0inputs+96outputs (0major+14064minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/string/strings1_test.tla
+0.08user 0.03system 0:00.10elapsed 121%CPU (0avgtext+0avgdata 29456maxresident)k
+0inputs+88outputs (0major+13999minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/string/strings2_test.tla
+0.07user 0.03system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29324maxresident)k
+0inputs+96outputs (0major+13972minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple1_test.tla
+0.06user 0.04system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29432maxresident)k
+0inputs+88outputs (0major+13927minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple2_test.tla
+0.09user 0.02system 0:00.09elapsed 122%CPU (0avgtext+0avgdata 31628maxresident)k
+0inputs+96outputs (0major+14111minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple3_test.tla
+0.06user 0.05system 0:00.10elapsed 120%CPU (0avgtext+0avgdata 29260maxresident)k
+0inputs+96outputs (0major+13978minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple4_test.tla
+0.08user 0.03system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29452maxresident)k
+0inputs+96outputs (0major+13942minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple5_test.tla
+0.07user 0.04system 0:00.09elapsed 119%CPU (0avgtext+0avgdata 29380maxresident)k
+0inputs+96outputs (0major+13966minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple6_test.tla
+0.07user 0.03system 0:00.09elapsed 120%CPU (0avgtext+0avgdata 29468maxresident)k
+0inputs+96outputs (0major+13975minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple7_test.tla
+0.07user 0.04system 0:00.09elapsed 119%CPU (0avgtext+0avgdata 29336maxresident)k
+0inputs+96outputs (0major+14028minor)pagefaults 0swaps
+    ./fast/smt_tests/lang/user_ops_test.tla
+0.33user 0.04system 0:00.35elapsed 105%CPU (0avgtext+0avgdata 30196maxresident)k
+0inputs+136outputs (0major+15129minor)pagefaults 0swaps
+    ./fast/smt_tests/negative/one_div_zero_test.tla
+2.19user 2.93system 0:05.10elapsed 100%CPU (0avgtext+0avgdata 21484maxresident)k
+0inputs+104outputs (0major+13650minor)pagefaults 0swaps
+    ./fast/smt_tests/negative/zero_in_one_test.tla
+2.13user 3.01system 0:05.12elapsed 100%CPU (0avgtext+0avgdata 21460maxresident)k
+0inputs+128outputs (0major+13622minor)pagefaults 0swaps
+    ./fast/smt_tests/rewriting_rules/quantifiers_test.tla
+0.20user 0.10system 0:00.14elapsed 222%CPU (0avgtext+0avgdata 29520maxresident)k
+0inputs+176outputs (0major+40086minor)pagefaults 0swaps
+    ./fast/smt_tests/silly_theorems/app_ambiguity_test.tla
+0.09user 0.05system 0:00.12elapsed 121%CPU (0avgtext+0avgdata 31964maxresident)k
+0inputs+88outputs (0major+14223minor)pagefaults 0swaps
+    ./fast/smt_tests/silly_theorems/nonempty_integer_test.tla
+0.18user 0.08system 0:00.14elapsed 190%CPU (0avgtext+0avgdata 33852maxresident)k
+0inputs+152outputs (0major+30350minor)pagefaults 0swaps
+    ./fast/smt_tests/silly_theorems/one_implies_one_test.tla
+0.06user 0.06system 0:00.10elapsed 119%CPU (0avgtext+0avgdata 21464maxresident)k
+0inputs+96outputs (0major+13357minor)pagefaults 0swaps
+    ./fast/smt_tests/silly_theorems/record_as_function_test.tla
+0.08user 0.06system 0:00.12elapsed 122%CPU (0avgtext+0avgdata 31640maxresident)k
+0inputs+96outputs (0major+14180minor)pagefaults 0swaps
+    ./fast/smt_tests/silly_theorems/x_implies_x_test.tla
+0.07user 0.05system 0:00.10elapsed 122%CPU (0avgtext+0avgdata 29300maxresident)k
+0inputs+96outputs (0major+13960minor)pagefaults 0swaps
+    ./medium/regression/select_bug_test.tla
+21.88user 28.21system 0:50.10elapsed 100%CPU (0avgtext+0avgdata 21316maxresident)k
+0inputs+128outputs (0major+9482minor)pagefaults 0swaps
+    ./medium/regression/snapshot/GFX_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+235.19user 34.81system 2:55.72elapsed 153%CPU (0avgtext+0avgdata 1018804maxresident)k
+16144inputs+18904outputs (85major+2012216minor)pagefaults 0swaps
+    ./medium/regression/snapshot/SnapShot_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+561.65user 12.46system 8:17.27elapsed 115%CPU (0avgtext+0avgdata 3874108maxresident)k
+78024inputs+42568outputs (418major+4734792minor)pagefaults 0swaps
+###### 2023-11-03 07:06:33 ./TOOLS/do_tests .
+    ./fast/basic/cvc3_false_test.tla
+0.06user 0.02system 0:00.09elapsed 88%CPU (0avgtext+0avgdata 21320maxresident)k
+21504inputs+88outputs (84major+8517minor)pagefaults 0swaps
+    ./fast/basic/isa_false_test.tla
+0.04user 0.01system 0:00.05elapsed 101%CPU (0avgtext+0avgdata 21340maxresident)k
+32inputs+96outputs (0major+8462minor)pagefaults 0swaps
+    ./fast/basic/isa_true_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+0.04user 0.02system 0:00.07elapsed 101%CPU (0avgtext+0avgdata 21376maxresident)k
+40inputs+96outputs (0major+8425minor)pagefaults 0swaps
+    ./fast/basic/nonexistent_test.tla
+0.04user 0.02system 0:00.06elapsed 100%CPU (0avgtext+0avgdata 21384maxresident)k
+32inputs+56outputs (0major+7362minor)pagefaults 0swaps
+    ./fast/basic/smt_arith_test.tla
+0.06user 0.03system 0:00.08elapsed 113%CPU (0avgtext+0avgdata 30060maxresident)k
+18304inputs+104outputs (110major+13930minor)pagefaults 0swaps
+    ./fast/basic/smt_false_test.tla
+0.05user 0.02system 0:00.06elapsed 120%CPU (0avgtext+0avgdata 29828maxresident)k
+32inputs+104outputs (0major+14007minor)pagefaults 0swaps
+    ./fast/basic/tab_character_test.tla
+0.01user 0.00system 0:00.03elapsed 72%CPU (0avgtext+0avgdata 10232maxresident)k
+8inputs+16outputs (0major+2069minor)pagefaults 0swaps
+    ./fast/basic/true_test.tla
+0.04user 0.03system 0:00.06elapsed 118%CPU (0avgtext+0avgdata 29720maxresident)k
+32inputs+104outputs (0major+13995minor)pagefaults 0swaps
+    ./fast/basic/z3_arith_test.tla
+0.05user 0.03system 0:00.06elapsed 120%CPU (0avgtext+0avgdata 29840maxresident)k
+296inputs+104outputs (0major+14010minor)pagefaults 0swaps
+    ./fast/basic/z3_false_test.tla
+0.04user 0.03system 0:00.06elapsed 120%CPU (0avgtext+0avgdata 29720maxresident)k
+32inputs+104outputs (0major+13996minor)pagefaults 0swaps
+    ./fast/basic/zen_false_test.tla
+0.04user 0.03system 0:00.06elapsed 120%CPU (0avgtext+0avgdata 21508maxresident)k
+296inputs+104outputs (0major+13034minor)pagefaults 0swaps
+    ./fast/basic/zen_true_test.tla
+0.05user 0.02system 0:00.05elapsed 122%CPU (0avgtext+0avgdata 21492maxresident)k
+144inputs+104outputs (4major+13039minor)pagefaults 0swaps
+    ./fast/enabled_cdot/Cdot_test.tla
+0.07user 0.03system 0:00.06elapsed 190%CPU (0avgtext+0avgdata 23284maxresident)k
+304inputs+184outputs (0major+27038minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ENABLEDaxioms_test.tla
+0.65user 0.33system 0:00.23elapsed 421%CPU (0avgtext+0avgdata 33944maxresident)k
+6016inputs+976outputs (35major+235081minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ENABLED_INSTANCE_nullary_op_test.tla
+0.07user 0.02system 0:00.07elapsed 129%CPU (0avgtext+0avgdata 33848maxresident)k
+304inputs+160outputs (0major+19513minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ENABLED_INSTANCE_nullary_op_two_vars_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+0.05user 0.04system 0:00.07elapsed 129%CPU (0avgtext+0avgdata 33404maxresident)k
+224inputs+168outputs (0major+19499minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ENABLED_INSTANCE_op_with_args_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+0.07user 0.03system 0:00.08elapsed 128%CPU (0avgtext+0avgdata 33836maxresident)k
+304inputs+168outputs (0major+19526minor)pagefaults 0swaps
+    ./fast/enabled_cdot/Enabled_test.tla
+0.42user 0.19system 0:00.15elapsed 399%CPU (0avgtext+0avgdata 33928maxresident)k
+88inputs+624outputs (1major+143072minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ExpandENABLED_LET_test.tla
+0.04user 0.02system 0:00.05elapsed 120%CPU (0avgtext+0avgdata 21600maxresident)k
+32inputs+104outputs (0major+13037minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ExpandOnlyCdot_test.tla
+0.02user 0.02system 0:00.04elapsed 100%CPU (0avgtext+0avgdata 21324maxresident)k
+32inputs+88outputs (0major+8480minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ExpandOnlyENABLED_test.tla
+0.03user 0.02system 0:00.05elapsed 100%CPU (0avgtext+0avgdata 21468maxresident)k
+32inputs+88outputs (0major+8419minor)pagefaults 0swaps
+    ./fast/enabled_cdot/Level_of_parametric_INSTANCE_test.tla
+0.07user 0.04system 0:00.09elapsed 128%CPU (0avgtext+0avgdata 29824maxresident)k
+288inputs+120outputs (2major+18369minor)pagefaults 0swaps
+    ./fast/enabled_cdot/Level_test.tla
+0.05user 0.03system 0:00.07elapsed 113%CPU (0avgtext+0avgdata 21600maxresident)k
+32inputs+144outputs (0major+13699minor)pagefaults 0swaps
+    ./fast/enabled_cdot/NestedCdot_test.tla
+0.08user 0.04system 0:00.06elapsed 186%CPU (0avgtext+0avgdata 25176maxresident)k
+32inputs+168outputs (0major+27813minor)pagefaults 0swaps
+    ./fast/enabled_cdot/NestedENABLED_from_AutoUSE_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+0.04user 0.00system 0:00.05elapsed 102%CPU (0avgtext+0avgdata 21440maxresident)k
+32inputs+96outputs (0major+8504minor)pagefaults 0swaps
+    ./fast/enabled_cdot/NestedENABLED_test.tla
+0.07user 0.03system 0:00.06elapsed 150%CPU (0avgtext+0avgdata 22452maxresident)k
+32inputs+160outputs (0major+22622minor)pagefaults 0swaps
+    ./fast/fingerprint/FingerprintVariablesParameters_test.tla
+required error output is missing
+Command exited with non-zero status 3
+0.05user 0.02system 0:00.07elapsed 101%CPU (0avgtext+0avgdata 21464maxresident)k
+32inputs+104outputs (0major+14597minor)pagefaults 0swaps
+    ./fast/language/EXCEPTMultipleBrackets_test.tla
+0.07user 0.04system 0:00.07elapsed 161%CPU (0avgtext+0avgdata 29892maxresident)k
+32inputs+104outputs (0major+23665minor)pagefaults 0swaps
+    ./fast/language/EXTENDS_in_submodule_test.tla
+0.03user 0.02system 0:00.05elapsed 101%CPU (0avgtext+0avgdata 21568maxresident)k
+80inputs+128outputs (0major+9116minor)pagefaults 0swaps
+    ./fast/language/INSTANCE_inside_LET_fingerprint_test.tla
+0.05user 0.03system 0:00.08elapsed 117%CPU (0avgtext+0avgdata 29772maxresident)k
+32inputs+144outputs (0major+14751minor)pagefaults 0swaps
+    ./fast/language/INSTANCE_inside_LET_test.tla
+0.05user 0.03system 0:00.07elapsed 121%CPU (0avgtext+0avgdata 29712maxresident)k
+32inputs+144outputs (0major+14736minor)pagefaults 0swaps
+    ./fast/language/INSTANCE_shift_due_to_omitted_modunits_test.tla
+0.05user 0.00system 0:00.05elapsed 103%CPU (0avgtext+0avgdata 21388maxresident)k
+32inputs+136outputs (0major+9112minor)pagefaults 0swaps
+    ./fast/language/Operators_test.tla
+0.05user 0.03system 0:00.07elapsed 136%CPU (0avgtext+0avgdata 29860maxresident)k
+32inputs+88outputs (0major+18584minor)pagefaults 0swaps
+    ./fast/language/SubrefLL_test.tla
+0.58user 0.27system 0:00.28elapsed 306%CPU (0avgtext+0avgdata 29940maxresident)k
+48inputs+896outputs (0major+223993minor)pagefaults 0swaps
+    ./fast/language/Subref_test.tla
+0.36user 0.15system 0:00.12elapsed 397%CPU (0avgtext+0avgdata 29904maxresident)k
+40inputs+832outputs (27major+125130minor)pagefaults 0swaps
+    ./fast/language/WFTRUE_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+0.03user 0.01system 0:00.04elapsed 100%CPU (0avgtext+0avgdata 21440maxresident)k
+32inputs+64outputs (0major+7850minor)pagefaults 0swaps
+    ./fast/regression/consensus/consensus_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+11.14user 14.06system 0:25.19elapsed 100%CPU (0avgtext+0avgdata 32464maxresident)k
+288inputs+328outputs (0major+21499minor)pagefaults 0swaps
+    ./fast/regression/cooper_instantiation_test.tla
+0.04user 0.02system 0:00.07elapsed 100%CPU (0avgtext+0avgdata 21416maxresident)k
+32inputs+56outputs (0major+7481minor)pagefaults 0swaps
+    ./fast/regression/higher_order_statement_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+0.14user 0.05system 0:00.13elapsed 143%CPU (0avgtext+0avgdata 33664maxresident)k
+56inputs+176outputs (0major+24297minor)pagefaults 0swaps
+    ./fast/regression/MiniProducerConsumer_test.tla
+110.64user 32.43system 1:04.71elapsed 221%CPU (0avgtext+0avgdata 1014800maxresident)k
+32inputs+424outputs (0major+520483minor)pagefaults 0swaps
+    ./fast/regression/parameterized_instantiation_test.tla
+0.09user 0.06system 0:00.12elapsed 119%CPU (0avgtext+0avgdata 29876maxresident)k
+88inputs+152outputs (0major+14701minor)pagefaults 0swaps
+    ./fast/regression/setEuclid_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+15.21user 11.73system 0:26.08elapsed 103%CPU (0avgtext+0avgdata 33980maxresident)k
+80inputs+1224outputs (1major+148301minor)pagefaults 0swaps
+    ./fast/regression/smt_domain_check_test.tla
+0.22user 0.08system 0:00.25elapsed 120%CPU (0avgtext+0avgdata 33520maxresident)k
+32inputs+112outputs (0major+14218minor)pagefaults 0swaps
+    ./fast/regression/z3_fingerprint_test.tla
+0.23user 0.14system 0:00.39elapsed 98%CPU (0avgtext+0avgdata 21428maxresident)k
+32inputs+160outputs (0major+16675minor)pagefaults 0swaps
+    ./fast/russell_test.tla
+0.34user 0.15system 0:00.31elapsed 157%CPU (0avgtext+0avgdata 29944maxresident)k
+56inputs+160outputs (0major+28518minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/functions/bijection_thm_test.tla
+1.48user 0.56system 0:00.91elapsed 224%CPU (0avgtext+0avgdata 33476maxresident)k
+56inputs+640outputs (0major+116049minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/functions/composition_test.tla
+0.13user 0.07system 0:00.17elapsed 120%CPU (0avgtext+0avgdata 32312maxresident)k
+32inputs+104outputs (0major+14131minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/functions/identity1_test.tla
+0.12user 0.05system 0:00.14elapsed 120%CPU (0avgtext+0avgdata 29816maxresident)k
+32inputs+112outputs (0major+14026minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/functions/identity2_test.tla
+0.12user 0.05system 0:00.14elapsed 120%CPU (0avgtext+0avgdata 32344maxresident)k
+32inputs+120outputs (0major+14197minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/set_theory/cantor1_test.tla
+14.31user 11.10system 0:25.17elapsed 100%CPU (0avgtext+0avgdata 35832maxresident)k
+56inputs+272outputs (0major+41037minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/set_theory/choice_axiom2_test.tla
+11.94user 13.37system 0:25.16elapsed 100%CPU (0avgtext+0avgdata 32404maxresident)k
+32inputs+304outputs (0major+41119minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/set_theory/choice_axiom_test.tla
+0.31user 0.16system 0:00.17elapsed 268%CPU (0avgtext+0avgdata 33972maxresident)k
+32inputs+304outputs (0major+62246minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/set_theory/section_test.tla
+11.87user 13.47system 0:25.18elapsed 100%CPU (0avgtext+0avgdata 33920maxresident)k
+32inputs+328outputs (0major+41693minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/tuples/tuple_as_function1_test.tla
+0.63user 0.25system 0:00.42elapsed 208%CPU (0avgtext+0avgdata 32332maxresident)k
+56inputs+336outputs (0major+56344minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/tuples/tuple_as_function2_test.tla
+0.69user 0.23system 0:00.40elapsed 231%CPU (0avgtext+0avgdata 33944maxresident)k
+32inputs+336outputs (0major+67485minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith10_test.tla
+0.14user 0.10system 0:00.20elapsed 123%CPU (0avgtext+0avgdata 29848maxresident)k
+56inputs+104outputs (0major+13997minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith11_test.tla
+0.16user 0.11system 0:00.22elapsed 126%CPU (0avgtext+0avgdata 29924maxresident)k
+32inputs+104outputs (0major+13980minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith12_test.tla
+0.13user 0.08system 0:00.17elapsed 120%CPU (0avgtext+0avgdata 32468maxresident)k
+32inputs+104outputs (0major+14143minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith13_test.tla
+0.16user 0.06system 0:00.18elapsed 122%CPU (0avgtext+0avgdata 32544maxresident)k
+32inputs+104outputs (0major+14110minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith14_test.tla
+0.14user 0.08system 0:00.19elapsed 118%CPU (0avgtext+0avgdata 31348maxresident)k
+32inputs+104outputs (0major+14105minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith15_test.tla
+0.15user 0.08system 0:00.19elapsed 119%CPU (0avgtext+0avgdata 29796maxresident)k
+32inputs+104outputs (0major+13981minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith16_test.tla
+0.15user 0.08system 0:00.20elapsed 120%CPU (0avgtext+0avgdata 29844maxresident)k
+32inputs+104outputs (0major+14001minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith17_test.tla
+0.12user 0.08system 0:00.17elapsed 121%CPU (0avgtext+0avgdata 29752maxresident)k
+32inputs+104outputs (0major+13956minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith18_test.tla
+0.14user 0.09system 0:00.19elapsed 120%CPU (0avgtext+0avgdata 29884maxresident)k
+32inputs+104outputs (0major+13963minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith19_test.tla
+0.14user 0.06system 0:00.16elapsed 121%CPU (0avgtext+0avgdata 29772maxresident)k
+32inputs+104outputs (0major+13967minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith1_test.tla
+0.13user 0.09system 0:00.18elapsed 122%CPU (0avgtext+0avgdata 29808maxresident)k
+32inputs+104outputs (0major+14026minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith2_test.tla
+0.13user 0.08system 0:00.18elapsed 119%CPU (0avgtext+0avgdata 29760maxresident)k
+32inputs+104outputs (1major+13970minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith3_test.tla
+0.12user 0.08system 0:00.17elapsed 121%CPU (0avgtext+0avgdata 29832maxresident)k
+32inputs+104outputs (0major+14038minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith4_test.tla
+0.15user 0.09system 0:00.19elapsed 124%CPU (0avgtext+0avgdata 29916maxresident)k
+32inputs+104outputs (0major+14027minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith5_test.tla
+0.13user 0.07system 0:00.18elapsed 117%CPU (0avgtext+0avgdata 29788maxresident)k
+32inputs+104outputs (0major+14038minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith6_test.tla
+0.14user 0.06system 0:00.16elapsed 123%CPU (0avgtext+0avgdata 29824maxresident)k
+32inputs+104outputs (0major+14000minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith7_test.tla
+0.16user 0.09system 0:00.21elapsed 119%CPU (0avgtext+0avgdata 29720maxresident)k
+32inputs+104outputs (0major+14001minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith8_test.tla
+0.13user 0.09system 0:00.19elapsed 124%CPU (0avgtext+0avgdata 29788maxresident)k
+32inputs+104outputs (0major+13991minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith9_test.tla
+0.14user 0.10system 0:00.19elapsed 126%CPU (0avgtext+0avgdata 29772maxresident)k
+32inputs+104outputs (0major+13987minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/epsilon/epsilon1_test.tla
+0.13user 0.09system 0:00.18elapsed 122%CPU (0avgtext+0avgdata 32512maxresident)k
+56inputs+104outputs (0major+14107minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/epsilon/epsilon2_test.tla
+0.14user 0.10system 0:00.20elapsed 122%CPU (0avgtext+0avgdata 32396maxresident)k
+32inputs+120outputs (0major+14172minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/epsilon/epsilon3_test.tla
+0.14user 0.08system 0:00.18elapsed 122%CPU (0avgtext+0avgdata 32592maxresident)k
+32inputs+104outputs (0major+14108minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/epsilon/epsilon4_test.tla
+0.14user 0.10system 0:00.19elapsed 123%CPU (0avgtext+0avgdata 32520maxresident)k
+32inputs+104outputs (0major+14110minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/extensionality/empty_set_ext_test.tla
+0.13user 0.08system 0:00.18elapsed 120%CPU (0avgtext+0avgdata 32480maxresident)k
+56inputs+104outputs (0major+14111minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/extensionality/enum_ext_test.tla
+0.13user 0.08system 0:00.17elapsed 121%CPU (0avgtext+0avgdata 32464maxresident)k
+32inputs+104outputs (0major+14162minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/extensionality/fun_ext_test.tla
+0.16user 0.09system 0:00.19elapsed 126%CPU (0avgtext+0avgdata 29708maxresident)k
+32inputs+104outputs (1major+14039minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/extensionality/set_ext_test.tla
+0.17user 0.08system 0:00.20elapsed 126%CPU (0avgtext+0avgdata 34112maxresident)k
+32inputs+104outputs (0major+14276minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/extensionality/tup_ext_test.tla
+0.15user 0.08system 0:00.19elapsed 122%CPU (0avgtext+0avgdata 29780maxresident)k
+32inputs+104outputs (0major+14022minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder1_test.tla
+0.14user 0.08system 0:00.19elapsed 119%CPU (0avgtext+0avgdata 32556maxresident)k
+56inputs+104outputs (0major+14148minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder1_wproof_test.tla
+0.22user 0.15system 0:00.22elapsed 164%CPU (0avgtext+0avgdata 32536maxresident)k
+32inputs+144outputs (0major+24579minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder2_test.tla
+0.16user 0.06system 0:00.18elapsed 121%CPU (0avgtext+0avgdata 32516maxresident)k
+32inputs+104outputs (0major+14162minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder2_wproof_test.tla
+0.22user 0.12system 0:00.21elapsed 164%CPU (0avgtext+0avgdata 32504maxresident)k
+32inputs+144outputs (0major+24596minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder3_test.tla
+0.15user 0.07system 0:00.18elapsed 121%CPU (0avgtext+0avgdata 33632maxresident)k
+32inputs+104outputs (0major+14265minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder3_wproof_test.tla
+0.22user 0.13system 0:00.21elapsed 167%CPU (0avgtext+0avgdata 33928maxresident)k
+32inputs+144outputs (0major+24950minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder4_test.tla
+0.13user 0.08system 0:00.18elapsed 122%CPU (0avgtext+0avgdata 33628maxresident)k
+32inputs+104outputs (0major+14202minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder4_wproof_test.tla
+0.28user 0.16system 0:00.24elapsed 181%CPU (0avgtext+0avgdata 33936maxresident)k
+32inputs+160outputs (0major+30043minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder5_test.tla
+0.18user 0.07system 0:00.21elapsed 121%CPU (0avgtext+0avgdata 33700maxresident)k
+32inputs+104outputs (0major+14267minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder5_wproof_test.tla
+0.27user 0.14system 0:00.23elapsed 183%CPU (0avgtext+0avgdata 32632maxresident)k
+32inputs+160outputs (0major+29969minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder6_test.tla
+0.15user 0.08system 0:00.19elapsed 120%CPU (0avgtext+0avgdata 33992maxresident)k
+32inputs+104outputs (0major+14249minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder6_wproof_test.tla
+0.27user 0.14system 0:00.22elapsed 190%CPU (0avgtext+0avgdata 33720maxresident)k
+32inputs+160outputs (0major+30412minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function10_test.tla
+0.16user 0.06system 0:00.19elapsed 119%CPU (0avgtext+0avgdata 29760maxresident)k
+56inputs+104outputs (0major+14050minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function11_test.tla
+0.14user 0.09system 0:00.19elapsed 119%CPU (0avgtext+0avgdata 32244maxresident)k
+32inputs+104outputs (0major+14149minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function12_test.tla
+11.64user 13.63system 0:25.23elapsed 100%CPU (0avgtext+0avgdata 24708maxresident)k
+32inputs+160outputs (0major+14563minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function13_test.tla
+0.14user 0.09system 0:00.19elapsed 120%CPU (0avgtext+0avgdata 29768maxresident)k
+32inputs+104outputs (0major+14024minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function14_test.tla
+0.13user 0.08system 0:00.18elapsed 120%CPU (0avgtext+0avgdata 29796maxresident)k
+32inputs+104outputs (0major+14049minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function15_test.tla
+0.14user 0.09system 0:00.19elapsed 122%CPU (0avgtext+0avgdata 29804maxresident)k
+32inputs+104outputs (0major+14022minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function16_test.tla
+11.61user 13.59system 0:25.19elapsed 100%CPU (0avgtext+0avgdata 22080maxresident)k
+32inputs+152outputs (0major+13878minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function17_test.tla
+0.13user 0.04system 0:00.14elapsed 120%CPU (0avgtext+0avgdata 33504maxresident)k
+32inputs+120outputs (0major+14242minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function18_test.tla
+0.09user 0.06system 0:00.13elapsed 120%CPU (0avgtext+0avgdata 29812maxresident)k
+32inputs+104outputs (0major+14046minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function1_test.tla
+0.10user 0.04system 0:00.12elapsed 121%CPU (0avgtext+0avgdata 29840maxresident)k
+32inputs+104outputs (0major+13988minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function20_test.tla
+0.10user 0.05system 0:00.13elapsed 114%CPU (0avgtext+0avgdata 29876maxresident)k
+32inputs+104outputs (0major+13995minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function21_test.tla
+0.10user 0.05system 0:00.13elapsed 113%CPU (0avgtext+0avgdata 29960maxresident)k
+32inputs+104outputs (0major+13995minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function22_test.tla
+0.08user 0.05system 0:00.13elapsed 109%CPU (0avgtext+0avgdata 29596maxresident)k
+32inputs+104outputs (0major+14004minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function23_test.tla
+0.09user 0.06system 0:00.13elapsed 119%CPU (0avgtext+0avgdata 32316maxresident)k
+32inputs+112outputs (0major+14196minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function24_test.tla
+0.09user 0.05system 0:00.13elapsed 114%CPU (0avgtext+0avgdata 29760maxresident)k
+32inputs+104outputs (0major+13999minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function25_test.tla
+0.11user 0.04system 0:00.13elapsed 118%CPU (0avgtext+0avgdata 29684maxresident)k
+32inputs+104outputs (0major+14006minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function26_test.tla
+0.10user 0.05system 0:00.13elapsed 118%CPU (0avgtext+0avgdata 29704maxresident)k
+40inputs+104outputs (0major+13998minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function27_test.tla
+0.14user 0.05system 0:00.16elapsed 119%CPU (0avgtext+0avgdata 33800maxresident)k
+32inputs+120outputs (0major+14287minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function28_test.tla
+0.11user 0.05system 0:00.15elapsed 109%CPU (0avgtext+0avgdata 33560maxresident)k
+32inputs+120outputs (0major+14284minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function29_test.tla
+0.10user 0.04system 0:00.13elapsed 114%CPU (0avgtext+0avgdata 29700maxresident)k
+32inputs+104outputs (0major+14018minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function2_test.tla
+0.08user 0.04system 0:00.11elapsed 116%CPU (0avgtext+0avgdata 32436maxresident)k
+32inputs+104outputs (0major+14156minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function30_test.tla
+0.09user 0.04system 0:00.11elapsed 114%CPU (0avgtext+0avgdata 29808maxresident)k
+32inputs+104outputs (0major+14064minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function3_test.tla
+0.12user 0.06system 0:00.14elapsed 134%CPU (0avgtext+0avgdata 33796maxresident)k
+32inputs+128outputs (0major+18925minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function5_test.tla
+0.08user 0.05system 0:00.12elapsed 108%CPU (0avgtext+0avgdata 32404maxresident)k
+40inputs+104outputs (0major+14177minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function6_test.tla
+0.09user 0.03system 0:00.10elapsed 118%CPU (0avgtext+0avgdata 29708maxresident)k
+32inputs+104outputs (0major+13993minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function7_test.tla
+0.08user 0.05system 0:00.13elapsed 104%CPU (0avgtext+0avgdata 29768maxresident)k
+32inputs+104outputs (1major+13969minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/basic_test.tla
+0.08user 0.03system 0:00.11elapsed 106%CPU (0avgtext+0avgdata 29840maxresident)k
+56inputs+104outputs (0major+14024minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop10_test.tla
+0.08user 0.04system 0:00.11elapsed 111%CPU (0avgtext+0avgdata 29732maxresident)k
+32inputs+104outputs (0major+14022minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop11_test.tla
+0.09user 0.03system 0:00.11elapsed 112%CPU (0avgtext+0avgdata 32484maxresident)k
+32inputs+104outputs (0major+14105minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop12_test.tla
+0.07user 0.05system 0:00.11elapsed 116%CPU (0avgtext+0avgdata 29700maxresident)k
+32inputs+104outputs (0major+13989minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop1_test.tla
+0.06user 0.05system 0:00.10elapsed 118%CPU (0avgtext+0avgdata 29828maxresident)k
+32inputs+104outputs (0major+13969minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop2_test.tla
+0.08user 0.03system 0:00.10elapsed 115%CPU (0avgtext+0avgdata 29776maxresident)k
+32inputs+104outputs (0major+13971minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop3_test.tla
+0.08user 0.05system 0:00.12elapsed 114%CPU (0avgtext+0avgdata 29932maxresident)k
+32inputs+104outputs (0major+13988minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop4_test.tla
+0.09user 0.04system 0:00.11elapsed 122%CPU (0avgtext+0avgdata 29700maxresident)k
+32inputs+104outputs (0major+14039minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop5_test.tla
+0.10user 0.06system 0:00.13elapsed 125%CPU (0avgtext+0avgdata 29876maxresident)k
+32inputs+104outputs (0major+14027minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop6_test.tla
+0.11user 0.04system 0:00.13elapsed 120%CPU (0avgtext+0avgdata 29828maxresident)k
+32inputs+104outputs (0major+14015minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop7_test.tla
+0.10user 0.04system 0:00.12elapsed 121%CPU (0avgtext+0avgdata 32628maxresident)k
+32inputs+104outputs (0major+14082minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop8_test.tla
+0.10user 0.05system 0:00.13elapsed 120%CPU (0avgtext+0avgdata 32512maxresident)k
+32inputs+104outputs (0major+14100minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop9_test.tla
+0.10user 0.07system 0:00.14elapsed 119%CPU (0avgtext+0avgdata 29660maxresident)k
+32inputs+104outputs (0major+13987minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/record/record1_test.tla
+0.13user 0.05system 0:00.15elapsed 120%CPU (0avgtext+0avgdata 31492maxresident)k
+56inputs+104outputs (1major+13964minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/record/record2_test.tla
+0.12user 0.06system 0:00.15elapsed 120%CPU (0avgtext+0avgdata 31460maxresident)k
+32inputs+104outputs (0major+14015minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/record/record3_test.tla
+0.11user 0.07system 0:00.15elapsed 116%CPU (0avgtext+0avgdata 30888maxresident)k
+32inputs+104outputs (0major+14009minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set10_test.tla
+0.12user 0.06system 0:00.16elapsed 111%CPU (0avgtext+0avgdata 32616maxresident)k
+56inputs+104outputs (0major+14100minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set11_test.tla
+0.10user 0.06system 0:00.14elapsed 115%CPU (0avgtext+0avgdata 29792maxresident)k
+32inputs+104outputs (0major+14003minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set12_test.tla
+0.08user 0.06system 0:00.12elapsed 117%CPU (0avgtext+0avgdata 29820maxresident)k
+32inputs+104outputs (0major+14017minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set13_test.tla
+0.09user 0.05system 0:00.13elapsed 111%CPU (0avgtext+0avgdata 29812maxresident)k
+32inputs+104outputs (0major+13972minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set14_test.tla
+0.09user 0.05system 0:00.13elapsed 116%CPU (0avgtext+0avgdata 32440maxresident)k
+32inputs+104outputs (0major+14125minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set15_test.tla
+0.09user 0.05system 0:00.12elapsed 121%CPU (0avgtext+0avgdata 29752maxresident)k
+32inputs+104outputs (0major+14033minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set16_test.tla
+0.08user 0.06system 0:00.12elapsed 122%CPU (0avgtext+0avgdata 33976maxresident)k
+32inputs+104outputs (0major+14303minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set17_test.tla
+0.10user 0.04system 0:00.11elapsed 121%CPU (0avgtext+0avgdata 29764maxresident)k
+32inputs+104outputs (0major+13995minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set18_test.tla
+0.10user 0.04system 0:00.12elapsed 122%CPU (0avgtext+0avgdata 33712maxresident)k
+32inputs+104outputs (0major+14304minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set19_test.tla
+0.08user 0.05system 0:00.12elapsed 120%CPU (0avgtext+0avgdata 29880maxresident)k
+32inputs+104outputs (0major+14007minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set1_test.tla
+0.11user 0.04system 0:00.12elapsed 121%CPU (0avgtext+0avgdata 32396maxresident)k
+32inputs+104outputs (0major+14096minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set2_test.tla
+0.10user 0.03system 0:00.11elapsed 121%CPU (0avgtext+0avgdata 29888maxresident)k
+32inputs+104outputs (0major+13961minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set3_test.tla
+0.10user 0.05system 0:00.12elapsed 125%CPU (0avgtext+0avgdata 29744maxresident)k
+32inputs+104outputs (0major+13972minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set4_test.tla
+0.09user 0.04system 0:00.11elapsed 120%CPU (0avgtext+0avgdata 29740maxresident)k
+32inputs+104outputs (0major+14005minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set5_test.tla
+0.07user 0.06system 0:00.11elapsed 121%CPU (0avgtext+0avgdata 29808maxresident)k
+32inputs+104outputs (0major+13994minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set6_test.tla
+0.08user 0.05system 0:00.11elapsed 123%CPU (0avgtext+0avgdata 32560maxresident)k
+32inputs+104outputs (0major+14094minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set7_test.tla
+0.08user 0.05system 0:00.11elapsed 120%CPU (0avgtext+0avgdata 29828maxresident)k
+32inputs+104outputs (0major+13997minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set8_test.tla
+0.07user 0.06system 0:00.11elapsed 120%CPU (0avgtext+0avgdata 32376maxresident)k
+32inputs+104outputs (0major+14085minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set9_test.tla
+0.09user 0.04system 0:00.11elapsed 121%CPU (0avgtext+0avgdata 32568maxresident)k
+32inputs+104outputs (0major+14081minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/string/strings1_test.tla
+0.09user 0.04system 0:00.12elapsed 113%CPU (0avgtext+0avgdata 29816maxresident)k
+56inputs+104outputs (0major+13981minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/string/strings2_test.tla
+0.08user 0.03system 0:00.10elapsed 120%CPU (0avgtext+0avgdata 29692maxresident)k
+32inputs+104outputs (0major+13981minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple1_test.tla
+0.08user 0.03system 0:00.10elapsed 119%CPU (0avgtext+0avgdata 29916maxresident)k
+56inputs+104outputs (0major+13939minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple2_test.tla
+0.09user 0.03system 0:00.10elapsed 121%CPU (0avgtext+0avgdata 32284maxresident)k
+32inputs+104outputs (0major+14105minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple3_test.tla
+0.07user 0.04system 0:00.09elapsed 120%CPU (0avgtext+0avgdata 29708maxresident)k
+32inputs+104outputs (0major+13985minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple4_test.tla
+0.08user 0.03system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 30004maxresident)k
+32inputs+104outputs (1major+13949minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple5_test.tla
+0.09user 0.02system 0:00.09elapsed 120%CPU (0avgtext+0avgdata 29752maxresident)k
+32inputs+104outputs (0major+13975minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple6_test.tla
+0.08user 0.03system 0:00.09elapsed 119%CPU (0avgtext+0avgdata 29792maxresident)k
+32inputs+104outputs (0major+13992minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple7_test.tla
+0.08user 0.02system 0:00.09elapsed 121%CPU (0avgtext+0avgdata 29788maxresident)k
+32inputs+104outputs (0major+14021minor)pagefaults 0swaps
+    ./fast/smt_tests/lang/user_ops_test.tla
+0.48user 0.05system 0:00.51elapsed 105%CPU (0avgtext+0avgdata 31028maxresident)k
+56inputs+152outputs (0major+15156minor)pagefaults 0swaps
+    ./fast/smt_tests/negative/one_div_zero_test.tla
+2.40user 2.76system 0:05.15elapsed 100%CPU (0avgtext+0avgdata 21448maxresident)k
+56inputs+120outputs (0major+13673minor)pagefaults 0swaps
+    ./fast/smt_tests/negative/zero_in_one_test.tla
+2.51user 2.68system 0:05.18elapsed 100%CPU (0avgtext+0avgdata 21476maxresident)k
+32inputs+136outputs (0major+13660minor)pagefaults 0swaps
+    ./fast/smt_tests/rewriting_rules/quantifiers_test.tla
+0.35user 0.20system 0:00.28elapsed 196%CPU (0avgtext+0avgdata 29892maxresident)k
+56inputs+192outputs (1major+40100minor)pagefaults 0swaps
+    ./fast/smt_tests/silly_theorems/app_ambiguity_test.tla
+0.15user 0.11system 0:00.22elapsed 123%CPU (0avgtext+0avgdata 32244maxresident)k
+56inputs+104outputs (0major+14244minor)pagefaults 0swaps
+    ./fast/smt_tests/silly_theorems/nonempty_integer_test.tla
+0.34user 0.14system 0:00.24elapsed 203%CPU (0avgtext+0avgdata 34404maxresident)k
+32inputs+160outputs (0major+30375minor)pagefaults 0swaps
+    ./fast/smt_tests/silly_theorems/one_implies_one_test.tla
+0.13user 0.07system 0:00.17elapsed 118%CPU (0avgtext+0avgdata 21568maxresident)k
+32inputs+104outputs (0major+13362minor)pagefaults 0swaps
+    ./fast/smt_tests/silly_theorems/record_as_function_test.tla
+0.18user 0.07system 0:00.20elapsed 123%CPU (0avgtext+0avgdata 32168maxresident)k
+32inputs+104outputs (0major+14197minor)pagefaults 0swaps
+    ./fast/smt_tests/silly_theorems/x_implies_x_test.tla
+0.15user 0.08system 0:00.19elapsed 120%CPU (0avgtext+0avgdata 29712maxresident)k
+32inputs+104outputs (0major+13966minor)pagefaults 0swaps
+    ./medium/regression/select_bug_test.tla
+22.80user 27.37system 0:50.18elapsed 99%CPU (0avgtext+0avgdata 21368maxresident)k
+56inputs+144outputs (0major+9482minor)pagefaults 0swaps
+    ./medium/regression/snapshot/GFX_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+224.47user 39.37system 3:19.50elapsed 132%CPU (0avgtext+0avgdata 207860maxresident)k
+28280inputs+19256outputs (149major+1758705minor)pagefaults 0swaps
+    ./medium/regression/snapshot/SnapShot_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+590.02user 9.51system 8:58.35elapsed 111%CPU (0avgtext+0avgdata 366952maxresident)k
+55160inputs+43288outputs (432major+3461105minor)pagefaults 0swaps
+###### 2023-11-04 08:14:31 ./TOOLS/do_tests .
+    ./fast/basic/cvc3_false_test.tla
+0.05user 0.01system 0:00.06elapsed 100%CPU (0avgtext+0avgdata 21300maxresident)k
+32inputs+88outputs (0major+8561minor)pagefaults 0swaps
+    ./fast/basic/isa_false_test.tla
+0.05user 0.00system 0:00.05elapsed 101%CPU (0avgtext+0avgdata 21440maxresident)k
+16inputs+96outputs (0major+8467minor)pagefaults 0swaps
+    ./fast/basic/isa_true_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+0.04user 0.00system 0:00.05elapsed 100%CPU (0avgtext+0avgdata 21312maxresident)k
+16inputs+96outputs (0major+8449minor)pagefaults 0swaps
+    ./fast/basic/nonexistent_test.tla
+0.02user 0.01system 0:00.04elapsed 100%CPU (0avgtext+0avgdata 21496maxresident)k
+16inputs+56outputs (0major+7370minor)pagefaults 0swaps
+    ./fast/basic/smt_arith_test.tla
+0.06user 0.01system 0:00.06elapsed 112%CPU (0avgtext+0avgdata 25692maxresident)k
+8inputs+104outputs (0major+13461minor)pagefaults 0swaps
+    ./fast/basic/smt_false_test.tla
+0.04user 0.03system 0:00.06elapsed 115%CPU (0avgtext+0avgdata 25720maxresident)k
+8inputs+104outputs (0major+13454minor)pagefaults 0swaps
+    ./fast/basic/tab_character_test.tla
+0.02user 0.00system 0:00.04elapsed 75%CPU (0avgtext+0avgdata 10360maxresident)k
+0inputs+16outputs (0major+2070minor)pagefaults 0swaps
+    ./fast/basic/true_test.tla
+0.05user 0.02system 0:00.06elapsed 111%CPU (0avgtext+0avgdata 25504maxresident)k
+8inputs+104outputs (0major+13446minor)pagefaults 0swaps
+    ./fast/basic/z3_arith_test.tla
+0.04user 0.02system 0:00.05elapsed 113%CPU (0avgtext+0avgdata 25644maxresident)k
+8inputs+104outputs (0major+13472minor)pagefaults 0swaps
+    ./fast/basic/z3_false_test.tla
+0.05user 0.02system 0:00.06elapsed 118%CPU (0avgtext+0avgdata 25648maxresident)k
+8inputs+104outputs (0major+13480minor)pagefaults 0swaps
+    ./fast/basic/zen_false_test.tla
+0.05user 0.01system 0:00.06elapsed 116%CPU (0avgtext+0avgdata 21420maxresident)k
+8inputs+104outputs (0major+13002minor)pagefaults 0swaps
+    ./fast/basic/zen_true_test.tla
+0.03user 0.03system 0:00.06elapsed 118%CPU (0avgtext+0avgdata 21480maxresident)k
+120inputs+104outputs (4major+13025minor)pagefaults 0swaps
+    ./fast/enabled_cdot/Cdot_test.tla
+0.07user 0.04system 0:00.06elapsed 191%CPU (0avgtext+0avgdata 23324maxresident)k
+8inputs+184outputs (0major+27042minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ENABLEDaxioms_test.tla
+0.24user 0.27system 0:00.19elapsed 272%CPU (0avgtext+0avgdata 28060maxresident)k
+24inputs+984outputs (0major+211033minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ENABLED_INSTANCE_nullary_op_test.tla
+0.05user 0.03system 0:00.07elapsed 125%CPU (0avgtext+0avgdata 29980maxresident)k
+16inputs+160outputs (0major+19002minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ENABLED_INSTANCE_nullary_op_two_vars_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+0.06user 0.02system 0:00.07elapsed 127%CPU (0avgtext+0avgdata 30052maxresident)k
+8inputs+168outputs (0major+19004minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ENABLED_INSTANCE_op_with_args_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+0.07user 0.03system 0:00.08elapsed 126%CPU (0avgtext+0avgdata 30056maxresident)k
+8inputs+168outputs (0major+19038minor)pagefaults 0swaps
+    ./fast/enabled_cdot/Enabled_test.tla
+0.24user 0.16system 0:00.13elapsed 294%CPU (0avgtext+0avgdata 30088maxresident)k
+8inputs+624outputs (0major+132815minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ExpandENABLED_LET_test.tla
+0.06user 0.01system 0:00.06elapsed 124%CPU (0avgtext+0avgdata 21628maxresident)k
+8inputs+104outputs (0major+13056minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ExpandOnlyCdot_test.tla
+0.03user 0.01system 0:00.05elapsed 101%CPU (0avgtext+0avgdata 21380maxresident)k
+8inputs+88outputs (0major+8473minor)pagefaults 0swaps
+    ./fast/enabled_cdot/ExpandOnlyENABLED_test.tla
+0.04user 0.01system 0:00.05elapsed 101%CPU (0avgtext+0avgdata 21488maxresident)k
+8inputs+88outputs (0major+8421minor)pagefaults 0swaps
+    ./fast/enabled_cdot/Level_of_parametric_INSTANCE_test.tla
+0.04user 0.03system 0:00.06elapsed 127%CPU (0avgtext+0avgdata 25696maxresident)k
+264inputs+120outputs (2major+17833minor)pagefaults 0swaps
+    ./fast/enabled_cdot/Level_test.tla
+0.06user 0.02system 0:00.07elapsed 115%CPU (0avgtext+0avgdata 21652maxresident)k
+8inputs+144outputs (0major+13705minor)pagefaults 0swaps
+    ./fast/enabled_cdot/NestedCdot_test.tla
+0.07user 0.05system 0:00.06elapsed 193%CPU (0avgtext+0avgdata 25124maxresident)k
+8inputs+168outputs (0major+27815minor)pagefaults 0swaps
+    ./fast/enabled_cdot/NestedENABLED_from_AutoUSE_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+0.03user 0.01system 0:00.05elapsed 104%CPU (0avgtext+0avgdata 21452maxresident)k
+8inputs+96outputs (0major+8479minor)pagefaults 0swaps
+    ./fast/enabled_cdot/NestedENABLED_test.tla
+0.05user 0.04system 0:00.06elapsed 150%CPU (0avgtext+0avgdata 22544maxresident)k
+8inputs+160outputs (0major+22652minor)pagefaults 0swaps
+    ./fast/fingerprint/FingerprintVariablesParameters_test.tla
+required error output is missing
+Command exited with non-zero status 3
+0.06user 0.02system 0:00.08elapsed 100%CPU (0avgtext+0avgdata 21412maxresident)k
+8inputs+104outputs (0major+14622minor)pagefaults 0swaps
+    ./fast/language/EXCEPTMultipleBrackets_test.tla
+0.05user 0.03system 0:00.06elapsed 143%CPU (0avgtext+0avgdata 25668maxresident)k
+8inputs+104outputs (0major+22083minor)pagefaults 0swaps
+    ./fast/language/EXTENDS_in_submodule_test.tla
+0.03user 0.02system 0:00.05elapsed 101%CPU (0avgtext+0avgdata 21328maxresident)k
+24inputs+128outputs (0major+9097minor)pagefaults 0swaps
+    ./fast/language/INSTANCE_inside_LET_fingerprint_test.tla
+0.05user 0.02system 0:00.06elapsed 116%CPU (0avgtext+0avgdata 25700maxresident)k
+8inputs+144outputs (0major+14200minor)pagefaults 0swaps
+    ./fast/language/INSTANCE_inside_LET_test.tla
+0.04user 0.02system 0:00.06elapsed 113%CPU (0avgtext+0avgdata 25620maxresident)k
+8inputs+144outputs (0major+14204minor)pagefaults 0swaps
+    ./fast/language/INSTANCE_shift_due_to_omitted_modunits_test.tla
+0.04user 0.00system 0:00.05elapsed 101%CPU (0avgtext+0avgdata 21436maxresident)k
+8inputs+136outputs (0major+9123minor)pagefaults 0swaps
+    ./fast/language/Operators_test.tla
+0.05user 0.02system 0:00.06elapsed 121%CPU (0avgtext+0avgdata 25696maxresident)k
+8inputs+88outputs (0major+17499minor)pagefaults 0swaps
+    ./fast/language/SubrefLL_test.tla
+0.31user 0.25system 0:00.27elapsed 206%CPU (0avgtext+0avgdata 25760maxresident)k
+16inputs+896outputs (0major+202552minor)pagefaults 0swaps
+    ./fast/language/Subref_test.tla
+0.35user 0.13system 0:00.12elapsed 395%CPU (0avgtext+0avgdata 25800maxresident)k
+8inputs+832outputs (0major+124093minor)pagefaults 0swaps
+    ./fast/language/WFTRUE_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+0.02user 0.01system 0:00.04elapsed 102%CPU (0avgtext+0avgdata 21376maxresident)k
+8inputs+64outputs (0major+7847minor)pagefaults 0swaps
+    ./fast/regression/consensus/consensus_test.tla
+1.34user 0.49system 0:01.00elapsed 182%CPU (0avgtext+0avgdata 35932maxresident)k
+56inputs+296outputs (0major+26899minor)pagefaults 0swaps
+    ./fast/regression/cooper_instantiation_test.tla
+0.02user 0.01system 0:00.04elapsed 102%CPU (0avgtext+0avgdata 21444maxresident)k
+8inputs+56outputs (0major+7480minor)pagefaults 0swaps
+    ./fast/regression/higher_order_statement_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+0.07user 0.04system 0:00.08elapsed 133%CPU (0avgtext+0avgdata 29712maxresident)k
+16inputs+176outputs (0major+23248minor)pagefaults 0swaps
+    ./fast/regression/MiniProducerConsumer_test.tla
+39.30user 35.84system 1:15.13elapsed 100%CPU (0avgtext+0avgdata 21632maxresident)k
+400inputs+408outputs (12major+15473minor)pagefaults 0swaps
+    ./fast/regression/parameterized_instantiation_test.tla
+0.15user 0.11system 0:00.25elapsed 102%CPU (0avgtext+0avgdata 25756maxresident)k
+4208inputs+152outputs (33major+14193minor)pagefaults 0swaps
+    ./fast/regression/setEuclid_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+18.07user 11.21system 0:28.14elapsed 104%CPU (0avgtext+0avgdata 31916maxresident)k
+24inputs+1240outputs (0major+136824minor)pagefaults 0swaps
+    ./fast/regression/smt_domain_check_test.tla
+0.13user 0.05system 0:00.16elapsed 115%CPU (0avgtext+0avgdata 29460maxresident)k
+16inputs+112outputs (0major+13704minor)pagefaults 0swaps
+    ./fast/regression/z3_fingerprint_test.tla
+0.18user 0.07system 0:00.25elapsed 101%CPU (0avgtext+0avgdata 21360maxresident)k
+8inputs+160outputs (0major+16682minor)pagefaults 0swaps
+    ./fast/russell_test.tla
+0.20user 0.11system 0:00.18elapsed 168%CPU (0avgtext+0avgdata 25644maxresident)k
+16inputs+160outputs (0major+27452minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/functions/bijection_thm_test.tla
+0.62user 0.37system 0:00.53elapsed 184%CPU (0avgtext+0avgdata 30044maxresident)k
+24inputs+640outputs (0major+105642minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/functions/composition_test.tla
+0.12user 0.07system 0:00.17elapsed 112%CPU (0avgtext+0avgdata 30048maxresident)k
+8inputs+104outputs (0major+13610minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/functions/identity1_test.tla
+0.12user 0.04system 0:00.15elapsed 112%CPU (0avgtext+0avgdata 25552maxresident)k
+8inputs+112outputs (0major+13509minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/functions/identity2_test.tla
+0.11user 0.05system 0:00.15elapsed 114%CPU (0avgtext+0avgdata 29648maxresident)k
+8inputs+120outputs (0major+13699minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/set_theory/cantor1_test.tla
+10.87user 14.53system 0:25.24elapsed 100%CPU (0avgtext+0avgdata 30216maxresident)k
+16inputs+272outputs (0major+37914minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/set_theory/choice_axiom2_test.tla
+11.35user 14.07system 0:25.26elapsed 100%CPU (0avgtext+0avgdata 29952maxresident)k
+8inputs+304outputs (0major+38617minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/set_theory/choice_axiom_test.tla
+0.33user 0.23system 0:00.26elapsed 215%CPU (0avgtext+0avgdata 30748maxresident)k
+8inputs+304outputs (0major+57674minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/set_theory/section_test.tla
+11.07user 14.38system 0:25.26elapsed 100%CPU (0avgtext+0avgdata 29944maxresident)k
+8inputs+304outputs (0major+38720minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/tuples/tuple_as_function1_test.tla
+0.29user 0.20system 0:00.28elapsed 175%CPU (0avgtext+0avgdata 30036maxresident)k
+16inputs+336outputs (0major+51582minor)pagefaults 0swaps
+    ./fast/smt_tests/advanced/tuples/tuple_as_function2_test.tla
+0.35user 0.23system 0:00.31elapsed 187%CPU (0avgtext+0avgdata 30140maxresident)k
+8inputs+336outputs (0major+61923minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith10_test.tla
+0.11user 0.06system 0:00.15elapsed 112%CPU (0avgtext+0avgdata 25800maxresident)k
+16inputs+104outputs (0major+13450minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith11_test.tla
+0.11user 0.05system 0:00.14elapsed 112%CPU (0avgtext+0avgdata 25700maxresident)k
+8inputs+104outputs (0major+13456minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith12_test.tla
+0.11user 0.06system 0:00.15elapsed 114%CPU (0avgtext+0avgdata 28060maxresident)k
+8inputs+104outputs (0major+13621minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith13_test.tla
+0.11user 0.06system 0:00.16elapsed 113%CPU (0avgtext+0avgdata 28136maxresident)k
+8inputs+104outputs (0major+13601minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith14_test.tla
+0.10user 0.06system 0:00.15elapsed 112%CPU (0avgtext+0avgdata 26680maxresident)k
+8inputs+104outputs (0major+13580minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith15_test.tla
+0.09user 0.06system 0:00.14elapsed 113%CPU (0avgtext+0avgdata 25608maxresident)k
+8inputs+104outputs (0major+13460minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith16_test.tla
+0.09user 0.06system 0:00.13elapsed 113%CPU (0avgtext+0avgdata 25628maxresident)k
+8inputs+104outputs (0major+13473minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith17_test.tla
+0.10user 0.06system 0:00.15elapsed 113%CPU (0avgtext+0avgdata 25640maxresident)k
+8inputs+104outputs (0major+13425minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith18_test.tla
+0.10user 0.05system 0:00.14elapsed 113%CPU (0avgtext+0avgdata 25568maxresident)k
+8inputs+104outputs (0major+13442minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith19_test.tla
+0.09user 0.07system 0:00.15elapsed 113%CPU (0avgtext+0avgdata 25668maxresident)k
+8inputs+104outputs (0major+13480minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith1_test.tla
+0.11user 0.05system 0:00.14elapsed 112%CPU (0avgtext+0avgdata 25568maxresident)k
+8inputs+104outputs (0major+13515minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith2_test.tla
+0.12user 0.03system 0:00.14elapsed 112%CPU (0avgtext+0avgdata 25564maxresident)k
+8inputs+104outputs (0major+13438minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith3_test.tla
+0.09user 0.07system 0:00.14elapsed 114%CPU (0avgtext+0avgdata 25612maxresident)k
+8inputs+104outputs (0major+13514minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith4_test.tla
+0.09user 0.06system 0:00.14elapsed 112%CPU (0avgtext+0avgdata 25608maxresident)k
+8inputs+104outputs (0major+13515minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith5_test.tla
+0.11user 0.04system 0:00.13elapsed 113%CPU (0avgtext+0avgdata 25644maxresident)k
+8inputs+104outputs (0major+13501minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith6_test.tla
+0.09user 0.07system 0:00.15elapsed 112%CPU (0avgtext+0avgdata 25584maxresident)k
+8inputs+104outputs (0major+13455minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith7_test.tla
+0.12user 0.06system 0:00.16elapsed 116%CPU (0avgtext+0avgdata 25680maxresident)k
+8inputs+104outputs (0major+13471minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith8_test.tla
+0.13user 0.07system 0:00.19elapsed 110%CPU (0avgtext+0avgdata 25668maxresident)k
+8inputs+104outputs (0major+13473minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/arith/arith9_test.tla
+0.10user 0.08system 0:00.17elapsed 112%CPU (0avgtext+0avgdata 25752maxresident)k
+8inputs+104outputs (0major+13464minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/epsilon/epsilon1_test.tla
+0.13user 0.05system 0:00.16elapsed 112%CPU (0avgtext+0avgdata 27960maxresident)k
+16inputs+104outputs (0major+13594minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/epsilon/epsilon2_test.tla
+0.11user 0.07system 0:00.16elapsed 113%CPU (0avgtext+0avgdata 28100maxresident)k
+8inputs+104outputs (0major+13647minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/epsilon/epsilon3_test.tla
+0.10user 0.06system 0:00.15elapsed 113%CPU (0avgtext+0avgdata 27964maxresident)k
+8inputs+104outputs (0major+13585minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/epsilon/epsilon4_test.tla
+0.11user 0.05system 0:00.15elapsed 114%CPU (0avgtext+0avgdata 28012maxresident)k
+8inputs+104outputs (0major+13597minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/extensionality/empty_set_ext_test.tla
+0.12user 0.04system 0:00.15elapsed 113%CPU (0avgtext+0avgdata 28052maxresident)k
+16inputs+104outputs (0major+13605minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/extensionality/enum_ext_test.tla
+0.10user 0.06system 0:00.15elapsed 114%CPU (0avgtext+0avgdata 28220maxresident)k
+8inputs+104outputs (0major+13665minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/extensionality/fun_ext_test.tla
+0.09user 0.07system 0:00.15elapsed 113%CPU (0avgtext+0avgdata 25596maxresident)k
+8inputs+104outputs (0major+13515minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/extensionality/set_ext_test.tla
+0.10user 0.06system 0:00.15elapsed 115%CPU (0avgtext+0avgdata 30220maxresident)k
+8inputs+104outputs (0major+13741minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/extensionality/tup_ext_test.tla
+0.11user 0.06system 0:00.14elapsed 114%CPU (0avgtext+0avgdata 25700maxresident)k
+8inputs+104outputs (0major+13491minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder1_test.tla
+0.10user 0.06system 0:00.14elapsed 113%CPU (0avgtext+0avgdata 27872maxresident)k
+16inputs+104outputs (0major+13629minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder1_wproof_test.tla
+0.13user 0.09system 0:00.16elapsed 140%CPU (0avgtext+0avgdata 28296maxresident)k
+8inputs+144outputs (0major+23002minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder2_test.tla
+0.10user 0.06system 0:00.15elapsed 113%CPU (0avgtext+0avgdata 28256maxresident)k
+8inputs+104outputs (0major+13634minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder2_wproof_test.tla
+0.13user 0.09system 0:00.17elapsed 136%CPU (0avgtext+0avgdata 28056maxresident)k
+8inputs+144outputs (0major+23016minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder3_test.tla
+0.10user 0.05system 0:00.14elapsed 116%CPU (0avgtext+0avgdata 29960maxresident)k
+8inputs+104outputs (0major+13735minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder3_wproof_test.tla
+0.15user 0.09system 0:00.17elapsed 145%CPU (0avgtext+0avgdata 29972maxresident)k
+8inputs+144outputs (0major+23425minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder4_test.tla
+0.10user 0.06system 0:00.14elapsed 114%CPU (0avgtext+0avgdata 29804maxresident)k
+8inputs+104outputs (0major+13708minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder4_wproof_test.tla
+0.13user 0.13system 0:00.17elapsed 151%CPU (0avgtext+0avgdata 30036maxresident)k
+8inputs+160outputs (0major+27947minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder5_test.tla
+0.10user 0.07system 0:00.15elapsed 114%CPU (0avgtext+0avgdata 29960maxresident)k
+8inputs+104outputs (0major+13742minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder5_wproof_test.tla
+0.16user 0.09system 0:00.17elapsed 151%CPU (0avgtext+0avgdata 28280maxresident)k
+8inputs+160outputs (0major+27877minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder6_test.tla
+0.12user 0.05system 0:00.15elapsed 115%CPU (0avgtext+0avgdata 29788maxresident)k
+8inputs+104outputs (0major+13727minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/firstorder/firstorder6_wproof_test.tla
+0.13user 0.14system 0:00.17elapsed 157%CPU (0avgtext+0avgdata 29704maxresident)k
+8inputs+160outputs (0major+28321minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function10_test.tla
+0.10user 0.07system 0:00.16elapsed 111%CPU (0avgtext+0avgdata 25724maxresident)k
+16inputs+104outputs (0major+13515minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function11_test.tla
+0.11user 0.06system 0:00.16elapsed 113%CPU (0avgtext+0avgdata 28048maxresident)k
+8inputs+104outputs (0major+13661minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function12_test.tla
+11.27user 13.99system 0:25.21elapsed 100%CPU (0avgtext+0avgdata 24692maxresident)k
+8inputs+152outputs (0major+14539minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function13_test.tla
+0.13user 0.05system 0:00.16elapsed 112%CPU (0avgtext+0avgdata 25648maxresident)k
+8inputs+104outputs (0major+13478minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function14_test.tla
+0.12user 0.04system 0:00.15elapsed 113%CPU (0avgtext+0avgdata 28004maxresident)k
+8inputs+104outputs (0major+13619minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function15_test.tla
+0.09user 0.07system 0:00.15elapsed 112%CPU (0avgtext+0avgdata 25600maxresident)k
+8inputs+104outputs (0major+13480minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function16_test.tla
+11.45user 13.75system 0:25.18elapsed 100%CPU (0avgtext+0avgdata 22140maxresident)k
+16inputs+152outputs (0major+13857minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function17_test.tla
+0.11user 0.07system 0:00.16elapsed 113%CPU (0avgtext+0avgdata 29788maxresident)k
+8inputs+120outputs (0major+13733minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function18_test.tla
+0.09user 0.06system 0:00.13elapsed 113%CPU (0avgtext+0avgdata 25776maxresident)k
+8inputs+104outputs (1major+13527minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function1_test.tla
+0.10user 0.04system 0:00.13elapsed 112%CPU (0avgtext+0avgdata 25648maxresident)k
+8inputs+104outputs (0major+13470minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function20_test.tla
+0.09user 0.05system 0:00.13elapsed 113%CPU (0avgtext+0avgdata 25680maxresident)k
+8inputs+104outputs (0major+13484minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function21_test.tla
+0.11user 0.03system 0:00.13elapsed 113%CPU (0avgtext+0avgdata 25568maxresident)k
+8inputs+104outputs (0major+13459minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function22_test.tla
+0.11user 0.04system 0:00.13elapsed 113%CPU (0avgtext+0avgdata 25564maxresident)k
+8inputs+104outputs (0major+13490minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function23_test.tla
+0.11user 0.05system 0:00.14elapsed 113%CPU (0avgtext+0avgdata 29960maxresident)k
+8inputs+112outputs (0major+13679minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function24_test.tla
+0.11user 0.04system 0:00.14elapsed 113%CPU (0avgtext+0avgdata 25696maxresident)k
+8inputs+104outputs (0major+13477minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function25_test.tla
+0.08user 0.07system 0:00.14elapsed 113%CPU (0avgtext+0avgdata 25556maxresident)k
+8inputs+104outputs (1major+13486minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function26_test.tla
+0.11user 0.05system 0:00.14elapsed 113%CPU (0avgtext+0avgdata 25648maxresident)k
+8inputs+104outputs (0major+13462minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function27_test.tla
+0.11user 0.07system 0:00.16elapsed 115%CPU (0avgtext+0avgdata 30112maxresident)k
+8inputs+120outputs (0major+13735minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function28_test.tla
+0.10user 0.08system 0:00.16elapsed 115%CPU (0avgtext+0avgdata 30744maxresident)k
+8inputs+120outputs (0major+13754minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function29_test.tla
+0.08user 0.08system 0:00.15elapsed 113%CPU (0avgtext+0avgdata 25564maxresident)k
+8inputs+104outputs (0major+13506minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function2_test.tla
+0.09user 0.08system 0:00.15elapsed 113%CPU (0avgtext+0avgdata 28080maxresident)k
+8inputs+104outputs (0major+13633minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function30_test.tla
+0.10user 0.07system 0:00.15elapsed 113%CPU (0avgtext+0avgdata 25648maxresident)k
+8inputs+104outputs (0major+13534minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function3_test.tla
+0.12user 0.11system 0:00.18elapsed 127%CPU (0avgtext+0avgdata 30180maxresident)k
+8inputs+128outputs (0major+18409minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function5_test.tla
+0.10user 0.07system 0:00.15elapsed 115%CPU (0avgtext+0avgdata 27980maxresident)k
+8inputs+104outputs (0major+13639minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function6_test.tla
+0.10user 0.06system 0:00.15elapsed 113%CPU (0avgtext+0avgdata 25804maxresident)k
+8inputs+104outputs (0major+13486minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/function/function7_test.tla
+0.10user 0.06system 0:00.14elapsed 113%CPU (0avgtext+0avgdata 25712maxresident)k
+8inputs+104outputs (0major+13444minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/basic_test.tla
+0.10user 0.06system 0:00.15elapsed 113%CPU (0avgtext+0avgdata 25688maxresident)k
+16inputs+104outputs (0major+13476minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop10_test.tla
+0.10user 0.06system 0:00.14elapsed 113%CPU (0avgtext+0avgdata 25572maxresident)k
+8inputs+104outputs (0major+13490minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop11_test.tla
+0.11user 0.05system 0:00.15elapsed 114%CPU (0avgtext+0avgdata 28120maxresident)k
+8inputs+104outputs (0major+13608minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop12_test.tla
+0.10user 0.06system 0:00.15elapsed 114%CPU (0avgtext+0avgdata 27928maxresident)k
+8inputs+104outputs (0major+13588minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop1_test.tla
+0.08user 0.07system 0:00.14elapsed 112%CPU (0avgtext+0avgdata 25796maxresident)k
+8inputs+104outputs (0major+13464minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop2_test.tla
+0.11user 0.05system 0:00.14elapsed 113%CPU (0avgtext+0avgdata 25524maxresident)k
+8inputs+104outputs (0major+13440minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop3_test.tla
+0.12user 0.04system 0:00.14elapsed 112%CPU (0avgtext+0avgdata 25552maxresident)k
+8inputs+104outputs (0major+13476minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop4_test.tla
+0.08user 0.07system 0:00.14elapsed 112%CPU (0avgtext+0avgdata 25532maxresident)k
+8inputs+104outputs (0major+13480minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop5_test.tla
+0.10user 0.06system 0:00.14elapsed 112%CPU (0avgtext+0avgdata 25672maxresident)k
+8inputs+104outputs (0major+13489minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop6_test.tla
+0.10user 0.05system 0:00.14elapsed 114%CPU (0avgtext+0avgdata 25564maxresident)k
+8inputs+104outputs (0major+13476minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop7_test.tla
+0.10user 0.06system 0:00.14elapsed 114%CPU (0avgtext+0avgdata 28096maxresident)k
+8inputs+104outputs (0major+13597minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop8_test.tla
+0.10user 0.06system 0:00.15elapsed 114%CPU (0avgtext+0avgdata 28312maxresident)k
+8inputs+104outputs (0major+13604minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/prop/prop9_test.tla
+0.11user 0.05system 0:00.15elapsed 113%CPU (0avgtext+0avgdata 25704maxresident)k
+8inputs+104outputs (0major+13446minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/record/record1_test.tla
+0.08user 0.08system 0:00.15elapsed 112%CPU (0avgtext+0avgdata 25564maxresident)k
+16inputs+104outputs (0major+13435minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/record/record2_test.tla
+0.10user 0.06system 0:00.15elapsed 113%CPU (0avgtext+0avgdata 25564maxresident)k
+8inputs+104outputs (0major+13489minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/record/record3_test.tla
+0.12user 0.05system 0:00.15elapsed 113%CPU (0avgtext+0avgdata 25608maxresident)k
+8inputs+104outputs (0major+13493minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set10_test.tla
+0.11user 0.06system 0:00.15elapsed 113%CPU (0avgtext+0avgdata 28004maxresident)k
+16inputs+104outputs (0major+13600minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set11_test.tla
+0.08user 0.07system 0:00.14elapsed 113%CPU (0avgtext+0avgdata 25612maxresident)k
+8inputs+104outputs (0major+13485minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set12_test.tla
+0.11user 0.05system 0:00.14elapsed 112%CPU (0avgtext+0avgdata 25556maxresident)k
+8inputs+104outputs (1major+13465minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set13_test.tla
+0.12user 0.04system 0:00.14elapsed 112%CPU (0avgtext+0avgdata 25644maxresident)k
+8inputs+104outputs (0major+13451minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set14_test.tla
+0.13user 0.04system 0:00.15elapsed 115%CPU (0avgtext+0avgdata 28240maxresident)k
+8inputs+104outputs (1major+13613minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set15_test.tla
+0.09user 0.07system 0:00.14elapsed 112%CPU (0avgtext+0avgdata 25648maxresident)k
+8inputs+104outputs (0major+13503minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set16_test.tla
+0.12user 0.05system 0:00.15elapsed 115%CPU (0avgtext+0avgdata 29620maxresident)k
+8inputs+104outputs (1major+13778minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set17_test.tla
+0.11user 0.05system 0:00.14elapsed 112%CPU (0avgtext+0avgdata 25568maxresident)k
+8inputs+104outputs (0major+13478minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set18_test.tla
+0.11user 0.05system 0:00.15elapsed 114%CPU (0avgtext+0avgdata 29600maxresident)k
+8inputs+104outputs (0major+13792minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set19_test.tla
+0.09user 0.07system 0:00.14elapsed 113%CPU (0avgtext+0avgdata 25644maxresident)k
+8inputs+104outputs (0major+13513minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set1_test.tla
+0.11user 0.06system 0:00.14elapsed 114%CPU (0avgtext+0avgdata 28148maxresident)k
+8inputs+104outputs (0major+13583minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set2_test.tla
+0.10user 0.06system 0:00.14elapsed 113%CPU (0avgtext+0avgdata 25604maxresident)k
+8inputs+104outputs (0major+13441minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set3_test.tla
+0.10user 0.06system 0:00.14elapsed 113%CPU (0avgtext+0avgdata 25564maxresident)k
+8inputs+104outputs (0major+13441minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set4_test.tla
+0.10user 0.06system 0:00.14elapsed 113%CPU (0avgtext+0avgdata 25556maxresident)k
+8inputs+104outputs (0major+13479minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set5_test.tla
+0.09user 0.07system 0:00.14elapsed 112%CPU (0avgtext+0avgdata 25596maxresident)k
+8inputs+104outputs (0major+13450minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set6_test.tla
+0.11user 0.06system 0:00.15elapsed 113%CPU (0avgtext+0avgdata 28004maxresident)k
+8inputs+104outputs (0major+13567minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set7_test.tla
+0.10user 0.06system 0:00.14elapsed 113%CPU (0avgtext+0avgdata 25616maxresident)k
+8inputs+104outputs (0major+13447minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set8_test.tla
+0.11user 0.05system 0:00.14elapsed 114%CPU (0avgtext+0avgdata 28212maxresident)k
+8inputs+104outputs (1major+13565minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/set/set9_test.tla
+0.11user 0.06system 0:00.15elapsed 114%CPU (0avgtext+0avgdata 28232maxresident)k
+8inputs+104outputs (0major+13571minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/string/strings1_test.tla
+0.11user 0.05system 0:00.14elapsed 112%CPU (0avgtext+0avgdata 25608maxresident)k
+16inputs+104outputs (0major+13457minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/string/strings2_test.tla
+0.12user 0.04system 0:00.14elapsed 113%CPU (0avgtext+0avgdata 25644maxresident)k
+8inputs+104outputs (0major+13457minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple1_test.tla
+0.12user 0.04system 0:00.14elapsed 113%CPU (0avgtext+0avgdata 25720maxresident)k
+16inputs+104outputs (0major+13419minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple2_test.tla
+0.11user 0.05system 0:00.15elapsed 112%CPU (0avgtext+0avgdata 27904maxresident)k
+8inputs+104outputs (0major+13604minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple3_test.tla
+0.11user 0.04system 0:00.14elapsed 113%CPU (0avgtext+0avgdata 25696maxresident)k
+8inputs+104outputs (0major+13458minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple4_test.tla
+0.11user 0.05system 0:00.14elapsed 113%CPU (0avgtext+0avgdata 25596maxresident)k
+8inputs+104outputs (0major+13439minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple5_test.tla
+0.10user 0.06system 0:00.14elapsed 112%CPU (0avgtext+0avgdata 25640maxresident)k
+8inputs+104outputs (0major+13440minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple6_test.tla
+0.12user 0.04system 0:00.14elapsed 113%CPU (0avgtext+0avgdata 25624maxresident)k
+8inputs+104outputs (0major+13455minor)pagefaults 0swaps
+    ./fast/smt_tests/basic/tuple/tuple7_test.tla
+0.10user 0.06system 0:00.14elapsed 113%CPU (0avgtext+0avgdata 25684maxresident)k
+8inputs+104outputs (0major+13504minor)pagefaults 0swaps
+    ./fast/smt_tests/lang/user_ops_test.tla
+0.56user 0.05system 0:00.60elapsed 102%CPU (0avgtext+0avgdata 25472maxresident)k
+16inputs+152outputs (0major+14611minor)pagefaults 0swaps
+    ./fast/smt_tests/negative/one_div_zero_test.tla
+2.47user 2.75system 0:05.18elapsed 100%CPU (0avgtext+0avgdata 21484maxresident)k
+16inputs+136outputs (0major+13674minor)pagefaults 0swaps
+    ./fast/smt_tests/negative/zero_in_one_test.tla
+2.35user 2.86system 0:05.19elapsed 100%CPU (0avgtext+0avgdata 21464maxresident)k
+8inputs+136outputs (0major+13642minor)pagefaults 0swaps
+    ./fast/smt_tests/rewriting_rules/quantifiers_test.tla
+0.18user 0.15system 0:00.19elapsed 173%CPU (0avgtext+0avgdata 25672maxresident)k
+16inputs+192outputs (0major+36944minor)pagefaults 0swaps
+    ./fast/smt_tests/silly_theorems/app_ambiguity_test.tla
+0.12user 0.06system 0:00.16elapsed 113%CPU (0avgtext+0avgdata 28020maxresident)k
+16inputs+104outputs (0major+13722minor)pagefaults 0swaps
+    ./fast/smt_tests/silly_theorems/nonempty_integer_test.tla
+0.20user 0.11system 0:00.19elapsed 162%CPU (0avgtext+0avgdata 30660maxresident)k
+8inputs+160outputs (0major+28225minor)pagefaults 0swaps
+    ./fast/smt_tests/silly_theorems/one_implies_one_test.tla
+0.13user 0.06system 0:00.16elapsed 117%CPU (0avgtext+0avgdata 21584maxresident)k
+8inputs+104outputs (0major+13372minor)pagefaults 0swaps
+    ./fast/smt_tests/silly_theorems/record_as_function_test.tla
+0.12user 0.05system 0:00.15elapsed 114%CPU (0avgtext+0avgdata 29824maxresident)k
+8inputs+104outputs (0major+13683minor)pagefaults 0swaps
+    ./fast/smt_tests/silly_theorems/x_implies_x_test.tla
+0.10user 0.06system 0:00.14elapsed 112%CPU (0avgtext+0avgdata 25696maxresident)k
+8inputs+104outputs (0major+13439minor)pagefaults 0swaps
+    ./medium/regression/select_bug_test.tla
+22.55user 27.62system 0:50.18elapsed 99%CPU (0avgtext+0avgdata 21384maxresident)k
+16inputs+144outputs (0major+9486minor)pagefaults 0swaps
+    ./medium/regression/snapshot/GFX_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+258.31user 37.73system 4:09.94elapsed 118%CPU (0avgtext+0avgdata 208412maxresident)k
+8808inputs+19576outputs (108major+1606737minor)pagefaults 0swaps
+    ./medium/regression/snapshot/SnapShot_test.tla
+forbidden output is present
+Command exited with non-zero status 3
+717.15user 11.14system 11:39.77elapsed 104%CPU (0avgtext+0avgdata 365452maxresident)k
+10872inputs+43384outputs (28major+3077462minor)pagefaults 0swaps

@@ -1,0 +1,6116 @@
+"optable.ml" 26 356 360 "optable.ml" 26 356 367
+type(
+  'a * 'b * 'c * 'd * 'e -> 'a * 'b * 'c * 'd * 'e option
+)
+ident(
+  def withdef "optable.ml" 28 434 434 "optable.ml" 0 0 -1
+)
+"optable.ml" 26 356 369 "optable.ml" 26 356 373
+type(
+  'a
+)
+ident(
+  def name "optable.ml" 26 356 399 "optable.ml" 26 356 432
+)
+"optable.ml" 26 356 375 "optable.ml" 26 356 379
+type(
+  'b
+)
+ident(
+  def prec "optable.ml" 26 356 399 "optable.ml" 26 356 432
+)
+"optable.ml" 26 356 381 "optable.ml" 26 356 384
+type(
+  'c
+)
+ident(
+  def fix "optable.ml" 26 356 399 "optable.ml" 26 356 432
+)
+"optable.ml" 26 356 386 "optable.ml" 26 356 389
+type(
+  'd
+)
+ident(
+  def als "optable.ml" 26 356 399 "optable.ml" 26 356 432
+)
+"optable.ml" 26 356 391 "optable.ml" 26 356 395
+type(
+  'e
+)
+ident(
+  def defn "optable.ml" 26 356 399 "optable.ml" 26 356 432
+)
+"optable.ml" 26 356 368 "optable.ml" 26 356 396
+type(
+  'a * 'b * 'c * 'd * 'e
+)
+"optable.ml" 26 356 400 "optable.ml" 26 356 404
+type(
+  'a
+)
+ident(
+  int_ref name "optable.ml" 26 356 369 "optable.ml" 26 356 373
+)
+"optable.ml" 26 356 406 "optable.ml" 26 356 410
+type(
+  'b
+)
+ident(
+  int_ref prec "optable.ml" 26 356 375 "optable.ml" 26 356 379
+)
+"optable.ml" 26 356 412 "optable.ml" 26 356 415
+type(
+  'c
+)
+ident(
+  int_ref fix "optable.ml" 26 356 381 "optable.ml" 26 356 384
+)
+"optable.ml" 26 356 417 "optable.ml" 26 356 420
+type(
+  'd
+)
+ident(
+  int_ref als "optable.ml" 26 356 386 "optable.ml" 26 356 389
+)
+"optable.ml" 26 356 427 "optable.ml" 26 356 431
+type(
+  'e
+)
+ident(
+  int_ref defn "optable.ml" 26 356 391 "optable.ml" 26 356 395
+)
+"optable.ml" 26 356 422 "optable.ml" 26 356 431
+type(
+  'e option
+)
+"optable.ml" 26 356 399 "optable.ml" 26 356 432
+type(
+  'a * 'b * 'c * 'd * 'e option
+)
+"optable.ml" 28 434 438 "optable.ml" 28 434 444
+type(
+  (dom *
+   (string * (int * int) * fixity * string list * Builtin.builtin option)
+   list)
+  list
+)
+ident(
+  def tlaops "optable.ml" 143 6349 6349 "optable.ml" 0 0 -1
+)
+"optable.ml" 29 449 451 "optable.ml" 29 449 456
+type(
+  dom
+)
+"optable.ml" 30 458 460 "optable.ml" 30 458 468
+type(
+  (string * (int * int) * fixity * string list * Builtin.builtin ->
+   string * (int * int) * fixity * string list * Builtin.builtin option) ->
+  (string * (int * int) * fixity * string list * Builtin.builtin) list ->
+  (string * (int * int) * fixity * string list * Builtin.builtin option) list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"optable.ml" 30 458 469 "optable.ml" 30 458 476
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin ->
+  string * (int * int) * fixity * string list * Builtin.builtin option
+)
+ident(
+  int_ref withdef "optable.ml" 26 356 360 "optable.ml" 26 356 367
+)
+"optable.ml" 31 479 483 "optable.ml" 31 479 487
+type(
+  string
+)
+"optable.ml" 31 479 502 "optable.ml" 31 479 503
+type(
+  int
+)
+"optable.ml" 31 479 505 "optable.ml" 31 479 506
+type(
+  int
+)
+"optable.ml" 31 479 500 "optable.ml" 31 479 507
+type(
+  int * int
+)
+"optable.ml" 31 479 517 "optable.ml" 31 479 520
+type(
+  assoc
+)
+"optable.ml" 31 479 511 "optable.ml" 31 479 520
+type(
+  fixity
+)
+"optable.ml" 31 479 524 "optable.ml" 31 479 526
+type(
+  string list
+)
+"optable.ml" 31 479 546 "optable.ml" 31 479 553
+type(
+  Builtin.builtin
+)
+"optable.ml" 31 479 483 "optable.ml" 31 479 553
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 32 556 560 "optable.ml" 32 556 565
+type(
+  string
+)
+"optable.ml" 32 556 579 "optable.ml" 32 556 580
+type(
+  int
+)
+"optable.ml" 32 556 582 "optable.ml" 32 556 583
+type(
+  int
+)
+"optable.ml" 32 556 577 "optable.ml" 32 556 584
+type(
+  int * int
+)
+"optable.ml" 32 556 594 "optable.ml" 32 556 597
+type(
+  assoc
+)
+"optable.ml" 32 556 588 "optable.ml" 32 556 597
+type(
+  fixity
+)
+"optable.ml" 32 556 603 "optable.ml" 32 556 612
+type(
+  string
+)
+"optable.ml" 32 556 601 "optable.ml" 32 556 614
+type(
+  string list
+)
+"optable.ml" 32 556 623 "optable.ml" 32 556 628
+type(
+  Builtin.builtin
+)
+"optable.ml" 32 556 560 "optable.ml" 32 556 628
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 33 631 635 "optable.ml" 33 631 640
+type(
+  string
+)
+"optable.ml" 33 631 654 "optable.ml" 33 631 655
+type(
+  int
+)
+"optable.ml" 33 631 657 "optable.ml" 33 631 658
+type(
+  int
+)
+"optable.ml" 33 631 652 "optable.ml" 33 631 659
+type(
+  int * int
+)
+"optable.ml" 33 631 669 "optable.ml" 33 631 673
+type(
+  assoc
+)
+"optable.ml" 33 631 663 "optable.ml" 33 631 673
+type(
+  fixity
+)
+"optable.ml" 33 631 678 "optable.ml" 33 631 686
+type(
+  string
+)
+"optable.ml" 33 631 676 "optable.ml" 33 631 688
+type(
+  string list
+)
+"optable.ml" 33 631 698 "optable.ml" 33 631 702
+type(
+  Builtin.builtin
+)
+"optable.ml" 33 631 635 "optable.ml" 33 631 702
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 34 705 709 "optable.ml" 34 705 714
+type(
+  string
+)
+"optable.ml" 34 705 728 "optable.ml" 34 705 729
+type(
+  int
+)
+"optable.ml" 34 705 731 "optable.ml" 34 705 732
+type(
+  int
+)
+"optable.ml" 34 705 726 "optable.ml" 34 705 733
+type(
+  int * int
+)
+"optable.ml" 34 705 743 "optable.ml" 34 705 747
+type(
+  assoc
+)
+"optable.ml" 34 705 737 "optable.ml" 34 705 747
+type(
+  fixity
+)
+"optable.ml" 34 705 752 "optable.ml" 34 705 759
+type(
+  string
+)
+"optable.ml" 34 705 750 "optable.ml" 34 705 761
+type(
+  string list
+)
+"optable.ml" 34 705 772 "optable.ml" 34 705 776
+type(
+  Builtin.builtin
+)
+"optable.ml" 34 705 709 "optable.ml" 34 705 776
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 35 779 783 "optable.ml" 35 779 786
+type(
+  string
+)
+"optable.ml" 35 779 802 "optable.ml" 35 779 803
+type(
+  int
+)
+"optable.ml" 35 779 805 "optable.ml" 35 779 806
+type(
+  int
+)
+"optable.ml" 35 779 800 "optable.ml" 35 779 807
+type(
+  int * int
+)
+"optable.ml" 35 779 811 "optable.ml" 35 779 817
+type(
+  fixity
+)
+"optable.ml" 35 779 826 "optable.ml" 35 779 833
+type(
+  string
+)
+"optable.ml" 35 779 836 "optable.ml" 35 779 844
+type(
+  string
+)
+"optable.ml" 35 779 824 "optable.ml" 35 779 846
+type(
+  string list
+)
+"optable.ml" 35 779 848 "optable.ml" 35 779 851
+type(
+  Builtin.builtin
+)
+"optable.ml" 35 779 783 "optable.ml" 35 779 851
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 36 854 858 "optable.ml" 36 854 861
+type(
+  string
+)
+"optable.ml" 36 854 877 "optable.ml" 36 854 878
+type(
+  int
+)
+"optable.ml" 36 854 880 "optable.ml" 36 854 881
+type(
+  int
+)
+"optable.ml" 36 854 875 "optable.ml" 36 854 882
+type(
+  int * int
+)
+"optable.ml" 36 854 892 "optable.ml" 36 854 895
+type(
+  assoc
+)
+"optable.ml" 36 854 886 "optable.ml" 36 854 895
+type(
+  fixity
+)
+"optable.ml" 36 854 899 "optable.ml" 36 854 901
+type(
+  string list
+)
+"optable.ml" 36 854 921 "optable.ml" 36 854 923
+type(
+  Builtin.builtin
+)
+"optable.ml" 36 854 858 "optable.ml" 36 854 923
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 37 926 930 "optable.ml" 37 926 933
+type(
+  string
+)
+"optable.ml" 37 926 949 "optable.ml" 37 926 950
+type(
+  int
+)
+"optable.ml" 37 926 952 "optable.ml" 37 926 953
+type(
+  int
+)
+"optable.ml" 37 926 947 "optable.ml" 37 926 954
+type(
+  int * int
+)
+"optable.ml" 37 926 964 "optable.ml" 37 926 967
+type(
+  assoc
+)
+"optable.ml" 37 926 958 "optable.ml" 37 926 967
+type(
+  fixity
+)
+"optable.ml" 37 926 973 "optable.ml" 37 926 977
+type(
+  string
+)
+"optable.ml" 37 926 971 "optable.ml" 37 926 979
+type(
+  string list
+)
+"optable.ml" 37 926 993 "optable.ml" 37 926 996
+type(
+  Builtin.builtin
+)
+"optable.ml" 37 926 930 "optable.ml" 37 926 996
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 30 458 477 "optable.ml" 38 999 1002
+type(
+  (string * (int * int) * fixity * string list * Builtin.builtin) list
+)
+"optable.ml" 30 458 460 "optable.ml" 38 999 1002
+type(
+  (string * (int * int) * fixity * string list * Builtin.builtin option) list
+)
+"optable.ml" 29 449 451 "optable.ml" 38 999 1002
+type(
+  dom *
+  (string * (int * int) * fixity * string list * Builtin.builtin option) list
+)
+"optable.ml" 39 1005 1007 "optable.ml" 39 1005 1011
+type(
+  dom
+)
+"optable.ml" 40 1013 1015 "optable.ml" 40 1013 1023
+type(
+  (string * (int * int) * fixity * string list * Builtin.builtin ->
+   string * (int * int) * fixity * string list * Builtin.builtin option) ->
+  (string * (int * int) * fixity * string list * Builtin.builtin) list ->
+  (string * (int * int) * fixity * string list * Builtin.builtin option) list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"optable.ml" 40 1013 1024 "optable.ml" 40 1013 1031
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin ->
+  string * (int * int) * fixity * string list * Builtin.builtin option
+)
+ident(
+  int_ref withdef "optable.ml" 26 356 360 "optable.ml" 26 356 367
+)
+"optable.ml" 41 1034 1038 "optable.ml" 41 1034 1046
+type(
+  string
+)
+"optable.ml" 41 1034 1057 "optable.ml" 41 1034 1058
+type(
+  int
+)
+"optable.ml" 41 1034 1060 "optable.ml" 41 1034 1061
+type(
+  int
+)
+"optable.ml" 41 1034 1055 "optable.ml" 41 1034 1062
+type(
+  int * int
+)
+"optable.ml" 41 1034 1066 "optable.ml" 41 1034 1072
+type(
+  fixity
+)
+"optable.ml" 41 1034 1079 "optable.ml" 41 1034 1081
+type(
+  string list
+)
+"optable.ml" 41 1034 1101 "optable.ml" 41 1034 1107
+type(
+  Builtin.builtin
+)
+"optable.ml" 41 1034 1038 "optable.ml" 41 1034 1107
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 42 1110 1114 "optable.ml" 42 1110 1121
+type(
+  string
+)
+"optable.ml" 42 1110 1133 "optable.ml" 42 1110 1134
+type(
+  int
+)
+"optable.ml" 42 1110 1136 "optable.ml" 42 1110 1137
+type(
+  int
+)
+"optable.ml" 42 1110 1131 "optable.ml" 42 1110 1138
+type(
+  int * int
+)
+"optable.ml" 42 1110 1142 "optable.ml" 42 1110 1148
+type(
+  fixity
+)
+"optable.ml" 42 1110 1155 "optable.ml" 42 1110 1157
+type(
+  string list
+)
+"optable.ml" 42 1110 1177 "optable.ml" 42 1110 1182
+type(
+  Builtin.builtin
+)
+"optable.ml" 42 1110 1114 "optable.ml" 42 1110 1182
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 43 1185 1189 "optable.ml" 43 1185 1197
+type(
+  string
+)
+"optable.ml" 43 1185 1208 "optable.ml" 43 1185 1209
+type(
+  int
+)
+"optable.ml" 43 1185 1211 "optable.ml" 43 1185 1212
+type(
+  int
+)
+"optable.ml" 43 1185 1206 "optable.ml" 43 1185 1213
+type(
+  int * int
+)
+"optable.ml" 43 1185 1217 "optable.ml" 43 1185 1223
+type(
+  fixity
+)
+"optable.ml" 43 1185 1230 "optable.ml" 43 1185 1232
+type(
+  string list
+)
+"optable.ml" 43 1185 1252 "optable.ml" 43 1185 1258
+type(
+  Builtin.builtin
+)
+"optable.ml" 43 1185 1189 "optable.ml" 43 1185 1258
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 44 1261 1265 "optable.ml" 44 1261 1277
+type(
+  string
+)
+"optable.ml" 44 1261 1284 "optable.ml" 44 1261 1285
+type(
+  int
+)
+"optable.ml" 44 1261 1287 "optable.ml" 44 1261 1288
+type(
+  int
+)
+"optable.ml" 44 1261 1282 "optable.ml" 44 1261 1289
+type(
+  int * int
+)
+"optable.ml" 44 1261 1299 "optable.ml" 44 1261 1302
+type(
+  assoc
+)
+"optable.ml" 44 1261 1293 "optable.ml" 44 1261 1302
+type(
+  fixity
+)
+"optable.ml" 44 1261 1306 "optable.ml" 44 1261 1308
+type(
+  string list
+)
+"optable.ml" 44 1261 1328 "optable.ml" 44 1261 1336
+type(
+  Builtin.builtin
+)
+"optable.ml" 44 1261 1265 "optable.ml" 44 1261 1336
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 45 1339 1343 "optable.ml" 45 1339 1349
+type(
+  string
+)
+"optable.ml" 45 1339 1362 "optable.ml" 45 1339 1363
+type(
+  int
+)
+"optable.ml" 45 1339 1365 "optable.ml" 45 1339 1366
+type(
+  int
+)
+"optable.ml" 45 1339 1360 "optable.ml" 45 1339 1367
+type(
+  int * int
+)
+"optable.ml" 45 1339 1377 "optable.ml" 45 1339 1380
+type(
+  assoc
+)
+"optable.ml" 45 1339 1371 "optable.ml" 45 1339 1380
+type(
+  fixity
+)
+"optable.ml" 45 1339 1384 "optable.ml" 45 1339 1386
+type(
+  string list
+)
+"optable.ml" 45 1339 1406 "optable.ml" 45 1339 1409
+type(
+  Builtin.builtin
+)
+"optable.ml" 45 1339 1343 "optable.ml" 45 1339 1409
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 46 1412 1416 "optable.ml" 46 1412 1425
+type(
+  string
+)
+"optable.ml" 46 1412 1435 "optable.ml" 46 1412 1436
+type(
+  int
+)
+"optable.ml" 46 1412 1438 "optable.ml" 46 1412 1439
+type(
+  int
+)
+"optable.ml" 46 1412 1433 "optable.ml" 46 1412 1440
+type(
+  int * int
+)
+"optable.ml" 46 1412 1450 "optable.ml" 46 1412 1453
+type(
+  assoc
+)
+"optable.ml" 46 1412 1444 "optable.ml" 46 1412 1453
+type(
+  fixity
+)
+"optable.ml" 46 1412 1457 "optable.ml" 46 1412 1459
+type(
+  string list
+)
+"optable.ml" 46 1412 1479 "optable.ml" 46 1412 1485
+type(
+  Builtin.builtin
+)
+"optable.ml" 46 1412 1416 "optable.ml" 46 1412 1485
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 47 1488 1492 "optable.ml" 47 1488 1496
+type(
+  string
+)
+"optable.ml" 47 1488 1511 "optable.ml" 47 1488 1512
+type(
+  int
+)
+"optable.ml" 47 1488 1514 "optable.ml" 47 1488 1515
+type(
+  int
+)
+"optable.ml" 47 1488 1509 "optable.ml" 47 1488 1516
+type(
+  int * int
+)
+"optable.ml" 47 1488 1526 "optable.ml" 47 1488 1529
+type(
+  assoc
+)
+"optable.ml" 47 1488 1520 "optable.ml" 47 1488 1529
+type(
+  fixity
+)
+"optable.ml" 47 1488 1533 "optable.ml" 47 1488 1535
+type(
+  string list
+)
+"optable.ml" 47 1488 1555 "optable.ml" 47 1488 1563
+type(
+  Builtin.builtin
+)
+"optable.ml" 47 1488 1492 "optable.ml" 47 1488 1563
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 48 1566 1570 "optable.ml" 48 1566 1577
+type(
+  string
+)
+"optable.ml" 48 1566 1589 "optable.ml" 48 1566 1590
+type(
+  int
+)
+"optable.ml" 48 1566 1592 "optable.ml" 48 1566 1593
+type(
+  int
+)
+"optable.ml" 48 1566 1587 "optable.ml" 48 1566 1594
+type(
+  int * int
+)
+"optable.ml" 48 1566 1604 "optable.ml" 48 1566 1608
+type(
+  assoc
+)
+"optable.ml" 48 1566 1598 "optable.ml" 48 1566 1608
+type(
+  fixity
+)
+"optable.ml" 48 1566 1613 "optable.ml" 48 1566 1626
+type(
+  string
+)
+"optable.ml" 48 1566 1611 "optable.ml" 48 1566 1628
+type(
+  string list
+)
+"optable.ml" 48 1566 1633 "optable.ml" 48 1566 1636
+type(
+  Builtin.builtin
+)
+"optable.ml" 48 1566 1570 "optable.ml" 48 1566 1636
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 49 1639 1643 "optable.ml" 49 1639 1650
+type(
+  string
+)
+"optable.ml" 49 1639 1662 "optable.ml" 49 1639 1663
+type(
+  int
+)
+"optable.ml" 49 1639 1665 "optable.ml" 49 1639 1666
+type(
+  int
+)
+"optable.ml" 49 1639 1660 "optable.ml" 49 1639 1667
+type(
+  int * int
+)
+"optable.ml" 49 1639 1677 "optable.ml" 49 1639 1681
+type(
+  assoc
+)
+"optable.ml" 49 1639 1671 "optable.ml" 49 1639 1681
+type(
+  fixity
+)
+"optable.ml" 49 1639 1686 "optable.ml" 49 1639 1695
+type(
+  string
+)
+"optable.ml" 49 1639 1684 "optable.ml" 49 1639 1697
+type(
+  string list
+)
+"optable.ml" 49 1639 1706 "optable.ml" 49 1639 1709
+type(
+  Builtin.builtin
+)
+"optable.ml" 49 1639 1643 "optable.ml" 49 1639 1709
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 40 1013 1032 "optable.ml" 50 1712 1715
+type(
+  (string * (int * int) * fixity * string list * Builtin.builtin) list
+)
+"optable.ml" 40 1013 1015 "optable.ml" 50 1712 1715
+type(
+  (string * (int * int) * fixity * string list * Builtin.builtin option) list
+)
+"optable.ml" 39 1005 1007 "optable.ml" 50 1712 1715
+type(
+  dom *
+  (string * (int * int) * fixity * string list * Builtin.builtin option) list
+)
+"optable.ml" 51 1718 1720 "optable.ml" 51 1718 1724
+type(
+  dom
+)
+"optable.ml" 52 1726 1730 "optable.ml" 52 1726 1735
+type(
+  string
+)
+"optable.ml" 52 1726 1748 "optable.ml" 52 1726 1750
+type(
+  int
+)
+"optable.ml" 52 1726 1751 "optable.ml" 52 1726 1753
+type(
+  int
+)
+"optable.ml" 52 1726 1747 "optable.ml" 52 1726 1754
+type(
+  int * int
+)
+"optable.ml" 52 1726 1758 "optable.ml" 52 1726 1764
+type(
+  fixity
+)
+"optable.ml" 52 1726 1773 "optable.ml" 52 1726 1782
+type(
+  string
+)
+"optable.ml" 52 1726 1771 "optable.ml" 52 1726 1784
+type(
+  string list
+)
+"optable.ml" 52 1726 1793 "optable.ml" 52 1726 1797
+type(
+  Builtin.builtin option
+)
+"optable.ml" 52 1726 1730 "optable.ml" 52 1726 1797
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin option
+)
+"optable.ml" 52 1726 1728 "optable.ml" 52 1726 1799
+type(
+  (string * (int * int) * fixity * string list * Builtin.builtin option) list
+)
+"optable.ml" 51 1718 1720 "optable.ml" 52 1726 1799
+type(
+  dom *
+  (string * (int * int) * fixity * string list * Builtin.builtin option) list
+)
+"optable.ml" 53 1802 1804 "optable.ml" 53 1802 1809
+type(
+  dom
+)
+"optable.ml" 54 1811 1813 "optable.ml" 54 1811 1821
+type(
+  (string * (int * int) * fixity * string list * Builtin.builtin ->
+   string * (int * int) * fixity * string list * Builtin.builtin option) ->
+  (string * (int * int) * fixity * string list * Builtin.builtin) list ->
+  (string * (int * int) * fixity * string list * Builtin.builtin option) list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"optable.ml" 54 1811 1822 "optable.ml" 54 1811 1829
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin ->
+  string * (int * int) * fixity * string list * Builtin.builtin option
+)
+ident(
+  int_ref withdef "optable.ml" 26 356 360 "optable.ml" 26 356 367
+)
+"optable.ml" 55 1832 1836 "optable.ml" 55 1832 1839
+type(
+  string
+)
+"optable.ml" 55 1832 1854 "optable.ml" 55 1832 1856
+type(
+  int
+)
+"optable.ml" 55 1832 1857 "optable.ml" 55 1832 1859
+type(
+  int
+)
+"optable.ml" 55 1832 1853 "optable.ml" 55 1832 1860
+type(
+  int * int
+)
+"optable.ml" 55 1832 1864 "optable.ml" 55 1832 1871
+type(
+  fixity
+)
+"optable.ml" 55 1832 1877 "optable.ml" 55 1832 1879
+type(
+  string list
+)
+"optable.ml" 55 1832 1899 "optable.ml" 55 1832 1904
+type(
+  Builtin.builtin
+)
+"optable.ml" 55 1832 1836 "optable.ml" 55 1832 1904
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 56 1907 1911 "optable.ml" 56 1907 1915
+type(
+  string
+)
+"optable.ml" 56 1907 1930 "optable.ml" 56 1907 1931
+type(
+  int
+)
+"optable.ml" 56 1907 1933 "optable.ml" 56 1907 1934
+type(
+  int
+)
+"optable.ml" 56 1907 1928 "optable.ml" 56 1907 1935
+type(
+  int * int
+)
+"optable.ml" 56 1907 1945 "optable.ml" 56 1907 1948
+type(
+  assoc
+)
+"optable.ml" 56 1907 1939 "optable.ml" 56 1907 1948
+type(
+  fixity
+)
+"optable.ml" 56 1907 1954 "optable.ml" 56 1907 1965
+type(
+  string
+)
+"optable.ml" 56 1907 1952 "optable.ml" 56 1907 1967
+type(
+  string list
+)
+"optable.ml" 56 1907 1974 "optable.ml" 56 1907 1981
+type(
+  Builtin.builtin
+)
+"optable.ml" 56 1907 1911 "optable.ml" 56 1907 1981
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 57 1984 1988 "optable.ml" 57 1984 1997
+type(
+  string
+)
+"optable.ml" 57 1984 2007 "optable.ml" 57 1984 2008
+type(
+  int
+)
+"optable.ml" 57 1984 2009 "optable.ml" 57 1984 2011
+type(
+  int
+)
+"optable.ml" 57 1984 2005 "optable.ml" 57 1984 2012
+type(
+  int * int
+)
+"optable.ml" 57 1984 2016 "optable.ml" 57 1984 2022
+type(
+  fixity
+)
+"optable.ml" 57 1984 2029 "optable.ml" 57 1984 2031
+type(
+  string list
+)
+"optable.ml" 57 1984 2051 "optable.ml" 57 1984 2058
+type(
+  Builtin.builtin
+)
+"optable.ml" 57 1984 1988 "optable.ml" 57 1984 2058
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 58 2061 2065 "optable.ml" 58 2061 2076
+type(
+  string
+)
+"optable.ml" 58 2061 2084 "optable.ml" 58 2061 2085
+type(
+  int
+)
+"optable.ml" 58 2061 2086 "optable.ml" 58 2061 2088
+type(
+  int
+)
+"optable.ml" 58 2061 2082 "optable.ml" 58 2061 2089
+type(
+  int * int
+)
+"optable.ml" 58 2061 2093 "optable.ml" 58 2061 2099
+type(
+  fixity
+)
+"optable.ml" 58 2061 2106 "optable.ml" 58 2061 2108
+type(
+  string list
+)
+"optable.ml" 58 2061 2128 "optable.ml" 58 2061 2137
+type(
+  Builtin.builtin
+)
+"optable.ml" 58 2061 2065 "optable.ml" 58 2061 2137
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 59 2140 2144 "optable.ml" 59 2140 2152
+type(
+  string
+)
+"optable.ml" 59 2140 2163 "optable.ml" 59 2140 2164
+type(
+  int
+)
+"optable.ml" 59 2140 2165 "optable.ml" 59 2140 2167
+type(
+  int
+)
+"optable.ml" 59 2140 2161 "optable.ml" 59 2140 2168
+type(
+  int * int
+)
+"optable.ml" 59 2140 2178 "optable.ml" 59 2140 2182
+type(
+  assoc
+)
+"optable.ml" 59 2140 2172 "optable.ml" 59 2140 2182
+type(
+  fixity
+)
+"optable.ml" 59 2140 2185 "optable.ml" 59 2140 2187
+type(
+  string list
+)
+"optable.ml" 59 2140 2207 "optable.ml" 59 2140 2211
+type(
+  Builtin.builtin
+)
+"optable.ml" 59 2140 2144 "optable.ml" 59 2140 2211
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 60 2214 2218 "optable.ml" 60 2214 2224
+type(
+  string
+)
+"optable.ml" 60 2214 2237 "optable.ml" 60 2214 2238
+type(
+  int
+)
+"optable.ml" 60 2214 2240 "optable.ml" 60 2214 2241
+type(
+  int
+)
+"optable.ml" 60 2214 2235 "optable.ml" 60 2214 2242
+type(
+  int * int
+)
+"optable.ml" 60 2214 2252 "optable.ml" 60 2214 2255
+type(
+  assoc
+)
+"optable.ml" 60 2214 2246 "optable.ml" 60 2214 2255
+type(
+  fixity
+)
+"optable.ml" 60 2214 2259 "optable.ml" 60 2214 2261
+type(
+  string list
+)
+"optable.ml" 60 2214 2281 "optable.ml" 60 2214 2288
+type(
+  Builtin.builtin
+)
+"optable.ml" 60 2214 2218 "optable.ml" 60 2214 2288
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 61 2291 2295 "optable.ml" 61 2291 2299
+type(
+  string
+)
+"optable.ml" 61 2291 2314 "optable.ml" 61 2291 2315
+type(
+  int
+)
+"optable.ml" 61 2291 2316 "optable.ml" 61 2291 2318
+type(
+  int
+)
+"optable.ml" 61 2291 2312 "optable.ml" 61 2291 2319
+type(
+  int * int
+)
+"optable.ml" 61 2291 2323 "optable.ml" 61 2291 2329
+type(
+  fixity
+)
+"optable.ml" 61 2291 2336 "optable.ml" 61 2291 2338
+type(
+  string list
+)
+"optable.ml" 61 2291 2362 "optable.ml" 61 2291 2366
+type(
+  bool
+)
+"optable.ml" 61 2291 2358 "optable.ml" 61 2291 2366
+type(
+  Builtin.builtin
+)
+"optable.ml" 61 2291 2295 "optable.ml" 61 2291 2366
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 62 2369 2373 "optable.ml" 62 2369 2377
+type(
+  string
+)
+"optable.ml" 62 2369 2392 "optable.ml" 62 2369 2393
+type(
+  int
+)
+"optable.ml" 62 2369 2394 "optable.ml" 62 2369 2396
+type(
+  int
+)
+"optable.ml" 62 2369 2390 "optable.ml" 62 2369 2397
+type(
+  int * int
+)
+"optable.ml" 62 2369 2401 "optable.ml" 62 2369 2407
+type(
+  fixity
+)
+"optable.ml" 62 2369 2414 "optable.ml" 62 2369 2416
+type(
+  string list
+)
+"optable.ml" 62 2369 2436 "optable.ml" 62 2369 2443
+type(
+  Builtin.builtin
+)
+"optable.ml" 62 2369 2373 "optable.ml" 62 2369 2443
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin
+)
+"optable.ml" 54 1811 1830 "optable.ml" 63 2446 2449
+type(
+  (string * (int * int) * fixity * string list * Builtin.builtin) list
+)
+"optable.ml" 54 1811 1813 "optable.ml" 63 2446 2449
+type(
+  (string * (int * int) * fixity * string list * Builtin.builtin option) list
+)
+"optable.ml" 53 1802 1804 "optable.ml" 63 2446 2449
+type(
+  dom *
+  (string * (int * int) * fixity * string list * Builtin.builtin option) list
+)
+"optable.ml" 64 2452 2454 "optable.ml" 64 2452 2458
+type(
+  dom
+)
+"optable.ml" 65 2460 2462 "optable.ml" 65 2460 2470
+type(
+  (string * (int * int) * fixity * string list ->
+   string * (int * int) * fixity * string list * Builtin.builtin option) ->
+  (string * (int * int) * fixity * string list) list ->
+  (string * (int * int) * fixity * string list * Builtin.builtin option) list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"optable.ml" 65 2460 2477 "optable.ml" 65 2460 2481
+type(
+  string
+)
+ident(
+  def name "optable.ml" 65 2460 2502 "optable.ml" 65 2460 2530
+)
+"optable.ml" 65 2460 2483 "optable.ml" 65 2460 2487
+type(
+  int * int
+)
+ident(
+  def prec "optable.ml" 65 2460 2502 "optable.ml" 65 2460 2530
+)
+"optable.ml" 65 2460 2489 "optable.ml" 65 2460 2492
+type(
+  fixity
+)
+ident(
+  def fix "optable.ml" 65 2460 2502 "optable.ml" 65 2460 2530
+)
+"optable.ml" 65 2460 2494 "optable.ml" 65 2460 2497
+type(
+  string list
+)
+ident(
+  def als "optable.ml" 65 2460 2502 "optable.ml" 65 2460 2530
+)
+"optable.ml" 65 2460 2476 "optable.ml" 65 2460 2498
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 65 2460 2503 "optable.ml" 65 2460 2507
+type(
+  string
+)
+ident(
+  int_ref name "optable.ml" 65 2460 2477 "optable.ml" 65 2460 2481
+)
+"optable.ml" 65 2460 2509 "optable.ml" 65 2460 2513
+type(
+  int * int
+)
+ident(
+  int_ref prec "optable.ml" 65 2460 2483 "optable.ml" 65 2460 2487
+)
+"optable.ml" 65 2460 2515 "optable.ml" 65 2460 2518
+type(
+  fixity
+)
+ident(
+  int_ref fix "optable.ml" 65 2460 2489 "optable.ml" 65 2460 2492
+)
+"optable.ml" 65 2460 2520 "optable.ml" 65 2460 2523
+type(
+  string list
+)
+ident(
+  int_ref als "optable.ml" 65 2460 2494 "optable.ml" 65 2460 2497
+)
+"optable.ml" 65 2460 2525 "optable.ml" 65 2460 2529
+type(
+  Builtin.builtin option
+)
+"optable.ml" 65 2460 2502 "optable.ml" 65 2460 2530
+type(
+  string * (int * int) * fixity * string list * Builtin.builtin option
+)
+"optable.ml" 65 2460 2471 "optable.ml" 65 2460 2531
+type(
+  string * (int * int) * fixity * string list ->
+  string * (int * int) * fixity * string list * Builtin.builtin option
+)
+"optable.ml" 66 2534 2538 "optable.ml" 66 2534 2541
+type(
+  string
+)
+"optable.ml" 66 2534 2556 "optable.ml" 66 2534 2558
+type(
+  int
+)
+"optable.ml" 66 2534 2559 "optable.ml" 66 2534 2561
+type(
+  int
+)
+"optable.ml" 66 2534 2555 "optable.ml" 66 2534 2562
+type(
+  int * int
+)
+"optable.ml" 66 2534 2572 "optable.ml" 66 2534 2575
+type(
+  assoc
+)
+"optable.ml" 66 2534 2566 "optable.ml" 66 2534 2575
+type(
+  fixity
+)
+"optable.ml" 66 2534 2579 "optable.ml" 66 2534 2581
+type(
+  string list
+)
+"optable.ml" 66 2534 2538 "optable.ml" 66 2534 2581
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 67 2584 2588 "optable.ml" 67 2584 2591
+type(
+  string
+)
+"optable.ml" 67 2584 2606 "optable.ml" 67 2584 2608
+type(
+  int
+)
+"optable.ml" 67 2584 2609 "optable.ml" 67 2584 2611
+type(
+  int
+)
+"optable.ml" 67 2584 2605 "optable.ml" 67 2584 2612
+type(
+  int * int
+)
+"optable.ml" 67 2584 2622 "optable.ml" 67 2584 2625
+type(
+  assoc
+)
+"optable.ml" 67 2584 2616 "optable.ml" 67 2584 2625
+type(
+  fixity
+)
+"optable.ml" 67 2584 2629 "optable.ml" 67 2584 2631
+type(
+  string list
+)
+"optable.ml" 67 2584 2588 "optable.ml" 67 2584 2631
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 68 2634 2638 "optable.ml" 68 2634 2641
+type(
+  string
+)
+"optable.ml" 68 2634 2656 "optable.ml" 68 2634 2658
+type(
+  int
+)
+"optable.ml" 68 2634 2659 "optable.ml" 68 2634 2661
+type(
+  int
+)
+"optable.ml" 68 2634 2655 "optable.ml" 68 2634 2662
+type(
+  int * int
+)
+"optable.ml" 68 2634 2672 "optable.ml" 68 2634 2676
+type(
+  assoc
+)
+"optable.ml" 68 2634 2666 "optable.ml" 68 2634 2676
+type(
+  fixity
+)
+"optable.ml" 68 2634 2679 "optable.ml" 68 2634 2681
+type(
+  string list
+)
+"optable.ml" 68 2634 2638 "optable.ml" 68 2634 2681
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 69 2684 2688 "optable.ml" 69 2684 2692
+type(
+  string
+)
+"optable.ml" 69 2684 2706 "optable.ml" 69 2684 2708
+type(
+  int
+)
+"optable.ml" 69 2684 2709 "optable.ml" 69 2684 2711
+type(
+  int
+)
+"optable.ml" 69 2684 2705 "optable.ml" 69 2684 2712
+type(
+  int * int
+)
+"optable.ml" 69 2684 2716 "optable.ml" 69 2684 2722
+type(
+  fixity
+)
+"optable.ml" 69 2684 2731 "optable.ml" 69 2684 2734
+type(
+  string
+)
+"optable.ml" 69 2684 2729 "optable.ml" 69 2684 2736
+type(
+  string list
+)
+"optable.ml" 69 2684 2688 "optable.ml" 69 2684 2736
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 70 2739 2743 "optable.ml" 70 2739 2746
+type(
+  string
+)
+"optable.ml" 70 2739 2761 "optable.ml" 70 2739 2763
+type(
+  int
+)
+"optable.ml" 70 2739 2764 "optable.ml" 70 2739 2766
+type(
+  int
+)
+"optable.ml" 70 2739 2760 "optable.ml" 70 2739 2767
+type(
+  int * int
+)
+"optable.ml" 70 2739 2777 "optable.ml" 70 2739 2781
+type(
+  assoc
+)
+"optable.ml" 70 2739 2771 "optable.ml" 70 2739 2781
+type(
+  fixity
+)
+"optable.ml" 70 2739 2784 "optable.ml" 70 2739 2786
+type(
+  string list
+)
+"optable.ml" 70 2739 2743 "optable.ml" 70 2739 2786
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 71 2789 2793 "optable.ml" 71 2789 2796
+type(
+  string
+)
+"optable.ml" 71 2789 2811 "optable.ml" 71 2789 2813
+type(
+  int
+)
+"optable.ml" 71 2789 2814 "optable.ml" 71 2789 2816
+type(
+  int
+)
+"optable.ml" 71 2789 2810 "optable.ml" 71 2789 2817
+type(
+  int * int
+)
+"optable.ml" 71 2789 2827 "optable.ml" 71 2789 2831
+type(
+  assoc
+)
+"optable.ml" 71 2789 2821 "optable.ml" 71 2789 2831
+type(
+  fixity
+)
+"optable.ml" 71 2789 2834 "optable.ml" 71 2789 2836
+type(
+  string list
+)
+"optable.ml" 71 2789 2793 "optable.ml" 71 2789 2836
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 72 2839 2843 "optable.ml" 72 2839 2847
+type(
+  string
+)
+"optable.ml" 72 2839 2861 "optable.ml" 72 2839 2863
+type(
+  int
+)
+"optable.ml" 72 2839 2864 "optable.ml" 72 2839 2866
+type(
+  int
+)
+"optable.ml" 72 2839 2860 "optable.ml" 72 2839 2867
+type(
+  int * int
+)
+"optable.ml" 72 2839 2871 "optable.ml" 72 2839 2878
+type(
+  fixity
+)
+"optable.ml" 72 2839 2884 "optable.ml" 72 2839 2886
+type(
+  string list
+)
+"optable.ml" 72 2839 2843 "optable.ml" 72 2839 2886
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 73 2889 2893 "optable.ml" 73 2889 2897
+type(
+  string
+)
+"optable.ml" 73 2889 2911 "optable.ml" 73 2889 2913
+type(
+  int
+)
+"optable.ml" 73 2889 2914 "optable.ml" 73 2889 2916
+type(
+  int
+)
+"optable.ml" 73 2889 2910 "optable.ml" 73 2889 2917
+type(
+  int * int
+)
+"optable.ml" 73 2889 2921 "optable.ml" 73 2889 2928
+type(
+  fixity
+)
+"optable.ml" 73 2889 2934 "optable.ml" 73 2889 2936
+type(
+  string list
+)
+"optable.ml" 73 2889 2893 "optable.ml" 73 2889 2936
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 74 2939 2943 "optable.ml" 74 2939 2947
+type(
+  string
+)
+"optable.ml" 74 2939 2961 "optable.ml" 74 2939 2963
+type(
+  int
+)
+"optable.ml" 74 2939 2964 "optable.ml" 74 2939 2966
+type(
+  int
+)
+"optable.ml" 74 2939 2960 "optable.ml" 74 2939 2967
+type(
+  int * int
+)
+"optable.ml" 74 2939 2971 "optable.ml" 74 2939 2978
+type(
+  fixity
+)
+"optable.ml" 74 2939 2984 "optable.ml" 74 2939 2986
+type(
+  string list
+)
+"optable.ml" 74 2939 2943 "optable.ml" 74 2939 2986
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 75 2989 2993 "optable.ml" 75 2989 2996
+type(
+  string
+)
+"optable.ml" 75 2989 3012 "optable.ml" 75 2989 3013
+type(
+  int
+)
+"optable.ml" 75 2989 3015 "optable.ml" 75 2989 3016
+type(
+  int
+)
+"optable.ml" 75 2989 3010 "optable.ml" 75 2989 3017
+type(
+  int * int
+)
+"optable.ml" 75 2989 3027 "optable.ml" 75 2989 3030
+type(
+  assoc
+)
+"optable.ml" 75 2989 3021 "optable.ml" 75 2989 3030
+type(
+  fixity
+)
+"optable.ml" 75 2989 3034 "optable.ml" 75 2989 3036
+type(
+  string list
+)
+"optable.ml" 75 2989 2993 "optable.ml" 75 2989 3036
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 76 3039 3043 "optable.ml" 76 3039 3047
+type(
+  string
+)
+"optable.ml" 76 3039 3062 "optable.ml" 76 3039 3063
+type(
+  int
+)
+"optable.ml" 76 3039 3065 "optable.ml" 76 3039 3066
+type(
+  int
+)
+"optable.ml" 76 3039 3060 "optable.ml" 76 3039 3067
+type(
+  int * int
+)
+"optable.ml" 76 3039 3077 "optable.ml" 76 3039 3080
+type(
+  assoc
+)
+"optable.ml" 76 3039 3071 "optable.ml" 76 3039 3080
+type(
+  fixity
+)
+"optable.ml" 76 3039 3086 "optable.ml" 76 3039 3090
+type(
+  string
+)
+"optable.ml" 76 3039 3093 "optable.ml" 76 3039 3100
+type(
+  string
+)
+"optable.ml" 76 3039 3084 "optable.ml" 76 3039 3102
+type(
+  string list
+)
+"optable.ml" 76 3039 3043 "optable.ml" 76 3039 3102
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 77 3105 3109 "optable.ml" 77 3105 3112
+type(
+  string
+)
+"optable.ml" 77 3105 3128 "optable.ml" 77 3105 3129
+type(
+  int
+)
+"optable.ml" 77 3105 3131 "optable.ml" 77 3105 3132
+type(
+  int
+)
+"optable.ml" 77 3105 3126 "optable.ml" 77 3105 3133
+type(
+  int * int
+)
+"optable.ml" 77 3105 3143 "optable.ml" 77 3105 3146
+type(
+  assoc
+)
+"optable.ml" 77 3105 3137 "optable.ml" 77 3105 3146
+type(
+  fixity
+)
+"optable.ml" 77 3105 3150 "optable.ml" 77 3105 3152
+type(
+  string list
+)
+"optable.ml" 77 3105 3109 "optable.ml" 77 3105 3152
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 78 3155 3159 "optable.ml" 78 3155 3163
+type(
+  string
+)
+"optable.ml" 78 3155 3178 "optable.ml" 78 3155 3179
+type(
+  int
+)
+"optable.ml" 78 3155 3181 "optable.ml" 78 3155 3182
+type(
+  int
+)
+"optable.ml" 78 3155 3176 "optable.ml" 78 3155 3183
+type(
+  int * int
+)
+"optable.ml" 78 3155 3193 "optable.ml" 78 3155 3196
+type(
+  assoc
+)
+"optable.ml" 78 3155 3187 "optable.ml" 78 3155 3196
+type(
+  fixity
+)
+"optable.ml" 78 3155 3202 "optable.ml" 78 3155 3209
+type(
+  string
+)
+"optable.ml" 78 3155 3200 "optable.ml" 78 3155 3211
+type(
+  string list
+)
+"optable.ml" 78 3155 3159 "optable.ml" 78 3155 3211
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 79 3214 3218 "optable.ml" 79 3214 3223
+type(
+  string
+)
+"optable.ml" 79 3214 3237 "optable.ml" 79 3214 3238
+type(
+  int
+)
+"optable.ml" 79 3214 3240 "optable.ml" 79 3214 3241
+type(
+  int
+)
+"optable.ml" 79 3214 3235 "optable.ml" 79 3214 3242
+type(
+  int * int
+)
+"optable.ml" 79 3214 3252 "optable.ml" 79 3214 3255
+type(
+  assoc
+)
+"optable.ml" 79 3214 3246 "optable.ml" 79 3214 3255
+type(
+  fixity
+)
+"optable.ml" 79 3214 3259 "optable.ml" 79 3214 3261
+type(
+  string list
+)
+"optable.ml" 79 3214 3218 "optable.ml" 79 3214 3261
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 80 3264 3268 "optable.ml" 80 3264 3272
+type(
+  string
+)
+"optable.ml" 80 3264 3287 "optable.ml" 80 3264 3288
+type(
+  int
+)
+"optable.ml" 80 3264 3290 "optable.ml" 80 3264 3291
+type(
+  int
+)
+"optable.ml" 80 3264 3285 "optable.ml" 80 3264 3292
+type(
+  int * int
+)
+"optable.ml" 80 3264 3302 "optable.ml" 80 3264 3305
+type(
+  assoc
+)
+"optable.ml" 80 3264 3296 "optable.ml" 80 3264 3305
+type(
+  fixity
+)
+"optable.ml" 80 3264 3309 "optable.ml" 80 3264 3311
+type(
+  string list
+)
+"optable.ml" 80 3264 3268 "optable.ml" 80 3264 3311
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 81 3314 3318 "optable.ml" 81 3314 3321
+type(
+  string
+)
+"optable.ml" 81 3314 3336 "optable.ml" 81 3314 3338
+type(
+  int
+)
+"optable.ml" 81 3314 3339 "optable.ml" 81 3314 3341
+type(
+  int
+)
+"optable.ml" 81 3314 3335 "optable.ml" 81 3314 3342
+type(
+  int * int
+)
+"optable.ml" 81 3314 3352 "optable.ml" 81 3314 3356
+type(
+  assoc
+)
+"optable.ml" 81 3314 3346 "optable.ml" 81 3314 3356
+type(
+  fixity
+)
+"optable.ml" 81 3314 3359 "optable.ml" 81 3314 3361
+type(
+  string list
+)
+"optable.ml" 81 3314 3318 "optable.ml" 81 3314 3361
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 82 3364 3368 "optable.ml" 82 3364 3372
+type(
+  string
+)
+"optable.ml" 82 3364 3386 "optable.ml" 82 3364 3388
+type(
+  int
+)
+"optable.ml" 82 3364 3389 "optable.ml" 82 3364 3391
+type(
+  int
+)
+"optable.ml" 82 3364 3385 "optable.ml" 82 3364 3392
+type(
+  int * int
+)
+"optable.ml" 82 3364 3402 "optable.ml" 82 3364 3406
+type(
+  assoc
+)
+"optable.ml" 82 3364 3396 "optable.ml" 82 3364 3406
+type(
+  fixity
+)
+"optable.ml" 82 3364 3409 "optable.ml" 82 3364 3411
+type(
+  string list
+)
+"optable.ml" 82 3364 3368 "optable.ml" 82 3364 3411
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 83 3414 3418 "optable.ml" 83 3414 3422
+type(
+  string
+)
+"optable.ml" 83 3414 3436 "optable.ml" 83 3414 3438
+type(
+  int
+)
+"optable.ml" 83 3414 3439 "optable.ml" 83 3414 3441
+type(
+  int
+)
+"optable.ml" 83 3414 3435 "optable.ml" 83 3414 3442
+type(
+  int * int
+)
+"optable.ml" 83 3414 3452 "optable.ml" 83 3414 3456
+type(
+  assoc
+)
+"optable.ml" 83 3414 3446 "optable.ml" 83 3414 3456
+type(
+  fixity
+)
+"optable.ml" 83 3414 3459 "optable.ml" 83 3414 3461
+type(
+  string list
+)
+"optable.ml" 83 3414 3418 "optable.ml" 83 3414 3461
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 84 3464 3468 "optable.ml" 84 3464 3471
+type(
+  string
+)
+"optable.ml" 84 3464 3486 "optable.ml" 84 3464 3488
+type(
+  int
+)
+"optable.ml" 84 3464 3489 "optable.ml" 84 3464 3491
+type(
+  int
+)
+"optable.ml" 84 3464 3485 "optable.ml" 84 3464 3492
+type(
+  int * int
+)
+"optable.ml" 84 3464 3502 "optable.ml" 84 3464 3506
+type(
+  assoc
+)
+"optable.ml" 84 3464 3496 "optable.ml" 84 3464 3506
+type(
+  fixity
+)
+"optable.ml" 84 3464 3509 "optable.ml" 84 3464 3511
+type(
+  string list
+)
+"optable.ml" 84 3464 3468 "optable.ml" 84 3464 3511
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 85 3514 3518 "optable.ml" 85 3514 3522
+type(
+  string
+)
+"optable.ml" 85 3514 3537 "optable.ml" 85 3514 3538
+type(
+  int
+)
+"optable.ml" 85 3514 3539 "optable.ml" 85 3514 3541
+type(
+  int
+)
+"optable.ml" 85 3514 3535 "optable.ml" 85 3514 3542
+type(
+  int * int
+)
+"optable.ml" 85 3514 3552 "optable.ml" 85 3514 3556
+type(
+  assoc
+)
+"optable.ml" 85 3514 3546 "optable.ml" 85 3514 3556
+type(
+  fixity
+)
+"optable.ml" 85 3514 3559 "optable.ml" 85 3514 3561
+type(
+  string list
+)
+"optable.ml" 85 3514 3518 "optable.ml" 85 3514 3561
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 86 3564 3568 "optable.ml" 86 3564 3571
+type(
+  string
+)
+"optable.ml" 86 3564 3587 "optable.ml" 86 3564 3588
+type(
+  int
+)
+"optable.ml" 86 3564 3589 "optable.ml" 86 3564 3591
+type(
+  int
+)
+"optable.ml" 86 3564 3585 "optable.ml" 86 3564 3592
+type(
+  int * int
+)
+"optable.ml" 86 3564 3602 "optable.ml" 86 3564 3606
+type(
+  assoc
+)
+"optable.ml" 86 3564 3596 "optable.ml" 86 3564 3606
+type(
+  fixity
+)
+"optable.ml" 86 3564 3609 "optable.ml" 86 3564 3611
+type(
+  string list
+)
+"optable.ml" 86 3564 3568 "optable.ml" 86 3564 3611
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 87 3614 3618 "optable.ml" 87 3614 3622
+type(
+  string
+)
+"optable.ml" 87 3614 3637 "optable.ml" 87 3614 3638
+type(
+  int
+)
+"optable.ml" 87 3614 3639 "optable.ml" 87 3614 3641
+type(
+  int
+)
+"optable.ml" 87 3614 3635 "optable.ml" 87 3614 3642
+type(
+  int * int
+)
+"optable.ml" 87 3614 3652 "optable.ml" 87 3614 3656
+type(
+  assoc
+)
+"optable.ml" 87 3614 3646 "optable.ml" 87 3614 3656
+type(
+  fixity
+)
+"optable.ml" 87 3614 3659 "optable.ml" 87 3614 3661
+type(
+  string list
+)
+"optable.ml" 87 3614 3618 "optable.ml" 87 3614 3661
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 88 3664 3668 "optable.ml" 88 3664 3672
+type(
+  string
+)
+"optable.ml" 88 3664 3686 "optable.ml" 88 3664 3688
+type(
+  int
+)
+"optable.ml" 88 3664 3689 "optable.ml" 88 3664 3691
+type(
+  int
+)
+"optable.ml" 88 3664 3685 "optable.ml" 88 3664 3692
+type(
+  int * int
+)
+"optable.ml" 88 3664 3702 "optable.ml" 88 3664 3706
+type(
+  assoc
+)
+"optable.ml" 88 3664 3696 "optable.ml" 88 3664 3706
+type(
+  fixity
+)
+"optable.ml" 88 3664 3709 "optable.ml" 88 3664 3711
+type(
+  string list
+)
+"optable.ml" 88 3664 3668 "optable.ml" 88 3664 3711
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 89 3714 3718 "optable.ml" 89 3714 3721
+type(
+  string
+)
+"optable.ml" 89 3714 3736 "optable.ml" 89 3714 3738
+type(
+  int
+)
+"optable.ml" 89 3714 3739 "optable.ml" 89 3714 3741
+type(
+  int
+)
+"optable.ml" 89 3714 3735 "optable.ml" 89 3714 3742
+type(
+  int * int
+)
+"optable.ml" 89 3714 3752 "optable.ml" 89 3714 3756
+type(
+  assoc
+)
+"optable.ml" 89 3714 3746 "optable.ml" 89 3714 3756
+type(
+  fixity
+)
+"optable.ml" 89 3714 3761 "optable.ml" 89 3714 3768
+type(
+  string
+)
+"optable.ml" 89 3714 3759 "optable.ml" 89 3714 3770
+type(
+  string list
+)
+"optable.ml" 89 3714 3718 "optable.ml" 89 3714 3770
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 90 3773 3777 "optable.ml" 90 3773 3781
+type(
+  string
+)
+"optable.ml" 90 3773 3796 "optable.ml" 90 3773 3797
+type(
+  int
+)
+"optable.ml" 90 3773 3798 "optable.ml" 90 3773 3800
+type(
+  int
+)
+"optable.ml" 90 3773 3794 "optable.ml" 90 3773 3801
+type(
+  int * int
+)
+"optable.ml" 90 3773 3811 "optable.ml" 90 3773 3815
+type(
+  assoc
+)
+"optable.ml" 90 3773 3805 "optable.ml" 90 3773 3815
+type(
+  fixity
+)
+"optable.ml" 90 3773 3818 "optable.ml" 90 3773 3820
+type(
+  string list
+)
+"optable.ml" 90 3773 3777 "optable.ml" 90 3773 3820
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 91 3823 3827 "optable.ml" 91 3823 3831
+type(
+  string
+)
+"optable.ml" 91 3823 3845 "optable.ml" 91 3823 3847
+type(
+  int
+)
+"optable.ml" 91 3823 3848 "optable.ml" 91 3823 3850
+type(
+  int
+)
+"optable.ml" 91 3823 3844 "optable.ml" 91 3823 3851
+type(
+  int * int
+)
+"optable.ml" 91 3823 3861 "optable.ml" 91 3823 3865
+type(
+  assoc
+)
+"optable.ml" 91 3823 3855 "optable.ml" 91 3823 3865
+type(
+  fixity
+)
+"optable.ml" 91 3823 3868 "optable.ml" 91 3823 3870
+type(
+  string list
+)
+"optable.ml" 91 3823 3827 "optable.ml" 91 3823 3870
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 92 3873 3877 "optable.ml" 92 3873 3881
+type(
+  string
+)
+"optable.ml" 92 3873 3895 "optable.ml" 92 3873 3897
+type(
+  int
+)
+"optable.ml" 92 3873 3898 "optable.ml" 92 3873 3900
+type(
+  int
+)
+"optable.ml" 92 3873 3894 "optable.ml" 92 3873 3901
+type(
+  int * int
+)
+"optable.ml" 92 3873 3911 "optable.ml" 92 3873 3915
+type(
+  assoc
+)
+"optable.ml" 92 3873 3905 "optable.ml" 92 3873 3915
+type(
+  fixity
+)
+"optable.ml" 92 3873 3918 "optable.ml" 92 3873 3920
+type(
+  string list
+)
+"optable.ml" 92 3873 3877 "optable.ml" 92 3873 3920
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 93 3923 3927 "optable.ml" 93 3923 3931
+type(
+  string
+)
+"optable.ml" 93 3923 3945 "optable.ml" 93 3923 3947
+type(
+  int
+)
+"optable.ml" 93 3923 3948 "optable.ml" 93 3923 3950
+type(
+  int
+)
+"optable.ml" 93 3923 3944 "optable.ml" 93 3923 3951
+type(
+  int * int
+)
+"optable.ml" 93 3923 3961 "optable.ml" 93 3923 3965
+type(
+  assoc
+)
+"optable.ml" 93 3923 3955 "optable.ml" 93 3923 3965
+type(
+  fixity
+)
+"optable.ml" 93 3923 3968 "optable.ml" 93 3923 3970
+type(
+  string list
+)
+"optable.ml" 93 3923 3927 "optable.ml" 93 3923 3970
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 94 3973 3977 "optable.ml" 94 3973 3981
+type(
+  string
+)
+"optable.ml" 94 3973 3995 "optable.ml" 94 3973 3997
+type(
+  int
+)
+"optable.ml" 94 3973 3998 "optable.ml" 94 3973 4000
+type(
+  int
+)
+"optable.ml" 94 3973 3994 "optable.ml" 94 3973 4001
+type(
+  int * int
+)
+"optable.ml" 94 3973 4011 "optable.ml" 94 3973 4014
+type(
+  assoc
+)
+"optable.ml" 94 3973 4005 "optable.ml" 94 3973 4014
+type(
+  fixity
+)
+"optable.ml" 94 3973 4018 "optable.ml" 94 3973 4020
+type(
+  string list
+)
+"optable.ml" 94 3973 3977 "optable.ml" 94 3973 4020
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 95 4023 4027 "optable.ml" 95 4023 4031
+type(
+  string
+)
+"optable.ml" 95 4023 4045 "optable.ml" 95 4023 4047
+type(
+  int
+)
+"optable.ml" 95 4023 4048 "optable.ml" 95 4023 4050
+type(
+  int
+)
+"optable.ml" 95 4023 4044 "optable.ml" 95 4023 4051
+type(
+  int * int
+)
+"optable.ml" 95 4023 4061 "optable.ml" 95 4023 4064
+type(
+  assoc
+)
+"optable.ml" 95 4023 4055 "optable.ml" 95 4023 4064
+type(
+  fixity
+)
+"optable.ml" 95 4023 4068 "optable.ml" 95 4023 4070
+type(
+  string list
+)
+"optable.ml" 95 4023 4027 "optable.ml" 95 4023 4070
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 96 4073 4077 "optable.ml" 96 4073 4081
+type(
+  string
+)
+"optable.ml" 96 4073 4096 "optable.ml" 96 4073 4097
+type(
+  int
+)
+"optable.ml" 96 4073 4099 "optable.ml" 96 4073 4100
+type(
+  int
+)
+"optable.ml" 96 4073 4094 "optable.ml" 96 4073 4101
+type(
+  int * int
+)
+"optable.ml" 96 4073 4111 "optable.ml" 96 4073 4115
+type(
+  assoc
+)
+"optable.ml" 96 4073 4105 "optable.ml" 96 4073 4115
+type(
+  fixity
+)
+"optable.ml" 96 4073 4118 "optable.ml" 96 4073 4120
+type(
+  string list
+)
+"optable.ml" 96 4073 4077 "optable.ml" 96 4073 4120
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 97 4123 4127 "optable.ml" 97 4123 4131
+type(
+  string
+)
+"optable.ml" 97 4123 4146 "optable.ml" 97 4123 4147
+type(
+  int
+)
+"optable.ml" 97 4123 4148 "optable.ml" 97 4123 4150
+type(
+  int
+)
+"optable.ml" 97 4123 4144 "optable.ml" 97 4123 4151
+type(
+  int * int
+)
+"optable.ml" 97 4123 4161 "optable.ml" 97 4123 4164
+type(
+  assoc
+)
+"optable.ml" 97 4123 4155 "optable.ml" 97 4123 4164
+type(
+  fixity
+)
+"optable.ml" 97 4123 4168 "optable.ml" 97 4123 4170
+type(
+  string list
+)
+"optable.ml" 97 4123 4127 "optable.ml" 97 4123 4170
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 98 4173 4177 "optable.ml" 98 4173 4181
+type(
+  string
+)
+"optable.ml" 98 4173 4196 "optable.ml" 98 4173 4197
+type(
+  int
+)
+"optable.ml" 98 4173 4199 "optable.ml" 98 4173 4200
+type(
+  int
+)
+"optable.ml" 98 4173 4194 "optable.ml" 98 4173 4201
+type(
+  int * int
+)
+"optable.ml" 98 4173 4211 "optable.ml" 98 4173 4214
+type(
+  assoc
+)
+"optable.ml" 98 4173 4205 "optable.ml" 98 4173 4214
+type(
+  fixity
+)
+"optable.ml" 98 4173 4218 "optable.ml" 98 4173 4220
+type(
+  string list
+)
+"optable.ml" 98 4173 4177 "optable.ml" 98 4173 4220
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 99 4223 4227 "optable.ml" 99 4223 4231
+type(
+  string
+)
+"optable.ml" 99 4223 4246 "optable.ml" 99 4223 4247
+type(
+  int
+)
+"optable.ml" 99 4223 4249 "optable.ml" 99 4223 4250
+type(
+  int
+)
+"optable.ml" 99 4223 4244 "optable.ml" 99 4223 4251
+type(
+  int * int
+)
+"optable.ml" 99 4223 4261 "optable.ml" 99 4223 4264
+type(
+  assoc
+)
+"optable.ml" 99 4223 4255 "optable.ml" 99 4223 4264
+type(
+  fixity
+)
+"optable.ml" 99 4223 4268 "optable.ml" 99 4223 4270
+type(
+  string list
+)
+"optable.ml" 99 4223 4227 "optable.ml" 99 4223 4270
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 100 4273 4277 "optable.ml" 100 4273 4281
+type(
+  string
+)
+"optable.ml" 100 4273 4296 "optable.ml" 100 4273 4297
+type(
+  int
+)
+"optable.ml" 100 4273 4299 "optable.ml" 100 4273 4300
+type(
+  int
+)
+"optable.ml" 100 4273 4294 "optable.ml" 100 4273 4301
+type(
+  int * int
+)
+"optable.ml" 100 4273 4311 "optable.ml" 100 4273 4314
+type(
+  assoc
+)
+"optable.ml" 100 4273 4305 "optable.ml" 100 4273 4314
+type(
+  fixity
+)
+"optable.ml" 100 4273 4318 "optable.ml" 100 4273 4320
+type(
+  string list
+)
+"optable.ml" 100 4273 4277 "optable.ml" 100 4273 4320
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 101 4323 4327 "optable.ml" 101 4323 4331
+type(
+  string
+)
+"optable.ml" 101 4323 4346 "optable.ml" 101 4323 4347
+type(
+  int
+)
+"optable.ml" 101 4323 4349 "optable.ml" 101 4323 4350
+type(
+  int
+)
+"optable.ml" 101 4323 4344 "optable.ml" 101 4323 4351
+type(
+  int * int
+)
+"optable.ml" 101 4323 4361 "optable.ml" 101 4323 4364
+type(
+  assoc
+)
+"optable.ml" 101 4323 4355 "optable.ml" 101 4323 4364
+type(
+  fixity
+)
+"optable.ml" 101 4323 4368 "optable.ml" 101 4323 4370
+type(
+  string list
+)
+"optable.ml" 101 4323 4327 "optable.ml" 101 4323 4370
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 102 4373 4377 "optable.ml" 102 4373 4381
+type(
+  string
+)
+"optable.ml" 102 4373 4396 "optable.ml" 102 4373 4397
+type(
+  int
+)
+"optable.ml" 102 4373 4399 "optable.ml" 102 4373 4400
+type(
+  int
+)
+"optable.ml" 102 4373 4394 "optable.ml" 102 4373 4401
+type(
+  int * int
+)
+"optable.ml" 102 4373 4411 "optable.ml" 102 4373 4414
+type(
+  assoc
+)
+"optable.ml" 102 4373 4405 "optable.ml" 102 4373 4414
+type(
+  fixity
+)
+"optable.ml" 102 4373 4418 "optable.ml" 102 4373 4420
+type(
+  string list
+)
+"optable.ml" 102 4373 4377 "optable.ml" 102 4373 4420
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 103 4423 4427 "optable.ml" 103 4423 4431
+type(
+  string
+)
+"optable.ml" 103 4423 4446 "optable.ml" 103 4423 4447
+type(
+  int
+)
+"optable.ml" 103 4423 4449 "optable.ml" 103 4423 4450
+type(
+  int
+)
+"optable.ml" 103 4423 4444 "optable.ml" 103 4423 4451
+type(
+  int * int
+)
+"optable.ml" 103 4423 4461 "optable.ml" 103 4423 4464
+type(
+  assoc
+)
+"optable.ml" 103 4423 4455 "optable.ml" 103 4423 4464
+type(
+  fixity
+)
+"optable.ml" 103 4423 4468 "optable.ml" 103 4423 4470
+type(
+  string list
+)
+"optable.ml" 103 4423 4427 "optable.ml" 103 4423 4470
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 104 4473 4477 "optable.ml" 104 4473 4481
+type(
+  string
+)
+"optable.ml" 104 4473 4496 "optable.ml" 104 4473 4497
+type(
+  int
+)
+"optable.ml" 104 4473 4499 "optable.ml" 104 4473 4500
+type(
+  int
+)
+"optable.ml" 104 4473 4494 "optable.ml" 104 4473 4501
+type(
+  int * int
+)
+"optable.ml" 104 4473 4511 "optable.ml" 104 4473 4514
+type(
+  assoc
+)
+"optable.ml" 104 4473 4505 "optable.ml" 104 4473 4514
+type(
+  fixity
+)
+"optable.ml" 104 4473 4518 "optable.ml" 104 4473 4520
+type(
+  string list
+)
+"optable.ml" 104 4473 4477 "optable.ml" 104 4473 4520
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 105 4523 4527 "optable.ml" 105 4523 4532
+type(
+  string
+)
+"optable.ml" 105 4523 4546 "optable.ml" 105 4523 4547
+type(
+  int
+)
+"optable.ml" 105 4523 4549 "optable.ml" 105 4523 4550
+type(
+  int
+)
+"optable.ml" 105 4523 4544 "optable.ml" 105 4523 4551
+type(
+  int * int
+)
+"optable.ml" 105 4523 4561 "optable.ml" 105 4523 4564
+type(
+  assoc
+)
+"optable.ml" 105 4523 4555 "optable.ml" 105 4523 4564
+type(
+  fixity
+)
+"optable.ml" 105 4523 4568 "optable.ml" 105 4523 4570
+type(
+  string list
+)
+"optable.ml" 105 4523 4527 "optable.ml" 105 4523 4570
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 106 4573 4577 "optable.ml" 106 4573 4582
+type(
+  string
+)
+"optable.ml" 106 4573 4595 "optable.ml" 106 4573 4597
+type(
+  int
+)
+"optable.ml" 106 4573 4598 "optable.ml" 106 4573 4600
+type(
+  int
+)
+"optable.ml" 106 4573 4594 "optable.ml" 106 4573 4601
+type(
+  int * int
+)
+"optable.ml" 106 4573 4611 "optable.ml" 106 4573 4615
+type(
+  assoc
+)
+"optable.ml" 106 4573 4605 "optable.ml" 106 4573 4615
+type(
+  fixity
+)
+"optable.ml" 106 4573 4620 "optable.ml" 106 4573 4629
+type(
+  string
+)
+"optable.ml" 106 4573 4618 "optable.ml" 106 4573 4631
+type(
+  string list
+)
+"optable.ml" 106 4573 4577 "optable.ml" 106 4573 4631
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 107 4634 4638 "optable.ml" 107 4634 4643
+type(
+  string
+)
+"optable.ml" 107 4634 4656 "optable.ml" 107 4634 4658
+type(
+  int
+)
+"optable.ml" 107 4634 4659 "optable.ml" 107 4634 4661
+type(
+  int
+)
+"optable.ml" 107 4634 4655 "optable.ml" 107 4634 4662
+type(
+  int * int
+)
+"optable.ml" 107 4634 4672 "optable.ml" 107 4634 4676
+type(
+  assoc
+)
+"optable.ml" 107 4634 4666 "optable.ml" 107 4634 4676
+type(
+  fixity
+)
+"optable.ml" 107 4634 4681 "optable.ml" 107 4634 4691
+type(
+  string
+)
+"optable.ml" 107 4634 4679 "optable.ml" 107 4634 4693
+type(
+  string list
+)
+"optable.ml" 107 4634 4638 "optable.ml" 107 4634 4693
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 108 4696 4700 "optable.ml" 108 4696 4705
+type(
+  string
+)
+"optable.ml" 108 4696 4718 "optable.ml" 108 4696 4720
+type(
+  int
+)
+"optable.ml" 108 4696 4721 "optable.ml" 108 4696 4723
+type(
+  int
+)
+"optable.ml" 108 4696 4717 "optable.ml" 108 4696 4724
+type(
+  int * int
+)
+"optable.ml" 108 4696 4734 "optable.ml" 108 4696 4738
+type(
+  assoc
+)
+"optable.ml" 108 4696 4728 "optable.ml" 108 4696 4738
+type(
+  fixity
+)
+"optable.ml" 108 4696 4743 "optable.ml" 108 4696 4751
+type(
+  string
+)
+"optable.ml" 108 4696 4741 "optable.ml" 108 4696 4753
+type(
+  string list
+)
+"optable.ml" 108 4696 4700 "optable.ml" 108 4696 4753
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 109 4756 4760 "optable.ml" 109 4756 4765
+type(
+  string
+)
+"optable.ml" 109 4756 4778 "optable.ml" 109 4756 4780
+type(
+  int
+)
+"optable.ml" 109 4756 4781 "optable.ml" 109 4756 4783
+type(
+  int
+)
+"optable.ml" 109 4756 4777 "optable.ml" 109 4756 4784
+type(
+  int * int
+)
+"optable.ml" 109 4756 4794 "optable.ml" 109 4756 4797
+type(
+  assoc
+)
+"optable.ml" 109 4756 4788 "optable.ml" 109 4756 4797
+type(
+  fixity
+)
+"optable.ml" 109 4756 4803 "optable.ml" 109 4756 4813
+type(
+  string
+)
+"optable.ml" 109 4756 4801 "optable.ml" 109 4756 4815
+type(
+  string list
+)
+"optable.ml" 109 4756 4760 "optable.ml" 109 4756 4815
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 110 4818 4822 "optable.ml" 110 4818 4829
+type(
+  string
+)
+"optable.ml" 110 4818 4840 "optable.ml" 110 4818 4842
+type(
+  int
+)
+"optable.ml" 110 4818 4843 "optable.ml" 110 4818 4845
+type(
+  int
+)
+"optable.ml" 110 4818 4839 "optable.ml" 110 4818 4846
+type(
+  int * int
+)
+"optable.ml" 110 4818 4856 "optable.ml" 110 4818 4860
+type(
+  assoc
+)
+"optable.ml" 110 4818 4850 "optable.ml" 110 4818 4860
+type(
+  fixity
+)
+"optable.ml" 110 4818 4865 "optable.ml" 110 4818 4875
+type(
+  string
+)
+"optable.ml" 110 4818 4863 "optable.ml" 110 4818 4877
+type(
+  string list
+)
+"optable.ml" 110 4818 4822 "optable.ml" 110 4818 4877
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 111 4880 4884 "optable.ml" 111 4880 4893
+type(
+  string
+)
+"optable.ml" 111 4880 4903 "optable.ml" 111 4880 4904
+type(
+  int
+)
+"optable.ml" 111 4880 4905 "optable.ml" 111 4880 4907
+type(
+  int
+)
+"optable.ml" 111 4880 4901 "optable.ml" 111 4880 4908
+type(
+  int * int
+)
+"optable.ml" 111 4880 4918 "optable.ml" 111 4880 4922
+type(
+  assoc
+)
+"optable.ml" 111 4880 4912 "optable.ml" 111 4880 4922
+type(
+  fixity
+)
+"optable.ml" 111 4880 4925 "optable.ml" 111 4880 4927
+type(
+  string list
+)
+"optable.ml" 111 4880 4884 "optable.ml" 111 4880 4927
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 112 4930 4934 "optable.ml" 112 4930 4943
+type(
+  string
+)
+"optable.ml" 112 4930 4953 "optable.ml" 112 4930 4954
+type(
+  int
+)
+"optable.ml" 112 4930 4955 "optable.ml" 112 4930 4957
+type(
+  int
+)
+"optable.ml" 112 4930 4951 "optable.ml" 112 4930 4958
+type(
+  int * int
+)
+"optable.ml" 112 4930 4968 "optable.ml" 112 4930 4972
+type(
+  assoc
+)
+"optable.ml" 112 4930 4962 "optable.ml" 112 4930 4972
+type(
+  fixity
+)
+"optable.ml" 112 4930 4975 "optable.ml" 112 4930 4977
+type(
+  string list
+)
+"optable.ml" 112 4930 4934 "optable.ml" 112 4930 4977
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 113 4980 4984 "optable.ml" 113 4980 4993
+type(
+  string
+)
+"optable.ml" 113 4980 5003 "optable.ml" 113 4980 5004
+type(
+  int
+)
+"optable.ml" 113 4980 5005 "optable.ml" 113 4980 5007
+type(
+  int
+)
+"optable.ml" 113 4980 5001 "optable.ml" 113 4980 5008
+type(
+  int * int
+)
+"optable.ml" 113 4980 5018 "optable.ml" 113 4980 5022
+type(
+  assoc
+)
+"optable.ml" 113 4980 5012 "optable.ml" 113 4980 5022
+type(
+  fixity
+)
+"optable.ml" 113 4980 5025 "optable.ml" 113 4980 5027
+type(
+  string list
+)
+"optable.ml" 113 4980 4984 "optable.ml" 113 4980 5027
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 114 5030 5034 "optable.ml" 114 5030 5041
+type(
+  string
+)
+"optable.ml" 114 5030 5052 "optable.ml" 114 5030 5054
+type(
+  int
+)
+"optable.ml" 114 5030 5055 "optable.ml" 114 5030 5057
+type(
+  int
+)
+"optable.ml" 114 5030 5051 "optable.ml" 114 5030 5058
+type(
+  int * int
+)
+"optable.ml" 114 5030 5068 "optable.ml" 114 5030 5071
+type(
+  assoc
+)
+"optable.ml" 114 5030 5062 "optable.ml" 114 5030 5071
+type(
+  fixity
+)
+"optable.ml" 114 5030 5075 "optable.ml" 114 5030 5077
+type(
+  string list
+)
+"optable.ml" 114 5030 5034 "optable.ml" 114 5030 5077
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 115 5080 5084 "optable.ml" 115 5080 5090
+type(
+  string
+)
+"optable.ml" 115 5080 5103 "optable.ml" 115 5080 5104
+type(
+  int
+)
+"optable.ml" 115 5080 5105 "optable.ml" 115 5080 5107
+type(
+  int
+)
+"optable.ml" 115 5080 5101 "optable.ml" 115 5080 5108
+type(
+  int * int
+)
+"optable.ml" 115 5080 5118 "optable.ml" 115 5080 5121
+type(
+  assoc
+)
+"optable.ml" 115 5080 5112 "optable.ml" 115 5080 5121
+type(
+  fixity
+)
+"optable.ml" 115 5080 5125 "optable.ml" 115 5080 5127
+type(
+  string list
+)
+"optable.ml" 115 5080 5084 "optable.ml" 115 5080 5127
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 116 5130 5134 "optable.ml" 116 5130 5142
+type(
+  string
+)
+"optable.ml" 116 5130 5152 "optable.ml" 116 5130 5154
+type(
+  int
+)
+"optable.ml" 116 5130 5155 "optable.ml" 116 5130 5157
+type(
+  int
+)
+"optable.ml" 116 5130 5151 "optable.ml" 116 5130 5158
+type(
+  int * int
+)
+"optable.ml" 116 5130 5168 "optable.ml" 116 5130 5172
+type(
+  assoc
+)
+"optable.ml" 116 5130 5162 "optable.ml" 116 5130 5172
+type(
+  fixity
+)
+"optable.ml" 116 5130 5175 "optable.ml" 116 5130 5177
+type(
+  string list
+)
+"optable.ml" 116 5130 5134 "optable.ml" 116 5130 5177
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 117 5180 5184 "optable.ml" 117 5180 5189
+type(
+  string
+)
+"optable.ml" 117 5180 5202 "optable.ml" 117 5180 5204
+type(
+  int
+)
+"optable.ml" 117 5180 5205 "optable.ml" 117 5180 5207
+type(
+  int
+)
+"optable.ml" 117 5180 5201 "optable.ml" 117 5180 5208
+type(
+  int * int
+)
+"optable.ml" 117 5180 5218 "optable.ml" 117 5180 5222
+type(
+  assoc
+)
+"optable.ml" 117 5180 5212 "optable.ml" 117 5180 5222
+type(
+  fixity
+)
+"optable.ml" 117 5180 5227 "optable.ml" 117 5180 5235
+type(
+  string
+)
+"optable.ml" 117 5180 5225 "optable.ml" 117 5180 5237
+type(
+  string list
+)
+"optable.ml" 117 5180 5184 "optable.ml" 117 5180 5237
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 118 5240 5244 "optable.ml" 118 5240 5255
+type(
+  string
+)
+"optable.ml" 118 5240 5262 "optable.ml" 118 5240 5264
+type(
+  int
+)
+"optable.ml" 118 5240 5265 "optable.ml" 118 5240 5267
+type(
+  int
+)
+"optable.ml" 118 5240 5261 "optable.ml" 118 5240 5268
+type(
+  int * int
+)
+"optable.ml" 118 5240 5278 "optable.ml" 118 5240 5282
+type(
+  assoc
+)
+"optable.ml" 118 5240 5272 "optable.ml" 118 5240 5282
+type(
+  fixity
+)
+"optable.ml" 118 5240 5285 "optable.ml" 118 5240 5287
+type(
+  string list
+)
+"optable.ml" 118 5240 5244 "optable.ml" 118 5240 5287
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 119 5290 5294 "optable.ml" 119 5290 5304
+type(
+  string
+)
+"optable.ml" 119 5290 5312 "optable.ml" 119 5290 5314
+type(
+  int
+)
+"optable.ml" 119 5290 5315 "optable.ml" 119 5290 5317
+type(
+  int
+)
+"optable.ml" 119 5290 5311 "optable.ml" 119 5290 5318
+type(
+  int * int
+)
+"optable.ml" 119 5290 5328 "optable.ml" 119 5290 5332
+type(
+  assoc
+)
+"optable.ml" 119 5290 5322 "optable.ml" 119 5290 5332
+type(
+  fixity
+)
+"optable.ml" 119 5290 5335 "optable.ml" 119 5290 5337
+type(
+  string list
+)
+"optable.ml" 119 5290 5294 "optable.ml" 119 5290 5337
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 120 5340 5344 "optable.ml" 120 5340 5352
+type(
+  string
+)
+"optable.ml" 120 5340 5363 "optable.ml" 120 5340 5364
+type(
+  int
+)
+"optable.ml" 120 5340 5366 "optable.ml" 120 5340 5367
+type(
+  int
+)
+"optable.ml" 120 5340 5361 "optable.ml" 120 5340 5368
+type(
+  int * int
+)
+"optable.ml" 120 5340 5378 "optable.ml" 120 5340 5381
+type(
+  assoc
+)
+"optable.ml" 120 5340 5372 "optable.ml" 120 5340 5381
+type(
+  fixity
+)
+"optable.ml" 120 5340 5385 "optable.ml" 120 5340 5387
+type(
+  string list
+)
+"optable.ml" 120 5340 5344 "optable.ml" 120 5340 5387
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 121 5390 5394 "optable.ml" 121 5390 5402
+type(
+  string
+)
+"optable.ml" 121 5390 5413 "optable.ml" 121 5390 5414
+type(
+  int
+)
+"optable.ml" 121 5390 5416 "optable.ml" 121 5390 5417
+type(
+  int
+)
+"optable.ml" 121 5390 5411 "optable.ml" 121 5390 5418
+type(
+  int * int
+)
+"optable.ml" 121 5390 5428 "optable.ml" 121 5390 5431
+type(
+  assoc
+)
+"optable.ml" 121 5390 5422 "optable.ml" 121 5390 5431
+type(
+  fixity
+)
+"optable.ml" 121 5390 5435 "optable.ml" 121 5390 5437
+type(
+  string list
+)
+"optable.ml" 121 5390 5394 "optable.ml" 121 5390 5437
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 122 5440 5444 "optable.ml" 122 5440 5454
+type(
+  string
+)
+"optable.ml" 122 5440 5463 "optable.ml" 122 5440 5464
+type(
+  int
+)
+"optable.ml" 122 5440 5466 "optable.ml" 122 5440 5467
+type(
+  int
+)
+"optable.ml" 122 5440 5461 "optable.ml" 122 5440 5468
+type(
+  int * int
+)
+"optable.ml" 122 5440 5478 "optable.ml" 122 5440 5481
+type(
+  assoc
+)
+"optable.ml" 122 5440 5472 "optable.ml" 122 5440 5481
+type(
+  fixity
+)
+"optable.ml" 122 5440 5485 "optable.ml" 122 5440 5487
+type(
+  string list
+)
+"optable.ml" 122 5440 5444 "optable.ml" 122 5440 5487
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 123 5490 5494 "optable.ml" 123 5490 5504
+type(
+  string
+)
+"optable.ml" 123 5490 5513 "optable.ml" 123 5490 5514
+type(
+  int
+)
+"optable.ml" 123 5490 5516 "optable.ml" 123 5490 5517
+type(
+  int
+)
+"optable.ml" 123 5490 5511 "optable.ml" 123 5490 5518
+type(
+  int * int
+)
+"optable.ml" 123 5490 5528 "optable.ml" 123 5490 5531
+type(
+  assoc
+)
+"optable.ml" 123 5490 5522 "optable.ml" 123 5490 5531
+type(
+  fixity
+)
+"optable.ml" 123 5490 5535 "optable.ml" 123 5490 5537
+type(
+  string list
+)
+"optable.ml" 123 5490 5494 "optable.ml" 123 5490 5537
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 124 5540 5544 "optable.ml" 124 5540 5551
+type(
+  string
+)
+"optable.ml" 124 5540 5563 "optable.ml" 124 5540 5564
+type(
+  int
+)
+"optable.ml" 124 5540 5566 "optable.ml" 124 5540 5567
+type(
+  int
+)
+"optable.ml" 124 5540 5561 "optable.ml" 124 5540 5568
+type(
+  int * int
+)
+"optable.ml" 124 5540 5578 "optable.ml" 124 5540 5581
+type(
+  assoc
+)
+"optable.ml" 124 5540 5572 "optable.ml" 124 5540 5581
+type(
+  fixity
+)
+"optable.ml" 124 5540 5585 "optable.ml" 124 5540 5587
+type(
+  string list
+)
+"optable.ml" 124 5540 5544 "optable.ml" 124 5540 5587
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 125 5590 5594 "optable.ml" 125 5590 5603
+type(
+  string
+)
+"optable.ml" 125 5590 5613 "optable.ml" 125 5590 5614
+type(
+  int
+)
+"optable.ml" 125 5590 5616 "optable.ml" 125 5590 5617
+type(
+  int
+)
+"optable.ml" 125 5590 5611 "optable.ml" 125 5590 5618
+type(
+  int * int
+)
+"optable.ml" 125 5590 5628 "optable.ml" 125 5590 5631
+type(
+  assoc
+)
+"optable.ml" 125 5590 5622 "optable.ml" 125 5590 5631
+type(
+  fixity
+)
+"optable.ml" 125 5590 5635 "optable.ml" 125 5590 5637
+type(
+  string list
+)
+"optable.ml" 125 5590 5594 "optable.ml" 125 5590 5637
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 126 5640 5644 "optable.ml" 126 5640 5650
+type(
+  string
+)
+"optable.ml" 126 5640 5663 "optable.ml" 126 5640 5664
+type(
+  int
+)
+"optable.ml" 126 5640 5666 "optable.ml" 126 5640 5667
+type(
+  int
+)
+"optable.ml" 126 5640 5661 "optable.ml" 126 5640 5668
+type(
+  int * int
+)
+"optable.ml" 126 5640 5678 "optable.ml" 126 5640 5681
+type(
+  assoc
+)
+"optable.ml" 126 5640 5672 "optable.ml" 126 5640 5681
+type(
+  fixity
+)
+"optable.ml" 126 5640 5685 "optable.ml" 126 5640 5687
+type(
+  string list
+)
+"optable.ml" 126 5640 5644 "optable.ml" 126 5640 5687
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 127 5690 5694 "optable.ml" 127 5690 5700
+type(
+  string
+)
+"optable.ml" 127 5690 5713 "optable.ml" 127 5690 5714
+type(
+  int
+)
+"optable.ml" 127 5690 5716 "optable.ml" 127 5690 5717
+type(
+  int
+)
+"optable.ml" 127 5690 5711 "optable.ml" 127 5690 5718
+type(
+  int * int
+)
+"optable.ml" 127 5690 5728 "optable.ml" 127 5690 5731
+type(
+  assoc
+)
+"optable.ml" 127 5690 5722 "optable.ml" 127 5690 5731
+type(
+  fixity
+)
+"optable.ml" 127 5690 5735 "optable.ml" 127 5690 5737
+type(
+  string list
+)
+"optable.ml" 127 5690 5694 "optable.ml" 127 5690 5737
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 128 5740 5744 "optable.ml" 128 5740 5753
+type(
+  string
+)
+"optable.ml" 128 5740 5763 "optable.ml" 128 5740 5764
+type(
+  int
+)
+"optable.ml" 128 5740 5766 "optable.ml" 128 5740 5767
+type(
+  int
+)
+"optable.ml" 128 5740 5761 "optable.ml" 128 5740 5768
+type(
+  int * int
+)
+"optable.ml" 128 5740 5778 "optable.ml" 128 5740 5781
+type(
+  assoc
+)
+"optable.ml" 128 5740 5772 "optable.ml" 128 5740 5781
+type(
+  fixity
+)
+"optable.ml" 128 5740 5785 "optable.ml" 128 5740 5787
+type(
+  string list
+)
+"optable.ml" 128 5740 5744 "optable.ml" 128 5740 5787
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 129 5790 5794 "optable.ml" 129 5790 5804
+type(
+  string
+)
+"optable.ml" 129 5790 5813 "optable.ml" 129 5790 5814
+type(
+  int
+)
+"optable.ml" 129 5790 5816 "optable.ml" 129 5790 5817
+type(
+  int
+)
+"optable.ml" 129 5790 5811 "optable.ml" 129 5790 5818
+type(
+  int * int
+)
+"optable.ml" 129 5790 5828 "optable.ml" 129 5790 5831
+type(
+  assoc
+)
+"optable.ml" 129 5790 5822 "optable.ml" 129 5790 5831
+type(
+  fixity
+)
+"optable.ml" 129 5790 5835 "optable.ml" 129 5790 5837
+type(
+  string list
+)
+"optable.ml" 129 5790 5794 "optable.ml" 129 5790 5837
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 130 5840 5844 "optable.ml" 130 5840 5854
+type(
+  string
+)
+"optable.ml" 130 5840 5863 "optable.ml" 130 5840 5864
+type(
+  int
+)
+"optable.ml" 130 5840 5866 "optable.ml" 130 5840 5867
+type(
+  int
+)
+"optable.ml" 130 5840 5861 "optable.ml" 130 5840 5868
+type(
+  int * int
+)
+"optable.ml" 130 5840 5878 "optable.ml" 130 5840 5881
+type(
+  assoc
+)
+"optable.ml" 130 5840 5872 "optable.ml" 130 5840 5881
+type(
+  fixity
+)
+"optable.ml" 130 5840 5885 "optable.ml" 130 5840 5887
+type(
+  string list
+)
+"optable.ml" 130 5840 5844 "optable.ml" 130 5840 5887
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 131 5890 5894 "optable.ml" 131 5890 5906
+type(
+  string
+)
+"optable.ml" 131 5890 5913 "optable.ml" 131 5890 5914
+type(
+  int
+)
+"optable.ml" 131 5890 5916 "optable.ml" 131 5890 5917
+type(
+  int
+)
+"optable.ml" 131 5890 5911 "optable.ml" 131 5890 5918
+type(
+  int * int
+)
+"optable.ml" 131 5890 5928 "optable.ml" 131 5890 5931
+type(
+  assoc
+)
+"optable.ml" 131 5890 5922 "optable.ml" 131 5890 5931
+type(
+  fixity
+)
+"optable.ml" 131 5890 5935 "optable.ml" 131 5890 5937
+type(
+  string list
+)
+"optable.ml" 131 5890 5894 "optable.ml" 131 5890 5937
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 132 5940 5944 "optable.ml" 132 5940 5954
+type(
+  string
+)
+"optable.ml" 132 5940 5963 "optable.ml" 132 5940 5964
+type(
+  int
+)
+"optable.ml" 132 5940 5966 "optable.ml" 132 5940 5967
+type(
+  int
+)
+"optable.ml" 132 5940 5961 "optable.ml" 132 5940 5968
+type(
+  int * int
+)
+"optable.ml" 132 5940 5978 "optable.ml" 132 5940 5981
+type(
+  assoc
+)
+"optable.ml" 132 5940 5972 "optable.ml" 132 5940 5981
+type(
+  fixity
+)
+"optable.ml" 132 5940 5985 "optable.ml" 132 5940 5987
+type(
+  string list
+)
+"optable.ml" 132 5940 5944 "optable.ml" 132 5940 5987
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 133 5990 5994 "optable.ml" 133 5990 6002
+type(
+  string
+)
+"optable.ml" 133 5990 6013 "optable.ml" 133 5990 6014
+type(
+  int
+)
+"optable.ml" 133 5990 6016 "optable.ml" 133 5990 6017
+type(
+  int
+)
+"optable.ml" 133 5990 6011 "optable.ml" 133 5990 6018
+type(
+  int * int
+)
+"optable.ml" 133 5990 6028 "optable.ml" 133 5990 6031
+type(
+  assoc
+)
+"optable.ml" 133 5990 6022 "optable.ml" 133 5990 6031
+type(
+  fixity
+)
+"optable.ml" 133 5990 6035 "optable.ml" 133 5990 6037
+type(
+  string list
+)
+"optable.ml" 133 5990 5994 "optable.ml" 133 5990 6037
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 134 6040 6044 "optable.ml" 134 6040 6056
+type(
+  string
+)
+"optable.ml" 134 6040 6063 "optable.ml" 134 6040 6064
+type(
+  int
+)
+"optable.ml" 134 6040 6066 "optable.ml" 134 6040 6067
+type(
+  int
+)
+"optable.ml" 134 6040 6061 "optable.ml" 134 6040 6068
+type(
+  int * int
+)
+"optable.ml" 134 6040 6078 "optable.ml" 134 6040 6081
+type(
+  assoc
+)
+"optable.ml" 134 6040 6072 "optable.ml" 134 6040 6081
+type(
+  fixity
+)
+"optable.ml" 134 6040 6085 "optable.ml" 134 6040 6087
+type(
+  string list
+)
+"optable.ml" 134 6040 6044 "optable.ml" 134 6040 6087
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 135 6090 6094 "optable.ml" 135 6090 6108
+type(
+  string
+)
+"optable.ml" 135 6090 6113 "optable.ml" 135 6090 6114
+type(
+  int
+)
+"optable.ml" 135 6090 6116 "optable.ml" 135 6090 6117
+type(
+  int
+)
+"optable.ml" 135 6090 6111 "optable.ml" 135 6090 6118
+type(
+  int * int
+)
+"optable.ml" 135 6090 6128 "optable.ml" 135 6090 6131
+type(
+  assoc
+)
+"optable.ml" 135 6090 6122 "optable.ml" 135 6090 6131
+type(
+  fixity
+)
+"optable.ml" 135 6090 6135 "optable.ml" 135 6090 6137
+type(
+  string list
+)
+"optable.ml" 135 6090 6094 "optable.ml" 135 6090 6137
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 136 6140 6144 "optable.ml" 136 6140 6156
+type(
+  string
+)
+"optable.ml" 136 6140 6163 "optable.ml" 136 6140 6164
+type(
+  int
+)
+"optable.ml" 136 6140 6166 "optable.ml" 136 6140 6167
+type(
+  int
+)
+"optable.ml" 136 6140 6161 "optable.ml" 136 6140 6168
+type(
+  int * int
+)
+"optable.ml" 136 6140 6178 "optable.ml" 136 6140 6181
+type(
+  assoc
+)
+"optable.ml" 136 6140 6172 "optable.ml" 136 6140 6181
+type(
+  fixity
+)
+"optable.ml" 136 6140 6185 "optable.ml" 136 6140 6187
+type(
+  string list
+)
+"optable.ml" 136 6140 6144 "optable.ml" 136 6140 6187
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 137 6190 6194 "optable.ml" 137 6190 6208
+type(
+  string
+)
+"optable.ml" 137 6190 6213 "optable.ml" 137 6190 6214
+type(
+  int
+)
+"optable.ml" 137 6190 6216 "optable.ml" 137 6190 6217
+type(
+  int
+)
+"optable.ml" 137 6190 6211 "optable.ml" 137 6190 6218
+type(
+  int * int
+)
+"optable.ml" 137 6190 6228 "optable.ml" 137 6190 6231
+type(
+  assoc
+)
+"optable.ml" 137 6190 6222 "optable.ml" 137 6190 6231
+type(
+  fixity
+)
+"optable.ml" 137 6190 6235 "optable.ml" 137 6190 6237
+type(
+  string list
+)
+"optable.ml" 137 6190 6194 "optable.ml" 137 6190 6237
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 138 6240 6244 "optable.ml" 138 6240 6253
+type(
+  string
+)
+"optable.ml" 138 6240 6263 "optable.ml" 138 6240 6264
+type(
+  int
+)
+"optable.ml" 138 6240 6266 "optable.ml" 138 6240 6267
+type(
+  int
+)
+"optable.ml" 138 6240 6261 "optable.ml" 138 6240 6268
+type(
+  int * int
+)
+"optable.ml" 138 6240 6278 "optable.ml" 138 6240 6281
+type(
+  assoc
+)
+"optable.ml" 138 6240 6272 "optable.ml" 138 6240 6281
+type(
+  fixity
+)
+"optable.ml" 138 6240 6285 "optable.ml" 138 6240 6287
+type(
+  string list
+)
+"optable.ml" 138 6240 6244 "optable.ml" 138 6240 6287
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 139 6290 6294 "optable.ml" 139 6290 6304
+type(
+  string
+)
+"optable.ml" 139 6290 6313 "optable.ml" 139 6290 6314
+type(
+  int
+)
+"optable.ml" 139 6290 6316 "optable.ml" 139 6290 6317
+type(
+  int
+)
+"optable.ml" 139 6290 6311 "optable.ml" 139 6290 6318
+type(
+  int * int
+)
+"optable.ml" 139 6290 6328 "optable.ml" 139 6290 6331
+type(
+  assoc
+)
+"optable.ml" 139 6290 6322 "optable.ml" 139 6290 6331
+type(
+  fixity
+)
+"optable.ml" 139 6290 6335 "optable.ml" 139 6290 6337
+type(
+  string list
+)
+"optable.ml" 139 6290 6294 "optable.ml" 139 6290 6337
+type(
+  string * (int * int) * fixity * string list
+)
+"optable.ml" 65 2460 2532 "optable.ml" 140 6340 6343
+type(
+  (string * (int * int) * fixity * string list) list
+)
+"optable.ml" 65 2460 2462 "optable.ml" 140 6340 6343
+type(
+  (string * (int * int) * fixity * string list * Builtin.builtin option) list
+)
+"optable.ml" 64 2452 2454 "optable.ml" 140 6340 6343
+type(
+  dom *
+  (string * (int * int) * fixity * string list * Builtin.builtin option) list
+)
+"optable.ml" 28 434 447 "optable.ml" 141 6346 6347
+type(
+  (dom *
+   (string * (int * int) * fixity * string list * Builtin.builtin option)
+   list)
+  list
+)
+"optable.ml" 151 6478 6482 "optable.ml" 151 6478 6489
+type(
+  (string, tlaop) Hashtbl.t
+)
+ident(
+  def optable "optable.ml" 169 6969 6969 "optable.ml" 0 0 -1
+)
+"optable.ml" 152 6492 6505 "optable.ml" 152 6492 6506
+ident(
+  def H "optable.ml" 153 6520 6522 "optable.ml" 167 6960 6967
+)
+"optable.ml" 153 6520 6526 "optable.ml" 153 6520 6529
+type(
+  (string, tlaop) H.t
+)
+ident(
+  def tab "optable.ml" 154 6548 6552 "optable.ml" 167 6960 6967
+)
+"optable.ml" 153 6520 6532 "optable.ml" 153 6520 6540
+type(
+  ?random:bool -> int -> (string, tlaop) H.t
+)
+ident(
+  int_ref H.create "hashtbl.mli" 31 1451 1451 "hashtbl.mli" 32 1517 1547
+)
+"optable.ml" 153 6520 6541 "optable.ml" 153 6520 6544
+type(
+  int
+)
+"optable.ml" 153 6520 6532 "optable.ml" 153 6520 6544
+type(
+  (string, tlaop) H.t
+)
+"optable.ml" 154 6548 6552 "optable.ml" 154 6548 6561
+type(
+  (dom * (string * prec * fixity * string list * Builtin.builtin option) list ->
+   unit) ->
+  (dom * (string * prec * fixity * string list * Builtin.builtin option) list)
+  list -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 159 5701 5701 "list.mli" 159 5701 5743
+)
+"optable.ml" 155 6568 6579 "optable.ml" 155 6568 6582
+type(
+  dom
+)
+ident(
+  def dom "optable.ml" 156 6592 6600 "optable.ml" 165 6927 6942
+)
+"optable.ml" 155 6568 6584 "optable.ml" 155 6568 6587
+type(
+  (string * prec * fixity * string list * Builtin.builtin option) list
+)
+ident(
+  def ops "optable.ml" 156 6592 6600 "optable.ml" 165 6927 6942
+)
+"optable.ml" 155 6568 6578 "optable.ml" 155 6568 6588
+type(
+  dom * (string * prec * fixity * string list * Builtin.builtin option) list
+)
+"optable.ml" 156 6592 6600 "optable.ml" 156 6592 6609
+type(
+  (string * prec * fixity * string list * Builtin.builtin option -> unit) ->
+  (string * prec * fixity * string list * Builtin.builtin option) list ->
+  unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 159 5701 5701 "list.mli" 159 5701 5743
+)
+"optable.ml" 157 6616 6631 "optable.ml" 157 6616 6635
+type(
+  string
+)
+ident(
+  def name "optable.ml" 158 6662 6674 "optable.ml" 164 6873 6926
+)
+"optable.ml" 157 6616 6637 "optable.ml" 157 6616 6641
+type(
+  prec
+)
+ident(
+  def prec "optable.ml" 158 6662 6674 "optable.ml" 164 6873 6926
+)
+"optable.ml" 157 6616 6643 "optable.ml" 157 6616 6646
+type(
+  fixity
+)
+ident(
+  def fix "optable.ml" 158 6662 6674 "optable.ml" 164 6873 6926
+)
+"optable.ml" 157 6616 6648 "optable.ml" 157 6616 6651
+type(
+  string list
+)
+ident(
+  def als "optable.ml" 158 6662 6674 "optable.ml" 164 6873 6926
+)
+"optable.ml" 157 6616 6653 "optable.ml" 157 6616 6657
+type(
+  Builtin.builtin option
+)
+ident(
+  def defn "optable.ml" 158 6662 6674 "optable.ml" 164 6873 6926
+)
+"optable.ml" 157 6616 6630 "optable.ml" 157 6616 6658
+type(
+  string * prec * fixity * string list * Builtin.builtin option
+)
+"optable.ml" 158 6662 6678 "optable.ml" 158 6662 6680
+type(
+  tlaop
+)
+ident(
+  def op "optable.ml" 163 6839 6853 "optable.ml" 164 6873 6926
+)
+"optable.ml" 158 6662 6692 "optable.ml" 158 6662 6696
+type(
+  string
+)
+ident(
+  int_ref name "optable.ml" 157 6616 6631 "optable.ml" 157 6616 6635
+)
+"optable.ml" 159 6699 6729 "optable.ml" 159 6699 6733
+type(
+  prec
+)
+ident(
+  int_ref prec "optable.ml" 157 6616 6637 "optable.ml" 157 6616 6641
+)
+"optable.ml" 160 6736 6766 "optable.ml" 160 6736 6769
+type(
+  fixity
+)
+ident(
+  int_ref fix "optable.ml" 157 6616 6643 "optable.ml" 157 6616 6646
+)
+"optable.ml" 160 6736 6780 "optable.ml" 160 6736 6783
+type(
+  dom
+)
+ident(
+  int_ref dom "optable.ml" 155 6568 6579 "optable.ml" 155 6568 6582
+)
+"optable.ml" 161 6787 6817 "optable.ml" 161 6787 6821
+type(
+  Builtin.builtin option
+)
+ident(
+  int_ref defn "optable.ml" 157 6616 6653 "optable.ml" 157 6616 6657
+)
+"optable.ml" 158 6662 6683 "optable.ml" 161 6787 6823
+type(
+  tlaop
+)
+"optable.ml" 163 6839 6853 "optable.ml" 163 6839 6858
+type(
+  (string, tlaop) H.t -> string -> tlaop -> unit
+)
+ident(
+  int_ref H.add "hashtbl.mli" 82 3918 3918 "hashtbl.mli" 82 3918 3958
+)
+"optable.ml" 163 6839 6859 "optable.ml" 163 6839 6862
+type(
+  (string, tlaop) H.t
+)
+ident(
+  int_ref tab "optable.ml" 153 6520 6526 "optable.ml" 153 6520 6529
+)
+"optable.ml" 163 6839 6863 "optable.ml" 163 6839 6867
+type(
+  string
+)
+ident(
+  int_ref name "optable.ml" 157 6616 6631 "optable.ml" 157 6616 6635
+)
+"optable.ml" 163 6839 6868 "optable.ml" 163 6839 6870
+type(
+  tlaop
+)
+ident(
+  int_ref op "optable.ml" 158 6662 6678 "optable.ml" 158 6662 6680
+)
+"optable.ml" 163 6839 6853 "optable.ml" 163 6839 6870
+type(
+  unit
+)
+"optable.ml" 164 6873 6887 "optable.ml" 164 6873 6896
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 159 5701 5701 "list.mli" 159 5701 5743
+)
+"optable.ml" 164 6873 6902 "optable.ml" 164 6873 6903
+type(
+  string
+)
+ident(
+  def s "optable.ml" 164 6873 6907 "optable.ml" 164 6873 6921
+)
+"optable.ml" 164 6873 6907 "optable.ml" 164 6873 6912
+type(
+  (string, tlaop) H.t -> string -> tlaop -> unit
+)
+ident(
+  int_ref H.add "hashtbl.mli" 82 3918 3918 "hashtbl.mli" 82 3918 3958
+)
+"optable.ml" 164 6873 6913 "optable.ml" 164 6873 6916
+type(
+  (string, tlaop) H.t
+)
+ident(
+  int_ref tab "optable.ml" 153 6520 6526 "optable.ml" 153 6520 6529
+)
+"optable.ml" 164 6873 6917 "optable.ml" 164 6873 6918
+type(
+  string
+)
+ident(
+  int_ref s "optable.ml" 164 6873 6902 "optable.ml" 164 6873 6903
+)
+"optable.ml" 164 6873 6919 "optable.ml" 164 6873 6921
+type(
+  tlaop
+)
+ident(
+  int_ref op "optable.ml" 158 6662 6678 "optable.ml" 158 6662 6680
+)
+"optable.ml" 164 6873 6907 "optable.ml" 164 6873 6921
+type(
+  unit
+)
+"optable.ml" 164 6873 6897 "optable.ml" 164 6873 6922
+type(
+  string -> unit
+)
+"optable.ml" 164 6873 6923 "optable.ml" 164 6873 6926
+type(
+  string list
+)
+ident(
+  int_ref als "optable.ml" 157 6616 6648 "optable.ml" 157 6616 6651
+)
+"optable.ml" 164 6873 6887 "optable.ml" 164 6873 6926
+type(
+  unit
+)
+"optable.ml" 163 6839 6853 "optable.ml" 164 6873 6926
+type(
+  unit
+)
+"optable.ml" 158 6662 6674 "optable.ml" 164 6873 6926
+type(
+  unit
+)
+"optable.ml" 156 6592 6610 "optable.ml" 165 6927 6938
+type(
+  string * prec * fixity * string list * Builtin.builtin option -> unit
+)
+"optable.ml" 165 6927 6939 "optable.ml" 165 6927 6942
+type(
+  (string * prec * fixity * string list * Builtin.builtin option) list
+)
+ident(
+  int_ref ops "optable.ml" 155 6568 6584 "optable.ml" 155 6568 6587
+)
+"optable.ml" 156 6592 6600 "optable.ml" 165 6927 6942
+type(
+  unit
+)
+"optable.ml" 154 6548 6562 "optable.ml" 166 6943 6950
+type(
+  dom * (string * prec * fixity * string list * Builtin.builtin option) list ->
+  unit
+)
+"optable.ml" 166 6943 6951 "optable.ml" 166 6943 6957
+type(
+  (dom * (string * prec * fixity * string list * Builtin.builtin option) list)
+  list
+)
+ident(
+  int_ref tlaops "optable.ml" 28 434 438 "optable.ml" 28 434 444
+)
+"optable.ml" 154 6548 6552 "optable.ml" 166 6943 6957
+type(
+  unit
+)
+"optable.ml" 167 6960 6964 "optable.ml" 167 6960 6967
+type(
+  (string, tlaop) Hashtbl.t
+)
+ident(
+  int_ref tab "optable.ml" 153 6520 6526 "optable.ml" 153 6520 6529
+)
+"optable.ml" 154 6548 6552 "optable.ml" 167 6960 6967
+type(
+  (string, tlaop) Hashtbl.t
+)
+"optable.ml" 153 6520 6522 "optable.ml" 167 6960 6967
+type(
+  (string, tlaop) Hashtbl.t
+)
+"optable.ml" 152 6492 6494 "optable.ml" 167 6960 6967
+type(
+  (string, tlaop) Hashtbl.t
+)
+"optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  def nonfix "optable.ml" 173 7076 7076 "optable.ml" 0 0 -1
+)
+"optable.ml" 169 6969 6980 "optable.ml" 169 6969 6984
+type(
+  string
+)
+ident(
+  def name "optable.ml" 169 6969 6985 "optable.ml" 171 7028 7074
+)
+"optable.ml" 169 6969 6985 "optable.ml" 169 6969 6989
+type(
+  Builtin.builtin option
+)
+ident(
+  def defn "optable.ml" 170 6992 6994 "optable.ml" 171 7028 7074
+)
+"optable.ml" 170 6992 7003 "optable.ml" 170 6992 7007
+type(
+  string
+)
+ident(
+  int_ref name "optable.ml" 169 6969 6980 "optable.ml" 169 6969 6984
+)
+"optable.ml" 170 6992 7018 "optable.ml" 170 6992 7020
+type(
+  int
+)
+"optable.ml" 170 6992 7022 "optable.ml" 170 6992 7024
+type(
+  int
+)
+"optable.ml" 170 6992 7017 "optable.ml" 170 6992 7025
+type(
+  prec
+)
+"optable.ml" 171 7028 7039 "optable.ml" 171 7028 7045
+type(
+  fixity
+)
+"optable.ml" 171 7028 7054 "optable.ml" 171 7028 7058
+type(
+  dom
+)
+"optable.ml" 171 7028 7068 "optable.ml" 171 7028 7072
+type(
+  Builtin.builtin option
+)
+ident(
+  int_ref defn "optable.ml" 169 6969 6985 "optable.ml" 169 6969 6989
+)
+"optable.ml" 170 6992 6994 "optable.ml" 171 7028 7074
+type(
+  tlaop
+)
+"optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+type(
+  string -> tlaop
+)
+ident(
+  def lookup "optable.ml" 180 7236 7236 "optable.ml" 0 0 -1
+)
+"optable.ml" 173 7076 7087 "optable.ml" 173 7076 7091
+type(
+  string
+)
+ident(
+  def name "optable.ml" 174 7094 7096 "optable.ml" 177 7166 7186
+)
+"optable.ml" 174 7094 7099 "optable.ml" 174 7094 7110
+type(
+  (string, tlaop) Hashtbl.t -> string -> bool
+)
+ident(
+  int_ref Stdlib.Hashtbl.mem "hashtbl.mli" 105 4864 4864 "hashtbl.mli" 105 4864 4898
+)
+"optable.ml" 174 7094 7111 "optable.ml" 174 7094 7118
+type(
+  (string, tlaop) Hashtbl.t
+)
+ident(
+  int_ref optable "optable.ml" 151 6478 6482 "optable.ml" 151 6478 6489
+)
+"optable.ml" 174 7094 7119 "optable.ml" 174 7094 7123
+type(
+  string
+)
+ident(
+  int_ref name "optable.ml" 173 7076 7087 "optable.ml" 173 7076 7091
+)
+"optable.ml" 174 7094 7099 "optable.ml" 174 7094 7123
+type(
+  bool
+)
+"optable.ml" 175 7129 7133 "optable.ml" 175 7129 7145
+type(
+  (string, tlaop) Hashtbl.t -> string -> tlaop
+)
+ident(
+  int_ref Stdlib.Hashtbl.find "hashtbl.mli" 90 4266 4266 "hashtbl.mli" 90 4266 4299
+)
+"optable.ml" 175 7129 7146 "optable.ml" 175 7129 7153
+type(
+  (string, tlaop) Hashtbl.t
+)
+ident(
+  int_ref optable "optable.ml" 151 6478 6482 "optable.ml" 151 6478 6489
+)
+"optable.ml" 175 7129 7154 "optable.ml" 175 7129 7158
+type(
+  string
+)
+ident(
+  int_ref name "optable.ml" 173 7076 7087 "optable.ml" 173 7076 7091
+)
+"optable.ml" 175 7129 7133 "optable.ml" 175 7129 7158
+type(
+  tlaop
+)
+"optable.ml" 177 7166 7170 "optable.ml" 177 7166 7176
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 177 7166 7177 "optable.ml" 177 7166 7181
+type(
+  string
+)
+ident(
+  int_ref name "optable.ml" 173 7076 7087 "optable.ml" 173 7076 7091
+)
+"optable.ml" 177 7166 7182 "optable.ml" 177 7166 7186
+type(
+  Builtin.builtin option
+)
+"optable.ml" 177 7166 7170 "optable.ml" 177 7166 7186
+type(
+  tlaop
+)
+"optable.ml" 174 7094 7096 "optable.ml" 177 7166 7186
+type(
+  tlaop
+)
+"optable.ml" 180 7236 7240 "optable.ml" 180 7236 7253
+type(
+  Builtin.builtin -> tlaop
+)
+ident(
+  def standard_form "optable.ml" 265 10718 10762 "optable.ml" 0 0 -1
+)
+"optable.ml" 180 7236 7254 "optable.ml" 180 7236 7255
+type(
+  Builtin.builtin
+)
+ident(
+  def b "optable.ml" 181 7258 7260 "optable.ml" 265 10718 10762
+)
+"optable.ml" 181 7258 7266 "optable.ml" 181 7258 7267
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref b "optable.ml" 180 7236 7254 "optable.ml" 180 7236 7255
+)
+"optable.ml" 182 7273 7277 "optable.ml" 182 7273 7281
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 182 7273 7294 "optable.ml" 182 7273 7300
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 182 7273 7301 "optable.ml" 182 7273 7307
+type(
+  string
+)
+"optable.ml" 182 7273 7314 "optable.ml" 182 7273 7318
+type(
+  Builtin.builtin
+)
+"optable.ml" 182 7273 7308 "optable.ml" 182 7273 7319
+type(
+  Builtin.builtin option
+)
+"optable.ml" 182 7273 7294 "optable.ml" 182 7273 7319
+type(
+  tlaop
+)
+"optable.ml" 183 7320 7324 "optable.ml" 183 7320 7329
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 183 7320 7341 "optable.ml" 183 7320 7347
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 183 7320 7348 "optable.ml" 183 7320 7355
+type(
+  string
+)
+"optable.ml" 183 7320 7362 "optable.ml" 183 7320 7367
+type(
+  Builtin.builtin
+)
+"optable.ml" 183 7320 7356 "optable.ml" 183 7320 7368
+type(
+  Builtin.builtin option
+)
+"optable.ml" 183 7320 7341 "optable.ml" 183 7320 7368
+type(
+  tlaop
+)
+"optable.ml" 184 7369 7373 "optable.ml" 184 7369 7380
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 184 7369 7390 "optable.ml" 184 7369 7396
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 184 7369 7397 "optable.ml" 184 7369 7401
+type(
+  string
+)
+"optable.ml" 184 7369 7390 "optable.ml" 184 7369 7401
+type(
+  tlaop
+)
+"optable.ml" 185 7402 7406 "optable.ml" 185 7402 7411
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 185 7402 7423 "optable.ml" 185 7402 7429
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 185 7402 7430 "optable.ml" 185 7402 7435
+type(
+  string
+)
+"optable.ml" 185 7402 7423 "optable.ml" 185 7402 7435
+type(
+  tlaop
+)
+"optable.ml" 186 7436 7440 "optable.ml" 186 7436 7444
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 186 7436 7457 "optable.ml" 186 7436 7463
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 186 7436 7464 "optable.ml" 186 7436 7469
+type(
+  string
+)
+"optable.ml" 186 7436 7457 "optable.ml" 186 7436 7469
+type(
+  tlaop
+)
+"optable.ml" 187 7470 7474 "optable.ml" 187 7470 7478
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 187 7470 7491 "optable.ml" 187 7470 7497
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 187 7470 7498 "optable.ml" 187 7470 7503
+type(
+  string
+)
+"optable.ml" 187 7470 7491 "optable.ml" 187 7470 7503
+type(
+  tlaop
+)
+"optable.ml" 188 7504 7508 "optable.ml" 188 7504 7511
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 188 7504 7525 "optable.ml" 188 7504 7531
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 188 7504 7532 "optable.ml" 188 7504 7535
+type(
+  string
+)
+"optable.ml" 188 7504 7525 "optable.ml" 188 7504 7535
+type(
+  tlaop
+)
+"optable.ml" 189 7536 7540 "optable.ml" 189 7536 7542
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 189 7536 7557 "optable.ml" 189 7536 7563
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 189 7536 7564 "optable.ml" 189 7536 7567
+type(
+  string
+)
+"optable.ml" 189 7536 7557 "optable.ml" 189 7536 7567
+type(
+  tlaop
+)
+"optable.ml" 190 7568 7572 "optable.ml" 190 7568 7575
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 190 7568 7589 "optable.ml" 190 7568 7595
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 190 7568 7596 "optable.ml" 190 7568 7599
+type(
+  string
+)
+"optable.ml" 190 7568 7589 "optable.ml" 190 7568 7599
+type(
+  tlaop
+)
+"optable.ml" 191 7600 7604 "optable.ml" 191 7600 7611
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 193 7628 7642 "optable.ml" 193 7628 7646
+type(
+  string
+)
+"optable.ml" 194 7648 7663 "optable.ml" 194 7648 7665
+type(
+  int
+)
+"optable.ml" 194 7648 7667 "optable.ml" 194 7648 7669
+type(
+  int
+)
+"optable.ml" 194 7648 7662 "optable.ml" 194 7648 7670
+type(
+  prec
+)
+"optable.ml" 195 7672 7691 "optable.ml" 195 7672 7694
+type(
+  assoc
+)
+"optable.ml" 195 7672 7685 "optable.ml" 195 7672 7694
+type(
+  fixity
+)
+"optable.ml" 196 7696 7709 "optable.ml" 196 7696 7714
+type(
+  dom
+)
+"optable.ml" 197 7716 7735 "optable.ml" 197 7716 7742
+type(
+  Builtin.builtin
+)
+"optable.ml" 197 7716 7730 "optable.ml" 197 7716 7742
+type(
+  Builtin.builtin option
+)
+"optable.ml" 192 7621 7626 "optable.ml" 198 7744 7750
+type(
+  tlaop
+)
+"optable.ml" 200 7752 7756 "optable.ml" 200 7752 7762
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 200 7752 7773 "optable.ml" 200 7752 7779
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 200 7752 7780 "optable.ml" 200 7752 7788
+type(
+  string
+)
+"optable.ml" 200 7752 7795 "optable.ml" 200 7752 7801
+type(
+  Builtin.builtin
+)
+"optable.ml" 200 7752 7789 "optable.ml" 200 7752 7802
+type(
+  Builtin.builtin option
+)
+"optable.ml" 200 7752 7773 "optable.ml" 200 7752 7802
+type(
+  tlaop
+)
+"optable.ml" 201 7803 7807 "optable.ml" 201 7803 7814
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 201 7803 7824 "optable.ml" 201 7803 7830
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 201 7803 7831 "optable.ml" 201 7803 7840
+type(
+  string
+)
+"optable.ml" 201 7803 7847 "optable.ml" 201 7803 7854
+type(
+  Builtin.builtin
+)
+"optable.ml" 201 7803 7841 "optable.ml" 201 7803 7855
+type(
+  Builtin.builtin option
+)
+"optable.ml" 201 7803 7824 "optable.ml" 201 7803 7855
+type(
+  tlaop
+)
+"optable.ml" 202 7856 7860 "optable.ml" 202 7856 7866
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 202 7856 7877 "optable.ml" 202 7856 7883
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 202 7856 7884 "optable.ml" 202 7856 7892
+type(
+  string
+)
+"optable.ml" 202 7856 7877 "optable.ml" 202 7856 7892
+type(
+  tlaop
+)
+"optable.ml" 203 7893 7897 "optable.ml" 203 7893 7902
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 203 7893 7914 "optable.ml" 203 7893 7920
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 203 7893 7921 "optable.ml" 203 7893 7928
+type(
+  string
+)
+"optable.ml" 203 7893 7914 "optable.ml" 203 7893 7928
+type(
+  tlaop
+)
+"optable.ml" 204 7929 7933 "optable.ml" 204 7929 7939
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 204 7929 7950 "optable.ml" 204 7929 7956
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 204 7929 7957 "optable.ml" 204 7929 7965
+type(
+  string
+)
+"optable.ml" 204 7929 7950 "optable.ml" 204 7929 7965
+type(
+  tlaop
+)
+"optable.ml" 205 7966 7970 "optable.ml" 205 7966 7978
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 205 7966 7987 "optable.ml" 205 7966 7993
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 205 7966 7994 "optable.ml" 205 7966 8006
+type(
+  string
+)
+"optable.ml" 205 7966 7987 "optable.ml" 205 7966 8006
+type(
+  tlaop
+)
+"optable.ml" 206 8007 8011 "optable.ml" 206 8007 8014
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 206 8007 8028 "optable.ml" 206 8007 8034
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 206 8007 8035 "optable.ml" 206 8007 8041
+type(
+  string
+)
+"optable.ml" 206 8007 8028 "optable.ml" 206 8007 8041
+type(
+  tlaop
+)
+"optable.ml" 207 8042 8046 "optable.ml" 207 8042 8052
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 207 8042 8063 "optable.ml" 207 8042 8069
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 207 8042 8070 "optable.ml" 207 8042 8079
+type(
+  string
+)
+"optable.ml" 207 8042 8063 "optable.ml" 207 8042 8079
+type(
+  tlaop
+)
+"optable.ml" 208 8080 8084 "optable.ml" 208 8080 8092
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 208 8080 8101 "optable.ml" 208 8080 8107
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 208 8080 8108 "optable.ml" 208 8080 8112
+type(
+  string
+)
+"optable.ml" 208 8080 8101 "optable.ml" 208 8080 8112
+type(
+  tlaop
+)
+"optable.ml" 209 8113 8117 "optable.ml" 209 8113 8120
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 209 8113 8134 "optable.ml" 209 8113 8140
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 209 8113 8141 "optable.ml" 209 8113 8148
+type(
+  string
+)
+"optable.ml" 209 8113 8134 "optable.ml" 209 8113 8148
+type(
+  tlaop
+)
+"optable.ml" 210 8149 8153 "optable.ml" 210 8149 8156
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 210 8149 8170 "optable.ml" 210 8149 8176
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 210 8149 8177 "optable.ml" 210 8149 8184
+type(
+  string
+)
+"optable.ml" 210 8149 8170 "optable.ml" 210 8149 8184
+type(
+  tlaop
+)
+"optable.ml" 212 8186 8190 "optable.ml" 212 8186 8195
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 212 8186 8207 "optable.ml" 212 8186 8213
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 212 8186 8214 "optable.ml" 212 8186 8217
+type(
+  string
+)
+"optable.ml" 212 8186 8207 "optable.ml" 212 8186 8217
+type(
+  tlaop
+)
+"optable.ml" 213 8218 8222 "optable.ml" 213 8218 8233
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 213 8218 8239 "optable.ml" 213 8218 8245
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 213 8218 8246 "optable.ml" 213 8218 8249
+type(
+  string
+)
+"optable.ml" 213 8218 8239 "optable.ml" 213 8218 8249
+type(
+  tlaop
+)
+"optable.ml" 214 8250 8254 "optable.ml" 214 8250 8261
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 214 8250 8271 "optable.ml" 214 8250 8277
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 214 8250 8278 "optable.ml" 214 8250 8282
+type(
+  string
+)
+"optable.ml" 214 8250 8271 "optable.ml" 214 8250 8282
+type(
+  tlaop
+)
+"optable.ml" 215 8283 8287 "optable.ml" 215 8283 8294
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 215 8283 8304 "optable.ml" 215 8283 8310
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 215 8283 8311 "optable.ml" 215 8283 8320
+type(
+  string
+)
+"optable.ml" 215 8283 8304 "optable.ml" 215 8283 8320
+type(
+  tlaop
+)
+"optable.ml" 216 8321 8325 "optable.ml" 216 8321 8334
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 216 8321 8342 "optable.ml" 216 8321 8348
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 216 8321 8349 "optable.ml" 216 8321 8360
+type(
+  string
+)
+"optable.ml" 216 8321 8342 "optable.ml" 216 8321 8360
+type(
+  tlaop
+)
+"optable.ml" 217 8361 8365 "optable.ml" 217 8361 8369
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 217 8361 8382 "optable.ml" 217 8361 8388
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 217 8361 8389 "optable.ml" 217 8361 8397
+type(
+  string
+)
+"optable.ml" 217 8361 8382 "optable.ml" 217 8361 8397
+type(
+  tlaop
+)
+"optable.ml" 218 8398 8402 "optable.ml" 218 8398 8409
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 218 8398 8419 "optable.ml" 218 8398 8425
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 218 8398 8426 "optable.ml" 218 8398 8432
+type(
+  string
+)
+"optable.ml" 218 8398 8419 "optable.ml" 218 8398 8432
+type(
+  tlaop
+)
+"optable.ml" 219 8433 8441 "optable.ml" 219 8433 8442
+type(
+  bool
+)
+"optable.ml" 219 8433 8437 "optable.ml" 219 8433 8442
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 219 8433 8454 "optable.ml" 219 8433 8460
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 219 8433 8461 "optable.ml" 219 8433 8465
+type(
+  string
+)
+"optable.ml" 219 8433 8454 "optable.ml" 219 8433 8465
+type(
+  tlaop
+)
+"optable.ml" 220 8466 8470 "optable.ml" 220 8466 8477
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 220 8466 8487 "optable.ml" 220 8466 8493
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 220 8466 8494 "optable.ml" 220 8466 8498
+type(
+  string
+)
+"optable.ml" 220 8466 8487 "optable.ml" 220 8466 8498
+type(
+  tlaop
+)
+"optable.ml" 222 8500 8504 "optable.ml" 222 8500 8508
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 222 8500 8524 "optable.ml" 222 8500 8530
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 222 8500 8531 "optable.ml" 222 8500 8534
+type(
+  string
+)
+"optable.ml" 222 8500 8523 "optable.ml" 222 8500 8535
+type(
+  tlaop
+)
+"optable.ml" 222 8500 8553 "optable.ml" 222 8500 8557
+type(
+  Builtin.builtin
+)
+"optable.ml" 222 8500 8548 "optable.ml" 222 8500 8557
+type(
+  Builtin.builtin option
+)
+"optable.ml" 222 8500 8521 "optable.ml" 222 8500 8559
+type(
+  tlaop
+)
+"optable.ml" 223 8560 8564 "optable.ml" 223 8560 8569
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 223 8560 8584 "optable.ml" 223 8560 8590
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 223 8560 8591 "optable.ml" 223 8560 8594
+type(
+  string
+)
+"optable.ml" 223 8560 8583 "optable.ml" 223 8560 8595
+type(
+  tlaop
+)
+"optable.ml" 223 8560 8613 "optable.ml" 223 8560 8618
+type(
+  Builtin.builtin
+)
+"optable.ml" 223 8560 8608 "optable.ml" 223 8560 8618
+type(
+  Builtin.builtin option
+)
+"optable.ml" 223 8560 8581 "optable.ml" 223 8560 8620
+type(
+  tlaop
+)
+"optable.ml" 224 8621 8625 "optable.ml" 224 8621 8631
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 224 8621 8645 "optable.ml" 224 8621 8651
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 224 8621 8652 "optable.ml" 224 8621 8656
+type(
+  string
+)
+"optable.ml" 224 8621 8644 "optable.ml" 224 8621 8657
+type(
+  tlaop
+)
+"optable.ml" 224 8621 8675 "optable.ml" 224 8621 8681
+type(
+  Builtin.builtin
+)
+"optable.ml" 224 8621 8670 "optable.ml" 224 8621 8681
+type(
+  Builtin.builtin option
+)
+"optable.ml" 224 8621 8691 "optable.ml" 224 8621 8694
+type(
+  string
+)
+"optable.ml" 224 8621 8642 "optable.ml" 224 8621 8696
+type(
+  tlaop
+)
+"optable.ml" 225 8697 8701 "optable.ml" 225 8697 8706
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 225 8697 8721 "optable.ml" 225 8697 8727
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 225 8697 8728 "optable.ml" 225 8697 8731
+type(
+  string
+)
+"optable.ml" 225 8697 8720 "optable.ml" 225 8697 8732
+type(
+  tlaop
+)
+"optable.ml" 225 8697 8750 "optable.ml" 225 8697 8755
+type(
+  Builtin.builtin
+)
+"optable.ml" 225 8697 8745 "optable.ml" 225 8697 8755
+type(
+  Builtin.builtin option
+)
+"optable.ml" 225 8697 8718 "optable.ml" 225 8697 8757
+type(
+  tlaop
+)
+"optable.ml" 226 8758 8762 "optable.ml" 226 8758 8767
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 226 8758 8782 "optable.ml" 226 8758 8788
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 226 8758 8789 "optable.ml" 226 8758 8792
+type(
+  string
+)
+"optable.ml" 226 8758 8781 "optable.ml" 226 8758 8793
+type(
+  tlaop
+)
+"optable.ml" 226 8758 8811 "optable.ml" 226 8758 8816
+type(
+  Builtin.builtin
+)
+"optable.ml" 226 8758 8806 "optable.ml" 226 8758 8816
+type(
+  Builtin.builtin option
+)
+"optable.ml" 226 8758 8779 "optable.ml" 226 8758 8818
+type(
+  tlaop
+)
+"optable.ml" 227 8819 8823 "optable.ml" 227 8819 8831
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 227 8819 8843 "optable.ml" 227 8819 8849
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 227 8819 8850 "optable.ml" 227 8819 8857
+type(
+  string
+)
+"optable.ml" 227 8819 8842 "optable.ml" 227 8819 8858
+type(
+  tlaop
+)
+"optable.ml" 227 8819 8876 "optable.ml" 227 8819 8884
+type(
+  Builtin.builtin
+)
+"optable.ml" 227 8819 8871 "optable.ml" 227 8819 8884
+type(
+  Builtin.builtin option
+)
+"optable.ml" 227 8819 8840 "optable.ml" 227 8819 8886
+type(
+  tlaop
+)
+"optable.ml" 228 8887 8891 "optable.ml" 228 8887 8900
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 228 8887 8911 "optable.ml" 228 8887 8917
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 228 8887 8918 "optable.ml" 228 8887 8921
+type(
+  string
+)
+"optable.ml" 228 8887 8910 "optable.ml" 228 8887 8922
+type(
+  tlaop
+)
+"optable.ml" 228 8887 8940 "optable.ml" 228 8887 8949
+type(
+  Builtin.builtin
+)
+"optable.ml" 228 8887 8935 "optable.ml" 228 8887 8949
+type(
+  Builtin.builtin option
+)
+"optable.ml" 228 8887 8908 "optable.ml" 228 8887 8951
+type(
+  tlaop
+)
+"optable.ml" 229 8952 8956 "optable.ml" 229 8952 8959
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 229 8952 8976 "optable.ml" 229 8952 8982
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 229 8952 8983 "optable.ml" 229 8952 8986
+type(
+  string
+)
+"optable.ml" 229 8952 8975 "optable.ml" 229 8952 8987
+type(
+  tlaop
+)
+"optable.ml" 229 8952 9005 "optable.ml" 229 8952 9008
+type(
+  Builtin.builtin
+)
+"optable.ml" 229 8952 9000 "optable.ml" 229 8952 9008
+type(
+  Builtin.builtin option
+)
+"optable.ml" 229 8952 8973 "optable.ml" 229 8952 9010
+type(
+  tlaop
+)
+"optable.ml" 230 9011 9015 "optable.ml" 230 9011 9019
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 230 9011 9035 "optable.ml" 230 9011 9041
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 230 9011 9042 "optable.ml" 230 9011 9046
+type(
+  string
+)
+"optable.ml" 230 9011 9034 "optable.ml" 230 9011 9047
+type(
+  tlaop
+)
+"optable.ml" 230 9011 9065 "optable.ml" 230 9011 9069
+type(
+  Builtin.builtin
+)
+"optable.ml" 230 9011 9060 "optable.ml" 230 9011 9069
+type(
+  Builtin.builtin option
+)
+"optable.ml" 230 9011 9032 "optable.ml" 230 9011 9071
+type(
+  tlaop
+)
+"optable.ml" 231 9072 9076 "optable.ml" 231 9072 9078
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 231 9072 9096 "optable.ml" 231 9072 9102
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 231 9072 9103 "optable.ml" 231 9072 9106
+type(
+  string
+)
+"optable.ml" 231 9072 9095 "optable.ml" 231 9072 9107
+type(
+  tlaop
+)
+"optable.ml" 231 9072 9125 "optable.ml" 231 9072 9127
+type(
+  Builtin.builtin
+)
+"optable.ml" 231 9072 9120 "optable.ml" 231 9072 9127
+type(
+  Builtin.builtin option
+)
+"optable.ml" 231 9072 9093 "optable.ml" 231 9072 9129
+type(
+  tlaop
+)
+"optable.ml" 232 9130 9134 "optable.ml" 232 9130 9138
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 232 9130 9154 "optable.ml" 232 9130 9160
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 232 9130 9161 "optable.ml" 232 9130 9165
+type(
+  string
+)
+"optable.ml" 232 9130 9153 "optable.ml" 232 9130 9166
+type(
+  tlaop
+)
+"optable.ml" 232 9130 9184 "optable.ml" 232 9130 9188
+type(
+  Builtin.builtin
+)
+"optable.ml" 232 9130 9179 "optable.ml" 232 9130 9188
+type(
+  Builtin.builtin option
+)
+"optable.ml" 232 9130 9151 "optable.ml" 232 9130 9190
+type(
+  tlaop
+)
+"optable.ml" 233 9191 9195 "optable.ml" 233 9191 9197
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 233 9191 9215 "optable.ml" 233 9191 9221
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 233 9191 9222 "optable.ml" 233 9191 9225
+type(
+  string
+)
+"optable.ml" 233 9191 9214 "optable.ml" 233 9191 9226
+type(
+  tlaop
+)
+"optable.ml" 233 9191 9244 "optable.ml" 233 9191 9246
+type(
+  Builtin.builtin
+)
+"optable.ml" 233 9191 9239 "optable.ml" 233 9191 9246
+type(
+  Builtin.builtin option
+)
+"optable.ml" 233 9191 9212 "optable.ml" 233 9191 9248
+type(
+  tlaop
+)
+"optable.ml" 234 9249 9253 "optable.ml" 234 9249 9258
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 234 9249 9273 "optable.ml" 234 9249 9279
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 234 9249 9280 "optable.ml" 234 9249 9284
+type(
+  string
+)
+"optable.ml" 234 9249 9272 "optable.ml" 234 9249 9285
+type(
+  tlaop
+)
+"optable.ml" 234 9249 9303 "optable.ml" 234 9249 9308
+type(
+  Builtin.builtin
+)
+"optable.ml" 234 9249 9298 "optable.ml" 234 9249 9308
+type(
+  Builtin.builtin option
+)
+"optable.ml" 234 9249 9270 "optable.ml" 234 9249 9310
+type(
+  tlaop
+)
+"optable.ml" 235 9311 9315 "optable.ml" 235 9311 9318
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 235 9311 9332 "optable.ml" 235 9311 9338
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 235 9311 9339 "optable.ml" 235 9311 9344
+type(
+  string
+)
+"optable.ml" 235 9311 9351 "optable.ml" 235 9311 9354
+type(
+  Builtin.builtin
+)
+"optable.ml" 235 9311 9345 "optable.ml" 235 9311 9355
+type(
+  Builtin.builtin option
+)
+"optable.ml" 235 9311 9332 "optable.ml" 235 9311 9355
+type(
+  tlaop
+)
+"optable.ml" 236 9356 9360 "optable.ml" 236 9356 9363
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 236 9356 9377 "optable.ml" 236 9356 9383
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 236 9356 9384 "optable.ml" 236 9356 9389
+type(
+  string
+)
+"optable.ml" 236 9356 9396 "optable.ml" 236 9356 9399
+type(
+  Builtin.builtin
+)
+"optable.ml" 236 9356 9390 "optable.ml" 236 9356 9400
+type(
+  Builtin.builtin option
+)
+"optable.ml" 236 9356 9377 "optable.ml" 236 9356 9400
+type(
+  tlaop
+)
+"optable.ml" 237 9401 9405 "optable.ml" 237 9401 9409
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 237 9401 9422 "optable.ml" 237 9401 9428
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 237 9401 9429 "optable.ml" 237 9401 9435
+type(
+  string
+)
+"optable.ml" 237 9401 9442 "optable.ml" 237 9401 9446
+type(
+  Builtin.builtin
+)
+"optable.ml" 237 9401 9436 "optable.ml" 237 9401 9447
+type(
+  Builtin.builtin option
+)
+"optable.ml" 237 9401 9422 "optable.ml" 237 9401 9447
+type(
+  tlaop
+)
+"optable.ml" 238 9448 9452 "optable.ml" 238 9448 9460
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 238 9448 9469 "optable.ml" 238 9448 9475
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 238 9448 9476 "optable.ml" 238 9448 9486
+type(
+  string
+)
+"optable.ml" 238 9448 9493 "optable.ml" 238 9448 9501
+type(
+  Builtin.builtin
+)
+"optable.ml" 238 9448 9487 "optable.ml" 238 9448 9502
+type(
+  Builtin.builtin option
+)
+"optable.ml" 238 9448 9469 "optable.ml" 238 9448 9502
+type(
+  tlaop
+)
+"optable.ml" 240 9504 9508 "optable.ml" 240 9504 9511
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 240 9504 9525 "optable.ml" 240 9504 9531
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 240 9504 9532 "optable.ml" 240 9504 9537
+type(
+  string
+)
+"optable.ml" 240 9504 9544 "optable.ml" 240 9504 9547
+type(
+  Builtin.builtin
+)
+"optable.ml" 240 9504 9538 "optable.ml" 240 9504 9548
+type(
+  Builtin.builtin option
+)
+"optable.ml" 240 9504 9525 "optable.ml" 240 9504 9548
+type(
+  tlaop
+)
+"optable.ml" 241 9549 9553 "optable.ml" 241 9549 9556
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 241 9549 9570 "optable.ml" 241 9549 9576
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 241 9549 9577 "optable.ml" 241 9549 9582
+type(
+  string
+)
+"optable.ml" 241 9549 9589 "optable.ml" 241 9549 9592
+type(
+  Builtin.builtin
+)
+"optable.ml" 241 9549 9583 "optable.ml" 241 9549 9593
+type(
+  Builtin.builtin option
+)
+"optable.ml" 241 9549 9570 "optable.ml" 241 9549 9593
+type(
+  tlaop
+)
+"optable.ml" 242 9594 9598 "optable.ml" 242 9594 9602
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 242 9594 9615 "optable.ml" 242 9594 9621
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 242 9594 9622 "optable.ml" 242 9594 9628
+type(
+  string
+)
+"optable.ml" 242 9594 9635 "optable.ml" 242 9594 9639
+type(
+  Builtin.builtin
+)
+"optable.ml" 242 9594 9629 "optable.ml" 242 9594 9640
+type(
+  Builtin.builtin option
+)
+"optable.ml" 242 9594 9615 "optable.ml" 242 9594 9640
+type(
+  tlaop
+)
+"optable.ml" 243 9641 9645 "optable.ml" 243 9641 9651
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 243 9641 9662 "optable.ml" 243 9641 9668
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 243 9641 9669 "optable.ml" 243 9641 9677
+type(
+  string
+)
+"optable.ml" 243 9641 9684 "optable.ml" 243 9641 9690
+type(
+  Builtin.builtin
+)
+"optable.ml" 243 9641 9678 "optable.ml" 243 9641 9691
+type(
+  Builtin.builtin option
+)
+"optable.ml" 243 9641 9662 "optable.ml" 243 9641 9691
+type(
+  tlaop
+)
+"optable.ml" 244 9692 9696 "optable.ml" 244 9692 9699
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 244 9692 9716 "optable.ml" 244 9692 9722
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 244 9692 9723 "optable.ml" 244 9692 9728
+type(
+  string
+)
+"optable.ml" 244 9692 9715 "optable.ml" 244 9692 9729
+type(
+  tlaop
+)
+"optable.ml" 244 9692 9747 "optable.ml" 244 9692 9750
+type(
+  Builtin.builtin
+)
+"optable.ml" 244 9692 9742 "optable.ml" 244 9692 9750
+type(
+  Builtin.builtin option
+)
+"optable.ml" 244 9692 9713 "optable.ml" 244 9692 9752
+type(
+  tlaop
+)
+"optable.ml" 245 9753 9757 "optable.ml" 245 9753 9761
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 245 9753 9774 "optable.ml" 245 9753 9780
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 245 9753 9781 "optable.ml" 245 9753 9787
+type(
+  string
+)
+"optable.ml" 245 9753 9794 "optable.ml" 245 9753 9798
+type(
+  Builtin.builtin
+)
+"optable.ml" 245 9753 9788 "optable.ml" 245 9753 9799
+type(
+  Builtin.builtin option
+)
+"optable.ml" 245 9753 9774 "optable.ml" 245 9753 9799
+type(
+  tlaop
+)
+"optable.ml" 246 9800 9804 "optable.ml" 246 9800 9808
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 246 9800 9821 "optable.ml" 246 9800 9827
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 246 9800 9828 "optable.ml" 246 9800 9834
+type(
+  string
+)
+"optable.ml" 246 9800 9841 "optable.ml" 246 9800 9845
+type(
+  Builtin.builtin
+)
+"optable.ml" 246 9800 9835 "optable.ml" 246 9800 9846
+type(
+  Builtin.builtin option
+)
+"optable.ml" 246 9800 9821 "optable.ml" 246 9800 9846
+type(
+  tlaop
+)
+"optable.ml" 247 9847 9851 "optable.ml" 247 9847 9857
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 247 9847 9868 "optable.ml" 247 9847 9874
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 247 9847 9875 "optable.ml" 247 9847 9883
+type(
+  string
+)
+"optable.ml" 247 9847 9890 "optable.ml" 247 9847 9896
+type(
+  Builtin.builtin
+)
+"optable.ml" 247 9847 9884 "optable.ml" 247 9847 9897
+type(
+  Builtin.builtin option
+)
+"optable.ml" 247 9847 9868 "optable.ml" 247 9847 9897
+type(
+  tlaop
+)
+"optable.ml" 248 9898 9902 "optable.ml" 248 9898 9911
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 248 9898 9919 "optable.ml" 248 9898 9925
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 248 9898 9926 "optable.ml" 248 9898 9937
+type(
+  string
+)
+"optable.ml" 248 9898 9944 "optable.ml" 248 9898 9953
+type(
+  Builtin.builtin
+)
+"optable.ml" 248 9898 9938 "optable.ml" 248 9898 9954
+type(
+  Builtin.builtin option
+)
+"optable.ml" 248 9898 9919 "optable.ml" 248 9898 9954
+type(
+  tlaop
+)
+"optable.ml" 250 9956 9960 "optable.ml" 250 9956 9966
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 250 9956 9980 "optable.ml" 250 9956 9986
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 250 9956 9987 "optable.ml" 250 9956 9991
+type(
+  string
+)
+"optable.ml" 250 9956 9979 "optable.ml" 250 9956 9992
+type(
+  tlaop
+)
+"optable.ml" 250 9956 10010 "optable.ml" 250 9956 10016
+type(
+  Builtin.builtin
+)
+"optable.ml" 250 9956 10005 "optable.ml" 250 9956 10016
+type(
+  Builtin.builtin option
+)
+"optable.ml" 250 9956 9977 "optable.ml" 250 9956 10018
+type(
+  tlaop
+)
+"optable.ml" 251 10019 10023 "optable.ml" 251 10019 10029
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 251 10019 10043 "optable.ml" 251 10019 10049
+type(
+  string -> tlaop
+)
+ident(
+  int_ref lookup "optable.ml" 173 7076 7080 "optable.ml" 173 7076 7086
+)
+"optable.ml" 251 10019 10050 "optable.ml" 251 10019 10054
+type(
+  string
+)
+"optable.ml" 251 10019 10042 "optable.ml" 251 10019 10055
+type(
+  tlaop
+)
+"optable.ml" 251 10019 10073 "optable.ml" 251 10019 10079
+type(
+  Builtin.builtin
+)
+"optable.ml" 251 10019 10068 "optable.ml" 251 10019 10079
+type(
+  Builtin.builtin option
+)
+"optable.ml" 251 10019 10040 "optable.ml" 251 10019 10081
+type(
+  tlaop
+)
+"optable.ml" 252 10082 10086 "optable.ml" 252 10082 10091
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 252 10082 10103 "optable.ml" 252 10082 10109
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 252 10082 10110 "optable.ml" 252 10082 10117
+type(
+  string
+)
+"optable.ml" 252 10082 10124 "optable.ml" 252 10082 10129
+type(
+  Builtin.builtin
+)
+"optable.ml" 252 10082 10118 "optable.ml" 252 10082 10130
+type(
+  Builtin.builtin option
+)
+"optable.ml" 252 10082 10103 "optable.ml" 252 10082 10130
+type(
+  tlaop
+)
+"optable.ml" 253 10131 10135 "optable.ml" 253 10131 10141
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 253 10131 10152 "optable.ml" 253 10131 10158
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 253 10131 10159 "optable.ml" 253 10131 10167
+type(
+  string
+)
+"optable.ml" 253 10131 10174 "optable.ml" 253 10131 10180
+type(
+  Builtin.builtin
+)
+"optable.ml" 253 10131 10168 "optable.ml" 253 10131 10181
+type(
+  Builtin.builtin option
+)
+"optable.ml" 253 10131 10152 "optable.ml" 253 10131 10181
+type(
+  tlaop
+)
+"optable.ml" 254 10182 10186 "optable.ml" 254 10182 10192
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 254 10182 10203 "optable.ml" 254 10182 10209
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 254 10182 10210 "optable.ml" 254 10182 10218
+type(
+  string
+)
+"optable.ml" 254 10182 10225 "optable.ml" 254 10182 10231
+type(
+  Builtin.builtin
+)
+"optable.ml" 254 10182 10219 "optable.ml" 254 10182 10232
+type(
+  Builtin.builtin option
+)
+"optable.ml" 254 10182 10203 "optable.ml" 254 10182 10232
+type(
+  tlaop
+)
+"optable.ml" 255 10233 10237 "optable.ml" 255 10233 10245
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 255 10233 10254 "optable.ml" 255 10233 10260
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 255 10233 10261 "optable.ml" 255 10233 10271
+type(
+  string
+)
+"optable.ml" 255 10233 10278 "optable.ml" 255 10233 10286
+type(
+  Builtin.builtin
+)
+"optable.ml" 255 10233 10272 "optable.ml" 255 10233 10287
+type(
+  Builtin.builtin option
+)
+"optable.ml" 255 10233 10254 "optable.ml" 255 10233 10287
+type(
+  tlaop
+)
+"optable.ml" 256 10288 10292 "optable.ml" 256 10288 10298
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 256 10288 10309 "optable.ml" 256 10288 10315
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 256 10288 10316 "optable.ml" 256 10288 10324
+type(
+  string
+)
+"optable.ml" 256 10288 10331 "optable.ml" 256 10288 10337
+type(
+  Builtin.builtin
+)
+"optable.ml" 256 10288 10325 "optable.ml" 256 10288 10338
+type(
+  Builtin.builtin option
+)
+"optable.ml" 256 10288 10309 "optable.ml" 256 10288 10338
+type(
+  tlaop
+)
+"optable.ml" 257 10339 10343 "optable.ml" 257 10339 10349
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 257 10339 10360 "optable.ml" 257 10339 10366
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 257 10339 10367 "optable.ml" 257 10339 10375
+type(
+  string
+)
+"optable.ml" 257 10339 10382 "optable.ml" 257 10339 10388
+type(
+  Builtin.builtin
+)
+"optable.ml" 257 10339 10376 "optable.ml" 257 10339 10389
+type(
+  Builtin.builtin option
+)
+"optable.ml" 257 10339 10360 "optable.ml" 257 10339 10389
+type(
+  tlaop
+)
+"optable.ml" 258 10390 10394 "optable.ml" 258 10390 10406
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 258 10390 10411 "optable.ml" 258 10390 10417
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 258 10390 10418 "optable.ml" 258 10390 10432
+type(
+  string
+)
+"optable.ml" 258 10390 10439 "optable.ml" 258 10390 10451
+type(
+  Builtin.builtin
+)
+"optable.ml" 258 10390 10433 "optable.ml" 258 10390 10452
+type(
+  Builtin.builtin option
+)
+"optable.ml" 258 10390 10411 "optable.ml" 258 10390 10452
+type(
+  tlaop
+)
+"optable.ml" 259 10453 10457 "optable.ml" 259 10453 10464
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 259 10453 10474 "optable.ml" 259 10453 10480
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 259 10453 10481 "optable.ml" 259 10453 10490
+type(
+  string
+)
+"optable.ml" 259 10453 10497 "optable.ml" 259 10453 10504
+type(
+  Builtin.builtin
+)
+"optable.ml" 259 10453 10491 "optable.ml" 259 10453 10505
+type(
+  Builtin.builtin option
+)
+"optable.ml" 259 10453 10474 "optable.ml" 259 10453 10505
+type(
+  tlaop
+)
+"optable.ml" 260 10506 10510 "optable.ml" 260 10506 10523
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 260 10506 10527 "optable.ml" 260 10506 10533
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 260 10506 10534 "optable.ml" 260 10506 10549
+type(
+  string
+)
+"optable.ml" 260 10506 10556 "optable.ml" 260 10506 10569
+type(
+  Builtin.builtin
+)
+"optable.ml" 260 10506 10550 "optable.ml" 260 10506 10570
+type(
+  Builtin.builtin option
+)
+"optable.ml" 260 10506 10527 "optable.ml" 260 10506 10570
+type(
+  tlaop
+)
+"optable.ml" 261 10571 10575 "optable.ml" 261 10571 10578
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 261 10571 10592 "optable.ml" 261 10571 10598
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 261 10571 10599 "optable.ml" 261 10571 10604
+type(
+  string
+)
+"optable.ml" 261 10571 10611 "optable.ml" 261 10571 10614
+type(
+  Builtin.builtin
+)
+"optable.ml" 261 10571 10605 "optable.ml" 261 10571 10615
+type(
+  Builtin.builtin option
+)
+"optable.ml" 261 10571 10592 "optable.ml" 261 10571 10615
+type(
+  tlaop
+)
+"optable.ml" 262 10616 10620 "optable.ml" 262 10616 10628
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 262 10616 10637 "optable.ml" 262 10616 10643
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 262 10616 10644 "optable.ml" 262 10616 10654
+type(
+  string
+)
+"optable.ml" 262 10616 10661 "optable.ml" 262 10616 10669
+type(
+  Builtin.builtin
+)
+"optable.ml" 262 10616 10655 "optable.ml" 262 10616 10670
+type(
+  Builtin.builtin option
+)
+"optable.ml" 262 10616 10637 "optable.ml" 262 10616 10670
+type(
+  tlaop
+)
+"optable.ml" 264 10672 10676 "optable.ml" 264 10672 10686
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 264 10672 10693 "optable.ml" 264 10672 10699
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 264 10672 10700 "optable.ml" 264 10672 10712
+type(
+  string
+)
+"optable.ml" 264 10672 10713 "optable.ml" 264 10672 10717
+type(
+  Builtin.builtin option
+)
+"optable.ml" 264 10672 10693 "optable.ml" 264 10672 10717
+type(
+  tlaop
+)
+"optable.ml" 265 10718 10722 "optable.ml" 265 10718 10731
+type(
+  Builtin.builtin
+)
+type(
+  Builtin.builtin
+)
+"optable.ml" 265 10718 10739 "optable.ml" 265 10718 10745
+type(
+  string -> Builtin.builtin option -> tlaop
+)
+ident(
+  int_ref nonfix "optable.ml" 169 6969 6973 "optable.ml" 169 6969 6979
+)
+"optable.ml" 265 10718 10746 "optable.ml" 265 10718 10757
+type(
+  string
+)
+"optable.ml" 265 10718 10758 "optable.ml" 265 10718 10762
+type(
+  Builtin.builtin option
+)
+"optable.ml" 265 10718 10739 "optable.ml" 265 10718 10762
+type(
+  tlaop
+)
+"optable.ml" 181 7258 7260 "optable.ml" 265 10718 10762
+type(
+  tlaop
+)

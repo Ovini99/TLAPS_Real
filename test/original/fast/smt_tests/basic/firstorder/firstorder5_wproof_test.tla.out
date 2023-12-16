@@ -1,0 +1,169 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:29:35 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp firstorder5_wproof_test.tla --stretch 5
+
+(* created new ".tlacache/TLAPS.tlaps/TLAPS.thy" *)
+(* fingerprints written in ".tlacache/TLAPS.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/firstorder5_wproof_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+COMMAND-LINE ARGUMENT
+file=.tlacache/firstorder5_wproof_test.tlaps/tlapm_f2d13f.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/firstorder5_wproof_test.tlaps/tlapm_f2d13f.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #1
+;;   generated from file "./firstorder5_wproof_test.tla", line 22, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Punde_a (u) u)
+(declare-fun a_CONSTANTunde_aunde_a () u)
+(declare-fun a_CONSTANTunde_bunde_a () u)
+
+
+;; Theorem to be Proved
+(assert (not
+  (exists ((a_CONSTANTunde_xunde_a u))
+    (=>
+      (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_xunde_a))
+      (and
+        (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_aunde_a))
+        (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_bunde_a)))))))
+(assert
+  (=>
+    (and
+      (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_aunde_a))
+      (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_bunde_a)))
+    (exists ((a_CONSTANTunde_xunde_a u))
+      (=>
+        (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_xunde_a))
+        (and
+          (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_aunde_a))
+          (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_bunde_a)))))))
+(assert
+  (=>
+    (not (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_aunde_a)))
+    (exists ((a_CONSTANTunde_xunde_a u))
+      (=>
+        (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_xunde_a))
+        (and
+          (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_aunde_a))
+          (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_bunde_a)))))))
+(assert
+  (=>
+    (not (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_bunde_a)))
+    (exists ((a_CONSTANTunde_xunde_a u))
+      (=>
+        (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_xunde_a))
+        (and
+          (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_aunde_a))
+          (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_bunde_a)))))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/firstorder5_wproof_test.tlaps/tlapm_d732e7.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/firstorder5_wproof_test.tlaps/tlapm_d732e7.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #5
+;;   generated from file "./firstorder5_wproof_test.tla", line 16, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Punde_a (u) u)
+(declare-fun a_CONSTANTunde_aunde_a () u)
+(declare-fun a_CONSTANTunde_bunde_a () u)
+
+
+;; Theorem to be Proved
+(assert (not true))
+(assert (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_aunde_a)))
+(assert (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_bunde_a)))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/firstorder5_wproof_test.tlaps/tlapm_feca4a.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/firstorder5_wproof_test.tlaps/tlapm_feca4a.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #7
+;;   generated from file "./firstorder5_wproof_test.tla", line 18, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Punde_a (u) u)
+(declare-fun a_CONSTANTunde_aunde_a () u)
+(declare-fun a_CONSTANTunde_bunde_a () u)
+
+
+;; Theorem to be Proved
+(assert (not
+  (exists ((a_CONSTANTunde_xunde_a u))
+    (=>
+      (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_xunde_a))
+      (and
+        (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_aunde_a))
+        (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_bunde_a)))))))
+(assert (not (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_aunde_a))))
+
+(check-sat)
+(exit)
+
+COMMAND-LINE ARGUMENT
+file=.tlacache/firstorder5_wproof_test.tlaps/tlapm_72ae79.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/firstorder5_wproof_test.tlaps/tlapm_72ae79.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #9
+;;   generated from file "./firstorder5_wproof_test.tla", line 20, characters 5-6
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun boolify (u) Bool)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_Punde_a (u) u)
+(declare-fun a_CONSTANTunde_aunde_a () u)
+(declare-fun a_CONSTANTunde_bunde_a () u)
+
+
+;; Theorem to be Proved
+(assert (not
+  (exists ((a_CONSTANTunde_xunde_a u))
+    (=>
+      (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_xunde_a))
+      (and
+        (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_aunde_a))
+        (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_bunde_a)))))))
+(assert (not (boolify (a_CONSTANTunde_Punde_a a_CONSTANTunde_bunde_a))))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+RESULT
+unsat
+
+(* created new ".tlacache/firstorder5_wproof_test.tlaps/firstorder5_wproof_test.thy" *)
+(* fingerprints written in ".tlacache/firstorder5_wproof_test.tlaps/fingerprints" *)

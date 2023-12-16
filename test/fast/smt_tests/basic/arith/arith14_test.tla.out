@@ -1,0 +1,55 @@
+
+\* TLAPM version 1.5.0
+\* launched at 2023-11-27 14:17:40 with command line:
+\* /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../tlapm -I /home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/../library --toolbox 0 0 --nofp arith14_test.tla --stretch 5
+
+(* created new ".tlacache/TLAPS.tlaps/TLAPS.thy" *)
+(* fingerprints written in ".tlacache/TLAPS.tlaps/fingerprints" *)
+(* will not use fingerprints (because of option `--nofp`), but will now load fingerprints from the file `.tlacache/arith14_test.tlaps/fingerprints`, in order to overwrite with the new fingerprints, and then save the results at the end. *)
+COMMAND-LINE ARGUMENT
+file=.tlacache/arith14_test.tlaps/tlapm_08e2e6.smt; PATH='/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main/test/lib/tlaps/bin/:/home/ovini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/tlapm-main:/home/ovini/Downloads/tlapm_real_altered/tlapm-main/lib/tlaps/bin'; z3 -smt2 -v:0 AUTO_CONFIG=false smt.MBQI=true "$file" >.tlacache/arith14_test.tlaps/tlapm_08e2e6.smt.out
+CONTENT OF FILE SENT TO BACKEND
+;; TLA+ Proof Manager 1.5.0
+;; Proof obligation #1
+;;   generated from file "./arith14_test.tla", line 12, characters 5-11
+
+(set-logic UFNIA)
+(declare-sort u 0)
+;; Standard TLA+ operators
+(declare-fun int2u (Int) u)
+(declare-fun u2int (u) Int)
+(declare-fun tla__plus (u u) u)
+(declare-fun tla__times (u u) u)
+
+;; Terms, predicates and strings
+(declare-fun a_CONSTANTunde_munde_a () Int)
+(declare-fun a_CONSTANTunde_nunde_a () Int)
+(declare-fun a_CONSTANTunde_punde_a () Int)
+
+(assert
+  (forall ((X_3 Int)) (! (= (u2int (int2u X_3)) X_3) :pattern ((int2u X_3)))))
+(assert
+  (forall ((M_1 Int) (N_2 Int))
+  (! (= (tla__plus (int2u M_1) (int2u N_2)) (int2u (+ M_1 N_2))) :pattern ((tla__plus (int2u M_1) (int2u N_2))))))
+(assert
+  (forall ((M_1 Int) (N_2 Int))
+  (! (= (tla__times (int2u M_1) (int2u N_2)) (int2u (* M_1 N_2))) :pattern ((tla__times (int2u M_1) (int2u N_2))))))
+
+;; Theorem to be Proved
+(assert (not
+  (=
+    (*
+      (+ a_CONSTANTunde_munde_a a_CONSTANTunde_nunde_a)
+      a_CONSTANTunde_punde_a)
+    (+
+      (* a_CONSTANTunde_munde_a a_CONSTANTunde_punde_a)
+      (* a_CONSTANTunde_nunde_a a_CONSTANTunde_punde_a)))))
+
+(check-sat)
+(exit)
+
+RESULT
+unsat
+
+(* created new ".tlacache/arith14_test.tlaps/arith14_test.thy" *)
+(* fingerprints written in ".tlacache/arith14_test.tlaps/fingerprints" *)

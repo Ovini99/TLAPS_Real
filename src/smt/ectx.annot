@@ -1,0 +1,2906 @@
+"ectx.ml" 11 172 179 "ectx.ml" 11 172 181
+ident(
+  def Dq "ectx.ml" 11 172 189 "ectx.ml" 0 0 -1
+)
+"ectx.ml" 12 190 197 "ectx.ml" 12 190 198
+ident(
+  def T "ectx.ml" 12 190 206 "ectx.ml" 0 0 -1
+)
+"ectx.ml" 20 458 462 "ectx.ml" 20 458 465
+type(
+  'a Dq.dq * 'b Ctx.ctx
+)
+ident(
+  def dot "ectx.ml" 22 487 487 "ectx.ml" 0 0 -1
+)
+"ectx.ml" 20 458 468 "ectx.ml" 20 458 476
+type(
+  'a Dq.dq
+)
+ident(
+  int_ref Dq.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"ectx.ml" 20 458 478 "ectx.ml" 20 458 485
+type(
+  'b Ctx.ctx
+)
+ident(
+  int_ref Ctx.dot "ctx.mli" 20 424 424 "ctx.mli" 20 424 439
+)
+"ectx.ml" 20 458 468 "ectx.ml" 20 458 485
+type(
+  'a Dq.dq * 'b Ctx.ctx
+)
+"ectx.ml" 22 487 491 "ectx.ml" 22 487 497
+type(
+  'a Dq.dq * 'b Ctx.ctx -> int
+)
+ident(
+  def length "ectx.ml" 29 665 665 "ectx.ml" 0 0 -1
+)
+"ectx.ml" 22 487 499 "ectx.ml" 22 487 501
+type(
+  'a Dq.dq
+)
+ident(
+  def dx "ectx.ml" 23 508 510 "ectx.ml" 26 582 586
+)
+"ectx.ml" 22 487 502 "ectx.ml" 22 487 504
+type(
+  'b Ctx.ctx
+)
+ident(
+  def cx "ectx.ml" 23 508 510 "ectx.ml" 26 582 586
+)
+"ectx.ml" 22 487 498 "ectx.ml" 22 487 505
+type(
+  'a Dq.dq * 'b Ctx.ctx
+)
+"ectx.ml" 23 508 514 "ectx.ml" 23 508 516
+type(
+  int
+)
+ident(
+  def l1 "ectx.ml" 24 533 535 "ectx.ml" 26 582 586
+)
+"ectx.ml" 23 508 519 "ectx.ml" 23 508 526
+type(
+  'a Dq.dq -> int
+)
+ident(
+  int_ref Dq.size "deque.mli" 11 162 162 "deque.mli" 11 162 186
+)
+"ectx.ml" 23 508 527 "ectx.ml" 23 508 529
+type(
+  'a Dq.dq
+)
+ident(
+  int_ref dx "ectx.ml" 22 487 499 "ectx.ml" 22 487 501
+)
+"ectx.ml" 23 508 519 "ectx.ml" 23 508 529
+type(
+  int
+)
+"ectx.ml" 24 533 539 "ectx.ml" 24 533 541
+type(
+  int
+)
+ident(
+  def l2 "ectx.ml" 25 561 563 "ectx.ml" 26 582 586
+)
+"ectx.ml" 24 533 544 "ectx.ml" 24 533 554
+type(
+  'b Ctx.ctx -> int
+)
+ident(
+  int_ref Ctx.length "ctx.mli" 8 138 138 "ctx.mli" 8 138 163
+)
+"ectx.ml" 24 533 555 "ectx.ml" 24 533 557
+type(
+  'b Ctx.ctx
+)
+ident(
+  int_ref cx "ectx.ml" 22 487 502 "ectx.ml" 22 487 504
+)
+"ectx.ml" 24 533 544 "ectx.ml" 24 533 557
+type(
+  int
+)
+"ectx.ml" 25 561 571 "ectx.ml" 25 561 573
+type(
+  int
+)
+ident(
+  int_ref l1 "ectx.ml" 23 508 514 "ectx.ml" 23 508 516
+)
+"ectx.ml" 25 561 574 "ectx.ml" 25 561 575
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"ectx.ml" 25 561 576 "ectx.ml" 25 561 578
+type(
+  int
+)
+ident(
+  int_ref l2 "ectx.ml" 24 533 539 "ectx.ml" 24 533 541
+)
+"ectx.ml" 25 561 570 "ectx.ml" 25 561 579
+type(
+  bool
+)
+"ectx.ml" 25 561 563 "ectx.ml" 25 561 579
+type(
+  unit
+)
+"ectx.ml" 26 582 584 "ectx.ml" 26 582 586
+type(
+  int
+)
+ident(
+  int_ref l1 "ectx.ml" 23 508 514 "ectx.ml" 23 508 516
+)
+"ectx.ml" 25 561 563 "ectx.ml" 26 582 586
+type(
+  int
+)
+"ectx.ml" 24 533 535 "ectx.ml" 26 582 586
+type(
+  int
+)
+"ectx.ml" 23 508 510 "ectx.ml" 26 582 586
+type(
+  int
+)
+"ectx.ml" 29 665 669 "ectx.ml" 29 665 673
+type(
+  Expr.T.hyp_ Property.wrapped Dq.dq * 'a Ctx.ctx ->
+  Expr.T.hyp_ Property.wrapped Dq.dq * 'a Ctx.ctx
+)
+ident(
+  def bump "ectx.ml" 36 957 957 "ectx.ml" 0 0 -1
+)
+"ectx.ml" 29 665 675 "ectx.ml" 29 665 677
+type(
+  Expr.T.hyp_ Property.wrapped Dq.dq
+)
+ident(
+  def dx "ectx.ml" 31 785 787 "ectx.ml" 34 946 955
+)
+"ectx.ml" 29 665 678 "ectx.ml" 29 665 680
+type(
+  'a Ctx.ctx
+)
+ident(
+  def cx "ectx.ml" 31 785 787 "ectx.ml" 34 946 955
+)
+"ectx.ml" 29 665 674 "ectx.ml" 29 665 681
+type(
+  Expr.T.hyp_ Property.wrapped Dq.dq * 'a Ctx.ctx
+)
+"ectx.ml" 31 785 791 "ectx.ml" 31 785 793
+type(
+  Expr.T.hyp_ Property.wrapped Dq.dq
+)
+ident(
+  def dx "ectx.ml" 33 920 922 "ectx.ml" 34 946 955
+)
+"ectx.ml" 31 785 796 "ectx.ml" 31 785 803
+type(
+  Expr.T.hyp_ Property.wrapped Dq.dq ->
+  Expr.T.hyp_ Property.wrapped -> Expr.T.hyp_ Property.wrapped Dq.dq
+)
+ident(
+  int_ref Dq.snoc "deque.mli" 13 220 220 "deque.mli" 13 220 252
+)
+"ectx.ml" 31 785 804 "ectx.ml" 31 785 806
+type(
+  Expr.T.hyp_ Property.wrapped Dq.dq
+)
+ident(
+  int_ref dx "ectx.ml" 29 665 675 "ectx.ml" 29 665 677
+)
+"ectx.ml" 31 785 815 "ectx.ml" 31 785 822
+type(
+  string
+)
+"ectx.ml" 31 785 823 "ectx.ml" 31 785 825
+type(
+  string -> Property.props -> Util.hint
+)
+ident(
+  int_ref Property.( %% ) "property.mli" 103 3412 3412 "property.mli" 103 3412 3450
+)
+"ectx.ml" 31 785 826 "ectx.ml" 31 785 828
+type(
+  Property.props
+)
+"ectx.ml" 31 785 815 "ectx.ml" 31 785 828
+type(
+  Util.hint
+)
+"ectx.ml" 31 785 830 "ectx.ml" 31 785 840
+type(
+  Expr.T.shape
+)
+"ectx.ml" 31 785 842 "ectx.ml" 31 785 850
+type(
+  Expr.T.kind
+)
+"ectx.ml" 31 785 852 "ectx.ml" 31 785 861
+type(
+  Expr.T.hdom
+)
+"ectx.ml" 31 785 808 "ectx.ml" 31 785 862
+type(
+  Expr.T.hyp_
+)
+"ectx.ml" 31 785 863 "ectx.ml" 31 785 865
+type(
+  Expr.T.hyp_ -> Property.props -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( %% ) "property.mli" 103 3412 3412 "property.mli" 103 3412 3450
+)
+"ectx.ml" 31 785 866 "ectx.ml" 31 785 868
+type(
+  Property.props
+)
+"ectx.ml" 31 785 807 "ectx.ml" 31 785 869
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"ectx.ml" 31 785 796 "ectx.ml" 31 785 869
+type(
+  Expr.T.hyp_ Property.wrapped Dq.dq
+)
+"ectx.ml" 33 920 926 "ectx.ml" 33 920 928
+type(
+  'a Ctx.ctx
+)
+ident(
+  def cx "ectx.ml" 34 946 948 "ectx.ml" 34 946 955
+)
+"ectx.ml" 33 920 931 "ectx.ml" 33 920 939
+type(
+  'a Ctx.ctx -> 'a Ctx.ctx
+)
+ident(
+  int_ref Ctx.bump "ctx.mli" 27 559 559 "ctx.mli" 27 559 585
+)
+"ectx.ml" 33 920 940 "ectx.ml" 33 920 942
+type(
+  'a Ctx.ctx
+)
+ident(
+  int_ref cx "ectx.ml" 29 665 678 "ectx.ml" 29 665 680
+)
+"ectx.ml" 33 920 931 "ectx.ml" 33 920 942
+type(
+  'a Ctx.ctx
+)
+"ectx.ml" 34 946 949 "ectx.ml" 34 946 951
+type(
+  Expr.T.hyp_ Property.wrapped Dq.dq
+)
+ident(
+  int_ref dx "ectx.ml" 31 785 791 "ectx.ml" 31 785 793
+)
+"ectx.ml" 34 946 952 "ectx.ml" 34 946 954
+type(
+  'a Ctx.ctx
+)
+ident(
+  int_ref cx "ectx.ml" 33 920 926 "ectx.ml" 33 920 928
+)
+"ectx.ml" 34 946 948 "ectx.ml" 34 946 955
+type(
+  Expr.T.hyp_ Property.wrapped Dq.dq * 'a Ctx.ctx
+)
+"ectx.ml" 33 920 922 "ectx.ml" 34 946 955
+type(
+  Expr.T.hyp_ Property.wrapped Dq.dq * 'a Ctx.ctx
+)
+"ectx.ml" 31 785 787 "ectx.ml" 34 946 955
+type(
+  Expr.T.hyp_ Property.wrapped Dq.dq * 'a Ctx.ctx
+)
+"ectx.ml" 36 957 961 "ectx.ml" 36 957 977
+type(
+  string -> Expr.T.defn_ Property.wrapped -> Expr.T.defn_ Property.wrapped
+)
+ident(
+  def update_defn_name "ectx.ml" 43 1226 1226 "ectx.ml" 0 0 -1
+)
+"ectx.ml" 36 957 978 "ectx.ml" 36 957 980
+type(
+  string
+)
+ident(
+  def id "ectx.ml" 36 957 981 "ectx.ml" 41 1168 1224
+)
+"ectx.ml" 36 957 981 "ectx.ml" 36 957 985
+type(
+  Expr.T.defn_ Property.wrapped
+)
+ident(
+  def defn "ectx.ml" 37 988 990 "ectx.ml" 41 1168 1224
+)
+"ectx.ml" 37 988 996 "ectx.ml" 37 988 1000
+type(
+  Expr.T.defn_ Property.wrapped
+)
+ident(
+  int_ref defn "ectx.ml" 36 957 981 "ectx.ml" 36 957 985
+)
+"ectx.ml" 37 988 996 "ectx.ml" 37 988 1005
+type(
+  Expr.T.defn_
+)
+"ectx.ml" 38 1011 1026 "ectx.ml" 38 1011 1027
+type(
+  Util.hint
+)
+ident(
+  def h "ectx.ml" 38 1011 1034 "ectx.ml" 38 1011 1063
+)
+"ectx.ml" 38 1011 1028 "ectx.ml" 38 1011 1029
+type(
+  Expr.T.shape
+)
+ident(
+  def s "ectx.ml" 38 1011 1034 "ectx.ml" 38 1011 1063
+)
+"ectx.ml" 38 1011 1015 "ectx.ml" 38 1011 1030
+type(
+  Expr.T.defn_
+)
+type(
+  Expr.T.defn_
+)
+"ectx.ml" 38 1011 1045 "ectx.ml" 38 1011 1047
+type(
+  string
+)
+ident(
+  int_ref id "ectx.ml" 36 957 978 "ectx.ml" 36 957 980
+)
+"ectx.ml" 38 1011 1048 "ectx.ml" 38 1011 1050
+type(
+  string -> Util.hint -> Util.hint
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"ectx.ml" 38 1011 1051 "ectx.ml" 38 1011 1052
+type(
+  Util.hint
+)
+ident(
+  int_ref h "ectx.ml" 38 1011 1026 "ectx.ml" 38 1011 1027
+)
+"ectx.ml" 38 1011 1045 "ectx.ml" 38 1011 1052
+type(
+  Util.hint
+)
+"ectx.ml" 38 1011 1053 "ectx.ml" 38 1011 1054
+type(
+  Expr.T.shape
+)
+ident(
+  int_ref s "ectx.ml" 38 1011 1028 "ectx.ml" 38 1011 1029
+)
+"ectx.ml" 38 1011 1034 "ectx.ml" 38 1011 1055
+type(
+  Expr.T.defn_
+)
+"ectx.ml" 38 1011 1056 "ectx.ml" 38 1011 1058
+type(
+  Expr.T.defn_ ->
+  Expr.T.defn_ Property.wrapped -> Expr.T.defn_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"ectx.ml" 38 1011 1059 "ectx.ml" 38 1011 1063
+type(
+  Expr.T.defn_ Property.wrapped
+)
+ident(
+  int_ref defn "ectx.ml" 36 957 981 "ectx.ml" 36 957 985
+)
+"ectx.ml" 38 1011 1034 "ectx.ml" 38 1011 1063
+type(
+  Expr.T.defn_ Property.wrapped
+)
+"ectx.ml" 39 1064 1078 "ectx.ml" 39 1064 1079
+type(
+  Util.hint
+)
+ident(
+  def h "ectx.ml" 39 1064 1087 "ectx.ml" 39 1064 1116
+)
+"ectx.ml" 39 1064 1080 "ectx.ml" 39 1064 1082
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "ectx.ml" 39 1064 1087 "ectx.ml" 39 1064 1116
+)
+"ectx.ml" 39 1064 1068 "ectx.ml" 39 1064 1083
+type(
+  Expr.T.defn_
+)
+type(
+  Expr.T.defn_
+)
+"ectx.ml" 39 1064 1097 "ectx.ml" 39 1064 1099
+type(
+  string
+)
+ident(
+  int_ref id "ectx.ml" 36 957 978 "ectx.ml" 36 957 980
+)
+"ectx.ml" 39 1064 1100 "ectx.ml" 39 1064 1102
+type(
+  string -> Util.hint -> Util.hint
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"ectx.ml" 39 1064 1103 "ectx.ml" 39 1064 1104
+type(
+  Util.hint
+)
+ident(
+  int_ref h "ectx.ml" 39 1064 1078 "ectx.ml" 39 1064 1079
+)
+"ectx.ml" 39 1064 1097 "ectx.ml" 39 1064 1104
+type(
+  Util.hint
+)
+"ectx.ml" 39 1064 1105 "ectx.ml" 39 1064 1107
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "ectx.ml" 39 1064 1080 "ectx.ml" 39 1064 1082
+)
+"ectx.ml" 39 1064 1087 "ectx.ml" 39 1064 1108
+type(
+  Expr.T.defn_
+)
+"ectx.ml" 39 1064 1109 "ectx.ml" 39 1064 1111
+type(
+  Expr.T.defn_ ->
+  Expr.T.defn_ Property.wrapped -> Expr.T.defn_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"ectx.ml" 39 1064 1112 "ectx.ml" 39 1064 1116
+type(
+  Expr.T.defn_ Property.wrapped
+)
+ident(
+  int_ref defn "ectx.ml" 36 957 981 "ectx.ml" 36 957 985
+)
+"ectx.ml" 39 1064 1087 "ectx.ml" 39 1064 1116
+type(
+  Expr.T.defn_ Property.wrapped
+)
+"ectx.ml" 40 1117 1131 "ectx.ml" 40 1117 1132
+type(
+  Util.hint
+)
+ident(
+  def h "ectx.ml" 40 1117 1139 "ectx.ml" 40 1117 1167
+)
+"ectx.ml" 40 1117 1133 "ectx.ml" 40 1117 1134
+type(
+  Expr.T.instance
+)
+ident(
+  def i "ectx.ml" 40 1117 1139 "ectx.ml" 40 1117 1167
+)
+"ectx.ml" 40 1117 1121 "ectx.ml" 40 1117 1135
+type(
+  Expr.T.defn_
+)
+type(
+  Expr.T.defn_
+)
+"ectx.ml" 40 1117 1149 "ectx.ml" 40 1117 1151
+type(
+  string
+)
+ident(
+  int_ref id "ectx.ml" 36 957 978 "ectx.ml" 36 957 980
+)
+"ectx.ml" 40 1117 1152 "ectx.ml" 40 1117 1154
+type(
+  string -> Util.hint -> Util.hint
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"ectx.ml" 40 1117 1155 "ectx.ml" 40 1117 1156
+type(
+  Util.hint
+)
+ident(
+  int_ref h "ectx.ml" 40 1117 1131 "ectx.ml" 40 1117 1132
+)
+"ectx.ml" 40 1117 1149 "ectx.ml" 40 1117 1156
+type(
+  Util.hint
+)
+"ectx.ml" 40 1117 1157 "ectx.ml" 40 1117 1158
+type(
+  Expr.T.instance
+)
+ident(
+  int_ref i "ectx.ml" 40 1117 1133 "ectx.ml" 40 1117 1134
+)
+"ectx.ml" 40 1117 1139 "ectx.ml" 40 1117 1159
+type(
+  Expr.T.defn_
+)
+"ectx.ml" 40 1117 1160 "ectx.ml" 40 1117 1162
+type(
+  Expr.T.defn_ ->
+  Expr.T.defn_ Property.wrapped -> Expr.T.defn_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"ectx.ml" 40 1117 1163 "ectx.ml" 40 1117 1167
+type(
+  Expr.T.defn_ Property.wrapped
+)
+ident(
+  int_ref defn "ectx.ml" 36 957 981 "ectx.ml" 36 957 985
+)
+"ectx.ml" 40 1117 1139 "ectx.ml" 40 1117 1167
+type(
+  Expr.T.defn_ Property.wrapped
+)
+"ectx.ml" 41 1168 1181 "ectx.ml" 41 1168 1182
+type(
+  Util.hint
+)
+ident(
+  def h "ectx.ml" 41 1168 1193 "ectx.ml" 41 1168 1224
+)
+"ectx.ml" 41 1168 1183 "ectx.ml" 41 1168 1185
+type(
+  Expr.T.expr
+)
+ident(
+  def ex "ectx.ml" 41 1168 1193 "ectx.ml" 41 1168 1224
+)
+"ectx.ml" 41 1168 1186 "ectx.ml" 41 1168 1188
+type(
+  (Util.hint * Expr.T.backend_args) list list
+)
+ident(
+  def ls "ectx.ml" 41 1168 1193 "ectx.ml" 41 1168 1224
+)
+"ectx.ml" 41 1168 1172 "ectx.ml" 41 1168 1189
+type(
+  Expr.T.defn_
+)
+type(
+  Expr.T.defn_
+)
+"ectx.ml" 41 1168 1202 "ectx.ml" 41 1168 1204
+type(
+  string
+)
+ident(
+  int_ref id "ectx.ml" 36 957 978 "ectx.ml" 36 957 980
+)
+"ectx.ml" 41 1168 1205 "ectx.ml" 41 1168 1207
+type(
+  string -> Util.hint -> Util.hint
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"ectx.ml" 41 1168 1208 "ectx.ml" 41 1168 1209
+type(
+  Util.hint
+)
+ident(
+  int_ref h "ectx.ml" 41 1168 1181 "ectx.ml" 41 1168 1182
+)
+"ectx.ml" 41 1168 1202 "ectx.ml" 41 1168 1209
+type(
+  Util.hint
+)
+"ectx.ml" 41 1168 1210 "ectx.ml" 41 1168 1212
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref ex "ectx.ml" 41 1168 1183 "ectx.ml" 41 1168 1185
+)
+"ectx.ml" 41 1168 1213 "ectx.ml" 41 1168 1215
+type(
+  (Util.hint * Expr.T.backend_args) list list
+)
+ident(
+  int_ref ls "ectx.ml" 41 1168 1186 "ectx.ml" 41 1168 1188
+)
+"ectx.ml" 41 1168 1193 "ectx.ml" 41 1168 1216
+type(
+  Expr.T.defn_
+)
+"ectx.ml" 41 1168 1217 "ectx.ml" 41 1168 1219
+type(
+  Expr.T.defn_ ->
+  Expr.T.defn_ Property.wrapped -> Expr.T.defn_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"ectx.ml" 41 1168 1220 "ectx.ml" 41 1168 1224
+type(
+  Expr.T.defn_ Property.wrapped
+)
+ident(
+  int_ref defn "ectx.ml" 36 957 981 "ectx.ml" 36 957 985
+)
+"ectx.ml" 41 1168 1193 "ectx.ml" 41 1168 1224
+type(
+  Expr.T.defn_ Property.wrapped
+)
+"ectx.ml" 37 988 990 "ectx.ml" 41 1168 1224
+type(
+  Expr.T.defn_ Property.wrapped
+)
+"ectx.ml" 43 1226 1230 "ectx.ml" 43 1226 1245
+type(
+  string -> Expr.T.hyp_ Property.wrapped -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  def update_hyp_name "ectx.ml" 53 1536 1536 "ectx.ml" 0 0 -1
+)
+"ectx.ml" 43 1226 1246 "ectx.ml" 43 1226 1248
+type(
+  string
+)
+ident(
+  def id "ectx.ml" 43 1226 1249 "ectx.ml" 51 1527 1534
+)
+"ectx.ml" 43 1226 1249 "ectx.ml" 43 1226 1250
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  def h "ectx.ml" 44 1253 1255 "ectx.ml" 51 1527 1534
+)
+"ectx.ml" 44 1253 1261 "ectx.ml" 44 1253 1262
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref h "ectx.ml" 43 1226 1249 "ectx.ml" 43 1226 1250
+)
+"ectx.ml" 44 1253 1261 "ectx.ml" 44 1253 1267
+type(
+  Expr.T.hyp_
+)
+"ectx.ml" 45 1273 1284 "ectx.ml" 45 1273 1286
+type(
+  Util.hint
+)
+ident(
+  def nm "ectx.ml" 45 1273 1303 "ectx.ml" 45 1273 1336
+)
+"ectx.ml" 45 1273 1288 "ectx.ml" 45 1273 1289
+type(
+  Expr.T.shape
+)
+ident(
+  def s "ectx.ml" 45 1273 1303 "ectx.ml" 45 1273 1336
+)
+"ectx.ml" 45 1273 1291 "ectx.ml" 45 1273 1292
+type(
+  Expr.T.kind
+)
+ident(
+  def k "ectx.ml" 45 1273 1303 "ectx.ml" 45 1273 1336
+)
+"ectx.ml" 45 1273 1294 "ectx.ml" 45 1273 1298
+type(
+  Expr.T.hdom
+)
+ident(
+  def hdom "ectx.ml" 45 1273 1303 "ectx.ml" 45 1273 1336
+)
+"ectx.ml" 45 1273 1277 "ectx.ml" 45 1273 1299
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"ectx.ml" 45 1273 1310 "ectx.ml" 45 1273 1312
+type(
+  string
+)
+ident(
+  int_ref id "ectx.ml" 43 1226 1246 "ectx.ml" 43 1226 1248
+)
+"ectx.ml" 45 1273 1313 "ectx.ml" 45 1273 1315
+type(
+  string -> Util.hint -> Util.hint
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"ectx.ml" 45 1273 1316 "ectx.ml" 45 1273 1318
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "ectx.ml" 45 1273 1284 "ectx.ml" 45 1273 1286
+)
+"ectx.ml" 45 1273 1310 "ectx.ml" 45 1273 1318
+type(
+  Util.hint
+)
+"ectx.ml" 45 1273 1320 "ectx.ml" 45 1273 1321
+type(
+  Expr.T.shape
+)
+ident(
+  int_ref s "ectx.ml" 45 1273 1288 "ectx.ml" 45 1273 1289
+)
+"ectx.ml" 45 1273 1323 "ectx.ml" 45 1273 1324
+type(
+  Expr.T.kind
+)
+ident(
+  int_ref k "ectx.ml" 45 1273 1291 "ectx.ml" 45 1273 1292
+)
+"ectx.ml" 45 1273 1326 "ectx.ml" 45 1273 1330
+type(
+  Expr.T.hdom
+)
+ident(
+  int_ref hdom "ectx.ml" 45 1273 1294 "ectx.ml" 45 1273 1298
+)
+"ectx.ml" 45 1273 1303 "ectx.ml" 45 1273 1331
+type(
+  Expr.T.hyp_
+)
+"ectx.ml" 45 1273 1332 "ectx.ml" 45 1273 1334
+type(
+  Expr.T.hyp_ -> Expr.T.hyp_ Property.wrapped -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"ectx.ml" 45 1273 1335 "ectx.ml" 45 1273 1336
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref h "ectx.ml" 43 1226 1249 "ectx.ml" 43 1226 1250
+)
+"ectx.ml" 45 1273 1303 "ectx.ml" 45 1273 1336
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"ectx.ml" 46 1337 1346 "ectx.ml" 46 1337 1348
+type(
+  Util.hint
+)
+ident(
+  def nm "ectx.ml" 46 1337 1352 "ectx.ml" 46 1337 1372
+)
+"ectx.ml" 46 1337 1341 "ectx.ml" 46 1337 1348
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"ectx.ml" 46 1337 1358 "ectx.ml" 46 1337 1360
+type(
+  string
+)
+ident(
+  int_ref id "ectx.ml" 43 1226 1246 "ectx.ml" 43 1226 1248
+)
+"ectx.ml" 46 1337 1361 "ectx.ml" 46 1337 1363
+type(
+  string -> Util.hint -> Util.hint
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"ectx.ml" 46 1337 1364 "ectx.ml" 46 1337 1366
+type(
+  Util.hint
+)
+ident(
+  int_ref nm "ectx.ml" 46 1337 1346 "ectx.ml" 46 1337 1348
+)
+"ectx.ml" 46 1337 1357 "ectx.ml" 46 1337 1367
+type(
+  Util.hint
+)
+"ectx.ml" 46 1337 1352 "ectx.ml" 46 1337 1367
+type(
+  Expr.T.hyp_
+)
+"ectx.ml" 46 1337 1368 "ectx.ml" 46 1337 1370
+type(
+  Expr.T.hyp_ -> Expr.T.hyp_ Property.wrapped -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"ectx.ml" 46 1337 1371 "ectx.ml" 46 1337 1372
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref h "ectx.ml" 43 1226 1249 "ectx.ml" 43 1226 1250
+)
+"ectx.ml" 46 1337 1352 "ectx.ml" 46 1337 1372
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"ectx.ml" 47 1373 1383 "ectx.ml" 47 1373 1386
+type(
+  Expr.T.defn
+)
+ident(
+  def def "ectx.ml" 48 1400 1406 "ectx.ml" 48 1400 1447
+)
+"ectx.ml" 47 1373 1388 "ectx.ml" 47 1373 1389
+type(
+  Expr.T.wheredef
+)
+ident(
+  def w "ectx.ml" 48 1400 1406 "ectx.ml" 48 1400 1447
+)
+"ectx.ml" 47 1373 1391 "ectx.ml" 47 1373 1392
+type(
+  Expr.T.visibility
+)
+ident(
+  def v "ectx.ml" 48 1400 1406 "ectx.ml" 48 1400 1447
+)
+"ectx.ml" 47 1373 1394 "ectx.ml" 47 1373 1395
+type(
+  Expr.T.export
+)
+ident(
+  def e "ectx.ml" 48 1400 1406 "ectx.ml" 48 1400 1447
+)
+"ectx.ml" 47 1373 1377 "ectx.ml" 47 1373 1396
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"ectx.ml" 48 1400 1412 "ectx.ml" 48 1400 1428
+type(
+  string -> Expr.T.defn -> Expr.T.defn
+)
+ident(
+  int_ref update_defn_name "ectx.ml" 36 957 961 "ectx.ml" 36 957 977
+)
+"ectx.ml" 48 1400 1429 "ectx.ml" 48 1400 1431
+type(
+  string
+)
+ident(
+  int_ref id "ectx.ml" 43 1226 1246 "ectx.ml" 43 1226 1248
+)
+"ectx.ml" 48 1400 1432 "ectx.ml" 48 1400 1435
+type(
+  Expr.T.defn
+)
+ident(
+  int_ref def "ectx.ml" 47 1373 1383 "ectx.ml" 47 1373 1386
+)
+"ectx.ml" 48 1400 1412 "ectx.ml" 48 1400 1435
+type(
+  Expr.T.defn
+)
+"ectx.ml" 48 1400 1436 "ectx.ml" 48 1400 1437
+type(
+  Expr.T.wheredef
+)
+ident(
+  int_ref w "ectx.ml" 47 1373 1388 "ectx.ml" 47 1373 1389
+)
+"ectx.ml" 48 1400 1438 "ectx.ml" 48 1400 1439
+type(
+  Expr.T.visibility
+)
+ident(
+  int_ref v "ectx.ml" 47 1373 1391 "ectx.ml" 47 1373 1392
+)
+"ectx.ml" 48 1400 1440 "ectx.ml" 48 1400 1441
+type(
+  Expr.T.export
+)
+ident(
+  int_ref e "ectx.ml" 47 1373 1394 "ectx.ml" 47 1373 1395
+)
+"ectx.ml" 48 1400 1406 "ectx.ml" 48 1400 1442
+type(
+  Expr.T.hyp_
+)
+"ectx.ml" 48 1400 1443 "ectx.ml" 48 1400 1445
+type(
+  Expr.T.hyp_ -> Expr.T.hyp_ Property.wrapped -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"ectx.ml" 48 1400 1446 "ectx.ml" 48 1400 1447
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref h "ectx.ml" 43 1226 1249 "ectx.ml" 43 1226 1250
+)
+"ectx.ml" 48 1400 1406 "ectx.ml" 48 1400 1447
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"ectx.ml" 49 1448 1457 "ectx.ml" 49 1448 1458
+type(
+  Expr.T.time
+)
+type(
+  Expr.T.visibility
+)
+type(
+  Expr.T.expr
+)
+"ectx.ml" 49 1448 1452 "ectx.ml" 49 1448 1458
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"ectx.ml" 51 1527 1533 "ectx.ml" 51 1527 1534
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref h "ectx.ml" 43 1226 1249 "ectx.ml" 43 1226 1250
+)
+"ectx.ml" 44 1253 1255 "ectx.ml" 51 1527 1534
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"ectx.ml" 53 1536 1540 "ectx.ml" 53 1536 1543
+type(
+  Expr.T.hyp Dq.dq * int Ctx.ctx ->
+  Expr.T.hyp -> (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp)
+)
+ident(
+  def adj "ectx.ml" 61 1842 1842 "ectx.ml" 0 0 -1
+)
+"ectx.ml" 53 1536 1545 "ectx.ml" 53 1536 1547
+type(
+  Expr.T.hyp Dq.dq
+)
+ident(
+  def dx "ectx.ml" 53 1536 1552 "ectx.ml" 59 1821 1840
+)
+"ectx.ml" 53 1536 1548 "ectx.ml" 53 1536 1550
+type(
+  int Ctx.ctx
+)
+ident(
+  def cx "ectx.ml" 53 1536 1552 "ectx.ml" 59 1821 1840
+)
+"ectx.ml" 53 1536 1544 "ectx.ml" 53 1536 1551
+type(
+  Expr.T.hyp Dq.dq * int Ctx.ctx
+)
+"ectx.ml" 53 1536 1552 "ectx.ml" 53 1536 1553
+type(
+  Expr.T.hyp
+)
+ident(
+  def h "ectx.ml" 54 1556 1558 "ectx.ml" 59 1821 1840
+)
+"ectx.ml" 54 1556 1562 "ectx.ml" 54 1556 1564
+type(
+  string
+)
+ident(
+  def id "ectx.ml" 55 1581 1583 "ectx.ml" 59 1821 1840
+)
+"ectx.ml" 54 1556 1567 "ectx.ml" 54 1556 1575
+type(
+  Expr.T.hyp -> string
+)
+ident(
+  int_ref Expr.T.hyp_name "expr.mli" 335 8607 8609 "expr.mli" 335 8607 8636
+)
+"ectx.ml" 54 1556 1576 "ectx.ml" 54 1556 1577
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "ectx.ml" 53 1536 1552 "ectx.ml" 53 1536 1553
+)
+"ectx.ml" 54 1556 1567 "ectx.ml" 54 1556 1577
+type(
+  string
+)
+"ectx.ml" 55 1581 1587 "ectx.ml" 55 1581 1589
+type(
+  int Ctx.ctx
+)
+ident(
+  def cx "ectx.ml" 56 1610 1612 "ectx.ml" 59 1821 1840
+)
+"ectx.ml" 55 1581 1592 "ectx.ml" 55 1581 1600
+type(
+  int Ctx.ctx -> string -> int Ctx.ctx
+)
+ident(
+  int_ref Ctx.push "ctx.mli" 29 587 587 "ctx.mli" 29 587 625
+)
+"ectx.ml" 55 1581 1601 "ectx.ml" 55 1581 1603
+type(
+  int Ctx.ctx
+)
+ident(
+  int_ref cx "ectx.ml" 53 1536 1548 "ectx.ml" 53 1536 1550
+)
+"ectx.ml" 55 1581 1604 "ectx.ml" 55 1581 1606
+type(
+  string
+)
+ident(
+  int_ref id "ectx.ml" 54 1556 1562 "ectx.ml" 54 1556 1564
+)
+"ectx.ml" 55 1581 1592 "ectx.ml" 55 1581 1606
+type(
+  int Ctx.ctx
+)
+"ectx.ml" 56 1610 1616 "ectx.ml" 56 1610 1618
+type(
+  string
+)
+ident(
+  def id "ectx.ml" 57 1760 1762 "ectx.ml" 59 1821 1840
+)
+"ectx.ml" 56 1610 1621 "ectx.ml" 56 1610 1638
+type(
+  string -> string
+)
+ident(
+  int_ref Tla_parser.pickle "tla_parser.mli" 105 2673 2673 "tla_parser.mli" 105 2673 2701
+)
+"ectx.ml" 56 1610 1640 "ectx.ml" 56 1610 1659
+type(
+  Ctx.ident -> string
+)
+ident(
+  int_ref Ctx.string_of_ident "ctx.mli" 39 813 813 "ctx.mli" 39 813 849
+)
+"ectx.ml" 56 1610 1661 "ectx.ml" 56 1610 1664
+type(
+  Ctx.ident * int option -> Ctx.ident
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"ectx.ml" 56 1610 1666 "ectx.ml" 56 1610 1673
+type(
+  int Ctx.ctx -> Ctx.ident * int option
+)
+ident(
+  int_ref Ctx.top "ctx.mli" 11 237 237 "ctx.mli" 11 237 273
+)
+"ectx.ml" 56 1610 1674 "ectx.ml" 56 1610 1676
+type(
+  int Ctx.ctx
+)
+ident(
+  int_ref cx "ectx.ml" 55 1581 1587 "ectx.ml" 55 1581 1589
+)
+"ectx.ml" 56 1610 1665 "ectx.ml" 56 1610 1677
+type(
+  Ctx.ident * int option
+)
+"ectx.ml" 56 1610 1660 "ectx.ml" 56 1610 1678
+type(
+  Ctx.ident
+)
+"ectx.ml" 56 1610 1639 "ectx.ml" 56 1610 1679
+type(
+  string
+)
+"ectx.ml" 56 1610 1621 "ectx.ml" 56 1610 1679
+type(
+  string
+)
+"ectx.ml" 57 1760 1766 "ectx.ml" 57 1760 1767
+type(
+  Expr.T.hyp
+)
+ident(
+  def h "ectx.ml" 58 1794 1796 "ectx.ml" 59 1821 1840
+)
+"ectx.ml" 57 1760 1770 "ectx.ml" 57 1760 1785
+type(
+  string -> Expr.T.hyp -> Expr.T.hyp
+)
+ident(
+  int_ref update_hyp_name "ectx.ml" 43 1226 1230 "ectx.ml" 43 1226 1245
+)
+"ectx.ml" 57 1760 1786 "ectx.ml" 57 1760 1788
+type(
+  string
+)
+ident(
+  int_ref id "ectx.ml" 56 1610 1616 "ectx.ml" 56 1610 1618
+)
+"ectx.ml" 57 1760 1789 "ectx.ml" 57 1760 1790
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "ectx.ml" 53 1536 1552 "ectx.ml" 53 1536 1553
+)
+"ectx.ml" 57 1760 1770 "ectx.ml" 57 1760 1790
+type(
+  Expr.T.hyp
+)
+"ectx.ml" 58 1794 1800 "ectx.ml" 58 1794 1802
+type(
+  Expr.T.hyp Dq.dq
+)
+ident(
+  def dx "ectx.ml" 59 1821 1823 "ectx.ml" 59 1821 1840
+)
+"ectx.ml" 58 1794 1805 "ectx.ml" 58 1794 1812
+type(
+  Expr.T.hyp Dq.dq -> Expr.T.hyp -> Expr.T.hyp Dq.dq
+)
+ident(
+  int_ref Dq.snoc "deque.mli" 13 220 220 "deque.mli" 13 220 252
+)
+"ectx.ml" 58 1794 1813 "ectx.ml" 58 1794 1815
+type(
+  Expr.T.hyp Dq.dq
+)
+ident(
+  int_ref dx "ectx.ml" 53 1536 1545 "ectx.ml" 53 1536 1547
+)
+"ectx.ml" 58 1794 1816 "ectx.ml" 58 1794 1817
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "ectx.ml" 57 1760 1766 "ectx.ml" 57 1760 1767
+)
+"ectx.ml" 58 1794 1805 "ectx.ml" 58 1794 1817
+type(
+  Expr.T.hyp Dq.dq
+)
+"ectx.ml" 59 1821 1825 "ectx.ml" 59 1821 1827
+type(
+  Expr.T.hyp Dq.dq
+)
+ident(
+  int_ref dx "ectx.ml" 58 1794 1800 "ectx.ml" 58 1794 1802
+)
+"ectx.ml" 59 1821 1828 "ectx.ml" 59 1821 1830
+type(
+  int Ctx.ctx
+)
+ident(
+  int_ref cx "ectx.ml" 55 1581 1587 "ectx.ml" 55 1581 1589
+)
+"ectx.ml" 59 1821 1824 "ectx.ml" 59 1821 1831
+type(
+  Expr.T.hyp Dq.dq * int Ctx.ctx
+)
+"ectx.ml" 59 1821 1834 "ectx.ml" 59 1821 1836
+type(
+  string
+)
+ident(
+  int_ref id "ectx.ml" 56 1610 1616 "ectx.ml" 56 1610 1618
+)
+"ectx.ml" 59 1821 1837 "ectx.ml" 59 1821 1838
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "ectx.ml" 57 1760 1766 "ectx.ml" 57 1760 1767
+)
+"ectx.ml" 59 1821 1833 "ectx.ml" 59 1821 1839
+type(
+  string * Expr.T.hyp
+)
+"ectx.ml" 59 1821 1823 "ectx.ml" 59 1821 1840
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp)
+)
+"ectx.ml" 58 1794 1796 "ectx.ml" 59 1821 1840
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp)
+)
+"ectx.ml" 57 1760 1762 "ectx.ml" 59 1821 1840
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp)
+)
+"ectx.ml" 56 1610 1612 "ectx.ml" 59 1821 1840
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp)
+)
+"ectx.ml" 55 1581 1583 "ectx.ml" 59 1821 1840
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp)
+)
+"ectx.ml" 54 1556 1558 "ectx.ml" 59 1821 1840
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp)
+)
+"ectx.ml" 61 1842 1850 "ectx.ml" 61 1842 1854
+type(
+  Expr.T.hyp Dq.dq * int Ctx.ctx ->
+  Expr.T.hyp list ->
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp) list
+)
+ident(
+  def adjs "ectx.ml" 61 1842 1842 "ectx.ml" 0 0 -1
+)
+"ectx.ml" 61 1842 1855 "ectx.ml" 61 1842 1858
+type(
+  Expr.T.hyp Dq.dq * int Ctx.ctx
+)
+ident(
+  def ecx "ectx.ml" 61 1842 1861 "ectx.ml" 66 1972 1994
+)
+"ectx.ml" 62 1870 1874 "ectx.ml" 62 1870 1876
+type(
+  Expr.T.hyp list
+)
+"ectx.ml" 62 1870 1881 "ectx.ml" 62 1870 1884
+type(
+  Expr.T.hyp Dq.dq * int Ctx.ctx
+)
+ident(
+  int_ref ecx "ectx.ml" 61 1842 1855 "ectx.ml" 61 1842 1858
+)
+"ectx.ml" 62 1870 1886 "ectx.ml" 62 1870 1888
+type(
+  (string * Expr.T.hyp) list
+)
+"ectx.ml" 62 1870 1880 "ectx.ml" 62 1870 1889
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp) list
+)
+"ectx.ml" 63 1890 1894 "ectx.ml" 63 1890 1895
+type(
+  Expr.T.hyp
+)
+ident(
+  def h "ectx.ml" 64 1905 1911 "ectx.ml" 66 1972 1994
+)
+"ectx.ml" 63 1890 1899 "ectx.ml" 63 1890 1901
+type(
+  Expr.T.hyp list
+)
+ident(
+  def hs "ectx.ml" 64 1905 1911 "ectx.ml" 66 1972 1994
+)
+"ectx.ml" 63 1890 1894 "ectx.ml" 63 1890 1901
+type(
+  Expr.T.hyp list
+)
+"ectx.ml" 64 1905 1915 "ectx.ml" 64 1905 1918
+type(
+  Expr.T.hyp Dq.dq * int Ctx.ctx
+)
+ident(
+  def ecx "ectx.ml" 65 1937 1943 "ectx.ml" 66 1972 1994
+)
+"ectx.ml" 64 1905 1919 "ectx.ml" 64 1905 1921
+type(
+  string * Expr.T.hyp
+)
+ident(
+  def vh "ectx.ml" 65 1937 1943 "ectx.ml" 66 1972 1994
+)
+"ectx.ml" 64 1905 1915 "ectx.ml" 64 1905 1921
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp)
+)
+"ectx.ml" 64 1905 1924 "ectx.ml" 64 1905 1927
+type(
+  Expr.T.hyp Dq.dq * int Ctx.ctx ->
+  Expr.T.hyp -> (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp)
+)
+ident(
+  int_ref adj "ectx.ml" 53 1536 1540 "ectx.ml" 53 1536 1543
+)
+"ectx.ml" 64 1905 1928 "ectx.ml" 64 1905 1931
+type(
+  Expr.T.hyp Dq.dq * int Ctx.ctx
+)
+ident(
+  int_ref ecx "ectx.ml" 61 1842 1855 "ectx.ml" 61 1842 1858
+)
+"ectx.ml" 64 1905 1932 "ectx.ml" 64 1905 1933
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "ectx.ml" 63 1890 1894 "ectx.ml" 63 1890 1895
+)
+"ectx.ml" 64 1905 1924 "ectx.ml" 64 1905 1933
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp)
+)
+"ectx.ml" 65 1937 1947 "ectx.ml" 65 1937 1950
+type(
+  Expr.T.hyp Dq.dq * int Ctx.ctx
+)
+ident(
+  def ecx "ectx.ml" 66 1972 1978 "ectx.ml" 66 1972 1994
+)
+"ectx.ml" 65 1937 1951 "ectx.ml" 65 1937 1954
+type(
+  (string * Expr.T.hyp) list
+)
+ident(
+  def vhs "ectx.ml" 66 1972 1978 "ectx.ml" 66 1972 1994
+)
+"ectx.ml" 65 1937 1947 "ectx.ml" 65 1937 1954
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp) list
+)
+"ectx.ml" 65 1937 1957 "ectx.ml" 65 1937 1961
+type(
+  Expr.T.hyp Dq.dq * int Ctx.ctx ->
+  Expr.T.hyp list ->
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp) list
+)
+ident(
+  int_ref adjs "ectx.ml" 61 1842 1850 "ectx.ml" 61 1842 1854
+)
+"ectx.ml" 65 1937 1962 "ectx.ml" 65 1937 1965
+type(
+  Expr.T.hyp Dq.dq * int Ctx.ctx
+)
+ident(
+  int_ref ecx "ectx.ml" 64 1905 1915 "ectx.ml" 64 1905 1918
+)
+"ectx.ml" 65 1937 1966 "ectx.ml" 65 1937 1968
+type(
+  Expr.T.hyp list
+)
+ident(
+  int_ref hs "ectx.ml" 63 1890 1899 "ectx.ml" 63 1890 1901
+)
+"ectx.ml" 65 1937 1957 "ectx.ml" 65 1937 1968
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp) list
+)
+"ectx.ml" 66 1972 1979 "ectx.ml" 66 1972 1982
+type(
+  Expr.T.hyp Dq.dq * int Ctx.ctx
+)
+ident(
+  int_ref ecx "ectx.ml" 65 1937 1947 "ectx.ml" 65 1937 1950
+)
+"ectx.ml" 66 1972 1984 "ectx.ml" 66 1972 1986
+type(
+  string * Expr.T.hyp
+)
+ident(
+  int_ref vh "ectx.ml" 64 1905 1919 "ectx.ml" 64 1905 1921
+)
+"ectx.ml" 66 1972 1990 "ectx.ml" 66 1972 1993
+type(
+  (string * Expr.T.hyp) list
+)
+ident(
+  int_ref vhs "ectx.ml" 65 1937 1951 "ectx.ml" 65 1937 1954
+)
+"ectx.ml" 66 1972 1984 "ectx.ml" 66 1972 1993
+type(
+  (string * Expr.T.hyp) list
+)
+"ectx.ml" 66 1972 1978 "ectx.ml" 66 1972 1994
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp) list
+)
+"ectx.ml" 65 1937 1943 "ectx.ml" 66 1972 1994
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp) list
+)
+"ectx.ml" 64 1905 1911 "ectx.ml" 66 1972 1994
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp) list
+)
+"ectx.ml" 61 1842 1861 "ectx.ml" 66 1972 1994
+type(
+  Expr.T.hyp list ->
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp) list
+)
+"ectx.ml" 71 2095 2099 "ectx.ml" 71 2095 2106
+type(
+  Expr.T.hyp_ Property.wrapped list -> Expr.T.hyp_ Property.wrapped list
+)
+ident(
+  def hack_bs "ectx.ml" 77 2236 2236 "ectx.ml" 0 0 -1
+)
+"ectx.ml" 71 2095 2107 "ectx.ml" 71 2095 2109
+type(
+  Expr.T.hyp_ Property.wrapped list
+)
+ident(
+  def hs "ectx.ml" 71 2095 2112 "ectx.ml" 75 2226 2234
+)
+"ectx.ml" 71 2095 2112 "ectx.ml" 71 2095 2120
+type(
+  (Expr.T.hyp_ Property.wrapped -> Expr.T.hyp_ Property.wrapped) ->
+  Expr.T.hyp_ Property.wrapped list -> Expr.T.hyp_ Property.wrapped list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"ectx.ml" 71 2095 2131 "ectx.ml" 71 2095 2132
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  def h "ectx.ml" 72 2136 2138 "ectx.ml" 74 2215 2225
+)
+"ectx.ml" 72 2136 2144 "ectx.ml" 72 2136 2145
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref h "ectx.ml" 71 2095 2131 "ectx.ml" 71 2095 2132
+)
+"ectx.ml" 72 2136 2144 "ectx.ml" 72 2136 2150
+type(
+  Expr.T.hyp_
+)
+"ectx.ml" 73 2156 2167 "ectx.ml" 73 2156 2168
+type(
+  Util.hint
+)
+ident(
+  def v "ectx.ml" 73 2156 2182 "ectx.ml" 73 2156 2214
+)
+"ectx.ml" 73 2156 2170 "ectx.ml" 73 2156 2171
+type(
+  Expr.T.shape
+)
+ident(
+  def s "ectx.ml" 73 2156 2182 "ectx.ml" 73 2156 2214
+)
+"ectx.ml" 73 2156 2173 "ectx.ml" 73 2156 2174
+type(
+  Expr.T.kind
+)
+ident(
+  def k "ectx.ml" 73 2156 2182 "ectx.ml" 73 2156 2214
+)
+"ectx.ml" 73 2156 2176 "ectx.ml" 73 2156 2177
+type(
+  Expr.T.hdom
+)
+ident(
+  def d "ectx.ml" 73 2156 2182 "ectx.ml" 73 2156 2214
+)
+"ectx.ml" 73 2156 2160 "ectx.ml" 73 2156 2178
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"ectx.ml" 73 2156 2189 "ectx.ml" 73 2156 2190
+type(
+  Util.hint
+)
+ident(
+  int_ref v "ectx.ml" 73 2156 2167 "ectx.ml" 73 2156 2168
+)
+"ectx.ml" 73 2156 2201 "ectx.ml" 73 2156 2202
+type(
+  int
+)
+"ectx.ml" 73 2156 2192 "ectx.ml" 73 2156 2202
+type(
+  Expr.T.shape
+)
+"ectx.ml" 73 2156 2204 "ectx.ml" 73 2156 2205
+type(
+  Expr.T.kind
+)
+ident(
+  int_ref k "ectx.ml" 73 2156 2173 "ectx.ml" 73 2156 2174
+)
+"ectx.ml" 73 2156 2207 "ectx.ml" 73 2156 2208
+type(
+  Expr.T.hdom
+)
+ident(
+  int_ref d "ectx.ml" 73 2156 2176 "ectx.ml" 73 2156 2177
+)
+"ectx.ml" 73 2156 2182 "ectx.ml" 73 2156 2209
+type(
+  Expr.T.hyp_
+)
+"ectx.ml" 73 2156 2210 "ectx.ml" 73 2156 2212
+type(
+  Expr.T.hyp_ -> Expr.T.hyp_ Property.wrapped -> Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref Property.( @@ ) "property.mli" 101 3367 3367 "property.mli" 101 3367 3410
+)
+"ectx.ml" 73 2156 2213 "ectx.ml" 73 2156 2214
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref h "ectx.ml" 71 2095 2131 "ectx.ml" 71 2095 2132
+)
+"ectx.ml" 73 2156 2182 "ectx.ml" 73 2156 2214
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"ectx.ml" 74 2215 2219 "ectx.ml" 74 2215 2220
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"ectx.ml" 74 2215 2224 "ectx.ml" 74 2215 2225
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+ident(
+  int_ref h "ectx.ml" 71 2095 2131 "ectx.ml" 71 2095 2132
+)
+"ectx.ml" 72 2136 2138 "ectx.ml" 74 2215 2225
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"ectx.ml" 71 2095 2121 "ectx.ml" 75 2226 2231
+type(
+  Expr.T.hyp_ Property.wrapped -> Expr.T.hyp_ Property.wrapped
+)
+"ectx.ml" 75 2226 2232 "ectx.ml" 75 2226 2234
+type(
+  Expr.T.hyp_ Property.wrapped list
+)
+ident(
+  int_ref hs "ectx.ml" 71 2095 2107 "ectx.ml" 71 2095 2109
+)
+"ectx.ml" 71 2095 2112 "ectx.ml" 75 2226 2234
+type(
+  Expr.T.hyp_ Property.wrapped list
+)
+"ectx.ml" 77 2236 2240 "ectx.ml" 77 2236 2254
+type(
+  Expr.T.hyp_ Property.wrapped option -> bool
+)
+ident(
+  def is_bounded_hyp "ectx.ml" 82 2383 2383 "ectx.ml" 0 0 -1
+)
+"ectx.ml" 78 2266 2290 "ectx.ml" 78 2266 2291
+type(
+  Util.hint
+)
+"ectx.ml" 78 2266 2302 "ectx.ml" 78 2266 2303
+type(
+  int
+)
+"ectx.ml" 78 2266 2293 "ectx.ml" 78 2266 2303
+type(
+  Expr.T.shape
+)
+"ectx.ml" 78 2266 2305 "ectx.ml" 78 2266 2306
+type(
+  Expr.T.kind
+)
+"ectx.ml" 78 2266 2308 "ectx.ml" 78 2266 2317
+type(
+  Expr.T.hdom
+)
+"ectx.ml" 78 2266 2283 "ectx.ml" 78 2266 2318
+type(
+  Expr.T.hyp_
+)
+"ectx.ml" 78 2266 2275 "ectx.ml" 78 2266 2319
+type(
+  Expr.T.hyp_ Property.wrapped
+)
+"ectx.ml" 78 2266 2270 "ectx.ml" 78 2266 2319
+type(
+  Expr.T.hyp_ Property.wrapped option
+)
+"ectx.ml" 78 2266 2323 "ectx.ml" 78 2266 2327
+type(
+  bool
+)
+"ectx.ml" 80 2367 2371 "ectx.ml" 80 2367 2372
+type(
+  Expr.T.hyp_ Property.wrapped option
+)
+"ectx.ml" 80 2367 2376 "ectx.ml" 80 2367 2381
+type(
+  bool
+)
+"ectx.ml" 77 2236 2257 "ectx.ml" 80 2367 2381
+type(
+  Expr.T.hyp_ Property.wrapped option -> bool
+)
+"ectx.ml" 82 2383 2387 "ectx.ml" 82 2383 2397
+type(
+  Expr.T.hyp_ Property.wrapped Dq.dq -> int -> bool
+)
+ident(
+  def is_bounded "ectx.ml" 90 2548 2548 "ectx.ml" 0 0 -1
+)
+"ectx.ml" 82 2383 2398 "ectx.ml" 82 2383 2400
+type(
+  Expr.T.hyp_ Property.wrapped Dq.dq
+)
+ident(
+  def dx "ectx.ml" 82 2383 2401 "ectx.ml" 84 2452 2470
+)
+"ectx.ml" 82 2383 2401 "ectx.ml" 82 2383 2402
+type(
+  int
+)
+ident(
+  def n "ectx.ml" 83 2405 2407 "ectx.ml" 84 2452 2470
+)
+"ectx.ml" 83 2405 2411 "ectx.ml" 83 2405 2412
+type(
+  Expr.T.hyp_ Property.wrapped option
+)
+ident(
+  def h "ectx.ml" 84 2452 2454 "ectx.ml" 84 2452 2470
+)
+"ectx.ml" 83 2405 2415 "ectx.ml" 83 2405 2421
+type(
+  ?backwards:bool ->
+  Expr.T.hyp_ Property.wrapped Dq.dq ->
+  int -> Expr.T.hyp_ Property.wrapped option
+)
+ident(
+  int_ref Dq.nth "deque.mli" 18 388 388 "deque.mli" 18 388 444
+)
+"ectx.ml" 83 2405 2433 "ectx.ml" 83 2405 2437
+type(
+  bool
+)
+type(
+  bool option
+)
+"ectx.ml" 83 2405 2438 "ectx.ml" 83 2405 2440
+type(
+  Expr.T.hyp_ Property.wrapped Dq.dq
+)
+ident(
+  int_ref dx "ectx.ml" 82 2383 2398 "ectx.ml" 82 2383 2400
+)
+"ectx.ml" 83 2405 2442 "ectx.ml" 83 2405 2443
+type(
+  int
+)
+ident(
+  int_ref n "ectx.ml" 82 2383 2401 "ectx.ml" 82 2383 2402
+)
+"ectx.ml" 83 2405 2444 "ectx.ml" 83 2405 2445
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 352 13775 13775 "stdlib.mli" 352 13775 13821
+)
+"ectx.ml" 83 2405 2446 "ectx.ml" 83 2405 2447
+type(
+  int
+)
+"ectx.ml" 83 2405 2441 "ectx.ml" 83 2405 2448
+type(
+  int
+)
+"ectx.ml" 83 2405 2415 "ectx.ml" 83 2405 2448
+type(
+  Expr.T.hyp_ Property.wrapped option
+)
+"ectx.ml" 84 2452 2454 "ectx.ml" 84 2452 2468
+type(
+  Expr.T.hyp_ Property.wrapped option -> bool
+)
+ident(
+  int_ref is_bounded_hyp "ectx.ml" 77 2236 2240 "ectx.ml" 77 2236 2254
+)
+"ectx.ml" 84 2452 2469 "ectx.ml" 84 2452 2470
+type(
+  Expr.T.hyp_ Property.wrapped option
+)
+ident(
+  int_ref h "ectx.ml" 83 2405 2411 "ectx.ml" 83 2405 2412
+)
+"ectx.ml" 84 2452 2454 "ectx.ml" 84 2452 2470
+type(
+  bool
+)
+"ectx.ml" 83 2405 2407 "ectx.ml" 84 2452 2470
+type(
+  bool
+)
+"ectx.ml" 90 2548 2552 "ectx.ml" 90 2548 2558
+type(
+  Expr.T.hyp Dq.dq * int Ctx.ctx ->
+  Expr.T.bounds ->
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Axioms.smtsort) list *
+  Expr.T.hyp list
+)
+ident(
+  def adj_bs "ectx.ml" 108 3148 3148 "ectx.ml" 0 0 -1
+)
+"ectx.ml" 90 2548 2559 "ectx.ml" 90 2548 2562
+type(
+  Expr.T.hyp Dq.dq * int Ctx.ctx
+)
+ident(
+  def ecx "ectx.ml" 90 2548 2563 "ectx.ml" 106 3128 3146
+)
+"ectx.ml" 90 2548 2563 "ectx.ml" 90 2548 2565
+type(
+  Expr.T.bounds
+)
+ident(
+  def bs "ectx.ml" 91 2568 2570 "ectx.ml" 106 3128 3146
+)
+"ectx.ml" 91 2568 2574 "ectx.ml" 91 2568 2576
+type(
+  Expr.T.hyp list
+)
+ident(
+  def hs "ectx.ml" 92 2630 2632 "ectx.ml" 106 3128 3146
+)
+"ectx.ml" 91 2568 2579 "ectx.ml" 91 2568 2612
+type(
+  Expr.T.bounds -> Expr.T.hyp list
+)
+ident(
+  int_ref Expr.Visit.hyps_of_bounds_unditto "expr.mli" 532 13213 13215 "expr.mli" 532 13213 13261
+)
+"ectx.ml" 91 2568 2613 "ectx.ml" 91 2568 2615
+type(
+  Expr.T.bounds
+)
+ident(
+  int_ref bs "ectx.ml" 90 2548 2563 "ectx.ml" 90 2548 2565
+)
+"ectx.ml" 91 2568 2579 "ectx.ml" 91 2568 2615
+type(
+  Expr.T.hyp list
+)
+"ectx.ml" 91 2568 2619 "ectx.ml" 91 2568 2626
+type(
+  Expr.T.hyp list -> Expr.T.hyp list
+)
+ident(
+  int_ref hack_bs "ectx.ml" 71 2095 2099 "ectx.ml" 71 2095 2106
+)
+"ectx.ml" 91 2568 2579 "ectx.ml" 91 2568 2626
+type(
+  Expr.T.hyp list
+)
+"ectx.ml" 92 2630 2637 "ectx.ml" 92 2630 2639
+type(
+  Expr.T.hyp Dq.dq
+)
+ident(
+  def dx "ectx.ml" 93 2665 2667 "ectx.ml" 106 3128 3146
+)
+"ectx.ml" 92 2630 2640 "ectx.ml" 92 2630 2642
+type(
+  int Ctx.ctx
+)
+ident(
+  def cx "ectx.ml" 93 2665 2667 "ectx.ml" 106 3128 3146
+)
+"ectx.ml" 92 2630 2636 "ectx.ml" 92 2630 2643
+type(
+  Expr.T.hyp Dq.dq * int Ctx.ctx
+)
+"ectx.ml" 92 2630 2644 "ectx.ml" 92 2630 2647
+type(
+  (string * Expr.T.hyp) list
+)
+ident(
+  def vhs "ectx.ml" 93 2665 2667 "ectx.ml" 106 3128 3146
+)
+"ectx.ml" 92 2630 2636 "ectx.ml" 92 2630 2647
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp) list
+)
+"ectx.ml" 92 2630 2650 "ectx.ml" 92 2630 2654
+type(
+  Expr.T.hyp Dq.dq * int Ctx.ctx ->
+  Expr.T.hyp list ->
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp) list
+)
+ident(
+  int_ref adjs "ectx.ml" 61 1842 1850 "ectx.ml" 61 1842 1854
+)
+"ectx.ml" 92 2630 2655 "ectx.ml" 92 2630 2658
+type(
+  Expr.T.hyp Dq.dq * int Ctx.ctx
+)
+ident(
+  int_ref ecx "ectx.ml" 90 2548 2559 "ectx.ml" 90 2548 2562
+)
+"ectx.ml" 92 2630 2659 "ectx.ml" 92 2630 2661
+type(
+  Expr.T.hyp list
+)
+ident(
+  int_ref hs "ectx.ml" 91 2568 2574 "ectx.ml" 91 2568 2576
+)
+"ectx.ml" 92 2630 2650 "ectx.ml" 92 2630 2661
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp) list
+)
+"ectx.ml" 93 2665 2671 "ectx.ml" 93 2665 2673
+type(
+  string list
+)
+ident(
+  def vs "ectx.ml" 94 2697 2699 "ectx.ml" 106 3128 3146
+)
+"ectx.ml" 93 2665 2674 "ectx.ml" 93 2665 2676
+type(
+  Expr.T.hyp list
+)
+ident(
+  def hs "ectx.ml" 94 2697 2699 "ectx.ml" 106 3128 3146
+)
+"ectx.ml" 93 2665 2671 "ectx.ml" 93 2665 2676
+type(
+  string list * Expr.T.hyp list
+)
+"ectx.ml" 93 2665 2679 "ectx.ml" 93 2665 2689
+type(
+  (string * Expr.T.hyp) list -> string list * Expr.T.hyp list
+)
+ident(
+  int_ref Ext.List.split "ext.mli" 42 1822 1824 "ext.mli" 42 1822 1871
+)
+"ectx.ml" 93 2665 2690 "ectx.ml" 93 2665 2693
+type(
+  (string * Expr.T.hyp) list
+)
+ident(
+  int_ref vhs "ectx.ml" 92 2630 2644 "ectx.ml" 92 2630 2647
+)
+"ectx.ml" 93 2665 2679 "ectx.ml" 93 2665 2693
+type(
+  string list * Expr.T.hyp list
+)
+"ectx.ml" 94 2697 2703 "ectx.ml" 94 2697 2705
+type(
+  string list
+)
+ident(
+  def vs "ectx.ml" 95 2757 2759 "ectx.ml" 106 3128 3146
+)
+"ectx.ml" 94 2697 2708 "ectx.ml" 94 2697 2716
+type(
+  (string -> string) -> string list -> string list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"ectx.ml" 94 2697 2718 "ectx.ml" 94 2697 2744
+type(
+  bool -> string -> string
+)
+ident(
+  int_ref Smtcommons.turn_first_char "smtcommons.mli" 58 1702 1702 "smtcommons.mli" 58 1702 1748
+)
+"ectx.ml" 94 2697 2745 "ectx.ml" 94 2697 2749
+type(
+  bool
+)
+"ectx.ml" 94 2697 2717 "ectx.ml" 94 2697 2750
+type(
+  string -> string
+)
+"ectx.ml" 94 2697 2751 "ectx.ml" 94 2697 2753
+type(
+  string list
+)
+ident(
+  int_ref vs "ectx.ml" 93 2665 2671 "ectx.ml" 93 2665 2673
+)
+"ectx.ml" 94 2697 2708 "ectx.ml" 94 2697 2753
+type(
+  string list
+)
+"ectx.ml" 95 2757 2763 "ectx.ml" 95 2757 2765
+type(
+  Axioms.smtsort list
+)
+ident(
+  def ss "ectx.ml" 105 3094 3096 "ectx.ml" 106 3128 3146
+)
+"ectx.ml" 95 2757 2768 "ectx.ml" 95 2757 2776
+type(
+  (Expr.T.hyp -> Axioms.smtsort) -> Expr.T.hyp list -> Axioms.smtsort list
+)
+ident(
+  int_ref Ext.List.map "ext.mli" 17 469 471 "ext.mli" 17 469 513
+)
+"ectx.ml" 95 2757 2787 "ectx.ml" 95 2757 2788
+type(
+  Expr.T.hyp
+)
+ident(
+  def h "ectx.ml" 96 2792 2796 "ectx.ml" 103 3060 3079
+)
+"ectx.ml" 96 2792 2802 "ectx.ml" 96 2792 2814
+type(
+  Expr.T.hyp -> Typ_t.t option
+)
+ident(
+  int_ref Typ_t.optype "typ_t.mli" 46 991 991 "typ_t.mli" 47 1003 1038
+)
+"ectx.ml" 96 2792 2815 "ectx.ml" 96 2792 2816
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "ectx.ml" 95 2757 2787 "ectx.ml" 95 2757 2788
+)
+"ectx.ml" 96 2792 2802 "ectx.ml" 96 2792 2816
+type(
+  Typ_t.t option
+)
+"ectx.ml" 97 2822 2833 "ectx.ml" 97 2822 2838
+type(
+  Typ_t.t
+)
+"ectx.ml" 97 2822 2828 "ectx.ml" 97 2822 2838
+type(
+  Typ_t.t option
+)
+type(
+  Typ_t.t option
+)
+"ectx.ml" 97 2822 2842 "ectx.ml" 97 2822 2853
+type(
+  Axioms.smtsort
+)
+"ectx.ml" 98 2854 2865 "ectx.ml" 98 2854 2871
+type(
+  Typ_t.t
+)
+"ectx.ml" 98 2854 2860 "ectx.ml" 98 2854 2871
+type(
+  Typ_t.t option
+)
+type(
+  Typ_t.t option
+)
+"ectx.ml" 98 2854 2875 "ectx.ml" 98 2854 2887
+type(
+  Axioms.smtsort
+)
+"ectx.ml" 99 2888 2907 "ectx.ml" 99 2888 2908
+type(
+  string
+)
+"ectx.ml" 99 2888 2909 "ectx.ml" 99 2888 2914
+type(
+  T.t
+)
+"ectx.ml" 99 2888 2915 "ectx.ml" 99 2888 2916
+type(
+  T.tref
+)
+"ectx.ml" 99 2888 2899 "ectx.ml" 99 2888 2918
+type(
+  Typ_t.t
+)
+"ectx.ml" 99 2888 2894 "ectx.ml" 99 2888 2918
+type(
+  Typ_t.t option
+)
+type(
+  Typ_t.t option
+)
+"ectx.ml" 99 2888 2922 "ectx.ml" 99 2888 2933
+type(
+  Axioms.smtsort
+)
+"ectx.ml" 100 2934 2953 "ectx.ml" 100 2934 2954
+type(
+  string
+)
+"ectx.ml" 100 2934 2955 "ectx.ml" 100 2934 2961
+type(
+  T.t
+)
+"ectx.ml" 100 2934 2962 "ectx.ml" 100 2934 2963
+type(
+  T.tref
+)
+"ectx.ml" 100 2934 2945 "ectx.ml" 100 2934 2965
+type(
+  Typ_t.t
+)
+"ectx.ml" 100 2934 2940 "ectx.ml" 100 2934 2965
+type(
+  Typ_t.t option
+)
+type(
+  Typ_t.t option
+)
+"ectx.ml" 100 2934 2969 "ectx.ml" 100 2934 2981
+type(
+  Axioms.smtsort
+)
+"ectx.ml" 101 2982 2993 "ectx.ml" 101 2982 2998
+type(
+  Typ_t.t
+)
+"ectx.ml" 101 2982 2988 "ectx.ml" 101 2982 2998
+type(
+  Typ_t.t option
+)
+type(
+  Typ_t.t option
+)
+"ectx.ml" 101 2982 3002 "ectx.ml" 101 2982 3013
+type(
+  Axioms.smtsort
+)
+"ectx.ml" 102 3014 3033 "ectx.ml" 102 3014 3034
+type(
+  string
+)
+"ectx.ml" 102 3014 3035 "ectx.ml" 102 3014 3040
+type(
+  T.t
+)
+"ectx.ml" 102 3014 3041 "ectx.ml" 102 3014 3042
+type(
+  T.tref
+)
+"ectx.ml" 102 3014 3025 "ectx.ml" 102 3014 3044
+type(
+  Typ_t.t
+)
+"ectx.ml" 102 3014 3020 "ectx.ml" 102 3014 3044
+type(
+  Typ_t.t option
+)
+type(
+  Typ_t.t option
+)
+"ectx.ml" 102 3014 3048 "ectx.ml" 102 3014 3059
+type(
+  Axioms.smtsort
+)
+"ectx.ml" 103 3060 3066 "ectx.ml" 103 3060 3067
+type(
+  Typ_t.t option
+)
+type(
+  Typ_t.t option
+)
+"ectx.ml" 103 3060 3071 "ectx.ml" 103 3060 3079
+type(
+  Axioms.smtsort
+)
+"ectx.ml" 96 2792 2796 "ectx.ml" 103 3060 3079
+type(
+  Axioms.smtsort
+)
+"ectx.ml" 95 2757 2777 "ectx.ml" 104 3080 3087
+type(
+  Expr.T.hyp -> Axioms.smtsort
+)
+"ectx.ml" 104 3080 3088 "ectx.ml" 104 3080 3090
+type(
+  Expr.T.hyp list
+)
+ident(
+  int_ref hs "ectx.ml" 93 2665 2674 "ectx.ml" 93 2665 2676
+)
+"ectx.ml" 95 2757 2768 "ectx.ml" 104 3080 3090
+type(
+  Axioms.smtsort list
+)
+"ectx.ml" 105 3094 3100 "ectx.ml" 105 3094 3103
+type(
+  (string * Axioms.smtsort) list
+)
+ident(
+  def vss "ectx.ml" 106 3128 3130 "ectx.ml" 106 3128 3146
+)
+"ectx.ml" 105 3094 3106 "ectx.ml" 105 3094 3118
+type(
+  string list -> Axioms.smtsort list -> (string * Axioms.smtsort) list
+)
+ident(
+  int_ref Ext.List.combine "ext.mli" 43 1872 1874 "ext.mli" 43 1872 1924
+)
+"ectx.ml" 105 3094 3119 "ectx.ml" 105 3094 3121
+type(
+  string list
+)
+ident(
+  int_ref vs "ectx.ml" 94 2697 2703 "ectx.ml" 94 2697 2705
+)
+"ectx.ml" 105 3094 3122 "ectx.ml" 105 3094 3124
+type(
+  Axioms.smtsort list
+)
+ident(
+  int_ref ss "ectx.ml" 95 2757 2763 "ectx.ml" 95 2757 2765
+)
+"ectx.ml" 105 3094 3106 "ectx.ml" 105 3094 3124
+type(
+  (string * Axioms.smtsort) list
+)
+"ectx.ml" 106 3128 3131 "ectx.ml" 106 3128 3133
+type(
+  Expr.T.hyp Dq.dq
+)
+ident(
+  int_ref dx "ectx.ml" 92 2630 2637 "ectx.ml" 92 2630 2639
+)
+"ectx.ml" 106 3128 3134 "ectx.ml" 106 3128 3136
+type(
+  int Ctx.ctx
+)
+ident(
+  int_ref cx "ectx.ml" 92 2630 2640 "ectx.ml" 92 2630 2642
+)
+"ectx.ml" 106 3128 3130 "ectx.ml" 106 3128 3137
+type(
+  Expr.T.hyp Dq.dq * int Ctx.ctx
+)
+"ectx.ml" 106 3128 3139 "ectx.ml" 106 3128 3142
+type(
+  (string * Axioms.smtsort) list
+)
+ident(
+  int_ref vss "ectx.ml" 105 3094 3100 "ectx.ml" 105 3094 3103
+)
+"ectx.ml" 106 3128 3144 "ectx.ml" 106 3128 3146
+type(
+  Expr.T.hyp list
+)
+ident(
+  int_ref hs "ectx.ml" 93 2665 2674 "ectx.ml" 93 2665 2676
+)
+"ectx.ml" 106 3128 3130 "ectx.ml" 106 3128 3146
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Axioms.smtsort) list *
+  Expr.T.hyp list
+)
+"ectx.ml" 105 3094 3096 "ectx.ml" 106 3128 3146
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Axioms.smtsort) list *
+  Expr.T.hyp list
+)
+"ectx.ml" 95 2757 2759 "ectx.ml" 106 3128 3146
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Axioms.smtsort) list *
+  Expr.T.hyp list
+)
+"ectx.ml" 94 2697 2699 "ectx.ml" 106 3128 3146
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Axioms.smtsort) list *
+  Expr.T.hyp list
+)
+"ectx.ml" 93 2665 2667 "ectx.ml" 106 3128 3146
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Axioms.smtsort) list *
+  Expr.T.hyp list
+)
+"ectx.ml" 92 2630 2632 "ectx.ml" 106 3128 3146
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Axioms.smtsort) list *
+  Expr.T.hyp list
+)
+"ectx.ml" 91 2568 2570 "ectx.ml" 106 3128 3146
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Axioms.smtsort) list *
+  Expr.T.hyp list
+)
+"ectx.ml" 108 3148 3152 "ectx.ml" 108 3148 3158
+type(
+  'a Dq.dq * 'b Ctx.ctx -> int -> string
+)
+ident(
+  def tla_id "ectx.ml" 112 3259 3259 "ectx.ml" 0 0 -1
+)
+"ectx.ml" 108 3148 3160 "ectx.ml" 108 3148 3162
+type(
+  'a Dq.dq
+)
+ident(
+  def dx "ectx.ml" 108 3148 3167 "ectx.ml" 110 3213 3257
+)
+"ectx.ml" 108 3148 3163 "ectx.ml" 108 3148 3165
+type(
+  'b Ctx.ctx
+)
+ident(
+  def cx "ectx.ml" 108 3148 3167 "ectx.ml" 110 3213 3257
+)
+"ectx.ml" 108 3148 3159 "ectx.ml" 108 3148 3166
+type(
+  'a Dq.dq * 'b Ctx.ctx
+)
+"ectx.ml" 108 3148 3167 "ectx.ml" 108 3148 3168
+type(
+  int
+)
+ident(
+  def n "ectx.ml" 109 3171 3173 "ectx.ml" 110 3213 3257
+)
+"ectx.ml" 109 3171 3181 "ectx.ml" 109 3171 3182
+type(
+  int
+)
+ident(
+  int_ref n "ectx.ml" 108 3148 3167 "ectx.ml" 108 3148 3168
+)
+"ectx.ml" 109 3171 3183 "ectx.ml" 109 3171 3184
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 140 5875 5875 "stdlib.mli" 140 5875 5925
+)
+"ectx.ml" 109 3171 3185 "ectx.ml" 109 3171 3186
+type(
+  int
+)
+"ectx.ml" 109 3171 3181 "ectx.ml" 109 3171 3186
+type(
+  bool
+)
+"ectx.ml" 109 3171 3187 "ectx.ml" 109 3171 3189
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
+)
+"ectx.ml" 109 3171 3190 "ectx.ml" 109 3171 3191
+type(
+  int
+)
+ident(
+  int_ref n "ectx.ml" 108 3148 3167 "ectx.ml" 108 3148 3168
+)
+"ectx.ml" 109 3171 3192 "ectx.ml" 109 3171 3194
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( <= ) "stdlib.mli" 145 6033 6033 "stdlib.mli" 145 6033 6082
+)
+"ectx.ml" 109 3171 3195 "ectx.ml" 109 3171 3201
+type(
+  'a Dq.dq * 'b Ctx.ctx -> int
+)
+ident(
+  int_ref length "ectx.ml" 22 487 491 "ectx.ml" 22 487 497
+)
+"ectx.ml" 109 3171 3203 "ectx.ml" 109 3171 3205
+type(
+  'a Dq.dq
+)
+ident(
+  int_ref dx "ectx.ml" 108 3148 3160 "ectx.ml" 108 3148 3162
+)
+"ectx.ml" 109 3171 3206 "ectx.ml" 109 3171 3208
+type(
+  'b Ctx.ctx
+)
+ident(
+  int_ref cx "ectx.ml" 108 3148 3163 "ectx.ml" 108 3148 3165
+)
+"ectx.ml" 109 3171 3202 "ectx.ml" 109 3171 3209
+type(
+  'a Dq.dq * 'b Ctx.ctx
+)
+"ectx.ml" 109 3171 3195 "ectx.ml" 109 3171 3209
+type(
+  int
+)
+"ectx.ml" 109 3171 3190 "ectx.ml" 109 3171 3209
+type(
+  bool
+)
+"ectx.ml" 109 3171 3180 "ectx.ml" 109 3171 3210
+type(
+  bool
+)
+"ectx.ml" 109 3171 3173 "ectx.ml" 109 3171 3210
+type(
+  unit
+)
+"ectx.ml" 110 3213 3215 "ectx.ml" 110 3213 3234
+type(
+  Ctx.ident -> string
+)
+ident(
+  int_ref Ctx.string_of_ident "ctx.mli" 39 813 813 "ctx.mli" 39 813 849
+)
+"ectx.ml" 110 3213 3236 "ectx.ml" 110 3213 3239
+type(
+  Ctx.ident * 'b option -> Ctx.ident
+)
+ident(
+  int_ref Stdlib.fst "stdlib.mli" 811 30222 30222 "stdlib.mli" 811 30222 30262
+)
+"ectx.ml" 110 3213 3241 "ectx.ml" 110 3213 3250
+type(
+  'b Ctx.ctx -> int -> Ctx.ident * 'b option
+)
+ident(
+  int_ref Ctx.index "ctx.mli" 9 164 164 "ctx.mli" 9 164 209
+)
+"ectx.ml" 110 3213 3251 "ectx.ml" 110 3213 3253
+type(
+  'b Ctx.ctx
+)
+ident(
+  int_ref cx "ectx.ml" 108 3148 3163 "ectx.ml" 108 3148 3165
+)
+"ectx.ml" 110 3213 3254 "ectx.ml" 110 3213 3255
+type(
+  int
+)
+ident(
+  int_ref n "ectx.ml" 108 3148 3167 "ectx.ml" 108 3148 3168
+)
+"ectx.ml" 110 3213 3240 "ectx.ml" 110 3213 3256
+type(
+  Ctx.ident * 'b option
+)
+"ectx.ml" 110 3213 3235 "ectx.ml" 110 3213 3257
+type(
+  Ctx.ident
+)
+"ectx.ml" 110 3213 3215 "ectx.ml" 110 3213 3257
+type(
+  string
+)
+"ectx.ml" 109 3171 3173 "ectx.ml" 110 3213 3257
+type(
+  string
+)
+"ectx.ml" 112 3259 3263 "ectx.ml" 112 3259 3269
+type(
+  Expr.T.hyp_ Property.wrapped Dq.dq * 'a Ctx.ctx -> int -> string
+)
+ident(
+  def smt_id "ectx.ml" 118 3494 3494 "ectx.ml" 0 0 -1
+)
+"ectx.ml" 112 3259 3271 "ectx.ml" 112 3259 3273
+type(
+  Expr.T.hyp_ Property.wrapped Dq.dq
+)
+ident(
+  def dx "ectx.ml" 112 3259 3278 "ectx.ml" 114 3313 3357
+)
+"ectx.ml" 112 3259 3274 "ectx.ml" 112 3259 3276
+type(
+  'a Ctx.ctx
+)
+ident(
+  def cx "ectx.ml" 112 3259 3278 "ectx.ml" 114 3313 3357
+)
+"ectx.ml" 112 3259 3270 "ectx.ml" 112 3259 3277
+type(
+  Expr.T.hyp_ Property.wrapped Dq.dq * 'a Ctx.ctx
+)
+"ectx.ml" 112 3259 3278 "ectx.ml" 112 3259 3279
+type(
+  int
+)
+ident(
+  def n "ectx.ml" 113 3282 3284 "ectx.ml" 114 3313 3357
+)
+"ectx.ml" 113 3282 3288 "ectx.ml" 113 3282 3290
+type(
+  string
+)
+ident(
+  def id "ectx.ml" 114 3313 3315 "ectx.ml" 114 3313 3357
+)
+"ectx.ml" 113 3282 3293 "ectx.ml" 113 3282 3299
+type(
+  Expr.T.hyp_ Property.wrapped Dq.dq * 'a Ctx.ctx -> int -> string
+)
+ident(
+  int_ref tla_id "ectx.ml" 108 3148 3152 "ectx.ml" 108 3148 3158
+)
+"ectx.ml" 113 3282 3301 "ectx.ml" 113 3282 3303
+type(
+  Expr.T.hyp_ Property.wrapped Dq.dq
+)
+ident(
+  int_ref dx "ectx.ml" 112 3259 3271 "ectx.ml" 112 3259 3273
+)
+"ectx.ml" 113 3282 3304 "ectx.ml" 113 3282 3306
+type(
+  'a Ctx.ctx
+)
+ident(
+  int_ref cx "ectx.ml" 112 3259 3274 "ectx.ml" 112 3259 3276
+)
+"ectx.ml" 113 3282 3300 "ectx.ml" 113 3282 3307
+type(
+  Expr.T.hyp_ Property.wrapped Dq.dq * 'a Ctx.ctx
+)
+"ectx.ml" 113 3282 3308 "ectx.ml" 113 3282 3309
+type(
+  int
+)
+ident(
+  int_ref n "ectx.ml" 112 3259 3278 "ectx.ml" 112 3259 3279
+)
+"ectx.ml" 113 3282 3293 "ectx.ml" 113 3282 3309
+type(
+  string
+)
+"ectx.ml" 114 3313 3315 "ectx.ml" 114 3313 3336
+type(
+  bool -> string -> string
+)
+ident(
+  int_ref Smtcommons.smt_pickle "smtcommons.mli" 217 6928 6928 "smtcommons.mli" 217 6928 6969
+)
+"ectx.ml" 114 3313 3338 "ectx.ml" 114 3313 3348
+type(
+  Expr.T.hyp_ Property.wrapped Dq.dq -> int -> bool
+)
+ident(
+  int_ref is_bounded "ectx.ml" 82 2383 2387 "ectx.ml" 82 2383 2397
+)
+"ectx.ml" 114 3313 3349 "ectx.ml" 114 3313 3351
+type(
+  Expr.T.hyp_ Property.wrapped Dq.dq
+)
+ident(
+  int_ref dx "ectx.ml" 112 3259 3271 "ectx.ml" 112 3259 3273
+)
+"ectx.ml" 114 3313 3352 "ectx.ml" 114 3313 3353
+type(
+  int
+)
+ident(
+  int_ref n "ectx.ml" 112 3259 3278 "ectx.ml" 112 3259 3279
+)
+"ectx.ml" 114 3313 3337 "ectx.ml" 114 3313 3354
+type(
+  bool
+)
+"ectx.ml" 114 3313 3355 "ectx.ml" 114 3313 3357
+type(
+  string
+)
+ident(
+  int_ref id "ectx.ml" 113 3282 3288 "ectx.ml" 113 3282 3290
+)
+"ectx.ml" 114 3313 3315 "ectx.ml" 114 3313 3357
+type(
+  string
+)
+"ectx.ml" 113 3282 3284 "ectx.ml" 114 3313 3357
+type(
+  string
+)
+"ectx.ml" 118 3494 3502 "ectx.ml" 118 3494 3511
+type(
+  t -> Expr.T.hyp Dq.dq -> t
+)
+ident(
+  def from_hyps "ectx.ml" 118 3494 3494 "ectx.ml" 0 0 -1
+)
+"ectx.ml" 118 3494 3513 "ectx.ml" 118 3494 3516
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def ecx "ectx.ml" 118 3494 3520 "ectx.ml" 133 3964 3973
+)
+"ectx.ml" 118 3494 3521 "ectx.ml" 118 3494 3523
+type(
+  Expr.T.hyp Deque.dq
+)
+type(
+  Expr.T.hyp Dq.dq
+)
+ident(
+  def hs "ectx.ml" 119 3544 3546 "ectx.ml" 133 3964 3973
+)
+"ectx.ml" 119 3544 3552 "ectx.ml" 119 3544 3560
+type(
+  Expr.T.hyp Dq.dq -> (Expr.T.hyp * Expr.T.hyp Dq.dq) option
+)
+ident(
+  int_ref Dq.front "deque.mli" 14 253 253 "deque.mli" 14 253 293
+)
+"ectx.ml" 119 3544 3561 "ectx.ml" 119 3544 3563
+type(
+  Expr.T.hyp Dq.dq
+)
+ident(
+  int_ref hs "ectx.ml" 118 3494 3521 "ectx.ml" 118 3494 3523
+)
+"ectx.ml" 119 3544 3552 "ectx.ml" 119 3544 3563
+type(
+  (Expr.T.hyp * Expr.T.hyp Dq.dq) option
+)
+"ectx.ml" 120 3569 3573 "ectx.ml" 120 3569 3577
+type(
+  (Expr.T.hyp * Expr.T.hyp Dq.dq) option
+)
+type(
+  (Expr.T.hyp * Expr.T.hyp Dq.dq) option
+)
+"ectx.ml" 120 3569 3581 "ectx.ml" 120 3569 3584
+type(
+  t
+)
+ident(
+  int_ref ecx "ectx.ml" 118 3494 3513 "ectx.ml" 118 3494 3516
+)
+"ectx.ml" 121 3585 3595 "ectx.ml" 121 3585 3596
+type(
+  Expr.T.hyp
+)
+ident(
+  def h "ectx.ml" 122 3605 3611 "ectx.ml" 133 3964 3973
+)
+"ectx.ml" 121 3585 3598 "ectx.ml" 121 3585 3600
+type(
+  Expr.T.hyp Dq.dq
+)
+ident(
+  def hs "ectx.ml" 122 3605 3611 "ectx.ml" 133 3964 3973
+)
+"ectx.ml" 121 3585 3594 "ectx.ml" 121 3585 3601
+type(
+  Expr.T.hyp * Expr.T.hyp Dq.dq
+)
+"ectx.ml" 121 3585 3589 "ectx.ml" 121 3585 3601
+type(
+  (Expr.T.hyp * Expr.T.hyp Dq.dq) option
+)
+type(
+  (Expr.T.hyp * Expr.T.hyp Dq.dq) option
+)
+"ectx.ml" 122 3605 3623 "ectx.ml" 122 3605 3624
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "ectx.ml" 121 3585 3595 "ectx.ml" 121 3585 3596
+)
+"ectx.ml" 122 3605 3623 "ectx.ml" 122 3605 3629
+type(
+  Expr.T.hyp_
+)
+"ectx.ml" 123 3635 3650 "ectx.ml" 123 3635 3652
+type(
+  Util.hint
+)
+ident(
+  def nm "ectx.ml" 129 3850 3860 "ectx.ml" 130 3885 3911
+)
+"ectx.ml" 123 3635 3654 "ectx.ml" 123 3635 3655
+type(
+  Expr.T.shape
+)
+"ectx.ml" 123 3635 3657 "ectx.ml" 123 3635 3658
+type(
+  Expr.T.kind
+)
+"ectx.ml" 123 3635 3660 "ectx.ml" 123 3635 3661
+type(
+  Expr.T.hdom
+)
+"ectx.ml" 123 3635 3643 "ectx.ml" 123 3635 3662
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"ectx.ml" 124 3663 3676 "ectx.ml" 124 3663 3678
+type(
+  Util.hint
+)
+ident(
+  def nm "ectx.ml" 129 3850 3860 "ectx.ml" 130 3885 3911
+)
+"ectx.ml" 124 3663 3671 "ectx.ml" 124 3663 3678
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"ectx.ml" 123 3635 3643 "ectx.ml" 124 3663 3678
+type(
+  Expr.T.hyp_
+)
+"ectx.ml" 125 3679 3711 "ectx.ml" 125 3679 3713
+type(
+  Util.hint
+)
+ident(
+  def nm "ectx.ml" 129 3850 3860 "ectx.ml" 130 3885 3911
+)
+"ectx.ml" 125 3679 3715 "ectx.ml" 125 3679 3716
+type(
+  Expr.T.expr
+)
+"ectx.ml" 125 3679 3701 "ectx.ml" 125 3679 3717
+type(
+  Expr.T.defn_
+)
+"ectx.ml" 126 3718 3750 "ectx.ml" 126 3718 3752
+type(
+  Util.hint
+)
+ident(
+  def nm "ectx.ml" 129 3850 3860 "ectx.ml" 130 3885 3911
+)
+"ectx.ml" 126 3718 3754 "ectx.ml" 126 3718 3755
+type(
+  Expr.T.instance
+)
+"ectx.ml" 126 3718 3740 "ectx.ml" 126 3718 3756
+type(
+  Expr.T.defn_
+)
+"ectx.ml" 125 3679 3701 "ectx.ml" 126 3718 3756
+type(
+  Expr.T.defn_
+)
+"ectx.ml" 127 3757 3788 "ectx.ml" 127 3757 3790
+type(
+  Util.hint
+)
+ident(
+  def nm "ectx.ml" 129 3850 3860 "ectx.ml" 130 3885 3911
+)
+"ectx.ml" 127 3757 3791 "ectx.ml" 127 3757 3792
+type(
+  Expr.T.expr
+)
+"ectx.ml" 127 3757 3793 "ectx.ml" 127 3757 3794
+type(
+  (Util.hint * Expr.T.backend_args) list list
+)
+"ectx.ml" 127 3757 3779 "ectx.ml" 127 3757 3795
+type(
+  Expr.T.defn_
+)
+"ectx.ml" 125 3679 3701 "ectx.ml" 127 3757 3795
+type(
+  Expr.T.defn_
+)
+"ectx.ml" 128 3796 3829 "ectx.ml" 128 3796 3831
+type(
+  Util.hint
+)
+ident(
+  def nm "ectx.ml" 129 3850 3860 "ectx.ml" 130 3885 3911
+)
+"ectx.ml" 128 3796 3833 "ectx.ml" 128 3796 3834
+type(
+  Expr.T.shape
+)
+"ectx.ml" 128 3796 3818 "ectx.ml" 128 3796 3835
+type(
+  Expr.T.defn_
+)
+"ectx.ml" 125 3679 3701 "ectx.ml" 128 3796 3835
+type(
+  Expr.T.defn_
+)
+"ectx.ml" 125 3679 3693 "ectx.ml" 128 3796 3836
+type(
+  Expr.T.defn
+)
+"ectx.ml" 128 3796 3838 "ectx.ml" 128 3796 3839
+type(
+  Expr.T.wheredef
+)
+"ectx.ml" 128 3796 3841 "ectx.ml" 128 3796 3842
+type(
+  Expr.T.visibility
+)
+"ectx.ml" 128 3796 3844 "ectx.ml" 128 3796 3845
+type(
+  Expr.T.export
+)
+"ectx.ml" 125 3679 3687 "ectx.ml" 128 3796 3846
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"ectx.ml" 123 3635 3643 "ectx.ml" 128 3796 3846
+type(
+  Expr.T.hyp_
+)
+"ectx.ml" 129 3850 3864 "ectx.ml" 129 3850 3867
+type(
+  Expr.T.hyp Dq.dq * int Ctx.ctx
+)
+ident(
+  def ecx "ectx.ml" 130 3885 3895 "ectx.ml" 130 3885 3911
+)
+"ectx.ml" 129 3850 3868 "ectx.ml" 129 3850 3869
+type(
+  string * Expr.T.hyp
+)
+"ectx.ml" 129 3850 3864 "ectx.ml" 129 3850 3869
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp)
+)
+"ectx.ml" 129 3850 3872 "ectx.ml" 129 3850 3875
+type(
+  t -> Expr.T.hyp -> (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp)
+)
+ident(
+  int_ref adj "ectx.ml" 53 1536 1540 "ectx.ml" 53 1536 1543
+)
+"ectx.ml" 129 3850 3876 "ectx.ml" 129 3850 3879
+type(
+  t
+)
+ident(
+  int_ref ecx "ectx.ml" 118 3494 3513 "ectx.ml" 118 3494 3516
+)
+"ectx.ml" 129 3850 3880 "ectx.ml" 129 3850 3881
+type(
+  Expr.T.hyp
+)
+ident(
+  int_ref h "ectx.ml" 121 3585 3595 "ectx.ml" 121 3585 3596
+)
+"ectx.ml" 129 3850 3872 "ectx.ml" 129 3850 3881
+type(
+  (Expr.T.hyp Dq.dq * int Ctx.ctx) * (string * Expr.T.hyp)
+)
+"ectx.ml" 130 3885 3895 "ectx.ml" 130 3885 3904
+type(
+  t -> Expr.T.hyp Dq.dq -> t
+)
+ident(
+  int_ref from_hyps "ectx.ml" 118 3494 3502 "ectx.ml" 118 3494 3511
+)
+"ectx.ml" 130 3885 3905 "ectx.ml" 130 3885 3908
+type(
+  t
+)
+ident(
+  int_ref ecx "ectx.ml" 129 3850 3864 "ectx.ml" 129 3850 3867
+)
+"ectx.ml" 130 3885 3909 "ectx.ml" 130 3885 3911
+type(
+  Expr.T.hyp Dq.dq
+)
+ident(
+  int_ref hs "ectx.ml" 121 3585 3598 "ectx.ml" 121 3585 3600
+)
+"ectx.ml" 130 3885 3895 "ectx.ml" 130 3885 3911
+type(
+  t
+)
+"ectx.ml" 129 3850 3860 "ectx.ml" 130 3885 3911
+type(
+  t
+)
+"ectx.ml" 131 3912 3925 "ectx.ml" 131 3912 3926
+type(
+  Expr.T.time
+)
+type(
+  Expr.T.visibility
+)
+type(
+  Expr.T.expr
+)
+"ectx.ml" 131 3912 3920 "ectx.ml" 131 3912 3926
+type(
+  Expr.T.hyp_
+)
+type(
+  Expr.T.hyp_
+)
+"ectx.ml" 132 3930 3940 "ectx.ml" 132 3930 3949
+type(
+  t -> Expr.T.hyp Dq.dq -> t
+)
+ident(
+  int_ref from_hyps "ectx.ml" 118 3494 3502 "ectx.ml" 118 3494 3511
+)
+"ectx.ml" 132 3930 3951 "ectx.ml" 132 3930 3955
+type(
+  t -> t
+)
+ident(
+  int_ref bump "ectx.ml" 29 665 669 "ectx.ml" 29 665 673
+)
+"ectx.ml" 132 3930 3956 "ectx.ml" 132 3930 3959
+type(
+  t
+)
+ident(
+  int_ref ecx "ectx.ml" 118 3494 3513 "ectx.ml" 118 3494 3516
+)
+"ectx.ml" 132 3930 3950 "ectx.ml" 132 3930 3960
+type(
+  t
+)
+"ectx.ml" 132 3930 3961 "ectx.ml" 132 3930 3963
+type(
+  Expr.T.hyp Dq.dq
+)
+ident(
+  int_ref hs "ectx.ml" 121 3585 3598 "ectx.ml" 121 3585 3600
+)
+"ectx.ml" 132 3930 3940 "ectx.ml" 132 3930 3963
+type(
+  t
+)
+"ectx.ml" 122 3605 3611 "ectx.ml" 133 3964 3973
+type(
+  t
+)
+"ectx.ml" 119 3544 3546 "ectx.ml" 133 3964 3973
+type(
+  t
+)

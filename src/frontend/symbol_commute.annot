@@ -1,0 +1,648 @@
+"symbol_commute.ml" 28 814 821 "symbol_commute.ml" 28 814 834
+ident(
+  def OrderedSymbol "symbol_commute.ml" 36 1125 1128 "symbol_commute.ml" 0 0 -1
+)
+"symbol_commute.ml" 31 860 866 "symbol_commute.ml" 31 860 873
+type(
+  Expr.T.expr_ Property.wrapped -> Expr.T.expr_ Property.wrapped -> int
+)
+ident(
+  def compare "symbol_commute.ml" 35 1100 1124 "symbol_commute.ml" 36 1125 1128
+)
+"symbol_commute.ml" 31 860 874 "symbol_commute.ml" 31 860 876
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def e1 "symbol_commute.ml" 31 860 877 "symbol_commute.ml" 35 1100 1124
+)
+"symbol_commute.ml" 31 860 877 "symbol_commute.ml" 31 860 879
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  def e2 "symbol_commute.ml" 31 860 882 "symbol_commute.ml" 35 1100 1124
+)
+"symbol_commute.ml" 31 860 889 "symbol_commute.ml" 31 860 891
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref e1 "symbol_commute.ml" 31 860 874 "symbol_commute.ml" 31 860 876
+)
+"symbol_commute.ml" 31 860 889 "symbol_commute.ml" 31 860 896
+type(
+  Expr.T.expr_
+)
+"symbol_commute.ml" 31 860 897 "symbol_commute.ml" 31 860 899
+type(
+  Expr.T.expr_ Property.wrapped
+)
+ident(
+  int_ref e2 "symbol_commute.ml" 31 860 877 "symbol_commute.ml" 31 860 879
+)
+"symbol_commute.ml" 31 860 897 "symbol_commute.ml" 31 860 904
+type(
+  Expr.T.expr_
+)
+"symbol_commute.ml" 31 860 888 "symbol_commute.ml" 31 860 905
+type(
+  Expr.T.expr_ * Expr.T.expr_
+)
+"symbol_commute.ml" 32 911 940 "symbol_commute.ml" 32 911 942
+type(
+  Builtin.builtin
+)
+ident(
+  def b1 "symbol_commute.ml" 32 911 983 "symbol_commute.ml" 34 1059 1099
+)
+"symbol_commute.ml" 32 911 931 "symbol_commute.ml" 32 911 942
+type(
+  Expr.T.expr_
+)
+"symbol_commute.ml" 32 911 923 "symbol_commute.ml" 32 911 943
+type(
+  Expr.T.expr
+)
+"symbol_commute.ml" 32 911 944 "symbol_commute.ml" 32 911 945
+type(
+  Expr.T.expr list
+)
+"symbol_commute.ml" 32 911 916 "symbol_commute.ml" 32 911 946
+type(
+  Expr.T.expr_
+)
+"symbol_commute.ml" 32 911 972 "symbol_commute.ml" 32 911 974
+type(
+  Builtin.builtin
+)
+ident(
+  def b2 "symbol_commute.ml" 32 911 983 "symbol_commute.ml" 34 1059 1099
+)
+"symbol_commute.ml" 32 911 963 "symbol_commute.ml" 32 911 974
+type(
+  Expr.T.expr_
+)
+"symbol_commute.ml" 32 911 955 "symbol_commute.ml" 32 911 975
+type(
+  Expr.T.expr
+)
+"symbol_commute.ml" 32 911 976 "symbol_commute.ml" 32 911 977
+type(
+  Expr.T.expr list
+)
+"symbol_commute.ml" 32 911 948 "symbol_commute.ml" 32 911 978
+type(
+  Expr.T.expr_
+)
+"symbol_commute.ml" 32 911 915 "symbol_commute.ml" 32 911 979
+type(
+  Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Expr.T.expr_ * Expr.T.expr_
+)
+"symbol_commute.ml" 32 911 986 "symbol_commute.ml" 32 911 988
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref b1 "symbol_commute.ml" 32 911 940 "symbol_commute.ml" 32 911 942
+)
+"symbol_commute.ml" 32 911 989 "symbol_commute.ml" 32 911 990
+type(
+  Builtin.builtin -> Builtin.builtin -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 135 5721 5721 "stdlib.mli" 135 5721 5768
+)
+"symbol_commute.ml" 32 911 991 "symbol_commute.ml" 32 911 993
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref b2 "symbol_commute.ml" 32 911 972 "symbol_commute.ml" 32 911 974
+)
+"symbol_commute.ml" 32 911 986 "symbol_commute.ml" 32 911 993
+type(
+  bool
+)
+"symbol_commute.ml" 32 911 999 "symbol_commute.ml" 32 911 1001
+type(
+  int
+)
+"symbol_commute.ml" 33 1002 1044 "symbol_commute.ml" 33 1002 1046
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref b2 "symbol_commute.ml" 32 911 972 "symbol_commute.ml" 32 911 974
+)
+"symbol_commute.ml" 33 1002 1047 "symbol_commute.ml" 33 1002 1048
+type(
+  Builtin.builtin -> Builtin.builtin -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 135 5721 5721 "stdlib.mli" 135 5721 5768
+)
+"symbol_commute.ml" 33 1002 1049 "symbol_commute.ml" 33 1002 1051
+type(
+  Builtin.builtin
+)
+ident(
+  int_ref b1 "symbol_commute.ml" 32 911 940 "symbol_commute.ml" 32 911 942
+)
+"symbol_commute.ml" 33 1002 1044 "symbol_commute.ml" 33 1002 1051
+type(
+  bool
+)
+"symbol_commute.ml" 33 1002 1057 "symbol_commute.ml" 33 1002 1058
+type(
+  int
+)
+"symbol_commute.ml" 34 1059 1098 "symbol_commute.ml" 34 1059 1099
+type(
+  int
+)
+"symbol_commute.ml" 33 1002 1041 "symbol_commute.ml" 34 1059 1099
+type(
+  int
+)
+"symbol_commute.ml" 32 911 983 "symbol_commute.ml" 34 1059 1099
+type(
+  int
+)
+"symbol_commute.ml" 35 1100 1104 "symbol_commute.ml" 35 1100 1105
+type(
+  Expr.T.expr_ * Expr.T.expr_
+)
+type(
+  Expr.T.expr_ * Expr.T.expr_
+)
+"symbol_commute.ml" 35 1100 1109 "symbol_commute.ml" 35 1100 1114
+type(
+  exn -> int
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"symbol_commute.ml" 35 1100 1115 "symbol_commute.ml" 35 1100 1124
+type(
+  exn
+)
+"symbol_commute.ml" 35 1100 1109 "symbol_commute.ml" 35 1100 1124
+type(
+  int
+)
+"symbol_commute.ml" 31 860 882 "symbol_commute.ml" 35 1100 1124
+type(
+  int
+)
+"symbol_commute.ml" 38 1132 1139 "symbol_commute.ml" 38 1132 1148
+ident(
+  def SymbolMap "symbol_commute.ml" 38 1132 1175 "symbol_commute.ml" 0 0 -1
+)
+"symbol_commute.ml" 40 1177 1181 "symbol_commute.ml" 40 1177 1195
+type(
+  (< expr : unit Expr.Visit.scx -> 'a -> Expr.T.expr; .. > *
+   (Expr.T.expr -> 'a))
+  SymbolMap.t -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  def symbol_commute "symbol_commute.ml" 59 1781 1801 "symbol_commute.ml" 0 0 -1
+)
+"symbol_commute.ml" 40 1177 1196 "symbol_commute.ml" 40 1177 1203
+type(
+  ((< expr : unit Expr.Visit.scx -> 'a -> Expr.T.expr; .. > as 'b) *
+   (Expr.T.expr -> 'a))
+  SymbolMap.t
+)
+ident(
+  def sym_map "symbol_commute.ml" 41 1206 1208 "symbol_commute.ml" 59 1781 1801
+)
+"symbol_commute.ml" 41 1206 1212 "symbol_commute.ml" 41 1206 1219
+type(
+  unit Expr.Visit.map
+)
+ident(
+  def visitor "symbol_commute.ml" 50 1467 1469 "symbol_commute.ml" 59 1781 1801
+)
+"symbol_commute.ml" 43 1272 1288 "symbol_commute.ml" 43 1272 1291
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  def scx "symbol_commute.ml" 43 1272 1292 "symbol_commute.ml" 48 1418 1457
+)
+"symbol_commute.ml" 43 1272 1292 "symbol_commute.ml" 43 1272 1293
+type(
+  Expr.T.expr
+)
+ident(
+  def e "symbol_commute.ml" 44 1296 1302 "symbol_commute.ml" 48 1418 1457
+)
+"symbol_commute.ml" 45 1306 1319 "symbol_commute.ml" 45 1306 1327
+type(
+  'b
+)
+ident(
+  def ivisitor "symbol_commute.ml" 46 1368 1376 "symbol_commute.ml" 46 1368 1406
+)
+"symbol_commute.ml" 45 1306 1328 "symbol_commute.ml" 45 1306 1336
+type(
+  Expr.T.expr -> 'a
+)
+ident(
+  def stripper "symbol_commute.ml" 46 1368 1376 "symbol_commute.ml" 46 1368 1406
+)
+"symbol_commute.ml" 45 1306 1318 "symbol_commute.ml" 45 1306 1337
+type(
+  'b * (Expr.T.expr -> 'a)
+)
+"symbol_commute.ml" 45 1306 1340 "symbol_commute.ml" 45 1306 1354
+type(
+  SymbolMap.key ->
+  ('b * (Expr.T.expr -> 'a)) SymbolMap.t -> 'b * (Expr.T.expr -> 'a)
+)
+ident(
+  int_ref SymbolMap.find "map.mli" 278 11157 11161 "map.mli" 278 11157 11188
+)
+"symbol_commute.ml" 45 1306 1355 "symbol_commute.ml" 45 1306 1356
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "symbol_commute.ml" 43 1272 1292 "symbol_commute.ml" 43 1272 1293
+)
+"symbol_commute.ml" 45 1306 1357 "symbol_commute.ml" 45 1306 1364
+type(
+  ('b * (Expr.T.expr -> 'a)) SymbolMap.t
+)
+ident(
+  int_ref sym_map "symbol_commute.ml" 40 1177 1196 "symbol_commute.ml" 40 1177 1203
+)
+"symbol_commute.ml" 45 1306 1340 "symbol_commute.ml" 45 1306 1364
+type(
+  'b * (Expr.T.expr -> 'a)
+)
+"symbol_commute.ml" 46 1368 1376 "symbol_commute.ml" 46 1368 1384
+type(
+  'b
+)
+ident(
+  int_ref ivisitor "symbol_commute.ml" 45 1306 1319 "symbol_commute.ml" 45 1306 1327
+)
+"symbol_commute.ml" 46 1368 1376 "symbol_commute.ml" 46 1368 1389
+type(
+  unit Expr.Visit.scx -> 'a -> Expr.T.expr
+)
+"symbol_commute.ml" 46 1368 1390 "symbol_commute.ml" 46 1368 1393
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "symbol_commute.ml" 43 1272 1288 "symbol_commute.ml" 43 1272 1291
+)
+"symbol_commute.ml" 46 1368 1395 "symbol_commute.ml" 46 1368 1403
+type(
+  Expr.T.expr -> 'a
+)
+ident(
+  int_ref stripper "symbol_commute.ml" 45 1306 1328 "symbol_commute.ml" 45 1306 1336
+)
+"symbol_commute.ml" 46 1368 1404 "symbol_commute.ml" 46 1368 1405
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "symbol_commute.ml" 43 1272 1292 "symbol_commute.ml" 43 1272 1293
+)
+"symbol_commute.ml" 46 1368 1394 "symbol_commute.ml" 46 1368 1406
+type(
+  'a
+)
+"symbol_commute.ml" 46 1368 1376 "symbol_commute.ml" 46 1368 1406
+type(
+  Expr.T.expr
+)
+"symbol_commute.ml" 45 1306 1314 "symbol_commute.ml" 46 1368 1406
+type(
+  Expr.T.expr
+)
+"symbol_commute.ml" 48 1418 1428 "symbol_commute.ml" 48 1418 1437
+type(
+  exn
+)
+"symbol_commute.ml" 48 1418 1441 "symbol_commute.ml" 48 1418 1446
+type(
+  unit Expr.Visit.map
+)
+ident(
+  ext_ref self-1
+)
+type(
+  unit Expr.Visit.map
+)
+ident(
+  int_ref super "symbol_commute.ml" 42 1229 1241 "symbol_commute.ml" 42 1229 1262
+)
+"symbol_commute.ml" 48 1418 1441 "symbol_commute.ml" 48 1418 1451
+type(
+  unit Expr.Visit.map -> unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+ident(
+  ext_ref expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"symbol_commute.ml" 48 1418 1452 "symbol_commute.ml" 48 1418 1455
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "symbol_commute.ml" 43 1272 1288 "symbol_commute.ml" 43 1272 1291
+)
+"symbol_commute.ml" 48 1418 1456 "symbol_commute.ml" 48 1418 1457
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "symbol_commute.ml" 43 1272 1292 "symbol_commute.ml" 43 1272 1293
+)
+"symbol_commute.ml" 48 1418 1441 "symbol_commute.ml" 48 1418 1457
+type(
+  Expr.T.expr
+)
+"symbol_commute.ml" 44 1296 1302 "symbol_commute.ml" 48 1418 1457
+type(
+  Expr.T.expr
+)
+"symbol_commute.ml" 41 1206 1222 "symbol_commute.ml" 49 1458 1463
+type(
+  unit Expr.Visit.map
+)
+"symbol_commute.ml" 50 1467 1473 "symbol_commute.ml" 50 1467 1474
+type(
+  Expr.T.expr
+)
+ident(
+  def e "symbol_commute.ml" 51 1478 1482 "symbol_commute.ml" 59 1781 1801
+)
+"symbol_commute.ml" 51 1478 1486 "symbol_commute.ml" 51 1478 1488
+type(
+  'c Deque.dq
+)
+ident(
+  def cx "symbol_commute.ml" 52 1506 1510 "symbol_commute.ml" 59 1781 1801
+)
+"symbol_commute.ml" 51 1478 1491 "symbol_commute.ml" 51 1478 1502
+type(
+  'c Deque.dq
+)
+ident(
+  int_ref Deque.empty "deque.mli" 10 144 144 "deque.mli" 10 144 161
+)
+"symbol_commute.ml" 52 1506 1514 "symbol_commute.ml" 52 1506 1517
+type(
+  unit * 'd Deque.dq
+)
+ident(
+  def scx "symbol_commute.ml" 53 1531 1535 "symbol_commute.ml" 59 1781 1801
+)
+"symbol_commute.ml" 52 1506 1521 "symbol_commute.ml" 52 1506 1523
+type(
+  unit
+)
+"symbol_commute.ml" 52 1506 1524 "symbol_commute.ml" 52 1506 1526
+type(
+  'd Deque.dq
+)
+ident(
+  int_ref cx "symbol_commute.ml" 51 1478 1486 "symbol_commute.ml" 51 1478 1488
+)
+"symbol_commute.ml" 52 1506 1520 "symbol_commute.ml" 52 1506 1527
+type(
+  unit * 'd Deque.dq
+)
+"symbol_commute.ml" 53 1531 1539 "symbol_commute.ml" 53 1531 1546
+type(
+  unit Expr.Visit.map
+)
+ident(
+  int_ref visitor "symbol_commute.ml" 41 1206 1212 "symbol_commute.ml" 41 1206 1219
+)
+"symbol_commute.ml" 53 1531 1539 "symbol_commute.ml" 53 1531 1551
+type(
+  unit Expr.Visit.scx -> Expr.T.expr -> Expr.T.expr
+)
+"symbol_commute.ml" 53 1531 1552 "symbol_commute.ml" 53 1531 1555
+type(
+  unit Expr.Visit.scx
+)
+ident(
+  int_ref scx "symbol_commute.ml" 52 1506 1514 "symbol_commute.ml" 52 1506 1517
+)
+"symbol_commute.ml" 53 1531 1556 "symbol_commute.ml" 53 1531 1557
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "symbol_commute.ml" 50 1467 1473 "symbol_commute.ml" 50 1467 1474
+)
+"symbol_commute.ml" 53 1531 1539 "symbol_commute.ml" 53 1531 1557
+type(
+  Expr.T.expr
+)
+"symbol_commute.ml" 54 1563 1577 "symbol_commute.ml" 54 1563 1580
+type(
+  string
+)
+ident(
+  def msg "symbol_commute.ml" 55 1584 1592 "symbol_commute.ml" 59 1781 1801
+)
+"symbol_commute.ml" 54 1563 1569 "symbol_commute.ml" 54 1563 1580
+type(
+  exn
+)
+"symbol_commute.ml" 55 1584 1592 "symbol_commute.ml" 55 1584 1604
+type(
+  ?debug:string ->
+  ?at:Expr.T.expr ->
+  ?prefix:string ->
+  ?nonl:unit ->
+  ((Format.formatter -> unit) -> unit, Format.formatter, unit) format ->
+  (Format.formatter -> unit) -> unit
+)
+ident(
+  int_ref Util.eprintf "util.mli" 46 1132 1132 "util.mli" 48 1217 1267
+)
+"symbol_commute.ml" 55 1584 1609 "symbol_commute.ml" 55 1584 1610
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "symbol_commute.ml" 50 1467 1473 "symbol_commute.ml" 50 1467 1474
+)
+type(
+  Expr.T.expr option
+)
+"symbol_commute.ml" 56 1611 1621 "symbol_commute.ml" 56 1611 1653
+type(
+  ((Format.formatter -> unit) -> unit, Format.formatter, unit) format
+)
+"symbol_commute.ml" 57 1654 1669 "symbol_commute.ml" 57 1654 1671
+type(
+  Format.formatter
+)
+ident(
+  def ff "symbol_commute.ml" 57 1654 1675 "symbol_commute.ml" 57 1654 1723
+)
+"symbol_commute.ml" 57 1654 1675 "symbol_commute.ml" 57 1654 1697
+type(
+  ?temp:bool -> Expr.Fmt.ctx -> Format.formatter -> Expr.T.expr -> unit
+)
+ident(
+  int_ref Expr.Fmt.pp_print_expr "expr.mli" 393 10055 10059 "expr.mli" 396 10143 10159
+)
+"symbol_commute.ml" 57 1654 1700 "symbol_commute.ml" 57 1654 1703
+type(
+  unit * Expr.T.hyp Deque.dq -> Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 814 30309 30309 "stdlib.mli" 814 30309 30349
+)
+"symbol_commute.ml" 57 1654 1704 "symbol_commute.ml" 57 1654 1707
+type(
+  unit * Expr.T.hyp Deque.dq
+)
+ident(
+  int_ref scx "symbol_commute.ml" 52 1506 1514 "symbol_commute.ml" 52 1506 1517
+)
+"symbol_commute.ml" 57 1654 1699 "symbol_commute.ml" 57 1654 1708
+type(
+  Expr.T.hyp Deque.dq
+)
+"symbol_commute.ml" 57 1654 1710 "symbol_commute.ml" 57 1654 1717
+type(
+  int Ctx.ctx
+)
+ident(
+  int_ref Ctx.dot "ctx.mli" 20 424 424 "ctx.mli" 20 424 439
+)
+"symbol_commute.ml" 57 1654 1698 "symbol_commute.ml" 57 1654 1718
+type(
+  Expr.Fmt.ctx
+)
+"symbol_commute.ml" 57 1654 1719 "symbol_commute.ml" 57 1654 1721
+type(
+  Format.formatter
+)
+ident(
+  int_ref ff "symbol_commute.ml" 57 1654 1669 "symbol_commute.ml" 57 1654 1671
+)
+"symbol_commute.ml" 57 1654 1722 "symbol_commute.ml" 57 1654 1723
+type(
+  Expr.T.expr
+)
+ident(
+  int_ref e "symbol_commute.ml" 50 1467 1473 "symbol_commute.ml" 50 1467 1474
+)
+"symbol_commute.ml" 57 1654 1675 "symbol_commute.ml" 57 1654 1723
+type(
+  unit
+)
+"symbol_commute.ml" 57 1654 1664 "symbol_commute.ml" 57 1654 1724
+type(
+  Format.formatter -> unit
+)
+"symbol_commute.ml" 55 1584 1592 "symbol_commute.ml" 57 1654 1724
+type(
+  unit
+)
+"symbol_commute.ml" 58 1727 1737 "symbol_commute.ml" 58 1727 1749
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.prerr_string "stdlib.mli" 881 32063 32063 "stdlib.mli" 881 32063 32096
+)
+"symbol_commute.ml" 58 1727 1750 "symbol_commute.ml" 58 1727 1761
+type(
+  string
+)
+"symbol_commute.ml" 58 1727 1737 "symbol_commute.ml" 58 1727 1761
+type(
+  unit
+)
+"symbol_commute.ml" 58 1727 1763 "symbol_commute.ml" 58 1727 1775
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.prerr_string "stdlib.mli" 881 32063 32063 "stdlib.mli" 881 32063 32096
+)
+"symbol_commute.ml" 58 1727 1776 "symbol_commute.ml" 58 1727 1779
+type(
+  string
+)
+ident(
+  int_ref msg "symbol_commute.ml" 54 1563 1577 "symbol_commute.ml" 54 1563 1580
+)
+"symbol_commute.ml" 58 1727 1763 "symbol_commute.ml" 58 1727 1779
+type(
+  unit
+)
+"symbol_commute.ml" 59 1781 1789 "symbol_commute.ml" 59 1781 1797
+type(
+  string -> Expr.T.expr
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"symbol_commute.ml" 59 1781 1798 "symbol_commute.ml" 59 1781 1801
+type(
+  string
+)
+ident(
+  int_ref msg "symbol_commute.ml" 54 1563 1577 "symbol_commute.ml" 54 1563 1580
+)
+"symbol_commute.ml" 59 1781 1789 "symbol_commute.ml" 59 1781 1801
+type(
+  Expr.T.expr
+)
+"symbol_commute.ml" 58 1727 1763 "symbol_commute.ml" 59 1781 1801
+type(
+  Expr.T.expr
+)
+"symbol_commute.ml" 58 1727 1737 "symbol_commute.ml" 59 1781 1801
+type(
+  Expr.T.expr
+)
+"symbol_commute.ml" 55 1584 1592 "symbol_commute.ml" 59 1781 1801
+type(
+  Expr.T.expr
+)
+"symbol_commute.ml" 53 1531 1535 "symbol_commute.ml" 59 1781 1801
+type(
+  Expr.T.expr
+)
+"symbol_commute.ml" 52 1506 1510 "symbol_commute.ml" 59 1781 1801
+type(
+  Expr.T.expr
+)
+"symbol_commute.ml" 51 1478 1482 "symbol_commute.ml" 59 1781 1801
+type(
+  Expr.T.expr
+)
+"symbol_commute.ml" 50 1467 1469 "symbol_commute.ml" 59 1781 1801
+type(
+  Expr.T.expr -> Expr.T.expr
+)
+"symbol_commute.ml" 41 1206 1208 "symbol_commute.ml" 59 1781 1801
+type(
+  Expr.T.expr -> Expr.T.expr
+)
