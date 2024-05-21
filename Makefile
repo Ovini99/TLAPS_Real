@@ -2,7 +2,7 @@
 
 INSTALL = /usr/bin/install -c
 
-prefix = /home/ovini/NFMDemo
+prefix = /home/ovini/myRealTLA
 exec_prefix = ${prefix}
 
 srcdir          = .
@@ -206,7 +206,7 @@ same:
 .PHONY: same-justconf
 same-justconf:
 	./configure ${CONFIGARGS} \
-	  --prefix /home/ovini/NFMDemo \
+	  --prefix /home/ovini/myRealTLA \
 	  --enable-debugging=no \
 	  --enable-profiling=no
 

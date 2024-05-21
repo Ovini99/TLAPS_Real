@@ -35,3 +35,5 @@ The User_Manual.txt file contains describes usage of the tool
 
 The examples/real_num_examples folder contains TLA+ specification examples to run with the proof manager (these examples contain theorems with real arithmetic)
 The theorems in these examples use the `BY Z3` keyword to call the Z3 backend  
+
+Refer to our paper `Real Arithmetic in TLAPM NFM 2024` for further information
